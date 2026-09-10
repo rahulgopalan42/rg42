@@ -59,6 +59,7 @@
 - 1.83bn total TV audience in 2025. 76M average audience per Grand Prix. Around 24 race weekends a year.
 - F1 fans have the highest concentration of business decision makers in sport: index 160 for management and strategy roles, where 100 is the general population.
 - 66% of Paddock Club guests are senior executives.
+- Hospitality maths: passes work all three days of a race weekend. Rotate guests day by day, so seven passes can host twenty different people in one weekend.
 - More than 350 partner companies across the grid. Every team carries at least 25 partners.
 - Team sponsorship market 2026: $2.2bn across 335 deals. Doubled since 2020.
 - Pricing logic: eleven teams worldwide, one category seat per team, deals run three to five years. Small supply, growing demand.
@@ -199,6 +200,8 @@
 >
 > **Three, hospitality.** This is where Formula 1 is special. Paddock access, the Paddock Club, garage tours, time with the drivers. To give you a feel: 66% of Paddock Club guests are senior executives. Every race is a weekend where you host the people you most want to do business with, in a place money alone cannot book.
 >
+> And one detail people miss. A Grand Prix runs over three days, and your passes work every day. So seven passes does not mean seven guests. You bring different people on Friday, on Saturday, and on Sunday. Seven passes can host twenty different guests in one weekend, and hundreds across a season. Very few platforms multiply your hosting like that.
+>
 > **Four, content and digital.** Access to the team's channels, the drivers, behind-the-scenes content made with you. Formula 1 is the number one sport in the world for social engagement, 2.2 billion engagements, ahead of the NBA. And in the sport's own fan survey, 61% of surveyed fans engage with F1 content every day.
 >
 > **Five, people.** Driver appearances, team bosses at your events, hot laps for your top clients, filming days for your campaigns. The team becomes part of your marketing engine, all year, not only on race days.
@@ -233,7 +236,21 @@
 
 ## Part 5: Questions she may ask. Prepared answers.
 
-### "What is the difference between partnering with F1 itself, a team, or a driver?"
+*[Quick index. Jump to any answer from the outline sidebar.]*
+
+- Q1. Series vs team vs driver
+- Q2. Visibility among thirty partners
+- Q3. B2B introductions
+- Q4. Which sectors to target
+- Q5. Measuring ROI
+- Q6. Who owns Formula 1
+- Q7. Cost, and why F1 is expensive
+- Q8. Why SPORTFIVE, why not go direct
+- Q9. Are we too small
+- Q10. Is the audience only men
+- Q11. Are competitors already in
+
+### Q1. "What is the difference between partnering with F1 itself, a team, or a driver?"
 
 > "Good question. Three doors into the sport.
 >
@@ -245,7 +262,7 @@
 >
 > The clear trend in the sport is that fans follow teams and drivers even more than the sport itself. Story beats logo. That is why our conversations usually start at team level, and the brief will tell us which team."
 
-### "You have so many partners per team. How does one brand get the visibility and attention it needs?"
+### Q2. "You have so many partners per team. How does one brand get the visibility and attention it needs?"
 
 > "Fair question. Thirty logos on a car sounds crowded. Three answers.
 >
@@ -257,7 +274,7 @@
 >
 > And keep one thing in mind. Visibility is only half the value. The access, the hospitality, the introductions, those are private rights. They do not get diluted because other partners exist. If anything, more partners in the room means more companies for you to meet."
 
-### "How do teams help with B2B introductions?"
+### Q3. "How do teams help with B2B introductions?"
 
 > "Very concretely. This is a managed process, not a cocktail party.
 >
@@ -267,7 +284,7 @@
 >
 > For Redo, picture it simply: 350 companies across the grid, many of them consumer brands and retailers, meeting each other all season. That is a pipeline, not a billboard."
 
-### "How do we know which sectors to target, and how do we reach them?"
+### Q4. "How do we know which sectors to target, and how do we reach them?"
 
 > "We work backwards from your customers, not forwards from the sport.
 >
@@ -277,7 +294,7 @@
 >
 > Step three, we recommend the team where that overlap is strongest, so your partner family is full of future customers. Then the platform does its work. You meet these companies as a fellow partner, race after race, all season. You are not cold-calling them anymore. You are standing next to them."
 
-### "How is ROI measured in Formula 1?"
+### Q5. "How is ROI measured in Formula 1?"
 
 > "Four ways, usually, and good teams report on all of them.
 >
@@ -291,7 +308,7 @@
 >
 > You agree the framework upfront, and you review it with the team every quarter. The good teams manage a partnership like a business, not like a sticker on a car."
 
-### "Who owns Formula 1? How does the money work?"
+### Q6. "Who owns Formula 1? How does the money work?"
 
 > "Three layers, very simple.
 >
@@ -303,7 +320,7 @@
 >
 > One thing worth knowing: since 2021 the sport has a cost cap. Teams cannot outspend each other without limit anymore. The result is that teams became profitable, stable businesses, and their values have grown sharply. Team sponsorship has doubled since 2020, from about one billion to 2.2 billion dollars a year, across 335 deals. So you would be entering a healthy, growing market. You can see it in the calibre of brands arriving: Microsoft joined Mercedes just this year."
 
-### "What does a partnership cost, and why is Formula 1 so expensive?"
+### Q7. "What does a partnership cost, and why is Formula 1 so expensive?"
 
 *[Only if she asks. Stay qualitative, ranges not quotes.]*
 
@@ -325,7 +342,7 @@
 
 *[Background for you, never quoted on the call: reported title benchmarks are around $75M to $110M a year at the top teams.]*
 
-### "Why work with SPORTFIVE? Could we not go to a team directly?"
+### Q8. "Why work with SPORTFIVE? Could we not go to a team directly?"
 
 > "You could, and some brands do. Brands use us for two reasons.
 >
@@ -335,7 +352,7 @@
 >
 > And because the teams pay our fee, all of that costs you nothing. There is no scenario where you pay more by using us."
 
-### "Are we too small for Formula 1?"
+### Q9. "Are we too small for Formula 1?"
 
 > "I would not think about it as size. I would think about it as fit and ambition.
 >
@@ -343,7 +360,7 @@
 >
 > You have just raised a big round to go international. That is usually exactly the moment this platform makes sense. The brief will tell us if it does."
 
-### "Is the audience not mostly men who love cars?"
+### Q10. "Is the audience not mostly men who love cars?"
 
 > "It was, years ago. Not anymore.
 >
@@ -351,7 +368,7 @@
 >
 > This is now one of the youngest, most digital, most female audiences in major sport. That shift is exactly why consumer brands are arriving."
 
-### "Are any of our competitors already in Formula 1?"
+### Q11. "Are any of our competitors already in Formula 1?"
 
 > "I will not answer that from memory, because this market moves weekly and you deserve an exact answer.
 >
