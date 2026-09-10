@@ -93,9 +93,11 @@
 >
 > Then we made a deliberate change. We gave up those exclusive mandates, and we signed non-exclusive agreements with rights holders across the grid.
 >
-> Why? Because it lets us sit on your side of the table. We are not here to push one team at you. We look at the whole grid, and we recommend what is right for Redo.
+> Why? Because it lets us sit on your side of the table. We are not here to push one team at you.
 >
-> And one important thing about how we work. Our fee is paid by the teams, not by you. All the work we do for you, the research, the grid analysis, the evaluation, the negotiation, costs you nothing. When a deal happens, the rights holder pays us. So our interest is simple: find you the right home in Formula 1, because that is the only way we get paid."
+> So how do we work instead? Very simple. You give us a brief. We map it against all eleven teams. We bring you the most relevant opportunities, and when you like one, we negotiate it on your side.
+>
+> And the most important part. Our fee is paid by the teams, not by you. All the work I just described, the research, the grid mapping, the evaluation, the negotiation, costs you nothing. When a deal happens, the rights holder pays us. So our interest is simple: find you the right home in Formula 1, because that is the only way we get paid."
 
 *[Optional, if the mood is light. It usually lands well:]*
 
