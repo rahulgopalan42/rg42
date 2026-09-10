@@ -6,6 +6,39 @@
 
 ---
 
+## Call Navigator (keep this section open)
+
+**The goal of this call:** understand Redo, fill out the brief, teach her how F1 partnerships work, and agree the next step: grid mapping, then recommendations. She should leave feeling this costs her nothing and could be big.
+
+**The flow:**
+
+| Part | What happens | Time |
+|---|---|---|
+| 1 | Opening: you, SPORTFIVE, and how we get paid | 4 min |
+| 2 | Frame the call: two purposes, then a soft opener | 1 min |
+| 3 | Discovery: fill the brief (objectives, audience, markets, budget) | 15 min |
+| 4 | How F1 works: structure, rights, audience, why Redo | 10 min |
+| 5 | Her questions: prepared answers, use as needed | flex |
+| 6 | Close: next steps and the race invitation | 2 min |
+
+**Three messages that must land:**
+
+- **We sit on your side.** Non-exclusive across the whole grid, and the teams pay our fee. Everything we do for Redo is free.
+- **The multiplier.** One activation reaches the brands Redo sells to and their shoppers at the same time.
+- **Access is the product.** What partners really buy is the room: the best hospitality in sport, 350+ companies doing business with each other.
+
+**Fill in before the call:**
+
+- [Client name] for the front-of-shirt story in Part 1
+- [Colleague name] who brought the opportunity, Part 2
+- [Her name] and pronunciation
+- [Timeframe] you promise for recommendations in Part 6
+- Confirm internally: no live deal in the commerce-tech category
+
+**Navigate while you talk:** in Word use View, then Navigation Pane; in Google Docs use View, then Show outline. Every section appears in the sidebar; one click jumps you there. The quoted blocks are words to say. The bracketed italic lines are notes to you. Bold words are your glance anchors: look down, catch the anchor, keep talking.
+
+---
+
 ## Prep notes (not spoken)
 
 ### Who Redo is (verify on the call)
@@ -19,6 +52,7 @@
 - **Identity check:** this script is built for Redo, the US commerce platform (redo.com). There is also a small Swedish food brand called RE:DO. If the person on the call is not from the commerce company, park the F1 content and run discovery only.
 - **Category check:** do not claim on this call that the e-commerce or post-purchase category is open at any team. Categories move weekly. We verify at the recommendations stage.
 - **Pipeline check:** before the call, confirm internally that no live deal is running in the commerce-tech or post-purchase category.
+- **Names check:** the consumer and commerce names cited in the target-sectors answer (Eight Sleep, LEGO, Tumi, Mastercard, KitKat, Louis Vuitton, Heineken, Visa Cash App) were verified as of 10 Sep 2026. Categories move weekly; re-verify on call day.
 
 ### Numbers cheat sheet (drop in only where they fit; do not recite)
 - 827M fans worldwide. Up 63% since 2018. 42% female. 43% under 35.
@@ -198,6 +232,18 @@
 >
 > The clear trend in the sport is that fans follow teams and drivers even more than the sport itself. Story beats logo. That is why our conversations usually start at team level, and the brief will tell us which team."
 
+### "You have so many partners per team. How does one brand get the visibility and attention it needs?"
+
+> "Fair question. Thirty logos on a car sounds crowded. Three answers.
+>
+> First, a partnership is a structure, not a crowd. Every team organises its partners in clear tiers: title partner, principal partners, official partners. Your tier defines exactly what you own: the size and position of your branding on the car, your driver days, your content days, your hospitality allocation. It is all in the contract. Nothing is first come, first served.
+>
+> Second, exclusivity. Within your category, you are alone. The team cannot sign your competitor. So inside your world, you are not one of thirty. You are the only one.
+>
+> Third, attention is won through activation, not through logo size. The partners people remember are the ones who tell the best stories with the team: content, product integration, smart campaigns. That is where a digital-first brand like Redo can outperform much bigger names, and we and the team support you on that all season.
+>
+> And keep one thing in mind. Visibility is only half the value. The access, the hospitality, the introductions, those are private rights. They do not get diluted because other partners exist. If anything, more partners in the room means more companies for you to meet."
+
 ### "How do teams help with B2B introductions?"
 
 > "Very concretely. This is a managed process, not a cocktail party.
@@ -207,6 +253,16 @@
 > The best example from our own work is Airwallex, the payments company, a partner of McLaren, a deal our agency brokered. During the partnership, their revenue grew 50% year on year across EMEA and the Americas, and UK revenue grew 57% from new customer acquisition. That is what the platform can do when a partner works it properly.
 >
 > For Redo, picture it simply: 350 companies across the grid, many of them consumer brands and retailers, meeting each other all season. That is a pipeline, not a billboard."
+
+### "How do we know which sectors to target, and how do we reach them?"
+
+> "We work backwards from your customers, not forwards from the sport.
+>
+> Step one is the brief we are building today. You tell me who you serve and who you want to win: sectors, size of merchant, markets.
+>
+> Step two, we map exactly that against the grid, team by team. And I can tell you now what that map will show: the people you serve, and the people you are going after, are already investing in this sport. Direct-to-consumer brands like Eight Sleep, a partner of Aston Martin. Consumer names like LEGO and Tumi at McLaren, KitKat with Formula 1 itself, Louis Vuitton on the Monaco Grand Prix, Heineken across the sport. And commerce names too: Mastercard at McLaren, Visa Cash App on the Racing Bulls. Retailers and online brands. Your world is already in the paddock.
+>
+> Step three, we recommend the team where that overlap is strongest, so your partner family is full of future customers. Then the platform does its work. You meet these companies as a fellow partner, race after race, all season. You are not cold-calling them anymore. You are standing next to them."
 
 ### "How is ROI measured in Formula 1?"
 
