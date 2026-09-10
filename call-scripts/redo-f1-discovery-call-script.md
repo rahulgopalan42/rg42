@@ -15,7 +15,7 @@
 | Part | What happens | Time |
 |---|---|---|
 | 1 | Opening: you, SPORTFIVE, and how we get paid | 4 min |
-| 2 | Frame the call: two purposes, then a soft opener | 1 min |
+| 2 | Frame the call: two purposes, the operational-fit teaser, a soft opener | 2 min |
 | 3 | Discovery: fill the brief (objectives, audience, markets, budget) | 15 min |
 | 4 | How F1 works: structure, rights, audience, why Redo | 10 min |
 | 5 | Her questions: prepared answers, use as needed | flex |
@@ -103,7 +103,7 @@
 
 ---
 
-## Part 2: Frame the call (1 minute)
+## Part 2: Frame the call (2 minutes)
 
 > "So, why this call.
 >
@@ -116,6 +116,14 @@
 > Second, and more important, I want to learn about Redo. This call is a fact-finding exercise for us. I will ask you some questions that help us build a brief. After the call, my team maps the whole grid against that brief, and we come back to you with clear recommendations on the right way into the sport for Redo.
 >
 > Does that work for you?"
+
+**Why Redo caught my attention:**
+
+*[Say this early. It plants the integration idea you will ask about in Part 3.]*
+
+> "One thing worth sharing before my questions. When teams assess a new partner, they look across different metrics: budget, brand, audience fit. And one question they always ask: can this partner also support us operationally? A partner whose product does real work inside the team is worth more than a logo alone.
+>
+> Looking at Redo, I think there is a fit. Every team runs its own online store and serves fans all over the world. So potentially worth exploring: team store returns and exchanges, order tracking for fan merchandise, post-purchase fan support. Early thoughts. The brief will tell us more."
 
 *[Then open softly. Her answer decides how much teaching Part 4 needs:]*
 
