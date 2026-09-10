@@ -61,6 +61,7 @@
 - 66% of Paddock Club guests are senior executives.
 - More than 350 partner companies across the grid. Every team carries at least 25 partners.
 - Team sponsorship market 2026: $2.2bn across 335 deals. Doubled since 2020.
+- Pricing logic: eleven teams worldwide, one category seat per team, deals run three to five years. Small supply, growing demand.
 - F1 is number one in sport for social engagement: 2.2bn engagements, ahead of the NBA.
 - F1 fans as shoppers: brand loyalists index 200 (number one in sport). Research online before buying, 126 (number one). Buy premium versions, 132 (number one). High income, 131 (joint number one).
 - In the sport's own fan survey, 61% of surveyed fans engage with F1 content every day.
@@ -224,7 +225,9 @@
 >
 > **Second, the room itself.** More than 350 partner companies stand in that paddock, and consumer and retail brands alone are spending close to half a billion dollars on the sport this year. Those are exactly the companies that could run on Redo. As a partner, you are not a vendor knocking on their door. You are a fellow guest, standing next to them at every race.
 >
-> And here is the thing most people miss about Formula 1. What really drives the value of these partnerships is not the logo. It is the access. The premium experiences the sport delivers, on track and off track, are the best in all of sport. Nobody does hospitality like Formula 1. That is what partners are buying, and that is what opens the doors."
+> And here is the thing most people miss about Formula 1. What really drives the value of these partnerships is not the logo. It is the access. The premium experiences the sport delivers, on track and off track, are the best in all of sport. Nobody does hospitality like Formula 1. That is what partners are buying, and that is what opens the doors.
+>
+> One last thing on value. All of this sits on very small supply. Football has hundreds of clubs. Formula 1 has eleven teams, for the entire world, and inside each team your category has exactly one seat. Small supply, growing demand. That is why these partnerships are not cheap, and why they hold their value."
 
 ---
 
@@ -300,15 +303,25 @@
 >
 > One thing worth knowing: since 2021 the sport has a cost cap. Teams cannot outspend each other without limit anymore. The result is that teams became profitable, stable businesses, and their values have grown sharply. Team sponsorship has doubled since 2020, from about one billion to 2.2 billion dollars a year, across 335 deals. So you would be entering a healthy, growing market. You can see it in the calibre of brands arriving: Microsoft joined Mercedes just this year."
 
-### "What does a partnership cost?"
+### "What does a partnership cost, and why is Formula 1 so expensive?"
 
 *[Only if she asks. Stay qualitative, ranges not quotes.]*
 
-> "A wide range, and that is the honest answer.
+> "Let me explain how the pricing works, because Formula 1 has its own logic.
 >
-> As a rule of thumb: entry-level and supplier positions start in the low single-digit millions per year. Meaningful official partner positions with real rights and hospitality usually sit in the mid single-digit millions. Title partnerships, the name on the team, are a different world, well above fifty million a year.
+> The price follows the rights inside the deal: your tier, the size and position of your branding, driver time, content days, hospitality volume, and the category you lock. More rights, higher price. As a rule of thumb: entry-level and supplier positions start in the low single-digit millions per year. Meaningful official partner positions with real rights and hospitality sit in the mid single-digit millions. Title partnerships, the name on the team, are a different world, well above fifty million a year.
 >
-> This is exactly why we do the brief first. Our job is to match the level to your goals, and to negotiate it on your side. And remember, our advice costs you nothing."
+> And yes, Formula 1 costs more than most sport. There are clear reasons.
+>
+> First, supply. Football has hundreds of clubs. American leagues have around thirty teams, mostly in one market. Formula 1 has eleven teams, for the entire world. And inside each team, your category has exactly one seat. When a competitor takes it, it is gone, usually for three to five years. So for any brand, there are at most eleven doors on earth.
+>
+> Second, demand. Team sponsorship has doubled since 2020, from about one billion to 2.2 billion dollars a year. New money keeps arriving: Microsoft joined Mercedes this year at a reported sixty million dollars a season. Tiny supply, growing demand. Prices rise.
+>
+> Third, one deal covers the world. A domestic league lives mostly in its home market. Formula 1 gives you around 24 races across five continents, in one contract. For a brand going global, one F1 deal can replace many local ones.
+>
+> And fourth, the part I keep coming back to: access. The paddock, the hospitality, the room with 350 companies in it. That is what carries the price, because nobody else can offer it.
+>
+> This is why we do the brief first. Our job is to match the level to your goals, and then negotiate it hard on your side. And remember, our advice costs you nothing."
 
 *[Background for you, never quoted on the call: reported title benchmarks are around $75M to $110M a year at the top teams.]*
 
