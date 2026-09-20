@@ -2,7 +2,7 @@
 
 **Call type:** First call / discovery. Goal: introduce yourself and SPORTFIVE, understand Moncler's objectives, fill out the brief, show how F1 fits a luxury house, agree next steps.
 
-**How to use this script:** Every spoken block is written the way you would say it out loud. Do not read it word for word. Glance at the bold anchors, then talk. Short sentences, slow pace, warm tone. Keep it simple and concrete for a non-native English listener. Let them talk more than you.
+**How to use this script:** Every spoken block is written the way you would say it out loud. Do not read it word for word. Glance at the bold anchors, then talk. Short sentences, slow pace, warm tone. The listeners are from Italy and English is not their first language, so keep every sentence simple and concrete. Let them talk more than you.
 
 ---
 
@@ -13,7 +13,7 @@
 **The flow:**
 
 1. **Opening: you, SPORTFIVE, and the brand-first model.** 4 min
-2. **Frame the call: purpose, then why Moncler caught your attention.** 2 min
+2. **Frame the call: purpose, homework on Moncler, why now.** 2 min
 3. **Discovery: fill the brief (objectives, audience, markets, budget).** 15 min
 4. **How F1 works: structure, rights, audience, why Moncler, activation ideas.** 10 min
 5. **Their questions: prepared answers.** Use as needed
@@ -107,9 +107,9 @@
 >
 > Does that work for you?"
 
-**Why Moncler caught my attention:**
+**Why Moncler, and why now:**
 
-*[Say this early. It sets the frame: luxury is already moving.]*
+*[Say this early. Show the homework, then the timing.]*
 
 > "One thing before my questions: why this conversation, and why now.
 >

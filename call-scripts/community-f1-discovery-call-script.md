@@ -108,9 +108,9 @@
 >
 > Does that work for you?"
 
-**Why Community caught my attention:**
+**Why Community, and why now:**
 
-*[Say this early. It plants the integration idea you will ask about in Part 3.]*
+*[Say this early. Show the homework, then the timing, then the operational fit.]*
 
 > "One thing before my questions: why this conversation, and why now.
 >
