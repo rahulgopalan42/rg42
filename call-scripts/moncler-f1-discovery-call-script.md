@@ -73,11 +73,11 @@
 
 **About you:**
 
-> "I sit in the global sales team at SPORTFIVE, and I look after brand partnerships for our Formula 1 and motorsport business.
+> "I sit in the global sales team at SPORTFIVE, and I look after brand partnerships for our Formula 1 business.
 >
-> I started with our Middle East office, working on our exclusive accounts, where I brokered some of the region's biggest partnerships.
+> I spent most of my career in the Middle East. There I was tasked with driving partnerships for the accounts we worked with exclusively, mainly in football and gaming, and we closed some notable strategic partnerships in those years.
 >
-> Then I had the opportunity to join one of SPORTFIVE's priority projects, our Formula 1 division. I work closely with Bjorn, and with George here on the call. Our job is simple: deliver partnerships that make sense for both the brand and the rights holder. That is what I do today."
+> Then Formula 1 became a priority project for us, a global vertical of the business. My role in it is simple: drive strategic partnerships that work for both the brand and the rights holder. I do that together with Bjorn, and with George, who is here on the call."
 
 **About SPORTFIVE:**
 
@@ -111,11 +111,13 @@
 
 *[Say this early. It sets the frame: luxury is already moving.]*
 
-> "One thing worth sharing before my questions. Formula 1 and luxury used to be separate worlds. Not anymore. Louis Vuitton has its name on the Monaco Grand Prix. TAG Heuer on Madrid. Moet is back on the podium. And at team level, fashion houses are moving in: Brioni now dresses the Alpine team off track, Tommy Hilfiger is with the new Cadillac team, Hugo Boss with Racing Bulls.
+> "One thing before my questions: why this conversation, and why now.
 >
-> And Moncler has already touched this world once: Project Mondo G with Mercedes-Benz. The idea of Moncler and performance machines clearly works.
+> I did my homework on Moncler. A brand born in the French Alps in the 1950s, making jackets for the mountain. Then Mr Ruffini turned it into one of the great luxury stories of our time: more than three billion euros today, with Stone Island alongside. And what interests me most is how you work now. Grenoble keeps the performance soul. Genius turned collaboration into a platform. You even built a car with Mercedes-Benz, Project Mondo G. This is a house that likes bold partnerships.
 >
-> So for me the question is not whether luxury belongs in Formula 1. It is where Moncler would fit, and on whose terms. That is what the brief will tell us."
+> And the timing is why I picked up the phone. Fashion and luxury are moving into Formula 1 right now. Louis Vuitton has its name on the Monaco Grand Prix. TAG Heuer on Madrid. Moet is back on the podium. Brioni dresses the Alpine team, Tommy Hilfiger is with the new Cadillac team, Hugo Boss with Racing Bulls. The seats are being taken one by one. So a conversation with Moncler felt timely.
+>
+> For me the question is not whether luxury belongs in Formula 1. It is where Moncler fits, and on whose terms. That is what the brief will tell us."
 
 *[Then open softly. Their answer sets the depth for Part 4:]*
 
@@ -256,6 +258,7 @@
 - Q9. Why SPORTFIVE, why not go direct
 - Q10. Is the audience not mostly men
 - Q11. Are competitors already in
+- Q12. Rights, licensing and merchandise: how would it work
 
 ### Q1. "How are fashion and luxury brands doing this today?"
 
@@ -384,6 +387,18 @@
 > "Some luxury and fashion names are in, and I named the big ones. But I will not answer the category question from memory, because this market moves weekly and you deserve an exact answer.
 >
 > Mapping luxury apparel and outerwear across all eleven teams is part of the grid analysis we do after this call. When we come back with recommendations, you will see precisely who is in, who is not, and where the open positions are."
+
+### Q12. "If we create product together, how do rights, licensing and merchandise work?"
+
+> "Very good question, and this is where fashion deals differ from a normal sponsorship.
+>
+> A standard partnership gives you marketing rights: the team's name, logo and imagery for your campaigns. When you create product together, we add a license on top. The license defines what you can make, the team approves the designs, and both sides agree how the revenue is shared. Co-branded pieces usually carry a royalty back to the team, or a revenue share. The exact model is negotiated deal by deal.
+>
+> Distribution is also agreed upfront: your boutiques and your site, the team's store and race retail, or a limited drop across both. For a house like Moncler, limited is often better. Scarcity suits you.
+>
+> And one thing that matters to every luxury house: you keep control of the aesthetic. The best fashion deals in this sport are design-led. Brioni with Alpine is bespoke tailoring, not logo placement. We negotiate creative control into the contract from day one.
+>
+> So the mechanics exist, they are standard practice in this sport, and they are exactly the details we handle for you in the negotiation."
 
 ---
 

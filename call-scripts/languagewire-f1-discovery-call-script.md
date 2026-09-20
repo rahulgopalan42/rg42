@@ -72,11 +72,11 @@
 
 **About you:**
 
-> "I sit in the global sales team at SPORTFIVE, and I look after brand partnerships for our Formula 1 and motorsport business.
+> "I sit in the global sales team at SPORTFIVE, and I look after brand partnerships for our Formula 1 business.
 >
-> I started with our Middle East office, working on our exclusive accounts, where I brokered some of the region's biggest partnerships.
+> I spent most of my career in the Middle East. There I was tasked with driving partnerships for the accounts we worked with exclusively, mainly in football and gaming, and we closed some notable strategic partnerships in those years.
 >
-> Then I had the opportunity to join one of SPORTFIVE's priority projects, our Formula 1 division. I work closely with Bjorn, and with George here on the call. Our job is simple: deliver partnerships that make sense for both the brand and the rights holder. That is what I do today."
+> Then Formula 1 became a priority project for us, a global vertical of the business. My role in it is simple: drive strategic partnerships that work for both the brand and the rights holder. I do that together with Bjorn, and with George, who is here on the call."
 
 **About SPORTFIVE:**
 
@@ -110,11 +110,13 @@
 
 *[Say this early. It plants the integration idea you will ask about in Part 3.]*
 
-> "One thing worth sharing before my questions. When teams assess a new partner, they look across different metrics: budget, brand, audience fit. And one question they always ask: can this partner also support us operationally? A partner whose product does real work for the team is worth more than a logo alone.
+> "One thing before my questions: why this conversation, and why now.
 >
-> That is why LanguageWire caught my attention. Formula 1 is the most global sport on earth: it races in 24 countries, and it has 827 million fans, most of whom do not speak English first. Yet most of the sport's content still goes out in one language. The teams publish every day, the fans are everywhere, and the language gap is real.
+> I did my homework on LanguageWire. Twenty-five years from Copenhagen, and you built what every global marketing team needs now: one platform where AI gives the speed and human experts protect the brand. Quality a global company can sign off, at the pace content moves today.
 >
-> So potentially worth exploring: a team's content localized for its growth markets, fan communications in the fans' own languages, partner campaigns adapted across the calendar. Early thoughts. The brief will tell us more."
+> And the timing is why I picked up the phone. Formula 1 is the most global sport on earth: it races in 24 countries and has 827 million fans, most of whom do not speak English first. Its growth is coming from exactly those markets. Yet most of the sport's content still goes out in one language. The teams publish every day, the fans are everywhere, and the language gap is real. So a conversation with LanguageWire felt timely.
+>
+> And when teams assess a new partner, one question they always ask: can this partner also support us operationally? Here, clearly yes. So potentially worth exploring: a team's content localized for its growth markets, fan communications in the fans' own languages, partner campaigns adapted across the calendar. Early thoughts. The brief will tell us more."
 
 *[Then open softly. Their answer sets the depth for Part 4:]*
 
@@ -246,6 +248,7 @@
 - Q9. Why SPORTFIVE, why not go direct
 - Q10. B2B brand in a consumer sport
 - Q11. Are competitors already in
+- Q12. What a smaller tier includes
 
 ### Q1. "Are we too small for Formula 1?"
 
@@ -372,6 +375,16 @@
 > "Translation and localization is a quiet category in this sport today, and the adjacent digital space is busy: Salesforce and Globant work with Formula 1 itself on fan experiences. But I will not answer the category question from memory, because this market moves weekly and you deserve an exact answer.
 >
 > Mapping language, content and localization across all eleven teams is part of the grid analysis we do after this call. When we come back with recommendations, you will see precisely who is in, who is not, and where the open positions are."
+
+### Q12. "What would we actually get at a supplier or smaller tier?"
+
+> "A fair question, because not every partnership is a big sponsorship, and the smaller tiers are real.
+>
+> A supplier or official-partner tier typically includes: the official designation, for example Official Localization Partner of the team. The right to use the team's name and logo in your marketing and sales. A defined branding presence, often the team's website, the partner wall and selected assets rather than the car. A hospitality allocation for your clients. Case-study and content rights, which for you are the heart of the deal. And access to the partner ecosystem.
+>
+> What it usually does not include: large car branding, big driver time, and global campaigns. Those live in the higher tiers.
+>
+> The point is this: the entry tiers are not decoration. Designation, proof and access are the three things your sales team needs, and all three are in the package. We negotiate it so the rights you care about are in, and the ones you do not need are not driving up the price."
 
 ---
 

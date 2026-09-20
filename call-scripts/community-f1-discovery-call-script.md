@@ -74,11 +74,11 @@
 
 **About you:**
 
-> "I sit in the global sales team at SPORTFIVE, and I look after brand partnerships for our Formula 1 and motorsport business.
+> "I sit in the global sales team at SPORTFIVE, and I look after brand partnerships for our Formula 1 business.
 >
-> I started with our Middle East office, working on our exclusive accounts, where I brokered some of the region's biggest partnerships.
+> I spent most of my career in the Middle East. There I was tasked with driving partnerships for the accounts we worked with exclusively, mainly in football and gaming, and we closed some notable strategic partnerships in those years.
 >
-> Then I had the opportunity to join one of SPORTFIVE's priority projects, our Formula 1 division. I work closely with Bjorn, and with George here on the call. Our job is simple: deliver partnerships that make sense for both the brand and the rights holder. That is what I do today."
+> Then Formula 1 became a priority project for us, a global vertical of the business. My role in it is simple: drive strategic partnerships that work for both the brand and the rights holder. I do that together with Bjorn, and with George, who is here on the call."
 
 **About SPORTFIVE:**
 
@@ -112,11 +112,13 @@
 
 *[Say this early. It plants the integration idea you will ask about in Part 3.]*
 
-> "One thing worth sharing before my questions. When teams assess a new partner, they look across different metrics: budget, brand, audience fit. And one question they always ask: can this partner also support us operationally? A partner whose product does real work for the team is worth more than a logo alone.
+> "One thing before my questions: why this conversation, and why now.
 >
-> That is why Community jumped out at me. F1 teams have some of the biggest fanbases in sport, but they rent them from social platforms. They do not own a direct line. You built the direct line. Drivers are the new celebrities, and the celebrity texting playbook you invented maps onto them almost perfectly.
+> I did my homework on Community. You built something nobody else had: famous people texting directly with their fans, one to one, at scale. Today brands run on it too, and your AI carries the volume. It is a rare product: personal, owned, and measurable.
 >
-> So potentially worth exploring: a team texting its fans directly, drivers going direct after a race, hospitality run over messaging. Early thoughts. The brief will tell us more."
+> And the timing is why I picked up the phone. The sport's own fan survey says teams and drivers are the new front doors, and fans want to get closer to the people, not the corporation. At the same time, F1 is booming in your home market: three US races, two American teams, Apple broadcasting. So a conversation with Community felt timely.
+>
+> One more thing. When teams assess a new partner, one question they always ask: can this partner also support us operationally? Here the fit is obvious. Teams have huge fanbases, but they rent them from social platforms. They do not own a direct line. You built the direct line. So potentially worth exploring: a team texting its fans directly, drivers going direct after a race, hospitality run over messaging. Early thoughts. The brief will tell us more."
 
 *[Then open softly. Their answer sets the depth for Part 4:]*
 
@@ -249,6 +251,7 @@
 - Q9. Why SPORTFIVE, why not go direct
 - Q10. Our buyers are marketers, not race fans
 - Q11. Are competitors already in
+- Q12. Fan data and consent: who owns what
 
 ### Q1. "Are we too small for Formula 1?"
 
@@ -371,6 +374,16 @@
 > "The fan-engagement space around the sport is real: Salesforce, as a Global Partner of Formula 1, built an AI fan companion, and Globant builds F1's digital fan experiences. That proves the sport invests here. But I will not answer the category question from memory, because this market moves weekly and you deserve an exact answer.
 >
 > Mapping messaging and fan engagement across all eleven teams is part of the grid analysis we do after this call. When we come back with recommendations, you will see precisely who is in, who is not, and where the open positions are."
+
+### Q12. "Fan data and consent: who owns what?"
+
+> "The most important question in this category, and the answer must be clean.
+>
+> Everything runs on opt-in. Fans choose to join, they can leave any time, and the rules of each market apply. That discipline is your home ground; it is what your platform was built for.
+>
+> Ownership is defined in the contract. Usually the team owns its fan relationships, and the partner powers them. What data you can see, use and learn from is negotiated line by line, and we make sure those rights are clear before anyone signs.
+>
+> And for the team, this question is the whole point. Today their audience lives on social platforms they do not control. With you, they finally own a direct channel, safely and with consent. The data question is not a risk for you. It is your proof that you take this seriously."
 
 ---
 
