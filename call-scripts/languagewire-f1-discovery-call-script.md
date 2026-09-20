@@ -376,7 +376,7 @@
 >
 > Mapping language, content and localization across all eleven teams is part of the grid analysis we do after this call. When we come back with recommendations, you will see precisely who is in, who is not, and where the open positions are."
 
-### Q12. "What would we actually get at a supplier or smaller tier?"
+### Q12. "What would we really get at a supplier or smaller tier?"
 
 > "A fair question, because not every partnership is a big sponsorship, and the smaller tiers are real.
 >
