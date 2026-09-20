@@ -31,6 +31,12 @@ Name, HQ, ownership type, what it sells and to whom, headcount band, revenue wit
 source, valuation with date, latest raise and use of funds, fit score, verdict
 (Yes / Stretch / No) with one-line reason, best angle. Mark estimates.
 
+## $1B-crossing inclusion rule (added 20 Sep 2026)
+Any company that crosses USD 1B valuation (market cap, post-money or EV) is INCLUDED in the
+unicorn-crossings register (F1-Unicorn-Crossings workbook), tagged growth-projected, even if
+it has not yet proven the revenue test. Rows without revenue evidence carry a "revenue
+unproven" flag. v2 batch eligibility still requires the full hard-filter set including revenue.
+
 ## Run rules
 - Batches of 50, one sector per batch.
 - Exclude every name in the master document, all previous batch workbooks and the live
