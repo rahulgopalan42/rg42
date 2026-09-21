@@ -13,7 +13,7 @@
 **The flow:**
 
 1. **Opening: you, SPORTFIVE, and the brand-first model.** 4 min
-2. **Frame the call: purpose, then why Community caught your attention.** 2 min
+2. **Frame the call: purpose, homework, why now, and the ongoing team discussion.** 3 min
 3. **Discovery: fill the brief (objectives, audience, markets, budget).** 15 min
 4. **How F1 works: structure, rights, audience, why Community, activation ideas.** 10 min
 5. **Their questions: prepared answers.** Use as needed
@@ -31,6 +31,7 @@
 - [Name] of the Community contact and pronunciation
 - Confirm Bjorn's and George's name spellings for any follow-up email
 - [Timeframe] you promise for recommendations in Part 6
+- Confirm internally what we know about their ongoing discussion with a premier team: which team, how we heard, how current it is
 - Confirm internally: no live deal in fan engagement, messaging or marketing tech
 
 **Navigate while you talk:** in Word use View, then Navigation Pane; in Google Docs use View, then Show outline. Every section appears in the sidebar; one click jumps you there. The quoted blocks are words to say. The bracketed italic lines are notes to you. Bold words are your glance anchors.
@@ -51,6 +52,7 @@
 - **Category check:** do not claim any category open. Fan engagement and marketing tech overlap several existing partnerships; we verify at the recommendations stage.
 - **Names check:** citations in this script (Salesforce as a Global Partner of Formula 1 with its AI fan companion, Globant building F1's digital fan experiences, RUCKUS at Haas, Airwallex at McLaren) were verified in Aug to Sep 2026 checks. Re-verify on call day.
 - **Pipeline check:** confirm no live deal in fan engagement or messaging, and check the register for earlier Community outreach.
+- **Ongoing discussion:** we understand Community has already had discussions with one of the premier teams. Respect it: never name the team first, let them share, and never talk that conversation down. Our position is on their side of it. If their talks collide with a SPORTFIVE-led negotiation in the register, raise it internally before this call.
 
 ### Numbers cheat sheet (drop in only where they fit; do not recite)
 - 827M fans worldwide. Up 63% since 2018. 42% female. 43% under 35.
@@ -120,15 +122,33 @@
 >
 > One more thing. When teams assess a new partner, one question they always ask: can this partner also support us operationally? Here the fit is obvious. Teams have huge fanbases, but they rent them from social platforms. They do not own a direct line. You built the direct line. So potentially worth exploring: a team texting its fans directly, drivers going direct after a race, hospitality run over messaging. Early thoughts. The brief will tell us more."
 
-*[Then open softly. Their answer sets the depth for Part 4:]*
+**The ongoing conversation:**
 
-> "Let me start simple. How much do you follow Formula 1? And has Community worked with sports properties before?"
+*[Say this openly and with respect. Never name the team first; let them share. If they prefer to keep it private, move on without pushing.]*
+
+> "And one more thing, and I will say it openly. I understand you have already engaged with one of the premier teams. That is good news. It tells me the fit is real, and that Formula 1 is already on your table.
+>
+> So part of today, if you are in a position to share, is to understand where that stands: who you are speaking with, how far it has gone, and what you think of it so far.
+>
+> And here is how we can support you as an agency, even with a conversation already running. We know the whole grid: what these deals include, what they should cost, and how they are structured. We can put that conversation in context, compare it against the other options on the grid, and negotiate on your side if you want us to. The teams pay our fee, so this support costs you nothing.
+>
+> And if you would rather keep that conversation private, no problem at all. Everything else we do today still works for you."
+
+*[Then open exactly there. Their answer sets the depth for Part 4:]*
+
+> "So let me start there, with whatever you can share. How did the Formula 1 conversations begin for you?"
 
 ---
 
 ## Part 3: The brief. Key discovery questions (12 to 15 minutes)
 
 *[Work through these as a conversation, not a checklist. Follow their energy. The bold labels are for you; the questions are for them. Capture answers, they become the brief.]*
+
+**The ongoing discussion** *(only as far as they are comfortable)*
+- "If you can share: which team are you speaking with, and how did it start?"
+- "How far along is it: first conversations, a proposal on the table, or numbers already?"
+- "What do you like about it so far? And where do you hesitate?"
+- "Have you been able to compare it against the rest of the grid, or is it the only option you have seen?"
 
 **Objectives**
 - "What would Formula 1 need to do for Community? Brand awareness, new enterprise customers, a flagship case study, or something else?"
@@ -248,7 +268,7 @@
 - Q6. Measuring ROI
 - Q7. Who owns Formula 1
 - Q8. Cost, and why F1 is expensive
-- Q9. Why SPORTFIVE, why not go direct
+- Q9. Why SPORTFIVE, when talks are already running
 - Q10. Our buyers are marketers, not race fans
 - Q11. Are competitors already in
 - Q12. Fan data and consent: who owns what
@@ -351,15 +371,15 @@
 
 *[Background for you, never quoted: reported title benchmarks run around $75M to $110M a year at the top teams.]*
 
-### Q9. "Why work with SPORTFIVE? Could we not go to a team directly?"
+### Q9. "Why work with SPORTFIVE? We are already speaking with a team directly."
 
-> "You could, and some brands do. Brands use us for two reasons.
+> "That is exactly the moment brands bring us in, and it does not disturb what you have started.
 >
-> First, information. A team will sell you their own story. We know the whole grid: every team's inventory, pricing, appetite and roadmap. You see all your options next to each other.
+> First, information. A team will sell you their own story, and they should. We know the whole grid: every team's inventory, pricing, appetite and roadmap. We put the conversation you are in next to the other ten options, so you sign knowing the market, not just one offer.
 >
-> Second, negotiation. We do this every week. We build the business case, run the process, and negotiate on your behalf.
+> Second, negotiation. We do this every week. We can tell you if the price and the rights are fair, where the gaps are, and we negotiate them on your behalf. Your existing conversation only gets stronger with the market picture behind it.
 >
-> And because the teams pay our fee, all of that costs you nothing. There is no scenario where you pay more by using us."
+> And because the teams pay our fee, all of that costs you nothing. There is no scenario where you pay more by using us, and no scenario where we push you away from a deal that is right for you."
 
 ### Q10. "Our buyers are marketers and CRM leaders, not race fans. Why sport?"
 

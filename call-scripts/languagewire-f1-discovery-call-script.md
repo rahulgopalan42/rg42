@@ -13,7 +13,7 @@
 **The flow:**
 
 1. **Opening: you, SPORTFIVE, and the brand-first model.** 4 min
-2. **Frame the call: purpose, then why LanguageWire caught your attention.** 2 min
+2. **Frame the call: purpose, homework on LanguageWire, why now.** 2 min
 3. **Discovery: fill the brief (objectives, audience, markets, budget).** 15 min
 4. **How F1 works: structure, rights, audience, why LanguageWire, activation ideas.** 10 min
 5. **Their questions: prepared answers.** Use as needed
