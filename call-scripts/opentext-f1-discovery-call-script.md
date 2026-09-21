@@ -2,7 +2,7 @@
 
 **Call type:** First call / discovery. Goal: introduce yourself and SPORTFIVE, understand where OpenText stands after Formula E, fill out the brief, explain what Formula 1 adds, agree next steps.
 
-**How to use this script:** Every spoken block is written the way you would say it out loud. Do not read it word for word. Glance at the bold anchors, then talk. Short sentences, slow pace, warm tone. Keep it simple and concrete for a non-native English listener. Let them talk more than you.
+**How to use this script:** Every spoken block is written the way you would say it out loud. Do not read it word for word. Glance at the bold anchors, then talk. Short sentences, slow pace, warm tone. Keep every sentence plain and short; simple language wins on calls. Let them talk more than you.
 
 ---
 
@@ -13,7 +13,7 @@
 **The flow:**
 
 1. **Opening: you, SPORTFIVE, and how we get paid.** 4 min
-2. **Frame the call: respect their Formula E experience, then the operational-fit teaser.** 2 min
+2. **Frame the call: purpose, homework on OpenText, why now.** 2 min
 3. **Discovery: fill the brief (objectives, Formula E learnings, audience, budget).** 15 min
 4. **How F1 works: structure, rights, audience, why OpenText.** 10 min
 5. **Their questions: prepared answers.** Use as needed
@@ -27,9 +27,9 @@
 
 **Fill in before the call:**
 
-- [Client name] for the front-of-shirt story in Part 1
-- [Colleague name] who brought the opportunity, Part 2
+- [Example partnership] for the Middle East story in Part 1, if you want one
 - [Name] of the OpenText contact and pronunciation
+- Confirm Bjorn's and George's name spellings for any follow-up email
 - [Timeframe] you promise for recommendations in Part 6
 - Confirm the current status of their Jaguar TCS Racing deal (active as of Sep 2026; re-check)
 - Confirm internally: no live deal in enterprise software, information management or cybersecurity
@@ -79,49 +79,51 @@
 
 **About you:**
 
-> "I sit in the global sales team at SPORTFIVE, and I lead brand partnerships for our Formula 1 and motorsport business.
+> "I sit in the global sales team at SPORTFIVE, and I look after brand partnerships for our Formula 1 business.
 >
-> Before this role, I was with our Middle East office. There I drove partnerships for some of our key clients, accounts we managed exclusively. One project I am proud of: we led the search for a front-of-shirt partner for [client name], and we closed that deal. Alongside it, we also brought in BMW as the automotive partner.
+> I spent most of my career in the Middle East. There I was tasked with driving partnerships for the accounts we worked with exclusively, mainly in football and gaming, and we closed some notable strategic partnerships in those years.
 >
-> After that, the agency asked me to help grow the Formula 1 side, because motorsport is now one of SPORTFIVE's biggest priorities. That is what I do today."
+> Then Formula 1 became a priority project for us, a global vertical of the business. My role in it is simple: drive strategic partnerships that work for both the brand and the rights holder. I do that together with Bjorn, and with George, who is here on the call."
 
 **About SPORTFIVE:**
 
-> "A little about us as an agency.
+> "A quick background on us.
 >
-> SPORTFIVE is one of the largest sports marketing agencies in the world. In Formula 1, we worked exclusively with Mercedes and Ferrari for more than twelve years. In that time we brought them some of their best known partnerships, both B2B and consumer.
+> In Formula 1, SPORTFIVE worked exclusively with the two biggest teams in the sport, Mercedes and Ferrari, for more than twelve years.
 >
-> Then we made a deliberate change. We gave up those exclusive mandates, and we signed non-exclusive agreements with rights holders across the grid.
+> We have since given up those exclusive mandates, deliberately, and signed non-exclusive agreements across the grid.
 >
-> Why? Because it lets us sit on your side of the table. We are not here to push one team at you.
+> We set it up this way so we can take a brand-first approach. We do not arrive selling one team. We start with your objectives, and we recommend the team that fits them.
 >
-> So how do we work instead? Very simple. You give us a brief. We map it against all eleven teams. We bring you the most relevant opportunities, and when you like one, we negotiate it on your side.
+> You can see it in the breadth of our work. We have built partnerships with podium teams and with challenger teams. In both cases it started the same way: with the brand's objectives, and we reverse engineered the route from there.
 >
-> And the most important part. Our fee is paid by the teams, not by you. All the work I just described, the research, the grid mapping, the evaluation, the negotiation, costs you nothing. When a deal happens, the rights holder pays us. So our interest is simple: find you the right home in Formula 1, because that is the only way we get paid."
+> We have a team that does exactly this: find the right entry route, find the team that matches your goals.
+>
+> And the consultancy costs you nothing. Our fee comes out of the partnership fee we broker, and the team pays it. No added cost on your side.
+>
+> So the best place to start is your objectives, and we work back from there to the right fit."
 
 ---
 
 ## Part 2: Frame the call (2 minutes)
 
-> "So, why this call.
+> "So, the purpose of today.
 >
-> My colleague [colleague name] brought this opportunity to us, and it caught my attention. I have done my reading on OpenText, and one thing stood out immediately: you already know motorsport. Your technical partnership with Jaguar TCS Racing in Formula E is a real one, your technology works inside the team. So I am not here to explain sponsorship from zero.
->
-> Today I want to do two things.
->
-> First, understand your experience so far. What motorsport has delivered for OpenText, what it has not, and what makes you curious about Formula 1 now.
->
-> Second, learn about the business. This call is a fact-finding exercise for us. I will ask you some questions that help us build a brief. After the call, my team maps the whole grid against that brief, and we come back with clear recommendations on the right way into Formula 1 for OpenText.
+> This is a discovery call. Ideally, we work closely with you to build a brief, and then we come back with recommendations that truly align with it. So today I want to do two things: understand what motorsport has delivered for OpenText so far, and what it has not. And learn about the business, so we can fill out the brief together. Nothing formal.
 >
 > Does that work for you?"
 
-**Why OpenText caught my attention:**
+**Why OpenText, and why now:**
 
-*[Say this early. It plants the integration idea you will ask about in Part 3.]*
+*[Say this early. Show the homework, then the timing, then the operational fit.]*
 
-> "One thing worth sharing before my questions. When teams assess a new partner, they look across different metrics: budget, brand, audience fit. And one question they always ask: can this partner also support us operationally? A partner whose product does real work inside the team is worth more than a logo alone.
+> "One thing before my questions: why this conversation, and why now.
 >
-> You have already proven that model in Formula E. And an F1 team is, at its heart, an information business. Thousands of engineering documents every season. A supplier network of hundreds of companies. Priceless intellectual property to protect. Decades of content in the archive. So potentially worth exploring: information management inside a team, supply chain data exchange, cybersecurity for race IP. Early thoughts. The brief will tell us more."
+> I did my homework on OpenText. A global leader in information management, close to six billion dollars in revenue, serving 120,000 enterprises, nearly all of the world's biggest companies among them. A big AI move with Titanium X and your Aviator agents. And one thing stood out immediately: you already know motorsport. Your technical partnership with Jaguar TCS Racing in Formula E is a real one, your technology works inside the team. So I am not here to explain sponsorship from zero.
+>
+> And the timing is why I picked up the phone. Enterprise technology has become the biggest spender in Formula 1, and the calibre keeps rising, Microsoft joined Mercedes just this year. From this season the F1 cars run on 100% sustainable fuel with much more electric power, so the story that took you into Formula E now lives in F1 too. And you have an AI platform that needs a global stage. So a conversation with OpenText felt timely.
+>
+> One more thing. When teams assess a new partner, one question they always ask: can this partner also support us operationally? You have already proven that model in Formula E. And an F1 team is, at its heart, an information business. Thousands of engineering documents every season. A supplier network of hundreds of companies. Priceless intellectual property to protect. Decades of content in the archive. So potentially worth exploring: information management inside a team, supply chain data exchange, cybersecurity for race IP. Early thoughts. The brief will tell us more."
 
 *[Then open softly. Their answer sets the depth for Part 4:]*
 
@@ -250,6 +252,7 @@
 - Q9. Why SPORTFIVE, why not go direct
 - Q10. B2B brand in a consumer sport
 - Q11. Are competitors already in
+- Q12. Technology plus cash: how deals are structured
 
 ### Q1. "How is Formula 1 different from Formula E? Is it worth the jump?"
 
@@ -380,6 +383,16 @@
 > "Some of the biggest names in enterprise technology are in the sport, and that proves the market. But I will not answer the category question from memory, because this market moves weekly and you deserve an exact answer.
 >
 > Mapping your categories across all eleven teams, information management, business network, cybersecurity, is part of the grid analysis we do after this call. When we come back with recommendations, you will see precisely who from your world is in, who is not, and where the open positions are."
+
+### Q12. "Our Formula E deal is built on technology. Can an F1 deal work the same way, technology plus cash?"
+
+> "Yes, and it is one of the most common structures in modern F1.
+>
+> Teams take proven technology from partners all the time: RUCKUS runs the wireless at Haas, MathWorks tools run the simulation work at McLaren, Bitdefender protects Ferrari. In deals like these, the package is usually a mix: a rights fee, plus your product and services working inside the team. The designation and the rights follow the total value you bring, not only the cash.
+>
+> Two practical notes. First, the bigger the technology component, the more the team's technical leadership sits in the decision. So the conversation runs on two tracks, marketing and engineering, and we manage both. Second, the technology must truly work at a race team's pace; the teams test hard before they sign.
+>
+> For OpenText this is home ground. You have run exactly this model with Jaguar TCS Racing. F1 is the same shape of deal at a bigger scale, and we structure and negotiate it so the value of your platform counts."
 
 ---
 
