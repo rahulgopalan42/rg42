@@ -114,13 +114,17 @@
 
 *[Say this early. Show the homework, then the timing, then the operational fit.]*
 
-> "One thing before my questions: why this conversation, and why now.
+> "Before my questions, let me tell you why I wanted this call.
 >
-> I did my homework on Community. You built something nobody else had: famous people texting directly with their fans, one to one, at scale. Today brands run on it too, and your AI carries the volume. It is a rare product: personal, owned, and measurable.
+> I looked at what Community does. Simple version: you let famous people and brands text with their fans, one to one, at huge scale. Nobody else does this the way you do.
 >
-> And the timing is why I picked up the phone. The sport's own fan survey says teams and drivers are the new front doors, and fans want to get closer to the people, not the corporation. At the same time, F1 is booming in your home market: three US races, two American teams, Apple broadcasting. So a conversation with Community felt timely.
+> Now look at Formula 1. The sport has 827 million fans. The fans love the drivers and want to hear from them directly. But today, a team can only reach its fans through Instagram, TikTok and YouTube. Those platforms sit in the middle. The teams have no direct line to their own fans.
 >
-> One more thing. When teams assess a new partner, one question they always ask: can this partner also support us operationally? Here the fit is obvious. Teams have huge fanbases, but they rent them from social platforms. They do not own a direct line. You built the direct line. So potentially worth exploring: a team texting its fans directly, drivers going direct after a race, hospitality run over messaging. Early thoughts. The brief will tell us more."
+> You built exactly that: the direct line. That is the fit.
+>
+> And the timing is good. F1 is growing fastest in America, your home market. Three US races, two American teams, and Apple now shows the races.
+>
+> So here is my simple idea: an F1 team, or a driver, texting with millions of fans through Community. That is what I want to explore with you. That is why I called."
 
 **The ongoing conversation:**
 
