@@ -1,6 +1,6 @@
 # Community.com x SPORTFIVE: F1 Discovery Call Script
 
-**Call type:** First call / discovery. Goal: introduce yourself and SPORTFIVE, understand Community's objectives, fill out the brief, show where conversational messaging fits F1, agree next steps.
+**Call type:** First call / discovery. Goal: introduce yourself and SPORTFIVE, understand Community's objectives and their ongoing team discussion, fill out the brief, show where conversational messaging fits F1, agree next steps.
 
 **How to use this script:** Every spoken block is written the way you would say it out loud. Do not read it word for word. Glance at the bold anchors, then talk. Short sentences, slow pace, warm tone. Keep it simple and concrete for a non-native English listener. Let them talk more than you.
 
@@ -8,13 +8,13 @@
 
 ## Call Navigator (keep this section open)
 
-**The goal of this call:** understand Community, fill out the brief, and agree the next step: grid mapping, then recommendations. They should leave feeling this costs them nothing, and that F1 is where their product story writes itself.
+**The goal of this call:** understand Community, learn where their existing team conversation stands, fill out the brief, and agree the next step: grid mapping, then recommendations. They should leave feeling this costs them nothing, and that we make their hand stronger, not weaker.
 
 **The flow:**
 
 1. **Opening: you, SPORTFIVE, and the brand-first model.** 4 min
 2. **Frame the call: purpose, homework, why now, and the ongoing team discussion.** 3 min
-3. **Discovery: fill the brief (objectives, audience, markets, budget).** 15 min
+3. **Discovery: fill the brief (the ongoing discussion, objectives, audience, budget).** 15 min
 4. **How F1 works: structure, rights, audience, why Community, activation ideas.** 10 min
 5. **Their questions: prepared answers.** Use as needed
 6. **Close: next steps and the race invitation.** 2 min
@@ -22,8 +22,8 @@
 **Three messages that must land:**
 
 - **We start from your objectives.** Brand-first, non-exclusive across the grid, and the teams pay our fee. Everything we do for Community is free.
+- **We strengthen the hand you already have.** A team conversation is running; we bring the market picture, the benchmark, and the negotiation, on your side.
 - **Drivers are the new celebrities, and fans want to go direct.** Community built the direct channel; F1 has 827 million fans who crave exactly that.
-- **Two customers in one buy.** A team as your live showcase, and a paddock of 350 consumer brands who all need customer engagement.
 
 **Fill in before the call:**
 
@@ -102,7 +102,7 @@
 
 ---
 
-## Part 2: Frame the call (2 minutes)
+## Part 2: Frame the call (3 minutes)
 
 > "So, the purpose of today.
 >
@@ -411,7 +411,7 @@
 
 > "[Name], this was very useful. Thank you. Let me tell you what happens next, so there are no surprises.
 >
-> We take everything from today and build the brief. Then my team maps the full grid against it: which teams fit Community, what is available, at what level, and where you get the most value. We come back with a short list and clear recommendations. Give us [two to three weeks].
+> We take everything from today and build the brief. Then my team maps the full grid against it: which teams fit Community, what is available, at what level, and where you get the most value. If you share where your current conversation stands, we include that context, so you see it next to the rest of the market. We come back with a short list and clear recommendations. Give us [two to three weeks].
 >
 > No cost and no obligation on your side at any point. That is how we work.
 >
@@ -427,7 +427,7 @@
 
 ## After the call (checklist)
 
-- Write up the brief the same day: objectives, audience, markets, integration appetite, budget signals, timeline, decision makers, hospitality needs.
+- Write up the brief the same day: the ongoing discussion (team, stage, sentiment), objectives, audience, markets, integration appetite, budget signals, timeline, decision makers, hospitality needs.
 - Send a short thank-you email the same day: three lines, recap of the agreed next step and the date you promised.
 - Brief the internal team for the grid mapping. Verify fan engagement, messaging and marketing tech categories across all eleven teams fresh, plus driver-level options.
-- Log Community in the pipeline register, note the capacity read, and check for category collisions before anything goes out.
+- Log Community in the pipeline register, note the capacity read and the ongoing team discussion, and check for category collisions before anything goes out.
