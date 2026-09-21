@@ -112,7 +112,7 @@
 
 **Why Community, and why now:**
 
-*[Say this early. Show the homework, then the timing, then the operational fit.]*
+*[Say this early. Keep it slow and simple. It is the heart of the pitch.]*
 
 > "Before my questions, let me tell you why I wanted this call.
 >
