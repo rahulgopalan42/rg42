@@ -22,7 +22,7 @@
 **Three messages that must land:**
 
 - **We start from your objectives.** Brand-first, non-exclusive across the grid, and the teams pay our fee. Everything we do for Gimlet is free.
-- **Your market already lives here.** AWS is the sport's official cloud provider. Google Cloud partners McLaren. Oracle's name is on Red Bull. Microsoft reportedly signed with Mercedes in January. The companies you sell to, and the companies that invest in you, are already on this grid.
+- **This sport reaches both groups Gimlet needs.** The buyers who sign the contracts: the highest concentration of business decision makers in sport, with AWS, Google Cloud, Oracle and reportedly Microsoft already on the grid. And the engineers they want to hire: young fans, and an engineering magnet.
 - **Formula 1 is an efficiency competition, and so is your product.** The whole sport is about doing more with less: less fuel, capped budgets, even capped computing for car design. Getting more from the same machines is the sport's daily obsession, and it is exactly what Gimlet sells.
 
 **Fill in before the call:**
@@ -116,13 +116,21 @@
 
 > "Before my questions, let me tell you why I wanted this call.
 >
-> I looked at what Gimlet is doing. Simple version: the world is desperate for AI computing power. Most of it runs on one kind of chip, and there are not enough of them. You found a smarter way: split the work into parts, and run each part on the chip that does it best. Same answers, less cost, less power. This month you raised three hundred million dollars to scale that up, and you have said publicly that you already have billions of dollars in customer orders.
+> I did my homework on Gimlet. Simple version: the world is desperate for AI computing power, and most of it runs on one kind of chip that there are not enough of. You found a smarter way: split the work into parts, and run each part on the chip that does it best. Same answers, less cost, less power. And the market clearly believes you: this month you raised three hundred million dollars, and you have said publicly that you already have billions of dollars in orders.
 >
-> Now look at this sport. Formula 1 is an efficiency competition. The budgets are capped. The fuel is limited. The rules even cap how much computing power a team may spend on designing its car. The whole sport is about getting more from less. That is your product's story, told at 300 kilometers per hour.
+> Now, why Formula 1? For me it comes down to the audience, and the fit.
 >
-> And look at who is already here. AWS is the sport's official cloud provider. Google Cloud partners McLaren. Oracle's name is on the Red Bull team. Microsoft, whose venture fund just invested in you, reportedly signed with Mercedes in January. The companies you sell to, and the companies that back you, are already spending here.
+> If you look at the Formula 1 audience, they are very engineering savvy and very tech savvy. This sport is won with computing, data and simulation, and the fans follow it for exactly that.
 >
-> So that is why I called: the timing, and the fit. The brief will tell us the rest."
+> And the way I see it, Gimlet needs two groups of people. The big buyers, who sign the contracts. And the best engineers, who you need to hire. This sport reaches both.
+>
+> The buyers: Formula 1 has the highest concentration of business decision makers of any sport, and two thirds of Paddock Club guests are senior executives. For a tech brand, that means CTOs and CIOs. And your world is already here: AWS is the sport's official cloud provider, Google Cloud partners McLaren, Oracle's name is on Red Bull, and Microsoft, whose venture fund just invested in you, reportedly signed with Mercedes in January.
+>
+> The engineers: the fans are young, 43% are under 35, and for engineering talent this sport is a magnet.
+>
+> And one more thing. An F1 team itself runs heavy computing: simulation, design work, AI. And they do it under a cost cap. The rules even limit how much computing power they may spend on designing the car. So getting more from the same machines is their daily problem, and that is exactly what you sell. What you provide would be of real value to the team itself. Not just a logo on a car. Part of how the team works.
+>
+> So that is why I called: the audience, and the fit. The brief will tell us the rest."
 
 *[Then open softly. Their answer sets the depth for Part 4:]*
 
