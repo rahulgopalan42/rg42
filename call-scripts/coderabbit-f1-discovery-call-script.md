@@ -22,7 +22,7 @@
 **Three messages that must land:**
 
 - **We start from your objectives.** Brand-first, non-exclusive across the grid, and the teams pay our fee. Everything we do for CodeRabbit is free.
-- **Software took over this grid.** Atlassian's name is on Williams. Oracle's is on Red Bull. HP's is on Ferrari. Microsoft reportedly signed with Mercedes in January. The sport's partner list now looks like your market.
+- **This sport reaches both of your audiences.** The developers who choose the product: young, online, engineering savvy. And the leaders who sign the contract: the highest concentration of business decision makers in sport, with CTOs and CIOs in the Paddock Club.
 - **An F1 team is a software company in disguise.** Strategy tools, simulators, trackside systems, code shipped under race-day deadlines. A code review brand can have a real working role here, not just a logo.
 
 **Fill in before the call:**
