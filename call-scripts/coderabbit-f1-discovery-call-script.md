@@ -115,15 +115,21 @@
 
 > "Before my questions, let me tell you why I wanted this call.
 >
-> I looked at what CodeRabbit is doing. Simple version: AI now writes a huge share of the world's new code. Somebody has to check all that code before it ships. That is you. You built a reviewer that reads every change and catches the problems before they reach customers.
+> I did my homework on CodeRabbit. Simple version: AI now writes a huge share of the world's new code. Somebody has to check that code before it ships. That is you. And developers clearly love the product: yours is the most installed AI app on GitHub, and last year you raised sixty million dollars to go global.
 >
-> And developers clearly love it. Yours is the most installed AI app on GitHub. More than eight thousand companies pay for it. And last year you raised sixty million dollars to take it global.
+> Now, why Formula 1? For me it comes down to the audience.
 >
-> Now look at this sport in the same period. Atlassian put its name on the Williams team. Oracle's name is on Red Bull. HP's is on Ferrari. Microsoft reportedly signed with Mercedes in January. Software companies are not just sponsoring Formula 1 anymore. They are putting their names on the teams themselves.
+> If you look at the Formula 1 audience, they are very engineering savvy and very tech savvy. This sport is won with software, data and simulation, and the fans follow it for exactly that.
 >
-> And here is the part most people miss. An F1 team is a software company in disguise. Strategy tools, simulators, trackside systems, and code that must ship perfectly under race-day deadlines. Fast, safe shipping of software is their daily life. So a code review brand fits what these teams do, not just what they wear.
+> And the way I see it, CodeRabbit serves two people. The developers, who choose the product. And the leaders, who sign the contract. This sport reaches both.
 >
-> So that is why I called: the timing, and the fit. The brief will tell us the rest."
+> The leaders: Formula 1 has the highest concentration of business decision makers of any sport, and two thirds of Paddock Club guests are senior executives. For a tech brand, that means CTOs and CIOs.
+>
+> The developers: the fans are young and online. 43% are under 35, and no sport gets more engagement on social media.
+>
+> And one more thing. An F1 team is itself a software business. Strategy tools, simulators, race software, all shipped under race-day pressure. So what you provide would be of real value to the team itself. Not just a logo on a car. Part of how the team works.
+>
+> So that is why I called: the audience, and the fit. The brief will tell us the rest."
 
 *[Then open softly. Their answer sets the depth for Part 4:]*
 
