@@ -1,6 +1,6 @@
 # Moncler x SPORTFIVE: F1 Discovery Call Script
 
-**Call type:** First call / discovery. Goal: introduce yourself and SPORTFIVE, understand Moncler's objectives, fill out the brief, show how F1 fits a luxury house, agree next steps.
+**Call type:** Discovery, second touch: you connected with [Name] last week, so the opening is a reconnect, not a first meeting. Goal: bring in the right people as promised, understand Moncler's objectives, fill out the brief, show how F1 fits a luxury house, agree next steps.
 
 **How to use this script:** Every spoken block is written the way you would say it out loud. Do not read it word for word. Glance at the bold anchors, then talk. Short sentences, slow pace, warm tone. The listeners are from Italy and English is not their first language, so keep every sentence simple and concrete. Let them talk more than you.
 
@@ -67,9 +67,13 @@
 
 ## Part 1: Opening (3 to 4 minutes)
 
-*[After hellos and small talk. Smile. Take your time.]*
+*[This is a reconnect, not a first meeting. Warm and familiar with [Name]; the fuller background is for anyone on their side who is new. Smile. Take your time.]*
 
-> "Thank you for making the time, [Name]. Before we get into it, let me quickly introduce myself and SPORTFIVE. Then I will explain what I would like us to do with this call. Sound good?"
+> "[Name], great to connect again. It was a pleasure speaking last week, and thank you for making the time today.
+>
+> As promised, I wanted to involve the right people for this conversation. So joining me is George, who I work very closely with on our Formula 1 business.
+>
+> For anyone who was not part of last week's chat, let me give a quick background on myself and SPORTFIVE. Then I will explain what I would like us to do with this call. Sound good?"
 
 **About you:**
 
