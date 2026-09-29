@@ -1,8 +1,8 @@
 # RENPHO x SPORTFIVE: F1 Discovery Call Script (McLaren Focus)
 
-**Call type:** Second touch / discovery. You connected with [Name] last week and promised to involve the right people. There is a specific interest in McLaren. Goal: let RENPHO do the talking, understand why McLaren, fill out the brief, and position the brand-first model so the recommendations can cover McLaren properly and show what else is worth seeing next to it.
+**Call type:** Second touch / discovery. You connected with Jonathan on WhatsApp: he asked about McLaren specifically, and whether we work with them. You promised to involve the right people, which is why George is on this call. Goal: answer the McLaren question with George in the room, let RENPHO do the talking, understand why McLaren, fill out the brief, and position the brand-first model so the recommendations can cover McLaren properly and show what else is worth seeing next to it.
 
-**How to use this script:** Every spoken block is written the way you would say it out loud. Do not read it word for word. Glance at the bold anchors, then talk. Short sentences, slow pace, warm tone. This call is different from the usual first call: you have already met, so no formal introductions with [Name], and the talk ratio flips. They should speak most of the call. Your job is to frame, hand over to George at the right moment, ask, and listen.
+**How to use this script:** Every spoken block is written the way you would say it out loud. Do not read it word for word. Glance at the bold anchors, then talk. Short sentences, slow pace, warm tone. This call is different from the usual first call: you have already met, so no formal introductions with Jonathan, and the talk ratio flips. They should speak most of the call. Your job is to frame, hand over to George at the right moment, ask, and listen.
 
 ---
 
@@ -22,13 +22,13 @@
 **Three messages that must land:**
 
 - **We start from your objectives.** Brand-first, non-exclusive across the grid, and the teams pay our fee. Everything we do for RENPHO is free.
-- **McLaren is on the table, and it is not the only door.** We used to work exclusively and gave that up deliberately, so we can work for the brand objectively. We do not start with a team and its assets. We start with the brand and reverse engineer to the right team. Seeing options makes your McLaren position stronger, not weaker.
+- **Yes, we work with McLaren, and it is not the only door.** Jonathan asked exactly this on WhatsApp; George in the room is the answer. We used to work exclusively and gave that up deliberately, so we can work for the brand objectively. We start with the brand and reverse engineer to the right team. Seeing options makes your McLaren position stronger, not weaker.
 - **Recovery belongs in this sport.** Drivers are elite athletes racing 24 weekends across five continents. Recovery is part of performance here, and the audience, young, online, premium, is exactly who buys RENPHO.
 
 **Fill in before the call:**
 
-- [Name] of the RENPHO contact and pronunciation
-- Re-read your notes from last week's chat; do not re-ask what they already told you
+- Jonathan's surname and pronunciation, and who else joins from RENPHO
+- Re-read the WhatsApp chat with Jonathan; do not re-ask what he already told you
 - Brief George: he opens with a short hello and carries the McLaren detail
 - Confirm Bjorn's and George's name spellings for any follow-up email
 - [Timeframe] you promise for recommendations in Part 6
@@ -70,13 +70,13 @@
 
 ## Part 1: Opening (2 to 3 minutes)
 
-*[This is a reconnect, not a first meeting. Warm and familiar with [Name]. The short background is for anyone on their side who is new.]*
+*[This is a reconnect, not a first meeting. Warm and familiar with Jonathan. The short background is for anyone on their side who is new.]*
 
-> "[Name], great to connect again. I enjoyed our chat last week, and thank you for making the time today.
+> "Jonathan, great to connect again. I enjoyed our chat on WhatsApp, and thank you for making the time today.
 >
-> As promised, I said I would involve the right people for this conversation. So joining me today is George. George and I work very closely together on our Formula 1 business, and he is the right person to go deeper on McLaren with you.
+> On WhatsApp you asked me about McLaren specifically, and whether we work with them. The short answer is yes, we do. And that is exactly why I have invited George onto the call today. George works very closely with the teams and the rights holders, McLaren included, and he is the right person to go deeper on McLaren with you.
 >
-> For anyone who was not part of last week's conversation, let me give thirty seconds of background, and then I will explain what I would like us to do today. Sound good?"
+> For anyone who was not part of that chat, let me give thirty seconds of background, and then I will explain what I would like us to do today. Sound good?"
 
 **About you and SPORTFIVE, in one minute:**
 
@@ -96,7 +96,7 @@
 
 > "So, the purpose of today.
 >
-> I know there is a specific interest in McLaren, and that is a great place to start. So let me frame today in three parts.
+> From our chat I know the specific interest is McLaren, and that is a great place to start. So let me frame today in three parts.
 >
 > First, we want to hear about the brand. Ideally you do most of the talking: where RENPHO is, where it is going, and what you would want a partnership to do for you.
 >
@@ -381,7 +381,7 @@
 
 ## Part 6: Close and next steps (2 minutes)
 
-> "[Name], this was very useful. Thank you. Let me tell you what happens next, so there are no surprises.
+> "Jonathan, this was very useful. Thank you. Let me tell you what happens next, so there are no surprises.
 >
 > We take everything from today and build the brief. Then two things happen in parallel. George leads a proper look at McLaren: what is available in your category, at what levels, and what it would include. And my team maps the rest of the grid against your brief, so you see McLaren in context, next to any route that could do the same job.
 >
@@ -395,7 +395,7 @@
 
 *[Last word, keep it warm:]*
 
-> "Thank you, [Name]. Great to continue the conversation. You will hear from me by [date]."
+> "Thank you, Jonathan. Great to continue the conversation. You will hear from me by [date]."
 
 ---
 
