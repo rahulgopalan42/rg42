@@ -22,8 +22,8 @@
 **Three messages that must land:**
 
 - **We start from your objectives.** Brand-first, non-exclusive across the grid, and the teams pay our fee. Everything we do for Sirion is free.
-- **This sport runs on agreements kept.** Eleven teams, more than 350 partnerships, hundreds of suppliers per team, all on multi-year contracts, performing in public every two weeks. A contracts company is not a strange guest here. It is the sport's own logic.
-- **The paddock is your buyer's room.** The partner companies around this grid are giant enterprises with giant contract books, and the Paddock Club holds their leadership: two thirds of guests are senior executives.
+- **The teams could run on Sirion.** Each team is a business: 25+ partners, hundreds of suppliers, a hard cost cap, all on contracts. We have built this shape before: at Haas, RUCKUS powers the team's operations, with a live showcase in the garage.
+- **Your customers are already here.** The 350-partner room concentrates the sectors Sirion serves, banks, airlines, telecoms, manufacturers, technology, and the Paddock Club holds their leadership: two thirds of guests are senior executives.
 
 **Fill in before the call:**
 
@@ -110,15 +110,13 @@
 
 *[Say this early. Keep it slow and simple. It is the heart of the pitch.]*
 
-> "And before my questions, the obvious one: why would a contracts company even look at Formula 1? Three reasons.
+> "And before my questions, let me tell you in short why we reached out. Two reasons.
 >
-> First, this sport is the best contract story on earth. Eleven teams, more than 350 partnerships, hundreds of suppliers behind every car, all of it on multi-year contracts, all of it performing in public every two weeks. A team that misses a delivery does not get an extension. It misses the race. Agreements kept, at speed, is the whole sport. That is your product's story, told at 300 kilometers per hour.
+> First, the teams themselves. People see race cars. We see businesses. Each of the eleven teams is an independent company: twenty-five or more partners, hundreds of suppliers, freight and logistics across five continents, all under a hard cost cap, and all of it on contracts. A team that misses a delivery does not get an extension. It misses the race. So a team's commercial office could quite literally run on Sirion. And we have built exactly that shape before: at Haas, the RUCKUS brand powers the team's operations as a partner, with a live showcase in the garage. Product first, logo second.
 >
-> Second, the room. The partner companies around this grid are exactly who you sell to: giant enterprises with giant contract books, with their leadership walking the paddock every race weekend. And enterprise software has moved to the center of the sport: Atlassian's name is on Williams, Oracle's on Red Bull, HP's on Ferrari, and Microsoft reportedly signed with Mercedes in January.
+> Second, the customers you serve. Look around this paddock and you see your own market: more than 350 partner companies, banks, airlines, telecoms, manufacturers, technology giants. The sectors Sirion sells to are concentrated in this sport like almost nowhere else, and their leadership walks the paddock every race weekend.
 >
-> And third, trust. You ask the biggest companies in the world to run their most sensitive documents through your platform. Those buyers ask one question before any demo: are these people serious and here to stay? A seat in this sport answers that before your seller walks in.
->
-> So that is why we called: the story, and the room. The brief will tell us the rest."
+> So that is why we reached out: the teams could be your customers, and your customers are already here. The brief will tell us the rest."
 
 *[Then open softly. Their answer sets the depth for Part 4:]*
 
