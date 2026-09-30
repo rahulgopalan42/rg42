@@ -27,7 +27,7 @@
 
 **Fill in before the call:**
 
-- [Example partnership] for the Middle East story in Part 1, if you want one
+- Optional: one named example from the Middle East years (football or esports) ready for Part 1, if asked
 - [Name] of the Moncler contact and pronunciation
 - Confirm Bjorn's and George's name spellings for any follow-up email
 - [Timeframe] you promise for recommendations in Part 6
@@ -69,7 +69,7 @@
 
 *[This is a reconnect, not a first meeting. Warm and familiar with [Name]; the fuller background is for anyone on their side who is new. Smile. Take your time.]*
 
-> "[Name], great to connect again. It was a pleasure speaking last week, and thank you for making the time today.
+> "[Name], great to connect again. It was a pleasure speaking last week, and thank you for making the time today. And let me say it: it is great to be speaking with an amazing brand like Moncler, especially at this point in time, when fashion has become such an integral part of Formula 1.
 >
 > As promised, I wanted to involve the right people for this conversation. So joining me is George, who I work very closely with on our Formula 1 business.
 >
@@ -79,9 +79,11 @@
 
 > "I sit in the global sales team at SPORTFIVE, and I look after brand partnerships for our Formula 1 business.
 >
-> I spent most of my career in the Middle East. There I was tasked with driving partnerships for the accounts we worked with exclusively, mainly in football and gaming, and we closed some notable strategic partnerships in those years.
+> A little on my background. I was part of our Middle East team, where I drove partnerships for the exclusive accounts we worked with. In those years we worked with some of the biggest football clubs in the region. And esports and gaming was a key strategic focus for us there: among other things, we worked closely with the Saudi government's esports project.
 >
-> Then Formula 1 became a priority project for us, a global vertical of the business. My role in it is simple: drive strategic partnerships that work for both the brand and the rights holder. I do that together with Bjorn, and with George, who is here on the call."
+> Then Formula 1 became a top priority project within SPORTFIVE, a global vertical of the business, and I had the opportunity to be part of a great team. As you can imagine, that was an easy yes.
+>
+> My role is simple: drive strategic partnerships that work for both the brand and the rights holder. I do that together with Bjorn, and with George, who you will hear from today."
 
 **About SPORTFIVE:**
 
