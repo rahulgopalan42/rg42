@@ -74,7 +74,7 @@
 >
 > As promised, I wanted to involve the right people for this conversation. So joining me today are Bjorn, who I work very closely with on our Formula 1 business, and Ellery, who is part of our athlete department. I will explain in a moment why I wanted them both here.
 >
-> For anyone who was not part of last week's chat, let me give a quick background on myself and SPORTFIVE. Then I will explain what I would like us to do with this call. Sound good?"
+> Before we dive into the discussion, let me quickly set the stage: a little context on SPORTFIVE and myself, especially for anyone who was not part of last week's chat, and then the context for the call today, what I would like us to get out of it. Sound good?"
 
 **About you:**
 
