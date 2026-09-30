@@ -436,15 +436,19 @@
 
 ## Part 6: Close and next steps (2 minutes)
 
-> "[Name], this was very useful. Thank you. Let me tell you what happens next, so there are no surprises.
+> "[Name], this was very useful. Thank you. Let me close with exactly what happens next, so there are no surprises.
 >
-> We take everything from today and build the brief. Then my team maps the full grid against it: which teams fit Moncler, what is available, at what level, and where you get the most value. We come back with a short list and clear recommendations. Give us [two to three weeks].
+> Step one, we take everything you shared today and turn it into a brief. You will see it in writing, and you can correct it. Nothing moves until you tell us it is right.
 >
-> No cost and no obligation on your side at any point. That is how we work.
+> Step two, my team goes to work on that brief. We define your category and your direct competitors, and we map that across all eleven teams: what is truly available, at which levels, and where Moncler gets the most value. And because Ellery is here, we look at the athlete route as well, not only the teams.
 >
-> And one more thing. The best way to understand this world is to stand in it. We would be delighted to host you and your colleagues as our guests at a Grand Prix, walk the paddock, and see how the luxury houses use a race weekend. We can talk dates when the recommendations are on the table.
+> Step three, we come back with a short list and clear recommendations. Give us [two to three weeks]. Every option will show what it includes, what it costs, and why it fits your brief.
 >
-> Before we finish, what questions do you have for me?"
+> Through all of this, no cost and no obligation on your side. The teams pay our fee, so our advice is free for you. That is how we work.
+>
+> And one more thing. The best way to understand this world is to stand in it. We would be delighted to host you and your colleagues as our guests at a Grand Prix, walk the paddock, and see how the luxury houses use a race weekend. We can pick dates once the recommendations are on the table.
+>
+> Does that work as a plan? And before we finish, what questions do you have for me, for Bjorn, or for Ellery?"
 
 *[Last word, keep it warm:]*
 
