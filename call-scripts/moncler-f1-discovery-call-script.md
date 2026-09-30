@@ -13,7 +13,7 @@
 **The flow:**
 
 1. **Opening: you, SPORTFIVE, and the brand-first model.** 4 min
-2. **Frame the call: purpose, homework on Moncler, why now.** 2 min
+2. **Frame the call: purpose, homework on Moncler, why now, hellos from Bjorn and Ellery.** 3 min
 3. **Discovery: fill the brief (objectives, audience, markets, budget).** 15 min
 4. **How F1 works: structure, rights, audience, why Moncler, activation ideas.** 10 min
 5. **Their questions: prepared answers.** Use as needed
@@ -21,15 +21,16 @@
 
 **Three messages that must land:**
 
-- **We start from your objectives.** Brand-first, non-exclusive across the grid, and the teams pay our fee. Everything we do for Moncler is free.
+- **We start from your objectives.** Brand-first, non-exclusive across the grid, and the teams pay our fee. Everything we do for Moncler is free. And we are not one-dimensional: beyond Formula 1, our athlete department opens routes across sport.
 - **Luxury has arrived in F1.** Louis Vuitton on Monaco, TAG Heuer on Madrid, Moet on the podium, Brioni dressing Alpine. The question is no longer if, it is where Moncler fits.
 - **This audience is the next luxury customer.** Young, increasingly female, the highest concentration of premium buyers in sport.
 
 **Fill in before the call:**
 
-- Optional: one named example from the Middle East years (football or esports) ready for Part 1, if asked
+- Optional: one named Middle East example ready, only if they ask about your background
 - [Name] of the Moncler contact and pronunciation
-- Confirm Bjorn's and George's name spellings for any follow-up email
+- Brief Bjorn and Ellery for their quick hellos; Ellery ready with one line on the athlete department
+- Confirm Bjorn's and Ellery's name spellings for any follow-up email
 - [Timeframe] you promise for recommendations in Part 6
 - Confirm internally: no live deal in luxury fashion, outerwear or apparel
 
@@ -69,9 +70,9 @@
 
 *[This is a reconnect, not a first meeting. Warm and familiar with [Name]; the fuller background is for anyone on their side who is new. Smile. Take your time.]*
 
-> "[Name], great to connect again. It was a pleasure speaking last week, and thank you for making the time today. And let me say it: it is great to be speaking with an amazing brand like Moncler, especially at this point in time, when fashion has become such an integral part of Formula 1.
+> "[Name], great to connect again. It was a pleasure speaking last week, and thank you for the time today. I really appreciate it. And let me say it: it is a pleasure to be speaking with an amazing brand like Moncler, at a moment when fashion has become such an integral part of motorsport, and of Formula 1 above all.
 >
-> As promised, I wanted to involve the right people for this conversation. So joining me is George, who I work very closely with on our Formula 1 business.
+> As promised, I wanted to involve the right people for this conversation. So joining me today are Bjorn, who I work very closely with on our Formula 1 business, and Ellery, who is part of our athlete department. I will explain in a moment why I wanted them both here.
 >
 > For anyone who was not part of last week's chat, let me give a quick background on myself and SPORTFIVE. Then I will explain what I would like us to do with this call. Sound good?"
 
@@ -79,11 +80,9 @@
 
 > "I sit in the global sales team at SPORTFIVE, and I look after brand partnerships for our Formula 1 business.
 >
-> A little on my background. I was part of our Middle East team, where I drove partnerships for the exclusive accounts we worked with. In those years we worked with some of the biggest football clubs in the region. And esports and gaming was a key strategic focus for us there: among other things, we worked closely with the Saudi government's esports project.
+> A little on my background. I was part of our Middle East business, where I drove partnerships for the exclusive accounts we worked with across the region. Then Formula 1 became a top priority project within SPORTFIVE, a global vertical of the business, and I had the opportunity to be part of a great team. As you can imagine, that was an easy yes.
 >
-> Then Formula 1 became a top priority project within SPORTFIVE, a global vertical of the business, and I had the opportunity to be part of a great team. As you can imagine, that was an easy yes.
->
-> My role is simple: drive strategic partnerships that work for both the brand and the rights holder. I do that together with Bjorn, and with George, who you will hear from today."
+> My role is simple: drive strategic partnerships that work for both the brand and the rights holder."
 
 **About SPORTFIVE:**
 
@@ -103,13 +102,21 @@
 >
 > So the best place to start is your objectives, and we work back from there to the right fit."
 
+**Why this team, on this call:**
+
+> "And one more thing about us, because it explains who is sitting with me today.
+>
+> SPORTFIVE is not a one-dimensional agency. Formula 1 is one side of what we do, and a big one. But we have other business functions across sport, including a dedicated athlete department.
+>
+> Why does that matter for Moncler? Because it means we can explore opportunities beyond Formula 1 alone. For a house like yours, an athlete angle could make a lot of sense as well. That is exactly why I asked Ellery to join us today."
+
 ---
 
-## Part 2: Frame the call (2 minutes)
+## Part 2: Frame the call (2 to 3 minutes)
 
 > "So, the purpose of today.
 >
-> This is a discovery call. Ideally, we work closely with you to build a brief, and then we come back with recommendations that truly align with it. So today I want to do two things: learn about Moncler and your objectives, and give you clarity on how Formula 1 partnerships work wherever that is useful. I will ask some questions along the way that help us fill out the brief. Nothing formal.
+> This is a discovery call. We want to gather some insights, understand the brand better, and see how sport could be a vehicle in helping drive Moncler's growth. Ideally, we work closely with you to build a brief, and then we come back with recommendations that truly align with it. I will ask some questions along the way that help us fill out the brief. Nothing formal.
 >
 > Does that work for you?"
 
@@ -123,15 +130,19 @@
 >
 > And from the reading we did around Moncler, a few things stood out to us. One, the performance soul is still there: Grenoble is real mountain wear, built for it. Two, this is a house that likes bold company: Genius turned collaboration into a platform, and you even built a car with Mercedes-Benz, Project Mondo G. And three, your growth push is the US and Asia. This sport is booming in the US, three races now, and the calendar covers Asia's key cities.
 >
-> Put that next to the timing. Fashion and luxury are moving into Formula 1 right now. Louis Vuitton has its name on the Monaco Grand Prix. TAG Heuer on Madrid. Moet is back on the podium. Brioni dresses the Alpine team, Tommy Hilfiger is with the new Cadillac team, Hugo Boss with Racing Bulls. The seats are being taken one by one.
+> Put that next to the timing. Fashion and luxury are moving into motorsport as a whole right now, and Formula 1 is where it is loudest. Louis Vuitton has its name on the Monaco Grand Prix. TAG Heuer on Madrid. Moet is back on the podium. Brioni dresses the Alpine team, Tommy Hilfiger is with the new Cadillac team, Hugo Boss with Racing Bulls. The seats are being taken one by one.
 >
 > So for those reasons, we simply thought it was a timely opportunity to at least have this conversation, and to see where the brand stands. Nothing more than that today.
 >
 > For me the question is not whether luxury belongs in Formula 1. It is where Moncler fits, and on whose terms. That is what the brief will tell us."
 
-*[Then open softly. Their answer sets the depth for Part 4:]*
+*[Hand over for quick hellos. Keep it short:]*
 
-> "Let me start simple. How much do you follow Formula 1? And has Moncler looked at sport before, beyond ski?"
+> "Before we go any further, let me hand over to Bjorn and Ellery for a quick hello."
+
+*[Bjorn, then Ellery, a line or two each. Then bring it back and open softly; their answer sets the depth for Part 4:]*
+
+> "Great. And now, most importantly, we would love to hear from you. Tell us about Moncler. And let me start simple: how much do you follow Formula 1? And has Moncler looked at sport before, beyond ski?"
 
 ---
 
@@ -290,7 +301,7 @@
 >
 > **A team.** This is where the story lives. The car, the drivers, the wins and setbacks, the content, the hospitality. Many more entry points and price levels. The Brioni route.
 >
-> **A driver personally.** The face, not the team. Campaign rights, personal channels, appearance days. Fashion houses use drivers as ambassadors all the time. Simpler and cheaper, but no team rights, no car, no paddock hospitality.
+> **A driver personally.** The face, not the team. Campaign rights, personal channels, appearance days. Fashion houses use drivers as ambassadors all the time, and this is exactly what our athlete department, Ellery's world, builds every day. Simpler and cheaper, but no team rights, no car, no paddock hospitality.
 >
 > For a house like Moncler, the honest answer is that the right route depends on the objective: a statement, a wardrobe, or a client platform. The brief decides."
 
