@@ -48,7 +48,7 @@
 - Growth focus on the US and Asia. Pure B2C luxury. Capacity: strong.
 
 ### Flags
-- **Category picture:** every team's racewear is held by sportswear brands (Puma at Ferrari, Aston Martin and McLaren; adidas at Mercedes and Audi; Castore at Red Bull, Alpine and Haas). That is technical teamwear, not Moncler's seat. The luxury and lifestyle space next to it is where the conversation lives, and Brioni's bespoke partnership with Alpine is the proof it exists. Do not claim any category open; we verify at recommendations.
+- **Category picture:** every team's racewear is held by sportswear brands (Puma at Ferrari, Aston Martin and McLaren; adidas at Mercedes and Audi; Castore at Red Bull, Alpine and Haas). That is technical teamwear, not Moncler's seat. The luxury and lifestyle space next to it is where the conversation lives, and Brioni's bespoke partnership with Alpine is the proof it exists. Do not claim any category open; we verify at recommendations. Q6 handles the availability question without promises.
 - **Names check:** fashion citations in this script (Louis Vuitton Monaco title, TAG Heuer Madrid title, Moet & Chandon podium, Tommy Hilfiger at Cadillac, Hugo Boss at Racing Bulls, Brioni with Alpine, Puma, adidas, Castore, Tumi at McLaren) were verified 20 Sep 2026. Re-verify on call day.
 - **Pipeline check:** confirm no live deal in luxury fashion or apparel, and check the register for earlier Moncler outreach.
 - **Tone:** luxury marketers buy craft and story, not spreadsheets. Lead with the picture, keep the numbers as seasoning.
@@ -450,5 +450,5 @@
 
 - Write up the brief the same day: objectives, brand story to amplify, audience, markets, integration appetite, budget signals, timeline, decision makers, clienteling needs.
 - Send a short thank-you email the same day: three lines, recap of the agreed next step and the date you promised.
-- Brief the internal team for the grid mapping. Verify luxury apparel, outerwear and lifestyle categories across all eleven teams fresh, plus driver ambassador options.
+- Brief the internal team for the grid mapping. Define Moncler's direct competitor set and category wording, then verify luxury apparel, outerwear and lifestyle categories across all eleven teams fresh, plus driver ambassador options.
 - Log Moncler in the pipeline register and check for category collisions before anything goes out.
