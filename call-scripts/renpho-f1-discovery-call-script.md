@@ -1,6 +1,6 @@
 # RENPHO x SPORTFIVE: F1 Discovery Call Script (McLaren Focus)
 
-**Call type:** Second touch / discovery. You connected with Jonathan on WhatsApp: he asked about McLaren specifically, and whether we work with them. You promised to involve the right people, which is why George is on this call. Goal: answer the McLaren question with George in the room, let RENPHO do the talking, understand why McLaren, fill out the brief, and position the brand-first model so the recommendations can cover McLaren properly and show what else is worth seeing next to it.
+**Call type:** Second touch / discovery. From your brief conversation with Jonathan, the key takeaway was clear: McLaren is the obvious team of interest, which is why George is on this call. Goal: hear from RENPHO first and foremost, understand why McLaren, smartly open the door to other routes, fill out the brief, and position the agency as serving them with all the material and information to identify the right path into the world of motorsport.
 
 **How to use this script:** Every spoken block is written the way you would say it out loud. Do not read it word for word. Glance at the bold anchors, then talk. Short sentences, slow pace, warm tone. This call is different from the usual first call: you have already met, so no formal introductions with Jonathan, and the talk ratio flips. They should speak most of the call. Your job is to frame, hand over to George at the right moment, ask, and listen.
 
@@ -22,13 +22,13 @@
 **Three messages that must land:**
 
 - **We start from your objectives.** Brand-first, non-exclusive across the grid, and the teams pay our fee. Everything we do for RENPHO is free.
-- **Yes, we work with McLaren, and it is not the only door.** Jonathan asked exactly this on WhatsApp; George in the room is the answer. We used to work exclusively and gave that up deliberately, so we can work for the brand objectively. We start with the brand and reverse engineer to the right team. Seeing options makes your McLaren position stronger, not weaker.
+- **Yes, we work with McLaren, and it is not the only door.** The brief conversation made McLaren the obvious team of interest; George in the room is the answer. We used to work exclusively and gave that up deliberately, so we can work for the brand objectively. We start with the brand and reverse engineer to the right team. Seeing options makes your McLaren position stronger, not weaker.
 - **Recovery belongs in this sport.** Drivers are elite athletes racing 24 weekends across five continents. Recovery is part of performance here, and the audience, young, online, premium, is exactly who buys RENPHO.
 
 **Fill in before the call:**
 
 - Jonathan's surname and pronunciation, and who else joins from RENPHO
-- Re-read the WhatsApp chat with Jonathan; do not re-ask what he already told you
+- Re-read your notes from the brief conversation with Jonathan; do not re-ask what he already told you
 - Brief George: he opens with a short hello and carries the McLaren detail
 - Confirm Bjorn's and George's name spellings for any follow-up email
 - [Timeframe] you promise for recommendations in Part 6
@@ -72,11 +72,11 @@
 
 *[This is a reconnect, not a first meeting. Warm and familiar with Jonathan. The short background is for anyone on their side who is new.]*
 
-> "Jonathan, great to connect again. I enjoyed our chat on WhatsApp, and thank you for making the time today.
+> "Jonathan, thank you for your time today. I really appreciate it, and it is good to speak again.
 >
-> On WhatsApp you asked me about McLaren specifically, and whether we work with them. The short answer is yes, we do. And that is exactly why I have invited George onto the call today. George works very closely with the teams and the rights holders, McLaren included, and he is the right person to go deeper on McLaren with you.
+> I think the key takeaway from the brief conversation we had was clear: McLaren is the obvious team of interest. And that is exactly why I have George on the call today. George is very well versed in this world: he works closely with the teams and the rights holders, and he has a very strong understanding of what each team offers and what the value propositions are.
 >
-> For anyone who was not part of that chat, let me give thirty seconds of background, and then I will explain what I would like us to do today. Sound good?"
+> Before we dive in, let me quickly set the stage: thirty seconds on SPORTFIVE and myself, and then the goal for today. Sound good?"
 
 **About you and SPORTFIVE, in one minute:**
 
@@ -94,27 +94,23 @@
 
 ## Part 2: Frame the call (2 minutes)
 
-> "So, the purpose of today.
+> "So, the goal of today. Let me keep it simple.
 >
-> From our chat I know the specific interest is McLaren, and that is a great place to start. So let me frame today in three parts.
+> First and foremost, we want to hear from you. We want to understand why McLaren: is there something specific about McLaren that speaks to RENPHO? The team, the drivers, the story? That understanding shapes everything we do next.
 >
-> First, we want to hear about the brand. Ideally you do most of the talking: where RENPHO is, where it is going, and what you would want a partnership to do for you.
+> And along the way, we will ask one smart question as well: could there be another team worth exploring next to it? Not to slow anything down. Our goal as an agency is to serve you with all the material and all the information, and to help you identify the right path into the world of motorsport. Sometimes that path is the first instinct. Sometimes it is the first instinct, made stronger by a comparison.
 >
-> Second, we want to understand the McLaren interest a little more. Why McLaren specifically? What is the picture in your head? And George can walk you through what McLaren offers.
->
-> And third, with everything we learn, we build a brief. Then we come back with recommendations: what McLaren could look like for RENPHO, and, where it makes sense, other opportunities worth seeing next to it.
->
-> Nothing formal today. Mostly, we want to listen.
+> So with that said, it would be great to hear from you, and we take it forward from there.
 >
 > Does that work for you?"
 
 *[Hand over for a quick hello. Keep it short:]*
 
-> "Before we dive in, let me hand over to George for a quick hello."
+> "Before you begin, let me hand over to George for a quick hello."
 
-*[George introduces himself in a line or two and his work around McLaren. Then bring it back:]*
+*[George introduces himself in a line or two and his work around the teams. Then bring it back:]*
 
-> "Great. So, over to you. Tell us about RENPHO. Start wherever you like: the brand, the products, or what made you look at Formula 1."
+> "Great. So, over to you. Tell us about RENPHO, and what drew you to McLaren."
 
 ---
 
