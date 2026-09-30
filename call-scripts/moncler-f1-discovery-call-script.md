@@ -1,6 +1,6 @@
 # Moncler x SPORTFIVE: F1 Discovery Call Script
 
-**Call type:** Discovery, second touch: you connected with [Name] last week, so the opening is a reconnect, not a first meeting. Goal: bring in the right people as promised, understand Moncler's objectives, fill out the brief, show how F1 fits a luxury house, agree next steps.
+**Call type:** First call / discovery. Goal: open warmly, introduce Bjorn and Ellery and why they are both here, set the stage on SPORTFIVE and yourself, understand Moncler's objectives, fill out the brief, show how F1 fits a luxury house, agree next steps.
 
 **How to use this script:** Every spoken block is written the way you would say it out loud. Do not read it word for word. Glance at the bold anchors, then talk. Short sentences, slow pace, warm tone. The listeners are from Italy and English is not their first language, so keep every sentence simple and concrete. Let them talk more than you.
 
@@ -68,13 +68,15 @@
 
 ## Part 1: Opening (3 to 4 minutes)
 
-*[This is a reconnect, not a first meeting. Warm and familiar with [Name]; the fuller background is for anyone on their side who is new. Smile. Take your time.]*
+*[This is a first call. After hellos and small talk. Smile. Take your time.]*
 
-> "[Name], great to connect again. It was a pleasure speaking last week, and thank you for the time today. I really appreciate it. And let me say it: it is a pleasure to be speaking with an amazing brand like Moncler, at a moment when fashion has become such an integral part of motorsport, and of Formula 1 above all.
+> "Thank you for your time today, [Name]. I really appreciate it. And I think it is quite a good time to be speaking with an amazing brand like Moncler, at a moment when fashion has become such a focal point of motorsport, and of Formula 1 in particular, where it is now deeply ingrained in the culture of the sport.
 >
-> As promised, I wanted to involve the right people for this conversation. So joining me today are Bjorn, who I work very closely with on our Formula 1 business, and Ellery, who is part of our athlete department. I will explain in a moment why I wanted them both here.
+> Joining me today are Bjorn, who I work very closely with in our Formula 1 business, and Ellery, who is part of our athlete department.
 >
-> Before we dive into the discussion, let me quickly set the stage: a little context on SPORTFIVE and myself, especially for anyone who was not part of last week's chat, and then the context for the call today, what I would like us to get out of it. Sound good?"
+> Let me quickly say why it made sense to have them both here. Bjorn and I drive the Formula 1 partnerships side by side. And Ellery is here because SPORTFIVE is not a one-dimensional agency. Formula 1 is one big side of what we do, but we also have other business functions across sport, including a dedicated athlete department. For a house like Moncler, an athlete angle could make a lot of sense as well, so I wanted that door open from the start.
+>
+> Before we dive into the discussion, let me quickly set the stage: a little context on SPORTFIVE and myself, and then the context for the call today, what I would like us to get out of it. Sound good?"
 
 **About you:**
 
@@ -101,14 +103,6 @@
 > And the consultancy costs you nothing. Our fee comes out of the partnership fee we broker, and the team pays it. No added cost on your side.
 >
 > So the best place to start is your objectives, and we work back from there to the right fit."
-
-**Why this team, on this call:**
-
-> "And one more thing about us, because it explains who is sitting with me today.
->
-> SPORTFIVE is not a one-dimensional agency. Formula 1 is one side of what we do, and a big one. But we have other business functions across sport, including a dedicated athlete department.
->
-> Why does that matter for Moncler? Because it means we can explore opportunities beyond Formula 1 alone. For a house like yours, an athlete angle could make a lot of sense as well. That is exactly why I asked Ellery to join us today."
 
 ---
 
