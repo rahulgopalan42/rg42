@@ -142,39 +142,45 @@
 
 ## Part 3: The brief. Key discovery questions (12 to 15 minutes)
 
-*[Work through these as a conversation, not a checklist. Follow their energy. The bold labels are for you; the questions are for them. Capture answers, they become the brief.]*
+*[These are conversation starters, not a form. Ask one, then stay quiet and follow what they give you. The bold labels are for you; the words are for them. Capture answers, they become the brief.]*
 
-**Objectives**
-- "What would Formula 1 need to do for Moncler? New audiences, heat for the brand, a bigger stage in the US and Asia, or something else?"
-- "Imagine this works perfectly. Three years from now, what has changed for Moncler because of it?"
+**Open the story**
+- "Tell me where Moncler is right now, in your own words. What is going well, and what is the next mountain to climb?"
+- "When you and your team talk about the next three years, what comes up again and again?"
 
-**Brand fit**
-- "Moncler means the mountain, craft, and now co-creation through Genius. Which of those stories would you want Formula 1 to amplify?"
-- "Project Mondo G was a statement piece with Mercedes-Benz. Did that appetite for the automotive world continue inside the house?"
+**Objectives, the dream and the fear**
+- "Imagine we did something in Formula 1 together and it worked beautifully. Three years from now, what is different for Moncler?"
+- "And the other side: what would make it a failure in your eyes? Sometimes that answer tells us more than the first one."
+
+**The Mercedes-Benz experience (Project Mondo G)**
+- "You have touched the car world once already: Project Mondo G with Mercedes-Benz. I am curious, how was that experience for the house?"
+- "What did it do for the brand? And did anything surprise you, good or bad?"
+- "If you played in the automotive world again, what would you keep, and what would you do differently?"
+- "Did Mondo G stay a beautiful one-off, or did it leave an appetite inside the house for more of that world?"
 
 **Audience**
-- "Who is the customer you most want to win next: younger, more female, more American, more Asian?"
-- "How important is reaching new customers versus giving something special to your existing clients?"
+- "Describe the customer you most want to win next. Who are they, where do they live, what do they care about?"
+- "And your existing top clients: what do you give them today that money cannot buy? I ask because that is exactly the currency of this sport."
+
+**Brand story**
+- "Moncler means the mountain, craft, and now co-creation through Genius. If Formula 1 could amplify only one of those stories, which one should it be?"
 
 **Markets**
-- "Which markets matter most for the next three years? The calendar covers all of them: Monaco, Miami, Las Vegas, Shanghai, Singapore."
+- "Which markets matter most for the next three years? And which one excites you the most? This calendar goes everywhere: Monaco, Miami, Las Vegas, Shanghai, Singapore."
 
-**Product and integration**
-- "Would you want Moncler visible on people, not just on boards? Think off-track wardrobe, travel wear, the paddock arrivals that get photographed every weekend. Is product integration like that interesting, or is this more about experiences and clients?"
+**Product and visibility**
+- "When you imagine Moncler in this sport, what do you see first: product on people, a collection, experiences for your clients, or the brand on the biggest stages? There is no wrong answer. It just points us to different doors."
+
+**Ways of working**
+- "How do partnerships usually happen inside Moncler? Who falls in love with the idea first, and who has to sign it off?"
+- "And would your team activate this, the content, the drops, the events, or would you want support there too?"
 
 **Budget and timing**
-- "Have you set a budget range for this? Even a rough range helps me filter what is realistic."
-- "When would you want to be live? Partnerships here usually run three to five seasons, though fashion collaborations can also start with a capsule."
+- "Now the unromantic question: is there a budget range in mind? Even a rough one helps me bring back only what is realistic."
+- "And timing: is this a now conversation, or a next-year conversation? Both are fine. They just change what we bring back."
 
-**Decision process**
-- "Apart from you, who shapes this decision? Mr Ruffini's office, the board?"
-
-**Marketing context**
-- "How would this sit next to Genius, the shows, the campaigns? Would F1 be a Genius chapter or its own pillar?"
-- "Do you have the team to activate at this scale, or would you want support there too?"
-
-**Clients and hospitality**
-- "How central is clienteling for you? Would you want your top clients hosted at Monaco, Las Vegas, Milan week at Monza?"
+**Hospitality**
+- "Last one, and it is my favorite. If I gave you a paddock weekend in Monaco tomorrow, who would you bring, and why those people? That answer usually tells me what a partnership is really for."
 
 *[If they hesitate on the budget question:]*
 
