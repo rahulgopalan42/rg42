@@ -267,13 +267,14 @@
 - Q3. Visibility among thirty partners
 - Q4. Is F1 the right image for a luxury house
 - Q5. Which team would fit Moncler
-- Q6. Measuring ROI
-- Q7. Who owns Formula 1
-- Q8. Cost, and why F1 is expensive
-- Q9. Why SPORTFIVE, why not go direct
-- Q10. Is the audience not mostly men
-- Q11. Are competitors already in
-- Q12. Rights, licensing and merchandise: how would it work
+- Q6. Which teams are available
+- Q7. Measuring ROI
+- Q8. Who owns Formula 1
+- Q9. Cost, and why F1 is expensive
+- Q10. Why SPORTFIVE, why not go direct
+- Q11. Is the audience not mostly men
+- Q12. Are competitors already in
+- Q13. Rights, licensing and merchandise: how would it work
 
 ### Q1. "How are fashion and luxury brands doing this today?"
 
@@ -331,7 +332,17 @@
 >
 > Give us the brief today, and the recommendation comes back with names and reasons."
 
-### Q6. "How is ROI measured in Formula 1?"
+### Q6. "So which teams are available for us?"
+
+> "The honest answer is: I will not promise you availability on this call, because in this sport that answer is only worth something once it is verified.
+>
+> And here is why. The fashion category in Formula 1 is more complex than it looks. When a brand signs with a team, it usually does not block the whole of fashion. Contracts define categories narrowly: technical racewear is one seat, formal wear another, luggage, eyewear, watches, luxury outerwear, each can be its own line. So a team that looks full of fashion partners can still have your exact seat open. And a team that looks empty may have it quietly blocked.
+>
+> So the real work is two steps. First, we define who Moncler's direct competitors are, and what your category should cover: wide enough to protect you, precise enough to be sellable. Then we check that exact definition against all eleven teams: who holds what, under which definition, and until when.
+>
+> That is part of the grid mapping we do after this call. When we come back with recommendations, you get the true availability picture, team by team. A guess today would only fall apart in a contract review, and you deserve better than that."
+
+### Q7. "How is ROI measured in Formula 1?"
 
 > "Four ways, usually.
 >
@@ -345,7 +356,7 @@
 >
 > You agree the framework upfront and review it with the team every quarter. The good teams manage a partnership like a business."
 
-### Q7. "Who owns Formula 1? How does the money work?"
+### Q8. "Who owns Formula 1? How does the money work?"
 
 > "Three layers, very simple.
 >
@@ -357,7 +368,7 @@
 >
 > Since 2021 the sport has a cost cap, so teams became profitable, stable businesses. Team sponsorship has doubled since 2020, to 2.2 billion dollars a year. You would be entering a healthy, growing market."
 
-### Q8. "What does a partnership cost, and why is Formula 1 so expensive?"
+### Q9. "What does a partnership cost, and why is Formula 1 so expensive?"
 
 *[Only if they ask. Stay qualitative, ranges not quotes.]*
 
@@ -379,7 +390,7 @@
 
 *[Background for you, never quoted: reported title benchmarks run around $75M to $110M a year at the top teams.]*
 
-### Q9. "Why work with SPORTFIVE? Could we not go to a team directly?"
+### Q10. "Why work with SPORTFIVE? Could we not go to a team directly?"
 
 > "You could, and some brands do. Brands use us for two reasons.
 >
@@ -389,7 +400,7 @@
 >
 > And because the teams pay our fee, all of that costs you nothing. There is no scenario where you pay more by using us."
 
-### Q10. "Is the audience not mostly men who love cars?"
+### Q11. "Is the audience not mostly men who love cars?"
 
 > "It was, years ago. Not anymore, and this is the whole point for Moncler.
 >
@@ -397,13 +408,13 @@
 >
 > This is now one of the youngest, most female, most digital audiences in major sport. That shift is exactly why fashion and beauty brands are arriving."
 
-### Q11. "Are any of our competitors already in Formula 1?"
+### Q12. "Are any of our competitors already in Formula 1?"
 
 > "Some luxury and fashion names are in, and I named the big ones. But I will not answer the category question from memory, because this market moves weekly and you deserve an exact answer.
 >
 > Mapping luxury apparel and outerwear across all eleven teams is part of the grid analysis we do after this call. When we come back with recommendations, you will see precisely who is in, who is not, and where the open positions are."
 
-### Q12. "If we create product together, how do rights, licensing and merchandise work?"
+### Q13. "If we create product together, how do rights, licensing and merchandise work?"
 
 > "Very good question, and this is where fashion deals differ from a normal sponsorship.
 >
