@@ -119,9 +119,13 @@
 
 > "One thing before my questions: why this conversation, and why now.
 >
-> I did my homework on Moncler. A brand born in the French Alps in the 1950s, making jackets for the mountain. Then Mr Ruffini turned it into one of the great luxury stories of our time: more than three billion euros today, with Stone Island alongside. And what interests me most is how you work now. Grenoble keeps the performance soul. Genius turned collaboration into a platform. You even built a car with Mercedes-Benz, Project Mondo G. This is a house that likes bold partnerships.
+> I did my homework on Moncler. A brand born in the French Alps in the 1950s, making jackets for the mountain. Then Mr Ruffini turned it into one of the great luxury stories of our time: more than three billion euros today, with Stone Island alongside.
 >
-> And the timing is why I picked up the phone. Fashion and luxury are moving into Formula 1 right now. Louis Vuitton has its name on the Monaco Grand Prix. TAG Heuer on Madrid. Moet is back on the podium. Brioni dresses the Alpine team, Tommy Hilfiger is with the new Cadillac team, Hugo Boss with Racing Bulls. The seats are being taken one by one. So a conversation with Moncler felt timely.
+> And from the reading we did around Moncler, a few things stood out to us. One, the performance soul is still there: Grenoble is real mountain wear, built for it. Two, this is a house that likes bold company: Genius turned collaboration into a platform, and you even built a car with Mercedes-Benz, Project Mondo G. And three, your growth push is the US and Asia. This sport is booming in the US, three races now, and the calendar covers Asia's key cities.
+>
+> Put that next to the timing. Fashion and luxury are moving into Formula 1 right now. Louis Vuitton has its name on the Monaco Grand Prix. TAG Heuer on Madrid. Moet is back on the podium. Brioni dresses the Alpine team, Tommy Hilfiger is with the new Cadillac team, Hugo Boss with Racing Bulls. The seats are being taken one by one.
+>
+> So for those reasons, we simply thought it was a timely opportunity to at least have this conversation, and to see where the brand stands. Nothing more than that today.
 >
 > For me the question is not whether luxury belongs in Formula 1. It is where Moncler fits, and on whose terms. That is what the brief will tell us."
 
