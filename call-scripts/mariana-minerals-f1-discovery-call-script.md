@@ -1,6 +1,6 @@
 # Mariana Minerals x SPORTFIVE: F1 Discovery Call Script
 
-**Call type:** First call / discovery. Goal: open warmly, set the stage on SPORTFIVE and yourself, understand Mariana Minerals' objectives, fill out the brief, show why F1's electric era and its car-maker paddock fit a critical-minerals company, agree next steps.
+**Call type:** First call / discovery, brand-led. Goal: open with Mariana's own story to show real homework, keep the SPORTFIVE intro to three clear sentences, understand their objectives, fill out the brief, show why F1's electric era and its car-maker paddock fit a critical-minerals company, agree next steps.
 
 **How to use this script:** Every spoken block is written the way you would say it out loud. Do not read it word for word. Glance at the bold anchors, then talk. Short sentences, slow pace, warm tone. The listeners are ex-Tesla engineers and operators; they respect precision and dislike marketing talk, so keep it plain, concrete and short. Let them talk more than you.
 
@@ -12,8 +12,8 @@
 
 **The flow:**
 
-1. **Opening: thanks, you, SPORTFIVE, and the brand-first model.** 4 min
-2. **Frame the call: purpose, homework on Mariana, why now.** 2 min
+1. **Opening: the brand first, their story told back to them, then SPORTFIVE in three sentences.** 3 min
+2. **Frame the call: purpose, why Formula 1 for Mariana.** 2 min
 3. **Discovery: fill the brief (objectives, buyers, markets, budget).** 15 min
 4. **How F1 works: structure, rights, audience, why Mariana, activation ideas.** 10 min
 5. **Their questions: prepared answers.** Use as needed
@@ -67,41 +67,35 @@
 
 ---
 
-## Part 1: Opening (3 to 4 minutes)
+## Part 1: Opening, the brand first (3 minutes)
 
-*[This is a first call. After hellos and small talk. Smile. Take your time.]*
+*[This is a first call, but it opens with THEM, not us. The homework speech is the handshake. Slow, confident, specific.]*
 
-> "Thank you for your time today, [Name]. I really appreciate it. And I think it is a good moment to be speaking with a company like Mariana, because this sport has just entered its most electric era, and that era runs on exactly what you produce.
+> "Thank you for your time today, [Name]. I really appreciate it. Joining me are Bjorn and George, who I work very closely with in our Formula 1 business.
 >
-> Joining me today are Bjorn and George, who I work very closely with in our Formula 1 business.
->
-> Before we dive into the discussion, let me quickly set the stage: a little context on SPORTFIVE and myself, and then the context for the call today, what I would like us to get out of it. Sound good?"
+> And let me start this call a little differently. Not with us. With you. Because the reason we asked for this conversation is what we found when we did our homework on Mariana."
 
-**About you:**
+**The brand, told back to them:**
 
-> "I sit in the global sales team at SPORTFIVE, and I look after brand partnerships for our Formula 1 business.
+> "Here is what stood out to us.
 >
-> A little on my background. I was part of our Middle East business, where I drove partnerships for the exclusive accounts we worked with across the region. Then Formula 1 became a top priority project within SPORTFIVE, a global vertical of the business, and I had the opportunity to be part of a great team. As you can imagine, that was an easy yes.
+> The world needs far more copper and lithium than it can produce. For cars, for the grid, for AI, for defense. Most of the industry answers that problem slowly, over decades. You answer it like a technology company.
 >
-> My role is simple: drive strategic partnerships that work for both the brand and the rights holder. I do that together with Bjorn and George, who are here with me."
+> A founding team that spent years building Tesla's factories, led by the person who ran Tesla's battery minerals group. An idle copper mine in Utah, bought and brought back to life in around four months, run with autonomous software, on its way to fifty thousand tons of refined copper a year. Lithium in Texas. And this August, three hundred and ten million dollars raised to scale it, with names like Khosla, Andreessen Horowitz, Breakthrough Energy, BHP and Mitsubishi behind you.
+>
+> In short: you are building the mining company the next twenty years need, in America, at software speed. That is one of the best industrial stories we have seen in a long time, whether the world knows it yet or not.
+>
+> That is why we called. Did we read you right?"
 
-**About SPORTFIVE:**
+*[Let them react. Their correction or their pride is the first discovery answer. Then:]*
 
-> "A quick background on us.
+**SPORTFIVE, in three sentences:**
+
+> "Now, very briefly, who we are, and then today belongs to you.
 >
-> In Formula 1, SPORTFIVE worked exclusively with the two biggest teams in the sport, Mercedes and Ferrari, for more than twelve years.
+> I look after brand partnerships for SPORTFIVE's Formula 1 business. Three sentences on us. We worked exclusively with the two biggest teams in the sport, Mercedes and Ferrari, for more than twelve years. We gave that exclusivity up, deliberately, so we can work brand-first: we start with your objectives and reverse engineer to the right team, across all eleven. And our advice costs you nothing, because the teams pay our fee.
 >
-> We have since given up those exclusive mandates, deliberately, and signed non-exclusive agreements across the grid.
->
-> We set it up this way so we can take a brand-first approach. We do not arrive selling one team. We start with your objectives, and we recommend the team that fits them.
->
-> You can see it in the breadth of our work. We have built partnerships with podium teams and with challenger teams. In both cases it started the same way: with the brand's objectives, and we reverse engineered the route from there.
->
-> We have a team that does exactly this: find the right entry route, find the team that matches your goals.
->
-> And the consultancy costs you nothing. Our fee comes out of the partnership fee we broker, and the team pays it. No added cost on your side.
->
-> So the best place to start is your objectives, and we work back from there to the right fit."
+> That is the whole pitch about us. The rest of this call is about Mariana."
 
 ---
 
@@ -109,19 +103,15 @@
 
 > "So, the purpose of today.
 >
-> This is a discovery call. We want to gather some insights, understand the company better, and see how this sport could be a vehicle in helping drive Mariana's growth. Ideally, we work closely with you to build a brief, and then we come back with recommendations that truly align with it. I will ask some questions along the way. Nothing formal.
+> This is a discovery call. We want to understand the brand properly, gather some insights, and see whether this sport could be a vehicle in helping drive Mariana's growth. Ideally, we work closely with you to build a brief, and then we come back with recommendations that truly align with it. I will ask some questions along the way. Nothing formal.
 >
 > Does that work for you?"
 
-**Why Mariana, and why now:**
+**Why Formula 1, for Mariana:**
 
 *[Say this early. Keep it slow and simple. It is the heart of the pitch.]*
 
-> "Before my questions, let me tell you why I wanted this call.
->
-> I did my homework on Mariana. Simple version: the world needs far more copper and lithium than it can currently produce, and you are attacking that problem the Silicon Valley way. A team that built factories at Tesla, now running mines with autonomous software. You restarted an idle copper mine in Utah in around four months, you are building lithium in Texas, and this August you raised three hundred and ten million dollars to scale it.
->
-> Now, why Formula 1? Three things stood out to us.
+> "And before my questions, the obvious one: why would a mining company even look at Formula 1? Three reasons.
 >
 > First, the timing is almost poetic. From this season, every F1 car carries a much bigger electric share: a hybrid power unit, a battery, kilometers of wiring. The most-watched racing series on earth just became an advertisement for the electric age, and the electric age runs on copper and lithium. Your product is the sport's own ingredient.
 >
@@ -129,7 +119,7 @@
 >
 > And third, you are an American industrial story, and this sport is booming in America: three races, two American teams, Apple broadcasting. There are very few stages where an American mining renaissance can be told to the whole world at once. This is one.
 >
-> So that is why I called: the timing, and the fit. The brief will tell us the rest."
+> So that is why we called: the timing, and the fit. The brief will tell us the rest."
 
 *[Then open softly. Their answer sets the depth for Part 4:]*
 
