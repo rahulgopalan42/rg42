@@ -82,7 +82,7 @@
 >
 > You have been building this for more than a decade, you serve some of the largest enterprises in the world, and investors like Partners Group, Brookfield and Tiger Global have backed the platform with well over a hundred and fifty million dollars.
 >
-> In short: you turned the most ignored documents in business into something a company can actually manage. That is a strong story, and we think there is a bigger stage for it.
+> In short: you turned the most ignored documents in business into something a company can truly manage. That is a strong story, and we think there is a bigger stage for it.
 >
 > That is why we called. Did we read you right?"
 
