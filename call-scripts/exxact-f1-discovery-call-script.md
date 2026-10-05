@@ -1,6 +1,6 @@
 # Exxact Corporation x SPORTFIVE: F1 Discovery Call Script
 
-**Call type:** First call / discovery, brand-led. Goal: open with Exxact's own story to show real homework, keep the SPORTFIVE intro to three clear sentences, understand their objectives, fill out the brief with honest numbers against their size, show why a sport that wins with computing fits the people who build the machines, agree next steps.
+**Call type:** First call / discovery. Goal: introduce yourself and SPORTFIVE in plain words, then give the reason for the call as one clear, direct story: a sport that wins with computing, and a company that builds exactly the right machines. Understand their objectives, fill out the brief with honest numbers against their size, agree next steps.
 
 **How to use this script:** Every spoken block is written the way you would say it out loud. Do not read it word for word. Glance at the bold anchors, then talk. Short sentences, slow pace, warm tone. The listeners are hardware people who have built systems for thirty years; they respect substance and dislike hype, so keep it plain, concrete and short. Let them talk more than you.
 
@@ -12,8 +12,8 @@
 
 **The flow:**
 
-1. **Opening: the brand first, their story told back to them, then SPORTFIVE in three sentences.** 3 min
-2. **Frame the call: purpose, why Formula 1 for Exxact.** 2 min
+1. **Opening: who we are in plain words, then the reason we called, told as one simple story.** 3 min
+2. **Frame the call: purpose, honest sizing, soft opener.** 2 min
 3. **Discovery: fill the brief (objectives, buyers, markets, budget).** 15 min
 4. **How F1 works: structure, rights, audience, why Exxact, activation ideas.** 10 min
 5. **Their questions: prepared answers.** Use as needed
@@ -66,35 +66,33 @@
 
 ---
 
-## Part 1: Opening, the brand first (3 minutes)
+## Part 1: Opening, who we are and why we called (3 minutes)
 
-*[This is a first call, but it opens with THEM, not us. The homework speech is the handshake. Slow, confident, specific.]*
+*[The order here is deliberate: you and SPORTFIVE first, in under a minute, then the reason for the call as one simple story. Slow, confident, concrete. Hardware people respect plain talk.]*
 
-> "Thank you for your time today, [Name]. I really appreciate it. Joining me are Bjorn and George, who I work very closely with in our Formula 1 business.
+> "Thank you for your time today, [Name]. I really appreciate it. Joining me are Bjorn and George, two colleagues I work very closely with in our Formula 1 business.
 >
-> And let me start this call a little differently. Not with us. With you. Because the reason we asked for this conversation is what we found when we did our homework on Exxact."
+> Let me start with a quick introduction of who we are and how we work, and then I will get to the reason we called, because that part is about you.
+>
+> I look after brand partnerships for SPORTFIVE's Formula 1 business. SPORTFIVE is a global sports marketing agency, and the way we work in this sport is a little unusual. For more than twelve years we worked exclusively with the two biggest teams, Mercedes and Ferrari. We stepped away from that exclusivity, deliberately, so we could work the other way around: we start with a brand, understand its objectives, and then find the right entry anywhere across the sport, any of the eleven teams. And our advice costs you nothing, because the rights holders pay our fee, not you.
+>
+> That is us, in under a minute."
 
-**The brand, told back to them:**
+**The reason we called:**
 
-> "Here is what stood out to us.
+> "Now, I think the reason we wanted to strike up this conversation is quite simple.
 >
-> Everyone talks about AI. Somebody has to build the machines it runs on. You have been doing exactly that since 1992: GPU workstations, servers and clusters, built to order for the hardest workloads in research, engineering and AI, delivered ready to run.
+> Everyone is talking about AI. Somebody has to build the machines it runs on. That is what Exxact has done since 1992. A lab tells you the workload, and you build exactly the right machine for it, tested and ready to run. And NVIDIA, the hardest judge in your industry, has named you its Solution Integration Partner of the Year two years in a row. In a market full of giants, the specialist keeps winning.
 >
-> And the proof of quality comes from the hardest judge in your industry: NVIDIA named Exxact its Solution Integration Partner of the Year two years running. In a market full of giants, the specialist from Fremont keeps winning that award.
+> And here is what most people miss about Formula 1: it has quietly become a computing sport. Lap time is found in simulation, in data, in machines. And the rules put a hard limit on it: team budgets are capped, and even the computing a team may spend on car design is capped. So a team cannot win by buying more machines. It can only win with exactly the right machines.
 >
-> In short: you are the people serious labs call when the machine has to be exactly right. That is a craftsman's reputation, and we think there is a stage where it fits naturally.
+> Exactly the right machine is the thing you build. That is the overlap, and it is not a small one.
 >
-> That is why we called. Did we read you right?"
+> One more piece. The technology world has moved into this sport: AWS, Atlassian, Oracle, HP, and Microsoft reportedly with Mercedes since January. And the paddock has become the most executive room in sport, full of the CTOs and research leaders who sign for machines like yours.
+>
+> So that is why we called. A sport that wins with computing. A company that builds exactly the right computers. And a room full of your buyers. We think there is a real conversation here, at a size that makes sense for Exxact. Did we read that right?"
 
-*[Let them react. Their correction or their pride is the first discovery answer. Then:]*
-
-**SPORTFIVE, in three sentences:**
-
-> "Now, very briefly, who we are, and then today belongs to you.
->
-> I look after brand partnerships for SPORTFIVE's Formula 1 business. Three sentences on us. We worked exclusively with the two biggest teams in the sport, Mercedes and Ferrari, for more than twelve years. We gave that exclusivity up, deliberately, so we can work brand-first: we start with your objectives and reverse engineer to the right entry, across the whole sport. And our advice costs you nothing, because the rights holders pay our fee.
->
-> That is the whole pitch about us. The rest of this call is about Exxact."
+*[Let them react. Their correction or their pride is the first discovery answer.]*
 
 ---
 
@@ -102,21 +100,9 @@
 
 > "So, the purpose of today.
 >
-> This is a discovery call. We want to understand the company properly, gather some insights, and see whether this sport could be a vehicle in helping drive Exxact's growth, at a size that makes sense for you. Ideally, we work closely with you to build a brief, and then we come back with recommendations that truly align with it. I will ask some questions along the way. Nothing formal.
+> This is a discovery call. We want to understand the company properly, gather some insights, and see whether this sport could be a vehicle in helping drive Exxact's growth, at a size that makes sense for you. Ideally, we work closely with you to build a brief, and then we come back with recommendations that truly align with it. And I want to be upfront: we will size everything with honest numbers for a company of your stage. The brief will tell us the right door.
 >
-> Does that work for you?"
-
-**Why Formula 1, for Exxact:**
-
-*[Say this early. Keep it slow and simple. It is the heart of the pitch.]*
-
-> "And before my questions, the obvious one: why would a systems builder even look at Formula 1? Two reasons.
->
-> First, this sport wins with computing. Lap time is found in simulation: aerodynamics, strategy, car design. And here is the twist most people miss: the rules cap the teams' budgets, and they even cap how much computing teams may spend on aero design. So teams cannot just buy more machines. They need exactly the right machines. Building exactly the right machine for a hard workload is your entire craft. You would not be borrowing this sport's story. You would be telling your own.
->
-> And second, the room. Technology has moved to the center of this sport: AWS is the sport's official cloud provider, Atlassian's name is on Williams, Oracle's on Red Bull, HP's on Ferrari, and Microsoft reportedly signed with Mercedes in January. And in the Paddock Club, two thirds of guests are senior executives, including the CTOs, research directors and lab leaders who sign for machines like yours.
->
-> So that is why we called: the story, and the room. And I want to be upfront that we will size this with honest numbers for a company of your stage; the brief will tell us the right door."
+> I will ask some questions along the way. Nothing formal. Does that work for you?"
 
 *[Then open softly. Their answer sets the depth for Part 4:]*
 
