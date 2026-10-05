@@ -52,3 +52,14 @@ Applies to private and listed companies alike; the only size requirement is the 
 Name, domain, HQ, ownership, what it sells and to whom, headcount band, revenue (dated,
 sourced, or "unknown"), valuation (dated, sourced), latest raise, fit score, up-and-coming
 marker, flags, verdict with one-line reason, best angle. Mark estimates "(est)".
+
+## Track F: Funded USD 100M+ (added 5 Oct 2026)
+A second, parallel list for private companies that have raised USD 100M or more in cumulative
+equity funding but have NOT (yet) reached a USD 1B valuation. Purpose: catch well-funded
+challengers with marketing budgets before they become unicorns.
+Hard filters: cumulative equity funding >= USD 100M (dated, sourced); at least one priced round
+within the last 24 months (capacity); headcount 51+; no F1 tie direct or via controlling parent;
+not sanctioned. Valuation is recorded but not required. Revenue, audience and ownership are
+flags only, as in the main v3 list. Verdicts, flags, fit score and the red low-value marking
+are identical to the main list. Track F rows sit on their own tabs (prefixed "F") and on a
+consolidated "FUNDED $100M+" tab, never mixed into the USD 1B tabs.
