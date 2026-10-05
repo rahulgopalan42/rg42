@@ -44,7 +44,9 @@ ambition; category not already taken on the grid.
 
 Priority score: Yes = 60 + fit x 8; Stretch = 40 + fit x 6; Low-value = 20 + fit x 4.
 "Up-and-coming" marker: crossed USD 1B within 24 months, or revenue or headcount growing
-above 40% a year.
+above 40% a year, or a 2025-26 IPO, or a challenger brand visibly taking share, or an announced
+expansion into a new country or region in 2025-26 (recorded as "market expansion: from -> to").
+Applies to private and listed companies alike; the only size requirement is the USD 1B valuation.
 
 ## Output per company
 Name, domain, HQ, ownership, what it sells and to whom, headcount band, revenue (dated,
