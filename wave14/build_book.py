@@ -12,6 +12,7 @@ NEWMAP={'NEW: Gaming & Gambling':'NEW: Gambling & Lotteries','NEW: Consumer Subs
 MANUAL_RECLASS={
  'vipps mobilepay':('Stretch','Owned by a consortium of Nordic banks with no published valuation; passes on the member-owned market-leader exception (Norway/Denmark/Finland payments leader, ~USD 200M revenue), capped at Stretch with flag no published valuation. No F1 tie found.'),
  'bright food':('Low-value','Passes v3 gates (Shanghai state-owned, revenue ~USD 17.7B, 44k staff, no F1 tie). Controlling parent of Tnuva (verified separately), kept as its own row: state entity with China-centred brands and no F1 marketing motive, fit 2 at best.'),
+ "christie's":('No','F1 tie via controlling parent: Artemis (Pinault family) wholly owns Christie\'s and controls Kering (59% of votes), whose Gucci brand is Alpine title partner from 2027 (announced May 2026). Same treatment as Hema under Alibaba and OTE under Deutsche Telekom: a company controlled by a tied group is excluded under v3 rule 4.'),
  'hd hyundai':('Stretch','Passes v3 gates (market cap ~USD 10.8B, no F1 tie; Hyundai Motor Group states it has no F1 project). Holding-company parent of HD Hyundai Heavy, which is already on this wave as Yes: kept as a separate row with a common-owner flag rather than a duplicate, capped at Stretch.'),
 }  # norm(company) -> (verdict, reason)
 base=json.load(open(W+'verified_base.json')); deferred=json.load(open(W+'deferred.json'))
