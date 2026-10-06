@@ -9,13 +9,18 @@ def norm(s):
     return ' '.join(w for w in s.split() if w not in STOP)
 HARD=re.compile(r'f1|formula|grand prix|sponsor|partner|market cap|valuation|headcount|employees|sanction|entity list|1260h|uflpa|acquired|defunct|merged|distress|wind-down|going concern|restructur|cost-cutting|duplicate|subsidiary|listed; out of|below usd|under usd|equity|priced round|24-month|24 month',re.I)
 NEWMAP={'NEW: Gaming & Gambling':'NEW: Gambling & Lotteries','NEW: Consumer Subscription & Genealogy':'53 Consumer & Lifestyle','NEW: Utilities':'NEW: Utilities & Power','NEW: Electric & Gas Utilities':'NEW: Utilities & Power','NEW: Pharma & Medical Devices':'NEW: Pharma & Biotech','NEW: Education & Childcare':'NEW: Education & EdTech','NEW: Edtech':'NEW: Education & EdTech','NEW: Security & Electrical Distribution':'X13 Industrial & MRO Distribution','NEW: Construction & Engineering Contractors':'NEW: Construction & Engineering'}
-MANUAL_RECLASS={}  # norm(company) -> (verdict, reason) for post-restart overrides
+MANUAL_RECLASS={
+ 'hd hyundai':('Stretch','Passes v3 gates (market cap ~USD 10.8B, no F1 tie; Hyundai Motor Group states it has no F1 project). Holding-company parent of HD Hyundai Heavy, which is already on this wave as Yes: kept as a separate row with a common-owner flag rather than a duplicate, capped at Stretch.'),
+}  # norm(company) -> (verdict, reason)
 base=json.load(open(W+'verified_base.json')); deferred=json.load(open(W+'deferred.json'))
 inputs={}
 for f in sorted(glob.glob(W+'queue/*_input.json')):
     for r in json.load(open(f)): inputs[norm(r['company'])]=r
 verified={norm(r['company']):dict(r) for r in base['verified']}
 rejects=list(base['rejects'])
+def dom(x):
+    d=str(x or '').lower().replace('www.','').strip().split('/')[0]; return re.sub(r'\s*\(.*$','',d).strip()
+base_domains={dom(r.get('domain')) for r in base['verified'] if dom(r.get('domain')) and '.' in dom(r.get('domain'))}
 newrecs={}
 for f in sorted(glob.glob(W+'results/*_verified.json')):
     try: arr=json.load(open(f))
@@ -25,6 +30,10 @@ for f in sorted(glob.glob(W+'results/*_verified.json')):
 for k,r in newrecs.items():
     if k in verified: continue
     v=str(r.get('verdict','')).strip().title().replace('Low Value','Low-value'); reason=str(r.get('verdict_reason',''))
+    # a re-verification of a name already kept in this wave (same domain, or marked duplicate) is dropped silently, not added to rejects
+    d=dom(r.get('domain'))
+    if (d and '.' in d and d in base_domains) or (v=='No' and 'duplicate' in reason.lower() and any(norm(b['company'])==k or dom(b.get('domain'))==d for b in base['verified'])):
+        verified[k]={'_rejected':True,'company':r['company'],'_dup':True}; continue
     if k in MANUAL_RECLASS: v,reason=MANUAL_RECLASS[k]
     if v=='No' and not HARD.search(reason): v='Low-value'
     flags=' '.join(map(str,r.get('flags') or [])).lower()
