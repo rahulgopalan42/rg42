@@ -93,9 +93,11 @@ def tabname(r):
 bytab={}
 for r in rows: bytab.setdefault(tabname(r),[]).append(r)
 ny=sum(r['verdict']=='Yes' for r in rows); ns=sum(r['verdict']=='Stretch' for r in rows); nl=sum(r['verdict']=='Low-value' for r in rows); nu=sum(str(r.get('up_and_coming')).lower()=='yes' for r in rows)
-ws=wb.create_sheet('01 UP-AND-COMING (all)'); uc=[r for r in rows if str(r.get('up_and_coming')).lower()=='yes']
+ws=wb.create_sheet('01 PRIORITY (all Yes)'); py=[r for r in rows if r['verdict']=='Yes' and r.get('pool')!='F']
+write_tab(ws,f'PRIORITY LIST: EVERY MAIN-LIST YES, ALL SECTORS — {len(py)} names, ranked best first','Highest-conviction prospects only: passed all v3 hard filters (USD 1B+ valuation, 51+ staff, no distress, no F1 tie, not sanctioned) with fit 3+ and no capping flag. Sorted by priority_score. The same rows also sit on their sector tabs. Stretch and red rows are NOT on this tab.',py)
+ws=wb.create_sheet('02 UP-AND-COMING (all)'); uc=[r for r in rows if str(r.get('up_and_coming')).lower()=='yes']
 write_tab(ws,f'UP-AND-COMING BRANDS, ALL SECTORS — {len(uc)} names: crossed $1B within 24 months, growing >40%/yr, 2025-26 IPO, visible challenger, or announced new-market entry','Consolidated view of every up_and_coming=yes brand across all tabs, ranked best first. The same rows also sit on their sector tabs.',uc)
-ws=wb.create_sheet('02 FUNDED $100M+ (all)'); fr=[r for r in rows if r.get('pool')=='F']
+ws=wb.create_sheet('03 FUNDED $100M+ (all)'); fr=[r for r in rows if r.get('pool')=='F']
 write_tab(ws,f'TRACK F: FUNDED USD 100M+ BUT BELOW USD 1B VALUATION — {len(fr)} names','Separate track: private companies with >= USD 100M cumulative funding and a priced round in the last 24 months, valuation below USD 1B or unknown. Same verdicts and red marking as the main list. Never mixed into the USD 1B tabs; the same rows also sit on their F-prefixed sector tabs.',fr)
 main_tabs=sorted(t for t in bytab if not t.startswith('F ')); f_tabs=sorted(t for t in bytab if t.startswith('F '))
 for t in main_tabs+f_tabs:
