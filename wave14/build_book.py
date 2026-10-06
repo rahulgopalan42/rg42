@@ -34,7 +34,7 @@ for k,r in newrecs.items():
     v=str(r.get('verdict','')).strip().title().replace('Low Value','Low-value'); reason=str(r.get('verdict_reason',''))
     # a re-verification of a name already kept in this wave (same domain, or marked duplicate) is dropped silently, not added to rejects
     d=dom(r.get('domain'))
-    if (d and '.' in d and d in base_domains) or (v=='No' and 'duplicate' in reason.lower() and any(norm(b['company'])==k or dom(b.get('domain'))==d for b in base['verified'])):
+    if (d and '.' in d and d in base_domains) or (v=='No' and 'duplicate' in reason.lower()):
         verified[k]={'_rejected':True,'company':r['company'],'_dup':True}; continue
     if k in MANUAL_RECLASS: v,reason=MANUAL_RECLASS[k]
     if v=='No' and not HARD.search(reason): v='Low-value'
