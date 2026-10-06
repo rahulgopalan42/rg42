@@ -14,6 +14,7 @@ MANUAL_RECLASS={
  'bright food':('Low-value','Passes v3 gates (Shanghai state-owned, revenue ~USD 17.7B, 44k staff, no F1 tie). Controlling parent of Tnuva (verified separately), kept as its own row: state entity with China-centred brands and no F1 marketing motive, fit 2 at best.'),
  "christie's":('No','F1 tie via controlling parent: Artemis (Pinault family) wholly owns Christie\'s and controls Kering (59% of votes), whose Gucci brand is Alpine title partner from 2027 (announced May 2026). Same treatment as Hema under Alibaba and OTE under Deutsche Telekom: a company controlled by a tied group is excluded under v3 rule 4.'),
  'hd hyundai':('Stretch','Passes v3 gates (market cap ~USD 10.8B, no F1 tie; Hyundai Motor Group states it has no F1 project). Holding-company parent of HD Hyundai Heavy, which is already on this wave as Yes: kept as a separate row with a common-owner flag rather than a duplicate, capped at Stretch.'),
+ 'revelyst':('Stretch','Passes v3 gates: transacted EV USD 1.125B (SVP acquisition, Jan 2025), ~USD 1.3B revenue, 1k-5k staff, no distress. The Bell trademark (Bell Sports, a Revelyst brand) is licensed to the independent Racing Force Group, whose Bell Racing Helmets unit is a Ferrari technical partner; Revelyst itself has no F1 deal, so the licence is treated as a flag (cap Stretch) rather than a controlled-brand tie. Watch for channel conflict with Bell Racing.'),
 }  # norm(company) -> (verdict, reason)
 base=json.load(open(W+'verified_base.json')); deferred=json.load(open(W+'deferred.json'))
 inputs={}
