@@ -21,6 +21,7 @@ MANUAL_RECLASS={
  'upside foods':('Low-value','Passes v3 gates on the letter: USD 1.0B post-money (Series C, Apr 2022) meets the floor exactly, 51+ staff, no F1 tie found. Flags: stale valuation (no priced round since 2022), layoff rounds in 2024-25 with sizes mostly undisclosed, product still pre-commercial at scale. Treated like other 2021-22 unicorns with no refresh (Glossier, Immunai): kept with flags rather than rejected. Low-value: no marketing function evidenced and fit at most 2.'),
 }  # norm(company) -> (verdict, reason)
 base=json.load(open(W+'verified_base.json')); deferred=json.load(open(W+'deferred.json'))
+for _r in base['verified']: _r['verdict']={'low-value':'Low-value','yes':'Yes','stretch':'Stretch'}.get(str(_r.get('verdict','')).strip().lower(),_r.get('verdict'))
 inputs={}
 for f in sorted(glob.glob(W+'queue/*_input.json')):
     for r in json.load(open(f)): inputs[norm(r['company'])]=r
@@ -42,6 +43,7 @@ for k,r in newrecs.items():
     d=dom(r.get('domain'))
     if (d and '.' in d and d in base_domains) or (v=='No' and 'duplicate' in reason.lower()):
         verified[k]={'_rejected':True,'company':r['company'],'_dup':True}; continue
+    v={'low-value':'Low-value','yes':'Yes','stretch':'Stretch','no':'No'}.get(str(v).strip().lower(),v)
     if k in MANUAL_RECLASS: v,reason=MANUAL_RECLASS[k]
     if v=='No' and not HARD.search(reason): v='Low-value'
     flags=' '.join(map(str,r.get('flags') or [])).lower()
@@ -93,8 +95,15 @@ def tabname(r):
 bytab={}
 for r in rows: bytab.setdefault(tabname(r),[]).append(r)
 ny=sum(r['verdict']=='Yes' for r in rows); ns=sum(r['verdict']=='Stretch' for r in rows); nl=sum(r['verdict']=='Low-value' for r in rows); nu=sum(str(r.get('up_and_coming')).lower()=='yes' for r in rows)
-ws=wb.create_sheet('01 PRIORITY (all Yes)'); py=[r for r in rows if r['verdict']=='Yes' and r.get('pool')!='F']
-write_tab(ws,f'PRIORITY LIST: EVERY MAIN-LIST YES, ALL SECTORS — {len(py)} names, ranked best first','Highest-conviction prospects only: passed all v3 hard filters (USD 1B+ valuation, 51+ staff, no distress, no F1 tie, not sanctioned) with fit 3+ and no capping flag. Sorted by priority_score. The same rows also sit on their sector tabs. Stretch and red rows are NOT on this tab.',py)
+ws=wb.create_sheet('01 PRIORITY (all Yes)')
+py=[]
+for r in rows:
+    if r['verdict']!='Yes': continue
+    if r.get('pool')=='F':
+        r2=dict(r); r2['sector_tab']='F '+str(r['sector_tab']) if not str(r['sector_tab']).startswith('F ') else r['sector_tab']; py.append(r2)
+    else: py.append(r)
+nF=sum(1 for r in py if r.get('pool')=='F')
+write_tab(ws,f'PRIORITY LIST: EVERY YES VERDICT, ALL SECTORS — {len(py)} names ({len(py)-nF} at USD 1B+ valuation, {nF} on the USD 100M+ funded track), ranked best first','Highest-conviction prospects only: passed every v3 hard filter (51+ staff, no distress, no F1 tie direct or via controlling parent, not sanctioned) with fit 3+ and no capping flag. USD 1B+ names and USD 100M+ funded names (source_pool F, sector_tab prefixed F) sit side by side; sort or filter on source_pool to separate them. Sorted by priority_score. The same rows also sit on their sector tabs. Stretch and red rows are NOT on this tab.',py)
 ws=wb.create_sheet('02 UP-AND-COMING (all)'); uc=[r for r in rows if str(r.get('up_and_coming')).lower()=='yes']
 write_tab(ws,f'UP-AND-COMING BRANDS, ALL SECTORS — {len(uc)} names: crossed $1B within 24 months, growing >40%/yr, 2025-26 IPO, visible challenger, or announced new-market entry','Consolidated view of every up_and_coming=yes brand across all tabs, ranked best first. The same rows also sit on their sector tabs.',uc)
 ws=wb.create_sheet('03 FUNDED $100M+ (all)'); fr=[r for r in rows if r.get('pool')=='F']
