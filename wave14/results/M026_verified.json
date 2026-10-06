@@ -65,13 +65,14 @@
    "crossed USD 1B within 24 months (May 2026)",
    "VC/PE-backed",
    "revenue unknown",
-   "valuation press-release only; primary source not fetched",
+   "valuation from press summary (KuCoin, primary source not fetched), confirm before outreach",
    "Entity List status not confirmed",
-   "do not confuse with Freshworks (McLaren partner, unrelated company)"
+   "do not confuse with Freshworks (McLaren partner, unrelated company)",
+   "no F1 tie found"
   ],
-  "verdict": "No",
-  "verdict_reason": "Hard filter 4 (F1 tie): no F1 team, GP, F1 global/regional, Academy or driver link found for Fresha or KKR-controlled group in 3 searches (search surfaced only Freshworks-McLaren, a different company). Valuation (USD 1B+ post-money, closed May 2026) and headcount (c.742) pass.",
-  "best_angle": "n/a (rejected); would be a strong beauty/wellness-tech fit if an F1 tie emerged"
+  "verdict": "Yes",
+  "verdict_reason": "All hard filters pass: valuation over USD 1B post-money (USD 80M KKR round closed 21 May 2026, press summary), c.742 staff (Mar 2026, aggregator), profitable per company statement, no F1 tie found directly or via KKR in 3 searches (only Freshworks-McLaren surfaced, a different company), no sanctions indicator. Fit 3 with a credible marketing motive (global expansion into more countries, AI product push). Valuation sourced from a press summary, flagged for confirmation before outreach.",
+  "best_angle": "Global-ambition and AI-technology story: 'official booking and business platform' partner reaching beauty and wellness professionals and consumers across 120+ countries, via paddock-adjacent hospitality and creator content at Miami, Monaco or Las Vegas rounds (est USD 1-2.5M/yr, est)."
  },
  {
   "company": "Fubo",
@@ -112,15 +113,16 @@
   "fit_detail": "Markets 1 (China, US, Japan/SE Asia est); buyers 1 (urban 20-35); brand story 0; category 0 (soft drinks/energy crowded by Red Bull, Monster) = 2 (est)",
   "up_and_coming": false,
   "flags": [
+   "stale valuation (2021 round, USD 6B, aggregator): cap Stretch",
    "VC-backed",
-   "valuation is a 2021 round figure, stale",
    "possible 2026 HK IPO",
    "Entity List status not confirmed",
-   "F1 tie: none found; Chinese GP sponsors are Heineken (2026 title) and Sinopec, not Genki Forest"
+   "headcount and revenue unconfirmed",
+   "no F1 tie found; Chinese GP sponsors are Heineken (2026 title) and Sinopec"
   ],
-  "verdict": "No",
-  "verdict_reason": "Hard filter 4 (F1 tie): no F1 team, Chinese GP, F1 partner or driver link found for Genki Forest/Chi Forest (2 searches plus Wikipedia). Valuation (USD 6B, 2021 round) and headcount appear to pass but are unconfirmed.",
-  "best_angle": "n/a (rejected)"
+  "verdict": "Stretch",
+  "verdict_reason": "Gates pass on available data: valuation USD 6B (March 2021 transacted round, aggregator), headcount presumed >51, no distress found, no F1 tie found in 2 searches plus Wikipedia (Chinese GP sponsors are Heineken and Sinopec). Capped at Stretch: valuation is a stale 2021 figure, headcount and revenue unconfirmed, fit exactly 2 with weak angles.",
+  "best_angle": "China-led challenger beverage with US/Asia export ambitions and a possible 2026 HK IPO: a Chinese GP or Asia-rounds activation for young urban buyers (est USD 1-2M/yr, est). Confirm current valuation, headcount and IPO status first."
  },
  {
   "company": "Honasa Consumer (Mamaearth)",
@@ -137,13 +139,15 @@
   "fit_detail": "Markets 1 (India, UAE, Saudi, Singapore, Australia est); buyers 1 (25-44 consumers); brand story 0 (natural/toxin-free); category 1 (beauty not crowded) (est)",
   "up_and_coming": false,
   "flags": [
-   "valuation USD 1.5B depends on INR rate; passes down to INR 96/USD margin comfortably",
+   "valuation depends on INR rate (USD 1.5B at 96.38; clears USD 1B)",
    "P/E 58",
-   "Entity List status not confirmed"
+   "revenue c.USD 265M (above USD 100M)",
+   "Entity List status not confirmed",
+   "no F1 tie found"
   ],
-  "verdict": "No",
-  "verdict_reason": "Hard filter 4 (F1 tie): no F1 team, GP, F1 partner or driver sponsor/ambassador link found for Honasa/Mamaearth (1 search; brand ambassadors Shilpa Shetty, Palak Tiwari only). Valuation (c.USD 1.5B) and headcount (936) pass.",
-  "best_angle": "n/a (rejected)"
+  "verdict": "Yes",
+  "verdict_reason": "All hard filters pass: market cap INR 144.14B = c.USD 1.50B (stockanalysis.com, 6 Oct 2026, INR 96.38/USD), 936 staff, profitable (net profit INR 2.49B), no F1 tie found directly or via a controlling parent (1 search; only celebrity ambassadors Shilpa Shetty and Palak Tiwari), no sanctions indicator. Fit 3 (est) with a credible consumer-brand marketing motive.",
+  "best_angle": "Affluent 25-44 consumer reach: India-first beauty house (Mamaearth, The Derma Co) with GCC, Singapore and Australia presence; an official personal-care/skincare partner or Indian-market digital content play (est USD 1-2.5M/yr, est). Valuation is INR-rate sensitive but clears USD 1B comfortably."
  },
  {
   "company": "ReNew Energy Global (ReNew Power)",
@@ -160,13 +164,16 @@
   "fit_detail": "Markets 0 (India); buyers 1 (senior B2B/government); brand story 1 (renewables tech, global ambition); category 0 (energy crowded) (est)",
   "up_and_coming": false,
   "flags": [
+   "fit exactly 2: cap Stretch",
    "debt-heavy (D/E 5.25)",
-   "minority holders Masdar/ADIA: Mubadala is a separate Abu Dhabi entity and not a holder; no minority-holder F1 sponsor evidence found",
-   "Entity List status not confirmed"
+   "minority holders Masdar/ADIA/CPPIB, no F1 sponsorship evidence",
+   "Take-private offer withdrawn Dec 2025 (Masdar left)",
+   "Entity List status not confirmed",
+   "no F1 tie found"
   ],
-  "verdict": "No",
-  "verdict_reason": "Hard filter 4 (F1 tie): no ReNew F1 link and no controlling parent with an F1 tie found (1 ReNew search, 1 Masdar search; Masdar-F1 sponsorship not found, only Mubadala is an Abu Dhabi GP partner and is not a ReNew holder). Valuation and headcount pass.",
-  "best_angle": "n/a (rejected)"
+  "verdict": "Stretch",
+  "verdict_reason": "All hard filters pass: market cap USD 2.51B (stockanalysis.com, 6 Oct 2026), 4,720 staff, profitable, no F1 tie found directly or via Masdar/ADIA/CPPIB minority holders (1 ReNew search, 1 Masdar search; Mubadala is the Abu Dhabi GP partner and not a ReNew holder). Stretch because fit is exactly 2 (energy category crowded, India-only market) with weak angles.",
+  "best_angle": "Global-ambition renewables story aimed at senior B2B and government decision makers: a sustainable-energy partner of the F1 net-zero narrative with Indian GP-revival (reported 2028) positioning; hospitality-led, not livery (est USD 1-2.5M/yr, est)."
  },
  {
   "company": "Sunrun",
@@ -183,13 +190,16 @@
   "fit_detail": "Markets 0 (US only); buyers 1 (affluent homeowners); brand story 1 (energy technology); category 0 (energy crowded) (est)",
   "up_and_coming": false,
   "flags": [
-   "Altman Z 0.1, 29.5% short, stock -60% over 52 weeks; no going-concern doubt found (not formally checked)",
+   "fit exactly 2: cap Stretch",
+   "capacity doubt: debt USD 15.2B, Altman Z 0.1, 29.5% short, stock -60% (no going-concern doubt found; not formally checked)",
    "heavy debt",
-   "single-country"
+   "single-country (US)",
+   "Entity List status not confirmed",
+   "no F1 tie found"
   ],
-  "verdict": "No",
-  "verdict_reason": "Hard filter 4 (F1 tie): no Sunrun F1 team, GP, partner or driver link found (1 search; results returned only Sunoco/Energy Transfer-Sauber, an unrelated company). Valuation (USD 1.85B) and headcount pass.",
-  "best_angle": "n/a (rejected)"
+  "verdict": "Stretch",
+  "verdict_reason": "All hard filters pass: market cap USD 1.85B (stockanalysis.com, 6 Oct 2026), thousands of staff, USD 3.48B revenue and net income USD 400.7M, no F1 tie found (1 search; only unrelated Sunoco/Energy Transfer-Sauber surfaced), no going-concern doubt found. Stretch because fit exactly 2 (US-only market, energy crowded) and capacity doubt: debt USD 15.2B, Altman Z 0.1, stock -60% over 52 weeks.",
+  "best_angle": "US-market affluent-homeowner angle on energy technology: a Miami, Austin or Las Vegas GP activation as 'official home-solar partner' (est USD 1-2.5M/yr, est). Confirm balance-sheet health before outreach."
  },
  {
   "company": "Hero Future Energies",
@@ -206,15 +216,17 @@
   "fit_detail": "Markets 0 (India); buyers 1 (B2B); brand story 1 (renewables tech); category 0 (energy crowded) (est)",
   "up_and_coming": false,
   "flags": [
-   "valuation unverified (aggregator, 2022)",
+   "valuation unverified and borderline (aggregator, 2022): cap Stretch",
+   "fit exactly 2",
    "revenue under USD 100M possible (aggregator figure)",
-   "sibling company: Hero MotoCorp (separate Munjal branch; Hero Motors sponsored Karthikeyan at 2011 Indian GP, historic only)",
+   "sibling company: Hero MotoCorp / Hero Motors (2011 Indian GP sponsor, historic, flag only)",
    "KKR minority holder",
-   "possible IPO"
+   "possible IPO",
+   "no F1 tie found"
   ],
-  "verdict": "No",
-  "verdict_reason": "Hard filter 4 (F1 tie): no F1 tie found for Hero Future Energies; only sibling Hero Motors' 2011 Indian GP driver sponsorship (historic, different branch of the group). Valuation (c.USD 1B, unverified) and headcount (561) borderline-pass.",
-  "best_angle": "n/a (rejected)"
+  "verdict": "Stretch",
+  "verdict_reason": "Gates pass on available data: valuation c.USD 1B (Sept 2022 aggregator, unverified and borderline), 561 staff (aggregator), no distress found, no F1 tie found in 2 searches (only sibling Hero Motors' historic 2011 Indian GP deal, separate Munjal branch: flag only). Capped at Stretch: valuation unverified and borderline, fit exactly 2.",
+  "best_angle": "Indian renewables developer (Hero Group) targeting B2B and government buyers: a hospitality-led play tied to the reported Indian GP revival and its planned IPO (est USD 1-2M/yr, est). Verify current valuation and headcount before outreach."
  },
  {
   "company": "Serentica Renewables",
@@ -237,7 +249,7 @@
    "sibling companies under Vedanta/Twin Star promoter group (no F1 tie found)"
   ],
   "verdict": "No",
-  "verdict_reason": "Hard filters 1 and 4: PE-backed (KKR) with no published valuation = No; no F1 tie found for Serentica or the Vedanta/Twin Star group (2 searches). Headcount (73 in Dec 2023) borderline.",
+  "verdict_reason": "Hard filter 1 (valuation): PE-backed (KKR) with no published valuation = No. Headcount (73 in Dec 2023) borderline. No F1 tie found for Serentica or the Vedanta/Twin Star group in 2 searches (filter 4 passes).",
   "best_angle": "n/a (rejected)"
  }
 ]
