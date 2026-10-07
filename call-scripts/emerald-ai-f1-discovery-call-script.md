@@ -1,6 +1,6 @@
 # Emerald AI x SPORTFIVE: F1 Discovery Call Script
 
-**Call type:** First call / discovery, listening-led. Goal: open with the momentum line and the honest goal of the call (we are here to understand, not to sell), introduce yourself and SPORTFIVE in plain words, let Bjorn and George say hello, then hand the floor to them and fill the brief with smart, consultative questions. Agree next steps only if the conversation earns them.
+**Call type:** First call / discovery, listening-led. Goal: open with the momentum and the overlap in one breath, keep introductions short, let George and Bjorn say hello, then hand the floor to them: they share as much insight as possible, and together you see if there are any opportunities worth exploring. Fill the brief with smart, consultative questions. Agree next steps only if the conversation earns them.
 
 **How to use this script:** Every spoken block is written the way you would say it out loud. Do not read it word for word. Glance at the bold anchors, then talk. Short sentences, slow pace, warm tone. This company is run by a physicist turned policy expert; the room will be sharp and allergic to sales talk. The script is built so they talk more than you. Your job is curiosity, not pitching.
 
@@ -12,7 +12,7 @@
 
 **The flow:**
 
-1. **Opening: the momentum line, the goal of the call, quick intros, hellos from Bjorn and George.** 3 min
+1. **Opening: the momentum and the overlap, quick intros, hellos from George and Bjorn.** 2 min
 2. **What we saw from the outside, then the floor is theirs.** 2 min
 3. **Discovery: their context, the smart questions.** 15 min
 4. **How F1 works and where it could add value for Emerald.** 10 min
@@ -21,14 +21,14 @@
 
 **Three messages that must land:**
 
-- **We are here to understand, not to sell.** The goal today is not to tell them why Formula 1 is a good fit. It is to find out whether it even makes sense. Say this early and mean it.
+- **We are here to understand, not to sell.** The call is for them to share insights, and for both sides to see if there are opportunities worth exploring. Hold that posture the whole way through.
 - **This sport lives their thesis.** Formula 1 wins by getting more performance out of less energy, under hard caps on money, computing and fuel. Emerald's whole pitch is more AI out of the same grid. Same sentence, different industry.
 - **Right-sized and free.** Whatever we recommend will be sized to where Emerald is today, and our advice costs them nothing, because the rights holders pay our fee.
 
 **Fill in before the call:**
 
 - [Name] of the Emerald AI contact and pronunciation
-- Confirm Bjorn and George are ready for a quick hello early in the call
+- Confirm George and Bjorn are ready for a quick hello early in the call
 - [Timeframe] you promise for recommendations in Part 6
 - Confirm internally: no live deal in energy management, grid software or data center infrastructure
 
@@ -73,33 +73,25 @@
 
 ---
 
-## Part 1: Opening, the momentum and the goal (3 minutes)
+## Part 1: Opening, momentum and introductions (2 minutes)
 
-*[This opening is deliberately light. The momentum line, the honest goal of the call, short intros, and hellos from Bjorn and George. No homework speech yet; that comes in Part 2, briefly. Confidence here comes from the structure: you know exactly what happens next.]*
+*[Short and natural. The momentum line and the overlap line in one breath, quick introductions, hellos from George and Bjorn, then the floor is theirs. No speeches.]*
 
 > "Hi [Name], thank you for making the time. I really appreciate it.
 >
-> Let me say upfront why we reached out. We have been seeing all the momentum around Emerald AI, and it felt like it was worth at least having a conversation. And I want to be clear about the goal today: it is not for me to tell you why Formula 1 could be a good fit for you. It is to understand, together, whether it even makes sense. More on that to follow.
+> So, we have been seeing a lot of momentum at Emerald AI, and it felt like it was worthy of at least having a conversation. Because from the outside, there seems to be a lot of overlap: in values, in the customers you serve, and in the ecosystem of partners that Formula 1 gathers. But more on that in a second.
 >
-> First, quick introductions from our side."
+> Before we dive into any details, it would be good to quickly do a round of introductions."
 
-**You, in two sentences:**
+**You:**
 
 > "I am based in Germany with SPORTFIVE, and I drive brand partnerships there. Our role, in one line, is to help bring the world of sports and brands together. That is what I do all day.
 >
-> And joining me are Bjorn and George, two colleagues I work very closely with in our Formula 1 business."
-
-**SPORTFIVE, in plain words:**
-
-> "On SPORTFIVE, very briefly. We are one of the leading sports marketing agencies in the world. We work across the whole world of sports, and the thing we do best is bring sports and brands together. As an agency we hold rights and we are authorized to broker partnerships across a wide range of sports. Formula 1 is one area of expertise, the one the three of us live in day to day, but the access goes well beyond it. And we also have a consultancy arm within the business, where we support brands in building out their overall strategy, in a very data-driven, very methodical way.
->
-> One thing worth knowing for today: our advice costs you nothing. The rights holders pay our fee. So you can use us as a sounding board, freely.
->
-> Bjorn, George, do you want to say a quick hello?"
+> And I have got George and Bjorn on the call as well, two colleagues I work very closely with in our Formula 1 business. Let me hand it over to them to say a quick hello."
 
 *[Hand over. Let them each say two or three warm sentences, no pitching. Then take the floor back:]*
 
-> "Great. So here is how I would love to run this: you do most of the talking. The more context you can share about Emerald, where the company is and where it is headed, the better our thinking gets. I will ask a few questions along the way, and whatever you are comfortable sharing is helpful."
+> "Great. And the way we would love to use this call: ideally, you share as many insights as you can about Emerald, where the company is and where it is headed, and together we see if there are any potential opportunities to be explored. I will ask a few questions along the way, and whatever you are comfortable sharing is helpful."
 
 ---
 
