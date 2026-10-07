@@ -22,6 +22,21 @@ MANUAL_RECLASS={
  'hhla (hamburger hafen und logistik)':('No','F1 tie via joint control: MSC, an F1 global partner, holds 49.9% of HHLA alongside the City of Hamburg (50.1%) and the two are described as jointly managing the company. Same treatment as Froneri (Nestle/PAI) and Borouge under v3 rule 4. Valuation (EUR 1.62B market cap), headcount (7,396) and capacity otherwise pass.'),
 }  # norm(company) -> (verdict, reason)
 base=json.load(open(W+'verified_base.json')); deferred=json.load(open(W+'deferred.json'))
+# sector labels that reached results without their tab code -> coded label
+_CODED={}
+for _r in base['verified']+base['rejects']:
+    _t=re.sub(r'^F\s+','',str(_r.get('sector_tab','')))
+    _m=re.match(r'^((?:X\d\d|\d\d|NEW:?)\s+)(.*)$',_t)
+    if _m: _CODED.setdefault(_m.group(2).strip().lower(),_t)
+_MANUAL_CODE={"grooming & men's care":'03 Luxury & Beauty','marine, yachting & superyacht':'X34 Private Aviation & Business Jets','engineering consultancies & ':'X11 Engineering Consultancies &','engineering consultancies &':'X11 Engineering Consultancies &','private aviation & business jets':'X34 Private Aviation & Business Jets'}
+def codetab(t):
+    t=str(t or '').strip()
+    if re.match(r'^(X\d\d|\d\d|NEW)',t): return t
+    k=t.lower()
+    if k in _MANUAL_CODE: return _MANUAL_CODE[k]
+    for lab,full in _CODED.items():
+        if lab.startswith(k[:20]) or k.startswith(lab[:20]): return full
+    return t
 for _r in base['verified']:
     if _r.get('pool')=='F': _r['sector_tab']=re.sub(r'^F\s+','',str(_r.get('sector_tab','')))
     _r['verdict']={'low-value':'Low-value','yes':'Yes','stretch':'Stretch'}.get(str(_r.get('verdict','')).strip().lower(),_r.get('verdict'))
@@ -52,7 +67,7 @@ for k,r in newrecs.items():
     flags=' '.join(map(str,r.get('flags') or [])).lower()
     if v=='Yes' and 'no published valuation' in flags: v='Stretch'
     inp=inputs.get(k,{}); pool=inp.get('pool') or r.get('pool') or 'G'
-    tab=r.get('sector_tab') or inp.get('sector_tab') or 'NEW: Unassigned'; tab=NEWMAP.get(tab,tab)
+    tab=r.get('sector_tab') or inp.get('sector_tab') or 'NEW: Unassigned'; tab=NEWMAP.get(tab,tab); tab=codetab(tab)
     rec={'company':r['company'],'sector_tab':tab,'pool':pool,'domain':r.get('domain'),'hq':r.get('hq'),'ownership':r.get('ownership'),'sells':r.get('sells'),'headcount_band':r.get('headcount_band'),'revenue':r.get('revenue'),'valuation':r.get('valuation'),'latest_raise':r.get('latest_raise'),'fit_score':r.get('fit_score'),'up_and_coming':'yes' if r.get('up_and_coming') in (True,'true','yes','True') else 'no','verdict':v,'verdict_reason':reason,'best_angle':r.get('best_angle'),'flags':'; '.join(map(str,r.get('flags') or [])) if isinstance(r.get('flags'),list) else r.get('flags'),'fit_detail':r.get('fit_detail')}
     if v=='No': rejects.append({'company':r['company'],'sector_tab':tab,'pool':pool,'reason':reason}); verified[k]={'_rejected':True,'company':r['company']}
     else: verified[k]=rec
