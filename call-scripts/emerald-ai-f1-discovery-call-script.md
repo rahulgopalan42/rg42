@@ -97,21 +97,21 @@
 
 **If he asks: "What about Emerald caught your eye?"**
 
-> "Three things, all from the outside, so correct me where we are off.
+> "A few things, truthfully.
 >
-> The pace. You came out of stealth last summer, and a year later you are a unicorn with NVIDIA, Siemens and RWE on the investor list. That does not happen to ordinary companies.
+> First, you're hard to miss right now. A company that comes out of stealth and is a unicorn a year later, with NVIDIA, Siemens and RWE behind it, that gets our attention like everyone else's.
 >
-> The problem you picked. The whole world is racing to build AI, and the real bottleneck is power. You went after the bottleneck itself: software that lets data centers ease off when the grid is stressed, so more AI can connect to the same grid, faster. Picking the unglamorous problem everyone else is stuck behind, that caught our eye.
+> But the thing that stuck with me is the problem you went after. Everyone is building AI. You looked at it and said: the real problem is power. And instead of pouring more concrete, you built software that makes the grid we already have go further. That's a clever place to stand.
 >
-> And the overlap. Formula 1 is a competition about squeezing more performance out of limited energy and limited computing. That is basically your pitch, at racing speed. When a company's story and the sport's story sit this close together, we pick up the phone."
+> And then, I'll admit, the F1 brain in me switched on. Because this whole sport runs on the same idea. Same fuel for everyone, a budget cap, even a cap on computing. You win by squeezing more out of the same. I read about Emerald and thought, hang on, that's the same story. That's why I called."
 
 **If he asks: "And where do you see us fitting?"**
 
-> "Straight answer: I have a hypothesis, not a recommendation. Getting from one to the other is what this call is for.
+> "Honest answer? I don't know yet. I have a feeling, not a recommendation, and I'd be guessing if I gave you one now.
 >
-> The shape I would explore first is the right-sized one. The sport's own energy story is huge right now: new rules in 2026, sustainable fuel, a Net Zero commitment. A company that makes power grids smarter sits naturally inside that story. So I would look at sharp content built on that overlap, hospitality that puts your buyers, the utilities, the data center operators, the AI companies, in one room at a race, and only then, if the story earns it, an entry-level seat with a team.
+> But I'll share the feeling. This sport has a big energy story at the moment: new rules next year, sustainable fuel, a Net Zero promise. And here comes a company that makes power grids smarter. Those two belong in the same sentence. So my first instinct isn't a big logo deal. It's the smart, right-sized stuff: content built on that energy story, getting your buyers, the utilities, the data center folks, into a paddock for a weekend. And if that works, maybe an entry seat with a team down the line.
 >
-> But which door, and at what size, that depends on what you tell me in the next half hour. Give me the context, and we come back with options sized for where Emerald is today. And if the honest answer is that none of it fits yet, we will say that too."
+> But that's me after desk research. You know the company. So tell me about Emerald, and by the end of this call I'll have a much better answer for you. And if the real answer turns out to be 'not yet', I'll tell you that too."
 
 *[Otherwise: Jack talks. Listen, take notes, do not jump in with the sport. When he winds down, or if he asks what your research showed, bridge with the playback:]*
 
