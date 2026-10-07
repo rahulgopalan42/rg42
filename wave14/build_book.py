@@ -22,7 +22,9 @@ MANUAL_RECLASS={
  'hhla (hamburger hafen und logistik)':('No','F1 tie via joint control: MSC, an F1 global partner, holds 49.9% of HHLA alongside the City of Hamburg (50.1%) and the two are described as jointly managing the company. Same treatment as Froneri (Nestle/PAI) and Borouge under v3 rule 4. Valuation (EUR 1.62B market cap), headcount (7,396) and capacity otherwise pass.'),
 }  # norm(company) -> (verdict, reason)
 base=json.load(open(W+'verified_base.json')); deferred=json.load(open(W+'deferred.json'))
-for _r in base['verified']: _r['verdict']={'low-value':'Low-value','yes':'Yes','stretch':'Stretch'}.get(str(_r.get('verdict','')).strip().lower(),_r.get('verdict'))
+for _r in base['verified']:
+    if _r.get('pool')=='F': _r['sector_tab']=re.sub(r'^F\s+','',str(_r.get('sector_tab','')))
+    _r['verdict']={'low-value':'Low-value','yes':'Yes','stretch':'Stretch'}.get(str(_r.get('verdict','')).strip().lower(),_r.get('verdict'))
 inputs={}
 for f in sorted(glob.glob(W+'queue/*_input.json')):
     for r in json.load(open(f)): inputs[norm(r['company'])]=r
@@ -87,6 +89,7 @@ def write_tab(ws,title,sub,rs,is_priority=False):
     for i,r in enumerate(rs,1):
         dup=(not is_priority) and (norm(r['company']) in PRIORITY_KEYS)
         vals=[('ON PRIORITY TAB' if dup else ('(this is the priority tab)' if is_priority else '')),i,prio(r)]+[r.get(k) for k in KEYS]
+        if r.get('pool')=='F': vals[4]='F '+str(r.get('sector_tab'))
         for j,v in enumerate(vals,1):
             c=ws.cell(row=i+3,column=j,value=v if not isinstance(v,(list,dict)) else json.dumps(v)); c.font=BODY; c.alignment=WRAP
             if r['verdict'] in FILL: c.fill=FILL[r['verdict']]
@@ -103,12 +106,7 @@ bytab={}
 for r in rows: bytab.setdefault(tabname(r),[]).append(r)
 ny=sum(r['verdict']=='Yes' for r in rows); ns=sum(r['verdict']=='Stretch' for r in rows); nl=sum(r['verdict']=='Low-value' for r in rows); nu=sum(str(r.get('up_and_coming')).lower()=='yes' for r in rows)
 ws=wb.create_sheet('01 PRIORITY (all Yes)')
-py=[]
-for r in rows:
-    if r['verdict']!='Yes': continue
-    if r.get('pool')=='F':
-        r2=dict(r); r2['sector_tab']='F '+str(r['sector_tab']) if not str(r['sector_tab']).startswith('F ') else r['sector_tab']; py.append(r2)
-    else: py.append(r)
+py=[r for r in rows if r['verdict']=='Yes']
 nF=sum(1 for r in py if r.get('pool')=='F')
 PRIORITY_KEYS.update(norm(r['company']) for r in py)
 write_tab(ws,f'PRIORITY LIST: EVERY YES VERDICT, ALL SECTORS — {len(py)} names ({len(py)-nF} at USD 1B+ valuation, {nF} on the USD 100M+ funded track), ranked best first','Highest-conviction prospects only: passed every v3 hard filter (51+ staff, no distress, no F1 tie direct or via controlling parent, not sanctioned) with fit 3+ and no capping flag. USD 1B+ names and USD 100M+ funded names (source_pool F, sector_tab prefixed F) sit side by side; sort or filter on source_pool to separate them. Sorted by priority_score. The same rows also sit on their sector tabs. Stretch and red rows are NOT on this tab.',py,is_priority=True)
