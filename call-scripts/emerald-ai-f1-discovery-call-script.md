@@ -1,6 +1,6 @@
 # Emerald AI x SPORTFIVE: F1 Discovery Call Script
 
-**Call type:** First call / discovery, listening-led. Goal: open with the momentum and the overlap in one breath, keep introductions short, let George and Bjorn say hello, then hand the floor to them: they share as much insight as possible, and together you see if there are any opportunities worth exploring. Fill the brief with smart, consultative questions. Agree next steps only if the conversation earns them.
+**Call type:** First call / discovery, listening-led. Goal: thank Jack, say in a few natural lines why this felt worth exploring, make the goal of the call plain (understand if it makes sense, not sell), give one line on your role, let George and Bjorn say a quick hello, then hand the floor to Jack. Learn as much as you can, answer his questions, and explore together where Emerald could fit. Agree next steps only if the conversation earns them.
 
 **How to use this script:** Every spoken block is written the way you would say it out loud. Do not read it word for word. Glance at the bold anchors, then talk. Short sentences, slow pace, warm tone. This company is run by a physicist turned policy expert; the room will be sharp and allergic to sales talk. The script is built so they talk more than you. Your job is curiosity, not pitching.
 
@@ -12,8 +12,8 @@
 
 **The flow:**
 
-1. **Opening: the momentum and the overlap, quick intros, hellos from George and Bjorn.** 2 min
-2. **What we saw from the outside, then the floor is theirs.** 2 min
+1. **Opening: thank you, why this felt worth exploring, the goal, one line on our role, hellos, then over to Jack.** 2 min
+2. **Jack talks first. Play back the desk research when you need a bridge.** 3 min
 3. **Discovery: their context, the smart questions.** 15 min
 4. **How F1 works and where it could add value for Emerald.** 10 min
 5. **Their questions: prepared answers.** Use as needed
@@ -27,7 +27,7 @@
 
 **Fill in before the call:**
 
-- [Name] of the Emerald AI contact and pronunciation
+- Jack: confirm full name, role and pronunciation before the call
 - Confirm George and Bjorn are ready for a quick hello early in the call
 - [Timeframe] you promise for recommendations in Part 6
 - Confirm internally: no live deal in energy management, grid software or data center infrastructure
@@ -73,41 +73,37 @@
 
 ---
 
-## Part 1: Opening, momentum and introductions (2 minutes)
+## Part 1: Opening (2 minutes)
 
-*[Short and natural. The momentum line and the overlap line in one breath, quick introductions, hellos from George and Bjorn, then the floor is theirs. No speeches.]*
+*[Say it like you would to a colleague. These lines are the shape, not a script to recite. If a sentence feels too polished in your mouth, rough it up with your own words.]*
 
-> "Hi [Name], thank you for making the time. I really appreciate it.
+> "Hi Jack. First and foremost, thank you for your time. We have been looking forward to this one.
 >
-> So, we have been seeing a lot of momentum at Emerald AI, and it felt like it was worthy of at least having a conversation. Because from the outside, there seems to be a lot of overlap: in values, in the customers you serve, and in the ecosystem of partners that Formula 1 gathers. But more on that in a second.
+> With everything happening at Emerald AI right now, the things you guys are doing, it looks quite exciting. And from the outside, from the desk research we have been doing, it just felt like there was something here worth exploring. A Formula 1 partnership felt worth at least having a conversation about.
 >
-> Before we dive into any details, it would be good to quickly do a round of introductions."
-
-**You:**
-
-> "I am based in Germany with SPORTFIVE, and I drive brand partnerships there. Our role, in one line, is to help bring the world of sports and brands together. That is what I do all day.
+> Before we dive in, one thing on the goal today. It is not to tell you why. We would rather use this call to understand if it makes sense at all. So: learn as much as we can about you, answer whatever questions you have, and explore where Emerald AI could fit in what is a complex, but very valuable, ecosystem.
 >
-> And I have got George and Bjorn on the call as well, two colleagues I work very closely with in our Formula 1 business. Let me hand it over to them to say a quick hello."
+> So, enough from me. Our role here, the three of us, is to help drive strategic brand partnerships, bringing the world of motorsport and brands together. Let me hand it over to George and Bjorn to say a quick hello."
 
-*[Hand over. Let them each say two or three warm sentences, no pitching. Then take the floor back:]*
+*[George and Bjorn say hello. Two or three sentences each, no pitching. Then:]*
 
-> "Great. And the way we would love to use this call: ideally, you share as many insights as you can about Emerald, where the company is and where it is headed, and together we see if there are any potential opportunities to be explored. I will ask a few questions along the way, and whatever you are comfortable sharing is helpful."
+> "Great. And with that, Jack, over to you. Tell us about Emerald, as much as you want to share. Where the company is, where it is headed. We will take the conversation from there."
 
 ---
 
-## Part 2: What we saw from the outside (2 minutes)
+## Part 2: Jack talks first, then the playback (3 minutes)
 
-*[A short homework beat. Three sentences that prove you did the reading, then the check question, then the floor is theirs. Do not lecture them about their own company.]*
+*[Jack talks. Listen, take notes, do not jump in with the sport. When he winds down, or if he asks what your research showed, bridge with the playback:]*
 
-> "Before I hand it over, let me quickly play back what we saw from the outside, and you can tell me where we are wrong.
+> "Really useful, thank you. Let me quickly play back what we had seen from the outside before this call, and you tell me where we got it wrong.
 >
 > Emerald came out of stealth last summer. A year later you are a unicorn, with names like NVIDIA, Siemens and RWE behind you. And the product, as we read it: your software makes AI data centers flexible, so when the grid is stressed they ease off without breaking the AI work, which means more AI can connect to the same grid, faster. In a world racing to build AI, you are working on its biggest bottleneck: power.
 >
-> That pace, and that story, is why we called. Did we get it roughly right?"
+> Did we get it roughly right?"
 
-*[Let them react. Their correction is the first discovery answer. Then open softly:]*
+*[Their correction is discovery gold. Then:]*
 
-> "So let me start properly. How much do you follow Formula 1, if at all? And has Emerald thought about sport, or marketing of this kind, before?"
+> "And before I get into my questions: how much do you follow Formula 1, if at all? Has Emerald looked at sport, or anything like it, before?"
 
 *[Their answer sets the depth for Part 4. If they barely know the sport, give 4.1 and 4.2 real time later. If they are fans, compress.]*
 
@@ -385,7 +381,7 @@
 
 ## Part 6: Close and next steps (2 minutes)
 
-> "[Name], this was exactly the conversation we hoped for. Thank you. Let me close with what happens next, so there are no surprises.
+> "Jack, this was exactly the conversation we hoped for. Thank you. Let me close with what happens next, so there are no surprises.
 >
 > Step one, we take everything you shared today and turn it into a brief. You will see it in writing, and you can correct it. Nothing moves until you tell us it is right.
 >
@@ -401,7 +397,7 @@
 
 *[Last word, keep it warm:]*
 
-> "Thank you, [Name]. You will hear from me by [date]. Whatever the answer turns out to be, I am glad we had this conversation."
+> "Thank you, Jack. You will hear from me by [date]. Whatever the answer turns out to be, I am glad we had this conversation."
 
 ---
 
