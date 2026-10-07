@@ -93,7 +93,27 @@
 
 ## Part 2: Jack talks first, then the playback (3 minutes)
 
-*[Jack talks. Listen, take notes, do not jump in with the sport. When he winds down, or if he asks what your research showed, bridge with the playback:]*
+*[Two questions Jack may fire back the moment you hand over. Answer short, then give him the floor again.]*
+
+**If he asks: "What about Emerald caught your eye?"**
+
+> "Three things, all from the outside, so correct me where we are off.
+>
+> The pace. You came out of stealth last summer, and a year later you are a unicorn with NVIDIA, Siemens and RWE on the investor list. That does not happen to ordinary companies.
+>
+> The problem you picked. The whole world is racing to build AI, and the real bottleneck is power. You went after the bottleneck itself: software that lets data centers ease off when the grid is stressed, so more AI can connect to the same grid, faster. Picking the unglamorous problem everyone else is stuck behind, that caught our eye.
+>
+> And the overlap. Formula 1 is a competition about squeezing more performance out of limited energy and limited computing. That is basically your pitch, at racing speed. When a company's story and the sport's story sit this close together, we pick up the phone."
+
+**If he asks: "And where do you see us fitting?"**
+
+> "Straight answer: I have a hypothesis, not a recommendation. Getting from one to the other is what this call is for.
+>
+> The shape I would explore first is the right-sized one. The sport's own energy story is huge right now: new rules in 2026, sustainable fuel, a Net Zero commitment. A company that makes power grids smarter sits naturally inside that story. So I would look at sharp content built on that overlap, hospitality that puts your buyers, the utilities, the data center operators, the AI companies, in one room at a race, and only then, if the story earns it, an entry-level seat with a team.
+>
+> But which door, and at what size, that depends on what you tell me in the next half hour. Give me the context, and we come back with options sized for where Emerald is today. And if the honest answer is that none of it fits yet, we will say that too."
+
+*[Otherwise: Jack talks. Listen, take notes, do not jump in with the sport. When he winds down, or if he asks what your research showed, bridge with the playback:]*
 
 > "Really useful, thank you. Let me quickly play back what we had seen from the outside before this call, and you tell me where we got it wrong.
 >
