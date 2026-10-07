@@ -12,7 +12,7 @@
 
 **The flow:**
 
-1. **Opening: thank you, why this felt worth exploring, the goal, one line on our role, hellos, then over to Jack.** 2 min
+1. **Opening: thank you, why we called, the goal, one line on our role, hellos, then over to Jack.** 1 min
 2. **Jack talks first. Play back the desk research when you need a bridge.** 3 min
 3. **Discovery: their context, the smart questions.** 15 min
 4. **How F1 works and where it could add value for Emerald.** 10 min
@@ -73,21 +73,21 @@
 
 ---
 
-## Part 1: Opening (2 minutes)
+## Part 1: Opening (1 minute)
 
-*[Say it like you would to a colleague. These lines are the shape, not a script to recite. If a sentence feels too polished in your mouth, rough it up with your own words.]*
+*[Four short beats, said like you talk. If a line feels polished in your mouth, rough it up.]*
 
-> "Hi Jack. First and foremost, thank you for your time. We have been looking forward to this one.
+> "Hi Jack, thank you for the time. We have been looking forward to this one.
 >
-> With everything happening at Emerald AI right now, the things you guys are doing, it looks quite exciting. And from the outside, from the desk research we have been doing, it just felt like there was something here worth exploring. A Formula 1 partnership felt worth at least having a conversation about.
+> The reason for the call is simple. What you guys are building looks exciting, and from the desk research we have done, a Formula 1 partnership felt at least worth a conversation.
 >
-> Before we dive in, one thing on the goal today. It is not to tell you why. We would rather use this call to understand if it makes sense at all. So: learn as much as we can about you, answer whatever questions you have, and explore where Emerald AI could fit in what is a complex, but very valuable, ecosystem.
+> And the goal today is not to tell you why. It is to figure out, together, if it makes sense at all. We learn about you, you ask us anything, and we see where Emerald could fit.
 >
-> So, enough from me. Our role here, the three of us, is to help drive strategic brand partnerships, bringing the world of motorsport and brands together. Let me hand it over to George and Bjorn to say a quick hello."
+> That is it from me. The three of us drive brand partnerships here, bringing the world of motorsport and brands together. George, Bjorn, quick hello?"
 
 *[George and Bjorn say hello. Two or three sentences each, no pitching. Then:]*
 
-> "Great. And with that, Jack, over to you. Tell us about Emerald, as much as you want to share. Where the company is, where it is headed. We will take the conversation from there."
+> "Great. Jack, over to you. Where is the company, and where is it headed? We will take it from there."
 
 ---
 
