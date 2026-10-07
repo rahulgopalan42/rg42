@@ -75,18 +75,24 @@ wb=Workbook(); rm=wb.active; rm.title='00 READ ME'
 F='Arial'; BODY=Font(name=F,size=10); BOLD=Font(name=F,size=10,bold=True); TITLE=Font(name=F,size=12,bold=True)
 HDR_FONT=Font(name=F,size=10,bold=True,color='FFFFFF'); HDR_FILL=PatternFill('solid',fgColor='1F3864'); WRAP=Alignment(wrap_text=True,vertical='top')
 FILL={'Yes':PatternFill('solid',fgColor='CFE8FD'),'Stretch':PatternFill('solid',fgColor='FFF2CC'),'Low-value':PatternFill('solid',fgColor='F8CBAD')}
-COLS=['rank','priority_score','company','sector_tab','source_pool','domain','hq','ownership','what_it_sells','headcount_band','revenue (dated, sourced)','valuation (dated, sourced)','latest_raise','fit_score','up_and_coming','verdict','verdict_reason','best_angle','flags','fit_detail']
+COLS=['on_priority_tab','rank','priority_score','company','sector_tab','source_pool','domain','hq','ownership','what_it_sells','headcount_band','revenue (dated, sourced)','valuation (dated, sourced)','latest_raise','fit_score','up_and_coming','verdict','verdict_reason','best_angle','flags','fit_detail']
 KEYS=['company','sector_tab','pool','domain','hq','ownership','sells','headcount_band','revenue','valuation','latest_raise','fit_score','up_and_coming','verdict','verdict_reason','best_angle','flags','fit_detail']
-WID=[6,8,30,26,8,22,22,30,40,14,36,36,30,6,9,10,60,40,40,40]
-def write_tab(ws,title,sub,rs):
+WID=[16,6,8,30,26,8,22,22,30,40,14,36,36,30,6,9,10,60,40,40,40]
+RED_FILL=PatternFill('solid',fgColor='FF0000'); RED_HDR=Font(name=F,size=10,bold=True,color='FFFFFF'); RED_NAME=Font(name=F,size=10,bold=True,color='C00000')
+PRIORITY_KEYS=set()
+def write_tab(ws,title,sub,rs,is_priority=False):
     ws['A1']=title; ws['A1'].font=TITLE; ws['A2']=sub; ws['A2'].font=BODY
     for j,h in enumerate(COLS,1): c=ws.cell(row=3,column=j,value=h); c.font=HDR_FONT; c.fill=HDR_FILL
     rs=sorted(rs,key=lambda r:(-prio(r),str(r['company'])))
     for i,r in enumerate(rs,1):
-        vals=[i,prio(r)]+[r.get(k) for k in KEYS]
+        dup=(not is_priority) and (norm(r['company']) in PRIORITY_KEYS)
+        vals=[('ON PRIORITY TAB' if dup else ('(this is the priority tab)' if is_priority else '')),i,prio(r)]+[r.get(k) for k in KEYS]
         for j,v in enumerate(vals,1):
             c=ws.cell(row=i+3,column=j,value=v if not isinstance(v,(list,dict)) else json.dumps(v)); c.font=BODY; c.alignment=WRAP
             if r['verdict'] in FILL: c.fill=FILL[r['verdict']]
+            if dup and j==1: c.fill=RED_FILL; c.font=RED_HDR
+            if dup and j==4: c.font=RED_NAME
+            if is_priority and j==1: c.font=Font(name=F,size=9,italic=True,color='808080')
     for j,w in enumerate(WID,1): ws.column_dimensions[ws.cell(row=3,column=j).column_letter].width=w
     ws.freeze_panes='A4'
 def tabname(r):
@@ -104,7 +110,8 @@ for r in rows:
         r2=dict(r); r2['sector_tab']='F '+str(r['sector_tab']) if not str(r['sector_tab']).startswith('F ') else r['sector_tab']; py.append(r2)
     else: py.append(r)
 nF=sum(1 for r in py if r.get('pool')=='F')
-write_tab(ws,f'PRIORITY LIST: EVERY YES VERDICT, ALL SECTORS — {len(py)} names ({len(py)-nF} at USD 1B+ valuation, {nF} on the USD 100M+ funded track), ranked best first','Highest-conviction prospects only: passed every v3 hard filter (51+ staff, no distress, no F1 tie direct or via controlling parent, not sanctioned) with fit 3+ and no capping flag. USD 1B+ names and USD 100M+ funded names (source_pool F, sector_tab prefixed F) sit side by side; sort or filter on source_pool to separate them. Sorted by priority_score. The same rows also sit on their sector tabs. Stretch and red rows are NOT on this tab.',py)
+PRIORITY_KEYS.update(norm(r['company']) for r in py)
+write_tab(ws,f'PRIORITY LIST: EVERY YES VERDICT, ALL SECTORS — {len(py)} names ({len(py)-nF} at USD 1B+ valuation, {nF} on the USD 100M+ funded track), ranked best first','Highest-conviction prospects only: passed every v3 hard filter (51+ staff, no distress, no F1 tie direct or via controlling parent, not sanctioned) with fit 3+ and no capping flag. USD 1B+ names and USD 100M+ funded names (source_pool F, sector_tab prefixed F) sit side by side; sort or filter on source_pool to separate them. Sorted by priority_score. The same rows also sit on their sector tabs. Stretch and red rows are NOT on this tab.',py,is_priority=True)
 ws=wb.create_sheet('02 UP-AND-COMING (all)'); uc=[r for r in rows if str(r.get('up_and_coming')).lower()=='yes']
 write_tab(ws,f'UP-AND-COMING BRANDS, ALL SECTORS — {len(uc)} names: crossed $1B within 24 months, growing >40%/yr, 2025-26 IPO, visible challenger, or announced new-market entry','Consolidated view of every up_and_coming=yes brand across all tabs, ranked best first. The same rows also sit on their sector tabs.',uc)
 ws=wb.create_sheet('03 FUNDED $100M+ (all)'); fr=[r for r in rows if r.get('pool')=='F']
