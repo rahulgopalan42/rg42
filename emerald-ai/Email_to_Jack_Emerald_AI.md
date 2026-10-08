@@ -8,11 +8,11 @@ Thanks for your time yesterday. It was great to hear where Emerald AI is heading
 
 There's a strong fit between what Emerald AI stands for and what F1 values, and we think that gives you a genuinely interesting story to explore with the teams.
 
-As promised, I've attached a short brief. To keep our recommendation as objective as possible, it would help if you could fill it in. Your answers drive our mapping and analysis, so we can find the teams that best match what you're looking for. We work on your behalf, not the teams'.
+As promised, I've attached a short brief. To help us find the right partnership and make clear recommendations, it would be really helpful if you could fill it in. Your answers feed directly into our grid analysis and mapping, so we can match you with the teams that best fit what you're looking for. We work on your behalf, not the teams'.
 
 There are two parts:
 
-- **Questions:** a few quick ones on your goals, who you want to reach, and what matters most.
+- **Questions:** seven quick ones on your goals, markets, audience, success and approval, plus a table to mark what matters most.
 - **Tech landscape:** mark the brands you'd like to sit alongside, and any you'd rule out as competitors.
 
 Rough bullet points are fine.
