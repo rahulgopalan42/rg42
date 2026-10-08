@@ -6,6 +6,8 @@ Hi Jack,
 
 Thanks for your time yesterday. It really helped us understand where Emerald AI is today and where it's heading. What stood out was the need to spend real time with customers, ideally with everyone in the same room. That's exactly what Formula 1 does best, both at the track and away from it.
 
+Honestly, Emerald AI is exactly the kind of brand teams love to partner with. F1 is a sport built on getting more performance out of every unit of energy, and teams run power-hungry data centers of their own. A partnership like yours would be a first in the sport, not just another logo on the car. We think teams will be genuinely keen to explore it with you.
+
 As promised, we've put together a short briefing document as a next step (attached). There are two things we'd love your help with:
 
 - **The questions:** a few quick questions about your goals, who you want to reach, and what matters most to you in a partnership.
