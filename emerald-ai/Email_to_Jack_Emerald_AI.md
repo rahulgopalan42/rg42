@@ -1,36 +1,31 @@
 **To:** Jack (Chief of Staff, Emerald AI)
 **Cc:** George, Bjorn
-**Subject:** Emerald AI x F1: two pages to point us at the right teams
+**Subject:** Emerald AI x F1: next steps and a short brief
 
 Hi Jack,
 
-Thanks again for the time yesterday, and for staying on past the half hour. It was one of the clearest briefs we've had. What stuck with us: your CEO needs long, unhurried time with the C-suite, ideally with the utility, the cloud provider and the end customer in the same room. That is exactly what a race weekend does well.
+Thanks for your time yesterday. It really helped us understand where Emerald AI is today and where it's heading. What stood out was the need to spend real time with customers, ideally with everyone in the same room. That's exactly what Formula 1 does best, both at the track and away from it.
 
-As promised, here is the next step. We'd rather not send you a 40-page report. Instead, we've put together a short brief (attached) that lets us do the hard thinking for you:
+As promised, we've put together a short briefing document as a next step (attached). There are two things we'd love your help with:
 
-- **Page 2: six quick questions.** The problem F1 should solve, who you want in the room, which markets matter, how you'll judge success, budget and timing.
-- **Page 3: what matters most.** Tick must have / important / nice to have across six areas, plus four quick either/or calls (for example, visible on the car or invisible with full access).
-- **Page 4: the tech partner landscape.** Circle the companies you'd love to sit next to, and cross out any competitors. This tells us quickly which teams' partner groups fit you and which to rule out.
+- **The questions:** a few quick questions about your goals, who you want to reach, and what matters most to you in a partnership.
+- **The tech landscape:** an overview of the technology partners already on the grid. Please mark the brands you'd like to sit alongside, and any you'd rule out as competitors.
 
-Bullet points are perfect. Rough answers beat polished ones, and none of this commits you to anything.
+Rough bullet points are perfect. Short answers are all we need.
 
 **What happens next**
-1. You send it back (by Friday 16 October if you can).
-2. We come back with a shortlist of 3–4 teams, our top two picks, and the honest pros and cons of each. That's a 30-minute call.
-3. You take two short, no-obligation intro calls with the teams you like most, so you can feel the chemistry for yourself. The partnership is ultimately between you and the team, and that fit matters as much as the numbers.
+1. Once you send it back, we'll come back with a shortlist of a couple of teams and the pros and cons of each. We can walk you through it on a 30-minute call.
+2. We'd then suggest meeting the teams themselves for a no-obligation chat, so you can get a feel for the chemistry and see what their race-weekend hospitality looks like. We could also host you and your colleagues at a race.
 
-If it's easier, I'm happy to jump on a 15-minute WhatsApp call and fill it in with you.
+I've also attached the credentials deck George walked you through. Here's an extra link to some recent case studies: [LINK]. It also shows how teams activate partnerships away from the track and help partners do real business, using McLaren's off-track calendar as an example. Our role is simply to find which team makes the most sense for you, based on what you share in the document.
 
-I've also included the credentials deck George walked you through, and a few examples of how partners use teams to generate B2B pipeline (page 5 of the brief, plus the case studies here: [LINK]). McLaren features a lot in these, but this kind of programme runs across the grid. Our job is to find the team whose programme best fits what you're trying to do.
-
-Last thing: several of us are in Austin for the race on the 25th. If we've made progress by then and you or your CEO are around, it would be great to meet in person.
+Let us know if there's anything we can help with.
 
 Best,
 Rahul
 
 ---
 
-**Attachments / links to include before sending**
-- Emerald_AI_F1_Partnership_Brief.pptx (attached)
-- Credentials deck link (the one George presented): [LINK]
-- Case studies deck link: [LINK]
+**Before sending**
+- Attach: Emerald_AI_F1_Partnership_Brief.pptx and the credentials deck
+- Add the case studies link where it says [LINK]
