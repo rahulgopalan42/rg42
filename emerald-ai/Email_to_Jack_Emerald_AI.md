@@ -18,8 +18,9 @@ There are two parts:
 Rough bullet points are fine.
 
 **Next steps**
-1. We come back with a shortlist of teams and the pros and cons of each, on a 30-minute call.
-2. You meet the teams for a no-obligation chat to test the chemistry. We can also host you and your colleagues at a race to see the hospitality first-hand.
+1. We come back to you with a shortlist of teams and the pros and cons of each, and walk you through our recommendations on a 30-minute call.
+2. If you're happy with them, we set up no-obligation chats with the teams we agree on. Hearing from the teams directly is a great way to add to the learning process.
+3. To see what hospitality looks like in practice, we can also look at hosting you and your colleagues at a race.
 
 I've also attached the credentials deck George walked you through, plus case studies showing how teams help partners do business off track (McLaren's calendar as an example): [LINK]
 
