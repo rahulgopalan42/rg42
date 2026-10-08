@@ -22,7 +22,12 @@ Rough bullet points are fine.
 2. If you're happy with them, we set up no-obligation chats with the teams we agree on. Hearing from the teams directly is a great way to add to the learning process.
 3. To see what hospitality looks like in practice, we can also look at hosting you and your colleagues at a race.
 
-I've also attached the credentials deck George walked you through, plus case studies showing how teams help partners do business off track (McLaren's calendar as an example): [LINK]
+You'll also find two links below:
+
+- **Credentials deck** George presented yesterday: [LINK]
+- **Case studies** on how F1 teams help partners drive business through on-track and off-track activation: [LINK]
+
+The case studies use McLaren as an example, but most teams do this very well. Our role is to find the team whose programme best supports what you're trying to achieve.
 
 Any questions, just shout.
 
