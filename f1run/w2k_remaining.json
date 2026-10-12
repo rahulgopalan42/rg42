@@ -1,86 +1,170 @@
 [
-{"brand":"Caris Life Sciences","domain":"carislifesciences.com"},
-{"brand":"Colossal Biosciences","domain":"colossal.com"},
-{"brand":"Cooper Companies (The)","domain":"coopercos.com"},
-{"brand":"Copa Holdings","domain":"copaair.com"},
-{"brand":"Demant","domain":"demant.com"},
-{"brand":"Ditto","domain":"ditto.com"},
-{"brand":"Elis","domain":"elis.com"},
-{"brand":"Ema","domain":"ema.co"},
-{"brand":"Endowus","domain":"endowus.com"},
-{"brand":"Faire","domain":"faire.com"},
-{"brand":"Fisher Investments","domain":"fisherinvestments.com"},
-{"brand":"Flowdesk","domain":"flowdesk.co"},
-{"brand":"Forgent Power Solutions","domain":"forgentpower.com"},
-{"brand":"Forterra","domain":"forterra.ai (also forterra.com)"},
-{"brand":"Fuse Energy","domain":"fuseenergy.com"},
-{"brand":"GFH Financial Group","domain":"gfh.com"},
-{"brand":"GMI Cloud","domain":"gmicloud.ai"},
-{"brand":"Gilead Sciences","domain":"gilead.com"},
-{"brand":"Glenmark Pharmaceuticals","domain":"glenmarkpharma.com"},
-{"brand":"Grindr","domain":"grindr.com"},
-{"brand":"Guardio","domain":"guard.io"},
-{"brand":"Hankyu Hanshin Holdings","domain":"holdings.hankyu-hanshin.co.jp"},
-{"brand":"Hero MotoCorp","domain":"heromotocorp.com"},
-{"brand":"HeroDevs","domain":"herodevs.com"},
-{"brand":"HiddenLayer","domain":"hiddenlayer.com"},
-{"brand":"Honasa Consumer (Mamaearth)","domain":"honasa.in"},
-{"brand":"Hydrolix","domain":"hydrolix.io"},
-{"brand":"Cartrack","domain":"Cartrack"},
-{"brand":"Keyrock","domain":"keyrock.com"},
-{"brand":"Kimberly-Clark","domain":"kimberly-clark.com"},
-{"brand":"LS Cable & Systems","domain":""},
-{"brand":"LayerZero Labs","domain":"layerzero.network"},
-{"brand":"LiveKit","domain":"livekit.io (also livekit.com)"},
-{"brand":"Mambu","domain":"mambu.com"},
-{"brand":"Manychat","domain":"manychat.com"},
-{"brand":"Mollie","domain":"mollie.com"},
-{"brand":"Musinsa","domain":"musinsa.com"},
-{"brand":"Mytra","domain":"mytra.ai"},
-{"brand":"Segway","domain":""},
-{"brand":"Nominal","domain":"nominal.io"},
-{"brand":"Nongshim","domain":"nongshim.com"},
-{"brand":"Omni Analytics","domain":"omni.co"},
-{"brand":"OpenFX","domain":"openfx.com"},
-{"brand":"Oro Labs","domain":"orolabs.ai"},
-{"brand":"POSCO Holdings","domain":"posco-inc.com"},
-{"brand":"Pentera","domain":"pentera.io"},
-{"brand":"Primer","domain":"primer.io"},
-{"brand":"Profound","domain":"tryprofound.com"},
-{"brand":"Proya Cosmetics","domain":"proya.com"},
-{"brand":"Pure Health (M42)","domain":"purehealth.ae"},
-{"brand":"QI Tech","domain":"qitech.com.br"},
-{"brand":"Reserv","domain":"reserv.com"},
-{"brand":"Revolve Group","domain":"revolve.com"},
-{"brand":"Ridgeline","domain":"ridgeline.ai"},
-{"brand":"Rinnai","domain":"rinnai.co.jp"},
-{"brand":"Ripple","domain":"ripple.com"},
-{"brand":"Rollins","domain":"rollins.com"},
-{"brand":"Rox","domain":"rox.com"},
-{"brand":"Safe Security","domain":"safe.security"},
-{"brand":"Samyang Foods","domain":"samyangfoods.com"},
-{"brand":"ScaleOps","domain":"scaleops.com"},
-{"brand":"Sereact","domain":"sereact.ai"},
-{"brand":"Serval","domain":"serval.com"},
-{"brand":"Skyryse","domain":"skyryse.com"},
-{"brand":"Sonae","domain":"sonae.pt"},
-{"brand":"SonarSource (Sonar)","domain":"sonarsource.com"},
-{"brand":"Spectro Cloud","domain":"spectrocloud.com"},
-{"brand":"Sublime Security","domain":"sublime.security"},
-{"brand":"Swap Commerce","domain":"swap-commerce.com"},
-{"brand":"Talos","domain":"talos.com"},
-{"brand":"Tuhu Car Care","domain":"tuhu.cn"},
-{"brand":"Ultrahuman","domain":"ultrahuman.com"},
-{"brand":"Ultraviolette Automotive","domain":"ultraviolette.com"},
-{"brand":"United Bank for Africa","domain":"ubagroup.com"},
-{"brand":"Upwind","domain":"upwind.io"},
-{"brand":"Urban Outfitters","domain":"urbn.com"},
-{"brand":"Vail Resorts","domain":"vailresorts.com"},
-{"brand":"Verda (DataCrunch)","domain":"verda.com"},
-{"brand":"Zero Hash","domain":"zerohash.com"},
-{"brand":"7AI","domain":"7ai.com"},
-{"brand":"AS Watson","domain":"aswatson.com"},
-{"brand":"Adaptive Security","domain":"adaptivesecurity.com"},
-{"brand":"Noma Security","domain":"noma.security"},
-{"brand":"Travel + Leisure Co","domain":"travelandleisureco.com"}
+{
+"brand": "Forterra",
+"domain": "forterra.ai (also forterra.com)"
+},
+{
+"brand": "Fuse Energy",
+"domain": "fuseenergy.com"
+},
+{
+"brand": "Hankyu Hanshin Holdings",
+"domain": "holdings.hankyu-hanshin.co.jp"
+},
+{
+"brand": "Nongshim",
+"domain": "nongshim.com"
+},
+{
+"brand": "Omni Analytics",
+"domain": "omni.co"
+},
+{
+"brand": "OpenFX",
+"domain": "openfx.com"
+},
+{
+"brand": "Oro Labs",
+"domain": "orolabs.ai"
+},
+{
+"brand": "POSCO Holdings",
+"domain": "posco-inc.com"
+},
+{
+"brand": "Pentera",
+"domain": "pentera.io"
+},
+{
+"brand": "Primer",
+"domain": "primer.io"
+},
+{
+"brand": "Profound",
+"domain": "tryprofound.com"
+},
+{
+"brand": "Proya Cosmetics",
+"domain": "proya.com"
+},
+{
+"brand": "Pure Health (M42)",
+"domain": "purehealth.ae"
+},
+{
+"brand": "Rinnai",
+"domain": "rinnai.co.jp"
+},
+{
+"brand": "Rollins",
+"domain": "rollins.com"
+},
+{
+"brand": "Rox",
+"domain": "rox.com"
+},
+{
+"brand": "Safe Security",
+"domain": "safe.security"
+},
+{
+"brand": "Samyang Foods",
+"domain": "samyangfoods.com"
+},
+{
+"brand": "ScaleOps",
+"domain": "scaleops.com"
+},
+{
+"brand": "Sereact",
+"domain": "sereact.ai"
+},
+{
+"brand": "Serval",
+"domain": "serval.com"
+},
+{
+"brand": "Skyryse",
+"domain": "skyryse.com"
+},
+{
+"brand": "Sonae",
+"domain": "sonae.pt"
+},
+{
+"brand": "SonarSource (Sonar)",
+"domain": "sonarsource.com"
+},
+{
+"brand": "Spectro Cloud",
+"domain": "spectrocloud.com"
+},
+{
+"brand": "Sublime Security",
+"domain": "sublime.security"
+},
+{
+"brand": "Swap Commerce",
+"domain": "swap-commerce.com"
+},
+{
+"brand": "Talos",
+"domain": "talos.com"
+},
+{
+"brand": "Tuhu Car Care",
+"domain": "tuhu.cn"
+},
+{
+"brand": "Ultrahuman",
+"domain": "ultrahuman.com"
+},
+{
+"brand": "Ultraviolette Automotive",
+"domain": "ultraviolette.com"
+},
+{
+"brand": "United Bank for Africa",
+"domain": "ubagroup.com"
+},
+{
+"brand": "Upwind",
+"domain": "upwind.io"
+},
+{
+"brand": "Urban Outfitters",
+"domain": "urbn.com"
+},
+{
+"brand": "Vail Resorts",
+"domain": "vailresorts.com"
+},
+{
+"brand": "Verda (DataCrunch)",
+"domain": "verda.com"
+},
+{
+"brand": "Zero Hash",
+"domain": "zerohash.com"
+},
+{
+"brand": "7AI",
+"domain": "7ai.com"
+},
+{
+"brand": "AS Watson",
+"domain": "aswatson.com"
+},
+{
+"brand": "Adaptive Security",
+"domain": "adaptivesecurity.com"
+},
+{
+"brand": "Noma Security",
+"domain": "noma.security"
+},
+{
+"brand": "Travel + Leisure Co",
+"domain": "travelandleisureco.com"
+}
 ]

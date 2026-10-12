@@ -24,11 +24,18 @@ Process ONLY the first brand of f1run/w2k_remaining.json end to end per f1run/ap
 Work through these files IN ORDER, every brand, per f1run/apollo_brief.md. The account owner
 (Rahul) has approved the enrichment spend for all of them within the caps above
 (apollo_people_bulk_match costs 1 credit per matched person):
-1. f1run/w2k_remaining.json  (84 brands)
+1. f1run/w2k_remaining.json   (42 brands)
 2. f1run/w3k_upandcoming.json (70 brands)
 3. f1run/w4k_sheet23.json     (32 brands)
+4. f1run/w5k_devtools.json    (160 brands)
+5. f1run/w6k_defense.json     (130 brands)
+6. f1run/w7k_consumer.json    (102 brands)
+7. f1run/w8k_robotics.json    (96 brands)
+8. f1run/w9k_dcpower.json     (96 brands)
+9. f1run/w10k_photonics.json  (95 brands)
 Use a Workflow with parallel agents (about 10 brands per agent) for speed. Each agent returns
-rows; merge them in file order.
+rows; merge them in file order. Brands already enriched by the main session have been removed
+from these files - never re-enrich a brand that is not listed.
 
 ## Step 4 - hand back (once per finished file, do not batch them up)
 When a file's brands are all done, write the merged rows to
