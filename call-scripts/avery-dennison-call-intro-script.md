@@ -1,6 +1,6 @@
 # Avery Dennison x SPORTFIVE: Call Intro Script
 
-**Call type:** Follow-up call, intro only. The job of this opening: a warm welcome, introduce the right colleagues (Ellery from the athlete division, Freddy from the AMG GP team), set the expectation on WRC honestly (questions gathered today, answered properly by the WRC team in their own session), then hand the floor to Avery Dennison.
+**Call type:** Follow-up call, intro only. The job of this opening: a warm welcome, introduce the right colleagues (Ellery from the athlete division, Freddy from the AMG GP team), set the WRC expectation straight (questions gathered today, answered properly by the WRC team in their own session), then hand the floor to Avery Dennison.
 
 **How to use:** Say it like you talk; these lines are the shape, not a text to read. The WRC beat is the one to get right word for word in spirit: it has to sound like respect for their interest, not a door closing.
 
