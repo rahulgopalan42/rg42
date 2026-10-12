@@ -1,0 +1,669 @@
+{
+"rows": [
+{
+"brand": "Chronograph",
+"people": [
+{
+"name": "Tanner Kellan",
+"title": "Manager, Marketing",
+"role": "decision_maker",
+"email": "tanner.kellan@chronograph.pe"
+},
+{
+"name": "Natalie Singer",
+"title": "Partnerships",
+"role": "vp_marketing",
+"email": "natalie.singer@chronograph.pe"
+},
+{
+"name": "Charlie Tafoya",
+"title": "CEO",
+"role": "cro",
+"email": "charlie@chronograph.pe"
+}
+]
+},
+{
+"brand": "Nexeon",
+"people": []
+},
+{
+"brand": "Alembic Technologies",
+"people": []
+},
+{
+"brand": "CyberCube",
+"people": [
+{
+"name": "Audrey Vanderoost",
+"title": "Growth Marketing Director",
+"role": "decision_maker",
+"email": "audreyv@cybcube.com"
+},
+{
+"name": "Raj Bakker",
+"title": "Growth Marketing Manager",
+"role": "vp_marketing",
+"email": "rajeshb@cybcube.com"
+},
+{
+"name": "Carly Cummings",
+"title": "Experienced Marketing Leader",
+"role": "cro",
+"email": "carlyc@cybcube.com"
+},
+{
+"name": "Rianna Mistry",
+"title": "Content Marketing Manager",
+"role": "field_marketing",
+"email": "riannam@cybcube.com"
+}
+]
+},
+{
+"brand": "Eridu",
+"people": [
+{
+"name": "Mike Capuano",
+"title": "Co-founder, Chief Business Development Officer and Chief Marketing Officer",
+"role": "decision_maker",
+"email": "mike.capuano@eridu.ai"
+},
+{
+"name": "Stuart Krometis",
+"title": "Senior VP of Business Development",
+"role": "vp_marketing",
+"email": "stuart.krometis@eridu.ai"
+},
+{
+"name": "Drew Perkins",
+"title": "Chief Executive Officer",
+"role": "cro",
+"email": "drew.perkins@eridu.ai"
+}
+]
+},
+{
+"brand": "Gauntlet",
+"people": [
+{
+"name": "Simon Mathonnet",
+"title": "Head of Marketing",
+"role": "decision_maker",
+"email": "simon.mathonnet@gauntlet.xyz"
+},
+{
+"name": "Kody Sale",
+"title": "Product Marketing Manager",
+"role": "vp_marketing",
+"email": "kody@gauntlet.xyz"
+},
+{
+"name": "Aidan Bristow",
+"title": "Business Development",
+"role": "cro",
+"email": "aidan@gauntlet.xyz"
+},
+{
+"name": "Jonathan Libby",
+"title": "DeFi Business Development",
+"role": "field_marketing",
+"email": "jon.libby@gauntlet.xyz"
+}
+]
+},
+{
+"brand": "Heirloom",
+"people": [
+{
+"name": "Shashank Samala",
+"title": "CEO and Cofounder",
+"role": "decision_maker",
+"email": "shashank@heirloomcarbon.com"
+}
+]
+},
+{
+"brand": "Infravision",
+"people": []
+},
+{
+"brand": "Interstellar Technologies",
+"people": [
+{
+"name": "Satomi Takahashi",
+"title": "Head of Communications & Brand",
+"role": "decision_maker",
+"email": "satomi.takahashi@istellartech.com"
+},
+{
+"name": "Mika Nakagami",
+"title": "Corporate Branding Lead",
+"role": "vp_marketing",
+"email": "mika.nakagami@istellartech.com"
+},
+{
+"name": "Takahiro Inagawa",
+"title": "CEO",
+"role": "cro",
+"email": "takahiro.inagawa@istellartech.com"
+}
+]
+},
+{
+"brand": "Kandou AI",
+"people": []
+},
+{
+"brand": "Keyfactor",
+"people": [
+{
+"name": "Jamie Walker",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "jamie.walker@keyfactor.com"
+},
+{
+"name": "Lauren Taylor",
+"title": "Vice President, Product and Customer Marketing",
+"role": "vp_marketing",
+"email": "lauren.taylor@keyfactor.com"
+},
+{
+"name": "Tricia Blade",
+"title": "Director, Global Channel Marketing",
+"role": "cro",
+"email": "tricia.blade@keyfactor.com"
+},
+{
+"name": "Chris Pereira",
+"title": "Sr. Director of Growth Marketing",
+"role": "field_marketing",
+"email": "chris.pereira@keyfactor.com"
+}
+]
+},
+{
+"brand": "Last Energy",
+"people": [
+{
+"name": "Bret Kugelmass",
+"title": "CEO, Founder",
+"role": "decision_maker",
+"email": "bkugelmass@lastenergy.com"
+},
+{
+"name": "Michael Jenner",
+"title": "CEO, Last Energy UK",
+"role": "vp_marketing",
+"email": "mjenner@lastenergy.com"
+}
+]
+},
+{
+"brand": "Netomi",
+"people": [
+{
+"name": "Alan Lepofsky",
+"title": "Head of Brand and Influence",
+"role": "decision_maker",
+"email": "alan@netomi.com"
+}
+]
+},
+{
+"brand": "PassiveLogic",
+"people": [
+{
+"name": "Nick Mailhiot",
+"title": "Director of Brand Strategy",
+"role": "decision_maker",
+"email": "nick@passivelogic.com"
+},
+{
+"name": "Troy Harvey",
+"title": "CEO",
+"role": "vp_marketing",
+"email": "troy@passivelogic.com"
+},
+{
+"name": "Thomas Kiessling",
+"title": "Chief Executive Officer",
+"role": "cro",
+"email": "thomask@passivelogic.com"
+}
+]
+},
+{
+"brand": "Pixxel",
+"people": [
+{
+"name": "Anjul Garg",
+"title": "Head - Growth Marketing",
+"role": "decision_maker",
+"email": "anjul@pixxel.co.in"
+},
+{
+"name": "Neerja Shah",
+"title": "Director, Brand and Communications",
+"role": "vp_marketing",
+"email": "neerja@pixxel.co.in"
+},
+{
+"name": "Lakshya Sood",
+"title": "Marketing Executive",
+"role": "cro",
+"email": "lakshya@pixxel.co.in"
+},
+{
+"name": "Ashay Deo",
+"title": "Business Development Specialist",
+"role": "field_marketing",
+"email": "ashay@pixxel.co.in"
+}
+]
+},
+{
+"brand": "QuantWare",
+"people": [
+{
+"name": "Bart Segers",
+"title": "Head of Marketing a.i.",
+"role": "decision_maker",
+"email": "bart.segers@quantware.com"
+},
+{
+"name": "Gautier Soubrane",
+"title": "VP Business Development HPC / Cloud Computing",
+"role": "vp_marketing",
+"email": "gautier.soubrane@quantware.com"
+}
+]
+},
+{
+"brand": "Shine Technologies",
+"people": [
+{
+"name": "Tammy Kramer",
+"title": "BtoB Marketing Strategy",
+"role": "decision_maker",
+"email": "tammyjackson@shinefusion.com"
+},
+{
+"name": "Carina Speth",
+"title": "Digital Marketing Manager",
+"role": "vp_marketing",
+"email": "carinaspeth@shinefusion.com"
+},
+{
+"name": "Maggie Barnes",
+"title": "Senior Marketing Specialist",
+"role": "cro",
+"email": "maggiebarnes@shinefusion.com"
+},
+{
+"name": "Steven Burger",
+"title": "Vice President of Business Development",
+"role": "field_marketing",
+"email": "steven.burger@shinemed.com"
+}
+]
+},
+{
+"brand": "SkyNRG",
+"people": [
+{
+"name": "Mandy Van Dasler",
+"title": "Marketing",
+"role": "decision_maker",
+"email": "mandy@skynrg.com"
+},
+{
+"name": "Sabin Aganencei",
+"title": "Digital Marketing Product Specialist",
+"role": "vp_marketing",
+"email": "sabin.aganencei@skynrg.com"
+},
+{
+"name": "Stephen Wetmore",
+"title": "Director: Partnerships & Business Development",
+"role": "cro",
+"email": "stephen@skynrg.com"
+},
+{
+"name": "Roosa Virkkunen",
+"title": "Brand Partnerships & Events Specialist",
+"role": "field_marketing",
+"email": "roosa@skynrg.com"
+}
+]
+},
+{
+"brand": "Terabase Energy",
+"people": [
+{
+"name": "Amine Sounni",
+"title": "VP, Strategic BD & Marketing, Co-Founder",
+"role": "decision_maker",
+"email": "aberrada@terabase.energy"
+},
+{
+"name": "Jennifer Sulyman",
+"title": "Product Marketing Manager",
+"role": "vp_marketing",
+"email": "jsulyman@terabase.energy"
+}
+]
+},
+{
+"brand": "Tokamak Energy",
+"people": [
+{
+"name": "Anna Soldatova",
+"title": "Business Development Analyst",
+"role": "decision_maker",
+"email": "anna.soldatova@tokamakenergy.com"
+},
+{
+"name": "Guido Macchi",
+"title": "Business Development Manager",
+"role": "vp_marketing",
+"email": "guido.macchi@tokamakenergy.com"
+},
+{
+"name": "Warrick Matthews",
+"title": "Chief Executive Officer",
+"role": "cro",
+"email": "warrick.matthews@tokamakenergy.com"
+}
+]
+},
+{
+"brand": "UVeye",
+"people": [
+{
+"name": "Yaron Saghiv",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "yaron.s@uveye.com"
+},
+{
+"name": "Antonette Desiervo",
+"title": "Head of Marketing & Communications",
+"role": "vp_marketing",
+"email": "antonette.d@uveye.com"
+},
+{
+"name": "Hanna Marks",
+"title": "Head of Field Marketing",
+"role": "cro",
+"email": "hanna.m@uveye.com"
+},
+{
+"name": "Hila Naor",
+"title": "Brand and Communication Manager",
+"role": "field_marketing",
+"email": "hila.n@uveye.com"
+}
+]
+},
+{
+"brand": "Zap Energy",
+"people": [
+{
+"name": "Ryan Umstattd",
+"title": "VP, Product & Partnerships",
+"role": "decision_maker",
+"email": "ryan@zap.energy"
+},
+{
+"name": "Zabrina Johal",
+"title": "Chief Executive Officer",
+"role": "vp_marketing",
+"email": "zabrina.johal@zap.energy"
+},
+{
+"name": "Benj Conway",
+"title": "CEO and Co-Founder",
+"role": "cro",
+"email": "benj@zap.energy"
+}
+]
+},
+{
+"brand": "Biolinq",
+"people": [
+{
+"name": "Jonathan Fern",
+"title": "Senior Director of Marketing",
+"role": "decision_maker",
+"email": "jfern@biolinq.com"
+},
+{
+"name": "Brian Chung",
+"title": "Director of Product Management & Strategic Marketing",
+"role": "vp_marketing",
+"email": "bchung@biolinq.com"
+},
+{
+"name": "Rich Yang",
+"title": "CEO",
+"role": "cro",
+"email": "rich@biolinq.com"
+}
+]
+},
+{
+"brand": "ConductorOne",
+"people": [
+{
+"name": "Michele Leung",
+"title": "SVP, Marketing",
+"role": "decision_maker",
+"email": "michele.leung@conductorone.com"
+},
+{
+"name": "Melody Scheidler",
+"title": "Director of Product Marketing",
+"role": "vp_marketing",
+"email": "melody.scheidler@c1.ai"
+},
+{
+"name": "Claire McKenna",
+"title": "Director of Corporate Marketing",
+"role": "cro",
+"email": "claire.mckenna@c1.ai"
+},
+{
+"name": "Liz Caspersen",
+"title": "Senior Director of Field and Partner Marketing",
+"role": "field_marketing",
+"email": "liz.caspersen@c1.ai"
+}
+]
+},
+{
+"brand": "Exaforce",
+"people": [
+{
+"name": "Jessica Jackson",
+"title": "Senior Field Marketing Manager",
+"role": "decision_maker",
+"email": "jessica@exaforce.com"
+},
+{
+"name": "Liz Fox",
+"title": "Senior Field Marketing Manager",
+"role": "vp_marketing",
+"email": "liz@exaforce.com"
+},
+{
+"name": "Ankur Singla",
+"title": "Founder & CEO",
+"role": "cro",
+"email": "asingla@exaforce.com"
+}
+]
+},
+{
+"brand": "Higharc",
+"people": [
+{
+"name": "Hayley Coxon",
+"title": "Senior Director of Marketing",
+"role": "decision_maker",
+"email": "hayleycoxon@higharc.com"
+},
+{
+"name": "Nolan Silvius",
+"title": "Marketing Content Specialist",
+"role": "vp_marketing",
+"email": "nolansilvius@higharc.com"
+},
+{
+"name": "Jad Buckman",
+"title": "Director of Business Development",
+"role": "cro",
+"email": "jadbuckman@higharc.com"
+},
+{
+"name": "Marcus Gonzalez",
+"title": "Builder Partnerships Lead",
+"role": "field_marketing",
+"email": "marcusgonzalez@higharc.com"
+}
+]
+},
+{
+"brand": "Highnote",
+"people": [
+{
+"name": "Tim Black",
+"title": "Marketing + Communications",
+"role": "decision_maker",
+"email": "tblack@highnote.com"
+},
+{
+"name": "Astyr Ko",
+"title": "Product Marketing and Sales Enablement",
+"role": "vp_marketing",
+"email": "ako@highnote.com"
+},
+{
+"name": "David McDowell",
+"title": "Head of Business Development & Partnerships",
+"role": "cro",
+"email": "dmcdowell@highnote.com"
+},
+{
+"name": "Sal Atta",
+"title": "Enterprise Partnerships",
+"role": "field_marketing",
+"email": "satta@highnote.com"
+}
+]
+},
+{
+"brand": "HomeLane",
+"people": [
+{
+"name": "Madan Kamath",
+"title": "VP & Head of Marketing - HomeLane | DesignCafe",
+"role": "decision_maker",
+"email": "madan.kamath@homelane.com"
+},
+{
+"name": "Anannya Ghosh",
+"title": "Brand Manager",
+"role": "vp_marketing",
+"email": "anannya.ghosh@homelane.com"
+},
+{
+"name": "Nishika Sarkar",
+"title": "Manager : Brand and Social",
+"role": "cro",
+"email": "nishika.sarkar@homelane.com"
+},
+{
+"name": "Poorvi Matani",
+"title": "Assitant Brand Manager",
+"role": "field_marketing",
+"email": "poorvi.m@homelane.com"
+}
+]
+},
+{
+"brand": "Loxo",
+"people": [
+{
+"name": "Lex Winship",
+"title": "Head of Brand and Content",
+"role": "decision_maker",
+"email": "alexandra@loxo.co"
+},
+{
+"name": "Elie Daccache",
+"title": "Organic Growth Marketing Manager",
+"role": "vp_marketing",
+"email": "edaccache@loxo.co"
+},
+{
+"name": "Amarbir Sihota",
+"title": "Community Marketing Manager",
+"role": "cro",
+"email": "amarbir@loxo.co"
+},
+{
+"name": "Palmer Powers",
+"title": "Senior Product Marketing Manager",
+"role": "field_marketing",
+"email": "palmer@loxo.co"
+}
+]
+},
+{
+"brand": "Noveon Magnetics",
+"people": [
+{
+"name": "Scott Dunn",
+"title": "Chief Executive Officer",
+"role": "decision_maker",
+"email": "sdunn@noveon.co"
+}
+]
+},
+{
+"brand": "Torus",
+"people": []
+},
+{
+"brand": "Vivrelle",
+"people": [
+{
+"name": "Sophie Krakowski",
+"title": "VP Marketing",
+"role": "decision_maker",
+"email": "sophiek@vivrelle.com"
+},
+{
+"name": "Kelsi Rosenberg",
+"title": "Director of Influencer Marketing",
+"role": "vp_marketing",
+"email": "kelsi@vivrelle.com"
+},
+{
+"name": "Olivia Ronca",
+"title": "Growth Marketing Manager",
+"role": "cro",
+"email": "olivia@vivrelle.com"
+},
+{
+"name": "Delaney Bryant",
+"title": "Content & Marketing Manager",
+"role": "field_marketing",
+"email": "delaney@vivrelle.com"
+}
+]
+}
+]
+}
