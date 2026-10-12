@@ -1,0 +1,1435 @@
+{
+"rows": [
+{
+"brand": "Rutronik Elektronische Bauelemente",
+"people": [
+{
+"name": "Markus Krieg",
+"title": "CMO",
+"role": "decision_maker",
+"email": "markus.krieg@rutronik.com"
+},
+{
+"name": "Reza Maghdounieh",
+"title": "Vice President Product Marketing Semiconductor",
+"role": "vp_marketing",
+"email": "reza.maghdounieh@rutronik.com"
+},
+{
+"name": "Stefan Sutalo",
+"title": "Vice President Product Marketing Passive Components",
+"role": "cro",
+"email": "stefan.sutalo@rutronik.com"
+},
+{
+"name": "Thomas Ulinski",
+"title": "Vice President Product Marketing North America",
+"role": "field_marketing",
+"email": "thomas.ulinski@rutronik.com"
+}
+]
+},
+{
+"brand": "Tenstorrent",
+"people": [
+{
+"name": "Christine Blizzard",
+"title": "CMO",
+"role": "decision_maker",
+"email": "cblizzard@tenstorrent.com"
+},
+{
+"name": "Shaye Murray",
+"title": "Project Manager to the CMO",
+"role": "vp_marketing",
+"email": "smurray@tenstorrent.com"
+},
+{
+"name": "Sarah-Grace Prawl",
+"title": "Marketing Manager",
+"role": "cro",
+"email": "sprawl@tenstorrent.com"
+},
+{
+"name": "Yoon-Kit Yong",
+"title": "Business Development Consultant",
+"role": "field_marketing",
+"email": "yoonkit@tenstorrent.com"
+}
+]
+},
+{
+"brand": "TTI Inc",
+"people": [
+{
+"name": "Tomonari Mozumi",
+"title": "Marketing Manager",
+"role": "decision_maker",
+"email": "tomonari.mozumi@tti.com"
+},
+{
+"name": "Francesca Reibaldi",
+"title": "Marketing Specialist",
+"role": "vp_marketing",
+"email": "francesca.reibaldi@tti.com"
+},
+{
+"name": "Caroline Garza",
+"title": "Marketing Coordinator",
+"role": "cro",
+"email": "cdelagarza@ttiinc.com"
+},
+{
+"name": "Jas Lewis",
+"title": "Product Marketing",
+"role": "field_marketing",
+"email": "jas.lewis@tti.com"
+}
+]
+},
+{
+"brand": "Adeia Inc",
+"people": [
+{
+"name": "Eric Thompson",
+"title": "Marketing Director",
+"role": "decision_maker",
+"email": "eric.thompson@adeia.com"
+},
+{
+"name": "Yan Chai",
+"title": "VP, Business Development-Semi Group",
+"role": "vp_marketing",
+"email": "yan.chai@adeia.com"
+},
+{
+"name": "Natalia Muska",
+"title": "Senior Director of Licensing and Business Development",
+"role": "cro",
+"email": "natalia.muska@adeia.com"
+},
+{
+"name": "Mark Kokes",
+"title": "Chief Revenue Officer",
+"role": "field_marketing",
+"email": "mark.kokes@adeia.com"
+}
+]
+},
+{
+"brand": "Airoha Technology Corp",
+"people": [
+{
+"name": "Kaku Kuo",
+"title": "Senior Director of Marketing",
+"role": "decision_maker",
+"email": "kaku.kuo@airoha.com"
+},
+{
+"name": "Richard Lee",
+"title": "Product Marketing Manager",
+"role": "vp_marketing",
+"email": "richard-jc.lee@airoha.com"
+},
+{
+"name": "Orlando Hsieh",
+"title": "Product Marketing Manager",
+"role": "cro",
+"email": "orlando.hsieh@airoha.com.tw"
+},
+{
+"name": "Hope Ong",
+"title": "Assistant General Manager Marketing and Communication",
+"role": "field_marketing",
+"email": "hope.ong@airoha.com"
+}
+]
+},
+{
+"brand": "Alchip Technologies",
+"people": [
+{
+"name": "Charmien Cheng",
+"title": "Director, Business Development and Technical Marketing",
+"role": "decision_maker",
+"email": "charmien_cheng@alchip.com"
+},
+{
+"name": "Beverly Lin",
+"title": "Marketing Specialist",
+"role": "vp_marketing",
+"email": "beverly_lin@alchip.com"
+},
+{
+"name": "Kally Liu",
+"title": "Business Development Director",
+"role": "cro",
+"email": "kallyl@alchip.com"
+},
+{
+"name": "Wayne Chiang",
+"title": "VP of Business Development, North America Business Unit",
+"role": "field_marketing",
+"email": "wayne_chiang@alchip.com"
+}
+]
+},
+{
+"brand": "Allegro MicroSystems",
+"people": [
+{
+"name": "Cao Hongyu",
+"title": "Marketing Manager",
+"role": "decision_maker",
+"email": "hcao@allegromicro.com"
+},
+{
+"name": "Tom Bateman",
+"title": "Marketing Manager",
+"role": "vp_marketing",
+"email": "tbateman@allegromicro.com"
+},
+{
+"name": "Zachary Byron",
+"title": "Manager, Digital Marketing & Marketing Operations",
+"role": "cro",
+"email": "zbyron@allegromicro.com"
+},
+{
+"name": "Stephen Daly",
+"title": "Strategic Marketing Manager",
+"role": "field_marketing",
+"email": "sdaly@allegromicro.com"
+}
+]
+},
+{
+"brand": "Alpha and Omega Semiconductor",
+"people": [
+{
+"name": "Meina Cui",
+"title": "VP of Business Marketing and Strategic Planning",
+"role": "decision_maker",
+"email": "meina.cui@aosmd.com"
+},
+{
+"name": "Daniel Chang",
+"title": "VP of Strategic Marketing and WW AE",
+"role": "vp_marketing",
+"email": "dchang@aosmd.com"
+},
+{
+"name": "Kongsoon Ng",
+"title": "Director of Product Marketing",
+"role": "cro",
+"email": "kongsoon.ng@aosmd.com"
+},
+{
+"name": "Christine Zou",
+"title": "Director of Business Marketing",
+"role": "field_marketing",
+"email": "zchristine@aosmd.com"
+}
+]
+},
+{
+"brand": "Alphawave Semi (Alphawave IP Group)",
+"people": []
+},
+{
+"brand": "Altium Limited",
+"people": [
+{
+"name": "Lawrence Romine",
+"title": "Vice President of Marketing",
+"role": "decision_maker",
+"email": "lawrence.romine@altium.com"
+},
+{
+"name": "Shrish Dhyani",
+"title": "Head of Marketing",
+"role": "vp_marketing",
+"email": "shrish.dhyani@altium.com"
+},
+{
+"name": "Sophie Jeong",
+"title": "Marketing Director",
+"role": "cro",
+"email": "sophie.jeong@altium.com"
+},
+{
+"name": "Lukasz Lawrocki",
+"title": "Director of Product Marketing",
+"role": "field_marketing",
+"email": "lukasz.lawrocki@altium.com"
+}
+]
+},
+{
+"brand": "Amlogic Inc",
+"people": [
+{
+"name": "Rick Chao",
+"title": "Director of Marketing and Business Development",
+"role": "decision_maker",
+"email": "rick.chao@amlogic.com"
+},
+{
+"name": "Ruiliang Yang",
+"title": "Senior Director Business Development and Marketing",
+"role": "vp_marketing",
+"email": "ruiliang.yang@amlogic.com"
+},
+{
+"name": "Jun Zhao",
+"title": "Marketing Product Director",
+"role": "cro",
+"email": "jun.zhao@amlogic.com"
+},
+{
+"name": "Vishal Khemani",
+"title": "Business Development & Marketing",
+"role": "field_marketing",
+"email": "vishal.khemani@amlogic.com"
+}
+]
+},
+{
+"brand": "BlackBerry QNX",
+"people": [
+{
+"name": "Marc Cormier",
+"title": "Director of Brand Management",
+"role": "decision_maker",
+"email": "mcormier@blackberry.com"
+},
+{
+"name": "Siddharth Srivastava",
+"title": "Marketing",
+"role": "vp_marketing",
+"email": "ssrivastava@blackberry.com"
+},
+{
+"name": "Keegan Smith",
+"title": "Marketing",
+"role": "cro",
+"email": "ksmith@blackberry.com"
+},
+{
+"name": "Satish Sharma",
+"title": "Marketing",
+"role": "field_marketing",
+"email": "ssharma@blackberry.com"
+}
+]
+},
+{
+"brand": "ChipBond Technology Corporation",
+"people": []
+},
+{
+"brand": "Elektrobit Automotive",
+"people": [
+{
+"name": "Minna Wahlberg",
+"title": "Head of Solution Marketing",
+"role": "decision_maker",
+"email": "minna.wahlberg@elektrobit.com"
+},
+{
+"name": "Ashrafi Dhunjeebhoy",
+"title": "Expert, Marketing",
+"role": "vp_marketing",
+"email": "ashrafi.dhunjeebhoy@elektrobit.com"
+},
+{
+"name": "Claudia Girleanu",
+"title": "Online Marketing Manager",
+"role": "cro",
+"email": "claudia.girleanu@elektrobit.com"
+},
+{
+"name": "Denise Maurer",
+"title": "Digital Marketing Manager",
+"role": "field_marketing",
+"email": "denise.maurer@elektrobit.com"
+}
+]
+},
+{
+"brand": "Elmos Semiconductor",
+"people": [
+{
+"name": "Marc Fischer",
+"title": "Director Business Development",
+"role": "decision_maker",
+"email": "marc.fischer@elmos.com"
+},
+{
+"name": "Christian Tegethoff",
+"title": "Director Business Development",
+"role": "vp_marketing",
+"email": "christian.tegethoff@elmos.com"
+},
+{
+"name": "Andreas Nebeling",
+"title": "Vice President Global Business Development",
+"role": "cro",
+"email": "andreas.nebeling@elmos.com"
+},
+{
+"name": "Ralf Abel",
+"title": "Field Application Engineer & Business Development",
+"role": "field_marketing",
+"email": "ralf.abel@elmos.com"
+}
+]
+},
+{
+"brand": "ETAS GmbH",
+"people": [
+{
+"name": "Markus Sicheneder",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "markus.sicheneder@etas.com"
+},
+{
+"name": "Madeleine Magne",
+"title": "Head of Communications and Marketing",
+"role": "vp_marketing",
+"email": "madeleine.magne@etas.com"
+},
+{
+"name": "Bianka Ansperger",
+"title": "Marketing Manager",
+"role": "cro",
+"email": "bianka.ansperger@etas.com"
+},
+{
+"name": "Elisabeth Loose",
+"title": "Marketing Manager Global Portfoliomarketing",
+"role": "field_marketing",
+"email": "elisabeth.loose@etas.com"
+}
+]
+},
+{
+"brand": "Faraday Technology Corp",
+"people": [
+{
+"name": "William Huang",
+"title": "Vice President Field Application and Marketing",
+"role": "decision_maker",
+"email": "whuang@faraday-tech.com"
+},
+{
+"name": "Eric Kuo",
+"title": "Director of Sales Marketing",
+"role": "vp_marketing",
+"email": "eric_kuo@faraday-sz.com"
+},
+{
+"name": "Kenneth Lu",
+"title": "Marketing Manager",
+"role": "cro",
+"email": "kenneth_lu@faraday-tech.com"
+}
+]
+},
+{
+"brand": "Global Unichip Corp (GUC)",
+"people": [
+{
+"name": "Lewis Chu",
+"title": "Head of Marketing",
+"role": "decision_maker",
+"email": "lewis.chu@guc-asic.com"
+},
+{
+"name": "River Wu",
+"title": "Department Manager of Marketing Division",
+"role": "vp_marketing",
+"email": "river.wu@guc-asic.com"
+},
+{
+"name": "Zack Chang",
+"title": "Director of Business Development",
+"role": "cro",
+"email": "zack.chang@guc-asic.com"
+},
+{
+"name": "Shawn Yang",
+"title": "Senior Business Development Manager",
+"role": "field_marketing",
+"email": "shawn.yang@guc-asic.com"
+}
+]
+},
+{
+"brand": "indie Semiconductor",
+"people": [
+{
+"name": "Marty Agan",
+"title": "Director of Marketing",
+"role": "decision_maker",
+"email": "marty.agan@indie.inc"
+},
+{
+"name": "Iris Ozen",
+"title": "Business Development and Marketing Specialist",
+"role": "vp_marketing",
+"email": "iris.ozen@emotion3d.ai"
+},
+{
+"name": "Sabrina Lavigne",
+"title": "Responsable Marketing / Communication",
+"role": "cro",
+"email": "slavigne@teraxion.com"
+},
+{
+"name": "Marie-Pier Lord",
+"title": "Business Development Manager",
+"role": "field_marketing",
+"email": "marie-pier.lord@indie.inc"
+}
+]
+},
+{
+"brand": "InterDigital Inc",
+"people": [
+{
+"name": "Omar Mencin",
+"title": "Corporate Development, New Growth Initiatives, Business Development Leader",
+"role": "decision_maker",
+"email": "omar.mencin@interdigital.com"
+},
+{
+"name": "Olaleye Obidiya",
+"title": "Chief Executive Officer",
+"role": "vp_marketing",
+"email": "techlead@idnng.com"
+},
+{
+"name": "Liren Chen",
+"title": "President and CEO",
+"role": "cro",
+"email": "liren.chen@interdigital.com"
+}
+]
+},
+{
+"brand": "Lightmatter",
+"people": [
+{
+"name": "Israel Kandarian",
+"title": "Head of Brand Marketing",
+"role": "decision_maker",
+"email": "israel@lightmatter.co"
+},
+{
+"name": "Peter Carson",
+"title": "Director of Product Marketing",
+"role": "vp_marketing",
+"email": "pcarson@lightmatter.co"
+},
+{
+"name": "Monica D'Angelo",
+"title": "Director of Events - Lead Marketing Strategist",
+"role": "cro",
+"email": "mdangelo@lightmatter.co"
+},
+{
+"name": "Lars Johnsson",
+"title": "Product Marketing @ Lightmatter",
+"role": "field_marketing",
+"email": "lars@lightmatter.co"
+}
+]
+},
+{
+"brand": "Macnica Inc",
+"people": [
+{
+"name": "Shinichiro Egawa",
+"title": "Marketing Director",
+"role": "decision_maker",
+"email": "egawa-s@macnica.co.jp"
+},
+{
+"name": "Yuji Sekiguchi",
+"title": "Director Sales and Marketing",
+"role": "vp_marketing",
+"email": "yuji-sekiguchi@macnica.co.jp"
+},
+{
+"name": "Tomoyo Tada",
+"title": "Sales and Marketing",
+"role": "cro",
+"email": "tada-t@macnica.co.jp"
+},
+{
+"name": "Takanori Nishio",
+"title": "Marketing Manager",
+"role": "field_marketing",
+"email": "nishio-t@macnica.co.jp"
+}
+]
+},
+{
+"brand": "Magnachip Semiconductor",
+"people": [
+{
+"name": "Woong Lee",
+"title": "Marketing Director MSK",
+"role": "decision_maker",
+"email": "woong.lee@magnachip.com"
+},
+{
+"name": "Jongmoon Cha",
+"title": "Product Marketing",
+"role": "vp_marketing",
+"email": "jongmoon.cha@magnachip.com"
+},
+{
+"name": "Ji Bak",
+"title": "Product Marketing Manager",
+"role": "cro",
+"email": "ji.bak@magnachip.com"
+},
+{
+"name": "Brian Jung",
+"title": "Product Marketing Manager",
+"role": "field_marketing",
+"email": "brian.jung@magnachip.com"
+}
+]
+},
+{
+"brand": "Monolithic Power Systems",
+"people": [
+{
+"name": "Bob Lucas",
+"title": "Vice President Marketing",
+"role": "decision_maker",
+"email": "robert.lucas@monolithicpower.com"
+},
+{
+"name": "Heike McGlothern",
+"title": "Director of Corporate Marketing and Brand Management",
+"role": "vp_marketing",
+"email": "heike.mcglothern@monolithicpower.com"
+},
+{
+"name": "Randy Frederick",
+"title": "Marketing Director",
+"role": "cro",
+"email": "randy.frederick@monolithicpower.com"
+},
+{
+"name": "Raphael Hirt",
+"title": "Corporate Marketing Manager",
+"role": "field_marketing",
+"email": "raphael.hirt@monolithicpower.com"
+}
+]
+},
+{
+"brand": "Nepes Corporation",
+"people": [
+{
+"name": "Sangjae Lee",
+"title": "SVP, Head of Business Development Division",
+"role": "decision_maker",
+"email": "sangjaelee@nepes.co.kr"
+}
+]
+},
+{
+"brand": "Power Integrations",
+"people": [
+{
+"name": "Chris Jacobs",
+"title": "Senior Vice President, Marketing & Product Strategy",
+"role": "decision_maker",
+"email": "chris.jacobs@power.com"
+},
+{
+"name": "Linda Williams",
+"title": "Director of Marketing Communications",
+"role": "vp_marketing",
+"email": "linda.williams@power.com"
+},
+{
+"name": "Richard Zhang",
+"title": "Senior Director, Product Management and Marketing",
+"role": "cro",
+"email": "richard.zhang@power.com"
+},
+{
+"name": "Emily Wu",
+"title": "Marketing Specialist",
+"role": "field_marketing",
+"email": "emily.wu@power.com"
+}
+]
+},
+{
+"brand": "Murata",
+"people": [],
+"note": "no usable domain"
+},
+{
+"brand": "Rambus Inc",
+"people": [
+{
+"name": "Matt Jones",
+"title": "Vice President of Strategic Marketing",
+"role": "decision_maker",
+"email": "mjones@rambus.com"
+},
+{
+"name": "Sebastien Bertrand",
+"title": "VP Marketing & Operations, Silicon IP BU",
+"role": "vp_marketing",
+"email": "sbertrand@rambus.com"
+},
+{
+"name": "Raj Uppala",
+"title": "Senior Director - Marketing & Partnerships",
+"role": "cro",
+"email": "auppala@rambus.com"
+},
+{
+"name": "Tim Messegee",
+"title": "Senior Director, Solutions Marketing",
+"role": "field_marketing",
+"email": "timm@rambus.com"
+}
+]
+},
+{
+"brand": "SiFive",
+"people": [
+{
+"name": "Martyn Stroeve",
+"title": "Vice President of Corporate Marketing and Communications (Chief Marketing Officer)",
+"role": "decision_maker",
+"email": "martyn.stroeve@sifive.com"
+},
+{
+"name": "Jack Kang",
+"title": "Senior Vice President, Business Development, Customer Experience (CX), Corporate Marketing",
+"role": "vp_marketing",
+"email": "jack@sifive.com"
+},
+{
+"name": "Clifton Robin",
+"title": "Director Technical Product Marketing",
+"role": "cro",
+"email": "clifton.robin@sifive.com"
+},
+{
+"name": "Richard York",
+"title": "Product Marketing Director - Automotive and Embedded",
+"role": "field_marketing",
+"email": "richard.york@sifive.com"
+}
+]
+},
+{
+"brand": "SiTime Corporation",
+"people": [
+{
+"name": "Judy Ash",
+"title": "VP, Digital CX Marketing",
+"role": "decision_maker",
+"email": "jash@sitime.com"
+},
+{
+"name": "Suhas Nayak",
+"title": "Sr. Director Product Marketing and Business Development",
+"role": "vp_marketing",
+"email": "snayak@sitime.com"
+},
+{
+"name": "Allen Pangaro",
+"title": "Senior Director, Strategic Marketing and Business Development",
+"role": "cro",
+"email": "apangaro@sitime.com"
+},
+{
+"name": "Joe Salvador",
+"title": "Senior Director of Marketing",
+"role": "field_marketing",
+"email": "jsalvador@sitime.com"
+}
+]
+},
+{
+"brand": "Socionext Inc",
+"people": [
+{
+"name": "Dongyan Hao",
+"title": "Marketing Director",
+"role": "decision_maker",
+"email": "dongyan.hao@socionext.com"
+},
+{
+"name": "Makoto Hirano",
+"title": "Marketing",
+"role": "vp_marketing",
+"email": "hirano.makoto@socionext.com"
+},
+{
+"name": "Kota Soejima",
+"title": "Marketing Manager",
+"role": "cro",
+"email": "soejima.kota@socionext.com"
+},
+{
+"name": "Katsuhiro Watanabe",
+"title": "ASIC Marketing",
+"role": "field_marketing",
+"email": "watanabe.katsuhiro@socionext.com"
+}
+]
+},
+{
+"brand": "TTM Technologies",
+"people": [
+{
+"name": "Bezu Ketema",
+"title": "Marketing Director",
+"role": "decision_maker",
+"email": "bezu.ketema@ttm.com"
+},
+{
+"name": "Neilson Lai",
+"title": "Marketing",
+"role": "vp_marketing",
+"email": "neilson.lai@ttm.com"
+},
+{
+"name": "Brandi Billiet",
+"title": "Marketing Manager",
+"role": "cro",
+"email": "brandi.billiet@ttmtech.com"
+},
+{
+"name": "Ruby Tsang",
+"title": "Marketing Specialist",
+"role": "field_marketing",
+"email": "ruby.tsang@ttm.com"
+}
+]
+},
+{
+"brand": "UTAC Group",
+"people": [
+{
+"name": "Scott Jewler",
+"title": "SVP Sales and Marketing",
+"role": "decision_maker",
+"email": "scott_jewler@utacgroup.com"
+},
+{
+"name": "Frank McMahon",
+"title": "Vice President of Business Development",
+"role": "vp_marketing",
+"email": "frank_mcmahon@utacgroup.com"
+}
+]
+},
+{
+"brand": "Vanguard International Semiconductor (VIS)",
+"people": [
+{
+"name": "Sean Ho",
+"title": "Business Development Manager",
+"role": "decision_maker",
+"email": "sean.ho@vis.com.tw"
+},
+{
+"name": "Yc Chen",
+"title": "Director, Business Development",
+"role": "vp_marketing",
+"email": "ychen@vis.com.tw"
+},
+{
+"name": "Tim Wang",
+"title": "Power Management IC Business Development Dept.",
+"role": "cro",
+"email": "twang@vis.com.tw"
+}
+]
+},
+{
+"brand": "VeriSilicon Holdings",
+"people": [
+{
+"name": "Leo Wang",
+"title": "Chief Operating Officer, Executive Vice President of Worldwide Sales",
+"role": "decision_maker",
+"email": "leo.wang@verisilicon.com"
+},
+{
+"name": "Wayne Dai",
+"title": "CEO",
+"role": "vp_marketing",
+"email": "wayne.dai@verisilicon.com"
+}
+]
+},
+{
+"brand": "Wind River Systems",
+"people": [
+{
+"name": "Perrine Didrich",
+"title": "VP and Global Head of Marketing",
+"role": "decision_maker",
+"email": "perrine.didrich@windriver.com"
+},
+{
+"name": "Vijayendra Singh",
+"title": "Head of Marketing",
+"role": "vp_marketing",
+"email": "vijayendra.singh@windriver.com"
+},
+{
+"name": "Annie Potvin",
+"title": "Senior Director, Marketing",
+"role": "cro",
+"email": "annie.potvin@windriver.com"
+},
+{
+"name": "Jessica Schieve",
+"title": "Senior Director, Portfolio Marketing",
+"role": "field_marketing",
+"email": "jessica.schieve@windriver.com"
+}
+]
+},
+{
+"brand": "Xperi Inc",
+"people": [
+{
+"name": "Yehudit Dagan",
+"title": "VP Marketing",
+"role": "decision_maker",
+"email": "yehudit.dagan@xperi.com.com"
+},
+{
+"name": "Katsumi Myochin",
+"title": "Senior Director Marketing Business Development",
+"role": "vp_marketing",
+"email": "katsumi.myochin@xperi.com"
+},
+{
+"name": "Lisa Ballesteros",
+"title": "Marketing Coordinator",
+"role": "cro",
+"email": "lisa.ballesteros@xperi.com"
+},
+{
+"name": "Ginny Lin",
+"title": "Senior Marketing Manager",
+"role": "field_marketing",
+"email": "ginny.lin@xperi.com"
+}
+]
+},
+{
+"brand": "Belcan (Cognitive Global)",
+"people": [
+{
+"name": "Devra Juraco",
+"title": "Director of Marketing",
+"role": "decision_maker",
+"email": "djuraco@belcan.com"
+},
+{
+"name": "Philip Cunningham",
+"title": "Marketing & Business Development",
+"role": "vp_marketing",
+"email": "pcunningham@belcan.com"
+},
+{
+"name": "Mark Mizerski",
+"title": "Sales/ Marketing",
+"role": "cro",
+"email": "mmizerski@belcan.com"
+},
+{
+"name": "Unal Kotanci",
+"title": "Corporate Marketing Manager",
+"role": "field_marketing",
+"email": "unalkotanci@belcan.com"
+}
+]
+},
+{
+"brand": "Kinsus Interconnect Technology",
+"people": [
+{
+"name": "Jooling Woodward",
+"title": "Sr. Sales & Marketing Manager",
+"role": "decision_maker",
+"email": "joolingwoodward@kinsus.com.tw"
+}
+]
+},
+{
+"brand": "Skyworks Solutions",
+"people": [
+{
+"name": "Todd Lepinski",
+"title": "Senior Vice President Global Sales and Marketing",
+"role": "decision_maker",
+"email": "todd.lepinski@skyworksinc.com"
+},
+{
+"name": "HO Lee",
+"title": "Vice President of Mobile Marketing & Samsung Sales",
+"role": "vp_marketing",
+"email": "harry.lee@skyworksinc.com"
+},
+{
+"name": "William Cao",
+"title": "Marketing Director",
+"role": "cro",
+"email": "william.cao@skyworksinc.com"
+},
+{
+"name": "Parul Singla",
+"title": "Sr Director, Marketing",
+"role": "field_marketing",
+"email": "parul.singla@skyworksinc.com"
+}
+]
+},
+{
+"brand": "Synaptics Incorporated",
+"people": [
+{
+"name": "Neeta Shenoy",
+"title": "Vice President, Corporate Marketing",
+"role": "decision_maker",
+"email": "neeta.shenoy@synaptics.com"
+},
+{
+"name": "Ganesh Tekkatte",
+"title": "Director of Product Marketing",
+"role": "vp_marketing",
+"email": "ganesh.tekkatte@synaptics.com"
+},
+{
+"name": "David Hsu",
+"title": "Product Marketing Director",
+"role": "cro",
+"email": "dhsu@synaptics.com"
+},
+{
+"name": "Forrest Chien",
+"title": "Technical Marketing Director",
+"role": "field_marketing",
+"email": "forrest.chien@synaptics.com"
+}
+]
+},
+{
+"brand": "TTTech Auto",
+"people": [
+{
+"name": "Dragana Veselinovic",
+"title": "Digital Marketing Manager",
+"role": "decision_maker",
+"email": "dragana.veselinovic@tttech-auto.com"
+},
+{
+"name": "Diana Lasman",
+"title": "Senior Marketing and Communications Specialist",
+"role": "vp_marketing",
+"email": "diana.lasman@tttech-auto.com"
+},
+{
+"name": "Michael Kolb",
+"title": "Global Vice President Sales Automotive",
+"role": "cro",
+"email": "michael.kolb@tttech-auto.com"
+},
+{
+"name": "Marc Lang",
+"title": "VP Global Software Business Development",
+"role": "field_marketing",
+"email": "marc.lang@tttech-auto.com"
+}
+]
+},
+{
+"brand": "Amkor Technology",
+"people": [
+{
+"name": "Troy Lin",
+"title": "Director of Product Marketing",
+"role": "decision_maker",
+"email": "troy.lin@amkor.com"
+},
+{
+"name": "Ariel Hu",
+"title": "Deputy Director, Sales and Marketing",
+"role": "vp_marketing",
+"email": "ariel.hu@amkor.com"
+},
+{
+"name": "Francesco Condorelli",
+"title": "Director | Marketing | Automotive | Industrial | Member of Corporate Development Office",
+"role": "cro",
+"email": "francesco.condorelli@amkor.com"
+},
+{
+"name": "John Dileva",
+"title": "Senior Specialist, Digital Marketing",
+"role": "field_marketing",
+"email": "john.dileva@amkor.com"
+}
+]
+},
+{
+"brand": "AT&S (Austria Technologie & Systemtechnik)",
+"people": [
+{
+"name": "Ilma Mujkic",
+"title": "Employer Brand Manager",
+"role": "decision_maker",
+"email": "i.mujkic@ats.net"
+},
+{
+"name": "Bozena Lednicka",
+"title": "Strategic Marketing & Business Development",
+"role": "vp_marketing",
+"email": "b.lednicka@ats.net"
+},
+{
+"name": "Shankar N",
+"title": "Manager Sales and Marketing",
+"role": "cro",
+"email": "n.shankar@in.ats.net"
+},
+{
+"name": "Christian Liebminger",
+"title": "Product Portfolio & Marketing Manager",
+"role": "field_marketing",
+"email": "c.liebminger@ats.net"
+}
+]
+},
+{
+"brand": "Expleo Group",
+"people": [
+{
+"name": "Christine Ravanat",
+"title": "Group Chief Marketing Officer | Executive Committee Member",
+"role": "decision_maker",
+"email": "christine.r@expleo.com"
+},
+{
+"name": "Linda Reeve",
+"title": "Head of Marketing",
+"role": "vp_marketing",
+"email": "linda.reeve@expleogroup.com"
+},
+{
+"name": "Abigail Rogerson",
+"title": "Global Marketing Director",
+"role": "cro",
+"email": "abigail.rogerson@expleogroup.com"
+},
+{
+"name": "Linda Kubeka",
+"title": "Marketing",
+"role": "field_marketing",
+"email": "linda.kubeka@expleogroup.com"
+}
+]
+},
+{
+"brand": "GlobalLogic (Hitachi)",
+"people": [
+{
+"name": "Josh Lucas",
+"title": "Director, Global Brand",
+"role": "decision_maker",
+"email": "josh.lucas@globallogic.com"
+},
+{
+"name": "Ela Krawczyk",
+"title": "Marketing",
+"role": "vp_marketing",
+"email": "ela.krawczyk@globallogic.com"
+},
+{
+"name": "Yevhenii Tsoufal",
+"title": "Marketing Manager",
+"role": "cro",
+"email": "yevhenii.tsoufal@globallogic.com"
+},
+{
+"name": "Abin Mammen",
+"title": "Marketing Associate",
+"role": "field_marketing",
+"email": "abin.mammen@globallogic.com"
+}
+]
+},
+{
+"brand": "Nexperia",
+"people": [
+{
+"name": "Oleg Krapivner",
+"title": "Senior Director of Marketing",
+"role": "decision_maker",
+"email": "oleg.krapivner@nexperia.com"
+},
+{
+"name": "Alan Wu",
+"title": "Marketing",
+"role": "vp_marketing",
+"email": "alan.wu@nexperia.com"
+},
+{
+"name": "Robin Finn",
+"title": "Commercial Marketing Manager",
+"role": "cro",
+"email": "robin.finn@nexperia.com"
+},
+{
+"name": "Andre Dressler",
+"title": "Marketing Manager Automotive",
+"role": "field_marketing",
+"email": "andre.dressler@nexperia.com"
+}
+]
+},
+{
+"brand": "X-Fab Silicon Foundries",
+"people": [
+{
+"name": "Tarek Hammad",
+"title": "Founder & CEO",
+"role": "decision_maker",
+"email": "tarek.hammad@xfab.com"
+}
+]
+},
+{
+"brand": "Ampleon",
+"people": [
+{
+"name": "Gary Zhang",
+"title": "Senior Marketing and Business Development Director",
+"role": "decision_maker",
+"email": "gary.zhang@ampleon.com"
+},
+{
+"name": "Atef Nukari",
+"title": "Director, Technical Marketing",
+"role": "vp_marketing",
+"email": "atef.al.nukari@ampleon.com"
+},
+{
+"name": "Igor Lalicevic",
+"title": "Senior Director, Product Marketing",
+"role": "cro",
+"email": "igor.lalicevic@ampleon.com"
+},
+{
+"name": "Adam Ritscher",
+"title": "Head of Sales & Marketing for Global Channel Business",
+"role": "field_marketing",
+"email": "adam.ritscher@ampleon.com"
+}
+]
+},
+{
+"brand": "PDF Solutions (Exensio)",
+"people": [
+{
+"name": "Christophe Begue",
+"title": "Vice President of Corporate Strategic Marketing",
+"role": "decision_maker",
+"email": "christophe.begue@pdf.com"
+},
+{
+"name": "Nika Kafeety",
+"title": "Product Marketing Manager",
+"role": "vp_marketing",
+"email": "nika.kafeety@pdf.com"
+},
+{
+"name": "Jun Jia",
+"title": "Sale and Marketing Executive",
+"role": "cro",
+"email": "jun.jia@pdf.com"
+},
+{
+"name": "Devin Stone",
+"title": "Sales and Marketing Administrator",
+"role": "field_marketing",
+"email": "devin.stone@pdf.com"
+}
+]
+},
+{
+"brand": "Real-Time Innovations (RTI)",
+"people": [
+{
+"name": "Cameron Emery",
+"title": "Vice President of Marketing",
+"role": "decision_maker",
+"email": "cameron@rti.com"
+},
+{
+"name": "Barbara Onzo",
+"title": "Vice President, Marketing",
+"role": "vp_marketing",
+"email": "barbara@rti.com"
+},
+{
+"name": "Lynne Canavan",
+"title": "Director of Ecosystems & Industry Marketing",
+"role": "cro",
+"email": "lynne@rti.com"
+},
+{
+"name": "Kathy Walsh",
+"title": "Director of Content Marketing & Analytics",
+"role": "field_marketing",
+"email": "kwalsh@rti.com"
+}
+]
+},
+{
+"brand": "Aumovio SE",
+"people": [
+{
+"name": "Irene Loh-Brodie",
+"title": "Head of Brand Marketing & Events Mgmt",
+"role": "decision_maker",
+"email": "irene.loh-brodie@aumovio.com"
+},
+{
+"name": "Dirk Rockendorf",
+"title": "Head of Marketing Aftermarket",
+"role": "vp_marketing",
+"email": "dirk.rockendorf@aumovio.com"
+},
+{
+"name": "Alexander Diehnelt",
+"title": "Head of Marketing & Communications",
+"role": "cro",
+"email": "alexander.diehnelt@aumovio.com"
+},
+{
+"name": "Shaun Popple",
+"title": "Head of Aftermarket Sales and Marketing",
+"role": "field_marketing",
+"email": "shaun.popple@aumovio.com"
+}
+]
+},
+{
+"brand": "Arteris Inc",
+"people": [
+{
+"name": "Michal Siwinski",
+"title": "EVP, Chief Product & Marketing Officer, GM Cybersecurity",
+"role": "decision_maker",
+"email": "michal.siwinski@arteris.com"
+},
+{
+"name": "Guillaume Boillet",
+"title": "Vice President of Strategic Marketing",
+"role": "vp_marketing",
+"email": "guillaume.boillet@arteris.com"
+},
+{
+"name": "Andy Nightingale",
+"title": "Vice President of Product Management & Marketing",
+"role": "cro",
+"email": "andy.nightingale@arteris.com"
+},
+{
+"name": "Emily Kersey",
+"title": "VP of Digital Marketing, Analytics, Ops",
+"role": "field_marketing",
+"email": "emily.kersey@arteris.com"
+}
+]
+},
+{
+"brand": "Efinix Inc",
+"people": []
+},
+{
+"brand": "EnCharge AI",
+"people": [
+{
+"name": "Brian Lee",
+"title": "SVP Marketing",
+"role": "decision_maker",
+"email": "blee@enchargeai.com"
+},
+{
+"name": "Naveen Verma",
+"title": "CEO, Co-Founder",
+"role": "vp_marketing",
+"email": "nverma@enchargeai.com"
+}
+]
+},
+{
+"brand": "PQShield",
+"people": []
+},
+{
+"brand": "Secure-IC",
+"people": [
+{
+"name": "Souad Kadiri",
+"title": "Product Marketing Engineer",
+"role": "decision_maker",
+"email": "souad.kadiri@secure-ic.com"
+},
+{
+"name": "Hassan Triqui",
+"title": "Co-Founder and CEO",
+"role": "vp_marketing",
+"email": "hassan.triqui@secure-ic.com"
+}
+]
+},
+{
+"brand": "Syntiant Corp",
+"people": [
+{
+"name": "Agathe Gehin",
+"title": "Marketing and Brand Director - Orosound / Orosound Labs",
+"role": "decision_maker",
+"email": "agathe.gehin@syntiant.com"
+},
+{
+"name": "Kurt Busch",
+"title": "CEO",
+"role": "vp_marketing",
+"email": "kurt@syntiant.com"
+}
+]
+},
+{
+"brand": "Lynx Software Technologies",
+"people": [],
+"note": "no usable domain"
+}
+]
+}
