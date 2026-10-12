@@ -1,0 +1,685 @@
+{
+"rows": [
+{
+"brand": "Wheels Inc.",
+"people": [
+{
+"name": "Kristofer Bush",
+"title": "Head of Marketing",
+"role": "decision_maker",
+"email": "kris.bush@wheels.com"
+},
+{
+"name": "Danielle Nesbitt",
+"title": "Marketing Director",
+"role": "vp_marketing",
+"email": "dnesbitt@wheels.com"
+},
+{
+"name": "Maryjane Baltazar",
+"title": "Marketing Professional",
+"role": "cro",
+"email": "mbaltazar@wheels.com"
+},
+{
+"name": "Sondra Elek",
+"title": "Product Marketing Manager",
+"role": "field_marketing",
+"email": "sondra.elek@wheels.com"
+}
+]
+},
+{
+"brand": "Constellation Automotive Group (Cinch / BCA / webuyanycar)",
+"people": [
+{
+"name": "Stacey Lawrence",
+"title": "Marketing Director",
+"role": "decision_maker",
+"email": "stacey.lawrence@cinch.co.uk"
+},
+{
+"name": "Eloise Main",
+"title": "Head of Operations (Marketing)",
+"role": "vp_marketing",
+"email": "eloise.main@cinch.co.uk"
+},
+{
+"name": "Bhakti Pandya",
+"title": "Financial Controller (interim) and Head of Marketing Finance",
+"role": "cro",
+"email": "bhakti.pandya@cinch.co.uk"
+},
+{
+"name": "Hannah Evans",
+"title": "Brand & Product Marketing Manager",
+"role": "field_marketing",
+"email": "hannah.evans@cinch.co.uk"
+}
+]
+},
+{
+"brand": "Advance Auto Parts",
+"people": [
+{
+"name": "Stuart Sanderson-Moody",
+"title": "Director, Retail and Brand Marketing",
+"role": "decision_maker",
+"email": "stuart.sanderson@advance-auto.com"
+},
+{
+"name": "Darren Zap",
+"title": "Digital Marketing Director",
+"role": "vp_marketing",
+"email": "darren.zap@advance-auto.com"
+},
+{
+"name": "Angie Brannan",
+"title": "Director, Professional Marketing",
+"role": "cro",
+"email": "angie.brannan@advance-auto.com"
+},
+{
+"name": "Whitney Smith",
+"title": "Associate Creative Manager (Corporate Brand Marketing)",
+"role": "field_marketing",
+"email": "whitney.smith@advance-auto.com"
+}
+]
+},
+{
+"brand": "CarMax",
+"people": [
+{
+"name": "Jim Muse",
+"title": "Associate Creative Director, Brand | Sports Partnerships, Store Marketing, Customer & B2B Supply",
+"role": "decision_maker",
+"email": "jim_muse@carmax.com"
+},
+{
+"name": "Celia Park",
+"title": "Sr. Art Director / Brand Creative, Sports Marketing",
+"role": "vp_marketing",
+"email": "celia_park@carmax.com"
+},
+{
+"name": "Emily Park",
+"title": "Brand Creative Manager",
+"role": "cro",
+"email": "emily_park@carmax.com"
+},
+{
+"name": "Michelle Lippin",
+"title": "Senior Manager, Brand Media",
+"role": "field_marketing",
+"email": "michelle_lippin@carmax.com"
+}
+]
+},
+{
+"brand": "99 (99app)",
+"people": [
+{
+"name": "Saulo Barbosa",
+"title": "Business Development",
+"role": "decision_maker",
+"email": "saulobarbosa@99app.com"
+},
+{
+"name": "Humberto Freitas",
+"title": "Business Development",
+"role": "vp_marketing",
+"email": "humbertofreitas@99app.com"
+},
+{
+"name": "Joyce Avelar",
+"title": "Business Development",
+"role": "cro",
+"email": "joyceavelar@didiglobal.com"
+},
+{
+"name": "Adilson Matias",
+"title": "Business Development",
+"role": "field_marketing",
+"email": "adilson.matias@99app.com"
+}
+]
+},
+{
+"brand": "AutoScout24",
+"people": [
+{
+"name": "Thomas Krausse",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "thomas.krausse@autoscout24.com"
+},
+{
+"name": "Robbert Uges",
+"title": "Head of Marketing",
+"role": "vp_marketing",
+"email": "robbert.uges@autoscout24.com"
+},
+{
+"name": "Michael Wieland",
+"title": "Head of Marketing Austria",
+"role": "cro",
+"email": "michael.wieland@autoscout24.com"
+},
+{
+"name": "Ingrid Spierts",
+"title": "Head of Product and Marketing",
+"role": "field_marketing",
+"email": "ingrid.spierts@autoscout24.com"
+}
+]
+},
+{
+"brand": "BlaBlaCar",
+"people": [
+{
+"name": "Cecile Goubin",
+"title": "Digital Marketing",
+"role": "decision_maker",
+"email": "cecile.goubin@blablacar.com"
+},
+{
+"name": "Erwann Bouhier",
+"title": "Marketing Lead France",
+"role": "vp_marketing",
+"email": "erwann.bouhier@blablacar.com"
+},
+{
+"name": "Andrea Barbero Gomez",
+"title": "Marketing Associate Spain",
+"role": "cro",
+"email": "andrea.barbero@blablacar.com"
+},
+{
+"name": "Louis Delaye",
+"title": "Marketing Data Analyst",
+"role": "field_marketing",
+"email": "louis.delaye@blablacar.com"
+}
+]
+},
+{
+"brand": "Careem",
+"people": [
+{
+"name": "Gaston Calabresi",
+"title": "Vice President Marketing",
+"role": "decision_maker",
+"email": "gaston.calabresi@careem.com"
+},
+{
+"name": "Mohamed Amer",
+"title": "Marketing Director",
+"role": "vp_marketing",
+"email": "mohamed.amer@careem.com"
+},
+{
+"name": "Hugh Phillips",
+"title": "Senior Brand Manager",
+"role": "cro",
+"email": "hugh.phillips@careem.com"
+},
+{
+"name": "Tom Sword",
+"title": "Global Head of Brand & Creative",
+"role": "field_marketing",
+"email": "tom.sword@careem.com"
+}
+]
+},
+{
+"brand": "CarGurus",
+"people": [
+{
+"name": "Allison Conroy",
+"title": "Senior Director, Brand Marketing",
+"role": "decision_maker",
+"email": "aconroy@cargurus.com"
+},
+{
+"name": "Carli Riibner",
+"title": "Brand Marketing Manager",
+"role": "vp_marketing",
+"email": "criibner@cargurus.com"
+},
+{
+"name": "Emily Hunter",
+"title": "Brand Marketing",
+"role": "cro",
+"email": "ehunter@cargurus.com"
+},
+{
+"name": "Julia Ellis",
+"title": "Brand Marketing Specialist",
+"role": "field_marketing",
+"email": "jellis@cargurus.com"
+}
+]
+},
+{
+"brand": "Carousell Group",
+"people": [
+{
+"name": "Kammy Lo",
+"title": "Assistant Brand Manager Marketing",
+"role": "decision_maker",
+"email": "kammy.lo@thecarousell.com"
+},
+{
+"name": "Chloe Huang",
+"title": "Marketing",
+"role": "vp_marketing",
+"email": "chloe.huang@thecarousell.com"
+},
+{
+"name": "Melissa Wong",
+"title": "Marketing Manager",
+"role": "cro",
+"email": "melissa.wong@thecarousell.com"
+},
+{
+"name": "Lam Xinni",
+"title": "Marketing Manager",
+"role": "field_marketing",
+"email": "lam@carousell.com"
+}
+]
+},
+{
+"brand": "Carparts.com",
+"people": [
+{
+"name": "Christina Bylin",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "christina@carparts.com"
+},
+{
+"name": "Sasha Trosman",
+"title": "Vice President, Marketing | Leading",
+"role": "vp_marketing",
+"email": "strosman@carparts.com"
+},
+{
+"name": "Marvin Sanchez",
+"title": "Director for Content Marketing",
+"role": "cro",
+"email": "msanchez@carparts.com"
+},
+{
+"name": "Jacqueline Fauni",
+"title": "Marketing Manager",
+"role": "field_marketing",
+"email": "jfauni@carparts.com"
+}
+]
+},
+{
+"brand": "Carro",
+"people": [
+{
+"name": "Erica Loh",
+"title": "Regional Head of Marketing",
+"role": "decision_maker",
+"email": "erica.loh@carro.co"
+},
+{
+"name": "Nicholas Leow",
+"title": "Regional Marketing Director",
+"role": "vp_marketing",
+"email": "nicholas.leow@carro.co"
+},
+{
+"name": "Katherine Teo",
+"title": "Marketing Lead",
+"role": "cro",
+"email": "katherine.teo@carro.co"
+},
+{
+"name": "Marketing Carro",
+"title": "Marketing Specialist",
+"role": "field_marketing",
+"email": "marketing@carro.co"
+}
+]
+},
+{
+"brand": "Cars.com",
+"people": []
+},
+{
+"brand": "Carsome",
+"people": [
+{
+"name": "Fani Irawan",
+"title": "BD and Partnership",
+"role": "decision_maker",
+"email": "fani.irawan@carsome.com"
+}
+]
+},
+{
+"brand": "CarTrawler",
+"people": [
+{
+"name": "Yulia Mukhetdinova",
+"title": "Performance Marketing Manager",
+"role": "decision_maker",
+"email": "ymukhetdinova@cartrawler.com"
+},
+{
+"name": "Jonathan Townshend",
+"title": "Performance Marketing Manager",
+"role": "vp_marketing",
+"email": "jtownshend@cartrawler.com"
+},
+{
+"name": "Vikash Singh",
+"title": "Salesforce Marketing Cloud",
+"role": "cro",
+"email": "vsingh@cartrawler.com"
+},
+{
+"name": "Naomi Pedlow",
+"title": "Marketing Communications Manager",
+"role": "field_marketing",
+"email": "npedlow@cartrawler.com"
+}
+]
+},
+{
+"brand": "Chemical Guys",
+"people": [
+{
+"name": "Jennifer Olvera",
+"title": "EVP, Brand, Marketing & Product",
+"role": "decision_maker",
+"email": "jolvera@chemicalguys.com"
+},
+{
+"name": "Henry Oliva",
+"title": "Associate Manager, Brand Engagement & Social",
+"role": "vp_marketing",
+"email": "holiva@chemicalguys.com"
+},
+{
+"name": "Jason Busby",
+"title": "Marketing",
+"role": "cro",
+"email": "jbusby@chemicalguys.com"
+},
+{
+"name": "David Knotek",
+"title": "Chief Executive Officer",
+"role": "field_marketing",
+"email": "david@smartwax.com"
+}
+]
+},
+{
+"brand": "Christian Brothers Automotive",
+"people": [
+{
+"name": "Emily Kaniss",
+"title": "Director of Brand Marketing",
+"role": "decision_maker",
+"email": "emily.kaniss@cbac.com"
+},
+{
+"name": "Jennifer Nightingale",
+"title": "Marketing Manager",
+"role": "vp_marketing",
+"email": "jennifer.nightingale@cbac.com"
+},
+{
+"name": "Rebecca Hajek",
+"title": "Digital Marketing Manager",
+"role": "cro",
+"email": "becky.bucek@cbac.com"
+},
+{
+"name": "Matthew Gibson",
+"title": "Digital Content and Performance Marketing Specialist",
+"role": "field_marketing",
+"email": "matt.gibson@cbac.com"
+}
+]
+},
+{
+"brand": "Driven Brands Inc. (Meineke, Maaco, CARSTAR, Take 5)",
+"people": [
+{
+"name": "Brad Chicoine",
+"title": "Marketing Director - Digital Marketing & Consumer Experience",
+"role": "decision_maker",
+"email": "brad.chicoine@drivenbrands.com"
+},
+{
+"name": "Courtney Nattis",
+"title": "Director, Integrated Marketing",
+"role": "vp_marketing",
+"email": "courtney.nattis@drivenbrands.com"
+},
+{
+"name": "Felicia Roy",
+"title": "Sr. Director of Marketing",
+"role": "cro",
+"email": "felicia.roy@drivenbrands.com"
+},
+{
+"name": "Andrew Neldeberg",
+"title": "Director of Field Marketing",
+"role": "field_marketing",
+"email": "andrew.neldeberg@drivenbrands.com"
+}
+]
+},
+{
+"brand": "Gett",
+"people": [
+{
+"name": "Daniel Corcos",
+"title": "Chief Marketing Officer Gett IL",
+"role": "decision_maker",
+"email": "daniel.corcos@gett.com"
+},
+{
+"name": "Jenya Mishuris",
+"title": "Head of Global Marketing",
+"role": "vp_marketing",
+"email": "evgeniya.mishuris@gett.com"
+},
+{
+"name": "Tamar Patau",
+"title": "Head of Marketing - Demand",
+"role": "cro",
+"email": "tamar.patau@gett.com"
+},
+{
+"name": "Soli Perez",
+"title": "Head of Supply Marketing",
+"role": "field_marketing",
+"email": "soli.perez@gett.com"
+}
+]
+},
+{
+"brand": "inDrive (inDriver / SUOL Innovations)",
+"people": [
+{
+"name": "Tatiana Geller",
+"title": "Brand Lead",
+"role": "decision_maker",
+"email": "tatiana.geller@indriver.com"
+},
+{
+"name": "Anton Kazintsev",
+"title": "Regional Brand Lead",
+"role": "vp_marketing",
+"email": "anton.kazintsev@indriver.com"
+},
+{
+"name": "Anuar Kaziyev",
+"title": "Business Development Specialist | CEO Discovery Team",
+"role": "cro",
+"email": "anuar.kaziyev@indrive.com"
+},
+{
+"name": "Arlette Rubi",
+"title": "Business Development",
+"role": "field_marketing",
+"email": "arlette.rubi@indriver.com"
+}
+]
+},
+{
+"brand": "K&N Engineering (Highline Warren)",
+"people": [
+{
+"name": "Blake Bobosky",
+"title": "Director of Sales & Marketing Global Filtration",
+"role": "decision_maker",
+"email": "blake.bobosky@knfilters.com"
+},
+{
+"name": "Christian Dobrowsky",
+"title": "Marketing Manager",
+"role": "vp_marketing",
+"email": "christian.dobrowsky@knfilters.com"
+},
+{
+"name": "Cameron Fidel",
+"title": "Marketing Manager, Global Filtration",
+"role": "cro",
+"email": "cameron.fidel@knfilters.com"
+},
+{
+"name": "Marc Ramirez",
+"title": "Marketing Communications Specialist",
+"role": "field_marketing",
+"email": "marc.ramirez@knfilters.com"
+}
+]
+},
+{
+"brand": "Lyft",
+"people": [
+{
+"name": "Katie Lazarus",
+"title": "Head of Partnerships Marketing",
+"role": "decision_maker",
+"email": "klazarus@lyft.com"
+},
+{
+"name": "Brooke Papiri",
+"title": "Senior Director, Marketing - Brand, Strategy & Ops",
+"role": "vp_marketing",
+"email": "brooke@lyft.com"
+},
+{
+"name": "Kayla Osmond",
+"title": "Group Brand Marketing Manager, North America Brand Marketing",
+"role": "cro",
+"email": "kosmond@lyft.com"
+},
+{
+"name": "Jennifer Fong",
+"title": "Rider, Strategic Business Development & Partnerships",
+"role": "field_marketing",
+"email": "jenniferf@lyft.com"
+}
+]
+},
+{
+"brand": "MEKO",
+"people": [],
+"note": "no usable domain"
+},
+{
+"brand": "OLX Autos (Frontier Car Group)",
+"people": [
+{
+"name": "Deepak Ahuja",
+"title": "Marketing Professional",
+"role": "decision_maker",
+"email": "deepak.ahuja@olx.com"
+},
+{
+"name": "Dito Utomo",
+"title": "Sales Marketing Advisor",
+"role": "vp_marketing",
+"email": "dito.utomo@olxautos.com"
+},
+{
+"name": "Jason Castro Becerra",
+"title": "Business Development Executive",
+"role": "cro",
+"email": "jcastro@olxautos.com"
+}
+]
+},
+{
+"brand": "Spinny",
+"people": [
+{
+"name": "Vaibhav Patil",
+"title": "Business Development Manager",
+"role": "decision_maker",
+"email": "vaibhav.patil@spinny.com"
+},
+{
+"name": "Vipul Kamble",
+"title": "Business Development Manager",
+"role": "vp_marketing",
+"email": "vipul.kamble@spinny.com"
+},
+{
+"name": "Pratik Maswade",
+"title": "Business Development Manager",
+"role": "cro",
+"email": "p.maswade@spinny.com"
+},
+{
+"name": "Nilesh Soni",
+"title": "Business Development Manager",
+"role": "field_marketing",
+"email": "nilesh.soni@spinn.com"
+}
+]
+},
+{
+"brand": "Standard Motor Products",
+"people": [
+{
+"name": "John Herc",
+"title": "Vice President Marketing - VCD",
+"role": "decision_maker",
+"email": "john.herc@smpcorp.com"
+},
+{
+"name": "Jack Ramsey",
+"title": "Senior Vice President Sales and Marketing",
+"role": "vp_marketing",
+"email": "jack.ramsey@smpcorp.com"
+},
+{
+"name": "Ron Miller",
+"title": "Director of Marketing",
+"role": "cro",
+"email": "ron.miller@smpcorp.com"
+},
+{
+"name": "Aaron Shaffer",
+"title": "Director of Marketing Services",
+"role": "field_marketing",
+"email": "aaron.shaffer@smpcorp.com"
+}
+]
+}
+]
+}
