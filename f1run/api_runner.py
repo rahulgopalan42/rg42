@@ -5,11 +5,12 @@
 # Phase 2: for every brand in the QUEUE files not already covered, searches (free),
 # picks up to 4 people by role priority, bulk-matches them (1 credit per match).
 # Writes f1run/out/<queuefile>.contacts.json after each file and appends to
-# f1run/out/progress.log. Resumable: brands already in an out file are skipped.
+# f1run/out/progress.log. Resumable: brands that already have contacts are skipped;
+# zero-result brands are retried on every rerun.
 # HARD RULES: no phone reveals, no waterfall, no personal emails - those request
 # flags are never sent. Cap 4 contacts per brand, verified-grade emails only.
 import json, os, re, subprocess, sys, time
-import urllib.request, urllib.error, urllib.parse
+import urllib.request, urllib.error
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 F1 = os.path.join(ROOT, 'f1run')
@@ -37,10 +38,9 @@ def log(msg):
     with open(os.path.join(OUT, 'progress.log'), 'a') as f:
         f.write(line + '\n')
 
-def call(path, body, tries=5, query=None):
-    url = BASE + path + ('?' + urllib.parse.urlencode(query, doseq=True) if query else '')
+def call(path, body, tries=5):
     for attempt in range(tries):
-        req = urllib.request.Request(url, data=json.dumps(body).encode(), method='POST',
+        req = urllib.request.Request(BASE + path, data=json.dumps(body).encode(), method='POST',
                                      headers={'Content-Type': 'application/json',
                                               'Cache-Control': 'no-cache', 'x-api-key': KEY})
         try:
@@ -79,18 +79,14 @@ def clean_domain(d):
     return d if '.' in d else ''
 
 def search_brand(domain):
-    # /mixed_people/search is deprecated for API callers (HTTP 422); api_search takes
-    # the same filters as query-string params and is free (0 credits).
-    q = {'q_organization_domains_list[]': [domain], 'person_titles[]': TITLES,
-         'contact_email_status[]': ['verified', 'likely to engage'], 'per_page': 25, 'page': 1}
-    r = call('/mixed_people/api_search', {}, query=q)
+    body = {'q_organization_domains_list': [domain], 'person_titles': TITLES,
+            'contact_email_status': ['verified', 'likely to engage'], 'per_page': 25, 'page': 1}
+    r = call('/mixed_people/api_search', body)
     people = (r or {}).get('people') or []
     if not people:
-        q.pop('contact_email_status[]')
-        r = call('/mixed_people/api_search', {}, query=q)
+        body.pop('contact_email_status')
+        r = call('/mixed_people/api_search', body)
         people = (r or {}).get('people') or []
-    for p in people:  # api_search returns first_name + last_name_obfuscated, no full name
-        p['name'] = p.get('name') or ' '.join(x for x in (p.get('first_name'), p.get('last_name_obfuscated')) if x)
     return people
 
 def bulk_match(ids):
@@ -180,7 +176,8 @@ for qf in QUEUE:
         log(f'skip missing {qf}'); continue
     brands = json.load(open(qpath))
     opath = os.path.join(OUT, qf + '.contacts.json')
-    rows = {norm(r['brand']): r for r in (json.load(open(opath))['rows'] if os.path.exists(opath) else [])}
+    rows = {norm(r['brand']): r for r in (json.load(open(opath))['rows'] if os.path.exists(opath) else [])
+            if r.get('people')}
     changed = False
     for b in brands:
         nb = norm(b['brand'])
@@ -195,7 +192,7 @@ for qf in QUEUE:
         people = search_brand(dom)
         time.sleep(0.5)
         cands = [p for p in people if p.get('id') and HEXID.match(p['id'])]
-        cands.sort(key=lambda p: (bool(p.get('has_email', True)), score(p.get('title'))), reverse=True)
+        cands.sort(key=lambda p: score(p.get('title')), reverse=True)
         picks = [p for p in cands if score(p.get('title')) >= 40][:4] or cands[:2]
         seen, final = set(), []
         for p in picks:
