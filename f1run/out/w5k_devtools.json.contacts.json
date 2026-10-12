@@ -1,0 +1,4247 @@
+{
+"rows": [
+{
+"brand": "Redpanda Data",
+"people": [
+{
+"name": "Melissa Czapiga",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "melissa@redpanda.com"
+},
+{
+"name": "Ayesha Khan",
+"title": "Associate Marketing Specialist",
+"role": "vp_marketing",
+"email": "ayesha@redpanda.com"
+},
+{
+"name": "Andrea Fong",
+"title": "Principal Growth Marketing Manager",
+"role": "cro",
+"email": "andrea.fong@redpanda.com"
+},
+{
+"name": "Peter Corless",
+"title": "Principal Product Marketing Manager",
+"role": "field_marketing",
+"email": "peter.corless@redpanda.com"
+}
+]
+},
+{
+"brand": "Cloudera",
+"people": [
+{
+"name": "Mary Wells",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "mwells@cloudera.com"
+},
+{
+"name": "Peter Lilley",
+"title": "Marketing Director",
+"role": "vp_marketing",
+"email": "plilley@cloudera.com"
+},
+{
+"name": "Ron Pick",
+"title": "Director of Product Marketing",
+"role": "cro",
+"email": "rpick@cloudera.com"
+},
+{
+"name": "Colleen Ingham",
+"title": "Senior Director of Brand and Creative",
+"role": "field_marketing",
+"email": "cingham@cloudera.com"
+}
+]
+},
+{
+"brand": "Cloudflare Inc.",
+"people": [
+{
+"name": "James Chang",
+"title": "Senior Manager, Brand Marketing",
+"role": "decision_maker",
+"email": "jchang@cloudflare.com"
+},
+{
+"name": "Anca Diaconescu",
+"title": "Business Development",
+"role": "vp_marketing",
+"email": "adiaconescu@cloudflare.com"
+},
+{
+"name": "Haidar Abidine",
+"title": "Business Development",
+"role": "cro",
+"email": "haidar@cloudflare.com"
+},
+{
+"name": "Lisa Ljungberg",
+"title": "Business Development",
+"role": "field_marketing",
+"email": "lljungberg@cloudflare.com"
+}
+]
+},
+{
+"brand": "DigitalOcean Holdings",
+"people": [
+{
+"name": "Leo Leung",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "leoleung@digitalocean.com"
+},
+{
+"name": "Fire Marketing",
+"title": "Marketing Director",
+"role": "vp_marketing",
+"email": "marketing@digitalocean.com"
+},
+{
+"name": "Miranda Msc",
+"title": "Digital Marketing Director",
+"role": "cro",
+"email": "mgahrmann@digitalocean.com"
+},
+{
+"name": "Ari Sigal",
+"title": "Head of Product Marketing",
+"role": "field_marketing",
+"email": "asigal@digitalocean.com"
+}
+]
+},
+{
+"brand": "Fastly Inc.",
+"people": [
+{
+"name": "Joan Jenkins",
+"title": "CMO",
+"role": "decision_maker",
+"email": "joan.jenkins@fastly.com"
+},
+{
+"name": "Mariah Petrovic",
+"title": "Content Marketing Director",
+"role": "vp_marketing",
+"email": "mariah.petrovic@fastly.com"
+},
+{
+"name": "Sean Branton",
+"title": "Director, Marketing Analytics",
+"role": "cro",
+"email": "sean.branton@fastly.com"
+},
+{
+"name": "Katie Slad",
+"title": "Head of Global Brand Design",
+"role": "field_marketing",
+"email": "kslad@fastly.com"
+}
+]
+},
+{
+"brand": "Informatica Inc.",
+"people": [
+{
+"name": "Jim Kruger",
+"title": "Executive Vice President/Chief Marketing Officer",
+"role": "decision_maker",
+"email": "jkruger@informatica.com"
+},
+{
+"name": "Ron Goldberg",
+"title": "Marketing",
+"role": "vp_marketing",
+"email": "rgoldberg@informatica.com"
+},
+{
+"name": "Indra Sukmana",
+"title": "Marketing",
+"role": "cro",
+"email": "isukmana@informatica.com"
+},
+{
+"name": "Wenting Chang",
+"title": "Marketing",
+"role": "field_marketing",
+"email": "wchang@informatica.com"
+}
+]
+},
+{
+"brand": "New Relic",
+"people": [
+{
+"name": "Essence Walden",
+"title": "Talent Brand Manager",
+"role": "decision_maker",
+"email": "ewalden@newrelic.com"
+},
+{
+"name": "Evan Chung",
+"title": "Senior Director, Brand Experience",
+"role": "vp_marketing",
+"email": "echung@newrelic.com"
+},
+{
+"name": "Brett D'Arcy",
+"title": "Field Marketing Manager",
+"role": "cro",
+"email": "bdarcy@newrelic.com"
+},
+{
+"name": "Cassie Williams",
+"title": "Business Development Representative",
+"role": "field_marketing",
+"email": "cwilliams@newrelic.com"
+}
+]
+},
+{
+"brand": "Software AG",
+"people": [
+{
+"name": "Renata Gober",
+"title": "Director, Integrated Marketing",
+"role": "decision_maker",
+"email": "renata.gober@softwareag.com"
+},
+{
+"name": "Jason Zimmerman",
+"title": "Director, Marketing Technology and Automation",
+"role": "vp_marketing",
+"email": "jason.zimmerman@softwareag.com"
+},
+{
+"name": "Michal Mordowicz",
+"title": "Marketing Director, EMEA, Software AG",
+"role": "cro",
+"email": "michal.mordowicz@softwareag.com"
+},
+{
+"name": "Felix Friedrich",
+"title": "Senior Director Experience Marketing & Communities",
+"role": "field_marketing",
+"email": "felix.friedrich@softwareag.com"
+}
+]
+},
+{
+"brand": "Replit Inc.",
+"people": [
+{
+"name": "Nick Silver",
+"title": "Vice President Marketing",
+"role": "decision_maker",
+"email": "nick.silver@replit.com"
+},
+{
+"name": "Philipp Dietz",
+"title": "Head of Brand & Creative",
+"role": "vp_marketing",
+"email": "philipp.dietz@replit.com"
+},
+{
+"name": "James Miller",
+"title": "Operations Lead, Brand & Creative",
+"role": "cro",
+"email": "james.miller@repl.it"
+},
+{
+"name": "Brendan Dugan",
+"title": "Field Marketing Manager",
+"role": "field_marketing",
+"email": "brendan.dugan@replit.com"
+}
+]
+},
+{
+"brand": "ABBYY",
+"people": [
+{
+"name": "Elena Shumilova",
+"title": "Head of Marketing Operations",
+"role": "decision_maker",
+"email": "elena.shumilova@abbyy.com"
+},
+{
+"name": "Sarah Bajgiran",
+"title": "Senior Director of Digital Marketing",
+"role": "vp_marketing",
+"email": "sarah.bajgiran@abbyy.com"
+},
+{
+"name": "Jennifer Vitale",
+"title": "Global Brand & Sponsorship Manager",
+"role": "cro",
+"email": "jennifer.vitale@abbyy.com"
+},
+{
+"name": "Ana Cabana Hernandez",
+"title": "Growth Marketing",
+"role": "field_marketing",
+"email": "ana.hernandez@abbyy.com"
+}
+]
+},
+{
+"brand": "Nintex",
+"people": [
+{
+"name": "Amy Payne",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "amy.payne@nintex.com"
+},
+{
+"name": "Camilla Vann",
+"title": "Marketing Director",
+"role": "vp_marketing",
+"email": "camilla.vann@nintex.com"
+},
+{
+"name": "Narimane Kurdi",
+"title": "Director of Revenue Marketing",
+"role": "cro",
+"email": "narimane.kurdi@nintex.com"
+},
+{
+"name": "Erin Scheller",
+"title": "Director Revenue Marketing",
+"role": "field_marketing",
+"email": "erin.scheller@nintex.com"
+}
+]
+},
+{
+"brand": "Ab Initio",
+"people": [
+{
+"name": "Donna Cooper",
+"title": "B2B Technology Marketing Leader",
+"role": "decision_maker",
+"email": "dcooper@abinitio.com"
+},
+{
+"name": "Franziska Doeker",
+"title": "Partnerships Manager",
+"role": "vp_marketing",
+"email": "fdoeker@abinitio.com"
+}
+]
+},
+{
+"brand": "Actian",
+"people": [
+{
+"name": "Griffin Dassatti",
+"title": "Product Marketing Director",
+"role": "decision_maker",
+"email": "griffin.dassatti@actian.com"
+},
+{
+"name": "Andrew Petersen",
+"title": "Product Marketing Director",
+"role": "vp_marketing",
+"email": "andrew.petersen@actian.com"
+},
+{
+"name": "Liz Brown",
+"title": "Americas Field Marketing Director",
+"role": "cro",
+"email": "liz.brown@actian.com"
+},
+{
+"name": "Jill Davy",
+"title": "Director, Marketing Technology and Operations",
+"role": "field_marketing",
+"email": "jill.davy@actian.com"
+}
+]
+},
+{
+"brand": "Appian",
+"people": [
+{
+"name": "David Crozier",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "david.crozier@appian.com"
+},
+{
+"name": "Robin McIntosh",
+"title": "Director, Marketing",
+"role": "vp_marketing",
+"email": "robin.mcintosh@appian.com"
+},
+{
+"name": "Moray Wood",
+"title": "ANZ Marketing Director",
+"role": "cro",
+"email": "moray.wood@appian.com"
+},
+{
+"name": "Mary Grove",
+"title": "Director of Marketing Operations",
+"role": "field_marketing",
+"email": "mary.grove@appian.com"
+}
+]
+},
+{
+"brand": "Axway",
+"people": [
+{
+"name": "Sandrine Demal",
+"title": "Vice President Marketing",
+"role": "decision_maker",
+"email": "sdemal@axway.com"
+},
+{
+"name": "Rebeca Polito",
+"title": "Vice President of Marketing, Americas",
+"role": "vp_marketing",
+"email": "rpolito@axway.com"
+},
+{
+"name": "Hanissa Khodri",
+"title": "VP EMEA Marketing",
+"role": "cro",
+"email": "hkhodri@axway.com"
+},
+{
+"name": "Stass Pertsovskiy",
+"title": "Director of Product Marketing",
+"role": "field_marketing",
+"email": "spertsovskiy@axway.com"
+}
+]
+},
+{
+"brand": "Boomi",
+"people": [
+{
+"name": "Nathan Harbert",
+"title": "Business Development",
+"role": "decision_maker",
+"email": "nathan.harbert@boomi.com"
+},
+{
+"name": "Dominic Jacobucci",
+"title": "Business Development",
+"role": "vp_marketing",
+"email": "dominic.jacobucci@boomi.com"
+},
+{
+"name": "Claudia Santoyo",
+"title": "Business Development Specialist",
+"role": "cro",
+"email": "claudiasantoyo@boomi.com"
+},
+{
+"name": "Simon Finnerty",
+"title": "Business Development Specialist",
+"role": "field_marketing",
+"email": "simon.finnerty@boomi.com"
+}
+]
+},
+{
+"brand": "BrowserStack",
+"people": [
+{
+"name": "Shweta Chhillar",
+"title": "Lead - Brand Marketing",
+"role": "decision_maker",
+"email": "shweta@browserstack.com"
+},
+{
+"name": "Rajrupa Roychowdhury",
+"title": "Senior Associate - Brand Marketing",
+"role": "vp_marketing",
+"email": "rajrupa@browserstack.com"
+},
+{
+"name": "Ali Vadsaria",
+"title": "Business Development",
+"role": "cro",
+"email": "ali.vadsaria@browserstack.com"
+},
+{
+"name": "Urmimala Mazumder",
+"title": "Business Development",
+"role": "field_marketing",
+"email": "urmimala@browserstack.com"
+}
+]
+},
+{
+"brand": "Canonical",
+"people": [
+{
+"name": "Yvonne Yen",
+"title": "Head of APAC Marketing",
+"role": "decision_maker",
+"email": "yvonne.yen@canonical.com"
+},
+{
+"name": "Erekle Abashidze",
+"title": "Marketing Manager I",
+"role": "vp_marketing",
+"email": "erekle.abashidze@canonical.com"
+},
+{
+"name": "Pedro Lazzarotto",
+"title": "Partner Marketing Manager",
+"role": "cro",
+"email": "pedro.lazzarotto@canonical.com"
+},
+{
+"name": "Madhumita Bhattacharya",
+"title": "Product Marketing Manager",
+"role": "field_marketing",
+"email": "madhumita.bhattacharya@canonical.com"
+}
+]
+},
+{
+"brand": "Checkmarx",
+"people": [
+{
+"name": "Scott Gainey",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "scott.gainey@checkmarx.com"
+},
+{
+"name": "Steve Boone",
+"title": "Director of Product Marketing",
+"role": "vp_marketing",
+"email": "steve.boone@checkmarx.com"
+},
+{
+"name": "Zane Buckley",
+"title": "Director of Digital Marketing",
+"role": "cro",
+"email": "zane.buckley@checkmarx.com"
+},
+{
+"name": "Jann Yip",
+"title": "Regional Marketing Director",
+"role": "field_marketing",
+"email": "jann.yip@checkmarx.com"
+}
+]
+},
+{
+"brand": "Denodo Technologies",
+"people": [
+{
+"name": "Saptarshi Sengupta",
+"title": "Sr. Director of Brand and Corporate Marketing",
+"role": "decision_maker",
+"email": "ssengupta@denodo.com"
+},
+{
+"name": "Pilar Molto",
+"title": "Marketing Manager",
+"role": "vp_marketing",
+"email": "pmolto@denodo.com"
+},
+{
+"name": "Amy Wilson",
+"title": "Marketing Manager",
+"role": "cro",
+"email": "awilson@denodo.com"
+},
+{
+"name": "Akira Onodera",
+"title": "Marketing Manager",
+"role": "field_marketing",
+"email": "aonodera@denodo.com"
+}
+]
+},
+{
+"brand": "EnterpriseDB",
+"people": [
+{
+"name": "Fred Holahan",
+"title": "VP Marketing",
+"role": "decision_maker",
+"email": "fholahan@enterprisedb.com"
+},
+{
+"name": "Jeff Gowan",
+"title": "VP Alliances Marketing",
+"role": "vp_marketing",
+"email": "jeff.gowan@enterprisedb.com"
+},
+{
+"name": "Lizzy Nguyen",
+"title": "Director of Product Marketing",
+"role": "cro",
+"email": "lizzy.nguyen@enterprisedb.com"
+},
+{
+"name": "Gary Carter",
+"title": "Director Field Marketing",
+"role": "field_marketing",
+"email": "gary.carter@enterprisedb.com"
+}
+]
+},
+{
+"brand": "K\u00f6rber Supply Chain Software",
+"people": [
+{
+"name": "Marcio Machado",
+"title": "Head of Content Marketing | Brand",
+"role": "decision_maker",
+"email": "marcio.machado@koerber.com"
+},
+{
+"name": "Florian Schumann",
+"title": "Head of Strategic Marketing and Sales",
+"role": "vp_marketing",
+"email": "florian.schumann@koerber.com"
+},
+{
+"name": "Jan Weser",
+"title": "Senior Brand Manager",
+"role": "cro",
+"email": "jan.weser@koerber.com"
+},
+{
+"name": "Denise Wauschkuhn-Busch",
+"title": "Manager Brand & Group Communications",
+"role": "field_marketing",
+"email": "denise.wauschkuhn-busch@koerber.com"
+}
+]
+},
+{
+"brand": "Manhattan Associates",
+"people": [
+{
+"name": "Katie Foote",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "kfoote@manh.com"
+},
+{
+"name": "Chris Shaw",
+"title": "Vice President of Solution Marketing, Partner Marketing & Analyst Relations",
+"role": "vp_marketing",
+"email": "cshaw@manh.com"
+},
+{
+"name": "Liz Sophia",
+"title": "VP, Field Marketing",
+"role": "cro",
+"email": "lsophia@manh.com"
+},
+{
+"name": "Justin Keller",
+"title": "VP of Brand, Creative, and Content",
+"role": "field_marketing",
+"email": "jkeller@manh.com"
+}
+]
+},
+{
+"brand": "PagerDuty Inc.",
+"people": [
+{
+"name": "Vivian Chan",
+"title": "Director of Product Marketing",
+"role": "decision_maker",
+"email": "vchan@pagerduty.com"
+},
+{
+"name": "Rachel Singleton",
+"title": "Director, Integrated Marketing",
+"role": "vp_marketing",
+"email": "rsingleton@pagerduty.com"
+},
+{
+"name": "Victoria Walters",
+"title": "Senior Brand Media Manager",
+"role": "cro",
+"email": "vwalters@pagerduty.com"
+},
+{
+"name": "Eileen McGonigle",
+"title": "Art Director + Brand Designer",
+"role": "field_marketing",
+"email": "emcgonigle@pagerduty.com"
+}
+]
+},
+{
+"brand": "Precisely",
+"people": [
+{
+"name": "Max Zhang",
+"title": "Sales and Partnerships",
+"role": "decision_maker",
+"email": "max.zhang@precisely.com"
+},
+{
+"name": "Alessandro Curello",
+"title": "Business Development Representative",
+"role": "vp_marketing",
+"email": "alessandro.curello@precisely.com"
+},
+{
+"name": "Tilo Riedel",
+"title": "Business Development EMEA",
+"role": "cro",
+"email": "tilo.riedel@precisely.com"
+},
+{
+"name": "Yvette Reckards",
+"title": "Business Development Representative",
+"role": "field_marketing",
+"email": "yvette.reckards@precisely.com"
+}
+]
+},
+{
+"brand": "Progress Software",
+"people": [
+{
+"name": "Monique-Kiki Bruins",
+"title": "Marketing Director",
+"role": "decision_maker",
+"email": "mbruins@progress.com"
+},
+{
+"name": "Philip Miller",
+"title": "Director of Product Marketing",
+"role": "vp_marketing",
+"email": "philip.miller@progress.com"
+},
+{
+"name": "Paulette Stout",
+"title": "Director of Brand & Content Strategy",
+"role": "cro",
+"email": "stout@progress.com"
+},
+{
+"name": "Diego Marynberg",
+"title": "Marketing",
+"role": "field_marketing",
+"email": "diego.marynberg@progress.com"
+}
+]
+},
+{
+"brand": "Qlik",
+"people": [
+{
+"name": "Vidushi Shree",
+"title": "Business Development",
+"role": "decision_maker",
+"email": "vidushi.shree@qlik.com"
+},
+{
+"name": "Gwendal Dussart",
+"title": "Business Development",
+"role": "vp_marketing",
+"email": "gwendaldussart.bergillos@qlik.com"
+},
+{
+"name": "Joel Hauri",
+"title": "Director, Business Development",
+"role": "cro",
+"email": "joel.hauri@qlik.com"
+},
+{
+"name": "Veronica Bolandi Rojas",
+"title": "Business Development Representative",
+"role": "field_marketing",
+"email": "veronica.bolandiroja@qlik.com"
+}
+]
+},
+{
+"brand": "Redwood Software",
+"people": [
+{
+"name": "Taruna Gandhi",
+"title": "VP of Product Marketing",
+"role": "decision_maker",
+"email": "taruna.gandhi@redwood.com"
+},
+{
+"name": "Frank Melchiorre",
+"title": "SVP, Marketing",
+"role": "vp_marketing",
+"email": "frank.melchiorre@redwood.com"
+},
+{
+"name": "Tim Eusterman",
+"title": "Director of Product Marketing",
+"role": "cro",
+"email": "timothy.eusterman@redwood.com"
+},
+{
+"name": "Simon Shah",
+"title": "Founder",
+"role": "field_marketing",
+"email": "simon.shah@redwood.com"
+}
+]
+},
+{
+"brand": "SmartBear Software",
+"people": [
+{
+"name": "Deepak Parmar",
+"title": "Director of Product Marketing",
+"role": "decision_maker",
+"email": "deepak.parmar@smartbear.com"
+},
+{
+"name": "Lucia Travis",
+"title": "Director of Digital Marketing",
+"role": "vp_marketing",
+"email": "lucia.scott@smartbear.com"
+},
+{
+"name": "Caity Serra",
+"title": "Director, Customer Marketing",
+"role": "cro",
+"email": "caity.serra@smartbear.com"
+},
+{
+"name": "Ciara McDonnell",
+"title": "Director of Growth Marketing, International",
+"role": "field_marketing",
+"email": "ciara.mcdonnell@smartbear.com"
+}
+]
+},
+{
+"brand": "Sonatype",
+"people": [
+{
+"name": "Jason McClelland",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "jason.mcclelland@sonatype.com"
+},
+{
+"name": "Jenna Jameson",
+"title": "Director, Brand Marketing",
+"role": "vp_marketing",
+"email": "jjameson@sonatype.com"
+},
+{
+"name": "Michael Vincent",
+"title": "Sr. Director, Head of Product Marketing",
+"role": "cro",
+"email": "michael.vincent@sonatype.com"
+},
+{
+"name": "Sara Delone",
+"title": "Director of North America Field Marketing",
+"role": "field_marketing",
+"email": "sdelone@sonatype.com"
+}
+]
+},
+{
+"brand": "SPS Commerce",
+"people": [
+{
+"name": "Dana Norsten",
+"title": "Sr Executive Coordinator to CMO/Marketing",
+"role": "decision_maker",
+"email": "dnorsten@spscommerce.com"
+},
+{
+"name": "Maria Pergolino",
+"title": "Chief Marketing Officer",
+"role": "vp_marketing",
+"email": "mpergolino@spscommerce.com"
+},
+{
+"name": "Heather Perry",
+"title": "Director of Marketing",
+"role": "cro",
+"email": "hperry@spscommerce.com"
+},
+{
+"name": "Timo Geest",
+"title": "Director of Marketing",
+"role": "field_marketing",
+"email": "tdegeest@spscommerce.com"
+}
+]
+},
+{
+"brand": "SUSE S.A.",
+"people": [
+{
+"name": "Margaret Dawson",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "margaret.dawson@suse.com"
+},
+{
+"name": "Sara Matheson",
+"title": "Senior Director, Brand and Storytelling",
+"role": "vp_marketing",
+"email": "sara.matheson@suse.com"
+},
+{
+"name": "Andy Fitzsimon",
+"title": "Senior Director, Portfolio & Brand Strategy",
+"role": "cro",
+"email": "andy.fitzsimon@suse.com"
+},
+{
+"name": "Spencer Davis",
+"title": "Senior Director, Global Brand & Design",
+"role": "field_marketing",
+"email": "spencer.davis@suse.com"
+}
+]
+},
+{
+"brand": "TIBCO Software",
+"people": [
+{
+"name": "San Zaw",
+"title": "Head of Account Technology Strategists APAC & Global Marketing",
+"role": "decision_maker",
+"email": "smaung@tibco.com"
+},
+{
+"name": "Yasuyuki Kuwano",
+"title": "Director of Business Development",
+"role": "vp_marketing",
+"email": "ykuwano@tibco.com"
+},
+{
+"name": "Maz Ahmad",
+"title": "Business Development Manager",
+"role": "cro",
+"email": "ma@tibco.com"
+},
+{
+"name": "John Page",
+"title": "Director of Customer Engineering, Product Management and Business Development, Messaging Products",
+"role": "field_marketing",
+"email": "jpage@tibco.com"
+}
+]
+},
+{
+"brand": "Tricentis",
+"people": [
+{
+"name": "Jay Melton",
+"title": "Vice President, Marketing Operations and Business Development",
+"role": "decision_maker",
+"email": "j.melton@tricentis.com"
+},
+{
+"name": "Melissa Tang",
+"title": "Business Development",
+"role": "vp_marketing",
+"email": "m.tang@tricentis.com"
+},
+{
+"name": "Olivia Charland",
+"title": "Business Development Representative",
+"role": "cro",
+"email": "o.charland@tricentis.com"
+},
+{
+"name": "Platini Marcelin",
+"title": "Business Development Representative",
+"role": "field_marketing",
+"email": "platini.marcelin@tricentis.com"
+}
+]
+},
+{
+"brand": "UiPath",
+"people": [
+{
+"name": "Rhea Kumar",
+"title": "Strategic Partnerships",
+"role": "decision_maker",
+"email": "rhea.kumar@uipath.com"
+},
+{
+"name": "Jonathan Santos",
+"title": "Manager, Business Development",
+"role": "vp_marketing",
+"email": "jonathan.santos@uipath.com"
+},
+{
+"name": "Shayne Grant",
+"title": "Business Development Representative",
+"role": "cro",
+"email": "shayne.grant@uipath.com"
+},
+{
+"name": "Christian Tyson",
+"title": "Business Development Representative",
+"role": "field_marketing",
+"email": "christian.tyson@uipath.com"
+}
+]
+},
+{
+"brand": "Veracode",
+"people": [
+{
+"name": "Samuel Carter",
+"title": "Marketing Director",
+"role": "decision_maker",
+"email": "sam@veracode.com"
+},
+{
+"name": "Kelly Gramajo",
+"title": "Director Channel Marketing",
+"role": "vp_marketing",
+"email": "kgramajo@veracode.com"
+},
+{
+"name": "Darlene Lynch",
+"title": "Regional Marketing Director",
+"role": "cro",
+"email": "dlynch@veracode.com"
+},
+{
+"name": "Teddy Eliades",
+"title": "Marketing Operations Specialist",
+"role": "field_marketing",
+"email": "teliades@veracode.com"
+}
+]
+},
+{
+"brand": "WalkMe Ltd.",
+"people": [
+{
+"name": "Kenta Otsuka",
+"title": "Director of Marketing",
+"role": "decision_maker",
+"email": "kenta.otsuka@walkme.com"
+},
+{
+"name": "Arik Abel",
+"title": "Director, Product Marketing",
+"role": "vp_marketing",
+"email": "arik.abel@walkme.com"
+},
+{
+"name": "Rebecca Whitlatch",
+"title": "Director, Partner Marketing",
+"role": "cro",
+"email": "rebecca.whitlatch@walkme.com"
+},
+{
+"name": "Shir Faran",
+"title": "Brand Creative Team Lead",
+"role": "field_marketing",
+"email": "shir.mordo@walkme.com"
+}
+]
+},
+{
+"brand": "Snowflake Inc.",
+"people": [
+{
+"name": "Sonya Brieske",
+"title": "Brand Marketing Manager",
+"role": "decision_maker",
+"email": "sonya.brieske@snowflake.com"
+},
+{
+"name": "Alison Maloney",
+"title": "Director, Brand Design",
+"role": "vp_marketing",
+"email": "alison.maloney@snowflake.com"
+},
+{
+"name": "Hannah Friedland",
+"title": "Marketing Communications Specialist, Brand Writer and Editor",
+"role": "cro",
+"email": "hannah.friedland@snowflake.com"
+},
+{
+"name": "Shirley Gao",
+"title": "Marketing",
+"role": "field_marketing",
+"email": "shirley.gao@snowflake.com"
+}
+]
+},
+{
+"brand": "Airbyte",
+"people": [
+{
+"name": "Mario Moscatiello",
+"title": "VP Marketing",
+"role": "decision_maker",
+"email": "mario.moscatiello@airbyte.io"
+},
+{
+"name": "Tanmay Sarkar",
+"title": "Marketing & Demand Generation",
+"role": "vp_marketing",
+"email": "tanmay@airbyte.io"
+},
+{
+"name": "Kushal Chatterjee",
+"title": "Senior Product Marketing Manager",
+"role": "cro",
+"email": "kushal.chatterjee@airbyte.io"
+},
+{
+"name": "Justin Bangay",
+"title": "Business Development Manager",
+"role": "field_marketing",
+"email": "justin.bangay@airbyte.io"
+}
+]
+},
+{
+"brand": "Augment Code",
+"people": [
+{
+"name": "Nick Wagner",
+"title": "Chief Revenue Officer (CRO)",
+"role": "decision_maker",
+"email": "nickwagner@augmentcode.com"
+},
+{
+"name": "Matt McClernan",
+"title": "Chief Executive Officer",
+"role": "vp_marketing",
+"email": "matt.mcclernan@augmentcode.com"
+}
+]
+},
+{
+"brand": "Checkout.com",
+"people": [
+{
+"name": "Mimi Hagan",
+"title": "Senior Specialist, Partnerships Marketing",
+"role": "decision_maker",
+"email": "mimi.hagan@checkout.com"
+},
+{
+"name": "Alize Amrani",
+"title": "Global Co-Marketing and Partnerships Manager",
+"role": "vp_marketing",
+"email": "alize.amrani@checkout.com"
+},
+{
+"name": "Emily Nuttall",
+"title": "Business Development",
+"role": "cro",
+"email": "emily.nuttall@checkout.com"
+},
+{
+"name": "Linus Gede",
+"title": "Business Development Specialist",
+"role": "field_marketing",
+"email": "linus.gede@checkout.com"
+}
+]
+},
+{
+"brand": "Coveo",
+"people": [
+{
+"name": "Simon Black",
+"title": "Director of Technical Marketing",
+"role": "decision_maker",
+"email": "sblack@coveo.com"
+},
+{
+"name": "Braden Pate",
+"title": "Director, Brand & Creative",
+"role": "vp_marketing",
+"email": "bpate@coveo.com"
+},
+{
+"name": "Angelo Georgescu",
+"title": "Sr. Director, Brand & Web",
+"role": "cro",
+"email": "ageorgescu@coveo.com"
+},
+{
+"name": "Brooke Davidson",
+"title": "Marketing Manager, ANZ",
+"role": "field_marketing",
+"email": "bdavidson@coveo.com"
+}
+]
+},
+{
+"brand": "Improbable",
+"people": [
+{
+"name": "Aashima Praveen",
+"title": "Interim Head of Marketing, Somnia",
+"role": "decision_maker",
+"email": "aashimapraveen@improbable.io"
+},
+{
+"name": "Nasir Ahmed",
+"title": "Digital Marketing",
+"role": "vp_marketing",
+"email": "nasir.ahmed@improbable.io"
+},
+{
+"name": "Anna Loske",
+"title": "Senior Marketing Manager",
+"role": "cro",
+"email": "annaloske@improbable.io"
+},
+{
+"name": "Leland Madren",
+"title": "Advisor & Prev Japan GTM Director, Partnerships, Improbable.io",
+"role": "field_marketing",
+"email": "lelandmadren@improbable.io"
+}
+]
+},
+{
+"brand": "Jellyfish",
+"people": [
+{
+"name": "Allison Nolan",
+"title": "Vice President, Product Marketing",
+"role": "decision_maker",
+"email": "allison.nolan@pantheon.io"
+},
+{
+"name": "Gail Axelrod",
+"title": "Senior Content Marketing Director",
+"role": "vp_marketing",
+"email": "gail.axelrod@jellyfish.co"
+},
+{
+"name": "Lauren Hamberg",
+"title": "Senior Product Marketing Director",
+"role": "cro",
+"email": "lauren.hamberg@jellyfish.co"
+},
+{
+"name": "Katie Nolan",
+"title": "Marketing Operations & AI Director",
+"role": "field_marketing",
+"email": "katie@jellyfish.co"
+}
+]
+},
+{
+"brand": "Sanity.io",
+"people": [
+{
+"name": "Jesus Requena",
+"title": "CMO",
+"role": "decision_maker",
+"email": "jesus.requena@sanity.io"
+},
+{
+"name": "Pal Braaten",
+"title": "Head of Growth Marketing",
+"role": "vp_marketing",
+"email": "paal@sanity.io"
+},
+{
+"name": "Knut Melvaer",
+"title": "Principal Developer Marketing Manager",
+"role": "cro",
+"email": "knut@sanity.io"
+},
+{
+"name": "Julie Askim",
+"title": "Marketing Events Manager",
+"role": "field_marketing",
+"email": "julie@sanity.io"
+}
+]
+},
+{
+"brand": "Sauce Labs",
+"people": [
+{
+"name": "Katie Peters",
+"title": "Senior Director of Marketing Operations",
+"role": "decision_maker",
+"email": "katelyn.peters@saucelabs.com"
+},
+{
+"name": "Katherine Chan",
+"title": "Marketing Automation",
+"role": "vp_marketing",
+"email": "katherine.chan@saucelabs.com"
+},
+{
+"name": "Corey Wilson",
+"title": "Sr. Marketing Operations Manager",
+"role": "cro",
+"email": "corey.wilson@saucelabs.com"
+},
+{
+"name": "Carlos Carvajal",
+"title": "Senior Product Marketing Manager",
+"role": "field_marketing",
+"email": "carlos.carvajal@saucelabs.com"
+}
+]
+},
+{
+"brand": "SingleStore",
+"people": [
+{
+"name": "Lance Turner",
+"title": "Vice President, Marketing & Demand Gen; Operations",
+"role": "decision_maker",
+"email": "lturner@singlestore.com"
+},
+{
+"name": "Randall Gibson",
+"title": "Head of Growth Marketing",
+"role": "vp_marketing",
+"email": "rgibson@singlestore.com"
+},
+{
+"name": "Helen Sollart",
+"title": "Senior Director of Marketing",
+"role": "cro",
+"email": "helen.sollart@singlestore.com"
+},
+{
+"name": "Valentin Danner",
+"title": "Director of Content Marketing, Global",
+"role": "field_marketing",
+"email": "vdanner@singlestore.com"
+}
+]
+},
+{
+"brand": "Webflow Inc.",
+"people": [
+{
+"name": "Nikki Silverberg",
+"title": "Senior Program Manager, Brand Marketing Operations",
+"role": "decision_maker",
+"email": "nikki.roth.silverberg@webflow.com"
+},
+{
+"name": "Alexander Diner",
+"title": "Director, Brand & Web Design",
+"role": "vp_marketing",
+"email": "alexander.diner@webflow.com"
+},
+{
+"name": "Nick Blackmon",
+"title": "Manager, Brand Studio",
+"role": "cro",
+"email": "nick.blackmon@webflow.com"
+},
+{
+"name": "Marc Andrews",
+"title": "Director, Brand Video",
+"role": "field_marketing",
+"email": "marc.andrews@webflow.com"
+}
+]
+},
+{
+"brand": "Yugabyte",
+"people": [
+{
+"name": "Ajay Khanna",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "ajay.khanna@yugabyte.com"
+},
+{
+"name": "Heather Hames",
+"title": "Events and Field Marketing - US",
+"role": "vp_marketing",
+"email": "heather.hames@yugabyte.com"
+},
+{
+"name": "Damani Watkins",
+"title": "Business Development",
+"role": "cro",
+"email": "damani.watkins@yugabyte.com"
+},
+{
+"name": "Anand Venkatesh",
+"title": "Founder & CEO",
+"role": "field_marketing",
+"email": "anand@ficustree.ai"
+}
+]
+},
+{
+"brand": "Aiven",
+"people": [
+{
+"name": "Riona Hegarty",
+"title": "Vice President Marketing",
+"role": "decision_maker",
+"email": "riona.hegarty@aiven.io"
+},
+{
+"name": "Uliana Belonogova",
+"title": "Marketing Campaign Manager",
+"role": "vp_marketing",
+"email": "uliana.belonogova@aiven.io"
+},
+{
+"name": "Kaisu Seppaelae",
+"title": "Revenue Marketing Specialist",
+"role": "cro",
+"email": "kaisu.seppala@aiven.io"
+},
+{
+"name": "Stepheni Hass",
+"title": "Sr. Revenue Marketing Manager",
+"role": "field_marketing",
+"email": "stepheni.hass@aiven.io"
+}
+]
+},
+{
+"brand": "Apollo GraphQL",
+"people": [
+{
+"name": "Eric Holzhauer",
+"title": "Vice President, Marketing",
+"role": "decision_maker",
+"email": "eric.holzhauer@apollographql.com"
+},
+{
+"name": "Angeline Bonin",
+"title": "Director Events Marketing",
+"role": "vp_marketing",
+"email": "angeline.bonin@apollographql.com"
+},
+{
+"name": "Kaitlyn Barnard",
+"title": "Principal Product Marketing Manager",
+"role": "cro",
+"email": "kaitlyn.barnard@apollographql.com"
+},
+{
+"name": "Ishwari Lokare",
+"title": "Principal Product Marketing Manager",
+"role": "field_marketing",
+"email": "ishwari.lokare@apollographql.com"
+}
+]
+},
+{
+"brand": "Aqua Security",
+"people": [
+{
+"name": "Mary Rose",
+"title": "Marketing Director",
+"role": "decision_maker",
+"email": "mary.rose@aquasec.com"
+},
+{
+"name": "Sean McGowan",
+"title": "Chief Revenue Officer",
+"role": "vp_marketing",
+"email": "sean.mcgowan@aquasec.com"
+},
+{
+"name": "Michael Dube",
+"title": "Chief Executive Officer",
+"role": "cro",
+"email": "michael.dube@aquasec.com"
+}
+]
+},
+{
+"brand": "Chainguard",
+"people": [
+{
+"name": "Rebecca Hendrickson",
+"title": "Social Media and Brand Marketing Manager",
+"role": "decision_maker",
+"email": "rebecca.hendrickson@chainguard.dev"
+},
+{
+"name": "Vicky McFarlane",
+"title": "Business Development Representative",
+"role": "vp_marketing",
+"email": "vicky.mcfarlane@chainguard.dev"
+},
+{
+"name": "Felix Schilling",
+"title": "Business Development Representative",
+"role": "cro",
+"email": "felix.schilling@chainguard.dev"
+},
+{
+"name": "Jeremiah Hansen",
+"title": "Business Development Representative",
+"role": "field_marketing",
+"email": "jeremiah.hansen@chainguard.dev"
+}
+]
+},
+{
+"brand": "CircleCI",
+"people": [
+{
+"name": "Gillian Kieser",
+"title": "Director of Brand Marketing",
+"role": "decision_maker",
+"email": "gillian@circleci.com"
+},
+{
+"name": "Tim Bush",
+"title": "Global Field & Community Marketing Director",
+"role": "vp_marketing",
+"email": "tim.bush@circleci.com"
+},
+{
+"name": "Joel Sierra",
+"title": "Marketing Manager",
+"role": "cro",
+"email": "joel.sierra@circleci.com"
+},
+{
+"name": "Emily Sakowski",
+"title": "Marketing Operations",
+"role": "field_marketing",
+"email": "emily@circleci.com"
+}
+]
+},
+{
+"brand": "CloudBees",
+"people": [
+{
+"name": "Johanie Marcoux",
+"title": "VP of Corporate Marketing",
+"role": "decision_maker",
+"email": "jmarcoux@cloudbees.com"
+},
+{
+"name": "Jacob Sagherian",
+"title": "Head of Marketing Operations",
+"role": "vp_marketing",
+"email": "jsagherian@cloudbees.com"
+},
+{
+"name": "Danister Almeida",
+"title": "Director, APAC Marketing & Director, Global Partner Marketing",
+"role": "cro",
+"email": "ddealmeida@cloudbees.com"
+},
+{
+"name": "Ashley Sawatsky",
+"title": "Editor in Chief",
+"role": "field_marketing",
+"email": "asawatsky@cloudbees.com"
+}
+]
+},
+{
+"brand": "Cloudinary",
+"people": [
+{
+"name": "Shelby Britton",
+"title": "VP Product Marketing",
+"role": "decision_maker",
+"email": "shelby.britton@cloudinary.com"
+},
+{
+"name": "Angie Geffen",
+"title": "SVP of Global Marketing",
+"role": "vp_marketing",
+"email": "angie.geffen@cloudinary.com"
+},
+{
+"name": "Lauren Saalmuller",
+"title": "Director of Content Marketing",
+"role": "cro",
+"email": "lauren.saalmuller@cloudinary.com"
+},
+{
+"name": "Mike Carley",
+"title": "Director of Product Marketing - Developer (B2D) Marketing & PLG",
+"role": "field_marketing",
+"email": "mike.carley@cloudinary.com"
+}
+]
+},
+{
+"brand": "Coralogix",
+"people": [
+{
+"name": "Brian Mullen",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "brian.mullen@coralogix.com"
+},
+{
+"name": "Stephanie Suriyakam",
+"title": "VP of Demand Generation & Field Marketing",
+"role": "vp_marketing",
+"email": "stephanie.suriyakam@coralogix.com"
+},
+{
+"name": "Dana Cohen",
+"title": "Senior Director of Global Talent Acquisition | Employer Brand Leader",
+"role": "cro",
+"email": "dana.cohen@coralogix.com"
+},
+{
+"name": "Sivan Lahav",
+"title": "Creative Brand & Marketing Designer",
+"role": "field_marketing",
+"email": "sivan.lahav@coralogix.com"
+}
+]
+},
+{
+"brand": "DataArt",
+"people": [
+{
+"name": "Rita Kuyumcuyan",
+"title": "Partnerships Marketing Manager",
+"role": "decision_maker",
+"email": "rita.kuyumcuyan@dataart.com"
+},
+{
+"name": "Inna Tymofeieva",
+"title": "Marketing Lead",
+"role": "vp_marketing",
+"email": "inna.tymofeieva@dataart.com"
+},
+{
+"name": "Nadezda Smorodina",
+"title": "Marketing Specialist",
+"role": "cro",
+"email": "nadezda.smorodina@dataart.com"
+},
+{
+"name": "Santiago Villarmarzo",
+"title": "Marketing Specialist",
+"role": "field_marketing",
+"email": "santiago.villarmarzo@dataart.com"
+}
+]
+},
+{
+"brand": "Docker Inc.",
+"people": [
+{
+"name": "Ashley Guillou",
+"title": "Vice President, Product Marketing",
+"role": "decision_maker",
+"email": "ashley.guillou@docker.com"
+},
+{
+"name": "Marie Didominica",
+"title": "Head of Growth Marketing",
+"role": "vp_marketing",
+"email": "marie.didominica@docker.com"
+},
+{
+"name": "Caroline Wiemann",
+"title": "Head of Marketing, APJ",
+"role": "cro",
+"email": "caroline.wiemann@docker.com"
+},
+{
+"name": "Gineen Finch",
+"title": "Sr. Director Brand Content and Audience",
+"role": "field_marketing",
+"email": "gineen.finch@docker.com"
+}
+]
+},
+{
+"brand": "Exadel",
+"people": [
+{
+"name": "Kateryna Vaityshyna",
+"title": "Head of Marketing Analytics and Social Media",
+"role": "decision_maker",
+"email": "kvaityshyna@exadel.com"
+},
+{
+"name": "Denitsa Dobreva",
+"title": "Marketing Specialist",
+"role": "vp_marketing",
+"email": "ddobreva@exadel.com"
+},
+{
+"name": "Mariam Todua",
+"title": "Marketing Specialist",
+"role": "cro",
+"email": "mtodua@exadel.com"
+},
+{
+"name": "Maryna Kravchenko",
+"title": "Marketing Content Specialist",
+"role": "field_marketing",
+"email": "mkravchenko@exadel.com"
+}
+]
+},
+{
+"brand": "Harness Inc.",
+"people": [
+{
+"name": "Danielle Gazitt",
+"title": "VP of Corporate Marketing",
+"role": "decision_maker",
+"email": "danielle.gazitt@harness.io"
+},
+{
+"name": "Chinmay Gaikwad",
+"title": "Director of Product Marketing",
+"role": "vp_marketing",
+"email": "chinmay.gaikwad@harness.io"
+},
+{
+"name": "Alex Peterson",
+"title": "Director of Growth Marketing",
+"role": "cro",
+"email": "john.peterson@harness.io"
+},
+{
+"name": "Ross O'Neill",
+"title": "Senior Director, Marketing EMEA",
+"role": "field_marketing",
+"email": "ross.oneill@harness.io"
+}
+]
+},
+{
+"brand": "Jitterbit Inc.",
+"people": [
+{
+"name": "Geoff Blaine",
+"title": "Chief Marketing Officer (CMO) & SVP Corporate Communication",
+"role": "decision_maker",
+"email": "geoff.blaine@jitterbit.com"
+},
+{
+"name": "Carole Achramowicz",
+"title": "Vice President Product Marketing",
+"role": "vp_marketing",
+"email": "carole.achramowicz@jitterbit.com"
+},
+{
+"name": "Kunal Mehta",
+"title": "Director, Product Marketing",
+"role": "cro",
+"email": "kunal.mehta@jitterbit.com"
+},
+{
+"name": "Diane Walker",
+"title": "Senior Director of Marketing",
+"role": "field_marketing",
+"email": "diane.walker@jitterbit.com"
+}
+]
+},
+{
+"brand": "Kong Inc.",
+"people": [
+{
+"name": "Krista Evans",
+"title": "Talent Brand Manager",
+"role": "decision_maker",
+"email": "krista.evans@konghq.com"
+},
+{
+"name": "Fernando Machuca",
+"title": "Lead Brand & Communications Designer",
+"role": "vp_marketing",
+"email": "fernando.machuca@konghq.com"
+},
+{
+"name": "Adam Jacobs",
+"title": "Marketing Manager",
+"role": "cro",
+"email": "adam.jacobs@konghq.com"
+},
+{
+"name": "Fen Wong",
+"title": "Field Marketing",
+"role": "field_marketing",
+"email": "yinfen.wong@konghq.com"
+}
+]
+},
+{
+"brand": "LaunchDarkly",
+"people": [
+{
+"name": "Justin Engelland",
+"title": "VP of Marketing",
+"role": "decision_maker",
+"email": "jengelland@launchdarkly.com"
+},
+{
+"name": "Alex Lawrence",
+"title": "Director of Technical Marketing",
+"role": "vp_marketing",
+"email": "alawrence@launchdarkly.com"
+},
+{
+"name": "Bhargav Brahmbhatt",
+"title": "Director of Product Marketing",
+"role": "cro",
+"email": "bbrahmbhatt@launchdarkly.com"
+},
+{
+"name": "Shanna Wagnor",
+"title": "Head of Partner Marketing",
+"role": "field_marketing",
+"email": "swagnor@launchdarkly.com"
+}
+]
+},
+{
+"brand": "Neo4j Inc.",
+"people": [
+{
+"name": "Kavya Hemachander",
+"title": "Head of Marketing - India",
+"role": "decision_maker",
+"email": "kavya.hemachander@neo4j.com"
+},
+{
+"name": "Joann Neuhaus",
+"title": "Director, Field Marketing",
+"role": "vp_marketing",
+"email": "graphsummit_boston@neotechnology.com"
+},
+{
+"name": "Nithya Raman",
+"title": "APAC Marketing Director",
+"role": "cro",
+"email": "nithya.raman@neo4j.com"
+},
+{
+"name": "Susanne Brunner",
+"title": "Senior Director of Marketing",
+"role": "field_marketing",
+"email": "susanne.brunner@neo4j.com"
+}
+]
+},
+{
+"brand": "Netlify",
+"people": [
+{
+"name": "Carly Brantz",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "carly.brantz@netlify.com"
+},
+{
+"name": "Gehrig Kunz",
+"title": "Principal Product Marketing Manager",
+"role": "vp_marketing",
+"email": "gehrig.kunz@netlify.com"
+},
+{
+"name": "Megan O'Brien",
+"title": "Senior Partner Marketing Manager",
+"role": "cro",
+"email": "megan.obrien@netlify.com"
+},
+{
+"name": "Raymond Abella",
+"title": "Business Development Specialist",
+"role": "field_marketing",
+"email": "raymond.abella@netlify.com"
+}
+]
+},
+{
+"brand": "OpenText",
+"people": [
+{
+"name": "Kirsten Marlatt",
+"title": "Sr. Director, Creative & Brand Marketing",
+"role": "decision_maker",
+"email": "kmarlatt@opentext.com"
+},
+{
+"name": "Erika Huebbers",
+"title": "Director Marketing",
+"role": "vp_marketing",
+"email": "erika.huebbers@opentext.com"
+},
+{
+"name": "James Nagy",
+"title": "Lead Brand Content Writer",
+"role": "cro",
+"email": "nagyj@opentext.com"
+},
+{
+"name": "Dolly Solanki",
+"title": "Marketing Manager",
+"role": "field_marketing",
+"email": "dsolanki@opentext.com"
+}
+]
+},
+{
+"brand": "Orca Security",
+"people": [
+{
+"name": "Rachel Nislick",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "rachel.nislick@orca.security"
+},
+{
+"name": "Barret Guild",
+"title": "Senior Director of Revenue Marketing",
+"role": "vp_marketing",
+"email": "barret.guild@orca.security"
+},
+{
+"name": "Elliott Gilliland",
+"title": "Head of Marketing Operations",
+"role": "cro",
+"email": "elliott.gilliland@axonius.com"
+},
+{
+"name": "Isaiah Walker",
+"title": "Sr. Director, Campaign & Pipeline Marketing",
+"role": "field_marketing",
+"email": "isaiah@orca.security"
+}
+]
+},
+{
+"brand": "Plaid Inc.",
+"people": [
+{
+"name": "Dani McDonald",
+"title": "Head of Brand Marketing",
+"role": "decision_maker",
+"email": "dmcdonald@plaid.com"
+},
+{
+"name": "David Suen",
+"title": "Partnerships",
+"role": "vp_marketing",
+"email": "dsuen@plaid.com"
+},
+{
+"name": "Jackie Endres",
+"title": "Partnerships",
+"role": "cro",
+"email": "jendres@plaid.com"
+},
+{
+"name": "Isabel Wyer",
+"title": "Partnerships",
+"role": "field_marketing",
+"email": "iwyer@plaid.com"
+}
+]
+},
+{
+"brand": "Postman Inc.",
+"people": [
+{
+"name": "Shruthi Venkatesh",
+"title": "Head of Marketing Creative",
+"role": "decision_maker",
+"email": "shruthi.venka@postman.com"
+},
+{
+"name": "Maria Jiang",
+"title": "Head of Integrated Marketing",
+"role": "vp_marketing",
+"email": "maria.jiang@postman.com"
+},
+{
+"name": "Ling Han",
+"title": "Head of Revenue Marketing",
+"role": "cro",
+"email": "ling.han@postman.com"
+},
+{
+"name": "Pratiksha Chindaliya",
+"title": "Field Marketing Manager",
+"role": "field_marketing",
+"email": "pratiksha.chindaliya@postman.com"
+}
+]
+},
+{
+"brand": "Sentry (Functional Software)",
+"people": [
+{
+"name": "Rahul Chhabria",
+"title": "VP of Marketing",
+"role": "decision_maker",
+"email": "rahul.chhabria@sentry.io"
+},
+{
+"name": "Alea Abed",
+"title": "Head of Enterprise Marketing",
+"role": "vp_marketing",
+"email": "alea.abed@sentry.io"
+},
+{
+"name": "Christine Gan",
+"title": "Lead Brand Designer",
+"role": "cro",
+"email": "christine.gan@sentry.io"
+},
+{
+"name": "Sarah Teng",
+"title": "Marketing",
+"role": "field_marketing",
+"email": "sarah.teng@sentry.io"
+}
+]
+},
+{
+"brand": "Sonar (SonarSource)",
+"people": [
+{
+"name": "Manish Kapur",
+"title": "VP at Sonar | Product and Solutions Marketing",
+"role": "decision_maker",
+"email": "manish.kapur@sonarsource.com"
+},
+{
+"name": "Tom Deahl",
+"title": "Director, Growth Marketing",
+"role": "vp_marketing",
+"email": "tom.deahl@sonarsource.com"
+},
+{
+"name": "Anirban Chatterjee",
+"title": "Senior Director of Product Marketing",
+"role": "cro",
+"email": "anirban.chatterjee@sonarsource.com"
+},
+{
+"name": "Marissa Naab",
+"title": "Customer Marketing Manager",
+"role": "field_marketing",
+"email": "marissa.naab@sonarsource.com"
+}
+]
+},
+{
+"brand": "Sysdig",
+"people": [
+{
+"name": "Ryan Davis",
+"title": "VP, Marketing",
+"role": "decision_maker",
+"email": "ryan.davis@sysdig.com"
+},
+{
+"name": "Irene Inglessis",
+"title": "Head of Marketing, Semea",
+"role": "vp_marketing",
+"email": "irene.inglessis@sysdig.com"
+},
+{
+"name": "Susan Stone",
+"title": "Head of Customer Advocacy Marketing",
+"role": "cro",
+"email": "susan.stone@sysdig.com"
+},
+{
+"name": "Amanda Smith",
+"title": "Senior Director of Corporate Marketing & Communications",
+"role": "field_marketing",
+"email": "amanda.smith@sysdig.com"
+}
+]
+},
+{
+"brand": "Port",
+"people": [
+{
+"name": "Edan Tal",
+"title": "VP of Marketing",
+"role": "decision_maker",
+"email": "edan.tal@port.io"
+},
+{
+"name": "Michael Douglas",
+"title": "Product Marketing",
+"role": "vp_marketing",
+"email": "michaeld@port.io"
+},
+{
+"name": "Meny Yanko",
+"title": "Marketing Designer",
+"role": "cro",
+"email": "menyy@port.io"
+}
+]
+},
+{
+"brand": "SoftServe",
+"people": [
+{
+"name": "Iryna Koshyk",
+"title": "Head of Employer Brand",
+"role": "decision_maker",
+"email": "ikoshy@softserveinc.com"
+},
+{
+"name": "Anna Yevseieva",
+"title": "Senior Brand Manager",
+"role": "vp_marketing",
+"email": "ayevs@softserveinc.com"
+},
+{
+"name": "Khrystyna Shabalkina",
+"title": "Employer Brand Lead",
+"role": "cro",
+"email": "kshaba@softserveinc.com"
+},
+{
+"name": "Mykhailo Bekh",
+"title": "Junior Brand Manager",
+"role": "field_marketing",
+"email": "mbekh@softserveinc.com"
+}
+]
+},
+{
+"brand": "Mirantis",
+"people": [
+{
+"name": "Grace Shin",
+"title": "Director of Global Field Marketing",
+"role": "decision_maker",
+"email": "gshin@mirantis.com"
+},
+{
+"name": "Chris Kim",
+"title": "Director, GTM Marketing Reporting & Analytics",
+"role": "vp_marketing",
+"email": "ckim@mirantis.com"
+},
+{
+"name": "Feiyang Gu",
+"title": "Marketing Manager",
+"role": "cro",
+"email": "fgu@mirantis.com"
+},
+{
+"name": "Veronica Goldman",
+"title": "Event Marketing Manager",
+"role": "field_marketing",
+"email": "vgoldman@mirantis.com"
+}
+]
+},
+{
+"brand": "Solo.io",
+"people": [
+{
+"name": "Rose Sawvel",
+"title": "Senior Director, Product Marketing",
+"role": "decision_maker",
+"email": "rose.sawvel@solo.io"
+},
+{
+"name": "Sarah Nguyen",
+"title": "Performance Marketing Manager",
+"role": "vp_marketing",
+"email": "sarah.nguyen@solo.io"
+},
+{
+"name": "Kaylee Jones",
+"title": "Growth Marketing Specialist",
+"role": "cro",
+"email": "kaylee.jones@solo.io"
+},
+{
+"name": "Tricia Murtha",
+"title": "Manager, Growth & Digital Marketing",
+"role": "field_marketing",
+"email": "tricia.murtha@solo.io"
+}
+]
+},
+{
+"brand": "Alation",
+"people": [
+{
+"name": "Ankur Gupta",
+"title": "Director of Product Marketing",
+"role": "decision_maker",
+"email": "ankur.gupta@alation.com"
+},
+{
+"name": "Talo Szem",
+"title": "Head of Content Marketing",
+"role": "vp_marketing",
+"email": "talo.szem@alation.com"
+},
+{
+"name": "Ashley Womack",
+"title": "Sr. Director of Corporate Marketing",
+"role": "cro",
+"email": "ashley.womack@alation.com"
+},
+{
+"name": "Meghan Lesh",
+"title": "Senior Product Marketing Manager",
+"role": "field_marketing",
+"email": "meghan.brill@alation.com"
+}
+]
+},
+{
+"brand": "Andersen Lab",
+"people": [
+{
+"name": "Inna Zhvava",
+"title": "Partnerships Manager - Marketing Services",
+"role": "decision_maker",
+"email": "inna.zhvava@andersenlab.com"
+},
+{
+"name": "Tamara Sharipina",
+"title": "Business Development Specialist",
+"role": "vp_marketing",
+"email": "t.sharipina@andersenlab.com"
+},
+{
+"name": "Zuzanna Rozen",
+"title": "Partnerships Manager",
+"role": "cro",
+"email": "z.rozen@andersenlab.com"
+},
+{
+"name": "Helen Pavlova",
+"title": "Partnerships Manager",
+"role": "field_marketing",
+"email": "h.pavlova@andersenlab.com"
+}
+]
+},
+{
+"brand": "Apiiro",
+"people": []
+},
+{
+"brand": "BairesDev",
+"people": [
+{
+"name": "Beatriz Mitsunaga",
+"title": "Business Development Partnerships Team Manager",
+"role": "decision_maker",
+"email": "mitsunaga.beatriz@bairesdev.com"
+},
+{
+"name": "James Miller",
+"title": "Business Development",
+"role": "vp_marketing",
+"email": "jmiller@bairesdev.com"
+},
+{
+"name": "Paul Baker",
+"title": "Director of Partnerships",
+"role": "cro",
+"email": "p.baker@bairesdev.com"
+},
+{
+"name": "Ian Krassner",
+"title": "Director of Partnerships",
+"role": "field_marketing",
+"email": "ian.krassner@bairesdev.com"
+}
+]
+},
+{
+"brand": "Black Duck",
+"people": [
+{
+"name": "Patrick Carey",
+"title": "Vice President, Product Marketing",
+"role": "decision_maker",
+"email": "patrick.carey@blackduck.com"
+},
+{
+"name": "Rie Sekine",
+"title": "Head of Marketing, Japan",
+"role": "vp_marketing",
+"email": "rsekine@blackduck.com"
+},
+{
+"name": "Scott Handy",
+"title": "Head of Global Content Marketing",
+"role": "cro",
+"email": "handy@blackduck.com"
+},
+{
+"name": "Mark Van Elderen",
+"title": "Senior Director of Awareness Marketing",
+"role": "field_marketing",
+"email": "mark.vanelderen@blackduck.com"
+}
+]
+},
+{
+"brand": "Collibra",
+"people": [
+{
+"name": "Chirag Dhull",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "chirag.dhull@collibra.com"
+},
+{
+"name": "Mary Labuda",
+"title": "Vice President, Growth Marketing",
+"role": "vp_marketing",
+"email": "marybeth.labuda@collibra.com"
+},
+{
+"name": "David Talaga",
+"title": "Product Marketing Director",
+"role": "cro",
+"email": "david.talaga@collibra.com"
+},
+{
+"name": "Michael Rahm",
+"title": "Senior Director, Product Marketing",
+"role": "field_marketing",
+"email": "michael.rahm@collibra.com"
+}
+]
+},
+{
+"brand": "Contrast Security",
+"people": [
+{
+"name": "Shay Mowlem",
+"title": "CMO",
+"role": "decision_maker",
+"email": "shay.mowlem@contrastsecurity.com"
+},
+{
+"name": "Tara Ryan",
+"title": "Chief Marketing Officer",
+"role": "vp_marketing",
+"email": "tara.ryan@contrastsecurity.com"
+},
+{
+"name": "Orlando Debruce",
+"title": "Global Vice President, Corporate Marketing",
+"role": "cro",
+"email": "orlando.debruce@contrastsecurity.com"
+},
+{
+"name": "Jake Milstein",
+"title": "Head of Healthcare Solutions Marketing",
+"role": "field_marketing",
+"email": "jake.milstein@contrastsecurity.com"
+}
+]
+},
+{
+"brand": "ELEKS",
+"people": [
+{
+"name": "Nataliia Vovk",
+"title": "Brand Design Manager",
+"role": "decision_maker",
+"email": "nataliia.vovk@eleks.com"
+},
+{
+"name": "Marta Horvath",
+"title": "Marketing Specialist",
+"role": "vp_marketing",
+"email": "marta.horvath@eleks.com"
+},
+{
+"name": "Kamil Hyckowski",
+"title": "Digital Marketing Specialist",
+"role": "cro",
+"email": "kamil.hyckowski@eleks.com"
+},
+{
+"name": "Tetiana Barlozhetska",
+"title": "Partnerships Manager",
+"role": "field_marketing",
+"email": "tetiana.barlozhetska@eleks.com"
+}
+]
+},
+{
+"brand": "erwin (Quest Software)",
+"people": []
+},
+{
+"brand": "GitGuardian",
+"people": [
+{
+"name": "Carole Winqwist",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "carole.winqwist@gitguardian.com"
+},
+{
+"name": "Lauren Saenz",
+"title": "Global Head of Field Marketing",
+"role": "vp_marketing",
+"email": "lauren.saenz@gitguardian.com"
+},
+{
+"name": "Katie Dematteis",
+"title": "Director of Content and Brand",
+"role": "cro",
+"email": "katie.dematteis@gitguardian.com"
+},
+{
+"name": "Ben Martinmooney",
+"title": "Product Marketing Manager",
+"role": "field_marketing",
+"email": "ben.martinmooney@gitguardian.com"
+}
+]
+},
+{
+"brand": "Innowise Group",
+"people": [
+{
+"name": "Linda Platz",
+"title": "Partnerships & Business Development Specialist",
+"role": "decision_maker",
+"email": "linda.platz@innowise.com"
+},
+{
+"name": "Lisa Vera",
+"title": "Partnerships Manager",
+"role": "vp_marketing",
+"email": "lisa.v@innowise-group.com"
+},
+{
+"name": "Diana Davydenko",
+"title": "Business Development Manager",
+"role": "cro",
+"email": "diana.davydenko@innowise.com"
+},
+{
+"name": "Katia Demidenko",
+"title": "Business Development Manager",
+"role": "field_marketing",
+"email": "ekaterina.demidenko@innowise-group.com"
+}
+]
+},
+{
+"brand": "Intellias",
+"people": [
+{
+"name": "Nataliia Kotyk",
+"title": "Global Marketing Director",
+"role": "decision_maker",
+"email": "nataliia.kotyk@intellias.com"
+},
+{
+"name": "Roman Smolin",
+"title": "Head of Global Digital Marketing",
+"role": "vp_marketing",
+"email": "roman.smolin@intellias.com"
+},
+{
+"name": "Anna Lebedieva",
+"title": "Global Talent Marketing Director",
+"role": "cro",
+"email": "anna.lebedieva@intellias.com"
+},
+{
+"name": "Darya Boyko",
+"title": "Marketing and Communications",
+"role": "field_marketing",
+"email": "darya.boyko@intellias.com"
+}
+]
+},
+{
+"brand": "Lokalise",
+"people": [
+{
+"name": "Brittany Wolfe",
+"title": "Director of Revenue Marketing",
+"role": "decision_maker",
+"email": "brittany.wolfe@lokalise.com"
+},
+{
+"name": "Pradip Lal",
+"title": "Head of Product Marketing",
+"role": "vp_marketing",
+"email": "pradip.lal@lokalise.com"
+},
+{
+"name": "Anatoly Vjalihs",
+"title": "Senior Lead of Brand Design",
+"role": "cro",
+"email": "anatolijs@lokalise.com"
+},
+{
+"name": "Katie Foster",
+"title": "Marketing Leader",
+"role": "field_marketing",
+"email": "katie.foster@lokalise.com"
+}
+]
+},
+{
+"brand": "Lovable AB",
+"people": [
+{
+"name": "Ash Oliver",
+"title": "New Media Manager, Brand Marketing",
+"role": "decision_maker",
+"email": "ash.oliver@lovable.dev"
+},
+{
+"name": "Henrik Westerlund",
+"title": "Marketing",
+"role": "vp_marketing",
+"email": "henrik@lovable.dev"
+},
+{
+"name": "Ellie Stuvland",
+"title": "Marketing",
+"role": "cro",
+"email": "ellie.stuvland@lovable.dev"
+},
+{
+"name": "Johanna Ydergard",
+"title": "Marketing",
+"role": "field_marketing",
+"email": "johanna@lovable.dev"
+}
+]
+},
+{
+"brand": "Magic AI",
+"people": [
+{
+"name": "Eric Steinberger",
+"title": "Co-founder & CEO",
+"role": "decision_maker",
+"email": "eric@magic.dev"
+}
+]
+},
+{
+"brand": "Mendix",
+"people": [
+{
+"name": "Koen Van Beek",
+"title": "Director of Product Marketing",
+"role": "decision_maker",
+"email": "koen.van.beek@mendix.com"
+},
+{
+"name": "Rachel Yin",
+"title": "Head of APAC Marketing",
+"role": "vp_marketing",
+"email": "rachel.xie@mendix.com"
+},
+{
+"name": "Joe Robertson",
+"title": "Head of Technical Solutions Marketing",
+"role": "cro",
+"email": "joe.robertson@mendix.com"
+},
+{
+"name": "Heather Hammel",
+"title": "Senior Director, Growth / Head of Corporate Marketing",
+"role": "field_marketing",
+"email": "heather.hammel@mendix.com"
+}
+]
+},
+{
+"brand": "Miratech",
+"people": [
+{
+"name": "James Coleman",
+"title": "Vice President, Head of Global Marketing and Communications",
+"role": "decision_maker",
+"email": "james.coleman@miratechgroup.com"
+},
+{
+"name": "Cristina Ionita",
+"title": "Marketing Content Manager",
+"role": "vp_marketing",
+"email": "cristina.ionita@miratechgroup.com"
+}
+]
+},
+{
+"brand": "N-iX",
+"people": [
+{
+"name": "Mayur Pitamber",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "mpitamber@n-ix.com"
+},
+{
+"name": "Veronika Chebotarova",
+"title": "Head of Marketing",
+"role": "vp_marketing",
+"email": "vchebotarova@n-ix.com"
+},
+{
+"name": "Oleksiy Goncharov",
+"title": "Senior Marketing Director",
+"role": "cro",
+"email": "ohoncharov@n-ix.com"
+},
+{
+"name": "Yuriy Tereshchuk",
+"title": "Head of Global Marketing",
+"role": "field_marketing",
+"email": "ytereshchuk@n-ix.com"
+}
+]
+},
+{
+"brand": "Poolside AI",
+"people": [
+{
+"name": "Arina Sugako",
+"title": "Marketing Manager",
+"role": "decision_maker",
+"email": "arina@poolside.ai"
+},
+{
+"name": "Andrea Serra",
+"title": "Business Development",
+"role": "vp_marketing",
+"email": "andrea@poolside.ai"
+},
+{
+"name": "Jason Warner",
+"title": "Co-CEO & Co-Founder",
+"role": "cro",
+"email": "jason@poolside.ai"
+},
+{
+"name": "Eiso Kant",
+"title": "Co-CEO & Co-Founder",
+"role": "field_marketing",
+"email": "eiso@poolside.ai"
+}
+]
+},
+{
+"brand": "Render",
+"people": [
+{
+"name": "Vivek Ravishankar",
+"title": "Head of Product Marketing",
+"role": "decision_maker",
+"email": "vivek@render.com"
+},
+{
+"name": "Graham Hunter",
+"title": "Startup Marketing & VC Partnerships",
+"role": "vp_marketing",
+"email": "graham.hunter@render.com"
+},
+{
+"name": "Azzam Aijazi",
+"title": "Product Marketing",
+"role": "cro",
+"email": "azzam@render.com"
+},
+{
+"name": "Hariram Sankaran",
+"title": "Staff Product Marketing Manager",
+"role": "field_marketing",
+"email": "hariram@render.com"
+}
+]
+},
+{
+"brand": "Salt Security",
+"people": [
+{
+"name": "Michael Callahan",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "michaelc@salt.security"
+},
+{
+"name": "Marshall Darbyshire",
+"title": "Business Development",
+"role": "vp_marketing",
+"email": "marshalld@salt.security"
+},
+{
+"name": "Jeremy Rymanowski",
+"title": "Business Development Lead",
+"role": "cro",
+"email": "jeremyr@salt.security"
+},
+{
+"name": "Ashley Heiblum",
+"title": "Senior Business Development Representative",
+"role": "field_marketing",
+"email": "ashleyh@salt.security"
+}
+]
+},
+{
+"brand": "Sigma Software Group",
+"people": [
+{
+"name": "Tetiana Bolotna",
+"title": "Junior Marketing Manager",
+"role": "decision_maker",
+"email": "tetiana.bolotna@sigma.software"
+},
+{
+"name": "Nahla Abdelhamid",
+"title": "Directrice Marketing & \u00c9v\u00e9nements",
+"role": "vp_marketing",
+"email": "nahla.abdelhamid@sigma.software"
+},
+{
+"name": "Dariya Skliarenko",
+"title": "Social Media Marketing Manager",
+"role": "cro",
+"email": "dariya.skliarenko@sigma.software"
+},
+{
+"name": "Anastasiia Khmelovska",
+"title": "Marketing & PR",
+"role": "field_marketing",
+"email": "anastasiia.khmelovska@sigma.software"
+}
+]
+},
+{
+"brand": "Stibo Systems",
+"people": [
+{
+"name": "Gustavo Amorim",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "guam@stibosystems.com"
+},
+{
+"name": "Shelley Fulghum",
+"title": "Director, Corporate Marketing",
+"role": "vp_marketing",
+"email": "shef@stibosystems.com"
+},
+{
+"name": "Delphine Alary",
+"title": "Director of Field Marketing Management EMEA & APJ",
+"role": "cro",
+"email": "deal@stibosystems.com"
+},
+{
+"name": "Michelle Hogarth",
+"title": "Senior Director, Marketing Operations and AI Strategy",
+"role": "field_marketing",
+"email": "miho@stibosystems.com"
+}
+]
+},
+{
+"brand": "STX Next",
+"people": [
+{
+"name": "Aleksandra Wykrota",
+"title": "Head of Marketing",
+"role": "decision_maker",
+"email": "aleksandra.wykrota@stxnext.pl"
+},
+{
+"name": "Julia Maciejczuk",
+"title": "Marketing Team Lead",
+"role": "vp_marketing",
+"email": "julia.maciejczuk@stxnext.pl"
+},
+{
+"name": "Agata Olbrycht",
+"title": "Senior Content Marketing Specialist",
+"role": "cro",
+"email": "agata.olbrycht@stxnext.com"
+},
+{
+"name": "Pawel Hojcz",
+"title": "Head of Strategic Partnerships",
+"role": "field_marketing",
+"email": "pawel.hojcz@stxnext.pl"
+}
+]
+},
+{
+"brand": "Supabase Inc.",
+"people": [
+{
+"name": "Jessica Losquadro",
+"title": "Head of Field Marketing",
+"role": "decision_maker",
+"email": "jessica.losquadro@supabase.io"
+},
+{
+"name": "Craig Cannon",
+"title": "Head of Developer Relations and Marketing",
+"role": "vp_marketing",
+"email": "craig@supabase.io"
+},
+{
+"name": "Ana Mogul",
+"title": "Product Marketing",
+"role": "cro",
+"email": "ana@supabase.com"
+},
+{
+"name": "Amy Quek",
+"title": "Marketing Operations",
+"role": "field_marketing",
+"email": "amy@supabase.io"
+}
+]
+},
+{
+"brand": "Syniti",
+"people": [
+{
+"name": "Melissa Collins",
+"title": "Senior Manager, Head of EMEA & APJ Marketing",
+"role": "decision_maker",
+"email": "melissa.collins@syniti.com"
+},
+{
+"name": "Eoline Cloarec",
+"title": "Marketing Specialist",
+"role": "vp_marketing",
+"email": "eoline.cloarec@syniti.com"
+},
+{
+"name": "Kayla Knowles",
+"title": "Marketing Communications Manager",
+"role": "cro",
+"email": "kayla.knowles@syniti.com"
+},
+{
+"name": "Whitney Dokes",
+"title": "Senior Marketing Specialist",
+"role": "field_marketing",
+"email": "whitney.dokes@syniti.com"
+}
+]
+},
+{
+"brand": "Toptal",
+"people": [
+{
+"name": "Claudio Lombardo",
+"title": "Marketing Director",
+"role": "decision_maker",
+"email": "claudio.lombardo@toptal.com"
+},
+{
+"name": "Florencia Sylvester",
+"title": "Director of Marketing",
+"role": "vp_marketing",
+"email": "florencia.sylvester@toptal.com"
+},
+{
+"name": "Nanda Boccatto",
+"title": "Brand Design Lead",
+"role": "cro",
+"email": "nanda.boccatto@toptal.com"
+},
+{
+"name": "Veronique Lacroix",
+"title": "Brand &amp; Creative Leader",
+"role": "field_marketing",
+"email": "veronique.lacroix@toptal.com"
+}
+]
+},
+{
+"brand": "Trilogy",
+"people": []
+},
+{
+"brand": "X-Team",
+"people": [
+{
+"name": "Anthony Gomez",
+"title": "Business Development",
+"role": "decision_maker",
+"email": "anthony.gomez@x-team.com"
+},
+{
+"name": "Heather Abell",
+"title": "Enterprise Business Development",
+"role": "vp_marketing",
+"email": "heather.abell@x-team.com"
+},
+{
+"name": "Amit Sion",
+"title": "Chief Executive Officer",
+"role": "cro",
+"email": "amit@x-team.com"
+}
+]
+},
+{
+"brand": "Bitrise",
+"people": [
+{
+"name": "Laura Hauser",
+"title": "Vice President Marketing",
+"role": "decision_maker",
+"email": "laura.hauser@unitary.ai"
+},
+{
+"name": "David Banki",
+"title": "Senior Marketing Manager",
+"role": "vp_marketing",
+"email": "david.banki@bitrise.io"
+},
+{
+"name": "Krisztian Kalman",
+"title": "Digital Marketing Manager",
+"role": "cro",
+"email": "krisztian.kalman@bitrise.io"
+},
+{
+"name": "Gergely Kardos",
+"title": "Senior Marketing Operations Manager",
+"role": "field_marketing",
+"email": "gergely.kardos@bitrise.io"
+}
+]
+},
+{
+"brand": "Camunda",
+"people": [
+{
+"name": "Ryan Shopp",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "ryan.shopp@camunda.com"
+},
+{
+"name": "Justin Vaughan-Brown",
+"title": "VP Product Marketing & Strategic Communications",
+"role": "vp_marketing",
+"email": "justin.vaughanbrown@camunda.com"
+},
+{
+"name": "Phillipine Soerje",
+"title": "Director Event Marketing",
+"role": "cro",
+"email": "phillipine.soerje@camunda.com"
+},
+{
+"name": "Virginie Maillet",
+"title": "Senior Director Field and Partner Marketing",
+"role": "field_marketing",
+"email": "virginie.maillet@camunda.com"
+}
+]
+},
+{
+"brand": "Celigo",
+"people": [
+{
+"name": "April Rassa",
+"title": "Vice President Product Marketing",
+"role": "decision_maker",
+"email": "april.rassa@celigo.com"
+},
+{
+"name": "Natasha Kelly",
+"title": "VP of Corporate Marketing",
+"role": "vp_marketing",
+"email": "natasha.kelly@celigo.com"
+},
+{
+"name": "Kristin Melville",
+"title": "Vice President, Revenue Marketing",
+"role": "cro",
+"email": "kristin@celigo.co"
+},
+{
+"name": "Tal Valler",
+"title": "Senior Director of Marketing",
+"role": "field_marketing",
+"email": "tal.valler@celigo.com"
+}
+]
+},
+{
+"brand": "GoodData",
+"people": [
+{
+"name": "Martin Hosek",
+"title": "Head of Marketing",
+"role": "decision_maker",
+"email": "martin.hosek@gooddata.com"
+},
+{
+"name": "Roman Stanek",
+"title": "Founder, CEO",
+"role": "vp_marketing",
+"email": "roman@gooddata.com"
+}
+]
+},
+{
+"brand": "Perficient",
+"people": [
+{
+"name": "Adam Reichwein",
+"title": "Marketing Manager",
+"role": "decision_maker",
+"email": "adam.reichwein@perficient.com"
+},
+{
+"name": "Monique Anderson",
+"title": "Marketing Manager",
+"role": "vp_marketing",
+"email": "monique.anderson@perficient.com"
+},
+{
+"name": "Raj Ganesh",
+"title": "Marketing Coordinator",
+"role": "cro",
+"email": "raj.ganesh@perficient.com"
+},
+{
+"name": "Pavithra Rajagopal",
+"title": "Marketing Coordinator",
+"role": "field_marketing",
+"email": "pavithra.rajagopal@perficient.com"
+}
+]
+},
+{
+"brand": "Retool Inc.",
+"people": [
+{
+"name": "Liz Tassey",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "liz.tassey@retool.com"
+},
+{
+"name": "Kasey Hickey",
+"title": "Head of Content & Brand",
+"role": "vp_marketing",
+"email": "kasey.hickey@retool.com"
+},
+{
+"name": "Gabrielle Matte",
+"title": "Creative Director, Brand Design",
+"role": "cro",
+"email": "gabie@retool.com"
+},
+{
+"name": "Katie Giori",
+"title": "Growth Marketing",
+"role": "field_marketing",
+"email": "k.giori@retool.com"
+}
+]
+},
+{
+"brand": "WSO2",
+"people": [
+{
+"name": "Thibaut Rouffineau",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "thibaut@wso2.com"
+},
+{
+"name": "Radhik Colombage",
+"title": "Vice President Corporate Marketing",
+"role": "vp_marketing",
+"email": "radhik@wso2.com"
+},
+{
+"name": "Tasha Hettiarachchi",
+"title": "Associate Director Marketing",
+"role": "cro",
+"email": "tasha@wso2.com"
+},
+{
+"name": "Tori Jeffcoat",
+"title": "Director, Product Marketing | AI",
+"role": "field_marketing",
+"email": "tori@wso2.com"
+}
+]
+},
+{
+"brand": "Aikido Security",
+"people": [
+{
+"name": "Michiel Denis",
+"title": "Head of Marketing",
+"role": "decision_maker",
+"email": "michiel@aikido.dev"
+},
+{
+"name": "Lieven Oosterlinck",
+"title": "Growth Marketing",
+"role": "vp_marketing",
+"email": "lieven@aikido.dev"
+},
+{
+"name": "Katie Bajurin",
+"title": "Growth Marketing Manager",
+"role": "cro",
+"email": "katie.bajurin@aikido.dev"
+},
+{
+"name": "Nicholas Thomson",
+"title": "Content Marketing Writer",
+"role": "field_marketing",
+"email": "nicholas.thomson@aikido.dev"
+}
+]
+},
+{
+"brand": "Blacksmith",
+"people": []
+},
+{
+"brand": "BuildBuddy",
+"people": []
+},
+{
+"brand": "Cloudsmith",
+"people": [
+{
+"name": "Juliana Kelly",
+"title": "VP of Growth Marketing",
+"role": "decision_maker",
+"email": "jkelly@cloudsmith.com"
+},
+{
+"name": "Nicholas Ferns",
+"title": "Director of Performance Marketing and Operations",
+"role": "vp_marketing",
+"email": "nicholas.f@cloudsmith.com"
+},
+{
+"name": "Fionnuala Cullen",
+"title": "Event Marketing",
+"role": "cro",
+"email": "fcullen@cloudsmith.com"
+},
+{
+"name": "Parul Jhawar",
+"title": "Performance Marketing Manager",
+"role": "field_marketing",
+"email": "pjhanwar@cloudsmith.com"
+}
+]
+},
+{
+"brand": "Coder",
+"people": [
+{
+"name": "Chris Kent",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "ck@coder.com"
+},
+{
+"name": "Carly Stephens",
+"title": "Director of International Marketing",
+"role": "vp_marketing",
+"email": "carly@coder.com"
+},
+{
+"name": "Carmella West",
+"title": "Head of Revenue Marketing",
+"role": "cro",
+"email": "carmella@coder.com"
+},
+{
+"name": "Cassandra Jowett",
+"title": "Director, Content Marketing and Communications",
+"role": "field_marketing",
+"email": "cassandra@coder.com"
+}
+]
+},
+{
+"brand": "Convex",
+"people": [
+{
+"name": "Liz Cardoza",
+"title": "Marketing Manager",
+"role": "decision_maker",
+"email": "liz@convex.dev"
+}
+]
+},
+{
+"brand": "Crowdin",
+"people": [
+{
+"name": "Vitaliy Ryzhyi",
+"title": "Web Marketing Specialist",
+"role": "decision_maker",
+"email": "vitaliy@crowdin.com"
+},
+{
+"name": "Oleh Guralnyi",
+"title": "Business Development Manager",
+"role": "vp_marketing",
+"email": "oleh@crowdin.com"
+},
+{
+"name": "Vadym Sobchuk",
+"title": "Business Development Manager",
+"role": "cro",
+"email": "vadym@crowdin.com"
+},
+{
+"name": "Andriy Stets",
+"title": "Business Development Manager",
+"role": "field_marketing",
+"email": "andriy.stets@crowdin.com"
+}
+]
+},
+{
+"brand": "Cycode",
+"people": [
+{
+"name": "Ronen Shetelboim",
+"title": "CMO",
+"role": "decision_maker",
+"email": "ronen.s@cycode.com"
+},
+{
+"name": "Amir Kazemi",
+"title": "Senior Director, Product Marketing",
+"role": "vp_marketing",
+"email": "amir@cycode.com"
+},
+{
+"name": "Spencer Howie",
+"title": "Marketing Development Representative",
+"role": "cro",
+"email": "spencer@cycode.com"
+},
+{
+"name": "Monica Nio",
+"title": "Global Field Marketing Lead",
+"role": "field_marketing",
+"email": "monica@cycode.com"
+}
+]
+},
+{
+"brand": "Gravitee",
+"people": [
+{
+"name": "Daniel Batchelor",
+"title": "Vice President Marketing",
+"role": "decision_maker",
+"email": "daniel.batchelor@graviteesource.com"
+},
+{
+"name": "Sydney Shufelt",
+"title": "Marketing Director, TOFU",
+"role": "vp_marketing",
+"email": "sydney.shufelt@graviteesource.com"
+},
+{
+"name": "Jorge Ruiz",
+"title": "Senior Director of Product Marketing",
+"role": "cro",
+"email": "jorge.ruiz@graviteesource.com"
+},
+{
+"name": "Joelle Kaczmarczyk",
+"title": "Growth Marketing Manager",
+"role": "field_marketing",
+"email": "joelle.kaczmarczyk@graviteesource.com"
+}
+]
+},
+{
+"brand": "Legit Security",
+"people": [
+{
+"name": "David Howell",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "dave@legitsecurity.com"
+},
+{
+"name": "Idan Tesler",
+"title": "Brand & Marketing Design Lead",
+"role": "vp_marketing",
+"email": "idan@legitsecurity.com"
+},
+{
+"name": "Samuel Rowe",
+"title": "Marketing Operations",
+"role": "cro",
+"email": "samuel@legitsecurity.com"
+},
+{
+"name": "Dan McCarthy",
+"title": "Business Development Representative",
+"role": "field_marketing",
+"email": "danm@legitsecurity.com"
+}
+]
+},
+{
+"brand": "Mintlify",
+"people": [
+{
+"name": "Lauren Volpi",
+"title": "Head of Marketing",
+"role": "decision_maker",
+"email": "lv@mintlify.com"
+},
+{
+"name": "Jadon Yara",
+"title": "Marketing",
+"role": "vp_marketing",
+"email": "jadon@mintlify.com"
+},
+{
+"name": "David Isquick",
+"title": "Leading Product Marketing",
+"role": "cro",
+"email": "david.isquick@mintlify.com"
+}
+]
+},
+{
+"brand": "ngrok",
+"people": [
+{
+"name": "Sam Richard",
+"title": "Chief Revenue Officer (CRO)",
+"role": "decision_maker",
+"email": "sam@ngrok.com"
+},
+{
+"name": "Alan Shreve",
+"title": "Chief Executive Officer",
+"role": "vp_marketing",
+"email": "alan@ngrok.com"
+}
+]
+},
+{
+"brand": "Qodo",
+"people": [
+{
+"name": "Limor Perl",
+"title": "Director of Marketing Operations",
+"role": "decision_maker",
+"email": "limor.p@qodo.ai"
+},
+{
+"name": "Elana Krasner",
+"title": "Director of Product Marketing",
+"role": "vp_marketing",
+"email": "elana.k@qodo.ai"
+},
+{
+"name": "Nastasha Casale",
+"title": "Senior Product Marketing Manager",
+"role": "cro",
+"email": "nastasha.c@qodo.ai"
+},
+{
+"name": "Kerry Farrell",
+"title": "Senior Field Event Marketing Manager",
+"role": "field_marketing",
+"email": "kerry.f@qodo.ai"
+}
+]
+},
+{
+"brand": "Qovery",
+"people": [
+{
+"name": "Melanie Dalle",
+"title": "Senior Marketing Manager",
+"role": "decision_maker",
+"email": "mdalle@qovery.com"
+},
+{
+"name": "Romaric Philogene",
+"title": "CEO & Co-founder",
+"role": "vp_marketing",
+"email": "rphilogene@qovery.com"
+}
+]
+},
+{
+"brand": "Quali",
+"people": [
+{
+"name": "David Williams",
+"title": "Senior Vice President, Marketing and Product Strategy",
+"role": "decision_maker",
+"email": "david.w@quali.com"
+},
+{
+"name": "Inga Manasherob",
+"title": "Marketing Operations & Executive Business Partner",
+"role": "vp_marketing",
+"email": "inga.m@quali.com"
+},
+{
+"name": "Michael Yeager",
+"title": "Chief Revenue Officer",
+"role": "cro",
+"email": "mike.y@quali.com"
+}
+]
+},
+{
+"brand": "RapidFort",
+"people": [
+{
+"name": "Shivamm Saaxenaa",
+"title": "Growth Marketing Architect",
+"role": "decision_maker",
+"email": "shiv@rapidfort.com"
+},
+{
+"name": "Tracy Toschi",
+"title": "Senior Marketing Manager",
+"role": "vp_marketing",
+"email": "tracy.toschi@rapidfort.com"
+},
+{
+"name": "Cullen Wood",
+"title": "Business Development",
+"role": "cro",
+"email": "cullen.wood@rapidfort.com"
+},
+{
+"name": "Avery Lyford",
+"title": "Partnerships and Channels",
+"role": "field_marketing",
+"email": "avery@rapidfort.com"
+}
+]
+},
+{
+"brand": "Restate",
+"people": []
+},
+{
+"brand": "StreamNative",
+"people": [
+{
+"name": "Xiaofeng Liu",
+"title": "Marketing Manager",
+"role": "decision_maker",
+"email": "xliu@streamnative.io"
+},
+{
+"name": "Kundan Vyas",
+"title": "Director, Product & Partnerships",
+"role": "vp_marketing",
+"email": "kundan.vyas@streamnative.io"
+}
+]
+},
+{
+"brand": "Swimm",
+"people": [
+{
+"name": "Yael Pe'er",
+"title": "Head of GTM & Partnerships",
+"role": "decision_maker",
+"email": "yael@swimm.io"
+},
+{
+"name": "Oren Toledano",
+"title": "Co-Founder & CEO",
+"role": "vp_marketing",
+"email": "oren@swimm.io"
+}
+]
+},
+{
+"brand": "Synthesized.io",
+"people": [
+{
+"name": "Vaishnavi Deshpande",
+"title": "India Partnerships Lead",
+"role": "decision_maker",
+"email": "vaishnavi.deshpande@synthesized.io"
+},
+{
+"name": "Nicolai Baldin",
+"title": "Chief Executive Officer & Founder",
+"role": "vp_marketing",
+"email": "nicolai@synthesized.io"
+}
+]
+},
+{
+"brand": "Tonic.ai",
+"people": [
+{
+"name": "Chris Shakarian",
+"title": "Vice President Marketing",
+"role": "decision_maker",
+"email": "cshakarian@tonic.ai"
+},
+{
+"name": "Robert Kim",
+"title": "Senior Director, Head of Growth Marketing",
+"role": "vp_marketing",
+"email": "robert@tonic.ai"
+},
+{
+"name": "Whit Moses",
+"title": "Senior Product Marketing Manager",
+"role": "cro",
+"email": "whit@tonic.ai"
+},
+{
+"name": "Tomer Benami",
+"title": "CFO and VP of Business Development",
+"role": "field_marketing",
+"email": "tomer@tonic.ai"
+}
+]
+},
+{
+"brand": "Tyk",
+"people": [
+{
+"name": "Emma Kriskinans",
+"title": "Senior Vice President Marketing",
+"role": "decision_maker",
+"email": "emma@tyk.io"
+},
+{
+"name": "Martin Buhr",
+"title": "CEO and Founder",
+"role": "vp_marketing",
+"email": "martin@tyk.io"
+}
+]
+},
+{
+"brand": "Unisys",
+"people": [
+{
+"name": "Jeffrey Kennedy",
+"title": "Manager, Video / Event Production for Brand & Digital Marketing",
+"role": "decision_maker",
+"email": "jeffrey.kennedy@unisys.com"
+},
+{
+"name": "Akriti Singh",
+"title": "Associate - Marketing and Communications (Brand & Strategic Messaging | Tech & Innovation)",
+"role": "vp_marketing",
+"email": "akriti.singh@unisys.com"
+},
+{
+"name": "Bruce Kerney",
+"title": "Marketing",
+"role": "cro",
+"email": "bruce.kerney@unisys.com"
+},
+{
+"name": "Payal Malpani",
+"title": "Marketing Lead",
+"role": "field_marketing",
+"email": "payal.jugalkishormalpani@unisys.com"
+}
+]
+},
+{
+"brand": "Warp",
+"people": [
+{
+"name": "Emilie Johnston",
+"title": "Growth Marketing Lead",
+"role": "decision_maker",
+"email": "emilie@warp.dev"
+},
+{
+"name": "Zach Lloyd",
+"title": "Founder / CEO",
+"role": "vp_marketing",
+"email": "zach.lloyd@warp.dev"
+}
+]
+},
+{
+"brand": "Ably",
+"people": [
+{
+"name": "Faye McClenahan",
+"title": "Head of Marketing",
+"role": "decision_maker",
+"email": "faye.mcclenahan@ably.com"
+},
+{
+"name": "Amanda Lopez",
+"title": "Growth Marketing",
+"role": "vp_marketing",
+"email": "amanda.lopez@ably.com"
+},
+{
+"name": "Jayne Nelson",
+"title": "Product Marketing Manager",
+"role": "cro",
+"email": "jayne.nelson@ably.com"
+},
+{
+"name": "Amber Dawson",
+"title": "Content Marketing Manager",
+"role": "field_marketing",
+"email": "amber.dawson@ably.com"
+}
+]
+},
+{
+"brand": "Aerospike",
+"people": [
+{
+"name": "Gaurav Deshpande",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "gdeshpande@aerospike.com"
+},
+{
+"name": "Behrad Babaee",
+"title": "Head of Product Marketing",
+"role": "vp_marketing",
+"email": "bbabaee@aerospike.com"
+},
+{
+"name": "Steve Tuohy",
+"title": "Director, Product Marketing",
+"role": "cro",
+"email": "stuohy@aerospike.com"
+},
+{
+"name": "Amanda Morris",
+"title": "Marketing",
+"role": "field_marketing",
+"email": "amorris@aerospike.com"
+}
+]
+},
+{
+"brand": "Bubble.io",
+"people": [
+{
+"name": "Tatiana Afanasyeva",
+"title": "VP of Marketing",
+"role": "decision_maker",
+"email": "tatiana.afanasyeva@bubble.io"
+},
+{
+"name": "Becky Sung",
+"title": "Marketing",
+"role": "vp_marketing",
+"email": "becky.mak@bubble.io"
+},
+{
+"name": "Leann Li",
+"title": "Influencer Marketing",
+"role": "cro",
+"email": "leann@hellobubble.com"
+},
+{
+"name": "Oluboni Agbaniyaka",
+"title": "Manager, Marketing Analytics",
+"role": "field_marketing",
+"email": "boni.agbaniyaka@bubble.io"
+}
+]
+},
+{
+"brand": "Buildkite",
+"people": [
+{
+"name": "Ocea Jacobs",
+"title": "Events Marketing Manager",
+"role": "decision_maker",
+"email": "ocea@buildkite.com"
+},
+{
+"name": "Srishti Singh",
+"title": "Dev Marketing",
+"role": "vp_marketing",
+"email": "srishti@buildkite.com"
+},
+{
+"name": "Nick Viola",
+"title": "Business Development Representative",
+"role": "cro",
+"email": "nick.viola@buildkite.com"
+},
+{
+"name": "Kevin Gounden",
+"title": "Chief Executive Officer",
+"role": "field_marketing",
+"email": "kevin@buildkite.com"
+}
+]
+},
+{
+"brand": "Census",
+"people": [
+{
+"name": "Keoni Moledina",
+"title": "Business Development, Commerical",
+"role": "decision_maker",
+"email": "keoni.moledina@fivetran.com"
+},
+{
+"name": "Konrad Lojewski",
+"title": "Business Development Specialist",
+"role": "vp_marketing",
+"email": "konrad.lojewski@fivetran.com"
+},
+{
+"name": "Cory Giancaterino",
+"title": "Business Development, Commercial",
+"role": "cro",
+"email": "cory.giancaterino@fivetran.com"
+},
+{
+"name": "Amine Djimani",
+"title": "Business Development Representative",
+"role": "field_marketing",
+"email": "amine.djimani@fivetran.com"
+}
+]
+},
+{
+"brand": "Constructor.io",
+"people": [
+{
+"name": "Dan Buczaczer",
+"title": "VP of Marketing",
+"role": "decision_maker",
+"email": "dan.buczaczer@constructor.io"
+},
+{
+"name": "Meredith Jaffe",
+"title": "Senior Director, Growth Marketing",
+"role": "vp_marketing",
+"email": "meredith.broderick@constructor.io"
+},
+{
+"name": "Emma Krondorfer",
+"title": "Performance Marketing Manager",
+"role": "cro",
+"email": "emma.krondorfer@constructor.io"
+},
+{
+"name": "Chelsea Kaufman",
+"title": "Marketing Operations Manager",
+"role": "field_marketing",
+"email": "chelsea.kaufman@constructor.io"
+}
+]
+},
+{
+"brand": "Endor Labs",
+"people": [
+{
+"name": "Tina Lei",
+"title": "VP of Marketing",
+"role": "decision_maker",
+"email": "tina@endor.ai"
+},
+{
+"name": "Andrew Stiefel",
+"title": "Director, Product Marketing",
+"role": "vp_marketing",
+"email": "astiefel@endor.ai"
+},
+{
+"name": "Hannah Laurence",
+"title": "Global Head of Field Marketing",
+"role": "cro",
+"email": "hlaurence@endor.ai"
+},
+{
+"name": "Lu Munoz",
+"title": "Brand Design Manager",
+"role": "field_marketing",
+"email": "lmunoz@endor.ai"
+}
+]
+},
+{
+"brand": "Frontegg",
+"people": [
+{
+"name": "Gil Noy",
+"title": "Business Development Consultant",
+"role": "decision_maker",
+"email": "gil.noy@frontegg.com"
+},
+{
+"name": "Dana Emanuel",
+"title": "Partnerships Development Manager",
+"role": "vp_marketing",
+"email": "dana.sharir@frontegg.com"
+},
+{
+"name": "Sagi Rodin",
+"title": "CEO & Co-Founder",
+"role": "cro",
+"email": "sagi@frontegg.com"
+}
+]
+},
+{
+"brand": "Hightouch",
+"people": [
+{
+"name": "Eddie Bonamassa",
+"title": "Marketing Director",
+"role": "decision_maker",
+"email": "eddie@hightouchinc.com"
+},
+{
+"name": "Michael Chan",
+"title": "Director of Brand Design",
+"role": "vp_marketing",
+"email": "michael.chan@hightouch.com"
+},
+{
+"name": "Bryan Harvey",
+"title": "Executive Creative Director | Head of Brand",
+"role": "cro",
+"email": "bryan.harvey@hightouch.com"
+},
+{
+"name": "Lizzie Cantor",
+"title": "Marketing",
+"role": "field_marketing",
+"email": "lizzie@hightouch.com"
+}
+]
+},
+{
+"brand": "LinearB",
+"people": [
+{
+"name": "Aaron Thompson",
+"title": "Head of Growth Marketing",
+"role": "decision_maker",
+"email": "aaron.thompson@linearb.io"
+},
+{
+"name": "Ben Pearson",
+"title": "Sr. Director, AI and Product Marketing",
+"role": "vp_marketing",
+"email": "ben.pearson@linearb.io"
+},
+{
+"name": "Adam Noble",
+"title": "Content Marketing Manager",
+"role": "cro",
+"email": "adam.noble@linearb.io"
+},
+{
+"name": "Jamie Birss",
+"title": "Product Marketing Manager",
+"role": "field_marketing",
+"email": "jamie.birss@linearb.io"
+}
+]
+},
+{
+"brand": "Merge.dev",
+"people": [
+{
+"name": "Alexander Dunn",
+"title": "Brand Systems Lead",
+"role": "decision_maker",
+"email": "alex.dunn@merge.dev"
+},
+{
+"name": "Victoria Myers",
+"title": "Field Marketing",
+"role": "vp_marketing",
+"email": "victoria.myers@merge.dev"
+},
+{
+"name": "Nijil Kuruvilla",
+"title": "Lead Product Marketing Manager",
+"role": "cro",
+"email": "nijil.kuruvilla@merge.dev"
+},
+{
+"name": "Aaron Sun",
+"title": "Lead Product Marketing Manager",
+"role": "field_marketing",
+"email": "aaron.sun@merge.dev"
+}
+]
+},
+{
+"brand": "Modal Labs",
+"people": [
+{
+"name": "David Dorman",
+"title": "VP Marketing / Growth",
+"role": "decision_maker",
+"email": "dorman@modal.com"
+},
+{
+"name": "Greta Workman",
+"title": "Head of Product Marketing",
+"role": "vp_marketing",
+"email": "greta@modal.com"
+},
+{
+"name": "Peri Langlois",
+"title": "Brand Marketing",
+"role": "cro",
+"email": "peri@modal.com"
+},
+{
+"name": "Will Reese",
+"title": "Marketing",
+"role": "field_marketing",
+"email": "will.reese@modal.com"
+}
+]
+},
+{
+"brand": "OneSignal",
+"people": [
+{
+"name": "Carly Botelho",
+"title": "Head of Marketing",
+"role": "decision_maker",
+"email": "carly@onesignal.com"
+},
+{
+"name": "Kelly Hahn",
+"title": "Performance Marketing Director",
+"role": "vp_marketing",
+"email": "kellyhahn@onesignal.com"
+},
+{
+"name": "Kateryna Romanova",
+"title": "Revenue Marketing Director",
+"role": "cro",
+"email": "kat@try.onesignal.com"
+},
+{
+"name": "Cassandra McIntyre",
+"title": "Lifecycle Marketing Manager",
+"role": "field_marketing",
+"email": "cassandra@onesignal.com"
+}
+]
+},
+{
+"brand": "Pinecone Systems",
+"people": [
+{
+"name": "Aaron Kao",
+"title": "VP Marketing",
+"role": "decision_maker",
+"email": "kao@pinecone.io"
+},
+{
+"name": "Asaf Ashirov",
+"title": "Growth Marketing Lead",
+"role": "vp_marketing",
+"email": "asaf@pinecone.io"
+},
+{
+"name": "Gavin Johnson",
+"title": "Technical Product Marketing Manager",
+"role": "cro",
+"email": "gavin@pinecone.io"
+},
+{
+"name": "Jace Canty",
+"title": "Director of Commercial Sales & Business Development",
+"role": "field_marketing",
+"email": "jace@pinecone.io"
+}
+]
+},
+{
+"brand": "PlanetScale",
+"people": [
+{
+"name": "Holly Guevara",
+"title": "VP of Marketing",
+"role": "decision_maker",
+"email": "holly@planetscale.com"
+},
+{
+"name": "Megan Grant",
+"title": "Marketing Operations Manager",
+"role": "vp_marketing",
+"email": "megan.grant@planetscale.com"
+}
+]
+},
+{
+"brand": "ScyllaDB",
+"people": [
+{
+"name": "Julia Angell",
+"title": "VP of Growth Marketing",
+"role": "decision_maker",
+"email": "julia@scylladb.com"
+},
+{
+"name": "Marisa Delao",
+"title": "Marketing Programs Manager",
+"role": "vp_marketing",
+"email": "marisa.delao@scylladb.com"
+},
+{
+"name": "Samantha Raftery",
+"title": "EMEA & APAC Marketing Manager",
+"role": "cro",
+"email": "samantha.raftery@scylladb.com"
+}
+]
+},
+{
+"brand": "Semgrep",
+"people": [
+{
+"name": "Aaron Liao",
+"title": "VP Marketing",
+"role": "decision_maker",
+"email": "aaron.liao@semgrep.com"
+},
+{
+"name": "Sarah Nelson",
+"title": "B2B Saas Marketing Leader",
+"role": "vp_marketing",
+"email": "sarah@semgrep.com"
+},
+{
+"name": "Tammy Kim",
+"title": "Field Marketing",
+"role": "cro",
+"email": "tammy@semgrep.com"
+},
+{
+"name": "Bianca Lopez",
+"title": "Marketing Operations",
+"role": "field_marketing",
+"email": "bianca.lopez@semgrep.com"
+}
+]
+},
+{
+"brand": "Socket",
+"people": [
+{
+"name": "Katie Gordon",
+"title": "Field Marketing Manager",
+"role": "decision_maker",
+"email": "katie@socket.dev"
+},
+{
+"name": "Samantha Sargent",
+"title": "Manager of Business Development",
+"role": "vp_marketing",
+"email": "sam@socket.dev"
+},
+{
+"name": "Vaibhav Chellani",
+"title": "CEO",
+"role": "cro",
+"email": "vaibhav@socket.tech"
+},
+{
+"name": "Elysia Pendezec",
+"title": "Executive Assistant to Chief Executive Officer",
+"role": "field_marketing",
+"email": "elysia@socket.dev"
+}
+]
+},
+{
+"brand": "Spacelift",
+"people": [
+{
+"name": "Dimitri Vlachos",
+"title": "CMO",
+"role": "decision_maker",
+"email": "dimitri@spacelift.io"
+},
+{
+"name": "Gareth Kersey",
+"title": "Head of Growth Marketing",
+"role": "vp_marketing",
+"email": "garethk@spacelift.io"
+},
+{
+"name": "Kate McQueen",
+"title": "Senior Marketing Operations",
+"role": "cro",
+"email": "katek@spacelift.io"
+},
+{
+"name": "Tim Davis",
+"title": "Technical Product Marketing Manager",
+"role": "field_marketing",
+"email": "timd@spacelift.io"
+}
+]
+},
+{
+"brand": "Statsig",
+"people": []
+},
+{
+"brand": "Storyblok",
+"people": [
+{
+"name": "Charlene Kale",
+"title": "VP of Marketing",
+"role": "decision_maker",
+"email": "charlene.kale@storyblok.com"
+},
+{
+"name": "Thomas Gruenberg",
+"title": "Director of Growth Marketing",
+"role": "vp_marketing",
+"email": "gruenberg.thomas@storyblok.com"
+},
+{
+"name": "Sammy Benjamin",
+"title": "Brand Storytelling and Video Content Manager",
+"role": "cro",
+"email": "sammy.benjamin@storyblok.com"
+},
+{
+"name": "Tomas Santos",
+"title": "Field Marketing Manager",
+"role": "field_marketing",
+"email": "tomas.seelow@storyblok.com"
+}
+]
+},
+{
+"brand": "Striim",
+"people": [
+{
+"name": "Dianna Spring",
+"title": "VP of Marketing",
+"role": "decision_maker",
+"email": "dianna.spring@striim.com"
+},
+{
+"name": "Nicole Mitich",
+"title": "Director, Partner Marketing",
+"role": "vp_marketing",
+"email": "nicole.mitich@striim.com"
+},
+{
+"name": "Bobby Curtis",
+"title": "Senior Director of Product Marketing",
+"role": "cro",
+"email": "bobby.curtis@striim.com"
+},
+{
+"name": "Megan Chasser",
+"title": "Event and Marketing Manager",
+"role": "field_marketing",
+"email": "megan.chasser@striim.com"
+}
+]
+},
+{
+"brand": "WorkOS",
+"people": [
+{
+"name": "Noelle Festa",
+"title": "Growth Marketing",
+"role": "decision_maker",
+"email": "noelle.festa@workos.com"
+},
+{
+"name": "Shannon Elliott",
+"title": "Field Marketing Manager",
+"role": "vp_marketing",
+"email": "shannon@workos.com"
+},
+{
+"name": "Conner Simmons",
+"title": "Technical Product Marketing",
+"role": "cro",
+"email": "conner@workos.com"
+},
+{
+"name": "Sally Park",
+"title": "Business Development Representative, Enterprise Authentication",
+"role": "field_marketing",
+"email": "sally.park@workos.com"
+}
+]
+}
+]
+}
