@@ -1,0 +1,635 @@
+{
+"rows": [
+{
+"brand": "Ananth Technologies",
+"people": []
+},
+{
+"brand": "Anuvu",
+"people": [
+{
+"name": "Caroline Smith",
+"title": "Head of Marketing",
+"role": "decision_maker",
+"email": "caroline.smith@anuvu.com"
+},
+{
+"name": "Jessica Lawrence",
+"title": "Marketing Mgr",
+"role": "vp_marketing",
+"email": "jessica.lawrence@anuvu.com"
+},
+{
+"name": "Kady Frederick",
+"title": "Marketing Manager, Media & Content",
+"role": "cro",
+"email": "kady.frederick@anuvu.com"
+},
+{
+"name": "Nihal Barhoush",
+"title": "Regional Manager, Acquisitions & Partnerships",
+"role": "field_marketing",
+"email": "nihal.barhoushelbeaino@anuvu.com"
+}
+]
+},
+{
+"brand": "Arabsat",
+"people": [
+{
+"name": "Bander Altheibany",
+"title": "Marketing Communications Director",
+"role": "decision_maker",
+"email": "bandera@arabsat.com"
+},
+{
+"name": "Daniyal Qamar",
+"title": "Branding and Communications Manager",
+"role": "vp_marketing",
+"email": "daniyalq@arabsat.com"
+},
+{
+"name": "Tooli Arabsat",
+"title": "Marketing Specialist",
+"role": "cro",
+"email": "arabsat@arabsat.com"
+},
+{
+"name": "Bassam Fayyad",
+"title": "Senior Business Development Manager",
+"role": "field_marketing",
+"email": "bassamf@arabsat.com"
+}
+]
+},
+{
+"brand": "Arianespace",
+"people": [
+{
+"name": "Benjamin Lanier",
+"title": "Head of Strategy, Marketing and Business Intelligence Department",
+"role": "decision_maker",
+"email": "b.lanier@arianespace.com"
+},
+{
+"name": "David Cavailloles",
+"title": "Chief Executive Officer",
+"role": "vp_marketing",
+"email": "d.cavailloles@arianespace.com"
+}
+]
+},
+{
+"brand": "AsiaSat",
+"people": [
+{
+"name": "Winnie Pang",
+"title": "Manager, Marketing Communications",
+"role": "decision_maker",
+"email": "wpang@asiasat.com"
+},
+{
+"name": "Melvin Hoon",
+"title": "Director, Business Development & Strategy",
+"role": "vp_marketing",
+"email": "mhoon@asiasat.com"
+},
+{
+"name": "Roger Tong",
+"title": "Chief Executive Officer",
+"role": "cro",
+"email": "rtong@asiasat.com"
+}
+]
+},
+{
+"brand": "Astroscale",
+"people": [
+{
+"name": "Akira Yoshida",
+"title": "Vice President, Marketing & Communications",
+"role": "decision_maker",
+"email": "a.yoshida@astroscale.com"
+},
+{
+"name": "Jeremy Hutcherson",
+"title": "SVP Global Marketing",
+"role": "vp_marketing",
+"email": "j.hutcherson@astroscale.com"
+},
+{
+"name": "Daichi Ushiro",
+"title": "Brand & Creative Manager",
+"role": "cro",
+"email": "d.ushiro@astroscale.com"
+},
+{
+"name": "Robyn Haigh",
+"title": "Digital & Creative Marketing Manager",
+"role": "field_marketing",
+"email": "r.haigh@astroscale.com"
+}
+]
+},
+{
+"brand": "Beyond Gravity",
+"people": [
+{
+"name": "Sami Kallio",
+"title": "Marketing and Sales",
+"role": "decision_maker",
+"email": "sami.kallio@beyondgravity.com"
+},
+{
+"name": "Susan Raitt",
+"title": "Sales and Marketing Manager",
+"role": "vp_marketing",
+"email": "susan.raitt@beyondgravity.com"
+},
+{
+"name": "Matus Mosny",
+"title": "Marketing & Sales Manager",
+"role": "cro",
+"email": "matus.mosny@beyondgravity.com"
+},
+{
+"name": "Anders Lagerstedt",
+"title": "Marketing and Sales Manager",
+"role": "field_marketing",
+"email": "anders.lagerstedt@beyondgravity.com"
+}
+]
+},
+{
+"brand": "EagleView Technologies",
+"people": [
+{
+"name": "Marcy Comer",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "marcy.comer@eagleview.com"
+},
+{
+"name": "Dimitri Volkmann",
+"title": "VP, Product Marketing",
+"role": "vp_marketing",
+"email": "dimitri.volkmann@eagleview.com"
+},
+{
+"name": "Tim Horak",
+"title": "Sr. Director, Product Marketing",
+"role": "cro",
+"email": "tim.horak@eagleview.com"
+},
+{
+"name": "Meaghan Hundley",
+"title": "Director of Marketing, National Accounts",
+"role": "field_marketing",
+"email": "meaghan.hundley@eagleview.com"
+}
+]
+},
+{
+"brand": "Galactic Energy",
+"people": []
+},
+{
+"brand": "GalaxySpace",
+"people": []
+},
+{
+"brand": "Gilat Satellite Networks",
+"people": [
+{
+"name": "Michal Yaniv",
+"title": "VP Marketing",
+"role": "decision_maker",
+"email": "michaly@gilat.com"
+},
+{
+"name": "Gil Elizov",
+"title": "VP Product & Marketing, Gilat Defense",
+"role": "vp_marketing",
+"email": "gile@gilat.com"
+},
+{
+"name": "Yael Maman",
+"title": "Director Marketing Communications",
+"role": "cro",
+"email": "yael@gilat.com"
+},
+{
+"name": "Erik Snider",
+"title": "Director of Corporate and Product Marketing Communications",
+"role": "field_marketing",
+"email": "eriks@gilat.com"
+}
+]
+},
+{
+"brand": "GMV",
+"people": [
+{
+"name": "Miguel De Castro Sierra",
+"title": "Business Development",
+"role": "decision_maker",
+"email": "mdcastro@gmv.com"
+},
+{
+"name": "Gema Perez Diez",
+"title": "Business Development",
+"role": "vp_marketing",
+"email": "gperez@gmv.com"
+},
+{
+"name": "Belen Andrino Fernandez",
+"title": "Business Development & Partnerships Automotive/Public Transportation at GMV",
+"role": "cro",
+"email": "bfernandez@gmv.com"
+},
+{
+"name": "Silvia Sanchez Salinas",
+"title": "Business Development Manager",
+"role": "field_marketing",
+"email": "ssalinas@gmv.com"
+}
+]
+},
+{
+"brand": "Hispasat",
+"people": [
+{
+"name": "Luisa Fernandez Pena",
+"title": "Head of Product and Marketing",
+"role": "decision_maker",
+"email": "lfernandez@hispasat.es"
+},
+{
+"name": "Dajana Grebe",
+"title": "Marketing & Communications Manager EMEA",
+"role": "vp_marketing",
+"email": "dajana.grebe@axessnet.com"
+},
+{
+"name": "Jeronimo Orjuela Llano",
+"title": "Senior Marketing Analyst",
+"role": "cro",
+"email": "jeronimo.orjuela@hispasat.com"
+},
+{
+"name": "Inaki Latasa Errecart",
+"title": "Responsable de Comunicaci\u00f3n y Marketing",
+"role": "field_marketing",
+"email": "ilatasa@hispasat.es"
+}
+]
+},
+{
+"brand": "Intellian Technologies",
+"people": [
+{
+"name": "Anna Lynch",
+"title": "Global Marketing Director",
+"role": "decision_maker",
+"email": "anna.lynch@intelliantech.com"
+},
+{
+"name": "Linda Lin",
+"title": "Marketing Specialist",
+"role": "vp_marketing",
+"email": "linda.lin@intelliantech.com"
+},
+{
+"name": "Sadie Brown",
+"title": "Senior Marketing Manager",
+"role": "cro",
+"email": "sadie.brown@intelliantech.com"
+},
+{
+"name": "Jennifer Jones",
+"title": "Digital Marketing Manager",
+"role": "field_marketing",
+"email": "jennifer.jones@intelliantech.com"
+}
+]
+},
+{
+"brand": "Karman Holdings",
+"people": []
+},
+{
+"brand": "KSAT (Kongsberg Satellite Services)",
+"people": [
+{
+"name": "Nora Ytterbo",
+"title": "Chief Executive Officer",
+"role": "decision_maker",
+"email": "nora.ytterbo@ksat.no"
+},
+{
+"name": "Miri Casey",
+"title": "Marketing and Public Relations Lead",
+"role": "vp_marketing",
+"email": "miri.casey@ksat.no"
+},
+{
+"name": "Paul Torkehagen",
+"title": "Business Development - Asia",
+"role": "cro",
+"email": "pault@ksat.no"
+},
+{
+"name": "Henry Ward",
+"title": "Business Development Manager",
+"role": "field_marketing",
+"email": "henry.ward@ksat.no"
+}
+]
+},
+{
+"brand": "LandSpace",
+"people": []
+},
+{
+"brand": "Lebara",
+"people": [
+{
+"name": "Alexis Streichenberger",
+"title": "Head of Marketing",
+"role": "decision_maker",
+"email": "alexis.streichenberger@lebara.com"
+},
+{
+"name": "Priyanki Ahluwalia",
+"title": "Head of Marketing",
+"role": "vp_marketing",
+"email": "priyanki.ahluwalia@lebara.com"
+},
+{
+"name": "Mayur Jauhari",
+"title": "Commercial and Marketing Director",
+"role": "cro",
+"email": "mayur.jauhari@lebara.com"
+},
+{
+"name": "Cecile Dana",
+"title": "Head of Digital Marketing France",
+"role": "field_marketing",
+"email": "cecile.dana@lebara.com"
+}
+]
+},
+{
+"brand": "MDA Space",
+"people": [
+{
+"name": "Gil Shacham",
+"title": "VP Product and Marketing",
+"role": "decision_maker",
+"email": "gil.shacham@mda.space"
+},
+{
+"name": "Aviv Sax-Nahamoni",
+"title": "Marketing Director",
+"role": "vp_marketing",
+"email": "aviv.nahamoni@mda.space"
+},
+{
+"name": "Mikayla Federchuk",
+"title": "Marketing Communications Coordinator",
+"role": "cro",
+"email": "mikayla.federchuk@mda.space"
+},
+{
+"name": "Lauren Chan",
+"title": "Senior Manager, Marketing Communications",
+"role": "field_marketing",
+"email": "lauren.chan@mda.space"
+}
+]
+},
+{
+"brand": "MEASAT",
+"people": [
+{
+"name": "Cl Yau",
+"title": "Senior Director, Sales & Marketing",
+"role": "decision_maker",
+"email": "clyau@measat.com"
+},
+{
+"name": "Halim Aziz",
+"title": "Business Development",
+"role": "vp_marketing",
+"email": "halim@measat.com"
+},
+{
+"name": "Audrey Sim",
+"title": "Manager, Business Development",
+"role": "cro",
+"email": "audrey@measat.com"
+},
+{
+"name": "Nor Amin",
+"title": "Senior Executive Business Development",
+"role": "field_marketing",
+"email": "nor@measat.com"
+}
+]
+},
+{
+"brand": "Nilesat",
+"people": []
+},
+{
+"brand": "Redwire",
+"people": [
+{
+"name": "Tere Riley",
+"title": "Vice President Marketing Communications",
+"role": "decision_maker",
+"email": "tere.riley@rdw.com"
+},
+{
+"name": "Austin Jordan",
+"title": "Senior Vice President, Marketing and Communications",
+"role": "vp_marketing",
+"email": "austin.jordan@redwirespace.com"
+},
+{
+"name": "Omar Mahmoud",
+"title": "Senior Director, Marketing and Communications",
+"role": "cro",
+"email": "omar.mahmoud@rdw.com"
+},
+{
+"name": "Travis Triggs",
+"title": "Talent Brand Lead",
+"role": "field_marketing",
+"email": "travis.triggs@redwirespace.com"
+}
+]
+},
+{
+"brand": "Satellogic Inc.",
+"people": [
+{
+"name": "Gisela Rabinowicz",
+"title": "Marketing and Communications",
+"role": "decision_maker",
+"email": "gise@satellogic.com"
+},
+{
+"name": "Matt Clark",
+"title": "Vice President, Business Development - MENA",
+"role": "vp_marketing",
+"email": "matt.clark@satellogic.com"
+},
+{
+"name": "Emiliano Kargieman",
+"title": "Founder and CEO",
+"role": "cro",
+"email": "ek@satellogic.com"
+}
+]
+},
+{
+"brand": "Satrec Initiative",
+"people": [
+{
+"name": "Sally Seo",
+"title": "Business Development Manager",
+"role": "decision_maker",
+"email": "sally@satreci.com"
+}
+]
+},
+{
+"brand": "SKY Perfect JSAT Corporation",
+"people": [
+{
+"name": "Sohei Ochi",
+"title": "New Business Development",
+"role": "decision_maker",
+"email": "ochi-sohei@sptvjsat.com"
+}
+]
+},
+{
+"brand": "Speedcast",
+"people": [
+{
+"name": "James Trevelyan",
+"title": "Executive Vice President of Sales & Marketing",
+"role": "decision_maker",
+"email": "james.trevelyan@speedcast.com"
+},
+{
+"name": "Alix Wright",
+"title": "Senior Vice President Marketing Communications",
+"role": "vp_marketing",
+"email": "alix.wright@speedcast.com"
+},
+{
+"name": "Clara Chan",
+"title": "Corporate & Product Marketing",
+"role": "cro",
+"email": "clara.chan@speedcast.com"
+},
+{
+"name": "Jennifer Sykes",
+"title": "Sr. Global Marketing Manager",
+"role": "field_marketing",
+"email": "jennifer.sykes@speedcast.com"
+}
+]
+},
+{
+"brand": "ST Engineering iDirect",
+"people": [
+{
+"name": "Julie Bettinger",
+"title": "Chief Marketing Officer",
+"role": "decision_maker",
+"email": "jbettinger@idirect.net"
+},
+{
+"name": "Jennifer Hoil",
+"title": "Director of Product Marketing",
+"role": "vp_marketing",
+"email": "jhoil@idirect.net"
+},
+{
+"name": "Mary Tice",
+"title": "Director, Marketing Communications",
+"role": "cro",
+"email": "mtice@idirect.net"
+},
+{
+"name": "Jason Stricker",
+"title": "Senior Director of Digital Marketing",
+"role": "field_marketing",
+"email": "jstricker@idirect.net"
+}
+]
+},
+{
+"brand": "Telespazio",
+"people": [
+{
+"name": "Trang Dang",
+"title": "Marketing Manager",
+"role": "decision_maker",
+"email": "trang.dang@telespazio.de"
+},
+{
+"name": "Sara Formichella",
+"title": "Product Marketing",
+"role": "vp_marketing",
+"email": "sara.formichella@telespazio.com"
+},
+{
+"name": "Haitam Archani",
+"title": "Marketing Produits",
+"role": "cro",
+"email": "haitam.archani@telespazio.com"
+},
+{
+"name": "Giancarlo Pensabene",
+"title": "Marketing & Sales Governance",
+"role": "field_marketing",
+"email": "giancarlo.pensabene@telespazio.com"
+}
+]
+},
+{
+"brand": "Vantor (formerly Maxar Intelligence)",
+"people": [
+{
+"name": "Lisa Om",
+"title": "Vice President Marketing",
+"role": "decision_maker",
+"email": "lisa.om@vantor.com"
+},
+{
+"name": "Claudette Allingham",
+"title": "Head of Enterprise Marketing & Communications",
+"role": "vp_marketing",
+"email": "claudette.allingham@maxar.com"
+},
+{
+"name": "Kimberley Flanagan",
+"title": "Director of Marketing & Communications, International Government",
+"role": "cro",
+"email": "kimberley.flanagan@vantor.com"
+},
+{
+"name": "Oscar Hernandez Hernandez",
+"title": "Marketing Manager",
+"role": "field_marketing",
+"email": "oscar.hernandez@maxar.com"
+}
+]
+}
+]
+}
