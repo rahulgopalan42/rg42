@@ -1,0 +1,288 @@
+[
+ {
+  "id": "giovannirana.com",
+  "company": "Pastificio Rana",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "giovannirana.com",
+  "hq": "San Giovanni Lupatoto (Verona), Italy",
+  "ownership": "Private, Rana family (Gian Luca Rana CEO)",
+  "sells": "Fresh filled pasta and sauces; Italy, US (3 plants), Europe; sold Belgian unit Mamma Lucia 2025",
+  "headcount_band": "1,001-5,000 (~3,500, Dec 2025)",
+  "revenue": "EUR 1.284B (2025, -0.9%; +5.3% like-for-like) ~ USD 1.4B; net profit EUR 37.4M",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets (Italy, US, UK, Spain, Germany): yes; affluent 25-54: yes (premium fresh pasta, US); performance story: no; category not crowded: no (Barilla is F1's official pasta partner)",
+  "up_and_coming": false,
+  "flags": [
+   "Barilla holds F1 pasta category",
+   "profit down 28% in 2025"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (EUR 1.284B 2025 revenue) and filters; no F1 tie found; Barilla owns the pasta slot at F1 level, limiting to team-level deals.",
+  "best_angle": "Team-level deal for the US market (Miami, Austin, Las Vegas) where Rana is expanding production.",
+  "sources": [
+   "https://www.ilnordest.it/economia/imprese/effetto-cambi-su-rana-fatturato-a-1-3-miliardi-j6zsctyh",
+   "https://www.milanofinanza.it/news/rana-il-vero-sviluppo-nasce-da-una-sinergia-generazionale-202512021612045204",
+   "https://www.ilnordest.it/economia/imprese/rana-vola-negli-usa-con-la-terza-fabbrica-b5990hj3"
+  ]
+ },
+ {
+  "id": "solerpalau.com",
+  "company": "Soler & Palau Ventilation Group",
+  "sector_tab": "02 Energy & Industrial",
+  "domain": "solerpalau.com",
+  "hq": "Parets del Valles (Barcelona), Spain",
+  "ownership": "Private, Palau founding family heirs",
+  "sells": "Ventilation and air-movement systems (brands S&P, Envirovent, Pluggit, Kruger, Ferrari ventilatori - unrelated to Scuderia Ferrari); 90+ countries",
+  "headcount_band": "1,001-5,000 (1,791 Sep 2025 Revelio; 3,500 in 2012)",
+  "revenue": "Approaching EUR 800M (~2022, Ara) ~ USD 840M (est)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets: yes; senior B2B buyers (engineers/contractors): partial - no; performance story: no; category not crowded: yes",
+  "up_and_coming": false,
+  "flags": [
+   "revenue figure ~2022 (est)",
+   "mostly B2B",
+   "'Ferrari' brand in portfolio is an Italian fan maker, not an F1 tie"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes scale (~EUR 800M revenue ~2022) and filters, no F1 tie found; B2B ventilation group with little consumer brand ambition.",
+  "best_angle": "",
+  "sources": [
+   "https://es.ara.cat/economia/empresas/palau-campeon-oculto-ventiladores-ripolles_1_4959924.html",
+   "https://www.reveliolabs.com/companies/soler-palau-ventilation/employees",
+   "https://www.phcppros.com/articles/19324-soler-and-palau-ventilation-group-acquires-united-enertech"
+  ]
+ },
+ {
+  "id": "morellatogroup.com",
+  "company": "Morellato Group",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "morellatogroup.com",
+  "hq": "Fossalta di Trebaseleghe (Padua), Italy",
+  "ownership": "Private, Carraro family",
+  "sells": "Jewellery and watches (Morellato, Sector No Limits, Philip Watch, Bluespirit stores, Live Diamond); Italy, Spain, France, Germany, India",
+  "headcount_band": "1,001-5,000 (4,800, company 2025)",
+  "revenue": "EUR 723M (FY to Feb 2025, EBITDA 21.3%); EUR 750M (2026 profile) ~ USD 800M",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets (Italy, Spain, France, Germany): yes; affluent 25-54: yes; precision story: yes; category not crowded: no (watches crowded)",
+  "up_and_coming": false,
+  "flags": [
+   "Sector No Limits past MotoGP ambassadors (Lorenzo, Morbidelli) - not F1",
+   "watch category crowded"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (EUR 723M FY2024/25 revenue) and filters; no F1 tie found; watch category crowded on the grid.",
+  "best_angle": "Jewellery-led (not watch) partnership via Bluespirit retail, building on proven motorsport marketing (MotoGP).",
+  "sources": [
+   "https://morellatogroup.com/media_file/COMUNICATO%20STAMPA_MORELLATO%20GROUP_DATI%20FINANZIARI%202024.pdf",
+   "https://morellatogroup.com/media_file/MORELLATO%20GROUP_COMPANY%20PROFILE_2026_IT.pdf",
+   "https://en.wikipedia.org/wiki/Sector_No_Limits",
+   "https://morellatogroup.com/en/news/franco-morbidelli-sector-no-limitss-new-global-brand-ambassador"
+  ]
+ },
+ {
+  "id": "mennekes.de",
+  "company": "MENNEKES",
+  "sector_tab": "43 Mobility & Automotive",
+  "domain": "mennekes.de",
+  "hq": "Kirchhundem, Germany",
+  "ownership": "Private, Mennekes family",
+  "sells": "Industrial plugs and sockets; EV charging stations and Type 2 connectors; Europe, India, global",
+  "headcount_band": "1,001-5,000 (~1,600, company)",
+  "revenue": "~EUR 300M (company press release 2026, year unspecified) ~ USD 330M",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets: yes; senior B2B buyers: yes; technology story (Type 2 inventor): yes; category not crowded: no (automotive/EV crowded)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue year unspecified"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on USD 150-500M revenue route (~EUR 300M), capped at Stretch; no F1 or Formula E tie found.",
+  "best_angle": "Charging-tech brand could tie into F1's 2026 hybrid/sustainable-fuel era for fleet and infrastructure buyers.",
+  "sources": [
+   "https://www.mennekes.de/fileadmin/MEN-Deutschland/plugs_sockets/News/2026/04/wechsel_in_der_unternehmensleitung/Pressemitteilung_MENNEKES_neues_Fuehrungsduo_Business_Unit_Industry.pdf",
+   "https://www.mennekes.in/company/career/working-at-mennekes/",
+   "https://electrive.com/2018/06/26/mennekes-exclusive-charging-provider-for-jaguar-i-pace"
+  ]
+ },
+ {
+  "id": "astek.com",
+  "company": "Astek Group",
+  "sector_tab": "25 IT Services & Consulting",
+  "domain": "astek.net (input astek.com belongs to Astek Inc., an unrelated US wallcovering firm)",
+  "hq": "Paris (Boulogne-Billancourt), France",
+  "ownership": "Private, founder/management-controlled; ICG strategic minority (EUR 110M equity, 2024)",
+  "sells": "Engineering R&D and digital/IT services for aerospace, automotive, defence, energy; 20+ countries",
+  "headcount_band": "5,001-10,000 (8,400 2024 company; 7,610 Sep 2025 Revelio)",
+  "revenue": "EUR 585M (2023); EUR 705M (2024, screen) ~ USD 760M",
+  "valuation": "n/a (not disclosed)",
+  "latest_raise": "ICG EUR 110M equity + EUR 560M refinancing (May 2024)",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets (France, Germany, UK, US): yes; senior B2B buyers: yes; engineering/technology story: yes; category not crowded: no (IT/engineering services well represented)",
+  "up_and_coming": false,
+  "flags": [
+   "domain mismatch: astek.com is Astek Inc. (wallcoverings); Astek Group = astek.net",
+   "target EUR 1B revenue 2027"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (EUR 585M 2023 revenue) and filters; no F1 tie found; B2B engineering services with unproven brand-marketing motive.",
+  "best_angle": "Engineering-services firm targeting EUR 1B by 2027 could use F1 technical partnership to win automotive/aero R&D clients and talent.",
+  "sources": [
+   "https://www.lemondedudroit.fr/deals/92627-arsene-conseille-icg-dans-son-partenariat-strategique-avec-astek.html",
+   "https://hig.com/news/h-i-g-whitehorse-europe-refinances-astek/",
+   "https://www.reveliolabs.com/companies/astek/employees",
+   "https://astek.com"
+  ]
+ },
+ {
+  "id": "a16z.com",
+  "company": "Andreessen Horowitz",
+  "sector_tab": "X Asset Mgmt & PE",
+  "domain": "a16z.com",
+  "hq": "Menlo Park, California, United States",
+  "ownership": "Private partnership (Marc Andreessen, Ben Horowitz)",
+  "sells": "Venture capital funds; media/content arm",
+  "headcount_band": "501-1,000 (~600 est)",
+  "revenue": "Unpublished; management fees on AUM ~USD 45B+ (2025) estimated USD 500M+ (est)",
+  "valuation": "n/a",
+  "latest_raise": "n/a (fund raises, not corporate equity)",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets: yes (US, UK, global portfolio); senior B2B buyers/founders: yes; technology story: yes; category not crowded: no (PE/asset managers present: Z Capital/Ferrari, Arctos/Aston Martin, Otro/Alpine)",
+  "up_and_coming": false,
+  "flags": [
+   "revenue estimated from AUM only",
+   "sponsorship motive unproven"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale on estimated fee revenue USD 500M+ (est, AUM-based) and filters; no F1 tie found; VC firm with no sponsorship motive shown.",
+  "best_angle": "",
+  "sources": [
+   "https://www.wikipedia.com/wiki/A16z",
+   "https://europe.autonews.com/automakers/aston-martin-f1-team-gets-investment-pe-firm"
+  ]
+ },
+ {
+  "id": "destinus.com",
+  "company": "Destinus",
+  "sector_tab": "32 Defense & Industrial AI",
+  "domain": "destinus.com",
+  "hq": "Payerne, Switzerland / Netherlands",
+  "ownership": "Private, founder Mikhail Kokorich and investors; planned Amsterdam IPO",
+  "sells": "Long-range strike drones and cruise missiles (supplied to Ukraine), autonomy tech",
+  "headcount_band": "201-500 (191-394 est)",
+  "revenue": "Forecast ~EUR 500M annual (2026, Bloomberg-reported)",
+  "valuation": "Convertible notes at >EUR 1B valuation (early 2026, reported); seeking EUR 200M at >EUR 5B (May 2026, in talks)",
+  "latest_raise": "~EUR 400M raised to date incl. convertibles (2026, reported, not priced)",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets: no (government buyers); senior B2G buyers: yes; technology/precision story: yes; category not crowded: yes - weapons brand-safety issue",
+  "up_and_coming": true,
+  "flags": [
+   "valuation from convertible notes (unpriced) - verify",
+   "pre-IPO round not confirmed closed",
+   "weapons maker - brand-safety barrier for F1 rights holders"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes scale on reported >EUR 1B valuation (early 2026, convertible, unverified) and filters; no F1 tie; B2G weapons maker with no credible F1 marketing motive.",
+  "best_angle": "",
+  "sources": [
+   "https://www.bloomberg.com/news/articles/2026-05-15/weapons-firm-destinus-seeks-200-million-in-pre-ipo-funding",
+   "https://startups.one.gob.es/news/note/destinus-seeks-200m-pre-ipo-raise-at-5b-valuation",
+   "https://www.robotics.press/news/destinus-140m-convertible-round-verification-gap/"
+  ]
+ },
+ {
+  "id": "swisspearl.com",
+  "company": "Swisspearl Group",
+  "sector_tab": "21 Materials & Mech Parts",
+  "domain": "swisspearl.com",
+  "hq": "Niederurnen, Switzerland",
+  "ownership": "Private; Alpstaeg family per company/press (input says Anova/Schmidheiny - conflicting)",
+  "sells": "Fibre-cement facade and roofing panels; Switzerland, Austria, Nordics, UK, Germany",
+  "headcount_band": "1,001-5,000 (~2,300-2,600, company)",
+  "revenue": "Group unpublished; Austria unit EUR 71.6M (2024)",
+  "valuation": "n/a",
+  "latest_raise": "n/a",
+  "fit_score": 1,
+  "fit_detail": "3+ F1 markets: yes; senior B2B buyers (architects): no; performance story: no; category not crowded: yes",
+  "up_and_coming": false,
+  "flags": [
+   "scale unverified - group revenue unpublished",
+   "ownership conflicting (Alpstaeg vs Anova)",
+   "2025 Payerne plant closure (80 jobs)"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Scale filter failed: no sourced group revenue or valuation (only Austria unit EUR 71.6M 2024); recheck if group accounts found.",
+  "best_angle": "",
+  "sources": [
+   "https://swisspearl.com/swisspearl-group-ag-acquires-danish-cembrit",
+   "https://www.tips.at/nachrichten/voecklabruck/wirtschaft-politik/650167-bei-swisspearl-gibt-es-grund-zum-feiern",
+   "https://roofingtoday.co.uk/fibre-cement-manufacturer-acquired-by-eternit-brand-owners",
+   "https://www.suedostschweiz.ch/schweiz-und-welt/80-arbeitsplaetze-betroffen-werkschliessung-in-payerne-swisspearl-verlagert-produktion-831048"
+  ]
+ },
+ {
+  "id": "swisssense.nl",
+  "company": "Swiss Sense",
+  "sector_tab": "49 Home & Living",
+  "domain": "swisssense.nl",
+  "hq": "Uden, Netherlands",
+  "ownership": "Private, Diks family with 365 Capital among shareholders",
+  "sells": "Beds, mattresses and bedding via stores in Netherlands, Belgium, Germany, Austria and online",
+  "headcount_band": "1,001-5,000 (~1,500 est)",
+  "revenue": "Unpublished (est EUR 200-300M, unverified)",
+  "valuation": "n/a",
+  "latest_raise": "EUR 100M+ refinancing from existing shareholders (Jul 2025, unpriced/debt mix)",
+  "fit_score": 1,
+  "fit_detail": "3+ F1 markets: no (NL, BE, DE, AT - only NL/BE/AT host GPs, regional retailer); affluent 25-54: no; performance story: no (sleep-performance only); category not crowded: yes",
+  "up_and_coming": true,
+  "flags": [
+   "scale unverified - revenue unpublished",
+   "market expansion: Benelux -> Germany (100+ store potential)"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Scale filter failed: no sourced revenue/valuation; EUR 100M+ July 2025 refinancing is not a priced equity round.",
+  "best_angle": "",
+  "sources": [
+   "https://finder.techleap.nl/news/feed/swiss-sense-secures-100m-for-growth",
+   "https://www.retaildetail.eu/news/home/swiss-sense-raises-100-million-euros/",
+   "https://www.interiordaily.com/article/9790228/dutch-bed-retailer-bets-heavily-on-expansion/"
+  ]
+ },
+ {
+  "id": "teradar.com",
+  "company": "Teradar",
+  "sector_tab": "43 Mobility & Automotive",
+  "domain": "teradar.com",
+  "hq": "Boston, Massachusetts, United States",
+  "ownership": "Private, VC-backed (VXI Capital lead; Lockheed Martin Ventures, Capricorn, The Engine)",
+  "sells": "Terahertz vision sensor for vehicle autonomy/ADAS (pre-revenue; production target 2028)",
+  "headcount_band": "51-200 (51-100, Fundable est)",
+  "revenue": "Pre-revenue (2025)",
+  "valuation": "Not disclosed",
+  "latest_raise": "USD 150M Series B (Nov 2025)",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets: no (pre-revenue); senior B2B buyers (OEM engineering): yes; technology story: yes; category not crowded: no (automotive crowded)",
+  "up_and_coming": true,
+  "flags": [
+   "pre-revenue",
+   "automotive category crowded",
+   "Lockheed Martin Ventures investor (minority)"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes scale (USD 150M Series B Nov 2025) and filters, no F1 tie found; pre-revenue B2B sensor startup with no consumer brand need.",
+  "best_angle": "",
+  "sources": [
+   "https://techcrunch.com/2025/11/12/teradar-exits-stealth-with-an-all-weather-sensor-for-autonomy-and-150m-in-funding/embed",
+   "https://thebrakereport.com/teradar-unveils-terahertz-vision-sensor-for-automotive-safety/",
+   "https://www.tryfundable.ai/company/teradar"
+  ]
+ }
+]
