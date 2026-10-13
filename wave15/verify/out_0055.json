@@ -1,0 +1,274 @@
+[
+ {
+  "id": "alza.cz",
+  "company": "Alza.cz",
+  "sector_tab": "X Retail & E-commerce",
+  "domain": "alza.cz",
+  "hq": "Prague, Czechia",
+  "ownership": "Private; founder Ales Zavoral controls (via holding structure)",
+  "sells": "Online electronics/general merchandise retail with AlzaBox lockers in CZ, SK, HU, AT, DE",
+  "headcount_band": "1,001-5,000 (2,096 in 2024 per Wikipedia)",
+  "revenue": "CZK 62.2B (~USD 2.7B) 2024; Alza.sk EUR 621M 2025",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "CZ/SK/HU/AT/DE incl. GP hosts Austria & Hungary (1); tech/logistics story (AlzaBox, own brands) (1); retail category not crowded (1); mass-market rather than affluent audience (0)",
+  "up_and_coming": false,
+  "flags": [
+   "regional CEE footprint"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes all filters (revenue USD 2.7B 2024, ~2,100 staff, no F1 tie found); fit 3 and active domestic sports sponsor",
+  "best_angle": "Austrian and Hungarian GPs sit in Alza's own markets, giving a regional platform as it pushes beyond CZ/SK into AT/HU/DE.",
+  "sources": [
+   "https://forbes.cz/alza-slavi-historicke-trzby-a-cisty-zisk-23-miliardy-korun-navrat-k-normalu-rika-zakladatel-zavoral/",
+   "https://cc.cz/alza-vladne-i-na-slovensku-vyrostla-na-15-miliard-a-reaguje-na-cinska-trziste-cenou-souperit-nebudeme/",
+   "https://en.wikipedia.org/wiki/Alza.cz",
+   "https://www.alza.cz/alza-history-then-and-now"
+  ]
+ },
+ {
+  "id": "romi.com",
+  "company": "Indústrias Romi",
+  "sector_tab": "23 Machine Tools",
+  "domain": "romi.com",
+  "hq": "Santa Barbara d'Oeste, Brazil",
+  "ownership": "Listed (B3: ROMI3); Romi family-led",
+  "sells": "CNC machine tools, plastic injection machines, cast parts; Burkhardt+Weber (Germany)",
+  "headcount_band": "1,001-5,000 (~2,500 est)",
+  "revenue": "BRL 1,326.7M (~USD 240M) FY2025",
+  "valuation": "n/a (market cap well below USD 1B, est)",
+  "latest_raise": "n/a",
+  "fit_score": 1,
+  "fit_detail": "Sells Brazil/US/Europe (1); B2B industrial buyers but not senior-affluent brand audience (0); precision story moderate but no brand ambition (0); category not crowded (0 given weak fit overall - counted 0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "B2B, low marketing budget"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters on USD 150-500M revenue route (BRL 1.33B FY2025) but B2B industrial with no brand ambition",
+  "best_angle": "",
+  "sources": [
+   "https://investimentos.com.br/artigos/resultados-romi-4t25-analise-completa/",
+   "https://www.nordinvestimentos.com.br/blog/romi-romi3-resultados-3t25/"
+  ]
+ },
+ {
+  "id": "scatec.com",
+  "company": "Scatec ASA",
+  "sector_tab": "X Utilities & Power",
+  "domain": "scatec.com",
+  "hq": "Oslo, Norway",
+  "ownership": "Listed (Oslo: SCATC); widely held",
+  "sells": "Renewable power (solar, wind, hydro, storage) developer/IPP in emerging markets",
+  "headcount_band": "501-1,000 (~808 Feb 2026)",
+  "revenue": "NOK 3.63B (~USD 350M) FY2025",
+  "valuation": "Market cap ~USD 1.7B (Jun 2026, PitchBook)",
+  "latest_raise": "n/a",
+  "fit_score": 1,
+  "fit_detail": "Operates in many markets but sells power B2B/government (0 brand reach); story is energy transition not performance (0); not on crowded list (1); no affluent consumer audience (0)",
+  "up_and_coming": false,
+  "flags": [
+   "B2B/utility buyers only"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters (market cap ~USD 1.7B Jun 2026, ~800 staff, no F1 tie found) but B2B IPP with no consumer brand motive",
+  "best_angle": "",
+  "sources": [
+   "https://pitchbook.com/profiles/company/51360-40",
+   "https://www.tradingview.com/symbols/OSL-SCATC",
+   "https://simplywall.st/stock/OB/SCATC"
+  ]
+ },
+ {
+  "id": "r-stahl.com",
+  "company": "R. STAHL",
+  "sector_tab": "41 OT & Physical Security",
+  "domain": "r-stahl.com",
+  "hq": "Waldenburg, Germany",
+  "ownership": "Listed (Xetra: RSL2); founding families hold large stake",
+  "sells": "Explosion-protection electrical equipment and automation for oil, gas, chemicals, pharma",
+  "headcount_band": "1,001-5,000 (1,659 at 31 Dec 2025)",
+  "revenue": "EUR 313.0M (~USD 350M) FY2025, -9.1%; 2026 guidance EUR 285-300M",
+  "valuation": "n/a (small cap)",
+  "latest_raise": "n/a",
+  "fit_score": 1,
+  "fit_detail": "Global B2B sales (1); niche engineering buyers, no brand audience (0); safety not performance story (0); customer base is oil & gas (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "declining sales"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters on USD 150-500M route (EUR 313M FY2025) but niche B2B with weak demand and no brand ambition",
+  "best_angle": "",
+  "sources": [
+   "https://r-stahl.com/en/global/corporate/investor-relations/ir-news-and-ad-hoc-news/detail/weak-demand-reflected-in-r-stahls-2025-figures-executive-board-expects-business-to-stabilize-at-a-modest-level-in-2026/"
+  ]
+ },
+ {
+  "id": "my.games",
+  "company": "MY.GAMES",
+  "sector_tab": "29 Tech Media & Gaming",
+  "domain": "my.games",
+  "hq": "Amsterdam, Netherlands",
+  "ownership": "Private; Alexander Chachava (LETA Capital) since Oct 2022 (bought from VK for USD 642M)",
+  "sells": "Mobile/PC games (War Robots via Pixonic, Rush Royale etc.) worldwide",
+  "headcount_band": "501-1,000 (~860 Dec 2025, Revelio est; -40% YoY)",
+  "revenue": "~USD 560M (est, third-party); last disclosed ~USD 444-528M 2021",
+  "valuation": "USD 642M sale price (Oct 2022)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "Global player base incl. US/EU (1); 18-44 gamer audience, partly affluent (1); tech story (1); gaming not crowded (1) - capped 3 for audience mix",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route (scale unverified since 2021)",
+   "ex-VK/Russia origin - reputation check",
+   "headcount down ~40% 2025 (est)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Scale only by estimate and Russia-origin reputation needs checking; no sanctions or F1 tie found",
+  "best_angle": "",
+  "sources": [
+   "https://frontofficesports.com/article/european-video-game-publisher-sells-for-642m/",
+   "https://www.reveliolabs.com/companies/my-games/employees/",
+   "https://en.wikipedia.org/wiki/My.Games",
+   "https://about.my.games/news/188"
+  ]
+ },
+ {
+  "id": "yoozoo.com",
+  "company": "Youzu Interactive (Yoozoo Games)",
+  "sector_tab": "29 Tech Media & Gaming",
+  "domain": "yoozoo.com",
+  "hq": "Shanghai, China",
+  "ownership": "Listed (SZSE: 002174)",
+  "sells": "Mobile/web games published globally (Game of Thrones: Winter is Coming, League of Angels)",
+  "headcount_band": "1,001-5,000 (~1,000+ est)",
+  "revenue": "CNY ~1.40B (~USD 195M) FY2025 (stockanalysis), -2.3%",
+  "valuation": "n/a",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Global titles in US/EU/Asia (1); gamer audience mixed (0); tech story weak (0); gaming not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "governance history (2020 founder poisoning case)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on USD 150-500M route (CNY 1.4B FY2025) - verdict capped Stretch; flat revenue",
+  "best_angle": "",
+  "sources": [
+   "https://stockanalysis.com/quote/she/002174/financials/income-statement/",
+   "https://dcf-analysis.com/products/002174sz-swot-analysis"
+  ]
+ },
+ {
+  "id": "vince.com",
+  "company": "Vince Holding",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "vince.com",
+  "hq": "New York, United States",
+  "ownership": "Listed (NYSE: VNCE); P180 ~65% since Jan 2025",
+  "sells": "Premium/contemporary apparel and accessories, DTC and wholesale",
+  "headcount_band": "501-1,000 (~800 est)",
+  "revenue": "USD 300.0M FY2025 (to 31 Jan 2026), +2.2%",
+  "valuation": "n/a (small cap)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Mostly US (0); affluent 25-54 consumers (1); lifestyle not performance story (0); premium apparel not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "US-centric"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on USD 150-500M route (USD 300M FY2025) - capped Stretch; small and US-centric",
+  "best_angle": "US races (Miami, Austin, Las Vegas) match its affluent American customer.",
+  "sources": [
+   "https://seekingalpha.com/pr/20473592",
+   "https://fashionunited.com/news/business/p180-acquires-majority-stake-in-vince-hoffman-to-return-as-ceo/2025012364075"
+  ]
+ },
+ {
+  "id": "seco.com",
+  "company": "SECO S.p.A.",
+  "sector_tab": "36 IoT & Connectivity",
+  "domain": "seco.com",
+  "hq": "Arezzo, Italy",
+  "ownership": "Listed (Euronext Milan: IOT)",
+  "sells": "Embedded computing boards/systems and Clea IoT/AI software",
+  "headcount_band": "501-1,000 (~800 est)",
+  "revenue": "EUR 197.6M (~USD 225M) FY2025, +7.7%",
+  "valuation": "n/a",
+  "latest_raise": "n/a",
+  "fit_score": 1,
+  "fit_detail": "Global B2B sales (1); OEM engineering buyers (0); tech story present but B2B (0); IoT not crowded but no brand ambition (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes on USD 150-500M route (EUR 197.6M FY2025) but small B2B OEM supplier with no brand ambition",
+  "best_angle": "",
+  "sources": [
+   "https://www.emarketstorage.it/sites/default/files/comunicati/2026-03/20260323_179588.pdf",
+   "https://www.tipranks.com/stocks/it:iot/revenue"
+  ]
+ },
+ {
+  "id": "focus-entmt.com",
+  "company": "Pullup Entertainment",
+  "sector_tab": "29 Tech Media & Gaming",
+  "domain": "focus-entmt.com",
+  "hq": "Paris, France",
+  "ownership": "Listed (Euronext Growth: ALPUL)",
+  "sells": "Video game publishing (Focus Entertainment, Dotemu, Deck13)",
+  "headcount_band": "501-1,000 (~1,000 est)",
+  "revenue": "EUR 281.4M (~USD 320M) FY2025/26, -27.8%",
+  "valuation": "n/a",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Global sales (1); gamer audience mixed (0); entertainment not performance story (0); gaming not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue -28% FY25/26; guidance cut; net debt EUR 85.7M"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on USD 150-500M route (EUR 281M FY2025/26) - capped Stretch; revenue falling sharply",
+  "best_angle": "",
+  "sources": [
+   "https://investgame.net/news/pdf/2026-06-12-pullup_pr_english_earnings_fy26_final_wp/",
+   "https://investgame.net/news/pdf/2026-04-17-pullup_q4_fy26_pr_english_final_wp/"
+  ]
+ },
+ {
+  "id": "prg.com",
+  "company": "Production Resource Group",
+  "sector_tab": "X Live Events & Ticketing",
+  "domain": "prg.com",
+  "hq": "New York, United States",
+  "ownership": "Private; FS KKR and Ares joint control (EC approval Oct 2025)",
+  "sells": "Live event production technology: lighting, video, audio, rigging, scenic",
+  "headcount_band": "1,001-5,000 (~3,400 est)",
+  "revenue": "n/a (private)",
+  "valuation": "~USD 3.7B deal valuation (Oct 2025, reported)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "38 locations worldwide (1); event-industry buyers, not affluent consumers (0); technology story (1); not crowded (0 - F1 is a client not a marketing audience)",
+  "up_and_coming": false,
+  "flags": [
+   "F1 event production vendor (LVGP 2023 opening ceremony; team event in Middle East) - confirm before outreach",
+   "B2B"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on ~USD 3.7B valuation, but has done F1/Grand Prix production work - confirm no current supplier deal; B2B",
+  "best_angle": "",
+  "sources": [
+   "https://kongres-magazine.eu/2025/10/european-commission-approves-kkr-and-ares-acquisition-of-prg/",
+   "https://www.prg.com/en-gb/news/2023/q2/ground-control-middle-east"
+  ]
+ }
+]
