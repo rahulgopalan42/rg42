@@ -4,15 +4,19 @@
 "children_seen": 10
 },
 {
+"name": "Tata Sons",
+"children_seen": 9
+},
+{
 "name": "Koch Industries",
 "children_seen": 7
 },
 {
-"name": "Banco Santander",
+"name": "KKR",
 "children_seen": 7
 },
 {
-"name": "Tata Sons",
+"name": "Banco Santander",
 "children_seen": 7
 },
 {
@@ -28,11 +32,19 @@
 "children_seen": 4
 },
 {
+"name": "Groupe Casino",
+"children_seen": 4
+},
+{
 "name": "Les Mousquetaires",
 "children_seen": 4
 },
 {
 "name": "EnBW",
+"children_seen": 4
+},
+{
+"name": "Spanish state",
 "children_seen": 4
 },
 {
@@ -44,15 +56,19 @@
 "children_seen": 4
 },
 {
+"name": "Eli Lilly",
+"children_seen": 4
+},
+{
 "name": "Liberty Mutual",
 "children_seen": 3
 },
 {
-"name": "PKP S.A.",
+"name": "VEON",
 "children_seen": 3
 },
 {
-"name": "Spanish state",
+"name": "PKP S.A.",
 "children_seen": 3
 },
 {
@@ -64,6 +80,10 @@
 "children_seen": 3
 },
 {
+"name": "Norwegian state",
+"children_seen": 3
+},
+{
 "name": "Adcorp Holdings",
 "children_seen": 3
 },
@@ -72,7 +92,15 @@
 "children_seen": 3
 },
 {
+"name": "Novonor",
+"children_seen": 3
+},
+{
 "name": "Grupo Sanborns",
+"children_seen": 3
+},
+{
+"name": "Altice Portugal",
 "children_seen": 3
 },
 {
@@ -84,7 +112,19 @@
 "children_seen": 3
 },
 {
-"name": "Keralty",
+"name": "French State",
+"children_seen": 3
+},
+{
+"name": "PRISA",
+"children_seen": 3
+},
+{
+"name": "Corporación Gestamp",
+"children_seen": 3
+},
+{
+"name": "Barry-Wehmiller",
 "children_seen": 3
 },
 {
@@ -92,7 +132,23 @@
 "children_seen": 3
 },
 {
+"name": "Actis",
+"children_seen": 3
+},
+{
+"name": "Manipal Hospitals",
+"children_seen": 3
+},
+{
 "name": "HNA Group",
+"children_seen": 2
+},
+{
+"name": "WHP Global",
+"children_seen": 2
+},
+{
+"name": "Hunter Douglas",
 "children_seen": 2
 },
 {
@@ -124,11 +180,11 @@
 "children_seen": 2
 },
 {
-"name": "KKR",
+"name": "Sollio Cooperative Group",
 "children_seen": 2
 },
 {
-"name": "Sollio Cooperative Group",
+"name": "Distribuidora Internacional de Alimentación",
 "children_seen": 2
 },
 {
@@ -144,15 +200,19 @@
 "children_seen": 2
 },
 {
-"name": "VEON",
-"children_seen": 2
-},
-{
 "name": "PT Mayora Indah Tbk",
 "children_seen": 2
 },
 {
 "name": "Ningbo Joyson Electronic Corp.",
+"children_seen": 2
+},
+{
+"name": "J&F Investimentos",
+"children_seen": 2
+},
+{
+"name": "Holtzbrinck Publishing Group",
 "children_seen": 2
 },
 {
@@ -165,6 +225,10 @@
 },
 {
 "name": "PTT Public Company",
+"children_seen": 2
+},
+{
+"name": "Groupe Lactalis",
 "children_seen": 2
 },
 {
@@ -192,6 +256,10 @@
 "children_seen": 2
 },
 {
+"name": "One Equity Partners",
+"children_seen": 2
+},
+{
 "name": "Oi S.A.",
 "children_seen": 2
 },
@@ -201,10 +269,6 @@
 },
 {
 "name": "Enel S.p.A.",
-"children_seen": 2
-},
-{
-"name": "Norwegian state",
 "children_seen": 2
 },
 {
@@ -224,6 +288,10 @@
 "children_seen": 2
 },
 {
+"name": "Gannett",
+"children_seen": 2
+},
+{
 "name": "Audi AG / Volkswagen Group",
 "children_seen": 2
 },
@@ -232,15 +300,19 @@
 "children_seen": 2
 },
 {
+"name": "WNS",
+"children_seen": 2
+},
+{
 "name": "CFAO",
 "children_seen": 2
 },
 {
-"name": "SNCF Group",
+"name": "Comunidad de Madrid",
 "children_seen": 2
 },
 {
-"name": "Jubilant Pharmova",
+"name": "SNCF Group",
 "children_seen": 2
 },
 {
@@ -256,7 +328,31 @@
 "children_seen": 2
 },
 {
+"name": "RD Saude",
+"children_seen": 2
+},
+{
 "name": "Pierer Industrie",
+"children_seen": 2
+},
+{
+"name": "AB InBev",
+"children_seen": 2
+},
+{
+"name": "UPM",
+"children_seen": 2
+},
+{
+"name": "Cineworld Group",
+"children_seen": 2
+},
+{
+"name": "Exedy Corporation",
+"children_seen": 2
+},
+{
+"name": "RTL Group / Bertelsmann",
 "children_seen": 2
 },
 {
@@ -280,11 +376,15 @@
 "children_seen": 2
 },
 {
-"name": "Altice Portugal",
+"name": "Instituto Costarricense de Electricidad",
 "children_seen": 2
 },
 {
 "name": "OYAK",
+"children_seen": 2
+},
+{
+"name": "Grupo Romero",
 "children_seen": 2
 },
 {
@@ -301,6 +401,10 @@
 },
 {
 "name": "Religare Enterprises",
+"children_seen": 2
+},
+{
+"name": "Virgin Media O2",
 "children_seen": 2
 },
 {
@@ -324,11 +428,19 @@
 "children_seen": 2
 },
 {
-"name": "French State",
+"name": "VSP Vision",
 "children_seen": 2
 },
 {
 "name": "ABP Trust",
+"children_seen": 2
+},
+{
+"name": "DHI Group",
+"children_seen": 2
+},
+{
+"name": "DPG Media Group",
 "children_seen": 2
 },
 {
@@ -344,7 +456,19 @@
 "children_seen": 2
 },
 {
+"name": "Seminole Tribe of Florida",
+"children_seen": 2
+},
+{
+"name": "Adris Grupa",
+"children_seen": 2
+},
+{
 "name": "CCA Global Partners",
+"children_seen": 2
+},
+{
+"name": "The Friedkin Group",
 "children_seen": 2
 },
 {
@@ -356,11 +480,23 @@
 "children_seen": 2
 },
 {
-"name": "Corporación Gestamp",
+"name": "Jolywood",
 "children_seen": 2
 },
 {
-"name": "Barry-Wehmiller",
+"name": "Fidelidade",
+"children_seen": 2
+},
+{
+"name": "XXXLutz",
+"children_seen": 2
+},
+{
+"name": "Zhejiang Geely Holding",
+"children_seen": 2
+},
+{
+"name": "Pon Holdings",
 "children_seen": 2
 },
 {
@@ -388,6 +524,134 @@
 "children_seen": 2
 },
 {
+"name": "FDJ United",
+"children_seen": 2
+},
+{
+"name": "Eli Lilly and Company",
+"children_seen": 2
+},
+{
+"name": "PLN",
+"children_seen": 2
+},
+{
+"name": "Swedish state foundation",
+"children_seen": 2
+},
+{
+"name": "Alkhorayef Group",
+"children_seen": 2
+},
+{
+"name": "Kazanci Holding",
+"children_seen": 2
+},
+{
+"name": "Generalitat de Catalunya",
+"children_seen": 2
+},
+{
+"name": "NJJ Holding",
+"children_seen": 2
+},
+{
+"name": "PT Sarana Menara Nusantara",
+"children_seen": 2
+},
+{
+"name": "Bennett",
+"children_seen": 2
+},
+{
+"name": "Azzas 2154",
+"children_seen": 2
+},
+{
+"name": "FIH Mobile / Hon Hai",
+"children_seen": 2
+},
+{
+"name": "Maus Freres",
+"children_seen": 2
+},
+{
+"name": "EMK Capital",
+"children_seen": 2
+},
+{
+"name": "Infracapital",
+"children_seen": 2
+},
+{
+"name": "Finnish State",
+"children_seen": 2
+},
+{
+"name": "Integrated Media Company",
+"children_seen": 2
+},
+{
+"name": "DPG Media",
+"children_seen": 2
+},
+{
+"name": "MediaLab",
+"children_seen": 2
+},
+{
+"name": "L Catterton",
+"children_seen": 2
+},
+{
+"name": "Concentra Biosciences",
+"children_seen": 2
+},
+{
+"name": "BBC Studios",
+"children_seen": 2
+},
+{
+"name": "Modern Times Group",
+"children_seen": 2
+},
+{
+"name": "OPKO Health",
+"children_seen": 2
+},
+{
+"name": "Candriam",
+"children_seen": 2
+},
+{
+"name": "Lucky Cement",
+"children_seen": 2
+},
+{
+"name": "Demirören Holding",
+"children_seen": 2
+},
+{
+"name": "Groupe Avril",
+"children_seen": 2
+},
+{
+"name": "Gewiss S.p.A.",
+"children_seen": 2
+},
+{
+"name": "Grupo Breca",
+"children_seen": 2
+},
+{
+"name": "Grupo Multimedios",
+"children_seen": 2
+},
+{
+"name": "Megha Engineering & Infrastructures",
+"children_seen": 2
+},
+{
 "name": "Koch Inc.",
 "children_seen": 1
 },
@@ -401,10 +665,6 @@
 },
 {
 "name": "Asda",
-"children_seen": 1
-},
-{
-"name": "WHP Global",
 "children_seen": 1
 },
 {
@@ -453,10 +713,6 @@
 },
 {
 "name": "Gray Media Inc.",
-"children_seen": 1
-},
-{
-"name": "Hunter Douglas",
 "children_seen": 1
 },
 {
@@ -521,10 +777,6 @@
 },
 {
 "name": "Novares Group",
-"children_seen": 1
-},
-{
-"name": "Distribuidora Internacional de Alimentación",
 "children_seen": 1
 },
 {
@@ -656,10 +908,6 @@
 "children_seen": 1
 },
 {
-"name": "J&F Investimentos",
-"children_seen": 1
-},
-{
 "name": "CION Investment Corp.",
 "children_seen": 1
 },
@@ -669,10 +917,6 @@
 },
 {
 "name": "HCL Corporation",
-"children_seen": 1
-},
-{
-"name": "Holtzbrinck Publishing Group",
 "children_seen": 1
 },
 {
@@ -745,10 +989,6 @@
 },
 {
 "name": "Unilumin Group",
-"children_seen": 1
-},
-{
-"name": "Aurea Group",
 "children_seen": 1
 },
 {
@@ -876,10 +1116,6 @@
 "children_seen": 1
 },
 {
-"name": "Groupe Lactalis",
-"children_seen": 1
-},
-{
 "name": "Brussels-Capital Region",
 "children_seen": 1
 },
@@ -912,14 +1148,6 @@
 "children_seen": 1
 },
 {
-"name": "Gland Pharma",
-"children_seen": 1
-},
-{
-"name": "Tega Industries",
-"children_seen": 1
-},
-{
 "name": "HORNBACH Holding AG & Co. KGaA",
 "children_seen": 1
 },
@@ -945,10 +1173,6 @@
 },
 {
 "name": "Vision Investments",
-"children_seen": 1
-},
-{
-"name": "One Equity Partners",
 "children_seen": 1
 },
 {
@@ -1005,10 +1229,6 @@
 },
 {
 "name": "DELTON",
-"children_seen": 1
-},
-{
-"name": "TVS Holdings",
 "children_seen": 1
 },
 {
@@ -1077,10 +1297,6 @@
 },
 {
 "name": "Guangzhou Radio Group",
-"children_seen": 1
-},
-{
-"name": "Dine Brands Global",
 "children_seen": 1
 },
 {
@@ -1172,10 +1388,6 @@
 "children_seen": 1
 },
 {
-"name": "Jubilant Pharmova Ltd",
-"children_seen": 1
-},
-{
 "name": "Differential Capital-backed Cementation group",
 "children_seen": 1
 },
@@ -1189,10 +1401,6 @@
 },
 {
 "name": "JS Global Lifestyle",
-"children_seen": 1
-},
-{
-"name": "Gannett",
 "children_seen": 1
 },
 {
@@ -1260,10 +1468,6 @@
 "children_seen": 1
 },
 {
-"name": "WNS",
-"children_seen": 1
-},
-{
 "name": "Seagate",
 "children_seen": 1
 },
@@ -1304,15 +1508,7 @@
 "children_seen": 1
 },
 {
-"name": "Comunidad de Madrid",
-"children_seen": 1
-},
-{
 "name": "Tredegar Corp",
-"children_seen": 1
-},
-{
-"name": "Harita Group",
 "children_seen": 1
 },
 {
@@ -1349,10 +1545,6 @@
 },
 {
 "name": "ThyssenSchachtbau Group",
-"children_seen": 1
-},
-{
-"name": "Rieter Holding",
 "children_seen": 1
 },
 {
@@ -1401,10 +1593,6 @@
 },
 {
 "name": "Suzhou Dongshan Precision",
-"children_seen": 1
-},
-{
-"name": "Aubay SA",
 "children_seen": 1
 },
 {
@@ -1508,10 +1696,6 @@
 "children_seen": 1
 },
 {
-"name": "Pinstripes Holdings",
-"children_seen": 1
-},
-{
 "name": "NACCO Industries",
 "children_seen": 1
 },
@@ -1521,10 +1705,6 @@
 },
 {
 "name": "Wacom Co.",
-"children_seen": 1
-},
-{
-"name": "RD Saude",
 "children_seen": 1
 },
 {
@@ -1541,10 +1721,6 @@
 },
 {
 "name": "GCL System Integration",
-"children_seen": 1
-},
-{
-"name": "AB InBev",
 "children_seen": 1
 },
 {
@@ -1568,10 +1744,6 @@
 "children_seen": 1
 },
 {
-"name": "UPM",
-"children_seen": 1
-},
-{
 "name": "GELEX Group",
 "children_seen": 1
 },
@@ -1585,10 +1757,6 @@
 },
 {
 "name": "IVM Group",
-"children_seen": 1
-},
-{
-"name": "Cineworld Group",
 "children_seen": 1
 },
 {
@@ -1617,10 +1785,6 @@
 },
 {
 "name": "GN Store Nord",
-"children_seen": 1
-},
-{
-"name": "Exedy Corporation",
 "children_seen": 1
 },
 {
@@ -1661,10 +1825,6 @@
 },
 {
 "name": "Wolong Electric Group",
-"children_seen": 1
-},
-{
-"name": "RTL Group / Bertelsmann",
 "children_seen": 1
 },
 {
@@ -1725,14 +1885,6 @@
 },
 {
 "name": "SAIC Motor / Volkswagen Group",
-"children_seen": 1
-},
-{
-"name": "Tsuneishi Holdings",
-"children_seen": 1
-},
-{
-"name": "Novonor",
 "children_seen": 1
 },
 {
@@ -1824,10 +1976,6 @@
 "children_seen": 1
 },
 {
-"name": "Instituto Costarricense de Electricidad",
-"children_seen": 1
-},
-{
 "name": "Hongdou Group",
 "children_seen": 1
 },
@@ -1876,15 +2024,7 @@
 "children_seen": 1
 },
 {
-"name": "RateGain",
-"children_seen": 1
-},
-{
 "name": "Arizent",
-"children_seen": 1
-},
-{
-"name": "Streamland Media",
 "children_seen": 1
 },
 {
@@ -1968,10 +2108,6 @@
 "children_seen": 1
 },
 {
-"name": "Grupo Romero",
-"children_seen": 1
-},
-{
 "name": "Italian MEF / Lufthansa",
 "children_seen": 1
 },
@@ -2024,23 +2160,11 @@
 "children_seen": 1
 },
 {
-"name": "Virgin Media O2",
-"children_seen": 1
-},
-{
 "name": "GM / LG Energy Solution",
 "children_seen": 1
 },
 {
-"name": "Avinor",
-"children_seen": 1
-},
-{
 "name": "Esteel Enterprise",
-"children_seen": 1
-},
-{
-"name": "Qingdao TGOOD Electric",
 "children_seen": 1
 },
 {
@@ -2184,10 +2308,6 @@
 "children_seen": 1
 },
 {
-"name": "VSP Vision",
-"children_seen": 1
-},
-{
 "name": "Agrolimen",
 "children_seen": 1
 },
@@ -2197,10 +2317,6 @@
 },
 {
 "name": "Domtar / Paper Excellence",
-"children_seen": 1
-},
-{
-"name": "LegalShield",
 "children_seen": 1
 },
 {
@@ -2268,10 +2384,6 @@
 "children_seen": 1
 },
 {
-"name": "DHI Group",
-"children_seen": 1
-},
-{
 "name": "Nexi S.p.A.",
 "children_seen": 1
 },
@@ -2285,10 +2397,6 @@
 },
 {
 "name": "Labatt",
-"children_seen": 1
-},
-{
-"name": "DPG Media Group",
 "children_seen": 1
 },
 {
@@ -2345,10 +2453,6 @@
 },
 {
 "name": "Coop amba / Coop Danmark",
-"children_seen": 1
-},
-{
-"name": "THOM Group",
 "children_seen": 1
 },
 {
@@ -2464,14 +2568,6 @@
 "children_seen": 1
 },
 {
-"name": "Seminole Tribe of Florida",
-"children_seen": 1
-},
-{
-"name": "Culina Group",
-"children_seen": 1
-},
-{
 "name": "Oneida Indian Nation",
 "children_seen": 1
 },
@@ -2489,10 +2585,6 @@
 },
 {
 "name": "Gruppo Tecnocasa",
-"children_seen": 1
-},
-{
-"name": "Adris Grupa",
 "children_seen": 1
 },
 {
@@ -2529,10 +2621,6 @@
 },
 {
 "name": "Mativ Holdings",
-"children_seen": 1
-},
-{
-"name": "PRISA",
 "children_seen": 1
 },
 {
@@ -2588,10 +2676,6 @@
 "children_seen": 1
 },
 {
-"name": "The Friedkin Group",
-"children_seen": 1
-},
-{
 "name": "Autoneum / Nihon Tokushu Toryo",
 "children_seen": 1
 },
@@ -2600,15 +2684,7 @@
 "children_seen": 1
 },
 {
-"name": "Jolywood",
-"children_seen": 1
-},
-{
 "name": "Prairie Farms / DFA",
-"children_seen": 1
-},
-{
-"name": "Fidelidade",
 "children_seen": 1
 },
 {
@@ -2660,15 +2736,7 @@
 "children_seen": 1
 },
 {
-"name": "XXXLutz",
-"children_seen": 1
-},
-{
 "name": "Beijing Tourism Group",
-"children_seen": 1
-},
-{
-"name": "Zhejiang Geely Holding",
 "children_seen": 1
 },
 {
@@ -2804,10 +2872,6 @@
 "children_seen": 1
 },
 {
-"name": "Pon Holdings",
-"children_seen": 1
-},
-{
 "name": "HORSE Powertrain",
 "children_seen": 1
 },
@@ -2861,10 +2925,6 @@
 },
 {
 "name": "Houchens Industries",
-"children_seen": 1
-},
-{
-"name": "Grupo Industrial Saltillo",
 "children_seen": 1
 },
 {
@@ -3081,10 +3141,6 @@
 },
 {
 "name": "SOLO Group",
-"children_seen": 1
-},
-{
-"name": "Maxcess International",
 "children_seen": 1
 },
 {
@@ -3324,10 +3380,6 @@
 "children_seen": 1
 },
 {
-"name": "SIR Corp",
-"children_seen": 1
-},
-{
 "name": "Elloumi Group",
 "children_seen": 1
 },
@@ -3341,10 +3393,6 @@
 },
 {
 "name": "Youth Group",
-"children_seen": 1
-},
-{
-"name": "Damro Group",
 "children_seen": 1
 },
 {
@@ -3504,19 +3552,11 @@
 "children_seen": 1
 },
 {
-"name": "Wahanaartha Group",
-"children_seen": 1
-},
-{
 "name": "Stanhome World",
 "children_seen": 1
 },
 {
 "name": "Royal De Heus",
-"children_seen": 1
-},
-{
-"name": "The Medical City",
 "children_seen": 1
 },
 {
@@ -3532,11 +3572,11 @@
 "children_seen": 1
 },
 {
-"name": "FDJ United",
+"name": "StarTimes Group",
 "children_seen": 1
 },
 {
-"name": "StarTimes Group",
+"name": "TVS Supply Chain Solutions",
 "children_seen": 1
 },
 {
@@ -3601,10 +3641,6 @@
 },
 {
 "name": "UHY International network",
-"children_seen": 1
-},
-{
-"name": "Dot Foods",
 "children_seen": 1
 },
 {
@@ -3676,10 +3712,6 @@
 "children_seen": 1
 },
 {
-"name": "Eli Lilly and Company",
-"children_seen": 1
-},
-{
 "name": "International Resources Holding",
 "children_seen": 1
 },
@@ -3720,19 +3752,11 @@
 "children_seen": 1
 },
 {
-"name": "PLN",
-"children_seen": 1
-},
-{
 "name": "Fortress-led lender group",
 "children_seen": 1
 },
 {
 "name": "Eni/Shell/Exxon/TotalEnergies/KMG/CNPC/Inpex consortium",
-"children_seen": 1
-},
-{
-"name": "Swedish state foundation",
 "children_seen": 1
 },
 {
@@ -3760,15 +3784,2103 @@
 "children_seen": 1
 },
 {
-"name": "Alkhorayef Group",
-"children_seen": 1
-},
-{
-"name": "Enersol",
-"children_seen": 1
-},
-{
 "name": "Milco SA",
+"children_seen": 1
+},
+{
+"name": "Minister of Finance Inc Malaysia",
+"children_seen": 1
+},
+{
+"name": "Indicor",
+"children_seen": 1
+},
+{
+"name": "Al-Dabbagh Group Holding",
+"children_seen": 1
+},
+{
+"name": "TCL Zhonghuan",
+"children_seen": 1
+},
+{
+"name": "ISA / Ecopetrol",
+"children_seen": 1
+},
+{
+"name": "Grupo EPM",
+"children_seen": 1
+},
+{
+"name": "Indika Energy",
+"children_seen": 1
+},
+{
+"name": "Qoo10 Pte Ltd",
+"children_seen": 1
+},
+{
+"name": "Carlo Gavazzi Holding",
+"children_seen": 1
+},
+{
+"name": "Golden Energy and Resources",
+"children_seen": 1
+},
+{
+"name": "STEAG",
+"children_seen": 1
+},
+{
+"name": "ACCO Brands",
+"children_seen": 1
+},
+{
+"name": "BMZ Group",
+"children_seen": 1
+},
+{
+"name": "Vivo Energy",
+"children_seen": 1
+},
+{
+"name": "Algar S.A.",
+"children_seen": 1
+},
+{
+"name": "Adeptio",
+"children_seen": 1
+},
+{
+"name": "NeST Group",
+"children_seen": 1
+},
+{
+"name": "Nash Holdings",
+"children_seen": 1
+},
+{
+"name": "Corporacion America Airports",
+"children_seen": 1
+},
+{
+"name": "Middle East Healthcare Co",
+"children_seen": 1
+},
+{
+"name": "Grupo Promerica",
+"children_seen": 1
+},
+{
+"name": "Welspun Corp",
+"children_seen": 1
+},
+{
+"name": "Lassonde Industries",
+"children_seen": 1
+},
+{
+"name": "BasePoint Group",
+"children_seen": 1
+},
+{
+"name": "TopBuild",
+"children_seen": 1
+},
+{
+"name": "Province of British Columbia",
+"children_seen": 1
+},
+{
+"name": "Donte Group",
+"children_seen": 1
+},
+{
+"name": "Walgreens / Sycamore Partners",
+"children_seen": 1
+},
+{
+"name": "CIR Group",
+"children_seen": 1
+},
+{
+"name": "Vend Marketplaces",
+"children_seen": 1
+},
+{
+"name": "Woodgrain",
+"children_seen": 1
+},
+{
+"name": "F9 Investments",
+"children_seen": 1
+},
+{
+"name": "Bridor / Groupe Le Duff",
+"children_seen": 1
+},
+{
+"name": "Palex Medical",
+"children_seen": 1
+},
+{
+"name": "Bertram Capital",
+"children_seen": 1
+},
+{
+"name": "Clayco",
+"children_seen": 1
+},
+{
+"name": "Empresas Banmedica",
+"children_seen": 1
+},
+{
+"name": "Cupola Group",
+"children_seen": 1
+},
+{
+"name": "Vale / BHP",
+"children_seen": 1
+},
+{
+"name": "Arauco / Empresas Copec",
+"children_seen": 1
+},
+{
+"name": "Renesas",
+"children_seen": 1
+},
+{
+"name": "Fimalac",
+"children_seen": 1
+},
+{
+"name": "IDKIDS",
+"children_seen": 1
+},
+{
+"name": "CHS / Mitsui",
+"children_seen": 1
+},
+{
+"name": "Kermas Group",
+"children_seen": 1
+},
+{
+"name": "Tata Consulting Engineers",
+"children_seen": 1
+},
+{
+"name": "EGPC / Dragon Oil",
+"children_seen": 1
+},
+{
+"name": "Amperex Technology / TDK",
+"children_seen": 1
+},
+{
+"name": "SUMEC Group",
+"children_seen": 1
+},
+{
+"name": "Kalyon Group",
+"children_seen": 1
+},
+{
+"name": "Elnusa / Pertamina",
+"children_seen": 1
+},
+{
+"name": "PT Sriboga Raturaya",
+"children_seen": 1
+},
+{
+"name": "Force BidCo A/S",
+"children_seen": 1
+},
+{
+"name": "Guggenheim Baseball Management",
+"children_seen": 1
+},
+{
+"name": "Man Varagon-led group",
+"children_seen": 1
+},
+{
+"name": "e& PPF Telecom",
+"children_seen": 1
+},
+{
+"name": "Pianoforte Holding",
+"children_seen": 1
+},
+{
+"name": "RPG Enterprises",
+"children_seen": 1
+},
+{
+"name": "DITO CME Holdings / Udenna",
+"children_seen": 1
+},
+{
+"name": "Groupe Amaury",
+"children_seen": 1
+},
+{
+"name": "Stephen Ross",
+"children_seen": 1
+},
+{
+"name": "gumi Inc.",
+"children_seen": 1
+},
+{
+"name": "Everstone Capital",
+"children_seen": 1
+},
+{
+"name": "Ring Plus Aqua Ltd",
+"children_seen": 1
+},
+{
+"name": "Volpi Capital",
+"children_seen": 1
+},
+{
+"name": "Filinvest Development Corporation",
+"children_seen": 1
+},
+{
+"name": "Mulpha International Bhd",
+"children_seen": 1
+},
+{
+"name": "Gasinvest",
+"children_seen": 1
+},
+{
+"name": "Eni / EGPC",
+"children_seen": 1
+},
+{
+"name": "SGSP Australia Assets",
+"children_seen": 1
+},
+{
+"name": "PSC Partecipazioni",
+"children_seen": 1
+},
+{
+"name": "Mark Walter",
+"children_seen": 1
+},
+{
+"name": "Louis Hachette Group",
+"children_seen": 1
+},
+{
+"name": "4iG",
+"children_seen": 1
+},
+{
+"name": "OQ / KPI",
+"children_seen": 1
+},
+{
+"name": "Basra Oil Company / BP / PetroChina",
+"children_seen": 1
+},
+{
+"name": "Optorg / Al Mada",
+"children_seen": 1
+},
+{
+"name": "Leeds Equity",
+"children_seen": 1
+},
+{
+"name": "Serene Productions 50% / Karan Johar",
+"children_seen": 1
+},
+{
+"name": "DNEG / Prime Focus",
+"children_seen": 1
+},
+{
+"name": "Aydem Holding",
+"children_seen": 1
+},
+{
+"name": "Al Jaber Group",
+"children_seen": 1
+},
+{
+"name": "UKi Media & Events",
+"children_seen": 1
+},
+{
+"name": "Apax",
+"children_seen": 1
+},
+{
+"name": "Conferencia Episcopal Espanola",
+"children_seen": 1
+},
+{
+"name": "CDPQ",
+"children_seen": 1
+},
+{
+"name": "ASUSTeK",
+"children_seen": 1
+},
+{
+"name": "Groupe Altitude",
+"children_seen": 1
+},
+{
+"name": "Dow Jones / News Corp",
+"children_seen": 1
+},
+{
+"name": "Essex Furukawa",
+"children_seen": 1
+},
+{
+"name": "Mack Group",
+"children_seen": 1
+},
+{
+"name": "Inspirit Capital",
+"children_seen": 1
+},
+{
+"name": "Jamuna Group",
+"children_seen": 1
+},
+{
+"name": "British International Investment / Norfund",
+"children_seen": 1
+},
+{
+"name": "Nazca Capital",
+"children_seen": 1
+},
+{
+"name": "Abdul Latif Jameel",
+"children_seen": 1
+},
+{
+"name": "OMERS Private Markets",
+"children_seen": 1
+},
+{
+"name": "Infinity Group / Masdar",
+"children_seen": 1
+},
+{
+"name": "DwyerOmega",
+"children_seen": 1
+},
+{
+"name": "Tessellis",
+"children_seen": 1
+},
+{
+"name": "Akastor ASA",
+"children_seen": 1
+},
+{
+"name": "ReBirth",
+"children_seen": 1
+},
+{
+"name": "Xi'an NovaStar Tech Co.",
+"children_seen": 1
+},
+{
+"name": "Vulcain Engineering Group",
+"children_seen": 1
+},
+{
+"name": "IKIO Lighting",
+"children_seen": 1
+},
+{
+"name": "tonies SE",
+"children_seen": 1
+},
+{
+"name": "Benning Elektrotechnik",
+"children_seen": 1
+},
+{
+"name": "Groupe Dassault",
+"children_seen": 1
+},
+{
+"name": "Vitru Educação",
+"children_seen": 1
+},
+{
+"name": "MSC",
+"children_seen": 1
+},
+{
+"name": "B3 S.A.",
+"children_seen": 1
+},
+{
+"name": "Pharmacosmos",
+"children_seen": 1
+},
+{
+"name": "Beowolff Capital",
+"children_seen": 1
+},
+{
+"name": "Stockbit",
+"children_seen": 1
+},
+{
+"name": "Bill Gates",
+"children_seen": 1
+},
+{
+"name": "Getir",
+"children_seen": 1
+},
+{
+"name": "Groupe Banque Centrale Populaire",
+"children_seen": 1
+},
+{
+"name": "Oragroup",
+"children_seen": 1
+},
+{
+"name": "University of Cambridge",
+"children_seen": 1
+},
+{
+"name": "Aegea Saneamento",
+"children_seen": 1
+},
+{
+"name": "Fiba Group",
+"children_seen": 1
+},
+{
+"name": "Cyan Renewables",
+"children_seen": 1
+},
+{
+"name": "Inter-American Development Bank",
+"children_seen": 1
+},
+{
+"name": "Ritz-Carlton / Marriott",
+"children_seen": 1
+},
+{
+"name": "Pague Menos",
+"children_seen": 1
+},
+{
+"name": "Grupo Gilinski",
+"children_seen": 1
+},
+{
+"name": "JSW Neo Energy",
+"children_seen": 1
+},
+{
+"name": "Diagnósticos da América",
+"children_seen": 1
+},
+{
+"name": "Welsh",
+"children_seen": 1
+},
+{
+"name": "Baiyin Nonferrous Metals Group",
+"children_seen": 1
+},
+{
+"name": "DCC Technology",
+"children_seen": 1
+},
+{
+"name": "Magnetar Capital",
+"children_seen": 1
+},
+{
+"name": "Parthenon Capital",
+"children_seen": 1
+},
+{
+"name": "LFPI Group",
+"children_seen": 1
+},
+{
+"name": "Lesaka Technologies",
+"children_seen": 1
+},
+{
+"name": "Via Renewables",
+"children_seen": 1
+},
+{
+"name": "Re Sustainability",
+"children_seen": 1
+},
+{
+"name": "Enodia",
+"children_seen": 1
+},
+{
+"name": "Ratos AB",
+"children_seen": 1
+},
+{
+"name": "Harbor Lights Entertainment",
+"children_seen": 1
+},
+{
+"name": "EWE / Deutsche Telekom 50-50 JV",
+"children_seen": 1
+},
+{
+"name": "team.blue",
+"children_seen": 1
+},
+{
+"name": "Aimia Inc",
+"children_seen": 1
+},
+{
+"name": "Safe Ecosystem Foundation",
+"children_seen": 1
+},
+{
+"name": "Consor",
+"children_seen": 1
+},
+{
+"name": "Pirtek Europe",
+"children_seen": 1
+},
+{
+"name": "Moira Capital Partners",
+"children_seen": 1
+},
+{
+"name": "Capify",
+"children_seen": 1
+},
+{
+"name": "Young & Co's Brewery",
+"children_seen": 1
+},
+{
+"name": "Quadrant Private Equity",
+"children_seen": 1
+},
+{
+"name": "Impala Terminals / Trafigura",
+"children_seen": 1
+},
+{
+"name": "APCOA Group",
+"children_seen": 1
+},
+{
+"name": "DPM Metals",
+"children_seen": 1
+},
+{
+"name": "NMS Group",
+"children_seen": 1
+},
+{
+"name": "Helen of Troy",
+"children_seen": 1
+},
+{
+"name": "High Fidelity",
+"children_seen": 1
+},
+{
+"name": "French local authorities",
+"children_seen": 1
+},
+{
+"name": "Aonic",
+"children_seen": 1
+},
+{
+"name": "Shore Capital Group",
+"children_seen": 1
+},
+{
+"name": "Keensight Capital",
+"children_seen": 1
+},
+{
+"name": "London local authorities",
+"children_seen": 1
+},
+{
+"name": "BC Partners",
+"children_seen": 1
+},
+{
+"name": "Egmont / Bonnier 50-50",
+"children_seen": 1
+},
+{
+"name": "Centuria Capital Group",
+"children_seen": 1
+},
+{
+"name": "BIG Pharmacy Healthcare",
+"children_seen": 1
+},
+{
+"name": "Till Payments",
+"children_seen": 1
+},
+{
+"name": "3fivetwo Group",
+"children_seen": 1
+},
+{
+"name": "W. L. Gore & Associates",
+"children_seen": 1
+},
+{
+"name": "LSQ Group",
+"children_seen": 1
+},
+{
+"name": "Hasfarm Holdings",
+"children_seen": 1
+},
+{
+"name": "Battery Ventures",
+"children_seen": 1
+},
+{
+"name": "Athene",
+"children_seen": 1
+},
+{
+"name": "Five V Capital",
+"children_seen": 1
+},
+{
+"name": "Concrete Pumping Holdings",
+"children_seen": 1
+},
+{
+"name": "Snaptrip Group",
+"children_seen": 1
+},
+{
+"name": "Naza Corporation Holdings",
+"children_seen": 1
+},
+{
+"name": "Masonite / Owens Corning",
+"children_seen": 1
+},
+{
+"name": "Al Yamamah Steel Industries",
+"children_seen": 1
+},
+{
+"name": "Audax Group",
+"children_seen": 1
+},
+{
+"name": "Leviat / CRH",
+"children_seen": 1
+},
+{
+"name": "Laumann Group",
+"children_seen": 1
+},
+{
+"name": "Arbejdernes Landsbank",
+"children_seen": 1
+},
+{
+"name": "Actelis Networks",
+"children_seen": 1
+},
+{
+"name": "SBI Capital Markets",
+"children_seen": 1
+},
+{
+"name": "AviAlliance",
+"children_seen": 1
+},
+{
+"name": "DRB Capital",
+"children_seen": 1
+},
+{
+"name": "Gemspring Capital",
+"children_seen": 1
+},
+{
+"name": "NOBA Bank Group",
+"children_seen": 1
+},
+{
+"name": "ADENTRA Group",
+"children_seen": 1
+},
+{
+"name": "SAPPHIRE Technology",
+"children_seen": 1
+},
+{
+"name": "PT Astra International",
+"children_seen": 1
+},
+{
+"name": "Sangoma",
+"children_seen": 1
+},
+{
+"name": "ProSiebenSat.1 / General Atlantic",
+"children_seen": 1
+},
+{
+"name": "Enento Group",
+"children_seen": 1
+},
+{
+"name": "AIK Banka",
+"children_seen": 1
+},
+{
+"name": "DLH Corporation",
+"children_seen": 1
+},
+{
+"name": "Spark Networks",
+"children_seen": 1
+},
+{
+"name": "FUTRUE",
+"children_seen": 1
+},
+{
+"name": "Storskogen",
+"children_seen": 1
+},
+{
+"name": "Zoopla / Houseful",
+"children_seen": 1
+},
+{
+"name": "Geveran Trading",
+"children_seen": 1
+},
+{
+"name": "Stewart Title",
+"children_seen": 1
+},
+{
+"name": "Nexi / Nets",
+"children_seen": 1
+},
+{
+"name": "Nuts Groep",
+"children_seen": 1
+},
+{
+"name": "Pervanovo Invest",
+"children_seen": 1
+},
+{
+"name": "Bertarelli family",
+"children_seen": 1
+},
+{
+"name": "JUSDA / Foxconn",
+"children_seen": 1
+},
+{
+"name": "Souter Investments / consortium",
+"children_seen": 1
+},
+{
+"name": "PAG / Froneri",
+"children_seen": 1
+},
+{
+"name": "Kildare Partners",
+"children_seen": 1
+},
+{
+"name": "Dynamic Map Platform Co.",
+"children_seen": 1
+},
+{
+"name": "Asker Healthcare Group",
+"children_seen": 1
+},
+{
+"name": "HFD",
+"children_seen": 1
+},
+{
+"name": "Littlejohn & Co",
+"children_seen": 1
+},
+{
+"name": "Landshypotek Ekonomisk Förening",
+"children_seen": 1
+},
+{
+"name": "Spadel",
+"children_seen": 1
+},
+{
+"name": "CVC DIF",
+"children_seen": 1
+},
+{
+"name": "Rubicon Founders",
+"children_seen": 1
+},
+{
+"name": "Sanoma",
+"children_seen": 1
+},
+{
+"name": "Global Infrastructure Partners",
+"children_seen": 1
+},
+{
+"name": "Rizvi Traverse Management",
+"children_seen": 1
+},
+{
+"name": "Arrive",
+"children_seen": 1
+},
+{
+"name": "Gedeon Richter",
+"children_seen": 1
+},
+{
+"name": "L Squared Capital Partners",
+"children_seen": 1
+},
+{
+"name": "Cordiant Digital Infrastructure",
+"children_seen": 1
+},
+{
+"name": "Hanergy",
+"children_seen": 1
+},
+{
+"name": "Gauselmann Group",
+"children_seen": 1
+},
+{
+"name": "Katjes International",
+"children_seen": 1
+},
+{
+"name": "Sympa",
+"children_seen": 1
+},
+{
+"name": "CARE Hospitals",
+"children_seen": 1
+},
+{
+"name": "Lavoie",
+"children_seen": 1
+},
+{
+"name": "GameSquare Holdings",
+"children_seen": 1
+},
+{
+"name": "Caldic",
+"children_seen": 1
+},
+{
+"name": "Neuberg Global Laboratories",
+"children_seen": 1
+},
+{
+"name": "Ascential / Flywheel",
+"children_seen": 1
+},
+{
+"name": "FIMI Opportunity Funds",
+"children_seen": 1
+},
+{
+"name": "Altamont Capital Partners",
+"children_seen": 1
+},
+{
+"name": "B.TECH",
+"children_seen": 1
+},
+{
+"name": "ITAB Shop Concept",
+"children_seen": 1
+},
+{
+"name": "Cambio Group",
+"children_seen": 1
+},
+{
+"name": "Tattarang",
+"children_seen": 1
+},
+{
+"name": "Aurum PropTech",
+"children_seen": 1
+},
+{
+"name": "Panattoni Development Company",
+"children_seen": 1
+},
+{
+"name": "McEwen Mining",
+"children_seen": 1
+},
+{
+"name": "America's Test Kitchen",
+"children_seen": 1
+},
+{
+"name": "JV: JG Summit / Tyme Group",
+"children_seen": 1
+},
+{
+"name": "Royal London Group",
+"children_seen": 1
+},
+{
+"name": "Yoma Strategic Holdings",
+"children_seen": 1
+},
+{
+"name": "GoFundMe",
+"children_seen": 1
+},
+{
+"name": "Gruppo MutuiOnline",
+"children_seen": 1
+},
+{
+"name": "Rock Holdings / Rock Family of Companies",
+"children_seen": 1
+},
+{
+"name": "Infinova Group",
+"children_seen": 1
+},
+{
+"name": "Kosmos",
+"children_seen": 1
+},
+{
+"name": "GHO Capital",
+"children_seen": 1
+},
+{
+"name": "Madison Dearborn Partners",
+"children_seen": 1
+},
+{
+"name": "CDP",
+"children_seen": 1
+},
+{
+"name": "Humanforce",
+"children_seen": 1
+},
+{
+"name": "apree health",
+"children_seen": 1
+},
+{
+"name": "Mutapa Investment Fund",
+"children_seen": 1
+},
+{
+"name": "Bridge Growth Partners",
+"children_seen": 1
+},
+{
+"name": "OQS Media",
+"children_seen": 1
+},
+{
+"name": "WorkBoard",
+"children_seen": 1
+},
+{
+"name": "JV: Telefônica Brasil / CDPQ",
+"children_seen": 1
+},
+{
+"name": "Abercrombie & Kent Group",
+"children_seen": 1
+},
+{
+"name": "Luton Rising",
+"children_seen": 1
+},
+{
+"name": "CCI Paris Ile-de-France",
+"children_seen": 1
+},
+{
+"name": "Colis Privé",
+"children_seen": 1
+},
+{
+"name": "Marlin Equity Partners",
+"children_seen": 1
+},
+{
+"name": "Amazentis",
+"children_seen": 1
+},
+{
+"name": "Liberty Strategic Capital",
+"children_seen": 1
+},
+{
+"name": "Deerfield Management",
+"children_seen": 1
+},
+{
+"name": "Beedie Capital",
+"children_seen": 1
+},
+{
+"name": "Infra.Market",
+"children_seen": 1
+},
+{
+"name": "Province of Ontario",
+"children_seen": 1
+},
+{
+"name": "RLDatix",
+"children_seen": 1
+},
+{
+"name": "Aavishkaar Group",
+"children_seen": 1
+},
+{
+"name": "Audax Private Equity",
+"children_seen": 1
+},
+{
+"name": "Shandong Weigao Group",
+"children_seen": 1
+},
+{
+"name": "QuickStart Inc.",
+"children_seen": 1
+},
+{
+"name": "Jannie Mouton Foundation",
+"children_seen": 1
+},
+{
+"name": "Qoo10",
+"children_seen": 1
+},
+{
+"name": "Cimpress",
+"children_seen": 1
+},
+{
+"name": "STORY3 Capital Partners",
+"children_seen": 1
+},
+{
+"name": "Acomo N.V.",
+"children_seen": 1
+},
+{
+"name": "Arjun Infrastructure Partners",
+"children_seen": 1
+},
+{
+"name": "Tetragon Financial Group",
+"children_seen": 1
+},
+{
+"name": "Ansteel Group",
+"children_seen": 1
+},
+{
+"name": "LIFULL Co.",
+"children_seen": 1
+},
+{
+"name": "Quad/Graphics",
+"children_seen": 1
+},
+{
+"name": "Orkuveita Reykjavíkur",
+"children_seen": 1
+},
+{
+"name": "Treecorp Investimentos",
+"children_seen": 1
+},
+{
+"name": "TBO Tek",
+"children_seen": 1
+},
+{
+"name": "Polat Holding",
+"children_seen": 1
+},
+{
+"name": "DeA Capital S.p.A.",
+"children_seen": 1
+},
+{
+"name": "LOGISTEED Ltd",
+"children_seen": 1
+},
+{
+"name": "Svatantra Microfin",
+"children_seen": 1
+},
+{
+"name": "Power Sustainable",
+"children_seen": 1
+},
+{
+"name": "Pernix Group",
+"children_seen": 1
+},
+{
+"name": "Chemomab Therapeutics",
+"children_seen": 1
+},
+{
+"name": "Wingify",
+"children_seen": 1
+},
+{
+"name": "Morrison & Co",
+"children_seen": 1
+},
+{
+"name": "MBSB Berhad",
+"children_seen": 1
+},
+{
+"name": "Paribu",
+"children_seen": 1
+},
+{
+"name": "Manifest Global",
+"children_seen": 1
+},
+{
+"name": "TissueTech",
+"children_seen": 1
+},
+{
+"name": "DBM Global Inc.",
+"children_seen": 1
+},
+{
+"name": "Maisons de Famille",
+"children_seen": 1
+},
+{
+"name": "Clairvest Group",
+"children_seen": 1
+},
+{
+"name": "WebPros",
+"children_seen": 1
+},
+{
+"name": "Unigrains",
+"children_seen": 1
+},
+{
+"name": "Style Capital",
+"children_seen": 1
+},
+{
+"name": "HTL Biotechnology",
+"children_seen": 1
+},
+{
+"name": "Jezby Ventures",
+"children_seen": 1
+},
+{
+"name": "COFRA Holding",
+"children_seen": 1
+},
+{
+"name": "Owlstone",
+"children_seen": 1
+},
+{
+"name": "Auctane",
+"children_seen": 1
+},
+{
+"name": "Kape Technologies",
+"children_seen": 1
+},
+{
+"name": "Egalet Corporation",
+"children_seen": 1
+},
+{
+"name": "EPR consortium",
+"children_seen": 1
+},
+{
+"name": "365 Retail Markets",
+"children_seen": 1
+},
+{
+"name": "Mapletree Investments",
+"children_seen": 1
+},
+{
+"name": "ARCHIMED",
+"children_seen": 1
+},
+{
+"name": "Main Street Sports Group",
+"children_seen": 1
+},
+{
+"name": "Natixis Investment Managers",
+"children_seen": 1
+},
+{
+"name": "QIC",
+"children_seen": 1
+},
+{
+"name": "GSTechnologies",
+"children_seen": 1
+},
+{
+"name": "Dobson Property Management",
+"children_seen": 1
+},
+{
+"name": "SARIA Group",
+"children_seen": 1
+},
+{
+"name": "Rezolve Ai",
+"children_seen": 1
+},
+{
+"name": "Edisun Power Europe",
+"children_seen": 1
+},
+{
+"name": "Greenbacker / lenders",
+"children_seen": 1
+},
+{
+"name": "Delancey/QIA/APG JV",
+"children_seen": 1
+},
+{
+"name": "African Infrastructure Investment Managers",
+"children_seen": 1
+},
+{
+"name": "MJH Life Sciences",
+"children_seen": 1
+},
+{
+"name": "Transaction Capital",
+"children_seen": 1
+},
+{
+"name": "FMH Group",
+"children_seen": 1
+},
+{
+"name": "Alludo",
+"children_seen": 1
+},
+{
+"name": "AnaCap",
+"children_seen": 1
+},
+{
+"name": "RevSpring",
+"children_seen": 1
+},
+{
+"name": "Freshstream",
+"children_seen": 1
+},
+{
+"name": "3i Infrastructure plc",
+"children_seen": 1
+},
+{
+"name": "Grok Ventures",
+"children_seen": 1
+},
+{
+"name": "FitzWalter Capital",
+"children_seen": 1
+},
+{
+"name": "Axium Infrastructure",
+"children_seen": 1
+},
+{
+"name": "XenoTherapeutics",
+"children_seen": 1
+},
+{
+"name": "LianLian DigiTech",
+"children_seen": 1
+},
+{
+"name": "Minister of Finance Inc.",
+"children_seen": 1
+},
+{
+"name": "Yintai Gold",
+"children_seen": 1
+},
+{
+"name": "Meazure Learning",
+"children_seen": 1
+},
+{
+"name": "KfW",
+"children_seen": 1
+},
+{
+"name": "Desktop Metal",
+"children_seen": 1
+},
+{
+"name": "Corporacion BI",
+"children_seen": 1
+},
+{
+"name": "PatientPoint",
+"children_seen": 1
+},
+{
+"name": "Green Investment Group",
+"children_seen": 1
+},
+{
+"name": "Construction Products Holding Company",
+"children_seen": 1
+},
+{
+"name": "LightInTheBox",
+"children_seen": 1
+},
+{
+"name": "Web.com",
+"children_seen": 1
+},
+{
+"name": "Columna Capital",
+"children_seen": 1
+},
+{
+"name": "Iris Acquisition",
+"children_seen": 1
+},
+{
+"name": "Inflexion",
+"children_seen": 1
+},
+{
+"name": "Lesha Bank",
+"children_seen": 1
+},
+{
+"name": "The Baldwin Group",
+"children_seen": 1
+},
+{
+"name": "XOMA Royalty",
+"children_seen": 1
+},
+{
+"name": "Syncona",
+"children_seen": 1
+},
+{
+"name": "Edyn",
+"children_seen": 1
+},
+{
+"name": "Lovell Minnick Partners",
+"children_seen": 1
+},
+{
+"name": "Pocket Aces",
+"children_seen": 1
+},
+{
+"name": "Monoova",
+"children_seen": 1
+},
+{
+"name": "AddLife AB",
+"children_seen": 1
+},
+{
+"name": "Solaris Paper",
+"children_seen": 1
+},
+{
+"name": "TVS Mobility",
+"children_seen": 1
+},
+{
+"name": "URUS Group",
+"children_seen": 1
+},
+{
+"name": "Sun Capital",
+"children_seen": 1
+},
+{
+"name": "MSG Distributors",
+"children_seen": 1
+},
+{
+"name": "EnCap Energy Transition",
+"children_seen": 1
+},
+{
+"name": "Meridiam",
+"children_seen": 1
+},
+{
+"name": "Irish state",
+"children_seen": 1
+},
+{
+"name": "Eranove",
+"children_seen": 1
+},
+{
+"name": "Portuguese state",
+"children_seen": 1
+},
+{
+"name": "Turkish Petroleum",
+"children_seen": 1
+},
+{
+"name": "Balmer Lawrie Investments Ltd",
+"children_seen": 1
+},
+{
+"name": "KMD Brands",
+"children_seen": 1
+},
+{
+"name": "Mandom Corporation",
+"children_seen": 1
+},
+{
+"name": "Attock Oil Company",
+"children_seen": 1
+},
+{
+"name": "Rosatom",
+"children_seen": 1
+},
+{
+"name": "eMedia Holdings",
+"children_seen": 1
+},
+{
+"name": "Sanoma Corporation",
+"children_seen": 1
+},
+{
+"name": "Torrent Investments",
+"children_seen": 1
+},
+{
+"name": "Inox Wind Energy / INOXGFL Group",
+"children_seen": 1
+},
+{
+"name": "Petroecuador",
+"children_seen": 1
+},
+{
+"name": "Eagle Football Holdings",
+"children_seen": 1
+},
+{
+"name": "Turkish Radio and Television Corporation",
+"children_seen": 1
+},
+{
+"name": "Prudent Energy & Services",
+"children_seen": 1
+},
+{
+"name": "Yaşar Holding",
+"children_seen": 1
+},
+{
+"name": "EACO Corporation",
+"children_seen": 1
+},
+{
+"name": "Raya Holding",
+"children_seen": 1
+},
+{
+"name": "EGPC / ECHEM group",
+"children_seen": 1
+},
+{
+"name": "Kiyokuni Co.",
+"children_seen": 1
+},
+{
+"name": "NETSOL Technologies Inc",
+"children_seen": 1
+},
+{
+"name": "Visi Media Asia",
+"children_seen": 1
+},
+{
+"name": "FSN E-Commerce Ventures",
+"children_seen": 1
+},
+{
+"name": "Equip Outdoor Technologies",
+"children_seen": 1
+},
+{
+"name": "International Gemmological Institute",
+"children_seen": 1
+},
+{
+"name": "Fauji Foundation / Fauji Fertilizer Company",
+"children_seen": 1
+},
+{
+"name": "Intercos S.p.A.",
+"children_seen": 1
+},
+{
+"name": "Fair Group",
+"children_seen": 1
+},
+{
+"name": "Hengdian Group DMEGC Magnetics Co.",
+"children_seen": 1
+},
+{
+"name": "VDE Verband der Elektrotechnik e.V.",
+"children_seen": 1
+},
+{
+"name": "Nine Entertainment Co.",
+"children_seen": 1
+},
+{
+"name": "WAGO GmbH & Co. KG",
+"children_seen": 1
+},
+{
+"name": "DirecTV Latin America / Werthein Group",
+"children_seen": 1
+},
+{
+"name": "Eggersmann Gruppe",
+"children_seen": 1
+},
+{
+"name": "Grupo Alfa",
+"children_seen": 1
+},
+{
+"name": "74Software",
+"children_seen": 1
+},
+{
+"name": "Nalsani S.A.S.",
+"children_seen": 1
+},
+{
+"name": "Mayhoola for Investments",
+"children_seen": 1
+},
+{
+"name": "Mobly S.A.",
+"children_seen": 1
+},
+{
+"name": "Karachaganak consortium",
+"children_seen": 1
+},
+{
+"name": "OPPO / BBK Electronics",
+"children_seen": 1
+},
+{
+"name": "Groupe Eram",
+"children_seen": 1
+},
+{
+"name": "Zamil Group",
+"children_seen": 1
+},
+{
+"name": "Corporación América",
+"children_seen": 1
+},
+{
+"name": "Empresas Carozzi",
+"children_seen": 1
+},
+{
+"name": "altafiber / Macquarie Infrastructure",
+"children_seen": 1
+},
+{
+"name": "Grupo Valorem",
+"children_seen": 1
+},
+{
+"name": "STEAG GmbH",
+"children_seen": 1
+},
+{
+"name": "PT Indika Energy",
+"children_seen": 1
+},
+{
+"name": "News Corp Australia",
+"children_seen": 1
+},
+{
+"name": "Organización Ardila Lülle",
+"children_seen": 1
+},
+{
+"name": "MEIL",
+"children_seen": 1
+},
+{
+"name": "Nelson Alvarenga",
+"children_seen": 1
+},
+{
+"name": "Azumi Ltd",
+"children_seen": 1
+},
+{
+"name": "TCL Electronics",
+"children_seen": 1
+},
+{
+"name": "Grupo Bethia",
+"children_seen": 1
+},
+{
+"name": "Jang Group / Independent Media Corp",
+"children_seen": 1
+},
+{
+"name": "Cofra Holding / C&A",
+"children_seen": 1
+},
+{
+"name": "Hafele GmbH",
+"children_seen": 1
+},
+{
+"name": "The Fini Company",
+"children_seen": 1
+},
+{
+"name": "Abalance Corporation",
+"children_seen": 1
+},
+{
+"name": "Trans Media / CT Corp",
+"children_seen": 1
+},
+{
+"name": "MNC Asia Holding / MNC Media",
+"children_seen": 1
+},
+{
+"name": "Alyasra Group",
+"children_seen": 1
+},
+{
+"name": "Al Masaood Group",
+"children_seen": 1
+},
+{
+"name": "South Gas Company",
+"children_seen": 1
+},
+{
+"name": "I Squared Capital",
+"children_seen": 1
+},
+{
+"name": "EGPC / Shell JV",
+"children_seen": 1
+},
+{
+"name": "Borusan Holding",
+"children_seen": 1
+},
+{
+"name": "Attock Oil / Pharaon group",
+"children_seen": 1
+},
+{
+"name": "PipeChina",
+"children_seen": 1
+},
+{
+"name": "Nesma Holding",
+"children_seen": 1
+},
+{
+"name": "Attock Refinery / Attock Group",
+"children_seen": 1
+},
+{
+"name": "Citelec",
+"children_seen": 1
+},
+{
+"name": "PDVSA",
+"children_seen": 1
+},
+{
+"name": "Perusahaan Gas Negara",
+"children_seen": 1
+},
+{
+"name": "Enpee Group",
+"children_seen": 1
+},
+{
+"name": "Puma Energy",
+"children_seen": 1
+},
+{
+"name": "Xingji Meizu / Geely",
+"children_seen": 1
+},
+{
+"name": "Rajan Raheja Group",
+"children_seen": 1
+},
+{
+"name": "Grupo Luksic",
+"children_seen": 1
+},
+{
+"name": "CMA Media",
+"children_seen": 1
+},
+{
+"name": "Demiroren Holding",
+"children_seen": 1
+},
+{
+"name": "Plural TV",
+"children_seen": 1
+},
+{
+"name": "Grupo MVS",
+"children_seen": 1
+},
+{
+"name": "Vytal Group",
+"children_seen": 1
+},
+{
+"name": "Sonangol",
+"children_seen": 1
+},
+{
+"name": "Savencia Fromage & Dairy",
+"children_seen": 1
+},
+{
+"name": "Kalyon Holding",
+"children_seen": 1
+},
+{
+"name": "Candle Media",
+"children_seen": 1
+},
+{
+"name": "RCS MediaGroup",
+"children_seen": 1
+},
+{
+"name": "Gabon Oil Company",
+"children_seen": 1
+},
+{
+"name": "Yinson Holdings",
+"children_seen": 1
+},
+{
+"name": "Abastible",
+"children_seen": 1
+},
+{
+"name": "Aurelia Energy N.V.",
+"children_seen": 1
+},
+{
+"name": "Thomas Riedel",
+"children_seen": 1
+},
+{
+"name": "Alpac Capital",
+"children_seen": 1
+},
+{
+"name": "Pathé SA",
+"children_seen": 1
+},
+{
+"name": "Media Capital",
+"children_seen": 1
+},
+{
+"name": "Teltonika IoT Group",
+"children_seen": 1
+},
+{
+"name": "YOFC",
+"children_seen": 1
+},
+{
+"name": "Sapura Energy / Seadrill JV",
+"children_seen": 1
+},
+{
+"name": "Hit Union",
+"children_seen": 1
+},
+{
+"name": "Cevital",
+"children_seen": 1
+},
+{
+"name": "Sapura Energy",
+"children_seen": 1
+},
+{
+"name": "Eren Holding",
+"children_seen": 1
+},
+{
+"name": "NTWRK",
+"children_seen": 1
+},
+{
+"name": "Usaha Tegas",
+"children_seen": 1
+},
+{
+"name": "DPG Media / Rossel",
+"children_seen": 1
+},
+{
+"name": "Meralco",
+"children_seen": 1
+},
+{
+"name": "International Olympic Committee",
+"children_seen": 1
+},
+{
+"name": "PPF Group / CME",
+"children_seen": 1
+},
+{
+"name": "GLOCK Ges.m.b.H.",
+"children_seen": 1
+},
+{
+"name": "Korea National Oil Corporation",
+"children_seen": 1
+},
+{
+"name": "Kidde Global Solutions",
+"children_seen": 1
+},
+{
+"name": "Schweizerische Securitas Gruppe",
+"children_seen": 1
+},
+{
+"name": "Nordisk Games",
+"children_seen": 1
+},
+{
+"name": "ALCEN",
+"children_seen": 1
+},
+{
+"name": "Hon Hai",
+"children_seen": 1
+},
+{
+"name": "Limak Holding",
+"children_seen": 1
+},
+{
+"name": "Comlinkdata",
+"children_seen": 1
+},
+{
+"name": "Ariston Group",
+"children_seen": 1
+},
+{
+"name": "F.W. Thorpe plc",
+"children_seen": 1
+},
+{
+"name": "JFE Shoji",
+"children_seen": 1
+},
+{
+"name": "Grupo Empresarial Ángeles",
+"children_seen": 1
+},
+{
+"name": "BRUGG Group",
+"children_seen": 1
+},
+{
+"name": "DKC",
+"children_seen": 1
+},
+{
+"name": "ALM Global",
+"children_seen": 1
+},
+{
+"name": "Genel Energy / Addax",
+"children_seen": 1
+},
+{
+"name": "AISWEI Technology",
+"children_seen": 1
+},
+{
+"name": "Ningbo Boway Alloy Material",
+"children_seen": 1
+},
+{
+"name": "Kyoritsu Electrical Instruments Works",
+"children_seen": 1
+},
+{
+"name": "Ludlum Measurements",
+"children_seen": 1
+},
+{
+"name": "Groupe Télécom Algérie",
+"children_seen": 1
+},
+{
+"name": "XL Axiata",
+"children_seen": 1
+},
+{
+"name": "Ferrara Candy Company",
+"children_seen": 1
+},
+{
+"name": "International Beer Breweries Ltd",
+"children_seen": 1
+},
+{
+"name": "Crompton Greaves Consumer Electricals",
+"children_seen": 1
+},
+{
+"name": "Jagran Prakashan",
+"children_seen": 1
+},
+{
+"name": "Fauji Foundation",
+"children_seen": 1
+},
+{
+"name": "Lucas-TVS / TVS Group",
+"children_seen": 1
+},
+{
+"name": "Nine Communications",
+"children_seen": 1
+},
+{
+"name": "49ers Enterprises",
+"children_seen": 1
+},
+{
+"name": "Libyan Post Telecommunications & IT Company",
+"children_seen": 1
+},
+{
+"name": "Mazoon Petrogas / CNPC",
+"children_seen": 1
+},
+{
+"name": "Abu Dhabi National Energy Company",
 "children_seen": 1
 }
 ]
