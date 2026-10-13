@@ -80,3 +80,7 @@ X Waste & Recycling, X Live Events & Ticketing, X Pet Care, X Other.
 
 Write the output file with python3 -I (json.dump, ensure_ascii=False) or the Write tool. Write ALL rows before
 stopping. Do not touch any other file. Report only: kept N / dropped N, top 3 drop reasons. Under 40 words.
+
+Helper files: other agents run at the same time. If you write any helper script or temp file, put it ONLY in
+/tmp/claude-0/-home-user-rg42/f658b5c3-a5ae-5398-b208-f286520b1971/scratchpad/screen_<your first batch number>/
+(create it). Never write or edit files elsewhere in the scratchpad.
