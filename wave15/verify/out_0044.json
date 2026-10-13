@@ -1,0 +1,301 @@
+[
+ {
+  "id": "candescent.com",
+  "company": "Candescent",
+  "sector_tab": "09 Fintech",
+  "domain": "candescent.com",
+  "hq": "Atlanta, Georgia, United States",
+  "ownership": "Private equity: Veritas Capital (acquired from NCR Voyix, completed Sept 30, 2024)",
+  "sells": "Digital, branch and onboarding banking software for 1,300+ US banks and credit unions (29M+ registered users)",
+  "headcount_band": "1,001-5,000 (1,900+ self-reported, 2026 company site)",
+  "revenue": "~USD 500M+ (est; private, no disclosure)",
+  "valuation": "EV USD 2.45B + up to USD 100M contingent (Veritas buyout, Sept 2024)",
+  "latest_raise": "none (PE buyout 2024)",
+  "fit_score": 1,
+  "fit_detail": "sells essentially only in the US (0); senior B2B bank/credit-union executives (1); digital-platform story only weakly maps (0); banking-tech adjacent to crowded banking (0)",
+  "up_and_coming": false,
+  "flags": [
+   "US-only B2B",
+   "PE-owned carve-out"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes hard filters (EV USD 2.45B Sept 2024, ~1,900 staff, no F1 tie found) but US-only B2B banking software with little brand ambition for a global F1 audience.",
+  "best_angle": "",
+  "sources": [
+   "https://www.businesswire.com/news/home/20240930555847/en/NCR-Voyix-Completes-Sale-of-Digital-Banking-Business",
+   "https://builtincharlotte.com/company/candescent",
+   "https://www.preqin.com/data/profile/asset/candescent/654073"
+  ]
+ },
+ {
+  "id": "andros.fr",
+  "company": "ANDROS",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "andros.fr",
+  "hq": "Biars-sur-Cère, France",
+  "ownership": "Private, family-owned (Gervoson family)",
+  "sells": "Fruit preparations, jams, compotes, juices, dairy desserts and biscuits (Bonne Maman, Andros, Mamie Nova, St Michel); sold in ~125 countries",
+  "headcount_band": "5,001-10,000 (~7,400-10,000, press estimates 2024-26, est)",
+  "revenue": "~EUR 2.2-3B (~USD 2.5-3.4B) (press estimates 2024-26, est; not published)",
+  "valuation": "unknown (private)",
+  "latest_raise": "none (family-owned)",
+  "fit_score": 2,
+  "fit_detail": "sells in 3+ F1 markets (US, UK, Spain, Italy etc.) (1); mass-market grocery audience (0); food story does not map to performance/technology (0); jams/desserts not crowded on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "revenue undisclosed (estimates)",
+   "mass consumer audience",
+   "runs Trophée Andros ice-racing series (motorsport heritage, not F1)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (revenue ~EUR 2.2-3B est, 7,000+ staff, no F1 tie found); global consumer brand with motorsport heritage, but mass audience and discreet marketing culture are the reservations.",
+  "best_angle": "Andros already uses motorsport (Trophée Andros ice racing), so F1 could scale Bonne Maman's US/UK growth with a premium-heritage story.",
+  "sources": [
+   "https://lessentieldeleco.fr/7774-bonne-maman-marque-preferee-des-francais-jusqua-quand/",
+   "https://www.lsa-conso.fr/florian-delmas-le-virtuose-du-fruit-transforme,426234",
+   "https://info.fr/andros-biars-sur-cere-prefete-lot-visite-2026-05",
+   "https://en.wikipedia.org/wiki/Andros_(company)",
+   "https://pappers.fr/entreprise/428682447"
+  ]
+ },
+ {
+  "id": "sipchem.com",
+  "company": "SIPCHEM",
+  "sector_tab": "02 Energy & Industrial",
+  "domain": "sipchem.com",
+  "hq": "Al Khobar, Saudi Arabia",
+  "ownership": "Listed on Tadawul (free float ~89%, May 2025); not Aramco-controlled",
+  "sells": "Petrochemicals (methanol, acetyls, polymers, EVA) exported to Asia, Europe and other markets",
+  "headcount_band": "1,001-5,000 (~1,950, screen; not independently confirmed, est)",
+  "revenue": "~SAR 6.8B (~USD 1.8B) FY2025; net loss (SAR 442.6M loss 9M 2025)",
+  "valuation": "market cap ~USD 2.8-3.0B (June-July 2026)",
+  "latest_raise": "none (listed)",
+  "fit_score": 1,
+  "fit_detail": "sells in 3+ F1 markets (1); industrial buyers, not affluent audience (0); commodity chemicals story does not map (0); petrochemicals adjacent to crowded oil category (0)",
+  "up_and_coming": false,
+  "flags": [
+   "loss-making 2025",
+   "commodity B2B",
+   "Saudi: Aramco (F1 global partner) not a shareholder - confirm no Aramco offtake/JV branding"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes hard filters (market cap ~USD 3B mid-2026, ~1,950 staff, no F1 tie found) but B2B commodity petrochemicals with fit 1 and losses.",
+  "best_angle": "",
+  "sources": [
+   "https://docs.multiples.vc/public-comps/sipchem-valuation-multiples",
+   "https://craft.co/sipchem",
+   "https://www.argaam.com/en/bf/sipchem/disclosures",
+   "https://www.riyadcapital.com/documents/671358/3985789/Sahara International Petrochemical Co. 1Q2025 First Look Note"
+  ]
+ },
+ {
+  "id": "fedrigoni.com",
+  "company": "Fedrigoni Group",
+  "sector_tab": "21 Materials & Mech Parts",
+  "domain": "fedrigoni.com",
+  "hq": "Verona, Italy",
+  "ownership": "Private equity: Bain Capital and BC Partners (~46% each), Fedrigoni family remainder",
+  "sells": "Self-adhesive labels/RFID (64%) and specialty/luxury papers (36%, incl. Fabriano); 27+ countries; 18% Italy, 45% rest of Europe, 36% RoW",
+  "headcount_band": "1,001-5,000 (~4,100, Revelio Mar 2026; company cites 4,500+)",
+  "revenue": "~EUR 1.9B (~USD 2.1B) FY2025, +3%; adj. EBITDA EUR 303M",
+  "valuation": "unknown (private; Bain 2018 entry ~EUR 600M equity)",
+  "latest_raise": "none found",
+  "fit_score": 2,
+  "fit_detail": "sells in 3+ F1 markets (1); buyers are label converters and luxury/wine brands (0); premium materials story partly maps to precision (0); paper/labels not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "B2B materials",
+   "already sponsors GT endurance driver Salvatore Tavano (2023) - motorsport interest",
+   "PE-owned, leveraged"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (revenue EUR 1.9B 2025, ~4,100+ staff, no F1 tie found); shows motorsport marketing interest but B2B audience is the reservation.",
+  "best_angle": "Fedrigoni already sponsors GT racing and calls automotive a reference sector, so an F1 B2B hospitality/technical-partner deal is a natural step up.",
+  "sources": [
+   "https://www.labelsandlabeling.com/news/substrates-adhesives/fedrigoni-reports-fy25-results",
+   "https://en.wikipedia.org/wiki/Fedrigoni",
+   "https://www.reveliolabs.com/companies/fedrigoni/employees/",
+   "https://www.signlink.co.uk/News/Business/8788/fedrigoni-races-ahead-with"
+  ]
+ },
+ {
+  "id": "cambridgeassociates.com",
+  "company": "Cambridge Associates",
+  "sector_tab": "X Asset Mgmt & PE",
+  "domain": "cambridgeassociates.com",
+  "hq": "Boston, Massachusetts, United States",
+  "ownership": "Private; employee-owned with client minority investors since 2018 (Sofina ~23.6%)",
+  "sells": "Investment advisory and outsourced CIO services to endowments, foundations, pensions and family offices; offices in US, UK, Europe, Asia-Pacific",
+  "headcount_band": "1,001-5,000 (~1,450-2,100, Sofina profile / Revelio 2025)",
+  "revenue": "~USD 500-650M (aggregator estimates, undated, est)",
+  "valuation": "unknown (private)",
+  "latest_raise": "none (2018 client minority sale)",
+  "fit_score": 3,
+  "fit_detail": "sells in 3+ F1 markets (US, UK, Singapore, Australia etc.) (1); senior institutional investment decision-makers (1); investment-advice story does not map to performance/technology (0); asset advisory not on crowded list (1)",
+  "up_and_coming": false,
+  "flags": [
+   "scale relies on revenue estimate (private)",
+   "very low marketing profile"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes hard filters on estimated revenue (~USD 500-650M est, ~1,500-2,100 staff, no F1 tie found) but discreet B2B adviser with no evident brand ambition.",
+  "best_angle": "",
+  "sources": [
+   "https://www.sofinagroup.com/en-cambridge/",
+   "https://en.wikipedia.org/wiki/Cambridge_Associates",
+   "https://www.reveliolabs.com/companies/cambridge-associates/employees",
+   "https://bitscale.ai/directory/cambridge-associates"
+  ]
+ },
+ {
+  "id": "utmostgroup.com",
+  "company": "Utmost Group",
+  "sector_tab": "01 Banking & Insurance",
+  "domain": "utmostgroup.com",
+  "hq": "London, United Kingdom",
+  "ownership": "Private equity: Oaktree Capital (majority); Oaktree exploring sale or London IPO (Feb 2026)",
+  "sells": "Cross-border life/wealth insurance solutions for HNW clients in UK, Europe, Asia, Middle East and LatAm; UK life & pensions unit sold to JAB (GBP 250M)",
+  "headcount_band": "1,001-5,000 (~2,090, Revelio 2025, est)",
+  "revenue": "not disclosed; operating profit GBP 224M FY2025; AUA GBP 116.3B (Dec 2025)",
+  "valuation": "~GBP 2-2.5B (~USD 2.7-3.3B) potential sale/IPO value (Bloomberg, Feb 2026, est)",
+  "latest_raise": "none (PE-owned)",
+  "fit_score": 2,
+  "fit_detail": "sells in 3+ F1 markets (UK, Europe, Asia, Middle East) (1); HNW/affluent clients (1); wealth-insurance story does not map to performance (0); insurance/banking crowded (0)",
+  "up_and_coming": false,
+  "flags": [
+   "insurance category crowded",
+   "possible 2026-27 London IPO or sale (ownership may change)",
+   "valuation is reported deal estimate"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (valuation ~GBP 2-2.5B reported Feb 2026, ~2,000 staff, no F1 tie found); HNW audience fits but insurance/wealth is crowded and ownership may change.",
+  "best_angle": "A pre-IPO brand push to HNW clients and advisers across UK, Europe, Asia and the Gulf could use F1 hospitality.",
+  "sources": [
+   "https://utmostinternational.com/utmost-international-news/utmost-group-plc-full-year-results-2025",
+   "https://news.bgov.com/mergers-and-acquisitions/oaktree-said-to-weigh-sale-ipo-of-2-billion-wealth-firm-utmost",
+   "https://www.privatebankerinternational.com/news/oaktree-sale-ipo-utmost-group/",
+   "https://www.reveliolabs.com/companies/utmost-group/employees"
+  ]
+ },
+ {
+  "id": "greensm.com",
+  "company": "Xanh SM (GSM)",
+  "sector_tab": "43 Mobility & Automotive",
+  "domain": "greensm.com",
+  "hq": "Hanoi, Vietnam",
+  "ownership": "Private; ~95% owned by Pham Nhat Vuong personally (Vingroup chairman); sister of VinFast",
+  "sells": "All-electric taxi and ride-hailing (cars and bikes, VinFast vehicles), delivery; Vietnam, Laos, Indonesia, Philippines",
+  "headcount_band": "10,001+ (large employed driver fleet, est)",
+  "revenue": "~VND 16,000-17,400bn (~USD 610-660M) 2025, +125% y/y (press)",
+  "valuation": "IPO advisory talk ~USD 20B vs Reuters sources USD 2-3B incl. debt (2025-26, est); registered capital VND 43.4T (~USD 1.6B) Feb 2026",
+  "latest_raise": "owner capital injections to VND 43.4T (Feb 2026); not a priced round",
+  "fit_score": 2,
+  "fit_detail": "sells in no current F1 market (0); mass ride-hailing users (0); EV/tech challenger story maps to technology/global ambition (1); ride-hailing not crowded on grid (1)",
+  "up_and_coming": true,
+  "flags": [
+   "lapsed: sister company VinFast was title sponsor of 2020 Vietnam GP (never held) - confirm before outreach",
+   "group brand: Vingroup/Pham Nhat Vuong",
+   "market expansion: Vietnam -> Laos, Indonesia, Philippines",
+   "revenue +125% 2025",
+   "no F1 market presence"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (revenue ~USD 610-660M 2025, large workforce); capped at Stretch by sister VinFast's lapsed 2020 Vietnam GP title deal, and it has no presence in F1 markets.",
+  "best_angle": "Fast-growing EV ride-hailing challenger heading for a Hong Kong IPO and SE Asia expansion could use F1 for a global EV-tech brand story.",
+  "sources": [
+   "https://doanhnhan.baophapluat.vn/doanh-thu-gsm-vuot-17-400-ty-dong-ap-dao-tong-thu-cua-grab-mai-linh-va-vinasun.html",
+   "https://bizhub.vietnamnews.vn/xanh-sm-triples-capital-hikes-in-two-months-targets-20b-valuation-post399421.html",
+   "https://www.marketscreener.com/news/vinfast-linked-gsm-plans-hong-kong-ipo-at-up-to-3-billion-valuation-sources-say-ce7e59dbdb8af222",
+   "https://vietnamnews.vn/sports/536884/vinfast-announced-as-f1-vietnamese-gp-s-title-sponsor.html"
+  ]
+ },
+ {
+  "id": "oliveyoung.com",
+  "company": "CJ OLIVE YOUNG",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "oliveyoung.com",
+  "hq": "Seoul, South Korea",
+  "ownership": "Unlisted; controlled by CJ Corporation (CJ Group)",
+  "sells": "Health and beauty retail (1,381 Korean stores end-2025), global online store, US stores (Pasadena, Century City, from May 2026)",
+  "headcount_band": "5,001-10,000 (~10,000, screen est)",
+  "revenue": "~KRW 5.83T (~USD 4.1B) 2025, +20% y/y; foreign-shopper sales KRW 1T+",
+  "valuation": "unknown (unlisted)",
+  "latest_raise": "none found",
+  "fit_score": 3,
+  "fit_detail": "sells in 3+ F1 markets via global online and US stores (1); core audience young women 20-34 rather than affluent 25-54 (0); K-beauty global-ambition story maps (1); beauty retail not crowded on grid (1)",
+  "up_and_coming": true,
+  "flags": [
+   "group brand: CJ Corporation",
+   "market expansion: Korea -> US (stores 2026)",
+   "no F1 tie found for CJ Group (sponsors PGA CJ Cup, LA Lakers via bibigo)"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes hard filters (revenue ~KRW 5.8T 2025, ~10,000 staff, no F1 tie found for Olive Young or CJ Group); separately marketed consumer brand with US expansion and an active sports-marketing parent.",
+  "best_angle": "Olive Young's 2026 US store launch fits F1's fast-growing US and young female fanbase as a launch platform for K-beauty.",
+  "sources": [
+   "https://brunch.co.kr/@aboutcommerce/666",
+   "https://byline.network/2026/03/19_cjoliveyoung-2/",
+   "https://www.koreajoongangdaily.com/business/olive-young-to-open-first-us-store-in-los-angeles-in-first-half-of-2026/12009645",
+   "https://newsroom.cj.net/?p=7138",
+   "https://www.kedglobal.com/newsView/ked202404300018"
+  ]
+ },
+ {
+  "id": "bonnier.com",
+  "company": "Bonnier Group AB",
+  "sector_tab": "29 Tech Media & Gaming",
+  "domain": "bonnier.com",
+  "hq": "Stockholm, Sweden",
+  "ownership": "Private, Bonnier family",
+  "sells": "News media (Bonnier News), books publishing (Bonnier Books in Nordics, UK, Germany), magazines, film/other media",
+  "headcount_band": "5,001-10,000 (~9,000-10,000, est)",
+  "revenue": "SEK 23.3B (~USD 2.3B) 2025; EBITA SEK 2.4B",
+  "valuation": "unknown (private)",
+  "latest_raise": "none (family-owned)",
+  "fit_score": 1,
+  "fit_detail": "sells in 3+ F1 markets (UK, Germany, Nordics/NL) (1); broad mass readership (0); publishing story does not map (0); media not crowded on grid but a rights/content partner rather than sponsor (0)",
+  "up_and_coming": false,
+  "flags": [
+   "media group - more likely content/rights counterpart than sponsor",
+   "no F1 broadcast rights held (TV4/C More sold 2019)"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes hard filters (net sales SEK 23.3B 2025, ~9,000+ staff, no F1 tie found) but fit 1 with a weak F1 sponsorship angle for a news/books publisher.",
+  "best_angle": "",
+  "sources": [
+   "https://www.bonnier.com/en/financials/",
+   "https://www.bonnier.com/wp-content/uploads/2026/02/Bonnier-Group-Annual-Review-2024-1.pdf",
+   "https://www.reveliolabs.com/companies/bonnier-news/employees/"
+  ]
+ },
+ {
+  "id": "eurowag.com",
+  "company": "W.A.G payment solutions (Eurowag)",
+  "sector_tab": "09 Fintech",
+  "domain": "eurowag.com",
+  "hq": "Prague, Czechia",
+  "ownership": "Listed on LSE (W.A.G payment solutions plc); founder Martin Vohánka and TA Associates (partial exits, July 2026) key holders",
+  "sells": "Fuel/energy cards, toll payments, VAT refunds and fleet software for commercial road transport; 320,000+ trucks in 23 European countries",
+  "headcount_band": "1,001-5,000 (~2,000, 2025)",
+  "revenue": "statutory EUR 2.31B (~USD 2.6B) FY2025 incl. fuel pass-through; net revenue EUR 330.1M (+12.9%)",
+  "valuation": "market cap below USD 1B (July 2026 placing at ~USD 1.33/share, est)",
+  "latest_raise": "none (listed); TA Associates USD 40M secondary sell-down July 2026",
+  "fit_score": 2,
+  "fit_detail": "sells in 3+ F1 markets (Hungary, Austria, Spain, Italy, Belgium, NL) (1); buyers are trucking fleet owners, not affluent (0); payments/tech story partly maps (1); fuel cards adjacent to crowded oil/logistics (0)",
+  "up_and_coming": false,
+  "flags": [
+   "scale via gross statutory revenue; net revenue only EUR 330M",
+   "sponsors Goodyear FIA European Truck Racing (not F1)",
+   "B2B fleet audience"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (statutory revenue EUR 2.3B 2025, ~2,000 staff, no F1 tie found); already invests in motorsport, but net revenue is only EUR 330M and the audience is trucking B2B.",
+  "best_angle": "Eurowag already uses FIA truck racing; an F1 regional/GP activation in Central Europe could lift its brand with fleet owners.",
+  "sources": [
+   "https://investors.eurowag.com/news-and-media/news/fy-2025-results-double-digit-net-revenue-growth-strong-profitability-and-reduced-leverage-eurowag-office-live-customer-migration/",
+   "https://en.wikipedia.org/wiki/Eurowag",
+   "https://www.oaklins.com/ie/en/deals/112111/",
+   "https://www.eurowag.com/press-releases/eurowag-a-proud-partner-of-the-goodyear-fia-etrc"
+  ]
+ }
+]
