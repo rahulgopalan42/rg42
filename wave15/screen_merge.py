@@ -49,8 +49,8 @@ for f in sorted(glob.glob(f'{W}/screen/out_*.json')):
         if r.get('keep') is True or str(r.get('keep')).lower() == 'true':
             name = r.get('real_name') or r.get('company')
             k = strict(name)
-            if k in KN or k in TIES:
-                why['already in files (real name)'] += 1; continue
+            if k in KN or k in TIES or k in SP or strict(r.get('company')) in TIES:
+                why['already in files / F1 sponsor (real name)'] += 1; continue
             if k in seen:
                 why['duplicate survivor'] += 1; continue
             seen.add(k); kept.append({**base, **r, 'name': name})
