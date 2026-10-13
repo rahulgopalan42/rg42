@@ -1,0 +1,281 @@
+[
+ {
+  "id": "flytap.com",
+  "company": "TAP Air Portugal",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "flytap.com",
+  "hq": "Lisbon, Portugal",
+  "ownership": "Portuguese State (100%); 44.9% strategic stake being privatised (Air France-KLM and Lufthansa final bids, Sep 2026)",
+  "sells": "Scheduled air travel; hub Lisbon to Europe, Brazil, North America, Africa",
+  "headcount_band": "5,001-10,000 (~10,000 est)",
+  "revenue": "EUR ~4.2B (FY2024)",
+  "valuation": "EUR 1.4-2B implied (privatisation reports, 2026, est)",
+  "latest_raise": "n/a; EU-approved restructuring plan (2021) completed Jun 2026",
+  "fit_score": 2,
+  "fit_detail": "Sells into Brazil, US, Canada, Spain, Italy etc. = 3+ F1 markets; affluent/business travellers yes; no performance/technology story; airline crowded on grid = 0",
+  "up_and_coming": false,
+  "flags": [
+   "airline category crowded on grid",
+   "state-owned; privatisation of 44.9% pending (decision by 31 Dec 2026)",
+   "EU restructuring plan only completed Jun 2026"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters (revenue EUR ~4.2B FY2024); no F1 tie found; reservation: airline category crowded and ownership in flux during privatisation.",
+  "best_angle": "",
+  "sources": [
+   "https://www.travelextra.ie/portugal-asks-for-higher-offers-as-tap-air-portugal-privatisation-enters-final-round/",
+   "https://www.essential-business.pt/2025/09/05/government-approves-terms-of-sale-prospect-for-a-49-9-privatisation-of-tap/",
+   "https://www.ccph.pt/news/tap-privatisation-enters-final-negotiation-phase",
+   "https://www.tapairportugal.com/en/about-us/partnerships"
+  ]
+ },
+ {
+  "id": "organon.com",
+  "company": "Organon",
+  "sector_tab": "X Pharma & Biotech",
+  "domain": "organon.com",
+  "hq": "Jersey City, New Jersey, United States",
+  "ownership": "Public (NYSE: OGN); widely held",
+  "sells": "Women's health, biosimilars and established Rx brands; 140+ markets",
+  "headcount_band": "10,001+ (~10,000)",
+  "revenue": "USD ~6.2B (FY2025, -3%)",
+  "valuation": "Market cap ~USD 2-3B (2026, est)",
+  "latest_raise": "n/a (listed); debt USD 8.83B (30 Sep 2025)",
+  "fit_score": 2,
+  "fit_detail": "Global sales in F1 markets; Rx buyers are physicians/payers, not affluent 25-54 consumers; weak performance story; pharma not crowded",
+  "up_and_coming": false,
+  "flags": [
+   "high leverage (~USD 8.8B debt)",
+   "CEO exit 2025 over sales-practice probe",
+   "weak consumer marketing motive"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters (revenue USD ~6.2B FY2025); no F1 tie found; reservation: leveraged Rx pharma with weak consumer/sponsorship motive.",
+  "best_angle": "",
+  "sources": [
+   "https://finance.yahoo.com/sectors/healthcare/articles/organon-high-cash-yield-hidden-110146417.html",
+   "https://sec.gov/Archives/edgar/data/1821825/000110465925108821/tm2530711d1_ex99-1.htm"
+  ]
+ },
+ {
+  "id": "gransolar.com",
+  "company": "Gransolar Group (GRS)",
+  "sector_tab": "02 Energy & Industrial",
+  "domain": "gransolar.com",
+  "hq": "Madrid, Spain",
+  "ownership": "Private; Trilantic Europe ~60% (Feb 2022) plus founders",
+  "sells": "Solar trackers (PV Hardware) and solar EPC (GRS); Spain, US, Australia, Middle East, LatAm",
+  "headcount_band": "501-1,000 to 1,001-5,000 (700+ in 2022; ~2,000 est)",
+  "revenue": "EUR ~340M (FY2020, latest found); EUR 401M (FY2019)",
+  "valuation": "Not disclosed",
+  "latest_raise": "Trilantic majority buyout (Feb 2022, undisclosed)",
+  "fit_score": 1,
+  "fit_detail": "Sells in US, Spain, Australia, Middle East (3+ F1 markets); buyers are utility-scale developers, not affluent consumers; engineering story moderate; energy category not crowded but no brand need",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue data stale (2020)",
+   "B2B industrial, no brand ambition"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes scale only via USD 150-500M revenue route (EUR ~340M FY2020, unverified since); no F1 tie found; B2B solar EPC/trackers with no consumer brand ambition.",
+  "best_angle": "",
+  "sources": [
+   "https://www.energias-renovables.com/fotovoltaica/grupo-gransolar-gana-en-2020-un-74-20210420",
+   "https://www.preqin.com/data/profile/asset/grupo-gransolar--s-l-/344137",
+   "https://www.energynewsbulletin.net/m-a/news/1426124/gransolar-looks-to-australia-after-merger-with-trilantic"
+  ]
+ },
+ {
+  "id": "lundbeck.com",
+  "company": "H. Lundbeck",
+  "sector_tab": "X Pharma & Biotech",
+  "domain": "lundbeck.com",
+  "hq": "Valby (Copenhagen), Denmark",
+  "ownership": "Public (Nasdaq Copenhagen); controlled by Lundbeck Foundation",
+  "sells": "Rx neuroscience (psychiatry, neurology, migraine); US 54% of revenue, Europe, international",
+  "headcount_band": "5,001-10,000 (~5,500)",
+  "revenue": "DKK 24.63B (~USD 3.7B, FY2025, +12%)",
+  "valuation": "Market cap well above USD 1B (2026, est)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "US/Europe/international = 3+ F1 markets; buyers are physicians, not affluent consumers; brain-health science story weak for F1; pharma not crowded",
+  "up_and_coming": false,
+  "flags": [
+   "foundation-controlled",
+   "weak consumer marketing motive (Rx)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters (revenue DKK 24.6B FY2025); no F1 tie found for Lundbeck or Lundbeck Foundation; reservation: Rx neuroscience with weak consumer motive.",
+  "best_angle": "",
+  "sources": [
+   "https://www.biostock.se/en/2026/02/lundbeck-okar-omsattningen-med-12-procent-under-2025/",
+   "https://www.lundbeck.com/content/dam/lundbeck-com/masters/global-site/global-site/investors/2026/AGM%20Presentation%202026.pdf"
+  ]
+ },
+ {
+  "id": "ascendmaterials.com",
+  "company": "Ascend Performance Materials",
+  "sector_tab": "21 Materials & Mech Parts",
+  "domain": "ascendmaterials.com",
+  "hq": "Houston, Texas, United States",
+  "ownership": "Private; former term-loan lenders (post-Chapter 11, Dec 2025); previously SK Capital",
+  "sells": "Nylon 6,6 polymers, intermediates and specialty materials for automotive, electrical, textiles",
+  "headcount_band": "1,001-5,000 (~2,000)",
+  "revenue": "USD ~2B+ (est)",
+  "valuation": "Not disclosed",
+  "latest_raise": "USD 600M+ new capital from new owners on Chapter 11 exit (Dec 2025)",
+  "fit_score": 1,
+  "fit_detail": "Global industrial sales; buyers are B2B manufacturers; materials story could fit performance; no brand ambition",
+  "up_and_coming": false,
+  "flags": [
+   "Chapter 11 restructuring (filed Apr 2025, emerged 19 Dec 2025)",
+   "lender-owned"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Fails hard filter 3 (distress): Chapter 11 restructuring completed only Dec 2025, now lender-owned. No F1 tie found.",
+  "best_angle": "",
+  "sources": [
+   "https://www.ascendmaterials.com/news/ascend-performance-materials-successfully-emerges-from-chapter-11",
+   "https://www.textileworld.com/textile-world/fiber-world/2025/12/ascend-performance-materials-successfully-emerges-from-chapter-11/",
+   "https://elevenflo.com/blog/ascend-performance-materials"
+  ]
+ },
+ {
+  "id": "huronconsultinggroup.com",
+  "company": "Huron Consulting Group",
+  "sector_tab": "18 Services & Other",
+  "domain": "huronconsultinggroup.com",
+  "hq": "Chicago, Illinois, United States",
+  "ownership": "Public (Nasdaq: HURN); widely held",
+  "sells": "Management, technology and financial consulting for healthcare, education and commercial clients; mainly US",
+  "headcount_band": "5,001-10,000 (~7,200, Q3 2025)",
+  "revenue": "USD ~1.7B (FY2025)",
+  "valuation": "Market cap ~USD 1.8-3.1B (Dec 2025-2026, varies)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "Mostly US, few F1 markets; senior B2B buyers yes; consulting/technology story partial; consulting not crowded",
+  "up_and_coming": false,
+  "flags": [
+   "mostly domestic US"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters (revenue ~USD 1.7B FY2025); no F1 tie found; domestic US B2B consultancy with little international brand ambition.",
+  "best_angle": "",
+  "sources": [
+   "https://www.fool.com/quote/nasdaq/hurn/",
+   "https://fintool.com/app/research/companies/HURN/earnings/Q4%202025",
+   "https://americancompanies.com/company/huron-consulting-group-inc/"
+  ]
+ },
+ {
+  "id": "aberdeenplc.com",
+  "company": "Aberdeen Group",
+  "sector_tab": "X Asset Mgmt & PE",
+  "domain": "aberdeenplc.com",
+  "hq": "Edinburgh, United Kingdom",
+  "ownership": "Public (LSE: ABDN, FTSE 100); widely held",
+  "sells": "Asset management (Aberdeen Investments), UK wealth (Adviser) and interactive investor DIY platform",
+  "headcount_band": "1,001-5,000 (~4,500 est)",
+  "revenue": "GBP ~1.3B net operating revenue (FY2025, est); adjusted operating profit GBP 264M",
+  "valuation": "Market cap ~GBP 4.3B (2026, GuruFocus)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "Investment business global, but consumer brand (interactive investor) UK-only; affluent 25-54 investors yes; story weak; finance close to crowded banking = 0",
+  "up_and_coming": false,
+  "flags": [
+   "financial category close to banking (crowded)",
+   "mainly UK consumer reach"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters (market cap ~GBP 4.3B, 2026); no F1 tie found; reservation: UK-focused and financial category crowded on grid.",
+  "best_angle": "interactive investor is growing fast (customers +14% 2025) and F1's affluent UK fanbase matches its DIY-investor target.",
+  "sources": [
+   "https://www.gurufocus.com/stock/FRA:T3V2/transcripts/8673485",
+   "https://en.wikipedia.org/wiki/Aberdeen_Group_plc",
+   "https://www.cityam.com/?p=2449822"
+  ]
+ },
+ {
+  "id": "tataconsumer.com",
+  "company": "Tata Consumer Products",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "tataconsumer.com",
+  "hq": "Mumbai / Kolkata, India",
+  "ownership": "Public (NSE: TATACONSUM); Tata Sons ~34% (largest holder, not >50%)",
+  "sells": "Tea, coffee, salt, foods (Tata Tea, Tetley, Eight O'Clock, Himalayan, Tata Sampann); India, UK, US, Canada",
+  "headcount_band": "1,001-10,000 (~5,000+ est)",
+  "revenue": "INR 20,290 crore (~USD 2.4B, FY26, +15%)",
+  "valuation": "Market cap ~INR 1.0-1.08 trillion (~USD 12-13B, Jun-Sep 2026)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 3,
+  "fit_detail": "India, UK, US, Canada = 3+ F1 markets; mass-market FMCG audience; global-ambition story yes; food & beverage (tea) not crowded",
+  "up_and_coming": false,
+  "flags": [
+   "lapsed/sister F1 tie: Tata Communications (Tata Sons sister co) F1 connectivity partner 2012-2020, broadcast connectivity partner from 2022 - not a controlled entity; confirm before outreach",
+   "group brand: Tata"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters (market cap ~USD 12-13B, 2026); Tata Sons holds ~34% so not a >50% parent; sister company Tata Communications' F1 deal flagged and caps at Stretch.",
+  "best_angle": "Tetley and Tata Tea could use F1's UK/US/India audience to back premium and international growth.",
+  "sources": [
+   "https://filingreader.com/news-wire/mumbai/2026-05-08/tata-consumer-revenue-reaches-inr-20290-crore-in-fy26",
+   "https://nsearchives.nseindia.com/corporate/Sukhvinder_24072026160704_3_TCPL_BM_Investor_Presentation.pdf",
+   "https://sportbusiness.com/news/formula-1-reconnects-with-tata-communications-ahead-of-2022-season",
+   "https://www.gpfans.com/en/f1-news/49229/formula-one-lose-26m-communications-partner/"
+  ]
+ },
+ {
+  "id": "dole.com",
+  "company": "Dole plc",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "dole.com",
+  "hq": "Dublin, Ireland (operations US/Europe)",
+  "ownership": "Public (NYSE: DOLE); Castle & Cooke (Murdock) significant holder",
+  "sells": "Fresh fruit and vegetables (bananas, pineapples, berries); Europe, North America, LatAm (Dole brand in Asia owned by Itochu)",
+  "headcount_band": "10,001+ (~35,000)",
+  "revenue": "USD ~9.2B (FY2025, +8.2%)",
+  "valuation": "Market cap ~USD 1.3B (2026, est)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "Europe/North America = 3+ F1 markets; mass-market consumers; commodity produce, no performance story; food not crowded",
+  "up_and_coming": false,
+  "flags": [
+   "commodity produce, low brand spend",
+   "Dole brand in Asia owned separately (Itochu)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters (revenue USD ~9.2B FY2025); no F1 tie found; reservation: commodity fresh produce with low brand-marketing motive.",
+  "best_angle": "",
+  "sources": [
+   "https://www.businesswire.com/news/home/20260225953452/en/dole-plc-reports-fourth-quarter-and-full-year-2025-financial-results/",
+   "https://www.sec.gov/Archives/edgar/data/1857475/000185747526000028/dole-20251231.htm"
+  ]
+ },
+ {
+  "id": "obi.com",
+  "company": "OBI",
+  "sector_tab": "49 Home & Living",
+  "domain": "obi.com",
+  "hq": "Wermelskirchen, Germany",
+  "ownership": "Private; Tengelmann Group (Haub family)",
+  "sells": "DIY/home-improvement stores and online; Germany, Austria, Italy, Poland, Czechia, Hungary, Switzerland, others",
+  "headcount_band": "10,001+ (~40,900, 2023)",
+  "revenue": "EUR ~7.2B (2023); gross ~EUR 7.7B (est)",
+  "valuation": "Not disclosed",
+  "latest_raise": "n/a (family-owned)",
+  "fit_score": 2,
+  "fit_detail": "Germany, Austria, Italy, Hungary = 3+ F1 markets; mass-market homeowners, not affluent; no performance/technology story; DIY retail not crowded",
+  "up_and_coming": false,
+  "flags": [
+   "mass-market, weak story"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters (revenue EUR ~7.2B 2023); no F1 tie found for OBI or Tengelmann; reservation: mass-market DIY with weak F1 story.",
+  "best_angle": "",
+  "sources": [
+   "https://www.cio.de/article/3701077/obi-group-holding-se-und-co-kgaa-it-fakten-und-it-strategie.html",
+   "https://www.lebensmittelzeitung.net/handel/nachrichten/Baumarkt-Ranking-Obi-baut-international-den-Vorsprung-aus-139926"
+  ]
+ }
+]

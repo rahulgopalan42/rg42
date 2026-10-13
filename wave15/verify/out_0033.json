@@ -1,0 +1,296 @@
+[
+ {
+  "id": "msd.com",
+  "company": "Merck & Co. (MSD)",
+  "sector_tab": "X Pharma & Biotech",
+  "domain": "msd.com",
+  "hq": "Rahway, New Jersey, United States",
+  "ownership": "Listed (NYSE: MRK), widely held",
+  "sells": "Prescription medicines (Keytruda, Gardasil), vaccines and animal health worldwide",
+  "headcount_band": "10,001+ (~74,000)",
+  "revenue": "~USD 65B (MarketScreener, FY2025); Q2 2026 USD 16.6B (+5%)",
+  "valuation": "Market cap ~USD 284-305B (Jun-Jul 2026)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "Sells in 140+ markets +1; prescribers/patients, not affluent-skewed 0; science story not performance 0; pharma not crowded on grid +1",
+  "up_and_coming": false,
+  "flags": [
+   "Rx advertising limits outside US",
+   "Keytruda patent cliff 2028"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes all filters (market cap ~USD 300B 2026, no F1 tie found) but Rx pharma with limited consumer marketing motive.",
+  "best_angle": "Corporate/employer-brand and vaccine-awareness platform using F1's science-and-engineering narrative.",
+  "sources": [
+   "https://bullfincher.io/companies/merck-co/market-cap",
+   "https://tickerleague.com/companies/MRK/financials/market-cap",
+   "https://in.marketscreener.com/quote/stock/MERCK-CO-INC-13611/quotes/",
+   "https://www.gurufocus.com/stock/XTER:6MK/transcripts/9002623"
+  ]
+ },
+ {
+  "id": "sime.com",
+  "company": "Sime (formerly Sime Darby Berhad)",
+  "sector_tab": "43 Mobility & Automotive",
+  "domain": "sime.com",
+  "hq": "Kuala Lumpur, Malaysia",
+  "ownership": "Listed (Bursa Malaysia: SIME); PNB/ASB-controlled",
+  "sells": "Vehicle distribution/retail (BMW, Porsche, others; UMW Toyota stake) and Caterpillar equipment dealership in Malaysia, Singapore, China, Australia",
+  "headcount_band": "10,001+ (~20,000, est)",
+  "revenue": "RM 70.1B (~USD 15.5B) FY to Jun 2025",
+  "valuation": "Market cap ~RM 14.7B (~USD 3.4B), 30 Jul 2026",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "Operates in Singapore, China, Australia, Malaysia +1; affluent car buyers +1; distributor story not own brand 0; automotive crowded 0",
+  "up_and_coming": false,
+  "flags": [
+   "distributor of third-party brands; weak own-brand motive",
+   "runs Sime Darby Racing Team in Porsche Carrera Cup Asia (not F1)",
+   "automotive category crowded"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters (USD 3.4B market cap, no F1 tie found) but a dealer/distributor of other brands with no consumer brand ambition of its own.",
+  "best_angle": "",
+  "sources": [
+   "https://www.isaham.my/stock/sime/faq",
+   "https://www.kenanga.com.my/wp-content/uploads/2026/05/SIME-260526-3Q26-RN-Kenanga.pdf",
+   "https://www.sime.com/investor-relations/investor-centre",
+   "https://autobuzz.my/2023/04/19/sime-darby-racing-team-the-911-gt3-cup-dons-batik-inspired-livery/",
+   "https://www.sportbusiness.com/news/a1gp-team-malaysia-signs-up-new-sponsor/"
+  ]
+ },
+ {
+  "id": "couche-tard.com",
+  "company": "Alimentation Couche-Tard (Circle K)",
+  "sector_tab": "X Retail & E-commerce",
+  "domain": "couche-tard.com",
+  "hq": "Laval, Quebec, Canada",
+  "ownership": "Listed (TSX: ATD), founder-led",
+  "sells": "Convenience stores and road-fuel retail (Circle K, Couche-Tard) across North America, Europe and Asia",
+  "headcount_band": "10,001+ (~150,000)",
+  "revenue": "~USD 76.5B FY to Apr 2026 (PitchBook)",
+  "valuation": "Market cap ~USD 52.6B (15 Sep 2026)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "Sells in US, Canada, Europe, Asia +1; mass-market convenience audience 0; global-acquirer ambition +1; road fuel overlaps crowded oil 0",
+  "up_and_coming": false,
+  "flags": [
+   "lapsed F1 tie: Circle K was McLaren official partner for 2022 Canadian GP - confirm before outreach",
+   "IndyCar/NASCAR sponsor history",
+   "road-fuel overlap with crowded oil category"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters (USD 52.6B market cap) but lapsed Circle K-McLaren deal (2022 Canadian GP) caps at Stretch.",
+  "best_angle": "Circle K has already tested F1 activation in Montreal; a North American race-weekend retail programme (Canada, Miami, Austin, Las Vegas) is a natural follow-on.",
+  "sources": [
+   "https://sportsdigest.in/circle-k-becomes-official-partner-of-the-mclaren-formula-1-team-for-the-highly-anticipated-return-of-the-canadian-grand-prix/30836/amp/",
+   "https://pitchbook.com/profiles/company/51079-15",
+   "https://www.stockwatch.com/News/Item/Z-C!ATD-3834598/C/ATD",
+   "https://www.finews.ch/themen/high-end/69058-mclaren-mastercard-formel-1-deal-oscar-piastri-lando-norris-ubs-mercedes-amg-petronas"
+  ]
+ },
+ {
+  "id": "hdi.group",
+  "company": "HDI Group (Talanx AG)",
+  "sector_tab": "01 Banking & Insurance",
+  "domain": "hdi.group",
+  "hq": "Hannover, Germany",
+  "ownership": "Listed (Talanx AG, Frankfurt); HDI V.a.G. mutual majority (~77%)",
+  "sells": "Primary insurance (HDI retail/industrial) and reinsurance (Hannover Re) in 175+ countries; strong in Germany, Brazil, Mexico, Poland, Turkey",
+  "headcount_band": "10,001+ (~30,000, Sep 2025)",
+  "revenue": "Insurance revenue ~EUR 49.0B FY2025; net income EUR 2.48B",
+  "valuation": "Market cap ~EUR 27-29B (Sep 2025)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "Operates in Germany, Brazil, Mexico, Italy and more +1; senior B2B industrial buyers (HDI Global) +1; story weakly maps 0; insurance/financial category busy (Allianz F1 partner) 0",
+  "up_and_coming": false,
+  "flags": [
+   "Ralf Schumacher (ex-F1 driver) is an HDI Germany brand face - not a current F1 tie",
+   "insurance category busy on grid (Allianz)",
+   "Mexico expansion: Afirme Seguros acquisition"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters (EUR 49B revenue, ~EUR 28B market cap, no F1 tie found) but insurance category busy on grid with Allianz as F1 partner.",
+  "best_angle": "HDI Global's industrial-risk expertise maps to F1's engineering narrative for B2B hospitality in Mexico and Brazil, both F1 markets where HDI is growing.",
+  "sources": [
+   "https://www.reinsurancene.ws/talanx-sees-record-net-income-of-e2-48bn-in-2025/",
+   "https://www.insurancebusinessmag.com/uk/news/breaking-news/talanx-posts-strong-2025-earnings-568990.aspx",
+   "https://in.tradingview.com/symbols/FWB-TLX",
+   "https://www.horizont.net/marketing/nachrichten/neue-partnerschaft-ralf-schumacher-faehrt-fuer-den-hdi-vor---und-veralbertwirkaufendeinauto.de-235985",
+   "https://www.boersen-zeitung.de/banken-finanzen/talanx-kauft-mexikanischen-versicherer-afirme-seguros-2"
+  ]
+ },
+ {
+  "id": "aldi-nord.de",
+  "company": "ALDI Nord Group",
+  "sector_tab": "X Retail & E-commerce",
+  "domain": "aldi-nord.de",
+  "hq": "Essen, Germany",
+  "ownership": "Private; family foundations (Markus-, Lukas- and Jakobus-Stiftung)",
+  "sells": "Discount grocery, 5,526 stores in Germany, Belgium, France, Luxembourg, Netherlands, Poland, Portugal, Spain",
+  "headcount_band": "10,001+ (>90,000, 2025)",
+  "revenue": ">EUR 31B (~USD 35B) FY2025, +7.4% (preliminary, company)",
+  "valuation": "undisclosed (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Operates in NL, Spain, Belgium, France +1; mass-market discount shoppers 0; value story not performance 0; grocery retail not crowded +1",
+  "up_and_coming": false,
+  "flags": [
+   "discount positioning weak for F1 premium audience"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes all filters (EUR 31B revenue 2025, no F1 tie found) but discount brand with weak fit to F1's premium positioning.",
+  "best_angle": "Mass-reach activation around the Dutch and Spanish Grands Prix to drive store traffic in growth markets.",
+  "sources": [
+   "https://lebensmittelpraxis.de/handel-aktuell/48516-discounter-waechst-aldi-nord-steigert-umsatz-um-7-4-prozent-auf-31-milliarden-euro.html",
+   "https://www.topagrar.com/markt/news/aldi-nord-steigert-umsatz-deutlich-auf-31-mrd-eur-20025153.html",
+   "https://www.retaildetail.eu/news/food/price-perception-drives-sales-growth-at-aldi-nord/"
+  ]
+ },
+ {
+  "id": "gestamp.com",
+  "company": "Gestamp",
+  "sector_tab": "43 Mobility & Automotive",
+  "domain": "gestamp.com",
+  "hq": "Madrid, Spain",
+  "ownership": "Listed (BME: GEST); Riberas family (Acek) controlling",
+  "sells": "Metal body-in-white, chassis and mechanisms to automotive OEMs; 115 plants in 24 countries",
+  "headcount_band": "10,001+ (>43,000)",
+  "revenue": "EUR 11.35B FY2025 (-5.4%); EUR 12.0B FY2024",
+  "valuation": "Listed (BME: GEST); current market cap not sourced",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 1,
+  "fit_detail": "Sells in 24 countries +1; OEM procurement buyers only, no brand audience 0; story maps to engineering but B2B 0; automotive crowded 0",
+  "up_and_coming": false,
+  "flags": [
+   "B2B auto supplier, no consumer brand",
+   "Plan Phoenix restructuring costs 2025 (operational, not distress)",
+   "automotive category crowded"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters (EUR 11.3B revenue 2025, no F1 tie found) but B2B auto-parts supplier with fit 1 and no brand ambition.",
+  "best_angle": "",
+  "sources": [
+   "https://www.gestamp.com/Gestamp11/media/GestampFiles/Shareholders%20Investors/General%20Information/Other%20significant%20facts/2026/NP_Gestamp-obtiene-ingresos-de-11-349M%e2%82%ac-en-un-complejo-entorno-de-mercado-en-2025.pdf?ext=.pdf",
+   "https://www.gestamp.com/Gestamp11/media/GestampFiles/Shareholders%20Investors/General%20Information/Other%20significant%20facts/2025/NP_Gestamp-2024.pdf?ext=.pdf"
+  ]
+ },
+ {
+  "id": "draexlmaier.com",
+  "company": "Dräxlmaier Group",
+  "sector_tab": "43 Mobility & Automotive",
+  "domain": "draexlmaier.com",
+  "hq": "Vilsbiburg, Germany",
+  "ownership": "Private, family-owned (Dräxlmaier family)",
+  "sells": "Wiring harnesses, interiors, HV battery/electrical systems to premium OEMs (BMW, Audi, Mercedes, Porsche, VW, JLR, Volvo)",
+  "headcount_band": "10,001+ (~60,000 2025; ~70,000 2024)",
+  "revenue": "EUR 5.0B FY2025 (EUR 5.5B 2024); EBIT EUR 80M",
+  "valuation": "undisclosed (private)",
+  "latest_raise": "n/a",
+  "fit_score": 1,
+  "fit_detail": "Global plants/customers +1; OEM buyers only 0; precision engineering but B2B 0; automotive crowded 0",
+  "up_and_coming": false,
+  "flags": [
+   "lapsed F1 tie: official supplier to BMW WilliamsF1 from 2005 (historic) - confirm before outreach",
+   "headcount down ~10,000 and plant cuts (Mór, Braunau)",
+   "B2B auto supplier"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters (EUR 5.0B revenue 2025) but B2B auto supplier with fit 1 and no brand ambition; historic BMW Williams supply deal noted.",
+  "best_angle": "",
+  "sources": [
+   "https://www.draexlmaier.com/fileadmin/Corporate/Home/04_News/Press_Information/Presseinformation_DE_2026.pdf",
+   "https://www.draexlmaier.com/fileadmin/Corporate/Home/04_News/Press_Information/Press_Information_EN_2026.pdf",
+   "https://au.motorsport.com/f1/news/williams-extends-supplier-portfolio/1193269/",
+   "https://evertiq.com/news/17718"
+  ]
+ },
+ {
+  "id": "aldi-sued.de",
+  "company": "ALDI SÜD",
+  "sector_tab": "X Retail & E-commerce",
+  "domain": "aldi-sued.de",
+  "hq": "Mülheim an der Ruhr, Germany",
+  "ownership": "Private; Siepmann-Stiftung and family foundations",
+  "sells": "Discount grocery in Germany, UK, Ireland, US, Australia, Austria/Slovenia (Hofer), Switzerland, Italy, Hungary, China",
+  "headcount_band": "10,001+ (~250,000, est)",
+  "revenue": "~EUR 83B FY2023 group (DRC); Germany ~EUR 18.8B 2025",
+  "valuation": "undisclosed (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Operates in UK, US, Australia, Italy, Austria, China +1; mass-market discount shoppers 0; value story not performance 0; grocery retail not crowded +1",
+  "up_and_coming": false,
+  "flags": [
+   "discount positioning weak for F1 premium audience",
+   "group revenue figure is FY2023; confirm current"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes all filters (~EUR 83B group revenue, no F1 tie found) but discount positioning is a weak fit for F1.",
+  "best_angle": "Scale in the UK, US and Australia gives reach around the Silverstone, Miami, Austin, Las Vegas and Melbourne races.",
+  "sources": [
+   "https://www.discountretailconsulting.com/post/germany-aldi-reaches-a-record-of-112-billion-in-global-sales",
+   "https://www.discountretailconsulting.com/post/germany-aldi-makes-a-nice-increase-in-sales-but-market-shares-under-pressure",
+   "https://de.statista.com/statistik/daten/studie/216447/umfrage/umsatz-und-gewinnentwicklung-von-aldi-sued"
+  ]
+ },
+ {
+  "id": "wilhelmsen.com",
+  "company": "Wilhelmsen group",
+  "sector_tab": "X Maritime & Shipbuilding",
+  "domain": "wilhelmsen.com",
+  "hq": "Lysaker (Oslo), Norway",
+  "ownership": "Listed (Oslo: WWI/WWIB); Wilhelmsen family controlling; holds ~38% of Wallenius Wilhelmsen",
+  "sells": "Maritime services (ships service, ship management, port agency) and maritime products to shipowners worldwide",
+  "headcount_band": "10,001+ (~18,000-20,000 incl. associates)",
+  "revenue": "~USD 1.23B FY2025 (+8.6%)",
+  "valuation": "Market cap ~USD 3.1B (17 Jul 2026, OTC quote)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 1,
+  "fit_detail": "Global port network +1; shipowner procurement buyers, no brand audience 0; story maritime services 0; logistics-adjacent crowded 0",
+  "up_and_coming": false,
+  "flags": [
+   "B2B maritime services, no consumer brand",
+   "logistics-adjacent category crowded"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters (USD 1.23B revenue 2025, ~USD 3.1B market cap, no F1 tie found) but B2B maritime services group with fit 1 and no brand ambition.",
+  "best_angle": "",
+  "sources": [
+   "https://stockanalysis.com/quote/otc/WLHSF/",
+   "https://simplywall.st/stock/OB/WWI",
+   "https://www.inderes.se/en/companies/Wilh.-Wilhelmsen-Holding"
+  ]
+ },
+ {
+  "id": "banijay.com",
+  "company": "Banijay Group",
+  "sector_tab": "29 Tech Media & Gaming",
+  "domain": "banijay.com",
+  "hq": "Amsterdam, Netherlands (operations Paris)",
+  "ownership": "Listed (Euronext Amsterdam: BNJ); Lov Group (Stéphane Courbit) controlling",
+  "sells": "TV content production/distribution (Endemol Shine, All3Media) and online sports betting (Betclic, Tipico)",
+  "headcount_band": "10,001+ (~10,000, est)",
+  "revenue": "EUR 7.4B pro forma 2025 incl. Tipico and All3Media; H1 2026 EUR 2.58B (+16.9%)",
+  "valuation": "Market cap ~EUR 3.5-4B (est; share EUR 8.50, Jul 2026)",
+  "latest_raise": "n/a (listed); Tipico acquisition completed Apr 2026",
+  "fit_score": 2,
+  "fit_detail": "Operates in 20+ countries incl. France, UK, Italy, Germany +1; broad mass audience 0; entertainment story not performance 0; media/betting not crowded on grid +1",
+  "up_and_coming": true,
+  "flags": [
+   "record was Endemol Shine; evaluated at parent Banijay Group",
+   "betting brands (Betclic, Tipico) face sponsorship/ad restrictions",
+   "net debt ~EUR 5.8B after All3Media",
+   "market expansion: Betclic/Tipico from France/Portugal -> Germany/Austria (2026)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters (EUR 7.4B pro forma revenue, no F1 tie found) but betting-led brand motive faces ad restrictions and high leverage.",
+  "best_angle": "Betclic/Tipico expansion into Germany and Austria after the Tipico deal could use F1 to build sports-betting brand reach, where regulation allows.",
+  "sources": [
+   "https://group.banijay.com/wp-content/uploads/2026/04/BanijayGroupcompletestheacquisitioninTipicoGroup-1.pdf",
+   "https://sbcnews.co.uk/sportsbook/2026/03/26/banijay-10bn-2029-plan/",
+   "https://quartr.com/events/banijay-group-n-v-bnj-q2-2026_Fkbtcn0S",
+   "https://simplywall.st/de/stocks/nl/media/ams-bnj/banijay-group-shares",
+   "https://en.wikipedia.org/wiki/Betclic"
+  ]
+ }
+]

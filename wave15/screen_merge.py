@@ -39,6 +39,27 @@ for f in glob.glob(f'{W}/screen/in_*.json'):
     for r in json.load(open(f)): inp[r['id']] = r
 kept, seen, parents, why = [], set(), Counter(), Counter()
 n_out = 0
+
+
+def hard_hit(k):
+    if not k: return False
+    return k in HARD or k in MANUAL_DROP
+
+
+# brands confirmed tied/sanctioned under a different name in another screen
+MANUAL_DROP = {'azumirestaurant', 'azumi', 'zuma', 'saicmotor'}
+# any brand dropped anywhere for an F1 tie / sanctions is excluded everywhere (conflicting screens)
+HARD = set()
+for f in glob.glob(f'{W}/screen/out_*.json'):
+    try: rows = json.load(open(f))
+    except Exception: continue
+    for r in rows:
+        if r.get('keep') is True or str(r.get('keep')).lower() == 'true': continue
+        t = (str(r.get('reason', '')) + ' ' + str(r.get('f1_tie', ''))).lower()
+        if re.search(r'\bf1\b|formula|sanction|1260h|entity list|uflpa', t) and not t.startswith('lapsed'):
+            if 'f1 tie' in t or 'sanction' in t or '1260h' in t or 'entity list' in t or 'uflpa' in t or str(r.get('f1_tie','')).lower().startswith(('yes', 'parent')):
+                for nm in (r.get('real_name'), r.get('company')):
+                    if nm: HARD.add(strict(nm))
 for f in sorted(glob.glob(f'{W}/screen/out_*.json')):
     try: rows = json.load(open(f))
     except Exception as e:
@@ -49,6 +70,8 @@ for f in sorted(glob.glob(f'{W}/screen/out_*.json')):
         if r.get('keep') is True or str(r.get('keep')).lower() == 'true':
             name = r.get('real_name') or r.get('company')
             k = strict(name)
+            if hard_hit(k) or hard_hit(strict(r.get('company'))):
+                why['F1 tie / sanctions found in another screen'] += 1; continue
             if k in KN or k in TIES or k in SP or strict(r.get('company')) in TIES:
                 why['already in files / F1 sponsor (real name)'] += 1; continue
             if k in seen:
