@@ -1,0 +1,287 @@
+[
+ {
+  "id": "tyrolit.group",
+  "company": "Tyrolit Group",
+  "sector_tab": "46 Tools & Industrial Supply",
+  "domain": "tyrolit.group",
+  "hq": "Schwaz, Austria",
+  "ownership": "Private, Swarovski family (Tyrolit - Schleifmittelwerke Swarovski AG & Co KG; member of the Swarovski Group)",
+  "sells": "Bonded abrasives, grinding/cutting/drilling tools for industry, construction and trade",
+  "headcount_band": "1,001-5,000 (4,000+ 2024; ~4,400-4,600 est)",
+  "revenue": "~EUR 720M (~USD 830M) 2024 (Wikipedia; EUR 730M 2022 per Industriemagazin)",
+  "valuation": "Undisclosed (private)",
+  "latest_raise": "None (family-owned)",
+  "fit_score": 3,
+  "fit_detail": "Sells in 65+ countries incl. all F1 regions (1); trade/industrial buyers, not affluent consumers (0); precision grinding/engineering story (1); abrasives not on the grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "group brand: Swarovski Group",
+   "B2B industrial, moderate brand budget",
+   "sponsors Austrian ski federation (OSV)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale via ~EUR 720M revenue (2024), no F1 tie found for Tyrolit or Swarovski; B2B industrial buyer base limits marketing motive.",
+  "best_angle": "Precision-grinding story fits F1 engineering B2B hospitality, building on its existing ski-sport sponsorship habit.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Tyrolit",
+   "https://industriemagazin.at/news/schleifmittel-tyrolit-uebernimmt-weiteres-unternehmen-in-den-usa/",
+   "https://www.evi.gv.at/f/23414h"
+  ]
+ },
+ {
+  "id": "martin-baker.com",
+  "company": "Martin-Baker Aircraft Co Ltd",
+  "sector_tab": "X Aviation & Aerospace",
+  "domain": "martin-baker.com",
+  "hq": "Higher Denham, Buckinghamshire, UK (input country US is wrong; US arm in Johnstown, PA)",
+  "ownership": "Private, Martin/Baker founding families",
+  "sells": "Ejection seats and aircrew escape/crash-protection systems for military aircraft",
+  "headcount_band": "1,001-5,000 (~1,300 est)",
+  "revenue": "~GBP 383M (~USD 500M) FY Mar-2025 (Craft.co aggregator; Companies House 00868042)",
+  "valuation": "Undisclosed (private)",
+  "latest_raise": "None",
+  "fit_score": 2,
+  "fit_detail": "Sells to air forces in 90+ countries (1); government defence procurement, not affluent consumers (0); safety/precision engineering story (1); ejection seats not on grid but B2G (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue at ~USD 500M edge (FX dependent)",
+   "defence B2G, no brand ambition",
+   "input HQ country wrong (UK not US)"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes scale at ~GBP 383M revenue (FY2025) and no F1 tie found, but a family-owned defence B2G supplier with no consumer or brand marketing motive.",
+  "best_angle": "",
+  "sources": [
+   "https://craft.co/martin-baker-aircraft",
+   "https://find-and-update.company-information.service.gov.uk/company/00868042"
+  ]
+ },
+ {
+  "id": "royalton.com",
+  "company": "Blue Diamond Resorts (Royalton)",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "royalton.com",
+  "hq": "Toronto, Canada (input country Germany is wrong)",
+  "ownership": "Private; Sunwing-founder (Hunter family) affiliated hotel company; rebranded Blue Diamond Resorts -> Royalton Hotels & Resorts (11 Aug 2025); ownership not confirmed",
+  "sells": "Caribbean/Mexico all-inclusive resorts (Royalton, Royalton CHIC, Planet Hollywood, Hideaway); some Marriott Autograph affiliation",
+  "headcount_band": "1,001-10,000 (~10,000 est incl. resort staff)",
+  "revenue": "~USD 1B (est, unpublished; 24 resorts in 7 destinations, Aug 2025)",
+  "valuation": "Undisclosed (private)",
+  "latest_raise": "None",
+  "fit_score": 3,
+  "fit_detail": "Guests mainly from Canada/US/UK; resorts in Mexico and Caribbean (1); affluent 25-54 leisure travellers (1); lifestyle rather than performance story (0); all-inclusive resorts not crowded on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "scale unverified - revenue est only",
+   "ownership unverified (Hunter family / post-WestJet Sunwing split)",
+   "input HQ country wrong"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "No F1 tie found; scale rests on an unsourced ~USD 1B revenue estimate for 24 all-inclusive resorts and ownership is unconfirmed.",
+  "best_angle": "Post-rebrand (Aug 2025) Royalton needs brand awareness with North American affluent travellers, a natural fit with Miami/Las Vegas/Montreal/Mexico City GPs.",
+  "sources": [
+   "https://www.hospitalitynet.org/news/4128480.html",
+   "https://www.caribjournal.com/2025/08/11/all-inclusive-royalton-hotels-blue-diamond",
+   "https://www.cbinsights.com/company/blue-diamond-resorts",
+   "https://www.theglobeandmail.com/business/article-westjet-takeover-sunwing-approved"
+  ]
+ },
+ {
+  "id": "robinsonheli.com",
+  "company": "Robinson Helicopter Company",
+  "sector_tab": "X Aviation & Aerospace",
+  "domain": "robinsonheli.com",
+  "hq": "Torrance, California, USA",
+  "ownership": "Private (Robinson family / management)",
+  "sells": "Light civil helicopters (R22, R44, R66, R88) for private owners, training and utility operators",
+  "headcount_band": "1,001-5,000 (1,200+ Jun 2026, company)",
+  "revenue": "~USD 200-300M (est; Wikipedia USD 200M, Clodura USD 300M; 296 deliveries 2023)",
+  "valuation": "Undisclosed (private)",
+  "latest_raise": "None",
+  "fit_score": 4,
+  "fit_detail": "Sold worldwide, ~15,000 aircraft delivered (1); affluent owner-pilots and operators (1); precision aviation engineering story (1); helicopters not on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue unpublished (est)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale only on an estimated USD 200-300M revenue (capped Stretch); no F1 tie found; strong affluent-owner fit.",
+  "best_angle": "Affluent private-flyer audience overlaps F1 Paddock Club; US races (Miami, Austin, Vegas) suit its home market.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Robinson_Helicopter_Company",
+   "https://www.robinsonheli.com/press/robinson-helicopter-company-named-one-of-newsweek-s-america-s-greatest-workplaces-in-manufacturing-2026",
+   "https://www.robinsonheli.com/press/robinson-helicopter-company-reports-strong-growth-and-continued-product-development-in-2023",
+   "https://www.clodura.ai/directory/company/robinson-helicopter-company"
+  ]
+ },
+ {
+  "id": "umbragroup.com",
+  "company": "UMBRAGROUP",
+  "sector_tab": "X Aviation & Aerospace",
+  "domain": "umbragroup.com",
+  "hq": "Foligno, Italy",
+  "ownership": "Private, family-owned (Baldi family)",
+  "sells": "Ball screws, electromechanical actuators and bearings for aerospace, defence and industry",
+  "headcount_band": "1,001-5,000 (~1,600, Jan 2024)",
+  "revenue": "Group ~EUR 220M (~USD 240M) 2023 (Regione Umbria presentation); EUR 256M FY2024 (Craft.co); parent SpA EUR 137M 2024",
+  "valuation": "Undisclosed (private)",
+  "latest_raise": "None",
+  "fit_score": 3,
+  "fit_detail": "Plants/sales in Italy, Germany, US, others (1); senior aerospace OEM engineers, B2B (0); precision motion/actuation story (1); not on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "B2B aerospace supplier, no brand ambition"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes scale via ~EUR 220-256M group revenue (2023-24), no F1 supplier link found; niche aerospace B2B with no brand marketing motive.",
+  "best_angle": "",
+  "sources": [
+   "https://consiglio.regione.umbria.it/sites/default/files/allegati_eventiagenda/UMBRAGROUP%20Dalla%20ferrovia%20all%27aeronautica%2018gen2024.pdf",
+   "https://topaziende.quotidiano.net/?p=84316",
+   "https://craft.co/umbragroup"
+  ]
+ },
+ {
+  "id": "humaneticsgroup.com",
+  "company": "Humanetics",
+  "sector_tab": "40 Test & Measurement",
+  "domain": "humaneticsgroup.com",
+  "hq": "Farmington Hills, Michigan, USA",
+  "ownership": "PE-owned: Bridgepoint (majority since 2018), Ansys/Synopsys minority stake",
+  "sells": "Crash-test dummies (ATDs), sensors, active-safety test targets and simulation models",
+  "headcount_band": "1,001-5,000 (~1,100, PitchBook 2026)",
+  "revenue": "~USD 200M (est, unpublished)",
+  "valuation": "Undisclosed",
+  "latest_raise": "None disclosed (Ansys minority stake purchase from Bridgepoint, undisclosed terms)",
+  "fit_score": 2,
+  "fit_detail": "Global automotive OEM customer base (1); automotive safety engineers, B2B (0); safety/precision engineering story (1); test equipment B2B niche (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue unverified (est)",
+   "B2B test equipment, no brand ambition"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "No FIA/F1 supply link found; scale rests on an estimated ~USD 200M revenue and it is a niche automotive-safety B2B supplier with no brand motive.",
+  "best_angle": "",
+  "sources": [
+   "https://pitchbook.com/profiles/company/53003-62",
+   "https://www.dbusiness.com/daily-news/humanetics-in-farmington-hills-to-sell-minority-interest-to-software-firm/",
+   "https://www.cbinsights.com/company/humanetics-group"
+  ]
+ },
+ {
+  "id": "doppelmayr.com",
+  "company": "Doppelmayr Group",
+  "sector_tab": "X Rail & Transit",
+  "domain": "doppelmayr.com",
+  "hq": "Wolfurt, Vorarlberg, Austria",
+  "ownership": "Private, Doppelmayr family (Doppelmayr Holding SE)",
+  "sells": "Ropeways, ski lifts, urban cable cars and material ropeways (incl. Garaventa, CWA)",
+  "headcount_band": "1,001-5,000 (3,781 FTE FY2024/25; 3,987 FTE FY2025/26)",
+  "revenue": "EUR 1,197M (~USD 1.35B) FY2024/25; ~EUR 1.3B FY2025/26",
+  "valuation": "Undisclosed (private)",
+  "latest_raise": "None",
+  "fit_score": 3,
+  "fit_detail": "Sells in 100+ countries incl. US/Canada, Europe (1); ski-resort operators and city transit authorities, B2B/B2G (0); precision engineering/mobility story (1); ropeways not on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "B2B/B2G infrastructure, limited brand budget"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale via EUR 1.2B revenue (FY2024/25), no F1 tie found; buyer base is niche resort/city operators, so marketing motive is moderate.",
+  "best_angle": "Urban ropeway push into US and Middle East cities could use F1 host-city hospitality (e.g. Las Vegas, Gulf GPs) to reach mayors and developers.",
+  "sources": [
+   "https://www.vol.at/doppelmayr-steigert-umsatz-deutlich-erfolgreiches-geschaeftsjahr-2024/9666725",
+   "https://www.snowindustrynews.com/articles/doppelmayr-group-publishes-annual-report-202425",
+   "https://www.vienna.at/doppelmayr-von-der-bergbahn-zum-stadtverkehr/10488611"
+  ]
+ },
+ {
+  "id": "theon.com",
+  "company": "Theon International",
+  "sector_tab": "32 Defense & Industrial AI",
+  "domain": "theon.com",
+  "hq": "Nicosia, Cyprus (operations Athens, Greece)",
+  "ownership": "Public (Euronext Amsterdam: THEON); founder Christian Hadjiminas largest holder",
+  "sells": "Night-vision and thermal imaging systems, optronics for military and security forces",
+  "headcount_band": "501-1,000 (767 undated; ~1,000 est post Kappa Optronics)",
+  "revenue": "EUR 443.5M (~USD 510M) FY2025, +25.9%; guidance EUR 570-600M FY2026",
+  "valuation": "Market cap ~EUR 2.7-2.9B (Aug 2026, Edison)",
+  "latest_raise": "EUR 150M rights issue (2025-26)",
+  "fit_score": 2,
+  "fit_detail": "Sells to 70+ countries' forces (1); government defence buyers, not affluent consumers (0); precision optics/technology story (1); defence optics B2G (0)",
+  "up_and_coming": true,
+  "flags": [
+   "defence B2G, no brand ambition",
+   "fast growth (+26% FY2025, ~30% guided FY2026)"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes scale via ~EUR 2.7B market cap (Aug 2026) and no F1 tie found, but a defence B2G optics maker with no consumer brand motive.",
+  "best_angle": "",
+  "sources": [
+   "https://quartr.com/events/theon-international-plc-theon-q4-2025-tu_Fg4yZncZ",
+   "https://theon.com/en/news/2026/theon-announces-fy-2025-preliminary-results/",
+   "https://www.edisongroup.com/equity/theon-international/BMC-187/",
+   "https://wealthyhood.com/en/stocks/theon.as/"
+  ]
+ },
+ {
+  "id": "triveniturbines.com",
+  "company": "Triveni Turbine Limited",
+  "sector_tab": "02 Energy & Industrial",
+  "domain": "triveniturbines.com",
+  "hq": "Bengaluru, India",
+  "ownership": "Public (NSE: TRITURBINE); promoter Triveni group (Rohit Sawhney/Tarun Sawhney family) majority",
+  "sells": "Industrial steam turbines up to 100 MWe and aftermarket services, exports to 80+ countries",
+  "headcount_band": "501-1,000 (943, Jan 2026)",
+  "revenue": "INR 2,181 crore (~USD 250M) FY2025-26, +9%",
+  "valuation": "Market cap ~INR 16,917 crore (~USD 1.9B) 5 Oct 2026",
+  "latest_raise": "None (listed)",
+  "fit_score": 2,
+  "fit_detail": "Exports to 80+ countries (1); industrial plant owners, B2B (0); engineering/efficiency story (1); turbines are energy-industrial B2B (0)",
+  "up_and_coming": false,
+  "flags": [
+   "B2B industrial, no brand ambition"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes scale via ~USD 1.9B market cap (Oct 2026), no F1 tie found; niche industrial turbine B2B with no brand marketing motive.",
+  "best_angle": "",
+  "sources": [
+   "https://www.investywise.com/triveni-turbine-limited-q4-fy26-investor-presentation/",
+   "https://www.indiainfoline.com/company/triveni-turbine-ltd-share-price/22929",
+   "https://in.tradingview.com/symbols/NSE-TRITURBINE/"
+  ]
+ },
+ {
+  "id": "skan.com",
+  "company": "SKAN Group",
+  "sector_tab": "X Pharma & Biotech",
+  "domain": "skan.com",
+  "hq": "Allschwil, Switzerland",
+  "ownership": "Public (SIX: SKAN); BV Holding anchor shareholder",
+  "sells": "Aseptic isolators, cleanroom equipment and decontamination systems for pharma production",
+  "headcount_band": "1,001-5,000 (1,377 undated, TipRanks)",
+  "revenue": "CHF 333.3M (~USD 410M) FY2025, -7.7%",
+  "valuation": "Market cap ~CHF 1.1-1.3B (~USD 1.4-1.6B) 2026 (TipRanks/GuruFocus, undated)",
+  "latest_raise": "None (listed)",
+  "fit_score": 2,
+  "fit_detail": "Sells to pharma globally (1); pharma manufacturing engineers, B2B (0); precision/sterility technology story (1); pharma equipment B2B (0)",
+  "up_and_coming": false,
+  "flags": [
+   "B2B pharma equipment, no brand ambition",
+   "FY2025 sales and profit down"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes scale via ~CHF 1.1-1.3B market cap (2026), no F1 tie found; niche pharma-equipment B2B with no brand marketing motive.",
+  "best_angle": "",
+  "sources": [
+   "https://www.marktpuls.ch/artikel/permalink/660484",
+   "https://www.tipranks.com/stocks/ch:skan/revenue",
+   "https://www.gurufocus.com/stock/XSWX:SKAN/transcripts/8762761"
+  ]
+ }
+]
