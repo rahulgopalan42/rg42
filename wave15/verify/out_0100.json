@@ -1,0 +1,293 @@
+[
+ {
+  "id": "bakerbotts.com",
+  "company": "Baker Botts",
+  "sector_tab": "50 Law Firms & Legal AI",
+  "domain": "bakerbotts.com",
+  "hq": "Houston, Texas, United States",
+  "ownership": "Private partnership (LLP)",
+  "sells": "Corporate, energy, IP and litigation legal services; offices in US, London, Brussels, Dubai, Riyadh, Singapore",
+  "headcount_band": "1,001-5,000 (~700 lawyers, ~1,600 staff est, 2025)",
+  "revenue": "USD 733M FY2023 (Bloomberg Law/ALM); ~USD 750M+ FY2025 (est)",
+  "valuation": "n/a (private partnership)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes; senior B2B buyers (GCs) yes; story no; law not crowded but low-key B2B partnership - scored 2 (story 0, brand motive weak)",
+  "up_and_coming": false,
+  "flags": [
+   "acted as F1 counsel on 2022 refinancing (advisory, not a sponsorship tie)",
+   "revenue 2025 not disclosed (est)",
+   "law firms rarely sponsor"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (USD 733M revenue FY2023), headcount, no F1 sponsorship tie; reservation: partnership law firm with weak marketing motive for rights-holder sponsorship.",
+  "best_angle": "Energy-transition and Middle East push (Riyadh, Dubai) could use Bahrain/Saudi/Abu Dhabi GP hospitality for client entertainment.",
+  "sources": [
+   "https://news.bloomberglaw.com/business-and-practice/baker-botts-shuns-merger-fights-new-rivals-in-renewal-push",
+   "https://www.globallegalpost.com/news/baker-botts-tops-1m-revenue-per-lawyer-59932748",
+   "https://www.bakerbotts.com/News/2022/11/Baker-Botts-Represents-Formula-1-on-Refinancing",
+   "https://abovethelaw.com/law-firms/baker-botts/"
+  ]
+ },
+ {
+  "id": "veromoda.com",
+  "company": "VERO MODA",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "veromoda.com",
+  "hq": "Brande, Denmark",
+  "ownership": "Brand of Bestseller A/S (Holch Povlsen family, private)",
+  "sells": "Women's fast-fashion apparel via own stores, e-commerce and wholesale across Europe, India, Middle East",
+  "headcount_band": "1,001-5,000 (brand, est); Bestseller group ~20,000",
+  "revenue": "Brand not disclosed; Bestseller group DKK ~38B (~EUR 5.1B) FY2024/25 (to 31 Jul 2025); Vero Moda one of the largest brands (est EUR 1B+)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes; audience women 18-35 mass-market, not affluent - no; story no; fashion not crowded - yes",
+  "up_and_coming": false,
+  "flags": [
+   "group brand: Bestseller",
+   "lapsed F1 tie via parent: sister brand JACK & JONES (Bestseller) sponsored Haas F1 2018-2019 - confirm before outreach",
+   "decision sits at Bestseller"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale via Bestseller (EUR 5.1B group revenue FY2024/25); separately marketed consumer brand; capped Stretch for lapsed parent-group F1 deal (JACK & JONES x Haas 2018-19) and mass-market audience.",
+  "best_angle": "F1's growing young female fanbase (F1 Academy, Drive to Survive audience) matches Vero Moda's core 18-35 women customer.",
+  "sources": [
+   "https://fashionunited.com/news/business/bestseller-group-boosts-annual-turnover-and-profit-for-50th-anniversary/2025101368672",
+   "https://www.retaildetail.eu/news/fashion/belgian-expansion-wave-for-vero-moda-fashion-market-is-recovering/",
+   "https://sponsorship.sportbusiness.com/news/haas-f1-extends-jack-jones-partnership/",
+   "https://haasf1team.com/news/jack-jones-joins-haas-f1-team"
+  ]
+ },
+ {
+  "id": "sino.com",
+  "company": "Sino Group",
+  "sector_tab": "X Real Estate",
+  "domain": "sino.com",
+  "hq": "Hong Kong",
+  "ownership": "Ng family (Robert Ng); flagship Sino Land (HKEX: 0083) and Tsim Sha Tsui Properties listed",
+  "sells": "Residential/commercial property development and investment in HK, mainland China, Singapore, Sydney; Fullerton hotels",
+  "headcount_band": "5,001-10,000 (est)",
+  "revenue": "Sino Land revenue ~HKD 8-10B FY2025 (to 30 Jun 2025, est)",
+  "valuation": "Sino Land market cap ~USD 12.7B (Aug 2026, companiesmarketcap)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes (HK/China, Singapore, Australia); affluent buyers yes; story weak - no; real estate not crowded - yes",
+  "up_and_coming": false,
+  "flags": [
+   "Fullerton Hotel Singapore is trackside (Marina Bay) but no official Singapore GP partnership found",
+   "HK-centric sales base"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (Sino Land ~USD 12.7B market cap, Aug 2026), no F1 tie found; reservation: HK-centric developer with limited global consumer marketing motive.",
+  "best_angle": "Fullerton hotels sit on the Singapore GP circuit and in Sydney; F1 hospitality could showcase the luxury hotel and residential portfolio to Asian HNW buyers.",
+  "sources": [
+   "https://companiesmarketcap.com/sino-land/marketcap/",
+   "https://in.marketscreener.com/quote/stock/SINO-LAND-COMPANY-LIMITED-1412712/quotes/",
+   "https://my.asiatatler.com/lifestyle/travel/best-hotels-f1-singapore-grand-prix",
+   "https://www.bosshunting.com.au/sport/f1/singapore-grand-prix-2026"
+  ]
+ },
+ {
+  "id": "brownadvisory.com",
+  "company": "Brown Advisory",
+  "sector_tab": "X Asset Mgmt & PE",
+  "domain": "brownadvisory.com",
+  "hq": "Baltimore, Maryland, United States",
+  "ownership": "Private; ~70% employee-owned, ~30% clients/private investors",
+  "sells": "Wealth management and institutional investment management; US, London, Europe, Asia offices",
+  "headcount_band": "1,001-5,000 (~1,000-1,900, 2025)",
+  "revenue": "Not disclosed; ~USD 600-800M 2025 (est, from AUM USD 173.5B at 31 Dec 2025)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes (US, UK, EU, Asia); affluent/HNW buyers yes; story no; asset management not on crowded list - yes",
+  "up_and_coming": false,
+  "flags": [
+   "revenue undisclosed (est)",
+   "low-key marketer"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale on estimated revenue (USD 173.5B AUM, Dec 2025) and headcount; no F1 tie found; reservation: revenue unverified and conservative, low-profile marketing culture.",
+  "best_angle": "International HNW expansion (London, 2025 Marylebone Partners acquisition) could use F1 hospitality for UHNW client entertainment.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Brown_Advisory",
+   "https://www.brownadvisory.com/insights/annual-reports/independence/ceo-letter",
+   "https://www.reveliolabs.com/companies/brown-advisory/employees/"
+  ]
+ },
+ {
+  "id": "boyden.com",
+  "company": "Boyden",
+  "sector_tab": "20 Staffing & Talent",
+  "domain": "boyden.com",
+  "hq": "New York, United States (network HQ)",
+  "ownership": "Private; partner-owned global network",
+  "sells": "Executive search and leadership advisory; 75+ offices in 45+ countries",
+  "headcount_band": "1,001-5,000 (~1,460-1,550, 2025 est)",
+  "revenue": "Not disclosed; USD 150-600M (third-party est, 2025) - one directory claims USD 611.7M",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; senior B2B buyers (boards/CEOs) yes; story no; category not crowded - yes",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue unverified (est)",
+   "franchise-style partner network - fragmented budget"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale only on estimated revenue (USD 150-500M route), headcount 1,000+, no F1 tie; capped Stretch and weak central marketing motive.",
+  "best_angle": "",
+  "sources": [
+   "https://www.boyden.com/media/boyden-celebrates-80th-anniversary-with-continued-growth-57640787/",
+   "https://marketingmonk.so/agency-directory/agency/boyden",
+   "https://www.ocbj.com/finance/boyden-new-kid-townagain/"
+  ]
+ },
+ {
+  "id": "vidaxl.com",
+  "company": "vidaXL",
+  "sector_tab": "X Retail & E-commerce",
+  "domain": "vidaxl.com",
+  "hq": "Venlo, Netherlands",
+  "ownership": "Private; founder-owned (vidaXL Group)",
+  "sells": "Budget home, garden and furniture goods online across EU, UK, US, Australia",
+  "headcount_band": "1,001-5,000 (est)",
+  "revenue": "EUR 736M FY2023 (annual accounts via Quote/RetailDetail); GMV ~USD 1.4B 2025 (ECDB est)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 1,
+  "fit_detail": "3+ F1 markets yes; audience budget mass-market - no; story no; category not crowded - yes",
+  "up_and_coming": false,
+  "flags": [
+   "profit fell to EUR 29.8M in 2023 from EUR 260M",
+   "mass-market discount audience"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes scale (EUR 736M revenue FY2023), headcount, no F1 tie found; fit 1 - discount home-goods audience and no premium story.",
+  "best_angle": "",
+  "sources": [
+   "https://retaildetail.nl/news/wonen/koopjesplatform-vidaxl-ziet-winst-kelderen",
+   "https://ecdb.com/resources/sample-data/retailer/vidaxl"
+  ]
+ },
+ {
+  "id": "11teamsports.com",
+  "company": "11teamsports Group",
+  "sector_tab": "X Retail & E-commerce",
+  "domain": "11teamsports.com",
+  "hq": "Satteldorf, Germany",
+  "ownership": "Part of JCK Holding (Kemper family, Quakenbrück) since 2010; operates independently",
+  "sells": "Team-sports (football, basketball) gear e-commerce and B2B team outfitting across Europe; Kickz (acq. Jul 2023), Outfitter team business (acq. 2024)",
+  "headcount_band": "501-1,000 (~615, Dec 2025)",
+  "revenue": ">EUR 200M (management, Nov 2021); ~EUR 300M 2025 incl. acquisitions (est)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes (Europe); audience amateur athletes, mass/young - no; story no; category not crowded - yes",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "group brand: JCK Holding",
+   "revenue unverified (est)",
+   "Kickz deal was 2023, not 2026"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on USD 150-500M revenue route (>EUR 200M, 2021; est higher now), 600+ staff, no F1 tie; capped Stretch, football-centric audience.",
+  "best_angle": "",
+  "sources": [
+   "https://www.textilwirtschaft.de/business/sports/11teamsports-auf-wachstumskurs-profis-fuer-amateure-233288",
+   "https://sgieurope.com/11teamsports-acquires-kickz/103825.article",
+   "https://fashionunited.de/nachrichten/business/11teamsports-ubernimmt-teamsport-und-b2b-geschaft-von-outfitter/2024040855980",
+   "https://www.reveliolabs.com/companies/eleven-teamsports/employees/"
+  ]
+ },
+ {
+  "id": "aerie.com",
+  "company": "Aerie by AEO, Inc.",
+  "sector_tab": "X Retail & E-commerce",
+  "domain": "aerie.com",
+  "hq": "Pittsburgh, Pennsylvania, United States",
+  "ownership": "Brand of American Eagle Outfitters (NYSE: AEO)",
+  "sells": "Intimates, loungewear and activewear (incl. OFFLINE) via US/Canada/Mexico stores, e-commerce and international licensees",
+  "headcount_band": "5,001-10,000 (brand est); AEO ~40,000",
+  "revenue": "Aerie ~USD 2B TTM (FY2025, est); AEO ~USD 5.5B FY2025",
+  "valuation": "AEO market cap ~USD 2.8-3.8B (2026)",
+  "latest_raise": "n/a (listed parent)",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes (US, Canada, Mexico); audience Gen-Z women, not affluent 25-54 - no; story no; category not crowded - yes",
+  "up_and_coming": true,
+  "flags": [
+   "group brand: American Eagle Outfitters",
+   "Gen-Z female skew",
+   "double-digit Aerie comps 2025"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale via AEO (~USD 3B market cap, 2026; Aerie ~USD 2B revenue), separately marketed brand, no F1 tie; reservation: young female audience vs core F1 demo, parent decision.",
+  "best_angle": "F1's fast-growing Gen-Z female fanbase in the US (three US races) mirrors Aerie's customer; F1 Academy is a natural entry point.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/919012/000119312525305370/aeo-ex99_1.htm",
+   "https://www.barchart.com/story/news/588490/aeo-q4-2025-deep-dive-margin-compression-and-tariff-headwinds-temper-robust-sales-gains",
+   "https://www.fool.com/quote/nyse/aeo",
+   "https://yespress.io/american-eagle-outfitters-inc"
+  ]
+ },
+ {
+  "id": "jhsf.com.br",
+  "company": "JHSF",
+  "sector_tab": "X Real Estate",
+  "domain": "jhsf.com.br",
+  "hq": "São Paulo, Brazil",
+  "ownership": "Listed (B3: JHSF3); controlled by José Auriemo Neto",
+  "sells": "Luxury malls (Cidade Jardim), Fasano hotels/restaurants, high-end residential, São Paulo Catarina executive airport",
+  "headcount_band": "1,001-5,000 (est)",
+  "revenue": "BRL 3.4B FY2025 (~USD 620M; inflated by BRL 5.2B inventory sale to own fund, Dec 2025)",
+  "valuation": "Market cap ~BRL 4-5B (~USD 0.8B, 2026 est)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets no (Brazil-centric, Fasano NY/Uruguay small); affluent buyers yes; story no; category not crowded - yes",
+  "up_and_coming": false,
+  "flags": [
+   "2025 revenue boosted by one-off property sale to own fund; recurring revenue below USD 500M",
+   "domestic Brazil focus"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on reported revenue (BRL 3.4B FY2025) though one-off-inflated; no São Paulo GP tie found; reservation: domestic luxury player, scale borderline on recurring basis.",
+  "best_angle": "São Paulo GP at Interlagos is a showcase for Fasano and Catarina airport to Brazil's UHNW audience.",
+  "sources": [
+   "https://www.analisedeacoes.com/noticias/jhsf-jhsf3-registra-lucro-de-978-milhoes-no-4-trimestre-de-2025-com-alta-anual-de-138/",
+   "https://mercadoeconsumo.com.br/31/03/2026/economia/jhsf-vende-estoque-de-imoveis-por-r-52-bilhoes-e-injeta-capital-no-grupo/",
+   "https://propmark.com.br/anunciantes/marcas-que-patrocinam-o-gp-do-brasil-de-formula-1-em-2025/"
+  ]
+ },
+ {
+  "id": "alphafmc.com",
+  "company": "Alpha FMC (Alpha Financial Markets Consulting)",
+  "sector_tab": "25 IT Services & Consulting",
+  "domain": "alphafmc.com",
+  "hq": "London, United Kingdom",
+  "ownership": "Private; owned by Bridgepoint (take-private 2024)",
+  "sells": "Management consulting to asset and wealth managers and insurers; North America, UK, Europe, MENA, APAC",
+  "headcount_band": "1,001-5,000 (1,500+ consultants, Apr 2026)",
+  "revenue": "GBP 235.5M FY2024 (to 31 Mar 2024, audited)",
+  "valuation": "Take-private at 505p/share 2024 (~GBP 600M equity, est)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes; senior B2B buyers yes; story no; consulting not crowded on grid but PwC is F1 consulting partner - no",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "PE-owned (Bridgepoint)",
+   "niche B2B buyer pool"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on USD 150-500M revenue route (GBP 235.5M FY2024), 1,500+ staff, no F1 tie; capped Stretch, niche B2B with weak brand motive.",
+  "best_angle": "",
+  "sources": [
+   "https://lse.co.uk/rns/audited-results-for-the-year-ended-31-march-2024-wm5ecca8u5xf14e.html",
+   "https://www.reveliolabs.com/companies/alpha-fmc-group-holdings/employees",
+   "https://www.formula1.com/en/latest/article/formula-1-welcomes-pwc-as-official-consulting-partner.jLK5v2MLA3QKOFtwcHLN8"
+  ]
+ }
+]
