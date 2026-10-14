@@ -1,0 +1,53 @@
+[
+{
+"id": "bctmusavirlik.com",
+"company": "BCT Müşavirlik Malatya",
+"keep": false,
+"reason": "quick triage: tiny local business",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+},
+{
+"id": "wonderjobs.com",
+"company": "WonderJobs",
+"keep": false,
+"reason": "quick triage: spam or job page",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+},
+{
+"id": "ourheartsdesire.com",
+"company": "OHD",
+"keep": false,
+"reason": "quick triage: tiny local business",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+}
+]
