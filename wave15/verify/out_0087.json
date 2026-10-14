@@ -1,0 +1,296 @@
+[
+ {
+  "id": "mambaby.com",
+  "company": "MAM",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "mambaby.com",
+  "hq": "Vienna / Großhöflein (Burgenland), Austria",
+  "ownership": "Private, founder Peter Röhrig (MAM Babyartikel GmbH)",
+  "sells": "Baby pacifiers, bottles and soothers; 90M+ products/yr in 60 countries; plants in Hungary and Thailand",
+  "headcount_band": "501-1,000 (600 in 2016; ~1,000 est 2026)",
+  "revenue": "Not published (2014 report lists 'k.A.'); db estimates USD 3.5-6M per entity are not group figures",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 1,
+  "fit_detail": "Sells in US, UK, EU and 60 countries (1); buyers are new parents, not affluent 25-54 F1 core (0); story is safety/medical, not performance (0); baby care uncrowded but off-audience (0)",
+  "up_and_coming": false,
+  "flags": [
+   "revenue never published - scale unverified",
+   "audience mismatch (infant care)"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Scale: no published or credible revenue figure to confirm USD 150M+; would be Low-value on fit (1) even if confirmed.",
+  "best_angle": "",
+  "sources": [
+   "https://mambaby.com/why-mam/about-mam/",
+   "https://www.wko.at/bgld/news/mam-vom-burgenland-in-die-ganze-welt",
+   "https://www.mambaby.com/fileadmin/media/countries/MAM_Austria/PA_40_Jahre_MAM_Babyartikel.pdf",
+   "https://www.mambaby.com/fileadmin/media/Feature_Rework_Website_2016/About_MAM/Oekoprofit_Umweltbericht_2015.pdf"
+  ]
+ },
+ {
+  "id": "jaresortshotels.com",
+  "company": "JA Resorts & Hotels",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "jaresortshotels.com",
+  "hq": "Dubai, UAE",
+  "ownership": "Owned by DUTCO Group (Dubai family conglomerate, est. 1947)",
+  "sells": "Resorts and hotels: JA The Resort, Hatta, Maldives, Seychelles, and from 2025 Mar Hall (Glasgow) and The Bruntsfield (Edinburgh); ~10 properties",
+  "headcount_band": "1,001-5,000 (~1,250-1,900, db est)",
+  "revenue": "~USD 500-550M (2025, RocketReach/Similarweb/Prospeo db est, unverified)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Properties only in UAE and UK among F1 markets (0); affluent leisure travellers (1); story is leisure not performance (0); resort brands not crowded (Jumeirah-Williams and Hyatt-Audi exist) (1)",
+  "up_and_coming": true,
+  "flags": [
+   "group brand: DUTCO Group",
+   "revenue db estimate only - confirm",
+   "market expansion: UAE/Indian Ocean -> UK (Aug 2025)",
+   "not Jumeirah (Williams partner)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Separately marketed hotel brand of DUTCO, no F1 tie found; scale rests on unverified ~USD 500M database estimates and fit is only 2.",
+  "best_angle": "JA's 2025 jump from the UAE into the UK gives it a reason to build awareness in Britain, with the Abu Dhabi GP on its home doorstep.",
+  "sources": [
+   "https://www.hospitalitynet.org/news/4128476/ja-resorts-hotels-marks-significant-expansion-with-the-addition-of-two-scottish-heritage-hotels-to-its-management-portfolio",
+   "https://www.rocketreach.co/answers/what-is-the-annual-revenue-of-ja-resorts-hotels_b5c0f2eef42e08a7",
+   "https://www.similarweb.com/company/jaresortshotels.com",
+   "https://source.jaresortshotels.com/corporate/about-us"
+  ]
+ },
+ {
+  "id": "cmpsport.com",
+  "company": "CMP (F.lli Campagnolo)",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "cmpsport.com",
+  "hq": "Bassano del Grappa (Vicenza), Italy",
+  "ownership": "Private, Campagnolo family (F.lli Campagnolo SpA)",
+  "sells": "CMP outdoor, ski and active apparel and footwear; 55% export, Germany lead foreign market",
+  "headcount_band": "1,001-5,000 (>1,000 across IT/RO/TN, 2026)",
+  "revenue": "EUR 215.4M (FY2025, consolidated); EUR 213.7M (FY2024); EUR 236.3M (FY2023)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Sells in Germany, Italy, Austria, Spain etc. (1); mid-price mass outdoor, not affluent core (0); outdoor not performance-tech story for F1 (0); outdoor apparel not crowded on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "sales flat/down vs 2023 peak",
+   "US/China only longer-term"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters on EUR 215.4M FY2025 revenue (capped Stretch), >1,000 staff, no F1 tie found; mid-market European outdoor brand with moderate fit.",
+  "best_angle": "CMP wants to grow retail in Germany and enter the US; an F1 merchandise or licensing tie could lift a mid-market brand into those markets.",
+  "sources": [
+   "https://www.milanofinanza.it/news/tante-grazie-a-cmp-2713703",
+   "https://www.ilnordest.it/economia/imprese/i-90-anni-di-campagnolo-il-re-del-mondo-outdoor-mpqn7n1k"
+  ]
+ },
+ {
+  "id": "amawaterways.com",
+  "company": "AmaWaterways River Cruises",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "amawaterways.com",
+  "hq": "Calabasas, California, USA",
+  "ownership": "Private: L Catterton significant stake (Mar 2024, from Certares consortium); founders and Murphy family retain meaningful stakes",
+  "sells": "Luxury river cruises in Europe, Egypt, Asia, Africa and Colombia, mostly to North American guests",
+  "headcount_band": "501-1,000 (~800, db)",
+  "revenue": "Not published; record sales 2023-24, 2025 bookings +31% (Jan 2025); USD 150M+ (est, fleet ~30 ships) - unverified",
+  "valuation": "n/a (L Catterton deal terms undisclosed, 2024)",
+  "latest_raise": "L Catterton stake purchase (Mar 2024, undisclosed)",
+  "fit_score": 2,
+  "fit_detail": "Sells to US, Canada, UK, Australia guests (1); affluent but mostly 55+ (0); story is leisure not performance (0); river cruise not crowded although MSC is F1 global partner (1)",
+  "up_and_coming": false,
+  "flags": [
+   "revenue unverified (est)",
+   "investor L Catterton is ~40% LVMH-owned (LVMH = F1 global partner) - indirect, not controlling",
+   "cruise category: MSC Cruises F1 global partner"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "No F1 tie on brand or controlling owner; scale only estimated (no published revenue) and the 55+ guest base fits F1 weakly.",
+  "best_angle": "AmaWaterways is growing fast in North America, where F1's affluent new fans are a younger audience it needs to reach.",
+  "sources": [
+   "https://cruiseindustrynews.com/cruise-news/2024/03/l-catterton-acquires-stake-in-amawaterways/",
+   "https://www.travelpulse.com/news/river-cruise/amawaterways-celebrates-successful-2024-looks-ahead-to-2025",
+   "https://aspiretravelclub.co.uk/news/amawaterways-forward-volumes-5-up-year-on-year",
+   "https://legalclarity.org/who-owns-amawaterways-founders-family-and-private-equity/"
+  ]
+ },
+ {
+  "id": "maped.com",
+  "company": "Maped",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "maped.com",
+  "hq": "Annecy, France",
+  "ownership": "Private, Lacroix founding family (CEO Antoine Lacroix)",
+  "sells": "School and office stationery, art supplies and toys (Maped, Heller Joustra, Juratoys); 80% export, 125 countries",
+  "headcount_band": "1,001-5,000 (~1,800, 2026)",
+  "revenue": "~EUR 175M (FY2025, press est); >EUR 200M (2023); declining 2024-25",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Sells in 125 countries incl. US, UK, EU (1); buyers are parents/children, not affluent F1 core (0); story not performance-tech (0); stationery not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue declining 2024-25; last French plant (Argonay) closing May 2026",
+   "audience mismatch (school supplies)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters on ~EUR 175M (~USD 200M) FY2025 revenue (capped Stretch), no F1 tie found; reservations: shrinking sales and child-focused audience.",
+  "best_angle": "F1 Academy and F1 in Schools offer a family/STEM route for a precision-instrument (compass/ruler) brand that sells in 125 countries.",
+  "sources": [
+   "https://www.lejournaldesentreprises.com/article/maped-fermera-son-dernier-site-de-production-francais-au-printemps-2026-2132668",
+   "https://www.presse-citron.net/la-gomme-maped-nest-plus-francaise-lasie-et-le-declin-demographique-ont-tue-lentreprise/",
+   "https://www.lejournaldesentreprises.com/article/maped-le-fabricant-de-compas-devenu-un-incontournable-de-lunivers-des-enfants-2095175",
+   "https://en.wikipedia.org/wiki/Maped"
+  ]
+ },
+ {
+  "id": "livescoregroup.com",
+  "company": "LiveScore Group",
+  "sector_tab": "X Gambling & Lotteries",
+  "domain": "livescoregroup.com",
+  "hq": "London, UK",
+  "ownership": "Private, founder-controlled (Sam Sadi)",
+  "sells": "LiveScore sports-data app, LiveScore Bet and Virgin Bet (UK, Ireland, Nigeria, South Africa)",
+  "headcount_band": "501-1,000 (~600)",
+  "revenue": "GBP 206.3M (~USD 270M) (FY to Mar 2025, Companies House); UK 85%",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "LiveScore app used globally incl. UK, Ireland, Nigeria, SA (1); men 25-54 sports fans (1); story is sports data, not performance/tech (0); betting not on crowded list though Stake/Allwyn are on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "loss-making: GBP 28.6M net loss FY25 (narrowed 42%)",
+   "UK Remote Gaming Duty rise Apr 2026 (GBP 20-25M hit)",
+   "gambling ad rules vary by market"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters on GBP 206.3M FY25 revenue (capped Stretch), losses narrowing (not distress), no F1 tie found; gambling restrictions and UK tax rise are reservations.",
+  "best_angle": "LiveScore's global score app could own live F1 race data and second-screen engagement as it pushes Virgin Bet beyond the UK.",
+  "sources": [
+   "https://igamingbusiness.com/finance/livescore-outperforms-uk-market-in-fy25/",
+   "https://sbcnews.co.uk/europe/2026/04/13/livescore-loss-cut-to-27m/",
+   "https://ts2.tech/en/livescore-revenue-tops-200-million-but-uk-gambling-tax-shock-threatens-profit-push/",
+   "https://europeangaming.eu/portal/latest-news/2024/09/11/166285/virgin-bet-is-chesters-new-partner-title-sponsor/"
+  ]
+ },
+ {
+  "id": "gruppomontenegro.com",
+  "company": "Gruppo Montenegro",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "gruppomontenegro.com",
+  "hq": "Zola Predosa (Bologna), Italy",
+  "ownership": "Private, Seragnoli family (Montenegro Srl)",
+  "sells": "Spirits (Amaro Montenegro, Vecchia Romagna, Rum Pampero) and food (Bonomelli, Cuore, Cannamela); spirits exports ~40%",
+  "headcount_band": "501-1,000 (~700, est)",
+  "revenue": "EUR 215.8M (FY2024, Montenegro Srl registry); EUR 227.8M (FY2023); FY to Apr 2025 described as 2nd-best in 20 years",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Sells in Italy, US, Germany and export markets (1); adult 25-54 drinkers (1); story not performance-tech (0); spirits crowded on grid (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "lapsed: Amaro Montenegro Ducati MotoGP partner 2021-22 (not F1)",
+   "spirits crowded on grid"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters on EUR 215.8M FY2024 revenue (capped Stretch), no F1 tie (only a lapsed MotoGP deal); spirits category is crowded on the grid.",
+  "best_angle": "Montenegro's past Ducati MotoGP deal shows it buys motorsport, and an Italian F1 tie (Monza/Imola) could support its push into exports.",
+  "sources": [
+   "https://topaziende.quotidiano.net/?p=104670",
+   "https://www.teleborsa.it/News/2026/06/09/gruppo-montenegro-ceo-fava-nel-2025-secondo-miglior-risultato-da-20-anni-25.html",
+   "https://www.ducati.com/ww/en/news/ducati-corse-teams-up-with-amaro-montenegro-as-official-partner-for-motogp"
+  ]
+ },
+ {
+  "id": "garciacarrion.com",
+  "company": "J. García Carrión",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "garciacarrion.com",
+  "hq": "Jumilla (Murcia), Spain",
+  "ownership": "Private, García Carrión family",
+  "sells": "Juices (Don Simón) and wines (Pata Negra, Jaume Serra etc.), sold in 90+ countries",
+  "headcount_band": "1,001-5,000 (~1,500, est)",
+  "revenue": "~EUR 1,162M (FY2025, registry via Vinetur); EUR 1,161.3M (FY2024)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a; debt refinanced 2024",
+  "fit_score": 2,
+  "fit_detail": "Sells in 90+ countries incl. EU, UK, US (1); mass-market buyers, not affluent core (0); story not performance-tech (0); juice not crowded on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "mass-market, weak premium angle",
+   "wine segment ~35% (wine/spirits adjacent)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes all filters on ~EUR 1.16B FY2025 revenue, no F1 tie found; reservation: mass-market juice/wine brand with little premium or performance story.",
+  "best_angle": "Don Simón could use a Spanish GP (Madrid from 2026) tie to back its export push with a sporting brand halo.",
+  "sources": [
+   "https://www.vinetur.com/20260724104786/garcia-carrion-eleva-su-beneficio-neto-hasta-547-millones-de-euros.html",
+   "https://www.alimarket.es/alimentacion/noticia/416397/garcia-carrion-supera-los-1-160-m--de-facturacion-y-refinancia-deuda"
+  ]
+ },
+ {
+  "id": "acesur.com",
+  "company": "Acesur",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "acesur.com",
+  "hq": "Dos Hermanas (Seville), Spain",
+  "ownership": "Private, 100% Spanish family capital",
+  "sells": "Olive oils and sauces (La Española, Coosur, Al Amir, Duendesol); exports to 80+ countries, US sales >EUR 100M",
+  "headcount_band": "501-1,000 (600+, est)",
+  "revenue": ">EUR 1,000M (FY2023; EUR 876M FY2022, EUR 577M FY2020)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Sells in Spain, US, Middle East, 80+ countries (1); mass grocery buyers (0); story not performance-tech (0); olive oil not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "revenue partly price-driven (2023 olive oil price spike)",
+   "latest audited figure 2023",
+   "US growth (>EUR 100M sales)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes all filters on >EUR 1B FY2023 revenue, no F1 tie found; reservation: commodity grocery brand with weak premium/performance angle.",
+  "best_angle": "La Española's fast-growing US business could use the US Grands Prix to build brand awareness against private-label olive oil.",
+  "sources": [
+   "https://asest.es/story/acesur-cartera-de-negocios/",
+   "https://en.wikipedia.org/wiki/Acesur",
+   "https://es.statista.com/estadisticas/499404/volumen-de-produccion-de-las-empresas-lideres-de-aceite-de-oliva-envasado-espana"
+  ]
+ },
+ {
+  "id": "zamoracompany.com",
+  "company": "Zamora Company",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "zamoracompany.com",
+  "hq": "Cartagena (Murcia) / Madrid, Spain",
+  "ownership": "Private, Zamora family",
+  "sells": "Licor 43 (42.5% of sales), Ramón Bilbao wines, plus 15+ premium spirits and wine brands; 54.4% international, 80 countries",
+  "headcount_band": "501-1,000 (~800, est)",
+  "revenue": "Net sales ~EUR 255M (FY2025, Spirits Business; ~USD 300M per Shanken); EBITDA EUR 46.9M, net profit EUR 20.7M (FY2025)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Sells in 80 countries incl. US, Germany, Mexico (1); adult 25-54 drinkers (1); story not performance-tech (0); spirits crowded on grid (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "spirits crowded on grid",
+   "Zamora USA growth push for Licor 43 (2026)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters on ~EUR 255M FY2025 net sales (capped Stretch), profitable, no F1 tie found; spirits category is crowded on the grid.",
+  "best_angle": "Zamora USA's push to grow Licor 43 to a quarter-million cases could use the US Grands Prix for trade and consumer activation.",
+  "sources": [
+   "https://www.vinetur.com/20260707103830/zamora-company-eleva-un-61-su-resultado-neto-tras-cerrar-2025-con-469-millones-de-beneficio.html",
+   "https://www.alimarket.es/alimentacion/noticia/430499/zamora-company-apuesta-por-su-vertiente-exterior-con-el-refuerzo-de-su-equipo-directivo",
+   "https://www.shankennewsdaily.com/2026/02/20/39239/zamora-usa-targets-a-quarter-million-cases-for-growing-licor-43/",
+   "https://forbes.es/economia/509821/zamora-company-impulsa-licor-43-en-espana-su-marca-mas-internacional-con-presencia-en-80-paises/"
+  ]
+ }
+]
