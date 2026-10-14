@@ -1,0 +1,124 @@
+[
+ {
+  "id": "p:starwoodcapital",
+  "company": "Starwood Capital Group",
+  "sector_tab": "X Asset Mgmt & PE",
+  "domain": "starwoodcapital.com",
+  "hq": "Miami Beach, Florida, USA",
+  "ownership": "Private, founder-controlled (Barry Sternlicht); manages Starwood Property Trust (NYSE: STWD) and SREIT",
+  "sells": "Real estate, hospitality and energy private investment funds; hotel brands 1 Hotels, Baccarat Hotels & Resorts, Treehouse Hotels",
+  "headcount_band": "5,001-10,000 (~7,000, website, undated)",
+  "revenue": "n/a (private); management-fee revenue est USD 1B+ on USD 130B+ AUM (est)",
+  "valuation": "n/a (no published valuation); AUM USD 130B+ (30 Jun 2026, company)",
+  "latest_raise": "n/a (fund close: USD 10.2B opportunistic RE fund, Jul 2026 - LP capital, not equity)",
+  "fit_score": 4,
+  "fit_detail": "Invests and operates hotels across US, Europe, Middle East, Asia (1); affluent investors and luxury-hotel guests (1); global ambition story (1); real-estate PE/hospitality not crowded on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "scale by estimate only - firm revenue and valuation unpublished",
+   "group brand: 1 Hotels / Baccarat Hotels (consumer angle)",
+   "Starwood Hotels' 2012-16 Mercedes F1 deal belonged to Starwood Hotels & Resorts (now Marriott), not this firm"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on est USD 1B+ fee revenue (USD 130B+ AUM, Jun 2026) and ~7,000 staff, no F1 tie found; reservation: scale figure is an estimate and PE parent has limited sponsorship motive.",
+  "best_angle": "Starwood's luxury hotel brands (1 Hotels, Baccarat) target the same affluent travellers who fill F1 race weekends in Miami, Las Vegas, Abu Dhabi and London.",
+  "sources": [
+   "https://www.starwoodcapital.com/",
+   "https://njit.joinhandshake.com/employers/17199",
+   "https://www.sec.gov/Archives/edgar/data/1465128/000146512826000009/stwd-20251231.htm",
+   "https://sponsorship.sportbusiness.com/news/starwood-hotels-extends-f1-stay-with-mercedes/"
+  ]
+ },
+ {
+  "id": "p:ablecandc",
+  "company": "Able C&C",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "ablecnc.com",
+  "hq": "Seoul, South Korea",
+  "ownership": "Public (KOSPI: 078520); IMM Private Equity ~61.5% via SPC (2024)",
+  "sells": "K-beauty cosmetics (Missha, plus brands) sold in Korea and overseas (63% of sales overseas, incl. Japan, US, Europe, SE Asia)",
+  "headcount_band": "201-500 (est)",
+  "revenue": "KRW 242B (~USD 170M) FY2025, -8.3%; operating profit KRW 18B",
+  "valuation": "n/a (listed; market cap well below USD 1B, est)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Overseas sales 63% across Japan, US, Europe (1); mass-market beauty buyers (0); value K-beauty story, not performance (0); cosmetics not crowded on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue near floor and declining (-8.3% 2025)",
+   "exiting Korean direct stores and duty-free (2025 restructuring, profitable - not distress)",
+   "IMM PE seeking exit - ownership may change"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on KRW 242B (~USD 170M) FY2025 revenue (capped Stretch), no F1 tie found; shrinking revenue and pending PE exit are reservations.",
+  "best_angle": "Missha's overseas pivot (63% of sales) could use Asian Grands Prix (Japan, Singapore) to build brand awareness.",
+  "sources": [
+   "https://www.insight.co.kr/news/515907",
+   "https://www.insight.co.kr/news/503333",
+   "https://core.asiae.co.kr/article/2024092718390837427",
+   "https://thevc.kr/ablecnc"
+  ]
+ },
+ {
+  "id": "p:emergingtravel",
+  "company": "Emerging Travel Group",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "emergingtravel.com",
+  "hq": "Abu Dhabi, UAE (US-registered parent)",
+  "ownership": "Private, founder-controlled (Sergei Fage, Kirill Makharinsky); VC-backed",
+  "sells": "B2B travel tech: RateHawk hotel booking platform for 110,000+ travel agents, plus ZenHotels; owns Russian OTA Ostrovok (sale planned by end 2026)",
+  "headcount_band": "1,001-5,000 (~1,500, est)",
+  "revenue": "n/a (unpublished); GTV USD 4.8B FY2025 (+30%, company)",
+  "valuation": "n/a",
+  "latest_raise": "USD 10M (Jul 2019, Comnews) - no recent priced round found",
+  "fit_score": 2,
+  "fit_detail": "Sells globally incl. Asia, Middle East, Europe (1); B2B travel agents, not affluent consumers (0); travel-tech growth story (1); B2B hotel booking not crowded on grid but travel adjacent (0)",
+  "up_and_coming": true,
+  "flags": [
+   "scale unverified - revenue unpublished; GTV is not revenue",
+   "Russia exposure: owns Ostrovok via UAE entity (Maletto Investments); reported buyer interest from Rotenberg-linked Turmashina",
+   ">30% GTV growth 2025"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Fails scale: revenue, valuation and recent raise all unpublished; USD 4.8B GTV does not establish USD 150M+ revenue. Russia exposure also needs review.",
+  "best_angle": "",
+  "sources": [
+   "https://www.tradearabia.com/News/389868/UAE-s-Emerging-Travel-Group-nets-record-revenue-for-FY-2025",
+   "https://indiaoutbound.info/trade-news/emerging-travel-group-hits-usd-4-8-billion-gtv-in-2025-driven-by-ratehawk-growth/",
+   "https://interfax.com/newsroom/top-stories/117816/",
+   "https://www.sostav.ru/publication/emerging-travel-group-namerena-prodat-ostrovok-do-kontsa-2026-goda-79421.html",
+   "https://www.comnews.ru/content/120593/2019-07-03/gruppa-emerging-travel-privlekla-raund-v-razmere-10-mln-dlya-mezhdunarodnogo-razvitiya"
+  ]
+ },
+ {
+  "id": "p:shindengenelectricmanufacturing",
+  "company": "Shindengen Electric",
+  "sector_tab": "45 Electronic Parts",
+  "domain": "shindengen.co.jp",
+  "hq": "Tokyo, Japan",
+  "ownership": "Public (TSE Prime: 6844); Honda Motor largest shareholder (minority)",
+  "sells": "Power semiconductors, power supplies and motorcycle/automotive electronics (regulators, ECUs) for OEMs worldwide",
+  "headcount_band": "5,001-10,000 (~5,250, FY Mar-2025)",
+  "revenue": "JPY 105.8B (~USD 700M) FY to Mar 2025 (+3.5%, net loss JPY 2.4B); 9M to Dec 2025 JPY 83.8B (+8%)",
+  "valuation": "n/a (listed; market cap well below USD 1B, est)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Sells to OEMs in Japan, Asia, Europe, US (1); senior B2B engineering buyers (1); component story not branded performance (0); B2B niche, no brand reach (0)",
+  "up_and_coming": false,
+  "flags": [
+   "minority holder Honda (largest shareholder) is an F1 power-unit supplier (Aston Martin, 2026) - cap Stretch",
+   "FY Mar-2025 net loss; recovering 2025-26 (not distress)",
+   "industrial B2B, limited brand motive"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes on JPY 105.8B (~USD 700M) FY Mar-2025 revenue and ~5,250 staff; Honda minority stake (F1 PU supplier) caps it, and B2B component maker lacks brand motive.",
+  "best_angle": "",
+  "sources": [
+   "https://www.shindengen.com/csr/report/files/docs/2025integratedreport_en_financial_section.pdf",
+   "https://www.tipranks.com/news/company-announcements/shindengen-electric-reports-fiscal-year-2025-financial-results-amid-challenges",
+   "https://www.google.com/finance/quote/6844:TYO?hl=af",
+   "https://www.bridge-salon.jp/upload/tekiji_pdf/T~~68440~000000~4302~0~20260209~1530~20260206550829G.pdf"
+  ]
+ }
+]
