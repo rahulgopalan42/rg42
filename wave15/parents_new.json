@@ -33,7 +33,7 @@
 },
 {
 "name": "Koch Industries",
-"children_seen": 8
+"children_seen": 9
 },
 {
 "name": "EnBW",
@@ -148,6 +148,10 @@
 "children_seen": 5
 },
 {
+"name": "Asia Pulp & Paper",
+"children_seen": 5
+},
+{
 "name": "Gannett",
 "children_seen": 5
 },
@@ -228,10 +232,6 @@
 "children_seen": 4
 },
 {
-"name": "Asia Pulp & Paper",
-"children_seen": 4
-},
-{
 "name": "WNS",
 "children_seen": 4
 },
@@ -257,6 +257,10 @@
 },
 {
 "name": "Altice USA",
+"children_seen": 4
+},
+{
+"name": "Merz Group",
 "children_seen": 4
 },
 {
@@ -372,6 +376,10 @@
 "children_seen": 3
 },
 {
+"name": "GuideWell Mutual Holding",
+"children_seen": 3
+},
+{
 "name": "Comunidad de Madrid",
 "children_seen": 3
 },
@@ -444,10 +452,6 @@
 "children_seen": 3
 },
 {
-"name": "Merz Group",
-"children_seen": 3
-},
-{
 "name": "NANA Regional Corporation",
 "children_seen": 3
 },
@@ -457,6 +461,10 @@
 },
 {
 "name": "InJourney",
+"children_seen": 3
+},
+{
+"name": "Wm Morrison Supermarkets",
 "children_seen": 3
 },
 {
@@ -524,11 +532,19 @@
 "children_seen": 3
 },
 {
+"name": "The Compleat Food Group",
+"children_seen": 3
+},
+{
 "name": "UK Department for Transport",
 "children_seen": 3
 },
 {
 "name": "Strukton Groep",
+"children_seen": 3
+},
+{
+"name": "Jindal Poly Films",
 "children_seen": 3
 },
 {
@@ -565,6 +581,10 @@
 },
 {
 "name": "Saltchuk Resources",
+"children_seen": 3
+},
+{
+"name": "ESW Capital",
 "children_seen": 3
 },
 {
@@ -649,6 +669,10 @@
 },
 {
 "name": "Eurocash",
+"children_seen": 2
+},
+{
+"name": "Zhuhai Huafa Group",
 "children_seen": 2
 },
 {
@@ -785,10 +809,6 @@
 },
 {
 "name": "CFAO",
-"children_seen": 2
-},
-{
-"name": "GuideWell Mutual Holding",
 "children_seen": 2
 },
 {
@@ -933,10 +953,6 @@
 },
 {
 "name": "H-E-B Grocery Company",
-"children_seen": 2
-},
-{
-"name": "Wm Morrison Supermarkets",
 "children_seen": 2
 },
 {
@@ -1356,10 +1372,6 @@
 "children_seen": 2
 },
 {
-"name": "The Compleat Food Group",
-"children_seen": 2
-},
-{
 "name": "Sampa Otomotiv",
 "children_seen": 2
 },
@@ -1373,10 +1385,6 @@
 },
 {
 "name": "MIND ID",
-"children_seen": 2
-},
-{
-"name": "Jindal Poly Films",
 "children_seen": 2
 },
 {
@@ -1501,10 +1509,6 @@
 },
 {
 "name": "Muehlhan AG",
-"children_seen": 2
-},
-{
-"name": "ESW Capital",
 "children_seen": 2
 },
 {
@@ -1900,6 +1904,10 @@
 "children_seen": 2
 },
 {
+"name": "MAX Automation SE",
+"children_seen": 2
+},
+{
 "name": "OmniMax International",
 "children_seen": 2
 },
@@ -1944,6 +1952,10 @@
 "children_seen": 2
 },
 {
+"name": "MM Grupp",
+"children_seen": 2
+},
+{
 "name": "European Commission",
 "children_seen": 1
 },
@@ -1985,10 +1997,6 @@
 },
 {
 "name": "La Poste Group",
-"children_seen": 1
-},
-{
-"name": "Zhuhai Huafa Group",
 "children_seen": 1
 },
 {
@@ -11232,10 +11240,6 @@
 "children_seen": 1
 },
 {
-"name": "MAX Automation SE",
-"children_seen": 1
-},
-{
 "name": "Eni / Kuwait Petroleum Italia",
 "children_seen": 1
 },
@@ -12192,6 +12196,42 @@
 "children_seen": 1
 },
 {
+"name": "Dalkia / EDF",
+"children_seen": 1
+},
+{
+"name": "HoldIKKS",
+"children_seen": 1
+},
+{
+"name": "GMD Plast",
+"children_seen": 1
+},
+{
+"name": "Equans / Bouygues",
+"children_seen": 1
+},
+{
+"name": "Cretex Companies",
+"children_seen": 1
+},
+{
+"name": "XBT Holding",
+"children_seen": 1
+},
+{
+"name": "J.B. Poindexter & Co",
+"children_seen": 1
+},
+{
+"name": "Delachaux Group",
+"children_seen": 1
+},
+{
+"name": "Gruner AG",
+"children_seen": 1
+},
+{
 "name": "FCC Medio Ambiente / FCC SA",
 "children_seen": 1
 },
@@ -12644,10 +12684,6 @@
 "children_seen": 1
 },
 {
-"name": "MM Grupp",
-"children_seen": 1
-},
-{
 "name": "Alumil SA",
 "children_seen": 1
 },
@@ -12669,6 +12705,50 @@
 },
 {
 "name": "Pavisa SA de CV",
+"children_seen": 1
+},
+{
+"name": "Maryland & Virginia Milk Producers Cooperative",
+"children_seen": 1
+},
+{
+"name": "GRAITEC Group",
+"children_seen": 1
+},
+{
+"name": "Infovista",
+"children_seen": 1
+},
+{
+"name": "Global Critical Logistics",
+"children_seen": 1
+},
+{
+"name": "DoALL Company",
+"children_seen": 1
+},
+{
+"name": "AIRSYS Group",
+"children_seen": 1
+},
+{
+"name": "JFE Steel / Nucor",
+"children_seen": 1
+},
+{
+"name": "TESCAN Group",
+"children_seen": 1
+},
+{
+"name": "Outform",
+"children_seen": 1
+},
+{
+"name": "Cart.com",
+"children_seen": 1
+},
+{
+"name": "Ganz",
 "children_seen": 1
 },
 {
@@ -12705,6 +12785,30 @@
 },
 {
 "name": "Madrigall",
+"children_seen": 1
+},
+{
+"name": "Endúr ASA",
+"children_seen": 1
+},
+{
+"name": "Exim Bank",
+"children_seen": 1
+},
+{
+"name": "Wihuri Oy",
+"children_seen": 1
+},
+{
+"name": "Grazer Wechselseitige",
+"children_seen": 1
+},
+{
+"name": "Pytes Energy",
+"children_seen": 1
+},
+{
+"name": "Tosçelik",
 "children_seen": 1
 },
 {
@@ -12865,6 +12969,230 @@
 },
 {
 "name": "Formue AS",
+"children_seen": 1
+},
+{
+"name": "Mecachrome",
+"children_seen": 1
+},
+{
+"name": "Schlüter-Systems KG",
+"children_seen": 1
+},
+{
+"name": "Honghe Tech",
+"children_seen": 1
+},
+{
+"name": "Marco Capital Group",
+"children_seen": 1
+},
+{
+"name": "WCMG Group",
+"children_seen": 1
+},
+{
+"name": "Cassa Centrale Banca",
+"children_seen": 1
+},
+{
+"name": "Qérys",
+"children_seen": 1
+},
+{
+"name": "Voilàp Holding",
+"children_seen": 1
+},
+{
+"name": "RAK Ceramics PJSC",
+"children_seen": 1
+},
+{
+"name": "Makeen Energy / Al-Ayuni Investment",
+"children_seen": 1
+},
+{
+"name": "OEC Utility Services Group",
+"children_seen": 1
+},
+{
+"name": "EET Group A/S",
+"children_seen": 1
+},
+{
+"name": "Transmission Technology Holding AG",
+"children_seen": 1
+},
+{
+"name": "JKF Industri A/S",
+"children_seen": 1
+},
+{
+"name": "Carvalhos Group",
+"children_seen": 1
+},
+{
+"name": "Guangdong Borche Machinery",
+"children_seen": 1
+},
+{
+"name": "Vencorex / site operators",
+"children_seen": 1
+},
+{
+"name": "RAPS GmbH & Co. KG",
+"children_seen": 1
+},
+{
+"name": "Ramudden Global",
+"children_seen": 1
+},
+{
+"name": "Idealcombi A/S",
+"children_seen": 1
+},
+{
+"name": "Hera S.p.A.",
+"children_seen": 1
+},
+{
+"name": "Belfius Insurance",
+"children_seen": 1
+},
+{
+"name": "Francap Distribution",
+"children_seen": 1
+},
+{
+"name": "Kohinoor Foods Ltd",
+"children_seen": 1
+},
+{
+"name": "FCR Media",
+"children_seen": 1
+},
+{
+"name": "Lehmann&Voss&Co.",
+"children_seen": 1
+},
+{
+"name": "ZGH Boleslaw",
+"children_seen": 1
+},
+{
+"name": "Radius Systems Ltd",
+"children_seen": 1
+},
+{
+"name": "SIR Safety System S.p.A.",
+"children_seen": 1
+},
+{
+"name": "Fagor Automation S. Coop.",
+"children_seen": 1
+},
+{
+"name": "Safichem Group",
+"children_seen": 1
+},
+{
+"name": "Durable Hunke & Jochheim",
+"children_seen": 1
+},
+{
+"name": "Guilin Feiyu Technology",
+"children_seen": 1
+},
+{
+"name": "PFM Financial Advisors",
+"children_seen": 1
+},
+{
+"name": "Dart Container Corp.",
+"children_seen": 1
+},
+{
+"name": "Chemosvit a.s.",
+"children_seen": 1
+},
+{
+"name": "České dráhy",
+"children_seen": 1
+},
+{
+"name": "GPdis",
+"children_seen": 1
+},
+{
+"name": "WISAG Facility Service Holding",
+"children_seen": 1
+},
+{
+"name": "F. X. Meiller GmbH",
+"children_seen": 1
+},
+{
+"name": "Norddeutscher Rundfunk",
+"children_seen": 1
+},
+{
+"name": "Esseco Group",
+"children_seen": 1
+},
+{
+"name": "Alfa Bio",
+"children_seen": 1
+},
+{
+"name": "Wellglade Group",
+"children_seen": 1
+},
+{
+"name": "Viessmann Group",
+"children_seen": 1
+},
+{
+"name": "Masterplast Nyrt",
+"children_seen": 1
+},
+{
+"name": "TJ Morris Ltd",
+"children_seen": 1
+},
+{
+"name": "Hopewell Group of Companies",
+"children_seen": 1
+},
+{
+"name": "PURIS / J.F. Lehman & Co",
+"children_seen": 1
+},
+{
+"name": "Gateley",
+"children_seen": 1
+},
+{
+"name": "SPB SAS",
+"children_seen": 1
+},
+{
+"name": "HALO",
+"children_seen": 1
+},
+{
+"name": "Interfax Group",
+"children_seen": 1
+},
+{
+"name": "Hayashi Telempu Corporation",
+"children_seen": 1
+},
+{
+"name": "Pacific West Foods",
+"children_seen": 1
+},
+{
+"name": "Hamaton Automotive Technology",
 "children_seen": 1
 }
 ]
