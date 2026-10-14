@@ -1,0 +1,286 @@
+[
+ {
+  "id": "p:s4capital",
+  "company": "S4 Capital (Monks)",
+  "sector_tab": "07 Marketing & Sales",
+  "domain": "s4capital.com",
+  "hq": "London, UK",
+  "ownership": "Public (LSE: SFOR); founder Sir Martin Sorrell; operating brand Monks",
+  "sells": "Digital marketing, content, data and technology services",
+  "headcount_band": "5,001-10,000 (~6,350, Dec 2025)",
+  "revenue": "GBP 754.8M reported / GBP 673M net revenue 2025 (-11% reported)",
+  "valuation": "Market cap ~GBP 140M (Aug 2025)",
+  "latest_raise": "",
+  "fit_score": 3,
+  "fit_detail": "Global (US, UK, Europe, LatAm, APAC) yes; senior marketing buyers yes; AI/tech-led marketing story yes; marketing services not crowded but S4 is in cost-cutting mode - scored 3",
+  "up_and_coming": false,
+  "flags": [
+   "revenue declining (~-11% 2025) and headcount -11.5%",
+   "merger talks with MSQ Partners (Aug 2025) - check outcome",
+   "low market cap (~GBP 140M)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes via revenue USD 500M+ (GBP 755M 2025); no F1 tie found; shrinking revenue, merger talks and tight budgets are the reservation",
+  "best_angle": "",
+  "sources": [
+   "https://finance.yahoo.com/markets/stocks/articles/s4-capital-plc-scppf-full-150052504.html",
+   "https://campaignlive.com/article/s4-capital-revenue-declines-127-headcount-drops-89/1932438",
+   "https://videoweek.com/2025/08/11/s4-confirms-takeover-talks-with-msq-partners/",
+   "https://en.wikipedia.org/wiki/Monks_(media_company)"
+  ]
+ },
+ {
+  "id": "p:unilumin",
+  "company": "Unilumin",
+  "sector_tab": "45 Electronic Parts",
+  "domain": "unilumin.com",
+  "hq": "Shenzhen, China",
+  "ownership": "Public (SZSE: 300232); founder Lin Mingfang",
+  "sells": "LED display screens, sports/venue displays, LED lighting",
+  "headcount_band": "5,001-10,000 (~5,600, Dec 2025)",
+  "revenue": "CNY 8.09B (~USD 1.1B) 2025, up from CNY 7.77B 2024",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 3,
+  "fit_detail": "Sells in 160+ countries incl. Europe, US, Middle East yes; senior B2B buyers (venues, broadcasters, rights holders) yes; display technology story yes; LED displays partly occupied on grid (Samsung at Las Vegas GP, PPDS at Red Bull) - counted crowded",
+  "up_and_coming": false,
+  "flags": [
+   "China HQ - confirm US restrictive-list screening (no listing found)",
+   "existing sports sponsorships (Man City LED partner) show marketing motive"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes all hard filters (CNY 8.09B revenue; no F1 tie found); fit 3 with a proven sports-sponsorship habit",
+  "best_angle": "Unilumin already buys sports partnerships to show its LED screens at scale, and F1 trackside and fan-zone displays would put its product in front of venue and broadcaster buyers in 24 markets.",
+  "sources": [
+   "https://www.ledinside.com/node/36020",
+   "https://www.morningstar.com.au/investments/security/SZSE/300232",
+   "https://www.reveliolabs.com/companies/unilumin-group/employees/",
+   "https://www.advanced-television.com/2023/03/28/ppds-signs-digital-display-supplier-deal-with-red-bull-racing-f1-team/"
+  ]
+ },
+ {
+  "id": "p:revvity",
+  "company": "Revvity, Inc.",
+  "sector_tab": "X Pharma & Biotech",
+  "domain": "revvity.com",
+  "hq": "Waltham, MA, USA",
+  "ownership": "Public (NYSE: RVTY)",
+  "sells": "Life-science research tools, reagents and diagnostics",
+  "headcount_band": "10,001+ (~11,000, 2025)",
+  "revenue": "USD 2.9B 2025",
+  "valuation": "Market cap ~USD 14-16B (Sep 2026)",
+  "latest_raise": "",
+  "fit_score": 2,
+  "fit_detail": "Global yes; buyers are lab/procurement scientists, not affluent consumers or C-suite - no; precision science story yes; diagnostics/life-science not on grid but no consumer brand - counted no",
+  "up_and_coming": false,
+  "flags": [
+   "B2B lab tools - weak brand motive"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes hard filters (market cap USD 14B+, revenue USD 2.9B; no F1 tie found) but B2B life-science supplier with no evident brand ambition",
+  "best_angle": "",
+  "sources": [
+   "https://www.businesswire.com/news/home/20260202166709/en/Revvity-Announces-Financial-Results-for-the-Fourth-Quarter-and-Full-Year-of-2025",
+   "https://finance.yahoo.com/quote/rvty",
+   "https://www.reveliolabs.com/companies/revvity/employees/"
+  ]
+ },
+ {
+  "id": "p:becton",
+  "company": "Becton, Dickinson and Company (BD)",
+  "sector_tab": "X Medtech",
+  "domain": "bd.com",
+  "hq": "Franklin Lakes, NJ, USA",
+  "ownership": "Public (NYSE: BDX)",
+  "sells": "Medical devices: medication delivery, surgery, interventional, connected care (Biosciences/Diagnostics merged into Waters Feb 2026)",
+  "headcount_band": "10,001+ (~60,000-70,000 est)",
+  "revenue": "~USD 20.8B trailing (continuing ops, 2026); USD 5.0B Jun 2026 quarter",
+  "valuation": "Market cap ~USD 50B (est, Aug 2026: USD 183.40 x ~275M shares)",
+  "latest_raise": "",
+  "fit_score": 2,
+  "fit_detail": "Global yes; buyers are hospital procurement/clinicians, not affluent consumers - no; precision/technology story yes; medtech not on grid but no consumer brand - counted no",
+  "up_and_coming": false,
+  "flags": [
+   "B2B hospital supplier - weak brand motive",
+   "portfolio reshaped: Biosciences & Diagnostics spun into Waters (Feb 2026); FY2026 EPS guidance cut"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes hard filters (market cap ~USD 50B est; no F1 tie found) but B2B hospital supplier with limited marketing motive",
+  "best_angle": "",
+  "sources": [
+   "https://www.nasdaq.com/articles/bd-merges-biosciences-diagnostics-business-waters",
+   "https://www.mddionline.com/business/-17-5b-bd-spinoff-nears-completion",
+   "https://www.suredividend.com/wp-content/uploads/2026/09/BDX-2026-08-29.pdf"
+  ]
+ },
+ {
+  "id": "p:wacom",
+  "company": "Wacom",
+  "sector_tab": "X Consumer Electronics",
+  "domain": "wacom.com",
+  "hq": "Kazo, Saitama, Japan",
+  "ownership": "Public (TSE: 6727)",
+  "sells": "Pen tablets and displays for creatives; digital pen technology for OEM devices",
+  "headcount_band": "1,001-5,000 (~1,000-1,070, FY2025)",
+  "revenue": "JPY 115.7B (~USD 770M) FY to Mar 2025 (-2.6%); branded business JPY 28.7B",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 4,
+  "fit_detail": "Sells in US, Europe, Japan, China yes; creative professionals 25-54 yes; precision/technology story yes; pen-input category not on grid yes",
+  "up_and_coming": false,
+  "flags": [
+   "branded consumer business only ~JPY 29B - modest marketing budget",
+   "revenue slightly declining"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (JPY 115.7B revenue; no F1 tie found); fit 4, but most revenue is OEM pen tech and the branded budget is small",
+  "best_angle": "Wacom's precision-pen story ties to F1 car design and livery work, a creative-engineering angle its pro users would recognise.",
+  "sources": [
+   "https://simplywall.st/stocks/jp/tech/tse-6727/wacom-shares/news/wacom-full-year-2025-earnings-misses-expectations-1",
+   "https://investors.wacom.com/wp/wp-content/uploads/2025/06/WACOM-06022025-ENG.pdf",
+   "https://www.tipranks.com/stocks/jp:6727/revenue"
+  ]
+ },
+ {
+  "id": "p:vaillant",
+  "company": "Vaillant Group",
+  "sector_tab": "49 Home & Living",
+  "domain": "vaillant-group.com",
+  "hq": "Remscheid, Germany",
+  "ownership": "Private; Vaillant family-owned",
+  "sells": "Heat pumps, boilers and home climate systems (Vaillant, Saunier Duval, Bulex, Glow-worm etc.)",
+  "headcount_band": "10,001+ (~17,500-18,000, 2023-24)",
+  "revenue": "~EUR 3.8-4.0B (~USD 4.2B) 2023",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 3,
+  "fit_detail": "Germany, UK, France, Italy, Spain, Netherlands, China yes; homeowners 25-54 partly affluent yes; efficiency/technology story yes; heating category not on grid yes; Europe-centric and installer-led - scored 3",
+  "up_and_coming": false,
+  "flags": [
+   "~700 admin job cuts (2025, cost programme, not distress)",
+   "Europe-centric sales",
+   "revenue figures dated 2023"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes all hard filters (~EUR 3.8-4.0B revenue; no F1 tie found); fit 3 with a consumer-facing heat-pump brand push",
+  "best_angle": "Vaillant's heat-pump push in the UK and Europe could borrow F1's hybrid-efficiency story to win homeowners over to electrified heating.",
+  "sources": [
+   "https://www.cio.de/top500/detail/vaillant-group,65",
+   "https://www.th-owl.de/files/webs/w/download/fachgebiete/controlling-und-kostenmanagement/pdf/Unternehmensvortraege/2024_Vaillant.pdf",
+   "https://hellosafe.ch/de/investieren/borse/aktien/vaillant",
+   "https://www.zfk.de/unternehmen/nachrichten/waermepumpen-boom-beschert-vaillant-starke-zahlen"
+  ]
+ },
+ {
+  "id": "p:applause",
+  "company": "Applause App Quality",
+  "sector_tab": "08 Devtools & Integration",
+  "domain": "applause.com",
+  "hq": "Framingham, MA, USA",
+  "ownership": "Private; Vista Equity Partners majority since 2017",
+  "sells": "Crowdtesting and digital quality/AI testing services",
+  "headcount_band": "501-5,000 (~1,000 employees est, plus crowd testers)",
+  "revenue": "ARR >USD 200M (end 2024, company)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 3,
+  "fit_detail": "Global enterprise clients (US, UK, Germany etc.) yes; senior B2B buyers yes; quality/AI-testing tech story yes; devtools/testing not crowded on grid yes but niche - scored 3",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route (ARR)",
+   "PE-owned (Vista) - budget approval at sponsor level"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes via USD 150-500M route (ARR >USD 200M 2024), capped at Stretch; no F1 tie found",
+  "best_angle": "",
+  "sources": [
+   "https://www.businesswire.com/news/home/20250205749676/en/Applause-Announces-Record-Breaking-Year-Surpassing-%24200M-ARR-and-Expanding-Innovation-in-Crowdtesting",
+   "https://www.applause.com/who-we-are",
+   "https://www.zoominfo.com/c/applause-app-quality-inc/2441774"
+  ]
+ },
+ {
+  "id": "p:korber",
+  "company": "Körber",
+  "sector_tab": "33 Automation & Robotics",
+  "domain": "koerber.com",
+  "hq": "Hamburg, Germany",
+  "ownership": "Private; owned by Körber-Stiftung (foundation)",
+  "sells": "Pharma and tissue machinery, supply-chain software and logistics automation",
+  "headcount_band": "10,001+ (12,817 at Dec 2024)",
+  "revenue": "EUR 2.77B (~USD 3.0B) 2024 (EUR 2.90B 2023)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 3,
+  "fit_detail": "Global yes; senior B2B buyers yes; precision/automation story yes; industrial automation not crowded yes; but no consumer brand - scored 3",
+  "up_and_coming": false,
+  "flags": [
+   "B2B industrial group - weak brand motive",
+   "revenue down ~4.5% in 2024"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes hard filters (EUR 2.77B revenue; no F1 tie found) but B2B machinery/software group with no evident brand ambition",
+  "best_angle": "",
+  "sources": [
+   "https://www.koerber.com/fileadmin/Media/Images/Articles/Wir/Kennzahlen/Konzern-Kennzahlen_Koerber_AG_2024.pdf",
+   "https://www.hamburg.de/leben-in-hamburg/arbeiten-in-hamburg/unternehmen-hamburg/koerber-ag-1167858"
+  ]
+ },
+ {
+  "id": "p:millikenand",
+  "company": "Milliken & Company",
+  "sector_tab": "21 Materials & Mech Parts",
+  "domain": "milliken.com",
+  "hq": "Spartanburg, SC, USA",
+  "ownership": "Private; Milliken family",
+  "sells": "Specialty chemicals, performance textiles, floor covering",
+  "headcount_band": "5,001-10,000 (~6,000, 2025)",
+  "revenue": "Unpublished; ~USD 2.5-3.8B (est, third-party 2025)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 2,
+  "fit_detail": "Global operations yes; buyers are industrial/manufacturer procurement - no; materials innovation story yes; chemicals/textiles not on grid but no consumer brand - counted no",
+  "up_and_coming": false,
+  "flags": [
+   "revenue est only",
+   "B2B materials supplier - weak brand motive"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes hard filters (revenue USD 2.5B+ est; no F1 tie found) but B2B materials company with no evident brand ambition",
+  "best_angle": "",
+  "sources": [
+   "https://www.reveliolabs.com/companies/milliken/employees/",
+   "https://www.globaldata.com/company-profile/milliken-co/",
+   "https://www.owler.com/company/milliken",
+   "https://bitscale.ai/directory/milliken-and-company"
+  ]
+ },
+ {
+  "id": "p:ykk",
+  "company": "YKK Corporation",
+  "sector_tab": "21 Materials & Mech Parts",
+  "domain": "ykk.com",
+  "hq": "Tokyo, Japan",
+  "ownership": "Private; Yoshida family and employee shareholding",
+  "sells": "Zippers and fasteners (YKK) and architectural products/windows (YKK AP)",
+  "headcount_band": "10,001+ (46,305 at Mar 2025)",
+  "revenue": "JPY 998.2B (~USD 6.6B) FY to Mar 2025",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 2,
+  "fit_detail": "118 companies in 70+ countries yes; buyers are apparel brands/builders, not affluent consumers - no; precision manufacturing story yes; fasteners not on grid but no consumer marketing - counted no",
+  "up_and_coming": false,
+  "flags": [
+   "B2B component maker - weak brand motive"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes hard filters (JPY 998B revenue; no F1 tie found) but B2B fastener/building-products maker with little consumer marketing",
+  "best_angle": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/YKK",
+   "https://craft.co/ykk",
+   "https://www.reveliolabs.com/companies/ykk/employees/",
+   "https://edinetdb.jp/company/E02368"
+  ]
+ }
+]
