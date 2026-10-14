@@ -21,3 +21,5 @@ finishes. Today is 14 October 2026. The user has asked for this.
 6. If you run low on room before finishing, write /home/user/rg42/wave15/clay_slice_<group>.progress.txt listing
    slices done and the slice in progress (with its page count), then stop; you will be continued.
 7. Report ONLY: rows per band, slices finished, slices still open. Under 60 words.
+8. Save room: when a search result is saved to a file, parse it with python3 -I and print only the row count,
+   hasMore and the next taskId. Never print or read full result payloads.

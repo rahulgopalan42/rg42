@@ -57,3 +57,6 @@ NEW-SOC ("social network","messaging app","dating app")
 X38-41 regional champions: run rev searches only, adding a description filter instead of a country filter:
   ("conglomerate","diversified group") with industry in ("Holding Companies","Retail","Consumer Goods",
   "Food and Beverage Manufacturing") — tag search "W14|X38-41|rev".
+5. Save room: when a search result is saved to a file, parse it with python3 -I and print only the row count,
+   hasMore and the next taskId. Never print or read full result payloads. If you run low on room, write
+   /home/user/rg42/wave15/clay_w14_<part>.progress.txt (topics done, topic in progress + page + taskId) and stop.
