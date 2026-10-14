@@ -1,34 +1,34 @@
 # Quantum Metric x SPORTFIVE: F1 Discovery Call Script
 
-**Call type:** First call / discovery. Goal: open warmly, set the stage on SPORTFIVE and yourself, understand Quantum Metric's objectives, fill out the brief, show why the F1 paddock is their buyer's room and why their telemetry story belongs in this sport, agree next steps.
+**Call type:** First call / discovery, listening-led. Goal: open warm and short, say why Quantum Metric caught our eye, make the goal plain (understand if it makes sense, not sell), let them talk, fill the brief, and show why the paddock is their buyer's room and why their telemetry story belongs in this sport. Agree next steps only if the conversation earns them.
 
-**How to use this script:** Every spoken block is written the way you would say it out loud. Do not read it word for word. Glance at the bold anchors, then talk. Short sentences, slow pace, warm tone. The listeners are a US tech leadership team; they live on data and dislike marketing talk, so keep it plain, concrete and short. Let them talk more than you.
+**How to use this script:** Every spoken block is written the way you'd say it out loud, contractions and all. Don't read it word for word; glance at the bold anchors and talk. The listeners are a US tech leadership team; they live on data and dislike marketing talk, so keep it plain, concrete and short. Let them talk more than you.
 
 ---
 
 ## Call Navigator (keep this section open)
 
-**The goal of this call:** understand Quantum Metric, fill out the brief, and agree the next step: grid mapping, then recommendations. They should leave feeling this costs them nothing, and that the paddock is full of the exact companies they sell to.
+**The goal of this call:** understand Quantum Metric, fill the brief, and agree the next step: grid mapping, then recommendations. They should leave feeling this costs them nothing, and that the paddock is full of the exact companies they sell to.
 
 **The flow:**
 
-1. **Opening: thanks, you, SPORTFIVE, and the brand-first model.** 4 min
-2. **Frame the call: purpose, homework on Quantum Metric, why now.** 2 min
-3. **Discovery: fill the brief (objectives, accounts, markets, budget).** 15 min
-4. **How F1 works: structure, rights, audience, why Quantum Metric, activation ideas.** 10 min
+1. **Opening: why we called, the goal, quick intros, then over to them.** 1 min
+2. **They talk first. Play back the desk research when you need a bridge.** 3 min
+3. **Discovery: their context, the smart questions.** 15 min
+4. **How F1 works and where it could fit Quantum Metric.** 10 min
 5. **Their questions: prepared answers.** Use as needed
 6. **Close: next steps and the race invitation.** 2 min
 
 **Three messages that must land:**
 
-- **We start from your objectives.** Brand-first, non-exclusive across the grid, and the teams pay our fee. Everything we do for Quantum Metric is free.
-- **The paddock is your prospect list.** More than 350 partner companies around the grid, including the airlines, banks, retailers and telecoms you sell to, and a Paddock Club where two thirds of guests are senior executives.
-- **This sport runs on telemetry, and so do you.** Race engineers watch every signal from the car, find the problem, and fix it before Sunday. Quantum Metric does the same for a company's website and app. Same discipline, different machine.
+- **We're here to understand, not to sell.** The goal is to find out together whether this sport does a job for Quantum Metric, and the honest answer might be no. Hold that posture the whole way.
+- **This sport runs on telemetry, and so do they.** Race engineers watch every signal from the car, find the problem, and fix it before Sunday. Quantum Metric does the same for a company's website and app. Same discipline, different machine.
+- **The paddock is their prospect list.** More than 350 partner companies around the grid, including the retailers, banks, airlines and telecoms they sell to, and a Paddock Club where two thirds of guests are senior executives.
 
 **Fill in before the call:**
 
 - [Name] of the Quantum Metric contact and pronunciation
-- Confirm Bjorn's and George's name spellings for any follow-up email
+- Confirm Bjorn and George are ready for a quick hello
 - [Timeframe] you promise for recommendations in Part 6
 - Confirm internally: no live deal in digital analytics, customer experience or adjacent software
 
@@ -38,407 +38,315 @@
 
 ## Prep notes (not spoken)
 
-### Who Quantum Metric is (verify on the call)
-- US software company, headquartered in Colorado Springs, Colorado. Founded and led by Mario Ciabarra.
+### Who Quantum Metric is (verified 14 October 2026; re-verify on call day)
+- US software company, Colorado-based; most listings say Colorado Springs (some say nearby Monument; verify the current HQ line before quoting it). Founded and led by Mario Ciabarra.
 - What they do, in plain words: their platform watches how people use a company's website and app, shows exactly where customers struggle or give up, puts a money value on each problem, and helps teams fix the biggest ones first. They call the practice Continuous Product Design.
-- Scale, as publicly reported (verify): around $251M raised, with a $200M round in 2021 led by Insight Partners, and a valuation reported around $1 billion. They say their platform supports a quarter of the digital enterprises in the Fortune 100. Outside revenue estimates exist but are estimates; do not quote numbers on the call.
+- Scale, as publicly reported: more than $250M raised in total, with a $200M round in January 2021 led by Insight Partners at a valuation reported around $1 billion. 2026 reporting says they passed the $100M annual recurring revenue milestone, with around 30 consecutive growth quarters and their strongest first quarter on record in early 2026. These are secondary reports and their own statements; attribute, and do not quote revenue estimates as fact.
+- They say their platform supports a quarter of the Fortune 100. Attribute that claim to them.
 - Customers: large consumer enterprises with big digital businesses: retailers, banks, airlines and travel, telecoms. The buyers are digital, product and technology executives.
 - Sales motion: enterprise and executive-level. Trust and reference logos matter.
 
 ### Flags
-- **Capacity note:** a well-funded scale-up, not a giant. Entry-level and supplier positions are the realistic conversation; surface budget early and keep recommendations at that level unless they push higher.
-- **Category check:** do not claim any category open. Digital analytics and customer experience software is an active space; we verify at the recommendations stage.
-- **Claims discipline:** never say or imply any F1 team or the series uses Quantum Metric today. The working-role ideas in 4.4 and 4.5 are ideas to build, not facts. Attribute their Fortune 100 claim to them.
-- **Names check:** citations in this script (Atlassian title at Williams, Oracle title at Red Bull, HP title at Ferrari, Microsoft with Mercedes as reported in January 2026, Google Cloud at McLaren, AWS as the sport's official cloud provider since 2018, RUCKUS at Haas, Airwallex at McLaren) were verified in September 2026 checks. Re-verify on call day.
+- **Capacity note, moderate:** a well-funded, growing scale-up, not a giant. Entry-level and right-sized positions are the realistic conversation; surface budget early and keep recommendations at that level unless they push higher.
+- **Category check:** claim nothing open. Digital analytics and customer experience software is an active space around this sport; the team-by-team picture is verified fresh at the recommendations stage.
+- **Claims discipline:** never say or imply any F1 team uses Quantum Metric, and never claim what analytics any team runs. Their Fortune 100, ARR and growth claims are theirs; attribute them. The working ideas in 4.4 and 4.5 are ideas to build, not facts.
+- **Names check:** citations in this script (Atlassian title at Williams, Oracle title at Red Bull, HP title at Ferrari, Microsoft with Mercedes as reported in January 2026, AWS as the sport's official cloud provider since 2018, RUCKUS at Haas, Airwallex at McLaren, Cognizant, ServiceNow, NetApp and Tata Communications as B2B names around the sport) were verified in September 2026 checks; Quantum Metric facts were checked on 14 October 2026. Re-verify on call day.
 - **Pipeline check:** confirm no live deal in digital analytics, customer experience or adjacent software, and check the register for earlier Quantum Metric outreach.
 
 ### Numbers cheat sheet (drop in only where they fit; do not recite)
 - 827M fans worldwide. Up 63% since 2018. 42% female. 43% under 35.
 - 1.83bn total TV audience in 2025. 76M average per Grand Prix. Around 24 race weekends across five continents.
-- F1 fans have the highest concentration of business decision makers in sport: index 160, where 100 is the general population. 66% of Paddock Club guests are senior executives, and for a technology brand that room includes CIOs, CTOs and CISOs.
+- F1 fans have the highest concentration of business decision makers in sport: index 160, where 100 is the general population. 66% of Paddock Club guests are senior executives, and for a technology brand that room includes CIOs, CTOs and digital leadership.
+- The telemetry story: teams read thousands of signals from the car every lap, find the problem, fix it before Sunday. Since 2021 the sport runs a cost cap, and the rules limit aero computing: finding problems fast is a competitive weapon.
+- The tech map: AWS official cloud provider of the sport since 2018. Atlassian title partner of Williams, Oracle title partner of Red Bull, HP title partner of Ferrari, Microsoft with Mercedes reported in January 2026.
+- US, their home market: three races, two American teams in Haas and Cadillac, Apple broadcasts the sport, US purchase consideration up 32%.
 - Business side: 350+ partner companies across the grid, 25+ per team. Team sponsorship doubled since 2020 to $2.2bn.
-- The software wave: Atlassian title partner of Williams, Oracle title partner of Red Bull, HP title partner of Ferrari, Microsoft with Mercedes reported in January 2026 at around $60M a year. Google Cloud partners McLaren. AWS has been the sport's official cloud provider since 2018.
-- US, their home market: three races, two American teams in Haas and Cadillac, Apple broadcasts the sport, and US purchase consideration is up 32%.
-- Fan behavior: 61% of surveyed fans engage with F1 content daily. F1 is number one in sport for social engagement: 2.2bn engagements, ahead of the NBA.
+- Social: F1 is number one in sport for engagement, 2.2bn engagements, ahead of the NBA. 61% of fans engage with content daily.
 - Hospitality maths: passes work all three days. Seven passes can host twenty different guests in one weekend.
-- Pricing logic: eleven teams worldwide, one category seat per team, three to five year deals.
+- Pricing logic: eleven teams worldwide, one category seat per team, three to five year deals. Entry positions start in the low single-digit millions; driver and content deals sit below that.
 
 ---
 
-## Part 1: Opening (3 to 4 minutes)
+## Part 1: Opening (1 minute)
 
-*[This is a first call. After hellos and small talk. Smile. Take your time.]*
+*[Four short beats, said like you talk. If a line feels polished in your mouth, rough it up.]*
 
-> "Thank you for your time today, [Name]. I really appreciate it. And I think it is a good moment to be speaking with a company like Quantum Metric, because software has quietly taken over this sport, and the companies you sell to are already in its paddock.
+> "Hi [Name], thanks for the time. We've been looking forward to this one.
 >
-> Joining me today are Bjorn and George, who I work very closely with in our Formula 1 business.
+> The reason for the call is simple. We've been watching Quantum Metric's run, and from the desk research we've done, a Formula 1 conversation felt worth having. There's an overlap here that's almost too neat, and I'll get to it in a second.
 >
-> Before we dive into the discussion, let me quickly set the stage: a little context on SPORTFIVE and myself, and then the context for the call today, what I would like us to get out of it. Sound good?"
+> The goal today isn't for me to tell you why F1 is a good fit. It's to figure out, together, whether it makes sense at all. We learn about you, you ask us anything, and we see where Quantum Metric could fit.
+>
+> That's it from me. The three of us, I've got Bjorn and George with me, drive brand partnerships in this sport, bringing the world of motorsport and brands together. Bjorn, George, quick hello?"
 
-**About you:**
+*[Bjorn and George say hello. Two or three sentences each, no pitching. Then:]*
 
-> "I sit in the global sales team at SPORTFIVE, and I look after brand partnerships for our Formula 1 business.
->
-> A little on my background. I was part of our Middle East business, where I drove partnerships for the exclusive accounts we worked with across the region. Then Formula 1 became a top priority project within SPORTFIVE, a global vertical of the business, and I had the opportunity to be part of a great team. As you can imagine, that was an easy yes.
->
-> My role is simple: drive strategic partnerships that work for both the brand and the rights holder. I do that together with Bjorn and George, who are here with me."
-
-**About SPORTFIVE:**
-
-> "A quick background on us.
->
-> In Formula 1, SPORTFIVE worked exclusively with the two biggest teams in the sport, Mercedes and Ferrari, for more than twelve years.
->
-> We have since given up those exclusive mandates, deliberately, and signed non-exclusive agreements across the grid.
->
-> We set it up this way so we can take a brand-first approach. We do not arrive selling one team. We start with your objectives, and we recommend the team that fits them.
->
-> You can see it in the breadth of our work. We have built partnerships with podium teams and with challenger teams. In both cases it started the same way: with the brand's objectives, and we reverse engineered the route from there.
->
-> We have a team that does exactly this: find the right entry route, find the team that matches your goals.
->
-> And the consultancy costs you nothing. Our fee comes out of the partnership fee we broker, and the team pays it. No added cost on your side.
->
-> So the best place to start is your objectives, and we work back from there to the right fit."
+> "Great. [Name], over to you. Where's the company right now, and where's it headed? We'll take it from there."
 
 ---
 
-## Part 2: Frame the call (2 minutes)
+## Part 2: They talk first, then the playback (3 minutes)
 
-> "So, the purpose of today.
->
-> This is a discovery call. We want to gather some insights, understand the company better, and see how this sport could be a vehicle in helping drive Quantum Metric's growth. Ideally, we work closely with you to build a brief, and then we come back with recommendations that truly align with it. I will ask some questions along the way. Nothing formal.
->
-> Does that work for you?"
+*[Two questions they may fire back the moment you hand over. Answer short, then give the floor back.]*
 
-**Why Quantum Metric, and why now:**
+**If they ask: "What about us caught your eye?"**
 
-*[Say this early. Keep it slow and simple. It is the heart of the pitch.]*
+> "Two things.
+>
+> The trajectory: past a hundred million in recurring revenue this year by the reports, about thirty straight quarters of growth, and a customer list you say covers a quarter of the Fortune 100. Companies compounding like that get our attention.
+>
+> And the overlap. Your whole product is telemetry: watch every signal, find where it hurts, put a number on it, fix the biggest thing first. That's literally how a Formula 1 team operates between two race weekends. When a company's story and the sport's story match that closely, we pick up the phone."
 
-> "Before my questions, let me tell you why I wanted this call.
->
-> I did my homework on Quantum Metric. Simple version: every big company now lives or dies by its website and its app, but most of them cannot see where customers struggle. Your platform watches every signal, shows where people get stuck, puts a dollar value on the problem, and helps teams fix the biggest things first. You have said a quarter of the Fortune 100's digital businesses run on you.
->
-> Now, why Formula 1? Two reasons stood out to us.
->
-> First, this sport works exactly the way you do. A race team watches thousands of signals from the car, finds the problem, and fixes it before Sunday. They call it telemetry. You are telemetry for the digital business. You would not be borrowing this sport's story. You would be telling your own.
->
-> And second, the room. The paddock holds more than 350 partner companies, and they are your market: airlines, banks, retailers, telecoms, the biggest consumer businesses in the world, with their leadership walking around every race weekend. And software itself has moved to the center of the sport: Atlassian's name is on Williams, Oracle's on Red Bull, HP's on Ferrari, and Microsoft reportedly signed with Mercedes in January.
->
-> So that is why I called: the story, and the room. The brief will tell us the rest."
+**If they ask: "And where do you see us fitting?"**
 
-*[Then open softly. Their answer sets the depth for Part 4:]*
+> "Straight answer? I don't know yet. I have an instinct, not a recommendation, and getting from one to the other is what this call is for.
+>
+> The instinct: your buyers are the digital executives of retailers, banks, airlines and telecoms, and the partner rooms of this sport are full of exactly those companies. So my first thought isn't a huge logo deal; it's the room, plus the telemetry story told well, and maybe a right-sized team seat if it earns itself.
+>
+> But that's desk research talking. Tell me about the company, and by the end of the call I'll have a much better answer. And if the real answer is 'not yet', I'll say that too."
 
-> "Let me start simple. How much do you follow Formula 1? And has Quantum Metric looked at sport marketing before?"
+*[Otherwise: they talk. Listen, take notes. When they wind down, bridge with the playback:]*
+
+> "Really useful, thank you. Let me play back what we'd seen from the outside, and you tell me where we're wrong.
+>
+> Quantum Metric watches how people use a company's website and app, shows where customers struggle, puts a dollar value on every problem, and gets the biggest ones fixed first. You call it Continuous Product Design, the Fortune 100 shows up heavily on your customer list, and the reports say you passed a hundred million in recurring revenue this year.
+>
+> Did we get it roughly right?"
+
+*[Their correction is discovery gold. Then:]*
+
+> "And before my questions: how much do you follow Formula 1, if at all? Has Quantum Metric looked at sport marketing before?"
+
+*[Their answer sets the depth for Part 4. If they barely know the sport, give 4.1 and 4.2 real time. If they're fans, compress.]*
 
 ---
 
-## Part 3: The brief. Key discovery questions (12 to 15 minutes)
+## Part 3: The smart questions (12 to 15 minutes)
 
-*[These are conversation starters, not a form. Ask one, then stay quiet and follow what they give you. The bold labels are for you; the words are for them. Capture answers, they become the brief.]*
+*[Conversation starters, not a form. Ask one, stay quiet, follow what they give you. Their answers become the brief.]*
 
 **Open the story**
-- "Tell me where Quantum Metric is right now, in your own words. What is going well, and what is the next hill to climb?"
-- "When you and your team talk about the next three years, what comes up again and again?"
+- "Tell me where Quantum Metric is right now, in your own words. What's going well, and what's the next hill to climb?"
+- "What are the key focus areas for the next twelve months? What comes up in every leadership meeting?"
 
-**Objectives, the dream and the fear**
-- "Imagine we did something in Formula 1 together and it worked beautifully. Three years from now, what is different for Quantum Metric?"
-- "And the other side: what would make it a failure in your eyes? Sometimes that answer tells us more than the first one."
+**The direction, and where this could play a role**
+- "How do you see something like Formula 1 maybe playing a role in where the brand is headed? A rough first instinct is fine; there's no wrong answer."
+- "And as a business, where could you imagine it adding value: enterprise credibility, named accounts, the story, hiring?"
 
-**The growth story**
-- "Which is the harder fight for you right now: being known, or being trusted at the top of the enterprise?"
-- "How does a big new logo usually happen for you today? Who opens the door?"
+**The end goal**
+- "Zooming out: at the end of it, what are you trying to accomplish? If everything goes right over three years, what does Quantum Metric look like?"
+- "And the other side: what would make a partnership like this a failure in your eyes?"
 
-**Audience and accounts**
-- "Who exactly signs a Quantum Metric contract: the chief digital officer, the CIO, the product leader? Those are the people we would put in a room."
-- "Are there named accounts you would build a program around? Airlines, banks, retailers you have been circling?"
+**Evaluation and success**
+- "On what basis would a partnership be evaluated internally, and by whom?"
+- "What would a partnership of this magnitude need to deliver for you to call it a success after year one?"
+
+**Customers and accounts**
+- "Your buyers are digital and product executives at big consumer enterprises. Which sectors matter most right now: retail, banking, airlines, telecom?"
+- "Are there named accounts you'd build a program around? The partner rooms of this sport overlap heavily with that world, so your answer here steers everything."
 
 **Markets**
-- "Which markets matter most: the US, Europe, Asia? The calendar covers all of them, and the US alone has three races now."
+- "Is this a US story first, or global? The calendar runs five continents, and the US alone has three races."
 
-**Product and integration**
-- "Here is one I am curious about. These teams run serious digital businesses of their own: online stores, apps, ticketing with their promoters. Would a real working role, your platform improving a team's digital experience, interest you? Or is this more about the story and the access?"
+**Marketing today, and the funnel**
+- "What does your marketing focus on today, and what's working?"
+- "Is the bigger job top of the funnel or bottom of the funnel: being known by digital executives who've never heard of you, or converting and expanding the enterprises already in play?"
 
 **Budget and timing**
-- "Now the unromantic question: is there a budget range in mind? Even a rough one helps me bring back only what is realistic."
-- "And timing: is this a now conversation, or a next-year conversation? Both are fine. They just change what we bring back."
+- "The unromantic question: is there a budget range in mind? I ask early because it decides which doors we even look at, and it saves us both time."
+- "And timing: now conversation, or next-year conversation? Both are fine; they just change what we bring back."
 
 **Decision process**
-- "Apart from you, who is part of this decision? Founders, the board, your investors?"
-
-**Marketing context**
-- "What is working for you today? And is there a story you wish more of the market knew?"
-- "Would your team activate a sport partnership, content, events, campaigns, or would you want support there too?"
+- "Apart from you, who'd be part of this decision? Mario, the board, the leadership team?"
 
 **Hospitality**
-- "Last one, and it is my favorite. If I gave you a paddock weekend tomorrow, who would you bring, and why those people? That answer usually tells me what a partnership is really for."
+- "Last one, my favorite. If I gave you a paddock weekend tomorrow, who would you bring, and why those people? That answer usually tells me what a partnership is really for."
 
-*[If they hesitate on the budget question:]*
+*[If they hesitate on budget:]*
 
-> "No problem. You do not need a number today. When we come back with recommendations, we will show options at different levels, and you will see what each level buys."
+> "No problem, you don't need a number today. If we get to recommendations, you'll see options at different levels, including the smallest sensible ones, with what each level buys."
 
 ---
 
-## Part 4: How Formula 1 partnerships work (8 to 10 minutes)
+## Part 4: How Formula 1 works, and where it could fit (8 to 10 minutes)
 
-*[Calibrate to their answer from Part 2. If they know the sport, compress. Invite questions as you go: "Stop me anytime."]*
+*[Calibrate to their answer from Part 2. This room loves measurement; lean into the telemetry and ROI beats. Invite questions: "Stop me anytime."]*
 
 ### 4.1 The sport in thirty seconds
 
-> "Let me give you a simple picture of how the sport is set up, because it explains the options you have.
+> "Quick picture of how the sport is set up, because it explains a brand's options.
 >
-> Formula 1 itself, the series, is owned by Liberty Media, an American media company. They own the commercial side: the calendar, the broadcast deals, the races.
+> Formula 1 itself, the series, is owned by Liberty Media, an American media company: the calendar, the broadcasts, the races. The FIA writes the rules. And then eleven teams, including two American ones, Haas and Cadillac, each an independent business with its own partners.
 >
-> The FIA is the regulator. They write the rules.
->
-> And then there are eleven teams, including two American ones, Haas and Cadillac. Each team is an independent business with its own owners and its own partnerships. Some belong to car makers, like Ferrari, Mercedes and Audi. Some to consumer giants, like Red Bull. Some to investors.
->
-> So a brand can partner at three levels: with the sport itself, with a team, or with a driver personally. Most brands enter through a team, and I can explain why when we get there."
+> So a brand can enter at three levels: the sport, a team, or a driver personally. They come in very different sizes, and for Quantum Metric I'd be straight from the start: the right-sized doors are the interesting ones."
 
 ### 4.2 What a team partnership includes
 
-> "What do you get as a partner? Think of it in five parts.
+> "What do you get as a partner? Five parts, quickly.
 >
-> **One, branding.** Your logo on the car, the race suits, the garage. Around 24 race weekends a year. Last season the total audience was 1.8 billion, and the average race reached 76 million people.
+> **Branding:** your name on the car, the suits, the garage, around 24 weekends a year, 1.8 billion total audience last season, 76 million average per race.
 >
-> **Two, the official title.** You become, for example, the Official Digital Experience Partner of a team. You use the team's name, logo and imagery in your own marketing and sales conversations.
+> **The official title:** Official Digital Analytics Partner of a team, for example, usable in all your marketing and every enterprise conversation.
 >
-> **Three, hospitality.** Paddock access, the Paddock Club, garage tours, time with the drivers. 66% of Paddock Club guests are senior executives, and for a technology brand that room includes the CIOs and CTOs you sell to.
+> **Hospitality:** paddock access and the Paddock Club, where 66% of guests are senior executives. One detail people miss: passes work all three days, so seven passes can host twenty different guests in one weekend.
 >
-> And one detail people miss. A Grand Prix runs over three days, and your passes work every day. Seven passes can host twenty different guests in one weekend, and hundreds across a season.
+> **Content:** access to the team's channels and drivers. The number one sport in the world for social engagement, 2.2 billion engagements, ahead of the NBA.
 >
-> **Four, content and digital.** Access to the team's channels and drivers for content. Formula 1 is the number one sport in the world for social engagement, 2.2 billion engagements, ahead of the NBA.
+> **People:** driver appearances, filming days, hot laps for your top customers.
 >
-> **Five, people.** Driver appearances, team bosses at your events, filming days, hot laps for your top customers.
->
-> And around all of this sits the business platform: every team carries 25 or more partners, more than 350 companies across the grid, meeting each other all season. That room is your pipeline."
+> And around it all, the business platform: 25-plus partners per team, more than 350 companies across the grid. That room is your prospect list wearing passes."
 
 ### 4.3 The audience
 
-*[Pure B2B framing for Quantum Metric: the buyers first, the fan scale as the stage.]*
+*[B2B first for Quantum Metric: their buyers, then the halo.]*
 
-> "Now, who you reach. For Quantum Metric I would be precise about this.
+> "Who you reach. For Quantum Metric I'd be precise.
 >
-> **The buyers.** Formula 1 has the highest concentration of business decision makers in sport: fans index at 160 for management and strategy roles, where the average person is 100. In the Paddock Club, 66% of guests are senior executives, and for a technology partner that means CIOs, CTOs and the digital leaders who own your budget line.
+> **The buyers.** Formula 1 has the highest concentration of business decision makers in sport: fans index 160 for management and strategy roles against 100 for the general population. In the Paddock Club, two thirds are senior executives, and for a technology brand that means the CIOs, CTOs and digital leadership who sign for platforms like yours. These are the people who run the digital businesses of retailers, banks, airlines and telecoms.
 >
-> **The room itself.** The 350 partner companies around this grid are your market in miniature: airlines, banks, payment companies, retailers, telecoms, hotel groups. Every one of them runs a website and an app that makes or loses them money. Every one of them has the problem you solve. As a partner, you meet them as a peer, race after race, all season.
+> **The halo.** This is the most data-obsessed sport on earth, and the people who run digital businesses respect it for exactly that. A brand that explains itself through racing telemetry sounds instantly credible here.
 >
-> **The world, when you want it.** 827 million fans, young and online, the number one sport for social engagement. You do not need mass reach to sell enterprise software. But when the Quantum Metric name needs to mean something in a boardroom, the stage is already yours.
->
-> And your home market is the sport's fastest growing one: three US races, two American teams, Apple broadcasting the sport."
+> **The world, when you want it.** 827 million fans, young and online. You don't need mass reach to sell enterprise software, but when the name needs to mean something, the stage is there. And your home market is the sport's fastest-growing one: three US races, two American teams, Apple broadcasting."
 
 ### 4.4 Why this could fit Quantum Metric
 
-> "Let me tell you why I find this opportunity interesting for Quantum Metric. Three reasons.
+> "Why we thought this was worth a call. Three reasons, and you tell me if they hold.
 >
-> **First, the story writes itself.** This sport is built on telemetry: thousands of signals from the car, watched live, so the team finds the problem and fixes it before it costs them the race. That is exactly what you do for a digital business: every signal from the website and app, the friction found, the cost quantified, the fix prioritized. One sentence explains you here: telemetry for the digital business. Very few companies get a stage where their product is the sport's own logic.
+> **One, you already speak this sport's language.** A race team reads thousands of signals from the car, finds the problem, quantifies it, and fixes the biggest thing before Sunday. That's your product pitch, word for word, applied to a website instead of a car. You wouldn't be borrowing a story; you'd be pointing at the most famous example of your own discipline.
 >
-> **Second, the paddock is your prospect list.** The companies around this grid are the enterprises you sell to, and the software giants have shown the way: Atlassian on Williams, Oracle on Red Bull, HP on Ferrari, Microsoft with Mercedes as reported in January. When your buyers and your peers both spend here, the room is worth a serious look. A partnership puts you in it as a peer, at a fraction of what the giants pay.
+> **Two, the room is your pipeline.** The partner ecosystem of this sport, more than 350 companies, is heavy with exactly the enterprises you sell to, and the Paddock Club seats their digital leadership every race weekend. One good season of hosting the right executives can outperform a year of conferences.
 >
-> **Third, a real working role.** These teams run serious digital businesses of their own: online stores, apps, ticketing with their promoters, fan platforms. Imagine the partnership where a team's digital experience visibly runs on Quantum Metric. We have built that shape before: RUCKUS at Haas is a partner whose product powers the team's operations, with a live showcase in the garage. Marketing you can demo is the most believable marketing there is.
+> **Three, the moment.** By the reports you've crossed a hundred million in recurring revenue, and at that stage the brand has to catch up with the business: enterprise buyers pick names their boards already trust. This platform builds that trust faster than almost anything, the way it has for other B2B software brands here.
 >
-> One last thing on value. All of this sits on very small supply: eleven teams for the entire world, one seat per category, three to five year deals. Small supply, growing demand. That is why these partnerships hold their value."
+> One honest note on size. These seats are scarce: eleven teams, one seat per category, multi-year deals, and that keeps prices high. We'd point you at the entries where a company your size gets real value, and if the honest answer is 'not yet', we'll say it."
 
-### 4.5 Three activation ideas (examples, not proposals)
+### 4.5 Three early sketches (ideas, not proposals)
 
-*[Offer these as sketches to make it concrete. Let them react; their reaction feeds the brief.]*
+*[Offer as sketches; their reaction feeds the brief.]*
 
-> "To make it concrete, three sketches. Early thoughts, nothing more.
+> "To make it concrete, three sketches, all right-sized on purpose.
 >
-> **One, telemetry for the digital business.** A content series with a team's engineers: how the team reads a thousand signals to find one problem, next to how your platform does the same for a website. It makes Quantum Metric instantly understandable to people who will never read a product page, and it is content this sport's audience loves.
+> **One, the telemetry story.** A content series with a team: how engineers find the problem in the data and fix it before Sunday, told side by side with how your customers do the same for their apps. The cleanest product explanation you'll ever get, and nobody owns that story yet.
 >
-> **Two, the team as your showcase.** A supplier-style partnership where a team's own digital business, its store and app, runs on Quantum Metric, and you hold the official partner title. Your best sales line becomes: the team that fixes a race car in three days fixes its website with us.
+> **Two, the buyers' room.** A sharp hospitality program at the three US races: the digital executives of your target retailers, banks and airlines, hosted properly, with your leadership in the room. Seven passes, twenty guests, no logo required.
 >
-> **Three, the deal room.** A curated season of Paddock Club weekends for the executives who matter to you: the digital leaders of airlines, banks and retailers, your named accounts, hosted with the team's engineers and the race as the backdrop. Seven passes host twenty guests in a weekend. Your pipeline for the year fits in a few of those rooms."
+> **Three, the right-sized seat.** If the brief earns it: an entry-level partnership with one team, the official title on top, activated through the telemetry story and the room rather than sticker size. Low single-digit millions, not headline money."
 
 ---
 
 ## Part 5: Questions they may ask. Prepared answers.
 
-*[Quick index. Jump to any answer from the outline sidebar.]*
+*[Quick index. Jump from the outline sidebar.]*
 
-- Q1. What does a software company get from F1
-- Q2. Series vs team vs driver
-- Q3. Visibility among thirty partners
-- Q4. B2B introductions
-- Q5. Which team fits us
-- Q6. Measuring ROI
-- Q7. Who owns Formula 1
-- Q8. Cost, and why F1 is expensive
-- Q9. Why SPORTFIVE, why not go direct
-- Q10. Can a company our size afford this
-- Q11. Are competitors already in
-- Q12. We are a data company, sponsorship is unmeasurable fluff
+- Q1. What are comparable brands doing in F1, and why
+- Q2. How do teams drive business introductions
+- Q3. How is ROI measured
+- Q4. Which entry would fit us
+- Q5. What does it cost
+- Q6. Why SPORTFIVE, why not go direct
+- Q7. Are competitors already in
+- Q8. We measure everything; can this really be measured
 
-### Q1. "What does an enterprise software company get from Formula 1, in one minute?"
+### Q1. "What are comparable brands doing in Formula 1, and why are they using it?"
 
-> "Three things.
+> "There's a clear pattern, in two layers.
 >
-> One, a story. This sport runs on telemetry, and telemetry for the digital business is what you sell. No other stage explains you this fast.
+> The big software names moved in loudly: Atlassian took the title at Williams, Oracle's is on Red Bull, HP's on Ferrari, Microsoft reportedly signed with Mercedes in January, and AWS has been the sport's cloud provider since 2018. And B2B names like Cognizant, ServiceNow, NetApp and Tata Communications sit across the grid.
 >
-> Two, a room. The most executive audience in sport, and a partner network of 350 companies that looks like your target account list.
+> Why they do it: trust, because standing next to serious engineering makes enterprise buyers take you seriously; the room, because the paddock hosts the exact executives they sell to; and proof, through working partnerships. CommScope's RUCKUS brand powers the Haas team's operations with a live showcase in the garage: marketing you can demo.
 >
-> Three, trust. Enterprise buyers ask if you are credible and here to stay. A multi-year team partnership answers that before your seller walks in.
->
-> That is the one-minute version. The brief decides how big each of the three should be."
+> And it shows in revenue when the brief is right. Airwallex at McLaren: during the partnership, revenue grew 50% year on year across EMEA and the Americas, and UK revenue grew 57% from new customers. For a measurement company like you, that's the kind of result we'd want to be able to show."
 
-### Q2. "What is the difference between partnering with F1 itself, a team, or a driver?"
+### Q2. "How do F1 teams drive introductions in business?"
 
-> "Three doors into the sport.
+> "Very concretely. It's a managed process, not a cocktail party.
 >
-> **The series, Formula 1 itself.** You partner with the sport: branding at every race, race title rights, global reach, neutrality. Bigger deals, premium prices.
+> Every team runs a family of 25-plus partners, and the team's partnership department actively connects them: compliant introductions, partner summits, business forums on race weekends, private dinners. On top of that sit your own hospitality rights, where you choose the guest list: your target accounts, hosted at the race.
 >
-> **A team.** The story lives here: the car, the drivers, the engineering, the hospitality, the partner ecosystem. Many more entry points and price levels. For most brands, this is the right door.
->
-> **A driver personally.** The smallest door: personal channels, appearance days, campaign rights. Useful as a face, but no team rights and no paddock hospitality.
->
-> The brief will tell us which door, and at what level."
+> For Quantum Metric, the partner rooms are full of consumer enterprises whose digital businesses are exactly what you improve. That's a pipeline, not a billboard."
 
-### Q3. "Teams have thirty partners. How does one brand stand out?"
+### Q3. "How is ROI measured in Formula 1?"
 
-> "Fair question. Three answers.
+> "Four ways, agreed upfront, and for a company like yours we'd be strict about it.
 >
-> First, structure. Partners sit in clear tiers, and your tier defines exactly what you own: positions, days, content, hospitality. All contractual.
+> **Media value:** independent firms like Nielsen track every second your brand appears, across TV and digital, and price it against your fee.
 >
-> Second, exclusivity. Within your category you are alone. The team cannot sign another digital analytics company next to you.
+> **Brand tracking:** awareness and trust shift, measured before and after, in your actual buying audience: digital and technology executives.
 >
-> Third, attention is won through activation, not logo size. A team whose digital business visibly runs on your platform, a telemetry story people retell, a demo in the garage: these beat bigger logos every weekend.
+> **Business pipeline:** introductions, meetings, deals closed and expansions through the platform. That's how Airwallex could point to 50% revenue growth during their partnership. In your market, one large enterprise deal can repay a program.
 >
-> And the access, the hospitality, the introductions: those are private rights. They never get diluted by other partners."
+> **Content performance:** reach and engagement on everything built.
+>
+> And we'd weight the framework to your funnel answer from earlier: if the job is the room, we measure the room."
 
-### Q4. "How do teams help with B2B introductions?"
+### Q4. "Which entry would fit us best?"
 
-> "Very concretely. This is a managed process, not a cocktail party.
+> "Today I don't know yet, and I wouldn't respect you by guessing.
 >
-> Every team runs a family of at least 25 partners, and the team's partnership department actively connects them: compliant introductions, partner summits, business forums on race weekends, private dinners. And it continues off the calendar at industry events.
->
-> Two examples from our own work. CommScope's RUCKUS brand at Haas: enterprise wireless powering the team's operations, with a live showcase in the garage; our agency ran the grid-wide process. And Airwallex at McLaren: during the partnership, revenue grew 50% year on year across EMEA and the Americas, and UK revenue grew 57% from new customer acquisition.
->
-> For Quantum Metric: a partner room full of airlines, banks, retailers and telecoms, every one of them running a digital business that makes or loses them money. That is a pipeline, not a billboard."
+> That's what the grid mapping is for: the realistic entries team by team and at series level, what the digital analytics and customer experience categories allow, and the smallest honest price of each route. Give us the brief today, and the recommendation comes back with names, levels and reasons, sized for Quantum Metric."
 
-### Q5. "Which team would fit us best?"
+### Q5. "What does a partnership cost?"
 
-> "Today I do not know yet, and I would not respect you by guessing.
+> "The price follows the rights. Rule of thumb: entry-level team positions start in the low single-digit millions a year, official partner tiers sit above that, and driver, content and pure hospitality programs sit below, some well below.
 >
-> This is exactly what the grid mapping is for. We look at each team's partner list, because the partners are your prospects and the overlap differs team by team, its existing technology relationships, its appetite for a real working supplier role, its hospitality quality, and its digital business. A cloud giant already on a team can be a door or a wall for you, and we check that per team.
+> Why expensive? Eleven teams for the whole world, one seat per category, three-to-five-year deals. Scarcity.
 >
-> Give us the brief today, and the recommendation comes back with names and reasons."
+> For Quantum Metric, the shapes I'd explore first mostly live at the smaller end. And our advice is free either way: the rights holders pay our fee."
 
-### Q6. "How is ROI measured in Formula 1?"
+### Q6. "Why work with SPORTFIVE? Could we not go to a team directly?"
 
-> "Four ways, usually.
+> "You could. Two reasons brands use us anyway.
 >
-> **Media value.** Independent firms like Nielsen track every second your branding appears, across TV and digital, and give it a money value against your fee.
+> One, information. A team sells you its own story; we put all eleven next to each other: inventory, pricing, appetite, and what each would mean for you specifically. For more than twelve years we worked exclusively with Mercedes and Ferrari; we gave that up deliberately to work brand-first across the whole grid. The neutral seat is the product.
 >
-> **Brand tracking.** Awareness and trust shift, measured before and after, in the narrow audience you care about: digital and technology executives.
+> Two, process. We build the business case, benchmark the price and negotiate on your behalf, because we do it every week.
 >
-> **Business pipeline.** For B2B, you count introductions, meetings and deals closed through the platform. That is how Airwallex could point to 50% revenue growth during their partnership. In enterprise software, one closed logo can repay years of partnership fees.
->
-> **Hospitality outcomes.** Which accounts you hosted, and what those relationships produced afterwards.
->
-> You agree the framework upfront and review it with the team every quarter."
+> And since the rights holders pay our fee, it costs you nothing to use us. There's no version where you pay more."
 
-### Q7. "Who owns Formula 1? How does the money work?"
+### Q7. "Are any of our competitors already in Formula 1?"
 
-> "Three layers, very simple.
+> "Digital analytics and customer experience is an active space around this sport, so I won't answer the category question from memory. This market moves and you deserve the exact answer.
 >
-> Liberty Media, an American media company, owns Formula 1 itself. They bought it in 2017. They control the commercial rights: races, broadcast deals, the calendar.
->
-> The FIA is the independent regulator.
->
-> The eleven teams are independent businesses: Ferrari, Mercedes and Audi belong to car makers, Red Bull to the drinks company, others to investors. Each team earns a share of the sport's revenues plus its own sponsorships.
->
-> Since 2021 the sport has a cost cap, so teams became profitable, stable businesses. Team sponsorship has doubled since 2020, to 2.2 billion dollars a year. You would be entering a healthy, growing market."
+> Mapping your category across all eleven teams and the series is part of the analysis after this call. You'd see precisely who's in, who's not, and where the open positions are."
 
-### Q8. "What does a partnership cost, and why is Formula 1 so expensive?"
+### Q8. "We measure everything we do. Can a sponsorship really be measured to our standard?"
 
-*[Only if they ask. Stay qualitative, ranges not quotes.]*
-
-> "Let me explain how the pricing works, because Formula 1 has its own logic.
+> "I'd expect nothing less from you, and I'll answer it straight.
 >
-> The price follows the rights inside the deal: your tier, your branding positions, driver time, content days, hospitality volume, and the category you lock. As a rule of thumb: entry-level and supplier positions start in the low single-digit millions per year. Meaningful official partner positions sit in the mid single-digit millions. Title partnerships are a different world, well above fifty million a year.
+> Parts of it measure beautifully: pipeline from the room, media value, content performance, brand lift in a named audience. Those we'd instrument from day one, your way, and I'd want your own team auditing it.
 >
-> Why more expensive than other sport? Four reasons.
+> And part of it is trust-building with executives, which shows up in sales cycles and win rates over quarters, not in a weekend dashboard. We'll never pretend otherwise.
 >
-> First, supply. Football has hundreds of clubs. Formula 1 has eleven teams for the entire world, one seat per category, locked for three to five years.
->
-> Second, demand. Team sponsorship has doubled since 2020, and new money keeps arriving.
->
-> Third, one deal covers the world: around 24 races across five continents in one contract.
->
-> And fourth, access. The paddock and the hospitality carry the price, because nobody else can offer them.
->
-> This is why we start with the brief. Our job is to match the level to your goals, then negotiate it hard on your side. And our advice costs you nothing."
-
-*[Background for you, never quoted: reported title benchmarks run around $75M to $110M a year at the top teams; Microsoft with Mercedes was reported in January 2026 at around $60M a year.]*
-
-### Q9. "Why work with SPORTFIVE? Could we not go to a team directly?"
-
-> "You could, and some brands do. Brands use us for two reasons.
->
-> First, information. A team will sell you their own story. We know the whole grid: every team's inventory, pricing, appetite and roadmap. You see all your options next to each other.
->
-> Second, negotiation. We do this every week. We build the business case, run the process, and negotiate on your behalf.
->
-> And because the teams pay our fee, all of that costs you nothing. There is no scenario where you pay more by using us."
-
-### Q10. "Oracle and Microsoft are giants. Can a company our size even afford this?"
-
-> "Yes, and this is the most common misunderstanding about the sport.
->
-> The title deals you read about are the top of the pyramid. Underneath them, every team runs a full ladder of positions, and entry-level and supplier partnerships start in the low single-digit millions per year. That is where scale-ups enter.
->
-> Airwallex is the example I keep coming back to: a fintech scale-up, not a giant, partnered with McLaren, and during the partnership revenue grew 50% year on year across EMEA and the Americas.
->
-> There are also structures where part of the deal is your product: the team's digital business runs on Quantum Metric, and that value counts inside the partnership. Teams like deals that make them better, not just richer.
->
-> The honest answer is: the brief and the budget decide the level, and we will only recommend what makes sense at your size."
-
-### Q11. "Are any of our competitors already in Formula 1?"
-
-> "Software and analytics names are arriving in this sport every season, so I will not answer the category question from memory. This market moves weekly and you deserve an exact answer.
->
-> Mapping digital analytics and customer experience software across all eleven teams is part of the grid analysis we do after this call. When we come back with recommendations, you will see precisely who is in, who is not, and where the open positions are."
-
-### Q12. "We are a data company. We measure everything. Sponsorship is the least measurable spend in marketing. Why would we buy it?"
-
-> "I would be disappointed if you did not ask that. Three answers.
->
-> First, we measure it your way. Media value tracked second by second by independent firms. Brand lift measured before and after in your exact buyer audience. Pipeline counted in introductions, meetings and closed deals. Hospitality tracked account by account. You agree the framework before you sign anything, and if the numbers are not there at review, you will see it plainly. A data company should hold us to that, and we welcome it.
->
-> Second, look at your own market. Your buyers are enterprises, and one closed enterprise logo can repay years of partnership fees. The people who sign those contracts are sitting in the Paddock Club, where two thirds of guests are senior executives. This is not reach. It is precision access, and access is measurable.
->
-> And third, an observation. The most data-obsessed sport on earth is also the strongest proof that this works: 350 companies, many of them the most measurement-driven businesses in the world, keep renewing these partnerships, and team sponsorship has doubled since 2020. Measured people keep buying this room. There is a reason.
->
-> If the brief says the numbers do not work for you, we will say so. But the question deserves a framework, not a feeling, and that is exactly what we will build."
+> Here's the commitment: we agree the measurement framework before anything is signed, weighted to the job you hire the platform for, and if the numbers after year one don't clear your bar, you'll see that in the same dashboard we do. A measurement company deserves a measured partnership."
 
 ---
 
 ## Part 6: Close and next steps (2 minutes)
 
-> "[Name], this was very useful. Thank you. Let me close with exactly what happens next, so there are no surprises.
+> "[Name], this was exactly the conversation we hoped for. Thank you. Here's what happens next, so there are no surprises.
 >
-> Step one, we take everything you shared today and turn it into a brief. You will see it in writing, and you can correct it. Nothing moves until you tell us it is right.
+> Step one, we turn today into a brief. You see it in writing and correct it; nothing moves until you say it's right.
 >
-> Step two, my team goes to work on that brief. We define your category and your direct competitors, and we map that across all eleven teams: what is truly available, at which levels, and where Quantum Metric gets the most value, including where a real working role with a team's digital business is possible.
+> Step two, we map the realistic doors for Quantum Metric: your category across all eleven teams and the series, the partner-room overlap with your target accounts, and honest numbers on every option.
 >
-> Step three, we come back with a short list and clear recommendations. Give us [two to three weeks]. Every option will show what it includes, what it costs, and why it fits your brief.
+> Step three, we come back with a short list and clear recommendations, including a plain 'not yet' if that's what the numbers say. Give us [two to three weeks].
 >
-> Through all of this, no cost and no obligation on your side. The teams pay our fee, so our advice is free for you. That is how we work.
+> No cost and no obligation through any of this; the rights holders pay our fee.
 >
-> And one more thing. The best way to understand this sport is to feel it. We would be delighted to host you and your colleagues as our guests at a Grand Prix, walk the paddock, and see how partners use a race weekend. We can pick dates once the recommendations are on the table.
+> And one more thing: the best way to understand this sport is to stand in it. Come join us at a race, bring whoever makes sense, and watch the telemetry screens in the garage for ten minutes. You'll recognize your own product immediately. The US races would be a natural start.
 >
-> Does that work as a plan? And before we finish, what questions do you have for me, for Bjorn, or for George?"
+> Does that work as a plan? And before we wrap, any questions for me, for Bjorn, or for George?"
 
 *[Last word, keep it warm:]*
 
-> "Thank you, [Name]. You will hear from me by [date]. I am excited about this one."
+> "Thank you, [Name]. You'll hear from me by [date]. I'm looking forward to this one."
 
 ---
 
 ## After the call (checklist)
 
-- Write up the brief the same day: objectives, named accounts, buyer roles, markets, integration appetite, budget signals, timeline, decision makers, hospitality needs.
-- Send a short thank-you email the same day: three lines, recap of the agreed next step and the date you promised.
-- Brief the internal team for the grid mapping. Define Quantum Metric's direct competitor set and category wording, then verify digital analytics, customer experience and adjacent software across all eleven teams fresh, including supplier-tier and product-plus-cash options and each team's own digital business.
+- Write up the brief the same day: objectives, target sectors and named accounts, markets, funnel answer, budget signals, timeline, decision makers, hospitality appetite.
+- Thank-you email the same day: three lines, the agreed next step, the date promised.
+- Brief the internal team: digital analytics and customer experience categories across the grid and series, fresh; partner-room overlap with their target accounts; right-sized entries.
+- Hold the honest line in the recommendations: smallest honest entries first, measurement framework sketched into the paper, and a plain 'not yet' if nothing clears the bar.
 - Log Quantum Metric in the pipeline register and check for category collisions before anything goes out.
