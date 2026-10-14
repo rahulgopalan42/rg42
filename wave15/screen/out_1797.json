@@ -1,0 +1,36 @@
+[
+{
+"id": "fdlband.org",
+"company": "Fond du Lac Band of Lake Superior Chippewa",
+"keep": false,
+"reason": "quick triage: tiny or non-company entity",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+},
+{
+"id": "preflight.cx",
+"company": "Preflight Community",
+"keep": false,
+"reason": "quick triage: tiny or non-company entity",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+}
+]
