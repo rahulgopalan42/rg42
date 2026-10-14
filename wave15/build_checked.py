@@ -112,7 +112,10 @@ for l in ['Wave 15 - database sweep, CHECKED brands (new names only)', '',
           'revenue USD 150-500M (capped at Stretch).', '',
           f"Checked so far: {len(screened_ids):,} brands -> kept {len(rows):,} (Yes {cnt['Yes']}, Stretch {cnt['Stretch']}, "
           f"Low-value {cnt['Low-value']}); dropped {len(drops):,} (reasons on tab 99).",
-          f'Still to check: {todo:,} database names (next update).', '', 'Tab / count:']:
+          f'Still to check: {todo:,} database names.',
+          'Sources: Clay (USD 150M+ revenue, 13 industry groups) + Apollo (USD 100M+ funded) + parent companies of',
+          'dropped subsidiaries. Some USD 200M-1B industry pulls were capped at 4,000 rows each by the database.',
+          'Rows whose notes say "(est)" rest on estimated figures; confirm before outreach.', '', 'Tab / count:']:
     ws.append([l])
 ws['A1'].font = Font(bold=True, size=14)
 ws.column_dimensions['A'].width = 110
