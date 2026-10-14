@@ -67,10 +67,15 @@ for r in kept:
         score=prio(v, fit), fit=fit, route=r.get('scale_route', ''), evidence=d.get('valuation') or r.get('scale_evidence', ''),
         staff=d.get('headcount_band') or r.get('staff_est', ''), tie=r.get('f1_tie', ''), parent=r.get('parent', ''),
         status=r.get('status', ''), web=r.get('website', ''), country=r.get('country', ''),
-        note=d.get('verdict_reason') or r.get('note', ''), stage='Fully verified' if d else 'Checked (stage 1)'))
+        note=d.get('verdict_reason') or r.get('note', ''), stage='Fully verified' if d else 'Checked (stage 1)',
+        sells=d.get('sells', ''), angle=d.get('best_angle', ''), hq=d.get('hq', ''),
+        upc='yes' if d.get('up_and_coming') is True else '',
+        flags='; '.join(d.get('flags') or []) if isinstance(d.get('flags'), list) else str(d.get('flags') or ''),
+        src=' '.join((d.get('sources') or [])[:3]) if isinstance(d.get('sources'), list) else str(d.get('sources') or '')))
 
 HDR = ['rank', 'company', 'verdict', 'priority score', 'fit (0-4)', 'qualifying route', 'scale evidence', 'staff',
-       'F1 tie check', 'parent / owner', 'status', 'website', 'country', 'notes', 'check stage', 'also on']
+       'F1 tie check', 'parent / owner', 'status', 'website', 'country', 'notes', 'check stage', 'also on',
+       'what they sell', 'best F1 angle', 'HQ', 'up-and-coming', 'flags', 'sources']
 bold = Font(bold=True, color='FFFFFF'); fill = PatternFill('solid', fgColor='1F3864')
 red = PatternFill('solid', fgColor='F8CBAD')
 VORD = {'Yes': 0, 'Stretch': 1, 'Low-value': 2}
@@ -83,10 +88,11 @@ def write(ws, rs, also=True):
     for i, r in enumerate(rs, 1):
         ws.append([i, r['name'], r['verdict'], r['score'], r['fit'], r['route'], r['evidence'], r['staff'], r['tie'],
                    r['parent'], r['status'], r['web'], r['country'], r['note'], r['stage'],
-                   ('01 PRIORITY' if (also and r['verdict'] == 'Yes') else '')])
+                   ('01 PRIORITY' if (also and r['verdict'] == 'Yes') else ''),
+                   r['sells'], r['angle'], r['hq'], r['upc'], r['flags'], r['src']])
         if also and r['verdict'] == 'Yes':
             ws.cell(row=i + 1, column=2).fill = red
-    for col, w in zip('ABCDEFGHIJKLMNOP', (6, 34, 10, 8, 7, 22, 40, 12, 34, 24, 14, 24, 14, 50, 16, 12)):
+    for col, w in zip('ABCDEFGHIJKLMNOPQRSTUV', (6, 34, 10, 8, 7, 22, 40, 12, 34, 24, 14, 24, 14, 50, 16, 12, 40, 40, 18, 10, 40, 50)):
         ws.column_dimensions[col].width = w
     ws.freeze_panes = 'C2'
 
