@@ -125,7 +125,8 @@ for l in ['Wave 15 - database sweep, CHECKED brands (new names only)', '',
           'Every brand here came from Clay / Apollo, is NOT in your master or other files, and has been checked',
           'against the v4 rules (real & operating, independent brand, scale route, 51+ staff, no distress,',
           'no F1 tie direct or via parent, not sanctioned). Ranked by priority score: Yes 60+8xfit, Stretch 40+6xfit,',
-          'Low-value 20+4xfit. "check stage" says whether the brand has had the full sourced check yet.', '',
+          'Low-value 20+4xfit. "check stage" says whether the brand has had the full sourced check yet.',
+          '"verified" tabs = ready for templates; "pending check" tabs = passed the rules, sourced check (revenue + F1 tie) still to run.', '',
           'Qualifying routes: worth USD 1B+ / raised USD 100M+ in 36 months / revenue USD 500M+ /',
           'revenue USD 150-500M (capped at Stretch).', '',
           f"Checked so far: {len(screened_ids):,} brands -> kept {len(rows):,} (Yes {cnt['Yes']}, Stretch {cnt['Stretch']}, "
@@ -138,15 +139,18 @@ for l in ['Wave 15 - database sweep, CHECKED brands (new names only)', '',
 ws['A1'].font = Font(bold=True, size=14)
 ws.column_dimensions['A'].width = 110
 pr = [r for r in rows if r['verdict'] == 'Yes']
-ws.append(['01 PRIORITY (all Yes)', len(pr)])
 st = [r for r in rows if r['verdict'] == 'Stretch']
-ws.append(['02 STRETCH (all Stretch)', len(st)])
+FV = 'Fully verified'
+SPLIT = [('01 PRIORITY - verified', [r for r in pr if r['stage'] == FV]),
+         ('01b PRIORITY - pending check', [r for r in pr if r['stage'] != FV]),
+         ('02 STRETCH - verified', [r for r in st if r['stage'] == FV]),
+         ('02b STRETCH - pending check', [r for r in st if r['stage'] != FV])]
+for nm, rs in SPLIT: ws.append([nm, len(rs)])
 for s in SECTORS: ws.append([s, len(by.get(s, []))])
 xt = sorted(k for k in by if k not in SECTORS)
 for x in xt: ws.append([x, len(by[x])])
 ws.append(['99 DROPPED', len(drops)])
-write(wb.create_sheet('01 PRIORITY'), pr, also=False)
-write(wb.create_sheet('02 STRETCH'), st, also=False)
+for nm, rs in SPLIT: write(wb.create_sheet(nm[:31]), rs, also=False)
 for s in SECTORS: write(wb.create_sheet(s[:31]), by.get(s, []))
 for x in xt: write(wb.create_sheet(x[:31]), by[x])
 wd = wb.create_sheet('99 DROPPED')
