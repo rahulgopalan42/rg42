@@ -614,10 +614,10 @@
  {
   "id": "dynacast.com",
   "company": "Dynacast International",
-  "keep": true,
-  "reason": "",
+  "keep": false,
+  "reason": "subsidiary of Form Technologies",
   "real_name": "Dynacast International",
-  "parent": "PE-backed",
+  "parent": "Form Technologies (Partners Group)",
   "status": "operating",
   "scale_route": "revenue 500M+",
   "scale_evidence": "revenue ~USD 700M (est)",
@@ -625,8 +625,8 @@
   "f1_tie": "none found",
   "sector": "21 Materials & Mech Parts",
   "fit": 0,
-  "verdict_guess": "Low-value",
-  "note": "precision die-casting; global B2B"
+  "verdict_guess": "No",
+  "note": "Form Technologies screened separately"
  },
  {
   "id": "speira.com",
