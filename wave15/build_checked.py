@@ -153,6 +153,24 @@ ws.append(['99 DROPPED', len(drops)])
 for nm, rs in SPLIT: write(wb.create_sheet(nm[:31]), rs, also=False)
 for s in SECTORS: write(wb.create_sheet(s[:31]), by.get(s, []))
 for x in xt: write(wb.create_sheet(x[:31]), by[x])
+import os
+if os.path.exists(f'{W}/earlier_waves.json'):
+    ew = json.load(open(f'{W}/earlier_waves.json'))
+    def fixsec(r):
+        sc = r['sector']
+        if 'BATCH 01' in sc.upper(): return '09 Fintech'
+        if 'BATCH 02' in sc.upper() or 'BENCH' in sc.upper(): return '22 SaaS'
+        return sc
+    EH = ['rank', 'company', 'sector', 'verdict (earlier wave)', 'priority score', 'website', 'where it is (file | tab)']
+    for nm, rs in (('EW1 Earlier waves - Yes+Stretch', [r for r in ew if r['verdict'] in ('Yes', 'Stretch')]),
+                   ('EW2 Earlier waves - other', [r for r in ew if r['verdict'] not in ('Yes', 'Stretch')])):
+        ws.append([nm + ' (in earlier files, NOT in your uploaded master)', len(rs)])
+        e = wb.create_sheet(nm[:31]); e.append(EH)
+        for c in e[1]: c.font = bold; c.fill = fill
+        for i, r in enumerate(rs, 1):
+            e.append([i, r['name'], fixsec(r), r['verdict'], r['score'], r['domain'], r['source']])
+        for col, w in zip('ABCDEFG', (6, 36, 30, 14, 10, 26, 70)): e.column_dimensions[col].width = w
+        e.freeze_panes = 'C2'
 wd = wb.create_sheet('99 DROPPED')
 wd.append(['company', 'reason', 'parent', 'status', 'F1 tie check', 'website'])
 for c in wd[1]: c.font = bold; c.fill = fill
