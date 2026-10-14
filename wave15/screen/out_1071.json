@@ -1,0 +1,53 @@
+[
+{
+"id": "teamrealty.ca",
+"company": "Royal LePage Team Realty, Brokerage",
+"keep": false,
+"reason": "quick triage: tiny realty/dubious firm",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+},
+{
+"id": "suttongroupadmiral.com",
+"company": "Sutton Group-Admiral Realty Inc., Brokerage",
+"keep": false,
+"reason": "quick triage: tiny realty/dubious firm",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+},
+{
+"id": "premiosondas.com",
+"company": "Premios Ondas",
+"keep": false,
+"reason": "quick triage: spam/fan site/placeholder",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+}
+]

@@ -1,0 +1,36 @@
+[
+{
+"id": "surfaceprep.com",
+"company": "SurfacePrep",
+"keep": false,
+"reason": "quick triage: small equipment firm",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+},
+{
+"id": "qipert.com",
+"company": "Qipert",
+"keep": false,
+"reason": "quick triage: tiny financial firm",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+}
+]
