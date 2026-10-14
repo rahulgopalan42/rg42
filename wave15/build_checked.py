@@ -24,8 +24,26 @@ SECTORS = ['01 Banking & Insurance', '02 Energy & Industrial', '03 Luxury & Beau
 S = {s[:2]: s for s in SECTORS}
 
 
+# Wave 15 broad X tabs -> Wave 14 sector tabs
+XMAP = {'pharma & biotech': 'NEW Pharma & Biotech', 'medtech': 'NEW Medtech & Healthcare Services',
+        'retail & e-commerce': 'X06 Retail & E-commerce', 'real estate': 'X02 Real Estate & Building Products',
+        'utilities & power': 'NEW Utilities & Power', 'mining & metals': 'X04 Mining, Metals & Commodities',
+        'asset mgmt & pe': 'X01 Asset Mgmt, PE & Trading Firms', 'aviation & aerospace': 'X07 Aviation & Aerospace Suppliers',
+        'education': 'NEW Education & EdTech', 'gambling & lotteries': 'NEW Gambling & Lotteries',
+        'sports clubs & leagues': 'NEW Sports Clubs & Leagues', 'maritime & shipbuilding': 'X09 Maritime, Shipping & Ports',
+        'rail & transit': 'X12 Rail, Transit & Road Infra', 'consumer electronics': 'X15 Consumer Electronics & Audio',
+        'agriculture': 'X05 Agriculture & AgTech', 'waste & recycling': 'X30 Waste, Recycling & Circular',
+        'live events & ticketing': 'X24 Ticketing, Live Events & Experiences', 'pet care': 'X19 Pet Care & Nutrition',
+        'other': 'NEW Other'}
+
+
 def tab_of(sec, fallback):
     s = str(sec or '').strip()
+    m = re.match(r'^(X\d{2}|NEW)\b', s, flags=re.I)
+    if m: return (m.group(1).upper() + s[len(m.group(1)):]).strip()[:31]
+    if s.upper().startswith('X'):
+        k = re.sub(r'^X[\s\-:]*', '', s, flags=re.I).strip().lower()
+        if k in XMAP: return XMAP[k][:31]
     m = re.match(r'^(\d{1,2})\b', s)
     if m and m.group(1).zfill(2) in S: return S[m.group(1).zfill(2)]
     if s.upper().startswith('X'):

@@ -73,10 +73,21 @@ Sector tabs
 44 Grid & Transformers, 45 Electronic Parts, 46 Tools & Industrial Supply, 47 Vertical SaaS, 48 Telecom & Space,
 49 Home & Living, 50 Law Firms & Legal AI, 51 Industrial Gases, 52 Photonics & Optical, 53 Consumer & Lifestyle,
 54 TIC, 55 Packaging & Food Machinery, 56 Robotics AI.
-Outside the 56 use: X Pharma & Biotech, X Medtech, X Retail & E-commerce, X Real Estate, X Utilities & Power,
-X Mining & Metals, X Asset Mgmt & PE, X Aviation & Aerospace, X Education, X Gambling & Lotteries,
-X Sports Clubs & Leagues, X Maritime & Shipbuilding, X Rail & Transit, X Consumer Electronics, X Agriculture,
-X Waste & Recycling, X Live Events & Ticketing, X Pet Care, X Other.
+Outside the 56 use the Wave 14 tabs: X01 Asset Mgmt, PE & Trading Firms, X02 Real Estate & Building Products,
+X03 CDMO, CRO & Life-Science Tools, X04 Mining, Metals & Commodities, X05 Agriculture & AgTech, X06 Retail & E-commerce,
+X07 Aviation & Aerospace Suppliers, X08 Sporting Goods & Fitness, X09 Maritime, Shipping & Ports,
+X10 Batteries, EV, Waste & Water, X11 Engineering Consultancies, X12 Rail, Transit & Road Infra,
+X13 Industrial & MRO Distribution, X14 Intralogistics & Warehouse, X15 Consumer Electronics & Audio,
+X16 Specialty Chemicals & Coatings, X17 Private 5G & Telecom Equipment, X18 Quantum Computing, X19 Pet Care & Nutrition,
+X20 Fitness, Sports Nutrition & Recovery, X21 Watches & Jewellery, X23 Gaming Hardware & Peripherals,
+X24 Ticketing, Live Events & Experiences, X25 Wealth Mgmt & Private Banking, X26 Insurance Brokers & Reinsurance,
+X27 Payroll, EOR & Global Employment, X28 Franchise Groups, X29 Water Tech & Desalination,
+X30 Waste, Recycling & Circular, X31 Agritech & Ag Inputs, X32 Mining Services & Equipment,
+X34 Private Aviation & Business Jets, X35 Sports Tech & Fan Engagement, X36 Creator Economy & Influencers,
+X38 Africa Champions, X39 Central Asia & Caucasus Champions, X40 SE Asia Private Conglomerates,
+X41 LatAm Consumer & Retail Champions, NEW Pharma & Biotech, NEW Medtech & Healthcare Services, NEW Utilities & Power,
+NEW Gambling & Lotteries, NEW Education & EdTech, NEW Media & Publishing, NEW Social & Messaging,
+NEW Auctions & Collectibles, NEW Tobacco & Nicotine, NEW Sports Clubs & Leagues, NEW Other.
 
 Write the output file with python3 -I (json.dump, ensure_ascii=False) or the Write tool. Write ALL rows before
 stopping. Do not touch any other file. Report only: kept N / dropped N, top 3 drop reasons. Under 40 words.
