@@ -1,3 +1,26 @@
 Helper: scratchpad/w14_B/ingest.py (parses agent transcript T; set T to current agent transcript). State in done.json/tags.json.
 Funding filter used: funding_total_usd >= 100000000. Remaining = topics not in tags.json + searches below with MORE.
-W14|X21|rev	page 0	rows 20	hasMore True	lastTask mcp-task_0tmvwj1cbRt4HpsV8sB
+W14|X21|rev	page 27	rows 560	hasMore True	lastTask mcp-task_0tmvwrjBM66PE7nCRAQ
+W14|X23|fund	page 0	rows 5	hasMore False	lastTask mcp-task_0tmvwk4vxe4FHXbTJEB
+W14|X23|rev	page 11	rows 239	hasMore False	lastTask mcp-task_0tmvwnfidTjTmsdMgxS
+W14|X21|fund	page 0	rows 9	hasMore False	lastTask mcp-task_0tmvwkhhrZHCfTYp87i
+W14|X24|fund	page 0	rows 4	hasMore False	lastTask mcp-task_0tmvwmab2E2kQD5qDPH
+W14|X26|fund	page 1	rows 40	hasMore True	lastTask mcp-task_0tmvwmsmmRkDuPAzoeh
+W14|X25|fund	page 1	rows 40	hasMore True	lastTask mcp-task_0tmvwmsj9D6qiRBq8Y9
+W14|X24|rev	page 12	rows 260	hasMore True	lastTask mcp-task_0tmvwrjTFsZue84f32q
+W14|X26|rev	page 0	rows 20	hasMore True	lastTask mcp-task_0tmvwrz9V7uHMNm7CYu
+W14|X25|rev	page 0	rows 20	hasMore True	lastTask mcp-task_0tmvws2tEJgXSWkwKoe
+W14|X27|fund	page 0	rows 20	hasMore True	lastTask mcp-task_0tmvwsepMJmm6A8bUiq
+W14|X27|rev	page 0	rows 20	hasMore True	lastTask mcp-task_0tmvwsgojcG9ju2piXH
+W14|X28|fund	page 0	rows 9	hasMore False	lastTask mcp-task_0tmvwsseENKdeaSqan4
+W14|X28|rev	page 0	rows 20	hasMore True	lastTask mcp-task_0tmvwsuicDtrKu8yzR6
+W14|X29|fund	page 0	rows 11	hasMore False	lastTask mcp-task_0tmvwt48Es6VM6WnjnU
+W14|X29|rev	page 0	rows 20	hasMore True	lastTask mcp-task_0tmvwtbDKxm5HJq2wCc
+W14|X30|fund	page 0	rows 20	hasMore True	lastTask mcp-task_0tmvwtlhutxgSpw92mb
+W14|X30|rev	page 0	rows 20	hasMore True	lastTask mcp-task_0tmvwtqfKKqopzn2CuZ
+W14|X31|rev	page 0	rows 20	hasMore True	lastTask mcp-task_0tmvwu2Mky6phbYgnoN
+W14|X31|fund	page 0	rows 17	hasMore False	lastTask mcp-task_0tmvwu2tMg6Dw8ngeUY
+W14|X32|fund	page 0	rows 20	hasMore True	lastTask mcp-task_0tmvwuf87Zvv3Tfbyq8
+W14|X32|rev	page 0	rows 20	hasMore True	lastTask mcp-task_0tmvwufpD79dMC5auPf
+W14|X34|fund	page 0	rows 20	hasMore True	lastTask mcp-task_0tmvwuqDtkNVEzfTtsh
+W14|X34|rev	page 0	rows 20	hasMore True	lastTask mcp-task_0tmvwuxZdjrAyEUDC4o

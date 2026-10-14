@@ -18,6 +18,24 @@ N|edge & CDN|rev	page 2	rows 59	hasMore False	lastTask mcp-task_0tmvvdmdWr5J8v9s
 N|edge & CDN|fund	page 0	rows 8	hasMore False	lastTask mcp-task_0tmvvdxGyPsmzRErDZa
 N|robotics AI|fund	page 1	rows 29	hasMore False	lastTask mcp-task_0tmvwj97Y6HviEaEs5d
 N|robotics AI|rev	page 1	rows 40	hasMore True	lastTask mcp-task_0tmvwj9gWHCKr2dBa7T
-Remaining topics not started: devtools, UCaaS & CPaaS, AI cloud, cyber, chips & semi equipment, photonics, test & measurement, industrial gases, TIC (rev + fund each).
-In progress (continue with load-more on lastTask above): EDA|rev (cap 60 pages, at page 43), AI data services|rev, robotics AI|rev. robotics AI|fund done (29 rows).
-To resume: update T in scratchpad/niche/ingest.py to the new agent's transcript; pass new searchId=tag args to ingest.py after first page of each new search.
+N|devtools|fund	page 0	rows 12	hasMore False	lastTask mcp-task_0tmvwkt7kCZZbuN8fud
+N|devtools|rev	page 1	rows 40	hasMore True	lastTask mcp-task_0tmvwlwTgXWeqRWH4jV
+N|UCaaS & CPaaS|fund	page 0	rows 17	hasMore False	lastTask mcp-task_0tmvwlzsAPHXpzKjYYT
+N|UCaaS & CPaaS|rev	page 0	rows 20	hasMore True	lastTask mcp-task_0tmvwma5Fp4x2MHXnVh
+N|AI cloud|rev	page 0	rows 20	hasMore True	lastTask mcp-task_0tmvwnbD9xXNXdUGsj3
+N|AI cloud|fund	page 4	rows 100	hasMore True	lastTask mcp-task_0tmvwtqyvu98JnhEyeh
+N|cyber|fund	page 1	rows 34	hasMore False	lastTask mcp-task_0tmvwse3shDvAytJqeo
+N|cyber|rev	page 1	rows 40	hasMore True	lastTask mcp-task_0tmvwu5PNevnxjMyukx
+N|chips & semi equipment|fund	page 3	rows 80	hasMore True	lastTask mcp-task_0tmvwtqCGUAbtGW9tto
+N|chips & semi equipment|rev	page 1	rows 40	hasMore True	lastTask mcp-task_0tmvwu5KngFeudZcK5F
+N|photonics|fund	page 0	rows 10	hasMore False	lastTask mcp-task_0tmvwplvtzcgGUxbSxc
+N|photonics|rev	page 0	rows 20	hasMore True	lastTask mcp-task_0tmvwpojMB2xEPnZDiW
+N|test & measurement|rev	page 0	rows 20	hasMore True	lastTask mcp-task_0tmvwq6fr7hiyhbxEXy
+N|test & measurement|fund	page 0	rows 6	hasMore False	lastTask mcp-task_0tmvwq7QUXbwutGxDCp
+N|industrial gases|fund	page 0	rows 14	hasMore False	lastTask mcp-task_0tmvwqzRRUswzKx5Xog
+N|industrial gases|rev	page 0	rows 20	hasMore True	lastTask mcp-task_0tmvwr0GyEfWhPYNQhq
+N|TIC|fund	page 0	rows 3	hasMore False	lastTask mcp-task_0tmvwrhumKSdxRPqVwP
+N|TIC|rev	page 0	rows 20	hasMore True	lastTask mcp-task_0tmvwriMnMtKSyyKxQA
+All 18 topics now started (rev + fund). Searches marked hasMore True above are still open: continue with load-more on their lastTask (cap 60 pages each).
+Priority for next run: AI cloud|fund, chips & semi equipment|fund (long lists), then rev pages for cyber, chips, devtools, UCaaS & CPaaS, AI cloud, photonics, test & measurement, industrial gases, TIC; then EDA|rev (from page 43), AI data services|rev, robotics AI|rev.
+To resume: set T in scratchpad/niche/ingest.py to the new agent's transcript (find it with grep -l on the subagents dir); run python3 -I ingest.py after each page (load-more pages are matched by rootSearchId automatically).
