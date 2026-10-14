@@ -1,0 +1,67 @@
+[
+ {
+  "id": "p:jsw",
+  "company": "JSW Group",
+  "sector_tab": "X Mining & Metals",
+  "domain": "jsw.in",
+  "hq": "Mumbai, India",
+  "ownership": "Promoter-controlled conglomerate (Sajjan Jindal family); listed arms JSW Steel, JSW Energy, JSW Infrastructure, JSW Cement; private JSW Paints, JSW Motors; JSW MG Motor India JV with SAIC",
+  "sells": "Steel (flagship), energy, infrastructure/ports, cement, paints, cars (JSW MG, JSW Motors), sports (JSW Sports)",
+  "headcount_band": "10,001+ (JSW Steel ~16,000 per Jul 2026 listings; group ~40,000+ (est))",
+  "revenue": "JSW Steel TTM ~USD 20.6B (Jun 2026, PitchBook); FY2025 INR 1.69T; group larger (est)",
+  "valuation": "JSW Steel market cap ~INR 2.8-3.1T / ~USD 33B (Jul 2026)",
+  "latest_raise": "n/a (listed; JSW Cement IPO Aug 2025)",
+  "fit_score": 3,
+  "fit_detail": "Sells in 3+ F1 markets (India, USA, Italy steel ops) = 1; senior B2B buyers + affluent Indian consumers via paints/cars = 1; global-ambition/industrial-strength story = 1; category partly automotive (JSW MG/JSW Motors) and steel B2B = 0",
+  "up_and_coming": false,
+  "flags": [
+   "planned JV/stake in Skoda Auto Volkswagen India (VW Group owns Audi F1 team) - JV only, confirm structure before outreach",
+   "JSW MG Motor India JV with SAIC (no F1 tie found)",
+   "heavy cricket/Olympic sponsor (Delhi Capitals co-owner, JSW Sports)",
+   "primarily India-focused consumer brands"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes all hard filters (market cap ~USD 33B, 10k+ staff, no distress, no F1 tie found for JSW or its brands, India HQ, not sanctioned); reservation: India-centric B2B-led group with automotive JV proximity to VW/Audi F1",
+  "best_angle": "With JSW Motors launching its own car brand and JSW Steel expanding in the US and Europe, F1 would give the Jindal group a global stage beyond its cricket-heavy sponsorship portfolio.",
+  "sources": [
+   "https://multiples.vc/public-comps/jsw-steel-valuation-multiples",
+   "https://pitchbook.com/profiles/company/65071-72",
+   "https://kalkinemedia.com/us/companies/nse-jswsteel",
+   "https://www.google.com/finance/beta/quote/JSWSTEEL:NSE",
+   "https://sportbusiness.com/news/delhi-capitals-extend-with-co-owner-jsw-group-as-title-sponsor",
+   "https://www.rushlane.com/amp/jsw-motors-teases-first-car-invites-dealer-partners-to-join-the-drive-12540676.html",
+   "https://www.electrive.com/es/2024/12/04/indias-jsw-mira-hacia-una-marca-independiente-de-ev-junto-a-mg-jv/"
+  ]
+ },
+ {
+  "id": "p:jung",
+  "company": "Albrecht Jung GmbH & Co. KG",
+  "sector_tab": "49 Home & Living",
+  "domain": "jung-group.com",
+  "hq": "Schalksmühle, Germany",
+  "ownership": "Private, family-owned (founded 1912)",
+  "sells": "Premium electrical switches, sockets, KNX smart-home/building automation systems (JUNG brand)",
+  "headcount_band": "1,001-5,000 (1,700+ per company site, Oct 2026)",
+  "revenue": "~EUR 450-500M (~USD 520-580M) (est; no audited figure found, 2025)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a (family-owned)",
+  "fit_score": 3,
+  "fit_detail": "Sells in 3+ F1 markets (21 subsidiaries, 80 reps across Europe, Middle East, Asia, North America) = 1; audience mostly electricians/installers with architect influence, not core affluent/senior buyer = 0; German precision design + smart-building tech story = 1; category (electrical/smart home) uncrowded on the grid = 1",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue unverified (est)",
+   "name ambiguity: not Jung von Matt (agency)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters on estimated revenue band (USD 150-500M route caps at Stretch; revenue unverified), 1,700+ staff, no distress, no F1 tie found; reservation: modest scale and trade-led B2B channel",
+  "best_angle": "JUNG could put its precision German switch design and KNX smart-home tech in front of affluent homeowners and architects in its Middle East and Asian export markets.",
+  "sources": [
+   "https://www.jung-group.com/en-DE/The-company/",
+   "https://www.jung-group.com/en-ASIA/About-us/History/",
+   "https://www.stepstone.de/cmp/de/albrecht-jung-gmbh-%26-co-kg-44481/jobs",
+   "https://sponsorship.sportbusiness.com/news/german-handball-federation-scores-two-new-partners/",
+   "https://nax-exhibition.bak.de/partner/partner-jung/"
+  ]
+ }
+]
