@@ -1,0 +1,3 @@
+Helper: scratchpad/w14_B/ingest.py (parses agent transcript T; set T to current agent transcript). State in done.json/tags.json.
+Funding filter used: funding_total_usd >= 100000000. Remaining = topics not in tags.json + searches below with MORE.
+W14|X21|rev	page 0	rows 20	hasMore True	lastTask mcp-task_0tmvwj1cbRt4HpsV8sB

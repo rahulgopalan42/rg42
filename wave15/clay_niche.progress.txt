@@ -1,0 +1,23 @@
+Helper: scratchpad/niche/ingest.py (parses agent transcript T; set T to current agent transcript). State in done.json/tags.json.
+Funding filter used: funding_total_usd >= 100000000. Remaining = topics not in tags.json + searches below with MORE.
+N|supercomputing|rev	page 3	rows 67	hasMore False	lastTask mcp-task_0tmvv24BJKsRZ67DZUe
+N|storage|fund	page 0	rows 14	hasMore False	lastTask mcp-task_0tmvv17vCfqxaSTcUX7
+N|supercomputing|fund	page 0	rows 14	hasMore False	lastTask mcp-task_0tmvv1e7ESBNQZfEixM
+N|storage|rev	page 8	rows 171	hasMore False	lastTask mcp-task_0tmvv455quQDQHDbXFS
+N|observability|fund	page 0	rows 11	hasMore False	lastTask mcp-task_0tmvv1vY5FjR8aAz4r7
+N|observability|rev	page 5	rows 105	hasMore False	lastTask mcp-task_0tmvv3lBfshGMSoF8dG
+N|EDA|rev	page 43	rows 880	hasMore True	lastTask mcp-task_0tmvwj9EabqMnfDAj9V
+N|EDA|fund	page 2	rows 56	hasMore False	lastTask mcp-task_0tmvv4cex4mDwACiXGd
+N|ERP & procurement|rev	page 21	rows 428	hasMore False	lastTask mcp-task_0tmvv9xAeRHB2gik4w7
+N|ERP & procurement|fund	page 0	rows 12	hasMore False	lastTask mcp-task_0tmvv4xKFSygV96Wosu
+N|AI agents|rev	page 18	rows 377	hasMore False	lastTask mcp-task_0tmvv9xJsjAWfToTEex
+N|AI agents|fund	page 3	rows 78	hasMore False	lastTask mcp-task_0tmvvauufC9GY2nDaqk
+N|AI data services|rev	page 14	rows 300	hasMore True	lastTask mcp-task_0tmvwj9kYP86smG8wAB
+N|AI data services|fund	page 3	rows 73	hasMore False	lastTask mcp-task_0tmvvbxUKY3joAAzgEn
+N|edge & CDN|rev	page 2	rows 59	hasMore False	lastTask mcp-task_0tmvvdmdWr5J8v9sdTV
+N|edge & CDN|fund	page 0	rows 8	hasMore False	lastTask mcp-task_0tmvvdxGyPsmzRErDZa
+N|robotics AI|fund	page 1	rows 29	hasMore False	lastTask mcp-task_0tmvwj97Y6HviEaEs5d
+N|robotics AI|rev	page 1	rows 40	hasMore True	lastTask mcp-task_0tmvwj9gWHCKr2dBa7T
+Remaining topics not started: devtools, UCaaS & CPaaS, AI cloud, cyber, chips & semi equipment, photonics, test & measurement, industrial gases, TIC (rev + fund each).
+In progress (continue with load-more on lastTask above): EDA|rev (cap 60 pages, at page 43), AI data services|rev, robotics AI|rev. robotics AI|fund done (29 rows).
+To resume: update T in scratchpad/niche/ingest.py to the new agent's transcript; pass new searchId=tag args to ingest.py after first page of each new search.

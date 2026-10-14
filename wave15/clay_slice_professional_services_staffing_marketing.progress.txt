@@ -3,8 +3,8 @@ Note: industry "Management Consulting" rejected by Clay -> dropped (17 industrie
 Slices DONE:
   C1|10,001+  (4 pages, 80 rows, hasMore=false)
 Slice IN PROGRESS:
-  C1|5,001-10,000  pages fetched: 48 (page index 0-47), 960 rows written; hasMore still true.
-  Next taskId (may have expired): mcp-task_0tmvvdor7rzdxqmjBJ5
+  C1|5,001-10,000  pages fetched: 53 (page index 0-52), 1060 rows written; hasMore still true.
+  Next taskId (may have expired): mcp-task_0tmvwjjcgxQbnPyZ3ho
   If expired, re-run this slice from page 0 (duplicates can be deduped by linkedin_url+search).
 Slices NOT STARTED:
   C1|1,001-5,000, C1|501-1,000, C1|201-500, C1|51-200
