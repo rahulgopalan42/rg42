@@ -91,7 +91,7 @@ for r in kept:
         flags='; '.join(d.get('flags') or []) if isinstance(d.get('flags'), list) else str(d.get('flags') or ''),
         src=' '.join((d.get('sources') or [])[:3]) if isinstance(d.get('sources'), list) else str(d.get('sources') or '')))
 
-HDR = ['rank', 'company', 'verdict', 'priority score', 'fit (0-4)', 'qualifying route', 'scale evidence', 'staff',
+HDR = ['rank', 'company', 'sector', 'verdict', 'priority score', 'fit (0-4)', 'qualifying route', 'scale evidence', 'staff',
        'F1 tie check', 'parent / owner', 'status', 'website', 'country', 'notes', 'check stage', 'also on',
        'what they sell', 'best F1 angle', 'HQ', 'up-and-coming', 'flags', 'sources']
 bold = Font(bold=True, color='FFFFFF'); fill = PatternFill('solid', fgColor='1F3864')
@@ -104,13 +104,13 @@ def write(ws, rs, also=True):
     for c in ws[1]: c.font = bold; c.fill = fill
     rs = sorted(rs, key=lambda r: (-r['score'], VORD.get(r['verdict'], 9), r['name'].lower()))
     for i, r in enumerate(rs, 1):
-        ws.append([i, r['name'], r['verdict'], r['score'], r['fit'], r['route'], r['evidence'], r['staff'], r['tie'],
+        ws.append([i, r['name'], r['tab'], r['verdict'], r['score'], r['fit'], r['route'], r['evidence'], r['staff'], r['tie'],
                    r['parent'], r['status'], r['web'], r['country'], r['note'], r['stage'],
                    ('01 PRIORITY' if (also and r['verdict'] == 'Yes') else ''),
                    r['sells'], r['angle'], r['hq'], r['upc'], r['flags'], r['src']])
         if also and r['verdict'] == 'Yes':
             ws.cell(row=i + 1, column=2).fill = red
-    for col, w in zip('ABCDEFGHIJKLMNOPQRSTUV', (6, 34, 10, 8, 7, 22, 40, 12, 34, 24, 14, 24, 14, 50, 16, 12, 40, 40, 18, 10, 40, 50)):
+    for col, w in zip('ABCDEFGHIJKLMNOPQRSTUVW', (6, 34, 28, 10, 8, 7, 22, 40, 12, 34, 24, 14, 24, 14, 50, 16, 12, 40, 40, 18, 10, 40, 50)):
         ws.column_dimensions[col].width = w
     ws.freeze_panes = 'C2'
 
