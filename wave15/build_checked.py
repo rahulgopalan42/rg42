@@ -34,7 +34,7 @@ XMAP = {'pharma & biotech': 'NEW Pharma & Biotech', 'medtech': 'NEW Medtech & He
         'rail & transit': 'X12 Rail, Transit & Road Infra', 'consumer electronics': 'X15 Consumer Electronics & Audio',
         'agriculture': 'X05 Agriculture & AgTech', 'waste & recycling': 'X30 Waste, Recycling & Circular',
         'live events & ticketing': 'X24 Ticketing, Live Events & Experiences', 'pet care': 'X19 Pet Care & Nutrition',
-        'other': 'NEW Other'}
+        'other': 'NEW Other', 'unsorted': 'NEW Other'}
 
 
 def tab_of(sec, fallback):
