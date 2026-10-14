@@ -139,11 +139,14 @@ ws['A1'].font = Font(bold=True, size=14)
 ws.column_dimensions['A'].width = 110
 pr = [r for r in rows if r['verdict'] == 'Yes']
 ws.append(['01 PRIORITY (all Yes)', len(pr)])
+st = [r for r in rows if r['verdict'] == 'Stretch']
+ws.append(['02 STRETCH (all Stretch)', len(st)])
 for s in SECTORS: ws.append([s, len(by.get(s, []))])
 xt = sorted(k for k in by if k not in SECTORS)
 for x in xt: ws.append([x, len(by[x])])
 ws.append(['99 DROPPED', len(drops)])
 write(wb.create_sheet('01 PRIORITY'), pr, also=False)
+write(wb.create_sheet('02 STRETCH'), st, also=False)
 for s in SECTORS: write(wb.create_sheet(s[:31]), by.get(s, []))
 for x in xt: write(wb.create_sheet(x[:31]), by[x])
 wd = wb.create_sheet('99 DROPPED')
