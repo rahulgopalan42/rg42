@@ -1,0 +1,304 @@
+[
+ {
+  "id": "zyg.com",
+  "company": "ZyG",
+  "sector_tab": "22 SaaS",
+  "domain": "zyg.com",
+  "hq": "Tel Aviv, Israel",
+  "ownership": "Private, VC-backed (Accel, Bessemer, Lightspeed, Viola)",
+  "sells": "Agentic AI operating system for DTC e-commerce brands",
+  "headcount_band": "51-200 (~65, May 2026)",
+  "revenue": "Undisclosed (early-stage, founded 2025)",
+  "valuation": "~USD 500M reported at Series A (May 2026, reported/est)",
+  "latest_raise": "USD 60M Series A led by Accel (May 2026); USD 58M seed (2025-Mar 2026); total ~USD 118M",
+  "fit_score": 2,
+  "fit_detail": "Senior B2B/brand-owner buyers (1); AI/technology story (1); multi-market sales unproven (0); AI commerce SaaS not crowded but very early brand (0-1)",
+  "up_and_coming": true,
+  "flags": [
+   "valuation reported, not confirmed (Dealroom EV est USD 240-360M)",
+   "founded 2025, very early stage",
+   "headcount ~65, near floor"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale via USD 118M raised incl. priced USD 60M Series A (May 2026) and 51+ staff; very early-stage B2B with unproven multi-market footprint and modest marketing budget.",
+  "best_angle": "Fresh USD 60M Series A and US expansion push - F1 B2B hospitality could signal scale to enterprise DTC brands.",
+  "sources": [
+   "https://www.shopifreaks.com/zyg-raises-60m-series-a-led-by-accel-to-build-an-agentic-operating-system-for-e-commerce-scale/",
+   "https://cfotech.news/story/zyg-raises-usd-60-million-to-scale-ai-commerce-tools",
+   "https://www.caplight.com/company/zyg",
+   "https://dealroom.co/companies/zyg-/",
+   "https://builtin.com/company/zyg"
+  ]
+ },
+ {
+  "id": "kids2.com",
+  "company": "Kids2",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "kids2.com",
+  "hq": "Atlanta, Georgia, USA",
+  "ownership": "Private, family/founder-owned",
+  "sells": "Baby and toddler products (Baby Einstein, Bright Starts, Ingenuity, Summer by Ingenuity)",
+  "headcount_band": "501-1,000 (~545-800, 2025-26 est)",
+  "revenue": "~USD 204-350M (est, ZoomInfo/Clodura, undated)",
+  "valuation": "Undisclosed",
+  "latest_raise": "None (privately held)",
+  "fit_score": 3,
+  "fit_detail": "Sells in 90+ countries via 12 offices (1); affluent parents 25-40 (1); baby products do not map to performance/technology (0); category not on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue est only, sources conflict",
+   "weak audience match with F1 fan base",
+   "licenses Ford (2017-19) - not an F1 tie"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on USD 150-500M revenue route (est); no F1 tie found; baby-products story is a weak match for F1.",
+  "best_angle": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kids_II,_Inc.",
+   "https://www.zoominfo.com/c/kids-2-llc/37752181",
+   "https://www.clodura.ai/directory/company/kids2",
+   "https://www.kids2.com/blogs/newsroom/kids-ii-reimagines-licensing-partnerships-creates-new-experiences-for-babies-and-toddlers-connecting-bright-starts-with-iconic-brands"
+  ]
+ },
+ {
+  "id": "crowholdings.com",
+  "company": "Crow Holdings",
+  "sector_tab": "X Real Estate",
+  "domain": "crowholdings.com",
+  "hq": "Dallas, Texas, USA",
+  "ownership": "Private, Crow family-owned",
+  "sells": "Real estate investment management and development (industrial, multifamily, etc.)",
+  "headcount_band": "201-500 (~175-450 est, conflicting)",
+  "revenue": "Undisclosed; fee revenue est USD 150M+ on ~USD 32-34B AUM (2025, est)",
+  "valuation": "Undisclosed",
+  "latest_raise": "n/a (fund manager)",
+  "fit_score": 1,
+  "fit_detail": "US-only footprint (0); senior institutional investors (1); no performance/tech story (0); real estate not crowded on grid but no brand ambition (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "scale on estimated fee revenue only (est)",
+   "US-only",
+   "Crow family political/reputational profile - check"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Scale rests on estimated fee revenue; US-only B2B real-estate investor with no brand ambition (fit 1).",
+  "best_angle": "",
+  "sources": [
+   "https://www.businesswire.com/news/home/20250609940253/en/Crow-Holdings-Announces-Paul-Mouchakkaa-Has-Joined-the-Investment-Team-as-Senior-Managing-Director-of-Real-Estate",
+   "https://hub.ipe.com/asset-manager/crow-holdings-capital-real-estate/overview/10070396.supplierarticle",
+   "https://privateequitylist.com/investors/crow-holdings"
+  ]
+ },
+ {
+  "id": "lovevery.com",
+  "company": "Lovevery",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "lovevery.com",
+  "hq": "Boise, Idaho, USA",
+  "ownership": "Private, VC/PE-backed (TCG-led Series C)",
+  "sells": "DTC early-childhood play kits and toys (US, UK, Canada, Australia, EU)",
+  "headcount_band": "201-500 (~387, 2026 est)",
+  "revenue": "USD 226M FY2023 (Axios, company-stated); 2024 possibly ~USD 111M (Latka est, unreliable)",
+  "valuation": "Undisclosed (Latka ~USD 332M est)",
+  "latest_raise": "USD 100M Series C (Jun 2021) - outside 36 months",
+  "fit_score": 3,
+  "fit_detail": "Sells in US, UK, CA, AU (1); affluent parents 25-40 (1); child-development story does not map to performance (0); category not on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue conflict: may have dropped below USD 150M in 2024 (est) - verify",
+   "layoffs reported",
+   "weak audience match with F1"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on USD 226M FY2023 revenue but current revenue unverified and possibly declining; audience match with F1 is weak.",
+  "best_angle": "",
+  "sources": [
+   "https://www.axios.com/pro/retail-deals/2024/03/27/ipo-candidate-lovevery-increases-revenue-early-childhood-development",
+   "https://www.fastcompany.com/91036695/lovevery-most-innovative-companies-2024",
+   "https://getlatka.com/companies/Lovevery",
+   "https://www.aol.com/boise-baby-toy-maker-lays-100000554.html"
+  ]
+ },
+ {
+  "id": "accel-kkr.com",
+  "company": "Accel-KKR",
+  "sector_tab": "X Asset Mgmt & PE",
+  "domain": "accel-kkr.com",
+  "hq": "Menlo Park, California, USA",
+  "ownership": "Private partnership, independent (co-founded by Accel and KKR in 2000; no controlling parent)",
+  "sells": "Private equity and credit for lower/mid-market software and tech companies (US, Europe)",
+  "headcount_band": "201-500 (~352, Mar 2026)",
+  "revenue": "Fee revenue est USD 150-250M (est) on ~USD 20B+ capital commitments",
+  "valuation": "Undisclosed",
+  "latest_raise": "n/a (fund manager)",
+  "fit_score": 1,
+  "fit_detail": "US/Europe (UK) offices only (0); senior B2B/LP audience (1); generic investing story (0); PE not on crowded list but no consumer brand (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "scale on estimated fee revenue only (est)",
+   "B2B/LP audience"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Scale rests on estimated fee revenue; B2B investor with no brand ambition (fit 1).",
+  "best_angle": "",
+  "sources": [
+   "https://www.reveliolabs.com/companies/accel-kkr/employees",
+   "https://www.vcaonline.com/news/2020102921/accel-kkr-announces-close-of-640-million-emerging-buyout-partners-lp-fund-focused-on-small-cap-software-companies/",
+   "https://privateequitylist.com/investors/accel-kkr"
+  ]
+ },
+ {
+  "id": "bombas.com",
+  "company": "Bombas",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "bombas.com",
+  "hq": "New York, NY, USA",
+  "ownership": "Private, founder/VC-backed",
+  "sells": "DTC and wholesale socks, apparel, footwear (mainly US)",
+  "headcount_band": "201-500 (est, sources conflict)",
+  "revenue": "~USD 325M 2024 (est); 2025 projected up to ~USD 500M (est)",
+  "valuation": "Undisclosed",
+  "latest_raise": "None recent",
+  "fit_score": 2,
+  "fit_detail": "Mainly US sales (0); affluent 25-54 (1); comfort/purpose story, not performance (0); apparel basics not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue est only",
+   "mainly US market",
+   "new CEO Jason LaRose (May 2025)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on USD 150-500M revenue route (est); US-centric brand limits global F1 value.",
+  "best_angle": "US-focused consumer brand could use the three US Grands Prix to back its push into performance footwear and wholesale.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bombas",
+   "https://www.causeartist.com/case-studies/bombas",
+   "https://zoominfo.com/c/bombas/357506573",
+   "https://prospeo.io/c/bombas-revenue"
+  ]
+ },
+ {
+  "id": "astorg.com",
+  "company": "Astorg",
+  "sector_tab": "X Asset Mgmt & PE",
+  "domain": "astorg.com",
+  "hq": "Paris, France / Luxembourg",
+  "ownership": "Private partnership, partner-owned",
+  "sells": "European mid/large-cap private equity",
+  "headcount_band": "51-200 (~170 staff; Revelio 1,077 incl. affiliates, Dec 2025)",
+  "revenue": "Fee revenue est EUR 200M+ (est) on >EUR 22-24B AUM (2024-26)",
+  "valuation": "Undisclosed",
+  "latest_raise": "Astorg VIII EUR 4.4B final close (May 2024)",
+  "fit_score": 1,
+  "fit_detail": "Europe/US offices (1); senior LP audience but no brand need (0); no performance story (0); no consumer brand (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "scale on estimated fee revenue only (est)",
+   "B2B/LP audience"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Scale rests on estimated fee revenue; B2B investor with no brand ambition (fit 1).",
+  "best_angle": "",
+  "sources": [
+   "https://www.astorg.com/news/astorg-announces-final-closing-for-astorg-viii-reaching-total-capital-committed-of-4-4bn-astorg-expands-its-executive-committee",
+   "https://stblaw.com/about-us/news/view/2024/05/17/astorg-closes-eighth-flagship-fund-at-4.4-billion",
+   "https://www.reveliolabs.com/companies/astorg/employees/",
+   "https://privateequitylist.com/investors/astorg-partners"
+  ]
+ },
+ {
+  "id": "scribdinc.com",
+  "company": "Scribd (Everand, SlideShare)",
+  "sector_tab": "29 Tech Media & Gaming",
+  "domain": "scribdinc.com",
+  "hq": "San Francisco, California, USA",
+  "ownership": "Private, VC-backed",
+  "sells": "Subscription reading platforms: Scribd, Everand, SlideShare, Fable",
+  "headcount_band": "201-500 (~450-463, 2025-Q1 2026)",
+  "revenue": "~USD 167M (Latka est, undated)",
+  "valuation": "~USD 1B (2019, stale)",
+  "latest_raise": "USD 58M (2019) - outside 36 months",
+  "fit_score": 2,
+  "fit_detail": "Global subscribers in 3+ F1 markets (1); broad, not specifically affluent (0); no performance story (0); category not on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue est only, near USD 150M floor",
+   "valuation stale (2019)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on USD 150-500M revenue route only on estimate near the floor; modest fit and marketing budget.",
+  "best_angle": "",
+  "sources": [
+   "https://getlatka.com/blog/how-reading-subscription-service-scribd-hit-1-million-paying-users-without-relying-on-advertising/",
+   "https://www.reveliolabs.com/companies/scribd/employees",
+   "https://www.builtinnyc.com/company/scribd-inc"
+  ]
+ },
+ {
+  "id": "riversidecompany.com",
+  "company": "The Riverside Company",
+  "sector_tab": "X Asset Mgmt & PE",
+  "domain": "riversidecompany.com",
+  "hq": "New York, NY / Cleveland, Ohio, USA",
+  "ownership": "Private partnership, partner-owned",
+  "sells": "Lower-mid-market private equity across 10 countries",
+  "headcount_band": "201-500 (~350, 2025 est)",
+  "revenue": "Fee revenue est ~USD 150M (est) on >USD 14B AUM",
+  "valuation": "Undisclosed",
+  "latest_raise": "n/a (fund manager)",
+  "fit_score": 1,
+  "fit_detail": "Offices in 10 countries (1); senior LP/B2B audience but no brand need (0); no performance story (0); no consumer brand (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "scale on estimated fee revenue only (est)",
+   "B2B/LP audience",
+   "former owner of VI-grade (F1 simulator supplier) - sold to Spectris, not a current tie"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Scale rests on estimated fee revenue near the USD 150M floor; B2B investor with no brand ambition (fit 1).",
+  "best_angle": "",
+  "sources": [
+   "https://investmentnews.com/companies/riverside-company/257316",
+   "https://privateequitylist.com/investor/the-riverside-company",
+   "https://fintrx.com/firms/firm/the-riverside-company-160523",
+   "https://www.businesswire.com/news/home/20211110005269/en"
+  ]
+ },
+ {
+  "id": "tcv.com",
+  "company": "TCV",
+  "sector_tab": "X Asset Mgmt & PE",
+  "domain": "tcv.com",
+  "hq": "Menlo Park, California, USA",
+  "ownership": "Private partnership, partner-owned",
+  "sells": "Growth-equity investing in technology companies (US, Europe)",
+  "headcount_band": "51-200 (~150 est)",
+  "revenue": "Fee revenue est USD 150M+ (est) on ~USD 20-22B AUM (Mar 2026)",
+  "valuation": "Undisclosed",
+  "latest_raise": "TCV XII ~USD 3B (2024 vintage, PitchBook)",
+  "fit_score": 1,
+  "fit_detail": "US/Europe (UK, DE) (1); senior B2B/founder audience but no brand need (0); tech story weak link (0); no consumer brand (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "scale on estimated fee revenue only (est)",
+   "B2B/LP audience"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Scale rests on estimated fee revenue; B2B investor with no brand ambition (fit 1).",
+  "best_angle": "",
+  "sources": [
+   "https://pitchbook.com/profiles/fund/21587-32F",
+   "https://www.tiburonadvisors.com/RRAP/200/TCMI_Technology_Crossover_Ventures/TCMI_Technology_Crossover_Ventures.html",
+   "https://hub.waveup.com/funds/technology-crossover-ventures-tcv"
+  ]
+ }
+]

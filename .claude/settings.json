@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Apollo_io__*",
+      "mcp__Clay__*",
+      "mcp__Lusha__*",
+      "mcp__Google_Drive__*",
+      "WebSearch",
+      "WebFetch"
+    ]
+  }
+}

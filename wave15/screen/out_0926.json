@@ -1,0 +1,36 @@
+[
+{
+"id": "devicemed.de",
+"company": "DeviceMed",
+"keep": false,
+"reason": "quick triage: small publisher or brand site",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+},
+{
+"id": "wolterskluwer.nl",
+"company": "ArbeidsRecht, maandblad voor de praktijk",
+"keep": false,
+"reason": "quick triage: small publisher or brand site",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+}
+]

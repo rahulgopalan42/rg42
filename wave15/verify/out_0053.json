@@ -1,0 +1,299 @@
+[
+ {
+  "id": "hayfin.com",
+  "company": "Hayfin Capital Management",
+  "sector_tab": "X Asset Mgmt & PE",
+  "domain": "hayfin.com",
+  "hq": "London, UK",
+  "ownership": "Management-owned majority of common equity after Arctos-backed MBO (completed Feb 2025); Arctos, Mubadala, AXA IM Prime minority",
+  "sells": "Private credit, liquid credit and secondaries for institutional investors (Europe, US)",
+  "headcount_band": "201-500 (~250 est)",
+  "revenue": "Fee revenue est USD 200M+ (est) on ~EUR 33B / USD 38B AUM (Feb-Jul 2025)",
+  "valuation": "Undisclosed",
+  "latest_raise": "n/a (fund manager; MBO Feb 2025)",
+  "fit_score": 1,
+  "fit_detail": "Europe/US offices (1); LP audience, no brand need (0); no performance story (0); credit close to banking/finance on grid (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "scale on estimated fee revenue only (est)",
+   "B2B/LP audience",
+   "minority holder Arctos is a minority investor in Aston Martin F1 (investor, not sponsor)"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Scale rests on estimated fee revenue; B2B credit manager with no brand ambition (fit 1).",
+  "best_angle": "",
+  "sources": [
+   "https://www.businesswire.com/news/home/20240730669345/en/Hayfin-Agrees-to-Arctos-Backed-Management-Buyout",
+   "https://alternativecreditinvestor.com/2025/02/10/hayfin-completes-arctos-backed-management-buyout/",
+   "https://www.macfarlanes.com/insights/102kxsn/macfarlanes-advises-hayfin-on-strategic-minority-partnerships-with-mubadala-and-a",
+   "https://www.sportbusiness.com/news/pe-firm-arctos-invests-in-aston-martin-f1-red-bull-renews-tag-sponsorship/"
+  ]
+ },
+ {
+  "id": "sendbird.com",
+  "company": "Sendbird",
+  "sector_tab": "06 UCaaS & CPaaS",
+  "domain": "sendbird.com",
+  "hq": "San Mateo, California, USA / Seoul, South Korea",
+  "ownership": "Private, VC-backed (Steadfast, SoftBank Vision Fund 2, Tiger)",
+  "sells": "Chat, voice and AI-agent communication APIs",
+  "headcount_band": "201-500 (~170-250, 2025-26 est)",
+  "revenue": "~USD 40M 2024 (Latka est)",
+  "valuation": "USD 1.05B at Series C (Apr 2021, stale); secondary est ~USD 0.1B (TrueUp, 2025-26 est)",
+  "latest_raise": "USD 100M Series C (Apr 2021) - outside 36 months",
+  "fit_score": 2,
+  "fit_detail": "Global customers (1); senior B2B developers/product buyers (1); AI-agent story weak link to performance (0); CPaaS not crowded but small brand (0)",
+  "up_and_coming": false,
+  "flags": [
+   "valuation stale (2021), secondary marks ~90% lower (est)",
+   "layoffs reported May 2025"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Scale fails: only USD 1B+ valuation is the Apr 2021 Series C (stale, secondary marks ~USD 0.1B est), no USD 100M+ raise in 36 months, revenue ~USD 40M (2024 est).",
+  "best_angle": "",
+  "sources": [
+   "https://www.fenwick.com/insights/experience/fenwick-represents-sendbird-in-100-million-series-c-financing",
+   "https://www.trueup.io/co/sendbird",
+   "https://getlatka.com/companies/sendbird",
+   "https://dealroom.co/companies/sendbird/"
+  ]
+ },
+ {
+  "id": "stxgroup.com",
+  "company": "STX Group",
+  "sector_tab": "02 Energy & Industrial",
+  "domain": "stxgroup.com",
+  "hq": "Amsterdam, Netherlands",
+  "ownership": "Private (formerly PE-backed; current holders undisclosed)",
+  "sells": "Environmental commodities trading (EACs, carbon credits, biofuels, RNG) and climate solutions",
+  "headcount_band": "501-1,000 (~595, Dec 2025)",
+  "revenue": "Undisclosed; trading volume >EUR 4B (older, est); 410 TWh EACs traded FY25",
+  "valuation": "Undisclosed",
+  "latest_raise": "None disclosed",
+  "fit_score": 2,
+  "fit_detail": "11 offices across Europe, US, Asia (1); senior corporate sustainability/energy buyers (1); trading story not performance (0); fuels/energy adjacent to crowded oil category (0)",
+  "up_and_coming": false,
+  "flags": [
+   "scale unverified: revenue undisclosed, trading volume is gross notional (est)",
+   "ownership unclear"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Scale only via gross trading volume (EUR 4B+, est) - net revenue undisclosed; B2B trader with limited brand motive.",
+  "best_angle": "F1's 2026 shift to 100% sustainable fuel ties into STX's biofuels and certificates trading.",
+  "sources": [
+   "https://sefa.nl/company/stx-commodities/",
+   "https://www.reveliolabs.com/companies/stx-group/employees/",
+   "https://www.qcintel.com/biofuels/article/stx-group-acquires-renewable-feedstock-trader-32836.html",
+   "https://bitscale.ai/directory/stx-group"
+  ]
+ },
+ {
+  "id": "oakleycapital.com",
+  "company": "Oakley Capital",
+  "sector_tab": "X Asset Mgmt & PE",
+  "domain": "oakleycapital.com",
+  "hq": "London, UK",
+  "ownership": "Private partnership, founder/partner-owned (Peter Dubens)",
+  "sells": "Mid-market PE in founder-led European tech, consumer, education, business services",
+  "headcount_band": "51-200 (~150 est)",
+  "revenue": "Fee revenue est USD 150M+ (est) on ~EUR 12-15B+ AUM incl. EUR 4.5B Fund VI (Mar 2025)",
+  "valuation": "Undisclosed (listed feeder OCI NAV GBP 1.23B, Dec 2025)",
+  "latest_raise": "Fund VI EUR 4.5B hard cap (Mar 2025)",
+  "fit_score": 1,
+  "fit_detail": "UK/Europe (1); LP audience, no brand need (0); no performance story (0); no consumer brand (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "scale on estimated fee revenue only (est)",
+   "B2B/LP audience",
+   "Christian Horner advising on sports investments (May 2026); Horner linked to Alpine 24% stake - confirm before outreach"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Scale rests on estimated fee revenue; B2B investor with no brand ambition (fit 1); possible Alpine stake interest via Horner.",
+  "best_angle": "",
+  "sources": [
+   "https://www.oakleycapital.com/news-folder/oakley-capital-closes-fund-vi-at-45-billion-hard-cap/",
+   "https://www.oakleycapital.com/about/key-milestones/",
+   "https://www.sportcal.com/newsletters/oakley-capital-taps-ex-red-bull-horner-to-advise-sports-partnerships",
+   "https://www.the-race.com/formula-1/horner-in-talks-over-alpine-buy-in-briatore/"
+  ]
+ },
+ {
+  "id": "generationim.com",
+  "company": "Generation Investment Management",
+  "sector_tab": "X Asset Mgmt & PE",
+  "domain": "generationim.com",
+  "hq": "London, UK",
+  "ownership": "Private partnership, partner-owned",
+  "sells": "Sustainable public equity, growth equity and credit investing",
+  "headcount_band": "51-200 (~160, mid-2024)",
+  "revenue": "Fee revenue est USD 200M+ (est) on USD 33.8B AUM (mid-2024)",
+  "valuation": "Undisclosed",
+  "latest_raise": "n/a (fund manager)",
+  "fit_score": 1,
+  "fit_detail": "London/US/(Asia) presence (1); LP audience, no brand need (0); sustainability story, not performance (0); no consumer brand (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "scale on estimated fee revenue only (est)",
+   "B2B/LP audience"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Scale rests on estimated fee revenue; B2B investor with no brand ambition (fit 1).",
+  "best_angle": "",
+  "sources": [
+   "https://www.investmentnews.com/companies/generation-investment-management-llp/257301",
+   "https://www.caplight.com/investor/generation-investment-management-1",
+   "https://fintrx.com/firms/firm/generation-investment-management-us-llp-132728"
+  ]
+ },
+ {
+  "id": "redotpay.com",
+  "company": "RedotPay",
+  "sector_tab": "12 Trading & Crypto",
+  "domain": "redotpay.com",
+  "hq": "Hong Kong",
+  "ownership": "Private, VC-backed",
+  "sells": "Stablecoin-funded payment cards and crypto payments app",
+  "headcount_band": "201-500 (~300 est)",
+  "revenue": "Undisclosed",
+  "valuation": "USD 1B+ (Sep-Dec 2025, reported); IPO talk at USD 4B+ (Feb 2026, reported)",
+  "latest_raise": "USD 107M Series B (Dec 2025); USD 194M across 3 rounds in 2025",
+  "fit_score": 2,
+  "fit_detail": "Global users (1); younger crypto users, partly affluent (0); fintech/tech story (1); crypto crowded on grid (0)",
+  "up_and_coming": true,
+  "flags": [
+   "crypto category crowded on grid",
+   "US IPO delayed pending licences (Aug 2026)",
+   "Binance affiliates lawsuit ~USD 473M",
+   "heavy senior executive turnover, no CFO"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (USD 1B+ valuation, USD 107M Series B Dec 2025) but crypto category crowded and legal/governance issues.",
+  "best_angle": "US money-transmitter licence and planned US launch - F1's US races could support a market entry.",
+  "sources": [
+   "https://cointelegraph.com/news/redotpay-eyes-us-ipo-1b-4b-valuation",
+   "https://cointelegraph.com/news/redotpay-us-license-ipo-delay-binance-report",
+   "https://news.bloomberglaw.com/crypto/stablecoin-payments-firm-redotpay-said-to-mull-1-billion-us-ipo",
+   "https://crypto.jobs/news/crypto-payment-unicorn-redotpay-seeks-150m-funding-round-before-us-ipo"
+  ]
+ },
+ {
+  "id": "firmdalehotels.com",
+  "company": "Firmdale Hotels",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "firmdalehotels.com",
+  "hq": "London, UK",
+  "ownership": "Private, Kemp family-owned",
+  "sells": "11 luxury boutique hotels in London and New York",
+  "headcount_band": "1,001-5,000 (1,840+, FY to Jan 2026)",
+  "revenue": "GBP 232M (~USD 310M) FY to 31 Jan 2026",
+  "valuation": "Undisclosed (property assets >GBP 1.2B)",
+  "latest_raise": "None",
+  "fit_score": 2,
+  "fit_detail": "Only UK and US (0); affluent 25-54 travellers (1); design-led story, not performance (0); boutique hotels not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "two markets only"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on GBP 232M revenue (FY Jan 2026, USD 150-500M route); only two markets limits F1 value.",
+  "best_angle": "",
+  "sources": [
+   "https://www.yorkshirepost.co.uk/must-read/firmdale-hotels-record-turnover-2026-8829855",
+   "https://www.scotsman.com/must-read/firmdale-hotels-record-turnover-2026-8829855"
+  ]
+ },
+ {
+  "id": "demandscience.com",
+  "company": "DemandScience",
+  "sector_tab": "07 Marketing & Sales",
+  "domain": "demandscience.com",
+  "hq": "Wilmington, Delaware / Cambridge, Massachusetts, USA",
+  "ownership": "Private (PE backing reported, unverified)",
+  "sells": "B2B demand generation, intent data and ABM (owns Terminus)",
+  "headcount_band": "1,001-5,000 (~1,100, 2026 est)",
+  "revenue": "USD 145M 2021 (company); 2024-25 est USD 200-380M (Latka/Prospeo est)",
+  "valuation": "Undisclosed",
+  "latest_raise": "None disclosed",
+  "fit_score": 2,
+  "fit_detail": "Operates in 15 countries (1); senior B2B marketing buyers (1); data story weak link to performance (0); martech crowded with Salesforce etc. (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue unverified since 2021",
+   "reported layoffs/org changes (employee reviews)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Scale on estimated revenue only (last company figure USD 145M in 2021); B2B with limited brand ambition.",
+  "best_angle": "",
+  "sources": [
+   "https://www.businesswire.com/news/home/20220119005045/en/DemandScience-Names-CEO-Peter-Cannone-Chair-of-the-Board-of-Directors-as-Company-Posts-Record-Revenue-of-145-Million-and-120-Year-Over-Year-Revenue-Growth",
+   "https://getlatka.com/companies/demandscience",
+   "https://prospeo.io/c/demandscience-revenue"
+  ]
+ },
+ {
+  "id": "chapsvision.com",
+  "company": "ChapsVision",
+  "sector_tab": "17 AI Cloud & Data",
+  "domain": "chapsvision.com",
+  "hq": "Paris, France",
+  "ownership": "Private, founder-led with Tikehau, Bpifrance, Qualium, Geneo, Jolt",
+  "sells": "Sovereign data processing, AI, OSINT, translation (Systran) and search (Sinequa) software",
+  "headcount_band": "1,001-5,000 (~1,000, Nov 2024)",
+  "revenue": "Target >EUR 200M (2024, company guidance); EUR 100M 2022",
+  "valuation": "Undisclosed",
+  "latest_raise": "EUR 85M (Nov 2024); EUR 90M (Sep 2023, just outside 36 months)",
+  "fit_score": 2,
+  "fit_detail": "Mostly France/EU (0); senior gov/enterprise buyers (1); AI/data technology story (1); data/cyber adjacent to crowded categories (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue is guidance, not reported",
+   "mostly French/EU government buyers",
+   "IPO plan (2025) unconfirmed"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes on revenue route (EUR 200M+ 2024 guidance) but domestic government-facing B2B with no brand ambition.",
+  "best_angle": "",
+  "sources": [
+   "https://www.tradingsat.com/tikehau-capital-FR0013230612/actualites/tikehau-capital-tikehau-levee-de-fonds-et-rachat-dans-l-ia-pour-chapsvision-1127362.html",
+   "https://next.ink/brief-article/avec-sinequa-chapsvision-opere-sa-27e-acquisition-en-cinq-ans-dexistence/",
+   "https://www.cfnews.net/L-actualite/Build-up/ChapsVision-collecte-une-cible-et-un-nouveau-tour-507015"
+  ]
+ },
+ {
+  "id": "ineratec.de",
+  "company": "INERATEC",
+  "sector_tab": "02 Energy & Industrial",
+  "domain": "ineratec.de",
+  "hq": "Karlsruhe, Germany",
+  "ownership": "Private, VC/strategic-backed (Piva Capital, Honda, Idemitsu, Engie, Safran, HTGF)",
+  "sells": "Modular power-to-liquid e-fuel and e-chemical plants and synthetic fuels",
+  "headcount_band": "51-200 (~145-250 est)",
+  "revenue": "Undisclosed (pre-scale)",
+  "valuation": "Undisclosed",
+  "latest_raise": "USD 129M Series B led by Piva Capital (Jan 2024); Idemitsu strategic investment (Nov 2025)",
+  "fit_score": 3,
+  "fit_detail": "Projects in Germany, Netherlands, Chile, Japan (1); senior B2B energy/aviation buyers (1); sustainable-fuel technology story (1); fuels category crowded on grid (0)",
+  "up_and_coming": true,
+  "flags": [
+   "minority holder Honda supplies F1 power units (Aston Martin from 2026) - cap Stretch",
+   "fuel category crowded",
+   "Series B at 33 months, near 36-month edge",
+   "market expansion: Germany -> Japan (Idemitsu, 2025)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale via USD 129M Series B (Jan 2024); capped at Stretch because minority holder Honda is an F1 power-unit supplier.",
+  "best_angle": "F1's 2026 switch to 100% sustainable fuel makes e-fuels a direct technical story.",
+  "sources": [
+   "https://www.htgf.de/en/ineratec-series-b/",
+   "https://pulse2.com/ineratec-e-fuel-company-closes-129-million-in-funding",
+   "https://xcelerator.hondainnovations.com/?p=2669",
+   "https://xcelerator.hondainnovations.com/?p=3580"
+  ]
+ }
+]

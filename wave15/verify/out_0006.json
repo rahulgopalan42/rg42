@@ -1,0 +1,289 @@
+[
+ {
+  "id": "palladiumhotelgroup.com",
+  "company": "Palladium Hotel Group",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "palladiumhotelgroup.com",
+  "hq": "Ibiza / Madrid, Spain",
+  "ownership": "Private; hotel arm of Grupo Empresas Matutes (Matutes family)",
+  "sells": "~45-50 hotels (Grand Palladium, TRS, Ushuaia, BLESS, Hard Rock Hotels under licence) in Spain, Italy, Mexico, Dominican Republic, Jamaica, Brazil",
+  "headcount_band": "10,001+ (13,000+, company)",
+  "revenue": "EUR 1.162B managed business volume 2025; ~EUR 1.07B 2024",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets (ES, IT, MX, BR); affluent leisure travellers 25-54; party/leisure story does not map to performance; hotels not on crowded list",
+  "up_and_coming": false,
+  "flags": [
+   "group brand: Grupo Empresas Matutes",
+   "operates Hard Rock Hotels under licence - Hard Rock is Miami GP founding partner (licensor, not controlled); avoid Hard Rock properties in pitch"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes revenue route (EUR 1.16B 2025); no F1 tie for Palladium or Matutes; separately marketed consumer hotel brands.",
+  "best_angle": "Ushuaia/TRS lifestyle brands match F1's young affluent audience at Spanish, Mexican and Brazilian races.",
+  "sources": [
+   "https://www.hospitalitynet.org/news/4130556.html",
+   "https://en.10minhotel.com/?p=204365",
+   "https://www.clodura.ai/directory/company/palladium-hotel-group",
+   "https://www.hospitalityinvestor.com/investment/matutes-family-scaling-success-through-palladium-hotel-group",
+   "https://www.sportbusiness.com/news/f1-miami-grand-prix-adds-hard-rock-to-sponsorship-portfolio/"
+  ]
+ },
+ {
+  "id": "sandals.com",
+  "company": "Sandals Resorts International",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "sandals.com",
+  "hq": "Montego Bay, Jamaica",
+  "ownership": "Private, Stewart family; Royal Caribbean agreed 23 Sep 2026 to buy 50% (USD ~3B, 50/50 JV, close early 2027)",
+  "sells": "Sandals and Beaches luxury all-inclusive resorts across the Caribbean; guests mainly from US, UK, Canada",
+  "headcount_band": "10,001+ (18,000+, company; +7,000 jobs planned Sep 2026)",
+  "revenue": "n/a (undisclosed); implied EBITDA ~USD 600M (Sep 2026, est)",
+  "valuation": "Implied EV ~USD 6B (Royal Caribbean deal, Sep 2026)",
+  "latest_raise": "n/a (strategic 50% sale, not a priced round)",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets by guest source (US, UK, CA); affluent couples 25-54; romance/leisure story does not map to performance; resorts not on crowded list",
+  "up_and_coming": true,
+  "flags": [
+   "ownership change pending: Royal Caribbean 50/50 JV (close early 2027)",
+   "market expansion: Caribbean -> beyond Caribbean (announced Sep 2026)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes valuation route (implied EV ~USD 6B, Sep 2026); reservation: pending 50% sale to Royal Caribbean may shift marketing decisions to the JV board.",
+  "best_angle": "Expansion beyond the Caribbean and new JV capital give a reason to build global brand reach with F1's US/UK affluent audience.",
+  "sources": [
+   "https://jamaica-gleaner.com/article/business/20260925/sandals-earn-about-us600m-year-royal-caribbean-deal-implies",
+   "https://jamaica-gleaner.com/article/business/20260927/sandals-adding-7000-jobs-expanding-beyond-caribbean",
+   "https://www.seatrade-cruise.com/finance-legal-regulatory/it-s-official-royal-caribbean-acquiring-50-of-sandals-resorts",
+   "https://www.hl.co.uk/shares/stock-market-news/company--news/royal-caribbean-takes-50-stake-in-sandals-for-$3bn",
+   "https://en.wikipedia.org/wiki/Sandals_Resorts"
+  ]
+ },
+ {
+  "id": "goldbeck.de",
+  "company": "GOLDBECK",
+  "sector_tab": "39 Construction & Field Svc",
+  "domain": "goldbeck.de",
+  "hq": "Bielefeld, Germany",
+  "ownership": "Private, family-owned (Goldbeck family)",
+  "sells": "Industrialised (system) construction of logistics, office, parking and school buildings; Germany plus AT, CH, NL, UK, PL, CZ and other European markets",
+  "headcount_band": "10,001+ (~14,000, FY2025/26)",
+  "revenue": "EUR 6.3B+ total output FY2025/26; ~EUR 6.4B earlier year (est)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets (AT, NL, UK); senior B2B real-estate/industrial buyers; precision industrialised-building story; construction not on crowded list",
+  "up_and_coming": false,
+  "flags": [
+   "Germany-centric B2B builder",
+   "sports sponsorship history not verified"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes revenue route (EUR 6.3B+); reservation: mostly German B2B construction, international brand motive unproven.",
+  "best_angle": "",
+  "sources": [
+   "https://www.stepstone.de/cmp/de/goldbeck-gmbh-150914/jobs/in-europa",
+   "https://de.indeed.com/cmp/Goldbeck",
+   "https://iqb.de/?p=85049"
+  ]
+ },
+ {
+  "id": "starrcompanies.com",
+  "company": "Starr Insurance Companies",
+  "sector_tab": "01 Banking & Insurance",
+  "domain": "starrcompanies.com",
+  "hq": "New York, US",
+  "ownership": "Private (C.V. Starr & Co.; Maurice Greenberg family-controlled)",
+  "sells": "Commercial P&C, aviation, marine, energy, A&H and specialty (re)insurance in 170+ countries; Lloyd's Syndicates 1919/1856/218",
+  "headcount_band": "5,001-10,000 (~5,700, Sep 2025)",
+  "revenue": "n/a (not disclosed; multi-billion GWP est); acquired IQUW (USD 1.88B GWP 2025) 23 Mar 2026",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets; senior B2B risk buyers; global specialty/aviation story; insurance/financial category crowded (Marsh F1 Official Insurance partner) = 0",
+  "up_and_coming": false,
+  "flags": [
+   "revenue not disclosed - scale inferred (est)",
+   "active sports sponsor: NY Yankees jersey patch (2023)",
+   "acquisitive: IQUW closed Mar 2026, now 9th-largest Lloyd's agency"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes revenue route (multi-billion premiums, est); no F1 tie found; proven big-ticket sports buyer.",
+  "best_angle": "Post-IQUW global specialty platform and Yankees precedent suggest appetite for a global sports property to build international brand.",
+  "sources": [
+   "https://www.starr.com/uk/news/starr-completes-acquisition-of-iquw-group",
+   "https://www.reinsurancene.ws/starr-completes-iquw-deal-strengthens-specialty-re-insurance-presence/",
+   "https://www.reveliolabs.com/companies/starr-international-united-states/employees",
+   "https://en.wikipedia.org/wiki/Starr_Companies"
+  ]
+ },
+ {
+  "id": "morganlewis.com",
+  "company": "Morgan, Lewis & Bockius LLP",
+  "sector_tab": "50 Law Firms & Legal AI",
+  "domain": "morganlewis.com",
+  "hq": "Philadelphia, US",
+  "ownership": "Private partnership",
+  "sells": "Full-service corporate law in 30+ offices across US, Europe, Asia and Middle East",
+  "headcount_band": "1,001-5,000 (2,200+ lawyers; ~5,000 total staff est)",
+  "revenue": "~USD 3.36B 2025 (est, third-party)",
+  "valuation": "n/a (partnership)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets (US, UK, SG, UAE, CN); senior B2B buyers; global-ambition story only partial; legal not on crowded list",
+  "up_and_coming": false,
+  "flags": [
+   "adviser to MSP Sports Capital on McLaren Racing stake purchase (2020) and sale (Sep 2025) - adviser only, not a sponsor",
+   "revenue figures are third-party estimates"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes revenue route (~USD 3.4B est); no sponsorship tie; reservation: large law firms rarely buy brand sponsorship.",
+  "best_angle": "",
+  "sources": [
+   "https://www.nonbillable.co.uk/law-firms/morgan-lewis",
+   "https://matrixbcg.com/blogs/competitors/morganlewis",
+   "https://www.morganlewis.com/news/2025/09/morgan-lewis-advises-msp-sports-capital-in-sale-of-interest-in-mclaren-racing",
+   "https://www.morganlewis.com/news/2020/12/morgan-lewis-advises-msp-sports-capital-in-acquisition-of-mclaren-racing-shares"
+  ]
+ },
+ {
+  "id": "amaris.com",
+  "company": "Amaris Consulting",
+  "sector_tab": "25 IT Services & Consulting",
+  "domain": "amaris.com",
+  "hq": "Geneva, Switzerland",
+  "ownership": "Private, founder-owned",
+  "sells": "Technology, engineering, life-sciences and IT consulting in 60+ countries",
+  "headcount_band": "5,001-10,000 (7,600+, company)",
+  "revenue": "~USD 1.16-1.2B (est, third-party)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 4,
+  "fit_detail": "3+ F1 markets (FR, UK, ES, CA, SG, AU); senior B2B buyers; tech/engineering story; consulting not on crowded list",
+  "up_and_coming": false,
+  "flags": [
+   "revenue estimates only (third-party)"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes revenue route (~USD 1.2B est); no F1 tie found; fit 4.",
+  "best_angle": "Global footprint across 60+ countries mirrors F1's calendar; F1 offers a recruiting and client-facing brand platform.",
+  "sources": [
+   "https://bitscale.ai/directory/amaris-consulting",
+   "https://www.reveliolabs.com/companies/amaris-group/employees/",
+   "https://rocketreach.co/amaris-profile_b5c70355f42e0d30",
+   "https://www.formula1.com/en/latest/article/formula-1-welcomes-pwc-as-official-consulting-partner.jLK5v2MLA3QKOFtwcHLN8"
+  ]
+ },
+ {
+  "id": "fm.com",
+  "company": "FM (FM Global)",
+  "sector_tab": "01 Banking & Insurance",
+  "domain": "fm.com",
+  "hq": "Johnston, Rhode Island, US",
+  "ownership": "Mutual (policyholder-owned), Factory Mutual Insurance Company",
+  "sells": "Engineering-based commercial property insurance and loss prevention worldwide",
+  "headcount_band": "5,001-10,000 (~5,500 est)",
+  "revenue": "n/a (2025 group figures not found; gross premium ~USD 9B+ est)",
+  "valuation": "n/a (mutual)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets; senior B2B risk managers; engineering/resilience story; insurance/financial category crowded = 0",
+  "up_and_coming": false,
+  "flags": [
+   "revenue not re-sourced (est only)",
+   "rebranded FM Global -> FM (2024)"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes revenue route (multi-billion premiums, est); no F1 or sports tie found.",
+  "best_angle": "Recent rebrand to 'FM' and an engineering/resilience narrative fit F1's precision story for a C-suite B2B audience.",
+  "sources": [
+   "https://www.fm.com/-/media/project/publicwebsites/fm/files/office-locations/financial-conditions-report-for-the-year-ended-31st-december-2025-incl-appendices.pdf",
+   "https://dbr.ri.gov/media/32711/download"
+  ]
+ },
+ {
+  "id": "blum.com",
+  "company": "Julius Blum GmbH",
+  "sector_tab": "49 Home & Living",
+  "domain": "blum.com",
+  "hq": "Hoechst, Vorarlberg, Austria",
+  "ownership": "Private, family-owned (Blum family)",
+  "sells": "Furniture and kitchen fittings (lift, hinge, box/drawer systems) sold in 120+ markets; 46% EU, 15% US",
+  "headcount_band": "5,001-10,000 (9,950, 1 Jul 2026)",
+  "revenue": "EUR 2,495.44M FY2025/26 (+2.4%)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 4,
+  "fit_detail": "3+ F1 markets; senior B2B buyers (kitchen/furniture makers) and premium homeowners; precision engineering story; fittings not on crowded list",
+  "up_and_coming": false,
+  "flags": [
+   "mainly B2B; consumer brand via 'Blum inside' kitchens"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes revenue route (EUR 2.5B FY2025/26); no F1 tie found; fit 4.",
+  "best_angle": "Austrian precision-motion engineering maps directly to F1's precision story, with a home race at Spielberg.",
+  "sources": [
+   "https://www.blum.com/at/de/unternehmen/daten-fakten/",
+   "https://www.blum.com/at/de/unternehmen/presse/pressemeldungen-detail_102336.html"
+  ]
+ },
+ {
+  "id": "chamberlaingroup.com",
+  "company": "Chamberlain Group",
+  "sector_tab": "49 Home & Living",
+  "domain": "chamberlaingroup.com",
+  "hq": "Oak Brook, Illinois, US",
+  "ownership": "Private equity: Blackstone (since Nov 2021)",
+  "sells": "LiftMaster/Chamberlain garage-door openers, myQ smart-access platform; mainly North America, plus Europe and Australia",
+  "headcount_band": "5,001-10,000 (~5,600-5,800)",
+  "revenue": "~USD 2B (est, third-party)",
+  "valuation": "n/a (Blackstone portfolio)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets (US, CA, MX/AU/DE); affluent homeowners; smart-access tech story; home access not on crowded list",
+  "up_and_coming": false,
+  "flags": [
+   "mostly US revenue",
+   "past motorsport sponsor: LiftMaster NASCAR (2011-2017, lapsed - not F1)",
+   "PE-owned: possible exit/sale"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes revenue route (~USD 2B est); no F1 tie found; past NASCAR spend shows motorsport marketing appetite.",
+  "best_angle": "myQ's car integrations (Tesla, Mercedes) and F1's US boom suit a connected-home brand already used to motorsport sponsorship.",
+  "sources": [
+   "https://builtinlondon.uk/company/chamberlain-group",
+   "https://prospeo.io/c/chamberlain-group-revenue",
+   "https://www.sportsbusinessdaily.com/Daily/Issues/2015/04/27/Marketing-and-Sponsorship/Liftmaster.aspx",
+   "https://www.jayski.com/2011/01/24/earnhardt-ganassi-racing-sponsor-announcements/"
+  ]
+ },
+ {
+  "id": "autodoc.group",
+  "company": "AUTODOC SE",
+  "sector_tab": "X Retail & E-commerce",
+  "domain": "autodoc.group",
+  "hq": "Berlin, Germany",
+  "ownership": "Private, founder-owned (IPO planned, postponed 2025)",
+  "sells": "Online car parts and accessories retail in ~27 European countries; AUTODOC PRO for workshops",
+  "headcount_band": "1,001-5,000 (~5,000, 2025)",
+  "revenue": "EUR 1,807.9M 2025 (+16.3%); EUR 1,555.0M 2024",
+  "valuation": "n/a (IPO postponed Jun 2025; planned raise up to EUR 464M)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets (DE, FR, IT, ES, UK, NL); mass-market DIY drivers (affluent point withheld); e-commerce tech/performance story; automotive category crowded = 0",
+  "up_and_coming": false,
+  "flags": [
+   "motorsport buyer: official partner of World Rally Championship (not F1)",
+   "IPO postponed 2025"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes revenue route (EUR 1.81B 2025); no F1 tie found; fit 2 with proven motorsport sponsorship (WRC).",
+  "best_angle": "Car-enthusiast audience overlap is direct, and WRC partnership shows Autodoc already uses motorsport for brand building.",
+  "sources": [
+   "https://www.gettex.de/en/news-overview/newsdetail/eqs-news-autodoc-solidifies-european-leadership-with-strong-2025-performance/",
+   "https://www.boerse.de/nachrichten/EQS-News-AUTODOC-Plans-Frankfurt-Stock-Exchange-Listing/37486179",
+   "https://www.aoshearman.com/en/news/autodoc-is-going-public-with-ao-shearman",
+   "https://sponsorship.sportbusiness.com/news/wrc-fixes-up-new-partner-ahead-of-season-opener/"
+  ]
+ }
+]

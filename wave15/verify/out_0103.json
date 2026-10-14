@@ -1,0 +1,203 @@
+[
+ {
+  "id": "exinity.com",
+  "company": "Exinity",
+  "sector_tab": "12 Trading & Crypto",
+  "domain": "exinity.com",
+  "hq": "London, United Kingdom (operations largely offshore)",
+  "ownership": "Private; Exinity Group linked to Andrey Dashin; Alpari brand moved to Parlance Trading",
+  "sells": "Retail FX/CFD brokerage (FXTM), mainly offshore-licensed, Africa/Asia/LatAm clients; gave up Cyprus licence",
+  "headcount_band": "501-1,000 (~800, est)",
+  "revenue": "Not disclosed; USD 44-75M (Datanyze/ZoomInfo/Prospeo est); FXTM UK entity GBP 1.78M 2024",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 1,
+  "fit_detail": "3+ F1 markets partial (mostly non-F1 emerging markets) - no; audience retail traders - no; story no; trading not on crowded list - yes",
+  "up_and_coming": false,
+  "flags": [
+   "lapsed F1 tie: FXTM official forex partner of Sahara Force India 2017",
+   "scale not demonstrated",
+   "offshore licensing, Cyprus licence surrendered",
+   "senior exec departures early 2025"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Scale filter failed: no sourced revenue of USD 150M+ (third-party estimates USD 44-75M) and no valuation/raise route; also lapsed 2017 Force India deal.",
+  "best_angle": "",
+  "sources": [
+   "https://www.financemagnates.com/forex/brokers/exinity-uk-fxtm-sees-2024-profit-surge-despite-declining-revenue/",
+   "https://www.datanyze.com/companies/exinity/346460258",
+   "https://www.financemagnates.com/forex/brokers/fxtm-inks-sponsorship-deal-formula-one-team-force-india/",
+   "https://www.financemagnates.com/tag/exinity/"
+  ]
+ },
+ {
+  "id": "warema.com",
+  "company": "WAREMA",
+  "sector_tab": "49 Home & Living",
+  "domain": "warema.com",
+  "hq": "Marktheidenfeld, Germany",
+  "ownership": "Private; Renkhoff family-owned (WAREMA Renkhoff SE)",
+  "sells": "Sun-shading, blinds, awnings and smart-home controls; plastics & engineering division; sales across Europe and beyond",
+  "headcount_band": "1,001-5,000 (~5,000, 2025)",
+  "revenue": "EUR ~687M FY2024 (2023: EUR 753M), company press release May 2025",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes (Europe); affluent homeowners/architects yes; story no (smart shading weak tech link); category not crowded - yes",
+  "up_and_coming": false,
+  "flags": [
+   "revenue declining 2023-2025 (construction downturn); CEO expected 2025 harder",
+   "F1 tie not re-searched in stage 2 (search budget exhausted); screen found none"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (EUR 687M revenue FY2024), ~5,000 staff, no F1 tie found; reservation: Europe-centric B2B2C building product with weak F1 story amid downturn.",
+  "best_angle": "",
+  "sources": [
+   "https://newsroom.warema.com/en/press-releases/warema-group/presse/financial-year-2024.html",
+   "https://de.indeed.com/cmp/Warema-Renkhoff-Se/faq"
+  ]
+ },
+ {
+  "id": "relatedgroup.com",
+  "company": "Related Group",
+  "sector_tab": "X Real Estate",
+  "domain": "relatedgroup.com",
+  "hq": "Miami, Florida, United States",
+  "ownership": "Private; Jorge Pérez family; Related Companies (Stephen Ross) holds ~25% minority stake",
+  "sells": "Luxury condominiums, rental and mixed-use development in South Florida (30,000 units pipeline); international buyer base",
+  "headcount_band": "201-500 (350+ est; ~500 per screen)",
+  "revenue": "~USD 2B condo sales closed 2025 (Commercial Observer); USD 2.4B 2018 (Builder)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets no (sales South Florida, buyers from LatAm/Europe); affluent buyers yes; story no; real estate not crowded - yes",
+  "up_and_coming": false,
+  "flags": [
+   "minority holder tie: Related Companies (~25%), controlled by Stephen Ross, owner of the Miami GP promoter - cap Stretch",
+   "F1 driver Sergio Pérez bought unit in Related/Integra bayfront project"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (~USD 2B condo sales 2025), headcount; capped Stretch because minority holder Related Companies' owner Stephen Ross controls the Miami GP.",
+  "best_angle": "Miami GP hospitality targets the international UHNW buyers of its luxury condo towers; confirm Ross/Miami GP conflict first.",
+  "sources": [
+   "https://commercialobserver.com/power-series/2026-power-south-florida/player/jorge-perez-jon-paul-perez-and-nick-perez",
+   "https://littlesis.org/person/61365-Jorge_M_Perez/data",
+   "https://the-race.com/formula-1/outgoing-alpine-f1-investor-looking-at-miami-gp-stake",
+   "https://www.builderonline.com/?p=111508"
+  ]
+ },
+ {
+  "id": "rawlplug.com",
+  "company": "Rawlplug",
+  "sector_tab": "46 Tools & Industrial Supply",
+  "domain": "rawlplug.com",
+  "hq": "Wrocław, Poland",
+  "ownership": "Listed (GPW: RWL); Koelner family majority",
+  "sells": "Fixings, anchors, fasteners and power tools sold in 60+ countries via construction trade and DIY",
+  "headcount_band": "1,001-5,000 (~2,500, est)",
+  "revenue": "PLN 1,069.0M FY2025 (~USD 290M), consolidated annual report 24 Apr 2026",
+  "valuation": "Market cap ~PLN 0.6-0.8B (est)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes; buyers construction pros/DIY, not affluent - no; story precision partial - scored no; category not crowded - yes",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "2025 revenue -5.7%, net profit down to PLN 19.5M",
+   "F1 tie not re-searched in stage 2 (search budget exhausted); screen found none"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on USD 150-500M revenue route (PLN 1,069M FY2025), headcount, no F1 tie found; capped Stretch, trade-focused audience.",
+  "best_angle": "",
+  "sources": [
+   "https://www.money.pl/gielda/komunikaty/7278637450084929.html",
+   "https://www.bankier.pl/gielda/notowania/akcje/RAWLPLUG/wyniki-finansowe/skonsolidowany/roczny",
+   "https://company.rawlplug.com/wp-content/uploads/2026/04/Rawlplug-SA_JSF_2025_ENG.pdf"
+  ]
+ },
+ {
+  "id": "bitvavo.com",
+  "company": "Bitvavo",
+  "sector_tab": "12 Trading & Crypto",
+  "domain": "bitvavo.com",
+  "hq": "Amsterdam, Netherlands",
+  "ownership": "Private; founders (Mark Bakker, Eric Hagen et al.)",
+  "sells": "Crypto exchange/brokerage for retail investors across the EU (MiCA-licensed)",
+  "headcount_band": "201-500 (200+, Nov 2025; ~400 est)",
+  "revenue": "EUR 310M fee and interest income FY2024; net profit EUR 217M (De Belegger)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a (no external funding)",
+  "fit_score": 1,
+  "fit_detail": "3+ F1 markets yes (EU); audience retail crypto investors - no; story no; crypto crowded on grid - no",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "crypto category crowded",
+   "KNVB football partner (not F1)"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes on USD 150-500M revenue route (EUR 310M income FY2024), headcount, no F1 tie found; fit 1 - crowded crypto category.",
+  "best_angle": "",
+  "sources": [
+   "https://www.debelegger.nl/post/recordwinst-bij-bitvavo-maar-het-geld-verdween-razendsnel",
+   "https://www.kaia.io/ko/partners/bitvavo",
+   "https://siliconcanals.com/bitvavo-partners-with-knvb/"
+  ]
+ },
+ {
+  "id": "stonehagefleming.com",
+  "company": "Stonehage Fleming",
+  "sector_tab": "01 Banking & Insurance",
+  "domain": "stonehagefleming.com",
+  "hq": "St Helier, Jersey",
+  "ownership": "Acquired by Corient (deal announced Sep 2025; Caledonia sold 36.7% for GBP 251M+; completion H1 2026)",
+  "sells": "Multi-family office, wealth and investment management; 13 jurisdictions",
+  "headcount_band": "501-1,000 (~900, est)",
+  "revenue": "Not disclosed; ~GBP 200M (est)",
+  "valuation": "Implied ~GBP 700M+ equity (Caledonia 36.7% stake GBP 251M upfront, Sep 2025)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes; UHNW buyers yes; story no; wealth/banking crowded - no",
+  "up_and_coming": false,
+  "flags": [
+   "acquired by Corient",
+   "subsidiary of Corient"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Distress/independence filter failed: acquired by Corient (announced Sep 2025, completing H1 2026); now a subsidiary.",
+  "best_angle": "",
+  "sources": [
+   "https://www.theaic.co.uk/aic/news/industry-news/caledonia-sells-stonehage-fleming-at-30-premium-as-family-office-bows-to-us",
+   "https://www.ajbell.co.uk/news/articles/trading-updates-caledonia-investments-sells-stonehage-fleming-stake",
+   "https://en.wikipedia.org/wiki/Stonehage_Fleming"
+  ]
+ },
+ {
+  "id": "rjobrien.com",
+  "company": "RJO (R.J. O'Brien)",
+  "sector_tab": "12 Trading & Crypto",
+  "domain": "rjobrien.com",
+  "hq": "Chicago, Illinois, United States",
+  "ownership": "Acquired by StoneX Group (completed 31 Jul 2025, ~USD 900M equity value)",
+  "sells": "Futures and options clearing/brokerage (FCM); 75,000+ client accounts; US, UK, Canada, Brazil",
+  "headcount_band": "501-1,000 (~606, 2025)",
+  "revenue": "USD 766M CY2024 (StoneX announcement)",
+  "valuation": "USD ~900M equity value (StoneX acquisition, 2025)",
+  "latest_raise": "n/a",
+  "fit_score": 1,
+  "fit_detail": "3+ F1 markets yes; senior B2B buyers partial; story no; brokerage/banking crowded - no",
+  "up_and_coming": false,
+  "flags": [
+   "acquired by StoneX",
+   "subsidiary of StoneX"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Distress/independence filter failed: acquired by StoneX Group on 31 July 2025; now a subsidiary.",
+  "best_angle": "",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/913760/000091376025000127/stonexrjoclosingpressrelea.htm",
+   "https://mondovisione.com/media-and-resources/news/stonex-completes-acquisition-of-rj-obrien-becoming-the-largest-non-bank-fcm-2025731/",
+   "https://pitchbook.com/profiles/company/10487-17"
+  ]
+ }
+]

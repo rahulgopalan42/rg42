@@ -1,0 +1,36 @@
+[
+{
+"id": "nacsworld.com",
+"company": "North America Construction LTD",
+"keep": false,
+"reason": "quick triage: small contractor",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+},
+{
+"id": "maisonjohanesboubee.fr",
+"company": "Maison Johanès Boubée",
+"keep": false,
+"reason": "quick triage: tiny wine house",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+}
+]

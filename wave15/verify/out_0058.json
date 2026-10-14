@@ -1,0 +1,299 @@
+[
+ {
+  "id": "dbaudio.com",
+  "company": "d&b audiotechnik",
+  "sector_tab": "X Live Events & Ticketing",
+  "domain": "dbaudio.com",
+  "hq": "Backnang, Germany",
+  "ownership": "Majority-owned by Providence Equity Partners (deal agreed Jul 2023, from Ardian), management reinvested",
+  "sells": "Premium professional loudspeaker/audio systems for touring, venues and installations, sold worldwide",
+  "headcount_band": "1,001-5,000 ('more than 1,000' per company, Jul 2023; Revelio ~720, 2025)",
+  "revenue": "EUR 94M FY2015 (company); sales 'tripled since 2016' per Jul 2023 statement -> ~EUR 280M / ~USD 300M (2023, est)",
+  "valuation": "Undisclosed (Providence buyout Jul 2023)",
+  "latest_raise": "n/a (PE buyout Jul 2023)",
+  "fit_score": 3,
+  "fit_detail": "Sells globally in Europe/US/Asia (1); buyers are production companies/integrators, not affluent consumers or senior B2B (0); precision engineering/sound technology story (1); pro-audio not on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue estimated from 2015 figure + 'tripled' claim (est)",
+   "PE-owned (Providence)",
+   "B2B niche audience"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters on estimated USD ~300M revenue; capped by revenue route and B2B niche audience.",
+  "best_angle": "German precision audio engineering mirrors F1 tech story; hospitality/fan-zone sound activations could showcase product.",
+  "sources": [
+   "https://www.svconline.com/the-wire/providence-acquires-db-group",
+   "https://lsionline.co.uk/news/private-equity-firm-providence-acquires-d-b-group",
+   "https://www.dbaudio.com/global/de/ueber-db/presse/pressemitteilungen/01032016-ardian-erwirbt-db-audiotechnik-von-odewald-und-cobepa",
+   "https://www.reveliolabs.com/companies/d-b-audiotechnik/employees/"
+  ]
+ },
+ {
+  "id": "cntepower.com",
+  "company": "Contemporary Nebula Technology Energy",
+  "sector_tab": "34 DC Power & Cooling",
+  "domain": "cntepower.com",
+  "hq": "Fuzhou, Fujian, China",
+  "ownership": "Private JV founded 2019: Shi Zhengping ~40-55%, CATL ~20%, Fujian Nebula Electronics (300648) ~10%, Nebula-insider LP ~15% (2019-2024 reports; conflicting)",
+  "sells": "Battery energy storage systems (BESS) for utility, C&I and EV charging; China, Europe, Africa",
+  "headcount_band": "Unverified (third-party 51-100; screen est ~1,500)",
+  "revenue": "CNY 103M (~USD 15M) 2021 (last disclosed); no 2024-25 figure found",
+  "valuation": "Undisclosed",
+  "latest_raise": "Reported plan to raise ~CNY 600M (undated); no priced round confirmed",
+  "fit_score": 2,
+  "fit_detail": "Sells China/Europe/Africa (1); utility/C&I buyers (0); energy-tech story (1); BESS not crowded on grid but energy-adjacent (0)",
+  "up_and_coming": false,
+  "flags": [
+   "scale not verified",
+   "CATL ~20% minority (no CATL F1 tie found)",
+   "headcount unverified"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Hard filter 1 (scale): latest disclosed revenue CNY 103M (2021); no sourced 2024-25 revenue, valuation or USD 100M+ round.",
+  "best_angle": "",
+  "sources": [
+   "https://www.tmtpost.com/6210526.html",
+   "https://pitchhub.36kr.com/project/1957197296896002",
+   "https://www.bloomberg.com/quote/2210085D:CH",
+   "https://img3.gelonghui.com/pdf/d9f76-c40734ee-1ceb-4552-81bd-93a0b802e4e5.pdf"
+  ]
+ },
+ {
+  "id": "bvb.de",
+  "company": "Borussia Dortmund",
+  "sector_tab": "X Sports Clubs & Leagues",
+  "domain": "bvb.de",
+  "hq": "Dortmund, Germany",
+  "ownership": "Listed (FWB: BVB); BV Borussia 09 e.V. controls via GmbH general partner; strategic minority holders incl. Evonik, Signal Iduna, Puma (~5%, bought 2014)",
+  "sells": "Professional football club: media rights, sponsorship, ticketing, merchandise; global fanbase",
+  "headcount_band": "1,001-5,000 (~1,000+ est, 2025)",
+  "revenue": "EUR 526.0M (~USD 570M) consolidated revenue FY2024/25 (Jun 2025, record)",
+  "valuation": "Market cap ~EUR 350-400M (2026, est)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "Global fanbase incl. US/Asia (1); mass-market fans, not affluent focus (0); performance/sport story (1); sports club as F1 sponsor is uncrowded but sponsor-receiver, weak motive (0)",
+  "up_and_coming": false,
+  "flags": [
+   "minority holder Puma (~5%, 2014) is a long-running F1 team kit/licensing partner (Ferrari) - verify; cap Stretch",
+   "weak marketing motive (club is a rights seller)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (EUR 526M revenue FY24/25); minority holder Puma has F1 ties and club has weak motive to buy F1 rights.",
+  "best_angle": "Co-marketing/content swap with a team for US/Asia fan growth rather than paid sponsorship.",
+  "sources": [
+   "https://report.bvb.de/annual-report/2024-2025/group-management-report/position-of-the-company/results-of-operations.html",
+   "https://www.bvb.de/de/en/news/news-overview/news.html/2025/8/15/2025-balance-press-conference-Highest-turnover-in-company-history.html",
+   "https://www.horizont.net/marketing/nachrichten/schwedischer-elektroauto-hersteller-polestar-wird-aermelsponsor-bei-borussia-dortmund-229567",
+   "https://www.industryweek.com/the-economy/article/21963487/puma-sportswear-says-it-will-buy-stake-in-borussia-dortmund",
+   "https://fashionunited.de/nachrichten/business/partnerschaft-verlangert-puma-bleibt-bis-2034-ausruster-von-borussia-dortmund/2025070162303"
+  ]
+ },
+ {
+  "id": "ledman.com",
+  "company": "Shenzhen Ledman Optoelectronic",
+  "sector_tab": "45 Electronic Parts",
+  "domain": "ledman.com",
+  "hq": "Shenzhen, China",
+  "ownership": "Listed (SZSE: 300162), founder Li Manyin controlling",
+  "sells": "LED/MicroLED (COB) displays and lighting; North America largest market",
+  "headcount_band": "1,001-5,000 (1,433, 2026)",
+  "revenue": "CNY 1.062B (~USD 148M) FY2025, down 15% from CNY 1.25B FY2024",
+  "valuation": "Market cap CNY 3.21B (~USD 450M) 13 Oct 2026",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "Sells NA/Europe/Asia (1); B2B buyers (0); display tech story (1); LED displays partly crowded (Samsung/LG at GPs) (0)",
+  "up_and_coming": false,
+  "flags": [
+   "revenue falling",
+   "past football sponsor (Ledman LigaPro)"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Hard filter 1 (scale): FY2025 revenue ~USD 148M (<USD 150M) and market cap ~USD 450M.",
+  "best_angle": "",
+  "sources": [
+   "https://stockanalysis.com/quote/she/300162/financials/income-statement/",
+   "https://stockanalysis.com/quote/she/300162/",
+   "https://www.zonebourse.com/cours/action/LEDMAN-OPTOELECTRONIC-CO--9061879/societe/"
+  ]
+ },
+ {
+  "id": "efoy-pro.com",
+  "company": "SFC Energy AG",
+  "sector_tab": "02 Energy & Industrial",
+  "domain": "sfc.com (efoy-pro.com)",
+  "hq": "Brunnthal (Munich), Germany",
+  "ownership": "Listed (XETRA: F3C), free float majority",
+  "sells": "EFOY methanol/hydrogen fuel cells and power management for defence, public security, industrial; Europe, North America, India",
+  "headcount_band": "501-1,000 (501, 2026)",
+  "revenue": "EUR 143.3M (~USD 162M) FY2025; TTM EUR 152M (Oct 2026); 2026 guide EUR 150-160M",
+  "valuation": "Market cap EUR 345M (~USD 400M) 13 Oct 2026",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "Sells Europe/NA/India (1); defence/industrial procurement buyers (0); clean energy tech story (1); fuel cells not on grid (0 - energy-adjacent, B2B)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "defence/security focus",
+   "no consumer brand ambition"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters barely (USD ~162M revenue FY2025) but B2B defence/industrial supplier with no brand ambition.",
+  "best_angle": "",
+  "sources": [
+   "https://app.boersengefluester.de/en/newswire/DE0007568578/sfc-energy-ag/publishes-annual-report-for-2025-return-to-growth-in-q4-with-high-profitability-wider-share-of-defense-and-security-applications-boosting-outlook-for-further-growth-in-2026-2297082",
+   "https://stockanalysis.com/quote/etr/F3C/",
+   "https://www.stockopedia.com/share-prices/sfc-energy-ag-ETR:F3C/news/germany-apos-s-sfc-energy-says-2025-revenue-falls-1-backs-growth-forecast-for-2026-019e6a17-f03a-7f0d-bce5-b83584e12dc8/"
+  ]
+ },
+ {
+  "id": "bafang-e.com",
+  "company": "Bafang Electric (Suzhou)",
+  "sector_tab": "43 Mobility & Automotive",
+  "domain": "bafang-e.com",
+  "hq": "Suzhou, China",
+  "ownership": "Listed (SSE: 603489), founder Wang Qinghua controlling",
+  "sells": "E-bike drive systems (mid-drive/hub motors, batteries, displays) to bike OEMs; Europe, US, Asia",
+  "headcount_band": "1,001-5,000 (1,005, 2026)",
+  "revenue": "CNY 1.337B (~USD 186M) FY2025 (-1.5%); Q1 2026 CNY 375M (+24.5%)",
+  "valuation": "Market cap CNY 6.46B (~USD 900M) 13 Oct 2026",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 3,
+  "fit_detail": "Sells Europe/US/Asia (1); OEM + enthusiast riders, not affluent focus (0); motor/drive technology & performance story (1); e-bike drives not on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue down from CNY 2.8B (2022)",
+   "sponsors MTB/e-MTB teams"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters via USD ~186M revenue route (capped Stretch); mostly OEM-facing though it markets via racing sponsorships.",
+  "best_angle": "Paddock e-mobility and sustainability narrative; extends existing MTB racing sponsorship into higher-profile motorsport as European demand recovers.",
+  "sources": [
+   "https://stockanalysis.com/quote/sha/603489/financials/income-statement/",
+   "https://stockanalysis.com/quote/sha/603489/",
+   "https://m.gelonghui.com/news/5300999",
+   "https://ebikes-international.com/bafang-expands-marketing-with-new-sponsorship-of-italian-agazzini-factory-team/"
+  ]
+ },
+ {
+  "id": "woehner.com",
+  "company": "Wöhner",
+  "sector_tab": "45 Electronic Parts",
+  "domain": "woehner.com",
+  "hq": "Rödental, Bavaria, Germany",
+  "ownership": "Family-owned (Wöhner/Steinberger family)",
+  "sells": "Busbar systems, fuses and power distribution components for control cabinets, renewables, e-mobility; worldwide",
+  "headcount_band": "201-500 (380, 2025)",
+  "revenue": "~EUR 137M (~USD 155M) 2025 (company job ad)",
+  "valuation": "Undisclosed (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Sells internationally (1); electrical engineers/panel builders (0); precision engineering story (1); busbars not on grid but B2B (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue borderline (EUR 137M ~ USD 155M at 2025 avg FX)",
+   "B2B component maker, no brand ambition"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Barely passes scale (EUR 137M ~ USD 155M, 2025); B2B family component maker with no consumer brand ambition.",
+  "best_angle": "",
+  "sources": [
+   "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003356595-S",
+   "https://www.woehner.de/en/company/profile",
+   "https://en.wikipedia.org/wiki/W%C3%B6hner_GmbH_%26_Co._KG"
+  ]
+ },
+ {
+  "id": "gonoise.com",
+  "company": "Noise",
+  "sector_tab": "X Consumer Electronics",
+  "domain": "gonoise.com",
+  "hq": "Gurugram, India",
+  "ownership": "Private (Nexxbase Marketing); founders Amit & Gaurav Khatri; Bose minority (~2-5%)",
+  "sells": "Smartwatches, TWS earbuds, smart rings; predominantly India",
+  "headcount_band": "501-1,000 (~900 est)",
+  "revenue": "INR 1,048 Cr (~USD 123M) FY2025, down 24% from INR 1,384 Cr FY2024",
+  "valuation": "~USD 420-470M (Bose round, Apr 2025, reported)",
+  "latest_raise": "USD 20M from Bose (Apr 2025)",
+  "fit_score": 1,
+  "fit_detail": "India-focused sales (0); young mass-market consumers (0); tech story (1); wearables not crowded (0 - domestic)",
+  "up_and_coming": false,
+  "flags": [
+   "revenue declining",
+   "Bose minority holder (Bose-Mercedes F1 deal from 2015, lapsed)"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Hard filter 1 (scale): FY2025 revenue ~USD 123M, valuation ~USD 450M, raise only USD 20M.",
+  "best_angle": "",
+  "sources": [
+   "https://entrackr.com/fintrackr/bose-funded-noise-revenue-declines-24-to-rs-1048-cr-in-fy25-11092127",
+   "https://inc42.com/company/noise/financials/balance-sheet/",
+   "https://www.exchange4media.com/announcements-news/bose-invests-rs-173-crore-in-noise-142507.html"
+  ]
+ },
+ {
+  "id": "hackett.com",
+  "company": "Hackett London",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "hackett.com",
+  "hq": "London, UK (group: AWWG, Madrid)",
+  "ownership": "Brand of All We Wear Group (AWWG), owned by M1 Group, L Catterton and founder Carlos Ortega; G-III ~19% (Jul 2024). Torreal sold in 2015.",
+  "sells": "Premium British menswear via stores, wholesale and online; UK ~52%, Europe, Middle East, Asia",
+  "headcount_band": "501-1,000 (~635 est)",
+  "revenue": "EUR 181.9M (~USD 197M) FY to Mar 2025; GBP 129.3M FY to Mar 2024 (UK entity)",
+  "valuation": "Undisclosed",
+  "latest_raise": "n/a (G-III raised AWWG stake to ~19%, Jul 2024)",
+  "fit_score": 3,
+  "fit_detail": "Sells UK/Europe/ME/Asia (1); affluent men 25-54 (1); heritage tailoring rather than performance, though long motorsport history (0); premium menswear moderately crowded but open (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "group brand: AWWG",
+   "lapsed F1 tie: Aston Martin F1 travelwear/licence to 2024 - confirm before outreach"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale via USD ~197M revenue; capped by revenue route and lapsed Aston Martin F1 deal (no renewal found).",
+  "best_angle": "20-year Aston Martin heritage makes a return to F1 as team travelwear partner a natural story.",
+  "sources": [
+   "https://www.cityam.com/?p=2304918",
+   "https://www.modaes.com/empresas/awwg-refuerza-hackett-en-alemania-con-una-apertura-en-frankfurt",
+   "https://www.businesswire.com/news/home/20240729580732/en",
+   "https://fashionunited.uk/news/fashion/hackett-london-renews-long-term-partnership-with-aston-martin/2021032454618",
+   "https://ecdb.com/resources/sample-data/retailer/hackett"
+  ]
+ },
+ {
+  "id": "veronicabeard.com",
+  "company": "Veronica Beard",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "veronicabeard.com",
+  "hq": "New York, United States",
+  "ownership": "Private; founders plus investors led by Andrew Rosen",
+  "sells": "Contemporary womenswear, footwear (licensed) via ~42 stores, wholesale, online; US-centric, stores in Canada, London, Paris (2026)",
+  "headcount_band": "201-500 (~300, Glossy/Prospeo)",
+  "revenue": "~USD 300-400M (est, market sources, 2025); no audited figure",
+  "valuation": "Undisclosed",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "US/Canada/UK/France (1); affluent women 25-54 (1); fashion story, no performance/tech link (0); womenswear not on grid (1)",
+  "up_and_coming": true,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue unverified (est)",
+   "market expansion: US -> Europe (London, Paris 2026)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on estimated USD 300M+ revenue; capped by revenue route and unverified figures; fashion story is weak F1 fit.",
+  "best_angle": "F1's growing affluent female US audience matches its customer as it expands into London and Paris.",
+  "sources": [
+   "https://sociallifemagazine.com/the-archive/veronica-beard-and-the-hamptons-a-study-in-practical-distinction/",
+   "https://www.glossy.co/?p=148444",
+   "https://www.businessoffashion.com/articles/retail/the-surprising-enduring-success-of-veronica-beard/",
+   "https://fashionunited.com/news/fashion/veronica-beard-collaborates-with-sports-brand-head/2025060466390",
+   "https://leadiq.com/c/veronica-beard/5a1d98f02300005a0087895b/employee-directory"
+  ]
+ }
+]

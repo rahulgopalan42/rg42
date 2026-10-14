@@ -1,0 +1,53 @@
+[
+{
+"id": "angular.dev",
+"company": "Angular",
+"keep": false,
+"reason": "quick triage: tiny local business",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+},
+{
+"id": "management-krankenhaus.de",
+"company": "Management & Krankenhaus",
+"keep": false,
+"reason": "quick triage: tiny local business",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+},
+{
+"id": "ehu.es",
+"company": "UPV",
+"keep": false,
+"reason": "quick triage: non-profit/government/association",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+}
+]

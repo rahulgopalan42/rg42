@@ -1,0 +1,282 @@
+[
+ {
+  "id": "groupe-abeo.fr",
+  "company": "ABÉO",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "groupe-abeo.fr",
+  "hq": "Rioz, France",
+  "ownership": "Listed on Euronext Paris (founder Olivier Estèves/Jalenia largest holder)",
+  "sells": "Gymnastics, climbing walls, sports and changing-room equipment (Gymnova, Spieth, Janssen-Fritsen, EP) to federations, clubs, schools; ~75% of sales outside France",
+  "headcount_band": "1,001-5,000 (1,443 staff FY2024/25)",
+  "revenue": "EUR 280.0M FY2025/26 (to Mar 2026, ~USD 320M); EUR 248.7M FY2024/25",
+  "valuation": "Small cap, well below USD 1B (2026, est)",
+  "latest_raise": "None relevant (listed)",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes (Europe, US, China); affluent/senior buyers no (institutional B2B); performance/precision story yes (Olympic equipment supplier); category not on grid yes",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "B2B institutional buyers"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes all filters via USD 150-500M revenue route (EUR 280M FY2025/26), capped at Stretch; B2B buyer base limits brand payoff",
+  "best_angle": "Official Olympic equipment supplier with sports-performance heritage could use F1 hospitality to court federations and venue buyers in Europe, US and Asia.",
+  "sources": [
+   "https://www.abcbourse.com/marches/abeo-accelere-sa-croissance-et-ameliore-sa-rentabilite-en-202526_697781",
+   "https://www.abcbourse.com/forums/msg1069332_abeo-chiffre-d-affaires-et-prises-de-commandes-de-l-exercice-202425",
+   "https://www.macommune.info/de-rioz-aux-jo-le-groupe-haut-saonois-abeo-equipementier-officiel-de-paris-2024"
+  ]
+ },
+ {
+  "id": "caffenero.com",
+  "company": "Caffè Nero UK",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "caffenero.com",
+  "hq": "London, United Kingdom",
+  "ownership": "Private; Nero Group controlled by founder Gerry Ford",
+  "sells": "Coffee-house chain (~1,140-1,154 stores, six brands) in UK, Ireland, US, Turkey, UAE, Sweden, Poland and others",
+  "headcount_band": "5,001-10,000 (~7,000, est)",
+  "revenue": "GBP 587.6M group revenue FY to May 2025 (~USD 750M), +13%; pre-tax loss GBP 41.3M",
+  "valuation": "Not published",
+  "latest_raise": "None (debt-financed; 2020 CVA)",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes (UK, US, UAE, Europe); affluent urban 25-54 yes; performance/tech story no; coffee not crowded on grid yes",
+  "up_and_coming": false,
+  "flags": [
+   "Past CVA 2020",
+   "Pre-tax loss widened FY2025 (finance costs)",
+   "Leveraged"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes (revenue GBP 587.6M FY2025, no F1 tie found), but leverage, ongoing losses and 2020 CVA history are a real reservation",
+  "best_angle": "UK-born premium coffee brand expanding in US and Gulf could use F1 to build a global lifestyle profile against Starbucks/Costa.",
+  "sources": [
+   "https://qsrmedia.com/legal/news/caffe-neros-pre-tax-loss-widens-ps413m-in-fy2025",
+   "https://thecaterer.com/news/caffe-nero-profits-and-sales-surge-in-very-encouraging-year",
+   "https://www.cateringtoday.co.uk/news/cafes-and-coffee-shops/nero-group-welcomes-record-half-year-sales-of-338m"
+  ]
+ },
+ {
+  "id": "europastry.com",
+  "company": "Europastry",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "europastry.com",
+  "hq": "Sant Joan Despí (Barcelona), Spain",
+  "ownership": "Private; Gallés family majority (IPO pulled Oct 2024)",
+  "sells": "Frozen bakery (Fripan, Saint Honoré, Dots/Berlinis) to foodservice and retail in 80+ countries, 27 plants",
+  "headcount_band": "5,001-10,000 (~5,000+, est)",
+  "revenue": "EUR 1,630M 2025 (Forbes, +8%); EUR 1,506M 2024, EBITDA EUR 237M",
+  "valuation": "Not published (IPO cancelled Oct 2024)",
+  "latest_raise": "None priced in 36 months",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes (Spain, US, UK, Mexico, Netherlands); affluent/senior buyers no; story no; frozen bakery not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "B2B foodservice, weak consumer brand",
+   "IPO cancelled 2024"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters (revenue EUR 1.5B+ 2024-25) but B2B frozen-bakery supplier with little consumer brand ambition",
+  "best_angle": "",
+  "sources": [
+   "https://forbes.es/etiqueta/europastry/",
+   "https://www.ttrdata.com/en/radar/aggregated/Europastry-studies-resuming-its-IPO/399309"
+  ]
+ },
+ {
+  "id": "rula.com",
+  "company": "Rula",
+  "sector_tab": "42 Health & Wellness",
+  "domain": "rula.com",
+  "hq": "United States",
+  "ownership": "Private, VC-backed (Hedosophia-led Series C)",
+  "sells": "Insurance-covered online therapy and psychiatry for US consumers",
+  "headcount_band": "1,001-5,000 (~2,700 incl. clinicians, est)",
+  "revenue": "~USD 471M annualised gross revenue 2024 (Sacra, est)",
+  "valuation": "USD 1.25B (Jul 2024 Series C, Caplight est)",
+  "latest_raise": "USD 125-143M Series C, Jul 2024 (priced)",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets no (US only); affluent 25-54 yes; performance story weak; mental health not crowded yes",
+  "up_and_coming": true,
+  "flags": [
+   "US-only",
+   "Unicorn since Jul 2024",
+   "Later USD 2.3B round unverified"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes via USD 100M+ priced round (Jul 2024) and USD 1.25B valuation, but US-only reach is a real reservation",
+  "best_angle": "Fast-growing US mental-health brand could tie mental performance messaging to F1's booming US audience and three US races.",
+  "sources": [
+   "https://sacra.com/research/rula-health-revenue-growth-valuation/",
+   "https://www.caplight.com/company/rula"
+  ]
+ },
+ {
+  "id": "tbo.com",
+  "company": "TBO Tek",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "tbo.com",
+  "hq": "Gurugram, India",
+  "ownership": "Listed on NSE/BSE (IPO May 2024); founders + General Atlantic/Augusta",
+  "sells": "B2B travel distribution platform (hotels, air) for travel agents in 100+ countries; acquired US luxury operator Classic Vacations (Oct 2025)",
+  "headcount_band": "1,001-5,000 (~2,800, est)",
+  "revenue": "Q4 FY26 revenue INR 814 crore (+83% YoY); FY26 sales +54%",
+  "valuation": "Market cap INR 16,261 crore (~USD 1.85B, Nov 2025)",
+  "latest_raise": "IPO May 2024; none since",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes (India, UAE, Europe, US); senior B2B buyers partly; global ambition story yes; B2B travel tech not crowded yes",
+  "up_and_coming": true,
+  "flags": [
+   "market expansion: India/Middle East -> US (Classic Vacations, Oct 2025)",
+   "B2B trade brand"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes (market cap ~USD 1.85B Nov 2025), but trade-only B2B brand limits consumer return",
+  "best_angle": "Post-Classic Vacations US push gives TBO a reason to use F1 hospitality to court agencies in the US, Gulf and Europe.",
+  "sources": [
+   "https://entrackr.com/fintrackr/tbo-posts-rs-567-cr-revenue-and-rs-67-cr-profit-in-q2-fy26-10618402",
+   "https://entrackr.com/news/tbo-tek-to-acquire-us-based-classic-vacations-for-125-mn-9780034",
+   "https://traveltradejournal.com/tbo-tek-reports-%e2%82%b910079-crore-gtv-in-q4-fy26-revenue-surges-83-per-cent-yoy-adjusted-ebitda-at-%e2%82%b9111-crore/"
+  ]
+ },
+ {
+  "id": "h10hotels.com",
+  "company": "H10 Hotels",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "h10hotels.com",
+  "hq": "Barcelona, Spain",
+  "ownership": "Private; Espinet family",
+  "sells": "65+ hotels (16,000+ rooms) in Spain, Portugal, Italy, UK, Mexico, Caribbean; adults-only premium resorts",
+  "headcount_band": "5,001-10,000 (~6,000, est)",
+  "revenue": "~EUR 700-800M 2024 (est: #7 in Hosteltur ranking, below #6 Palladium at EUR 1,202M)",
+  "valuation": "Not published",
+  "latest_raise": "None",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes (Spain, Italy, UK, Mexico); affluent 25-54 yes; performance story no; hotels not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "Revenue unpublished (ranking-derived est)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes (revenue est EUR 700M+ 2024, no F1 tie found), but revenue unconfirmed and leisure-hotel story is a weak F1 fit",
+  "best_angle": "Premium leisure group with hotels in Barcelona, Madrid, Mexico and Italy could use GP weekends there to drive high-yield bookings.",
+  "sources": [
+   "https://www.hosteltur.com/172064_ranking-hosteltur-de-facturacion-de-las-grandes-hoteleras-de-espana.html",
+   "https://theobjective.com/deportes/formula-1/2026-06-10/heineken-madring-acuerdo-madrig/"
+  ]
+ },
+ {
+  "id": "merative.com",
+  "company": "Merative",
+  "sector_tab": "47 Vertical SaaS",
+  "domain": "merative.com",
+  "hq": "Ann Arbor, Michigan, United States",
+  "ownership": "Private; Francisco Partners (acquired IBM Watson Health assets Jun 2022)",
+  "sells": "Healthcare data, analytics, imaging and life-sciences software to providers, payers, employers, pharma",
+  "headcount_band": "1,001-5,000 (~1,734, 2025)",
+  "revenue": "Not disclosed; USD 200-335M (aggregator est)",
+  "valuation": "EV >USD 1B (Jun 2022 take-out price, Bloomberg)",
+  "latest_raise": "None (PE-owned)",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets partly (mostly US); senior B2B buyers yes; data/tech story yes; health analytics not crowded yes but no consumer profile",
+  "up_and_coming": false,
+  "flags": [
+   "Scale via 2022 deal value only (stale)",
+   "PE-owned",
+   "B2B healthcare"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes on 2022 EV >USD 1B but B2B healthcare analytics with no brand ambition and revenue unconfirmed",
+  "best_angle": "",
+  "sources": [
+   "https://www.research-live.com/article/news/ibm-completes-health-data-firm-sale/id/5100872",
+   "https://www.reveliolabs.com/companies/merative/employees/",
+   "https://growjo.com/company/Merative"
+  ]
+ },
+ {
+  "id": "lopesan.com",
+  "company": "Lopesan",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "lopesan.com",
+  "hq": "Las Palmas de Gran Canaria, Spain",
+  "ownership": "Private; Santana Cazorla family",
+  "sells": "Hotels and resorts (Lopesan, Abora, IFA) in Canary Islands, Germany, Austria, Dominican Republic; Madrid Miguel Ángel reopening late 2026",
+  "headcount_band": "1,001-5,000+ (est)",
+  "revenue": "~EUR 550-650M 2024 (est: #10 in Hosteltur ranking, +13.2% YoY)",
+  "valuation": "Not published",
+  "latest_raise": "None",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets partly (Spain, Austria, Germany sales); affluent leisure yes; performance story no; hotels not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "Revenue unpublished (ranking-derived est)",
+   "market expansion: Canaries -> Madrid luxury (2026)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on estimated revenue (top-10 Spanish chain) with no F1 tie found, but revenue unconfirmed and story fit weak",
+  "best_angle": "Reopening Madrid's Hotel Miguel Ángel in late 2026 as Madring arrives gives a GP-hospitality hook.",
+  "sources": [
+   "https://www.hosteltur.com/172064_ranking-hosteltur-de-facturacion-de-las-grandes-hoteleras-de-espana.html",
+   "https://www.vozpopuli.com/espana/canarias/lopesan-reabrira-el-hotel-miguel-angel-de-madrid-a-finales-de-2026-tras-invertir-250-millones.html"
+  ]
+ },
+ {
+  "id": "royalswinkels.com",
+  "company": "Royal Swinkels Family Brewers",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "royalswinkels.com",
+  "hq": "Lieshout, Netherlands",
+  "ownership": "Private; Swinkels family",
+  "sells": "Beer and malt (Bavaria, Bavaria 0.0%, Hollandia, Palm, La Trappe) in 130+ countries",
+  "headcount_band": "1,001-5,000 (~1,200+, est)",
+  "revenue": "EUR 1,118.5M 2025 (2024: EUR 1,113.5M); EBIT EUR 70.2M",
+  "valuation": "Not published",
+  "latest_raise": "None",
+  "fit_score": 1,
+  "fit_detail": "3+ F1 markets yes; affluent 25-54 no (mass); story no; beer crowded on grid (Heineken global partner, Paulaner/Audi) = 0",
+  "up_and_coming": false,
+  "flags": [
+   "Beer category crowded (Heineken F1 global partner)",
+   "Past F1-car City Racing events (not an F1 deal)"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters (revenue EUR 1.12B 2025, no F1 tie) but fit 1: beer is crowded on the grid",
+  "best_angle": "",
+  "sources": [
+   "https://royalswinkels.com/en/media/news-and-stories/royal-swinkels-houdt-koers-in-uitdagende-biermarkt",
+   "https://www.retaildetail.eu/news/food/royal-swinkels-sees-modest-growth-despite-a-sluggish-beer-market",
+   "https://www.imd.org/research-knowledge/strategy/articles/bavarias-mix-of-tradition-and-innovation/"
+  ]
+ },
+ {
+  "id": "pragmaticplay.com",
+  "company": "Pragmatic Play",
+  "sector_tab": "X Gambling & Lotteries",
+  "domain": "pragmaticplay.com",
+  "hq": "Gibraltar (ops Malta/Romania)",
+  "ownership": "Private; opaque structure (Arrise Solutions, Malta, linked)",
+  "sells": "B2B iGaming content (slots, live casino, bingo) licensed in 25+ regulated markets",
+  "headcount_band": "1,001-5,000 (~1,430, 2025 Revelio)",
+  "revenue": "~USD 1B+ net revenue (est, 2024-25; no published accounts)",
+  "valuation": "USD 5-8B if sold/listed (analyst est)",
+  "latest_raise": "None",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; senior B2B operator buyers yes; tech story partly no; gambling supplier not crowded on grid yes (but betting brands present)",
+  "up_and_coming": false,
+  "flags": [
+   "Gambling ad restrictions",
+   "Opaque ownership",
+   "Revenue estimate only",
+   "Aprilia MotoGP title sponsor 2025 (not F1)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on estimated USD 1B+ revenue with no F1 tie found, but unverified financials, opaque ownership and gambling ad limits",
+  "best_angle": "Proven motorsport sponsor (Aprilia MotoGP) could step up to F1 to reach operators and players across regulated markets.",
+  "sources": [
+   "https://sbcnews.co.uk/europe/2025/01/23/apriliaracing-pragmaticplay/",
+   "https://www.reveliolabs.com/companies/pragmatic-play/employees",
+   "https://freemalta.com/markets/company-stories/pragmatic-play"
+  ]
+ }
+]

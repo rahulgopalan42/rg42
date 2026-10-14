@@ -1,0 +1,302 @@
+[
+ {
+  "id": "pico.net",
+  "company": "Pico",
+  "sector_tab": "12 Trading & Crypto",
+  "domain": "pico.net",
+  "hq": "New York, USA",
+  "ownership": "Private; founder/CEO Jarrod Yuster with Golden Gate Capital (led USD 200M investment, Jul 2022), Wellington, Wells Fargo as investors",
+  "sells": "Trading infrastructure: low-latency connectivity, market data (Redline), analytics (Corvil) and hosting across 55+ data centres for banks, exchanges and funds",
+  "headcount_band": "501-1,000 (~805, screen est 2026)",
+  "revenue": "USD 157M FY2020 (SPAC disclosure); guided +25%/yr to FY2022; ~USD 250-350M 2025 (est, incl. Redline acquisition)",
+  "valuation": "n/a; terminated SPAC with FTAC Athena valued EV USD 1.4B / equity USD 1.75B (2021-22, not transacted)",
+  "latest_raise": "USD 200M strategic investment led by Golden Gate Capital, Jul 2022 (outside 36 months)",
+  "fit_score": 3,
+  "fit_detail": "Clients/data centres across US, UK, SG, JP, AU and more = 1; senior B2B buyers (top-25 banks, 39 exchanges) = 1; speed/precision low-latency story = 1; trading-cloud/infrastructure overlaps crowded cloud category = 0",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route (est)",
+   "current revenue unverified (last disclosed FY2020)",
+   "2022 raise outside 36-month window",
+   "terminated SPAC 2022; Golden Gate stake size undisclosed"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on an estimated USD 150-500M revenue route (USD 157M FY2020 with 25%/yr guidance), ~805 staff, no F1 tie found; capped at Stretch, revenue unverified",
+  "best_angle": "Pico's low-latency, precision-timing story fits F1 engineering and could play well in hospitality for bank and exchange CTOs.",
+  "sources": [
+   "https://www.fintechfutures.com/venture-capital-funding/us-fintech-pico-receives-200m-investment-from-golden-gate-capital",
+   "https://old.spacinsider.com/2021/08/04/ftac-athena-to-combine-with-pico-in-1-4bn-deal/",
+   "https://drupal-cloudfront.benzinga.com/m-a/21/08/22323588/pico-powers-24-of-top-25-global-banks-what-investors-should-know-about-ftaa-spac-deal",
+   "https://www.pico.net/about/news/pico-signs-agreement-with-golden-gate-capital-for-usd200-million-investment-to-accelerate-next-phase-of-m-and-a-activity"
+  ]
+ },
+ {
+  "id": "koro.com",
+  "company": "KoRo",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "koro.com",
+  "hq": "Berlin, Germany",
+  "ownership": "Private, VC-backed (Coefficient Capital, Five Seasons Ventures, HV Capital, Partech)",
+  "sells": "Better-for-you snacks, nut butters, protein bars and pantry staples, sold D2C online and through retail across Europe",
+  "headcount_band": "201-500 (300+ staff, Feb 2025; screen est ~700)",
+  "revenue": "EUR 117.3M 2023 (annual report); 2024 guided +50% to ~EUR 175M (~USD 190M) (est)",
+  "valuation": "n/a (undisclosed)",
+  "latest_raise": "EUR 35M Series C, Nov 2024 (led by Coefficient Capital); Series B total EUR 75M (incl. EUR 20M 2023 extension)",
+  "fit_score": 3,
+  "fit_detail": "Sells in DE, FR, IT, NL, AT, ES and more = 1; health-conscious affluent urban 25-44 = 1; snack story weakly maps to performance (protein/sport only) = 0; better-for-you snacks uncrowded on grid = 1",
+  "up_and_coming": true,
+  "flags": [
+   "USD 150-500M revenue route (est)",
+   "revenue near threshold - 2024/25 actuals unverified",
+   "loss-making (EUR 7.4M net loss 2023)",
+   "market expansion: DACH -> France, Italy, Benelux (2024-25)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes only on estimated 2024 revenue (~EUR 175M est from +50% guidance; EUR 117M 2023 audited), 300+ staff, no F1 tie found; capped at Stretch with scale near the line",
+  "best_angle": "KoRo's push into France, Italy and Benelux could use F1's European races and young, health-conscious fans to build awareness.",
+  "sources": [
+   "https://www.deutsche-startups.de/?p=433787",
+   "https://www.startbase.de/news/koro-erhaelt-35-millionen-euro-in-series-c/",
+   "https://vegconomist.com/food-and-beverage/sweets-snacks/snack-brand-koro-oversubscribed-funding-round",
+   "https://www.mynewsdesk.com/de/koro-handels-gmbh/pressreleases/koro-secures-35-euro-million-in-series-c-funding-round-to-boost-omnichannel-presence-and-fuel-european-expansion-3355351"
+  ]
+ },
+ {
+  "id": "jellycat.com",
+  "company": "Jellycat",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "jellycat.com",
+  "hq": "London, UK",
+  "ownership": "Private, founder-family owned (Guthrie family) via Jelly Holdings",
+  "sells": "Premium plush toys and collectibles for children and adult collectors, wholesale and own retail 'experiences'",
+  "headcount_band": "501-1,000 (~700 est, 2026)",
+  "revenue": "~GBP 450M (~USD 600M) 2025, +43% (accounts reported 2 Oct 2026); GBP 333M 2024 (+66%)",
+  "valuation": "n/a (private); pre-tax profit GBP 240M 2025",
+  "latest_raise": "n/a (self-funded)",
+  "fit_score": 3,
+  "fit_detail": "Sells in UK, US, CN, JP, AU and 70+ countries = 1; affluent parents and 18-40 adult collectors = 1; whimsical brand story does not map to performance/technology = 0; plush/collectibles uncrowded on grid = 1",
+  "up_and_coming": true,
+  "flags": [
+   ">40%/yr growth (+66% 2024, +43% 2025)",
+   "22 new retail experiences opened 2025",
+   "brand tone may not suit traditional sponsorship - collab/licensing angle"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes all hard filters (revenue ~GBP 450M / ~USD 600M 2025, ~700 staff, independent, highly profitable, no F1 tie found); fit 3 with strong consumer marketing motive",
+  "best_angle": "With F1's young and female fanbase booming and collabs like Hello Kitty x F1 Academy proving the format, a Jellycat collectible/experience tie-in could reach its adult-collector audience globally.",
+  "sources": [
+   "https://www.itv.com/news/2026-10-02/soaring-demand-for-viral-toys-drives-jellycat-to-240m-profit",
+   "https://www.nationalworld.com/business/consumer/jellycat-craze-adult-collectors-profits-240m-9253988",
+   "https://insideretail.co.nz/2025/10/08/profits-double-how-toymaker-jellycat-made-plushies-a-high-margin-business/",
+   "https://evpowered.co.uk/feature/the-hello-kitty-f1-academy-collab-explained/"
+  ]
+ },
+ {
+  "id": "endclothing.com",
+  "company": "END.",
+  "sector_tab": "X Retail & E-commerce",
+  "domain": "endclothing.com",
+  "hq": "Newcastle upon Tyne, UK",
+  "ownership": "Private, owned by Apollo-managed funds since Oct 2024 recapitalisation (Carlyle and founders exited)",
+  "sells": "Online and store retailer of luxury, designer and streetwear apparel, sneakers and accessories",
+  "headcount_band": "501-1,000 (~700 est)",
+  "revenue": "GBP 212.7M (~USD 270M) FY to Mar 2024, -3.8%; GBP 221.1M FY2023; FY2025 accounts not found",
+  "valuation": "n/a; Carlyle stake bought at GBP 750M valuation (2021)",
+  "latest_raise": "Oct 2024 recapitalisation with new Apollo investment (amount undisclosed)",
+  "fit_score": 3,
+  "fit_detail": "Ships to UK, US, EU, JP, AU and more = 1; affluent 25-40 fashion buyers = 1; streetwear story does not map to performance/technology = 0; fashion e-commerce uncrowded = 1",
+  "up_and_coming": false,
+  "flags": [
+   "distress: Oct 2024 debt-reducing recapitalisation and change of control to Apollo",
+   "GBP 43.6M pre-tax loss FY2024 after warehouse failure and GBP 12M stock write-off",
+   "FY2025 accounts not found"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Distress: Oct 2024 restructuring/recapitalisation that handed control to Apollo after a GBP 43.6M loss and falling sales; no later accounts showing recovery",
+  "best_angle": "",
+  "sources": [
+   "https://fashionunited.uk/news/business/end-swings-to-loss-in-2024-as-it-undergoes-restructuring/2025010379393",
+   "https://fashionunited.ca/news/business/end-clothing-taken-over-by-apollo-as-part-of-recapitalisation-plans/2024101036722",
+   "https://www.retailgazette.co.uk/blog/2025/01/end-clothing-43m-loss/",
+   "https://find-and-update.company-information.service.gov.uk/company/10475925"
+  ]
+ },
+ {
+  "id": "bolia.com",
+  "company": "BOLIA",
+  "sector_tab": "49 Home & Living",
+  "domain": "bolia.com",
+  "hq": "Aarhus, Denmark",
+  "ownership": "Part of Lars Larsen Group (Brunsborg family, owner of JYSK) since 2001; owner Jacob Brunsborg",
+  "sells": "Scandinavian design furniture, lighting and accessories via 100+ stores in 14 markets, online in 30 markets and 400+ wholesale partners",
+  "headcount_band": "501-1,000 (529 staff 2025, Proff)",
+  "revenue": "DKK 1,624M (~USD 245M / EUR 217M) FY Sep 2024-Aug 2025, +14%; EBIT DKK 31.1M",
+  "valuation": "n/a (private, group-owned)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "Stores in DK, NO, SE, DE, NL, BE, CH and new UK flagship = 1; affluent 25-54 design-led home buyers = 1; design story maps only loosely to precision/performance = 0; furniture/design uncrowded on grid = 1",
+  "up_and_coming": true,
+  "flags": [
+   "group brand: Lars Larsen Group (JYSK)",
+   "USD 150-500M revenue route",
+   "market expansion: Nordics/DACH -> UK (first UK flagship)",
+   "CEO succession announced Aug 2026 (new CEO by Aug 2027)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes as a separately marketed group brand (revenue DKK 1.62B ~USD 245M FY2024/25, 529 staff, no F1 tie found for Bolia, JYSK or Lars Larsen Group); capped at Stretch by revenue route",
+  "best_angle": "Bolia's first UK flagship and wider European expansion could use F1's affluent European audience to build awareness for Scandinavian design.",
+  "sources": [
+   "https://www.proff.dk/regnskab/bolia-as/aarhus-c/mc3b8bler/0F5IVWI015G",
+   "https://www.mynewsdesk.com/lars-larsen-group/pressreleases/a-new-chapter-in-the-bolia-story-3459941",
+   "https://www.interiordaily.com/article/9784757/ceo-we-continues-european-expansion-next-year-and-launches-first-uk-flagship/",
+   "https://mynewsdesk.com/lars-larsen-group/pressreleases/the-design-company-bolia-holds-market-share-and-accelerates-expansion-3284900"
+  ]
+ },
+ {
+  "id": "unlimit.com",
+  "company": "Unlimit",
+  "sector_tab": "09 Fintech",
+  "domain": "unlimit.com",
+  "hq": "London, UK",
+  "ownership": "Private, founder-controlled (Kirill Eves/Evstratov, founder & CEO)",
+  "sells": "Global payment processing, acquiring, banking-as-a-service and crypto on-ramp (formerly Cardpay/Unlimint)",
+  "headcount_band": "501-1,000 (Welcome to the Jungle, 2025)",
+  "revenue": "Undisclosed; screen est ~USD 200M (est, unverified; no filing or press figure found)",
+  "valuation": "n/a (none published)",
+  "latest_raise": "n/a (no priced round found)",
+  "fit_score": 2,
+  "fit_detail": "Operates in UK, EU, LatAm, APAC, India = 1; merchants (gaming, crypto, e-com) not affluent/senior buyers = 0; payments tech story = 1; payments/crypto category crowded on grid = 0",
+  "up_and_coming": false,
+  "flags": [
+   "scale unverified",
+   "Russian-born founder - confirm no Russia ownership/sanctions exposure",
+   "high-risk merchant verticals (gaming, crypto)"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Scale: no route established - revenue undisclosed, no published valuation or priced round; otherwise 501-1,000 staff, no F1 tie found",
+  "best_angle": "",
+  "sources": [
+   "https://app.welcometothejungle.com/companies/Unlimit",
+   "https://www.unlimit.com/blog/press-release/cnbc-names-unlimit-among-the-uks-top-fintech-companies-for-2025/",
+   "https://europe.money2020.com/unlimit",
+   "https://find-and-update.company-information.service.gov.uk/company/14173267"
+  ]
+ },
+ {
+  "id": "groupedynamite.com",
+  "company": "Groupe Dynamite (Garage, Dynamite)",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "groupedynamite.com",
+  "hq": "Montreal, Quebec, Canada",
+  "ownership": "Listed (TSX: GRGD, IPO Nov 2024); founder/CEO Andrew Lutfy controls via multiple-voting shares",
+  "sells": "Women's fashion apparel under Garage and Dynamite brands via ~300 stores and e-commerce in Canada, US and franchised Middle East",
+  "headcount_band": "5,001-10,000 (~5,000+ est)",
+  "revenue": "TTM ~CAD 1.31B (2026, Motley Fool); quarter to Jan 2026 CAD 394.2M, +45% YoY (Google Finance)",
+  "valuation": "Market cap ~CAD 7.5-9.9B (Apr-Sep 2026; sources vary)",
+  "latest_raise": "n/a (listed; IPO Nov 2024)",
+  "fit_score": 2,
+  "fit_detail": "Sells in Canada, US and Gulf (UAE, SA, QA via franchise) = 1; audience Gen Z/young women, mid-price, not affluent 25-54 = 0; fashion story does not map to performance/technology = 0; women's mass fashion uncrowded on grid = 1",
+  "up_and_coming": true,
+  "flags": [
+   "+45% YoY quarterly revenue growth (Jan 2026 quarter)",
+   "market expansion: Canada -> US store rollout",
+   "founder-controlled dual-class"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes all hard filters (market cap ~CAD 7.5B+, revenue ~CAD 1.31B TTM, 5,000+ staff, no F1 tie found); fit 2 with credible motive - US expansion and F1's fast-growing young female fanbase",
+  "best_angle": "Garage's US rollout targets the Gen Z women who are F1's fastest-growing fan segment, with a home-race platform at the Canadian Grand Prix in Montreal.",
+  "sources": [
+   "https://www.fool.com/quote/tsx/grgd/",
+   "https://www.google.com/finance/quote/GRGD:TSE",
+   "https://multiples.vc/public-comps/groupe-dynamite-valuation-multiples",
+   "https://simplywall.st/stock/tsx/grgd"
+  ]
+ },
+ {
+  "id": "butterfieldgroup.com",
+  "company": "The Bank of N.T. Butterfield & Son",
+  "sector_tab": "01 Banking & Insurance",
+  "domain": "butterfieldgroup.com",
+  "hq": "Hamilton, Bermuda",
+  "ownership": "Listed (NYSE: NTB), widely held",
+  "sells": "Offshore banking, private banking, trust and wealth management in Bermuda, Cayman, Channel Islands, UK, Switzerland, Singapore, Bahamas",
+  "headcount_band": "1,001-5,000 (1,299 FTE, Oct 2026)",
+  "revenue": "Q2 2026 revenue USD 159M (+8.6% YoY); ~USD 620M annualised (est)",
+  "valuation": "Market cap ~USD 2.31B (2 Oct 2026, Yahoo)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "Operates in UK, Singapore and Canada (ops centre) among others = 1; HNW/affluent private clients = 1; offshore banking story does not map to performance/technology = 0; banking crowded on grid = 0",
+  "up_and_coming": false,
+  "flags": [
+   "banking category crowded (UBS, Santander, UniCredit)",
+   "country input 'Canada' incorrect - HQ Bermuda"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes all hard filters (market cap ~USD 2.31B Oct 2026, 1,299 staff, no F1 tie found); reservation: crowded banking category and niche offshore audience",
+  "best_angle": "",
+  "sources": [
+   "https://finance.yahoo.com/quote/ntb",
+   "https://www.barchart.com/story/news/3506108/ntb-q2-deep-dive-expansion-strategy-and-integration-progress-shape-outlook",
+   "https://robinhood.com/us/en/stocks/ntb/",
+   "https://www.fool.com/quote/nyse/bank-of-nt-butterfield-son/ntb/"
+  ]
+ },
+ {
+  "id": "bijou-brigitte.com",
+  "company": "Bijou Brigitte modische Accessoires AG",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "bijou-brigitte.com",
+  "hq": "Hamburg, Germany",
+  "ownership": "Listed (Frankfurt), founder Friedrich-Wilhelm Werner family holds majority (est)",
+  "sells": "Mass-market fashion jewellery and accessories via ~904 stores in DE, ES, IT, AT, PT, NL and others",
+  "headcount_band": "1,001-5,000 (~3,000 est)",
+  "revenue": "EUR 337.6M (~USD 380M) 2025 prelim, +1.1%; Q1 2026 EUR 65.2M, -1.7%",
+  "valuation": "Market cap ~EUR 300M (est, 2026)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "Stores in DE, ES, IT, AT, NL = 1; mass-market young female buyers, not affluent = 0; fashion jewellery story does not map to performance/technology = 0; category uncrowded on grid = 1",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "flat/declining sales, store count shrinking (913 -> 904)",
+   "mass-market audience mismatch"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters on USD 150-500M revenue route (EUR 337.6M 2025), ~3,000 staff, no F1 tie found; capped at Stretch, weak marketing angle",
+  "best_angle": "",
+  "sources": [
+   "https://fashionunited.de/nachrichten/business/bijou-brigitte-jahresumsatz-steigt-um-1-1-prozent/2026010964899",
+   "https://www.boerse-online.de/dpa-afx/eqs-news-bijou-brigitte-schliesst-das-geschaeftsjahr-2025-mit-umsatzplus-ab-deutsch-494376.html",
+   "https://www.hauptversammlung.de/fileadmin/public/user_upload/Bijou_GB25.pdf"
+  ]
+ },
+ {
+  "id": "by-health.com.cn",
+  "company": "By-health Co Ltd",
+  "sector_tab": "42 Health & Wellness",
+  "domain": "by-health.com.cn",
+  "hq": "Zhuhai, Guangdong, China",
+  "ownership": "Listed (Shenzhen ChiNext: 300146); founder Liang Yunchao is controlling shareholder",
+  "sells": "Vitamins and dietary supplements (By-health, Life-Space, Penta-vite, Keylid), mainly in China plus Australia",
+  "headcount_band": "1,001-5,000 (~4,000 est)",
+  "revenue": "CNY 6.27B (~USD 870M) 2025, -8.4% (CNY 6.84B 2024); net profit CNY 782M",
+  "valuation": "Market cap ~CNY 15-20B (~USD 2-2.8B) (est, 2026)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "Sales concentrated in China and Australia, fewer than 3 F1 markets = 0; affluent urban Chinese 25-54 = 1; supplements story does not map to performance/technology = 0; supplements uncrowded on grid = 1",
+  "up_and_coming": false,
+  "flags": [
+   "primarily domestic China",
+   "revenue down 8.4% 2025",
+   "no F1 tie found (search in English and Chinese)"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes hard filters (revenue CNY 6.27B ~USD 870M 2025, ~4,000 staff, no F1 tie found, not sanctioned) but is primarily domestic with limited global brand ambition",
+  "best_angle": "",
+  "sources": [
+   "https://www.lanjinger.com/d/1774340891865124019",
+   "https://epaper.cs.com.cn/zgzqb/images/2026-03/21/B061/zqB06121.pdf",
+   "https://q.stock.sohu.com/cn/300146/index.shtml"
+  ]
+ }
+]

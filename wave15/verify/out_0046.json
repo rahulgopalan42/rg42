@@ -1,0 +1,290 @@
+[
+ {
+  "id": "monin.fr",
+  "company": "MONIN",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "monin.fr",
+  "hq": "Bourges, France",
+  "ownership": "Private, Monin family (Groupe Monin SAS holding)",
+  "sells": "Flavouring syrups, sauces, fruit mixes and liqueurs for bars, cafes, foodservice and retail in 150+ countries",
+  "headcount_band": "1,001-5,000 (est; French SAS 331 staff 2024)",
+  "revenue": "Georges Monin SAS EUR 231M FY2024 (Xerfi); group ~EUR 300M 2020 (Businesscoot); group ~EUR 350-450M 2025 (est)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes; affluent/senior buyers no (B2B bar/cafe trade); performance story no; category not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "group revenue undisclosed (est)",
+   "B2B hospitality-led"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters via USD 150-500M revenue route (capped Stretch); no F1 tie found for Monin; mostly B2B trade audience.",
+  "best_angle": "Paddock/Paddock Club mixology and hospitality showcase to reach bar and cafe operators globally.",
+  "sources": [
+   "https://www.xerfi.com/etudes-par-entreprise/georges-monin_573721370",
+   "https://www.businesscoot.com/en/company/monin-groupe",
+   "https://en.wikipedia.org/wiki/Monin_(company)"
+  ]
+ },
+ {
+  "id": "gg-group.com",
+  "company": "Gebauer & Griller",
+  "sector_tab": "45 Electronic Parts",
+  "domain": "gg-group.com",
+  "hq": "Vienna, Austria",
+  "ownership": "Private, family-owned (GG Group)",
+  "sells": "Automotive cables, battery cable sets and wire harness components for European OEMs; 13 sites on 3 continents",
+  "headcount_band": "1,001-5,000 (~4,000 per Advantage Austria, undated)",
+  "revenue": "Unverified; EUR ~360M for Poysdorf/Nikolsburg ops 2008 (NOe press release); ~EUR 400-600M 2025 (est)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes; senior B2B buyers yes; performance story no clear; category automotive supply crowded = 0",
+  "up_and_coming": false,
+  "flags": [
+   "scale unverified - revenue estimate only",
+   "USD 150-500M revenue route (est)",
+   "B2B auto supplier, no brand ambition"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "No hard-filter failure found (no F1 tie); pure B2B automotive cable supplier with no consumer brand motive, revenue only estimated.",
+  "best_angle": "",
+  "sources": [
+   "https://www.gg-group.com/en/company",
+   "https://www.noe.gv.at/noe/74714_produktionshalle.html",
+   "https://www.advantageaustria.org/ae/company/ar/gebauer-griller-kabelwerke-gmbh",
+   "https://www.noe.gv.at/noe/pressAnnouncement/getPdf/117608"
+  ]
+ },
+ {
+  "id": "chemelex.com",
+  "company": "Chemelex (Raychem, Tracer)",
+  "sector_tab": "02 Energy & Industrial",
+  "domain": "chemelex.com",
+  "hq": "Houston, Texas, United States",
+  "ownership": "Brookfield (Brookfield Business Partners ~25% + institutional partners); acquired from nVent Feb 2025",
+  "sells": "Electric heat tracing, thermal management and monitoring (Raychem, Tracer, Pyrotenax, Nuheat) for industrial and commercial buildings",
+  "headcount_band": "1,001-5,000 (~1,900 per distributor profile, est)",
+  "revenue": "~JPY 90B / ~USD 620M (est, distributor page 2025)",
+  "valuation": "EV USD 1.7B (acquisition closed 3 Feb 2025)",
+  "latest_raise": "Buyout: ~USD 830M equity from Brookfield and partners (Feb 2025)",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; senior B2B buyers (energy, chemicals, commercial buildings) yes; technology/precision story yes; category not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "PE-owned (Brookfield)",
+   "new brand post-carve-out (2025)",
+   "B2B industrial"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (USD 1.7B EV, Feb 2025) and no F1 tie found for Chemelex or Brookfield; reservation: narrow industrial B2B audience.",
+  "best_angle": "New Chemelex brand (2025 carve-out from nVent) needs global awareness among industrial and energy buyers.",
+  "sources": [
+   "https://bbuc.brookfield.com/bbu/press-releases/brookfield-completes-acquisition-chemelex",
+   "https://www.nasdaq.com/press-release/brookfield-completes-acquisition-chemelex-2025-02-03",
+   "https://pr.mono.ipros.com/chemelex/product/detail/305768012/",
+   "https://pitchbook.com/profiles/company/597293-02"
+  ]
+ },
+ {
+  "id": "armstronginternational.com",
+  "company": "Armstrong International – Intelligent Solutions in Steam, Air and Hot Water",
+  "sector_tab": "02 Energy & Industrial",
+  "domain": "armstronginternational.com",
+  "hq": "Three Rivers, Michigan, United States",
+  "ownership": "Private, fifth-generation Armstrong family",
+  "sells": "Steam, hot water and air thermal systems (traps, valves, heat pumps, services) to industrial and commercial facilities globally",
+  "headcount_band": "1,001-5,000 (3,000+ incl. reps per company site; Revelio 1,346 Sep 2025)",
+  "revenue": "Undisclosed; ~USD 300M (est, Prospeo); ~USD 300-500M (est)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes; senior B2B buyers yes; performance story weak; category not crowded yes... but no consumer brand motive",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route (est)",
+   "revenue undisclosed",
+   "B2B industrial, no brand ambition"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "No F1 tie found and no hard-filter failure confirmed, but revenue only estimated and family B2B steam business has no evident brand ambition.",
+  "best_angle": "",
+  "sources": [
+   "https://www.armstronginternational.com/global/about-us",
+   "https://www.reveliolabs.com/companies/armstrong-international/employees",
+   "https://prospeo.io/c/armstrong-international-revenue",
+   "https://jobs.engineering.com/jobs/company/248705/Armstrong-International"
+  ]
+ },
+ {
+  "id": "rauch.cc",
+  "company": "RAUCH Fruchtsäfte",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "rauch.cc",
+  "hq": "Rankweil, Vorarlberg, Austria",
+  "ownership": "Private, Rauch family",
+  "sells": "Fruit juices, iced teas and beverages (Rauch, Bravo, Happy Day); co-packer/filler for Red Bull",
+  "headcount_band": "1,001-5,000 (3,247 in 2025)",
+  "revenue": "EUR 1.81B FY2025 (Leadersnet); EUR 1.77B FY2024",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes; mass consumer; performance story no; category not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "F1 tie: Red Bull Racing team partner since 2005"
+  ],
+  "verdict": "No",
+  "verdict_reason": "F1 tie: current Red Bull Racing team partner (listed on redbullracing.com partners; logo on car since 2005).",
+  "best_angle": "",
+  "sources": [
+   "https://www.leadersnet.at/news/98251,rauch-steigert-umsatz-und-investiert-in-oesterreichische.html",
+   "https://industriemagazin.at/news/fruchtsafthersteller-rauch-erzielt-rekordumsatz/",
+   "https://www.redbullracing.com/int-en/partners/rbr-rauch-team-partner",
+   "https://en.wikipedia.org/wiki/Rauch_(company)"
+  ]
+ },
+ {
+  "id": "bdrthermeagroup.com",
+  "company": "BDR Thermea Group",
+  "sector_tab": "49 Home & Living",
+  "domain": "bdrthermeagroup.com",
+  "hq": "Apeldoorn, Netherlands",
+  "ownership": "Private (Dutch-based group, privately held; no listed parent)",
+  "sells": "Heating and hot water systems and heat pumps (Remeha, Baxi, De Dietrich, Brötje) for homes and buildings",
+  "headcount_band": "5,001-10,000 (~6,500 est)",
+  "revenue": "EUR 1.9B FY2025 (Annual Review 2025); EUR 2.0B FY2024 (net loss ~EUR 72M)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes (UK, FR, NL, IT, ES, DE); homeowner/installer audience partly; energy-transition technology story yes; category not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "FY2024 net loss and transformation programme",
+   "China business sold to Midea (2025)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (EUR 1.9B revenue 2025) and no F1 tie found; reservation: recent losses and ongoing transformation programme.",
+  "best_angle": "Heat-pump and hydrogen-ready technology story for European homeowners and installers as the energy transition accelerates.",
+  "sources": [
+   "https://www.bdrthermeagroup.com/stories/Annual-Review-2025",
+   "https://edge.sitecorecloud.io/bdrthermea1-platform-production-864a/media/Project/BDR-Thermea/BDR-Thermea/Documentation/BDR-Thermea-Group_Annual-Review-2025.pdf",
+   "https://www.yicaiglobal.com/news/midea-to-buy-dutch-heating-giant-bdr-thermeas-china-business",
+   "https://en.wikipedia.org/wiki/BDR_Thermea"
+  ]
+ },
+ {
+  "id": "lucartgroup.com",
+  "company": "Lucart",
+  "sector_tab": "49 Home & Living",
+  "domain": "lucartgroup.com",
+  "hq": "Porcari (Lucca), Italy",
+  "ownership": "Pasini family via Pasfin holding; Azzurra Capital minority stake (Aug 2024)",
+  "sells": "Tissue paper and away-from-home hygiene products (Tenderly, Grazie Natural, Fiesta) across Europe",
+  "headcount_band": "1,001-5,000 (1,800+ 2026)",
+  "revenue": "EUR 677M FY2025 (Milano Finanza); EUR 685M FY2024; EUR 765M FY2023",
+  "valuation": "n/a (private)",
+  "latest_raise": "Azzurra Capital minority investment in Pasfin (Aug 2024, undisclosed)",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes (IT, FR, UK, ES, HU); mass consumer/B2B facilities; performance story no; category not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "declining revenue and weaker results 2025",
+   "PE minority holder (Azzurra Capital)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (EUR 677M revenue 2025) with no F1 tie found; reservation: weak performance angle and softening results.",
+  "best_angle": "",
+  "sources": [
+   "https://www.milanofinanza.it/news/peggiorano-i-conti-di-lucart-azzurra-c-2708172",
+   "https://www.teleborsa.it/News/2024/08/05/azzurra-capital-acquisisce-una-partecipazione-nel-gruppo-cartario-lucart-65.html",
+   "https://www.renewablematter.eu/lucart-rapporto-di-sostenibilita-2023-fatturato-in-crescita-emissioni-in-calo"
+  ]
+ },
+ {
+  "id": "beaulieu.com",
+  "company": "Beaulieu International Group",
+  "sector_tab": "21 Materials & Mech Parts",
+  "domain": "beaulieu.com",
+  "hq": "Kortrijk (Wielsbeke), Belgium",
+  "ownership": "Private, family-owned",
+  "sells": "Flooring, polymers, fibres and technical textiles in 19 countries",
+  "headcount_band": "1,001-5,000 (4,500 2024)",
+  "revenue": "EUR 2.0B FY2024 (company site); EUR 2.0B FY2023",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes; B2B buyers partly; performance story no; category not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "B2B-leaning, weak brand motive",
+   "cost/competitiveness measures announced"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters (EUR 2.0B revenue 2024, no F1 tie found) but B2B materials group with no evident brand ambition for F1.",
+  "best_angle": "",
+  "sources": [
+   "https://www.bintg.com/organisation",
+   "https://bintg.com/news/beaulieu-announces-annual-results-takes-steps-improve-competitiveness-and-further-invests",
+   "https://fr.indeed.com/cmp/Beaulieu-International-Group"
+  ]
+ },
+ {
+  "id": "troutman.com",
+  "company": "Troutman Pepper Locke",
+  "sector_tab": "50 Law Firms & Legal AI",
+  "domain": "troutman.com",
+  "hq": "Atlanta, Georgia, United States",
+  "ownership": "Partnership (LLP)",
+  "sells": "Full-service corporate, litigation, regulatory and energy legal services; 1,600+ lawyers in 30+ US offices plus London and Brussels",
+  "headcount_band": "1,001-5,000 (~3,500 incl. staff, est)",
+  "revenue": "USD 1.85B FY2025 (firm announcement)",
+  "valuation": "n/a (partnership)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets no (US-centric, London); senior B2B buyers yes; performance story no; category not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "US-centric",
+   "merger Jan 2025 (Troutman Pepper + Locke Lord)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (USD 1.85B revenue 2025) with no F1 tie found; reservation: mostly US footprint limits global value.",
+  "best_angle": "Client hospitality at Miami, Austin and Las Vegas GPs to showcase the newly merged firm to general counsels.",
+  "sources": [
+   "https://www.troutman.com/insights/troutman-pepper-locke-delivers-double-digit-growth-and-1-85-billion-in-revenue-in-2025-marking-standout-first-year-as-combined-firm",
+   "https://en.wikipedia.org/wiki/Troutman_Pepper_Locke",
+   "https://www.globallegalpost.com/news/troutman-pepper-locke-lord-cement-16bn-merger-30973216"
+  ]
+ },
+ {
+  "id": "intersnackgroup.com",
+  "company": "Intersnack Group",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "intersnackgroup.com",
+  "hq": "Dusseldorf, Germany",
+  "ownership": "Private, family-owned (Pfeifer & Langen Industrie- und Handels KG group)",
+  "sells": "Savoury snacks and nuts (KP, Tyrrells, Chio, funny-frisch, Pom-Bar) across Europe, Asia, Australia/NZ; Utz Brands deal adds US",
+  "headcount_band": "10,001+ (~14,500 2025)",
+  "revenue": "EUR 4.5B FY2025 (Borsen-Zeitung)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a; agreed USD 2.9B acquisition of Utz Brands (Jul 2026, close expected Q4 2026)",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes; mass consumer (not affluent-specific); performance story no; category not crowded yes",
+  "up_and_coming": true,
+  "flags": [
+   "group brand: Pfeifer & Langen Industrie- und Handels KG",
+   "market expansion: Europe/Australia -> United States (Utz, 2026)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (EUR 4.5B revenue 2025), no F1 tie found; reservation: mass snack audience and family-holding structure.",
+  "best_angle": "US entry via the Utz acquisition (2026) gives a reason to use F1's US growth for brand building.",
+  "sources": [
+   "https://www.boersen-zeitung.de/unternehmen-branchen/chio-chips-hersteller-expandiert-mit-milliardenkauf-in-die-usa",
+   "https://www.just-food.com/news/germanys-intersnack-to-buy-us-peer-utz-in-2-9bn-deal/",
+   "https://www.cio.de/article/3701593/intersnack-group-gmbh-und-co-kg-it-fakten-und-it-strategie.html"
+  ]
+ }
+]
