@@ -23,11 +23,11 @@ N|devtools|rev	page 1	rows 40	hasMore True	lastTask mcp-task_0tmvwlwTgXWeqRWH4jV
 N|UCaaS & CPaaS|fund	page 0	rows 17	hasMore False	lastTask mcp-task_0tmvwlzsAPHXpzKjYYT
 N|UCaaS & CPaaS|rev	page 0	rows 20	hasMore True	lastTask mcp-task_0tmvwma5Fp4x2MHXnVh
 N|AI cloud|rev	page 0	rows 20	hasMore True	lastTask mcp-task_0tmvwnbD9xXNXdUGsj3
-N|AI cloud|fund	page 4	rows 100	hasMore True	lastTask mcp-task_0tmvwtqyvu98JnhEyeh
+N|AI cloud|fund	page 5	rows 108	hasMore False	lastTask mcp-task_0tmvwvmJc9Dvf3EcDEm
 N|cyber|fund	page 1	rows 34	hasMore False	lastTask mcp-task_0tmvwse3shDvAytJqeo
-N|cyber|rev	page 1	rows 40	hasMore True	lastTask mcp-task_0tmvwu5PNevnxjMyukx
-N|chips & semi equipment|fund	page 3	rows 80	hasMore True	lastTask mcp-task_0tmvwtqCGUAbtGW9tto
-N|chips & semi equipment|rev	page 1	rows 40	hasMore True	lastTask mcp-task_0tmvwu5KngFeudZcK5F
+N|cyber|rev	page 10	rows 220	hasMore True	lastTask mcp-task_0tmvwy0DAvoD4VCraaZ
+N|chips & semi equipment|fund	page 4	rows 94	hasMore False	lastTask mcp-task_0tmvwvmvbmEcUswnmw6
+N|chips & semi equipment|rev	page 10	rows 220	hasMore True	lastTask mcp-task_0tmvwy0urmAGtqy5EmH
 N|photonics|fund	page 0	rows 10	hasMore False	lastTask mcp-task_0tmvwplvtzcgGUxbSxc
 N|photonics|rev	page 0	rows 20	hasMore True	lastTask mcp-task_0tmvwpojMB2xEPnZDiW
 N|test & measurement|rev	page 0	rows 20	hasMore True	lastTask mcp-task_0tmvwq6fr7hiyhbxEXy
@@ -36,6 +36,6 @@ N|industrial gases|fund	page 0	rows 14	hasMore False	lastTask mcp-task_0tmvwqzRR
 N|industrial gases|rev	page 0	rows 20	hasMore True	lastTask mcp-task_0tmvwr0GyEfWhPYNQhq
 N|TIC|fund	page 0	rows 3	hasMore False	lastTask mcp-task_0tmvwrhumKSdxRPqVwP
 N|TIC|rev	page 0	rows 20	hasMore True	lastTask mcp-task_0tmvwriMnMtKSyyKxQA
-All 18 topics now started (rev + fund). Searches marked hasMore True above are still open: continue with load-more on their lastTask (cap 60 pages each).
-Priority for next run: AI cloud|fund, chips & semi equipment|fund (long lists), then rev pages for cyber, chips, devtools, UCaaS & CPaaS, AI cloud, photonics, test & measurement, industrial gases, TIC; then EDA|rev (from page 43), AI data services|rev, robotics AI|rev.
-To resume: set T in scratchpad/niche/ingest.py to the new agent's transcript (find it with grep -l on the subagents dir); run python3 -I ingest.py after each page (load-more pages are matched by rootSearchId automatically).
+Run 3 (agent acf2b7e477dbc63f0) stopped to save context. Done this run: AI cloud|fund and chips|fund finished (hasMore False); cyber|rev and chips|rev advanced to page 10.
+Still open (hasMore True above): cyber|rev, chips & semi equipment|rev (from page 10), devtools|rev, UCaaS & CPaaS|rev, AI cloud|rev, photonics|rev, test & measurement|rev, industrial gases|rev, TIC|rev, EDA|rev (from page 43), AI data services|rev, robotics AI|rev. Cap 60 pages each.
+Each page costs ~11k context tokens; budget ~25-30 pages per agent run. To resume: set T in scratchpad/niche/ingest.py to the new agent's transcript; load-more on lastTask; run python3 -I ingest.py after each pair.
