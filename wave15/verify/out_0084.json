@@ -1,0 +1,290 @@
+[
+ {
+  "id": "nissens.com",
+  "company": "Nissens Automotive",
+  "sector_tab": "43 Mobility & Automotive",
+  "domain": "nissens.com",
+  "hq": "Horsens, Denmark",
+  "ownership": "Private, Nissen family",
+  "sells": "Engine cooling, A/C and aftermarket thermal parts for cars and trucks across Europe and beyond; production in Denmark and Slovakia",
+  "headcount_band": "501-1,000+ (group, est; Danish entity 111 in 2024)",
+  "revenue": "DKK 1.36B (~USD 197M) 2024, +11% (Nissens Automotive A/S, companydata.dk); net profit DKK 138M",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets: yes (Europe-wide, export). Senior B2B buyers: no (aftermarket distributors/workshops). Story: yes (thermal engineering). Category not crowded: no (automotive).",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "entity-level revenue (CVR 39565358); group accounts not checked",
+   "automotive category crowded"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "No F1 tie found; capped at Stretch by the USD 150-500M revenue route (DKK 1.36B 2024); automotive aftermarket category is crowded on the grid.",
+  "best_angle": "",
+  "sources": [
+   "https://companydata.dk/en/virksomhed/39565358-nissens-automotive-a-s",
+   "https://www.registeruz.sk/cruz-public/domain/financialreport/attachment/11116230"
+  ]
+ },
+ {
+  "id": "saleri.com",
+  "company": "Saleri",
+  "sector_tab": "43 Mobility & Automotive",
+  "domain": "saleri.com",
+  "hq": "Lumezzane (Brescia), Italy",
+  "ownership": "Private, Saleri family (Industrie Saleri Italo)",
+  "sells": "OE and aftermarket water pumps and thermal management systems (incl. electric pumps) for BMW, VW, Ferrari, Fiat, Audi, Mercedes",
+  "headcount_band": "501-1,000 (610 in 2021)",
+  "revenue": "EUR 167M (~USD 197M) FY2021, +15.9% (Banca Valsabbina, 2022); ~EUR 145-167M FY2024 (aggregator, perimeter unclear)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets: yes (European OEMs, global aftermarket). Senior B2B buyers: yes (OEM procurement). Story: yes (precision cooling engineering). Category not crowded: no (automotive).",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "scale borderline (EUR 145M ~ USD 157M at floor)",
+   "Ferrari supply is road-car OE, not F1 team",
+   "B2B OE supplier, no brand ambition"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes hard filters narrowly (revenue ~EUR 145-167M, no F1 tie found; Ferrari link is road-car OE supply) but is a B2B OE supplier with no visible brand-marketing ambition and borderline scale.",
+  "best_angle": "",
+  "sources": [
+   "https://www.bancavalsabbina.com/v4ls4bB/uploads/2022/07/BSoggi_progetto-rebranding_20220630.pdf",
+   "https://www.autobiz.ie/home/team-introduces-saleri-water-pumps",
+   "https://automotivepowertraintechnologyinternational.com/news/conference-news/saleri-to-showcase-cooling-technology.html"
+  ]
+ },
+ {
+  "id": "aiibeauty.com",
+  "company": "American International Industries (Ardell, China Glaze)",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "aiibeauty.com",
+  "hq": "Los Angeles, California, United States",
+  "ownership": "Private (founder family)",
+  "sells": "Mass-market beauty: Ardell lashes, China Glaze nail polish, GiGi waxing, professional salon products; US-led with international distribution",
+  "headcount_band": "501-1,000 (~800, 2011, Happi)",
+  "revenue": "~USD 214M (Happi est, early 2010s, dated)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets: yes (Ardell sold internationally). Affluent 25-54: no (mass market). Story: no. Category not crowded: yes.",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue estimate is over 10 years old - confirm",
+   "mass-market brands"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "No F1 tie found; capped at Stretch by the USD 150-500M revenue route, and revenue evidence is a dated estimate for a mass-market portfolio.",
+  "best_angle": "",
+  "sources": [
+   "https://www.happi.com/top-company-profile/american-intl-industries-aii/",
+   "https://www.happi.com/contents/view_top-companies-report/2011-07-12/36-american-intl/"
+  ]
+ },
+ {
+  "id": "advini.com",
+  "company": "AdVini",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "advini.com",
+  "hq": "Saint-Felix-de-Lodez, France",
+  "ownership": "Listed Euronext Paris, Jeanjean family-controlled; InVivo group entered capital (InVivo Wines asset deal, effective 30 Apr 2026)",
+  "sells": "French wines from Languedoc, Bordeaux, Rhone, Burgundy, Provence, South Africa; ~60% export",
+  "headcount_band": "501-1,000 (~1,000, est)",
+  "revenue": "EUR 270.1M (~USD 305M) FY2025, -2.7%; H1 2026 EUR 132.5M (+0.7%); net profit EUR 0.2M FY2025",
+  "valuation": "Market cap well below USD 1B (est)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets: yes (60% export). Affluent 25-54: yes (premium wine ranges). Story: no. Category not crowded: yes (wine; Ferrari Trento/Whispering Angel at F1 level but not crowded list).",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "thin profitability; net debt EUR 149.8M (2025), 2024 asset disposals",
+   "InVivo entering capital (Apr 2026)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "No F1 tie found and no genuine distress (margins and debt improving), but capped at Stretch by the USD 150-500M revenue route with near-zero net profit.",
+  "best_angle": "",
+  "sources": [
+   "https://www.boursorama.com/bourse/actualites/advini-redresse-sa-rentabilite-operationnelle-en-2025-74c284764d1967ec9a01a7418ec15075",
+   "https://www.optionfinance.fr/info-financiere-en-continu/d/2026-04-28-advini-redresse-sa-rentabilite-operationnelle-en-2025.html",
+   "https://www.abcbourse.com/marches/advini-affiche-un-resultat-net-de-7-millions-deuros-au-premier-semestre-2026-p_703736"
+  ]
+ },
+ {
+  "id": "icicle.com",
+  "company": "ICICLE (ICCF Group)",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "icicle.com",
+  "hq": "Shanghai, China",
+  "ownership": "Private (ICCF Group, founder Ye Shouzeng family); Kering minority stake via House of Wonders (announced 16 Apr 2026)",
+  "sells": "Premium natural-fibre fashion (ICICLE, Carven); 200-240 stores in China plus Paris flagship",
+  "headcount_band": "1,001-5,000 (~2,000, est)",
+  "revenue": ">EUR 300M (~USD 340M) 2025 (est, Xinhua Jun 2026); EUR 217M 2020",
+  "valuation": "Undisclosed (Kering minority stake terms not disclosed, Apr 2026)",
+  "latest_raise": "Kering minority investment, Apr 2026 (undisclosed)",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets: no (China-centric, Paris flagship). Affluent 25-54: yes. Story: no. Category not crowded: yes.",
+  "up_and_coming": true,
+  "flags": [
+   "USD 150-500M revenue route",
+   "minority holder Kering sponsors F1 (Gucci x Alpine title partnership from 2027) - cap Stretch",
+   "market expansion: China -> Europe/international (Kering-backed, 2026)",
+   "possible Hong Kong/Paris listing"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "No direct F1 tie, but minority holder Kering's Gucci is Alpine's title sponsor from 2027 (cap Stretch); also USD 150-500M revenue route and China-centric sales.",
+  "best_angle": "Kering-backed international expansion beyond China gives ICICLE a reason to build global awareness, and F1 China and Europe races reach its affluent audience.",
+  "sources": [
+   "https://www.news.cn/fashion/20260618/28448ccc35ba489998fe73798b00ff4d/c.html",
+   "https://www.yicai.com/news/103136666.html",
+   "https://fashionunited.uk/news/business/strategic-partnership-kering-and-chinas-iccf-to-strengthen-icicle-brand/2026041687504",
+   "https://theimpression.com/kering-takes-minority-stake-in-chinese-fashion-group-icicle/",
+   "https://www.ansa.it/amp/english/news/lifestyle/fashion_luxury/2026/05/27/gucci-enters-world-of-formula-1-as-alpines-partner_2feeabfe-aa9c-4435-ba1c-9cd45a1a457a.html",
+   "https://www.modaes.com/global/companies/icicle-considers-listing-iccf-in-hong-kong-or-paris-to-grow-outside-china"
+  ]
+ },
+ {
+  "id": "ziaja.com",
+  "company": "Ziaja",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "ziaja.com",
+  "hq": "Gdansk, Poland",
+  "ownership": "Private, Ziaja family",
+  "sells": "Mass-market cosmetics and skincare sold in 60+ countries",
+  "headcount_band": "1,001-5,000 (~1,500, est)",
+  "revenue": "PLN 499.9M (~USD 133M) 2025; PLN 503.3M 2024 (KRS via aleo.com)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets: yes (60+ countries). Affluent 25-54: no (mass market). Story: no. Category not crowded: yes.",
+  "up_and_coming": false,
+  "flags": [
+   "revenue below USD 150M"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Fails scale: revenue PLN 499.9M (~USD 133M) in 2025 per KRS filings, below USD 150M; no F1 tie found.",
+  "best_angle": "",
+  "sources": [
+   "https://aleo.com/pl/firma/ziaja-ltd-zaklad-produkcji-lekow-spolka-z-ograniczona-odpowiedzialnoscia"
+  ]
+ },
+ {
+  "id": "kross.eu",
+  "company": "KROSS",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "kross.eu",
+  "hq": "Przasnysz, Poland",
+  "ownership": "Private, Sosnowski family",
+  "sells": "Bicycles and e-bikes (road, MTB, gravel, city), exported to ~50 countries; ~25% Polish market share",
+  "headcount_band": "201-1,000 (426 company profile; EMIS 501-1,000 2025)",
+  "revenue": "Undisclosed recent; 2022 net sales +57% (EMIS); est ~PLN 700M (~USD 175M) (est, unverified)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a (PLN 460M syndicated loan, 2022)",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets: yes (EU, ~50 countries). Affluent 25-54: yes (premium road/gravel bikes). Story: yes (performance cycling). Category not crowded: yes.",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue unverified; post-pandemic bike downturn - confirm 150M+"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "No F1 tie found; capped at Stretch by the USD 150-500M revenue route, with no verified post-2022 revenue amid the cycling downturn.",
+  "best_angle": "",
+  "sources": [
+   "https://www.emis.cn/php/company-profile/PL/Kross_SA_en_1454555.html",
+   "https://media.pkobp.pl/188380-pko-bank-polski-wspolfinansuje-ekspansje-i-rozwoj-producenta-rowerow-kross",
+   "https://www.rp.pl/biznes/art35732961-polskie-rowery-podbijaja-europe-rekord-sprzedazy"
+  ]
+ },
+ {
+  "id": "krikri.gr",
+  "company": "Kri Kri",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "krikri.gr",
+  "hq": "Serres, Greece",
+  "ownership": "Listed Athens Exchange (KRI), founder family-controlled",
+  "sells": "Greek yogurt and ice cream; strong export growth in UK, Italy and other European markets",
+  "headcount_band": "501-1,000 (~800, est)",
+  "revenue": "EUR 328.8M (~USD 375M) FY2025, +28.2%; EBITDA EUR 48.3M; net profit EUR 34.1M",
+  "valuation": "Market cap ~EUR 930M (~USD 1.08B, est) at EUR 28.15 on 31 Jul 2026 x ~33M shares (derived); EUR 629M on 28 Nov 2025 (Eurobank Equities)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets: yes (Greece, UK, Italy, Europe). Affluent 25-54: no (mass grocery). Story: no. Category not crowded: yes.",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "market cap near USD 1B on derived estimate - confirm",
+   "strong export growth (+28% 2025)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "No F1 tie found; capped at Stretch by the USD 150-500M revenue route (market cap ~USD 1B only on a derived estimate); mass-market dairy limits fit.",
+  "best_angle": "",
+  "sources": [
+   "https://dairynews.today/global/news/kri-kri-dairy-achieves-significant-growth-in-2025-despite-challenges.html",
+   "https://athens.euronext.com/sites/default/files/2025-12/Kri_Kri_Dec_2025.pdf",
+   "https://stockanalysis.com/quote/ath/KRI/financials/income-statement/"
+  ]
+ },
+ {
+  "id": "bape.com",
+  "company": "A Bathing Ape (BAPE)",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "bape.com",
+  "hq": "Tokyo, Japan (owned from Hong Kong)",
+  "ownership": "Spun off from I.T Limited; CVC Capital Partners holds co-control (joint control); CVC exploring IPO or sale",
+  "sells": "Streetwear and accessories (A Bathing Ape, BAPE KIDS, AAPE) via global stores in Asia, US, Europe",
+  "headcount_band": "1,001-5,000 (~1,000, est)",
+  "revenue": "~USD 300M FY to Feb 2023, EBITDA ~USD 90M (ION Analytics)",
+  "valuation": "Undisclosed (CVC co-control deal)",
+  "latest_raise": "n/a (CVC co-control investment)",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets: yes (Japan, China, US, Europe). Affluent 25-54: no (streetwear skews 18-34). Story: no. Category not crowded: yes.",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "lapsed F1 tie: BAPE x Formula 1 camo car / licensed collaboration (2018-19) - confirm before outreach",
+   "PE co-control (CVC); possible IPO or trade sale"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Lapsed BAPE x F1 collaboration (2018-19) caps at Stretch (confirm before outreach); also USD 150-500M revenue route.",
+  "best_angle": "Previous F1 collab proves a fit with F1's younger fanbase; a new drop around Japan GP or Las Vegas could revive it.",
+  "sources": [
+   "https://www.nss-sports.com/en/lifestyle/16296/bape-celebrates-his-birthday-with-a-formula-1-camo-car",
+   "https://community.ionanalytics.com/a-bathing-ape-owner-exploring-dual-track-exit-plan",
+   "https://insideretail.asia/?p=52333"
+  ]
+ },
+ {
+  "id": "tamaris.com",
+  "company": "Tamaris",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "tamaris.com",
+  "hq": "Detmold, Germany",
+  "ownership": "Brand of Wortmann KG Internationale Schuhproduktionen (private, Wortmann family)",
+  "sells": "Women's shoes and accessories (Tamaris) sold in ~70 countries; Wortmann also owns Marco Tozzi, Caprice, s.Oliver shoes licence",
+  "headcount_band": "1,001-5,000 (~1,250 Wortmann KG; group larger, est)",
+  "revenue": "Wortmann group >EUR 950M (~USD 1.03B) (TextilWirtschaft, year unclear); ~EUR 1B (company careers page, undated)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets: yes (Europe, Middle East, Asia). Affluent 25-54: yes (women 25-54). Story: no. Category not crowded: yes.",
+  "up_and_coming": false,
+  "flags": [
+   "group brand: Wortmann Gruppe (contracting entity)",
+   "group revenue figure undated - confirm",
+   "Tamaris management restructured Oct 2025 (generational change)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Separately marketed consumer brand of Wortmann (group revenue ~EUR 950M-1B, undated); no F1 tie found; mid-market positioning and undated scale data are the reservation.",
+  "best_angle": "F1's growing female audience fits Europe's leading women's shoe brand as it goes through a generational management change.",
+  "sources": [
+   "https://www.textilwirtschaft.de/thema/tamaris",
+   "https://www.ausbildung.de/unternehmen/wortmann-kg-internationale-schuhproduktionen/",
+   "https://fashionunited.de/nachrichten/personen/wortmann-group-tamaris-mutter-strukturiert-geschaftsfuhrung-neu/2025103064056"
+  ]
+ }
+]
