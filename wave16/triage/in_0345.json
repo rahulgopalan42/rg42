@@ -1,0 +1,902 @@
+[
+{
+"id": "ecasa.cl",
+"company": "Ecasa Inmobiliaria y Constructora",
+"sector": "X02 Real Estate & Building Products",
+"country": "Chile",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "Ecasa, experiencia en el desarrollo, construcción, administración y comercialización de proyectos inmobiliarios. Con proyectos en gran parte del territorio nacional, desde Arica a Villarrica.\n\n25 años de trayectoria \n97 "
+},
+{
+"id": "gnc.com.mx",
+"company": "GNC México",
+"sector": "X06 Retail & E-commerce",
+"country": "Mexico",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "En General Nutrition Center, hemos estado desarrollando productos de calidad por más de 77 años y hemos construido un negocio de productos y accesorios que apoyan el vivir saludablemente. A lo largo de últimas generacion"
+},
+{
+"id": "myopla.com",
+"company": "MyOpla",
+"sector": "25 IT Services & Consulting",
+"country": "France",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "MyOpla est une entreprise spécialisée dans les services de processus métier. Avec plus de dix ans d'expérience dans l'outsourcing en inshore et offshore, nos équipes sont là pour vous accompagner dans la réussite de l'ex"
+},
+{
+"id": "gensol.in",
+"company": "Gensol Group",
+"sector": "27 Chip Makers",
+"country": "India",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "Gensol, a frontrunner in the Solar and Renewables Industry, is a rare mix of youth and experience. With a decent portfolio at base, Gensol is growing and diversifying in other areas of the renewable energy sector. Solar "
+},
+{
+"id": "solitea.cz",
+"company": "Solitea, a.s.",
+"sector": "25 IT Services & Consulting",
+"country": "Czechia",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "Solitea Česká republika, a.s., is a leader on the Czech corporate software market. The company conducted business under the name of CÍGLER SOFTWARE until October 2017. The company develops:\n\n•\tthe Money S3 accounting sys"
+},
+{
+"id": "dila.ua",
+"company": "Медична лабораторія Діла",
+"sector": "42 Health & Wellness",
+"country": "Ukraine",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "Медична лабораторія Діла ― одна із провідних українських компаній з якості лабораторної діагностики України."
+},
+{
+"id": "kliniken-schmieder.de",
+"company": "Kliniken Schmieder",
+"sector": "42 Health & Wellness",
+"country": "Germany",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "Die Kliniken Schmieder sind ein modernes, zukunftsorientiertes Familienunternehmen mit Ausrichtung auf Erfolg, Qualität und Nachhaltigkeit und wachsen seit ihrer Gründung 1950 kontinuierlich. Mittlerweile versorgen ca. 2"
+},
+{
+"id": "agelsk.sk",
+"company": "AGEL SK a.s.",
+"sector": "42 Health & Wellness",
+"country": "Slovakia",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "Spoločnosť AGEL je najúspešnejším súkromným poskytovateľom zdravotnej starostlivosti v strednej Európe. AGEL je víťazom ankety NAJZAMESTNÁVATEĽ ROKA v kategórii Nemocnice a zdravotná starostlivosť v rokoch 2020, 2021, 20"
+},
+{
+"id": "aecirujanos.es",
+"company": "Asociación Española de Cirugía",
+"sector": "42 Health & Wellness",
+"country": "Spain",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "La Asociación Española de Cirujanos se fundó en Madrid en 1935 aunque la primera reunión efectiva de sus miembros no se produjo hasta marzo de 1936. El inicio de la Guerra Civil (1936-1939) y las duras condiciones de la "
+},
+{
+"id": "kazareentextilegroup.com",
+"company": "KAZAREEN TEXTILE COMPANY",
+"sector": "53 Consumer & Lifestyle",
+"country": "Egypt",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "Kazareen Textile Company ( KTC ) , a member of Mimar Invest Group is a leading global textile , apparel & fashion services company that brings an integrated approach to design, production, marketing , retail and distribu"
+},
+{
+"id": "alialmullagroup.ae",
+"company": "Ali Al Mulla Group",
+"sector": "X06 Retail & E-commerce",
+"country": "United Arab Emirates",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "Ali Al Mulla Group is a sole proprietorship company Founded in 1999, offering a wide range of services in various sectors, underpinned by professionalism, integrity, and strong business acumen. \n\nAs Abu Dhabi has grown i"
+},
+{
+"id": "coupeg.com",
+"company": "COUP STORES",
+"sector": "53 Consumer & Lifestyle",
+"country": "Egypt",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "Coup is a heritage fashion & lifestyle brand, we epitomise a carefree, youthful spirit which embraces freedom, independence & adventure."
+},
+{
+"id": "alyousuf.com",
+"company": "Al Yousuf Group",
+"sector": "X06 Retail & E-commerce",
+"country": "United Arab Emirates",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "One of the largest diversified family business groups in the Middle East, with operations ranging from motors, real estate, electronics, sports equipment, and computer operating systems."
+},
+{
+"id": "farabiclinics.com",
+"company": "Al Farabi Medical Group",
+"sector": "42 Health & Wellness",
+"country": "Saudi Arabia",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "AlFarabi Medical Group is one of the leading outpatient healthcare networks in Saudi Arabia, now expanding across the Middle East with a presence in Egypt. \nWe operate 32 clinics, 9 pharmacies, 7 optical centers, and 3 a"
+},
+{
+"id": "itamed.com.br",
+"company": "Hospital Itamed",
+"sector": "42 Health & Wellness",
+"country": "Brazil",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "Complexo de Saúde que oferece atendimento seguro para a população de Foz do Iguaçu e região que precisam de cuidados em saúde em qualquer momento da vida.\n\nSeja Hospital, Centro Clínico, Laboratório de análises clínicas "
+},
+{
+"id": "clinifutur.net",
+"company": "Groupe de Santé Clinifutur",
+"sector": "42 Health & Wellness",
+"country": "La Réunion",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "Le Groupe de Santé CLINIFUTUR, fort de son expérience de plus de 30 ans dans la santé à la Réunion, à Mayotte, a su, tout au long de ces années, construire des offres de soins au service des patients en s’adaptant aux év"
+},
+{
+"id": "diakonie-klinikum.de",
+"company": "Diakonie-Klinikum Stuttgart",
+"sector": "42 Health & Wellness",
+"country": "Germany",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "Moderne Medizin, gute Pflege und menschliche Zuwendung – dafür steht das Diakonie-Klinikum Stuttgart, akademisches Lehrkrankenhaus der Eberhard Karls Universität Tübingen. Wir suchen für das Diakonie-Klinikum mitten in S"
+},
+{
+"id": "umed.pl",
+"company": "Centralny Szpital Kliniczny Uniwersytetu Medycznego w Łodzi",
+"sector": "42 Health & Wellness",
+"country": "Poland",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "Centralny Szpital Kliniczny Uniwersytetu Medycznego w Łodzi to nowoczesna placówka medyczna, która łączy zaawansowaną diagnostykę, wysokospecjalistyczne leczenie oraz działalność naukowo-dydaktyczną.\nDzięki dynamicznemu "
+},
+{
+"id": "mmmch.edu.bd",
+"company": "Mainamoti Medical College and Hospital",
+"sector": "42 Health & Wellness",
+"country": "Bangladesh",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "Bangladesh is a developing country burdened with a huge human cargo , is uniquely placed to harness her human resource potential to the benefit of its people throught effective restructing of the existing health care del"
+},
+{
+"id": "teka-power.com",
+"company": "TEKA Power",
+"sector": "45 Electronic Parts",
+"country": "Taiwan",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "About us TEKA Power Technology | Powering Global Brands with Smart, Certified Power Solutions."
+},
+{
+"id": "u-e-b.com",
+"company": "Shenzhen Universal Electronic Business Technology Co.,ltd",
+"sector": "X06 Retail & E-commerce",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "henzhen UEB Technology co., ltd boasts of a high-tech company in the retailing business through cross-border e-commerce, mainly focusing on e-commerce operation and management.\nFounded in 2009, the company is currently l"
+},
+{
+"id": "astrocreation.com",
+"company": "ASTRO creation exclusive handles gallery",
+"sector": "49 Home & Living",
+"country": "India",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "We are committed for our quality products that are liked by the professional civil"
+},
+{
+"id": "kotion.cn",
+"company": "Guangdong Kotion Electroacoustic Technology Co., Ltd",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "Established in 2006 , Guagdong Kotion Electroacoustic Technology.,Ltd is a high-tech enterprises which specialize in manufacturing of high quality audio electronic consuming products such as Gaming headphone,Bluetooth he"
+},
+{
+"id": "parker-chn.com",
+"company": "PARKER MACHINERY",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "Parker was founded in 2003, since the entry into the window door curtain wall machinery manufacturing field, peck with the best team and most stringent manufacturing standards, has been committed to the global supply of "
+},
+{
+"id": "labsys.cn",
+"company": "上海兰信医疗科技集团股份有限公司",
+"sector": "42 Health & Wellness",
+"country": "China",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "Lanxin Healthcare is headquartered in Pudong New Area, Shanghai. \nThe registered capital is CNY 200 million, and the total investment has exceeded CNY 1 billion,more than 1,500 employees. \nCurrently focused on the field "
+},
+{
+"id": "lawfirminstitute.com",
+"company": "White Law Case",
+"sector": "50 Law Firms & Legal AI",
+"country": "Finland",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "يعتبر المكتب واحداً من أوائل المكاتب التي اختصت في استرجاع واسترداد الأموال من شركات النصب والاحتيال المنتشرة على شبكة الإنترنت، بدأ المكتب بطاقم عمل يتألف من 3 محامين، ثم تطورنا لنصل إلى أكثر من 95 محامي موزعين على عدد "
+},
+{
+"id": "pyshnakrasa.com.ua",
+"company": "Пишна краса",
+"sector": "53 Consumer & Lifestyle",
+"country": "Україна",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "Ми працюємо для жінок, які є гордістю нашої країни - для статних красунь з розкішними фігурами від 48 до 76 розмірів!"
+},
+{
+"id": "grupazdrowie.pl",
+"company": "Grupa Zdrowie",
+"sector": "42 Health & Wellness",
+"country": "Poland",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "Grupa Zdrowie to ogólnopolska sieć placówek medycznych, która od 1997 roku kompleksowo dba o zdrowie pacjentów, od podstawowej opieki zdrowotnej po specjalistyczne leczenie i opiekę długoterminową.\n\nDziałamy w oparciu o "
+},
+{
+"id": "longsight.com.tw",
+"company": "LS-UNIVERSAL |1985",
+"sector": "53 Consumer & Lifestyle",
+"country": "Vietnam",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "Started in 1985, Long Sight has identified as a handbag manufacturer specializing in OEM and ODM. We are recognized for the exceptional quality in all of our products in verities of materials products especially leather "
+},
+{
+"id": "lsh-cat.com",
+"company": "利星行机械集团",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "利星行机械(昆山)有限公司 is a machinery company based out of 江苏省昆山市周市镇昆太路432号, 苏州市, 江苏省, China."
+},
+{
+"id": "royalplazashopping.com.br",
+"company": "Royal Plaza Shopping",
+"sector": "X06 Retail & E-commerce",
+"country": "Brazil",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "Royal Plaza: O Lugar Certo para o Seu Negócio!\n\nCom 25 anos de história no coração de Londrina, somos referência quando o assunto é potencializar negócios.\n Mais de 100 lojas\n Localização privilegiada no centro da cidade"
+},
+{
+"id": "wiintrackexports.in",
+"company": "Wiintrack Exports",
+"sector": "53 Consumer & Lifestyle",
+"country": "India",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "We are one of the leading apparel manufacturer and own a vertically integrated manufacturing facilty under the name of Wiintrack Exports (India).\n\nWe are govt recognised \"STAR EXPORT HOUSE\"  catering to the overseas mark"
+},
+{
+"id": "urbantaga.com",
+"company": "URBANTAGA",
+"sector": "53 Consumer & Lifestyle",
+"country": "India",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "India's first online brand which brings to you the pure handmade and handcrafted collection of Mens Apparel and Home Decor at amazing prices."
+},
+{
+"id": "pmilweb.com",
+"company": "PMILWeb",
+"sector": "07 Marketing & Sales",
+"country": "Pakistan",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "Our goal is to create easy employment opportunities for the less educated mobile phone and social media users. In this journey we have registered more than 3000 users on our platform who are earning from 10K to 100+K per"
+},
+{
+"id": "ipph.cn",
+"company": "Intellectual Property Publishing House (IPPH)",
+"sector": "25 IT Services & Consulting",
+"country": "China",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "Intellectual Property Publishing House is a company based out of China."
+},
+{
+"id": "poyun.com",
+"company": "东莞珀韵电子有限公司",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "东莞珀韵电子有限公司 is a semiconductors company based out of 东莞市横沥镇裕宁工业区, 东莞市, 广东省, China."
+},
+{
+"id": "megautamagroup.com",
+"company": "Mega Fortune",
+"sector": "X06 Retail & E-commerce",
+"country": "Indonesia",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": ""
+},
+{
+"id": "blueroutemall.co.za",
+"company": "Blue Route Mall",
+"sector": "X06 Retail & E-commerce",
+"country": "South Africa",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "A major mall in the Tokai suburb of Cape Town."
+},
+{
+"id": "3wgreat.com",
+"company": "Great (Fujian) Textile Science & Tech CO.,LTD",
+"sector": "53 Consumer & Lifestyle",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "Established in 2000, GREAT is a diversified company integrated\nwith design, production, sale, export, etc.\n GREAT commits itself to offering various product range\nincluding underwear,sleepwear,T-shirt, yoga,compression, "
+},
+{
+"id": "fever.com.tr",
+"company": "Fever_tr",
+"sector": "53 Consumer & Lifestyle",
+"country": "Turkey",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "1995 yılında kurulan butik marka konseptine sadık kalarak, güncel moda dünyasını takip eden \"FEVER\" farklı beğenilere hitap etmeyi hedefleyen stil anlayışı, zengin koleksiyon çeşidi ve yüksek ürün kalitesi ile üretim yap"
+},
+{
+"id": "3-circles.com",
+"company": "Xiamen 3 Circles Battery Co., Ltd.",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "Xiamen 3-Circles Battery Co., Ltd. mainly produces alkaline batteries, metal jacket batteries, PVC jacket batteries and paper jacket batteries. Our annual output of all type batteries is over billion units and the turn o"
+},
+{
+"id": "wavemarkmx.com",
+"company": "WAVEMARK",
+"sector": "07 Marketing & Sales",
+"country": "Mexico",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "Somos una agencia de Marketing Promocional Especializada con 48 años de experiencia en ejecución de punto de venta.\n\nContamos con el mejor equipo de trabajo, personal capacitado y especializado, enfocados 100% en superar"
+},
+{
+"id": "ansania.com",
+"company": "Ansania Hijab",
+"sector": "53 Consumer & Lifestyle",
+"country": "Indonesia",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "Perusahaan ini secara resmi bergerak di bidang jasa kerudung produk lokal Indonesia dengan kualitas baik. Kami mempekerjakan tenaga ahli dalam bidang yang sudah berpengalaman dan profesional sehingga menghasilkan produk "
+},
+{
+"id": "cnlinfo.net",
+"company": "海湾智库",
+"sector": "X02 Real Estate & Building Products",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": ""
+},
+{
+"id": "zeltj.com",
+"company": "ZANUSSI ELETTROMECCANICA TIANJIN COMPRESSOR CO., LTD.",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "Zanussi Elettromeccanica Tianjin Compressor Co., Ltd. (ZEL) was the pioneer in hermetic compressor manufacturing in China. It started to produce household refrigerating compressor in 1960s, as licensee of Zanussi Elettre"
+},
+{
+"id": "fusung.cn",
+"company": "惠州福盛创新电子技术有限公司-PCB、PCBA、组装 OEM 加工代工",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "惠州福盛创新电子技术有限公司,成立于2012年11月。公司位于仲恺高新区陈江大欣工业区第七区,是一家专业生产智能手机,物联网产品,可穿戴产品和汽车电子产品等智能产品的OEM工厂。 \n占地面积:50,000余平方米;员工人数:2500-3500人左右 (职员300人左右)\n主营业务:高端智能手机、智能微投、智能手表、IoT产品从SMT、测试到组装、包装生产一体化制造服务\n从业精神:匠心、责任、进步;核心价值:速度、品质、成本、服务\n服务意"
+},
+{
+"id": "",
+"company": "ISATO Group",
+"sector": "53 Consumer & Lifestyle",
+"country": "Morocco",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "rd\n    Notice: tw telecom is no longer active and thi...\n    Cox is now Spectrum. Follow along at https://w...\n    Notice: Level 3 Communications is no longer ac...\n    HP Autonomy, is a global leader in software th...\n "
+},
+{
+"id": "plazacuernavaca.com.mx",
+"company": "Plaza Cuernavaca",
+"sector": "X06 Retail & E-commerce",
+"country": "Mexico",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "Plaza Cuernavaca es un centro comercial que tiene más de 20 años, ofreciendo un espacio, libre y seguro para las familias que lo visitan, teniendo una gran variedad de tiendas departamentales, ropa, calzado, accesorios y"
+},
+{
+"id": "cszzxgj.com",
+"company": "TMK Power Industries Ltd.",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "TMK Power Industries Ldt. Shenzhen / China is a professional manufacturer specializing in researching, developing, manufacturing and selling of Ni-MH and Li-Ion Batteries for all kinds of electronic devices.\r\n\r\nOur batte"
+},
+{
+"id": "heshengw.com",
+"company": "Guangzhou Hesheng Store Fixtures Co., Ltd",
+"sector": "49 Home & Living",
+"country": "China",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "Hesheng is a leading Chinese company in the retail design industry located in Guangzhou. It not only makes great furniture and create appealing retail environments, but also helps some of the world's best known companies"
+},
+{
+"id": "antaresavm.com.tr",
+"company": "Antares Alışveriş Merkezi",
+"sector": "X06 Retail & E-commerce",
+"country": "Turkey",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "Adını samanyolunda yer alan, güneşten 400 kat daha büyük ve 60 bin kat daha parlak olan bir yıldızdan alan Antares Alışveriş ve Yaşam Merkezi, 82.725 m2 kiralanabilir alanı ile Türkiye'nin en büyük alışveriş merkezleri a"
+},
+{
+"id": "3irobotics.com",
+"company": "Shenzhen 3iRobotix Co.,Ltd",
+"sector": "56 Robotics AI",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "3irobotix is founded in 2016 years, as a national high-tech enterprise, is dedicated to design, develop and produce robot vacuum cleaner, and providing professional robot vacuum cleaner solutions to clients wordwide."
+},
+{
+"id": "litive.com.br",
+"company": "Litive",
+"sector": "50 Law Firms & Legal AI",
+"country": "Brazil",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "A Litive é a solução ideal para escritórios e departamentos jurídicos com um sistema que monitora de forma inteligente a distribuição de processos judiciais em todos os Foros, Tribunais, Instâncias, Comarcas e seções jud"
+},
+{
+"id": "greatnameplates.com",
+"company": "Shenzhen Chuangxinjia Smart Card Co., Ltd",
+"sector": "09 Fintech",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "Established in 1999, Shenzhen CXJ Smart Tech. Co. Ltd was devoted into the R&D, manufacturing and marketing of metal cards, metal tags, PVC cards and other relevant items.\r\n\r\nPeople first, we have always been seeking for"
+},
+{
+"id": "",
+"company": "Eternal Prowess Group",
+"sector": "53 Consumer & Lifestyle",
+"country": "Vietnam",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "rd\n    Notice: tw telecom is no longer active and thi...\n    Cox is now Spectrum. Follow along at https://w...\n    Notice: Level 3 Communications is no longer ac...\n    HP Autonomy, is a global leader in software th...\n "
+},
+{
+"id": "sxdj.com",
+"company": "Shanxi Electric Motor Manufacturing Co., Ltd",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "At Shanxi Electric Motor Manufacturing Co., Ltd. (a.k.a SXDJ), we are at the forefront of innovation in the electric motor industry, marrying cutting-edge technology with a legacy spanning over 70 years. Our global influ"
+},
+{
+"id": "exelsourcing.com",
+"company": "EXEL SOURCING COMPANY",
+"sector": "53 Consumer & Lifestyle",
+"country": "India",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "EXEL SOURCING COMPANY is one of India’s leading manufacturers and exporters of knitted, woven & fleece garments. With annual sales revenue of around 50 Million USD and 28 years of rich business experience, EXEL are trust"
+},
+{
+"id": "ergonorseating.com",
+"company": "联友办公家具有限公司",
+"sector": "49 Home & Living",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "联友家具集团是一家跨国经营的全球知名系统办公家具品牌。专业研发生产人性工学办公椅和工学系统办公家具。集团拥有多项全球首创的办公椅和系统办公家具设计专利, 生产技术和专利技术领先同业。\n联友家具秉承“坐拥健康,享受绿活”的产品设计理念,结合专业的平衡办公空间规划理念最终以达成“臻致您的工作生活”为客戶服务目标。\n联友一直致力于新办公空间规划模式与研发设计符合人性、工学、科技的办公室各项产品。在提升客戶企业竞争力的目标下,建立与实现最佳办公"
+},
+{
+"id": "greatpower-battery.com",
+"company": "Shenzhen GPE Co., Ltd",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "As a high tech Enterprise since 2001, Shenzhen GPE Co Ltd develops and produces advanced Lithium, LiFePO4, Li-polymer Batteries and battery packs for Energy storage, Solar Light, Automotive, GPS, UPS, Consumer electronic"
+},
+{
+"id": "pureonaturalretail.com",
+"company": "Pure O Natural",
+"sector": "X06 Retail & E-commerce",
+"country": "India",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "Established in 2003, Pure O Natural has evolved into the one and only specialized Fresh Produce Retail Chain with 60+ outlets across Telangana and Andhra Pradesh.\nBuilt on the strength of deep-rooted farmer relationships"
+},
+{
+"id": "yiduchuan.com",
+"company": "YDC Clothing Group",
+"sector": "53 Consumer & Lifestyle",
+"country": "China",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "Woven wear, Knitted wear, Suits, shirts, uniform, coat, etc."
+},
+{
+"id": "solaxpower.com.tr",
+"company": "SolaX Power Türkiye (Resmi Distribütörü İNFORM)",
+"sector": "27 Chip Makers",
+"country": "Turkey",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "SolaX Power vizyonu, solar inverterlerin geliştirilmesi, üretimi ve dağıtımında dünya lideri olmaktır. Ürün yelpazesi, Ar-Ge'ye sürekli odaklanma ve mümkün olanın sınırlarını zorlamaya yönelik kesintisiz bağlılık sayesin"
+},
+{
+"id": "zharfkarejam.com",
+"company": "Zharf Kare Jam Co",
+"sector": "23 Machine Tools",
+"country": "Iran",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "We are looking for Finance companies from EU to do EPC projects in IRAN, Africa and Middle East countries"
+},
+{
+"id": "fahrenheitindia.com",
+"company": "indtech apparels pvt. ltd.",
+"sector": "53 Consumer & Lifestyle",
+"country": "India",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "12"
+},
+{
+"id": "panasign.com",
+"company": "Panasign Co., Ltd",
+"sector": "07 Marketing & Sales",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "Panasign was founded in 1996, the company's registered capital was 144 million RMB. Panasign is a company who does advertising design, logo production, LED lighting project and installation services. Currently we have mo"
+},
+{
+"id": "bertolini.com.mx",
+"company": "Bertolini Muebles México",
+"sector": "49 Home & Living",
+"country": "Mexico",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "Pertenecemos a Grupo Bertolini, una empresa con más de 52 años en el mercado. El grupo cuenta con presencia en Brasil, Colombia, Estados Unidos, y desde el 2015 estamos en México.\n\nCon una esencia Brasileña y un corazón "
+},
+{
+"id": "mikenco.vn",
+"company": "Mikenco",
+"sector": "53 Consumer & Lifestyle",
+"country": "Vietnam",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "MIKENCO is a men's fashion brand born in 2017 designed in Vietnam and manufactured in Vietnam or China, belonging to the difficulty of the product, MIKENCO aims at the market share of young people, passionate about fashi"
+},
+{
+"id": "hc-optical.net",
+"company": "Hongchen optical",
+"sector": "52 Photonics & Optical",
+"country": "China",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "Hongchen optical is Top 3 optical lens manufacturers in China.\n\nBulid in 1985, We have 35+ professional lens experience.\n\nWe have 2200 workers, work for 60+ countries, 40000+ stores.\n\nDaily production is 300,000 pieces h"
+},
+{
+"id": "doyin.com",
+"company": "Zhejiang Doyin Technology",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "浙江东音科技有限公司初创于1993年(前身为深圳证券交易所上市公司:浙江东音泵业股份有限公司),注册资金三亿元,专业从事井用泵、潜污泵、陆上泵的研发、生产和销售,是中国最大的井用泵制造商和出口商(根据中国农业机械工业协会排灌分会统计排名)。\n\n作为高新技术企业,东音拥有65项专利技术,共有40多个系列、2000多种型号,广泛应用于农林灌溉、生活取水、工业用水、泵站提水、园林绿化、市政工程、建筑供水、污/净水处理等领域。东音产品遍销全球8"
+},
+{
+"id": "cementblockmakingmachine.com",
+"company": "BHARAT TILES MACHINE PRODUCT",
+"sector": "23 Machine Tools",
+"country": "India",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "Incepted in the year 2002, we, “Bharat Tiles Machine Product”, are engaged in manufacturing a diverse range of Concrete Mould, Admixture Hardener, Concrete Mixer, Floor Tile Making Machines etc. These products are widely"
+},
+{
+"id": "kayson-cn.com",
+"company": "广东啟盛商贸有限公司",
+"sector": "53 Consumer & Lifestyle",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "广东啟盛商贸有限公司隶属于佛山啟盛卫生用品有限公司(以下简称啟盛)是一家专注研发、生产、销售妇女卫生巾、护垫、婴儿纸尿裤、纸尿片和隔尿垫巾的企业。工厂占地面积100亩,建筑面积12.6万平方米,在行业内具有较高的知名度、影响力和代表性,生产规模位居全国前列。 \n      公司拥有小妮、U适、U适宝宝、美适宝宝等自主品牌以及出口的“AGNES”品牌,其卫生巾、纸尿裤系列产品先后获得“广东省著名商标”、“广东省名牌产品”、“中国名优产品”"
+},
+{
+"id": "visionrenovable.com",
+"company": "Visión Renovables",
+"sector": "27 Chip Makers",
+"country": "Argentina",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "Visión Renovables es un proveedor líder en energías renovables que brinda soluciones integrales para instalaciones domiciliarias e industriales en Argentina. Ofrecemos un servicio llave en Mano que abarca desde el estudi"
+},
+{
+"id": "china-simo.com",
+"company": "SIMO MOTOR",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "China SIMO:\nhigh voltage motor, High Voltage(3KV 6KV 10KV) AC Motor, electric motor high voltage ,440v dc motor ,induction motor ,electric motor, three phase motor, synchronous motor."
+},
+{
+"id": "tdae.in",
+"company": "Tarinee Designs and Exports LLP",
+"sector": "50 Law Firms & Legal AI",
+"country": "India",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "TARINEE DESIGNS AND EXPORTS LLP is a Stop Solution for MNCs, Corporates, and School’s providing the best quality copier paper and stationery products. We are associated with brands across the country for Paper and statio"
+},
+{
+"id": "strength-group.com",
+"company": "STRENGTH Group",
+"sector": "33 Automation & Robotics",
+"country": "China",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "We are the first choice for intelligent automation in Textile Industry.\nMade for people, used for people-smart, reliable and easy to use.\nFor more than 50 years, our mission has been to make life and work easier.\nBuildin"
+},
+{
+"id": "yulon-group.com",
+"company": "Yu Lon Group/ Li-Yuen Garment Co.,Ltd.",
+"sector": "53 Consumer & Lifestyle",
+"country": "Vietnam",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "Li - Yuen Garment Co. Ltd\r\n\r\nTrang Bang Industrial Park, St. 6, , Tay Ninh\r\nTel: (84-66) 3896886\r\nFax: (84-66) 3896735\r\nVice General Director: Mr Ho How Ming\r\n\r\nOur company is a supplier of products Garment Companies. Pl"
+},
+{
+"id": "hdtyre.com",
+"company": "HAIDA Tyre Factory",
+"sector": "33 Automation & Robotics",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "Through the 50 years of trials of hardships and with the endeavors of 3000 employees, Haida is now able to manufacture three series of products with 1260 specifications and has been granted with more than 20 domestic and"
+},
+{
+"id": "punitcreation.in",
+"company": "Punit Creation",
+"sector": "53 Consumer & Lifestyle",
+"country": "India",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "We manufacturer and export all kinds of apparels as per our buyers'' specifications and requirements. We do our own developments also. We also supply for domestic markets on wholesale basis."
+},
+{
+"id": "hk.cn",
+"company": "美奥口腔",
+"sector": "42 Health & Wellness",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "美奥口腔集团(MYOUR)是一家以医疗投资、管理为主导产业的口腔医疗投资管理集团,总部位于国际大都市——上海。其打造的国内五星级会所式口腔医院服务,遵循美式口腔成熟的诊疗模式,致力于为国内精英人群提供国际齿科技术服务,迅速成为国内极具潜力的口腔品牌之一。旗下拥有长沙、苏州、乌鲁木齐、天津、杭州、南京、无锡、合肥、南通,西安,昆山,常德,徐州,深圳,重庆等十余个城市,30多家高端牙科机构。"
+},
+{
+"id": "asia-asset.com",
+"company": "Asia Asset Property Services",
+"sector": "X02 Real Estate & Building Products",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "Asia Asset residential Service provides expatriates one-package hassle-free professional residential relocation solution.\r\nWith 7 offices in the major cities in China, \r\nAsia Asset residential Service offers an on-demand"
+},
+{
+"id": "",
+"company": "MUNRIN FASHION HOUSE",
+"sector": "53 Consumer & Lifestyle",
+"country": "Bangladesh",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "rd\n    Notice: tw telecom is no longer active and thi...\n    Cox is now Spectrum. Follow along at https://w...\n    Notice: Level 3 Communications is no longer ac...\n    HP Autonomy, is a global leader in software th...\n "
+},
+{
+"id": "",
+"company": "Campco Properties LLC",
+"sector": "19 Gulf Sovereign & Tourism",
+"country": "United Arab Emirates",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "rd\n    Notice: tw telecom is no longer active and thi...\n    Cox is now Spectrum. Follow along at https://w...\n    Notice: Level 3 Communications is no longer ac...\n    HP Autonomy, is a global leader in software th...\n "
+},
+{
+"id": "mjstyle.cn",
+"company": "上海笕尚服饰有限公司",
+"sector": "X06 Retail & E-commerce",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "上海笕尚服饰有限公司旗下拥有FISHOP、MJSTYLE、TOPFEELING等大型零售品牌业务。快时尚生活式品牌MJstyle快速汲取全球流行的前沿设计灵感与理念,创造出品类繁多的商品、以极具竞争力的定价,最大程度满足人们对时尚品质生活不断更新的诉求。\nTOPFEELING-为MJSTYLE的精品迷你店。其所有的产品都是从MJSTYLE里面经过完美精选出来,加上个性化的装修设计,给顾客不同的购物体验。"
+},
+{
+"id": "shenling.cn",
+"company": "Shenling Environmental Systems Co., Ltd.",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "Shenling Environmental Systems Co., Ltd. was founded in 1988 with headquarter in Shunde, Guangdong Province, P.R. China. As a professional environmental system solution provider, we engage in consulting, design, planning"
+},
+{
+"id": "snimayhome.com",
+"company": "snimay cabinet",
+"sector": "49 Home & Living",
+"country": "China",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "One of the leading brands of customized furniture in China. Providing custom made kitchen cabinets , wardrobes , whole house solutions , interior doors and home furnitures .\nOur mission is to create a young, fashionable "
+},
+{
+"id": "danmoo.com",
+"company": "Danmoo_global",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "Our goal is to provide amokers around the world with an effective alternative to traditional cigarette by developing vaping products of fashionable design, easy to use,high quality and great value. You should get one fro"
+},
+{
+"id": "manado-maju-group.com",
+"company": "Manado Maju Group",
+"sector": "16 Travel & Hospitality",
+"country": "Indonesia",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "Manado Maju Group is a Travel and Tourism Company currently expanding it's business endeavours in Manado, North Sulawesi. The company encompasses a variety of departments, including Travel Business, Diving Center, Transp"
+},
+{
+"id": "lawyer.ua",
+"company": "Ukraine Legal advice online",
+"sector": "50 Law Firms & Legal AI",
+"country": "Ukraine",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "Professional legal network Lawyer.ua specializes in providing legal services to the public and businesses on legal matters of any specialization.\nWe have a successful experience in provision of legal support. More than 2"
+},
+{
+"id": "faragauss.mx",
+"company": "Faragauss Technology Mx",
+"sector": "44 Grid & Transformers",
+"country": "Mexico",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "Somos una empresa dedicada al desarrollo de alta tecnología electromagnética, nuestro objetivo es garantizar la seguridad del ser humano, el correcto funcionamiento de los Sistemas Eléctricos, Telecomunicaciones, Segurid"
+},
+{
+"id": "shini.com",
+"company": "东莞信易电热机械有限公司",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "信易集團—源於台灣新北,和著時代脈搏,歷經40餘年非凡歷程,在全球佈局六大(新北•東莞•平湖•寧波•重慶•印度)生產基地和企業技術中心。產品為塑膠成型輔助設備,有除濕乾燥系列;供料輸送系列;混合拌料系列;冷熱交換系列;粉碎回收系列;系統化對策;自動化對策;熱流道系統等。信易人憑藉著“信實本業,永續經營”的經營理念,開創了一個又一個的新局面,至今已發展成為世界級的塑膠成型輔助設備製造商,亞洲塑膠輔機界的行業翹楚。"
+},
+{
+"id": "sbm.com.ph",
+"company": "Shanghai Shibang Machinery Co., Ltd.",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "As the leader of global crushing and grinding industry, Shibang always insists on science paralleling with quality and seeking innovation & excellence. For a long time, Shibang has always strived to create a leading bran"
+},
+{
+"id": "henglin.com",
+"company": "HL",
+"sector": "49 Home & Living",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "We are the No. 1 seating products producer and exporter in China.  Our company is in Anji, Zhejiang Province, China, about 2 hours from Shanghai."
+},
+{
+"id": "precision-pak.com",
+"company": "Alphatan International Inc",
+"sector": "53 Consumer & Lifestyle",
+"country": "Canada",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": ""
+},
+{
+"id": "naori.gt",
+"company": "Naori Apartamentos",
+"sector": "X02 Real Estate & Building Products",
+"country": "Guatemala",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "A lo largo de la historia, Japón ha encontrado en el culto a la perfección la fuerza para convertirse en el referente mundial de la modernidad, arquitectura y diseño.\n\nEncontramos en esa misma búsqueda de perfección el c"
+},
+{
+"id": "bon-ecosystem.com",
+"company": "BON Group Co., Ltd.",
+"sector": "17 AI Cloud & Data",
+"country": "Vietnam",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "BON is a next-generation supply chain technology ecosystem that redefines how goods are produced, distributed, and consumed. By integrating platforms such as Bon Gateway, Bon Logistics, WAO and Headless Commerce Core, Bo"
+},
+{
+"id": "qcybluetooth.com",
+"company": "Shenzhen Cham Battery technology Co.,Ltd",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "Dongguan Hele Electronics Co.,Ltd was established in 2003, covering an area of 15,000 m2 in Dongguan, China. We are a professional high -tech company engaged in the R&D, manufacturing and marketing of Bluetooth headset a"
+},
+{
+"id": "eigate.com",
+"company": "Eigate(Shenzhen) Electronics Technology Co., Ltd.",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "Provide vaping solutions for OEM/ODM clients globally"
+},
+{
+"id": "tusabogadosycontadores.co",
+"company": "Tus abogados y Contadores",
+"sector": "50 Law Firms & Legal AI",
+"country": "Colombia",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"description": "Marketplace de Abogados Líder en Colombia ."
+},
+{
+"id": "settour.com.tw",
+"company": "SET tour",
+"sector": "16 Travel & Hospitality",
+"country": "Taiwan",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "東南旅行社成立於民國50年,總公司位於台北精華地段,成功開拓海內外分公司,據點遍及中國、日本和美國,以提供消費者最方便的旅遊諮詢。\n\n成立以來一直秉持「用心服務 用情導遊」的理念,服務每一位參加的旅客,建立起東南旅行社的好口碑。五十幾年來精英團隊的努力,專業態度和資深實力,備受各界的好評。使國人一提到旅遊,就想到「東南」;傲眼的成績讓「東南」成為台灣最大、最具規模的旅行社。\n\n專業‧創新‧用心是我們對顧客的承諾,提供最完善的旅遊資訊。總"
+},
+{
+"id": "msa.co.kr",
+"company": "MSA Co.,Ltd.",
+"sector": "53 Consumer & Lifestyle",
+"country": "South Korea",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"description": "Casual & Outdoor Woven Garment Manufacturer since 1992.\n- Global Sales / Product Development / Production in Vietnam\n- Finance / Korea Domestic Sales in Seoul Korea\n- Production Capability : Down / Seam Sealing / Laser c"
+}
+]
