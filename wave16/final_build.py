@@ -66,24 +66,70 @@ pa, pss, pl, pi = sc.prog_fit_df(b)
 pub = ((b['type'] == 'Public Company') | (b['apollo_exchange'].fillna('') != '')).to_numpy()
 CAP = [17, 17, 9, 9]          # preliminary scores never reach full marks
 SCL = {'L': 'large', 'M': 'mid', 'S': 'small', 'U': ''}
+# pre-sort run on a random sample of RESEARCHED brands, used only to calibrate pre-sort scores against research
+pscal = {}
+cidx = json.load(open(f'{R}/wave16/presort_cal/index.json')) if os.path.exists(f'{R}/wave16/presort_cal/index.json') else {}
+for f in sorted(glob.glob(f'{R}/wave16/presort_cal/out_*.json')):
+    keys = cidx.get(os.path.basename(f)[4:8], [])
+    try:
+        for r in json.load(open(f)): pscal[keys[int(r[0])]] = [max(0, min(4, int(x))) for x in r[2:6]]
+    except Exception: pass
+# raw database-evidence components for every row (researched rows too, as calibration features)
+FMAX = np.array([20, 20, 10, 10]); NMAX = np.array([20, 10, 10])
+raw_fit, raw_fin, feat = [], [], []
+for j, r in enumerate(b.itertuples()):
+    prog = np.array([pa[j], pss[j], pl[j], pi[j]])
+    divlike = r.kind == 'division' or (r.kind == '' and bool(DIVNAME.search(str(r.name))))
+    if divlike and r.kind == '': prog = np.maximum(0, prog - .15)
+    p = ps.get(r.k)
+    scale = SCL.get(p['scale'], '') if p else (r.tri_scale or '')
+    tk = 'division' if divlike else ('real' if r.kind in ('real', 'researched') else '')
+    c = np.array(sc.prog_fin(r.clay_band, r.funding_100m_apollo, pub[j], r.size, scale, tk), dtype=float); c[0] = min(c[0], 18)
+    subs = p['sub'] if p else pscal.get(r.k)
+    tf = float(r.tri_fit) if (r.tri_t in ('real', 'division') and pd.notna(r.tri_fit)) else np.nan
+    raw_fit.append(prog * FMAX); raw_fin.append(c)
+    feat.append([*(subs if subs else [np.nan] * 4), tf])
+raw_fit, raw_fin, feat = np.array(raw_fit), np.array(raw_fin), np.array(feat)
+prog60, fin_raw = raw_fit.sum(1), raw_fin.sum(1)
+# targets from research (old 50/50 components rescaled to 60/40)
+isres = b['researched'].to_numpy()
+tgt = np.full((len(b), 2), np.nan)
+for j, k in enumerate(b['k']):
+    if isres[j]:
+        f_, c_ = sc.researched(v2[k]); tgt[j] = [sum(f_), sum(c_)]
+def lsq(X, y):
+    X = np.column_stack([X, np.ones(len(X))]); return np.linalg.lstsq(X, y, rcond=None)[0]
+def apply(coef, X): return np.column_stack([X, np.ones(len(X))]) @ coef
+has_ps = ~np.isnan(feat[:, 0]); has_tri = ~np.isnan(feat[:, 4])
+CAL = {}
+m = isres & has_ps
+CAL['presort'] = lsq(np.column_stack([prog60[m], feat[m, :4]]), tgt[m, 0]) if m.sum() >= 150 else None
+m = isres & has_tri
+CAL['tri'] = lsq(np.column_stack([prog60[m], feat[m, 4]]), tgt[m, 0])
+CAL['db'] = lsq(prog60[isres][:, None], tgt[isres, 0])
+CAL['fin'] = lsq(fin_raw[isres][:, None], tgt[isres, 1])
+print('calibration (fit ~ database score [+ pre-sort]):', {k: (None if v is None else np.round(v, 3).tolist()) for k, v in CAL.items()})
+fit_hat = apply(CAL['db'], prog60[:, None])
+fit_hat = np.where(has_tri, apply(CAL['tri'], np.column_stack([prog60, np.nan_to_num(feat[:, 4])])), fit_hat)
+if CAL['presort'] is not None:
+    fit_hat = np.where(has_ps, apply(CAL['presort'], np.column_stack([prog60, np.nan_to_num(feat[:, :4])])), fit_hat)
+else:   # no calibration sample yet: treat the mean pre-sort sub-score like the earlier 0-4 fit judgement
+    fit_hat = np.where(has_ps, apply(CAL['tri'], np.column_stack([prog60, np.nan_to_num(feat[:, :4]).mean(1)])), fit_hat)
+fin_hat = apply(CAL['fin'], fin_raw[:, None])
+def apportion(rawc, mx, total):
+    total = int(round(max(0, min(mx.sum(), total))))
+    w = rawc if rawc.sum() > 0 else mx.astype(float)
+    x = np.minimum(mx, w / w.sum() * total); r_ = np.floor(x).astype(int)
+    for k in np.argsort(-(x - r_)):
+        if r_.sum() >= total: break
+        if r_[k] < mx[k]: r_[k] += 1
+    return r_.tolist()
 rows = []
 for j, r in enumerate(b.itertuples()):
-    v = v2.get(r.k)
-    if v:
-        f, c = sc.researched(v); basis = 'Verified ranking (researched)'
+    if isres[j]:
+        f, c = sc.researched(v2[r.k]); basis = 'Verified ranking (researched)'
     else:
-        prog = [pa[j], pss[j], pl[j], pi[j]]
-        divlike = r.kind == 'division' or (r.kind == '' and bool(DIVNAME.search(str(r.name))))
-        if divlike and r.kind == '': prog = [max(0, x - .15) for x in prog]
-        p = ps.get(r.k)
-        f = sc.preliminary(prog, presort=p['sub'] if p else None,
-                           tri_fit=(r.tri_fit if (not p and r.tri_t in ('real', 'division') and pd.notna(r.tri_fit)) else None))
-        f = [min(x, cap) for x, cap in zip(f, CAP)]
-        scale = SCL.get(p['scale'], '') if p else (r.tri_scale or '')
-        tk = 'division' if divlike else ('real' if r.kind in ('real', 'researched') else '')
-        c = list(sc.prog_fin(r.clay_band, r.funding_100m_apollo, pub[j], r.size, scale, tk))
-        c[0] = min(c[0], 18)
-        basis = 'Preliminary ranking'
+        f = apportion(raw_fit[j], FMAX, fit_hat[j]); c = apportion(raw_fin[j], NMAX, fin_hat[j]); basis = 'Preliminary ranking'
     rows.append((*f, *c, basis))
 SC = ['audience20', 'synergy20', 'alignment10', 'intl10', 'revenue20', 'capital10', 'other10', 'ranking_type']
 b[SC] = pd.DataFrame(rows, index=b.index, columns=SC)
@@ -291,7 +337,7 @@ SH = ['sector rank', 'overall rank', 'brand', 'website', 'PRIORITY SCORE (0-100)
 SW = [7, 8, 32, 24, 9, 8, 9, 16, 18, 26, 30, 24, 30, 14, 60]
 def srow(r):
     return [r.sector_rank, r.overall_rank, r.name, r.domain, int(r.priority), int(r.fit60), int(r.fin40), r.ranking_type, r.confidence,
-            r.revenue, r.criterion, r.parent, r.f1_deal, r.country, r.rationale]
+            r.revenue, r.criterion, r.parent, r.f1_deal, r.country, str(r.rationale)[:160]]
 
 top20 = q.head(20)
 nf20 = q[q['f1_deal'] == ''].head(20)
