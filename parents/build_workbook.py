@@ -215,6 +215,7 @@ readme = [
  ['Prepared for', 'SPORTFIVE Formula 1 sponsorship sales, 19 Oct 2026 (separate discovery exercise from the Clay prospect-ranking project)'],
  ['Qualification', 'Ultimate parent meeting ANY ONE of: valuation / market cap >= USD 1B, cumulative funding >= USD 100M, or annual revenue >= USD 100M (revenue test added 19 Oct 2026 on request; revenue figures are Apollo estimates). No restriction by ownership type or industry.'],
  ['Drive CSV brands tab', 'Brands from the Friday Clay export CSVs on Google Drive that meet the same valuation / funding parameters (revenue not counted), with their Wave 16 60/40 scores. These are existing-dataset brands, listed separately on request; they are not part of the parent-level master ranking.'],
+ ['Apollo matches tab', 'Every Apollo/Lusha record that matched a company already in your files but was not re-scored, with the sheet it matched. Nothing from the pulls is hidden.'],
  ['Discovery sources', '40 knowledge-research category/region briefs; Apollo.io company search (total funding >= USD 100M, 3,000 records); Lusha company search (total funding >= USD 100M, 1,500 records). No paid enrichment beyond the approved search pages.'],
  ['Cross-reference', 'Every parent, alias, subsidiary and brand name and website checked against: Old Google Drive master files (all worksheets), previous prospect workbooks and CSVs (all worksheets, incl. the Wave 16 final ranking), and the Friday Clay exports (all CSVs).'],
  ['Categories', 'A = genuinely new parent (no parent, subsidiary or brand in any dataset) -> master ranking + industry tabs. B = corporate-group overlap (parent or at least one subsidiary/brand already in a dataset) -> EXISTING CORPORATE-GROUP OVERLAPS, ranked separately. C = identity or qualification uncertain -> MANUAL REVIEW.'],
@@ -297,6 +298,12 @@ drows = [[r['drank'], s(r['name']), s(r['parent']), s(r['country']), s(r['sector
           s(r['rationale'])[:300], s(r['confidence']), s(r['source_csv']), r['parent_in']] for _, r in D.iterrows()]
 sheet('DRIVE CSV BRANDS (QUALIFIED)', DH, drows, [7, 30, 28, 14, 26, 22, 45, 9, 9, 9, 60, 14, 24, 22])
 print('drive csv brands qualified', len(D))
+# Apollo/Lusha records whose parent is already in the existing datasets (not re-scored): listed for traceability
+BU = par[par['bucket'] == 'BU'].sort_values('name')
+BH = ['Company (as in Apollo/Lusha)', 'Website', 'HQ Country', 'Apollo revenue (est.)', 'Exchange', 'Owner per Apollo', 'Connector criterion', 'Matched in dataset(s)', 'Where the parent is listed', 'Existing subsidiary / brand found']
+brows = [[s(r['name']), r['website'], s(r['hq_country']), s(r.get('revenue_printed')), s(r.get('exchange')), '; '.join(sorted(r['children']))[:120] if r['children'] else '', r['qual'],
+          s(r['datasets']), s(r['parent_where']), s(r['existing_brands'])] for _, r in BU.iterrows()]
+sheet('APOLLO MATCHES IN YOUR FILES', BH, brows, [32, 26, 14, 14, 10, 40, 40, 30, 60, 50])
 # summary
 secs = A['sector_name'].value_counts()
 SH = ['Metric', 'Value']
@@ -308,7 +315,7 @@ srows = [['Parents discovered (all sources, after merging duplicate records)', l
          ['   of which parent itself already listed', int((B['parent_listed'] == 'yes').sum())]] + \
         [['   Overlap type ' + k, int(v)] for k, v in B['otype'].value_counts().sort_index().items()] + [
          ['Headline: share of all qualified parents already present in existing datasets', f"{len(B) / max(1, len(A) + len(B)):.0%}"],
-         ['Category C - manual review', len(C)], ['Drive CSV brands meeting valuation/funding parameters (separate tab)', len(D)], ['Apollo/Lusha records whose parent is already in existing datasets (not re-scored, not listed)', int(unscored_B.sum())], ['Preliminary rows in master ranking', int(A['preliminary'].sum())], ['', '']]
+         ['Category C - manual review', len(C)], ['Drive CSV brands meeting valuation/funding parameters (separate tab)', len(D)], ['Apollo/Lusha records whose parent is already in existing datasets (not re-scored; listed on APOLLO MATCHES IN YOUR FILES)', int(unscored_B.sum())], ['Preliminary rows in master ranking', int(A['preliminary'].sum())], ['', '']]
 srows += [['New parents by sector: ' + k, int(v)] for k, v in secs.items()] + [['', '']]
 srows += [[f'Top {i} new parent', f"{r['name']} ({r['hq_country']}) - {r['sector_name']} - total {r['total']}"] for i, (_, r) in enumerate(A.head(20).iterrows(), 1)]
 sheet('SUMMARY', SH, srows, [70, 90], freeze='A2')
