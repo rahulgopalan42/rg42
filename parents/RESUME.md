@@ -47,6 +47,14 @@ all datasets. Each chunk is scored by a Sonnet agent with `score_brief.md`; disc
 `discover_brief.md`. Apollo pulls use `apollo_brief.md` (needs `.claude/settings.json` allow rule
 `mcp__Apollo_io`, already committed - effective in a fresh session).
 
+## State at last build (19 Oct 2026, final run of this session)
+- Master ranking (Category A, genuinely new parents): 2,065 | Existing group overlaps (B): 6,313 | Manual review (C): 756
+- Confirmed current F1 sponsors set aside: 106 | Excluded (duplicates, non-prospects, below thresholds): 4,211
+- Drive CSV brands meeting the parameters (separate tab): 2,320 | QC: 13/13 checks pass
+- Web/offline verification applied to the 500 top-ranked new parents (parents/verify_out); public evidence for the
+  1,917 previously unrecognised funded companies in parents/peek (homepage + Wikipedia summaries, gathered by
+  parents/peek_sites.py with curl, because the WebSearch budget is shared and small).
+
 ## Open items
 - Remaining Apollo pages (see above) and any revenue-based connector pull (Apollo `revenue_range`, Lusha
   revenue filter) - Rahul asked to exhaust public / existing data first and to be asked before spending credits.

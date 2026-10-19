@@ -42,10 +42,14 @@ for v in vrows:
     if not m.any(): continue
     par.loc[m, 'web_verdict'] = s(v['verdict']); par.loc[m, 'web_note'] = s(v['note'])
     if s(v['verdict']) in ('OK', 'CORRECTED'):
-        if f(v['val_bn']): par.loc[m, ['val_bn', 'val_basis', 'val_date']] = [f(v['val_bn']), s(v['val_basis']) or 'market cap', s(v['val_date']) or '2026-10']
+        # a memory-based "OK" must not replace a market cap taken from the 2026-10 listing; only a CORRECTED verdict or a row without a listing figure is overridden
+        listed_fig = par.loc[m, 'verified_src'].astype(str).str.startswith('companiesmarketcap').any()
+        if f(v['val_bn']) and (s(v['verdict']) == 'CORRECTED' or not listed_fig):
+            par.loc[m, ['val_bn', 'val_basis', 'val_date']] = [f(v['val_bn']), s(v['val_basis']) or 'market cap', s(v['val_date']) or '2026-10']
         if f(v['funding_m']): par.loc[m, 'funding_m'] = f(v['funding_m'])
         if f(v['revenue_m']) and 'revenue_printed' in par: par.loc[m & par['revenue_printed'].isna(), 'revenue_printed'] = f"{f(v['revenue_m']):.0f}M"
-        par.loc[m, 'verified_src'] = f"web check {s(v['source'])}"
+        prev = s(par.loc[m, 'verified_src'].iloc[0])
+        par.loc[m, 'verified_src'] = (prev + '; ' if prev else '') + f"web check {s(v['source'])}"
         par.loc[m, 'conf'] = 'H' if s(v['conf']) == 'H' else 'M'
     fs = s(v['f1_status'])
     if fs.startswith('current'): par.loc[m, 'f1'] = fs
@@ -105,9 +109,9 @@ cap = par.apply(capacity, axis=1, result_type='expand'); cap.columns = ['cap_sca
 par = pd.concat([par, cap], axis=1)
 par['capacity'] = par['cap_scale'] + par['cap_val'] + par['cap_other']
 par['total'] = (par['fit'] + par['capacity']).round(1)
-par['preliminary'] = ((~par['scored']) | par['conf'].fillna('').isin(['L', 'U']) | (par['val_bn'].isna() & par['funding_m'].isna())) & ~par['verified_src'].astype(str).str.startswith('web check')
+par['preliminary'] = ((~par['scored']) | par['conf'].fillna('').isin(['L', 'U']) | (par['val_bn'].isna() & par['funding_m'].isna())) & ~par['verified_src'].astype(str).str.contains('web check')
 par['confidence'] = par.apply(lambda r: 'Preliminary - not scored (connector record only)' if not r['scored'] else
-                              {'H': 'High', 'M': 'Medium', 'L': 'Low (figures from memory)', 'U': 'Low - identity unconfirmed'}.get(s(r['conf']), 'Medium') + (' - web-verified 2026-10-19' if s(r['verified_src']).startswith('web check') else ''), axis=1)
+                              {'H': 'High', 'M': 'Medium', 'L': 'Low (figures from memory)', 'U': 'Low - identity unconfirmed'}.get(s(r['conf']), 'Medium') + (' - web-verified 2026-10-19' if 'web check' in s(r['verified_src']) else ''), axis=1)
 def rationale(r):
     bits = []
     if r['a'] >= 3: bits.append('strong F1 audience overlap')
