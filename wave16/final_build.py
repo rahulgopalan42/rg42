@@ -279,6 +279,18 @@ m = b['k'].isin(dk) & (b['bucket'] == 'ranked')
 b.loc[m, 'bucket'] = 'review'; b.loc[m, 'review_reason'] = 'Possible duplicate within the new files (same name and country as a higher-ranked brand)'
 b.loc[m, 'review_detail'] = b.loc[m, 'k'].map(dk)
 print('within-new near-duplicates sent to review', int(m.sum()))
+# brands that are THEMSELVES F1 sponsors / partners come out of the ranking onto their own tab (shown in red);
+# brands linked to F1 only through a parent stay ranked but are highlighted red
+DIRECT = {'research', 'known F1 sponsor list', 'pre-sort note (unverified)'}
+INDIRECT = re.compile(r"\b(parent|group:|owner|shareholder|no (direct|team|sponsorship|f1)|not (a )?sponsor|media rights|tie-in|via )", re.I)
+m = (b['bucket'] == 'ranked') & b['f1_src'].isin(DIRECT) & ~b['f1_deal'].fillna('').str.contains(INDIRECT)
+b.loc[m, 'bucket'] = 'f1'
+mi = (b['bucket'] == 'ranked') & b['f1_src'].isin(DIRECT) & b['f1_deal'].fillna('').str.contains(INDIRECT)
+b.loc[mi, 'f1_src'] = b.loc[mi, 'f1_src'] + ' - link via parent/owner only'
+print('F1 links via parent/owner only (kept ranked, red)', int(mi.sum()))
+print('existing F1 sponsors taken out of the ranking', int(m.sum()))
+f1t = b[b['bucket'] == 'f1'].sort_values(['priority', 'fit60', 'fin40'], ascending=False).reset_index(drop=True)
+f1t['f1_rank'] = f1t.index + 1
 q = ranked_sorted()
 q['overall_rank'] = q.index + 1
 q['sector_rank'] = q.groupby('sector').cumcount() + 1
@@ -287,7 +299,7 @@ mr = b[b['bucket'] == 'review'].copy(); inel = b[b['bucket'] == 'ineligible'].co
 # ---------------- parent company overlaps (old vs new) and shared parents among new brands
 pod = b[(b['parent_in_old'] != '')][['parent', 'parent_in_old', 'name', 'domain', 'sector', 'same_brand_as_parent', 'parent_source', 'bucket']].copy()
 pod['relationship'] = np.where(pod['same_brand_as_parent'], 'same brand - regional arm / division of the old brand', 'different brand owned by a parent that is in your files')
-pod['in final ranking?'] = pod['bucket'].map({'ranked': 'yes - ranked', 'review': 'no - Manual Review', 'ineligible': 'no - Ineligible'})
+pod['in final ranking?'] = pod['bucket'].map({'ranked': 'yes - ranked', 'review': 'no - Manual Review', 'ineligible': 'no - Ineligible', 'f1': 'no - Existing F1 Sponsors tab'})
 pod = pod[['parent', 'parent_in_old', 'name', 'domain', 'sector', 'relationship', 'parent_source', 'in final ranking?']]
 g = b[b['parent'] != ''].groupby('psn')
 shared = pd.DataFrame({'parent': g['parent'].first(), 'new brands with this parent': g['name'].agg(lambda x: '; '.join(sorted(set(x))[:15])),
@@ -327,6 +339,7 @@ od = set(regdom(d) for d in oe['domain']) - {''}; on_ = set(oe.index); ol = set(
 leak = q[(q['rd'].isin(od)) | (q['sn'].isin(on_)) | (q['li'].isin(ol) & (q['li'] != ''))]
 qc('3. Known duplicates excluded (independent re-check of website, LinkedIn page and name vs old files)', len(leak) == 0, f'{len(leak)} ranked brands still match an old record')
 qc('4. Master Ranking holds only confirmed-new brands', bool((q['dup_status'] == 'new').all()), 'possible duplicates kept in Manual Review')
+qc('4b. No existing F1 sponsor in the ranking', not q['f1_src'].isin(DIRECT).any(), f'{len(f1t):,} existing F1 sponsors on their own tab; {int((q["f1_deal"] != "").sum()):,} ranked brands with an F1-linked parent highlighted red')
 qc('5. Every ranked brand has a score and an overall rank', bool(q['priority'].notna().all() and (q['overall_rank'] == np.arange(1, len(q) + 1)).all()), f'{len(q):,} ranked')
 qc('6. Sector tabs reconcile with the Master Ranking', int(q.groupby('sector').size().sum()) == len(q) and q['sector'].notna().all(), f"{q['sector'].nunique()} sector tabs, each brand in exactly one")
 qc('7. Financial figures attributed to the brand, not the parent', True, 'parent finances never scored; division rows flagged "may reflect the parent group"; researched rows checked per legal entity')
@@ -342,22 +355,25 @@ recon = [['Rows in the 13 Friday Clay CSVs', n_raw],
          ['    of which confirmed new brands', n_newb],
          ['      confirmed new - ineligible (defunct, sanctioned, distressed per research)', len(inel)],
          ['      confirmed new - Manual Review (other reasons)', int(len(mr) - n_maybe)],
+         ['      confirmed new - already F1 sponsors / partners (own tab, red, not ranked)', len(f1t)],
          ['      confirmed new - RANKED in the Master Ranking', len(q)],
-         ['Check: ranked + manual review + ineligible + duplicates + merged = raw rows', len(q) + len(mr) + len(inel) + n_dup + n_int],
+         ['Check: ranked + F1 sponsors + manual review + ineligible + duplicates + merged = raw rows', len(q) + len(f1t) + len(mr) + len(inel) + n_dup + n_int],
          ['', ''],
          ['Ranked brands also seen in Wave 15 DROPPED / unchecked lists (reassessed under current criteria)', int((q['seen_in_w15'] != '').sum())],
-         ['Ranked brands that are already F1 sponsors (directly or via parent) - kept and flagged', int((q['f1_deal'] != '').sum())],
+         ['Ranked brands whose PARENT is an F1 sponsor (kept, highlighted red)', int((q['f1_deal'] != '').sum())],
          ['Ranked brands with a verified (researched) score', int((q['ranking_type'] != 'Preliminary ranking').sum())],
          ['Ranked brands with a preliminary score', int((q['ranking_type'] == 'Preliminary ranking').sum())],
          ['Parent-company overlaps with old data', len(pod)],
          ['Wave 15 pending checks completed in this round', len(w15p)],
          ['Wave 15 sweep brands outside the Friday export (scored on the Wave 15 tab)', len(w15l)]]
-qc('Reconciliation: no record lost or double-counted', recon[11][1] == n_raw, f'{recon[11][1]:,} vs {n_raw:,}')
+qc('Reconciliation: no record lost or double-counted', recon[12][1] == n_raw, f'{recon[12][1]:,} vs {n_raw:,}')
 
 # ---------------- write workbook
 wb = Workbook(write_only=True)
 HB = Font(bold=True, color='FFFFFF'); HF = PatternFill('solid', fgColor='1F3864')
-def sheet(title, header, rows, widths=None, freeze='C2'):
+RF = Font(color='9C0006'); RFILL = PatternFill('solid', fgColor='FFC7CE'); RH = PatternFill('solid', fgColor='C00000')
+def sheet(title, header, rows, widths=None, freeze='C2', red=False, hfill=None):
+    """red=True: rows are (values, is_red) pairs; red rows get red text on a light red fill"""
     ws = wb.create_sheet(title[:31])
     if widths:
         for i, w in enumerate(widths):
@@ -366,9 +382,17 @@ def sheet(title, header, rows, widths=None, freeze='C2'):
     from openpyxl.cell import WriteOnlyCell
     hdr = []
     for h in header:
-        c = WriteOnlyCell(ws, value=h); c.font = HB; c.fill = HF; c.alignment = Alignment(wrap_text=True, vertical='top'); hdr.append(c)
+        c = WriteOnlyCell(ws, value=h); c.font = HB; c.fill = hfill or HF; c.alignment = Alignment(wrap_text=True, vertical='top'); hdr.append(c)
     ws.append(hdr)
-    for r in rows: ws.append(['' if (isinstance(x, float) and np.isnan(x)) else x for x in r])
+    clean = lambda r: ['' if (isinstance(x, float) and np.isnan(x)) else x for x in r]
+    for r in rows:
+        if not red: ws.append(clean(r)); continue
+        vals, flag = r
+        if not flag: ws.append(clean(vals)); continue
+        cells = []
+        for x in clean(vals):
+            c = WriteOnlyCell(ws, value=x); c.font = RF; c.fill = RFILL; cells.append(c)
+        ws.append(cells)
 MH = ['overall rank', 'sector rank', 'brand', 'sector', 'website', 'PRIORITY SCORE (0-100)', 'F1 fit (0-60)', 'financial capacity (0-40)',
       'ranking type', 'research confidence', 'verification status', 'company-specific rationale', 'annual revenue', 'revenue source',
       'valuation (if available)', 'valuation source', 'total funding (if available)', 'funding source', 'financial qualification criterion',
@@ -390,6 +414,7 @@ def srow(r):
 
 top20 = q.head(20)
 nf20 = q[q['f1_deal'] == ''].head(20)
+f1top = f1t.head(20)
 readme = [
  ['F1 Wave 16 - FINAL consolidated prospect database (Friday Clay export), 19 Oct 2026'], [''],
  ['WHAT IS IN THE MASTER RANKING'],
@@ -412,8 +437,11 @@ readme = [
  ['  Apollo funding) blended with a knowledge-only pre-sort; capped below full marks. Confidence Low / Very low. Verify before outreach.'], [''],
  ['TABS'],
  ['  00 Reconciliation & QC - record counts from raw rows to the ranking, and the quality-control checks.'],
- ['  01 Master Ranking - all ranked brands, highest priority first.  Sector tabs - the same brands, one primary sector each, ranked within sector.'],
- ['  Existing F1 Sponsors - ranked brands already in F1 directly or via a parent (kept and flagged).'],
+ ['  01 Master Ranking - all ranked brands, highest PRIORITY SCORE first (ties: higher F1 fit, then higher financial capacity, then researched first).'],
+ ['  Sector tabs - the same brands and scores, one primary sector each, ranked within the sector by the same rule (sector rank).'],
+ ['  RED rows in the ranking = the brand is not itself an F1 sponsor but its PARENT is (e.g. a subsidiary of an F1 partner group) - check before approaching.'],
+ ['  Existing F1 Sponsors (red tab) - brands that are themselves already F1 / F1-team sponsors or partners. Taken OUT of the ranking.'],
+ ['    "how identified": research (sourced), known F1 sponsor list, or pre-sort note (knowledge only, unverified - confirm before excluding for good).'],
  ['  Parent Company Overlaps - new brands whose parent is already in your files.  Shared Parents - new brands sharing a parent.'],
  ['  Excluded Duplicates (old) - every brand removed, with the old file | tab it matched.  Merged Within New Files - Friday rows merged into another row.'],
  ['  Manual Review - possible duplicates (of old records, or of a higher-ranked new brand with the same name and country), unresolved ownership,'],
@@ -428,13 +456,14 @@ sheet('00 Reconciliation & QC', ['item', 'count / result', 'detail'],
       [[a, (f'{x:,}' if isinstance(x, (int, np.integer)) else x), ''] for a, x in recon] + [['', '', '']] +
       [['QUALITY CONTROL', '', '']] + QC + [['', '', '']] + [['BRANDS PER SECTOR (ranked)', '', '']] +
       [[s, int(c), ''] for s, c in q['sector'].value_counts().sort_index().items()], [100, 18, 90], freeze='A2')
-sheet('01 Master Ranking', MH, (mrow(r) for r in q.itertuples()), MW)
-for s in sorted(q['sector'].unique()):
-    sheet(s, SH, (srow(r) for r in q[q['sector'] == s].itertuples()), SW)
-f1s = q[q['f1_deal'] != '']
-sheet('Existing F1 Sponsors', ['overall rank', 'brand', 'sector', 'website', 'PRIORITY SCORE (0-100)', 'F1 deal / relationship', 'how identified', 'ranking type', 'parent company', 'country'],
-      ([r.overall_rank, r.name, r.sector, r.domain, int(r.priority), r.f1_deal, r.f1_src, r.ranking_type, r.parent, r.country] for r in f1s.itertuples()),
-      [8, 32, 26, 24, 9, 70, 24, 18, 24, 14])
+sheet('01 Master Ranking', MH, ((mrow(r), r.f1_deal != '') for r in q.itertuples()), MW, red=True)
+for sec in sorted(q['sector'].unique()):
+    sheet(sec, SH, ((srow(r), r.f1_deal != '') for r in q[q['sector'] == sec].itertuples()), SW, red=True)
+sheet('Existing F1 Sponsors', ['F1 sponsor rank', 'brand', 'sector', 'website', 'PRIORITY SCORE (0-100)', 'F1 fit (0-60)', 'financial capacity (0-40)',
+                               'F1 deal / relationship', 'how identified', 'ranking type', 'parent company', 'country', 'company-specific rationale'],
+      (([r.f1_rank, r.name, r.sector, r.domain, int(r.priority), int(r.fit60), int(r.fin40), r.f1_deal, r.f1_src, r.ranking_type, r.parent,
+         r.country, str(r.rationale)[:200]], True) for r in f1t.itertuples()),
+      [8, 32, 26, 24, 9, 8, 9, 70, 24, 18, 24, 14, 60], red=True, hfill=RH)
 sheet('Parent Company Overlaps', ['parent company', 'parent found in old file | tab', 'new brand', 'new brand website', 'sector', 'relationship', 'ownership evidence', 'in final ranking?'],
       pod.values.tolist(), [30, 50, 32, 24, 26, 44, 22, 20])
 sheet('Shared Parents (new brands)', ['parent', 'new brands with this parent', 'count', 'parent also in your old files'], shared.values.tolist(), [32, 110, 8, 50])
@@ -460,6 +489,7 @@ summ = {'raw': n_raw, 'merged_within': n_int, 'unique': n_uniq, 'dup_old': n_dup
         'verified_ranked': int((q['ranking_type'] != 'Preliminary ranking').sum()), 'presort_rows': len(ps),
         'sectors': q['sector'].value_counts().to_dict(), 'w15_pending': len(w15p), 'w15_left': len(w15l),
         'qc': QC, 'top20': top20[['overall_rank', 'name', 'sector', 'priority', 'fit60', 'fin40', 'ranking_type', 'f1_deal']].values.tolist(),
+        'f1_sponsors': len(f1t), 'f1_top': f1top[['f1_rank', 'name', 'priority', 'f1_deal']].values.tolist(),
         'top20_nonf1': nf20[['overall_rank', 'name', 'sector', 'priority', 'fit60', 'fin40', 'ranking_type']].values.tolist()}
 json.dump(summ, open(f'{S}/final_summary.json', 'w'), default=str, indent=1)
 print(json.dumps({k: v for k, v in summ.items() if k not in ('sectors', 'top20', 'top20_nonf1', 'qc')}))
