@@ -47,7 +47,12 @@ Output: JSON array at the output path in your task, one object per input row, sa
 - rationale: one or two evidence-based sentences. not_a_prospect: "" or a short reason if it is junk, defunct,
   a person, or only a sub-page of another company (then scores may be 0).
 - sector_override: better sector tab name if clearly wrong, else "". sources: list of URLs actually used.
-Budget: about 2 WebSearch per company (financials + sponsorship/F1 check); skip when the input already settles it.
+Budget: WebSearch is capped per turn and shared by all agents, so use it sparingly (at most 1 per company, often 0).
+Prefer WebFetch of known pages first: the company's English Wikipedia article (infobox revenue / owner / founded),
+its investor-relations or "about" page, companiesmarketcap.com or stockanalysis.com for listed companies.
+Use WebSearch only when those do not settle revenue/ownership or the F1/sponsorship check.
+If WebSearch says the limit is reached, continue with WebFetch and knowledge; mark anything you could not confirm
+as unknown and lower confidence - do not stop the batch.
 Write ALL rows with python3 -I (json.dump, ensure_ascii=False). Helper files only in
 /tmp/claude-0/-home-user-rg42/f658b5c3-a5ae-5398-b208-f286520b1971/scratchpad/v2_<batch>/.
 Report only: rows researched, Verified/Partial/Not, and the top scorer per batch. Under 40 words.

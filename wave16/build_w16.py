@@ -32,6 +32,17 @@ VC = ['revenue', 'revenue_source', 'valuation', 'valuation_source', 'funding', '
       'verification', 'fit_score', 'fit_detail', 'parent', 'parent_source', 'f1_current', 'reason', 'sources']
 for c in VC: p['v_' + c] = p['rd'].map(lambda d: (ver.get(d) or {}).get(c, ''))
 p['verified'] = p['rd'].isin(ver)
+tri = {}
+for f in glob.glob(f'{R}/wave16/triage/out_*.json'):
+    for r in json.load(open(f)): tri[r['id']] = r
+v2 = {}
+for f in sorted(glob.glob(f'{R}/wave16/verify2/out_*.json')):
+    for r in json.load(open(f)): v2[r['id']] = r
+p['tri_t'] = p['rd'].map(lambda d: (tri.get(d) or {}).get('t', ''))
+p['tri_fit'] = p['rd'].map(lambda d: (tri.get(d) or {}).get('fit', None))
+p['tri_scale'] = p['rd'].map(lambda d: (tri.get(d) or {}).get('scale', ''))
+p['tri_note'] = p['rd'].map(lambda d: (tri.get(d) or {}).get('note', ''))
+p['researched'] = p['rd'].isin(v2)
 
 def clean_parent(x):
     x = str(x or '').strip()
@@ -45,43 +56,64 @@ p['parent_final'] = p['v_parent'].where(p['v_parent'] != '', p['parent'])
 DIV = re.compile(r"( for | by |\b(uk|emea|apac|americas|europe|india|usa|us|canada|australia|germany|france|italia|espana|brasil|mexico|japan|china)\b.*$| - | division\b| unit\b)", re.I)
 p['division_like'] = p['name'].str.contains(DIV, regex=True) & ~p['verified']
 
-# ---------- scoring (documented in README)
-FIN = {'75M-200M': 8, '200M-500M': 14, '200M-1B': 14, '500M-1B': 20, '500M+': 22, '1B-10B': 26, '10B-100B': 30, '100B-1T': 30}
-def fin_pts(r):
-    v = FIN.get(r.clay_band, 8)
-    if r.funding_100m_apollo: v = max(v, 14)
-    if r.verified and r.v_verification in ('Verified', 'Partially verified'):
-        try: v = int(ver[r.rd].get('financial_points', v))
-        except Exception: pass
-    return v
-REACH = {'10,001+': 10, '5,001-10,000': 8, '1,001-5,000': 6, '501-1,000': 4, '201-500': 2}
-p['fit'] = [int(r.v_fit_score) if r.verified and str(r.v_fit_score).isdigit() else r.fit_proxy for r in p.itertuples()]
-p['fit_basis'] = p['verified'].map({True: 'researched', False: 'preliminary (sector-based)'})
-p['fin_points'] = [fin_pts(r) for r in p.itertuples()]
-p['reach_points'] = [min(10, REACH.get(r.size, 0) + (2 if r.type == 'Public Company' else 0)) for r in p.itertuples()]
-p['verif_points'] = p['v_verification'].map({'Verified': 10, 'Partially verified': 5}).fillna(0)
-p['priority'] = (p['fit'] * 12.5 + p['fin_points'] + p['reach_points'] + p['verif_points'] - p['division_like'].map({True: 10, False: 0})).clip(lower=0).round(1)
+# ---------- scoring: F1 Fit (50) + Financial Capacity (50)
+def gi(d, k, default=0):
+    try: return int(float(d.get(k, default)))
+    except Exception: return default
+REVP = {'75M-200M': 3, '200M-500M': 6, '200M-1B': 6, '500M-1B': 8, '500M+': 8, '1B-10B': 11, '10B-100B': 14, '100B-1T': 14}
+FITC = ['audience', 'synergy', 'alignment', 'international', 'category']
+FINC = ['revenue_scale', 'capital', 'profitability_score', 'marketing']
+rows = []
+for r in p.itertuples():
+    v = v2.get(r.rd)
+    if v:
+        f = {k: gi(v, k) for k in FITC}; c = {k: gi(v, k) for k in FINC}; conf = v.get('confidence', 'Medium')
+    else:
+        fit4 = r.tri_fit if r.tri_t == 'real' and r.tri_fit is not None else r.fit_proxy
+        try: fit4 = int(fit4)
+        except Exception: fit4 = int(r.fit_proxy)
+        big = r.size in ('1,001-5,000', '5,001-10,000', '10,001+') or r.type == 'Public Company'
+        f = {'audience': round(fit4 / 4 * 12), 'synergy': round(fit4 / 4 * 12), 'alignment': round(fit4 / 4 * 8),
+             'international': 3 if big else 2, 'category': 3}
+        c = {'revenue_scale': REVP.get(r.clay_band, 3), 'capital': 4 if r.funding_100m_apollo else 2,
+             'profitability_score': 5, 'marketing': 3}
+        if r.tri_scale == 'large': c['revenue_scale'] = max(c['revenue_scale'], 11)
+        conf = 'Low (knowledge pre-sort)' if r.tri_t else 'Very low (database only)'
+    rows.append((sum(f.values()), sum(c.values()), conf, *[f[k] for k in FITC], *[c[k] for k in FINC]))
+sc = pd.DataFrame(rows, index=p.index, columns=['fit50', 'fin50', 'confidence'] + FITC + FINC)
+p = pd.concat([p, sc], axis=1)
+p['fit'] = p['fit50']
+p['priority'] = (p['fit50'] + p['fin50']).astype(int)
+p['fit_basis'] = p['researched'].map({True: 'researched', False: 'preliminary'})
 
 def status(r):
-    if r.verified: return r.v_verification or 'Researched'
+    v = v2.get(r.rd)
+    if v: return v.get('verification') or 'Researched'
+    if r.tri_t == 'division': return 'Preliminary - division/sub-brand (pre-sort)'
+    if r.tri_t == 'real': return 'Preliminary - real company (pre-sort), Clay revenue estimate'
     return 'Preliminary - Clay revenue estimate (unverified)'
 p['research_status'] = [status(r) for r in p.itertuples()]
-p['criteria'] = [(r.v_criteria_met if r.verified and r.v_criteria_met else
+p['criteria'] = [((v2.get(r.rd) or {}).get('criteria_met') or (r.v_criteria_met if r.verified and r.v_criteria_met else '') or
                   'Revenue >= USD 75M (Clay estimate)' + (' + Funding >= USD 100M (Apollo estimate)' if r.funding_100m_apollo else ''))
                  for r in p.itertuples()]
 
 
 # manual review: possible duplicates, failed verification, unclear ownership flagged by research
-mr_mask = (p['dup_status'] == 'maybe') | p['research_status'].isin(['Not verified', 'Failed', 'Unclear'])
+p['nap'] = p['rd'].map(lambda d: (v2.get(d) or {}).get('not_a_prospect', ''))
+p['v1_junk'] = p['verified'] & (p['v_verification'] == 'Not verified') & ~p['researched']
+mr_mask = ((p['dup_status'] == 'maybe') | (p['tri_t'] == 'junk') | (p['nap'].fillna('') != '') | p['v1_junk']
+           | (p['researched'] & (p['research_status'] == 'Not verified') & (p['criteria'].str.startswith('None'))))
 mr = p[mr_mask].copy(); q = p[~mr_mask].copy()
-q = q.sort_values(['priority', 'fin_points', 'reach_points'], ascending=False).reset_index(drop=True)
+q = q.sort_values(['priority', 'fit50', 'fin50'], ascending=False).reset_index(drop=True)
 q['overall_rank'] = q.index + 1
 q['sector_rank'] = q.groupby('sector').cumcount() + 1
 
 def reason(r):
+    v = v2.get(r.rd)
+    if v and v.get('rationale'): return v['rationale']
     bits = []
     if r.verified and r.v_reason: return r.v_reason
-    bits.append(f'fit {r.fit}/4 ({r.fit_basis})')
+    bits.append(f'preliminary: fit {r.fit50}/50, capacity {r.fin50}/50' + (f' (pre-sort: {r.tri_note})' if r.tri_note else ''))
     bits.append(r.revenue_usd.replace('USD ', '').replace(' (Clay estimate)', ' rev est'))
     if r.funding_100m_apollo: bits.append('100M+ funding (Apollo)')
     if r.size: bits.append(f'{r.size} staff')
@@ -124,19 +156,28 @@ def sheet(title, header, rows, widths=None):
     ws.freeze_panes = 'C2'
     ws.append(header)
     for r in rows: ws.append(r)
-MH = ['overall rank', 'sector rank', 'brand', 'sector', 'website', 'annual revenue (USD)', 'revenue source / date',
-      'valuation (USD)', 'valuation source / date', 'total funding (USD)', 'funding source / date', 'financial criterion met',
-      'F1 fit (0-4)', 'fit basis', 'priority score (0-100)', 'reason for ranking', 'financial verification status',
-      'parent company', 'country', 'staff', 'type', 'source links', 'source CSV', 'prior note (Wave 15)']
-def mrow(r, sec_first=False):
-    return [r.overall_rank, r.sector_rank, r.name, r.sector, r.domain,
-            r.v_revenue or r.revenue_usd, r.v_revenue_source or 'Clay (search filter / band)',
-            r.v_valuation or 'not yet researched', r.v_valuation_source,
-            r.v_funding or ('USD 100M+ (Apollo estimate)' if r.funding_100m_apollo else 'not yet researched'),
-            r.v_funding_source or ('Apollo funded-company pull, Oct 2026' if r.funding_100m_apollo else ''),
-            r.criteria, r.fit, r.fit_basis, r.priority, r.why, r.research_status, r.parent_final, r.country, r.size, r.type,
-            (' '.join(r.v_sources[:3]) if isinstance(r.v_sources, list) else str(r.v_sources or '')), r.source_csv, r.w15_note]
-W = [8, 7, 32, 26, 22, 26, 22, 18, 18, 22, 22, 30, 7, 14, 9, 50, 26, 26, 14, 12, 14, 40, 18, 40]
+MH = ['overall rank', 'sector rank', 'brand', 'sector', 'website', 'PRIORITY SCORE (0-100)', 'F1 fit (0-50)',
+      'financial capacity (0-50)', 'research confidence', 'research status', 'rationale',
+      'annual revenue (USD)', 'revenue source / date', 'valuation (USD)', 'valuation source / date',
+      'total funding (USD)', 'funding source / date', 'profitability', 'profitability source', 'marketing / sponsorship evidence',
+      'financial criterion met', 'audience (15)', 'synergy (15)', 'alignment (10)', 'international (5)', 'category (5)',
+      'revenue & scale (15)', 'valuation/capital (10)', 'profitability (15)', 'marketing capacity (10)',
+      'current F1 deal (info)', 'parent company', 'country', 'staff', 'type', 'source links', 'source CSV']
+def mrow(r):
+    v = v2.get(r.rd) or {}
+    src = v.get('sources') or r.v_sources or ''
+    src = ' '.join(src[:4]) if isinstance(src, list) else str(src)
+    return [r.overall_rank, r.sector_rank, r.name, r.sector, r.domain, r.priority, r.fit50, r.fin50, r.confidence,
+            r.research_status, r.why,
+            v.get('revenue') or r.v_revenue or r.revenue_usd, v.get('revenue_source') or r.v_revenue_source or 'Clay (search filter / band)',
+            v.get('valuation') or r.v_valuation or 'unknown', v.get('valuation_source') or r.v_valuation_source,
+            v.get('funding') or r.v_funding or ('USD 100M+ (Apollo estimate)' if r.funding_100m_apollo else 'unknown'),
+            v.get('funding_source') or r.v_funding_source or ('Apollo funded-company pull, Oct 2026' if r.funding_100m_apollo else ''),
+            v.get('profitability', 'unknown'), v.get('profitability_source', ''), v.get('marketing_evidence', 'unknown'),
+            r.criteria, r.audience, r.synergy, r.alignment, r.international, r.category,
+            r.revenue_scale, r.capital, r.profitability_score, r.marketing,
+            v.get('f1_current') or r.v_f1_current or '', r.parent_final, r.country, r.size, r.type, src, r.source_csv]
+W = [8, 7, 32, 26, 22, 10, 8, 9, 18, 26, 60, 22, 30, 18, 26, 20, 26, 18, 26, 30, 28, 7, 7, 7, 7, 7, 7, 7, 7, 7, 24, 24, 14, 12, 14, 40, 18]
 n_ver = int(q['verified'].sum())
 readme = [['F1 Wave 16 - Friday Clay export: new brands, financially screened and ranked'], [''],
  ['What this is'], ['All 13 Friday Clay CSVs, deduplicated against your MASTER REFERENCE OCT, Upload 11 Oct, To Upload Oct 11, Wave 14 V4 and every earlier wave.'],
@@ -145,13 +186,13 @@ readme = [['F1 Wave 16 - Friday Clay export: new brands, financially screened an
  ['Research status'], ['  Preliminary - Clay revenue estimate (unverified): screened from existing data only.'],
  ['  Verified / Partially verified: independently checked with sources and dates (see source links).'],
  ['  Manual Review tab: possible duplicates, failed or unclear verification, unclear ownership.'], [''],
- ['Priority score (0-100) = F1 fit (0-4) x 12.5 [max 50] + financial capability [max 30] + scale/reach [max 10] + verification confidence [max 10]'],
- ['  F1 fit: 1 point each - sells in 3+ F1 markets; affluent or senior-B2B audience; performance/tech/precision/luxury/global story; uncrowded F1 category.'],
- ['  Until a brand is researched its fit is a PRELIMINARY sector-based estimate (column "fit basis").'],
- ['  Financial capability: revenue band 75-200M=8, 200-500M=14, 500M-1B=20, 1-10B=26, 10B+=30; funding 100M+ counts at least 14; verified figures replace estimates.'],
- ['  Scale/reach: staff 10,001+=10, 5,001-10,000=8, 1,001-5,000=6, 501-1,000=4, 201-500=2; +2 if listed. Verification: verified=10, partial=5, estimate=0.'],
- ['  Strategic fit carries the most weight (50 of 100), so size alone cannot top the ranking.'],
- ['  Names that look like a division, product page or regional office (e.g. "X for HR", "X UK & EMEA") lose 10 points until researched.'], [''],
+ ['OVERALL SPONSORSHIP PRIORITY SCORE (0-100) = F1 FIT (50) + FINANCIAL CAPACITY (50)'],
+ ['  F1 fit: audience overlap 15, commercial synergies 15, brand alignment 10, international presence 5, category opportunity 5.'],
+ ['  Financial capacity: revenue & scale 15, valuation/funding/capital 10, profitability & cash flow 15, marketing/sponsorship capacity 10.'],
+ ['  Unknown figures are scored conservatively (profitability 5/15, marketing 3/10, capital 2/10) - never assumed strong or weak.'],
+ ['  Researched brands: every component scored from evidence with sources (confidence High/Medium/Low).'],
+ ['  Not yet researched: PRELIMINARY scores from Clay band, Apollo funding flag and a knowledge-only pre-sort (confidence Low / Very low).'],
+ ['  Clay revenue = the >= USD 75M Clay search filter (database estimate). Verified figures replace estimates.'], [''],
  ['Counts'], [f'  Rows in the 13 CSVs: {len(pd.read_pickle(f"{S}/new_all.pkl")):,}   Unique companies: {len(dd) + len(pd.read_pickle(f"{S}/internal_dups.pkl")) - len(pd.read_pickle(f"{S}/internal_dups.pkl")):,}'],
  [f'  Excluded as duplicates of old/earlier-wave brands: {len(ex):,}   Possible duplicates (Manual Review): {(p.dup_status == "maybe").sum():,}'],
  [f'  New brands ranked: {len(q):,}   of which independently verified so far: {n_ver:,}'],

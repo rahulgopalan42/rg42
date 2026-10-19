@@ -1,0 +1,802 @@
+[
+{
+"id": "baseel.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "UK IT and consulting firm"
+},
+{
+"id": "superpax.com.br",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Brazilian supermarket chain"
+},
+{
+"id": "grupotrevizan.com.br",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Brazilian group; thin data"
+},
+{
+"id": "grandmartsupermarket.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Azerbaijani supermarket chain"
+},
+{
+"id": "milano.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Mexican retailer founded 1934"
+},
+{
+"id": "squarehospital.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Square Group",
+"note": "Hospital unit of Square Group"
+},
+{
+"id": "mantovasalus.it",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Italian hospital group"
+},
+{
+"id": "supercarnes.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Panamanian supermarket"
+},
+{
+"id": "benesta.com",
+"t": "real",
+"fit": 1,
+"scale": "small",
+"parent": "",
+"note": "Turkish luxury real estate developer"
+},
+{
+"id": "etcengenharia.com.br",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Brazilian engineering and construction firm"
+},
+{
+"id": "bollinenihillside.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Indian infrastructure and real estate"
+},
+{
+"id": "casbehaviouralhealth.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "UK behavioural health provider"
+},
+{
+"id": "klinik-bavaria.de",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "German rehabilitation clinic"
+},
+{
+"id": "manuelsupermarket.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "Luxury grocery retailer Saudi Arabia"
+},
+{
+"id": "vedas.com.tr",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Turkish electricity distributor"
+},
+{
+"id": "corpone.co.in",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Indian outsourcing provider"
+},
+{
+"id": "taspinar.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Turkish instalment retail chain"
+},
+{
+"id": "aadharhealth.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian hospital Hisar"
+},
+{
+"id": "",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Queensland Health",
+"note": "Public hospital in Brisbane"
+},
+{
+"id": "supreis.com.br",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Goias supermarket chain"
+},
+{
+"id": "almarket.az",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Azerbaijani supermarket chain"
+},
+{
+"id": "allvotec.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "UK managed IT services"
+},
+{
+"id": "starbucks.co.th",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Starbucks",
+"note": "Thai licensed operation of Starbucks"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Angolan firm; junk description"
+},
+{
+"id": "seidopro.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Philippine IT services company"
+},
+{
+"id": "mahg.com.sa",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Saudi construction and investment holding"
+},
+{
+"id": "al-mazrouei.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "Emirati family conglomerate"
+},
+{
+"id": "deltamedicalest.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "UAE pharma wholesale distributor"
+},
+{
+"id": "professionals.com.au",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Australian real estate agency network"
+},
+{
+"id": "ipp.com.ro",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Romanian retail marketing services"
+},
+{
+"id": "ashokauto.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian Tata Motors dealer"
+},
+{
+"id": "torraslife.com",
+"t": "real",
+"fit": 2,
+"scale": "mid",
+"parent": "",
+"note": "Chinese consumer tech accessories brand"
+},
+{
+"id": "enaco.cl",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Chilean construction company"
+},
+{
+"id": "itisholding.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "Czech mobility infrastructure investor"
+},
+{
+"id": "bork.ae",
+"t": "real",
+"fit": 2,
+"scale": "mid",
+"parent": "",
+"note": "Premium home appliances brand"
+},
+{
+"id": "medicus.com.mx",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Mexican medical supply services"
+},
+{
+"id": "callecall.it",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Italian BPO operator"
+},
+{
+"id": "comworks-inc.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Philippine business services group"
+},
+{
+"id": "phoenixkothari.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Indian footwear manufacturer"
+},
+{
+"id": "technoelevate.com",
+"t": "division",
+"fit": 0,
+"scale": "small",
+"parent": "Test Yantra",
+"note": "IT development unit of Test Yantra"
+},
+{
+"id": "ikea.com.sa",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "IKEA",
+"note": "IKEA startup accelerator programme Saudi"
+},
+{
+"id": "chromedm.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian market research firm"
+},
+{
+"id": "bodynits.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Singapore knitwear apparel maker"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Mexican fashion retailer; junk description"
+},
+{
+"id": "goodservice.com.br",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Brazilian staffing and services group"
+},
+{
+"id": "elektra.com.gt",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Grupo Elektra",
+"note": "Guatemalan arm of Grupo Elektra"
+},
+{
+"id": "accelis.fr",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "French independent hospitality services group"
+},
+{
+"id": "sth.org.hk",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Hong Kong private hospital"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Dutch group; junk description"
+},
+{
+"id": "madrid.org",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Madrid Health Service",
+"note": "Public Madrid hospital"
+},
+{
+"id": "windeson.in",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Indian garment manufacturer"
+},
+{
+"id": "bigmart.com.np",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Nepali supermarket chain"
+},
+{
+"id": "clothingjunction.co.za",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "South African discount clothing retailer"
+},
+{
+"id": "onroute.ca",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Canadian highway service centres"
+},
+{
+"id": "osave.com",
+"t": "junk",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Person-named listing; O!Save retail brand"
+},
+{
+"id": "mffco.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Egyptian furniture manufacturer"
+},
+{
+"id": "evkur.com.tr",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Turkish shopping centre retailer"
+},
+{
+"id": "shoppingjaragua.com.br",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Brazilian shopping mall"
+},
+{
+"id": "freshtandartsen.nl",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Dutch dental practice group"
+},
+{
+"id": "motisungroup.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Tanzanian diversified conglomerate"
+},
+{
+"id": "sunrisehospitalcochin.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian hospital group"
+},
+{
+"id": "hti.global",
+"t": "real",
+"fit": 2,
+"scale": "mid",
+"parent": "",
+"note": "Italian high-technology industrial group"
+},
+{
+"id": "nmch.ac.in",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian medical college hospital"
+},
+{
+"id": "sitlab.it",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Italian lab technicians scientific society"
+},
+{
+"id": "avetic.es",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Spanish IT industry association"
+},
+{
+"id": "",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Law school negotiation competition page"
+},
+{
+"id": "dubait10.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Online luxury club directory"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Indian industrial manufacturer; junk description"
+},
+{
+"id": "spil.com.cn",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "ASE Technology",
+"note": "Chinese plant of SPIL chip packager"
+},
+{
+"id": "gatoradebolt.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Gatorade product page"
+},
+{
+"id": "bikinivillage.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Canadian swimwear retailer"
+},
+{
+"id": "targetpro.pl",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Polish field sales outsourcing"
+},
+{
+"id": "mamshospital.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Hyderabad medical sciences hospital"
+},
+{
+"id": "absolutachevrolet.com.br",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Brazilian automotive dealer group"
+},
+{
+"id": "mounthillrealty.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian affordable housing developer"
+},
+{
+"id": "newaycnc.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "Chinese CNC machine tool maker"
+},
+{
+"id": "esgcc.com.cn",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "State Grid",
+"note": "State Grid e-commerce arm"
+},
+{
+"id": "sriternak.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Malaysian retail group"
+},
+{
+"id": "pro1outsource.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Egyptian outsourcing service"
+},
+{
+"id": "kareemmall.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Jordanian hypermarket"
+},
+{
+"id": "unicompra.com.br",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Alagoas supermarket chain"
+},
+{
+"id": "fbfootwear.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Bangladeshi footwear manufacturer"
+},
+{
+"id": "infoscribe.fr",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "French IT services publisher"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Pakistani real estate; junk description"
+},
+{
+"id": "radioshack.com.eg",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "RadioShack",
+"note": "Egyptian franchise of RadioShack"
+},
+{
+"id": "grupoalarcon.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Spanish cleaning services company"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian contractor; junk description"
+},
+{
+"id": "fjdtrion.com",
+"t": "real",
+"fit": 2,
+"scale": "small",
+"parent": "",
+"note": "Geospatial scanning and measurement solutions"
+},
+{
+"id": "klinikum-hochsauerland.de",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Alexianer",
+"note": "Hospital group unit of Alexianer"
+},
+{
+"id": "krankenhaus-buchholz.de",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "German municipal hospital"
+},
+{
+"id": "primamakmurbersama.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Indonesian business services provider"
+},
+{
+"id": "softwarezentrum.de",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Business park association not company"
+},
+{
+"id": "spitaeler-sh.ch",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Swiss cantonal hospital"
+},
+{
+"id": "beneficenteportuguesa.com.br",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Brazilian charity hospital"
+},
+{
+"id": "klinikum-dresden.de",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "German municipal hospital Dresden"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Colombian medical centres; junk description"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Brazilian charity hospital"
+},
+{
+"id": "hkkingpowergroup.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "King Power",
+"note": "Hong Kong duty free arm"
+},
+{
+"id": "evangelischeskrankenhaus.de",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "German Protestant hospital"
+},
+{
+"id": "klinikum-lev.de",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "German municipal hospital Leverkusen"
+}
+]
