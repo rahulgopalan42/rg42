@@ -48,22 +48,24 @@ all datasets. Each chunk is scored by a Sonnet agent with `score_brief.md`; disc
 `discover_brief.md`. Apollo pulls use `apollo_brief.md` (needs `.claude/settings.json` allow rule
 `mcp__Apollo_io`, already committed - effective in a fresh session).
 
-## State at last build (19 Oct 2026, evening run: sponsorship-signals pass + Apollo additions)
-- Master ranking (Category A, genuinely new parents): 2,361 (305 added this round, listed on the NEW BRANDS THIS ROUND
-  tab; baseline of the earlier sheet in parents/baseline_master.json) | Existing group overlaps (B): 9,372 |
-  Manual review (C): 2,904 | Confirmed current F1 sponsors set aside: 122 | QC: 13/13 checks pass.
-- Scoring now 60/40 with signals (Rahul's 19 Oct instruction, cheque size USD 2.5M/yr): Fit 60 = core fit 40 + fit
-  signals 20 (competitor already in F1, motorsport adjacency, expansion moment, race-market footprint, founder/CEO
-  affinity); Capacity 40 = financial evidence 20 + capacity signals 20 (headcount band, funding recency/investor
-  quality, PE ownership, brand-building hires). Removed: sponsorship spend, operating proxies, debt ratings, B2B story.
-  Signals come from parents/signals_out (Sonnet agents, signals_brief.md; inputs parents/signals_in chunk_001-060).
-  Most rows are low-confidence (L): headcount and HQ-country driven; category-level "competitor in F1" defaults.
-  build_workbook.py writes new signals_in chunks for any ranked parent still without a signals row.
-- Apollo funded-company universe (total_funding >= USD 100M, 27,236 records, 273 pages) pulled in full except page
-  231; all new records knowledge-scored (score_out chunk_001-150). Revenue-sorted Apollo searches and Clay
-  revenue-bracket searches were probed (parents/apollo/rev_*.json, parents/clay/probe_001.json): ~0% new, so not
-  pursued. parents/novelty.py measures the novelty of any Apollo page against the user files. Lusha unused (12 credits).
-- Same-group aliases merged in consolidate.py (ANA, DMGT/dmg media, Schwarz, Nord Security, Fila/Misto).
+## State at last build (19 Oct 2026, late evening: sector re-ranking, round-2 discovery, existing-F1 blue rows)
+- Master ranking (Category A, genuinely new parents): ~2,390 | Existing group overlaps (B): ~10,500 | Manual review (C): ~2,900 |
+  Existing F1 sponsors: ~147, now KEPT in their rankings as BLUE rows and listed again on EXISTING F1 SPONSORS | QC 13/13.
+- Every industry tab carries an independent `Sector Rank` (1..N by Total) next to the overall rank (Rahul, 19 Oct).
+- Scoring = old parameters (core fit 40 + financial evidence 20) + new signal parameters (fit signals 20 + capacity
+  signals 20); cheque size USD 2.5M/yr. Signals: parents/signals_out chunk_001-068 (build_workbook.py writes new
+  signals_in chunks for any ranked parent without a signals row; run the signals agents, then rebuild).
+- Round-2 sector discovery on the new parameters: parents/discover_signals_brief.md, one agent per sector (46 sectors,
+  tobacco and government skipped), outputs parents/discover/cat_sNN.json (22-field rows incl. revenue_m), known-name
+  lists parents/discover/known_sNN.txt. 1,587 candidates; most turned out to be in SPORTFIVE's files already (-> B),
+  ~340 new master rows this round in total (NEW BRANDS THIS ROUND tab vs parents/baseline_master.json).
+- Existing-F1-sponsorship check: parents/f1check_brief.md, inputs parents/f1check_in (38 chunks of 500 covering every
+  A/B parent and every Drive CSV brand), outputs parents/f1check_out (287 hits: 131 current, 127 unsure, 29 former).
+  Build rule: current + conf M/H -> blue row + 'Existing F1 sponsorship' column; broadcasters/licensees and conf L ->
+  red 'verify'. Drive CSV brands with an F1 deal are kept (blue) instead of being dropped.
+- Apollo funded-company universe (27,236 records, 273 pages, page 231 missing) fully scored (score_out 001-150).
+  Apollo revenue searches and Clay revenue brackets were probed and added ~nothing new; Lusha unused (12 credits).
+- Same-group aliases merged in consolidate.py (ANA, DMGT/dmg media, Schwarz, Nord Security, Fila/Misto, ihg.com->Marriott).
 
 ## Open items
 - Apollo page 231 (1 credit) not pulled; 3,280 connector records whose parent is already listed remain unscored (split_score.py variant needed).
