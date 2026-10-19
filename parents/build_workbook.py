@@ -5,9 +5,9 @@ import pandas as pd
 from openpyxl import Workbook
 from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
-R = '/home/user/rg42'; S = '/tmp/claude-0/-home-user-rg42/f658b5c3-a5ae-5398-b208-f286520b1971/scratchpad'
-P = f'{S}/parents'; OUT = f'{R}/reports/2,000 F1 SPONSORSHIP PARENT COMPANY PROSPECTS.xlsx'
-sys.path.insert(0, f'{R}/wave16')
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import inputs
+R = inputs.REPO; S = inputs.S; P = inputs.P; OUT = f'{R}/reports/2,000 F1 SPONSORSHIP PARENT COMPANY PROSPECTS.xlsx'
 from sectors_v3 import NAMES
 par = pd.read_pickle(f'{P}/parents.pkl'); dups = pd.read_pickle(f'{P}/dups.pkl'); excl = pd.read_pickle(f'{P}/excluded.pkl')
 ver = pd.read_pickle(f'{P}/verified.pkl') if os.path.exists(f'{P}/verified.pkl') else pd.DataFrame(columns=['key', 'val_bn', 'val_date', 'val_basis', 'src'])
@@ -36,17 +36,24 @@ par['val_bn'] = par['val_bn'].map(f); par['funding_m'] = par['funding_m'].map(f)
 par['sector'] = pd.to_numeric(par['sector'], errors='coerce').fillna(48).astype(int)
 par['scored'] = par['a'].notna()
 for c in ('a', 's', 'l', 'n'): par[c] = par[c].fillna(1).clip(0, 4)
+def rev_bn(x):
+    x = s(x).upper().replace('$', '').replace(',', '')
+    mm = re.match(r'([\d.]+)\s*([KMBT]?)', x)
+    if not mm: return None
+    v = float(mm.group(1)); return v * {'': 1e-9, 'K': 1e-6, 'M': 1e-3, 'B': 1, 'T': 1000}[mm.group(2)]
+par['rev_bn'] = par['revenue_printed'].map(rev_bn) if 'revenue_printed' in par else None
 par['qual'] = ''
 par.loc[par['val_bn'].fillna(0) >= 1, 'qual'] = 'Valuation >= USD 1B'
 m = (par['qual'] == '') & (par['funding_m'].fillna(0) >= 100); par.loc[m, 'qual'] = 'Cumulative funding >= USD 100M'
 m = (par['qual'] == '') & par['apollo_funding'].notna(); par.loc[m, 'qual'] = 'Cumulative funding >= USD 100M (Apollo database filter; amount not disclosed)'
 m = (par['qual'] == '') & par['sources'].map(lambda x: 'lusha' in x); par.loc[m, 'qual'] = 'Cumulative funding >= USD 100M (Lusha database filter; amount not disclosed)'
+m = (par['qual'] == '') & (par['rev_bn'].fillna(0) >= 0.1); par.loc[m, 'qual'] = 'Annual revenue >= USD 100M (Apollo estimate ' + par.loc[m, 'revenue_printed'].astype(str) + ')'
 m = (par['qual'] == '') & par.get('group_funding', pd.Series(False, index=par.index)).fillna(False).astype(bool)
 par.loc[m, 'qual'] = 'Cumulative funding >= USD 100M at group level (subsidiary ' + par.loc[m, 'apollo_funded_child'].astype(str) + ' per Apollo filter; parent figure unverified)'
 par['qualifies_k'] = par.get('qualifies_k', pd.Series('', index=par.index)).fillna('')
 # knowledge says it clearly does not qualify, and no figure contradicts that -> excluded
 not_q = ((par['qualifies_k'] == 'N') & (par['val_bn'].fillna(0) < 1) & (par['funding_m'].fillna(0) < 100)) | \
-        ((par['qual'] == '') & par['val_bn'].notna())      # verified market cap now below USD 1B and no funding criterion
+        ((par['qual'] == '') & par['val_bn'].notna())      # verified market cap now below USD 1B and no funding or revenue criterion
 f1 = par['f1'].fillna('').astype(str)
 UNSURE = re.compile(r'unsure|verify|unverified|former|past|\?|reported|possible|check|ended|expired|until 20', re.I)
 par['f1_current'] = (f1.str.strip() != '') & ~f1.str.contains(UNSURE)
@@ -54,12 +61,6 @@ par['f1_check'] = (f1.str.strip() != '') & f1.str.contains(UNSURE)
 
 # ---------------------------------------------------------------- scores
 par['fit'] = (par['a'] * 5 + par['s'] * 5 + par['l'] * 2.5 + par['n'] * 2.5).round(1)
-def rev_bn(x):
-    x = s(x).upper().replace('$', '').replace(',', '')
-    mm = re.match(r'([\d.]+)\s*([KMBT]?)', x)
-    if not mm: return None
-    v = float(mm.group(1)); return v * {'': 1e-9, 'K': 1e-6, 'M': 1e-3, 'B': 1, 'T': 1000}[mm.group(2)]
-par['rev_bn'] = par['revenue_printed'].map(rev_bn) if 'revenue_printed' in par else None
 def capacity(r):
     v = r['val_bn'] if pd.notna(r['val_bn']) else 0; fu = r['funding_m'] if pd.notna(r['funding_m']) else 0; rv = r['rev_bn'] if pd.notna(r['rev_bn']) else 0
     # revenue & scale /20: valuation is the scale proxy; Apollo revenue lifts it where known
@@ -177,7 +178,7 @@ ws = wb.create_sheet('READ ME')
 readme = [
  ['2,000 F1 SPONSORSHIP PARENT COMPANY PROSPECTS', ''],
  ['Prepared for', 'SPORTFIVE Formula 1 sponsorship sales, 19 Oct 2026 (separate discovery exercise from the Clay prospect-ranking project)'],
- ['Qualification', 'Ultimate parent with valuation / market cap >= USD 1B OR cumulative funding >= USD 100M. Revenue is never used to qualify.'],
+ ['Qualification', 'Ultimate parent meeting ANY ONE of: valuation / market cap >= USD 1B, cumulative funding >= USD 100M, or annual revenue >= USD 100M (revenue test added 19 Oct 2026 on request; revenue figures are Apollo estimates). No restriction by ownership type or industry.'],
  ['Drive CSV brands tab', 'Brands from the Friday Clay export CSVs on Google Drive that meet the same valuation / funding parameters (revenue not counted), with their Wave 16 60/40 scores. These are existing-dataset brands, listed separately on request; they are not part of the parent-level master ranking.'],
  ['Discovery sources', '40 knowledge-research category/region briefs; Apollo.io company search (total funding >= USD 100M, 3,000 records); Lusha company search (total funding >= USD 100M, 1,500 records). No paid enrichment beyond the approved search pages.'],
  ['Cross-reference', 'Every parent, alias, subsidiary and brand name and website checked against: Old Google Drive master files (all worksheets), previous prospect workbooks and CSVs (all worksheets, incl. the Wave 16 final ranking), and the Friday Clay exports (all CSVs).'],
@@ -234,7 +235,7 @@ crows = [[s(r['name']), r['website'], s(r['hq_country']), r['sector_name'], crea
 sheet('MANUAL REVIEW', CH, crows, [32, 26, 14, 26, 60, 40, 24, 50, 10])
 # Drive CSV brands (Friday Clay export, scored in Wave 16) that meet the parent-company parameters: valuation >= USD 1B or
 # funding >= USD 100M (revenue does not count), no current F1 sponsors. Kept on their own tab so they do not mix with parents.
-w16 = pd.read_pickle(f'{S}/w16/final_ranked.pkl')
+w16 = inputs.wave16_ranking()
 crit = w16['criterion'].fillna('')
 qual_b = (w16['funding_100m_apollo'] == True) | crit.str.contains('Valuation|Funding', regex=True)
 nof1 = w16['f1_deal'].fillna('').astype(str).str.strip() == ''

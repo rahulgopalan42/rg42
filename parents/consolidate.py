@@ -7,9 +7,9 @@ new_all.pkl (Friday Clay exports), Wave 16 final ranking (previous prospect work
 Writes parents.pkl (one row per parent, with category A/B/C), subs_hits.pkl, dups.pkl."""
 import collections, glob, json, os, re, sys
 import pandas as pd
-R = '/home/user/rg42'; S = '/tmp/claude-0/-home-user-rg42/f658b5c3-a5ae-5398-b208-f286520b1971/scratchpad/w16'
-P = f'{S}/../parents'; os.makedirs(P, exist_ok=True)
-sys.path.insert(0, f'{R}/wave16')
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import inputs
+R = inputs.REPO; S = inputs.W16; P = inputs.P
 from dedupe_v2 import regdom, strict, core, lislug
 from sectors_v3 import NAMES
 GENERIC_PARENT = {'', 'none', 'na', 'nan', 'independent', 'private', 'public', 'family', 'founders', 'management', 'employees', 'government', 'state'}
@@ -117,11 +117,13 @@ for l in lu.itertuples():
 # parents/score_out/chunk_*.json: Sonnet's parent check and scores for the Apollo/Lusha-only records (see score_brief.md)
 SF = ['in_name', 'status', 'parent_name', 'hq_country', 'domain', 'type', 'ticker', 'val_bn', 'val_basis', 'val_date', 'funding_m',
       'sector', 'brand', 'approach', 'why', 'a', 's', 'l', 'n', 'fin', 'f1', 'subs', 'conf', 'qualifies', 'note']
-scored = {}
+scored = {}; mcap_names = set()        # chunks >= 75 hold market-cap listing companies (mcap_candidates.py), not connector records
 for f in sorted(glob.glob(f'{R}/parents/score_out/chunk_*.json')):
     try:
         for r in json.load(open(f)):
-            if isinstance(r, list) and len(r) == 25: scored[strict(r[0])] = dict(zip(SF, r))
+            if isinstance(r, list) and len(r) == 25:
+                scored[strict(r[0])] = dict(zip(SF, r))
+                if int(os.path.basename(f)[6:8]) >= 75: mcap_names.add(strict(r[0]))
     except Exception as e: print('bad score file', f, e)
 print('scored connector records', len(scored))
 excluded = []        # [name, domain, reason, sources]
@@ -177,7 +179,7 @@ for r in recs.values():
     for nm in r['names'] | {r.get('name', '')}: matched_in.add(strict(nm))
 n_mc = collections.Counter()
 for sn_, sc in scored.items():
-    if sn_ in matched_in: continue
+    if sn_ in matched_in or sn_ not in mcap_names: continue
     st = sc['status']; n_mc[st] += 1
     if st in ('X', 'U') or not sc.get('parent_name'): continue
     pname = sc['parent_name']; pdom = sc.get('domain') or ''
@@ -205,9 +207,9 @@ par = par.loc[keep].reset_index(drop=True)
 print('parents', len(par), 'merged duplicate parent records', len(dups))
 
 # ---------------------------------------------------------------- existing datasets
-old = pd.read_pickle(f'{S}/old_v2.pkl')
+old = inputs.old_datasets()
 old['ds'] = old['category'].map(lambda c: 'Old Google Drive' if c == 'Old master files (Drive)' else 'Previous prospect workbooks')
-clay = pd.read_pickle(f'{S}/new_all.pkl')
+clay = inputs.clay_export()
 ex = pd.concat([pd.DataFrame({'name': old['name'], 'domain': old['domain'], 'ds': old['ds'], 'where': old['source']}),
                 pd.DataFrame({'name': clay['name'], 'domain': clay['domain'], 'ds': 'Friday Clay Exports', 'where': clay['source_csv']})], ignore_index=True)
 ex['sn'] = ex['name'].map(strict); ex['rd'] = ex['domain'].map(lambda d: regdom(d or ''))
@@ -251,12 +253,18 @@ par = pd.concat([par, pd.DataFrame(out)], axis=1)
 # funding filter. A parent inferred only from Apollo's 'owned by' field has no evidence of its own -> Manual Review.
 src_has = lambda tag: par['sources'].map(lambda x: tag in x)
 par['group_funding'] = par['apollo_funded_child'].notna() if 'apollo_funded_child' in par else False
-par['has_fin'] = (par['val_bn'].fillna(0) >= 1) | (par['funding_m'].fillna(0) >= 100) | par['apollo_funding'].notna() | src_has('lusha') | par['group_funding']
+def rev_bn(x):
+    m_ = re.match(r'([\d.]+)\s*([KMBT]?)', str(x or '').upper().replace('$', '').replace(',', ''))
+    return float(m_.group(1)) * {'': 1e-9, 'K': 1e-6, 'M': 1e-3, 'B': 1, 'T': 1000}[m_.group(2)] if m_ else None
+par['rev_bn'] = par['revenue_printed'].map(rev_bn) if 'revenue_printed' in par else None
+par['rev_ok'] = par['rev_bn'].fillna(0) >= 0.1
+par['has_fin'] = (par['val_bn'].fillna(0) >= 1) | (par['funding_m'].fillna(0) >= 100) | par['apollo_funding'].notna() | src_has('lusha') | par['group_funding'] | par['rev_ok']
 par['fin_basis'] = ''
 par.loc[par['val_bn'].fillna(0) >= 1, 'fin_basis'] = 'valuation >= USD 1B (' + par['val_basis'].fillna('').astype(str) + ' ' + par['val_date'].fillna('').astype(str) + ')'
 m = (par['fin_basis'] == '') & (par['funding_m'].fillna(0) >= 100); par.loc[m, 'fin_basis'] = 'cumulative funding >= USD 100M (knowledge)'
 m = (par['fin_basis'] == '') & par['apollo_funding'].notna(); par.loc[m, 'fin_basis'] = 'total funding >= USD 100M (Apollo database filter)'
 m = (par['fin_basis'] == '') & src_has('lusha'); par.loc[m, 'fin_basis'] = 'total funding >= USD 100M (Lusha database filter)'
+m = (par['fin_basis'] == '') & par['rev_ok']; par.loc[m, 'fin_basis'] = 'annual revenue >= USD 100M (Apollo estimate ' + par.loc[m, 'revenue_printed'].astype(str) + ')'
 m = (par['fin_basis'] == '') & par['group_funding']
 par.loc[m, 'fin_basis'] = 'cumulative funding >= USD 100M at group level (subsidiary ' + par.loc[m, 'apollo_funded_child'].astype(str) + ' per Apollo filter); parent\'s own figure unverified'
 par.loc[~par['has_fin'] | (par['sn'].str.len() < 3), 'overlap_cat'] = 'C'

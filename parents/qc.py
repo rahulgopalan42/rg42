@@ -10,7 +10,7 @@ res = []
 def check(n, desc, ok, detail=''): res.append([n, desc, 'PASS' if ok else 'CHECK', detail])
 # 1 qualification
 q = M['Qualification Criterion Met'].fillna('')
-check(1, 'Every master-ranking parent meets valuation >= USD 1B or funding >= USD 100M (revenue never used)', q.str.contains('Valuation|funding').all(), f"{int((~q.str.contains('Valuation|funding')).sum())} rows without a criterion")
+check(1, 'Every master-ranking parent meets valuation >= USD 1B, funding >= USD 100M or revenue >= USD 100M', q.str.contains('Valuation|funding|revenue').all(), f"{int((~q.str.contains('Valuation|funding|revenue')).sum())} rows without a criterion")
 # 2 parent level / duplicates
 names = M['Parent Company Name'].str.lower().str.strip()
 check(2, 'One row per ultimate parent: no duplicate parent names in master ranking', not names.duplicated().any(), f"{int(names.duplicated().sum())} duplicates: {', '.join(M.loc[names.duplicated(), 'Parent Company Name'].head(5))}")

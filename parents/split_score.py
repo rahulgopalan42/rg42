@@ -5,7 +5,9 @@ already listed in the existing datasets are left unscored and reported in the su
 Usage: split_score.py <first_chunk_number> [chunk_size]"""
 import json, math, os, sys
 import pandas as pd
-S = '/tmp/claude-0/-home-user-rg42/f658b5c3-a5ae-5398-b208-f286520b1971/scratchpad'; R = '/home/user/rg42'
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import inputs
+S = inputs.S; R = inputs.REPO
 first = int(sys.argv[1]); size = int(sys.argv[2]) if len(sys.argv) > 2 else 160
 par = pd.read_pickle(f'{S}/parents/parents.pkl')
 import glob

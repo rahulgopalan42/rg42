@@ -2,24 +2,11 @@
 (scratchpad/mcap/p*.html). Writes verified.pkl: key, val_bn, val_date, val_basis, src."""
 import glob, html, os, re, sys
 import pandas as pd
-R = '/home/user/rg42'; S = '/tmp/claude-0/-home-user-rg42/f658b5c3-a5ae-5398-b208-f286520b1971/scratchpad'
-sys.path.insert(0, f'{R}/wave16')
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import inputs
+R = inputs.REPO; S = inputs.S
 from dedupe_v2 import strict
-rows = []
-for f in glob.glob(f'{S}/mcap/p*.html'):
-    h = open(f, errors='ignore').read()
-    for tr in re.findall(r'<tr[^>]*>(.*?)</tr>', h, re.S):
-        nm = re.search(r'company-name">([^<]*)', tr); 
-        if not nm: continue
-        tds = [re.sub('<[^>]+>', '', t).strip() for t in re.findall(r'<td[^>]*>(.*?)</td>', tr, re.S)]
-        code = re.search(r'company-code">([^<]*)', tr)
-        code = code.group(1).strip() if code else ''
-        if not code and len(tds) > 2: code = tds[2][len(nm.group(1)):].strip()
-        mc = next((t for t in tds if re.match(r'^\$[\d.]+ ?[TBM]$', t)), '')
-        if not mc: continue
-        v = float(mc[1:-1]); unit = mc[-1]; v = v * {'T': 1000, 'B': 1, 'M': 0.001}[unit]
-        country = tds[-1].split()[-1] if tds else ''
-        rows.append({'name': html.unescape(nm.group(1).strip()), 'code': code, 'val_bn': round(v, 1), 'country': country})
+rows = inputs.market_cap_rows()
 mc = pd.DataFrame(rows).drop_duplicates('name')
 print('market-cap rows', len(mc), 'min', mc['val_bn'].min() if len(mc) else None)
 base = lambda n: strict(re.sub(r'\s*\(.*?\)\s*', ' ', n))
