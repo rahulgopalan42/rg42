@@ -132,7 +132,8 @@ par['cap_signals'] = (par['sg_headcount'] * 1.5 + par['sg_fund_recency'] * 1.5 +
 par['cap_financial'] = ((par['cap_scale'] + par['cap_val'] + par['cap_other']) / 2).round(1)
 par['capacity'] = (par['cap_financial'] + par['cap_signals']).round(1)
 # fit signals /20: competitor in F1 4.5, motorsport adjacency 4.5, expansion moment 4, race-market footprint 3.5, founder/CEO affinity 3.5
-par['fit_signals'] = (par['sg_competitor_f1'] * 1.5 + par['sg_motorsport'] * 1.5 + par['sg_expansion'] * 4 / 3 + par['sg_race_footprint'] * 3.5 / 3 + par['sg_founder'] * 3.5 / 3).round(1)
+# race footprint: being headquartered in one host country (score 1) is not a signal; only multi-market presence (2-3) counts
+par['fit_signals'] = (par['sg_competitor_f1'] * 1.5 + par['sg_motorsport'] * 1.5 + par['sg_expansion'] * 4 / 3 + (par['sg_race_footprint'] - 1).clip(lower=0) * 3.5 / 2 + par['sg_founder'] * 3.5 / 3).round(1)
 par['fit_core'] = (par['fit'] * 40 / 60).round(1)
 par['fit'] = (par['fit_core'] + par['fit_signals']).round(1)
 par['total'] = (par['fit'] + par['capacity']).round(1)
