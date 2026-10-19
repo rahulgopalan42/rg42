@@ -104,6 +104,7 @@ def sources(r):
         src.append(f"Research knowledge base (figures as of {s(r['val_date']) or 'n/a'}, confidence {s(r['conf']) or 'M'})")
     if 'apollo' in r['sources']: src.append('Apollo.io company database, pulled 2026-10-19 (total funding >= USD 100M filter)')
     if 'lusha' in r['sources']: src.append('Lusha company database, pulled 2026-10-19 (total funding >= USD 100M filter)')
+    if 'mcap' in r['sources']: src.append('Public market-cap listing (companiesmarketcap.com, 2026-10-19; market cap >= USD 1B)')
     if s(r.get('verified_src')): src.append(f"Verified: {r['verified_src']} ({TODAY})")
     return '; '.join(src)
 par['sources_txt'] = par.apply(sources, axis=1)
@@ -274,6 +275,8 @@ srows = [['Parents discovered (all sources, after merging duplicate records)', l
 srows += [['New parents by sector: ' + k, int(v)] for k, v in secs.items()] + [['', '']]
 srows += [[f'Top {i} new parent', f"{r['name']} ({r['hq_country']}) - {r['sector_name']} - total {r['total']}"] for i, (_, r) in enumerate(A.head(20).iterrows(), 1)]
 sheet('SUMMARY', SH, srows, [70, 90], freeze='A2')
+for t in ('DRIVE CSV BRANDS (QUALIFIED)', 'EXISTING GROUP OVERLAPS'):
+    wb.move_sheet(t, offset=-(wb.sheetnames.index(t) - wb.sheetnames.index('NEW PARENT COMPANIES (MASTER)') - 1))
 wb.move_sheet('SUMMARY', offset=-(len(wb.sheetnames) - 1))
 wb.move_sheet('READ ME', offset=-(len(wb.sheetnames) - 1))
 wb.save(OUT)

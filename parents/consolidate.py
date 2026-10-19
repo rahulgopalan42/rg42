@@ -171,7 +171,23 @@ for key in list(recs):
         elif k == 'domain' and r.get('domain'): continue
         else: r[k] = v
     for s_ in r['subs']: alias.setdefault(strict(s_), key)
-print('scoring applied', dict(n_applied), '| excluded as non-prospects', len(excluded))
+# scored rows that belong to no connector record came from the market-cap listing (mcap_candidates.py): create their parents
+matched_in = set()
+for r in recs.values():
+    for nm in r['names'] | {r.get('name', '')}: matched_in.add(strict(nm))
+n_mc = collections.Counter()
+for sn_, sc in scored.items():
+    if sn_ in matched_in: continue
+    st = sc['status']; n_mc[st] += 1
+    if st in ('X', 'U') or not sc.get('parent_name'): continue
+    pname = sc['parent_name']; pdom = sc.get('domain') or ''
+    pk = resolve(pname, pdom) or pkey(pname, pdom)
+    tgt = add(pk, 'mcap', name=pname, names=[pname, sc['in_name']], **kfields(sc))
+    tgt['sources'].add('knowledge-scored')
+    alias.setdefault(strict(sc['in_name']), pk); alias.setdefault(strict(pname), pk)
+    if pdom: alias.setdefault(regdom(pdom), pk)
+    for s_ in tgt['subs']: alias.setdefault(strict(s_), pk)
+print('scoring applied', dict(n_applied), '| excluded as non-prospects', len(excluded), '| market-cap listing records', dict(n_mc))
 par = pd.DataFrame([{**{k: (sorted(v) if isinstance(v, set) else v) for k, v in r.items()}, 'key': key} for key, r in recs.items()])
 par['sn'] = par['name'].map(strict); par['rd'] = par['domain'].fillna('').map(regdom)
 # same parent reached under two keys (name key vs domain key): keep the first, record the duplicate
