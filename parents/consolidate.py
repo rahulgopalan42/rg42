@@ -234,14 +234,15 @@ par = pd.concat([par, pd.DataFrame(out)], axis=1)
 # financial evidence: a known valuation/funding figure, the Apollo funding filter on the parent's own record, or the Lusha
 # funding filter. A parent inferred only from Apollo's 'owned by' field has no evidence of its own -> Manual Review.
 src_has = lambda tag: par['sources'].map(lambda x: tag in x)
-par['has_fin'] = (par['val_bn'].fillna(0) >= 1) | (par['funding_m'].fillna(0) >= 100) | par['apollo_funding'].notna() | src_has('lusha')
+par['group_funding'] = par['apollo_funded_child'].notna() if 'apollo_funded_child' in par else False
+par['has_fin'] = (par['val_bn'].fillna(0) >= 1) | (par['funding_m'].fillna(0) >= 100) | par['apollo_funding'].notna() | src_has('lusha') | par['group_funding']
 par['fin_basis'] = ''
 par.loc[par['val_bn'].fillna(0) >= 1, 'fin_basis'] = 'valuation >= USD 1B (' + par['val_basis'].fillna('').astype(str) + ' ' + par['val_date'].fillna('').astype(str) + ')'
 m = (par['fin_basis'] == '') & (par['funding_m'].fillna(0) >= 100); par.loc[m, 'fin_basis'] = 'cumulative funding >= USD 100M (knowledge)'
 m = (par['fin_basis'] == '') & par['apollo_funding'].notna(); par.loc[m, 'fin_basis'] = 'total funding >= USD 100M (Apollo database filter)'
 m = (par['fin_basis'] == '') & src_has('lusha'); par.loc[m, 'fin_basis'] = 'total funding >= USD 100M (Lusha database filter)'
-m = (par['fin_basis'] == '') & par['children'].map(len).gt(0)
-par.loc[m, 'overlap_basis'] = 'parent inferred from Apollo owner field of a funded subsidiary; parent\'s own valuation unverified'
+m = (par['fin_basis'] == '') & par['group_funding']
+par.loc[m, 'fin_basis'] = 'cumulative funding >= USD 100M at group level (subsidiary ' + par.loc[m, 'apollo_funded_child'].astype(str) + ' per Apollo filter); parent\'s own figure unverified'
 par.loc[~par['has_fin'] | (par['sn'].str.len() < 3), 'overlap_cat'] = 'C'
 par['clay_only'] = (par['overlap_cat'] == 'B') & (par['datasets'] == 'Friday Clay Exports')
 par['needs_score'] = par['a'].isna() if 'a' in par else True

@@ -82,3 +82,9 @@ Example row:
   numbers numeric, sector 1-48, a/s/l/n 0-4) using
   /tmp/claude-0/-home-user-rg42/f658b5c3-a5ae-5398-b208-f286520b1971/scratchpad/venv/bin/python -I.
   Keep any helper script inside the scratchpad folder named in your task. Reply in 2 lines: count written, validated.
+
+## LESSER-KNOWN rounds (categories 41+)
+The well-known global groups are already in our databases. For these categories list the second tier: companies most
+sponsorship sellers would NOT name from memory. Skip anything in a major headline index (S&P 500, DAX 40, CAC 40,
+FTSE 100, Nikkei 225 top 50, Hang Seng top 30) and skip global household brands. Market caps may be approximate
+(conf "M"/"L") but must be >= USD 1B.

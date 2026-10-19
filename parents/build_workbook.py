@@ -41,6 +41,8 @@ par.loc[par['val_bn'].fillna(0) >= 1, 'qual'] = 'Valuation >= USD 1B'
 m = (par['qual'] == '') & (par['funding_m'].fillna(0) >= 100); par.loc[m, 'qual'] = 'Cumulative funding >= USD 100M'
 m = (par['qual'] == '') & par['apollo_funding'].notna(); par.loc[m, 'qual'] = 'Cumulative funding >= USD 100M (Apollo database filter; amount not disclosed)'
 m = (par['qual'] == '') & par['sources'].map(lambda x: 'lusha' in x); par.loc[m, 'qual'] = 'Cumulative funding >= USD 100M (Lusha database filter; amount not disclosed)'
+m = (par['qual'] == '') & par.get('group_funding', pd.Series(False, index=par.index)).fillna(False).astype(bool)
+par.loc[m, 'qual'] = 'Cumulative funding >= USD 100M at group level (subsidiary ' + par.loc[m, 'apollo_funded_child'].astype(str) + ' per Apollo filter; parent figure unverified)'
 par['qualifies_k'] = par.get('qualifies_k', pd.Series('', index=par.index)).fillna('')
 # knowledge says it clearly does not qualify, and no figure contradicts that -> excluded
 not_q = ((par['qualifies_k'] == 'N') & (par['val_bn'].fillna(0) < 1) & (par['funding_m'].fillna(0) < 100)) | \
@@ -91,6 +93,7 @@ def rationale(r):
     v = r['val_bn'] if pd.notna(r['val_bn']) else None; fu = r['funding_m'] if pd.notna(r['funding_m']) else None
     if v: bits.append(f"USD {v:,.1f}B {s(r['val_basis']) or 'valuation'}")
     elif fu: bits.append(f"USD {fu:,.0f}M raised")
+    elif 'group level' in s(r['qual']): bits.append(f"group includes funded subsidiary {s(r.get('apollo_funded_child'))} (>= USD 100M raised); parent size unverified")
     else: bits.append('funding >= USD 100M per database filter; size unverified')
     if s(r['fin']): bits.append(s(r['fin']))
     return '; '.join(bits).capitalize()
@@ -105,7 +108,7 @@ def sources(r):
     return '; '.join(src)
 par['sources_txt'] = par.apply(sources, axis=1)
 par['val_txt'] = par.apply(lambda r: f"USD {r['val_bn']:,.1f}B ({s(r['val_basis']) or 'valuation'}, {s(r['val_date']) or 'date n/a'})" if pd.notna(r['val_bn']) and r['val_bn'] else '', axis=1)
-par['fund_txt'] = par.apply(lambda r: f"USD {r['funding_m']:,.0f}M" if pd.notna(r['funding_m']) and r['funding_m'] else ('>= USD 100M (database filter, amount not disclosed)' if 'database filter' in r['qual'] else ''), axis=1)
+par['fund_txt'] = par.apply(lambda r: f"USD {r['funding_m']:,.0f}M" if pd.notna(r['funding_m']) and r['funding_m'] else ('>= USD 100M (database filter, amount not disclosed)' if 'database filter' in r['qual'] else ('>= USD 100M at group level via subsidiary (amount not disclosed)' if 'group level' in r['qual'] else '')), axis=1)
 par['approach_txt'] = par['approach'].map(lambda x: {'G': 'Group-Level', 'B': 'Brand-Level'}.get(s(x), 'Group-Level'))
 par['sector_name'] = par['sector'].map(lambda i: NAMES[int(i) - 1] if 1 <= int(i) <= 48 else NAMES[47])
 par['website'] = par['domain'].map(clean_domain)
