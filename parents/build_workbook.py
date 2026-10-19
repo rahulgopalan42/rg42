@@ -1,6 +1,6 @@
 """Parent-company prospects, step 3: score (60/40), categorise and write
 '2,000 F1 SPONSORSHIP PARENT COMPANY PROSPECTS.xlsx'. Input: parents.pkl, dups.pkl, excluded.pkl from consolidate.py."""
-import collections, json, math, os, re, sys
+import collections, glob, json, math, os, re, sys
 import pandas as pd
 from openpyxl import Workbook
 from openpyxl.styles import Alignment, Font, PatternFill
@@ -207,6 +207,18 @@ par['otype'] = par.apply(otype, axis=1)
 par.loc[(par['bucket'] == 'A') & ~par['scored'], 'bucket'] = 'C'      # connector record not yet researched -> manual review, not the ranking
 unscored_B = (par['bucket'] == 'B') & ~par['scored'] & (par['parent_listed'] == 'yes')
 par.loc[unscored_B, 'bucket'] = 'BU'
+# ranked parents that have no sponsorship-signals row yet: export them to parents/signals_in/chunk_NNN.json for the signals agents
+# (signals_brief.md); the next build picks the results up from parents/signals_out automatically
+need = par[(par['bucket'].isin(['A', 'B'])) & ~par['sg_scored']].sort_values(['bucket', 'total'], ascending=[True, False])
+if len(need):
+    done = {r[0] for f_ in glob.glob(f'{R}/parents/signals_in/chunk_*.json') for r in json.load(open(f_))}
+    need = need[~need['key'].isin(done)]
+    nxt = max([int(re.search(r'chunk_(\d+)', f_).group(1)) for f_ in glob.glob(f'{R}/parents/signals_in/chunk_*.json')] or [0]) + 1
+    rows = [[r['key'], s(r['name']), s(r['domain']), s(r['hq_country']), r['sector_name'], r['type_txt'], r['val_bn'] if pd.notna(r['val_bn']) else '',
+             r['funding_m'] if pd.notna(r['funding_m']) else '', s(r.get('revenue_printed', '')), '', r['bucket']] for _, r in need.iterrows()]
+    for i in range(0, len(rows), 200):
+        json.dump(rows[i:i + 200], open(f'{R}/parents/signals_in/chunk_{nxt:03d}.json', 'w')); nxt += 1
+    print('signals still needed for', len(rows), 'ranked parents -> new signals_in chunks written')
 A = rank(par[par['bucket'] == 'A']); B = rank(par[par['bucket'] == 'B']); C = par[par['bucket'] == 'C'].sort_values('total', ascending=False)
 F1 = par[par['bucket'] == 'F1'].sort_values('total', ascending=False); XQ = par[par['bucket'] == 'XQ']
 print('A', len(A), 'B', len(B), 'C', len(C), 'F1', len(F1), 'not qualified', len(XQ), 'dups', len(dups), 'excluded', len(excl))
@@ -264,6 +276,13 @@ for row in ws.iter_rows():
 ws['A1'].font = Font(bold=True, size=14)
 # master
 sheet('NEW PARENT COMPANIES (MASTER)', MH, [mrow(r, r['rank']) for _, r in A.iterrows()], MW, [mfill(r) for _, r in A.iterrows()])
+# new brands this round: master parents absent from the earlier 2026-10-19 delivery (parents/baseline_master.json)
+_bl = json.load(open(f'{R}/parents/baseline_master.json')) if os.path.exists(f'{R}/parents/baseline_master.json') else {'names': [], 'websites': []}
+_bn, _bw = set(_bl['names']), set(_bl['websites'])
+_norm = lambda x: re.sub(r'[^a-z0-9]', '', str(x).lower())
+NEWR = A[~A['name'].map(_norm).isin(_bn) & ~A['website'].astype(str).str.lower().isin(_bw)]
+sheet('NEW BRANDS THIS ROUND', MH, [mrow(r, r['rank']) for _, r in NEWR.iterrows()], MW, [mfill(r) for _, r in NEWR.iterrows()])
+print('new brands this round', len(NEWR))
 # industry tabs
 used = set()
 for sec in NAMES:
@@ -351,11 +370,11 @@ srows = [['Parents discovered (all sources, after merging duplicate records)', l
          ['   of which parent itself already listed', int((B['parent_listed'] == 'yes').sum())]] + \
         [['   Overlap type ' + k, int(v)] for k, v in B['otype'].value_counts().sort_index().items()] + [
          ['Headline: share of all qualified parents already present in existing datasets', f"{len(B) / max(1, len(A) + len(B)):.0%}"],
-         ['Category C - manual review', len(C)], ['Drive CSV brands meeting valuation/funding parameters (separate tab)', len(D)], ['Apollo/Lusha records whose parent is already in existing datasets (not re-scored; listed on APOLLO MATCHES IN YOUR FILES)', int(unscored_B.sum())], ['Preliminary rows in master ranking', int(A['preliminary'].sum())], ['', '']]
+         ['Category C - manual review', len(C)], ['Drive CSV brands meeting valuation/funding parameters (separate tab)', len(D)], ['Apollo/Lusha records whose parent is already in existing datasets (not re-scored; listed on APOLLO MATCHES IN YOUR FILES)', int(unscored_B.sum())], ['Preliminary rows in master ranking', int(A['preliminary'].sum())], ['New parents added this round (not in the earlier 2026-10-19 sheet; NEW BRANDS THIS ROUND tab)', len(NEWR)], ['', '']]
 srows += [['New parents by sector: ' + k, int(v)] for k, v in secs.items()] + [['', '']]
 srows += [[f'Top {i} new parent', f"{r['name']} ({r['hq_country']}) - {r['sector_name']} - total {r['total']}"] for i, (_, r) in enumerate(A.head(20).iterrows(), 1)]
 sheet('SUMMARY', SH, srows, [70, 90], freeze='A2')
-for t in ('DRIVE CSV BRANDS (QUALIFIED)', 'EXISTING GROUP OVERLAPS'):
+for t in ('DRIVE CSV BRANDS (QUALIFIED)', 'EXISTING GROUP OVERLAPS', 'NEW BRANDS THIS ROUND'):
     wb.move_sheet(t, offset=-(wb.sheetnames.index(t) - wb.sheetnames.index('NEW PARENT COMPANIES (MASTER)') - 1))
 wb.move_sheet('SUMMARY', offset=-(len(wb.sheetnames) - 1))
 wb.move_sheet('READ ME', offset=-(len(wb.sheetnames) - 1))

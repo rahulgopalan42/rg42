@@ -196,8 +196,13 @@ par['sn'] = par['name'].map(strict); par['rd'] = par['domain'].fillna('').map(re
 dups = []
 seen = {}
 keep = []
+# groups reached under two different websites or names (checked by hand): map every alias to one canonical key
+SAME = {'anahd.co.jp': 'ana.co.jp', 'dmgmedia.co.uk': 'dmgt.com', 'schwarz.de': 'gruppe.schwarz', 'nordsecurity.com': 'nordsec.com',
+        strict('Fila Holdings'): 'fila.co.kr', strict('Misto Holdings (Fila)'): 'fila.co.kr', strict('Schwarz Group'): 'gruppe.schwarz',
+        strict('Schwarz Gruppe'): 'gruppe.schwarz', strict('Nord Security Partners'): 'nordsec.com', strict('Nord Security'): 'nordsec.com'}
 for r in par.itertuples():
     keys2 = [k for k in (r.rd, r.sn) if k and (k != r.sn or len(r.sn) >= 4)]      # website, or a distinctive name
+    keys2 += [SAME[k] for k in keys2 if k in SAME and SAME[k] not in keys2]
     hit = next((k for k in keys2 if k in seen), None)
     if hit:
         dups.append([r.name, r.domain, 'same parent as ' + seen[hit], ', '.join(r.sources)]); continue
