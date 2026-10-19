@@ -25,24 +25,32 @@ p['clay_band'] = p['rd'].map(band).fillna(fri.map({'75M-200M': '75M-200M', '200M
 p['revenue_usd'] = p['clay_band'].map(lambda b: f'USD {b} (Clay estimate)' if b else 'USD 75M+ (Clay search filter)')
 
 # ---------- verified research outputs (wave16/verify/out_*.json), if any
-ver = {}
-for f in sorted(glob.glob(f'{R}/wave16/verify/out_*.json')):
-    for r in json.load(open(f)): ver[r['id']] = r
+# rows without a domain get a name key; research/triage rows with a blank id are paired to their input row by position
+p['k'] = [d if d else 'n:' + str(n) for d, n in zip(p['rd'], p['name'])]
+def load_out(sub):
+    d = {}
+    for f in sorted(glob.glob(f'{R}/wave16/{sub}/out_*.json')):
+        rows = json.load(open(f)); fin = f.replace('/out_', '/in_')
+        ins = json.load(open(fin)) if os.path.exists(fin) else []
+        for i, r in enumerate(rows):
+            k = r.get('id') or ''
+            if not k:
+                if i < len(ins) and not ins[i].get('id'): k = 'n:' + str(ins[i].get('company', ''))
+                else: continue
+            d[k] = r
+    return d
+ver = load_out('verify')
 VC = ['revenue', 'revenue_source', 'valuation', 'valuation_source', 'funding', 'funding_source', 'criteria_met',
       'verification', 'fit_score', 'fit_detail', 'parent', 'parent_source', 'f1_current', 'reason', 'sources']
-for c in VC: p['v_' + c] = p['rd'].map(lambda d: (ver.get(d) or {}).get(c, ''))
-p['verified'] = p['rd'].isin(ver)
-tri = {}
-for f in glob.glob(f'{R}/wave16/triage/out_*.json'):
-    for r in json.load(open(f)): tri[r['id']] = r
-v2 = {}
-for f in sorted(glob.glob(f'{R}/wave16/verify2/out_*.json')):
-    for r in json.load(open(f)): v2[r['id']] = r
-p['tri_t'] = p['rd'].map(lambda d: (tri.get(d) or {}).get('t', ''))
-p['tri_fit'] = p['rd'].map(lambda d: (tri.get(d) or {}).get('fit', None))
-p['tri_scale'] = p['rd'].map(lambda d: (tri.get(d) or {}).get('scale', ''))
-p['tri_note'] = p['rd'].map(lambda d: (tri.get(d) or {}).get('note', ''))
-p['researched'] = p['rd'].isin(v2)
+for c in VC: p['v_' + c] = p['k'].map(lambda d: (ver.get(d) or {}).get(c, ''))
+p['verified'] = p['k'].isin(ver)
+tri = load_out('triage')
+v2 = load_out('verify2')
+p['tri_t'] = p['k'].map(lambda d: (tri.get(d) or {}).get('t', ''))
+p['tri_fit'] = p['k'].map(lambda d: (tri.get(d) or {}).get('fit', None))
+p['tri_scale'] = p['k'].map(lambda d: (tri.get(d) or {}).get('scale', ''))
+p['tri_note'] = p['k'].map(lambda d: (tri.get(d) or {}).get('note', ''))
+p['researched'] = p['k'].isin(v2)
 
 def clean_parent(x):
     x = str(x or '').strip()
@@ -65,7 +73,7 @@ FITC = ['audience', 'synergy', 'alignment', 'international', 'category']
 FINC = ['revenue_scale', 'capital', 'profitability_score', 'marketing']
 rows = []
 for r in p.itertuples():
-    v = v2.get(r.rd)
+    v = v2.get(r.k)
     if v:
         f = {k: gi(v, k) for k in FITC}; c = {k: gi(v, k) for k in FINC}; conf = v.get('confidence', 'Medium')
     else:
@@ -87,13 +95,13 @@ p['priority'] = (p['fit50'] + p['fin50']).astype(int)
 p['fit_basis'] = p['researched'].map({True: 'researched', False: 'preliminary'})
 
 def status(r):
-    v = v2.get(r.rd)
+    v = v2.get(r.k)
     if v: return v.get('verification') or 'Researched'
     if r.tri_t == 'division': return 'Preliminary - division/sub-brand (pre-sort)'
     if r.tri_t == 'real': return 'Preliminary - real company (pre-sort), Clay revenue estimate'
     return 'Preliminary - Clay revenue estimate (unverified)'
 p['research_status'] = [status(r) for r in p.itertuples()]
-p['criteria'] = [((v2.get(r.rd) or {}).get('criteria_met') or (r.v_criteria_met if r.verified and r.v_criteria_met else '') or
+p['criteria'] = [((v2.get(r.k) or {}).get('criteria_met') or (r.v_criteria_met if r.verified and r.v_criteria_met else '') or
                   'Revenue >= USD 75M (Clay estimate)' + (' + Funding >= USD 100M (Apollo estimate)' if r.funding_100m_apollo else ''))
                  for r in p.itertuples()]
 
@@ -111,7 +119,7 @@ for k, v in json.load(open(f'{R}/wave14/f1_ties_found.json')).items():
     kk = strict(k)
     if len(kk) >= 3: SPN.setdefault(kk, f'{k} - {str(v)[:160]}')
 def f1flag(r):
-    v = v2.get(r.rd) or {}
+    v = v2.get(r.k) or {}
     cur = str(v.get('f1_current') or r.v_f1_current or '').strip()
     if cur and not re.match(r'^(none|no |n/a|no current|not found|-)', cur, re.I):
         return cur[:220], 'research'
@@ -124,7 +132,7 @@ ff = [f1flag(r) for r in p.itertuples()]
 p['f1_deal'] = [a for a, b in ff]; p['f1_flag_src'] = [b for a, b in ff]
 
 # manual review: possible duplicates, failed verification, unclear ownership flagged by research
-p['nap'] = p['rd'].map(lambda d: (v2.get(d) or {}).get('not_a_prospect', ''))
+p['nap'] = p['k'].map(lambda d: (v2.get(d) or {}).get('not_a_prospect', ''))
 p['v1_junk'] = p['verified'] & (p['v_verification'] == 'Not verified') & ~p['researched']
 mr_mask = ((p['dup_status'] == 'maybe') | (p['tri_t'] == 'junk') | (p['nap'].fillna('') != '') | p['v1_junk']
            | (p['researched'] & (p['research_status'] == 'Not verified') & (p['criteria'].str.startswith('None'))))
@@ -134,7 +142,7 @@ q['overall_rank'] = q.index + 1
 q['sector_rank'] = q.groupby('sector').cumcount() + 1
 
 def reason(r):
-    v = v2.get(r.rd)
+    v = v2.get(r.k)
     if v and v.get('rationale'): return v['rationale']
     bits = []
     if r.verified and r.v_reason: return r.v_reason
@@ -189,7 +197,7 @@ MH = ['overall rank', 'sector rank', 'brand', 'sector', 'website', 'PRIORITY SCO
       'revenue & scale (15)', 'valuation/capital (10)', 'profitability (15)', 'marketing capacity (10)',
       'existing F1 sponsor / deal', 'parent company', 'country', 'staff', 'type', 'source links', 'source CSV']
 def mrow(r):
-    v = v2.get(r.rd) or {}
+    v = v2.get(r.k) or {}
     src = v.get('sources') or r.v_sources or ''
     src = ' '.join(src[:4]) if isinstance(src, list) else str(src)
     return [r.overall_rank, r.sector_rank, r.name, r.sector, r.domain, r.priority, r.fit50, r.fin50, r.confidence,
