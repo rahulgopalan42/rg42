@@ -77,7 +77,7 @@ for r in p.itertuples():
     if v:
         f = {k: gi(v, k) for k in FITC}; c = {k: gi(v, k) for k in FINC}; conf = v.get('confidence', 'Medium')
     else:
-        fit4 = r.tri_fit if r.tri_t == 'real' and r.tri_fit is not None else r.fit_proxy
+        fit4 = r.tri_fit if r.tri_t in ('real', 'division') and r.tri_fit is not None else r.fit_proxy
         try: fit4 = int(fit4)
         except Exception: fit4 = int(r.fit_proxy)
         big = r.size in ('1,001-5,000', '5,001-10,000', '10,001+') or r.type == 'Public Company'
@@ -85,7 +85,7 @@ for r in p.itertuples():
              'international': 3 if big else 2, 'category': 3}
         c = {'revenue_scale': REVP.get(r.clay_band, 3), 'capital': 4 if r.funding_100m_apollo else 2,
              'profitability_score': 5, 'marketing': 3}
-        if r.tri_scale == 'large': c['revenue_scale'] = max(c['revenue_scale'], 11)
+        if r.tri_scale == 'large' and r.tri_t == 'real': c['revenue_scale'] = max(c['revenue_scale'], 11)
         conf = 'Low (knowledge pre-sort)' if r.tri_t else 'Very low (database only)'
     rows.append((sum(f.values()), sum(c.values()), conf, *[f[k] for k in FITC], *[c[k] for k in FINC]))
 sc = pd.DataFrame(rows, index=p.index, columns=['fit50', 'fin50', 'confidence'] + FITC + FINC)
@@ -261,5 +261,19 @@ for sec, c in q['sector'].value_counts().sort_index().items(): ws.append([sec, i
 for sec in sorted(q['sector'].unique()):
     sheet(sec, MH, (mrow(r) for r in q[q['sector'] == sec].itertuples()), W)
 wb.save(out2)
+# compact shortlist that opens comfortably in Google Sheets
+out3 = re.sub(r'\.xlsx$', '-SHORTLIST.xlsx', sys.argv[1]).replace('-PRELIM', '')
+wb = Workbook(write_only=True)
+ws = wb.create_sheet('00 READ ME'); ws.column_dimensions['A'].width = 140
+for l in [['F1 Wave 16 - shortlist (small enough for Google Sheets). Full data: ' + os.path.basename(sys.argv[1]) + ' and its -SECTORS file.'], [''],
+          ['01 Researched Prospects: every brand researched with sources, ranked by PRIORITY SCORE, current F1 sponsors removed.'],
+          ['02 Top 5,000 (all): the top 5,000 of the full ranking excluding current F1 sponsors; rows not yet researched carry PRELIMINARY scores (see research status).'],
+          ['03 Existing F1 Sponsors: brands already in F1 directly or via a parent.'], [''],
+          ['PRIORITY SCORE (0-100) = F1 FIT (50) + FINANCIAL CAPACITY (50); unknown figures scored conservatively.']]: ws.append(l)
+nf = q[q['f1_deal'] == '']
+sheet('01 Researched Prospects', MH, (mrow(r) for r in nf[nf['researched']].itertuples()), W)
+sheet('02 Top 5,000 (all)', MH, (mrow(r) for r in nf.head(5000).itertuples()), W)
+sheet('03 Existing F1 Sponsors', MH, (mrow(r) for r in f1s.itertuples()), W)
+wb.save(out3)
 q.to_pickle(f'{S}/ranked.pkl')
 print('ranked', len(q), 'manual review', len(mr), 'excluded', len(ex), 'parent overlaps', len(pod), 'shared parents', len(shared), 'sectors', q['sector'].nunique())
