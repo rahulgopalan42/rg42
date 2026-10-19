@@ -98,6 +98,7 @@ for f_ in sorted(glob.glob(f'{R}/parents/f1check_out/chunk_*.json')):
             if isinstance(r_, list) and len(r_) == 4 and s(r_[0]):
                 st_ = s(r_[1]).lower().strip()
                 if st_ == 'current' and re.search(r'broadcast|media rights|tv rights|rights holder|licen[cs]e', s(r_[2]), re.I): st_ = 'unsure'      # a broadcaster or licensee is not a sponsor
+                if st_ == 'current' and s(r_[3]).upper() == 'L': st_ = 'unsure'      # low-confidence recollections go to 'verify' (red), never blue
                 fc[s(r_[0])] = (st_, s(r_[2]), s(r_[3]))
     except Exception as e: print('bad f1check file', f_, e)
 print('f1 check hits', len(fc), dict(collections.Counter(v[0] for v in fc.values())))
