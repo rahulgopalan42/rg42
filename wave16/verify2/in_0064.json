@@ -1,0 +1,122 @@
+[
+{
+"id": "degson.com",
+"company": "NINGBO DEGSON ELECTRICAL CO.,LTD.",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese terminal block maker"
+},
+{
+"id": "blauberg-motoren.com",
+"company": "BLAUBERG MOTOREN",
+"sector": "45 Electronic Parts",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Blauberg Group",
+"triage_note": "real; fit 1; scale mid; Fan and motor maker"
+},
+{
+"id": "griro.ro",
+"company": "GRIRO S.A.",
+"sector": "23 Machine Tools",
+"country": "Romania",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Romanian pressure equipment"
+},
+{
+"id": "led-mls.com",
+"company": "MLS Display Limited",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; LED display maker"
+},
+{
+"id": "universal-777.com",
+"company": "Universal Entertainment Corporation",
+"sector": "NEW Gambling & Lotteries",
+"country": "Japan",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; pachinko/casino resort"
+},
+{
+"id": "hansoltechnics.com",
+"company": "Hansol Technics Co., Ltd.",
+"sector": "45 Electronic Parts",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Hansol Group",
+"triage_note": "real; fit 1; scale mid; power modules"
+},
+{
+"id": "aidc.com.tw",
+"company": "AIDC",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Taiwan aerospace"
+},
+{
+"id": "sbs.co.kr",
+"company": "SBS (Seoul Broadcasting System)",
+"sector": "29 Tech Media & Gaming",
+"country": "South Korea",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "SBS Media Holdings",
+"triage_note": "real; fit 1; scale mid; Korean broadcaster"
+},
+{
+"id": "skelar.tech",
+"company": "SKELAR",
+"sector": "22 SaaS",
+"country": "Ukraine",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Ukrainian venture builder"
+},
+{
+"id": "prismamedia.com",
+"company": "Prisma Media",
+"sector": "29 Tech Media & Gaming",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Louis Hachette Group",
+"triage_note": "real; fit 1; scale mid; French magazine publisher"
+}
+]

@@ -1,0 +1,122 @@
+[
+{
+"id": "metersbonwe.com",
+"company": "Shanghai Metersbonwe Apparel and Accessory Co. Ltd",
+"sector": "53 Consumer & Lifestyle",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese apparel brand"
+},
+{
+"id": "hglaserglobal.com",
+"company": "HGTECH",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; laser equipment maker"
+},
+{
+"id": "thundersoft.com",
+"company": "ThunderSoft",
+"sector": "25 IT Services & Consulting",
+"country": "中华人民共和国",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; OS and AI software"
+},
+{
+"id": "baosight.com",
+"company": "Baosight",
+"sector": "25 IT Services & Consulting",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Baoshan Iron & Steel / China Baowu Steel Group",
+"triage_note": "real; fit 1; scale mid; industrial software"
+},
+{
+"id": "gritek.com",
+"company": "Grinm Semiconductor Materials Co., Ltd.",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; semiconductor materials"
+},
+{
+"id": "primepulse.com",
+"company": "PRIMEPULSE",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; investment holding firm"
+},
+{
+"id": "overstock.com",
+"company": "Overstock",
+"sector": "X06 Retail & E-commerce",
+"country": "United States",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; online retailer"
+},
+{
+"id": "sanmanuelcareers.com",
+"company": "Yaamava' Resort & Casino at San Manuel",
+"sector": "16 Travel & Hospitality",
+"country": "United States",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Yuhaaviatam of San Manuel Nation",
+"triage_note": "real; fit 1; scale mid; tribal casino resort California"
+},
+{
+"id": "kwworldwide.com",
+"company": "Keller Williams Worldwide",
+"sector": "X02 Real Estate & Building Products",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; real estate franchisor"
+},
+{
+"id": "tupperware.com",
+"company": "Tupperware",
+"sector": "X06 Retail & E-commerce",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; consumer brand, bankrupt restructured"
+}
+]

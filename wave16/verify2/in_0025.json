@@ -1,0 +1,122 @@
+[
+{
+"id": "bitly.com",
+"company": "Bitly",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "201-500",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; link management platform"
+},
+{
+"id": "medium.com",
+"company": "Medium",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "51-200",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; publishing platform"
+},
+{
+"id": "sinomach-ez.cn",
+"company": "CHINA ERZHONG",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Sinomach (China National Machinery Industry Corp)",
+"triage_note": "real; fit 2; scale mid; Chinese heavy forging maker"
+},
+{
+"id": "topband-ebike.com",
+"company": "TOPBAND E-Mobility",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Shenzhen Topband Co",
+"triage_note": "real; fit 2; scale mid; Chinese battery and e-mobility"
+},
+{
+"id": "maxeon.com",
+"company": "Maxeon Solar Technologies",
+"sector": "27 Chip Makers",
+"country": "Singapore",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "TCL Zhonghuan",
+"triage_note": "real; fit 2; scale mid; solar panels"
+},
+{
+"id": "aida.co.jp",
+"company": "AIDA ENGINEERING Ltd.",
+"sector": "23 Machine Tools",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; precision press maker"
+},
+{
+"id": "goldwin-global.com",
+"company": "Goldwin, GOLDWIN INC.",
+"sector": "53 Consumer & Lifestyle",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; technical apparel, North Face Japan"
+},
+{
+"id": "maglayersusa.com",
+"company": "Mag.Layers",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Chilisin",
+"triage_note": "real; fit 2; scale mid; passive components maker"
+},
+{
+"id": "bulgin.com",
+"company": "Bulgin",
+"sector": "45 Electronic Parts",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Infinite Electronics, Inc.",
+"triage_note": "real; fit 2; scale mid; sealed connectors maker"
+},
+{
+"id": "craftsmanautomation.com",
+"company": "Craftsman Automation",
+"sector": "33 Automation & Robotics",
+"country": "India",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; precision auto components"
+}
+]

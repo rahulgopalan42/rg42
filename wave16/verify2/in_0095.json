@@ -1,0 +1,122 @@
+[
+{
+"id": "inretail.pe",
+"company": "InRetail Peru",
+"sector": "X06 Retail & E-commerce",
+"country": "Peru",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Intercorp Peru",
+"triage_note": "real; fit 0; scale large; Peruvian retailer"
+},
+{
+"id": "yuchaiglobal.com",
+"company": "Yuchai",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Hong Leong Asia (Hong Leong Group)",
+"triage_note": "real; fit 0; scale large; Chinese engine maker"
+},
+{
+"id": "emart.com",
+"company": "(주)이마트 (EMART Inc.)",
+"sector": "X06 Retail & E-commerce",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Shinsegae",
+"triage_note": "real; fit 0; scale large; Korean discount retailer"
+},
+{
+"id": "mvideo.ru",
+"company": "M.Video",
+"sector": "X06 Retail & E-commerce",
+"country": "Russia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Russian electronics retailer"
+},
+{
+"id": "shopriteholdings.co.za",
+"company": "The Shoprite Group of Companies",
+"sector": "X06 Retail & E-commerce",
+"country": "South Africa",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; African supermarket group"
+},
+{
+"id": "malaysiaaviationgroup.com.my",
+"company": "Malaysia Aviation Group",
+"sector": "16 Travel & Hospitality",
+"country": "Malaysia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Khazanah",
+"triage_note": "real; fit 0; scale large; airline group"
+},
+{
+"id": "arrayinc.com",
+"company": "Array Digital Infrastructure, Inc.",
+"sector": "48 Telecom & Space",
+"country": "United States",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "TDS",
+"triage_note": "real; fit 0; scale large; US wireless infrastructure"
+},
+{
+"id": "xac.com.cn",
+"company": "Avic Aircraft Co., Ltd.",
+"sector": "16 Travel & Hospitality",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "AVIC",
+"triage_note": "real; fit 0; scale large; Chinese aircraft maker"
+},
+{
+"id": "whzb.com",
+"company": "Zhongbai Holdings Group Co., Ltd.",
+"sector": "X06 Retail & E-commerce",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Wuhan state-owned commercial group",
+"triage_note": "real; fit 0; scale large; Chinese retail group"
+},
+{
+"id": "searsoutlet.com",
+"company": "Sears Outlet Stores, LLC",
+"sector": "X06 Retail & E-commerce",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; US outlet retailer"
+}
+]

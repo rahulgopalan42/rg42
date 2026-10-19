@@ -1,0 +1,122 @@
+[
+{
+"id": "optimumnanoenergy.com",
+"company": "OptimumNano Energy Co.,Ltd",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; LiFePO4 batteries"
+},
+{
+"id": "ellwoodgroup.com",
+"company": "Ellwood",
+"sector": "23 Machine Tools",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Specialty metals forgings"
+},
+{
+"id": "applied-motion.com",
+"company": "Applied Motion Products",
+"sector": "33 Automation & Robotics",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Precision motion control"
+},
+{
+"id": "saama.com",
+"company": "Saama",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; life sciences AI software"
+},
+{
+"id": "naturasiberica.ru",
+"company": "Natura Siberica",
+"sector": "03 Luxury & Beauty",
+"country": "Russia",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Russian natural cosmetics"
+},
+{
+"id": "zolotiyvik.ua",
+"company": "Золотий Вік",
+"sector": "03 Luxury & Beauty",
+"country": "Ukraine",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Ukrainian jewellery retailer"
+},
+{
+"id": "maynardnexsen.com",
+"company": "Maynard Nexsen",
+"sector": "50 Law Firms & Legal AI",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; US law firm"
+},
+{
+"id": "whitcraft.com",
+"company": "Whitcraft Group",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Aerospace precision forming"
+},
+{
+"id": "sertec.co.uk",
+"company": "Sertec Group Ltd",
+"sector": "23 Machine Tools",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Lightweight vehicle structures"
+},
+{
+"id": "meyertool.com",
+"company": "Meyer Tool, Inc.",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Gas turbine precision tooling"
+}
+]

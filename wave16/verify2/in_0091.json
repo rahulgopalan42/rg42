@@ -1,0 +1,122 @@
+[
+{
+"id": "marketdino.pl",
+"company": "Dino Polska S.A.",
+"sector": "X06 Retail & E-commerce",
+"country": "Poland",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Polish supermarket chain"
+},
+{
+"id": "pepkorlifestyle.com",
+"company": "Pepkor Lifestyle",
+"sector": "X06 Retail & E-commerce",
+"country": "South Africa",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; African discount retail"
+},
+{
+"id": "postoffice.co.uk",
+"company": "Post Office Ltd",
+"sector": "X06 Retail & E-commerce",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; UK post office network"
+},
+{
+"id": "steinhoffinternational.com",
+"company": "Steinhoff International",
+"sector": "X06 Retail & E-commerce",
+"country": "South Africa",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; South African retail group"
+},
+{
+"id": "optimum.com",
+"company": "Altice USA",
+"sector": "48 Telecom & Space",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Next Alt (Patrick Drahi)",
+"triage_note": "real; fit 0; scale large; US cable operator"
+},
+{
+"id": "monetka.ru",
+"company": "Монетка",
+"sector": "X06 Retail & E-commerce",
+"country": "Russia",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Russian discount retailer"
+},
+{
+"id": "seiyu.co.jp",
+"company": "株式会社 西友",
+"sector": "X06 Retail & E-commerce",
+"country": "Japan",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Trial Holdings",
+"triage_note": "real; fit 0; scale large; Japanese supermarket chain"
+},
+{
+"id": "jdsn.com.cn",
+"company": "Tangshan Jidong Cement Co., Ltd",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Chinese cement maker"
+},
+{
+"id": "svcreit.com",
+"company": "Service Properties Trust",
+"sector": "X02 Real Estate & Building Products",
+"country": "United States",
+"type": "Public Company",
+"staff": "2-10",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; hotel REIT"
+},
+{
+"id": "szgas.com.cn",
+"company": "Shenzhen Gas Corporation Ltd.",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Chinese gas utility"
+}
+]

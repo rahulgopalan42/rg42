@@ -1,0 +1,122 @@
+[
+{
+"id": "jinjinaghotels.com",
+"company": "Jin Jiang International Hotel Group",
+"sector": "16 Travel & Hospitality",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Jin Jiang International (Holdings)",
+"triage_note": "real; fit 1; scale large; Chinese hotel group"
+},
+{
+"id": "ltm.com",
+"company": "LTM",
+"sector": "25 IT Services & Consulting",
+"country": "India",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Larsen & Toubro",
+"triage_note": "real; fit 1; scale large; IT services, formerly LTIMindtree"
+},
+{
+"id": "frasersproperty.com",
+"company": "Frasers Property Limited",
+"sector": "X02 Real Estate & Building Products",
+"country": "Singapore",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; real estate developer"
+},
+{
+"id": "recruiting.com",
+"company": "Aeromexico",
+"sector": "16 Travel & Hospitality",
+"country": "Mexico",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "SkyTeam airline alliance",
+"triage_note": "real; fit 1; scale large; Mexican airline"
+},
+{
+"id": "vestel.com.tr",
+"company": "Vestel",
+"sector": "45 Electronic Parts",
+"country": "Turkey",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Zorlu Holding",
+"triage_note": "real; fit 1; scale large; Turkish electronics maker"
+},
+{
+"id": "zorlu.com.tr",
+"company": "Zorlu Holding",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "Turkey",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Turkish conglomerate"
+},
+{
+"id": "sunway.com.my",
+"company": "Sunway Group",
+"sector": "X02 Real Estate & Building Products",
+"country": "Malaysia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Malaysian conglomerate"
+},
+{
+"id": "singaporeair.com",
+"company": "Singapore Airlines",
+"sector": "16 Travel & Hospitality",
+"country": "Singapore",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; airline"
+},
+{
+"id": "rai.it",
+"company": "Rai - Radiotelevisione Italiana",
+"sector": "29 Tech Media & Gaming",
+"country": "Italy",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Italian Ministry of Economy and Finance",
+"triage_note": "real; fit 1; scale large; Italian public broadcaster"
+},
+{
+"id": "mng.com",
+"company": "MNG INVESTMENT",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "Turkey",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Günal family",
+"triage_note": "real; fit 1; scale large; Turkish conglomerate"
+}
+]

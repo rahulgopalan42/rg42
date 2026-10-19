@@ -1,0 +1,122 @@
+[
+{
+"id": "shaanxigas.com",
+"company": "Shaanxi Provincial Natural Gas Co., Ltd.",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Chinese gas utility"
+},
+{
+"id": "ppbgroup.com",
+"company": "PPB Group Berhad",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "Malaysia",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Malaysian conglomerate"
+},
+{
+"id": "gemdale.com",
+"company": "Gemdale Corporation",
+"sector": "X02 Real Estate & Building Products",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Chinese developer"
+},
+{
+"id": "meetlifepoint.us",
+"company": "Lifepoint Health Support Center",
+"sector": "42 Health & Wellness",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Apollo Global Management",
+"triage_note": "real; fit 0; scale large; hospital operator support centre"
+},
+{
+"id": "monoprix.fr",
+"company": "Monoprix",
+"sector": "X06 Retail & E-commerce",
+"country": "France",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Groupe Casino",
+"triage_note": "real; fit 0; scale large; French supermarket chain"
+},
+{
+"id": "grupochedraui.com.mx",
+"company": "Grupo Chedraui",
+"sector": "X06 Retail & E-commerce",
+"country": "Mexico",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Mexican supermarket group"
+},
+{
+"id": "esselungajob.it",
+"company": "Esselunga",
+"sector": "X06 Retail & E-commerce",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Italian supermarket chain"
+},
+{
+"id": "umms.org",
+"company": "United Medical Center",
+"sector": "42 Health & Wellness",
+"country": "United States",
+"type": "Partnership",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Maryland hospital system"
+},
+{
+"id": "amerihealthcaritas.com",
+"company": "AmeriHealth Caritas",
+"sector": "42 Health & Wellness",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Independence Health Group",
+"triage_note": "real; fit 0; scale large; Medicaid managed care"
+},
+{
+"id": "doublestarmingren.com",
+"company": "Doublestar Mingren",
+"sector": "53 Consumer & Lifestyle",
+"country": "China",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Qingdao Doublestar Group",
+"triage_note": "real; fit 0; scale large; Chinese shoe and tyre group"
+}
+]

@@ -1,0 +1,122 @@
+[
+{
+"id": "lexgateway.com",
+"company": "LEXGATEWAYTM",
+"sector": "50 Law Firms & Legal AI",
+"country": "United States",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale unknown; Global law firm network"
+},
+{
+"id": "brggroup.vn",
+"company": "BRG Group",
+"sector": "X02 Real Estate & Building Products",
+"country": "Vietnam",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale unknown; Vietnam multi-sector group"
+},
+{
+"id": "avichina.com",
+"company": "Avichina Industry & Technology Company Limited",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 10B-100B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "AVIC",
+"triage_note": "real; fit 1; scale large; AviChina listed aerospace arm"
+},
+{
+"id": "wxqc.com.cn",
+"company": "Wanxiang Qianchao Co., Ltd",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Wanxiang Group",
+"triage_note": "real; fit 1; scale large; Chinese auto parts"
+},
+{
+"id": "tv-asahi.co.jp",
+"company": "TV Asahi",
+"sector": "29 Tech Media & Gaming",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "TV Asahi Holdings",
+"triage_note": "real; fit 1; scale large; Japanese broadcaster"
+},
+{
+"id": "ioh.co.id",
+"company": "PT. Indosat Tbk",
+"sector": "48 Telecom & Space",
+"country": "Indonesia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "PT Indosat Ooredoo Hutchison Tbk",
+"triage_note": "real; fit 1; scale large; Indonesian telecom"
+},
+{
+"id": "tx.group",
+"company": "TX Group AG",
+"sector": "29 Tech Media & Gaming",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Swiss media group"
+},
+{
+"id": "channel4.com",
+"company": "Channel 4",
+"sector": "29 Tech Media & Gaming",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "UK Government",
+"triage_note": "real; fit 1; scale large; UK public broadcaster"
+},
+{
+"id": "family.co.jp",
+"company": "FamilyMart Co.,Ltd.",
+"sector": "X06 Retail & E-commerce",
+"country": "Japan",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Itochu Corporation",
+"triage_note": "real; fit 1; scale large; convenience store chain"
+},
+{
+"id": "cict.com",
+"company": "China Information and Communication Technology Group Co., Ltd.",
+"sector": "48 Telecom & Space",
+"country": "China",
+"type": "Self Owned",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "SASAC",
+"triage_note": "real; fit 1; scale large; Chinese ICT group"
+}
+]

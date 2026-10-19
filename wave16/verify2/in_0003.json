@@ -1,0 +1,122 @@
+[
+{
+"id": "lycagroup.com",
+"company": "Lyca Group",
+"sector": "48 Telecom & Space",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "; fit ; scale ; "
+},
+{
+"id": "bytedance.com",
+"company": "ByteDance",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "; fit ; scale ; "
+},
+{
+"id": "yandex.com",
+"company": "Yandex",
+"sector": "22 SaaS",
+"country": "Russia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Yandex Practicum",
+"triage_note": "real; fit 2; scale large; Russian tech, sanctions risk"
+},
+{
+"id": "commscope.com",
+"company": "CommScope",
+"sector": "48 Telecom & Space",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "The Carlyle Group",
+"triage_note": "real; fit 4; scale large; network infrastructure vendor"
+},
+{
+"id": "cox.com",
+"company": "Cox Communications",
+"sector": "48 Telecom & Space",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Cox Enterprises",
+"triage_note": "; fit ; scale ; "
+},
+{
+"id": "ea.com",
+"company": "Electronic Arts (EA)",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Electronic Arts",
+"triage_note": "real; fit 3; scale large; gaming, already F1 game licensee"
+},
+{
+"id": "reeftechnology.com",
+"company": "REEF",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "; fit ; scale ; "
+},
+{
+"id": "grupoboticario.com.br",
+"company": "Grupo Boticário",
+"sector": "03 Luxury & Beauty",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "; fit ; scale ; "
+},
+{
+"id": "airtel.cd",
+"company": "Airtel RDC",
+"sector": "48 Telecom & Space",
+"country": "Democratic Republic of the Congo",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "; fit ; scale ; "
+},
+{
+"id": "movistar.cl",
+"company": "Movistar Chile",
+"sector": "48 Telecom & Space",
+"country": "Chile",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "; fit ; scale ; "
+}
+]

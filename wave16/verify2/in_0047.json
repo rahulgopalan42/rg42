@@ -1,0 +1,122 @@
+[
+{
+"id": "ferreyros.com.pe",
+"company": "Ferreyros S.A.",
+"sector": "23 Machine Tools",
+"country": "Perú",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Ferreycorp",
+"triage_note": "real; fit 1; scale large; Cat dealer Peru"
+},
+{
+"id": "bloomberry.ph",
+"company": "Bloomberry Resorts Corporation",
+"sector": "NEW Gambling & Lotteries",
+"country": "Philippines",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Philippine casino resort"
+},
+{
+"id": "ebsco.com",
+"company": "EBSCO Information Services",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "EBSCO Industries",
+"triage_note": "real; fit 1; scale large; library information"
+},
+{
+"id": "logmein.com",
+"company": "LogMeIn",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Francisco Partners / Elliott",
+"triage_note": "real; fit 1; scale large; remote access software"
+},
+{
+"id": "dmgmedia.co.uk",
+"company": "dmg media",
+"sector": "29 Tech Media & Gaming",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Daily Mail and General Trust",
+"triage_note": "real; fit 1; scale large; UK media group"
+},
+{
+"id": "wsg.cn",
+"company": "Wanda Sports Group",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "China",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Dalian Wanda",
+"triage_note": "real; fit 1; scale large; sports marketing group"
+},
+{
+"id": "888poker.com",
+"company": "Random Logic",
+"sector": "22 SaaS",
+"country": "Gibraltar",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "evoke",
+"triage_note": "real; fit 1; scale large; online gaming group"
+},
+{
+"id": "one.nz",
+"company": "One New Zealand",
+"sector": "48 Telecom & Space",
+"country": "New Zealand",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Infratil",
+"triage_note": "real; fit 1; scale large; NZ telco"
+},
+{
+"id": "smartone.com",
+"company": "SmarTone",
+"sector": "48 Telecom & Space",
+"country": "Hong Kong",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Sun Hung Kai Properties",
+"triage_note": "real; fit 1; scale large; HK mobile operator"
+},
+{
+"id": "zozo.com",
+"company": "ZOZO, Inc.",
+"sector": "22 SaaS",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Japan fashion ecommerce"
+}
+]
