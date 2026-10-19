@@ -8,7 +8,12 @@ import pandas as pd
 S = '/tmp/claude-0/-home-user-rg42/f658b5c3-a5ae-5398-b208-f286520b1971/scratchpad'; R = '/home/user/rg42'
 first = int(sys.argv[1]); size = int(sys.argv[2]) if len(sys.argv) > 2 else 160
 par = pd.read_pickle(f'{S}/parents/parents.pkl')
-ns = par[par['needs_score'] & ((par['overlap_cat'] != 'B') | (par['parent_listed'] == 'no'))]
+import glob
+assigned = set()
+for f_ in glob.glob(f'{R}/parents/score_in/chunk_*.json'):
+    if int(f_[-7:-5]) < first:
+        assigned |= {str(r[0]).strip().lower() for r in json.load(open(f_))}
+ns = par[par['needs_score'] & ((par['overlap_cat'] != 'B') | (par['parent_listed'] == 'no')) & ~par['name'].astype(str).str.strip().str.lower().isin(assigned)]
 cl = lambda v: '' if v is None or (isinstance(v, float) and math.isnan(v)) else v
 rows = [[cl(r['name']), cl(r['domain']), cl(r['hq_country']), cl(r.get('exchange')), cl(r.get('revenue_printed')), cl(r.get('lusha_industry')),
          cl(r.get('naics0')), list(r['children'])[:8] if isinstance(r['children'], (list, tuple)) else [],
