@@ -116,7 +116,8 @@ par['capacity'] = par['cap_scale'] + par['cap_val'] + par['cap_other']
 par['total'] = (par['fit'] + par['capacity']).round(1)
 par['preliminary'] = ((~par['scored']) | par['conf'].fillna('').isin(['L', 'U']) | (par['val_bn'].isna() & par['funding_m'].isna())) & ~par['verified_src'].astype(str).str.contains('web check')
 par['confidence'] = par.apply(lambda r: 'Preliminary - not scored (connector record only)' if not r['scored'] else
-                              {'H': 'High', 'M': 'Medium', 'L': 'Low (figures from memory)', 'U': 'Low - identity unconfirmed'}.get(s(r['conf']), 'Medium') + (' - web-verified 2026-10-19' if 'web check' in s(r['verified_src']) else (' (figures recalled, unconfirmed)' if s(r['web_note']).startswith('recalled') else '')), axis=1)
+                              (('Low (figures recalled, unconfirmed)' if s(r['conf']) == 'L' else 'Medium (figures recalled, unconfirmed)') if s(r['web_note']).startswith('recalled') and 'web check' not in s(r['verified_src']) else
+                               {'H': 'High', 'M': 'Medium', 'L': 'Low (figures from memory)', 'U': 'Low - identity unconfirmed'}.get(s(r['conf']), 'Medium') + (' - web-verified 2026-10-19' if 'web check' in s(r['verified_src']) else '')), axis=1)
 def rationale(r):
     bits = []
     if r['a'] >= 3: bits.append('strong F1 audience overlap')
