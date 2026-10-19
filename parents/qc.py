@@ -17,7 +17,8 @@ check(2, 'One row per ultimate parent: no duplicate parent names in master ranki
 # 3 new vs overlap separation
 bn = set(B['Parent Company Name'].str.lower().str.strip()); fn = set(F['Parent Company Name'].str.lower().str.strip())
 check(3, 'No parent appears in both the master ranking and the overlaps tab', not (set(names) & bn), f"{len(set(names) & bn)} shared")
-check(3, 'No confirmed current F1 sponsor in the master ranking or overlaps', not (set(names) & fn) and not (bn & fn), f"{len((set(names) | bn) & fn)} shared")
+fm = set(M.loc[M['Existing F1 sponsorship'].fillna('').astype(str).str.strip() != '', 'Parent Company Name'].str.lower().str.strip()) | set(B.loc[B['Existing F1 sponsorship'].fillna('').astype(str).str.strip() != '', 'Parent Company Name'].str.lower().str.strip())
+check(3, 'Every existing F1 sponsor is kept in its ranking with the Existing F1 sponsorship column filled (blue row) and listed on EXISTING F1 SPONSORS', fn == fm, f"{len(fn)} on the F1 tab, {len(fm)} marked in master/overlaps")
 # 4 ranking integrity
 check(4, 'Master ranking sorted by Total descending with consecutive ranks', (M['Overall Rank'].tolist() == list(range(1, len(M) + 1))) and M['Total Score (/100)'].is_monotonic_decreasing)
 check(4, 'Total = Fit + Capacity; Fit <= 60; Capacity <= 40', ((M['F1 Fit Score (/60)'] + M['Financial Capacity Score (/40)'] - M['Total Score (/100)']).abs().lt(0.01).all()) and M['F1 Fit Score (/60)'].le(60).all() and M['Financial Capacity Score (/40)'].le(40).all())

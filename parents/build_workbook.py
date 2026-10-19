@@ -90,6 +90,20 @@ f1 = par['f1'].fillna('').astype(str)
 UNSURE = re.compile(r'unsure|verify|unverified|former|past|\?|reported|possible|check|ended|expired|until 20', re.I)
 par['f1_current'] = (f1.str.strip() != '') & ~f1.str.contains(UNSURE)
 par['f1_check'] = (f1.str.strip() != '') & f1.str.contains(UNSURE)
+# existing-F1-sponsorship check pass (parents/f1check_out, see f1check_brief.md): current deal -> blue row; former / unsure -> verify
+fc = {}
+for f_ in sorted(glob.glob(f'{R}/parents/f1check_out/chunk_*.json')):
+    try:
+        for r_ in json.load(open(f_)):
+            if isinstance(r_, list) and len(r_) == 4 and s(r_[0]): fc[s(r_[0])] = (s(r_[1]).lower().strip(), s(r_[2]), s(r_[3]))
+    except Exception as e: print('bad f1check file', f_, e)
+print('f1 check hits', len(fc), dict(collections.Counter(v[0] for v in fc.values())))
+par['fc_status'] = par['key'].map(lambda k: fc.get(k, ('', '', ''))[0]); par['fc_deal'] = par['key'].map(lambda k: fc.get(k, ('', '', ''))[1])
+cur = par['fc_status'] == 'current'
+par.loc[cur & ((f1.str.strip() == '') | par['f1_check']), 'f1'] = par.loc[cur & ((f1.str.strip() == '') | par['f1_check']), 'fc_deal']
+par.loc[cur, 'f1_current'] = True; par.loc[cur, 'f1_check'] = False
+oth = par['fc_status'].isin(['former', 'unsure']) & ~par['f1_current'] & (par['f1'].fillna('').astype(str).str.strip() == '')
+par.loc[oth, 'f1'] = par.loc[oth, 'fc_deal'] + ' (' + par.loc[oth, 'fc_status'] + ' - verify)'; par.loc[oth, 'f1_check'] = True
 
 # ---------------------------------------------------------------- scores
 par['fit'] = (par['a'] * 5 + par['s'] * 5 + par['l'] * 2.5 + par['n'] * 2.5).round(1)
@@ -192,7 +206,7 @@ fl = par['sg_flag'].str.lower()
 par.loc[fl.str.startswith('current f1'), 'f1_current'] = True
 par.loc[fl.str.startswith('current f1') & (par['f1'].fillna('') == ''), 'f1'] = par['sg_flag']
 par.loc[fl.str.contains('sanction|defunct|bankrupt|dissolved'), 'bucket'] = 'XQ'
-par.loc[par['f1_current'], 'bucket'] = 'F1'
+# current F1 sponsors stay in their ranking (blue rows, Rahul 19 Oct 2026) and are listed again on EXISTING F1 SPONSORS
 def rank(df):
     df = df.sort_values(['total', 'fit', 'val_bn'], ascending=[False, False, False], na_position='last').reset_index(drop=True)
     df.insert(0, 'rank', range(1, len(df) + 1)); return df
@@ -220,12 +234,12 @@ if len(need):
         json.dump(rows[i:i + 200], open(f'{R}/parents/signals_in/chunk_{nxt:03d}.json', 'w')); nxt += 1
     print('signals still needed for', len(rows), 'ranked parents -> new signals_in chunks written')
 A = rank(par[par['bucket'] == 'A']); B = rank(par[par['bucket'] == 'B']); C = par[par['bucket'] == 'C'].sort_values('total', ascending=False)
-F1 = par[par['bucket'] == 'F1'].sort_values('total', ascending=False); XQ = par[par['bucket'] == 'XQ']
+F1 = par[par['f1_current'] & par['bucket'].isin(['A', 'B'])].sort_values('total', ascending=False); XQ = par[par['bucket'] == 'XQ']
 print('A', len(A), 'B', len(B), 'C', len(C), 'F1', len(F1), 'not qualified', len(XQ), 'dups', len(dups), 'excluded', len(excl))
 
 # ---------------------------------------------------------------- workbook
 wb = Workbook(); wb.remove(wb.active)
-HF = PatternFill('solid', fgColor='1F3864'); RED = PatternFill('solid', fgColor='F8CBAD'); AMB = PatternFill('solid', fgColor='FFF2CC'); GRN = PatternFill('solid', fgColor='E2EFDA')
+HF = PatternFill('solid', fgColor='1F3864'); RED = PatternFill('solid', fgColor='F8CBAD'); AMB = PatternFill('solid', fgColor='FFF2CC'); GRN = PatternFill('solid', fgColor='E2EFDA'); BLUE = PatternFill('solid', fgColor='BDD7EE')
 def sheet(title, header, rows, widths=None, fills=None, freeze='B2'):
     ws = wb.create_sheet(title[:31])
     ws.append(header)
@@ -240,19 +254,19 @@ def sheet(title, header, rows, widths=None, fills=None, freeze='B2'):
 MH = ['Overall Rank', 'Parent Company Name', 'HQ Country', 'Industry / Sector', 'Website', 'Company Type', 'Valuation / Market Cap',
       'Cumulative Funding', 'Qualification Criterion Met', 'Most Relevant Subsidiary / Brand', 'Recommended Approach', 'Why this brand / approach',
       'F1 Fit Score (/60)', 'Financial Capacity Score (/40)', 'Total Score (/100)', 'Rationale', 'Research Confidence', 'Sources & Dates',
-      'Possible F1 link to verify', 'Preliminary?', 'Known subsidiaries / brands',
+      'Possible F1 link to verify', 'Existing F1 sponsorship', 'Preliminary?', 'Known subsidiaries / brands',
       'Fit: core (/40)', 'Fit: signals (/20)', 'Capacity: financial (/20)', 'Capacity: signals (/20)',
       'Headcount band (0-4)', 'Funding recency (0-4)', 'PE ownership (0-3)', 'Brand hires (0-3)', 'Competitor in F1 (0-3)', 'Motorsport adjacency (0-3)',
       'Expansion moment (0-3)', 'Race-market footprint (0-3)', 'Founder/CEO affinity (0-3)', 'CEO / founder', 'Signal evidence', 'Signals confidence']
-MW = [7, 30, 14, 26, 22, 12, 30, 22, 30, 26, 13, 45, 9, 9, 9, 60, 22, 60, 24, 10, 40, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 22, 60, 9]
+MW = [7, 30, 14, 26, 22, 12, 30, 22, 30, 26, 13, 45, 9, 9, 9, 60, 22, 60, 24, 34, 10, 40, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 22, 60, 9]
 def mrow(r, rk):
     return [rk, s(r['name']), s(r['hq_country']), r['sector_name'], r['website'], r['type_txt'], r['val_txt'], r['fund_txt'], r['qual'],
             r['brand_txt'], r['approach_txt'], r['why_txt'], r['fit'], r['capacity'], r['total'], r['rationale'], r['confidence'], r['sources_txt'],
-            s(r['f1']) if r['f1_check'] else '', 'Yes' if r['preliminary'] else '', '; '.join(sorted(set(r['subs']) | set(r['children']))[:8]),
+            s(r['f1']) if r['f1_check'] else '', s(r['f1']) if r['f1_current'] else '', 'Yes' if r['preliminary'] else '', '; '.join(sorted(set(r['subs']) | set(r['children']))[:8]),
             r['fit_core'], r['fit_signals'], r['cap_financial'], r['cap_signals'],
             int(r['sg_headcount']), int(r['sg_fund_recency']), int(r['sg_pe_owned']), int(r['sg_brand_hires']), int(r['sg_competitor_f1']), int(r['sg_motorsport']),
             int(r['sg_expansion']), int(r['sg_race_footprint']), int(r['sg_founder']), s(r['sg_ceo_name']), s(r['sg_evidence']), s(r['sg_conf']) if r['sg_scored'] else 'not yet scored']
-def mfill(r): return RED if r['f1_check'] else (AMB if r['preliminary'] else None)
+def mfill(r): return BLUE if r['f1_current'] else (RED if r['f1_check'] else (AMB if r['preliminary'] else None))
 # README
 ws = wb.create_sheet('READ ME')
 readme = [
@@ -266,7 +280,8 @@ readme = [
  ['Categories', 'A = genuinely new parent (no parent, subsidiary or brand in any dataset) -> master ranking + industry tabs. Each industry tab is ranked independently (Sector Rank 1..N on the same 60/40 parameters); Overall Rank shows the position in the master. B = corporate-group overlap (parent or at least one subsidiary/brand already in a dataset) -> EXISTING CORPORATE-GROUP OVERLAPS, ranked separately. C = identity or qualification uncertain -> MANUAL REVIEW.'],
  ['Scoring', 'F1 Fit /60 = core fit 40 (audience overlap, commercial synergies, brand alignment, international relevance; research judgement) + fit signals 20 (competitor already in F1 4.5, motorsport adjacency 4.5, expansion moment 4, race-market footprint 3.5, founder/CEO affinity 3.5). Financial Capacity /40 = financial evidence 20 (valuation / funding / revenue bands) + capacity signals 20 (headcount band 6 with 100+ staff as the floor, funding recency and investor quality 6, PE ownership 4, brand-building hires 4). Cheque size assumed: about USD 2.5M per year. Rows are ranked by Total, never by size alone.'],
  ['Signals', 'Signals stand in for the missing financials of private companies (agreed 19 Oct 2026). Deliberately NOT used: prior sponsorship spend, operating proxies (store counts etc.), debt ratings, B2B showcase story. Founder/CEO affinity: 3 documented participant (team stake, races, paddock / Drive to Survive, car collector), 2 reported interest, 1 plausible through company culture, 0 nothing known; the Signal evidence column names the facts. Signals are research knowledge, not verified records.'],
- ['Colour code', 'Amber row = preliminary (figures from memory or connector filter only). Red row = possible current F1 / F1-team link to verify before outreach. Confirmed current F1 sponsors are kept out of the ranking in the EXISTING F1 SPONSORS tab.'],
+ ['Colour code', 'Blue row = existing Formula 1 sponsorship (the parent or one of its brands currently holds an F1, F1-team or Grand Prix deal; see the Existing F1 sponsorship column). Red row = possible F1 / F1-team link to verify before outreach. Amber row = preliminary (figures from memory or connector filter only). Blue rows stay in every ranking and are also listed together on the EXISTING F1 SPONSORS tab.'],
+ ['Parameters', 'Ranking and the new brands use BOTH the original parameters (core F1 fit 40: audience overlap, commercial synergies, brand alignment, international relevance; financial evidence 20: valuation, funding, revenue) AND the new sponsorship-signal parameters (fit signals 20, capacity signals 20). Qualification: valuation >= USD 1B or funding >= USD 100M or revenue >= USD 100M.'],
  ['Caveats', 'Valuations and funding are research-knowledge figures dated as shown (mostly late 2025 to mid 2026); "Verified" in Sources means re-checked against a public source on 19 Oct 2026. No figure has been invented: where unknown the cell is blank and the qualification rests on the database filter.'],
 ]
 for rrow in readme: ws.append(rrow)
@@ -297,23 +312,23 @@ for sec in NAMES:
 # overlaps
 OH = ['Overlap Rank', 'Parent Company Name', 'HQ Country', 'Industry / Sector', 'Website', 'Existing Subsidiary / Brand(s) in datasets', 'Dataset(s)',
       'Parent itself listed?', 'Where parent is listed', 'Overlap type', 'Most Relevant Subsidiary / Brand', 'Recommended Approach', 'Why still worth approaching at parent level',
-      'Valuation / Market Cap', 'Cumulative Funding', 'Qualification Criterion Met', 'F1 Fit (/60)', 'Financial Capacity (/40)', 'Total (/100)', 'Research Confidence', 'Sources & Dates', 'Possible F1 link to verify',
+      'Valuation / Market Cap', 'Cumulative Funding', 'Qualification Criterion Met', 'F1 Fit (/60)', 'Financial Capacity (/40)', 'Total (/100)', 'Research Confidence', 'Sources & Dates', 'Possible F1 link to verify', 'Existing F1 sponsorship',
       'Fit: signals (/20)', 'Capacity: signals (/20)', 'Founder/CEO affinity (0-3)', 'Competitor in F1 (0-3)', 'CEO / founder', 'Signal evidence']
 orows = [[r['rank'], s(r['name']), s(r['hq_country']), r['sector_name'], r['website'], s(r['existing_brands']) or ('parent itself' if r['parent_listed'] == 'yes' else ''), s(r['datasets']),
           r['parent_listed'], s(r['parent_where']), otype(r), r['brand_txt'], r['approach_txt'],
           (r['why_txt'] + ('; group-level deal not previously explored' if r['parent_listed'] == 'no' else '; parent already listed - revisit at group level with new sector/brand angle')).strip('; '),
-          r['val_txt'], r['fund_txt'], r['qual'], r['fit'], r['capacity'], r['total'], r['confidence'], r['sources_txt'], s(r['f1']) if r['f1_check'] else '',
+          r['val_txt'], r['fund_txt'], r['qual'], r['fit'], r['capacity'], r['total'], r['confidence'], r['sources_txt'], s(r['f1']) if r['f1_check'] else '', s(r['f1']) if r['f1_current'] else '',
           r['fit_signals'], r['cap_signals'], int(r['sg_founder']), int(r['sg_competitor_f1']), s(r['sg_ceo_name']), s(r['sg_evidence'])] for _, r in B.iterrows()]
-sheet('EXISTING GROUP OVERLAPS', OH, orows, [7, 30, 14, 26, 22, 45, 30, 10, 45, 36, 26, 13, 55, 30, 22, 30, 8, 8, 8, 22, 60, 24, 8, 8, 8, 8, 22, 60], [mfill(r) for _, r in B.iterrows()])
+sheet('EXISTING GROUP OVERLAPS', OH, orows, [7, 30, 14, 26, 22, 45, 30, 10, 45, 36, 26, 13, 55, 30, 22, 30, 8, 8, 8, 22, 60, 24, 34, 8, 8, 8, 8, 22, 60], [mfill(r) for _, r in B.iterrows()])
 # excluded
 EH = ['Company', 'Website', 'Reason excluded', 'Source(s)']
 erows = [[d.parent, d.domain, d.reason, d.sources] for d in dups.itertuples()] + [[e.parent, e.domain, e.reason, e.sources] for e in excl.itertuples()] + \
         [[s(r['name']), r['website'], ('web check: not a prospect - ' + s(r['web_note']) if r['web_verdict'] == 'NOT_A_PROSPECT' else 'sports property / team owner - a rights holder, not a sponsor' if is_club.get(r.name, False) else 'market cap now below USD 1B (' + r['val_txt'] + ') and no funding criterion' if r['qual'] == '' else 'does not meet the qualification (valuation < USD 1B and funding < USD 100M per research knowledge)') + (f"; {s(r['note'])}" if s(r.get('note')) else ''), ', '.join(r['sources'])] for _, r in XQ.iterrows()]
 sheet('EXCLUDED DIRECT DUPLICATES', EH, erows, [32, 26, 80, 24])
 # existing F1 sponsors
-FH = ['Parent Company Name', 'HQ Country', 'Industry / Sector', 'Website', 'Current F1 link', 'Valuation / Market Cap', 'F1 Fit (/60)', 'Financial Capacity (/40)', 'Total (/100)', 'Sources & Dates']
-sheet('EXISTING F1 SPONSORS', FH, [[s(r['name']), s(r['hq_country']), r['sector_name'], r['website'], s(r['f1']), r['val_txt'], r['fit'], r['capacity'], r['total'], r['sources_txt']] for _, r in F1.iterrows()],
-      [30, 14, 26, 22, 40, 30, 8, 8, 8, 60], [RED] * len(F1))
+FH = ['Parent Company Name', 'HQ Country', 'Industry / Sector', 'Website', 'Existing F1 sponsorship', 'Also ranked on (blue row)', 'Valuation / Market Cap', 'F1 Fit (/60)', 'Financial Capacity (/40)', 'Total (/100)', 'Sources & Dates']
+sheet('EXISTING F1 SPONSORS', FH, [[s(r['name']), s(r['hq_country']), r['sector_name'], r['website'], s(r['f1']), 'master ranking + ' + r['sector_name'] if r['bucket'] == 'A' else 'overlaps tab', r['val_txt'], r['fit'], r['capacity'], r['total'], r['sources_txt']] for _, r in F1.iterrows()],
+      [30, 14, 26, 22, 40, 30, 30, 8, 8, 8, 60], [BLUE] * len(F1))
 # manual review
 CH = ['Company (as found)', 'Website', 'HQ Country', 'Industry / Sector', 'Why it needs review', 'Evidence so far', 'Source(s)', 'Possible existing dataset match', 'Provisional Total (/100)']
 def creason(r):
@@ -332,8 +347,10 @@ sheet('MANUAL REVIEW', CH, crows, [32, 26, 14, 26, 60, 40, 24, 50, 10])
 w16 = inputs.wave16_ranking()
 crit = w16['criterion'].fillna('')
 qual_b = (w16['funding_100m_apollo'] == True) | crit.str.contains('Valuation|Funding', regex=True)
-nof1 = w16['f1_deal'].fillna('').astype(str).str.strip() == ''
-D = w16[qual_b & nof1].copy()
+D = w16[qual_b].copy()      # brands with an existing F1 deal stay, highlighted blue (Rahul 19 Oct 2026)
+D['fc'] = ('drive:' + D['name'].astype(str)).map(lambda k: fc.get(k, ('', '', '')))
+D['f1_exist'] = D.apply(lambda r: s(r['f1_deal']) if s(r['f1_deal']).strip() and not UNSURE.search(s(r['f1_deal'])) else (r['fc'][1] if r['fc'][0] == 'current' else ''), axis=1)
+D['f1_verify'] = D.apply(lambda r: '' if r['f1_exist'] else (s(r['f1_deal']) if s(r['f1_deal']).strip() else (r['fc'][1] + ' (' + r['fc'][0] + ' - verify)' if r['fc'][0] in ('former', 'unsure') else '')), axis=1)
 def dcrit(r):
     bits = []
     v = s(r['valuation']); fu = s(r['funding'])
@@ -350,10 +367,10 @@ for df_, tag in ((A, 'master ranking'), (B, 'overlaps tab'), (F1, 'existing F1 s
     for n_ in df_['name']: pmap[str(n_).lower().strip()] = tag
 D['parent_in'] = D['parent'].fillna('').astype(str).str.lower().str.strip().map(pmap).fillna('')
 DH = ['Rank', 'Brand', 'Ultimate Parent (Wave 16)', 'HQ Country', 'Industry / Sector', 'Website', 'Qualification Criterion Met', 'Wave 16 F1 Fit (/60)',
-      'Wave 16 Financial Capacity (/40)', 'Wave 16 Total (/100)', 'Rationale (Wave 16)', 'Research Confidence', 'Source CSV(s) on Drive', 'Parent appears in this workbook']
+      'Wave 16 Financial Capacity (/40)', 'Wave 16 Total (/100)', 'Rationale (Wave 16)', 'Research Confidence', 'Source CSV(s) on Drive', 'Parent appears in this workbook', 'Existing F1 sponsorship', 'Possible F1 link to verify']
 drows = [[r['drank'], s(r['name']), s(r['parent']), s(r['country']), s(r['sector']), clean_domain(r['domain']), r['crit_txt'], r['fit60'], r['fin40'], r['priority'],
-          s(r['rationale'])[:300], s(r['confidence']), s(r['source_csv']), r['parent_in']] for _, r in D.iterrows()]
-sheet('DRIVE CSV BRANDS (QUALIFIED)', DH, drows, [7, 30, 28, 14, 26, 22, 45, 9, 9, 9, 60, 14, 24, 22])
+          s(r['rationale'])[:300], s(r['confidence']), s(r['source_csv']), r['parent_in'], r['f1_exist'], r['f1_verify']] for _, r in D.iterrows()]
+sheet('DRIVE CSV BRANDS (QUALIFIED)', DH, drows, [7, 30, 28, 14, 26, 22, 45, 9, 9, 9, 60, 14, 24, 22, 34, 30], [BLUE if r['f1_exist'] else (RED if r['f1_verify'] else None) for _, r in D.iterrows()])
 print('drive csv brands qualified', len(D))
 # Apollo/Lusha records whose parent is already in the existing datasets (not re-scored): listed for traceability
 BU = par[par['bucket'] == 'BU'].sort_values('name')
@@ -372,7 +389,7 @@ srows = [['Parents discovered (all sources, after merging duplicate records)', l
          ['   of which parent itself already listed', int((B['parent_listed'] == 'yes').sum())]] + \
         [['   Overlap type ' + k, int(v)] for k, v in B['otype'].value_counts().sort_index().items()] + [
          ['Headline: share of all qualified parents already present in existing datasets', f"{len(B) / max(1, len(A) + len(B)):.0%}"],
-         ['Category C - manual review', len(C)], ['Drive CSV brands meeting valuation/funding parameters (separate tab)', len(D)], ['Apollo/Lusha records whose parent is already in existing datasets (not re-scored; listed on APOLLO MATCHES IN YOUR FILES)', int(unscored_B.sum())], ['Preliminary rows in master ranking', int(A['preliminary'].sum())], ['New parents added this round (not in the earlier 2026-10-19 sheet; NEW BRANDS THIS ROUND tab)', len(NEWR)], ['', '']]
+         ['Category C - manual review', len(C)], ['Drive CSV brands meeting valuation/funding parameters (separate tab)', len(D)], ['Apollo/Lusha records whose parent is already in existing datasets (not re-scored; listed on APOLLO MATCHES IN YOUR FILES)', int(unscored_B.sum())], ['Preliminary rows in master ranking', int(A['preliminary'].sum())], ['Rows with an existing F1 sponsorship (blue) in master / overlaps / Drive CSV', f"{int(A['f1_current'].sum())} / {int(B['f1_current'].sum())} / {int((D['f1_exist'] != '').sum())}"], ['New parents added this round (not in the earlier 2026-10-19 sheet; NEW BRANDS THIS ROUND tab)', len(NEWR)], ['', '']]
 srows += [['New parents by sector: ' + k, int(v)] for k, v in secs.items()] + [['', '']]
 srows += [[f'Top {i} new parent', f"{r['name']} ({r['hq_country']}) - {r['sector_name']} - total {r['total']}"] for i, (_, r) in enumerate(A.head(20).iterrows(), 1)]
 sheet('SUMMARY', SH, srows, [70, 90], freeze='A2')
