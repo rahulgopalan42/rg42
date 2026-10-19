@@ -60,6 +60,40 @@ psec = b['k'].map(lambda k: (ps.get(k) or {}).get('sec', 0)).fillna(0).astype(in
 m = (psec > 0) & (psec <= len(PS_SECT)) & (b['sector_basis'] != 'research')
 b.loc[m, 'sector'] = psec[m].map(lambda x: PS_SECT[x - 1]); b.loc[m, 'sector_basis'] = 'pre-sort correction'
 
+# ---------------- sector check (knowledge only) for ranked brands whose sector rested on the LinkedIn label alone
+sidx = json.load(open(f'{R}/wave16/seccheck/index.json')) if os.path.exists(f'{R}/wave16/seccheck/index.json') else {}
+scx = {}
+for f in sorted(glob.glob(f'{R}/wave16/seccheck/out_*.json')):
+    keys = sidx.get(os.path.basename(f)[4:8], [])
+    try: rows = json.load(open(f))
+    except Exception: continue
+    for r in rows:
+        try: i, x = int(r[0]), int(r[1])
+        except Exception: continue
+        if 0 <= i < len(keys) and 1 <= x <= len(NAMES): scx[keys[i]] = NAMES[x - 1]
+sv = b['k'].map(scx)
+m = sv.notna() & (b['sector_basis'] == 'LinkedIn industry')
+print('sector check rows', int(m.sum()), 'changed', int((m & (sv != b['sector'])).sum()))
+b.loc[m, 'sector'] = sv[m]; b.loc[m, 'sector_basis'] = 'sector check (knowledge)'
+
+# ---------------- parent names: keep the company name only; the research wording moves to parent_source
+def clean_par(p):
+    p = str(p or '').strip()
+    if not p: return ''
+    p = re.split(r'\s+\(|:|;|\s+[-–]\s+', p, maxsplit=1)[0].strip(' ,.')
+    if re.match(r'^(independent|none|n/?a\b|private\b|privately|founders?\b|family\b|self\b|unknown|no parent|not )', p, re.I): return ''
+    return p[:80]
+raw_parent = b['parent'].fillna('').astype(str)
+b['parent'] = raw_parent.map(clean_par)
+b.loc[b['parent'].map(strict) == b['name'].map(strict), 'parent'] = ''
+m = raw_parent != b['parent']
+b.loc[m, 'parent_source'] = b.loc[m, 'parent_source'].fillna('') + ': ' + raw_parent[m].str.slice(0, 200)
+
+# ---------------- display name: add the researched English name where the database name has no Latin letters
+rn = b['k'].map(lambda k: str((v2.get(k) or {}).get('company') or ''))
+m = ~b['name'].fillna('').str.contains('[A-Za-z]', regex=True) & rn.str.contains('[A-Za-z]', regex=True)
+b.loc[m, 'name'] = rn[m] + ' (' + b.loc[m, 'name'] + ')'
+
 # ---------------- scores: F1 fit 60 + financial capacity 40
 DIVNAME = re.compile(r"\b(careers?|jobs|recruit\w*)\b| - |\b(uk|emea|apac|americas|europe|india|usa|us|canada|australia|germany|deutschland|france|italia|espana|brasil|mexico|japan|china|nederland|polska|middle east|africa)\s*$", re.I)
 pa, pss, pl, pi = sc.prog_fit_df(b)
@@ -231,9 +265,21 @@ def classify(r):
     return 'ranked', '', ''
 cl = [classify(r) for r in b.itertuples()]
 b['bucket'] = [x for x, y, z in cl]; b['review_reason'] = [y for x, y, z in cl]; b['review_detail'] = [z for x, y, z in cl]
-q = b[b['bucket'] == 'ranked'].copy()
-conf_rank = q['ranking_type'].eq('Verified ranking (researched)').astype(int)
-q = q.assign(_c=conf_rank).sort_values(['priority', 'fit60', 'fin40', '_c'], ascending=False).reset_index(drop=True)
+def ranked_sorted():
+    q = b[b['bucket'] == 'ranked'].copy()
+    conf_rank = q['ranking_type'].eq('Verified ranking (researched)').astype(int)
+    return q.assign(_c=conf_rank).sort_values(['priority', 'fit60', 'fin40', '_c'], ascending=False).reset_index(drop=True)
+# near-duplicates WITHIN the new files (same core name and country, different website): keep the higher-ranked one
+from dedupe_v2 import core
+q = ranked_sorted(); q['_cn'] = q['name'].map(core)
+qq = q[q['_cn'].str.len() >= 2]; grp = qq.groupby(['_cn', 'country'], sort=False)
+pos = grp.cumcount(); lead = grp['name'].transform('first') + ' (' + grp['domain'].transform('first').fillna('') + ')'
+dk = dict(zip(qq.loc[pos > 0, 'k'], lead[pos > 0]))
+m = b['k'].isin(dk) & (b['bucket'] == 'ranked')
+b.loc[m, 'bucket'] = 'review'; b.loc[m, 'review_reason'] = 'Possible duplicate within the new files (same name and country as a higher-ranked brand)'
+b.loc[m, 'review_detail'] = b.loc[m, 'k'].map(dk)
+print('within-new near-duplicates sent to review', int(m.sum()))
+q = ranked_sorted()
 q['overall_rank'] = q.index + 1
 q['sector_rank'] = q.groupby('sector').cumcount() + 1
 mr = b[b['bucket'] == 'review'].copy(); inel = b[b['bucket'] == 'ineligible'].copy()
@@ -370,7 +416,9 @@ readme = [
  ['  Existing F1 Sponsors - ranked brands already in F1 directly or via a parent (kept and flagged).'],
  ['  Parent Company Overlaps - new brands whose parent is already in your files.  Shared Parents - new brands sharing a parent.'],
  ['  Excluded Duplicates (old) - every brand removed, with the old file | tab it matched.  Merged Within New Files - Friday rows merged into another row.'],
- ['  Manual Review - possible duplicates, unresolved ownership, unclear records, public bodies, research flags.  Ineligible - defunct / sanctioned / distressed.'],
+ ['  Manual Review - possible duplicates (of old records, or of a higher-ranked new brand with the same name and country), unresolved ownership,'],
+ ['  unclear records, public bodies, research flags.  Ineligible - defunct / sanctioned / distressed.'],
+ ['SECTORS - one primary sector per brand: research correction > knowledge pre-sort or sector check > LinkedIn industry (column "sector basis").'],
  ['  Wave 15 Pending Checks - the 205 Wave 15 brands that were pending a check, now researched and scored on the same 60/40 method.'],
  ['  Wave 15 Sweep Leftovers - Wave 15 unchecked brands that are not in the Friday export, scored on their database row (preliminary).'], [''],
  ['No paid Clay / Apollo / Lusha enrichment was used. Database figures are estimates and must be confirmed before outreach.']]
