@@ -152,7 +152,7 @@ par.loc[not_q, 'bucket'] = 'XQ'
 par.loc[par['web_verdict'] == 'NOT_A_PROSPECT', 'bucket'] = 'XQ'
 par.loc[par['note'].fillna('').astype(str).str.startswith('owned by') & (par['bucket'] == 'A'), 'bucket'] = 'C'
 # sports clubs, teams, leagues and franchise owners are sponsorship properties, not sponsors
-CLUB = re.compile(r'\bFC\b|Football|Soccer|Club\b|Yankees|Warriors|Lakers|Cowboys|Dodgers|Knicks|Celtics|Patriots|Red Sox|Real Madrid|Manchester|Juventus|Saint-Germain|Bayern|Kroenke|Fenway Sports|Liberty Media|\bNBA\b|\bNFL\b|\bMLB\b|\bNHL\b|League\b|Racing\b|Motorsport', re.I)
+CLUB = re.compile(r'\bFC\b|Football|Soccer|Club\b|Yankees|Warriors|Lakers|Cowboys|Dodgers|Knicks|Celtics|Patriots|Red Sox|Real Madrid|Manchester|Juventus|Saint-Germain|Bayern|Kroenke|Fenway Sports|Liberty Media|\bNBA\b|\bNFL\b|\bMLB\b|\bNHL\b|League\b|Racing\b|Motorsport|Circuit|Grand Prix|Speedway|Raceway|Autodrom|Formula', re.I)
 is_club = (par['sector'] == 6) & par['name'].astype(str).str.contains(CLUB)
 par.loc[is_club, 'bucket'] = 'XQ'; par.loc[is_club, 'note'] = 'sports property / team owner - a rights holder, not a sponsor'
 par.loc[par['f1_current'], 'bucket'] = 'F1'
