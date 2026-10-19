@@ -46,7 +46,7 @@ def load_out(sub):
     print(sub, 'records', len(d), 'not matched to a current new brand (now duplicates or merged)', lost)
     return d
 ver, tri, v2 = load_out('verify'), load_out('triage'), load_out('verify2')
-ps = load_out('presort') if glob.glob(f'{R}/wave16/presort/out_*.json') else {}
+ps = {}   # the new pre-sort (compact format) is merged in final_build.py
 
 # ---- Clay revenue band: earlier Clay pulls (finer) else the Friday search filter
 BANDS = ['75M-200M', '200M-500M', '500M-1B', '1B-10B', '10B-100B', '100B-1T']
