@@ -138,10 +138,11 @@ by_sn = collections.defaultdict(list); by_rd = collections.defaultdict(list)
 for sn, rd, ds, wh, nm in zip(ex['sn'], ex['rd'], ex['ds'], ex['where'], ex['name']):
     if len(sn) >= 3: by_sn[sn].append((RANK[ds], ds, wh, nm))
     if rd: by_rd[rd].append((RANK[ds], ds, wh, nm))
-def hits(sn, rd):
+def hits(sn, rd, name_ok=True):
+    """a website match always counts; a name match needs a distinctive name (6+ chars) unless name_ok is forced"""
     h = []
     if rd: h += by_rd.get(rd, [])
-    if len(sn) >= 3: h += by_sn.get(sn, [])
+    if name_ok and len(sn) >= 6: h += by_sn.get(sn, [])
     return sorted(set(h))
 
 out = []
@@ -153,11 +154,13 @@ for r in par.itertuples():
         if len(ss) < 4: continue
         hh = hits(ss, '')
         if hh: sub_hits.append((s, hh[0]))
-    core_only = (not ph) and len(core(r.name)) >= 5 and any(len(core(x)) >= 5 and core(x) == core(r.name) for x in [])  # placeholder
+    short_name_unmatched = (not ph) and 3 <= len(r.sn) < 6 and not r.rd and len(by_sn.get(r.sn, [])) > 0
     if ph:
         cat_ = 'B'; basis = 'parent itself listed'
     elif sub_hits:
         cat_ = 'B'; basis = 'subsidiary / brand listed'
+    elif short_name_unmatched:
+        cat_ = 'C'; basis = 'short name matches existing records; website unknown - confirm identity'
     else:
         cat_ = 'A'; basis = ''
     ds_set = sorted({h[1] for h in ph} | {h[1][1] for h in sub_hits}, key=lambda x: RANK[x])
@@ -166,11 +169,22 @@ for r in par.itertuples():
                 'existing_brands': '; '.join(f"{s} ({h[1]}: {h[2]})" for s, h in sub_hits[:4]),
                 'datasets': ', '.join(ds_set)})
 par = pd.concat([par, pd.DataFrame(out)], axis=1)
-# uncertain: no financial figure from any source, or a generic / very short parent name
-par['has_fin'] = (par['val_bn'].fillna(0) >= 1) | (par['funding_m'].fillna(0) >= 100) | par['apollo_funding'].notna() | par['lusha_funding'].notna() \
-    if 'lusha_funding' in par else (par['val_bn'].fillna(0) >= 1) | (par['funding_m'].fillna(0) >= 100) | par['apollo_funding'].notna()
+# financial evidence: a known valuation/funding figure, the Apollo funding filter on the parent's own record, or the Lusha
+# funding filter. A parent inferred only from Apollo's 'owned by' field has no evidence of its own -> Manual Review.
+src_has = lambda tag: par['sources'].map(lambda x: tag in x)
+par['has_fin'] = (par['val_bn'].fillna(0) >= 1) | (par['funding_m'].fillna(0) >= 100) | par['apollo_funding'].notna() | src_has('lusha')
+par['fin_basis'] = ''
+par.loc[par['val_bn'].fillna(0) >= 1, 'fin_basis'] = 'valuation >= USD 1B (' + par['val_basis'].fillna('').astype(str) + ' ' + par['val_date'].fillna('').astype(str) + ')'
+m = (par['fin_basis'] == '') & (par['funding_m'].fillna(0) >= 100); par.loc[m, 'fin_basis'] = 'cumulative funding >= USD 100M (knowledge)'
+m = (par['fin_basis'] == '') & par['apollo_funding'].notna(); par.loc[m, 'fin_basis'] = 'total funding >= USD 100M (Apollo database filter)'
+m = (par['fin_basis'] == '') & src_has('lusha'); par.loc[m, 'fin_basis'] = 'total funding >= USD 100M (Lusha database filter)'
+m = (par['fin_basis'] == '') & par['children'].map(len).gt(0)
+par.loc[m, 'overlap_basis'] = 'parent inferred from Apollo owner field of a funded subsidiary; parent\'s own valuation unverified'
 par.loc[~par['has_fin'] | (par['sn'].str.len() < 3), 'overlap_cat'] = 'C'
+par['clay_only'] = (par['overlap_cat'] == 'B') & (par['datasets'] == 'Friday Clay Exports')
+par['needs_score'] = par['a'].isna() if 'a' in par else True
 par.to_pickle(f'{P}/parents.pkl')
+print('overlap only with the unworked Friday Clay export:', int(par['clay_only'].sum()), '| needs knowledge scoring:', int(par['needs_score'].sum()))
 pd.DataFrame(dups, columns=['parent', 'domain', 'reason', 'sources']).to_pickle(f'{P}/dups.pkl')
 print(par['overlap_cat'].value_counts().to_dict())
 print(par.groupby('overlap_cat')['sources'].apply(lambda x: collections.Counter(tuple(s) for s in x).most_common(4)).to_string()[:1500])
