@@ -95,7 +95,10 @@ fc = {}
 for f_ in sorted(glob.glob(f'{R}/parents/f1check_out/chunk_*.json')):
     try:
         for r_ in json.load(open(f_)):
-            if isinstance(r_, list) and len(r_) == 4 and s(r_[0]): fc[s(r_[0])] = (s(r_[1]).lower().strip(), s(r_[2]), s(r_[3]))
+            if isinstance(r_, list) and len(r_) == 4 and s(r_[0]):
+                st_ = s(r_[1]).lower().strip()
+                if st_ == 'current' and re.search(r'broadcast|media rights|tv rights|rights holder|licen[cs]e', s(r_[2]), re.I): st_ = 'unsure'      # a broadcaster or licensee is not a sponsor
+                fc[s(r_[0])] = (st_, s(r_[2]), s(r_[3]))
     except Exception as e: print('bad f1check file', f_, e)
 print('f1 check hits', len(fc), dict(collections.Counter(v[0] for v in fc.values())))
 par['fc_status'] = par['key'].map(lambda k: fc.get(k, ('', '', ''))[0]); par['fc_deal'] = par['key'].map(lambda k: fc.get(k, ('', '', ''))[1])
