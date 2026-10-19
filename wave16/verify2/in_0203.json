@@ -1,0 +1,122 @@
+[
+{
+"id": "narbutas.com",
+"company": "NARBUTAS",
+"sector": "49 Home & Living",
+"country": "Lietuva",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; office furniture"
+},
+{
+"id": "matcormetalfab.com",
+"company": "MATCOR Metal Fabrication",
+"sector": "23 Machine Tools",
+"country": "Canada",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; metal fabrication"
+},
+{
+"id": "madengine.com",
+"company": "Mad Engine Global, LLC.",
+"sector": "53 Consumer & Lifestyle",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; licensed apparel"
+},
+{
+"id": "varite.com",
+"company": "VARITE INC",
+"sector": "25 IT Services & Consulting",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; IT staffing"
+},
+{
+"id": "vestian.com",
+"company": "Vestian",
+"sector": "X02 Real Estate & Building Products",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; corporate real estate"
+},
+{
+"id": "reedmackay.com",
+"company": "Reed & Mackay",
+"sector": "16 Travel & Hospitality",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Navan Group",
+"triage_note": "real; fit 1; scale mid; corporate travel"
+},
+{
+"id": "brazeway.com",
+"company": "Brazeway",
+"sector": "23 Machine Tools",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; evaporator coils"
+},
+{
+"id": "beck-pollitzer.com",
+"company": "Beck & Pollitzer",
+"sector": "23 Machine Tools",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; engineering services"
+},
+{
+"id": "talent-soft.com",
+"company": "LE BHV MARAIS",
+"sector": "X06 Retail & E-commerce",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Galeries Lafayette",
+"triage_note": "real; fit 1; scale mid; Paris department store"
+},
+{
+"id": "fr.com",
+"company": "Fish & Richardson P.C.",
+"sector": "50 Law Firms & Legal AI",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; IP law firm"
+}
+]

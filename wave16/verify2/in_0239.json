@@ -1,0 +1,122 @@
+[
+{
+"id": "lm-group.com",
+"company": "LM Group",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; machinery group"
+},
+{
+"id": "vexve.com",
+"company": "Vexve",
+"sector": "23 Machine Tools",
+"country": "Finland",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; valve maker"
+},
+{
+"id": "etalgroup.com",
+"company": "Etal Group",
+"sector": "45 Electronic Parts",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; industrial group"
+},
+{
+"id": "lloydengg.com",
+"company": "Lloyd Electric & Engineering Ltd",
+"sector": "45 Electronic Parts",
+"country": "India",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; heat exchanger maker"
+},
+{
+"id": "zpasgroup.pl",
+"company": "ZPAS",
+"sector": "45 Electronic Parts",
+"country": "Poland",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; ICT cabinets"
+},
+{
+"id": "inkasdefense.com",
+"company": "INKAS® Aerospace & Defense",
+"sector": "32 Defense & Industrial AI",
+"country": "Canada",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; armored vehicles"
+},
+{
+"id": "abm-antriebe.de",
+"company": "ABM Greiffenberger Antriebstechnik GmbH",
+"sector": "33 Automation & Robotics",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; drive technology"
+},
+{
+"id": "kospelglobal.com",
+"company": "Kospel",
+"sector": "45 Electronic Parts",
+"country": "Poland",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; electric heating"
+},
+{
+"id": "mil.pl",
+"company": "Wojskowe Zakłady Lotnicze Nr 2 S.A.",
+"sector": "16 Travel & Hospitality",
+"country": "Poland",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "PGZ",
+"triage_note": "real; fit 1; scale mid; military aircraft overhaul"
+},
+{
+"id": "sielaff.de",
+"company": "Sielaff GmbH & Co. KG Automatenbau Herrieden",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; vending machine maker"
+}
+]

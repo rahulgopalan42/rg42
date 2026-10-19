@@ -1,0 +1,122 @@
+[
+{
+"id": "lhkjglobal.com",
+"company": "Longhua Group",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; technology group"
+},
+{
+"id": "xintec.com.tw",
+"company": "Xintec Technology",
+"sector": "27 Chip Makers",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; chip packaging"
+},
+{
+"id": "snowkey.com",
+"company": "Snowkey Ice Machine",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; ice machines"
+},
+{
+"id": "lifesense.com",
+"company": "广东乐心医疗电子股份有限公司",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; health wearables"
+},
+{
+"id": "cuadra.com.mx",
+"company": "Grupo Cuadra",
+"sector": "53 Consumer & Lifestyle",
+"country": "Mexico",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; boots and apparel"
+},
+{
+"id": "aichitokei.net",
+"company": "Aichi Tokei Denki Co.,Ltd",
+"sector": "33 Automation & Robotics",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; meters maker"
+},
+{
+"id": "sun-create.com",
+"company": "Suncreate Electronics",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "CETC",
+"triage_note": "real; fit 1; scale mid; electronics firm"
+},
+{
+"id": "chinasufa.com.cn",
+"company": "Sufa Technology Industry Co., Ltd.,CNNC",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "CNNC",
+"triage_note": "real; fit 1; scale mid; nuclear valves"
+},
+{
+"id": "pin-up.net.br",
+"company": "Pin Up",
+"sector": "NEW Gambling & Lotteries",
+"country": "Brazil",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; online casino brand"
+},
+{
+"id": "",
+"company": "PSI Software – Industrial AI",
+"sector": "25 IT Services & Consulting",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Warburg Pincus",
+"triage_note": "real; fit 1; scale mid; industrial software"
+}
+]

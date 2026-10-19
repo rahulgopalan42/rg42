@@ -1,0 +1,122 @@
+[
+{
+"id": "cdatatec.com",
+"company": "C-Data Technology",
+"sector": "48 Telecom & Space",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; PON equipment maker"
+},
+{
+"id": "bdcom.cn",
+"company": "BDCOM",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; network equipment"
+},
+{
+"id": "tomtop.com",
+"company": "TOMTOP",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; cross-border e-commerce"
+},
+{
+"id": "zkh.com",
+"company": "震坤行工业超市(上海)有限公司",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; industrial supplies platform"
+},
+{
+"id": "onemount.com",
+"company": "One Mount",
+"sector": "22 SaaS",
+"country": "Vietnam",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Vietnam tech ecosystem"
+},
+{
+"id": "hujiang.com",
+"company": "Hujiang",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; China e-learning"
+},
+{
+"id": "boutiqaat.com",
+"company": "Boutiqaat",
+"sector": "22 SaaS",
+"country": "United Arab Emirates",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Kuwait beauty e-commerce"
+},
+{
+"id": "dmm.com",
+"company": "DMM.com Group",
+"sector": "22 SaaS",
+"country": "Japan",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Japan digital entertainment"
+},
+{
+"id": "semantix.ai",
+"company": "Semantix",
+"sector": "22 SaaS",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; data platform"
+},
+{
+"id": "ocft.com",
+"company": "OneConnect Smart Technology",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Ping An",
+"triage_note": "real; fit 1; scale mid; fintech services"
+}
+]

@@ -1,0 +1,122 @@
+[
+{
+"id": "chinadaily.com.cn",
+"company": "china daily",
+"sector": "29 Tech Media & Gaming",
+"country": "China",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese state newspaper"
+},
+{
+"id": "cdactvm.in",
+"company": "Centre for Development of Advanced Computing",
+"sector": "48 Telecom & Space",
+"country": "India",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; government computing institute"
+},
+{
+"id": "sdmctech.com",
+"company": "SDMC Technology - AI Home Innovator",
+"sector": "48 Telecom & Space",
+"country": "China",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; set-top box maker"
+},
+{
+"id": "ctfo.com",
+"company": "China Transinfo",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese traffic tech"
+},
+{
+"id": "goldencityistanbul.com",
+"company": "GoldenCityIstanbul / Kuyumcukent",
+"sector": "03 Luxury & Beauty",
+"country": "Turkey",
+"type": "Partnership",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Istanbul jewelry center"
+},
+{
+"id": "avex.com",
+"company": "Avex Inc.",
+"sector": "29 Tech Media & Gaming",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Japanese entertainment group"
+},
+{
+"id": "ga-me.com",
+"company": "Giant Interactive Group Inc",
+"sector": "29 Tech Media & Gaming",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese game developer"
+},
+{
+"id": "weimob.com",
+"company": "上海微盟企业发展有限公司",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese SaaS marketing"
+},
+{
+"id": "labo-svr.com",
+"company": "Laboratoire SVR",
+"sector": "03 Luxury & Beauty",
+"country": "France",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; French dermocosmetics"
+},
+{
+"id": "keerworld.com",
+"company": "Keer Jewelry 千叶珠宝",
+"sector": "03 Luxury & Beauty",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese jewelry group"
+}
+]

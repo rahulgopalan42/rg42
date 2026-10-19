@@ -1,0 +1,122 @@
+[
+{
+"id": "atexco.com",
+"company": "Atexco",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; inkjet printer maker"
+},
+{
+"id": "sodic.com",
+"company": "SODIC",
+"sector": "X02 Real Estate & Building Products",
+"country": "Egypt",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Egyptian developer"
+},
+{
+"id": "ksg-pcb.com",
+"company": "KSG PCB",
+"sector": "45 Electronic Parts",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; circuit boards"
+},
+{
+"id": "metz-connect.com",
+"company": "METZ CONNECT GmbH",
+"sector": "45 Electronic Parts",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; connectors maker"
+},
+{
+"id": "broen.com",
+"company": "BROEN Valve Technologies",
+"sector": "23 Machine Tools",
+"country": "Danmark",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; valve maker"
+},
+{
+"id": "tkmgroup.com",
+"company": "TKM GmbH",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; industrial knives"
+},
+{
+"id": "fritsch-group.com",
+"company": "FRITSCH Bakery Technologies",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; bakery technology"
+},
+{
+"id": "tropicanacorp.com.my",
+"company": "Tropicana Corporation Berhad",
+"sector": "X02 Real Estate & Building Products",
+"country": "Malaysia",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Malaysian developer"
+},
+{
+"id": "adorwelding.com",
+"company": "Ador Welding Ltd.",
+"sector": "23 Machine Tools",
+"country": "India",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Ador Group",
+"triage_note": "real; fit 1; scale mid; welding products"
+},
+{
+"id": "flaconi.de",
+"company": "flaconi",
+"sector": "X06 Retail & E-commerce",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; online perfume retailer"
+}
+]
