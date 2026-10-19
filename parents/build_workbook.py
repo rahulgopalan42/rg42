@@ -99,6 +99,7 @@ for f_ in sorted(glob.glob(f'{R}/parents/f1check_out/chunk_*.json')):
                 st_ = s(r_[1]).lower().strip()
                 if st_ == 'current' and re.search(r'broadcast|media rights|tv rights|rights holder|licen[cs]e', s(r_[2]), re.I): st_ = 'unsure'      # a broadcaster or licensee is not a sponsor
                 if st_ == 'current' and s(r_[3]).upper() == 'L': st_ = 'unsure'      # low-confidence recollections go to 'verify' (red), never blue
+                if st_ == 'current' and UNSURE.search(s(r_[2])): st_ = 'unsure'      # deal text itself hedged -> verify
                 fc[s(r_[0])] = (st_, s(r_[2]), s(r_[3]))
     except Exception as e: print('bad f1check file', f_, e)
 print('f1 check hits', len(fc), dict(collections.Counter(v[0] for v in fc.values())))
@@ -203,13 +204,20 @@ par.loc[not_q, 'bucket'] = 'XQ'
 par.loc[par['web_verdict'] == 'NOT_A_PROSPECT', 'bucket'] = 'XQ'
 par.loc[par['note'].fillna('').astype(str).str.startswith('owned by') & (par['bucket'] == 'A'), 'bucket'] = 'C'
 # sports clubs, teams, leagues and franchise owners are sponsorship properties, not sponsors
-CLUB = re.compile(r'\bFC\b|Football|Soccer|Club\b|Yankees|Warriors|Lakers|Cowboys|Dodgers|Knicks|Celtics|Patriots|Red Sox|Real Madrid|Manchester|Juventus|Saint-Germain|Bayern|Kroenke|Fenway Sports|Liberty Media|\bNBA\b|\bNFL\b|\bMLB\b|\bNHL\b|League\b|Racing\b|Motorsport|Circuit|Grand Prix|Speedway|Raceway|Autodrom|Formula', re.I)
+CLUB = re.compile(r'\bFC\b|Football|Soccer|Club\b|Yankees|Warriors|Lakers|Cowboys|Dodgers|Knicks|Celtics|Patriots|Red Sox|Real Madrid|Manchester|Juventus|Saint-Germain|Bayern|Kroenke|Fenway Sports|Liberty Media|\bNBA\b|\bNFL\b|\bMLB\b|\bNHL\b|League\b|Racing\b|Motorsport|Circuit|Grand Prix|Speedway|Raceway|Autodrom|Formula'
+                  r'|Canadiens|Groupe CH|Maple Leafs|Oilers|Flames|Senators|Blue Jays|Raptors|49ers|Eagles|Steelers|Packers|Ravens|Broncos|Seahawks|Falcons|Texans|Dolphins|Bengals|Colts|Titans|Jaguars|Vikings|Chargers|Raiders|Buccaneers|Commanders|Mavericks|Clippers|Bucks|Pistons|Pacers|Hornets|Cavaliers|Thunder|Nuggets|Timberwolves|Trail Blazers|Grizzlies|Pelicans|76ers|Arsenal|Chelsea|Liverpool|Tottenham|Atl[eé]tico|Borussia|Benfica|Sporting CP|Red Bull Racing|McLaren Racing|Sauber|Williams Grand Prix|Monumental Sports|Harris Blitzer|Madison Square Garden Sports|Atlanta Braves|Manchester City|City Football', re.I)
 is_club = (par['sector'] == 6) & par['name'].astype(str).str.contains(CLUB)
 par.loc[is_club, 'bucket'] = 'XQ'; par.loc[is_club, 'note'] = 'sports property / team owner - a rights holder, not a sponsor'
 fl = par['sg_flag'].str.lower()
 par.loc[fl.str.startswith('current f1'), 'f1_current'] = True
 par.loc[fl.str.startswith('current f1') & (par['f1'].fillna('') == ''), 'f1'] = par['sg_flag']
 par.loc[fl.str.contains('sanction|defunct|bankrupt|dissolved'), 'bucket'] = 'XQ'
+# a hedged F1 note ("unsure", "reported", "verify") is never blue: use the check-pass deal text if that is firm, else mark for verification
+_f1txt = par['f1'].fillna('').astype(str)
+_hed = par['f1_current'] & _f1txt.str.contains(UNSURE) & (par['fc_status'] == 'current')
+par.loc[_hed, 'f1'] = par.loc[_hed, 'fc_deal']
+_hed = par['f1_current'] & par['f1'].fillna('').astype(str).str.contains(UNSURE)
+par.loc[_hed, 'f1_current'] = False; par.loc[_hed, 'f1_check'] = True
 # current F1 sponsors stay in their ranking (blue rows, Rahul 19 Oct 2026) and are listed again on EXISTING F1 SPONSORS
 def rank(df):
     df = df.sort_values(['total', 'fit', 'val_bn'], ascending=[False, False, False], na_position='last').reset_index(drop=True)
