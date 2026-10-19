@@ -201,7 +201,7 @@ dups = []
 seen = {}
 keep = []
 # groups reached under two different websites or names (checked by hand): map every alias to one canonical key
-SAME = {'anahd.co.jp': 'ana.co.jp', 'dmgmedia.co.uk': 'dmgt.com', 'schwarz.de': 'gruppe.schwarz', 'nordsecurity.com': 'nordsec.com',
+SAME = {'anahd.co.jp': 'ana.co.jp', 'ihg.com': 'marriott.com', 'dmgmedia.co.uk': 'dmgt.com', 'schwarz.de': 'gruppe.schwarz', 'nordsecurity.com': 'nordsec.com',
         strict('Fila Holdings'): 'fila.co.kr', strict('Misto Holdings (Fila)'): 'fila.co.kr', strict('Schwarz Group'): 'gruppe.schwarz',
         strict('Schwarz Gruppe'): 'gruppe.schwarz', strict('Nord Security Partners'): 'nordsec.com', strict('Nord Security'): 'nordsec.com'}
 for r in par.itertuples():
