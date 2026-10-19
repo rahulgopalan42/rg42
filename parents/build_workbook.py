@@ -29,6 +29,29 @@ if len(ver):
             par.loc[m, ['val_bn', 'val_date', 'val_basis']] = [row['val_bn'], row['val_date'], row['val_basis']]
             par.loc[m, 'verified_src'] = row['src']
 if 'verified_src' not in par: par['verified_src'] = ''
+# web verification of top-ranked new parents (parents/verify_out, see verify_brief.md): verified figures override memory figures
+VF = ['key', 'verdict', 'val_bn', 'val_basis', 'val_date', 'funding_m', 'revenue_m', 'f1_status', 'parent_ok', 'source', 'note', 'conf']
+import glob as _glob
+vrows = []
+for f_ in sorted(_glob.glob(f'{R}/parents/verify_out/chunk_*.json')):
+    try: vrows += [dict(zip(VF, r)) for r in json.load(open(f_)) if isinstance(r, list) and len(r) == 12]
+    except Exception as e: print('bad verify file', f_, e)
+par['web_verdict'] = ''; par['web_note'] = ''
+for v in vrows:
+    m = par['key'] == v['key']
+    if not m.any(): continue
+    par.loc[m, 'web_verdict'] = s(v['verdict']); par.loc[m, 'web_note'] = s(v['note'])
+    if s(v['verdict']) in ('OK', 'CORRECTED'):
+        if f(v['val_bn']): par.loc[m, ['val_bn', 'val_basis', 'val_date']] = [f(v['val_bn']), s(v['val_basis']) or 'market cap', s(v['val_date']) or '2026-10']
+        if f(v['funding_m']): par.loc[m, 'funding_m'] = f(v['funding_m'])
+        if f(v['revenue_m']) and 'revenue_printed' in par: par.loc[m & par['revenue_printed'].isna(), 'revenue_printed'] = f"{f(v['revenue_m']):.0f}M"
+        par.loc[m, 'verified_src'] = f"web check {s(v['source'])}"
+        par.loc[m, 'conf'] = 'H' if s(v['conf']) == 'H' else 'M'
+    fs = s(v['f1_status'])
+    if fs.startswith('current'): par.loc[m, 'f1'] = fs
+    elif fs == '' and s(v['verdict']) in ('OK', 'CORRECTED'): par.loc[m, 'f1'] = par.loc[m, 'f1'].map(lambda x: '' if 'unsure' in s(x).lower() or 'verify' in s(x).lower() else s(x))
+    if s(v['parent_ok']).startswith('N'): par.loc[m, 'note'] = ('owned by ' + s(v['parent_ok'])[2:].strip() + '; ' + s(par.loc[m, 'note'].iloc[0])).strip('; ')
+print('web-verified rows applied', len(vrows))
 
 # ---------------------------------------------------------------- qualification and F1 status
 for c in ('a', 's', 'l', 'n'): par[c] = pd.to_numeric(par[c], errors='coerce')
@@ -82,9 +105,9 @@ cap = par.apply(capacity, axis=1, result_type='expand'); cap.columns = ['cap_sca
 par = pd.concat([par, cap], axis=1)
 par['capacity'] = par['cap_scale'] + par['cap_val'] + par['cap_other']
 par['total'] = (par['fit'] + par['capacity']).round(1)
-par['preliminary'] = (~par['scored']) | par['conf'].fillna('').isin(['L', 'U']) | (par['val_bn'].isna() & par['funding_m'].isna())
+par['preliminary'] = ((~par['scored']) | par['conf'].fillna('').isin(['L', 'U']) | (par['val_bn'].isna() & par['funding_m'].isna())) & ~par['verified_src'].astype(str).str.startswith('web check')
 par['confidence'] = par.apply(lambda r: 'Preliminary - not scored (connector record only)' if not r['scored'] else
-                              {'H': 'High', 'M': 'Medium', 'L': 'Low (figures from memory)', 'U': 'Low - identity unconfirmed'}.get(s(r['conf']), 'Medium'), axis=1)
+                              {'H': 'High', 'M': 'Medium', 'L': 'Low (figures from memory)', 'U': 'Low - identity unconfirmed'}.get(s(r['conf']), 'Medium') + (' - web-verified 2026-10-19' if s(r['verified_src']).startswith('web check') else ''), axis=1)
 def rationale(r):
     bits = []
     if r['a'] >= 3: bits.append('strong F1 audience overlap')
@@ -126,6 +149,8 @@ par.loc[par['overlap_cat'] == 'C', 'bucket'] = 'C'
 par.loc[par['conf'].fillna('') == 'U', 'bucket'] = 'C'
 par.loc[par['sn'].str.len() < 3, 'bucket'] = 'C'
 par.loc[not_q, 'bucket'] = 'XQ'
+par.loc[par['web_verdict'] == 'NOT_A_PROSPECT', 'bucket'] = 'XQ'
+par.loc[par['note'].fillna('').astype(str).str.startswith('owned by') & (par['bucket'] == 'A'), 'bucket'] = 'C'
 # sports clubs, teams, leagues and franchise owners are sponsorship properties, not sponsors
 CLUB = re.compile(r'\bFC\b|Football|Soccer|Club\b|Yankees|Warriors|Lakers|Cowboys|Dodgers|Knicks|Celtics|Patriots|Red Sox|Real Madrid|Manchester|Juventus|Saint-Germain|Bayern|Kroenke|Fenway Sports|Liberty Media|\bNBA\b|\bNFL\b|\bMLB\b|\bNHL\b|League\b|Racing\b|Motorsport', re.I)
 is_club = (par['sector'] == 6) & par['name'].astype(str).str.contains(CLUB)
@@ -215,7 +240,7 @@ sheet('EXISTING GROUP OVERLAPS', OH, orows, [7, 30, 14, 26, 22, 45, 30, 10, 45, 
 # excluded
 EH = ['Company', 'Website', 'Reason excluded', 'Source(s)']
 erows = [[d.parent, d.domain, d.reason, d.sources] for d in dups.itertuples()] + [[e.parent, e.domain, e.reason, e.sources] for e in excl.itertuples()] + \
-        [[s(r['name']), r['website'], ('sports property / team owner - a rights holder, not a sponsor' if is_club.get(r.name, False) else 'market cap now below USD 1B (' + r['val_txt'] + ') and no funding criterion' if r['qual'] == '' else 'does not meet the qualification (valuation < USD 1B and funding < USD 100M per research knowledge)') + (f"; {s(r['note'])}" if s(r.get('note')) else ''), ', '.join(r['sources'])] for _, r in XQ.iterrows()]
+        [[s(r['name']), r['website'], ('web check: not a prospect - ' + s(r['web_note']) if r['web_verdict'] == 'NOT_A_PROSPECT' else 'sports property / team owner - a rights holder, not a sponsor' if is_club.get(r.name, False) else 'market cap now below USD 1B (' + r['val_txt'] + ') and no funding criterion' if r['qual'] == '' else 'does not meet the qualification (valuation < USD 1B and funding < USD 100M per research knowledge)') + (f"; {s(r['note'])}" if s(r.get('note')) else ''), ', '.join(r['sources'])] for _, r in XQ.iterrows()]
 sheet('EXCLUDED DIRECT DUPLICATES', EH, erows, [32, 26, 80, 24])
 # existing F1 sponsors
 FH = ['Parent Company Name', 'HQ Country', 'Industry / Sector', 'Website', 'Current F1 link', 'Valuation / Market Cap', 'F1 Fit (/60)', 'Financial Capacity (/40)', 'Total (/100)', 'Sources & Dates']
@@ -226,6 +251,7 @@ CH = ['Company (as found)', 'Website', 'HQ Country', 'Industry / Sector', 'Why i
 def creason(r):
     if s(r['conf']) == 'U': return 'Company not recognised by research; identity and ultimate parent unconfirmed'
     if not r['scored']: return 'Connector record (Apollo/Lusha funding filter) not yet researched: confirm parent, qualification and fit'
+    if s(r.get('note')).startswith('owned by'): return 'Web check indicates it is not the ultimate parent: ' + s(r['note'])
     if s(r['overlap_basis']).startswith('parent inferred'): return s(r['overlap_basis'])
     if not r['has_fin']: return 'No valuation or funding evidence found'
     if len(r['sn']) < 3: return 'Name too short to match reliably'
