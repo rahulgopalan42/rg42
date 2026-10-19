@@ -1,0 +1,122 @@
+[
+{
+"id": "everymancinema.com",
+"company": "Everyman",
+"sector": "29 Tech Media & Gaming",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; boutique cinema chain"
+},
+{
+"id": "diaminter.com",
+"company": "DIAM Group · Retail & Merch Solutions",
+"sector": "07 Marketing & Sales",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Ardian",
+"triage_note": "real; fit 2; scale mid; retail display packaging"
+},
+{
+"id": "rofa-group.com",
+"company": "ROFA INDUSTRIAL AUTOMATION AG",
+"sector": "33 Automation & Robotics",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; automation systems"
+},
+{
+"id": "ept.de",
+"company": "ept GmbH",
+"sector": "45 Electronic Parts",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; connector maker"
+},
+{
+"id": "taiwansemi.com",
+"company": "Taiwan Semiconductor",
+"sector": "27 Chip Makers",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; diodes and rectifiers"
+},
+{
+"id": "lesjofors.com",
+"company": "Lesjöfors",
+"sector": "23 Machine Tools",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Beijer Components",
+"triage_note": "real; fit 2; scale mid; springs maker"
+},
+{
+"id": "lisega.de",
+"company": "LISEGA SE",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; pipe supports maker"
+},
+{
+"id": "kostwein.at",
+"company": "Kostwein Maschinenbau GmbH",
+"sector": "23 Machine Tools",
+"country": "Austria",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; machine builder"
+},
+{
+"id": "strama-mps.de",
+"company": "Strama Group",
+"sector": "33 Automation & Robotics",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; machine builder"
+},
+{
+"id": "radancy.com",
+"company": "Radancy",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; recruitment marketing"
+}
+]

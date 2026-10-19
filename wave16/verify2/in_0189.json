@@ -1,0 +1,122 @@
+[
+{
+"id": "polyus.com",
+"company": "POLYUS",
+"sector": "X04 Mining, Metals & Commodities",
+"country": "Russia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; gold miner"
+},
+{
+"id": "supor.com.cn",
+"company": "苏泊尔股份",
+"sector": "NEW Other",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "SEB",
+"triage_note": "real; fit 1; scale large; cookware maker"
+},
+{
+"id": "sinochemintl.com",
+"company": "Sinochem International Corporation",
+"sector": "21 Materials & Mech Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Sinochem",
+"triage_note": "real; fit 1; scale large; chemicals trader"
+},
+{
+"id": "hengli.com",
+"company": "Hengli Group",
+"sector": "NEW Other",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; refining and chemicals"
+},
+{
+"id": "sinomach.com.cn",
+"company": "SINOMACH GROUP",
+"sector": "NEW Other",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Chinese state",
+"triage_note": "real; fit 1; scale large; machinery group"
+},
+{
+"id": "uni-president.com.cn",
+"company": "Uni-President Cor. Ltd.",
+"sector": "04 Food & Beverage",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Uni-President",
+"triage_note": "real; fit 1; scale large; tea and noodles"
+},
+{
+"id": "csgglass.com",
+"company": "CSG Glass",
+"sector": "NEW Other",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; glass maker"
+},
+{
+"id": "tuopu.com",
+"company": "TUOPU Group",
+"sector": "43 Mobility & Automotive",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; auto parts maker"
+},
+{
+"id": "yzjship.com",
+"company": "Yangzijiang Shipbuilding Holdings",
+"sector": "X09 Maritime, Shipping & Ports",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; shipbuilder"
+},
+{
+"id": "glico.com",
+"company": "GLICO",
+"sector": "04 Food & Beverage",
+"country": "Japan",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; confectioner"
+}
+]

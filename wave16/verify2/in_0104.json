@@ -1,0 +1,122 @@
+[
+{
+"id": "junker-group.de",
+"company": "Erwin Junker Maschinenfabrik GmbH",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale mid; precision grinding machines"
+},
+{
+"id": "dtswiss.com",
+"company": "DT Swiss",
+"sector": "53 Consumer & Lifestyle",
+"country": "Schweiz",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale mid; premium bike components"
+},
+{
+"id": "virgingalactic.com",
+"company": "Virgin Galactic",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "United States",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale mid; space tourism"
+},
+{
+"id": "merida.com",
+"company": "MERIDA BIKES INTERNATIONAL",
+"sector": "53 Consumer & Lifestyle",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale mid; performance bike maker"
+},
+{
+"id": "gandh.com",
+"company": "G&H (Gooch & Housego)",
+"sector": "23 Machine Tools",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale mid; photonics maker"
+},
+{
+"id": "selleroyalgroup.com",
+"company": "Selle Royal Group",
+"sector": "53 Consumer & Lifestyle",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale mid; premium cycling components"
+},
+{
+"id": "shokz.com.cn",
+"company": "深圳市韶音科技有限公司",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale mid; bone conduction headphones"
+},
+{
+"id": "rolanddg.com",
+"company": "Roland DG Corporation",
+"sector": "23 Machine Tools",
+"country": "Japan",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale mid; digital fabrication equipment"
+},
+{
+"id": "jilsander.com",
+"company": "JIL SANDER",
+"sector": "03 Luxury & Beauty",
+"country": "Italy",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "OTB",
+"triage_note": "real; fit 4; scale mid; luxury fashion house"
+},
+{
+"id": "genesys.com",
+"company": "Genesys | Interactive Intelligence",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; contact center software"
+}
+]

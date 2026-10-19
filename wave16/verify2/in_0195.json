@@ -1,0 +1,122 @@
+[
+{
+"id": "e-rockwell.com",
+"company": "Rockwell Land Corporation",
+"sector": "X02 Real Estate & Building Products",
+"country": "Philippines",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Lopez Holdings",
+"triage_note": "real; fit 1; scale mid; Philippine developer"
+},
+{
+"id": "dlhbowles.com",
+"company": "dlhBOWLES",
+"sector": "43 Mobility & Automotive",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; fluidic components"
+},
+{
+"id": "myvue.com",
+"company": "Vue UK&I",
+"sector": "29 Tech Media & Gaming",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; cinema chain"
+},
+{
+"id": "toysrus.com",
+"company": "Toys R Us",
+"sector": "X06 Retail & E-commerce",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "WHP Global",
+"triage_note": "real; fit 1; scale mid; licensed toy brand"
+},
+{
+"id": "miuz.ru",
+"company": "Moscow Jewelry Factory",
+"sector": "03 Luxury & Beauty",
+"country": "Russia",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Russian jewelry manufacturer"
+},
+{
+"id": "round1usa.com",
+"company": "Round One Entertainment Inc.",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Round One Corp",
+"triage_note": "real; fit 1; scale mid; bowling and arcade chain"
+},
+{
+"id": "company3.com",
+"company": "Company 3",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; post-production house"
+},
+{
+"id": "redbeemedia.com",
+"company": "Red Bee Media",
+"sector": "29 Tech Media & Gaming",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; broadcast media services"
+},
+{
+"id": "technicolor.com",
+"company": "Technicolor Group",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; creative tech, restructured"
+},
+{
+"id": "",
+"company": "tw telecom",
+"sector": "48 Telecom & Space",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "ARY Group",
+"triage_note": "real; fit 1; scale mid; Pakistani TV network"
+}
+]

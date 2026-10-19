@@ -1,0 +1,122 @@
+[
+{
+"id": "eig-egypt.com",
+"company": "El Sewedy Industrial Group - EIG",
+"sector": "53 Consumer & Lifestyle",
+"country": "Egypt",
+"type": "Self Owned",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; Egyptian cables conglomerate"
+},
+{
+"id": "grupopacha.com",
+"company": "The Pacha Group",
+"sector": "29 Tech Media & Gaming",
+"country": "Spain",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; Ibiza lifestyle brand"
+},
+{
+"id": "telegraph.co.uk",
+"company": "The Telegraph",
+"sector": "29 Tech Media & Gaming",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; British newspaper"
+},
+{
+"id": "magicleap.com",
+"company": "Magic Leap",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; AR headsets maker"
+},
+{
+"id": "elotouch.com",
+"company": "Elo Touch Solutions",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; touchscreen maker"
+},
+{
+"id": "qlar.com",
+"company": "Schenck Process",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; bulk-material engineering"
+},
+{
+"id": "nordam.com",
+"company": "NORDAM",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; aerospace components"
+},
+{
+"id": "whatfix.com",
+"company": "Whatfix",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; digital adoption platform"
+},
+{
+"id": "imgacademy.com",
+"company": "IMG Academy",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "United States",
+"type": "Privately Held",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; sports academy"
+},
+{
+"id": "faculty.ai",
+"company": "Faculty",
+"sector": "22 SaaS",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; applied AI"
+}
+]

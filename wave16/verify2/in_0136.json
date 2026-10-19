@@ -1,0 +1,122 @@
+[
+{
+"id": "dai-ichi-life.co.jp",
+"company": "The Dai-ichi Life Insurance Company, Limited",
+"sector": "01 Banking & Insurance",
+"country": "Japan",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Dai-ichi Life Group",
+"triage_note": "real; fit 2; scale large; life insurer"
+},
+{
+"id": "aikosolar.com",
+"company": "AIKO Energy",
+"sector": "02 Energy & Industrial",
+"country": "Germany",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; solar cells"
+},
+{
+"id": "jcclgroup.com",
+"company": "Jardine Cycle & Carriage Limited",
+"sector": "NEW Other",
+"country": "Singapore",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Jardine Matheson",
+"triage_note": "real; fit 2; scale large; auto distribution"
+},
+{
+"id": "cci.com.tr",
+"company": "Coca-Cola CCI",
+"sector": "04 Food & Beverage",
+"country": "Turkey",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Türkiye's Anadolu Group",
+"triage_note": "real; fit 2; scale large; Coca-Cola bottler"
+},
+{
+"id": "sk.com",
+"company": "SK Group",
+"sector": "NEW Other",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; conglomerate"
+},
+{
+"id": "gazprom.com",
+"company": "Gazprom",
+"sector": "02 Energy & Industrial",
+"country": "Russia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Russian state",
+"triage_note": "real; fit 2; scale large; gas giant"
+},
+{
+"id": "sampoerna.com",
+"company": "PT HM Sampoerna Tbk.",
+"sector": "NEW Other",
+"country": "Indonesia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Philip Morris Intl",
+"triage_note": "real; fit 2; scale large; tobacco"
+},
+{
+"id": "wireco.com",
+"company": "WireCo",
+"sector": "23 Machine Tools",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; wire rope maker"
+},
+{
+"id": "selina.com",
+"company": "Selina",
+"sector": "16 Travel & Hospitality",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; global hostel brand"
+},
+{
+"id": "nexteam-group.com",
+"company": "NEXTEAM",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; aerospace castings"
+}
+]

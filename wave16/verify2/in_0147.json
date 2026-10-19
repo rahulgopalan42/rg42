@@ -1,0 +1,122 @@
+[
+{
+"id": "vandewiele.com",
+"company": "Vandewiele",
+"sector": "23 Machine Tools",
+"country": "Belgium",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; textile weaving machines"
+},
+{
+"id": "lafert.com",
+"company": "Lafert Group",
+"sector": "45 Electronic Parts",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Sumitomo Drive Technologies",
+"triage_note": "real; fit 2; scale mid; electric motors"
+},
+{
+"id": "vulkan.com",
+"company": "VULKAN Group",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; couplings and drives"
+},
+{
+"id": "zdas.com",
+"company": "ŽĎAS, a.s.",
+"sector": "23 Machine Tools",
+"country": "Czechia",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "CSG",
+"triage_note": "real; fit 2; scale mid; heavy forging"
+},
+{
+"id": "msm.sk",
+"company": "MSM GROUP",
+"sector": "32 Defense & Industrial AI",
+"country": "Slovakia",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; defence manufacturing"
+},
+{
+"id": "carlstahl.com",
+"company": "Carl Stahl Group",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; lifting and rigging"
+},
+{
+"id": "fjlord.co.uk",
+"company": "Felicity J. Lord",
+"sector": "X02 Real Estate & Building Products",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; London estate agent"
+},
+{
+"id": "vithagroup.eu",
+"company": "Vitha Group S.p.A.",
+"sector": "53 Consumer & Lifestyle",
+"country": "Italia",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Italian lifestyle brands"
+},
+{
+"id": "mehler-systems.com",
+"company": "Mehler Systems",
+"sector": "32 Defense & Industrial AI",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; protection systems"
+},
+{
+"id": "voilap.com",
+"company": "Voilàp S.p.a.",
+"sector": "33 Automation & Robotics",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; smart systems"
+}
+]

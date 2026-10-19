@@ -1,0 +1,122 @@
+[
+{
+"id": "mapletree.com.sg",
+"company": "Mapletree",
+"sector": "X02 Real Estate & Building Products",
+"country": "Singapore",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Temasek",
+"triage_note": "real; fit 3; scale large; real estate developer"
+},
+{
+"id": "accell.com",
+"company": "Accell Group",
+"sector": "53 Consumer & Lifestyle",
+"country": "Netherlands",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; bicycle group"
+},
+{
+"id": "goldmansachs.com",
+"company": "Goldman Sachs",
+"sector": "01 Banking & Insurance",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; global investment bank"
+},
+{
+"id": "shell.com",
+"company": "Shell",
+"sector": "02 Energy & Industrial",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; global energy major"
+},
+{
+"id": "energizerholdings.com",
+"company": "Energizer Holdings",
+"sector": "NEW Other",
+"country": "United States",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; batteries and lighting"
+},
+{
+"id": "harley-davidson.com",
+"company": "Harley-Davidson Motor Company",
+"sector": "43 Mobility & Automotive",
+"country": "United States",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; premium motorcycles"
+},
+{
+"id": "exxonmobil.com",
+"company": "ExxonMobil",
+"sector": "02 Energy & Industrial",
+"country": "United States",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; oil major"
+},
+{
+"id": "pepsico.com",
+"company": "PepsiCo",
+"sector": "04 Food & Beverage",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; beverage and snacks major"
+},
+{
+"id": "unilever.com",
+"company": "Unilever",
+"sector": "NEW Other",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; consumer goods major"
+},
+{
+"id": "astemo.com",
+"company": "Astemo Ltd.",
+"sector": "43 Mobility & Automotive",
+"country": "Japan",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Hitachi",
+"triage_note": "real; fit 3; scale large; auto systems supplier"
+}
+]

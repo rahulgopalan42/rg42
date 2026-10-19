@@ -1,0 +1,122 @@
+[
+{
+"id": "domel.com",
+"company": "Domel",
+"sector": "45 Electronic Parts",
+"country": "Slovenija",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; electric motors"
+},
+{
+"id": "gorge-entreprises.com",
+"company": "Gorgé SA",
+"sector": "32 Defense & Industrial AI",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; high-tech industrial group"
+},
+{
+"id": "dellnergroup.com",
+"company": "Dellner Group",
+"sector": "23 Machine Tools",
+"country": "Sweden",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; rail couplings"
+},
+{
+"id": "orizio-group.com",
+"company": "Orizio Group",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "Belgium",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; aviation services group"
+},
+{
+"id": "rotarexsolutions.com",
+"company": "Rotarex Solutions",
+"sector": "23 Machine Tools",
+"country": "Luxembourg",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; valves and gas systems"
+},
+{
+"id": "commercy-robotique.com",
+"company": "Commercy Robotique",
+"sector": "56 Robotics AI",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Industrie division of SPIE Industrie & Tertiaire specialising",
+"triage_note": "real; fit 2; scale mid; robotics integrator"
+},
+{
+"id": "eickhoff-bochum.de",
+"company": "Eickhoff",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; mining machinery"
+},
+{
+"id": "babcock-wanson-group.com",
+"company": "Babcock Wanson Group",
+"sector": "23 Machine Tools",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; industrial boilers"
+},
+{
+"id": "vag-group.com",
+"company": "VAG-Group",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; water valves"
+},
+{
+"id": "rockfin.pl",
+"company": "Rockfin",
+"sector": "23 Machine Tools",
+"country": "Poland",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; engineering firm"
+}
+]

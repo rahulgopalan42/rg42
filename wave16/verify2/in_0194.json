@@ -1,0 +1,122 @@
+[
+{
+"id": "grede.com",
+"company": "Grede Holdings LLC",
+"sector": "23 Machine Tools",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; iron castings supplier"
+},
+{
+"id": "atticadps.gr",
+"company": "attica Department Stores S.A.",
+"sector": "X06 Retail & E-commerce",
+"country": "Greece",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Greek department stores"
+},
+{
+"id": "harborgroupint.com",
+"company": "Harbor Group International",
+"sector": "X02 Real Estate & Building Products",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; US real estate investor"
+},
+{
+"id": "shermco.com",
+"company": "Shermco Industries",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; electrical testing services"
+},
+{
+"id": "sigmaengineeredsolutions.com",
+"company": "Sigma Engineered Solutions",
+"sector": "23 Machine Tools",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; engineered components"
+},
+{
+"id": "studio-88.co.za",
+"company": "Studio 88 Group of Companies",
+"sector": "X06 Retail & E-commerce",
+"country": "South Africa",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; South African sportswear retailer"
+},
+{
+"id": "cselectric.co.in",
+"company": "C&S ELECTRIC LTD.",
+"sector": "45 Electronic Parts",
+"country": "India",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; electrical manufacturer"
+},
+{
+"id": "itn.co.uk",
+"company": "ITN",
+"sector": "29 Tech Media & Gaming",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; UK factual production"
+},
+{
+"id": "xingyungroup.com",
+"company": "Xingyun Group",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Privately Held",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; cross-border e-commerce"
+},
+{
+"id": "cerahq.com",
+"company": "Cera",
+"sector": "42 Health & Wellness",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; AI home healthcare"
+}
+]

@@ -1,0 +1,122 @@
+[
+{
+"id": "babycare.com",
+"company": "Babycare",
+"sector": "X06 Retail & E-commerce",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Chinese baby products brand"
+},
+{
+"id": "ferreycorp.com.pe",
+"company": "Ferreycorp S.A.A",
+"sector": "23 Machine Tools",
+"country": "Peru",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Peruvian heavy equipment dealer"
+},
+{
+"id": "cecport.com",
+"company": "中电港CECport",
+"sector": "25 IT Services & Consulting",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "CEC",
+"triage_note": "real; fit 1; scale large; Electronic components supply chain platform"
+},
+{
+"id": "bitauto.com",
+"company": "Bitauto Holdings Limited",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Chinese auto internet platform"
+},
+{
+"id": "bundesliga-gruppe.de",
+"company": "DFL Deutsche Fußball Liga",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "Germany",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; football league body"
+},
+{
+"id": "grupaazoty.com",
+"company": "Grupa Azoty S.A.",
+"sector": "21 Materials & Mech Parts",
+"country": "Poland",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; fertilisers"
+},
+{
+"id": "sogou.com",
+"company": "中国忠旺",
+"sector": "X04 Mining, Metals & Commodities",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; aluminium extrusions"
+},
+{
+"id": "zhengbang.com",
+"company": "正邦集团",
+"sector": "NEW Other",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; agri group"
+},
+{
+"id": "baozun.com",
+"company": "Baozun Inc.",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Chinese brand e-commerce services"
+},
+{
+"id": "salt.ch",
+"company": "Salt Mobile",
+"sector": "48 Telecom & Space",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "NJJ Holding",
+"triage_note": "real; fit 1; scale large; Swiss mobile operator"
+}
+]

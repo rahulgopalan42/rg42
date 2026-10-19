@@ -1,0 +1,122 @@
+[
+{
+"id": "invap.com.ar",
+"company": "INVAP",
+"sector": "32 Defense & Industrial AI",
+"country": "Argentina",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Rio Negro province",
+"triage_note": "real; fit 3; scale mid; nuclear and space tech"
+},
+{
+"id": "seasonic.com",
+"company": "Sea Sonic Electronics Co., Ltd.",
+"sector": "45 Electronic Parts",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; premium PC power supplies"
+},
+{
+"id": "kmcchain.com",
+"company": "KMC Bicycle Chain",
+"sector": "53 Consumer & Lifestyle",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; bicycle chain maker"
+},
+{
+"id": "wolford.com",
+"company": "Wolford",
+"sector": "53 Consumer & Lifestyle",
+"country": "Österreich",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Fosun",
+"triage_note": "real; fit 3; scale mid; luxury hosiery"
+},
+{
+"id": "concentricab.com",
+"company": "Concentric AB",
+"sector": "23 Machine Tools",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; engine pump maker"
+},
+{
+"id": "rab.equipment",
+"company": "Rab",
+"sector": "53 Consumer & Lifestyle",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Equip Outdoor Technologies",
+"triage_note": "real; fit 3; scale mid; mountain gear brand"
+},
+{
+"id": "hoenle.com",
+"company": "Hoenle Disinfection",
+"sector": "45 Electronic Parts",
+"country": "Germany",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; UV technology maker"
+},
+{
+"id": "banyantree.com",
+"company": "Banyan Tree",
+"sector": "16 Travel & Hospitality",
+"country": "Singapore",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; luxury resorts and spas"
+},
+{
+"id": "soldejaneiro.com",
+"company": "Sol de Janeiro",
+"sector": "X06 Retail & E-commerce",
+"country": "United States",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "L'Occitane",
+"triage_note": "real; fit 3; scale mid; Brazilian-inspired beauty brand"
+},
+{
+"id": "gmt-gmbh.de",
+"company": "GMT Gummi-Metall-Technik GmbH",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; rubber-metal components"
+}
+]
