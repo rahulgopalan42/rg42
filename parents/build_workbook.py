@@ -49,8 +49,13 @@ for v in vrows:
         if f(v['funding_m']): par.loc[m, 'funding_m'] = f(v['funding_m'])
         if f(v['revenue_m']) and 'revenue_printed' in par: par.loc[m & par['revenue_printed'].isna(), 'revenue_printed'] = f"{f(v['revenue_m']):.0f}M"
         prev = s(par.loc[m, 'verified_src'].iloc[0])
-        par.loc[m, 'verified_src'] = (prev + '; ' if prev else '') + f"web check {s(v['source'])}"
-        par.loc[m, 'conf'] = 'H' if s(v['conf']) == 'H' else 'M'
+        evidence = bool(re.search(r'homepage|wikipedia|\.', s(v['source']))) and s(v['source']).strip().lower() != 'memory'
+        if evidence:      # only an actual public page counts as verification; a memory-only "OK" keeps the row preliminary
+            par.loc[m, 'verified_src'] = (prev + '; ' if prev else '') + f"web check {s(v['source'])}"
+            par.loc[m, 'conf'] = 'H' if s(v['conf']) == 'H' else 'M'
+        else:
+            par.loc[m, 'conf'] = par.loc[m, 'conf'].map(lambda c: 'M' if s(c) in ('', 'U') else s(c))
+            par.loc[m, 'web_note'] = ('recalled, unconfirmed by a public source; ' + s(v['note'])).strip('; ')
     fs = s(v['f1_status'])
     if fs.startswith('current'): par.loc[m, 'f1'] = fs
     elif fs == '' and s(v['verdict']) in ('OK', 'CORRECTED'): par.loc[m, 'f1'] = par.loc[m, 'f1'].map(lambda x: '' if 'unsure' in s(x).lower() or 'verify' in s(x).lower() else s(x))
@@ -111,7 +116,7 @@ par['capacity'] = par['cap_scale'] + par['cap_val'] + par['cap_other']
 par['total'] = (par['fit'] + par['capacity']).round(1)
 par['preliminary'] = ((~par['scored']) | par['conf'].fillna('').isin(['L', 'U']) | (par['val_bn'].isna() & par['funding_m'].isna())) & ~par['verified_src'].astype(str).str.contains('web check')
 par['confidence'] = par.apply(lambda r: 'Preliminary - not scored (connector record only)' if not r['scored'] else
-                              {'H': 'High', 'M': 'Medium', 'L': 'Low (figures from memory)', 'U': 'Low - identity unconfirmed'}.get(s(r['conf']), 'Medium') + (' - web-verified 2026-10-19' if 'web check' in s(r['verified_src']) else ''), axis=1)
+                              {'H': 'High', 'M': 'Medium', 'L': 'Low (figures from memory)', 'U': 'Low - identity unconfirmed'}.get(s(r['conf']), 'Medium') + (' - web-verified 2026-10-19' if 'web check' in s(r['verified_src']) else (' (figures recalled, unconfirmed)' if s(r['web_note']).startswith('recalled') else '')), axis=1)
 def rationale(r):
     bits = []
     if r['a'] >= 3: bits.append('strong F1 audience overlap')
