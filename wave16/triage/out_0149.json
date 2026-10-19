@@ -1,0 +1,802 @@
+[
+{
+"id": "alfaparfmilano.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Alfaparf Group",
+"note": "Brazil unit"
+},
+{
+"id": "rossel.be",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Rossel Group",
+"note": "regional press unit"
+},
+{
+"id": "objenious.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Bouygues Telecom",
+"note": "IoT brand"
+},
+{
+"id": "kompyte.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Semrush",
+"note": "competitive intel product"
+},
+{
+"id": "cinepolisusa.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Cinepolis",
+"note": "US unit"
+},
+{
+"id": "toutapp.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "absorbed into Marketo"
+},
+{
+"id": "nelfusa.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "colour cosmetics"
+},
+{
+"id": "atelierbyvoyantbeauty.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Voyant Beauty",
+"note": "contract beauty unit"
+},
+{
+"id": "americommerce.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Cart.com",
+"note": "ecommerce platform"
+},
+{
+"id": "francemediasmonde.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "public international broadcaster"
+},
+{
+"id": "postmates.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "absorbed into Uber"
+},
+{
+"id": "businessnext.us",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "BusinessNext",
+"note": "Americas unit"
+},
+{
+"id": "truvenhealth.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "absorbed into Truven"
+},
+{
+"id": "hummingbirdhire.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "talent platform"
+},
+{
+"id": "mairodi-training.co.id",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "training provider"
+},
+{
+"id": "heg.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "absorbed into GoDaddy"
+},
+{
+"id": "xln.co.uk",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "small business telecom"
+},
+{
+"id": "qevalpro.com",
+"t": "division",
+"fit": 0,
+"scale": "small",
+"parent": "ETS Labs",
+"note": "contact centre product"
+},
+{
+"id": "groupe-scopelec.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "telecom infrastructure unit"
+},
+{
+"id": "overruled.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Akin Gump",
+"note": "legal data product"
+},
+{
+"id": "tim.it",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "TIM",
+"note": "research lab"
+},
+{
+"id": "getpos.uk",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "payments reseller"
+},
+{
+"id": "leaderfield.fr",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "market research"
+},
+{
+"id": "ismmartindustries.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "vague startup record"
+},
+{
+"id": "grandvalira.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "Andorra ski resort"
+},
+{
+"id": "alca.hr",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Alca Zagreb",
+"note": "cosmetics distributor"
+},
+{
+"id": "edcast.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Cornerstone OnDemand",
+"note": "learning platform"
+},
+{
+"id": "freewheel.tv",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "absorbed into FreeWheel"
+},
+{
+"id": "teach-india.org",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Times Group",
+"note": "education arm"
+},
+{
+"id": "meritdata-tech.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "B2B data services"
+},
+{
+"id": "france24.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "France Medias Monde",
+"note": "news channel"
+},
+{
+"id": "acn.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "ACN Inc",
+"note": "Europe unit"
+},
+{
+"id": "wildhorn.in",
+"t": "real",
+"fit": 1,
+"scale": "small",
+"parent": "",
+"note": "leather brand India"
+},
+{
+"id": "channels.com.sa",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "stc group",
+"note": "distribution arm"
+},
+{
+"id": "velnik.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "FMCG hair care"
+},
+{
+"id": "labintech.com.br",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "lab software"
+},
+{
+"id": "equifax.com.ar",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Equifax",
+"note": "Argentina unit"
+},
+{
+"id": "itel-india.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Transsion",
+"note": "handset brand"
+},
+{
+"id": "nachowyborski.xyz",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "crypto community page"
+},
+{
+"id": "otribuna.pt",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "news page"
+},
+{
+"id": "nhk.or.jp",
+"t": "real",
+"fit": 1,
+"scale": "large",
+"parent": "",
+"note": "public broadcaster"
+},
+{
+"id": "circet.it",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Circet",
+"note": "Italy unit"
+},
+{
+"id": "mtv.co.uk",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Paramount",
+"note": "UK channels"
+},
+{
+"id": "star-group.se",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "STAR Group",
+"note": "Scandinavia unit"
+},
+{
+"id": "dangkyinternet.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "ISP reseller page"
+},
+{
+"id": "asmaaindia.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "manpower/digital firm"
+},
+{
+"id": "cyber-wins.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "security community"
+},
+{
+"id": "vivo.in",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "vivo",
+"note": "India unit"
+},
+{
+"id": "",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "absorbed propane firm"
+},
+{
+"id": "",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Pepco Group",
+"note": "Iberia unit"
+},
+{
+"id": "",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "education investment group"
+},
+{
+"id": "",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "unclear record"
+},
+{
+"id": "",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "small workshop"
+},
+{
+"id": "",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "property listing site"
+},
+{
+"id": "",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "recruitment page"
+},
+{
+"id": "",
+"t": "real",
+"fit": 2,
+"scale": "mid",
+"parent": "",
+"note": "solar trackers"
+},
+{
+"id": "",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Enerpac",
+"note": "Spain unit"
+},
+{
+"id": "",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "CIMC",
+"note": "process tech unit"
+},
+{
+"id": "",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "rewards program"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Turkish group"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "lingerie brand"
+},
+{
+"id": "",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "small agency"
+},
+{
+"id": "",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "patriotic page"
+},
+{
+"id": "",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "no-code startup"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "industrial firm"
+},
+{
+"id": "",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "air conditioner maker"
+},
+{
+"id": "",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Blue Diamond Resorts",
+"note": "resort brand"
+},
+{
+"id": "",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "KPMG",
+"note": "consulting unit"
+},
+{
+"id": "",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "individual"
+},
+{
+"id": "",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "small developer"
+},
+{
+"id": "",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "small robotics firm"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "Koch Group",
+"note": "Brazil wholesaler"
+},
+{
+"id": "",
+"t": "real",
+"fit": 1,
+"scale": "small",
+"parent": "",
+"note": "3D printing"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "air cargo carrier"
+},
+{
+"id": "",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Lowes",
+"note": "Canadian DIY chain"
+},
+{
+"id": "",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "state corrections agency"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "large",
+"parent": "",
+"note": "Brazil pharmacy chain"
+},
+{
+"id": "",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Santander",
+"note": "digital unit"
+},
+{
+"id": "",
+"t": "real",
+"fit": 1,
+"scale": "large",
+"parent": "",
+"note": "Nordic hotel chain"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Bangladesh group"
+},
+{
+"id": "",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "small facilities firm"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "garment maker"
+},
+{
+"id": "",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "insolvent drugstore chain"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "garment maker"
+},
+{
+"id": "",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "small developer"
+},
+{
+"id": "",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "bankrupt retailer"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "brewery"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Spanish IT"
+},
+{
+"id": "",
+"t": "real",
+"fit": 1,
+"scale": "small",
+"parent": "",
+"note": "fashion brand"
+},
+{
+"id": "",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Innolux",
+"note": "display unit"
+},
+{
+"id": "",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Survitec",
+"note": "safety equipment brand"
+},
+{
+"id": "",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "local chapter"
+},
+{
+"id": "",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Groupe Figaro",
+"note": "travel site"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "optician chain"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "small firm"
+},
+{
+"id": "",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "trade association"
+},
+{
+"id": "",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "small realty"
+},
+{
+"id": "",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Thomson Reuters",
+"note": "datacentre unit"
+},
+{
+"id": "",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "placeholder"
+},
+{
+"id": "",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "networking chapter"
+}
+]

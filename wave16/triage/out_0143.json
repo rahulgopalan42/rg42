@@ -1,0 +1,802 @@
+[
+{
+"id": "kopelland.com",
+"t": "division",
+"fit": 0,
+"scale": "small",
+"parent": "KOPELINDO",
+"note": "property subsidiary"
+},
+{
+"id": "wockhardthospitals.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "hospital chain"
+},
+{
+"id": "ingrammicroegypt.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Ingram Micro",
+"note": "Egypt unit"
+},
+{
+"id": "flc.vn",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "Vietnam conglomerate, troubled"
+},
+{
+"id": "yokowoconnector.com",
+"t": "real",
+"fit": 2,
+"scale": "mid",
+"parent": "",
+"note": "connectors, antennas"
+},
+{
+"id": "dickies.mx",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Bluestar Alliance",
+"note": "workwear brand"
+},
+{
+"id": "continentalexpressinc.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "empty record"
+},
+{
+"id": "hyundai-kiamachine.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Hyundai WIA",
+"note": "machine tool unit"
+},
+{
+"id": "fhsteel.com.vn",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Formosa Plastics",
+"note": "steel mill unit"
+},
+{
+"id": "nexity.fr",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Nexity",
+"note": "corporate offer unit"
+},
+{
+"id": "galaxus.ch",
+"t": "real",
+"fit": 1,
+"scale": "large",
+"parent": "Migros",
+"note": "Swiss online retailer"
+},
+{
+"id": "datagroup.de",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "IT services Germany"
+},
+{
+"id": "koeln-bonn-airport.de",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "airport operator"
+},
+{
+"id": "ificbank.com.bd",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Bangladesh bank"
+},
+{
+"id": "shifa.com.pk",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Islamabad hospital"
+},
+{
+"id": "gabettigroup.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Italy property services"
+},
+{
+"id": "hemkop.se",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Axfood",
+"note": "supermarket chain"
+},
+{
+"id": "soly-tech.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "PC cases, PSUs"
+},
+{
+"id": "atayala.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Ayala Land",
+"note": "sales arm"
+},
+{
+"id": "rttn.in",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "India holding company"
+},
+{
+"id": "hanmiscience.co.kr",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "pharma holding"
+},
+{
+"id": "thornlighting.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Zumtobel Group",
+"note": "lighting brand"
+},
+{
+"id": "gamedigitalplc.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Frasers Group",
+"note": "game retailer"
+},
+{
+"id": "nccbank.com.bd",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Bangladesh bank"
+},
+{
+"id": "lidl.lt",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Schwarz Group",
+"note": "country unit"
+},
+{
+"id": "datazone.io",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Israel data solutions"
+},
+{
+"id": "elanpaymentsolutions.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "U.S. Bancorp",
+"note": "card services unit"
+},
+{
+"id": "uqc.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "chip distributor"
+},
+{
+"id": "simpac.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "press machines"
+},
+{
+"id": "californiamoves.com",
+"t": "division",
+"fit": 0,
+"scale": "small",
+"parent": "Anywhere Real Estate",
+"note": "brokerage office"
+},
+{
+"id": "locum.se",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "Region Stockholm",
+"note": "healthcare property"
+},
+{
+"id": "trammellcrow.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "CBRE",
+"note": "development unit"
+},
+{
+"id": "kennedywilson.com",
+"t": "real",
+"fit": 3,
+"scale": "large",
+"parent": "",
+"note": "global real estate investor"
+},
+{
+"id": "inicis.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "KG Group",
+"note": "payment gateway"
+},
+{
+"id": "digitmob.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "small agency"
+},
+{
+"id": "alnaghy.net",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "generic property page"
+},
+{
+"id": "ewpt.com",
+"t": "real",
+"fit": 2,
+"scale": "mid",
+"parent": "",
+"note": "precision parts, electronics"
+},
+{
+"id": "naxcube.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "empty record"
+},
+{
+"id": "viasystems.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "absorbed into TTM"
+},
+{
+"id": "goldenliving.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "defunct operator"
+},
+{
+"id": "carpet-right.co.uk",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "collapsed retailer"
+},
+{
+"id": "christiesrealestate.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Christie's",
+"note": "brokerage network"
+},
+{
+"id": "epldtventus.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "PLDT",
+"note": "BPO unit"
+},
+{
+"id": "fpscorp.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "now ModivCare"
+},
+{
+"id": "newageelectronics.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "TD Synnex",
+"note": "distribution unit"
+},
+{
+"id": "toko.co.jp",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Murata",
+"note": "acquired component unit"
+},
+{
+"id": "ruijienetworks.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Ruijie Networks",
+"note": "Saudi office"
+},
+{
+"id": "dalatahotelgroup.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Dalata Hotel Group",
+"note": "single hotel"
+},
+{
+"id": "matbaobpo.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Vietnam BPO"
+},
+{
+"id": "sdgi-fitting.com",
+"t": "division",
+"fit": 0,
+"scale": "small",
+"parent": "SDGI",
+"note": "cable fittings unit"
+},
+{
+"id": "emeraldsa.co.za",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "insurance products"
+},
+{
+"id": "valiantcom.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "telecom equipment"
+},
+{
+"id": "introl.pl",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "industrial automation"
+},
+{
+"id": "karwei.nl",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Intergamma",
+"note": "DIY brand"
+},
+{
+"id": "kpproperty.com.my",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Malaysia developer"
+},
+{
+"id": "eastmoney.com",
+"t": "real",
+"fit": 1,
+"scale": "large",
+"parent": "",
+"note": "finance info portal"
+},
+{
+"id": "paradisegroup.co.in",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "India builder"
+},
+{
+"id": "barloworld-equipment.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Barloworld",
+"note": "Cat dealer unit"
+},
+{
+"id": "yfo.com.tw",
+"t": "real",
+"fit": 1,
+"scale": "small",
+"parent": "",
+"note": "thin film resistors"
+},
+{
+"id": "bodyone.fr",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "lingerie retailer"
+},
+{
+"id": "kcp.co.kr",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Korea payments"
+},
+{
+"id": "lotteinnovate.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Lotte Innovate",
+"note": "Indonesia unit"
+},
+{
+"id": "avenuesai.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "payments platform"
+},
+{
+"id": "mpc.id",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Indonesian holding"
+},
+{
+"id": "auraisrael.co.il",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "urban renewal developer"
+},
+{
+"id": "tallink.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "ferry operator"
+},
+{
+"id": "enterohealthcare.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "healthcare distributor"
+},
+{
+"id": "frenchconnection.com",
+"t": "real",
+"fit": 1,
+"scale": "small",
+"parent": "",
+"note": "fashion brand"
+},
+{
+"id": "semcon.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Knightec Group",
+"note": "merged consultancy"
+},
+{
+"id": "amphenol-socapex.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Amphenol",
+"note": "connector unit"
+},
+{
+"id": "iaggbs.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "IAG",
+"note": "shared services unit"
+},
+{
+"id": "camozzi.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Camozzi Group",
+"note": "automation unit"
+},
+{
+"id": "outsourcinghelp.net",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "individual marketer"
+},
+{
+"id": "hamburg-airport.de",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "airport operator"
+},
+{
+"id": "bellrock.co.uk",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "facilities and property mgmt"
+},
+{
+"id": "halconviajes.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Avoris",
+"note": "travel agency network"
+},
+{
+"id": "warehouse.co.uk",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Boohoo Group",
+"note": "fashion brand"
+},
+{
+"id": "micromania.fr",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "GameStop",
+"note": "video game retailer"
+},
+{
+"id": "dertour-suisse.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "REWE Group",
+"note": "tour operator unit"
+},
+{
+"id": "mediamarkt.be",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Ceconomy",
+"note": "country unit"
+},
+{
+"id": "alko.fi",
+"t": "real",
+"fit": 0,
+"scale": "large",
+"parent": "",
+"note": "state alcohol monopoly"
+},
+{
+"id": "fly.dhl",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "DHL",
+"note": "cargo airline unit"
+},
+{
+"id": "busch-jaeger.de",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "ABB",
+"note": "switch brand"
+},
+{
+"id": "ferreyros.com.pe",
+"t": "real",
+"fit": 1,
+"scale": "large",
+"parent": "Grupo Breca",
+"note": "Cat dealer Peru"
+},
+{
+"id": "pabcbank.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Sri Lanka bank"
+},
+{
+"id": "tblbd.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Bangladesh bank"
+},
+{
+"id": "jaizbankplc.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Nigeria bank"
+},
+{
+"id": "lidl.ch",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Schwarz Group",
+"note": "country unit"
+},
+{
+"id": "enaire.es",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "air navigation provider"
+},
+{
+"id": "mesko.com.pl",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "PGZ",
+"note": "ammunition maker"
+},
+{
+"id": "kenya-airways.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "airline"
+},
+{
+"id": "lindt.ch",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Lindt & Sprungli",
+"note": "country unit"
+},
+{
+"id": "size.co.uk",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "JD Sports",
+"note": "sneaker retailer"
+},
+{
+"id": "prenatalretailgroup.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "baby retail group"
+},
+{
+"id": "akcome.com",
+"t": "real",
+"fit": 1,
+"scale": "unknown",
+"parent": "",
+"note": "solar maker, restructured"
+},
+{
+"id": "thyssenkrupp-aerospace.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "thyssenkrupp",
+"note": "aerospace unit"
+},
+{
+"id": "northgateps.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "absorbed into NEC"
+},
+{
+"id": "myenterprisegroup.io",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Ghana property"
+},
+{
+"id": "promate.com.tw",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "electronics distributor"
+},
+{
+"id": "campuslabs.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "mislabelled record"
+}
+]
