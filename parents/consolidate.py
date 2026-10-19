@@ -112,6 +112,66 @@ for l in lu.itertuples():
         lusha_industry=l.industry, lusha_revenue=l.revenue_range, lusha_ipo=l.is_ipo, linkedin=l.linkedin)
     alias.setdefault(strict(l.name), pk)
     if l.rd: alias.setdefault(l.rd, pk)
+
+# ---------------------------------------------------------------- knowledge scoring of connector-sourced records
+# parents/score_out/chunk_*.json: Sonnet's parent check and scores for the Apollo/Lusha-only records (see score_brief.md)
+SF = ['in_name', 'status', 'parent_name', 'hq_country', 'domain', 'type', 'ticker', 'val_bn', 'val_basis', 'val_date', 'funding_m',
+      'sector', 'brand', 'approach', 'why', 'a', 's', 'l', 'n', 'fin', 'f1', 'subs', 'conf', 'qualifies', 'note']
+scored = {}
+for f in sorted(glob.glob(f'{R}/parents/score_out/chunk_*.json')):
+    try:
+        for r in json.load(open(f)):
+            if isinstance(r, list) and len(r) == 25: scored[strict(r[0])] = dict(zip(SF, r))
+    except Exception as e: print('bad score file', f, e)
+print('scored connector records', len(scored))
+excluded = []        # [name, domain, reason, sources]
+def kfields(sc):
+    d = {k: sc.get(k) for k in ('hq_country', 'domain', 'type', 'ticker', 'val_basis', 'val_date', 'sector', 'brand', 'approach', 'why', 'fin', 'f1', 'conf')}
+    d['val_bn'] = num(sc.get('val_bn')); d['funding_m'] = num(sc.get('funding_m'))
+    for k in ('a', 's', 'l', 'n'):
+        try: d[k] = max(0, min(4, int(sc.get(k) or 0)))
+        except Exception: d[k] = 1
+    try: d['sector'] = max(1, min(48, int(sc.get('sector') or 48)))
+    except Exception: d['sector'] = 48
+    d['subs'] = [str(x) for x in sc.get('subs') or []]
+    d['note'] = sc.get('note') or ''; d['qualifies_k'] = sc.get('qualifies') or '?'
+    return {k: v for k, v in d.items() if v not in (None, '')}
+n_applied = collections.Counter()
+for key in list(recs):
+    r = recs[key]
+    if 'knowledge' in r['sources']: continue
+    sc = None
+    for nm in r['names'] | {r.get('name', '')}:
+        sc = scored.get(strict(nm))
+        if sc: break
+    if not sc: continue
+    st = sc['status']; n_applied[st] += 1
+    if st == 'X':
+        excluded.append([r.get('name'), r.get('domain', ''), 'not a prospect: ' + (sc.get('note') or 'fund vehicle / public body / defunct / absorbed'), ', '.join(sorted(r['sources']))])
+        for nm in r['names']: alias.pop(strict(nm), None)
+        del recs[key]; continue
+    if st == 'U':
+        r['conf'] = 'U'; r['note'] = sc.get('note') or 'not recognised by knowledge model'; continue
+    if st == 'S' and sc.get('parent_name') and strict(sc['parent_name']) != strict(r.get('name', '')):
+        pname = sc['parent_name']; pdom = sc.get('domain') or ''
+        pk = resolve(pname, pdom) or pkey(pname, pdom)
+        if pk == key: pk = 'n:' + strict(pname)
+        child_names = set(r['names']) | {r.get('name', '')}
+        tgt = add(pk, 'knowledge-scored', name=pname, names=[pname], **kfields(sc))
+        tgt['sources'] |= r['sources']; tgt['children'] |= child_names | r['children']; tgt['subs'] |= r['subs']
+        if r.get('apollo_funding'): tgt.setdefault('apollo_funding', r['apollo_funding'])
+        tgt.setdefault('apollo_funded_child', r.get('name'))
+        for nm in child_names: alias[strict(nm)] = pk
+        if pdom: alias.setdefault(regdom(pdom), pk)
+        del recs[key]; continue
+    # status P: fill the record with knowledge fields (keep the connector's own values where knowledge is blank)
+    r['sources'].add('knowledge-scored')
+    for k, v in kfields(sc).items():
+        if k == 'subs': r['subs'] |= set(v)
+        elif k == 'domain' and r.get('domain'): continue
+        else: r[k] = v
+    for s_ in r['subs']: alias.setdefault(strict(s_), key)
+print('scoring applied', dict(n_applied), '| excluded as non-prospects', len(excluded))
 par = pd.DataFrame([{**{k: (sorted(v) if isinstance(v, set) else v) for k, v in r.items()}, 'key': key} for key, r in recs.items()])
 par['sn'] = par['name'].map(strict); par['rd'] = par['domain'].fillna('').map(regdom)
 # same parent reached under two keys (name key vs domain key): keep the first, record the duplicate
@@ -186,5 +246,6 @@ par['needs_score'] = par['a'].isna() if 'a' in par else True
 par.to_pickle(f'{P}/parents.pkl')
 print('overlap only with the unworked Friday Clay export:', int(par['clay_only'].sum()), '| needs knowledge scoring:', int(par['needs_score'].sum()))
 pd.DataFrame(dups, columns=['parent', 'domain', 'reason', 'sources']).to_pickle(f'{P}/dups.pkl')
+pd.DataFrame(excluded, columns=['parent', 'domain', 'reason', 'sources']).to_pickle(f'{P}/excluded.pkl')
 print(par['overlap_cat'].value_counts().to_dict())
 print(par.groupby('overlap_cat')['sources'].apply(lambda x: collections.Counter(tuple(s) for s in x).most_common(4)).to_string()[:1500])
