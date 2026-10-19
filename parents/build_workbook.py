@@ -43,7 +43,8 @@ m = (par['qual'] == '') & par['apollo_funding'].notna(); par.loc[m, 'qual'] = 'C
 m = (par['qual'] == '') & par['sources'].map(lambda x: 'lusha' in x); par.loc[m, 'qual'] = 'Cumulative funding >= USD 100M (Lusha database filter; amount not disclosed)'
 par['qualifies_k'] = par.get('qualifies_k', pd.Series('', index=par.index)).fillna('')
 # knowledge says it clearly does not qualify, and no figure contradicts that -> excluded
-not_q = (par['qualifies_k'] == 'N') & (par['val_bn'].fillna(0) < 1) & (par['funding_m'].fillna(0) < 100)
+not_q = ((par['qualifies_k'] == 'N') & (par['val_bn'].fillna(0) < 1) & (par['funding_m'].fillna(0) < 100)) | \
+        ((par['qual'] == '') & par['val_bn'].notna())      # verified market cap now below USD 1B and no funding criterion
 f1 = par['f1'].fillna('').astype(str)
 UNSURE = re.compile(r'unsure|verify|unverified|former|past|\?|reported|possible|check|ended|expired|until 20', re.I)
 par['f1_current'] = (f1.str.strip() != '') & ~f1.str.contains(UNSURE)
@@ -124,6 +125,13 @@ par.loc[par['f1_current'], 'bucket'] = 'F1'
 def rank(df):
     df = df.sort_values(['total', 'fit', 'val_bn'], ascending=[False, False, False], na_position='last').reset_index(drop=True)
     df.insert(0, 'rank', range(1, len(df) + 1)); return df
+DROPPED = re.compile(r'DROPPED|REJECT|AUTO-REMOVED|Unsorted|UNCHECKED|PENDING', re.I)
+def otype(r):
+    if r['parent_listed'] == 'no': return '1 - Group-level NEW: only a subsidiary/brand was listed, the parent never was'
+    if r['clay_only']: return '2 - Only in the unworked Friday Clay export (never approached)'
+    if DROPPED.search(s(r['parent_where'])) and not re.search(r'MASTER REFERENCE|FINAL|Top2000|Prospect-Book', s(r['parent_where'])): return '3 - Parent listed before but only in dropped / rejected / unchecked sheets - revisit'
+    return '4 - Parent already in worked datasets'
+par['otype'] = par.apply(otype, axis=1)
 A = rank(par[par['bucket'] == 'A']); B = rank(par[par['bucket'] == 'B']); C = par[par['bucket'] == 'C'].sort_values('total', ascending=False)
 F1 = par[par['bucket'] == 'F1'].sort_values('total', ascending=False); XQ = par[par['bucket'] == 'XQ']
 print('A', len(A), 'B', len(B), 'C', len(C), 'F1', len(F1), 'not qualified', len(XQ), 'dups', len(dups), 'excluded', len(excl))
@@ -185,8 +193,6 @@ for sec in NAMES:
 OH = ['Overlap Rank', 'Parent Company Name', 'HQ Country', 'Industry / Sector', 'Website', 'Existing Subsidiary / Brand(s) in datasets', 'Dataset(s)',
       'Parent itself listed?', 'Where parent is listed', 'Overlap type', 'Most Relevant Subsidiary / Brand', 'Recommended Approach', 'Why still worth approaching at parent level',
       'Valuation / Market Cap', 'Cumulative Funding', 'Qualification Criterion Met', 'F1 Fit (/60)', 'Financial Capacity (/40)', 'Total (/100)', 'Research Confidence', 'Sources & Dates', 'Possible F1 link to verify']
-def otype(r):
-    return 'Only in the unworked Friday Clay export (never approached)' if r['clay_only'] else 'In Old Google Drive / previous prospect workbooks (worked before)'
 orows = [[r['rank'], s(r['name']), s(r['hq_country']), r['sector_name'], r['website'], s(r['existing_brands']) or ('parent itself' if r['parent_listed'] == 'yes' else ''), s(r['datasets']),
           r['parent_listed'], s(r['parent_where']), otype(r), r['brand_txt'], r['approach_txt'],
           (r['why_txt'] + ('; group-level deal not previously explored' if r['parent_listed'] == 'no' else '; parent already listed - revisit at group level with new sector/brand angle')).strip('; '),
@@ -195,7 +201,7 @@ sheet('EXISTING CORPORATE-GROUP OVERLAPS', OH, orows, [7, 30, 14, 26, 22, 45, 30
 # excluded
 EH = ['Company', 'Website', 'Reason excluded', 'Source(s)']
 erows = [[d.parent, d.domain, d.reason, d.sources] for d in dups.itertuples()] + [[e.parent, e.domain, e.reason, e.sources] for e in excl.itertuples()] + \
-        [[s(r['name']), r['website'], 'does not meet the qualification (valuation < USD 1B and funding < USD 100M per research knowledge)' + (f"; {s(r['note'])}" if s(r.get('note')) else ''), ', '.join(r['sources'])] for _, r in XQ.iterrows()]
+        [[s(r['name']), r['website'], ('market cap now below USD 1B (' + r['val_txt'] + ') and no funding criterion' if r['qual'] == '' else 'does not meet the qualification (valuation < USD 1B and funding < USD 100M per research knowledge)') + (f"; {s(r['note'])}" if s(r.get('note')) else ''), ', '.join(r['sources'])] for _, r in XQ.iterrows()]
 sheet('EXCLUDED DIRECT DUPLICATES', EH, erows, [32, 26, 80, 24])
 # existing F1 sponsors
 FH = ['Parent Company Name', 'HQ Country', 'Industry / Sector', 'Website', 'Current F1 link', 'Valuation / Market Cap', 'F1 Fit (/60)', 'Financial Capacity (/40)', 'Total (/100)', 'Sources & Dates']
@@ -220,7 +226,9 @@ srows = [['Parents discovered (all sources, after merging duplicate records)', l
          ['Confirmed current F1 sponsors set aside', len(F1)],
          ['Category A - genuinely new parents (master ranking)', len(A)],
          ['Category B - corporate-group overlaps', len(B)], ['   of which overlap only with the unworked Friday Clay export', int(B['clay_only'].sum())],
-         ['   of which parent itself already listed', int((B['parent_listed'] == 'yes').sum())],
+         ['   of which parent itself already listed', int((B['parent_listed'] == 'yes').sum())]] + \
+        [['   Overlap type ' + k, int(v)] for k, v in B['otype'].value_counts().sort_index().items()] + [
+         ['Headline: share of all qualified parents already present in existing datasets', f"{len(B) / max(1, len(A) + len(B)):.0%}"],
          ['Category C - manual review', len(C)], ['Preliminary rows in master ranking', int(A['preliminary'].sum())], ['', '']]
 srows += [['New parents by sector: ' + k, int(v)] for k, v in secs.items()] + [['', '']]
 srows += [[f'Top {i} new parent', f"{r['name']} ({r['hq_country']}) - {r['sector_name']} - total {r['total']}"] for i, (_, r) in enumerate(A.head(20).iterrows(), 1)]

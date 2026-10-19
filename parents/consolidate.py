@@ -179,10 +179,12 @@ dups = []
 seen = {}
 keep = []
 for r in par.itertuples():
-    k2 = r.rd or r.sn
-    if k2 in seen:
-        dups.append([r.name, r.domain, 'same parent as ' + seen[k2], ', '.join(r.sources)]); continue
-    seen[k2] = r.name; keep.append(r.Index)
+    keys2 = [k for k in (r.rd, r.sn) if k and (k != r.sn or len(r.sn) >= 6)]      # website, or a distinctive name
+    hit = next((k for k in keys2 if k in seen), None)
+    if hit:
+        dups.append([r.name, r.domain, 'same parent as ' + seen[hit], ', '.join(r.sources)]); continue
+    for k in keys2: seen[k] = r.name
+    keep.append(r.Index)
 par = par.loc[keep].reset_index(drop=True)
 print('parents', len(par), 'merged duplicate parent records', len(dups))
 
