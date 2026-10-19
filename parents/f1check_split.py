@@ -1,4 +1,4 @@
-"""Write parents/f1check_in/chunk_NNN.json (800 rows each) for every row that can appear on the master, overlaps and
+"""Write parents/f1check_in/chunk_NNN.json (500 rows each) for every row that can appear on the master, overlaps and
 Drive CSV tabs: ranked parents (overlap_cat A/B) from parents.pkl, plus the Drive CSV brands. Rows: [key, name, domain,
 hq_country, sector, note]. Drive brands use the key 'drive:<name>'."""
 import json, os, sys
@@ -18,6 +18,6 @@ crit = w16['criterion'].fillna('')
 w16 = w16[(w16['funding_100m_apollo'] == True) | crit.str.contains('Valuation|Funding', regex=True)]      # same filter as the Drive CSV tab
 rows += [['drive:' + s(r['name']), s(r['name']), s(r['domain']), s(r['country']), s(r['sector']), s(r['f1_deal'])] for _, r in w16.iterrows()]
 os.makedirs(f'{R}/parents/f1check_in', exist_ok=True); os.makedirs(f'{R}/parents/f1check_out', exist_ok=True)
-for i in range(0, len(rows), 800):
-    json.dump(rows[i:i + 500], open(f'{R}/parents/f1check_in/chunk_{i // 800 + 1:03d}.json', 'w'), ensure_ascii=False)
-print(len(rows), 'rows ->', (len(rows) + 799) // 800, 'chunks')
+for i in range(0, len(rows), 500):
+    json.dump(rows[i:i + 500], open(f'{R}/parents/f1check_in/chunk_{i // 500 + 1:03d}.json', 'w'), ensure_ascii=False)
+print(len(rows), 'rows ->', (len(rows) + 499) // 500, 'chunks')
