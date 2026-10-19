@@ -29,7 +29,8 @@ Branch: `claude/f1-sponsorship-prospects-3esslw`. Everything needed to resume is
 - `parents/lusha/page_000..029.json` - Lusha company search, total funds >= USD 100M, 50/page (60 credits).
 - `parents/score_in/chunk_NN.json` -> `parents/score_out/chunk_NN.json` - knowledge scoring of connector-only
   records (`score_brief.md`, 25-field rows). Chunks 1-74 = Apollo/Lusha records; 75-79 = market-cap listing
-  companies absent from all datasets.
+  companies absent from all datasets; 80-98 = previously unrecognised records re-identified from gathered public
+  evidence (`identify_brief.md`, `parents/peek/`); 99-133 = Apollo records whose parent was already in the datasets.
 - `parents/checkpoints/` - compact copies of the scratchpad-only inputs: existing-dataset indexes (Old Drive +
   workbooks; Friday Clay export), the Wave 16 brand ranking (for the DRIVE CSV BRANDS tab), the market-cap
   listing fetched 2026-10-19 (used to verify listed parents' market caps and as a discovery source).
@@ -48,7 +49,7 @@ all datasets. Each chunk is scored by a Sonnet agent with `score_brief.md`; disc
 `mcp__Apollo_io`, already committed - effective in a fresh session).
 
 ## State at last build (19 Oct 2026, final run of this session)
-- Master ranking (Category A, genuinely new parents): 2,065 | Existing group overlaps (B): 6,313 | Manual review (C): 756
+- Master ranking (Category A, genuinely new parents): 2,063 | Existing group overlaps (B): 9,401 (all 5,546 Apollo matches now scored and merged) | Manual review (C): 1,798
 - Confirmed current F1 sponsors set aside: 106 | Excluded (duplicates, non-prospects, below thresholds): 4,211
 - Drive CSV brands meeting the parameters (separate tab): 2,320 | QC: 13/13 checks pass
 - Web/offline verification applied to the 500 top-ranked new parents (parents/verify_out); public evidence for the
