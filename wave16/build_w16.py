@@ -98,6 +98,31 @@ p['criteria'] = [((v2.get(r.rd) or {}).get('criteria_met') or (r.v_criteria_met 
                  for r in p.itertuples()]
 
 
+# ---------- existing F1 sponsors (known sponsor lists + research findings)
+SPN = {}
+for row in csv.DictReader(open(f'{R}/reports/f1-sponsor-competitor-map-ring2-2026-08.csv')):
+    k = strict(row.get('f1_sponsor')); 
+    if len(k) >= 3: SPN.setdefault(k, f"{row.get('f1_sponsor')} - {row.get('sponsor_f1_relationship', 'F1 partner')}")
+for row in csv.DictReader(open(f'{R}/reports/f1-sponsor-competitor-map-2026-08.csv')):
+    if (row.get('already_in_f1') or '').upper().startswith('Y'):
+        k = strict(row.get('brand'))
+        if len(k) >= 3: SPN.setdefault(k, f"{row.get('brand')} - already in F1 (sponsor map)")
+for k, v in json.load(open(f'{R}/wave14/f1_ties_found.json')).items():
+    kk = strict(k)
+    if len(kk) >= 3: SPN.setdefault(kk, f'{k} - {str(v)[:160]}')
+def f1flag(r):
+    v = v2.get(r.rd) or {}
+    cur = str(v.get('f1_current') or r.v_f1_current or '').strip()
+    if cur and not re.match(r'^(none|no |n/a|no current|not found|-)', cur, re.I):
+        return cur[:220], 'research'
+    k = strict(r.name)
+    if k in SPN: return SPN[k][:220], 'known F1 sponsor list'
+    pk = strict(r.parent_final)
+    if pk in SPN and pk: return 'via parent: ' + SPN[pk][:200], 'parent on F1 sponsor list'
+    return '', ''
+ff = [f1flag(r) for r in p.itertuples()]
+p['f1_deal'] = [a for a, b in ff]; p['f1_flag_src'] = [b for a, b in ff]
+
 # manual review: possible duplicates, failed verification, unclear ownership flagged by research
 p['nap'] = p['rd'].map(lambda d: (v2.get(d) or {}).get('not_a_prospect', ''))
 p['v1_junk'] = p['verified'] & (p['v_verification'] == 'Not verified') & ~p['researched']
@@ -162,7 +187,7 @@ MH = ['overall rank', 'sector rank', 'brand', 'sector', 'website', 'PRIORITY SCO
       'total funding (USD)', 'funding source / date', 'profitability', 'profitability source', 'marketing / sponsorship evidence',
       'financial criterion met', 'audience (15)', 'synergy (15)', 'alignment (10)', 'international (5)', 'category (5)',
       'revenue & scale (15)', 'valuation/capital (10)', 'profitability (15)', 'marketing capacity (10)',
-      'current F1 deal (info)', 'parent company', 'country', 'staff', 'type', 'source links', 'source CSV']
+      'existing F1 sponsor / deal', 'parent company', 'country', 'staff', 'type', 'source links', 'source CSV']
 def mrow(r):
     v = v2.get(r.rd) or {}
     src = v.get('sources') or r.v_sources or ''
@@ -176,7 +201,7 @@ def mrow(r):
             v.get('profitability', 'unknown'), v.get('profitability_source', ''), v.get('marketing_evidence', 'unknown'),
             r.criteria, r.audience, r.synergy, r.alignment, r.international, r.category,
             r.revenue_scale, r.capital, r.profitability_score, r.marketing,
-            v.get('f1_current') or r.v_f1_current or '', r.parent_final, r.country, r.size, r.type, src, r.source_csv]
+            r.f1_deal, r.parent_final, r.country, r.size, r.type, src, r.source_csv]
 W = [8, 7, 32, 26, 22, 10, 8, 9, 18, 26, 60, 22, 30, 18, 26, 20, 26, 18, 26, 30, 28, 7, 7, 7, 7, 7, 7, 7, 7, 7, 24, 24, 14, 12, 14, 40, 18]
 n_ver = int(q['verified'].sum())
 readme = [['F1 Wave 16 - Friday Clay export: new brands, financially screened and ranked'], [''],
@@ -196,7 +221,8 @@ readme = [['F1 Wave 16 - Friday Clay export: new brands, financially screened an
  ['Counts'], [f'  Rows in the 13 CSVs: {len(pd.read_pickle(f"{S}/new_all.pkl")):,}   Unique companies: {len(dd) + len(pd.read_pickle(f"{S}/internal_dups.pkl")) - len(pd.read_pickle(f"{S}/internal_dups.pkl")):,}'],
  [f'  Excluded as duplicates of old/earlier-wave brands: {len(ex):,}   Possible duplicates (Manual Review): {(p.dup_status == "maybe").sum():,}'],
  [f'  New brands ranked: {len(q):,}   of which independently verified so far: {n_ver:,}'],
- [f'  Parent-company overlaps with old data: {len(pod):,}   Parents shared by 2+ new brands: {len(shared):,}'], [''],
+ [f'  Parent-company overlaps with old data: {len(pod):,}   Parents shared by 2+ new brands: {len(shared):,}'],
+ [f'  Already F1 sponsors (directly or via parent) - listed on the Existing F1 Sponsors tab and flagged in the ranking: {(q.f1_deal != "").sum():,}'], [''],
  ['Do not treat parent-company finances as the brand\'s own. Figures marked "estimate" come from Clay/Apollo databases and must be confirmed before outreach.']]
 ws = wb.create_sheet('00 READ ME'); ws.column_dimensions['A'].width = 140
 for l in readme: ws.append(l)
@@ -205,6 +231,10 @@ for s, c in q['sector'].value_counts().sort_index().items(): ws.append([s, int(c
 sheet('01 Master Ranking', MH, (mrow(r) for r in q.itertuples()), W)
 for s in sorted(q['sector'].unique()):
     sheet(s, MH, (mrow(r) for r in q[q['sector'] == s].itertuples()), W)
+f1s = q[q['f1_deal'] != '']
+sheet('Existing F1 Sponsors', ['overall rank', 'brand', 'sector', 'website', 'PRIORITY SCORE (0-100)', 'F1 deal / relationship', 'how identified', 'research status', 'parent company', 'country'],
+      ([r.overall_rank, r.name, r.sector, r.domain, r.priority, r.f1_deal, r.f1_flag_src, r.research_status, r.parent_final, r.country] for r in f1s.itertuples()),
+      [8, 32, 26, 22, 10, 70, 24, 26, 24, 14])
 sheet('Parent Company Overlaps', list(pod.columns), pod.values.tolist(), [28, 28, 40, 30, 24, 26, 30, 30, 24, 14])
 sheet('Shared Parents (new brands)', ['parent', 'new brands with this parent', 'count'], shared.values.tolist(), [34, 120, 8])
 sheet('Excluded Duplicates', ['brand (new file)', 'website', 'reason excluded', 'already in (file | tab)', 'source CSV'], ex.values.tolist(), [34, 26, 50, 50, 20])
