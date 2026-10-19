@@ -218,7 +218,8 @@ readme = [['F1 Wave 16 - Friday Clay export: new brands, financially screened an
  ['Every Friday CSV was pulled with a Clay revenue filter of USD 75M+, so every brand carries preliminary revenue evidence (Clay ESTIMATE, not verified).'], [''],
  ['Research status'], ['  Preliminary - Clay revenue estimate (unverified): screened from existing data only.'],
  ['  Verified / Partially verified: independently checked with sources and dates (see source links).'],
- ['  Manual Review tab: possible duplicates, failed or unclear verification, unclear ownership.'], [''],
+ ['  Manual Review tab: possible duplicates, failed or unclear verification, unclear ownership.'],
+ ['  One tab per sector: see the companion file ending -SECTORS.xlsx (split out to keep file sizes manageable).'], [''],
  ['OVERALL SPONSORSHIP PRIORITY SCORE (0-100) = F1 FIT (50) + FINANCIAL CAPACITY (50)'],
  ['  F1 fit: audience overlap 15, commercial synergies 15, brand alignment 10, international presence 5, category opportunity 5.'],
  ['  Financial capacity: revenue & scale 15, valuation/funding/capital 10, profitability & cash flow 15, marketing/sponsorship capacity 10.'],
@@ -237,8 +238,6 @@ for l in readme: ws.append(l)
 ws.append(['']); ws.append(['Brands per sector', 'count'])
 for s, c in q['sector'].value_counts().sort_index().items(): ws.append([s, int(c)])
 sheet('01 Master Ranking', MH, (mrow(r) for r in q.itertuples()), W)
-for s in sorted(q['sector'].unique()):
-    sheet(s, MH, (mrow(r) for r in q[q['sector'] == s].itertuples()), W)
 f1s = q[q['f1_deal'] != '']
 sheet('Existing F1 Sponsors', ['overall rank', 'brand', 'sector', 'website', 'PRIORITY SCORE (0-100)', 'F1 deal / relationship', 'how identified', 'research status', 'parent company', 'country'],
       ([r.overall_rank, r.name, r.sector, r.domain, r.priority, r.f1_deal, r.f1_flag_src, r.research_status, r.parent_final, r.country] for r in f1s.itertuples()),
@@ -251,5 +250,16 @@ sheet('Manual Review', MRH, ([r.name, r.domain, r.sector, 'possible duplicate' i
                               r.dup_reason or r.v_reason, r.matched_in, r.revenue_usd, r.country, r.size, r.source_csv] for r in mr.itertuples()),
       [32, 24, 26, 26, 50, 40, 26, 14, 12, 18])
 wb.save(sys.argv[1])
+# sector tabs go in a second workbook so each file stays under GitHub's 100MB limit
+out2 = re.sub(r'\.xlsx$', '-SECTORS.xlsx', sys.argv[1])
+wb = Workbook(write_only=True)
+ws = wb.create_sheet('00 READ ME'); ws.column_dimensions['A'].width = 140
+ws.append(['F1 Wave 16 - one tab per sector. Same columns and scores as 01 Master Ranking in ' + os.path.basename(sys.argv[1]) + '.'])
+ws.append(['sector rank = rank within the sector; overall rank = rank across all sectors.']); ws.append([''])
+ws.append(['Sector', 'brands'])
+for sec, c in q['sector'].value_counts().sort_index().items(): ws.append([sec, int(c)])
+for sec in sorted(q['sector'].unique()):
+    sheet(sec, MH, (mrow(r) for r in q[q['sector'] == sec].itertuples()), W)
+wb.save(out2)
 q.to_pickle(f'{S}/ranked.pkl')
 print('ranked', len(q), 'manual review', len(mr), 'excluded', len(ex), 'parent overlaps', len(pod), 'shared parents', len(shared), 'sectors', q['sector'].nunique())
