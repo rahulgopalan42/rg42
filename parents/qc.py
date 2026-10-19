@@ -27,11 +27,12 @@ cnt = collections.Counter(); rank_ok = True
 for sh in x.sheet_names:
     if sh in skip: continue
     t = x.parse(sh)
+    if t['Sector Rank'].tolist() != list(range(1, len(t) + 1)) or not t['Total Score (/100)'].is_monotonic_decreasing: rank_ok = False
     for n_, r_, tot in zip(t['Parent Company Name'], t['Overall Rank'], t['Total Score (/100)']):
         cnt[n_] += 1
         mr = M.loc[M['Parent Company Name'] == n_, 'Overall Rank']
         if not len(mr) or int(mr.iloc[0]) != int(r_): rank_ok = False
-check(5, 'Each master parent appears in exactly one industry tab with its overall rank preserved', all(cnt[n_] == 1 for n_ in M['Parent Company Name']) and rank_ok and sum(cnt.values()) == len(M), f"industry rows {sum(cnt.values())} vs master {len(M)}")
+check(5, 'Each master parent appears in exactly one industry tab; tabs ranked independently 1..N by Total with the overall rank preserved', all(cnt[n_] == 1 for n_ in M['Parent Company Name']) and rank_ok and sum(cnt.values()) == len(M), f"industry rows {sum(cnt.values())} vs master {len(M)}")
 # 6 overlaps tab content
 check(6, 'Every overlap row names the existing subsidiary/brand or the parent itself, and the dataset', (B['Existing Subsidiary / Brand(s) in datasets'].fillna('').str.len().gt(0) & B['Dataset(s)'].fillna('').str.len().gt(0)).all())
 check(6, 'Overlaps ranked separately with consecutive ranks', B['Overlap Rank'].tolist() == list(range(1, len(B) + 1)))

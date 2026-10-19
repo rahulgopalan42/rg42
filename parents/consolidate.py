@@ -17,24 +17,27 @@ GENERIC_PARENT = {'', 'none', 'na', 'nan', 'independent', 'private', 'public', '
 # ---------------------------------------------------------------- knowledge discovery
 F = ['name', 'hq_country', 'domain', 'type', 'ticker', 'val_bn', 'val_basis', 'val_date', 'funding_m', 'sector', 'brand', 'approach',
      'why', 'a', 's', 'l', 'n', 'fin', 'f1', 'subs', 'conf']
-rows, bad = [], 0
-for f in sorted(glob.glob(f'{R}/parents/discover/cat_*.json')):
-    cat = os.path.basename(f)[4:6]
-    try: data = json.load(open(f))
-    except Exception: bad += 1; continue
-    for r in data:
-        if not isinstance(r, list) or len(r) != 21: bad += 1; continue
-        d = dict(zip(F, r)); d['cat'] = cat; rows.append(d)
-disc = pd.DataFrame(rows)
-print('discovery rows', len(disc), 'bad', bad, 'categories', disc['cat'].nunique() if len(disc) else 0)
 def num(x):
     try: return float(x) if x is not None and x != '' else None
     except Exception: return None
+rows, bad = [], 0
+for f in sorted(glob.glob(f'{R}/parents/discover/cat_*.json')):
+    cat = os.path.basename(f)[4:-5]
+    try: data = json.load(open(f))
+    except Exception: bad += 1; continue
+    for r in data:
+        if not isinstance(r, list) or len(r) not in (21, 22): bad += 1; continue
+        d = dict(zip(F, r[:21])); d['cat'] = cat
+        d['revenue_m'] = num(r[21]) if len(r) == 22 else None      # round-2 discovery rows carry annual revenue (USD M)
+        rows.append(d)
+disc = pd.DataFrame(rows)
+print('discovery rows', len(disc), 'bad', bad, 'categories', disc['cat'].nunique() if len(disc) else 0)
 for c in ('val_bn', 'funding_m'): disc[c] = disc[c].map(num)
 for c in ('a', 's', 'l', 'n'): disc[c] = pd.to_numeric(disc[c], errors='coerce').fillna(1).clip(0, 4).astype(int)
 disc['sector'] = pd.to_numeric(disc['sector'], errors='coerce').fillna(48).clip(1, 48).astype(int)
 disc['subs'] = disc['subs'].map(lambda x: [str(s) for s in x] if isinstance(x, list) else [])
-disc['qualifies'] = (disc['val_bn'].fillna(0) >= 1) | (disc['funding_m'].fillna(0) >= 100)
+disc['revenue_m'] = disc['revenue_m'].map(num) if 'revenue_m' in disc else None
+disc['qualifies'] = (disc['val_bn'].fillna(0) >= 1) | (disc['funding_m'].fillna(0) >= 100) | (disc['revenue_m'].fillna(0) >= 100)
 print('discovery qualifying', int(disc['qualifies'].sum()))
 
 # ---------------------------------------------------------------- Apollo / Lusha pulls
@@ -85,7 +88,8 @@ for d in disc.itertuples():
     if d.domain: alias.setdefault(regdom(d.domain), k)
     add(k, 'knowledge', name=d.name, hq_country=d.hq_country, domain=d.domain, type=d.type, ticker=d.ticker, val_bn=d.val_bn,
         val_basis=d.val_basis, val_date=d.val_date, funding_m=d.funding_m, sector=d.sector, brand=d.brand, approach=d.approach,
-        why=d.why, a=d.a, s=d.s, l=d.l, n=d.n, fin=d.fin, f1=d.f1, subs=d.subs, conf=d.conf, cat=d.cat, names=[d.name])
+        why=d.why, a=d.a, s=d.s, l=d.l, n=d.n, fin=d.fin, f1=d.f1, subs=d.subs, conf=d.conf, cat=d.cat, names=[d.name],
+        **({'revenue_printed': f'{d.revenue_m:.0f}M'} if isinstance(d.revenue_m, float) and d.revenue_m == d.revenue_m and d.revenue_m > 0 else {}))
 # Apollo: attach to a known parent via owner or own identity; otherwise create a parent record
 def resolve(name, dom):
     sn, rd = strict(name), regdom(dom or '')

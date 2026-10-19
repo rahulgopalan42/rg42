@@ -263,7 +263,7 @@ readme = [
  ['Apollo matches tab', 'Every Apollo/Lusha record that matched a company already in your files but was not re-scored, with the sheet it matched. Nothing from the pulls is hidden.'],
  ['Discovery sources', '40 knowledge-research category/region briefs; Apollo.io company search (total funding >= USD 100M, 3,000 records); Lusha company search (total funding >= USD 100M, 1,500 records). No paid enrichment beyond the approved search pages.'],
  ['Cross-reference', 'Every parent, alias, subsidiary and brand name and website checked against: Old Google Drive master files (all worksheets), previous prospect workbooks and CSVs (all worksheets, incl. the Wave 16 final ranking), and the Friday Clay exports (all CSVs).'],
- ['Categories', 'A = genuinely new parent (no parent, subsidiary or brand in any dataset) -> master ranking + industry tabs. B = corporate-group overlap (parent or at least one subsidiary/brand already in a dataset) -> EXISTING CORPORATE-GROUP OVERLAPS, ranked separately. C = identity or qualification uncertain -> MANUAL REVIEW.'],
+ ['Categories', 'A = genuinely new parent (no parent, subsidiary or brand in any dataset) -> master ranking + industry tabs. Each industry tab is ranked independently (Sector Rank 1..N on the same 60/40 parameters); Overall Rank shows the position in the master. B = corporate-group overlap (parent or at least one subsidiary/brand already in a dataset) -> EXISTING CORPORATE-GROUP OVERLAPS, ranked separately. C = identity or qualification uncertain -> MANUAL REVIEW.'],
  ['Scoring', 'F1 Fit /60 = core fit 40 (audience overlap, commercial synergies, brand alignment, international relevance; research judgement) + fit signals 20 (competitor already in F1 4.5, motorsport adjacency 4.5, expansion moment 4, race-market footprint 3.5, founder/CEO affinity 3.5). Financial Capacity /40 = financial evidence 20 (valuation / funding / revenue bands) + capacity signals 20 (headcount band 6 with 100+ staff as the floor, funding recency and investor quality 6, PE ownership 4, brand-building hires 4). Cheque size assumed: about USD 2.5M per year. Rows are ranked by Total, never by size alone.'],
  ['Signals', 'Signals stand in for the missing financials of private companies (agreed 19 Oct 2026). Deliberately NOT used: prior sponsorship spend, operating proxies (store counts etc.), debt ratings, B2B showcase story. Founder/CEO affinity: 3 documented participant (team stake, races, paddock / Drive to Survive, car collector), 2 reported interest, 1 plausible through company culture, 0 nothing known; the Signal evidence column names the facts. Signals are research knowledge, not verified records.'],
  ['Colour code', 'Amber row = preliminary (figures from memory or connector filter only). Red row = possible current F1 / F1-team link to verify before outreach. Confirmed current F1 sponsors are kept out of the ranking in the EXISTING F1 SPONSORS tab.'],
@@ -281,7 +281,7 @@ _bl = json.load(open(f'{R}/parents/baseline_master.json')) if os.path.exists(f'{
 _bn, _bw = set(_bl['names']), set(_bl['websites'])
 _norm = lambda x: re.sub(r'[^a-z0-9]', '', str(x).lower())
 NEWR = A[~A['name'].map(_norm).isin(_bn) & ~A['website'].astype(str).str.lower().isin(_bw)]
-sheet('NEW BRANDS THIS ROUND', MH, [mrow(r, r['rank']) for _, r in NEWR.iterrows()], MW, [mfill(r) for _, r in NEWR.iterrows()])
+sheet('NEW BRANDS THIS ROUND', ['Rank in tab'] + MH, [[i] + mrow(r, r['rank']) for i, (_, r) in enumerate(NEWR.iterrows(), 1)], [7] + MW, [mfill(r) for _, r in NEWR.iterrows()])
 print('new brands this round', len(NEWR))
 # industry tabs
 used = set()
@@ -291,7 +291,9 @@ for sec in NAMES:
     t = re.sub(r'[\[\]\*\?/\\:]', '-', sec)[:31]
     while t in used: t = t[:29] + '_2'
     used.add(t)
-    sheet(t, MH, [mrow(r, r['rank']) for _, r in sub.iterrows()], MW, [mfill(r) for _, r in sub.iterrows()])
+    # independent ranking inside the tab (1..N by Total on the new parameters); the overall rank is kept in the next column
+    sub = sub.sort_values(['total', 'fit', 'capacity'], ascending=False)
+    sheet(t, ['Sector Rank'] + MH, [[i] + mrow(r, r['rank']) for i, (_, r) in enumerate(sub.iterrows(), 1)], [7] + MW, [mfill(r) for _, r in sub.iterrows()])
 # overlaps
 OH = ['Overlap Rank', 'Parent Company Name', 'HQ Country', 'Industry / Sector', 'Website', 'Existing Subsidiary / Brand(s) in datasets', 'Dataset(s)',
       'Parent itself listed?', 'Where parent is listed', 'Overlap type', 'Most Relevant Subsidiary / Brand', 'Recommended Approach', 'Why still worth approaching at parent level',
