@@ -48,16 +48,24 @@ all datasets. Each chunk is scored by a Sonnet agent with `score_brief.md`; disc
 `discover_brief.md`. Apollo pulls use `apollo_brief.md` (needs `.claude/settings.json` allow rule
 `mcp__Apollo_io`, already committed - effective in a fresh session).
 
-## State at last build (19 Oct 2026, final run of this session)
-- Master ranking (Category A, genuinely new parents): 2,063 | Existing group overlaps (B): 9,401 (all 5,546 Apollo matches now scored and merged) | Manual review (C): 1,798
-- Confirmed current F1 sponsors set aside: 106 | Excluded (duplicates, non-prospects, below thresholds): 4,211
-- Drive CSV brands meeting the parameters (separate tab): 2,320 | QC: 13/13 checks pass
-- Web/offline verification applied to the 500 top-ranked new parents (parents/verify_out); public evidence for the
-  1,917 previously unrecognised funded companies in parents/peek (homepage + Wikipedia summaries, gathered by
-  parents/peek_sites.py with curl, because the WebSearch budget is shared and small).
+## State at last build (19 Oct 2026, evening run: sponsorship-signals pass + Apollo additions)
+- Master ranking (Category A, genuinely new parents): 2,361 (305 added this round, listed on the NEW BRANDS THIS ROUND
+  tab; baseline of the earlier sheet in parents/baseline_master.json) | Existing group overlaps (B): 9,372 |
+  Manual review (C): 2,904 | Confirmed current F1 sponsors set aside: 122 | QC: 13/13 checks pass.
+- Scoring now 60/40 with signals (Rahul's 19 Oct instruction, cheque size USD 2.5M/yr): Fit 60 = core fit 40 + fit
+  signals 20 (competitor already in F1, motorsport adjacency, expansion moment, race-market footprint, founder/CEO
+  affinity); Capacity 40 = financial evidence 20 + capacity signals 20 (headcount band, funding recency/investor
+  quality, PE ownership, brand-building hires). Removed: sponsorship spend, operating proxies, debt ratings, B2B story.
+  Signals come from parents/signals_out (Sonnet agents, signals_brief.md; inputs parents/signals_in chunk_001-060).
+  Most rows are low-confidence (L): headcount and HQ-country driven; category-level "competitor in F1" defaults.
+  build_workbook.py writes new signals_in chunks for any ranked parent still without a signals row.
+- Apollo funded-company universe (total_funding >= USD 100M, 27,236 records, 273 pages) pulled in full except page
+  231; all new records knowledge-scored (score_out chunk_001-150). Revenue-sorted Apollo searches and Clay
+  revenue-bracket searches were probed (parents/apollo/rev_*.json, parents/clay/probe_001.json): ~0% new, so not
+  pursued. parents/novelty.py measures the novelty of any Apollo page against the user files. Lusha unused (12 credits).
+- Same-group aliases merged in consolidate.py (ANA, DMGT/dmg media, Schwarz, Nord Security, Fila/Misto).
 
 ## Open items
-- Remaining Apollo pages (see above) and any revenue-based connector pull (Apollo `revenue_range`, Lusha
-  revenue filter) - Rahul asked to exhaust public / existing data first and to be asked before spending credits.
+- Apollo page 231 (1 credit) not pulled; 3,280 connector records whose parent is already listed remain unscored (split_score.py variant needed).
 - Manual Review tab: unrecognised connector records (status U) and parents inferred only from a funded
   subsidiary; a web-verification pass would move many into A/B.
