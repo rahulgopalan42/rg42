@@ -1,6 +1,6 @@
 """Step 2b: verify market caps of listed parents against companiesmarketcap.com listing pages fetched on 19 Oct 2026
 (scratchpad/mcap/p*.html). Writes verified.pkl: key, val_bn, val_date, val_basis, src."""
-import glob, os, re, sys
+import glob, html, os, re, sys
 import pandas as pd
 R = '/home/user/rg42'; S = '/tmp/claude-0/-home-user-rg42/f658b5c3-a5ae-5398-b208-f286520b1971/scratchpad'
 sys.path.insert(0, f'{R}/wave16')
@@ -19,7 +19,7 @@ for f in glob.glob(f'{S}/mcap/p*.html'):
         if not mc: continue
         v = float(mc[1:-1]); unit = mc[-1]; v = v * {'T': 1000, 'B': 1, 'M': 0.001}[unit]
         country = tds[-1].split()[-1] if tds else ''
-        rows.append({'name': nm.group(1).strip(), 'code': code, 'val_bn': round(v, 1), 'country': country})
+        rows.append({'name': html.unescape(nm.group(1).strip()), 'code': code, 'val_bn': round(v, 1), 'country': country})
 mc = pd.DataFrame(rows).drop_duplicates('name')
 print('market-cap rows', len(mc), 'min', mc['val_bn'].min() if len(mc) else None)
 base = lambda n: strict(re.sub(r'\s*\(.*?\)\s*', ' ', n))
@@ -35,7 +35,8 @@ for p in par.itertuples():
     if typ != 'listed' and not tk: continue
     hit = None
     sym = tk.split(':')[-1].strip().upper() if tk else ''
-    if sym and sym in by_code: hit = by_code[sym]
+    def tok(n): return {t for t in re.findall(r'[a-z0-9]{3,}', str(n).lower()) if t not in ('the', 'group', 'inc', 'corp', 'corporation', 'company', 'holdings', 'international', 'limited', 'ltd', 'plc', 'and')}
+    if sym and sym in by_code and (tok(by_code[sym].name) & (tok(p.name) | {t for a in (p.names or []) for t in tok(a)})): hit = by_code[sym]
     if hit is None:
         for k in {strict(p.name), base(p.name)} | {strict(a) for a in (p.names or [])}:
             if k in by_name: hit = by_name[k]; break

@@ -59,7 +59,7 @@ def rev_bn(x):
     v = float(mm.group(1)); return v * {'': 1e-9, 'K': 1e-6, 'M': 1e-3, 'B': 1, 'T': 1000}[mm.group(2)]
 par['rev_bn'] = par['revenue_printed'].map(rev_bn) if 'revenue_printed' in par else None
 def capacity(r):
-    v = r['val_bn'] or 0; fu = r['funding_m'] or 0; rv = r['rev_bn'] or 0
+    v = r['val_bn'] if pd.notna(r['val_bn']) else 0; fu = r['funding_m'] if pd.notna(r['funding_m']) else 0; rv = r['rev_bn'] if pd.notna(r['rev_bn']) else 0
     # revenue & scale /20: valuation is the scale proxy; Apollo revenue lifts it where known
     sc = 20 if v >= 100 else 17 if v >= 30 else 14 if v >= 10 else 11 if v >= 3 else 8 if v >= 1 else 6 if fu >= 100 else 5
     if rv >= 10: sc = max(sc, 18)
@@ -88,7 +88,7 @@ def rationale(r):
     if r['s'] >= 3: bits.append('clear activation / hospitality or technology-showcase use')
     if r['l'] >= 3: bits.append('brand fits performance, innovation or premium positioning')
     if r['n'] >= 3: bits.append('active across F1 race markets')
-    v = r['val_bn']; fu = r['funding_m']
+    v = r['val_bn'] if pd.notna(r['val_bn']) else None; fu = r['funding_m'] if pd.notna(r['funding_m']) else None
     if v: bits.append(f"USD {v:,.1f}B {s(r['val_basis']) or 'valuation'}")
     elif fu: bits.append(f"USD {fu:,.0f}M raised")
     else: bits.append('funding >= USD 100M per database filter; size unverified')
@@ -104,8 +104,8 @@ def sources(r):
     if s(r.get('verified_src')): src.append(f"Verified: {r['verified_src']} ({TODAY})")
     return '; '.join(src)
 par['sources_txt'] = par.apply(sources, axis=1)
-par['val_txt'] = par.apply(lambda r: f"USD {r['val_bn']:,.1f}B ({s(r['val_basis']) or 'valuation'}, {s(r['val_date']) or 'date n/a'})" if r['val_bn'] else '', axis=1)
-par['fund_txt'] = par.apply(lambda r: f"USD {r['funding_m']:,.0f}M" if r['funding_m'] else ('>= USD 100M (database filter, amount not disclosed)' if 'database filter' in r['qual'] else ''), axis=1)
+par['val_txt'] = par.apply(lambda r: f"USD {r['val_bn']:,.1f}B ({s(r['val_basis']) or 'valuation'}, {s(r['val_date']) or 'date n/a'})" if pd.notna(r['val_bn']) and r['val_bn'] else '', axis=1)
+par['fund_txt'] = par.apply(lambda r: f"USD {r['funding_m']:,.0f}M" if pd.notna(r['funding_m']) and r['funding_m'] else ('>= USD 100M (database filter, amount not disclosed)' if 'database filter' in r['qual'] else ''), axis=1)
 par['approach_txt'] = par['approach'].map(lambda x: {'G': 'Group-Level', 'B': 'Brand-Level'}.get(s(x), 'Group-Level'))
 par['sector_name'] = par['sector'].map(lambda i: NAMES[int(i) - 1] if 1 <= int(i) <= 48 else NAMES[47])
 par['website'] = par['domain'].map(clean_domain)
