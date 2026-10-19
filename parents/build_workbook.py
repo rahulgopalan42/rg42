@@ -121,6 +121,10 @@ par.loc[par['overlap_cat'] == 'C', 'bucket'] = 'C'
 par.loc[par['conf'].fillna('') == 'U', 'bucket'] = 'C'
 par.loc[par['sn'].str.len() < 3, 'bucket'] = 'C'
 par.loc[not_q, 'bucket'] = 'XQ'
+# sports clubs, teams, leagues and franchise owners are sponsorship properties, not sponsors
+CLUB = re.compile(r'\bFC\b|Football|Soccer|Club\b|Yankees|Warriors|Lakers|Cowboys|Dodgers|Knicks|Celtics|Patriots|Red Sox|Real Madrid|Manchester|Juventus|Saint-Germain|Bayern|Kroenke|Fenway Sports|Liberty Media|\bNBA\b|\bNFL\b|\bMLB\b|\bNHL\b|League\b|Racing\b|Motorsport', re.I)
+is_club = (par['sector'] == 6) & par['name'].astype(str).str.contains(CLUB)
+par.loc[is_club, 'bucket'] = 'XQ'; par.loc[is_club, 'note'] = 'sports property / team owner - a rights holder, not a sponsor'
 par.loc[par['f1_current'], 'bucket'] = 'F1'
 def rank(df):
     df = df.sort_values(['total', 'fit', 'val_bn'], ascending=[False, False, False], na_position='last').reset_index(drop=True)
@@ -132,6 +136,9 @@ def otype(r):
     if DROPPED.search(s(r['parent_where'])) and not re.search(r'MASTER REFERENCE|FINAL|Top2000|Prospect-Book', s(r['parent_where'])): return '3 - Parent listed before but only in dropped / rejected / unchecked sheets - revisit'
     return '4 - Parent already in worked datasets'
 par['otype'] = par.apply(otype, axis=1)
+# connector records whose parent is already in the existing datasets and were not re-scored add nothing new: count them, do not list them
+unscored_B = (par['bucket'] == 'B') & ~par['scored'] & (par['parent_listed'] == 'yes')
+par.loc[unscored_B, 'bucket'] = 'BU'
 A = rank(par[par['bucket'] == 'A']); B = rank(par[par['bucket'] == 'B']); C = par[par['bucket'] == 'C'].sort_values('total', ascending=False)
 F1 = par[par['bucket'] == 'F1'].sort_values('total', ascending=False); XQ = par[par['bucket'] == 'XQ']
 print('A', len(A), 'B', len(B), 'C', len(C), 'F1', len(F1), 'not qualified', len(XQ), 'dups', len(dups), 'excluded', len(excl))
@@ -197,11 +204,11 @@ orows = [[r['rank'], s(r['name']), s(r['hq_country']), r['sector_name'], r['webs
           r['parent_listed'], s(r['parent_where']), otype(r), r['brand_txt'], r['approach_txt'],
           (r['why_txt'] + ('; group-level deal not previously explored' if r['parent_listed'] == 'no' else '; parent already listed - revisit at group level with new sector/brand angle')).strip('; '),
           r['val_txt'], r['fund_txt'], r['qual'], r['fit'], r['capacity'], r['total'], r['confidence'], r['sources_txt'], s(r['f1']) if r['f1_check'] else ''] for _, r in B.iterrows()]
-sheet('EXISTING CORPORATE-GROUP OVERLAPS', OH, orows, [7, 30, 14, 26, 22, 45, 30, 10, 45, 36, 26, 13, 55, 30, 22, 30, 8, 8, 8, 22, 60, 24], [mfill(r) for _, r in B.iterrows()])
+sheet('EXISTING GROUP OVERLAPS', OH, orows, [7, 30, 14, 26, 22, 45, 30, 10, 45, 36, 26, 13, 55, 30, 22, 30, 8, 8, 8, 22, 60, 24], [mfill(r) for _, r in B.iterrows()])
 # excluded
 EH = ['Company', 'Website', 'Reason excluded', 'Source(s)']
 erows = [[d.parent, d.domain, d.reason, d.sources] for d in dups.itertuples()] + [[e.parent, e.domain, e.reason, e.sources] for e in excl.itertuples()] + \
-        [[s(r['name']), r['website'], ('market cap now below USD 1B (' + r['val_txt'] + ') and no funding criterion' if r['qual'] == '' else 'does not meet the qualification (valuation < USD 1B and funding < USD 100M per research knowledge)') + (f"; {s(r['note'])}" if s(r.get('note')) else ''), ', '.join(r['sources'])] for _, r in XQ.iterrows()]
+        [[s(r['name']), r['website'], ('sports property / team owner - a rights holder, not a sponsor' if is_club.get(r.name, False) else 'market cap now below USD 1B (' + r['val_txt'] + ') and no funding criterion' if r['qual'] == '' else 'does not meet the qualification (valuation < USD 1B and funding < USD 100M per research knowledge)') + (f"; {s(r['note'])}" if s(r.get('note')) else ''), ', '.join(r['sources'])] for _, r in XQ.iterrows()]
 sheet('EXCLUDED DIRECT DUPLICATES', EH, erows, [32, 26, 80, 24])
 # existing F1 sponsors
 FH = ['Parent Company Name', 'HQ Country', 'Industry / Sector', 'Website', 'Current F1 link', 'Valuation / Market Cap', 'F1 Fit (/60)', 'Financial Capacity (/40)', 'Total (/100)', 'Sources & Dates']
@@ -229,7 +236,7 @@ srows = [['Parents discovered (all sources, after merging duplicate records)', l
          ['   of which parent itself already listed', int((B['parent_listed'] == 'yes').sum())]] + \
         [['   Overlap type ' + k, int(v)] for k, v in B['otype'].value_counts().sort_index().items()] + [
          ['Headline: share of all qualified parents already present in existing datasets', f"{len(B) / max(1, len(A) + len(B)):.0%}"],
-         ['Category C - manual review', len(C)], ['Preliminary rows in master ranking', int(A['preliminary'].sum())], ['', '']]
+         ['Category C - manual review', len(C)], ['Apollo/Lusha records whose parent is already in existing datasets (not re-scored, not listed)', int(unscored_B.sum())], ['Preliminary rows in master ranking', int(A['preliminary'].sum())], ['', '']]
 srows += [['New parents by sector: ' + k, int(v)] for k, v in secs.items()] + [['', '']]
 srows += [[f'Top {i} new parent', f"{r['name']} ({r['hq_country']}) - {r['sector_name']} - total {r['total']}"] for i, (_, r) in enumerate(A.head(20).iterrows(), 1)]
 sheet('SUMMARY', SH, srows, [70, 90], freeze='A2')

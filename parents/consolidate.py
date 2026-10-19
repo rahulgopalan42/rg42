@@ -179,7 +179,7 @@ dups = []
 seen = {}
 keep = []
 for r in par.itertuples():
-    keys2 = [k for k in (r.rd, r.sn) if k and (k != r.sn or len(r.sn) >= 6)]      # website, or a distinctive name
+    keys2 = [k for k in (r.rd, r.sn) if k and (k != r.sn or len(r.sn) >= 4)]      # website, or a distinctive name
     hit = next((k for k in keys2 if k in seen), None)
     if hit:
         dups.append([r.name, r.domain, 'same parent as ' + seen[hit], ', '.join(r.sources)]); continue
