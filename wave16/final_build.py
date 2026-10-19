@@ -214,6 +214,9 @@ def classify(r):
     if r.dup_status == 'maybe': return 'review', 'Possible duplicate of an old record', f"{r.dup_reason} [{r.matched_in}]"
     if nap and INELIG.search(nap): return 'ineligible', 'Not an eligible prospect (research)', nap
     if nap: return 'review', 'Research flag - check before use', nap
+    note = (ps.get(r.k) or {}).get('note', '')
+    if re.search(r'F1 team itself|formula 1 team itself|racing series|F1 rights', note, re.I) or re.search(r'\bF1 Team\b|Formula 1 Team|Formula One Team', str(r.name), re.I):
+        return 'review', 'F1 team / series itself - not a sponsorship prospect', note
     if r.kind == 'junk': return 'review', 'Record does not look like a real operating company (pre-sort)', (ps.get(r.k) or {}).get('note') or r.tri_note
     if r.kind == 'public body / non-profit': return 'review', 'Public body / non-profit / association - check eligibility', (ps.get(r.k) or {}).get('note', '')
     if r.kind == 'possibly defunct': return 'review', 'May be defunct or absorbed (pre-sort, unverified)', (ps.get(r.k) or {}).get('note', '')
