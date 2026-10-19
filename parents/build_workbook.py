@@ -137,6 +137,7 @@ def otype(r):
     return '4 - Parent already in worked datasets'
 par['otype'] = par.apply(otype, axis=1)
 # connector records whose parent is already in the existing datasets and were not re-scored add nothing new: count them, do not list them
+par.loc[(par['bucket'] == 'A') & ~par['scored'], 'bucket'] = 'C'      # connector record not yet researched -> manual review, not the ranking
 unscored_B = (par['bucket'] == 'B') & ~par['scored'] & (par['parent_listed'] == 'yes')
 par.loc[unscored_B, 'bucket'] = 'BU'
 A = rank(par[par['bucket'] == 'A']); B = rank(par[par['bucket'] == 'B']); C = par[par['bucket'] == 'C'].sort_values('total', ascending=False)
@@ -173,6 +174,7 @@ readme = [
  ['2,000 F1 SPONSORSHIP PARENT COMPANY PROSPECTS', ''],
  ['Prepared for', 'SPORTFIVE Formula 1 sponsorship sales, 19 Oct 2026 (separate discovery exercise from the Clay prospect-ranking project)'],
  ['Qualification', 'Ultimate parent with valuation / market cap >= USD 1B OR cumulative funding >= USD 100M. Revenue is never used to qualify.'],
+ ['Drive CSV brands tab', 'Brands from the Friday Clay export CSVs on Google Drive that meet the same valuation / funding parameters (revenue not counted), with their Wave 16 60/40 scores. These are existing-dataset brands, listed separately on request; they are not part of the parent-level master ranking.'],
  ['Discovery sources', '40 knowledge-research category/region briefs; Apollo.io company search (total funding >= USD 100M, 3,000 records); Lusha company search (total funding >= USD 100M, 1,500 records). No paid enrichment beyond the approved search pages.'],
  ['Cross-reference', 'Every parent, alias, subsidiary and brand name and website checked against: Old Google Drive master files (all worksheets), previous prospect workbooks and CSVs (all worksheets, incl. the Wave 16 final ranking), and the Friday Clay exports (all CSVs).'],
  ['Categories', 'A = genuinely new parent (no parent, subsidiary or brand in any dataset) -> master ranking + industry tabs. B = corporate-group overlap (parent or at least one subsidiary/brand already in a dataset) -> EXISTING CORPORATE-GROUP OVERLAPS, ranked separately. C = identity or qualification uncertain -> MANUAL REVIEW.'],
@@ -218,6 +220,7 @@ sheet('EXISTING F1 SPONSORS', FH, [[s(r['name']), s(r['hq_country']), r['sector_
 CH = ['Company (as found)', 'Website', 'HQ Country', 'Industry / Sector', 'Why it needs review', 'Evidence so far', 'Source(s)', 'Possible existing dataset match', 'Provisional Total (/100)']
 def creason(r):
     if s(r['conf']) == 'U': return 'Company not recognised by research; identity and ultimate parent unconfirmed'
+    if not r['scored']: return 'Connector record (Apollo/Lusha funding filter) not yet researched: confirm parent, qualification and fit'
     if s(r['overlap_basis']).startswith('parent inferred'): return s(r['overlap_basis'])
     if not r['has_fin']: return 'No valuation or funding evidence found'
     if len(r['sn']) < 3: return 'Name too short to match reliably'
@@ -225,6 +228,34 @@ def creason(r):
 crows = [[s(r['name']), r['website'], s(r['hq_country']), r['sector_name'], creason(r), (r['val_txt'] or r['fund_txt'] or s(r['fin_basis'])), ', '.join(r['sources']),
           s(r['parent_where']) or s(r['existing_brands']), r['total']] for _, r in C.iterrows()]
 sheet('MANUAL REVIEW', CH, crows, [32, 26, 14, 26, 60, 40, 24, 50, 10])
+# Drive CSV brands (Friday Clay export, scored in Wave 16) that meet the parent-company parameters: valuation >= USD 1B or
+# funding >= USD 100M (revenue does not count), no current F1 sponsors. Kept on their own tab so they do not mix with parents.
+w16 = pd.read_pickle(f'{S}/w16/final_ranked.pkl')
+crit = w16['criterion'].fillna('')
+qual_b = (w16['funding_100m_apollo'] == True) | crit.str.contains('Valuation|Funding', regex=True)
+nof1 = w16['f1_deal'].fillna('').astype(str).str.strip() == ''
+D = w16[qual_b & nof1].copy()
+def dcrit(r):
+    bits = []
+    v = s(r['valuation']); fu = s(r['funding'])
+    if 'Valuation' in s(r['criterion']) and v and not v.lower().startswith('unknown'): bits.append(f"Valuation: {v}")
+    if 'Funding' in s(r['criterion']) and fu and not fu.lower().startswith(('unknown', 'n/a')): bits.append(f"Funding: {fu}")
+    if r['funding_100m_apollo'] == True: bits.append('Funding >= USD 100M (Apollo database filter)')
+    return '; '.join(bits) or s(r['criterion'])
+D['crit_txt'] = D.apply(dcrit, axis=1)
+D = D.sort_values(['priority', 'fit60'], ascending=[False, False]).reset_index(drop=True)
+D.insert(0, 'drank', range(1, len(D) + 1))
+# does the brand's parent sit in this workbook's rankings?
+pmap = {}
+for df_, tag in ((A, 'master ranking'), (B, 'overlaps tab'), (F1, 'existing F1 sponsors')):
+    for n_ in df_['name']: pmap[str(n_).lower().strip()] = tag
+D['parent_in'] = D['parent'].fillna('').astype(str).str.lower().str.strip().map(pmap).fillna('')
+DH = ['Rank', 'Brand', 'Ultimate Parent (Wave 16)', 'HQ Country', 'Industry / Sector', 'Website', 'Qualification Criterion Met', 'Wave 16 F1 Fit (/60)',
+      'Wave 16 Financial Capacity (/40)', 'Wave 16 Total (/100)', 'Rationale (Wave 16)', 'Research Confidence', 'Source CSV(s) on Drive', 'Parent appears in this workbook']
+drows = [[r['drank'], s(r['name']), s(r['parent']), s(r['country']), s(r['sector']), clean_domain(r['domain']), r['crit_txt'], r['fit60'], r['fin40'], r['priority'],
+          s(r['rationale'])[:300], s(r['confidence']), s(r['source_csv']), r['parent_in']] for _, r in D.iterrows()]
+sheet('DRIVE CSV BRANDS (QUALIFIED)', DH, drows, [7, 30, 28, 14, 26, 22, 45, 9, 9, 9, 60, 14, 24, 22])
+print('drive csv brands qualified', len(D))
 # summary
 secs = A['sector_name'].value_counts()
 SH = ['Metric', 'Value']
@@ -236,7 +267,7 @@ srows = [['Parents discovered (all sources, after merging duplicate records)', l
          ['   of which parent itself already listed', int((B['parent_listed'] == 'yes').sum())]] + \
         [['   Overlap type ' + k, int(v)] for k, v in B['otype'].value_counts().sort_index().items()] + [
          ['Headline: share of all qualified parents already present in existing datasets', f"{len(B) / max(1, len(A) + len(B)):.0%}"],
-         ['Category C - manual review', len(C)], ['Apollo/Lusha records whose parent is already in existing datasets (not re-scored, not listed)', int(unscored_B.sum())], ['Preliminary rows in master ranking', int(A['preliminary'].sum())], ['', '']]
+         ['Category C - manual review', len(C)], ['Drive CSV brands meeting valuation/funding parameters (separate tab)', len(D)], ['Apollo/Lusha records whose parent is already in existing datasets (not re-scored, not listed)', int(unscored_B.sum())], ['Preliminary rows in master ranking', int(A['preliminary'].sum())], ['', '']]
 srows += [['New parents by sector: ' + k, int(v)] for k, v in secs.items()] + [['', '']]
 srows += [[f'Top {i} new parent', f"{r['name']} ({r['hq_country']}) - {r['sector_name']} - total {r['total']}"] for i, (_, r) in enumerate(A.head(20).iterrows(), 1)]
 sheet('SUMMARY', SH, srows, [70, 90], freeze='A2')

@@ -22,7 +22,7 @@ check(3, 'No confirmed current F1 sponsor in the master ranking or overlaps', no
 check(4, 'Master ranking sorted by Total descending with consecutive ranks', (M['Overall Rank'].tolist() == list(range(1, len(M) + 1))) and M['Total Score (/100)'].is_monotonic_decreasing)
 check(4, 'Total = Fit + Capacity; Fit <= 60; Capacity <= 40', ((M['F1 Fit Score (/60)'] + M['Financial Capacity Score (/40)'] - M['Total Score (/100)']).abs().lt(0.01).all()) and M['F1 Fit Score (/60)'].le(60).all() and M['Financial Capacity Score (/40)'].le(40).all())
 # 5 industry tabs
-skip = {'SUMMARY', 'READ ME', 'NEW PARENT COMPANIES (MASTER)', 'EXISTING GROUP OVERLAPS', 'EXCLUDED DIRECT DUPLICATES', 'EXISTING F1 SPONSORS', 'MANUAL REVIEW', 'QC'}
+skip = {'SUMMARY', 'READ ME', 'NEW PARENT COMPANIES (MASTER)', 'EXISTING GROUP OVERLAPS', 'EXCLUDED DIRECT DUPLICATES', 'EXISTING F1 SPONSORS', 'MANUAL REVIEW', 'QC', 'DRIVE CSV BRANDS (QUALIFIED)'}
 cnt = collections.Counter(); rank_ok = True
 for sh in x.sheet_names:
     if sh in skip: continue
