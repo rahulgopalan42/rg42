@@ -1,0 +1,122 @@
+[
+{
+"id": "sbs-software.com",
+"company": "SBS",
+"sector": "22 SaaS",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "74Software",
+"triage_note": "real; fit 1; scale mid; banking software"
+},
+{
+"id": "etap.com",
+"company": "ETAP Software",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Schneider Electric",
+"triage_note": "real; fit 1; scale mid; power systems software"
+},
+{
+"id": "bookmyshow.com",
+"company": "BookMyShow",
+"sector": "29 Tech Media & Gaming",
+"country": "India",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Bigtree Entertainment Pvt.Ltd.",
+"triage_note": "real; fit 1; scale mid; ticketing platform"
+},
+{
+"id": "cloudimperiumgames.com",
+"company": "Cloud Imperium Games",
+"sector": "29 Tech Media & Gaming",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; game studio"
+},
+{
+"id": "monster.com",
+"company": "Monster",
+"sector": "22 SaaS",
+"country": "Puerto Rico",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Randstad",
+"triage_note": "real; fit 1; scale mid; job board"
+},
+{
+"id": "miracom-inc.com",
+"company": "Miracom Inc.",
+"sector": "22 SaaS",
+"country": "South Korea",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; smart factory software"
+},
+{
+"id": "perfios.ai",
+"company": "Perfios",
+"sector": "22 SaaS",
+"country": "India",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Perfios Software Solutions Pvt. Ltd.",
+"triage_note": "real; fit 1; scale mid; Indian techfin"
+},
+{
+"id": "flormar.com.tr",
+"company": "FLORMAR",
+"sector": "03 Luxury & Beauty",
+"country": "Turkey",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Groupe Rocher (51%)",
+"triage_note": "real; fit 1; scale mid; Turkish cosmetics"
+},
+{
+"id": "epg.com",
+"company": "EPG Ehrhardt Partner Group",
+"sector": "22 SaaS",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; supply chain software"
+},
+{
+"id": "cactusglobal.com",
+"company": "Cactus Communications",
+"sector": "22 SaaS",
+"country": "India",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; scientific publishing services"
+}
+]

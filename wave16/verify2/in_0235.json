@@ -1,0 +1,122 @@
+[
+{
+"id": "elbe-group.de",
+"company": "Elbe Group",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; packaging machinery"
+},
+{
+"id": "federalpacific.com",
+"company": "Federal Pacific",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; power equipment"
+},
+{
+"id": "epak.com",
+"company": "ePAK International",
+"sector": "27 Chip Makers",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; semiconductor packaging"
+},
+{
+"id": "letourneautechnologies.com",
+"company": "LeTourneau Technologies",
+"sector": "23 Machine Tools",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; oilfield equipment"
+},
+{
+"id": "hmxgroup.com",
+"company": "HMX, LLC",
+"sector": "53 Consumer & Lifestyle",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; tailored clothing"
+},
+{
+"id": "deepblueai.com",
+"company": "深兰科技",
+"sector": "36 IoT & Connectivity",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; AI robotics firm"
+},
+{
+"id": "unicomg.com",
+"company": "Unicom Distribution",
+"sector": "45 Electronic Parts",
+"country": "United Arab Emirates",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; electronics distributor"
+},
+{
+"id": "verkehrsbuero.com",
+"company": "VERKEHRSBUERO HOSPITALITY",
+"sector": "16 Travel & Hospitality",
+"country": "Austria",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Austrian travel agency"
+},
+{
+"id": "diamondbaseballholdings.com",
+"company": "Diamond Baseball Holdings",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "United States",
+"type": "Privately Held",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Endeavor",
+"triage_note": "real; fit 1; scale mid; minor league baseball"
+},
+{
+"id": "neora.com",
+"company": "Neora",
+"sector": "03 Luxury & Beauty",
+"country": "United States",
+"type": "Privately Held",
+"staff": "201-500",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; wellness direct selling"
+}
+]

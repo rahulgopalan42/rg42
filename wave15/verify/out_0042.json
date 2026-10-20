@@ -1,0 +1,294 @@
+[
+ {
+  "id": "eataly.com",
+  "company": "Eataly",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "eataly.com",
+  "hq": "Turin, Italy (major US operations, New York)",
+  "ownership": "Investindustrial (52%, since 2022-23), Farinetti family minority",
+  "sells": "Italian food halls, restaurants and grocery; 69 stores in US, Italy, UK, Canada, Gulf, Asia (2025)",
+  "headcount_band": "5,001-10,000 (~7,000, est)",
+  "revenue": "> EUR 700M FY2025 (company); EUR 684M FY2024 (Milano Finanza)",
+  "valuation": "unknown; Investindustrial paid ~EUR 340M for 52% incl. EUR 200M new capital (2022)",
+  "latest_raise": "capital increase up to EUR 75M (announced Aug 2025, two tranches to Jun 2026) - below USD 100M",
+  "fit_score": 3,
+  "fit_detail": "stores in 3+ F1 markets (US, IT, UK, CA, Gulf) (1); affluent urban 25-54 food buyers (1); Italian craft story, not performance (0); premium food retail not crowded (1)",
+  "up_and_coming": true,
+  "flags": [
+   "market expansion: franchise -> direct Middle East (40 new stores, EUR 100M) and new North America stores (2025-26)",
+   "not tie: Eataly dishes served by MSC Cruises (Alpine partner) at Monza 2025",
+   "category note: Barilla is F1's official pasta partner",
+   "still loss-making at net level (2024)"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes hard filters (revenue > EUR 700M 2025, ~7k staff, no direct F1 tie found); fit 3 with a growth-driven marketing motive.",
+  "best_angle": "Rolling out 40 Gulf stores and new US sites lines up with the Abu Dhabi, Saudi, Qatar, Miami and Las Vegas races, with premium Italian food a natural paddock/hospitality story.",
+  "sources": [
+   "https://forbes.it/2025/08/12/eataly-annuncia-aumento-capitale-75-milioni-euro",
+   "https://www.milanofinanza.it/news/l-oscar-dei-dividendi-ecco-come-farinetti-si-e-arricchito-nonostante-i-flop-di-fico-e-eataly-202508291920144634",
+   "https://www.italiaoggi.it/marketing-e-media/marketing/eataly-spinta-in-medio-oriente-100-milioni-di-investimenti-e-40-nuovi-negozi-q5gbraly",
+   "https://finder.techleap.nl/news/feed/eataly-announces-75m-capital-increase",
+   "https://cruiseindustrynews.com/cruise-news/2025/09/msc-brings-gastronomic-experiences-to-italian-grand-prix/"
+  ]
+ },
+ {
+  "id": "flyingtiger.com",
+  "company": "Flying Tiger Copenhagen",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "flyingtiger.com",
+  "hq": "Copenhagen, Denmark",
+  "ownership": "Modella Capital (majority, acquired May-Jun 2026 from Danske Bank/Nordea/management)",
+  "sells": "Own-design low-price homeware, gifts and stationery; ~1,000-1,100 stores in 40+ markets",
+  "headcount_band": "5,001-10,000 (~5,000, est)",
+  "revenue": "DKK 5.2B FY2024 (~USD 750M); > GBP 600M latest FY (Modella, 2026)",
+  "valuation": "unknown (2026 sale price undisclosed)",
+  "latest_raise": "n/a (PE buyout 2026)",
+  "fit_score": 2,
+  "fit_detail": "sells in 40+ markets (1); budget shoppers (0); playful design story, not performance (0); category not crowded (1)",
+  "up_and_coming": true,
+  "flags": [
+   "ownership change: Modella Capital buyout 2026 (owner's prior retail deals Claire's/TOFS failed)",
+   "market expansion: Europe -> Canada, El Salvador (2026); 700 new franchise stores by 2030"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (~USD 750M revenue, ~1,000 stores, no F1 tie found) but budget positioning and a fresh PE owner with a weak track record.",
+  "best_angle": "Franchise rollout into new markets (Canada 2026) could use licensed-style F1 merchandise to build awareness.",
+  "sources": [
+   "https://ae.fashionnetwork.com/news/Modella-capital-buys-flying-tiger-copenhagen,1835749.html",
+   "https://www.modellacapital.com/?p=582",
+   "https://en.wikipedia.org/wiki/Flying_Tiger_Copenhagen",
+   "https://retail-week.com/general-merchandise/flying-tiger-copenhagen-reports-record-sales-as-it-expands-into-seven-new-markets/7046099.article"
+  ]
+ },
+ {
+  "id": "quakerhoughton.com",
+  "company": "Quaker Houghton",
+  "sector_tab": "21 Materials & Mech Parts",
+  "domain": "quakerhoughton.com",
+  "hq": "Conshohocken, Pennsylvania, United States (input country 'Spain' incorrect)",
+  "ownership": "Listed (NYSE: KWR), widely held",
+  "sells": "Industrial process fluids and specialty chemicals for steel, aluminium, automotive and aerospace manufacturing worldwide",
+  "headcount_band": "1,001-5,000 (~4,400, est)",
+  "revenue": "~USD 1.9B TTM (2026); Q1 2026 net sales +8% YoY",
+  "valuation": "market cap ~USD 2.6-2.7B (2026, multiples.vc / roic.ai)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 3,
+  "fit_detail": "sells in 3+ F1 markets (1); senior industrial B2B buyers (1); precision manufacturing story (1); lubricants/fluids close to crowded oil category (0)",
+  "up_and_coming": false,
+  "flags": [
+   "lapsed motorsport: past IndyCar sponsor (Sarah Fisher Hartman Racing), not F1",
+   "B2B industrial chemicals, limited brand motive",
+   "category adjacent to oil/lubricant partners on grid"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (market cap ~USD 2.6B, no F1 tie found) but B2B fluids maker in a category adjacent to crowded oil/lubricants.",
+  "best_angle": "Precision-manufacturing fluids story could fit a team technical-supplier deal aimed at automotive and aerospace OEM buyers.",
+  "sources": [
+   "https://multiples.vc/public-comps/quaker-houghton-valuation-multiples",
+   "https://www.roic.ai/quote/KWR/transcripts/2026-year/1-quarter",
+   "https://ycharts.com/companies/KWR",
+   "https://fundamentei.com/en-US/us/kwr/about"
+  ]
+ },
+ {
+  "id": "dogusgrubu.com.tr",
+  "company": "Doğuş Group",
+  "sector_tab": "18 Services & Other",
+  "domain": "dogusgrubu.com.tr",
+  "hq": "Istanbul, Turkey",
+  "ownership": "Private, Şahenk family-controlled holding",
+  "sells": "Diversified: automotive distribution (Doğuş Otomotiv: VW, Audi, Porsche, etc.), hospitality/restaurants, marinas (D-Marin), real estate, energy in 40 countries",
+  "headcount_band": "10,001+ (26,000+, group presentation 2025)",
+  "revenue": "Doğuş Otomotiv alone TRY 255.8B FY2025 (~USD 6.5B, est); group total assets TRY 881B (Jun 2025)",
+  "valuation": "unknown (private holding; listed stake Doğuş Otomotiv)",
+  "latest_raise": "none",
+  "fit_score": 2,
+  "fit_detail": "operates in 40 countries incl. F1 markets (1); affluent buyers (Porsche, marinas, luxury hospitality) (1); conglomerate story not performance (0); automotive-heavy category crowded (0)",
+  "up_and_coming": false,
+  "flags": [
+   "not a tie but conflict risk: Doğuş Otomotiv is Turkey importer of Audi (Audi F1 team) and Porsche",
+   "historic loan restructuring 2018-19 (completed); Doğuş Otomotiv margins under pressure 2025",
+   "conglomerate: no single consumer brand"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (multi-billion revenue, 26k staff, no F1 tie found) but conglomerate with no single brand and auto distribution tied to VW Group/Audi.",
+  "best_angle": "Turkish GP returns to Istanbul Park from 2027 (5-year deal), giving a home-race platform for its hospitality and marina brands.",
+  "sources": [
+   "https://www.dogusotomotiv.com.tr/newdogusotomotiv_files/2026622154630307_Dogus_Otomotiv_2026_Profil_Sunumu_ENG.pdf",
+   "https://www.dogusotomotiv.com.tr/newdogusotomotiv_files/2026227204927172_4Q_2025_ANALYST_PRESENTATION.pdf",
+   "https://www.bloomberght.com/dogus-otomotiv-den-2025-son-ceyrekte-net-zarar-3770466",
+   "https://www.fia.com/news/formula-1-returns-turkiyes-istanbul-park-2027-part-new-five-year-agreement"
+  ]
+ },
+ {
+  "id": "fogo.com",
+  "company": "Fogo de Chão",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "fogo.com",
+  "hq": "Dallas, Texas, United States",
+  "ownership": "Bain Capital Private Equity (acquired 2023)",
+  "sells": "Upscale Brazilian steakhouses in US, Brazil, Mexico, Middle East, Chile (2025)",
+  "headcount_band": "5,001-10,000 (~6,000, est)",
+  "revenue": "USD 576M FY2023; ~USD 700M 2025 (est, ~13-15% CAGR)",
+  "valuation": "EV ~USD 1.1B (Bain acquisition, 2023)",
+  "latest_raise": "n/a (PE buyout 2023)",
+  "fit_score": 3,
+  "fit_detail": "restaurants in 3+ F1 markets (US, BR, MX, Gulf) (1); affluent 25-54 diners and corporate entertainment (1); story not performance (0); category not crowded (1)",
+  "up_and_coming": true,
+  "flags": [
+   "market expansion: US/Brazil -> Chile (Santiago, Dec 2025) and Middle East",
+   "IPO ambition reported (Neofeed)"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes hard filters (USD 1.1B transacted EV 2023, ~USD 700M revenue est, no F1 tie found); fit 3 with expansion-driven marketing motive.",
+  "best_angle": "Premium experiential dining matches F1's US race weekends (Miami, Austin, Las Vegas) and Sao Paulo/Mexico City, ahead of a possible IPO.",
+  "sources": [
+   "https://www.nrn.com/casual-dining/brazilian-steakhouse-fogo-de-ch-o-acquired-bain-capital-private-equity",
+   "https://centraldovarejo.com.br/bain-capital-adquire-fogo-de-chao-por-us11-bilhao",
+   "https://www.eldinamo.cl/economia/negocios-economia/2025/12/18/fogo-de-chao-el-gigante-brasileno-de-carne-a-la-espada-que-cotizo-en-wall-street-y-aterriza-en-santiago/",
+   "https://neofeed.com.br/finde/fogo-de-chao-redefine-o-conceito-de-churrascaria-brasileira-e-mira-um-novo-ipo/"
+  ]
+ },
+ {
+  "id": "cantor.com",
+  "company": "Cantor Fitzgerald",
+  "sector_tab": "01 Banking & Insurance",
+  "domain": "cantor.com",
+  "hq": "New York, United States",
+  "ownership": "Private partnership controlled by Lutnick family (Brandon and Kyle Lutnick)",
+  "sells": "Investment banking, brokerage, capital markets; US, UK/Europe, Middle East",
+  "headcount_band": "1,001-5,000 (~3,200, Revelio 2025, est)",
+  "revenue": "on track for > USD 2.5B FY2025 record (Bloomberg, Nov 2025)",
+  "valuation": "unknown (private)",
+  "latest_raise": "none",
+  "fit_score": 2,
+  "fit_detail": "operates in 3+ F1 markets (1); senior B2B/affluent investors (1); story not performance (0); banking category crowded (0)",
+  "up_and_coming": true,
+  "flags": [
+   "political exposure: former chair Howard Lutnick is US Commerce Secretary",
+   "market expansion: Europe -> Abu Dhabi branch (Cantor Fitzgerald Europe)",
+   "banking crowded on grid"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (> USD 2.5B revenue 2025, no F1 tie found) but banking is crowded on the grid and the brand carries political exposure.",
+  "best_angle": "Record crypto/AI dealmaking and a new Abu Dhabi branch fit Gulf-race B2B hospitality.",
+  "sources": [
+   "https://www.bloomberg.com/news/videos/2025-11-14/lutnick-sons-see-record-year-as-cantor-denies-conflicts-video",
+   "https://www.financemagnates.com/forex/cantor-fitzgerald-europe-plans-abu-dhabi-branch-as-revenue-rises-30/",
+   "https://www.reveliolabs.com/companies/cantor-fitzgerald/employees/"
+  ]
+ },
+ {
+  "id": "worldquant.com",
+  "company": "WorldQuant",
+  "sector_tab": "12 Trading & Crypto",
+  "domain": "worldquant.com",
+  "hq": "Old Greenwich, Connecticut, United States",
+  "ownership": "Private, founder Igor Tulchinsky",
+  "sells": "Quantitative investment management (~USD 10B AUM, largely for Millennium); global research offices",
+  "headcount_band": "1,001-5,000 (1,000-2,500 by source, est)",
+  "revenue": "~USD 574M (aggregator Bitscale, est, unverified)",
+  "valuation": "unknown (private)",
+  "latest_raise": "none",
+  "fit_score": 3,
+  "fit_detail": "offices in 3+ F1 markets (1); senior institutional/talent audience (1); quant/data precision story (1); trading category crowded on grid (0)",
+  "up_and_coming": false,
+  "flags": [
+   "revenue unverified (aggregator est only)",
+   "no consumer product; marketing motive limited to talent brand"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters on an unverified ~USD 574M revenue est with no F1 tie found; no product to market, so motive is talent branding only.",
+  "best_angle": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/WorldQuant",
+   "https://bitscale.ai/directory/worldquant",
+   "https://www.reveliolabs.com/companies/worldquant/employees/"
+  ]
+ },
+ {
+  "id": "liptonteas.com",
+  "company": "LIPTON Teas and Infusions",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "liptonteas.com",
+  "hq": "Amsterdam, Netherlands",
+  "ownership": "CVC Capital Partners (majority, since Jul 2022 carve-out from Unilever)",
+  "sells": "Tea brands (Lipton leaf, PG Tips, Pukka, T2, TAZO) worldwide; Lipton RTD via PepsiCo JV",
+  "headcount_band": "10,001+ (est, incl. estates)",
+  "revenue": "~EUR 1.57B FY2024 (down from ~EUR 2B pre-2022)",
+  "valuation": "EUR 4.5B CVC purchase (2021-22); debt > EUR 3B",
+  "latest_raise": "EUR 210M CVC equity + shareholder loans (2026), after EUR 40M in 2025",
+  "fit_score": 2,
+  "fit_detail": "sells in 3+ F1 markets (1); mass grocery buyers (0); story not performance (0); tea not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "financial distress: > EUR 3B debt, first-lien loans ~71c, CVC rescue injection to avoid debt restructuring, S&P liquidity warning (2026)",
+   "revenue declining"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Genuine distress: > EUR 3B debt trading ~71c, CVC EUR 210M rescue injection to avoid debt restructuring and S&P liquidity warning (May 2026).",
+  "best_angle": "",
+  "sources": [
+   "https://www.foodbusinessmea.com/?p=2158693",
+   "https://puck.news/tea-totaled-is-lipton-on-the-verge-of-bankruptcy/",
+   "https://www.webpronews.com/mars-veteran-grant-reid-takes-lipton-chair-as-cvc-pumps-e210m-into-tea-giants-turnaround/",
+   "https://en.wikipedia.org/wiki/Lipton_Teas_and_Infusions"
+  ]
+ },
+ {
+  "id": "octapharma.com",
+  "company": "Octapharma",
+  "sector_tab": "X Pharma & Biotech",
+  "domain": "octapharma.com",
+  "hq": "Lachen, Switzerland",
+  "ownership": "Private, family-owned (Marguerre family)",
+  "sells": "Plasma-derived and recombinant therapies in 118 countries; plasma donation centres in US/Europe",
+  "headcount_band": "10,001+ (~11,000, Dec 2024)",
+  "revenue": "EUR 3.47B FY2024; 2025 not found",
+  "valuation": "unknown (private)",
+  "latest_raise": "none",
+  "fit_score": 2,
+  "fit_detail": "sells in 3+ F1 markets (1); clinical/hospital buyers, not affluent consumers (0); story not performance (0); category not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "Rx/clinical B2B, limited consumer marketing; donor recruitment is the only consumer audience",
+   "owner family sponsors handball (Rhein-Neckar Lowen), not motorsport"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (EUR 3.47B revenue 2024, ~11k staff, no F1 tie found) but clinical B2B pharma with weak consumer marketing motive.",
+  "best_angle": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Octapharma",
+   "https://www.globaldata.com/company-profile/octapharma-ag/",
+   "https://www.reveliolabs.com/companies/octapharma/employees/"
+  ]
+ },
+ {
+  "id": "orona-group.com",
+  "company": "Orona S. Coop.",
+  "sector_tab": "33 Automation & Robotics",
+  "domain": "orona-group.com",
+  "hq": "Hernani, Gipuzkoa, Spain",
+  "ownership": "Cooperative (Mondragon Corporation member), independent",
+  "sells": "Elevators, escalators and maintenance in 100+ countries; acquisitive in Europe",
+  "headcount_band": "5,001-10,000 (6,997, FY2025)",
+  "revenue": "EUR 1.195B FY2025 (+7%); EBITDA EUR 191M",
+  "valuation": "unknown (cooperative)",
+  "latest_raise": "none",
+  "fit_score": 3,
+  "fit_detail": "sells in 100+ countries (1); senior B2B developers/facility buyers (1); elevator story only partly tech (0); category not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "B2B; modest brand motive",
+   "2025 figures from single source (Elevator World)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (EUR 1.2B revenue 2025, ~7k staff, no F1 tie found) but B2B elevator maker with modest brand-building motive.",
+  "best_angle": "Spanish GP (Madrid from 2026) and Gulf construction boom offer B2B hospitality to developers.",
+  "sources": [
+   "https://elevatorworld.com/?p=105711",
+   "https://elevatorworld.com/article/orona-achieves-growth-and-charts-future-course/",
+   "https://www.alimarket.es/construccion/noticia/414956/orona-invertira-60-m--en-ampliar-sus-instalaciones-centrales-de-hernani"
+  ]
+ }
+]

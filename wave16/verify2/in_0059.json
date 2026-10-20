@@ -1,0 +1,122 @@
+[
+{
+"id": "myerspowerproducts.com",
+"company": "Myers Power Products, Inc.",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Power equipment maker"
+},
+{
+"id": "sunledusa.com",
+"company": "SunLED Company, LLC",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Optoelectronic components"
+},
+{
+"id": "lifetime.com",
+"company": "Lifetime Products",
+"sector": "53 Consumer & Lifestyle",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Folding tables and sports"
+},
+{
+"id": "hydro-gear.com",
+"company": "Hydro-Gear",
+"sector": "23 Machine Tools",
+"country": "United States",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Hydrostatic drive maker"
+},
+{
+"id": "otrwheel.com",
+"company": "OTR Engineered Solutions",
+"sector": "23 Machine Tools",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Off-road wheel maker"
+},
+{
+"id": "lgbs.com",
+"company": "Linebarger Goggan Blair & Sampson, LLP",
+"sector": "50 Law Firms & Legal AI",
+"country": "United States",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Collections law firm"
+},
+{
+"id": "meyerburger.com",
+"company": "Meyer Burger Technology AG",
+"sector": "27 Chip Makers",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Meyer Burger's business",
+"triage_note": "real; fit 1; scale mid; solar equipment maker"
+},
+{
+"id": "angkasapura2.co.id",
+"company": "PT Angkasa Pura II",
+"sector": "16 Travel & Hospitality",
+"country": "Indonesia",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Indonesian airport operator"
+},
+{
+"id": "aqgroup.com",
+"company": "AQ Group AB",
+"sector": "23 Machine Tools",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Swedish industrial group"
+},
+{
+"id": "chjchina.com",
+"company": "广东潮宏基实业股份有限公司",
+"sector": "X06 Retail & E-commerce",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese jewellery brand"
+}
+]

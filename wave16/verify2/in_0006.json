@@ -1,0 +1,122 @@
+[
+{
+"id": "smsng.co",
+"company": "Samsung Mobile",
+"sector": "X15 Consumer Electronics & Audio",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Samsung Electronics",
+"triage_note": "division; fit 0; scale large; mobile division"
+},
+{
+"id": "rfef.es",
+"company": "Real Federación Española de Fútbol",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "Spain",
+"type": "Partnership",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "; fit ; scale ; "
+},
+{
+"id": "tot.co.th",
+"company": "บริษัท ทีโอที จํากัด(มหาชน)",
+"sector": "48 Telecom & Space",
+"country": "Thailand",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "National Telecom",
+"triage_note": "junk; fit 0; scale large; merged into NT"
+},
+{
+"id": "pldt.com.ph",
+"company": "PLDT",
+"sector": "48 Telecom & Space",
+"country": "Philippines",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "PLDT",
+"triage_note": "; fit ; scale ; "
+},
+{
+"id": "claro.com.co",
+"company": "Claro Colombia",
+"sector": "48 Telecom & Space",
+"country": "Colombia",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "America Movil",
+"triage_note": "; fit ; scale ; "
+},
+{
+"id": "herschend.com",
+"company": "Herschend Family Entertainment",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale mid; family theme parks"
+},
+{
+"id": "monopolygo.com",
+"company": "Monopoly Go!",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Scopely / Savvy Games Group (PIF)",
+"triage_note": "division; fit 0; scale large; mobile game"
+},
+{
+"id": "merlinentertainments.biz",
+"company": "Merlin Entertainments Trade",
+"sector": "29 Tech Media & Gaming",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Merlin Entertainments",
+"triage_note": "division; fit 0; scale large; trade page"
+},
+{
+"id": "yahooinc.com",
+"company": "Verizon Media",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Apollo Global Management (~90%, PE)",
+"triage_note": "junk; fit 0; scale large; renamed Yahoo"
+},
+{
+"id": "entaingroup.com",
+"company": "Entain",
+"sector": "29 Tech Media & Gaming",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; global betting group"
+}
+]

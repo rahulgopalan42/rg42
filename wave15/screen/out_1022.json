@@ -1,0 +1,53 @@
+[
+{
+"id": "warecruiters.com",
+"company": "Warren Averett Executive Search & Recruiting",
+"keep": false,
+"reason": "quick triage: small recruiting firm",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+},
+{
+"id": "underherb.com",
+"company": "Undersun Biomedtech Corp",
+"keep": false,
+"reason": "quick triage: tiny biomedtech",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+},
+{
+"id": "startresearch.com",
+"company": "The START Center for Cancer Research",
+"keep": false,
+"reason": "quick triage: cancer research nonprofit",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+}
+]

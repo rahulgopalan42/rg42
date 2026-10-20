@@ -1,0 +1,122 @@
+[
+{
+"id": "gig-group.com",
+"company": "Global Insulator Group",
+"sector": "45 Electronic Parts",
+"country": "Estonia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; glass insulators"
+},
+{
+"id": "aprangagroup.lt",
+"company": "Apranga Group",
+"sector": "X06 Retail & E-commerce",
+"country": "Lietuva",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; apparel retail"
+},
+{
+"id": "jjm.com",
+"company": "JJMICROELECTRONICS (JJM)",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; power semiconductors"
+},
+{
+"id": "egypropertyfinder.com",
+"company": "Mountain View Development",
+"sector": "X02 Real Estate & Building Products",
+"country": "Egypt",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Egypt developer"
+},
+{
+"id": "tahoecn.com",
+"company": "泰禾集团",
+"sector": "X02 Real Estate & Building Products",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; China developer, distressed"
+},
+{
+"id": "maritim.com",
+"company": "Maritim Hotelgesellschaft mbH",
+"sector": "16 Travel & Hospitality",
+"country": "Germany",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; German hotel chain"
+},
+{
+"id": "jee-cn.com",
+"company": "JEE TECHNOLOGY CO., LTD.",
+"sector": "33 Automation & Robotics",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; automation components"
+},
+{
+"id": "speed-us.com",
+"company": "SPEED Wireless Technology",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; antennas, thermal parts"
+},
+{
+"id": "clickele.com",
+"company": "Click Technology Co., Ltd.",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; electronics maker"
+},
+{
+"id": "wits.com",
+"company": "WITS Corp.",
+"sector": "25 IT Services & Consulting",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Wistron",
+"triage_note": "real; fit 1; scale mid; IT services Taiwan"
+}
+]

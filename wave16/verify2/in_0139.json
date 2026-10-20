@@ -1,0 +1,122 @@
+[
+{
+"id": "centauricorp.com",
+"company": "Integrity Applications Incorporated",
+"sector": "32 Defense & Industrial AI",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Arcline",
+"triage_note": "real; fit 2; scale mid; space and defense systems"
+},
+{
+"id": "hennigworldwide.com",
+"company": "Hennig",
+"sector": "23 Machine Tools",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; machine protection covers"
+},
+{
+"id": "greenlightplanet.com",
+"company": "Greenlight Planet",
+"sector": "27 Chip Makers",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; off-grid solar lighting"
+},
+{
+"id": "alignprecision.com",
+"company": "ALIGN PRECISION",
+"sector": "32 Defense & Industrial AI",
+"country": "United States",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; precision machining"
+},
+{
+"id": "lexarenterprise.com",
+"company": "Lexar Enterprise",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Longsys",
+"triage_note": "real; fit 2; scale mid; memory storage brand"
+},
+{
+"id": "altissemiconductor.com",
+"company": "Altis Semiconductor",
+"sector": "27 Chip Makers",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; semiconductor foundry"
+},
+{
+"id": "lfoundry.com",
+"company": "LFoundry",
+"sector": "27 Chip Makers",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Sino IC Capital",
+"triage_note": "real; fit 2; scale mid; specialty semiconductor foundry"
+},
+{
+"id": "allgaier-group.com",
+"company": "Allgaier Werke GmbH",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; process and auto technology"
+},
+{
+"id": "",
+"company": "tw telecom",
+"sector": "48 Telecom & Space",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; solar trackers"
+},
+{
+"id": "wecommunications.com",
+"company": "We. Communications",
+"sector": "07 Marketing & Sales",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; global PR agency"
+}
+]

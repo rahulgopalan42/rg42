@@ -1,0 +1,122 @@
+[
+{
+"id": "plus.nl",
+"company": "Coop Supermarkten",
+"sector": "X06 Retail & E-commerce",
+"country": "Netherlands",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Dutch supermarket chain"
+},
+{
+"id": "hoaphat.com.vn",
+"company": "Hoa Phat Group",
+"sector": "23 Machine Tools",
+"country": "Vietnam",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Vietnamese steel conglomerate"
+},
+{
+"id": "walmartmexico.com",
+"company": "Walmart de México y Centroamérica",
+"sector": "X06 Retail & E-commerce",
+"country": "Mexico",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Walmart",
+"triage_note": "real; fit 0; scale large; Mexican listed retailer"
+},
+{
+"id": "x5.ru",
+"company": "X5",
+"sector": "X06 Retail & E-commerce",
+"country": "Russia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Russian grocery retailer"
+},
+{
+"id": "piac.com.pk",
+"company": "Pakistan International Airlines",
+"sector": "16 Travel & Hospitality",
+"country": "Pakistan",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Arif Habib Limited",
+"triage_note": "real; fit 0; scale large; state airline"
+},
+{
+"id": "futureretail.in",
+"company": "Future Retail Ltd., Mumbai",
+"sector": "X06 Retail & E-commerce",
+"country": "India",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Future Group India",
+"triage_note": "real; fit 0; scale large; insolvent Indian retailer"
+},
+{
+"id": "hornbach.de",
+"company": "HORNBACH Baumarkt AG",
+"sector": "X06 Retail & E-commerce",
+"country": "Germany",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "HORNBACH Holding AG & Co. KGaA",
+"triage_note": "real; fit 0; scale large; DIY retailer"
+},
+{
+"id": "bmstores.co.uk",
+"company": "B&M Retail",
+"sector": "X06 Retail & E-commerce",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; UK discount retailer"
+},
+{
+"id": "dccenergy.com",
+"company": "DCC Energy plc",
+"sector": "33 Automation & Robotics",
+"country": "Ireland",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "DCC plc",
+"triage_note": "real; fit 0; scale large; energy distribution group"
+},
+{
+"id": "spar.co.za",
+"company": "SPAR South Africa",
+"sector": "X06 Retail & E-commerce",
+"country": "South Africa",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "The SPAR Group Ltd",
+"triage_note": "real; fit 0; scale large; grocery wholesaler"
+}
+]

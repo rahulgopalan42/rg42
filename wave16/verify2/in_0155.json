@@ -1,0 +1,122 @@
+[
+{
+"id": "lumberg.com",
+"company": "Lumberg Group",
+"sector": "45 Electronic Parts",
+"country": "Germany",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; connectors"
+},
+{
+"id": "goodarksemi.com",
+"company": "Good-Ark Semiconductor",
+"sector": "27 Chip Makers",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; discrete semiconductors"
+},
+{
+"id": "qnnectnow.com",
+"company": "Qnnect ( \"Connect\")",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; electronic interconnects"
+},
+{
+"id": "knowit.eu",
+"company": "Cybercom Group",
+"sector": "25 IT Services & Consulting",
+"country": "Sweden",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Nordic digital consultancy"
+},
+{
+"id": "broad.com",
+"company": "远大空调有限公司",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; air conditioning and buildings"
+},
+{
+"id": "4wall.com",
+"company": "4Wall Entertainment",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Privately Held",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; event lighting and video"
+},
+{
+"id": "anonymouscontent.com",
+"company": "Anonymous Content",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Privately Held",
+"staff": "201-500",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; film production"
+},
+{
+"id": "rwsglobal.com",
+"company": "RWS Global",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Privately Held",
+"staff": "201-500",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; live events"
+},
+{
+"id": "tartecosmetics.com",
+"company": "Tarte Cosmetics",
+"sector": "03 Luxury & Beauty",
+"country": "United States",
+"type": "Privately Held",
+"staff": "51-200",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "KOSE",
+"triage_note": "real; fit 2; scale mid; US cosmetics brand"
+},
+{
+"id": "hginsights.com",
+"company": "HG Insights",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "51-200",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; technology insights data"
+}
+]

@@ -1,0 +1,122 @@
+[
+{
+"id": "faberlic.com",
+"company": "Faberlic",
+"sector": "03 Luxury & Beauty",
+"country": "Russia",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Russian direct sales cosmetics"
+},
+{
+"id": "kunlun.com",
+"company": "Beijing Kunlun Tech Co Ltd (SZ:300418)",
+"sector": "29 Tech Media & Gaming",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese tech, owns Opera"
+},
+{
+"id": "sohu.com",
+"company": "Sohu.com",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese web portal"
+},
+{
+"id": "shinhwaworld.co.kr",
+"company": "제주신화월드 Jeju Shinhwa World",
+"sector": "16 Travel & Hospitality",
+"country": "South Korea",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Landing International Development",
+"triage_note": "real; fit 1; scale mid; Jeju integrated resort"
+},
+{
+"id": "schoeller-holdings.com",
+"company": "Schoeller Holdings LTD",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "Cyprus",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Cyprus holding group"
+},
+{
+"id": "grtjewels.com",
+"company": "GRT Jewellers (India) Private Limited",
+"sector": "03 Luxury & Beauty",
+"country": "India",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Indian jeweller"
+},
+{
+"id": "sidike.com",
+"company": "SDK New Materials Inc.",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese materials maker"
+},
+{
+"id": "daqo.com",
+"company": "Daqo International",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese electrical group"
+},
+{
+"id": "csun.com.tw",
+"company": "C SUN",
+"sector": "23 Machine Tools",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Taiwan machinery maker"
+},
+{
+"id": "sport2000international.com",
+"company": "SPORT 2000 GROUP International",
+"sector": "53 Consumer & Lifestyle",
+"country": "Germany",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; sporting goods buying group"
+}
+]

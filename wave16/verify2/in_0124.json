@@ -1,0 +1,122 @@
+[
+{
+"id": "ophardt.com",
+"company": "OPHARDT Hygiene",
+"sector": "42 Health & Wellness",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; hygiene dispensing systems"
+},
+{
+"id": "vanlaack.com",
+"company": "van Laack GmbH",
+"sector": "53 Consumer & Lifestyle",
+"country": "Germany",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; German premium shirt maker"
+},
+{
+"id": "nubia.com",
+"company": "Nubia Technology Co., Ltd.",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "ZTE",
+"triage_note": "real; fit 3; scale mid; Chinese smartphone and gaming phone brand"
+},
+{
+"id": "saj-electric.com",
+"company": "SAJ Electric",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; Chinese solar energy storage maker"
+},
+{
+"id": "saesl.com.sg",
+"company": "Singapore Aero Engine Services Private Limited (SAESL)",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "Singapore",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Rolls-Royce",
+"triage_note": "real; fit 3; scale mid; Aero engine MRO joint venture"
+},
+{
+"id": "cxsw3d.com",
+"company": "深圳创想三维有限公司",
+"sector": "33 Automation & Robotics",
+"country": "China",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; Chinese 3D printer maker"
+},
+{
+"id": "tobii.com",
+"company": "Tobii",
+"sector": "22 SaaS",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; eye tracking tech"
+},
+{
+"id": "fineos.com",
+"company": "FINEOS",
+"sector": "22 SaaS",
+"country": "Ireland",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; insurance core software"
+},
+{
+"id": "lantronix.com",
+"company": "Lantronix",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; edge IoT devices"
+},
+{
+"id": "kvh.com",
+"company": "KVH",
+"sector": "48 Telecom & Space",
+"country": "United States",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; maritime connectivity"
+}
+]

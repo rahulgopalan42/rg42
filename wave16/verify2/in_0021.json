@@ -1,0 +1,122 @@
+[
+{
+"id": "allwyn.com",
+"company": "Allwyn",
+"sector": "29 Tech Media & Gaming",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; lottery and gaming operator"
+},
+{
+"id": "nh-hoteles.es",
+"company": "NH Hotel Group",
+"sector": "16 Travel & Hospitality",
+"country": "Spain",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Minor International (~95%)",
+"triage_note": "real; fit 2; scale large; global hotel chain"
+},
+{
+"id": "kesko.fi",
+"company": "Kesko - K-Group",
+"sector": "X06 Retail & E-commerce",
+"country": "Finland",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Kesko Oyj",
+"triage_note": "real; fit 2; scale large; Finnish retail group"
+},
+{
+"id": "groupepvcp.com",
+"company": "Groupe Pierre & Vacances - Center Parcs",
+"sector": "16 Travel & Hospitality",
+"country": "France",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Creditor-owned after 2022 restructuring",
+"triage_note": "real; fit 2; scale large; European holiday parks group"
+},
+{
+"id": "cetc.com.cn",
+"company": "China Electronics Technology Group Corporation 中国电子科技集团公司",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; Chinese state electronics group"
+},
+{
+"id": "ncr.com",
+"company": "NCR Corporation",
+"sector": "25 IT Services & Consulting",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; payments/retail tech"
+},
+{
+"id": "tempursealy.com",
+"company": "Tempur Sealy International",
+"sector": "53 Consumer & Lifestyle",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Somnigroup International Inc.",
+"triage_note": "real; fit 2; scale large; bedding, now Somnigroup"
+},
+{
+"id": "thecignagroup.com",
+"company": "The Cigna Group",
+"sector": "42 Health & Wellness",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; health insurer"
+},
+{
+"id": "peek-und-cloppenburg.de",
+"company": "Peek&Cloppenburg* KG Hamburg",
+"sector": "X06 Retail & E-commerce",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; fashion retailer"
+},
+{
+"id": "shuionland.com",
+"company": "Shui On Land",
+"sector": "X02 Real Estate & Building Products",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; China urban developer"
+}
+]

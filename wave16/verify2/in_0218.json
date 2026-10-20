@@ -1,0 +1,122 @@
+[
+{
+"id": "guardgroup.pk",
+"company": "Guard Group",
+"sector": "53 Consumer & Lifestyle",
+"country": "Canada",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Canadian conglomerate"
+},
+{
+"id": "imperialfashion.com",
+"company": "Imperial Fashion Group",
+"sector": "53 Consumer & Lifestyle",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Italian fashion group"
+},
+{
+"id": "executivegroupdevelopment.com",
+"company": "Executive Group Real Estate & Hotels",
+"sector": "X02 Real Estate & Building Products",
+"country": "Canada",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Vancouver developer"
+},
+{
+"id": "unex.cz",
+"company": "UNEX a.s.",
+"sector": "23 Machine Tools",
+"country": "Czechia",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; heavy engineering"
+},
+{
+"id": "divgroup.eu",
+"company": "DIV GROUP Ltd.",
+"sector": "23 Machine Tools",
+"country": "Croatia",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; metal processing"
+},
+{
+"id": "lizmontagens.com",
+"company": "Lizmontagens SA",
+"sector": "23 Machine Tools",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; industrial assembly"
+},
+{
+"id": "schaffrath.com",
+"company": "Friedhelm Schaffrath GmbH & Co. KG",
+"sector": "49 Home & Living",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; interior fit-out group"
+},
+{
+"id": "otsglobe.com",
+"company": "OTS Globe",
+"sector": "16 Travel & Hospitality",
+"country": "Switzerland",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "MTS Globe Group",
+"triage_note": "real; fit 1; scale mid; hotel trading"
+},
+{
+"id": "primacorpventures.com",
+"company": "Primacorp Ventures Inc",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "Canada",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; investment firm"
+},
+{
+"id": "coalbiomassboiler.com",
+"company": "TAISHAN GROUP",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; energy equipment"
+}
+]

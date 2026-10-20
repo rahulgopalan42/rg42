@@ -1,0 +1,122 @@
+[
+{
+"id": "hand-global.com",
+"company": "HAND Global Solutions",
+"sector": "25 IT Services & Consulting",
+"country": "Singapore",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "HAND Enterprise Solutions",
+"triage_note": "real; fit 1; scale mid; digital transformation"
+},
+{
+"id": "hunterfan.com",
+"company": "Hunter Fan Company",
+"sector": "53 Consumer & Lifestyle",
+"country": "United States",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "MidOcean Partners",
+"triage_note": "real; fit 1; scale mid; ceiling fan brand"
+},
+{
+"id": "recsilicon.com",
+"company": "REC Silicon",
+"sector": "27 Chip Makers",
+"country": "United States",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Hanwha Solutions",
+"triage_note": "real; fit 1; scale mid; polysilicon producer"
+},
+{
+"id": "astotec.com",
+"company": "ASTOTEC",
+"sector": "43 Mobility & Automotive",
+"country": "Austria",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; specialty automotive and mining"
+},
+{
+"id": "sundaram-clayton.com",
+"company": "Sundaram Clayton Limited",
+"sector": "43 Mobility & Automotive",
+"country": "India",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "TVS Group",
+"triage_note": "real; fit 1; scale mid; auto components"
+},
+{
+"id": "bury.com",
+"company": "BURY",
+"sector": "43 Mobility & Automotive",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; automotive electronics supplier"
+},
+{
+"id": "boge-rubber-plastics.com",
+"company": "BOGE Rubber & Plastics Group",
+"sector": "43 Mobility & Automotive",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Zhuzhou Times New Material Technology Co",
+"triage_note": "real; fit 1; scale mid; vibration control supplier"
+},
+{
+"id": "tbk-jp.com",
+"company": "TBK Co., Ltd.",
+"sector": "43 Mobility & Automotive",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; auto parts maker"
+},
+{
+"id": "roto-frank.com",
+"company": "Roto Window and Door Technology",
+"sector": "NEW Other",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; window hardware maker"
+},
+{
+"id": "wkw-group.com",
+"company": "WKW.automotive",
+"sector": "43 Mobility & Automotive",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; aluminum automotive trim"
+}
+]

@@ -1,0 +1,271 @@
+[
+ {
+  "id": "p:mairespa",
+  "company": "MAIRE (Tecnimont, NextChem)",
+  "sector_tab": "02 Energy & Industrial",
+  "domain": "groupmaire.com",
+  "hq": "Milan, Italy",
+  "ownership": "Listed (Borsa Italiana: MAIRE); GLV Capital (Fabrizio Di Amato) ~51% control",
+  "sells": "Engineering & construction of process plants (Tecnimont) and energy-transition technology licensing (NextChem)",
+  "headcount_band": "10,001+ (10,775, 2025)",
+  "revenue": "EUR 7.1B FY2025 (~USD 8B)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets (Middle East, Europe, Americas, Asia): yes; senior B2B buyers (NOCs, chemical majors): yes; story of technology/energy transition: yes; category (EPC/process engineering) not crowded but close to oil & gas: 0 (est)",
+  "up_and_coming": false,
+  "flags": [
+   "B2B project business; narrow buyer universe"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes all hard filters (revenue EUR 7.1B FY2025, ~10.8k staff, no F1 tie found); B2B EPC with limited brand-marketing motive and oil & gas-adjacent client base.",
+  "best_angle": "Hospitality platform with Gulf NOC and petrochemical decision makers at Middle East races, as NextChem markets its transition technologies.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Maire_Tecnimont",
+   "https://chemxplore.com/news/maire-s-first-half-2025-consolidated-results-strong-h1-performance-supports-upward-revision-of-full-year-revenue-and-ebitda-guidance",
+   "https://craft.co/maire-italy"
+  ]
+ },
+ {
+  "id": "p:unternehmensgruppetheomuller",
+  "company": "Müller Group (Unternehmensgruppe Theo Müller)",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "muellergroup.com",
+  "hq": "Aretsried, Germany (holding in Luxembourg)",
+  "ownership": "Private, Müller family",
+  "sells": "Dairy and food brands: Müllermilch, Müller Corner, Weihenstephan, Landliebe, Müller UK & Ireland",
+  "headcount_band": "10,001+ (~32,300, 2023)",
+  "revenue": "EUR 9.2B 2023 (company: >EUR 9B)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets (Germany, UK, Italy, Netherlands etc.): yes; affluent 25-54: no (mass-market FMCG); performance/tech story: no (some protein lines); category not crowded: yes",
+  "up_and_coming": false,
+  "flags": [
+   "owner reputational: Theo Müller AfD links reported 2024 (verify)",
+   "Europe-centric mass FMCG"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (revenue >EUR 9B 2023, ~32k staff, no F1 tie found); mass-market dairy with weak performance story and owner reputational sensitivity.",
+  "best_angle": "Protein/sports-nutrition dairy lines could use European race weekends for reach with UK and German fans.",
+  "sources": [
+   "https://www.cio.de/article/3809088/theo-muller-wird-85.html",
+   "https://www.cio.de/article/3701339/unternehmensgruppe-theo-mueller-s-e-c-s-it-fakten-und-it-strategie.html",
+   "https://www.horizont.net/marketing/nachrichten/esl-partnerschaft-muellermilch-steigt-in-den-e-sport-ein-198097"
+  ]
+ },
+ {
+  "id": "p:grupopinero",
+  "company": "Grupo Piñero (Bahia Principe)",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "grupo-pinero.com",
+  "hq": "Palma de Mallorca, Spain",
+  "ownership": "Private, Piñero family",
+  "sells": "Bahia Principe resorts (Spain, Dominican Republic, Mexico, Jamaica), Soltour tour operations, real estate",
+  "headcount_band": "10,001+ (est; >8,000 in Dominican Republic alone, 2025)",
+  "revenue": "EUR 987M 2024 (record, +6%)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets (Spain, Mexico, source markets US/UK/Germany): yes; affluent 25-54 leisure travellers: yes (est); performance/tech story: no; category (resorts) not crowded: yes",
+  "up_and_coming": false,
+  "flags": [],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (EUR 987M revenue 2024, large staff, no F1 tie found); mid/upscale all-inclusive resort story does not map to performance/technology.",
+  "best_angle": "Madrid (Madring) and Mexico City GPs give a consumer-reach platform for Bahia Principe's Spanish and Mexican resorts.",
+  "sources": [
+   "https://www.hosteltur.com/161422_grupo-pinero-alcanza-un-nuevo-record-de-facturacion-con-956-m.html",
+   "https://dmklawyers.com/en/grupo-pinero-celebrates-50th-anniversary/",
+   "https://eldia.com.do/grupo-pinero-genera-mas-de-8000-empleos-98-dominicanos/"
+  ]
+ },
+ {
+  "id": "p:womblebonddickinson",
+  "company": "Womble Bond Dickinson",
+  "sector_tab": "50 Law Firms & Legal AI",
+  "domain": "womblebonddickinson.com",
+  "hq": "Charlotte, US / Newcastle-London, UK (transatlantic)",
+  "ownership": "Partnership; US and UK member firms under Womble Bond Dickinson (International); merged with Lewis Roca 1 Jan 2025",
+  "sells": "Commercial legal services (US and UK)",
+  "headcount_band": "1,001-5,000 (~4,000, est)",
+  "revenue": "~USD 828M (latest public, post-2025 Lewis Roca merger); USD 742M combined 2023",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets: no (mostly US/UK); senior B2B buyers: yes; performance/tech story: no; category (law) not crowded: yes",
+  "up_and_coming": false,
+  "flags": [
+   "mostly two markets (US/UK)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (~USD 828M revenue, ~4k staff, no F1 tie found); two-market professional services firm with limited brand-marketing motive.",
+  "best_angle": "Client-hospitality play at the US and British GPs following the 2025 Lewis Roca expansion.",
+  "sources": [
+   "https://www.legalcheek.com/firm/womble-bond-dickinson/",
+   "https://news.bloomberglaw.com/bloomberg-government-news/womble-bond-to-merge-with-lewis-roca-in-latest-big-law-combo"
+  ]
+ },
+ {
+  "id": "p:rethmann",
+  "company": "Rethmann Group",
+  "sector_tab": "X Waste & Recycling",
+  "domain": "rethmann.com",
+  "hq": "Selm, Germany",
+  "ownership": "Private, Rethmann family; four divisions Remondis, Rhenus, Saria, Transdev (majority since July 2025)",
+  "sells": "Waste management/recycling (Remondis), logistics (Rhenus), animal by-products (Saria), public transport (Transdev)",
+  "headcount_band": "10,001+ (~211,000, 2025)",
+  "revenue": "~EUR 30.0B 2025 (Wikipedia, est)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets: yes; senior B2B buyers (municipalities, industry): yes; performance/tech story: no; category: Rhenus logistics crowded (DHL), waste not crowded - net 0 (est)",
+  "up_and_coming": false,
+  "flags": [
+   "holding company; divisions market under own brands",
+   "Rhenus is in crowded logistics category"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (~EUR 30B revenue 2025, ~211k staff, no F1 tie found for group or divisions); low-profile holding, divisions market separately, story not performance-led.",
+  "best_angle": "Remondis circular-economy / F1 net-zero 2030 sustainability partnership angle.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Rethmann",
+   "https://www.rethmann-gruppe.de/en",
+   "https://www.formula1.com/en/latest/article/formula-1-and-dhl-build-on-20-year-partnership-in-expanded-multi-year.5eDcqE9SiryWYL0THT3Qsl"
+  ]
+ },
+ {
+  "id": "p:orascomdevelopment",
+  "company": "Orascom Development Holding",
+  "sector_tab": "X Real Estate",
+  "domain": "orascomdh.com",
+  "hq": "Altdorf, Switzerland (operations mainly Egypt)",
+  "ownership": "Listed (SIX: ODHN); Samih Sawiris largest shareholder",
+  "sells": "Integrated destination towns: real estate sales, hotels (El Gouna, Makadi, O West in Egypt; Oman; Montenegro; UK)",
+  "headcount_band": "1,001-5,000 (~5,000, est)",
+  "revenue": "CHF 641.4M FY2025 (~USD 790M), +1.7%",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets: no (Egypt-centric, Oman, Montenegro); affluent 25-54 second-home buyers: yes; performance/tech story: no; category (real estate) not crowded: yes",
+  "up_and_coming": false,
+  "flags": [
+   "Egypt currency exposure"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (CHF 641M revenue FY2025 clears USD 500M; ~5k staff; no F1 tie found); Egypt-centric destination developer with weak F1-market footprint.",
+  "best_angle": "Middle East race hospitality to market El Gouna/O West homes to affluent Gulf and European buyers.",
+  "sources": [
+   "https://webdisclosure.com/article/orascom-development-holding-ag-etr-4o7-orascom-development-holding-ag-reports-fy-2025-financial-results-qNaElrYvt3i",
+   "https://www.zawya.com/en/capital-markets/equities/egypt-orascom-developments-consolidated-profits-rise-78.5-yoy-in-2025-356552"
+  ]
+ },
+ {
+  "id": "p:draugustoetkerkg",
+  "company": "Oetker Group",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "oetker-gruppe.de",
+  "hq": "Bielefeld, Germany",
+  "ownership": "Private, Oetker family (Oetker-Gruppe after 2021 split; Henkell Freixenet and Oetker hotels sit in separate Oetker Collection KG)",
+  "sells": "Dr. Oetker foods (pizza, baking, desserts), Radeberger beer group, Coppenrath & Wiese",
+  "headcount_band": "10,001+ (28,713, 2024)",
+  "revenue": "EUR 7.1B 2025 (44% outside Germany)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets: yes (Dr. Oetker in 40+ countries); affluent 25-54: no (mass FMCG); performance/tech story: no; category: food not crowded yes (Radeberger beer crowded)",
+  "up_and_coming": false,
+  "flags": [
+   "screen conflated Oetker-Gruppe with Oetker Collection KG (Henkell Freixenet, hotels; EUR 2.57B 2025)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (EUR 7.1B revenue 2025, ~28.7k staff, no F1 tie found); mass-market food with weak performance story.",
+  "best_angle": "Dr. Oetker pizza fan-snacking activation around European races; reach play rather than premium positioning.",
+  "sources": [
+   "https://lebensmittelpraxis.de/industrie-aktuell/48732-nahrungsmittelkonzern-oetker-gruppe-steigert-umsatz-auf-7-milliarden-euro.html",
+   "https://retail-news.de/oetker-group-umsatz-2025-investitionen-deutschland/",
+   "https://en.wikipedia.org/wiki/Henkell_%26_Co._Sektkellerei"
+  ]
+ },
+ {
+  "id": "p:tiens",
+  "company": "Tiens Group",
+  "sector_tab": "42 Health & Wellness",
+  "domain": "tiens.com",
+  "hq": "Tianjin, China",
+  "ownership": "Private, founder Li Jinyuan",
+  "sells": "Multi-level-marketing health supplements, wellness devices and cosmetics in ~110 countries with branches",
+  "headcount_band": "5,001-10,000 (est; directories range 1,000-10,000+)",
+  "revenue": "Unverified; ~USD 604M (aggregator est, undated)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets: yes; affluent 25-54: no (MLM mass market); performance/tech story: no; category not crowded: yes",
+  "up_and_coming": false,
+  "flags": [
+   "scale unverified - no audited figure found",
+   "MLM model: reputational review needed",
+   "significant Russia operations (est)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "No hard-filter failure found (not sanctioned, no F1 tie found) but scale is unverified (only an undated ~USD 604M aggregator estimate) and MLM/Russia exposure needs reputational review.",
+  "best_angle": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Tiens_Group",
+   "https://prospeo.io/c/tiens-revenue",
+   "https://www.jiemian.com/article/278011.html"
+  ]
+ },
+ {
+  "id": "p:permasteelisa",
+  "company": "Permasteelisa Group",
+  "sector_tab": "39 Construction & Field Svc",
+  "domain": "permasteelisagroup.com",
+  "hq": "Vittorio Veneto, Italy",
+  "ownership": "Private, Atlas Holdings (acquired from LIXIL 2020)",
+  "sells": "Engineered building envelopes / curtain-wall facades for landmark projects worldwide",
+  "headcount_band": "1,001-5,000 (3,197 2023; ~3,586 2025 est)",
+  "revenue": "EUR 820M 2023",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 4,
+  "fit_detail": "3+ F1 markets (US, UK, Australia, Singapore, Middle East, Europe): yes; senior B2B buyers (developers, architects): yes; precision engineering story: yes; category not crowded: yes",
+  "up_and_coming": false,
+  "flags": [
+   "PE-owned project business; limited brand-marketing history"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (EUR 820M revenue 2023, ~3.2-3.6k staff, no F1 tie found); strong fit but niche B2B buyer universe and owner's appetite for brand spend unproven.",
+  "best_angle": "Precision-engineering story for landmark-developer hospitality in Gulf, Singapore and US race cities.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Permasteelisa",
+   "https://www.reveliolabs.com/companies/permasteelisa/employees/",
+   "https://www.willkie.com/news/2020/05/atlas-holdings-to-acquire-permasteelisa-from-lixil"
+  ]
+ },
+ {
+  "id": "p:gerflor",
+  "company": "Gerflor",
+  "sector_tab": "49 Home & Living",
+  "domain": "gerflor.com",
+  "hq": "Lyon, France",
+  "ownership": "Private, Cobepa majority since 2019 (with management)",
+  "sells": "Vinyl, linoleum and sports flooring (Taraflex) for healthcare, education, sports, transport",
+  "headcount_band": "5,001-10,000 (>5,000, 2024)",
+  "revenue": "~EUR 1B+ (latest, CFNews; group CSR 2023 cites ~EUR 1.4B, est)",
+  "valuation": "EV >EUR 1.6B (Cobepa deal, est)",
+  "latest_raise": "",
+  "fit_score": 4,
+  "fit_detail": "3+ F1 markets: yes (global); senior B2B specifiers: yes; performance story (Taraflex Olympic/elite sport surfaces): yes; category not crowded: yes",
+  "up_and_coming": false,
+  "flags": [],
+  "verdict": "Yes",
+  "verdict_reason": "Passes hard filters (~EUR 1B+ revenue, >5k staff, no F1 tie found); proven sports-sponsorship buyer (Paris 2024 official partner, FIBA/EHF) with performance-surface story.",
+  "best_angle": "After Paris 2024 Olympic partnership, F1 extends Gerflor's elite-performance surface story to a global B2B audience.",
+  "sources": [
+   "https://cobepapublications.h5mag.com/cobepa_annual_report_2024/gerflor",
+   "https://www.cfnews.net/L-actualite/LBO/Operations/LBO-Quinte/Gerflor-revet-un-investisseur-belge-324582",
+   "https://www.gerflorcanada.com/ca/segments/sport-gerflor-partner-biggest-events",
+   "https://gerflorgroup.com/sites/web_corp/files/2024-09/RAPPORT_RSE%20-%202023.pdf"
+  ]
+ }
+]

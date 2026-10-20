@@ -1,0 +1,122 @@
+[
+{
+"id": "haarslev.com",
+"company": "Haarslev",
+"sector": "23 Machine Tools",
+"country": "Denmark",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; food-industry machinery"
+},
+{
+"id": "nusummit.com",
+"company": "NuSummit Cybersecurity",
+"sector": "14 Cyber + IT",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; cybersecurity services"
+},
+{
+"id": "led.com",
+"company": "GE Current, a Daintree company",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; lighting and IoT"
+},
+{
+"id": "hydraforce.com",
+"company": "HydraForce Inc.",
+"sector": "23 Machine Tools",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Compact Hydraulics Business Unit",
+"triage_note": "real; fit 2; scale mid; hydraulic valves"
+},
+{
+"id": "takraf.com",
+"company": "TAKRAF Group",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; mining equipment"
+},
+{
+"id": "magroup.net",
+"company": "MAGROUP",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; aerospace components"
+},
+{
+"id": "rulmeca.com",
+"company": "RULMECA",
+"sector": "23 Machine Tools",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; conveyor rollers"
+},
+{
+"id": "maqsoftware.com",
+"company": "MAQ Software",
+"sector": "25 IT Services & Consulting",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; data and AI services"
+},
+{
+"id": "ghcranes.com",
+"company": "GH Cranes & Components",
+"sector": "23 Machine Tools",
+"country": "Spain",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; cranes and hoists"
+},
+{
+"id": "sngular.com",
+"company": "Sngular",
+"sector": "25 IT Services & Consulting",
+"country": "Spain",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; tech consultancy"
+}
+]

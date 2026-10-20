@@ -1,0 +1,122 @@
+[
+{
+"id": "derewala.com",
+"company": "Derewala Industries Limited",
+"sector": "03 Luxury & Beauty",
+"country": "India",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Indian jeweller"
+},
+{
+"id": "archermind.com",
+"company": "ArcherMind Technology (Nanjing) Co., Ltd.",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; software outsourcing"
+},
+{
+"id": "regal-jewelry.com",
+"company": "Regal Jewelry Manufacture Co., Ltd.",
+"sector": "03 Luxury & Beauty",
+"country": "Thailand",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Thai jewellery maker"
+},
+{
+"id": "taimei.com",
+"company": "太美医疗科技",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; China life-science software"
+},
+{
+"id": "innseedvapes.com",
+"company": "Shenzhen Innseed Technology Co., Ltd.",
+"sector": "X15 Consumer Electronics & Audio",
+"country": "China",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; vape maker"
+},
+{
+"id": "lior.com",
+"company": "Industrias LIOR",
+"sector": "03 Luxury & Beauty",
+"country": "Mexico",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; fashion jewellery"
+},
+{
+"id": "yuntongxun.com",
+"company": "容联云通讯",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; China cloud comms"
+},
+{
+"id": "danzi.cn",
+"company": "Danzi Group",
+"sector": "03 Luxury & Beauty",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese cosmetics group"
+},
+{
+"id": "ramojifilmcity.com",
+"company": "Ramoji Film City",
+"sector": "29 Tech Media & Gaming",
+"country": "India",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Ramoji Group (Ushodaya Enterprises)",
+"triage_note": "real; fit 1; scale mid; film studio and tourism"
+},
+{
+"id": "foryoumedia.com.cn",
+"company": "Foryou Multimedia Electronics Co., Ltd",
+"sector": "X15 Consumer Electronics & Audio",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; car infotainment"
+}
+]

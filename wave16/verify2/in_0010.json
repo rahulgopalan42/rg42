@@ -1,0 +1,122 @@
+[
+{
+"id": "kkcg.com",
+"company": "KKCG Group",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "Switzerland",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; Czech investment group, Sazka"
+},
+{
+"id": "qatarairways.com",
+"company": "Qatar Airways",
+"sector": "19 Gulf Sovereign & Tourism",
+"country": "Qatar",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; Qatar national airline"
+},
+{
+"id": "doco.com",
+"company": "DO & CO AG",
+"sector": "16 Travel & Hospitality",
+"country": "Austria",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; premium catering, F1 hospitality"
+},
+{
+"id": "qualcomm.com",
+"company": "Qualcomm",
+"sector": "27 Chip Makers",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Qualcomm Inc",
+"triage_note": "real; fit 3; scale large; chips, F1 partner"
+},
+{
+"id": "adidas.com",
+"company": "adidas",
+"sector": "53 Consumer & Lifestyle",
+"country": "Germany",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; sportswear"
+},
+{
+"id": "philips.com",
+"company": "Philips",
+"sector": "42 Health & Wellness",
+"country": "Netherlands",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; health tech"
+},
+{
+"id": "giantgroup-cycling.com",
+"company": "Giant Group 巨大集團",
+"sector": "53 Consumer & Lifestyle",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; bicycle maker"
+},
+{
+"id": "csg.com",
+"company": "CSG",
+"sector": "23 Machine Tools",
+"country": "Czechia",
+"type": "Partnership",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; Czech defense manufacturing group"
+},
+{
+"id": "dmgmori.co.jp",
+"company": "DMG MORI Company Limited",
+"sector": "23 Machine Tools",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; machine tools, F1 sponsor adjacent"
+},
+{
+"id": "hermanmiller.com",
+"company": "Herman Miller",
+"sector": "49 Home & Living",
+"country": "United States",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "MillerKnoll",
+"triage_note": "real; fit 3; scale large; MillerKnoll, design furniture"
+}
+]

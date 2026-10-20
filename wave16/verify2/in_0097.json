@@ -1,0 +1,122 @@
+[
+{
+"id": "biccamera.co.jp",
+"company": "株式会社ビックカメラ",
+"sector": "X06 Retail & E-commerce",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Japanese electronics retailer"
+},
+{
+"id": "hongdou.com",
+"company": "红豆集团 香港分公司",
+"sector": "53 Consumer & Lifestyle",
+"country": "Hong Kong",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Hongdou Group",
+"triage_note": "real; fit 0; scale large; Chinese apparel group"
+},
+{
+"id": "sinooceanland.com",
+"company": "Sino-Ocean Group",
+"sector": "X02 Real Estate & Building Products",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Chinese developer"
+},
+{
+"id": "rjet.com",
+"company": "Republic Airlines",
+"sector": "16 Travel & Hospitality",
+"country": "United States",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Republic Airways",
+"triage_note": "real; fit 0; scale large; US regional airline"
+},
+{
+"id": "holidaystationstores.com",
+"company": "Holiday Stationstores",
+"sector": "X06 Retail & E-commerce",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Alimentation Couche-Tard",
+"triage_note": "real; fit 0; scale large; convenience chain"
+},
+{
+"id": "modivcare.com",
+"company": "Modivcare",
+"sector": "42 Health & Wellness",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; medical transport services"
+},
+{
+"id": "delijn.be",
+"company": "De Lijn",
+"sector": "16 Travel & Hospitality",
+"country": "Belgium",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Flemish Government",
+"triage_note": "real; fit 0; scale large; regional bus operator"
+},
+{
+"id": "denner.ch",
+"company": "Denner AG",
+"sector": "X06 Retail & E-commerce",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Migros",
+"triage_note": "real; fit 0; scale large; Swiss discounter"
+},
+{
+"id": "unieurospa.com",
+"company": "Unieuro S.p.A.",
+"sector": "X06 Retail & E-commerce",
+"country": "Italy",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Fnac Darty",
+"triage_note": "real; fit 0; scale large; Italian electronics retailer"
+},
+{
+"id": "bwi.de",
+"company": "BWI GmbH",
+"sector": "25 IT Services & Consulting",
+"country": "Germany",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Federal Republic of Germany",
+"triage_note": "real; fit 0; scale large; Bundeswehr IT provider"
+}
+]

@@ -1,0 +1,53 @@
+[
+{
+"id": "chuyentrangbatdongsan.com.vn",
+"company": "THIÊN KHÔI GROUP",
+"keep": false,
+"reason": "quick triage: name-domain mismatch",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+},
+{
+"id": "hadihammam.com",
+"company": "Hadi H Al Hammam Est",
+"keep": false,
+"reason": "quick triage: tiny local business",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+},
+{
+"id": "amarillasinternet.com",
+"company": "AmarillasInternet Corporation",
+"keep": false,
+"reason": "quick triage: tiny local business",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+}
+]

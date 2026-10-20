@@ -1,0 +1,802 @@
+[
+{
+"id": "asistenzia.es",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Spanish elderly care company"
+},
+{
+"id": "rupsha.org",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Bangladeshi tyre maker"
+},
+{
+"id": "missfresh.cn",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Chinese fresh retail platform"
+},
+{
+"id": "birincisaglikgrubu.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Turkish international hospital"
+},
+{
+"id": "garda.ai",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Russian antifraud software vendor"
+},
+{
+"id": "tecdia.ph",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "TDK",
+"note": "Philippine thin-film substrates plant"
+},
+{
+"id": "suryamasld.co.id",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indonesian lighting distributor"
+},
+{
+"id": "emaarnewprojects.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Emaar",
+"note": "Emaar India new projects"
+},
+{
+"id": "skyrr.is",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "Advania",
+"note": "Skyrr absorbed Icelandic IT brand"
+},
+{
+"id": "royalhotelgroup.ca",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Saskatchewan hotel company"
+},
+{
+"id": "havenhealth.net",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "South African corporate health services"
+},
+{
+"id": "ams1.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Egyptian manufacturing group"
+},
+{
+"id": "royalfloorings.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian flooring retailer"
+},
+{
+"id": "stiftshospital-andernach.de",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "German hospital Andernach"
+},
+{
+"id": "yfpower.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Chinese power technology firm"
+},
+{
+"id": "oriondialog.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian premium BPO"
+},
+{
+"id": "sparkhub.lk",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Sri Lankan startup hub"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Kazakh retail; junk description"
+},
+{
+"id": "rorzerobotech.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Rorze",
+"note": "Vietnam plant of Rorze robots"
+},
+{
+"id": "unibear.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Hangzhou industrial group"
+},
+{
+"id": "mirpurshoppingworld.com.bd",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Bangladeshi shopping complex project"
+},
+{
+"id": "nilayaheights.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian real estate developer"
+},
+{
+"id": "flctourism.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "FLC Group",
+"note": "Vietnamese travel event arm"
+},
+{
+"id": "echellons.com.ng",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Nigerian real estate company"
+},
+{
+"id": "zhfc.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Chinese real estate brokerage"
+},
+{
+"id": "teambusinessman.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Business opportunity network marketing"
+},
+{
+"id": "jalfa.com.br",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Brazilian financial solutions"
+},
+{
+"id": "emirerri.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian steel manufacturer"
+},
+{
+"id": "",
+"t": "real",
+"fit": 3,
+"scale": "mid",
+"parent": "",
+"note": "African luxury safari operator"
+},
+{
+"id": "sintai-furniture.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "Outdoor furniture manufacturer"
+},
+{
+"id": "cuirinde.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian leather home goods"
+},
+{
+"id": "prominate.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Prominate",
+"note": "Swedish unit of Prominate"
+},
+{
+"id": "ialva.org",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Venture acquisition alliance"
+},
+{
+"id": "garis.com.cn",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Chinese hardware manufacturer"
+},
+{
+"id": "tecomen.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Vietnamese water appliance group"
+},
+{
+"id": "theshiyan.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Qatari textile trading firm"
+},
+{
+"id": "burson-marsteller.no",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "BCW",
+"note": "Oslo office of Burson"
+},
+{
+"id": "grupogfterceirizacao.com.br",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Brazilian outsourcing group"
+},
+{
+"id": "imperialrecruitment.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "UK recruitment agency"
+},
+{
+"id": "sanyang.com.ph",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Philippine furniture importer"
+},
+{
+"id": "nmh.co.in",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian leather company"
+},
+{
+"id": "scanda.com.co",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Mexican IT services group"
+},
+{
+"id": "nakshatradiamonds.in",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "Gitanjali Group",
+"note": "Collapsed jewellery group brand"
+},
+{
+"id": "gamp.com.br",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Brazilian health management group"
+},
+{
+"id": "oracaregroup.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Singapore dental clinics group"
+},
+{
+"id": "deloittedigital.no",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Norwegian data innovation workshop"
+},
+{
+"id": "canguclub.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Colombian shopping club app"
+},
+{
+"id": "hjsindonesia.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Indonesian manufacturing group"
+},
+{
+"id": "amaialand.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Ayala Land",
+"note": "Philippine housing brand recruiter page"
+},
+{
+"id": "tigerfamily.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "Hong Kong ergonomic schoolbags"
+},
+{
+"id": "egepolhospitals.com",
+"t": "real",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Turkish hospitals; no data"
+},
+{
+"id": "wealthik.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Network marketing opportunity page"
+},
+{
+"id": "hengyecheng.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Zhejiang Sucon",
+"note": "Silicone subsidiary"
+},
+{
+"id": "villamarket.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Thai supermarket chain"
+},
+{
+"id": "pentagontextiles.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian garment maker"
+},
+{
+"id": "sheebagarments.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Egyptian garment exporter"
+},
+{
+"id": "chlgvalve.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Chinese valve manufacturer"
+},
+{
+"id": "nrngroupbd.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Bangladeshi group"
+},
+{
+"id": "namcuong.com.vn",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Vietnamese real estate group"
+},
+{
+"id": "",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "Boots",
+"note": "Dollond Aitchison absorbed UK brand"
+},
+{
+"id": "",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Caesars Entertainment",
+"note": "Windsor casino managed by Caesars"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Canadian customer contact centre"
+},
+{
+"id": "westshopping.com.br",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Rio shopping mall"
+},
+{
+"id": "murrelektronik.sg",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Murrelektronik",
+"note": "Asia Pacific office of Murrelektronik"
+},
+{
+"id": "rupayancityuttara.org",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Residential community project page"
+},
+{
+"id": "myprisma.in",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian clothing fashion brand"
+},
+{
+"id": "seioglobal.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Chinese IT services company"
+},
+{
+"id": "hengfeng-china.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Chinese leisure furniture maker"
+},
+{
+"id": "wanai.com",
+"t": "division",
+"fit": 0,
+"scale": "small",
+"parent": "Wanai Group",
+"note": "Home appliance subsidiary"
+},
+{
+"id": "yinda.cn",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Chinese property management"
+},
+{
+"id": "metronic-group.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian automation engineering"
+},
+{
+"id": "visclin.com.br",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Brazilian ophthalmology clinic"
+},
+{
+"id": "radinagroup.bg",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Bulgarian group"
+},
+{
+"id": "alkoclar.com.tr",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Turkish hotels resorts group"
+},
+{
+"id": "tpi.tw",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "Taiwanese bearing manufacturer"
+},
+{
+"id": "mridhagroup.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Mridha Group",
+"note": "Bangladeshi fabric sister concern"
+},
+{
+"id": "doncarb.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Energoprom",
+"note": "Russian graphite producer subsidiary"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Indian trade; junk description"
+},
+{
+"id": "virtualnexgen.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian IT firm"
+},
+{
+"id": "linet.es",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "LINET Group",
+"note": "Iberian arm of hospital bed maker"
+},
+{
+"id": "wbinvestama.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indonesian home furnishings investor"
+},
+{
+"id": "biev.com.tr",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Turkish homeware retail chain"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Reunion retail company"
+},
+{
+"id": "greenleaf-global.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Azerbaijani brands distributor"
+},
+{
+"id": "synergyhanil.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Chinese polymer materials firm"
+},
+{
+"id": "bravecare.pl",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Polish care services"
+},
+{
+"id": "sumeruknits.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Indian knit textile exporter"
+},
+{
+"id": "zifengtower.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Greenland Holdings",
+"note": "Nanjing skyscraper financial centre"
+},
+{
+"id": "superone.co",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Myanmar holding; no data"
+},
+{
+"id": "jufenginfo.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "Hangzhou electronics technology company"
+},
+{
+"id": "israel.coop",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Israeli consumer cooperative"
+},
+{
+"id": "khachaturovgroup.am",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Armenian business group"
+},
+{
+"id": "sunshineoutdoor.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Chinese outdoor furniture maker"
+},
+{
+"id": "imagenome.fr",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Inovie",
+"note": "Genetic diagnostics unit of Inovie"
+},
+{
+"id": "mywaynet.it",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Italian network marketing company"
+},
+{
+"id": "crownname.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Wuhan health technology group"
+},
+{
+"id": "sangwoo.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Korean garment vendor"
+},
+{
+"id": "privee.com.mx",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Residential project page"
+},
+{
+"id": "manarrealestate.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Emirati real estate firm"
+},
+{
+"id": "simc.edu.pk",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Pakistani medical complex"
+}
+]

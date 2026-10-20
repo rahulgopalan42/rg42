@@ -1,0 +1,122 @@
+[
+{
+"id": "netwitness.com",
+"company": "NetWitness",
+"sector": "14 Cyber + IT",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "STG",
+"triage_note": "real; fit 1; scale mid; Threat detection vendor"
+},
+{
+"id": "woer-ev.com",
+"company": "WOER NEW ENERGY",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; EV charging connectors"
+},
+{
+"id": "grgtmall.net",
+"company": "Grg Metrology & Test Group Co.,Ltd.",
+"sector": "35 Semiconductor Equipment",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese metrology/testing"
+},
+{
+"id": "torch.cn",
+"company": "Torch Electron Technology Co., Ltd.",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; electronic components"
+},
+{
+"id": "sphold.com",
+"company": "Stara Planina Hold",
+"sector": "23 Machine Tools",
+"country": "Bulgaria",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; industrial holding"
+},
+{
+"id": "bominelec.com",
+"company": "BOMIN ELECTRONICS CO.,LTD",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; electronic components"
+},
+{
+"id": "ms-hydraulic.com",
+"company": "M+S Hydraulic PLC",
+"sector": "33 Automation & Robotics",
+"country": "Bulgaria",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; hydraulic motors"
+},
+{
+"id": "playaresorts.com",
+"company": "Playa Hotels & Resorts",
+"sector": "16 Travel & Hospitality",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Hyatt",
+"triage_note": "real; fit 1; scale mid; resort operator"
+},
+{
+"id": "vgrass.com",
+"company": "维格娜丝时装股份有限公司",
+"sector": "53 Consumer & Lifestyle",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; high-end womenswear"
+},
+{
+"id": "regalhotel.com",
+"company": "Century City Holdings Limited",
+"sector": "X02 Real Estate & Building Products",
+"country": "China",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Century City International (Paliburg)",
+"triage_note": "real; fit 1; scale mid; hotel/property group"
+}
+]

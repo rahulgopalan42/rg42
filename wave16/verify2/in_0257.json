@@ -1,0 +1,122 @@
+[
+{
+"id": "solartech-energy.com",
+"company": "Solartech Energy Corp 昇陽光電科技股份有限公司",
+"sector": "27 Chip Makers",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; solar cells"
+},
+{
+"id": "kehua.com.cn",
+"company": "科华恒盛股份有限公司",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; data centre power"
+},
+{
+"id": "linix.com.cn",
+"company": "Zhejiang Linix Motor Co.,Ltd.",
+"sector": "33 Automation & Robotics",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Hengdian Group",
+"triage_note": "real; fit 1; scale mid; motor maker"
+},
+{
+"id": "supermap.com",
+"company": "SuperMap GIS",
+"sector": "25 IT Services & Consulting",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; GIS software"
+},
+{
+"id": "kengic.com",
+"company": "KENGIC Intelligent Technology",
+"sector": "33 Automation & Robotics",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; intelligent equipment"
+},
+{
+"id": "xano.se",
+"company": "XANO Industri AB",
+"sector": "23 Machine Tools",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; niche engineering group"
+},
+{
+"id": "sdiptech.com",
+"company": "Sdiptech",
+"sector": "23 Machine Tools",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; infrastructure tech group"
+},
+{
+"id": "desa.com.tr",
+"company": "DESA Deri",
+"sector": "53 Consumer & Lifestyle",
+"country": "Türkiye",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; leather goods"
+},
+{
+"id": "ligula.se",
+"company": "Ligula Hospitality Group",
+"sector": "16 Travel & Hospitality",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Nordic hotel group"
+},
+{
+"id": "quizclothing.co.uk",
+"company": "QUIZ Clothing",
+"sector": "53 Consumer & Lifestyle",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; UK fashion retail"
+}
+]

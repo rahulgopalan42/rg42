@@ -1,0 +1,122 @@
+[
+{
+"id": "zazzle.com",
+"company": "Zazzle",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "201-500",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; custom products marketplace"
+},
+{
+"id": "ggsinc.com",
+"company": "GGS Information Services",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; technical publishing services"
+},
+{
+"id": "visionet.com",
+"company": "Visionet Systems - Dynamics 365 Consultancy",
+"sector": "25 IT Services & Consulting",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; technology services"
+},
+{
+"id": "arbisoft.com",
+"company": "Arbisoft",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; software engineering"
+},
+{
+"id": "sagitec.com",
+"company": "Sagitec Solutions",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; benefits software"
+},
+{
+"id": "kanini.com",
+"company": "KANINI",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; digital engineering"
+},
+{
+"id": "achievers.com",
+"company": "Achievers",
+"sector": "22 SaaS",
+"country": "Canada",
+"type": "Privately Held",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; employee recognition software"
+},
+{
+"id": "pcltech.com",
+"company": "PCL Technologies Inc.",
+"sector": "48 Telecom & Space",
+"country": "Taiwan",
+"type": "Privately Held",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; optical transceivers"
+},
+{
+"id": "senegence.com",
+"company": "SeneGence International",
+"sector": "03 Luxury & Beauty",
+"country": "United States",
+"type": "Privately Held",
+"staff": "51-200",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; direct selling cosmetics"
+},
+{
+"id": "iap-online.com",
+"company": "IAP",
+"sector": "25 IT Services & Consulting",
+"country": "Japan",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Japanese IT consulting"
+}
+]

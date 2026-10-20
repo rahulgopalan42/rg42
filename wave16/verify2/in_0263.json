@@ -1,0 +1,122 @@
+[
+{
+"id": "sciyon.com",
+"company": "科远智慧",
+"sector": "33 Automation & Robotics",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; industrial automation"
+},
+{
+"id": "uneec.com",
+"company": "Chenming Mold Ind. Corp.",
+"sector": "23 Machine Tools",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; mold manufacturer"
+},
+{
+"id": "aokang.com",
+"company": "Zhejiang Aokang Shoes Co., Ltd.",
+"sector": "53 Consumer & Lifestyle",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese footwear maker"
+},
+{
+"id": "shotelsresorts.com",
+"company": "S Hotels & Resorts Public Company Limited",
+"sector": "16 Travel & Hospitality",
+"country": "Thailand",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Singha Estate",
+"triage_note": "real; fit 1; scale mid; hotel group Thailand"
+},
+{
+"id": "jasangroup.com",
+"company": "Jasan Group",
+"sector": "53 Consumer & Lifestyle",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; seamless apparel maker"
+},
+{
+"id": "venustech.com.cn",
+"company": "VenusTech",
+"sector": "14 Cyber + IT",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; security software vendor"
+},
+{
+"id": "transimage.cn",
+"company": "传艺科技股份有限公司",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; electronics components"
+},
+{
+"id": "deltaapparel.com",
+"company": "Delta Apparel, Inc.",
+"sector": "53 Consumer & Lifestyle",
+"country": "United States",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; apparel maker"
+},
+{
+"id": "aopen.com",
+"company": "AOPEN",
+"sector": "45 Electronic Parts",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Acer",
+"triage_note": "real; fit 1; scale mid; industrial PC maker"
+},
+{
+"id": "singhaestate.co.th",
+"company": "SINGHA ESTATE PUBLIC COMPANY LIMITED",
+"sector": "X02 Real Estate & Building Products",
+"country": "Thailand",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Thai property and hotels"
+}
+]

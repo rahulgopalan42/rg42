@@ -1,0 +1,122 @@
+[
+{
+"id": "founder.com",
+"company": "Peking University Founder Group Co.,Ltd.",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "China",
+"type": "Partnership",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Peking University",
+"triage_note": "real; fit 1; scale large; Chinese tech and finance group"
+},
+{
+"id": "onewo.com",
+"company": "万物云空间科技服务股份有限公司",
+"sector": "X02 Real Estate & Building Products",
+"country": "China",
+"type": "Partnership",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "China Vanke",
+"triage_note": "real; fit 1; scale large; property services provider"
+},
+{
+"id": "nuskin.com",
+"company": "Nu Skin",
+"sector": "X06 Retail & E-commerce",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; direct-selling skincare"
+},
+{
+"id": "joyoung.com",
+"company": "Joyoung Official",
+"sector": "49 Home & Living",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "JS Global Lifestyle",
+"triage_note": "real; fit 1; scale large; Chinese small appliances"
+},
+{
+"id": "usj.co.jp",
+"company": "Universal Studios Japan(USJ LLC)",
+"sector": "29 Tech Media & Gaming",
+"country": "Japan",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Comcast / NBCUniversal",
+"triage_note": "real; fit 1; scale large; Japan theme park"
+},
+{
+"id": "crownresorts.com.au",
+"company": "Crown Resorts",
+"sector": "16 Travel & Hospitality",
+"country": "Australia",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Blackstone",
+"triage_note": "real; fit 1; scale large; Australian casino resorts"
+},
+{
+"id": "c-a.com",
+"company": "C&A",
+"sector": "53 Consumer & Lifestyle",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "COFRA",
+"triage_note": "real; fit 1; scale large; European fashion retailer"
+},
+{
+"id": "novonor.com",
+"company": "Novonor",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Brazilian conglomerate, ex Odebrecht"
+},
+{
+"id": "talaatmoustafa.com",
+"company": "Talaat Moustafa Group",
+"sector": "X02 Real Estate & Building Products",
+"country": "Egypt",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Egyptian real estate developer"
+},
+{
+"id": "novonor.com.br",
+"company": "Odebrecht",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; duplicate Odebrecht Novonor"
+}
+]

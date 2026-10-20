@@ -1,0 +1,294 @@
+[
+ {
+  "id": "ficosa.com",
+  "company": "Ficosa",
+  "sector_tab": "43 Mobility & Automotive",
+  "domain": "ficosa.com",
+  "hq": "Barcelona, Spain",
+  "ownership": "Pujol family (M&J Inv.) regained majority after buying Panasonic's 69% stake (closed 27 Mar 2026)",
+  "sells": "Automotive vision, safety, connectivity and mirror systems to global carmakers",
+  "headcount_band": "5,001-10,000 (9,700+, company profile, undated)",
+  "revenue": "~EUR 1.3B (est)",
+  "valuation": "Not disclosed",
+  "latest_raise": "n/a (family buyback of Panasonic stake, Mar 2026)",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes; senior OEM buyers yes; vision/ADAS technology story partial (not counted); automotive category crowded = 0",
+  "up_and_coming": false,
+  "flags": [
+   "ownership change: Panasonic exit, Pujol family majority (Mar 2026)",
+   "2026 ERE: 105 layoffs + strike at Viladecavalls plant",
+   "revenue est only",
+   "automotive category crowded on grid"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes hard filters (est revenue ~EUR 1.3B, ~9,700 staff, no F1 tie found); low value: pure B2B Tier-1 auto supplier in a crowded category with plant layoffs and no brand ambition.",
+  "best_angle": "",
+  "sources": [
+   "https://en.ara.cat/economy/the-pujol-family-recovers-the-majority-in-ficosa_1_5728697.html",
+   "https://es.ara.cat/economia/mercado-laboral/preacuerdo-ficosa-ere-acabara-105-despidos-diversas-garantias-trabajadores_1_5756770.html",
+   "https://www.aftermarketnews.com/ficosa-awarded-multiple-contracts-worth-510m-in-north-america/"
+  ]
+ },
+ {
+  "id": "miltenyibiotec.com",
+  "company": "Miltenyi Biotec",
+  "sector_tab": "X Pharma & Biotech",
+  "domain": "miltenyibiotec.com",
+  "hq": "Bergisch Gladbach, Germany",
+  "ownership": "Private, founder-owned (Stefan Miltenyi)",
+  "sells": "Cell separation, flow cytometry and cell & gene therapy tools to research labs, hospitals and biopharma in 23 countries",
+  "headcount_band": "1,001-5,000 (4,700+, company)",
+  "revenue": "~USD 845M (2025, RocketReach/ZoomInfo, est)",
+  "valuation": "Not disclosed",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; senior scientific/biopharma buyers yes; precision biotech story yes; life-science tools not crowded yes - B2B only (scored 3)",
+  "up_and_coming": false,
+  "flags": [
+   "revenue est only",
+   "B2B scientific audience, weak consumer motive"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on est revenue ~USD 845M 2025 and 4,700+ staff; no F1 tie found; reservation: B2B research/biopharma buyers with limited sponsorship motive.",
+  "best_angle": "",
+  "sources": [
+   "https://rocketreach.co/answers/what-is-the-annual-revenue-of-miltenyi-biotec_b5c67c63f42e0c81",
+   "https://www.zoominfo.com/c/miltenyi-biotec/25068448",
+   "https://www.reveliolabs.com/companies/miltenyi-biotec/employees"
+  ]
+ },
+ {
+  "id": "hoerbiger.com",
+  "company": "HOERBIGER",
+  "sector_tab": "23 Machine Tools",
+  "domain": "hoerbiger.com",
+  "hq": "Zug, Switzerland",
+  "ownership": "HOERBIGER Foundation (foundation-owned)",
+  "sells": "Compressor technology, drivetrain/synchroniser components, hydraulics and (since Mar 2026, via Physik Instrumente) precision positioning to industrial and automotive customers",
+  "headcount_band": "5,001-10,000 (6,477, 2024)",
+  "revenue": "EUR 1.466B (FY2024); EUR 1.416B (FY2023)",
+  "valuation": "Not disclosed",
+  "latest_raise": "n/a (acquired Physik Instrumente, closed 31 Mar 2026)",
+  "fit_score": 4,
+  "fit_detail": "3+ F1 markets (40 countries) yes; senior engineering buyers yes; precision engineering story yes; compression/positioning tech not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "Formula Student support only (not an F1 tie)",
+   "B2B only, limited brand motive"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes (EUR 1.466B revenue 2024, 6,477 staff, no F1 tie found); reservation: B2B industrial group with limited brand-marketing motive.",
+  "best_angle": "New Positioning division from the 2026 Physik Instrumente deal gives HOERBIGER a nanometre-precision story that fits F1 engineering hospitality.",
+  "sources": [
+   "https://cp.hoerbiger.com/en/newsroom/yearbook/facts-figures-2025.html",
+   "https://cp.hoerbiger.com/en/newsroom/press/das-hoerbiger-jahrbuch-2025-2026-bewaehrte-staerke-neue-ambition.html",
+   "https://cp.hoerbiger.com/_Resources/Persistent/f/1/6/4/f1647260dd72c8db44382f513e23fdc58c2e4171/HOE_Jahrbuch_2025_DE.pdf"
+  ]
+ },
+ {
+  "id": "engelglobal.com",
+  "company": "ENGEL Austria GmbH",
+  "sector_tab": "23 Machine Tools",
+  "domain": "engelglobal.com",
+  "hq": "Schwertberg, Austria",
+  "ownership": "Private, family-owned (Engleder/Neumayer family)",
+  "sells": "Injection-moulding machines and automation for plastics processors worldwide",
+  "headcount_band": "5,001-10,000 (~7,400, est)",
+  "revenue": "~EUR 1.5B (FY2024/25, -10%)",
+  "valuation": "Not disclosed",
+  "latest_raise": "n/a",
+  "fit_score": 4,
+  "fit_detail": "3+ F1 markets yes; senior manufacturing buyers yes; precision/automation story yes; injection-moulding not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "revenue down ~10% FY2024/25; job cuts and production shift to Eastern Europe",
+   "explored F1 KERS concept historically, no deal",
+   "B2B only"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes (~EUR 1.5B revenue FY2024/25, ~7,400 staff, no F1 tie found); reservation: B2B machinery maker in a downturn with limited brand motive.",
+  "best_angle": "",
+  "sources": [
+   "https://www.plasticsmachinerymanufacturing.com/injection-molding/article/55288853/engel-ends-financial-year-with-10-percent-revenue-drop",
+   "https://www.polyformnext.de/news-en/financial-year-2024-25-engel-increases-market-share-despite-decline-in-sales.htm",
+   "https://industriemagazin.at/news/engel-stellenabbau-produktionsverlagerung-osteuropa/"
+  ]
+ },
+ {
+  "id": "troon.com",
+  "company": "Troon",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "troon.com",
+  "hq": "Scottsdale, Arizona, USA",
+  "ownership": "TPG and Leonard Green & Partners (PE), Rory McIlroy's Symphony Ventures minority (since 2021); owners reportedly exploring a sale at >USD 2B",
+  "sells": "Golf course, club and leisure management (Troon, Indigo Sports, marinas) at 900+ locations in 35+ countries",
+  "headcount_band": "10,001+ (~24,400, company/TPG)",
+  "revenue": "~USD 1.3B (ZoomInfo, est)",
+  "valuation": ">USD 2B (reported sale talks, 2025-26)",
+  "latest_raise": "TPG strategic investment (Nov 2021, terms undisclosed)",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets (US, UAE/Middle East, UK, Europe, Asia) yes; affluent 25-54 golfers/members yes; story not performance/technology (no); golf management not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "PE owners exploring sale (>USD 2B) - ownership may change",
+   "revenue est only"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on reported >USD 2B valuation and ~USD 1.3B est revenue; no F1 tie found; reservation: pending PE sale process could stall marketing spend.",
+  "best_angle": "Troon's affluent golf-member base overlaps F1's premium hospitality audience, especially at US and Gulf races near its managed clubs.",
+  "sources": [
+   "https://www.raptorgroup.com/news/report-tpg-and-leonard-green-explore-potential-sale-of-mcilroy-backed-troon/",
+   "https://www.businesswire.com/news/home/20211115005891/en/Troon-Announces-Significant-Strategic-Investment-from-TPG-and-Rory-McIlroy%E2%80%99s-Symphony-Ventures-to-Fuel-Next-Stage-of-Growth",
+   "https://www.zoominfo.com/c/troon-golf-llc/38961932",
+   "https://www.reveliolabs.com/companies/troon-golf/employees/"
+  ]
+ },
+ {
+  "id": "hirschmann-automotive.com",
+  "company": "Hirschmann Automotive",
+  "sector_tab": "45 Electronic Parts",
+  "domain": "hirschmann-automotive.com",
+  "hq": "Rankweil, Austria",
+  "ownership": "Private (Hirschmann/Rankweil holding, family/independent)",
+  "sells": "Automotive connectors, sensors and electromechanical assemblies to Tier-1s and OEMs",
+  "headcount_band": "5,001-10,000 (~6,900, 2025)",
+  "revenue": "EUR 530M (2022, Austria-Forum)",
+  "valuation": "Not disclosed",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes; senior OEM buyers yes; connector-tech story partial (not counted); automotive category crowded = 0",
+  "up_and_coming": false,
+  "flags": [
+   "latest revenue figure 2022 (EUR 530M) - near threshold, verify",
+   "headcount data conflicting (Revelio 2,912 vs 6,900)",
+   "automotive category crowded on grid"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes hard filters on EUR 530M revenue (2022) and ~6,900 staff, no F1 tie found; low value: pure B2B Tier-2 automotive supplier with no brand ambition.",
+  "best_angle": "",
+  "sources": [
+   "https://austria-forum.org/af/AustriaWiki/Hirschmann_Automotive",
+   "https://www.reveliolabs.com/companies/hirschmann-automotive/employees",
+   "https://at.indeed.com/cmp/Hirschmann-Automotive"
+  ]
+ },
+ {
+  "id": "marquardt.com",
+  "company": "Marquardt Group",
+  "sector_tab": "45 Electronic Parts",
+  "domain": "marquardt.com",
+  "hq": "Rietheim-Weilheim, Germany",
+  "ownership": "Private, family-owned (Marquardt family)",
+  "sells": "Switches, mechatronic control systems and battery management for automotive, power tools and household appliances",
+  "headcount_band": "5,001-10,000 (~9,700, 2024)",
+  "revenue": "~EUR 1.4B (2023, -2.2%); grew in 2025 (amount not disclosed in sources)",
+  "valuation": "Not disclosed",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes; senior OEM buyers yes; mechatronics story partial (not counted); automotive category crowded = 0",
+  "up_and_coming": false,
+  "flags": [
+   "losses and ~300 layoffs in 2024",
+   "automotive category crowded on grid"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes hard filters (~EUR 1.4B revenue 2023, ~9,700 staff, no F1 tie found); low value: pure B2B automotive supplier with recent losses and no brand ambition.",
+  "best_angle": "",
+  "sources": [
+   "https://www.schwaebische.de/wirtschaft/chef-von-familienunternehmen-gibt-hoffnung-auf-das-wird-schwer-zu-realisieren-sein-4589754",
+   "https://www.schwaebische.de/wirtschaft/trotz-roter-zahlen-und-entlassungen-dieses-unternehmen-will-den-markt-attackieren-3600737",
+   "https://www.ihk.de/sbh/presse/aktuelle-pressemeldungen/medieninformationen20252/neuer-inhalt28-03-autos-netzwerk-bei-der-marquardt-gruppe-6516088"
+  ]
+ },
+ {
+  "id": "shl-medical.com",
+  "company": "SHL Medical",
+  "sector_tab": "X Medtech",
+  "domain": "shl-medical.com",
+  "hq": "Zug, Switzerland",
+  "ownership": "Family-controlled (Roger Samuelsson family) with EQT/Athos minority (2020)",
+  "sells": "Autoinjectors and drug-delivery devices for global pharma companies (~25% global autoinjector share)",
+  "headcount_band": "5,001-10,000 (~6,000, 2024)",
+  "revenue": "~USD 1.2B (Prospeo, est)",
+  "valuation": "Not disclosed",
+  "latest_raise": "n/a (USD 220M US plant opened Mar 2025)",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets (CH, US, Sweden, Taiwan, pharma customers globally) yes; senior pharma buyers yes; precision engineering story yes; drug-delivery category not crowded yes - B2B only (scored 3)",
+  "up_and_coming": true,
+  "flags": [
+   "revenue est only",
+   "market expansion: Switzerland/Taiwan -> US (South Carolina plant, 2025)",
+   "B2B pharma audience"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on est revenue ~USD 1.2B and ~6,000 staff; no F1 tie found; reservation: B2B pharma supplier with limited brand-marketing motive.",
+  "best_angle": "The 2025 US plant opening and GLP-1-driven autoinjector boom give SHL a precision-manufacturing growth story for F1 B2B hospitality with pharma buyers.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/SHL_Medical",
+   "https://pitchbook.com/profiles/company/66161-35",
+   "https://prospeo.io/c/shl-medical-revenue",
+   "https://www.postandcourier.com/business/technology/north-charleston-sc-shl-medical-swiss-palmetto-commerce-pharmaceuticals/article_d9baa2dd-d753-4798-8b18-1d384f483be3.html",
+   "https://www.shl-medical.com/news-insights/news/shl-medical-hits-milestone-1-5-billion-autoinjectors-shipped"
+  ]
+ },
+ {
+  "id": "russellinvestments.com",
+  "company": "Russell Investments",
+  "sector_tab": "X Asset Mgmt & PE",
+  "domain": "russellinvestments.com",
+  "hq": "Seattle, Washington, USA",
+  "ownership": "TA Associates / Reverence Capital (PE); agreed sale to B Capital-led consortium incl. CalPERS (announced 9 Jul 2026, close expected Q1 2027)",
+  "sells": "Multi-asset investment solutions, OCIO and advisory services to institutions and wealth managers globally",
+  "headcount_band": "1,001-5,000 (~2,000, est)",
+  "revenue": "~USD 1B+ (est); AUM USD 416B (2026)",
+  "valuation": "Not disclosed (2016 purchase USD 1.15B)",
+  "latest_raise": "n/a (pending sale to B Capital/CalPERS)",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; affluent/senior institutional buyers yes; global ambition story yes; asset management/banking category crowded = 0",
+  "up_and_coming": false,
+  "flags": [
+   "ownership change pending: B Capital/CalPERS acquisition (close Q1 2027)",
+   "financial services category crowded on grid",
+   "revenue est only"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on est revenue ~USD 1B+ (USD 416B AUM) and ~2,000 staff; no F1 tie found; reservation: ownership change pending into 2027 and crowded financial category.",
+  "best_angle": "New owners from 2027 and 15% organic AUM growth could support a wealth-channel brand push via F1 hospitality with advisers.",
+  "sources": [
+   "https://russellinvestments.com/ca/about-us/newsroom/2026/russell-investments-announces-new-long-term-owners",
+   "https://imdealsblog.sewkis.com/insights/b-capital-and-calpers-to-acquire-russell-investments/",
+   "https://investmentnews.com/industry-news/london-stock-exchange-in-115b-deal-to-sell-russell-investments-to-ta-associates/64739"
+  ]
+ },
+ {
+  "id": "pladisglobal.com",
+  "company": "Godiva Chocolatier",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "pladisglobal.com",
+  "hq": "New York, USA (Godiva); pladis London; Yildiz Holding Istanbul",
+  "ownership": "Brand of pladis, owned by Yildiz Holding (Turkey) since 2008",
+  "sells": "Premium Belgian chocolates and gifts via boutiques, retail and online in 100+ countries (Japan/Korea/Australia sold to MBK 2019)",
+  "headcount_band": "1,001-5,000 (Godiva est); pladis ~16,000",
+  "revenue": "Godiva standalone undisclosed (~USD 1B in 2017 before Asia divestment); pladis group GBP 3.23B (FY2024)",
+  "valuation": "Not disclosed",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets (US, Europe, Middle East, China) yes; affluent 25-54 gifting consumers yes; luxury rather than performance story (no); chocolate category held at F1 level by KitKat official partner (no)",
+  "up_and_coming": false,
+  "flags": [
+   "group brand: pladis / Yildiz Holding",
+   "Godiva standalone revenue unverified; scale via pladis GBP 3.23B (2024)",
+   "F1 chocolate category already held by KitKat (league level)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes as separately marketed consumer brand of pladis (GBP 3.23B revenue 2024); no F1 tie found for Godiva, pladis or Yildiz; reservation: standalone scale unverified and F1's chocolate slot taken by KitKat.",
+  "best_angle": "A team-level luxury gifting/hospitality deal (e.g., Paddock Club) would suit Godiva's premium Belgian positioning in Middle East and US races.",
+  "sources": [
+   "https://www.grocerygazette.co.uk/2025/10/14/mcvities-owner-pladis-tops-3bn-in-record-year-for-global-snacking-sales/",
+   "https://betterretailing.com/br/product-news/pladis-integrates-godiva-chocolate-brand-into-portfolio",
+   "https://www.just-food.com/news/yildiz-owned-godiva-to-sell-asia-pacific-assets-to-private-equity-firm-mbk",
+   "https://www.retaildetail.eu/en/news/food/godiva-wants-conquer-world-through-supermarkets",
+   "https://www.formula1.com/en/latest/article/formula-1-welcomes-kitkat-as-official-chocolate-bar-partner.78cQVrqIwT3KiU3j9xPkED"
+  ]
+ }
+]

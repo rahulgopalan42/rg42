@@ -1,0 +1,122 @@
+[
+{
+"id": "selectmedical.com",
+"company": "Select Medical",
+"sector": "42 Health & Wellness",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; US-only healthcare"
+},
+{
+"id": "traderjoes.com",
+"company": "Trader Joe's",
+"sector": "X06 Retail & E-commerce",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Trader Joe's shopping adventure",
+"triage_note": "real; fit 0; scale large; US grocery chain"
+},
+{
+"id": "profi.ro",
+"company": "Profi",
+"sector": "X06 Retail & E-commerce",
+"country": "Romania",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Koninklijke Ahold Delhaize N.V.",
+"triage_note": "real; fit 0; scale large; Romanian discount grocer"
+},
+{
+"id": "maxedadiygroup.com",
+"company": "Maxeda DIY Group",
+"sector": "X06 Retail & E-commerce",
+"country": "Netherlands",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "GoldenTree (majority after 2026 recap)",
+"triage_note": "real; fit 0; scale large; DIY retail group"
+},
+{
+"id": "forestar.com",
+"company": "Forestar Group Inc.",
+"sector": "X02 Real Estate & Building Products",
+"country": "United States",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "D.R. Horton (~62%)",
+"triage_note": "real; fit 0; scale large; lot developer"
+},
+{
+"id": "uacrussia.ru",
+"company": "United Aircraft Corporation",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "Russia",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Rostec",
+"triage_note": "real; fit 0; scale large; Russian aircraft group"
+},
+{
+"id": "p3hp.org",
+"company": "P3 Health Partners",
+"sector": "42 Health & Wellness",
+"country": "United States",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; US healthcare provider"
+},
+{
+"id": "choicereit.ca",
+"company": "Choice Properties",
+"sector": "X02 Real Estate & Building Products",
+"country": "Canada",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "George Weston Ltd",
+"triage_note": "real; fit 0; scale large; Canadian REIT"
+},
+{
+"id": "stitchfix.com",
+"company": "Stitch Fix",
+"sector": "53 Consumer & Lifestyle",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; online styling retailer"
+},
+{
+"id": "three.co.uk",
+"company": "Three UK",
+"sector": "48 Telecom & Space",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "VodafoneThree (Vodafone / CK Hutchison)",
+"triage_note": "real; fit 0; scale large; UK mobile operator"
+}
+]

@@ -1,0 +1,122 @@
+[
+{
+"id": "everseen.com",
+"company": "Everseen",
+"sector": "22 SaaS",
+"country": "Ireland",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; retail vision AI"
+},
+{
+"id": "mindgate.solutions",
+"company": "Mindgate Solutions",
+"sector": "22 SaaS",
+"country": "United Arab Emirates",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; payments software"
+},
+{
+"id": "labvantage.com",
+"company": "LabVantage Solutions, Inc",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; lab informatics"
+},
+{
+"id": "lotusherbals.com",
+"company": "Lotus Herbals Pvt Ltd",
+"sector": "03 Luxury & Beauty",
+"country": "India",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Wipro",
+"triage_note": "real; fit 1; scale mid; Indian cosmetics"
+},
+{
+"id": "veripark.com",
+"company": "VeriPark",
+"sector": "22 SaaS",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; banking software"
+},
+{
+"id": "asiainnovations.com",
+"company": "Asia Innovations Group",
+"sector": "22 SaaS",
+"country": "Singapore",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; social app group"
+},
+{
+"id": "kalamandirjewellersgroup.com",
+"company": "Kalamandir Jewellers",
+"sector": "03 Luxury & Beauty",
+"country": "India",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Indian jeweller"
+},
+{
+"id": "yoshimoto-international.com",
+"company": "YOSHIMOTO KOGYO",
+"sector": "29 Tech Media & Gaming",
+"country": "Japan",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Japanese entertainment group"
+},
+{
+"id": "sonae.com",
+"company": "Sonaecom",
+"sector": "48 Telecom & Space",
+"country": "Portugal",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Sonae SGPS",
+"triage_note": "real; fit 1; scale mid; Portuguese telecom holding"
+},
+{
+"id": "lesta.ru",
+"company": "Lesta Games",
+"sector": "29 Tech Media & Gaming",
+"country": "Russia",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Russian game developer"
+}
+]

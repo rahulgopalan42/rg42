@@ -1,0 +1,289 @@
+[
+ {
+  "id": "plein.com",
+  "company": "Philipp Plein",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "plein.com",
+  "hq": "Lugano, Switzerland",
+  "ownership": "Founder-owned (Philipp Plein)",
+  "sells": "Luxury streetwear, accessories, Plein Sport and Billionaire labels via own stores and online; Europe, Middle East, Asia, US",
+  "headcount_band": "Unverified (~520 db; 200 cut in 2020)",
+  "revenue": "~EUR 250M (2017-18, media reports, est); EUR 80M Covid shortfall reported 2020; no 2023-25 figure found",
+  "valuation": "~EUR 500M (Bilanz, c.2018, est)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Sells in Europe/ME/Asia/US (1); affluent-aspirational buyers (1); flashy luxury, no performance story (0); luxury fashion crowded on grid via LVMH/teams (0)",
+  "up_and_coming": false,
+  "flags": [
+   "scale not verified (latest revenue c.2018)",
+   "reputational risk: controversies, Ferrari dispute 2020",
+   "Russia retail presence reported"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Hard filter 1 (scale): no sourced revenue since ~EUR 250M c.2018 and pandemic downsizing; current scale unverifiable.",
+  "best_angle": "",
+  "sources": [
+   "https://us.fashionnetwork.com/news/Philipp-plein-forced-to-downsize,1241716.html",
+   "https://www.bilanz.ch/unternehmen/wie-philipp-plein-zu-einem-der-erfolgreichsten-modeschopfer-wurde",
+   "https://www.srf.ch/news/wirtschaft/philipp-plein-mit-mode-von-null-auf-150-millionen",
+   "https://www.aol.com/news/ferrari-vs-instagram-influencer-philipp-173528867.html"
+  ]
+ },
+ {
+  "id": "elidabeauty.com",
+  "company": "Elida Beauty",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "elidabeauty.com",
+  "hq": "London, UK / Dallas, US",
+  "ownership": "Yellow Wood Partners (PE), acquired from Unilever (agreed Dec 2023, completed 2024)",
+  "sells": "Mass personal-care brands (Q-tips, Brut, Impulse, Caress, Timotei, VO5, Pond's in some markets) across US, UK, Europe",
+  "headcount_band": "201-1,000 (est; ~280 db)",
+  "revenue": "~EUR 0.8B (~USD 860M) 2022 (Unilever, at sale announcement)",
+  "valuation": "Undisclosed (PE carve-out 2024)",
+  "latest_raise": "n/a (PE buyout 2024)",
+  "fit_score": 2,
+  "fit_detail": "Sells US/UK/Europe (1); mass-market consumers, not affluent (0); no performance/tech story (0); mass personal care not crowded on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "multi-brand mass portfolio - sponsor would be brand-level (e.g. Brut)",
+   "PE carve-out, revenue only dated 2022",
+   "headcount unverified"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on ~USD 860M revenue (2022); mass multi-brand PE portfolio with no single brand matching F1's premium story.",
+  "best_angle": "Brut men's grooming relaunch could ride F1's young male audience growth in US/UK.",
+  "sources": [
+   "https://www-vercel.unilever.com/news/press-and-media/press-releases/2023/unilever-to-sell-elida-beauty-business-to-yellow-wood-partners/",
+   "https://peprofessional.com/2024/06/a-little-dabll-do-ya-yellow-wood-carves-elida-beauty-from-unilever/",
+   "https://investing.com/news/stock-market-news/unilever-to-sell-qtips-maker-elida-beauty-to-yellow-wood-3258395"
+  ]
+ },
+ {
+  "id": "meanwell.com",
+  "company": "MEAN WELL",
+  "sector_tab": "45 Electronic Parts",
+  "domain": "meanwell.com",
+  "hq": "New Taipei City, Taiwan",
+  "ownership": "Private, founder-family owned",
+  "sells": "Standard switching power supplies (99% of revenue) for LED lighting, automation, telecom, medical; global distribution; plants in Taiwan, China, India, US",
+  "headcount_band": "1,001-5,000 (~4,000 est)",
+  "revenue": "NT$37.16B / USD 1.186B 2025 (+13.1%); net profit NT$8.49B",
+  "valuation": "Undisclosed (private)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "Global sales via distributors in US/Europe/Asia (1); design engineers/distributors, not senior buyers (0); reliability/precision power tech story (1); power supplies not on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "B2B engineer audience",
+   "private, no consumer brand"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes (USD 1.19B revenue 2025); B2B component brand whose engineer audience makes F1 a weak marketing fit.",
+  "best_angle": "Global no.5 power-supply maker could use team technical partnership for brand recognition with distributors and OEM engineers.",
+  "sources": [
+   "https://www.cw.com.tw/article/5141084",
+   "https://www.bnext.com.tw/article/90939/meanwell_2026_05-3",
+   "https://www.meanwell.com/about.aspx?i=1"
+  ]
+ },
+ {
+  "id": "p:inggroep",
+  "company": "ING Groep",
+  "sector_tab": "01 Banking & Insurance",
+  "domain": "ing.com",
+  "hq": "Amsterdam, Netherlands",
+  "ownership": "Listed (Euronext Amsterdam: INGA; NYSE: ING), widely held",
+  "sells": "Retail and wholesale banking in Netherlands, Belgium, Germany, Spain, Australia and 30+ countries",
+  "headcount_band": "10,001+ (60,000, 2026)",
+  "revenue": "Total income ~EUR 25.2B TTM (Oct 2026)",
+  "valuation": "Market cap EUR 85.6B (13 Oct 2026)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 1,
+  "fit_detail": "Sells in many F1 markets (1); mass retail banking (0); no performance story (0); banking crowded on grid (0)",
+  "up_and_coming": false,
+  "flags": [
+   "lapsed F1 tie: Renault F1 title sponsor 2009, race title sponsor 2007-09 - confirm before outreach",
+   "banking category crowded"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters (EUR 85.6B market cap) but fit 1 in crowded banking category; lapsed Renault tie caps at Stretch anyway.",
+  "best_angle": "",
+  "sources": [
+   "https://stockanalysis.com/quote/ams/INGA/",
+   "https://www.sportcal.com/sponsorship/vdk-group-announced-as-founding-partner-to-dutch-f1-gp-for-2025-and-2026/"
+  ]
+ },
+ {
+  "id": "p:elililly",
+  "company": "Eli Lilly and Company",
+  "sector_tab": "X Pharma & Biotech",
+  "domain": "lilly.com",
+  "hq": "Indianapolis, United States",
+  "ownership": "Listed (NYSE: LLY); Lilly Endowment largest holder",
+  "sells": "Prescription medicines (Mounjaro/Zepbound, Verzenio, insulin) worldwide; LillyDirect DTC platform in US",
+  "headcount_band": "10,001+ (50,000, 2026)",
+  "revenue": "USD 79.7B TTM (Oct 2026)",
+  "valuation": "Market cap USD 1.04T (13 Oct 2026)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 3,
+  "fit_detail": "Global sales in all F1 markets (1); patients/HCPs, not an affluent-targeted brand (0); science/innovation story (1); pharma not on grid (1)",
+  "up_and_coming": true,
+  "flags": [
+   "Rx promotion restricted outside US",
+   "past motorsport: Lilly Diabetes NASCAR sponsor (2013-17), not F1",
+   "crossed USD 1T market cap 2025-26 (visible growth)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes (USD 1.04T market cap); prescription pharma faces DTC limits outside the US, so F1 marketing motive is limited.",
+  "best_angle": "Corporate/health-and-performance platform around obesity and metabolic health as F1's US audience grows; prior NASCAR use shows motorsport appetite.",
+  "sources": [
+   "https://stockanalysis.com/stocks/lly/",
+   "https://www.biopharmawatch.com/news/LLY/lilly-diabetes-becomes-official-diabetes-health-partner-of-nascar-nascar-and-lilly-diabete-lly-20170303"
+  ]
+ },
+ {
+  "id": "p:zhejiangcfmotopower",
+  "company": "CFMOTO",
+  "sector_tab": "43 Mobility & Automotive",
+  "domain": "cfmoto.com",
+  "hq": "Hangzhou, China",
+  "ownership": "Listed (SSE: 603129), founder Lai Guogui family controlling",
+  "sells": "ATVs/UTVs, motorcycles, electric two-wheelers; ~70% overseas (North America, Europe) via ~9,000 retail points",
+  "headcount_band": "5,001-10,000 (~6,000 est)",
+  "revenue": "CNY 19.75B (~USD 2.75B) FY2025 (+31.3%); overseas 69.8%",
+  "valuation": "Market cap ~CNY 45B+ (~USD 6B+) Aug 2026 (est, share price CNY 300.5)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 3,
+  "fit_detail": "Sells across NA/Europe/Asia (1); affluent 25-54 powersports buyers (1); performance/engineering story (1); motor vehicles counted as automotive - crowded (0)",
+  "up_and_coming": true,
+  "flags": [
+   "visible challenger: overseas revenue 5x in five years, NA +54% 2025",
+   "MotoGP (Aspar Moto2/Moto3) sponsor; 51% of Kalex (Feb 2026)",
+   "no US 1260H/Entity List listing found"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes (USD 2.75B revenue FY2025) with fit 3 and proven motorsport marketing; fast overseas growth gives credible motive.",
+  "best_angle": "Already winning in MotoGP feeder classes and growing 50%+ in North America, F1 offers a premium global step-up for its brand.",
+  "sources": [
+   "https://equalocean.com/news/2026073122069-cfmotos-overseas-revenue-more-than-quintuples-five-years-reaching-70-2025-sales",
+   "https://stockanalysis.com/quote/sha/603129/financials/income-statement/",
+   "https://sport.sky.it/motogp/2026/02/27/moto-2-cf-moto-kalex-news",
+   "https://quote.cfi.cn/jyzj/46779/603129.html"
+  ]
+ },
+ {
+  "id": "p:atgentertainment",
+  "company": "ATG Entertainment",
+  "sector_tab": "X Live Events & Ticketing",
+  "domain": "atgentertainment.com",
+  "hq": "London, UK",
+  "ownership": "Providence Equity (control since 2013), Blackstone minority; definitive agreement to be sold to Ari Emanuel's MARI (Aug 2026, pending regulatory approval)",
+  "sells": "Theatre venues (70 in UK, US, Germany, Spain incl. 10 West End, 7 Broadway) and ATG Tickets",
+  "headcount_band": "5,001-10,000 (~5,000 est)",
+  "revenue": "Undisclosed in sources; operating profit GBP 160.9M FY to Mar 2025",
+  "valuation": "~GBP 4.5B / ~USD 6B (MARI deal, FT reported Jun-Aug 2026)",
+  "latest_raise": "n/a (sale to MARI, Aug 2026)",
+  "fit_score": 3,
+  "fit_detail": "UK/US/Germany/Spain (1); affluent theatregoers 25-54 (1); entertainment, not performance/tech story (0); theatre/live events not on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "pending change of control: sale to MARI (Aug 2026) - new owner strategy unknown",
+   "PE-owned"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on ~USD 6B deal valuation; pending sale to MARI makes budget and timing uncertain.",
+  "best_angle": "Revisit after MARI closes: London/Las Vegas/US entertainment hospitality cross-over with F1 race weekends.",
+  "sources": [
+   "https://www.bostonglobe.com/2026/08/11/business/ari-emanuel-broadway-theaters-west-end/",
+   "https://www.cityam.com/?p=2449696",
+   "https://www.irishnews.com/news/uk/west-end-theatre-owner-atg-to-be-bought-by-ari-emanuels-mari-NUZCPKDUXFMLBE7FLTW4WMMHYY/",
+   "https://www.nonbillable.co.uk/news/akin-kirkland-atg-providence-deal"
+  ]
+ },
+ {
+  "id": "p:purefishing",
+  "company": "Pure Fishing",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "purefishing.com",
+  "hq": "Columbia, South Carolina, United States",
+  "ownership": "Sycamore Partners (PE) since 2019",
+  "sells": "Fishing tackle brands (Abu Garcia, Penn, Berkley, Shakespeare, Svendsen) in US, Europe, Asia, Australia",
+  "headcount_band": "1,001-5,000 (~2,000 est)",
+  "revenue": "~USD 700M (est, 2024)",
+  "valuation": "Undisclosed",
+  "latest_raise": "n/a; USD 750M first-lien private credit refinancing Oct 2024 (SOFR+700)",
+  "fit_score": 2,
+  "fit_detail": "Sells US/Europe/Asia/Australia (1); mass male anglers (0); outdoor, not performance/tech story (0); fishing not on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "distress history: S&P SD Aug 2023 (distressed 2L repurchase), then CCC; refinanced Oct 2024 after loans traded stressed",
+   "high leverage",
+   "revenue unverified (est)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on est. ~USD 700M revenue; 2023 selective default and high leverage make sponsorship spend unlikely.",
+  "best_angle": "",
+  "sources": [
+   "https://www.thefisherman.com/article/pure-fishing-at-risk-of-full-default-despite-parent-companys-efforts/",
+   "https://www.silverpointcapital.com/news/silver-point-leads-refinancing-transaction-of-pure-fishings-outstanding-debt/",
+   "https://news.bloomberglaw.com/bankruptcy-law/monarch-silver-point-lead-private-debt-for-fishing-retailer",
+   "https://sginews.com/Content/pure-fishing-parent-buys-distressed-debt.aspx"
+  ]
+ },
+ {
+  "id": "p:xxxlutzkg",
+  "company": "XXXLutz",
+  "sector_tab": "49 Home & Living",
+  "domain": "xxxlutz.com",
+  "hq": "Wels, Austria",
+  "ownership": "Family-owned (Seifert and Fischer families)",
+  "sells": "Furniture retail via 400+ stores (XXXLutz, Möbelix, mömax, home24) in 13-14 European countries incl. Austria, Germany, Hungary, Switzerland, Netherlands",
+  "headcount_band": "10,001+ (~27,300, 2025)",
+  "revenue": "~EUR 6.4B (FY2024/25, company press releases; brochure 'more than EUR 6B' 2025)",
+  "valuation": "Undisclosed (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Sells in Austria/Hungary/Netherlands/Spain-adjacent F1 markets (1); mass middle-market households (0); no performance story (0); furniture retail not on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "Europe-only mass retailer",
+   "heavy domestic advertiser (red chair campaign)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes (EUR ~6.4B revenue); Europe-only mass furniture retail with weak story fit, best suited to a regional GP deal.",
+  "best_angle": "Austrian/Hungarian Grand Prix regional partnership to reach its core Central European customers.",
+  "sources": [
+   "https://www.pressetext.com/news/20250820016",
+   "https://xxxlgroup.com/wp-content/uploads/2026/03/ImagebroschuereDE.pdf",
+   "https://austria-forum.org/af/AustriaWiki/XXXLutz"
+  ]
+ },
+ {
+  "id": "bharti.com",
+  "company": "Bharti Enterprises",
+  "sector_tab": "48 Telecom & Space",
+  "domain": "bharti.com",
+  "hq": "New Delhi, India",
+  "ownership": "Mittal family holding; controls Bharti Airtel (with Singtel), Airtel Africa; ~24.5% of BT Group; Eutelsat OneWeb stake",
+  "sells": "Telecom (Airtel) in India, South Asia, 14 African countries; also insurance, real estate, agri via group",
+  "headcount_band": "10,001+ (Bharti Airtel 28,743, 2026)",
+  "revenue": "Bharti Airtel INR 2.20T (~USD 25B) TTM Oct 2026",
+  "valuation": "Bharti Airtel market cap INR 11.26T (~USD 127B) 13 Oct 2026",
+  "latest_raise": "n/a (listed group)",
+  "fit_score": 1,
+  "fit_detail": "Main markets India/Africa, few F1 markets (0); mass telecom subscribers (0); network technology story (1); telecom moderately present on grid (0)",
+  "up_and_coming": false,
+  "flags": [
+   "lapsed F1 tie: Airtel title sponsor of Indian GP 2011-13 and Mercedes race deal 2012 - confirm before outreach",
+   "holding company, operating brand is Airtel"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes (Airtel ~USD 127B market cap) but fit 1 with markets mostly outside F1; lapsed Indian GP tie caps at Stretch.",
+  "best_angle": "",
+  "sources": [
+   "https://stockanalysis.com/quote/nse/BHARTIARTL/",
+   "https://www.sportbusiness.com/news/airtel-to-sponsor-indian-f1-grand-prix/",
+   "https://www.sportbusiness.com/news/airtel-steps-up-f1s-indian-push-with-mercedes-tie-up/"
+  ]
+ }
+]

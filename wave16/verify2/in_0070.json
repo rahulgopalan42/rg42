@@ -1,0 +1,122 @@
+[
+{
+"id": "ellingtonpcb.com",
+"company": "Ellington Electronics Technology Group",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; PCB maker"
+},
+{
+"id": "meowwolf.com",
+"company": "Meow Wolf",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; immersive art attractions"
+},
+{
+"id": "cangoonline.com",
+"company": "Cango Inc.",
+"sector": "22 SaaS",
+"country": "Hong Kong",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Bitcoin miner"
+},
+{
+"id": "jasanigroup.com",
+"company": "Jasani Jewellery",
+"sector": "03 Luxury & Beauty",
+"country": "India",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Indian diamond manufacturer"
+},
+{
+"id": "bostonglobemedia.com",
+"company": "Boston Globe Media",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "John Henry",
+"triage_note": "real; fit 1; scale mid; regional newspaper"
+},
+{
+"id": "drafthouse.com",
+"company": "Alamo Drafthouse Cinema",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Sony Group",
+"triage_note": "real; fit 1; scale mid; dine-in cinema chain"
+},
+{
+"id": "huncalife.com.tr",
+"company": "Huncalife Cosmetics",
+"sector": "03 Luxury & Beauty",
+"country": "Türkiye",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Turkish cosmetics brand"
+},
+{
+"id": "laboratoires-biopharma.com",
+"company": "Les Laboratoires Biopharma",
+"sector": "03 Luxury & Beauty",
+"country": "Cameroon",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; African cosmetics maker"
+},
+{
+"id": "wadideglaclubs.com",
+"company": "Wadi Degla Clubs Company S.A.E.",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "Egypt",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Wadi Degla Holding",
+"triage_note": "real; fit 1; scale mid; Egyptian sports clubs"
+},
+{
+"id": "sdeer.com",
+"company": "南京圣迪奥时装有限公司",
+"sector": "53 Consumer & Lifestyle",
+"country": "China",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese womenswear brand"
+}
+]

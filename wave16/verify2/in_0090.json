@@ -1,0 +1,122 @@
+[
+{
+"id": "dns-shop.ru",
+"company": "Цифровой супермаркет DNS",
+"sector": "X06 Retail & E-commerce",
+"country": "Russia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Russian electronics retailer"
+},
+{
+"id": "groupe-casino.fr",
+"company": "Groupe Casino",
+"sector": "X06 Retail & E-commerce",
+"country": "France",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "France Retail Holdings (Kretinsky)",
+"triage_note": "real; fit 0; scale large; French retail group"
+},
+{
+"id": "whitbreadcareers.com",
+"company": "Whitbread",
+"sector": "16 Travel & Hospitality",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "FTSE4Good Index",
+"triage_note": "real; fit 0; scale large; UK hotels and restaurants"
+},
+{
+"id": "arcosdorados.com",
+"company": "Arcos Dorados",
+"sector": "X06 Retail & E-commerce",
+"country": "Uruguay",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; McDonald's franchisee"
+},
+{
+"id": "coop.se",
+"company": "Coop Sverige",
+"sector": "X06 Retail & E-commerce",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Kooperativa Forbundet",
+"triage_note": "real; fit 0; scale large; Swedish cooperative retailer"
+},
+{
+"id": "alfamidiku.com",
+"company": "PT Midi Utama Indonesia, Tbk",
+"sector": "X06 Retail & E-commerce",
+"country": "Indonesia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "PT Sumber Alfaria Trijaya (Alfamart)",
+"triage_note": "real; fit 0; scale large; Alfamidi convenience stores"
+},
+{
+"id": "korian.fr",
+"company": "Korian",
+"sector": "42 Health & Wellness",
+"country": "France",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; elder care operator Clariane"
+},
+{
+"id": "kawanlamaretail.com",
+"company": "Kawan Lama Retail",
+"sector": "X06 Retail & E-commerce",
+"country": "Indonesia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Kawan Lama Group",
+"triage_note": "real; fit 0; scale large; Indonesian retailer"
+},
+{
+"id": "jollibeegroup.com",
+"company": "Jollibee Group",
+"sector": "X06 Retail & E-commerce",
+"country": "Philippines",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Philippine fast food group"
+},
+{
+"id": "fleury.com.br",
+"company": "Fleury Medicina e Saúde",
+"sector": "42 Health & Wellness",
+"country": "Brazil",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Brazilian diagnostics"
+}
+]

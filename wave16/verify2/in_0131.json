@@ -1,0 +1,122 @@
+[
+{
+"id": "noritz.co.jp",
+"company": "(株)ノーリツ",
+"sector": "23 Machine Tools",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; water heaters"
+},
+{
+"id": "efgcanada.com",
+"company": "EFG Wealth Management",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; private bank"
+},
+{
+"id": "asrmicro.com",
+"company": "翱捷科技(ASR Microelectronics)",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; mobile chips"
+},
+{
+"id": "kitz.co.jp",
+"company": "株式会社キッツ",
+"sector": "23 Machine Tools",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; valves"
+},
+{
+"id": "toshibatec.co.jp",
+"company": "東芝テック(株)",
+"sector": "X06 Retail & E-commerce",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Toshiba",
+"triage_note": "real; fit 2; scale large; retail POS systems"
+},
+{
+"id": "kuang-chi.com",
+"company": "Kuang-Chi",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; metamaterials and aerospace"
+},
+{
+"id": "xtep.com",
+"company": "Xtep Sports",
+"sector": "53 Consumer & Lifestyle",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; sportswear brand"
+},
+{
+"id": "uniper.energy",
+"company": "Uniper",
+"sector": "NEW Utilities & Power",
+"country": "Germany",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": true,
+"parent_hint": "German government",
+"triage_note": "real; fit 2; scale large; energy utility"
+},
+{
+"id": "saicmotor.com",
+"company": "Saic Motor Co., Ltd.",
+"sector": "43 Mobility & Automotive",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; Chinese carmaker"
+},
+{
+"id": "meyer-mil.com",
+"company": "Meyer Industries Limited",
+"sector": "53 Consumer & Lifestyle",
+"country": "Thailand",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; cookware maker"
+}
+]

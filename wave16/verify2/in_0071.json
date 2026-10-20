@@ -1,0 +1,122 @@
+[
+{
+"id": "qipai.com",
+"company": "福建柒牌集团有限公司",
+"sector": "53 Consumer & Lifestyle",
+"country": "China",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese menswear brand"
+},
+{
+"id": "zoeller-kipper.de",
+"company": "ZOELLER Gruppe",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; refuse truck bodies"
+},
+{
+"id": "stromma.com",
+"company": "Stromma",
+"sector": "16 Travel & Hospitality",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; sightseeing group"
+},
+{
+"id": "ztr.com.ua",
+"company": "PrJSC \"Zaporozhtransformator\"",
+"sector": "23 Machine Tools",
+"country": "Україна",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; transformer maker"
+},
+{
+"id": "maico-ventilatoren.com",
+"company": "Maico Elektroapparate-Fabrik GmbH",
+"sector": "45 Electronic Parts",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; ventilation maker"
+},
+{
+"id": "neuenhauser.de",
+"company": "Neuenhauser Gruppe",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; engineering group"
+},
+{
+"id": "romarm.ro",
+"company": "CN ROMARM SA",
+"sector": "32 Defense & Industrial AI",
+"country": "Romania",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; state defence company"
+},
+{
+"id": "itoki.jp",
+"company": "ITOKI CORPORATION",
+"sector": "49 Home & Living",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; office furniture"
+},
+{
+"id": "francemediasmonde.com",
+"company": "France Medias Monde",
+"sector": "29 Tech Media & Gaming",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "CFI",
+"triage_note": "real; fit 1; scale mid; public international broadcaster"
+},
+{
+"id": "grandvalira.com",
+"company": "GRANDVALIRA - Grandvalira Resorts",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "Andorra",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Andorra ski resort"
+}
+]

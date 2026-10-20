@@ -1,0 +1,122 @@
+[
+{
+"id": "lojasrennersa.com.br",
+"company": "Lojas Renner S.A.",
+"sector": "X06 Retail & E-commerce",
+"country": "Brazil",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Brazilian fashion retailer"
+},
+{
+"id": "emctw.com",
+"company": "EMC (Elite Material Co., Ltd.)",
+"sector": "45 Electronic Parts",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Taiwan laminates maker"
+},
+{
+"id": "thebodyshopcareers.com",
+"company": "The Body Shop",
+"sector": "X06 Retail & E-commerce",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Aurea Group",
+"triage_note": "real; fit 1; scale large; beauty retailer"
+},
+{
+"id": "valora.com",
+"company": "Valora Group",
+"sector": "X06 Retail & E-commerce",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "FEMSA",
+"triage_note": "real; fit 1; scale large; Swiss convenience retail"
+},
+{
+"id": "sjmjob.com",
+"company": "SJM Resorts",
+"sector": "16 Travel & Hospitality",
+"country": "Macao",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "SJM Holdings",
+"triage_note": "real; fit 1; scale large; Macau casino concessionaire"
+},
+{
+"id": "tianma.cn",
+"company": "天马微电子股份有限公司",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "AVIC (Aviation Industry Corp of China)",
+"triage_note": "real; fit 1; scale large; Chinese display maker"
+},
+{
+"id": "wolong.com.cn",
+"company": "Wolong Electric Group Co.,Ltd",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Chinese motors maker"
+},
+{
+"id": "jinjianghotels.com",
+"company": "Jin Jiang International Hotels",
+"sector": "16 Travel & Hospitality",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Jin Jiang International Holdings",
+"triage_note": "real; fit 1; scale large; Chinese hotel group"
+},
+{
+"id": "jsgl.com",
+"company": "JS Global",
+"sector": "49 Home & Living",
+"country": "Hong Kong",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; small appliances, SharkNinja/Joyoung"
+},
+{
+"id": "o-film.com",
+"company": "O-Film Technology",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; camera module maker"
+}
+]

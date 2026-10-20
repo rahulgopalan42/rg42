@@ -1,0 +1,122 @@
+[
+{
+"id": "ahg.fr",
+"company": "AHG  Ateliers de la Haute Garonne",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; French aerospace machining"
+},
+{
+"id": "tesonet.com",
+"company": "Tesonet",
+"sector": "22 SaaS",
+"country": "Lithuania",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Lithuanian venture builder"
+},
+{
+"id": "jala.com.cn",
+"company": "伽蓝(集团)股份有限公司 JALA GROUP CO.",
+"sector": "03 Luxury & Beauty",
+"country": "China",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Chinese cosmetics group"
+},
+{
+"id": "oasishoteles.com",
+"company": "Oasis Hotels & Resorts",
+"sector": "16 Travel & Hospitality",
+"country": "Mexico",
+"type": "Self Owned",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Mexican resort chain"
+},
+{
+"id": "china-dongcheng.com",
+"company": "DongCheng Global",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Self Owned",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Chinese power tools maker"
+},
+{
+"id": "teksan.com",
+"company": "Teksan Global",
+"sector": "45 Electronic Parts",
+"country": "United Kingdom",
+"type": "Partnership",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Turkish generator maker"
+},
+{
+"id": "haynesboone.com",
+"company": "Haynes and Boone, LLP",
+"sector": "50 Law Firms & Legal AI",
+"country": "United States",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; US law firm"
+},
+{
+"id": "hunton.com",
+"company": "Hunton Andrews Kurth LLP",
+"sector": "50 Law Firms & Legal AI",
+"country": "United States",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; US law firm"
+},
+{
+"id": "shb.com",
+"company": "Shook, Hardy & Bacon L.L.P.",
+"sector": "50 Law Firms & Legal AI",
+"country": "United States",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; US litigation firm"
+},
+{
+"id": "seyfarth.com",
+"company": "Seyfarth Shaw LLP",
+"sector": "50 Law Firms & Legal AI",
+"country": "United States",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Seyfarth Shaw LLP",
+"triage_note": "real; fit 2; scale mid; US law firm"
+}
+]

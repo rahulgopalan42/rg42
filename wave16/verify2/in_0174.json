@@ -1,0 +1,122 @@
+[
+{
+"id": "yacht-teccon.de",
+"company": "Yacht Teccon Engineering GmbH & Co. KG",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "Germany",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; high-end engineering"
+},
+{
+"id": "tropicskincare.com",
+"company": "Tropic Skincare",
+"sector": "03 Luxury & Beauty",
+"country": "United Kingdom",
+"type": "Self Owned",
+"staff": "201-500",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; natural skincare"
+},
+{
+"id": "lequipe.fr",
+"company": "L'EQUIPE",
+"sector": "29 Tech Media & Gaming",
+"country": "France",
+"type": "Partnership",
+"staff": "201-500",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Amaury Group",
+"triage_note": "real; fit 2; scale mid; French sports media"
+},
+{
+"id": "uniwheels.com",
+"company": "UNIWHEELS AG",
+"sector": "43 Mobility & Automotive",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Superior Industries",
+"triage_note": "real; fit 2; scale mid; alloy wheels"
+},
+{
+"id": "shwperformance.com",
+"company": "SHW Performance",
+"sector": "43 Mobility & Automotive",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; brake rotors"
+},
+{
+"id": "innerio.com",
+"company": "Innerio Group",
+"sector": "43 Mobility & Automotive",
+"country": "Austria",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; thermal systems supplier"
+},
+{
+"id": "vermoegenszentrum.ch",
+"company": "VZ VermögensZentrum",
+"sector": "01 Banking & Insurance",
+"country": "Schweiz",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Swiss wealth manager"
+},
+{
+"id": "firstderivative.com",
+"company": "First Derivative",
+"sector": "12 Trading & Crypto",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; financial data consulting"
+},
+{
+"id": "nexiongroup.com",
+"company": "Nexion spa",
+"sector": "43 Mobility & Automotive",
+"country": "Italy",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; wheel service equipment"
+},
+{
+"id": "unlimitedsportsgroup.com",
+"company": "USG Brands",
+"sector": "46 Tools & Industrial Supply",
+"country": "Netherlands",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; sports brands distributor"
+}
+]

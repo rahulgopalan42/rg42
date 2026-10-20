@@ -1,0 +1,122 @@
+[
+{
+"id": "",
+"company": "krempel.com",
+"sector": "45 Electronic Parts",
+"country": "Croatia",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; insulation materials group"
+},
+{
+"id": "vogel-noot.info",
+"company": "Vogel & Noot Landmaschinen GmbH & Co KG",
+"sector": "23 Machine Tools",
+"country": "Austria",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; farm machinery dealer"
+},
+{
+"id": "frhe.cn",
+"company": "Zhangjiagang Furui Heavy Equipment Co., Ltd",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Zhangjiagang Furui Special Equipment Co",
+"triage_note": "real; fit 1; scale mid; heavy equipment maker"
+},
+{
+"id": "bt-group.at",
+"company": "BT-Group Holding GmbH",
+"sector": "33 Automation & Robotics",
+"country": "Austria",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "AAT GmbH - www",
+"triage_note": "real; fit 1; scale mid; automation group"
+},
+{
+"id": "interskol.ru",
+"company": "ИНТЕРСКОЛ, ЗАО (INTERSKOL)",
+"sector": "45 Electronic Parts",
+"country": "Russia",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; power tools maker"
+},
+{
+"id": "energyparisrhone.com",
+"company": "ParisRhône Energy",
+"sector": "27 Chip Makers",
+"country": "France",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; electric motors and starters"
+},
+{
+"id": "goldlion.com",
+"company": "Goldlion",
+"sector": "53 Consumer & Lifestyle",
+"country": "China",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; menswear brand"
+},
+{
+"id": "ursus-sa.com",
+"company": "Ursus Industries Sp. z o.o.",
+"sector": "23 Machine Tools",
+"country": "Poland",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; tractor maker"
+},
+{
+"id": "badergruppe.com",
+"company": "Bader Gruppe",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; leather maker"
+},
+{
+"id": "frischeparadies.de",
+"company": "FrischeParadies GmbH & Co. KG",
+"sector": "X06 Retail & E-commerce",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; premium food retailer"
+}
+]

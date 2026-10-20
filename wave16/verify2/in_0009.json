@@ -1,0 +1,122 @@
+[
+{
+"id": "arri.com",
+"company": "ARRI",
+"sector": "29 Tech Media & Gaming",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Thomas Riedel (sole owner, Apr 2026)",
+"triage_note": "real; fit 4; scale mid; cinema camera maker"
+},
+{
+"id": "lanvin-group.com",
+"company": "Lanvin Group",
+"sector": "03 Luxury & Beauty",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Fosun International",
+"triage_note": "real; fit 4; scale mid; luxury fashion group"
+},
+{
+"id": "kingandwood.com",
+"company": "King & Wood",
+"sector": "50 Law Firms & Legal AI",
+"country": "Hong Kong",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale unknown; Chinese global law firm"
+},
+{
+"id": "etihad.com",
+"company": "Etihad",
+"sector": "19 Gulf Sovereign & Tourism",
+"country": "United Arab Emirates",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "ADQ",
+"triage_note": "real; fit 3; scale large; UAE national airline"
+},
+{
+"id": "lenovo.com",
+"company": "Lenovo",
+"sector": "25 IT Services & Consulting",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; global PC maker"
+},
+{
+"id": "mgmresorts.com",
+"company": "MGM Resorts International",
+"sector": "16 Travel & Hospitality",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; casino resorts, F1 partner"
+},
+{
+"id": "iplt20.com",
+"company": "Indian Premier League India",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "India",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "BCCI",
+"triage_note": "real; fit 3; scale large; cricket league brand"
+},
+{
+"id": "mlp.com",
+"company": "Millennium",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "United States",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; Millennium hedge fund"
+},
+{
+"id": "arm.com",
+"company": "Arm",
+"sector": "27 Chip Makers",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; chip IP, F1 sponsor"
+},
+{
+"id": "breitling.com",
+"company": "BREITLING",
+"sector": "03 Luxury & Beauty",
+"country": "Switzerland",
+"type": "Privately Held",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "CVC",
+"triage_note": "real; fit 3; scale large; Swiss watchmaker"
+}
+]
