@@ -91,7 +91,7 @@ Fisher & Paykel Healthcare exists because a doctor and two engineers sat down to
 **CommScope's RUCKUS brand at Haas: how the right team gets found**
 
 - **Why it matters here:** SPORTFIVE ran the process across the whole grid for this one, and RUCKUS ended up powering the Haas team's operations with a live showcase in the garage. It shows the advisor role: the team comes out of a process, not a pitch. Be clear there's no product-in-the-garage idea for Fisher & Paykel; we never suggest a team would use their products.
-- **Say it like this:** "When CommScope looked at F1 for their RUCKUS wireless brand, we ran the process across all the teams and they ended up at Haas, with their kit running the team's operations. I'm not suggesting that model for you at all. It's more that the right fit came out of looking at everyone side by side."
+- **Say it like this:** "When CommScope looked at F1 for their RUCKUS wireless brand, we ran the process across all the teams and they ended up at Haas, where their wireless does a real job in the team's operations. I'm not suggesting that model for you at all. It's more that the right fit came out of looking at everyone side by side."
 
 ## 5. Discovery questions
 

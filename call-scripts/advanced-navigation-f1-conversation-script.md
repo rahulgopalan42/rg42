@@ -41,7 +41,7 @@ Advanced Navigation's whole business is knowing exactly where a machine is, to t
 >
 > And I suppose that's what made me think of Formula 1. Because if you strip it back, that's what the sport is. Precision at speed. Tiny margins, decided by engineers working under hard limits. Capped budgets, even limits on how much computing they can throw at the aero.
 >
-> So it felt like a story you wouldn't need to borrow. You'd just be explaining something people already love watching. And with a home race in Melbourne next April, it's not exactly far from home either."
+> So it felt like a story you wouldn't need to borrow. You'd just be explaining something people already love watching. And there's a home race in Melbourne next April, which doesn't hurt."
 
 ### C. Why Formula 1 might be relevant (1 to 2 minutes)
 
@@ -136,7 +136,7 @@ Advanced Navigation's whole business is knowing exactly where a machine is, to t
 
 **7. Formula 1 familiarity**
 
-> "And how much do you follow Formula 1, if at all? It must be hard to miss in Melbourne race week."
+> "And how much do you follow Formula 1, if at all? It's pretty hard to miss in Australia when Melbourne comes round."
 
 - *Follow-up:* "Anyone on the team who's a big fan? Ever been to Albert Park?"
 - *If they barely know it:* "No problem. Quick version: there's the series, which Liberty Media owns, eleven teams that each run as their own business, and the drivers. A brand can come in at any of those levels, and they're very different sizes."
