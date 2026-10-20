@@ -38,10 +38,10 @@
 
 ## Prep notes (not spoken)
 
-### Who Vast is (verified 11 October 2026; re-verify on call day)
+### Who Vast is (verified 20 October 2026; re-verify on call day)
 - American space company, Long Beach, California, founded 2021. Roughly a thousand people, with hundreds of open roles reported; they are hiring hard.
 - Founded and first funded by Jed McCaleb, the billionaire who co-founded Ripple and Stellar. CEO since 2023 is Max Haot, who founded Launcher (acquired by Vast) and before that Livestream.
-- What they are building, in plain words: **Haven-1**, intended to be the world's first commercial space station. A single module, launched on a SpaceX Falcon 9, with crews visiting on SpaceX Dragon capsules. Launch timing has moved: public reporting through late 2025 said 2026, and more recent reporting says 2027. Treat the date carefully and attribute it; never state a launch date as fact.
+- What they are building, in plain words: **Haven-1**, intended to be the world's first commercial space station. A single module, launched on a SpaceX Falcon 9, with crews visiting on SpaceX Dragon capsules. Launch timing has moved: the target through late 2025 was May 2026; the latest reporting (Payload Space) puts it no earlier than the first quarter of 2027, with crewed visits to follow once the station is proven safe. Treat the date carefully and attribute it; never state a launch date as fact.
 - Behind it: **Haven-2**, their proposed successor to the International Space Station, competing in NASA's Commercial LEO Destinations program. The ISS is due to retire around 2030, and NASA was expected to pick Phase 2 winners in 2026. Check status before the call.
 - Funding: McCaleb funded the company from his own pocket first. In March 2026 Vast raised $500 million ($300M equity, $200M debt), led by Balerion Space Ventures, with In-Q-Tel and Qatar Investment Authority among the participants.
 - Customers, current and future: NASA, sovereign space agencies without their own stations, research organizations and pharma, and private astronauts. Trust and credibility are the product; nobody books a mission with a company they half believe.
@@ -51,7 +51,7 @@
 - **Insider audience:** the contact has F1 history. Do not recite fan-growth stats at them, do not explain Liberty Media, do not use the sport-in-thirty-seconds speech. Numbers only when they sharpen a point.
 - **Category check:** claim nothing open. Space and aerospace names have appeared around this sport in various forms, and the exact team-by-team and series picture is verified at the recommendations stage, fresh.
 - **Claims discipline:** never say or imply any F1 team or the series has asked for a space station partner; Q1 gives the straight answer for your outreach email line. Haven-1 "first commercial space station" is Vast's stated goal, so attribute it ("what they intend to be the first"). Launch dates are attributed to reports. Never claim what any team is or is not willing to do.
-- **Names check:** SPORTFIVE citations in this script (Mercedes and Ferrari exclusivity history, RUCKUS at Haas, Airwallex at McLaren) were verified in September 2026 checks; Vast facts were checked on 11 October 2026. Re-verify on call day.
+- **Names check:** SPORTFIVE citations in this script (Mercedes and Ferrari exclusivity history, RUCKUS at Haas, Airwallex at McLaren) were verified in September 2026 checks; Vast facts were checked on 11 October 2026 and refreshed on 20 October 2026; no NASA Phase 2 award for the ISS successor was found as of that date. Re-verify on call day.
 - **Pipeline check:** confirm no live deal in space, aerospace, defense-adjacent or launch categories, and check the register for earlier Vast outreach.
 
 ### Numbers cheat sheet (sparingly; this audience knows the sport)
@@ -76,6 +76,20 @@
 > If it's okay with you, here's how I'd run it: I'll give you two minutes on us and how we work, then we'd love to learn about Vast, and then we explore the different entry points into the sport and take it from there.
 >
 > Oh, and joining me are Bjorn and George, two colleagues I work very closely with in our Formula 1 business. You'll hear from them as we go."
+
+**Alternative opening, if your contact has no F1 background:**
+
+*[Use this instead of the block above when the person on the call hasn't worked in the sport. Same structure, without the LinkedIn line.]*
+
+> "Hi [Name], hope all's well. Thanks for making the time.
+>
+> The reason for the call is simple. What Vast is building is one of the most exciting things happening in engineering right now, and from the desk research we've done, a Formula 1 conversation felt at least worth having.
+>
+> The goal today isn't for me to tell you why F1 is a good fit. It's to figure out, together, whether there's an actual fit between what Vast does and what Formula 1 offers as a platform. We learn about you, you ask us anything, and we see where Vast could fit.
+>
+> That's it from me. The three of us, I've got Bjorn and George with me, drive brand partnerships in this sport, bringing the world of motorsport and brands together. Bjorn, George, quick hello?"
+
+*[If you use this version, also use the "New to F1" block at the start of Part 4; the main script skips the F1 basics because it assumes an insider.]*
 
 ---
 
@@ -152,6 +166,10 @@
 ## Part 4: Entry points, and why Vast could fit (8 to 10 minutes)
 
 *[No F1 education here; they know the sport. Go straight to the doors, then the fit, then the sketches.]*
+
+*[New to F1 (only with the alternative opening): give the thirty-second picture first.]*
+
+> "Quick picture of how the sport is set up, because it explains the options. Formula 1 itself, the series, is owned by Liberty Media, an American media company: the calendar, the broadcasts, the races. The FIA writes the rules. And then there are eleven teams, including two American ones, Haas and Cadillac, each an independent business with its own partners. Around 24 race weekends a year, a total TV audience of 1.8 billion last season, and in the Paddock Club two thirds of the guests are senior executives."
 
 ### 4.1 The entry points, quickly
 
