@@ -41,17 +41,13 @@ ispace is a very hard engineering project carried by a family of corporate partn
 
 > "So today's just an open conversation. We'd like to learn about ispace, tell you a little about how the sport works if that's useful, and see if there's anything worth exploring. No pressure either way."
 
-### B. Why I reached out (45 to 60 seconds)
+### B. Why I reached out (20 to 30 seconds)
 
-*[The most important minute of the call. It's about their business, not about Formula 1.]*
+*[Two or three sentences, then stop. It's an observation, not a pitch.]*
 
-> "So, why ispace. When I was reading about you, what struck me wasn't only the engineering, although that's obviously the headline. It was how the business is put together.
->
-> You've got the lander, and then around it there's this whole family of partners. JAL, SMBC, Citizen, JINS. And payload customers like Niterra, Takasago, Bandai Namco. Big companies who've chosen to stand next to a really hard technical project.
->
-> And I suppose what I thought was, that's more or less how a Formula 1 team works. A team is a hard engineering project carried by partners who want to be close to it. Most teams have twenty-five or more of them. So you'd be one of the few companies I talk to who already knows this model from the other side of the table.
->
-> The other thing is timing. As I understand it, your next landing is planned for 2028. That's a long stretch to keep partners close and win new customers when there isn't a launch to talk about. And that's the part where I think Formula 1 might have something useful to offer."
+> "So, why ispace. Doing the research, what struck me is that you already run a lot like an F1 team: a really hard engineering project, with a group of partners who want to be close to it. And that engineering-first way of working is exactly what teams look for in the brands around them, so it felt like there's a real overlap worth talking about."
+
+*[Only if they ask for more. The partners: JAL, SMBC, Citizen and JINS on their partner list, payload customers like Niterra, Takasago and Bandai Namco (verify the current roster). The timing: their next landing is planned for 2028 (their own plan), which is a long stretch to keep partners close without a launch to talk about. That's where a hosting program can help.]*
 
 ### C. Why Formula 1 might be relevant (1 to 2 minutes)
 

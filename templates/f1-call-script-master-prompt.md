@@ -229,3 +229,4 @@ Keep the tone intelligent, friendly, commercially informed, relaxed and genuinel
 * **Flags:** capacity grading, the standing compliance note for India, China or Brazil roots, and the defense category check where relevant.
 * **Delivery:** markdown in `call-scripts/`, a Word file and a Google Doc for every script.
 * **Default attendees:** Bjorn and George, unless the brief says otherwise.
+* **"Why I reached out" is two or three sentences, then stop:** one observation about their business and the overlap with how F1 teams think. No lists of partners, figures or dates in the spoken lines; those go in a note underneath for if they ask, or in section C.
