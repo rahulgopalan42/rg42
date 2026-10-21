@@ -39,15 +39,13 @@ Kastle's whole business is deciding who gets through which door, and a Formula 1
 
 *[If they ask why not go straight to a team: "You could. We used to work only with Mercedes and Ferrari, for more than twelve years, and we gave that up on purpose so we could sit on the brand's side across all eleven teams. And the rights holders pay us, so it doesn't cost you anything."]*
 
-### B. Why I reached out (45 to 60 seconds)
+### B. Why I reached out (20 to 30 seconds)
 
-> "So, why Kastle. It started with something Haniel said in July, when you announced the new leadership team. He said the question your customers ask now is 'who do I trust to run this for me?' And that the person asking isn't just the property manager any more. It's the asset manager, the CFO, sometimes the CEO.
->
-> What's interesting is that's a different sale. You're not selling badge readers to the person who runs a building. You're asking the person who owns it to trust you with the whole portfolio.
->
-> And the world I work in runs on the same idea you do. Nobody gets into a Formula 1 paddock without a pass, and every pass decides which door opens. The paddock, the garage, the hospitality. Who gets in, where, and when. It's your business, running flat out for three days.
->
-> And, you know, at the American races, the people walking around with those passes look a lot like the people Haniel was talking about. That's why I got in touch."
+*[Two or three sentences, then stop. It's an observation, not a pitch.]*
+
+> "So, why Kastle. Doing the research, what struck me is that your whole business comes down to trust: who gets in, where, and when, and who an owner trusts to run all of that for them. That's exactly how a Formula 1 paddock works, and the people walking around it at the US races look a lot like the owners and CFOs you're selling to now, so it felt worth a conversation."
+
+*[Only if they ask for more. Where it came from: in July, when they announced the new leadership team, Haniel said the question customers ask now is "who do I trust to run this for me?", and that the buyer isn't just the property manager any more but the asset manager, the CFO, sometimes the CEO. At a race, every pass decides which door opens: the paddock, the garage, the hospitality. It's their business, running flat out for three days.]*
 
 ### C. Why Formula 1 might be relevant (1 to 2 minutes)
 
