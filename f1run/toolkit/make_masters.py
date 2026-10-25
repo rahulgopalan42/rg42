@@ -17,14 +17,13 @@ TEXT = {
     'hook_a': 'A few of our Formula 1 teams are looking for an ',
     'hook_b': ', and ',
     'hook_c': ' was identified as a potential fit ',   # Fit_reason is a "due to ..." clause ending in a full stop
-    'close': 'Open to a short call to see if there is an alignment? If interested, we would love to '
-             'host you at a race to show you how partners are generating ROI.',
+    'close': 'Would you be open to a quick call?',
     'sig': ['Rahul', 'Major Motorsport Projects - Global Sales', 'SPORTFIVE'],
 }
 BULLETS = [('Your target audience: ', 'Target_audience'),
            ('Market Overlap: ', 'Market_overlap'),
-           ('Shared Values: ', 'Shared_values'),
            ('Market Reference: ', 'Market_reference'),
+           ('Shared Values: ', 'Shared_values'),
            ('Formula 1 Audience: ', 'F1_Audience')]
 
 

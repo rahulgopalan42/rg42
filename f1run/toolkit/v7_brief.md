@@ -330,3 +330,7 @@ energy NOT listed there):
 - Market Reference: Bitdefender, your direct competitor, has been Ferrari's exclusive cybersecurity partner since
   2022. Ferrari now uses its technology to hunt threats, which gives Bitdefender a reference customer, and the deal
   includes driver meet-and-greets, factory tours and garage access for its own buyers.
+
+## REVISION 7 (25 Oct) - order and close, BOTH B2B and B2C
+Bullet order: Your target audience -> Market Overlap -> Market Reference -> Shared Values (B2C: then Formula 1 Audience).
+Close: "Would you be open to a quick call?" (race-hosting / ROI line removed entirely).
