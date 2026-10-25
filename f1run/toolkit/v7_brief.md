@@ -308,3 +308,25 @@ Komatsu (Williams) and Oracle (Red Bull). F1 has the highest concentration of bu
 and 66% of hospitality guests are senior executives. Teams also open doors off the track: introductions to fellow
 partners, to their owners and boards, joint activations with co-partners, and a presence at forums like Davos,
 CES and AWS re:Invent all year. (Public sector omitted: no honest grid example.)
+
+## REVISION 6 (25 Oct) - CURRENT B2B STANDARD (supersedes 2-5 for B2B)
+Hook: "A few of our Formula 1 teams are looking for an <Designation>, and <Brand> was identified for the following reasons:"
+Target audience: NO stats (no 66%, no decision-maker line). Sectors the brand really sells to (check the brand's own
+customer pages), 4-5 grid names, one per sector named; then why B2B brands are in F1 (host key clients, show their
+technology under pressure, meet buyers worldwide); then team access (introductions to partners, owners and boards;
+joint activations at forums). Short sentences; whole email around 190 words.
+SentinelOne (sectors from sentinelone.com/customers: financial services, insurance, automotive, technology, travel;
+energy NOT listed there):
+- Your target audience: Your target customers are large enterprises in financial services, insurance, automotive,
+  technology and travel, and leaders from each are in Formula 1: Barclays (Williams), Aon (Ferrari), Ford (Red Bull),
+  Oracle (Red Bull) and MSC Cruises (Formula 1). They use the sport to host key clients, show their technology
+  working under pressure and meet buyers worldwide. Teams also introduce partners to each other, to their owners
+  and boards, and run joint activations at forums like Davos and CES.
+- Market Overlap: SentinelOne is based in California, was founded in Israel and protects customers worldwide. The
+  Formula 1 calendar aligns with the markets you are present in and expanding into: Miami, Austin and Las Vegas,
+  plus 21 more races across Europe, the Middle East and Asia.
+- Shared Values: An F1 team runs on data, and that data is a constant target. SentinelOne uses AI to stop attacks
+  on laptops, servers and cloud systems before they spread.
+- Market Reference: Bitdefender, your direct competitor, has been Ferrari's exclusive cybersecurity partner since
+  2022. Ferrari now uses its technology to hunt threats, which gives Bitdefender a reference customer, and the deal
+  includes driver meet-and-greets, factory tours and garage access for its own buyers.

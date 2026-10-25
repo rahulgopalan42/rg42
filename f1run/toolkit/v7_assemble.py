@@ -78,7 +78,7 @@ def write_email(doc, row, who='[First name]'):
     p.add_run(row['designation']).bold = True
     g = group_of(row)
     if g.startswith('B2B'):
-        p.add_run(f', and I wanted to share why this could make sense for {row["brand"]}.')
+        p.add_run(f', and {row["brand"]} was identified for the following reasons:')
     else:
         p.add_run(f', and {row["brand"]} was identified as a potential fit {row["fit_reason"]}')
     for label, field in BULLETS:

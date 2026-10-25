@@ -71,9 +71,9 @@ def build(variant, with_reference):
     p = fmt(doc.add_paragraph(TEXT['hook_a']))
     add_field(p, 'Partner_designation', bold=True)
     if variant == 'B2B':     # B2B: short lead-in, the reason lives in the bullets (25 Oct)
-        p.add_run(', and I wanted to share why this could make sense for ')
+        p.add_run(', and ')
         add_field(p, 'Company')
-        p.add_run('.')
+        p.add_run(' was identified for the following reasons:')
     else:                    # B2C keeps the "identified as a potential fit due to ..." sentence
         p.add_run(TEXT['hook_b'])
         add_field(p, 'Company')
