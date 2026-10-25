@@ -1,109 +1,140 @@
 # Mariana Minerals x Mercedes: Opening Script
 
-**The call:** first direct meeting between Mariana Minerals and the Mercedes F1 commercial team. On the call: Rahul and [colleague] from SPORTFIVE; Brandon Towers and [co-founder] from Mariana; Stuart and [names] from Mercedes. Mercedes has been briefed. Your job: set the scene, say who's who, give one reason this is worth their time, then hand over and mostly listen.
+**The call:** first direct meeting between Mariana Minerals and the Mercedes F1 commercial team. On the call: Rahul and [colleague] from SPORTFIVE; Brandon Towers and [co-founder] from Mariana; Stuart and [names] from Mercedes. Mercedes has been briefed. Your job: introduce yourself, say why you've brought everyone together, run a quick round of intros, then hand over and use the questions in section 4 to build the brief.
 
-**How to use this:** the recommended version is first. Read it out loud twice before the call, then work from the talking cues in section 5, not the full text. If a line doesn't come out naturally in your own words, drop it.
+**How to use this:** read the opening out loud twice before the call, then work from the talking cues in section 5. If a line doesn't come out naturally in your own words, drop it.
 
 ---
 
-## 1. Recommended opening (60 to 90 seconds)
+## 1. The opening (about a minute)
 
 > "Hey everyone, good to see you all. How's everyone doing?"
 
-*[Let people answer. If someone's joining early or late in their day, pick that up for a second. Don't force small talk. Then:]*
+*[Let people answer. If someone's joining early or late in their day, pick that up for a second. Then:]*
 
-> "Good. Thanks for making the time, I know it's not easy lining up this many diaries. Really nice to have everyone together.
+> "Good. Well, thanks for making the time, it's really nice to have everyone together.
 >
-> Let me just do a quick who's who. From SPORTFIVE, it's me and [colleague]. From Mariana, we've got Brandon, who I've been speaking with for a while now, and [co-founder]. And from Mercedes, Stuart and [names].
+> For those I haven't met, I'm Rahul. I'm with SPORTFIVE, and I look after brand partnerships in Formula 1. And what's interesting about my role is I get to bring brands together. I think this is one of those times where you've got two pretty amazing ones on the same call.
 >
-> So, a bit of context. Brandon and I have been talking about Formula 1 for a few months, and we've been through the brief together. And Mercedes kept coming up. Partly the industrial and tech businesses around the team, and partly the feeling there could be something interesting on the technical side.
+> On one side, Mariana, rebuilding American mining with software. And on the other, Mercedes, eight constructors' titles in a row, so I don't think you need much of an introduction.
 >
-> One thing that stood out to me about Mariana: they bought an old copper mine in Utah, got it running again, and they write the software that runs it themselves. It's not software for the sake of it. And I think that's quite close to how Mercedes works, you know, you build the engine for the car you race. Two very different businesses, but a pretty similar way of thinking about engineering, and I'm curious where that goes.
+> And from the conversations Brandon and I have been having over the last few months, it just made sense to have this conversation.
 >
-> But rather than me trying to explain what you guys are building, Brandon, perhaps I'll hand it over to you and [co-founder] to give everyone a bit of background on Mariana."
+> So before we get into it, let's do a quick round of intros. Brandon, do you want to start? Just a quick hello for now, we'll come back to you for the bigger picture. Then [co-founder], then Stuart and the team, and [colleague] can round us off."
+
+*[Round of intros. Name and role is plenty. Then:]*
+
+> "Great, thanks everyone. Brandon, maybe you and [co-founder] could kick us off with a bit more on Mariana, what you're building and where you're heading. And then, Stuart, we'll come to you."
 
 *[After Mariana has spoken:]*
 
-> "Thanks, Brandon, that's great. Stuart, let me bring you in. It'd be good to hear a bit about how you guys approach partnerships at Mercedes, especially the technical and business side."
+> "Thanks, Brandon. Stuart, over to you. It'd be good to hear how you guys approach partnerships at Mercedes, especially the technical and business side."
 
 ---
 
-## 2. Another way to open it (my version)
-
-*[Same length. You set yourself up as the host from the first line, the observation is about small teams doing more with software, and Brandon gets a specific place to start.]*
-
-> "Hi everyone, good to see you. Thanks for joining."
-
-*[Small talk, if it comes. Then:]*
-
-> "So this is the first time the two teams are meeting properly, so my job today is mostly to make the introduction and then get out of the way.
->
-> Quick who's who: [colleague] and me from SPORTFIVE, Brandon and [co-founder] from Mariana, and Stuart and [names] from Mercedes.
->
-> Brandon and I have been going back and forth for a few months on what Mariana would want from Formula 1. And when we went through the brief, Mercedes was one of the teams that made the most sense to talk to: the partners around the team, and the engineering.
->
-> I'll tell you what got me interested. Watching the a16z film, I was quite surprised how much of mining still runs on spreadsheets. And Mariana's bet is that a small, really good team with the right software can run a mine better. That's not a million miles from an F1 team under a cost cap, where you can't just throw more people at a problem, so the software and the simulation have to do a lot of the work. I don't know yet what that means for the two of you, but I think it's a good place to start.
->
-> Brandon, maybe start with Copper One, because I think that's the bit everyone will want to hear about. And then, Stuart, we'll come to you."
-
----
-
-## 3. Short version (30 to 45 seconds)
+## 2. Short version (30 to 45 seconds)
 
 *[For when the call starts quickly and everyone already knows why they're there.]*
 
 > "Hey everyone, good to see you. Thanks for making the time.
 >
-> Everyone's been briefed, so I'll keep it short. Brandon and I have been talking for a few months, we went through the brief together, and Mercedes was one of the teams Mariana was keen to meet, for the partners around the team and the technical side.
+> For those I haven't met, I'm Rahul, I look after brand partnerships in Formula 1 at SPORTFIVE. The best part of the job is bringing brands together, and this is a good one: Mariana, rebuilding American mining with software, and Mercedes, who don't need much of an introduction.
 >
-> What I like about this one is that Mariana runs its own mine on software it writes itself, and Mercedes builds the engine for the car it races. Pretty different worlds, but I think similar instincts.
+> Brandon and I have been talking for a few months, and it just made sense to have this conversation.
 >
-> Brandon, over to you and [co-founder] first, and then, Stuart, we'll bring you in."
+> Let's do a quick round of intros. Brandon, do you want to start?"
 
 ---
 
-## 4. Handover lines
+## 3. Handover lines
+
+**Starting the intro round**
+
+- "Let's go round the room quickly. Brandon, you first?"
+- "Just name and what you look after is perfect, we'll get into the detail after."
 
 **Bringing in Brandon and [co-founder]**
 
-- "Brandon, I'll stop there. Do you want to give everyone the bigger picture on Mariana?"
-- "Brandon, maybe start with Copper One. I think that's the bit everyone will want to hear about."
+- "Brandon, do you want to give everyone the bigger picture on Mariana?"
+- "Maybe start with Copper One. I think that's the bit everyone will want to hear about."
 - "[Co-founder], you're probably best placed to explain how the software side works on site. Do you want to pick that up?"
 
 **Bringing in Stuart and Mercedes**
 
 - "Thanks, Brandon. Stuart, let me bring you in. How do you guys tend to think about partnerships, especially beyond the branding?"
 - "Stuart, I'd be curious how that landed with you. Anything there that rings a bell from your side?"
-- "Stuart, maybe a bit on how partners work with the team on the technical side? I think that's where Brandon's head is."
 
 **Getting both sides talking to each other**
 
 - "I'll get out of the way now. I'm sure you've both got questions for each other."
 - "Stuart, anything from that you'd want to dig into? And Brandon, same from your side."
-- "There's a lot there. Who wants to go first?"
-- *[If it goes quiet, ask one yourself:]* "Maybe I'll start. [Co-founder], if you worked with a team like Mercedes on the technical side, what would you most want to learn from them?"
+
+---
+
+## 4. Questions to raise on the call (to build the brief)
+
+*[Don't run the list. Pick two or three for each side as the conversation goes, ask, then stop talking. Asking Mariana's questions with Mercedes listening, and the other way round, means both sides hear the answers first-hand. Don't ask about budget on this call; take that with Brandon separately.]*
+
+**For Mariana**
+
+1. "Brandon, if we're sitting here in two years and this has worked, what's different for Mariana?"
+   - *Follow-up:* "And how would you know? What would you measure?"
+   - *[For the brief: what success looks like.]*
+2. "Who do you most need to reach right now? Car makers, data-center builders, utilities, government, or the engineers you're trying to hire?"
+   - *Follow-up:* "Are there a few names you'd build the whole thing around?"
+   - *[Who the partnership is for.]*
+3. "When you say technical collaboration, what does that look like in your head? Engineers working on the same problems, learning from how each other runs things, or more the story you'd tell around it?"
+   - *[Tells Mercedes what they'd need to offer.]*
+4. "What do you think Mariana could bring to the team, not just take from it?"
+   - *[Gives Mercedes a reason to say yes.]*
+5. "Is there a moment in the next year or two you'd want this to line up with? Lithium One coming on, a big customer, the next raise?"
+   - *[Timing.]*
+6. "How much of this is about hiring? You must be up against everyone for the same engineers."
+   - *[Whether talent is an objective.]*
+
+**For Mercedes**
+
+1. "Stuart, when a partnership has a real technical side, how does that work in practice? Who gets involved on your end?"
+   - *[What technical collaboration can look like.]*
+2. "With industrial or tech partners, what's worked best for you, and where has it been harder?"
+   - *[Learns from their experience without us naming partners.]*
+3. "How does the partner network work day to day? When partners want to meet each other, how do you help make that happen?"
+   - *[The ecosystem Mariana is interested in.]*
+4. "From the engineering side, what would make a company like Mariana interesting to the team, beyond the commercial side?"
+   - *[What Mercedes needs to see.]*
+5. "Is there anything on the team's own agenda right now, the new rules, sustainability, how you run the factory, where a company like Mariana might fit?"
+   - *[Finds a real hook rather than a forced one.]*
+6. "How far ahead do you plan these? Is there a window we should be working to?"
+   - *[Timing on their side.]*
+
+**For both, towards the end**
+
+1. "Hearing each other, what's the one thing you'd most want to explore further?"
+2. "What would a sensible first step look like? Something small you could test before anything bigger?"
+3. "What would each of you need to see from us to want a second meeting?"
+4. "Is there anything we haven't covered that should go into the brief?"
 
 ---
 
 ## 5. Talking cues (keep on screen)
 
 1. **Hi all.** How's everyone? Thanks for the time, nice to have everyone together.
-2. **Who's who.** Me and [colleague]. Brandon and [co-founder]. Stuart and team.
-3. **Context.** Months of talks with Brandon. The brief. Mercedes kept coming up: partners and the technical side.
-4. **What stood out.** Old copper mine in Utah, running again, their own software. Not software for its own sake.
-5. **The link.** Mercedes builds the engine for the car it races. Different businesses, same way of thinking. Curious where it goes.
-6. **Hand over.** Brandon and [co-founder] first. Then Stuart. Then listen.
+2. **Me.** Rahul, SPORTFIVE, brand partnerships in F1.
+3. **My role.** Bringing brands together. Two pretty amazing ones today.
+4. **The two.** Mariana: rebuilding American mining with software. Mercedes: eight titles in a row.
+5. **Why now.** Talks with Brandon. It just made sense to have this conversation.
+6. **Intros.** Brandon, [co-founder], Stuart and team, [colleague]. Then Mariana's story, then Stuart. Then questions.
 
-**Even shorter, for a sticky note:** Hi → who's who → Brandon and me, the brief → Mercedes kept coming up → own mine, own software / own engine → over to Brandon, then Stuart.
+**Sticky note:** Hi → me, SPORTFIVE, F1 partnerships → bringing brands together → Mariana: mining with software / Mercedes: eight titles → Brandon and me, made sense → intros, Brandon first.
 
 ---
 
 ## Prep notes (not spoken)
 
 - **Fill in:** [colleague]; [co-founder] (Mariana's co-founders are Turner Caldwell, CEO, Baker Tilney, CFO, and Juan Lozano; confirm who's joining and how they say their name); Stuart's surname and the names and roles of the Mercedes people.
-- **The a16z film:** I couldn't watch it or get its transcript (YouTube blocks the server these scripts are built on). The observations come from a published write-up of the film (StartupHub, August 2026) plus company news. Watch it before the call. Two lines depend on it: "not software for the sake of it" (the write-up quotes Turner saying something very close to this) and "how much of mining still runs on spreadsheets" (the write-up says Baker Tilney talks about it). If either isn't in the film the way you remember it, drop it. If Turner is on the call, the first line lands even better because it echoes his own words.
-- **Mariana facts behind the lines:** a mining and refining company that writes its own software (MarianaOS) for its own operations, not a software vendor. Copper One in south-east Utah: an idled copper mine they took over with the Lisbon Valley Mining Company acquisition in late 2025; mining resumed in April 2026, with end-to-end autonomy as the stated priority (driverless haul trucks, automated drilling, automated reagent dosing, per reports). Their target is 50,000 tonnes a year of copper cathode by 2030. Lithium One in Texas, with commercial production expected in 2027. $310M Series B in August 2026 led by Khosla Ventures; about $400M raised in total at a $1.5bn valuation. Turner spent nine years designing and building factories at Tesla.
-- **Mercedes facts behind the lines:** Mercedes builds its own power units at Brixworth and supplies other teams too. All teams have run under a cost cap since 2021.
-- **Don't oversell:** don't suggest a technical partnership is agreed, that Mercedes would use Mariana's copper or software, or that the two businesses are alike. "Similar way of thinking" is as far as it goes. No partner names from you on this call; Stuart knows their roster better than we do. No pricing, packages or next steps until both sides have spoken.
+- **Mariana facts behind the lines:** a mining and refining company that writes its own software (MarianaOS) for its own operations, not a software vendor. Its stated mission is rebuilding US mining and refining. Copper One in south-east Utah: an idled copper mine they took over with the Lisbon Valley Mining Company acquisition in late 2025; mining resumed in April 2026, with end-to-end autonomy as the stated priority (driverless haul trucks, automated drilling, automated reagent dosing, per reports). Their target is 50,000 tonnes a year of copper cathode by 2030. Lithium One in Texas, with commercial production expected in 2027. $310M Series B in August 2026 led by Khosla Ventures; about $400M raised in total at a $1.5bn valuation. Turner spent nine years designing and building factories at Tesla.
+- **Mercedes fact behind the line:** eight constructors' championships in a row, 2014 to 2021.
+- **The a16z film:** I couldn't watch it or get its transcript (YouTube blocks the server these scripts are built on). Nothing in this version depends on it, but watch it before the call: if Brandon or the co-founder refers to it, you'll want to know it.
+- **Don't oversell:** don't suggest a technical partnership is agreed or that Mercedes would use Mariana's copper or software. No partner names from you on this call; Stuart knows their roster better than we do. No pricing or packages.
 - **Category note:** Mariana counts defense among the markets for critical minerals. Keep your lines on mining, software and engineering.
-- **Your talk time:** about a minute and a half at the start. After that, keep it moving, fill silences, and note anything for follow-up.
+- **After the call:** write up the answers from section 4 the same day. They're the brief.
