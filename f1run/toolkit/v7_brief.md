@@ -294,3 +294,17 @@ AWS (Formula 1), Google (McLaren) and Lenovo (Formula 1), alongside enterprises 
 (McLaren), Barclays (Williams) and Aramco (Aston Martin). Formula 1 has the highest concentration of business
 decision makers in sport, 66% of Paddock Club guests are senior executives, and teams introduce their partners to
 one another, so a race weekend puts you in the room with the buyers you want.
+
+## REVISION 5 (25 Oct): B2B target audience (supersedes revisions 3-4)
+No partners. Who they serve, by sector, with 4-5 grid names covering EVERY sector named (one or more per sector;
+if a sector has no honest grid example, leave that sector out of the sentence and flag it). Then: "F1 has the
+highest concentration of business decision makers in sport, and 66% of hospitality guests are senior executives"
+(user's wording, 25 Oct). Then team access: introductions to fellow partners, team owners and boards; joint
+activations with co-partners; year-round presence at major forums (Davos, CES, AWS re:Invent, Cannes Lions, Web
+Summit, LEAP: pick the brand's world). Keep the bullet around 80 words.
+SentinelOne: Your target customers are large enterprises in financial services, energy, manufacturing and
+technology, and they are already in Formula 1: Barclays (Williams), Mastercard (McLaren), Aramco (Aston Martin),
+Komatsu (Williams) and Oracle (Red Bull). F1 has the highest concentration of business decision makers in sport,
+and 66% of hospitality guests are senior executives. Teams also open doors off the track: introductions to fellow
+partners, to their owners and boards, joint activations with co-partners, and a presence at forums like Davos,
+CES and AWS re:Invent all year. (Public sector omitted: no honest grid example.)
