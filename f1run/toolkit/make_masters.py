@@ -70,10 +70,15 @@ def build(variant, with_reference):
     blank(doc)
     p = fmt(doc.add_paragraph(TEXT['hook_a']))
     add_field(p, 'Partner_designation', bold=True)
-    p.add_run(TEXT['hook_b'])
-    add_field(p, 'Company')
-    p.add_run(TEXT['hook_c'])
-    add_field(p, 'Fit_reason')
+    if variant == 'B2B':     # B2B: short lead-in, the reason lives in the bullets (25 Oct)
+        p.add_run(', and I wanted to share why this could make sense for ')
+        add_field(p, 'Company')
+        p.add_run('.')
+    else:                    # B2C keeps the "identified as a potential fit due to ..." sentence
+        p.add_run(TEXT['hook_b'])
+        add_field(p, 'Company')
+        p.add_run(TEXT['hook_c'])
+        add_field(p, 'Fit_reason')
     for label, field in BULLETS:
         if field == 'Market_reference' and not with_reference:
             continue

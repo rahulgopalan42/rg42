@@ -76,8 +76,11 @@ def write_email(doc, row, who='[First name]'):
     fmt(doc.add_paragraph())
     p = fmt(doc.add_paragraph('A few of our Formula 1 teams are looking for an '))
     p.add_run(row['designation']).bold = True
-    p.add_run(f', and {row["brand"]} was identified as a potential fit {row["fit_reason"]}')
     g = group_of(row)
+    if g.startswith('B2B'):
+        p.add_run(f', and I wanted to share why this could make sense for {row["brand"]}.')
+    else:
+        p.add_run(f', and {row["brand"]} was identified as a potential fit {row["fit_reason"]}')
     for label, field in BULLETS:
         if field == 'market_reference' and not row.get('market_reference'):
             continue

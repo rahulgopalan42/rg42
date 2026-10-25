@@ -213,41 +213,51 @@ Kobold Metals, Standard Lithium, Lilac, EnergyX, Redwood Materials, US Strategic
 Alta Resource Technologies, EACON, Principal Mineral, Nth Cycle, EARTH AI, Element3,
 pH7 Technologies, Scout Discoveries Corp.
 
-## EXEMPLARS (approved structure, 25 Oct 2026) - same rules for B2B and B2C
-Rules: fit_reason links the brand's situation to F1; target audience names 3-4 relevant grid brands;
-plain, conversational, commercially direct, no drama or overselling; let facts carry the value;
-no brand financials in the email; drop Market Reference when no honest peer exists; B2C adds
-"Formula 1 Audience" with stat-bank figures only (827M, 42% female, 43% under 35, US +32%, women +41%).
+## EXEMPLARS (approved structure, 25 Oct 2026, revision 2) - supersede all earlier field rules
+B2B hook: "A few of our Formula 1 teams are looking for an <Designation>, and I wanted to share why this could
+make sense for <Brand>." No "identified as a potential fit due to" sentence; its reason moves into a bullet.
+B2C hook keeps "...and <Brand> was identified as a potential fit due to <reason linking the brand to F1>."
+Target audience (both): starts "Your target customers are ..." and names PARTNERS as well as customers; then 3-4
+relevant grid names of that kind. B2C adds "Formula 1 Audience" with brand-relevant depth from the stat bank
+(premium buyers 132, research online 126, tech interest 146, brand loyalists 200, women 74% of new fans, etc.),
+not just headline fan counts. Drop Market Reference when no honest peer exists. Plain, commercial, no drama.
+ROSTER FIX 25 Oct: WHOOP is at FERRARI (Team Partner, Official Health and Fitness Wearable Partner, 2026), not
+Red Bull as verification.md says. Eight Sleep = Aston Martin (Feb 2026, one year).
 
-B2B - Redwood Materials
-- Hook: ...Official Battery Materials Partner, and Redwood Materials was identified as a potential fit due to
-  its expanded General Motors partnership in June, at a time when GM has entered Formula 1 with its own team, Cadillac.
-- Your target audience: You sell cathode material and copper foil to automakers and battery makers, and energy
-  storage to utilities and data centers. Carmakers of that kind are in Formula 1: Ford (Red Bull), Honda (Aston
-  Martin), and Audi and Mercedes, which run their own teams.
-- Market Overlap: Redwood runs battery materials campuses in Nevada and South Carolina and supplies battery plants
-  across the US. The Formula 1 calendar aligns with the markets you are present in and expanding into: Las Vegas,
-  in your home state, plus Miami and Austin.
-- Shared Values: An F1 team runs a hybrid power unit, and from 2026 the battery does far more of the work. Redwood
-  works at the other end of a battery's life, recovering the metals in used packs for new cells and storage.
-- Market Reference: Toyota, your cathode and copper foil customer, became Haas's title partner this season.
-  General Motors, your battery lifecycle partner, owns the new Cadillac team. Your customers are already in the sport.
+B2B - SentinelOne
+- Hook: ...Official Endpoint Security Partner, and I wanted to share why this could make sense for SentinelOne.
+- Your target audience: Your target customers are large enterprises, governments and the managed security
+  providers that protect them. You also build with partners like AWS and Google Cloud, and Lenovo ships your
+  security on its PCs. Those partners are already in Formula 1: AWS (Formula 1), Google (McLaren) and Lenovo (Formula 1).
+- Market Overlap: SentinelOne is headquartered in California, was founded in Israel and protects customers
+  worldwide. The Formula 1 calendar aligns with the markets you are present in and expanding into: Miami, Austin
+  and Las Vegas at home, plus 21 more races across Europe, the Middle East and Asia.
+- Shared Values: An F1 team runs on data, from the factory to the garage at every race, and that data is a
+  constant target. SentinelOne protects the same kind of operation, using AI to find and stop attacks on laptops,
+  servers and cloud systems.
+- Market Reference: Bitdefender, a direct competitor in endpoint security, has been Ferrari's exclusive
+  cybersecurity partner since 2022 and extended the deal in October 2025. This season its name moved further onto
+  the car, and Ferrari's security analysts use its technology to check and prioritise alerts.
+- Flag: Bitdefender holds cybersecurity exclusively at Ferrari; confirm which other teams have the category open.
 
-B2C - Deckers Brands (Hoka)
-- Hook: ...Official Running Footwear Partner, and Hoka was identified as a potential fit due to its growth in
-  Europe, where it is now a top-three running brand in Italy and the UK, two countries that host Formula 1 races
-  and where your biggest rivals already sell through F1 teams.
-- Your target audience: The customers you serve are runners and active people who pay for performance footwear.
-  Sportswear brands are already in the sport to reach them: PUMA (Ferrari, McLaren and Aston Martin), adidas
-  (Mercedes and Audi), Castore (Red Bull) and Tommy Hilfiger (Cadillac).
-- Market Overlap: Hoka is growing fastest outside the US, with Europe and China leading. The Formula 1 calendar
-  aligns with the markets you are present in and expanding into: Silverstone, Monza, Barcelona and Madrid in
-  Europe, Shanghai in China, and Miami, Austin and Las Vegas at home.
-- Shared Values: An F1 driver relies on kit designed around the body and improved every season. Hoka built its
-  name the same way: shoes designed around the runner and refined with every new model.
-- Market Reference: PUMA is the clearest example in your category. A long-time Ferrari partner, it also supplies
-  Aston Martin and became McLaren's apparel partner this season, selling team collections to fans worldwide.
-  Team collections are now one of the main ways sportswear brands reach F1 fans.
-- Formula 1 Audience: Formula 1 had 827 million fans in 2025, up 12% in a year. 43% are under 35 and 42% are women.
-  US fans are 32% more likely to consider a sponsor's product, rising to 41% among women.
-- Flag: kit suppliers may hold footwear rights at their teams; confirm which teams have running footwear open before sending.
+B2C - Oura
+- Hook: ...Official Smart Ring Partner, and Oura was identified as a potential fit due to its growth among women,
+  who make up 74% of new Formula 1 fans, and its expansion outside the US.
+- Your target audience: Your target customers are health-conscious adults who want to understand their sleep,
+  recovery and fitness, and you reach them through retail partners in more than 4,600 stores worldwide. Health and
+  fitness brands are already in the sport to reach the same people: Eight Sleep (Aston Martin), Technogym
+  (Ferrari) and Optimum Nutrition (McLaren).
+- Market Overlap: Oura is a Finnish company, with international markets driving much of its growth. The Formula 1
+  calendar aligns with the markets you are present in and expanding into: Silverstone and Barcelona in Europe,
+  Suzuka in Japan, and Miami, Austin and Las Vegas in the US.
+- Shared Values: An F1 team tracks its drivers' sleep, recovery and readiness as closely as the car's data,
+  because both decide the result. Oura gives its members the same kind of insight every morning.
+- Market Reference: WHOOP, your closest rival in health wearables, joined Ferrari this season as Official Health
+  and Fitness Wearable Partner. Ferrari's medical staff use it with the drivers to track sleep, stress and
+  recovery. Your nearest competitor is now part of how an F1 team prepares its drivers.
+- Formula 1 Audience: Formula 1 had 827 million fans in 2025, and 74% of new fans are women. F1 fans are the most
+  likely of any major sport's fans to buy premium versions of products (index 132) and to research online before
+  buying (126), and they index 146 for interest in technology (general population = 100). US fans are 32% more
+  likely to consider a sponsor's product, rising to 41% among women.
+- Flags: Technogym (Ferrari) and Optimum Nutrition (McLaren) are multi-year deals with no 2026-dated
+  confirmation found; re-check at send. Oura filed for a Nasdaq IPO in Sept 2026 (quiet-period sensitivity).
