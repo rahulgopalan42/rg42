@@ -18,9 +18,9 @@ SCRATCH = os.path.dirname(os.path.abspath(__file__))
 norm = lambda s: re.sub(r'[^a-z0-9]', '', (s or '').lower())
 SUBJECT = 'Exploring Formula 1 Team Partnership Opportunity'
 COLS = ['First_name', 'Full_name', 'Title', 'Role', 'Email', 'Company', 'Subject', 'Partner_designation',
-        'Fit_reason', 'Target_audience', 'Market_overlap', 'Shared_values', 'Market_reference', 'F1_Audience']
+        'Fit_reason', 'Target_audience', 'Market_overlap', 'Shared_values', 'Market_reference', 'F1_Audience', 'Pipeline']
 FIELDS = ['designation', 'fit_reason', 'target_audience', 'market_overlap', 'shared_values',
-          'market_reference', 'f1_audience']
+          'market_reference', 'f1_audience', 'pipeline']
 MASTERS = ['F1 Merge Master v7 - B2B.docx', 'F1 Merge Master v7 - B2B no reference.docx',
            'F1 Merge Master v7 - B2C.docx', 'F1 Merge Master v7 - B2C no reference.docx']
 OPENER = ('Reaching out from SPORTFIVE - the authorized agency managing brands sponsorships for '
@@ -29,7 +29,8 @@ CLOSE = ('Open to a short call to see if there is an alignment? If interested, w
          'host you at a race to show you how partners are generating ROI.')
 BULLETS = [('Your target audience: ', 'target_audience'), ('Market Overlap: ', 'market_overlap'),
            ('Shared Values: ', 'shared_values'), ('Market Reference: ', 'market_reference'),
-           ('Formula 1 Audience: ', 'f1_audience')]
+           ('Formula 1 Audience: ', 'f1_audience'),
+           ('Enterprise Pipeline & B2B Activations: ', 'pipeline')]
 qc_log = []
 
 
@@ -86,6 +87,8 @@ def write_email(doc, row, who='[First name]'):
             continue
         if field == 'f1_audience' and (g.startswith('B2B') or not row.get('f1_audience')):
             continue
+        if field == 'pipeline' and (g.startswith('B2C') or not row.get('pipeline')):
+            continue
         fmt(doc.add_paragraph())
         p = fmt(doc.add_paragraph(style='List Bullet'))
         p.add_run(label).bold = True
@@ -123,7 +126,8 @@ def main():
                 first_name(p.get('name')), p.get('name', ''), p.get('title', ''), p.get('role', ''),
                 p['email'], row['brand'], SUBJECT, row['designation'], row['fit_reason'],
                 row['target_audience'], row['market_overlap'], row['shared_values'],
-                row['market_reference'], row['f1_audience'] if g.startswith('B2C') else ''])
+                row['market_reference'], row['f1_audience'] if g.startswith('B2C') else '',
+                row['pipeline'] if g.startswith('B2B') else ''])
     out_files = []
     for g, lst in groups.items():
         wb = Workbook()

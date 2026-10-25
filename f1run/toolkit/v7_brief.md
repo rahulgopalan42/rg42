@@ -261,3 +261,25 @@ B2C - Oura
   likely to consider a sponsor's product, rising to 41% among women.
 - Flags: Technogym (Ferrari) and Optimum Nutrition (McLaren) are multi-year deals with no 2026-dated
   confirmation found; re-check at send. Oura filed for a Nasdaq IPO in Sept 2026 (quiet-period sensitivity).
+
+## REVISION 3 (25 Oct): value-led Market Reference + B2B pipeline bullet
+- Market Reference must say what the peer GETS from the deal (customer reference, hospitality for its buyers,
+  research credential, product use by the team), from verified sources; not just that a deal exists.
+- B2B adds a fifth bullet "Enterprise Pipeline & B2B Activations": team partner networks (25+ partners per team,
+  name 3-4 grid partners that are the brand's type of buyer), compliant introductions, race-weekend hosting of the
+  brand's own prospects, and the locked line "66% of Paddock Club guests are senior executives". B2C keeps
+  "Formula 1 Audience" instead. Merge column: Pipeline (B2B only).
+
+SentinelOne Market Reference: Bitdefender, a direct competitor in endpoint security, has been Ferrari's exclusive
+cybersecurity partner since 2022, and it gets more than a logo on the car. Ferrari uses its technology to hunt
+threats, which makes Ferrari a working reference customer, and the deal includes driver meet-and-greets, factory
+tours and garage access that Bitdefender can offer its own buyers. Ferrari extended it in October 2025.
+SentinelOne Pipeline: Each F1 team works with 25 or more partners, and many are large enterprises with the
+security needs you solve, such as Mastercard (McLaren), Barclays (Williams), Aramco (Aston Martin) and Shell
+(Ferrari). Teams make compliant introductions across that network, and 66% of Paddock Club guests are senior
+executives. You can also host your own CISO prospects at races, with time in the garage and with the team's
+technology staff.
+Oura Market Reference: WHOOP, your closest rival in health wearables, joined Ferrari this season. Its logo is on
+the cars and drivers, its devices are available to team members, and it is writing a joint research paper with
+Ferrari's medical staff on sleep, stress and recovery. That gives WHOOP a scientific credential with one of the
+best-known teams in sport, which it can share with its own members.

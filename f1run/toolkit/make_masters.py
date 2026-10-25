@@ -25,7 +25,8 @@ BULLETS = [('Your target audience: ', 'Target_audience'),
            ('Market Overlap: ', 'Market_overlap'),
            ('Shared Values: ', 'Shared_values'),
            ('Market Reference: ', 'Market_reference'),
-           ('Formula 1 Audience: ', 'F1_Audience')]
+           ('Formula 1 Audience: ', 'F1_Audience'),
+           ('Enterprise Pipeline & B2B Activations: ', 'Pipeline')]
 
 
 def fmt(p):
@@ -83,6 +84,8 @@ def build(variant, with_reference):
         if field == 'Market_reference' and not with_reference:
             continue
         if field == 'F1_Audience' and variant == 'B2B':
+            continue
+        if field == 'Pipeline' and variant == 'B2C':
             continue
         blank(doc)
         p = fmt(doc.add_paragraph(style='List Bullet'))
