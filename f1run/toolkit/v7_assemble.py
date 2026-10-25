@@ -29,8 +29,7 @@ CLOSE = ('Open to a short call to see if there is an alignment? If interested, w
          'host you at a race to show you how partners are generating ROI.')
 BULLETS = [('Your target audience: ', 'target_audience'), ('Market Overlap: ', 'market_overlap'),
            ('Shared Values: ', 'shared_values'), ('Market Reference: ', 'market_reference'),
-           ('Formula 1 Audience: ', 'f1_audience'),
-           ('Enterprise Pipeline & B2B Activations: ', 'pipeline')]
+           ('Formula 1 Audience: ', 'f1_audience')]
 qc_log = []
 
 

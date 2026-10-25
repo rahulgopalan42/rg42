@@ -25,8 +25,7 @@ BULLETS = [('Your target audience: ', 'Target_audience'),
            ('Market Overlap: ', 'Market_overlap'),
            ('Shared Values: ', 'Shared_values'),
            ('Market Reference: ', 'Market_reference'),
-           ('Formula 1 Audience: ', 'F1_Audience'),
-           ('Enterprise Pipeline & B2B Activations: ', 'Pipeline')]
+           ('Formula 1 Audience: ', 'F1_Audience')]
 
 
 def fmt(p):

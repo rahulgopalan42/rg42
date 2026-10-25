@@ -283,3 +283,14 @@ Oura Market Reference: WHOOP, your closest rival in health wearables, joined Fer
 the cars and drivers, its devices are available to team members, and it is writing a joint research paper with
 Ferrari's medical staff on sleep, stress and recovery. That gives WHOOP a scientific credential with one of the
 best-known teams in sport, which it can share with its own members.
+
+## REVISION 4 (25 Oct): pipeline bullet REMOVED; blended into B2B target audience (supersedes revision 3)
+B2B target audience = customers + partners on the grid, 3-4 enterprise names of the buyer type, one line that
+teams introduce partners to one another, and B2B audience data (highest concentration of business decision
+makers in sport; 66% of Paddock Club guests are senior executives). Four bullets for B2B, five for B2C.
+SentinelOne target audience: Your target customers are large enterprises, governments and managed security
+providers, and you build with partners like AWS, Google Cloud and Lenovo. Those partners are already in Formula 1:
+AWS (Formula 1), Google (McLaren) and Lenovo (Formula 1), alongside enterprises you sell to, such as Mastercard
+(McLaren), Barclays (Williams) and Aramco (Aston Martin). Formula 1 has the highest concentration of business
+decision makers in sport, 66% of Paddock Club guests are senior executives, and teams introduce their partners to
+one another, so a race weekend puts you in the room with the buyers you want.
