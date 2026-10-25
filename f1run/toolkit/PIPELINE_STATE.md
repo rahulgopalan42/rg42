@@ -58,3 +58,9 @@
 # current partner-landscape source (added to brief; agents messaged mid-run).
 # Standing rules unchanged: emails only, never phones; cap 4; no waterfall/personal; verified only;
 # QC scrub; China/India/Brazil HQ override flag; capacity grades in flags; parked items stay parked.
+# AUDIT 25 Oct: master "MASTER REFERENE OCT.xlsx" (Drive 1voLorjVmfB4FAs5Ie_EaXNCJcNyzrSuD, 59 tabs, 12,370 brands)
+# vs Drive folder 1PpySg3zefnpksp_C52Y9N7AtNE0wlboG (Wave 1-23 Emails Ready docx, W10 duplicated).
+# Scripts audit_extract.py -> audit_match.py -> audit_build.py. Result: 1,322 verified (green, fill B7E1A1),
+# A 1,803 / B 5,445 / C 3,266 (x = no template, user's Sept rule) / D 534 (483 TBR undefined, Later, CHECK,
+# "check with Alex Waltham", stray s/xx/z/x], 26 uncertain). 38 tabs have no doc in the folder; Waves 1-4
+# (256 brands) match no tab, only 3 found in master. Drive upload not done (connector needs inline base64).
