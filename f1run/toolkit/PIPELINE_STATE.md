@@ -72,3 +72,6 @@
 # Prepare First: chunks pf_00..pf_21 (10 each) -> pf_XX_rows.json; agents 00-10 launched 26 Oct; 11-21 next.
 # Then: merge rows -> enrich with mini_enrich.py (domains from agent output) -> v7_assemble.py "Prepare First" ->
 # zip (+ Flagged Brands.xlsx for B2B/B2C ambiguity) -> SendUserFile. Apollo balance 1,069 at start.
+# USER 26 Oct: Existing Group Overlays -> BUILD the 156 x-marked brands (x = build here; MathWorks unmarked -> skip).
+# MASTER -> BUILD the 75 x-marked brands EXCEPT Stegra (no template; "H2 Green" row = Stegra's old name, skip).
+# Exclusion list so far: Stegra. User will top up Apollo credits shortly.
