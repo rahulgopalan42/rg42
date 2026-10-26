@@ -92,3 +92,4 @@
   Automotive and Mobility, Software Internet & AI; then non-red ERP Finance, GRC Risk, Automation, Vertical Saas, Space.
 
 - Cyber + IT: delivered (42 built, Synopsys skipped: on grid via Ansys). Rows in f1run/runs/cyber_it_rows.json. Contacts from wave3_contacts.json.
+- SAAS: delivered (5 built). Rows in f1run/runs/saas_rows.json. Contacts from wave4_contacts.json.
