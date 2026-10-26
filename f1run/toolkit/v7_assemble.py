@@ -101,6 +101,8 @@ def main():
     label, tpl_path, con_path = sys.argv[1], sys.argv[2], sys.argv[3]
     data = json.load(open(tpl_path))
     rows = data['rows'] if isinstance(data, dict) else data
+    skipped = [r for r in rows if r.get('skip')]
+    rows = [r for r in rows if not r.get('skip')]
     contacts = {}
     for r in json.load(open(con_path)).get('rows', []):
         contacts.setdefault(norm(r['brand']), []).extend(r.get('people') or [])
@@ -111,7 +113,7 @@ def main():
         if row.get('variant_flag'):
             row.setdefault('flags', []).insert(0, 'B2B/B2C: ' + row['variant_flag'])
     flagged = [r for r in rows if r.get('variant_flag')]
-    if flagged:
+    if flagged or skipped:
         wbf = Workbook(); wsf = wbf.active; wsf.title = 'Flagged'
         wsf.append(['Brand', 'Built as', 'Reason it could be the other', 'Designation'])
         for c in wsf[1]:
@@ -120,6 +122,14 @@ def main():
             wsf.append([r['brand'], r.get('variant', ''), r['variant_flag'], r.get('designation', '')])
         for col, w in zip('ABCD', (34, 10, 90, 40)):
             wsf.column_dimensions[col].width = w
+        if skipped:
+            wss = wbf.create_sheet('Not built')
+            wss.append(['Brand', 'Why no template'])
+            for c in wss[1]:
+                c.font = Font(bold=True)
+            for r in skipped:
+                wss.append([r['brand'], r['skip']])
+            wss.column_dimensions['A'].width = 34; wss.column_dimensions['B'].width = 120
         wbf.save(os.path.join(SCRATCH, f'{label} - Flagged Brands.xlsx'))
 
     # ---- merge lists ----
@@ -186,7 +196,7 @@ def main():
     # ---- zip ----
     zname = f'{label.upper()} - Complete.zip'
     with zipfile.ZipFile(os.path.join(SCRATCH, zname), 'w', zipfile.ZIP_DEFLATED) as z:
-        extra = [f'{label} - Flagged Brands.xlsx'] if flagged else []
+        extra = [f'{label} - Flagged Brands.xlsx'] if (flagged or skipped) else []
         for fn in out_files + [er] + extra + MASTERS:
             z.write(os.path.join(SCRATCH, fn), fn)
     print('QC items:', len(qc_log))
