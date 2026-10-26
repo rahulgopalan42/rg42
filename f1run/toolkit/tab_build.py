@@ -13,6 +13,8 @@ for f in sorted(glob.glob(f'{a.prefix}_[0-9][0-9]_rows.json')):
 for r in rows:
     b = r['brand']
     if b in SKIP: r['skip'] = SKIP[b]
+    elif not r.get('variant') or any(str(f).startswith('DECLINED') for f in r.get('flags', [])):
+        r['skip'] = next((str(f) for f in r.get('flags', []) if str(f).startswith('DECLINED')), 'Not built by research agent (no template fields returned).')
     if b in NAME: r['email_name'] = NAME[b]
     if b in REF: r['market_reference'] = REF[b]
     r['domain'] = re.sub(r'^(?:https?://)?(?:www\.)?([a-z0-9.-]+\.[a-z]+).*$', r'\1', (r.get('domain') or '').strip().lower())
