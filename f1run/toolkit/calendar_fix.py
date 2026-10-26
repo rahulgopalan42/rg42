@@ -15,7 +15,7 @@ def fix_list(s):
     s=s.replace('the new Madrid race','Madrid')
     for a,b in MONTHS: s=s.replace(a,b)
     for q in QUAL: s=re.sub(q,'',s)
-    for c in ['Zandvoort','Barcelona']:
+    for c in ['Zandvoort','Barcelona','Sepang','Imola']:
         s=re.sub(rf',\s*and {c}\b|\s+and {c}\b|,\s*{c}\b(?: in the Netherlands)?|\b{c}(?: in the Netherlands)?,\s*|\b{c} and ','',s)
     s=re.sub(r',\s*,',',',s); s=re.sub(r':\s*,\s*',': ',s); s=re.sub(r',\s*\.$','.',s)
     head,_,lst=s.partition(': ')
@@ -32,9 +32,9 @@ for f in args:
         parts=re.split(r'(?<=\.) ',v)
         new=[]
         for p in parts:
-            if 'Formula 1' in p and ':' in p and re.search(r'Zandvoort|Barcelona|final year|last year|new (?:in|for) 2026|new this year|which is new|new Madrid|as a new race|'+'|'.join(re.escape(a) for a,_ in MONTHS),p):
+            if 'Formula 1' in p and ':' in p and re.search(r'Zandvoort|Barcelona|Sepang|Imola|final year|last year|new (?:in|for) 2026|new this year|which is new|new Madrid|as a new race|'+'|'.join(re.escape(a) for a,_ in MONTHS),p):
                 q=fix_list(p)
-                if re.search(r'Zandvoort|Barcelona',q) or len(q.split(': ',1)[-1].split(','))<1: print('MANUAL',f,r['brand'],'|',q)
+                if re.search(r'Zandvoort|Barcelona|Sepang|Imola',q) or len(q.split(': ',1)[-1].split(','))<1: print('MANUAL',f,r['brand'],'|',q)
                 new.append(q)
             else: new.append(p)
         nv=' '.join(new)
