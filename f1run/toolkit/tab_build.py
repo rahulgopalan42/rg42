@@ -24,7 +24,10 @@ for r in rows:
         if r.get('email_name'): t = t.replace(b, r['email_name'])
         r[f] = re.sub(r'\s{2,}', ' ', t).strip()
     mr = r.get('market_reference') or ''
-    if re.match(r'(No|None of|Few) ', mr): print('REF-OPENER', b, '::', mr[:100])
+    if re.match(r'(No |None of |Few )', mr):          # never count open seats in the email
+        rest = re.sub(r'^[^.]*\.\s*', '', mr, count=1)
+        r['market_reference'] = (rest[0].upper() + rest[1:]) if rest else ''
+        print('REF-OPENER fixed', b, '::', r['market_reference'][:90])
     if r['variant'] == 'B2C' and not (r.get('fit_reason') or '').startswith('due to'): print('FIT', b)
     if not re.match(r'^[a-z0-9.-]+\.[a-z]+$', r['domain']): print('DOMAIN', b, r['domain'])
     for fl in r['flags']:
