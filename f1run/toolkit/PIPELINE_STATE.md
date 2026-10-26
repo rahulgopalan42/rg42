@@ -113,3 +113,5 @@
 - Existing Group Overlays: all 14 chunks in (134 rows). Planned skips: Synopsys, AbbVie, Affirm Holdings, Formlabs, William Grant & Sons (Glenfiddich at Aston Martin). Mitsui & Co row being rebuilt as Mitsui Fudosan (sheet domain/sector/Halekulani). Contacts: wave7 + fix4 (Sanlorenzo, CP Group); HGS none usable.
 - MASTER ms_00..07 running (contacts ready: wave9_contacts.json). Non-red tabs chunked by toolkit/prechunk.py (erp 7, grc 9, aut 9, vs 3, sp 1 chunks); erp_00..02 running.
 - Existing Group Overlays: delivered (129 built, 5 skipped: Synopsys, AbbVie, William Grant & Sons on grid; Affirm Holdings, Formlabs dups). "Mitsui & Co" row rebuilt as Mitsui Fudosan (sheet domain, sector and Halekulani note). Contacts ego_contacts.json (wave7 + fix4); HGS none usable.
+- Software, Internet & AI: delivered (30 built; AtlasBase skipped, built in Prepare First as Atlas Data Storage). Hard cautions: SOAR AI, SKALE, IoTeX, Nym, Egenera, Orbs. Contacts siai_contacts.json (wave7 + fix6 Eigen Labs, SOAR AI); Algorand none usable.
+- All red tabs now delivered except MASTER (ms_00..07: 01 and 07 in, rest running).
