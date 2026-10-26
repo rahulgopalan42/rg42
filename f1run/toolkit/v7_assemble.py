@@ -187,7 +187,7 @@ def main():
         if ppl:
             doc.add_paragraph('Contacts: ' + '; '.join(f'{p.get("name","")} ({p.get("title","")}) '
                                                         f'{p["email"]}' for p in ppl))
-        else:
+        elif not any(str(f).startswith('Contacts: Apollo credits') for f in row.get('flags') or []):
             p = doc.add_paragraph()
             p.add_run('NOTE: no verified work email found in Apollo, source a contact manually.').bold = True
         doc.add_paragraph()
