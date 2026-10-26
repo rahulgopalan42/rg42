@@ -107,3 +107,5 @@
 - Privacy: v8 brief now bans putting the user's name or email in any web request (two agents had used it in sec.gov User-Agent headers).
 - Wave 7 Apollo (Automotive and Mobility, Software Internet & AI, Existing Group Overlays) done: wave7_contacts.json, 658 emails / 170 brands. Credits left about 1,218.
 - Semiconductors: delivered (54 built, 0 skipped; Amphenol flagged as possibly on grid via CommScope at Haas). Rows in f1run/runs/semiconductors_rows.json. Contacts wave6_contacts.json (+5 re-run by domain). In flight: Software chunks 00-11.
+- Software: delivered (167 built, 9 skipped as duplicates of earlier tabs). Rows in f1run/runs/software_rows.json. Contacts from row-verified domains (wave8a-f, merged as sw_contacts.json, 666 emails). No contacts: Prometheus, Apollo Go, Matillion. toolkit/dedup_check.py now run before enrichment.
+- Existing Group Overlays: chunks 00 done, 01-13 running (contacts in wave7_contacts.json; QC against row domains before assembly).
