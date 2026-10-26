@@ -95,3 +95,4 @@
 - SAAS: delivered (5 built). Rows in f1run/runs/saas_rows.json. Contacts from wave4_contacts.json.
 - Machine Tools: delivered (24 built). Rows in f1run/runs/machine_tools_rows.json. Contacts from wave4_contacts.json (+wave4b for Fives, 3D Systems, Riot Security).
 - Horizontal Saas: delivered (20 built). Rows in f1run/runs/horizontal_saas_rows.json. tab_build.py now auto-skips DECLINED / empty-variant rows.
+- Chip Makers: delivered (10 built, DreamBig skipped: Arm-owned). Rows in f1run/runs/chip_makers_rows.json.
