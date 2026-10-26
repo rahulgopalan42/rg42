@@ -93,3 +93,4 @@
 
 - Cyber + IT: delivered (42 built, Synopsys skipped: on grid via Ansys). Rows in f1run/runs/cyber_it_rows.json. Contacts from wave3_contacts.json.
 - SAAS: delivered (5 built). Rows in f1run/runs/saas_rows.json. Contacts from wave4_contacts.json.
+- Machine Tools: delivered (24 built). Rows in f1run/runs/machine_tools_rows.json. Contacts from wave4_contacts.json (+wave4b for Fives, 3D Systems, Riot Security).
