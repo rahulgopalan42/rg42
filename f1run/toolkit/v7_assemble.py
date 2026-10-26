@@ -108,6 +108,8 @@ def main():
         contacts.setdefault(norm(r['brand']), []).extend(r.get('people') or [])
 
     for row in rows:
+        row['_list_name'] = row['brand']
+        row['brand'] = row.get('email_name') or row['brand']
         for f in FIELDS:
             row[f] = scrub(row.get(f, ''), row['brand'], f)
         if row.get('variant_flag'):
@@ -135,7 +137,7 @@ def main():
     # ---- merge lists ----
     groups, no_contact = {}, []
     for row in rows:
-        ppl = [p for p in contacts.get(norm(row['brand']), []) if p.get('email')][:4]
+        ppl = [p for p in contacts.get(norm(row['_list_name']), []) if p.get('email')][:4]
         if not ppl:
             no_contact.append(row['brand'])
             continue
@@ -181,7 +183,7 @@ def main():
             p = doc.add_paragraph()
             p.add_run('NOTE: ').bold = True
             p.add_run(str(fl))
-        ppl = [p for p in contacts.get(norm(row['brand']), []) if p.get('email')][:4]
+        ppl = [p for p in contacts.get(norm(row['_list_name']), []) if p.get('email')][:4]
         if ppl:
             doc.add_paragraph('Contacts: ' + '; '.join(f'{p.get("name","")} ({p.get("title","")}) '
                                                         f'{p["email"]}' for p in ppl))

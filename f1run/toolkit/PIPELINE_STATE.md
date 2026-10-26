@@ -75,3 +75,18 @@
 # USER 26 Oct: Existing Group Overlays -> BUILD the 156 x-marked brands (x = build here; MathWorks unmarked -> skip).
 # MASTER -> BUILD the 75 x-marked brands EXCEPT Stegra (no template; "H2 Green" row = Stegra's old name, skip).
 # Exclusion list so far: Stegra. User will top up Apollo credits shortly.
+
+## 26 Oct 2026 - New list run, tab "Prepare First" (v8 standard)
+- 214 brands researched in 22 chunks (pf_00..pf_21) by background agents against v8_brief.md.
+- QC: pf_qc.py; edit passes pf_edits.py (chunks 00-10) and pf_edits_B.py (11-21 + email_name display fixes).
+- 10 not built (listed on "Not built" sheet of the Flagged Brands xlsx): Loop Earplugs, Exein (already on grid);
+  Aescape, Sleep Number, Ab&B Biotech, Reve (insolvency / Ch.11 / suspended / product shut);
+  Oasis Security, MaintainX, Celestial AI, Observe (acquired, approach the acquirer).
+- Apollo: batch A 103 brands = 409 credits (377 emails, 7 wrong-company contacts dropped by pf_contact_fix.py);
+  batch B 98 brands running. Balance before run 1,069.
+- Assemble: python3.13 v7_assemble.py "Prepare First" pf_final_rows.json pf_contacts_all.json
+  (rows carry optional skip / email_name keys; assembler patched for both).
+- Next tabs in order: Asset Management, Fintech, Trading & Crypto, AI Agents, Cyber + IT, AI Cloud & Data, SAAS,
+  Machine Tools, Horizontal Saas, Chip Makers, AI DATA, Health & Wellness, Cloud and Data Centers, Consumer Goods,
+  Mining, Semiconductors, Software, Existing Group Overlays (x-marked only), MASTER (x-marked minus Stegra),
+  Automotive and Mobility, Software Internet & AI; then non-red ERP Finance, GRC Risk, Automation, Vertical Saas, Space.
