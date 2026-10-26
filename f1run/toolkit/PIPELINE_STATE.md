@@ -98,3 +98,4 @@
 - Chip Makers: delivered (10 built, DreamBig skipped: Arm-owned). Rows in f1run/runs/chip_makers_rows.json.
 - AI Cloud & Data: delivered (57 built, Phancy Group declined on Entity List). Rows in f1run/runs/ai_cloud_data_rows.json. Remaining red tab in flight: AI DATA (9 chunks).
 - AI DATA: delivered (80 built, 5 skipped). Rows in f1run/runs/ai_data_rows.json. Wave 5 Apollo enrichment done (wave5_contacts.json, 500 emails / 129 brands) for Health & Wellness, Cloud and Data Centers, Consumer Goods; agents running.
+- Cloud and Data Centers: delivered (7 built). Rows in f1run/runs/cloud_data_centers_rows.json. Contacts wave5_contacts.json (Armada replaced via armada.ai). Wave 6 Apollo (Mining + Semiconductors) done: wave6_contacts.json. All agents relaunched on new model after usage-credit stop.
