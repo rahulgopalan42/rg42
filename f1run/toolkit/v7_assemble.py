@@ -18,9 +18,9 @@ SCRATCH = os.path.dirname(os.path.abspath(__file__))
 norm = lambda s: re.sub(r'[^a-z0-9]', '', (s or '').lower())
 SUBJECT = 'Exploring Formula 1 Team Partnership Opportunity'
 COLS = ['First_name', 'Full_name', 'Title', 'Role', 'Email', 'Company', 'Subject', 'Partner_designation',
-        'Fit_reason', 'Target_audience', 'Market_overlap', 'Shared_values', 'Market_reference', 'F1_Audience', 'Pipeline']
+        'Fit_reason', 'Target_audience', 'Market_overlap', 'Shared_values', 'Market_reference', 'F1_Audience']
 FIELDS = ['designation', 'fit_reason', 'target_audience', 'market_overlap', 'shared_values',
-          'market_reference', 'f1_audience', 'pipeline']
+          'market_reference', 'f1_audience']
 MASTERS = ['F1 Merge Master v7 - B2B.docx', 'F1 Merge Master v7 - B2B no reference.docx',
            'F1 Merge Master v7 - B2C.docx', 'F1 Merge Master v7 - B2C no reference.docx']
 OPENER = ('Reaching out from SPORTFIVE - the authorized agency managing brands sponsorships for '
@@ -85,8 +85,6 @@ def write_email(doc, row, who='[First name]'):
             continue
         if field == 'f1_audience' and (g.startswith('B2B') or not row.get('f1_audience')):
             continue
-        if field == 'pipeline' and (g.startswith('B2C') or not row.get('pipeline')):
-            continue
         fmt(doc.add_paragraph())
         p = fmt(doc.add_paragraph(style='List Bullet'))
         p.add_run(label).bold = True
@@ -110,6 +108,19 @@ def main():
     for row in rows:
         for f in FIELDS:
             row[f] = scrub(row.get(f, ''), row['brand'], f)
+        if row.get('variant_flag'):
+            row.setdefault('flags', []).insert(0, 'B2B/B2C: ' + row['variant_flag'])
+    flagged = [r for r in rows if r.get('variant_flag')]
+    if flagged:
+        wbf = Workbook(); wsf = wbf.active; wsf.title = 'Flagged'
+        wsf.append(['Brand', 'Built as', 'Reason it could be the other', 'Designation'])
+        for c in wsf[1]:
+            c.font = Font(bold=True)
+        for r in flagged:
+            wsf.append([r['brand'], r.get('variant', ''), r['variant_flag'], r.get('designation', '')])
+        for col, w in zip('ABCD', (34, 10, 90, 40)):
+            wsf.column_dimensions[col].width = w
+        wbf.save(os.path.join(SCRATCH, f'{label} - Flagged Brands.xlsx'))
 
     # ---- merge lists ----
     groups, no_contact = {}, []
@@ -124,8 +135,7 @@ def main():
                 first_name(p.get('name')), p.get('name', ''), p.get('title', ''), p.get('role', ''),
                 p['email'], row['brand'], SUBJECT, row['designation'], row['fit_reason'],
                 row['target_audience'], row['market_overlap'], row['shared_values'],
-                row['market_reference'], row['f1_audience'] if g.startswith('B2C') else '',
-                row['pipeline'] if g.startswith('B2B') else ''])
+                row['market_reference'], row['f1_audience'] if g.startswith('B2C') else ''])
     out_files = []
     for g, lst in groups.items():
         wb = Workbook()
@@ -149,7 +159,7 @@ def main():
     # ---- emails ready docx ----
     doc = Document()
     doc.styles['Normal'].font.name = 'Calibri'
-    doc.styles['Normal'].font.size = Pt(11)
+    doc.styles['Normal'].font.size = Pt(12)
     doc.add_heading(f'{label} - Emails Ready ({len(rows)} brands)', level=1)
     doc.add_paragraph(f'Subject line: {SUBJECT}. One page per brand: notes for you first (never send '
                       f'these), then the contacts, then the email exactly as it merges.')
@@ -176,7 +186,8 @@ def main():
     # ---- zip ----
     zname = f'{label.upper()} - Complete.zip'
     with zipfile.ZipFile(os.path.join(SCRATCH, zname), 'w', zipfile.ZIP_DEFLATED) as z:
-        for fn in out_files + [er] + MASTERS:
+        extra = [f'{label} - Flagged Brands.xlsx'] if flagged else []
+        for fn in out_files + [er] + extra + MASTERS:
             z.write(os.path.join(SCRATCH, fn), fn)
     print('QC items:', len(qc_log))
     for q in qc_log:

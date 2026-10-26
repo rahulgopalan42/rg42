@@ -60,7 +60,7 @@ def build(variant, with_reference):
     doc = Document()
     style = doc.styles['Normal']
     style.font.name = 'Calibri'
-    style.font.size = Pt(11)
+    style.font.size = Pt(12)
     p = fmt(doc.add_paragraph('Hi '))
     add_field(p, 'First_name')
     p.add_run(',')

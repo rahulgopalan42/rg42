@@ -64,3 +64,11 @@
 # A 1,803 / B 5,445 / C 3,266 (x = no template, user's Sept rule) / D 534 (483 TBR undefined, Later, CHECK,
 # "check with Alex Waltham", stray s/xx/z/x], 26 uncertain). 38 tabs have no doc in the folder; Waves 1-4
 # (256 brands) match no tab, only 3 found in master. Drive upload not done (connector needs inline base64).
+# NEW RUN 26 Oct: brand list Drive 17klkBmI1cydBneRiTNyebnqnKmwpuP2j (27 tabs, 1,514 rows, 1,415 unique; RED tabs 1,220).
+# Standard = v8_brief.md (hook "identified for the following reasons:" for B2B; order TA, MO, MR, SV, (F1A);
+# close "Would you be open to a quick call?"; Calibri 12). Order: Prepare First (214 unique = 14 plain names +
+# 204-row funding table) -> red tabs -> non-red (ERP Finance, GRC Risk, Automation, Vertical Saas, Space).
+# HOLD pending user: Existing Group Overlays (156/157 marked x), MASTER (75/76 x), Horizontal Saas "Linear" (x).
+# Prepare First: chunks pf_00..pf_21 (10 each) -> pf_XX_rows.json; agents 00-10 launched 26 Oct; 11-21 next.
+# Then: merge rows -> enrich with mini_enrich.py (domains from agent output) -> v7_assemble.py "Prepare First" ->
+# zip (+ Flagged Brands.xlsx for B2B/B2C ambiguity) -> SendUserFile. Apollo balance 1,069 at start.
