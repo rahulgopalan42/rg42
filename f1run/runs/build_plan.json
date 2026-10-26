@@ -1,0 +1,7975 @@
+{
+"AI Cloud & Data": [
+{
+"brand": "SB Energy",
+"domain": "sbenergy.com",
+"country": "United States",
+"note": "grid & electrification (data center power platform)",
+"parent": ""
+},
+{
+"brand": "DriveNets",
+"domain": "drivenets.com",
+"country": "Israel",
+"note": "AI infrastructure software (AI networking)",
+"parent": ""
+},
+{
+"brand": "CleanSpark",
+"domain": "cleanspark.com",
+"country": "USA",
+"note": "GPU & AI Cloud",
+"parent": ""
+},
+{
+"brand": "Riot (Cybersecurity)",
+"domain": "",
+"country": "",
+"note": "",
+"parent": ""
+},
+{
+"brand": "Riot Platforms",
+"domain": "riotplatforms.com",
+"country": "USA",
+"note": "GPU & AI Cloud",
+"parent": ""
+},
+{
+"brand": "Neysa",
+"domain": "neysa.ai",
+"country": "India",
+"note": "AI cloud infrastructure",
+"parent": ""
+},
+{
+"brand": "Etched",
+"domain": "etched.ai",
+"country": "US",
+"note": "GPU & AI Cloud",
+"parent": ""
+},
+{
+"brand": "Gorgias",
+"domain": "gorgias.com",
+"country": "",
+"note": "Cloud, Data & AI Software",
+"parent": ""
+},
+{
+"brand": "Inferact",
+"domain": "inferact.ai",
+"country": "USA",
+"note": "AI infrastructure (inference/devtools, vLLM)",
+"parent": ""
+},
+{
+"brand": "Nexthop AI",
+"domain": "nexthop.ai",
+"country": "USA",
+"note": "AI infrastructure (networking hardware/software)",
+"parent": ""
+},
+{
+"brand": "SugarCRM",
+"domain": "sugarcrm.com",
+"country": "",
+"note": "Cloud, Data & AI Software",
+"parent": ""
+},
+{
+"brand": "Teamwork.com",
+"domain": "teamwork.com",
+"country": "",
+"note": "Cloud, Data & AI Software",
+"parent": ""
+},
+{
+"brand": "Volta",
+"domain": "voltacloud.ai",
+"country": "United States",
+"note": "AI infrastructure software (AI cloud)",
+"parent": ""
+},
+{
+"brand": "WithSecure",
+"domain": "withsecure.com",
+"country": "",
+"note": "Cloud, Data & AI Software; Cyber, IT & Hardware",
+"parent": ""
+},
+{
+"brand": "H Company",
+"domain": "hcompany.ai",
+"country": "France",
+"note": "Generative AI & Model Labs",
+"parent": ""
+},
+{
+"brand": "Vertiv Holdings",
+"domain": "vertiv.com",
+"country": "USA",
+"note": "Semiconductors & Digital Infrastructure",
+"parent": ""
+},
+{
+"brand": "Alida",
+"domain": "alida.com",
+"country": "",
+"note": "Cloud, Data & AI Software",
+"parent": ""
+},
+{
+"brand": "Avaya",
+"domain": "avaya.com",
+"country": "",
+"note": "Cloud, Data & AI Software",
+"parent": ""
+},
+{
+"brand": "BambooHR",
+"domain": "bamboohr.com",
+"country": "",
+"note": "Cloud, Data & AI Software",
+"parent": ""
+},
+{
+"brand": "Bullhorn",
+"domain": "bullhorn.com",
+"country": "",
+"note": "Cloud, Data & AI Software",
+"parent": ""
+},
+{
+"brand": "Greenhouse Software",
+"domain": "greenhouse.io",
+"country": "",
+"note": "Cloud, Data & AI Software",
+"parent": ""
+},
+{
+"brand": "Jobvite (Employ)",
+"domain": "jobvite.com",
+"country": "",
+"note": "Cloud, Data & AI Software",
+"parent": ""
+},
+{
+"brand": "KNIME",
+"domain": "knime.com",
+"country": "",
+"note": "Cloud, Data & AI Software",
+"parent": ""
+},
+{
+"brand": "Malwarebytes",
+"domain": "malwarebytes.com",
+"country": "",
+"note": "Cloud, Data & AI Software; Cyber, IT & Hardware",
+"parent": ""
+},
+{
+"brand": "Niantic",
+"domain": "nianticlabs.com",
+"country": "",
+"note": "Cloud, Data & AI Software; Telecom, Media, Electronics & Gaming",
+"parent": ""
+},
+{
+"brand": "SimScale",
+"domain": "simscale.com",
+"country": "",
+"note": "Cloud, Data & AI Software",
+"parent": ""
+},
+{
+"brand": "SmartRecruiters",
+"domain": "smartrecruiters.com",
+"country": "",
+"note": "Cloud, Data & AI Software",
+"parent": ""
+},
+{
+"brand": "Splashtop",
+"domain": "splashtop.com",
+"country": "",
+"note": "Cloud, Data & AI Software",
+"parent": ""
+},
+{
+"brand": "Stability AI",
+"domain": "stability.ai",
+"country": "",
+"note": "Cloud, Data & AI Software",
+"parent": ""
+},
+{
+"brand": "Phancy Group",
+"domain": "4paradigm.com",
+"country": "China",
+"note": "AI & Data",
+"parent": ""
+},
+{
+"brand": "Bitdeer (Bitdeer AI)",
+"domain": "bitdeer.com",
+"country": "Singapore",
+"note": "GPU & AI Cloud",
+"parent": ""
+},
+{
+"brand": "Bitfarms (Keel Infrastructure)",
+"domain": "keelinfra.com",
+"country": "USA",
+"note": "GPU & AI Cloud",
+"parent": ""
+},
+{
+"brand": "DeepSeek",
+"domain": "deepseek.com",
+"country": "China",
+"note": "Generative AI & Model Labs",
+"parent": ""
+},
+{
+"brand": "Domino Data Lab",
+"domain": "domino.ai",
+"country": "United States",
+"note": "Data & AI Platforms",
+"parent": ""
+},
+{
+"brand": "Enveda Biosciences",
+"domain": "enveda.com",
+"country": "United States",
+"note": "Generative AI & Model Labs",
+"parent": ""
+},
+{
+"brand": "Freepik",
+"domain": "freepik.com",
+"country": "Spain",
+"note": "Generative AI & Model Labs",
+"parent": ""
+},
+{
+"brand": "Generate Biomedicines",
+"domain": "generatebiomedicines.com",
+"country": "United States",
+"note": "Generative AI & Model Labs",
+"parent": ""
+},
+{
+"brand": "Genesis Molecular AI",
+"domain": "genesis.ml",
+"country": "United States",
+"note": "Generative AI & Model Labs",
+"parent": ""
+},
+{
+"brand": "Glance",
+"domain": "glance.com",
+"country": "India",
+"note": "Generative AI & Model Labs",
+"parent": ""
+},
+{
+"brand": "Horizon Robotics",
+"domain": "horizon.auto",
+"country": "China",
+"note": "AI & Data",
+"parent": ""
+},
+{
+"brand": "Krutrim",
+"domain": "olakrutrim.com",
+"country": "IN",
+"note": "Generative AI & Model Labs",
+"parent": ""
+},
+{
+"brand": "Kyutai",
+"domain": "kyutai.org",
+"country": "France",
+"note": "Generative AI & Model Labs",
+"parent": ""
+},
+{
+"brand": "Learneo",
+"domain": "learneo.com",
+"country": "United States",
+"note": "Generative AI & Model Labs",
+"parent": ""
+},
+{
+"brand": "Lila Sciences",
+"domain": "lila.ai",
+"country": "United States",
+"note": "Generative AI & Model Labs",
+"parent": ""
+},
+{
+"brand": "Meitu",
+"domain": "meitu.com",
+"country": "China",
+"note": "Generative AI & Model Labs",
+"parent": ""
+},
+{
+"brand": "Mythic",
+"domain": "mythic.ai",
+"country": "US",
+"note": "GPU & AI Cloud",
+"parent": ""
+},
+{
+"brand": "NetEase Youdao",
+"domain": "youdao.com",
+"country": "China",
+"note": "Generative AI & Model Labs",
+"parent": ""
+},
+{
+"brand": "Norm Ai",
+"domain": "norm.ai",
+"country": "USA",
+"note": "Enterprise & Vertical AI",
+"parent": ""
+},
+{
+"brand": "Picsart",
+"domain": "picsart.com",
+"country": "United States",
+"note": "Generative AI & Model Labs",
+"parent": ""
+},
+{
+"brand": "Plaud",
+"domain": "plaud.ai",
+"country": "United States",
+"note": "Generative AI & Model Labs",
+"parent": ""
+},
+{
+"brand": "Positron",
+"domain": "positron.ai",
+"country": "US",
+"note": "GPU & AI Cloud",
+"parent": ""
+},
+{
+"brand": "Reflection AI",
+"domain": "reflection.ai",
+"country": "United States",
+"note": "Generative AI & Model Labs",
+"parent": ""
+},
+{
+"brand": "Sansan",
+"domain": "corp-sansan.com",
+"country": "Japan",
+"note": "Generative AI & Model Labs",
+"parent": ""
+},
+{
+"brand": "Technology Innovation Institute (TII)",
+"domain": "tii.ae",
+"country": "AE",
+"note": "Generative AI & Model Labs",
+"parent": ""
+},
+{
+"brand": "Translated",
+"domain": "translated.com",
+"country": "Italy",
+"note": "Generative AI & Model Labs",
+"parent": ""
+},
+{
+"brand": "Trax",
+"domain": "traxretail.com",
+"country": "Singapore",
+"note": "Generative AI & Model Labs",
+"parent": ""
+},
+{
+"brand": "United Microelectronics Corp (UMC)",
+"domain": "umc.com",
+"country": "Taiwan",
+"note": "Semiconductors & Digital Infrastructure",
+"parent": ""
+},
+{
+"brand": "Wondershare",
+"domain": "wondershare.com",
+"country": "China",
+"note": "Generative AI & Model Labs",
+"parent": ""
+}
+],
+"SAAS": [
+{
+"brand": "Kaseya",
+"domain": "kaseya.com",
+"country": "United States",
+"note": "Enterprise SaaS & Cloud",
+"parent": ""
+},
+{
+"brand": "Cloud Software Group",
+"domain": "cloud.com",
+"country": "USA",
+"note": "Enterprise Software & Data",
+"parent": ""
+},
+{
+"brand": "Creatio",
+"domain": "creatio.com",
+"country": "United States",
+"note": "Enterprise SaaS & Cloud",
+"parent": ""
+},
+{
+"brand": "TeamSystem",
+"domain": "teamsystem.com",
+"country": "Italy",
+"note": "Enterprise SaaS & Cloud",
+"parent": ""
+},
+{
+"brand": "Toast",
+"domain": "toasttab.com",
+"country": "USA",
+"note": "Enterprise Software & Data",
+"parent": ""
+}
+],
+"Machine Tools": [
+{
+"brand": "Aubert & Duval (Eramet Group)",
+"domain": "aubertduval.com",
+"country": "France",
+"note": "Superalloy & titanium powders/products for additive manufacturing",
+"parent": ""
+},
+{
+"brand": "Carpenter Additive (Carpenter Technology Corp.)",
+"domain": "carpentertechnology.com",
+"country": "United States",
+"note": "Metal powders & additive manufacturing production services",
+"parent": ""
+},
+{
+"brand": "EOS GmbH",
+"domain": "eos.info",
+"country": "Germany",
+"note": "Industrial metal & polymer powder-bed fusion 3D printing systems",
+"parent": ""
+},
+{
+"brand": "Mikron Group",
+"domain": "mikron.com",
+"country": "Switzerland",
+"note": "High-precision automation and machining systems",
+"parent": ""
+},
+{
+"brand": "Protolabs Inc.",
+"domain": "protolabs.com",
+"country": "United States",
+"note": "On-demand digital manufacturing including 3D printing",
+"parent": ""
+},
+{
+"brand": "Stratasys Ltd.",
+"domain": "stratasys.com",
+"country": "United States",
+"note": "Industrial polymer 3D printing systems (FDM & PolyJet)",
+"parent": ""
+},
+{
+"brand": "Schuler AG",
+"domain": "schulergroup.com",
+"country": "Germany",
+"note": "Metal forming presses",
+"parent": ""
+},
+{
+"brand": "6K Inc.",
+"domain": "6k.co",
+"country": "United States",
+"note": "Plasma-produced sustainable metal & battery powders for AM",
+"parent": ""
+},
+{
+"brand": "Carbon Inc.",
+"domain": "carbon3d.com",
+"country": "United States",
+"note": "Digital Light Synthesis (DLS) industrial polymer 3D printing",
+"parent": ""
+},
+{
+"brand": "Formlabs Inc.",
+"domain": "formlabs.com",
+"country": "United States",
+"note": "Desktop & benchtop resin (SLA/SLS) 3D printers",
+"parent": ""
+},
+{
+"brand": "Nano Dimension Ltd.",
+"domain": "nano-di.com",
+"country": "Israel",
+"note": "Electronics & precision metal/polymer additive manufacturing (incl. Markforged)",
+"parent": ""
+},
+{
+"brand": "FIVES GROUP",
+"domain": "",
+"country": "",
+"note": "",
+"parent": ""
+},
+{
+"brand": "Fictiv Inc.",
+"domain": "fictiv.com",
+"country": "United States",
+"note": "Digital manufacturing platform including on-demand 3D printing",
+"parent": ""
+},
+{
+"brand": "Gleason Corporation",
+"domain": "gleason.com",
+"country": "United States",
+"note": "Gear cutting, grinding and inspection machines",
+"parent": ""
+},
+{
+"brand": "Haimer GmbH",
+"domain": "haimer.com",
+"country": "Germany",
+"note": "Toolholding and tool balancing systems",
+"parent": ""
+},
+{
+"brand": "Ingersoll Machine Tools",
+"domain": "ingersoll.com",
+"country": "United States",
+"note": "Large-format additive manufacturing & 5-axis machine tools",
+"parent": ""
+},
+{
+"brand": "Prusa Research",
+"domain": "prusa3d.com",
+"country": "Czech Republic",
+"note": "Desktop FDM & resin 3D printers",
+"parent": ""
+},
+{
+"brand": "Salvagnini Group",
+"domain": "salvagnini.com",
+"country": "Italy",
+"note": "Automated sheet-metal panel bending systems",
+"parent": ""
+},
+{
+"brand": "3D Systems Corporation",
+"domain": "",
+"country": "",
+"note": "",
+"parent": ""
+},
+{
+"brand": "Fabric8Labs",
+"domain": "fabric8labs.com",
+"country": "United States",
+"note": "Electrochemical additive manufacturing (ECAM) for micro metal parts",
+"parent": ""
+},
+{
+"brand": "Freemelt AB",
+"domain": "freemelt.com",
+"country": "Sweden",
+"note": "Open-architecture electron-beam metal 3D printers",
+"parent": ""
+},
+{
+"brand": "Meltio",
+"domain": "meltio3d.com",
+"country": "Spain",
+"note": "Wire-laser metal 3D printing systems",
+"parent": ""
+},
+{
+"brand": "Peel 3D",
+"domain": "peel-3d.com",
+"country": "Canada",
+"note": "Handheld consumer/prosumer 3D scanners",
+"parent": ""
+},
+{
+"brand": "RPM Innovations (RPMI)",
+"domain": "rpm-innovations.com",
+"country": "United States",
+"note": "Directed energy deposition metal AM production & repair services",
+"parent": ""
+}
+],
+"Horizontal Saas": [
+{
+"brand": "Instinct",
+"domain": "instinct.ai",
+"country": "United States",
+"note": "AI agents & applications (personal AI assistant)",
+"parent": ""
+},
+{
+"brand": "Meshy AI",
+"domain": "meshy.ai",
+"country": "United States",
+"note": "AI agents & applications (3D content generation)",
+"parent": ""
+},
+{
+"brand": "Wispr Flow",
+"domain": "wisprflow.ai",
+"country": "United States",
+"note": "AI agents & applications (voice interface)",
+"parent": ""
+},
+{
+"brand": "Rillet",
+"domain": "rillet.com",
+"country": "United States",
+"note": "AI agents & applications (agentic finance/ERP)",
+"parent": ""
+},
+{
+"brand": "Nord Security",
+"domain": "nordsecurity.com",
+"country": "Lithuania",
+"note": "Password management (NordPass) & consumer/business security",
+"parent": ""
+},
+{
+"brand": "Dixa",
+"domain": "dixa.com",
+"country": "Denmark",
+"note": "Conversational Customer Service Platform",
+"parent": ""
+},
+{
+"brand": "Moss",
+"domain": "getmoss.com",
+"country": "Germany",
+"note": "Corporate Cards & Spend Management",
+"parent": ""
+},
+{
+"brand": "Staffbase",
+"domain": "staffbase.com",
+"country": "Germany",
+"note": "Employee communications/intranet",
+"parent": ""
+},
+{
+"brand": "Litmos",
+"domain": "litmos.com",
+"country": "US",
+"note": "Learning management system",
+"parent": ""
+},
+{
+"brand": "ProductBoard",
+"domain": "productboard.com",
+"country": "United States",
+"note": "Product Management Platform",
+"parent": ""
+},
+{
+"brand": "airSlate",
+"domain": "airslate.com",
+"country": "United States",
+"note": "Document Workflow & E-Signature (incl. signNow)",
+"parent": ""
+},
+{
+"brand": "Articulate",
+"domain": "articulate.com",
+"country": "US",
+"note": "E-learning authoring tools",
+"parent": ""
+},
+{
+"brand": "DocuWare",
+"domain": "docuware.com",
+"country": "Germany",
+"note": "Document Management & Workflow Automation",
+"parent": ""
+},
+{
+"brand": "Intellistack",
+"domain": "formstack.com",
+"country": "United States",
+"note": "Workflow & Document Automation",
+"parent": ""
+},
+{
+"brand": "Gladly",
+"domain": "gladly.com",
+"country": "United States",
+"note": "Customer Service Platform (Radically Personal CX)",
+"parent": ""
+},
+{
+"brand": "Haiilo",
+"domain": "haiilo.com",
+"country": "Germany",
+"note": "Employee communications/intranet",
+"parent": ""
+},
+{
+"brand": "LumApps",
+"domain": "lumapps.com",
+"country": "France",
+"note": "Intranet/digital workplace",
+"parent": ""
+},
+{
+"brand": "M-Files",
+"domain": "m-files.com",
+"country": "Finland",
+"note": "Document & Knowledge Management",
+"parent": ""
+},
+{
+"brand": "Pipefy",
+"domain": "pipefy.com",
+"country": "Brazil",
+"note": "Workflow/process management",
+"parent": ""
+},
+{
+"brand": "Simpplr",
+"domain": "simpplr.com",
+"country": "US",
+"note": "Intranet/employee experience platform",
+"parent": ""
+}
+],
+"Chip Makers": [
+{
+"brand": "DayOne Data Centers",
+"domain": "dayonedatacenters.com",
+"country": "Singapore",
+"note": "Data center operator (Southeast Asia)",
+"parent": ""
+},
+{
+"brand": "Sateliot",
+"domain": "sateliot.space",
+"country": "Spain",
+"note": "Satellite connectivity (direct-to-device 5G)",
+"parent": ""
+},
+{
+"brand": "Ricursive Intelligence",
+"domain": "ricursive.com",
+"country": "USA",
+"note": "AI (chip design)",
+"parent": ""
+},
+{
+"brand": "Velaura AI",
+"domain": "velaura.ai",
+"country": "United States",
+"note": "AI chips / infrastructure (ultra-low-power silicon)",
+"parent": ""
+},
+{
+"brand": "Goodix Technology",
+"domain": "goodix.com",
+"country": "China",
+"note": "Touch / fingerprint / audio ICs",
+"parent": ""
+},
+{
+"brand": "GUC (Global Unichip Corp)",
+"domain": "guc.com.tw",
+"country": "Taiwan",
+"note": "Custom ASIC design services (TSMC-affiliated)",
+"parent": ""
+},
+{
+"brand": "Sequans Communications",
+"domain": "sequans.com",
+"country": "France",
+"note": "IoT cellular chips",
+"parent": ""
+},
+{
+"brand": "Polar Semiconductor",
+"domain": "polarsemi.com",
+"country": "USA",
+"note": "Foundry (power/SiC, Minnesota)",
+"parent": ""
+},
+{
+"brand": "Aion Silicon",
+"domain": "sondrel.com",
+"country": "United Kingdom",
+"note": "ASIC design services",
+"parent": ""
+},
+{
+"brand": "Diraq",
+"domain": "diraq.com",
+"country": "Australia",
+"note": "Silicon spin-qubit chips",
+"parent": ""
+},
+{
+"brand": "DreamBig Semiconductor",
+"domain": "dreambigsemi.com",
+"country": "United States",
+"note": "Chiplet-based DPU / AI compute fabric",
+"parent": ""
+}
+],
+"AI DATA": [
+{
+"brand": "Grid Dynamics",
+"domain": "griddynamics.com",
+"country": "USA",
+"note": "Data engineering for enterprise AI",
+"parent": ""
+},
+{
+"brand": "Scale AI",
+"domain": "scale.com",
+"country": "United States",
+"note": "AI training data labeling/RLHF at scale",
+"parent": ""
+},
+{
+"brand": "Acolad Group",
+"domain": "acolad.com",
+"country": "France",
+"note": "Localization & AI training data",
+"parent": ""
+},
+{
+"brand": "GLG (Gerson Lehrman Group)",
+"domain": "glginsights.com",
+"country": "USA",
+"note": "Expert network / AI training data pivot",
+"parent": ""
+},
+{
+"brand": "Monte Carlo Data",
+"domain": "montecarlodata.com",
+"country": "United States",
+"note": "Data observability/quality for AI pipelines",
+"parent": ""
+},
+{
+"brand": "Sonata Software",
+"domain": "sonata-software.com",
+"country": "India",
+"note": "IT services with data & AI practice (Halosys platform)",
+"parent": ""
+},
+{
+"brand": "Third Bridge",
+"domain": "thirdbridge.com",
+"country": "UK",
+"note": "Expert network / AI training data pivot",
+"parent": ""
+},
+{
+"brand": "Capita",
+"domain": "capita.com",
+"country": "UK",
+"note": "AI data services",
+"parent": ""
+},
+{
+"brand": "Domo",
+"domain": "domo.com",
+"country": "USA",
+"note": "BI & analytics platform",
+"parent": ""
+},
+{
+"brand": "Altimetrik",
+"domain": "slksoftware.com",
+"country": "India",
+"note": "AI data engineering services",
+"parent": ""
+},
+{
+"brand": "Incorta",
+"domain": "incorta.com",
+"country": "USA",
+"note": "Unified data analytics platform",
+"parent": ""
+},
+{
+"brand": "AlphaSights",
+"domain": "alphasights.com",
+"country": "UK",
+"note": "Expert network / AI training data pivot",
+"parent": ""
+},
+{
+"brand": "Argus Media",
+"domain": "argusmedia.com",
+"country": "UK",
+"note": "Commodity & energy pricing data",
+"parent": ""
+},
+{
+"brand": "Ataccama",
+"domain": "ataccama.com",
+"country": "Canada",
+"note": "Data quality & governance for AI",
+"parent": ""
+},
+{
+"brand": "Cerence",
+"domain": "cerence.com",
+"country": "United States",
+"note": "Automotive speech & voice AI data",
+"parent": ""
+},
+{
+"brand": "Dialectica",
+"domain": "dialecticanet.com",
+"country": "Switzerland",
+"note": "Expert network / AI training data pivot",
+"parent": ""
+},
+{
+"brand": "Envestnet",
+"domain": "envestnet.com",
+"country": "USA",
+"note": "Financial data aggregation & analytics platform",
+"parent": ""
+},
+{
+"brand": "Fivetran",
+"domain": "fivetran.com",
+"country": "United States",
+"note": "Data movement/ingestion for AI pipelines",
+"parent": ""
+},
+{
+"brand": "Fractal Analytics",
+"domain": "fractal.ai",
+"country": "USA",
+"note": "AI/analytics consultancy with data labeling operations",
+"parent": ""
+},
+{
+"brand": "Guidepoint",
+"domain": "guidepoint.com",
+"country": "USA",
+"note": "Expert network / AI training data pivot",
+"parent": ""
+},
+{
+"brand": "Innodata",
+"domain": "innodata.com",
+"country": "United States",
+"note": "AI data engineering/annotation for Big Tech LLMs",
+"parent": ""
+},
+{
+"brand": "Labelbox",
+"domain": "labelbox.com",
+"country": "USA",
+"note": "Data labeling platform for AI/computer vision",
+"parent": ""
+},
+{
+"brand": "Tiger Analytics",
+"domain": "tigeranalytics.com",
+"country": "USA",
+"note": "Analytics & AI consulting",
+"parent": ""
+},
+{
+"brand": "Welocalize",
+"domain": "welocalize.com",
+"country": "USA",
+"note": "Localization & AI training data services",
+"parent": ""
+},
+{
+"brand": "West Monroe",
+"domain": "westmonroe.com",
+"country": "USA",
+"note": "Digital & data consulting",
+"parent": ""
+},
+{
+"brand": "Wood Mackenzie",
+"domain": "woodmac.com",
+"country": "UK",
+"note": "Energy & natural resources data & analytics",
+"parent": ""
+},
+{
+"brand": "Centific",
+"domain": "centific.com",
+"country": "USA",
+"note": "Large-scale data annotation & LLM training data",
+"parent": ""
+},
+{
+"brand": "CloudFactory",
+"domain": "cloudfactory.com",
+"country": "UK",
+"note": "Managed data-labeling workforce",
+"parent": ""
+},
+{
+"brand": "Collabera",
+"domain": "collabera.com",
+"country": "USA",
+"note": "IT staffing & AI data workforce augmentation",
+"parent": ""
+},
+{
+"brand": "iOpex Technologies",
+"domain": "iopex.com",
+"country": "India",
+"note": "AI data annotation & BPO services",
+"parent": ""
+},
+{
+"brand": "RWS Group",
+"domain": "rws.com",
+"country": "UK",
+"note": "Language data & LLM training data services",
+"parent": ""
+},
+{
+"brand": "Sama",
+"domain": "sama.com",
+"country": "USA",
+"note": "Ethical AI data annotation & RLHF",
+"parent": ""
+},
+{
+"brand": "Transperfect",
+"domain": "transperfect.com",
+"country": "USA",
+"note": "Localization & AI training data",
+"parent": ""
+},
+{
+"brand": "Atlan",
+"domain": "atlan.com",
+"country": "India",
+"note": "Modern data catalog & workspace",
+"parent": ""
+},
+{
+"brand": "Hive AI",
+"domain": "thehive.ai",
+"country": "USA",
+"note": "AI content understanding & training data",
+"parent": ""
+},
+{
+"brand": "[24]7.ai",
+"domain": "247.ai",
+"country": "USA",
+"note": "Conversational AI & training data",
+"parent": ""
+},
+{
+"brand": "Astronomer",
+"domain": "astronomer.io",
+"country": "United States",
+"note": "Data orchestration (managed Apache Airflow) for AI",
+"parent": ""
+},
+{
+"brand": "Coforge",
+"domain": "coforge.com",
+"country": "India",
+"note": "AI/data engineering services",
+"parent": ""
+},
+{
+"brand": "Comdata Group",
+"domain": "comdatagroup.com",
+"country": "Italy",
+"note": "AI data services BPO",
+"parent": ""
+},
+{
+"brand": "Dataiku",
+"domain": "dataiku.com",
+"country": "United States",
+"note": "Enterprise AI/data science platform",
+"parent": ""
+},
+{
+"brand": "DataStax",
+"domain": "datastax.com",
+"country": "United States",
+"note": "Vector/NoSQL data platform for AI apps",
+"parent": ""
+},
+{
+"brand": "FactSet",
+"domain": "factset.com",
+"country": "USA",
+"note": "Financial data & analytics platform",
+"parent": ""
+},
+{
+"brand": "Foundever",
+"domain": "foundever.com",
+"country": "Luxembourg",
+"note": "AI training-data & content-moderation BPO",
+"parent": ""
+},
+{
+"brand": "Genpact",
+"domain": "genpact.com",
+"country": "USA",
+"note": "AI data & analytics services",
+"parent": ""
+},
+{
+"brand": "Hyperscience",
+"domain": "hyperscience.com",
+"country": "United States",
+"note": "Document AI / unstructured data processing",
+"parent": ""
+},
+{
+"brand": "ibex",
+"domain": "ibex.co",
+"country": "USA",
+"note": "AI data services BPO (ibex Digital)",
+"parent": ""
+},
+{
+"brand": "IntouchCX",
+"domain": "intouchcx.com",
+"country": "Canada",
+"note": "AI data solutions BPO",
+"parent": ""
+},
+{
+"brand": "iQor",
+"domain": "iqor.com",
+"country": "USA",
+"note": "BPO & CX with AI-enabled data operations",
+"parent": ""
+},
+{
+"brand": "Konecta",
+"domain": "konecta.com",
+"country": "Spain",
+"note": "AI data annotation BPO",
+"parent": ""
+},
+{
+"brand": "Percepta",
+"domain": "percepta.com",
+"country": "USA",
+"note": "Automotive CX & AI data services",
+"parent": ""
+},
+{
+"brand": "Persistent Systems",
+"domain": "persistent.com",
+"country": "India",
+"note": "AI data engineering services",
+"parent": ""
+},
+{
+"brand": "Sopra Steria",
+"domain": "soprasteria.com",
+"country": "France",
+"note": "AI/data services",
+"parent": ""
+},
+{
+"brand": "Startek",
+"domain": "startek.com",
+"country": "USA",
+"note": "AI data services BPO",
+"parent": ""
+},
+{
+"brand": "Straive",
+"domain": "straive.com",
+"country": "Singapore",
+"note": "Content & AI training-data services",
+"parent": ""
+},
+{
+"brand": "Surge AI",
+"domain": "surgehq.ai",
+"country": "USA",
+"note": "Data labeling & RLHF",
+"parent": ""
+},
+{
+"brand": "Sutherland Global",
+"domain": "sutherlandglobal.com",
+"country": "USA",
+"note": "AI training data & content moderation BPO",
+"parent": ""
+},
+{
+"brand": "TaskUs",
+"domain": "taskus.com",
+"country": "USA",
+"note": "Trust & safety and AI data operations",
+"parent": ""
+},
+{
+"brand": "TELUS Digital",
+"domain": "telusdigital.com",
+"country": "Canada",
+"note": "AI data solutions, annotation & content moderation BPO",
+"parent": ""
+},
+{
+"brand": "TTEC Holdings",
+"domain": "ttec.com",
+"country": "USA",
+"note": "AI-enabled CX data services BPO",
+"parent": ""
+},
+{
+"brand": "Turing",
+"domain": "turing.com",
+"country": "USA",
+"note": "AI-powered talent & RLHF data",
+"parent": ""
+},
+{
+"brand": "Uniphore",
+"domain": "uniphore.com",
+"country": "USA",
+"note": "Conversational AI & training data infrastructure",
+"parent": ""
+},
+{
+"brand": "VXI Global Solutions",
+"domain": "vxi.com",
+"country": "USA",
+"note": "AI training data BPO",
+"parent": ""
+},
+{
+"brand": "ZS Associates",
+"domain": "zs.com",
+"country": "USA",
+"note": "Data-driven consulting (life sciences & analytics)",
+"parent": ""
+},
+{
+"brand": "Tredence",
+"domain": "tredence.com",
+"country": "USA",
+"note": "Data & AI consulting",
+"parent": ""
+},
+{
+"brand": "Coleman Research Group",
+"domain": "coleman-rg.com",
+"country": "USA",
+"note": "Expert network / knowledge data",
+"parent": ""
+},
+{
+"brand": "ThoughtWorks",
+"domain": "thoughtworks.com",
+"country": "United States",
+"note": "Software/data engineering consulting",
+"parent": ""
+},
+{
+"brand": "Bristlecone",
+"domain": "bristleconeinc.com",
+"country": "USA",
+"note": "Supply-chain analytics & AI consulting (Mahindra Group)",
+"parent": ""
+},
+{
+"brand": "Cogito Tech",
+"domain": "cogitotech.com",
+"country": "USA",
+"note": "AI data annotation & training-data services",
+"parent": ""
+},
+{
+"brand": "Material",
+"domain": "material.com",
+"country": "USA",
+"note": "Data & digital engineering / research consultancy",
+"parent": ""
+},
+{
+"brand": "Mu Sigma",
+"domain": "mu-sigma.com",
+"country": "USA",
+"note": "Decision sciences & analytics consulting",
+"parent": ""
+},
+{
+"brand": "SoundHound AI",
+"domain": "soundhound.com",
+"country": "United States",
+"note": "Voice AI & conversational data platform",
+"parent": ""
+},
+{
+"brand": "Verbit.ai",
+"domain": "verbit.ai",
+"country": "USA",
+"note": "AI transcription & speech training data",
+"parent": ""
+},
+{
+"brand": "Xoriant",
+"domain": "xoriant.com",
+"country": "USA",
+"note": "Digital engineering & data consulting",
+"parent": ""
+},
+{
+"brand": "Carto",
+"domain": "carto.com",
+"country": "USA",
+"note": "Location intelligence platform",
+"parent": ""
+},
+{
+"brand": "Objectways",
+"domain": "objectways.com",
+"country": "USA",
+"note": "AI training data & annotation services",
+"parent": ""
+},
+{
+"brand": "Prodapt",
+"domain": "prodapt.com",
+"country": "USA",
+"note": "Telecom-focused data engineering services",
+"parent": ""
+},
+{
+"brand": "Rystad Energy",
+"domain": "rystadenergy.com",
+"country": "Norway",
+"note": "Energy data & analytics",
+"parent": ""
+},
+{
+"brand": "Toloka AI",
+"domain": "toloka.ai",
+"country": "Netherlands",
+"note": "Data labeling & RLHF crowd marketplace",
+"parent": ""
+},
+{
+"brand": "V7 Labs",
+"domain": "v7labs.com",
+"country": "UK",
+"note": "Computer-vision data annotation platform",
+"parent": ""
+},
+{
+"brand": "Xebia",
+"domain": "xebia.com",
+"country": "Netherlands",
+"note": "Digital, data & AI consulting",
+"parent": ""
+},
+{
+"brand": "Hex",
+"domain": "hex.tech",
+"country": "USA",
+"note": "Collaborative data notebook & BI platform",
+"parent": ""
+},
+{
+"brand": "Omni",
+"domain": "omni.co",
+"country": "USA",
+"note": "BI & analytics platform",
+"parent": ""
+},
+{
+"brand": "Slalom",
+"domain": "slalom.com",
+"country": "United States",
+"note": "Data/AI-focused business & technology consulting",
+"parent": ""
+},
+{
+"brand": "AssemblyAI",
+"domain": "assemblyai.com",
+"country": "USA",
+"note": "Speech-to-text & audio intelligence data",
+"parent": ""
+},
+{
+"brand": "Skyflow",
+"domain": "skyflow.com",
+"country": "USA",
+"note": "Data privacy vault / privacy engineering",
+"parent": ""
+}
+],
+"Health & Wellness": [
+{
+"brand": "Andrew Peller Limited",
+"domain": "andrewpeller.com",
+"country": "Canada",
+"note": "food & beverage (wine)",
+"parent": ""
+},
+{
+"brand": "Innovist",
+"domain": "innovist.co",
+"country": "India",
+"note": "beauty & luxury / D2C personal care",
+"parent": ""
+},
+{
+"brand": "Made Group",
+"domain": "madegroup.com.au",
+"country": "Australia",
+"note": "food & beverage (high-protein functional nutrition)",
+"parent": ""
+},
+{
+"brand": "Obagi Medical",
+"domain": "obagi.com",
+"country": "USA",
+"note": "beauty & luxury (medical-grade skincare)",
+"parent": ""
+},
+{
+"brand": "Reformation",
+"domain": "thereformation.com",
+"country": "USA",
+"note": "beauty & luxury / D2C apparel (sustainable fashion)",
+"parent": ""
+},
+{
+"brand": "Saputo, Inc",
+"domain": "",
+"country": "",
+"note": "",
+"parent": ""
+},
+{
+"brand": "UNTUCKit (Randa Apparel & Accessories)",
+"domain": "untuckit.com",
+"country": "USA",
+"note": "D2C apparel / retail (menswear)",
+"parent": ""
+},
+{
+"brand": "Verily",
+"domain": "verily.com",
+"country": "United States",
+"note": "Health",
+"parent": ""
+},
+{
+"brand": "Wonder",
+"domain": "wonder.com",
+"country": "USA",
+"note": "food & beverage (multi-restaurant dining / food hall platform)",
+"parent": ""
+},
+{
+"brand": "Au Vodka",
+"domain": "auvodka.com",
+"country": "United Kingdom",
+"note": "food & beverage (flavored spirits)",
+"parent": ""
+},
+{
+"brand": "Prestige Consumer Healthcare",
+"domain": "",
+"country": "USA",
+"note": "consumer health & wellness (OTC nasal/respiratory)",
+"parent": ""
+},
+{
+"brand": "Copra",
+"domain": "drinkcopra.com",
+"country": "Thailand",
+"note": "food & beverage (super-premium coconut water)",
+"parent": ""
+},
+{
+"brand": "eMed",
+"domain": "emed.com",
+"country": "United States",
+"note": "Health",
+"parent": ""
+},
+{
+"brand": "Golden Pet Brands (Dr. Marty, Badlands Ranch, Ultimate Pet Nutrition)",
+"domain": "drmarty.com",
+"country": "USA",
+"note": "retail / pet wellness (fresh & freeze-dried pet food)",
+"parent": ""
+},
+{
+"brand": "Midi Health",
+"domain": "joinmidi.com",
+"country": "United States",
+"note": "Health",
+"parent": ""
+},
+{
+"brand": "Playlist",
+"domain": "playlist.com",
+"country": "USA",
+"note": "Fitness / sports & wellness platform",
+"parent": ""
+},
+{
+"brand": "Ro",
+"domain": "ro.co",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Flourish",
+"domain": "flourish.ai",
+"country": "United States",
+"note": "AI agents & applications (AI mental health support)",
+"parent": ""
+},
+{
+"brand": "Hinge Health",
+"domain": "hingehealth.com",
+"country": "United States",
+"note": "Health & Wearables",
+"parent": ""
+},
+{
+"brand": "Casper Sleep",
+"domain": "casper.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Purple Innovation",
+"domain": "purple.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Sleep Number Corporation",
+"domain": "sleepnumber.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Warby Parker",
+"domain": "warbyparker.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Croma-Pharma",
+"domain": "cromapharma.com",
+"country": "Austria",
+"note": "Consumer Health & OTC Pharma",
+"parent": ""
+},
+{
+"brand": "Daewoong Pharmaceutical",
+"domain": "daewoong.co.kr",
+"country": "South Korea",
+"note": "Consumer Health & OTC Pharma",
+"parent": ""
+},
+{
+"brand": "Noom",
+"domain": "noom.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Smile Brands",
+"domain": "smilebrands.com",
+"country": "USA",
+"note": "Consumer Health & OTC Pharma",
+"parent": ""
+},
+{
+"brand": "Snap Fitness (Lift Brands)",
+"domain": "snapfitness.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "10x Genomics",
+"domain": "10xgenomics.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Aboca",
+"domain": "aboca.com",
+"country": "Italy",
+"note": "Consumer Health & OTC Pharma",
+"parent": ""
+},
+{
+"brand": "Adamed Group",
+"domain": "adamed.com",
+"country": "Poland",
+"note": "Consumer Health & OTC Pharma",
+"parent": ""
+},
+{
+"brand": "Adaptive Biotechnologies",
+"domain": "adaptivebiotech.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Adcock Ingram",
+"domain": "adcock.com",
+"country": "South Africa",
+"note": "Consumer Health & OTC Pharma",
+"parent": ""
+},
+{
+"brand": "Affordable Care (Affordable Dentures & Implants)",
+"domain": "affordablecare.com",
+"country": "USA",
+"note": "Consumer Health & OTC Pharma",
+"parent": ""
+},
+{
+"brand": "Alain Afflelou",
+"domain": "afflelou.com",
+"country": "France",
+"note": "Consumer Health & OTC Pharma",
+"parent": ""
+},
+{
+"brand": "Almirall",
+"domain": "almirall.com",
+"country": "Spain",
+"note": "Consumer Health & OTC Pharma",
+"parent": ""
+},
+{
+"brand": "Alto Pharmacy",
+"domain": "alto.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Altos Labs",
+"domain": "altoslabs.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Arkopharma",
+"domain": "arkopharma.com",
+"country": "France",
+"note": "Consumer Health & OTC Pharma",
+"parent": ""
+},
+{
+"brand": "ARKRAY",
+"domain": "arkray.co.jp",
+"country": "Japan",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "BeautyHealth (Hydrafacial)",
+"domain": "beautyhealth.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Beta Bionics",
+"domain": "betabionics.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "BillionToOne",
+"domain": "billiontoone.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Biocodex",
+"domain": "biocodex.com",
+"country": "France",
+"note": "Consumer Health & OTC Pharma",
+"parent": ""
+},
+{
+"brand": "BTL Industries (Emsculpt/Emface)",
+"domain": "btlnet.com",
+"country": "Czech Republic",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Candela Medical",
+"domain": "candelamedical.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Cantabria Labs",
+"domain": "cantabrialabs.com",
+"country": "Spain",
+"note": "Consumer Health & OTC Pharma",
+"parent": ""
+},
+{
+"brand": "Canyon Ranch",
+"domain": "canyonranch.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Carbon Health",
+"domain": "carbonhealth.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Castle Biosciences",
+"domain": "castlebiosciences.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Caudalie",
+"domain": "caudalie.com",
+"country": "France",
+"note": "Consumer Health & OTC Pharma",
+"parent": ""
+},
+{
+"brand": "Charlie Health",
+"domain": "charliehealth.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Cimed",
+"domain": "cimed.com.br",
+"country": "Brazil",
+"note": "Consumer Health & OTC Pharma",
+"parent": ""
+},
+{
+"brand": "Classys Inc",
+"domain": "eclassys.com",
+"country": "South Korea",
+"note": "Consumer Health & OTC Pharma",
+"parent": ""
+},
+{
+"brand": "ClearChoice Dental Implant Centers",
+"domain": "clearchoice.com",
+"country": "USA",
+"note": "Consumer Health & OTC Pharma",
+"parent": ""
+},
+{
+"brand": "Coltene Holding",
+"domain": "coltene.com",
+"country": "Switzerland",
+"note": "Consumer Health & OTC Pharma",
+"parent": ""
+},
+{
+"brand": "ComPsych",
+"domain": "compsych.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Revance",
+"domain": "",
+"country": "",
+"note": "",
+"parent": ""
+},
+{
+"brand": "Cynosure Lutronic",
+"domain": "cynosure.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Dentium",
+"domain": "dentium.com",
+"country": "South Korea",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Dong-A Pharmaceutical",
+"domain": "donga.co.kr",
+"country": "South Korea",
+"note": "Consumer Health & OTC Pharma",
+"parent": ""
+},
+{
+"brand": "Emma \u2013 The Sleep Company",
+"domain": "emma-sleep.com",
+"country": "Germany",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Evolus",
+"domain": "evolus.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Flo Health",
+"domain": "flo.health",
+"country": "United Kingdom",
+"note": "Health & Wearables",
+"parent": ""
+},
+{
+"brand": "FOREO",
+"domain": "foreo.com",
+"country": "Sweden",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "GeneDx",
+"domain": "genedx.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Genomma Lab Internacional",
+"domain": "genommalab.com",
+"country": "Mexico",
+"note": "Consumer Health & OTC Pharma",
+"parent": ""
+},
+{
+"brand": "GoodRx",
+"domain": "goodrx.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Grail",
+"domain": "grail.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Guardant Health",
+"domain": "guardanthealth.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Hims & Hers Health",
+"domain": "hims.com",
+"country": "United States",
+"note": "Health & Wearables",
+"parent": ""
+},
+{
+"brand": "HoMedics",
+"domain": "homedics.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "InMode",
+"domain": "inmodemd.com",
+"country": "Israel",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Inspire Medical Systems",
+"domain": "inspiresleep.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Integralmedica",
+"domain": "integralmedica.com.br",
+"country": "Brazil",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "InterDent (Gentle Dental)",
+"domain": "interdent.com",
+"country": "USA",
+"note": "Consumer Health & OTC Pharma",
+"parent": ""
+},
+{
+"brand": "Iovate Health Sciences (MuscleTech, Hydroxycut, Six Star)",
+"domain": "iovate.com",
+"country": "Canada",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "iRhythm Technologies",
+"domain": "irhythmtech.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Ivoclar Vivadent",
+"domain": "ivoclar.com",
+"country": "Liechtenstein",
+"note": "Consumer Health & OTC Pharma",
+"parent": ""
+},
+{
+"brand": "Jamieson Wellness",
+"domain": "jamiesonwellness.com",
+"country": "Canada",
+"note": "Consumer Health & OTC Pharma",
+"parent": ""
+},
+{
+"brand": "Laboratoires Th\u00e9a",
+"domain": "laboratoires-thea.com",
+"country": "France",
+"note": "Consumer Health & OTC Pharma",
+"parent": ""
+},
+{
+"brand": "Laboratorios Bag\u00f3",
+"domain": "bago.com.ar",
+"country": "Argentina",
+"note": "Consumer Health & OTC Pharma",
+"parent": ""
+},
+{
+"brand": "LaserAway",
+"domain": "laseraway.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Lumenis",
+"domain": "lumenis.com",
+"country": "Israel",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "MED-EL",
+"domain": "medel.com",
+"country": "Austria",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Natera",
+"domain": "natera.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Nature's Sunshine Products",
+"domain": "naturessunshine.com",
+"country": "USA",
+"note": "Consumer Health & OTC Pharma",
+"parent": ""
+},
+{
+"brand": "NOW Foods (Now Health Group)",
+"domain": "nowfoods.com",
+"country": "United States",
+"note": "Consumer Health & OTC Pharma",
+"parent": ""
+},
+{
+"brand": "Omada Health",
+"domain": "omadahealth.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "OSIM International",
+"domain": "osim.com",
+"country": "Singapore",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Osstem Implant",
+"domain": "osstem.com",
+"country": "South Korea",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Oxford Nanopore Technologies",
+"domain": "nanoporetech.com",
+"country": "United Kingdom",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Personify Health",
+"domain": "personifyhealth.com",
+"country": "United States",
+"note": "Longevity, Diagnostics & Recovery",
+"parent": ""
+},
+{
+"brand": "Planmeca",
+"domain": "planmeca.com",
+"country": "Finland",
+"note": "Consumer Health & OTC Pharma",
+"parent": ""
+}
+],
+"Cloud and Data Centers": [
+{
+"brand": "fal.ai",
+"domain": "",
+"country": "United States",
+"note": "AI inference",
+"parent": "Fal"
+},
+{
+"brand": "Armada",
+"domain": "",
+"country": "United States",
+"note": "Modular data centers",
+"parent": ""
+},
+{
+"brand": "Frore Systems",
+"domain": "",
+"country": "United States",
+"note": "AI infrastructure",
+"parent": ""
+},
+{
+"brand": "webAI",
+"domain": "",
+"country": "United States",
+"note": "AI infrastructure",
+"parent": "WebAI"
+},
+{
+"brand": "Runpod",
+"domain": "",
+"country": "United States",
+"note": "AI cloud",
+"parent": ""
+},
+{
+"brand": "Spectro Cloud",
+"domain": "",
+"country": "United States",
+"note": "AI infrastructure",
+"parent": ""
+},
+{
+"brand": "Render",
+"domain": "",
+"country": "United States",
+"note": "Cloud services",
+"parent": ""
+}
+],
+"Consumer Goods": [
+{
+"brand": "Kimberly-Clark",
+"domain": "",
+"country": "United States",
+"note": "Household & personal products",
+"parent": ""
+},
+{
+"brand": "SC Johnson",
+"domain": "",
+"country": "United States",
+"note": "Household & Personal Products",
+"parent": ""
+},
+{
+"brand": "Toray Industries",
+"domain": "",
+"country": "Japan",
+"note": "Household & Personal Products",
+"parent": ""
+},
+{
+"brand": "Church & Dwight",
+"domain": "",
+"country": "United States",
+"note": "Household & Personal Products",
+"parent": ""
+},
+{
+"brand": "Marubeni Corporation",
+"domain": "",
+"country": "Japan",
+"note": "Food, Drink & Tobacco",
+"parent": "Marubeni"
+},
+{
+"brand": "Givaudan",
+"domain": "",
+"country": "Switzerland",
+"note": "Household & Personal Products",
+"parent": ""
+},
+{
+"brand": "Bunge",
+"domain": "",
+"country": "United States",
+"note": "Food, Drink & Tobacco",
+"parent": "Bunge Global"
+},
+{
+"brand": "Altria",
+"domain": "",
+"country": "United States",
+"note": "Food, Drink & Tobacco",
+"parent": "Altria Group"
+},
+{
+"brand": "Japan Tobacco / JTI",
+"domain": "",
+"country": "Japan",
+"note": "Food, Drink & Tobacco",
+"parent": "Japan Tobacco"
+},
+{
+"brand": "McCormick",
+"domain": "",
+"country": "United States",
+"note": "Food, Drink & Tobacco",
+"parent": ""
+},
+{
+"brand": "Flex-N-Gate",
+"domain": "",
+"country": "United States",
+"note": "Consumer Durables",
+"parent": ""
+},
+{
+"brand": "Clark Associates",
+"domain": "",
+"country": "United States",
+"note": "Consumer Durables",
+"parent": ""
+},
+{
+"brand": "Mowi ASA",
+"domain": "",
+"country": "Norway",
+"note": "Food, Drink & Tobacco",
+"parent": ""
+},
+{
+"brand": "Natura",
+"domain": "",
+"country": "Brazil",
+"note": "Cosmetics",
+"parent": ""
+},
+{
+"brand": "Newell Brands",
+"domain": "",
+"country": "United States",
+"note": "Home equipment & furnishings",
+"parent": ""
+},
+{
+"brand": "Clorox",
+"domain": "",
+"country": "United States",
+"note": "Household & personal products",
+"parent": ""
+},
+{
+"brand": "Coty",
+"domain": "",
+"country": "United States",
+"note": "Household & personal products",
+"parent": ""
+},
+{
+"brand": "Hasbro",
+"domain": "",
+"country": "United States",
+"note": "Toys & sporting goods",
+"parent": ""
+},
+{
+"brand": "Leggett & Platt",
+"domain": "",
+"country": "United States",
+"note": "Home equipment & furnishings",
+"parent": ""
+},
+{
+"brand": "Central Garden & Pet",
+"domain": "",
+"country": "United States",
+"note": "Household & personal products",
+"parent": ""
+},
+{
+"brand": "HNI",
+"domain": "",
+"country": "United States",
+"note": "Home equipment & furnishings",
+"parent": ""
+},
+{
+"brand": "Shiseido",
+"domain": "",
+"country": "Japan",
+"note": "Beauty",
+"parent": ""
+},
+{
+"brand": "Vestel",
+"domain": "",
+"country": "Turkey",
+"note": "Consumer Electronics, Home Appliances, Information Technolog",
+"parent": ""
+},
+{
+"brand": "Land O'Lakes",
+"domain": "",
+"country": "United States",
+"note": "Packaged food",
+"parent": ""
+},
+{
+"brand": "Conagra Brands",
+"domain": "",
+"country": "United States",
+"note": "Packaged food",
+"parent": ""
+},
+{
+"brand": "Campbell's",
+"domain": "",
+"country": "United States",
+"note": "Packaged food",
+"parent": ""
+},
+{
+"brand": "J.M. Smucker",
+"domain": "",
+"country": "United States",
+"note": "Packaged food",
+"parent": ""
+},
+{
+"brand": "Flowers Foods",
+"domain": "",
+"country": "United States",
+"note": "Packaged food",
+"parent": ""
+}
+],
+"Mining": [
+{
+"brand": "Avery Dennison",
+"domain": "",
+"country": "United States",
+"note": "Materials",
+"parent": ""
+},
+{
+"brand": "Ball Corporation",
+"domain": "",
+"country": "United States",
+"note": "Materials",
+"parent": "Ball"
+},
+{
+"brand": "Vale",
+"domain": "",
+"country": "Brazil",
+"note": "Materials",
+"parent": ""
+},
+{
+"brand": "Alcoa",
+"domain": "",
+"country": "United States",
+"note": "Materials",
+"parent": ""
+},
+{
+"brand": "Nucor",
+"domain": "",
+"country": "United States",
+"note": "Materials",
+"parent": ""
+},
+{
+"brand": "POSCO Group",
+"domain": "",
+"country": "South Korea",
+"note": "Materials",
+"parent": "Posco"
+},
+{
+"brand": "Packaging Corporation of America",
+"domain": "",
+"country": "United States",
+"note": "Materials",
+"parent": "Packaging Corp of America"
+},
+{
+"brand": "Teck Resources",
+"domain": "",
+"country": "Canada",
+"note": "Materials",
+"parent": ""
+},
+{
+"brand": "Anglo American",
+"domain": "",
+"country": "United Kingdom",
+"note": "Diversified mining",
+"parent": ""
+},
+{
+"brand": "Barrick Mining",
+"domain": "",
+"country": "Canada",
+"note": "Materials",
+"parent": ""
+},
+{
+"brand": "Endeavour Mining",
+"domain": "",
+"country": "United Kingdom",
+"note": "Materials",
+"parent": ""
+},
+{
+"brand": "Sojitz Corporation",
+"domain": "",
+"country": "Japan",
+"note": "Materials",
+"parent": "Sojitz"
+},
+{
+"brand": "Newmont",
+"domain": "",
+"country": "United States",
+"note": "Materials",
+"parent": ""
+},
+{
+"brand": "Evolution Mining",
+"domain": "",
+"country": "Australia",
+"note": "Materials",
+"parent": ""
+},
+{
+"brand": "Coeur Mining",
+"domain": "",
+"country": "United States",
+"note": "Materials",
+"parent": ""
+},
+{
+"brand": "Kinross Gold",
+"domain": "",
+"country": "Canada",
+"note": "Materials",
+"parent": ""
+},
+{
+"brand": "Wheaton Precious Metals",
+"domain": "",
+"country": "Canada",
+"note": "Materials",
+"parent": ""
+},
+{
+"brand": "Suzano",
+"domain": "",
+"country": "Brazil",
+"note": "Materials",
+"parent": ""
+},
+{
+"brand": "Boliden",
+"domain": "",
+"country": "Sweden",
+"note": "Materials",
+"parent": ""
+},
+{
+"brand": "Pan American Silver",
+"domain": "",
+"country": "Canada",
+"note": "Materials",
+"parent": ""
+},
+{
+"brand": "Ternium",
+"domain": "",
+"country": "Luxembourg",
+"note": "Materials",
+"parent": ""
+},
+{
+"brand": "First Quantum Minerals",
+"domain": "",
+"country": "Canada",
+"note": "Materials",
+"parent": ""
+},
+{
+"brand": "Cameco",
+"domain": "",
+"country": "Canada",
+"note": "Materials",
+"parent": ""
+},
+{
+"brand": "Stora Enso",
+"domain": "",
+"country": "Finland",
+"note": "Materials",
+"parent": ""
+},
+{
+"brand": "Norsk Hydro",
+"domain": "",
+"country": "Norway",
+"note": "Materials",
+"parent": ""
+},
+{
+"brand": "Bayan Resources",
+"domain": "",
+"country": "Indonesia",
+"note": "Materials",
+"parent": ""
+},
+{
+"brand": "Lundin Gold",
+"domain": "",
+"country": "Canada",
+"note": "Materials",
+"parent": ""
+},
+{
+"brand": "Usiminas",
+"domain": "",
+"country": "Brazil",
+"note": "Flat steel (listed)",
+"parent": ""
+},
+{
+"brand": "Johnson Matthey",
+"domain": "",
+"country": "United Kingdom",
+"note": "Chemicals, Precious metals",
+"parent": ""
+},
+{
+"brand": "Gerdau",
+"domain": "",
+"country": "Brazil",
+"note": "Materials",
+"parent": ""
+},
+{
+"brand": "Antofagasta Minerals",
+"domain": "",
+"country": "Chile",
+"note": "Copper (Luksic",
+"parent": ""
+},
+{
+"brand": "Acerinox",
+"domain": "",
+"country": "Spain",
+"note": "Steel",
+"parent": ""
+},
+{
+"brand": "Imerys",
+"domain": "",
+"country": "France",
+"note": "Mining",
+"parent": ""
+},
+{
+"brand": "Danieli",
+"domain": "",
+"country": "Italy",
+"note": "Metal, Manufacturing, Steel",
+"parent": ""
+},
+{
+"brand": "Russel Metals",
+"domain": "",
+"country": "Canada",
+"note": "Metal Products",
+"parent": ""
+},
+{
+"brand": "B2Gold",
+"domain": "",
+"country": "Canada",
+"note": "Mining",
+"parent": ""
+},
+{
+"brand": "Equinox Gold",
+"domain": "",
+"country": "Canada",
+"note": "",
+"parent": ""
+},
+{
+"brand": "Hudbay Minerals",
+"domain": "",
+"country": "Canada",
+"note": "Mining",
+"parent": ""
+},
+{
+"brand": "Eldorado Gold",
+"domain": "",
+"country": "Canada",
+"note": "Mining",
+"parent": ""
+},
+{
+"brand": "ATI",
+"domain": "",
+"country": "United States",
+"note": "Metals",
+"parent": ""
+},
+{
+"brand": "Ryerson Holding",
+"domain": "",
+"country": "United States",
+"note": "Metals",
+"parent": ""
+},
+{
+"brand": "Valmont Industries",
+"domain": "",
+"country": "United States",
+"note": "Metals",
+"parent": ""
+},
+{
+"brand": "Kaiser Aluminum",
+"domain": "",
+"country": "United States",
+"note": "Metals",
+"parent": ""
+},
+{
+"brand": "Worthington Steel",
+"domain": "",
+"country": "United States",
+"note": "Metals",
+"parent": ""
+},
+{
+"brand": "Carpenter Technology",
+"domain": "",
+"country": "United States",
+"note": "Metals",
+"parent": ""
+},
+{
+"brand": "Aperam",
+"domain": "",
+"country": "Luxembourg",
+"note": "Metals",
+"parent": ""
+},
+{
+"brand": "Severfield",
+"domain": "",
+"country": "United Kingdom",
+"note": "Construction",
+"parent": ""
+},
+{
+"brand": "Harmony Gold",
+"domain": "",
+"country": "South Africa",
+"note": "",
+"parent": ""
+},
+{
+"brand": "Sibanye-Stillwater",
+"domain": "",
+"country": "South Africa",
+"note": "Mining",
+"parent": ""
+},
+{
+"brand": "First Majestic Silver",
+"domain": "",
+"country": "Canada",
+"note": "Mining",
+"parent": ""
+},
+{
+"brand": "Algoma Steel",
+"domain": "",
+"country": "Canada",
+"note": "Steel",
+"parent": ""
+},
+{
+"brand": "Hoa Sen Group",
+"domain": "",
+"country": "Vietnam",
+"note": "Metals",
+"parent": ""
+},
+{
+"brand": "Northam Platinum",
+"domain": "",
+"country": "South Africa",
+"note": "Mining",
+"parent": ""
+},
+{
+"brand": "Exxaro Resources",
+"domain": "",
+"country": "South Africa",
+"note": "Coal (listed JSE)",
+"parent": ""
+},
+{
+"brand": "Kenmare Resources",
+"domain": "",
+"country": "Ireland",
+"note": "Mining",
+"parent": ""
+}
+],
+"Semiconductors": [
+{
+"brand": "Vertiv",
+"domain": "",
+"country": "United States",
+"note": "Technology Hardware & Equipment",
+"parent": "Vertiv Holdings"
+},
+{
+"brand": "SK Hynix",
+"domain": "",
+"country": "South Korea",
+"note": "Semiconductors",
+"parent": ""
+},
+{
+"brand": "MediaTek",
+"domain": "",
+"country": "Taiwan",
+"note": "Semiconductors",
+"parent": ""
+},
+{
+"brand": "Broadcom",
+"domain": "",
+"country": "United States",
+"note": "Semiconductors",
+"parent": ""
+},
+{
+"brand": "Marvell Technology",
+"domain": "",
+"country": "United States",
+"note": "Semiconductors",
+"parent": ""
+},
+{
+"brand": "Micron Technology",
+"domain": "",
+"country": "United States",
+"note": "Semiconductors",
+"parent": ""
+},
+{
+"brand": "Corning",
+"domain": "",
+"country": "United States",
+"note": "Technology Hardware & Equipment",
+"parent": ""
+},
+{
+"brand": "ASML",
+"domain": "",
+"country": "Netherlands",
+"note": "Semiconductors",
+"parent": "ASML Holding"
+},
+{
+"brand": "Amphenol",
+"domain": "",
+"country": "United States",
+"note": "Technology Hardware & Equipment",
+"parent": ""
+},
+{
+"brand": "TE Connectivity",
+"domain": "",
+"country": "Ireland",
+"note": "Semiconductors",
+"parent": ""
+},
+{
+"brand": "Legrand",
+"domain": "",
+"country": "France",
+"note": "Technology Hardware & Equipment",
+"parent": ""
+},
+{
+"brand": "TSMC",
+"domain": "",
+"country": "Taiwan",
+"note": "Semiconductors",
+"parent": "Taiwan Semiconductor"
+},
+{
+"brand": "Keysight Technologies",
+"domain": "",
+"country": "United States",
+"note": "Technology Hardware & Equipment",
+"parent": ""
+},
+{
+"brand": "Nextpower",
+"domain": "",
+"country": "United States",
+"note": "Technology Hardware & Equipment",
+"parent": ""
+},
+{
+"brand": "Everpure",
+"domain": "",
+"country": "United States",
+"note": "Technology Hardware & Equipment",
+"parent": ""
+},
+{
+"brand": "Monolithic Power Systems",
+"domain": "",
+"country": "United States",
+"note": "Semiconductors",
+"parent": ""
+},
+{
+"brand": "Astera Labs",
+"domain": "",
+"country": "United States",
+"note": "Semiconductors",
+"parent": ""
+},
+{
+"brand": "KLA",
+"domain": "",
+"country": "United States",
+"note": "Semiconductors",
+"parent": ""
+},
+{
+"brand": "Flex",
+"domain": "",
+"country": "United States",
+"note": "Technology Hardware & Equipment",
+"parent": ""
+},
+{
+"brand": "onsemi",
+"domain": "",
+"country": "United States",
+"note": "Semiconductors",
+"parent": "ON Semiconductor"
+},
+{
+"brand": "TDK Corporation",
+"domain": "",
+"country": "Japan",
+"note": "Technology Hardware & Equipment",
+"parent": "TDK"
+},
+{
+"brand": "Keyence",
+"domain": "",
+"country": "Japan",
+"note": "Technology Hardware & Equipment",
+"parent": ""
+},
+{
+"brand": "Murata Manufacturing",
+"domain": "",
+"country": "Japan",
+"note": "Technology Hardware & Equipment",
+"parent": ""
+},
+{
+"brand": "Seagate Technology",
+"domain": "",
+"country": "United States",
+"note": "Technology Hardware & Equipment",
+"parent": ""
+},
+{
+"brand": "Qnity Electronics",
+"domain": "",
+"country": "United States",
+"note": "Technology Hardware & Equipment",
+"parent": ""
+},
+{
+"brand": "Texas Instruments",
+"domain": "",
+"country": "United States",
+"note": "Semiconductors",
+"parent": ""
+},
+{
+"brand": "First Solar",
+"domain": "",
+"country": "United States",
+"note": "Semiconductors",
+"parent": ""
+},
+{
+"brand": "Teradyne",
+"domain": "",
+"country": "United States",
+"note": "Technology Hardware & Equipment",
+"parent": ""
+},
+{
+"brand": "nVent",
+"domain": "",
+"country": "United Kingdom",
+"note": "Technology Hardware & Equipment",
+"parent": "nVent Electric"
+},
+{
+"brand": "Renesas Electronics",
+"domain": "",
+"country": "Japan",
+"note": "Semiconductors",
+"parent": ""
+},
+{
+"brand": "Ubiquiti",
+"domain": "",
+"country": "United States",
+"note": "Technology Hardware & Equipment",
+"parent": ""
+},
+{
+"brand": "Phison",
+"domain": "",
+"country": "Taiwan",
+"note": "Technology Hardware & Equipment",
+"parent": "Phison Electronics"
+},
+{
+"brand": "Huaqin",
+"domain": "",
+"country": "China",
+"note": "Technology Hardware & Equipment",
+"parent": ""
+},
+{
+"brand": "Accton Technology",
+"domain": "",
+"country": "Taiwan",
+"note": "Technology Hardware & Equipment",
+"parent": ""
+},
+{
+"brand": "Wistron",
+"domain": "",
+"country": "Taiwan",
+"note": "Technology Hardware & Equipment",
+"parent": ""
+},
+{
+"brand": "Tower Semiconductor",
+"domain": "",
+"country": "Israel",
+"note": "Semiconductors",
+"parent": ""
+},
+{
+"brand": "Sanmina Corporation",
+"domain": "",
+"country": "United States",
+"note": "Technology Hardware & Equipment",
+"parent": "Sanmina-SCI"
+},
+{
+"brand": "Microchip Technology",
+"domain": "",
+"country": "United States",
+"note": "Semiconductors",
+"parent": ""
+},
+{
+"brand": "Goertek",
+"domain": "",
+"country": "China",
+"note": "Technology Hardware & Equipment",
+"parent": ""
+},
+{
+"brand": "MACOM Technology Solutions Holdings",
+"domain": "",
+"country": "United States",
+"note": "Semiconductors",
+"parent": ""
+},
+{
+"brand": "Compal Electronics",
+"domain": "",
+"country": "Taiwan",
+"note": "Technology Hardware & Equipment",
+"parent": ""
+},
+{
+"brand": "Jabil",
+"domain": "",
+"country": "United States",
+"note": "Semiconductors & components",
+"parent": ""
+},
+{
+"brand": "AMS-Osram",
+"domain": "",
+"country": "Austria",
+"note": "Semiconductors",
+"parent": ""
+},
+{
+"brand": "Amkor Technology",
+"domain": "",
+"country": "United States",
+"note": "Semiconductors & components",
+"parent": ""
+},
+{
+"brand": "Skyworks Solutions",
+"domain": "",
+"country": "United States",
+"note": "Semiconductors & components",
+"parent": ""
+},
+{
+"brand": "Plexus",
+"domain": "",
+"country": "United States",
+"note": "Semiconductors & components",
+"parent": ""
+},
+{
+"brand": "MKS",
+"domain": "",
+"country": "United States",
+"note": "Semiconductors & components",
+"parent": ""
+},
+{
+"brand": "Entegris",
+"domain": "",
+"country": "United States",
+"note": "Semiconductors & components",
+"parent": ""
+},
+{
+"brand": "Vishay Intertechnology",
+"domain": "",
+"country": "United States",
+"note": "Semiconductors & components",
+"parent": ""
+},
+{
+"brand": "ASMPT",
+"domain": "",
+"country": "Singapore",
+"note": "Semiconductors and Other Electronic Components",
+"parent": ""
+},
+{
+"brand": "Oxford Instruments",
+"domain": "",
+"country": "United Kingdom",
+"note": "Top level markets include materials analysis, semiconductors",
+"parent": ""
+},
+{
+"brand": "DEEPX",
+"domain": "",
+"country": "South Korea",
+"note": "Semiconductors",
+"parent": ""
+},
+{
+"brand": "Technoprobe",
+"domain": "",
+"country": "Italy",
+"note": "Semiconductors",
+"parent": ""
+},
+{
+"brand": "Soitec",
+"domain": "",
+"country": "France",
+"note": "Manufacture of electronic components",
+"parent": ""
+}
+],
+"Software": [
+{
+"brand": "Project Prometheus",
+"domain": "",
+"country": "United States",
+"note": "Artificial Intelligence",
+"parent": ""
+},
+{
+"brand": "Baidu Apollo Go",
+"domain": "",
+"country": "China",
+"note": "IT Software & Services",
+"parent": "Baidu"
+},
+{
+"brand": "RELX",
+"domain": "",
+"country": "United Kingdom",
+"note": "Information and analytics",
+"parent": ""
+},
+{
+"brand": "SambaNova Systems",
+"domain": "",
+"country": "United States",
+"note": "Artificial intelligence",
+"parent": "SambaNova"
+},
+{
+"brand": "Bloomberg L.P. / Bloomberg Media",
+"domain": "",
+"country": "United States",
+"note": "IT Software & Services",
+"parent": "Bloomberg"
+},
+{
+"brand": "Thales Group",
+"domain": "",
+"country": "France",
+"note": "Aerospace, Defence, Electronics, Cybersecurity",
+"parent": ""
+},
+{
+"brand": "SandboxAQ",
+"domain": "",
+"country": "United States",
+"note": "Quantum technology, Artificial intelligence",
+"parent": ""
+},
+{
+"brand": "Poolside",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Verkada",
+"domain": "",
+"country": "United States",
+"note": "Physical security",
+"parent": ""
+},
+{
+"brand": "Notion Labs",
+"domain": "",
+"country": "United States",
+"note": "Productivity software",
+"parent": ""
+},
+{
+"brand": "Prosus",
+"domain": "",
+"country": "South Africa",
+"note": "IT Software & Services",
+"parent": "Naspers"
+},
+{
+"brand": "Computacenter plc",
+"domain": "",
+"country": "United Kingdom",
+"note": "Information technology, Consulting, Outsourcing",
+"parent": "Computacenter"
+},
+{
+"brand": "PsiQuantum",
+"domain": "",
+"country": "United States",
+"note": "Quantum computing",
+"parent": ""
+},
+{
+"brand": "River AI",
+"domain": "",
+"country": "United States",
+"note": "AI software",
+"parent": ""
+},
+{
+"brand": "AlphaSense",
+"domain": "",
+"country": "United States",
+"note": "Software",
+"parent": ""
+},
+{
+"brand": "Together AI",
+"domain": "",
+"country": "United States",
+"note": "Artificial Intelligence",
+"parent": ""
+},
+{
+"brand": "Island",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "AppLovin",
+"domain": "",
+"country": "United States",
+"note": "IT Software & Services",
+"parent": ""
+},
+{
+"brand": "Physical Intelligence",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Keyfactor",
+"domain": "",
+"country": "United States",
+"note": "Cybersecurity: PKI, machine identity and digital trust",
+"parent": ""
+},
+{
+"brand": "Harness",
+"domain": "",
+"country": "United States",
+"note": "Software",
+"parent": ""
+},
+{
+"brand": "SS&C Technologies",
+"domain": "",
+"country": "United States",
+"note": "IT Software & Services",
+"parent": ""
+},
+{
+"brand": "Mintegral",
+"domain": "",
+"country": "Singapore",
+"note": "Mobile ad-tech (Mintegral) and mar-tech SaaS",
+"parent": "Mobvista"
+},
+{
+"brand": "DiDi Global",
+"domain": "",
+"country": "China",
+"note": "IT Software & Services",
+"parent": ""
+},
+{
+"brand": "Recursive Superintelligence",
+"domain": "",
+"country": "United Kingdom",
+"note": "Foundational AI",
+"parent": ""
+},
+{
+"brand": "Leidos",
+"domain": "",
+"country": "United States",
+"note": "IT Software & Services",
+"parent": ""
+},
+{
+"brand": "SHI International",
+"domain": "",
+"country": "United States",
+"note": "IT Software & Services",
+"parent": ""
+},
+{
+"brand": "Broadridge",
+"domain": "",
+"country": "United States",
+"note": "IT Software & Services",
+"parent": "Broadridge Financial"
+},
+{
+"brand": "Fivetran + dbt Labs",
+"domain": "",
+"country": "United States",
+"note": "Data infrastructure",
+"parent": "FiveTran"
+},
+{
+"brand": "Orca Security",
+"domain": "",
+"country": "United States",
+"note": "Cybersecurity",
+"parent": ""
+},
+{
+"brand": "Contentsquare",
+"domain": "",
+"country": "France",
+"note": "Software as a service",
+"parent": "ContentSquare"
+},
+{
+"brand": "Postman",
+"domain": "",
+"country": "United States",
+"note": "Software as a service",
+"parent": ""
+},
+{
+"brand": "6Sense",
+"domain": "",
+"country": "United States",
+"note": "Artificial intelligence",
+"parent": ""
+},
+{
+"brand": "VeriSign",
+"domain": "",
+"country": "United States",
+"note": "IT Software & Services",
+"parent": ""
+},
+{
+"brand": "HighRadius",
+"domain": "",
+"country": "United States",
+"note": "Software as a service",
+"parent": ""
+},
+{
+"brand": "Icertis",
+"domain": "",
+"country": "United States",
+"note": "Software",
+"parent": ""
+},
+{
+"brand": "Roper Technologies",
+"domain": "",
+"country": "United States",
+"note": "IT Software & Services",
+"parent": ""
+},
+{
+"brand": "Cockroach Labs",
+"domain": "",
+"country": "United States",
+"note": "Database management",
+"parent": ""
+},
+{
+"brand": "Talkdesk",
+"domain": "",
+"country": "United States",
+"note": "Software as a service",
+"parent": ""
+},
+{
+"brand": "ActiveCampaign",
+"domain": "",
+"country": "United States",
+"note": "Marketing",
+"parent": ""
+},
+{
+"brand": "Morning Consult",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Global Switch",
+"domain": "",
+"country": "United Kingdom",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Miro",
+"domain": "",
+"country": "United States",
+"note": "Software",
+"parent": ""
+},
+{
+"brand": "Collibra",
+"domain": "",
+"country": "Belgium",
+"note": "Data governance",
+"parent": ""
+},
+{
+"brand": "OneTrust",
+"domain": "",
+"country": "United States",
+"note": "Cybersecurity",
+"parent": ""
+},
+{
+"brand": "CtrlS",
+"domain": "",
+"country": "India",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "ThoughtSpot",
+"domain": "",
+"country": "United States",
+"note": "Analytics",
+"parent": ""
+},
+{
+"brand": "Dataminr",
+"domain": "",
+"country": "United States",
+"note": "Data analytics",
+"parent": ""
+},
+{
+"brand": "Kpler",
+"domain": "",
+"country": "Belgium",
+"note": "Data analytics",
+"parent": ""
+},
+{
+"brand": "Inflection AI",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Zapier",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "ClickUp",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Branch",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Cohesity",
+"domain": "",
+"country": "United States",
+"note": "Software",
+"parent": ""
+},
+{
+"brand": "o9 Solutions",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Thumbtack",
+"domain": "",
+"country": "United States",
+"note": "Software",
+"parent": ""
+},
+{
+"brand": "Decart",
+"domain": "",
+"country": "United States",
+"note": "AI",
+"parent": ""
+},
+{
+"brand": "Ironclad",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Grow Therapy",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Forter",
+"domain": "",
+"country": "United States",
+"note": "Software",
+"parent": ""
+},
+{
+"brand": "LaunchDarkly",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Seismic",
+"domain": "",
+"country": "United States",
+"note": "Software",
+"parent": ""
+},
+{
+"brand": "Sentry",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Illumio",
+"domain": "",
+"country": "United States",
+"note": "Cybersecurity",
+"parent": ""
+},
+{
+"brand": "Nextiva",
+"domain": "",
+"country": "United States",
+"note": "Software",
+"parent": ""
+},
+{
+"brand": "Sourcegraph",
+"domain": "",
+"country": "United States",
+"note": "Developer platform",
+"parent": ""
+},
+{
+"brand": "Pendo",
+"domain": "",
+"country": "United States",
+"note": "Software",
+"parent": ""
+},
+{
+"brand": "Axonius",
+"domain": "",
+"country": "United States",
+"note": "Cybersecurity",
+"parent": ""
+},
+{
+"brand": "JumpCloud",
+"domain": "",
+"country": "United States",
+"note": "Software",
+"parent": ""
+},
+{
+"brand": "Peregrine",
+"domain": "",
+"country": "United States",
+"note": "Govtech",
+"parent": ""
+},
+{
+"brand": "Lambda Labs",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Claroty",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Sysdig",
+"domain": "",
+"country": "United States",
+"note": "Cybersecurity",
+"parent": ""
+},
+{
+"brand": "SiFive",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "BitSight Technologies",
+"domain": "",
+"country": "United States",
+"note": "Cybersecurity",
+"parent": ""
+},
+{
+"brand": "Project44",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Odyssey",
+"domain": "",
+"country": "United States",
+"note": "AI lab (world models)",
+"parent": ""
+},
+{
+"brand": "Emergent",
+"domain": "",
+"country": "United States",
+"note": "AI coding",
+"parent": ""
+},
+{
+"brand": "Exa",
+"domain": "",
+"country": "United States",
+"note": "AI search",
+"parent": ""
+},
+{
+"brand": "Algolia",
+"domain": "",
+"country": "United States",
+"note": "Software",
+"parent": ""
+},
+{
+"brand": "Neo4j",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Eightfold",
+"domain": "",
+"country": "United States",
+"note": "Artificial intelligence",
+"parent": ""
+},
+{
+"brand": "Jeeves",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "EvenUp",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Parallel",
+"domain": "",
+"country": "United States",
+"note": "Developer tools",
+"parent": ""
+},
+{
+"brand": "BeZero",
+"domain": "",
+"country": "United Kingdom",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Drata",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Mysten Labs",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "AppsFlyer",
+"domain": "",
+"country": "United States",
+"note": "Mobile marketing analytics",
+"parent": ""
+},
+{
+"brand": "Unqork",
+"domain": "",
+"country": "United States",
+"note": "Software development",
+"parent": ""
+},
+{
+"brand": "Hive",
+"domain": "",
+"country": "United States",
+"note": "Artificial intelligence",
+"parent": ""
+},
+{
+"brand": "Aviatrix",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Magic Leap",
+"domain": "",
+"country": "United States",
+"note": "Augmented reality",
+"parent": ""
+},
+{
+"brand": "VerbIT",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "CertiK",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Devo Technology",
+"domain": "",
+"country": "United States",
+"note": "Software",
+"parent": ""
+},
+{
+"brand": "FullStory",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Axiom Math",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "ZenBusiness",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Optimism",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Clari",
+"domain": "",
+"country": "United States",
+"note": "Software",
+"parent": ""
+},
+{
+"brand": "Cresta",
+"domain": "",
+"country": "United States",
+"note": "Artificial intelligence",
+"parent": ""
+},
+{
+"brand": "Applied Compute",
+"domain": "",
+"country": "United States",
+"note": "Agentic AI",
+"parent": ""
+},
+{
+"brand": "ASAPP",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Pave",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Resolve AI",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Anaconda",
+"domain": "",
+"country": "United States",
+"note": "Data and analytics",
+"parent": ""
+},
+{
+"brand": "Lighter",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Jasper",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Zenoti",
+"domain": "",
+"country": "United States",
+"note": "Software company",
+"parent": ""
+},
+{
+"brand": "impact.com",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Matillion",
+"domain": "",
+"country": "United Kingdom",
+"note": "Data analytics",
+"parent": ""
+},
+{
+"brand": "Persona",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Lusha",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Meshy",
+"domain": "",
+"country": "United States",
+"note": "Multimodal AI",
+"parent": ""
+},
+{
+"brand": "Arcadia",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Harmonic",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Aleo",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Envoy",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Symphony",
+"domain": "",
+"country": "United States",
+"note": "Software",
+"parent": ""
+},
+{
+"brand": "Salt Security",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Xpanceo",
+"domain": "",
+"country": "United Arab Emirates",
+"note": "Smart contact lenses",
+"parent": ""
+},
+{
+"brand": "YugaByte",
+"domain": "",
+"country": "United States",
+"note": "Database management",
+"parent": ""
+},
+{
+"brand": "BigID",
+"domain": "",
+"country": "United States",
+"note": "Cybersecurity",
+"parent": ""
+},
+{
+"brand": "Incode Technologies",
+"domain": "",
+"country": "United States",
+"note": "Technology",
+"parent": ""
+},
+{
+"brand": "CaptivateIQ",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "HappyRobot",
+"domain": "",
+"country": "United States",
+"note": "AI software",
+"parent": ""
+},
+{
+"brand": "Zip",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Seekr",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Oyster",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Qumulo",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Tealium",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Vectra Networks",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Copado",
+"domain": "",
+"country": "United States",
+"note": "Software",
+"parent": ""
+},
+{
+"brand": "BigPanda",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "CloudBees",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Basis",
+"domain": "",
+"country": "United States",
+"note": "Financial AI",
+"parent": ""
+},
+{
+"brand": "DevRev",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "AppDirect",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Ivalua",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Imply Data",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Mixpanel",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Juniper Square",
+"domain": "",
+"country": "United States",
+"note": "Fund administration software",
+"parent": ""
+},
+{
+"brand": "Reka AI",
+"domain": "",
+"country": "United States",
+"note": "AI",
+"parent": ""
+},
+{
+"brand": "Randpanda",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Kiteworks",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "QuEra Computing",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Lighthouse",
+"domain": "",
+"country": "United Kingdom",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Halcyon",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "World Labs",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Semperis",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Adept",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Lookout",
+"domain": "",
+"country": "United States",
+"note": "Cybersecurity",
+"parent": ""
+},
+{
+"brand": "Alation",
+"domain": "",
+"country": "United States",
+"note": "Software",
+"parent": ""
+},
+{
+"brand": "Sift",
+"domain": "",
+"country": "United States",
+"note": "Fraud prevention",
+"parent": ""
+},
+{
+"brand": "MOLOCO",
+"domain": "",
+"country": "United States",
+"note": "Advertising technology",
+"parent": ""
+},
+{
+"brand": "Axtria",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Solo.io",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Expel",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "YipitData",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "ReliaQuest",
+"domain": "",
+"country": "United States",
+"note": "Cybersecurity",
+"parent": ""
+},
+{
+"brand": "Watershed",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Glia",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Electric",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "FourKites",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "SingleStore",
+"domain": "",
+"country": "United States",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Prime Intellect",
+"domain": "",
+"country": "United States",
+"note": "AI",
+"parent": ""
+},
+{
+"brand": "Venice",
+"domain": "",
+"country": "United States",
+"note": "Multimodal AI",
+"parent": ""
+},
+{
+"brand": "Avoca",
+"domain": "",
+"country": "United States",
+"note": "Marketing AI",
+"parent": ""
+},
+{
+"brand": "Rox",
+"domain": "",
+"country": "United States",
+"note": "Sales & marketing AI",
+"parent": ""
+},
+{
+"brand": "PostHog",
+"domain": "",
+"country": "United States",
+"note": "Developer platform",
+"parent": ""
+},
+{
+"brand": "Amentum Holdings",
+"domain": "",
+"country": "United States",
+"note": "IT services",
+"parent": ""
+},
+{
+"brand": "OutSystems",
+"domain": "",
+"country": "Portugal",
+"note": "Software development",
+"parent": ""
+},
+{
+"brand": "Unico",
+"domain": "",
+"country": "Brazil",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Job&Talent",
+"domain": "",
+"country": "Spain",
+"note": "Enterprise Tech",
+"parent": ""
+},
+{
+"brand": "Framer",
+"domain": "",
+"country": "Netherlands",
+"note": "Web design",
+"parent": ""
+}
+],
+"Existing Group Overlays": [
+{
+"brand": "Reliance Industries",
+"domain": "ril.com",
+"country": "India",
+"note": "Diversified & Other",
+"parent": ""
+},
+{
+"brand": "NTT",
+"domain": "group.ntt",
+"country": "Japan",
+"note": "Telecommunications",
+"parent": ""
+},
+{
+"brand": "Denso",
+"domain": "denso.com",
+"country": "Japan",
+"note": "Automotive & Mobility",
+"parent": ""
+},
+{
+"brand": "Temasek Holdings",
+"domain": "temasek.com.sg",
+"country": "Singapore",
+"note": "Investment & Capital Markets",
+"parent": ""
+},
+{
+"brand": "Futu Holdings",
+"domain": "futuholdings.com",
+"country": "China",
+"note": "Investment & Capital Markets",
+"parent": ""
+},
+{
+"brand": "GlobalFoundries",
+"domain": "gf.com",
+"country": "United States",
+"note": "Semiconductors & Electronics",
+"parent": ""
+},
+{
+"brand": "Clarios",
+"domain": "clarios.com",
+"country": "United States",
+"note": "Utilities & Renewable Energy",
+"parent": ""
+},
+{
+"brand": "Rippling",
+"domain": "rippling.com",
+"country": "United States",
+"note": "Software, Internet & AI",
+"parent": ""
+},
+{
+"brand": "Aristocrat Leisure",
+"domain": "aristocrat.com",
+"country": "Australia",
+"note": "Gambling & Gaming Venues",
+"parent": ""
+},
+{
+"brand": "Navan",
+"domain": "navan.com",
+"country": "United States",
+"note": "Travel, Hotels & Leisure",
+"parent": ""
+},
+{
+"brand": "New Relic",
+"domain": "newrelic.com",
+"country": "United States",
+"note": "Software, Internet & AI",
+"parent": ""
+},
+{
+"brand": "Synopsys",
+"domain": "synopsys.com",
+"country": "United States",
+"note": "Software, Internet & AI",
+"parent": ""
+},
+{
+"brand": "Hinduja Global Solutions",
+"domain": "hindujagroup.com",
+"country": "India",
+"note": "Diversified & Other",
+"parent": ""
+},
+{
+"brand": "Spectris",
+"domain": "spectris.com",
+"country": "United Kingdom",
+"note": "Semiconductors & Electronics",
+"parent": ""
+},
+{
+"brand": "Qualtrics",
+"domain": "qualtrics.com",
+"country": "United States",
+"note": "Software, Internet & AI",
+"parent": ""
+},
+{
+"brand": "Safran",
+"domain": "safran-group.com",
+"country": "France",
+"note": "Aerospace, Defence & Space",
+"parent": ""
+},
+{
+"brand": "Altera",
+"domain": "altera.com",
+"country": "United States",
+"note": "Semiconductors & Electronics",
+"parent": ""
+},
+{
+"brand": "GE Vernova",
+"domain": "gevernova.com",
+"country": "United States",
+"note": "Industrial Machinery & Equipment",
+"parent": ""
+},
+{
+"brand": "Johnson & Johnson",
+"domain": "jnj.com",
+"country": "United States",
+"note": "Pharma & Biotech",
+"parent": ""
+},
+{
+"brand": "Pictet Group",
+"domain": "pictet.com",
+"country": "Switzerland",
+"note": "Investment & Capital Markets",
+"parent": ""
+},
+{
+"brand": "Janus Henderson Group",
+"domain": "janushenderson.com",
+"country": "United Kingdom",
+"note": "Investment & Capital Markets",
+"parent": ""
+},
+{
+"brand": "Nothing Technology",
+"domain": "nothing.tech",
+"country": "United Kingdom",
+"note": "Semiconductors & Electronics",
+"parent": ""
+},
+{
+"brand": "Pony.ai",
+"domain": "pony.ai",
+"country": "China",
+"note": "Automotive & Mobility",
+"parent": ""
+},
+{
+"brand": "Affirm Holdings",
+"domain": "affirm.com",
+"country": "United States",
+"note": "Financial Services & Payments",
+"parent": ""
+},
+{
+"brand": "Parker Hannifin",
+"domain": "parker.com",
+"country": "United States",
+"note": "Industrial Machinery & Equipment",
+"parent": ""
+},
+{
+"brand": "Reckitt",
+"domain": "reckitt.com",
+"country": "United Kingdom",
+"note": "Consumer Products",
+"parent": ""
+},
+{
+"brand": "Tether",
+"domain": "tether.io",
+"country": "El Salvador",
+"note": "Financial Services & Payments",
+"parent": ""
+},
+{
+"brand": "Vinci",
+"domain": "vinci.com",
+"country": "France",
+"note": "Construction & Engineering",
+"parent": ""
+},
+{
+"brand": "Ferrovial",
+"domain": "ferrovial.com",
+"country": "Netherlands",
+"note": "Construction & Engineering",
+"parent": ""
+},
+{
+"brand": "Automatic Data Processing",
+"domain": "adp.com",
+"country": "United States",
+"note": "Staffing & HR",
+"parent": ""
+},
+{
+"brand": "Stryker",
+"domain": "stryker.com",
+"country": "United States",
+"note": "Medical Devices & Diagnostics",
+"parent": ""
+},
+{
+"brand": "Cummins",
+"domain": "cummins.com",
+"country": "United States",
+"note": "Industrial Machinery & Equipment",
+"parent": ""
+},
+{
+"brand": "Rogers Communications",
+"domain": "rogers.com",
+"country": "Canada",
+"note": "Telecommunications",
+"parent": ""
+},
+{
+"brand": "Sanlorenzo S.p.A.",
+"domain": "sanlorenzoyacts.com",
+"country": "Italy",
+"note": "Luxury, Jewellery & Watches",
+"parent": ""
+},
+{
+"brand": "BASF",
+"domain": "basf.com",
+"country": "Germany",
+"note": "Chemicals & Materials",
+"parent": ""
+},
+{
+"brand": "Air Products",
+"domain": "airproducts.com",
+"country": "United States",
+"note": "Chemicals & Materials",
+"parent": ""
+},
+{
+"brand": "Luxaviation Group",
+"domain": "luxaviation.com",
+"country": "Luxembourg",
+"note": "Airlines & Air Travel",
+"parent": ""
+},
+{
+"brand": "Textron",
+"domain": "textron.com",
+"country": "United States",
+"note": "Aerospace, Defence & Space",
+"parent": ""
+},
+{
+"brand": "Formlabs",
+"domain": "formlabs.com",
+"country": "United States",
+"note": "Industrial Machinery & Equipment",
+"parent": ""
+},
+{
+"brand": "Hexcel Corporation",
+"domain": "hexcel.com",
+"country": "United States",
+"note": "Chemicals & Materials",
+"parent": ""
+},
+{
+"brand": "Align Technology",
+"domain": "aligntech.com",
+"country": "United States",
+"note": "Medical Devices & Diagnostics",
+"parent": ""
+},
+{
+"brand": "Suitsupply",
+"domain": "suitsupply.com",
+"country": "Netherlands",
+"note": "Fashion, Apparel & Footwear",
+"parent": ""
+},
+{
+"brand": "ORIX Corporation",
+"domain": "orix.co.jp",
+"country": "Japan",
+"note": "Financial Services & Payments",
+"parent": ""
+},
+{
+"brand": "Bilt",
+"domain": "bilt.com",
+"country": "United States",
+"note": "Financial Services & Payments",
+"parent": ""
+},
+{
+"brand": "iCapital",
+"domain": "icapital.com",
+"country": "United States",
+"note": "Investment & Capital Markets",
+"parent": ""
+},
+{
+"brand": "Shinhan Financial Group",
+"domain": "shinhangroup.com",
+"country": "South Korea",
+"note": "Banking & Lending",
+"parent": ""
+},
+{
+"brand": "Amorepacific Group",
+"domain": "amorepacific.com",
+"country": "South Korea",
+"note": "Beauty & Personal Care",
+"parent": ""
+},
+{
+"brand": "Heidrick & Struggles International",
+"domain": "heidrick.com",
+"country": "United States",
+"note": "Staffing & HR",
+"parent": ""
+},
+{
+"brand": "DuPont",
+"domain": "dupont.com",
+"country": "United States",
+"note": "Chemicals & Materials",
+"parent": ""
+},
+{
+"brand": "AbbVie",
+"domain": "abbvie.com",
+"country": "United States",
+"note": "Pharma & Biotech",
+"parent": ""
+},
+{
+"brand": "Kubota Corporation",
+"domain": "kubota.com",
+"country": "Japan",
+"note": "Industrial Machinery & Equipment",
+"parent": ""
+},
+{
+"brand": "Anaplan",
+"domain": "anaplan.com",
+"country": "United States",
+"note": "Software, Internet & AI",
+"parent": ""
+},
+{
+"brand": "Collinson Group",
+"domain": "collinsongroup.com",
+"country": "United Kingdom",
+"note": "Travel, Hotels & Leisure",
+"parent": ""
+},
+{
+"brand": "Acciona",
+"domain": "acciona.com",
+"country": "Spain",
+"note": "Construction & Engineering",
+"parent": ""
+},
+{
+"brand": "Citadel",
+"domain": "citadel.com",
+"country": "United States",
+"note": "Investment & Capital Markets",
+"parent": ""
+},
+{
+"brand": "Frasers Group",
+"domain": "frasers.group",
+"country": "United Kingdom",
+"note": "Retail & E-commerce",
+"parent": ""
+},
+{
+"brand": "Netskope",
+"domain": "netskope.com",
+"country": "United States",
+"note": "Software, Internet & AI",
+"parent": ""
+},
+{
+"brand": "Brookfield Corporation",
+"domain": "bn.brookfield.com",
+"country": "Canada",
+"note": "Investment & Capital Markets",
+"parent": ""
+},
+{
+"brand": "Fidelity Investments (FMR)",
+"domain": "fidelity.com",
+"country": "United States",
+"note": "Investment & Capital Markets",
+"parent": ""
+},
+{
+"brand": "Twilio",
+"domain": "twilio.com",
+"country": "United States",
+"note": "Software, Internet & AI",
+"parent": ""
+},
+{
+"brand": "Charoen Pokphand Group",
+"domain": "cpgroupglobal.com",
+"country": "Thailand",
+"note": "Diversified & Other",
+"parent": ""
+},
+{
+"brand": "Mitsui & Co",
+"domain": "mitsuifudosan.co.jp",
+"country": "Japan",
+"note": "Real Estate",
+"parent": ""
+},
+{
+"brand": "Autoliv",
+"domain": "autoliv.com",
+"country": "Sweden",
+"note": "Automotive & Mobility",
+"parent": ""
+},
+{
+"brand": "Horiba Ltd.",
+"domain": "horiba.com",
+"country": "Japan",
+"note": "Semiconductors & Electronics",
+"parent": ""
+},
+{
+"brand": "Plaid",
+"domain": "plaid.com",
+"country": "United States",
+"note": "Financial Services & Payments",
+"parent": ""
+},
+{
+"brand": "Versuni",
+"domain": "versuni.com",
+"country": "Netherlands",
+"note": "Home & Furniture",
+"parent": ""
+},
+{
+"brand": "Intertek",
+"domain": "intertek.com",
+"country": "United Kingdom",
+"note": "Professional & Business Services",
+"parent": ""
+},
+{
+"brand": "Element Materials Technology",
+"domain": "element.com",
+"country": "United Kingdom",
+"note": "Professional & Business Services",
+"parent": ""
+},
+{
+"brand": "Fedrigoni",
+"domain": "fedrigoni.com",
+"country": "Italy",
+"note": "Packaging & Printing",
+"parent": ""
+},
+{
+"brand": "Prologis",
+"domain": "prologis.com",
+"country": "United States",
+"note": "Real Estate",
+"parent": ""
+},
+{
+"brand": "CRH",
+"domain": "crh.com",
+"country": "Ireland",
+"note": "Building Products & Materials",
+"parent": ""
+},
+{
+"brand": "Hologic",
+"domain": "hologic.com",
+"country": "United States",
+"note": "Medical Devices & Diagnostics",
+"parent": ""
+},
+{
+"brand": "Zendesk",
+"domain": "zendesk.com",
+"country": "United States",
+"note": "Software, Internet & AI",
+"parent": ""
+},
+{
+"brand": "Rockwell Automation",
+"domain": "rockwellautomation.com",
+"country": "United States",
+"note": "Industrial Machinery & Equipment",
+"parent": ""
+},
+{
+"brand": "Signia Hearing",
+"domain": "wsa.com",
+"country": "Denmark",
+"note": "Medical Devices & Diagnostics",
+"parent": ""
+},
+{
+"brand": "Thermo Fisher Scientific",
+"domain": "thermofisher.com",
+"country": "United States",
+"note": "Medical Devices & Diagnostics",
+"parent": ""
+},
+{
+"brand": "Danaher",
+"domain": "danaher.com",
+"country": "United States",
+"note": "Medical Devices & Diagnostics",
+"parent": ""
+},
+{
+"brand": "DSM-Firmenich",
+"domain": "dsm-firmenich.com",
+"country": "Switzerland",
+"note": "Chemicals & Materials",
+"parent": ""
+},
+{
+"brand": "ST Engineering",
+"domain": "stengg.com",
+"country": "Singapore",
+"note": "Aerospace, Defence & Space",
+"parent": ""
+},
+{
+"brand": "KDDI",
+"domain": "kddi.com",
+"country": "Japan",
+"note": "Telecommunications",
+"parent": ""
+},
+{
+"brand": "KKR & Co.",
+"domain": "kkr.com",
+"country": "United States",
+"note": "Investment & Capital Markets",
+"parent": ""
+},
+{
+"brand": "Apollo Global Management",
+"domain": "apollo.com",
+"country": "United States",
+"note": "Investment & Capital Markets",
+"parent": ""
+},
+{
+"brand": "Kone Corporation",
+"domain": "kone.com",
+"country": "Finland",
+"note": "Industrial Machinery & Equipment",
+"parent": ""
+},
+{
+"brand": "Check Point Software",
+"domain": "checkpoint.com",
+"country": "Israel",
+"note": "Software, Internet & AI",
+"parent": ""
+},
+{
+"brand": "Hexaware Technologies",
+"domain": "hexaware.com",
+"country": "India",
+"note": "IT Services & Consulting",
+"parent": ""
+},
+{
+"brand": "Kinaxis",
+"domain": "kinaxis.com",
+"country": "Canada",
+"note": "Software, Internet & AI",
+"parent": ""
+},
+{
+"brand": "Teledyne Technologies",
+"domain": "teledyne.com",
+"country": "United States",
+"note": "Semiconductors & Electronics",
+"parent": ""
+},
+{
+"brand": "BMC Software",
+"domain": "bmc.com",
+"country": "United States",
+"note": "Software, Internet & AI",
+"parent": ""
+},
+{
+"brand": "Epicor",
+"domain": "epicor.com",
+"country": "United States",
+"note": "Software, Internet & AI",
+"parent": ""
+},
+{
+"brand": "IonQ",
+"domain": "ionq.com",
+"country": "United States",
+"note": "Semiconductors & Electronics",
+"parent": ""
+},
+{
+"brand": "Tools for Humanity",
+"domain": "toolsforhumanity.com",
+"country": "United States",
+"note": "Software, Internet & AI",
+"parent": ""
+},
+{
+"brand": "Emperador Inc.",
+"domain": "emperadorinc.com",
+"country": "Philippines",
+"note": "Alcoholic Drinks",
+"parent": ""
+},
+{
+"brand": "Pegasystems",
+"domain": "pega.com",
+"country": "United States",
+"note": "Software, Internet & AI",
+"parent": ""
+},
+{
+"brand": "Vontier",
+"domain": "vontier.com",
+"country": "United States",
+"note": "Industrial Machinery & Equipment",
+"parent": ""
+},
+{
+"brand": "Korn Ferry",
+"domain": "kornferry.com",
+"country": "United States",
+"note": "Staffing & HR",
+"parent": ""
+},
+{
+"brand": "Moog Inc",
+"domain": "moog.com",
+"country": "United States",
+"note": "Industrial Machinery & Equipment",
+"parent": ""
+},
+{
+"brand": "Meituan",
+"domain": "meituan.com",
+"country": "China",
+"note": "Retail & E-commerce",
+"parent": ""
+},
+{
+"brand": "Nordic Semiconductor",
+"domain": "nordicsemi.com",
+"country": "Norway",
+"note": "Semiconductors & Electronics",
+"parent": ""
+},
+{
+"brand": "Partners Group Holding",
+"domain": "partnersgroup.com",
+"country": "Switzerland",
+"note": "Investment & Capital Markets",
+"parent": ""
+},
+{
+"brand": "GXO Logistics",
+"domain": "gxo.com",
+"country": "United States",
+"note": "Logistics & Transportation",
+"parent": ""
+},
+{
+"brand": "Skild AI",
+"domain": "skild.ai",
+"country": "United States",
+"note": "Software, Internet & AI",
+"parent": ""
+},
+{
+"brand": "Capri Holdings",
+"domain": "capriholdings.com",
+"country": "United Kingdom",
+"note": "Fashion, Apparel & Footwear",
+"parent": ""
+},
+{
+"brand": "Experian",
+"domain": "experian.com",
+"country": "Ireland",
+"note": "Professional & Business Services",
+"parent": ""
+},
+{
+"brand": "CoStar Group",
+"domain": "costargroup.com",
+"country": "United States",
+"note": "Software, Internet & AI",
+"parent": ""
+},
+{
+"brand": "Royal Swinkels",
+"domain": "swinkelsfamilybrewers.com",
+"country": "Netherlands",
+"note": "Alcoholic Drinks",
+"parent": ""
+},
+{
+"brand": "Verisk Analytics",
+"domain": "verisk.com",
+"country": "United States",
+"note": "Professional & Business Services",
+"parent": ""
+},
+{
+"brand": "ITT Inc.",
+"domain": "itt.com",
+"country": "United States",
+"note": "Industrial Machinery & Equipment",
+"parent": ""
+},
+{
+"brand": "Groupe SEB",
+"domain": "groupeseb.com",
+"country": "France",
+"note": "Home & Furniture",
+"parent": ""
+},
+{
+"brand": "Teneo",
+"domain": "teneo.com",
+"country": "United States",
+"note": "Professional & Business Services",
+"parent": ""
+},
+{
+"brand": "MSCI",
+"domain": "msci.com",
+"country": "United States",
+"note": "Investment & Capital Markets",
+"parent": ""
+},
+{
+"brand": "Fortive Corporation",
+"domain": "fortive.com",
+"country": "United States",
+"note": "Semiconductors & Electronics",
+"parent": ""
+},
+{
+"brand": "Rohm",
+"domain": "rohm.com",
+"country": "Japan",
+"note": "Semiconductors & Electronics",
+"parent": ""
+},
+{
+"brand": "Liberty Global",
+"domain": "libertyglobal.com",
+"country": "United Kingdom",
+"note": "Telecommunications",
+"parent": ""
+},
+{
+"brand": "Fiserv",
+"domain": "fiserv.com",
+"country": "United States",
+"note": "Financial Services & Payments",
+"parent": ""
+},
+{
+"brand": "BRP",
+"domain": "brp.com",
+"country": "Canada",
+"note": "Automotive & Mobility",
+"parent": ""
+},
+{
+"brand": "UBTech Robotics",
+"domain": "ubtrobot.com",
+"country": "China",
+"note": "Industrial Machinery & Equipment",
+"parent": ""
+},
+{
+"brand": "NXP Semiconductors",
+"domain": "nxp.com",
+"country": "Netherlands",
+"note": "Semiconductors & Electronics",
+"parent": ""
+},
+{
+"brand": "Lam Research",
+"domain": "lamresearch.com",
+"country": "United States",
+"note": "Semiconductors & Electronics",
+"parent": ""
+},
+{
+"brand": "Applied Materials",
+"domain": "appliedmaterials.com",
+"country": "United States",
+"note": "Semiconductors & Electronics",
+"parent": ""
+},
+{
+"brand": "Luckin Coffee",
+"domain": "luckincoffee.com",
+"country": "China",
+"note": "Food & Beverage",
+"parent": ""
+},
+{
+"brand": "Alpitronic",
+"domain": "alpitronic.com",
+"country": "Italy",
+"note": "Automotive & Mobility",
+"parent": ""
+},
+{
+"brand": "William Grant & Sons",
+"domain": "williamgrant.com",
+"country": "United Kingdom",
+"note": "Alcoholic Drinks",
+"parent": ""
+},
+{
+"brand": "RSM International",
+"domain": "rsm.global",
+"country": "United Kingdom",
+"note": "Professional & Business Services",
+"parent": ""
+},
+{
+"brand": "WSP Global",
+"domain": "wsp.com",
+"country": "Canada",
+"note": "Construction & Engineering",
+"parent": ""
+},
+{
+"brand": "Andersen Group",
+"domain": "andersen.com",
+"country": "United States",
+"note": "Professional & Business Services",
+"parent": ""
+},
+{
+"brand": "First Advantage Corporation",
+"domain": "fadv.com",
+"country": "United States",
+"note": "Staffing & HR",
+"parent": ""
+},
+{
+"brand": "Driscoll's",
+"domain": "driscolls.com",
+"country": "United States",
+"note": "Agriculture & Agribusiness",
+"parent": ""
+},
+{
+"brand": "Brunswick Corporation",
+"domain": "brunswick.com",
+"country": "United States",
+"note": "Shipping, Maritime & Shipbuilding",
+"parent": ""
+},
+{
+"brand": "Viasat",
+"domain": "viasat.com",
+"country": "United States",
+"note": "Aerospace, Defence & Space",
+"parent": ""
+},
+{
+"brand": "Itochu Corporation",
+"domain": "itochu.co.jp",
+"country": "Japan",
+"note": "Diversified & Other",
+"parent": ""
+},
+{
+"brand": "T. Rowe Price",
+"domain": "troweprice.com",
+"country": "United States",
+"note": "Investment & Capital Markets",
+"parent": ""
+},
+{
+"brand": "Endeavour Group",
+"domain": "endeavourgroup.com.au",
+"country": "Australia",
+"note": "Alcoholic Drinks",
+"parent": ""
+},
+{
+"brand": "Paccar",
+"domain": "paccar.com",
+"country": "United States",
+"note": "Automotive & Mobility",
+"parent": ""
+},
+{
+"brand": "Tokyo Electron",
+"domain": "tel.com",
+"country": "Japan",
+"note": "Semiconductors & Electronics",
+"parent": ""
+}
+],
+"MASTER": [
+{
+"brand": "Coda Payments",
+"domain": "codapayments.com",
+"country": "Singapore",
+"note": "Gaming top-up and payments in SEA; esports and gaming-audience overlap",
+"parent": ""
+},
+{
+"brand": "Together Computer, Inc.",
+"domain": "together.xyz",
+"country": "United States",
+"note": "AI cloud for model training; team data/AI partner and tech showcase to senior buyers",
+"parent": ""
+},
+{
+"brand": "Texas Stock Exchange",
+"domain": "txse.com",
+"country": "United States",
+"note": "Dallas-based new Texas exchange launching trading in 2026; BlackRock, Citadel Securities, Fidelity backers; Texas GP in Austin",
+"parent": ""
+},
+{
+"brand": "MoMo (M_Service)",
+"domain": "momo.vn",
+"country": "Vietnam",
+"note": "Vietnam's leading e-wallet and super-app; potential future Vietnam GP audience",
+"parent": ""
+},
+{
+"brand": "Berachain",
+"domain": "berachain.com",
+"country": "United States",
+"note": "Crypto L1 with young global audience; F1 teams carry crypto sponsors",
+"parent": ""
+},
+{
+"brand": "Flying Tulip",
+"domain": "flyingtulip.com",
+"country": "",
+"note": "DeFi exchange project; crypto brands are active F1 sponsors",
+"parent": ""
+},
+{
+"brand": "Morpho",
+"domain": "morpho.org",
+"country": "France",
+"note": "Crypto/DeFi lending protocol; F1 has history with crypto sponsors",
+"parent": ""
+},
+{
+"brand": "IMPLY",
+"domain": "imply.com",
+"country": "USA",
+"note": "Real-time analytics (Apache Druid); B2B data showcase",
+"parent": ""
+},
+{
+"brand": "LFG NFTs, Corp.",
+"domain": "autograph.io",
+"country": "United States",
+"note": "Athlete-founded NFT/digital collectibles platform with sports celebrity ties",
+"parent": ""
+},
+{
+"brand": "Pixellot - AI Sports Media & Intelligence",
+"domain": "pixellot.tv",
+"country": "Israel",
+"note": "AI sports video; sports tech partner",
+"parent": ""
+},
+{
+"brand": "BloFin",
+"domain": "blofin.com",
+"country": "",
+"note": "Crypto derivatives exchange; young trader audience, crypto-sports sponsor profile",
+"parent": ""
+},
+{
+"brand": "SharonAI Holdings",
+"domain": "sharonai.com",
+"country": "USA",
+"note": "GPU cloud and AI infrastructure; technology partner pitch but early stage",
+"parent": ""
+},
+{
+"brand": "P10 Inc.",
+"domain": "p10inc.com",
+"country": "United States",
+"note": "Private markets multi-manager; modest scale makes brand-level hospitality more feasible",
+"parent": ""
+},
+{
+"brand": "Gulf Cable and Electrical Industries Company - KPSC",
+"domain": "gulfcable.com",
+"country": "Kuwait",
+"note": "Cable maker supplying utilities and construction in the Gulf; B2B visibility around Bahrain, Abu Dhabi, Saudi races",
+"parent": ""
+},
+{
+"brand": "Auramet International",
+"domain": "auramet.com",
+"country": "United States",
+"note": "Precious metals trading; wealthy clients, hospitality angle, low profile",
+"parent": ""
+},
+{
+"brand": "Taalas",
+"domain": "taalas.com",
+"country": "Canada",
+"note": "AI inference chip startup; technology showcase fit but young and unproven.",
+"parent": ""
+},
+{
+"brand": "Hark",
+"domain": "hark.com",
+"country": "United States",
+"note": "Sector fit for tech or B2B showcase; modest scale",
+"parent": ""
+},
+{
+"brand": "IQONIQ",
+"domain": "iqoniq.com",
+"country": "",
+"note": "Fan engagement app for sport; fan-data fit",
+"parent": ""
+},
+{
+"brand": "Credavenue Private Limited",
+"domain": "credavenue.com",
+"country": "India",
+"note": "Debt marketplace fintech; B2B, India off calendar",
+"parent": ""
+},
+{
+"brand": "Voltron Data",
+"domain": "voltrondata.com",
+"country": "United States",
+"note": "GPU analytics software; technology partner potential",
+"parent": ""
+},
+{
+"brand": "CentralNic Group PLC",
+"domain": "centralnicgroup.com",
+"country": "United Kingdom",
+"note": "Domain and adtech; B2B only",
+"parent": ""
+},
+{
+"brand": "Cardless",
+"domain": "cardless.com",
+"country": "United States",
+"note": "Co-branded card issuer for sports teams; fan-card tie-ins",
+"parent": ""
+},
+{
+"brand": "Funnel",
+"domain": "funnel.io",
+"country": "Sweden",
+"note": "Marketing data software; B2B marketer audience",
+"parent": ""
+},
+{
+"brand": "Prysm",
+"domain": "prysm.com",
+"country": "United States",
+"note": "Laser phosphor display walls; technology showcase for team garages or fan zones",
+"parent": ""
+},
+{
+"brand": "InfoTrack AU",
+"domain": "infotrack.com.au",
+"country": "Australia",
+"note": "Legal/property tech; growing global footprint, limited consumer reach",
+"parent": ""
+},
+{
+"brand": "Elea Data Centers",
+"domain": "eleadatacenters.com",
+"country": "Brazil",
+"note": "Brazilian data-centre operator; Brazil GP, B2B infrastructure showcase",
+"parent": ""
+},
+{
+"brand": "Standard Cognition Corp.",
+"domain": "standardcognition.com",
+"country": "United States",
+"note": "Autonomous checkout and computer-vision technology; limited consumer audience",
+"parent": ""
+},
+{
+"brand": "Dynamic Signal, Inc.",
+"domain": "dynamicsignal.com",
+"country": "United States",
+"note": "Employee communications software; B2B only",
+"parent": ""
+},
+{
+"brand": "NewBornTown Mobile Technology (Beijing) Co., Ltd.",
+"domain": "newborn-town.com",
+"country": "Singapore",
+"note": "Social apps for emerging markets",
+"parent": ""
+},
+{
+"brand": "Prentis",
+"domain": "prentis.ai",
+"country": "United States",
+"note": "Small or mid-sized group; limited F1 fit, group-level conversation",
+"parent": ""
+},
+{
+"brand": "HEAVY.AI",
+"domain": "heavy.ai",
+"country": "United States",
+"note": "GPU analytics software; data showcase for teams",
+"parent": ""
+},
+{
+"brand": "Trigo",
+"domain": "trigoretail.com",
+"country": "Israel",
+"note": "Checkout-free retail AI; retailer showcase, limited fan appeal",
+"parent": ""
+},
+{
+"brand": "TechMet Ltd",
+"domain": "techmet.com",
+"country": "United Kingdom",
+"note": "Critical minerals investor; sustainability and tech narrative, limited consumer audience",
+"parent": ""
+},
+{
+"brand": "Fintiv",
+"domain": "fintiv.global",
+"country": "United States",
+"note": "Mobile wallet and payments platform; B2B tech showcase",
+"parent": ""
+},
+{
+"brand": "Esusu",
+"domain": "esusurent.com",
+"country": "United States",
+"note": "Rent reporting fintech; US race markets, little F1 fit",
+"parent": ""
+},
+{
+"brand": "Fazz",
+"domain": "fazz.com",
+"country": "Indonesia",
+"note": "Southeast Asian fintech; Singapore GP only",
+"parent": ""
+},
+{
+"brand": "Standard AI",
+"domain": "standard.ai",
+"country": "United States",
+"note": "Autonomous checkout AI; retail tech showcase possible",
+"parent": ""
+},
+{
+"brand": "UPSIDER, Inc.",
+"domain": "up-sider.com",
+"country": "Japan",
+"note": "Japanese corporate card fintech; Suzuka GP market, startup audience",
+"parent": ""
+},
+{
+"brand": "Virsec",
+"domain": "virsec.com",
+"country": "United States",
+"note": "Cybersecurity vendor; B2B technology showcase, modest scale",
+"parent": ""
+},
+{
+"brand": "NextNav",
+"domain": "nextnav.com",
+"country": "USA",
+"note": "3D geolocation and PNT technology; niche data and technology showcase, limited audience",
+"parent": ""
+},
+{
+"brand": "WealthNavi Inc.",
+"domain": "wealthnavi.com",
+"country": "Japan",
+"note": "Japanese robo-advisor; Suzuka GP but little else",
+"parent": ""
+},
+{
+"brand": "VMG Partners",
+"domain": "vmgpartners.com",
+"country": "USA",
+"note": "Consumer-brand PE; portfolio brands could suit F1",
+"parent": ""
+},
+{
+"brand": "HIG Holdings, LLC",
+"domain": "higginbotham.net",
+"country": "United States",
+"note": "Insurance brokerage in US; client hospitality possible, Austin and Miami races",
+"parent": ""
+},
+{
+"brand": "Holiday Robotics",
+"domain": "holiday-robotics.com",
+"country": "South Korea",
+"note": "Small or mid-sized group; limited F1 fit, group-level conversation",
+"parent": ""
+},
+{
+"brand": "Sygaldry Technologies",
+"domain": "sygaldry.com",
+"country": "United States",
+"note": "Small or mid-sized group; limited F1 fit, group-level conversation",
+"parent": ""
+},
+{
+"brand": "Trust Machines",
+"domain": "trustmachines.co",
+"country": "United States",
+"note": "Bitcoin layer-two tools; crypto brands often use F1 for awareness",
+"parent": ""
+},
+{
+"brand": "SQream",
+"domain": "sqream.com",
+"country": "Israel",
+"note": "GPU analytics software; B2B data showcase with limited consumer profile",
+"parent": ""
+},
+{
+"brand": "Axoni",
+"domain": "axoni.com",
+"country": "United States",
+"note": "Capital markets technology; bank clients suit F1 hospitality",
+"parent": ""
+},
+{
+"brand": "BANCOMAT",
+"domain": "bancomat.it",
+"country": "Italy",
+"note": "Italian debit network owned by banks; domestic reach",
+"parent": ""
+},
+{
+"brand": "DeSo Blockchain",
+"domain": "deso.com",
+"country": "United States",
+"note": "Decentralised social blockchain; reportedly raised USD 200M from top VCs",
+"parent": ""
+},
+{
+"brand": "Babel Finance",
+"domain": "babel.finance",
+"country": "Hong Kong",
+"note": "Crypto lender; crypto sponsors common in F1 but credit-impaired",
+"parent": ""
+},
+{
+"brand": "Industrivarden",
+"domain": "industrivarden.se",
+"country": "Sweden",
+"note": "Investment holding in Volvo, Sandvik, Ericsson, SCA; indirect access only",
+"parent": ""
+},
+{
+"brand": "5ireChain",
+"domain": "5ire.org",
+"country": "India",
+"note": "Blockchain network, crypto-adjacent F1 audience",
+"parent": ""
+},
+{
+"brand": "Jar",
+"domain": "myjar.app",
+"country": "India",
+"note": "Indian savings app; domestic only",
+"parent": ""
+},
+{
+"brand": "ELIIY Power Co., Ltd. (\u30a8\u30ea\u30fc\u30d1\u30ef\u30fc\u682a\u5f0f\u4f1a\u793e)",
+"domain": "eliiypower.co.jp",
+"country": "Japan",
+"note": "Japanese lithium-ion battery maker; technology showcase",
+"parent": ""
+},
+{
+"brand": "Petuum",
+"domain": "petuum.com",
+"country": "United States",
+"note": "Industrial AI platform; data partner angle but low profile",
+"parent": ""
+},
+{
+"brand": "Corgi",
+"domain": "corgi.insure",
+"country": "US",
+"note": "AI-native insurer for startups; tech brand, US focus",
+"parent": ""
+},
+{
+"brand": "Sei Network",
+"domain": "sei.io",
+"country": "",
+"note": "Blockchain protocol; crypto brands do F1 deals, fan-facing",
+"parent": ""
+},
+{
+"brand": "Neynar",
+"domain": "neynar.com",
+"country": "United States",
+"note": "Developer infrastructure for Farcaster social protocol; crypto audience overlap",
+"parent": ""
+},
+{
+"brand": "Lukka",
+"domain": "lukka.tech",
+"country": "United States",
+"note": "Crypto tax and data vendor; B2B audience",
+"parent": ""
+},
+{
+"brand": "Metaplanet Inc.",
+"domain": "metaplanet.jp",
+"country": "Japan",
+"note": "Bitcoin treasury company; crypto brand visibility, Japanese GP market",
+"parent": ""
+},
+{
+"brand": "COGITO PRO",
+"domain": "cogitocorp.com",
+"country": "United States",
+"note": "Conversational AI for call centres; B2B",
+"parent": ""
+},
+{
+"brand": "NEXU",
+"domain": "nexu.mx",
+"country": "Mexico",
+"note": "Mexican car financing; Mexico GP audience",
+"parent": ""
+},
+{
+"brand": "Brinqa",
+"domain": "brinqa.com",
+"country": "United States",
+"note": "Cyber risk platform; B2B only",
+"parent": ""
+},
+{
+"brand": "Spenmo",
+"domain": "spenmo.com",
+"country": "Singapore",
+"note": "SME spend management; Singapore GP business hospitality angle only",
+"parent": ""
+},
+{
+"brand": "Settle",
+"domain": "settle.com",
+"country": "United States",
+"note": "Small private company; limited F1 relevance",
+"parent": ""
+},
+{
+"brand": "Early Salary (Pune)",
+"domain": "earlysalary.com",
+"country": "India",
+"note": "Indian consumer lender; no F1 race market",
+"parent": ""
+},
+{
+"brand": "Toho Titanium",
+"domain": "toho-titanium.co.jp",
+"country": "Japan",
+"note": "Titanium metal maker supplying aerospace; B2B performance-material link only",
+"parent": ""
+},
+{
+"brand": "RobCo",
+"domain": "rob.co",
+"country": "Germany",
+"note": "Robotics startup; technology showcase but small",
+"parent": ""
+},
+{
+"brand": "Airia",
+"domain": "airia.com",
+"country": "United States",
+"note": "Small or mid-sized group; limited F1 fit, group-level conversation",
+"parent": ""
+},
+{
+"brand": "DCX LIQUID COOLING SYSTEMS",
+"domain": "dcx.eu",
+"country": "Poland",
+"note": "Small private company; limited F1 relevance",
+"parent": ""
+},
+{
+"brand": "CARESTER",
+"domain": "carester.fr",
+"country": "France",
+"note": "Small private company; limited F1 relevance",
+"parent": ""
+},
+{
+"brand": "Vapor IO",
+"domain": "vapor.io",
+"country": "United States",
+"note": "Edge data centres; technology showcase",
+"parent": ""
+}
+],
+"Automotive and Mobility": [
+{
+"brand": "Oxa",
+"domain": "oxa.tech",
+"country": "United Kingdom",
+"note": "Autonomous vehicle software; innovation story matches F1 technology and A2RL themes",
+"parent": ""
+},
+{
+"brand": "ClearMotion",
+"domain": "clearmotion.com",
+"country": "United States",
+"note": "Active suspension tech; strong engineering and ride-dynamics showcase for F1 technology audience",
+"parent": ""
+},
+{
+"brand": "Ecarx Co. Ltd.",
+"domain": "ecarx.com.cn",
+"country": "China",
+"note": "Automotive software and compute supplier to Geely brands including Lotus; B2B technology showcase",
+"parent": ""
+},
+{
+"brand": "EasyMile",
+"domain": "easymile.com",
+"country": "France",
+"note": "Autonomous shuttle; technology showcase",
+"parent": ""
+},
+{
+"brand": "Xos Trucks",
+"domain": "xostrucks.com",
+"country": "United States",
+"note": "Electric commercial trucks; sustainability and fleet showcase, though small scale",
+"parent": ""
+}
+],
+"Software, Internet & AI": [
+{
+"brand": "AMI - Advanced Machine Intelligence",
+"domain": "amilabs.xyz",
+"country": "France",
+"note": "AI research lab; technology partner showcase, no consumer audience",
+"parent": ""
+},
+{
+"brand": "Algorand Technologies",
+"domain": "algorand.co",
+"country": "United States",
+"note": "Layer-1 blockchain with prior pro sports sponsorships; crypto brand seeking visibility",
+"parent": ""
+},
+{
+"brand": "Splice",
+"domain": "splice.com",
+"country": "United States",
+"note": "Music creation platform for creators; young audience, digital content",
+"parent": ""
+},
+{
+"brand": "Nutrient",
+"domain": "nutrient.io",
+"country": "Austria",
+"note": "Document software SDK; developer and B2B brand showcase via F1 team tech",
+"parent": ""
+},
+{
+"brand": "Fullscript",
+"domain": "fullscript.com",
+"country": "Canada",
+"note": "Supplement platform; wellness audience, North American race markets",
+"parent": ""
+},
+{
+"brand": "Quicknode",
+"domain": "quicknode.com",
+"country": "United States",
+"note": "Blockchain infrastructure; crypto sponsorship precedent in F1, but limited fit",
+"parent": ""
+},
+{
+"brand": "Eigen Labs, Inc.",
+"domain": "eigenlayer.xyz",
+"country": "United States",
+"note": "Crypto restaking protocol; crypto firms already sponsor F1 teams",
+"parent": ""
+},
+{
+"brand": "SOAR AI",
+"domain": "soarai.com",
+"country": "United States",
+"note": "AI neocloud and data centres; tech showcase for senior buyers",
+"parent": ""
+},
+{
+"brand": "Vortexa",
+"domain": "vortexa.com",
+"country": "United Kingdom",
+"note": "Energy analytics; senior B2B buyers",
+"parent": ""
+},
+{
+"brand": "Gradium",
+"domain": "gradium.ai",
+"country": "France",
+"note": "Voice AI lab; small young company",
+"parent": ""
+},
+{
+"brand": "SKALE Labs",
+"domain": "skale.space",
+"country": "United States",
+"note": "Web3 blockchain; crypto already active in F1 sponsorship",
+"parent": ""
+},
+{
+"brand": "SafeBreach",
+"domain": "safebreach.com",
+"country": "Israel",
+"note": "Breach and attack simulation; cybersecurity showcase for teams",
+"parent": ""
+},
+{
+"brand": "Ardoq",
+"domain": "ardoq.com",
+"country": "Norway",
+"note": "Enterprise architecture software, B2B only",
+"parent": ""
+},
+{
+"brand": "Sweet Security",
+"domain": "sweet.security",
+"country": "Israel",
+"note": "Cloud security start-up; B2B showcase at best",
+"parent": ""
+},
+{
+"brand": "Gradial",
+"domain": "gradial.com",
+"country": "United States",
+"note": "Sector fit for tech or B2B showcase; modest scale",
+"parent": ""
+},
+{
+"brand": "Virtru",
+"domain": "virtru.com",
+"country": "United States",
+"note": "Data security SaaS, B2B tech partner only",
+"parent": ""
+},
+{
+"brand": "IoTeX",
+"domain": "iotex.io",
+"country": "United States",
+"note": "Blockchain and DePIN platform; crypto brands buy F1 reach",
+"parent": ""
+},
+{
+"brand": "Nym",
+"domain": "nym.com",
+"country": "Switzerland",
+"note": "Privacy network and VPN; crypto-adjacent tech, niche audience",
+"parent": ""
+},
+{
+"brand": "Conversica",
+"domain": "conversica.com",
+"country": "USA",
+"note": "B2B AI sales assistant; limited consumer audience",
+"parent": ""
+},
+{
+"brand": "Ushur",
+"domain": "ushur.ai",
+"country": "United States",
+"note": "Enterprise automation software; B2B hospitality",
+"parent": ""
+},
+{
+"brand": "Laiye",
+"domain": "laiye.com",
+"country": "China",
+"note": "RPA and AI automation; limited consumer reach",
+"parent": ""
+},
+{
+"brand": "Physna",
+"domain": "physna.com",
+"country": "United States",
+"note": "3D geometry search; engineering data tooling",
+"parent": ""
+},
+{
+"brand": "AtlasBase",
+"domain": "atlasbase.com",
+"country": "United States",
+"note": "DNA data storage startup; technology showcase potential",
+"parent": ""
+},
+{
+"brand": "Phaidra",
+"domain": "phaidra.ai",
+"country": "United States",
+"note": "Industrial AI control for data centres; B2B showcase possible but small",
+"parent": ""
+},
+{
+"brand": "Corscale Data Centers",
+"domain": "corscale.com",
+"country": "United States",
+"note": "Small private company; limited F1 relevance",
+"parent": ""
+},
+{
+"brand": "Mecka",
+"domain": "mecka.ai",
+"country": "United States",
+"note": "Small or mid-sized group; limited F1 fit, group-level conversation",
+"parent": ""
+},
+{
+"brand": "Trase",
+"domain": "trase.ai",
+"country": "United States",
+"note": "Small private firm; limited F1 relevance",
+"parent": ""
+},
+{
+"brand": "Josys",
+"domain": "josys.com",
+"country": "Japan",
+"note": "SaaS management; B2B only",
+"parent": ""
+},
+{
+"brand": "Conquest",
+"domain": "conquestplanning.com",
+"country": "Canada",
+"note": "Financial planning software; B2B niche",
+"parent": ""
+},
+{
+"brand": "Egenera",
+"domain": "egenera.com",
+"country": "US",
+"note": "Legacy infrastructure software vendor; niche B2B",
+"parent": ""
+},
+{
+"brand": "Orbs",
+"domain": "orbs.com",
+"country": "Israel",
+"note": "Blockchain infrastructure; crypto audience overlap but small budget",
+"parent": ""
+}
+],
+"ERP Finance": [
+{
+"brand": "Wise plc",
+"domain": "wise.com",
+"country": "UK",
+"note": "Cross-border B2B payments (Wise Platform/Business)",
+"parent": ""
+},
+{
+"brand": "ePlus",
+"domain": "eplus.com",
+"country": "USA",
+"note": "IT indirect-spend procurement & financing",
+"parent": ""
+},
+{
+"brand": "Marqeta",
+"domain": "marqeta.com",
+"country": "USA",
+"note": "Card-issuing infrastructure for corporate spend/AP fintechs",
+"parent": ""
+},
+{
+"brand": "Wave",
+"domain": "waveapps.com",
+"country": "Canada",
+"note": "Free accounting & invoicing software for micro-business",
+"parent": ""
+},
+{
+"brand": "Beeline",
+"domain": "beeline.com",
+"country": "USA",
+"note": "Vendor management system (VMS) / contingent workforce",
+"parent": ""
+},
+{
+"brand": "C.H. Robinson",
+"domain": "chrobinson.com",
+"country": "USA",
+"note": "Freight brokerage & digital procurement (Navisphere)",
+"parent": ""
+},
+{
+"brand": "Insight Enterprises",
+"domain": "insight.com",
+"country": "USA",
+"note": "IT indirect-spend procurement & services",
+"parent": ""
+},
+{
+"brand": "ION Group",
+"domain": "iongroup.com",
+"country": "United Kingdom",
+"note": "Treasury, trading & risk-management software conglomerate",
+"parent": ""
+},
+{
+"brand": "RSM",
+"domain": "rsm.global",
+"country": "USA",
+"note": "Audit, tax & ERP/finance-systems consulting for mid-market",
+"parent": ""
+},
+{
+"brand": "Access Group",
+"domain": "theaccessgroup.com",
+"country": "UK",
+"note": "Business management software (finance/HR/ERP) for mid-market",
+"parent": ""
+},
+{
+"brand": "Advanced (OneAdvanced)",
+"domain": "oneadvanced.com",
+"country": "UK",
+"note": "Finance, HR & sector ERP software, BC Partners-owned",
+"parent": ""
+},
+{
+"brand": "Allegis Global Solutions",
+"domain": "allegisglobalsolutions.com",
+"country": "USA",
+"note": "VMS / MSP services procurement",
+"parent": ""
+},
+{
+"brand": "AvidXchange",
+"domain": "avidxchange.com",
+"country": "USA",
+"note": "AP automation & B2B payments",
+"parent": ""
+},
+{
+"brand": "BlackLine",
+"domain": "blackline.com",
+"country": "USA",
+"note": "Financial close & account reconciliation automation",
+"parent": ""
+},
+{
+"brand": "Board International",
+"domain": "board.com",
+"country": "Switzerland",
+"note": "Unified FP&A, BI and predictive analytics platform, Vector Capital-backed",
+"parent": ""
+},
+{
+"brand": "Bottomline Technologies",
+"domain": "bottomline.com",
+"country": "USA",
+"note": "AP automation & business payments (Paymode-X)",
+"parent": ""
+},
+{
+"brand": "Conga",
+"domain": "conga.com",
+"country": "USA",
+"note": "CPQ, contract lifecycle & revenue management, Thoma Bravo-owned",
+"parent": ""
+},
+{
+"brand": "E2open",
+"domain": "e2open.com",
+"country": "USA",
+"note": "Supply chain & logistics execution platform",
+"parent": ""
+},
+{
+"brand": "Echo Global Logistics",
+"domain": "echo.com",
+"country": "USA",
+"note": "Freight brokerage & procurement technology",
+"parent": ""
+},
+{
+"brand": "Esker",
+"domain": "esker.com",
+"country": "France",
+"note": "AP/AR & procure-to-pay automation",
+"parent": ""
+},
+{
+"brand": "GEP",
+"domain": "gep.com",
+"country": "USA",
+"note": "Procurement & supply chain software/services",
+"parent": ""
+},
+{
+"brand": "insightsoftware",
+"domain": "insightsoftware.com",
+"country": "USA",
+"note": "Reporting, FP&A & close/consolidation platform rollup, TA Associates/Clearlake-owned",
+"parent": ""
+},
+{
+"brand": "Jaggaer",
+"domain": "jaggaer.com",
+"country": "USA",
+"note": "Source-to-pay procurement software, Cinven-owned",
+"parent": ""
+},
+{
+"brand": "PROS Holdings",
+"domain": "pros.com",
+"country": "USA",
+"note": "AI-driven CPQ & dynamic pricing software",
+"parent": ""
+},
+{
+"brand": "Docaposte",
+"domain": "seres.eu",
+"country": "France",
+"note": "e-Invoicing & document exchange network",
+"parent": ""
+},
+{
+"brand": "Tungsten Automation",
+"domain": "tungstenautomation.com",
+"country": "USA",
+"note": "AP capture & e-invoicing (formerly Kofax)",
+"parent": ""
+},
+{
+"brand": "Zuora",
+"domain": "zuora.com",
+"country": "USA",
+"note": "Subscription billing & revenue management platform",
+"parent": ""
+},
+{
+"brand": "Avalara",
+"domain": "avalara.com",
+"country": "USA",
+"note": "Tax compliance automation at scale",
+"parent": ""
+},
+{
+"brand": "Comarch",
+"domain": "comarch.com",
+"country": "Poland",
+"note": "EDI & e-invoicing",
+"parent": ""
+},
+{
+"brand": "Paycom",
+"domain": "paycom.com",
+"country": "USA",
+"note": "Payroll & HCM software at scale",
+"parent": ""
+},
+{
+"brand": "RXO (Coyote Logistics)",
+"domain": "rxo.com",
+"country": "USA",
+"note": "Freight brokerage & digital procurement",
+"parent": ""
+},
+{
+"brand": "Safeguard Global",
+"domain": "safeguardglobal.com",
+"country": "USA",
+"note": "Global payroll & Employer-of-Record platform",
+"parent": ""
+},
+{
+"brand": "Velocity Global",
+"domain": "velocityglobal.com",
+"country": "USA",
+"note": "Global employment, payroll & workforce management platform",
+"parent": ""
+},
+{
+"brand": "Billtrust",
+"domain": "billtrust.com",
+"country": "USA",
+"note": "AR automation / order-to-cash software",
+"parent": ""
+},
+{
+"brand": "C2FO",
+"domain": "c2fo.com",
+"country": "USA",
+"note": "Supply chain / working-capital finance",
+"parent": ""
+},
+{
+"brand": "Convera",
+"domain": "convera.com",
+"country": "USA",
+"note": "Cross-border B2B payments for AP/procurement",
+"parent": ""
+},
+{
+"brand": "Exact Software",
+"domain": "exact.com",
+"country": "Netherlands",
+"note": "SMB/mid-market accounting & ERP software, KKR-owned",
+"parent": ""
+},
+{
+"brand": "Globality",
+"domain": "globality.com",
+"country": "USA",
+"note": "AI-powered sourcing & supplier discovery",
+"parent": ""
+},
+{
+"brand": "Kyriba",
+"domain": "kyriba.com",
+"country": "USA",
+"note": "Treasury & cash/liquidity management (CFO-stack)",
+"parent": ""
+},
+{
+"brand": "Loadsmart",
+"domain": "loadsmart.com",
+"country": "USA",
+"note": "Freight procurement & digital brokerage",
+"parent": ""
+},
+{
+"brand": "Medius",
+"domain": "medius.com",
+"country": "Sweden",
+"note": "AP automation & spend management, Nordic Capital-backed",
+"parent": ""
+},
+{
+"brand": "Proxima Group",
+"domain": "proximagroup.com",
+"country": "UK",
+"note": "Procurement consulting & managed services",
+"parent": ""
+},
+{
+"brand": "Rapyd",
+"domain": "rapyd.net",
+"country": "UK",
+"note": "Global payments infrastructure for B2B/AP",
+"parent": ""
+},
+{
+"brand": "RELX (LexisNexis Risk Solutions)",
+"domain": "relx.com",
+"country": "UK",
+"note": "Supplier & third-party risk data",
+"parent": ""
+},
+{
+"brand": "Scanmarket (Unit4)",
+"domain": "scanmarket.com",
+"country": "Denmark",
+"note": "Sourcing & contract management",
+"parent": ""
+},
+{
+"brand": "Soldo",
+"domain": "soldo.com",
+"country": "UK",
+"note": "Corporate card & expense management",
+"parent": ""
+},
+{
+"brand": "Spendesk",
+"domain": "spendesk.com",
+"country": "France",
+"note": "7-in-1 spend management",
+"parent": ""
+},
+{
+"brand": "Strada",
+"domain": "strada.co",
+"country": "USA",
+"note": "Global payroll & HR business-process outsourcing (spun off from Alight)",
+"parent": ""
+},
+{
+"brand": "TaxBit",
+"domain": "taxbit.com",
+"country": "USA",
+"note": "Digital-asset tax & accounting compliance software",
+"parent": ""
+},
+{
+"brand": "Thomson Reuters Tax & Accounting",
+"domain": "tax.thomsonreuters.com",
+"country": "Canada",
+"note": "Tax & accounting software (ONESOURCE, CS Professional Suite)",
+"parent": ""
+},
+{
+"brand": "Tipalti",
+"domain": "tipalti.com",
+"country": "USA",
+"note": "AP automation & global mass payments",
+"parent": ""
+},
+{
+"brand": "TOTVS",
+"domain": "totvs.com",
+"country": "Brazil",
+"note": "Leading Latin American vertical ERP + fintech",
+"parent": ""
+},
+{
+"brand": "Vena Solutions",
+"domain": "venasolutions.com",
+"country": "Canada",
+"note": "Excel-native FP&A and planning software",
+"parent": ""
+},
+{
+"brand": "Works Human Intelligence",
+"domain": "works-hi.co.jp",
+"country": "Japan",
+"note": "HR/payroll SaaS ('COMPANY') for large Japanese enterprises",
+"parent": ""
+},
+{
+"brand": "Yonyou",
+"domain": "yonyou.com",
+"country": "China",
+"note": "China's #1 ERP and enterprise cloud-service vendor",
+"parent": ""
+},
+{
+"brand": "Zycus",
+"domain": "zycus.com",
+"country": "USA",
+"note": "AI-driven source-to-pay",
+"parent": ""
+},
+{
+"brand": "MHR",
+"domain": "mhrglobal.com",
+"country": "UK",
+"note": "HR & payroll software for large UK/global enterprises",
+"parent": ""
+},
+{
+"brand": "Multiplier",
+"domain": "usemultiplier.com",
+"country": "Singapore",
+"note": "Global payroll & Employer-of-Record platform",
+"parent": ""
+},
+{
+"brand": "Ryan LLC",
+"domain": "ryan.com",
+"country": "USA",
+"note": "Tax services & tax technology platform at scale",
+"parent": ""
+},
+{
+"brand": "Sievo",
+"domain": "sievo.com",
+"country": "Finland",
+"note": "Procurement & spend-analytics software for global enterprises",
+"parent": ""
+},
+{
+"brand": "Stampli",
+"domain": "stampli.com",
+"country": "USA",
+"note": "AI-powered accounts payable automation platform",
+"parent": ""
+},
+{
+"brand": "Yooz",
+"domain": "getyooz.com",
+"country": "France",
+"note": "Cloud AP automation & procure-to-pay software",
+"parent": ""
+},
+{
+"brand": "Abacum",
+"domain": "abacum.io",
+"country": "Spain",
+"note": "Collaborative FP&A platform for mid-market/enterprise",
+"parent": ""
+},
+{
+"brand": "Cube Software",
+"domain": "cubesoftware.com",
+"country": "USA",
+"note": "Spreadsheet-native FP&A planning platform",
+"parent": ""
+},
+{
+"brand": "Expensify",
+"domain": "expensify.com",
+"country": "USA",
+"note": "Travel & expense management software",
+"parent": ""
+}
+],
+"GRC Risk": [
+{
+"brand": "Corporation Service Company",
+"domain": "cscglobal.com",
+"country": "US",
+"note": "Entity management, legal & compliance services/software",
+"parent": ""
+},
+{
+"brand": "Control Risks",
+"domain": "controlrisks.com",
+"country": "UK",
+"note": "Risk, compliance & investigations consultancy",
+"parent": ""
+},
+{
+"brand": "Crawford & Company",
+"domain": "crawco.com",
+"country": "United States",
+"note": "Insurance Risk Software (Claims/Risk Management)",
+"parent": ""
+},
+{
+"brand": "Lockton Companies",
+"domain": "lockton.com",
+"country": "US",
+"note": "Insurance brokerage & risk advisory",
+"parent": ""
+},
+{
+"brand": "ACA Group",
+"domain": "acaglobal.com",
+"country": "United States",
+"note": "Surveillance & Conduct",
+"parent": ""
+},
+{
+"brand": "Brown & Brown, Inc.",
+"domain": "brownandbrown.com",
+"country": "US",
+"note": "Retail & wholesale insurance brokerage",
+"parent": ""
+},
+{
+"brand": "Quantifind",
+"domain": "quantifind.com",
+"country": "United States",
+"note": "AI data/eval (risk intelligence)",
+"parent": ""
+},
+{
+"brand": "Sedgwick",
+"domain": "sedgwick.com",
+"country": "United States",
+"note": "Insurance Risk Software (Claims/Risk Management)",
+"parent": ""
+},
+{
+"brand": "AlixPartners",
+"domain": "alixpartners.com",
+"country": "US",
+"note": "Financial crime, forensic & regulatory-risk consulting",
+"parent": ""
+},
+{
+"brand": "Archer",
+"domain": "archerirm.com",
+"country": "US",
+"note": "Enterprise GRC platform",
+"parent": ""
+},
+{
+"brand": "Caseware International",
+"domain": "caseware.com",
+"country": "Canada",
+"note": "Audit workflow & data analytics software",
+"parent": ""
+},
+{
+"brand": "Charles River Associates",
+"domain": "crai.com",
+"country": "US",
+"note": "Economic, risk & regulatory consulting",
+"parent": ""
+},
+{
+"brand": "Charles Taylor",
+"domain": "charlestaylor.com",
+"country": "UK",
+"note": "Insurance claims, risk & compliance services",
+"parent": ""
+},
+{
+"brand": "Coface",
+"domain": "coface.com",
+"country": "France",
+"note": "Credit Risk Data (Trade Credit)",
+"parent": ""
+},
+{
+"brand": "CoreLogic",
+"domain": "corelogic.com",
+"country": "US",
+"note": "Property & catastrophe risk data (insurance-adjacent)",
+"parent": ""
+},
+{
+"brand": "Crowe LLP",
+"domain": "crowe.com",
+"country": "US",
+"note": "Audit, risk & regulatory compliance advisory",
+"parent": ""
+},
+{
+"brand": "Datasite",
+"domain": "datasite.com",
+"country": "US",
+"note": "Virtual data rooms & M&A due-diligence software",
+"parent": ""
+},
+{
+"brand": "Donnelley Financial Solutions (DFIN)",
+"domain": "dfinsolutions.com",
+"country": "US",
+"note": "Regulatory filing, disclosure & compliance software",
+"parent": ""
+},
+{
+"brand": "Duck Creek Technologies",
+"domain": "duckcreek.com",
+"country": "US",
+"note": "Insurance underwriting & compliance software",
+"parent": ""
+},
+{
+"brand": "Epiq",
+"domain": "epiqglobal.com",
+"country": "US",
+"note": "E-discovery & legal/compliance managed services",
+"parent": ""
+},
+{
+"brand": "Global Relay",
+"domain": "globalrelay.com",
+"country": "Canada",
+"note": "Surveillance & Conduct",
+"parent": ""
+},
+{
+"brand": "Ideagen",
+"domain": "ideagen.com",
+"country": "UK",
+"note": "Compliance, audit & quality management software (Pentana, Q-Pulse)",
+"parent": ""
+},
+{
+"brand": "iManage",
+"domain": "imanage.com",
+"country": "US",
+"note": "Legal knowledge, document & risk-governance software",
+"parent": ""
+},
+{
+"brand": "Intapp",
+"domain": "intapp.com",
+"country": "US",
+"note": "Risk, conflicts & compliance software for professional/financial services",
+"parent": ""
+},
+{
+"brand": "IQ-EQ",
+"domain": "iqeq.com",
+"country": "Luxembourg",
+"note": "Investor & corporate compliance services",
+"parent": ""
+},
+{
+"brand": "ISS STOXX",
+"domain": "issgovernance.com",
+"country": "US",
+"note": "Governance & proxy advisory / ESG",
+"parent": ""
+},
+{
+"brand": "MasterControl",
+"domain": "mastercontrol.com",
+"country": "US",
+"note": "Quality management system (QMS) software",
+"parent": ""
+},
+{
+"brand": "Mitratech",
+"domain": "mitratech.com",
+"country": "US",
+"note": "Legal ops, policy & compliance management",
+"parent": ""
+},
+{
+"brand": "NAVEX Global",
+"domain": "navex.com",
+"country": "US",
+"note": "Ethics, compliance & policy management",
+"parent": ""
+},
+{
+"brand": "NCino",
+"domain": "ncino.com",
+"country": "United States",
+"note": "GRC Platform (Bank Operating System)",
+"parent": ""
+},
+{
+"brand": "OneStream Software",
+"domain": "onestream.com",
+"country": "US",
+"note": "Financial close, consolidation & reporting (CPM) software",
+"parent": ""
+},
+{
+"brand": "Resolver",
+"domain": "resolver.com",
+"country": "Canada",
+"note": "Risk intelligence & incident management",
+"parent": ""
+},
+{
+"brand": "Riskonnect",
+"domain": "riskonnect.com",
+"country": "US",
+"note": "Integrated risk management platform",
+"parent": ""
+},
+{
+"brand": "SEI Investments",
+"domain": "seic.com",
+"country": "United States",
+"note": "GRC Platform",
+"parent": ""
+},
+{
+"brand": "Skillsoft (SumTotal Compliance)",
+"domain": "skillsoft.com",
+"country": "US",
+"note": "Compliance & ethics training software",
+"parent": ""
+},
+{
+"brand": "UnitedLex",
+"domain": "unitedlex.com",
+"country": "US",
+"note": "Legal managed services & ALSP",
+"parent": ""
+},
+{
+"brand": "Alter Domus",
+"domain": "alterdomus.com",
+"country": "Luxembourg",
+"note": "Fund & corporate administration services",
+"parent": ""
+},
+{
+"brand": "Alvarez & Marsal",
+"domain": "alvarezandmarsal.com",
+"country": "US",
+"note": "Risk, restructuring & regulatory compliance advisory",
+"parent": ""
+},
+{
+"brand": "CRIF",
+"domain": "crif.com",
+"country": "Italy",
+"note": "Credit Risk Data",
+"parent": ""
+},
+{
+"brand": "Davies Group",
+"domain": "davies-group.com",
+"country": "UK",
+"note": "Claims management & insurance BPO/tech",
+"parent": ""
+},
+{
+"brand": "Factor",
+"domain": "factor.law",
+"country": "US",
+"note": "Alternative legal services (formerly Redgrave Data)",
+"parent": ""
+},
+{
+"brand": "FTI Consulting",
+"domain": "fticonsulting.com",
+"country": "US",
+"note": "Risk, forensic & regulatory compliance advisory",
+"parent": ""
+},
+{
+"brand": "Protiviti",
+"domain": "protiviti.com",
+"country": "US",
+"note": "Internal audit, risk & compliance consulting",
+"parent": ""
+},
+{
+"brand": "Morningstar",
+"domain": "",
+"country": "",
+"note": "",
+"parent": ""
+},
+{
+"brand": "Temenos (Financial Crime Mitigation)",
+"domain": "temenos.com",
+"country": "Switzerland",
+"note": "AML / Financial Crime Software",
+"parent": ""
+},
+{
+"brand": "TransUnion",
+"domain": "transunion.com",
+"country": "United States",
+"note": "Credit Risk Data",
+"parent": ""
+},
+{
+"brand": "Vistra",
+"domain": "vistra.com",
+"country": "Singapore",
+"note": "Corporate, fund & trust services",
+"parent": ""
+},
+{
+"brand": "Axiom (AxiomLaw)",
+"domain": "axiomlaw.com",
+"country": "US",
+"note": "Alternative legal services & managed legal talent",
+"parent": ""
+},
+{
+"brand": "ComplyAdvantage",
+"domain": "complyadvantage.com",
+"country": "UK",
+"note": "AML/KYC screening & financial-crime risk data",
+"parent": ""
+},
+{
+"brand": "PatSnap",
+"domain": "patsnap.com",
+"country": "UK",
+"note": "IP & innovation intelligence platform",
+"parent": ""
+},
+{
+"brand": "Planful",
+"domain": "planful.com",
+"country": "US",
+"note": "FP&A & financial close/reporting software",
+"parent": ""
+},
+{
+"brand": "Shift Technology",
+"domain": "shift-technology.com",
+"country": "France",
+"note": "AI fraud detection & claims decisioning for insurers",
+"parent": ""
+},
+{
+"brand": "AML RightSource",
+"domain": "amlrightsource.com",
+"country": "United States",
+"note": "AML / Financial Crime Software",
+"parent": ""
+},
+{
+"brand": "Broadridge Financial Solutions",
+"domain": "broadridge.com",
+"country": "US",
+"note": "Governance & regulatory communications/compliance",
+"parent": ""
+},
+{
+"brand": "Chainalysis",
+"domain": "chainalysis.com",
+"country": "US",
+"note": "Blockchain compliance & AML analytics",
+"parent": ""
+},
+{
+"brand": "Confluence Technologies",
+"domain": "confluence.com",
+"country": "United States",
+"note": "GRC Platform (Regulatory Reporting)",
+"parent": ""
+},
+{
+"brand": "EcoVadis",
+"domain": "ecovadis.com",
+"country": "France",
+"note": "ESG & supply-chain sustainability ratings",
+"parent": ""
+},
+{
+"brand": "Exiger",
+"domain": "exiger.com",
+"country": "US",
+"note": "Third-party & supply-chain risk (AI-driven)",
+"parent": ""
+},
+{
+"brand": "Fenergo",
+"domain": "fenergo.com",
+"country": "Ireland",
+"note": "Client lifecycle management & KYC/AML compliance",
+"parent": ""
+},
+{
+"brand": "FIS (Fidelity National Information Services)",
+"domain": "fisglobal.com",
+"country": "US",
+"note": "Compliance & risk solutions for banks",
+"parent": ""
+},
+{
+"brand": "Forvis Mazars",
+"domain": "forvismazars.com",
+"country": "US",
+"note": "Audit, risk & regulatory compliance advisory network",
+"parent": ""
+},
+{
+"brand": "Guidehouse",
+"domain": "guidehouse.com",
+"country": "US",
+"note": "Risk, regulatory & compliance advisory (incl. government)",
+"parent": ""
+},
+{
+"brand": "Howden Group Holdings",
+"domain": "howdengroup.com",
+"country": "UK",
+"note": "Insurance & reinsurance broking",
+"parent": ""
+},
+{
+"brand": "Hub International",
+"domain": "hubinternational.com",
+"country": "US",
+"note": "Insurance brokerage & risk services",
+"parent": ""
+},
+{
+"brand": "MetricStream",
+"domain": "metricstream.com",
+"country": "US",
+"note": "Integrated risk & compliance platform",
+"parent": ""
+},
+{
+"brand": "Ontra",
+"domain": "ontra.ai",
+"country": "US",
+"note": "Contract automation for private markets",
+"parent": ""
+},
+{
+"brand": "Signifyd",
+"domain": "signifyd.com",
+"country": "United States",
+"note": "Fraud Prevention",
+"parent": ""
+},
+{
+"brand": "Smarsh",
+"domain": "smarsh.com",
+"country": "United States",
+"note": "Surveillance & Conduct",
+"parent": ""
+},
+{
+"brand": "TMF Group",
+"domain": "tmf-group.com",
+"country": "Netherlands",
+"note": "Corporate, fund & compliance administration",
+"parent": ""
+},
+{
+"brand": "Osano",
+"domain": "osano.com",
+"country": "US",
+"note": "Data privacy & consent management compliance software",
+"parent": ""
+},
+{
+"brand": "Anaqua",
+"domain": "anaqua.com",
+"country": "US",
+"note": "Intellectual property management software",
+"parent": ""
+},
+{
+"brand": "Aztec Group",
+"domain": "aztecgroup.co.uk",
+"country": "UK",
+"note": "Fund & corporate administration services",
+"parent": ""
+},
+{
+"brand": "Case IQ",
+"domain": "caseiq.com",
+"country": "Canada",
+"note": "Investigation & whistleblowing case management software",
+"parent": ""
+},
+{
+"brand": "Clarity AI",
+"domain": "clarity.ai",
+"country": "Spain",
+"note": "Sustainability & ESG risk analytics platform",
+"parent": ""
+},
+{
+"brand": "Corsearch",
+"domain": "corsearch.com",
+"country": "US",
+"note": "Brand & IP protection data/software",
+"parent": ""
+},
+{
+"brand": "Dennemeyer Group",
+"domain": "dennemeyer.com",
+"country": "Luxembourg",
+"note": "IP management services & software",
+"parent": ""
+},
+{
+"brand": "Elevate Services",
+"domain": "elevateservices.com",
+"country": "US",
+"note": "Alternative legal services & legal tech",
+"parent": ""
+},
+{
+"brand": "Gen II Fund Services",
+"domain": "gen2fund.com",
+"country": "US",
+"note": "Private equity fund administration & compliance",
+"parent": ""
+},
+{
+"brand": "JTC Group",
+"domain": "jtcgroup.com",
+"country": "UK",
+"note": "Fund & corporate administration services",
+"parent": ""
+},
+{
+"brand": "Langham Hall",
+"domain": "langhamhall.com",
+"country": "UK",
+"note": "Fund administration & compliance services",
+"parent": ""
+},
+{
+"brand": "LCP (Lane Clark & Peacock)",
+"domain": "lcp.com",
+"country": "UK",
+"note": "Actuarial, pensions & risk consulting",
+"parent": ""
+},
+{
+"brand": "Morae Global",
+"domain": "moraeglobal.com",
+"country": "US",
+"note": "Legal & compliance managed services",
+"parent": ""
+},
+{
+"brand": "Ocorian",
+"domain": "ocorian.com",
+"country": "UK",
+"note": "Corporate, fund & trust compliance services",
+"parent": ""
+},
+{
+"brand": "Position Green",
+"domain": "positiongreen.com",
+"country": "Sweden",
+"note": "ESG & sustainability reporting software",
+"parent": ""
+},
+{
+"brand": "QuisLex",
+"domain": "quislex.com",
+"country": "US",
+"note": "Legal process outsourcing & managed review",
+"parent": ""
+},
+{
+"brand": "Rouse",
+"domain": "rouse.com",
+"country": "UK",
+"note": "IP management & advisory services",
+"parent": ""
+},
+{
+"brand": "Trident Trust",
+"domain": "tridenttrust.com",
+"country": "US",
+"note": "Corporate & trust administration services",
+"parent": ""
+},
+{
+"brand": "Zedra",
+"domain": "zedra.com",
+"country": "UK",
+"note": "Corporate, fund & private client services",
+"parent": ""
+}
+],
+"Automation": [
+{
+"brand": "Apptronik, Inc.",
+"domain": "apptronik.com",
+"country": "United States",
+"note": "Humanoid robots (Apollo)",
+"parent": ""
+},
+{
+"brand": "Honeywell Intelligrated (Honeywell International)",
+"domain": "intelligrated.com",
+"country": "United States",
+"note": "Warehouse robotics & material-handling automation (Honeywell division)",
+"parent": ""
+},
+{
+"brand": "RBC Bearings Incorporated",
+"domain": "rbcbearings.com",
+"country": "United States",
+"note": "Precision engineered bearings",
+"parent": ""
+},
+{
+"brand": "ATS Corporation",
+"domain": "atsautomation.com",
+"country": "Canada",
+"note": "Automation systems integrator",
+"parent": ""
+},
+{
+"brand": "JTEKT Corporation",
+"domain": "jtekt.co.jp",
+"country": "Japan",
+"note": "Precision bearings, driveline & machine tool automation",
+"parent": ""
+},
+{
+"brand": "NTN Corporation",
+"domain": "ntnglobal.com",
+"country": "Japan",
+"note": "Precision bearings for industrial & robotics applications",
+"parent": ""
+},
+{
+"brand": "The Timken Company",
+"domain": "timken.com",
+"country": "United States",
+"note": "Precision bearings & power-transmission components",
+"parent": ""
+},
+{
+"brand": "1X (Robotics)",
+"domain": "1x.tech",
+"country": "Norway",
+"note": "Humanoid robots (NEO, consumer/industrial)",
+"parent": ""
+},
+{
+"brand": "Addverb Technologies Ltd.",
+"domain": "addverb.com",
+"country": "India",
+"note": "Warehouse robotics & AMR systems",
+"parent": ""
+},
+{
+"brand": "Agility Robotics, Inc.",
+"domain": "agilityrobotics.com",
+"country": "United States",
+"note": "Humanoid robots (Digit)",
+"parent": ""
+},
+{
+"brand": "Ammeraal Beltech",
+"domain": "ammeraalbeltech.com",
+"country": "Netherlands",
+"note": "Conveyor belting & process belts",
+"parent": ""
+},
+{
+"brand": "Aspen Technology, Inc.",
+"domain": "aspentech.com",
+"country": "USA",
+"note": "Process simulation & industrial software (majority Emerson-owned)",
+"parent": ""
+},
+{
+"brand": "Novanta Inc",
+"domain": "ati-ia.com",
+"country": "United States",
+"note": "Robotic tool-changers & end-effectors",
+"parent": ""
+},
+{
+"brand": "AutoStore AS",
+"domain": "autostoresystem.com",
+"country": "Norway",
+"note": "Warehouse cube-storage robotics",
+"parent": ""
+},
+{
+"brand": "Balluff GmbH",
+"domain": "balluff.com",
+"country": "Germany",
+"note": "Industrial sensors & connectivity",
+"parent": ""
+},
+{
+"brand": "Banner Engineering",
+"domain": "bannerengineering.com",
+"country": "USA",
+"note": "Industrial sensors & indicator lights",
+"parent": ""
+},
+{
+"brand": "Baumer Group",
+"domain": "baumer.com",
+"country": "Switzerland",
+"note": "Industrial sensors, encoders & vision",
+"parent": ""
+},
+{
+"brand": "Bonfiglioli S.p.A.",
+"domain": "bonfiglioli.com",
+"country": "Italy",
+"note": "Gearmotors, drives & mobile hydraulics",
+"parent": ""
+},
+{
+"brand": "Boston Dynamics, Inc.",
+"domain": "bostondynamics.com",
+"country": "United States",
+"note": "Advanced/humanoid & quadruped robots (Atlas, Spot)",
+"parent": ""
+},
+{
+"brand": "Bright Machines, Inc.",
+"domain": "brightmachines.com",
+"country": "United States",
+"note": "Software-defined robotic factory automation",
+"parent": ""
+},
+{
+"brand": "B\u00f6llhoff Group",
+"domain": "boellhoff.com",
+"country": "Germany",
+"note": "Fastening & assembly technology",
+"parent": ""
+},
+{
+"brand": "Columbus McKinnon Corporation",
+"domain": "columbusmckinnon.com",
+"country": "United States",
+"note": "Conveyor systems & material-handling equipment (parent of Dorner)",
+"parent": ""
+},
+{
+"brand": "ASMPT Ltd",
+"domain": "",
+"country": "",
+"note": "",
+"parent": ""
+},
+{
+"brand": "Datalogic S.p.A.",
+"domain": "datalogic.com",
+"country": "Italy",
+"note": "Machine vision, barcode & sensors",
+"parent": ""
+},
+{
+"brand": "Denso Wave Incorporated",
+"domain": "denso-wave.com",
+"country": "Japan",
+"note": "Industrial robot OEM (parent: Denso Corporation)",
+"parent": ""
+},
+{
+"brand": "DESTACO (Dover Corporation)",
+"domain": "destaco.com",
+"country": "United States",
+"note": "Robot grippers, clamps & workholding",
+"parent": ""
+},
+{
+"brand": "Element Logic AS",
+"domain": "elementlogic.net",
+"country": "Norway",
+"note": "Warehouse robotics integration (AutoStore systems)",
+"parent": ""
+},
+{
+"brand": "FARO Technologies, Inc.",
+"domain": "faro.com",
+"country": "USA",
+"note": "3D measurement & metrology",
+"parent": ""
+},
+{
+"brand": "Sidel",
+"domain": "",
+"country": "France",
+"note": "Packaging line automation & robotics integration",
+"parent": ""
+},
+{
+"brand": "Geek+ Inc.",
+"domain": "geekplus.com",
+"country": "China",
+"note": "Warehouse AMRs & fulfillment robotics",
+"parent": ""
+},
+{
+"brand": "GreyOrange Inc.",
+"domain": "greyorange.com",
+"country": "United States",
+"note": "Warehouse AMR & fulfillment orchestration",
+"parent": ""
+},
+{
+"brand": "Habasit AG",
+"domain": "habasit.com",
+"country": "Switzerland",
+"note": "Conveyor & power-transmission belting",
+"parent": ""
+},
+{
+"brand": "HAI Robotics Co., Ltd.",
+"domain": "hairobotics.com",
+"country": "China",
+"note": "Autonomous case-handling / ACR robots",
+"parent": ""
+},
+{
+"brand": "Harmonic (HLIT)",
+"domain": "",
+"country": "",
+"note": "",
+"parent": ""
+},
+{
+"brand": "Inductive Automation",
+"domain": "inductiveautomation.com",
+"country": "USA",
+"note": "SCADA/HMI software (Ignition)",
+"parent": ""
+},
+{
+"brand": "Inovance Technology Co., Ltd.",
+"domain": "inovance.com",
+"country": "China",
+"note": "Industrial robots, servo drives & automation",
+"parent": ""
+},
+{
+"brand": "Intralox, L.L.C.",
+"domain": "intralox.com",
+"country": "United States",
+"note": "Modular plastic conveyor belting",
+"parent": ""
+},
+{
+"brand": "J. Schmalz GmbH",
+"domain": "schmalz.com",
+"country": "Germany",
+"note": "Vacuum grippers & handling technology",
+"parent": ""
+},
+{
+"brand": "JR Automation (Hitachi Ltd.)",
+"domain": "jrautomation.com",
+"country": "United States",
+"note": "Robotic systems integration (parent: Hitachi)",
+"parent": ""
+},
+{
+"brand": "Kollmorgen (Regal Rexnord Corporation)",
+"domain": "kollmorgen.com",
+"country": "United States",
+"note": "Servo motors & motion control for robotics",
+"parent": ""
+},
+{
+"brand": "Kontron AG",
+"domain": "kontron.com",
+"country": "Germany",
+"note": "Industrial computing & IoT hardware",
+"parent": ""
+},
+{
+"brand": "Krohne Group",
+"domain": "krohne.com",
+"country": "Germany",
+"note": "Flow & level measurement instrumentation",
+"parent": ""
+},
+{
+"brand": "LMI Technologies Inc.",
+"domain": "lmi3d.com",
+"country": "Canada",
+"note": "3D machine vision smart sensors for robotic inspection",
+"parent": ""
+},
+{
+"brand": "maxon international ag",
+"domain": "maxongroup.com",
+"country": "Switzerland",
+"note": "Precision motors & motion control",
+"parent": ""
+},
+{
+"brand": "Nimble Robotics, Inc.",
+"domain": "nimblerobotics.com",
+"country": "United States",
+"note": "AI-powered warehouse fulfillment robotics",
+"parent": ""
+},
+{
+"brand": "OMRON Robotics (OMRON Corporation)",
+"domain": "omron.com",
+"country": "Japan",
+"note": "Industrial & mobile robot OEM (ex-Adept Technology)",
+"parent": ""
+},
+{
+"brand": "Path Robotics, Inc.",
+"domain": "path-robotics.com",
+"country": "United States",
+"note": "Autonomous robotic welding (AI-guided)",
+"parent": ""
+},
+{
+"brand": "Piab AB",
+"domain": "piab.com",
+"country": "Sweden",
+"note": "Vacuum grippers & automation components",
+"parent": ""
+},
+{
+"brand": "Siasun Robot & Automation Co., Ltd.",
+"domain": "siasun.com",
+"country": "China",
+"note": "Industrial robot OEM & automation systems",
+"parent": ""
+},
+{
+"brand": "Swisslog Holding AG",
+"domain": "swisslog.com",
+"country": "Switzerland",
+"note": "Warehouse robotics & healthcare logistics automation",
+"parent": ""
+},
+{
+"brand": "Symbotic Inc.",
+"domain": "symbotic.com",
+"country": "United States",
+"note": "Warehouse robotics (AI-directed AMR fulfillment)",
+"parent": ""
+},
+{
+"brand": "TGW Logistics Group GmbH",
+"domain": "tgw-group.com",
+"country": "Austria",
+"note": "Warehouse robotics & automation integration",
+"parent": ""
+},
+{
+"brand": "Universal Robots A/S",
+"domain": "universal-robots.com",
+"country": "Denmark",
+"note": "Collaborative robots (cobots)",
+"parent": ""
+},
+{
+"brand": "Wandelbots GmbH",
+"domain": "wandelbots.com",
+"country": "Germany",
+"note": "No-code robot programming platform (industrial robots)",
+"parent": ""
+},
+{
+"brand": "YG-1 Co., Ltd.",
+"domain": "yg1.co.kr",
+"country": "South Korea",
+"note": "Cutting tools (drills, end mills, taps)",
+"parent": ""
+},
+{
+"brand": "Advantech Co., Ltd.",
+"domain": "advantech.com",
+"country": "Taiwan",
+"note": "Industrial PCs & edge computing for automation",
+"parent": ""
+},
+{
+"brand": "Apex Tool Group, LLC",
+"domain": "apextoolgroup.com",
+"country": "United States",
+"note": "Professional & industrial fastening tools",
+"parent": ""
+},
+{
+"brand": "ARaymond",
+"domain": "araymond.com",
+"country": "France",
+"note": "Fastening & assembly systems",
+"parent": ""
+},
+{
+"brand": "Ceratizit Group",
+"domain": "ceratizit.com",
+"country": "Luxembourg",
+"note": "Cutting tools & hard-material engineering",
+"parent": ""
+},
+{
+"brand": "Comau S.p.A.",
+"domain": "comau.com",
+"country": "Italy",
+"note": "Industrial robot OEM & automation systems",
+"parent": ""
+},
+{
+"brand": "Gray, Inc.",
+"domain": "gray.com",
+"country": "United States",
+"note": "Industrial automation & robotics integration (within a diversified industrial-construction group)",
+"parent": ""
+},
+{
+"brand": "IMI plc (Norgren)",
+"domain": "imiplc.com",
+"country": "UK",
+"note": "Precision pneumatic & fluid motion control",
+"parent": ""
+},
+{
+"brand": "Kennametal Inc.",
+"domain": "kennametal.com",
+"country": "United States",
+"note": "Precision cutting tools & tooling systems",
+"parent": ""
+},
+{
+"brand": "Norma Group SE",
+"domain": "normagroup.com",
+"country": "Germany",
+"note": "Clamps & connection technology",
+"parent": ""
+},
+{
+"brand": "Pepperl+Fuchs SE",
+"domain": "pepperl-fuchs.com",
+"country": "Germany",
+"note": "Industrial sensors, explosion protection",
+"parent": ""
+},
+{
+"brand": "WAGO Kontakttechnik GmbH",
+"domain": "wago.com",
+"country": "Germany",
+"note": "Industrial connectivity, I/O, automation controllers",
+"parent": ""
+},
+{
+"brand": "Weidm\u00fcller Interface GmbH",
+"domain": "weidmueller.com",
+"country": "Germany",
+"note": "Industrial connectivity & automation electronics",
+"parent": ""
+},
+{
+"brand": "Covariant AI",
+"domain": "covariant.ai",
+"country": "United States",
+"note": "AI-powered robotic picking & warehouse automation",
+"parent": ""
+},
+{
+"brand": "ams OSRAM AG",
+"domain": "ams-osram.com",
+"country": "Austria",
+"note": "Industrial & optical sensor solutions",
+"parent": ""
+},
+{
+"brand": "Augury Inc.",
+"domain": "augury.com",
+"country": "USA",
+"note": "Industrial AI / machine health monitoring",
+"parent": ""
+},
+{
+"brand": "Gecko Robotics, Inc.",
+"domain": "geckorobotics.com",
+"country": "USA",
+"note": "Industrial AI inspection robots (infrastructure/asset integrity)",
+"parent": ""
+},
+{
+"brand": "Humanoid Ltd.",
+"domain": "humanoid.com",
+"country": "United Kingdom",
+"note": "Humanoid robots (industrial)",
+"parent": ""
+},
+{
+"brand": "Kassow Robots ApS",
+"domain": "kassowrobots.com",
+"country": "Denmark",
+"note": "Collaborative robots (7-axis cobots, parent: Kawasaki)",
+"parent": ""
+},
+{
+"brand": "Keyence Corporation",
+"domain": "keyence.com",
+"country": "Japan",
+"note": "Machine vision, sensors, measurement",
+"parent": ""
+},
+{
+"brand": "Krones AG",
+"domain": "krones.com",
+"country": "Germany",
+"note": "Packaging automation & robotic palletizing systems",
+"parent": ""
+},
+{
+"brand": "Nidec Corporation (Drive Technology & Motion)",
+"domain": "nidec.com",
+"country": "Japan",
+"note": "Servo motors, drives, motion control",
+"parent": ""
+},
+{
+"brand": "Physical Intelligence, Inc.",
+"domain": "physicalintelligence.company",
+"country": "United States",
+"note": "Robot foundation models / general-purpose robot AI",
+"parent": ""
+},
+{
+"brand": "Sensata Technologies",
+"domain": "sensata.com",
+"country": "USA",
+"note": "Industrial & automotive sensors",
+"parent": ""
+},
+{
+"brand": "SICK AG",
+"domain": "sick.com",
+"country": "Germany",
+"note": "Industrial sensors & safety systems",
+"parent": ""
+},
+{
+"brand": "Skild AI, Inc.",
+"domain": "skild.ai",
+"country": "United States",
+"note": "Robot foundation models (general-purpose robot AI)",
+"parent": ""
+},
+{
+"brand": "TE Connectivity Ltd. (Industrial Sensors)",
+"domain": "te.com",
+"country": "Switzerland",
+"note": "Industrial connectivity & sensors",
+"parent": ""
+},
+{
+"brand": "Tulip Interfaces, Inc.",
+"domain": "tulip.co",
+"country": "USA",
+"note": "Frontline/MES no-code manufacturing software",
+"parent": ""
+},
+{
+"brand": "Yokogawa Electric Corporation",
+"domain": "yokogawa.com",
+"country": "Japan",
+"note": "DCS, process instrumentation, SCADA",
+"parent": ""
+},
+{
+"brand": "NSK Ltd.",
+"domain": "nsk.com",
+"country": "Japan",
+"note": "Precision bearings & motion/positioning technology",
+"parent": ""
+},
+{
+"brand": "NXP Semiconductors N.V.",
+"domain": "nxp.com",
+"country": "Netherlands",
+"note": "Motor-control & industrial/IoT semiconductors",
+"parent": ""
+},
+{
+"brand": "C3.ai, Inc.",
+"domain": "c3.ai",
+"country": "USA",
+"note": "Enterprise/industrial AI software",
+"parent": ""
+},
+{
+"brand": "Interroll Holding AG",
+"domain": "interroll.com",
+"country": "Switzerland",
+"note": "Conveyor & material-handling automation components",
+"parent": ""
+},
+{
+"brand": "Kinaxis Inc.",
+"domain": "kinaxis.com",
+"country": "Canada",
+"note": "Supply chain & manufacturing planning software",
+"parent": ""
+},
+{
+"brand": "Acieta, LLC",
+"domain": "acieta.com",
+"country": "United States",
+"note": "Robotic systems integration",
+"parent": ""
+},
+{
+"brand": "Contrinex AG",
+"domain": "contrinex.com",
+"country": "Switzerland",
+"note": "Industrial proximity & photoelectric sensors",
+"parent": ""
+},
+{
+"brand": "Convergix Automation Solutions",
+"domain": "convergix.com",
+"country": "Canada",
+"note": "Automation & robotic systems integration",
+"parent": ""
+},
+{
+"brand": "Hytrol Conveyor Co., Inc.",
+"domain": "hytrol.com",
+"country": "United States",
+"note": "Conveyor systems for material handling",
+"parent": ""
+},
+{
+"brand": "Littelfuse, Inc.",
+"domain": "littelfuse.com",
+"country": "USA",
+"note": "Circuit protection for industrial control systems",
+"parent": ""
+},
+{
+"brand": "Zivid AS",
+"domain": "zivid.com",
+"country": "Norway",
+"note": "3D color machine vision cameras for robotics",
+"parent": ""
+}
+],
+"Vertical Saas": [
+{
+"brand": "Clearwater Analytics",
+"domain": "clearwateranalytics.com",
+"country": "United States",
+"note": "Investment management & accounting SaaS",
+"parent": ""
+},
+{
+"brand": "FieldEdge",
+"domain": "fieldedge.com",
+"country": "United States",
+"note": "Field service management software for HVAC/plumbing/electrical trades",
+"parent": ""
+},
+{
+"brand": "Radial",
+"domain": "radial.com",
+"country": "United States",
+"note": "E-commerce fulfillment and omnichannel logistics platform",
+"parent": ""
+},
+{
+"brand": "Bringg",
+"domain": "bringg.com",
+"country": "Israel",
+"note": "Delivery and fulfillment orchestration SaaS for retailers",
+"parent": ""
+},
+{
+"brand": "Aurora Solar",
+"domain": "aurorasolar.com",
+"country": "United States",
+"note": "Solar design, sales and proposal software platform",
+"parent": ""
+},
+{
+"brand": "Hostaway",
+"domain": "hostaway.com",
+"country": "United States",
+"note": "Vacation rental property management software",
+"parent": ""
+},
+{
+"brand": "RELEX Solutions",
+"domain": "relexsolutions.com",
+"country": "Finland",
+"note": "Retail/supply chain demand forecasting & planning SaaS",
+"parent": ""
+},
+{
+"brand": "SpotOn",
+"domain": "spoton.com",
+"country": "United States",
+"note": "Restaurant & retail commerce/POS platform",
+"parent": ""
+},
+{
+"brand": "Tekion",
+"domain": "tekion.com",
+"country": "United States",
+"note": "Cloud-native automotive retail platform",
+"parent": ""
+},
+{
+"brand": "ABC Fitness",
+"domain": "abcfitness.com",
+"country": "United States",
+"note": "Gym & health-club management software",
+"parent": ""
+},
+{
+"brand": "Alpega Group",
+"domain": "alpegagroup.com",
+"country": "Belgium",
+"note": "Transportation management system (TMS) software for logistics",
+"parent": ""
+},
+{
+"brand": "AutoFi",
+"domain": "autofi.com",
+"country": "United States",
+"note": "Digital auto retail & finance platform",
+"parent": ""
+},
+{
+"brand": "AutoLeap",
+"domain": "autoleap.com",
+"country": "Canada",
+"note": "Auto repair shop management software",
+"parent": ""
+},
+{
+"brand": "Edmunds",
+"domain": "edmunds.com",
+"country": "United States",
+"note": "Automotive research & dealer marketing platform",
+"parent": ""
+},
+{
+"brand": "Energy Exemplar",
+"domain": "energyexemplar.com",
+"country": "Australia",
+"note": "Energy market simulation and modeling software (PLEXOS)",
+"parent": ""
+},
+{
+"brand": "Fullpath",
+"domain": "fullpath.com",
+"country": "United States",
+"note": "AI-driven dealer marketing & data platform",
+"parent": ""
+},
+{
+"brand": "Keyloop",
+"domain": "keyloop.io",
+"country": "United Kingdom",
+"note": "Automotive retail & dealer management software",
+"parent": ""
+},
+{
+"brand": "LogiNext",
+"domain": "loginextsolutions.com",
+"country": "India",
+"note": "Logistics and delivery route optimization SaaS platform",
+"parent": ""
+},
+{
+"brand": "Tekmetric",
+"domain": "tekmetric.com",
+"country": "United States",
+"note": "Auto repair shop management software",
+"parent": ""
+},
+{
+"brand": "TrueCar",
+"domain": "truecar.com",
+"country": "United States",
+"note": "Automotive marketplace & dealer software",
+"parent": ""
+},
+{
+"brand": "Turvo",
+"domain": "turvo.com",
+"country": "United States",
+"note": "Collaborative transportation management system (TMS) SaaS",
+"parent": ""
+}
+],
+"Space": [
+{
+"brand": "STOKE Space Technologies",
+"domain": "stoke-space.com",
+"country": "United States",
+"note": "Reusable rocket developer; technology showcase and engineering alignment",
+"parent": ""
+},
+{
+"brand": "Orbex",
+"domain": "orbex.space",
+"country": "United Kingdom",
+"note": "UK small-launcher rocket company; innovation showcase but weak finances",
+"parent": ""
+},
+{
+"brand": "3D Robotics",
+"domain": "3dr.com",
+"country": "USA",
+"note": "Drone software company; tech showcase for enterprise buyers",
+"parent": ""
+},
+{
+"brand": "GITAI",
+"domain": "gitai.tech",
+"country": "Japan",
+"note": "Space robotics showcase; technology halo but small and early-stage",
+"parent": ""
+},
+{
+"brand": "Hidden Level",
+"domain": "hiddenlevel.com",
+"country": "United States",
+"note": "Airspace security technology; defence B2B",
+"parent": ""
+}
+]
+}
