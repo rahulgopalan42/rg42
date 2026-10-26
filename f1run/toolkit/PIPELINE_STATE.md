@@ -106,3 +106,4 @@
 - 2027 calendar now standard (announced 16 Sep 2026): Bahrain and Jeddah back, Portimao and Istanbul return, Zandvoort and Barcelona gone. toolkit/calendar_fix.py strips Zandvoort/Barcelona and 2026-only qualifiers and fixes months; run it (and no_grid_fix.py) on every tab before tab_build. About 100 already-delivered templates still name Zandvoort or Barcelona: awaiting the user's call on re-issuing.
 - Privacy: v8 brief now bans putting the user's name or email in any web request (two agents had used it in sec.gov User-Agent headers).
 - Wave 7 Apollo (Automotive and Mobility, Software Internet & AI, Existing Group Overlays) done: wave7_contacts.json, 658 emails / 170 brands. Credits left about 1,218.
+- Semiconductors: delivered (54 built, 0 skipped; Amphenol flagged as possibly on grid via CommScope at Haas). Rows in f1run/runs/semiconductors_rows.json. Contacts wave6_contacts.json (+5 re-run by domain). In flight: Software chunks 00-11.
