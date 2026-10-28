@@ -61,7 +61,7 @@
 >
 > What that means is the next tech partner can't just be another 'AI partner'. It has to be AI with a real job in one hard area, and a story the paddock hasn't heard a hundred times.
 >
-> And air fits that, because Formula 1 is a flying business. Around twenty-four race weekends on five continents, with people and freight flown round the world all season. When F1 first measured its carbon footprint, logistics and travel made up nearly three quarters of it. Add a cost cap and a Net Zero 2030 target, and anything that saves time, fuel or carbon in the air means something to a team.
+> And air fits that, because Formula 1 is a flying business. More than twenty race weekends on five continents, with people and freight flown round the world all season. When F1 first measured its carbon footprint, logistics and travel made up nearly three quarters of it. Add a cost cap and a Net Zero 2030 target, and anything that saves time, fuel or carbon in the air means something to a team.
 >
 > Whether that seat's free at a given team is what we check properly. I won't tell you it's open everywhere."
 
@@ -173,7 +173,7 @@
 
 *[Ideas for ASI, not proposals:]*
 
-- *Idea, "the race between the races":* a short content series on how F1 flies its people and freight across around twenty-four race weekends, and what it means to predict the sky. ASI's people explain it; a team or a driver brings the audience. The smallest door. Check DHL's and F1's logistics rights first.
+- *Idea, "the race between the races":* a short content series on how F1 flies its people and freight across more than twenty race weekends, and what it means to predict the sky. ASI's people explain it; a team or a driver brings the audience. The smallest door. Check DHL's and F1's logistics rights first.
 - *Idea, a US race room for airline operations leaders:* host heads of operations and network control from airline customers and prospects at Miami, Austin or Las Vegas, plus energy and logistics buyers as those businesses grow. No government guests (FAA, military) without a compliance review; gift and ethics rules apply.
 - *Idea, a hiring angle:* they're heading past 250 people with many roles in Boston. A team engineering challenge or content aimed at machine learning engineers could do as much for them as the guest list.
 
@@ -193,7 +193,7 @@
 
 *[Ideas to test with each team's technical and operations people, never claims. Never say or imply any team, or F1, uses or needs Flyways, or say what any team uses to plan travel or freight.]*
 
-- **Logistics and travel planning (most plausible to test):** a team plans people and kit across around twenty-four race weekends, including back-to-back races. Predicting disruption, weather, congestion and delays, could help its logistics and travel managers plan windows and contingencies. The catch: the big freight flights run at series level through F1 and DHL, so the strongest version of this might be a series-level conversation, not a team one.
+- **Logistics and travel planning (most plausible to test):** a team plans people and kit across more than twenty race weekends, including back-to-back races. Predicting disruption, weather, congestion and delays, could help its logistics and travel managers plan windows and contingencies. The catch: the big freight flights run at series level through F1 and DHL, so the strongest version of this might be a series-level conversation, not a team one.
 - **Sustainability reporting on travel (test):** travel and freight are a large part of the sport's footprint, and F1 says it's buying more sustainable aviation fuel every year. A team's sustainability lead might value better modelling of the fuel and carbon in its own travel. Small, but real if it exists.
 - **Race strategy and simulation (story, not product):** the method, simulating what happens next and deciding early, is close to how strategists think, but no team will swap its strategy tools. Best used as an engineering exchange or content, never as a product claim.
 - **Factory, design, trackside comms, IT, fan platforms, merchandise, hospitality:** no believable product job we can see; these stay marketing-led.

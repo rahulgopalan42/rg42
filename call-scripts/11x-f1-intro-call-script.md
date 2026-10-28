@@ -61,7 +61,7 @@
 >
 > What teams look for next is a partner with one clear, hard job, and a story the paddock hasn't heard a hundred times.
 >
-> And I think sales is that story, because every team is a sales business as much as a racing one. Team sponsorship's doubled since 2020, every team has twenty-five-plus partners, and someone has to find them, sign them and keep them. Then they host guests at around twenty-four race weekends a year, and every one of those guests needs following up, which is your whole world.
+> And I think sales is that story, because every team is a sales business as much as a racing one. Team sponsorship's doubled since 2020, every team has twenty-five-plus partners, and someone has to find them, sign them and keep them. Then they host guests at more than twenty race weekends a year, and every one of those guests needs following up, which is your whole world.
 >
 > Whether that seat's free at a given team is what we check properly. I won't tell you it's open everywhere."
 
@@ -73,7 +73,7 @@
 
 *[If they push, "so which teams?": "That's the grid mapping, and it's the first thing we do after this call. I'd rather come back with names I can stand behind than guess today."]*
 
-*[Backing, if they want proof: Reuters, 4 May 2026: technology is now the top spending category for F1 teams (SponsorUnited put it at about $769M last season; background only, don't quote the dollar figure), Ampere Analysis counted eight new AI partnerships in six months, CoreWeave is with Aston Martin, Anthropic with Williams, Google Gemini with McLaren. Salesforce extended with F1 on 3 March 2026 (an Agentforce fan agent) and signed Racing Bulls on 22 June 2026 (Agentforce for fans, hospitality and race days). CrowdStrike has been Mercedes' cybersecurity partner since 2019; AWS has worked with the sport since 2018. "Doubled since 2020", "twenty-five-plus" and "around twenty-four" are stat bank. Sources in prep notes.]*
+*[Backing, if they want proof: Reuters, 4 May 2026: technology is now the top spending category for F1 teams (SponsorUnited put it at about $769M last season; background only, don't quote the dollar figure), Ampere Analysis counted eight new AI partnerships in six months, CoreWeave is with Aston Martin, Anthropic with Williams, Google Gemini with McLaren. Salesforce extended with F1 on 3 March 2026 (an Agentforce fan agent) and signed Racing Bulls on 22 June 2026 (Agentforce for fans, hospitality and race days). CrowdStrike has been Mercedes' cybersecurity partner since 2019; AWS has worked with the sport since 2018. "Doubled since 2020" and "twenty-five-plus" are stat bank; "more than twenty race weekends" reflects the 2026 calendar (22 races after Bahrain and Saudi Arabia were cancelled in March). Sources in prep notes.]*
 
 ## 4. Questions to ask them
 

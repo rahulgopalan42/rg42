@@ -56,7 +56,7 @@
 
 > "Fair question. Tech's become quite saturated in F1. It's now the biggest sponsorship category for the teams, and Reuters counted eight new AI deals in six months earlier this year. The obvious seats mostly have big names in them: Oracle on the Red Bull, HP on the Ferrari, Google Cloud with McLaren, CoreWeave at Aston Martin. Even voice has started, with ElevenLabs at Audi, but that's the speaking side, making voices.
 >
-> So what teams look for now is a partner with one clear, hard job, and a story the paddock hasn't heard a hundred times. And the listening side, turning what people say into something you can search and use, is one you don't hear much. It fits how a team works, too. A team runs on talk: briefings, debriefs, the track and the factory, media in lots of languages, around 24 race weekends on five continents. And with a cost cap since 2021, they win by getting more out of the people they've got, not by adding more.
+> So what teams look for now is a partner with one clear, hard job, and a story the paddock hasn't heard a hundred times. And the listening side, turning what people say into something you can search and use, is one you don't hear much. It fits how a team works, too. A team runs on talk: briefings, debriefs, the track and the factory, media in lots of languages, more than twenty race weekends on five continents. And with a cost cap since 2021, they win by getting more out of the people they've got, not by adding more.
 >
 > Whether that seat's free at a given team is what we check properly. I won't tell you it's open everywhere."
 
