@@ -6,6 +6,12 @@
 
 ---
 
+## Boilerplate: what Eridu does
+
+**About Eridu:** Eridu is a Saratoga, California start-up building a new kind of network switch for AI data centers: the hardware that links GPUs so thousands of them can work as one machine. It says today's networks have become the bottleneck, which it calls the "network wall", leaving expensive GPUs sitting idle, and it's designing its switch from a clean sheet across silicon, packaging, systems and optics, built on TSMC technology. It's led by CEO Drew Perkins, who co-founded Infinera and Lightera, and co-founder Omar Hassen, who designed networking chips at Broadcom and Marvell. Eridu came out of stealth in March 2026 with a $200M Series A ($230M raised in total), backed by John Doerr, Socratic Partners, Hudson River Trading, MediaTek and TSMC's investment arm, among others. It's building first for the hyperscalers, then neoclouds, sovereign clouds and large enterprise AI data centers; no product is shipping yet.
+
+**In one line, if someone asks on the call:** "They're building a new kind of network switch so thousands of AI chips can work as one machine, with less delay and less power."
+
 ## 1. Brand snapshot (not spoken)
 
 *[Checked 25 October 2026. "Verified" means confirmed in independent reporting; "their claim" means Eridu's own announcement or quotes.]*
@@ -42,9 +48,31 @@
 
 > "But that's the view from the outside, and it's only desk research. I'd much rather hear it from you. Where's Eridu right now, what's taking up most of your time, and what made you say yes to the call?"
 
-*[Then listen and take notes. Pick from section 3 as it goes; don't run the list in order. If they ask "so where do you see us fitting?": "Too early to say, and I'd be guessing. If you pushed me, I'd start small, around the people you need to get in front of, and only look at anything bigger once the product's out. But tell me more first."]*
+*[Then listen and take notes. Pick from section 4 as it goes; don't run the list in order. If they ask "so where do you see us fitting?": "Too early to say, and I'd be guessing. If you pushed me, I'd start small, around the people you need to get in front of, and only look at anything bigger once the product's out. But tell me more first."]*
 
-## 3. Questions to ask them
+## 3. If they ask: "Why is this category open? Why would teams want this?"
+
+*[The question to expect, because the email said teams are looking. Say it with confidence, and keep the last lines in.]*
+
+> "Good question, and I'll give you the real answer, not the sales one. Tech's become quite saturated in F1. It's now the biggest sponsorship category for the teams, and Reuters counted eight new AI deals in six months earlier this year. The cloud and compute seats especially: Oracle's on the Red Bull, Google Cloud's with McLaren, Microsoft's been reported with Mercedes, and CoreWeave does the AI cloud at Aston Martin.
+>
+> So what stands out now isn't another cloud or another 'AI partner'. What you don't hear much about is the bit that ties all that compute together, the network. And that's a story an F1 team gets better than most.
+>
+> Because the rules cap how much aero computing a team can do, and there's been a cost cap since 2021. So they can't win by buying more hardware. They win by getting more out of what they're allowed, by taking the bottlenecks out. That's pretty much your network wall, in racing terms.
+>
+> Whether that seat's free at a given team is what we check properly. I won't tell you it's open everywhere. And for you the timing matters too, so I'd want anything to line up with your launch, not run ahead of it."
+
+**Short version, if there's no time:**
+
+> "Tech's quite saturated in F1 now, and the cloud and compute seats mostly have big names in them, but the network that ties it all together is a story you don't hear much. And with capped aero computing and a cost cap, teams win by getting more out of a fixed allowance, which is your story in racing terms. Whether the seat's free at a given team is what we'd check properly."
+
+*[On the email: it said "a few of our Formula 1 teams are looking for an Official AI Networking Partner". If they quote it back, stay consistent without going further: "What I meant is there are teams we work with where an AI networking partner could make sense. Which ones, and whether the seat's free, is exactly what the grid mapping tells us." Never name a team as looking, and never say the category is open.]*
+
+*[If they push, "so which teams?": "That's the grid mapping, and it's the first thing we do after this call. I'd rather come back to you with names I can stand behind than guess today."]*
+
+*[Backing, if they want proof the tech seats are busy: Reuters reported on 4 May 2026 that technology is now the top spending category for F1 teams (SponsorUnited's estimate; background only, don't quote dollar figures), that Ampere Analysis counted eight new AI partnerships in the previous six months, and that AI and machine learning brands are four of the top 15 new sponsorship investors, including CoreWeave with Aston Martin. Arm is also Aston Martin's AI compute platform provider. "You don't hear much about the network" is an observation, not a claim that no team has a networking partner: RUCKUS does wireless at Haas, and the team-by-team check happens at the recommendations stage.]*
+
+## 4. Questions to ask them
 
 *[Pick six to eight as the conversation goes. Follow-ups are optional.]*
 
@@ -96,7 +124,7 @@
 
 *[If no budget: "That's fine. The first year can be small, a race or two with the right guests, and we'll tell you straight what's worth it." On timing, don't push for this season; 2027 planning is the realistic window.]*
 
-## 4. If they ask: "Why are brands like us in Formula 1?"
+## 5. If they ask: "Why are brands like us in Formula 1?"
 
 *[Three references from Eridu's world. Never suggest any team uses or needs Eridu.]*
 
@@ -117,7 +145,7 @@
 
 > "I think for companies like yours it's rarely about the logo. If you look at who's in there from your world, there's RUCKUS running the wireless at Haas, CoreWeave doing the AI cloud at Aston Martin, and then the big clouds, Oracle, Google, Microsoft, AWS, all with a presence. What they've got in common is they sell complicated infrastructure to a small number of serious buyers, and F1 makes that story easy to see. And the audience helps: F1 fans index at 160 for business decision makers, the highest in sport. For you, I think the interesting bit is that a lot of your buyers are already in that paddock."
 
-## 5. If they ask: "How are similar brands activating?"
+## 6. If they ask: "How are similar brands activating?"
 
 > "There are really four or five ways people use it, and most do two or three of them. The first is a working role, where the product does a real job for the team. RUCKUS at Haas is the good example: their wireless runs the team's operations, and they show it live in the garage. The second is the B2B side, using hospitality to get proper time with buyers. Airwallex at McLaren is the one with published numbers: revenue up 50% year on year across EMEA and the Americas during the partnership. And the maths helps, because passes work all three days, so seven passes can host twenty different guests in one weekend, and 66% of Paddock Club guests are senior executives, CIOs, CTOs, that level. Third is content, the engineering stories, how a team works with data and limits, which suits a technical brand. Driver programs are the fourth, but they're more for consumer brands, so probably less you. And last is picking particular races, which for you probably means the three in the US, Miami, Austin and Las Vegas."
 
@@ -127,7 +155,7 @@
 - **Idea: a launch-moment content series.** When the product ships, a short series on bottlenecks: how F1 teams live with capped compute and capped budgets, told alongside Eridu's engineers. Content first, no car branding needed.
 - **Idea: a supplier seat later.** An "Official AI Networking Partner" title, product plus cash at supplier level, only once there's a product to show. Test it with a team; don't lead with it.
 
-## 6. If they ask: "What can we do with the team's other partners?"
+## 7. If they ask: "What can we do with the team's other partners?"
 
 > "This is the bit people don't expect. Every team has 25 or more partners, and there are over 350 across the grid. And the teams work hard to get them talking to each other. They run partner summits, they make introductions, there are business forums on race weekends. Partners co-host hospitality, they make content together, and quite often they end up buying from each other. We call it co-partner activations. For Eridu, I think what's interesting is who's in that network. You'd be sitting alongside cloud and AI companies, which is your market."
 
@@ -143,7 +171,7 @@
 - **Chip, hardware and engineering partners:** Eridu's world is silicon, packaging and optics. Teams have hardware and engineering partners who could be peers, suppliers or joint-story partners, the way Arm and CoreWeave share the wind tunnel story.
 - **Energy and sustainability partners:** Eridu's power-saving claim sits next to F1's Net Zero 2030 commitment and the partners who talk about energy. A joint piece of content on doing more with less power is a plausible story to test.
 
-## 7. If they ask: "Where could our product fit in the team?"
+## 8. If they ask: "Where could our product fit in the team?"
 
 *[Ideas to test with a team's technical department, never claims. Never say or imply any team uses or needs Eridu. The plain truth: the fit is thin today, because the product isn't shipping and a team's compute is small next to the clusters Eridu is built for.]*
 
@@ -151,11 +179,11 @@
 - **Data and AI (second):** the factory data center that runs analytics and AI work on car and race data. Same caveat on scale, and some teams have moved much of this to cloud partners, as Aston Martin did with CoreWeave.
 - **Not a fit:** trackside comms, the link from the garage to the factory, garage Wi-Fi, logistics, fan platforms, e-commerce and hospitality. Those aren't Eridu's layer of the network.
 - **What a role could look like:** an "Official AI Networking Partner" title tied to the team's factory compute, a technical showcase at the factory once there's hardware to show, and engineering content. Product plus cash, sized at supplier level, timed to the launch.
-- **Where to steer instead, for now:** marketing-led options. Hospitality with buyers, content, and the partner network in section 6.
+- **Where to steer instead, for now:** marketing-led options. Hospitality with buyers, content, and the partner network in section 7.
 
 > "Straight answer, it's a bit early, and I don't want to oversell it. A team's got a data center at the factory for simulation and design work, and the rules cap how much aero computing they can do, so getting more out of a fixed amount of compute matters to them. That's where a switch would live. But their clusters are small next to what you're building for, and your product isn't out yet. So I'd treat a technical role as something to test with a team's engineers later, and start with the commercial side now."
 
-## 8. Other questions they may ask
+## 9. Other questions they may ask
 
 **"What does it cost?"**
 
@@ -179,7 +207,7 @@
 
 > "Could be, and if it is, I'll tell you. Most of the sport's reach would be wasted on you, and I won't pretend otherwise. But the planning takes time, so it's worth knowing the options now and lining anything up with your launch rather than ahead of it. And there are small ways in, like hosting a handful of buyers at one race, that don't need a big commitment."
 
-## 9. Closing and next steps
+## 10. Closing and next steps
 
 > "This has been really useful, thanks. Let me play it back. You're selling to a small number of very big buyers, and what matters is getting real time with them at the right moment, ideally around the launch. And F1's got a room where a lot of those people already are, plus a story about getting more out of fixed compute that fits what you do.
 >
@@ -206,6 +234,7 @@
 - **Category check:** AI networking and data center infrastructure. Before any shortlist, confirm no live deal or exclusivity in networking, AI infrastructure or cloud at the teams in question (RUCKUS at Haas is wireless; CoreWeave at Aston Martin is AI cloud; Arm at Aston Martin is AI compute). Verified at the recommendations stage.
 - **Names check:** from the allowed lists, verified in September 2026 checks: Oracle at Red Bull, Google Cloud at McLaren, Microsoft with Mercedes (reported January 2026), AWS since 2018, RUCKUS at Haas, Airwallex at McLaren, Liberty Media 2017. Verified now (25 October 2026): CoreWeave at Aston Martin, Arm and CoreWeave at the Aston Martin wind tunnel, the Mercedes Partner Summit (February 2025), the F1 Business Summit (2025, and 2026 per reports), and the 2026 calendar dates. Brand facts checked 25 October 2026; re-verify on call day.
 - **New sources:** eridu.ai/pr/eridu-emerges-from-stealth-with-over-200m-in-funding/ ; techcrunch.com/2026/03/10/ai-network-startup-eridu-emerges-from-stealth-with-hefty-200m-series-a ; networkworld.com/article/4143119/eridu-exits-stealth-with-200m-to-rebuild-ai-networking.html ; sdxcentral.com/news/ai-switch-startup-eridu-exits-stealth-with-200m-to-shatter-network-wall/ ; simpletechtrend.com/en/post/eridu-delos-ocp-2026-multi-rack-single-hop-petabit-switch-en ; simplify.jobs/c/Eridu-AI ; laserfocusworld.com/test-measurement/research/article/16562540/infinera-appoints-michael-capuano-vp-of-corporate-marketing ; astonmartinf1.com/en-GB/news/announcement/aston-martin-aramco-announces-coreweave-as-official-ai-cloud-computing-partner ; coreweave.com/partnerships/aston-martin-aramco-f1 ; newsroom.arm.com/blog/aston-martin-aramco-f1-wind-tunnel-integration ; mercedesamgf1.com/promo/partner-summit-2025 ; si.com/onsi/f1/news/las-vegas-gp-doubles-as-a-boardroom-with-launch-of-the-f1-business-summit ; si.com/onsi/f1/jean-arnault-russell-wilson-and-gordon-ramsey-headline-expanded-f1-business-summit ; formula1.com/en/latest/article/formula-1-reveals-calendar-for-2026-season.YctbMZWqBvrgyddrnauo8
+- **Category answer sources (section 3):** Reuters, 4 May 2026, "As Formula One evolves, AI becomes part of the race": https://whbl.com/2026/05/04/motor-racing-as-formula-one-evolves-ai-becomes-part-of-the-race/ and https://www.timeslive.co.za/motoring/2026-05-04-as-formula-one-evolves-ai-is-fast-becoming-a-crucial-part-of-the-race/
 - **Pipeline check:** confirm no live deal in AI networking or data center infrastructure. Eridu was in the Wave 4 Sheet23 send, so check the register for replies or follow-ups already logged.
 - **Which company:** confirmed as Eridu (eridu.ai), the Saratoga AI networking start-up, from the outreach email (eridu.ai domain, Saratoga HQ, led by Drew Perkins) and from research. Other "Eridu" results are the ancient Sumerian city; no other company in play.
 - **Timing:** today is the Austin race weekend (23 to 25 October). Remaining 2026 races include Mexico City, São Paulo, Las Vegas (19 to 21 November), Qatar and Abu Dhabi.
