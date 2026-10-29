@@ -1,4 +1,4 @@
-// F1 partner landscape (October 2026) in the style of the Wolters Kluwer x SPORTFIVE deck.
+// F1 partner landscape (October 2026), SPORTFIVE-branded.
 const fs = require("fs");
 const path = require("path");
 const pptxgen = require("pptxgenjs");
@@ -52,7 +52,7 @@ pres.defineSlideMaster({
   background: { color: C.background1 },
   objects: [
     { rect: { x: 0, y: 0, w: W, h: 0.045, fill: { color: C.accent1 } } },
-    { image: { x: 10.52, y: 0.27, w: 2.33, h: 0.251, path: A("lockup.png"), altText: "Wolters Kluwer / SPORTFIVE" } },
+    { image: { x: 11.25, y: 0.3, w: 1.6, h: 0.294, path: A("sportfive_black.png"), altText: "SPORTFIVE logo" } },
     { placeholder: { options: { name: "title", type: "title", x: L, y: 0.18, w: 9.8, h: 0.66, fontSize: 36, bold: true,
         color: C.accent1, margin: 0, valign: "middle", align: "left" }, text: "TITLE" } },
     { placeholder: { options: { name: "subtitle", type: "body", x: L, y: 0.88, w: 11.5, h: 0.36, fontSize: 15, bold: true,
@@ -123,7 +123,7 @@ function linesNeeded(partners, w, fontSize) {
 function ecosystem(groups, part, total) {
   const s = content("Partner ecosystem", `Current and signed partners, all sectors (${part}/${total})`,
     "Source: official team and F1 partner pages (read 29 Oct 2026) plus team and partner announcements to 29 Oct 2026; f1salaries.com (30 Sep 2026) for Ferrari and Cadillac. Tiers harmonised by SPORTFIVE; see Notes & Sources.",
-    "Every current partner by tier, plus partnerships already signed to start in 2027. Bold = Wolters Kluwer focus sectors. Red = announced in 2026. Italic (from 2027) = signed, starts 2027.");
+    "Every current partner by tier, plus partnerships already signed to start in 2027. Bold = focus sectors. Red = announced in 2026. Italic (from 2027) = signed, starts 2027.");
   const labelW = 1.02, gx0 = L + labelW + 0.1, gap = 0.22;
   const cols = groups.reduce((n, g) => n + g.keys.length, 0);
   const usable = R - gx0 - gap * (groups.length - 1);
@@ -176,7 +176,7 @@ function ecosystem(groups, part, total) {
   // legend
   s.addText([
     { text: "Bold", options: { bold: true, color: HEX.ink } },
-    { text: " = Wolters Kluwer focus sectors (financial services, professional services, life sciences & health)      ", options: { color: HEX.body } },
+    { text: " = focus sectors (financial services, professional services, life sciences & health)      ", options: { color: HEX.body } },
     { text: "Red", options: { bold: true, color: HEX.red } },
     { text: " = partnership announced in 2026      ", options: { color: HEX.body } },
     { text: "Italic (from 2027)", options: { italic: true, color: HEX.ink } },
@@ -206,7 +206,7 @@ async function build() {
     const s = pres.addSlide({ masterName: "COVER" });
     s.addText("F1 PARTNER LANDSCAPE", { placeholder: "title" });
     s.addText("CURRENT PARTNER ECOSYSTEM BY TEAM", { placeholder: "subtitle" });
-    s.addText("Prepared for Wolters Kluwer  ·  October 2026", { placeholder: "meta" });
+    s.addText("October 2026", { placeholder: "meta" });
   }
 
   // 2 Partners per team
@@ -246,7 +246,7 @@ async function build() {
 
   // 3 Focus sectors
   {
-    const s = content("Relevant partner mapping", "Team partners in Wolters Kluwer focus sectors",
+    const s = content("Relevant partner mapping", "Team partners in focus sectors",
       "Source: as previous slide. Sector classification by SPORTFIVE: financial services = banking, payments, trading, crypto, insurance, asset management; professional services = consulting, legal, HR and learning; life sciences & health = pharma, healthcare providers, health services.",
       "Share of each team's partners in the three focus sectors. F1 shown for reference.");
     const all = [...D.teams].sort((a, b) => focus(b) - focus(a) || n(b) - n(a));
@@ -338,7 +338,7 @@ async function build() {
 
   // 9 Notes & sources
   {
-    const s = content("Notes & sources", "How this landscape was built", "Prepared by SPORTFIVE for Wolters Kluwer, 29 October 2026.",
+    const s = content("Notes & sources", "How this landscape was built", "Prepared by SPORTFIVE, 29 October 2026.",
       "Method and per-team sources, for any question on a count or a tier.");
     const notes = [
       ["Scope", "Every commercial partner active in the 2026 season for the 11 teams and Formula 1: title, official and team partners, suppliers, regional partners, licensees and team-announced collaborations. Partnerships already signed to start in 2027 are shown in italics and counted separately."],
@@ -359,7 +359,7 @@ async function build() {
 
   // 10 Checked but not included
   {
-    const s = content("Notes & sources", "Brands checked but not included, and why", "Prepared by SPORTFIVE for Wolters Kluwer, 29 October 2026.",
+    const s = content("Notes & sources", "Brands checked but not included, and why", "Prepared by SPORTFIVE, 29 October 2026.",
       "Every brand that came up in the verification but is not on the ecosystem slides, with the reason. Any of these can be added if the client wants a wider definition.");
     D.excluded.forEach(([h, b], i) => {
       const y = 1.75 + i * 2.25;

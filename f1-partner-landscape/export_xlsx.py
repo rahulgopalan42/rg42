@@ -8,7 +8,7 @@ ROW = {1: "Title / principal", 2: "Official / team partner", 3: "Supplier / regi
 SEC = {"FS": "Financial services", "PS": "Professional services", "LS": "Life sciences & health", "O": "Other"}
 wb = Workbook()
 ws = wb.active; ws.title = "Partners"
-ws.append(["Team", "Group", "Partner", "Tier (as published)", "Tier (harmonised)", "Wolters Kluwer focus sector",
+ws.append(["Team", "Group", "Partner", "Tier (as published)", "Tier (harmonised)", "Focus sector",
            "Status", "Announced in 2026", "Source"])
 for t in D["teams"]:
     for p in t["partners"]:
