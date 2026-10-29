@@ -102,7 +102,8 @@ function cellRuns(partners, fontSize) {
   const runs = [];
   partners.forEach((p, i) => {
     const focus = p.sector !== "O";
-    runs.push({ text: keepWhole(p.name), options: { bold: focus, color: p.new ? HEX.red : focus ? HEX.ink : HEX.body, fontSize } });
+    runs.push({ text: keepWhole(p.name) + (p.starts ? `\u00A0(from\u00A0${p.starts})` : ""),
+      options: { bold: focus, italic: !!p.starts, color: p.new ? HEX.red : focus ? HEX.ink : HEX.body, fontSize } });
     if (i < partners.length - 1) runs.push({ text: SEP, options: { color: HEX.mid, fontSize } });
   });
   return runs;
@@ -113,16 +114,16 @@ function linesNeeded(partners, w, fontSize) {
   const cap = w / per;
   let lines = 1, cur = 0;
   partners.forEach((p, i) => {
-    const len = p.name.length + (i < partners.length - 1 ? SEP.length : 0);
+    const len = p.name.length + (p.starts ? 12 : 0) + (i < partners.length - 1 ? SEP.length : 0);
     if (cur + len > cap && cur > 0) { lines++; cur = len; } else cur += len;
   });
   return partners.length ? lines : 0;
 }
 
 function ecosystem(groups, part, total) {
-  const s = content("Partner ecosystem", `Current team partners, all sectors (${part}/${total})`,
-    "Source: official team partner pages (read 29 Oct 2026); f1salaries.com (30 Sep 2026) for Ferrari, McLaren and Cadillac; RTR Sports (6 Oct 2026) for F1. Tiers harmonised by SPORTFIVE; see Notes & Sources.",
-    "Every current partner by tier. Bold = Wolters Kluwer focus sectors (financial services, professional services, life sciences & health). Red = partnership announced in 2026.");
+  const s = content("Partner ecosystem", `Current and signed partners, all sectors (${part}/${total})`,
+    "Source: official team and F1 partner pages (read 29 Oct 2026) plus team and partner announcements to 29 Oct 2026; f1salaries.com (30 Sep 2026) for Ferrari and Cadillac. Tiers harmonised by SPORTFIVE; see Notes & Sources.",
+    "Every current partner by tier, plus partnerships already signed to start in 2027. Bold = Wolters Kluwer focus sectors. Red = announced in 2026. Italic (from 2027) = signed, starts 2027.");
   const labelW = 1.02, gx0 = L + labelW + 0.1, gap = 0.22;
   const cols = groups.reduce((n, g) => n + g.keys.length, 0);
   const usable = R - gx0 - gap * (groups.length - 1);
@@ -156,7 +157,9 @@ function ecosystem(groups, part, total) {
       if (j) s.addShape(S.LINE, { x: cx, y: headY + 0.06, w: 0, h: bottom - headY - 0.12, line: { color: C.accent6, width: 0.75 } });
       logo(s, k, cx + 0.15, headY + 0.07, colW - 0.3, 0.5);
       const isNewTeam = k === "audi" || k === "cadillac";
-      s.addText([{ text: `${t.partners.length} PARTNERS`, options: { bold: true, color: HEX.red } },
+      const fut = t.partners.filter((p) => p.starts).length;
+      s.addText([{ text: `${t.partners.length - fut} PARTNERS`, options: { bold: true, color: HEX.red } },
+        ...(fut ? [{ text: `  +  ${fut} FROM 2027`, options: { bold: true, color: HEX.dark } }] : []),
         ...(isNewTeam ? [{ text: "  ·  NEW TEAM 2026", options: { bold: true, color: HEX.dark } }] : [])],
       { x: cx, y: headY + 0.58, w: colW, h: 0.2, fontSize: 8, align: "center", charSpacing: 1, margin: 0, isTextBox: true });
       [1, 2, 3].forEach((r, i) => {
@@ -175,18 +178,23 @@ function ecosystem(groups, part, total) {
     { text: "Bold", options: { bold: true, color: HEX.ink } },
     { text: " = Wolters Kluwer focus sectors (financial services, professional services, life sciences & health)      ", options: { color: HEX.body } },
     { text: "Red", options: { bold: true, color: HEX.red } },
-    { text: " = partnership announced in 2026", options: { color: HEX.body } },
-  ], { x: L, y: 6.86, w: 11.0, h: 0.24, fontSize: 9, margin: 0, isTextBox: true, valign: "middle" });
+    { text: " = partnership announced in 2026      ", options: { color: HEX.body } },
+    { text: "Italic (from 2027)", options: { italic: true, color: HEX.ink } },
+    { text: " = signed, starts in 2027", options: { color: HEX.body } },
+  ], { x: L, y: 6.86, w: 11.6, h: 0.24, fontSize: 9, margin: 0, isTextBox: true, valign: "middle" });
   return s;
 }
 
 // ------------------------------------------------------------------ slides
 const teams = D.teams.filter((t) => t.key !== "f1");
-const n = (t) => t.partners.length;
-const focus = (t, sec) => t.partners.filter((p) => (sec ? p.sector === sec : p.sector !== "O")).length;
+const current = (t) => t.partners.filter((p) => !p.starts);
+const future = (t) => t.partners.filter((p) => p.starts);
+const n = (t) => current(t).length;
+const focus = (t, sec) => current(t).filter((p) => (sec ? p.sector === sec : p.sector !== "O")).length;
 const totalTeam = teams.reduce((a, t) => a + n(t), 0);
 const brandCounts = {};
-teams.forEach((t) => t.partners.forEach((p) => (brandCounts[p.name] = (brandCounts[p.name] || 0) + 1)));
+teams.forEach((t) => current(t).forEach((p) => (brandCounts[p.name] = (brandCounts[p.name] || 0) + 1)));
+const futureAll = D.teams.flatMap((t) => future(t).map((p) => ({ team: t, p })));
 const uniqueBrands = Object.keys(brandCounts).length;
 const multiBrands = Object.values(brandCounts).filter((v) => v > 1).length;
 const SHORT = { mercedes: "Mercedes", redbull: "Red Bull Racing", ferrari: "Ferrari", mclaren: "McLaren", alpine: "Alpine",
@@ -204,23 +212,24 @@ async function build() {
   // 2 Partners per team
   {
     const s = content("Partner landscape", "Which teams have the most partners",
-      "Source: official team partner pages (read 29 Oct 2026); f1salaries.com (30 Sep 2026); RTR Sports (6 Oct 2026). Counts include title, official and supplier partners as listed by each team.",
+      "Source: official team and F1 partner pages (read 29 Oct 2026), team and partner announcements to 29 Oct 2026; f1salaries.com (30 Sep 2026). Counts are active 2026 partners incl. suppliers and licensees; 2027 signings shown separately.",
       `Team partnerships: ${totalTeam} across 11 teams; ${uniqueBrands} distinct brands; ${multiBrands} brands partner more than one team (Pirelli supplies all 11).`);
     const sorted = [...teams].sort((a, b) => n(b) - n(a));
     s.addText("NUMBER OF PARTNERS PER TEAM (2026)", { x: L, y: 1.62, w: 8, h: 0.3, fontSize: 12, bold: true, color: C.text1, margin: 0, isTextBox: true });
-    s.addChart(pres.charts.BAR, [{ name: "Partners", labels: sorted.map((t) => SHORT[t.key]), values: sorted.map(n) }], {
+    const lbl = (t) => SHORT[t.key] + (future(t).length ? `  (+${future(t).length} from 2027)` : "");
+    s.addChart(pres.charts.BAR, [{ name: "Partners", labels: sorted.map(lbl), values: sorted.map(n) }], {
       x: L - 0.1, y: 1.95, w: 8.3, h: 4.95, barDir: "bar", catAxisOrientation: "maxMin", barGapWidthPct: 45,
       chartColors: sorted.map((t, i) => (i < 3 ? HEX.red : HEX.dark)),
       catAxisLabelColor: HEX.ink, catAxisLabelFontSize: 12, catAxisLabelFontFace: "+mn-lt", catAxisLineShow: false,
-      valAxisHidden: true, valGridLine: { style: "none" }, valAxisMinVal: 0, valAxisMaxVal: 60,
+      valAxisHidden: true, valGridLine: { style: "none" }, valAxisMinVal: 0, valAxisMaxVal: 66,
       showValue: true, dataLabelPosition: "outEnd", dataLabelColor: HEX.ink, dataLabelFontSize: 12, dataLabelFontBold: true,
       dataLabelFontFace: "+mn-lt", showLegend: false,
     });
     const tiles = [
       [String(totalTeam), "team partnerships across the 11 teams"],
-      [String(Math.round(totalTeam / teams.length)), "partners per team on average"],
-      [String(byKey.f1.partners.length), "partners at F1 level (central organisation)"],
+      [String(n(byKey.f1)), "partners at F1 level (central organisation)"],
       [String(uniqueBrands), `distinct brands; ${multiBrands} partner more than one team`],
+      [String(futureAll.length), "partnerships signed to start in 2027: " + futureAll.map((x) => x.p.name).join(", ")],
     ];
     tiles.forEach(([big, lab], i) => {
       const y = 1.95 + i * 1.22, x = 9.1, w = R - 9.1;
@@ -229,8 +238,9 @@ async function build() {
         valign: "middle", isTextBox: true });
       s.addText(lab, { x: x + 1.8, y: y + 0.08, w: w - 2.0, h: 0.9, fontSize: 12, color: C.text1, margin: 0, valign: "middle", isTextBox: true });
     });
-    s.addText([{ text: "McLaren (52), Alpine (48) and Ferrari (41) ", options: { bold: true } },
-      { text: "run the largest portfolios. New entrant Cadillac has the fewest (11)." }],
+    const top3 = sorted.slice(0, 3).map((t) => `${SHORT[t.key]} (${n(t)})`), last = sorted[sorted.length - 1];
+    s.addText([{ text: `${top3[0]}, ${top3[1]} and ${top3[2]} `, options: { bold: true } },
+      { text: `run the largest portfolios; the grid averages ${Math.round(totalTeam / teams.length)} partners per team. New entrant ${SHORT[last.key]} has the fewest (${n(last)}).` }],
     { x: L, y: 6.82, w: 12, h: 0.3, fontSize: 11, color: C.text1, margin: 0, isTextBox: true });
   }
 
@@ -274,43 +284,46 @@ async function build() {
 
   // 4 What changed in 2026
   {
-    const s = content("What's changed", "The 2026 partner landscape at a glance",
-      "Source: team and partner announcements; Sportcal, Insider Sport and The Race (Oct 2026); GPblog and GrandPrix.com (Dec 2025 to Feb 2026); f1salaries.com; RTR Sports.",
-      "Title changes, the main new deals announced in 2026, exits, and deals already signed for 2027. New-deal count: 28 partnerships announced in 2026 (to 29 Oct) across the grid and F1; technology & AI 9 (Microsoft, Rubrik, IFS, TWG AI, Core Scientific, ElevenLabs, Aleph, Adobe, RUCKUS), financial services 7 (Hedera, Stripe, Nexo, Libertex, eToro, Standard Chartered, Marsh).");
+    const s = content("What's changed", "The 2026 partner landscape and the 2027 pipeline",
+      "Source: team, F1 and partner announcements (Jan to 29 Oct 2026); formula1.com; Sportcal; BlackBook Motorsport; Speedcafe; f1salaries.com. Selected deals; the full list is in the ecosystem slides and the Excel file.",
+      "Title changes, the main new deals announced in 2026, deals signed for 2027, terms ending after 2026, and exits.");
     const cols = [
       ["GRID & TITLE CHANGES", [
         ["Two new teams: ", "Audi (formerly Sauber; Revolut title partner) and Cadillac, the 11th team (no title partner)."],
-        ["New naming partners: ", "Mastercard at McLaren; Toyota Gazoo Racing at Haas (replacing MoneyGram)."],
-        ["Renewed: ", "Oracle with Red Bull Racing (Feb); Visa across both Red Bull teams through 2030 (Feb)."],
-        ["Power units: ", "Honda moves from Red Bull to Aston Martin as works partner."],
+        ["New naming partners for 2026: ", "Mastercard at McLaren; Toyota Gazoo Racing at Haas (replacing MoneyGram)."],
+        ["Next title change: ", "Gucci replaces BWT at Alpine from 2027 (Gucci Racing Alpine F1 Team)."],
+        ["Renewed: ", "Oracle with Red Bull Racing (Feb); Visa across both Red Bull teams (Feb); Komatsu with Williams (Sep)."],
+        ["Moved teams: ", "Celsius (Ferrari to Aston Martin), Girard-Perregaux (Aston Martin to Williams), Piquadro (Racing Bulls to Audi), Honda (Red Bull to Aston Martin)."],
       ]],
-      ["NEW DEALS ANNOUNCED IN 2026", [
-        ["McLaren: ", "PUMA, Schneider Electric, Hedera, Rubrik (Jan); Etihad (Feb); Global (May); SharkNinja (Sep); AbbVie (Oct)."],
-        ["Mercedes: ", "Microsoft (Jan); Stripe (Oct, from 2027)."],
-        ["Cadillac: ", "IFS, Tenneco, Claro (Jan); TWG AI (Feb); Core Scientific (Mar); 3M (Jun); Frontieras (Oct)."],
-        ["Audi: ", "Nexo, ElevenLabs, Aleph (Jan); Libertex (Mar)."],
-        ["Others: ", "DAMAC (Red Bull, Feb); eToro and Adobe (Alpine, Jan and Oct); Castore and RUCKUS (Haas, Jan); Standard Chartered and Marsh (F1, Jan and Apr)."],
+      ["NEW DEALS ANNOUNCED IN 2026 (SELECTED)", [
+        ["McLaren: ", "PUMA, Schneider Electric, Hedera, Rubrik (Jan); Etihad (Feb); Topps, Liquid I.V. (Apr); Intel, Global (May); SharkNinja, Edward Jones (Sep); P&G, AbbVie (Oct)."],
+        ["Mercedes: ", "Nu, Microsoft, Zuma (Jan); Vercel (Jul); Stripe (Oct)."],
+        ["Aston Martin: ", "Celsius, Meccano (Jan); Breitling, Cognition, Eight Sleep (Feb); Cohere (Mar); Zscaler (Jun); BK8 News, BOXBOX, Padeltek (Oct)."],
+        ["Williams / Haas: ", "Nuveen, BNY (Jan); Claude, Barclays (Feb); Marvel (Apr) / Emburse (Jun); Exein (Jul); TENEX.AI, Dynamo Capital (Oct)."],
+        ["Others: ", "Audi: Nexo, ElevenLabs (Jan), Elastic (Oct). Cadillac: Core Scientific (Mar), 3M (Jun), Frontieras (Oct). Racing Bulls: Salesforce (Jun), ThreatLocker, Introl (Oct). Alpine: eToro (Jan), Brioni (Apr), Adobe (Oct). F1: Standard Chartered (Jan), Betway (Mar), Marsh, FanDuel (Apr), Leica (Oct)."],
       ]],
-      ["EXITS & 2027 PIPELINE", [
-        ["Exits: ", "Santander left Williams (Feb; still an F1 official partner); MoneyGram left Haas; Kick and Stake left with Sauber's rebrand to Audi; Castore replaced by PUMA at McLaren."],
-        ["Signed for 2027: ", "Stripe becomes Mercedes' global payments partner; Rakuten joins Ferrari from 1 Jan 2027; Adobe's Alpine activations start with the 2027 season."],
-        ["Up for renewal: ", "OKX's McLaren deal runs to the end of 2026."],
+      ["SIGNED FOR 2027 & EXITS", [
+        ["Starting 2027: ", "Gucci (Alpine title), Rakuten (Ferrari), Klaviyo and Racing Camp (Williams). Also Stripe car branding (Mercedes), Elastic as Audi supplier, Airwallex upgraded to McLaren's Official AI Finance Partner, Adobe activations (Alpine)."],
+        ["Terms ending after 2026: ", "BWT title (Alpine), OKX (McLaren), ZCG (Ferrari), D.Energy (Haas), Mercado Libre (Alpine, one-year renewal)."],
+        ["Exits: ", "Santander left Williams (still an F1 partner); MoneyGram (Haas); Kick and Stake (with Sauber's rebrand to Audi); Castore replaced by PUMA at McLaren, PUMA by New Era at Williams; ONEflight dropped from McLaren's list."],
       ]],
     ];
     const newDeals = D.teams.reduce((a, t) => a + t.partners.filter((p) => p.new).length, 0);
-    s.addShape(S.RECTANGLE, { x: L, y: 6.42, w: R - L, h: 0.58, fill: { color: C.accent1 }, line: { color: C.accent1, width: 0 } });
-    s.addText([{ text: `${newDeals} new partnerships announced in 2026: `, options: { bold: true } },
-      { text: "technology & AI (9) and financial services (7) account for more than half." }],
-    { x: L + 0.25, y: 6.42, w: R - L - 0.5, h: 0.58, fontSize: 14, color: C.background1, margin: 0, valign: "middle", isTextBox: true });
-    const cw = (R - L - 0.6) / 3;
+    s.addShape(S.RECTANGLE, { x: L, y: 6.5, w: R - L, h: 0.52, fill: { color: C.accent1 }, line: { color: C.accent1, width: 0 } });
+    s.addText([{ text: `${newDeals} partnerships announced in 2026 (to 29 Oct)`, options: { bold: true } },
+      { text: `  ·  ${futureAll.length} already signed to start in 2027  ·  ${totalTeam} active team partnerships today` }],
+    { x: L + 0.25, y: 6.5, w: R - L - 0.5, h: 0.52, fontSize: 14, color: C.background1, margin: 0, valign: "middle", isTextBox: true });
+    const widths = [3.55, 4.67, 3.55];
+    let cx = L;
     cols.forEach(([head, items], i) => {
-      const x = L + i * (cw + 0.3), y = 1.7, h = 4.55;
+      const cw = widths[i], x = cx, y = 1.62, h = 4.72;
+      cx += cw + 0.3;
       s.addShape(S.RECTANGLE, { x, y, w: cw, h, fill: { color: i === 1 ? C.accent4 : C.background2 }, line: { color: C.background2, width: 0 } });
-      s.addText(head, { x: x + 0.25, y: y + 0.2, w: cw - 0.5, h: 0.32, fontSize: 13, bold: true, color: C.accent1, charSpacing: 1,
+      s.addText(head, { x: x + 0.22, y: y + 0.16, w: cw - 0.44, h: 0.3, fontSize: 12, bold: true, color: C.accent1, charSpacing: 1,
         margin: 0, isTextBox: true });
       s.addText(items.map(([b, t], k) => [{ text: b, options: { bold: true, color: HEX.ink, bullet: { code: "25A0" } } },
         { text: t, options: { color: HEX.ink, breakLine: k < items.length - 1 } }]).flat(),
-      { x: x + 0.25, y: y + 0.65, w: cw - 0.5, h: h - 0.8, fontSize: 12.5, margin: 0, valign: "top", paraSpaceAfter: 9, isTextBox: true });
+      { x: x + 0.22, y: y + 0.55, w: cw - 0.44, h: h - 0.65, fontSize: 11.5, margin: 0, valign: "top", paraSpaceAfter: 6, isTextBox: true });
     });
   }
 
@@ -325,23 +338,35 @@ async function build() {
 
   // 9 Notes & sources
   {
-    const s = content("Notes & sources", "How this landscape was built", "Prepared by SPORTFIVE for Wolters Kluwer, October 2026.",
+    const s = content("Notes & sources", "How this landscape was built", "Prepared by SPORTFIVE for Wolters Kluwer, 29 October 2026.",
       "Method and per-team sources, for any question on a count or a tier.");
     const notes = [
-      ["Scope", "All commercial partners listed for the 2026 season by the 11 teams and Formula 1, including suppliers and licensees. Counts are partners as each team lists them; sub-brands of one deal are counted once where the source does so (e.g. Google at McLaren)."],
-      ["Tiers", "Harmonised to three rows. Title / principal = naming, title, principal, premium and primary partners. Supplier / regional / licensee = partners the team labels as such. Red Bull, Williams, Haas and Racing Bulls do not label tiers: their title partners (and Visa at Red Bull, Barclays and Komatsu at Williams) are shown as principal, tyre and safety-equipment suppliers as suppliers, and all others as official / team partners."],
-      ["New in 2026", "Partnership publicly announced in calendar 2026 (to 29 Oct). Renewals and extensions are not marked."],
-      ["Caveats", "Ferrari's, McLaren's and Cadillac's own partner pages could not be read, so these use f1salaries.com (30 Sep 2026), plus AbbVie (McLaren) and Frontieras (Cadillac), both announced in October. Gainbridge and UKG, shown for Cadillac in the September deck, are not on current lists."],
+      ["Scope", "Every commercial partner active in the 2026 season for the 11 teams and Formula 1: title, official and team partners, suppliers, regional partners, licensees and team-announced collaborations. Partnerships already signed to start in 2027 are shown in italics and counted separately."],
+      ["Tiers", "Harmonised to three rows. Title / principal = naming, title, principal, premium and primary partners. Supplier / regional / licensee = partners labelled as such, plus licensing deals and collaborations. Red Bull, Williams, Haas and Racing Bulls do not label tiers: title partners (and Visa, Barclays, Komatsu) are shown as principal, tyre and safety suppliers as suppliers, all others as team partners."],
+      ["Dates", "Red = partnership publicly announced in calendar 2026 (to 29 Oct). Renewals, extensions and upgrades are not marked."],
+      ["Sources", "Official partner pages were read on 29 Oct 2026 and every roster was cross-checked against 2026 team, partner and trade-press announcements. Ferrari's and Cadillac's pages block automated reading, so they use f1salaries.com (30 Sep 2026) plus later announcements."],
     ];
     notes.forEach(([h, b], i) => {
-      const y = 1.7 + i * 1.22;
-      s.addText(h.toUpperCase(), { x: L, y, w: 1.6, h: 1.1, fontSize: 12, bold: true, color: C.accent1, margin: 0, valign: "top", isTextBox: true });
-      s.addText(b, { x: L + 1.7, y, w: 5.9, h: 1.15, fontSize: 11, color: C.text1, margin: 0, valign: "top", isTextBox: true });
+      const y = 1.68 + i * 1.28;
+      s.addText(h.toUpperCase(), { x: L, y, w: 1.4, h: 1.15, fontSize: 12, bold: true, color: C.accent1, margin: 0, valign: "top", isTextBox: true });
+      s.addText(b, { x: L + 1.45, y, w: 6.2, h: 1.2, fontSize: 10.5, color: C.text1, margin: 0, valign: "top", isTextBox: true });
     });
-    s.addText("SOURCES BY TEAM", { x: 8.3, y: 1.7, w: 4.5, h: 0.3, fontSize: 11, bold: true, color: C.accent1, margin: 0, isTextBox: true });
+    s.addText("SOURCES BY TEAM", { x: 8.35, y: 1.68, w: 4.5, h: 0.3, fontSize: 11, bold: true, color: C.accent1, margin: 0, isTextBox: true });
     s.addText(D.teams.map((t, i) => [{ text: SHORT[t.key] + ": ", options: { bold: true } },
       { text: D.sources[t.key], options: { breakLine: i < D.teams.length - 1 } }]).flat(),
-    { x: 8.3, y: 2.05, w: R - 8.3, h: 4.9, fontSize: 9.5, color: C.text1, margin: 0, valign: "top", paraSpaceAfter: 3, isTextBox: true });
+    { x: 8.35, y: 2.02, w: R - 8.35, h: 5.0, fontSize: 8.5, color: C.text1, margin: 0, valign: "top", paraSpaceAfter: 2, isTextBox: true });
+  }
+
+  // 10 Checked but not included
+  {
+    const s = content("Notes & sources", "Brands checked but not included, and why", "Prepared by SPORTFIVE for Wolters Kluwer, 29 October 2026.",
+      "Every brand that came up in the verification but is not on the ecosystem slides, with the reason. Any of these can be added if the client wants a wider definition.");
+    D.excluded.forEach(([h, b], i) => {
+      const y = 1.75 + i * 2.25;
+      s.addShape(S.RECTANGLE, { x: L, y, w: R - L, h: 2.05, fill: { color: i ? C.background2 : C.accent4 }, line: { color: C.background2, width: 0 } });
+      s.addText(h.toUpperCase(), { x: L + 0.3, y: y + 0.18, w: R - L - 0.6, h: 0.3, fontSize: 12, bold: true, color: C.accent1, margin: 0, isTextBox: true });
+      s.addText(b, { x: L + 0.3, y: y + 0.58, w: R - L - 0.6, h: 1.35, fontSize: 14, color: C.text1, margin: 0, valign: "top", isTextBox: true });
+    });
   }
 
   await pres.writeFile({ fileName: OUT });

@@ -10,252 +10,336 @@
      "row": 1,
      "sector": "O",
      "tier": "Global Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "AWS",
      "row": 1,
      "sector": "O",
      "tier": "Global Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "DHL",
      "row": 1,
      "sector": "O",
      "tier": "Global Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Heineken",
      "row": 1,
      "sector": "O",
      "tier": "Global Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Lenovo",
      "row": 1,
      "sector": "O",
      "tier": "Global Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "LVMH",
      "row": 1,
      "sector": "O",
      "tier": "Global Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "MSC Cruises",
      "row": 1,
      "sector": "O",
      "tier": "Global Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Pirelli",
      "row": 1,
      "sector": "O",
      "tier": "Global Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Qatar Airways",
      "row": 1,
      "sector": "O",
      "tier": "Global Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Salesforce",
      "row": 1,
      "sector": "O",
      "tier": "Global Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Allwyn",
      "row": 2,
      "sector": "O",
      "tier": "Official Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "American Express",
      "row": 2,
      "sector": "FS",
      "tier": "Official Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Barilla",
      "row": 2,
      "sector": "O",
      "tier": "Official Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Crypto.com",
      "row": 2,
      "sector": "FS",
      "tier": "Official Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Globant",
      "row": 2,
      "sector": "O",
      "tier": "Official Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Las Vegas Convention & Visitors Authority",
      "row": 2,
      "sector": "O",
      "tier": "Official Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "LIQUI MOLY",
      "row": 2,
      "sector": "O",
      "tier": "Official Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Louis Vuitton",
      "row": 2,
      "sector": "O",
      "tier": "Official Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Marsh",
      "row": 2,
      "sector": "FS",
      "tier": "Official Partner",
-     "new": "Apr"
+     "new": "Apr",
+     "starts": null
     },
     {
      "name": "Moët Hennessy",
      "row": 2,
      "sector": "O",
      "tier": "Official Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Nestlé (KitKat)",
      "row": 2,
      "sector": "O",
      "tier": "Official Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Paramount+",
      "row": 2,
      "sector": "O",
      "tier": "Official Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "PepsiCo",
      "row": 2,
      "sector": "O",
      "tier": "Official Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "PwC",
      "row": 2,
      "sector": "PS",
      "tier": "Official Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Santander",
      "row": 2,
      "sector": "FS",
      "tier": "Official Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Standard Chartered",
      "row": 2,
      "sector": "FS",
      "tier": "Official Partner",
-     "new": "Jan"
+     "new": "Jan",
+     "starts": null
     },
     {
      "name": "TAG Heuer",
      "row": 2,
      "sector": "O",
      "tier": "Official Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Arcos Dorados (McDonald's)",
      "row": 3,
      "sector": "O",
      "tier": "Regional Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "T-Mobile",
      "row": 3,
      "sector": "O",
      "tier": "Regional Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Aggreko",
      "row": 3,
      "sector": "O",
      "tier": "Official Provider",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Fever",
      "row": 3,
      "sector": "O",
      "tier": "Official Provider",
-     "new": null
+     "new": "Jun",
+     "starts": null
     },
     {
      "name": "Flexjet",
      "row": 3,
      "sector": "O",
      "tier": "Official Provider",
-     "new": null
+     "new": "Jul",
+     "starts": null
     },
     {
      "name": "PUMA",
      "row": 3,
      "sector": "O",
      "tier": "Official Provider",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Tata Communications",
      "row": 3,
      "sector": "O",
      "tier": "Official Provider",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Betway",
      "row": 3,
      "sector": "O",
      "tier": "Official Betting Operator",
-     "new": null
+     "new": "Mar",
+     "starts": null
     },
     {
      "name": "FanDuel",
      "row": 3,
      "sector": "O",
      "tier": "Official Betting Operator",
-     "new": null
+     "new": "Apr",
+     "starts": null
+    },
+    {
+     "name": "Fanatec",
+     "row": 3,
+     "sector": "O",
+     "tier": "F1 Sim Racing Official Sponsor / licensee",
+     "new": null,
+     "starts": null
+    },
+    {
+     "name": "ALT Sports Data",
+     "row": 3,
+     "sector": "O",
+     "tier": "Official Betting Data Supplier",
+     "new": null,
+     "starts": null
+    },
+    {
+     "name": "LEGO",
+     "row": 3,
+     "sector": "O",
+     "tier": "Licensing partner",
+     "new": null,
+     "starts": null
+    },
+    {
+     "name": "Mattel (Hot Wheels)",
+     "row": 3,
+     "sector": "O",
+     "tier": "Licensing partner",
+     "new": null,
+     "starts": null
+    },
+    {
+     "name": "Disney",
+     "row": 3,
+     "sector": "O",
+     "tier": "Licensing partner (extended to 2028)",
+     "new": null,
+     "starts": null
+    },
+    {
+     "name": "Leica",
+     "row": 3,
+     "sector": "O",
+     "tier": "Licensing partner",
+     "new": "Oct",
+     "starts": null
     }
    ]
   },
@@ -269,210 +353,248 @@
      "row": 1,
      "sector": "O",
      "tier": "Title Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "CrowdStrike",
      "row": 1,
      "sector": "O",
      "tier": "Principal Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "INEOS",
      "row": 1,
      "sector": "O",
      "tier": "Principal Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Microsoft",
      "row": 1,
      "sector": "O",
      "tier": "Principal Partner",
-     "new": "Jan"
+     "new": "Jan",
+     "starts": null
     },
     {
      "name": "adidas",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Snapdragon",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "TeamViewer",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Solera",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Hewlett Packard Enterprise",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "UBS",
      "row": 2,
      "sector": "FS",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Stripe",
      "row": 2,
      "sector": "FS",
      "tier": "Team Partner",
-     "new": "Oct"
+     "new": "Oct",
+     "starts": null
     },
     {
      "name": "Meta AI",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Nu",
      "row": 2,
      "sector": "FS",
      "tier": "Team Partner",
-     "new": null
+     "new": "Jan",
+     "starts": null
     },
     {
      "name": "WhatsApp",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Vercel",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": "Jul",
+     "starts": null
     },
     {
      "name": "SAP",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "G42",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Signify",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Marriott Bonvoy",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "AMD",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Einhell",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "IWC Schaffhausen",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Akkodis",
      "row": 2,
      "sector": "PS",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Sherwin-Williams",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Nasdaq",
      "row": 2,
      "sector": "FS",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "PepsiCo",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Endless",
      "row": 3,
      "sector": "O",
      "tier": "Team Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Pirelli",
      "row": 3,
      "sector": "O",
      "tier": "Team Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Mous",
      "row": 3,
      "sector": "O",
      "tier": "Team Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "BetterUp",
      "row": 3,
      "sector": "PS",
      "tier": "Regional Partner",
-     "new": null
+     "new": null,
+     "starts": null
+    },
+    {
+     "name": "Zuma",
+     "row": 2,
+     "sector": "O",
+     "tier": "Lifestyle & Dining Curator",
+     "new": "Jan",
+     "starts": null
     }
    ]
   },
@@ -486,238 +608,272 @@
      "row": 1,
      "sector": "O",
      "tier": "Title Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Visa",
      "row": 1,
      "sector": "FS",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "TAG Heuer",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Rokt",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
-     "name": "Mobil 1",
+     "name": "ExxonMobil (Mobil 1, Mobil)",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Ford Racing",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Carlyle",
      "row": 2,
      "sector": "FS",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "DAMAC Properties",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": "Feb"
+     "new": "Feb",
+     "starts": null
     },
     {
      "name": "AT&T",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Gate",
      "row": 2,
      "sector": "FS",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Hard Rock",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "AvaTrade",
      "row": 2,
      "sector": "FS",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "YETI",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "1Password",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Indeed",
      "row": 2,
      "sector": "PS",
      "tier": "Partner",
-     "new": null
+     "new": "Mar",
+     "starts": null
     },
     {
      "name": "Siemens",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Heineken",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Castore",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Armor All",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Hexagon",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "New Era",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Maui Jim",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Pepe Jeans",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Rauch",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "DMG MORI",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Athletic Propulsion Labs",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Synopsys",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "CLEAR",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": "Jan",
+     "starts": null
     },
     {
      "name": "Philips Professional Displays",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "mophie",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Neat",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Pirelli",
      "row": 3,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Sparco",
      "row": 3,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "PWR",
      "row": 3,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     }
    ]
   },
@@ -731,287 +887,336 @@
      "row": 1,
      "sector": "O",
      "tier": "Title Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Shell",
      "row": 1,
      "sector": "O",
      "tier": "Premium Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "UniCredit",
      "row": 1,
      "sector": "FS",
      "tier": "Premium Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "PUMA",
      "row": 1,
      "sector": "O",
      "tier": "Premium Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "IBM",
      "row": 1,
      "sector": "O",
      "tier": "Premium Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "CEVA Logistics",
      "row": 1,
      "sector": "O",
      "tier": "Premium Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Ambipar",
      "row": 2,
      "sector": "PS",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Aon",
      "row": 2,
      "sector": "FS",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "BingX",
      "row": 2,
      "sector": "FS",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Bitdefender",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Chivas",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "DXC Technology",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Ecopol",
      "row": 2,
      "sector": "O",
      "tier": "Official Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Espacio",
      "row": 2,
      "sector": "O",
      "tier": "Official Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Genesys",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "IVECO",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "ManpowerGroup",
      "row": 2,
      "sector": "PS",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Marina Bay Sands",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Mumm",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Peroni",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Ray-Ban",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Richard Mille",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "S.Pellegrino",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "SkinCeuticals",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": "Jun",
+     "starts": null
     },
     {
      "name": "Technogym",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Vantage",
      "row": 2,
      "sector": "FS",
      "tier": "Official Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "VistaJet",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "WHOOP",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": "Jan",
+     "starts": null
     },
     {
      "name": "ZCG",
      "row": 2,
      "sector": "FS",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "ZYN",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "BBS",
      "row": 3,
      "sector": "O",
      "tier": "Technical Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Bell",
      "row": 3,
      "sector": "O",
      "tier": "Technical Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Brembo",
      "row": 3,
      "sector": "O",
      "tier": "Technical Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Garrett",
      "row": 3,
      "sector": "O",
      "tier": "Technical Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "NGK",
      "row": 3,
      "sector": "O",
      "tier": "Technical Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Öhlins",
      "row": 3,
      "sector": "O",
      "tier": "Technical Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "OMR",
      "row": 3,
      "sector": "O",
      "tier": "Technical Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Pirelli",
      "row": 3,
      "sector": "O",
      "tier": "Technical Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Riedel",
      "row": 3,
      "sector": "O",
      "tier": "Technical Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Sabelt",
      "row": 3,
      "sector": "O",
      "tier": "Technical Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "SKF",
      "row": 3,
      "sector": "O",
      "tier": "Technical Supplier",
-     "new": null
+     "new": null,
+     "starts": null
+    },
+    {
+     "name": "Rakuten",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner from 1 Jan 2027",
+     "new": "Sep",
+     "starts": 2027
     }
    ]
   },
@@ -1025,364 +1230,464 @@
      "row": 1,
      "sector": "FS",
      "tier": "Official Naming Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "British American Tobacco",
      "row": 1,
      "sector": "O",
      "tier": "Principal Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "OKX",
      "row": 1,
      "sector": "FS",
      "tier": "Official Primary Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
-     "name": "Google",
+     "name": "Google (Android, Chrome, Gemini, Google Cloud)",
      "row": 1,
      "sector": "O",
      "tier": "Official Primary Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "DP World",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Dell Technologies",
      "row": 2,
      "sector": "O",
      "tier": "Official Innovation Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "FxPro",
      "row": 2,
      "sector": "FS",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Etihad",
      "row": 2,
      "sector": "O",
      "tier": "Official Partner",
-     "new": "Feb"
+     "new": "Feb",
+     "starts": null
     },
     {
      "name": "Airwallex",
      "row": 2,
      "sector": "FS",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "AkzoNobel (Sikkens)",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Allwyn",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Alpinestars",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Alteryx",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Arrow Electronics",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Ashurst",
      "row": 2,
      "sector": "PS",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
-     "name": "Cisco",
+     "name": "Cisco (Webex, Splunk)",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "CNBC",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Deloitte",
      "row": 2,
      "sector": "PS",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Dropbox",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Ecolab",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Freshworks",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Global",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": "May"
+     "new": "May",
+     "starts": null
     },
     {
      "name": "Goldman Sachs",
      "row": 2,
      "sector": "FS",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Greene Tweed",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Groq",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Hedera",
      "row": 2,
      "sector": "FS",
      "tier": "Partner",
-     "new": "Jan"
+     "new": "Jan",
+     "starts": null
     },
     {
      "name": "Hilton",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Intel",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": "May",
+     "starts": null
     },
     {
      "name": "Iron Mountain",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Jack Daniel's",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "KAUST",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "LEGO",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Liquid I.V.",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": "Apr",
+     "starts": null
     },
     {
      "name": "Medallia",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Monster Energy",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Motul",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Okta",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Optimum Nutrition",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "PUMA",
      "row": 2,
      "sector": "O",
      "tier": "Team Kit and Apparel Partner",
-     "new": "Jan"
+     "new": "Jan",
+     "starts": null
     },
     {
      "name": "Reiss",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Richard Mille",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Rubrik",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": "Jan"
+     "new": "Jan",
+     "starts": null
     },
     {
      "name": "Schneider Electric",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": "Jan"
+     "new": "Jan",
+     "starts": null
     },
     {
      "name": "SharkNinja",
      "row": 2,
      "sector": "O",
      "tier": "Official Partner",
-     "new": "Sep"
+     "new": "Sep",
+     "starts": null
     },
     {
      "name": "Smartsheet",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
-     "name": "Stanley Black & Decker",
+     "name": "Stanley Black & Decker (DEWALT)",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "T-Mobile",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "TUMI",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Udemy",
      "row": 2,
      "sector": "PS",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Workday",
      "row": 2,
      "sector": "PS",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "AbbVie",
      "row": 2,
      "sector": "LS",
      "tier": "Official Pharmaceutical Partner",
-     "new": "Oct"
+     "new": "Oct",
+     "starts": null
     },
     {
      "name": "Pirelli",
      "row": 3,
      "sector": "O",
      "tier": "Technical Supplier",
-     "new": null
+     "new": null,
+     "starts": null
+    },
+    {
+     "name": "Edward Jones",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Official Private Wealth Management Partner",
+     "new": "Sep",
+     "starts": null
+    },
+    {
+     "name": "P&G (Head & Shoulders, Oral-B)",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner (Asia-Pacific)",
+     "new": "Oct",
+     "starts": null
+    },
+    {
+     "name": "Pure Electric",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null,
+     "starts": null
+    },
+    {
+     "name": "Stratasys",
+     "row": 3,
+     "sector": "O",
+     "tier": "Official Supplier of 3D Printing Solutions",
+     "new": null,
+     "starts": null
+    },
+    {
+     "name": "Topps",
+     "row": 3,
+     "sector": "O",
+     "tier": "Official trading-card licensee",
+     "new": "Apr",
+     "starts": null
+    },
+    {
+     "name": "Commercial Bank",
+     "row": 3,
+     "sector": "FS",
+     "tier": "Official Race Partner, Qatar GP (2025-2027)",
+     "new": null,
+     "starts": null
     }
    ]
   },
@@ -1396,336 +1701,400 @@
      "row": 1,
      "sector": "O",
      "tier": "Title Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Eni",
      "row": 1,
      "sector": "O",
      "tier": "Premium Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "MSC Cruises",
      "row": 1,
      "sector": "O",
      "tier": "Premium Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "H. Moser & Cie.",
      "row": 1,
      "sector": "O",
      "tier": "Premium Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Adobe",
      "row": 1,
      "sector": "O",
      "tier": "Premium Partner",
-     "new": "Oct"
+     "new": "Oct",
+     "starts": null
     },
     {
      "name": "R5 Turbo 3E",
      "row": 1,
      "sector": "O",
      "tier": "Premium Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "AtkinsRéalis",
      "row": 2,
      "sector": "PS",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Arctic Wolf",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Apex Ultra",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": "Oct",
+     "starts": null
     },
     {
      "name": "Avature",
      "row": 2,
      "sector": "PS",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Businessolver",
      "row": 2,
      "sector": "PS",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Castore",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Cato Networks",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "eToro",
      "row": 2,
      "sector": "FS",
      "tier": "Team Partner",
-     "new": "Jan"
+     "new": "Jan",
+     "starts": null
     },
     {
      "name": "Eurodatacar",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "IndraMind",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": "Jan",
+     "starts": null
     },
     {
      "name": "Mercado Libre",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Mobilize Financial Services",
      "row": 2,
      "sector": "FS",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "MODO",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "New Era",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "OAKBERRY",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Qatar Airways",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "SEALSQ",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Shamir",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Skip",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": "May",
+     "starts": null
     },
     {
      "name": "Valvoline",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "The Venetian Resort",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "viagogo",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Boeing",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "3D Systems",
      "row": 3,
      "sector": "O",
      "tier": "Team Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Alpinestars",
      "row": 3,
      "sector": "O",
      "tier": "Team Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Beforeyouspeak",
      "row": 3,
      "sector": "O",
      "tier": "Team Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Built For Athletes",
      "row": 3,
      "sector": "O",
      "tier": "Team Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "JAAQ",
      "row": 3,
      "sector": "LS",
      "tier": "Team Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Delphi",
      "row": 3,
      "sector": "O",
      "tier": "Team Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "D3O",
      "row": 3,
      "sector": "O",
      "tier": "Team Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "HMN24",
      "row": 3,
      "sector": "O",
      "tier": "Team Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Matrix",
      "row": 3,
      "sector": "O",
      "tier": "Team Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "LUMI",
      "row": 3,
      "sector": "O",
      "tier": "Team Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "M-Experiment",
      "row": 3,
      "sector": "O",
      "tier": "Team Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "MISSION",
      "row": 3,
      "sector": "O",
      "tier": "Team Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Pirelli",
      "row": 3,
      "sector": "O",
      "tier": "Team Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Roland DG",
      "row": 3,
      "sector": "O",
      "tier": "Team Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Trak Racer",
      "row": 3,
      "sector": "O",
      "tier": "Team Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "United Machining",
      "row": 3,
      "sector": "O",
      "tier": "Team Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Endstate",
      "row": 3,
      "sector": "O",
      "tier": "Team Licensee",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "The James Brand",
      "row": 3,
      "sector": "O",
      "tier": "Team Licensee",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Perfect Moment",
      "row": 3,
      "sector": "O",
      "tier": "Team Licensee",
-     "new": null
+     "new": null,
+     "starts": null
+    },
+    {
+     "name": "Gucci",
+     "row": 1,
+     "sector": "O",
+     "tier": "Title Partner from 2027 (Gucci Racing Alpine F1 Team)",
+     "new": "May",
+     "starts": 2027
+    },
+    {
+     "name": "Brioni",
+     "row": 2,
+     "sector": "O",
+     "tier": "Formalwear partner (team release; not on partner page)",
+     "new": "Apr",
+     "starts": null
     }
    ]
   },
@@ -1739,273 +2108,360 @@
      "row": 1,
      "sector": "O",
      "tier": "Title Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Maaden",
      "row": 1,
      "sector": "O",
      "tier": "Principal Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Honda",
      "row": 2,
      "sector": "O",
      "tier": "Technical Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Cognizant",
      "row": 2,
      "sector": "O",
      "tier": "Global AI Services Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "CoreWeave",
      "row": 2,
      "sector": "O",
      "tier": "Official AI Cloud Computing Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Cohere",
      "row": 2,
      "sector": "O",
      "tier": "Official Generative AI Partner",
-     "new": null
+     "new": "Mar",
+     "starts": null
     },
     {
      "name": "Arm",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Atlas Air",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "BOSS",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Breitling",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": "Feb",
+     "starts": null
     },
     {
      "name": "Celsius",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": "Jan",
+     "starts": null
     },
     {
      "name": "Cognition",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": "Feb",
+     "starts": null
     },
     {
      "name": "Coinbase",
      "row": 2,
      "sector": "FS",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "CoinPayments",
      "row": 2,
      "sector": "FS",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Eight Sleep",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": "Feb",
+     "starts": null
     },
     {
      "name": "ELEMIS",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Financial Times",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Glenfiddich",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "JCB",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Krown Produce",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Morrison Foerster",
      "row": 2,
      "sector": "PS",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "NetApp",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "NexGen",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Oakley",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Pepperstone",
      "row": 2,
      "sector": "FS",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Public",
      "row": 2,
      "sector": "FS",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "PUMA",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Regent Seven Seas Cruises",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "ServiceNow",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "TikTok",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "UKG",
      "row": 2,
      "sector": "PS",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Valvoline",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Velocity Black",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Xerox",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Zscaler",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": "Jun",
+     "starts": null
     },
     {
      "name": "BK8 News",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": "Oct",
+     "starts": null
     },
     {
      "name": "BOXBOX",
      "row": 2,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": "Oct",
+     "starts": null
     },
     {
      "name": "AQUAME",
      "row": 3,
      "sector": "O",
      "tier": "Official Supplier",
-     "new": null
+     "new": "May",
+     "starts": null
     },
     {
      "name": "Pirelli",
      "row": 3,
      "sector": "O",
      "tier": "Partner",
-     "new": null
+     "new": null,
+     "starts": null
+    },
+    {
+     "name": "Meccano",
+     "row": 3,
+     "sector": "O",
+     "tier": "Licensing partner",
+     "new": "Jan",
+     "starts": null
+    },
+    {
+     "name": "Memento Exclusives",
+     "row": 3,
+     "sector": "O",
+     "tier": "Licensing partner (extended Apr 2026)",
+     "new": null,
+     "starts": null
+    },
+    {
+     "name": "Smythson",
+     "row": 3,
+     "sector": "O",
+     "tier": "Licensing collaboration",
+     "new": "May",
+     "starts": null
+    },
+    {
+     "name": "Defected Records",
+     "row": 3,
+     "sector": "O",
+     "tier": "Collaboration",
+     "new": "Aug",
+     "starts": null
+    },
+    {
+     "name": "Padeltek",
+     "row": 3,
+     "sector": "O",
+     "tier": "Collaboration (expands 2027)",
+     "new": "Oct",
+     "starts": null
+    },
+    {
+     "name": "Globe-Trotter",
+     "row": 3,
+     "sector": "O",
+     "tier": "Global Luxury Luggage Partner (per brand)",
+     "new": null,
+     "starts": null
     }
    ]
   },
@@ -2019,77 +2475,96 @@
      "row": 1,
      "sector": "O",
      "tier": "Primary Partner",
-     "new": "Feb"
+     "new": "Feb",
+     "starts": null
     },
     {
      "name": "Claro (América Móvil)",
      "row": 2,
      "sector": "O",
      "tier": "Official Telecommunications Partner",
-     "new": "Jan"
+     "new": "Jan",
+     "starts": null
     },
     {
      "name": "Tommy Hilfiger",
      "row": 2,
      "sector": "O",
      "tier": "Official Apparel Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Tenneco",
      "row": 2,
      "sector": "O",
      "tier": "Official Technical Partner",
-     "new": "Jan"
+     "new": "Jan",
+     "starts": null
     },
     {
      "name": "Core Scientific",
      "row": 2,
      "sector": "O",
      "tier": "Official Data Center Partner",
-     "new": "Mar"
+     "new": "Mar",
+     "starts": null
     },
     {
      "name": "IFS",
      "row": 2,
      "sector": "O",
      "tier": "Official Technology Partner",
-     "new": "Jan"
+     "new": "Jan",
+     "starts": null
     },
     {
      "name": "3M",
      "row": 2,
      "sector": "O",
      "tier": "Official Material Science Partner",
-     "new": "Jun"
+     "new": "Jun",
+     "starts": null
     },
     {
      "name": "Jim Beam",
      "row": 2,
      "sector": "O",
      "tier": "Official Spirits Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Frontieras",
      "row": 2,
      "sector": "O",
      "tier": "Official Energy Transformation Partner",
-     "new": "Oct"
+     "new": "Oct",
+     "starts": null
     },
     {
      "name": "Alpinestars",
      "row": 3,
      "sector": "O",
      "tier": "Technical Racewear Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Pirelli",
      "row": 3,
      "sector": "O",
      "tier": "Official Tire Supplier",
-     "new": null
+     "new": null,
+     "starts": null
+    },
+    {
+     "name": "Memento Exclusives",
+     "row": 3,
+     "sector": "O",
+     "tier": "Licensing partner",
+     "new": "Jun",
+     "starts": null
     }
    ]
   },
@@ -2103,182 +2578,224 @@
      "row": 1,
      "sector": "FS",
      "tier": "Title Sponsor",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Visit Qatar",
      "row": 1,
      "sector": "O",
      "tier": "Principal Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "bp",
      "row": 1,
      "sector": "O",
      "tier": "Principal Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Castrol",
      "row": 1,
      "sector": "O",
      "tier": "Principal Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "adidas",
      "row": 2,
      "sector": "O",
      "tier": "Official Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Aleph",
      "row": 2,
      "sector": "O",
      "tier": "Official Partner",
-     "new": "Jan"
+     "new": "Jan",
+     "starts": null
     },
     {
      "name": "Nexo",
      "row": 2,
      "sector": "FS",
      "tier": "Official Partner",
-     "new": "Jan"
+     "new": "Jan",
+     "starts": null
     },
     {
      "name": "NinjaOne",
      "row": 2,
      "sector": "O",
      "tier": "Official Partner",
-     "new": null
+     "new": "Jan",
+     "starts": null
     },
     {
-     "name": "Gillette (P&G)",
+     "name": "P&G (Gillette, Braun, Venus)",
      "row": 2,
      "sector": "O",
      "tier": "Official Partner",
-     "new": null
+     "new": "Jan",
+     "starts": null
     },
     {
      "name": "Hyatt",
      "row": 2,
      "sector": "O",
      "tier": "Official Partner",
-     "new": null
+     "new": "Jan",
+     "starts": null
     },
     {
      "name": "Perk",
      "row": 2,
      "sector": "O",
      "tier": "Official Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "ic! berlin",
      "row": 2,
      "sector": "O",
      "tier": "Official Partner",
-     "new": null
+     "new": "Feb",
+     "starts": null
     },
     {
      "name": "Libertex",
      "row": 2,
      "sector": "FS",
      "tier": "Official Partner",
-     "new": "Mar"
+     "new": null,
+     "starts": null
     },
     {
      "name": "ElevenLabs",
      "row": 2,
      "sector": "O",
      "tier": "Official Partner",
-     "new": "Jan"
+     "new": "Jan",
+     "starts": null
     },
     {
      "name": "Camozzi",
      "row": 2,
      "sector": "O",
      "tier": "Official Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Piquadro",
      "row": 2,
      "sector": "O",
      "tier": "Official Partner",
-     "new": null
+     "new": "Jan",
+     "starts": null
     },
     {
      "name": "Extreme Networks",
      "row": 2,
      "sector": "O",
      "tier": "Official Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Paulaner",
      "row": 3,
      "sector": "O",
      "tier": "Official Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Mammoet",
      "row": 3,
      "sector": "O",
      "tier": "Official Supplier",
-     "new": null
+     "new": "Mar",
+     "starts": null
     },
     {
      "name": "Öhlins",
      "row": 3,
      "sector": "O",
      "tier": "Official Supplier",
-     "new": null
+     "new": "Oct",
+     "starts": null
     },
     {
      "name": "Pirelli",
      "row": 3,
      "sector": "O",
      "tier": "Official Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Specialized",
      "row": 3,
      "sector": "O",
      "tier": "Official Supplier",
-     "new": null
+     "new": "May",
+     "starts": null
     },
     {
      "name": "Bell Helmets",
      "row": 3,
      "sector": "O",
      "tier": "Official Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "JigSpace",
      "row": 3,
      "sector": "O",
      "tier": "Official Supplier",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Glasurit",
      "row": 3,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": "Mar",
+     "starts": null
     },
     {
      "name": "Sabelt",
      "row": 3,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
+    },
+    {
+     "name": "Elastic",
+     "row": 3,
+     "sector": "O",
+     "tier": "Official Race Partner (US GP 2026); Official Supplier from 2027",
+     "new": "Oct",
+     "starts": null
+    },
+    {
+     "name": "Memento Exclusives",
+     "row": 3,
+     "sector": "O",
+     "tier": "Licensing partner",
+     "new": "Apr",
+     "starts": null
     }
    ]
   },
@@ -2292,189 +2809,248 @@
      "row": 1,
      "sector": "O",
      "tier": "Title Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
-     "name": "IC Markets",
+     "name": "IC (IC Markets)",
      "row": 2,
      "sector": "FS",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Haas Automation",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Play'n GO",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Castore",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": "Jan"
+     "new": "Jan",
+     "starts": null
     },
     {
      "name": "CommScope",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "D.Energy",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": "Apr",
+     "starts": null
     },
     {
      "name": "Emburse",
      "row": 2,
      "sector": "FS",
      "tier": "Not labelled",
-     "new": null
+     "new": "Jun",
+     "starts": null
     },
     {
      "name": "Exein",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": "Jul",
+     "starts": null
     },
     {
      "name": "Fix Network",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": "Jan",
+     "starts": null
     },
     {
      "name": "HaasTooling.com",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Infobip",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "MGM Rewards",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Mphasis",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "NeverMile",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": "Jun",
+     "starts": null
     },
     {
      "name": "New Era",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Orion180",
      "row": 2,
      "sector": "FS",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "RUCKUS Networks",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": "Jan"
+     "new": null,
+     "starts": null
     },
     {
      "name": "Singha",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": "Feb",
+     "starts": null
     },
     {
      "name": "Taittinger",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "TravisMathew",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "UChicago Medicine",
      "row": 2,
      "sector": "LS",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Vellamo Water",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Zoomex",
      "row": 2,
      "sector": "FS",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Pirelli",
      "row": 3,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Alpinestars",
      "row": 3,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Schuberth",
      "row": 3,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
+    },
+    {
+     "name": "TENEX.AI",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Partner (cybersecurity)",
+     "new": "Oct",
+     "starts": null
+    },
+    {
+     "name": "Dynamo Capital",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Partner (North America)",
+     "new": "Oct",
+     "starts": null
+    },
+    {
+     "name": "Memento Exclusives",
+     "row": 3,
+     "sector": "O",
+     "tier": "Global licensing partner",
+     "new": "Oct",
+     "starts": null
+    },
+    {
+     "name": "TOHO (Godzilla)",
+     "row": 3,
+     "sector": "O",
+     "tier": "Season-long collaboration",
+     "new": "Mar",
+     "starts": null
     }
    ]
   },
@@ -2488,189 +3064,224 @@
      "row": 1,
      "sector": "FS",
      "tier": "Team Partner (featured)",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Cash App",
      "row": 1,
      "sector": "FS",
      "tier": "Team Partner (featured)",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "TUDOR",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "HUGO",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Ford Racing",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Nouryon",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
-     "name": "Mobil 1",
+     "name": "ExxonMobil (Mobil 1, Esso, Mobil)",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Salesforce",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": "Jun",
+     "starts": null
     },
     {
      "name": "ThreatLocker",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": "Oct",
+     "starts": null
     },
     {
      "name": "Introl",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": "Oct",
+     "starts": null
     },
     {
      "name": "Confluent",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "NEFT Vodka",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "XMTrading",
      "row": 2,
      "sector": "FS",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Airtasker",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Octave",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": "Mar",
+     "starts": null
     },
     {
      "name": "Dynatrace",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Student.com",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Randstad",
      "row": 2,
      "sector": "PS",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Siemens",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "HUGO Eyewear",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Riedel",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "RebelDot",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Roboze",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Hahnair",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Floyd",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": "May",
+     "starts": null
     },
     {
      "name": "Barilla",
      "row": 2,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": "May",
+     "starts": null
     },
     {
      "name": "Pirelli",
      "row": 3,
      "sector": "O",
      "tier": "Team Partner",
-     "new": null
+     "new": null,
+     "starts": null
+    },
+    {
+     "name": "Cefla",
+     "row": 3,
+     "sector": "O",
+     "tier": "Official Supplier / Sustainability Partner",
+     "new": null,
+     "starts": null
     }
    ]
   },
@@ -2684,198 +3295,266 @@
      "row": 1,
      "sector": "O",
      "tier": "Title Partner",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Barclays",
      "row": 1,
      "sector": "FS",
      "tier": "Not labelled",
-     "new": null
+     "new": "Feb",
+     "starts": null
     },
     {
      "name": "Komatsu",
      "row": 1,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Claude",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": "Feb",
+     "starts": null
     },
     {
      "name": "Kraken",
      "row": 2,
      "sector": "FS",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "BNY",
      "row": 2,
      "sector": "FS",
      "tier": "Not labelled",
-     "new": null
+     "new": "Jan",
+     "starts": null
     },
     {
      "name": "Gulf",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Betway",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "NMC",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "VAST Data",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Stephens",
      "row": 2,
      "sector": "FS",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Wilkinson Sword",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": "Jan",
+     "starts": null
     },
     {
      "name": "Estrella Galicia",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": "Feb",
+     "starts": null
     },
     {
      "name": "Duracell",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Jackpot City",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Airia",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Brillio",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Keeper Security",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Nuveen",
      "row": 2,
      "sector": "FS",
      "tier": "Not labelled",
-     "new": null
+     "new": "Jan",
+     "starts": null
     },
     {
      "name": "Zoox",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "New Era",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Girard-Perregaux",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Spinal Injuries Association",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "M&S",
      "row": 2,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": "Feb",
+     "starts": null
     },
     {
      "name": "Pirelli",
      "row": 3,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": null,
+     "starts": null
     },
     {
      "name": "Sparco",
      "row": 3,
      "sector": "O",
      "tier": "Not labelled",
-     "new": null
+     "new": "Jan",
+     "starts": null
+    },
+    {
+     "name": "Klaviyo",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official B2C CRM Partner from 2027",
+     "new": "Oct",
+     "starts": 2027
+    },
+    {
+     "name": "Marvel",
+     "row": 3,
+     "sector": "O",
+     "tier": "Season-long collaboration",
+     "new": "Apr",
+     "starts": null
+    },
+    {
+     "name": "Dandadan (MBS)",
+     "row": 3,
+     "sector": "O",
+     "tier": "Anime collaboration (Sector Zero)",
+     "new": "Apr",
+     "starts": null
+    },
+    {
+     "name": "Racing Camp",
+     "row": 3,
+     "sector": "O",
+     "tier": "Licensed camp collaboration from summer 2027",
+     "new": "Oct",
+     "starts": 2027
     }
    ]
   }
  ],
  "sources": {
-  "f1": "RTR Sports, F1 sponsors and partners (last updated 6 Oct 2026, checked against the official F1 roster)",
-  "mercedes": "mercedesamgf1.com/partners (official, read 29 Oct 2026)",
+  "f1": "formula1.com partner roster (official, read 29 Oct 2026) and RTR Sports (6 Oct 2026); licensing partners from F1 and partner announcements",
+  "mercedes": "mercedesamgf1.com/partners (official, read 29 Oct 2026); Zuma (team release, 23 Jan 2026)",
   "redbull": "redbullracing.com/int-en/partners (official, read 29 Oct 2026)",
-  "ferrari": "f1salaries.com/sponsors/ferrari (last updated 30 Sep 2026); ferrari.com partner page unavailable",
-  "mclaren": "f1salaries.com/sponsors/mclaren (last updated 30 Sep 2026) + AbbVie (Sportcal, 20 Oct 2026)",
-  "astonmartin": "astonmartinf1.com/en-GB/partners (official, read 29 Oct 2026); tiers from f1salaries (30 Sep 2026)",
-  "alpine": "alpinef1.com/partners (official, read 29 Oct 2026)",
-  "williams": "williamsf1.com/partners (official, read 29 Oct 2026)",
-  "haas": "haasf1team.com/partners (official, read 29 Oct 2026)",
-  "vcarb": "visacashapprb.com/int-en/partners (official, read 29 Oct 2026)",
-  "audi": "audif1.com/en/partners (official, read 29 Oct 2026)",
-  "cadillac": "f1salaries.com/sponsors/cadillac (last updated 30 Sep 2026) and RTR Sports (5 Aug 2026) + Frontieras (23 Oct 2026); official page blocked"
- }
+  "ferrari": "f1salaries.com/sponsors/ferrari (last updated 30 Sep 2026); ferrari.com partner page unavailable; Rakuten (Rakuten release, 17 Sep 2026)",
+  "mclaren": "f1salaries.com/sponsors/mclaren (30 Sep 2026), checked against McLaren's partner list of 20 Oct 2026; plus AbbVie, Edward Jones, P&G, Topps, Commercial Bank (team and partner releases)",
+  "astonmartin": "astonmartinf1.com/en-GB/partners (official, read 29 Oct 2026); tiers from f1salaries (30 Sep 2026); licensing and collaboration deals from the team's announcements (Jan-Oct 2026)",
+  "alpine": "alpinef1.com/partners (official, read 29 Oct 2026); Gucci (formula1.com, 27 May 2026) and Brioni (team release, 28 Apr 2026)",
+  "williams": "williamsf1.com/partners (official, read 29 Oct 2026); Klaviyo, Marvel, Dandadan, Racing Camp (team releases, Apr-Oct 2026)",
+  "haas": "haasf1team.com/partners (official, read 29 Oct 2026); TENEX.AI, Dynamo Capital, Memento Exclusives, TOHO (team releases, Mar-Oct 2026)",
+  "vcarb": "visacashapprb.com/int-en/partners (official, read 29 Oct 2026); Cefla (team release, 25 Feb 2026)",
+  "audi": "audif1.com/en/partners (official, read 29 Oct 2026); Elastic and Memento Exclusives (team and partner releases)",
+  "cadillac": "f1salaries.com/sponsors/cadillac (last updated 30 Sep 2026) and RTR Sports (5 Aug 2026) + Frontieras (23 Oct 2026); official page blocked; Memento Exclusives (24 Jun 2026)"
+ },
+ "excluded": [
+  [
+   "Not active / not confirmed for 2026",
+   "AWS and MAHLE (Ferrari: absent from 2026 lists, no exit announced); ONEflight International (McLaren: suspended operations Sep 2026, removed from McLaren's partner list); BlockDAG and MNTN (Alpine: not in the 2026 grid, BlockDAG page removed); Gainbridge and UKG (Cadillac: no official role found); Playseat, DK (F1); CDW (Red Bull); Yugo (Racing Bulls); Circle8 (Aston Martin); SEGA (McLaren); UNDONE, BW Scores (Williams)"
+  ],
+  [
+   "Outside scope",
+   "Owners (Audi, Red Bull, GM/TWG); race-promoter title deals (e.g. Gulf Air, Bahrain GP); power-unit supply; agencies (Brandand, Excel Sports); one-off activations (Apple TV, Peloton, Resorts World Sentosa, Pantone); F1 Academy-only (e.g. Sephora, NEOM, Unity) and esports-only deals; driver personal deals"
+  ]
+ ]
 }
