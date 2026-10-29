@@ -1,0 +1,2881 @@
+{
+ "teams": [
+  {
+   "key": "f1",
+   "name": "Formula 1",
+   "group": "Central Organisation",
+   "partners": [
+    {
+     "name": "Aramco",
+     "row": 1,
+     "sector": "O",
+     "tier": "Global Partner",
+     "new": null
+    },
+    {
+     "name": "AWS",
+     "row": 1,
+     "sector": "O",
+     "tier": "Global Partner",
+     "new": null
+    },
+    {
+     "name": "DHL",
+     "row": 1,
+     "sector": "O",
+     "tier": "Global Partner",
+     "new": null
+    },
+    {
+     "name": "Heineken",
+     "row": 1,
+     "sector": "O",
+     "tier": "Global Partner",
+     "new": null
+    },
+    {
+     "name": "Lenovo",
+     "row": 1,
+     "sector": "O",
+     "tier": "Global Partner",
+     "new": null
+    },
+    {
+     "name": "LVMH",
+     "row": 1,
+     "sector": "O",
+     "tier": "Global Partner",
+     "new": null
+    },
+    {
+     "name": "MSC Cruises",
+     "row": 1,
+     "sector": "O",
+     "tier": "Global Partner",
+     "new": null
+    },
+    {
+     "name": "Pirelli",
+     "row": 1,
+     "sector": "O",
+     "tier": "Global Partner",
+     "new": null
+    },
+    {
+     "name": "Qatar Airways",
+     "row": 1,
+     "sector": "O",
+     "tier": "Global Partner",
+     "new": null
+    },
+    {
+     "name": "Salesforce",
+     "row": 1,
+     "sector": "O",
+     "tier": "Global Partner",
+     "new": null
+    },
+    {
+     "name": "Allwyn",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Partner",
+     "new": null
+    },
+    {
+     "name": "American Express",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Official Partner",
+     "new": null
+    },
+    {
+     "name": "Barilla",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Partner",
+     "new": null
+    },
+    {
+     "name": "Crypto.com",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Official Partner",
+     "new": null
+    },
+    {
+     "name": "Globant",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Partner",
+     "new": null
+    },
+    {
+     "name": "Las Vegas Convention & Visitors Authority",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Partner",
+     "new": null
+    },
+    {
+     "name": "LIQUI MOLY",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Partner",
+     "new": null
+    },
+    {
+     "name": "Louis Vuitton",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Partner",
+     "new": null
+    },
+    {
+     "name": "Marsh",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Official Partner",
+     "new": "Apr"
+    },
+    {
+     "name": "Moët Hennessy",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Partner",
+     "new": null
+    },
+    {
+     "name": "Nestlé (KitKat)",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Partner",
+     "new": null
+    },
+    {
+     "name": "Paramount+",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Partner",
+     "new": null
+    },
+    {
+     "name": "PepsiCo",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Partner",
+     "new": null
+    },
+    {
+     "name": "PwC",
+     "row": 2,
+     "sector": "PS",
+     "tier": "Official Partner",
+     "new": null
+    },
+    {
+     "name": "Santander",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Official Partner",
+     "new": null
+    },
+    {
+     "name": "Standard Chartered",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Official Partner",
+     "new": "Jan"
+    },
+    {
+     "name": "TAG Heuer",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Partner",
+     "new": null
+    },
+    {
+     "name": "Arcos Dorados (McDonald's)",
+     "row": 3,
+     "sector": "O",
+     "tier": "Regional Partner",
+     "new": null
+    },
+    {
+     "name": "T-Mobile",
+     "row": 3,
+     "sector": "O",
+     "tier": "Regional Partner",
+     "new": null
+    },
+    {
+     "name": "Aggreko",
+     "row": 3,
+     "sector": "O",
+     "tier": "Official Provider",
+     "new": null
+    },
+    {
+     "name": "Fever",
+     "row": 3,
+     "sector": "O",
+     "tier": "Official Provider",
+     "new": null
+    },
+    {
+     "name": "Flexjet",
+     "row": 3,
+     "sector": "O",
+     "tier": "Official Provider",
+     "new": null
+    },
+    {
+     "name": "PUMA",
+     "row": 3,
+     "sector": "O",
+     "tier": "Official Provider",
+     "new": null
+    },
+    {
+     "name": "Tata Communications",
+     "row": 3,
+     "sector": "O",
+     "tier": "Official Provider",
+     "new": null
+    },
+    {
+     "name": "Betway",
+     "row": 3,
+     "sector": "O",
+     "tier": "Official Betting Operator",
+     "new": null
+    },
+    {
+     "name": "FanDuel",
+     "row": 3,
+     "sector": "O",
+     "tier": "Official Betting Operator",
+     "new": null
+    }
+   ]
+  },
+  {
+   "key": "mercedes",
+   "name": "Mercedes-AMG Petronas",
+   "group": "Podium Teams",
+   "partners": [
+    {
+     "name": "PETRONAS",
+     "row": 1,
+     "sector": "O",
+     "tier": "Title Partner",
+     "new": null
+    },
+    {
+     "name": "CrowdStrike",
+     "row": 1,
+     "sector": "O",
+     "tier": "Principal Partner",
+     "new": null
+    },
+    {
+     "name": "INEOS",
+     "row": 1,
+     "sector": "O",
+     "tier": "Principal Partner",
+     "new": null
+    },
+    {
+     "name": "Microsoft",
+     "row": 1,
+     "sector": "O",
+     "tier": "Principal Partner",
+     "new": "Jan"
+    },
+    {
+     "name": "adidas",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Snapdragon",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "TeamViewer",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Solera",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Hewlett Packard Enterprise",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "UBS",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Stripe",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Team Partner",
+     "new": "Oct"
+    },
+    {
+     "name": "Meta AI",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Nu",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "WhatsApp",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Vercel",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "SAP",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "G42",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Signify",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Marriott Bonvoy",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "AMD",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Einhell",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "IWC Schaffhausen",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Akkodis",
+     "row": 2,
+     "sector": "PS",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Sherwin-Williams",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Nasdaq",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "PepsiCo",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Endless",
+     "row": 3,
+     "sector": "O",
+     "tier": "Team Supplier",
+     "new": null
+    },
+    {
+     "name": "Pirelli",
+     "row": 3,
+     "sector": "O",
+     "tier": "Team Supplier",
+     "new": null
+    },
+    {
+     "name": "Mous",
+     "row": 3,
+     "sector": "O",
+     "tier": "Team Supplier",
+     "new": null
+    },
+    {
+     "name": "BetterUp",
+     "row": 3,
+     "sector": "PS",
+     "tier": "Regional Partner",
+     "new": null
+    }
+   ]
+  },
+  {
+   "key": "redbull",
+   "name": "Oracle Red Bull Racing",
+   "group": "Podium Teams",
+   "partners": [
+    {
+     "name": "Oracle",
+     "row": 1,
+     "sector": "O",
+     "tier": "Title Partner",
+     "new": null
+    },
+    {
+     "name": "Visa",
+     "row": 1,
+     "sector": "FS",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "TAG Heuer",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Rokt",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Mobil 1",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Ford Racing",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Carlyle",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "DAMAC Properties",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": "Feb"
+    },
+    {
+     "name": "AT&T",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Gate",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Hard Rock",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "AvaTrade",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "YETI",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "1Password",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Indeed",
+     "row": 2,
+     "sector": "PS",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Siemens",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Heineken",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Castore",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Armor All",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Hexagon",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "New Era",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Maui Jim",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Pepe Jeans",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Rauch",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "DMG MORI",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Athletic Propulsion Labs",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Synopsys",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "CLEAR",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Philips Professional Displays",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "mophie",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Neat",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Pirelli",
+     "row": 3,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Sparco",
+     "row": 3,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "PWR",
+     "row": 3,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    }
+   ]
+  },
+  {
+   "key": "ferrari",
+   "name": "Scuderia Ferrari HP",
+   "group": "Podium Teams",
+   "partners": [
+    {
+     "name": "HP",
+     "row": 1,
+     "sector": "O",
+     "tier": "Title Partner",
+     "new": null
+    },
+    {
+     "name": "Shell",
+     "row": 1,
+     "sector": "O",
+     "tier": "Premium Partner",
+     "new": null
+    },
+    {
+     "name": "UniCredit",
+     "row": 1,
+     "sector": "FS",
+     "tier": "Premium Partner",
+     "new": null
+    },
+    {
+     "name": "PUMA",
+     "row": 1,
+     "sector": "O",
+     "tier": "Premium Partner",
+     "new": null
+    },
+    {
+     "name": "IBM",
+     "row": 1,
+     "sector": "O",
+     "tier": "Premium Partner",
+     "new": null
+    },
+    {
+     "name": "CEVA Logistics",
+     "row": 1,
+     "sector": "O",
+     "tier": "Premium Partner",
+     "new": null
+    },
+    {
+     "name": "Ambipar",
+     "row": 2,
+     "sector": "PS",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Aon",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "BingX",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Bitdefender",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Chivas",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "DXC Technology",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Ecopol",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Partner",
+     "new": null
+    },
+    {
+     "name": "Espacio",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Partner",
+     "new": null
+    },
+    {
+     "name": "Genesys",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "IVECO",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "ManpowerGroup",
+     "row": 2,
+     "sector": "PS",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Marina Bay Sands",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Mumm",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Peroni",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Ray-Ban",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Richard Mille",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "S.Pellegrino",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "SkinCeuticals",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Technogym",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Vantage",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Official Partner",
+     "new": null
+    },
+    {
+     "name": "VistaJet",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "WHOOP",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "ZCG",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "ZYN",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "BBS",
+     "row": 3,
+     "sector": "O",
+     "tier": "Technical Supplier",
+     "new": null
+    },
+    {
+     "name": "Bell",
+     "row": 3,
+     "sector": "O",
+     "tier": "Technical Supplier",
+     "new": null
+    },
+    {
+     "name": "Brembo",
+     "row": 3,
+     "sector": "O",
+     "tier": "Technical Supplier",
+     "new": null
+    },
+    {
+     "name": "Garrett",
+     "row": 3,
+     "sector": "O",
+     "tier": "Technical Supplier",
+     "new": null
+    },
+    {
+     "name": "NGK",
+     "row": 3,
+     "sector": "O",
+     "tier": "Technical Supplier",
+     "new": null
+    },
+    {
+     "name": "Öhlins",
+     "row": 3,
+     "sector": "O",
+     "tier": "Technical Supplier",
+     "new": null
+    },
+    {
+     "name": "OMR",
+     "row": 3,
+     "sector": "O",
+     "tier": "Technical Supplier",
+     "new": null
+    },
+    {
+     "name": "Pirelli",
+     "row": 3,
+     "sector": "O",
+     "tier": "Technical Supplier",
+     "new": null
+    },
+    {
+     "name": "Riedel",
+     "row": 3,
+     "sector": "O",
+     "tier": "Technical Supplier",
+     "new": null
+    },
+    {
+     "name": "Sabelt",
+     "row": 3,
+     "sector": "O",
+     "tier": "Technical Supplier",
+     "new": null
+    },
+    {
+     "name": "SKF",
+     "row": 3,
+     "sector": "O",
+     "tier": "Technical Supplier",
+     "new": null
+    }
+   ]
+  },
+  {
+   "key": "mclaren",
+   "name": "McLaren Mastercard",
+   "group": "Podium Teams",
+   "partners": [
+    {
+     "name": "Mastercard",
+     "row": 1,
+     "sector": "FS",
+     "tier": "Official Naming Partner",
+     "new": null
+    },
+    {
+     "name": "British American Tobacco",
+     "row": 1,
+     "sector": "O",
+     "tier": "Principal Partner",
+     "new": null
+    },
+    {
+     "name": "OKX",
+     "row": 1,
+     "sector": "FS",
+     "tier": "Official Primary Partner",
+     "new": null
+    },
+    {
+     "name": "Google",
+     "row": 1,
+     "sector": "O",
+     "tier": "Official Primary Partner",
+     "new": null
+    },
+    {
+     "name": "DP World",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Dell Technologies",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Innovation Partner",
+     "new": null
+    },
+    {
+     "name": "FxPro",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Etihad",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Partner",
+     "new": "Feb"
+    },
+    {
+     "name": "Airwallex",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "AkzoNobel (Sikkens)",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Allwyn",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Alpinestars",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Alteryx",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Arrow Electronics",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Ashurst",
+     "row": 2,
+     "sector": "PS",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Cisco",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "CNBC",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Deloitte",
+     "row": 2,
+     "sector": "PS",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Dropbox",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Ecolab",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Freshworks",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Global",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": "May"
+    },
+    {
+     "name": "Goldman Sachs",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Greene Tweed",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Groq",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Hedera",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Partner",
+     "new": "Jan"
+    },
+    {
+     "name": "Hilton",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Intel",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Iron Mountain",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Jack Daniel's",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "KAUST",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "LEGO",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Liquid I.V.",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Medallia",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Monster Energy",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Motul",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Okta",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Optimum Nutrition",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "PUMA",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Kit and Apparel Partner",
+     "new": "Jan"
+    },
+    {
+     "name": "Reiss",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Richard Mille",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Rubrik",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": "Jan"
+    },
+    {
+     "name": "Schneider Electric",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": "Jan"
+    },
+    {
+     "name": "SharkNinja",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Partner",
+     "new": "Sep"
+    },
+    {
+     "name": "Smartsheet",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Stanley Black & Decker",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "T-Mobile",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "TUMI",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Udemy",
+     "row": 2,
+     "sector": "PS",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Workday",
+     "row": 2,
+     "sector": "PS",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "AbbVie",
+     "row": 2,
+     "sector": "LS",
+     "tier": "Official Pharmaceutical Partner",
+     "new": "Oct"
+    },
+    {
+     "name": "Pirelli",
+     "row": 3,
+     "sector": "O",
+     "tier": "Technical Supplier",
+     "new": null
+    }
+   ]
+  },
+  {
+   "key": "alpine",
+   "name": "BWT Alpine",
+   "group": "Challenger Teams",
+   "partners": [
+    {
+     "name": "BWT",
+     "row": 1,
+     "sector": "O",
+     "tier": "Title Partner",
+     "new": null
+    },
+    {
+     "name": "Eni",
+     "row": 1,
+     "sector": "O",
+     "tier": "Premium Partner",
+     "new": null
+    },
+    {
+     "name": "MSC Cruises",
+     "row": 1,
+     "sector": "O",
+     "tier": "Premium Partner",
+     "new": null
+    },
+    {
+     "name": "H. Moser & Cie.",
+     "row": 1,
+     "sector": "O",
+     "tier": "Premium Partner",
+     "new": null
+    },
+    {
+     "name": "Adobe",
+     "row": 1,
+     "sector": "O",
+     "tier": "Premium Partner",
+     "new": "Oct"
+    },
+    {
+     "name": "R5 Turbo 3E",
+     "row": 1,
+     "sector": "O",
+     "tier": "Premium Partner",
+     "new": null
+    },
+    {
+     "name": "AtkinsRéalis",
+     "row": 2,
+     "sector": "PS",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Arctic Wolf",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Apex Ultra",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Avature",
+     "row": 2,
+     "sector": "PS",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Businessolver",
+     "row": 2,
+     "sector": "PS",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Castore",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Cato Networks",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "eToro",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Team Partner",
+     "new": "Jan"
+    },
+    {
+     "name": "Eurodatacar",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "IndraMind",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Mercado Libre",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Mobilize Financial Services",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "MODO",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "New Era",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "OAKBERRY",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Qatar Airways",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "SEALSQ",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Shamir",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Skip",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Valvoline",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "The Venetian Resort",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "viagogo",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Boeing",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "3D Systems",
+     "row": 3,
+     "sector": "O",
+     "tier": "Team Supplier",
+     "new": null
+    },
+    {
+     "name": "Alpinestars",
+     "row": 3,
+     "sector": "O",
+     "tier": "Team Supplier",
+     "new": null
+    },
+    {
+     "name": "Beforeyouspeak",
+     "row": 3,
+     "sector": "O",
+     "tier": "Team Supplier",
+     "new": null
+    },
+    {
+     "name": "Built For Athletes",
+     "row": 3,
+     "sector": "O",
+     "tier": "Team Supplier",
+     "new": null
+    },
+    {
+     "name": "JAAQ",
+     "row": 3,
+     "sector": "LS",
+     "tier": "Team Supplier",
+     "new": null
+    },
+    {
+     "name": "Delphi",
+     "row": 3,
+     "sector": "O",
+     "tier": "Team Supplier",
+     "new": null
+    },
+    {
+     "name": "D3O",
+     "row": 3,
+     "sector": "O",
+     "tier": "Team Supplier",
+     "new": null
+    },
+    {
+     "name": "HMN24",
+     "row": 3,
+     "sector": "O",
+     "tier": "Team Supplier",
+     "new": null
+    },
+    {
+     "name": "Matrix",
+     "row": 3,
+     "sector": "O",
+     "tier": "Team Supplier",
+     "new": null
+    },
+    {
+     "name": "LUMI",
+     "row": 3,
+     "sector": "O",
+     "tier": "Team Supplier",
+     "new": null
+    },
+    {
+     "name": "M-Experiment",
+     "row": 3,
+     "sector": "O",
+     "tier": "Team Supplier",
+     "new": null
+    },
+    {
+     "name": "MISSION",
+     "row": 3,
+     "sector": "O",
+     "tier": "Team Supplier",
+     "new": null
+    },
+    {
+     "name": "Pirelli",
+     "row": 3,
+     "sector": "O",
+     "tier": "Team Supplier",
+     "new": null
+    },
+    {
+     "name": "Roland DG",
+     "row": 3,
+     "sector": "O",
+     "tier": "Team Supplier",
+     "new": null
+    },
+    {
+     "name": "Trak Racer",
+     "row": 3,
+     "sector": "O",
+     "tier": "Team Supplier",
+     "new": null
+    },
+    {
+     "name": "United Machining",
+     "row": 3,
+     "sector": "O",
+     "tier": "Team Supplier",
+     "new": null
+    },
+    {
+     "name": "Endstate",
+     "row": 3,
+     "sector": "O",
+     "tier": "Team Licensee",
+     "new": null
+    },
+    {
+     "name": "The James Brand",
+     "row": 3,
+     "sector": "O",
+     "tier": "Team Licensee",
+     "new": null
+    },
+    {
+     "name": "Perfect Moment",
+     "row": 3,
+     "sector": "O",
+     "tier": "Team Licensee",
+     "new": null
+    }
+   ]
+  },
+  {
+   "key": "astonmartin",
+   "name": "Aston Martin Aramco",
+   "group": "Challenger Teams",
+   "partners": [
+    {
+     "name": "Aramco",
+     "row": 1,
+     "sector": "O",
+     "tier": "Title Partner",
+     "new": null
+    },
+    {
+     "name": "Maaden",
+     "row": 1,
+     "sector": "O",
+     "tier": "Principal Partner",
+     "new": null
+    },
+    {
+     "name": "Honda",
+     "row": 2,
+     "sector": "O",
+     "tier": "Technical Partner",
+     "new": null
+    },
+    {
+     "name": "Cognizant",
+     "row": 2,
+     "sector": "O",
+     "tier": "Global AI Services Partner",
+     "new": null
+    },
+    {
+     "name": "CoreWeave",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official AI Cloud Computing Partner",
+     "new": null
+    },
+    {
+     "name": "Cohere",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Generative AI Partner",
+     "new": null
+    },
+    {
+     "name": "Arm",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Atlas Air",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "BOSS",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Breitling",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Celsius",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Cognition",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Coinbase",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "CoinPayments",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Eight Sleep",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "ELEMIS",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Financial Times",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Glenfiddich",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "JCB",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Krown Produce",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Morrison Foerster",
+     "row": 2,
+     "sector": "PS",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "NetApp",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "NexGen",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Oakley",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Pepperstone",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Public",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "PUMA",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Regent Seven Seas Cruises",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "ServiceNow",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "TikTok",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "UKG",
+     "row": 2,
+     "sector": "PS",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Valvoline",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Velocity Black",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Xerox",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "Zscaler",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "BK8 News",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "BOXBOX",
+     "row": 2,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    },
+    {
+     "name": "AQUAME",
+     "row": 3,
+     "sector": "O",
+     "tier": "Official Supplier",
+     "new": null
+    },
+    {
+     "name": "Pirelli",
+     "row": 3,
+     "sector": "O",
+     "tier": "Partner",
+     "new": null
+    }
+   ]
+  },
+  {
+   "key": "cadillac",
+   "name": "Cadillac",
+   "group": "Challenger Teams",
+   "partners": [
+    {
+     "name": "TWG AI",
+     "row": 1,
+     "sector": "O",
+     "tier": "Primary Partner",
+     "new": "Feb"
+    },
+    {
+     "name": "Claro (América Móvil)",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Telecommunications Partner",
+     "new": "Jan"
+    },
+    {
+     "name": "Tommy Hilfiger",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Apparel Partner",
+     "new": null
+    },
+    {
+     "name": "Tenneco",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Technical Partner",
+     "new": "Jan"
+    },
+    {
+     "name": "Core Scientific",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Data Center Partner",
+     "new": "Mar"
+    },
+    {
+     "name": "IFS",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Technology Partner",
+     "new": "Jan"
+    },
+    {
+     "name": "3M",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Material Science Partner",
+     "new": "Jun"
+    },
+    {
+     "name": "Jim Beam",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Spirits Partner",
+     "new": null
+    },
+    {
+     "name": "Frontieras",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Energy Transformation Partner",
+     "new": "Oct"
+    },
+    {
+     "name": "Alpinestars",
+     "row": 3,
+     "sector": "O",
+     "tier": "Technical Racewear Supplier",
+     "new": null
+    },
+    {
+     "name": "Pirelli",
+     "row": 3,
+     "sector": "O",
+     "tier": "Official Tire Supplier",
+     "new": null
+    }
+   ]
+  },
+  {
+   "key": "audi",
+   "name": "Audi Revolut",
+   "group": "Challenger Teams",
+   "partners": [
+    {
+     "name": "Revolut",
+     "row": 1,
+     "sector": "FS",
+     "tier": "Title Sponsor",
+     "new": null
+    },
+    {
+     "name": "Visit Qatar",
+     "row": 1,
+     "sector": "O",
+     "tier": "Principal Partner",
+     "new": null
+    },
+    {
+     "name": "bp",
+     "row": 1,
+     "sector": "O",
+     "tier": "Principal Partner",
+     "new": null
+    },
+    {
+     "name": "Castrol",
+     "row": 1,
+     "sector": "O",
+     "tier": "Principal Partner",
+     "new": null
+    },
+    {
+     "name": "adidas",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Partner",
+     "new": null
+    },
+    {
+     "name": "Aleph",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Partner",
+     "new": "Jan"
+    },
+    {
+     "name": "Nexo",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Official Partner",
+     "new": "Jan"
+    },
+    {
+     "name": "NinjaOne",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Partner",
+     "new": null
+    },
+    {
+     "name": "Gillette (P&G)",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Partner",
+     "new": null
+    },
+    {
+     "name": "Hyatt",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Partner",
+     "new": null
+    },
+    {
+     "name": "Perk",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Partner",
+     "new": null
+    },
+    {
+     "name": "ic! berlin",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Partner",
+     "new": null
+    },
+    {
+     "name": "Libertex",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Official Partner",
+     "new": "Mar"
+    },
+    {
+     "name": "ElevenLabs",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Partner",
+     "new": "Jan"
+    },
+    {
+     "name": "Camozzi",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Partner",
+     "new": null
+    },
+    {
+     "name": "Piquadro",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Partner",
+     "new": null
+    },
+    {
+     "name": "Extreme Networks",
+     "row": 2,
+     "sector": "O",
+     "tier": "Official Partner",
+     "new": null
+    },
+    {
+     "name": "Paulaner",
+     "row": 3,
+     "sector": "O",
+     "tier": "Official Supplier",
+     "new": null
+    },
+    {
+     "name": "Mammoet",
+     "row": 3,
+     "sector": "O",
+     "tier": "Official Supplier",
+     "new": null
+    },
+    {
+     "name": "Öhlins",
+     "row": 3,
+     "sector": "O",
+     "tier": "Official Supplier",
+     "new": null
+    },
+    {
+     "name": "Pirelli",
+     "row": 3,
+     "sector": "O",
+     "tier": "Official Supplier",
+     "new": null
+    },
+    {
+     "name": "Specialized",
+     "row": 3,
+     "sector": "O",
+     "tier": "Official Supplier",
+     "new": null
+    },
+    {
+     "name": "Bell Helmets",
+     "row": 3,
+     "sector": "O",
+     "tier": "Official Supplier",
+     "new": null
+    },
+    {
+     "name": "JigSpace",
+     "row": 3,
+     "sector": "O",
+     "tier": "Official Supplier",
+     "new": null
+    },
+    {
+     "name": "Glasurit",
+     "row": 3,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Sabelt",
+     "row": 3,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    }
+   ]
+  },
+  {
+   "key": "haas",
+   "name": "TGR Haas",
+   "group": "Challenger Teams",
+   "partners": [
+    {
+     "name": "Toyota Gazoo Racing",
+     "row": 1,
+     "sector": "O",
+     "tier": "Title Partner",
+     "new": null
+    },
+    {
+     "name": "IC Markets",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Haas Automation",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Play'n GO",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Castore",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": "Jan"
+    },
+    {
+     "name": "CommScope",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "D.Energy",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Emburse",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Exein",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Fix Network",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "HaasTooling.com",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Infobip",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "MGM Rewards",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Mphasis",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "NeverMile",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "New Era",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Orion180",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "RUCKUS Networks",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": "Jan"
+    },
+    {
+     "name": "Singha",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Taittinger",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "TravisMathew",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "UChicago Medicine",
+     "row": 2,
+     "sector": "LS",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Vellamo Water",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Zoomex",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Pirelli",
+     "row": 3,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Alpinestars",
+     "row": 3,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Schuberth",
+     "row": 3,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    }
+   ]
+  },
+  {
+   "key": "vcarb",
+   "name": "Visa Cash App Racing Bulls",
+   "group": "Challenger Teams",
+   "partners": [
+    {
+     "name": "Visa",
+     "row": 1,
+     "sector": "FS",
+     "tier": "Team Partner (featured)",
+     "new": null
+    },
+    {
+     "name": "Cash App",
+     "row": 1,
+     "sector": "FS",
+     "tier": "Team Partner (featured)",
+     "new": null
+    },
+    {
+     "name": "TUDOR",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "HUGO",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Ford Racing",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Nouryon",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Mobil 1",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Salesforce",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "ThreatLocker",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Introl",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Confluent",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "NEFT Vodka",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "XMTrading",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Airtasker",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Octave",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Dynatrace",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Student.com",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Randstad",
+     "row": 2,
+     "sector": "PS",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Siemens",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "HUGO Eyewear",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Riedel",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "RebelDot",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Roboze",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Hahnair",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Floyd",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Barilla",
+     "row": 2,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    },
+    {
+     "name": "Pirelli",
+     "row": 3,
+     "sector": "O",
+     "tier": "Team Partner",
+     "new": null
+    }
+   ]
+  },
+  {
+   "key": "williams",
+   "name": "Atlassian Williams",
+   "group": "Challenger Teams",
+   "partners": [
+    {
+     "name": "Atlassian",
+     "row": 1,
+     "sector": "O",
+     "tier": "Title Partner",
+     "new": null
+    },
+    {
+     "name": "Barclays",
+     "row": 1,
+     "sector": "FS",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Komatsu",
+     "row": 1,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Claude",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Kraken",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "BNY",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Gulf",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Betway",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "NMC",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "VAST Data",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Stephens",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Wilkinson Sword",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Estrella Galicia",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Duracell",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Jackpot City",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Airia",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Brillio",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Keeper Security",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Nuveen",
+     "row": 2,
+     "sector": "FS",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Zoox",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "New Era",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Girard-Perregaux",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Spinal Injuries Association",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "M&S",
+     "row": 2,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Pirelli",
+     "row": 3,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    },
+    {
+     "name": "Sparco",
+     "row": 3,
+     "sector": "O",
+     "tier": "Not labelled",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "f1": "RTR Sports, F1 sponsors and partners (last updated 6 Oct 2026, checked against the official F1 roster)",
+  "mercedes": "mercedesamgf1.com/partners (official, read 29 Oct 2026)",
+  "redbull": "redbullracing.com/int-en/partners (official, read 29 Oct 2026)",
+  "ferrari": "f1salaries.com/sponsors/ferrari (last updated 30 Sep 2026); ferrari.com partner page unavailable",
+  "mclaren": "f1salaries.com/sponsors/mclaren (last updated 30 Sep 2026) + AbbVie (Sportcal, 20 Oct 2026)",
+  "astonmartin": "astonmartinf1.com/en-GB/partners (official, read 29 Oct 2026); tiers from f1salaries (30 Sep 2026)",
+  "alpine": "alpinef1.com/partners (official, read 29 Oct 2026)",
+  "williams": "williamsf1.com/partners (official, read 29 Oct 2026)",
+  "haas": "haasf1team.com/partners (official, read 29 Oct 2026)",
+  "vcarb": "visacashapprb.com/int-en/partners (official, read 29 Oct 2026)",
+  "audi": "audif1.com/en/partners (official, read 29 Oct 2026)",
+  "cadillac": "f1salaries.com/sponsors/cadillac (last updated 30 Sep 2026) and RTR Sports (5 Aug 2026) + Frontieras (23 Oct 2026); official page blocked"
+ }
+}
