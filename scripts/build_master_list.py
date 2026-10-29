@@ -31,6 +31,9 @@ import categorize_sectors as cs  # noqa: E402
 PRIVATE_TYPES = {"Privately Held", "Self Owned"}
 REMOVE_REASON = {"avoid": "Bankrupt, defunct, sanctions risk or bad record",
                  "f1_partner": "Already an F1 partner", "subsidiary": "Subsidiary of a larger group"}
+# Clay entityIds of companies that own an F1 team or Formula 1 itself (not sponsor prospects)
+F1_OWNERS = {"22114834": "Ferrari F1 team", "2684047": "Formula 1 (Liberty Media)",
+             "36598105": "Mercedes F1 team (co-owner)"}
 STATUS_WORDS = {"listed": "listed on a stock exchange", "subsidiary": "a subsidiary",
                 "f1_partner": "already an F1 partner", "avoid": "one to avoid", "keep": "not listed"}
 
@@ -70,7 +73,9 @@ def main(scratch, out_base):
         detail, note = rv.get("detail", ""), rv.get("note", "")
         clay_private = r["type"] in PRIVATE_TYPES
         check = ""
-        if conf == "high" and status in REMOVE_REASON:
+        if eid in F1_OWNERS:
+            tab, reason, detail = "Removed", "Owns an F1 team or Formula 1", F1_OWNERS[eid]
+        elif conf == "high" and status in REMOVE_REASON:
             tab, reason = "Removed", REMOVE_REASON[status]
         elif conf == "high" and status == "listed":
             tab, reason = "Public", ""
@@ -120,18 +125,23 @@ def main(scratch, out_base):
         k = norm_name(n["company"])
         if k not in best_round or float(best_round[k]["amount_usd_m"]) < amt:
             best_round[k] = n
+    by_eid = {r["entityId"]: r for r in rows}
     added, matched = 0, 0
     for k, n in best_round.items():
+        rv = news_review.get(k, {})
+        if rv.get("duplicate_of"):
+            continue  # same company as another news row, which carries it
         target = by_domain.get(norm_domain(n["website"])) if n["website"] else None
         if target is None and len(by_name.get(k, [])) == 1:
             target = by_name[k][0]
+        if target is None and rv.get("clay_entityId"):
+            target = by_eid.get(rv["clay_entityId"].strip())
         fields = {"round": n["round_type"], "round_amount_m": n["amount_usd_m"], "announced": n["announced"],
                   "news_url": n["source_url"]}
         if target is not None:
             target.update(fields)
             matched += 1
             continue
-        rv = news_review.get(k, {})
         status, conf = rv.get("status", "keep"), rv.get("confidence", "low")
         sector = rv.get("sector") or cs.OTHER
         if conf == "high" and status in REMOVE_REASON:
