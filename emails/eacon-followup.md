@@ -17,6 +17,9 @@ An overview of what Formula 1 offers its partners.
 2. Case studies and activation calendar: [LINK]
 A selection of case studies, plus an example calendar of what a team delivers for its partners off track.
 
+3. Rights matrix: [LINK]
+An overview of how F1 partnerships are priced. Please note this isn't set in stone. Teams like to work closely with partners to understand their goals and then tailor something bespoke, so treat it as a rough guide to what you could expect.
+
 As you're new to Formula 1, here's a quick view of how it could support EACON as you grow internationally:
 
 - New markets: F1 races in markets you're expanding into, including Australia, Canada and the Middle East, as well as Shanghai at home. That gives you a reason to host customers in each market every year, and helps build your name quickly where buyers don't know you yet.
