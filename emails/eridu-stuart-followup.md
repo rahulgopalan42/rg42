@@ -9,7 +9,11 @@ Hi Stuart,
 
 Thanks again for your time on the call.
 
-We reached out because we see a real fit. F1 teams work under a cost cap and limits on how much aero computing they can run, so they win by getting more out of a fixed allowance, not by adding hardware. That's the same problem Eridu is built to solve for AI data centers, and many of the hyperscalers you're building for already have a presence in the paddock.
+We reached out because we see a real fit, for two reasons.
+
+First, the story. F1 teams can't win by spending more, because the rules cap their budgets and how much simulation they can run. The teams that win are the ones that get the most out of what they already have. That's the case Eridu makes for AI: the next gains come from getting more out of every GPU, not from buying more of them.
+
+Second, the audience. Many of the hyperscalers you're building for, including Oracle, Google Cloud and AWS, already invest in F1, so the sport already matters to the people you sell to.
 
 As requested, here's the initial material you'd need to discuss this internally:
 
