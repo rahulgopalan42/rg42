@@ -24,6 +24,8 @@ A closer look at how we worked with CommScope and what they were able to achieve
 
 If this is worth exploring further, the next step would be for us to support you in identifying the right partnership option. We'd start by understanding Eridu, your brief and your objectives, then work back from there to find the option that delivers against them. It's the same process we followed with CommScope.
 
+And as a commercial agency officially appointed by the teams, our fees are paid by the teams themselves, so there's no added cost to you.
+
 In the meantime, if you or your team need anything else, just let me know.
 
 Best,
