@@ -236,6 +236,32 @@ AGRICULTURE_INDUSTRIES = {
     "International Trade and Development",
 }
 
+# Industries that only appear among public and other company types
+INDUSTRY_SECTOR[TELECOM] += ["Satellite Telecommunications"]
+INDUSTRY_SECTOR[MEDIA] += ["Mobile Gaming Apps", "Movies, Videos and Sound", "Newspaper Publishing", "Music",
+                          "Photography", "Sports Teams and Clubs"]
+INDUSTRY_SECTOR[ENERGY] += ["Fuel Cell Manufacturing", "Pipeline Transportation", "Biomass Electric Power Generation",
+                           "Utilities Administration"]
+INDUSTRY_SECTOR[AUTO] += ["Vehicle Repair and Maintenance"]
+INDUSTRY_SECTOR[REAL_ESTATE] += ["Building Materials", "Building Construction", "Specialty Trade Contractors",
+                                "Highway, Street, and Bridge Construction", "Real Estate and Equipment Rental Services",
+                                "Housing and Community Development"]
+INDUSTRY_SECTOR[INDUSTRIAL] += ["Railroad Equipment Manufacturing", "Wholesale Metals and Minerals",
+                               "Fabricated Metal Products", "Packaging and Containers",
+                               "Mechanical or Industrial Engineering", "Business Supplies and Equipment",
+                               "Metal Treatments", "Transportation Equipment Manufacturing"]
+INDUSTRY_SECTOR[CONSUMER] += ["Furniture and Home Furnishings Manufacturing", "Apparel and Fashion",
+                             "Personal Care Services", "Retail Pharmacies", "Apparel Manufacturing", "Cosmetics",
+                             "Retail Furniture and Home Furnishings", "Tobacco Manufacturing"]
+INDUSTRY_SECTOR[FOOD] += ["Beverage Manufacturing", "Animal Feed Manufacturing"]
+INDUSTRY_SECTOR[HEALTH] += ["Veterinary", "Physical, Occupational and Speech Therapists"]
+INDUSTRY_SECTOR[BUSINESS] += ["Human Resources", "Government Relations Services", "Government Relations"]
+INDUSTRY_SECTOR[EDUCATION] += ["Education", "Primary and Secondary Education"]
+INDUSTRY_SECTOR[OTHER] += ["", "Non-profit Organizations", "Executive Offices",
+                          "Community Development and Urban Planning", "Philanthropic Fundraising Services",
+                          "Non-profit Organization Management"]
+CLOTHING_INDUSTRIES |= {"Apparel and Fashion", "Apparel Manufacturing"}
+
 INDUSTRY_TO_SECTOR = {ind: sector for sector, inds in INDUSTRY_SECTOR.items() for ind in inds}
 SECTOR_ORDER = [TECH, FIN, ENERGY, CONSUMER, MEDIA, HEALTH, AUTO, TRAVEL, FOOD, TELECOM, REAL_ESTATE,
                 INDUSTRIAL, TRANSPORT, AERO, BUSINESS, EDUCATION, GAMBLING, OTHER]
@@ -249,7 +275,7 @@ def classify(r):
     if sector == CONSUMER and name not in NOT_CLOTHING and (
             industry in CLOTHING_INDUSTRIES or name in CLOTHING_COMPANIES):
         f1 = "Clothing & accessories"
-    elif name in BEVERAGE_COMPANIES:
+    elif name in BEVERAGE_COMPANIES or industry == "Beverage Manufacturing":
         f1 = "Beverages"
     elif sector == FOOD and industry in AGRICULTURE_INDUSTRIES and name not in COMPANY_SECTOR:
         f1 = NOT_IN_F1
