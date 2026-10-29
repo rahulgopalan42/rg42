@@ -83,7 +83,7 @@ def main(scratch, out_base):
             tab, reason = "Private & other", ""
         else:
             tab, reason = ("Public" if r["type"] == "Public Company" else "Private & other"), ""
-            if status != "keep":
+            if status != "keep" and not (status == "listed" and tab == "Public"):
                 check = f"Check: possibly {STATUS_WORDS[status]}" + (f" ({detail})" if detail else "")
         sector, f1 = cs.classify(r)
         rows.append({
@@ -208,8 +208,8 @@ def main(scratch, out_base):
     summary.append(["Sector"] + tabs + ["Total"])
     for c in summary[1]:
         c.font = Font(bold=True)
-    for s in cs.SECTOR_ORDER:
-        counts = [sum(r["sector"] == s for r in by[t]) for t in tabs]
+    sector_counts = {s: [sum(r["sector"] == s for r in by[t]) for t in tabs] for s in cs.SECTOR_ORDER}
+    for s, counts in sorted(sector_counts.items(), key=lambda kv: -sum(kv[1])):
         if sum(counts):
             summary.append([s] + counts + [sum(counts)])
     totals = [len(by[t]) for t in tabs]
