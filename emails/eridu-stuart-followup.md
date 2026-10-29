@@ -9,11 +9,7 @@ Hi Stuart,
 
 Thanks again for your time on the call.
 
-We reached out because we see a real fit, for two reasons.
-
-First, the story. F1 teams can't win by spending more, because the rules cap their budgets and how much simulation they can run. The teams that win are the ones that get the most out of what they already have. That's the case Eridu makes for AI: the next gains come from getting more out of every GPU, not from buying more of them.
-
-Second, the audience. Many of the hyperscalers you're building for, including Oracle, Google Cloud and AWS, already invest in F1, so the sport already matters to the people you sell to.
+We reached out because we see a real fit. F1 teams work under a cost cap and limits on how much aero computing they can run, so they win by getting more out of a fixed allowance, not by adding hardware. That's the same problem Eridu is built to solve for AI data centers, and many of the hyperscalers you're building for already have a presence in the paddock.
 
 As requested, here's the initial material you'd need to discuss this internally:
 
@@ -21,12 +17,14 @@ As requested, here's the initial material you'd need to discuss this internally:
 An overview of the sport and what it offers partners.
 
 2. Case studies: [LINK]
-Includes CommScope and RUCKUS, plus a slide on the activation calendar McLaren delivers off track. Pretty much every team has its own program, and our job at SPORTFIVE is to find the team that's the right fit for you and delivers against your objectives.
+Includes CommScope and RUCKUS, plus a slide on the activation calendar McLaren delivers off track. Pretty much every team has its own program, so this is one example of what's possible.
 
 3. CommScope in detail: [LINK]
-A closer look at how we worked with CommScope and what they were able to achieve. As another networking business, it's the closest example to Eridu on the grid, so I think you'll find it interesting.
+A closer look at how we worked with CommScope and what they were able to achieve. As another networking business, I think you'll find it the most relevant.
 
-If you or your team need anything else, just let me know. Happy to support however we can.
+If this is worth exploring further, the next step would be for us to support you in identifying the right partnership option. We'd start by understanding Eridu, your brief and your objectives, then work back from there to find the option that delivers against them. It's the same process we followed with CommScope.
+
+In the meantime, if you or your team need anything else, just let me know.
 
 Best,
 Rahul
