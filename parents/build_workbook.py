@@ -216,7 +216,7 @@ par.loc[fl.str.contains('sanction|defunct|bankrupt|dissolved'), 'bucket'] = 'XQ'
 _f1txt = par['f1'].fillna('').astype(str)
 _hed = par['f1_current'] & _f1txt.str.contains(UNSURE) & (par['fc_status'] == 'current')
 par.loc[_hed, 'f1'] = par.loc[_hed, 'fc_deal']
-NOTF1 = re.compile(r'formula e\b|indycar|nascar|\bdtm\b|\bwec\b|broadcast|media rights|tv rights|streaming rights|licen[cs]|drive to survive|f1 the movie|none known|no f1|no known|not f1|\bex-|\bformer|shareholder|stake in|affiliate|parent of|indirect|retails|supplier to f1|technical\)|until 20|to 19\d\d|to 20\d\d|exclusive f1 tyre supplier', re.I)
+NOTF1 = re.compile(r'formula e\b|indycar|nascar|\bdtm\b|\bwec\b|broadcast|media rights|tv rights|streaming rights|licen[cs]|drive to survive|f1 the movie|none known|no f1|no known|not f1|(?:^|[;,] )ex-|ex-f1|\bformer|historically|properties on|shareholder|stake in|affiliate|parent of|indirect|retails|supplier to f1|technical\)|until 20|to 19\d\d|to 20\d\d|exclusive f1 tyre supplier', re.I)
 _hed = par['f1_current'] & (par['f1'].fillna('').astype(str).str.contains(UNSURE) | par['f1'].fillna('').astype(str).str.contains(NOTF1))
 par.loc[_hed, 'f1_current'] = False; par.loc[_hed, 'f1_check'] = True
 # current F1 sponsors stay in their ranking (blue rows, Rahul 19 Oct 2026) and are listed again on EXISTING F1 SPONSORS
