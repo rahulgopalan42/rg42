@@ -72,6 +72,20 @@ df['cap_financial'] = df.apply(finband, axis=1)
 df['cap_signals'] = (df['headcount'].clip(0, 4) * 1.5 + df['fund_recency'].clip(0, 4) * 1.5 + df['pe_owned'].clip(0, 3) * 4 / 3 + df['brand_hires'].clip(0, 3) * 4 / 3).round(1)
 df['fit'] = (df['fit_core'] + df['fit_signals']).clip(upper=60).round(1); df['capacity'] = (df['cap_financial'] + df['cap_signals']).clip(upper=40).round(1)
 df['total'] = (df['fit'] + df['capacity']).round(1)
+# outreach priority (Rahul, 30 Oct): who to call first = total score + timing (expansion, recent raise, brand hires,
+# rival already in F1) - penalties for low confidence or unconfirmed figures
+df['timing'] = (df['expansion'].clip(0, 3) * 2 + df['fund_recency'].clip(0, 4) * 1.5 + df['brand_hires'].clip(0, 3) * 2 + df['competitor_f1'].clip(0, 3) * 1).round(1)
+df['priority'] = (df['total'] + df['timing'] - df['conf'].map({'L': 6, 'M': 2}).fillna(0)).round(1)
+def why_now(r):
+    bits = []
+    if r['expansion'] >= 2: bits.append('expansion / launch moment')
+    if r['fund_recency'] >= 3: bits.append('fresh funding or IPO')
+    if r['brand_hires'] >= 2: bits.append('new brand / marketing leadership')
+    if r['competitor_f1'] >= 2: bits.append('a rival is already in F1')
+    if r['motorsport'] >= 2: bits.append('motorsport-linked product')
+    if r['founder'] >= 2: bits.append('founder/CEO motorsport affinity')
+    return '; '.join(bits)
+df['why_now'] = df.apply(why_now, axis=1)
 df['sector_name'] = df['sector'].map(lambda i: NAMES[i - 1] if 1 <= i <= len(NAMES) else 'Diversified & Other')
 # buckets
 df['banned'] = (df['note'] + ' ' + df['brand'] + ' ' + df['why'].map(s)).str.contains(r'cannabis|marijuana|tobacco|cigarette|vape|nicotine', case=False) | (df['sector'] == 33)
@@ -88,7 +102,7 @@ def why_out(r):
     if not r['qual']: return 'does not meet the money rule on known figures' + (f" ({r['note']})" if r['note'] else '')
     return ''
 df['why_out'] = df.apply(why_out, axis=1)
-df = df.sort_values(['total', 'fit', 'capacity'], ascending=False)
+df = df.sort_values(['priority', 'total', 'fit'], ascending=False)
 new = df[df['bucket'] == 'new'].drop_duplicates('dk'); seen = set(new['dk'])
 pos = df[df['bucket'] == 'parent_on_sheets'].drop_duplicates('dk'); pos = pos[~pos['dk'].isin(seen)]; seen |= set(pos['dk'])
 f1 = df[df['bucket'] == 'f1'].drop_duplicates('dk'); f1 = f1[~f1['dk'].isin(seen)]
@@ -104,7 +118,12 @@ for i, r in new.iterrows():
             new.at[j, 'group_brands'] = (new.at[j, 'group_brands'] + '; ' if new.at[j, 'group_brands'] else '') + r['brand']; fold.append(i)
 new = new.drop(index=fold)
 print('subsidiaries folded into their parent row', len(fold))
-new = new.reset_index(drop=True); new.insert(0, 'rank', range(1, len(new) + 1))
+new = new.sort_values(['priority', 'total', 'fit'], ascending=False).reset_index(drop=True); new.insert(0, 'rank', range(1, len(new) + 1))
+new['tier'] = new['rank'].map(lambda k: 'Tier 1 - contact first' if k <= 150 else ('Tier 2' if k <= 600 else 'Tier 3'))
+# websites filled by the Apollo free lookup for rows the agents left blank
+_wf = os.path.join(H, 'missing_websites_out.json')
+if os.path.exists(_wf):
+    _w = json.load(open(_wf)); new['domain'] = new.apply(lambda r: r['domain'] or _w.get(r['key'], ''), axis=1)
 print('new', len(new), '| brands of groups on your sheets', len(pos), '| current F1', len(f1), '| excluded', len(exc))
 # workbook
 wb = Workbook(); wb.remove(wb.active)
@@ -119,13 +138,13 @@ def sheet(title, header, data, widths, fills=None):
     for i, w in enumerate(widths, 1): ws.column_dimensions[get_column_letter(i)].width = w
     ws.freeze_panes = 'C2'; ws.auto_filter.ref = ws.dimensions
 fm = lambda v: '' if v != v or v is None else f'{v:,.0f}'
-MH = ['Rank', 'Brand', 'Ultimate Parent', 'HQ Country', 'Industry / Sector', 'Website', 'Company Type', 'Ticker', 'Revenue / ARR (USD M)', 'Revenue year',
+MH = ['Outreach Priority', 'Tier', 'Brand', 'HQ Country', 'Website', 'Ultimate Parent', 'Industry / Sector', 'Why contact now', 'Priority score', 'Company Type', 'Ticker', 'Revenue / ARR (USD M)', 'Revenue year',
       'Total Funding (USD M)', 'Qualifies on', 'Recommended Approach', 'Why this brand', 'F1 Fit (/60)', 'Financial Capacity (/40)', 'Total (/100)',
       'Fit: core (/40)', 'Fit: signals (/20)', 'Capacity: financial (/20)', 'Capacity: signals (/20)', 'Affordability evidence', 'Signal evidence',
       'Other sport deals', 'CEO / founder', 'CMO / marketing head', 'Research confidence', 'Source', 'Note', 'Group brands also found']
-MW = [6, 28, 26, 14, 24, 22, 11, 14, 11, 8, 11, 40, 10, 45, 8, 8, 8, 8, 8, 8, 8, 32, 45, 30, 20, 20, 9, 13, 30, 30]
+MW = [9, 20, 28, 14, 22, 26, 24, 40, 8, 11, 14, 11, 8, 11, 40, 10, 45, 8, 8, 8, 8, 8, 8, 8, 32, 45, 30, 20, 20, 9, 13, 30, 30]
 def mrow(r, rk):
-    return [rk, r['brand'], r['parent'] or r['brand'], r['hq_country'], r['sector_name'], regdom(r['domain']) or r['domain'], r['type'], r['ticker'],
+    return [rk, s(r.get('tier', '')), r['brand'], r['hq_country'], regdom(r['domain']) or r['domain'], r['parent'] or r['brand'], r['sector_name'], s(r.get('why_now', '')), r.get('priority', ''), r['type'], r['ticker'],
             fm(r['revenue_m']), s(r['revenue_year']), fm(r['funding_m']), r['criterion'], {'G': 'Group', 'B': 'Brand'}.get(s(r['approach']).upper()[:1], ''),
             s(r['why']), r['fit'], r['capacity'], r['total'], r['fit_core'], r['fit_signals'], r['cap_financial'], r['cap_signals'], s(r['fin']),
             s(r['evidence']), s(r['sport_deals']), s(r['ceo']), s(r['cmo']), r['conf'], r['src'], r['note'], s(r.get('group_brands', ''))]
@@ -138,6 +157,7 @@ summary = [['Item', 'Value'],
     ['Brands whose parent group is already on your sheets (separate tab)', len(pos)],
     ['Qualifying brands with a current F1 deal (set aside)', len(f1)],
     ['Checked and left out (on sheets, not qualified, funds/vehicles, unrecognised)', len(exc)],
+    ['Outreach order', 'Rows are ranked by Outreach Priority = Total score + timing (expansion or launch moment, fresh funding or IPO, new brand or marketing leadership, a rival already in F1) minus a penalty for low-confidence or unconfirmed figures. Tier 1 = top 150 (contact first), Tier 2 = 151-600, Tier 3 = the rest. Each sector tab keeps the same order with its own Sector Rank.'],
     ['Scoring', 'Total /100 = F1 Fit /60 (core fit 40: audience overlap, commercial synergies, brand alignment, international relevance; plus fit signals 20: competitor in F1, motorsport adjacency, expansion moment, race-market footprint, founder/CEO affinity) + Financial Capacity /40 (financial evidence 20 from revenue/funding bands; capacity signals 20: headcount, funding recency, PE ownership, brand-building hires). Cheque size assumed about USD 2.5M a year.'],
     ['Sources', 'Connectors: Apollo funded-company database (total funding filter) and a public market-cap listing of exchange-listed companies; Apollo free lookup confirmed the USD 200M funding filter for Apollo-sourced rows. Crunchbase allowance was exhausted until 1 Nov 2026 and Apollo paid credits until 11 Nov 2026. Research agents identified, verified and scored every row and added brands by sector.'],
     ['Confidence', 'Figures are research estimates from public knowledge up to mid-2026, not audited records. Amber rows = low confidence; check figures before outreach.']]
@@ -150,7 +170,7 @@ for sec in NAMES:
     t = re.sub(r'[\[\]\*\?/\\:]', '-', sec)[:31]
     sheet(t, ['Sector Rank'] + MH, [[i] + mrow(r, r['rank']) for i, (_, r) in enumerate(sub.iterrows(), 1)], [7] + MW, [prelim(r) for _, r in sub.iterrows()])
 pos = pos.reset_index(drop=True)
-sheet('PARENT ALREADY ON SHEETS', ['Rank', 'Brand', 'Parent on your sheets (match)'] + MH[3:], [[i, r['brand'], f"{r['parent']} ({r['on_sheets_parent']})"] + mrow(r, i)[3:] for i, (_, r) in enumerate(pos.iterrows(), 1)], [6, 28, 34] + MW[3:])
+sheet('PARENT ALREADY ON SHEETS', ['Rank', 'Parent on your sheets (match)'] + MH[2:], [[i, f"{r['parent']} ({r['on_sheets_parent']})"] + mrow(r, i)[2:] for i, (_, r) in enumerate(pos.iterrows(), 1)], [6, 34] + MW[2:])
 sheet('CURRENT F1 DEAL (SET ASIDE)', ['Brand', 'Parent', 'HQ Country', 'Sector', 'F1 deal', 'Qualifies on', 'Total (/100)'],
       [[r['brand'], r['parent'], r['hq_country'], r['sector_name'], r['f1_deal'], r['criterion'], r['total']] for _, r in f1.iterrows()], [28, 28, 14, 24, 45, 45, 9], [BLUE] * len(f1))
 sheet('CHECKED - LEFT OUT', ['Brand / record', 'Parent', 'Website', 'Reason left out', 'Status', 'Source'],
