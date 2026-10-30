@@ -36,7 +36,8 @@ for c in ('status', 'qualifies', 'type', 'f1_status', 'conf', 'brand', 'parent',
 df['brand'] = df.apply(lambda r: r['brand'] or r['key'].split(':', 1)[-1], axis=1)
 # money rule, re-applied on the figures (agents' "Y" is not taken on trust)
 df['listed'] = df['type'].str.lower().eq('listed') | df['ticker'].str.contains(':')
-df['apollo200'] = df['key'].str.startswith('ap:') & df['key'].str[3:].isin(ap.get('ids', set()))
+# Apollo's funding field on subsidiaries often holds an acquisition price or the parent's figure (spot-check 30 Oct): count it for independent companies only
+df['apollo200'] = df['key'].str.startswith('ap:') & df['key'].str[3:].isin(ap.get('ids', set())) & (df['status'] == 'P')
 df['q_fund'] = (df['funding_m'] > 200) | df['apollo200']
 df['q_rev'] = df['listed'] & (df['revenue_m'] >= 100)
 df['qual'] = df['q_fund'] | df['q_rev']
