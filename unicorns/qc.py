@@ -12,7 +12,8 @@ def chk(name, ok, detail): checks.append(['PASS' if ok else 'FAIL', name, str(de
 chk('Every main-list company passed all three tests on independent evidence', bool((m['verdict'] == 'verified').all() and m['t_private'].all() and m['t_val'].all() and m['t_fund'].all()), f'{len(m)} rows')
 chk('Every main-list valuation is USD 1B or more', bool((m['valuation_bn'] >= 1).all()), f"min {m['valuation_bn'].min():.2f}B")
 chk('No main-list company has a current F1 deal (2026 rosters or research)', not bool(m['f1_current'].any()), f"{int(m['f1_current'].sum())} found")
-chk('No main-list company appears on Wikipedia\'s exited-unicorn table', not bool(m['brand'].map(loose).isin(EXIT).any()), ', '.join(m[m['brand'].map(loose).isin(EXIT)]['brand'].head(10)))
+_ex = m['brand'].map(loose).isin(EXIT) & ~m['news_check'].str.startswith('confirmed by news')
+chk('No main-list company is on Wikipedia\'s exited-unicorn table unless dated news confirms it is still private', not bool(_ex.any()), ', '.join(m[_ex]['brand'].head(10)) or 'news-confirmed private: ' + ', '.join(m[m['brand'].map(loose).isin(EXIT)]['brand'].head(10)))
 d = m['domain'].map(regdom); dd = d[(d != '') & d.duplicated()]
 kk = m['brand'].map(loose) + '|' + m['hq_country'].str.lower()
 chk('No duplicate companies (same name and country, or same website) in the main list', not kk.duplicated().any() and dd.empty, ', '.join(list(dd.head(10)) + list(m[kk.duplicated()]['brand'].head(10))))

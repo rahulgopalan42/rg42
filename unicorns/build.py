@@ -115,6 +115,8 @@ if os.path.exists(_rf):
     print('on 2026 F1 rosters', int((u['f1_roster'] != '').sum()))
 else:
     u['f1_roster'] = ''
+_CN = {'united states': 'USA', 'us': 'USA', 'u.s.': 'USA', 'usa': 'USA', 'united kingdom': 'UK', 'uk': 'UK', 'england': 'UK', 'united arab emirates': 'UAE', 'uae': 'UAE', 'korea': 'South Korea', 'republic of korea': 'South Korea', 'hong kong sar': 'Hong Kong'}
+u['hq_country'] = u['hq_country'].map(lambda c: _CN.get(s(c).lower(), s(c)))
 # Rahul's sheets and the 30 Oct list
 u['on_sheets'] = u.apply(lambda r: present(r['brand'], r['domain']) or (present(r['legal_name']) if r['legal_name'] else '') or phrase_present(r['brand']), axis=1)
 nb = pd.read_pickle(os.path.join(R, 'brands200', 'new_brands.pkl'))
@@ -215,7 +217,7 @@ MW = [9, 20, 26, 13, 14, 28, 24, 38, 10, 9, 11, 38, 30, 11, 9, 18, 10, 38, 42, 8
 def mrow(r):
     return [r['rank'], r['tier'], r['brand'], r['hq_country'], r['hq_city'], web(regdom(r['domain']) or r['domain']), r['sector_name'], r['what'],
             fb(r['valuation_bn']), r['vdate'], fm(r['funding_m']), r['latest_round'], r['investors'], fm(r['revenue_m']), 'yes' if r['new_unicorn'] else '',
-            r['on_sheets'], r['on_30oct'], r['why_now'], r['why'], r['priority'], r['fit'], r['capacity'], r['total'], r['sport_deals'], r['ceo'],
+            (f"yes ({r['on_sheets']} match)" if r['on_sheets'] else 'no'), r['on_30oct'] or 'no', r['why_now'], r['why'], r['priority'], r['fit'], r['capacity'], r['total'], r['sport_deals'], r['ceo'],
             r['evidence'], r['conf'] or 'L', r['news_check'] or 'sources only', r['news_evidence'] or r['source_url'], r['note'], r['found_by']]
 flag = lambda r: AMB if r['conf'] in ('L', '') or r['status_conflict'] or r['weak_news'] else (GRN if r['new_unicorn'] else None)
 by_c = main['hq_country'].value_counts()
