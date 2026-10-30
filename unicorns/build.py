@@ -17,14 +17,16 @@ F = ['brand', 'legal_name', 'parent', 'hq_country', 'hq_city', 'domain', 'sector
 NEWFILES = ('u19', 'u20', 'u21')
 s = lambda x: '' if x is None or (isinstance(x, float) and x != x) else str(x).strip()
 rows, bad = [], 0
-files = sorted(glob.glob(f'{H}/discover_out/*.json')) + sorted(glob.glob(f'{H}/verify_out/*.json'))
+files = sorted(glob.glob(f'{H}/discover_out/*.json')) + sorted(glob.glob(f'{H}/ref/enrich_out_*.json')) + sorted(glob.glob(f'{H}/verify_out/*.json'))
 for f in files:
     code = os.path.basename(f)[:-5]
     try: data = json.load(open(f))
     except Exception as e: print('bad file', f, e); continue
     for r in data:
-        if isinstance(r, list) and len(r) == 37 and 'verify_out' not in f: rows.append(dict(zip(F, r), file=code, verified=False, check='', vkey=''))
-        elif isinstance(r, list) and len(r) == 39 and 'verify_out' in f: rows.append(dict(zip(F, r[:37]), file='web check', verified=True, vkey=s(r[37]), check=s(r[38]).lower()))
+        if isinstance(r, dict) and set(F) <= set(r): r = [r[k] for k in F] + [r.get('key', r.get('cbid', '')), r.get('check', '')][:{'discover_out': 0, 'enrich_out': 1}.get(next((x for x in ('discover_out', 'enrich_out') if x in f), ''), 2)]
+        if isinstance(r, list) and len(r) == 37 and 'discover_out' in f: rows.append(dict(zip(F, r), file=code, verified=False, check='', vkey='', cbid=''))
+        elif isinstance(r, list) and len(r) == 38 and 'enrich_out' in f: rows.append(dict(zip(F, r[:37]), file='CB Insights list', verified=False, check='', vkey='', cbid=s(r[37])))
+        elif isinstance(r, list) and len(r) == 39 and 'verify_out' in f: rows.append(dict(zip(F, r[:37]), file='web check', verified=True, vkey=s(r[37]), check=s(r[38]).lower(), cbid=''))
         else: bad += 1
 df = pd.DataFrame(rows); print('rows', len(df), 'malformed', bad, 'files', len(files))
 s = lambda x: '' if x is None or (isinstance(x, float) and x != x) else str(x).strip()
@@ -48,7 +50,7 @@ def find(i):
     return i
 seen = {}
 for i, r in df.iterrows():
-    for k in {('d', regdom(r['domain'])), ('n', loose(r['brand'])), ('n', loose(r['legal_name'])), ('n', loose(r['vkey']))}:
+    for k in {('d', regdom(r['domain'])), ('n', loose(r['brand'])), ('n', loose(r['legal_name'])), ('n', loose(r['vkey'])), ('c', r['cbid'])}:
         if not k[1] or len(k[1]) < 3: continue
         if k in seen: par[find(i)] = find(seen[k])
         else: seen[k] = i
@@ -73,12 +75,16 @@ for g, sub in df.groupby('grp'):
     p['found_by'] = ', '.join(sorted(set(sub['file'])))
     p['new_unicorn'] = any(f in NEWFILES for f in sub['file']) or bool(re.search(r'new unicorn|first.*billion|became a unicorn|minted', ' '.join(sub['note'] + ' ' + sub['latest_round']), re.I))
     p['dupes'] = len(sub)
+    p['cbid'] = next((c for c in sub['cbid'] if c), '')
+    nv = sub[~sub['verified']]
+    p['exit_votes'] = int((nv['status'].isin(['public', 'acquired', 'defunct']) & nv['conf'].isin(['H', 'M'])).sum())
+    p['agent_status'] = '; '.join(sorted(set(nv['status']) - {''}))
+    p['agent_val'] = nv['valuation_bn'].max(); p['agent_vdate'] = max(nv['vdate'], default='')
+    p['agent_fund'] = nv['funding_m'].max(); p['agent_conf'] = max(nv['conf'], key=lambda c: CR.get(c, 0), default='')
+    p['domains'] = sorted(set(regdom(d) for d in sub['domain'] if regdom(d)))
     out.append(p)
 u = pd.DataFrame(out).reset_index(drop=True); print('unique companies', len(u))
-# tests
-u['t_private'] = u['status'].eq('private')
-u['t_val'] = u['valuation_bn'] >= 1
-u['t_fund'] = u['funding_m'] >= 200
+exec(open(os.path.join(H, 'evidence.py')).read())   # sets t_private / t_val / t_fund / ev_* / verdict from independent sources
 u['banned'] = (u['note'] + ' ' + u['what'] + ' ' + u['brand']).str.contains(r'cannabis|marijuana|tobacco|cigarette|vape|nicotine', case=False) | (u['sector'] == 33)
 UNSURE = re.compile(r'unsure|verify|unverified|former|reported|possible|rumou?r|\?', re.I)
 NOTF1 = re.compile(r'formula e\b|indycar|nascar|esports|broadcast|licen[cs]|^none|not f1|\bex-|former', re.I)
@@ -121,7 +127,7 @@ u['why_now'] = u.apply(why_now, axis=1)
 u['sector_name'] = u['sector'].map(lambda i: NAMES[i - 1] if 1 <= i <= len(NAMES) else 'Diversified & Other')
 # buckets
 q = u['t_private'] & u['t_val'] & u['t_fund'] & ~u['banned']
-u['ok_check'] = u['verified'] & u['check'].isin(['confirmed', 'corrected'])
+u['ok_check'] = u['verdict'].eq('verified')
 u['bucket'] = 'out'
 u.loc[q & u['f1_current'], 'bucket'] = 'f1'
 u.loc[q & ~u['f1_current'] & u['ok_check'], 'bucket'] = 'main'
