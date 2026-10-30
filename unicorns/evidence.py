@@ -16,8 +16,7 @@ cbi['identity_ok'] = cbi['id'].map(lambda i: dom.get(i, [''] * 7)[6])
 APF = {}                                                 # registrable domain -> (apollo name, '>=200' | '<200' | 'not found')
 for r in dom.values():
     if regdom(r[2]): APF[regdom(r[2])] = (s(r[4]), s(r[5]))
-_ex = os.path.join(H, 'ref', 'apollo_extra_out.json')
-if os.path.exists(_ex):
+for _ex in sorted(glob.glob(os.path.join(H, 'ref', 'apollo_extra*_out.json'))):
     for r in json.load(open(_ex)): APF.setdefault(regdom(r[0]), (s(r[1]), s(r[2])))   # [domain, apollo_name, apollo_funding]
 wx = pd.read_csv(os.path.join(H, 'ref', 'wikipedia_former_unicorns.csv'))
 EXIT = {loose(n): (s(rsn), s(d)) for n, rsn, d in zip(wx['company'], wx['exit_reason'], wx['exit_date']) if loose(n) and not re.search(r'deval', s(rsn), re.I)}   # a down-round is not an exit

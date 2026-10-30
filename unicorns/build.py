@@ -17,15 +17,15 @@ F = ['brand', 'legal_name', 'parent', 'hq_country', 'hq_city', 'domain', 'sector
 NEWFILES = ('u19', 'u20', 'u21')
 s = lambda x: '' if x is None or (isinstance(x, float) and x != x) else str(x).strip()
 rows, bad = [], 0
-files = sorted(glob.glob(f'{H}/discover_out/*.json')) + sorted(glob.glob(f'{H}/discover2_out/*.json')) + sorted(glob.glob(f'{H}/ref/enrich_out_*.json')) + sorted(glob.glob(f'{H}/verify_out/*.json'))
+files = sorted(glob.glob(f'{H}/discover_out/*.json')) + sorted(glob.glob(f'{H}/discover2_out/*.json')) + sorted(glob.glob(f'{H}/ref/enrich_out_*.json')) + sorted(glob.glob(f'{H}/ref/enrich2_out_*.json')) + sorted(glob.glob(f'{H}/verify_out/*.json'))
 for f in files:
     code = os.path.basename(f)[:-5]
     try: data = json.load(open(f))
     except Exception as e: print('bad file', f, e); continue
     for r in data:
-        if isinstance(r, dict) and set(F) <= set(r): r = [r[k] for k in F] + [r.get('key', r.get('cbid', '')), r.get('check', '')][:{'discover': 0, 'enrich_out': 1}.get(next((x for x in ('discover', 'enrich_out') if x in f), ''), 2)]
+        if isinstance(r, dict) and set(F) <= set(r): r = [r[k] for k in F] + [r.get('key', r.get('cbid', '')), r.get('check', '')][:{'discover': 0, 'enrich': 1}.get(next((x for x in ('discover', 'enrich') if x in f), ''), 2)]
         if isinstance(r, list) and len(r) == 37 and 'discover' in f: rows.append(dict(zip(F, r), file=code, verified=False, check='', vkey='', cbid=''))
-        elif isinstance(r, list) and len(r) == 38 and 'enrich_out' in f: rows.append(dict(zip(F, r[:37]), file='CB Insights list', verified=False, check='', vkey=s(r[37])[2:] if s(r[37]).startswith('b:') else '', cbid='' if s(r[37]).startswith('b:') else s(r[37])))
+        elif isinstance(r, list) and len(r) == 38 and ('enrich_out' in f or 'enrich2_out' in f): rows.append(dict(zip(F, r[:37]), file='CB Insights list' if 'enrich_out' in f else 'scoring pass', verified=False, check='', vkey=s(r[37])[2:] if s(r[37]).startswith('b:') else '', cbid='' if s(r[37]).startswith('b:') else s(r[37])))
         elif isinstance(r, list) and len(r) == 39 and 'verify_out' in f: rows.append(dict(zip(F, r[:37]), file='web check', verified=True, vkey=s(r[37]), check=s(r[38]).lower(), cbid=''))
         else: bad += 1
 df = pd.DataFrame(rows); print('rows', len(df), 'malformed', bad, 'files', len(files))
@@ -63,8 +63,8 @@ df['filled'] = df[['valuation_bn', 'funding_m', 'domain', 'hq_country', 'latest_
 df['rk'] = df['verified'].astype(int) * 100 + df['vdate'].map(lambda d: int(d.replace('-', '')[:6].ljust(6, '0')) if d else 0) / 1e6 * 10 + df['conf'].map(CR).fillna(0) + df['filled'] / 10
 out = []
 for g, sub in df.groupby('grp'):
-    enr = sub[sub['file'] == 'CB Insights list']           # scoring-pass rows: descriptive fields and scores only
-    if len(enr) and len(sub) > len(enr): sub = sub[sub['file'] != 'CB Insights list']
+    enr = sub[sub['file'].isin(['CB Insights list', 'scoring pass'])]           # scoring-pass rows: descriptive fields and scores only
+    if len(enr) and len(sub) > len(enr): sub = sub[~sub['file'].isin(['CB Insights list', 'scoring pass'])]
     sub = sub.sort_values('rk', ascending=False); p = sub.iloc[0].copy()
     ver = sub[sub['verified']]
     if not len(ver):
@@ -77,7 +77,7 @@ for g, sub in df.groupby('grp'):
         p['status_all'] = '; '.join(f"{a}: {b}" for a, b in zip(sub['file'], sub['status']))
     else:
         p = ver.iloc[0].copy(); p['status_conflict'] = False; p['status_all'] = ''
-    if len(enr) and len(sub) and sub.iloc[0]['file'] != 'CB Insights list':
+    if len(enr) and len(sub) and sub.iloc[0]['file'] not in ('CB Insights list', 'scoring pass'):
         e = enr.iloc[0]
         for c in list(SIG) + ['why', 'what', 'sector', 'evidence', 'ceo', 'sport_deals', 'f1_status', 'f1_deal']: p[c] = e[c]
         if e['conf'] in ('H', 'M') and p['conf'] == 'L': p['conf'] = 'M'
