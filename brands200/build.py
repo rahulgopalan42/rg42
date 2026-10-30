@@ -103,7 +103,12 @@ def why_out(r):
     return ''
 df['why_out'] = df.apply(why_out, axis=1)
 df = df.sort_values(['priority', 'total', 'fit'], ascending=False)
-new = df[df['bucket'] == 'new'].drop_duplicates('dk'); seen = set(new['dk'])
+new = df[df['bucket'] == 'new'].drop_duplicates('dk')
+new = new[~new['brand'].map(strict).duplicated()]                                   # same brand from two sources
+_fw = lambda b: (re.findall(r'[a-z0-9]+', str(b).lower()) or [''])[0]
+new['_pg'] = new['parent'].map(strict) + '|' + new['brand'].map(_fw)               # e.g. "MediaMarkt" and "MediaMarkt Saturn" under Ceconomy
+new = new[~((new['parent'].map(strict) != '') & new['_pg'].duplicated())]
+seen = set(new['dk'])
 pos = df[df['bucket'] == 'parent_on_sheets'].drop_duplicates('dk'); pos = pos[~pos['dk'].isin(seen)]; seen |= set(pos['dk'])
 f1 = df[df['bucket'] == 'f1'].drop_duplicates('dk'); f1 = f1[~f1['dk'].isin(seen)]
 exc = df[df['bucket'] == 'excluded'].drop_duplicates('dk')
