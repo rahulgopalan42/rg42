@@ -88,7 +88,6 @@
 - **Last 90 days:** no funding, acquisition, layoff or executive announcements found. New since August: the Dyad case study (23 September), Chawla retitled Chief AI Officer (he was Chief Innovation Officer in June), blog posts up to 26 October, and US client partner and AI engineer job ads. The big news is 5 June: new CEO and HelixAI.
 - **Priorities:** scale HelixAI and Helix Pods, grow with large and mid-market enterprises, sell AI transformation rather than headcount.
 - **Sports and marketing history:** no sports sponsorship found (fresh search, 30 October 2026). Marketing is thought leadership: The Innovation Engine podcast, The Product Mindset book, Inc. 5000 listings, Great Place to Work in India. Rebranded from "3Pillar Global" to "3Pillar" in August 2024, now at 3pillar.ai.
-- **Peers on the grid (verified, see section 3):** Cognizant, Globant and Mphasis are all F1 partners, and the new CEO comes from two of them.
 
 ## 2. The opening
 
@@ -182,7 +181,6 @@
 > "I'm assuming it's B2B all the way. If you did something like this, how would it get judged? Pipeline, meetings, being known by the right CTOs, hiring?"
 
 - *Follow-up:* "And what would make it a failure in your eyes? That usually tells me more."
-- *If hiring comes up:* "Then that goes in the brief. You're hiring AI engineers in a tight market."
 
 **7. F1 familiarity**
 
@@ -205,7 +203,7 @@
 
 - *Who and what:* Aston Martin's title partner from 2021; on 12 May 2026 it became the team's global AI services partner, applying AI across the team's operations (Consultancy.uk).
 - *Why they're in:* standing with enterprise buyers worldwide, plus a live test bed. Their CEO calls F1 "the ultimate test bed for applied AI".
-- *What it means for 3Pillar:* the move from logo to a working AI role is the same story 3Pillar tells its clients. And their new CEO knows Cognizant from the inside.
+- *What it means for 3Pillar:* the move from logo to a working AI role is the same story 3Pillar tells its clients. And 3Pillar's new CEO knows Cognizant from the inside.
 
 **Mphasis and Haas (a mid-sized services firm with a real job).**
 
@@ -316,40 +314,10 @@
 - **Names check.** From the September 2026 checks and stat bank: Oracle at Red Bull, HP at Ferrari, Atlassian at Williams, Google Cloud at McLaren, Microsoft with Mercedes (reported January 2026), AWS since 2018, RUCKUS at Haas, Airwallex at McLaren, Cognizant and Tata Communications as B2B names. Verified fresh on 30 October 2026: F1's partner page (Globant, PwC, Tata Communications, Salesforce, Santander, Standard Chartered, American Express, Marsh, Paramount+); the Haas, Mercedes and Aston Martin partner pages; Cognizant's May 2026 role; Mphasis's deal and its CEO interview; Anthropic at Williams (February 2026); Elastic at Audi; the Reuters AI piece. Brand facts checked 30 October 2026; re-verify on call day.
 - **Where sources disagree:** headcount (Tracxn 1,709 in July 2026; Built In about 1,784; Wikipedia "more than 1500", uncited; the company said over 2,000 in 2021): use "about 1,700". Revenue (LeadIQ gives $30M and, separately, $100M to $250M; Latka about $158M for 2023; Owler $100M to $500M): say "not disclosed". Chawla's title (Chief Innovation Officer in June, Chief AI Officer now). Mphasis at Haas: "multi-year" (team) versus "five-year" (Mphasis CEO). Angelani's Wizeline dates (April 2024 to April 2026) come from third-party sites only.
 - **New sources:**
-  - https://www.3pillar.ai/news/3pillar-names-andres-angelani-ceo-and-launches-helixai/
-  - https://www.3pillar.ai/ (services, verticals, client quotes) and https://www.3pillar.ai/about/leadership/
-  - https://www.3pillar.ai/about/strategic-partners/
-  - https://hig.com/news/h-i-g-capital-announces-strategic-growth-investment-in-software-product-development-leader-3pillar-global/
-  - https://www.3pillar.ai/news/3pillar-global-announces-strategic-partnership-with-cip-capital/
-  - https://www.3pillar.ai/news/3pillar-strengthens-global-expertise-with-new-board-members-mike-salfity-and-mike-kucharski/
-  - https://www.3pillar.ai/news/merger-between-us-based-three-pillar-global-and-india-based-brickred-creates-new-force-in-mobile-software-product-development/
-  - https://www.3pillar.ai/news/3pillar-announces-new-innovation-hub/
-  - https://www.3pillar.ai/news/3pillar-global-acquires-chenoa-information-services-to-enter-27b-low-code-market/
-  - https://www.3pillar.ai/news/3pillar-global-expands-client-base-into-banking-financial-services-and-insurance/
-  - https://www.3pillar.ai/news/3pillar-global-acquires-north-carolina-based-software-firm-software-development-europe/
-  - https://www.3pillar.ai/news/3pillar-global-enhances-european-presence-with-new-moldova-development-center/
-  - https://www.3pillar.ai/insights/case-studies/dyad-ai-sdlc-transformation-case-study/
-  - https://www.3pillar.ai/insights/case-studies/rebuilding-the-roaming-platform-a-billion-people-rely-on-without-taking-it-offline/
-  - https://www.3pillar.ai/insights/case-studies/powering-content-distribution-beyond-broadcast/
-  - https://www.3pillar.ai/insights/case-studies/reimagining-live-events-to-expand-audience-diversify-revenue/
-  - https://www.3pillar.ai/insights/case-studies/targeting-growth-with-data-driven-cross-screen-tv-advertising/
-  - https://www.3pillar.ai/insights/case-studies/equinox/
-  - https://en.wikipedia.org/wiki/3Pillar_Global
-  - https://tracxn.com/d/companies/3pillar-global/__00EC2iJzMB4Y0zebNewZjdpELem8yo-kAKlbWKPpTew
-  - https://leadiq.com/c/3pillar/5a1d886a2400002400621f80 and https://getlatka.com/companies/3pillar-global (estimates)
-  - https://www.insurancejournal.com/news/national/2024/01/02/754010.htm (Dyad)
-  - https://news.outsourceaccelerator.com/?p=84229
-  - https://www.formula1.com/en/information/formula-1-partners.2shz7bIVhGgS3ovP69N3Rs
-  - https://www.consultancy.uk/news/44039/cognizant-named-by-aston-martin-f1-team-as-global-ai-services-partner
-  - https://haasf1team.com/news/moneygram-haas-f1-team-welcomes-mphasis-partnership and https://www.haasf1team.com/partners
-  - https://www.businesstoday.in/amp/technology/news/story/mphasis-ceo-nitin-rakesh-on-haas-f1-partnership-and-future-of-formula-1-458336-2024-12-26
-  - https://www.mercedesamgf1.com/partners and https://www.astonmartinf1.com/en-GB/partners
-  - https://www.williamsf1.com/posts/5706d880-3f97-442d-9531-572106e93a3b/williams-racing-globant-official-partner
-  - https://elgrafico.com.ar/articulo/deporte-motor/85080/bombazo-en-la-formula-1-franco-colapinto-dejo-williams-y-firmo-con-alpine
-  - https://corp.formula1.com/formula-1-welcomes-pwc-as-official-consulting-partner/
-  - https://www.axios.com/2026/02/02/ai-companies-formula-1-anthropic-williams
-  - https://www.elastic.co/blog/elastic-audi-revolut-f1-team-partnership
-  - https://ferrari.com/en-EN/formula1/articles/scuderia-ferrari-signs-a-partnership-agreement-with-dxc-technology (2023; verify current)
-  - https://whbl.com/2026/05/04/motor-racing-as-formula-one-evolves-ai-becomes-part-of-the-race/ and https://www.timeslive.co.za/motoring/2026-05-04-as-formula-one-evolves-ai-is-fast-becoming-a-crucial-part-of-the-race/ (Reuters, 4 May 2026)
+  - 3Pillar releases: https://www.3pillar.ai/news/3pillar-names-andres-angelani-ceo-and-launches-helixai/ ; https://www.3pillar.ai/news/3pillar-global-announces-strategic-partnership-with-cip-capital/ ; https://www.3pillar.ai/news/3pillar-strengthens-global-expertise-with-new-board-members-mike-salfity-and-mike-kucharski/ ; https://www.3pillar.ai/news/merger-between-us-based-three-pillar-global-and-india-based-brickred-creates-new-force-in-mobile-software-product-development/ ; https://www.3pillar.ai/news/3pillar-announces-new-innovation-hub/ ; https://www.3pillar.ai/news/3pillar-global-acquires-chenoa-information-services-to-enter-27b-low-code-market/ ; https://www.3pillar.ai/news/3pillar-global-expands-client-base-into-banking-financial-services-and-insurance/ ; https://www.3pillar.ai/news/3pillar-global-acquires-north-carolina-based-software-firm-software-development-europe/ ; https://www.3pillar.ai/news/3pillar-global-enhances-european-presence-with-new-moldova-development-center/
+  - 3Pillar site and case studies: https://www.3pillar.ai/ ; https://www.3pillar.ai/about/leadership/ ; https://www.3pillar.ai/about/strategic-partners/ ; https://www.3pillar.ai/insights/case-studies/dyad-ai-sdlc-transformation-case-study/ ; https://www.3pillar.ai/insights/case-studies/rebuilding-the-roaming-platform-a-billion-people-rely-on-without-taking-it-offline/ ; https://www.3pillar.ai/insights/case-studies/powering-content-distribution-beyond-broadcast/ ; https://www.3pillar.ai/insights/case-studies/reimagining-live-events-to-expand-audience-diversify-revenue/ ; https://www.3pillar.ai/insights/case-studies/targeting-growth-with-data-driven-cross-screen-tv-advertising/ ; https://www.3pillar.ai/insights/case-studies/equinox/
+  - Ownership, scale and clients: https://hig.com/news/h-i-g-capital-announces-strategic-growth-investment-in-software-product-development-leader-3pillar-global/ ; https://en.wikipedia.org/wiki/3Pillar_Global ; https://tracxn.com/d/companies/3pillar-global/__00EC2iJzMB4Y0zebNewZjdpELem8yo-kAKlbWKPpTew ; https://leadiq.com/c/3pillar/5a1d886a2400002400621f80 ; https://getlatka.com/companies/3pillar-global ; https://news.outsourceaccelerator.com/?p=84229 ; https://www.insurancejournal.com/news/national/2024/01/02/754010.htm (Dyad)
+  - F1 and teams: https://www.formula1.com/en/information/formula-1-partners.2shz7bIVhGgS3ovP69N3Rs ; https://corp.formula1.com/formula-1-welcomes-pwc-as-official-consulting-partner/ ; https://www.consultancy.uk/news/44039/cognizant-named-by-aston-martin-f1-team-as-global-ai-services-partner ; https://haasf1team.com/news/moneygram-haas-f1-team-welcomes-mphasis-partnership ; https://www.haasf1team.com/partners ; https://www.businesstoday.in/amp/technology/news/story/mphasis-ceo-nitin-rakesh-on-haas-f1-partnership-and-future-of-formula-1-458336-2024-12-26 ; https://www.mercedesamgf1.com/partners ; https://www.astonmartinf1.com/en-GB/partners ; https://www.williamsf1.com/posts/5706d880-3f97-442d-9531-572106e93a3b/williams-racing-globant-official-partner ; https://elgrafico.com.ar/articulo/deporte-motor/85080/bombazo-en-la-formula-1-franco-colapinto-dejo-williams-y-firmo-con-alpine ; https://www.axios.com/2026/02/02/ai-companies-formula-1-anthropic-williams ; https://www.elastic.co/blog/elastic-audi-revolut-f1-team-partnership ; https://ferrari.com/en-EN/formula1/articles/scuderia-ferrari-signs-a-partnership-agreement-with-dxc-technology (2023; verify current)
+  - Reuters, 4 May 2026 (tech the top team spending category; eight new AI partnerships in six months): https://whbl.com/2026/05/04/motor-racing-as-formula-one-evolves-ai-becomes-part-of-the-race/ ; https://www.timeslive.co.za/motoring/2026-05-04-as-formula-one-evolves-ai-is-fast-becoming-a-crucial-part-of-the-race/
 - **Pipeline check.** The June 2026 follow-up ranking in Drive lists Ciklum and Concentrix (both IT services and consulting) as "active pipeline", and a Sonata Software script exists from 14 October 2026. Ciklum is a close peer in product engineering. Confirm none is live in the same category at the same teams before any proposal, and log this call against the template send. No earlier scripts exist for 3Pillar.
 - **Which company:** 3Pillar Global, Inc. of Fairfax, Virginia, trading as "3Pillar" since August 2024 at 3pillar.ai (3pillarglobal.com is the old domain). Not a "3 Pillars" recruiting firm or any other "Pillar" company. Their careers page says headquarters in "the Washington, DC metro area"; releases are datelined Fairfax.
