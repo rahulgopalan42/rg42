@@ -38,3 +38,19 @@ def present(name, domain='', parent=''):
             for span in (''.join(words[:i]), ''.join(words[i:])):
                 if len(span) >= 5 and span in NSET: return 'name variant'
     return ''
+
+# phrase index (built from every short cell on both sheets): a brand whose full cleaned name appears as a phrase counts as present
+_PH = None
+LEGAL = re.compile(r"\b(inc|incorporated|corp|corporation|co|company|ltd|limited|llc|plc|ag|sa|se|nv|bv|gmbh|spa|srl|ab|asa|oyj|kk|pte|pty|holdings?|group|the|tbk|bhd|berhad|jsc|pjsc|lp)\b\.?")
+def phrase_present(name):
+    global _PH
+    if _PH is None:
+        f = os.path.join(H, 'sheet_phrases.json'); _PH = set(json.load(open(f))) if os.path.exists(f) else set()
+    w = re.findall(r"[a-z0-9&']+", LEGAL.sub(' ', re.sub(r'\(.*?\)', ' ', str(name).lower().replace('’', "'"))))
+    ph = ' '.join(w)
+    if not ph or (len(ph.replace(' ', '')) < 4 and '&' not in ph): return ''
+    if ph in _PH: return 'name on sheets (phrase)'
+    w0 = [x for x in w if x not in ('the',)]
+    if w0 and len(w0[0]) >= 6 and w0[0] not in GENERIC and w0[0] not in GENERIC2 and w0[0] in _PH: return 'distinctive word on sheets'
+    return ''
+GENERIC2 = set('hainan sichuan hunan hubei fujian shandong henan anhui jiangxi yunnan guangxi hebei shanxi liaoning jilin ningbo xiamen tianjin chongqing wuhan nanjing hangzhou suzhou qingdao dalian hokkaido kyushu chugoku shikoku tohoku kansai nagoya yokohama kyoto mumbai delhi bengaluru chennai kolkata karnataka gujarat punjab kerala jakarta bangkok manila hanoi saigon istanbul ankara cairo riyadh jeddah kuwait bahrain muscat doha lagos nairobi johannesburg sydney melbourne toronto montreal vancouver calgary mexico brasil brazil chile peru colombia argentina madrid barcelona milano milan paris london berlin munich vienna zurich geneva oslo stockholm helsinki copenhagen warsaw prague budapest athens lisbon dublin amsterdam brussels american british german french italian spanish nordic baltic orient oriental atlantic pacific global international national general united standard premier capital pioneer advanced applied digital energy power health medical financial finance securities insurance industries industrial holdings resources minerals mining metals steel chemicals chemical pharma pharmaceutical biotech therapeutics technologies technology systems solutions services logistics shipping airlines airways motors automotive electric electronics telecom communications networks network media entertainment foods beverage brewery brewing retail stores properties property realty estate development construction engineering infrastructure partners investment investments ventures trading enterprises corporation company'.split())
