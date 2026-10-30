@@ -139,7 +139,7 @@ def decide(r):
     else: v = 'needs web check'
     return tp, tv, tf, v, ep, ev, ef
 _d = u.apply(decide, axis=1)
-u['news_check'] = u['brand'].map(lambda b: (s(NC[b][6]).lower() + (' (different company in news)' if s(NC[b][1]).upper() == 'N' else '')) if b in NC else '')
+u['news_check'] = u['brand'].map(lambda b: ((s(NC[b][6]).lower() + (' (no relevant news; rests on CB Insights + Apollo)' if s(NC[b][1]).upper() in ('N', '?') or not s(NC[b][7]) else ' by news')) if b in NC else ''))
 u['news_evidence'] = u['brand'].map(lambda b: s(NC[b][7]) if b in NC else '')
 def _nval(r):
     x = NC.get(r['brand'])
