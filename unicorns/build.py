@@ -25,7 +25,7 @@ for f in files:
     for r in data:
         if isinstance(r, dict) and set(F) <= set(r): r = [r[k] for k in F] + [r.get('key', r.get('cbid', '')), r.get('check', '')][:{'discover_out': 0, 'enrich_out': 1}.get(next((x for x in ('discover_out', 'enrich_out') if x in f), ''), 2)]
         if isinstance(r, list) and len(r) == 37 and 'discover_out' in f: rows.append(dict(zip(F, r), file=code, verified=False, check='', vkey='', cbid=''))
-        elif isinstance(r, list) and len(r) == 38 and 'enrich_out' in f: rows.append(dict(zip(F, r[:37]), file='CB Insights list', verified=False, check='', vkey='', cbid=s(r[37])))
+        elif isinstance(r, list) and len(r) == 38 and 'enrich_out' in f: rows.append(dict(zip(F, r[:37]), file='CB Insights list', verified=False, check='', vkey=s(r[37])[2:] if s(r[37]).startswith('b:') else '', cbid='' if s(r[37]).startswith('b:') else s(r[37])))
         elif isinstance(r, list) and len(r) == 39 and 'verify_out' in f: rows.append(dict(zip(F, r[:37]), file='web check', verified=True, vkey=s(r[37]), check=s(r[38]).lower(), cbid=''))
         else: bad += 1
 df = pd.DataFrame(rows); print('rows', len(df), 'malformed', bad, 'files', len(files))
@@ -60,6 +60,8 @@ df['filled'] = df[['valuation_bn', 'funding_m', 'domain', 'hq_country', 'latest_
 df['rk'] = df['verified'].astype(int) * 100 + df['vdate'].map(lambda d: int(d.replace('-', '')[:6].ljust(6, '0')) if d else 0) / 1e6 * 10 + df['conf'].map(CR).fillna(0) + df['filled'] / 10
 out = []
 for g, sub in df.groupby('grp'):
+    enr = sub[sub['file'] == 'CB Insights list']           # scoring-pass rows: descriptive fields and scores only
+    if len(enr) and len(sub) > len(enr): sub = sub[sub['file'] != 'CB Insights list']
     sub = sub.sort_values('rk', ascending=False); p = sub.iloc[0].copy()
     ver = sub[sub['verified']]
     if not len(ver):
@@ -72,7 +74,11 @@ for g, sub in df.groupby('grp'):
         p['status_all'] = '; '.join(f"{a}: {b}" for a, b in zip(sub['file'], sub['status']))
     else:
         p = ver.iloc[0].copy(); p['status_conflict'] = False; p['status_all'] = ''
-    p['found_by'] = ', '.join(sorted(set(sub['file'])))
+    if len(enr) and len(sub) and sub.iloc[0]['file'] != 'CB Insights list':
+        e = enr.iloc[0]
+        for c in list(SIG) + ['why', 'what', 'sector', 'evidence', 'ceo', 'sport_deals', 'f1_status', 'f1_deal']: p[c] = e[c]
+        if e['conf'] in ('H', 'M') and p['conf'] == 'L': p['conf'] = 'M'
+    p['found_by'] = ', '.join(sorted(set(sub['file']) | set(enr['file'])))
     p['new_unicorn'] = any(f in NEWFILES for f in sub['file']) or bool(re.search(r'new unicorn|first.*billion|became a unicorn|minted', ' '.join(sub['note'] + ' ' + sub['latest_round']), re.I))
     p['dupes'] = len(sub)
     p['cbid'] = next((c for c in sub['cbid'] if c), '')
@@ -143,17 +149,22 @@ def why_now(r):
 u['why_now'] = u.apply(why_now, axis=1)
 u['sector_name'] = u['sector'].map(lambda i: NAMES[i - 1] if 1 <= i <= len(NAMES) else 'Diversified & Other')
 # buckets
-q = u['t_private'] & u['t_val'] & u['t_fund'] & ~u['banned']
+q = u['verdict'].eq('verified') & ~u['banned']
 u['ok_check'] = u['verdict'].eq('verified')
 u['bucket'] = 'out'
 u.loc[q & u['f1_current'], 'bucket'] = 'f1'
-u.loc[q & ~u['f1_current'] & u['ok_check'], 'bucket'] = 'main'
-u.loc[q & ~u['f1_current'] & ~u['ok_check'], 'bucket'] = 'unverified'
-near = ~q & ~u['banned'] & u['t_private'] & ((u['t_val'] & ~u['t_fund']) | (u['t_fund'] & (u['valuation_bn'] >= 0.75) & ~u['t_val']))
-near |= ~q & ~u['banned'] & u['status'].eq('below_1b') & u['t_fund'] & (u['valuation_bn'] >= 0.75)
+u.loc[q & ~u['f1_current'], 'bucket'] = 'main'
+u.loc[u['verdict'].isin(['needs web check', 'could not verify']) & ~u['banned'], 'bucket'] = 'unverified'
+fail = u['verdict'].eq('failed') & ~u['banned'] & u['t_private']
+near = fail & ((u['t_val'] & ~u['t_fund']) | (u['t_fund'] & ~u['t_val'] & (u['valuation_bn'] >= 0.75)))
 u.loc[near, 'bucket'] = 'near'
 def why_out(r):
     if r['banned']: return 'tobacco / nicotine / cannabis: F1 advertising restrictions'
+    if r['verdict'] == 'failed':
+        bits = [e for ok, e in ((r['t_private'], r['ev_private']), (r['t_val'], r['ev_val']), (r['t_fund'], r['ev_fund'])) if not ok]
+        if bits: return ' | '.join(bits)
+    if r['verdict'] in ('needs web check', 'could not verify'):
+        return 'unconfirmed: ' + ' | '.join(e for ok, e in ((r['t_private'], r['ev_private']), (r['t_val'], r['ev_val']), (r['t_fund'], r['ev_fund'])) if not ok)
     st = r['status']
     if st == 'public': return 'listed on a stock exchange' + (f" ({r['note']})" if r['note'] else '')
     if st == 'acquired': return 'acquired' + (f" ({r['note']})" if r['note'] else '')
@@ -193,13 +204,13 @@ web = lambda d: f'https://{d}' if d and '.' in d and ' ' not in d else 'not foun
 MH = ['Outreach Priority', 'Tier', 'Brand', 'HQ Country', 'HQ City', 'Website', 'Industry / Sector', 'What they do', 'Valuation (USD bn)', 'Valuation date',
       'Total Funding (USD M)', 'Latest round', 'Top investors', 'Revenue / ARR (USD M)', 'New unicorn 2025-26', 'Already on your sheets?', 'On 30 Oct new-brands list?',
       'Why contact now', 'Why F1 fits', 'Priority score', 'F1 Fit (/60)', 'Financial Capacity (/40)', 'Total (/100)', 'Other sport deals', 'CEO / founder',
-      'Signal evidence', 'Research confidence', 'Web check', 'Valuation source', 'Note', 'Found by']
+      'Signal evidence', 'Research confidence', 'News check', 'News evidence / source', 'Note', 'Found by']
 MW = [9, 20, 26, 13, 14, 28, 24, 38, 10, 9, 11, 38, 30, 11, 9, 18, 10, 38, 42, 8, 8, 8, 8, 30, 22, 42, 9, 11, 40, 30, 14]
 def mrow(r):
     return [r['rank'], r['tier'], r['brand'], r['hq_country'], r['hq_city'], web(regdom(r['domain']) or r['domain']), r['sector_name'], r['what'],
             fb(r['valuation_bn']), r['vdate'], fm(r['funding_m']), r['latest_round'], r['investors'], fm(r['revenue_m']), 'yes' if r['new_unicorn'] else '',
             r['on_sheets'], r['on_30oct'], r['why_now'], r['why'], r['priority'], r['fit'], r['capacity'], r['total'], r['sport_deals'], r['ceo'],
-            r['evidence'], r['conf'] or 'L', r['check'], r['source_url'], r['note'], r['found_by']]
+            r['evidence'], r['conf'] or 'L', r['news_check'] or 'sources only', r['news_evidence'] or r['source_url'], r['note'], r['found_by']]
 flag = lambda r: AMB if r['conf'] in ('L', '') or r['status_conflict'] else (GRN if r['new_unicorn'] else None)
 by_c = main['hq_country'].value_counts()
 summary = [['Item', 'Value'],
@@ -235,7 +246,7 @@ SW = [26, 13, 26, 24, 36, 10, 9, 11, 36, 10, 46, 30, 40]
 sheet('NEAR MISSES', SH, [srow(r, r['why_out']) for _, r in nearm.iterrows()], SW)
 sheet('CURRENT F1 DEAL (SET ASIDE)', SH[:9] + ['F1 deal'], [srow(r, '')[:9] + [r['f1_deal']] for _, r in f1.iterrows()], SW[:9] + [45], [BLUE] * len(f1))
 sheet('CHECKED - LEFT OUT', SH, [srow(r, r['why_out']) for _, r in outd.iterrows()], SW)
-sheet('COULD NOT VERIFY', SH, [srow(r, 'web check found no reliable source' if r['verified'] else 'not yet web-checked') for _, r in unv.iterrows()], SW, [AMB] * len(unv))
+sheet('COULD NOT VERIFY', SH, [srow(r, r['why_out']) for _, r in unv.iterrows()], SW, [AMB] * len(unv))
 for ws in wb.worksheets:
     for row in ws.iter_rows(min_row=2):
         for c in row: c.alignment = Alignment(vertical='top', wrap_text=False)

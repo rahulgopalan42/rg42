@@ -77,6 +77,12 @@ u['identity'] = u.apply(ident, axis=1)
 u['exit_wiki'] = u['brand'].map(lambda b: EXIT.get(loose(b), ('', ''))[0])
 u['exit_wiki_date'] = u['brand'].map(lambda b: EXIT.get(loose(b), ('', ''))[1])
 GOOD = {'H', 'M'}
+NC = {}                                                  # news verification rulings (newscheck_brief.md)
+for f in sorted(glob.glob(os.path.join(H, 'newscheck_out', '*.json'))):
+    try:
+        for x in json.load(open(f)):
+            if isinstance(x, list) and len(x) == 9: NC[s(x[0])] = x
+    except Exception as e: print('bad news file', f, e)
 def decide(r):
     """returns (t_private, t_val, t_fund, verdict, ev_private, ev_val, ev_fund); t_* in {True, False, None (unsure)}"""
     if r['verified']:
@@ -90,6 +96,8 @@ def decide(r):
     elif r['in_cbi']: tp, ep = None, f"conflict: on CB Insights list but {'Wikipedia exit ' + r['exit_wiki'] + ' ' + r['exit_wiki_date'] if r['exit_wiki'] else 'research says ' + r['agent_status']}"
     elif r['status'] in ('public', 'acquired', 'defunct') and r['conf'] in GOOD: tp, ep = False, f"research: {r['status']}" + (f" (Wikipedia: {r['exit_wiki']} {r['exit_wiki_date']})" if r['exit_wiki'] else '')
     elif r['exit_wiki']: tp, ep = False, f"Wikipedia exited unicorns: {r['exit_wiki']} {r['exit_wiki_date']}"
+    elif r['status'] == 'private' and r['agent_vdate'] >= '2026-01' and r['source_url'] and r['exit_votes'] == 0:
+        tp, ep = True, f"priced private round {r['agent_vdate']} (source: {r['source_url'][:80]}); too recent for CB Insights list; no listing or exit found"
     elif r['status'] == 'private': tp, ep = None, 'research only (not on CB Insights list yet)'
     else: tp, ep = False, f"research: {r['status'] or 'unknown'}"
     if r['parent'] and loose(r['parent']) != loose(r['brand']) and tp: tp, ep = None, ep + f"; majority owner named: {r['parent']}"
@@ -98,6 +106,7 @@ def decide(r):
     if cv == cv and cv >= 1:
         tv = True; ev = f"CB Insights USD {cv:,.2f}B"
         if av == av and av > cv and r['agent_vdate'] >= '2025-07' and r['agent_conf'] in GOOD: ev += f"; later reported USD {av:,.2f}B ({r['agent_vdate']})"
+    elif av == av and av >= 1 and r['source_url'] and r['agent_vdate'] >= '2025-07': tv, ev = True, f"reported USD {av:,.2f}B ({r['agent_vdate']}), source: {r['source_url'][:80]}"
     elif av == av and av >= 1: tv, ev = None, f"research USD {av:,.2f}B ({r['agent_vdate'] or 'date n/a'}), not on CB Insights list"
     elif av == av: tv, ev = False, f"research USD {av:,.2f}B"
     else: tv, ev = None, 'no valuation found'
@@ -109,15 +118,41 @@ def decide(r):
     elif af == af and af >= 200: tf, ef = None, f"research ~USD {af:,.0f}M only (Apollo {ap})"
     elif af == af: tf, ef = False, f"research ~USD {af:,.0f}M (Apollo {ap})"
     else: tf, ef = None, f'no funding figure (Apollo {ap})'
+    x = NC.get(r['brand'])
+    if x and s(x[1]).upper() != 'N' and s(x[6]).lower() in ('confirmed', 'corrected'):
+        st, nv_, nm, fok, evd = s(x[2]).lower(), x[3], s(x[4]), s(x[5]).upper(), s(x[7])
+        if st in ('public', 'acquired', 'defunct'): tp, ep = False, f"news: {st} - {evd}"
+        elif st == 'private':
+            if tp is None: tp = True
+            ep += f" | news: {evd}"
+        try: nv_ = float(nv_)
+        except (TypeError, ValueError): nv_ = None
+        if nv_ is not None and nv_ >= 1:
+            if tv is None: tv = True
+            ev += f" | news: USD {nv_:,.2f}B ({nm})"
+        elif nv_ is not None and nv_ < 1 and s(x[6]).lower() == 'corrected': tv, ev = False, f"news: USD {nv_:,.2f}B ({nm}) - {evd}"
+        if fok == 'Y' and tf is None: tf, ef = True, ef + ' | news: total raised >= USD 200M'
+        elif fok == 'N' and tf is None: tf, ef = False, ef + ' | news: total raised < USD 200M'
+        elif fok == 'N' and tf: tf, ef = None, ef + ' | conflict: news suggests < USD 200M'
     if tp is False or tv is False or tf is False: v = 'failed'
     elif tp and tv and tf and r['identity'] != 'N': v = 'verified'
     else: v = 'needs web check'
     return tp, tv, tf, v, ep, ev, ef
 _d = u.apply(decide, axis=1)
+u['news_check'] = u['brand'].map(lambda b: (s(NC[b][6]).lower() + (' (different company in news)' if s(NC[b][1]).upper() == 'N' else '')) if b in NC else '')
+u['news_evidence'] = u['brand'].map(lambda b: s(NC[b][7]) if b in NC else '')
+def _nval(r):
+    x = NC.get(r['brand'])
+    try: return (float(x[3]), s(x[4])) if x and s(x[1]).upper() != 'N' and x[3] is not None and float(x[3]) >= 1 else (None, '')
+    except (TypeError, ValueError): return (None, '')
+u['news_val'] = u.apply(_nval, axis=1)
 for k, c in enumerate(['t_private', 't_val', 't_fund', 'verdict', 'ev_private', 'ev_val', 'ev_fund']): u[c] = [x[k] for x in _d]
 # displayed valuation: newest well-sourced figure
 u['valuation_bn'] = u.apply(lambda r: r['valuation_bn'] if r['verified'] else (max(r['cbi_val'], r['agent_val']) if r['cbi_val'] == r['cbi_val'] and r['agent_val'] == r['agent_val'] and r['agent_vdate'] >= '2025-07' and r['agent_conf'] in GOOD
                                                                               else (r['cbi_val'] if r['cbi_val'] == r['cbi_val'] else r['agent_val'])), axis=1)
 u['vdate'] = u.apply(lambda r: r['vdate'] or (r['cbi_joined'] and 'joined ' + r['cbi_joined']), axis=1)
+_nv = u['news_val'].map(lambda x: x[0]); _nm = u['news_val'].map(lambda x: x[1])
+_use = _nv.notna() & ((_nm > u['vdate'].str.replace('joined ', '')) | u['valuation_bn'].isna())
+u['valuation_bn'] = [float(n) if k else v for k, n, v in zip(_use, _nv, u['valuation_bn'])]; u['vdate'] = [m if k else d for k, m, d in zip(_use, _nm, u['vdate'])]
 for c in ('t_private', 't_val', 't_fund'): u[c] = u[c].map(lambda x: bool(x) if x is not None else False)
 print(u['verdict'].value_counts().to_dict())
