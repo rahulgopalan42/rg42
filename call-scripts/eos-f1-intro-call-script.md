@@ -2,7 +2,7 @@
 
 **The call:** intro call with [Name, Job title] at EOS (no outreach email to EOS was found on Drive, so no contact is on file; confirm who's joining), following Rahul's outreach about Formula 1. Joining from SPORTFIVE: Rahul, Bjorn and George. The email itself couldn't be found, so its angle is unknown; check the sent folder before the call and line section 3 up with what it said.
 
-**Which EOS (confirm):** written for EOS GmbH (eos.info), the family-owned industrial 3D printing company in Krailling near Munich. It's the only EOS in Rahul's files: number 5 on the Machine Tools list in "templates for week of 26th Nov". No other EOS (Eos Energy, EOS Worldwide, Electro Optic Systems and so on) appears in any prospect list or "Emails Ready" doc.
+**Which EOS (confirmed by Rahul, 30 October):** EOS GmbH (eos.info), the family-owned industrial 3D printing company in Krailling near Munich.
 
 **How to use this:** Spoken lines are in quotes and notes to you are in [brackets]. Say it your own way, and glance at it rather than reading it.
 
