@@ -20,7 +20,7 @@ _ex = os.path.join(H, 'ref', 'apollo_extra_out.json')
 if os.path.exists(_ex):
     for r in json.load(open(_ex)): APF.setdefault(regdom(r[0]), (s(r[1]), s(r[2])))   # [domain, apollo_name, apollo_funding]
 wx = pd.read_csv(os.path.join(H, 'ref', 'wikipedia_former_unicorns.csv'))
-EXIT = {loose(n): (s(rsn), s(d)) for n, rsn, d in zip(wx['company'], wx['exit_reason'], wx['exit_date']) if loose(n)}
+EXIT = {loose(n): (s(rsn), s(d)) for n, rsn, d in zip(wx['company'], wx['exit_reason'], wx['exit_date']) if loose(n) and not re.search(r'deval', s(rsn), re.I)}   # a down-round is not an exit
 CN = {}
 for r in cbi.itertuples(): CN.setdefault(loose(r.company), []).append(r.id)
 CD = {r.domain: r.id for r in cbi.itertuples() if r.domain}
@@ -96,9 +96,9 @@ def decide(r):
     elif r['in_cbi']: tp, ep = None, f"conflict: on CB Insights list but {'Wikipedia exit ' + r['exit_wiki'] + ' ' + r['exit_wiki_date'] if r['exit_wiki'] else 'research says ' + r['agent_status']}"
     elif r['status'] in ('public', 'acquired', 'defunct') and r['conf'] in GOOD: tp, ep = False, f"research: {r['status']}" + (f" (Wikipedia: {r['exit_wiki']} {r['exit_wiki_date']})" if r['exit_wiki'] else '')
     elif r['exit_wiki']: tp, ep = False, f"Wikipedia exited unicorns: {r['exit_wiki']} {r['exit_wiki_date']}"
-    elif r['status'] == 'private' and r['agent_vdate'] >= '2026-01' and r['source_url'] and r['exit_votes'] == 0:
+    elif r['status'] in ('private', 'below_1b') and r['agent_vdate'] >= '2026-01' and r['source_url'] and r['exit_votes'] == 0:
         tp, ep = True, f"priced private round {r['agent_vdate']} (source: {r['source_url'][:80]}); too recent for CB Insights list; no listing or exit found"
-    elif r['status'] == 'private': tp, ep = None, 'research only (not on CB Insights list yet)'
+    elif r['status'] in ('private', 'below_1b'): tp, ep = None, 'research only (not on CB Insights unicorn list)'
     else: tp, ep = False, f"research: {r['status'] or 'unknown'}"
     if r['parent'] and loose(r['parent']) != loose(r['brand']) and tp: tp, ep = None, ep + f"; majority owner named: {r['parent']}"
     # valuation
@@ -138,8 +138,9 @@ def decide(r):
         if fok == 'Y' and tf is None: tf, ef = True, ef + ' | news: total raised >= USD 200M'
         elif fok == 'N' and tf is None: tf, ef = False, ef + ' | news: total raised < USD 200M'
         elif fok == 'N' and tf: tf, ef = None, ef + ' | conflict: news suggests < USD 200M'
-    if tp is False or tv is False or tf is False: v = 'failed'
-    elif tp and tv and tf and r['identity'] != 'N': v = 'verified'
+    # Rahul, 30 Oct (2nd request): valuation is no longer a pass/fail test - private + USD 200M+ raised qualifies; valuation is shown
+    if tp is False or tf is False: v = 'failed'
+    elif tp and tf and r['identity'] != 'N': v = 'verified'
     else: v = 'needs web check'
     return tp, tv, tf, v, ep, ev, ef
 _d = u.apply(decide, axis=1)
@@ -147,7 +148,7 @@ u['news_check'] = u['brand'].map(lambda b: ((s(NC[b][6]).lower() + (' (no releva
 u['news_evidence'] = u['brand'].map(lambda b: s(NC[b][7]) if b in NC else '')
 def _nval(r):
     x = NC.get(r['brand'])
-    try: return (float(x[3]), s(x[4])) if x and s(x[1]).upper() != 'N' and x[3] is not None and float(x[3]) >= 1 else (None, '')
+    try: return (float(x[3]), s(x[4])) if x and s(x[1]).upper() != 'N' and x[3] is not None and float(x[3]) > 0 else (None, '')
     except (TypeError, ValueError): return (None, '')
 u['news_val'] = u.apply(_nval, axis=1)
 for k, c in enumerate(['t_private', 't_val', 't_fund', 'verdict', 'ev_private', 'ev_val', 'ev_fund']): u[c] = [x[k] for x in _d]

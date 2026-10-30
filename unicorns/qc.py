@@ -4,13 +4,13 @@ import pandas as pd
 from openpyxl import load_workbook
 H = os.path.dirname(os.path.abspath(__file__)); R = os.path.dirname(H)
 sys.path.insert(0, os.path.join(R, 'brands200')); from match import loose, regdom
-OUT = os.path.join(R, 'reports', 'F1-PRIVATE-UNICORNS-1B-VALUATION-200M-FUNDING-2026-10-30.xlsx')
+OUT = os.path.join(R, 'reports', 'F1-PRIVATE-COMPANIES-200M-FUNDING-2026-10-30.xlsx')
 m = pd.read_pickle(f'{H}/main.pkl'); u = pd.read_pickle(f'{H}/all.pkl')
 wx = pd.read_csv(f'{H}/ref/wikipedia_former_unicorns.csv'); EXIT = {loose(n) for n in wx['company'] if loose(n)}
 checks = []
 def chk(name, ok, detail): checks.append(['PASS' if ok else 'FAIL', name, str(detail)])
-chk('Every main-list company passed all three tests on independent evidence', bool((m['verdict'] == 'verified').all() and m['t_private'].all() and m['t_val'].all() and m['t_fund'].all()), f'{len(m)} rows')
-chk('Every main-list valuation is USD 1B or more', bool((m['valuation_bn'] >= 1).all()), f"min {m['valuation_bn'].min():.2f}B")
+chk('Every main-list company is verified private and has USD 200M+ raised on independent evidence', bool((m['verdict'] == 'verified').all() and m['t_private'].all() and m['t_fund'].all()), f'{len(m)} rows')
+chk('Unicorn tab holds only USD 1B+ valuations and the other tab only under-1B / undisclosed', bool((m[m['band'].str.startswith('Unicorn')]['valuation_bn'] >= 1).all() and not (m[~m['band'].str.startswith('Unicorn')]['valuation_bn'] >= 1).any()), m['band'].value_counts().to_dict())
 chk('No main-list company has a current F1 deal (2026 rosters or research)', not bool(m['f1_current'].any()), f"{int(m['f1_current'].sum())} found")
 _ex = m['brand'].map(loose).isin(EXIT) & ~m['news_check'].str.startswith('confirmed by news')
 chk('No main-list company is on Wikipedia\'s exited-unicorn table unless dated news confirms it is still private', not bool(_ex.any()), ', '.join(m[_ex]['brand'].head(10)) or 'news-confirmed private: ' + ', '.join(m[m['brand'].map(loose).isin(EXIT)]['brand'].head(10)))
@@ -20,7 +20,7 @@ chk('No duplicate companies (same name and country, or same website) in the main
 chk('Ranks run 1..N without gaps', list(m['rank']) == list(range(1, len(m) + 1)), f'N={len(m)}')
 chk('No tobacco / nicotine / cannabis brands', not bool(m['banned'].any()), '')
 wb = load_workbook(OUT, read_only=True)
-skip = {'SUMMARY', 'PRIVATE UNICORNS (MASTER)', 'NOT ON YOUR SHEETS', 'NEW UNICORNS 2025-26', 'NEAR MISSES', 'CURRENT F1 DEAL (SET ASIDE)', 'CHECKED - LEFT OUT', 'COULD NOT VERIFY', 'QC'}
+skip = {'SUMMARY', 'PRIVATE CO. 200M+ (MASTER)', 'UNICORNS 1B+', 'UNDER 1B OR UNDISCLOSED', 'NOT ON YOUR SHEETS', 'NEW UNICORNS 2025-26', 'NEAR MISSES', 'CURRENT F1 DEAL (SET ASIDE)', 'CHECKED - LEFT OUT', 'COULD NOT VERIFY', 'QC'}
 sec_rows = sum(ws.max_row - 1 for ws in wb.worksheets if ws.title not in skip)
 chk('Sector tabs add up to the main list', sec_rows == len(m), f'{sec_rows} vs {len(m)}')
 nc = (m['news_check'] != '').sum()

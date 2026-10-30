@@ -10,21 +10,21 @@ from openpyxl.utils import get_column_letter
 H = os.path.dirname(os.path.abspath(__file__)); R = os.path.dirname(H)
 sys.path.insert(0, os.path.join(R, 'brands200')); from match import present, phrase_present, regdom, strict, loose
 sys.path.insert(0, os.path.join(R, 'parents')); from sectors_v3 import NAMES
-OUT = os.path.join(R, 'reports', 'F1-PRIVATE-UNICORNS-1B-VALUATION-200M-FUNDING-2026-10-30.xlsx')
+OUT = os.path.join(R, 'reports', 'F1-PRIVATE-COMPANIES-200M-FUNDING-2026-10-30.xlsx')
 F = ['brand', 'legal_name', 'parent', 'hq_country', 'hq_city', 'domain', 'sector', 'what', 'valuation_bn', 'valuation_date', 'valuation_basis',
      'funding_m', 'latest_round', 'status', 'investors', 'revenue_m', 'why', 'a', 's', 'l', 'n', 'f1_status', 'f1_deal', 'sport_deals', 'headcount',
      'fund_recency', 'brand_hires', 'competitor_f1', 'motorsport', 'expansion', 'race_footprint', 'founder', 'evidence', 'ceo', 'conf', 'source_url', 'note']
 NEWFILES = ('u19', 'u20', 'u21')
 s = lambda x: '' if x is None or (isinstance(x, float) and x != x) else str(x).strip()
 rows, bad = [], 0
-files = sorted(glob.glob(f'{H}/discover_out/*.json')) + sorted(glob.glob(f'{H}/ref/enrich_out_*.json')) + sorted(glob.glob(f'{H}/verify_out/*.json'))
+files = sorted(glob.glob(f'{H}/discover_out/*.json')) + sorted(glob.glob(f'{H}/discover2_out/*.json')) + sorted(glob.glob(f'{H}/ref/enrich_out_*.json')) + sorted(glob.glob(f'{H}/verify_out/*.json'))
 for f in files:
     code = os.path.basename(f)[:-5]
     try: data = json.load(open(f))
     except Exception as e: print('bad file', f, e); continue
     for r in data:
-        if isinstance(r, dict) and set(F) <= set(r): r = [r[k] for k in F] + [r.get('key', r.get('cbid', '')), r.get('check', '')][:{'discover_out': 0, 'enrich_out': 1}.get(next((x for x in ('discover_out', 'enrich_out') if x in f), ''), 2)]
-        if isinstance(r, list) and len(r) == 37 and 'discover_out' in f: rows.append(dict(zip(F, r), file=code, verified=False, check='', vkey='', cbid=''))
+        if isinstance(r, dict) and set(F) <= set(r): r = [r[k] for k in F] + [r.get('key', r.get('cbid', '')), r.get('check', '')][:{'discover': 0, 'enrich_out': 1}.get(next((x for x in ('discover', 'enrich_out') if x in f), ''), 2)]
+        if isinstance(r, list) and len(r) == 37 and 'discover' in f: rows.append(dict(zip(F, r), file=code, verified=False, check='', vkey='', cbid=''))
         elif isinstance(r, list) and len(r) == 38 and 'enrich_out' in f: rows.append(dict(zip(F, r[:37]), file='CB Insights list', verified=False, check='', vkey=s(r[37])[2:] if s(r[37]).startswith('b:') else '', cbid='' if s(r[37]).startswith('b:') else s(r[37])))
         elif isinstance(r, list) and len(r) == 39 and 'verify_out' in f: rows.append(dict(zip(F, r[:37]), file='web check', verified=True, vkey=s(r[37]), check=s(r[38]).lower(), cbid=''))
         else: bad += 1
@@ -164,7 +164,7 @@ u.loc[q & u['f1_current'], 'bucket'] = 'f1'
 u.loc[q & ~u['f1_current'], 'bucket'] = 'main'
 u.loc[u['verdict'].isin(['needs web check', 'could not verify']) & ~u['banned'], 'bucket'] = 'unverified'
 fail = u['verdict'].eq('failed') & ~u['banned'] & u['t_private']
-near = fail & ((u['t_val'] & ~u['t_fund']) | (u['t_fund'] & ~u['t_val'] & (u['valuation_bn'] >= 0.75)))
+near = fail & ~u['t_fund'] & ((u['agent_fund'] >= 100) | (u['valuation_bn'] >= 1))   # private, but under USD 200M raised
 u.loc[near, 'bucket'] = 'near'
 def why_out(r):
     if r['banned']: return 'tobacco / nicotine / cannabis: F1 advertising restrictions'
@@ -188,8 +188,10 @@ main = u[u['bucket'] == 'main'].sort_values(['priority', 'total', 'valuation_bn'
 main.insert(0, 'rank', range(1, len(main) + 1))
 T1, T2 = 150, 500
 main['tier'] = main['rank'].map(lambda k: 'Tier 1 - contact first' if k <= T1 else ('Tier 2' if k <= T2 else 'Tier 3'))
+main['band'] = main['valuation_bn'].map(lambda v: 'Unicorn (USD 1B+)' if v == v and v >= 1 else ('Under USD 1B' if v == v and v > 0 else 'Valuation not disclosed'))
 fresh = main[(main['on_sheets'] == '') & (main['on_30oct'] == '')]
-newu = main[main['new_unicorn']]
+newu = main[main['new_unicorn'] & (main['valuation_bn'] >= 1)]
+uni = main[main['band'] == 'Unicorn (USD 1B+)']; sub1 = main[main['band'] != 'Unicorn (USD 1B+)']
 nearm = u[u['bucket'] == 'near'].sort_values(['valuation_bn'], ascending=False)
 f1 = u[u['bucket'] == 'f1'].sort_values('valuation_bn', ascending=False)
 outd = u[u['bucket'] == 'out'].sort_values('brand')
@@ -209,25 +211,27 @@ def sheet(title, header, data, widths, fills=None):
     ws.freeze_panes = 'D2'; ws.auto_filter.ref = ws.dimensions
     return ws
 web = lambda d: f'https://{d}' if d and '.' in d and ' ' not in d else 'not found - check'
-MH = ['Outreach Priority', 'Tier', 'Brand', 'HQ Country', 'HQ City', 'Website', 'Industry / Sector', 'What they do', 'Valuation (USD bn)', 'Valuation date',
+MH = ['Outreach Priority', 'Tier', 'Brand', 'HQ Country', 'HQ City', 'Website', 'Industry / Sector', 'What they do', 'Valuation (USD bn)', 'Valuation date', 'Valuation band',
       'Total Funding (USD M)', 'Latest round', 'Top investors', 'Revenue / ARR (USD M)', 'New unicorn 2025-26', 'Already on your sheets?', 'On 30 Oct new-brands list?',
       'Why contact now', 'Why F1 fits', 'Priority score', 'F1 Fit (/60)', 'Financial Capacity (/40)', 'Total (/100)', 'Other sport deals', 'CEO / founder',
       'Signal evidence', 'Research confidence', 'News check', 'News evidence / source', 'Note', 'Found by']
-MW = [9, 20, 26, 13, 14, 28, 24, 38, 10, 9, 11, 38, 30, 11, 9, 18, 10, 38, 42, 8, 8, 8, 8, 30, 22, 42, 9, 11, 40, 30, 14]
+MW = [9, 20, 26, 13, 14, 28, 24, 38, 10, 9, 20, 11, 38, 30, 11, 9, 18, 10, 38, 42, 8, 8, 8, 8, 30, 22, 42, 9, 11, 40, 30, 14]
 def mrow(r):
     return [r['rank'], r['tier'], r['brand'], r['hq_country'], r['hq_city'], web(regdom(r['domain']) or r['domain']), r['sector_name'], r['what'],
-            fb(r['valuation_bn']), r['vdate'], fm(r['funding_m']), r['latest_round'], r['investors'], fm(r['revenue_m']), 'yes' if r['new_unicorn'] else '',
+            fb(r['valuation_bn']) or 'not disclosed', r['vdate'], r['band'], fm(r['funding_m']), r['latest_round'], r['investors'], fm(r['revenue_m']), 'yes' if r['new_unicorn'] and r['band'].startswith('Unicorn') else '',
             (f"yes ({r['on_sheets']} match)" if r['on_sheets'] else 'no'), r['on_30oct'] or 'no', r['why_now'], r['why'], r['priority'], r['fit'], r['capacity'], r['total'], r['sport_deals'], r['ceo'],
             r['evidence'], r['conf'] or 'L', r['news_check'] or 'sources only', r['news_evidence'] or r['source_url'], r['note'], r['found_by']]
 flag = lambda r: AMB if r['conf'] in ('L', '') or r['status_conflict'] or r['weak_news'] else (GRN if r['new_unicorn'] else None)
 by_c = main['hq_country'].value_counts()
 summary = [['Item', 'Value'],
     ['Built', '30 Oct 2026 for Rahul Gopalan (SPORTFIVE F1 partnerships)'],
-    ['Rules', 'Private company (not listed, not acquired), valuation of USD 1B or more, total equity funding of USD 200M or more. Worldwide, every sector.'],
-    ['Private unicorns that pass all three tests (main list)', len(main)],
+    ['Rules', 'Private, independent company (not listed, not acquired, not majority-owned by another group) that has raised USD 200M or more in total equity funding. Any valuation (USD 1B+, under USD 1B, or not disclosed). Worldwide, every sector.'],
+    ['Private companies with USD 200M+ raised (main list)', len(main)],
+    ['   of which unicorns valued USD 1B+', len(uni)],
+    ['   of which valued under USD 1B or valuation not disclosed', len(sub1)],
     ['   of which not on your sheets and not on the 30 Oct new-brands list', len(fresh)],
     ['   of which new unicorns of 2025-26 (green rows)', len(newu)],
-    ['Near misses (one test just failed: e.g. unicorn with under USD 200M raised)', len(nearm)],
+    ['Near misses (private, but under USD 200M raised, e.g. unicorns with USD 100-199M)', len(nearm)],
     ['Pass all tests but already have a current F1 deal (set aside)', len(f1)],
     ['Checked and left out (listed, acquired, defunct, under USD 1B)', len(outd)],
     ['Pass on paper but the web check found no reliable source (separate tab, not in the main list)', len(unv)],
@@ -241,7 +245,9 @@ summary = [['Item', 'Value'],
 summary += [['', '']] + [[f'HQ country: {k}', int(v)] for k, v in by_c.head(25).items()]
 summary += [['', '']] + [[f'Sector: {k}', int(v)] for k, v in main['sector_name'].value_counts().items()]
 sheet('SUMMARY', summary[0], summary[1:], [70, 120])
-sheet('PRIVATE UNICORNS (MASTER)', MH, [mrow(r) for _, r in main.iterrows()], MW, [flag(r) for _, r in main.iterrows()])
+sheet('PRIVATE CO. 200M+ (MASTER)', MH, [mrow(r) for _, r in main.iterrows()], MW, [flag(r) for _, r in main.iterrows()])
+sheet('UNICORNS 1B+', MH, [mrow(r) for _, r in uni.iterrows()], MW, [flag(r) for _, r in uni.iterrows()])
+sheet('UNDER 1B OR UNDISCLOSED', MH, [mrow(r) for _, r in sub1.iterrows()], MW, [flag(r) for _, r in sub1.iterrows()])
 sheet('NOT ON YOUR SHEETS', MH, [mrow(r) for _, r in fresh.iterrows()], MW, [flag(r) for _, r in fresh.iterrows()])
 sheet('NEW UNICORNS 2025-26', MH, [mrow(r) for _, r in newu.iterrows()], MW, [flag(r) for _, r in newu.iterrows()])
 for sec in NAMES:
