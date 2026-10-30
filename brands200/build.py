@@ -8,7 +8,7 @@ from openpyxl import Workbook
 from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
 H = os.path.dirname(os.path.abspath(__file__)); R = os.path.dirname(H)
-sys.path.insert(0, H); from match import present, regdom, strict, phrase_present
+sys.path.insert(0, H); from match import present, regdom, strict, loose, phrase_present
 sys.path.insert(0, os.path.join(R, 'parents')); from sectors_v3 import NAMES
 OUT = os.path.join(R, 'reports', 'F1-NEW-BRANDS-200M-FUNDING-OR-100M-LISTED-REVENUE-2026-10-30.xlsx')
 F = ['key', 'status', 'brand', 'parent', 'hq_country', 'domain', 'type', 'ticker', 'revenue_m', 'revenue_year', 'funding_m', 'qualifies', 'rule',
@@ -106,19 +106,19 @@ df = df.sort_values(['priority', 'total', 'fit'], ascending=False)
 new = df[df['bucket'] == 'new'].drop_duplicates('dk')
 new = new[~new['brand'].map(strict).duplicated()]                                   # same brand from two sources
 _fw = lambda b: (re.findall(r'[a-z0-9]+', str(b).lower()) or [''])[0]
-new['_pg'] = new['parent'].map(strict) + '|' + new['brand'].map(_fw)               # e.g. "MediaMarkt" and "MediaMarkt Saturn" under Ceconomy
-new = new[~((new['parent'].map(strict) != '') & new['_pg'].duplicated())]
+new['_pg'] = new['parent'].map(loose) + '|' + new['brand'].map(_fw)               # e.g. "MediaMarkt" and "MediaMarkt Saturn" under Ceconomy
+new = new[~((new['parent'].map(loose) != '') & new['_pg'].duplicated())]
 seen = set(new['dk'])
 pos = df[df['bucket'] == 'parent_on_sheets'].drop_duplicates('dk'); pos = pos[~pos['dk'].isin(seen)]; seen |= set(pos['dk'])
 f1 = df[df['bucket'] == 'f1'].drop_duplicates('dk'); f1 = f1[~f1['dk'].isin(seen)]
 exc = df[df['bucket'] == 'excluded'].drop_duplicates('dk')
 # a subsidiary whose parent is itself on the new list is folded into the parent's row (one group, one row)
-pk = {strict(b): i for i, b in zip(new.index, new['brand'])} | {strict(p_): i for i, p_, st in zip(new.index, new['parent'], new['status']) if st == 'P' and p_}
+pk = {loose(b): i for i, b in zip(new.index, new['brand'])} | {loose(p_): i for i, p_, st in zip(new.index, new['parent'], new['status']) if st == 'P' and p_}
 new['group_brands'] = ''
 fold = []
 for i, r in new.iterrows():
     if r['status'] == 'S' and r['parent']:
-        j = pk.get(strict(r['parent']))
+        j = pk.get(loose(r['parent']))
         if j is not None and j != i and new.at[j, 'status'] == 'P':
             new.at[j, 'group_brands'] = (new.at[j, 'group_brands'] + '; ' if new.at[j, 'group_brands'] else '') + r['brand']; fold.append(i)
 new = new.drop(index=fold)
