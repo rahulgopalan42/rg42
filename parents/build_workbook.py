@@ -216,7 +216,8 @@ par.loc[fl.str.contains('sanction|defunct|bankrupt|dissolved'), 'bucket'] = 'XQ'
 _f1txt = par['f1'].fillna('').astype(str)
 _hed = par['f1_current'] & _f1txt.str.contains(UNSURE) & (par['fc_status'] == 'current')
 par.loc[_hed, 'f1'] = par.loc[_hed, 'fc_deal']
-_hed = par['f1_current'] & par['f1'].fillna('').astype(str).str.contains(UNSURE)
+NOTF1 = re.compile(r'formula e\b|indycar|nascar|\bdtm\b|\bwec\b|broadcast|media rights|tv rights|streaming rights|licen[cs]|drive to survive|f1 the movie|none known|no f1|no known|not f1|\bex-|\bformer|shareholder|stake in|affiliate|parent of|indirect|retails|supplier to f1|technical\)|until 20|to 19\d\d|to 20\d\d|exclusive f1 tyre supplier', re.I)
+_hed = par['f1_current'] & (par['f1'].fillna('').astype(str).str.contains(UNSURE) | par['f1'].fillna('').astype(str).str.contains(NOTF1))
 par.loc[_hed, 'f1_current'] = False; par.loc[_hed, 'f1_check'] = True
 # current F1 sponsors stay in their ranking (blue rows, Rahul 19 Oct 2026) and are listed again on EXISTING F1 SPONSORS
 def rank(df):
@@ -361,7 +362,7 @@ crit = w16['criterion'].fillna('')
 qual_b = (w16['funding_100m_apollo'] == True) | crit.str.contains('Valuation|Funding', regex=True)
 D = w16[qual_b].copy()      # brands with an existing F1 deal stay, highlighted blue (Rahul 19 Oct 2026)
 D['fc'] = ('drive:' + D['name'].astype(str)).map(lambda k: fc.get(k, ('', '', '')))
-D['f1_exist'] = D.apply(lambda r: s(r['f1_deal']) if s(r['f1_deal']).strip() and not UNSURE.search(s(r['f1_deal'])) else (r['fc'][1] if r['fc'][0] == 'current' else ''), axis=1)
+D['f1_exist'] = D.apply(lambda r: s(r['f1_deal']) if s(r['f1_deal']).strip() and not UNSURE.search(s(r['f1_deal'])) and not NOTF1.search(s(r['f1_deal'])) else (r['fc'][1] if r['fc'][0] == 'current' and r['fc'][2] in ('H', 'M') and not NOTF1.search(r['fc'][1]) and not UNSURE.search(r['fc'][1]) else ''), axis=1)
 D['f1_verify'] = D.apply(lambda r: '' if r['f1_exist'] else (s(r['f1_deal']) if s(r['f1_deal']).strip() else (r['fc'][1] + ' (' + r['fc'][0] + ' - verify)' if r['fc'][0] in ('former', 'unsure') else '')), axis=1)
 def dcrit(r):
     bits = []
