@@ -139,6 +139,9 @@ u['fit'] = (u['fit_core'] + u['fit_signals']).clip(upper=60).round(1); u['capaci
 u['total'] = (u['fit'] + u['capacity']).round(1)
 u['timing'] = (u['expansion'].clip(0, 3) * 2 + u['fund_recency'].clip(0, 4) * 1.5 + u['brand_hires'].clip(0, 3) * 2 + u['competitor_f1'].clip(0, 3)).round(1)
 u['priority'] = (u['total'] + u['timing'] - u['conf'].map({'L': 6, 'M': 2}).fillna(6)).round(1)
+# companies the news check could not confirm (no relevant headlines) rank lower and show amber
+u['weak_news'] = u['news_check'].str.startswith('unconfirmed') | u['news_check'].str.contains('no relevant news')
+u['priority'] = (u['priority'] - u['weak_news'].astype(int) * 4).round(1)
 def why_now(r):
     b = []
     if r['fund_recency'] >= 3: b.append('fresh round in 2025-26')
@@ -214,7 +217,7 @@ def mrow(r):
             fb(r['valuation_bn']), r['vdate'], fm(r['funding_m']), r['latest_round'], r['investors'], fm(r['revenue_m']), 'yes' if r['new_unicorn'] else '',
             r['on_sheets'], r['on_30oct'], r['why_now'], r['why'], r['priority'], r['fit'], r['capacity'], r['total'], r['sport_deals'], r['ceo'],
             r['evidence'], r['conf'] or 'L', r['news_check'] or 'sources only', r['news_evidence'] or r['source_url'], r['note'], r['found_by']]
-flag = lambda r: AMB if r['conf'] in ('L', '') or r['status_conflict'] else (GRN if r['new_unicorn'] else None)
+flag = lambda r: AMB if r['conf'] in ('L', '') or r['status_conflict'] or r['weak_news'] else (GRN if r['new_unicorn'] else None)
 by_c = main['hq_country'].value_counts()
 summary = [['Item', 'Value'],
     ['Built', '30 Oct 2026 for Rahul Gopalan (SPORTFIVE F1 partnerships)'],
