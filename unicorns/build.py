@@ -234,6 +234,7 @@ def write_book(path, title, rule, lst, sup):
         ['Companies on this list (main tab)', len(main)]]
     summary += [[f'   {k}', int(v)] for k, v in main['band'].value_counts().items()]
     summary += [['   of which not on your sheets and not on the 30 Oct new-brands list', len(fresh)],
+        ['Layout', 'One tab per sector; each brand sits on the tab of the sector it operates in, ranked by Sector Rank, with its overall Outreach Priority across the whole list.'],
         ['Near misses (private, but under USD 200M raised)', len(sup['near'])],
         ['Qualify but already have a current F1 deal (set aside)', len(sup['f1'])],
         ['Checked and left out (listed, acquired, defunct, majority-owned, under USD 200M)', len(sup['out'])],
@@ -247,8 +248,7 @@ def write_book(path, title, rule, lst, sup):
     summary += [['', '']] + [[f'HQ country: {k}', int(v)] for k, v in main['hq_country'].value_counts().head(25).items()]
     summary += [['', '']] + [[f'Sector: {k}', int(v)] for k, v in main['sector_name'].value_counts().items()]
     sheet('SUMMARY', summary[0], summary[1:], [70, 120])
-    sheet('MASTER LIST', MH, [mrow(r) for _, r in main.iterrows()], MW, [flag(r) for _, r in main.iterrows()])
-    sheet('NOT ON YOUR SHEETS', MH, [mrow(r) for _, r in fresh.iterrows()], MW, [flag(r) for _, r in fresh.iterrows()])
+    # Rahul (30 Oct): one tab per sector, brands filed under the sector they operate in (Outreach Priority = rank across the whole list)
     for sec in NAMES:
         sub = main[main['sector_name'] == sec]
         if len(sub): sheet(re.sub(r'[\[\]\*\?/\\:]', '-', sec)[:31], ['Sector Rank'] + MH, [[i] + mrow(r) for i, (_, r) in enumerate(sub.iterrows(), 1)], [7] + MW, [flag(r) for _, r in sub.iterrows()])
@@ -262,15 +262,20 @@ def write_book(path, title, rule, lst, sup):
             for c in row: c.alignment = Alignment(vertical='top', wrap_text=False)
     wb.save(path); print('saved', path, '| main', len(main), main['band'].value_counts().to_dict(), '| not on sheets', len(fresh))
     return main
-q2 = u[u['bucket'] == 'main']
+# brands already sent on 30 Oct in the private-unicorn workbook are not repeated (Rahul: new brands only)
+_sent = json.load(open(os.path.join(H, 'ref', 'sent_unicorns_30oct.json')))
+SENT_N = {loose(b) for b, w in _sent if b}; SENT_D = {regdom(w) for b, w in _sent if w and 'not found' not in w}
+u['already_sent'] = u.apply(lambda r: loose(r['brand']) in SENT_N or (regdom(r['domain']) != '' and regdom(r['domain']) in SENT_D), axis=1)
+q2 = u[(u['bucket'] == 'main') & ~u['already_sent']]
 def sup_for(mask):
+    mask = mask & ~u['already_sent']
     return {'near': u[(u['bucket'] == 'near') & mask].sort_values('funding_m', ascending=False), 'f1': u[(u['bucket'] == 'f1') & mask].sort_values('funding_m', ascending=False),
             'out': u[(u['bucket'] == 'out') & mask].sort_values('brand'), 'unv': u[(u['bucket'] == 'unverified') & mask].sort_values('funding_m', ascending=False)}
 RULE = 'Private, independent company (not listed, not acquired, not majority-owned by another group) that has raised USD 200M or more in total equity funding. Worldwide, every sector.'
 OUT_A = os.path.join(R, 'reports', 'F1-PRIVATE-200M-FUNDING-WITH-VALUATION-2026-10-30.xlsx')
 OUT_B = os.path.join(R, 'reports', 'F1-PRIVATE-200M-FUNDING-VALUATION-NOT-FOUND-2026-10-30.xlsx')
-mainA = write_book(OUT_A, 'List A - USD 200M+ raised, valuation found (USD 1B+ and under USD 1B)', RULE + ' A valuation is published and backed by CB Insights, dated news or a sourced report.', q2[q2['val_found']], sup_for(u['val_found']))
-mainB = write_book(OUT_B, 'List B - USD 200M+ raised, valuation not found / not disclosed', RULE + ' No published valuation could be found or verified (an unverified estimate, if any, is in Note).', q2[~q2['val_found']], sup_for(~u['val_found']))
+mainA = write_book(OUT_A, 'List A - NEW brands (not in the 30 Oct unicorn workbook): USD 200M+ raised, valuation found (USD 1B+ and under USD 1B)', RULE + ' A valuation is published and backed by CB Insights, dated news or a sourced report.', q2[q2['val_found']], sup_for(u['val_found']))
+mainB = write_book(OUT_B, 'List B - USD 200M+ raised, valuation not found / not disclosed (all new; none were in the 30 Oct unicorn workbook)', RULE + ' No published valuation could be found or verified (an unverified estimate, if any, is in Note).', q2[~q2['val_found']], sup_for(~u['val_found']))
 main = pd.concat([mainA.assign(list='A'), mainB.assign(list='B')], ignore_index=True)
 mainA.to_pickle(os.path.join(H, 'mainA.pkl')); mainB.to_pickle(os.path.join(H, 'mainB.pkl'))
 u.to_pickle(os.path.join(H, 'all.pkl')); main.to_pickle(os.path.join(H, 'main.pkl'))
