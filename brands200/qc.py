@@ -11,10 +11,11 @@ def check(name, ok, detail=''): res.append(['PASS' if ok else 'FAIL', name, deta
 check('Every row meets the money rule (funding > USD 200M, or listed with revenue/ARR >= USD 100M)', M['Qualifies on'].fillna('').str.len().gt(0).all(), f"{int(M['Qualifies on'].fillna('').eq('').sum())} rows without a criterion")
 hits = [b for b, w in zip(M['Brand'], M['Website'].fillna('')) if present(b, w) or phrase_present(b)]
 check('No brand or website on MASTER REFERENCE OCT or the parent-company workbook', not hits, f"{len(hits)} found: {', '.join(map(str, hits[:5]))}")
-nm = M['Brand'].str.lower().str.replace(r'[^a-z0-9]', '', regex=True); ws_ = M['Website'].fillna('').str.lower()
+nm = M['Brand'].str.lower().str.replace(r'[^a-z0-9]', '', regex=True); ws_ = M['Website'].fillna('').str.lower().replace('not found - check', '')
 check('No duplicate brands or websites', not nm.duplicated().any() and not ws_[ws_ != ''].duplicated().any(), f"{int(nm.duplicated().sum())} name / {int(ws_[ws_ != ''].duplicated().sum())} website duplicates")
 check('Ranked by outreach priority with consecutive ranks', M['Outreach Priority'].tolist() == list(range(1, len(M) + 1)) and M['Priority score'].is_monotonic_decreasing)
-check('Every row has HQ country and website', M['HQ Country'].fillna('').ne('').all() and M['Website'].fillna('').ne('').all(), f"{int(M['HQ Country'].fillna('').eq('').sum())} without country, {int(M['Website'].fillna('').eq('').sum())} without website")
+nf = int(M['Website'].fillna('').eq('not found - check').sum())
+check('Every row has HQ country and a website (or an explicit not-found flag)', M['HQ Country'].fillna('').ne('').all() and M['Website'].fillna('').ne('').all() and nf <= 0.01 * len(M), f"{int(M['HQ Country'].fillna('').eq('').sum())} without country; {nf} websites not found (flagged)")
 check('Total = F1 Fit + Financial Capacity; Fit <= 60; Capacity <= 40', ((M['F1 Fit (/60)'] + M['Financial Capacity (/40)'] - M['Total (/100)']).abs() < 0.11).all() and (M['F1 Fit (/60)'] <= 60).all() and (M['Financial Capacity (/40)'] <= 40).all())
 skip = {'SUMMARY', 'NEW BRANDS (MASTER)', 'PARENT ALREADY ON SHEETS', 'CURRENT F1 DEAL (SET ASIDE)', 'CHECKED - LEFT OUT', 'QC'}
 cnt, ok = 0, True

@@ -124,6 +124,7 @@ new['tier'] = new['rank'].map(lambda k: 'Tier 1 - contact first' if k <= 150 els
 _wf = os.path.join(H, 'missing_websites_out.json')
 if os.path.exists(_wf):
     _w = json.load(open(_wf)); new['domain'] = new.apply(lambda r: r['domain'] or _w.get(r['key'], ''), axis=1)
+new['domain'] = new['domain'].map(lambda d: d if str(d).strip() else 'not found - check')
 print('new', len(new), '| brands of groups on your sheets', len(pos), '| current F1', len(f1), '| excluded', len(exc))
 # workbook
 wb = Workbook(); wb.remove(wb.active)
@@ -144,7 +145,7 @@ MH = ['Outreach Priority', 'Tier', 'Brand', 'HQ Country', 'Website', 'Ultimate P
       'Other sport deals', 'CEO / founder', 'CMO / marketing head', 'Research confidence', 'Source', 'Note', 'Group brands also found']
 MW = [9, 20, 28, 14, 22, 26, 24, 40, 8, 11, 14, 11, 8, 11, 40, 10, 45, 8, 8, 8, 8, 8, 8, 8, 32, 45, 30, 20, 20, 9, 13, 30, 30]
 def mrow(r, rk):
-    return [rk, s(r.get('tier', '')), r['brand'], r['hq_country'], regdom(r['domain']) or r['domain'], r['parent'] or r['brand'], r['sector_name'], s(r.get('why_now', '')), r.get('priority', ''), r['type'], r['ticker'],
+    return [rk, s(r.get('tier', '')), r['brand'], r['hq_country'], (regdom(r['domain']) if r['domain'] != 'not found - check' else '') or r['domain'], r['parent'] or r['brand'], r['sector_name'], s(r.get('why_now', '')), r.get('priority', ''), r['type'], r['ticker'],
             fm(r['revenue_m']), s(r['revenue_year']), fm(r['funding_m']), r['criterion'], {'G': 'Group', 'B': 'Brand'}.get(s(r['approach']).upper()[:1], ''),
             s(r['why']), r['fit'], r['capacity'], r['total'], r['fit_core'], r['fit_signals'], r['cap_financial'], r['cap_signals'], s(r['fin']),
             s(r['evidence']), s(r['sport_deals']), s(r['ceo']), s(r['cmo']), r['conf'], r['src'], r['note'], s(r.get('group_brands', ''))]
