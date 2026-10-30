@@ -184,86 +184,93 @@ def why_out(r):
 fm = lambda v: '' if v != v or v is None else f'{v:,.0f}'
 fb = lambda v: '' if v != v or v is None else (f'{v:,.1f}' if v < 100 else f'{v:,.0f}')
 u['why_out'] = u.apply(why_out, axis=1)
-main = u[u['bucket'] == 'main'].sort_values(['priority', 'total', 'valuation_bn'], ascending=False).reset_index(drop=True)
-main.insert(0, 'rank', range(1, len(main) + 1))
+# valuation "found" = backed by CB Insights, a dated news ruling, or a research figure with a source; otherwise it counts as not found
+def _vsrc(r):
+    if r['cbi_val'] == r['cbi_val']: return 'CB Insights'
+    if isinstance(r['news_val'], tuple) and r['news_val'][0] is not None: return 'news'
+    if r['agent_val'] == r['agent_val'] and r['source_url']: return 'reported (source)'
+    return ''
+u['val_src'] = u.apply(_vsrc, axis=1)
+u['val_found'] = (u['val_src'] != '') & (u['valuation_bn'] > 0)
+u['band'] = [('Unicorn (USD 1B+)' if v >= 1 else 'Under USD 1B') if f else 'Valuation not disclosed' for v, f in zip(u['valuation_bn'], u['val_found'])]
+u['val_note'] = [('' if f else (f'unverified estimate ~USD {v:,.2f}B' if v == v and v > 0 else '')) for v, f in zip(u['valuation_bn'], u['val_found'])]
+fm = lambda v: '' if v != v or v is None else f'{v:,.0f}'
+fb = lambda v: '' if v != v or v is None else (f'{v:,.2f}' if v < 1 else (f'{v:,.1f}' if v < 100 else f'{v:,.0f}'))
 T1, T2 = 150, 500
-main['tier'] = main['rank'].map(lambda k: 'Tier 1 - contact first' if k <= T1 else ('Tier 2' if k <= T2 else 'Tier 3'))
-main['band'] = main['valuation_bn'].map(lambda v: 'Unicorn (USD 1B+)' if v == v and v >= 1 else ('Under USD 1B' if v == v and v > 0 else 'Valuation not disclosed'))
-fresh = main[(main['on_sheets'] == '') & (main['on_30oct'] == '')]
-newu = main[main['new_unicorn'] & (main['valuation_bn'] >= 1)]
-uni = main[main['band'] == 'Unicorn (USD 1B+)']; sub1 = main[main['band'] != 'Unicorn (USD 1B+)']
-nearm = u[u['bucket'] == 'near'].sort_values(['valuation_bn'], ascending=False)
-f1 = u[u['bucket'] == 'f1'].sort_values('valuation_bn', ascending=False)
-outd = u[u['bucket'] == 'out'].sort_values('brand')
-unv = u[u['bucket'] == 'unverified'].sort_values('valuation_bn', ascending=False)
-print(f"main {len(main)} | not on sheets/30 Oct {len(fresh)} | new unicorns {len(newu)} | near misses {len(nearm)} | current F1 {len(f1)} | left out {len(outd)} | could not verify {len(unv)}")
-# workbook
-wb = Workbook(); wb.remove(wb.active)
 HF = PatternFill('solid', fgColor='1F3864'); AMB = PatternFill('solid', fgColor='FFF2CC'); BLUE = PatternFill('solid', fgColor='BDD7EE'); GRN = PatternFill('solid', fgColor='E2EFDA')
-def sheet(title, header, data, widths, fills=None):
-    ws = wb.create_sheet(title[:31]); ws.append(header)
-    for c in ws[1]: c.font = Font(bold=True, color='FFFFFF'); c.fill = HF; c.alignment = Alignment(wrap_text=True, vertical='top')
-    for i, row in enumerate(data):
-        ws.append(row)
-        if fills and fills[i] is not None:
-            for c in ws[ws.max_row]: c.fill = fills[i]
-    for i, w in enumerate(widths, 1): ws.column_dimensions[get_column_letter(i)].width = w
-    ws.freeze_panes = 'D2'; ws.auto_filter.ref = ws.dimensions
-    return ws
 web = lambda d: f'https://{d}' if d and '.' in d and ' ' not in d else 'not found - check'
-MH = ['Outreach Priority', 'Tier', 'Brand', 'HQ Country', 'HQ City', 'Website', 'Industry / Sector', 'What they do', 'Valuation (USD bn)', 'Valuation date', 'Valuation band',
-      'Total Funding (USD M)', 'Latest round', 'Top investors', 'Revenue / ARR (USD M)', 'New unicorn 2025-26', 'Already on your sheets?', 'On 30 Oct new-brands list?',
-      'Why contact now', 'Why F1 fits', 'Priority score', 'F1 Fit (/60)', 'Financial Capacity (/40)', 'Total (/100)', 'Other sport deals', 'CEO / founder',
-      'Signal evidence', 'Research confidence', 'News check', 'News evidence / source', 'Note', 'Found by']
-MW = [9, 20, 26, 13, 14, 28, 24, 38, 10, 9, 20, 11, 38, 30, 11, 9, 18, 10, 38, 42, 8, 8, 8, 8, 30, 22, 42, 9, 11, 40, 30, 14]
-def mrow(r):
-    return [r['rank'], r['tier'], r['brand'], r['hq_country'], r['hq_city'], web(regdom(r['domain']) or r['domain']), r['sector_name'], r['what'],
-            fb(r['valuation_bn']) or 'not disclosed', r['vdate'], r['band'], fm(r['funding_m']), r['latest_round'], r['investors'], fm(r['revenue_m']), 'yes' if r['new_unicorn'] and r['band'].startswith('Unicorn') else '',
-            (f"yes ({r['on_sheets']} match)" if r['on_sheets'] else 'no'), r['on_30oct'] or 'no', r['why_now'], r['why'], r['priority'], r['fit'], r['capacity'], r['total'], r['sport_deals'], r['ceo'],
-            r['evidence'], r['conf'] or 'L', r['news_check'] or 'sources only', r['news_evidence'] or r['source_url'], r['note'], r['found_by']]
-flag = lambda r: AMB if r['conf'] in ('L', '') or r['status_conflict'] or r['weak_news'] else (GRN if r['new_unicorn'] else None)
-by_c = main['hq_country'].value_counts()
-summary = [['Item', 'Value'],
-    ['Built', '30 Oct 2026 for Rahul Gopalan (SPORTFIVE F1 partnerships)'],
-    ['Rules', 'Private, independent company (not listed, not acquired, not majority-owned by another group) that has raised USD 200M or more in total equity funding. Any valuation (USD 1B+, under USD 1B, or not disclosed). Worldwide, every sector.'],
-    ['Private companies with USD 200M+ raised (main list)', len(main)],
-    ['   of which unicorns valued USD 1B+', len(uni)],
-    ['   of which valued under USD 1B or valuation not disclosed', len(sub1)],
-    ['   of which not on your sheets and not on the 30 Oct new-brands list', len(fresh)],
-    ['   of which new unicorns of 2025-26 (green rows)', len(newu)],
-    ['Near misses (private, but under USD 200M raised, e.g. unicorns with USD 100-199M)', len(nearm)],
-    ['Pass all tests but already have a current F1 deal (set aside)', len(f1)],
-    ['Checked and left out (listed, acquired, defunct, under USD 1B)', len(outd)],
-    ['Pass on paper but the web check found no reliable source (separate tab, not in the main list)', len(unv)],
-    ['How each company was verified', 'Because connector data can be wrong, each of the three tests rests on sources independent of research-agent memory: (1) PRIVATE - on CB Insights\' current private-unicorn list (fetched 30 Oct 2026; it drops companies once they list or are sold), not on Wikipedia\'s exited-unicorn table, and no IPO, acquisition, shutdown or majority owner found in dated news; (2) VALUATION - CB Insights figure or a newer dated round in the news; (3) FUNDING - Apollo funded-company filter (total raised >= USD 200M, looked up by website, with the website matched to the same company) or a dated funding headline. Then every company was checked against up to 24 dated Google-News headlines (valuation/funding and IPO/acquisition queries) and ruled on: News check = confirmed / corrected (figures or status updated from the news) / unconfirmed (no relevant news: amber, ranked lower).'],
-    ['F1 sponsors set aside', 'Matched against the 2026 partner rosters of Formula 1 and all 11 teams (424 deals compiled from team and F1 partner pages and Wikipedia) plus research; matches are on the CURRENT F1 DEAL tab, not in the main list.'],
-    ['Outreach order', f'Ranked by Outreach Priority = Total score + timing (fresh round, expansion or IPO prep, new marketing leadership, a rival already in F1) minus a penalty for lower-confidence rows. Tier 1 = top {T1}, Tier 2 = {T1 + 1}-{T2}, Tier 3 = the rest. Sector tabs keep the same order.'],
-    ['Scoring', 'Total /100 = F1 Fit /60 (audience overlap, commercial synergies, brand alignment, international relevance, plus signals: rival in F1, motorsport link, expansion moment, race-market footprint, founder affinity) + Financial Capacity /40 (valuation and funding bands, headcount, funding recency, marketing hires, revenue).'],
-    ['Already on your sheets?', 'Checked against every name and website on MASTER REFERENCE OCT and the 2,000 F1 SPONSORSHIP PARENT COMPANY PROSPECTS workbook (name, spelling variant or website match). These rows are kept in the main list and flagged; the NOT ON YOUR SHEETS tab leaves them out.'],
-    ['Sources', 'CB Insights unicorn list and Wikipedia unicorn tables (fetched 30 Oct 2026); 21 research agents by sector, region and 2025-26 new-unicorn round-ups (Crunchbase News, Dealroom, TechCrunch); Apollo funded-company database (free lookup) and Clay; Google News headlines; F1 team partner pages. Crunchbase\'s data allowance was exhausted until 1 Nov 2026 and Lusha and Apollo paid credits were used up, so their free tools were used.'],
-    ['Confidence', 'Valuations are the latest reported figures (priced rounds, credible press reports or tenders) and are estimates, not audited records. Amber rows = lower confidence or conflicting status; check before outreach.']]
-summary += [['', '']] + [[f'HQ country: {k}', int(v)] for k, v in by_c.head(25).items()]
-summary += [['', '']] + [[f'Sector: {k}', int(v)] for k, v in main['sector_name'].value_counts().items()]
-sheet('SUMMARY', summary[0], summary[1:], [70, 120])
-sheet('PRIVATE CO. 200M+ (MASTER)', MH, [mrow(r) for _, r in main.iterrows()], MW, [flag(r) for _, r in main.iterrows()])
-sheet('UNICORNS 1B+', MH, [mrow(r) for _, r in uni.iterrows()], MW, [flag(r) for _, r in uni.iterrows()])
-sheet('UNDER 1B OR UNDISCLOSED', MH, [mrow(r) for _, r in sub1.iterrows()], MW, [flag(r) for _, r in sub1.iterrows()])
-sheet('NOT ON YOUR SHEETS', MH, [mrow(r) for _, r in fresh.iterrows()], MW, [flag(r) for _, r in fresh.iterrows()])
-sheet('NEW UNICORNS 2025-26', MH, [mrow(r) for _, r in newu.iterrows()], MW, [flag(r) for _, r in newu.iterrows()])
-for sec in NAMES:
-    sub = main[main['sector_name'] == sec]
-    if not len(sub): continue
-    sheet(re.sub(r'[\[\]\*\?/\\:]', '-', sec)[:31], ['Sector Rank'] + MH, [[i] + mrow(r) for i, (_, r) in enumerate(sub.iterrows(), 1)], [7] + MW, [flag(r) for _, r in sub.iterrows()])
 SH = ['Brand', 'HQ Country', 'Website', 'Sector', 'What they do', 'Valuation (USD bn)', 'Valuation date', 'Total Funding (USD M)', 'Latest round', 'Status', 'Reason', 'Note', 'Source']
-srow = lambda r, why: [r['brand'], r['hq_country'], web(regdom(r['domain'])), r['sector_name'], r['what'], fb(r['valuation_bn']), r['vdate'], fm(r['funding_m']),
-                       r['latest_round'], r['status'], why, r['note'], r['source_url']]
 SW = [26, 13, 26, 24, 36, 10, 9, 11, 36, 10, 46, 30, 40]
-sheet('NEAR MISSES', SH, [srow(r, r['why_out']) for _, r in nearm.iterrows()], SW)
-sheet('CURRENT F1 DEAL (SET ASIDE)', SH[:9] + ['F1 deal'], [srow(r, '')[:9] + [r['f1_deal']] for _, r in f1.iterrows()], SW[:9] + [45], [BLUE] * len(f1))
-sheet('CHECKED - LEFT OUT', SH, [srow(r, r['why_out']) for _, r in outd.iterrows()], SW)
-sheet('COULD NOT VERIFY', SH, [srow(r, r['why_out']) for _, r in unv.iterrows()], SW, [AMB] * len(unv))
-for ws in wb.worksheets:
-    for row in ws.iter_rows(min_row=2):
-        for c in row: c.alignment = Alignment(vertical='top', wrap_text=False)
-os.makedirs(os.path.dirname(OUT), exist_ok=True); wb.save(OUT); print('saved', OUT)
+def write_book(path, title, rule, lst, sup):
+    """lst: qualifying rows for this list; sup: dict of supporting frames (near, f1, out, unverified) already filtered for this list."""
+    main = lst.sort_values(['priority', 'total', 'funding_m'], ascending=False).reset_index(drop=True)
+    main.insert(0, 'rank', range(1, len(main) + 1))
+    main['tier'] = main['rank'].map(lambda k: 'Tier 1 - contact first' if k <= T1 else ('Tier 2' if k <= T2 else 'Tier 3'))
+    fresh = main[(main['on_sheets'] == '') & (main['on_30oct'] == '')]
+    wb = Workbook(); wb.remove(wb.active)
+    def sheet(name, header, data, widths, fills=None):
+        ws = wb.create_sheet(name[:31]); ws.append(header)
+        for c in ws[1]: c.font = Font(bold=True, color='FFFFFF'); c.fill = HF; c.alignment = Alignment(wrap_text=True, vertical='top')
+        for i, row in enumerate(data):
+            ws.append(row)
+            if fills and fills[i] is not None:
+                for c in ws[ws.max_row]: c.fill = fills[i]
+        for i, w in enumerate(widths, 1): ws.column_dimensions[get_column_letter(i)].width = w
+        ws.freeze_panes = 'D2'; ws.auto_filter.ref = ws.dimensions
+    MH = ['Outreach Priority', 'Tier', 'Brand', 'HQ Country', 'HQ City', 'Website', 'Industry / Sector', 'What they do', 'Valuation (USD bn)', 'Valuation date', 'Valuation band', 'Valuation source',
+          'Total Funding (USD M)', 'Latest round', 'Top investors', 'Revenue / ARR (USD M)', 'New unicorn 2025-26', 'Already on your sheets?', 'On 30 Oct new-brands list?',
+          'Why contact now', 'Why F1 fits', 'Priority score', 'F1 Fit (/60)', 'Financial Capacity (/40)', 'Total (/100)', 'Other sport deals', 'CEO / founder',
+          'Signal evidence', 'Research confidence', 'Funding evidence', 'News check', 'News evidence / source', 'Note', 'Found by']
+    MW = [9, 20, 26, 13, 14, 28, 24, 38, 10, 9, 20, 14, 11, 38, 30, 11, 9, 18, 10, 38, 42, 8, 8, 8, 8, 30, 22, 42, 9, 40, 11, 40, 30, 14]
+    def mrow(r):
+        return [r['rank'], r['tier'], r['brand'], r['hq_country'], r['hq_city'], web(regdom(r['domain']) or r['domain']), r['sector_name'], r['what'],
+                fb(r['valuation_bn']) if r['val_found'] else 'not disclosed', r['vdate'] if r['val_found'] else '', r['band'], r['val_src'],
+                fm(r['funding_m']), r['latest_round'], r['investors'], fm(r['revenue_m']), 'yes' if r['new_unicorn'] and r['band'].startswith('Unicorn') else '',
+                (f"yes ({r['on_sheets']} match)" if r['on_sheets'] else 'no'), r['on_30oct'] or 'no', r['why_now'], r['why'], r['priority'], r['fit'], r['capacity'], r['total'],
+                r['sport_deals'], r['ceo'], r['evidence'], r['conf'] or 'L', r['ev_fund'], r['news_check'] or 'sources only', r['news_evidence'] or r['source_url'],
+                '; '.join(x for x in (r['val_note'], r['note']) if x), r['found_by']]
+    flag = lambda r: AMB if r['conf'] in ('L', '') or r['status_conflict'] or r['weak_news'] else (GRN if r['new_unicorn'] and r['band'].startswith('Unicorn') else None)
+    summary = [['Item', 'Value'], ['Built', '30 Oct 2026 for Rahul Gopalan (SPORTFIVE F1 partnerships)'], ['This list', title], ['Rules', rule],
+        ['Companies on this list (main tab)', len(main)]]
+    summary += [[f'   {k}', int(v)] for k, v in main['band'].value_counts().items()]
+    summary += [['   of which not on your sheets and not on the 30 Oct new-brands list', len(fresh)],
+        ['Near misses (private, but under USD 200M raised)', len(sup['near'])],
+        ['Qualify but already have a current F1 deal (set aside)', len(sup['f1'])],
+        ['Checked and left out (listed, acquired, defunct, majority-owned, under USD 200M)', len(sup['out'])],
+        ['Could not be verified (separate tab, not in the main list)', len(sup['unv'])],
+        ['How each company was verified', 'Connector and research data can be wrong, so each test rests on independent sources: PRIVATE & INDEPENDENT - CB Insights\' current unicorn list where relevant, Wikipedia\'s exited-unicorn table, and up to 24 dated Google-News headlines per company (IPO / acquisition / shutdown / majority-owner queries) ruled on company by company; FUNDING USD 200M+ - Apollo funded-company filter looked up by website (website matched to the same company) or dated funding headlines; VALUATION - CB Insights, a dated news ruling or a research figure with a source (Valuation source column). Funding evidence and News evidence columns show what each row rests on. Amber = lower confidence or no relevant news (ranked lower).'],
+        ['F1 sponsors set aside', 'Matched against the 2026 partner rosters of Formula 1 and all 11 teams (424 deals) plus research.'],
+        ['Outreach order', f'Ranked by Outreach Priority = Total score + timing (fresh round, expansion or IPO prep, new marketing leadership, a rival already in F1) minus a penalty for lower-confidence rows. Tier 1 = top {T1}, Tier 2 = {T1 + 1}-{T2}, Tier 3 = the rest. Sector tabs keep the same order.'],
+        ['Scoring', 'Total /100 = F1 Fit /60 (audience overlap, commercial synergies, brand alignment, international relevance, plus signals: rival in F1, motorsport link, expansion moment, race-market footprint, founder affinity) + Financial Capacity /40 (valuation and funding bands, headcount, funding recency, marketing hires, revenue).'],
+        ['Already on your sheets?', 'Checked against every name and website on MASTER REFERENCE OCT and the 2,000 F1 SPONSORSHIP PARENT COMPANY PROSPECTS workbook. Kept and flagged; the NOT ON YOUR SHEETS tab leaves them out.'],
+        ['Sources', 'Research agents across every sector and region (knowledge, Dealroom / Crunchbase News / Wikipedia pages and Google News), CB Insights and Wikipedia unicorn tables, Apollo funded-company database (free lookup, total funding USD 200M+) and Clay, Google News headlines, F1 team partner pages. Crunchbase\'s data allowance was exhausted until 1 Nov 2026 and Lusha / Apollo paid credits were used up, so their free tools were used.']]
+    summary += [['', '']] + [[f'HQ country: {k}', int(v)] for k, v in main['hq_country'].value_counts().head(25).items()]
+    summary += [['', '']] + [[f'Sector: {k}', int(v)] for k, v in main['sector_name'].value_counts().items()]
+    sheet('SUMMARY', summary[0], summary[1:], [70, 120])
+    sheet('MASTER LIST', MH, [mrow(r) for _, r in main.iterrows()], MW, [flag(r) for _, r in main.iterrows()])
+    sheet('NOT ON YOUR SHEETS', MH, [mrow(r) for _, r in fresh.iterrows()], MW, [flag(r) for _, r in fresh.iterrows()])
+    for sec in NAMES:
+        sub = main[main['sector_name'] == sec]
+        if len(sub): sheet(re.sub(r'[\[\]\*\?/\\:]', '-', sec)[:31], ['Sector Rank'] + MH, [[i] + mrow(r) for i, (_, r) in enumerate(sub.iterrows(), 1)], [7] + MW, [flag(r) for _, r in sub.iterrows()])
+    srow = lambda r, why: [r['brand'], r['hq_country'], web(regdom(r['domain'])), r['sector_name'], r['what'], fb(r['valuation_bn']), r['vdate'], fm(r['funding_m']), r['latest_round'], r['status'], why, r['note'], r['source_url']]
+    sheet('NEAR MISSES', SH, [srow(r, r['why_out']) for _, r in sup['near'].iterrows()], SW)
+    sheet('CURRENT F1 DEAL (SET ASIDE)', SH[:9] + ['F1 deal'], [srow(r, '')[:9] + [r['f1_deal']] for _, r in sup['f1'].iterrows()], SW[:9] + [45], [BLUE] * len(sup['f1']))
+    sheet('CHECKED - LEFT OUT', SH, [srow(r, r['why_out']) for _, r in sup['out'].iterrows()], SW)
+    sheet('COULD NOT VERIFY', SH, [srow(r, r['why_out']) for _, r in sup['unv'].iterrows()], SW, [AMB] * len(sup['unv']))
+    for ws in wb.worksheets:
+        for row in ws.iter_rows(min_row=2):
+            for c in row: c.alignment = Alignment(vertical='top', wrap_text=False)
+    wb.save(path); print('saved', path, '| main', len(main), main['band'].value_counts().to_dict(), '| not on sheets', len(fresh))
+    return main
+q2 = u[u['bucket'] == 'main']
+def sup_for(mask):
+    return {'near': u[(u['bucket'] == 'near') & mask].sort_values('funding_m', ascending=False), 'f1': u[(u['bucket'] == 'f1') & mask].sort_values('funding_m', ascending=False),
+            'out': u[(u['bucket'] == 'out') & mask].sort_values('brand'), 'unv': u[(u['bucket'] == 'unverified') & mask].sort_values('funding_m', ascending=False)}
+RULE = 'Private, independent company (not listed, not acquired, not majority-owned by another group) that has raised USD 200M or more in total equity funding. Worldwide, every sector.'
+OUT_A = os.path.join(R, 'reports', 'F1-PRIVATE-200M-FUNDING-WITH-VALUATION-2026-10-30.xlsx')
+OUT_B = os.path.join(R, 'reports', 'F1-PRIVATE-200M-FUNDING-VALUATION-NOT-FOUND-2026-10-30.xlsx')
+mainA = write_book(OUT_A, 'List A - USD 200M+ raised, valuation found (USD 1B+ and under USD 1B)', RULE + ' A valuation is published and backed by CB Insights, dated news or a sourced report.', q2[q2['val_found']], sup_for(u['val_found']))
+mainB = write_book(OUT_B, 'List B - USD 200M+ raised, valuation not found / not disclosed', RULE + ' No published valuation could be found or verified (an unverified estimate, if any, is in Note).', q2[~q2['val_found']], sup_for(~u['val_found']))
+main = pd.concat([mainA.assign(list='A'), mainB.assign(list='B')], ignore_index=True)
+mainA.to_pickle(os.path.join(H, 'mainA.pkl')); mainB.to_pickle(os.path.join(H, 'mainB.pkl'))
 u.to_pickle(os.path.join(H, 'all.pkl')); main.to_pickle(os.path.join(H, 'main.pkl'))
