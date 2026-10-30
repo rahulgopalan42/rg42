@@ -1,0 +1,122 @@
+[
+{
+"id": "dodgers.com",
+"company": "Los Angeles Dodgers",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "United States",
+"type": "Privately Held",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Guggenheim",
+"triage_note": "real; fit 3; scale large; baseball franchise"
+},
+{
+"id": "ufc.com",
+"company": "Ultimate Fighting Championship",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "United States",
+"type": "Privately Held",
+"staff": "201-500",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "TKO Group",
+"triage_note": "real; fit 3; scale large; MMA promotion"
+},
+{
+"id": "dolphins.com",
+"company": "Miami Dolphins and Hard Rock Stadium",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "United States",
+"type": "Privately Held",
+"staff": "51-200",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Stephen Ross",
+"triage_note": "real; fit 3; scale large; NFL franchise, Miami GP venue"
+},
+{
+"id": "lakers.com",
+"company": "Los Angeles Lakers",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "United States",
+"type": "Privately Held",
+"staff": "51-200",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; NBA franchise"
+},
+{
+"id": "enerpac.com",
+"company": "Enerpac",
+"sector": "23 Machine Tools",
+"country": "United States",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; hydraulic tools"
+},
+{
+"id": "pax.com.cn",
+"company": "PAX Technology",
+"sector": "25 IT Services & Consulting",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; payment terminals maker"
+},
+{
+"id": "thg.com",
+"company": "THG",
+"sector": "X06 Retail & E-commerce",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; beauty and nutrition e-commerce"
+},
+{
+"id": "chinaruyi.com",
+"company": "Ruyi Group",
+"sector": "53 Consumer & Lifestyle",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; global textile and luxury owner"
+},
+{
+"id": "jlr.com",
+"company": "JLR",
+"sector": "43 Mobility & Automotive",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": true,
+"parent_hint": "Tata Motors",
+"triage_note": "real; fit 3; scale large; premium car maker"
+},
+{
+"id": "lsis.biz",
+"company": "LS Industrial Systems",
+"sector": "33 Automation & Robotics",
+"country": "South Korea",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; Korean electrical and automation maker"
+}
+]

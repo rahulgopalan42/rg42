@@ -1,0 +1,122 @@
+[
+{
+"id": "paloaltonetworks.com",
+"company": "Palo Alto Networks",
+"sector": "14 Cyber + IT",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; cybersecurity"
+},
+{
+"id": "byd.cn",
+"company": "BYD Electronic (International) Company Limited",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "BYD Company",
+"triage_note": "real; fit 2; scale large; electronics manufacturer"
+},
+{
+"id": "shinsegae.co.kr",
+"company": "Shinsegae",
+"sector": "X06 Retail & E-commerce",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; Korean retail conglomerate"
+},
+{
+"id": "iam.ma",
+"company": "Maroc Telecom",
+"sector": "48 Telecom & Space",
+"country": "Morocco",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "e&",
+"triage_note": "real; fit 2; scale large; African telecom"
+},
+{
+"id": "multichoice.com",
+"company": "MultiChoice Group",
+"sector": "29 Tech Media & Gaming",
+"country": "South Africa",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "CANAL+ Group",
+"triage_note": "real; fit 2; scale large; African pay TV"
+},
+{
+"id": "crchi.com",
+"company": "CRCHI",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "China Railway Construction Corp (1260H)",
+"triage_note": "real; fit 2; scale large; tunnel machinery maker"
+},
+{
+"id": "saksglobal.com",
+"company": "Saks Global",
+"sector": "53 Consumer & Lifestyle",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; luxury retail group"
+},
+{
+"id": "komaxgroup.com",
+"company": "Komax",
+"sector": "33 Automation & Robotics",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Komax Holding AG",
+"triage_note": "real; fit 2; scale large; wire processing automation"
+},
+{
+"id": "globant.link",
+"company": "Globant",
+"sector": "25 IT Services & Consulting",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; digital engineering"
+},
+{
+"id": "wd.com",
+"company": "WD",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; storage, Sandisk split"
+}
+]

@@ -1,0 +1,122 @@
+[
+{
+"id": "toyota-tsusho.com",
+"company": "豊田通商(株)",
+"sector": "46 Tools & Industrial Supply",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Toyota Group",
+"triage_note": "real; fit 1; scale large; trading company"
+},
+{
+"id": "sky.com.br",
+"company": "SKY Brasil",
+"sector": "29 Tech Media & Gaming",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Brazil satellite TV"
+},
+{
+"id": "chettinad.com",
+"company": "Chettinad Group of Companies",
+"sector": "33 Automation & Robotics",
+"country": "India",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Indian diversified group"
+},
+{
+"id": "japanet.co.jp",
+"company": "Japanet Group",
+"sector": "X06 Retail & E-commerce",
+"country": "Japan",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Japanese TV shopping"
+},
+{
+"id": "elkogroup.com",
+"company": "ELKO Group",
+"sector": "25 IT Services & Consulting",
+"country": "Latvia",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Baltic IT distributor"
+},
+{
+"id": "adk.jp",
+"company": "ADK",
+"sector": "07 Marketing & Sales",
+"country": "Japan",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Japanese ad agency"
+},
+{
+"id": "decameron.mx",
+"company": "Hoteles Decameron",
+"sector": "16 Travel & Hospitality",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Latin America resort chain"
+},
+{
+"id": "zssw.com",
+"company": "Zhong Yuan Special Steel Co.,Ltd",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Chinese special steel listed company"
+},
+{
+"id": "scpgroup.com",
+"company": "印力集团",
+"sector": "X02 Real Estate & Building Products",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Vanke",
+"triage_note": "real; fit 1; scale large; Chinese commercial property operator"
+},
+{
+"id": "skm.com.tw",
+"company": "Shin Kong Mitsukoshi Department Store",
+"sector": "X06 Retail & E-commerce",
+"country": "Taiwan",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Shin Kong Group",
+"triage_note": "real; fit 1; scale large; Taiwan department store chain"
+}
+]

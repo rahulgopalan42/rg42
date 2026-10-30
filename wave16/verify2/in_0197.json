@@ -1,0 +1,122 @@
+[
+{
+"id": "groupe-vabel.fr",
+"company": "SARBEC COSMETICS",
+"sector": "03 Luxury & Beauty",
+"country": "France",
+"type": "Privately Held",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; French cosmetics group"
+},
+{
+"id": "tavex.com",
+"company": "GRUPO TAVEX, S.A.",
+"sector": "53 Consumer & Lifestyle",
+"country": "Spain",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; denim fabric maker"
+},
+{
+"id": "riverisland.com",
+"company": "River Island",
+"sector": "X06 Retail & E-commerce",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; UK fashion retailer"
+},
+{
+"id": "bft-automation.com",
+"company": "BFT Automation",
+"sector": "33 Automation & Robotics",
+"country": "France",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Somfy",
+"triage_note": "real; fit 1; scale mid; gate automation maker"
+},
+{
+"id": "gpv-group.com",
+"company": "GPV",
+"sector": "45 Electronic Parts",
+"country": "Denmark",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Danish industrial conglomerate Schouw & Co",
+"triage_note": "real; fit 1; scale mid; EMS electronics maker"
+},
+{
+"id": "sii.pl",
+"company": "Sii Poland",
+"sector": "25 IT Services & Consulting",
+"country": "Poland",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Polish IT services"
+},
+{
+"id": "mosaic.com",
+"company": "Mosaic North America",
+"sector": "07 Marketing & Sales",
+"country": "Canada",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; experiential marketing"
+},
+{
+"id": "robertshaw.com",
+"company": "Robertshaw",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; HVAC controls maker"
+},
+{
+"id": "condor.dz",
+"company": "Condor Algérie",
+"sector": "45 Electronic Parts",
+"country": "Algeria",
+"type": "Partnership",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Benhamadi Group",
+"triage_note": "real; fit 1; scale mid; Algerian electronics"
+},
+{
+"id": "goldensvar.ru",
+"company": "GOLDEN BRIDGE",
+"sector": "45 Electronic Parts",
+"country": "Russia",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese welding materials"
+}
+]

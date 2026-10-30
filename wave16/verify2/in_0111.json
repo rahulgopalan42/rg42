@@ -1,0 +1,122 @@
+[
+{
+"id": "ronalgroup.com",
+"company": "RONAL  Wheels",
+"sector": "43 Mobility & Automotive",
+"country": "Germany",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; alloy wheels"
+},
+{
+"id": "naspers.com",
+"company": "Naspers Limited",
+"sector": "01 Banking & Insurance",
+"country": "South Africa",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; internet holding"
+},
+{
+"id": "toyota-global.com",
+"company": "TOYOTA Global",
+"sector": "43 Mobility & Automotive",
+"country": "Japan",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; F1 team title partner"
+},
+{
+"id": "audi.com",
+"company": "AUDI AG",
+"sector": "43 Mobility & Automotive",
+"country": "Germany",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Volkswagen Group",
+"triage_note": "real; fit 3; scale large; F1 entrant, carmaker"
+},
+{
+"id": "sysmex.co.jp",
+"company": "Sysmex Corporation",
+"sector": "NEW Medtech & Healthcare Services",
+"country": "Japan",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; diagnostics maker"
+},
+{
+"id": "global.honda",
+"company": "Honda",
+"sector": "43 Mobility & Automotive",
+"country": "Japan",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; F1 engine maker"
+},
+{
+"id": "home.barclays",
+"company": "Barclays",
+"sector": "01 Banking & Insurance",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; UK bank"
+},
+{
+"id": "sc.com",
+"company": "Standard Chartered",
+"sector": "01 Banking & Insurance",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; international bank"
+},
+{
+"id": "hindujagroup.com",
+"company": "Hinduja Group Limited",
+"sector": "NEW Other",
+"country": "India",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; industrial conglomerate"
+},
+{
+"id": "volkswagenag.com",
+"company": "Volkswagen Group",
+"sector": "43 Mobility & Automotive",
+"country": "Germany",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; F1 entrant carmaker"
+}
+]

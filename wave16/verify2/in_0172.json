@@ -1,0 +1,122 @@
+[
+{
+"id": "f45training.com",
+"company": "F45 Training",
+"sector": "NEW Other",
+"country": "United States",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; fitness franchise"
+},
+{
+"id": "onceforall.com",
+"company": "Once For All",
+"sector": "22 SaaS",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; supply chain software"
+},
+{
+"id": "alhilal.com",
+"company": "نادي الهلال السعودي - Al-Hilal Saudi Club",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "Saudi Arabia",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "PIF",
+"triage_note": "real; fit 2; scale mid; Saudi football club"
+},
+{
+"id": "hawesko-holding.com",
+"company": "HAWESKO Holding SE",
+"sector": "22 SaaS",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Tchibo",
+"triage_note": "real; fit 2; scale mid; premium wine merchant"
+},
+{
+"id": "christ-corporate.com",
+"company": "Christ Juweliere und Uhrmacher seit 1863 GmbH",
+"sector": "03 Luxury & Beauty",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; German jewelry retailer"
+},
+{
+"id": "valuence.inc",
+"company": "Valuence Group",
+"sector": "03 Luxury & Beauty",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Japanese luxury resale"
+},
+{
+"id": "tessuti.co.uk",
+"company": "Tessuti",
+"sector": "X06 Retail & E-commerce",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; premium fashion retailer"
+},
+{
+"id": "rothenberger-holding.com",
+"company": "Dr. Helmut Rothenberger Holding GmbH",
+"sector": "23 Machine Tools",
+"country": "Austria",
+"type": "Self Owned",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; plumbing tools maker"
+},
+{
+"id": "tf-mpe.com",
+"company": "Tsuburaya Fields Media & Pictures Entertainment",
+"sector": "29 Tech Media & Gaming",
+"country": "Japan",
+"type": "Partnership",
+"staff": "11-50",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Ultraman IP owner"
+},
+{
+"id": "hymson.com",
+"company": "Hymson",
+"sector": "33 Automation & Robotics",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; laser equipment maker"
+}
+]

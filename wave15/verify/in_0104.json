@@ -1,0 +1,50 @@
+[
+{
+"id": "alternate.de",
+"name": "ALTERNATE",
+"website": "alternate.de",
+"country": "Germany",
+"scale_route": "revenue 500M+",
+"scale_evidence": "group (Alternate + Wave) revenue >EUR 1B FY2020/21",
+"staff_est": "~1,000 (est)",
+"parent": "Shift-IT group (Alternate + Wave)",
+"f1_tie": "none found",
+"sector": "X Consumer Electronics",
+"fit": 3,
+"verdict_guess": "Stretch",
+"note": "Separately branded German PC/electronics e-tailer within Shift-IT group; DE/AT/NL/BE; standalone revenue unpublished.",
+"company": "ALTERNATE"
+},
+{
+"id": "momcozy.com",
+"name": "Momcozy",
+"website": "momcozy.com",
+"country": "United States",
+"scale_route": "revenue 150-500M",
+"scale_evidence": "revenue >CNY 3.5B (~USD 490M) 2024 (Chinese press)",
+"staff_est": "~1,000 (est)",
+"parent": "",
+"f1_tie": "none found",
+"sector": "42 Health & Wellness",
+"fit": 2,
+"verdict_guess": "Stretch",
+"note": "Shenzhen-based wearable breast-pump brand sold globally; 2025 revenue likely above USD 500M; F1 angle weak.",
+"company": "Momcozy"
+},
+{
+"id": "hygie31.com",
+"name": "Hygie31 (Pharmacie Lafayette)",
+"website": "hygie31.com",
+"country": "France",
+"scale_route": "revenue 500M+",
+"scale_evidence": "network sales ~EUR 5B 2025 (2,460 pharmacies, FR/ES/IT)",
+"staff_est": "~2,000 central (est)",
+"parent": "",
+"f1_tie": "none found",
+"sector": "42 Health & Wellness",
+"fit": 2,
+"verdict_guess": "Stretch",
+"note": "Lafayette pharmacy network of independent members; group's own revenue lower than network sales.",
+"company": "Hygie31 (Pharmacie Lafayette)"
+}
+]

@@ -1,0 +1,278 @@
+[
+ {
+  "id": "p:alludo",
+  "company": "Corel",
+  "sector_tab": "22 SaaS",
+  "domain": "corel.com",
+  "hq": "Ottawa, Canada",
+  "ownership": "Private; KKR (acquired 2019 for ~USD 1B) via Cascade Parent Ltd; Alludo name dropped (trademark abandoned Jun 2025)",
+  "sells": "CorelDRAW graphics, Parallels desktop virtualization/RAS, WinZip and other productivity software",
+  "headcount_band": "1,001-5,000 (1,205, 2023)",
+  "revenue": "~USD 350M (aggregator est); screen USD 500M+ unverified",
+  "valuation": "EV ~USD 1B (KKR acquisition 2019, est)",
+  "latest_raise": "",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets: yes; senior B2B/affluent creative pros: partial yes; performance/tech story: no (legacy desktop software); category not crowded: no point awarded (software/cloud-adjacent, est)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route (est)",
+   "scale weakly sourced (2019 EV ~USD 1B)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "No hard-filter failure found (est ~USD 350M revenue / ~USD 1B 2019 EV, ~1.2k staff, no F1 tie found); scale weakly sourced and legacy desktop-software story.",
+  "best_angle": "Parallels (Mac virtualization) is the most F1-compatible brand for a tech-audience activation.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Corel",
+   "https://www.theglobeandmail.com/business/article-kkr-acquires-ottawa-software-firm-corel-from-vector-capital",
+   "https://prospeo.io/c/corel-corporation",
+   "https://www.reveliolabs.com/companies/corel/employees"
+  ]
+ },
+ {
+  "id": "p:lianliandigitech",
+  "company": "LianLian DigiTech",
+  "sector_tab": "09 Fintech",
+  "domain": "lianlian.com",
+  "hq": "Hangzhou, China",
+  "ownership": "Listed (HKEX: 2598); founder-led",
+  "sells": "Cross-border payment, merchant acquiring and value-added services for e-commerce sellers and merchants",
+  "headcount_band": "1,001-5,000 (~1,000+, est)",
+  "revenue": "RMB 1.734B FY2025 (~USD 240M), +31.9%",
+  "valuation": "Market cap ~HK$9.2B (~USD 1.2B, undated, est)",
+  "latest_raise": "",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets (China, Singapore, US, Europe via cross-border network): yes; senior B2B buyers (merchants): yes; global-ambition story: yes; category payments crowded (Amex, Visa, Mastercard, Nuvei): 0",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "market cap figure undated",
+   "China fintech: compliance check advised"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on USD 150-500M revenue route (RMB 1.73B FY2025) and ~USD 1.2B market cap (undated est); no F1 tie found; payments category crowded and cap figure needs confirming.",
+  "best_angle": "Shanghai GP plus global race calendar mirrors its push to serve Chinese sellers going global.",
+  "sources": [
+   "https://en.prnasia.com/releases/apac/lianlian-digitech-announces-2025-annual-results-527121.shtml",
+   "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0326/2026032602638.pdf",
+   "https://www.tipranks.com/stocks/hk:2598/revenue"
+  ]
+ },
+ {
+  "id": "p:kmdbrands",
+  "company": "KMD Brands",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "kmdbrands.com",
+  "hq": "Christchurch, New Zealand / Melbourne, Australia",
+  "ownership": "Listed (NZX/ASX: KMD); widely held",
+  "sells": "Rip Curl surfwear, Kathmandu outdoor apparel, Oboz footwear",
+  "headcount_band": "1,001-5,000 (~2,500, est)",
+  "revenue": "NZ$989.0M FY2025 to Jul-2025 (~USD 590M); 1H FY26 NZ$505.4M (+7.3%)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets (Australia, US, Europe, Japan): yes; affluent active 25-54: yes; performance/tech story: no (lifestyle/outdoor); category not crowded: yes",
+  "up_and_coming": false,
+  "flags": [
+   "FY2025 statutory loss NZ$93.6M",
+   "board strategic review of all options (due ~Sep 2026) - check outcome",
+   "Rip Curl Thailand factory wind-down"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (NZ$989M revenue FY2025, ~2.5k staff, no F1 tie found; review is not insolvency) but weak earnings and an open strategic review make budget uncertain.",
+  "best_angle": "Australian GP lifestyle activation for Rip Curl's action-sports audience.",
+  "sources": [
+   "https://www.ragtrader.com.au/news/kmd-brands-suffers-nz-93-million-loss",
+   "https://www.ragtrader.com.au/news/kmd-board-issues-review-as-turnaround-continues",
+   "https://announcements.asx.com.au/asxpdf/20250924/pdf/06pl3jg8mdfp40.pdf"
+  ]
+ },
+ {
+  "id": "p:mandom",
+  "company": "Mandom Corporation",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "mandom.co.jp",
+  "hq": "Osaka, Japan",
+  "ownership": "Private; management buyout vehicle Kalon Holdings (fund-backed) completed tender offer Feb 2026 (71.69% Mar 2026), squeeze-out/delisting",
+  "sells": "Men's grooming and cosmetics: Gatsby, Lucido, Bifesta, across Japan and Asia",
+  "headcount_band": "1,001-5,000 (~2,500, est)",
+  "revenue": "JPY 76.2B FY to Mar-2025 (~USD 500M), +4.0%",
+  "valuation": "Take-private ~JPY 125.6B purchase (Feb 2026)",
+  "latest_raise": "",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets (Japan, China, Singapore, plus Indonesia): yes; affluent 25-54: no (mass youth grooming); performance story: no; category not crowded: yes",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route (borderline ~USD 500M)",
+   "taken private Feb-Mar 2026 (MBO, fund-backed)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on revenue (~USD 500M, borderline, capped Stretch), ~2.5k staff, no F1 tie found; MBO take-private is an ownership change, not absorption, but new owners' spend priorities unknown.",
+  "best_angle": "Japanese GP at Suzuka and Singapore GP for Gatsby's young-male Asian audience.",
+  "sources": [
+   "https://www.mandom.co.jp/en/ir/pdf/presentation_202503_en.pdf",
+   "https://english.adnkronos.com/2026/02/27/tender-offer-completed-for-japanese-cosmetics-maker-mandom/",
+   "https://www.mandom.co.jp/en/release/pdf/2026032601_en.pdf"
+  ]
+ },
+ {
+  "id": "p:gemmologicalinstitute",
+  "company": "International Gemmological Institute",
+  "sector_tab": "54 TIC",
+  "domain": "igi.org",
+  "hq": "Antwerp, Belgium / Mumbai, India (listed entity)",
+  "ownership": "Listed (NSE/BSE: IGIL, Dec 2024 IPO); Blackstone affiliate promoter 76.6% (Jun 2026)",
+  "sells": "Diamond, lab-grown diamond, gemstone and jewellery grading/certification; gemmology education",
+  "headcount_band": "1,001-5,000 (~1,000+, 2023, est)",
+  "revenue": "INR 638.5 crore 2023 (~USD 77M); grown since (est)",
+  "valuation": "Market cap INR 14,935 crore (~USD 1.7B, Jun 2026)",
+  "latest_raise": "IPO Dec 2024 (INR 4,225 crore incl. OFS)",
+  "fit_score": 4,
+  "fit_detail": "3+ F1 markets (US, Belgium, UAE, Hong Kong/China, Thailand labs): yes; affluent jewellery buyers and senior trade buyers: yes; precision story: yes; category (gem certification) not crowded: yes",
+  "up_and_coming": false,
+  "flags": [
+   "lab-grown diamond price deflation exposure"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes hard filters (market cap ~USD 1.7B Jun 2026, ~1k+ staff, no F1 tie found); strong precision/luxury fit and consumer-facing certificate brand.",
+  "best_angle": "Precision-certification story to build consumer recognition of IGI certificates in US and Gulf jewellery markets.",
+  "sources": [
+   "https://www.kotakneo.com/stocks/international-gemmological-institute-india-share-price/",
+   "https://nationaljeweler.com/articles/11973-blackstone-officially-inks-deal-to-acquire-igi",
+   "https://en.wikipedia.org/wiki/International_Gemological_Institute",
+   "https://www.tipranks.com/stocks/in:igil/statistics"
+  ]
+ },
+ {
+  "id": "p:wagoandkg",
+  "company": "WAGO GmbH & Co. KG",
+  "sector_tab": "45 Electronic Parts",
+  "domain": "wago.com",
+  "hq": "Minden, Germany",
+  "ownership": "Private, family-owned",
+  "sells": "Electrical interconnection (spring-pressure terminal blocks, connectors) and automation technology",
+  "headcount_band": "5,001-10,000 (~9,000, 2025)",
+  "revenue": "EUR 1.34B 2025 (+8%)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 4,
+  "fit_detail": "3+ F1 markets: yes (global); senior B2B engineering buyers: yes; precision/technology story: yes; category not crowded: yes",
+  "up_and_coming": false,
+  "flags": [],
+  "verdict": "Yes",
+  "verdict_reason": "Passes hard filters (EUR 1.34B revenue 2025, ~9k staff, no F1 tie found); global precision-engineering brand with growth and established sports sponsorship (regional).",
+  "best_angle": "Precision-connection technology story for global electrical and automation engineers, amplified by F1's engineering audience.",
+  "sources": [
+   "https://www.wago.com/de/wago-mit-umsatzplus-im-jubilaeumsjahr",
+   "https://www.wago.com/de/daten-fakten",
+   "https://www.ibau.de/services-und-leistungen/firmenverzeichnis/wago-gmbh-co-kg/"
+  ]
+ },
+ {
+  "id": "p:74software",
+  "company": "74Software",
+  "sector_tab": "08 Devtools & Integration",
+  "domain": "74software.com",
+  "hq": "Paris, France",
+  "ownership": "Listed (Euronext Paris: 74SW); Sopra GMT anchor shareholder",
+  "sells": "Axway API management/MFT/B2B integration and SBS banking software",
+  "headcount_band": "1,001-5,000 (~4,571, est)",
+  "revenue": "EUR 707.2M 2025 (+3.8% organic)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets (France/Europe, US, UK, Middle East): yes; senior B2B buyers (bank and enterprise CIOs): yes; tech story: yes; category: banking-software adjacent to crowded banking/cloud (est 0)",
+  "up_and_coming": false,
+  "flags": [
+   "new group brand (2024-25) after Axway-SBS combination"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes hard filters (EUR 707M revenue 2025, ~4.5k staff, no F1 tie found); fit 3 and a fresh corporate brand with motive to build awareness among enterprise and bank buyers.",
+  "best_angle": "Newly formed 74Software needs brand awareness; F1 hospitality with bank and enterprise CIOs supports its 2028 growth plan.",
+  "sources": [
+   "https://www.axway.com/en/company/media/2026/press-release-74software-guidance-increased-operational-discipline-drives-0",
+   "https://pitchbook.com/profiles/company/51204-70",
+   "https://www.businesswire.com/news/home/20240902158252/en/Axway-Completes-Acquisition-of-Sopra-Banking-Software"
+  ]
+ },
+ {
+  "id": "p:pathe",
+  "company": "Pathé SA",
+  "sector_tab": "X Other",
+  "domain": "pathe.com",
+  "hq": "Paris, France",
+  "ownership": "Private; Seydoux family control, Saadé family (Merit) 20%",
+  "sells": "Cinema exhibition (France, Netherlands, Belgium, Switzerland, Tunisia) and film production/distribution",
+  "headcount_band": "1,001-5,000 (2,655, 2025)",
+  "revenue": "EUR 808M 2025 (-6%)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 1,
+  "fit_detail": "3+ F1 markets: no (Netherlands, Belgium only among GP hosts); affluent 25-54: no (mass cinema audience); performance story: no; category not crowded: yes",
+  "up_and_coming": false,
+  "flags": [
+   "minority holder Saadé/Merit (CMA CGM owners) - no F1 tie found for CMA CGM"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes hard filters (EUR 808M revenue 2025, 2,655 staff, no F1 tie found) but fit 1: Benelux/France cinema chain with mass audience.",
+  "best_angle": "",
+  "sources": [
+   "https://ethica.ethifinance.com/media/public/rating-report/29e0d524-3715-4f66-bc8b-c0b774517940",
+   "https://medias24.com/agence-presse/rodolphe-saade-sinvite-au-capital-des-cinemas-pathe/"
+  ]
+ },
+ {
+  "id": "p:ariston",
+  "company": "Ariston Group",
+  "sector_tab": "49 Home & Living",
+  "domain": "aristongroup.com",
+  "hq": "Fabriano, Italy (Ariston Holding N.V., Amsterdam)",
+  "ownership": "Listed (Euronext Milan: ARIS); Merloni family controlling via Merloni Holding",
+  "sells": "Water heaters, boilers, heat pumps and burners (Ariston, Elco, Chaffoteaux, Atag, Calorex)",
+  "headcount_band": "10,001+ (10,830, 2025)",
+  "revenue": "EUR 2,707M 2025 (+3.0% organic)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets (Italy, Mexico, China, UK etc.): yes; affluent homeowners 25-54/installers: yes; performance/tech story: no (efficiency/comfort); category not crowded: yes",
+  "up_and_coming": false,
+  "flags": [],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (EUR 2.7B revenue 2025, ~10.8k staff, no F1 tie found); fit 3 but heating appliances story does not map to performance.",
+  "best_angle": "Heat-pump efficiency/sustainability story at the Italian races (Monza/Imola) and Mexico City, where Ariston is a market leader.",
+  "sources": [
+   "https://www.aristongroup.com/content/dam/aristoninvestors/documents/press-releases/20260303%20PR%20-%20Ariston%20FY%202025%20Results_EN%20.pdf",
+   "https://www.aristongroup.com/content/dam/aristongroup/downloads/corporate-publications/Ariston%20Group_Company%20Report%202025.pdf",
+   "https://www.afm.nl/en/sector/registers/meldingenregisters/substantiele-deelnemingen/details?id=121379"
+  ]
+ },
+ {
+  "id": "prodrive.com",
+  "company": "Prodrive",
+  "sector_tab": "43 Mobility & Automotive",
+  "domain": "prodrive.com",
+  "hq": "Banbury, United Kingdom",
+  "ownership": "Private; David Richards-led (founder), with investor shareholders",
+  "sells": "Motorsport engineering and team operation (Dakar, rally), advanced composites and technology engineering",
+  "headcount_band": "501-1,000 (~550, est)",
+  "revenue": "~GBP 125M (~USD 160M), latest filed (screen est, unverified)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets (UK, Middle East, Australia): yes; senior B2B engineering buyers: yes; performance story: yes but it is itself a motorsport supplier; category automotive/motorsport crowded: 0 (est)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue unverified - confirm Companies House filing",
+   "lapsed Aston Martin Racing WEC programme (not F1)",
+   "historic F1 involvement (BAR, Benetton); confirm no current F1 supply"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Borderline pass on USD 150-500M revenue route (~GBP 125M est, unverified), ~550 staff, no current F1 tie found; motorsport supplier with little reason to buy F1 sponsorship.",
+  "best_angle": "",
+  "sources": [
+   "https://en.wikipedia.com/wiki/Prodrive",
+   "https://www.motorauthority.com/news/1027564_prodrive-to-reveal-f1-plans-at-british-gp-confirms-no-aston-martin-f1-team-for-now",
+   "https://www.birminghampost.co.uk/business/finance/grant-thorton-to-advise-prodrive-10381761"
+  ]
+ }
+]

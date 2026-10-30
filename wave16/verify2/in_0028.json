@@ -1,0 +1,122 @@
+[
+{
+"id": "azo.com",
+"company": "AZO GmbH + Co. KG",
+"sector": "33 Automation & Robotics",
+"country": "Germany",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Bulk handling automation"
+},
+{
+"id": "katten.com",
+"company": "Katten Muchin Rosenman LLP",
+"sector": "50 Law Firms & Legal AI",
+"country": "United States",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; US law firm"
+},
+{
+"id": "walbro.com",
+"company": "Walbro LLC",
+"sector": "23 Machine Tools",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Fuel systems for engines"
+},
+{
+"id": "wcsr.com",
+"company": "Womble Carlyle Sandridge & Rice, LLP",
+"sector": "50 Law Firms & Legal AI",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; US law firm"
+},
+{
+"id": "tecovas.com",
+"company": "Tecovas",
+"sector": "53 Consumer & Lifestyle",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; US western boots brand"
+},
+{
+"id": "motorpal.cz",
+"company": "Motorpal",
+"sector": "23 Machine Tools",
+"country": "Czechia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; injection pumps maker"
+},
+{
+"id": "doduco.net",
+"company": "DODUCO Group",
+"sector": "45 Electronic Parts",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; electrical contacts"
+},
+{
+"id": "euro-composites.com",
+"company": "EURO-COMPOSITES-GROUP",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "Luxembourg",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; aerospace composites"
+},
+{
+"id": "mps-muehlbauer.com",
+"company": "Mühlbauer Parts & Systems",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; smartcard equipment"
+},
+{
+"id": "foster-electric.com",
+"company": "Foster Electric",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; speakers and audio parts"
+}
+]

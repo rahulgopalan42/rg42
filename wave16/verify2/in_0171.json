@@ -1,0 +1,122 @@
+[
+{
+"id": "aristocrazy.com",
+"company": "Aristocrazy",
+"sector": "03 Luxury & Beauty",
+"country": "Spain",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Spanish jewellery brand"
+},
+{
+"id": "queclink.com",
+"company": "Queclink Wireless Solutions",
+"sector": "48 Telecom & Space",
+"country": "China",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; IoT telematics"
+},
+{
+"id": "sinocomms.com",
+"company": "Sinocomms Technologies",
+"sector": "48 Telecom & Space",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; optical fibre components"
+},
+{
+"id": "netcore.ai",
+"company": "Netcore",
+"sector": "22 SaaS",
+"country": "India",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; martech platform"
+},
+{
+"id": "heroesports.com",
+"company": "Hero Esports",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Asian esports"
+},
+{
+"id": "turksat.com.tr",
+"company": "Türksat Uydu Haberleşme Kablo TV ve İşletme A.Ş.",
+"sector": "48 Telecom & Space",
+"country": "Turkey",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; satellite operator"
+},
+{
+"id": "directi.com",
+"company": "Directi",
+"sector": "22 SaaS",
+"country": "India",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; domains and web tech"
+},
+{
+"id": "granado.com.br",
+"company": "Granado Pharmácias | Perfumaria Phebo",
+"sector": "03 Luxury & Beauty",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Brazilian heritage perfumer"
+},
+{
+"id": "kontrolmatik.com",
+"company": "Kontrolmatik Technologies",
+"sector": "22 SaaS",
+"country": "Turkey",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; energy and control tech"
+},
+{
+"id": "kaschke.de",
+"company": "Kaschke Components GmbH",
+"sector": "45 Electronic Parts",
+"country": "Germany",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; electromagnetic components"
+}
+]

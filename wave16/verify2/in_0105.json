@@ -1,0 +1,122 @@
+[
+{
+"id": "medallia.com",
+"company": "Medallia",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Thoma Bravo",
+"triage_note": "real; fit 3; scale large; experience management SaaS"
+},
+{
+"id": "mlse.com",
+"company": "MLSE (Maple Leaf Sports & Entertainment Partnership)",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "Canada",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Rogers",
+"triage_note": "real; fit 3; scale large; Toronto sports franchises"
+},
+{
+"id": "ulalaunch.com",
+"company": "United Launch Alliance (ULA)",
+"sector": "32 Defense & Industrial AI",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Boeing and Lockheed JV",
+"triage_note": "real; fit 3; scale large; launch services"
+},
+{
+"id": "1password.com",
+"company": "1Password",
+"sector": "14 Cyber + IT",
+"country": "Canada",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; password manager"
+},
+{
+"id": "vistajet.com",
+"company": "VistaJet",
+"sector": "16 Travel & Hospitality",
+"country": "Malta",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Vista Global",
+"triage_note": "real; fit 3; scale large; private jet operator"
+},
+{
+"id": "g42.ai",
+"company": "G42",
+"sector": "25 IT Services & Consulting",
+"country": "United Arab Emirates",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; UAE AI company"
+},
+{
+"id": "masimo.com",
+"company": "Masimo",
+"sector": "NEW Medtech & Healthcare Services",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Danaher",
+"triage_note": "real; fit 3; scale large; patient monitoring tech"
+},
+{
+"id": "cwan.com",
+"company": "Clearwater Analytics",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; investment analytics SaaS"
+},
+{
+"id": "stubhub.com",
+"company": "StubHub",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Viagogo",
+"triage_note": "real; fit 3; scale large; ticket marketplace"
+},
+{
+"id": "ninjaone.com",
+"company": "NinjaOne",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; IT management software"
+}
+]

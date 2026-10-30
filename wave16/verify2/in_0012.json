@@ -1,0 +1,122 @@
+[
+{
+"id": "octave.com",
+"company": "Intergraph",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Hexagon",
+"triage_note": "real; fit 3; scale large; spun-out industrial software"
+},
+{
+"id": "bandainamco.co.jp",
+"company": "Namco Bandai Holdings Inc.",
+"sector": "29 Tech Media & Gaming",
+"country": "Japan",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; gaming and toys group"
+},
+{
+"id": "airfranceklm.com",
+"company": "Air France-KLM",
+"sector": "16 Travel & Hospitality",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; European airline group"
+},
+{
+"id": "sandschina.com",
+"company": "Sands China",
+"sector": "16 Travel & Hospitality",
+"country": "Macao",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Las Vegas Sands Corp",
+"triage_note": "real; fit 3; scale large; Macau integrated resorts operator"
+},
+{
+"id": "steelcase.com",
+"company": "Steelcase",
+"sector": "49 Home & Living",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "HNI Corporation",
+"triage_note": "real; fit 3; scale large; office furniture maker"
+},
+{
+"id": "spiritaero.com",
+"company": "Spirit AeroSystems",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Boeing",
+"triage_note": "real; fit 3; scale large; aerostructures maker"
+},
+{
+"id": "hp.com",
+"company": "HP",
+"sector": "25 IT Services & Consulting",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; PCs and printers"
+},
+{
+"id": "americamovil.com",
+"company": "América Móvil",
+"sector": "48 Telecom & Space",
+"country": "Mexico",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Verizon",
+"triage_note": "real; fit 3; scale large; LatAm telecom giant"
+},
+{
+"id": "yokogawa.co.jp",
+"company": "横河電機",
+"sector": "25 IT Services & Consulting",
+"country": "Japan",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; process automation giant"
+},
+{
+"id": "smartsheet.com",
+"company": "Smartsheet",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Blackstone",
+"triage_note": "real; fit 3; scale large; work management software"
+}
+]

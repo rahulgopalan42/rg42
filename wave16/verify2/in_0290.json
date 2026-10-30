@@ -1,0 +1,122 @@
+[
+{
+"id": "micronova.de",
+"company": "MicroNova",
+"sector": "22 SaaS",
+"country": "Germany",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; automotive test software"
+},
+{
+"id": "deag.de",
+"company": "DEAG Deutsche Entertainment AG",
+"sector": "29 Tech Media & Gaming",
+"country": "Germany",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; live entertainment"
+},
+{
+"id": "erosmediaworld.com",
+"company": "Eros Media World PLC",
+"sector": "29 Tech Media & Gaming",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Bollywood media"
+},
+{
+"id": "gotokeep.com",
+"company": "Keep",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; fitness app"
+},
+{
+"id": "pi-ag.com",
+"company": "P&I Personal & Informatik AG",
+"sector": "22 SaaS",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; HR software"
+},
+{
+"id": "uco.com",
+"company": "eBeauty holdings (Cayman) Ltd.",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; China beauty e-commerce"
+},
+{
+"id": "zhaolong.com.cn",
+"company": "[Official] Zhejiang Zhaolong Interconnect Technology Co., Ltd.",
+"sector": "48 Telecom & Space",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "China Communication Standardization Association",
+"triage_note": "real; fit 1; scale mid; data cable maker"
+},
+{
+"id": "xcxd.com",
+"company": "Chanseen eCommerce (XCXD Technology)",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; China e-commerce services"
+},
+{
+"id": "11stcorp.com",
+"company": "11번가 (11STREET)",
+"sector": "22 SaaS",
+"country": "South Korea",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "SK Square",
+"triage_note": "real; fit 1; scale mid; Korean marketplace"
+},
+{
+"id": "leqee.com",
+"company": "乐其集团 Leqee",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; China CRM/e-commerce"
+}
+]

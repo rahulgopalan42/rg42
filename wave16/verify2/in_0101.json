@@ -1,0 +1,122 @@
+[
+{
+"id": "nfl.com",
+"company": "National Football League (NFL)",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale large; US football league"
+},
+{
+"id": "condenast.com",
+"company": "Condé Nast",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Advance Publications",
+"triage_note": "real; fit 4; scale large; global luxury media"
+},
+{
+"id": "haascnc.com",
+"company": "Haas Automation, Inc.",
+"sector": "33 Automation & Robotics",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale large; CNC machine tools"
+},
+{
+"id": "yeti.com",
+"company": "YETI",
+"sector": "NEW Other",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale large; premium outdoor products"
+},
+{
+"id": "azimutyachts.com",
+"company": "Azimut Yachts",
+"sector": "X09 Maritime, Shipping & Ports",
+"country": "Italia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale large; luxury yacht builder"
+},
+{
+"id": "rh.com",
+"company": "RH",
+"sector": "NEW Other",
+"country": "United States",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale large; luxury home furnishings"
+},
+{
+"id": "libertymedia.com",
+"company": "Liberty Media",
+"sector": "NEW Other",
+"country": "United States",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale large; owns Formula One"
+},
+{
+"id": "hiwin.tw",
+"company": "HIWIN Headquarters",
+"sector": "23 Machine Tools",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale large; linear guideways"
+},
+{
+"id": "imc-companies.com",
+"company": "IMC",
+"sector": "07 Marketing & Sales",
+"country": "Israel",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Berkshire Hathaway",
+"triage_note": "real; fit 4; scale large; metal cutting tools Iscar group"
+},
+{
+"id": "envisioncn.com",
+"company": "远景科技集团",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale large; Chinese wind energy group"
+}
+]

@@ -1,0 +1,122 @@
+[
+{
+"id": "aymholding.com",
+"company": "AYM Holding",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "Türkiye",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Holding",
+"triage_note": "real; fit 1; scale mid; Turkish diversified trading holding"
+},
+{
+"id": "maximawatches.com",
+"company": "Maxima Watches",
+"sector": "53 Consumer & Lifestyle",
+"country": "India",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "P A Time Industries",
+"triage_note": "real; fit 1; scale mid; Indian watch brand; watches crowded"
+},
+{
+"id": "teleplan.com",
+"company": "Teleplan International",
+"sector": "25 IT Services & Consulting",
+"country": "Netherlands",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Technology lifecycle repair services"
+},
+{
+"id": "sass.com.sg",
+"company": "Singapore Aero Support Services Pte Ltd",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "Singapore",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Changi aircraft cabin maintenance services"
+},
+{
+"id": "jwellpm.com",
+"company": "JWELL",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese plastic extrusion machinery maker"
+},
+{
+"id": "colombinigroupcontract.com",
+"company": "Colombini Group Contract",
+"sector": "49 Home & Living",
+"country": "San Marino",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Italian contract furniture manufacturer"
+},
+{
+"id": "sword-cn.com",
+"company": "Sword Elevator",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese elevator manufacturer"
+},
+{
+"id": "synotgroup.com",
+"company": "SYNOT Group",
+"sector": "NEW Gambling & Lotteries",
+"country": "Czechia",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Czech gaming and gambling group"
+},
+{
+"id": "ricongroup.eu",
+"company": "Ricon Group",
+"sector": "53 Consumer & Lifestyle",
+"country": "Portugal",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Portuguese fashion and footwear group"
+},
+{
+"id": "alrabbanholding.com",
+"company": "Al Rabban Holding Company",
+"sector": "53 Consumer & Lifestyle",
+"country": "Qatar",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Qatari diversified holding group"
+}
+]

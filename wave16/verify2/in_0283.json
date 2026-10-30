@@ -1,0 +1,122 @@
+[
+{
+"id": "hjtc.com.cn",
+"company": "和舰芯片制造(苏州)股份有限公司",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "UMC",
+"triage_note": "real; fit 1; scale mid; Suzhou 8-inch wafer foundry"
+},
+{
+"id": "faw-tokico.com",
+"company": "一汽东机工减振器有限公司 FAW-Tokico Shock Absorber Co.,Ltd.",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "FAW Group",
+"triage_note": "real; fit 1; scale mid; Shock absorber JV with Hitachi"
+},
+{
+"id": "jpond.cn",
+"company": "捷邦精密科技股份有限公司",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese precision parts maker"
+},
+{
+"id": "dongweilawyer.com",
+"company": "Beijing Dongwei (Shenzhen)Law Firm",
+"sector": "50 Law Firms & Legal AI",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese full-service law firm"
+},
+{
+"id": "krb.co.kr",
+"company": "Kiturami Boiler Co., Ltd.",
+"sector": "23 Machine Tools",
+"country": "South Korea",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Korean boiler maker"
+},
+{
+"id": "hermes.com.tw",
+"company": "Hermes-Epitek Corp.",
+"sector": "27 Chip Makers",
+"country": "Taiwan",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Taiwanese semiconductor equipment supplier"
+},
+{
+"id": "setfuse.com",
+"company": "厦门赛尔特电子有限公司",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese circuit protection maker"
+},
+{
+"id": "colossusgroup.com",
+"company": "Dandong Colossus Group Co., Ltd.",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese mechanical seals maker"
+},
+{
+"id": "premjee.com",
+"company": "GP Group",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "Thailand",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Thai strategic investment group"
+},
+{
+"id": "cqteq.com",
+"company": "C&Q Technology (Guangzhou) Co., Ltd",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "C&Q Group",
+"triage_note": "real; fit 1; scale mid; Chinese electronics component maker"
+}
+]

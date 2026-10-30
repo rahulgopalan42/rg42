@@ -1,0 +1,122 @@
+[
+{
+"id": "",
+"company": "Bona International Film Group",
+"sector": "29 Tech Media & Gaming",
+"country": "China",
+"type": "Privately Held",
+"staff": "51-200",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese film studio group"
+},
+{
+"id": "goldentec.com",
+"company": "深圳高灯计算机科技有限公司",
+"sector": "25 IT Services & Consulting",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Tencent",
+"triage_note": "real; fit 1; scale mid; Chinese e-invoice tech company"
+},
+{
+"id": "cionlli.com.tw",
+"company": "Cionlli Ind. Co., Ltd.",
+"sector": "53 Consumer & Lifestyle",
+"country": "Taiwan",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Taiwanese bicycle components maker"
+},
+{
+"id": "sphic.org.cn",
+"company": "Shanghai Proton and Heavy Ion Center",
+"sector": "42 Health & Wellness",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese proton therapy centre"
+},
+{
+"id": "rimc.de",
+"company": "RIMC International Hotels & Resorts",
+"sector": "16 Travel & Hospitality",
+"country": "Germany",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Hamburg based hotel and resort group"
+},
+{
+"id": "xmcwh.com",
+"company": "XMC (World Class Semiconductor Manufacturing Company)",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Yangtze Memory",
+"triage_note": "real; fit 1; scale mid; Wuhan semiconductor foundry"
+},
+{
+"id": "sunrisedutyfree.com",
+"company": "日上免税行(中国)有限公司",
+"sector": "X06 Retail & E-commerce",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Beijing airport duty free operator"
+},
+{
+"id": "ghzy.com.hk",
+"company": "湖南光合作用商贸有限公司",
+"sector": "X06 Retail & E-commerce",
+"country": "Hong Kong",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese eyewear brands group"
+},
+{
+"id": "aorelaser.com",
+"company": "AORE GROUP",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese laser equipment maker"
+},
+{
+"id": "sgla.com",
+"company": "SGLA Law Firm",
+"sector": "50 Law Firms & Legal AI",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese full-service law firm"
+}
+]

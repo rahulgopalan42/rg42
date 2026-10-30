@@ -1,0 +1,122 @@
+[
+{
+"id": "dicabs.com",
+"company": "DICABS-Diamond Power Infrastructure Limited",
+"sector": "45 Electronic Parts",
+"country": "India",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; power cables/EPC"
+},
+{
+"id": "isoplus.group",
+"company": "ISOPLUS Group",
+"sector": "27 Chip Makers",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; pre-insulated pipes"
+},
+{
+"id": "ifbappliances.com",
+"company": "IFB Appliances",
+"sector": "53 Consumer & Lifestyle",
+"country": "India",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "IFB Industries",
+"triage_note": "real; fit 1; scale mid; Indian appliances"
+},
+{
+"id": "christ-ag.com",
+"company": "Christ-Wash-Systems",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; industrial wash systems"
+},
+{
+"id": "hanza.com",
+"company": "HANZA Group",
+"sector": "23 Machine Tools",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; contract manufacturing group"
+},
+{
+"id": "roshowgroup.com",
+"company": "露笑集团有限公司",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; magnet wire, motors"
+},
+{
+"id": "everest.com.tw",
+"company": "EVEREST TEXTILE CO., LTD.",
+"sector": "53 Consumer & Lifestyle",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; textile manufacturer"
+},
+{
+"id": "wanekcareer.com",
+"company": "Wanek Furniture",
+"sector": "49 Home & Living",
+"country": "Vietnam",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Ashley Furniture Industries",
+"triage_note": "real; fit 1; scale mid; furniture maker"
+},
+{
+"id": "medicalkingfa.com",
+"company": "KINGFA MEDICAL",
+"sector": "42 Health & Wellness",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; medical consumables"
+},
+{
+"id": "revo-hospitality-group.com",
+"company": "Revo Hospitality Group",
+"sector": "16 Travel & Hospitality",
+"country": "Germany",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; hotel operator"
+}
+]

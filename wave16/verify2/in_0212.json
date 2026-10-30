@@ -1,0 +1,122 @@
+[
+{
+"id": "paralloy.co.uk",
+"company": "Paralloy Group Limited",
+"sector": "23 Machine Tools",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; alloy castings"
+},
+{
+"id": "green-transfo.com",
+"company": "Green Transfo SAS",
+"sector": "44 Grid & Transformers",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; transformer maker"
+},
+{
+"id": "magasin.dk",
+"company": "Magasin du Nord",
+"sector": "X06 Retail & E-commerce",
+"country": "Denmark",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Danish department stores"
+},
+{
+"id": "pyrenees.ad",
+"company": "Grup Pyrénées Andorra",
+"sector": "X06 Retail & E-commerce",
+"country": "Andorra",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Andorran retail group"
+},
+{
+"id": "exkalsa.com",
+"company": "EXKAL S.A.",
+"sector": "23 Machine Tools",
+"country": "Spain",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; commercial refrigeration"
+},
+{
+"id": "intersport.gr",
+"company": "INTERSPORT Athletics S.A.",
+"sector": "X06 Retail & E-commerce",
+"country": "Greece",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Fourlis Group",
+"triage_note": "real; fit 1; scale mid; Greek sports retailer"
+},
+{
+"id": "nordicleisuretravelgroup.com",
+"company": "Nordic Leisure Travel Group AB",
+"sector": "16 Travel & Hospitality",
+"country": "Sweden",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Nordic holiday operator"
+},
+{
+"id": "harcourtdev.com",
+"company": "Harcourt Developments",
+"sector": "X02 Real Estate & Building Products",
+"country": "Ireland",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Irish property developer"
+},
+{
+"id": "eltekgroup.com",
+"company": "ELTEK Group",
+"sector": "45 Electronic Parts",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; electronics maker"
+},
+{
+"id": "kinex.sk",
+"company": "KINEX BEARINGS",
+"sector": "23 Machine Tools",
+"country": "Slovakia",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; rolling bearings"
+}
+]

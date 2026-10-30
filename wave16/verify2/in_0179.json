@@ -1,0 +1,122 @@
+[
+{
+"id": "ic.com.tr",
+"company": "IC HOLDİNG",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "Turkey",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Turkish conglomerate"
+},
+{
+"id": "wheelockcompany.com",
+"company": "Wheelock and Company Limited",
+"sector": "X02 Real Estate & Building Products",
+"country": "Hong Kong",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Hong Kong property group"
+},
+{
+"id": "orioncarbons.com",
+"company": "Orion S.A.",
+"sector": "21 Materials & Mech Parts",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; carbon black producer"
+},
+{
+"id": "skchemicals.com",
+"company": "SK chemicals",
+"sector": "21 Materials & Mech Parts",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "SK Discovery",
+"triage_note": "real; fit 1; scale large; Korean chemicals"
+},
+{
+"id": "orionpharma.com",
+"company": "Orion Pharma",
+"sector": "NEW Pharma & Biotech",
+"country": "Finland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Finnish pharma"
+},
+{
+"id": "tradeweb.com",
+"company": "Tradeweb",
+"sector": "01 Banking & Insurance",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; electronic trading platforms"
+},
+{
+"id": "ctci.com",
+"company": "CTCI",
+"sector": "39 Construction & Field Svc",
+"country": "台灣",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; engineering contractor"
+},
+{
+"id": "dongyuechem.com",
+"company": "DongyueChemical",
+"sector": "21 Materials & Mech Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; fluorochemicals producer"
+},
+{
+"id": "inbursa.com",
+"company": "GF Inbursa",
+"sector": "01 Banking & Insurance",
+"country": "Mexico",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Grupo Carso",
+"triage_note": "real; fit 1; scale large; Mexican financial group"
+},
+{
+"id": "artisanpartners.com",
+"company": "Artisan Partners",
+"sector": "01 Banking & Insurance",
+"country": "United States",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; asset manager"
+}
+]

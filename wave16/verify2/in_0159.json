@@ -1,0 +1,122 @@
+[
+{
+"id": "otto-junker.com",
+"company": "OTTO JUNKER GmbH",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; industrial furnaces"
+},
+{
+"id": "kampf.de",
+"company": "Kampf GmbH",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Jagenberg",
+"triage_note": "real; fit 2; scale mid; slitting and winding"
+},
+{
+"id": "ibs-ppg.com",
+"company": "IBS Paper Performance Group",
+"sector": "23 Machine Tools",
+"country": "Austria",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; paper machine optimisation"
+},
+{
+"id": "schleuniger.com",
+"company": "Schleuniger Global",
+"sector": "23 Machine Tools",
+"country": "Schweiz",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; wire processing machines"
+},
+{
+"id": "schleifring.de",
+"company": "Schleifring GmbH",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; slip rings"
+},
+{
+"id": "battenfeld-cincinnati.com",
+"company": "battenfeld-cincinnati",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; extrusion technology"
+},
+{
+"id": "waldrich-coburg.de",
+"company": "WALDRICH COBURG",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; heavy machine tools"
+},
+{
+"id": "ohaus.com",
+"company": "OHAUS Corporation",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; weighing instruments"
+},
+{
+"id": "sscspace.com",
+"company": "SSC Space",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Swedish State",
+"triage_note": "real; fit 2; scale mid; space services"
+},
+{
+"id": "envea.global",
+"company": "ENVEA Global",
+"sector": "23 Machine Tools",
+"country": "France",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; environmental monitoring"
+}
+]

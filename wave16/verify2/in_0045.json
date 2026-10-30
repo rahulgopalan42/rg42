@@ -1,0 +1,122 @@
+[
+{
+"id": "robinsonsland.com",
+"company": "Robinsons Land Corporation",
+"sector": "X02 Real Estate & Building Products",
+"country": "Philippines",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "JG Summit Holdings",
+"triage_note": "real; fit 1; scale large; Philippine developer"
+},
+{
+"id": "sh-liangxin.com",
+"company": "Shanghai Liangxin Electrical Co., Ltd.",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; low-voltage electrical"
+},
+{
+"id": "mideadc.com",
+"company": "美的置业集团有限公司",
+"sector": "X02 Real Estate & Building Products",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Midea-linked developer"
+},
+{
+"id": "poscodx.com",
+"company": "POSCO DX",
+"sector": "25 IT Services & Consulting",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "POSCO Holdings",
+"triage_note": "real; fit 1; scale large; industrial IT and automation"
+},
+{
+"id": "tataplay.com",
+"company": "Tata Sky Ltd",
+"sector": "29 Tech Media & Gaming",
+"country": "India",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Tata Group",
+"triage_note": "real; fit 1; scale large; Tata Play satellite TV"
+},
+{
+"id": "alahliholdinggroup.com",
+"company": "Al Ahli Holding Group",
+"sector": "29 Tech Media & Gaming",
+"country": "United Arab Emirates",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Kuwaiti conglomerate"
+},
+{
+"id": "themegaworldlifestyle.com",
+"company": "Megaworld Hub",
+"sector": "X02 Real Estate & Building Products",
+"country": "Philippines",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Alliance Global",
+"triage_note": "real; fit 1; scale large; Philippine developer"
+},
+{
+"id": "pohladcompanies.com",
+"company": "Pohlad Companies",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Family conglomerate"
+},
+{
+"id": "gentingsingapore.com",
+"company": "Genting Singapore Limited",
+"sector": "16 Travel & Hospitality",
+"country": "Singapore",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Genting Berhad",
+"triage_note": "real; fit 1; scale large; Singapore resort"
+},
+{
+"id": "bianlifeng.com",
+"company": "便利蜂",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Self Owned",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Chinese convenience stores"
+}
+]

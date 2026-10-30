@@ -1,0 +1,122 @@
+[
+{
+"id": "palacenet.com",
+"company": "Palace Sports & Entertainment",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Platinum Equity",
+"triage_note": "real; fit 1; scale mid; Pistons owner entity"
+},
+{
+"id": "sew.ai",
+"company": "Smart Energy Water",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; energy/water SaaS"
+},
+{
+"id": "americandream.com",
+"company": "American Dream",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Triple Five Group",
+"triage_note": "real; fit 1; scale mid; mall and entertainment complex"
+},
+{
+"id": "schumacherelectric.com",
+"company": "Schumacher Electric Corporation",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Battery chargers maker"
+},
+{
+"id": "e-elitech.com",
+"company": "ELITECH",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Temperature monitoring maker"
+},
+{
+"id": "plicards.com",
+"company": "PLI Card Marketing Solutions",
+"sector": "09 Fintech",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Card marketing solutions"
+},
+{
+"id": "hughston.com",
+"company": "Hughston",
+"sector": "42 Health & Wellness",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Sports orthopaedic clinic"
+},
+{
+"id": "jasoninc.com",
+"company": "Jason Group Inc",
+"sector": "23 Machine Tools",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Diversified manufacturer"
+},
+{
+"id": "thompsonpowersystems.com",
+"company": "Thompson Power Systems",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Power generation dealer"
+},
+{
+"id": "ecore.com",
+"company": "Groupe Ecore",
+"sector": "27 Chip Makers",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; French recycling group"
+}
+]

@@ -1,0 +1,122 @@
+[
+{
+"id": "technotrans.com",
+"company": "technotrans",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; fluid management technology"
+},
+{
+"id": "starboardretailgroup.com",
+"company": "Starboard",
+"sector": "X06 Retail & E-commerce",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; cruise duty-free retail"
+},
+{
+"id": "mpac-group.com",
+"company": "Mpac Group",
+"sector": "33 Automation & Robotics",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; packaging automation"
+},
+{
+"id": "inari-amertron.com",
+"company": "Inari Amertron Berhad",
+"sector": "27 Chip Makers",
+"country": "Malaysia",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; semiconductor test packaging"
+},
+{
+"id": "chunxing-group.com",
+"company": "Suzhou Chunxing Precision Mechanical Co., Ltd.",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; precision mechanical parts"
+},
+{
+"id": "ivu.com",
+"company": "IVU Traffic Technologies",
+"sector": "25 IT Services & Consulting",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; transit software"
+},
+{
+"id": "globalbrandsgroup.com",
+"company": "Global Brands Group (Member of Fung Group)",
+"sector": "53 Consumer & Lifestyle",
+"country": "Hong Kong",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Fung Group",
+"triage_note": "real; fit 2; scale mid; brand licensing"
+},
+{
+"id": "smk.co.jp",
+"company": "SMK Corporation",
+"sector": "45 Electronic Parts",
+"country": "Japan",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; electronic connectors"
+},
+{
+"id": "kersentech.com",
+"company": "Kunshan Kersen Science & Technology Co., Ltd.",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; precision components"
+},
+{
+"id": "unisemgroup.com",
+"company": "Unisem",
+"sector": "27 Chip Makers",
+"country": "Malaysia",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Huatian Technology",
+"triage_note": "real; fit 2; scale mid; chip packaging OSAT"
+}
+]

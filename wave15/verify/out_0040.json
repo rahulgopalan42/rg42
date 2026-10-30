@@ -1,0 +1,291 @@
+[
+ {
+  "id": "veka.de",
+  "company": "VEKA AG",
+  "sector_tab": "21 Materials & Mech Parts",
+  "domain": "veka.de",
+  "hq": "Sendenhorst, Germany",
+  "ownership": "Private, family-owned (Laumann/Hartleif families)",
+  "sells": "PVC window and door profile systems to fabricators/builders; ~54 sites worldwide (Europe, Americas, Asia)",
+  "headcount_band": "5,001-10,000 (group ~6,000-7,000, 2025-26 company/careers pages; VEKA AG alone ~2,200)",
+  "revenue": "~EUR 1.5B group (company careers statement, undated ~2024-25, est)",
+  "valuation": "unknown (private)",
+  "latest_raise": "none (family-owned)",
+  "fit_score": 2,
+  "fit_detail": "sells in 3+ F1 markets (1); B2B buyers are fabricators/builders, not senior affluent decision-makers (0); building-profile story weak on performance/tech (0); window systems not crowded on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "B2B building products",
+   "group revenue figure undated (est)"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes all hard filters (revenue ~EUR 1.5B, ~6-7k staff, no F1 tie found) but B2B building-products supplier with little brand ambition for a global F1 audience.",
+  "best_angle": "",
+  "sources": [
+   "https://www.veka.de/company/board-of-directors/",
+   "https://www.reveliolabs.com/companies/veka-ag/employees/",
+   "https://implisense.com/en/companies/veka-ag-sendenhorst-DEWLV5SWI100"
+  ]
+ },
+ {
+  "id": "dsbj.com",
+  "company": "Suzhou Dongshan Precision Manufacturing (DSBJ)",
+  "sector_tab": "45 Electronic Parts",
+  "domain": "dsbj.com",
+  "hq": "Suzhou, China",
+  "ownership": "Listed (SZSE 002384), founder Yuan family largest holders; HK H-share listing in progress",
+  "sells": "Flexible/rigid PCBs, precision metal parts, optical modules (Source Photonics) to Apple, EV and AI-server customers globally",
+  "headcount_band": "10,001+ (~25,000, est)",
+  "revenue": "~CNY 37.4B TTM to 30 Sep 2025; H1 2026 revenue CNY 27.8B (Simply Wall St / iTiger)",
+  "valuation": "market cap >CNY 310B (~USD 43B) on SZSE (Oct 2026, The Standard/Bloomberg)",
+  "latest_raise": "HK H-share IPO targeting USD 2-3B; HKEX hearing 8 Oct 2026, not yet priced",
+  "fit_score": 4,
+  "fit_detail": "global customer base in 3+ F1 markets (1); senior B2B buyers (1); precision/AI-hardware story (1); electronic components not crowded (1)",
+  "up_and_coming": true,
+  "flags": [
+   "2026 HK IPO pending (hearing 8 Oct 2026)",
+   "US lists (Entity List/1260H/UFLPA): none found in secondary summaries - confirm on official lists",
+   "B2B component supplier, weak marketing motive",
+   "high debt from acquisitions"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (market cap ~USD 43B, no F1 tie, not found on US lists) but pure B2B component maker with limited brand-marketing motive; China geopolitical sensitivity.",
+  "best_angle": "A USD 2-3B Hong Kong IPO in Q4 2026 could make a global brand-awareness platform useful for an AI-hardware supplier seeking international customers and investors.",
+  "sources": [
+   "https://www.thestandard.com.hk/finance/article/344139/Chinese-PCB-maker-Dongshan-Precision-to-raise-up-to-US3b-from-HK-IPO-Bloomberg",
+   "https://www.scmp.com/business/banking-finance/article/3369299/mainland-chinas-pcb-giant-wins-hong-kong-approval-planned-us3b-listing-sources",
+   "https://simplywall.st/stocks/cn/tech/szse-002384/suzhou-dongshan-precision-manufacturing-shares",
+   "https://www.itiger.com/news/1100605701",
+   "https://techinsights.com/ja/node/61825"
+  ]
+ },
+ {
+  "id": "houseofhr.com",
+  "company": "House of HR",
+  "sector_tab": "20 Staffing & Talent",
+  "domain": "houseofhr.com",
+  "hq": "Ghent, Belgium",
+  "ownership": "Bain Capital majority (PE, ~55%), founder/management minority",
+  "sells": "Staffing, recruitment and HR services via ~50 specialist brands in Benelux, France, DACH, Spain, Portugal, Poland",
+  "headcount_band": "10,001+ (~13,000 internal staff, est)",
+  "revenue": "EUR 3.505B, EBITDA EUR 344M (FY2025, Staffing Industry Analysts)",
+  "valuation": "unknown (private; EV est >EUR 2B on EBITDA multiple)",
+  "latest_raise": "none (PE-owned)",
+  "fit_score": 3,
+  "fit_detail": "operates in 3+ F1 markets (BE, NL, ES, DE/AT) (1); senior B2B HR/ops buyers (1); people/performance story only partial (0); staffing not on crowded list (1)",
+  "up_and_coming": false,
+  "flags": [
+   "PE-owned holding of many sub-brands (no single consumer brand)",
+   "competitors active in F1: Experis/ManpowerGroup (Ferrari), Randstad (ex-Toro Rosso)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (EUR 3.5B revenue, no F1 tie found) but a house of many local staffing brands with a weak single-brand story for F1.",
+  "best_angle": "Belgian/Dutch GP B2B hospitality to court enterprise clients, mirroring rivals' HR-partner deals with F1 teams.",
+  "sources": [
+   "https://www.staffingindustry.com/lists/staffing-100-europe/2026-staffing-100-europe/entrants/rika-coppens",
+   "https://houseofhr.com/news/house-of-hr-reports-stable-revenues-2024-despite-challenging-market",
+   "https://www.manpowergroup.co.uk/experis-global-leader-in-professional-resourcing-and-workforce-solutions-to-be-scuderia-ferraris-official-hr-partner/"
+  ]
+ },
+ {
+  "id": "knaustabbert.de",
+  "company": "Knaus Tabbert AG",
+  "sector_tab": "43 Mobility & Automotive",
+  "domain": "knaustabbert.de",
+  "hq": "Jandelsbrunn, Germany",
+  "ownership": "Listed (Frankfurt); HTP Investments B.V. largest shareholder (~41%, est)",
+  "sells": "Caravans and motorhomes (KNAUS, TABBERT, WEINSBERG, T@B, MORELO) across Europe",
+  "headcount_band": "1,001-5,000 (~4,000, est)",
+  "revenue": "~EUR 1.08B FY2025 (-25%); H1 2026 EUR 503.9M (-11.9%); FY2026 guide ~EUR 950M",
+  "valuation": "market cap well below USD 1B (est, 2026)",
+  "latest_raise": "none recent (IPO 2020)",
+  "fit_score": 2,
+  "fit_detail": "sells in 3+ F1 European markets (1); affluent leisure buyers, though skewing 50+ (1); leisure story not performance (0); automotive/vehicle category crowded (0)",
+  "up_and_coming": false,
+  "flags": [
+   "revenue decline: -25% 2025, -11.9% H1 2026 (not distress; profit up H1 2026)",
+   "existing motorsport sponsor: DTM Emil Frey Racing 2024, HTP Motorsport, Vettel Nurburgring outing"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (revenue ~EUR 1B 2025, no F1 tie found) but sharp sales decline and Europe-only leisure-vehicle category limit budget and fit.",
+  "best_angle": "Brand already invests in DTM/GT racing; a European-race F1 platform could lift its premium motorhome lines.",
+  "sources": [
+   "https://goldesel.de/aktien/news/knaus-tabbert-gewinn-steigt-im-1-halbjahr-2026-umsatz-sinkt-h2-ebitda-spanne-5-bis-6",
+   "https://www.boerse-online.de/dpa-afx/eqs-news-knaus-tabbert-veroeffentlicht-halbjahresfinanzbericht-2026-deutsch-543273.html",
+   "https://www.deraktionaer.de/nachricht/original-research-knaus-tabbert-von-first-berlin-equity-research-gmbh-kaufen-509284.html",
+   "https://www.knaustabbert.de/fileadmin/media/press/press-releases/2024/dtm-2024/knaustabbert-press-2024-dtm-pressemitteilung.pdf",
+   "https://www.knaustabbert.de/en/press/press-releases/vettel-drives-knaus/"
+  ]
+ },
+ {
+  "id": "clarks.com",
+  "company": "Clarks",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "clarks.com",
+  "hq": "Street, Somerset, United Kingdom",
+  "ownership": "LionRock Capital (51%, since 2021), Clark family minority",
+  "sells": "Footwear globally via wholesale, own stores and e-commerce; UK, US, Asia-Pacific key markets",
+  "headcount_band": "5,001-10,000 (~6,000 after 1,200 role cuts 2025, est)",
+  "revenue": "GBP 871.5M FY2025 (-3.3%); operating profit GBP 66.3M vs loss 2024",
+  "valuation": "unknown (51% bought for GBP 100M in 2021)",
+  "latest_raise": "none (PE-controlled)",
+  "fit_score": 2,
+  "fit_detail": "sells in 3+ F1 markets (1); core audience older/mid-market (0); comfort heritage, not performance (0); casual footwear not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "turnaround: returned to profit 2025 after two loss years",
+   "older-skewing audience"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (GBP 872M revenue, no F1 tie found, now profitable) but brand skews older and is mid-turnaround.",
+  "best_angle": "British heritage brand rebuilding relevance with Asia-Pacific growth; F1 lifestyle collabs (cf. K-Swiss/McLaren) could reach younger buyers.",
+  "sources": [
+   "https://fashionunited.uk/news/business/clarks-returns-to-profitability-as-turnaround-strategy-takes-hold/2026042187587",
+   "https://www.worldfootwear.com/news/clarks-returns-to-profit-after-a-two-year-downturn/11429.html",
+   "https://www.retailgazette.co.uk/blog/2025/07/clarks-1200-job-cuts/",
+   "https://fashionunited.uk/news/business/clarks-majority-stake-acquisition-completed-new-ceo-named/2021031554422"
+  ]
+ },
+ {
+  "id": "newyorker.de",
+  "company": "NEW YORKER",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "newyorker.de",
+  "hq": "Braunschweig, Germany",
+  "ownership": "Private, family-owned (Knapp family)",
+  "sells": "Young fashion; 1,335 stores in 48 countries (Dec 2025)",
+  "headcount_band": "10,001+ (~25,000, est)",
+  "revenue": "~EUR 3.6B FY2025 (+13%); net profit EUR 679.6M (FashionUnited, Jun 2026)",
+  "valuation": "unknown (private)",
+  "latest_raise": "none (family-owned)",
+  "fit_score": 2,
+  "fit_detail": "48 countries incl. many F1 markets (1); core audience 15-30 value shoppers (0); fast-fashion story not performance (0); category not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "young value-fashion audience, younger than F1 core 25-54",
+   "market expansion: moderate store growth 2026 (47 -> 48 countries)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (EUR 3.6B revenue, no F1 tie found) but youth value-fashion audience is a weak match for affluent 25-54.",
+  "best_angle": "F1's young, growing fan base (via Drive to Survive) overlaps New Yorker's 18-30 shoppers in 48 markets.",
+  "sources": [
+   "https://fashionunited.de/nachrichten/business/new-yorker-kann-jahresgewinn-mehr-als-verdoppeln/2026062967421",
+   "https://www.textilwirtschaft.de/fashion-management/2024-war-ein-rekordjahr-fuer-new-yorker-90308"
+  ]
+ },
+ {
+  "id": "chiesi.com",
+  "company": "Chiesi Group",
+  "sector_tab": "X Pharma & Biotech",
+  "domain": "chiesi.com",
+  "hq": "Parma, Italy",
+  "ownership": "Private, Chiesi family-controlled",
+  "sells": "Prescription respiratory, rare disease and specialty care drugs in 30+ countries",
+  "headcount_band": "5,001-10,000 (~7,000+, est)",
+  "revenue": "EUR 3.625B FY2025 (+8.2% cc); EBITDA EUR 931M (23 Apr 2026)",
+  "valuation": "unknown (private)",
+  "latest_raise": "none (family-owned)",
+  "fit_score": 2,
+  "fit_detail": "sells in 3+ F1 markets (1); audience is HCPs/patients, not affluent consumers (0); R&D story only partial (0); pharma not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "CEO transition: Giuseppe Accogli left May 2026, interim CEO",
+   "Rx pharma: limited consumer-advertising freedom"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (EUR 3.6B revenue, no F1 tie found) but prescription pharma has weak consumer marketing motive and leadership is in transition.",
+  "best_angle": "Italian B Corp could use Monza/Imola-linked purpose or employer-brand activation; otherwise weak.",
+  "sources": [
+   "https://www.borsaitaliana.it/borsa/notizie/radiocor/finance/dettaglio/chiesi-fy-revenue-3625-bln-eur-up-82-at-constant-forex-nRC_23042026_1301_408407730.html?lang=en",
+   "https://www.biospace.com/press-releases/chiesi-reports-strong-fy2025-financial-and-sustainability-results-and-announces-leadership-transition-highlights",
+   "https://app.sponsorpitch.com/sponsors/chiesi"
+  ]
+ },
+ {
+  "id": "bdo.co.uk",
+  "company": "BDO UK",
+  "sector_tab": "18 Services & Other",
+  "domain": "bdo.co.uk",
+  "hq": "London, United Kingdom",
+  "ownership": "Partnership (LLP), independent member firm of BDO International network",
+  "sells": "Audit, tax, advisory to UK mid-market; merging with BDO Ireland",
+  "headcount_band": "5,001-10,000 (~7,000+, 501 partners, FY2025)",
+  "revenue": "GBP 1.005B FY to 4 Jul 2025 (flat)",
+  "valuation": "n/a (partnership)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "UK/Ireland only, not 3+ F1 markets (0); senior B2B buyers (1); professional-services story not performance (0); accountancy not on crowded list (1)",
+  "up_and_coming": false,
+  "flags": [
+   "network member firm: BDO International (BDO USA sponsors Juncos Hollinger Racing IndyCar/INDY NXT 2026, not F1)",
+   "market expansion: UK -> Ireland (merger planned)"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes hard filters (GBP 1B revenue, no F1 tie found) but domestic UK/Ireland B2B firm; F1's global reach is wasted.",
+  "best_angle": "",
+  "sources": [
+   "https://www.bdo.co.uk/en-gb/news/2025/bdo-annual-results-a-resilient-performance-in-a-challenging-market",
+   "https://finance.yahoo.com/news/bdo-uk-posts-stable-annual-112622756.html",
+   "https://www.cityam.com/?p=2383217",
+   "https://www.bdo.com/insights/press-releases/bdo-usa-named-official-partner-of-juncos-hollinger-racing-and-indy-nxt-driver-alexander-koreiba"
+  ]
+ },
+ {
+  "id": "pullbear.com",
+  "company": "PULL&BEAR",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "pullbear.com",
+  "hq": "Narón, Galicia, Spain",
+  "ownership": "Inditex (100%)",
+  "sells": "Youth fashion, ~70+ markets via stores and online",
+  "headcount_band": "5,001-10,000 (est)",
+  "revenue": "EUR 2.546B FY2025 (Feb 2025-Jan 2026, +3.1%)",
+  "valuation": "part of Inditex (market cap >EUR 150B, 2026, est)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "sells in 3+ F1 markets (1); 15-25 audience (0); fashion story not performance (0); category not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "F1 tie: 'Disney x Formula 1 by Pull&Bear' licensed capsule (Aug 2026) incl. Spanish GP Madrid and Italian GP Monza 2026 tees",
+   "group brand: Inditex"
+  ],
+  "verdict": "No",
+  "verdict_reason": "F1 tie: current Formula 1 licensee via the Disney x Formula 1 by Pull&Bear collection (launched Aug 2026).",
+  "best_angle": "",
+  "sources": [
+   "https://www.nssmag.com/pt/fashion/46658/disney-x-formula-1-by-pull-bear-traz-a-energia-do-circuito-a-uma-colecao-de-capsulas",
+   "https://noticias.autocosmos.com.mx/2026/09/01/formula-1-pullbear-y-disney-se-unen-en-una-coleccion-con-espiritu-racing",
+   "https://www.modaes.com/global/companies/zara-grows-only-1-in-2025-but-exceeds-28-billion-in-sales",
+   "https://fashionunited.com/news/business/inditex-posts-6-22-billion-euro-profit-in-2025-and-3-19-percent-sales-growth/2026031171084"
+  ]
+ },
+ {
+  "id": "groupeleduff.com",
+  "company": "Groupe Le Duff",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "groupeleduff.com",
+  "hq": "Rennes, France",
+  "ownership": "Private, founder Louis Le Duff family",
+  "sells": "Bakery/restaurant chains and frozen bakery (Brioche Dorée, Del Arte, Bridor, Kamps, La Madeleine, Bruegger's) in Europe, North America, Asia",
+  "headcount_band": "10,001+ (~18,000, 2025)",
+  "revenue": "~EUR 2.8B FY2025 (Le Journal des Entreprises; another source says EUR 3.8B, est)",
+  "valuation": "unknown (private)",
+  "latest_raise": "none (family-owned)",
+  "fit_score": 2,
+  "fit_detail": "sells in 3+ F1 markets (FR, US, CA, DE, BE) (1); mass-market diners (0); bakery story not performance (0); category not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "revenue sources conflict (EUR 2.8B vs 3.8B 2025)",
+   "house of mass-market brands, no single global brand"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (EUR 2.8B revenue, ~18k staff, no F1 tie found) but mass-market multi-brand food group with weak performance story.",
+  "best_angle": "Bridor could pitch premium French viennoiserie as a paddock hospitality supplier across global races.",
+  "sources": [
+   "https://www.lejournaldesentreprises.com/article/le-groupe-le-duff-renforce-sa-gouvernance-pour-accompagner-son-changement-dechelle-2146107",
+   "https://lessentieldeleco.fr/1505-louis-le-duff-lentrepreneur-breton-a-la-conquete-du-monde/",
+   "https://www.lsa-conso.fr/restauration-rapide-brioche-doree-face-a-un-marche-ultra-concurrentiel-la-strategie-de-relance-du-groupe-le-duff,464909",
+   "https://en.wikipedia.org/wiki/Groupe_Le_Duff"
+  ]
+ }
+]

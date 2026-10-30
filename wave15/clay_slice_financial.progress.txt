@@ -1,0 +1,7 @@
+Clay slice pull progress - group financial (bands: C1 first, then B)
+
+DONE	C1|10,001+	pages=56	rows=1116
+DONE	C1|5,001-10,000	pages=54	rows=1073
+IN PROGRESS	C1|1,001-5,000	pages=1	rows=20
+
+Note: 'pages' counts pages appended (page 0 = first search result). Last taskId for in-progress slice is in /tmp/claude-0/-home-user-rg42/f658b5c3-a5ae-5398-b208-f286520b1971/scratchpad/slice_financial/lasttask.txt

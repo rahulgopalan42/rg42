@@ -1,0 +1,295 @@
+[
+ {
+  "id": "accuray.com",
+  "company": "Accuray",
+  "sector_tab": "X Medtech",
+  "domain": "accuray.com",
+  "hq": "Madison, Wisconsin, USA (formerly Sunnyvale, CA)",
+  "ownership": "Public (Nasdaq: ARAY); TCW-led Series A preferred investors (Jul 2026); lenders hold warrants",
+  "sells": "Radiotherapy/radiosurgery systems (CyberKnife, TomoTherapy, Radixact) and service",
+  "headcount_band": "501-1,000 (~1,000 before 15% workforce cut, 2026 est)",
+  "revenue": "~USD 402M FY to Jun-2026 (screen; Feb 2026 guide USD 440-450M later withdrawn); net loss ~USD 49M FY2026",
+  "valuation": "Market cap ~USD 225M (2026, Panabee)",
+  "latest_raise": "USD 55M Series A convertible preferred incl. conversion of facility debt (SPA 29 Jul 2026)",
+  "fit_score": 2,
+  "fit_detail": "Sells globally incl. China JV (1); hospital/oncology buyers (0); precision radiotherapy tech story (1); medtech not on grid but B2B (0)",
+  "up_and_coming": false,
+  "flags": [
+   "distress: debt converted into Series A preferred, covenant relief, reverse stock split (Jul 2026)",
+   "Transformation Plan with ~15% workforce reduction (2026)",
+   "FY2026 guidance withdrawn (6 May 2026); ASC 606 material weaknesses and FY2025 restatement",
+   "USD 150-500M revenue route"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Hard filter 3 (distress): FY2026 net loss, withdrawn guidance, restatement, and a Jul 2026 recapitalisation converting lender debt into preferred stock with covenant relief and a reverse split.",
+  "best_angle": "",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001138723/000143774926029098/aray20260630_10k.htm",
+   "https://www.sec.gov/Archives/edgar/data/0001138723/000143774926015199/aray20260331_10q.htm",
+   "https://www.panabee.com/news/accuray-earnings-2026-annual"
+  ]
+ },
+ {
+  "id": "rategain.com",
+  "company": "RateGain",
+  "sector_tab": "47 Vertical SaaS",
+  "domain": "rategain.com",
+  "hq": "Noida, India",
+  "ownership": "Public (NSE/BSE: RATEGAIN); founder Bhanu Chopra promoter group largest holder",
+  "sells": "AI SaaS for hotels, airlines and travel: rate intelligence, distribution, and (via Sojern) travel marketing/ad platform",
+  "headcount_band": "1,001-5,000 (~1,500 pre-Sojern; ~2,000+ est post Nov 2025)",
+  "revenue": "INR 1,824 crore (~USD 205M) FY2025-26 incl. Sojern from Nov 2025; FY27 target ~USD 350M",
+  "valuation": "Market cap INR 9,964 crore (~USD 1.12B) 1 Oct 2026 (Value Research)",
+  "latest_raise": "Debt-funded Sojern acquisition (~USD 250M, closed 6 Nov 2025); net debt INR 722 crore entering FY27",
+  "fit_score": 3,
+  "fit_detail": "Customers in 100+ countries incl. US/Europe/Gulf (1); senior hotel/airline commercial buyers (1); AI/data precision story (1); travel-tech SaaS not crowded but B2B with limited brand need (0)",
+  "up_and_coming": true,
+  "flags": [
+   "market cap only just above USD 1B and volatile (INR 6,000 crore in Apr 2026)",
+   "acquisition debt (Sojern)",
+   "B2B SaaS, moderate brand budget"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale via ~USD 1.12B market cap (1 Oct 2026), no F1 tie found for RateGain or Sojern; reservation: thin valuation margin, acquisition debt and B2B-only audience.",
+  "best_angle": "Post-Sojern scale-up gives a reason to court hotel and airline chiefs in F1 hospitality across Gulf, Asia and US races.",
+  "sources": [
+   "https://www.valueresearchonline.com/stocks/289858/rategain-travel-technologies-ltd",
+   "https://arihantresearch.arihantcapital.com/Mumbai_Research/Rategain_Q4FY26_Result_Update.pdf",
+   "https://www.multibagg.ai/market-pulse/articles/rategain-fy26-94545",
+   "https://rategain.com/press-release/rategain-completes-acquisition-of-sojern/"
+  ]
+ },
+ {
+  "id": "ktm-bikes.at",
+  "company": "KTM Fahrrad",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "ktm-bikes.at",
+  "hq": "Mattighofen, Austria",
+  "ownership": "Private, Urkauf family (Carol Urkauf-Chen sole owner since 1997); unrelated to KTM motorcycles (Pierer/Bajaj)",
+  "sells": "Bicycles and e-bikes sold through dealers in Europe and beyond",
+  "headcount_band": "201-500 (~500 group, 2022)",
+  "revenue": "EUR 477M (~USD 500M) 2022 (Austria-Forum); 2024-25 likely lower after bike-market slump (~EUR 250-350M est)",
+  "valuation": "Undisclosed (private)",
+  "latest_raise": "None",
+  "fit_score": 4,
+  "fit_detail": "Sold across Europe incl. Austria, Germany, Italy, Spain, NL (1); affluent 25-54 e-bike buyers (1); performance/engineering story (1); bicycles not on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue est only, no recent filed figure",
+   "brand confusion with KTM motorcycles (MotoGP)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale only on revenue (EUR 477M 2022, lower since, est), capped Stretch; no F1 tie found and KTM-motorcycle brand confusion is a real reservation.",
+  "best_angle": "Premium e-bike buyers overlap European F1 audiences (Austria, Netherlands, Italy GPs).",
+  "sources": [
+   "https://austria-forum.org/af/AustriaWiki/KTM_Fahrrad",
+   "https://www.motorradundreisen.de/szene/ktm-insolvenz-rennsport-aus-zuliefererpleiten/8748/",
+   "https://www.motorradonline.de/ratgeber/ktm-fahrrad-markenrechtsstreit/",
+   "https://industriemagazin.at/koepfe/ktm-fahrrad-der-markt-ist-ein-chaos-geworden/"
+  ]
+ },
+ {
+  "id": "medartis.com",
+  "company": "Medartis",
+  "sector_tab": "X Medtech",
+  "domain": "medartis.com",
+  "hq": "Basel, Switzerland",
+  "ownership": "Public (SIX: MED); founder Thomas Straumann majority holder",
+  "sells": "Titanium implants and instruments for hand, wrist, foot and craniomaxillofacial surgery",
+  "headcount_band": "501-1,000 (878, 2024)",
+  "revenue": "CHF 269.3M (~USD 330M) FY2025, +24.2% cc",
+  "valuation": "Market cap ~CHF 1.1-1.2B (~USD 1.4B) 19 Jul 2026 (Multiples.vc)",
+  "latest_raise": "None (listed)",
+  "fit_score": 2,
+  "fit_detail": "Sells in 50+ countries (1); orthopaedic surgeons/hospitals (0); Swiss precision implant story (1); medtech B2B, no consumer brand need (0)",
+  "up_and_coming": false,
+  "flags": [
+   "clinician B2B, no consumer brand",
+   "founder-controlled (Straumann)"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes scale via ~USD 1.4B market cap (Jul 2026), no F1 tie found; narrow surgeon audience with no brand marketing motive.",
+  "best_angle": "",
+  "sources": [
+   "https://www.marktpuls.ch/artikel/permalink/659604",
+   "https://docs.multiples.vc/public-comps/medartis-valuation-multiples",
+   "https://www.reveliolabs.com/companies/medartis-holding/employees/"
+  ]
+ },
+ {
+  "id": "yubico.com",
+  "company": "Yubico",
+  "sector_tab": "14 Cyber + IT",
+  "domain": "yubico.com",
+  "hq": "Stockholm, Sweden (US ops Santa Clara, CA)",
+  "ownership": "Public (Nasdaq Stockholm: YUBICO); founders Stina and Jakob Ehrensvard significant holders",
+  "sells": "YubiKey hardware security keys and phishing-resistant authentication",
+  "headcount_band": "501-1,000 (540+, Feb 2026)",
+  "revenue": "SEK ~2.2B (~USD 230M) FY2025",
+  "valuation": "Market cap SEK 5.4B (~USD 560M) Jul-Aug 2026, -52% y/y",
+  "latest_raise": "None (listed)",
+  "fit_score": 3,
+  "fit_detail": "Sells to enterprises and consumers globally (1); CISOs/senior IT buyers (1); security technology story (1); cyber category crowded on grid (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "cyber category crowded on grid",
+   "share price -52% y/y (2026)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale on ~USD 230M revenue (FY2025), capped Stretch; no F1 tie found; cyber is crowded on the grid.",
+  "best_angle": "Phishing-resistant authentication story suits F1 team data-security narratives for enterprise CISOs.",
+  "sources": [
+   "https://investors.yubico.com/en/wp-content/uploads/sites/2/2023/03/Q4-25-Yubico-morning-presentation-12-Feb-2026.pdf",
+   "https://stockanalysis.com/quote/sto/YUBICO/financials/ratios/",
+   "https://companiesmarketcap.com/yubico-ab/marketcap/"
+  ]
+ },
+ {
+  "id": "catanagroup.com",
+  "company": "CATANA GROUP",
+  "sector_tab": "X Maritime & Shipbuilding",
+  "domain": "catanagroup.com",
+  "hq": "Canet-en-Roussillon, France",
+  "ownership": "Public (Euronext Paris: CATG); founder-chair Olivier Poncin family largest holder",
+  "sells": "Sailing and power catamarans (Bali, Catana brands)",
+  "headcount_band": "501-1,000 (~600 est)",
+  "revenue": "EUR 174.9M (~USD 195M) FY to Aug-2025, -23.8%; 9M FY2025-26 EUR 119M; H1 FY2025-26 net loss EUR 1.7M",
+  "valuation": "Undisclosed here (small cap)",
+  "latest_raise": "None (listed)",
+  "fit_score": 3,
+  "fit_detail": "Sells via dealers in US, Europe, Asia-Pacific (1); affluent boat buyers/charter (1); leisure rather than performance story (0); catamarans not on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue falling (-24% FY2025), near USD 150M floor",
+   "H1 FY2025-26 loss"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale only via EUR 175M revenue (FY2025), capped Stretch; no F1 tie found; falling sales may push it under the floor.",
+  "best_angle": "Affluent sailing buyers overlap Monaco and Miami GP audiences.",
+  "sources": [
+   "https://www.optionfinance.fr/info-financiere-en-continu/d/2025-12-08-catana-group-devoile-des-resultats-en-net-repli-comme-prevu.html",
+   "https://rendementbourse.com/alcat-catana-group/finances",
+   "https://www.boursedirect.fr/fr/actualites/categorie/resultats/catana-group-des-pertes-contenues-au-premier-semestre-2025-2026-boursier-7dae7795ac647b9765beef67d173389cdfe363e3"
+  ]
+ },
+ {
+  "id": "artdeco.de",
+  "company": "ARTDECO cosmetic GmbH",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "artdeco.de",
+  "hq": "Karlsfeld (Munich), Germany",
+  "ownership": "Majority owned by Sodalis Group (Italy) since 21 May 2024; founding family retains a stake",
+  "sells": "Colour cosmetics, nail and skincare (ARTDECO and group brands) sold in 80+ countries",
+  "headcount_band": "501-1,000 (680 Houlihan Lokey 2024; >1,100 incl. field staff, Bionity)",
+  "revenue": "Undisclosed; ~EUR 200M (est); parent Sodalis EUR 690M net sales 2023",
+  "valuation": "Undisclosed",
+  "latest_raise": "None (acquired by Sodalis, terms undisclosed)",
+  "fit_score": 3,
+  "fit_detail": "Sells in 80+ countries (1); women 25-54 beauty buyers (1); beauty, not performance story (0); colour cosmetics not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "group brand: Sodalis Group",
+   "standalone revenue unverified (est)",
+   "USD 150-500M revenue route"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Separately marketed Sodalis brand; scale rests on parent revenue (EUR 690M 2023) with ARTDECO revenue only estimated; no F1 tie found for ARTDECO or Sodalis.",
+  "best_angle": "F1's growing female audience and F1 Academy offer a beauty-brand entry point.",
+  "sources": [
+   "https://hl.com/about-us/transactions/artdeco-sodalis-group/",
+   "https://www.personalcareinsights.com/news/from-italy-to-germany-soldalis-to-acquire-majority-stake-in-artdeco-cosmetics.html",
+   "https://www.bionity.com/de/firmen/13156/"
+  ]
+ },
+ {
+  "id": "hogan.com",
+  "company": "Hogan",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "hogan.com",
+  "hq": "Sant'Elpidio a Mare, Italy (Tod's Group)",
+  "ownership": "Brand of Tod's S.p.A.: Della Valle family ~54%, L Catterton ~36%, LVMH's Delphine ~10% (delisted May 2024)",
+  "sells": "Luxury sneakers, footwear and accessories",
+  "headcount_band": "201-500 brand (~260 est); Tod's Group ~5,000",
+  "revenue": "Brand ~EUR 250M (est; EUR 195.9M FY2022); Tod's Group ~EUR 1.1B 2023",
+  "valuation": "Tod's take-private at EUR 43/share (~EUR 1.4B equity, 2024)",
+  "latest_raise": "None",
+  "fit_score": 3,
+  "fit_detail": "Sold in Europe, Asia, Middle East, US (1); affluent 25-54 fashion buyers (1); lifestyle rather than performance story (0); luxury sneakers not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "group brand: Tod's Group",
+   "lapsed parent F1-adjacent tie: Tod's Ferrari licensing deal (lapsed) - confirm before outreach",
+   "brand revenue est only"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Separately marketed Tod's Group brand (group ~EUR 1.1B revenue); no current F1 tie found, but Tod's past Ferrari licence caps at Stretch.",
+  "best_angle": "Sporty luxury sneaker line fits F1 paddock-fashion culture at European and Gulf races.",
+  "sources": [
+   "https://fashionunited.uk/news/business/tods-to-be-delisted-after-successful-takeover-bid-by-fund-associated-with-lvmh/2024050675437",
+   "https://www.wallstreetitalia.com/news/tods-i-ricavi-superano-il-miliardo-nellesercizio-2022-139/",
+   "https://www.milanofinanza.it/fashion/tod-s-e-roger-vivier-trainano-il-2023-del-gruppo-di-diego-della-valle-ricavi-a-12-202401241757034427",
+   "https://www.textilwirtschaft.de/fashion-management/ferrari-lizenz-fuer-tods-33840"
+  ]
+ },
+ {
+  "id": "golfzongolf.com",
+  "company": "Golfzon Co., Ltd.",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "golfzongolf.com (US arm; parent golfzon.com)",
+  "hq": "Daejeon/Seoul, South Korea (input country US = US subsidiary)",
+  "ownership": "Public (KOSDAQ: 215000); controlled by Golfzon Newdin Holdings (Kim Young-chan family)",
+  "sells": "Golf simulators, screen-golf venues/franchises, golf tech and platforms",
+  "headcount_band": "1,001-5,000 (~1,000 est)",
+  "revenue": "KRW 483.3B (~USD 340M) 2025, -22.1%",
+  "valuation": "Market cap ~KRW 292B (~USD 210M) 2025-26 (Simply Wall St, undated)",
+  "latest_raise": "None (listed)",
+  "fit_score": 4,
+  "fit_detail": "Korea, Japan, China, US, Canada markets (1); affluent 25-54 golfers (1); simulation/tech precision story (1); golf tech not on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue falling (-22% in 2025)",
+   "record domain is US subsidiary; evaluated parent"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale on KRW 483B revenue (2025), capped Stretch; no F1 tie found; falling domestic revenue is the reservation.",
+  "best_angle": "US expansion of simulator venues could use US GPs to reach affluent golf-and-motorsport fans.",
+  "sources": [
+   "https://quartr.com/events/golfzon-co-ltd-215000-q4-2025_FR2Q4vvA",
+   "https://simplywall.st/stock/kosdaq/a215000",
+   "https://multiples.vc/public-comps/golfzon-valuation-multiples"
+  ]
+ },
+ {
+  "id": "changiairport.com",
+  "company": "Changi Airport Group",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "changiairport.com",
+  "hq": "Singapore",
+  "ownership": "State-owned: 100% Singapore Ministry of Finance",
+  "sells": "Owner/operator of Singapore Changi Airport, airport retail, consultancy and overseas airport investments",
+  "headcount_band": "1,001-5,000 (~2,700 est)",
+  "revenue": "SGD 3,071M (~USD 2.3B) FY to Mar-2025, +13%; net profit SGD 841M",
+  "valuation": "Undisclosed (state-owned)",
+  "latest_raise": "None",
+  "fit_score": 4,
+  "fit_detail": "Serves travellers from all F1 markets, global hub (1); affluent 25-54 travellers (1); world-class/precision operations and global ambition story (1); airports not crowded (airlines are) (1)",
+  "up_and_coming": false,
+  "flags": [
+   "state-owned SOE",
+   "state sibling Singapore Airlines (Temasek-controlled) is Singapore GP title sponsor to 2028 - confirm before outreach",
+   "T5 build (opens mid-2030s) brand push"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (SGD 3.1B revenue FY2024/25) and no direct F1 tie found, but Singapore state sibling SIA holds the Singapore GP title deal, so capped Stretch.",
+  "best_angle": "Terminal 5 build and hub competition with Gulf airports make F1's global audience a natural showcase beyond the home race.",
+  "sources": [
+   "https://links.sgx.com/1.0.0/corporate-announcements/EZZWL1PHFXJGRD70/846424_Changi%20Airport%20Group%20Financial%20Results%20FY2425.pdf",
+   "https://www.stb.gov.sg/about-stb/media-publications/media-centre/grand-prix-tm--season-singapore-2026-counts-down-to-race-weekend-with-new-headliners-and-programme-partners/",
+   "https://sportskhabri.com/f1-renews-singapore-airlines-sponsorship-singapore-grand-prix/"
+  ]
+ }
+]

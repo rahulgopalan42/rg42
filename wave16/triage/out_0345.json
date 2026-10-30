@@ -1,0 +1,802 @@
+[
+{
+"id": "ecasa.cl",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Chilean real estate and construction"
+},
+{
+"id": "gnc.com.mx",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Harbin Pharmaceutical",
+"note": "Mexican franchise of GNC"
+},
+{
+"id": "myopla.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "French business process services"
+},
+{
+"id": "gensol.in",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "Indian solar and EV group"
+},
+{
+"id": "solitea.cz",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Czech business software group"
+},
+{
+"id": "dila.ua",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Ukrainian medical laboratory network"
+},
+{
+"id": "kliniken-schmieder.de",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "German neurological rehabilitation clinics"
+},
+{
+"id": "agelsk.sk",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "AGEL",
+"note": "Slovak arm of Czech hospital group"
+},
+{
+"id": "aecirujanos.es",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Spanish surgeons medical association"
+},
+{
+"id": "kazareentextilegroup.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "Mimar Invest",
+"note": "Egyptian textile company"
+},
+{
+"id": "alialmullagroup.ae",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "UAE retail group"
+},
+{
+"id": "coupeg.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Egyptian heritage fashion brand"
+},
+{
+"id": "alyousuf.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "UAE diversified family conglomerate"
+},
+{
+"id": "farabiclinics.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Saudi outpatient healthcare network"
+},
+{
+"id": "itamed.com.br",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Brazilian hospital complex"
+},
+{
+"id": "clinifutur.net",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Reunion island health group"
+},
+{
+"id": "diakonie-klinikum.de",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Stuttgart hospital"
+},
+{
+"id": "umed.pl",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Polish university hospital"
+},
+{
+"id": "mmmch.edu.bd",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Bangladeshi medical college hospital"
+},
+{
+"id": "teka-power.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Taiwanese power supply maker"
+},
+{
+"id": "u-e-b.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Shenzhen electronics trading firm"
+},
+{
+"id": "astrocreation.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian handles gallery"
+},
+{
+"id": "kotion.cn",
+"t": "real",
+"fit": 2,
+"scale": "mid",
+"parent": "",
+"note": "Chinese gaming audio maker"
+},
+{
+"id": "parker-chn.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Chinese window curtain machinery"
+},
+{
+"id": "labsys.cn",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Shanghai medical technology group"
+},
+{
+"id": "lawfirminstitute.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Legal recovery firm; thin data"
+},
+{
+"id": "pyshnakrasa.com.ua",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Ukrainian plus-size fashion"
+},
+{
+"id": "grupazdrowie.pl",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Polish medical clinic network"
+},
+{
+"id": "longsight.com.tw",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Vietnamese handbag manufacturer"
+},
+{
+"id": "lsh-cat.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Lei Shing Hong",
+"note": "Caterpillar dealer machinery arm"
+},
+{
+"id": "royalplazashopping.com.br",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Brazilian shopping mall"
+},
+{
+"id": "wiintrackexports.in",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian apparel manufacturer"
+},
+{
+"id": "urbantaga.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian handmade fashion online brand"
+},
+{
+"id": "pmilweb.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Employment initiative page"
+},
+{
+"id": "ipph.cn",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Chinese national publishing house"
+},
+{
+"id": "poyun.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Dongguan electronics maker"
+},
+{
+"id": "megautamagroup.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indonesian retailer; no data"
+},
+{
+"id": "blueroutemall.co.za",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Cape Town shopping mall"
+},
+{
+"id": "3wgreat.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Chinese textile technology company"
+},
+{
+"id": "fever.com.tr",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Turkish boutique fashion brand"
+},
+{
+"id": "3-circles.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Chinese alkaline battery maker"
+},
+{
+"id": "wavemarkmx.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Mexican promotional marketing agency"
+},
+{
+"id": "ansania.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indonesian hijab maker"
+},
+{
+"id": "cnlinfo.net",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Chinese think tank; no data"
+},
+{
+"id": "zeltj.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Compressor manufacturer in Tianjin"
+},
+{
+"id": "fusung.cn",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Huizhou PCB assembly maker"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Moroccan group; junk description"
+},
+{
+"id": "plazacuernavaca.com.mx",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Cuernavaca shopping mall"
+},
+{
+"id": "cszzxgj.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Shenzhen power products maker"
+},
+{
+"id": "heshengw.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Chinese retail fixtures designer"
+},
+{
+"id": "antaresavm.com.tr",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Turkish shopping centre"
+},
+{
+"id": "3irobotics.com",
+"t": "real",
+"fit": 2,
+"scale": "mid",
+"parent": "",
+"note": "Robot vacuum sensor maker"
+},
+{
+"id": "litive.com.br",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Brazilian legal tech"
+},
+{
+"id": "greatnameplates.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Chinese smart card maker"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Vietnamese group; junk description"
+},
+{
+"id": "sxdj.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Chinese electric motor maker"
+},
+{
+"id": "exelsourcing.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Indian apparel exporter"
+},
+{
+"id": "ergonorseating.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "Chinese ergonomic office furniture"
+},
+{
+"id": "greatpower-battery.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Chinese high-tech machinery"
+},
+{
+"id": "pureonaturalretail.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian natural products retailer"
+},
+{
+"id": "yiduchuan.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Chinese apparel group"
+},
+{
+"id": "solaxpower.com.tr",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "SolaX Power",
+"note": "Turkish distributor page of SolaX"
+},
+{
+"id": "zharfkarejam.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Iranian EPC contractor"
+},
+{
+"id": "fahrenheitindia.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian apparel maker"
+},
+{
+"id": "panasign.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "Chinese signage and display maker"
+},
+{
+"id": "bertolini.com.mx",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Grupo Bertolini",
+"note": "Mexican arm of Grupo Bertolini"
+},
+{
+"id": "mikenco.vn",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Vietnamese menswear brand"
+},
+{
+"id": "hc-optical.net",
+"t": "real",
+"fit": 2,
+"scale": "mid",
+"parent": "",
+"note": "Chinese optical lens maker"
+},
+{
+"id": "doyin.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Chinese pump manufacturer"
+},
+{
+"id": "cementblockmakingmachine.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian tile machinery maker"
+},
+{
+"id": "kayson-cn.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Chinese hygiene products maker"
+},
+{
+"id": "visionrenovable.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Argentine renewable energy supplier"
+},
+{
+"id": "china-simo.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "Chinese high voltage motors"
+},
+{
+"id": "tdae.in",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian design export firm"
+},
+{
+"id": "strength-group.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "Chinese textile automation maker"
+},
+{
+"id": "yulon-group.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Taiwanese garment manufacturer Vietnam"
+},
+{
+"id": "hdtyre.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Chinese tyre manufacturer"
+},
+{
+"id": "punitcreation.in",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian apparel exporter"
+},
+{
+"id": "hk.cn",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Chinese dental clinic group"
+},
+{
+"id": "asia-asset.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Expat property services China"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Bangladeshi garment firm; junk description"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Emirati property firm"
+},
+{
+"id": "mjstyle.cn",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Chinese fast-fashion brands"
+},
+{
+"id": "shenling.cn",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Chinese HVAC systems maker"
+},
+{
+"id": "snimayhome.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Chinese custom cabinet brand"
+},
+{
+"id": "danmoo.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Chinese vaping device maker"
+},
+{
+"id": "manado-maju-group.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indonesian travel company"
+},
+{
+"id": "lawyer.ua",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Ukrainian legal services network"
+},
+{
+"id": "faragauss.mx",
+"t": "real",
+"fit": 1,
+"scale": "small",
+"parent": "",
+"note": "Mexican electromagnetic technology firm"
+},
+{
+"id": "shini.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Taiwanese heating machinery group"
+},
+{
+"id": "sbm.com.ph",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Chinese crushing machinery maker"
+},
+{
+"id": "henglin.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Chinese seating products exporter"
+},
+{
+"id": "precision-pak.com",
+"t": "real",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Canadian tanning products; no data"
+},
+{
+"id": "naori.gt",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Residential apartment project page"
+},
+{
+"id": "bon-ecosystem.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Vietnamese supply chain technology"
+},
+{
+"id": "qcybluetooth.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Chinese battery technology"
+},
+{
+"id": "eigate.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Chinese vape OEM maker"
+},
+{
+"id": "tusabogadosycontadores.co",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Colombian legal marketplace"
+},
+{
+"id": "settour.com.tw",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Taiwanese travel agency"
+},
+{
+"id": "msa.co.kr",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Korean outdoor garment manufacturer"
+}
+]

@@ -1,0 +1,122 @@
+[
+{
+"id": "manrolandgoss.com",
+"company": "manroland Goss web systems GmbH",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Lübeck-based Possehl Group",
+"triage_note": "real; fit 1; scale mid; printing presses"
+},
+{
+"id": "hydraspecma.com",
+"company": "HydraSpecma",
+"sector": "23 Machine Tools",
+"country": "Denmark",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; hydraulics supplier"
+},
+{
+"id": "duerkopp-adler.com",
+"company": "Dürkopp Adler",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Shang Gong",
+"triage_note": "real; fit 1; scale mid; industrial sewing machines"
+},
+{
+"id": "hidrostal.com",
+"company": "Hidrostal Group",
+"sector": "23 Machine Tools",
+"country": "Schweiz",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; pump maker"
+},
+{
+"id": "hf-group.com",
+"company": "HF GROUP",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; machinery group"
+},
+{
+"id": "chinafastprint.com",
+"company": "Fastprint Circuit",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; circuit boards"
+},
+{
+"id": "gohighlevel.ca",
+"company": "GoHighLevel.ca",
+"sector": "X02 Real Estate & Building Products",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; marketing SaaS"
+},
+{
+"id": "cabling-vivanco.com",
+"company": "VIVANCO Global Solutions",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; cabling and accessories"
+},
+{
+"id": "vsun-solar.com",
+"company": "VSUN SOLAR",
+"sector": "27 Chip Makers",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; solar modules"
+},
+{
+"id": "fenda.com",
+"company": "Fenda Technology Co., Ltd",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; audio electronics"
+}
+]

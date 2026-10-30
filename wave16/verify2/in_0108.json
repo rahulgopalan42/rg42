@@ -1,0 +1,122 @@
+[
+{
+"id": "americanexpress.com",
+"company": "American Express",
+"sector": "01 Banking & Insurance",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; payments and cards"
+},
+{
+"id": "santander.com",
+"company": "Santander",
+"sector": "01 Banking & Insurance",
+"country": "Spain",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; bank, existing F1 sponsor"
+},
+{
+"id": "pirelli.com",
+"company": "Pirelli",
+"sector": "43 Mobility & Automotive",
+"country": "Italy",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Sinochem",
+"triage_note": "real; fit 3; scale large; F1 tyre supplier"
+},
+{
+"id": "pmi.com",
+"company": "Philip Morris International",
+"sector": "NEW Other",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; tobacco, existing F1 partner"
+},
+{
+"id": "sanofi.com",
+"company": "Sanofi",
+"sector": "NEW Pharma & Biotech",
+"country": "France",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; pharma, global"
+},
+{
+"id": "ford.com",
+"company": "Ford Motor Company",
+"sector": "43 Mobility & Automotive",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; F1 team partner automaker"
+},
+{
+"id": "freshworks.com",
+"company": "Freshworks",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; customer service SaaS"
+},
+{
+"id": "teamviewer.com",
+"company": "TeamViewer",
+"sector": "22 SaaS",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; remote connectivity software"
+},
+{
+"id": "ffg-ea.com",
+"company": "FFG Fair Friend Group",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; machine tools group"
+},
+{
+"id": "atsindustrialautomation.com",
+"company": "ATS Industrial Automation",
+"sector": "33 Automation & Robotics",
+"country": "Canada",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; factory automation"
+}
+]

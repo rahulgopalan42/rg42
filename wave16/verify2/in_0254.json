@@ -1,0 +1,122 @@
+[
+{
+"id": "kce.co.th",
+"company": "KCE Electronics Public Company Limited",
+"sector": "45 Electronic Parts",
+"country": "Thailand",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; PCB maker"
+},
+{
+"id": "hele.com.tw",
+"company": "Harmony Electronics Corporation (Crystal Oscillators/Resonators)",
+"sector": "27 Chip Makers",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; crystal oscillators"
+},
+{
+"id": "hydratec.nl",
+"company": "Hydratec Industries N.V.",
+"sector": "23 Machine Tools",
+"country": "Netherlands",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; industrial systems"
+},
+{
+"id": "bsjiot.com",
+"company": "BSJ Technology",
+"sector": "36 IoT & Connectivity",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; video telematics"
+},
+{
+"id": "wisol.co.kr",
+"company": "WISOL: Wireless Solutions",
+"sector": "45 Electronic Parts",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; SAW filters"
+},
+{
+"id": "botanee.com.cn",
+"company": "Botanee Group",
+"sector": "X06 Retail & E-commerce",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; cosmetics brand"
+},
+{
+"id": "thinking-ec.com",
+"company": "THINKING Electronic Industrial Co., Ltd.",
+"sector": "45 Electronic Parts",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; circuit protection"
+},
+{
+"id": "euromicron.de",
+"company": "euromicron AG",
+"sector": "25 IT Services & Consulting",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; high-tech group"
+},
+{
+"id": "snbc.com.cn",
+"company": "SNBC",
+"sector": "25 IT Services & Consulting",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; smart terminals"
+},
+{
+"id": "skylineenterprises.co.nz",
+"company": "Skyline Enterprises",
+"sector": "16 Travel & Hospitality",
+"country": "New Zealand",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; gondola attractions"
+}
+]

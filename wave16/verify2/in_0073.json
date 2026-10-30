@@ -1,0 +1,122 @@
+[
+{
+"id": "webmd.com",
+"company": "WebMD",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Internet Brands (KKR)",
+"triage_note": "real; fit 1; scale mid; health info publisher"
+},
+{
+"id": "nike.sk",
+"company": "Niké je tipovanie",
+"sector": "29 Tech Media & Gaming",
+"country": "Slovakia",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Slovak betting operator"
+},
+{
+"id": "ramirent.com",
+"company": "Ramirent Group",
+"sector": "23 Machine Tools",
+"country": "Finland",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Loxam",
+"triage_note": "real; fit 1; scale mid; Nordic equipment rental"
+},
+{
+"id": "sk-group.com",
+"company": "Schmidt Kranz Group",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; German engineering group"
+},
+{
+"id": "axflow.com",
+"company": "AxFlow",
+"sector": "23 Machine Tools",
+"country": "Sweden",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Fluid handling distributor"
+},
+{
+"id": "nexeye.com",
+"company": "nexeye",
+"sector": "X06 Retail & E-commerce",
+"country": "Netherlands",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; European optical retail platform"
+},
+{
+"id": "eickhoff-international.com",
+"company": "Eickhoff Bergbautechnik GmbH",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Eickhoff Group",
+"triage_note": "real; fit 1; scale mid; Mining machinery maker"
+},
+{
+"id": "inocea.com",
+"company": "Inocea Group",
+"sector": "32 Defense & Industrial AI",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Marine and defence group"
+},
+{
+"id": "lst.aero",
+"company": "LS Technics",
+"sector": "16 Travel & Hospitality",
+"country": "Poland",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Aircraft maintenance Poland"
+},
+{
+"id": "aerostar.ro",
+"company": "AEROSTAR S.A.",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "Romania",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Iaromet",
+"triage_note": "real; fit 1; scale mid; Romanian aerospace MRO"
+}
+]

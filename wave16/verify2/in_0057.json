@@ -1,0 +1,122 @@
+[
+{
+"id": "cuckoobarnlodge.co.uk",
+"company": "CUCKOO",
+"sector": "45 Electronic Parts",
+"country": "Malaysia",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Korean appliance maker"
+},
+{
+"id": "lei.com.tw",
+"company": "Leader Electronics Inc.",
+"sector": "45 Electronic Parts",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; electronic components"
+},
+{
+"id": "norcros.com",
+"company": "Norcros plc",
+"sector": "33 Automation & Robotics",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; bathroom products"
+},
+{
+"id": "iduna.se",
+"company": "Iduna AB",
+"sector": "X06 Retail & E-commerce",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Golden Heights AB",
+"triage_note": "real; fit 1; scale mid; jewellery retail group"
+},
+{
+"id": "processsystems.com",
+"company": "Hermann WALDNER GmbH & Co.KG",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; dosing systems"
+},
+{
+"id": "vonroll-infratec.world",
+"company": "vonRoll infratec (services) ag",
+"sector": "27 Chip Makers",
+"country": "Schweiz",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; infrastructure services"
+},
+{
+"id": "noritsu.co.jp",
+"company": "NORITSU KOKI Co., Ltd.(ノーリツ鋼機株式会社)",
+"sector": "23 Machine Tools",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; holding company"
+},
+{
+"id": "kmpo.ru",
+"company": "ОАО \"Казанское моторостроительное производственное объединение\"",
+"sector": "23 Machine Tools",
+"country": "Russia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; aero engine maker"
+},
+{
+"id": "krasnik.pl",
+"company": "POLISH BEARINGS FACTORY",
+"sector": "23 Machine Tools",
+"country": "Poland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; bearings maker"
+},
+{
+"id": "anjiesz.com",
+"company": "苏州安洁科技股份有限公司-Suzhou Anjie Technology Co., Ltd.",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; electronic components"
+}
+]

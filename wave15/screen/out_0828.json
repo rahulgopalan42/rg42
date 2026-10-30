@@ -1,0 +1,53 @@
+[
+{
+"id": "importexporttrade.us",
+"company": "Import Export Associates, Inc",
+"keep": false,
+"reason": "quick triage: tiny or local business",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+},
+{
+"id": "onlinebookclub.org",
+"company": "OnlineBookClub.org",
+"keep": false,
+"reason": "quick triage: tiny or local business",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+},
+{
+"id": "autovakmeesterworden.nl",
+"company": "Autovakmeester",
+"keep": false,
+"reason": "quick triage: spam or placeholder record",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+}
+]

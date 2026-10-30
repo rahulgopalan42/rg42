@@ -1,0 +1,122 @@
+[
+{
+"id": "mixit.ru",
+"company": "MIXIT",
+"sector": "03 Luxury & Beauty",
+"country": "United Arab Emirates",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; beauty brand"
+},
+{
+"id": "immobilienscout24.de",
+"company": "ImmoScout24",
+"sector": "22 SaaS",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Scout24 SE",
+"triage_note": "real; fit 1; scale mid; German property portal"
+},
+{
+"id": "habibjewels.com",
+"company": "HABIB Group",
+"sector": "03 Luxury & Beauty",
+"country": "Malaysia",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Malaysian jeweller"
+},
+{
+"id": "sinosat.com.cn",
+"company": "Sino Satellite Communication Co., Ltd",
+"sector": "48 Telecom & Space",
+"country": "China",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "China Aerospace Science and Technology Corp",
+"triage_note": "real; fit 1; scale mid; Chinese satcom subsidiary"
+},
+{
+"id": "sunseagroup.com",
+"company": "Sunsea Telecommunications Co., Ltd.",
+"sector": "48 Telecom & Space",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese telecom equipment"
+},
+{
+"id": "zhongli.com",
+"company": "Zhongli Science and Technology Group",
+"sector": "48 Telecom & Space",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese cable/solar maker"
+},
+{
+"id": "fingu.com",
+"company": "Wuhan Fingu Electronic Technology Co., LTD.",
+"sector": "48 Telecom & Space",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese electronics listed"
+},
+{
+"id": "cnd.com",
+"company": "CND",
+"sector": "03 Luxury & Beauty",
+"country": "United States",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Revlon",
+"triage_note": "real; fit 1; scale mid; nail care brand"
+},
+{
+"id": "sexyhair.com",
+"company": "SexyHair",
+"sector": "03 Luxury & Beauty",
+"country": "United States",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Henkel",
+"triage_note": "real; fit 1; scale mid; hair care brand"
+},
+{
+"id": "fanexpohq.com",
+"company": "FAN EXPO HQ",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Public Company",
+"staff": "11-50",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Informa",
+"triage_note": "real; fit 1; scale mid; comic con producer"
+}
+]

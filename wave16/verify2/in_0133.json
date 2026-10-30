@@ -1,0 +1,122 @@
+[
+{
+"id": "electrocomponents.com",
+"company": "Electrocomponents plc",
+"sector": "33 Automation & Robotics",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; industrial electronics distributor"
+},
+{
+"id": "maisonsdumonde.com",
+"company": "Maisons du Monde",
+"sector": "X06 Retail & E-commerce",
+"country": "France",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; French home furnishing retailer"
+},
+{
+"id": "heinemann-shop.com",
+"company": "Heinemann Duty Free",
+"sector": "X06 Retail & E-commerce",
+"country": "Germany",
+"type": "Partnership",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Heinemann family",
+"triage_note": "real; fit 2; scale large; travel retail"
+},
+{
+"id": "krone-agriculture.com",
+"company": "KRONE Agriculture",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Bernard Krone Holding",
+"triage_note": "real; fit 2; scale large; agricultural machinery"
+},
+{
+"id": "delixi-electric.com",
+"company": "Delixi Electric Global",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Partnership",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; electrical equipment"
+},
+{
+"id": "ninestargroup.com",
+"company": "Ninestar Corporation",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Self Owned",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; printing consumables"
+},
+{
+"id": "einhell.de",
+"company": "Einhell Germany AG",
+"sector": "45 Electronic Parts",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; power tools maker"
+},
+{
+"id": "shengu.com.cn",
+"company": "沈鼓集团",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Partnership",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; compressor and blower maker"
+},
+{
+"id": "elvalhalcor.com",
+"company": "ElvalHalcor",
+"sector": "21 Materials & Mech Parts",
+"country": "Greece",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Viohalco",
+"triage_note": "real; fit 2; scale large; aluminium and copper"
+},
+{
+"id": "ovako.com",
+"company": "Ovako Group",
+"sector": "21 Materials & Mech Parts",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Nippon Steel",
+"triage_note": "real; fit 2; scale large; engineering steel"
+}
+]

@@ -1,0 +1,122 @@
+[
+{
+"id": "dekamarkt.nl",
+"company": "DekaMarkt",
+"sector": "X06 Retail & E-commerce",
+"country": "Netherlands",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Detailresult Groep",
+"triage_note": "real; fit 0; scale large; Dutch supermarket"
+},
+{
+"id": "savers.co.uk",
+"company": "Savers Health Home & Beauty",
+"sector": "X06 Retail & E-commerce",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "A.S. Watson Group",
+"triage_note": "real; fit 0; scale large; UK discount retailer"
+},
+{
+"id": "cnhuafas.com",
+"company": "Huafa Industrial Co., Ltd.Zhuhai",
+"sector": "X02 Real Estate & Building Products",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Zhuhai Huafa Group",
+"triage_note": "real; fit 0; scale large; Chinese developer"
+},
+{
+"id": "tegut.com",
+"company": "tegut... gute Lebensmittel GmbH & Co. KG",
+"sector": "X06 Retail & E-commerce",
+"country": "Germany",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Migros-Genossenschafts-Bund",
+"triage_note": "real; fit 0; scale large; German grocery"
+},
+{
+"id": "omsystembolaget.se",
+"company": "Systembolaget AB",
+"sector": "X06 Retail & E-commerce",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Swedish state",
+"triage_note": "real; fit 0; scale large; alcohol retail monopoly"
+},
+{
+"id": "rivegauche.ru",
+"company": "РИВ ГОШ",
+"sector": "X06 Retail & E-commerce",
+"country": "Россия",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Russian perfume retailer"
+},
+{
+"id": "alkosto.com.co",
+"company": "Alkosto S.A.",
+"sector": "X06 Retail & E-commerce",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Colombiana de Comercio (Corbeta)",
+"triage_note": "real; fit 0; scale large; Colombian retailer"
+},
+{
+"id": "smartandfinal.com",
+"company": "Smart & Final",
+"sector": "X06 Retail & E-commerce",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Grupo Comercial Chedraui",
+"triage_note": "real; fit 0; scale large; US warehouse grocery chain"
+},
+{
+"id": "saintfrancis.com",
+"company": "Saint Francis Health System",
+"sector": "42 Health & Wellness",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Tulsa health system"
+},
+{
+"id": "theunitedfamily.com",
+"company": "United Supermarkets, LLC",
+"sector": "X06 Retail & E-commerce",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Albertsons Companies",
+"triage_note": "real; fit 0; scale large; Texas supermarket chain"
+}
+]

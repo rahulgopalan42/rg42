@@ -1,0 +1,122 @@
+[
+{
+"id": "lkm.com.hk",
+"company": "Lung Kee Metal Ltd.",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; HK metal components"
+},
+{
+"id": "kaishan.com.cn",
+"company": "开山控股集团股份有限公司",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese compressors"
+},
+{
+"id": "topbandsmart.com",
+"company": "TOPBAND Smart Home & Building",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese smart modules"
+},
+{
+"id": "flc.vn",
+"company": "FLC Group",
+"sector": "X02 Real Estate & Building Products",
+"country": "Vietnam",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Vietnam conglomerate, troubled"
+},
+{
+"id": "rttn.in",
+"company": "RattanIndia Enterprises Limited.",
+"sector": "25 IT Services & Consulting",
+"country": "India",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Rattanindia Group for its new age growth businesses",
+"triage_note": "real; fit 1; scale mid; India holding company"
+},
+{
+"id": "simpac.com",
+"company": "SIMPAC INC",
+"sector": "23 Machine Tools",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; press machines"
+},
+{
+"id": "alserkal.com",
+"company": "Nasser Bin Abdullatif Alserkal Est.",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "United Arab Emirates",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; UAE importer/distributor"
+},
+{
+"id": "coomogroup.com",
+"company": "COOMO Furnishings Manufacturer(Group) Co., Ltd",
+"sector": "49 Home & Living",
+"country": "China",
+"type": "Self Owned",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese furniture manufacturer"
+},
+{
+"id": "girdear.net",
+"company": "哥弟时尚",
+"sector": "53 Consumer & Lifestyle",
+"country": "China",
+"type": "Partnership",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese fashion group"
+},
+{
+"id": "zuoyou-furniture.com",
+"company": "Nick ZHA",
+"sector": "49 Home & Living",
+"country": "China",
+"type": "Self Owned",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese furniture brand"
+}
+]

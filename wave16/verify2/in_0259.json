@@ -1,0 +1,122 @@
+[
+{
+"id": "syoungintl.com",
+"company": "S'YOUNG INTERNATIONAL",
+"sector": "X06 Retail & E-commerce",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; China beauty platform"
+},
+{
+"id": "eslitecorp.com",
+"company": "eslite 誠品",
+"sector": "X06 Retail & E-commerce",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Taiwan bookstore lifestyle"
+},
+{
+"id": "thedolphinco.com",
+"company": "The Dolphin Company",
+"sector": "16 Travel & Hospitality",
+"country": "Mexico",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; LatAm marine parks"
+},
+{
+"id": "batenburg.nl",
+"company": "Batenburg Techniek N.V.",
+"sector": "23 Machine Tools",
+"country": "Netherlands",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Dutch technical services"
+},
+{
+"id": "ifelift.com",
+"company": "IFE Elevators CO., LTD",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese elevator maker"
+},
+{
+"id": "hkri.com",
+"company": "HKR International Limited",
+"sector": "X02 Real Estate & Building Products",
+"country": "Hong Kong",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; HK property developer"
+},
+{
+"id": "hanatourcompany.com",
+"company": "하나투어(HANATOUR)",
+"sector": "16 Travel & Hospitality",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Korean travel agency"
+},
+{
+"id": "haycarb.com",
+"company": "HAYCARB PLC",
+"sector": "33 Automation & Robotics",
+"country": "Sri Lanka",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Hayleys",
+"triage_note": "real; fit 1; scale mid; activated carbon maker"
+},
+{
+"id": "refond.com",
+"company": "Refond Optoelectronics",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; LED packaging maker"
+},
+{
+"id": "forte.com.pl",
+"company": "Fabryki Mebli \"FORTE\" S.A.",
+"sector": "49 Home & Living",
+"country": "Poland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Polish furniture exporter"
+}
+]

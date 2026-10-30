@@ -1,0 +1,122 @@
+[
+{
+"id": "nai-group.com",
+"company": "NAI Group",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; rugged electronics"
+},
+{
+"id": "cbpg.com",
+"company": "Clyde Bergemann Power Group",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; boiler cleaning systems"
+},
+{
+"id": "axillonaerospace.com",
+"company": "Axillon Aerospace",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; aerospace components"
+},
+{
+"id": "songmicshomeb2b.com",
+"company": "SONGMICS HOME",
+"sector": "49 Home & Living",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; home goods brand"
+},
+{
+"id": "tmaxgroup.com",
+"company": "tmax Group",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; high-temperature insulation"
+},
+{
+"id": "conscia.com",
+"company": "Conscia",
+"sector": "25 IT Services & Consulting",
+"country": "Denmark",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; networking and security"
+},
+{
+"id": "bi-link.com",
+"company": "Bi-Link",
+"sector": "23 Machine Tools",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; precision components"
+},
+{
+"id": "higoldgroup.com",
+"company": "HIGOLD Luxury Outdoor Lifestyle",
+"sector": "49 Home & Living",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; luxury outdoor furniture"
+},
+{
+"id": "sfotechnologies.net",
+"company": "NeST Hi-Tek Park",
+"sector": "45 Electronic Parts",
+"country": "India",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "NeST Group",
+"triage_note": "real; fit 2; scale mid; electronics manufacturer"
+},
+{
+"id": "optibelt.com",
+"company": "Optibelt",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; power transmission belts"
+}
+]

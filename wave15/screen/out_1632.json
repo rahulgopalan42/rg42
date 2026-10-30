@@ -1,0 +1,36 @@
+[
+{
+"id": "smartcv.co",
+"company": "Olympic Shipping and Management S.A.",
+"keep": false,
+"reason": "quick triage: domain mismatch CV site",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+},
+{
+"id": "supportingeducation.com",
+"company": "Supporting Education Group",
+"keep": false,
+"reason": "quick triage: education body",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+}
+]

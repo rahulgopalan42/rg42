@@ -1,0 +1,122 @@
+[
+{
+"id": "eles.group",
+"company": "ELES Group",
+"sector": "45 Electronic Parts",
+"country": "Slovenija",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Slovenian grid operator"
+},
+{
+"id": "felgenhauer.pl",
+"company": "Felgenhauer",
+"sector": "23 Machine Tools",
+"country": "Poland",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; industrial family business"
+},
+{
+"id": "dunarit.com",
+"company": "Dunarit Corp.",
+"sector": "32 Defense & Industrial AI",
+"country": "Bulgaria",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Bulgarian defence maker"
+},
+{
+"id": "tconcept.fr",
+"company": "T-CONCEPT Group",
+"sector": "45 Electronic Parts",
+"country": "France",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; wiring harnesses"
+},
+{
+"id": "erlau-freiraum.de",
+"company": "Erlau Freiraum",
+"sector": "49 Home & Living",
+"country": "Germany",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; outdoor shading"
+},
+{
+"id": "swimmingproducts.com",
+"company": "SHENZHEN FLUENT SPORTS TECHNOLOGY CO., LTD",
+"sector": "53 Consumer & Lifestyle",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; sports technology China"
+},
+{
+"id": "xdect.com.cn",
+"company": "China Xd Electric Co., Ltd.",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; electrical equipment"
+},
+{
+"id": "irancarpet.ir",
+"company": "شرکت سهامی فرش ایران",
+"sector": "49 Home & Living",
+"country": "Iran",
+"type": "Self Owned",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; handwoven carpets"
+},
+{
+"id": "canalhinode.com.br",
+"company": "Micro Franquia Hinode",
+"sector": "53 Consumer & Lifestyle",
+"country": "Brazil",
+"type": "Partnership",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Brazilian direct selling cosmetics"
+},
+{
+"id": "originwater.com",
+"company": "Beijing Origin Water Technology Co.,Ltd",
+"sector": "NEW Other",
+"country": "China",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; water treatment"
+}
+]

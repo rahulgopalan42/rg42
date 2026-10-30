@@ -1,0 +1,53 @@
+[
+{
+"id": "hotelkeyapp.com",
+"company": "HotelKey",
+"keep": false,
+"reason": "quick triage: tiny software startup",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+},
+{
+"id": "addaeducation.com",
+"company": "Adda Education",
+"keep": false,
+"reason": "quick triage: small tutoring firm",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+},
+{
+"id": "veldsink.nl",
+"company": "Veldsink Advies",
+"keep": false,
+"reason": "quick triage: tiny advisory firm",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+}
+]

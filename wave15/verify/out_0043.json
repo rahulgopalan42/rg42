@@ -1,0 +1,297 @@
+[
+ {
+  "id": "laitram.com",
+  "company": "Laitram L.L.C.",
+  "sector_tab": "33 Automation & Robotics",
+  "domain": "laitram.com",
+  "hq": "Harahan (New Orleans), Louisiana, United States",
+  "ownership": "Private, family-owned (Lapeyre family)",
+  "sells": "Intralox modular plastic conveyor belting/ARB systems, Laitram Machinery food-processing equipment, Lapeyre Stair; sites in US, UK, China, Brazil, Japan, India",
+  "headcount_band": "1,001-5,000 (Laitram 3,000+ globally, 2022 state release; Intralox ~2,550, Revelio 2025)",
+  "revenue": "~USD 450-510M (directory estimates, undated, est); no official figure",
+  "valuation": "unknown (private)",
+  "latest_raise": "none (family-owned)",
+  "fit_score": 2,
+  "fit_detail": "sells in 3+ F1 markets (1); buyers are plant/operations engineers, not senior affluent decision-makers (0); conveyor engineering only loosely maps to precision (0); category not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue estimate only (private), borderline 500M",
+   "B2B industrial, limited brand motive"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "No hard filter failed (revenue ~USD 450-510M est, 3,000+ staff, no F1 tie found); global B2B conveyor maker with little consumer or brand ambition.",
+  "best_angle": "",
+  "sources": [
+   "https://www.reveliolabs.com/companies/intralox/employees",
+   "https://www.opportunitylouisiana.gov/news/intralox-to-invest-60-million-in-major-expansion-of-hammond-facility",
+   "https://bitscale.ai/directory/intralox",
+   "https://www.fulfill.com/partners/laitram"
+  ]
+ },
+ {
+  "id": "chiquita.com",
+  "company": "Chiquita Brands",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "chiquita.com",
+  "hq": "Etoy, Switzerland",
+  "ownership": "Private; owned by Cutrale family (Sucocitrico Cutrale) and Safra Group since Jan 2015 (USD ~1.3B take-private)",
+  "sells": "Bananas, fresh fruit and packaged fruit snacks under the Chiquita brand; Europe, North America and other markets worldwide",
+  "headcount_band": "10,001+ (~18,000, screen estimate, est)",
+  "revenue": "~USD 3.1B (World Benchmarking Alliance profile, ~2019-20, est); ~USD 3B 2014 at take-private",
+  "valuation": "~USD 1.3B EV at take-private (Oct 2014); no current figure",
+  "latest_raise": "none (privately held)",
+  "fit_score": 2,
+  "fit_detail": "sells in 3+ F1 markets (1); mass-market rather than affluent 25-54 audience (0); healthy-snack/energy story is a weak fit to performance/technology (0); fruit not crowded on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "revenue figures dated (2014-2020, est)",
+   "mass consumer audience"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (revenue ~USD 3B est, large workforce, no F1 tie found for Chiquita or Cutrale/Safra); global consumer brand but mass audience and dated financials are the reservation.",
+  "best_angle": "Global consumer brand could use F1's fan base for a healthy-energy, athlete-fuel snack story.",
+  "sources": [
+   "https://www.worldbenchmarkingalliance.org/publication/food-agriculture/2020/companies/cutrale-chiquita",
+   "https://theproducenews.com/node/14157",
+   "https://www.foodbusinessnews.net/articles/3284-cutrale-safra-to-acquire-chiquita",
+   "https://refrigeratedfrozenfood.com/articles/88661-brazilian-juice-maker-acquires-chiquita-brands"
+  ]
+ },
+ {
+  "id": "astara.com",
+  "company": "Astara (formerly Bergé Automoción)",
+  "sector_tab": "43 Mobility & Automotive",
+  "domain": "astara.com",
+  "hq": "Madrid, Spain",
+  "ownership": "Private, Bergé family (formerly Bergé Automoción)",
+  "sells": "Vehicle import/distribution and retail of ~30-40 OEM brands plus mobility services, across 18 countries in Europe and Latin America",
+  "headcount_band": "1,001-5,000 (~3,000 staff 2025, company newsroom; Revelio 2,761)",
+  "revenue": "~EUR 5.0B (~USD 5.6B) 2025, 220,000 new vehicles sold (company newsroom)",
+  "valuation": "unknown (private)",
+  "latest_raise": "none found",
+  "fit_score": 1,
+  "fit_detail": "sells in 3+ F1 markets (Spain, Austria, Belgium, Mexico etc.) (1); mass-market car buyers (0); distribution/mobility story only weakly maps to performance (0); automotive category crowded (0)",
+  "up_and_coming": false,
+  "flags": [
+   "automotive category crowded",
+   "confirm none of its distributed OEM brands creates an F1 conflict (e.g., Audi, Cadillac, Alpine)"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes hard filters (revenue ~EUR 5.0B 2025, ~3,000 staff, no F1 tie found) but fit 1: car distributor in a crowded automotive category.",
+  "best_angle": "",
+  "sources": [
+   "https://astaranews.prezly.com/astara-new-name-of-berge-auto-and-alcomotive",
+   "https://www.reveliolabs.com/companies/astara-mobility/employees",
+   "https://astara.com/en/astara-2024-sustainability-report",
+   "https://www.autosprint.ch/en/?p=82818"
+  ]
+ },
+ {
+  "id": "huf-group.com",
+  "company": "Huf Hülsbeck & Fürst",
+  "sector_tab": "43 Mobility & Automotive",
+  "domain": "huf-group.com",
+  "hq": "Velbert, Germany",
+  "ownership": "Hülsbeck and Fürst family trusts (~70%) with Sodecia (Portugal) 30% stake and joint control since May 2025 (EC case M.11840); Sodecia plans majority by 2028",
+  "sells": "Car access and authorisation systems (locks, door handles, keys, digital key, TPMS) to global automotive OEMs; 17 sites in Europe, Americas, Asia",
+  "headcount_band": "5,001-10,000 (~7,000, FY2024 company job ads)",
+  "revenue": "~EUR 1.1B (~USD 1.2B) FY2024 (company job ads)",
+  "valuation": "unknown (private)",
+  "latest_raise": "none; refinancing at Sodecia deal close (May 2025)",
+  "fit_score": 1,
+  "fit_detail": "sells in 3+ F1 markets (1); buyers are OEM procurement, not an affluent audience (0); precision access-tech story partly maps (0, B2B only); automotive category crowded (0)",
+  "up_and_coming": false,
+  "flags": [
+   "Sodecia 30% stake with joint control; majority planned by 2028 (absorption risk)",
+   "restructured 2019-21; refinanced May 2025",
+   "automotive category crowded",
+   "B2B Tier-1 supplier"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes hard filters (revenue ~EUR 1.1B FY2024, ~7,000 staff, no F1 tie found for Huf or Sodecia) but B2B automotive Tier-1 with no consumer brand ambition and pending Sodecia majority.",
+  "best_angle": "",
+  "sources": [
+   "https://sza.de/assets/downloads/2024-12-20_SZA-Press-release-Sodecia.pdf",
+   "https://ieu-monitoring.com/editorial/eu-commission-clears-acquisition-of-huf-by-huf-holding-and-sodecia/654244/",
+   "https://www.afia.pt/industria-automovel/huf-group-new-shareholder-new-management-and-a-strong-refinancing/",
+   "https://www.stepstone.de/results/deutschland/in-velbert"
+  ]
+ },
+ {
+  "id": "quintet.lu",
+  "company": "Quintet Private Bank",
+  "sector_tab": "01 Banking & Insurance",
+  "domain": "quintet.lu",
+  "hq": "Luxembourg",
+  "ownership": "Private; controlled by Precision Capital (Al Thani family, Qatar)",
+  "sells": "Private banking and wealth management (Quintet Luxembourg, Merck Finck DE, InsingerGilissen NL, Quintet Belgium, Brown Shipley UK); EUR 105B client assets (Dec 2025)",
+  "headcount_band": "1,001-5,000 (1,586 FTE Dec 2025; 1,685 active, June 2026 investor presentation)",
+  "revenue": "EUR 552.7M (~USD 620M) total income 2025; net profit EUR 66.3M (company results)",
+  "valuation": "unknown (private)",
+  "latest_raise": "none found",
+  "fit_score": 2,
+  "fit_detail": "sells in 3+ F1 markets (UK, NL, BE, ES) (1); affluent/HNW clients (1); private-banking story does not map to performance/technology (0); banking crowded on grid (0)",
+  "up_and_coming": false,
+  "flags": [
+   "banking category crowded",
+   "~300 job cuts announced Dec 2025 through 2027 (cost programme, profitable)",
+   "income declined 2025"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (income ~USD 620M 2025, ~1,600 FTE, profitable, no F1 tie found for Quintet or Precision Capital); affluent audience but banking is crowded on the grid and the bank is cutting costs.",
+  "best_angle": "F1 hospitality fits a HNW private bank courting entrepreneurs across UK, Benelux and Germany.",
+  "sources": [
+   "https://www.quintet.com/media/quintet-reports-solid-2025-results-with-growing-client-assets-and-strong-capital-position",
+   "https://www.quintet.com/media/vnhodyda/quintet-investor-presentation-june-2026.pdf",
+   "https://apps.eurofound.europa.eu/restructuring-events/detail/203863",
+   "https://en.paperjam.lu/article/profit-down-and-revenues-under-pressure-at-quintet"
+  ]
+ },
+ {
+  "id": "hipra.com",
+  "company": "HIPRA",
+  "sector_tab": "X Pharma & Biotech",
+  "domain": "hipra.com",
+  "hq": "Amer (Girona), Spain",
+  "ownership": "Private, family-owned (Nogareda family)",
+  "sells": "Animal-health vaccines and diagnostics (vet division EUR 490M) plus human vaccines (Bimervax); 40+ countries",
+  "headcount_band": "1,001-5,000 (~2,800 target end-2025, Diari de Girona June 2025)",
+  "revenue": "EUR 516M (~USD 580M) 2025, +17% y/y; net profit EUR 53.9M (Europa Press/Forbes)",
+  "valuation": "unknown (private)",
+  "latest_raise": "none (family-owned)",
+  "fit_score": 2,
+  "fit_detail": "sells in 3+ F1 markets (1); buyers are vets and livestock producers (0); biotech innovation story partly maps to technology/precision (0, weak for audience); category not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "revenue just crossed EUR 500M in 2025",
+   "veterinary B2B audience"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes hard filters (revenue EUR 516M 2025, ~2,800 staff, no F1 tie found) but veterinary B2B vaccine maker with little brand ambition toward an F1 audience.",
+  "best_angle": "",
+  "sources": [
+   "https://forbes.es/health/962358/facturacion-hipra-2025/",
+   "https://www.catalonia.health/news/hipra-tanca-el-2025-amb-una-facturacio-record-de-516-milions-deuros-i-un-benefici-net-de-53-9-milions/?lang=en",
+   "https://en.wikipedia.org/wiki/HIPRA",
+   "https://es.ara.cat/economia/farmaceuticas/hipra-supera-primera-vez-500-millones-euros-facturacion_1_5777538.html"
+  ]
+ },
+ {
+  "id": "urgo-group.fr",
+  "company": "URGO Group",
+  "sector_tab": "X Pharma & Biotech",
+  "domain": "urgo-group.fr",
+  "hq": "Chenôve (Dijon), France",
+  "ownership": "Private, family-owned (Le Lous family)",
+  "sells": "Wound care (URGO Medical) and consumer-health pharmacy brands (Urgo, Mercurochrome, etc.); ~60% of sales international, 60+ countries",
+  "headcount_band": "1,001-5,000 (~3,800-4,000, group one-pager 2026)",
+  "revenue": "EUR 930M (~USD 1.05B) 2025 (group one-pager); crossed EUR 1B run-rate April 2026",
+  "valuation": "unknown (private)",
+  "latest_raise": "none (family-owned); EUR 150M investment plan 2026-27",
+  "fit_score": 2,
+  "fit_detail": "sells in 3+ F1 markets (1); mass pharmacy shoppers rather than affluent 25-54 (0); wound-healing tech story weakly maps (0); consumer health not crowded on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "mass consumer audience"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (revenue EUR 930M 2025, ~4,000 staff, no F1 tie found); consumer-health brand with international ambition but mass audience is the reservation.",
+  "best_angle": "Crossing EUR 1B with a EUR 150M investment plan, URGO could use F1 to lift its brands internationally (first aid/recovery story).",
+  "sources": [
+   "https://urgo-group.fr/wp-content/uploads/2026/06/Presentation-one-pager-du-Groupe-URGO.pdf",
+   "https://urgo-group.fr/wp-content/uploads/2026/06/CP-URGO-confirme-son-ambition-francaise.pdf",
+   "https://www.sudradio.fr/societe/urgo-annonce-150-millions-deuros-dinvestissement-en-2026-2027",
+   "https://lessentieldeleco.fr/1030-urgo-une-success-story-familiale-depuis-dijon/"
+  ]
+ },
+ {
+  "id": "bitron.com",
+  "company": "Bitron",
+  "sector_tab": "45 Electronic Parts",
+  "domain": "bitron.com",
+  "hq": "Turin, Italy",
+  "ownership": "Private, family-owned (Bitron S.p.A. con unico socio, held by family holding)",
+  "sells": "Mechatronic devices, sensors, switches and electronic systems for automotive, appliance, HVAC and energy OEMs; 16 plants/R&D centres worldwide",
+  "headcount_band": "5,001-10,000 (~8,500 group, Enlit profile, est)",
+  "revenue": "EUR 535M (~USD 580M) 2023 Bitron S.p.A. statutory; group higher (~EUR 1B est)",
+  "valuation": "unknown (private)",
+  "latest_raise": "none (family-owned)",
+  "fit_score": 2,
+  "fit_detail": "sells in 3+ F1 markets (1); OEM engineering buyers (0); mechatronics precision story maps (1); automotive-electronics category counts as automotive/crowded (0)",
+  "up_and_coming": false,
+  "flags": [
+   "automotive category crowded",
+   "B2B component supplier",
+   "group revenue estimate"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes hard filters (Bitron S.p.A. revenue EUR 535M 2023, ~8,500 group staff, no F1 tie found) but B2B auto/appliance component supplier with no brand ambition.",
+  "best_angle": "",
+  "sources": [
+   "https://www.aziende.it/bitron-s-p-a",
+   "https://www.enlit.world/companies/bitron-electronics-division",
+   "https://careerdays.polito.it/wp-content/uploads/2024/05/Company-profile-Bitron-2024.pdf"
+  ]
+ },
+ {
+  "id": "centric.eu",
+  "company": "Centric",
+  "sector_tab": "25 IT Services & Consulting",
+  "domain": "centric.eu",
+  "hq": "Gouda, Netherlands",
+  "ownership": "Private; consortium led by Imker Capital Partners (majority) with Adriaan Mol, Ronald Bezuur, Bram Bastiaansen since Aug 2024 (ex-Sanderink)",
+  "sells": "IT services, managed services and software (public sector, retail, finance) in 8 European countries",
+  "headcount_band": "1,001-5,000 (3,100+ staff, July 2024 sale coverage)",
+  "revenue": "~EUR 425M (~USD 460M) 2023",
+  "valuation": "undisclosed (2024 sale)",
+  "latest_raise": "none; PE-consortium buyout Aug 2024",
+  "fit_score": 1,
+  "fit_detail": "sells in fewer than 3 F1 markets in practice (NL/BE core) (0); senior B2B IT buyers (1); IT services story weakly maps (0); IT services not crowded (1) - note cloud/cyber adjacency",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "2024 change of ownership after Sanderink governance dispute (Ondernemingskamer found mismanagement Dec 2025)",
+   "mainly Benelux B2B"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes hard filters (revenue ~EUR 425M 2023, 3,100+ staff, no F1 tie found) but mainly Benelux B2B IT services with recent governance turmoil and little brand ambition.",
+  "best_angle": "",
+  "sources": [
+   "https://www.accountant.nl/nieuws/2024/7/geplaagd-it-bedrijf-centric-verkocht/",
+   "https://siliconcanals.com/imker-capital-acquire-centric-holdings/",
+   "https://www.consultancy.nl/adviesbureaus/centric/nieuws",
+   "https://mtsprout.nl/nieuws/centric-hans-van-waayenburg"
+  ]
+ },
+ {
+  "id": "hedgeserv.com",
+  "company": "HedgeServ",
+  "sector_tab": "09 Fintech",
+  "domain": "hedgeserv.com",
+  "hq": "New York, United States",
+  "ownership": "Private equity: Aquiline Capital Partners (since 2009; portfolio status 'current'); sale process reported Feb 2025, no buyer confirmed",
+  "sells": "Fund administration, middle-office and technology services to hedge funds and alternative managers; offices US, Ireland, UK, Luxembourg, Australia, Poland and others",
+  "headcount_band": "1,001-5,000 (~2,070, Revelio 2025)",
+  "revenue": "~USD 300-400M (aggregator estimates 2025, est)",
+  "valuation": "unconfirmed; >USD 1B sale target reported (aggregator, Feb 2025, est)",
+  "latest_raise": "none found (PE-owned)",
+  "fit_score": 3,
+  "fit_detail": "sells in 3+ F1 markets (1); senior B2B buyers (fund CFOs/COOs) (1); data/technology precision story maps (1); fund administration adjacent to crowded banking (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "pending PE sale (ownership may change)",
+   "B2B niche audience"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (revenue ~USD 300-400M est, ~2,000 staff, no F1 tie found); capped at Stretch by the USD 150-500M revenue route and a pending PE sale.",
+  "best_angle": "F1 hospitality is a strong client-entertainment tool for a fund administrator selling to senior hedge-fund executives in London, New York and Dublin.",
+  "sources": [
+   "https://www.reveliolabs.com/companies/hedgeserv/employees/",
+   "https://simplify.jobs/c/HedgeServ",
+   "https://www.fortune.com/2025/02/05/deal-scoop-ultimus-fund-solutions-and-hedgeserv-are-seeking-buyers",
+   "https://www.aquiline.com/portfolio/hedgeserv-holdings-lp"
+  ]
+ }
+]

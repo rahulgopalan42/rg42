@@ -1,0 +1,122 @@
+[
+{
+"id": "smartwings.com",
+"company": "Smartwings",
+"sector": "16 Travel & Hospitality",
+"country": "Czechia",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Smartwings Group",
+"triage_note": "real; fit 1; scale mid; Czech airline"
+},
+{
+"id": "chropynska.com",
+"company": "CHROPYNSKA Group",
+"sector": "33 Automation & Robotics",
+"country": "Czechia",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "CHROPYNSKA Group",
+"triage_note": "real; fit 1; scale mid; Czech industrial group"
+},
+{
+"id": "portalp.com",
+"company": "Portalp",
+"sector": "33 Automation & Robotics",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; automatic doors"
+},
+{
+"id": "trinitytouch.com",
+"company": "Trinity Touch",
+"sector": "45 Electronic Parts",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Bharat Charge Alliance",
+"triage_note": "real; fit 1; scale mid; touch screens"
+},
+{
+"id": "domina.it",
+"company": "Domina",
+"sector": "16 Travel & Hospitality",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Italian hotel/resort group"
+},
+{
+"id": "numatic.co.uk",
+"company": "Numatic International",
+"sector": "23 Machine Tools",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; vacuum cleaners"
+},
+{
+"id": "bundyrefrigeration.com",
+"company": "BUNDY REFRIGERATION",
+"sector": "23 Machine Tools",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; heat exchangers"
+},
+{
+"id": "apg-ga.com",
+"company": "APG Network",
+"sector": "16 Travel & Hospitality",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; airline representation"
+},
+{
+"id": "jules.com",
+"company": "JULES",
+"sector": "X06 Retail & E-commerce",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Mulliez family",
+"triage_note": "real; fit 1; scale mid; menswear chain"
+},
+{
+"id": "allcircuits.com",
+"company": "ALL Circuits",
+"sector": "45 Electronic Parts",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; electronics manufacturing"
+}
+]

@@ -1,0 +1,122 @@
+[
+{
+"id": "dellnerbubenzer.com",
+"company": "Dellner Bubenzer",
+"sector": "23 Machine Tools",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; industrial brakes"
+},
+{
+"id": "topwerk.com",
+"company": "TOPWERK GROUP",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; precision engineering group"
+},
+{
+"id": "leistritz.com",
+"company": "Leistritz Group",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; extrusion and pumps"
+},
+{
+"id": "kingslide.com",
+"company": "King Slide",
+"sector": "49 Home & Living",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; precision slide rails"
+},
+{
+"id": "inform-software.com",
+"company": "INFORM GmbH - Optimization Software",
+"sector": "22 SaaS",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; optimization software"
+},
+{
+"id": "novariagroup.com",
+"company": "Novaria",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; aerospace components group"
+},
+{
+"id": "excelsm.com",
+"company": "Excel Sports Management",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "United States",
+"type": "Privately Held",
+"staff": "51-200",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; athlete management"
+},
+{
+"id": "spinea.com",
+"company": "SPINEA",
+"sector": "23 Machine Tools",
+"country": "Slovakia",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; precision gearboxes"
+},
+{
+"id": "hundegger.com",
+"company": "Hans Hundegger AG",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; timber processing machines"
+},
+{
+"id": "karllagerfeld.com",
+"company": "KARL LAGERFELD",
+"sector": "53 Consumer & Lifestyle",
+"country": "Nederland",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "G-III Apparel",
+"triage_note": "real; fit 3; scale mid; fashion brand"
+}
+]

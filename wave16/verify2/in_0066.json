@@ -1,0 +1,122 @@
+[
+{
+"id": "kenzi-hotels.com",
+"company": "Kenzi Hotels Group",
+"sector": "16 Travel & Hospitality",
+"country": "Morocco",
+"type": "Partnership",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Moroccan hotel group"
+},
+{
+"id": "ceegenergy.com",
+"company": "CEEG Energy",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Self Owned",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese electrical equipment maker"
+},
+{
+"id": "mhsglobal.com",
+"company": "Material Handling Systems, Inc.",
+"sector": "33 Automation & Robotics",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Thomas H. Lee Partners",
+"triage_note": "real; fit 1; scale mid; Material handling automation"
+},
+{
+"id": "flowcontrolgroup.com",
+"company": "Flow Control Group",
+"sector": "23 Machine Tools",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Industrial flow products"
+},
+{
+"id": "atsmro.com",
+"company": "Aviation Technical Services",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Aircraft MRO"
+},
+{
+"id": "hbdindustries.com",
+"company": "HBD Industries",
+"sector": "23 Machine Tools",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Manufacturing holding company"
+},
+{
+"id": "marshalldennehey.com",
+"company": "Marshall Dennehey",
+"sector": "50 Law Firms & Legal AI",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; US defence law firm"
+},
+{
+"id": "tailg.com.cn",
+"company": "DONGGUAN TAILING ELECTRIC VEHICLE CO.,LTD",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese e-bike maker"
+},
+{
+"id": "clevo.com.tw",
+"company": "CLEVO藍天電腦",
+"sector": "45 Electronic Parts",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; laptop ODM"
+},
+{
+"id": "zastava-arms.rs",
+"company": "Zastava oružje AD",
+"sector": "23 Machine Tools",
+"country": "Serbia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; state firearms maker"
+}
+]

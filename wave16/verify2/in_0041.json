@@ -1,0 +1,122 @@
+[
+{
+"id": "pinggao.com",
+"company": "Henan Pinggao Electric Co., Ltd.",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Pinggao Group (State Grid)",
+"triage_note": "real; fit 1; scale large; Chinese switchgear maker"
+},
+{
+"id": "cottonongroup.com.au",
+"company": "Cotton On Group",
+"sector": "X06 Retail & E-commerce",
+"country": "Australia",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Australian fashion retailer"
+},
+{
+"id": "runergy.com",
+"company": "Runergy Solar",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Partnership",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Chinese solar maker"
+},
+{
+"id": "ashley.com",
+"company": "Ashley Global Retail",
+"sector": "X06 Retail & E-commerce",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Ashley Furniture Industries",
+"triage_note": "real; fit 1; scale large; furniture retailer manufacturer"
+},
+{
+"id": "gnc.com",
+"company": "GNC",
+"sector": "X06 Retail & E-commerce",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Harbin Pharmaceutical Group",
+"triage_note": "real; fit 1; scale large; nutrition retailer"
+},
+{
+"id": "avc.co",
+"company": "Asia Vital Components Co.,Ltd.",
+"sector": "45 Electronic Parts",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; thermal solutions maker"
+},
+{
+"id": "nitori.co.jp",
+"company": "ニトリアルムナイページ",
+"sector": "49 Home & Living",
+"country": "Japan",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Japanese furniture retailer"
+},
+{
+"id": "ppih.co.jp",
+"company": "Pan Pacific International Holdings Corporation",
+"sector": "X06 Retail & E-commerce",
+"country": "Japan",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Japanese discount retailer"
+},
+{
+"id": "masorange.es",
+"company": "MasOrange",
+"sector": "48 Telecom & Space",
+"country": "Spain",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Orange SA",
+"triage_note": "real; fit 1; scale large; Spanish telecom JV"
+},
+{
+"id": "sfr.com",
+"company": "SFR",
+"sector": "48 Telecom & Space",
+"country": "France",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Altice France",
+"triage_note": "real; fit 1; scale large; French telecom"
+}
+]
