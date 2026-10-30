@@ -48,9 +48,12 @@ par = list(range(len(df))); df = df.reset_index(drop=True)
 def find(i):
     while par[i] != i: par[i] = par[par[i]]; i = par[i]
     return i
+_CT = {'usa': 'united states', 'us': 'united states', 'u.s.': 'united states', 'uk': 'united kingdom', 'uae': 'united arab emirates', 'korea': 'south korea', 'republic of korea': 'south korea'}
+_cty = lambda x: _CT.get(s(x).lower().split('/')[0].strip(), s(x).lower().split('/')[0].strip())
 seen = {}
 for i, r in df.iterrows():
-    for k in {('d', regdom(r['domain'])), ('n', loose(r['brand'])), ('n', loose(r['legal_name'])), ('n', loose(r['vkey'])), ('c', r['cbid'])}:
+    c = _cty(r['hq_country'])
+    for k in {('d', regdom(r['domain'])), ('n', loose(r['brand']), c), ('n', loose(r['legal_name']), c), ('n', loose(r['vkey']), c), ('c', r['cbid'])}:
         if not k[1] or len(k[1]) < 3: continue
         if k in seen: par[find(i)] = find(seen[k])
         else: seen[k] = i
