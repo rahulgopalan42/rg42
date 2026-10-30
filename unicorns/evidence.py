@@ -131,6 +131,10 @@ def decide(r):
             if tv is None: tv = True
             ev += f" | news: USD {nv_:,.2f}B ({nm})"
         elif nv_ is not None and nv_ < 1 and s(x[6]).lower() == 'corrected': tv, ev = False, f"news: USD {nv_:,.2f}B ({nm}) - {evd}"
+        elif nv_ is None and s(x[6]).lower() == 'corrected' and st == 'private': tv, ev = None, f"news: valuation no longer supported ({s(x[8])})"
+        if st == 'unknown' and tp: tp, ep = None, f"news: status unclear - {s(x[8])}"
+        if re.search(r'not (truly )?independent|majority[- ]owned|subsidiary of|[a-z]+-controlled|controlled by|joint venture|\bjv\b', s(x[8]), re.I) and not re.search(r'still independent|minority', s(x[8]), re.I) and tp:
+            tp, ep = False, f"not independent: {s(x[8])}"
         if fok == 'Y' and tf is None: tf, ef = True, ef + ' | news: total raised >= USD 200M'
         elif fok == 'N' and tf is None: tf, ef = False, ef + ' | news: total raised < USD 200M'
         elif fok == 'N' and tf: tf, ef = None, ef + ' | conflict: news suggests < USD 200M'
