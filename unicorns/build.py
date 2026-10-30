@@ -89,6 +89,23 @@ u['banned'] = (u['note'] + ' ' + u['what'] + ' ' + u['brand']).str.contains(r'ca
 UNSURE = re.compile(r'unsure|verify|unverified|former|reported|possible|rumou?r|\?', re.I)
 NOTF1 = re.compile(r'formula e\b|indycar|nascar|esports|broadcast|licen[cs]|^none|not f1|\bex-|former', re.I)
 u['f1_current'] = u['f1_status'].str.lower().eq('current') & ~u['f1_deal'].str.contains(UNSURE) & ~u['f1_deal'].str.contains(NOTF1)
+# 2026 F1 sponsor rosters (Formula 1 + all 11 teams, compiled from team / F1 partner pages): a match sets the row aside whatever research said
+_rf = os.path.join(H, 'ref', 'f1_sponsors_2026.json')
+if os.path.exists(_rf):
+    _ros = json.load(open(_rf)); RN = {}; RD = {}
+    for x in _ros:
+        if loose(x[0]) and len(loose(x[0])) >= 3: RN.setdefault(loose(x[0]), []).append(f"{x[2]} ({x[3]})")
+        if regdom(x[1]): RD.setdefault(regdom(x[1]), []).append(f"{x[2]} ({x[3]})")
+    def _roster(r):
+        hits = RN.get(loose(r['brand']), []) + (RN.get(loose(r['legal_name']), []) if r['legal_name'] else [])
+        for d in r['domains'] if isinstance(r['domains'], list) else []: hits += RD.get(d, [])
+        return '; '.join(sorted(set(hits)))
+    u['f1_roster'] = u.apply(_roster, axis=1)
+    u.loc[u['f1_roster'] != '', 'f1_current'] = True
+    u['f1_deal'] = u.apply(lambda r: r['f1_roster'] or r['f1_deal'], axis=1)
+    print('on 2026 F1 rosters', int((u['f1_roster'] != '').sum()))
+else:
+    u['f1_roster'] = ''
 # Rahul's sheets and the 30 Oct list
 u['on_sheets'] = u.apply(lambda r: present(r['brand'], r['domain']) or (present(r['legal_name']) if r['legal_name'] else '') or phrase_present(r['brand']), axis=1)
 nb = pd.read_pickle(os.path.join(R, 'brands200', 'new_brands.pkl'))
