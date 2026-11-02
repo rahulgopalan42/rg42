@@ -425,22 +425,23 @@ async function build() {
     s.addShape(S.RECTANGLE, { x: 0, y: 0, w: W, h: H, fill: { color: C.text1, transparency: 30 }, line: { color: C.text1, width: 0 } });
     s.addText("ADYEN'S BRIEF", { placeholder: "eyebrow" });
     s.addText(t("Adyen: creating **financial efficiencies** in F1"), { placeholder: "title" });
-    s.addText("ADYEN'S BRIEF DEFINES FOUR PRIORITIES FOR F1", { x: L, y: 2.75, w: 11, h: 0.3, fontSize: 12, bold: true,
+    s.addText("WHAT ADYEN WANTS FROM F1", { x: L, y: 2.75, w: 11, h: 0.3, fontSize: 12, bold: true,
       color: C.accent4, charSpacing: 1.5, margin: 0, isTextBox: true });
     const pr = [
+      ["FiCreditCard", "Payment integration", "Adyen's payments live inside the team's or rights holder's business"],
       ["FiGlobe", "Global brand", "Show how Adyen's payments can power the financial business of F1"],
       ["FiUsers", "Client relationships", "Host partners, merchants and senior decision makers"],
       ["FiTrendingUp", "Commercial growth", "Win new deals, renew contracts and build pipeline"],
       ["FiFlag", "One global programme", "Unite local hosting across an initial 8–10 F1 races"],
     ];
-    const cw = (CW - 0.9) / 4;
+    const cw = (CW - 1.0) / 5;
     for (const [i, [ic, head, body]] of pr.entries()) {
-      const x = L + i * (cw + 0.3), y = 3.25;
-      card(s, x, y, cw, 2.55, C.accent5, "Priority card");
-      await iconDot(s, ic, x + 0.3, y + 0.3, 0.55);
-      s.addText(head, { x: x + 0.3, y: y + 0.98, w: cw - 0.6, h: 0.62, fontSize: 16, bold: true, color: C.background1, margin: 0,
+      const x = L + i * (cw + 0.25), y = 3.25;
+      card(s, x, y, cw, 2.75, i === 0 ? C.accent2 : C.accent5, "Priority card");
+      await iconDot(s, ic, x + 0.25, y + 0.28, 0.52, i === 0 ? C.text1 : C.accent1);
+      s.addText(head, { x: x + 0.25, y: y + 0.95, w: cw - 0.5, h: 0.62, fontSize: 15, bold: true, color: C.background1, margin: 0,
         isTextBox: true, valign: "bottom" });
-      s.addText(body, { x: x + 0.3, y: y + 1.68, w: cw - 0.6, h: 0.8, fontSize: 13, color: C.accent4, margin: 0, isTextBox: true,
+      s.addText(body, { x: x + 0.25, y: y + 1.65, w: cw - 0.5, h: 1.0, fontSize: 12, color: i === 0 ? C.background1 : C.accent4, margin: 0, isTextBox: true,
         valign: "top" });
     }
     s.addNotes("Source: Briefing - Adyen x Premium Experiences (Adyen), sections 1–5 and 7.\nAdyen wants a global brand and hospitality proposition that shows how payments power its partners, strengthens relationships with partners and merchants, and supports new deals, renewals and pipeline. The initial target is 8–10 races. The audience includes senior and C-suite decision makers.");
@@ -457,6 +458,39 @@ async function build() {
     s.addNotes("The one sentence the rest of the deck tests.");
   }
 
+  // Two lenses: transaction volume vs the full marketing platform
+  {
+    const s = content("CONTENT", "Introduction", "How to judge F1",
+      t("Judge F1 as a **marketing platform**, not only as transaction volume"),
+      "Source: GlobalData (2026); GWI; Max Verstappen × Adyen proposal (Nielsen Sports); SPORTFIVE team partner analysis.",
+      "The framing for the whole meeting. Transaction volume is real but it is not the headline; the case is brand, audience, influence, hospitality, network and proof working together.");
+    const lw = 3.85;
+    card(s, L, 1.95, lw, 4.7, C.background2, "Transaction lens");
+    await iconDot(s, "FiCreditCard", L + 0.35, 2.3, 0.7, C.accent3);
+    s.addText("The transaction lens", { x: L + 0.35, y: 3.2, w: lw - 0.7, h: 0.45, fontSize: 18, bold: true, color: C.text1, margin: 0, isTextBox: true });
+    s.addText("Payment volume through a team's checkout, tickets and merchandise.", { x: L + 0.35, y: 3.7, w: lw - 0.7, h: 0.9,
+      fontSize: 13, color: C.text2, margin: 0, isTextBox: true, valign: "top" });
+    s.addText("Real, and part of the case. On its own, it undersells F1.", { x: L + 0.35, y: 4.75, w: lw - 0.7, h: 0.9,
+      fontSize: 13, bold: true, color: C.text1, margin: 0, isTextBox: true, valign: "top" });
+    const x = L + lw + 0.3, w = R - x;
+    card(s, x, 1.95, w, 4.7, C.text1, "Platform lens");
+    label(s, "The platform lens: what F1 actually delivers", x + 0.35, 2.15, w - 0.7, C.accent1);
+    const rows = [
+      ["FiAward", "Brand", "50% of the world's most valuable brands are involved in F1"],
+      ["FiUsers", "Audience", "#1 sport for all five audiences Adyen sells to"],
+      ["FiStar", "Influence", "Max Verstappen: F1's most popular driver, 19M Instagram followers"],
+      ["FiCoffee", "Hospitality", "24 race weekends a year to host clients and prospects"],
+      ["FiShare2", "Network", "350+ global brands in team partner portfolios"],
+      ["FiCheckCircle", "Proof", "Adyen's payments live inside a team's business: an enterprise case study"],
+    ];
+    for (const [i, [ic, head, body]] of rows.entries()) {
+      const ry = 2.6 + i * 0.66;
+      await iconDot(s, ic, x + 0.35, ry, 0.46);
+      s.addText(head, { x: x + 1.0, y: ry, w: 1.6, h: 0.46, fontSize: 14, bold: true, color: C.background1, margin: 0, isTextBox: true, valign: "middle" });
+      s.addText(body, { x: x + 2.6, y: ry, w: w - 2.9, h: 0.46, fontSize: 12.5, color: C.accent4, margin: 0, isTextBox: true, valign: "middle" });
+    }
+  }
+
   // Executive summary: the story on one page
   {
     const s = content("CONTENT", "Introduction", "Executive summary",
@@ -469,7 +503,7 @@ async function build() {
       ["03", "Footprint", "457M", "F1 fans in Adyen's 22 office markets"],
       ["04", "Hospitality", "$100M+", "orders Komatsu received at races with Williams"],
       ["05", "Adyen in F1", "4", "payment brands already partner F1 teams; Adyen is not yet in"],
-      ["06", "The return", "$300M+", "revenue opportunity HPE accelerated through F1"],
+      ["06", "The return", "$300M+", "revenue opportunity HPE accelerated from F1 race activations"],
     ];
     const tw = (7.45 - 0.4) / 3, th = 2.05;
     tiles.forEach(([n, head, big, body], i) => {
@@ -482,18 +516,18 @@ async function build() {
     });
     const x = 8.35, w = R - x, y = 1.95, h = 4.3;
     card(s, x, y, w, h, C.text1, "Routes card");
-    label(s, "Three routes into F1", x + 0.3, y + 0.25, w - 0.6, C.accent1);
+    label(s, "Two routes in, then expand", x + 0.3, y + 0.25, w - 0.6, C.accent1);
     const routes = [
       ["max_thumb.jpg", "Max Verstappen", "Adyen powers the Verstappen ecosystem: ticketing, trackside, simulation"],
       ["alpine_engine.jpg", "Alpine F1 Team", "Exclusive FinTech Platform Partner; Adyen powers the Team's ecommerce"],
-      [null, "Scuderia Ferrari", "Third-largest partner network in F1; no proposal yet"],
+      [null, "Then expand", "Once Adyen is in F1, build across the grid from a proven start"],
     ];
     for (const [i, [img, name, body]] of routes.entries()) {
       const ry = y + 0.68 + i * 1.12;
       if (img) await photo(s, img, x + 0.3, ry, 0.85, 0.85, name);
       else {
-        s.addShape(S.ROUNDED_RECTANGLE, { x: x + 0.3, y: ry, w: 0.85, h: 0.85, rectRadius: 0.06, fill: { color: C.accent5 }, line: { color: C.accent5, width: 0 } });
-        s.addImage({ data: await icon("FiFlag", "8F97A3"), x: x + 0.53, y: ry + 0.23, w: 0.39, h: 0.39 });
+        s.addShape(S.ROUNDED_RECTANGLE, { x: x + 0.3, y: ry, w: 0.85, h: 0.85, rectRadius: 0.06, fill: { color: C.accent1 }, line: { color: C.accent1, width: 0 } });
+        s.addImage({ data: await icon("FiTrendingUp", "00112C"), x: x + 0.53, y: ry + 0.23, w: 0.39, h: 0.39 });
       }
       s.addText([{ text: name, options: { bold: true, color: C.background1, fontSize: 14, breakLine: true } },
         { text: body, options: { color: C.accent4, fontSize: 10.5 } }],
@@ -542,7 +576,7 @@ async function build() {
   {
     const s = content("CONTENT", SECTIONS[0], "01 Why F1 · Business leader network",
       t("Half of the world's most valuable brands are **already in F1**"),
-      "Source: GlobalData (2026). GDP: 2025 nominal, as used in the team deck.",
+      "Source: GlobalData (2026).",
       "Team deck slide 11. 50% of the world's most valuable brands are involved in F1; the public brands in the F1 ecosystem have combined revenue of $10T, more than the GDP of any of the world's third to seventh largest economies.");
     s.addText("50%", { x: L, y: 1.9, w: 2.1, h: 0.9, fontSize: 54, bold: true, color: C.accent1, margin: 0, isTextBox: true, valign: "top" });
     s.addText("of the world's most valuable brands are involved in F1", { x: L + 2.2, y: 2.05, w: 2.6, h: 0.75, fontSize: 13,
@@ -584,13 +618,13 @@ async function build() {
     s.addShape(S.RECTANGLE, { x, y: 1.93, w: 0.3, h: 0.18, fill: { color: C.accent1, transparency: 88 }, line: { color: C.accent1, width: 1.25 } });
     s.addText("Kantar Top 100 brand involved in F1", { x: x + 0.42, y: 1.88, w: w - 0.42, h: 0.28, fontSize: 10.5, color: C.text2, margin: 0, isTextBox: true, valign: "middle" });
     card(s, x, 2.3, w, 1.75, C.text1, "Returns card");
-    label(s, "Total return, 2006–2026", x + 0.3, 2.45, w - 0.6, C.accent1);
+    label(s, "Performance, 2006–2026", x + 0.3, 2.45, w - 0.6, C.accent1);
     const rets = [["504%", "Kantar Strong Brands Portfolio", true], ["451%", "S&P 500", false], ["234%", "MSCI World", false]];
     const rw = (w - 0.6) / 3;
     rets.forEach(([big, lab, on], i) => stat(s, x + 0.3 + i * rw, 2.8, rw - 0.15, big, lab,
       { size: on ? 34 : 28, color: on ? C.accent1 : C.background1, capColor: C.accent4, capSize: 11 }));
-    const cards = [["2.3x", "the STOXX Europe 600: return of brands with the strongest future power"],
-      ["IBM · $150.8B", "brand value, +20% vs 2025. Ferrari partner"], ["AmEx · $80.3B", "brand value, +22% vs 2025. Official F1 partner"]];
+    const cards = [["2.3x", "stock-market performance vs the STOXX Europe 600, for the brands with the strongest future power"],
+      ["IBM · $150.8B", "brand value, +20% vs 2025. Ferrari partner"], ["AmEx · $80.3B", "brand value, +22% vs 2025. Involved in F1"]];
     const cw = (w - 0.4) / 3;
     cards.forEach(([big, lab], i) => {
       const cx = x + i * (cw + 0.2);
@@ -808,10 +842,10 @@ async function build() {
         body: "Komatsu hosts global stakeholders at races, many at a Komatsu event for the first time.",
         stats: [["3,735", "stakeholders hosted"], ["90%", "found it useful for business"], ["94%", "guest satisfaction"]] },
       { pair: "HPE × Mercedes", big: "$300M+", lab: "revenue opportunity accelerated from race activations alone",
-        quote: "\"The real value has been the ability to authentically showcase our technology through Mercedes F1 use cases, at strategic events and through direct customer engagement at races.\"",
+        quote: "\"For us, the real value has been the ability to authentically showcase our technology through Mercedes F1 use cases in advertising, on digital platforms, at strategic events, with press/analysts and through direct customer engagement at races.\"",
         by: "Antonio Neri, CEO, Hewlett Packard Enterprise" },
       { pair: "Businessolver × Alpine", big: "$122M", lab: "business pipeline influenced by at-track hosting and experiences",
-        body: "Businessolver brings clients into F1 with Alpine to showcase AI, decision-support and real-time analytics.",
+        body: "Technology with heart: AI, decision-support and real-time analytics, with pipeline influenced by at-track hosting.",
         tag: "An Alpine partner (Route 2)" },
     ];
     cases.forEach((c, i) => {
@@ -909,48 +943,53 @@ async function build() {
   await divider(3, "Adyen powers the business of F1", "Payments is contested; the winners sit inside the team's business", "adyen_instore.jpg",
     "Section 3: the category, the benchmark, our credentials, where Adyen sits and what it returns.");
 
-  // Payments in F1
+  // Payments in F1: who is on the grid, and Adyen's seat
   {
     const s = content("CONTENT", SECTIONS[2], "03 Adyen in F1 · The category",
       t("Payments is one of F1's **most contested categories**"),
-      "Source: SPORTFIVE analysis. Team names as used in the BI scan.",
-      "Stripe and Airwallex compete with Adyen directly. Visa and Mastercard are card schemes and Adyen partners; Mastercard and Airwallex already sit side by side at McLaren.");
-    const pts = [
-      ["FiLayers", "Four payment brands in F1", "Two Adyen competitors, two card schemes."],
-      ["FiLink", "Integration is the benchmark", "Airwallex sits inside McLaren's business, not just on the car."],
-      ["FiShield", "Schemes are partners, not blockers", "Mastercard and Airwallex already co-exist at McLaren."],
-    ];
-    for (const [i, [ic, head, body]] of pts.entries()) {
-      const y = 2.05 + i * 1.5;
-      await iconDot(s, ic, L, y, 0.5);
-      s.addText([{ text: head, options: { bold: true, color: C.text1, breakLine: true } }, { text: body, options: { color: C.text2 } }],
-        { x: L + 0.7, y: y - 0.02, w: 3.8, h: 1.2, fontSize: 13, margin: 0, isTextBox: true, valign: "top", paraSpaceAfter: 3 });
-    }
-    const brands = [
-      ["Stripe", "Mercedes-AMG Petronas F1 Team", "Competitor"],
-      ["Airwallex", "McLaren F1 Team", "Competitor"],
-      ["Mastercard", "McLaren Mastercard F1 Team", "Adyen partner"],
-      ["Visa", "Red Bull", "Adyen partner"],
-    ];
-    const gx = 5.45, gw = (R - gx - 0.3) / 2, gh = 1.62;
-    brands.forEach(([name, team, kind], i) => {
-      const x = gx + (i % 2) * (gw + 0.3), y = 2.0 + Math.floor(i / 2) * (gh + 0.28);
-      card(s, x, y, gw, gh);
-      const comp = kind === "Competitor";
-      s.addShape(S.ROUNDED_RECTANGLE, { x: x + 0.3, y: y + 0.25, w: 1.35, h: 0.28, rectRadius: 0.14,
-        fill: { color: comp ? C.text1 : C.background1 }, line: { color: comp ? C.text1 : C.accent1, width: 1 } });
-      s.addText(kind.toUpperCase(), { x: x + 0.3, y: y + 0.25, w: 1.35, h: 0.28, fontSize: 8, bold: true, align: "center", valign: "middle",
-        color: comp ? C.background1 : C.accent2, margin: 0, isTextBox: true });
-      s.addText(name, { x: x + 0.3, y: y + 0.65, w: gw - 0.6, h: 0.45, fontSize: 20, bold: true, color: C.text1, margin: 0, isTextBox: true });
-      s.addText(team, { x: x + 0.3, y: y + 1.1, w: gw - 0.6, h: 0.35, fontSize: 12, color: C.text2, margin: 0, isTextBox: true });
+      "Source: SPORTFIVE analysis (BI competitor scan). Team names as used in the scan.",
+      "Four payment brands already partner F1 teams. Two are Adyen competitors (Stripe at Mercedes, Airwallex at McLaren). Two are card schemes that partner Adyen (Mastercard at McLaren, Visa at Racing Bulls). Mastercard and Airwallex already sit side by side at McLaren: schemes and platforms co-exist. Adyen is not yet in F1.");
+    // counters
+    const counters = [["4", "payment brands partner F1 teams", C.text1], ["2", "are Adyen competitors: Stripe, Airwallex", C.text1],
+      ["2", "are card schemes and Adyen partners: Mastercard, Visa", C.accent2]];
+    const cw3 = (CW - 0.6) / 3;
+    counters.forEach(([big, lab, col], i) => {
+      const x = L + i * (cw3 + 0.3);
+      s.addText(big, { x, y: 1.9, w: 0.75, h: 0.8, fontSize: 44, bold: true, color: col, margin: 0, isTextBox: true, valign: "middle" });
+      s.addText(lab, { x: x + 0.8, y: 1.9, w: cw3 - 0.8, h: 0.8, fontSize: 13, color: C.text1, margin: 0, isTextBox: true, valign: "middle" });
     });
-    const ay = 2.0 + 2 * (gh + 0.28);
-    s.addShape(S.ROUNDED_RECTANGLE, { x: gx, y: ay, w: R - gx, h: 0.82, rectRadius: 0.08, fill: { color: C.accent6 },
-      line: { color: C.accent1, width: 1.25, dashType: "dash" } });
-    s.addImage({ path: A("adyen_green.png"), x: gx + 0.3, y: ay + 0.29, w: 0.75, h: 0.24 });
-    s.addText([{ text: "Not yet in F1.  ", options: { bold: true, color: C.text1 } },
-      { text: "Three routes are on the table: Max Verstappen, Alpine and Ferrari.", options: { color: C.text1 } }],
-    { x: gx + 1.3, y: ay, w: R - gx - 1.55, h: 0.82, fontSize: 13, margin: 0, valign: "middle", isTextBox: true });
+    // the grid: brand -> team
+    const grid = [
+      ["Stripe", "Mercedes-AMG Petronas", "comp"], ["Airwallex", "McLaren", "comp"],
+      ["Mastercard", "McLaren", "scheme"], ["Visa", "Visa Cash App Racing Bulls", "scheme"], ["adyen", "Max Verstappen or Alpine", "adyen"],
+    ];
+    const tw = (CW - 4 * 0.25) / 5, ty = 2.95, th = 3.05;
+    const arrowNavy = await icon("FiArrowDown", "8F97A3"), arrowGreen = await icon("FiArrowDown", "0ABF53");
+    for (const [i, [brand, team, kind]] of grid.entries()) {
+      const x = L + i * (tw + 0.25);
+      const isA = kind === "adyen";
+      if (isA) {
+        s.addShape(S.ROUNDED_RECTANGLE, { x, y: ty, w: tw, h: th, rectRadius: 0.08, fill: { color: C.accent6 },
+          line: { color: C.accent1, width: 1.5, dashType: "dash" }, objectName: "Adyen seat" });
+      } else card(s, x, ty, tw, th);
+      const tag = { comp: "COMPETITOR", scheme: "ADYEN PARTNER", adyen: "NOT YET IN F1" }[kind];
+      const tagFill = kind === "comp" ? C.text1 : kind === "scheme" ? C.background1 : C.accent1;
+      const tagText = kind === "comp" ? C.background1 : kind === "scheme" ? C.accent2 : C.text1;
+      s.addShape(S.ROUNDED_RECTANGLE, { x: x + 0.2, y: ty + 0.22, w: tw - 0.4, h: 0.3, rectRadius: 0.15, fill: { color: tagFill },
+        line: { color: kind === "scheme" ? C.accent1 : tagFill, width: 1 } });
+      s.addText(tag, { x: x + 0.2, y: ty + 0.22, w: tw - 0.4, h: 0.3, fontSize: 8.5, bold: true, color: tagText, align: "center", valign: "middle",
+        charSpacing: 1, margin: 0, isTextBox: true });
+      if (isA) s.addImage({ path: A("adyen_green.png"), x: x + (tw - 1.25) / 2, y: ty + 0.75, w: 1.25, h: 0.4, altText: "Adyen logo" });
+      else s.addText(brand, { x: x + 0.15, y: ty + 0.68, w: tw - 0.3, h: 0.55, fontSize: 22, bold: true, color: C.text1, align: "center",
+        valign: "middle", margin: 0, isTextBox: true });
+      s.addImage({ data: isA ? arrowGreen : arrowNavy, x: x + tw / 2 - 0.2, y: ty + 1.35, w: 0.4, h: 0.4 });
+      s.addShape(S.ROUNDED_RECTANGLE, { x: x + 0.2, y: ty + 1.9, w: tw - 0.4, h: 0.9, rectRadius: 0.06,
+        fill: { color: isA ? C.background1 : kind === "comp" ? C.text1 : C.accent5 }, line: { color: isA ? C.accent1 : C.text1, width: isA ? 1 : 0 } });
+      s.addText([{ text: isA ? "ROUTE IN" : "F1 TEAM", options: { fontSize: 8.5, bold: true, color: isA ? C.accent2 : C.accent1, charSpacing: 1, breakLine: true } },
+        { text: team, options: { fontSize: 12.5, bold: true, color: isA ? C.text1 : C.background1 } }],
+      { x: x + 0.3, y: ty + 1.9, w: tw - 0.6, h: 0.9, align: "center", valign: "middle", margin: 0, isTextBox: true });
+    }
+    soWhat(s, "competitors are in, and schemes **co-exist with platforms** at McLaren: Adyen's seat is open.", 6.2);
   }
 
   // Competitors across sport
@@ -1017,8 +1056,8 @@ async function build() {
       "Source: SPORTFIVE. Images: McLaren Racing and Airwallex.",
       "SPORTFIVE's flagship F1 payments credential: we showcased Airwallex's payment solutions to enterprises worldwide through McLaren.");
     await fit(s, "mclaren_airwallex_logos.png", L, 1.95, 2.3, 1.3, "McLaren and Airwallex logos");
-    s.addText("Showcased Airwallex's payment solutions to enterprises worldwide.",
-      { x: L + 2.55, y: 2.0, w: 4.05, h: 1.2, fontSize: 16, bold: true, color: C.text1, margin: 0, isTextBox: true, valign: "middle" });
+    s.addText("Showcased Airwallex's payment service solutions to a wide variety of enterprises on a global scale.",
+      { x: L + 2.55, y: 2.0, w: 4.05, h: 1.2, fontSize: 15, bold: true, color: C.text1, margin: 0, isTextBox: true, valign: "middle" });
     const iw = (6.6 - 0.4) / 3;
     const imgs = [["airwallex_carbon.jpg", "Airwallex on McLaren carbon fibre"], ["airwallex_drivers.jpg", "McLaren drivers, Airwallex partner content"],
       ["airwallex_install.jpg", "Airwallex installation with McLaren driver"]];
@@ -1026,14 +1065,14 @@ async function build() {
     const x = 7.55, w = R - x;
     card(s, x, 1.95, w, 4.65, C.text1, "Scope card");
     label(s, "Our scope of advisory and execution", x + 0.35, 2.2, w - 0.7, C.accent1);
-    const scope = ["Diagnosed the FinTech awareness gap", "Mapped the F1 B2B opportunity", "Benchmarked fintech positioning",
-      "Built a B2B partnership evaluation model", "Modelled investment trade-offs", "Engineered an enterprise rights portfolio",
-      "Structured the deal for network access", "Enabled a board-level decision"];
+    const scope = ["Diagnosed FinTech enterprise awareness gap", "Mapped F1 B2B opportunity landscape", "Benchmarked fintech differentiation positioning",
+      "Built B2B partnership evaluation model", "Modelled investment scenario trade-offs", "Engineered enterprise-focused rights portfolio",
+      "Structured deal for network access", "Enabled board-level partnership decision"];
     const check = await icon("FiCheck", "0ABF53");
     scope.forEach((it, i) => {
       const y = 2.65 + i * 0.48;
       s.addImage({ data: check, x: x + 0.35, y: y + 0.05, w: 0.24, h: 0.24 });
-      s.addText(it, { x: x + 0.75, y, w: w - 1.1, h: 0.36, fontSize: 12.5, color: C.background1, margin: 0, isTextBox: true, valign: "middle" });
+      s.addText(it, { x: x + 0.75, y, w: w - 1.0, h: 0.36, fontSize: 12, color: C.background1, margin: 0, isTextBox: true, valign: "middle" });
     });
   }
 
@@ -1100,16 +1139,16 @@ async function build() {
   {
     const s = content("CONTENT", SECTIONS[2], "03 Adyen in F1 · The return",
       t("The return: F1 **sources, accelerates, retains and proves** enterprise revenue"),
-      "Source: Alpine Provisional Rights Overview 2027–2029; partner case studies (Komatsu, HPE, Businessolver); Adyen RSC Anderlecht case study; SPORTFIVE analysis.",
-      "How the investment pays back, in four levers. Numbers are proof points from partners already in F1 and from the Alpine proposal, not forecasts for Adyen.");
+      "Source: SPORTFIVE partner analysis (team deck); HPE × Mercedes and Komatsu × Williams case material; Alpine Provisional Rights Overview 2027–2029; Adyen RSC Anderlecht case study.",
+      "Every number is a proof point from a named source, not a forecast for Adyen. 42 Alpine partners and $369B Alpine partner revenue: SPORTFIVE team partner analysis (team deck slides 15-16; figures flagged as being re-checked by GF). $300M+: Antonio Neri, CEO HPE, 'From race activations alone, we've accelerated over $300M in revenue opportunity' (team deck slide 23). $100M+: Komatsu × Williams (team deck slide 23). 56 Paddock Club tickets: Alpine proposal (24+16+8+8). +36.6%: Adyen case study 'RSC Anderlecht increased F&B revenue by 36.6%'.");
     const levers = [
-      ["FiSearch", "Source", "New deals", "42", "Alpine Team partners Adyen can meet through the One Platform Partner Forum",
-        "Introductions across the team's partner ecosystem: $369B combined partner revenue."],
-      ["FiFastForward", "Accelerate", "Existing pipeline", "$300M+", "revenue opportunity HPE accelerated through race activations",
-        "Open deals move faster when decision-makers are hosted at races. Komatsu: $100M+ orders."],
-      ["FiRepeat", "Retain", "Priority accounts", "56", "Paddock Club tickets a year in Alpine's offer, plus Enstone events",
-        "C-level hosting in the Adyen Commerce Club keeps and grows the largest merchants."],
-      ["FiAward", "Prove", "Reusable case studies", "+36.6%", "F&B revenue at RSC Anderlecht with Adyen: proof Adyen already reuses",
+      ["FiSearch", "Source", "New deals", "42", "partners in Alpine's network (SPORTFIVE partner analysis)",
+        "Team introductions and the Partner Forum. Alpine's partners: $369B combined revenue (SPORTFIVE)."],
+      ["FiFastForward", "Accelerate", "Existing pipeline", "$300M+", "revenue opportunity HPE accelerated from race activations (HPE × Mercedes)",
+        "Hosting decision-makers at races moves deals. Komatsu × Williams: $100M+ orders received at races."],
+      ["FiRepeat", "Retain", "Priority accounts", "56", "Paddock Club tickets a year in Alpine's offer (Alpine proposal)",
+        "C-level hosting in the Adyen Commerce Club keeps and grows priority accounts."],
+      ["FiAward", "Prove", "Reusable case studies", "+36.6%", "F&B revenue at RSC Anderlecht with Adyen (Adyen case study)",
         "A live integration with the team becomes a flagship enterprise case study."],
     ];
     const cw = (CW - 0.9) / 4, y = 1.95, h = 3.95;
@@ -1136,15 +1175,15 @@ async function build() {
 
   // ================================================================ 04 The routes
   pres.addSection({ title: SECTIONS[3] });
-  await divider(4, "The routes", "Max Verstappen, Alpine F1 Team and Scuderia Ferrari", "max_orange_army.jpg",
+  await divider(4, "The routes", "Two routes in to start with: Max Verstappen and Alpine F1 Team", "max_orange_army.jpg",
     "Section 4. Each route uses the same three slides: overview, business opportunity, rights. Photo: Orange Army (Verstappen proposal).");
 
   // Routes at a glance
   {
     const s = content("CONTENT", SECTIONS[3], "04 The routes · Overview",
-      t("Three routes into F1 for Adyen"),
-      "Source: Max Verstappen × Adyen proposal (Oct 2026, for discussion); Alpine F1 Team Provisional Rights Overview 2027–2029; team deck partner analysis.",
-      "Max's fee has not been quoted. Ferrari: no proposal yet; whether to open a conversation is a next step.");
+      t("Two routes in to start, **then expand across the grid**"),
+      "Source: Max Verstappen × Adyen proposal (Oct 2026, for discussion); Alpine F1 Team Provisional Rights Overview 2027–2029.",
+      "Alpine and Max come from the conversations already under way. The aim is buy-in to F1 first; the wider grid (Ferrari is in the back-pocket slide) follows. Max's fee has not been quoted.");
     const cw = (CW - 0.6) / 3;
     const routes = [
       { n: 1, type: "Driver", name: "Max Verstappen", img: "max_banner.jpg", fields: [
@@ -1155,10 +1194,6 @@ async function build() {
         ["The opportunity", "Exclusive Financial Technology Platform Partner, global"],
         ["Where Adyen sits", "Powers the Team's new ecommerce platform, then hospitality and network"],
         ["Investment", "£10.0M in 2027, +5% a year (£31.5M over 3 years)"], ["Term and status", "2027–2029; provisional, subject to contract"]] },
-      { n: 3, type: "Team", name: "Scuderia Ferrari", img: "f1_city.jpg", fields: [
-        ["The opportunity", "Third-largest partner network in F1: $705B partner revenue"],
-        ["Where Adyen sits", "To explore with Ferrari"],
-        ["Investment", "Not yet quoted"], ["Term and status", "No proposal yet; open a conversation, or not"]] },
     ];
     for (const [i, r] of routes.entries()) {
       const x = L + i * (cw + 0.3), y = 2.0;
@@ -1172,15 +1207,31 @@ async function build() {
           { x: x + 0.3, y: fy, w: cw - 0.6, h: 0.6, fontSize: 10.5, margin: 0, isTextBox: true, valign: "top" });
       });
     }
+    // the plan: buy-in first, then expand
+    const x = L + 2 * (cw + 0.3), y = 2.0;
+    card(s, x, y, cw, 4.75, C.text1, "Plan card");
+    label(s, "The plan", x + 0.3, y + 0.3, cw - 0.6, C.accent1);
+    const phases = [["1", "Start", "Commit to F1 through a route that is ready now: Max, Alpine, or both."],
+      ["2", "Prove", "Payments live inside the partner's business; hospitality and network at work."],
+      ["3", "Expand", "Build across the grid from a proven start: more teams, races and markets."]];
+    phases.forEach(([n, head, body], k) => {
+      const py = y + 0.8 + k * 1.3;
+      s.addShape(S.OVAL, { x: x + 0.3, y: py, w: 0.45, h: 0.45, fill: { color: k === 0 ? C.accent1 : C.accent5 }, line: { color: k === 0 ? C.accent1 : C.accent5, width: 0 } });
+      s.addText(n, { x: x + 0.3, y: py, w: 0.45, h: 0.45, fontSize: 13, bold: true, color: k === 0 ? C.text1 : C.background1, align: "center", valign: "middle", margin: 0, isTextBox: true });
+      s.addText([{ text: head, options: { bold: true, color: C.background1, fontSize: 15, breakLine: true } }, { text: body, options: { color: C.accent4, fontSize: 11 } }],
+        { x: x + 0.95, y: py - 0.03, w: cw - 1.2, h: 1.15, margin: 0, isTextBox: true, valign: "top" });
+    });
   }
 
   // ---------- Route 1: Max Verstappen (Verstappen_Adyen_Oct2026 proposal; team deck slides 28-30)
   {
     const s = content("CONTENT_PHOTO", SECTIONS[3], "04 The routes · Route 1 · Max Verstappen",
       t("Max Verstappen: **F1's most popular driver**, and a business ecosystem"),
-      "Source: Max Verstappen × Adyen proposal (October 2026); Nielsen Sports as cited.",
+      "Source: Max Verstappen × Adyen proposal (October 2026); Nielsen Sports as cited. Visual: Max's team, logo placement for illustration.",
       "Four-time World Champion (2021–2024); 71 Grand Prix wins, 48 poles, 131 podiums. Nielsen Sports research names him the most popular driver on the grid. Social: Instagram 19M, X 4.6M, Facebook 3M, YouTube 1M; Verstappen.com channels add Instagram 2M, Threads 800K, TikTok 730K, X 300K.");
-    await photo(s, "max_portrait.jpg", 0, 0, 4.85, H, "Max Verstappen");
+    await photo(s, "max_adyen_cap.jpg", 0, 0, 4.85, H, "Max Verstappen in an Adyen-branded GT3 cap (mock-up by Max Verstappen's team)");
+    s.addShape(S.RECTANGLE, { x: 0, y: H - 1.15, w: 4.85, h: 1.15, fill: { color: C.text1 }, line: { color: C.text1, width: 0 } });
+    await fit(s, "max_adyen_lockup.jpg", 0.25, H - 1.1, 4.35, 1.05, "Max Verstappen, Adyen and Verstappen Racing logos");
     const x = 5.35, w = R - x;
     s.addText("Two Dutch innovators. Max has built one of sport's most successful personal brands; Adyen one of the world's leading financial technology platforms. Adyen becomes the platform behind the Verstappen ecosystem: racing, travel, merchandise and experiences.",
       { x, y: 1.95, w, h: 1.2, fontSize: 13, color: C.text1, margin: 0, isTextBox: true, valign: "top" });
@@ -1365,55 +1416,6 @@ async function build() {
     rightsColumns(s, cols, 1.95, 4.9, [L, L + 4.15, L + 8.3], [3.85, 3.85, 3.83], 10.5);
   }
 
-  // ---------- Route 3: Ferrari (what we know; detail slides hidden until a proposal exists)
-  {
-    const s = content("CONTENT", SECTIONS[3], "04 The routes · Route 3 · Scuderia Ferrari",
-      t("Scuderia Ferrari: **the third-largest partner network** in F1"),
-      "Source: SPORTFIVE partner network analysis (team deck); GWI (2026). Figures under review by the team.",
-      "No Ferrari proposal yet. Whether to open a conversation is a next step after the Chairman's feedback. The Ferrari business-opportunity and rights slides are hidden until a proposal exists.");
-    await photo(s, "f1_city.jpg", L, 1.95, 4.3, 4.7, "F1 car at speed");
-    const x = L + 4.65, w = R - x;
-    const stats = [["$705B", "combined revenue of Ferrari's partners: #3 of 11 teams"], ["40", "partners, half of them public companies"],
-      ["1.80M", "Ferrari fans working in financial services: the largest of any team"], ["5", "financial-services partners already in the network"]];
-    const tw = (w - 0.25) / 2, th = 1.35;
-    stats.forEach(([big, lab], i) => {
-      const tx = x + (i % 2) * (tw + 0.25), ty = 1.95 + Math.floor(i / 2) * (th + 0.2);
-      card(s, tx, ty, tw, th);
-      s.addText(big, { x: tx + 0.25, y: ty + 0.15, w: tw - 0.5, h: 0.6, fontSize: 30, bold: true, color: C.text1, margin: 0, isTextBox: true, valign: "top" });
-      s.addText(lab, { x: tx + 0.25, y: ty + 0.78, w: tw - 0.5, h: 0.5, fontSize: 11, color: C.text2, margin: 0, isTextBox: true, valign: "top" });
-    });
-    s.addText([{ text: "Top partners  ", options: { bold: true, color: C.text1 } }, { text: "Shell, IBM, HP", options: { color: C.text2 } }],
-      { x, y: 4.95, w, h: 0.35, fontSize: 13, margin: 0, isTextBox: true, valign: "middle" });
-    card(s, x, 5.45, w, 1.2, C.text1, "Status card");
-    s.addText([{ text: "Status  ", options: { bold: true, color: C.accent1, fontSize: 13 } },
-      { text: "No proposal yet. After the Chairman's feedback, we decide whether to open a conversation with Ferrari.", options: { color: C.background1, fontSize: 13 } }],
-    { x: x + 0.3, y: 5.45, w: w - 0.6, h: 1.2, margin: 0, isTextBox: true, valign: "middle" });
-  }
-  {
-    const s = content("CONTENT", SECTIONS[3], "04 The routes · Route 3 · Business opportunity",
-      [{ text: "Ferrari: " }, { text: "[ADD: where Adyen sits in Ferrari's business]", options: { color: C.accent3, italic: true } }],
-      "Source: [ADD]", "Hidden until a Ferrari proposal exists. Same columns as Max and Alpine.");
-    s.hidden = true;
-    const blank = () => ({ text: "[ADD]", options: { italic: true, color: C.accent3, fontSize: 11, valign: "middle" } });
-    const rows = [[hc("Ferrari's business"), hc("Adyen products"), hc("What it does"), hc("Can Adyen run it?")],
-      ...[0, 1, 2, 3, 4].map(() => [blank(), blank(), blank(), blank()])];
-    s.addTable(rows, { x: L, y: 2.0, w: CW, colW: [3.2, 2.2, 3.15, 3.58], rowH: [0.4, 0.62, 0.62, 0.62, 0.62, 0.62],
-      border: { type: "solid", pt: 0.75, color: C.accent4 }, margin: [0.04, 0.1, 0.04, 0.1], objectName: "Ferrari business table" });
-  }
-  {
-    const s = content("CONTENT", SECTIONS[3], "04 The routes · Route 3 · Rights package",
-      [{ text: "Rights package: " }, { text: "Scuderia Ferrari × Adyen", options: { color: C.accent1 } }],
-      "Source: [ADD: Ferrari proposal]", "Hidden: left blank until a Ferrari proposal exists.");
-    s.hidden = true;
-    const heads = [["Commercial terms", "Category, designation, term, fee, payment schedule"], ["Branding and IP", "Car, kit, team environment; IP rights"],
-      ["Hospitality and experiences", "Paddock Club, factory, driving, merchandise"]];
-    heads.forEach(([h, lab], i) => {
-      const x = L + i * 4.15;
-      label(s, h, x, 2.0, 3.85, C.accent2);
-      ph(s, x, 2.35, 3.85, 4.3, lab, { size: 12, align: "left" });
-    });
-  }
-
   // ================================================================ Next steps
   pres.addSection({ title: "Next steps" });
   {
@@ -1444,8 +1446,7 @@ async function build() {
     card(s, L, 5.85, 7.3, 0.85, C.text1, "On the table");
     s.addText([{ text: "On the table   ", options: { bold: true, color: C.accent1 } },
       { text: "Alpine ", options: { bold: true, color: C.background1 } }, { text: "£10.0M in 2027, +5% a year.   ", options: { color: C.accent4 } },
-      { text: "Max ", options: { bold: true, color: C.background1 } }, { text: "fee not yet quoted.   ", options: { color: C.accent4 } },
-      { text: "Ferrari ", options: { bold: true, color: C.background1 } }, { text: "no proposal yet.", options: { color: C.accent4 } }],
+      { text: "Max ", options: { bold: true, color: C.background1 } }, { text: "fee not yet quoted.", options: { color: C.accent4 } }],
     { x: L + 0.25, y: 5.85, w: 6.8, h: 0.85, fontSize: 12, margin: 0, isTextBox: true, valign: "middle" });
 
     const x = 8.3, w = R - x;
@@ -1515,6 +1516,56 @@ async function build() {
       s.addText([{ text: big, options: { color: C.accent1, fontSize: 30, breakLine: true } }, { text: head, options: { bold: true, color: C.background1, fontSize: 12 } }],
         { x: x + 0.3, y: y + 0.2, w: w - 0.6, h: 1.5, margin: 0, isTextBox: true, valign: "top" });
     }
+  }
+
+  // ================================================================ Back pocket: the wider grid (Ferrari)
+  pres.addSection({ title: "Back pocket" });
+  {
+    const s = content("CONTENT", "Back pocket", "Back pocket · The wider grid",
+      t("Scuderia Ferrari: **the third-largest partner network** in F1"),
+      "Source: SPORTFIVE partner network analysis (team deck); GWI (2026). Figures under review by the team.",
+      "Back pocket: show only if the Chairman asks about the wider grid or other options. No Ferrari proposal yet. The Ferrari business-opportunity and rights slides are hidden until a proposal exists.");
+    await photo(s, "f1_city.jpg", L, 1.95, 4.3, 4.7, "F1 car at speed");
+    const x = L + 4.65, w = R - x;
+    const stats = [["$705B", "combined revenue of Ferrari's partners: #3 of 11 teams"], ["40", "partners, half of them public companies"],
+      ["1.80M", "Ferrari fans working in financial services: the largest of any team"], ["5", "financial-services partners already in the network"]];
+    const tw = (w - 0.25) / 2, th = 1.35;
+    stats.forEach(([big, lab], i) => {
+      const tx = x + (i % 2) * (tw + 0.25), ty = 1.95 + Math.floor(i / 2) * (th + 0.2);
+      card(s, tx, ty, tw, th);
+      s.addText(big, { x: tx + 0.25, y: ty + 0.15, w: tw - 0.5, h: 0.6, fontSize: 30, bold: true, color: C.text1, margin: 0, isTextBox: true, valign: "top" });
+      s.addText(lab, { x: tx + 0.25, y: ty + 0.78, w: tw - 0.5, h: 0.5, fontSize: 11, color: C.text2, margin: 0, isTextBox: true, valign: "top" });
+    });
+    s.addText([{ text: "Top partners  ", options: { bold: true, color: C.text1 } }, { text: "Shell, IBM, HP", options: { color: C.text2 } }],
+      { x, y: 4.95, w, h: 0.35, fontSize: 13, margin: 0, isTextBox: true, valign: "middle" });
+    card(s, x, 5.45, w, 1.2, C.text1, "Status card");
+    s.addText([{ text: "Status  ", options: { bold: true, color: C.accent1, fontSize: 13 } },
+      { text: "Not yet explored. Once Adyen is committed to F1, Ferrari is a natural next conversation.", options: { color: C.background1, fontSize: 13 } }],
+    { x: x + 0.3, y: 5.45, w: w - 0.6, h: 1.2, margin: 0, isTextBox: true, valign: "middle" });
+  }
+  {
+    const s = content("CONTENT", "Back pocket", "Back pocket · Ferrari business opportunity",
+      [{ text: "Ferrari: " }, { text: "[ADD: where Adyen sits in Ferrari's business]", options: { color: C.accent3, italic: true } }],
+      "Source: [ADD]", "Hidden until a Ferrari proposal exists. Same columns as Max and Alpine.");
+    s.hidden = true;
+    const blank = () => ({ text: "[ADD]", options: { italic: true, color: C.accent3, fontSize: 11, valign: "middle" } });
+    const rows = [[hc("Ferrari's business"), hc("Adyen products"), hc("What it does"), hc("Can Adyen run it?")],
+      ...[0, 1, 2, 3, 4].map(() => [blank(), blank(), blank(), blank()])];
+    s.addTable(rows, { x: L, y: 2.0, w: CW, colW: [3.2, 2.2, 3.15, 3.58], rowH: [0.4, 0.62, 0.62, 0.62, 0.62, 0.62],
+      border: { type: "solid", pt: 0.75, color: C.accent4 }, margin: [0.04, 0.1, 0.04, 0.1], objectName: "Ferrari business table" });
+  }
+  {
+    const s = content("CONTENT", "Back pocket", "Back pocket · Ferrari rights package",
+      [{ text: "Rights package: " }, { text: "Scuderia Ferrari × Adyen", options: { color: C.accent1 } }],
+      "Source: [ADD: Ferrari proposal]", "Hidden: left blank until a Ferrari proposal exists.");
+    s.hidden = true;
+    const heads = [["Commercial terms", "Category, designation, term, fee, payment schedule"], ["Branding and IP", "Car, kit, team environment; IP rights"],
+      ["Hospitality and experiences", "Paddock Club, factory, driving, merchandise"]];
+    heads.forEach(([h, lab], i) => {
+      const x = L + i * 4.15;
+      label(s, h, x, 2.0, 3.85, C.accent2);
+      ph(s, x, 2.35, 3.85, 4.3, lab, { size: 12, align: "left" });
+    });
   }
 
   // ================================================================ Appendix
