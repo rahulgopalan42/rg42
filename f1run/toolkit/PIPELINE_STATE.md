@@ -121,3 +121,4 @@
 - 2 Nov: Space delivered (2 built, 2 skipped; contacts pending). Session limit had stopped agents on 26 Oct; resumed. GRC waits on grc_08; Automation on aut_07; Vertical Saas on vs_00, vs_01. New helpers: and_fix.py (final "and" in grid lists), apply_fixups.py, review.py.
 - 2 Nov: Automation delivered (83 built, 2 skipped: Siasun declined, Covariant dormant; contacts pending). Rows f1run/runs/automation_rows.json, names automation_names.txt.
 - 2 Nov: GRC Risk delivered (87 built, 0 skipped; contacts pending). Rows f1run/runs/grc_risk_rows.json, names grc_risk_names.txt. Open questions: SEI vs SAI360; Harmonic Inc vs Harmonic Drive (Automation).
+- 2 Nov: Vertical Saas delivered (21 built). All 27 tabs now delivered. Contacts pending for the brands in f1run/runs/contacts_pending_in.json (run mini_enrich.py on it after the Apollo top-up, then re-assemble the five packs with contacts).
