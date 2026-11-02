@@ -1,9 +1,9 @@
 {
   "name": "adyen-f1-deck",
   "private": true,
-  "description": "Builds the Adyen x Formula 1 chairman deck template",
+  "description": "Builds the Adyen x Formula 1 chairman deck",
   "scripts": {
-    "build": "node build_deck.js \"Adyen x F1 - Chairman deck (template).pptx\" && python3 fix_pic_placeholders.py \"Adyen x F1 - Chairman deck (template).pptx\""
+    "build": "node build_deck.js \"Adyen x F1 - Chairman deck.pptx\" && python3 fix_pic_placeholders.py \"Adyen x F1 - Chairman deck.pptx\""
   },
   "dependencies": {
     "pptxgenjs": "3.12.0",
