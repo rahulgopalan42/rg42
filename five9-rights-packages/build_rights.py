@@ -3,7 +3,7 @@ tennis-ambassador package.
 
 Usage: python3 build_rights.py <unpacked_deck_dir> <slide.xml>:<package>:<source_image> [...]
   package is haas, bearman or tennis; source_image is a file in ppt/media used for the
-  darkened background (e.g. slide60.xml:bearman:image181.png). Each slide must be a copy of a
+  darkened background (e.g. slide60.xml:bearman:image181.png), or "-" to keep the current one. Each slide must be a copy of a
   rights-package slide (made with add_slide.py). Safe to re-run on a filled slide.
 """
 import re
@@ -43,9 +43,8 @@ PACKAGES = {
             ("IP Usage", ["Digital and social media", "OOH and TVC", "POS and retail marketing"]),
             ("Helmet Branding", ["Five9 branding on Ollie’s helmet", "At all 24 Formula 1 races"]),
             ("Content & Social", ["Production time with Ollie", "Social media usage"]),
-            ("Experiences", ["Meet & greets", "Signed merchandise",
-                             "Formula 1 Paddock Club hospitality"]),
-            ("Investment", ["Fee: $2–2.5M p.a."]),
+            ("Experiences", ["Meet & greets", "Signed merchandise"]),
+            ("Hospitality", ["Formula 1 Paddock Club hospitality"]),
         ]),
     "tennis": dict(
         crop_y=0.5, out="rights_tennis_ambassador.jpeg",
@@ -56,7 +55,7 @@ PACKAGES = {
             ("Experiences", ["Meet & greets", "Signed merchandise"]),
             ("Content & Social", ["Production time", "Social media posts"]),
             ("Hospitality", ["Hospitality tailored to Five9’s needs"]),
-            ("Investment", ["Djokovic: $2M", "Zverev: $1.5M", "Jódar: $1M", "Shelton: $1.5M"]),
+            ("Athlete Fees", ["Djokovic: $2M", "Zverev: $1.5M", "Jódar: $1M", "Shelton: $1.5M"]),
         ]),
 }
 
@@ -159,8 +158,9 @@ def set_background(slide, out):
 for arg in sys.argv[2:]:
     slide, key, source = arg.split(":")
     cfg = PACKAGES[key]
-    make_background(source, cfg["crop_y"], cfg["out"])
-    set_background(slide, cfg["out"])
+    if source != "-":                      # "-" keeps the slide's current background
+        make_background(source, cfg["crop_y"], cfg["out"])
+        set_background(slide, cfg["out"])
     path = f"{ROOT}/ppt/slides/{slide}"
     xml = open(path, encoding="utf-8").read()
     xml = set_subtitle(xml, cfg["subtitle"])
