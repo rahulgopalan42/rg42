@@ -1,8 +1,10 @@
-"""Fill three copies of the tennis rights-package slide (slide39) with the Haas, Ollie Bearman
-and tennis-ambassador packages.
+"""Fill copies of the six-card rights-package slide with the Haas, Ollie Bearman or
+tennis-ambassador package.
 
-Usage: python3 build_rights.py <unpacked_deck_dir>
-Expects slide58/59/60.xml to be fresh copies of slide39.xml (made with add_slide.py).
+Usage: python3 build_rights.py <unpacked_deck_dir> <slide.xml>:<package>:<source_image> [...]
+  package is haas, bearman or tennis; source_image is a file in ppt/media used for the
+  darkened background (e.g. slide60.xml:bearman:image181.png). Each slide must be a copy of a
+  rights-package slide (made with add_slide.py). Safe to re-run on a filled slide.
 """
 import re
 import sys
@@ -15,9 +17,9 @@ E = 914400
 BG_W, BG_H = 12188825, 6757665          # background picture frame on slide39
 TARGET_LUM = 30                          # mean luminance of the existing package backgrounds
 
-SLIDES = {
-    "slide58.xml": dict(
-        image=("image175.png", 0.5), out="rights_haas.jpeg",
+PACKAGES = {
+    "haas": dict(
+        crop_y=0.5, out="rights_haas.jpeg",
         subtitle=("TGR HAAS F1 TEAM", "PARTNERSHIP"),
         cards=[
             ("Brand & IP Rights", ["Official Partner designation", "Associated IP and promotional rights"]),
@@ -33,8 +35,8 @@ SLIDES = {
             ("Business Value", ["B2B introductions across the team’s partner network",
                                 "Merchandise allocation", "Licensing opportunities"]),
         ]),
-    "slide59.xml": dict(
-        image=("image181.png", 0.62), out="rights_bearman.jpeg",
+    "bearman": dict(
+        crop_y=0.62, out="rights_bearman.jpeg",
         subtitle=("OLLIE BEARMAN", "ATHLETE PARTNERSHIP"),
         cards=[
             ("Brand & IP Rights", ["Official ambassador designation", "Territory: global"]),
@@ -45,8 +47,8 @@ SLIDES = {
                              "Formula 1 Paddock Club hospitality"]),
             ("Investment", ["Fee: $2–2.5M p.a."]),
         ]),
-    "slide60.xml": dict(
-        image=("image187.png", 0.5), out="rights_tennis_ambassador.jpeg",
+    "tennis": dict(
+        crop_y=0.5, out="rights_tennis_ambassador.jpeg",
         subtitle=("TENNIS", "AMBASSADOR"),
         cards=[
             ("Brand & IP Rights", ["Official Ambassador designation", "Territory: global"]),
@@ -139,6 +141,7 @@ def set_background(slide, out):
     pic_s = xml.index("<p:pic>")
     pic_e = xml.index("</p:pic>", pic_s)
     pic = xml[pic_s:pic_e]
+    rid = re.search(r'<a:blip r:embed="([^"]+)"', pic).group(1)
     pic = re.sub(r"<a:extLst><a:ext uri=\"\{BEBA8EAE[^\"]*\}\">.*?</a:ext></a:extLst>", "", pic, flags=re.S)
     pic = re.sub(r"<a:srcRect [^>]*/>", "<a:srcRect/>", pic)
     xml = xml[:pic_s] + pic + xml[pic_e:]
@@ -146,14 +149,17 @@ def set_background(slide, out):
 
     rels_path = f"{ROOT}/ppt/slides/_rels/{slide}.rels"
     rels = open(rels_path, encoding="utf-8").read()
-    rels = re.sub(r'(Id="rId3"[^>]*Target=")\.\./media/[^"]+"', rf'\1../media/{out}"', rels)
-    rels = re.sub(r'(Target=")\.\./media/[^"]+("[^>]*Id="rId3")', rf'\1../media/{out}\2', rels)
+    rels = re.sub(r'<Relationship [^>]*/>',
+                  lambda m: re.sub(r'Target="[^"]+"', f'Target="../media/{out}"', m.group(0))
+                  if f'Id="{rid}"' in m.group(0) else m.group(0), rels)
     rels = re.sub(r'<Relationship [^>]*hdphoto[^>]*/>', "", rels)
     open(rels_path, "w", encoding="utf-8").write(rels)
 
 
-for slide, cfg in SLIDES.items():
-    make_background(*cfg["image"], cfg["out"])
+for arg in sys.argv[2:]:
+    slide, key, source = arg.split(":")
+    cfg = PACKAGES[key]
+    make_background(source, cfg["crop_y"], cfg["out"])
     set_background(slide, cfg["out"])
     path = f"{ROOT}/ppt/slides/{slide}"
     xml = open(path, encoding="utf-8").read()
@@ -161,4 +167,4 @@ for slide, cfg in SLIDES.items():
     for i, (name, (heading, bullets)) in enumerate(zip(BOXES, cfg["cards"])):
         xml = fill_card(xml, name, i, heading, bullets)
     open(path, "w", encoding="utf-8").write(xml)
-    print("filled", slide)
+    print("filled", slide, "with", key)
