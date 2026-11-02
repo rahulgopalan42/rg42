@@ -1,0 +1,142 @@
+[
+ {
+  "brand": "Orbex",
+  "legal_name": "Orbital Express Launch Ltd (in administration); UK assets, IP and the Orbex brand now owned by Omnidea",
+  "domain": "orbex.space",
+  "hq": "Forres, United Kingdom",
+  "variant": "B2B",
+  "variant_flag": "",
+  "designation": "",
+  "fit_reason": "",
+  "target_audience": "",
+  "market_overlap": "",
+  "market_reference": "",
+  "shared_values": "",
+  "f1_audience": "",
+  "flags": [
+   "CLOSED: Orbex ceased operations on 18 February 2026 and went into administration (joint administrators Chad Griffin, Geoff Rowley and Graham Smith of FRP Advisory) after its Series D failed and takeover talks with The Exploration Company collapsed; its Danish subsidiary went bankrupt in January 2026. DO NOT BUILD.",
+   "ACQUIRED: Portuguese space group Omnidea bought Orbex's UK manufacturing assets, intellectual property and the Orbex brand from the administrators (completed 30 September 2026, announced 2 October 2026). The Orbex legal entity was not part of the deal; the Kinloss test site and Sutherland spaceport assets went in separate sales. Omnidea plans an evolved small launcher called PrimeNEO from Orbex's former Forres site.",
+   "Capacity: hard caution. Company insolvent; orbex.space returned an error (502) when opened.",
+   "Identity alternative: Omnidea (founded in Portugal, propulsion, launcher, fluid-control and satellite technology, operations in Europe and Australia, new UK operation in Forres led by Vice President Sergio da Cunha Oliveira). Not researched or built; it is restarting the UK business with a team of ex-Orbex staff, so expect hard caution as well.",
+   "Grid note if Omnidea is pitched later: the space-related partners on the grid are Boeing (Alpine; Boeing Research and Technology works with Enstone on CFD, additive manufacturing and advanced materials) and Indra Group (Alpine since January 2026; owner of satellite operator Hispasat)."
+  ],
+  "sources": [
+   "https://orbex.space",
+   "https://en.wikipedia.org/wiki/Orbex",
+   "https://www.adsadvance.co.uk/orbexs-uk-manufacturing-assets-ip-acquired-omnidea/",
+   "https://www.spacelaunchschedule.com/space-news/portugals-omnidea-acquires-orbex-assets-plans-primeneo-rocket/",
+   "https://www.alpinef1.com/partners/team-partner-boeing"
+  ],
+  "skip": "Closed: ceased operations Feb 2026 and in administration; Omnidea bought the UK assets and Orbex brand (Sept 2026). Approach Omnidea instead if wanted."
+ },
+ {
+  "brand": "3D Robotics",
+  "legal_name": "3DR Inc. (current operator of 3dr.com, a separate entity from the original 3D Robotics, Inc.)",
+  "domain": "3dr.com",
+  "hq": "Chula Vista, United States",
+  "variant": "B2B",
+  "variant_flag": "",
+  "designation": "",
+  "fit_reason": "",
+  "target_audience": "",
+  "market_overlap": "",
+  "market_reference": "",
+  "shared_values": "",
+  "f1_audience": "",
+  "flags": [
+   "ACQUIRED AND CLOSED: the drone software company in the chunk (3D Robotics, Inc., Berkeley, maker of Site Scan) was bought by Kitty Hawk in July 2021, and Kitty Hawk announced its wind-down on 21 September 2022. Site Scan had already been folded into Esri's ArcGIS drone offering (partnership announced 28 October 2019). DO NOT BUILD the enterprise drone software pitch: that business no longer operates under 3DR.",
+   "Identity: 3dr.com is now run by 3DR Inc., Fenton Business Center, Chula Vista, California, which states it 'was a distinct entity before the year 2023' and gives no warranty or support for pre-2023 3DR products. It sells open-source autopilots (Control N1, Control Zero H7), GNSS modules, telemetry radios and kits through store.3dr.com to educators, hobby builders and industry or government projects. The store metadata names Mayan Robotics, and store.mrobotics.io redirects to store.3dr.com, so this appears to be the mRo autopilot business trading under the 3DR name.",
+   "Capacity: hard caution. Small online hardware seller (12 items in its store), no funding, revenue or headcount published; a team deal would be out of proportion.",
+   "Identity alternative: Esri (Redlands, California) sells Site Scan within ArcGIS; whether Esri bought Site Scan outright is not confirmed by an official source. Not researched or built."
+  ],
+  "sources": [
+   "https://3dr.com/",
+   "https://3dr.com/about",
+   "https://store.3dr.com/",
+   "https://docs.3dr.com/",
+   "https://cleantechnica.com/2021/07/14/air-taxi-startup-kitty-hawk-buys-out-former-dji-competitor-3d-robotics/",
+   "https://fortune.com/2022/09/21/kittyhawk-larry-page-google-cofounder-flying-car-company-to-shut-down",
+   "https://socaltech.com/esri_adds_drone_flight_planning_processing_software/s-0079066.html",
+   "https://f1salaries.com/sponsors/"
+  ],
+  "skip": "Closed: the enterprise drone software business was bought by Kitty Hawk (2021), which wound down in 2022; 3dr.com is now a separate small hardware seller."
+ },
+ {
+  "brand": "GITAI",
+  "legal_name": "GITAI USA Inc. (with GITAI Defense and Space LLC and GITAI Japan, Inc.)",
+  "domain": "gitai.tech",
+  "hq": "Torrance, United States",
+  "variant": "B2B",
+  "variant_flag": "",
+  "designation": "Official Space Robotics Partner",
+  "fit_reason": "",
+  "target_audience": "Your target customers are spacecraft builders, satellite operators and telecom companies, and leaders from each are in Formula 1: Boeing (Alpine), Indra Group (Alpine), AT&T (Red Bull) and T-Mobile (McLaren). B2B brands are in the sport to host key clients, show their technology working under pressure and meet buyers worldwide. Teams also introduce partners to each other, to their owners and boards, and run joint activations at forums like CES and Web Summit.",
+  "market_overlap": "You are headquartered in Torrance, California, run GITAI Japan as your Japanese subsidiary, and work with US and Japanese space programmes, including a 2025 JAXA study for a lunar rover robotic arm. The Formula 1 calendar aligns with the markets you are present in and expanding into: Las Vegas, Miami, Austin and Suzuka.",
+  "market_reference": "Your closest peer on the grid is Boeing, a team partner of Alpine that builds spacecraft for the same US space programmes you serve. Its research arm has worked with the Enstone factory for nearly ten years on fluid dynamics, additive manufacturing and advanced materials, which gives Boeing shared engineering work and a research credential.",
+  "shared_values": "A Formula 1 team builds machines that must work first time, with no chance to fix them mid-race. GITAI builds robots that do precise work in orbit and on the Moon, where no engineer can reach them.",
+  "f1_audience": "",
+  "flags": [
+   "Capacity: firm caution. Private, about USD 83M raised in total; last round a USD 15.5M Series B extension (closed October 2024, Maezawa Fund). Its own S3 on-orbit servicing launch was deferred past 2028 to put resources into the Space Force contract.",
+   "Defense-led customers: selected by US Space Force Space Systems Command for the Space-Based Interceptor programme (announced 4 May 2026) and awarded a Missile Defense Agency SHIELD IDIQ contract (23 December 2025); this work now has priority. Mission-level language only; government and defence buyers are left out of the email.",
+   "HQ: chunk says Japan. GITAI moved its headquarters to Torrance, California (3305 Kashiwa St.) in late 2023 and expanded it in September 2024; GITAI Japan, Inc. remains a subsidiary. No China, India or Brazil override.",
+   "Identity: press releases come from GITAI USA Inc.; GITAI Defense and Space LLC (Delaware, April 2025) holds US government work. CEO Sho Nakanose. Not listed on any exchange.",
+   "Sector note: target_audience names buyer types for GITAI's satellite platform, components and on-orbit servicing, plus telecoms through its March 2024 lunar communications tower demo with KDDI; no commercial customer contracts are disclosed. Indra Group counts as a satellite operator through Hispasat (89.68% bought from Redeia, closed 30 December 2025).",
+   "Market reference is same buyer's world, not a direct competitor: Boeing (Alpine). The team page says nearly ten years of work with Boeing Research and Technology but gives no start year; sector.world dates the current deal from 2025.",
+   "Same batch: Orbex (space launch) declined as closed; Hidden Level is also defence-led. Not the same house."
+  ],
+  "sources": [
+   "https://gitai.tech/",
+   "https://gitai.tech/tag/news/",
+   "https://gitai.tech/?p=11518",
+   "https://www.satellitetoday.com/technology/2026/06/17/gitai-delays-robotic-servicing-mission-to-prioritize-sbi-work/",
+   "https://spacebandits.io/startups/gitai",
+   "https://www.alpinef1.com/partners/team-partner-boeing",
+   "https://www.alpinef1.com/partners",
+   "https://en.ara.cat/economy/indra-completes-the-purchase-of-hispasat-for-725-million-euros_1_5605818.html",
+   "https://www.redbullracing.com/int-en/partners",
+   "https://f1salaries.com/sponsors/mclaren/",
+   "https://f1salaries.com/sponsors/"
+  ]
+ },
+ {
+  "brand": "Hidden Level",
+  "legal_name": "Hidden Level, Inc.",
+  "domain": "hiddenlevel.com",
+  "hq": "Syracuse, United States",
+  "variant": "B2B",
+  "variant_flag": "",
+  "designation": "Official Airspace Security Partner",
+  "fit_reason": "",
+  "target_audience": "Your target customers are critical infrastructure operators, aerospace and security integrators, and the venues that host major events, and leaders from each are in Formula 1: Aramco (Aston Martin), DP World (McLaren), Boeing (Alpine), Hard Rock (Red Bull) and Marina Bay Sands (Ferrari). B2B brands are in the sport to host key clients, show their technology working under pressure and meet buyers worldwide. Teams also introduce partners to each other, to their owners and boards, and run joint activations at forums like CES and AWS re:Invent.",
+  "market_overlap": "You design and build your sensors in Syracuse, New York, work from a Washington, D.C. office, and monitor the airspace over the Arlington, Texas entertainment district on game days. The Formula 1 calendar aligns with the markets you are present in and expanding into: Miami, Austin and Las Vegas.",
+  "market_reference": "Indra Group, your closest rival on the grid in airspace security, joined Alpine in January 2026. Indra builds the ARMS counter-drone system that links to airport control towers. Alpine is deploying its IndraMind AI platform on live race-weekend data to support strategy decisions, giving Indra a live test of its technology and a global stage.",
+  "shared_values": "A Formula 1 team follows every car on the circuit live and makes safety calls in seconds. Hidden Level tracks drones and their pilots in real time, so security teams at stadiums, airports and critical sites can act fast.",
+  "f1_audience": "",
+  "flags": [
+   "Capacity: soft note. Private, venture-backed: USD 65M Series C in February 2025 led by DFJ Growth (Booz Allen Ventures, Revolution Growth and others), USD 100M raised in 12 months including a USD 35M Series B; Department of War USD 100M OTA reported 30 July 2026. New money is going into manufacturing and defence delivery.",
+   "Defense-led customers (Department of War OTA, US Army, Air Force and combatant command deployments, SOF Week and Golden Dome events): mission-level language only. The defence sector is left out of the email and framed as aerospace and security integrators.",
+   "Sectors dropped from target_audience: airports (FAA test deployments, Syracuse) and police and public safety (Arlington, Texas Police Department) have no honest grid example.",
+   "Call hook: circuits already buy drone detection. Dedrone covered COTA in Austin in 2023 and detected more than 50 drone flights over three days. That is a promoter deal, not a team deal.",
+   "HQ: Syracuse, New York (Geddes St. headquarters and manufacturing); the Washington, D.C. office opening date is not published. Hidden Level's site markets FIFA World Cup 2026 airspace security, but no FIFA contract is confirmed, so it is not used in the email.",
+   "Same batch: GITAI is also defence-led; not the same house."
+  ],
+  "sources": [
+   "https://hiddenlevel.com",
+   "https://hiddenlevel.com/about",
+   "https://hiddenlevel.com/press",
+   "https://hiddenlevel.com/solutions/public-safety",
+   "https://hiddenlevel.com/solutions/critical-infrastructure",
+   "https://hiddenlevel.com/fifa-world-cup-2026",
+   "https://siliconangle.com/2025/02/03/drone-defense-startup-hidden-level-raises-65m-growth-security-initiatives/",
+   "https://www.unmannedairspace.info/counter-uas-systems-and-policies/us-department-of-war-awards-hidden-level-a-us100-million-contract-for-c-uas-radar-technology/",
+   "https://www.atalayar.com/en/articulo/economy-and-business/indra-group-signs-technological-cooperation-agreement-with-bwt-alpine-formula-one/20260123110239222741.amp.html",
+   "https://www.indragroup.com/en/news/indras-anti-drone-shield-tested-complex-environments-ready-protect-airports",
+   "https://www.alpinef1.com/partners",
+   "https://dedrone.com/customers/formula-1-austin",
+   "https://www.redbullracing.com/int-en/partners",
+   "https://f1salaries.com/sponsors/ferrari/",
+   "https://f1salaries.com/sponsors/mclaren/",
+   "https://www.astonmartinf1.com/en-GB/partners"
+  ]
+ }
+]
