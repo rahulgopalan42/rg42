@@ -240,6 +240,7 @@ def write_book(path, title, rule, lst, sup):
         ['Checked and left out (listed, acquired, defunct, majority-owned, under USD 200M)', len(sup['out'])],
         ['Could not be verified (separate tab, not in the main list)', len(sup['unv'])],
         ['How each company was verified', 'Connector and research data can be wrong, so each test rests on independent sources: PRIVATE & INDEPENDENT - CB Insights\' current unicorn list where relevant, Wikipedia\'s exited-unicorn table, and up to 24 dated Google-News headlines per company (IPO / acquisition / shutdown / majority-owner queries) ruled on company by company; FUNDING USD 200M+ - Apollo funded-company filter looked up by website (website matched to the same company) or dated funding headlines; VALUATION - CB Insights, a dated news ruling or a research figure with a source (Valuation source column). Funding evidence and News evidence columns show what each row rests on. Amber = lower confidence or no relevant news (ranked lower).'],
+        ['Valuation age', 'Every valuation keeps its date. Valuation date shaded ORANGE = the valuation is from before 2024 and may be out of date (no newer figure was published); a later down round, recap or Chapter 11 found in the news replaces or removes the old figure.'],
         ['F1 sponsors set aside', 'Matched against the 2026 partner rosters of Formula 1 and all 11 teams (424 deals) plus research.'],
         ['Outreach order', f'Ranked by Outreach Priority = Total score + timing (fresh round, expansion or IPO prep, new marketing leadership, a rival already in F1) minus a penalty for lower-confidence rows. Tier 1 = top {T1}, Tier 2 = {T1 + 1}-{T2}, Tier 3 = the rest. Sector tabs keep the same order.'],
         ['Scoring', 'Total /100 = F1 Fit /60 (audience overlap, commercial synergies, brand alignment, international relevance, plus signals: rival in F1, motorsport link, expansion moment, race-market footprint, founder affinity) + Financial Capacity /40 (valuation and funding bands, headcount, funding recency, marketing hires, revenue).'],
@@ -257,9 +258,15 @@ def write_book(path, title, rule, lst, sup):
     sheet('CURRENT F1 DEAL (SET ASIDE)', SH[:9] + ['F1 deal'], [srow(r, '')[:9] + [r['f1_deal']] for _, r in sup['f1'].iterrows()], SW[:9] + [45], [BLUE] * len(sup['f1']))
     sheet('CHECKED - LEFT OUT', SH, [srow(r, r['why_out']) for _, r in sup['out'].iterrows()], SW)
     sheet('COULD NOT VERIFY', SH, [srow(r, r['why_out']) for _, r in sup['unv'].iterrows()], SW, [AMB] * len(sup['unv']))
+    OLD = PatternFill('solid', fgColor='F8CBAD')
     for ws in wb.worksheets:
+        hdr = [c.value for c in ws[1]]
+        vd = hdr.index('Valuation date') + 1 if 'Valuation date' in hdr else None
         for row in ws.iter_rows(min_row=2):
             for c in row: c.alignment = Alignment(vertical='top', wrap_text=False)
+            if vd:
+                m = re.search(r'(19|20)\d\d', str(row[vd - 1].value or ''))
+                if m and int(m.group(0)) < 2024: row[vd - 1].fill = OLD
     wb.save(path); print('saved', path, '| main', len(main), main['band'].value_counts().to_dict(), '| not on sheets', len(fresh))
     return main
 # brands already sent on 30 Oct in the private-unicorn workbook are not repeated (Rahul: new brands only)

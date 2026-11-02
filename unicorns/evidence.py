@@ -156,7 +156,17 @@ u['valuation_bn'] = u.apply(lambda r: r['valuation_bn'] if r['verified'] else (m
                                                                               else (r['cbi_val'] if r['cbi_val'] == r['cbi_val'] else r['agent_val'])), axis=1)
 u['vdate'] = u.apply(lambda r: r['vdate'] or (r['cbi_joined'] and 'joined ' + r['cbi_joined']), axis=1)
 _nv = u['news_val'].map(lambda x: x[0]); _nm = u['news_val'].map(lambda x: x[1])
-_use = _nv.notna() & ((_nm > u['vdate'].str.replace('joined ', '')) | u['valuation_bn'].isna())
+# a dated news ruling wins over a stored figure of the same month or older (the stored one is often the peak quoted in the same story)
+_use = _nv.notna() & ((_nm >= u['vdate'].str.replace('joined ', '')) | u['valuation_bn'].isna())
 u['valuation_bn'] = [float(n) if k else v for k, n, v in zip(_use, _nv, u['valuation_bn'])]; u['vdate'] = [m if k else d for k, m, d in zip(_use, _nm, u['vdate'])]
+# news says the stored valuation no longer holds (down round / recap / Chapter 11) but gives no new figure: show none
+def _stale(b):
+    x = NC.get(b)
+    return bool(x and s(x[1]).upper() != 'N' and s(x[6]).lower() == 'corrected' and x[3] is None
+                and re.search(r'valuation|unicorn|chapter 11|bankrupt|recap|peak', s(x[7]) + ' ' + s(x[8]), re.I))
+_st = u['brand'].map(_stale)
+u.loc[_st, 'valuation_bn'] = float('nan'); u.loc[_st, 'vdate'] = ''
+u.loc[_st, 'note'] = [('; '.join(z for z in (n, 'earlier valuation no longer holds (news): ' + s(NC[b][8])) if z)) for b, n in zip(u.loc[_st, 'brand'], u.loc[_st, 'note'])]
+print('news valuations applied', int(_use.sum()), '| stale valuations dropped', int(_st.sum()))
 for c in ('t_private', 't_val', 't_fund'): u[c] = u[c].map(lambda x: bool(x) if x is not None else False)
 print(u['verdict'].value_counts().to_dict())
