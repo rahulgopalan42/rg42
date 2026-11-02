@@ -52,12 +52,17 @@ band_list = sorted(bands, key=lambda b: (b[0], b[1]))
 
 # ---------- dedupe ----------
 def tot_digits(r): return re.sub(r'[^0-9]', '', str(r.get('total', '')))
+def fix_ai(t):                  # the OCR reads "AI" as "Al" / "A1"
+    t = re.sub(r'\((Al|A1)\)', '(AI)', str(t or ''))
+    t = re.sub(r'\bA1\b', 'AI', t)
+    return re.sub(r'(?<=[a-z0-9 .\-])Al(?=\s*$|[),])', 'AI', t)       # "Manus Al", "GigaAl"; not "Al Ahli"
 def clean_name(n):
     n = re.sub(r'\s+', ' ', str(n or '')).strip()
-    n = re.sub(r'^[^A-Za-z0-9一-鿿]+', '', n)
-    return n
+    n = re.sub(r'^[^A-Za-z0-9\u4e00-\u9fff]+', '', n)
+    return fix_ai(n)
 for r in rows:
     r['name'] = clean_name(r.get('name'))
+    for f in ('ind', 'desc'): r[f] = fix_ai(r.get(f, ''))
     r['country'] = country_of(r.get('hq', ''))
     r['band'] = (r['band_lo'], r['band_hi'])
 rows = [r for r in rows if len(r['name']) >= 2]

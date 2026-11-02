@@ -23,9 +23,13 @@ ALIAS = {'Republic of Korea': 'South Korea', 'Korea, Republic of': 'South Korea'
 
 US = 'Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New_Hampshire New_Jersey New_Mexico New_York North_Carolina North_Dakota Ohio Oklahoma Oregon Pennsylvania Rhode_Island South_Carolina South_Dakota Tennessee Texas Utah Vermont Virginia Washington West_Virginia Wisconsin Wyoming District_of_Columbia'
 REGIONS = {
-    'United States': US.replace('_', ' ').split(),
+    'United States': [x.replace('_', ' ') for x in US.split()],
     'Canada': ['Ontario', 'Quebec', 'British Columbia', 'Alberta', 'Manitoba', 'Saskatchewan', 'Nova Scotia', 'New Brunswick', 'Newfoundland', 'Prince Edward Island', 'Yukon'],
-    'United Kingdom': ['England', 'Scotland', 'Wales', 'Northern Ireland'],
+    'United Kingdom': ['England', 'Scotland', 'Wales', 'Northern Ireland', 'Greater London', 'Greater Manchester', 'West Midlands', 'Hertfordshire',
+                       'Surrey', 'Berkshire', 'Oxfordshire', 'Cambridgeshire', 'Kent', 'Essex', 'Hampshire', 'Buckinghamshire', 'West Yorkshire',
+                       'South Yorkshire', 'Merseyside', 'Lancashire', 'Bristol', 'Gloucestershire', 'Wiltshire', 'Somerset', 'Devon', 'Cornwall',
+                       'Leicestershire', 'Nottinghamshire', 'Derbyshire', 'Warwickshire', 'Northamptonshire', 'Bedfordshire', 'Sussex', 'West Sussex',
+                       'East Sussex', 'Norfolk', 'Suffolk', 'Cheshire', 'Tyne and Wear', 'Edinburgh', 'Glasgow City', 'Aberdeen City', 'Cardiff'],
     'China': ['Beijing', 'Shanghai', 'Guangdong', 'Zhejiang', 'Jiangsu', 'Shandong', 'Sichuan', 'Hubei', 'Hunan', 'Fujian', 'Anhui', 'Henan', 'Hebei',
               'Shaanxi', 'Shanxi', 'Liaoning', 'Jilin', 'Heilongjiang', 'Jiangxi', 'Guangxi', 'Yunnan', 'Guizhou', 'Chongqing', 'Tianjin', 'Hainan',
               'Gansu', 'Qinghai', 'Ningxia', 'Xinjiang', 'Tibet', 'Inner Mongolia', 'Nei Mongol'],
@@ -59,7 +63,7 @@ REGIONS = {
     'Chile': ['Region Metropolitana', 'Región Metropolitana', 'Santiago Metropolitan'],
     'Colombia': ['Distrito Especial', 'Antioquia', 'Cundinamarca', 'Bogota D.C.'],
     'Turkey': ['Istanbul', 'Ankara', 'Izmir'],
-    'Norway': ['Oslo', 'Akershus', 'Rogaland', 'Hordaland', 'Viken', 'Vestland'],
+    'Norway': ['Oslo', 'Akershus', 'Rogaland', 'Hordaland', 'Viken', 'Vestland', 'More og Romsdal', 'Møre og Romsdal', 'Trondelag', 'Trøndelag', 'Agder', 'Vestfold', 'Nordland'],
     'Denmark': ['Hovedstaden', 'Midtjylland', 'Syddanmark', 'Sjaelland', 'Nordjylland'],
     'Finland': ['Uusimaa', 'Southern Finland', 'Pirkanmaa'],
     'Austria': ['Wien', 'Vienna', 'Oberosterreich', 'Steiermark', 'Tirol', 'Salzburg', 'Niederosterreich'],
@@ -74,7 +78,8 @@ REGIONS = {
     'Russia': ["Moscow City", "Moskva", "Saint Petersburg City"],
     'Portugal': ['Lisboa', 'Lisbon', 'Porto'],
     'Luxembourg': ['Luxembourg'],
-    'Pakistan': ['Sindh', 'Punjab'],
+    'Pakistan': ['Sindh', 'Islamabad', 'Khyber Pakhtunkhwa'],
+
 }
 CITIES = {'Stellenbosch': 'South Africa', 'Johannesburg': 'South Africa', 'Cape Town': 'South Africa', 'London': 'United Kingdom', 'Singapore': 'Singapore',
           'Hong Kong': 'Hong Kong', 'Dubai': 'United Arab Emirates', 'Abu Dhabi': 'United Arab Emirates', 'Riyadh': 'Saudi Arabia', 'Doha': 'Qatar',
@@ -140,6 +145,10 @@ def country_of(hq):
     if len(parts) >= 2 and trunc:
         c = _prefix_country(last, region)
         if c: return c
+        r = _clean(parts[-1]).lower()                         # "Welwyn Garden City, Hertfor..." : region cut short
+        if len(r) >= 4:
+            cs = {c for k, v in _REG.items() if k.startswith(r) for c in v}
+            if len(cs) == 1: return next(iter(cs))
     if CITIES.get(city): return CITIES[city]
     c = _CTRY.get(city.lower())
     return c or ''

@@ -127,7 +127,7 @@ FIT = {'Automotive & Mobility': 10, 'Luxury, Jewellery & Watches': 10, 'Software
        'Government, Non-profit & Associations': 1, 'Tobacco & Nicotine': 0, OTHER: 4}
 assert set(FIT) == set(NAMES), set(NAMES) ^ set(FIT)
 CONSUMER = re.compile(r'consumer|mobile app|^apps|e-commerce|gaming|video game|fintech|payments|crypto|travel|beverage|fashion|beauty|automotive|electric vehicle|'
-                      r'artificial intelligence|generative ai|social|dating|music|streaming|food delivery|ride sharing|sports|fitness|neo.?bank|personal finance|'
+                      r'social|dating|music|streaming|food delivery|ride sharing|sports|fitness|neo.?bank|personal finance|'
                       r'wearables|consumer electronics|luxury|hospitality|delivery|marketplace', re.I)
 
 if __name__ == '__main__':
