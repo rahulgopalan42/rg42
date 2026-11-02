@@ -12,7 +12,7 @@ from sectors_v3 import NAMES, OTHER
 # (sector, weight, industry regex) - matched against each Crunchbase industry (lower case, may be cut short by "...")
 IND = [
     ('Tobacco & Nicotine', 4, r'tobacco|e-cigarette|vaping|cannabis|marijuana|nicotine'),
-    ('Automotive & Mobility', 3, r'automotive|electric vehicle|autonomous vehicle|ride sharing|car sharing|ridesharing|motorcycle|micro.?mobility|last mile transportation|electric vehicle charging|^ev'),
+    ('Automotive & Mobility', 1.8, r'automotive|electric vehicle|autonomous vehicle|ride sharing|car sharing|ridesharing|motorcycle|micro.?mobility|last mile transportation|electric vehicle charging|^ev$'),
     ('Aerospace, Defence & Space', 3, r'aerospace|space travel|^space|satellite(?! communication)|drone|defen[cs]e|military|national security|aviation'),
     ('Airlines & Air Travel', 3, r'^air transportation|airline'),
     ('Travel, Hotels & Leisure', 2.5, r'travel|hospitality|hotel|tourism|vacation rental|leisure|cruise|theme park|resorts?$|amusement'),
@@ -65,7 +65,8 @@ GENERIC = {'software': 1.0, 'information technology': 0.6, 'internet': 0.7, 'app
            'energy': 1.2, 'manufacturing': 0.8, 'financial services': 1.4, 'finance': 1.2, 'industrial': 0.8, 'hardware': 1.2, 'consumer': 1.0,
            'enterprise software': 1.4, 'saas': 1.4, 'analytics': 1.0, 'big data': 1.0, 'transportation': 1.6, 'retail': 1.6, 'e-commerce': 2.2,
            'artificial intelligence (ai)': 2.6, 'artificial intelligence': 2.6, 'machine learning': 1.6, 'generative ai': 2.6, 'cyber security': 2.2,
-           'service industry': 1.0, 'b2b': 0.8, 'electronics': 2.0, 'marketplace': 1.4, 'mobile apps': 1.2, 'platforms': 0.8}
+           'service industry': 1.0, 'b2b': 0.8, 'electronics': 2.0, 'marketplace': 1.4, 'mobile apps': 1.2, 'platforms': 0.8,
+           'electric vehicle': 3.0, 'autonomous vehicles': 3.0, 'electric vehicle charging': 2.5, 'ride sharing': 2.5, 'motorcycle': 2.5}
 
 # name / description cues: (sector, weight, regex)
 NAME = [('Banking & Lending', 3, r'\bbank\b|\bbanco\b'), ('Insurance', 3, r'insurance|assurance|\bre\b'), ('Airlines & Air Travel', 3, r'airlines?|airways'),
@@ -75,8 +76,12 @@ NAME = [('Banking & Lending', 3, r'\bbank\b|\bbanco\b'), ('Insurance', 3, r'insu
         ('Travel, Hotels & Leisure', 2, r'hotels?|resorts?'), ('Food & Beverage', 2, r'\bfoods?\b|beverages?|coffee|restaurants?'),
         ('Real Estate', 2, r'realty|properties|\breit\b|real estate'), ('Investment & Capital Markets', 1, r'\bcapital\b|investments?\b|asset management'),
         ('Video Games & Esports', 2, r'\bgames\b|gaming'), ('Logistics & Transportation', 2, r'logistics|freight|express\b'),
-        ('Healthcare Services', 1.5, r'hospital|\bhealth\b|medical|clinic'), ('Semiconductors & Electronics', 3, r'semiconductor|microelectronics')]
-DESC = [('Banking & Lending', 1.5, r'\bbank\b|lender|loans?\b'), ('Insurance', 1.5, r'insurance|insurer'), ('Airlines & Air Travel', 2, r'airline'),
+        ('Healthcare Services', 1.5, r'hospital|\bhealth\b|medical|clinic'), ('Semiconductors & Electronics', 3, r'semiconductor|microelectronics|microchip'),
+        ('Aerospace, Defence & Space', 2, r'aerospace|aviation\b|space\b')]
+DESC = [('Oil, Gas & Fuels', 2.5, r'midstream|pipelines?\b|upstream|refin(ery|ing)|oilfield'), ('Mining & Metals', 2.5, r'bauxite|alumin(a|um|ium)|\bsteel\b|\bcopper\b|\bnickel\b|iron ore'),
+        ('Aerospace, Defence & Space', 2, r'aircraft|aerospace|satellite|rocket|defen[cs]e'), ('Travel, Hotels & Leisure', 2, r'hospitality|hotels?\b|resorts?\b|cruise'),
+        ('Financial Services & Payments', 1.5, r'financial services'), ('Semiconductors & Electronics', 2, r'semiconductor|microcontroller|connectors?\b|sensors?\b'),
+        ('Banking & Lending', 2, r'\bbank\b|lender|loans?\b'), ('Insurance', 1.5, r'insurance|insurer'), ('Airlines & Air Travel', 2, r'airline'),
         ('Automotive & Mobility', 1.5, r'electric vehicle|\bev\b|automaker|car maker|vehicles?'), ('Pharma & Biotech', 1.5, r'biopharm|biotech|therapeut|clinical.stage|drug|medicines'),
         ('Oil, Gas & Fuels', 1.5, r'oil and gas|exploration and production|petroleum|natural gas'), ('Utilities & Renewable Energy', 1.2, r'solar|wind|renewable|power plant|electricity|energy storage'),
         ('Semiconductors & Electronics', 1.5, r'semiconductor|\bchips?\b|electronics'), ('Video Games & Esports', 1.5, r'\bgames?\b|gaming'),

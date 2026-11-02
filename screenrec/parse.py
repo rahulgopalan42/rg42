@@ -104,11 +104,16 @@ def parse_file(path):
         if 'top' in fr:
             m = top_meta(fr['top'])
             b = m['band']
+            cb = cur['band']
             if b and b[1] is not None: cur['band'] = b
-            elif b and cur['band'] and b[0] not in cur['band']: cur['band'] = None
+            elif b and cb and cb[1] is not None and abs(b[0] - cb[1]) < 0.01 and m['results'] and cur['results'] and m['results'] != cur['results']:
+                cur['band'] = (b[0], None)      # only a minimum ("Total Funding Amount: $9.8B"): open-ended top range
+            elif b and cb and b[0] not in cb: cur['band'] = None
             cur.update({k: m[k] for k in ('start', 'end', 'results')})
         band = cur['band']
-        if cur['start'] is None or band is None or not cur['results'] or cur['start'] > cur['results']: continue
+        # a start beyond the result count is a real Crunchbase view (page offset kept from the previous search, e.g.
+        # "801-247 of 247"): its rows are kept; build.py leaves such pages out of the page-completeness check
+        if cur['start'] is None or band is None or not cur['results']: continue
         key = (band, cur['start'])
         pagemeta.setdefault(key, {'band': band, 'start': cur['start'], 'end': cur['end'], 'results': cur['results'], 't': fr['t']})
         for r in fr.get('rows', []):
@@ -125,7 +130,7 @@ if __name__ == '__main__':
             for r in rows: out.append(dict(r, band_lo=key[0][0], band_hi=key[0][1], page_start=key[1], results=pm[key]['results']))
         json.dump({'rows': out, 'pages': [dict(v, rows=len(pages.get(k, []))) for k, v in pm.items()]}, open(path.replace('.jsonl', '.rows.json'), 'w'))
         print(os.path.basename(path), 'rows', len(out))
-        for key in sorted(pm, key=lambda k: (k[0][0], k[1])):
+        for key in sorted(pm, key=lambda k: (k[0][0], k[0][1] or 1e12, k[1])):
             m = pm[key]; n = len(pages.get(key, []))
             exp = min(50, (m['results'] or 0) - m['start'] + 1) if m['results'] else 50
             print(f"  band {m['band']} page {m['start']}-{m['end']} of {m['results']}: rows {n}/{exp}")

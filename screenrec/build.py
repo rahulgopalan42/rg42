@@ -21,11 +21,13 @@ OCR, OUT = sys.argv[1], sys.argv[2]
 # recording part -> (file shown to the user, offset of the part in the video, seconds)
 PARTS = {'6a': ('6.mov', 0), '6b': ('6.mov', 845)}
 LOWCONF = 0.85
+NOT_F1 = {'Paramount Group'}     # same name as an F1 partner, different company (Paramount+ is the partner)
 
 def fmt_m(v):
     if v is None: return ''
     return f'USD {v / 1000:g}B' if v >= 1000 else f'USD {v:g}M'
-def band_txt(lo, hi): return f'{fmt_m(lo)} - {fmt_m(hi)}'
+def band_txt(lo, hi): return f'{fmt_m(lo)} and above' if hi is None else f'{fmt_m(lo)} - {fmt_m(hi)}'
+LISTED_REC = '8.mov'            # this recording is a different search: listed companies (IPO status: public), USD 25M-150M
 def mmss(s): s = int(s); return f'{s // 60}:{s % 60:02d}'
 
 # ---------- load ----------
@@ -40,15 +42,21 @@ for f in sorted(glob.glob(os.path.join(OCR, '*.rows.json'))):
 print('raw rows', len(rows), 'pages', len(pages))
 
 # ---------- ranges and pages ----------
-bands = defaultdict(lambda: {'recs': set(), 'results': defaultdict(int), 'pages': {}, 'rows': 0})
+bands = defaultdict(lambda: {'recs': set(), 'results': defaultdict(int), 'pages': {}, 'rows': 0, 'off': 0})
 for p in pages:
     b = (p['band'][0], p['band'][1]); B = bands[b]; B['recs'].add(p['rec']); B['results'][p['results']] += 1
     k = p['start']
+    if p['results'] and k > p['results']: B['off'] += p['rows']; continue     # "801-247 of 247": offset kept from the previous search
     if k not in B['pages'] or p['rows'] > B['pages'][k]['rows']: B['pages'][k] = p
 for b, B in bands.items():
     B['n_results'] = max(B['results'], key=B['results'].get)
     B['rows'] = sum(p['rows'] for p in B['pages'].values())
-band_list = sorted(bands, key=lambda b: (b[0], b[1]))
+    need = -(-B['n_results'] // 50)
+    B['main'] = len(B['pages']) >= max(1, 0.5 * need)          # a range that was paged through, not a filter being typed
+    B['listed'] = B['recs'] == {LISTED_REC}
+bkey = lambda b: (b[0], b[1] if b[1] is not None else 1e12)
+band_list = sorted(bands, key=bkey)
+MAIN = {b for b in band_list if bands[b]['main']}
 
 # ---------- dedupe ----------
 def tot_digits(r): return re.sub(r'[^0-9]', '', str(r.get('total', '')))
@@ -65,6 +73,7 @@ for r in rows:
     for f in ('ind', 'desc'): r[f] = fix_ai(r.get(f, ''))
     r['country'] = country_of(r.get('hq', ''))
     r['band'] = (r['band_lo'], r['band_hi'])
+    r['listed'] = r['rec'] == LISTED_REC
 rows = [r for r in rows if len(r['name']) >= 2]
 groups = []                     # union by (loose name, country) or (similar name, same total funding)
 idx_name = defaultdict(list); idx_tot = defaultdict(list)
@@ -95,7 +104,8 @@ f1 = json.load(open(os.path.join(R, 'unicorns', 'ref', 'f1_sponsors_2026.json'))
 F1N = defaultdict(list)
 for x in f1:
     k = loose(x[0])
-    if k and len(k) >= 3: F1N[k].append(f'{x[2]}: {x[3]} ({x[4]})')
+    if k and len(k) >= 2: F1N[k].append(f'{x[2]}: {x[3]} ({x[4]})')
+F1S = {loose(x[0]): x[0] for x in f1}
 sent_u = {loose(n) for n, _ in json.load(open(os.path.join(R, 'unicorns', 'ref', 'sent_unicorns_30oct.json')))} - {''}
 try:
     import pandas as pd
@@ -120,16 +130,20 @@ for g in groups:
     c = {'brand': pick(obs, 'name') or g['name']}
     for f in ('total', 'date', 'ind', 'hq', 'desc', 'ipo'): c[f] = pick(obs, f)
     c['country'] = country_of(c['hq']) or g['country']
-    bset = sorted({o['band'] for o in obs}); c['bands'] = bset
-    c['band_lo'] = min(b[0] for b in bset); c['band_hi'] = max(b[1] or b[0] for b in bset)
-    c['mid'] = (c['band_lo'] + c['band_hi']) / 2
+    if c['brand'][:1] == 'l' and str(c['desc']).lower().startswith('i' + c['brand'][1:].lower()): c['brand'] = 'I' + c['brand'][1:]   # "lonQ" -> "IonQ"
+    ball = sorted({o['band'] for o in obs}, key=bkey); bset = [b for b in ball if b in MAIN] or ball; c['bands'] = bset
+    c['listed'] = all(o['listed'] for o in obs)
+    c['band_lo'] = min(b[0] for b in bset); hi = [b[1] for b in bset if b[1] is not None]
+    c['band_hi'] = max(hi) if hi and all(b[1] is not None for b in bset) else None
+    c['mid'] = (c['band_lo'] + c['band_hi']) / 2 if c['band_hi'] is not None and c['band_hi'] >= c['band_lo'] else c['band_lo'] * 1.3
     c['src'] = '; '.join(sorted({f"{o['rec']} @ {mmss(o['at'])}" for o in obs})[:3])
     c['name_conf'] = max((o.get('name_conf') or 0) for o in obs); c['seen'] = sum(o.get('seen', 1) for o in obs)
     c['sector'] = sector_of(c['ind'], c['brand'], c['desc'])
     c['subsector'] = ', '.join(industries(c['ind']))
     c['year'] = year_of(c['date'])
     ln = loose(c['brand'])
-    c['f1'] = '; '.join(sorted(set(F1N.get(ln, []))))
+    short_ok = len(ln) >= 3 or re.sub(r'[^a-z0-9]', '', c['brand'].lower()) == re.sub(r'[^a-z0-9]', '', F1S.get(ln, '').lower())
+    c['f1'] = '' if c['brand'] in NOT_F1 or not short_ok else '; '.join(sorted(set(F1N.get(ln, []))))
     flags = []
     on = present(c['brand'])
     if on in ('name', 'website'): flags.append('already on your sheets')
@@ -142,6 +156,7 @@ for g in groups:
     if c['name_conf'] < LOWCONF: flags.append('name read with low OCR confidence: check spelling')
     if c['sector'] == 'Tobacco & Nicotine': flags.append('tobacco / nicotine / cannabis: F1 advertising restrictions')
     c['flags'] = '; '.join(flags)
+    c['search'] = 'Listed cos, USD 25-150M (8.mov)' if c['listed'] else 'Total funding USD 150M+'
     fit = FIT[c['sector']]
     consumer = bool(CONSUMER.search(c['ind'] + ' ' + c['desc']))
     geo = 8 if c['country'] in TIER_A else 5 if c['country'] in TIER_B else 3
@@ -153,11 +168,21 @@ for g in groups:
     c['why'] = '; '.join(why)
     out.append(c)
 
-main = [c for c in out if not c['f1']]; f1rows = [c for c in out if c['f1']]
+# last merge: two OCR spellings that ended with the same name and country (e.g. "ltron" / "Itron") are one company
+_m = {}
+for c in sorted(out, key=lambda c: -c['seen']):
+    k = (loose(c['brand']), c['country'])
+    if k in _m:
+        _m[k]['src'] = '; '.join(sorted(set(_m[k]['src'].split('; ') + c['src'].split('; '))))[:200]; _m[k]['seen'] += c['seen']
+    else: _m[k] = c
+print('merged same name + country', len(out) - len(_m)); out = list(_m.values())
+main = [c for c in out if not c['f1']]; f1rows = []
+for c in sorted([c for c in out if c['f1']], key=lambda c: -c['seen']):            # one row per F1 brand
+    if not any(loose(x['brand']) == loose(c['brand']) for x in f1rows): f1rows.append(c)
 main.sort(key=lambda c: (-c['score'], -c['mid'], c['brand'].lower()))
 for i, c in enumerate(main, 1):
     c['rank'] = i
-    c['tier'] = 'Tier 1' if c['score'] >= 72 else 'Tier 2' if c['score'] >= 60 else 'Tier 3' if c['score'] >= 48 else 'Tier 4'
+    c['tier'] = 'Tier 1' if i <= 500 else 'Tier 2' if i <= 2000 else 'Tier 3' if i <= 6000 else 'Tier 4'
 f1rows.sort(key=lambda c: -c['score'])
 print('main', len(main), 'current F1', len(f1rows))
 
@@ -167,7 +192,7 @@ TFILL = {'Tier 1': 'C6EFCE', 'Tier 2': 'FFEB9C', 'Tier 3': 'F2F2F2', 'Tier 4': '
 COLS = [('Rank', 7, 'rank'), ('Tier', 8, 'tier'), ('Priority score (/100)', 10, 'score'), ('Brand', 30, 'brand'), ('Sector', 26, 'sector'),
         ('Subsector (Crunchbase industries)', 34, 'subsector'), ('HQ country', 16, 'country'), ('HQ location (Crunchbase)', 30, 'hq'),
         ('Description (Crunchbase)', 60, 'desc'), ('Total funding (as shown)', 18, 'total'), ('Funding range filter (USD)', 22, 'range'),
-        ('Last funding date', 14, 'date'), ('Why this rank', 60, 'why'), ('Flags', 50, 'flags'), ('Seen in recording', 26, 'src')]
+        ('Last funding date', 14, 'date'), ('Why this rank', 60, 'why'), ('Flags', 50, 'flags'), ('Search', 22, 'search'), ('Seen in recording', 26, 'src')]
 def sheet(wb, title, data, cols=COLS, tier=True):
     ws = wb.create_sheet(title[:31])
     ws.append([h for h, _, _ in cols])
@@ -197,7 +222,7 @@ lines = [
     ('Funding ranges in the recordings: see RANGES CHECK (gaps, overlaps, pages captured per range).', BOLD),
     ('', None),
     ('Priority score (/100) = sector F1 fit x4 (40) + funding raised (25) + recency of last round (20) + HQ market (8) + consumer-facing (7).', None),
-    ('Tier 1 >= 72, Tier 2 60-71, Tier 3 48-59, Tier 4 < 48.', None),
+    ('Tier 1 = top 500 (contact first), Tier 2 = 501-2,000, Tier 3 = 2,001-6,000, Tier 4 = the rest. Sector tabs keep the same order.', None),
     ('Sector: same 48 sectors as the earlier lists, chosen from the Crunchbase industries, name and description. Subsector = the Crunchbase industries shown.', None),
     ('Country: from the Crunchbase HQ location (the table cuts long locations short; the state / province decides when the country is cut off).', None),
     ('', None),
@@ -214,24 +239,54 @@ ws.column_dimensions['A'].width = 140
 
 # ranges check
 wr = wb.create_sheet('RANGES CHECK')
-wr.append(['Funding range (USD)', 'Recording(s)', 'Results Crunchbase shows', 'Pages of 50 needed', 'Pages captured', 'Pages missing',
-           'Companies read', 'Coverage', 'Next range starts at', 'Gap / overlap to next range'])
-for i, b in enumerate(band_list):
-    B = bands[b]; need = -(-B['n_results'] // 50); have = sorted(B['pages'])
-    miss = [f'{s}-{min(s + 49, B["n_results"])}' for s in range(1, B['n_results'] + 1, 50) if s not in B['pages']]
-    nxt = band_list[i + 1] if i + 1 < len(band_list) else None
-    if nxt is None: gap = 'last range'
-    elif b[1] is None: gap = '?'
-    elif abs(nxt[0] - b[1]) < 0.01: gap = 'contiguous'
-    elif nxt[0] > b[1]: gap = f'GAP: {fmt_m(b[1])} - {fmt_m(nxt[0])} not covered'
-    else: gap = f'overlap {fmt_m(nxt[0])} - {fmt_m(min(b[1], nxt[1] or b[1]))}'
-    wr.append([band_txt(*b), ', '.join(sorted(B['recs'])), B['n_results'], need, len(have), ', '.join(miss) or 'none', B['rows'],
-               f"{B['rows'] / max(B['n_results'], 1):.0%}", fmt_m(nxt[0]) if nxt else '', gap])
-for i, w in enumerate([26, 16, 12, 10, 10, 40, 10, 9, 14, 40], 1): wr.column_dimensions[get_column_letter(i)].width = w
-for cl in wr[1]: cl.font = HDR; cl.fill = HFILL; cl.alignment = Alignment(wrap_text=True)
+COLSR = ['Funding range (USD)', 'Recording(s)', 'Results Crunchbase shows', 'Pages of 50 needed', 'Pages captured', 'Pages missing',
+         'Companies read', 'Coverage', 'Next range starts at', 'Gap / overlap to next range']
+def rng_rows(lst):
+    out = []
+    for i, b in enumerate(lst):
+        B = bands[b]; need = -(-B['n_results'] // 50)
+        miss = [f'{s_}-{min(s_ + 49, B["n_results"])}' for s_ in range(1, B['n_results'] + 1, 50) if s_ not in B['pages']]
+        nxt = lst[i + 1] if i + 1 < len(lst) else None
+        if nxt is None: gap = 'top of the search' if b[1] is None else f'last range: nothing above {fmt_m(b[1])} was recorded'
+        elif b[1] is None: gap = 'open-ended'
+        elif abs(nxt[0] - b[1]) < 0.01: gap = 'contiguous (no gap)'
+        elif nxt[0] > b[1]: gap = f'GAP: {fmt_m(b[1])} - {fmt_m(nxt[0])} not covered'
+        else: gap = f'overlap {fmt_m(nxt[0])} - {fmt_m(b[1])}'
+        out.append([band_txt(*b), ', '.join(sorted(B['recs'])), B['n_results'], need, len(B['pages']), ', '.join(miss) or 'none',
+                    B['rows'], f"{min(1, B['rows'] / max(B['n_results'], 1)):.0%}", fmt_m(nxt[0]) if nxt else '', gap])
+    return out
+main_all = [b for b in band_list if b in MAIN and not bands[b]['listed']]
+main_listed = [b for b in band_list if b in MAIN and bands[b]['listed']]
+part = [b for b in band_list if b not in MAIN]
+gaps_all = [r for r in rng_rows(main_all) if r[-1].startswith('GAP')]
+top = main_all[-1] if main_all else None
+head = [f"Search 1 - all companies, total funding from {fmt_m(main_all[0][0])} up (recordings {', '.join(sorted({r for b in main_all for r in bands[b]['recs']}))}): "
+        + ('no gaps between ranges' if not gaps_all else f'{len(gaps_all)} gap(s) - see below')
+        + (f"; the top range is open-ended ({band_txt(*top)}), so nothing above it is missing." if top and top[1] is None else '.')]
+for t in [head[0], '']: wr.append([t])
+wr.cell(1, 1).font = BOLD
+wr.append(COLSR); hr = wr.max_row
+for r in rng_rows(main_all): wr.append(r)
+wr.append([]); wr.append([f'Search 2 - {LISTED_REC}: listed companies only (IPO status: public), total funding USD 25M - 150M']); wr.cell(wr.max_row, 1).font = BOLD
+wr.append(COLSR); hr2 = wr.max_row
+for r in rng_rows(main_listed): wr.append(r)
+wr.append([]); wr.append(['Partial views - the funding filter was being changed (e.g. USD 1.2B - 1.3B, 1.4B, 1.5B ... while typing). Only the first page showed; '
+                          'every company read from these views is kept in the lists.']); wr.cell(wr.max_row, 1).font = BOLD
+wr.append(['Funding range shown', 'Recording', 'Results shown', 'Companies read']); hr3 = wr.max_row
+for b in part:
+    B = bands[b]; wr.append([band_txt(*b) if b[1] is None or b[1] >= b[0] else f'{fmt_m(b[0])} - {fmt_m(b[1])} (being typed)', ', '.join(sorted(B['recs'])), B['n_results'], B['rows'] + B['off']])
+for i, w in enumerate([30, 16, 12, 10, 10, 40, 10, 9, 14, 44], 1): wr.column_dimensions[get_column_letter(i)].width = w
+for h in (hr, hr2, hr3):
+    for cl in wr[h]:
+        if cl.value: cl.font = HDR; cl.fill = HFILL; cl.alignment = Alignment(wrap_text=True)
+ws.append([]); ws.append(['Funding ranges recorded', ]); ws.cell(ws.max_row, 1).font = BOLD
+ws.append([head[0]])
+ws.append([f'Recording {LISTED_REC} is a different search: listed companies only (IPO status: public) with USD 25M-150M raised. Those '
+           f'{sum(1 for c in out if c["listed"])} brands are kept (every brand) and marked "Listed cos" in the Search column. In that recording the extra '
+           f'IPO Status column pushed Description off the visible table, so those rows have no description.'])
 wp = wb.create_sheet('PAGE CHECK')
 wp.append(['Funding range (USD)', 'Page', 'Companies read', 'Companies on page', 'Recording', 'At (mm:ss)'])
-for b in band_list:
+for b in [x for x in band_list if x in MAIN]:
     B = bands[b]
     for s in sorted(B['pages']):
         p = B['pages'][s]; exp = min(50, B['n_results'] - s + 1)
@@ -248,8 +303,8 @@ by_sec = defaultdict(list)
 for c in main: by_sec[c['sector']].append(c)
 for s in NAMES:
     if by_sec.get(s): sheet(wb, s.replace('/', '-'), by_sec[s])
-json.dump({'main': main, 'f1': f1rows, 'bands': [[list(b), bands[b]['n_results'], len(bands[b]['pages']), bands[b]['rows'], sorted(bands[b]['recs'])] for b in band_list]},
-          open(OUT.replace('.xlsx', '.json'), 'w'), default=str)
+json.dump({'main': main, 'f1': f1rows, 'bands': [[list(b), bands[b]['n_results'], len(bands[b]['pages']), bands[b]['rows'] + bands[b]['off'], sorted(bands[b]['recs']), b in MAIN, bands[b]['listed']] for b in band_list]},
+          open(os.path.join(OCR, 'build.json'), 'w'), default=str)
 wb.save(OUT)
 print('saved', OUT)
 for b in band_list:

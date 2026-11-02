@@ -97,6 +97,33 @@ CITIES = {'Stellenbosch': 'South Africa', 'Johannesburg': 'South Africa', 'Cape 
           'Moscow': 'Russia', 'Almaty': 'Kazakhstan', 'Karachi': 'Pakistan', 'Lahore': 'Pakistan', 'Dhaka': 'Bangladesh', 'Colombo': 'Sri Lanka',
           'Auckland': 'New Zealand', 'Wellington': 'New Zealand', 'Amman': 'Jordan', 'Beirut': 'Lebanon', 'Manama': 'Bahrain', 'Muscat': 'Oman',
           'Kuwait City': 'Kuwait', 'Casablanca': 'Morocco', 'Accra': 'Ghana', 'Kigali': 'Rwanda', 'Addis Ababa': 'Ethiopia', 'Harare': 'Zimbabwe'}
+
+REGIONS['Japan'] += ['Fukushima', 'Miyagi', 'Ibaraki', 'Tochigi', 'Gunma', 'Niigata', 'Nagano', 'Gifu', 'Mie', 'Shiga', 'Nara', 'Wakayama', 'Okayama',
+                     'Yamaguchi', 'Tokushima', 'Kagawa', 'Ehime', 'Kochi', 'Saga', 'Nagasaki', 'Kumamoto', 'Oita', 'Miyazaki', 'Kagoshima', 'Okinawa',
+                     'Aomori', 'Iwate', 'Akita', 'Yamagata', 'Toyama', 'Ishikawa', 'Fukui', 'Yamanashi', 'Tottori', 'Shimane', 'Tokyo-to', 'Osaka-fu']
+REGIONS['United Kingdom'] += ['Durham', 'County Durham', 'Staffordshire', 'Shropshire', 'Worcestershire', 'Herefordshire', 'Lincolnshire', 'North Yorkshire',
+                              'East Riding of Yorkshire', 'Cumbria', 'Northumberland', 'Dorset', 'Middlesbrough', 'Gateshead', 'Coventry', 'Manchester',
+                              'Birmingham', 'Leeds', 'Sheffield', 'Liverpool', 'Coleraine', 'Belfast', 'City of London', 'Westminster', 'Camden', 'Islington',
+                              'Hackney', 'Southwark', 'Lambeth', 'Tower Hamlets', 'Kensington and Chelsea', 'Hammersmith and Fulham', 'Wandsworth', 'Reading',
+                              'Slough', 'Milton Keynes', 'Swindon', 'Isle of Wight', 'Rutland', 'Stockport', 'Trafford', 'Salford', 'Newcastle upon Tyne']
+REGIONS['India'] += ['Himachal Pradesh', 'Uttarakhand', 'Jharkhand', 'Assam', 'Chhattisgarh', 'Jammu and Kashmir', 'Puducherry', 'National Capital Territory of Delhi']
+REGIONS['Mexico'] += ['Queretaro', 'Querétaro', 'Queretaro de Arteaga', 'Puebla', 'Guanajuato', 'Sonora', 'Chihuahua', 'Baja California', 'Yucatan', 'Quintana Roo', 'Mexico City']
+REGIONS['France'] += ['Champagne-Ardenne', 'Centre', 'Centre-Val de Loire', 'Bourgogne', 'Burgundy', 'Lorraine', 'Picardie', 'Poitou-Charentes', 'Limousin',
+                      'Auvergne', 'Basse-Normandie', 'Haute-Normandie', 'Franche-Comte', 'Corse', 'Bourgogne-Franche-Comte']
+REGIONS['Spain'] += ['Castilla y Leon', 'Castilla-La Mancha', 'Aragon', 'Asturias', 'Murcia', 'Cantabria', 'Extremadura', 'Islas Baleares', 'Canarias', 'Catalunya']
+REGIONS['Finland'] += ['Western Finland', 'Eastern Finland', 'Oulu', 'Lapland', 'Varsinais-Suomi', 'Pohjois-Pohjanmaa']
+REGIONS['Israel'] += ['Yerushalayim', 'Tel Aviv-Yafo', 'HaMerkaz (Central District)']
+REGIONS['Belgium'] += ['Brussels Hoofdstedelijk Gewest', 'Bruxelles-Capitale', 'Region de Bruxelles-Capitale', 'West-Vlaanderen', 'Limburg (BE)', 'Hainaut', 'Namur']
+REGIONS['Iceland'] = ['Gullbringusysla', 'Hofudborgarsvaedi', 'Kjosarsysla']
+REGIONS['Mauritius'] = ['Plaines Wilhems', 'Port Louis', 'Pamplemousses']
+REGIONS['Barbados'] = ['Saint Michael', 'Christ Church']
+REGIONS['Cayman Islands'] = ['Grand Cayman']
+REGIONS['Germany'] += ['Sachsen-Anhalt', 'Mecklenburg-Vorpommern', 'Thuringia', 'Thüringen']
+REGIONS['Italy'] += ['Friuli-Venezia Giulia', 'Trentino-Alto Adige', 'Marche', 'Umbria', 'Abruzzo', 'Sardegna', 'Calabria', 'Basilicata', 'Molise', "Valle d'Aosta"]
+REGIONS['China'] += ['Guangxi Zhuangzu Zizhiqu', 'Xinjiang Uygur Zizhiqu', 'Nei Mongol Zizhiqu']
+CITIES.update({'Bridgetown': 'Barbados', 'Ebene': 'Mauritius', 'Grand Cayman': 'Cayman Islands', 'Tortola': 'British Virgin Islands', 'Road Town': 'British Virgin Islands',
+               'Hamilton': None, 'Kopavogur': 'Iceland', 'Reykjavik': 'Iceland', 'Jerusalem': 'Israel', 'Daejeon': 'South Korea'})
+
 _REG = {}
 for c, rs in REGIONS.items():
     for r in rs: _REG.setdefault(r.lower(), set()).add(c)
@@ -120,6 +147,9 @@ def _prefix_country(p, region=''):
 def country_of(hq):
     hq = re.sub(r'\s+', ' ', str(hq or '')).strip()
     if not hq: return ''
+    hq = re.sub(r'(^|, )l(?=[a-z])', lambda m: m.group(1) + 'I', hq)        # OCR: "lowa" -> "Iowa", "llinois" -> "Illinois"
+    if re.search(r"jikhalsi|t'ukpyolsi|gwangyeoksi|-do\b|ch'ungch'ong|kyonggi|kyongsang|cholla", hq, re.I): return 'South Korea'
+    if re.search(r'\b(lan|län)\b', hq, re.I) and not re.search(r'united|china|india', hq, re.I): return 'Sweden'
     parts = [p.strip() for p in re.split(r',', hq)]
     trunc = bool(re.search(r'(\.\.|…)\s*$', hq))
     last = _clean(parts[-1])
@@ -146,10 +176,13 @@ def country_of(hq):
         c = _prefix_country(last, region)
         if c: return c
         r = _clean(parts[-1]).lower()                         # "Welwyn Garden City, Hertfor..." : region cut short
-        if len(r) >= 4:
+        if len(r) >= 3:
             cs = {c for k, v in _REG.items() if k.startswith(r) for c in v}
             if len(cs) == 1: return next(iter(cs))
     if CITIES.get(city): return CITIES[city]
+    # "Coventry, Coventry, Unite..." - county named like the city is the UK pattern (US rows carry a state)
+    if len(parts) >= 3 and _clean(parts[1]).lower() == city.lower() and re.match(r'(?i)u(n(i(t(e(d)?)?)?)?)?$', _clean(parts[-1]) or 'x'):
+        return 'United Kingdom'
     c = _CTRY.get(city.lower())
     return c or ''
 
