@@ -119,3 +119,4 @@
 - All red tabs delivered. Non-red: erp_00 and erp_06 in; erp_01..05, grc_00..08 running.
 - ERP Finance: rows done (63 built, 0 skipped) in f1run/runs/erp_finance_rows.json. Contacts: wave10a_contacts.json covers first 44 brands (176 emails, 176 credits); wave10b_in.json (19 brands) waits for Apollo top-up (credits ~7 left). Scanmarket contacts at unit4.com (accept).
 - 2 Nov: Space delivered (2 built, 2 skipped; contacts pending). Session limit had stopped agents on 26 Oct; resumed. GRC waits on grc_08; Automation on aut_07; Vertical Saas on vs_00, vs_01. New helpers: and_fix.py (final "and" in grid lists), apply_fixups.py, review.py.
+- 2 Nov: Automation delivered (83 built, 2 skipped: Siasun declined, Covariant dormant; contacts pending). Rows f1run/runs/automation_rows.json, names automation_names.txt.
