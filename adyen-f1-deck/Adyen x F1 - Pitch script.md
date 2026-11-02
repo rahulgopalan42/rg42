@@ -156,7 +156,7 @@ So where does Adyen fit?
 
 Four payment brands already partner F1 teams.
 
-Two of them are your competitors: Stripe with Mercedes, and Airwallex with McLaren. The other two, Mastercard and Visa, are card schemes, and they're Adyen partners.
+Two of them are your competitors: Stripe with Mercedes, and Airwallex with McLaren. The other two, Mastercard and Visa, are card schemes.
 
 Look at McLaren: Mastercard and Airwallex sit side by side. Schemes and platforms co-exist, so there's no blocker. The category is moving, and Adyen's seat is still open.
 
@@ -168,7 +168,7 @@ Look at McLaren: Mastercard and Airwallex sit side by side. Schemes and platform
 
 This is the benchmark, and it's the model your own brief describes.
 
-Airwallex didn't buy a logo. It sold the deal as business integration: its payments run inside McLaren's operations. It went live in 14 days, 90% of payments arrive within hours, and it covers 110+ countries on local rails. Then it activated that story across content, events and hospitality.
+Airwallex didn't buy a logo. Its product runs inside McLaren's operations: automated cross-border supplier payments, live in 14 days, with 90% of payments arriving within hours across 110+ countries on local rails. And it used the partnership to showcase its payment solutions to enterprises worldwide.
 
 The lesson for Adyen: lead with where you sit in the business, show a clear line to revenue, and put hospitality at the centre.
 

@@ -342,8 +342,8 @@ const CAPROWS = [
 const SECTOR = {
   teams: ["McLaren", "Aston Martin", "Alpine", "Williams", "Ferrari", "Red Bull", "Mercedes", "Racing Bulls", "Haas", "Audi", "Cadillac"],
   series: [
-    ["Financial services & insurance", [6, 4, 4, 6, 5, 4, 3, 2, 2, 3, 1]],
-    ["IT & internet", [17, 9, 4, 7, 6, 7, 12, 8, 6, 5, 2]],
+    ["FS&I", [6, 4, 4, 6, 5, 4, 3, 2, 2, 3, 1]],
+    ["IT&I", [17, 9, 4, 7, 6, 7, 12, 8, 6, 5, 2]],
     ["Consumer goods & retail", [8, 11, 13, 8, 9, 10, 4, 7, 6, 5, 2]],
     ["Energy", [2, 2, 2, 0, 1, 0, 0, 0, 0, 0, 0]],
     ["Life sciences", [0, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0]],
@@ -361,20 +361,21 @@ const KANTAR_GROUPS = [[1, 7], [9, 13], [16, 18], [24, 28], [32, 35], [39, 40], 
 const GDP = [["Public brands in F1", 10.0], ["Germany", 5.3], ["Japan", 4.5], ["India", 4.5], ["United Kingdom", 4.2], ["France", 3.5]];
 
 // ------------------------------------------------------------------ data (routes)
-const MAX_BUSINESS = [ // business, what it does, Adyen products, can Adyen run it, verdict
-  ["Verstappen.com online store", "Merchandise, with Fanatics", "Online Payments, Payment Methods",
-    "No, not without Fanatics: exclusive deal, Fanatics controls checkout.", "no"],
-  ["Verstappen Travel: Orange Army grandstands", "Tickets: Austria, Spa, Hungary", "Online Booking, Online Payments",
-    "Yes, the most direct fit. Needs the ticketing provider to connect to Adyen.", "yes"],
-  ["Verstappen Travel: trailers", "Trackside merchandise", "Tap to Pay, in-person payments",
-    "Yes, the most direct fit. Needs the payment provider to connect to Adyen.", "yes"],
-  ["Verstappen Racing (GT3)", "Trackside merchandise", "Tap to Pay, in-person payments", "Possible.", "maybe"],
-  ["Verstappen Racing (esports)", "Twitch streams, competition races", "Online Payments", "Possible: \"Powered by Adyen\".", "maybe"],
-  ["Verstappen Pro Simulation", "Simulator booking, AI coaching subscription", "Online Payments, subscriptions",
-    "Possible: the booking system in Max's proposal. A new build.", "maybe"],
-  ["Verstappen News", "News platform and fan database", "Online Payments for memberships", "Possible. No payments today: a new build.", "maybe"],
-  ["Verstappen official app", "News, stats, alerts, shop link", "In-app payments, Apple Pay, Google Pay",
-    "Possible. No payments today: a new build.", "maybe"],
+const MAX_BUSINESS = [ // team deck slide 29, as written: business, Adyen products, what it does, can Adyen run it, verdict
+  ["Verstappen.com online store", "Online Payments, Payment Methods", "Merchandise",
+    "No, not without Fanatics. Fanatics runs the store under an exclusive deal and controls checkout.", "no"],
+  ["Verstappen Travel: Orange Army grandstands (Austria, Spa, Hungary)", "Online Booking, Online Payments", "Ticket sales",
+    "Yes, most direct fit. Needs Verstappen.com's ticketing provider to connect to Adyen.", "yes"],
+  ["Verstappen Travel: trailers (Austria, Spa, Hungary)", "Tap to Pay", "Merchandise trackside",
+    "Yes, most direct fit. Needs Verstappen.com's payment provider to connect to Adyen.", "yes"],
+  ["Verstappen Racing (GT3)", "", "Potential trackside merchandise", "Possible.", "maybe"],
+  ["Verstappen Racing (esports)", "", "Weekly Twitch streams. Competition races.", "Possible. \"Powered by Adyen\".", "maybe"],
+  ["Verstappen Racing Pro Simulation (driver development)", "", "Currently in the works. AI subscription-based driver development program.",
+    "Possible. No payment today, so it would be a new build.", "maybe"],
+  ["Verstappen News", "", "Database", "Possible. No payment today, so it would be a new build.", "maybe"],
+  ["Verstappen official app (currently free: news, stats, alerts, and a link to the shop)", "",
+    "Adds one-tap purchase in the app for merchandise, grandstand tickets and experiences.",
+    "Possible. The app has no payments today, so it would be a new build.", "maybe"],
 ];
 const ALPINE_BUSINESS = [ // Alpine's business, activation, what Adyen does, outcome
   ["Team ecommerce store (new platform)", "The Integrated Commerce Garage",
@@ -948,10 +949,10 @@ async function build() {
     const s = content("CONTENT", SECTIONS[2], "03 Adyen in F1 · The category",
       t("Payments is one of F1's **most contested categories**"),
       "Source: SPORTFIVE analysis (BI competitor scan). Team names as used in the scan.",
-      "Four payment brands already partner F1 teams. Two are Adyen competitors (Stripe at Mercedes, Airwallex at McLaren). Two are card schemes that partner Adyen (Mastercard at McLaren, Visa at Racing Bulls). Mastercard and Airwallex already sit side by side at McLaren: schemes and platforms co-exist. Adyen is not yet in F1.");
+      "Four payment brands already partner F1 teams. Two are Adyen competitors (Stripe at Mercedes, Airwallex at McLaren). Two are card schemes (Mastercard in the McLaren Mastercard team name, Visa in the Visa Cash App Racing Bulls team name). Mastercard and Airwallex already sit side by side at McLaren: schemes and platforms co-exist. Adyen is not yet in F1.");
     // counters
     const counters = [["4", "payment brands partner F1 teams", C.text1], ["2", "are Adyen competitors: Stripe, Airwallex", C.text1],
-      ["2", "are card schemes and Adyen partners: Mastercard, Visa", C.accent2]];
+      ["2", "are card schemes: Mastercard, Visa", C.accent2]];
     const cw3 = (CW - 0.6) / 3;
     counters.forEach(([big, lab, col], i) => {
       const x = L + i * (cw3 + 0.3);
@@ -972,7 +973,7 @@ async function build() {
         s.addShape(S.ROUNDED_RECTANGLE, { x, y: ty, w: tw, h: th, rectRadius: 0.08, fill: { color: C.accent6 },
           line: { color: C.accent1, width: 1.5, dashType: "dash" }, objectName: "Adyen seat" });
       } else card(s, x, ty, tw, th);
-      const tag = { comp: "COMPETITOR", scheme: "ADYEN PARTNER", adyen: "NOT YET IN F1" }[kind];
+      const tag = { comp: "COMPETITOR", scheme: "CARD SCHEME", adyen: "NOT YET IN F1" }[kind];
       const tagFill = kind === "comp" ? C.text1 : kind === "scheme" ? C.background1 : C.accent1;
       const tagText = kind === "comp" ? C.background1 : kind === "scheme" ? C.accent2 : C.text1;
       s.addShape(S.ROUNDED_RECTANGLE, { x: x + 0.2, y: ty + 0.22, w: tw - 0.4, h: 0.3, rectRadius: 0.15, fill: { color: tagFill },
@@ -1018,15 +1019,15 @@ async function build() {
   {
     const s = content("CONTENT", SECTIONS[2], "03 Adyen in F1 · The benchmark",
       t("The model to beat: Airwallex × McLaren, **integration not a logo**"),
-      "Source: SPORTFIVE analysis; McLaren Racing and Airwallex case study.",
+      "Source: SPORTFIVE (team deck: competitor scan, credentials, McLaren Racing and Airwallex case study).",
       "The benchmark Adyen's brief sets: a payments brand inside the team's business.");
     await photo(s, "airwallex_carbon.jpg", L, 2.0, 4.55, 4.6, "Airwallex branding on McLaren carbon fibre");
     const x = 5.55, w = R - x;
     label(s, "What Airwallex did", x, 2.0, w);
     const did = [
-      "Positioned the deal as business integration, inside McLaren's operations.",
-      "Activated the IP across content, events, hospitality and performance marketing.",
-      "Built one B2B sports platform: McLaren, Arsenal FC, San Francisco Giants, Essendon FC.",
+      "Put its product to work for McLaren: automated cross-border supplier payments, live in 14 days.",
+      "Showcased its payment solutions to enterprises worldwide through the partnership.",
+      "Built a B2B sports portfolio: McLaren, Arsenal FC, San Francisco Giants, Essendon FC.",
     ];
     did.forEach((d, i) => {
       const y = 2.35 + i * 0.62;
@@ -1211,7 +1212,7 @@ async function build() {
     const x = L + 2 * (cw + 0.3), y = 2.0;
     card(s, x, y, cw, 4.75, C.text1, "Plan card");
     label(s, "The plan", x + 0.3, y + 0.3, cw - 0.6, C.accent1);
-    const phases = [["1", "Start", "Commit to F1 through a route that is ready now: Max, Alpine, or both."],
+    const phases = [["1", "Start", "Commit to F1 through a route with a proposal on the table: Max, Alpine, or both."],
       ["2", "Prove", "Payments live inside the partner's business; hospitality and network at work."],
       ["3", "Expand", "Build across the grid from a proven start: more teams, races and markets."]];
     phases.forEach(([n, head, body], k) => {
@@ -1260,22 +1261,24 @@ async function build() {
   {
     const s = content("CONTENT", SECTIONS[3], "04 The routes · Route 1 · Business opportunity",
       t("Max is a business ecosystem: **Verstappen Travel is the most direct fit**"),
-      "Source: SPORTFIVE assessment of the Verstappen business ecosystem; Max Verstappen × Adyen proposal (mock-ups: logo placement for illustration only).",
+      "Source: SPORTFIVE assessment of the Verstappen business ecosystem (team deck); Max Verstappen × Adyen proposal (mock-ups: logo placement for illustration only).",
       "Powering a high-performance ecosystem. The online store is out of reach while Fanatics holds the exclusive deal. Mock-ups from Max's proposal: Orange Army app and MV Official Tickets shop powered by Adyen.");
     const vfill = { yes: C.accent6, no: C.background2, maybe: C.background1 };
-    const rows = [[hc("Max's business"), hc("Adyen products"), hc("Can Adyen run it?")],
-      ...MAX_BUSINESS.map(([biz, what, prod, can, v]) => {
-        const parts = can.split(/(?<=[.:,])\s/);
+    const rows = [[hc("Max's business", { fontSize: 10 }), hc("Adyen products", { fontSize: 10 }), hc("What it does", { fontSize: 10 }), hc("Can Adyen run it?", { fontSize: 10 })],
+      ...MAX_BUSINESS.map(([biz, prod, what, can, v]) => {
+        const i = can.indexOf(" ");
+        const first = can.split(/(?<=[.,])\s/)[0];
         return [
-          { text: [{ text: biz, options: { bold: true, color: C.text1, breakLine: true } }, { text: what, options: { color: C.text2, fontSize: 9.5 } }],
-            options: { fontSize: 10.5, valign: "middle" } },
-          { text: prod, options: { color: C.text1, fontSize: 10.5, valign: "middle" } },
-          { text: [{ text: parts[0] + " ", options: { bold: true, color: v === "yes" ? C.accent2 : C.text1 } },
-            { text: parts.slice(1).join(" "), options: { color: C.text2 } }], options: { fontSize: 10.5, valign: "middle", fill: { color: vfill[v] } } },
+          { text: biz, options: { bold: true, color: C.text1, fontSize: 9.5, valign: "middle" } },
+          prod ? { text: prod, options: { color: C.text1, fontSize: 9.5, valign: "middle" } }
+            : { text: "To define with Adyen", options: { italic: true, color: C.accent3, fontSize: 9.5, valign: "middle" } },
+          { text: what, options: { color: C.text2, fontSize: 9.5, valign: "middle" } },
+          { text: [{ text: first + " ", options: { bold: true, color: v === "yes" ? C.accent2 : C.text1 } },
+            { text: can.slice(first.length).trim(), options: { color: C.text2 } }], options: { fontSize: 9.5, valign: "middle", fill: { color: vfill[v] } } },
         ];
       })];
-    s.addTable(rows, { x: L, y: 1.95, w: 8.45, colW: [3.0, 2.15, 3.3], rowH: [0.38, ...MAX_BUSINESS.map(() => 0.55)],
-      border: { type: "solid", pt: 0.75, color: C.accent4 }, margin: [0.03, 0.08, 0.03, 0.08], objectName: "Max business table" });
+    s.addTable(rows, { x: L, y: 1.95, w: 8.45, colW: [2.3, 1.45, 2.3, 2.4], rowH: [0.36, ...MAX_BUSINESS.map(() => 0.555)],
+      border: { type: "solid", pt: 0.75, color: C.accent4 }, margin: [0.03, 0.07, 0.03, 0.07], objectName: "Max business table" });
     const x = 9.3, w = R - x, ih = 2.1;
     await photo(s, "max_mock_tickets.jpg", x, 1.95, w, ih, "MV Official Tickets shop, powered by Adyen (mock-up)");
     s.addText("MV Official Tickets shop, powered by Adyen", { x, y: 1.95 + ih + 0.05, w, h: 0.25, fontSize: 9.5, color: C.accent3, margin: 0, isTextBox: true });
