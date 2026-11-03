@@ -15,7 +15,7 @@ process.env.NODE_PATH = [path.join(__dirname, "node_modules"), process.env.NODE_
 require("module").Module._initPaths();
 const { applyTheme } = require(SKILL + "/scripts/apply_theme.js");
 
-const OUT = process.argv[2] || "Adyen x F1 - Chairman deck 6.pptx";
+const OUT = process.argv[2] || "Adyen x F1 - Chairman deck 7.pptx";
 const A = (f) => path.join(__dirname, "assets", f);
 
 // ------------------------------------------------------------------ brand
@@ -85,12 +85,10 @@ async function fit(s, file, x, y, w, h, alt, align = "center") {
 }
 
 // ------------------------------------------------------------------ layouts
-let PHOTO_ICON;
 // storyline sections, shown as a tracker at the top right of every content slide
 const TRACK = ["Why F1", "Hospitality", "Adyen in F1", "The routes", "Next steps"];
 
 async function defineLayouts() {
-  PHOTO_ICON = await icon("FiImage", "8F97A3");
   const footerObjects = (logo) => [
     { image: { x: 11.42, y: 6.98, w: 0.68, h: 0.22, path: A(logo), altText: "Adyen logo" } },
   ];
@@ -145,8 +143,6 @@ async function defineLayouts() {
         charSpacing: 1.5, margin: 0, valign: "top" }, text: "SECTION · TOPIC" } },
     { placeholder: { options: { name: "title", type: "title", x, y: 0.75, w, h: 1.0, fontSize: 28, color: C.text1,
         margin: 0, valign: "top", align: "left" }, text: "Action title: the one thing this slide proves" } },
-    { placeholder: { options: { name: "source", type: "body", x, y: 6.98, w: 10.6 - x, h: 0.24, fontSize: 9, color: C.accent3,
-        margin: 0, valign: "middle" }, text: "Source:" } },
     ...footerObjects("adyen_green.png"),
   ];
   const slideNumber = { x: 12.18, y: 6.98, w: 0.55, h: 0.22, fontSize: 9, color: C.accent3, align: "right" };
@@ -157,11 +153,6 @@ async function defineLayouts() {
     title: "CONTENT_PHOTO",
     background: { color: C.background1 },
     objects: [
-      { rect: { x: 0, y: 0, w: 4.85, h: 7.5, fill: { color: C.background2 } } },
-      { image: { x: 4.85 / 2 - 0.3, y: 3.2, w: 0.6, h: 0.6, data: PHOTO_ICON } },
-      { text: { text: "Photo of the asset", options: { x: 0, y: 3.9, w: 4.85, h: 0.35, fontSize: 12, color: C.accent3, align: "center" } } },
-      { placeholder: { options: { name: "photo", type: "image", x: 0, y: 0, w: 4.85, h: 7.5, color: C.text2 },
-          text: "Add photo of the asset" } },
       ...contentObjects(5.35, R - 5.35),
     ],
     slideNumber,
@@ -169,6 +160,9 @@ async function defineLayouts() {
 }
 
 // ------------------------------------------------------------------ helpers
+// slides without data: no source line on the slide (kept in the notes)
+const NO_SOURCE = new Set(["SPORTFIVE credentials", "Business integration", "Overview", "Route 1 · Business opportunity",
+  "Route 1 · Rights package", "Route 1 · Hospitality bundle", "Route 2 · Business opportunity", "Route 2 · Rights overview", "Next steps"]);
 function content(master, section, track, eyebrow, title, source, notes) {
   const s = pres.addSlide({ masterName: master, sectionTitle: section });
   s.addText(eyebrow.toUpperCase(), { placeholder: "eyebrow" });
@@ -182,8 +176,16 @@ function content(master, section, track, eyebrow, title, source, notes) {
       objectName: "Section tracker" });
   }
   s.addText(title, { placeholder: "title" });
-  s.addText(source, { placeholder: "source" });
-  if (notes) s.addNotes(notes);
+  // Sources show on the slide only where it carries data (audience, fans, partner and market figures);
+  // everywhere else the source moves to the speaker notes.
+  const x = master === "CONTENT_PHOTO" ? 5.35 : L;
+  if (source && !NO_SOURCE.has(eyebrow)) {
+    s.addText(source, { x, y: 6.98, w: 10.6 - x, h: 0.24, fontSize: 9, color: C.accent3, margin: 0, valign: "middle", isTextBox: true,
+      objectName: "Source" });
+    if (notes) s.addNotes(notes);
+  } else {
+    s.addNotes([notes, source].filter(Boolean).join("\n"));
+  }
   return s;
 }
 
@@ -353,39 +355,8 @@ const CALENDAR = [
   ["22–24 Oct", "United States", "Austin"], ["29–31 Oct", "Mexico", "Mexico City"], ["05–07 Nov", "Brazil", "São Paulo"],
   ["18–20 Nov", "Las Vegas", "Las Vegas"], ["03–05 Dec", "Qatar", "Lusail"], ["10–12 Dec", "Abu Dhabi", "Yas Island"],
 ];
-const EXAMPLE_RACES = ["Miami", "Great Britain", "Singapore", "United States"];
+const EXAMPLE_RACES = ["Miami", "United States"];
 const ADYEN_OFFICE_RACES = ["Spain", "Mexico", "China", "Singapore", "Brazil"]; // race in a city with an Adyen office (footprint slide)
-// Example packages (race overview slides). [name, scope, highlight, price, Red Bull Racing access]
-const PACKAGES = [
-  { race: "Miami", when: "USA · 30 Apr–2 May", region: "North America", pk: [
-    ["Private Villa", "3 days", "Private, climate-controlled suite; all-inclusive food and drink; guest service team", "$250,000", "20 guests", false],
-    ["Casa Tua Trackside Club", "3 days", "Intimate lounge with live music, Casa Tua menus and a premium bar", "$12,000", "per person", false],
-    ["Vista Club", "3 days", "Two-storey club with a balcony for up-close pit-lane views", "$7,500", "per person", false],
-    ["Red Bull Energy Station", "Sunday", "Q&As with Oracle Red Bull Racing drivers Max Verstappen and Isack Hadjar; trackside at Turns 11–12", "$5,250", "per person", true],
-  ] },
-  { race: "Silverstone", when: "UK · 2–4 Jul", region: "Europe", pk: [
-    ["Private Suite", "Sunday or 3 days", "Inner Track access over Brooklands; suite branding options", "$75,000", "24 guests, Sunday ($90,000 for 3 days)", false],
-    ["The Vale", "Sunday or 3 days", "New ultra-premium venue at the pit-lane entry; F1 drivers and Team Principals share stories", "$9,950", "per person, Sunday ($14,500 for 3 days)", false],
-    ["Red Bull Pole Position", "Sunday or 3 days", "Closest views of the finish line; appearances from Oracle Red Bull Racing drivers", "$7,250", "per person, Sunday ($9,500 for 3 days)", true],
-    ["Octane Terrace", "Sunday", "Elevated grandstand view; street food from Michelin-starred chefs", "$2,995", "per person", false],
-  ] },
-  { race: "Singapore", when: "Singapore · 8–10 Oct", region: "Asia-Pacific", pk: [
-    ["Private Suites", "3 days", "Private viewing gallery with panoramic views; suite customisation possible", "$550,000", "35 guests", false],
-    ["Red Bull Paddock", "3 days", "Walk-through of the Oracle Red Bull Racing garage; guided pit-lane walks", "$20,500", "per person", true],
-    ["Velocity Terrace", "2 or 3 days", "Exclusive track viewing deck; limited capacity, built for networking", "$7,250", "per person", false],
-    ["Skyview Pavilion", "3 days", "Air-conditioned lounge with an attached outdoor grandstand", "$4,950", "per person", false],
-  ] },
-];
-const AUSTIN = [ // sample four-day programme, Austin 2027 (date TBC)
-  ["Day 1", "Texan welcome", "austin_estate.jpg", "Commodore Perry Estate", [
-    "Arrive in Austin; transfer and check in at the Commodore Perry Estate", "Spa treatments to recover from travel", "Dinner at Michelin-starred Hestia"]],
-  ["Day 2", "The Austin edit", "austin_skyline.jpg", "Austin skyline", [
-    "Hat shaping at Maufrais and boot fitting at Allen Boots", "Private lunch, dinner and wine tasting", "Horseback riding with former F1 World Champion Jenson Button"]],
-  ["Day 3", "Full throttle", "austin_cota.jpg", "Guests at Circuit of the Americas", [
-    "Race day at Circuit of the Americas from a private suite", "Curated local menus, free-flowing drinks, podium celebration access", "Caviar, champagne and cigars at Room 725"]],
-  ["Day 4", "Until the next chequered flag", "hosp_chef.jpg", "Hospitality service", [
-    "Breakfast and check-out", "Leave with a weekend of memories and deeper connections"]],
-];
 // Fans working in the financial sector: index vs general population (100) and fanbase size
 const FIN_FANS = [
   ["Mercedes", 172.9, 1375512], ["Audi", 168.0, 292833], ["Racing Bulls", 166.1, 137750], ["Aston Martin", 161.8, 701223],
@@ -452,7 +423,7 @@ const MAX_PROPOSAL = [
 const ROUTE_NAMES = ["Max Verstappen", "Alpine F1 Team", "Scuderia Ferrari"];
 
 // ------------------------------------------------------------------ slides
-// Deck 6: 31 visible slides, no dividers; the tracker at the top right shows the section.
+// Deck 7: 33 visible slides, no dividers; the tracker at the top right shows the section.
 async function build() {
   await defineLayouts();
 
@@ -772,50 +743,58 @@ async function build() {
     { x: L + 0.3 + i * sw, y: 5.95, w: sw - 0.4, h: 0.75, margin: 0, isTextBox: true, valign: "middle" }));
   }
 
-  // Proof from F1 hospitality: Businessolver (George's Alpine material; the reviewer suggested using it) plus two
-  // SPORTFIVE references already shown to Adyen in the F1 Premium Experiences deck. Komatsu and HPE removed: confidential.
+  // F1 partner case studies (team deck slides 22-23, incl. George's Businessolver x Alpine material)
   {
-    const s = content("CONTENT", "Hospitality", 1, "Proof from F1 hospitality",
-      t("Hosting at F1 races **turns guests into pipeline**"),
-      "Source: Businessolver × Alpine case material (SPORTFIVE); SPORTFIVE references in 'Adyen – F1 Premium Experiences': CommScope × MoneyGram Haas F1 Team, Century Financial (Abu Dhabi GP, Dec 2025).",
-      "Komatsu × Williams and HPE × Mercedes have been removed: their source decks are marked highly confidential. CommScope and Century Financial are references from SPORTFIVE's own F1 Premium Experiences deck prepared for Adyen. Businessolver is an Alpine partner (Route 2). Century Financial quote shortened with an ellipsis; full quote: 'Abu Dhabi was more than a race weekend, it was an opportunity to thank our clients and partners by sharing an experience that mirrors our values. Hosting them trackside at the season finale allowed us to connect on a deeper level, in an atmosphere of excitement and significance, and reinforce the relationships that are central to our continued growth.'");
-    const cw = (CW - 0.6) / 3, y = 1.95, h = 4.8, ih = 1.45;
+    const s = content("CONTENT", "Hospitality", 1, "Proof from F1 partners",
+      t("F1 partners report **real commercial returns** from hosting at races"),
+      "Source: Komatsu × Williams, HPE × Mercedes and Businessolver × Alpine case material, as compiled by SPORTFIVE (team deck slides 22–23).",
+      "Three partners, three proof points: orders closed at races (Komatsu), revenue opportunity accelerated (HPE) and pipeline influenced (Businessolver, an Alpine partner). HPE has partnered the Mercedes F1 team since 2018.");
+    const cw = (CW - 0.6) / 3, y = 1.95, h = 4.8, ih = 1.3;
     const cases = [
+      { img: null, logo: "case_komatsu_logo.jpg", pair: "Komatsu × Williams", big: "$100M+", lab: "orders received at races",
+        body: "Komatsu hosts key global stakeholders at races, many attending a Komatsu event for the first time.",
+        stats: [["3,735", "stakeholders hosted"], ["90%", "found it useful for business"], ["94%", "guest satisfaction"]] },
+      { img: null, hpe: true, pair: "HPE × Mercedes", big: "$300M+", lab: "revenue opportunity accelerated from race activations alone",
+        quote: "\"The real value has been the ability to authentically showcase our technology through Mercedes F1 use cases ... and through direct customer engagement at races.\"",
+        by: "Antonio Neri, CEO, HPE · partner since 2018" },
       { img: "case_businessolver.jpg", pair: "Businessolver × Alpine", big: "$122M", lab: "business pipeline, influenced by at-track hosting and experiences",
-        body: "Technology with heart: AI, decision-support and real-time analytics, shown to clients through Alpine.", tag: "An Alpine partner: proof from Route 2" },
-      { img: "case_commscope.jpg", pair: "CommScope × Haas F1 Team", big: "11 races", lab: "global B2B customer programme, delivered by SPORTFIVE",
-        pts: ["Commercial ROI achieved: programme investment recovered through future deal opportunities",
-          "ROI tracking linked guest engagement to pipeline and revenue"] },
-      { img: "case_abudhabi.jpg", pair: "Century Financial · Abu Dhabi", big: "240 guests", lab: "3 race days, a private space and 4 brand activations, delivered by SPORTFIVE",
-        quote: "\u201cHosting them trackside at the season finale allowed us to connect on a deeper level ... and reinforce the relationships that are central to our continued growth.\u201d",
-        by: "Chief Institutional Business Officer, Century Financial" },
+        body: "Delivering delight. Technology with heart: technology powered by people, with AI, decision-support and real-time analytics.",
+        tag: "An Alpine partner: proof from Route 2" },
     ];
-    const check = await icon("FiCheck", "0ABF53");
     for (const [i, c] of cases.entries()) {
       const x = L + i * (cw + 0.3);
       const dark = i === 1;
       card(s, x, y, cw, h, dark ? C.text1 : C.background2);
-      await photo(s, c.img, x, y, cw, ih, c.pair);
+      if (c.img) await photo(s, c.img, x, y, cw, ih, c.pair);
+      else if (c.hpe) {
+        s.addShape(S.RECTANGLE, { x, y, w: cw, h: ih, fill: { color: "0B0F14" }, line: { color: "0B0F14", width: 0 } });
+        await fit(s, "case_hpe_neri.jpg", x + cw - 1.15, y, 1.15, ih, "Antonio Neri, CEO, Hewlett Packard Enterprise", "left");
+        await fit(s, "case_hpe_logos.jpg", x + 0.2, y + 0.25, cw - 1.55, ih - 0.5, "HPE and Mercedes-AMG Petronas F1 Team logos");
+      } else {
+        s.addShape(S.RECTANGLE, { x, y, w: cw, h: ih, fill: { color: C.text1 }, line: { color: C.text1, width: 0 } });
+        await fit(s, c.logo, x + 0.6, y + 0.3, cw - 1.2, ih - 0.6, "Komatsu logo");
+      }
       s.addText(c.pair.toUpperCase(), { x: x + 0.25, y: y + ih + 0.15, w: cw - 0.5, h: 0.28, fontSize: 10.5, bold: true, charSpacing: 1,
         color: dark ? C.accent1 : C.accent2, margin: 0, isTextBox: true });
       s.addText(c.big, { x: x + 0.25, y: y + ih + 0.45, w: cw - 0.5, h: 0.6, fontSize: 32, bold: true, color: dark ? C.accent1 : C.text1,
         margin: 0, isTextBox: true, valign: "top" });
       s.addText(c.lab, { x: x + 0.25, y: y + ih + 1.08, w: cw - 0.5, h: 0.5, fontSize: 11.5, bold: true, color: dark ? C.background1 : C.text1,
         margin: 0, isTextBox: true, valign: "top" });
-      if (c.body) s.addText(c.body, { x: x + 0.25, y: y + ih + 1.68, w: cw - 0.5, h: 0.75, fontSize: 10.5, color: C.text2, margin: 0, isTextBox: true, valign: "top" });
-      if (c.pts) c.pts.forEach((pt, k) => {
-        const py = y + ih + 1.7 + k * 0.62;
-        s.addImage({ data: check, x: x + 0.25, y: py + 0.03, w: 0.2, h: 0.2 });
-        s.addText(pt, { x: x + 0.55, y: py, w: cw - 0.8, h: 0.6, fontSize: 10.5, color: C.accent4, margin: 0, isTextBox: true, valign: "top" });
-      });
+      if (c.body) s.addText(c.body, { x: x + 0.25, y: y + ih + 1.62, w: cw - 0.5, h: 0.85, fontSize: 10.5, color: C.text2, margin: 0, isTextBox: true, valign: "top" });
+      if (c.stats) {
+        const sw = (cw - 0.5) / 3;
+        c.stats.forEach(([b, l], k) => s.addText([{ text: b, options: { bold: true, color: C.text1, fontSize: 15, breakLine: true } },
+          { text: l, options: { color: C.text2, fontSize: 9 } }],
+        { x: x + 0.25 + k * sw, y: y + ih + 2.55, w: sw - 0.08, h: 0.8, margin: 0, isTextBox: true, valign: "top" }));
+      }
       if (c.quote) {
-        s.addText(c.quote, { x: x + 0.25, y: y + ih + 1.68, w: cw - 0.5, h: 1.05, fontSize: 10.5, italic: true, color: C.text1, margin: 0, isTextBox: true, valign: "top" });
-        s.addText(c.by, { x: x + 0.25, y: y + ih + 2.8, w: cw - 0.5, h: 0.4, fontSize: 9.5, bold: true, color: C.text2, margin: 0, isTextBox: true, valign: "top" });
+        s.addText(c.quote, { x: x + 0.25, y: y + ih + 1.62, w: cw - 0.5, h: 1.2, fontSize: 10.5, italic: true, color: C.accent4, margin: 0, isTextBox: true, valign: "top" });
+        s.addText(c.by, { x: x + 0.25, y: y + ih + 2.95, w: cw - 0.5, h: 0.35, fontSize: 10, bold: true, color: C.background1, margin: 0, isTextBox: true });
       }
       if (c.tag) {
-        s.addShape(S.ROUNDED_RECTANGLE, { x: x + 0.25, y: y + ih + 2.65, w: cw - 0.5, h: 0.45, rectRadius: 0.08, fill: { color: C.accent6 },
+        s.addShape(S.ROUNDED_RECTANGLE, { x: x + 0.25, y: y + ih + 2.6, w: cw - 0.5, h: 0.45, rectRadius: 0.08, fill: { color: C.accent6 },
           line: { color: C.accent1, width: 1 } });
-        s.addText(c.tag, { x: x + 0.4, y: y + ih + 2.65, w: cw - 0.8, h: 0.45, fontSize: 10.5, bold: true, color: C.accent2, margin: 0, isTextBox: true, valign: "middle" });
+        s.addText(c.tag, { x: x + 0.4, y: y + ih + 2.6, w: cw - 0.8, h: 0.45, fontSize: 10.5, bold: true, color: C.accent2, margin: 0, isTextBox: true, valign: "middle" });
       }
     }
   }
@@ -1173,47 +1152,73 @@ async function build() {
   }
 
   // ---------------------------------------------------------------- Route 1 add-on: hospitality bundle (Max only)
-  // From SPORTFIVE's 'Adyen – F1 Premium Experiences' deck: an introductory guide, not a quote.
+  // Content from SPORTFIVE's 'Adyen – F1 Premium Experiences' (slides.com): an introductory guide, not a quote.
   {
-    const s = content("CONTENT_PHOTO", "The routes", 3, "Route 1 · Hospitality bundle",
+    const s = content("CONTENT", "The routes", 3, "Route 1 · Hospitality bundle",
       t("Max route: **bundle in F1 hospitality** to host Adyen's clients"),
-      "Source: Max Verstappen × Adyen proposal (Oct 2026); SPORTFIVE, 'Adyen – F1 Premium Experiences'. Photo: hospitality guests at a Grand Prix (SPORTFIVE).",
-      "Max's package includes limited hospitality: an F1 garage tour for 2 VIP guests, a private track day for stakeholders, and 3 × 15-minute paddock meet-and-greets (3 VIP guests each). It excludes Red Bull assets and F1 hospitality. SPORTFIVE is an F1 Experiences Authorised Sales Agent and can bundle race-weekend hospitality on top. The next three slides are an introductory guide: example races, packages and a sample programme. The goal is Adyen's feedback, then a bespoke programme. Hospitality is bundled with the Max route only.");
-    await photo(s, "hosp_terrace_guests.jpg", 0, 0, 4.85, H, "Hospitality guests at a Grand Prix");
-    const x = 5.35, w = R - x;
-    label(s, "In Max's package today", x, 1.95, 3.6);
-    ["Garage tour for 2 VIP guests", "Private track day", "3 paddock meet-and-greets"].forEach((it, i) => {
-      const bw = (w - 0.3) / 3, bx = x + i * (bw + 0.15);
-      s.addShape(S.ROUNDED_RECTANGLE, { x: bx, y: 2.28, w: bw, h: 0.48, rectRadius: 0.24, fill: { color: C.background2 }, line: { color: C.accent4, width: 0.75 } });
-      s.addText(it, { x: bx, y: 2.28, w: bw, h: 0.48, fontSize: 10.5, bold: true, color: C.text1, align: "center", valign: "middle", margin: 0, isTextBox: true });
-    });
-    label(s, "Add with SPORTFIVE: race-weekend hospitality", x, 3.0, w, C.accent2);
-    const rows = [
-      ["FiStar", "A premium setting", "VIP-level experiences few other sports can match, at the Grands Prix Adyen chooses"],
-      ["FiUsers", "Time to do business", "Private spaces and up to three full days to host clients, merchants and prospects"],
-      ["FiGift", "Incentive and reward", "Reward top clients and teams, and build lasting relationships"],
+      "Source: Max Verstappen × Adyen proposal (Oct 2026); SPORTFIVE, 'Adyen – F1 Premium Experiences' (The perfect hospitality setting). Photos and logos: Max Verstappen's team; SPORTFIVE.",
+      "Max's package includes limited hospitality: an F1 garage tour for 2 VIP guests, a private track day for stakeholders, and 3 × 15-minute paddock meet-and-greets (3 VIP guests each). It excludes Red Bull assets and F1 hospitality. SPORTFIVE can bundle race-weekend hospitality on top. The next slides are an introductory guide from SPORTFIVE's F1 Premium Experiences deck: the 2027 calendar, an example race, an example programme, off-track ideas and our services. The goal is Adyen's feedback, then a bespoke programme. Hospitality is bundled with the Max route only.");
+    const y = 1.85, h = 2.95, ih = 1.05, opw = 0.55;
+    const cw = (CW - 2 * opw - 0.35) / 3;
+    const check = await icon("FiCheck", "0ABF53");
+    const blocks = [
+      { img: "max_thumb.jpg", alt: "Max Verstappen", head: "In Max's package", dark: false,
+        items: ["F1 garage tour for 2 VIP guests", "Private track day for stakeholders", "3 paddock meet-and-greets"] },
+      { img: "hosp_pitlane.jpg", alt: "Hospitality guests watching a pit-stop practice in the pit lane", head: "Add with SPORTFIVE", dark: false,
+        items: ["Race-weekend hospitality at the Grands Prix Adyen chooses", "Off-track experiences across the three days", "Travel, hotels and guest management, end to end"] },
+      { logo: "max_adyen_lockup.jpg", alt: "Max Verstappen, Adyen and Verstappen Racing logos", head: "The Max route bundle", dark: true,
+        lead: "Max's ambassador rights plus F1 hospitality: one programme to host Adyen's clients, merchants and prospects." },
     ];
-    for (const [i, [ic, head, body]] of rows.entries()) {
-      const ry = 3.35 + i * 0.68;
-      await iconDot(s, ic, x, ry, 0.48);
-      s.addText([{ text: head, options: { bold: true, color: C.text1, fontSize: 13, breakLine: true } }, { text: body, options: { color: C.text2, fontSize: 11 } }],
-        { x: x + 0.65, y: ry - 0.04, w: w - 0.65, h: 0.62, margin: 0, isTextBox: true, valign: "top" });
+    let bx = L;
+    for (const [i, bk] of blocks.entries()) {
+      const x = bx, w = i === 2 ? cw + 0.35 : cw;
+      bx += w + opw;
+      card(s, x, y, w, h, bk.dark ? C.text1 : C.background2, "Bundle block");
+      if (bk.img) await photo(s, bk.img, x, y, w, ih, bk.alt);
+      else {
+        s.addShape(S.RECTANGLE, { x, y, w, h: ih, fill: { color: C.text1 }, line: { color: C.text1, width: 0 } });
+        await fit(s, bk.logo, x + 0.2, y + 0.05, w - 0.4, ih - 0.1, bk.alt);
+        s.addShape(S.LINE, { x: x + 0.25, y: y + ih, w: w - 0.5, h: 0, line: { color: C.accent5, width: 0.75 } });
+      }
+      s.addText(bk.head.toUpperCase(), { x: x + 0.25, y: y + ih + 0.18, w: w - 0.5, h: 0.28, fontSize: 10.5, bold: true, charSpacing: 1,
+        color: bk.dark ? C.accent1 : C.accent2, margin: 0, isTextBox: true, valign: "middle" });
+      if (bk.items) bk.items.forEach((it, k) => {
+        const iy = y + ih + 0.58 + k * 0.42;
+        s.addImage({ data: check, x: x + 0.25, y: iy + 0.04, w: 0.2, h: 0.2 });
+        s.addText(it, { x: x + 0.55, y: iy, w: w - 0.8, h: 0.4, fontSize: 11, color: C.text1, margin: 0, isTextBox: true, valign: "top" });
+      });
+      if (bk.lead) s.addText(bk.lead, { x: x + 0.25, y: y + ih + 0.55, w: w - 0.5, h: 1.25, fontSize: 13.5, bold: true, color: C.background1,
+        margin: 0, isTextBox: true, valign: "top" });
+      if (i < 2) {
+        const ox = x + w + (opw - 0.46) / 2, oy = y + h / 2 - 0.23;
+        s.addShape(S.OVAL, { x: ox, y: oy, w: 0.46, h: 0.46, fill: { color: C.accent1 }, line: { color: C.accent1, width: 0 } });
+        s.addText(i === 0 ? "+" : "=", { x: ox, y: oy, w: 0.46, h: 0.46, fontSize: 22, bold: true, color: C.text1, align: "center", valign: "middle",
+          margin: 0, isTextBox: true });
+      }
     }
-    card(s, x, 5.5, w, 0.62, C.text1, "Credentials strip");
-    const cred = [["20+ years", "of premium hospitality"], ["30,000+", "guests a year"], ["Authorised", "F1 Experiences sales agent"]];
-    const cw3 = w / 3;
-    cred.forEach(([big, lab], i) => s.addText([{ text: big + "  ", options: { bold: true, color: C.accent1, fontSize: 14 } }, { text: lab, options: { color: C.background1, fontSize: 10 } }],
-      { x: x + 0.2 + i * cw3, y: 5.5, w: cw3 - 0.25, h: 0.62, margin: 0, isTextBox: true, valign: "middle" }));
-    card(s, x, 6.2, w, 0.62, C.accent6, "Starting point");
+    label(s, "Why F1 hospitality works", L, 5.02, 6);
+    const why = [
+      ["FiStar", "Exciting & premium platform", "A VIP-level experience few other sports can match"],
+      ["FiUsers", "A unique B2B networking opportunity", "Privacy, comfort and time for networking and hosting across 3 full days"],
+      ["FiGift", "Powerful incentive & rewards tool", "Drive sales and performance; increase employee satisfaction and retention"],
+    ];
+    const ww = (CW - 0.5) / 3;
+    for (const [i, [ic, head, body]] of why.entries()) {
+      const x = L + i * (ww + 0.25);
+      await iconDot(s, ic, x, 5.38, 0.46);
+      s.addText([{ text: head, options: { bold: true, color: C.text1, fontSize: 12, breakLine: true } }, { text: body, options: { color: C.text2, fontSize: 10.5 } }],
+        { x: x + 0.6, y: 5.33, w: ww - 0.6, h: 0.75, margin: 0, isTextBox: true, valign: "top" });
+    }
+    card(s, L, 6.28, CW, 0.52, C.accent6, "Starting point");
     s.addText([{ text: "A starting point, not a quote  ", options: { bold: true, color: C.accent2 } },
-      { text: "the next pages show example races, packages and a programme. With Adyen's feedback, we build it bespoke.", options: { color: C.text1 } }],
-    { x: x + 0.2, y: 6.2, w: w - 0.4, h: 0.62, fontSize: 11, margin: 0, isTextBox: true, valign: "middle" });
+      { text: "the next pages are examples from SPORTFIVE's offer. With Adyen's feedback, we build the programme bespoke.", options: { color: C.text1 } }],
+    { x: L + 0.25, y: 6.28, w: CW - 0.5, h: 0.52, fontSize: 12, margin: 0, isTextBox: true, valign: "middle" });
   }
   {
     const s = content("CONTENT", "The routes", 3, "Route 1 · Hospitality bundle",
       t("24 races in 2027: **choose where to host**"),
       "Source: 2027 F1 calendar as shown in SPORTFIVE's 'Adyen – F1 Premium Experiences' (not independently confirmed). Adyen office cities: the footprint slide.",
-      "Green: races used as examples on the next two slides (Miami, Silverstone, Singapore, Austin). Dot: a race in a city where Adyen has an office (Madrid, Mexico City, Shanghai, Singapore, São Paulo). Order as shown in the source calendar.");
+      "Dark: races used as examples on the next two slides (Miami, Austin). Dot: a race in a city where Adyen has an office (Madrid, Mexico City, Shanghai, Singapore, São Paulo). Order as shown in the source calendar.");
     const colW = (CW - 0.5) / 3, rh = 0.5, y0 = 1.9;
     CALENDAR.forEach(([d, country, city], i) => {
       const col = Math.floor(i / 8), row = i % 8;
@@ -1233,57 +1238,151 @@ async function build() {
     s.addShape(S.OVAL, { x: L + 3.1, y: ly + 0.06, w: 0.16, h: 0.16, fill: { color: C.accent1 }, line: { color: C.accent1, width: 0 } });
     s.addText("Race in a city with an Adyen office", { x: L + 3.35, y: ly, w: 3.2, h: 0.28, fontSize: 10, color: C.text2, margin: 0, isTextBox: true, valign: "middle" });
   }
+  // Example race: the Miami overview, as presented in SPORTFIVE's deck
   {
     const s = content("CONTENT", "The routes", 3, "Route 1 · Hospitality bundle",
-      t("Example packages: from **shared clubs to private suites**"),
-      "Source: SPORTFIVE, 'Adyen – F1 Premium Experiences' (race overviews). Prices per person unless a group size is shown; content differs GP to GP.",
-      "Three of the race overviews in SPORTFIVE's deck, one per region Adyen named in its brief. Green tag: packages with Oracle Red Bull Racing access, the closest link to Max. Miami Red Bull Energy Station also lists Q&As with Visa Cash App Racing Bulls drivers, Red Bull athletes and F1 Team Principals, and Playseat simulators. Singapore Red Bull Paddock also includes guided daily pit-lane walks. Full race overviews (Miami, Monaco, Silverstone, Monza, Madrid, Singapore, Austin, Las Vegas) are in SPORTFIVE's deck.");
-    const cw = (CW - 0.5) / 3, y = 1.85;
-    for (const [i, r] of PACKAGES.entries()) {
-      const x = L + i * (cw + 0.25);
-      s.addShape(S.ROUNDED_RECTANGLE, { x, y, w: cw, h: 0.66, rectRadius: 0.06, fill: { color: C.text1 }, line: { color: C.text1, width: 0 } });
-      s.addText([{ text: r.race, options: { bold: true, color: C.background1, fontSize: 16, breakLine: true } }, { text: r.when, options: { color: C.accent4, fontSize: 9.5 } }],
-        { x: x + 0.2, y, w: cw - 1.7, h: 0.66, margin: 0, isTextBox: true, valign: "middle" });
-      s.addText(r.region.toUpperCase(), { x: x + cw - 1.6, y, w: 1.45, h: 0.66, fontSize: 8.5, bold: true, color: C.accent1, align: "right", charSpacing: 1, margin: 0, isTextBox: true, valign: "middle" });
-      r.pk.forEach(([name, scope, hl, price, unit, rb], k) => {
-        const py = y + 0.76 + k * 1.02, ph2 = 0.94;
-        card(s, x, py, cw, ph2, rb ? C.accent6 : C.background2, "Package");
-        if (rb) s.addShape(S.RECTANGLE, { x, y: py, w: 0.07, h: ph2, fill: { color: C.accent1 }, line: { color: C.accent1, width: 0 } });
-        s.addText([{ text: name, options: { bold: true, color: C.text1, fontSize: 11.5 } }, { text: "  " + scope, options: { color: C.text2, fontSize: 9 } }],
-          { x: x + 0.17, y: py + 0.05, w: cw - 1.45, h: 0.32, margin: 0, isTextBox: true, valign: "middle" });
-        s.addText([{ text: "from", options: { color: C.text2, fontSize: 8, breakLine: true } }, { text: price, options: { bold: true, color: C.accent2, fontSize: 14 } }],
-          { x: x + cw - 1.3, y: py + 0.04, w: 1.15, h: 0.5, margin: 0, isTextBox: true, valign: "top", align: "right" });
-        s.addText(hl, { x: x + 0.17, y: py + 0.37, w: cw - 1.5, h: 0.55, fontSize: 9, color: C.text2, margin: 0, isTextBox: true, valign: "top" });
-        s.addText(unit, { x: x + cw - 1.45, y: py + 0.53, w: 1.3, h: 0.4, fontSize: 8, color: C.text2, margin: 0, isTextBox: true, valign: "top", align: "right" });
-      });
-    }
-    s.addShape(S.RECTANGLE, { x: L, y: 6.7, w: 0.07, h: 0.2, fill: { color: C.accent1 }, line: { color: C.accent1, width: 0 } });
-    s.addText("Green: packages with Oracle Red Bull Racing access, the closest link to Max.  Starting prices in US$; indicative and subject to availability.",
-      { x: L + 0.17, y: 6.66, w: CW - 0.2, h: 0.28, fontSize: 9.5, color: C.text2, margin: 0, isTextBox: true, valign: "middle" });
+      t("Example race: **Miami overview**"),
+      "Source: SPORTFIVE, 'Adyen – F1 Premium Experiences' (Miami overview), as presented.",
+      "Transcribed from the Miami overview slide in SPORTFIVE's deck. Additional unique experiences differ from GP to GP. The deck has the same overview for Monaco, Silverstone, Monza, Madrid, Singapore, Austin and Las Vegas.");
+    s.addText("USA  |  MAY", { x: R - 3, y: 0.75, w: 3, h: 0.5, fontSize: 13, bold: true, color: C.accent2, align: "right", charSpacing: 1, margin: 0, isTextBox: true, valign: "middle" });
+    const lab = (txt) => ({ text: txt.toUpperCase(), options: { bold: true, color: C.text1, fontSize: 8.5, valign: "middle", fill: { color: C.background2 } } });
+    const list = (items, o = {}) => ({ text: items.map((it, k) => ({ text: it, options: { bullet: { indent: 9 }, breakLine: k < items.length - 1 } })),
+      options: { fontSize: 9.5, color: C.text1, valign: "top", ...o } });
+    const one = (txt, o = {}) => ({ text: txt, options: { fontSize: 9.5, color: C.text2, valign: "middle", ...o } });
+    const rb = { fill: { color: C.accent6 } };
+    const stars = (n, o = {}) => ({ text: [{ text: "★".repeat(n), options: { color: C.accent1 } }, ...(n < 5 ? [{ text: "★".repeat(5 - n), options: { color: C.accent4 } }] : [])],
+      options: { fontSize: 13, valign: "middle", align: "center", ...o } });
+    const price = (p, unit, o = {}) => ({ text: [{ text: "Starting at", options: { fontSize: 8, color: C.text2, breakLine: true } },
+      { text: p, options: { fontSize: 16, bold: true, color: C.accent2 } }, { text: "  " + unit, options: { fontSize: 9, color: C.text2 } }], options: { valign: "middle", ...o } });
+    const rows = [
+      [hc(""), hc("Private Villa"), hc("Casa Tua Trackside Club"), hc("Vista Club"), hc("Red Bull Energy Station", { fill: { color: C.accent2 } })],
+      [lab("Package scope"), one("3 DAYS"), one("3 DAYS"), one("3 DAYS"), one("SUNDAY-ONLY", rb)],
+      [lab("Track view / circuit location"), stars(5), stars(5), stars(4), stars(5, rb)],
+      [lab("Level of hospitality / catering"),
+        list(["Various locations available", "Climate-controlled suite", "Premium all-inclusive food and beverage offerings throughout the weekend", "Guest service team"]),
+        list(["Intimate lounge evoking luxury along with live music, an artfully crafted menu, and the adrenaline-filled energy of Formula 1", "Climate-controlled interiors", "Premium Casa Tua crafted menus", "Premium bar included"]),
+        list(["Two-story structure that features a climate-controlled club with luxurious indoor dining, a balcony for up-close pit lane views, and electrifying racing action", "Buffet style dining by Chef Jose Mendin", "Drinks included"]),
+        list(["World-class food from DO & CO and delicious custom cocktails and beverages", "Thrilling trackside seating and incredible race views, just feet away from action-packed Turns 11 and 12", "Surprise music acts and DJs", "Exclusive gifts & merchandise"], rb)],
+      [lab("F1 access & experience"), one("No additional behind-the-scenes"), one("No additional behind-the-scenes"), one("No additional behind-the-scenes"),
+        one("Appearances / Q&As by Oracle Red Bull Racing drivers Max Verstappen and Isack Hadjar", { bold: true, color: C.text1, ...rb })],
+      [lab("Additional unique experiences (differ from GP to GP)"), one("N/A"), one("N/A"), one("N/A"),
+        list(["Appearances / Q&As by Visa Cash App Racing Bulls drivers Liam Lawson and Arvid Lindblad", "Appearances and Q&As by Red Bull Athletes and F1 Team Principals", "Oracle Red Bull Racing Playseat Simulators and gaming experiences"], rb)],
+      [lab("Price"), price("$250,000", "(20 PAX)"), price("$12,000", "pp"), price("$7,500", "pp"), price("$5,250", "pp", rb)],
+    ];
+    const lw = 1.75, pw = (CW - lw) / 4;
+    s.addTable(rows, { x: L, y: 1.42, w: CW, colW: [lw, pw, pw, pw, pw], rowH: [0.36, 0.3, 0.32, 1.45, 0.52, 1.35, 0.56],
+      border: { type: "solid", pt: 0.75, color: C.accent4 }, margin: [0.04, 0.08, 0.04, 0.08], objectName: "Miami overview table" });
   }
+
+  // Example programme: Austin, as presented in SPORTFIVE's deck
   {
     const s = content("CONTENT", "The routes", 3, "Route 1 · Hospitality bundle",
-      t("Example programme: **four days in Austin** around the US Grand Prix"),
-      "Source: SPORTFIVE, 'Adyen – F1 Premium Experiences' (example programming, Formula One – Austin 2027, October, date TBC). Photos: SPORTFIVE.",
-      "An example of how SPORTFIVE builds a full programme around one race. Every element is bespoke and would be designed with Adyen. Delivery: SPORTFIVE is a licensed IATA travel agent with close relations to major airlines; owned inventory and long-standing relationships with high-end hotel chains; a branded digital platform for ticket distribution, guest data, invitations and itineraries; and a network of local partners for staffing, suppliers and logistics.");
-    const cw = (CW - 0.6) / 4, y = 1.9, ih = 1.55, h = 3.95;
-    for (const [i, [day, head, img, alt, items]] of AUSTIN.entries()) {
+      t("Example programming: **Formula One – Austin 2027**"),
+      "Source: SPORTFIVE, 'Adyen – F1 Premium Experiences' (example programming), as presented.",
+      "Transcribed from the four example-programming slides in SPORTFIVE's deck: Formula One – Austin 2027, October (date TBC).");
+    s.addText("OCTOBER (DATE TBC)", { x: R - 3, y: 0.75, w: 3, h: 0.5, fontSize: 12, bold: true, color: C.accent2, align: "right", charSpacing: 1, margin: 0, isTextBox: true, valign: "middle" });
+    const days = [
+      ["Day One", "Texan welcome", "austin_estate.jpg", "Commodore Perry Estate", [
+        ["Afternoon", "Guests arrive at Austin airport and transferred to hotel. Check in to the Commodore Perry Estate: relaxed European elegance, true Austin charm. Enjoy spa treatments of your choice to relax and recover from travel."],
+        ["Evening", "Fire yourself up with dinner at Michelin Star restaurant, Hestia."]]],
+      ["Day Two", "The Austin edit", "austin_hats.jpg", "Hat shaping at Maufrais", [
+        ["Morning", "Enjoy a leisurely breakfast at the hotel."],
+        ["Afternoon", "Bespoke shopping experience, hat shaping at Maufrais and boot fitting at Allen Boots – Texas style."],
+        ["Evening", "Luxury cowboy experience, private lunch and dinner with wine tasting, followed by horseback riding with former F1 World Champion Jenson Button."]]],
+      ["Day Three", "Full throttle", "austin_cota.jpg", "Guests at Circuit of the Americas", [
+        ["Morning", "Start your day with breakfast and some leisure time at the hotel before heading to Circuit of the Americas for the Austin Grand Prix."],
+        ["Afternoon", "Experience the Austin Grand Prix from your own, private suite, with prime views, curated local menus, free-flowing drinks, and podium celebration access."],
+        ["Evening", "Reflect post-race with caviar, champagne and cigars at Austin's iconic Room 725."]]],
+      ["Day Four", "Until the next chequered flag", "austin_departure.jpg", "Flight home at sunset", [
+        ["Morning", "Leisurely breakfast at the hotel followed by check-out."],
+        ["Afternoon", "Get ready to leave Austin with a weekend of memories, deeper connections and inspiration sparked."]]],
+    ];
+    const cw = (CW - 0.6) / 4, y = 1.5, ih = 1.3, h = 5.3;
+    for (const [i, [day, head, img, alt, parts]] of days.entries()) {
       const x = L + i * (cw + 0.2);
       const race = i === 2;
       card(s, x, y, cw, h, race ? C.text1 : C.background2, "Day card");
       await photo(s, img, x, y, cw, ih, alt);
       s.addText([{ text: day.toUpperCase(), options: { bold: true, color: C.accent1, fontSize: 10, charSpacing: 1, breakLine: true } },
         { text: head, options: { bold: true, color: race ? C.background1 : C.text1, fontSize: 14 } }],
-      { x: x + 0.2, y: y + ih + 0.12, w: cw - 0.4, h: 0.7, margin: 0, isTextBox: true, valign: "top" });
-      s.addText(items.map((it, k) => ({ text: it, options: { bullet: { indent: 10 }, breakLine: k < items.length - 1, paraSpaceAfter: 3 } })),
-        { x: x + 0.2, y: y + ih + 0.85, w: cw - 0.4, h: h - ih - 0.95, fontSize: 10, color: race ? C.accent4 : C.text2, margin: 0, isTextBox: true, valign: "top" });
+      { x: x + 0.2, y: y + ih + 0.12, w: cw - 0.4, h: 0.72, margin: 0, isTextBox: true, valign: "top" });
+      const runs = [];
+      parts.forEach(([when, txt], k) => {
+        runs.push({ text: when.toUpperCase(), options: { bold: true, color: race ? C.accent1 : C.accent2, fontSize: 8.5, charSpacing: 1, breakLine: true, paraSpaceBefore: k ? 8 : 0 } });
+        runs.push({ text: txt, options: { color: race ? C.accent4 : C.text1, fontSize: 9.5, breakLine: k < parts.length - 1 } });
+      });
+      s.addText(runs, { x: x + 0.2, y: y + ih + 0.9, w: cw - 0.4, h: h - ih - 1.0, margin: 0, isTextBox: true, valign: "top" });
     }
-    card(s, L, 6.0, CW, 0.82, C.text1, "Delivery strip");
-    s.addText("SPORTFIVE RUNS IT END TO END", { x: L + 0.25, y: 6.0, w: 2.2, h: 0.82, fontSize: 10, bold: true, color: C.accent1, charSpacing: 1, margin: 0, isTextBox: true, valign: "middle" });
-    const del = [["Travel", "licensed IATA travel agent"], ["Hotels", "owned inventory, top hotel chains"], ["Guests", "branded digital invitations and itineraries"], ["On site", "local partners, staffing and logistics"]];
-    const dw = (CW - 2.6) / 4;
-    del.forEach(([h2, lab], k) => s.addText([{ text: h2, options: { bold: true, color: C.background1, fontSize: 12, breakLine: true } }, { text: lab, options: { color: C.accent4, fontSize: 9.5 } }],
-      { x: L + 2.5 + k * dw, y: 6.0, w: dw - 0.15, h: 0.82, margin: 0, isTextBox: true, valign: "middle" }));
+  }
+
+  // Off track: ideas across the three days, drawn from SPORTFIVE's programmes
+  {
+    const s = content("CONTENT", "The routes", 3, "Route 1 · Hospitality bundle",
+      t("Off track: ideas to fill **all three days**"),
+      "Source: SPORTFIVE, 'Adyen – F1 Premium Experiences' (example programming and race overviews).",
+      "Every idea is taken from SPORTFIVE's deck; the tag shows the race it comes from. Austin: example programming and the Austin overview (upgraded concert entry with on-track Super Stage concerts, Friday and Saturday night). Singapore: complimentary Singapore Flyer rides on a first-come-first-served basis and access to concerts on the Padang Stage, subject to availability. Madrid: rooftop after-parties. Silverstone: a Saturday evening exclusive DJ set (Octane Terrace); an afterparty with live music and DJs (Red Bull Pole Position). A real programme is built around the races Adyen chooses.");
+    const cols = [
+      ["Friday", "Arrive and unwind", "offtrack_dinner.jpg", "Michelin-starred dining", [
+        ["Check in to a luxury hotel, with spa treatments to recover from travel", "Austin"],
+        ["Dinner at a Michelin Star restaurant", "Austin"],
+        ["Upgraded concert entry: on-track Super Stage concerts, Friday and Saturday night", "Austin"]]],
+      ["Saturday", "Explore the city", "offtrack_concert.jpg", "Live music at a Grand Prix", [
+        ["Bespoke shopping: hat shaping and boot fitting, Texas style", "Austin"],
+        ["Luxury cowboy experience and horseback riding with former F1 World Champion Jenson Button", "Austin"],
+        ["Complimentary Singapore Flyer rides and concerts on the Padang Stage", "Singapore"],
+        ["Exclusive Saturday evening DJ set", "Silverstone"]]],
+      ["Sunday", "Race day, then celebrate", "hosp_champagne.jpg", "Champagne in hospitality", [
+        ["Afterparty with live music and DJs, late into the evening", "Silverstone"],
+        ["Rooftop after-parties", "Madrid"],
+        ["Reflect post-race with caviar, champagne and cigars at Room 725", "Austin"]]],
+    ];
+    const cw = (CW - 0.5) / 3, y = 1.85, ih = 1.2, h = 4.95;
+    for (const [i, [day, head, img, alt, items]] of cols.entries()) {
+      const x = L + i * (cw + 0.25);
+      card(s, x, y, cw, h, C.background2, "Day card");
+      await photo(s, img, x, y, cw, ih, alt);
+      s.addText([{ text: day.toUpperCase(), options: { bold: true, color: C.accent1, fontSize: 10.5, charSpacing: 1, breakLine: true } },
+        { text: head, options: { bold: true, color: C.text1, fontSize: 16 } }],
+      { x: x + 0.25, y: y + ih + 0.15, w: cw - 0.5, h: 0.72, margin: 0, isTextBox: true, valign: "top" });
+      items.forEach(([txt, tag], k) => {
+        const iy = y + ih + 0.88 + k * 0.74;
+        s.addShape(S.OVAL, { x: x + 0.25, y: iy + 0.07, w: 0.12, h: 0.12, fill: { color: C.accent1 }, line: { color: C.accent1, width: 0 } });
+        s.addText([{ text: txt, options: { color: C.text1, fontSize: 10.5, breakLine: true } }, { text: tag.toUpperCase(), options: { color: C.accent2, fontSize: 8, bold: true, charSpacing: 1 } }],
+          { x: x + 0.5, y: iy, w: cw - 0.75, h: 0.72, margin: 0, isTextBox: true, valign: "top" });
+      });
+    }
+  }
+
+  // Our services: travel logistics and on-site support (SPORTFIVE deck), plus why SPORTFIVE
+  {
+    const s = content("CONTENT_PHOTO", "The routes", 3, "Route 1 · Hospitality bundle",
+      t("Our services: **travel logistics and on-site support**, end to end"),
+      "Source: SPORTFIVE, 'Adyen – F1 Premium Experiences' (We provide travel logistics & on-site support; Why us?).",
+      "Wording from SPORTFIVE's deck. SPORTFIVE is an F1 Experiences Authorised Sales Agent (logo in the deck).");
+    await photo(s, "travel_wing.jpg", 0, 0, 4.85, H, "View from an aircraft window");
+    const x = 5.35, w = R - x;
+    s.addText("To ensure a smooth end-to-end event experience", { x, y: 1.9, w, h: 0.35, fontSize: 13, color: C.text2, margin: 0, isTextBox: true, valign: "middle" });
+    const svc = [
+      ["FiSend", "Travel management", "Licensed IATA travel agent with close relations to all major airlines and local transportation management"],
+      ["FiHome", "Accommodation management", "Owned inventory & long-standing relationships with high-end international hotel chains"],
+      ["FiSmartphone", "Digital event & guest management", "Tailored branded solution for ticket distribution, storing guest data, invitation processes & itineraries"],
+      ["FiMapPin", "Locally connected", "A reliable network of local partners to ensure smooth staffing, supplier and logistics management"],
+    ];
+    const sw = (w - 0.25) / 2, sh = 1.35;
+    for (const [i, [ic, head, body]] of svc.entries()) {
+      const sx = x + (i % 2) * (sw + 0.25), sy = 2.4 + Math.floor(i / 2) * (sh + 0.2);
+      const dark = i === 2;
+      card(s, sx, sy, sw, sh, dark ? C.text1 : C.background2, "Service card");
+      await iconDot(s, ic, sx + 0.22, sy + 0.22, 0.46, C.accent1, dark ? C.text1 : "FFFFFF");
+      s.addText(head, { x: sx + 0.82, y: sy + 0.2, w: sw - 1.0, h: 0.5, fontSize: 13, bold: true, color: dark ? C.background1 : C.text1, margin: 0, isTextBox: true, valign: "middle" });
+      s.addText(body, { x: sx + 0.22, y: sy + 0.78, w: sw - 0.44, h: 0.6, fontSize: 10, color: dark ? C.accent4 : C.text2, margin: 0, isTextBox: true, valign: "top" });
+    }
+    label(s, "Why SPORTFIVE", x, 5.48, w, C.accent2);
+    const why = [["20+ years", "premium hospitality for 30,000+ guests every year"], ["Official & best access", "an authorised F1 Experiences sales agent"],
+      ["B2B experts", "working with the world's most inspiring and bold brands"], ["Key account management", "programmes for your brand, customers & employees"]];
+    const ww = (w - 0.45) / 4;
+    why.forEach(([big, lab2], i) => s.addText([{ text: big, options: { bold: true, color: C.text1, fontSize: 12, breakLine: true } }, { text: lab2, options: { color: C.text2, fontSize: 9.5 } }],
+      { x: x + i * (ww + 0.15), y: 5.78, w: ww, h: 0.85, margin: 0, isTextBox: true, valign: "top" }));
   }
 
   // Route 2: Alpine
@@ -1455,7 +1554,7 @@ async function build() {
       ["GWI", "Global F1 audience 2022–2026; F1 audience by Adyen office market; sport affinity indices; team fans working in financial services (2026); Alpine fan audience (GWI Core, Q3 2025–Q2 2026)."],
       ["GlobalData", "F1 sponsorship 2020–2025 (new deals only); brands involved in F1 and their combined revenue (2026)."],
       ["Kantar", "BrandZ 2026 Most Valuable Global Brands; Strong Brands Portfolio 2006–2026; IBM and American Express spotlights; Kantar × Google 2026."],
-      ["SPORTFIVE", "Team partnership network (Nov 2026): partner revenue, counts, market-cap tiers. 'Adyen – F1 Premium Experiences': 2027 calendar, packages, Austin programme, CommScope and Century Financial references. Competitor scan (not exhaustive); Businessolver × Alpine case; Airwallex × McLaren credentials."],
+      ["SPORTFIVE", "Team partnership network (Nov 2026): partner revenue, counts, market-cap tiers. 'Adyen – F1 Premium Experiences': 2027 calendar, Miami overview, Austin programme, off-track ideas, services. F1 partner case studies (Komatsu × Williams, HPE × Mercedes, Businessolver × Alpine). Competitor scan (not exhaustive); Airwallex × McLaren credentials."],
       ["Rights holders", "Alpine Formula One Team, Provisional Rights Overview 2027–2029 (not legally binding). Max Verstappen × Adyen proposal, October 2026 (for discussion)."],
       ["Adyen", "Office locations; partnership brief; 'Racing | Unified Payments' imagery and value chain."],
       ["Calculated", "Counts and sums from the sources above: 24 races, 28 offices, 34.4M fans, 56 tickets, competitor property counts, '% above next-best sport', market-cap tier shading."],

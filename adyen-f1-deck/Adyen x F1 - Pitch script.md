@@ -1,10 +1,10 @@
-# Adyen × F1: pitch script for Peter (Chairman deck 6)
+# Adyen × F1: pitch script for Peter (Chairman deck 7)
 
 How to use this: the words under each slide are written to be spoken. Say them in your own rhythm; you do not need to read them word for word. Lines in *italics* are cues, not things to say. Every number in the script is on the slide behind you, so you can point to it.
 
 The thread to hold all the way through: **F1 is not a transaction-volume play. It is a complete marketing and commercial platform. Today's ask is buy-in to F1. Max, Alpine and Ferrari are the routes in, and the rest of the grid follows.**
 
-**Timing.** The full script runs about 28 minutes. For a 15-minute slot, use the ★ slides and pass through the others in one line.
+**Timing.** The full script runs about 30 minutes. For a 15-minute slot, use the ★ slides and pass through the others in one line.
 
 ---
 
@@ -86,15 +86,15 @@ This is the part of F1 that pays for itself: hospitality. It does three jobs, an
 
 Client retention: experiences that traditional hosting can't match. Pipeline: every race weekend puts C-suite decision-makers in one place, in market, with time to talk. Merchant acquisition: the eleven teams' rosters add up to 371 partners.
 
-## 11 · Hosting at F1 races turns guests into pipeline ★
+## 11 · F1 partners report real commercial returns ★
 
-You don't have to take my word for it. Three examples.
+You don't have to take my word for it. Here are three companies that measured it.
 
-Businessolver, a partner of Alpine, the team in our second route: $122 million in business pipeline, influenced by at-track hosting and experiences.
+Komatsu hosts its stakeholders with Williams: $100 million-plus in orders received at races, 3,735 stakeholders hosted, and 90% said it was useful for business.
 
-CommScope with the Haas F1 Team: a global B2B customer programme across 11 races, which we delivered. They achieved a commercial return, recovering the programme investment through future deal opportunities, and tracked ROI from guest engagement through to pipeline and revenue.
+HPE with Mercedes, a partner since 2018. Antonio Neri, HPE's CEO, says the real value is showcasing their technology through Mercedes use cases and direct customer engagement at races. And, quote, "from race activations alone, we've accelerated over $300 million in revenue opportunity."
 
-And Century Financial, a financial services firm, at the Abu Dhabi season finale: 240 guests over three race days, which we also delivered. Their Chief Institutional Business Officer put it simply: hosting clients trackside let them connect on a deeper level and reinforce the relationships central to their growth.
+And Businessolver with Alpine, the team in our second route: $122 million in business pipeline, influenced by at-track hosting and experiences. Their line is "technology with heart": AI, decision-support and real-time analytics, shown to clients through Alpine.
 
 ## 12 · Team partnership network: $6.7 trillion across 11 teams
 
@@ -178,47 +178,63 @@ What his package doesn't include is F1 hospitality, and that's what the next few
 
 Max's package is light on hospitality: a garage tour for two guests, a private track day and three paddock meet-and-greets. So with the Max route, we can bundle in race-weekend hospitality, through SPORTFIVE.
 
-It gives Adyen a premium setting few other sports can match, private spaces and up to three full days to host clients, merchants and prospects, and a way to reward top clients and teams. We've done this for over 20 years, for more than 30,000 guests a year, and we're an authorised F1 Experiences sales agent.
+Think of it as a simple sum. Max's package, plus SPORTFIVE hospitality at the Grands Prix you choose, with off-track experiences and the travel and guest management handled end to end. That gives you one programme to host Adyen's clients, merchants and prospects.
 
-*Important framing:* what follows is a starting point, not a quote. It's an introductory guide to what's possible. We'd like your feedback, and then we build something bespoke for Adyen.
+And why it works: F1 is a premium setting few other sports can match, it gives you privacy and time to do business across three full days, and it's a powerful way to reward top clients and teams.
+
+*Important framing:* what follows is a starting point, not a quote. These are examples from our offer. We'd like your feedback, and then we build something bespoke for Adyen.
 
 ## 23 · 24 races in 2027: choose where to host
 
-First, where. There are 24 races on the 2027 calendar, from Bahrain in March to Abu Dhabi in December. The green dots are races in cities where Adyen has an office: Shanghai, Madrid, Singapore, Mexico City and São Paulo. The dark ones are the examples on the next two slides.
+First, where. There are 24 races on the 2027 calendar, from Bahrain in March to Abu Dhabi in December. The green dots are races in cities where Adyen has an office: Shanghai, Madrid, Singapore, Mexico City and São Paulo. The dark ones, Miami and Austin, are the examples on the next two slides.
 
-## 24 · Example packages ★
+## 24 · Example race: Miami overview ★
 
-Here's what the packages look like at three races, one in each region in your brief: Miami, Silverstone and Singapore.
+Here's one race as an example: Miami, in May. There are four ways to host.
 
-They range from shared clubs, from around $3,000 a person at Silverstone, to private suites for a group: $250,000 for 20 guests at Miami, and $550,000 for 35 at Singapore. The green ones have Red Bull Racing access, the closest link to Max. At Miami, for example, guests get Q&As with Max Verstappen and Isack Hadjar at the Red Bull Energy Station.
+A private villa for up to 20 guests over three days, from $250,000. The Casa Tua Trackside Club, from $12,000 a person. The Vista Club, a two-storey club with a balcony over the pit lane, from $7,500. And the one I'd point to for the Max route: the Red Bull Energy Station on race day, from $5,250 a person, with Q&As with Oracle Red Bull Racing drivers Max Verstappen and Isack Hadjar.
 
-*If asked:* these are starting prices, they vary race by race, and they're subject to availability.
+*If asked:* these are starting prices, and the additional experiences differ from Grand Prix to Grand Prix. We have the same overview for Monaco, Silverstone, Monza, Madrid, Singapore, Austin and Las Vegas.
 
-## 25 · Example programme: four days in Austin
+## 25 · Example programming: Formula One – Austin 2027
 
 And this is how a full programme comes together around one race: four days in Austin for the US Grand Prix.
 
-Day one, arrival at the Commodore Perry Estate and dinner at Hestia. Day two, the Austin edit: hat shaping, boot fitting, and horseback riding with former World Champion Jenson Button. Day three is race day, from a private suite at Circuit of the Americas, with podium celebration access. Day four, departure.
+Day one, the Texan welcome: arrival, the Commodore Perry Estate, spa, and dinner at Hestia. Day two, the Austin edit: hat shaping at Maufrais, boot fitting at Allen Boots, then a luxury cowboy experience and horseback riding with former World Champion Jenson Button. Day three is full throttle: race day from a private suite at Circuit of the Americas, with podium celebration access, then caviar, champagne and cigars at Room 725. Day four, departure.
 
-We run it end to end: travel, hotels, guest invitations and itineraries, and the team on site. Again, this is an example. With your feedback, we'd design Adyen's own.
+## 26 · Off track: ideas to fill all three days
 
-## 26 · Alpine ★
+A race weekend is three days, and the time off track matters as much as the race. These are ideas from our programmes at different races.
+
+Friday, arrive and unwind: a luxury hotel and spa, a Michelin-starred dinner, concerts in the evening. Saturday, explore the city: bespoke shopping, the cowboy experience with Jenson Button in Austin, the Singapore Flyer and concerts on the Padang Stage, an exclusive DJ set at Silverstone. Sunday, race day and then celebrate: after-parties with live music, rooftop parties in Madrid, or caviar and champagne post-race.
+
+We'd build Adyen's programme around the races you choose.
+
+## 27 · Our services: travel logistics and on-site support
+
+And we run all of it end to end, so your team doesn't have to.
+
+Travel: we're a licensed IATA travel agent. Accommodation: our own inventory and long-standing relationships with high-end hotel chains. Digital event and guest management: a branded platform for tickets, guest data, invitations and itineraries. And we're locally connected, with partners on the ground for staffing, suppliers and logistics.
+
+We've done this for over 20 years, for more than 30,000 guests a year, and we're an authorised F1 Experiences sales agent.
+
+## 28 · Alpine ★
 
 Route two: Alpine. Alpine has built its whole proposal around one idea, Performance in Every Transaction.
 
 Adyen would be the exclusive Financial Technology Platform Partner, globally, for 2027 to 2029. Adyen would power the team's new ecommerce platform, so every fan purchase becomes a live proof point. On the left you can see the audience: 10 million senior decision-makers, and early tech adopters at three times the average internet user. The fee is £10 million in 2027, rising 5% a year. And it includes 56 Paddock Club tickets a year.
 
-## 27 · Alpine: Adyen powers the Team's commerce ★
+## 29 · Alpine: Adyen powers the Team's commerce ★
 
 Alpine's plan follows the same steps we just walked through. Integrate: Adyen powers the team store, with rewards on top. Prove: a documentary series on the integration, and a live lab at the Enstone factory. Experience: a race-week venue with an Adyen customer in a Grand Prix city. Convert: an Adyen Commerce Club for C-level guests, and a forum with Alpine's partners.
 
 It ticks all five of Adyen's boxes in one package.
 
-## 28 · Rights overview: Alpine F1 Team × Adyen
+## 30 · Rights overview: Alpine F1 Team × Adyen
 
 *Highlights only.* Branding on the engine cover and halo, appearances from the drivers and senior team members, content, and a strong hospitality and experiences programme. The full list is on screen for reference.
 
-## 29 · Scuderia Ferrari
+## 31 · Scuderia Ferrari
 
 Route three, briefly: Ferrari.
 
@@ -226,7 +242,7 @@ It has 42 partners, with $568 billion in combined revenue, and Shell, IBM and HP
 
 There's no proposal yet. Whether we open that conversation is one of the next steps.
 
-## 30 · Next steps ★
+## 32 · Next steps ★
 
 Six steps from here. It starts with your review of the Max and Alpine proposals, the week of 9 November. Then we gather your feedback, including on the hospitality bundle, explore or revisit the rights packages, and decide whether we open a conversation with Ferrari. Then the contract and integration plan, and launch.
 
@@ -236,7 +252,7 @@ On the right is what it could look like: Adyen with Max, and Adyen on the Alpine
 
 So Peter, the question I'd leave you with isn't "which contract". It's this: do you agree that F1 is the right platform for Adyen? If the answer is yes, we'll come back with the right route and the right deal to get you in.
 
-## 31 · Sources and notes
+## 33 · Sources and notes
 
 *Keep this slide for the room. If anyone asks where a number comes from, it's here.*
 
@@ -257,16 +273,13 @@ Three routes are in front of you: Max, Alpine and Ferrari (slide 18). Mercedes a
 They do different jobs. Max brings reach and influence plus a business ecosystem Adyen can power, and hospitality can be bundled in. His rights are non-exclusive and his fee isn't quoted yet. Alpine is the full team platform: exclusive category, ecommerce integration, 56 Paddock Club tickets a year and 49 team partners, at £10 million in 2027. Ferrari has 42 partners and the most fans in financial services, but no proposal yet. The decision today is F1 itself.
 
 **"Does Max's deal include F1 hospitality?"**
-His package includes a garage tour, a private track day and paddock meet-and-greets. It excludes Red Bull assets and F1 hospitality. That's why we'd bundle hospitality with the Max route (slides 22 to 25), built bespoke from your feedback.
+His package includes a garage tour, a private track day and paddock meet-and-greets. It excludes Red Bull assets and F1 hospitality. That's why we'd bundle hospitality with the Max route (slides 22 to 27), built bespoke from your feedback.
 
 **"What would hospitality cost?"**
-It depends on the races and the format. The examples on slide 24 run from about $3,000 a person for a shared terrace to $550,000 for a private suite for 35 guests. We'd price a programme once we know the races and guest numbers.
+It depends on the races and the format. At Miami (slide 24), packages start at $5,250 a person for the Red Bull Energy Station on race day and go up to $250,000 for a private villa for 20 guests. We'd price a programme once we know the races and guest numbers.
 
 **"How do we measure it?"**
 Pipeline sourced, deals accelerated, priority accounts retained and grown, payment volume processed, and case studies published.
 
 **"Are these numbers forecasts?"**
-No. They're proof points from named sources: partners already in F1 (Businessolver, CommScope, Century Financial, Airwallex), the rights holders' proposals, and SPORTFIVE's partner data.
-
-**"Why don't you mention Komatsu or HPE?"**
-Their case material is marked confidential, so we've only used references we're cleared to share.
+No. They're proof points from named sources: partners already in F1 (HPE, Komatsu, Businessolver, Airwallex), the rights holders' proposals, and SPORTFIVE's partner data.
