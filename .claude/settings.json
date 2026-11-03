@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch",
+      "WebSearch",
+      "mcp__Apollo_io",
+      "mcp__Google_Drive",
+      "mcp__Crunchbase"
+    ]
+  }
+}
