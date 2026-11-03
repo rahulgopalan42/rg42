@@ -1,5 +1,5 @@
 # Merge row OCR (rec2/rows_*.json) with rec/companies.json, categorise into sector tabs, score and rank -> xlsx
-import json,glob,re,collections,math,sys
+import json,glob,re,collections,math,sys,os
 import openpyxl
 from openpyxl.styles import Font,PatternFill,Alignment
 from rapidfuzz import process,fuzz
@@ -16,7 +16,17 @@ def clean_name(n):
     n=re.sub(r"\s+['‘’`]?\S{0,4}[$€£¥₹]\S*.*$",'',n)
     n=re.sub(r'\s+(?:I\s+)?(?:Public|Private)\s*\S{0,3}$','',n)
     n=re.sub(r'\bAl\b','AI',n).strip(" '\"`.,;:-_~*|‘’"); return n
-for f in glob.glob('rec2/rows_*.json'):
+def clean_desc(d):
+    d=re.sub(r'\s+',' ',d).strip()
+    d=re.sub(r'\s*\d{1,3}(?:[,\.]\d{3})+\s*$','',d); d=re.sub(r'\s+\d{1,6}\s*$','',d)
+    d=d.replace(' ...','...').strip(" |_~*'\"")
+    if len(d)<25 or sum(ch.isalpha() for ch in d)<0.7*len(d): return ''
+    return d
+RES={}
+for f in glob.glob('rec/desc_research*.json'):
+    for r in json.load(open(f)):
+        if r.get('description'): RES[key(r['name'])]=r
+for f in glob.glob(os.environ.get('ROWS','rec2')+'/rows_*.json'):
     for fr in json.load(open(f))['frames']:
         for r in fr.get('rows',[]):
             k=key(clean_name(r.get('name','')))
@@ -37,6 +47,8 @@ for f in glob.glob('rec2/rows_*.json'):
             for fld in ('total','last','date','stage','industries','hq','rank'):
                 v=(r.get(fld) or '').strip()
                 if v: obs[k][fld][v]+=1
+            d=clean_desc(r.get('desc') or '')
+            if d: obs[k]['desc'][d]+=1
 # ---------- parsers
 FX={'$':1,'US$':1,'€':1.08,'£':1.27,'CA$':0.73,'A$':0.66,'AU$':0.66,'R$':0.18,'RS':0.18,'MX$':0.055,'CN¥':0.14,'CNY¥':0.14,'¥':0.0067,'JP¥':0.0067,'₹':0.012,'SAR':0.27,'AED':0.27,'CHF':1.13,'SEK':0.095,'NOK':0.092,'HK$':0.13,'S$':0.74,'NT$':0.031,'₩':0.00072,'KRW':0.00072,'THB':0.028,'ZAR':0.055,'TRY':0.03,'PLN':0.25,'DKK':0.145,'ILS':0.27,'NZ$':0.6,'IDR':0.000063,'MYR':0.22,'PHP':0.017,'VND':0.00004,'NGN':0.00065,'EGP':0.02,'KZT':0.002}
 def money(s):
@@ -133,6 +145,9 @@ for k,c in ckeys.items():
         yr=year(v)
         if yr: break
     stg=top('stage'); ctry=country(hq) if hq else ''
+    dc=o.get('desc') or collections.Counter()
+    cbd=max(dc.items(),key=lambda kv:(kv[1],len(kv[0])))[0] if dc else ''
+    rr=RES.get(k) or {}
     hasdata=bool(ind or hq or tot or rk)
     sec=(sector(ind) if ind else 'Other / Unclassified') if hasdata else 'No data read'
     # score
@@ -154,7 +169,7 @@ for k,c in ckeys.items():
     if k in exk: status='Excluded (your remove list)'
     if ctry in BLOCK: status=status or 'Declined: sanctioned/restricted country'
     flag='China/India/Brazil HQ override' if ctry in OVERRIDE else ''
-    out.append(dict(hasdata=hasdata,name=c['name'],sector=sec,industries=ind,hq=hq.replace('…',''),country=ctry,total=tot,rank=rk,year=yr,stage=stg,score=round(sc,1),conf=conf,status=status,flag=flag,frames=c['frames']))
+    out.append(dict(hasdata=hasdata,name=c['name'],sector=sec,industries=ind,hq=hq.replace('…',''),country=ctry,total=tot,rank=rk,year=yr,stage=stg,score=round(sc,1),conf=conf,status=status,flag=flag,frames=c['frames'],key=k,cbdesc=cbd,desc=rr.get('description') or cbd,dsrc=(rr.get('source') or 'public sources') if rr.get('description') else ('Crunchbase (recording)' if cbd else ''),fixname=rr.get('correct_name') or ''))
 _act=sorted([x['score'] for x in out if not x['status'] and x['hasdata']],reverse=True)
 _cut=lambda q:_act[min(len(_act)-1,int(len(_act)*q))] if _act else 0
 T1,T2,T3=_cut(0.10),_cut(0.30),_cut(0.60)
@@ -164,18 +179,20 @@ bys=collections.defaultdict(list)
 for x in out: bys[x['sector']].append(x)
 order=sorted(bys,key=lambda s:(s=='No data read',s=='Other / Unclassified',-len(bys[s])))
 summ=wb.create_sheet('Summary'); summ.append(['Sector tab','Brands','Top','High','Medium','Low','Already templated / excluded'])
-hdr=['Rank','Brand','Priority','Score','HQ location','HQ country','Total funding (USD est.)','Last funding year','CB rank','Industries (Crunchbase)','Stage','Status','Flag','Read confidence']
+hdr=['Rank','Brand','What the company does','Priority','Score','HQ location','HQ country','Total funding (USD est.)','Last funding year','CB rank','Industries (Crunchbase)','Stage','Status','Flag','Read confidence','Description source']
 for s in order:
     L=sorted(bys[s],key=lambda x:(bool(x['status']),-x['score'])) if s!='No data read' else sorted(bys[s],key=lambda x:-x['frames'])
     ws=wb.create_sheet(s[:31].replace('/','-').replace(',',''))
     ws.append(hdr); n=0
     for x in L:
         nd=(s=='No data read'); n+=1 if not x['status'] and not nd else 0
-        ws.append([n if not x['status'] and not nd else '',x['name'],(tier(x['score']) if not nd else 'Unscored') if not x['status'] else '—',x['score'],x['hq'],x['country'],round(x['total']) if x['total'] else None,x['year'],x['rank'],x['industries'],x['stage'],x['status'],x['flag'],x['conf']])
-    for i,wd in enumerate([6,34,9,7,34,16,20,10,9,40,14,34,26,10]): ws.column_dimensions[openpyxl.utils.get_column_letter(i+1)].width=wd
+        ws.append([n if not x['status'] and not nd else '',x['name']+(f" (likely {x['fixname']})" if x['fixname'] and key(x['fixname'])!=x['key'] else ''),x['desc'],(tier(x['score']) if not nd else 'Unscored') if not x['status'] else '—',x['score'],x['hq'],x['country'],round(x['total']) if x['total'] else None,x['year'],x['rank'],x['industries'],x['stage'],x['status'],x['flag'],x['conf'],x['dsrc']])
+    for i,wd in enumerate([6,30,70,9,7,30,16,20,10,9,40,14,34,26,10,40]): ws.column_dimensions[openpyxl.utils.get_column_letter(i+1)].width=wd
     for c in ws[1]: c.font=Font(bold=True,color='FFFFFF'); c.fill=PatternFill('solid',fgColor='1F3864')
-    for row in ws.iter_rows(min_row=2,min_col=7,max_col=7):
+    for row in ws.iter_rows(min_row=2,min_col=8,max_col=8):
         for c in row: c.number_format='#,##0'
+    for row in ws.iter_rows(min_row=2,min_col=3,max_col=3):
+        for c in row: c.alignment=Alignment(wrap_text=True,vertical='top')
     ws.freeze_panes='C2'; ws.auto_filter.ref=ws.dimensions
     act=[x for x in L if not x['status']]
     summ.append([s,len(L)]+([sum(1 for x in act if tier(x['score'])==t) for t in ('Top','High','Medium','Low')] if s!='No data read' else ['unscored','','',''])+[len(L)-len(act)])
@@ -188,8 +205,11 @@ for line in ['Brands from your 10 Crunchbase screen recordings, sorted into sect
  f'Priority tiers are relative across all brands: Top = top 10% of scores ({T1:.0f}+), High = next 20% ({T2:.0f}+), Medium = next 30% ({T3:.0f}+), Low = the rest. Brands already templated, declined or on your remove list are listed at the bottom of each tab without a rank.',
  f'Coverage: {len(out)} brands; industries read for {cov}. Brands whose rows were on screen too briefly for the 3-second sampling (or whose names were misread) are in the "No data read" tab, unranked and sorted by how often they appeared. "Other / Unclassified" holds brands with data but no clear sector.',
  'Brands already partnered with an F1 team (from the team sponsor lists on f1salaries.com, 2 Nov 2026) are marked "Already an F1 partner" and not ranked.',
+ 'What the company does: a plain-English line researched from public sources (company website, filings, reputable press) where marked in the Description source column; otherwise the Crunchbase description as shown in the recording (cut off where Crunchbase truncated it on screen).',
  'Values are read by OCR from the recordings: HQ text and industries are cut off where Crunchbase truncated them on screen; funding in other currencies is converted to USD at rough rates. Check a brand before acting on it.']:
     rd.append([line])
 rd.column_dimensions['A'].width=150
-wb.save('Screen Recording Brands - Sector Tabs Ranked.xlsx')
+wb.save(os.environ.get('OUT','Screen Recording Brands - Sector Tabs Ranked.xlsx'))
+for x in out: x['tier']=('Unscored' if not x['hasdata'] else tier(x['score'])) if not x['status'] else ''
+json.dump(out,open('rec/ranked.json','w'))
 print('brands',len(out),'with data',cov); print({s:len(bys[s]) for s in order})

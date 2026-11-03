@@ -1,5 +1,6 @@
 # Row-level OCR of a Crunchbase results frame -> (column starts, [ {name,last,total,date,stage,industries,hq,desc,rank} ])
-import subprocess,csv,io,re,sys
+import subprocess,csv,io,re,sys,os,tempfile
+from PIL import Image
 def tsv(img):
     out=subprocess.run(['tesseract',img,'-','--psm','11','tsv'],capture_output=True,text=True).stdout
     return [r for r in csv.DictReader(io.StringIO(out),delimiter='\t',quoting=csv.QUOTE_NONE) if (r.get('text') or '').strip()]
@@ -27,10 +28,25 @@ def header(words):
         later=[x for x in lasts if x>st['total']]
         if later: st['date']=later[0]
     return y,dict(sorted(st.items(),key=lambda kv:kv[1]))
+def desc_words(img,x0,x1,y0):
+    im=Image.open(img).convert('L'); W,Hh=im.size
+    x1=min(x1,W); crop=im.crop((x0,y0,x1,Hh)); SC=2.5
+    crop=crop.resize((int(crop.width*SC),int(crop.height*SC)),Image.LANCZOS)
+    fd,tmp=tempfile.mkstemp(suffix='.png'); os.close(fd); crop.save(tmp)
+    out=subprocess.run(['tesseract',tmp,'-','--psm','6','tsv'],capture_output=True,text=True).stdout; os.remove(tmp)
+    ws=[r for r in csv.DictReader(io.StringIO(out),delimiter='\t',quoting=csv.QUOTE_NONE) if (r.get('text') or '').strip()]
+    for w in ws:
+        w['left']=str(int(int(w['left'])/SC)+x0); w['top']=str(int(int(w['top'])/SC)+y0)
+    return ws
 def rows(img):
     words=tsv(img); h=header(words)
     if not h: return None,[]
     y0,st=h; keys=list(st); xs=[st[k] for k in keys]
+    DW=None
+    if 'desc' in st:
+        i=keys.index('desc'); dx1=xs[i+1]-4 if i+1<len(xs) else st['desc']+170
+        try: DW=desc_words(img,st['desc']-4,dx1,y0+14)
+        except Exception: DW=None
     xmax=st.get('end',st.get('rank',xs[-1])+140)
     def col(x):
         c=None
@@ -47,11 +63,21 @@ def rows(img):
     out=[]
     for a in anchors:
         rec={'name':' '.join(w['text'] for w in sorted(a['w'],key=L))}
+        dw=[]
         for w in sorted(body,key=L):
             if nx0+14<=L(w)<nx1-4: continue
-            if abs(T(w)-a['y'])<=7 or (0<T(w)-a['y']<=20 and col(L(w))=='desc'):
-                c=col(L(w))
-                if c and c!='name': rec.setdefault(c,[]).append(w['text'])
+            c=col(L(w))
+            if c=='desc':
+                if DW is None and -12<=T(w)-a['y']<=22: dw.append(w)
+                continue
+            if abs(T(w)-a['y'])<=7 and c and c!='name': rec.setdefault(c,[]).append(w['text'])
+        if DW is not None: dw=[w for w in DW if -12<=T(w)-a['y']<=22]
+        if dw:
+            dw.sort(key=T); lines=[]
+            for w in dw:
+                if lines and abs(T(w)-lines[-1][0])<=5: lines[-1][1].append(w)
+                else: lines.append([T(w),[w]])
+            rec['desc']=' '.join(' '.join(x['text'] for x in sorted(ws,key=L)) for _,ws in lines[:2])
         out.append({k:(v if isinstance(v,str) else ' '.join(v)) for k,v in rec.items()})
     return st,out
 if __name__=='__main__':
