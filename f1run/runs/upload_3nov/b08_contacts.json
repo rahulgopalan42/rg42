@@ -1,0 +1,416 @@
+{
+ "rows": [
+  {
+   "brand": "Supabase",
+   "people": [
+    {
+     "name": "Paul Copplestone",
+     "title": "CEO",
+     "email": "copple@supabase.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/paulcopplestone",
+     "location": "United States"
+    },
+    {
+     "name": "Craig Cannon",
+     "title": "Head of Developer Relations and Marketing",
+     "email": "craig@supabase.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/craigrcannon",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Rory Wilding",
+     "title": "Coo/cco",
+     "email": "rory@supabase.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/rory-wilding-00297a45",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Jessica Losquadro",
+     "title": "Head of Field Marketing",
+     "email": "jessica.losquadro@supabase.io",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jessica-losquadro-2816783",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Temporal Technologies",
+   "people": [
+    {
+     "name": "Clair Byrd",
+     "title": "CMO",
+     "email": "clair.byrd@temporal.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/clairbyrd",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Mike Partin",
+     "title": "Head of Demand Gen & Lifecycle Marketing",
+     "email": "mike.partin@temporal.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/mikewpartin",
+     "location": "Irvine, United States"
+    },
+    {
+     "name": "Janakan Sivachelvan",
+     "title": "VP, Partnerships & Business Development",
+     "email": "jay@temporal.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jsivachelvan",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Stu Kendall",
+     "title": "Director of Product Marketing",
+     "email": "stuart.kendall@temporal.io",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/stukendall",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "Tyler Technologies",
+   "people": [
+    {
+     "name": "Arik Flanders",
+     "title": "Chief Marketing Officer",
+     "email": "arik.flanders@tylertech.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/arikflanders",
+     "location": "Dallas, United States"
+    },
+    {
+     "name": "Brian Heath",
+     "title": "Vice President Marketing",
+     "email": "brian.heath@tylertech.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/brianheathmarketing",
+     "location": "Dallas, United States"
+    },
+    {
+     "name": "Kirsten Gappelberg",
+     "title": "Vice President, Corporate Communications",
+     "email": "kirsten.gappelberg@tylertech.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/kirsten-gappelberg",
+     "location": "Dallas, United States"
+    },
+    {
+     "name": "Kara Cowie",
+     "title": "Director of Marketing",
+     "email": "kara.cowie@tylertech.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/karacowie",
+     "location": "Overland Park, United States"
+    }
+   ]
+  },
+  {
+   "brand": "ClickHouse",
+   "people": [
+    {
+     "name": "Ryan Kelly",
+     "title": "Vice President Global Marketing",
+     "email": "ryan.kelly@clickhouse.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ryanpaulkelly",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Floortje Plokker",
+     "title": "Head of Marketing (EMEA)",
+     "email": "floortje.plokker@clickhouse.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/floortje-plokker-443a0471",
+     "location": "Amsterdam, Netherlands"
+    },
+    {
+     "name": "Abhinav Mehla",
+     "title": "VP, Global Partners and Alliances",
+     "email": "abhinav.mehla@clickhouse.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/abhinavmehla",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Angelica Ismailos",
+     "title": "Director, Demand Generation",
+     "email": "angelica.ismailos@clickhouse.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/angelica-ismailos",
+     "location": "Toronto, Canada"
+    }
+   ]
+  },
+  {
+   "brand": "4iG",
+   "people": [
+    {
+     "name": "Apor Peter",
+     "title": "Business Development Director",
+     "email": "apor.peter@4ig.hu",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/apor-p%c3%a9ter-1105466a",
+     "location": "Dunakeszi, Hungary"
+    },
+    {
+     "name": "Nandor Kovacs",
+     "title": "Deputy Director of B2C Marketing Communications",
+     "email": "nandor.kovacs@4ig.hu",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/nandorkovacs",
+     "location": "Budapest, Hungary"
+    },
+    {
+     "name": "Orsolya Hladics",
+     "title": "Deputy Group Head of Communication",
+     "email": "orsolya.hladics@4ig.hu",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/orsolya-hladics-934bb329",
+     "location": "Budapest, Hungary"
+    },
+    {
+     "name": "Buday Viktoria",
+     "title": "Group Brand Lead",
+     "email": "viktoria.buday@4ig.hu",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/buday-vikt%c3%b3ria-85521688",
+     "location": "Hungary"
+    }
+   ]
+  },
+  {
+   "brand": "AMI - Advanced Machine Intelligence",
+   "people": [
+    {
+     "name": "Laurent Solly",
+     "title": "Co-Founder & COO",
+     "email": "laurent@amilabs.xyz",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Alex Lebrun",
+     "title": "Cofounder & CEO",
+     "email": "alex@amilabs.xyz",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Michael Rabbat",
+     "title": "Co-Founder and VP World Models",
+     "email": "mike@amilabs.xyz",
+     "role": "cro"
+    },
+    {
+     "name": "Pascale Fung",
+     "title": "Co-Founder and CRIO",
+     "email": "pascale@amilabs.xyz",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Apptronik, Inc.",
+   "people": [
+    {
+     "name": "Barry Phillips",
+     "title": "Chief Commercial Officer (CCO)",
+     "email": "barryphillips@apptronik.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/phillipsbarry",
+     "location": "Santa Clara, United States"
+    },
+    {
+     "name": "Dave Perry",
+     "title": "Vice President of Marketing",
+     "email": "daveperry@apptronik.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/dmperry",
+     "location": "Los Angeles, United States"
+    },
+    {
+     "name": "Andre Chivalette",
+     "title": "Director of Business Development",
+     "email": "andrechivalette@apptronik.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/andre-chivalette-a108805",
+     "location": "Erie, United States"
+    },
+    {
+     "name": "Liz Clinkenbeard",
+     "title": "Head of Communications",
+     "email": "lizclinkenbeard@apptronik.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lizclinkenbeard",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Bedrock Robotics",
+   "people": [
+    {
+     "name": "Anjelica Sarkar",
+     "title": "Marketing Lead",
+     "email": "anjelica.sarkar@bedrockrobotics.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Andrew Beck",
+     "title": "Head of Strategic Partnerships",
+     "email": "andrew.beck@bedrockrobotics.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Linda Xu",
+     "title": "Head of Commercialization",
+     "email": "linda.xu@bedrockrobotics.com",
+     "role": "cro"
+    },
+    {
+     "name": "Brian Smith",
+     "title": "Business Development Partner",
+     "email": "brian.smith@bedrockrobotics.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "CAIS",
+   "people": [
+    {
+     "name": "Alex Cavalieri",
+     "title": "Managing Director, Chief Marketing Officer",
+     "email": "acavalieri@caisgroup.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Jenny Kaskel",
+     "title": "Vice President Marketing",
+     "email": "jkaskel@caisgroup.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Clemence Newman",
+     "title": "Vice President, Digital Marketing",
+     "email": "cnewman@caisgroup.com",
+     "role": "cro"
+    },
+    {
+     "name": "Haley Ruotolo",
+     "title": "Vice President, Events, Marketing",
+     "email": "hruotolo@caisgroup.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Claroty",
+   "people": [
+    {
+     "name": "Upa Campbell",
+     "title": "Chief Marketing Officer",
+     "email": "upa.c@claroty.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Jon Rabinowitz",
+     "title": "Vice President Growth Marketing",
+     "email": "jon.r@claroty.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Kelley Hill",
+     "title": "Sr Director, Brand Marketing",
+     "email": "kelley.h@claroty.com",
+     "role": "cro"
+    },
+    {
+     "name": "Melissa Ofri",
+     "title": "Head of Marketing Strategy & GTM Alignment",
+     "email": "melissa.o@claroty.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Clear Street",
+   "people": [
+    {
+     "name": "Ashley Desimone",
+     "title": "Chief Marketing Officer",
+     "email": "adesimone@clearstreet.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ashley-desimone",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Katie Dobbins",
+     "title": "Director of Institutional Marketing",
+     "email": "kdobbins@clearstreet.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/katharinendobbins",
+     "location": "New York, United States"
+    },
+    {
+     "name": "David Martin",
+     "title": "Chief Revenue Officer (CRO) - Digital",
+     "email": "dmartin@clearstreet.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/mrtn-dvd",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Cj Vasani",
+     "title": "Director of Equity Finance Business Development",
+     "email": "cvasani@clearstreet.io",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/cj-vasani-2079067",
+     "location": "Boston, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Commure",
+   "people": [
+    {
+     "name": "Hari Manikandan",
+     "title": "Head of Growth Marketing",
+     "email": "hari.manikandan@commure.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/idofhari",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Steven Slasten",
+     "title": "Head of Enterprise Marketing",
+     "email": "steven.slasten@commure.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/stevenslasten",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Vishnu Gettu",
+     "title": "Head of Partnerships",
+     "email": "vishnu@commure.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/vishnu-gettu-149825132",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Hersh Solanki",
+     "title": "Chief Business Officer",
+     "email": "hersh@commure.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/hershsolanki",
+     "location": "San Francisco, United States"
+    }
+   ]
+  }
+ ]
+}

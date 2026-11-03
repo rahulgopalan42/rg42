@@ -1,0 +1,429 @@
+{
+ "rows": [
+  {
+   "brand": "Quantum Computing",
+   "people": [
+    {
+     "name": "Yuping Huang",
+     "title": "Chief Executive Officer & Chairman",
+     "email": "yhuang@quantumcomputinginc.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/yuping-huang-66234812a",
+     "location": "Hoboken, United States"
+    },
+    {
+     "name": "Karen Jeffers",
+     "title": "Director, Marketing and Communications",
+     "email": "kjeffers@quantumcomputinginc.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/karen-jeffers-baa0305",
+     "location": "Hoboken, United States"
+    },
+    {
+     "name": "Susan Hunt",
+     "title": "Chief Revenue Officer",
+     "email": "shunt@quantumcomputinginc.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/susanghunt1",
+     "location": "Oceanport, United States"
+    },
+    {
+     "name": "Rich Nelson",
+     "title": "Senior Vice President Business Development",
+     "email": "rdnelson@quantumcomputinginc.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/richarddnelson",
+     "location": "Indianapolis, United States"
+    }
+   ]
+  },
+  {
+   "brand": "RingCentral",
+   "people": [
+    {
+     "name": "Guillaume Calot",
+     "title": "Global Vice President of Strategic Partnerships",
+     "email": "guillaume.calot@ringcentral.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/gcalot",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Kristin Hurley",
+     "title": "Senior Creative Director of Brand",
+     "email": "kristin.hurley@ringcentral.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kristin-hurley",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Karen Clyne",
+     "title": "Head of Global Public Relations, Crisis Communications",
+     "email": "karen.clyne@ringcentral.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/karenclyne",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Humam Almukhtar",
+     "title": "Director Integrated Marketing",
+     "email": "humam.almukhtar@ringcentral.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/humamalmukhtar",
+     "location": "Los Angeles, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Rippling",
+   "people": [
+    {
+     "name": "Dan Chaput",
+     "title": "VP, Sales and Marketing Strategy and Planning",
+     "email": "dchaput@rippling.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Anne Maguire",
+     "title": "Growth Marketing Lead",
+     "email": "amaguire@rippling.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Arteen Asgharzadeh",
+     "title": "Head of Marketing & Growth - Rippling Finance",
+     "email": "aasgharzadeh@rippling.com",
+     "role": "cro"
+    },
+    {
+     "name": "Christine Rosemin",
+     "title": "Head of Accountant Marketing",
+     "email": "cfarrierrosemin@rippling.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "TierPoint",
+   "people": [
+    {
+     "name": "Andrew Baird",
+     "title": "SVP and Chief Marketing Officer",
+     "email": "andrew.baird@tierpoint.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/andrewmbaird",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Don Schuett",
+     "title": "SVP Business Development, Data Center and High-Density Colocation",
+     "email": "don.schuett@tierpoint.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/don-schuett-5a68a3",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Ron Bianco",
+     "title": "Interim Chief Sales Officer",
+     "email": "ron.bianco@tierpoint.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/ron-bianco-67b5154",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Melanie Sunahara",
+     "title": "AVP National Channel & Alliances",
+     "email": "melanie.sunahara@tierpoint.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/melaniesunahara",
+     "location": "Chicago, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Paxos",
+   "people": [
+    {
+     "name": "Meredith Luera",
+     "title": "Product Marketing Lead",
+     "email": "meredith.luera@paxos.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Guillaume Kendall",
+     "title": "Growth Team Lead",
+     "email": "guillaume.kendall@paxos.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Lauren Leff",
+     "title": "Lead, Proposal Management and Growth Operations",
+     "email": "lleff@paxos.com",
+     "role": "cro"
+    },
+    {
+     "name": "Thomas Hessert",
+     "title": "VP, Strategic Partnerships",
+     "email": "thessert@paxos.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Nothing Technology",
+   "people": [
+    {
+     "name": "Yibai Hu",
+     "title": "Head of Sales & Marketing, China Mainland",
+     "email": "yibai.hu@nothing.tech",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Varut Sirikasemsuk",
+     "title": "Marketing Lead",
+     "email": "varut.sirikasemsuk@nothing.tech",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Andy Kayama",
+     "title": "Marketing Lead, Japan",
+     "email": "andy.kayama@nothing.tech",
+     "role": "cro"
+    },
+    {
+     "name": "Govinda Singh",
+     "title": "Head of Product Marketing",
+     "email": "govinda.singh@nothing.tech",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "SK Horizon",
+   "people": [
+    {
+     "name": "Hui Yea",
+     "title": "Senior Vice President, Head of Brand Division (SK Telecom and SK Broadband)",
+     "email": "huiyea@sk.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/huiyea",
+     "location": "Seoul, South Korea"
+    },
+    {
+     "name": "Young Joo",
+     "title": "CMO, SK Telecom",
+     "email": "young.j@sk.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/young-joo-93641040",
+     "location": "South Korea"
+    }
+   ]
+  },
+  {
+   "brand": "Wistron",
+   "people": [
+    {
+     "name": "Alex Chiu",
+     "title": "Director of Sales and Marketing",
+     "email": "alex_chiu@wistron.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Nick Wang",
+     "title": "Marketing Director",
+     "email": "nick_wang@wistron.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Kay Li",
+     "title": "Marketing Director",
+     "email": "kay_li@wistron.com",
+     "role": "cro"
+    },
+    {
+     "name": "Benjamin Wu",
+     "title": "Director of Business Development",
+     "email": "benjamin_wu@wistron.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Wiwynn",
+   "people": [
+    {
+     "name": "Jacky Fung",
+     "title": "Sales Director",
+     "email": "jacky_fung@wiwynn.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jacky-fung-4b222152",
+     "location": "Kirkland, United States"
+    },
+    {
+     "name": "Jenny Chew",
+     "title": "Marketing",
+     "email": "jenny_chew@wiwynn.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jenny-chew-19b89b17",
+     "location": "Taiwan"
+    },
+    {
+     "name": "Estela Shih",
+     "title": "Director, Sales Department",
+     "email": "estela_shih@wiwynn.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/estela-shih-02673b92",
+     "location": "Taiwan"
+    },
+    {
+     "name": "Jason Chen",
+     "title": "Communications Exec., Corporate Comms",
+     "email": "jason_cs_chen@wiwynn.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jcschen",
+     "location": "Taiwan"
+    }
+   ]
+  },
+  {
+   "brand": "Flex",
+   "people": [
+    {
+     "name": "Christie Haber",
+     "title": "Director, Commercial Marketing and Communications",
+     "email": "christie.haber@flex.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "James Martin",
+     "title": "Director of Marketing Strategy",
+     "email": "james.martin@flex.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Hermann Staudacher",
+     "title": "VP Sales and Marketing",
+     "email": "hermann.staudacher@flex.com",
+     "role": "cro"
+    },
+    {
+     "name": "Joel Aguilar",
+     "title": "Director, America's Marketing & Communications",
+     "email": "joel.aguilar@flex.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Bell",
+   "people": [
+    {
+     "name": "Devorah Lithwick",
+     "title": "Senior Vice President, Brand",
+     "email": "devorah.lithwick@bell.ca",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/devorah-lithwick-101189a7",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Miranda Urbanski",
+     "title": "Director Brand & Marketing Communications, Bell Mobility, Virgin Plus and Lucky Mobile",
+     "email": "miranda.urbanski@bell.ca",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/mirandaurbanski",
+     "location": "Burlington, Canada"
+    },
+    {
+     "name": "Matthew Leppanen",
+     "title": "Director of Marketing, Enablement, and Partnerships",
+     "email": "matthew.leppanen@bell.ca",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/matthewleppanen",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Janice Thomas",
+     "title": "Director, Marketing Communications",
+     "email": "janice.thomas@bell.ca",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/janice-thomas-54a13076",
+     "location": "Mississauga, Canada"
+    }
+   ]
+  },
+  {
+   "brand": "Bird",
+   "people": [
+    {
+     "name": "Richard Dodds",
+     "title": "VP of Sales",
+     "email": "richard@bird.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/richdodds",
+     "location": "Queensland, Australia"
+    },
+    {
+     "name": "Luka Santl",
+     "title": "Head of Brand",
+     "email": "luka.santl@bird.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/luka-%c5%a1antl-112b85348",
+     "location": "Ljubljana, Slovenia"
+    },
+    {
+     "name": "David Buckmaster",
+     "title": "Sales Director",
+     "email": "david.buckmaster@bird.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/mayorbuck",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Marc Van Agtmael",
+     "title": "Head of SMS Growth",
+     "email": "marc@bird.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/marc-van-agtmael-47b38796",
+     "location": "Amsterdam, Netherlands"
+    }
+   ]
+  },
+  {
+   "brand": "CGI",
+   "people": [
+    {
+     "name": "Alison Hallett",
+     "title": "Vice President, Marketing and Business Development Enablement",
+     "email": "alison.hallett@cgi.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/alison-hallett-19ab3011",
+     "location": "Arlington, United States"
+    },
+    {
+     "name": "Susan Daoud",
+     "title": "Global Editorial Director, Brand & External Communications",
+     "email": "susan.daoud@cgi.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/susan-daoud",
+     "location": "Montreal, Canada"
+    },
+    {
+     "name": "Joe Malesich",
+     "title": "Emerging Alliances Director",
+     "email": "joe.malesich@cgi.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/joe-malesich-90bb603",
+     "location": "Redmond, United States"
+    },
+    {
+     "name": "Allie Sabo",
+     "title": "Director Marketing Communications",
+     "email": "allie.sabo@cgi.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/allie-sabo",
+     "location": "Columbus, United States"
+    }
+   ]
+  }
+ ]
+}

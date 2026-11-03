@@ -1,0 +1,432 @@
+{
+ "rows": [
+  {
+   "brand": "Docusign",
+   "people": [
+    {
+     "name": "Carla Weis",
+     "title": "VP Brand",
+     "email": "carla.weis@docusign.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/carlaweishale",
+     "location": "Tucson, Arizona, United States"
+    },
+    {
+     "name": "Tim Inthirak",
+     "title": "Senior Director of Communications",
+     "email": "tim.inthirak@docusign.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/tinthirakoth",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Fernando Barbosa",
+     "title": "Director, Partnerships Marketing | Latam",
+     "email": "fernando.barbosa@docusign.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/fernando-barbosa-532b5263",
+     "location": "Sao Paulo, State of Sao Paulo, Brazil"
+    },
+    {
+     "name": "Garrett Freeman",
+     "title": "Director, Marketing",
+     "email": "garrett.freeman@docusign.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/garrettfreeman",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Figma",
+   "people": [
+    {
+     "name": "Reema Batta",
+     "title": "SVP Marketing",
+     "email": "rbatta@figma.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/reema-batta",
+     "location": "San Francisco, California, United States"
+    },
+    {
+     "name": "Nairi Hourdajian",
+     "title": "VP, Communications, Content and Community",
+     "email": "nairi@figma.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/nairi-tashjian-hourdajian-37601411",
+     "location": "San Francisco, California, United States"
+    },
+    {
+     "name": "Anna Kohnen",
+     "title": "Head of Business Development & Partnerships",
+     "email": "akohnen@figma.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/annakohnen",
+     "location": "San Francisco, California, United States"
+    },
+    {
+     "name": "Azra Daniels",
+     "title": "Sr. Director, Experiential Marketing",
+     "email": "adaniels@figma.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/azradaniels",
+     "location": "San Francisco, California, United States"
+    }
+   ]
+  },
+  {
+   "brand": "KoBold Metals",
+   "people": [
+    {
+     "name": "Kurt House",
+     "title": "Chief Executive & Co-Founder",
+     "email": "kurt.house@koboldmetals.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kurtzenzhouse",
+     "location": "San Francisco, California, United States"
+    },
+    {
+     "name": "Katongo Chilufya",
+     "title": "Head of Corporate Communications",
+     "email": "katongo.chilufya@koboldmetals.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/katongochilufya",
+     "location": "Zambia"
+    },
+    {
+     "name": "Josh Goldman",
+     "title": "Co-Founder & President",
+     "email": "josh.goldman@koboldmetals.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/josh-goldman-819b834",
+     "location": "Boston, Massachusetts, United States"
+    },
+    {
+     "name": "Fabiana Peek",
+     "title": "Director of Community Engagement",
+     "email": "fabiana.peek@koboldmetals.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/fabiana-peek-illescas-165b8226",
+     "location": "North Las Vegas, Nevada, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Mavenir",
+   "people": [
+    {
+     "name": "Emmanuela Spiteri",
+     "title": "VP of Marketing",
+     "email": "emmanuela.spiteri@mavenir.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/emmanuela",
+     "location": "Cambridge, England, United Kingdom"
+    },
+    {
+     "name": "Allison McArdle",
+     "title": "Director Global Events, Marketing",
+     "email": "allison.mcardle@mavenir.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/allison-mcardle-a9a4b065",
+     "location": "Plano, Texas, United States"
+    },
+    {
+     "name": "Patrik Jakobson",
+     "title": "VP - Business Development and Sales, EMEA",
+     "email": "patrik.jakobson@mavenir.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/patrik-jakobson-3729a9",
+     "location": "Stockholm, Stockholm County, Sweden"
+    },
+    {
+     "name": "David Peters",
+     "title": "Executive Director, Business Development",
+     "email": "david.peters@mavenir.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/david-peters-b9a2896",
+     "location": "Dallas, Texas, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Momenta",
+   "people": [
+    {
+     "name": "Thomas Jacobson",
+     "title": "VP Business Development",
+     "email": "thomas@momenta.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jacobsonthomas",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Jun Li",
+     "title": "Senior Director Sales and Marketing",
+     "email": "lijun@momenta.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/%e4%bf%8a-%e6%9d%8e-b2aa2697",
+     "location": "Shanghai, China"
+    },
+    {
+     "name": "Lina Ye",
+     "title": "Director of Sales Management and Marketing",
+     "email": "lina.ye@momenta.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/lina-ye-4ab2b7150",
+     "location": "Suzhou, China"
+    },
+    {
+     "name": "Yue Tuo",
+     "title": "Director of Product Experience Design and Branding",
+     "email": "tuoyue@momenta.ai",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/yue-tuo-60b02414",
+     "location": "Beijing, China"
+    }
+   ]
+  },
+  {
+   "brand": "Pony.ai",
+   "people": [
+    {
+     "name": "Ludi Wang",
+     "title": "Global Communications Director",
+     "email": "ludiwang@pony.ai",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Liyun Meng",
+     "title": "Director Strategy & Business Development",
+     "email": "liyun@pony.ai",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Jun Shi",
+     "title": "Director of Strategy and Business Development",
+     "email": "junshi@pony.ai",
+     "role": "cro"
+    },
+    {
+     "name": "Li Li",
+     "title": "Brand Visual Designer",
+     "email": "erranlli@pony.ai",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Superhuman (formerly Grammarly)",
+   "people": [
+    {
+     "name": "Ashley Antoon",
+     "title": "Vice President, Product Marketing, Enterprise",
+     "email": "ashley.antoon@superhuman.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ashley-antoon-pmp-ab07489",
+     "location": "Nashville, Tennessee, United States"
+    },
+    {
+     "name": "Dolleen Cross",
+     "title": "Head of Communications",
+     "email": "dolleen.cross@superhuman.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/dolleen-cross-04593a3",
+     "location": "San Francisco, California, United States"
+    },
+    {
+     "name": "Ko Mistry",
+     "title": "VP, Partnerships",
+     "email": "ko.mistry@superhuman.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/komistry",
+     "location": "San Francisco, California, United States"
+    },
+    {
+     "name": "Erin Dame",
+     "title": "Director of Brand Marketing (formerly Grammarly)",
+     "email": "erin.dame@grammarly.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/erindame1",
+     "location": "San Francisco, California, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Chainguard",
+   "people": [
+    {
+     "name": "Liz Egan",
+     "title": "Chief Marketing Officer",
+     "email": "liz.egan@chainguard.dev",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/elizabethwaltonegan",
+     "location": "San Francisco, California, United States"
+    },
+    {
+     "name": "Michael Chadwell",
+     "title": "Director of Technology Partnerships",
+     "email": "michael.chadwell@chainguard.dev",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/michaelchadwell",
+     "location": "Atlanta, Georgia, United States"
+    },
+    {
+     "name": "Parm Uppal",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "parm.uppal@chainguard.dev",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/parmuppal",
+     "location": "San Francisco, California, United States"
+    },
+    {
+     "name": "Tom White",
+     "title": "Director of Public Sector Partners",
+     "email": "tom.white@chainguard.dev",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/tomwhitebd",
+     "location": "Falls Church, Virginia, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Cohesity",
+   "people": [
+    {
+     "name": "Jackie Sandoval",
+     "title": "Vice President Corporate Marketing",
+     "email": "jackie.sandoval@cohesity.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Rob Sadowski",
+     "title": "Vice President, Product & Solution Marketing",
+     "email": "rob.sadowski@cohesity.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Vanessa Svib",
+     "title": "Marketing Director - Latin America & The Caribbean",
+     "email": "vanessa.svib@cohesity.com",
+     "role": "cro"
+    },
+    {
+     "name": "Courtney Glubo",
+     "title": "Director, Talent Acquisition (WWFO & Marketing)",
+     "email": "courtney.glubo@cohesity.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Commvault",
+   "people": [
+    {
+     "name": "Carrie Kelly",
+     "title": "VP of Global Brand & Integrated Marketing",
+     "email": "carriekelly@commvault.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/carrienkelly",
+     "location": "McKinney, Texas, United States"
+    },
+    {
+     "name": "Ross Camp",
+     "title": "Vice President Corporate Communications",
+     "email": "rcamp@commvault.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/rosscamp",
+     "location": "San Francisco, California, United States"
+    },
+    {
+     "name": "Mayra Luis-Castillo",
+     "title": "VP Global Cloud Partnerships",
+     "email": "mluiscastillo@commvault.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/mayra-luis-castillo-27198813",
+     "location": "Fort Lauderdale, Florida, United States"
+    },
+    {
+     "name": "Laura Wilkinson",
+     "title": "Director of Field Marketing",
+     "email": "lwilkinson@commvault.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/wilkinsonl",
+     "location": "Chesterfield, England, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Gen",
+   "people": [
+    {
+     "name": "Krista Todd",
+     "title": "Chief Marketing Officer",
+     "email": "krista.todd@gendigital.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kristawtodd",
+     "location": "San Francisco, California, United States"
+    },
+    {
+     "name": "Jess Monney",
+     "title": "Vice President, Corporate Responsibility, Marketing & Communications at Gen Digital",
+     "email": "jess.monney@gendigital.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jessmonney",
+     "location": "Sacramento, California, United States"
+    },
+    {
+     "name": "Ashish Modi",
+     "title": "Chief Corporate Development & Partnerships Officer",
+     "email": "ashish.modi@gendigital.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/modiashish",
+     "location": "Mountain View, California, United States"
+    },
+    {
+     "name": "Marina Ziegler",
+     "title": "Head of Communications",
+     "email": "marina.ziegler@gendigital.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/marinaziegler",
+     "location": "Munich, Bavaria, Germany"
+    }
+   ]
+  },
+  {
+   "brand": "Heartflow",
+   "people": [
+    {
+     "name": "Elle Moran",
+     "title": "Vice President Marketing",
+     "email": "emoran@heartflow.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ellenmoran",
+     "location": "United States"
+    },
+    {
+     "name": "Francesco Jatta",
+     "title": "Vice President Sales & Marketing, EMEA",
+     "email": "fjatta@heartflow.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/francesco-jatta-43870a17",
+     "location": "Brescia, Lombardy, Italy"
+    },
+    {
+     "name": "Kim Larson",
+     "title": "Senior Director, Commercial Excellence",
+     "email": "klarson@heartflow.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/kimraelarson",
+     "location": "Bozeman, Montana, United States"
+    },
+    {
+     "name": "Natalie Holger",
+     "title": "Senior Director, Platform Marketing",
+     "email": "nholger@heartflow.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/natalieholger",
+     "location": "United States"
+    }
+   ]
+  }
+ ]
+}

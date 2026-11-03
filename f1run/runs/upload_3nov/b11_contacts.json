@@ -1,0 +1,413 @@
+{
+ "rows": [
+  {
+   "brand": "Luma",
+   "people": [
+    {
+     "name": "Eugenio Oliva",
+     "title": "Partner Marketing Lead, EMEA",
+     "email": "eugenio.delaoliva@lumalabs.ai",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Andrea Cutright",
+     "title": "Growth Marketing",
+     "email": "andrea.cutright@lumalabs.ai",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Xiaoying Ding",
+     "title": "Brand Designer",
+     "email": "xiaoying@lumalabs.ai",
+     "role": "cro"
+    },
+    {
+     "name": "Eric Lauterbach",
+     "title": "Brand Designer",
+     "email": "eric.lauterbach@lumalabs.ai",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Uniphore",
+   "people": [
+    {
+     "name": "Claire Darling",
+     "title": "Chief Marketing Officer",
+     "email": "claire.darling@uniphore.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Devin Brodie",
+     "title": "Global Director of Field Marketing",
+     "email": "devin.brodie@uniphore.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Reema Wadhwani",
+     "title": "Director of Marketing Demand Generation",
+     "email": "reema@uniphore.com",
+     "role": "cro"
+    },
+    {
+     "name": "Prashanth Thandavamurthy",
+     "title": "Agentic AI Product Marketing Lead",
+     "email": "prashanth.thandavamurthy@uniphore.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Upland Software",
+   "people": [
+    {
+     "name": "Jon Eilers",
+     "title": "Senior Vice President Strategy Business Development",
+     "email": "jeilers@uplandsoftware.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/joneilers",
+     "location": "Lincoln, Nebraska, United States"
+    },
+    {
+     "name": "Nick Certa",
+     "title": "VP of Sales and Marketing, Upland Audience Engagement",
+     "email": "ncerta@uplandsoftware.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/nickcerta",
+     "location": "Chesterfield, Missouri, United States"
+    },
+    {
+     "name": "Chris Krystalowich",
+     "title": "Vice President, Sales & Channel",
+     "email": "ckrystalowich@uplandsoftware.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/krystalowich",
+     "location": "Victoria, British Columbia, Canada"
+    },
+    {
+     "name": "Will Nankivell",
+     "title": "Director of Partnerships and Alliances",
+     "email": "wnankivell@uplandsoftware.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/will-nankivell-2722334",
+     "location": "Grove City, Ohio, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Wispr Flow",
+   "people": [
+    {
+     "name": "Carolyn Hsu",
+     "title": "VP of Product Marketing",
+     "email": "carolyn@wisprflow.ai",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Kimberly Stoner",
+     "title": "Head of Design, Marketing",
+     "email": "kim@wispr.ai",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Rohan Kochhar",
+     "title": "Growth & Partnerships Lead, India",
+     "email": "rohan@wisprflow.ai",
+     "role": "cro"
+    },
+    {
+     "name": "Haley Sayres",
+     "title": "Head of Enterprise Growth",
+     "email": "haley@wisprflow.ai",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Upwork",
+   "people": [
+    {
+     "name": "Janine Kamwene",
+     "title": "Vice President of Communications",
+     "email": "janinekamwene@upwork.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/janine-kamwene-a38b9916",
+     "location": "Los Angeles, California, United States"
+    },
+    {
+     "name": "Elisabeth Hutchinson",
+     "title": "Director, Corporate Communications",
+     "email": "elisabethhutchinson@upwork.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/eacopper",
+     "location": "San Francisco, California, United States"
+    },
+    {
+     "name": "Yashar Behzadi",
+     "title": "VP, AI Frontier Products & Partnerships",
+     "email": "yasharbehzadi@upwork.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/yasharbehzadi",
+     "location": "San Francisco, California, United States"
+    },
+    {
+     "name": "Nicholas Cosgrove",
+     "title": "Director, Partnerships and AI GTM",
+     "email": "nicholascosgrove@upwork.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/nicholas-cosgrove-794927a4",
+     "location": "Columbus, Ohio, United States"
+    }
+   ]
+  },
+  {
+   "brand": "MegazoneCloud",
+   "people": [
+    {
+     "name": "Hayley Chung",
+     "title": "Chief Marketing Officer",
+     "email": "hayley.chung@megazone.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/hay1eychung",
+     "location": "Seoul, South Korea"
+    },
+    {
+     "name": "Chang-Gi Choi",
+     "title": "Vice President of Global Business & Strategic Initiatives",
+     "email": "changgi.choi@megazone.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/cgchoi",
+     "location": "Singapore"
+    },
+    {
+     "name": "Kun Jin",
+     "title": "Sales Director",
+     "email": "kjin@mz.co.kr",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/kun-jin-5b234165",
+     "location": "South Korea"
+    },
+    {
+     "name": "Sung Song",
+     "title": "Head of Ops & Alliance",
+     "email": "ssong@megazone.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/sksong",
+     "location": "Tokyo, Japan"
+    }
+   ]
+  },
+  {
+   "brand": "Angle Health",
+   "people": [
+    {
+     "name": "Cassidy Szarnicki",
+     "title": "Vice President, Platform Distribution & Commercial Strategy",
+     "email": "cassidy@anglehealth.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "David Slepak",
+     "title": "Vice President Commercial",
+     "email": "david@anglehealth.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Caleb Parker",
+     "title": "Chief Commercial Officer",
+     "email": "cparker@anglehealth.com",
+     "role": "cro"
+    },
+    {
+     "name": "Liz Wilson",
+     "title": "Vice President of Sales",
+     "email": "liz@anglehealth.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Aura",
+   "people": [
+    {
+     "name": "Steven Young",
+     "title": "Global Chief Marketing Officer",
+     "email": "steven.young@aura.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/steventristanyoung",
+     "location": "San Francisco, California, United States"
+    },
+    {
+     "name": "Jen Eaves",
+     "title": "VP of Marketing, B2B",
+     "email": "jennifer.eaves@aura.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jennifereaves",
+     "location": "Charleston, South Carolina, United States"
+    },
+    {
+     "name": "Kristy Taylor",
+     "title": "Director of Business Development- Aura for Kids",
+     "email": "kristy.taylor@aura.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/kristy-taylor-5325212a",
+     "location": "Arlington, Tennessee, United States"
+    },
+    {
+     "name": "Alfred Najem",
+     "title": "VP, Growth Marketing",
+     "email": "alfred.najem@aura.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/alfred-najem-a56605120",
+     "location": "Austin, Texas, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Elm",
+   "people": [
+    {
+     "name": "Bader Alomari",
+     "title": "VP, Strategic Partnerships & Alliances Office",
+     "email": "balomari@elm.sa",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/bader-alomari-372ab815",
+     "location": "Riyadh, Saudi Arabia"
+    },
+    {
+     "name": "Fahad Al-Shathry",
+     "title": "VP Business Development and Sales Growth Office",
+     "email": "falshathry@elm.sa",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/fahad-alshathry",
+     "location": "Saudi Arabia"
+    },
+    {
+     "name": "Turki Alharthi",
+     "title": "Commercial Products Director",
+     "email": "aturki@elm.sa",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/turki-alharthi",
+     "location": "Riyadh, Saudi Arabia"
+    },
+    {
+     "name": "Nawaf Otaibi",
+     "title": "Executive Manager \u2013 Head of Marketing Research",
+     "email": "notaibi@elm.sa",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/nawaf-al-otaibi",
+     "location": "Saudi Arabia"
+    }
+   ]
+  },
+  {
+   "brand": "Enveda",
+   "people": [
+    {
+     "name": "Viswa Colluru",
+     "title": "CEO & Founder",
+     "email": "viswa.colluru@envedabio.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Soumoditya Dey",
+     "title": "VP, Corporate Development and Investor Relations",
+     "email": "soumoditya.dey@envedabio.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Inhwan Kim",
+     "title": "Strategy",
+     "email": "inhwan.kim@envedabio.com",
+     "role": "cro"
+    },
+    {
+     "name": "Andrew Hildering",
+     "title": "Sr. Corporate Development Manager",
+     "email": "andrew.hildering@envedabio.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Generalist AI",
+   "people": [
+    {
+     "name": "Pete Florence",
+     "title": "Co-Founder & CEO",
+     "email": "pete@generalistai.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/peteflorence",
+     "location": "San Francisco, California, United States"
+    },
+    {
+     "name": "Lucy Licht",
+     "title": "Partnerships Lead",
+     "email": "lucy@generalistai.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/lucylicht",
+     "location": "Los Angeles, California, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Generate Biomedicines",
+   "people": [
+    {
+     "name": "Laurie Lee",
+     "title": "CMO",
+     "email": "llee@generatebiomedicines.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Sahm Nasseri",
+     "title": "Senior Vice President, Business Development and Strategy",
+     "email": "snasseri@generatebiomedicines.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Seth Feldman",
+     "title": "Vice President, Commercial Lead",
+     "email": "sfeldman@generatebiomedicines.com",
+     "role": "cro"
+    },
+    {
+     "name": "Michael Nally",
+     "title": "Chief Executive Officer",
+     "email": "mnally@generatebiomedicines.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Oxide Computer",
+   "people": [
+    {
+     "name": "Richard Dresden",
+     "title": "SVP Sales and Field Operations",
+     "email": "richard@oxidecomputer.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Zoltan Mesko",
+     "title": "Director of Sales",
+     "email": "zoltan@oxidecomputer.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Travis Haymore",
+     "title": "Technology Sales Leader",
+     "email": "travis@oxidecomputer.com",
+     "role": "cro"
+    },
+    {
+     "name": "Simone Epperson",
+     "title": "Global Sales Leader",
+     "email": "simone@oxidecomputer.com",
+     "role": "field_marketing"
+    }
+   ]
+  }
+ ]
+}

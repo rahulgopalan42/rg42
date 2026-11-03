@@ -1,0 +1,408 @@
+{
+ "rows": [
+  {
+   "brand": "AMETEK",
+   "people": [
+    {
+     "name": "Patrick Pelland",
+     "title": "Division Vice President, Marketing",
+     "email": "patrick.pelland@ametek.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/patrick-pelland-5214a523",
+     "location": "Atlanta, United States"
+    },
+    {
+     "name": "Brian Burkhart",
+     "title": "Vice President Sales and Marketing",
+     "email": "brian.burkhart@ametek.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/brian-burkhart",
+     "location": "Houston, United States"
+    },
+    {
+     "name": "Susan Bell",
+     "title": "Global Vice President Business Development",
+     "email": "susan.bell@ametek.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/susandbell",
+     "location": "Fort Mill, United States"
+    },
+    {
+     "name": "Karla Graves",
+     "title": "Director of Marketing, Process & Analytical Instruments",
+     "email": "karla.graves@ametek.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/karlagraves",
+     "location": "Pittsburgh, United States"
+    }
+   ]
+  },
+  {
+   "brand": "GlobalFoundries",
+   "people": [
+    {
+     "name": "Nancy Kelly",
+     "title": "Chief Marketing & Communications Officer",
+     "email": "nancy.kelly@gf.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Ankush Gupta",
+     "title": "Vice President, Power Product Management and Marketing",
+     "email": "ankush.gupta@gf.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Robert Rich",
+     "title": "Director of Marketing",
+     "email": "robert.rich@gf.com",
+     "role": "cro"
+    },
+    {
+     "name": "Sally Montgomery",
+     "title": "Head of Executive and Employee Communications",
+     "email": "sally.montgomery@gf.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Hubbell Incorporated",
+   "people": [
+    {
+     "name": "Sean Langton",
+     "title": "Vice President of Business Development",
+     "email": "slangton@hubbell.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/sean-langton-leed-ap-he-him-5b899115",
+     "location": "Portland, United States"
+    },
+    {
+     "name": "Michael Coppola",
+     "title": "Sr. Director Corporate Marketing",
+     "email": "mcoppola@hubbell.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/michael-coppola-ba083b7",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Anne-Laure Leroyer",
+     "title": "Senior Director of Marketing Communications",
+     "email": "aleroyer@hubbell.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/annelaureleroyer",
+     "location": "Washington, United States"
+    },
+    {
+     "name": "Greg Womble",
+     "title": "Vice President, Commercial Excellence",
+     "email": "gwomble@hubbell.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/greg-womble-43b06016",
+     "location": "Lancaster, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Jabil",
+   "people": [
+    {
+     "name": "Timur Aydin",
+     "title": "Senior Director, Enterprise Marketing & Communications",
+     "email": "timur_aydin@jabil.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Hunter Lankford",
+     "title": "Vice President of Business Development",
+     "email": "hunter_lankford@jabil.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Yanshi Tao",
+     "title": "Vice President of Business Development",
+     "email": "yanshi_tao@jabil.com",
+     "role": "cro"
+    },
+    {
+     "name": "Debasish Choudhury",
+     "title": "Vice President (Sales & Business Development ) and Country Manager",
+     "email": "debasish_choudhury@jabil.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Rapidus",
+   "people": [
+    {
+     "name": "Henri Richard",
+     "title": "President & General Manager",
+     "email": "henri.richard@rapidus.co.jp",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/henrir",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Stephen Difranco",
+     "title": "Ecosystems, Marketing & Govt. Relations",
+     "email": "stephen.difranco@rapidus.co.jp",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sdfiot",
+     "location": "San Mateo, United States"
+    },
+    {
+     "name": "Tomohiko Moriya",
+     "title": "Senior Manager Marketing Business Development",
+     "email": "tomohiko.moriya@rapidus.co.jp",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/tomohiko-moriya-0b0848266",
+     "location": "Yokohama, Japan"
+    },
+    {
+     "name": "Mahoro Yoshida",
+     "title": "Senior Director, Corporate Strategy Planning",
+     "email": "mahoro.yoshida@rapidus.co.jp",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/mahoro-yoshida",
+     "location": "Japan"
+    }
+   ]
+  },
+  {
+   "brand": "Solstice Advanced Materials",
+   "people": [
+    {
+     "name": "Ross Vandyck",
+     "title": "Global Head of Commercial",
+     "email": "ross.vandyck@solstice.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ross-vandyck-0aba3a77",
+     "location": "Greenville, United States"
+    },
+    {
+     "name": "Hilary Gwisdala",
+     "title": "Senior Director, Corporate Marketing and Brand",
+     "email": "hilary.gwisdala@solstice.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/hilarygwisdala",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Phil Terrigno",
+     "title": "Senior Director, External Communications",
+     "email": "phil.terrigno@solstice.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/phil-terrigno-068a6149",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Sebastien Casterman",
+     "title": "Director Business Development Europe",
+     "email": "sebastien.casterman@solstice.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/s%c3%a9bastien-g-casterman-6111897",
+     "location": "Frankfurt, Germany"
+    }
+   ]
+  },
+  {
+   "brand": "TeamSystem",
+   "people": [
+    {
+     "name": "Giorgia Sali",
+     "title": "Head of Marketing Italia",
+     "email": "g.sali@teamsystem.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Sidney Ouarzazi",
+     "title": "Head of Marketing France Micro Business and SMB",
+     "email": "s.ouarzazi@teamsystem.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Daniele Lombardo",
+     "title": "Group Marketing, Institutional Relations and Communication Director",
+     "email": "d.lombardo@teamsystem.com",
+     "role": "cro"
+    },
+    {
+     "name": "Valeria Surico",
+     "title": "Head of Brand, PR and Content",
+     "email": "v.surico@teamsystem.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Micron Technology",
+   "people": [
+    {
+     "name": "Vikas Prabhakar",
+     "title": "Communications & Marketing Lead",
+     "email": "vprabhakar@micron.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Phil Fei",
+     "title": "China Communications and Marketing Director",
+     "email": "pfei@micron.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Esther Chang",
+     "title": "Head of Asia Communications and Marketing",
+     "email": "estherchang@micron.com",
+     "role": "cro"
+    },
+    {
+     "name": "Craig Smith",
+     "title": "Sr. Director, Marketing Strategy & Operations",
+     "email": "craigsmith@micron.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Command Alkon",
+   "people": [
+    {
+     "name": "Davis Jackson",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "djackson@commandalkon.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/davisjackson",
+     "location": "Atlanta, United States"
+    },
+    {
+     "name": "Lori Allen",
+     "title": "Vice President, Marketing",
+     "email": "lallen@commandalkon.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/lori-allen-65ba5629",
+     "location": "Birmingham, United States"
+    },
+    {
+     "name": "Tom Bowen",
+     "title": "Vice President of Sales Operations and Business Development",
+     "email": "tbowen@commandalkon.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/tombowen2",
+     "location": "Birmingham, United States"
+    },
+    {
+     "name": "Leo Marthe",
+     "title": "Vice President of International Sales",
+     "email": "lmarthe@commandalkon.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/leo-marthe-78532050",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "indie Semiconductor",
+   "people": [
+    {
+     "name": "Donald McClymont",
+     "title": "CEO",
+     "email": "mccly@indie.inc",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/donald-mcclymont-7b1470",
+     "location": "Dana Point, United States"
+    },
+    {
+     "name": "Marty Agan",
+     "title": "Director of Marketing",
+     "email": "marty.agan@indie.inc",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/martyagan",
+     "location": "Mountain View, United States"
+    },
+    {
+     "name": "Dena Pardi",
+     "title": "Senior Director, Global Communications",
+     "email": "dena.pardi@indie.inc",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/dena-pardi-40492b3a",
+     "location": "Woburn, United States"
+    },
+    {
+     "name": "Yehia Beydoun",
+     "title": "Director of Product Line Marketing",
+     "email": "yehia.beydoun@indiesemi.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/yehia",
+     "location": "Lake Forest, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Innoviz Technologies",
+   "people": [
+    {
+     "name": "Elad Hofstetter",
+     "title": "Chief Business Officer",
+     "email": "eladh@innoviz-tech.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/elad-hofstetter-225a5214",
+     "location": "Israel"
+    },
+    {
+     "name": "Efrat Lavi",
+     "title": "Marketing Director",
+     "email": "efrat.rotemlavi@innoviz-tech.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/efrat-rotem-lavi-70a79841",
+     "location": "Israel"
+    },
+    {
+     "name": "Jeremie Kletzkine",
+     "title": "VP of Business Development",
+     "email": "jeremie.kletzkine@innoviz-tech.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jerem",
+     "location": "Israel"
+    },
+    {
+     "name": "Eric Bueman",
+     "title": "Director, Technical Sales (All Things Security)",
+     "email": "eric.bueman@innoviz-tech.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/saasvpsales",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Amkor Technology",
+   "people": [
+    {
+     "name": "Francesco Condorelli",
+     "title": "Director | Marketing | Automotive | Industrial | Member of Corporate Development Office",
+     "email": "francesco.condorelli@amkor.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Ariel Hu",
+     "title": "Deputy Director, Sales and Marketing",
+     "email": "ariel.hu@amkor.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Troy Lin",
+     "title": "Director of Product Marketing",
+     "email": "troy.lin@amkor.com",
+     "role": "cro"
+    },
+    {
+     "name": "Andrei Berar",
+     "title": "Sr. Director Test Business Development",
+     "email": "andrei.berar@amkor.com",
+     "role": "field_marketing"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,432 @@
+{
+ "rows": [
+  {
+   "brand": "Fidium",
+   "people": [
+    {
+     "name": "Dan Sumner",
+     "title": "Chief Marketing Officer",
+     "email": "daniel.sumner@fidium.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/dan-sumner",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Meghan Woodlief",
+     "title": "Vice President Marketing",
+     "email": "meghan.woodlief@fidium.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/meghanbwoodlief",
+     "location": "Raleigh, United States"
+    },
+    {
+     "name": "Heather Anderson",
+     "title": "Brand Director",
+     "email": "heather.anderson@fidium.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/heatherforsteranderson",
+     "location": "Charlotte, United States"
+    },
+    {
+     "name": "Kirstin Toms",
+     "title": "Field Marketing and Sponsorship Manager",
+     "email": "kirstin.toms@fidium.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/kirstintoms",
+     "location": "Lincoln, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Reckitt",
+   "people": [
+    {
+     "name": "Maria",
+     "title": "Area Tech Lead, Sales & Marketing",
+     "email": "maria.mirzaei@reckitt.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Salil Mahajan",
+     "title": "Marketing Lead - Health & Hygiene Ecommerce, Middle East",
+     "email": "salil.mahajan@reckitt.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Waleed Ahmar",
+     "title": "Head of Trade Marketing",
+     "email": "waleed.ahmar@reckitt.com",
+     "role": "cro"
+    },
+    {
+     "name": "Krisztina Papp",
+     "title": "Marketing and Trade Marketing Manager",
+     "email": "krisztina.papp@reckitt.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Prosus",
+   "people": [
+    {
+     "name": "Charlie Pemberton",
+     "title": "Communications Director",
+     "email": "charlie.pemberton@prosus.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Nikky Shah",
+     "title": "Head of Global Communications",
+     "email": "nikky.shah@prosus.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Nicola McGowan",
+     "title": "Chief Communications Officer",
+     "email": "nicola.mcgowan@prosus.com",
+     "role": "cro"
+    },
+    {
+     "name": "Lisa Price",
+     "title": "Senior Communications Lead",
+     "email": "lisa.price@prosus.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Target",
+   "people": [
+    {
+     "name": "Mark Weinstein",
+     "title": "EVP & Chief Marketing and Guest Experience Officer",
+     "email": "mark.weinstein@target.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/markaweinstein",
+     "location": "United States"
+    },
+    {
+     "name": "Rakesh Mishra",
+     "title": "Sr. Vice President Marketing & Digital",
+     "email": "rakesh.mishra@target.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/rakesh-mishra-02419043",
+     "location": "Bengaluru, India"
+    },
+    {
+     "name": "Melissa Arulappan",
+     "title": "Director Communications",
+     "email": "melissa.arulappan@target.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/marulappan",
+     "location": "Bengaluru, India"
+    },
+    {
+     "name": "Anita Namanya",
+     "title": "Senior Director, Enterprise Partnerships",
+     "email": "anita.namanya@target.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/anita-namanya-a7628114",
+     "location": "Minneapolis, United States"
+    }
+   ]
+  },
+  {
+   "brand": "United Rentals",
+   "people": [
+    {
+     "name": "Rob Halsey",
+     "title": "Head of Marketing",
+     "email": "rhalsey@unitedrentals.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/robhalsey",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Scott Weaver",
+     "title": "VP Business Development & Marketing",
+     "email": "sweaver@ur.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/scott-weaver-47445839",
+     "location": "Houston, United States"
+    },
+    {
+     "name": "Courtney Versteeg",
+     "title": "Head of Digital Marketing and eCommerce",
+     "email": "crose2@ur.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/courtneyrose",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Christopher Cox",
+     "title": "Director, National Sports and Event Partnerships",
+     "email": "ccox@ur.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/christopher-cox-77263a11",
+     "location": "Rochester, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Whirlpool",
+   "people": [
+    {
+     "name": "Lorenzo Masiello",
+     "title": "CMO",
+     "email": "lorenzo_masiello_snce@whirlpool.com",
+     "role": "decision_maker",
+     "linkedin": "",
+     "location": ""
+    },
+    {
+     "name": "Michael Gross",
+     "title": "Senior Vice President, Brands and Product - Business Units",
+     "email": "michael_r_gross@whirlpool.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/mrgrossjr",
+     "location": "Saint Joseph, United States"
+    },
+    {
+     "name": "Josh Weichhand",
+     "title": "Head of Brand, US - KitchenAid",
+     "email": "josh_weichhand@whirlpool.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/joshweichhand",
+     "location": "Benton Harbor, United States"
+    },
+    {
+     "name": "Lauren Bigger",
+     "title": "Director, Integrated Brand Marketing",
+     "email": "lauren.bigger@whirlpool.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lauren-bigger",
+     "location": "Saint Joseph, United States"
+    }
+   ]
+  },
+  {
+   "brand": "JUUL",
+   "people": [
+    {
+     "name": "Walter Arnold",
+     "title": "Senior Vice President, Global Brand & Consumer Experience",
+     "email": "walter.arnold@juul.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/walter-arnold-8738873",
+     "location": "United States"
+    },
+    {
+     "name": "Chris Rice",
+     "title": "Senior Director, Global Brand & Creative",
+     "email": "crice@juul.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/chris-rice",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Kristin Parslow",
+     "title": "Product Marketing Director",
+     "email": "kristin.li@juul.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/kristin-li-parslow-9989143a",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Ahmad Kharrat",
+     "title": "Head of Marketing MENA & Turkey",
+     "email": "akharrat@juul.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/ahmad-kharrat-8464b51a",
+     "location": "Jordan"
+    }
+   ]
+  },
+  {
+   "brand": "Adevinta",
+   "people": [
+    {
+     "name": "Martijn Van Geelen",
+     "title": "CCO Marktplaats, 2dehands/2ememain",
+     "email": "martijn.vangeelen@adevinta.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mvangeelen",
+     "location": "Amsterdam, Netherlands"
+    },
+    {
+     "name": "Vaishali Lakhanpal",
+     "title": "Global Director Corporate Communications",
+     "email": "vaishali.lakhanpal@adevinta.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/vaishali-lakhanpal",
+     "location": "Netherlands"
+    },
+    {
+     "name": "Nicola Heckl",
+     "title": "Global Strategic Partnerships Lead",
+     "email": "nicola.heckl@adevinta.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/nicola-heckl",
+     "location": "Barcelona, Spain"
+    },
+    {
+     "name": "Andrea Hoeschler",
+     "title": "Marketing Lead",
+     "email": "andrea.hoeschler@adevinta.com",
+     "role": "field_marketing",
+     "linkedin": "",
+     "location": ""
+    }
+   ]
+  },
+  {
+   "brand": "Kohlberg Kravis Roberts & Co",
+   "people": [
+    {
+     "name": "Kimberly Supersano",
+     "title": "Managing Director, Co-Head of Global Marketing | Chief Marketing Officer, Global Atlantic",
+     "email": "kimberly.supersano@kkr.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kimberly-supersano",
+     "location": "Shelton, United States"
+    },
+    {
+     "name": "Karin Zauderer",
+     "title": "Managing Director, Head of Marketing",
+     "email": "karin.zauderer@kkr.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/karin-zauderer-94b4884",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Alison Lazzaro",
+     "title": "SVP, Head of Brand & Corporate Marketing",
+     "email": "alison.lazzaro@kkr.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/alison-harris-lazzaro-4656282",
+     "location": "New Providence, United States"
+    },
+    {
+     "name": "Kristi Huller",
+     "title": "Director of Communications, Americas, Kohlberg Kravis Roberts & Co.",
+     "email": "kristi.huller@kkr.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/kristi-huller-9b5aa8",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Mercer Advisors",
+   "people": [
+    {
+     "name": "Gary Foodim",
+     "title": "Chief Marketing Officer & Shareholder",
+     "email": "gfoodim@merceradvisors.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/garyfoodim",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Stacy Orff",
+     "title": "Vice President of Platform Marketing",
+     "email": "sorff@merceradvisors.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/stacyorff",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Doug Fabian",
+     "title": "Executive Vice President, Business Development",
+     "email": "doug.fabian@merceradvisors.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/doug-fabian-1341918",
+     "location": "Santa Barbara, United States"
+    },
+    {
+     "name": "Joshua Zumbrun",
+     "title": "Director, External Communications",
+     "email": "jzumbrun@merceradvisors.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/zumbrun",
+     "location": "Washington, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Osaic",
+   "people": [
+    {
+     "name": "Catherine Beheler",
+     "title": "Vice President, Growth Marketing",
+     "email": "catherine.beheler@osaic.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/catherine-beheler",
+     "location": "Charlotte, United States"
+    },
+    {
+     "name": "Jordan Mapes",
+     "title": "Head of Digital Marketing",
+     "email": "jordan.mapes@osaic.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jordanmapes",
+     "location": "Omaha, United States"
+    },
+    {
+     "name": "Matthew Sienkowski",
+     "title": "VP of Strategic Business Development",
+     "email": "matthew.sienkowski@osaic.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/matthew-sienkowski-13072450",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Chelsey Duncan",
+     "title": "VP, Advisor and Executive Communications & Head of PR",
+     "email": "chelsey.duncan@osaic.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/chelseyduncan",
+     "location": "Omaha, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Praxis Precision Medicines",
+   "people": [
+    {
+     "name": "Marcio Souza",
+     "title": "President and CEO",
+     "email": "msouza@praxismedicines.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/marcio-souza-2b02837",
+     "location": "Bedminster Township, United States"
+    },
+    {
+     "name": "Carol Clark",
+     "title": "Head of Marketing",
+     "email": "cclark@praxismedicines.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/carol-clark-2949605",
+     "location": "Westport, United States"
+    },
+    {
+     "name": "Erik Johnson",
+     "title": "Head of Commercial",
+     "email": "ejohnson@praxismedicines.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/erik-johnson-162191",
+     "location": "Pennington, United States"
+    },
+    {
+     "name": "John Bullock",
+     "title": "Senior Vice President, Head of Sales",
+     "email": "jbullock@praxismedicines.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/john-bullock-a553b859",
+     "location": "Wake Forest, United States"
+    }
+   ]
+  }
+ ]
+}

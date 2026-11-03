@@ -1,0 +1,70 @@
+{
+ "rows": [
+  {
+   "brand": "Replit",
+   "people": [
+    {
+     "name": "Ghazi Masood",
+     "title": "Chief Revenue Officer",
+     "email": "ghazi.masood@replit.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ghazi-masood-09195a2",
+     "location": "Seattle, Washington, United States"
+    },
+    {
+     "name": "Nick Silver",
+     "title": "Vice President Marketing",
+     "email": "nick.silver@replit.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/nicksilver",
+     "location": "San Francisco, California, United States"
+    },
+    {
+     "name": "Jeff Burke",
+     "title": "VP of Business Development and Partnerships",
+     "email": "jeff@repl.it",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/burke-jeff",
+     "location": "San Francisco, California, United States"
+    },
+    {
+     "name": "Philipp Dietz",
+     "title": "Head of Brand & Creative",
+     "email": "philipp.dietz@replit.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/philippdietz",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "Sharpa",
+   "people": [
+    {
+     "name": "Bing Peng",
+     "title": "Marketing Director",
+     "email": "bing.peng@sharpa.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Yunfang Yang",
+     "title": "Senior Director of Global Business Development",
+     "email": "yunfang.yang@sharpa.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Xinyu Tong",
+     "title": "Business Development",
+     "email": "xinyu.tong@sharpa.com",
+     "role": "cro"
+    },
+    {
+     "name": "Bryan Zhang",
+     "title": "Business Development Manager",
+     "email": "bryan.zhang@sharpa.com",
+     "role": "field_marketing"
+    }
+   ]
+  }
+ ]
+}

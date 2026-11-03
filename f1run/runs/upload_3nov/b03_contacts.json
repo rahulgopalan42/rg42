@@ -1,0 +1,388 @@
+{
+ "rows": [
+  {
+   "brand": "Bitfarms",
+   "people": [
+    {
+     "name": "Tara Goldstein",
+     "title": "Senior Vice President Marketing",
+     "email": "tgoldstein@keelinfra.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Amanda Ignatius",
+     "title": "Director, Corporate Communications",
+     "email": "aignatius@keelinfra.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Ben Gagnon",
+     "title": "Chief Executive Officer",
+     "email": "bgagnon@bitfarms.com",
+     "role": "cro"
+    },
+    {
+     "name": "Dan Manners",
+     "title": "Director of Corporate Development",
+     "email": "dmanners@keelinfra.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Scale AI",
+   "people": [
+    {
+     "name": "Kevin Hwang",
+     "title": "Head of Growth Marketing",
+     "email": "kevin.hwang@scale.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Philip Guzman",
+     "title": "VP of Marketing",
+     "email": "philip.deguzman@scale.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Amulya Vadrevu",
+     "title": "Product Marketing Lead, Gen AI",
+     "email": "amulya.vadrevu@scale.com",
+     "role": "cro"
+    },
+    {
+     "name": "Rebecca Woerner",
+     "title": "Senior Director of Events & Field Marketing",
+     "email": "rebecca.woerner@scale.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Aspen Technology, Inc.",
+   "people": [
+    {
+     "name": "Scott Nordstrom",
+     "title": "Vice President Marketing",
+     "email": "scott.nordstrom@aspentech.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/snordstrom",
+     "location": "Austin, United States"
+    },
+    {
+     "name": "Angela Kourtidou",
+     "title": "Sr. Marketing Director | MEA, Europe and Caspian Region",
+     "email": "angela.kourtidou@aspentech.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/angela-kourtidou-57068b18",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Michael Verma",
+     "title": "VP, High Velocity Sales",
+     "email": "michael.verma@aspentech.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/michael-verma-8b32885",
+     "location": "Houston, United States"
+    },
+    {
+     "name": "Ron Beck",
+     "title": "Senior Director, SSE Product Group Marketing; Also Solutions Marketing for AI and Sustainability",
+     "email": "ron.beck@aspentech.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/ronbeck1",
+     "location": "Boston, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Advanced (OneAdvanced)",
+   "people": [
+    {
+     "name": "Sally Scott",
+     "title": "Chief Marketing & ESG Officer",
+     "email": "sally.scott@oneadvanced.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Stephanie Cmcim",
+     "title": "Marketing Director",
+     "email": "stephanie.lawrence@oneadvanced.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Giles Hall",
+     "title": "Marketing Director",
+     "email": "giles.hall@oneadvanced.com",
+     "role": "cro"
+    },
+    {
+     "name": "Maria Mullarkey",
+     "title": "Head of Product Marketing",
+     "email": "maria.mullarkey@oneadvanced.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Telegram",
+   "people": []
+  },
+  {
+   "brand": "UL Solutions",
+   "people": [
+    {
+     "name": "Corinne Chocolaad",
+     "title": "Vice President Marketing",
+     "email": "corinne.chocolaad@ul.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/chocolaadconsulting",
+     "location": "Geneva, Switzerland"
+    },
+    {
+     "name": "Jeremy Verstraete",
+     "title": "Vice President, Marketing",
+     "email": "jeremy.verstraete@ul.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jeremyverstraete",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Mark Rossolo",
+     "title": "Global Director, Partnerships",
+     "email": "mark.rossolo@ul.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/mark-rossolo-8a35b05",
+     "location": "Portland, United States"
+    },
+    {
+     "name": "Lee King",
+     "title": "Director of Brand Activation and Customer Experience",
+     "email": "lee.king@ul.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lee-a-king",
+     "location": "Charlotte, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Viasat",
+   "people": [
+    {
+     "name": "Michelle Munoz-Talcott",
+     "title": "Vice President, Marketing Viasat Commercial Services",
+     "email": "michelle.munoz-talcott@viasat.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Isabella Lenhoff",
+     "title": "Director of Commercial Aviation Marketing",
+     "email": "isabella.lenhoff@viasat.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Michel Rocha",
+     "title": "Director of Marketing, Strategy & Product Management",
+     "email": "michel.rocha@viasat.com",
+     "role": "cro"
+    },
+    {
+     "name": "Robeel Haq",
+     "title": "Director of Marketing & Communications, Business Aviation",
+     "email": "robeel.haq@viasat.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "WiseTech Global",
+   "people": [
+    {
+     "name": "Stephen Murdoch",
+     "title": "Global Head of Marketing",
+     "email": "stephen.murdoch@wisetechglobal.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/stephen-murdoch-3a618140",
+     "location": "Sydney, Australia"
+    },
+    {
+     "name": "Marijana Okanovic",
+     "title": "Head of Corporate Communications",
+     "email": "marijana.okanovic@wisetechglobal.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/marijana-o-88ba3964",
+     "location": "Sydney, Australia"
+    },
+    {
+     "name": "Stuart Mann",
+     "title": "Director \u2013 Strategic Accounts",
+     "email": "stuart.mann@wisetechglobal.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/stuartmann1975",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Celine Gouriou",
+     "title": "Director, Commercial Marketing - E2open",
+     "email": "celine.gouriou@wisetechglobal.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/celinegouriou",
+     "location": "Munich, Germany"
+    }
+   ]
+  },
+  {
+   "brand": "Digital Asset",
+   "people": [
+    {
+     "name": "Jonathan Isaac",
+     "title": "Chief Marketing Officer",
+     "email": "jonathan.isaac@digitalasset.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Vivek Srivastava",
+     "title": "Director of Customer and Network Growth",
+     "email": "vivek.srivastava@digitalasset.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Paul Patella",
+     "title": "Head of Strategic Communications",
+     "email": "paul.patella@digitalasset.com",
+     "role": "cro"
+    },
+    {
+     "name": "James Webb",
+     "title": "Head of Partnerships - EMEA",
+     "email": "james.webb@digitalasset.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Playlist",
+   "people": [
+    {
+     "name": "Emma Galli",
+     "title": "VP, Global Brand & Creative",
+     "email": "emma.galli@playlist.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Henry Rose",
+     "title": "Sr Director, Engineering - Growth Pillar",
+     "email": "henry.rose@playlist.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Dustin Duffy",
+     "title": "Director of Design, Consumer, Growth, & ClassPass",
+     "email": "dustin.duffy@playlist.com",
+     "role": "cro"
+    },
+    {
+     "name": "Martin Engert",
+     "title": "Payments Lead \u2014 Platform BizOps & Partnerships (Sr. Program Manager)",
+     "email": "martin.engert@playlist.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Propel Holdings",
+   "people": [
+    {
+     "name": "Noah Buchman",
+     "title": "Co-Founder; President and Chief Revenue Officer",
+     "email": "noah.buchman@moneykey.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/noah-buchman-bbb3079",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Jeanne Lam",
+     "title": "SVP Growth & Global Marketing",
+     "email": "jeanne.lam@propelholdings.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jeannehwanglam",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Lindsay Finneran-Gingras",
+     "title": "Vice President, Communications",
+     "email": "lindsay.finneran-gingras@propelholdings.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/lindsayfinnerangingras",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Finhas Jhaveri",
+     "title": "Director, Customer Acquisition Marketing",
+     "email": "finhas.jhaveri@propelholdings.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/finhasj",
+     "location": "Pickering, Canada"
+    }
+   ]
+  },
+  {
+   "brand": "Ripple / XRP Ledger",
+   "people": [
+    {
+     "name": "Kiersten Hollars",
+     "title": "SVP, Corporate Marketing & Communications",
+     "email": "khollars@ripple.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Polina Polishchuk",
+     "title": "Senior Director, Growth Marketing",
+     "email": "ppolishchuk@ripple.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Amy Huber",
+     "title": "Director, Corporate Brand Marketing",
+     "email": "ahirth@ripple.com",
+     "role": "cro"
+    },
+    {
+     "name": "Tessa Imbrie",
+     "title": "Director, Marketing Strategy and Operations",
+     "email": "timbrie@ripple.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "CDN77",
+   "people": [
+    {
+     "name": "Tomas Bacik",
+     "title": "VP of Sales and Client Solutions",
+     "email": "tomas.bacik@cdn77.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Anna Selecka",
+     "title": "Online Marketing",
+     "email": "anna.selecka@cdn77.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Tereza Mlynek",
+     "title": "CPO and Business Development Partner",
+     "email": "tereza.mlynek@cdn77.com",
+     "role": "cro"
+    },
+    {
+     "name": "Matej Smrcek",
+     "title": "Marketing Specialist",
+     "email": "matej.smrcek@cdn77.com",
+     "role": "field_marketing"
+    }
+   ]
+  }
+ ]
+}

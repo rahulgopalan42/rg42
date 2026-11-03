@@ -1,0 +1,400 @@
+{
+ "rows": [
+  {
+   "brand": "Amphenol",
+   "people": [
+    {
+     "name": "Kyle Kruse",
+     "title": "Growth Marketing and Communications Director",
+     "email": "kkruse@amphenol-aio.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Hasan Keskin",
+     "title": "Director of Business Development and Marketing, Turkiye & Middle East",
+     "email": "keskin@amphenol.com.tr",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Barb Lent",
+     "title": "Director, Sales and Marketing",
+     "email": "barbl@amphenolcanada.com",
+     "role": "cro"
+    },
+    {
+     "name": "Dan Gorsage",
+     "title": "Director of Global Account Sales & New Business Development",
+     "email": "dan.gorsage@amphenolmcp.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Microchip Technology",
+   "people": [
+    {
+     "name": "Martin Mainini",
+     "title": "Associate Director Product Management, Marketing and Strategy",
+     "email": "martin.mainini@microchip.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Douglas Anderson",
+     "title": "Associate Director \u2013 Business Development & Marketing | High-Power Solutions Business Unit",
+     "email": "doug.anderson@microchip.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Jennifer Gaetano",
+     "title": "Associate Director, Integrated Global Corporate Marketing Communications",
+     "email": "jennifer.gaetano@microchip.com",
+     "role": "cro"
+    },
+    {
+     "name": "Diane Tosetti",
+     "title": "Assoc. Director of Marketing",
+     "email": "diane.tosetti@microchip.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "onsemi",
+   "people": [
+    {
+     "name": "Felicity Carson",
+     "title": "Chief Marketing Officer",
+     "email": "felicity.carson@onsemi.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Carlotta Castillo",
+     "title": "Head of Global Brand Marketing & Communications",
+     "email": "carlotta.castillo@onsemi.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Kris Casey",
+     "title": "Vice President Global Marketing - Power Solutions Group",
+     "email": "kris.casey@onsemi.com",
+     "role": "cro"
+    },
+    {
+     "name": "Atul Patel",
+     "title": "Director of Marketing",
+     "email": "atul.patel@onsemi.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Infineon Technologies",
+   "people": [
+    {
+     "name": "Susanne Kochs",
+     "title": "Vice President Corporate Marketing & Brand Communications",
+     "email": "susanne.kochs@infineon.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/susanne-kochs-84a85ab1",
+     "location": "Bavaria, Germany"
+    },
+    {
+     "name": "Sam Wheatley",
+     "title": "Global Director of Marketing Communications, Campaign Management",
+     "email": "sam.wheatley@infineon.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/samanthaswheatley",
+     "location": "San Francisco, California, United States"
+    },
+    {
+     "name": "Melanie Spiegler",
+     "title": "Director Strategy & Partnerships",
+     "email": "melanie.spiegler@infineon.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/melanie-spiegler-6920a1189",
+     "location": "Munich, Bavaria, Germany"
+    },
+    {
+     "name": "Christoph Schumacher",
+     "title": "Director Communications",
+     "email": "christoph.schumacher@infineon.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/christoph-schumacher-infineon",
+     "location": "Berlin, Germany"
+    }
+   ]
+  },
+  {
+   "brand": "TSMC",
+   "people": [
+    {
+     "name": "Ketan Joshi",
+     "title": "Head of Ecosystem Marketing",
+     "email": "kjoshia@tsmc.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Peter Chen",
+     "title": "Vice President, China Business Development",
+     "email": "peter_chen@tsmc.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Jian Chen",
+     "title": "Director of Business Development",
+     "email": "jian_chen@tsmc.com",
+     "role": "cro"
+    },
+    {
+     "name": "Lawrence Chen",
+     "title": "Deputy Director Business Development",
+     "email": "lawrence_chen@tsmc.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Midea Group",
+   "people": [
+    {
+     "name": "Nancy Liu",
+     "title": "Head of Corporate Brand Building & Management",
+     "email": "nancy.liu@midea.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/nancy-liu-a8880635",
+     "location": "Guangdong, China"
+    },
+    {
+     "name": "Alfonso Roman Martinez",
+     "title": "Head of Marketing Europe",
+     "email": "alfonso.roman@midea.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/alfonsoromanmartinez",
+     "location": "Madrid, Community of Madrid, Spain"
+    },
+    {
+     "name": "Syed Mehdi",
+     "title": "Head of Commercial",
+     "email": "syed.mehdi@midea.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/syed-azhar-mehdi-95869340",
+     "location": "Dubai, United Arab Emirates"
+    },
+    {
+     "name": "Heba Gamal",
+     "title": "Head of Marketing Communications",
+     "email": "heba.gamal@midea.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/hgamal",
+     "location": "Giza, Giza Governorate, Egypt"
+    }
+   ]
+  },
+  {
+   "brand": "NXP Semiconductors",
+   "people": [
+    {
+     "name": "Birgit Ahlborn",
+     "title": "Vice President Marketing & Communications",
+     "email": "birgit.ahlborn@nxp.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Huanyu Gu",
+     "title": "Director Product Marketing and Business Development",
+     "email": "huanyu.gu@nxp.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Victor Sestrevatovsky",
+     "title": "Head of East EU Region (Sales & Marketing, Business Development)",
+     "email": "victor.sestrevatovsky@nxp.com",
+     "role": "cro"
+    },
+    {
+     "name": "Gabor Veroci",
+     "title": "Head of Business Development",
+     "email": "gabor.veroci@nxp.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Copeland",
+   "people": [
+    {
+     "name": "Paul Mottershead",
+     "title": "VP Global Marketing and Communications",
+     "email": "paul.mottershead@copeland.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/paulmottershead",
+     "location": "Saint Charles, Missouri, United States"
+    },
+    {
+     "name": "Sylvain Lamy",
+     "title": "Vice President Marketing",
+     "email": "sylvain.lamy@copeland.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sylvain-lamy-8a83701",
+     "location": "Aachen, North Rhine-Westphalia, Germany"
+    },
+    {
+     "name": "Michael Niemeyer",
+     "title": "Vice President - Global Programs & Business Development",
+     "email": "michael.niemeyer@copeland.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/michael-j-niemeyer",
+     "location": "Dayton, Ohio, United States"
+    },
+    {
+     "name": "Laura Paradas",
+     "title": "Vice President Global Communications",
+     "email": "laura.paradas@copeland.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/laura-paradas",
+     "location": "Charlotte, North Carolina, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Columbus McKinnon Corporation",
+   "people": [
+    {
+     "name": "Gregory Licausi",
+     "title": "Vice President, Commercial Strategy",
+     "email": "gregory.licausi@cmco.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/gregorylicausi",
+     "location": "Charlotte, United States"
+    },
+    {
+     "name": "Lindsey Muchka",
+     "title": "Director of Marketing, Americas",
+     "email": "lindsey.muchka@cmco.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/lindseymuchka",
+     "location": "Nashotah, United States"
+    },
+    {
+     "name": "Steve Pencil",
+     "title": "Director of Business Development",
+     "email": "steve.pencil@cmworks.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/pencil-steve-bb177263",
+     "location": "Lebanon, United States"
+    },
+    {
+     "name": "Christie Lagowski",
+     "title": "Director Global Communications",
+     "email": "christie.lagowski@cmworks.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/christielagowski",
+     "location": "Lancaster, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Viavi Solutions",
+   "people": [
+    {
+     "name": "Sian Cummings",
+     "title": "Vice President, Viavi Global Marketing",
+     "email": "sian.cummings@viavisolutions.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/sian-cummings-6926442",
+     "location": "Denver, Colorado, United States"
+    },
+    {
+     "name": "Stephen Hire",
+     "title": "Vice President, Wireless Marketing",
+     "email": "stephen.hire@viavisolutions.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/stephenhire",
+     "location": "Hong Kong"
+    },
+    {
+     "name": "Jurrie Van Den Breekel",
+     "title": "VP Presales & Partnerships",
+     "email": "jurrie.vandenbreekel@viavisolutions.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jurrievandenbreekel",
+     "location": "Calabasas, California, United States"
+    },
+    {
+     "name": "Peter Halverson",
+     "title": "Global Vice President of Sales and Business Development - Wireless Business Unit",
+     "email": "peter.halverson@viavisolutions.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/peter-d-halverson",
+     "location": "Dallas, Texas, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Diodes",
+   "people": [
+    {
+     "name": "Gurmeet Dhaliwal",
+     "title": "Head of Corporate Marketing & Investor Relations",
+     "email": "gurmeet_dhaliwal@diodes.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/dhaliwal",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Johnny Chang",
+     "title": "Director of Marketing & Business Development",
+     "email": "johnny_chang@diodes.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/johnny-chang-07712628",
+     "location": "Sunnyvale, United States"
+    },
+    {
+     "name": "Mandy Hsu",
+     "title": "Asia Marketing Director",
+     "email": "mandy_hsu@diodes.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/mandy-hsu-567812119",
+     "location": "Taipei, Taiwan"
+    },
+    {
+     "name": "Anup Sidhu",
+     "title": "Director Business Development",
+     "email": "anup_sidhu@diodes.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/anup-sidhu-b9a0a511",
+     "location": "Fremont, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Texas Instruments",
+   "people": [
+    {
+     "name": "Agnes Szucs",
+     "title": "EMEA & India Brand Marketing and Communications Director",
+     "email": "a-szucs@ti.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Samantha Lee",
+     "title": "Global Brand Marketing Director",
+     "email": "s.lee@ti.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Jennifer Cheng",
+     "title": "Director, Brand Marketing & Communications - Japan, Korea, Taiwan and South Asia",
+     "email": "jennifer-cheng@ti.com",
+     "role": "cro"
+    },
+    {
+     "name": "Hanfland Anita",
+     "title": "Head of Business & Marketing Strategy",
+     "email": "anita@ti.com",
+     "role": "field_marketing"
+    }
+   ]
+  }
+ ]
+}

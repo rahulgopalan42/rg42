@@ -1,0 +1,441 @@
+{
+ "rows": [
+  {
+   "brand": "Relativity",
+   "people": [
+    {
+     "name": "Cristina Rossman",
+     "title": "Chief Marketing Officer",
+     "email": "cristina.rossman@relativity.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Jacque Flaherty",
+     "title": "Marketing Director, Brand Strategy",
+     "email": "jacque.flaherty@relativity.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Rocco Sannelli",
+     "title": "Senior Director Growth Marketing",
+     "email": "rocco.sannelli@relativity.com",
+     "role": "cro"
+    },
+    {
+     "name": "Janet Brown",
+     "title": "Vice President, Product and Segment Marketing",
+     "email": "janet.brown@relativity.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "SiFive",
+   "people": [
+    {
+     "name": "Martyn Stroeve",
+     "title": "Vice President of Corporate Marketing and Communications (Chief Marketing Officer)",
+     "email": "martyn.stroeve@sifive.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Jack Kang",
+     "title": "Senior Vice President, Business Development, Customer Experience (CX), Corporate Marketing",
+     "email": "jack@sifive.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Marisa Ahmad",
+     "title": "Product Marketing Director",
+     "email": "marisa.ahmad@sifive.com",
+     "role": "cro"
+    },
+    {
+     "name": "Clifton Robin",
+     "title": "Director Technical Product Marketing",
+     "email": "clifton.robin@sifive.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "MatX",
+   "people": [
+    {
+     "name": "Reiner Pope",
+     "title": "Founder and CEO",
+     "email": "reiner@matx.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/reiner-pope-08064345",
+     "location": "Mountain View, United States"
+    },
+    {
+     "name": "Mike Gunter",
+     "title": "Founder and CTO, MatX",
+     "email": "mike@matx.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/mike-gunter-0bb3228b",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Erez Shaizaf",
+     "title": "Chief Operating Officer",
+     "email": "erez@matx.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/erez-shaizaf-0327494b",
+     "location": "South District, Israel"
+    }
+   ]
+  },
+  {
+   "brand": "Nearfield Instruments",
+   "people": [
+    {
+     "name": "Lior Levin",
+     "title": "Director of Technical Marketing",
+     "email": "lior.levin@nearfieldinstruments.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Roland Van Vliet",
+     "title": "Chief Partnership Officer / Chief of Staff",
+     "email": "roland.vanvliet@nearfieldinstruments.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Hiroki Ikeda",
+     "title": "Sales VP & Country Manager",
+     "email": "hiroki.ikeda@nearfieldinstruments.com",
+     "role": "cro"
+    },
+    {
+     "name": "Bhartendu Dwivedi",
+     "title": "Senior Product Marketing Manager",
+     "email": "bhartendu.dwivedi@nearfieldinstruments.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Soitec",
+   "people": [
+    {
+     "name": "Jerome Fohet",
+     "title": "Director Marketing and Communications",
+     "email": "jerome.fohet@soitec.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Travis Heng",
+     "title": "Head of Strategic Marketing",
+     "email": "travis.heng@gigadevice.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Yvan Morandini",
+     "title": "Head of Strategic Marketing",
+     "email": "yvan.morandini@soitec.com",
+     "role": "cro"
+    },
+    {
+     "name": "Julien Martin",
+     "title": "Strategic Marketing Director Asia",
+     "email": "julien.martin@soitec.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Synchron",
+   "people": [
+    {
+     "name": "Thomas Oxley",
+     "title": "CEO",
+     "email": "toxley@synchron.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/tomoxl",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Martin Dieck",
+     "title": "Chairman",
+     "email": "mdieck@synchron.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/martin-dieck-46798710",
+     "location": "Palo Alto, United States"
+    },
+    {
+     "name": "Kurt Haggstrom",
+     "title": "Chief Commercial Officer (CCO)",
+     "email": "khaggstrom@synchron.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/kurt-haggstrom",
+     "location": "San Diego, United States"
+    }
+   ]
+  },
+  {
+   "brand": "CentralSquare",
+   "people": [
+    {
+     "name": "Ron Anderson",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "ronald.anderson@centralsquare.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ron-anderson-0816a44",
+     "location": "Orlando, United States"
+    },
+    {
+     "name": "Colin Ruane",
+     "title": "Director, Product Marketing and Corporate Communications",
+     "email": "colin.ruane@centralsquare.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/colin-ruane-6472ba10",
+     "location": "Sudbury, United States"
+    },
+    {
+     "name": "Meagan McAlexander",
+     "title": "Director, Customer Marketing",
+     "email": "meagan.mcalexander@centralsquare.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/meagan-mcalexander",
+     "location": "Holly Springs, United States"
+    },
+    {
+     "name": "Jennifer Culbertson",
+     "title": "Director of Product Marketing",
+     "email": "jennifer.culbertson@centralsquare.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jenniferculbertson1",
+     "location": "Palm Beach Gardens, United States"
+    }
+   ]
+  },
+  {
+   "brand": "VisionPower Semiconductor",
+   "people": []
+  },
+  {
+   "brand": "IQM Quantum Computers",
+   "people": [
+    {
+     "name": "Sylwia Weydenthal",
+     "title": "Chief Commercial Officer (CCO)",
+     "email": "sylwia.deweydenthal@meetiqm.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/sylwiadew2",
+     "location": "Warsaw, Poland"
+    },
+    {
+     "name": "Emilia Stuart",
+     "title": "B2B Deep Tech Marketing Leader",
+     "email": "emilia.stuart@iqm.tech",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/emilia-stuart-908684138",
+     "location": "Helsinki, Finland"
+    },
+    {
+     "name": "Manousos Markoutsakis",
+     "title": "Senior Business Development Manager, IQM Quantum Computers",
+     "email": "manousos@iqm.tech",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/manousos",
+     "location": "Stuttgart, Germany"
+    },
+    {
+     "name": "Cait Freda",
+     "title": "Senior Communications Manager",
+     "email": "caitlyn.freda@iqm.tech",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/caitfreda",
+     "location": "Baltimore, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Winbond Electronics",
+   "people": [
+    {
+     "name": "Jackson Huang",
+     "title": "VP of Marketing",
+     "email": "jhuang@winbond.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jacksonchuang",
+     "location": "San Jose, United States"
+    },
+    {
+     "name": "FJ Huang",
+     "title": "Marketing Director",
+     "email": "fjhuang@winbond.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/fj-huang-64a36078",
+     "location": "Taiwan"
+    },
+    {
+     "name": "Pei-Ming Chen",
+     "title": "VP, Sales",
+     "email": "pmchen@winbond.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/pei-ming-chen-24b31074",
+     "location": "Taiwan"
+    },
+    {
+     "name": "Seong An",
+     "title": "Technical Marketing Director",
+     "email": "shan@winbond.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/seong-ho-an-734376b",
+     "location": "Santa Clara, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Bel Fuse",
+   "people": [
+    {
+     "name": "Ian Warner",
+     "title": "Vice President of Business Development",
+     "email": "ian.warner@belf.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ian-warner-67502615",
+     "location": "Los Angeles, United States"
+    },
+    {
+     "name": "Kelly Wigginton",
+     "title": "Sr. Director of Marketing",
+     "email": "kelly.wigginton@belf.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kellywigginton",
+     "location": "Portland, United States"
+    },
+    {
+     "name": "Andy Calloway",
+     "title": "Vice President of Sales - North America - Aerospace, Defense, & Rugged Solutions",
+     "email": "andy.calloway@us.cinch.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/andy-calloway-78bab7a",
+     "location": "Chattanooga, United States"
+    },
+    {
+     "name": "Frank Vondenhoff",
+     "title": "Global Director eMobility, Product & Business Development",
+     "email": "frank.vondenhoff@belf.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/frank-vondenhoff",
+     "location": "Hoofddorp, Netherlands"
+    }
+   ]
+  },
+  {
+   "brand": "Exosens",
+   "people": [
+    {
+     "name": "Frederic Aubrun",
+     "title": "Senior VP Sales and Marketing WW",
+     "email": "f.aubrun@exosens.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/frederic-aubrun-1a63182",
+     "location": "Portland, United States"
+    },
+    {
+     "name": "Sarah Montella",
+     "title": "Director of Marketing Advanced Imaging",
+     "email": "s.montella@exosens.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sarah-montella",
+     "location": "Heerlen, Netherlands"
+    },
+    {
+     "name": "Evert Van Gelder",
+     "title": "Vice President of Global Sales and Business Development",
+     "email": "e.vangelder@photonis.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/evert-van-gelder-171293",
+     "location": "Netherlands"
+    },
+    {
+     "name": "Marc Larive",
+     "title": "Director Business Development WW",
+     "email": "m.larive@exosens.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/marc-larive",
+     "location": "Lyon, France"
+    }
+   ]
+  },
+  {
+   "brand": "GrafTech International",
+   "people": [
+    {
+     "name": "Rodrigo Corbari",
+     "title": "VP Sales, Americas",
+     "email": "rodrigo.corbari@graftech.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rodrigo-corbari-766bab35",
+     "location": "Youngstown, United States"
+    },
+    {
+     "name": "Lisa Chen",
+     "title": "Marketing Manager",
+     "email": "lisa.chen@graftech.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/lisa-chen-89bb097b",
+     "location": "Beijing, China"
+    },
+    {
+     "name": "Marcos Pujatti",
+     "title": "Commercial Director South America",
+     "email": "marcos.pujatti@graftech.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/marcospujatti",
+     "location": "Belo Horizonte, Brazil"
+    },
+    {
+     "name": "Will Sauer",
+     "title": "Manager, Communications & Sustainability",
+     "email": "william.sauer@graftech.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/willsauer",
+     "location": "Medina, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Oxford Quantum Circuits",
+   "people": [
+    {
+     "name": "Darko Stojkovic",
+     "title": "Chief Operating Officer",
+     "email": "darko@oqc.tech",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/darko-stojkovic-06b5369",
+     "location": "Wokingham, United Kingdom"
+    },
+    {
+     "name": "Iva Vasileva",
+     "title": "Marketing Manager",
+     "email": "ivasileva@oqc.tech",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/iva-vasileva",
+     "location": "Oxford, United Kingdom"
+    },
+    {
+     "name": "Caro Ehrman",
+     "title": "Director of Commercial",
+     "email": "cehrman@oqc.tech",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/caro-ehrman-16636660",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Jessica Cheung",
+     "title": "Head of External Research and Collaborations",
+     "email": "jcheung@oxfordquantumcircuits.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jessica-cheung-94997290",
+     "location": "United Kingdom"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,416 @@
+{
+ "rows": [
+  {
+   "brand": "Wayflyer",
+   "people": [
+    {
+     "name": "Mary Cash",
+     "title": "Head of Partner Marketing, Global",
+     "email": "marykate.cash@wayflyer.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mary-kate-cash",
+     "location": "North Carolina, United States"
+    },
+    {
+     "name": "Richard Pyke",
+     "title": "Senior Director, Global Account Management & Partnerships",
+     "email": "richard.pyke@wayflyer.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/richard-pyke-296301176",
+     "location": "Dublin, Ireland"
+    },
+    {
+     "name": "Conor McCabe",
+     "title": "Senior Director Business Development",
+     "email": "conor.mccabe@wayflyer.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/mccabeconor",
+     "location": "Ireland"
+    },
+    {
+     "name": "Ian Bell",
+     "title": "Senior Sales Director EMEA and US",
+     "email": "ian.bell@wayflyer.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/ianbell2",
+     "location": "Dublin, Ireland"
+    }
+   ]
+  },
+  {
+   "brand": "Cyera",
+   "people": [
+    {
+     "name": "Naveen Palavalli",
+     "title": "Chief Marketing Officer",
+     "email": "naveen@cyera.io",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Jenna Quigley",
+     "title": "Head of Growth Marketing",
+     "email": "jenna.quigley@cyera.io",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Eyal Engel",
+     "title": "Vice President of Technical Product Marketing",
+     "email": "eyal.engel@cyera.io",
+     "role": "cro"
+    },
+    {
+     "name": "Yitzy Tannenbaum",
+     "title": "Director of Product Marketing",
+     "email": "yitzy.tannenbaum@cyera.io",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Eurofiber",
+   "people": [
+    {
+     "name": "Chris Bakx",
+     "title": "Managing Director Group Marketing",
+     "email": "chris.bakx@eurofiber.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/chrisbakx",
+     "location": "Leidschendam, Netherlands"
+    },
+    {
+     "name": "Andrew Edison",
+     "title": "Managing Director Commercial Strategy & Steering",
+     "email": "andrew.edison@eurofiber.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/andrew-edison-49918012",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Marco Bes",
+     "title": "Business Development Director",
+     "email": "marco.bes@eurofiber.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/marcobes",
+     "location": "Bloemendaal, Netherlands"
+    },
+    {
+     "name": "Hans Messemaker",
+     "title": "Director Wholesale & Strategic Partnerships",
+     "email": "hans.messemaker@eurofiber.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/hans-messemaker-0b237a",
+     "location": "South Holland, Netherlands"
+    }
+   ]
+  },
+  {
+   "brand": "Fireworks AI",
+   "people": [
+    {
+     "name": "Christine Dzou",
+     "title": "Head of Growth Marketing",
+     "email": "christine.dzou@fireworks.ai",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Leo Zheng",
+     "title": "Senior Vice President Marketing",
+     "email": "leo@fireworks.ai",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Megan Boone",
+     "title": "VP Revenue Marketing",
+     "email": "megan@fireworks.ai",
+     "role": "cro"
+    },
+    {
+     "name": "Elyse Bartel",
+     "title": "Head of Field Marketing",
+     "email": "elyse@fireworks.ai",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Flexential",
+   "people": [
+    {
+     "name": "Jeff Johnson",
+     "title": "Vice President, Partner Relations",
+     "email": "jeff.johnson@flexential.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jeff-johnson-flexential",
+     "location": "Dallas, United States"
+    },
+    {
+     "name": "Jaime Dumas",
+     "title": "Senior Director, Corporate Marketing",
+     "email": "jaime.dumas@flexential.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jaimelynndumas",
+     "location": "Atlanta, United States"
+    },
+    {
+     "name": "David Flor",
+     "title": "Director, Digital Marketing",
+     "email": "david.flor@flexential.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/davidaflor",
+     "location": "Seattle, United States"
+    },
+    {
+     "name": "Alison Brooker",
+     "title": "Senior Communications Leader",
+     "email": "alison.brooker@flexential.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/alisonebrooker",
+     "location": "Philadelphia, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Isomorphic Labs",
+   "people": [
+    {
+     "name": "Molly Morgan",
+     "title": "Global Head of Communications",
+     "email": "mollymorgan@isomorphiclabs.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mollymorgan",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Mari Barlow",
+     "title": "Brand and Communications Director",
+     "email": "barlowm@isomorphiclabs.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/mari-barlow",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Kinga Bercsenyi",
+     "title": "Director of Business Development",
+     "email": "kingabercsenyi@isomorphiclabs.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/kingabercsenyi",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "John Strafford",
+     "title": "Leading Business Development",
+     "email": "jstrafford@isomorphiclabs.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/john-strafford-18180314",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Joulent",
+   "people": [
+    {
+     "name": "Michael Wortley",
+     "title": "Co-President & CFO",
+     "email": "michael.wortley@joulent.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/michael-wortley-671148237",
+     "location": "Spring, United States"
+    },
+    {
+     "name": "Brian Boland",
+     "title": "EVP, Chief Investment Officer & Head of Strategy",
+     "email": "brian.boland@joulent.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/brian-boland-7575946",
+     "location": "Washington, United States"
+    },
+    {
+     "name": "Noah Tulsky",
+     "title": "Corporate Development & Partnerships",
+     "email": "noah.tulsky@joulent.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/noah-tulsky-80556593",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Maciek Lukawski",
+     "title": "Chief of Staff",
+     "email": "maciek.lukawski@joulent.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/maciek-lukawski",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Macerich",
+   "people": [
+    {
+     "name": "Kurt Ivey",
+     "title": "Senior Vice President Marketing",
+     "email": "kurt.ivey@macerich.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kurt-ivey-b131904",
+     "location": "Washington, United States"
+    },
+    {
+     "name": "Arun Khosla",
+     "title": "Vice President, Head of Corporate Communications",
+     "email": "arun.khosla@macerich.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/arunkhosla",
+     "location": "Phoenix, United States"
+    },
+    {
+     "name": "Erica Strama",
+     "title": "Assistant Vice President, Business Development",
+     "email": "erica.strama@macerich.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/ericastrama",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Rebecca Willcox",
+     "title": "AVP, Business Development",
+     "email": "becca.willcox@macerich.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/rebecca-willcox-680b072",
+     "location": "Baltimore, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Motive",
+   "people": [
+    {
+     "name": "Amy Loh",
+     "title": "VP Marketing",
+     "email": "amy.loh@gomotive.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/amykloh",
+     "location": "Los Altos, United States"
+    },
+    {
+     "name": "Kelly Hanson",
+     "title": "Senior Director of Strategic Marketing",
+     "email": "kelly.hanson@gomotive.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/hansonkelly",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Harvey Grasty",
+     "title": "Head of Strategic Partnerships & Motive Partner Ecosystem",
+     "email": "harvey.grasty@gomotive.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/harveygrasty",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Gretchen Masterson",
+     "title": "Head of Corporate Communications",
+     "email": "gretchen.masterson@gomotive.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/gretchen-keaney-masterson-389a222b",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "OpenText",
+   "people": [
+    {
+     "name": "Michelle Kelly",
+     "title": "SVP, Corporate Communications",
+     "email": "mkelly2@opentext.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/michellekelly",
+     "location": "Canada"
+    },
+    {
+     "name": "Kirsten Marlatt",
+     "title": "Sr. Director, Creative & Brand Marketing",
+     "email": "kmarlatt@opentext.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kirstenmarlatt",
+     "location": "Guelph, Canada"
+    },
+    {
+     "name": "Michael Depalma",
+     "title": "VP of Business Development",
+     "email": "mdepalma@opentext.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/michaeldepalma1",
+     "location": "Norwalk, United States"
+    },
+    {
+     "name": "Michael Schneider",
+     "title": "Senior Director of Marketing",
+     "email": "mschneider@opentext.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/michael-schneider-65b7125",
+     "location": "Tel Aviv-Yafo, Israel"
+    }
+   ]
+  },
+  {
+   "brand": "Reflection AI",
+   "people": [
+    {
+     "name": "John Haynes",
+     "title": "Head of Growth & Business Development, U.S. Government \u2013 FedCiv",
+     "email": "john.haynes@reflection.ai",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Doug Brown",
+     "title": "Head of Growth, USG",
+     "email": "doug@reflection.ai",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Abby Reider",
+     "title": "Head of Business and Technology Communications",
+     "email": "abby@reflection.ai",
+     "role": "cro"
+    },
+    {
+     "name": "Pierre Roux",
+     "title": "Head of Partnerships",
+     "email": "pierre@reflection.ai",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Skild AI",
+   "people": [
+    {
+     "name": "Ryan Kitchie",
+     "title": "Global Commercial Director",
+     "email": "ryan.kitchie@skild.ai",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Deepak Pathak",
+     "title": "Co-Founder & CEO",
+     "email": "pathak@skild.ai",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Abhinav Gupta",
+     "title": "Co-founder/President",
+     "email": "ag@skild.ai",
+     "role": "cro"
+    },
+    {
+     "name": "Cynthia Bell",
+     "title": "Head of Deployment & Customer Support, AMR",
+     "email": "cbell@skild.ai",
+     "role": "field_marketing"
+    }
+   ]
+  }
+ ]
+}

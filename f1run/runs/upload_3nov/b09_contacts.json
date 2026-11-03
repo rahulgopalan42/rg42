@@ -1,0 +1,429 @@
+{
+ "rows": [
+  {
+   "brand": "Domyn",
+   "people": [
+    {
+     "name": "Eugenio Monteleone",
+     "title": "Chief Operating Officer",
+     "email": "eugenio.monteleone@domyn.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/eugenio-monteleone",
+     "location": "Milan, Italy"
+    },
+    {
+     "name": "Lauren Evans",
+     "title": "Chief Marketing Officer",
+     "email": "lauren.evans@domyn.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/lauren-evans-485b3b17",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Joey Stryker",
+     "title": "VP Strategic Partnerships",
+     "email": "joey.stryker@domyn.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/wjstryker",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Tom Booker",
+     "title": "Head of FSI Operations and Partnerships",
+     "email": "tom.booker@domyn.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/tom-booker-0354a74a",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "GeneDx",
+   "people": [
+    {
+     "name": "Stephanie Kahan",
+     "title": "SVP, Marketing, Communications and Brand",
+     "email": "skahan@genedx.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Alisha Schilter",
+     "title": "SVP, Marketing Communications",
+     "email": "alisha.schilter@genedx.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Phoebe Hsueh",
+     "title": "Vice President, Product Marketing",
+     "email": "phoebe.hsueh@genedx.com",
+     "role": "cro"
+    },
+    {
+     "name": "Annie Arnold",
+     "title": "Senior Director of Digital Marketing",
+     "email": "annie.arnold@genedx.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Ineffable Intelligence",
+   "people": [
+    {
+     "name": "Heather Gorham",
+     "title": "Co-Founder",
+     "email": "heather@ineffable.ai",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Alexandre Laterre",
+     "title": "Co-Founder",
+     "email": "alexandre@ineffable.ai",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Wojciech Marian Czarnecki",
+     "title": "Co-Founder",
+     "email": "wojciech@ineffable.inc",
+     "role": "cro"
+    },
+    {
+     "name": "Chris Apps",
+     "title": "Co-Founder",
+     "email": "chris@ineffable.ai",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Mind Robotics",
+   "people": [
+    {
+     "name": "Nisha Taparia",
+     "title": "Strategy & Business Operations",
+     "email": "nisha@mindrobotics.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/nstaparia",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Pravar Kapoor",
+     "title": "Business Operations and Strategy",
+     "email": "pravar@mindrobotics.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/-pravar-kapoor",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Kevin Roach",
+     "title": "Operations",
+     "email": "kevin@mindrobotics.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/kevin-roach-205b16132",
+     "location": "San Carlos, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Nexthink",
+   "people": [
+    {
+     "name": "Steven Little",
+     "title": "SVP Global MSP's, Channel & Alliances",
+     "email": "steven.little@nexthink.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/stevenlittle100",
+     "location": "Alton, United Kingdom"
+    },
+    {
+     "name": "Paul Gentile",
+     "title": "Senior Vice President, Strategic Marketing",
+     "email": "paul.gentile@nexthink.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/pgentile21",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Gordon Orr",
+     "title": "SVP EMEA Sales",
+     "email": "gordon.orr@nexthink.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/gordon-orr-1234b71",
+     "location": "United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Physical Intelligence",
+   "people": [
+    {
+     "name": "Karol Hausman",
+     "title": "Chief Executive Officer",
+     "email": "karol@physicalintelligence.company",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Adnan Esmail",
+     "title": "Co-Founder",
+     "email": "adnan@physicalintelligence.company",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Quan Vuong",
+     "title": "Co-Founder",
+     "email": "quan@physicalintelligence.company",
+     "role": "cro"
+    },
+    {
+     "name": "Brian Ichter",
+     "title": "Co-Founder",
+     "email": "brian@physicalintelligence.company",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Prime Data Centers",
+   "people": [
+    {
+     "name": "Gabriella Ascione",
+     "title": "EVP, Commercial Strategy & Revenue",
+     "email": "gabby@primedatacenters.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/gabriella-ascione-84161b7",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Krista Shepard",
+     "title": "Vice President, Marketing",
+     "email": "kshepard@primedatacenters.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kristashepard",
+     "location": "United States"
+    },
+    {
+     "name": "William King",
+     "title": "SVP of Strategy & Business Development Europe",
+     "email": "wking@primedatacenters.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/william-king-012bb263",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Jaime Weibel",
+     "title": "Director of Marketing",
+     "email": "jweibel@primedatacenters.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jaimeweibel",
+     "location": "Commerce City, United States"
+    }
+   ]
+  },
+  {
+   "brand": "V.tal",
+   "people": [
+    {
+     "name": "Felipe Campos",
+     "title": "CEO",
+     "email": "felipe.campos@vtal.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/felipe-campos-49a72b6",
+     "location": "Sao Paulo, Brazil"
+    },
+    {
+     "name": "Ronald Coleman",
+     "title": "Business Development Director",
+     "email": "ronald.coleman@vtal.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/ronald-coleman",
+     "location": "Sao Paulo, Brazil"
+    },
+    {
+     "name": "Carlos Agripino",
+     "title": "Commercial Director",
+     "email": "carlos.agripino@vtal.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/carlos-agripino-30218120",
+     "location": "Sao Paulo, Brazil"
+    },
+    {
+     "name": "Diana Perez",
+     "title": "Regional Sales Director, North America at V.tal/Tecto",
+     "email": "diana.perez@globenet.net",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/dperezflesher",
+     "location": "Fort Lauderdale, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Waabi",
+   "people": [
+    {
+     "name": "Raquel Urtasun",
+     "title": "Founder & CEO",
+     "email": "urtasun@waabi.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/raquel-urtasun-4130605",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Doug Frisbie",
+     "title": "VP, Marketing and Communications",
+     "email": "dfrisbie@waabi.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/dougfrisbie",
+     "location": "Lafayette, United States"
+    },
+    {
+     "name": "Tom Baroch",
+     "title": "Sr. Director, Strategic Partnerships",
+     "email": "tbaroch@waabi.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/tbaroch",
+     "location": "Denver, United States"
+    },
+    {
+     "name": "Andrew Price",
+     "title": "Head of Commercial Products & Programs",
+     "email": "aprice@waabi.ai",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/anprice",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Xanadu",
+   "people": [
+    {
+     "name": "Christian Weedbrook",
+     "title": "Founder/CEO",
+     "email": "christian@xanadu.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/christianweedbrook",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Rafal Janik",
+     "title": "COO",
+     "email": "rafal@xanadu.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/rafal-janik-3a891763",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "David Asgeirsson",
+     "title": "Research Partnerships and Intellectual Property",
+     "email": "david@xanadu.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/david-asgeirsson-98ba4119",
+     "location": "Toronto, Canada"
+    }
+   ]
+  },
+  {
+   "brand": "Tekion",
+   "people": [
+    {
+     "name": "Ron Koch",
+     "title": "SVP of OEM Partnerships & Strategy",
+     "email": "rkoch@tekion.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ron-koch-5039b366",
+     "location": "Detroit, United States"
+    },
+    {
+     "name": "Marylou Hastert",
+     "title": "Vice President Marketing",
+     "email": "marylou@tekion.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/marylouhastert",
+     "location": "United States"
+    },
+    {
+     "name": "John Okunski",
+     "title": "Senior Vice President, Global Alliances & Ecosystem Development",
+     "email": "jokunski@tekion.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/johnokunski",
+     "location": "Miami, United States"
+    },
+    {
+     "name": "Aravind Gowda",
+     "title": "Senior Director Communications",
+     "email": "agowda@tekion.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/aravind-gowda-2562227",
+     "location": "Bengaluru, India"
+    }
+   ]
+  },
+  {
+   "brand": "Zebra Technologies",
+   "people": [
+    {
+     "name": "Bill Cate",
+     "title": "Vice President Marketing & Channels",
+     "email": "bmi@zebra.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/billcate",
+     "location": "Atlanta, Georgia, United States"
+    },
+    {
+     "name": "Breeanna Bergman",
+     "title": "Senior Director Global Marketing",
+     "email": "bree.bergman@zebra.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/breebergman",
+     "location": "Cincinnati, Ohio, United States"
+    },
+    {
+     "name": "Sarah Bryowsky",
+     "title": "Senior Director Brand & Digital Marketing",
+     "email": "sbryowsky@zebra.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/sarahbryowsky",
+     "location": "Lincolnshire, Illinois, United States"
+    },
+    {
+     "name": "Therese Van Ryne",
+     "title": "Senior Director, Global Communications",
+     "email": "therese.vanryne@zebra.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/theresevanryne",
+     "location": "Chicago, Illinois, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Dataminr",
+   "people": [
+    {
+     "name": "Deb Wolf",
+     "title": "Chief Marketing Officer",
+     "email": "deb.wolf@dataminr.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Phoebe Fasulo",
+     "title": "Vice President Marketing Operations",
+     "email": "phoebe.fasulo@dataminr.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Marc Itzkowitz",
+     "title": "VP, Product Marketing",
+     "email": "marc.itzkowitz@dataminr.com",
+     "role": "cro"
+    },
+    {
+     "name": "Meghan McCray",
+     "title": "Vice President, Events, Field & Partner Marketing",
+     "email": "meghan.mccray@dataminr.com",
+     "role": "field_marketing"
+    }
+   ]
+  }
+ ]
+}

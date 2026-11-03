@@ -1,0 +1,76 @@
+[
+ {
+  "brand": "Replit",
+  "legal_name": "Replit, Inc.",
+  "domain": "replit.com",
+  "hq": "Foster City, United States",
+  "variant": "B2B",
+  "variant_flag": "Used by individual builders and by companies; chose B2B because Replit now sells to enterprises (Replit for Business, Oct 2026) and most Fortune 500 companies have builders on it.",
+  "designation": "Official AI App Building Partner",
+  "fit_reason": "",
+  "target_audience": "Your target customers are payments firms, software companies and aerospace groups, and leaders from each are in Formula 1, all already on your customer list: Visa (Racing Bulls), Microsoft (Mercedes), Atlassian (Williams), Dropbox (McLaren) and Boeing (Alpine). B2B brands are in the sport to host key clients, show their technology working under pressure and meet buyers worldwide. Teams also introduce partners to each other, to their owners and boards, and run joint activations at forums like Web Summit and Money20/20.",
+  "market_overlap": "From Foster City you serve builders at most Fortune 500 companies, opened your first office abroad in London in September 2026 and are growing your government business. The Formula 1 calendar aligns with the markets you are present in and expanding into: Miami, Silverstone, Austin and Las Vegas.",
+  "market_reference": "Your direct competitor in AI app building, Vercel, maker of v0, signed a multi-year partnership with Mercedes in July 2026. The deal gives Vercel customer experiences, executive forums, technology events and behind-the-scenes access for its buyers, and the team will build a new platform for fans, customers and developers with it.",
+  "shared_values": "A Formula 1 team changes its software every race weekend and cannot wait weeks for a fix. Replit lets anyone in a company describe an app and have it built, tested and published in minutes, under company controls.",
+  "f1_audience": "",
+  "flags": [
+   "Capacity: strong. Valued at about 9bn dollars (Forbes, March 2026, linked from replit.com/news); raised 250m at a 3bn valuation in Sep 2025.",
+   "Customer logos on replit.com/enterprise include Visa, Microsoft, Atlassian, Dropbox, Boeing, American Express, Adobe, Amazon and Rokt; Rokt (Red Bull), Adobe (Alpine from 2027) and AWS (F1 series) are further grid links.",
+   "Grid availability: Vercel (Mercedes) is the direct competitor; Cognition (Aston Martin) and Claude (Williams) also sell AI coding tools.",
+   "HQ: Crunchbase says Foster City; not stated on the replit.com pages opened."
+  ],
+  "sources": [
+   "https://replit.com/",
+   "https://replit.com/enterprise",
+   "https://replit.com/customers",
+   "https://replit.com/news",
+   "https://replit.com/blog",
+   "https://www.mercedesamgf1.com/news/mercedes-amg-petronas-f1-team-and-vercel-announce-multi-year-strategic-partnership",
+   "https://www.mercedesamgf1.com/partners/vercel",
+   "https://f1salaries.com/sponsors/mercedes/",
+   "https://f1salaries.com/sponsors/alpine/",
+   "https://f1salaries.com/sponsors/racing-bulls/"
+  ],
+  "_sheet": "Software",
+  "_user": "Replit",
+  "_rank": 1585,
+  "_tier": "Tier 2"
+ },
+ {
+  "brand": "Sharpa",
+  "legal_name": "Sharpa Pte. Ltd.",
+  "domain": "sharpa.com",
+  "hq": "Singapore, Singapore",
+  "variant": "B2B",
+  "variant_flag": "",
+  "designation": "Official Robotics Partner",
+  "fit_reason": "",
+  "target_audience": "Your target customers are robot makers who integrate your hands, research labs, and the retail, hospitality, food service and manufacturing operators who automate shifts with your robots, and leaders from manufacturing and retail are in Formula 1: Komatsu (Williams), 3M (Cadillac), Tenneco (Cadillac) and M&S (Williams). Business brands join the sport to host key clients, show their technology working under pressure and meet buyers worldwide. Teams also introduce partners to each other, to their owners and boards, and run joint activations at forums like CES and Web Summit.",
+  "market_overlap": "You are headquartered in Singapore, with operations in California and a manufacturing and R&D centre in Shanghai, where your first fully automated restaurant opened in August 2026. The Formula 1 calendar aligns with the markets you are present in and expanding into: Miami, Austin, Las Vegas, Singapore and Shanghai.",
+  "market_reference": "",
+  "shared_values": "A Formula 1 team builds precise mechanical systems and makes them reliable under race conditions. Sharpa builds dexterous hands and humanoid robots with tactile sensing and runs them in live commercial settings.",
+  "f1_audience": "",
+  "flags": [
+   "Capacity: strong. Raised over 4.5 billion yuan (about 669M USD) in August 2026 at a reported 22 billion yuan post-money valuation; figures are company-reported via a WeChat post (DealStreetAsia).",
+   "HQ override check: headquartered in Singapore, but founded by the co-founders of Hesai Technology (China), manufacturing and R&D in Shanghai, investors include Alibaba, Tencent, Meituan and JD.com. Treat as China-linked.",
+   "Market reference dropped: searched humanoid robotics + Formula 1 team partner 2026, no robotics company found on the 2026 grid; competitor-specific searches (Unitree, Figure, Agility) could not run because the shared web search budget was exhausted.",
+   "Sectors without a grid example: robot OEMs, research institutions, hospitality and food service left out of the grid sentence.",
+   "Identity: company site names Sharpa Pte Ltd; no alternative company of the same name found.",
+   "Reused: template first built in the Prepare First pack; re-verify grid facts before sending."
+  ],
+  "sources": [
+   "https://sharpa.com",
+   "https://www.dealstreetasia.com/?p=493670",
+   "https://kr-asia.com/singapore-based-sharpa-surfaces-as-robotics-venture-linked-to-hesai-founders",
+   "https://www.williamsf1.com/partners",
+   "https://ground.news/article/3m-joins-cadillac-formula-1-team-as-official-material-science-partner-to-accelerate-racing-performance",
+   "https://f1salaries.com/sponsors/"
+  ],
+  "_chunk": "10",
+  "user_name": "Sharpa",
+  "_sheet": "Software",
+  "_user": "Sharpa",
+  "_rank": 1592,
+  "_tier": "Tier 2"
+ }
+]

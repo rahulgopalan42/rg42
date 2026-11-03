@@ -1,0 +1,432 @@
+{
+ "rows": [
+  {
+   "brand": "Alliance Laundry Systems",
+   "people": [
+    {
+     "name": "Gary Ashurst",
+     "title": "Chief Commercial Officer",
+     "email": "gary.ashurst@alliancels.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/gary-ashurst",
+     "location": "Aurora, United States"
+    },
+    {
+     "name": "Jean-Baptiste Van Damme",
+     "title": "Vice President Sales and Marketing Primus",
+     "email": "jeanbaptiste.vandamme@alliancels.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jean-baptiste-van-damme-9596b16",
+     "location": "Mont-de-l'Enclus, Belgium"
+    },
+    {
+     "name": "Tijs Denuwelaere",
+     "title": "Marketing Director Europe & Middle East / Africa / India",
+     "email": "tijs.denuwelaere@alliancels.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/tijs-denuwelaere-b9500462",
+     "location": "Ypres, Belgium"
+    },
+    {
+     "name": "John Balman",
+     "title": "Director of Business Development, Europe",
+     "email": "john.balman@alliancels.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/john-balman-5694b3",
+     "location": "Brussels, Belgium"
+    }
+   ]
+  },
+  {
+   "brand": "GoPro",
+   "people": [
+    {
+     "name": "Rick Loughery",
+     "title": "Senior VP, Global Marketing & Digital Commerce",
+     "email": "rloughery@gopro.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rloughery",
+     "location": "San Diego, United States"
+    },
+    {
+     "name": "Alicia Cheney",
+     "title": "Sr. Director, Marketing",
+     "email": "acheney@gopro.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/alicia-cheney-8031914",
+     "location": "Encinitas, United States"
+    },
+    {
+     "name": "Christopher Prado",
+     "title": "Director of Communications, Brand & Product",
+     "email": "cprado@gopro.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/1chrisprado",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Alfred Boyadgis",
+     "title": "VP of Product, Motorsport",
+     "email": "aboyadgis@gopro.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/alfred-boyadgis-3759563b",
+     "location": "Sydney, Australia"
+    }
+   ]
+  },
+  {
+   "brand": "Advanced Energy Industries",
+   "people": [
+    {
+     "name": "Edwin Mok",
+     "title": "Senior Vice President, Strategic Marketing & Investor Relations",
+     "email": "edwin.mok@aei.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/edwin-mok-057541",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Dhaval Dhayatkar",
+     "title": "VP, Product Marketing",
+     "email": "dhaval.dhayatkar@aei.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/dhavaldhayatkar",
+     "location": "Fort Collins, United States"
+    },
+    {
+     "name": "Conor Quinn",
+     "title": "Senior Director, Product and Strategic Marketing",
+     "email": "conor.quinn@aei.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/conor-quinn-3554867",
+     "location": "United States"
+    },
+    {
+     "name": "Tom Vanderheyden",
+     "title": "VP, Global Sales - Enterprise, Hyperscale, Telecom & Networking",
+     "email": "thomas.vanderheyden@aei.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/trvanderheyden",
+     "location": "Dallas, United States"
+    }
+   ]
+  },
+  {
+   "brand": "ContourGlobal",
+   "people": [
+    {
+     "name": "Victor Tavera Olivos",
+     "title": "Chief Commercial Officer South America",
+     "email": "victor.tavera@contourglobal.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/victor-tavera-olivos-11336427",
+     "location": "Chile"
+    },
+    {
+     "name": "Laura Bozzari",
+     "title": "Global Head of Brand, Digital and Content Strategy",
+     "email": "laura.bozzari@contourglobal.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/laurabozzari",
+     "location": "Madrid, Spain"
+    },
+    {
+     "name": "Joao Duarte",
+     "title": "Global Head of Communications",
+     "email": "joao.duarte@contourglobal.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jo%c3%a3o-alves-duarte",
+     "location": "Rome, Italy"
+    },
+    {
+     "name": "George Pergamalis",
+     "title": "Global Head of Business Development",
+     "email": "gpergamalis@contourglobal.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/georgepergamalis",
+     "location": "Boston, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Semtech",
+   "people": [
+    {
+     "name": "Jason Green",
+     "title": "Executive Vice President and Chief Commercial Officer",
+     "email": "jgreen@semtech.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jason-e-green-592451",
+     "location": "San Jose, United States"
+    },
+    {
+     "name": "Remi Demerle",
+     "title": "Alliance Partnerships and Marketing Director for LoRa Ecosystem",
+     "email": "rdemerle@semtech.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/rdemerle",
+     "location": "Paris, France"
+    },
+    {
+     "name": "Ileana Ponce",
+     "title": "Director | Demand Generation",
+     "email": "iponce@semtech.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/ileanaponce",
+     "location": "Vancouver, Canada"
+    },
+    {
+     "name": "Nicolas Damour",
+     "title": "Senior Director, Strategic Partnerships",
+     "email": "ndamour@semtech.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/nicolasdamour",
+     "location": "Toulouse, France"
+    }
+   ]
+  },
+  {
+   "brand": "NextNav",
+   "people": [
+    {
+     "name": "Derek Johnston",
+     "title": "Vice President of Marketing and Communications",
+     "email": "djohnsto@nextnav.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Adam Bennett",
+     "title": "Vice President, Marketing and Communications",
+     "email": "abennett@nextnav.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Jayesh Patel",
+     "title": "Director of Product Marketing",
+     "email": "jpatel@nextnav.com",
+     "role": "cro"
+    },
+    {
+     "name": "David Gell",
+     "title": "VP Business Development",
+     "email": "dgell@nextnav.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Mirion Technologies",
+   "people": [
+    {
+     "name": "Erin Schesny",
+     "title": "Chief Marketing Officer",
+     "email": "eschesny@mirion.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/erin-schesny-b6313a1",
+     "location": "Ambler, United States"
+    },
+    {
+     "name": "Tammy Cmp",
+     "title": "Director, North America Marketing & Events",
+     "email": "tpattison@mirion.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/tammy-pattison-cmp-cmm-ctsm-lss-a5979b58",
+     "location": "Rocky Hill, United States"
+    },
+    {
+     "name": "Nicole Prentice",
+     "title": "Downstream Product Marketing Director",
+     "email": "nprentice@mirion.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/nicole-prentice-08872554",
+     "location": "Cambridge, United Kingdom"
+    },
+    {
+     "name": "Linda Ostrowski",
+     "title": "Vice President of Sales",
+     "email": "lostrowski@mirion.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/linda-ostrowski-195b645",
+     "location": "Knoxville, United States"
+    }
+   ]
+  },
+  {
+   "brand": "EnPro Industries",
+   "people": [
+    {
+     "name": "Zachary Bensusan",
+     "title": "Vice President - Sales & Marketing at Garlock",
+     "email": "zachary.bensusan@enproindustries.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/zachary-bensusan",
+     "location": "South Carolina, United States"
+    },
+    {
+     "name": "Liz Shaffer",
+     "title": "Director of Corporate Communications",
+     "email": "liz.shaffer@enproindustries.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/lizshaffer",
+     "location": "Swedesboro, United States"
+    },
+    {
+     "name": "David Campos",
+     "title": "Vice President, Strategic Growth",
+     "email": "david.campos@technetics.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/david-i-campos",
+     "location": "Pittsford, United States"
+    },
+    {
+     "name": "Katie Black",
+     "title": "VP Strategy and Business Development",
+     "email": "katie.black@enpro.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/katie-black-0521852",
+     "location": "Scottsdale, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Park Place Technologies",
+   "people": [
+    {
+     "name": "John Stock",
+     "title": "Chief Commercial Officer",
+     "email": "jstock@parkplacetech.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jstock",
+     "location": "Cleveland, United States"
+    },
+    {
+     "name": "Larry Deangelis",
+     "title": "VP, Marketing",
+     "email": "ldeangelis@parkplacetech.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/larry-deangelis-541522253",
+     "location": "Cleveland, United States"
+    },
+    {
+     "name": "Simon Bitton",
+     "title": "Senior Director, International Marketing",
+     "email": "sbitton@parkplacetech.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/simon-bitton-ba041b1b",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Michael Miller",
+     "title": "Sr. Director of Global Communications",
+     "email": "mmiller@parkplacetech.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/fuselighter",
+     "location": "Cleveland, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Frore Systems",
+   "people": [
+    {
+     "name": "Sue Ryan",
+     "title": "Vice President Marketing",
+     "email": "sue@froresystems.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Amber Ip",
+     "title": "Frore Systems APAC Lead of Marketing",
+     "email": "amberip@froresystems.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Brandon Jung",
+     "title": "Vice President of Business Development",
+     "email": "brandon@froresystems.com",
+     "role": "cro"
+    },
+    {
+     "name": "Ali Irani",
+     "title": "Sr. Director of Sales and Business Development",
+     "email": "ali@froresystems.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Craftsman Automation",
+   "people": [
+    {
+     "name": "Vijit Madan",
+     "title": "Chief Marketing Officer",
+     "email": "vijitmadan@craftsmanautomation.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/vijit-madan-a5745b12",
+     "location": "Gurugram, India"
+    },
+    {
+     "name": "Aneesh C",
+     "title": "Head of Marketing",
+     "email": "aneesh@craftsmanautomation.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/aneesh-kumar-c-40b3297",
+     "location": "Tamil Nadu, India"
+    },
+    {
+     "name": "Thiyagaraj Damodhraswamy",
+     "title": "Chief Operating Officer",
+     "email": "thiyagaraj@craftsmanautomation.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/thiyagaraj-d-37a92374",
+     "location": "Coimbatore, India"
+    },
+    {
+     "name": "Shakti Choube",
+     "title": "Sr. Vice President & Business Head - Intralogistics Automation",
+     "email": "shaktichoube@craftsmanautomation.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/shakti-choube-9a170115",
+     "location": "Mumbai, India"
+    }
+   ]
+  },
+  {
+   "brand": "WT Microelectronics",
+   "people": [
+    {
+     "name": "Katz Wu",
+     "title": "VP of Marketing Organization",
+     "email": "katz.wu@wtmec.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/%e5%90%b3%e5%81%89%e4%b8%ad-katz-wu-1178958b",
+     "location": "China"
+    },
+    {
+     "name": "Michael Kim",
+     "title": "VP of Marketing",
+     "email": "michael.kim@wtmec.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/michael-kim-64541aa2",
+     "location": "Gyeonggi-do, South Korea"
+    },
+    {
+     "name": "Gordon Wu",
+     "title": "VP of Sales",
+     "email": "gordon.wu@wtmec.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/gordon-wu-502a1933",
+     "location": "Shanghai, China"
+    },
+    {
+     "name": "Hope Cui",
+     "title": "Marketing Director",
+     "email": "hope.cui@wtmec.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/hope-hongbo-cui-0a436a63",
+     "location": "Shenzhen, China"
+    }
+   ]
+  }
+ ]
+}

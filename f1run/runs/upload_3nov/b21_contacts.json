@@ -1,0 +1,429 @@
+{
+ "rows": [
+  {
+   "brand": "Fedrigoni",
+   "people": [
+    {
+     "name": "Lyna Huang",
+     "title": "Marketing Director APAC",
+     "email": "lyna.huang@fedrigoni.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Tienne Wang",
+     "title": "Head of Marketing APAC",
+     "email": "tienne.wang@fedrigoni.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Celine Bertuzzi",
+     "title": "Marketing Director | Paper BU",
+     "email": "celine.bertuzzi@fedrigoni.com",
+     "role": "cro"
+    },
+    {
+     "name": "Craig Surette",
+     "title": "Director of Business Development",
+     "email": "craig@gpa-innovates.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "EXA Infrastructure",
+   "people": [
+    {
+     "name": "Jim Fagan",
+     "title": "Chief Executive Officer",
+     "email": "jim.fagan@exainfra.net",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jim-fagan-1691593",
+     "location": "Austin, United States"
+    },
+    {
+     "name": "Andrea Forder",
+     "title": "Head of Strategic Marketing",
+     "email": "andrea.forder@exainfra.net",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/andreaforder",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Ariadna Ilie",
+     "title": "VP Global Content and Hyperscalers",
+     "email": "ariadna.ilie@exainfra.net",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/ariadna-ilie-a661796",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Francois Malterre",
+     "title": "Business Development, Subsea",
+     "email": "francois.malterre@exainfra.net",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/francois-malterre-a624b",
+     "location": "Paris, France"
+    }
+   ]
+  },
+  {
+   "brand": "ASE Technology Holding",
+   "people": [
+    {
+     "name": "Patricia Macleod",
+     "title": "Senior Director, Corporate Communications & Industry Partnerships",
+     "email": "patricia.macleod@aseus.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/patriciamacleod",
+     "location": "Sunnyvale, United States"
+    },
+    {
+     "name": "Lihong Cao",
+     "title": "Senior Director, Engineering & Technical Marketing",
+     "email": "lihong_cao@aseglobal.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/lihongcao",
+     "location": "Austin, United States"
+    },
+    {
+     "name": "William Leong",
+     "title": "Senior Sales Director",
+     "email": "william_leong@aseglobal.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/william-leong-4b4a467",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "John Hunt",
+     "title": "Sr Director Engineering, Marketing & Technical Promotion",
+     "email": "john-hunt@aseglobal.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/john-hunt-a5b9761b8",
+     "location": "Tempe, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Jamieson Wellness",
+   "people": [
+    {
+     "name": "Babita Bhattal",
+     "title": "Vice President Marketing, Canada",
+     "email": "b.bhattal@rogers.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Stacey Salmon",
+     "title": "Vice President, USA Marketing",
+     "email": "ssalmon@jamiesonlabs.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Robert Higgs",
+     "title": "Director ERP Transformation, Sales and Marketing",
+     "email": "rhiggs@jamiesonlabs.com",
+     "role": "cro"
+    },
+    {
+     "name": "Matt Taylor",
+     "title": "Marketing and Insights Leader",
+     "email": "mtaylor@jamiesonlabs.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "ORBCOMM",
+   "people": [
+    {
+     "name": "Christian Allred",
+     "title": "Chief Commercial Officer (CCO)",
+     "email": "allred.christian@orbcomm.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/christian-allred-93938b",
+     "location": "Purcellville, United States"
+    },
+    {
+     "name": "Daniel Schreff",
+     "title": "SVP, Head of Global Marketing",
+     "email": "schreff.daniel@orbcomm.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/daniel-schreff-89611038",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Marisa Martin",
+     "title": "SVP Global Alliance Leader",
+     "email": "martin.marisa@orbcomm.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/marisamcguiremartin",
+     "location": "Denver, United States"
+    },
+    {
+     "name": "David Donnelly",
+     "title": "Director of Digital Marketing",
+     "email": "donnelly.david@orbcomm.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/marketingdave",
+     "location": "Halifax Regional Municipality, Canada"
+    }
+   ]
+  },
+  {
+   "brand": "Dexcom",
+   "people": [
+    {
+     "name": "Inigo Gonzalez Iglesias",
+     "title": "Head of Marketing and Communications",
+     "email": "inigo.gonzalez@dexcom.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/inigoglez",
+     "location": "San Sebastian, Spain"
+    },
+    {
+     "name": "Julie Wisnicki",
+     "title": "Director, Global Brand Marketing, Creative Services",
+     "email": "julie.wisnicki@dexcom.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/juliewisnicki",
+     "location": "San Diego, United States"
+    },
+    {
+     "name": "Ilana Neftin",
+     "title": "Director of Partnerships & Commercial Enablement, Stelo",
+     "email": "ilana.neftin@dexcom.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/ilanaorloffneftin",
+     "location": "San Diego, United States"
+    },
+    {
+     "name": "Caroline Chivers",
+     "title": "Marketing Director",
+     "email": "caroline.chivers@dexcom.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/carolinechivers",
+     "location": "United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Instinct",
+   "people": [
+    {
+     "name": "Noah Shinn",
+     "title": "Founder",
+     "email": "noah@instinct.co",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/noah-shinn",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Serval",
+   "people": [
+    {
+     "name": "Becky Holmes",
+     "title": "Head of Field Marketing and Customer Experience",
+     "email": "becky@serval.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Mary Dowling",
+     "title": "Creative Operations & Integrated Marketing Program Lead",
+     "email": "mary@serval.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Alana Lauk",
+     "title": "Senior Vice President, Executive Team, Brand and Communications",
+     "email": "alana@serval.com",
+     "role": "cro"
+    },
+    {
+     "name": "Lauren Gold",
+     "title": "Growth Lead",
+     "email": "lauren.gold@serval.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Pershing Square Inc",
+   "people": [
+    {
+     "name": "Ryan Israel",
+     "title": "Chief Investment Officer",
+     "email": "israel@persq.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ryan-israel-9a1735123",
+     "location": "United States"
+    },
+    {
+     "name": "Francis McGill",
+     "title": "Partner",
+     "email": "mcgill@persq.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/francis-mcgill-0307b544",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Lindsey McKee",
+     "title": "Investor Relations Associate",
+     "email": "mckee@persq.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/lindsey-mckee-4a22012b",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "Ubiquity",
+   "people": [
+    {
+     "name": "Matthew Nyren",
+     "title": "CEO",
+     "email": "matt@ubiquitygs.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/matthew-nyren-4b461142",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Brad Levy",
+     "title": "Senior Vice President, Global Business Development",
+     "email": "brad.levy@ubiquity.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/brad-levy-5b49646",
+     "location": "Littleton, United States"
+    },
+    {
+     "name": "Jay Hammans",
+     "title": "Senior Vice President of Sales",
+     "email": "jay.hammans@ubiquity.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jayhammans",
+     "location": "Rogers, United States"
+    },
+    {
+     "name": "Tom Jones",
+     "title": "Senior Vice President, Business Development",
+     "email": "tom.jones@ubiquity.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/tjones23",
+     "location": "Los Angeles, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Green Infrastructure Partners",
+   "people": [
+    {
+     "name": "John Pontarollo",
+     "title": "Chief Operating Officer",
+     "email": "jpontarollo@gipi.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/john-pontarollo-5996a54",
+     "location": "Mississauga, Canada"
+    },
+    {
+     "name": "Neil Martin",
+     "title": "Director Marketing Communications",
+     "email": "nmartin@gipi.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/neilbmartinmarketingleader",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Ken Dale",
+     "title": "Vice President of Business Development",
+     "email": "kdale@gipi.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/ken-dale-9890a950",
+     "location": "Saint Johns, United States"
+    },
+    {
+     "name": "Ivan Levac",
+     "title": "Vice President - Sales and Business Development",
+     "email": "ilevac@gipi.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/ivan-levac-p-eng-ing-8149405b",
+     "location": "Ottawa, Canada"
+    }
+   ]
+  },
+  {
+   "brand": "MaryRuth Organics",
+   "people": [
+    {
+     "name": "Wyatt Lowe",
+     "title": "Vice President of Marketing",
+     "email": "wlowe@maryruthorganics.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/wyattloweofficial",
+     "location": "Salt Lake City, United States"
+    },
+    {
+     "name": "Crystal Chow",
+     "title": "VP of Brand Marketing",
+     "email": "cchow@maryruthorganics.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/crystalpchow",
+     "location": "Los Angeles, United States"
+    },
+    {
+     "name": "Susan Heiser",
+     "title": "VP of Sales",
+     "email": "sheiser@maryruthorganics.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/susan-heiser-33673213",
+     "location": "Los Angeles, United States"
+    },
+    {
+     "name": "Jake Hoffman",
+     "title": "Vice President of Growth",
+     "email": "jhoffman@maryruthorganics.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jake-hoffmn",
+     "location": "Minneapolis, United States"
+    }
+   ]
+  },
+  {
+   "brand": "LSI Industries",
+   "people": [
+    {
+     "name": "Michael Prachar",
+     "title": "Chief Marketing Officer",
+     "email": "michael.prachar@lsicorp.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/michaelapracharexecutive",
+     "location": "Cincinnati, United States"
+    },
+    {
+     "name": "John Fox",
+     "title": "Vice President, LSI Brand Imaging",
+     "email": "john.fox@lsicorp.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/john-fox-6b606219",
+     "location": "Houston, United States"
+    },
+    {
+     "name": "Nicole Stella",
+     "title": "Vice President of Sales, National Accounts",
+     "email": "nicole.stella@lsicorp.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/nicole-stella-27a6656",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Sergio Aguilar",
+     "title": "National Director, Sports Lighting",
+     "email": "sergio.aguilar@lsicorp.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/sergioraguilar",
+     "location": "Fort Myers, United States"
+    }
+   ]
+  }
+ ]
+}

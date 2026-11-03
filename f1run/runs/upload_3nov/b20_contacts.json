@@ -1,0 +1,432 @@
+{
+ "rows": [
+  {
+   "brand": "Squadron Energy",
+   "people": [
+    {
+     "name": "Alisha Allen",
+     "title": "Head of Communications",
+     "email": "alisha.allen@squadronenergy.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/alishaallen",
+     "location": "Sydney, Australia"
+    },
+    {
+     "name": "Emma Leslie",
+     "title": "Strategic Communications and Partnerships",
+     "email": "eleslie@squadronenergy.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/emma-kucelj",
+     "location": "Wollongong, Australia"
+    },
+    {
+     "name": "Rebecca Ding",
+     "title": "Head of Commercial Performance",
+     "email": "rebecca.ding@squadronenergy.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/rebecca-ding-0a563822",
+     "location": "Sydney, Australia"
+    },
+    {
+     "name": "James Shelley",
+     "title": "Head of Integrated Commercial Operations",
+     "email": "james.shelley@squadronenergy.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jameseshelley",
+     "location": "Sydney, Australia"
+    }
+   ]
+  },
+  {
+   "brand": "Grindr",
+   "people": [
+    {
+     "name": "George Arison",
+     "title": "Chief Executive Officer",
+     "email": "george@grindr.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/georgearison",
+     "location": "United States"
+    },
+    {
+     "name": "Tristan Pineiro",
+     "title": "Chief Marketing Officer",
+     "email": "tristan.pineiro@grindr.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/tristan-pineiro",
+     "location": "West Hollywood, United States"
+    },
+    {
+     "name": "Michael Sunshine",
+     "title": "Senior Director, Head of Growth",
+     "email": "michael.sunshine@grindr.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/msunshine",
+     "location": "Los Angeles, United States"
+    },
+    {
+     "name": "Colin Dunn",
+     "title": "Senior Director of Marketing",
+     "email": "colin.dunn@grindr.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/colinmdunn",
+     "location": "Los Angeles, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Ingersoll Rand",
+   "people": [
+    {
+     "name": "Sara Hassell",
+     "title": "Global Communications and Brand Leader",
+     "email": "sara.hassell@irco.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/sarahassell",
+     "location": "Charlotte, United States"
+    },
+    {
+     "name": "Corrie Neukirchner",
+     "title": "Global Director, Marketing Life Sciences + Ingersoll Rand Commercial Excellence",
+     "email": "corrie.neukirchner@irco.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/corrie-neukirchner",
+     "location": "Charlotte, United States"
+    },
+    {
+     "name": "Jeremy Lawrence",
+     "title": "Global Commercial Director",
+     "email": "jeremy.lawrence@irco.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jeremyflynnlawrence",
+     "location": "Denver, United States"
+    },
+    {
+     "name": "Cherry Wang",
+     "title": "AP Marketing Director",
+     "email": "yanping.wang@irco.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/cherry-wang-6888aba",
+     "location": "Shanghai, China"
+    }
+   ]
+  },
+  {
+   "brand": "CyberArk",
+   "people": [
+    {
+     "name": "Amy Blackshaw",
+     "title": "SVP, Identity Marketing",
+     "email": "amy.blackshaw@cyberark.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/amy-blackshaw-cissp",
+     "location": "Needham, United States"
+    },
+    {
+     "name": "Shannon Sullivan",
+     "title": "Director of Brand & Thought Leadership",
+     "email": "shannon.sullivan@cyberark.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/shannonsullivan025",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Yael Nishry",
+     "title": "Vice President of Business Development",
+     "email": "yael.nishry@cyberark.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/yael-nishry-266478",
+     "location": "Israel"
+    },
+    {
+     "name": "Andrey Pozhogin",
+     "title": "Director of Product Marketing",
+     "email": "andrey.pozhogin@cyberark.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/apozhogin",
+     "location": "Woburn, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Fluor",
+   "people": [
+    {
+     "name": "Stacey Shepard",
+     "title": "Senior Vice President, Growth & Strategy",
+     "email": "stacey.shepard@fluorgov.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/stacey-shepard-pmp-76a7a86",
+     "location": "United States"
+    },
+    {
+     "name": "Kim Stone",
+     "title": "Director II, Marketing Services | Mission Solutions",
+     "email": "kim.stone@fluorgov.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kimstonecfapmp",
+     "location": "Westcliffe, United States"
+    },
+    {
+     "name": "Ken Grier",
+     "title": "Executive Director Business Development",
+     "email": "ken.grier@fluor.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/ken-grier-6b8242173",
+     "location": "Aliso Viejo, United States"
+    },
+    {
+     "name": "Neal Anderson",
+     "title": "Communications Director",
+     "email": "neal.anderson@fluor.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/nealanderson1",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Cimpress",
+   "people": [
+    {
+     "name": "Paul McKinlay",
+     "title": "VP, Communications & Remote Working, Cimpress & Vista",
+     "email": "pmckinlay@cimpress.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/paul-mckinlay-1360752",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "John Bennett",
+     "title": "Sr. Manager, Communications Technology, Creative & Events",
+     "email": "john.bennett@cimpress.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/john-bennett-1a277683",
+     "location": "Mount Pleasant, United States"
+    },
+    {
+     "name": "Scott Richardson",
+     "title": "Vice President & General Manager, Cimpress Open",
+     "email": "scott.richardson@cimpress.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/scott-richardson-li",
+     "location": "Munich, Germany"
+    },
+    {
+     "name": "Tilo Saurin",
+     "title": "Director Channel Development",
+     "email": "tilo.saurin@cimpress.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/tilo-saurin",
+     "location": "Munich, Germany"
+    }
+   ]
+  },
+  {
+   "brand": "Onto Innovation",
+   "people": [
+    {
+     "name": "Mike Rosa",
+     "title": "Chief Marketing Officer (CMO) & SVP of Strategy",
+     "email": "mike.rosa@ontoinnovation.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/michelrosa",
+     "location": "Wilmington, United States"
+    },
+    {
+     "name": "Vamsi Velidandla",
+     "title": "Sr. Director, Marketing",
+     "email": "vamsi.velidandla@ontoinnovation.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/vamsivelidandla",
+     "location": "Milpitas, United States"
+    },
+    {
+     "name": "Abhay Mallari",
+     "title": "Sr. Director, Strategic Sales and Account Management",
+     "email": "abhay.mallari@ontoinnovation.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/abhayvmallari",
+     "location": "Portland, United States"
+    },
+    {
+     "name": "Finbarr Coughlan",
+     "title": "Director of Corporate Sales",
+     "email": "finbarr.coughlan@ontoinnovation.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/finbarr-coughlan",
+     "location": "Dublin, Ireland"
+    }
+   ]
+  },
+  {
+   "brand": "OTIS",
+   "people": [
+    {
+     "name": "Laurence Caillet",
+     "title": "Vice President, Brand & Marketing Communications",
+     "email": "laurence.caillet@fr.otis.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/laurence-caillet",
+     "location": "Geneva, Switzerland"
+    },
+    {
+     "name": "Emilie Pervin",
+     "title": "Senior Director Communications EMEA & Americas",
+     "email": "emilie.pervin@fr.otis.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/emilie-pervin-11bba97a",
+     "location": "Lussault-sur-Loire, France"
+    },
+    {
+     "name": "Yannick Pinel",
+     "title": "Directeur Commercial & Marketing Service Otis France",
+     "email": "yannick.pinel@fr.otis.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/yannick-pinel-703bb815a",
+     "location": "Puteaux, France"
+    },
+    {
+     "name": "Chris Ivany",
+     "title": "Director of Business Development",
+     "email": "chris.ivany@otis.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/chris-ivany-37b72190",
+     "location": "Minneapolis, United States"
+    }
+   ]
+  },
+  {
+   "brand": "WisdomTree",
+   "people": [
+    {
+     "name": "Luba Spear-Piackova",
+     "title": "Chief Marketing Officer",
+     "email": "lspear@wisdomtree.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/luba-spear-piackova",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Katie Avillo",
+     "title": "Director, Marketing",
+     "email": "kavillo@wisdomtree.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/katieavillo",
+     "location": "United States"
+    },
+    {
+     "name": "Joseph Grogan",
+     "title": "Head of Distribution, Americas",
+     "email": "jgrogan@wisdomtree.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/joseph-p-grogan",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Jessica Zaloom",
+     "title": "Head of Corporate Communications and Public Relations",
+     "email": "jzaloom@wisdomtree.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jesszaloom6",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Coforge",
+   "people": [
+    {
+     "name": "Paresh Vankar",
+     "title": "Chief Marketing Officer",
+     "email": "paresh.vankar@coforge.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Madhura Gaikwad",
+     "title": "Director of Marketing - Partnerships and Products",
+     "email": "madhura.gaikwad@coforge.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Ganesh Iyer",
+     "title": "Vice President Marketing",
+     "email": "ganesh.iyer@coforge.com",
+     "role": "cro"
+    },
+    {
+     "name": "Rtn Kapoor",
+     "title": "Associate Vice President Marketing",
+     "email": "amit.2.kapoor@coforge.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Kokusai Electric Corporation",
+   "people": [
+    {
+     "name": "Georg Birkmaier",
+     "title": "President & CEO Kokusai Semiconductor EMEA GmbH",
+     "email": "georg.birkmaier@kokusai-electric.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/georg-birkmaier-0b60849",
+     "location": "Germany"
+    },
+    {
+     "name": "Yutaka Ito",
+     "title": "Director of Product Marketing",
+     "email": "ito.yutaka@kokusai-electric.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/yutaka-ito-57a73918",
+     "location": "Portland, United States"
+    },
+    {
+     "name": "Tim Trudgeon",
+     "title": "Corporate Vice President Global Sales and Sales Operations",
+     "email": "tim.trudgeon@kokusai-electric.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/tim-trudgeon-7593623",
+     "location": "Tokyo, Japan"
+    },
+    {
+     "name": "Hiroki Kubota",
+     "title": "Business Development",
+     "email": "hiroki.kubota@kokusai-electric.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/hiroki-kubota-493b871b1",
+     "location": "Chiyoda, Japan"
+    }
+   ]
+  },
+  {
+   "brand": "TaskUs",
+   "people": [
+    {
+     "name": "Ramya Kumaraswamy",
+     "title": "Division Vice President, Growth Marketing",
+     "email": "ramya.kumaraswamy@taskus.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Scott Peters",
+     "title": "DVP, Business Development & Growth | Healthcare",
+     "email": "scott.peters@taskus.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Gaurav Mishra",
+     "title": "Vice President Facilities & Growth",
+     "email": "gaurav.mishra03@taskus.com",
+     "role": "cro"
+    },
+    {
+     "name": "Bailey Lucius",
+     "title": "Division Vice President, Strategic Growth",
+     "email": "bailey.lucius@taskus.com",
+     "role": "field_marketing"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,384 @@
+{
+ "rows": [
+  {
+   "brand": "D-Wave Quantum",
+   "people": [
+    {
+     "name": "Dustin Carter",
+     "title": "Senior Director, Partnerships",
+     "email": "dcarter@dwavesys.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/dustinmcarter",
+     "location": "Naples, United States"
+    },
+    {
+     "name": "Kelley Noblet",
+     "title": "Director, Product Marketing",
+     "email": "knoblet@dwavesys.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kelleynoblet",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Tuende Toth",
+     "title": "Director, Global Business Development",
+     "email": "ttoth@dwavesys.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/tundetoth",
+     "location": "Seattle, United States"
+    },
+    {
+     "name": "Melissa Turesky",
+     "title": "Director of Communications and Public Relations",
+     "email": "mturesky@dwavesys.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/mturesky",
+     "location": "Boston, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Flapping Airplanes",
+   "people": [
+    {
+     "name": "Asher Spector",
+     "title": "Cofounder",
+     "email": "ams@flappingairplanes.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Jennifer Lin",
+     "title": "Chief of Flap",
+     "email": "jennifer@flappingairplanes.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Nicholas Klatsky",
+     "title": "{}",
+     "email": "nick@flappingairplanes.com",
+     "role": "cro"
+    },
+    {
+     "name": "Aidan Smith",
+     "title": "Co-Flapper",
+     "email": "ajs@flappingairplanes.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Guidewire Software",
+   "people": [
+    {
+     "name": "Tom Kasel",
+     "title": "VP, Global Head of Business Development",
+     "email": "tkasel@guidewire.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/tom-kasel-0b8a2731",
+     "location": "Minneapolis, United States"
+    },
+    {
+     "name": "Emma Greene",
+     "title": "Vice President Integrated Marketing EMEA",
+     "email": "egreene@guidewire.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/emma-greene-542a25",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Kristen Sharkey",
+     "title": "Senior Director, Communications",
+     "email": "ksharkey@guidewire.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/kristensharkey-communications",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Laura Urdaneta",
+     "title": "Director, Corporate Marketing",
+     "email": "lurdaneta@guidewire.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lauraurdaneta",
+     "location": "Minneapolis, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Island",
+   "people": [
+    {
+     "name": "Ryan Walker",
+     "title": "Growth Marketing Director",
+     "email": "ryan.walker@island.io",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Tyler Haney",
+     "title": "Head of Global Growth Marketing",
+     "email": "tyler.haney@island.io",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Aricka Monroe",
+     "title": "Senior Growth Marketing Lead",
+     "email": "aricka.monroe@island.io",
+     "role": "cro"
+    },
+    {
+     "name": "Peter McKellar",
+     "title": "Vice President Marketing",
+     "email": "peter@island.io",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Keyfactor",
+   "people": [
+    {
+     "name": "Jamie Walker",
+     "title": "Chief Marketing Officer",
+     "email": "jamie.walker@keyfactor.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Karin Trogstam",
+     "title": "Brand Marketing Lead",
+     "email": "karin.trogstam@keyfactor.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Chris Pereira",
+     "title": "Sr. Director of Growth Marketing",
+     "email": "chris.pereira@keyfactor.com",
+     "role": "cro"
+    },
+    {
+     "name": "Lauren Taylor",
+     "title": "Vice President, Product and Customer Marketing",
+     "email": "lauren.taylor@keyfactor.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Kpler",
+   "people": [
+    {
+     "name": "Aleksandra Rakowska",
+     "title": "Head of Growth Marketing",
+     "email": "arakowska@kpler.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Katherine Watson",
+     "title": "Marketing Director/VP",
+     "email": "kwatson@kpler.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Georgios Hatzimanolis",
+     "title": "Director of Brand, Events & Communications",
+     "email": "ghatzimanolis@kpler.com",
+     "role": "cro"
+    },
+    {
+     "name": "Marianne Locht",
+     "title": "Head of Business Development",
+     "email": "mlocht@kpler.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Megaport",
+   "people": [
+    {
+     "name": "Matt Simpson",
+     "title": "Executive VP Global Channel and Business Developemnt",
+     "email": "matt.simpson@megaport.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mattksimpson",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Scott Koerlin",
+     "title": "Head of Marketing - North America",
+     "email": "scott.koerlin@megaport.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/scott-koerlin-49765135",
+     "location": "Denver, United States"
+    },
+    {
+     "name": "Todd Loewenstein",
+     "title": "Director, Global Business Development",
+     "email": "todd.loewenstein@megaport.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/todd-loewenstein-155b",
+     "location": "Los Angeles, United States"
+    },
+    {
+     "name": "Jason Bordujenko",
+     "title": "Director, Solutions & Strategic Alliances (APAC)",
+     "email": "jason.bordujenko@megaport.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jbordujenko",
+     "location": "Brisbane, Australia"
+    }
+   ]
+  },
+  {
+   "brand": "Neuralink",
+   "people": [
+    {
+     "name": "DJ Seo",
+     "title": "Co-Founder, President",
+     "email": "dj@neuralink.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Ingrid Goesnar",
+     "title": "Former Food Technology Founder",
+     "email": "ingrid.goesnar@neuralink.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Nir Even-Chen",
+     "title": "Director - Head of Brain Interfaces Applications",
+     "email": "nir@neuralink.com",
+     "role": "cro"
+    },
+    {
+     "name": "Erika Ellison",
+     "title": "Head of Clinical",
+     "email": "erika.ellison@neuralink.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Oklo",
+   "people": [
+    {
+     "name": "Brian Gitt",
+     "title": "SVP, Head of Business Development",
+     "email": "briangitt@oklo.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/brian-gitt",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Sabrina Siddiqui",
+     "title": "Director of Policy Communications",
+     "email": "sabrina@oklo.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sabrina-siddiqui-8025a322",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Garth Parham",
+     "title": "Director of Business Development",
+     "email": "garth.parham@oklo.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/garth-parham-mba-phd",
+     "location": "Indianapolis, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Persistent Systems",
+   "people": [
+    {
+     "name": "Shimona Chadha",
+     "title": "Global Chief Marketing Officer",
+     "email": "shimona_chadha@persistent.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Reena Kapoor",
+     "title": "Marketing Leader - Communications, Media and Telecom + IBM Alliance",
+     "email": "reena_kapoor@persistent.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Mane Kamboj",
+     "title": "Head of Global Growth Strategy",
+     "email": "manee_kamboj@persistent.com",
+     "role": "cro"
+    },
+    {
+     "name": "Suja Vel",
+     "title": "AVP - Growth and Strategic Relationships",
+     "email": "suja_vel@persistent.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Quantinuum",
+   "people": [
+    {
+     "name": "Lawrence Schwartz",
+     "title": "Chief Marketing Officer",
+     "email": "lawrence.schwartz@quantinuum.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/schwartzlawrence",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Paul Roberts",
+     "title": "Head of Global Demand and Campaigns",
+     "email": "paul.roberts@quantinuum.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/p2ulroberts",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Peter Sigrist",
+     "title": "Communications Director",
+     "email": "peter.sigrist@quantinuum.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/psigrist",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "David Pappalardo",
+     "title": "Director, Website & Marketing Operations",
+     "email": "david.pappalardo@quantinuum.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/pappalardod",
+     "location": "Boston, United States"
+    }
+   ]
+  },
+  {
+   "brand": "SandboxAQ",
+   "people": [
+    {
+     "name": "Naysa Mishler",
+     "title": "VP of Marketing",
+     "email": "naysa.mishler@sandboxquantum.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Jennifer Stewart",
+     "title": "Head of Product Marketing and Demand Generation",
+     "email": "jennifer.stewart@sandboxaq.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Reverie Hara",
+     "title": "Head of Demand Generation & Marketing Ops, Cybersecurity",
+     "email": "reverie@sandboxaq.com",
+     "role": "cro"
+    },
+    {
+     "name": "Hajo Schiewe",
+     "title": "Vice President of BioSim Partnerships",
+     "email": "hajo.schiewe@sandboxaq.com",
+     "role": "field_marketing"
+    }
+   ]
+  }
+ ]
+}

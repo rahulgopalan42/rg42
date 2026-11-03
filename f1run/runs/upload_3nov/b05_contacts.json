@@ -1,0 +1,416 @@
+{
+ "rows": [
+  {
+   "brand": "Tempus",
+   "people": [
+    {
+     "name": "Kelli Teno-Manalli",
+     "title": "Vice President, Head of Communications",
+     "email": "kelli.manalli@tempus.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kkteno",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Meme Grayhack",
+     "title": "Marketing Director",
+     "email": "meme.grayhack@tempus.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/meme-romano-grayhack-64549942",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Kate Heinz",
+     "title": "Director, Data Marketing",
+     "email": "kate.heinz@tempus.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/kate-307124115",
+     "location": "Austin, United States"
+    },
+    {
+     "name": "Diane Postel",
+     "title": "Director, Conference & Tradeshow Strategy, Marketing",
+     "email": "diane.postel@tempus.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/diane-postel-a5734a60",
+     "location": "Chicago, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Tenable",
+   "people": [
+    {
+     "name": "Meg O'Leary",
+     "title": "Chief Marketing Officer",
+     "email": "moleary@tenable.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/meg-o-leary-52727a41a",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Maranda Cigna",
+     "title": "Vice President, Marketing",
+     "email": "mcigna@tenable.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/marandacigna",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Terry Dolce",
+     "title": "EVP, Global Business Development, Channels & Specialist Sales",
+     "email": "tdolce@tenable.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/terrydolce",
+     "location": "Baltimore, United States"
+    },
+    {
+     "name": "Jeff Brooks",
+     "title": "Senior Vice President, Global Channels and Alliances",
+     "email": "jbrooks@tenable.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jeff-brooks5",
+     "location": "Wellesley, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Thinking Machines Lab",
+   "people": [
+    {
+     "name": "Christopher Reilly",
+     "title": "AGC, Corporate & Commercial",
+     "email": "reilly@thinkingmachines.ai",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Jen Chan",
+     "title": "GTM Strategy & Operations",
+     "email": "jen@thinkingmachines.ai",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Jonathan Lachman",
+     "title": "Founding Head of Operations",
+     "email": "jon@thinkingmachines.ai",
+     "role": "cro"
+    },
+    {
+     "name": "Soumith Chintala",
+     "title": "Chief Technology Officer",
+     "email": "soumith@thinkingmachines.ai",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Thomson Reuters Tax & Accounting",
+   "people": [
+    {
+     "name": "Amy Messano",
+     "title": "Chief Marketing and Communications Officer",
+     "email": "amy.messano@thomsonreuters.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/amy-messano-9b05274",
+     "location": "Detroit, United States"
+    },
+    {
+     "name": "Susie Emmerling",
+     "title": "VP, Marketing, Tax, Audit and Accounting Professionals",
+     "email": "susie.emmerling@thomsonreuters.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/susie-emmerling",
+     "location": "Minneapolis, United States"
+    },
+    {
+     "name": "Jennifer Perez",
+     "title": "VP of Brand",
+     "email": "jennifer.perez@thomsonreuters.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jennifer-l-perez",
+     "location": "Washington, United States"
+    },
+    {
+     "name": "Lori Finney",
+     "title": "VP, Conferences, Sponsorship & Events",
+     "email": "lori.finney@thomsonreuters.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lori-finney-9771528",
+     "location": "Minneapolis, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Harness",
+   "people": [
+    {
+     "name": "Gleb Brichko",
+     "title": "CMO",
+     "email": "gleb.brichko@harness.io",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Alex Peterson",
+     "title": "Director of Growth Marketing",
+     "email": "john.peterson@harness.io",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Danielle Gazitt",
+     "title": "VP of Corporate Marketing",
+     "email": "danielle.gazitt@harness.io",
+     "role": "cro"
+    },
+    {
+     "name": "Chinmay Gaikwad",
+     "title": "Director of Product Marketing",
+     "email": "chinmay.gaikwad@harness.io",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "ClickUp",
+   "people": [
+    {
+     "name": "Kyle Coleman",
+     "title": "Global VP, Sales & Marketing",
+     "email": "kc@clickup.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Trish Sanderson",
+     "title": "Senior Director, Demand Ecosystem & Field Marketing",
+     "email": "tsanderson@clickup.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Olga Osadcha",
+     "title": "Senior Director of Product - Growth",
+     "email": "olga@clickup.com",
+     "role": "cro"
+    },
+    {
+     "name": "Sudarshan Somanathan",
+     "title": "Head of Content & Organic Growth",
+     "email": "ssomanathan@clickup.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Liquid Intelligent Technologies",
+   "people": [
+    {
+     "name": "Bernadette Mofya",
+     "title": "Chief Commercial Officer (CCO)",
+     "email": "bernadette.mofya@liquidtelecom.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/bernadette-mofya-99b18013",
+     "location": "Zambia"
+    },
+    {
+     "name": "Jack Gevon",
+     "title": "Group Head of Digital & Marketing Automation",
+     "email": "jack.gevon@liquid.tech",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jack-g-767a6338",
+     "location": "England, United Kingdom"
+    },
+    {
+     "name": "Pierre Amichia",
+     "title": "One Africa Business Development Director",
+     "email": "pierre.amichia@liquid.tech",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/pierre-mathieu-amichia-1b3923b",
+     "location": "Abidjan, C\u00f4te d'Ivoire"
+    },
+    {
+     "name": "Fathima Ebrahim",
+     "title": "Head of Marketing SA",
+     "email": "fathima.ebrahim@liquidtelecom.co.za",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/fathima-ebrahim-5281743",
+     "location": "Johannesburg, South Africa"
+    }
+   ]
+  },
+  {
+   "brand": "MKS Instruments",
+   "people": [
+    {
+     "name": "David Henry",
+     "title": "Executive Vice President Global Strategic Marketing & General Manager Materials Solutions Division",
+     "email": "dhenry@mksinst.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/david-henry-3999102",
+     "location": "Andover, United States"
+    },
+    {
+     "name": "Bill Casey",
+     "title": "Vice President Marketing",
+     "email": "bill.casey@mks.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/bill-casey",
+     "location": "Andover, United States"
+    },
+    {
+     "name": "Susan Corliss",
+     "title": "Senior Director, Global Communications",
+     "email": "susan.corliss@mksinst.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/scorliss",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Maryann Naddy",
+     "title": "Senior Director Corporate Marketing",
+     "email": "maryann.naddy@mks.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/maryann-naddy-08440a2",
+     "location": "Merrimack, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Mobileye",
+   "people": [
+    {
+     "name": "Dan Galves",
+     "title": "Chief Communications Officer",
+     "email": "dan.galves2@mobileye.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/dan-galves-63668a36",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Diane Be'ery",
+     "title": "Vice President Marketing",
+     "email": "dianeb@mobileye.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/diane-be-ery-b1054835",
+     "location": "Israel"
+    },
+    {
+     "name": "Nimrod Nehushtan",
+     "title": "Executive VP of Strategy & Business Development",
+     "email": "nimrod.nehushtan@mobileye.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/nimrod-nehushtan-361738125",
+     "location": "Tel Aviv District, Israel"
+    },
+    {
+     "name": "Hannah Zakon-Tubi",
+     "title": "Senior Director, Marketing",
+     "email": "hannah.tubi@mobileye.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/hannah-zakon-tubi",
+     "location": "Center District, Israel"
+    }
+   ]
+  },
+  {
+   "brand": "Dayforce",
+   "people": [
+    {
+     "name": "Eric Glass",
+     "title": "EVP, Chief Marketing & Communications Officer",
+     "email": "eric.glass@dayforce.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ericmglass",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Jeff Shadid",
+     "title": "Senior Vice President of Global Communications",
+     "email": "jeff.shadid@dayforce.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jeff-shadid-a2795b8",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Sean Bush",
+     "title": "Director of Global Partnerships",
+     "email": "sean.bush@dayforce.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/sean-bush",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Jeremy Levene",
+     "title": "VP Growth Marketing, EMEA",
+     "email": "jeremy.levene@dayforce.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jeremylevene",
+     "location": "United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Bridge Data Centres",
+   "people": [
+    {
+     "name": "Yongzhong Zhu",
+     "title": "Chief Commercial Officer",
+     "email": "yongzhong.zhu@bridgedatacentres.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/yzseatech",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Stefan Loe",
+     "title": "Global Marketing Communications Lead",
+     "email": "stefan.loe@bridgedatacentres.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/stefan-loe",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Katie O'Hara",
+     "title": "VP Hyperscale Sales",
+     "email": "katie.ohara@bridgedatacentres.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/katie-o-hara-02a0b926",
+     "location": "Dallas, United States"
+    },
+    {
+     "name": "Clive Chai",
+     "title": "Senior Director, Channel & Ecosystem Partnerships",
+     "email": "clive.chai@bridgedatacentres.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/clivechai",
+     "location": "Singapore, Singapore"
+    }
+   ]
+  },
+  {
+   "brand": "Clio",
+   "people": [
+    {
+     "name": "Alex Shipillo",
+     "title": "Vice President, Growth Marketing",
+     "email": "alex.shipillo@clio.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Vivian O'Brien",
+     "title": "Head of Marketing",
+     "email": "vivian.obrien@clio.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Danielle Giroux",
+     "title": "Senior Director, Brand & Creative",
+     "email": "danielle.giroux@clio.com",
+     "role": "cro"
+    },
+    {
+     "name": "Harsha Shekar",
+     "title": "Vice President, Business Development",
+     "email": "harsha.shekar@clio.com",
+     "role": "field_marketing"
+    }
+   ]
+  }
+ ]
+}

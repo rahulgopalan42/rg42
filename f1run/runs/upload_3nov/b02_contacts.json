@@ -1,0 +1,409 @@
+{
+ "rows": [
+  {
+   "brand": "DigitalOcean",
+   "people": [
+    {
+     "name": "Leo Leung",
+     "title": "Chief Marketing Officer",
+     "email": "leoleung@digitalocean.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/leoleung",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Meghan Grady",
+     "title": "Head of Marketing and Communications",
+     "email": "mgrady@digitalocean.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/megraegrady",
+     "location": "Austin, United States"
+    },
+    {
+     "name": "Aaqib Sayed",
+     "title": "Director Growth & Partnerships",
+     "email": "asayed@digitalocean.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/aaqibsayed",
+     "location": "Karachi, Pakistan"
+    },
+    {
+     "name": "Miranda Gahrmann",
+     "title": "Digital Marketing Director",
+     "email": "mgahrmann@digitalocean.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/mirandagahrmann",
+     "location": "Dubai, United Arab Emirates"
+    }
+   ]
+  },
+  {
+   "brand": "FICO",
+   "people": [
+    {
+     "name": "Marisa Arribas",
+     "title": "VP Marketing Global Partners and Alliances",
+     "email": "marisaarribas@fico.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/marisaarribas",
+     "location": "Madrid, Spain"
+    },
+    {
+     "name": "Joanna Moss",
+     "title": "Global Senior Director of Marketing",
+     "email": "joannamoss@fico.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sfjoannamoss",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Sheena Larson",
+     "title": "Vice President, U.S. Growth at FICO",
+     "email": "sheenalarson@fico.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/sheena-larson-3a84a35",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Darcy Sullivan",
+     "title": "Vice President, Corporate Communications",
+     "email": "dsullivan@fico.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/darcysullivan",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Horizon Robotics",
+   "people": [
+    {
+     "name": "Xi Zhang",
+     "title": "Brand Director",
+     "email": "xi.zhang@horizon.ai",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Winston Tian",
+     "title": "Commercial Vehicle Market Business Development Director",
+     "email": "winston.tian@horizon.ai",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Will Hua",
+     "title": "Senior Sales Director",
+     "email": "will.hua@horizon.ai",
+     "role": "cro"
+    },
+    {
+     "name": "Cathy Zhang",
+     "title": "Director Sales Operations",
+     "email": "cathy.zhang@horizon.ai",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Lenskart",
+   "people": [
+    {
+     "name": "Peyush Bansal",
+     "title": "Co-Founder, Chief Executive Officer",
+     "email": "peyushb@lenskart.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/peyushbansal",
+     "location": "New Delhi, India"
+    },
+    {
+     "name": "Emma Lithander",
+     "title": "VP Category and Marketing SEA ME",
+     "email": "emma.lithander@lenskart.sg",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/emma-lithander-208a1335",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Sumit Chawla",
+     "title": "Assistant Vice President Marketing",
+     "email": "sumit.chawla@john-jacobs.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/sumitchawla01",
+     "location": "Gurugram, India"
+    }
+   ]
+  },
+  {
+   "brand": "Lumen Technologies",
+   "people": [
+    {
+     "name": "Ryan Asdourian",
+     "title": "EVP & Chief Marketing & Strategy Officer",
+     "email": "ryan.asdourian@lumen.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rasdo",
+     "location": "Seattle, United States"
+    },
+    {
+     "name": "Erica Schroeder",
+     "title": "Vice President Product Marketing",
+     "email": "erica.schroeder@lumen.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/schroedererica",
+     "location": "Palo Alto, United States"
+    },
+    {
+     "name": "Craig Salveta",
+     "title": "Marketing Director: Consumer Acquisition, Brand, and Customer Lifecycle Management",
+     "email": "craig.salveta@lumen.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/craigsalveta",
+     "location": "Denver, United States"
+    },
+    {
+     "name": "Lauren Rybacki",
+     "title": "Director of Brand Strategy",
+     "email": "lauren.rybacki@lumen.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lauren-rybacki",
+     "location": "Seattle, United States"
+    }
+   ]
+  },
+  {
+   "brand": "MiniMax",
+   "people": [
+    {
+     "name": "Morgan Ny",
+     "title": "Head of US Business Development",
+     "email": "morgan@minimax.io",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Zhuoying Zhang",
+     "title": "Global Growth Manager",
+     "email": "zhangzhuoying@minimaxi.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Jessie Yang",
+     "title": "Global Marketing",
+     "email": "jessie@minimaxi.com",
+     "role": "cro"
+    },
+    {
+     "name": "Flora Fan",
+     "title": "Global GTM and Marketing",
+     "email": "flora@minimax.io",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Sabre Corporation",
+   "people": [
+    {
+     "name": "Jennifer Catto",
+     "title": "Chief Marketing Officer",
+     "email": "jen.catto@sabre.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jencatto",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Darren Atkins",
+     "title": "Marketing Director",
+     "email": "darren.atkins@sabre.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/darren-atkins-dipm-mcim",
+     "location": "Guildford, United Kingdom"
+    },
+    {
+     "name": "Darren Rickey",
+     "title": "Senior Vice President - Strategic Commercial Partnerships",
+     "email": "darren.rickey@sabre.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/darren-rickey-04b6362",
+     "location": "Dallas, United States"
+    },
+    {
+     "name": "Stephanie Maniord",
+     "title": "Director, Experiential Marketing & Marketing Operations",
+     "email": "smaniord@sabre.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/stephanieleemaniord",
+     "location": "Arlington, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Safe Superintelligence",
+   "people": [
+    {
+     "name": "Ilya Sutskever",
+     "title": "Co-Founder and CEO",
+     "email": "ilya@ssi.inc",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ilya-sutskever",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Daniel Levy",
+     "title": "Co-Founder",
+     "email": "dl@ssi.inc",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/daniel-levy-87032a221",
+     "location": "Menlo Park, United States"
+    }
+   ]
+  },
+  {
+   "brand": "StepFun",
+   "people": [
+    {
+     "name": "Gibran Mourani",
+     "title": "Global Growth & Partnerships",
+     "email": "gibran@stepfun.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Daxin Jiang",
+     "title": "Co-Founder & CEO",
+     "email": "djiang@stepfun.com",
+     "role": "vp_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Thrive Holdings",
+   "people": [
+    {
+     "name": "Mayank Jain",
+     "title": "Founding Team",
+     "email": "mayank@thriveholdings.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Samay Shamdasani",
+     "title": "Founding Team",
+     "email": "samay@thriveholdings.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Aravind Srinivasan",
+     "title": "Founding Team",
+     "email": "aravind@thriveholdings.com",
+     "role": "cro"
+    },
+    {
+     "name": "Anuj Mehndiratta",
+     "title": "Partner",
+     "email": "anuj@thrivecap.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Verily",
+   "people": [
+    {
+     "name": "Alix Hart",
+     "title": "Chief Marketing Officer",
+     "email": "alixhart@verily.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Maya Agarwal",
+     "title": "Director, Head of Commercial Marketing & Operations",
+     "email": "mayaagarwal@verily.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Randi Bartelmie",
+     "title": "Head of Commercial Marketing | Integrated Marketing | Demand Gen | Events | Marketing Operations",
+     "email": "randibartelmie@verily.com",
+     "role": "cro"
+    },
+    {
+     "name": "Christopher Girardi",
+     "title": "Head of Performance Marketing",
+     "email": "chrisgirardi@verily.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "VIRTUS Data Centres",
+   "people": [
+    {
+     "name": "Adam Eaton",
+     "title": "Chief Executive Officer",
+     "email": "adam.eaton@virtusdcs.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/adameaton85",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Sam Day",
+     "title": "Senior Marketing & Communications Manager",
+     "email": "sam.day@virtusdcs.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sday3",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Helen Kinsman",
+     "title": "Head of Commercial Operations",
+     "email": "helen.kinsman@virtusdcs.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/helen-kinsman-62b96828",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Philipp Barthel",
+     "title": "Director Sales Germany",
+     "email": "philipp.barthel@virtusdcs.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/philipp-barthel-b9a76597",
+     "location": "Frankfurt, Germany"
+    }
+   ]
+  },
+  {
+   "brand": "Waters",
+   "people": [
+    {
+     "name": "Kristen Garvey",
+     "title": "SVP, Global Communications",
+     "email": "kristen_garvey@waters.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kristenmgarvey",
+     "location": "Holliston, United States"
+    },
+    {
+     "name": "Yunnan Jiang",
+     "title": "Senior Director, Commercial Excellence and Global Marketing",
+     "email": "yunnan_jiang@waters.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/yunnan-jiang-a8152464",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Tom Guenette",
+     "title": "Senior Director, Commercial Marketing - Americas",
+     "email": "tom_guenette@waters.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/thomasguenette",
+     "location": "Northborough, United States"
+    },
+    {
+     "name": "Laura Monaghan",
+     "title": "Director, Corporate Brand & Content",
+     "email": "laura_monaghan@waters.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/laura-monaghan-brandmarketer",
+     "location": "Boston, United States"
+    }
+   ]
+  }
+ ]
+}
