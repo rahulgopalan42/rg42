@@ -10,6 +10,7 @@ from collections import defaultdict
 H = os.path.dirname(os.path.abspath(__file__)); R = os.path.dirname(H)
 sys.path.insert(0, H); sys.path.insert(0, os.path.join(R, 'brands200'))
 from geo import country_of
+from desc_clean import clean_about
 from sectors_cb import sector_of, FIT, CONSUMER, industries
 from sectors_v3 import NAMES, OTHER
 from match import loose, present, regdom
@@ -26,7 +27,7 @@ ABOUT = {}
 for _f in sorted(glob.glob(os.path.join(H, 'desc', 'out_*.json'))):
     try:
         for _r in json.load(open(_f)):
-            if isinstance(_r, list) and len(_r) >= 3 and _r[1]: ABOUT[_r[0]] = _r
+            if isinstance(_r, list) and len(_r) >= 3 and _r[1]: ABOUT[_r[0]] = [_r[0], clean_about(_r[1]), _r[2]]
     except Exception as e: print('skip', _f, e)
 NOT_F1 = {'Paramount Group'}     # same name as an F1 partner, different company (Paramount+ is the partner)
 
