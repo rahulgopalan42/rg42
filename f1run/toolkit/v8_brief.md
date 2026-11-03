@@ -35,7 +35,7 @@ opened. Plain English, short sentences, commercial, no drama, no overselling. Le
   - Market Reference: [market_reference]      (bullet removed when empty)
   - Shared Values: [shared_values]
   - Formula 1 Audience: [f1_audience]         (B2C only)
-  Would you be open to a quick call?
+  Would you be open to a quick call? If interested, we would love to host you at a race to show you how partners are generating ROI.
   Rahul / Major Motorsport Projects - Global Sales / SPORTFIVE
 Never repeat the opener, hook, close or signature in your fields. Never start a field with its label.
 Target length of all your fields together: 120 to 170 words (B2C up to 200 with the audience bullet).
@@ -101,3 +101,9 @@ Capacity grade with one fact: "Capacity: strong / soft note / firm caution / har
 India or Brazil. Defense-led or state-owned customers: mission-level language only. Sanctions or Entity List: do not
 build, return empty fields with "DECLINED: <reason>". Same house as another brand in the batch: flag. Identity
 alternatives. Grid-availability notes (e.g. "Bitdefender holds cybersecurity exclusively at Ferrari").
+
+## Privacy rule (hard)
+Never put the user's name, email address or any other personal detail into a web request: no User-Agent, header, form field or URL. Use WebFetch / WebSearch for sec.gov and every other site. If a site refuses requests without a contact address, use another source (company IR page, press release, news) instead. Never mention this in the rows.
+
+## Calendar update (overrides anything above)
+Deals pitched now start in the 2027 season. Use the 2027 calendar (announced 16 Sept 2026, 24 rounds): Bahrain (Sakhir, opener 12-14 Mar), Saudi Arabia (Jeddah), Melbourne, Suzuka, Shanghai, Miami, Montreal, Monaco, Portugal (Portimao, returns), Silverstone, Spielberg, Spa, Budapest, Monza, Madrid, Baku, Istanbul (returns, subject to homologation), Singapore, Austin, Mexico City, Sao Paulo, Las Vegas, Qatar (Lusail), Abu Dhabi. Not on the 2027 calendar: Zandvoort, Barcelona, Sepang and Imola, so never list them. Bahrain and Jeddah were cancelled in 2026 only; they may be listed.

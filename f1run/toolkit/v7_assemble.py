@@ -25,7 +25,7 @@ MASTERS = ['F1 Merge Master v7 - B2B.docx', 'F1 Merge Master v7 - B2B no referen
            'F1 Merge Master v7 - B2C.docx', 'F1 Merge Master v7 - B2C no reference.docx']
 OPENER = ('Reaching out from SPORTFIVE - the authorized agency managing brands sponsorships for '
           'Formula 1 teams working closely with McLaren, Haas, Audi & Mercedes to name a few.')
-CLOSE = ('Would you be open to a quick call?')
+CLOSE = ('Would you be open to a quick call? If interested, we would love to host you at a race to show you how partners are generating ROI.')
 BULLETS = [('Your target audience: ', 'target_audience'), ('Market Overlap: ', 'market_overlap'),
            ('Market Reference: ', 'market_reference'), ('Shared Values: ', 'shared_values'),
            ('Formula 1 Audience: ', 'f1_audience')]
