@@ -21,6 +21,13 @@ OCR, OUT = sys.argv[1], sys.argv[2]
 # recording part -> (file shown to the user, offset of the part in the video, seconds)
 PARTS = {'6a': ('6.mov', 0), '6b': ('6.mov', 845)}
 LOWCONF = 0.85
+# detailed descriptions written per company (screenrec/desc/out_NNN.json: [id, about, conf]); id = loose name | country
+ABOUT = {}
+for _f in sorted(glob.glob(os.path.join(H, 'desc', 'out_*.json'))):
+    try:
+        for _r in json.load(open(_f)):
+            if isinstance(_r, list) and len(_r) >= 3 and _r[1]: ABOUT[_r[0]] = _r
+    except Exception as e: print('skip', _f, e)
 NOT_F1 = {'Paramount Group'}     # same name as an F1 partner, different company (Paramount+ is the partner)
 
 def fmt_m(v):
@@ -166,6 +173,8 @@ for g in groups:
     if c['country']: why.append(f"HQ {c['country']}")
     if consumer: why.append('consumer-facing')
     c['why'] = '; '.join(why)
+    a = ABOUT.get(f"{loose(c['brand']) or c['brand'].lower()}|{c['country']}")
+    c['about'], c['about_conf'] = (a[1], {'H': 'high', 'M': 'medium', 'L': 'low - check'}.get(a[2], a[2])) if a else ('', '')
     out.append(c)
 
 # last merge: two OCR spellings that ended with the same name and country (e.g. "ltron" / "Itron") are one company
@@ -188,14 +197,17 @@ print('main', len(main), 'current F1', len(f1rows))
 
 # ---------- workbook ----------
 HDR = Font(bold=True, color='FFFFFF'); HFILL = PatternFill('solid', fgColor='1F3864'); BOLD = Font(bold=True)
+WRAP = Alignment(wrap_text=True, vertical='top'); AMBER = PatternFill('solid', fgColor='FFF2CC')
 TFILL = {'Tier 1': 'C6EFCE', 'Tier 2': 'FFEB9C', 'Tier 3': 'F2F2F2', 'Tier 4': 'FFFFFF'}
 COLS = [('Rank', 7, 'rank'), ('Tier', 8, 'tier'), ('Priority score (/100)', 10, 'score'), ('Brand', 30, 'brand'), ('Sector', 26, 'sector'),
         ('Subsector (Crunchbase industries)', 34, 'subsector'), ('HQ country', 16, 'country'), ('HQ location (Crunchbase)', 30, 'hq'),
-        ('Description (Crunchbase)', 60, 'desc'), ('Total funding (as shown)', 18, 'total'), ('Funding range filter (USD)', 22, 'range'),
+        ('About the company', 90, 'about'), ('About: confidence', 9, 'about_conf'), ('Description (Crunchbase)', 40, 'desc'),
+        ('Total funding (as shown)', 18, 'total'), ('Funding range filter (USD)', 22, 'range'),
         ('Last funding date', 14, 'date'), ('Why this rank', 60, 'why'), ('Flags', 50, 'flags'), ('Search', 22, 'search'), ('Seen in recording', 26, 'src')]
 def sheet(wb, title, data, cols=COLS, tier=True):
     ws = wb.create_sheet(title[:31])
     ws.append([h for h, _, _ in cols])
+    ai = next((i for i, (_, _, k) in enumerate(cols, 1) if k == 'about'), None)
     for i, (h, w, _) in enumerate(cols, 1):
         cl = ws.cell(1, i); cl.font = HDR; cl.fill = HFILL; cl.alignment = Alignment(wrap_text=True, vertical='center')
         ws.column_dimensions[get_column_letter(i)].width = w
@@ -204,6 +216,8 @@ def sheet(wb, title, data, cols=COLS, tier=True):
         ws.append([c.get(k, '') for _, _, k in cols])
         if tier and c.get('tier'):
             ws.cell(ws.max_row, 2).fill = PatternFill('solid', fgColor=TFILL[c['tier']])
+        if ai and c.get('about'): ws.cell(ws.max_row, ai).alignment = WRAP
+        if ai and c.get('about_conf', '').startswith('low'): ws.cell(ws.max_row, ai + 1).fill = AMBER
     ws.freeze_panes = 'E2'; ws.auto_filter.ref = ws.dimensions
     return ws
 
@@ -224,6 +238,9 @@ lines = [
     ('Priority score (/100) = sector F1 fit x4 (40) + funding raised (25) + recency of last round (20) + HQ market (8) + consumer-facing (7).', None),
     ('Tier 1 = top 500 (contact first), Tier 2 = 501-2,000, Tier 3 = 2,001-6,000, Tier 4 = the rest. Sector tabs keep the same order.', None),
     ('Sector: same 48 sectors as the earlier lists, chosen from the Crunchbase industries, name and description. Subsector = the Crunchbase industries shown.', None),
+    ('About the company: a detailed description per company (products and brands, customers, business model, markets, scale, ownership, '
+     'consumer visibility) written from the Crunchbase description and industries plus research knowledge. Confidence: high = well-known '
+     'company; medium = partly known; low (amber) = little public information, only what Crunchbase shows - check before outreach.', None),
     ('Country: from the Crunchbase HQ location (the table cuts long locations short; the state / province decides when the country is cut off).', None),
     ('', None),
     ('Read before outreach', BOLD),
@@ -296,7 +313,7 @@ for cl in wp[1]: cl.font = HDR; cl.fill = HFILL
 
 sheet(wb, 'ALL PROSPECTS (RANKED)', main)
 F1COLS = [('Brand', 30, 'brand'), ('Current F1 deal (2026 rosters)', 60, 'f1'), ('Sector', 26, 'sector'), ('Subsector (Crunchbase industries)', 34, 'subsector'),
-          ('HQ country', 16, 'country'), ('Description (Crunchbase)', 60, 'desc'), ('Total funding (as shown)', 18, 'total'),
+          ('HQ country', 16, 'country'), ('About the company', 90, 'about'), ('About: confidence', 9, 'about_conf'), ('Description (Crunchbase)', 40, 'desc'), ('Total funding (as shown)', 18, 'total'),
           ('Funding range filter (USD)', 22, 'range'), ('Last funding date', 14, 'date'), ('Seen in recording', 26, 'src')]
 sheet(wb, 'ALREADY F1 SPONSORS', f1rows, F1COLS, tier=False)
 by_sec = defaultdict(list)
