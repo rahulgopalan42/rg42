@@ -11,6 +11,8 @@ PATTERNS = [
     r"\s*Funding (?:figures|data) (?:come|comes|are taken) from Crunchbase[^.]*\.",
     r"\s*It is a modest-sized player whose marketing budget is limited[^.]*\.",
     r"\s*Such a company is unlikely to have a large marketing budget without further verification\.",
+    r"\s*It appeared in a search for listed \(public\) companies\.",
+    r"\s*Crunchbase gives its headquarters country as [^;.]*;[^.]*\.",
 ]
 _RX = [re.compile(p, re.I | re.S) for p in PATTERNS]
 def clean_about(t):
