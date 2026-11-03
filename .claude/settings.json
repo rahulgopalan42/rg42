@@ -7,7 +7,11 @@
       "mcp__Apollo_io__apollo_people_bulk_match",
       "mcp__Apollo_io__apollo_people_match",
       "mcp__Apollo_io__apollo_mixed_companies_search",
-      "mcp__Apollo_io__apollo_organizations_enrich"
+      "mcp__Apollo_io__apollo_organizations_enrich",
+      "WebFetch",
+      "WebSearch",
+      "mcp__Google_Drive",
+      "mcp__Crunchbase"
     ]
   }
 }
