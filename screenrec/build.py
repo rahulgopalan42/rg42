@@ -22,6 +22,8 @@ OCR, OUT = sys.argv[1], sys.argv[2]
 # recording part -> (file shown to the user, offset of the part in the video, seconds)
 PARTS = {'6a': ('6.mov', 0), '6b': ('6.mov', 845)}
 LOWCONF = 0.85
+# description writers recognised some rows as OCR misreads of a company that is listed again correctly
+DUPLICATE = re.compile(r'duplicate (?:row|entry|record|listing)|is a (?:misspelt |misspelled |garbled )?duplicate|appears to be a duplicate|looks like a (?:garbled )?duplicate|(?:shown|appearing) here as a duplicate|listed under a mistyped duplicate|duplicate of (?:the |another )', re.I)
 # detailed descriptions written per company (screenrec/desc/out_NNN.json: [id, about, conf]); id = loose name | country
 ABOUT = {}
 for _f in sorted(glob.glob(os.path.join(H, 'desc', 'out_*.json'))):
@@ -72,11 +74,15 @@ def fix_ai(t):                  # the OCR reads "AI" as "Al" / "A1"
     t = re.sub(r'\((Al|A1)\)', '(AI)', str(t or ''))
     t = re.sub(r'\bA1\b', 'AI', t)
     return re.sub(r'(?<=[a-z0-9 .\-])Al(?=\s*$|[),])', 'AI', t)       # "Manus Al", "GigaAl"; not "Al Ahli"
+AMT_TAIL = re.compile(r'\s*(?:(?:CN|HK|CA|A|NZ|NT|R|MX)[\$\u00a5\uffe5]|[\$\u20ac\u00a3\u00a5\uffe5]|(?<=[a-z])S)?\s?\d[\d,\.oO]{3,}\s*$')
 def clean_name(n):
     n = re.sub(r'\s+', ' ', str(n or '')).strip()
     n = re.sub(r'^[^A-Za-z0-9\u4e00-\u9fff]+', '', n)
+    m = AMT_TAIL.search(n)                          # "ASOS237,500,000": the name cell ran into the funding column
+    if m and (',' in m.group(0) or '.' in m.group(0) or len(re.sub(r'\D', '', m.group(0))) >= 6) and m.start() >= 2: n = n[:m.start()].strip()
     return fix_ai(n)
 for r in rows:
+    r['name_raw'] = re.sub(r'^[^A-Za-z0-9\u4e00-\u9fff]+', '', re.sub(r'\s+', ' ', str(r.get('name') or '')).strip())
     r['name'] = clean_name(r.get('name'))
     for f in ('ind', 'desc'): r[f] = fix_ai(r.get(f, ''))
     r['country'] = country_of(r.get('hq', ''))
@@ -175,6 +181,10 @@ for g in groups:
     if consumer: why.append('consumer-facing')
     c['why'] = '; '.join(why)
     a = ABOUT.get(f"{loose(c['brand']) or c['brand'].lower()}|{c['country']}")
+    for o in obs:                                   # descriptions were keyed on the name as first read
+        if a: break
+        a = ABOUT.get(f"{loose(fix_ai(o['name_raw'])) or fix_ai(o['name_raw']).lower()}|{c['country']}") or ABOUT.get(f"{loose(fix_ai(o['name_raw']))}|{o['country']}")
+    c['dup_flag'] = bool(a and DUPLICATE.search(a[1]))
     c['about'], c['about_conf'] = (a[1], {'H': 'high', 'M': 'medium', 'L': 'low - check'}.get(a[2], a[2])) if a else ('', '')
     out.append(c)
 
@@ -186,6 +196,8 @@ for c in sorted(out, key=lambda c: -c['seen']):
         _m[k]['src'] = '; '.join(sorted(set(_m[k]['src'].split('; ') + c['src'].split('; '))))[:200]; _m[k]['seen'] += c['seen']
     else: _m[k] = c
 print('merged same name + country', len(out) - len(_m)); out = list(_m.values())
+dropped_dups = [c for c in out if c.get('dup_flag')]; out = [c for c in out if not c.get('dup_flag')]
+print('dropped as OCR duplicates', len(dropped_dups))
 main = [c for c in out if not c['f1']]; f1rows = []
 for c in sorted([c for c in out if c['f1']], key=lambda c: -c['seen']):            # one row per F1 brand
     if not any(loose(x['brand']) == loose(c['brand']) for x in f1rows): f1rows.append(c)
