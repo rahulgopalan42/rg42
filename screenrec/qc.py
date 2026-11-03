@@ -27,6 +27,9 @@ nc = [c for c in main if not c['country']]
 chk('HQ country found for >= 97% of prospects (the rest: HQ cut off or blank in Crunchbase; HQ location column shows what was on screen)', len(nc) <= 0.03 * len(main), f'{len(nc)} without a country ({len(nc) / len(main):.1%}): ' + '; '.join(c['hq'] for c in nc[:8]))
 m1 = [c for c in main if not c['listed']]
 chk('Every prospect in the USD 150M+ search has a description', sum(1 for c in m1 if not c['desc']) <= 0.01 * len(m1), f"{sum(1 for c in m1 if not c['desc'])} of {len(m1)} without (8.mov listed-company rows have none: column off screen)")
+ab = [c for c in main + f1 if c.get('about')]
+chk('Every company has a detailed "About the company" description', len(ab) >= 0.99 * len(main + f1),
+    f"{len(ab)} of {len(main + f1)} described; confidence low (check before outreach): {sum(1 for c in ab if str(c.get('about_conf', '')).startswith('low'))}")
 wb = load_workbook(OUT, read_only=True)
 sec = sum(ws.max_row - 1 for ws in wb.worksheets if ws.title[:31] in {n[:31] for n in NAMES})
 chk('Every prospect sits on exactly one sector tab', sec == len(main), f'{sec} on sector tabs vs {len(main)} prospects')
