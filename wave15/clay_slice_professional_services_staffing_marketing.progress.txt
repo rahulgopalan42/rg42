@@ -1,0 +1,12 @@
+Group: professional_services_staffing_marketing
+Note: industry "Management Consulting" rejected by Clay -> dropped (17 industries used).
+Slices DONE:
+  C1|10,001+  (4 pages, 80 rows, hasMore=false)
+Slice IN PROGRESS:
+  C1|5,001-10,000  pages fetched: 105 (page index 0-104), 2100 rows written; hasMore still true.
+  Next taskId (may have expired): mcp-task_0tmvx37NrJzT6Ub39MV
+  If expired, re-run this slice from page 0 (duplicates can be deduped by linkedin_url+search).
+Slices NOT STARTED:
+  C1|1,001-5,000, C1|501-1,000, C1|201-500, C1|51-200
+  B|10,001+, B|5,001-10,000, B|1,001-5,000, B|501-1,000, B|201-500, B|51-200
+Helper: /tmp/claude-0/-home-user-rg42/f658b5c3-a5ae-5398-b208-f286520b1971/scratchpad/slice_professional_services_staffing_marketing/w.py "<band>|<size>" (stdin: name^domain^country^locality^typecode^emp^revcode^indcode^li_slug)

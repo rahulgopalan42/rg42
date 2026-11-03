@@ -1,0 +1,122 @@
+[
+{
+"id": "jirfine.com",
+"company": "Jirfine Intelligent Equipment Co., Ltd.",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; intelligent equipment"
+},
+{
+"id": "atc-a.com",
+"company": "Shen Zhen Auto Electric Power Plant",
+"sector": "44 Grid & Transformers",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Chao Ji standard",
+"triage_note": "real; fit 1; scale mid; power equipment"
+},
+{
+"id": "zjfly.com",
+"company": "浙江福莱新材料股份有限公司",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; functional coatings"
+},
+{
+"id": "zd-motor.com",
+"company": "Ningbo Union Sanitary Ware Co., LTD",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; motor maker"
+},
+{
+"id": "waldner-lab.de",
+"company": "WALDNER Laboreinrichtungen SE & Co. KG",
+"sector": "42 Health & Wellness",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; lab furniture"
+},
+{
+"id": "shsec.co.kr",
+"company": "Shin Heung Energy & Electronics Co.,Ltd.",
+"sector": "45 Electronic Parts",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; electronics maker"
+},
+{
+"id": "stfm.cn",
+"company": "Jiangsu Shentong Valve Co., Ltd",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; industrial valves"
+},
+{
+"id": "snbc.cn",
+"company": "新北洋数码科技",
+"sector": "33 Automation & Robotics",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; printers and modules"
+},
+{
+"id": "canmax.com.cn",
+"company": "苏州天华超净科技股份有限公司",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; cleanroom products"
+},
+{
+"id": "xacmfg.com",
+"company": "MH Machining",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "AVIC",
+"triage_note": "real; fit 1; scale mid; aerospace machining"
+}
+]

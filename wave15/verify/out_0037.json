@@ -1,0 +1,288 @@
+[
+ {
+  "id": "phchd.com",
+  "company": "PHC Holdings",
+  "sector_tab": "X Medtech",
+  "domain": "phchd.com",
+  "hq": "Tokyo, Japan",
+  "ownership": "Listed TSE (6523); KKR-backed since 2014 carve-out from Panasonic (current KKR % unverified)",
+  "sells": "Diabetes care (Ascensia), life-science lab equipment (PHCbi), diagnostics/clinical lab services (LSI Medience), healthcare IT",
+  "headcount_band": "10,001+ (~10,000 est)",
+  "revenue": "JPY 361.6B (~USD 2.4B) FY2025",
+  "valuation": "Market cap ~USD 0.9-1.05B (2026, varies by source)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 3,
+  "fit_detail": "Global sales incl. US/EU/Japan (1); buyers are clinicians/labs and diabetes patients, not affluent-25-54 skewed (0); precision/medical technology story (1); medtech not crowded on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "revenue route: USD 500M+",
+   "corporate brand low consumer recognition",
+   "medical advertising constraints"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes revenue route (JPY 361.6B FY2025) and all filters; no F1 tie found; corporate holding brand with medtech marketing limits and weak marketing motive",
+  "best_angle": "Ascensia could use F1 precision/data story for CGM/diabetes awareness, as diabetes brands already do at Le Mans and IndyCar.",
+  "sources": [
+   "https://simplywall.st/stocks/jp/healthcare/tse-6523/phc-holdings-shares/news/phc-holdings-full-year-2025-earnings-eps-misses-expectations",
+   "https://stockanalysis.com/quote/otc/PHCCF/",
+   "https://www.ascensia.com/",
+   "https://idf.org/news-and-resources/news/blue-circle-le-mans-diabetes-awareness/"
+  ]
+ },
+ {
+  "id": "drmartens.com",
+  "company": "Dr. Martens plc",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "drmartens.com",
+  "hq": "Camden, London, United Kingdom",
+  "ownership": "Listed LSE (DOCS); independent",
+  "sells": "Boots, shoes, bags; DTC and wholesale in EMEA, Americas, APAC",
+  "headcount_band": "1,001-5,000 (~3,000 est)",
+  "revenue": "GBP 764.9M (~USD 1.0B) FY26 to 29 Mar 2026 (-2.9%)",
+  "valuation": "n/a",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "Sells EMEA/Americas/APAC (1); youth/subculture audience rather than affluent 25-54 (0); heritage/rebellion story not performance/tech (0); footwear not crowded grid category (1)",
+  "up_and_coming": false,
+  "flags": [
+   "revenue route: USD 500M+",
+   "turnaround: revenue down 2.9% FY26",
+   "brand ethos weakly aligned with performance"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes revenue route (GBP 764.9M FY26), no F1 tie found; reservation: counter-culture brand with weak performance angle and turnaround focus",
+  "best_angle": "FY27 plan increases brand investment; F1's young, culture-led fanbase (Las Vegas, Miami, fashion collabs) could suit a limited-edition collab.",
+  "sources": [
+   "https://www.investegate.co.uk/announcement/rns/dr-martens--docs/fy26-results/9574272",
+   "https://fashionunited.in/news/business/dr-martens-returns-to-profit-growth-in-fy26/2026051954517",
+   "https://harpersbazaar.my/fashion/the-best-f1-fashion-collaborations/"
+  ]
+ },
+ {
+  "id": "zorlu.com.tr",
+  "company": "Zorlu Holding",
+  "sector_tab": "X Other",
+  "domain": "zorlu.com.tr",
+  "hq": "Istanbul, Turkey",
+  "ownership": "Private, Zorlu family; listed units Vestel, Zorlu Enerji",
+  "sells": "Conglomerate: consumer electronics/white goods (Vestel), energy, textiles (TAC), real estate",
+  "headcount_band": "10,001+ (~30,000 est)",
+  "revenue": "~USD 6B+ (est)",
+  "valuation": "n/a",
+  "latest_raise": "n/a",
+  "fit_score": 0,
+  "fit_detail": "Not scored - hard filter failed (distress)",
+  "up_and_coming": false,
+  "flags": [
+   "genuine distress: group loan restructuring talks with banks (Mar 2026)",
+   "Vestel USD 500M eurobond consent solicitation with Houlihan Lokey (Aug 2026)",
+   "Vestel/Textile FYY financial restructuring application (Jun 2026)"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Fails filter 3: genuine distress - Zorlu negotiating restructuring of bank loans (Mar 2026), Vestel restructuring its USD 500M eurobond (Aug 2026)",
+  "best_angle": "",
+  "sources": [
+   "https://www.intellinews.com/istanbul-listed-vestel-hires-new-york-listed-adviser-houlihan-for-500mn-eurobond-restructuring-454295/",
+   "https://www.intellinews.com/istanbul-listed-vestel-initiates-consent-solicitation-process-with-holders-of-500mn-eurobond-463372/",
+   "https://www.capital.com.tr/sirket-panosu/sirket-panosu-haberleri/zorlu-holdingden-yapilandirma-hamlesi",
+   "https://www.agbi.com/industry/2025/05/turkeys-zorlu-to-cut-jobs-and-sell-assets"
+  ]
+ },
+ {
+  "id": "vanlanschotkempen.com",
+  "company": "Van Lanschot Kempen",
+  "sector_tab": "01 Banking & Insurance",
+  "domain": "vanlanschotkempen.com",
+  "hq": "'s-Hertogenbosch, Netherlands",
+  "ownership": "Listed Euronext Amsterdam (VLK); independent",
+  "sells": "Private banking, wealth and investment management, merchant banking (NL, BE, CH, UK)",
+  "headcount_band": "1,001-5,000 (~1,900 est)",
+  "revenue": "n/a; H1 2026 net profit EUR 88.2M (+30%); AuM >EUR 200B",
+  "valuation": "Market cap ~USD 3.2B (Aug 2026) / ~EUR 2.9B",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "Active in NL, BE, UK (+CH) (1); affluent/HNW clients (1); wealth story not performance/tech (0); banking crowded on grid (0)",
+  "up_and_coming": false,
+  "flags": [
+   "banking category crowded",
+   "regional Benelux focus",
+   "Dutch GP ends after 2026"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes valuation route (~USD 3.2B mkt cap Aug 2026), no F1 tie found; reservations: crowded banking category and Benelux-centric footprint",
+  "best_angle": "HNW hospitality at Spa/Silverstone for Benelux/UK private clients; limited given crowded banking category.",
+  "sources": [
+   "https://companiesmarketcap.com/van-lanschot-kempen/marketcap/",
+   "https://www.banken.nl/nieuws/27347/van-lanschot-kempen-ziet-winst-met-30-stijgen-en-passeert-200-miljard-klantvermogen",
+   "https://sponsorship.sportbusiness.com/news/heineken-title-sponsors-returning-dutch-grand-prix/"
+  ]
+ },
+ {
+  "id": "haidilao.com",
+  "company": "Haidilao International Holding",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "haidilao.com",
+  "hq": "Beijing, China (HK-listed, Cayman inc.)",
+  "ownership": "Listed HKEX (6862); founder Zhang Yong controls; overseas restaurants in separately listed Super Hi International",
+  "sells": "Hotpot restaurants (mainland China), delivery, condiments",
+  "headcount_band": "10,001+ (~140,000 est)",
+  "revenue": "RMB 43.23B (~USD 6.0B) FY2025 (+1.1%)",
+  "valuation": "Market cap ~HKD 80-100B (2026, est)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 1,
+  "fit_detail": "Restaurants essentially mainland China only; overseas in Super Hi (0); mass-market diners (0); service story, not performance (0); restaurants not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "domestic China footprint",
+   "overseas ops in separate Super Hi"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes revenue/valuation (RMB 43.2B revenue FY2025) and filters, no F1 tie found (only Zhou Guanyu dining anecdote); fit 1 - domestic mass-market chain",
+  "best_angle": "",
+  "sources": [
+   "https://www.itiger.com/news/1121990081",
+   "https://superhiinternational.gcs-web.com/news-releases/news-release-details/super-hi-reports-unaudited-financial-results-fourth-quarter-0",
+   "https://gb.readly.com/magazines/gp-racing/2024-04-18/661fac3bced04b05614f3913"
+  ]
+ },
+ {
+  "id": "cgf.com",
+  "company": "Canaccord Genuity Group Inc.",
+  "sector_tab": "01 Banking & Insurance",
+  "domain": "cgf.com",
+  "hq": "Toronto/Vancouver, Canada",
+  "ownership": "Listed TSX (CF); independent, employee-heavy shareholding",
+  "sells": "Investment banking, capital markets, global wealth management (CA, UK & Crown Dependencies, US, AU)",
+  "headcount_band": "1,001-5,000 (~2,700 est)",
+  "revenue": "CAD 2.2B (~USD 1.6B) FY2026 to 31 Mar 2026 (+24.9%)",
+  "valuation": "Market cap ~CAD 1.2B (May 2026)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "CA/UK/US/AU (1); senior B2B and HNW clients (1); advisory story not performance/tech (0); banking crowded (0)",
+  "up_and_coming": false,
+  "flags": [
+   "banking category crowded"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes revenue route (CAD 2.2B FY2026), no F1 tie found; reservation: crowded banking/finance category on grid",
+  "best_angle": "Record FY2026 and growing UK/AU wealth arm could use Canadian/Australian/UK GP hospitality for HNW clients.",
+  "sources": [
+   "https://www.advisor.ca/industry-news/canaccord-posts-q4-revenue-of-612-7m/",
+   "https://finance.yahoo.com/quote/CF.TO",
+   "https://www.barchart.com/story/news/2324968/canaccord-genuity-group-q4-earnings-call-highlights"
+  ]
+ },
+ {
+  "id": "coretronic.com",
+  "company": "Coretronic Corporation",
+  "sector_tab": "52 Photonics & Optical",
+  "domain": "coretronic.com",
+  "hq": "Hsinchu, Taiwan",
+  "ownership": "Listed TPEx (5371); independent",
+  "sells": "Projectors (incl. Optoma brand), display modules/backlights, AR/optics, ODM for brands",
+  "headcount_band": "5,001-10,000 (~9,000 est)",
+  "revenue": "TWD 39.6B (~USD 1.3B) FY2025",
+  "valuation": "n/a",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 3,
+  "fit_detail": "Global sales via Optoma and ODM (1); mostly OEM/B2B buyers, not senior-brand audience (0); optics/precision technology (1); projectors not crowded (Epson is Mercedes partner, but category not in crowded list) (1)",
+  "up_and_coming": false,
+  "flags": [
+   "revenue route: USD 500M+",
+   "mostly ODM/B2B",
+   "competitor Epson is Mercedes F1 partner"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes revenue route (TWD 39.6B FY2025), no F1 tie found for Coretronic or Optoma; reservation: mostly ODM revenue, low brand marketing motive",
+  "best_angle": "Optoma could counter Epson's Mercedes deal with a projection/visual tech partnership at fan zones.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Coretronic",
+   "https://stockanalysis.com/quote/tpex/5371/financials/income-statement/",
+   "https://www.inavateapac.com/news/article/epson-showcases-technology-with-mercedes-amg-petronas"
+  ]
+ },
+ {
+  "id": "ltgroup.in",
+  "company": "LT Foods (Daawat)",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "ltgroup.in",
+  "hq": "Gurugram, India",
+  "ownership": "Listed NSE/BSE (LTFOODS); promoter Arora family",
+  "sells": "Basmati and specialty rice (Daawat, Royal), organic ingredients; India, US, Europe, Middle East",
+  "headcount_band": "1,001-5,000 (~3,000 est)",
+  "revenue": "INR 11,023 crore (~USD 1.27B) FY26 to 31 Mar 2026 (+26%)",
+  "valuation": "Market cap ~INR 14,200 crore (~USD 1.6B) 15 May 2026",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "India/US/UK-EU/Middle East (1); mass-market households (0); food staple story not performance (0); food not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "weak performance angle"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes revenue route (INR 11,023 cr FY26) and filters, no F1 tie found; reservation: mass-market staple with weak performance link",
+  "best_angle": "Global Daawat push (Shah Rukh Khan campaign, US/Middle East) could use F1's Middle East and US races for diaspora reach.",
+  "sources": [
+   "https://www.indianretailer.com/news/retail-india-news-lt-foods-fy26-revenue-crosses-rs-11000-cr",
+   "https://tijorifinance.com/company/lt-foods-limited",
+   "https://www.exchange4media.com/marketing-news/shah-rukh-khan-reps-basmati-brand-daawat-141385.html"
+  ]
+ },
+ {
+  "id": "rema-tiptop.com",
+  "company": "REMA TIP TOP AG",
+  "sector_tab": "21 Materials & Mech Parts",
+  "domain": "rema-tiptop.com",
+  "hq": "Poing (Munich), Germany",
+  "ownership": "Private, Stahlgruber family group; 2025 PE sale process pulled",
+  "sells": "Tyre/vehicle repair materials, conveyor belt services, surface protection for mining/industry",
+  "headcount_band": "5,001-10,000 (~8,000 est)",
+  "revenue": "EUR 1.5B+ FY2024 (company)",
+  "valuation": "Reported deal value >EUR 3B (Jun 2025, Reuters, est)",
+  "latest_raise": "n/a",
+  "fit_score": 1,
+  "fit_detail": "Global (1); B2B workshops/mining buyers, modest (0); repair materials not performance story (0); tyre-adjacent category crowded (0)",
+  "up_and_coming": false,
+  "flags": [
+   "tyre-adjacent category",
+   "sale process pulled 2025",
+   "motorsport: ADAC GT Masters title sponsor of Holzem twins 2026"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes revenue route (EUR 1.5B+ FY2024), no F1 tie found (only ADAC GT Masters sponsorship); fit 1 - B2B industrial, tyre-adjacent",
+  "best_angle": "",
+  "sources": [
+   "https://9fin.com/insights/rema-tip-top-pulls-sale-process",
+   "https://srnnews.com/triton-carlyle-weigh-bids-for-germanys-rema-tip-top-sources-say",
+   "https://rema-tiptop.de/en/holzem-twins-and-rema-tip-top-unveil-race-car-for-adac-gt-masters-2026/"
+  ]
+ },
+ {
+  "id": "newprinces.it",
+  "company": "NewPrinces (formerly Newlat Food)",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "newprinces.it",
+  "hq": "Reggio Emilia, Italy",
+  "ownership": "Listed Euronext Milan; controlled by Newlat Group SA (Mastrolia family); controls LSE-listed Princes Group",
+  "sells": "Packaged foods (Princes, Newlat, Centrale del Latte), Carrefour Italia retail since Dec 2025",
+  "headcount_band": "10,001+ (~18,000 est; more with Carrefour Italia)",
+  "revenue": "~EUR 2.9B FY2024; pro forma ~EUR 6.7B with Carrefour Italia (Dec 2025)",
+  "valuation": "n/a",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "Italy, UK and export markets (1); mass-market shoppers (0); food/retail story not performance (0); food not crowded (1)",
+  "up_and_coming": true,
+  "flags": [
+   "market expansion: food manufacturing -> grocery retail (Carrefour Italia, Dec 2025)",
+   "acquisitive, leverage worth checking"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes revenue route (EUR ~2.9B FY2024, ~EUR 6.7B pro forma), no F1 tie found; reservation: mass-market food/retail with weak performance angle",
+  "best_angle": "Doubling of scale via Carrefour Italia gives an Italian retail platform for Monza/Imola fan activation.",
+  "sources": [
+   "https://www.marketscreener.com/news/newprinces-s-p-a-02-december-2025carrefour-italia-acquisition-closing-presentation-newprinces-com-ce7d51d9dd8ef02c",
+   "https://www.esmmagazine.com/retail/italys-newprinces-posts-20-core-profit-rise-sees-stable-turnover-for-2025-300249",
+   "https://www.foodmanufacture.co.uk/Article/2024/07/31/newlat-completes-700m-princes-deal"
+  ]
+ }
+]

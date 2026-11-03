@@ -1,0 +1,122 @@
+[
+{
+"id": "legris-industries.com",
+"company": "Groupe Legris Industries",
+"sector": "33 Automation & Robotics",
+"country": "Belgium",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Industrial fluid connector group"
+},
+{
+"id": "lisec.com",
+"company": "LiSEC Austria GmbH",
+"sector": "23 Machine Tools",
+"country": "Austria",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Glass machinery maker"
+},
+{
+"id": "excaliburarmy.cz",
+"company": "EXCALIBUR ARMY spol. s r.o.",
+"sector": "32 Defense & Industrial AI",
+"country": "Czechia",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Czech defence manufacturer"
+},
+{
+"id": "kuijpers.com",
+"company": "Kuijpers Controlled Environments GmbH",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Cleanroom technology Germany"
+},
+{
+"id": "kronshtadt.ru",
+"company": "Компания \"Кронштадт\"",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "Russia",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Russian drone developer"
+},
+{
+"id": "thirdware.com",
+"company": "Thirdware Solution INC",
+"sector": "25 IT Services & Consulting",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; IT consulting"
+},
+{
+"id": "lifestylesglobal.com",
+"company": "LifeStyles Healthcare",
+"sector": "53 Consumer & Lifestyle",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Humanwell Healthcare",
+"triage_note": "real; fit 1; scale mid; Condom maker"
+},
+{
+"id": "testequity.com",
+"company": "TestEquity LLC",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Distribution Solutions Group",
+"triage_note": "real; fit 1; scale mid; Test equipment distributor"
+},
+{
+"id": "fortififoodsolutions.com",
+"company": "Fortifi Food Processing Solutions",
+"sector": "33 Automation & Robotics",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Food processing technology"
+},
+{
+"id": "northmarq.com",
+"company": "Northmarq",
+"sector": "X02 Real Estate & Building Products",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Pohlad Companies",
+"triage_note": "real; fit 1; scale mid; CRE finance firm"
+}
+]

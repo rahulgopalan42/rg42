@@ -1,0 +1,122 @@
+[
+{
+"id": "khd.com",
+"company": "KHD Humboldt Wedag",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; cement plant tech"
+},
+{
+"id": "seepex.com",
+"company": "SEEPEX",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; progressive cavity pumps"
+},
+{
+"id": "untha.com",
+"company": "UNTHA shredding technology GmbH",
+"sector": "23 Machine Tools",
+"country": "Österreich",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; industrial shredders"
+},
+{
+"id": "dfi.com",
+"company": "DFI",
+"sector": "45 Electronic Parts",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; embedded boards"
+},
+{
+"id": "abi-group.com",
+"company": "ABI Gruppe",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; special civil engineering"
+},
+{
+"id": "continental.aero",
+"company": "Continental Aerospace TechnologiesTM",
+"sector": "16 Travel & Hospitality",
+"country": "United States",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "AVIC",
+"triage_note": "real; fit 2; scale mid; aircraft engines"
+},
+{
+"id": "kitagawa.com",
+"company": "Kitagawa Corporation",
+"sector": "23 Machine Tools",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; chucks and workholding"
+},
+{
+"id": "forecam.com",
+"company": "福建福光天瞳光学有限公司Fujian Forecam Tiantong Optics Co.,Ltd",
+"sector": "33 Automation & Robotics",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; optical lenses"
+},
+{
+"id": "punch.co.jp",
+"company": "PUNCH INDUSTRY CO., LTD",
+"sector": "23 Machine Tools",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; mold components"
+},
+{
+"id": "leadmicro.com",
+"company": "Leadmicro 微导纳米",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; semiconductor ALD equipment"
+}
+]

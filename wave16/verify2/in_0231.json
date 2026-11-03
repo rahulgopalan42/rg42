@@ -1,0 +1,122 @@
+[
+{
+"id": "ptsecurity.com",
+"company": "Positive Technologies",
+"sector": "22 SaaS",
+"country": "Russia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Russian cybersecurity"
+},
+{
+"id": "dxbentertainments.com",
+"company": "DXB Entertainments",
+"sector": "29 Tech Media & Gaming",
+"country": "United Arab Emirates",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Dubai theme parks"
+},
+{
+"id": "ubsgold.com",
+"company": "PT Untung Bersama Sejahtera (UBS Gold)",
+"sector": "03 Luxury & Beauty",
+"country": "Indonesia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Indonesian gold jewelry"
+},
+{
+"id": "pcjeweller.com",
+"company": "PC Jeweller Ltd",
+"sector": "03 Luxury & Beauty",
+"country": "India",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Indian jewelry chain"
+},
+{
+"id": "cie.com.mx",
+"company": "CIE",
+"sector": "29 Tech Media & Gaming",
+"country": "Mexico",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Mexican live entertainment"
+},
+{
+"id": "ittihadclub.sa",
+"company": "Al-Ittihad Club Company",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "Saudi Arabia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "PIF",
+"triage_note": "real; fit 1; scale mid; Saudi football club"
+},
+{
+"id": "pranda.com",
+"company": "Pranda Group",
+"sector": "03 Luxury & Beauty",
+"country": "ประเทศไทย",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Thai fine jewelry"
+},
+{
+"id": "redbubble.com",
+"company": "Redbubble",
+"sector": "22 SaaS",
+"country": "Australia",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; artist marketplace"
+},
+{
+"id": "",
+"company": "Weimob",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese SaaS listed"
+},
+{
+"id": "khimjijewellers.com",
+"company": "Khimji Group Of Companies",
+"sector": "03 Luxury & Beauty",
+"country": "India",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Indian jewelry group"
+}
+]

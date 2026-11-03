@@ -1,0 +1,122 @@
+[
+{
+"id": "sunchain.com.tw",
+"company": "SunChain Group",
+"sector": "23 Machine Tools",
+"country": "Taiwan",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Taiwan machinery firm"
+},
+{
+"id": "ensignhi.com",
+"company": "Ensign Heavy Industries Co.,Ltd",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese heavy machinery"
+},
+{
+"id": "homemz.com",
+"company": "M&Z Furniture Co., Ltd",
+"sector": "49 Home & Living",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese furniture maker"
+},
+{
+"id": "idriverplus.com",
+"company": "DISMISS233",
+"sector": "33 Automation & Robotics",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; autonomous driving China"
+},
+{
+"id": "ongoaltech.com",
+"company": "ONGOAL TECHNOLOGY CO,. LTD.",
+"sector": "33 Automation & Robotics",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese automation firm"
+},
+{
+"id": "nrbgroup.be",
+"company": "The NRB Group",
+"sector": "25 IT Services & Consulting",
+"country": "Belgium",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Belgian IT group"
+},
+{
+"id": "hengjiu-pt.com",
+"company": "Hengjiu Chain Group",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese chain maker"
+},
+{
+"id": "myande.es",
+"company": "Myande Group LATAM",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese grain machinery"
+},
+{
+"id": "reksoft.com",
+"company": "Reksoft International",
+"sector": "25 IT Services & Consulting",
+"country": "Sweden",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; software development"
+},
+{
+"id": "pgs-sofa.com",
+"company": "PGS SOFA & CO",
+"sector": "49 Home & Living",
+"country": "Romania",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "P3G Group",
+"triage_note": "real; fit 1; scale mid; Romanian furniture maker"
+}
+]

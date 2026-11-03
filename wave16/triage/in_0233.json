@@ -1,0 +1,902 @@
+[
+{
+"id": "gov.je",
+"company": "States of Jersey Health and Social Services",
+"sector": "42 Health & Wellness",
+"country": "Jersey",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Jersey"
+},
+{
+"id": "campus-nes.de",
+"company": "RHÖN-KLINIKUM Campus Bad Neustadt",
+"sector": "42 Health & Wellness",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Der RHÖN-KLINIKUM Campus Bad Neustadt bietet eine sektorenübergreifende medizinische Versorgung im ländlichen Raum. Bei uns arbeiten über 3.000 Mitarbeitende aus verschiedenen Bereichen zusammen, um ambulante und station"
+},
+{
+"id": "asl.net.in",
+"company": "Arihant Superstructures Ltd.",
+"sector": "X02 Real Estate & Building Products",
+"country": "India",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Arihant Superstructures Ltd. (ASL) has played a major role in transforming the skyline of Navi Mumbai with an epitome of verve. ASL has a glorious clientele, a network of investors and financiers, efficient supply chain "
+},
+{
+"id": "",
+"company": "Irbid Electricity Company",
+"sector": "44 Grid & Transformers",
+"country": "Jordan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "rd\n    Notice: tw telecom is no longer active and thi...\n    Cox is now Spectrum. Follow along at https://w...\n    Notice: Level 3 Communications is no longer ac...\n    HP Autonomy, is a global leader in software th...\n "
+},
+{
+"id": "gnf-bd.com",
+"company": "GENERATION NEXT FASHIONS LIMITED",
+"sector": "53 Consumer & Lifestyle",
+"country": "Bangladesh",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Generation Next Fashions LTD. is a publicly listed company. GNFL is a vertical knit manufacturing company with  annual sales of USD $100 Million. \n\nThe Company manufactures composite knit fabrics and various types of rea"
+},
+{
+"id": "pallmed.pl",
+"company": "Pallmed",
+"sector": "42 Health & Wellness",
+"country": "Poland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "W Pallmed otaczamy kompleksową opieką pacjentów i ich rodziny. Koncentrujemy się na leczeniu domowym oraz stacjonarnym i oferujemy wsparcie w zakresie wentylacji mechanicznej, żywienia dojelitowego oraz medycyny paliatyw"
+},
+{
+"id": "egingpv.com",
+"company": "Eging Photovoltaic Technology Co., Ltd.",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "EGING PV, founded in 2003, has a registered capital of 2,129.46 million CNY.(about $327.6 million) Currently, EGING PV has more than 5,000 employees and covers an area of more than 1,666,666 m2. As one of the first PV pr"
+},
+{
+"id": "joho.de",
+"company": "St. Josefs-Hospital Wiesbaden GmbH",
+"sector": "42 Health & Wellness",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Das St. Josefs-Hospital Wiesbaden ist ein christlich orientiertes, katholisches Akutkrankenhaus der Schwerpunktversorgung mit 17 Fachabteilungen, darunter acht operativ tätigen Fächern. Unser Haus ist als rechtlich selbs"
+},
+{
+"id": "kwadrant.nl",
+"company": "stichting palet",
+"sector": "42 Health & Wellness",
+"country": "Netherlands",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Palet is een innovatieve zorgorganisatie, die ouderen en hun naaste omgeving in Leeuwarden en Noordwest Friesland ondersteunt om hun leven zo lang mogelijk zelfstandig voort te zetten. Palet is gespecialiseerd in het bie"
+},
+{
+"id": "icslleida.cat",
+"company": "Hospital Universitari Arnau de Vilanova de Lleida",
+"sector": "42 Health & Wellness",
+"country": "España",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "El Hospital Universitari Arnau de Vilanova de Lleida (HUAV) es el centro de referencia de enfermos agudos de las regiones sanitarias de Lleida y del Alt Pirineu i Aran. Ejerce también influencia sobre la franja oriental "
+},
+{
+"id": "mahaveergroup.in",
+"company": "Mahaveer Group RSPL",
+"sector": "X02 Real Estate & Building Products",
+"country": "India",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Mahaveer Group is synonymous with quality homes, with landmark projects dotting the cityscape of Bangalore."
+},
+{
+"id": "stellalunafashion.com",
+"company": "STELLA LUNA",
+"sector": "X06 Retail & E-commerce",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Stella Luna is a Chinese brand with an international flair.  Since its launch in 2006, Stella Luna has epitomized affordable luxury in shoe design. Combining state-of-the-art Chinese craftsmanship, European designs and t"
+},
+{
+"id": "kbcsm.hr",
+"company": "Sestre milosrdnice University Hospital Center",
+"sector": "42 Health & Wellness",
+"country": "Croatia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Klinički bolnički centar Sestre milosrdnice osnovan je 1846. godine i time je jedna od najstarijih, ali i najvećih zdravstvenih ustanova u Republici Hrvatskoj. \n\nSestre milosrdnice University Hospital Center was founded "
+},
+{
+"id": "ecura.no",
+"company": "Ecura as",
+"sector": "42 Health & Wellness",
+"country": "Norway",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Ecura er et resultat av flere selskaper som har slått seg sammen for å bygge et kvalitetsorientert norskeid helse- og omsorgsselskap. Vi er i sterk vekst og sysselsetter nå rundt 4 500 ansatte fordelt på ulike virksomhet"
+},
+{
+"id": "candemirholding.com.tr",
+"company": "Candemir Holding A.Ş.",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "Turkey",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Candemir Holding'in faaliyetlerini takip edebileceğiniz resmi Linkedin sayfasıdır."
+},
+{
+"id": "crewservices.com.au",
+"company": "Crew Services Group",
+"sector": "X06 Retail & E-commerce",
+"country": "Australia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "We Are The Number #1 Retail Services Provider In Australia #LoveWhereYouWork\n\nCrew Services Group is the leading provider of retail and supplier services specialising in ESL Installations, Merchandising, Planogram Implem"
+},
+{
+"id": "kce.co.th",
+"company": "KCE Electronics Public Company Limited",
+"sector": "45 Electronic Parts",
+"country": "Thailand",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "KCE ELECTRONICS PUBLIC COMPANY LIMITED is an Electrical and Electronic Manufacturing company located in ???????????????????????????-?????????????????????????????? 2 ????????? 1-1, Bangkok, Bangkok, Thailand."
+},
+{
+"id": "enmaa.com",
+"company": "Al Enmaa Real Estate Co.(k.s.c.c.)",
+"sector": "19 Gulf Sovereign & Tourism",
+"country": "Kuwait",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Al Enmaa Real Estate Company (K.S.C) has been established on 15/8/1993 by a capital of K.D 1 Million and its one of the first companies established by Kuwait Finance House and operates according to the provisions of the "
+},
+{
+"id": "sebnmexico.com",
+"company": "SEBN-MX",
+"sector": "33 Automation & Robotics",
+"country": "Mexico",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "En SEBN MX, lideramos la industria del diseño y fabricación de arneses eléctricos de alta calidad desde nuestra planta en Tlaxcala, México.\nNos destacamos por nuestra excelencia y colaboración con líderes automotrices al"
+},
+{
+"id": "klinikum-siegen.de",
+"company": "Klinikum Siegen",
+"sector": "42 Health & Wellness",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Das Klinikum Siegen zählt mit seinen rund 2.000 Mitarbeiter:innen zu den größten Arbeitgebern in der Region. Träger des Unternehmens ist der Kreis Siegen-Wittgenstein. Als großer Grund- und Regelversorger mit über 600 Be"
+},
+{
+"id": "hoodies.co.il",
+"company": "HOODIES group",
+"sector": "53 Consumer & Lifestyle",
+"country": "Israel",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "HOODIES group is a group of several leading fashion companies in Israel.\nThe companies in the group: HOODIES, TopTen ,CarolinaLemke ,Urbanica, Accessorize.\nOur work comes from a true love of fashion, comfort and creativi"
+},
+{
+"id": "gecareers.com",
+"company": "GEIQ",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "Mexico",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Our people, our purpose, our imagination-from this place, right in the center of Mexico, things that could be thought as impossible, become a reality. Meet GE Infrastructure Queretaro, -we call it GEIQ-the major advanced"
+},
+{
+"id": "hele.com.tw",
+"company": "Harmony Electronics Corporation (Crystal Oscillators/Resonators)",
+"sector": "27 Chip Makers",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "With over four decades of experience, Harmony Electronics Corp (H.ELE.) has established itself as a prominent crystal supplier in the industry.  Harmony produces high-quality quartz frequency components (Crystal oscillat"
+},
+{
+"id": "markexhaust.com",
+"company": "Mark Exhaust Systems Ltd",
+"sector": "33 Automation & Robotics",
+"country": "India",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Mark Exhaust System Ltd was incorporated in 1993 as a Joint Venture Company between Rattan Kapur & Associates and Maruti-Suzuki India Limited.\n\nThe major products of the company are Exhaust systems for four-wheeler and t"
+},
+{
+"id": "asst-fbf-sacco.it",
+"company": "ASST FBF Sacco",
+"sector": "42 Health & Wellness",
+"country": "Italy",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "ASST FBF Sacco is a company based out of Largo Volontari del Sangue, 1, Milano, Mi, Italy."
+},
+{
+"id": "volpes.co.za",
+"company": "Volpes, The Home of Linen",
+"sector": "X06 Retail & E-commerce",
+"country": "South Africa",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Volpes, The Home of Linen, is a proudly South African brand, established in 1929 in Port Elizabeth (now Gqeberha). Volpes began as a small, family-owned business, focused on supplying our loyal customers, all over South "
+},
+{
+"id": "greenpoint.pl",
+"company": "Greenpoint S.A.",
+"sector": "53 Consumer & Lifestyle",
+"country": "Poland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Greenpoint to polska marka odzieżowa dla kobiet istniejąca na rynku od 1992 roku. Obecnie w Polsce działa ponad 210 salonów marki, a także sklep internetowy greenpoint.pl.\n\nKolekcje Greenpoint kierowane są do kobiet nowo"
+},
+{
+"id": "thejurists.com",
+"company": "The Jurists",
+"sector": "50 Law Firms & Legal AI",
+"country": "India",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "'The Jurists' is a registered non-profit legal research organization which aims to create a platform for the law professionals, students, researchers and faculty of major law schools and colleges in the country to promot"
+},
+{
+"id": "scp.com.ar",
+"company": "Sociedad Comercial del Plata SA (COME)",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "Argentina",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Sociedad Comercial del Plata es un holding argentino con más de 14.000 accionistas en 17 países y 2.500 empleados, presente en sectores estratégicos como construcción, agroindustria, energía, transporte e infraestructura"
+},
+{
+"id": "shopper360.com.my",
+"company": "Shopper360",
+"sector": "07 Marketing & Sales",
+"country": "Malaysia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Shopper360 is the foremost shopper marketing expert group in Malaysia, with over 30 years’ experience in the industry. Together with our subsidiaries, we provide the most comprehensive marketing and advertising solutions"
+},
+{
+"id": "oral.fi",
+"company": "Oral Hammaslääkärit",
+"sector": "42 Health & Wellness",
+"country": "Finland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Oral Hammaslääkärit on Suomen suurin yksityinen suun terveydenhuollon palveluja tarjoava ketju. Tarjoamme laadukkaita perushammashoidon- ja suuhygienistipalveluita sekä lisäksi kattavat erikoishammashoidon palvelut. \n\nMe"
+},
+{
+"id": "erablue.id",
+"company": "Erablue Electronics",
+"sector": "X06 Retail & E-commerce",
+"country": "Indonesia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "PT ERA BLU ELEKTRONIK (Erablue Electronics) - a joint venture between Erajaya Group and MWG Vietnam, was established in December 2021. As a leading name in the electronic retail space, Erablue Electronics operates a netw"
+},
+{
+"id": "sahadhospitals.com",
+"company": "Sahad Hospitals",
+"sector": "42 Health & Wellness",
+"country": "Nigeria",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "About Sahad Hospital                                                                                                                                                                                        Sahad Hospital i"
+},
+{
+"id": "hopegoo.com",
+"company": "HopeGoo",
+"sector": "16 Travel & Hospitality",
+"country": "Hong Kong",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "HopeGoo is established by Tongcheng Travel. HopeGoo is a service platform providing one-stop travel experience for inbound travelers to China, currently covering six major areas including air tickets, hotels, train ticke"
+},
+{
+"id": "pe.it",
+"company": "ASL Pescara",
+"sector": "42 Health & Wellness",
+"country": "Italy",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Pagina ufficiale della ASL di Pescara"
+},
+{
+"id": "penghuothgroup.com",
+"company": "Borey Peng Huoth Group",
+"sector": "X02 Real Estate & Building Products",
+"country": "Cambodia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "WELCOME TO BOREY PENG HUOTH GROUP\n\nBorey Peng Huoth was founded in 2005 and becomes one of the most prominent Property Development companies in Cambodia today. With our vast expertise in the market, ambition to grow furt"
+},
+{
+"id": "ospedalecardarelli.it",
+"company": "Azienda Ospedaliera di Rilievo Nazionale Antonio Cardarelli",
+"sector": "42 Health & Wellness",
+"country": "Italy",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "A Napoli l’ospedale più grande del Sud."
+},
+{
+"id": "hydratec.nl",
+"company": "Hydratec Industries N.V.",
+"sector": "23 Machine Tools",
+"country": "Netherlands",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Hydratec Industries delivers industrial systems and plastic components designed to sustainably meet the growing need for food, health and mobility. \n\nOur core activities are carried out by our companies Lan, Royal Pas Re"
+},
+{
+"id": "shoppinggranderio.com.br",
+"company": "Shopping Grande Rio",
+"sector": "X06 Retail & E-commerce",
+"country": "Brazil",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "O Shopping Grande Rio é o  principal centro de compras da Baixada. A opção mais completa, com grandes marcas, as melhores lojas, muita diversão e lazer. Tudo isso num espaço aconchegante e muito confortável. Esperamos qu"
+},
+{
+"id": "alakaifak.com",
+"company": "شركة على كيفك للتجارة",
+"sector": "X06 Retail & E-commerce",
+"country": "Saudi Arabia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "شركة على كيفك تعمل في مجال بيع تجزئة الكماليات ومنتجات الاستهلاكية وهي امتداد لمؤسسة على كيفك للتجارة والتي تأسست في عام 1418هـ بفرع واحد وسط مدينة الرياض  حيث تم عرض المنتجات الاستهلاكية بأسعار في متناول الجميع الامر ال"
+},
+{
+"id": "yerevanmall.am",
+"company": "Yerevan Mall",
+"sector": "X06 Retail & E-commerce",
+"country": "Armenia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Yerevan Mall is a two-level shopping center located in Yerevan. It stands out for its unique architectural image, the cuneiform inscriptions from Urartu times (an Armenian Kingdom of 9-6th century BC) in its interior des"
+},
+{
+"id": "ks-klinikum.at",
+"company": "Kardinal Schwarzenberg Klinikum",
+"sector": "42 Health & Wellness",
+"country": "Austria",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Wir sind ein 500 Betten Schwerpunktkrankenhaus in der Ski- und Ferienregion Pongau. Jährlich zählen wir rund 180.000 Patientenkontakte, 30.000 davon stationär. Als zweitgrößtes Klinikum im Land Salzburg beschäftigen wir "
+},
+{
+"id": "ieeemapcon.org",
+"company": "MAPCON 2025",
+"sector": "32 Defense & Industrial AI",
+"country": "India",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Organizing IEEEE MAPCON 2025 at Grand Hyatt Kochi, Kerala, India!"
+},
+{
+"id": "agaplesion-elisabethenstift.de",
+"company": "AGAPLESION ELISABETHENSTIFT gGmbH",
+"sector": "42 Health & Wellness",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Das AGAPLESION ELISABETHENSTIFT ist ein Gesundheitscampus mit einem breiten Leistungsspektrum in der modernen Medizin und Pflege - kompetent, familiär, menschlich. Wir sind ein leistungsfähiges Krankenhaus der Regelverso"
+},
+{
+"id": "bsjiot.com",
+"company": "BSJ Technology",
+"sector": "36 IoT & Connectivity",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "About BSJ Technology\n\nBSJ Technology (SZSE: 301608) is a global AI Video Telematics Manufacturer and Connected Fleet IoT Solutions Provider.\n\nSince 2009, BSJ has been developing and manufacturing intelligent vehicle tech"
+},
+{
+"id": "wayeal-instrument.com",
+"company": "Wayeal Instruments",
+"sector": "40 Test & Measurement",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Wayeal is a publicly listed scientific & industrial instruments manufacturer, founded in 2003, total staff 1400+, among which 30% are engineers & 25 nos of PhDs.\nWe have 4 product lines,\n1. Analytical instruments: HPLC, "
+},
+{
+"id": "subtypestore.com",
+"company": "Subtype Store",
+"sector": "X06 Retail & E-commerce",
+"country": "Australia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "SUBTYPE was born in Sydney in 2014 as a destination for premium sneakers that blurred the lines between fashion and street. Evolving to its Melbourne flagship in 2019, SUBTYPE now curates a full collection of apparel and"
+},
+{
+"id": "dwidajayatama.com",
+"company": "PT Dwida Jaya Tama",
+"sector": "49 Home & Living",
+"country": "Indonesia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Dwida Manufacture is a manufacturing company based in Bogor, Indonesia, established in 2006. We began our journey as a distributor of educational teaching aids, and have since expanded our business to include the product"
+},
+{
+"id": "carlile.com.au",
+"company": "Carlile Swim",
+"sector": "42 Health & Wellness",
+"country": "Australia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Beyond the pool, we teach a lifelong skill. At Carlile Swim, we are more than a swim school; we are a community built on exceptional experiences. Combining a legacy of excellence with innovative teaching and expert techn"
+},
+{
+"id": "sellerassociados.com.br",
+"company": "Consultor Imobiliário",
+"sector": "X02 Real Estate & Building Products",
+"country": "Brazil",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Pensando em fazer uma festa ?  \r\nQuer receba seus presentes em dinheiro?\r\nSite de presentes virtuais para eventos em geral. \r\nSe você pretende realizar um evento e prefere escolher seus presentes e facilitar a vida dos s"
+},
+{
+"id": "unlp.sk",
+"company": "Univerzitná nemocnica L. Pasteura Košice",
+"sector": "42 Health & Wellness",
+"country": "Slovakia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Univerzitná nemocnica L. Pasteura Košice #chranimevasezdravie \nUŽ100ROKOV\nSme druhou najväčšou nemocnicou na Slovensku a koncovou nemocnicou pre celý región východného Slovenska. \n\nNemocnica má v súčasnosti viac ako 3530"
+},
+{
+"id": "hospitaliquique.cl",
+"company": "Hospital Dr. Ernesto Torres Galdames",
+"sector": "42 Health & Wellness",
+"country": "Chile",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "\"Nuestra visión, es ser una institución de salud, que por su resolutividad, sea un aporte para la red salud de la Macro Zona Norte del país, reconocida por nuestra población beneficiaria, por dar prestaciones de salud co"
+},
+{
+"id": "riojasalud.es",
+"company": "Servicio Riojano de Salud",
+"sector": "42 Health & Wellness",
+"country": "Spain",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Rioja Salud es la forma abreviada que utilizamos cuando nos referimos al Sistema Público de Salud de La Rioja.  El principal compromiso de Rioja Salud con los ciudadanos es garantizar la asistencia sanitaria universal de"
+},
+{
+"id": "irisclothings.in",
+"company": "Iris Clothings Limited",
+"sector": "53 Consumer & Lifestyle",
+"country": "India",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Iris Clothings Limited is a fast-growing apparel company. We are engaged in designing, manufacturing, branding and selling apparel and accessories for kids under the brand name DOREME in India. We deliver a broad range o"
+},
+{
+"id": "gxlu.com.cn",
+"company": "Guoxin Lucent Technologies Network Technologies Co., Ltd.",
+"sector": "25 IT Services & Consulting",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Jointly invested by China Telecom, Lucent Technologies ( China ) Co., Ltd., and China Telecom Corporation Limited, Guoxin Lucent Technologies Network Technologies Co., Ltd. (Guoxin Lucent) was founded in Beijing on April"
+},
+{
+"id": "ephag.es",
+"company": "Empresa Publica Hospital Alto Guadalquivir",
+"sector": "42 Health & Wellness",
+"country": "Spain",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Página donde se encuentra la información básica de los centros hospitalarios que componen la empresa"
+},
+{
+"id": "massystoresslu.com",
+"company": "Massy Stores Saint Lucia",
+"sector": "X06 Retail & E-commerce",
+"country": "Saint Lucia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Our Vision\nA Global Force For Good, An Investment Holding Company with a Caribbean Heart. \n\nOur Mission\nCreating Value, Transforming Life through:\n• Commitment to the satisfaction and happiness of our Associates\n• Contin"
+},
+{
+"id": "",
+"company": "Future Media and Telecommunications Group",
+"sector": "07 Marketing & Sales",
+"country": "Egypt",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "rd\n    Notice: tw telecom is no longer active and thi...\n    Cox is now Spectrum. Follow along at https://w...\n    Notice: Level 3 Communications is no longer ac...\n    HP Autonomy, is a global leader in software th...\n "
+},
+{
+"id": "vil.com.fj",
+"company": "Vision Investments Limited",
+"sector": "X06 Retail & E-commerce",
+"country": "Fiji",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Vision Investments Limited is a large and diversified public company listed on the SPX with diverse business interests including retail, automotive, light machinery, manufacturing, renewable energy, commercial and financ"
+},
+{
+"id": "ranger.de",
+"company": "Ranger Marketing & Sales Ltd. Company",
+"sector": "07 Marketing & Sales",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Ranger is one of the leading European companies for personal customer advice in direct sales. Our product partners entrust parts of their sales to us. This applies to both door-to-door and promotion. We address both priv"
+},
+{
+"id": "wisol.co.kr",
+"company": "WISOL: Wireless Solutions",
+"sector": "45 Electronic Parts",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "WISOL is a global manufacturer of front-end components, such as SAW filters, duplexers, FEM and wireless connectivity SiP/modules such as WiFi, BT, BLE, ZigBee, Z-Wave, and LTE. WISOL is also leading the frontier in LPWA"
+},
+{
+"id": "ktph.com.sg",
+"company": "Yishun Health",
+"sector": "42 Health & Wellness",
+"country": "Singapore",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Yishun Health (YH) is committed to caring for patients in and beyond the hospital. Our initiatives are testament to our contribution to Healthier SG where a focus on person centred care and collaboration forms the founda"
+},
+{
+"id": "",
+"company": "Feu Vert Maroc",
+"sector": "X06 Retail & E-commerce",
+"country": "Morocco",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "rd\n    Notice: tw telecom is no longer active and thi...\n    Cox is now Spectrum. Follow along at https://w...\n    Notice: Level 3 Communications is no longer ac...\n    HP Autonomy, is a global leader in software th...\n "
+},
+{
+"id": "groupgshk.com",
+"company": "GSHK Holding",
+"sector": "27 Chip Makers",
+"country": "Hong Kong",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Group Solar Hong Kong LLC(GSHK) is a world leader in manufacturing thin-film Copper Indium Gallium diSelenide(CIGS) photovoltaic(PV) modules and Mono Solar Panels with N-type cells."
+},
+{
+"id": "humanic.net",
+"company": "HUMANIC & SHOE4YOU (Brands  of Leder & Schuh AG)",
+"sector": "53 Consumer & Lifestyle",
+"country": "Austria",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Die LEDER & SCHUH AG zählt mit ihren beiden Vertriebsmarken HUMANIC und SHOE4YOU zu einem der größten Schuhhandelsunternehmen Europas. Das Unternehmen beschäftigt rund 2.000 Mitarbeiter*innen an etwa 200 Standorten in ne"
+},
+{
+"id": "group-qa.com",
+"company": "Group QA",
+"sector": "53 Consumer & Lifestyle",
+"country": "Bangladesh",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Group QA is an Apparel and Fashion company located in Shaheed Tajuddin Ahmed Ave, Dhaka, Dhaka Division, Bangladesh."
+},
+{
+"id": "taw-developments.com",
+"company": "Taw Developments",
+"sector": "X02 Real Estate & Building Products",
+"country": "Egypt",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": ""
+},
+{
+"id": "klinikum-karlsbad.de",
+"company": "SRH Klinikum Karlsbad-Langensteinbach GmbH",
+"sector": "42 Health & Wellness",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Our nationally and internationally renowned clinic offers you medical services at the highest level. In our specialist areas of spinal surgery, paraplegia, orthopaedics, neurology, internal medicine, vascular surgery, pa"
+},
+{
+"id": "thfl.nl",
+"company": "Thuiszorg Het Friese Land",
+"sector": "42 Health & Wellness",
+"country": "Netherlands",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Thuiszorg het Friese land: overal thuis, altijd bereikbaar.\n\nSoms heeft u thuis zorg nodig. Na terugkeer uit het ziekenhuis of revalidatiecentrum bijvoorbeeld. Maar ook wanneer het u niet meer lukt alles op eigen kracht "
+},
+{
+"id": "sapa.ir",
+"company": "sapa_ir",
+"sector": "25 IT Services & Consulting",
+"country": "Iran",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "صاپا؛ جریان نوآورانه صنعت\n\nما در صاپا بر این باوریم که با خلق جریان دانش و بهرهمندی از فناوری میتوان نوآوری را با صنعت پیوند زد و برای انجام این رسالت از تمامی پتانسیلهای موجود در کشور بهره خواهیم برد. همت مضاعف، اعتماد "
+},
+{
+"id": "klinikum-ab-alz.de",
+"company": "Klinikum Aschaffenburg-Alzenau gemeinnützige GmbH",
+"sector": "42 Health & Wellness",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Ausgewiesene Spezialisten, erfahrene Oberärzte - Ärzte im Klinikum verbinden Fachkompetenz und neueste wissenschaftliche Erkenntnisse mit menschlicher Anteilnahme. In einem Akademischen Lehrkrankenhaus profitiert auch de"
+},
+{
+"id": "saa-symtek.com",
+"company": "SAA Symtek Automation Asia",
+"sector": "33 Automation & Robotics",
+"country": "台灣",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Symtek Automation Asia (SAA) is a leading automation equipment supplier with over 1,200 employees across Taiwan, China, and Thailand. \nFounded in 1999 as \"Schmid Automation Asia,\" the company has experienced continuous g"
+},
+{
+"id": "namyang-intl.com",
+"company": "Namyang Int'l Co., Ltd",
+"sector": "53 Consumer & Lifestyle",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Established in 1985, Namyang International has been producing well-known fashion brands ranging from women's wear to men's wear as well as casual wear for many renowned customers including Kohl’s, H&M, Target, Guess, Exp"
+},
+{
+"id": "",
+"company": "Groupe Compagnie des Alpes",
+"sector": "16 Travel & Hospitality",
+"country": "France",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "rd\n    Notice: tw telecom is no longer active and thi...\n    Cox is now Spectrum. Follow along at https://w...\n    Notice: Level 3 Communications is no longer ac...\n    HP Autonomy, is a global leader in software th...\n "
+},
+{
+"id": "hlcorp.ca",
+"company": "Holloway Lodging Corporation",
+"sector": "16 Travel & Hospitality",
+"country": "Canada",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Holloway is a real estate corporation focused on acquiring, owning and operating select and limited service lodging properties and a small complement of full service hotels primarily in secondary, tertiary and suburban m"
+},
+{
+"id": "aslcn1.it",
+"company": "ASL CN1",
+"sector": "42 Health & Wellness",
+"country": "Italy",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "L’ASL CN1 nasce nel 2008 dall’unificazione delle tre precedenti Aziende Sanitarie: 15, 16 e 17.\nL'azienda si posiziona nella zona sud ovest del Piemonte con una superficie territoriale di 5790 chilometri quadrati. Il ter"
+},
+{
+"id": "gesundheit-burgenland.at",
+"company": "Gesundheit Burgenland",
+"sector": "42 Health & Wellness",
+"country": "Austria",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Wo Spitzenmedizin auf burgenländische Herzlichkeit trifft.\n\nAls größter burgenländischer Arbeitgeber im Gesundheitswesen suchen wir Persönlichkeiten, die sich mit Kompetenz, Menschlichkeit und Freude unserem sinnstiftend"
+},
+{
+"id": "kolkatalawfirm.com",
+"company": "Kolkata Law Firm",
+"sector": "50 Law Firms & Legal AI",
+"country": "India",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Kolkata Law Firm is an eminent law firm in Kolkata catering multiple legal services to the Indian  Offering list of Kolkata best law associates and top law firms, providing Legal Consulting services on civil law, Service"
+},
+{
+"id": "botanee.com.cn",
+"company": "Botanee Group",
+"sector": "X06 Retail & E-commerce",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Botanee Group\nIncorporated in 2010, Yunnan Botanee Bio-Technology Group Co., Ltd. is a leading force in the big health industry. The Company integrates R&D, production, and marketing, specifically focusing on the \"Intern"
+},
+{
+"id": "procurand.de",
+"company": "ProCurand Unternehmensgruppe",
+"sector": "42 Health & Wellness",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Wir pflegen Lebensfreude!\nDie ProCurand Unternehmensgruppe ist eine Betriebs- und Besitzgesellschaft, die 39 Einrichtungen mit vollstationärer Altenpflege, Ambulanten Pflegediensten und Service-Wohnen in den Bundesländer"
+},
+{
+"id": "ketchumdigital.fr",
+"company": "Ketchum Digital",
+"sector": "07 Marketing & Sales",
+"country": "France",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "BREAK THROUGH\r\n\r\nKetchum Digital is a marketing agency dedicated to create valuable bond between our clients and their communities (employees, partners, consumers, influencers ...) : to identify the \"right\" people, the \""
+},
+{
+"id": "barmherzige-muenchen.de",
+"company": "Barmherzige Brüder Krankenhaus München",
+"sector": "42 Health & Wellness",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Trotz modernster Technik sind wir ein Krankenhaus mit viel Einfühlungsvermögen: Wir wollen, dass bei uns die Zuneigung zum kranken Menschen spürbar ist! Heute betreuen über 1400 Mitarbeiter mit hoher fachlicher Kompetenz"
+},
+{
+"id": "mundoterra.com",
+"company": "Alexa Corporación",
+"sector": "53 Consumer & Lifestyle",
+"country": "Mexico",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "ALEXA CORPORACIÓN  es una empresa mexicana sólida en el mercado nacional y en constante crecimiento, dedicada a  la comercializacion y venta de calzado y ropa por medio del canal de la venta por catálogo y la venta direc"
+},
+{
+"id": "casinocosmopol.se",
+"company": "Casino Cosmopol",
+"sector": "NEW Gambling & Lotteries",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Casino Cosmopol är ett helägt dotterbolag till AB Svenska Spel. På uppdrag av regeringen driver vi sedan 2001 den fysiska casinoverksamheten i Sverige med internationella casinon som erbjuder en spännande mix av spel, ma"
+},
+{
+"id": "plazahotelgroup.com",
+"company": "PLAZA Hotelgroup GmbH",
+"sector": "16 Travel & Hospitality",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "PLAZA Hotelgroup – Ihr Zuhause für unterwegs\n\nWir als Vielreisende wissen: Reisen ist am schönsten, wenn man sich auch unterwegs zuhause fühlt. Genau dieses Gefühl prägt die Identität der PLAZA Hotelgroup.\nSeit 2002 entw"
+},
+{
+"id": "unm.sk",
+"company": "Univerzitná nemocnica Martin",
+"sector": "42 Health & Wellness",
+"country": "Slovakia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Univerzitná nemocnica Martin je koncovou nemocnicou pre celé severné Slovensko so spádom vyše 1,2 milióna obyvateľov. Významným rysom nášho zdravotníckeho zariadenia je komplexnosť poskytovaných služieb aširoký diagnosti"
+},
+{
+"id": "synevo.ua",
+"company": "Synevo Ukraine",
+"sector": "42 Health & Wellness",
+"country": "Ukraine",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Сінево – найбільша мережа лабораторій в Україні та частина міжнародного шведського медичного холдингу Medicover.\n 8 потужних лабораторій та 360+ відділень у 160+ містах України.  \n 1200+ видів тестів від рутинних до скла"
+},
+{
+"id": "delabo.com",
+"company": "DELABO.GROUP GmbH",
+"sector": "42 Health & Wellness",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Future-oriented technologies, innovative solutions and a first-class service are part of the group's strengths. The company is managed by the holding company, the DELABO.GROUP GmbH. The association of further owner-manag"
+},
+{
+"id": "laperva.net",
+"company": "Laperva",
+"sector": "42 Health & Wellness",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "With more than 15 years of experience in sports nutrition, slimming, and the natural products industry,\nLaperva has now positioned itself as an important player within the global nutrition market presenting the most rece"
+},
+{
+"id": "incity.ru",
+"company": "ОАО «Модный Континент» (Торговая марка INCITY,DESEO)",
+"sector": "53 Consumer & Lifestyle",
+"country": "Russia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "ОАО «Модный Континент» – успешная компания, которая была основана в 2003 году.\r\nК 2013 году ОАО «Модный Континент» является одним из 5 ТОП-российских ритэйлеров одежды, который проектирует, производит и продает одежду, б"
+},
+{
+"id": "talpasocial.com",
+"company": "Talpa Social",
+"sector": "07 Marketing & Sales",
+"country": "Netherlands",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Talpa Social is onderdeel van Talpa Network en vertegenwoordigt de meest vooraanstaande YouTube creators in Nederland. Wij helpen onze creators een professionele carrière op te bouwen door hen te laten groeien in kijkers"
+},
+{
+"id": "hdc.mv",
+"company": "Housing Development Corporation",
+"sector": "X02 Real Estate & Building Products",
+"country": "Maldives",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Building Beyond Horizons"
+},
+{
+"id": "oberbergkliniken.de",
+"company": "Oberberg Kliniken",
+"sector": "42 Health & Wellness",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Die Oberberg Kliniken\nWir sind der führende Qualitätsverbund privater Fachkliniken im Bereich Psychiatrie, Psychosomatik und Psychotherapie im deutschsprachigen Raum. An all unseren Standorten bieten wir offene, individu"
+},
+{
+"id": "thinking-ec.com",
+"company": "THINKING Electronic Industrial Co., Ltd.",
+"sector": "45 Electronic Parts",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "THINKING Electronic Industrial Co., Ltd. provides a broad line of protective circuit components, including over-voltage protection, over-temperature protection, and over-current protection. The product portfolio offers n"
+},
+{
+"id": "ecopharma.com.vn",
+"company": "Công ty Cổ phần Dược phẩm ECO",
+"sector": "42 Health & Wellness",
+"country": "Vietnam",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "ECO Pharma - nơi mà sứ mệnh của chúng tôi không chỉ là kinh doanh, mà còn là chăm sóc và bảo vệ sức khoẻ cho hàng trăm triệu người dân Việt Nam. Làm việc tại ECO Pharma không chỉ là công việc, đó còn là cơ hội để bạn đón"
+},
+{
+"id": "kuraomsorg.se",
+"company": "Kura Omsorg i Sverige AB",
+"sector": "42 Health & Wellness",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Vår verksamhet präglas av värdegrunderna glädje, trygghet och engagemang. \n\nKura Omsorg i Sverige AB startades 2007 och blev senare en del av Team Olivia. Sedan starten har företaget utvecklats, medarbetare och kunder re"
+},
+{
+"id": "senioren-park.de",
+"company": "Senioren-Park carpe diem",
+"sector": "42 Health & Wellness",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Die carpe diem Gesellschaften bestehen seit 1998 und haben heute ihren Sitz in Wermelskirchen. 1998 wurde das erste Haus in Niederselters bei Limburg eröffnet. Mittlerweile betreibt carpe diem 35 Einrichtungen in ganz De"
+},
+{
+"id": "toshibatec.co.jp",
+"company": "東芝テック(株)",
+"sector": "X06 Retail & E-commerce",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "東芝テックは、リテールとオフィスの現場に革新をもたらすソリューションカンパニーです。主力事業である「リテール・ソリューション」は、世界トップクラスのシェアを誇り、特に日本国内では圧倒的な実績を有しています。また、「ワークプレイス・ソリューション」では、複合機を中心としたドキュメント管理や業務改善に貢献する製品・サービスを提供しています。\n\n私たちは、現場の課題に寄り添い、テクノロジーと現場力を融合させたソリューションによって、お客様のビ"
+},
+{
+"id": "gzlbp.com",
+"company": "LBP SYSTEM",
+"sector": "42 Health & Wellness",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Guangzhou LBP Science & Technology is a pioneering leader in the biomedical science and pathology industry. Our comprehensive expertise integrates robust R&D, production, and services, enabling us to support the patholog"
+},
+{
+"id": "ibhomesearch.in",
+"company": "Indiabulls HomeSearch",
+"sector": "X02 Real Estate & Building Products",
+"country": "India",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Indiabulls Home Search is a customer centric company, with a strong pan India presence. Our portfolio of properties includes a variety of abodes, ranging from affordable homes to luxury apartments, in Mumbai, Delhi/NCR, "
+}
+]

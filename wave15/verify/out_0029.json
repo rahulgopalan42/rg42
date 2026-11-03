@@ -1,0 +1,294 @@
+[
+ {
+  "id": "bally.com",
+  "company": "Bally",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "bally.com",
+  "hq": "Caslano/Lugano, Switzerland",
+  "ownership": "PE-owned: Regent LP (acquired from JAB, Aug 2024)",
+  "sells": "Luxury shoes, bags and leather goods",
+  "headcount_band": "501-1,000 (est)",
+  "revenue": "~CHF 200M annual turnover (2024 press at sale, est)",
+  "valuation": "Not disclosed; ~CHF 100M debt at 2024 sale",
+  "latest_raise": "None",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; affluent yes; story heritage/craft not performance - no; luxury leather goods not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "provisional debt moratorium (Nachlassstundung) from mid-June 2026",
+   "Caslano production halted, most Swiss stores closed (Jul 2026)"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Hard filter 3 fail (distress): provisional Nachlassstundung since mid-June 2026 under court trustee, production stopped, stores closed",
+  "best_angle": "",
+  "sources": [
+   "https://www.cash.ch/news/presse-martullo-will-bally-retten-und-schweizer-produktion-wieder-hochfahren-956713",
+   "https://www.luxurytribune.com/en/ballys-struggle-for-reinvention-can-the-iconic-brand-reclaim-its-place-in-luxury",
+   "https://en.wikipedia.org/wiki/Bally_(fashion_house)"
+  ]
+ },
+ {
+  "id": "pinko.com",
+  "company": "PINKO",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "pinko.com",
+  "hq": "Fidenza, Italy",
+  "ownership": "Private; founder Pietro Negra (via Cris Conf S.p.A.)",
+  "sells": "Womenswear and accessories; Italy, Europe, China, global stores",
+  "headcount_band": "1,001-5,000 (~1,050, est)",
+  "revenue": "EUR 303M FY2022; Q1 2025 >EUR 70M (-3%); Q3 2025 -10% YoY; FY2024/2025 totals not found",
+  "valuation": "Not disclosed",
+  "latest_raise": "None",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; affluent 25-54 women yes; story fashion not performance - no; womenswear not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "composizione negoziata della crisi (Cris Conf, Oct 2024 - 2025)",
+   "lender agreement completed Apr 2026",
+   "revenue shrinking 2025"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Hard filter 3 fail (distress): Cris Conf entered court-supervised composizione negoziata della crisi Oct 2024, debt agreement with lenders only completed 2026; revenue falling",
+  "best_angle": "",
+  "sources": [
+   "https://www.milanofinanza.it/fashion/cris-conf-pinko-si-appella-al-tribunale-per-far-fronte-alla-crisi-di-liquidita-202410311704111740",
+   "https://bebeez.it/crisi-rilanci/il-fashion-brand-pinko-chiede-laccesso-alla-composizione-negoziata-della-crisi/",
+   "https://www.milanofinanza.it/fashion/pietro-negra-pinko-genera-cassa-procede-il-rilancio-202604231807058926",
+   "https://www.finanzaonline.com/notizie/pinko-chiude-il-primo-trimestre-2025-con-ricavi-superiori-ai-70-milioni-di-euro",
+   "https://www.wallstreetitalia.com/?p=793508"
+  ]
+ },
+ {
+  "id": "messika.com",
+  "company": "Messika",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "messika.com",
+  "hq": "Paris, France",
+  "ownership": "Private; founder Valerie Messika family-controlled",
+  "sells": "Fine and high jewellery (diamond); 75-90 boutiques, 550 multi-brand doors in 85 countries; Europe, Middle East, US, Asia",
+  "headcount_band": "201-500 (~400 2024, JDL; est)",
+  "revenue": "~EUR 210M 2024 (Morgan Stanley est, via Journal du Luxe) (~USD 227M, est)",
+  "valuation": "Not disclosed",
+  "latest_raise": "None",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes (France, Gulf, US, Asia); affluent 25-54 yes; precision/craft story partial - no; fine jewellery not crowded yes (watches crowded, jewellery not)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue is bank estimate",
+   "ex-F1 driver Romain Grosjean was men's-line ambassador (not a current F1 tie)",
+   "Baku GP pop-up via local distributor (not a partnership)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes via USD 150-500M revenue route (~EUR 210M 2024 est), capped at Stretch; no current F1 tie for brand (Grosjean link is personal ambassador, he is not an F1 driver)",
+  "best_angle": "Prior Grosjean campaign and Baku pop-up show motorsport affinity; Gulf/Monaco/Miami race hospitality fits high-jewellery clients.",
+  "sources": [
+   "https://www.journalduluxe.fr/fr/hbjo/messika-strategie-retail-joaillerie-interview",
+   "https://journalduluxe.fr/fr/business/messika-poursuit-son-expansion-internationale",
+   "https://www.journalduluxe.fr/fr/montres-joaillerie/messika-devient-membre-comite-colbert"
+  ]
+ },
+ {
+  "id": "cloudimperiumgames.com",
+  "company": "Cloud Imperium Games",
+  "sector_tab": "29 Tech Media & Gaming",
+  "domain": "cloudimperiumgames.com",
+  "hq": "London/Manchester, United Kingdom (and Los Angeles, US)",
+  "ownership": "Private; founder Chris Roberts controlled; Calder family minority (2018-19)",
+  "sells": "Star Citizen / Squadron 42 PC space sim, funded by player pledges",
+  "headcount_band": "1,001-5,000 (1,031 group end-2024, Star Citizen Wiki citing accounts)",
+  "revenue": "Player pledges ~USD 116M 2024; ~USD 140-150M 2025 (est, funding tracker, not audited revenue); costs exceeded revenue 2023",
+  "valuation": "USD 496M post-money (Dec 2018, Calder investment) - dated",
+  "latest_raise": "USD 46M from Calder family (2018-19)",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes (US, UK, EU); affluent male 25-54 gamers yes; tech/simulation story yes; space sim gaming not crowded but gaming present (EA/Codemasters) - no",
+  "up_and_coming": false,
+  "flags": [
+   "revenue unaudited pledge data",
+   "loss-making",
+   "valuation dated 2018"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Hard filter 1 fail (scale): sourced pledge revenue ~USD 116M 2024 below USD 150M; 2025 ~USD 140-150M only as unaudited estimate; last priced valuation USD 496M (2018); no USD 100M+ raise in 36 months",
+  "best_angle": "",
+  "sources": [
+   "https://starcitizen.tools/Cloud_Imperium_group",
+   "https://starcitizen.tools/Manchester",
+   "https://www.3djuegos.com/juegos/star-citizen/noticias/juego-caro-historia-ha-tenido-2024-envidiable-a-star-citizen-le-cuesta-atraer-a-nuevos-usuarios",
+   "https://www.pcgameshardware.de/Star-Citizen-Spiel-3481/News/Einnahmen-Rekord-1488007/",
+   "https://olhardigital.com.br/2026/05/25/games-e-consoles/star-citizen-financiamento-para-jogo-em-producao-ha-14-anos-atinge-um-bilhao-de-dolares/"
+  ]
+ },
+ {
+  "id": "toms.com",
+  "company": "TOMS",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "toms.com",
+  "hq": "Los Angeles, United States",
+  "ownership": "Private; creditor-owned since Dec 2019 debt-for-equity restructuring (Jefferies, Nexus Capital, Brookfield-led lenders)",
+  "sells": "Casual footwear, apparel and accessories; US, Europe, Asia",
+  "headcount_band": "501-1,000 (~770, est)",
+  "revenue": "Not disclosed; ~USD 225M only as undated aggregator estimate",
+  "valuation": "Not disclosed",
+  "latest_raise": "USD 35M from new owners at 2019 restructuring",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes; affluent 25-54 partial - no; story social-impact not performance - no; casual footwear not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "scale unverified",
+   "creditor-owned after 2019 restructuring",
+   "brand in decline"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Hard filter 1 fail (scale): no dated, sourced revenue; only aggregator estimate ~USD 225M; brand creditor-owned since 2019 restructuring",
+  "best_angle": "",
+  "sources": [
+   "https://www.worldfootwear.com/news/toms-ownership-to-be-taken-over-by-creditors/4414.html",
+   "https://thehustle.co/toms-shoes-struggling/",
+   "https://bitscale.ai/directory/toms"
+  ]
+ },
+ {
+  "id": "kavehome.com",
+  "company": "Kave Home",
+  "sector_tab": "49 Home & Living",
+  "domain": "kavehome.com",
+  "hq": "Vidreres (Girona), Spain",
+  "ownership": "Private; founder family (Vilagut) owned",
+  "sells": "Furniture and home decor, own stores and e-commerce across Europe (Spain, France, Italy, etc.)",
+  "headcount_band": "501-1,000 (~830, est)",
+  "revenue": "EUR 262M FY2024 (~USD 283M, est), +33%",
+  "valuation": "Not disclosed",
+  "latest_raise": "None",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes (Spain, France, Italy, wider EU); affluent 25-54 yes; story design not performance - no; furniture not crowded yes",
+  "up_and_coming": true,
+  "flags": [
+   "USD 150-500M revenue route",
+   "market expansion: Spain -> Milan, Rome, Paris stores (2025-26)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes via USD 150-500M revenue route (EUR 262M FY2024), capped at Stretch; no F1 tie found; fast-growing (+33%)",
+  "best_angle": "Store roll-out in Italy and France pairs with Barcelona, Monza and Imola race-weekend activation.",
+  "sources": [
+   "https://interiordaily.com/article/9702185/kave-home-closed-2024-with-a-record-turnover-of-eur262-million",
+   "https://www.catalannews.com/business/item/girona-furniture-brand-kave-home-eyes-expansion-to-milan-rome-and-paris",
+   "https://ecdb.com/resources/sample-data/retailer/kavehome"
+  ]
+ },
+ {
+  "id": "beretta.com",
+  "company": "Beretta",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "beretta.com",
+  "hq": "Gardone Val Trompia, Italy (holding: Beretta Holding S.A., Luxembourg)",
+  "ownership": "Private; Beretta family-owned",
+  "sells": "Firearms (Beretta, Benelli, Sako, Tikka, Franchi), ammunition (Norma, RWS, Ammotec), optics (Steiner, Burris), apparel; ~60% civil / 40% defence",
+  "headcount_band": "5,001-10,000 (~6,000 2024, Milano Finanza)",
+  "revenue": "EUR 1.6B FY2024 consolidated (Milano Finanza); ~EUR 1.68B FY2025 (Il Giorno)",
+  "valuation": "Not disclosed",
+  "latest_raise": "None",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; affluent 25-54 male yes; precision engineering story yes; firearms not on grid yes but brand-safety barrier",
+  "up_and_coming": false,
+  "flags": [
+   "brand-safety: firearms/defence maker, likely unacceptable to F1 and teams",
+   "defence revenue ~40%"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes revenue USD 500M+ (EUR 1.6B FY2024); no F1 tie found for Beretta or its brands; one real reservation: firearms/defence category likely blocked by F1/team brand-safety rules",
+  "best_angle": "",
+  "sources": [
+   "https://forbes.it/2025/04/03/beretta-cresce-sempre-piu-riarmo-europa/",
+   "https://www.milanofinanza.it/news/beretta-la-forza-silenziosa-della-longevita-202512041510509978",
+   "https://www.ilgiorno.it/brescia/economia/beretta-stabilimento-croazia-zara-munizioni-o9kwxi6j"
+  ]
+ },
+ {
+  "id": "anastasiabeverlyhills.com",
+  "company": "Anastasia Beverly Hills",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "anastasiabeverlyhills.com",
+  "hq": "Beverly Hills, United States",
+  "ownership": "Private; founder Anastasia Soare ~55% after Dec 2025 recap; TPG written down to ~6%",
+  "sells": "Premium cosmetics (brows, makeup), Sephora/Ulta and global retail",
+  "headcount_band": "501-1,000 (~660, est)",
+  "revenue": "~USD 350M 2025 (PitchBook est via Forbes Mexico)",
+  "valuation": "~USD 400M (Apr 2025, est); USD 3B at 2018 TPG deal (dated)",
+  "latest_raise": "Founder USD 225M equity injection in Dec 2025 debt recapitalization",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; affluent 25-54 women yes; story beauty not performance - no; cosmetics not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "debt restructuring/recapitalization Dec 2025 (TPG largely wiped out)",
+   "valuation collapsed USD 3B -> ~USD 0.4B"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Hard filter 3 fail (distress): debt restructuring Dec 2025 that wiped out most of TPG's USD 600M stake, founder recap; valuation fell to ~USD 400M",
+  "best_angle": "",
+  "sources": [
+   "https://www.beautymatter.com/articles/founder-makes-225-million-equity-investment-in-anastasia-beverly-hills",
+   "https://news.bgov.com/private-equity/tpg-takes-600-million-hit-on-eyebrow-queen-cosmetics-bet",
+   "https://forbes.com.mx/?p=1406123",
+   "https://www.businessoffashion.com/articles/news-analysis/with-tpg-stake-whats-next-for-anastasia"
+  ]
+ },
+ {
+  "id": "awwg.com",
+  "company": "AWWG (Pepe Jeans, Hackett)",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "awwg.com",
+  "hq": "Madrid, Spain",
+  "ownership": "Private; shared by M1 Group, L Catterton, chairman Carlos Ortega and G-III (~19%); no holder confirmed >50%",
+  "sells": "Pepe Jeans, Hackett London, Façonnable; Europe, UK, Middle East, Asia",
+  "headcount_band": "1,001-5,000 (~3,000, est)",
+  "revenue": "EUR 498.9M FY to Mar 2025 (~USD 540M), -3.2%",
+  "valuation": "Not disclosed",
+  "latest_raise": "G-III stake purchase (~12% 2024, rising to ~19%)",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; affluent 25-54 yes; Hackett British tailoring/motorsport heritage story yes; menswear not crowded (Boss, Hilfiger present) - no",
+  "up_and_coming": false,
+  "flags": [
+   "lapsed F1 tie: Hackett was Aston Martin F1 official travel/formalwear supplier 2021-2024 (and Williams sponsor 2015) - confirm before outreach",
+   "lapsed: Pepe Jeans past Red Bull Racing partner (from 2010)",
+   "G-III partnership being dissolved (2025)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes revenue USD 500M+ (EUR 498.9M FY Mar 2025); capped at Stretch for lapsed F1 ties (Hackett - Aston Martin F1 to 2024; Pepe - Red Bull Racing); missing growth targets",
+  "best_angle": "Hackett has proven F1 activation history; a renewed team kit deal could reboot growth as G-III exits.",
+  "sources": [
+   "https://www.modaes.com/global/companies/g-iii-ends-its-partnership-with-awwg-and-regains-control-of-its-brands-in-spain",
+   "https://ir.giii.com/news-releases/news-release-details/g-iii-apparel-group-ltd-reports-first-quarter-fiscal-2025",
+   "https://thepaddockmagazine.com/hackett-london-renews-partnership-with-aston-martin-f1-team",
+   "https://au.fashionunited.com/tags/f1",
+   "https://gr.fashionnetwork.com/news/Hackett-london-partners-with-f1,460967.html"
+  ]
+ },
+ {
+  "id": "xal.com",
+  "company": "XAL",
+  "sector_tab": "49 Home & Living",
+  "domain": "xal.com",
+  "hq": "Graz, Austria",
+  "ownership": "Private; founder family-owned",
+  "sells": "Architectural and technical lighting for offices, retail, hospitality; 30+ international locations",
+  "headcount_band": "1,001-5,000 (1,300-1,500, company careers pages)",
+  "revenue": "Not disclosed; ~EUR 200M only as screen estimate (unsourced)",
+  "valuation": "Not disclosed",
+  "latest_raise": "None",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; senior B2B buyers (architects, developers) yes; design/light story not performance - no; lighting not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "scale unverified"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Hard filter 1 fail (scale): no dated, sourced revenue found; private Austrian GmbH accounts not public",
+  "best_angle": "",
+  "sources": [
+   "https://www.karriere.at/f/xal",
+   "https://career.xal.com/l/en",
+   "https://www.preqin.com/data/profile/asset/xal-gmbh/205500"
+  ]
+ }
+]

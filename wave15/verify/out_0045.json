@@ -1,0 +1,296 @@
+[
+ {
+  "id": "viega.com",
+  "company": "Viega",
+  "sector_tab": "39 Construction & Field Svc",
+  "domain": "viega.com",
+  "hq": "Attendorn, Germany",
+  "ownership": "Private, family-owned (Viegener family); evaluated at Viega Group level",
+  "sells": "Press-fitting pipe systems, pre-wall/flushing systems and drainage technology for installers and building projects; sold worldwide (Europe, US, Asia)",
+  "headcount_band": "5,001-10,000 (5,500+ group, company July 2025)",
+  "revenue": "~EUR 1.8B (~USD 1.9B) 2022 (company press release Mar 2024); later years not published",
+  "valuation": "unknown (private)",
+  "latest_raise": "none (family-owned)",
+  "fit_score": 2,
+  "fit_detail": "sells in 3+ F1 markets (1); buyers are plumbers/installers and contractors (0); press-fitting engineering only weakly maps to precision (0); plumbing not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "B2B building products",
+   "latest revenue figure 2022"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes hard filters (revenue ~EUR 1.8B 2022, 5,500+ staff, no F1 tie found) but B2B plumbing-systems maker with little brand ambition toward an F1 audience.",
+  "best_angle": "",
+  "sources": [
+   "https://www.Viega.com/content/dam/viegadm/en/media/presse/viega-appoints-new-ceo/DE_PR_Neuer_CEO_ViegaGroup_240321.pdf",
+   "https://www.viega.de/content/dam/viegadm/en/media/presse/fuehrungswechsel/DE_PR_Fuehrungswechsel_Europa_250702.docx",
+   "https://www.viega.com/content/dam/viegadm/download-assets/en_com/testimages--com-de/finale-bilder-viega-com/hri/Viega_Factsheet_220516.pdf"
+  ]
+ },
+ {
+  "id": "octopusgroup.com",
+  "company": "Octopus",
+  "sector_tab": "02 Energy & Industrial",
+  "domain": "octopusgroup.com",
+  "hq": "London, United Kingdom",
+  "ownership": "Private; Octopus Group (founder-led holding) is the founding shareholder of Octopus Energy Group, alongside Origin Energy (22.7%), Generation IM, CPP Investments and others; Kraken spun out Dec 2025-2026 (Octopus keeps 13.7%)",
+  "sells": "Octopus Energy household energy supply, EV/heat-pump products and renewables in UK, Germany, Spain, Italy, France, Japan, US, Australia, NZ; Octopus Investments/Octopus Money asset management; Kraken software",
+  "headcount_band": "5,001-10,000 (~6,000, screen est)",
+  "revenue": "Octopus Energy ~GBP 13B+ group revenue (FY2024, est)",
+  "valuation": "Octopus Energy ~USD 9B (Dec 2023 raise); Kraken USD 8.65B (Dec 2025 round)",
+  "latest_raise": "Kraken ~USD 1B at USD 8.65B (D1 Capital lead, Dec 2025)",
+  "fit_score": 3,
+  "fit_detail": "sells in 3+ F1 markets (UK, Spain, Italy, Japan, US, Australia) (1); mass household customers rather than affluent 25-54 (0); clean-energy tech/global ambition story maps (1); electricity retail/clean tech not crowded oil (1)",
+  "up_and_coming": true,
+  "flags": [
+   "clarify target entity: Octopus Group holding vs Octopus Energy vs Kraken",
+   "visible challenger: UK's largest energy supplier, expanding internationally"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes hard filters (Octopus Energy valued ~USD 9B, Kraken USD 8.65B Dec 2025, ~6,000+ staff, no F1 tie found for Octopus, Kraken or Origin); global energy-tech challenger with strong marketing culture.",
+  "best_angle": "Octopus Energy's push into US, Japan, Spain and Italy plus F1's 2026 hybrid-power rules suit a clean-energy-tech challenger story.",
+  "sources": [
+   "https://www.skadden.com/about/news-and-rankings/news/2026/01/octopus-energy-group-to-spin-out-kraken-at-865-billion-valuation",
+   "https://sifted.eu/articles/octopus-energy-spin-off-kraken",
+   "https://en.wikipedia.org/wiki/Kraken_Technologies",
+   "https://www.verdict.co.uk/octopus-energy-kraken-technologies-demerger/"
+  ]
+ },
+ {
+  "id": "szyuto.com",
+  "company": "Shenzhen YUTO Packaging Technology",
+  "sector_tab": "55 Packaging & Food Machinery",
+  "domain": "szyuto.com",
+  "hq": "Shenzhen, China",
+  "ownership": "Listed on Shenzhen Stock Exchange (002831); founder-controlled",
+  "sells": "Premium consumer-electronics, cosmetics, liquor and tobacco packaging plus eco-friendly pulp packaging for global brands; plants in China, Vietnam, India, Mexico etc.",
+  "headcount_band": "10,001+ (~21,000-22,000, 2025-26)",
+  "revenue": "~CNY 17.5B (~USD 2.4B) TTM to Sept 2025",
+  "valuation": "market cap ~CNY 26-39B (~USD 3.7-5.5B) (June-Aug 2026)",
+  "latest_raise": "none (listed)",
+  "fit_score": 1,
+  "fit_detail": "sells to global brands in 3+ F1 markets (1); procurement buyers, not affluent audience (0); packaging story does not map (0); packaging not crowded but no consumer brand (0)",
+  "up_and_coming": false,
+  "flags": [
+   "B2B packaging, weak marketing motive",
+   "not found on UFLPA Entity List (Aug 2026 update) or 1260H - recheck before outreach",
+   "China HQ"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes hard filters (market cap ~USD 3.7-5.5B 2026, ~21,000 staff, no F1 tie found, not on UFLPA list) but B2B packaging supplier with no consumer brand ambition.",
+  "best_angle": "",
+  "sources": [
+   "https://simplywall.st/stocks/cn/materials/xsec-002831/shenzhen-yuto-packaging-technology-shares",
+   "https://www.google.com/finance/quote/002831:SHE",
+   "https://it.marketscreener.com/quotazioni/azione/SHENZHEN-YUTO-PACKAGING-T-36749364/",
+   "https://www.thomsonreuters.com/en-us/help/onesource-global-trade/regulatory-insights/2026/august-4th/dhs-updates-uflpa-entity-list-43-new-entities"
+  ]
+ },
+ {
+  "id": "atleticodemadrid.com",
+  "company": "Club Atlético de Madrid",
+  "sector_tab": "X Sports Clubs & Leagues",
+  "domain": "atleticodemadrid.com",
+  "hq": "Madrid, Spain",
+  "ownership": "Apollo Sports Capital majority (~55%, agreed Nov 2025, closing Q1 2026); Gil Marín and Cerezo remain shareholders/management",
+  "sells": "Professional football club (LaLiga, Champions League), media rights, sponsorship, ticketing; Riyadh Air Metropolitano and Ciudad del Deporte; sister clubs Atlético San Luis (Mexico) and Atlético Ottawa (Canada)",
+  "headcount_band": "1,001-5,000 (~1,200, screen est)",
+  "revenue": "~USD 427M (2023-24 season, Sportico)",
+  "valuation": "~EUR 2.2-2.5B (~USD 2.5-2.9B) club valuation in Apollo deal (Nov 2025)",
+  "latest_raise": "Apollo majority acquisition with planned capital injection (Nov 2025)",
+  "fit_score": 2,
+  "fit_detail": "global fanbase across 3+ F1 markets incl. Spain, Mexico, Canada (1); mass football fans rather than affluent (0); club story does not map to performance technology (0); sports clubs not crowded on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "unusual sponsor category (football club)",
+   "new PE owner Apollo - confirm Apollo has no F1 team stake",
+   "stadium naming partner Riyadh Air (not F1)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (valuation ~EUR 2.2-2.5B Nov 2025, ~1,200 staff, no F1 tie found for the club or Apollo Sports Capital); a football club sponsoring F1 is an unusual fit.",
+  "best_angle": "New owner Apollo wants global growth (Ciudad del Deporte, US/Mexico/Canada clubs), so F1 cross-promotion with a Madrid GP-linked activation is a possible angle.",
+  "sources": [
+   "https://www.sportico.com/business/team-sales/2025/apollo-buys-atletico-madrid-1234876265",
+   "https://ir.apollo.com/news-events/press-releases/detail/591/atltico-de-madrid-to-welcome-apollo-sports-capital-as",
+   "https://www.sportcal.com/features/deal-focus-apollo-takes-55-stake-in-atletico-madrid/",
+   "https://africa.espn.com/football/story/_/id/46917268/us-based-firm-apollo-buys-majority-stake-atletico-madrid"
+  ]
+ },
+ {
+  "id": "expanscience.com",
+  "company": "Laboratoires Expanscience",
+  "sector_tab": "42 Health & Wellness",
+  "domain": "expanscience.com",
+  "hq": "Paris La Défense, France",
+  "ownership": "Private, family-owned (Bérès family)",
+  "sells": "Mustela baby and family dermo-cosmetics, plus rheumatology/dermatology pharma and cosmetic active ingredients; ~70%+ international sales",
+  "headcount_band": "1,001-5,000 (~1,530, Revelio Sept 2025)",
+  "revenue": "~EUR 287M (~USD 320M) 2021 (est); ~EUR 300M 2024 (screen, est)",
+  "valuation": "unknown (private)",
+  "latest_raise": "none (family-owned)",
+  "fit_score": 2,
+  "fit_detail": "sells in 3+ F1 markets (US, Spain, Italy, Mexico etc.) (1); young parents rather than affluent 25-54 core (0); baby-care story does not map to performance (0); dermo-cosmetics not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue figures dated (est)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (revenue ~EUR 290-300M est, ~1,500 staff, no F1 tie found); capped at Stretch by the USD 150-500M revenue route, and a baby-care brand is a loose F1 fit.",
+  "best_angle": "",
+  "sources": [
+   "https://www.reveliolabs.com/companies/laboratoires-expanscience/employees",
+   "https://en.wikipedia.org/wiki/Laboratoires_Expanscience",
+   "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/industrie/engagement-durable-et-promesses-davenir"
+  ]
+ },
+ {
+  "id": "welltec.com",
+  "company": "Welltec",
+  "sector_tab": "02 Energy & Industrial",
+  "domain": "welltec.com",
+  "hq": "Allerød, Denmark",
+  "ownership": "Private; founder Jørgen Hallundbæk with long-term holders Exor and 7-Industries (minority)",
+  "sells": "Well robotics (Well Tractor), intervention services and completion products for oil & gas, geothermal and CCS operators worldwide",
+  "headcount_band": "1,001-5,000 (~1,350, Revelio Mar 2026)",
+  "revenue": "USD 435M 2023 (annual report); EBITDA USD 230M",
+  "valuation": "unknown (private)",
+  "latest_raise": "none; USD 325M senior notes (2021) refinanced with Nordic bank consortium Oct 2025",
+  "fit_score": 2,
+  "fit_detail": "sells in 3+ F1 markets (1); senior B2B buyers at oil operators (1); robotics technology story maps (0, B2B only); oilfield services crowded (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "oil category crowded",
+   "minority holder: Exor (largest Ferrari shareholder) - check, cap Stretch",
+   "B2B oilfield"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes hard filters (revenue USD 435M 2023, ~1,350 staff, no direct F1 tie) but oilfield B2B in a crowded category with no brand ambition; Exor minority stake would cap it at Stretch anyway.",
+  "best_angle": "",
+  "sources": [
+   "https://www.welltec.com/media/glbkr5dr/welltec-annual-report-2023.pdf",
+   "https://www.welltec.com/discover/news/welltec-completes-refinancing-with-strong-nordic-bank-consortium",
+   "https://www.rogtecmagazine.com/exor-and-7-industries-further-strengthen-welltec-support",
+   "https://www.reveliolabs.com/companies/welltec/employees/"
+  ]
+ },
+ {
+  "id": "gresearch.com",
+  "company": "G-Research",
+  "sector_tab": "12 Trading & Crypto",
+  "domain": "gresearch.com",
+  "hq": "London, United Kingdom",
+  "ownership": "Private; partnership structure (Braunford LLP / Alastair LLP from Aug 2024)",
+  "sells": "Quantitative research and technology for systematic trading (proprietary; no external clients)",
+  "headcount_band": "1,001-5,000 (~1,000-1,500, est)",
+  "revenue": "not disclosed; UK LLP staff costs ~GBP 150M in 8 months to Mar 2025 imply revenue well above GBP 500M (est)",
+  "valuation": "unknown (private)",
+  "latest_raise": "none",
+  "fit_score": 1,
+  "fit_detail": "no products sold to markets (0); motive is recruiting engineers/PhDs, not affluent buyers (0); quant/tech precision story maps (1); quant trading adjacent to crowded trading/crypto (0)",
+  "up_and_coming": false,
+  "flags": [
+   "scale unverified - no public financials (est)",
+   "talent-branding motive only"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "No hard filter failed on available evidence (scale implied by cost base, est; ~1,000+ staff; no F1 tie found) but private quant firm with no customers to market to; talent branding is its only motive.",
+  "best_angle": "",
+  "sources": [
+   "https://www.tradermath.org/salaries/g-research",
+   "https://zoominfo.com/c/g-research/348038119",
+   "https://happierleads.com/companies/gresearch-com"
+  ]
+ },
+ {
+  "id": "texa.com",
+  "company": "TEXA",
+  "sector_tab": "43 Mobility & Automotive",
+  "domain": "texa.com",
+  "hq": "Monastier di Treviso, Italy",
+  "ownership": "Private, founder-owned (Bruno Vianello)",
+  "sells": "Multibrand vehicle diagnostics, A/C service, telematics and e-powertrain components for workshops and OEMs; car, bike, truck, marine; global",
+  "headcount_band": "1,001-5,000 (1,048, company profile Mar 2025)",
+  "revenue": "EUR 205.7M (~USD 235M) 2025 (moto.it); EUR 191.2M 2024 (company profile)",
+  "valuation": "unknown (private)",
+  "latest_raise": "none (founder-owned)",
+  "fit_score": 2,
+  "fit_detail": "sells in 3+ F1 markets (1); workshop/OEM buyers (0); diagnostics/e-powertrain technology story maps (1); automotive category crowded (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "automotive category crowded",
+   "Ferrari road-car supplier and Ducati MotoGP supplier (not F1)",
+   "Mattia Binotto (now Audi F1 head) was TEXA board member 2024 - personal link only"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (revenue EUR 205.7M 2025, ~1,050 staff, no F1 team tie found); capped at Stretch by the USD 150-500M route, and automotive is crowded.",
+  "best_angle": "TEXA's motorsport DNA (Ducati MotoGP) and new e-powertrain division fit a technical-supplier story as F1 moves to 2026 hybrid rules.",
+  "sources": [
+   "https://www.texa.com/wp-content/uploads/2025/03/Company_Profile_V22_web.pdf",
+   "https://www.moto.it/news/texa-tecnologia-anche-a-tavola-welfare-aziendale.html",
+   "https://www.motorbox.com/auto/sport/f1/news/il-nuovo-ruolo-di-mattia-binotto-consigliere-delegato-alla-texa",
+   "https://www.fleetmagazine.com/servizi-mobilita/texa/"
+  ]
+ },
+ {
+  "id": "8advisory.com",
+  "company": "Eight Advisory",
+  "sector_tab": "25 IT Services & Consulting",
+  "domain": "8advisory.com",
+  "hq": "Paris, France",
+  "ownership": "Majority partner-owned; minority investor Sienna Investment Managers (Sienna Private Equity)",
+  "sells": "Transaction services, restructuring, valuation and performance advisory for corporates and PE funds; offices in Europe, US, Asia (30+ countries)",
+  "headcount_band": "501-1,000+ (~900-1,100 incl. 111 partners, est)",
+  "revenue": "~EUR 300M (~USD 330M) group (CFNews, est); French entity EUR 58.2M 2024",
+  "valuation": "unknown (private)",
+  "latest_raise": "Sienna IM minority stake (undisclosed)",
+  "fit_score": 3,
+  "fit_detail": "sells in 3+ F1 markets (UK, Spain, Italy, Belgium, NL, US) (1); senior B2B buyers (CFOs, PE partners) (1); advisory story does not map to performance technology (0); advisory not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "group revenue estimate only",
+   "B2B advisory"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (revenue ~EUR 300M est, ~1,000 staff, no F1 tie found); senior B2B audience fits hospitality but capped at Stretch by the USD 150-500M revenue route.",
+  "best_angle": "F1 hospitality suits a fast-growing advisory firm courting PE and CFO clients across Europe as it aims to double in size.",
+  "sources": [
+   "https://pappers.fr/entreprise/514274760",
+   "https://www.privateequitywire.co.uk/sienna-im-acquire-minority-interest-eight-advisory/",
+   "https://www.consultancy.eu/news/8392/eight-advisory-hits-80-partners-with-latest-intake-of-leaders",
+   "https://www.consultor.fr/articles/eight-advisory-choisit-gbl-pour-accelerer-sa-croissance"
+  ]
+ },
+ {
+  "id": "deltacapita.com",
+  "company": "Delta Capita",
+  "sector_tab": "25 IT Services & Consulting",
+  "domain": "deltacapita.com",
+  "hq": "London, United Kingdom",
+  "ownership": "Financial-services division of Prytek (parent)",
+  "sells": "Capital-markets consulting, managed services and CLM/KYC technology for banks; UK, EU, US, Asia",
+  "headcount_band": "501-1,000+ (~900-1,500, aggregators, est)",
+  "revenue": "~USD 345-567M (aggregator estimates 2025, conflicting, est)",
+  "valuation": "unknown",
+  "latest_raise": "none found",
+  "fit_score": 2,
+  "fit_detail": "sells in 3+ F1 markets (1); senior B2B bank buyers (1); consulting story does not map (0); banking-services adjacent to crowded banking (0)",
+  "up_and_coming": false,
+  "flags": [
+   "subsidiary of Prytek",
+   "revenue unverified (est)"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Fails independence: subsidiary of Prytek (its financial-services division), not a separately marketed consumer brand; revenue also unverified.",
+  "best_angle": "",
+  "sources": [
+   "https://prnewswire.co.uk/news-releases/delta-capita-acquires-jdx-consulting-to-create-one-of-the-largest-specialist-capital-markets-consulting-and-managed-service-providers-860582101.html",
+   "https://coverager.com/company/delta-capita/",
+   "https://growjo.com/company/Delta_Capita",
+   "https://www.consultancy.uk/news/38748/delta-capita-acquires-financial-services-consultancy-aurora"
+  ]
+ }
+]

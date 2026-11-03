@@ -1,0 +1,290 @@
+[
+ {
+  "id": "versuni.com",
+  "company": "Versuni (ex-Philips Domestic Appliances)",
+  "sector_tab": "49 Home & Living",
+  "domain": "versuni.com",
+  "hq": "Amsterdam, Netherlands",
+  "ownership": "Private; Hillhouse Investment (PE) since 2021",
+  "sells": "Kitchen, coffee, garment-care and air appliances under licensed Philips brand plus Saeco, Gaggia, Senseo, L'OR Barista, Preethi, Walita",
+  "headcount_band": "5,001-10,000 (~7,000 est)",
+  "revenue": "EUR 2.2B 2021 (Wikipedia); later years not published",
+  "valuation": "EUR 3.7B (2021 acquisition by Hillhouse)",
+  "latest_raise": "n/a (PE-owned; India unit IPO explored 2024 at ~USD 800M)",
+  "fit_score": 3,
+  "fit_detail": "Europe, India, Brazil, China, US; mainstream-to-affluent households; Philips tech/design story; home appliances not crowded",
+  "up_and_coming": false,
+  "flags": [
+   "Philips brand licensed (15-yr licence from 2021), not owned",
+   "PE-owned (Hillhouse)",
+   "Philips brand ran Williams F1 deal in 2000s (lapsed, licensor not parent)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters (EUR 3.7B 2021 transaction, EUR 2.2B 2021 revenue, no F1 tie found); flagship Philips name is licensed, limiting brand-building motive",
+  "best_angle": "Saeco/Gaggia espresso and Philips Baristina could own F1 paddock coffee moments across Europe and India.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Versuni",
+   "https://www.versuni.com/about-us/brands/",
+   "https://en.wikipedia.org/wiki/Saeco"
+  ]
+ },
+ {
+  "id": "iggroup.com",
+  "company": "IG Group Holdings",
+  "sector_tab": "12 Trading & Crypto",
+  "domain": "iggroup.com",
+  "hq": "London, UK",
+  "ownership": "Listed (LSE: IGG; FTSE 250); widely held",
+  "sells": "Online trading: CFDs, spread betting, share dealing, options/futures (tastytrade, US), crypto",
+  "headcount_band": "1,001-5,000 (2,354 Dec 2025)",
+  "revenue": "GBP 658.9M for 7 months to 31 Dec 2025 (reporting-period change); ~GBP 1B annualised (est)",
+  "valuation": "Market cap GBP 4.5B (Jan 2026, Google Finance) / GBP 5.3B (Apr 2026, Trading Economics)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 3,
+  "fit_detail": "UK, Australia, Singapore, US (tastytrade), Japan, Europe; affluent 25-54 traders; precision/performance trading story; trading category crowded (0)",
+  "up_and_coming": false,
+  "flags": [
+   "trading category crowded on grid (Pepperstone, AvaTrade, eToro)",
+   "IG Prime sponsored Extreme E RXR 2021"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters (market cap GBP 4.5-5.3B 2026, no F1 tie found for IG or tastytrade) but trading-broker category is crowded on the grid",
+  "best_angle": "Rivals already use F1 to win active traders; IG could counter, especially with tastytrade in the fast-growing US F1 audience.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/IG_Group",
+   "https://tradingeconomics.com/igg:ln:market-capitalization",
+   "https://www.google.com/finance/beta/quote/IGGRF:OTCMKTS",
+   "https://www.citybiz.co/article/91862/ig-group-and-tastytrade-complete-1-billion-partnership/",
+   "https://sportskhabri.com/aston-martin-partners-with-avatrade/amp/"
+  ]
+ },
+ {
+  "id": "wala.world",
+  "company": "WALA Heilmittel (Dr. Hauschka)",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "wala.world",
+  "hq": "Bad Boll, Germany",
+  "ownership": "Private; foundation-owned (WALA Stiftung)",
+  "sells": "Dr. Hauschka natural cosmetics (~75% of sales) and anthroposophic medicines; sold in 40+ countries",
+  "headcount_band": "501-1,000 (~1,000)",
+  "revenue": "~EUR 140M (stagnating, industry sources via retail-news 2025, est); older Oeko-Test figure EUR 112M",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "Germany, UK, US, Asia; affluent women 25-54; natural/sustainability story (not performance); beauty not crowded",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "scale borderline (~EUR 140M = ~USD 160M, est)",
+   "senior leadership exodus reported 2025",
+   "brand values (natural/anthroposophic) weak fit with motorsport"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Scale only borderline on USD 150-500M route (~EUR 140M, est), capping at Stretch; no F1 tie found; stagnating sales and leadership turnover",
+  "best_angle": "",
+  "sources": [
+   "https://retail-news.de/wala-dr-hauschka-neuausrichtung-fuehrungswechsel/",
+   "https://www.oekotest.de/kosmetik-wellness/3-Produkte-von-Wala-im-Test_103166_1.html",
+   "https://de.statista.com/statistik/daten/studie/952091/umfrage/umsatz-von-wala",
+   "https://www.drhauschka.com/cosmos/company"
+  ]
+ },
+ {
+  "id": "groupbanyan.com",
+  "company": "Banyan Group (Banyan Tree Holdings)",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "groupbanyan.com",
+  "hq": "Singapore",
+  "ownership": "Listed (SGX: B58); founder Ho KwonPing family plus strategic holders (Vanke historically)",
+  "sells": "Luxury and lifestyle resorts, hotels, branded residences and spas (Banyan Tree, Angsana, Cassia, Dhawa, Garrya, Homm)",
+  "headcount_band": "1,001-5,000 (~3,000 est)",
+  "revenue": "SGD 477.4M 2025 (+25%; ~USD 370M; core operating profit SGD 109.8M)",
+  "valuation": "Market cap below USD 1B (est)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 3,
+  "fit_detail": "Asia, Middle East, Europe, Americas incl. Singapore, China, UAE, Mexico; affluent travellers 25-54; luxury hospitality not crowded; story is wellbeing, not performance",
+  "up_and_coming": true,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue +25% 2025"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters on USD 150-500M revenue route (SGD 477.4M 2025), capping at Stretch; no F1 or Singapore GP tie found",
+  "best_angle": "Home-market Singapore GP plus Gulf races offer a fit for Banyan Tree's luxury residences and wellness positioning to affluent Asian and Middle East fans.",
+  "sources": [
+   "https://www.bolsamania.com/nota-de-prensa/mercados/banyan-group-delivers-strong-fy25-results-revenue-up-25-on-record-residences-driver--21885140.html",
+   "https://www.minichart.com.sg/2026/03/11/banyan-tree-holdings-fy2025-results-25-revenue-growth-strong-residences-performance-and-1-35-cents-final-dividend-proposed/",
+   "https://www.formula1.com/en/latest/article/formula-1-and-singapore-airlines-renew-singapore-grand-prix-title.4uxaK22OEPi7ky83JBElxl"
+  ]
+ },
+ {
+  "id": "greateagle.com.hk",
+  "company": "Great Eagle Holdings Limited",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "greateagle.com.hk",
+  "hq": "Hong Kong",
+  "ownership": "Listed (HKEX: 0041); Lo family controlled",
+  "sells": "Property investment/development and hotels via wholly owned Langham Hospitality Group (Langham, Cordis, Eaton) in Asia, Europe, North America, Australia",
+  "headcount_band": "5,001-10,000 (6,219)",
+  "revenue": "HKD 19.66B 2025 (~USD 2.5B) (HKEX results Mar 2026)",
+  "valuation": "Market cap USD 1.61B (2 Jun 2026, PitchBook)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 3,
+  "fit_detail": "Hong Kong, China, UK, US, Australia, Canada; affluent travellers 25-54; luxury hospitality not crowded; story heritage not performance",
+  "up_and_coming": false,
+  "flags": [
+   "property holding; Langham is the sponsor brand",
+   "market cap near USD 1B line (also passes on revenue)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters (revenue HKD 19.7B 2025, market cap USD 1.61B Jun 2026, no F1 tie found); property-holding parent with hospitality brand angle only",
+  "best_angle": "Langham London, Shanghai and Melbourne sit in F1 host cities; an official hotel partnership fits its luxury heritage positioning.",
+  "sources": [
+   "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0303/2026030302294.pdf",
+   "https://pitchbook.com/profiles/company/50898-16",
+   "https://www.tipranks.com/stocks/hk:0041/revenue",
+   "https://en.wikipedia.org/wiki/Langham_Hospitality_Group"
+  ]
+ },
+ {
+  "id": "wieland.com",
+  "company": "Wieland-Werke AG",
+  "sector_tab": "21 Materials & Mech Parts",
+  "domain": "wieland.com",
+  "hq": "Ulm, Germany",
+  "ownership": "Private; family-owned (Wieland-Werke AG)",
+  "sells": "Semi-finished copper and copper-alloy products, heat exchangers, recycling; automotive, electronics, construction",
+  "headcount_band": "5,001-10,000 (~9,800 2023)",
+  "revenue": "EUR 6.28B 2023 (cio.de); FY2024/25 not verified",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Global B2B (Europe, US, Asia); industrial buyers; materials story; automotive-adjacent supply",
+  "up_and_coming": false,
+  "flags": [
+   "B2B, no brand ambition"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters (EUR 6.28B 2023 revenue, no F1 tie found) but B2B copper materials group with no evident brand ambition",
+  "best_angle": "",
+  "sources": [
+   "https://www.cio.de/article/3701208/wieland-werke-ag-it-fakten-und-it-strategie.html",
+   "https://www.sustainabilityreports.com/wieland-werke-aktiengesellschaft/2025/sustainability-report",
+   "https://www.reveliolabs.com/companies/wieland-werke/employees/"
+  ]
+ },
+ {
+  "id": "asseco.com",
+  "company": "Asseco Poland",
+  "sector_tab": "25 IT Services & Consulting",
+  "domain": "asseco.com",
+  "hq": "Rzeszow, Poland",
+  "ownership": "Listed (WSE: ACP); largest holders Polsat Plus group and founder Adam Goral",
+  "sells": "Proprietary software and IT services for banking, public sector, utilities in 60+ countries (incl. Formula Systems, Israel)",
+  "headcount_band": "10,001+ (~30,200 Sep 2026)",
+  "revenue": "PLN 16.8B 2025 (~USD 4.5B; 86% foreign)",
+  "valuation": "Market cap USD 4.46B (Aug 2026, PitchBook)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 3,
+  "fit_detail": "Poland, Israel, Spain, Portugal, Central Europe, US; senior B2B buyers; software/technology story; IT services not on crowded list",
+  "up_and_coming": false,
+  "flags": [
+   "B2B software; modest brand ambition",
+   "sponsors domestic sport (Asseco Resovia volleyball)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters (market cap USD 4.46B Aug 2026, PLN 16.8B 2025 revenue, no F1 tie found); B2B group with limited international brand marketing",
+  "best_angle": "Polish tech champion with 86% foreign sales could use F1 B2B hospitality to raise its brand among global banking and public-sector clients.",
+  "sources": [
+   "https://pl.asseco.com/en/press-office",
+   "https://pitchbook.com/profiles/company/60384-16",
+   "https://stockevents.app/en/stock/ASOZY"
+  ]
+ },
+ {
+  "id": "enpro.com",
+  "company": "Enpro Inc.",
+  "sector_tab": "21 Materials & Mech Parts",
+  "domain": "enpro.com",
+  "hq": "Charlotte, North Carolina, USA",
+  "ownership": "Listed (NYSE: NPO); widely held",
+  "sells": "Sealing technologies and advanced surface/semiconductor materials for industrial, aerospace and semiconductor customers",
+  "headcount_band": "1,001-5,000 (~4,000)",
+  "revenue": "USD ~1.14B 2025 (sum of quarters); TTM USD 1.22B",
+  "valuation": "Market cap USD 6.22B (10 Sep 2026, Motley Fool)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "US, Europe, Asia; engineering B2B buyers; precision materials story",
+  "up_and_coming": false,
+  "flags": [
+   "B2B, no brand ambition"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters (market cap USD 6.2B Sep 2026, no F1 tie found for Enpro/Garlock/Stemco) but B2B components maker with weak brand-marketing motive",
+  "best_angle": "",
+  "sources": [
+   "https://www.fool.com/quote/nyse/enpro-industries/npo/",
+   "https://pitchbook.com/profiles/company/42010-48",
+   "https://vectorshift.ai/research/companies/enpro/financials"
+  ]
+ },
+ {
+  "id": "lionsgate.com",
+  "company": "Lionsgate Studios Corp.",
+  "sector_tab": "29 Tech Media & Gaming",
+  "domain": "lionsgate.com",
+  "hq": "Santa Monica, California, USA",
+  "ownership": "Listed (NYSE: LION); widely held; separated from Starz 2025",
+  "sells": "Film and TV studio (John Wick, Hunger Games, Saw) and ~USD 1B/yr content library",
+  "headcount_band": "1,001-5,000 (~1,500 est)",
+  "revenue": "Q4 FY2026 USD 906.5M; FY2026 (to Mar 2026) full-year ~USD 3B (est)",
+  "valuation": "Market value ~USD 3.8B (Jul 2026, Broadcast)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 3,
+  "fit_detail": "US, UK, global distribution; 25-54 entertainment audience; media not crowded; story franchise/action entertainment",
+  "up_and_coming": false,
+  "flags": [
+   "takeover interest (Banijay, Mediawan) Jul 2026",
+   "co-promotion fit more than sponsorship"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters (market value ~USD 3.8B Jul 2026, no F1 tie found) but active takeover interest makes long-term sponsorship commitment uncertain",
+  "best_angle": "Action franchises such as John Wick suit F1 co-promotions targeting the growing US fan base.",
+  "sources": [
+   "https://www.broadcastnow.co.uk/broadcast-international/banijay-and-mediawan-eye-lionsgate-reports-claim/5218667.article",
+   "https://gvwire.com/2026/07/14/lionsgate-studios-attracts-takeover-interest-from-bollore-banijay-sources-say/",
+   "https://www.barchart.com/story/news/2072085/lionsgate-reports-results-for-fourth-quarter-fiscal-2026",
+   "https://en.wikipedia.org/wiki/Lionsgate_Studios"
+  ]
+ },
+ {
+  "id": "jimmychoo.com",
+  "company": "Jimmy Choo",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "jimmychoo.com",
+  "hq": "London, UK",
+  "ownership": "Brand of Capri Holdings (NYSE: CPRI)",
+  "sells": "Luxury footwear, handbags and accessories; global boutiques and wholesale",
+  "headcount_band": "1,001-5,000 (~1,500 est)",
+  "revenue": "USD 600M FY2026 (to Mar 2026, -0.8%) (Capri 10-K)",
+  "valuation": "n/a (Capri sold Versace for USD 1.4B 2025)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "Global incl. UK, US, China, Middle East; affluent women 25-54; luxury fashion not on crowded list; story glamour not performance",
+  "up_and_coming": false,
+  "flags": [
+   "group brand: Capri Holdings",
+   "lapsed: sister brand Michael Kors was McLaren lifestyle partner 2016 - confirm before outreach",
+   "Capri reported exploring Jimmy Choo sale",
+   "revenue declining"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters (USD 600M FY2026 revenue) as separately marketed Capri brand; lapsed group F1 tie (Michael Kors-McLaren 2016) caps at Stretch",
+  "best_angle": "F1's growing female audience and glamour race weekends (Monaco, Miami, Las Vegas) suit a Jimmy Choo capsule or team collaboration.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001530721/000153072126000047/cpri-20260328.htm",
+   "https://www.fashionbi.com/insights/capri-holdings-fy2026-profit-despite-revenue-decline",
+   "https://sponsorship.sportbusiness.com/news/michael-kors-deal-a-good-fit-for-mclaren/"
+  ]
+ }
+]

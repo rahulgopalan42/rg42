@@ -1,0 +1,122 @@
+[
+{
+"id": "kaller.com",
+"company": "KALLER®",
+"sector": "23 Machine Tools",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; gas springs"
+},
+{
+"id": "gesipa.com",
+"company": "GESIPA",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "SFS Group",
+"triage_note": "real; fit 1; scale mid; rivets and fasteners"
+},
+{
+"id": "evg.com",
+"company": "EVG Entwicklungs- und Verwertungsgesellschaft GmbH",
+"sector": "23 Machine Tools",
+"country": "Austria",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; machine and plant builder"
+},
+{
+"id": "ncm.com",
+"company": "NCM",
+"sector": "07 Marketing & Sales",
+"country": "United States",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; cinema advertising"
+},
+{
+"id": "3con.com",
+"company": "3CON Technologies",
+"sector": "23 Machine Tools",
+"country": "Austria",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; automation experts"
+},
+{
+"id": "beghelli.it",
+"company": "Beghelli S.p.A.",
+"sector": "45 Electronic Parts",
+"country": "Italy",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Gewiss LightZone",
+"triage_note": "real; fit 1; scale mid; emergency lighting"
+},
+{
+"id": "mta-it.com",
+"company": "MTA",
+"sector": "23 Machine Tools",
+"country": "Italy",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; industrial cooling"
+},
+{
+"id": "schweizer.ag",
+"company": "Schweizer Electronic AG",
+"sector": "45 Electronic Parts",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Zhen Ding Technology",
+"triage_note": "real; fit 1; scale mid; PCB maker"
+},
+{
+"id": "riedel-kooling.com",
+"company": "Riedel Kooling",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Glen Dimplex Precision Cooling Division",
+"triage_note": "real; fit 1; scale mid; cooling systems"
+},
+{
+"id": "eclipseautomation.com",
+"company": "Eclipse Automation",
+"sector": "33 Automation & Robotics",
+"country": "Canada",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; automation machines"
+}
+]

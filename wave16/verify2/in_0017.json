@@ -1,0 +1,122 @@
+[
+{
+"id": "forestessentialsindia.com",
+"company": "Forest Essentials",
+"sector": "03 Luxury & Beauty",
+"country": "India",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; Ayurvedic luxury skincare"
+},
+{
+"id": "contact-software.com",
+"company": "CONTACT Software",
+"sector": "22 SaaS",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; PLM software"
+},
+{
+"id": "thebeautytechgroup.com",
+"company": "The Beauty Tech Group (CurrentBody, ZIIP, Tria)",
+"sector": "03 Luxury & Beauty",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; beauty tech retailer"
+},
+{
+"id": "ateme.com",
+"company": "Ateme",
+"sector": "48 Telecom & Space",
+"country": "France",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; video compression tech"
+},
+{
+"id": "omnionpower.com",
+"company": "OmniOn Power",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "AcBel Polytech",
+"triage_note": "real; fit 3; scale unknown; Power conversion ex-ABB"
+},
+{
+"id": "zjshc.com",
+"company": "Zhejiang Sanhua Co., Ltd.",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Sanhua Holding Group",
+"triage_note": "real; fit 2; scale large; Chinese thermal controls maker"
+},
+{
+"id": "sphereentertainmentco.com",
+"company": "Sphere Entertainment Co.",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; Sphere venue and media"
+},
+{
+"id": "cgv.co.kr",
+"company": "CJ CGV",
+"sector": "29 Tech Media & Gaming",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "CJ Corporation",
+"triage_note": "real; fit 2; scale large; Asian cinema chain"
+},
+{
+"id": "biprogy.com",
+"company": "日本ユニシス(株)",
+"sector": "22 SaaS",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; Japanese IT services"
+},
+{
+"id": "aviasg.com",
+"company": "Avia Solutions Group",
+"sector": "16 Travel & Hospitality",
+"country": "Ireland",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; ACMI and aviation services"
+}
+]

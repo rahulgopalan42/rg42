@@ -1,0 +1,291 @@
+[
+ {
+  "id": "pmc.com",
+  "company": "Penske Media Corporation",
+  "sector_tab": "29 Tech Media & Gaming",
+  "domain": "pmc.com",
+  "hq": "Los Angeles, United States",
+  "ownership": "Private; founder Jay Penske controls; PIF minority investor (USD 200M, 2017); separate from Roger Penske's Penske Corp",
+  "sells": "Media brands (Variety, Rolling Stone, Deadline, WWD, Billboard, Sportico); advertising, events, subscriptions",
+  "headcount_band": "1,001-5,000 (~2,600 2025, Revelio est)",
+  "revenue": "Unpublished; third-party estimates conflict USD 36M-251M (2025, est); USD 1.1B (2022) only from unreliable content-farm page",
+  "valuation": "Not disclosed (no sourced figure)",
+  "latest_raise": "PIF USD 200M (2017) - outside 36-month window",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets via global media brands: yes; affluent 25-54 audience: yes; performance/technology story: no; category not crowded: no (media/broadcast heavily represented)",
+  "up_and_coming": false,
+  "flags": [
+   "scale unverified",
+   "selling brands 2025 (TVLine, BGR to Static Media)",
+   "Jay Penske's Dragon Racing ran Rolling Stone/Variety on Formula E cars (not F1)"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Scale filter failed: no sourced revenue >= USD 150M or valuation >= USD 1B; estimates conflict and the only raise (2017) is outside 36 months.",
+  "best_angle": "",
+  "sources": [
+   "https://www.reveliolabs.com/companies/penske-media/employees",
+   "https://rocketreach.co/answers/what-is-the-annual-revenue-of-penske-media-corporation_b5c0c4a8f42e085f",
+   "https://senalnews.com/en/content/usas-penske-sold-its-tvline-to-static-media",
+   "https://www.diariomotor.com/competicion/breve/dragon-racing-y-rolling-stone-juntos-en-la-formula-e/",
+   "https://pitchbook.com/profiles/company/40458-61"
+  ]
+ },
+ {
+  "id": "hoval.com",
+  "company": "Hoval",
+  "sector_tab": "49 Home & Living",
+  "domain": "hoval.com",
+  "hq": "Vaduz, Liechtenstein",
+  "ownership": "Private, majority family-owned (Ospelt family)",
+  "sells": "Heating, heat pumps and indoor-climate/ventilation systems; residential and commercial, exported to 50+ countries",
+  "headcount_band": "1,001-5,000 (~2,200 2021, Wikipedia)",
+  "revenue": "CHF 400M (2017/18, Wikipedia) ~ USD 420M; likely higher now (est)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a (family-owned)",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets (DACH, UK, Italy, etc.): yes; affluent/senior B2B: partial (installers/planners) - no; story: efficiency engineering, weak performance link - no; category not crowded: yes",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue figure dated 2017/18",
+   "mostly B2B/installer channel"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters on USD 150-500M revenue route (latest sourced CHF 400M, 2017/18), capped at Stretch; no F1 tie found; B2B-leaning heating brand with modest marketing motive.",
+  "best_angle": "Heat-pump capacity expansion (Vaduz, Slovakia, Germany) gives an efficiency-tech story for European B2B hospitality at Austrian/Italian/Dutch GPs.",
+  "sources": [
+   "https://de.wikipedia.org/wiki/Hoval",
+   "https://www.hoval.com/en/news/news-waermepumpenproduktion",
+   "https://www.liechtenstein.li/en/liechtenstein_news/hoval-investiert-20-millionen-euro-deutschland"
+  ]
+ },
+ {
+  "id": "mabe.cc",
+  "company": "Mabe",
+  "sector_tab": "49 Home & Living",
+  "domain": "mabe.cc",
+  "hq": "Mexico City, Mexico",
+  "ownership": "Private; Mexican founding families majority; Haier (via GE Appliances) 48.4% minority",
+  "sells": "Home appliances (refrigerators, ranges, washers) across Latin America; manufactures for GE Appliances in North America; 70+ countries",
+  "headcount_band": "10,001+ (~20,000, Wikipedia, undated)",
+  "revenue": "~USD 4B (Wikipedia, undated; est)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a; announced USD 668M Mexico capex 2025-2027 (Oct 2025)",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets (Mexico, Brazil, US, Canada): yes; affluent 25-54: no (mass-market); performance story: no; category not crowded: yes",
+  "up_and_coming": false,
+  "flags": [
+   "revenue figure undated (est)",
+   "Haier 48.4% minority holder - no F1 tie found for Haier/GE Appliances"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (~USD 4B revenue, undated est) and other filters; no F1 tie found for Mabe or Haier; mass-appliance brand with weak performance story.",
+  "best_angle": "Mexico City GP and Mexican F1 fandom fit a national-champion appliance brand investing USD 668M at home.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Mabe_(company)",
+   "https://www.milenio.com/negocios/mabe-quienes-son-los-duenos-de-la-empresa",
+   "https://www.ejecentral.com.mx/nuestro-eje/mabe-invertira-668-millones-de-dolares-en-mexico-entre-2025-y-2027"
+  ]
+ },
+ {
+  "id": "relxtech.com",
+  "company": "RLX Technology",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "relxtech.com",
+  "hq": "Beijing, China",
+  "ownership": "Public (NYSE: RLX); founder Kate Wang",
+  "sells": "E-vapor products (RELX) and modern-oral nicotine; international business ~72-77% of revenue (APAC, Europe, UK)",
+  "headcount_band": "201-500 (381, 2025, stockanalysis)",
+  "revenue": "RMB 1,141M Q4 2025 (USD 163M), +40% YoY; FY2025 ~USD 566M (aggregator)",
+  "valuation": "Market cap USD 2.4-2.7B (Apr 2026)",
+  "latest_raise": "IPO Jan 2021",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets: yes (international 76.5% of Q4 2025 revenue); affluent 25-54: yes (adult consumers); performance story: no; category not crowded: yes (tobacco majors present via corporate brands)",
+  "up_and_coming": true,
+  "flags": [
+   "vape advertising restrictions (EU TPD, UK, many GP hosts) limit usable F1 rights",
+   "China HQ - not on Entity List/1260H/UFLPA lists found",
+   "revenue growth >40% YoY"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (market cap USD 2.4B+ Apr 2026), headcount, no F1 tie found; real reservation that nicotine/vape advertising bans restrict F1 activation.",
+  "best_angle": "International expansion now 3/4 of revenue; corporate-brand B2B/hospitality play mirroring PMI/BAT F1 models.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/1828365/000110465925111711/tm2531312d1_ex99-1.htm",
+   "https://stockanalysis.com/stocks/rlx",
+   "https://uk.finance.yahoo.com/quote/RLX"
+  ]
+ },
+ {
+  "id": "colombina.com",
+  "company": "Colombina",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "colombina.com",
+  "hq": "Cali (La Paila), Colombia",
+  "ownership": "Private, Caicedo family-controlled",
+  "sells": "Confectionery, chocolates, biscuits, sauces (Bon Bon Bum, Nucita); exports to ~90 countries",
+  "headcount_band": "5,001-10,000 (~7,000 est)",
+  "revenue": "COP 3.5T (2025, +6%) ~ USD 850M (est FX)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets (US, Mexico, Brazil, Spain, etc.): yes; affluent 25-54: no (mass/youth); performance story: partial - no; category not crowded: yes",
+  "up_and_coming": false,
+  "flags": [
+   "Bon Bon Bum ambassadors Sebastian Montoya (F2) and David Alonso (Moto2) since May 2025 - not an F1 tie",
+   "profit down 2025 (ultra-processed food tax)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (COP 3.5T 2025 revenue ~USD 850M) and other filters; no F1 tie; mass-market confectionery audience is a reservation.",
+  "best_angle": "Bon Bon Bum already uses motorsport ambassadors (Sebastian Montoya, F2) to build global youth appeal - a natural step-up to F1.",
+  "sources": [
+   "https://www.larepublica.co/empresas/grupo-colombina-reporto-ingresos-por-3-5-billones-para-2025-crecieron-6-anual-4356355",
+   "https://www.larepublica.co/ocio/david-alonso-y-sebastian-montoya-seran-embajadores-de-marca-de-bon-bon-bum-4124260",
+   "https://www.larepublica.co/empresas/colombina-exporta-bon-bon-bum-a-90-paises-dentro-de-los-que-se-destacan-china-3297573"
+  ]
+ },
+ {
+  "id": "bflgroup.ae",
+  "company": "BFL Group (Brands For Less)",
+  "sector_tab": "X Retail & E-commerce",
+  "domain": "bflgroup.ae",
+  "hq": "Dubai, UAE",
+  "ownership": "Private, founder-led (Hamdan family); TJX Companies 35% non-controlling (2024)",
+  "sells": "Off-price fashion and home retail; 120+ stores across GCC and online",
+  "headcount_band": "1,001-5,000 (~2,100 2025, Revelio est)",
+  "revenue": "Unpublished; estimates USD 100M-1B (est)",
+  "valuation": "Enterprise value USD 1.2B (Aug 2024, TJX 35% stake for USD 360M)",
+  "latest_raise": "TJX USD 360M for 35% (Aug 2024, secondary/minority)",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets (UAE, Saudi Arabia, Qatar, Bahrain): yes; affluent 25-54: no (value shoppers); performance story: no; category not crowded: yes",
+  "up_and_coming": false,
+  "flags": [
+   "TJX minority holder - no F1 tie found",
+   "revenue unpublished"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (USD 1.2B EV Aug 2024) and other filters; no F1 tie found; off-price retail audience fits F1 premium positioning poorly.",
+  "best_angle": "Four Gulf GPs (Abu Dhabi, Saudi, Qatar, Bahrain) sit exactly on BFL's store footprint for regional activation.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/BFL_Group",
+   "https://www.retail-insight-network.com/news/tjx-brand-for-less/",
+   "https://www.reveliolabs.com/companies/bfl-group/employees",
+   "https://tradearabia.com/News/285535/BFL-Group-reaches-new-milestone-with-more-than-120-stores"
+  ]
+ },
+ {
+  "id": "cataloniahotels.com",
+  "company": "Catalonia Hotels & Resorts",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "cataloniahotels.com",
+  "hq": "Barcelona, Spain",
+  "ownership": "Private, Vallet family-owned",
+  "sells": "82 hotels/resorts (12,000+ rooms) in Spain, Europe and the Caribbean (Dominican Republic, Mexico); expanding to Zanzibar and Jamaica",
+  "headcount_band": "1,001-5,000 (~5,000 est)",
+  "revenue": "EUR 630M (2025, record) ~ USD 710M; EBITDA EUR 189M",
+  "valuation": "n/a (private)",
+  "latest_raise": "EUR 383M bank refinancing (2026, debt)",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets (Spain, Mexico, US/UK source markets): yes; affluent 25-54: yes; performance story: no; category not crowded: partial (hotels moderately present) - counted no",
+  "up_and_coming": true,
+  "flags": [
+   "market expansion: Spain/Caribbean -> Zanzibar, Jamaica",
+   "screen revenue estimate (EUR 450M) understated"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (EUR 630M 2025 revenue) and all filters; no F1 tie found; family hotel chain's marketing motive for F1 unproven.",
+  "best_angle": "Home Barcelona-Catalunya and Madrid GPs plus Mexico City suit a Spanish leisure chain growing internationally.",
+  "sources": [
+   "https://startups.one.gob.es/news/note/catalonia-hotels-lands-383m-debt-deal-to-fund-zanzibar-and-jamaica-push",
+   "https://brainsre.news/catalonia-hotels-383-millones-financiacion/",
+   "https://www.circuitcat.com/en/news/formula-1/the-circuit-enhances-its-formula-1-hospitality-experience"
+  ]
+ },
+ {
+  "id": "fullertonhealth.com",
+  "company": "Fullerton Health",
+  "sector_tab": "42 Health & Wellness",
+  "domain": "fullertonhealth.com",
+  "hq": "Singapore",
+  "ownership": "Private; Far East Drug (B.V.I.) Co. largest holder; Mitsubishi Corporation strategic minority (Aug 2025)",
+  "sells": "Managed care and corporate health services, clinics across 9 APAC markets",
+  "headcount_band": "5,001-10,000 (~8,000, Wikipedia)",
+  "revenue": "SGD 1.08B (2025, Wikipedia) ~ USD 820M",
+  "valuation": "Not disclosed",
+  "latest_raise": "Mitsubishi minority stake (Aug 2025, terms undisclosed)",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets (Singapore, Australia, China, Japan): yes; senior B2B buyers (HR/benefits): yes; performance story: no; category not crowded: no (insurance/health present)",
+  "up_and_coming": false,
+  "flags": [
+   "revenue from Wikipedia, not company filing",
+   "B2B corporate health"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (SGD 1.08B 2025 revenue) and filters; no F1 tie found incl. Singapore GP; B2B managed care with limited consumer brand ambition.",
+  "best_angle": "Singapore GP hospitality to court regional HR/benefits buyers as Mitsubishi backing funds APAC expansion.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Fullerton_Health_Group",
+   "https://tirto.id/fullerton-health-announces-strategic-investment-by-mitsubishi-corporation-hgqz",
+   "https://news.bloomberglaw.com/antitrust/mitsubishi-is-said-to-near-investment-in-fullerton-health"
+  ]
+ },
+ {
+  "id": "hurtigruten.com",
+  "company": "Hurtigruten",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "hurtigruten.com",
+  "hq": "Oslo, Norway",
+  "ownership": "Private; creditor consortium led by Arini, AlbaCore, Barings after 2025 debt-for-equity recapitalisation; separated from HX Expeditions",
+  "sells": "Norwegian coastal voyages and cruises; guests mainly from Norway, UK, Germany, US",
+  "headcount_band": "1,001-5,000 (~2,500 est)",
+  "revenue": "EUR 501.8M (2025, +12%) ~ USD 565M; EBITDA EUR 90.2M",
+  "valuation": "n/a",
+  "latest_raise": "Owner equity injection in 2025 recapitalisation (amount undisclosed)",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets (UK, Germany, US): yes; affluent: yes (skews 55+); performance story: no; category not crowded: no (MSC Cruises is F1 global partner)",
+  "up_and_coming": false,
+  "flags": [
+   "debt-for-equity restructuring completed 2025 (debt cut >EUR 1B) - now growing",
+   "creditor-owned",
+   "cruise category held by MSC Cruises (F1 global partner)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (EUR 501.8M 2025 revenue) with recovery after completed 2025 recapitalisation; no F1 tie found; reservation on recent restructuring and MSC holding cruise category.",
+  "best_angle": "",
+  "sources": [
+   "https://cruiseindustrynews.com/cruise-news/2026/04/ebitda-growth-marks-strong-year-for-hurtigruten/",
+   "https://www.cruisetradenews.com/latest-news/strong-trade-bookings-fuel-hurtigrutens-robust-2025-financial-results",
+   "https://maritime-executive.com/article/investors-acquire-hurtigruten-to-recapitalize-cruise-and-coastal-businesses",
+   "https://www.formula1.com/en/latest/article/formula-1-and-msc-cruises-extend-global-partnership-in-multi-year-deal.6G4lZx9ykjSAP9DnqogqEh"
+  ]
+ },
+ {
+  "id": "wbgroup.pl",
+  "company": "WB GROUP",
+  "sector_tab": "32 Defense & Industrial AI",
+  "domain": "wbgroup.pl",
+  "hq": "Ozarow Mazowiecki, Poland",
+  "ownership": "Private, founder-controlled (Piotr Wojciechowski and partners); strategic-company list (IPO needs government consent)",
+  "sells": "Military drones (Warmate, FlyEye), C4ISR and communications systems; ~40% export",
+  "headcount_band": "1,001-5,000 (~2,000 est)",
+  "revenue": "PLN 2,958.5M (2024) ~ USD 740M; PLN 4.3B (2025 est)",
+  "valuation": "Unofficial IPO talk PLN 10-20B+ (2025-26, est)",
+  "latest_raise": "n/a; possible Warsaw IPO not before 2026-27",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets: partial (exports, govt buyers) - yes; senior B2B/B2G buyers: yes; technology/precision story: yes; category not crowded: yes - but brand-safety concerns with weapons; scored 2 for B2G limits",
+  "up_and_coming": true,
+  "flags": [
+   "revenue doubled 2023->2024 (>40%/yr)",
+   "defence/weapons brand-safety risk for F1 rights holders",
+   "B2G - no consumer brand ambition"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes scale (PLN 2.96B 2024 revenue) and filters, no F1 tie found; B2G defence maker with no credible F1 marketing motive and brand-safety barriers.",
+  "best_angle": "",
+  "sources": [
+   "https://superbiz.se.pl/wiadomosci/gigantyczne-pieniadze-w-polskiej-zbrojeniowce-takich-wynikow-nie-bylo-nigdy-aa-Nkpo-QUn2-uhXG.html",
+   "https://www.bankier.pl/wiadomosc/WB-Electronics-rozwaza-IPO-Nie-ma-presji-czasu-9038975.html",
+   "https://www.parkiet.com/debiuty/art43323091-rynek-zalotnie-patrzy-w-strone-wb-electronics-grube-miliardy-na-stole"
+  ]
+ }
+]

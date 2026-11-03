@@ -1,0 +1,122 @@
+[
+{
+"id": "rolex.com",
+"company": "ROLEX",
+"sector": "03 Luxury & Beauty",
+"country": "Switzerland",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; luxury watches, existing F1 partner"
+},
+{
+"id": "telefonica.com.br",
+"company": "GVT",
+"sector": "48 Telecom & Space",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Telefónica",
+"triage_note": "; fit ; scale ; "
+},
+{
+"id": "izzi.mx",
+"company": "izzi telecom",
+"sector": "48 Telecom & Space",
+"country": "Mexico",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Grupo Televisa",
+"triage_note": "; fit ; scale ; "
+},
+{
+"id": "atlassian.com",
+"company": "Atlassian",
+"sector": "22 SaaS",
+"country": "Australia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; collaboration software"
+},
+{
+"id": "ukg.com",
+"company": "UKG",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "; fit ; scale ; "
+},
+{
+"id": "richemont.com",
+"company": "Richemont",
+"sector": "03 Luxury & Beauty",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; luxury group, watches crowded"
+},
+{
+"id": "mtsbank.ru",
+"company": "ПАО \"МТС-Банк\"",
+"sector": "22 SaaS",
+"country": "Russia",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "; fit ; scale ; "
+},
+{
+"id": "kontur.ru",
+"company": "Контур",
+"sector": "22 SaaS",
+"country": "Russia",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale mid; Russian software ecosystem"
+},
+{
+"id": "meicai.cn",
+"company": "美菜",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "; fit ; scale ; "
+},
+{
+"id": "volcengine.cn",
+"company": "火山引擎",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "; fit ; scale ; "
+}
+]

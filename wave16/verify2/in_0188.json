@@ -1,0 +1,122 @@
+[
+{
+"id": "fawer.com.cn",
+"company": "Fawer Automotive Parts Limited Company",
+"sector": "43 Mobility & Automotive",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; auto parts maker"
+},
+{
+"id": "ytl.com.cn",
+"company": "Yunnan Tin Co., Ltd.",
+"sector": "X04 Mining, Metals & Commodities",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; tin producer"
+},
+{
+"id": "first-tractor.com.cn",
+"company": "First Tractor Co., Ltd.",
+"sector": "43 Mobility & Automotive",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; tractor maker"
+},
+{
+"id": "kblaminates.com",
+"company": "Kingboard Laminates Holdings Ltd.",
+"sector": "NEW Other",
+"country": "Hong Kong",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Kingboard Holdings",
+"triage_note": "real; fit 1; scale large; laminates maker"
+},
+{
+"id": "lomon.com",
+"company": "Lomon Group",
+"sector": "21 Materials & Mech Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; chemicals group"
+},
+{
+"id": "hailiang.com",
+"company": "海亮集团有限公司",
+"sector": "NEW Other",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; copper and metals"
+},
+{
+"id": "tpco.cn",
+"company": "Tianjin Pipe Group Corporation (TPCO)",
+"sector": "02 Energy & Industrial",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; steel pipe maker"
+},
+{
+"id": "ilimgroup.ru",
+"company": "Ilim Group",
+"sector": "21 Materials & Mech Parts",
+"country": "Russia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; pulp and paper"
+},
+{
+"id": "tmk-group.com",
+"company": "TMK",
+"sector": "21 Materials & Mech Parts",
+"country": "Russia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; steel pipe maker"
+},
+{
+"id": "scgpackaging.com",
+"company": "SCGP",
+"sector": "55 Packaging & Food Machinery",
+"country": "Thailand",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "SCG",
+"triage_note": "real; fit 1; scale large; packaging group"
+}
+]

@@ -1,0 +1,122 @@
+[
+{
+"id": "aplgo.com",
+"company": "APLGO International",
+"sector": "42 Health & Wellness",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Swiss wellness network marketing"
+},
+{
+"id": "xanterra.com",
+"company": "Xanterra",
+"sector": "16 Travel & Hospitality",
+"country": "United States",
+"type": "Partnership",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "The Anschutz Corporation",
+"triage_note": "real; fit 1; scale mid; parks and lodges operator"
+},
+{
+"id": "luenfunggroup.com",
+"company": "LUEN FUNG GROUP",
+"sector": "23 Machine Tools",
+"country": "Hong Kong",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Hong Kong manufacturer"
+},
+{
+"id": "suntech-power.com",
+"company": "Suntech",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Self Owned",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Shunfeng International Clean Energy",
+"triage_note": "real; fit 1; scale mid; solar module maker"
+},
+{
+"id": "adoracruises.com",
+"company": "Adora Cruises",
+"sector": "16 Travel & Hospitality",
+"country": "China",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "CSSC (China State Shipbuilding)",
+"triage_note": "real; fit 1; scale mid; Chinese cruise line"
+},
+{
+"id": "macdon.com",
+"company": "MacDon Industries",
+"sector": "23 Machine Tools",
+"country": "Canada",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Linamar Corporation",
+"triage_note": "real; fit 1; scale mid; harvesting equipment"
+},
+{
+"id": "ryoyo.co.jp",
+"company": "Ryoyo Electro Corporation",
+"sector": "27 Chip Makers",
+"country": "Japan",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Ryoyo Ryosan Holdings",
+"triage_note": "real; fit 1; scale mid; Japanese electronics trader"
+},
+{
+"id": "hiconics-global.com",
+"company": "HICONICS DRIVE",
+"sector": "33 Automation & Robotics",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Midea Group",
+"triage_note": "real; fit 1; scale mid; Chinese drives maker"
+},
+{
+"id": "lgroup.com",
+"company": "Liechtenstein Group",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "Austria",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Austrian financial group"
+},
+{
+"id": "104.com.tw",
+"company": "Mirle Group",
+"sector": "33 Automation & Robotics",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Taiwanese logistics automation"
+}
+]

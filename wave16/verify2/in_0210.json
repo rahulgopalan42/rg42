@@ -1,0 +1,122 @@
+[
+{
+"id": "fredolsencruises.com",
+"company": "Fred. Olsen Cruise Lines",
+"sector": "16 Travel & Hospitality",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Fred. Olsen & Co",
+"triage_note": "real; fit 1; scale mid; cruise operator"
+},
+{
+"id": "salsajeans.com",
+"company": "Salsa Jeans",
+"sector": "53 Consumer & Lifestyle",
+"country": "Portugal",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "SONAE group",
+"triage_note": "real; fit 1; scale mid; denim brand"
+},
+{
+"id": "cotswoldoutdoorcareers.com",
+"company": "Cotswold Outdoor Group",
+"sector": "X06 Retail & E-commerce",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; UK outdoor retailer"
+},
+{
+"id": "laredoute-corporate.com",
+"company": "La Redoute",
+"sector": "X06 Retail & E-commerce",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Galeries Lafayette",
+"triage_note": "real; fit 1; scale mid; French e-commerce"
+},
+{
+"id": "devred.com",
+"company": "DEVRED 1902",
+"sector": "X06 Retail & E-commerce",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; French menswear"
+},
+{
+"id": "ioiproperties.com.my",
+"company": "IOI Properties Group Berhad",
+"sector": "X02 Real Estate & Building Products",
+"country": "Malaysia",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "IOI Corporation",
+"triage_note": "real; fit 1; scale mid; Malaysian developer"
+},
+{
+"id": "mtsglobe.com",
+"company": "MTS Globe",
+"sector": "16 Travel & Hospitality",
+"country": "Spain",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; incoming tour operator"
+},
+{
+"id": "hmv.com",
+"company": "HMV",
+"sector": "X06 Retail & E-commerce",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Sunrise Records",
+"triage_note": "real; fit 1; scale mid; entertainment retailer"
+},
+{
+"id": "courir.com",
+"company": "COURIR",
+"sector": "X06 Retail & E-commerce",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; French sneaker retailer"
+},
+{
+"id": "go-sport.com",
+"company": "Go Sport",
+"sector": "53 Consumer & Lifestyle",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; French sports retailer"
+}
+]

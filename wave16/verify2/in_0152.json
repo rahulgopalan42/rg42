@@ -1,0 +1,122 @@
+[
+{
+"id": "softexpert.com",
+"company": "SoftExpert",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; process management software"
+},
+{
+"id": "",
+"company": "tw telecom",
+"sector": "48 Telecom & Space",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; aerospace castings"
+},
+{
+"id": "",
+"company": "tw telecom",
+"sector": "48 Telecom & Space",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; power electronics maker"
+},
+{
+"id": "",
+"company": "tw telecom",
+"sector": "48 Telecom & Space",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Bending Spoons",
+"triage_note": "real; fit 2; scale mid; note-taking software"
+},
+{
+"id": "precisionaviationgroup.com",
+"company": "Precision Aviation Group",
+"sector": "16 Travel & Hospitality",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; aviation parts supplier"
+},
+{
+"id": "signal.co.jp",
+"company": "日本信号(株)",
+"sector": "X06 Retail & E-commerce",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; signalling systems"
+},
+{
+"id": "zapp.com",
+"company": "Zapp Precision Metals GmbH",
+"sector": "21 Materials & Mech Parts",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; precision metal strip"
+},
+{
+"id": "tremec.com",
+"company": "TREMEC",
+"sector": "43 Mobility & Automotive",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; performance transmissions"
+},
+{
+"id": "",
+"company": "tw telecom",
+"sector": "48 Telecom & Space",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; freelance marketplace"
+},
+{
+"id": "",
+"company": "tw telecom",
+"sector": "48 Telecom & Space",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Indian microwave defence electronics"
+}
+]

@@ -1,0 +1,122 @@
+[
+{
+"id": "wonikpne.com",
+"company": "WONIK PNE",
+"sector": "44 Grid & Transformers",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Wonik Group",
+"triage_note": "real; fit 1; scale mid; battery and equipment"
+},
+{
+"id": "ttc.cz",
+"company": "TTC Group",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "Czechia",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; tech and real estate"
+},
+{
+"id": "seroemsgroup.com",
+"company": "SERO EMS Group",
+"sector": "44 Grid & Transformers",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; electronics manufacturing"
+},
+{
+"id": "stocko-contact.com",
+"company": "STOCKO CONTACT GmbH & Co. KG",
+"sector": "45 Electronic Parts",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; connectors maker"
+},
+{
+"id": "siloking.com",
+"company": "SILOKING Mayer Maschinenbau GmbH",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; silo and mixer maker"
+},
+{
+"id": "",
+"company": "Fröling Heizkessel und Behälterbau GmbH",
+"sector": "27 Chip Makers",
+"country": "Austria",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; heating boilers"
+},
+{
+"id": "kmp-lifestyle.com",
+"company": "KMP Creative Lifestyle Products",
+"sector": "45 Electronic Parts",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; IT accessories"
+},
+{
+"id": "polo-motorrad.com",
+"company": "POLO Motorrad und Sportswear GmbH",
+"sector": "X06 Retail & E-commerce",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; motorcycle gear retailer"
+},
+{
+"id": "schneiderpen.de",
+"company": "Schneider Schreibgeräte GmbH",
+"sector": "34 DC Power & Cooling",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; writing instruments"
+},
+{
+"id": "haenel.de",
+"company": "Hänel Büro- und Lagersysteme",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; storage systems"
+}
+]

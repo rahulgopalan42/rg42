@@ -1,0 +1,122 @@
+[
+{
+"id": "sknetworks.co.kr",
+"company": "SK Networks",
+"sector": "NEW Other",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "SK Group",
+"triage_note": "real; fit 1; scale large; trading conglomerate"
+},
+{
+"id": "mjenergy.cn",
+"company": "美锦能源股份有限公司",
+"sector": "02 Energy & Industrial",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; coke and hydrogen"
+},
+{
+"id": "tusholdings.com",
+"company": "Tusholdings",
+"sector": "NEW Other",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; tech park conglomerate"
+},
+{
+"id": "tianneng.com.hk",
+"company": "Tianneng Power International Ltd",
+"sector": "43 Mobility & Automotive",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; battery maker"
+},
+{
+"id": "qhyhgf.com",
+"company": "Qinghai Salt Lake Industry Co., Ltd.",
+"sector": "18 Services & Other",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; potash and lithium"
+},
+{
+"id": "xingfagroup.com",
+"company": "Hubei XINGFA Group",
+"sector": "21 Materials & Mech Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; phosphate chemicals"
+},
+{
+"id": "seah.co.kr",
+"company": "SeAH Holdings",
+"sector": "18 Services & Other",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; steel holding"
+},
+{
+"id": "omk.ru",
+"company": "United Metallurgical Company",
+"sector": "X04 Mining, Metals & Commodities",
+"country": "Russia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; steel pipes and wheels"
+},
+{
+"id": "cscdf.org",
+"company": "东方国际集团",
+"sector": "NEW Other",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Shanghai government",
+"triage_note": "real; fit 1; scale large; trade conglomerate"
+},
+{
+"id": "jiscojude.com",
+"company": "JISCO·JUDE",
+"sector": "21 Materials & Mech Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; steelmaker"
+}
+]

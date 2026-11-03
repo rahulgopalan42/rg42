@@ -1,0 +1,122 @@
+[
+{
+"id": "cea.com.br",
+"company": "C&A Brasil",
+"sector": "53 Consumer & Lifestyle",
+"country": "Brazil",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Incas SARL / COFRA Holding",
+"triage_note": "real; fit 1; scale large; Brazilian fashion retailer"
+},
+{
+"id": "charite.de",
+"company": "Charité - Universitätsmedizin Berlin",
+"sector": "42 Health & Wellness",
+"country": "Germany",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "State of Berlin",
+"triage_note": "real; fit 1; scale large; Berlin university hospital"
+},
+{
+"id": "aeroflot.ru",
+"company": "Aeroflot - Russian Airlines",
+"sector": "16 Travel & Hospitality",
+"country": "Russia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Russian flag airline"
+},
+{
+"id": "spirit.com",
+"company": "Spirit Airlines",
+"sector": "16 Travel & Hospitality",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; US low-cost airline"
+},
+{
+"id": "lic.in",
+"company": "INSURANCE AGENT",
+"sector": "13 AI Agents",
+"country": "India",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Life Insurance Corporation of India",
+"triage_note": "real; fit 1; scale large; state life insurer"
+},
+{
+"id": "smg.cn",
+"company": "Shanghai Media Group",
+"sector": "29 Tech Media & Gaming",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Shanghai Municipal Government",
+"triage_note": "real; fit 1; scale large; Chinese state media"
+},
+{
+"id": "telekom.at",
+"company": "Telekom Austria",
+"sector": "48 Telecom & Space",
+"country": "Austria",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "America Movil",
+"triage_note": "real; fit 1; scale large; Austrian telecom, now A1"
+},
+{
+"id": "vkteam.ru",
+"company": "VK",
+"sector": "22 SaaS",
+"country": "Russia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Russian internet group"
+},
+{
+"id": "ozon.com",
+"company": "OZON.ru",
+"sector": "22 SaaS",
+"country": "Russia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Russian ecommerce"
+},
+{
+"id": "schiphol.com",
+"company": "Royal Schiphol Group",
+"sector": "16 Travel & Hospitality",
+"country": "Netherlands",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Amsterdam airport group"
+}
+]

@@ -1,0 +1,122 @@
+[
+{
+"id": "globalbees.com",
+"company": "GlobalBees",
+"sector": "22 SaaS",
+"country": "India",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; India brand aggregator"
+},
+{
+"id": "jettech.cn",
+"company": "Beijing Jet-tech Zhicheng Technology Co., Ltd.",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; China payment tech"
+},
+{
+"id": "mafengwo.cn",
+"company": "Mafengwo.com",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; China travel platform"
+},
+{
+"id": "gienanth.com",
+"company": "DIHAG Gienanth GmbH",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; cast iron foundry"
+},
+{
+"id": "rathbones.com",
+"company": "Rathbones",
+"sector": "01 Banking & Insurance",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; UK wealth manager"
+},
+{
+"id": "dom-security.com",
+"company": "DOM SECURITY",
+"sector": "NEW Other",
+"country": "France",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; security locks"
+},
+{
+"id": "nippondenko.co.jp",
+"company": "Nippon Denko Co., Ltd.",
+"sector": "NEW Other",
+"country": "Japan",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; ferroalloys maker"
+},
+{
+"id": "corby.ca",
+"company": "Corby Spirit and Wine Limited",
+"sector": "04 Food & Beverage",
+"country": "Canada",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Pernod Ricard",
+"triage_note": "real; fit 1; scale mid; Canadian spirits"
+},
+{
+"id": "nblife.com",
+"company": "Natural Beauty (China) Co., Ltd",
+"sector": "03 Luxury & Beauty",
+"country": "China",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; beauty and spa chain"
+},
+{
+"id": "wru.wales",
+"company": "WRU - Welsh Rugby Union",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Welsh rugby governing body"
+}
+]

@@ -1,0 +1,122 @@
+[
+{
+"id": "kathmandu.co.nz",
+"company": "Kathmandu",
+"sector": "X06 Retail & E-commerce",
+"country": "New Zealand",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "KMD Brands",
+"triage_note": "real; fit 3; scale mid; outdoor apparel brand"
+},
+{
+"id": "shimaseiki.com",
+"company": "SHIMA SEIKI MFG., LTD.",
+"sector": "23 Machine Tools",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; knitting machinery maker"
+},
+{
+"id": "steiff.com",
+"company": "MARGARETE STEIFF GMBH",
+"sector": "53 Consumer & Lifestyle",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; luxury teddy bears"
+},
+{
+"id": "lk.world",
+"company": "LK Machinery",
+"sector": "23 Machine Tools",
+"country": "Hong Kong",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; machine tool maker"
+},
+{
+"id": "fjbenjamin.com",
+"company": "F J Benjamin",
+"sector": "X06 Retail & E-commerce",
+"country": "Singapore",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; luxury brand distributor"
+},
+{
+"id": "sunseekerelite.com",
+"company": "Sunseeker Robotics",
+"sector": "56 Robotics AI",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; robotic lawn mowers"
+},
+{
+"id": "moschino.com",
+"company": "MOSCHINO",
+"sector": "53 Consumer & Lifestyle",
+"country": "Italy",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Aeffe",
+"triage_note": "real; fit 3; scale mid; Italian luxury fashion"
+},
+{
+"id": "albertaferretti.com",
+"company": "Alberta Ferretti",
+"sector": "53 Consumer & Lifestyle",
+"country": "Italy",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Aeffe",
+"triage_note": "real; fit 3; scale mid; Italian luxury fashion"
+},
+{
+"id": "mtar.in",
+"company": "MTAR Technologies Limited",
+"sector": "23 Machine Tools",
+"country": "India",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; precision aerospace engineering"
+},
+{
+"id": "aeffe.com",
+"company": "Aeffe S.p.A.",
+"sector": "53 Consumer & Lifestyle",
+"country": "Italia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; Italian luxury fashion group"
+}
+]

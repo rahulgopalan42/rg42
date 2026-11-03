@@ -1,0 +1,285 @@
+[
+ {
+  "id": "arsenal.com",
+  "company": "Arsenal Football Club",
+  "sector_tab": "X Sports Clubs & Leagues",
+  "domain": "arsenal.com",
+  "hq": "London, United Kingdom",
+  "ownership": "Kroenke Sports & Entertainment (100% via Arsenal Holdings)",
+  "sells": "Premier League football club: media, matchday, sponsorship, merchandise",
+  "headcount_band": "1,001-5,000 (~3,300 incl. casual, est)",
+  "revenue": "GBP 691.0M (~USD 900M) FY to 31 May 2025",
+  "valuation": "KSE valued USD 15.6B (Forbes 2024, group)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "Global fanbase across F1 markets (1); mass-market fans, not specifically affluent (0); elite performance story (1); clubs not a grid category (1)",
+  "up_and_coming": false,
+  "flags": [
+   "group brand: Kroenke Sports & Entertainment",
+   "sports clubs rarely buy F1 rights"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters (GBP 691M FY2025, no F1 tie for club or KSE found) but a football club has weak motive to buy F1 sponsorship",
+  "best_angle": "",
+  "sources": [
+   "https://prd-sandbox.arsenal.com/news/financial-results-for-202425-axV959A5jyCF",
+   "https://static.poder360.com.br/2026/02/Arsenal-Holdings-Limited-accounts-31-5-25-final-1_p0b0jknc-1.pdf",
+   "https://www.libertymedia.com/about/asset-list"
+  ]
+ },
+ {
+  "id": "talentview.io",
+  "company": "Promod",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "promod.com",
+  "hq": "Marcq-en-Baroeul, France",
+  "ownership": "Private; Pollet family",
+  "sells": "Women's mid-market fashion retail (stores and e-commerce)",
+  "headcount_band": "1,001-5,000 (~2,800 est)",
+  "revenue": "EUR 410.8M (~USD 445M) 2024 (FashionUnited/BFM)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 1,
+  "fit_detail": "Store network refocused on France (0); mid-market women, not affluent (0); fashion not performance story (0); category not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "German subsidiary sought creditor protection (date unconfirmed)",
+   "input website is a recruiting domain; brand site promod.com"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes on USD 150-500M route (EUR 411M 2024) but France-focused mid-market retailer, fit 1",
+  "best_angle": "",
+  "sources": [
+   "https://fashionunited.com/tags/promod",
+   "https://fashionunited.fr/actualite/retail/promod-une-nouvelle-boutique-a-saint-lazare-au-service-dun-business-modele-de-precision/2026022340803",
+   "https://www.republik-retail.fr/strategie-retail/enseignes/promod-notre-nouveau-modele-economique-porte-ses-fruits.html"
+  ]
+ },
+ {
+  "id": "psg.fr",
+  "company": "Paris Saint-Germain",
+  "sector_tab": "X Sports Clubs & Leagues",
+  "domain": "psg.fr",
+  "hq": "Paris, France",
+  "ownership": "Qatar Sports Investments (QIA subsidiary) controls; Arctos ~12.5% minority (Dec 2023)",
+  "sells": "Ligue 1 football club: media, matchday, sponsorship, merchandise",
+  "headcount_band": "1,001-5,000 (~2,900 est)",
+  "revenue": "~EUR 800M+ FY2025 (est)",
+  "valuation": "EUR 4B (Arctos deal, Dec 2023)",
+  "latest_raise": "Arctos minority stake, Dec 2023 (12.5% at EUR 4B valuation)",
+  "fit_score": 3,
+  "fit_detail": "Global fanbase (1); mass-market fans (0); elite performance story (1); clubs not a grid category (1)",
+  "up_and_coming": false,
+  "flags": [
+   "F1 tie via parent: QIA holds ~30% of Audi F1 team (Sauber Holding, Nov 2024)",
+   "sister state-owned beIN (chaired by PSG president Al-Khelaifi) holds F1 MENA/Turkey rights 2024-33",
+   "Arctos (minority) also invested in Aston Martin F1"
+  ],
+  "verdict": "No",
+  "verdict_reason": "F1 tie: controlling parent QIA co-owns the Audi F1 team; related beIN Media holds F1 broadcast rights",
+  "best_angle": "",
+  "sources": [
+   "https://www.qsi.com.qa/qsi-and-arctos-agree-landmark-partnership",
+   "https://www.espn.com/soccer/story/39063041/",
+   "https://agbi.com/business-of-sport/2024/12/qia-buys-minority-stake-in-audi-formula-1-team",
+   "https://www.qna.org.qa/en/News-Area/News/2024-02/28/0057-bein-media-group-secures-formula-1-broadcasting-rights-until-2033",
+   "https://en.wikipedia.org/wiki/BeIN_Media_Group"
+  ]
+ },
+ {
+  "id": "leonisa.co",
+  "company": "Leonisa S.A.",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "leonisa.co",
+  "hq": "Medellin, Colombia",
+  "ownership": "Private; Urrea family",
+  "sells": "Lingerie, shapewear, swimwear and activewear in 20+ countries incl. US, Mexico, Peru",
+  "headcount_band": "1,001-5,000 (2,744 Sep 2025, Revelio est)",
+  "revenue": ">COP 1 trillion (~USD 240M) per year (est, Las2orillas, undated)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Sells in US, Mexico, Colombia and others (1); mid-market women, not clearly affluent (0); apparel not performance story (0); category not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route (est, unverified)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on estimated USD 150-500M route - capped Stretch; revenue unaudited and audience fit to F1 weak",
+  "best_angle": "",
+  "sources": [
+   "https://www.las2orillas.co/?p=778838",
+   "https://www.reveliolabs.com/companies/leonisa/employees",
+   "https://ecdb.com/resources/sample-data/retailer/leonisa"
+  ]
+ },
+ {
+  "id": "mancity.com",
+  "company": "Manchester City FC",
+  "sector_tab": "X Sports Clubs & Leagues",
+  "domain": "mancity.com",
+  "hq": "Manchester, United Kingdom",
+  "ownership": "City Football Group (Abu Dhabi United Group majority; Silver Lake minority)",
+  "sells": "Premier League football club: media, matchday, sponsorship, merchandise",
+  "headcount_band": "1,001-5,000 (~2,600 est)",
+  "revenue": "GBP 694.1M (~USD 927M) FY2024-25",
+  "valuation": "n/a (CFG valued ~USD 4.8B in 2019 Silver Lake deal, est)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "Global fanbase (1); mass-market fans (0); elite performance story (1); clubs not a grid category (1)",
+  "up_and_coming": false,
+  "flags": [
+   "group brand: City Football Group",
+   "Abu Dhabi ownership; club sponsor Etihad is Abu Dhabi GP title partner (not a parent)",
+   "sports clubs rarely buy F1 rights"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters (GBP 694M FY2025, no F1 tie for club/CFG found) but weak motive for a football club to buy F1 rights",
+  "best_angle": "",
+  "sources": [
+   "https://www.wam.ae/en/article/bn8qycm-manchester-city-releases-2024-25-annual-report",
+   "https://www.mancity.com/news/club/manchester-city-annual-report-202425-63901491",
+   "https://www.nissan.co.uk/experience-nissan/partnerships/football.html"
+  ]
+ },
+ {
+  "id": "ketergroup.com",
+  "company": "Keter Group",
+  "sector_tab": "49 Home & Living",
+  "domain": "ketergroup.com",
+  "hq": "Herzliya, Israel (Luxembourg holding)",
+  "ownership": "Senior lenders (incl. CVC, Carlyle, Sculptor funds) since Apr 2024 debt exchange; previously BC Partners/PSP",
+  "sells": "Resin outdoor furniture, storage sheds, tool storage and home organisation products (Keter, Curver, Jardin, Allibert)",
+  "headcount_band": "1,001-5,000 (~2,200 est)",
+  "revenue": "~EUR 1.4B (est)",
+  "valuation": "n/a",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Sells across Europe/US/Israel (1); mass-market consumers (0); design not performance story (0); category not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "post-restructuring: S&P SD Apr 2024, lender-owned - verify health",
+   "TLB reportedly refinanced at par with Israeli banks ~2025"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Restructuring completed 2024 and debt refinanced, so not counted as current distress, but lender ownership and health need checking",
+  "best_angle": "",
+  "sources": [
+   "https://disclosure.spglobal.com/ratings/en/regulatory/org-details/sectorCode/CORP/entityId/576848",
+   "https://9fin.com/insights/keter-tlb-bank-refi",
+   "https://globallegalchronicle.com/keter-groups-restructuring/"
+  ]
+ },
+ {
+  "id": "tenthrevolution.com",
+  "company": "Tenth Revolution Group",
+  "sector_tab": "20 Staffing & Talent",
+  "domain": "tenthrevolution.com",
+  "hq": "London, United Kingdom",
+  "ownership": "Private; founder-led (James Lloyd-Townshend)",
+  "sells": "Technology recruitment and training (Frank Recruitment Group brands: Nigel Frank, Jefferson Frank, Mason Frank; Revolent)",
+  "headcount_band": "1,001-5,000 (~2,000-2,200)",
+  "revenue": "~USD 590-750M (est, third-party aggregators; unverified)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Offices across US/UK/EU/APAC (1); senior tech hiring buyers (1); recruitment not performance story (0); staffing on grid (Indeed at Red Bull) - partly crowded (0)",
+  "up_and_coming": false,
+  "flags": [
+   "revenue unverified - confirm at Companies House"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Scale only by third-party estimate (est USD 590-750M); B2B recruiter with modest brand ambition",
+  "best_angle": "",
+  "sources": [
+   "https://rocketreach.co/answers/what-is-the-annual-revenue-of-tenth-revolution-group_b40e3960ffe3a527",
+   "https://ghost.bitscale.ai/tenth-revolution-group/",
+   "https://www.tenthrevolution.com/culture/our-story/"
+  ]
+ },
+ {
+  "id": "keyrus.com",
+  "company": "Keyrus",
+  "sector_tab": "25 IT Services & Consulting",
+  "domain": "keyrus.com",
+  "hq": "Levallois-Perret, France",
+  "ownership": "Founder Eric Cohen controls via K Eagle Investment (2023 simplified tender with BNP Paribas Developpement); still quoted (Apr 2026)",
+  "sells": "Data, AI and digital consulting; mid-market ERP (Absys Cyborg)",
+  "headcount_band": "1,001-5,000 (~3,000 est)",
+  "revenue": "EUR 331.7M (~USD 375M) FY2025, -6.4%",
+  "valuation": "n/a (small cap)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Europe, LatAm, Middle East, Asia (1); senior B2B buyers (1); data consulting story only loosely performance (0); IT services fairly crowded on grid (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "declining revenue"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes on USD 150-500M route (EUR 331.7M FY2025) but B2B consultancy with no brand ambition",
+  "best_angle": "",
+  "sources": [
+   "https://www.abcbourse.com/marches/resultats-annuels-2025_695700",
+   "https://echanges.dila.gouv.fr/OPENDATA/AMF/ACT/2023/06/FCACT064841_20230606.pdf"
+  ]
+ },
+ {
+  "id": "soliver-group.com",
+  "company": "s.Oliver Group",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "soliver-group.com",
+  "hq": "Rottendorf, Germany",
+  "ownership": "Private; Freier family",
+  "sells": "Mid-market fashion brands (s.Oliver, comma, QS, Liebeskind Berlin) in DACH, Benelux, CEE",
+  "headcount_band": "1,001-5,000 (~1,800 est; ~6,000 in 2020)",
+  "revenue": "~EUR 1B (est; EUR 1.3B 2018, declining since 2017)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "DACH/Benelux/CEE incl. Austria, Hungary, Netherlands, Belgium (1); mass-market (0); fashion not performance story (0); category not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "revenue declining since 2017; 2020 restructuring and job cuts"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on est. EUR 1B revenue but sales declining and mid-market audience; fit 2",
+  "best_angle": "",
+  "sources": [
+   "https://de.statista.com/statistik/daten/studie/251570/umfrage/umsatz-von-s-oliver",
+   "https://www.cio.de/article/3692793/umsatz-von-s-oliver-soll-sich-verdoppeln.html",
+   "https://fashionunited.de/nachrichten/business/weitere-entlassungen-bei-s-oliver-200-stellen-werden-gestrichen/2020061836028"
+  ]
+ },
+ {
+  "id": "dammcorporate.com",
+  "company": "Damm",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "dammcorporate.com",
+  "hq": "Barcelona, Spain",
+  "ownership": "Private; Carceller family (Disa) majority",
+  "sells": "Beer (Estrella Damm, Voll-Damm), soft drinks, water, food distribution",
+  "headcount_band": "5,001-10,000 (6,393 avg 2025)",
+  "revenue": "EUR 2.01B (~USD 2.3B) 2025, -0.7%",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Exports to 100+ countries incl. UK/US (1); adult 25-54 audience (1); Mediterranean lifestyle not performance story (0); beer crowded on grid (0)",
+  "up_and_coming": true,
+  "flags": [
+   "market expansion: Spain -> international (target double revenue by 2030; first Africa plant; UK Old Speckled Hen, 2025-26)",
+   "beer crowded; Heineken is F1 global partner",
+   "FC Barcelona global partner"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters (EUR 2.01B 2025, no F1 tie found) but beer is a crowded, Heineken-exclusive F1 category",
+  "best_angle": "Team-level deal could support Damm's drive to double revenue internationally by 2030, e.g. around the new Madrid GP.",
+  "sources": [
+   "https://www.alimarket.es/alimentacion/noticia/428194/damm-reduce-ventas-y-abre-su-primera-planta-en-africa",
+   "https://www.vinetur.com/20260629103358/damm-targets-euro4-billion-in-revenue-by-2030-after-opening-its-first-african-factory.html",
+   "https://www.elindependiente.com/economia/2026/06/23/damm-factura-crecimiento-internacional-2025/",
+   "https://raceprogramme.formula1.com/2025/spain/welcome-to-barcelona"
+  ]
+ }
+]

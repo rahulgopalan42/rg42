@@ -1,0 +1,122 @@
+[
+{
+"id": "paragroup.com",
+"company": "Para Group Indonesia",
+"sector": "29 Tech Media & Gaming",
+"country": "Indonesia",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Chairul Tanjung",
+"triage_note": "real; fit 1; scale large; Indonesian CT Corp group"
+},
+{
+"id": "unitedparks.com",
+"company": "United Parks & Resorts",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; theme park operator"
+},
+{
+"id": "sita.aero",
+"company": "SITA",
+"sector": "25 IT Services & Consulting",
+"country": "Switzerland",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale large; air transport IT"
+},
+{
+"id": "visa.com",
+"company": "Visa",
+"sector": "25 IT Services & Consulting",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale large; payments, already in F1"
+},
+{
+"id": "hugoboss.com",
+"company": "HUGO BOSS",
+"sector": "53 Consumer & Lifestyle",
+"country": "Germany",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale large; luxury fashion, F1 sponsor history"
+},
+{
+"id": "zumtobel.at",
+"company": "Zumtobel Lighting",
+"sector": "45 Electronic Parts",
+"country": "Österreich",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Zumtobel Group AG with its head office",
+"triage_note": "real; fit 4; scale large; premium lighting, global"
+},
+{
+"id": "ultimatesoftware.com",
+"company": "Ultimate Software",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "UKG",
+"triage_note": "real; fit 4; scale large; HR software, now UKG"
+},
+{
+"id": "on.com",
+"company": "On",
+"sector": "X06 Retail & E-commerce",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale large; Swiss running brand"
+},
+{
+"id": "indragroup.com",
+"company": "Indra Group",
+"sector": "32 Defense & Industrial AI",
+"country": "Spain",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale large; Spanish defense and technology group"
+},
+{
+"id": "sohohouse.com",
+"company": "Soho House & Co",
+"sector": "16 Travel & Hospitality",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "MCR Hotels",
+"triage_note": "real; fit 4; scale large; members club brand"
+}
+]

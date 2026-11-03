@@ -1,0 +1,122 @@
+[
+{
+"id": "islam-garment.com",
+"company": "Islam Garments Ltd. - Group of Industries",
+"sector": "53 Consumer & Lifestyle",
+"country": "Bangladesh",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; garment exporter"
+},
+{
+"id": "grupovierci.com",
+"company": "Grupo Vierci - Chile",
+"sector": "X06 Retail & E-commerce",
+"country": "Paraguay",
+"type": "Self Owned",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Paraguay conglomerate"
+},
+{
+"id": "cuf.pt",
+"company": "CUF - Hospitais e Clínicas",
+"sector": "42 Health & Wellness",
+"country": "Portugal",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Jose de Mello Saude",
+"triage_note": "real; fit 1; scale mid; Portuguese hospital brand"
+},
+{
+"id": "abm.co.uk",
+"company": "ABM Experience Solutions",
+"sector": "29 Tech Media & Gaming",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; experiential marketing agency"
+},
+{
+"id": "kristallsmolensk.com",
+"company": "Kristall Production Corporation OAO",
+"sector": "03 Luxury & Beauty",
+"country": "Russia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Kristall Production Corporation",
+"triage_note": "real; fit 1; scale mid; Russian diamond manufacturer"
+},
+{
+"id": "new-work.se",
+"company": "New Work SE",
+"sector": "22 SaaS",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Burda",
+"triage_note": "real; fit 1; scale mid; XING owner, German HR networks"
+},
+{
+"id": "jimmyglobal.com",
+"company": "Jimmy",
+"sector": "X15 Consumer Electronics & Audio",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese appliance brand"
+},
+{
+"id": "magicsoftware.com",
+"company": "Magic Software Enterprises",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Formula Systems",
+"triage_note": "real; fit 1; scale mid; integration software"
+},
+{
+"id": "teaminternet.com",
+"company": "Team Internet",
+"sector": "22 SaaS",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; domain and internet services"
+},
+{
+"id": "buzzfeed.com",
+"company": "BuzzFeed",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; digital media company"
+}
+]

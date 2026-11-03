@@ -1,0 +1,291 @@
+[
+ {
+  "id": "storch-ciret.com",
+  "company": "Storch-Ciret Group",
+  "sector_tab": "46 Tools & Industrial Supply",
+  "domain": "storch-ciret.com",
+  "hq": "Wuppertal, Germany",
+  "ownership": "Majority-owned by MWZ-Stiftung (foundation, since 2016)",
+  "sells": "Professional and DIY painting tools (STORCH, CIRET brands) in 87 countries; ~56% of revenue abroad",
+  "headcount_band": "1,001-5,000 (~1,600, company site 2025-26)",
+  "revenue": "just under EUR 250M per year (company key figures page, undated ~2025)",
+  "valuation": "unknown (foundation-owned)",
+  "latest_raise": "none",
+  "fit_score": 2,
+  "fit_detail": "sells in 87 countries (1); trade painters/DIY buyers, not affluent or senior B2B (0); painting tools story not performance (0); category not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "trade/B2B audience"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes hard filters (~EUR 250M revenue, ~1,600 staff, no F1 tie found) but trade-tool maker on the 150-500M route with little brand ambition for F1.",
+  "best_angle": "",
+  "sources": [
+   "https://www.storch-ciret.com/en/unser-unternehmen/kennzahlen",
+   "https://www.storch-ciret.com/fileadmin/user_upload/Storch-Ciret-Group/Sourcing/Company_presentation_EN.pdf",
+   "https://www.storch-ciret.com/en/aktuell/news/detail/we-are-growing-steadily"
+  ]
+ },
+ {
+  "id": "stradivarius.com",
+  "company": "Stradivarius",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "stradivarius.com",
+  "hq": "Sallent, Catalonia, Spain",
+  "ownership": "Inditex (100%)",
+  "sells": "Young women's fashion in ~60+ markets via stores and online",
+  "headcount_band": "5,001-10,000 (est)",
+  "revenue": "~EUR 2.66B FY2024 (+14.1%); FY2025 brand figure not found",
+  "valuation": "part of Inditex (FY2025 group sales EUR 39.9B)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "sells in 3+ F1 markets (1); young female 15-30 audience (0); fashion story not performance (0); category not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "group brand: Inditex",
+   "parent tie: sister Inditex brand Pull&Bear launched licensed 'Disney x Formula 1' collection (Aug 2026)"
+  ],
+  "verdict": "No",
+  "verdict_reason": "F1 tie via controlling parent Inditex, whose controlled brand Pull&Bear is a current Formula 1 licensee (Disney x Formula 1 collection, Aug 2026).",
+  "best_angle": "",
+  "sources": [
+   "https://us.fashionnetwork.com/news/Inditex-reported-a-net-profit-of-6-22-billion-in-2025-with-sales-up-3-2-to-just-shy-of-40-billion,1814778.html",
+   "https://www.theindustry.fashion/youth-focused-inditex-brands-stradivarius-and-pullbear-make-yorkshire-debut/",
+   "https://www.nssmag.com/pt/fashion/46658/disney-x-formula-1-by-pull-bear-traz-a-energia-do-circuito-a-uma-colecao-de-capsulas"
+  ]
+ },
+ {
+  "id": "celio-talents.com",
+  "company": "celio",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "celio.com",
+  "hq": "Saint-Ouen, France",
+  "ownership": "Private, founding Grosman family",
+  "sells": "Men's mid-market fashion; ~1,000 stores in ~60 countries incl. franchise (2018 figure)",
+  "headcount_band": "1,001-5,000 (~5,000, est)",
+  "revenue": "Celio France EUR 449M FY ending Jan 2025 (Xerfi); group figure not published",
+  "valuation": "unknown (private)",
+  "latest_raise": "none",
+  "fit_score": 2,
+  "fit_detail": "present in 3+ F1 markets via franchise (1); mass mid-market men (0); fashion story not performance (0); category not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "store closures in France (Jul 2026); safeguard procedure 2020, exited end 2021",
+   "domain given is careers site; brand site celio.com"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters on the 150-500M revenue route (Celio France EUR 449M) with no F1 tie found, but mid-market brand still closing stores.",
+  "best_angle": "Menswear brand could tap F1's growing young-male fan base with a licensed-style racing capsule in France and franchise markets.",
+  "sources": [
+   "https://www.xerfi.com/etudes-par-entreprise/celio-france_313334856",
+   "https://www.echodumardi.com/actualite/celio-tire-definitivement-le-rideau-dans-le-centre-ville-davignon/?print=pdf",
+   "https://www.journaldeleconomie.fr/celio-va-fermer-une-centaine-de-magasins/",
+   "https://ac-franchise.com/article/celio-sollicite-louverture-dune-procedure-de-sauvegarde"
+  ]
+ },
+ {
+  "id": "jas.com",
+  "company": "JAS Worldwide",
+  "sector_tab": "24 Logistics",
+  "domain": "jas.com",
+  "hq": "Atlanta, Georgia, United States",
+  "ownership": "Private (founder/management-controlled)",
+  "sells": "Global freight forwarding and supply-chain services, 227 offices; includes a motorsport logistics unit (Luxembourg)",
+  "headcount_band": "5,001-10,000 (4,200-7,000 by source, est)",
+  "revenue": "~USD 2.3B (data aggregators ZoomInfo/Prospeo, est)",
+  "valuation": "unknown (private)",
+  "latest_raise": "none known",
+  "fit_score": 2,
+  "fit_detail": "sells in 3+ F1 markets (1); senior B2B shippers (1); forwarding story not performance (0); logistics crowded on grid - DHL is F1 official logistics partner (0)",
+  "up_and_coming": false,
+  "flags": [
+   "logistics crowded on grid (DHL)",
+   "revenue unverified (aggregator est)",
+   "runs motorsport logistics (Dakar/Audi 2022), no F1 contract found"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (~USD 2.3B revenue est, no F1 tie found) but logistics category is owned by DHL in F1 and revenue is unverified.",
+  "best_angle": "Its motorsport logistics unit could use a team-supplier deal to showcase race-critical freight capability.",
+  "sources": [
+   "https://www.jas.com/industries/motorsport-logistics",
+   "https://jas.com/post/jas-motorsports-team-moves-high-tech-vehicles-for-2022-dakar-rallye",
+   "https://zoominfo.com/c/jas/151733232",
+   "https://www.reveliolabs.com/companies/jas-worldwide-management/employees"
+  ]
+ },
+ {
+  "id": "simonandschuster.com",
+  "company": "Simon & Schuster",
+  "sector_tab": "29 Tech Media & Gaming",
+  "domain": "simonandschuster.com",
+  "hq": "New York, United States",
+  "ownership": "KKR (100%, acquired Oct 2023 for USD 1.62B)",
+  "sells": "Trade books in US, UK, Canada, Australia, India; international <20% of sales",
+  "headcount_band": "1,001-5,000 (~1,500+, est)",
+  "revenue": "~USD 1.1B (2022, record); ~USD 1.2B 2025 (est)",
+  "valuation": "USD 1.62B (KKR acquisition, Oct 2023)",
+  "latest_raise": "n/a (PE buyout 2023)",
+  "fit_score": 3,
+  "fit_detail": "sells in 3+ F1 markets (1); affluent 25-54 readers (1); publishing story not performance (0); category not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "CEO transition: Jonathan Karp stepping down (announced Aug 2025)",
+   "distributes Cercle d'Art 'Formula 1' photo book (Feb 2027) - not an F1 licence; DK holds official F1 publishing deal"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (USD 1.62B transacted value, ~USD 1.1B+ revenue, no F1 tie found) but publishers have little sponsorship motive and DK already holds F1's publishing licence.",
+  "best_angle": "",
+  "sources": [
+   "https://www.financierworldwide.com/kkr-acquires-simon-schuster-for-162bn",
+   "https://thebookseller.com/news/ss-reports-record-revenues-breaking-the-billion-dollar-threshold-for-the-first-time",
+   "https://www.shelf-awareness.com/theshelf/2025-08-27/s_s_ceo_jonathan_karp_stepping_down_will_head_new_imprint.html",
+   "https://www.licenseglobal.com/publishing/formula-1-dk-announce-global-publishing-partnership",
+   "https://www.simonandschuster.com/books/Formula-1/Lionel-Froissart/9782702211953"
+  ]
+ },
+ {
+  "id": "florafoodgroup.com",
+  "company": "Flora Food Group (formerly Upfield)",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "florafoodgroup.com",
+  "hq": "Amsterdam, Netherlands",
+  "ownership": "KKR (PE, since 2017 carve-out from Unilever); sale auction reported Sep 2026",
+  "sells": "Plant-based spreads and cheese (Flora, Becel, Country Crock, Rama, Blue Band, Violife) in ~95 countries",
+  "headcount_band": "1,001-5,000 (~4,000, est)",
+  "revenue": "~EUR 3B net sales FY2025; slight decline H1 2026",
+  "valuation": "sale valuation reported EUR 7B (Sky News, Sep 2026) to USD 10B (FT, Apr 2026)",
+  "latest_raise": "n/a (PE-owned)",
+  "fit_score": 2,
+  "fit_detail": "sells in 3+ F1 markets (1); mass grocery shoppers (0); spreads story not performance (0); category not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "ownership change pending: KKR sale auction (Sep 2026)",
+   "no single global brand; sponsorships in running (TCS London Marathon)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (EUR 3B revenue, EUR 7B+ sale valuation, no F1 tie found) but mass-grocery spreads with weak performance fit and a pending owner change.",
+  "best_angle": "",
+  "sources": [
+   "https://finance.yahoo.com/markets/stocks/articles/private-equity-firm-kkr-said-133208706.html",
+   "https://www.privateequitywire.co.uk/kkr-weighs-10bn-exit-from-flora-food-group/",
+   "https://www.retaildetail.eu/?p=45966",
+   "https://www.florafoodgroup.com/brands",
+   "https://florafoodgroup.com/stories/press-and-media/flora-uki-partners-with-tcs-london-marathon"
+  ]
+ },
+ {
+  "id": "arag.com",
+  "company": "ARAG",
+  "sector_tab": "01 Banking & Insurance",
+  "domain": "arag.com",
+  "hq": "Düsseldorf, Germany",
+  "ownership": "Private, family-owned (Faßbender family)",
+  "sells": "Legal-expenses, health and property insurance in ~19 countries across Europe, North America and Australia",
+  "headcount_band": "5,001-10,000 (>6,500, company site)",
+  "revenue": "gross premiums EUR 3.16B FY2025 (+13.2%); 45% outside Germany",
+  "valuation": "unknown (private)",
+  "latest_raise": "none",
+  "fit_score": 2,
+  "fit_detail": "sells in 3+ F1 markets (DE, NL, BE, ES, IT, US, CA, AU) (1); mass-market policyholders (0); legal-insurance story not performance (0); insurance not on crowded list (1)",
+  "up_and_coming": false,
+  "flags": [
+   "international growth: 45% of premiums abroad, +13.5% 2025"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (EUR 3.16B premiums, >6,500 staff, no F1 tie found) but legal-insurance proposition has a weak performance story.",
+  "best_angle": "Fast-growing international premiums (+13.5% abroad in 2025) could justify a multi-market brand platform.",
+  "sources": [
+   "https://www.arag.com/assets/document/pm_bpk_2026.pdf",
+   "https://www.versicherungsbote.de/id/4949915/Arag-steigert-Beitragseinnahmen-und-Gewinn-deutlich/",
+   "https://www.arag.de/unternehmen/"
+  ]
+ },
+ {
+  "id": "hobby-caravan.de",
+  "company": "Hobby-Wohnwagenwerk",
+  "sector_tab": "43 Mobility & Automotive",
+  "domain": "hobby-caravan.de",
+  "hq": "Fockbek, Germany",
+  "ownership": "Private, family-owned (Striewski family)",
+  "sells": "Caravans and motorhomes across Europe; >13,000 vehicles/year",
+  "headcount_band": "1,001-5,000 (>1,200, company)",
+  "revenue": "~EUR 300M last FY (All in Caravaning exhibitor profile, 2024); 2025 not published",
+  "valuation": "unknown (private)",
+  "latest_raise": "none",
+  "fit_score": 2,
+  "fit_detail": "sells in 3+ European F1 markets (1); affluent leisure buyers, skewing 50+ (1); leisure story not performance (0); vehicle category crowded (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route (screen's EUR 800M+ not supported)",
+   "production cut Dec 2024 on weak demand",
+   "Europe-centric"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters only on the 150-500M revenue route (~EUR 300M), no F1 tie found; Europe-only brand in a demand slump.",
+  "best_angle": "",
+  "sources": [
+   "https://allincaravaning.german-pavilion.com/en/sites/exhibitors/103393",
+   "https://www.promobil.de/ratgeber/hobby-faehrt-produktion-zurueck/",
+   "https://www.hobby-caravan.de/en/company/a-strong-brand/history/"
+  ]
+ },
+ {
+  "id": "besix.com",
+  "company": "BESIX",
+  "sector_tab": "39 Construction & Field Svc",
+  "domain": "besix.com",
+  "hq": "Brussels, Belgium",
+  "ownership": "50% Belgian nationals/management, 50% Orascom Construction (joint control)",
+  "sells": "Construction, concessions and real estate in Belgium, Australia, Middle East (UAE, Saudi, Qatar), Netherlands",
+  "headcount_band": "10,001+ (~14,000, company site)",
+  "revenue": "EUR 4.158B FY2025 (+20.6%); order book EUR 6.7B (7 May 2026)",
+  "valuation": "unknown (private)",
+  "latest_raise": "none",
+  "fit_score": 4,
+  "fit_detail": "operates in 3+ F1 markets (BE, NL, AU, UAE, SA, QA) (1); senior B2B/government buyers (1); landmark engineering (Burj Khalifa) maps to precision/global ambition (1); construction not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "joint parent Orascom Construction (no F1 tie found)",
+   "B2B contractor; marketing motive unproven"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (EUR 4.2B revenue, no F1 tie found for BESIX or Orascom) but B2B contractor whose marketing motive for F1 is unproven.",
+  "best_angle": "Footprint in Belgium, Netherlands, Australia and the Gulf matches five Grand Prix hosts, enabling government/developer hospitality.",
+  "sources": [
+   "https://www.besix.com/en/news/full-year-results-and-activity-esg-report-2025-of-besix-group",
+   "https://annualreport.besix.com/wp-content/uploads/2026/05/BESIX_RA25_1_BESIX-IN-2025-2_Key_figures.pdf",
+   "https://en.wikipedia.org/wiki/Besix",
+   "https://www.agbi.com/companies/besix"
+  ]
+ },
+ {
+  "id": "wrenkitchens.com",
+  "company": "Wren Kitchens",
+  "sector_tab": "49 Home & Living",
+  "domain": "wrenkitchens.com",
+  "hq": "Barton-upon-Humber, United Kingdom",
+  "ownership": "Private, founder Malcolm Healey",
+  "sells": "Kitchens, bedrooms and bathrooms via ~150 UK showrooms; exited US Apr 2026",
+  "headcount_band": "5,001-10,000 (est)",
+  "revenue": "GBP 1.005B FY2025 (+GBP 87M); net profit GBP 79.9M",
+  "valuation": "unknown (private)",
+  "latest_raise": "none",
+  "fit_score": 2,
+  "fit_detail": "UK only after US exit (0); affluent 25-54 homeowners (1); kitchens story not performance (0); category not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "market contraction: US -> exited (Apr 2026)",
+   "domestic UK brand"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes hard filters (GBP 1B revenue, no F1 tie found) but now UK-only after leaving the US, so F1's global reach is wasted.",
+  "best_angle": "",
+  "sources": [
+   "https://www.kbbreview.com/82935/news/wren-storms-2025-passing-1bn-in-turnover/",
+   "https://www.interiordaily.com/article/9832692/wren-exits-us-market-to-refocus-on-uk-growth/",
+   "https://en.wikipedia.org/wiki/Wren_Kitchens"
+  ]
+ }
+]

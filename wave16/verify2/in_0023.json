@@ -1,0 +1,122 @@
+[
+{
+"id": "intime.com.cn",
+"company": "银泰商业集团",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Alibaba",
+"triage_note": "real; fit 2; scale large; Chinese department stores"
+},
+{
+"id": "grupocodere.com",
+"company": "Codere",
+"sector": "29 Tech Media & Gaming",
+"country": "España",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; Spanish gaming operator"
+},
+{
+"id": "sikorea.co.kr",
+"company": "신세계인터내셔날(Shinsegae International Inc.)",
+"sector": "53 Consumer & Lifestyle",
+"country": "Republic of Korea",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Shinsegae Group",
+"triage_note": "real; fit 2; scale large; luxury fashion distributor"
+},
+{
+"id": "konkaglobal.com",
+"company": "KONKA Global",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Self Owned",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; Chinese appliance maker"
+},
+{
+"id": "infoedge.in",
+"company": "Info Edge India Ltd",
+"sector": "38 Edge & CDN",
+"country": "India",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; Indian classifieds/jobs portal"
+},
+{
+"id": "helixops.ai",
+"company": "BMC Helix",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; IT service management"
+},
+{
+"id": "thesphere.com",
+"company": "Sphere",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; entertainment venue/media"
+},
+{
+"id": "ringana.com",
+"company": "RINGANA",
+"sector": "03 Luxury & Beauty",
+"country": "Austria",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Austrian fresh cosmetics"
+},
+{
+"id": "synchronoss.com",
+"company": "Synchronoss Technologies",
+"sector": "48 Telecom & Space",
+"country": "United States",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Lumine Group",
+"triage_note": "real; fit 2; scale mid; cloud messaging software"
+},
+{
+"id": "mtg.com",
+"company": "Modern Times Group MTG AB",
+"sector": "29 Tech Media & Gaming",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; mobile gaming group"
+}
+]

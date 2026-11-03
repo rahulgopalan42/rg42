@@ -1,0 +1,293 @@
+[
+ {
+  "id": "goinfinitum.com",
+  "company": "Infinitum",
+  "sector_tab": "21 Materials & Mech Parts",
+  "domain": "goinfinitum.com",
+  "hq": "Round Rock, Texas, USA",
+  "ownership": "Private, VC-backed (Just Climate, Galvanize, NGP, Rockwell Automation, Chevron Technology Ventures)",
+  "sells": "High-efficiency air-core (PCB stator) electric motors and drives for industrial/HVAC uses",
+  "headcount_band": "201-500 (~225+ est; ~150 in 2023)",
+  "revenue": "Undisclosed",
+  "valuation": "Undisclosed",
+  "latest_raise": "USD 185M Series E led by Just Climate (1 Nov 2023); USD 35M Series E-II (Jul 2024, CB Insights)",
+  "fit_score": 2,
+  "fit_detail": "Mainly US/Mexico (0); senior industrial B2B buyers (1); efficiency/precision engineering story (1); motors not crowded but no consumer brand (0)",
+  "up_and_coming": true,
+  "flags": [
+   "Series E at ~35 months, at the 36-month edge - lapses Nov 2026",
+   "B2B industrial, limited brand budget"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale via USD 185M Series E (Nov 2023), but that route lapses within weeks; B2B industrial with limited brand motive.",
+  "best_angle": "Electric-motor efficiency story fits F1's hybrid power-unit era for industrial B2B hospitality.",
+  "sources": [
+   "https://goinfinitum.com/infinitum-raises-185m-to-make-more-efficient-motors-expand-operations-in-mexico/",
+   "https://wsgr.com/en/insights/wilson-sonsini-advises-infinitum-on-dollar185m-series-e-funding.html",
+   "https://goinfinitum.com/efficient-motor-maker-infinitum-raises-185-mln-in-round-led-by-climate-focused-fund/"
+  ]
+ },
+ {
+  "id": "magentamed.com",
+  "company": "Magenta Medical Ltd.",
+  "sector_tab": "X Medtech",
+  "domain": "magentamed.com",
+  "hq": "Kadima, Israel",
+  "ownership": "Private, VC-backed (Novo Holdings lead)",
+  "sells": "Elevate miniature percutaneous heart pump (pre-FDA approval)",
+  "headcount_band": "51-200 (~200 est)",
+  "revenue": "Pre-revenue (US pivotal trial stage)",
+  "valuation": "Undisclosed",
+  "latest_raise": "USD 105M led by Novo Holdings (Jul 2024); USD 55M (2023)",
+  "fit_score": 1,
+  "fit_detail": "No commercial markets yet (0); clinician/hospital buyers (0); precision device story (1); medtech not crowded but no brand need (0)",
+  "up_and_coming": false,
+  "flags": [
+   "pre-revenue, pre-FDA approval",
+   "hospital B2B, no consumer brand"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes scale via USD 105M round (Jul 2024) but pre-revenue clinical-stage medtech with no brand ambition (fit 1).",
+  "best_angle": "",
+  "sources": [
+   "https://www.massdevice.com/magenta-medical-105m-miniature-heart-pump/",
+   "https://www.dicardiology.com/content/magenta-medical-developer-worlds-smallest-heart-pump-closes-105m-financing-round",
+   "https://cardiovascularbusiness.com/topics/healthcare-management/healthcare-economics/medical-device-company-raises-another-105m-new-look-heart-pump"
+  ]
+ },
+ {
+  "id": "mandmdirect.com",
+  "company": "MandM Direct",
+  "sector_tab": "X Retail & E-commerce",
+  "domain": "mandmdirect.com",
+  "hq": "Hereford, UK",
+  "ownership": "Owned by Bestseller (Denmark) since 2014 (not TDR Capital); founder minority",
+  "sells": "Online discount branded sportswear and fashion (UK plus EU country sites)",
+  "headcount_band": "501-1,000 (est)",
+  "revenue": "~USD 239M 2025 (RocketReach est); turnover +11.5% FY to Jul 2023",
+  "valuation": "n/a (subsidiary)",
+  "latest_raise": "n/a",
+  "fit_score": 1,
+  "fit_detail": "UK plus several EU F1 markets (1); value shoppers, not affluent (0); discount story, not performance (0); discount sportswear retail overlaps grid kit partners (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "group brand: Bestseller",
+   "lapsed: parent Bestseller's Jack & Jones sponsored Haas F1 (2018-19) - confirm before outreach",
+   "sponsors St Johnstone FC and Hereford FC (2025)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Separately marketed Bestseller brand on USD 150-500M revenue route (est); capped by lapsed parent F1 deal (Jack & Jones/Haas) and weak fit.",
+  "best_angle": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/MandM_Direct",
+   "https://www.retail-week.com/mandm-direct/2658.subject?page=1",
+   "https://rocketreach.co/answers/what-is-the-annual-revenue-of-mandm-direct_b5c7d4c4f42e0da3",
+   "https://www.avisen.dk/jack--jones-joins-haas-f1-team_482455.aspx",
+   "https://gr.fashionnetwork.com/news/Jack-Jones-renews-Rich-Energy-Haas-F1-deal-after-first-year-boosted-brand,1067291.html"
+  ]
+ },
+ {
+  "id": "bollandbranch.com",
+  "company": "Boll & Branch",
+  "sector_tab": "49 Home & Living",
+  "domain": "bollandbranch.com",
+  "hq": "Summit, New Jersey, USA",
+  "ownership": "Private, founder-led with L Catterton backing (USD 100M, 2019)",
+  "sells": "DTC luxury organic-cotton bedding, bath and furniture (US online, 15 stores, Nordstrom/Bloomingdale's)",
+  "headcount_band": "51-200 (~186, 2025)",
+  "revenue": "~USD 200M (2024, CEO claim)",
+  "valuation": "Undisclosed",
+  "latest_raise": "USD 100M from L Catterton (2019) - outside 36 months",
+  "fit_score": 2,
+  "fit_detail": "US only (0); affluent 25-54 (1); comfort/craft story, not performance (0); bedding not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "US-only"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes on ~USD 200M revenue (2024, company claim) but US-only domestic brand limits F1 value.",
+  "best_angle": "",
+  "sources": [
+   "https://www.retaildive.com/news/boll-branch-expands-into-furniture/696526/",
+   "https://pitchbook.com/profiles/company/84408-58",
+   "https://retailrestaurantfb.com/boll-branch-grows-to-15-stores-nationwide/"
+  ]
+ },
+ {
+  "id": "impulse-dynamics.com",
+  "company": "Impulse Dynamics",
+  "sector_tab": "X Medtech",
+  "domain": "impulse-dynamics.com",
+  "hq": "Marlton, New Jersey, USA",
+  "ownership": "Private, investor-backed (Sands Capital, Braidwell, Redmile, Perceptive, Alger)",
+  "sells": "Optimizer CCM implantable therapy for heart failure (US and Europe)",
+  "headcount_band": "201-500 (~400 est)",
+  "revenue": "Undisclosed (commercial in US/EU)",
+  "valuation": "Undisclosed",
+  "latest_raise": "USD 158M (Dec 2025); USD 136M (Feb 2024)",
+  "fit_score": 1,
+  "fit_detail": "US/Europe (1); cardiologist/hospital buyers (0); device tech story weakly (0); medtech no brand need (0)",
+  "up_and_coming": false,
+  "flags": [
+   "hospital B2B, no consumer brand",
+   "Medicare coverage decision tailwind (2025)"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes scale via USD 158M round (Dec 2025) but B2B implant maker with no brand ambition (fit 1).",
+  "best_angle": "",
+  "sources": [
+   "https://www.streetinsider.com/Press+Releases/Impulse+Dynamics+Completes+%24158M+Financing+Round/25721791.html",
+   "https://aap.com.au/aapreleases/globenewswire9036957/",
+   "https://dealroom.co/companies/impulse-dynamics/"
+  ]
+ },
+ {
+  "id": "zola.com",
+  "company": "Zola",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "zola.com",
+  "hq": "New York, NY, USA",
+  "ownership": "Private, VC-backed",
+  "sells": "Wedding registry, websites, planning and vendor marketplace (US)",
+  "headcount_band": "201-500 (est, sources conflict)",
+  "revenue": "Unverified: ~USD 120M (c.2020 est) to USD 325-397M (aggregator est)",
+  "valuation": "~USD 650-700M (2018-2020 rounds, stale)",
+  "latest_raise": "May 2020 round; total ~USD 241M",
+  "fit_score": 1,
+  "fit_detail": "US only (0); affluent 25-40 couples (1); no performance story (0); category not crowded but lifecycle audience (0)",
+  "up_and_coming": false,
+  "flags": [
+   "scale unverified (revenue estimates conflict)",
+   "USD 150-500M revenue route",
+   "US-only"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Scale unverified (estimates USD 120-397M) and US-only lifecycle brand with poor F1 fit.",
+  "best_angle": "",
+  "sources": [
+   "https://trueup.io/co/zola",
+   "https://dealroom.co/companies/zola/",
+   "https://d3.harvard.edu/platform-digit/submission/zola-proving-even-the-wedding-industry-isnt-pandemic-proof/",
+   "https://techcrunch.com/2019/06/27/zola-founder-and-ceo-shan-lyn-ma-is-coming-to-disrupt-sf"
+  ]
+ },
+ {
+  "id": "currenciesdirect.com",
+  "company": "Currencies Direct",
+  "sector_tab": "09 Fintech",
+  "domain": "currenciesdirect.com",
+  "hq": "London, UK",
+  "ownership": "Co-controlled by Palamon Capital and Corsair Capital; Blackstone Tactical Opportunities minority (GBP 140M, Mar 2022)",
+  "sells": "International money transfer and FX payments for private clients and SMEs (UK, Spain, EU, South Africa, India, US)",
+  "headcount_band": "501-1,000 (750+, company)",
+  "revenue": "GBP 105M LTM Jan 2022 (company); ~USD 150M 2025 (aggregator est)",
+  "valuation": "Undisclosed",
+  "latest_raise": "GBP 140M Blackstone investment (Mar 2022) - outside 36 months",
+  "fit_score": 2,
+  "fit_detail": "30+ offices incl. UK, Spain, US (1); affluent 25-54 expats/property buyers (1); no performance story (0); payments adjacent to crowded banking/fintech (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue at USD 150M floor (est)",
+   "PE-owned, possible sale process"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Revenue only at the USD 150M floor on estimates (last reported GBP 105M, 2022); payments category busy on the grid.",
+  "best_angle": "",
+  "sources": [
+   "https://www.businesswire.com/news/home/20220307006136/en/Currencies-Direct-Announces-%C2%A3140-Million-Strategic-Investment-from-Blackstone",
+   "https://www.palamon.com/news/v35v5o68tj4pk401f0eut9n7jwoeg2",
+   "https://www.cvc.com/media/news/2021/2021-03-19-currencies-direct-completes-165-million-dividend-recapitalisation/",
+   "https://growjo.com/company/Currencies_Direct",
+   "https://www.currenciesdirect.com/en-br/company"
+  ]
+ },
+ {
+  "id": "rsystems.com",
+  "company": "R Systems",
+  "sector_tab": "25 IT Services & Consulting",
+  "domain": "rsystems.com",
+  "hq": "Noida, India / El Dorado Hills, California, USA",
+  "ownership": "Listed (NSE/BSE), Blackstone ~52% controlling",
+  "sells": "Digital product engineering and AI services for tech, telecom, BFSI clients (US, Europe, India)",
+  "headcount_band": "1,001-5,000 (~4,200-4,500 est)",
+  "revenue": "INR 1,958 crore (~USD 225M) CY2025, +12.4%",
+  "valuation": "Undisclosed here (listed small/mid-cap)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "US, Europe, India (1); senior B2B tech buyers (1); engineering story but generic (0); IT services crowded on grid (Infosys, Cognizant etc.) (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "PE-controlled (Blackstone)",
+   "modest brand budget"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on USD ~225M CY2025 revenue (USD 150-500M route); IT services busy on the grid and modest brand budget.",
+  "best_angle": "",
+  "sources": [
+   "https://scanx.trade/stock-market-news/earnings/r-systems-international-schedules-investor-call-for-q3fy26-results-discussion-on-february-11-2026/32382181",
+   "https://filingreader.com/news-wire/mumbai/2025-11-07/r-systems-international-reports-strong-q3-cy-2025-financial-results",
+   "https://fyers.in/stocks/r-systems-international-ltd/profit-loss"
+  ]
+ },
+ {
+  "id": "vakko.com",
+  "company": "Vakko",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "vakko.com",
+  "hq": "Istanbul, Turkey",
+  "ownership": "Listed (Borsa Istanbul), Hakko family-controlled",
+  "sells": "Luxury fashion, accessories, home and chocolate (Vakko, Vakkorama, Vakko Chocolate) - mainly Turkey, some Gulf",
+  "headcount_band": "1,001-5,000 (~3,090, Mar 2026)",
+  "revenue": "~TRY 21.8B TTM to Jun 2026 (~USD 500M, est); RocketReach USD 615M 2025 (est)",
+  "valuation": "Undisclosed here (listed)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "Mainly Turkey, limited Gulf presence (0); affluent 25-54 (1); heritage fashion, not performance (0); luxury fashion not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "revenue near USD 500M threshold (est, inflation-adjusted TRY)",
+   "mostly domestic (97% of staff in Turkey)",
+   "Turkish GP returns 2027-2031"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on ~USD 500M revenue (est) but mostly domestic; Turkish GP return in 2027 gives a home-market angle.",
+  "best_angle": "Turkish Grand Prix returns to Istanbul Park in 2027 - a home-race luxury hospitality and fashion platform.",
+  "sources": [
+   "https://www.google.com/finance/beta/quote/VAKKO:IST",
+   "https://www.reveliolabs.com/companies/vakko/employees/",
+   "https://rocketreach.co/answers/what-is-the-annual-revenue-of-vakko_b5c74ad2f42e0d15",
+   "https://www.grandprix247.com/formula-1-news/formula-1-announces-the-return-of-turkish-grand-prix-from-2027-in-long-term-istanbul-park-deal"
+  ]
+ },
+ {
+  "id": "roots.com",
+  "company": "Roots Corporation",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "roots.com",
+  "hq": "Toronto, Canada",
+  "ownership": "TSX-listed (Searchlight Capital major holder); agreed go-private sale to Marquee Brands (Aug 2026)",
+  "sells": "Apparel, leather goods, outerwear (Canada, US, Asia partners)",
+  "headcount_band": "1,001-5,000 (~2,000 est)",
+  "revenue": "CAD 277.7M (~USD 200M) FY2025 (to 31 Jan 2026)",
+  "valuation": "Take-private at CAD 4.10/share (~USD 160M est, Aug 2026)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "Canada, US, Asia (1); mainstream 25-54 (0); heritage outdoors story (0); apparel not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "being acquired by Marquee Brands (closing Q4 2026)"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Hard filter 3 (acquired): agreed to be acquired and taken private by Marquee Brands (announced 20 Aug 2026, closing Q4 2026).",
+  "best_angle": "",
+  "sources": [
+   "https://www.businesswire.com/news/home/20260409831884/en/Roots-Reports-Strong-Fourth-Quarter-and-Fiscal-2025-Results",
+   "https://www.marqueebrands.com/newsroom-1/roots-corporation-agrees-to-go-private-in-transaction-led-by-marquee-brands-in-partnership-with-canadian-retail-leaders-joseph-mimran",
+   "https://retail-insider.com/retail-insider/2026/08/roots-to-go-private-as-joe-mimran-takes-key-operating-role/"
+  ]
+ }
+]

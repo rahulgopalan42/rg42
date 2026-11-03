@@ -1,0 +1,122 @@
+[
+{
+"id": "micro-matic.com",
+"company": "Micro Matic",
+"sector": "23 Machine Tools",
+"country": "Denmark",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; beverage dispensing"
+},
+{
+"id": "finotex.com",
+"company": "Finotex",
+"sector": "53 Consumer & Lifestyle",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; licensed products"
+},
+{
+"id": "acsindustries.com",
+"company": "ACS Industries, Inc.",
+"sector": "23 Machine Tools",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; industrial products"
+},
+{
+"id": "noratel.com",
+"company": "Noratel",
+"sector": "45 Electronic Parts",
+"country": "Norway",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Noratel production is dedicated to custom design",
+"triage_note": "real; fit 1; scale mid; transformers maker"
+},
+{
+"id": "seko.com",
+"company": "SEKO",
+"sector": "23 Machine Tools",
+"country": "Italia",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; dosing pumps"
+},
+{
+"id": "itrworld.com",
+"company": "USCO ITR",
+"sector": "23 Machine Tools",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; compressor parts"
+},
+{
+"id": "theorem.digital",
+"company": "Theorem",
+"sector": "07 Marketing & Sales",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; digital engineering"
+},
+{
+"id": "allermuir.com",
+"company": "Allermuir",
+"sector": "49 Home & Living",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; contemporary furniture"
+},
+{
+"id": "mcati.com",
+"company": "MC Assembly",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; contract electronics"
+},
+{
+"id": "britishengines.com",
+"company": "British Engines",
+"sector": "23 Machine Tools",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; engine services"
+}
+]

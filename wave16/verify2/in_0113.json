@@ -1,0 +1,122 @@
+[
+{
+"id": "hotelchocolat.com",
+"company": "Hotel Chocolat",
+"sector": "X06 Retail & E-commerce",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Mars",
+"triage_note": "real; fit 3; scale mid; luxury chocolatier"
+},
+{
+"id": "fs.com",
+"company": "FS.com",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; network equipment supplier"
+},
+{
+"id": "clairglobal.com",
+"company": "Clair Global",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; live audio production tech"
+},
+{
+"id": "tsum.ru",
+"company": "TSUM Moscow",
+"sector": "X06 Retail & E-commerce",
+"country": "Russia",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; Russian luxury department store"
+},
+{
+"id": "pangaia.com",
+"company": "PANGAIA",
+"sector": "53 Consumer & Lifestyle",
+"country": "United States",
+"type": "Partnership",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; sustainable fashion brand"
+},
+{
+"id": "sonion.com",
+"company": "Sonion",
+"sector": "45 Electronic Parts",
+"country": "Denmark",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; micro-acoustics maker"
+},
+{
+"id": "bhs-world.com",
+"company": "BHS Corrugated Maschinen- und Anlagen GmbH",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; corrugator machinery maker"
+},
+{
+"id": "hyperionmt.com",
+"company": "Hyperion Materials & Technologies",
+"sector": "23 Machine Tools",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; tungsten carbide materials"
+},
+{
+"id": "airborn.com",
+"company": "AirBorn",
+"sector": "32 Defense & Industrial AI",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; aerospace connectors"
+},
+{
+"id": "gatelesis.com",
+"company": "GA Telesis",
+"sector": "16 Travel & Hospitality",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; aerospace parts supplier"
+}
+]

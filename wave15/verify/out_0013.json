@@ -1,0 +1,287 @@
+[
+ {
+  "id": "pingpongx.com",
+  "company": "PingPong (PingPong Global)",
+  "sector_tab": "09 Fintech",
+  "domain": "pingpongx.com",
+  "hq": "Hangzhou, China (global HQ opened Jun 2024; input lists UK)",
+  "ownership": "Private, VC-backed (no IPO found)",
+  "sells": "Cross-border payment collection, FX and payouts for e-commerce sellers and B2B traders",
+  "headcount_band": "1,001-5,000 (~2,000 est)",
+  "revenue": "Unpublished; cumulative TPV USD 410B+ (as of 30 Jun 2026, company)",
+  "valuation": "~USD 5B (Bloomberg via PYMNTS, Jan 2022; dated)",
+  "latest_raise": "Planned ~USD 300M pre-IPO round reported Jan 2022; no priced round confirmed in last 36 months",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes (200+ regions); affluent/senior B2B buyers yes (SME exporters, CFOs); global-ambition story yes; payments/fintech sits close to crowded banking/crypto grid category (0)",
+  "up_and_coming": false,
+  "flags": [
+   "valuation dated Jan 2022",
+   "China HQ - confirm no sanctions/1260H exposure (none found)",
+   "payments category busy on grid (Airwallex, MoneyGram, Nuvei, Visa)",
+   "market expansion: Asia -> Malaysia/UAE/Indonesia licences 2024-25"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on USD 5B valuation (Jan 2022), but valuation is stale and payments is a busy F1 category; no F1 tie found.",
+  "best_angle": "Rival cross-border payments players (Airwallex, Nuvei, MoneyGram) use F1 for global B2B credibility; PingPong could do the same as it adds Gulf/SE Asia licences.",
+  "sources": [
+   "https://www.pymnts.com/news/ipo/2022/payments-firm-pingpong-considers-1b-ipo/",
+   "https://www.pingpongx.com/global/about",
+   "https://www.caplight.com/company/pingpong",
+   "https://www.euromoney.com/article/5q46vdiqbmw4ok00kgckkowss/corporate-banking/asias-best-cross-border-payments-provider-2025-pingpong/",
+   "https://www.fxcintel.com/research/reports/ct-f1-payments-sponsorships"
+  ]
+ },
+ {
+  "id": "qisda.com",
+  "company": "Qisda corporation",
+  "sector_tab": "X Consumer Electronics",
+  "domain": "qisda.com",
+  "hq": "Taoyuan, Taiwan",
+  "ownership": "Listed (TWSE: 2352); parent of BenQ brand group",
+  "sells": "Displays/monitors/projectors (BenQ), ODM electronics, medical, networking and enterprise systems",
+  "headcount_band": "10,001+ (~20,000 group, est)",
+  "revenue": "~NT$210B (~USD 6.5B) 2025 (est from NT$120.7B Jan-Jul 2025, Digitimes)",
+  "valuation": "Market cap ~USD 2B (2025, est)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 4,
+  "fit_detail": "3+ F1 markets yes; affluent gamers/creators and B2B IT buyers yes; tech/precision story yes (BenQ monitors); consumer electronics not on crowded list",
+  "up_and_coming": false,
+  "flags": [
+   "lapsed tie: BenQ was Alpine F1 Esports monitor partner 2021 (esports only) - confirm before outreach",
+   "profit at 12-year low (2025) - not distress",
+   "group brand: BenQ is the consumer-facing brand"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes revenue route (~USD 6.5B 2025 est); capped Stretch for lapsed BenQ-Alpine esports deal and weak profitability.",
+  "best_angle": "BenQ gaming/creator monitors map to F1 sim-racing and esports audiences; a team display or sim-racing technical partnership is a natural re-entry.",
+  "sources": [
+   "https://www.digitimes.com/news/a20250806PD237.html",
+   "https://www.digitimes.com/news/a20251125PD244.html",
+   "https://www.channelnews.com.au/benq-back-on-the-brink-worst-parent-profit-in-12-years-raises-questions-over-consumer-future/"
+  ]
+ },
+ {
+  "id": "zoppasindustries.com",
+  "company": "Zoppas Industries",
+  "sector_tab": "21 Materials & Mech Parts",
+  "domain": "zoppasindustries.com",
+  "hq": "Vittorio Veneto (Treviso), Italy",
+  "ownership": "Private, Zoppas family (Chairman Gianfranco Zoppas)",
+  "sells": "Heating elements and systems for appliance, HVAC, automotive and industrial OEMs (IRCA brand)",
+  "headcount_band": "5,001-10,000 (8,000+ per ISH 2025 profile)",
+  "revenue": "Group unpublished; ~EUR 600M+ (est); Romanian subsidiary alone EUR 193M 2024 (ZF)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes (16 subsidiaries worldwide); senior B2B OEM buyers yes; precision/technology story weak; heating components not crowded but low visibility",
+  "up_and_coming": false,
+  "flags": [
+   "group revenue unverified (est)",
+   "Romanian unit losses widening 2024 - group not in distress",
+   "B2B OEM supplier, little brand motive"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes on estimated revenue and headcount, but a B2B OEM component maker with no consumer brand ambition.",
+  "best_angle": "",
+  "sources": [
+   "https://www.zfenglish.com/companies/zoppas-industries-romania-loss-widens-to-ron23-5m-in-2024-22933374",
+   "https://ish.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/irca-spa-industria-resistenze-corazzate-e-affini.html",
+   "https://mexicobusiness.news/trade-and-investment/news/italian-technology-zoppas-industries-marks-25-years-innovation",
+   "https://cameraitacina.com/it/node/67802"
+  ]
+ },
+ {
+  "id": "teads.com",
+  "company": "Teads",
+  "sector_tab": "07 Marketing & Sales",
+  "domain": "teads.com",
+  "hq": "New York, USA",
+  "ownership": "Listed (Nasdaq: TEAD); Outbrain acquired Teads Feb 2025 and took the Teads name",
+  "sells": "Omnichannel advertising platform (CTV, web, video) for brands and publishers",
+  "headcount_band": "1,001-5,000 (~1,800 est, after ~10% cut 2026)",
+  "revenue": "USD 1,300.5M FY2025 (+46%, acquisition-driven; 8-K Mar 2026)",
+  "valuation": "n/a - small-cap; GAAP net loss USD 517.1M 2025 (impairments)",
+  "latest_raise": "n/a (listed); USD 605M 10% senior secured notes due 2030",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; senior B2B buyers (CMOs, agencies) yes; tech story moderate; ad-tech not crowded on grid",
+  "up_and_coming": false,
+  "flags": [
+   "high leverage: USD 605M 10% notes, 2025 impairments, ~10% headcount cut - monitor",
+   "not distress: no restructuring/going-concern found"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes revenue route (USD 1.3B FY2025); reservation is weak balance sheet and impairment-driven losses limiting sponsorship budget.",
+  "best_angle": "Post-merger rebrand to Teads needs CMO-level visibility; F1 hospitality and CTV content tie-ins reach exactly its advertiser buyers.",
+  "sources": [
+   "https://www.stocktitan.net/news/TEAD/teads-holding-co-announces-fourth-quarter-and-full-year-2025-t891vk37a4ol.html",
+   "https://www.barchart.com/story/news/579066/teads-holding-co-announces-fourth-quarter-and-full-year-2025-results",
+   "https://longbridge.com/news/283972389"
+  ]
+ },
+ {
+  "id": "techintgroup.com",
+  "company": "Techint Group",
+  "sector_tab": "02 Energy & Industrial",
+  "domain": "techintgroup.com",
+  "hq": "Buenos Aires, Argentina / Milan, Italy",
+  "ownership": "Private group controlled by San Faustin (Rocca family); operating companies Tenaris, Ternium listed separately",
+  "sells": "Steel pipes (Tenaris), flat steel (Ternium), engineering & construction, Tenova plant tech, Tecpetrol oil & gas, Humanitas healthcare",
+  "headcount_band": "10,001+ (73,500 permanent, 2025)",
+  "revenue": "USD 32.9B 2025 (preliminary, Techint annual report)",
+  "valuation": "n/a (private holding)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes; senior B2B buyers yes; industrial global-ambition story partly; steel/oil & gas overlaps crowded oil category",
+  "up_and_coming": false,
+  "flags": [
+   "holding umbrella - operating brands Tenaris/Ternium separately listed",
+   "no Colapinto or F1 deal found for Techint/Tenaris/Ternium (Oct 2026)",
+   "oil & gas exposure (Tecpetrol)"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes all filters (USD 32.9B 2025 revenue) but B2B industrial holding with no consumer brand ambition.",
+  "best_angle": "",
+  "sources": [
+   "https://www.techintgroup.com/media/tlonbkug/tgoc_2025.pdf",
+   "https://www.techintgroup.com/media/wgufp3ds/hightlights_2025.pdf",
+   "https://batimes.com.ar/news/sports/top-firms-in-argentina-backing-f1-rookie-franco-colapinto.phtml",
+   "https://en.wikipedia.org/wiki/Techint"
+  ]
+ },
+ {
+  "id": "dehavilland.com",
+  "company": "De Havilland Aircraft of Canada Limited",
+  "sector_tab": "X Aviation & Aerospace",
+  "domain": "dehavilland.com",
+  "hq": "Calgary / Toronto, Canada",
+  "ownership": "Private; formerly Longview Aviation Capital (Sherwood family)",
+  "sells": "Dash 8 and Twin Otter aircraft support, DHC-515 firefighting aircraft for governments",
+  "headcount_band": "1,001-5,000 (~2,100, Wikipedia, undated)",
+  "revenue": "Unpublished; ~CAD 1B (est)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes (Europe, Canada, Australia); senior B2B/government buyers yes; engineering story moderate; aircraft makers not crowded but buyers are governments/airlines",
+  "up_and_coming": false,
+  "flags": [
+   "revenue unverified (est)",
+   "DHC-515 backlog ~38 aircraft, first flight late 2027/early 2028"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes on estimated revenue but is a B2B/government aircraft maker with no brand-marketing motive.",
+  "best_angle": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/De_Havilland_Canada",
+   "https://dehavilland.com/aircraft-sales/securite-civile-francaise-doubles-its-dhc-515-commitment-with-order-for-two-additional-aircraft/",
+   "https://aviationweek.com/business-aviation/aircraft-propulsion/dhc-515-program-hits-major-assembly-milestones"
+  ]
+ },
+ {
+  "id": "ctp.eu",
+  "company": "CTP N.V.",
+  "sector_tab": "X Real Estate",
+  "domain": "ctp.eu",
+  "hq": "Amsterdam, Netherlands (operations Czech Republic/CEE)",
+  "ownership": "Listed (Euronext Amsterdam: CTPNV); founder Remon Vos majority holder",
+  "sells": "Logistics and industrial parks leased to manufacturers and logistics firms in CEE and Western Europe",
+  "headcount_band": "501-1,000 (874, Feb 2026, aggregator)",
+  "revenue": "Gross rental income EUR 413.3M H1 2026; annualised rent EUR 858M (company, 30 Jul 2026)",
+  "valuation": "Market cap ~USD 11B (TradingView, 2026)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes (NL, AT, HU, DE etc.); senior B2B buyers yes; story weak; logistics-adjacent category crowded",
+  "up_and_coming": false,
+  "flags": [
+   "logistics real estate - B2B tenants, limited brand motive"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes on ~USD 11B market cap, but B2B landlord with little brand ambition and logistics-adjacent fit.",
+  "best_angle": "",
+  "sources": [
+   "https://ctp.eu/?p=118049",
+   "https://www.tradingview.com/symbols/CTPVF"
+  ]
+ },
+ {
+  "id": "solum-group.com",
+  "company": "SOLUM",
+  "sector_tab": "45 Electronic Parts",
+  "domain": "solum-group.com",
+  "hq": "Yongin, South Korea",
+  "ownership": "Listed (KOSPI: 248070); Samsung Electro-Mechanics spin-off 2015",
+  "sells": "Electronic shelf labels for retailers and power modules/adapters for electronics OEMs",
+  "headcount_band": "1,001-5,000 (2.6K+ group, company site; 468 parent)",
+  "revenue": "~KRW 1.6T (~USD 1.15B) trailing (TradingView, 2025-26, est)",
+  "valuation": "n/a (listed)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes (50,000+ stores globally); senior B2B buyers yes (retail CIOs); tech story moderate; not crowded",
+  "up_and_coming": false,
+  "flags": [
+   "B2B, weak brand motive"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes revenue route (~USD 1.15B) but B2B component/ESL supplier with no consumer brand ambition.",
+  "best_angle": "",
+  "sources": [
+   "https://solum-group.com/the-company",
+   "https://se.tradingview.com/symbols/KRX-248070/ideas",
+   "https://www.businesswire.com/news/home/20260324735118/en"
+  ]
+ },
+ {
+  "id": "hongfa.com",
+  "company": "Hongfa Technology",
+  "sector_tab": "45 Electronic Parts",
+  "domain": "hongfa.com",
+  "hq": "Xiamen, China",
+  "ownership": "Listed (SSE: 600885)",
+  "sells": "Relays (power, EV high-voltage DC, signal) and electrical components for OEMs",
+  "headcount_band": "10,001+ (~16,000 est)",
+  "revenue": "RMB 17.20B (~USD 2.4B) 2025, +22% (Huatai Securities, Apr 2026)",
+  "valuation": "Market cap ~CNY 47.7B (~USD 6.7B) (Disfold, 1 Jan 2026)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes (overseas revenue RMB 4.9B); senior B2B engineering buyers yes; precision/EV technology story yes; components not crowded",
+  "up_and_coming": false,
+  "flags": [
+   "China HQ - no Entity List/1260H listing found",
+   "B2B, no brand motive"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes on scale (RMB 17.2B revenue 2025) but a B2B relay maker with no brand-marketing motive.",
+  "best_angle": "",
+  "sources": [
+   "https://basic.10jqka.com.cn/600885/worth.html",
+   "https://disfold.com/company/hongfa-technology-co-ltd/",
+   "https://filingreader.com/news-wire/shanghai/2025-07-29/hongfa-technology-revenue-rises-15-in-first-half"
+  ]
+ },
+ {
+  "id": "haefele.de",
+  "company": "Häfele",
+  "sector_tab": "49 Home & Living",
+  "domain": "haefele.de",
+  "hq": "Nagold, Germany",
+  "ownership": "Private, Häfele/Thom family",
+  "sells": "Furniture fittings, architectural hardware, access control and lighting for trade and consumers",
+  "headcount_band": "5,001-10,000 (8,000+, 2025)",
+  "revenue": "EUR 1.72B 2025 (-1%; company financial report)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes (82% international, 39 subsidiaries); senior B2B buyers yes (architects, furniture makers); precision/design story partly; category not crowded",
+  "up_and_coming": false,
+  "flags": [
+   "trade B2B marketing"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes revenue route (EUR 1.72B 2025); reservation is trade-B2B marketing with limited consumer brand motive.",
+  "best_angle": "Strategy 2030 push into Asia/India and smart home could use F1 hospitality to reach architects and developers in key markets.",
+  "sources": [
+   "https://www.hafele.com.au/en/info/about-haefele/press/to-press-releases/financial-report-2025-/778501/",
+   "https://www.hafele.com.au/en/info/about-haefele/business-figures/462/",
+   "https://www.woodandpanel.com/woodnews/article/hafele-maintains-stability-as-strategy-2030-gains-momentum/"
+  ]
+ }
+]

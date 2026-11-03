@@ -1,0 +1,122 @@
+[
+{
+"id": "trilogyjobs.com",
+"company": "Trilogy Health Services, LLC",
+"sector": "42 Health & Wellness",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; US senior care"
+},
+{
+"id": "gianteagle.com",
+"company": "Giant Eagle, Inc.",
+"sector": "X06 Retail & E-commerce",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; US grocery chain"
+},
+{
+"id": "pricechopper.com",
+"company": "Price Chopper Supermarkets-Market 32",
+"sector": "X06 Retail & E-commerce",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Northeast Grocery Inc.",
+"triage_note": "real; fit 0; scale large; US grocery chain"
+},
+{
+"id": "west.com",
+"company": "West Corporation",
+"sector": "25 IT Services & Consulting",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; customer communications firm"
+},
+{
+"id": "wildberries.ru",
+"company": "Wildberries",
+"sector": "X06 Retail & E-commerce",
+"country": "Russia",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Russian e-commerce"
+},
+{
+"id": "farmaciasguadalajara.com.mx",
+"company": "Farmacias Guadalajara",
+"sector": "X06 Retail & E-commerce",
+"country": "Mexico",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Mexican pharmacy chain"
+},
+{
+"id": "rfchina.com",
+"company": "R&F Properties",
+"sector": "X02 Real Estate & Building Products",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Hang Seng China Properties Index",
+"triage_note": "real; fit 0; scale large; Chinese developer"
+},
+{
+"id": "masangroup.com",
+"company": "Masan Group",
+"sector": "X06 Retail & E-commerce",
+"country": "Vietnam",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Vietnamese consumer group"
+},
+{
+"id": "dm-jobs.de",
+"company": "dm-drogerie markt Deutschland",
+"sector": "X06 Retail & E-commerce",
+"country": "Germany",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; German drugstore chain"
+},
+{
+"id": "pik.ru",
+"company": "PIK Group",
+"sector": "X02 Real Estate & Building Products",
+"country": "Russia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Russian developer"
+}
+]

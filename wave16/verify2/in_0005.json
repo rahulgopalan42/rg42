@@ -1,0 +1,122 @@
+[
+{
+"id": "universaldestinationsandexperiences.com",
+"company": "Universal Destinations & Experiences",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Comcast",
+"triage_note": "division; fit 0; scale large; theme park unit"
+},
+{
+"id": "kenvue.com",
+"company": "Kenvue",
+"sector": "03 Luxury & Beauty",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; consumer health spinoff"
+},
+{
+"id": "redhat.com",
+"company": "Red Hat",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "IBM",
+"triage_note": "division; fit 0; scale large; software subsidiary"
+},
+{
+"id": "frontier.com",
+"company": "Frontier Internet",
+"sector": "48 Telecom & Space",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Verizon Communications",
+"triage_note": "division; fit 0; scale large; fiber ISP"
+},
+{
+"id": "equinix.hk",
+"company": "Equinix Asia-Pacific",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Equinix",
+"triage_note": "division; fit 0; scale large; regional office"
+},
+{
+"id": "rt.ru",
+"company": "Rostelecom, Moscow branch office",
+"sector": "48 Telecom & Space",
+"country": "Russia",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "; fit ; scale ; "
+},
+{
+"id": "mts.ru",
+"company": "MTS Group",
+"sector": "48 Telecom & Space",
+"country": "Russia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Sistema",
+"triage_note": "real; fit 1; scale large; Russian telecom"
+},
+{
+"id": "skcareers.com",
+"company": "SK",
+"sector": "48 Telecom & Space",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; Korean conglomerate"
+},
+{
+"id": "ebayadvertising.com",
+"company": "eBay Advertising",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "eBay Inc.",
+"triage_note": "division; fit 0; scale large; ad business"
+},
+{
+"id": "att.com.mx",
+"company": "AT&T México",
+"sector": "48 Telecom & Space",
+"country": "Mexico",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "AT&T",
+"triage_note": "division; fit 0; scale large; Mexico unit"
+}
+]

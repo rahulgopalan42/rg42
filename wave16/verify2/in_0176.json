@@ -1,0 +1,122 @@
+[
+{
+"id": "fastwebvodafone.it",
+"company": "Fastweb + Vodafone",
+"sector": "48 Telecom & Space",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Swisscom",
+"triage_note": "real; fit 1; scale large; Italian telecom merged entity"
+},
+{
+"id": "kyivstar.ua",
+"company": "Київстар",
+"sector": "48 Telecom & Space",
+"country": "Ukraine",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "VEON",
+"triage_note": "real; fit 1; scale large; Ukrainian mobile operator"
+},
+{
+"id": "",
+"company": "tw telecom",
+"sector": "48 Telecom & Space",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Indian conglomerate"
+},
+{
+"id": "telecelgroup.com",
+"company": "Telecel Group",
+"sector": "48 Telecom & Space",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "NJJ Holding",
+"triage_note": "real; fit 1; scale large; African telecom group"
+},
+{
+"id": "eir.ie",
+"company": "eir Ireland",
+"sector": "48 Telecom & Space",
+"country": "Ireland",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "NJJ Holding",
+"triage_note": "real; fit 1; scale large; Irish telecom incumbent"
+},
+{
+"id": "markor.com.cn",
+"company": "Markor Investment Group Co., Ltd.",
+"sector": "49 Home & Living",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Chinese home furnishings"
+},
+{
+"id": "hanslaser.net",
+"company": "Han’s Laser Technology Industry Group Co., Ltd",
+"sector": "52 Photonics & Optical",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Chinese laser equipment"
+},
+{
+"id": "7andi.com",
+"company": "Seven & i Holdings",
+"sector": "X06 Retail & E-commerce",
+"country": "Japan",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Japanese retail group"
+},
+{
+"id": "dubaiworld.ae",
+"company": "Dubai World",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "United Arab Emirates",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Dubai government",
+"triage_note": "real; fit 1; scale large; sovereign holding"
+},
+{
+"id": "hildinganders.com",
+"company": "Hilding Anders International AB",
+"sector": "49 Home & Living",
+"country": "Sweden",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; mattress and bedding maker"
+}
+]

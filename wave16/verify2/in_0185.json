@@ -1,0 +1,122 @@
+[
+{
+"id": "globalegrow.com",
+"company": "Globalegrow E-commerce",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Chinese cross-border e-commerce"
+},
+{
+"id": "bingshan.com",
+"company": "Dalian Bingshan Group Co.,Ltd",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Chinese refrigeration equipment"
+},
+{
+"id": "hema.net",
+"company": "HEMA B.V.",
+"sector": "X06 Retail & E-commerce",
+"country": "Netherlands",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Dutch variety retailer"
+},
+{
+"id": "konka.com",
+"company": "KONKA ELECTRONIC",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Chinese electronics maker"
+},
+{
+"id": "airport.kr",
+"company": "Incheon Airport Group",
+"sector": "16 Travel & Hospitality",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Korean government",
+"triage_note": "real; fit 1; scale large; airport operator"
+},
+{
+"id": "tianneng.com",
+"company": "Tianneng Lithium Energy",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Chinese e-bike battery maker"
+},
+{
+"id": "jonhon.in",
+"company": "AVIC JONHON OPTRONIC CO. LTD.",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "AVIC",
+"triage_note": "real; fit 1; scale large; Chinese connector maker"
+},
+{
+"id": "manwahholdings.com",
+"company": "敏华控股有限公司",
+"sector": "X06 Retail & E-commerce",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Chinese sofa maker"
+},
+{
+"id": "ista.ly",
+"company": "ista",
+"sector": "25 IT Services & Consulting",
+"country": "Germany",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "CK Infrastructure",
+"triage_note": "real; fit 1; scale large; German metering services"
+},
+{
+"id": "inesa.com",
+"company": "上海仪电",
+"sector": "25 IT Services & Consulting",
+"country": "China",
+"type": "Self Owned",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Shanghai SASAC",
+"triage_note": "real; fit 1; scale large; state IT group"
+}
+]

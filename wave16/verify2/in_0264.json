@@ -1,0 +1,122 @@
+[
+{
+"id": "hufvudstaden.se",
+"company": "Hufvudstaden",
+"sector": "X02 Real Estate & Building Products",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Stockholm property company"
+},
+{
+"id": "durocmachinetool.com",
+"company": "Duroc Machine Tool",
+"sector": "23 Machine Tools",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Nordic machine tool dealer"
+},
+{
+"id": "codereonline.com",
+"company": "Codere Online",
+"sector": "NEW Gambling & Lotteries",
+"country": "Spain",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Codere Group",
+"triage_note": "real; fit 1; scale mid; online betting Spain"
+},
+{
+"id": "first-panel.com",
+"company": "Zhejiang Firstar Panel Technology Co., Ltd.",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese panel maker"
+},
+{
+"id": "bhpiston.com",
+"company": "Shandong Binzhou Bohai Piston Co., Ltd.",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; piston maker"
+},
+{
+"id": "jean.com.tw",
+"company": "JEAN Co.",
+"sector": "X02 Real Estate & Building Products",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; car audio systems Taiwan"
+},
+{
+"id": "",
+"company": "Guangdong Hongteo Accurate Technology Co., Ltd.",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; precision tech China"
+},
+{
+"id": "jiangte.com.cn",
+"company": "Jiangxi Special Electric Motor Co., Ltd",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; special motors"
+},
+{
+"id": "czamd.com",
+"company": "Changzhou Almaden Co., Ltd.",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese machinery firm"
+},
+{
+"id": "steico.com",
+"company": "STEICO",
+"sector": "NEW Other",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; wood insulation maker"
+}
+]

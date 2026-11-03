@@ -1,0 +1,802 @@
+[
+{
+"id": "machmall.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "XCMG Group",
+"note": "machinery e-mall unit"
+},
+{
+"id": "maglayersusa.com",
+"t": "real",
+"fit": 2,
+"scale": "mid",
+"parent": "Chilisin",
+"note": "passive components maker"
+},
+{
+"id": "lifeworketc.com",
+"t": "real",
+"fit": 1,
+"scale": "small",
+"parent": "",
+"note": "home/fashion retailer"
+},
+{
+"id": "cnppump.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "pump maker, listed"
+},
+{
+"id": "easepal.com.cn",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "massage chairs maker"
+},
+{
+"id": "polish-airports.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "airport operator"
+},
+{
+"id": "sh-liangxin.com",
+"t": "real",
+"fit": 1,
+"scale": "large",
+"parent": "",
+"note": "low-voltage electrical"
+},
+{
+"id": "thermondo.de",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "German heating installer"
+},
+{
+"id": "bulgin.com",
+"t": "real",
+"fit": 2,
+"scale": "mid",
+"parent": "",
+"note": "sealed connectors maker"
+},
+{
+"id": "khaihoanland.vn",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Vietnam property broker"
+},
+{
+"id": "def.br",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "public legal agency"
+},
+{
+"id": "semmachinery.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Caterpillar",
+"note": "Caterpillar brand China"
+},
+{
+"id": "xpedior.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "defunct eBusiness firm"
+},
+{
+"id": "eatoncapitalmanagement.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "real estate firm"
+},
+{
+"id": "mypricechopper.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "local grocery chain"
+},
+{
+"id": "electrochemsolutions.com",
+"t": "division",
+"fit": 0,
+"scale": "small",
+"parent": "Ultralife",
+"note": "battery unit"
+},
+{
+"id": "pontins.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "UK holiday parks"
+},
+{
+"id": "shuionland.com",
+"t": "real",
+"fit": 2,
+"scale": "large",
+"parent": "",
+"note": "China urban developer"
+},
+{
+"id": "dicabs.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "power cables/EPC"
+},
+{
+"id": "mutualtrustbank.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Bangladesh bank"
+},
+{
+"id": "comstor.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Westcon-Comstor",
+"note": "Cisco distributor NL"
+},
+{
+"id": "craftsmanautomation.com",
+"t": "real",
+"fit": 2,
+"scale": "mid",
+"parent": "",
+"note": "precision auto components"
+},
+{
+"id": "lot.com",
+"t": "real",
+"fit": 0,
+"scale": "large",
+"parent": "",
+"note": "airline"
+},
+{
+"id": "degewo.de",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Berlin municipal housing"
+},
+{
+"id": "isoplus.group",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "pre-insulated pipes"
+},
+{
+"id": "saglik.gov.tr",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "public hospital"
+},
+{
+"id": "vccorp.vn",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Vietnam digital media"
+},
+{
+"id": "ifbappliances.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "Indian appliances"
+},
+{
+"id": "czt.com.cn",
+"t": "real",
+"fit": 1,
+"scale": "small",
+"parent": "",
+"note": "connector maker"
+},
+{
+"id": "ted.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "placeholder consulting page"
+},
+{
+"id": "ccr.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "commercial refrigeration"
+},
+{
+"id": "christ-ag.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "industrial wash systems"
+},
+{
+"id": "hanza.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "contract manufacturing group"
+},
+{
+"id": "kasun.cn",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "machinery maker"
+},
+{
+"id": "dna.fi",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "DNA Oyj",
+"note": "DNA business unit"
+},
+{
+"id": "roshowgroup.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "magnet wire, motors"
+},
+{
+"id": "everest.com.tw",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "textile manufacturer"
+},
+{
+"id": "kern.ruhr",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "charity hospital group"
+},
+{
+"id": "youngsunpack.com",
+"t": "real",
+"fit": 1,
+"scale": "small",
+"parent": "",
+"note": "packaging equipment"
+},
+{
+"id": "zenner-metering.com",
+"t": "division",
+"fit": 0,
+"scale": "small",
+"parent": "ZENNER International",
+"note": "metering JV"
+},
+{
+"id": "nonib.com.au",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "defunct Noni B retailer"
+},
+{
+"id": "cwcbusiness.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Liberty Latin America",
+"note": "telecom regional unit"
+},
+{
+"id": "pna-ph.org",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "nurses association"
+},
+{
+"id": "dingtalk.io",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Alibaba",
+"note": "collaboration product"
+},
+{
+"id": "yingroup.com",
+"t": "real",
+"fit": 1,
+"scale": "small",
+"parent": "",
+"note": "garment machinery"
+},
+{
+"id": "tfcsz.com",
+"t": "division",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "overseas plant unit"
+},
+{
+"id": "szairport.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "airport operator"
+},
+{
+"id": "three-v.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "belts manufacturer"
+},
+{
+"id": "samehgroup.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Jordan hypermarket"
+},
+{
+"id": "regulusteam.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "direct sales page"
+},
+{
+"id": "capitalplace.com.vn",
+"t": "division",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "office building project"
+},
+{
+"id": "wanekcareer.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "furniture maker"
+},
+{
+"id": "pinggaogroup.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "China XD Group",
+"note": "Pinggao Africa subsidiary"
+},
+{
+"id": "cptt.com.tw",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "defunct CPT display maker"
+},
+{
+"id": "ceb.lk",
+"t": "real",
+"fit": 0,
+"scale": "large",
+"parent": "",
+"note": "state utility"
+},
+{
+"id": "clipchamp.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Microsoft",
+"note": "video editor product"
+},
+{
+"id": "nea.org.np",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "state utility Nepal"
+},
+{
+"id": "htmtglobal.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "BPO provider"
+},
+{
+"id": "ricoh-ap.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Ricoh",
+"note": "regional office"
+},
+{
+"id": "cozygenz.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "startup"
+},
+{
+"id": "mideadc.com",
+"t": "real",
+"fit": 1,
+"scale": "large",
+"parent": "",
+"note": "Midea-linked developer"
+},
+{
+"id": "cas.group",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "retail solutions"
+},
+{
+"id": "rpmltech.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "web development firm"
+},
+{
+"id": "iac.com.tw",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Inventec",
+"note": "absorbed subsidiary"
+},
+{
+"id": "optimumnanoenergy.com",
+"t": "real",
+"fit": 2,
+"scale": "mid",
+"parent": "",
+"note": "LiFePO4 batteries"
+},
+{
+"id": "ctcorpora.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "CT Corp",
+"note": "property unit"
+},
+{
+"id": "talaatmoustafa.om",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Talaat Moustafa Group",
+"note": "Oman project"
+},
+{
+"id": "newmetrocity.info",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "housing project page"
+},
+{
+"id": "derivit.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "DXC Technology",
+"note": "Luxoft/Excelian unit"
+},
+{
+"id": "cbre.com.ar",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "CBRE",
+"note": "regional office"
+},
+{
+"id": "metzdisplay.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Skyworth",
+"note": "display unit"
+},
+{
+"id": "googlehousing.in",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "spam property site"
+},
+{
+"id": "codebag.ng",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "tiny tech startup"
+},
+{
+"id": "altronroa.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Altron",
+"note": "regional unit"
+},
+{
+"id": "saurer.com",
+"t": "real",
+"fit": 3,
+"scale": "mid",
+"parent": "",
+"note": "textile machinery, precision"
+},
+{
+"id": "cbre.ae",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "CBRE",
+"note": "regional office"
+},
+{
+"id": "essalud.gob.pe",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "public insurer"
+},
+{
+"id": "ttigroup.com.vn",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Techtronic Industries",
+"note": "Vietnam unit"
+},
+{
+"id": "sylvania-lighting.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Shanghai Feilo Acoustics",
+"note": "lighting unit"
+},
+{
+"id": "aktechnologybd.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "promotion spam"
+},
+{
+"id": "sevb.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Sunwoda",
+"note": "EV battery unit"
+},
+{
+"id": "dhalahore.org",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "housing authority"
+},
+{
+"id": "bcpfintech.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "innovation program"
+},
+{
+"id": "sammilitobankbd.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Bangladesh bank"
+},
+{
+"id": "spicejet.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "airline"
+},
+{
+"id": "cbre.com.sg",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "CBRE",
+"note": "regional office"
+},
+{
+"id": "hailthy.net",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "public health cluster"
+},
+{
+"id": "jobshalaa.in",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "job portal"
+},
+{
+"id": "aster.qa",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Aster DM Healthcare",
+"note": "Qatar unit"
+},
+{
+"id": "dhm.com.au",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Sonic Healthcare",
+"note": "pathology unit"
+},
+{
+"id": "tsel.id",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Telkomsel",
+"note": "enterprise unit"
+},
+{
+"id": "lk-ea.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Schneider Electric",
+"note": "brand India"
+},
+{
+"id": "epson.ae",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Seiko Epson",
+"note": "regional office"
+},
+{
+"id": "clipsal.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Schneider Electric",
+"note": "Australian brand"
+},
+{
+"id": "asterguardians.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "award initiative"
+},
+{
+"id": "medicalkingfa.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "medical consumables"
+},
+{
+"id": "sahayoghospitals.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "single hospital"
+},
+{
+"id": "ingrasys.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Foxconn",
+"note": "server subsidiary"
+},
+{
+"id": "revo-hospitality-group.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "hotel operator"
+},
+{
+"id": "sunac.com.cn",
+"t": "real",
+"fit": 2,
+"scale": "large",
+"parent": "",
+"note": "China developer, distressed"
+}
+]

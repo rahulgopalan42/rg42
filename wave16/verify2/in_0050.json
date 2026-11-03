@@ -1,0 +1,122 @@
+[
+{
+"id": "benchmarkresortsandhotels.com",
+"company": "Benchmark Resorts & Hotels",
+"sector": "16 Travel & Hospitality",
+"country": "United States",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Pyramid Global Hospitality",
+"triage_note": "real; fit 1; scale mid; resort and hotel operator"
+},
+{
+"id": "loewshotels.com",
+"company": "Loews Hotels & Co",
+"sector": "16 Travel & Hospitality",
+"country": "United States",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Loews Corporation",
+"triage_note": "real; fit 1; scale mid; hotel operator"
+},
+{
+"id": "worldofprincess.com",
+"company": "Princess International Hotels & Casinos",
+"sector": "16 Travel & Hospitality",
+"country": "Turkey",
+"type": "Partnership",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; hotel casino group"
+},
+{
+"id": "mallofamerica.com",
+"company": "Mall of America",
+"sector": "X06 Retail & E-commerce",
+"country": "United States",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Triple Five Group",
+"triage_note": "real; fit 1; scale mid; shopping and entertainment complex"
+},
+{
+"id": "sercomm.com",
+"company": "Sercomm",
+"sector": "36 IoT & Connectivity",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Taiwanese networking maker"
+},
+{
+"id": "ecintl.com",
+"company": "Electrical Components International",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Cerberus Capital Management",
+"triage_note": "real; fit 1; scale mid; electrical components supplier"
+},
+{
+"id": "wyconcosmetics.com",
+"company": "WYCON cosmetics",
+"sector": "03 Luxury & Beauty",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Italian cosmetics brand"
+},
+{
+"id": "bhimajewellery.com",
+"company": "Bhima Jewellery",
+"sector": "03 Luxury & Beauty",
+"country": "India",
+"type": "Partnership",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Indian jeweller"
+},
+{
+"id": "essendi.com",
+"company": "Essendi",
+"sector": "X02 Real Estate & Building Products",
+"country": "Luxembourg",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; hotel real estate"
+},
+{
+"id": "archipelagointernational.com",
+"company": "Archipelago International",
+"sector": "16 Travel & Hospitality",
+"country": "Indonesia",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Indonesian hotel manager"
+}
+]

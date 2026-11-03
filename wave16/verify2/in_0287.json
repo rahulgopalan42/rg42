@@ -1,0 +1,122 @@
+[
+{
+"id": "kbt-china.com",
+"company": "广东健博通科技股份有限公司",
+"sector": "48 Telecom & Space",
+"country": "China",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; antenna maker"
+},
+{
+"id": "wemademax.com",
+"company": "Wemade Max",
+"sector": "29 Tech Media & Gaming",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Korean game developer"
+},
+{
+"id": "mc-schiffer.com",
+"company": "M+C Schiffer GmbH",
+"sector": "03 Luxury & Beauty",
+"country": "Germany",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; cosmetic brushes maker"
+},
+{
+"id": "misshaus.com",
+"company": "MISSHA",
+"sector": "03 Luxury & Beauty",
+"country": "United States",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Able C&C",
+"triage_note": "real; fit 1; scale mid; Korean cosmetics"
+},
+{
+"id": "vontas.com",
+"company": "Vontas",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; transit software"
+},
+{
+"id": "powerplan.com",
+"company": "PowerPlan, Inc.",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Roper",
+"triage_note": "real; fit 1; scale mid; utility software"
+},
+{
+"id": "innoscripta.com",
+"company": "innoscripta Group",
+"sector": "22 SaaS",
+"country": "Germany",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; German software group"
+},
+{
+"id": "staedean.com",
+"company": "STAEDEAN",
+"sector": "22 SaaS",
+"country": "Netherlands",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Main Capital",
+"triage_note": "real; fit 1; scale mid; ERP add-ons"
+},
+{
+"id": "rand.com",
+"company": "Rand Worldwide",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; IT training"
+},
+{
+"id": "isdgroup.com",
+"company": "ISD Software und Systeme GmbH",
+"sector": "22 SaaS",
+"country": "Germany",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; engineering software"
+}
+]

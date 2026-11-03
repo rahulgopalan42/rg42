@@ -1,0 +1,122 @@
+[
+{
+"id": "stc.com.sa",
+"company": "stc",
+"sector": "48 Telecom & Space",
+"country": "Saudi Arabia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Public Investment Fund (64%)",
+"triage_note": "real; fit 3; scale large; Saudi telecom"
+},
+{
+"id": "unity.com",
+"company": "Unity",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Unity Software",
+"triage_note": "real; fit 3; scale large; game engine platform"
+},
+{
+"id": "tatacommunications.com",
+"company": "Tata Communications",
+"sector": "48 Telecom & Space",
+"country": "India",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Tata Group",
+"triage_note": "real; fit 3; scale large; global network provider"
+},
+{
+"id": "conzzeta.com",
+"company": "Conzzeta",
+"sector": "23 Machine Tools",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Spuhler/Auer family pool (est)",
+"triage_note": "real; fit 3; scale large; Swiss industrial group"
+},
+{
+"id": "stihl.de",
+"company": "STIHL",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Self Owned",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; chainsaw and power tool maker"
+},
+{
+"id": "wellacompany.com",
+"company": "Wella Company",
+"sector": "03 Luxury & Beauty",
+"country": "Switzerland",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "KKR",
+"triage_note": "real; fit 3; scale large; global hair care"
+},
+{
+"id": "amd.com",
+"company": "AMD",
+"sector": "27 Chip Makers",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; chips, F1 partner of Ferrari"
+},
+{
+"id": "puma.com",
+"company": "PUMA Group",
+"sector": "X06 Retail & E-commerce",
+"country": "Germany",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "PUMA SE",
+"triage_note": "real; fit 3; scale large; sportswear, F1 licensee"
+},
+{
+"id": "coreweave.com",
+"company": "CoreWeave",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; AI cloud, cloud scores zero"
+},
+{
+"id": "rbrk.co",
+"company": "Rubrik",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; data security, cyber crowded"
+}
+]

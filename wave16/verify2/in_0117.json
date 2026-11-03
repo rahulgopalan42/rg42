@@ -1,0 +1,122 @@
+[
+{
+"id": "alestis.aero",
+"company": "ALESTIS AEROSPACE",
+"sector": "16 Travel & Hospitality",
+"country": "Spain",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; aerostructures"
+},
+{
+"id": "rinascente.it",
+"company": "Rinascente",
+"sector": "X06 Retail & E-commerce",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Central Group",
+"triage_note": "real; fit 3; scale mid; luxury department store"
+},
+{
+"id": "exxelia.com",
+"company": "Exxelia",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; high-reliability components"
+},
+{
+"id": "fnherstal.com",
+"company": "FN Herstal",
+"sector": "32 Defense & Industrial AI",
+"country": "Belgium",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Herstal Group",
+"triage_note": "real; fit 3; scale mid; firearms maker"
+},
+{
+"id": "interstuhl.com",
+"company": "Interstuhl",
+"sector": "49 Home & Living",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; premium office chairs"
+},
+{
+"id": "alfing.de",
+"company": "Maschinenfabrik ALFING Kessler GmbH",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; machine tools"
+},
+{
+"id": "atlantis.com",
+"company": "Atlantis Resorts",
+"sector": "19 Gulf Sovereign & Tourism",
+"country": "United Arab Emirates",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Kerzner",
+"triage_note": "real; fit 3; scale mid; Dubai luxury resort"
+},
+{
+"id": "phillips.com",
+"company": "Phillips",
+"sector": "03 Luxury & Beauty",
+"country": "United States",
+"type": "Privately Held",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; luxury auction house"
+},
+{
+"id": "davinesgroup.com",
+"company": "Davines Group | B Corp since 2016",
+"sector": "03 Luxury & Beauty",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; professional hair care"
+},
+{
+"id": "",
+"company": "tw telecom",
+"sector": "48 Telecom & Space",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; blowers and compressors"
+}
+]

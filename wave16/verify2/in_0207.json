@@ -1,0 +1,122 @@
+[
+{
+"id": "devlyn.com.mx",
+"company": "GRUPO DEVLYN",
+"sector": "X06 Retail & E-commerce",
+"country": "Mexico",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; optical retailer"
+},
+{
+"id": "croonwolterendros.nl",
+"company": "Croonwolter&dros",
+"sector": "25 IT Services & Consulting",
+"country": "Netherlands",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; technical installer"
+},
+{
+"id": "ivemsa.com",
+"company": "IVEMSA",
+"sector": "25 IT Services & Consulting",
+"country": "México",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Mexico manufacturing shelter"
+},
+{
+"id": "sassoli.com",
+"company": "Sassoli Group",
+"sector": "23 Machine Tools",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; stainless steel maker"
+},
+{
+"id": "korona.info",
+"company": "Korona Candles / Private Label Manufacturing",
+"sector": "53 Consumer & Lifestyle",
+"country": "Poland",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; private-label candles"
+},
+{
+"id": "magora.fr",
+"company": "Odalys Résidences",
+"sector": "16 Travel & Hospitality",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; French managed residences"
+},
+{
+"id": "sunex.com",
+"company": "Sunex, Inc",
+"sector": "23 Machine Tools",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; tools supplier"
+},
+{
+"id": "metalstamper.com",
+"company": "IMS Buhrke-Olson",
+"sector": "23 Machine Tools",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; metal stamping"
+},
+{
+"id": "fagorprofessional.com",
+"company": "Fagor Professional Food Service",
+"sector": "16 Travel & Hospitality",
+"country": "Spain",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Mondragon",
+"triage_note": "real; fit 1; scale mid; commercial kitchen equipment"
+},
+{
+"id": "linuo.com",
+"company": "Linuo Group",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese glass/solar group"
+}
+]

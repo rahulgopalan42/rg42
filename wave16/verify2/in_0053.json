@@ -1,0 +1,122 @@
+[
+{
+"id": "bosco.ru",
+"company": "Bosco Di Ciliegi",
+"sector": "X06 Retail & E-commerce",
+"country": "Russia",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Russian fashion retail"
+},
+{
+"id": "hunkemoller.nl",
+"company": "Hunkemöller",
+"sector": "X06 Retail & E-commerce",
+"country": "Netherlands",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Redwood Capital Management (funds)",
+"triage_note": "real; fit 1; scale mid; lingerie retailer"
+},
+{
+"id": "billabong.com",
+"company": "Billabong",
+"sector": "53 Consumer & Lifestyle",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Authentic Brands Group",
+"triage_note": "real; fit 1; scale mid; surf apparel brand"
+},
+{
+"id": "atarcapital.com",
+"company": "Atar Capital",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; private equity firm"
+},
+{
+"id": "yinglisolar.com",
+"company": "Yingli Solar",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Partnership",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese solar maker"
+},
+{
+"id": "bahia-principe.com",
+"company": "Bahia Principe Hotels & Resorts",
+"sector": "16 Travel & Hospitality",
+"country": "Spain",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Grupo Piñero",
+"triage_note": "real; fit 1; scale mid; resort hotel brand"
+},
+{
+"id": "kukahomeusa.com",
+"company": "KUKA HOME North America",
+"sector": "49 Home & Living",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Jason Furniture (Hangzhou) Co.",
+"triage_note": "real; fit 1; scale mid; furniture maker"
+},
+{
+"id": "jafra.com",
+"company": "JAFRA Cosmetics International",
+"sector": "03 Luxury & Beauty",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "BeFra Group",
+"triage_note": "real; fit 1; scale mid; direct sales cosmetics"
+},
+{
+"id": "puntacanainternationalairport.com",
+"company": "Punta Cana Airport | Aeropuerto de Punta Cana",
+"sector": "16 Travel & Hospitality",
+"country": "Dominican Republic",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Grupo Puntacana",
+"triage_note": "real; fit 1; scale mid; Dominican airport"
+},
+{
+"id": "ameco.com.cn",
+"company": "Ameco Beijing",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "China",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Air China",
+"triage_note": "real; fit 1; scale mid; aircraft maintenance JV"
+}
+]

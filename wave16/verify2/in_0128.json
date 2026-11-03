@@ -1,0 +1,122 @@
+[
+{
+"id": "mcdermottlaw.com",
+"company": "McDermott Will & Schulte",
+"sector": "50 Law Firms & Legal AI",
+"country": "United States",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; global law firm"
+},
+{
+"id": "bibbylinegroup.co.uk",
+"company": "Bibby Line Group",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; diversified family group"
+},
+{
+"id": "quadreal.com",
+"company": "QuadReal Property Group",
+"sector": "X02 Real Estate & Building Products",
+"country": "Canada",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "BCI",
+"triage_note": "real; fit 2; scale large; real estate owner"
+},
+{
+"id": "snipes.com",
+"company": "SNIPES",
+"sector": "X06 Retail & E-commerce",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Deichmann",
+"triage_note": "real; fit 2; scale large; sneaker retailer"
+},
+{
+"id": "wamgroup.com",
+"company": "WAMGROUP",
+"sector": "23 Machine Tools",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; conveyor and gearbox maker"
+},
+{
+"id": "derucci.com",
+"company": "东莞市慕思寝室用品有限公司",
+"sector": "49 Home & Living",
+"country": "China",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; Chinese premium bedding"
+},
+{
+"id": "sonaesierra.com",
+"company": "Sonae Sierra",
+"sector": "X02 Real Estate & Building Products",
+"country": "Portugal",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; shopping centre owner"
+},
+{
+"id": "mecca.com",
+"company": "MECCA Brands",
+"sector": "X06 Retail & E-commerce",
+"country": "Australia",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "MECCA family",
+"triage_note": "real; fit 2; scale large; Australian beauty retailer"
+},
+{
+"id": "koorui.net",
+"company": "Koorui_official",
+"sector": "X06 Retail & E-commerce",
+"country": "China",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; display maker"
+},
+{
+"id": "",
+"company": "tw telecom",
+"sector": "48 Telecom & Space",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; ski resorts and parks"
+}
+]

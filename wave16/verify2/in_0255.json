@@ -1,0 +1,122 @@
+[
+{
+"id": "china-tscom.com",
+"company": "T&S Communications",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; fibre cable maker"
+},
+{
+"id": "zenrin.co.jp",
+"company": "ZENRIN",
+"sector": "25 IT Services & Consulting",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; digital map data"
+},
+{
+"id": "zgcccarbide.com",
+"company": "Zigong Cemented Carbide Corp.,Ltd",
+"sector": "33 Automation & Robotics",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "China Minmetals Group",
+"triage_note": "real; fit 1; scale mid; cemented carbide"
+},
+{
+"id": "shuhua.cn",
+"company": "舒华股份有限公司",
+"sector": "53 Consumer & Lifestyle",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; fitness equipment"
+},
+{
+"id": "matek.com",
+"company": "Materials Analysis Technology Inc. (MA-tek)",
+"sector": "27 Chip Makers",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; failure analysis labs"
+},
+{
+"id": "nwmwatermeters.com",
+"company": "Ningbo Water Meter (Group) Co., Ltd.",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; smart water meters"
+},
+{
+"id": "shunsintech.com",
+"company": "ShunSin Technology",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Foxconn",
+"triage_note": "real; fit 1; scale mid; electronics manufacturing"
+},
+{
+"id": "hewtech.co.jp",
+"company": "Hirakawa Hewtech Corp.",
+"sector": "45 Electronic Parts",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; electronic components"
+},
+{
+"id": "topscomm.com",
+"company": "TOPSCOMM",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; smart grid comms"
+},
+{
+"id": "injetenergy.com",
+"company": "INJET New Energy",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; new energy equipment"
+}
+]

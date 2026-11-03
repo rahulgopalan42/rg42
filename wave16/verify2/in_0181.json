@@ -1,0 +1,122 @@
+[
+{
+"id": "placesforpeople.co.uk",
+"company": "Places for People",
+"sector": "X02 Real Estate & Building Products",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; UK housing group"
+},
+{
+"id": "chinaamc.com",
+"company": "China Asset Management Co., Ltd.",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "China",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Chinese fund manager"
+},
+{
+"id": "fmsh.com",
+"company": "Shanghai Fudan Microelectronics Group Co., Ltd.",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Chinese chip designer"
+},
+{
+"id": "navinfo.com",
+"company": "NavInfo",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Chinese digital maps"
+},
+{
+"id": "astroplc.com.my",
+"company": "Astro All Asia Networks Plc",
+"sector": "29 Tech Media & Gaming",
+"country": "Malaysia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Malaysian pay-TV"
+},
+{
+"id": "cineworld.com",
+"company": "Cineworld Cinemas Ltd",
+"sector": "29 Tech Media & Gaming",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Regal Global Entertainment Group",
+"triage_note": "real; fit 1; scale large; global cinema chain"
+},
+{
+"id": "compugroupmedical.com",
+"company": "CompuGroup Medical Link",
+"sector": "22 SaaS",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; healthcare IT group"
+},
+{
+"id": "novaland.com.vn",
+"company": "NOVALAND",
+"sector": "X02 Real Estate & Building Products",
+"country": "Việt Nam",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "NovaGroup",
+"triage_note": "real; fit 1; scale large; Vietnam property developer"
+},
+{
+"id": "fetch.com",
+"company": "Fetch",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; rewards app"
+},
+{
+"id": "nhc.sa",
+"company": "NHC",
+"sector": "19 Gulf Sovereign & Tourism",
+"country": "Saudi Arabia",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "PIF",
+"triage_note": "real; fit 1; scale large; Saudi housing developer"
+}
+]

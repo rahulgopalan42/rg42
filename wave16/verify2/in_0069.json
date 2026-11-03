@@ -1,0 +1,122 @@
+[
+{
+"id": "cegedim.com",
+"company": "Cegedim",
+"sector": "25 IT Services & Consulting",
+"country": "France",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; healthcare software"
+},
+{
+"id": "mosopower.com",
+"company": "MOSO Power",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; power supplies"
+},
+{
+"id": "cuckooworld.com",
+"company": "CUCKOO Electronics",
+"sector": "45 Electronic Parts",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Korean appliances"
+},
+{
+"id": "ectsz.com",
+"company": "ECT (Electric Connector Technology Co Ltd.)",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; connectors and cables"
+},
+{
+"id": "numericups.com",
+"company": "Novateur Electrical & Digital Systems Pvt Ltd.",
+"sector": "45 Electronic Parts",
+"country": "India",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Legrand",
+"triage_note": "real; fit 1; scale mid; UPS power systems"
+},
+{
+"id": "phonosolar.com",
+"company": "PHONO Solar",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "SUMEC Group",
+"triage_note": "real; fit 1; scale mid; solar modules"
+},
+{
+"id": "panpacific.com",
+"company": "Pan Pacific Hotels Group",
+"sector": "16 Travel & Hospitality",
+"country": "Singapore",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Singapore-listed UOL Group Limited",
+"triage_note": "real; fit 1; scale mid; hotel operator"
+},
+{
+"id": "smart-core.com.hk",
+"company": "Smart-Core Holdings Limited",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; chip distributor"
+},
+{
+"id": "sinovel.com",
+"company": "Sinovel Wind Group Co., Ltd",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; wind turbines"
+},
+{
+"id": "highpowertech.com",
+"company": "Highpower International Inc.",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; batteries"
+}
+]

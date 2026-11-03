@@ -1,0 +1,286 @@
+[
+ {
+  "id": "citco.com",
+  "company": "The Citco Group",
+  "sector_tab": "X Asset Mgmt & PE",
+  "domain": "citco.com",
+  "hq": "George Town, Cayman Islands (operational centres Curacao, Amsterdam, New York, Toronto)",
+  "ownership": "Private; founding Smeets family majority, GIC minority shareholder",
+  "sells": "Hedge fund, private equity and real asset fund administration, banking/custody and governance services",
+  "headcount_band": "10,001+ (~13,800 per screen; aggregators 4,650-12,000+)",
+  "revenue": "~USD 1.5B (est, aggregators Prospeo/Bitscale, 2025)",
+  "valuation": "n/a (private); assets under administration USD 2T+ (company, est 2025)",
+  "latest_raise": "n/a (GIC minority stake, date/amount undisclosed)",
+  "fit_score": 2,
+  "fit_detail": "Offices in 40+ countries incl. US, UK, CA, NL, SG, JP = 1; senior fund executives = 1; back-office administration story does not map to performance/technology = 0; financial services crowded on grid = 0",
+  "up_and_coming": false,
+  "flags": [
+   "revenue unpublished (est)",
+   "B2B with low brand-marketing profile",
+   "minority holder GIC - no F1 tie found"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (revenue ~USD 1.5B est, 10,000+ staff, independent family-controlled, no F1 tie found); reservation: B2B back-office brand with weak sponsorship motive",
+  "best_angle": "",
+  "sources": [
+   "https://prospeo.io/c/the-citco-group-limited-revenue",
+   "https://bitscale.ai/directory/the-citco-group-limited",
+   "https://craft.co/citco-group",
+   "https://altss.com/profile/the-citco-group-limited"
+  ]
+ },
+ {
+  "id": "hassanallam.com",
+  "company": "Hassan Allam Holding",
+  "sector_tab": "39 Construction & Field Svc",
+  "domain": "hassanallam.com",
+  "hq": "Cairo, Egypt",
+  "ownership": "Private, Allam family-owned (third-generation co-CEOs Hassan and Amr Allam)",
+  "sells": "Engineering, construction, infrastructure, utilities/water (EPC) and investments across Egypt and the Gulf",
+  "headcount_band": "10,001+ (50,000+ per Forbes ME 2026; Revelio ~16,500 Sep 2025)",
+  "revenue": "~USD 2.1B 2025 (Forbes Middle East 2026); backlog USD 7.2B+",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a; acquired MetiPro (Metito EPC arm) Apr 2026",
+  "fit_score": 3,
+  "fit_detail": "Operates in Egypt, Saudi Arabia, UAE, Oman - only 2 F1 markets = 0; senior B2B/government buyers = 1; engineering scale and regional expansion story = 1; construction uncrowded on grid = 1",
+  "up_and_coming": false,
+  "flags": [
+   "B2B, weak consumer brand motive",
+   "not found among Qiddiya Speed Park contractors; F1-circuit contract check limited (search budget)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (revenue ~USD 2.1B 2025, 16,500-50,000 staff, family-owned, no F1 tie found); reservation: regional B2B contractor with limited sponsorship motive",
+  "best_angle": "Gulf race weekends (Jeddah, Abu Dhabi, Lusail) are where Hassan Allam's government and giga-project clients gather, which makes hospitality its natural angle.",
+  "sources": [
+   "https://www.forbesmiddleeast.com/lists/top-100-arab-family-businesses-2026/hassan-allam-holding/",
+   "https://www.forbesmiddleeast.com/lists/top-10-construction-companies-2026/hassan-allam-holding/",
+   "https://www.reveliolabs.com/companies/hassan-allam-holding/employees",
+   "https://www.meed.com/qiddiya-awards-formula-1-race-track-contract"
+  ]
+ },
+ {
+  "id": "parfois.com",
+  "company": "Parfois",
+  "sector_tab": "X Retail & E-commerce",
+  "domain": "parfois.com",
+  "hq": "Porto, Portugal",
+  "ownership": "Private, founder Manuela Medeiros (Forbes PT 2025 fortune ~EUR 504M)",
+  "sells": "Fashion accessories, bags, jewellery and apparel via ~1,000 stores in 60+ countries and e-commerce",
+  "headcount_band": "1,001-5,000 (~4,000 est)",
+  "revenue": "~EUR 500M+ 2024 (est, screen; unverified); company targeting EUR 1B (Modaes)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Stores in 60+ countries incl. ES, IT, MX, SA, UAE = 1; mass-market young female buyers, not affluent = 0; fashion accessories story does not map to performance/technology = 0; category uncrowded on grid = 1",
+  "up_and_coming": false,
+  "flags": [
+   "revenue unverified (est) - may fall in USD 150-500M route",
+   "mass-market audience",
+   "F1 tie check relied on screen (search budget exhausted)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on estimated revenue (~EUR 500M+ 2024 est, unverified), ~4,000 staff, founder-owned, no F1 tie found; reservation: unverified scale and mass-market audience",
+  "best_angle": "",
+  "sources": [
+   "https://www.forbespt.com/?p=180195",
+   "https://www.modaes.com/empresas/parfois-a-por-los-mil-millones-de-euros-expande-su-retail-y-su-ecommerce-internacionalmente"
+  ]
+ },
+ {
+  "id": "foley.com",
+  "company": "Foley & Lardner LLP",
+  "sector_tab": "50 Law Firms & Legal AI",
+  "domain": "foley.com",
+  "hq": "Milwaukee, Wisconsin, USA",
+  "ownership": "Partnership (LLP)",
+  "sells": "Full-service legal services; strong automotive, manufacturing, energy, health care and technology practices",
+  "headcount_band": "1,001-5,000 (~3,000 est incl. ~1,100+ lawyers)",
+  "revenue": "USD 1.45B 2025, +13.9% (Am Law 100 No. 43, Apr 2026)",
+  "valuation": "n/a (partnership)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "Offices in 3+ F1 markets = 1; senior B2B buyers (GCs, CEOs, boards) = 1; legal services story does not map to performance/technology = 0; law firms uncrowded on grid = 1 (US, Mexico, Japan, Belgium)",
+  "up_and_coming": false,
+  "flags": [
+   "mostly US practice",
+   "weak sponsorship motive typical of law firms"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (revenue USD 1.45B 2025, ~3,000 staff, no F1 tie found); reservation: US-centric professional firm with weak sponsorship motive",
+  "best_angle": "Foley's automotive and EV practice gives it a credible tie to F1's 2026 power-unit and Cadillac/Ford story for US hospitality with auto-sector clients.",
+  "sources": [
+   "https://www.foley.com/news/2026/04/foley-moves-up-to-no-43-on-2026-am-law-100-list/",
+   "https://natlawreview.com/press-releases/2026-am-law-100-kirkland-hits-10b-wachtell-tops-12m-partner-pay"
+  ]
+ },
+ {
+  "id": "theagencyre.com",
+  "company": "The Agency",
+  "sector_tab": "X Real Estate",
+  "domain": "theagencyre.com",
+  "hq": "Beverly Hills, California, USA",
+  "ownership": "Private, founder-led (Mauricio Umansky)",
+  "sells": "Luxury residential real estate brokerage, development marketing and partner offices in 14 countries",
+  "headcount_band": "1,001-5,000 (~2,700 incl. affiliated agents, est)",
+  "revenue": "Gross commission income ~USD 250-350M (est, from USD 13.94B 2024 sales volume, RealTrends #13)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "150 offices in 14 countries incl. US, Canada, Mexico, Spain = 1; affluent/HNW buyers = 1; luxury lifestyle story does not map to performance/technology = 0; real estate uncrowded on grid = 1",
+  "up_and_coming": true,
+  "flags": [
+   "USD 150-500M revenue route (est)",
+   "revenue unverified",
+   "market expansion: US -> 14 countries (150 offices, Dec 2025, up from ~80 in 2023)",
+   "F1 tie check relied on screen (search budget exhausted)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on estimated USD 150-500M revenue route (unverified; USD 13.94B 2024 sales volume), 51+ staff, no F1 tie found; capped at Stretch",
+  "best_angle": "The Agency's Hollywood-linked luxury brand and new offices could use F1's Miami and Las Vegas races to reach HNW buyers.",
+  "sources": [
+   "https://blog.theagencyre.com/the-agency-rises-in-rank-in-the-2025-realtrends-500/",
+   "https://blog.theagencyre.com/the-agency-marks-a-milestone-150-offices-one-global-community/",
+   "https://labusinessjournal.com/wp-content/uploads/2026/04/016-40_RRE-LIST_REVISED.pdf"
+  ]
+ },
+ {
+  "id": "mcguirewoods.com",
+  "company": "McGuireWoods LLP",
+  "sector_tab": "50 Law Firms & Legal AI",
+  "domain": "mcguirewoods.com",
+  "hq": "Richmond, Virginia, USA",
+  "ownership": "Partnership (LLP)",
+  "sells": "Full-service legal and public-affairs consulting (McGuireWoods Consulting)",
+  "headcount_band": "1,001-5,000 (~2,400 est incl. ~1,100 lawyers)",
+  "revenue": "USD 1.11B 2024 (AmLaw 200 No. 54, Virginia Business 2026); 2025 figure not found",
+  "valuation": "n/a (partnership)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "Offices in 3+ F1 markets = 1; senior B2B buyers (GCs, CEOs, boards) = 1; legal services story does not map to performance/technology = 0; law firms uncrowded on grid = 1 (US, UK, Belgium)",
+  "up_and_coming": false,
+  "flags": [
+   "US-centric firm",
+   "weak sponsorship motive"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (revenue USD 1.11B 2024, ~2,400 staff, no F1 tie found); reservation: US-centric professional firm with weak sponsorship motive",
+  "best_angle": "",
+  "sources": [
+   "https://virginiabusiness.com/law-2026-jonathan-harmon/",
+   "https://en.wikipedia.org/wiki/List_of_largest_law_firms_by_revenue"
+  ]
+ },
+ {
+  "id": "alston.com",
+  "company": "Alston & Bird",
+  "sector_tab": "50 Law Firms & Legal AI",
+  "domain": "alston.com",
+  "hq": "Atlanta, Georgia, USA",
+  "ownership": "Partnership (LLP)",
+  "sells": "Full-service legal services; financial services, health care, technology and IP",
+  "headcount_band": "1,001-5,000 (~2,400 est)",
+  "revenue": "USD 1.33B 2025 (Wikipedia; Am Law 100 No. 44, Apr 2026)",
+  "valuation": "n/a (partnership)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "Offices in 3+ F1 markets = 1; senior B2B buyers (GCs, CEOs, boards) = 1; legal services story does not map to performance/technology = 0; law firms uncrowded on grid = 1 (US, UK, Belgium, China)",
+  "up_and_coming": false,
+  "flags": [
+   "US-centric firm",
+   "weak sponsorship motive"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (revenue USD 1.33B 2025, ~2,400 staff, no F1 tie found); reservation: professional firm with weak sponsorship motive",
+  "best_angle": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Alston_%26_Bird",
+   "https://www.alston.com/en/insights/news/2026/04/the-american-lawyer-the-2026-am-law-100"
+  ]
+ },
+ {
+  "id": "sostrenegrene.com",
+  "company": "Sostrene Grene",
+  "sector_tab": "49 Home & Living",
+  "domain": "sostrenegrene.com",
+  "hq": "Aarhus, Denmark",
+  "ownership": "Private, Grene family-owned (siblings Cecilie and Mikkel Grene)",
+  "sells": "Affordable Scandinavian homeware, interior, kitchen, hobby and stationery products via 300+ stores in Europe (some franchised) and online",
+  "headcount_band": "1,001-5,000 (~2,450-2,525 per Revelio, 2025)",
+  "revenue": "DKK 3.3B (EUR 444M, ~USD 515M est) FY2025/26, +16.3%; DKK 2.86B FY2024/25 (+31%); excludes franchise stores",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Stores in DK, NO, SE, DE, NL, BE, UK, ES, FR, IT and more = 1; mid-income women 25-45, not affluent = 0; affordable homeware story does not map to performance/technology = 0; category uncrowded on grid = 1",
+  "up_and_coming": true,
+  "flags": [
+   "revenue just above USD 500M - near threshold depending on FX",
+   "market expansion: 3 new European markets and UK rollout (72 stores opened FY2025/26)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (revenue DKK 3.3B ~USD 515M FY2025/26, ~2,500 staff, family-owned, no F1 tie found); reservation: fit 2 with weak motorsport angle",
+  "best_angle": "",
+  "sources": [
+   "https://press.sostrenegrene.com/en/corporate-news/soestrene-grene-presents-record-turnover-31-growth",
+   "https://www.retailgazette.co.uk/?p=193891",
+   "https://www.interiordaily.com/article/9790084/sostrene-grene-achieves-record-breaking-store-expansion-with-67-openings-in-2025/",
+   "https://www.reveliolabs.com/companies/sostrene-grenes-import/employees"
+  ]
+ },
+ {
+  "id": "omm.com",
+  "company": "O'Melveny & Myers LLP",
+  "sector_tab": "50 Law Firms & Legal AI",
+  "domain": "omm.com",
+  "hq": "Los Angeles, California, USA",
+  "ownership": "Partnership (LLP)",
+  "sells": "Full-service legal services; litigation, M&A, finance, sports and entertainment",
+  "headcount_band": "1,001-5,000 (~1,800 est)",
+  "revenue": "USD 1.2B 2025, +8.8% (firm, Mar 2026; Am Law 100 No. 57)",
+  "valuation": "n/a (partnership)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "Offices in 3+ F1 markets = 1; senior B2B buyers (GCs, CEOs, boards) = 1; legal services story does not map to performance/technology = 0; law firms uncrowded on grid = 1 (US, UK, Belgium, China, Japan, Singapore)",
+  "up_and_coming": false,
+  "flags": [
+   "counsel to Formula 1/Liberty Media (USD 1.7B debt refinancing 2024, Dorna/MotoGP deal, F1 Arcade) - adviser, not a partnership; check conflicts before outreach",
+   "weak sponsorship motive"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (revenue USD 1.2B 2025, ~1,800 staff, no F1 sponsorship tie found); reservation: acts as legal counsel to Formula 1/Liberty Media, so sponsorship may conflict",
+  "best_angle": "O'Melveny already advises Formula 1's owner on major deals, so a team partnership would showcase its sports and entertainment practice to F1 investors and sponsors.",
+  "sources": [
+   "https://www.omm.com/news/press-releases/o-melveny-represents-formula-1-in-connection-with-refinancing-and-maturity-extension-of-formula-1-debt-facilities/",
+   "https://www.omm.com/news/in-the-news/the-american-lawyer-o-melveny-revenue-shot-up-9-in-record-setting-year-of-diversified-growth/",
+   "https://omm.com/news/awards-honors/the-american-lawyer-the-2026-am-law-100/",
+   "https://www.omm.com/news/press-releases/o-melveny-advises-liberty-media-as-lead-investor-in-f1-arcade-s-30-million-funding-round/"
+  ]
+ },
+ {
+  "id": "friedfrank.com",
+  "company": "Fried Frank",
+  "sector_tab": "50 Law Firms & Legal AI",
+  "domain": "friedfrank.com",
+  "hq": "New York, USA",
+  "ownership": "Partnership (LLP)",
+  "sells": "Legal services focused on M&A, private equity, real estate, litigation and asset management",
+  "headcount_band": "1,001-5,000 (~1,700 est)",
+  "revenue": "~USD 1.22B 2025 (Chambers Associate table); USD 1.136B 2024",
+  "valuation": "n/a (partnership)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "Offices in 3+ F1 markets = 1; senior B2B buyers (GCs, CEOs, boards) = 1; legal services story does not map to performance/technology = 0; law firms uncrowded on grid = 1 (US, UK, Germany, Belgium)",
+  "up_and_coming": false,
+  "flags": [
+   "weak sponsorship motive",
+   "2025 revenue from secondary source"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (revenue ~USD 1.22B 2025, ~1,700 staff, no F1 tie found); reservation: professional firm with weak sponsorship motive",
+  "best_angle": "",
+  "sources": [
+   "https://www.chambers-associate.com/law-firms/firms-by-size/",
+   "https://www.bcgsearch.com/fried-frank-harris-shriver-and-jacobson-llp-complete-guide-2026.php",
+   "https://en.wikipedia.org/wiki/Fried,_Frank,_Harris,_Shriver_%26_Jacobson"
+  ]
+ }
+]

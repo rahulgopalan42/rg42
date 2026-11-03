@@ -1,0 +1,122 @@
+[
+{
+"id": "pcchandraindiaindia.com",
+"company": "P. C. Chandra Jewellers",
+"sector": "03 Luxury & Beauty",
+"country": "India",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Indian jeweller"
+},
+{
+"id": "alromaizan.com",
+"company": "ALROMAIZAN GOLD & JEWELLERY",
+"sector": "03 Luxury & Beauty",
+"country": "United Arab Emirates",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; GCC jeweller"
+},
+{
+"id": "saopaulofc.net",
+"company": "São Paulo Futebol Clube",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Brazilian football club"
+},
+{
+"id": "bpcbt.com",
+"company": "BPC",
+"sector": "22 SaaS",
+"country": "Switzerland",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; banking software"
+},
+{
+"id": "cybernet.co.jp",
+"company": "CYBERNET SYSTEMS CO., LTD.",
+"sector": "22 SaaS",
+"country": "Japan",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Japan CAE reseller"
+},
+{
+"id": "sslazio.it",
+"company": "S.S. Lazio",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "Italy",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Lazio Events (Claudio Lotito)",
+"triage_note": "real; fit 1; scale mid; Italian football club"
+},
+{
+"id": "nutrimetics.com",
+"company": "Nutrimetics",
+"sector": "03 Luxury & Beauty",
+"country": "Australia",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; social-selling beauty brand"
+},
+{
+"id": "fc.de",
+"company": "1. FC Köln",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "Germany",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Bundesliga football club"
+},
+{
+"id": "tonymoly.com",
+"company": "Tonymoly Co., Ltd.",
+"sector": "03 Luxury & Beauty",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Korean cosmetics brand"
+},
+{
+"id": "ekinops.com",
+"company": "Ekinops",
+"sector": "48 Telecom & Space",
+"country": "France",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; optical networking"
+}
+]

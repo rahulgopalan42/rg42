@@ -1,0 +1,902 @@
+[
+{
+"id": "maxeon.com",
+"company": "Maxeon Solar Technologies",
+"sector": "27 Chip Makers",
+"country": "Singapore",
+"type": "Public Company",
+"staff": "201-500",
+"description": "Maxeon Solar Technologies is Powering Positive ChangeTM. Headquartered in Singapore, Maxeon designs and manufactures Maxeon® brand solar panels for residential, commercial and utility power plant customers across the Uni"
+},
+{
+"id": "lord.com",
+"company": "Parker Lord",
+"sector": "23 Machine Tools",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"description": "Parker Hannifin, a Fortune 250 global leader in motion and control technologies. For more than 100 years, the Parker has engineered the success of its customers in a wide range of diversified industrial and aerospace mar"
+},
+{
+"id": "yotrioint.com",
+"company": "Yotrio Group Co., Ltd",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"description": "Yotrio is one of the leading manufactures of leisure outdoor furniture.\n\nYotrio was founded in 1990. Majority family owned, listed on Shenzhen stock market.\n\nWe have set for us the highest social and environmental standa"
+},
+{
+"id": "drs.com",
+"company": "DRS Training and Control Systems",
+"sector": "32 Defense & Industrial AI",
+"country": "United States",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"description": "DRS Technologies is a leading supplier of integrated products, services and support to military forces, intelligence agencies and prime contractors worldwide. Focused on defense technology, we develop, manufacture and su"
+},
+{
+"id": "castillalamancha.es",
+"company": "SESCAM",
+"sector": "42 Health & Wellness",
+"country": "Spain",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": ""
+},
+{
+"id": "groupebonmarche.com",
+"company": "GROUPE BON MARCHÉ : Le Bon Marché Rive Gauche, La Grande Epicerie de Paris et la Samaritaine",
+"sector": "X06 Retail & E-commerce",
+"country": "France",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Le Groupe Bon Marché cultive depuis 1852 les premières fois. Dès le milieu du XIXe siècle, Aristide Boucicaut, le fondateur du grand magasin de la Rive Gauche, invente l’art de la vente et celui des services aux clients."
+},
+{
+"id": "schiphol.com",
+"company": "Royal Schiphol Group",
+"sector": "16 Travel & Hospitality",
+"country": "Netherlands",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Schiphol has been a home for world travellers for more than 100 years. Whether you are travelling to a distant holiday destination or flying to that promising business relation, the adventure begins with us. Schiphol is "
+},
+{
+"id": "dagab.se",
+"company": "Dagab",
+"sector": "X06 Retail & E-commerce",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Dagab ansvarar för sortiment, inköp och logistik till Axfoods samtliga marknadskoncept och har en nyckelroll i arbetet med att ständigt effektivisera varuflödet från sortiment och inköp till lagerhantering och distributi"
+},
+{
+"id": "bud.hu",
+"company": "Budapest Airport",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "Hungary",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "The mission of Budapest Airport is to make Ferenc Liszt International Airport the most successful airport in Central and Eastern Europe in terms of passenger growth, service quality and operational efficiency. The airpor"
+},
+{
+"id": "sunclassairlines.dk",
+"company": "Sunclass Airlines",
+"sector": "16 Travel & Hospitality",
+"country": "Denmark",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "The best leisure sun & beach focused airline"
+},
+{
+"id": "hsw.pl",
+"company": "Huta Stalowa Wola S.A./HSW S.A.",
+"sector": "32 Defense & Industrial AI",
+"country": "Poland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Huta Stalowa Wola S.A. jest liderem na rynku sprzętu artyleryjskiego. HSW S.A. dostarcza najwyższej klasy sprzęt wojskowy i jest partnerem Sił Zbrojnych RP w kilku najważniejszych programach operacyjnych Programu Moderni"
+},
+{
+"id": "cardiff-airport.com",
+"company": "Cardiff Airport",
+"sector": "16 Travel & Hospitality",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Cardiff Airport is the gateway to Wales.\n\nThe Airport's runway is 2,354m long and 45m wide and, on average, up to 25 aircraft can take off and land every hour. Take off and landing over either the sea or agricultural lan"
+},
+{
+"id": "big.at",
+"company": "BIG Bundesimmobiliengesellschaft m.b.H.",
+"sector": "X02 Real Estate & Building Products",
+"country": "Austria",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Die BIG entwickelt und betreut Lebens- und Wirkungsräume. Räume, die Menschen Chancen und Möglichkeiten eröffnen. Räume, in denen Ideen entwickelt und neue Wege eingeschlagen werden. Hier werden Talente gelebt, Horizonte"
+},
+{
+"id": "doclerholding.hu",
+"company": "Docler Holding Budapest",
+"sector": "25 IT Services & Consulting",
+"country": "Hungary",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Docler is a multinational IT company specializing in online delivered services with offices in Budapest and Luxembourg. One of our main product is in Alexa’s TOP 30 websites of the world.\nFounded in 2001 and powered by t"
+},
+{
+"id": "lotnisko-chopina.pl",
+"company": "Lotnisko Chopina (Chopin Airport)",
+"sector": "16 Travel & Hospitality",
+"country": "Polska",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Lotnisko Chopina jest największym portem lotniczym w Polsce i jednym z największych w Europie Centralnej. Istnieje od 1934 r. Obsługuje ruch rozkładowy, czarterowy, General Aviation oraz cargo.\r\n\r\nW 2015 r. z usług lotni"
+},
+{
+"id": "kid.no",
+"company": "Kid Interiør",
+"sector": "X06 Retail & E-commerce",
+"country": "Norway",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Kid ASA er Nordens største tekstil- og interiørkonsern. Konsernet består av kjedene Kid Interiør med en butikkportefølje av ca 145 butikker i Norge, og Hemtex med ca 140 butikker i Sverige, Finland og Estland. Begge kjed"
+},
+{
+"id": "tmsindustrialservices.com",
+"company": "TMS Industrial Services",
+"sector": "23 Machine Tools",
+"country": "Belgium",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "TMS Industrial Services is marktleider in technisch onderhoud in Zuidwest-Nederland en Vlaanderen. Wij bereiden voor, organiseren, voeren uit en houden toezicht, of het nu gaat om het onderhoud van productmachines en -li"
+},
+{
+"id": "muenchner-wohnen.de",
+"company": "Münchner Wohnen",
+"sector": "X02 Real Estate & Building Products",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Die Münchner Wohnen ist die Wohnungsbaugesellschaft der bayerischen Landeshauptstadt. Wir sind als Unternehmen dem Allgemeinwohl verpflichtet, jede*r zehnte Münchner*in lebt zu günstigen Mieten in einer von knapp 75.000 "
+},
+{
+"id": "fastighetsbyran.se",
+"company": "Fastighetsbyrån",
+"sector": "X02 Real Estate & Building Products",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Fastighetsbyrån är Sveriges marknadsledande mäklarfirma och förmedlar idag cirka var fjärde bostadsaffär i landet. Vi är över 1600 medarbetare på 250 kontor. Vår ambition är att fortsätta ta marknadsandelar och bli ännu "
+},
+{
+"id": "haicorp.com",
+"company": "Hellenic Aerospace Industry S.A. (EAB)",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "Greece",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Hellenic Aerospace Industry S.A. was established in 1975 and is the leading aerospace company of Greece, having as a mission to deliver defense and aerospace services and products to the Hellenic State, as well as to a w"
+},
+{
+"id": "stanstedairport.com",
+"company": "London Stansted Airport",
+"sector": "16 Travel & Hospitality",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "London Stansted Airport is part of Manchester Airports Group (MAG) - the UK's largest airport group, which also owns Manchester and East Midlands Airports.\n\nLondon Stansted Airport serves connections to more European des"
+},
+{
+"id": "finavia.fi",
+"company": "Finavia",
+"sector": "16 Travel & Hospitality",
+"country": "Finland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Lentoasemayhtiö Finavia johtaa ja kehittää 20 lentoasemaa Suomessa. Sujuvat ja laadukkaat palvelut lentoyhtiöille, matkustajille, lentoasemien alueilla toimiville yritysasiakkaille ja vuokralaisille sekä lentoasemalla kä"
+},
+{
+"id": "poltronafraugroup.com",
+"company": "Poltrona Frau Group",
+"sector": "49 Home & Living",
+"country": "Italia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "A story that goes back to 1912 with the foundation of Poltrona Frau, followed by the creation of Cassina in 1927, and Cappellini in 1946. 2005 saw the creation of the Poltrona Frau Group, the leading international group "
+},
+{
+"id": "dus.com",
+"company": "Düsseldorf Airport",
+"sector": "16 Travel & Hospitality",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Der Düsseldorfer Airport ist der größte Flughafen Nordrhein-Westfalens. In einer der wirtschaftlich stärksten Regionen Europas mit 18 Millionen Einwohnern in einem Umkreis von 100 Kilometern gelegen, konzentriert sich hi"
+},
+{
+"id": "nk.se",
+"company": "Nordiska Kompaniet, NK",
+"sector": "53 Consumer & Lifestyle",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Nordiska Kompaniet, a department store at the forefront. Looking for the latest fashion, top-notch service and a fine dining experience? Then Nordiska Kompaniet is the place for you. NK Department Store is among Scandina"
+},
+{
+"id": "framo.com",
+"company": "Framo",
+"sector": "23 Machine Tools",
+"country": "Norway",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Framo is a pump manufacturer based in Bergen, Norway. From it's  beginning in 1938, the company has grown into a worldwide organization with subsidiaries on three continents. Today Framo  with 1200 employees is a leading"
+},
+{
+"id": "gdels.com",
+"company": "General Dynamics European Land Systems",
+"sector": "32 Defense & Industrial AI",
+"country": "Spain",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "General Dynamics European Land Systems is a Europe based business unit of General Dynamics Corporation. Headquartered in Madrid, Spain, General Dynamics European Land Systems is led by Antonio Bueno. We employ some 3.000"
+},
+{
+"id": "cnim.com",
+"company": "CNIM",
+"sector": "23 Machine Tools",
+"country": "France",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Founded in 1856, CNIM is a French equipment manufacturer and industrial contractor operating on a worldwide basis.\nThe Group supplies products and services to major private and public sector organizations, local authorit"
+},
+{
+"id": "komatsuforest.com",
+"company": "Komatsu Forest",
+"sector": "23 Machine Tools",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "As one of the world's leading manufacturers of forestry, construction, mining and utility equipment, Komatsu has stood by your side for an entire century, offering unique quality, peace of mind, knowledge and support.\n\nO"
+},
+{
+"id": "gfcs.com",
+"company": "GF Casting Solutions",
+"sector": "23 Machine Tools",
+"country": "Schweiz",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "GF Casting Solutions' Automotive Business is now part of Nemak.\n\nNemak is a leading provider of innovative lightweighting solutions for the global automotive industry, specializing in the development and manufacturing of"
+},
+{
+"id": "sbibank.com.kh",
+"company": "SBI Bank (Cambodia) PLC",
+"sector": "33 Automation & Robotics",
+"country": "Cambodia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "SBI Bank (Cambodia) Plc is a commercial bank incorporated under the laws of the Kingdom of Cambodia. Its registered office is located at Building 219, Street 128 & 169, Sangkat Mittapheap, Khan Prampir Meakkakra, Phnom P"
+},
+{
+"id": "stamford-avk.com",
+"company": "STAMFORD | AvK",
+"sector": "45 Electronic Parts",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "The official account of STAMFORD® and AvK® alternators.\n\nSTAMFORD | AvK provide the ultimate power solution for world-class expertise and 24/7 global lifecycle support, as the world’s energy demands evolve. Our STAMFORD®"
+},
+{
+"id": "intugroup.co.uk",
+"company": "intu",
+"sector": "X02 Real Estate & Building Products",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "We own, manage and develop many of the UK's best shopping centres and have a growing multichannel presence. We’re passionate about giving people their perfect shopping experience.\n\nWith 17 centres across the UK our whole"
+},
+{
+"id": "sofia-airport.eu",
+"company": "Vasil Levski Sofia Airport",
+"sector": "16 Travel & Hospitality",
+"country": "Bulgaria",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Sofia International Airport is the largest airport in Bulgaria. \nAs of 19 April 2021, SOF Connect has taken over the management of Sofia Airport for the next 35 years. The main shareholder in the company is Meridiam, whi"
+},
+{
+"id": "discover-airlines.com",
+"company": "Discover Airlines",
+"sector": "16 Travel & Hospitality",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Discover Airlines is the Lufthansa Group's leisure airline in Germany, flying travelers from Frankfurt and Munich to the most beautiful holiday destinations in the world. A cutting-edge product tailored to the needs of l"
+},
+{
+"id": "jolywood.com",
+"company": "Jolywood Solar",
+"sector": "27 Chip Makers",
+"country": "Italy",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Founded in 2008 and publicly listed in 2014 (Stock code SZ300393), Jolywood (Suzhou) Sunwatt Co., Ltd. is a state-level high-tech enterprise specializing in the R&D and manufacture of PV products. In 2022, Jolywood becam"
+},
+{
+"id": "rentalcars.com",
+"company": "Rentalcars.com",
+"sector": "16 Travel & Hospitality",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "At Rentalcars, we’re on a mission to help people discover and do more. Putting the customer back in control, giving them maximum choice, great value, total transparency, and customer service that really cares. \nToday, th"
+},
+{
+"id": "lechateau.com",
+"company": "LE CHÂTEAU",
+"sector": "53 Consumer & Lifestyle",
+"country": "Canada",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "The LE CHÂTEAU brand is sold exclusively through our extensive network of 149 prime locations across Canada and an e-com platform servicing Canada and the U.S. Le Château, committed to research, design and product develo"
+},
+{
+"id": "unionassurance.com",
+"company": "Union Assurance PLC",
+"sector": "33 Automation & Robotics",
+"country": "Sri Lanka",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "At Union Assurance, our vision is to empower individuals on their unique journeys of progress. By making Life Insurance more accessible, we aim to provide the strength and confidence needed to thrive in every facet of li"
+},
+{
+"id": "phase-eight.com",
+"company": "Phase Eight",
+"sector": "X06 Retail & E-commerce",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "OUR BRAND STORY:\nWe are Phase Eight: the go-to destination for empowering, feminine style that inspires. \n\nGreat style isn’t just about clothes, it’s about a mindset. We understand the uplifting power and joy in finding "
+},
+{
+"id": "enterair.pl",
+"company": "Enter Air",
+"sector": "16 Travel & Hospitality",
+"country": "Poland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Enter Air is the largest private airline operating in Poland, with over 15 years of experience and a leading position in the country’s tourism market. It is also one of the largest charter airlines in Europe.\n\nThe Group "
+},
+{
+"id": "offshore-channel.com",
+"company": "OffshoreChannel",
+"sector": "27 Chip Makers",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Offshore Channel"
+},
+{
+"id": "prg.aero",
+"company": "Prague Airport",
+"sector": "16 Travel & Hospitality",
+"country": "Czechia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Prague Airport is the biggest and the most important international airport in the Czech Republic. Every year, this international airport looks after millions of passengers who can enjoy the offer of airlines currently co"
+},
+{
+"id": "tarom.ro",
+"company": "TAROM",
+"sector": "16 Travel & Hospitality",
+"country": "Romania",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "TAROM Romanian Air Transport was established in 1954 and developed together with the Romanian aviation. TAROM is member of SkyTeam Alliance as of June 25th, 2010.\nThe company operates on more than 60 own destinations as "
+},
+{
+"id": "countrysidepartnerships.com",
+"company": "Countryside Partnerships",
+"sector": "X02 Real Estate & Building Products",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Countryside Partnerships is the business to business brand for Vistry Group."
+},
+{
+"id": "lindenhomes.co.uk",
+"company": "Linden Homes",
+"sector": "X02 Real Estate & Building Products",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Linden Homes is a Vistry Group brand. It builds award-winning homes across the country in prime locations. Striving to create sustainable new developments, we work with local people to create communities and we’re passio"
+},
+{
+"id": "hikrobotics.com",
+"company": "Hikrobot",
+"sector": "56 Robotics AI",
+"country": "Netherlands",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Hikrobot is a global product and solution supplier specializing in machine vision and mobile robots. With a focus on IIoT, smart logistics and smart manufacturing, we build open cooperation ecosystems, provide services t"
+},
+{
+"id": "roth-industries.com",
+"company": "Roth Industries GmbH & Co. KG",
+"sector": "27 Chip Makers",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Mit verschiedenen Firmen und rund 1.400 Mitarbeitern weltweit gehört die Roth Industries GmbH & Co. KG zu den innovativsten Unternehmen in den Bereichen\n\nBuilding Solutions\nSparten: Energiesysteme, Sanitärsysteme und Umw"
+},
+{
+"id": "watsons.ua",
+"company": "Watsons Ukraine",
+"sector": "X06 Retail & E-commerce",
+"country": "Ukraine",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Watsons Ukraine is an international health and beauty retailer!\n\nWe operate 190 + shops  in 76 cities. More than 1500 employees serve approximately 800 K customers via our O+O (Offline plus Online) platforms.\n\nWatsons Uk"
+},
+{
+"id": "neilson.co.uk",
+"company": "Neilson Active Holidays",
+"sector": "16 Travel & Hospitality",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "There are active holidays. \nAnd there's a Neilson active holiday.\nThere aren't many holiday companies where 7 out of 10 guests return to relive the experience again. Then again there aren't many holiday companies like Ne"
+},
+{
+"id": "weber-hydraulik.com",
+"company": "WEBER-HYDRAULIK GMBH",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "HYDRAULIC SYSTEM SOLUTIONS\nWe are a leading international specialist in customized and reliable hydraulic solutions. Reliable and powerful, we have been developing high-quality cylinders, control blocks, steering and sus"
+},
+{
+"id": "fortacogroup.com",
+"company": "Fortaco Group",
+"sector": "23 Machine Tools",
+"country": "Finland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Fortaco is the leading full-solution provider for OEMs in the off-highway equipment industries. Pioneering the design and production of assemblies, cabins, steel fabrications, and zero emission solutions, we offer cuttin"
+},
+{
+"id": "megabrands.com",
+"company": "MEGA Brands",
+"sector": "53 Consumer & Lifestyle",
+"country": "Canada",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Part of the Mattel® family, MEGATM empowers fans and families to build the future they imagine. MEGATM designs & manufactures innovative, high-quality construction toys for builders of all ages to create, customize & col"
+},
+{
+"id": "aldi.ch",
+"company": "ALDI SUISSE AG",
+"sector": "X06 Retail & E-commerce",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "ALDI SUISSE ist ein Schweizer Detailhändler mit Hauptsitz in Schwarzenbach (SG). Es gehört zur Unternehmensgruppe ALDI SÜD mit Standorten in elf Ländern weltweit. Seit dem Markteintritt 2005 baut ALDI SUISSE sein Filialn"
+},
+{
+"id": "framtiden.se",
+"company": "Framtidenkoncernen",
+"sector": "X02 Real Estate & Building Products",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Framtidenkoncernen är Göteborgs allmännytta och Sveriges största bostadskoncern. Hos oss bor var fjärde göteborgare. Våra fastigheter med drygt 76 000 lägenheter är värda över 120 miljarder kronor, vi investerar årligen "
+},
+{
+"id": "worten.pt",
+"company": "Worten Portugal",
+"sector": "45 Electronic Parts",
+"country": "Portugal",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "The best of technology is here, at Worten. We are a brand that has been present on Portuguese homes, for more than 30 years. Easing the access to technology, innovation and the best price.\n\nWith more than 230 physical st"
+},
+{
+"id": "rbcgam.com",
+"company": "RBC Global Asset Management",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "Canada",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "RBC Global Asset Management (RBC GAM) is the asset management division of Royal Bank of Canada (RBC) and includes money managers RBC BlueBay Asset Management and Phillips, Hager & North Investment Management. RBC GAM is "
+},
+{
+"id": "bricostore.ro",
+"company": "Brico",
+"sector": "X06 Retail & E-commerce",
+"country": "Romania",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Brico aduce, sub un nume nou, tot ce înseamnă casă și amenajare: sortiment, expertiză și un partener care rămâne alături de clienți la fiecare proiect. Redefinim DIY. Pentru noi, „a face singur\" nu mai înseamnă să duci c"
+},
+{
+"id": "skyguide.ch",
+"company": "skyguide",
+"sector": "16 Travel & Hospitality",
+"country": "Schweiz",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Skyguide is responsible for providing air navigation services within Swiss airspace and in the airspace of certain adjoining regions in neighbouring countries. The company guides the civil and military aircraft entrusted"
+},
+{
+"id": "sigmait.se",
+"company": "Sigma IT Group",
+"sector": "25 IT Services & Consulting",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "We believe in a better tomorrow. We act now and lead the digital revolution forward. We continuously see results in challenging the status quo and together with our clients, we create technologies for the future. It is a"
+},
+{
+"id": "intersport.at",
+"company": "INTERSPORT Austria GmbH",
+"sector": "X06 Retail & E-commerce",
+"country": "Austria",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "INTERSPORT Österreich ist eine Erfolgsgeschichte. Die INTERSPORT Austria Gruppe mit der Zentrale in Wels umfasst über 100 INTERSPORT Händler an über 280 Standorten in Österreich. Die Händler sind in den Regionen stark ve"
+},
+{
+"id": "beijingcaesarstravels.com",
+"company": "Beijing Caesars Travels",
+"sector": "16 Travel & Hospitality",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "In 1993, Caesars Travel was founded in Hamburg, Germany. Over three decades of steady development, we have successively established branches in global port cities and core business cities such as London, Paris, Monaco, M"
+},
+{
+"id": "damartex.com",
+"company": "Groupe Damartex",
+"sector": "X06 Retail & E-commerce",
+"country": "France",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Le groupe Damartex est l'un des principaux distributeurs européens pour seniors. Il est composé de trois pôles :\n◦ Fashion : Damart, Afibel, Xandres\n◦ Home & Lifestyle : Coopers of Stortford, 3 Pagen, Vitrine Magique\n◦ H"
+},
+{
+"id": "croatiaairlines.com",
+"company": "Croatia Airlines",
+"sector": "16 Travel & Hospitality",
+"country": "Croatia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "FULL COMPANY NAME: Croatia Airlines, the national air carrier, has been carrying passengers and cargo in domestic and international traffic for more than 30 years. We offer our passengers a high level of service, placing"
+},
+{
+"id": "matas.dk",
+"company": "Matas A/S",
+"sector": "X06 Retail & E-commerce",
+"country": "Danmark",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Matas er en landsdækkende detailhandelsvirksomhed, der tilbyder et bredt sortiment inden for sundhed og skønhed. \n\nMatas tæller 265 butikker fordelt over hele Danmark og en webshop med mere end 1 mio. besøgende om ugen. "
+},
+{
+"id": "ebl.com.bd",
+"company": "Eastern Bank PLC.",
+"sector": "33 Automation & Robotics",
+"country": "Bangladesh",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "With a vision to become the bank of choice and to be the most valuable financial brand in Bangladesh, Eastern Bank PLC. (EBL) began its journey in 1992. Over the years EBL has established itself as a leading private comm"
+},
+{
+"id": "robinsonsland.com",
+"company": "Robinsons Land Corporation",
+"sector": "X02 Real Estate & Building Products",
+"country": "Philippines",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Robinsons Land Corporation (RLC), one of the Philippines’ leading real estate companies, is involved in the development and operation of shopping malls and hotels, and is also one of the country’s most reputable develope"
+},
+{
+"id": "digitalhangar.aero",
+"company": "Lufthansa Group Digital Hangar",
+"sector": "16 Travel & Hospitality",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "We create the world's best connected #TravelExperience bringing together the power of physical, human and digital experience for all Lufthansa Group airline brands. Hereby we're committed to drive the digital transformat"
+},
+{
+"id": "sodifrance.fr",
+"company": "Sodifrance",
+"sector": "25 IT Services & Consulting",
+"country": "France",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Entreprise de Services du Numérique créée en 1986, Sodifrance compte plus de 1200 collaborateurs répartis sur 11 implantations en France. L’offre de services se décompose en 6 grands métiers : le conseil technologique, l"
+},
+{
+"id": "bonmarche.co.uk",
+"company": "Bonmarche",
+"sector": "X06 Retail & E-commerce",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Bonmarche was established in 1982 and following a successful turnaround of business strategy our Yorkshire based fashion house is going from strength to strength and continually opening new stores and outlets across the "
+},
+{
+"id": "ytrealtygroup.com.hk",
+"company": "Y. T. REALTY GROUP LIMITED",
+"sector": "X02 Real Estate & Building Products",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Y. T. Realty Group Limited (referred to as \"Y. T. Realty\", stock code 00075.HK), headquartered in Hong Kong, China, was listed on the Hong Kong Stock Exchange in 1984. It is an enterprise group with core businesses in re"
+},
+{
+"id": "kitchencraft.com",
+"company": "Kitchen Craft",
+"sector": "49 Home & Living",
+"country": "Canada",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Since 1972, Kitchen Craft has been designing custom cabinet solutions for home builders, renovators and homeowners across the country. After 40 years in the industry, we have grown to become Canada’s largest cabinet manu"
+},
+{
+"id": "culham.org.uk",
+"company": "Culham Campus",
+"sector": "X02 Real Estate & Building Products",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Culham Campus: The UK’s Fusion and AI Innovation Cluster\nCulham Campus is the UK’s leading cluster for fusion energy and artificial intelligence - where world-class research meets commercial opportunity.\nOwned and manage"
+},
+{
+"id": "biochemtex.com",
+"company": "Biochemtex",
+"sector": "27 Chip Makers",
+"country": "Italy",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Biochemtex is a global leader in the development and engineering of technologies and bio-chemical processes based on the exclusive use of non-food biomass, as an alternative to oil.\r\n\r\nThanks to a partnership with Beta R"
+},
+{
+"id": "lucky-bike.de",
+"company": "Lucky Bike.de GmbH",
+"sector": "X06 Retail & E-commerce",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Herzlich willkommen bei Lucky Bike! Du suchst nach einem Job in der Fahrradbranche? Aktuell sind wir auf der Suche nach motivierten neuen Teammitgliedern, die unsere Leidenschaft für Fahrräder teilen. Sieh dir unsere off"
+},
+{
+"id": "zajrzyjzciekawosci.pl",
+"company": "TRUMPF Huettinger Zajrzyj #zCiekawości",
+"sector": "45 Electronic Parts",
+"country": "Poland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "TRUMPF Huettinger jest światowym liderem w produkcji zasilaczy do procesów plazmowych, aplikacji nagrzewania indukcyjnego oraz wzbudzanie lasera CO2\n\nZajrzyj #zciekawości, zostań z wyboru.\nwww.zajrzyjzciekawosci.pl"
+},
+{
+"id": "hirschmann-car.com",
+"company": "Hirschmann Car Communication GmbH",
+"sector": "45 Electronic Parts",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Hirschmann Car Communication sends again on its own frequency!\n \nIn new collaboration — innovation and strength combined. Together with our new parent company, USI, we are shaping a successful future!\n\nHirschmann Car Com"
+},
+{
+"id": "pittards.com",
+"company": "Pittards plc",
+"sector": "33 Automation & Robotics",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Pittards was established in Yeovil in 1826 and has a heritage in the development and manufacture of performance leathers that are used by major brands around the world. Due to the technical nature of the leathers, Pittar"
+},
+{
+"id": "aida.co.jp",
+"company": "AIDA ENGINEERING Ltd.",
+"sector": "23 Machine Tools",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "AIDA Engineering Ltd. in Japan was founded in 1917 and is a global leader in the design, manufacture, sale, service and support, refurbishment and modernization of metal stamping presses and metal forming automation equi"
+},
+{
+"id": "duluxdecoratorcentre.co.uk",
+"company": "Dulux Decorator Centre",
+"sector": "X06 Retail & E-commerce",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Choose Dulux Decorator Centre for all your decorating needs big or small. As well as products from all the leading brands we offer free delivery, colour matching, click and collect as well as on hand expert advice from o"
+},
+{
+"id": "inno.be",
+"company": "INNO",
+"sector": "X06 Retail & E-commerce",
+"country": "Belgique",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "In a value driven way, INNO wants to become the absolute #1 reference in fashion, gifts and lifestyle items in Belgium.                                                                                                     "
+},
+{
+"id": "friwo.com",
+"company": "FRIWO",
+"sector": "45 Electronic Parts",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Since the discovery of the first plug-in power supply unit in the world, our demanding customers have been able to fully rely on FRIWO for their power supply needs. Since 1971, we have produced well over a billion power "
+},
+{
+"id": "hudsonsbay.nl",
+"company": "Hudson's Bay Netherlands",
+"sector": "X06 Retail & E-commerce",
+"country": "Netherlands",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Hudson’s Bay is de nummer één bestemming voor de laatste mode-, beauty- en homecollecties. Het is ons doel om blijvende herinneringen te creëren. Daarvoor gaan we de extra (s)mile. Altijd, met liefde.\n\nWe zijn nieuwsgier"
+},
+{
+"id": "sefako.pl",
+"company": "Fabryka Kotłów \"SEFAKO\" S.A.",
+"sector": "23 Machine Tools",
+"country": "Poland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Fabryka Kotłów “SEFAKO” S.A. belongs to the largest manufacturers of power generating boilers in Poland. \nSEFAKO’s products are used in utility power industry, power and heating plants and industrial heat and power gener"
+},
+{
+"id": "peek-und-cloppenburg.de",
+"company": "Peek&Cloppenburg* KG Hamburg",
+"sector": "X06 Retail & E-commerce",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "The Peek&Cloppenburg* KG Group in Hamburg unites two successful retail concepts – Peek&Cloppenburg* and VAN GRAAF, that are present on various markets.  \n\nThe strategic orientation is successfully directed toward the gro"
+},
+{
+"id": "schulz.st",
+"company": "SCHULZ Systemtechnik",
+"sector": "33 Automation & Robotics",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "We are SCHULZ Systemtechnik - and we develop interdisciplinary and sustainable automation solutions for various areas of production, buildings and energy – from the manufacture of individual components to their intellige"
+},
+{
+"id": "driventic.com",
+"company": "Driventic",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Driventic is the specialist for efficient drive technologies in commercial vehicles. Whether for use in e-mobility or conventional drives, Driventic’s integrated systems and digital services are driving the mobility turn"
+},
+{
+"id": "goldwin-global.com",
+"company": "Goldwin, GOLDWIN INC.",
+"sector": "53 Consumer & Lifestyle",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Goldwin is an international technical apparel brand whose purpose is to unify minimalist urban design with technical alpine performance. Its products, ranging from high performance skiwear, lifestyle apparel, activewear "
+},
+{
+"id": "burger-group.com",
+"company": "BURGER GROUP",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "The BURGER GROUP, headquartered in Schonach, Germany, is one of the leading system partners in the field of customer-specific drive technology. With over 1000 employees at eight locations in Europe and North America, we "
+},
+{
+"id": "eltronic-group.com",
+"company": "Eltronic Group",
+"sector": "33 Automation & Robotics",
+"country": "Denmark",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Our purpose is to be at the forefront of industrial innovation and deploy our know-how to accelerate the green energy transition and improve other industries that benefit society. \n\nWe are a global technology group opera"
+},
+{
+"id": "aitgroup.com",
+"company": "ait-deutschland GmbH",
+"sector": "27 Chip Makers",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Die Wärmepumpe ist unsere DNA  \nUnsere Vision ist ein ideales Morgen - unabhängig von fossilen Energiequellen \nWerde auch du Teil der ait ⬇️\nhttps://www.aitgroup.com/de/footer/weiterfuhrende-infos\n\nSeit 1998 tragen wir m"
+},
+{
+"id": "nuheat.com",
+"company": "Nuheat (Chemelex)",
+"sector": "45 Electronic Parts",
+"country": "Canada",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Nuheat is a floor heating systems provider that gives you the comfort you deserve. An innovative and energy-efficient heating technology with a variety of thermostat options to add a touch of luxury to your home.\n\nNuheat"
+},
+{
+"id": "landal.dk",
+"company": "Landal Danmark",
+"sector": "16 Travel & Hospitality",
+"country": "Denmark",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Welcome to the new Landal.\n\nWith a clear vision to be Europe’s leader in holiday in nature, we’re on an exciting journey of growth and transformation.\n\nWe’re driven by a strong purpose: to give everyone the freedom to fi"
+},
+{
+"id": "elproffen.no",
+"company": "EL-PROFFEN AS",
+"sector": "45 Electronic Parts",
+"country": "Norway",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "EL-PROFFEN er Norges største elektrikerkjede \n\nMed 180 medlemsbedrifter og omkring 5000 ansatte er vi Norges største elektrikerkjede. Som landsdekkende kjede kan vi tilby våre kunder høy service og bred kompetanse over h"
+},
+{
+"id": "runsvengruppen.com",
+"company": "Runsven AB",
+"sector": "X06 Retail & E-commerce",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Sedan 1948 bedriver Runsvengruppen handelsverksamhet under signumet \"en god affär\".\n\nServicefunktioner samt varuförsörjning sköts via Runsven AB. Marknadsarbete och försäljning sköts huvudsakligen via ÖoB AB, där ÖoB är "
+},
+{
+"id": "groupedelom.ca",
+"company": "Wajax | Delom",
+"sector": "23 Machine Tools",
+"country": "Canada",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Situé à Pointe-aux-Trembles, Lasalle et Québec, Wajax | Delom offre un service clé en main dans le domaine de l’équipement rotatif industriel. L’entreprise comprend plusieurs ateliers spécialisés dans l’entretien, la réf"
+},
+{
+"id": "abus-kransysteme.de",
+"company": "ABUS Kransysteme GmbH",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "- one of the world’s leading overhead crane and hoist manufacturers\n- Worldwide Sales and Service of crane systems and hoists from 80 kg up to 120 t* capacity \n- More than 1100 employees in Europe\n - Multiple production "
+},
+{
+"id": "pzlmielec.pl",
+"company": "PZL Mielec",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "Poland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Polskie Zakłady Lotnicze Sp. z o.o. (PZL Mielec) is presently one of the largest aircraft manufacturer in Poland, and the largest production site for Lockheed Martin outside the USA."
+},
+{
+"id": "pgeenergiaciepla.pl",
+"company": "PGE Energia Ciepła",
+"sector": "45 Electronic Parts",
+"country": "Poland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "28 listopada 2017 r. sąd rejestrowy w Warszawie zarejestrował zmianę nazwy spółki z EDF Polska S.A. na PGE Energia Ciepła S.A. Jest to efekt zakończonego 13 listopada 2017 r. procesu sprzedaży polskich aktywów francuskie"
+},
+{
+"id": "alpha-innotec.com",
+"company": "alpha innotec",
+"sector": "27 Chip Makers",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "alpha innotec zählt zu den Pionieren der Wärmepumpentechnologie. Seit 1998 entwickeln und produzieren wir Wärmepumpen in Deutschland.\n\nUnser Anspruch: Heizen im Alltag einfach und selbstverständlich machen. Deshalb liefe"
+}
+]

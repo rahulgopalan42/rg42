@@ -1,0 +1,53 @@
+[
+{
+"id": "techfirefly.com",
+"company": "Tech Firefly",
+"keep": false,
+"reason": "quick triage: tiny company",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+},
+{
+"id": "hroptions.com",
+"company": "HR Options, Inc.",
+"keep": false,
+"reason": "quick triage: tiny company",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+},
+{
+"id": "ordre.pharmacien.fr",
+"company": "Pharmacie / Officine",
+"keep": false,
+"reason": "quick triage: professional body",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+}
+]

@@ -1,0 +1,122 @@
+[
+{
+"id": "loctekmotion.com",
+"company": "LoctekMotion",
+"sector": "49 Home & Living",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; desk motion systems"
+},
+{
+"id": "partnertech.com",
+"company": "PartnerTech",
+"sector": "45 Electronic Parts",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; EMS provider"
+},
+{
+"id": "edimax.com",
+"company": "Edimax",
+"sector": "36 IoT & Connectivity",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; networking devices"
+},
+{
+"id": "szmicrogate.com",
+"company": "深圳市麦捷微电子科技股份有限公司",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; electronic components"
+},
+{
+"id": "btwelectric.com",
+"company": "Baoding Tianwei Baobian Electric Co., Ltd.",
+"sector": "44 Grid & Transformers",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; transformer maker"
+},
+{
+"id": "apwcc.com",
+"company": "Asia Pacific Wire & Cable Corp Ltd.",
+"sector": "44 Grid & Transformers",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; wire and cable"
+},
+{
+"id": "allenmedia.tv",
+"company": "ALLEN MEDIA GROUP",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Byron Allen's ALLEN MEDIA GROUP",
+"triage_note": "real; fit 1; scale mid; US media group"
+},
+{
+"id": "timezonegames.com",
+"company": "Timezone Group International",
+"sector": "29 Tech Media & Gaming",
+"country": "Singapore",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; arcade entertainment"
+},
+{
+"id": "sooplive.com",
+"company": "SOOP Co., Ltd. (USA) formerly AfreecaTV",
+"sector": "22 SaaS",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Korean live streaming"
+},
+{
+"id": "sportdimension.com",
+"company": "Sport Dimension Inc",
+"sector": "53 Consumer & Lifestyle",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; water sports products"
+}
+]

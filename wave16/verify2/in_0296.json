@@ -1,0 +1,122 @@
+[
+{
+"id": "manroland.com",
+"company": "manroland AG",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; printing press maker"
+},
+{
+"id": "qiaodan.com",
+"company": "Qiaodan Sports",
+"sector": "53 Consumer & Lifestyle",
+"country": "China",
+"type": "Self Owned",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese sportswear brand"
+},
+{
+"id": "",
+"company": "Gaming Labs International",
+"sector": "29 Tech Media & Gaming",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; gaming test labs"
+},
+{
+"id": "",
+"company": "FIYTA",
+"sector": "03 Luxury & Beauty",
+"country": "China",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese watch brand"
+},
+{
+"id": "trivenigroup.com",
+"company": "Triveni Engineering & Industries Limited",
+"sector": "23 Machine Tools",
+"country": "India",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; sugar and engineering"
+},
+{
+"id": "pvbm.com",
+"company": "GoodWe PVBM",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; solar inverters"
+},
+{
+"id": "enpower.com",
+"company": "Enpower Electric(SHE: 300681)",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese electric drives"
+},
+{
+"id": "peacebird.com",
+"company": "Peacebird",
+"sector": "53 Consumer & Lifestyle",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese fashion brand"
+},
+{
+"id": "casetekholdings.com",
+"company": "鎧勝控股有限公司",
+"sector": "45 Electronic Parts",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Pegatron",
+"triage_note": "real; fit 1; scale mid; metal casings maker"
+},
+{
+"id": "acrelarabia.com",
+"company": "Acrel Micro-Grid",
+"sector": "44 Grid & Transformers",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; micro-grid energy systems"
+}
+]

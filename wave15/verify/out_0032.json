@@ -1,0 +1,298 @@
+[
+ {
+  "id": "nobullproject.com",
+  "company": "NOBULL",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "nobullproject.com",
+  "hq": "Boston, Massachusetts, United States",
+  "ownership": "Private; majority owned by Mike Repole and Tom Brady (since 2023); Dynasty Financial ~3% (Aug 2026)",
+  "sells": "Training footwear and apparel, mainly US DTC and wholesale",
+  "headcount_band": "201-500 (~250, est)",
+  "revenue": "undisclosed",
+  "valuation": "USD 1B (reported, Jan 2026 round; Dynasty co-investment at USD 1B, Aug 2026)",
+  "latest_raise": "USD 50M at USD 1B valuation, Jan 2026 (aggregator/trade reports)",
+  "fit_score": 3,
+  "fit_detail": "Sales mostly US, not 3+ F1 markets 0; affluent 25-44 fitness consumers +1; performance story +1; athletic apparel not crowded on grid +1",
+  "up_and_coming": true,
+  "flags": [
+   "valuation reported via trade press/aggregators, no primary release",
+   "US-centric distribution",
+   "sponsors NASCAR Legacy Motor Club 2026 (not F1)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on reported USD 1B valuation (Jan 2026) but distribution is US-centric and valuation lacks a primary source; no F1 tie found.",
+  "best_angle": "Brady-backed performance brand already in NASCAR could use F1's US races (Miami, Austin, Las Vegas) to scale nationally and test international demand.",
+  "sources": [
+   "https://ministryofsport.com/repole-and-bradys-nobull-hits-1b-valuation/",
+   "https://sginews.com/Content/dynasty-financial-partners-takes-stake-in-nobull.aspx",
+   "https://www.vcbacked.co/company/nobull",
+   "https://en.wikipedia.org/wiki/Nobull",
+   "https://www.jayski.com/2026/01/27/nobull-and-legacy-motor-club-announce-partnership/"
+  ]
+ },
+ {
+  "id": "p:hunterdouglas",
+  "company": "Hunter Douglas",
+  "sector_tab": "49 Home & Living",
+  "domain": "hunterdouglas.com",
+  "hq": "Rotterdam, Netherlands / Pearl River, NY, United States",
+  "ownership": "3G Capital ~75% (closed 25 Feb 2022, ~USD 7.1B deal); Sonnenberg family ~25%",
+  "sells": "Window coverings and architectural products (Hunter Douglas, Luxaflex, PowerView automation) in ~100 countries",
+  "headcount_band": "10,001+ (~23,600)",
+  "revenue": "~USD 4.5B 2024 (Bloomberg)",
+  "valuation": "~USD 7.1B EV at 3G deal (2022)",
+  "latest_raise": "3G Capital buyout, Feb 2022",
+  "fit_score": 3,
+  "fit_detail": "~100 countries incl. US, EU, Asia +1; affluent 35-54 homeowners +1; design/automation story only partly maps 0; category not crowded +1",
+  "up_and_coming": false,
+  "flags": [
+   "PE-owned (3G Capital); 3G also owns Skechers (no F1 tie found)"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes all filters (USD 4.5B revenue 2024, 23k staff, no F1 tie for brand or 3G); global consumer brand with active marketing.",
+  "best_angle": "Smart-home automation (PowerView) and premium design messaging to F1's affluent homeowner audience in the US and Europe.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hunter_Douglas",
+   "https://www.bloomberg.com/billionaires/profiles/ralph-sonnenberg/",
+   "https://www.bloomberglinea.com.br/2021/12/31/3g-capital-compra-controle-da-luxaflex-maker-em-negocio-de-us-7-bilhoes/",
+   "https://maquinadoesporte.com.br/mercado/3g-capital-anuncia-compra-da-skechers-por-us-94-bilhoes/"
+  ]
+ },
+ {
+  "id": "p:merz",
+  "company": "Merz",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "merz.com",
+  "hq": "Frankfurt am Main, Germany",
+  "ownership": "Family-owned (Merz family); split into Merz Aesthetics and Merz Therapeutics",
+  "sells": "Medical aesthetics (Xeomin, Ultherapy, Belotero, Radiesse) and neurotherapeutics, ~26 countries direct",
+  "headcount_band": "1,001-5,000 (Merz Aesthetics 3,000+; group ~4,000, est)",
+  "revenue": "Merz Aesthetics >EUR 1B FY2023/24 (company); group EUR 1.34B FY2021/22 (Wikipedia)",
+  "valuation": "undisclosed (private)",
+  "latest_raise": "none (family-owned)",
+  "fit_score": 3,
+  "fit_detail": "Sells in US, EU, Asia, Middle East +1; affluent 30-54 consumers and practitioners +1; science/precision story partly maps 0; aesthetics not crowded on grid +1",
+  "up_and_coming": false,
+  "flags": [
+   "Rx toxin (Xeomin) consumer advertising restricted outside US",
+   "peers SkinCeuticals (Ferrari 2026) and Elemis (Aston Martin) now in F1"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters (revenue >EUR 1B, no F1 tie) but Rx-aesthetics advertising limits constrain consumer activation.",
+  "best_angle": "Skincare/aesthetics is a new F1 category (SkinCeuticals-Ferrari, Elemis-Aston Martin); Ultherapy/Belotero could reach the sport's growing affluent female audience.",
+  "sources": [
+   "https://merz-aesthetics.career.softgarden.de/en/",
+   "https://en.wikipedia.org/wiki/Merz_Pharma",
+   "https://www.aap.com.au/aapreleases/cision20260603ae73453/",
+   "https://www.cosmeticsbusiness.com/elemis-secures-formula-1-deal-with-aston-martin"
+  ]
+ },
+ {
+  "id": "p:bugattirimacrimac",
+  "company": "Rimac Group / Bugatti Rimac",
+  "sector_tab": "43 Mobility & Automotive",
+  "domain": "rimac-automobili.com",
+  "hq": "Sveta Nedelja (Zagreb), Croatia",
+  "ownership": "Private; Mate Rimac and HOF Capital-led consortium (bought Porsche's 20.6% of Rimac Group and 45% of Bugatti Rimac, signed Apr 2026, closed 2026); Hyundai minority",
+  "sells": "Hypercars (Bugatti, Rimac Nevera) and EV components/battery systems (Rimac Technology) to OEMs incl. VW Group",
+  "headcount_band": "1,001-5,000 (~2,000, est)",
+  "revenue": "undisclosed",
+  "valuation": "> EUR 2B (Series D, Jun 2022); Porsche stake sale ~EUR 1B (2026)",
+  "latest_raise": "Series D EUR 500M (~USD 536M), Jun 2022 (outside 36 months)",
+  "fit_score": 3,
+  "fit_detail": "Global hypercar sales +1; ultra-affluent buyers +1; performance/technology story +1; automotive crowded on grid 0",
+  "up_and_coming": false,
+  "flags": [
+   "Porsche (VW Group, owner of Audi F1) exited stake 2026",
+   "Rimac Technology supplies VW Group components",
+   "automotive category crowded"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes via EUR 2B+ valuation (2022); former Porsche/VW minority link now exited; automotive category crowded on grid.",
+  "best_angle": "Post-Porsche independence and a new owner group give Bugatti/Rimac a reason to stake a high-performance tech claim in F1's ultra-affluent hospitality.",
+  "sources": [
+   "https://insideevs.com/news/590284/rimac-raised-500million-euro/",
+   "https://www.timeslive.co.za/motoring/2026-04-24-porsche-divests-from-bugatti-rimac-in-cost-cutting-move/",
+   "https://www.just-auto.com/news/porsche-completes-bugatti-rimac-exit/?.tsrc=rss",
+   "https://total-croatia-news.com/news/porsche-rimac/",
+   "https://www.electrive.com/es/2026/04/25/porsche-abandona-bugatti-rimac-y-el-grupo-rimac/"
+  ]
+ },
+ {
+  "id": "edf.fr",
+  "company": "Électricité de France",
+  "sector_tab": "X Utilities & Power",
+  "domain": "edf.fr",
+  "hq": "Paris, France",
+  "ownership": "French State (100%, since 2023 delisting)",
+  "sells": "Electricity generation (nuclear, renewables), supply and energy services in France, UK, Italy (Edison), Belgium and internationally",
+  "headcount_band": "10,001+ (~180,000)",
+  "revenue": "EUR 113.3B FY2025 (-4.5%); EUR 118.7B FY2024",
+  "valuation": "State-owned; not listed",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Operates in France, UK, Italy, Belgium, US (renewables) +1; mass-market consumers, partial senior B2B 0; energy-transition/nuclear tech story +1; energy utility borderline with crowded oil/energy 0",
+  "up_and_coming": false,
+  "flags": [
+   "state-owned SOE",
+   "net debt EUR 51.5B (2025)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes all filters (EUR 113B revenue 2025, no F1 tie found) but state utility with mass-market audience and weak F1 brand motive.",
+  "best_angle": "Low-carbon electricity story (nuclear, EV charging via Izivia) aligned with F1's 2026 hybrid and net-zero 2030 narrative.",
+  "sources": [
+   "https://www.edf.fr/sites/groupe/files/2026-02/CP%20Re%CC%81sultats%20annuels%202025.pdf",
+   "https://www.connaissancedesenergies.org/afp/edf-annonces-ses-resultats-de-2025-et-un-ajustement-concernant-hinkley-point-c-260220",
+   "https://www.gpfans.com/en/articles/62139/alpine-renews-mecachrome-f1-partnership/"
+  ]
+ },
+ {
+  "id": "amcen.co",
+  "company": "American Century Investments",
+  "sector_tab": "X Asset Mgmt & PE",
+  "domain": "americancentury.com",
+  "hq": "Kansas City, Missouri, United States",
+  "ownership": "Private; Stowers Institute for Medical Research controlling; Nomura ~41% economic (non-controlling)",
+  "sells": "Mutual funds, ETFs (Avantis) and institutional mandates; mainly US, with London, Frankfurt, Hong Kong, Sydney offices",
+  "headcount_band": "1,001-5,000 (~1,800, est)",
+  "revenue": "~USD 1.5B (est, from ~USD 300B AUS)",
+  "valuation": "undisclosed",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Offices in US, UK, Germany, HK, Australia +1; affluent investors/senior institutional buyers +1; story weakly maps 0; asset management adjacent to crowded banking 0",
+  "up_and_coming": false,
+  "flags": [
+   "revenue estimate only",
+   "US-centric retail brand; sponsors American Century Celebrity Golf Championship"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on scale (USD 300B AUS Sep 2025, revenue est) and no F1 tie found, but brand is US-centric and finance category is busy on the grid.",
+  "best_angle": "Avantis ETF growth (USD 140B+ 2026) could use F1's US audience boom to build retail brand recognition.",
+  "sources": [
+   "https://www.americancentury.com/newsroom/2025-client-focus-drives-300b-milestone/",
+   "https://www.morningstar.com/asset-management-companies/american-century-BN000007X7",
+   "https://en.wikipedia.org/wiki/American_Century_Investments"
+  ]
+ },
+ {
+  "id": "vattenfall.com",
+  "company": "Vattenfall",
+  "sector_tab": "X Utilities & Power",
+  "domain": "vattenfall.com",
+  "hq": "Solna (Stockholm), Sweden",
+  "ownership": "Swedish State (100%)",
+  "sells": "Electricity, heat and gas in Sweden, Germany, Netherlands, Denmark, UK; wind and nuclear generation",
+  "headcount_band": "10,001+ (20,869, Mar 2026)",
+  "revenue": "SEK 234.9B (~USD 23B) FY2025; SEK 245.6B FY2024",
+  "valuation": "State-owned; not listed",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Operates in NL, UK, Germany + Nordics +1; mass-market consumers 0; fossil-free energy/engineering story +1; energy borderline crowded 0",
+  "up_and_coming": false,
+  "flags": [
+   "state-owned SOE",
+   "regional footprint (Northern Europe)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes all filters (SEK 235B revenue 2025, no F1 tie found) but regional state utility with limited F1 market overlap.",
+  "best_angle": "Fossil-free energy story aligned with F1's sustainability push, focused on the Dutch and British Grands Prix.",
+  "sources": [
+   "https://group.vattenfall.com/siteassets/corporate/investors/interim_reports/2025/q4-report-2025.pdf",
+   "https://group.vattenfall.com/globalassets/com/about-us/vattenfall-in-brief/vattenfall-in-brief-onepager-2026-03.pdf"
+  ]
+ },
+ {
+  "id": "pinduoduo-global.com",
+  "company": "PDD Holdings (Pinduoduo, Temu)",
+  "sector_tab": "X Retail & E-commerce",
+  "domain": "pddholdings.com",
+  "hq": "Dublin, Ireland (operations Shanghai, China)",
+  "ownership": "Listed (Nasdaq: PDD); founder Colin Huang largest holder",
+  "sells": "E-commerce marketplaces Pinduoduo (China) and Temu (90+ markets)",
+  "headcount_band": "10,001+ (~20,000, est)",
+  "revenue": "RMB 431.8B (~USD 60B) FY2025, +10%",
+  "valuation": "Market cap ~USD 110B (2026, TIKR est)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "Temu in 90+ markets incl. US, EU, Middle East +1; budget mass-market audience 0; story not performance/precision 0; e-commerce not crowded on grid +1",
+  "up_and_coming": false,
+  "flags": [
+   "Temu forced-labour/UFLPA scrutiny (House report 2023; not on UFLPA Entity List as checked)",
+   "brand-safety risk for teams",
+   "US de minimis removal 2025"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters (market cap ~USD 110B, not on UFLPA Entity List or sanctions lists found, no F1 tie) but budget audience and forced-labour scrutiny are real brand-safety reservations.",
+  "best_angle": "Temu's heavy global performance-marketing spend could target F1's mass digital audience in Europe and the Middle East.",
+  "sources": [
+   "https://finance.yahoo.com/markets/stocks/articles/pdd-holdings-pdd-reports-2025-183115087.html",
+   "https://www.sec.gov/Archives/edgar/data/0001737806/000110465926100534/tm2623874d1_ex99-1.htm",
+   "https://www.tikr.com/de/blog/pdd-holds-67-billion-in-cash-and-trades-at-7-times-earnings-so-what-is-the-market-afraid-of",
+   "https://www.thomsonreuters.com/en-us/help/onesource-global-trade/regulatory-insights/2026/august-4th/dhs-updates-uflpa-entity-list-43-new-entities",
+   "https://www.bostonglobe.com/2023/06/13/business/temu-sells-products-us-linked-forced-labor-chinas-uyghur-region-analysis-shows"
+  ]
+ },
+ {
+  "id": "novonordisk.com",
+  "company": "Novo Nordisk",
+  "sector_tab": "X Pharma & Biotech",
+  "domain": "novonordisk.com",
+  "hq": "Bagsværd, Denmark",
+  "ownership": "Listed (Copenhagen/NYSE); Novo Holdings (Novo Nordisk Foundation) ~77% of votes",
+  "sells": "Diabetes and obesity medicines (Ozempic, Wegovy) worldwide",
+  "headcount_band": "10,001+ (~78,400 before 9,000 cuts, Sep 2025)",
+  "revenue": "~USD 43.3B FY2025 (PharmExec); operating profit DKK 127.7B",
+  "valuation": "Market cap well above USD 1B (est ~USD 200B+, 2026); USD 450B lost from 2024 peak",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "Sells globally +1; patients/consumers broad, not affluent-skewed 0; health story not performance 0; pharma not crowded on grid +1",
+  "up_and_coming": false,
+  "flags": [
+   "2025 restructuring: 9,000 job cuts (cost programme, not distress)",
+   "Rx advertising limits outside US",
+   "past motorsport sponsorship: IndyCar (Charlie Kimball), Carlin F2/F3 2018"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters (USD 43B sales 2025, no F1 tie) but Rx advertising limits and cost-cutting reduce sponsorship motive.",
+  "best_angle": "Disease-awareness and healthy-performance messaging, building on its IndyCar diabetes sponsorship history.",
+  "sources": [
+   "https://annualreport.novonordisk.com/2025/strategic-aspirations/financial-performance.html",
+   "https://www.pharmexec.com/view/novo-nordisk-2025-financial-report-2026-sales-operations-profit-outlook",
+   "https://www.outlookbusiness.com/corporate/novo-nordisk-to-lay-off-9000-amid-slowing-obesity-drug-sales-in-us",
+   "https://www.fiercepharma.com/marketing/novo-nordisk-and-indy-driver-charlie-kimball-drive-partnership-to-100-race-mark-and",
+   "https://app.sponsorpitch.com/deals/novo-nordisk-sponsors-carlin"
+  ]
+ },
+ {
+  "id": "asurion.com",
+  "company": "Asurion",
+  "sector_tab": "18 Services & Other",
+  "domain": "asurion.com",
+  "hq": "Nashville, Tennessee, United States",
+  "ownership": "Private (founders plus PE/investor consortium)",
+  "sells": "Device protection, insurance and tech-support services via carriers/retailers (US, Japan, Australia, Europe)",
+  "headcount_band": "10,001+ (~16,000-23,000, 2025)",
+  "revenue": "~USD 8.4-12B (est, aggregators; not disclosed)",
+  "valuation": "undisclosed (~USD 27B est, Prospeo)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Operates in US, Japan, Australia, UK/EU +1; mass-market phone owners 0; tech-support story partly maps 0; category not crowded +1",
+  "up_and_coming": false,
+  "flags": [
+   "record mismatch: input name 'Brand Source', evaluated as Asurion",
+   "carrier-channel (B2B2C) brand",
+   "headcount down ~17% 2025 (Revelio)",
+   "revenue unverified (est)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on scale (revenue est USD 8B+) and no F1 tie found, but carrier-channel brand with limited direct consumer marketing motive.",
+  "best_angle": "Tech-care brand could use F1's US audience to build direct-to-consumer awareness for its repair and protection plans.",
+  "sources": [
+   "https://pitchbook.com/profiles/company/10501-12",
+   "https://www.reveliolabs.com/companies/asurion/employees",
+   "https://bitscale.ai/directory/asurion",
+   "https://prospeo.io/c/asurion-revenue",
+   "https://www.similarweb.com/company/asurion.com"
+  ]
+ }
+]

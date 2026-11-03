@@ -1,0 +1,122 @@
+[
+{
+"id": "archion.co.jp",
+"company": "ARCHION株式会社",
+"sector": "43 Mobility & Automotive",
+"country": "Japan",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Toyota/Daimler Truck",
+"triage_note": "real; fit 2; scale large; truck holding"
+},
+{
+"id": "nsg.co.jp",
+"company": "日本板硝子株式会社",
+"sector": "21 Materials & Mech Parts",
+"country": "Japan",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; glass maker"
+},
+{
+"id": "wfaw.com.cn",
+"company": "Zhejiang Wanfeng Auto Wheel Co., Ltd.",
+"sector": "43 Mobility & Automotive",
+"country": "Canada",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Wanfeng Auto Holding",
+"triage_note": "real; fit 2; scale large; aluminium wheels"
+},
+{
+"id": "sumitomoriko.co.jp",
+"company": "SUMITOMO RIKO COMPANY LIMITED",
+"sector": "21 Materials & Mech Parts",
+"country": "Japan",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Sumitomo Electric",
+"triage_note": "real; fit 2; scale large; rubber auto parts"
+},
+{
+"id": "baicmotor.com",
+"company": "BAIC Motor Corporation Limited( 北京汽车股份有限公司)",
+"sector": "43 Mobility & Automotive",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "BAIC Group",
+"triage_note": "real; fit 2; scale large; Chinese carmaker"
+},
+{
+"id": "tsingtao.com",
+"company": "Tsingtao Brewery Co., Ltd",
+"sector": "04 Food & Beverage",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; brewer"
+},
+{
+"id": "navigator-paper.com",
+"company": "Navigator Paper",
+"sector": "21 Materials & Mech Parts",
+"country": "Portugal",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Semapa",
+"triage_note": "real; fit 2; scale large; premium paper"
+},
+{
+"id": "maaden.com",
+"company": "Maaden",
+"sector": "X04 Mining, Metals & Commodities",
+"country": "Saudi Arabia",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; miner"
+},
+{
+"id": "semcorp.com",
+"company": "SEMCORP Advanced Materials Group",
+"sector": "21 Materials & Mech Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; battery separators"
+},
+{
+"id": "metlen.com",
+"company": "Metlen",
+"sector": "X04 Mining, Metals & Commodities",
+"country": "Greece",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; metals and energy"
+}
+]

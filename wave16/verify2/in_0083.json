@@ -1,0 +1,122 @@
+[
+{
+"id": "tecsys.com",
+"company": "Tecsys Inc.",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; supply chain software"
+},
+{
+"id": "zuzuche.com",
+"company": "ZUZUCHE",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese car rental platform"
+},
+{
+"id": "duoyi.com",
+"company": "多益网络",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese online game developer"
+},
+{
+"id": "apstar.com",
+"company": "APT Satellite Company Ltd",
+"sector": "48 Telecom & Space",
+"country": "Hong Kong",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Europe",
+"triage_note": "real; fit 1; scale mid; Asian satellite operator"
+},
+{
+"id": "antera.com.mx",
+"company": "ANTERA Beauty & Fragrance Corporation",
+"sector": "03 Luxury & Beauty",
+"country": "México",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Mexican fragrance maker"
+},
+{
+"id": "uklon.net",
+"company": "Uklon",
+"sector": "22 SaaS",
+"country": "Ukraine",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Kyivstar Group Ltd",
+"triage_note": "real; fit 1; scale mid; Ukraine ride-hailing"
+},
+{
+"id": "atoss.com",
+"company": "ATOSS Software SE",
+"sector": "22 SaaS",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; German workforce software"
+},
+{
+"id": "frontier.co.uk",
+"company": "Frontier Developments",
+"sector": "29 Tech Media & Gaming",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; UK game developer"
+},
+{
+"id": "exawizards.com",
+"company": "ExaWizards Inc.",
+"sector": "22 SaaS",
+"country": "Japan",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Japan AI firm"
+},
+{
+"id": "dasouche.com",
+"company": "DaSouChe",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese used car platform"
+}
+]

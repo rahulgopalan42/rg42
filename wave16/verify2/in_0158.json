@@ -1,0 +1,122 @@
+[
+{
+"id": "jcmglobal.com",
+"company": "JCM COMMERCE MECHATRONICS, INC.",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; currency validators"
+},
+{
+"id": "kocher-beck.com",
+"company": "Kocher+Beck GmbH + Co. Rotationsstanztechnik KG",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; rotary die tools"
+},
+{
+"id": "felss.com",
+"company": "Felss Group GmbH",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; precision forming"
+},
+{
+"id": "ist-uv.com",
+"company": "IST METZ GmbH & Co. KG",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; UV curing tech"
+},
+{
+"id": "bhs-sonthofen.com",
+"company": "BHS-Sonthofen GmbH",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; process machinery"
+},
+{
+"id": "suhner.com",
+"company": "SUHNER Group",
+"sector": "23 Machine Tools",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; connectivity and cables"
+},
+{
+"id": "pfiffner-group.com",
+"company": "PFIFFNER Group",
+"sector": "44 Grid & Transformers",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; grid components"
+},
+{
+"id": "gkd-group.com",
+"company": "GKD Group",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; metal mesh"
+},
+{
+"id": "ringfeder.com",
+"company": "RINGFEDER POWER TRANSMISSION",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; power transmission"
+},
+{
+"id": "benning.de",
+"company": "BENNING",
+"sector": "44 Grid & Transformers",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; electrical safety tools"
+}
+]

@@ -1,0 +1,122 @@
+[
+{
+"id": "",
+"company": "Ngk Spark Plugs",
+"sector": "32 Defense & Industrial AI",
+"country": "United States",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; spark plugs and ceramics"
+},
+{
+"id": "",
+"company": "Sécheron Hasler Group",
+"sector": "45 Electronic Parts",
+"country": "Switzerland",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; rail electrical equipment"
+},
+{
+"id": "",
+"company": "AERZEN worldwide",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; blowers and compressors"
+},
+{
+"id": "",
+"company": "AndBeyond",
+"sector": "16 Travel & Hospitality",
+"country": "South Africa",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; African luxury safari operator"
+},
+{
+"id": "",
+"company": "Globopar",
+"sector": "29 Tech Media & Gaming",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Globo",
+"triage_note": "real; fit 2; scale large; Brazilian media group"
+},
+{
+"id": "",
+"company": "Groupe Compagnie des Alpes",
+"sector": "16 Travel & Hospitality",
+"country": "France",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; ski resorts and parks"
+},
+{
+"id": "",
+"company": "Soltec Power Holdings",
+"sector": "27 Chip Makers",
+"country": "Spain",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; solar trackers"
+},
+{
+"id": "",
+"company": "Fiverr Marketplace for Buyer & Seller",
+"sector": "07 Marketing & Sales",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; freelance marketplace"
+},
+{
+"id": "",
+"company": "TITAL GmbH",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; aerospace castings"
+},
+{
+"id": "",
+"company": "Kehua Digital Energy",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; power electronics maker"
+}
+]

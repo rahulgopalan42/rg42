@@ -1,0 +1,288 @@
+[
+ {
+  "id": "arisglobal.com",
+  "company": "ArisGlobal",
+  "sector_tab": "47 Vertical SaaS",
+  "domain": "arisglobal.com",
+  "hq": "Boston, MA, United States",
+  "ownership": "Nordic Capital (PE); being acquired by Dassault Systemes (announced 23 Jul 2026, close expected H2 2026)",
+  "sells": "Pharmacovigilance, regulatory and safety SaaS (LifeSphere) for life-sciences companies",
+  "headcount_band": "1,001-5,000 (1,285 per Nordic Capital, 2025)",
+  "revenue": "EUR 150M (2025, Nordic Capital); ~USD 175M expected 2026 (Dassault)",
+  "valuation": "USD 1.8B cash + up to USD 200M earn-out (Dassault deal, Jul 2026)",
+  "latest_raise": "",
+  "fit_score": 2,
+  "fit_detail": "Sells globally to pharma (US/EU/Japan); senior B2B buyers; AI/precision story weak for F1 audience; category not crowded",
+  "up_and_coming": false,
+  "flags": [
+   "pending acquisition by Dassault Systemes (Jul 2026)",
+   "USD 150-500M revenue route"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Hard filter 3 fail: being acquired/absorbed by Dassault Systemes (definitive deal announced 23 Jul 2026, closing H2 2026)",
+  "best_angle": "",
+  "sources": [
+   "https://www.nordiccapital.com/portfolio-cases/investments/arisglobal/",
+   "https://investor.3ds.com/news-releases/news-release-details/dassault-systemes-acquire-arisglobal-creating-unified-ai",
+   "https://www.pharmaceutical-tech.com/news/dassault-systemes-to-acquire-arisglobal"
+  ]
+ },
+ {
+  "id": "eci.com",
+  "company": "ECI",
+  "sector_tab": "47 Vertical SaaS",
+  "domain": "ecisolutions.com",
+  "hq": "Fort Worth, TX, United States",
+  "ownership": "Leonard Green & Partners (majority, since 2020/21); Apax Partners minority",
+  "sells": "Industry-specific ERP/business-management SaaS for SMBs (manufacturing, distribution, building supply, field service)",
+  "headcount_band": "1,001-5,000 (~2,000 employees and contractors, Nov 2024)",
+  "revenue": "USD 550M+ (2024, CEO via Mergermarket); USD 600M+ expected 2025",
+  "valuation": "~USD 2.5B (est, aggregator, Apr 2026); deal terms undisclosed",
+  "latest_raise": "",
+  "fit_score": 3,
+  "fit_detail": "Sells in US, UK, Canada, Australia/NZ, Netherlands (3+ F1 markets); SMB owner/senior B2B buyers; ERP not crowded on grid; story maps weakly to performance",
+  "up_and_coming": false,
+  "flags": [
+   "PE-owned B2B roll-up; low brand spend",
+   "valuation est only"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes revenue route (USD 550M+ 2024) and all filters; reservation: B2B SMB software roll-up with limited brand-marketing ambition",
+  "best_angle": "Could use F1 hospitality to court SMB manufacturers/distributors in US and UK as it consolidates sub-brands under ECI",
+  "sources": [
+   "https://ionanalytics.com/insights/mergermarket/eci-software-could-pursue-transformational-buys-ceo/",
+   "https://itbrief.com.au/story/eci-software-solutions-acquired-by-leonard-green-partners",
+   "https://www.ecisolutions.com/en-gb/news/eci-celebrates-25-years/",
+   "https://www.premieralts.com/companies/eci-software-solutions/funding-history"
+  ]
+ },
+ {
+  "id": "laerdal.com",
+  "company": "Laerdal Medical",
+  "sector_tab": "X Medtech",
+  "domain": "laerdal.com",
+  "hq": "Stavanger, Norway",
+  "ownership": "Private; Laerdal family / Laerdal Foundation",
+  "sells": "Resuscitation and medical simulation training products (Resusci Anne, SimMan), CPR solutions for hospitals, educators, NGOs",
+  "headcount_band": "1,001-5,000 (~2,150 est, Revelio 2025; parent entity 631)",
+  "revenue": "~EUR 522M consolidated (2024, largestcompanies.com aggregator); parent entity NOK 2.85B (2025, Proff)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 2,
+  "fit_detail": "Sells worldwide (3+ F1 markets); buyers are hospitals/educators not affluent consumers; lifesaving-technology story partly maps; category not crowded",
+  "up_and_coming": false,
+  "flags": [
+   "revenue from aggregator; confirm consolidated figure",
+   "mission-led, low ad spend"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters (consolidated revenue ~EUR 522M 2024, aggregator), but institutional B2B buyer base and mission-led model show little brand-marketing ambition",
+  "best_angle": "",
+  "sources": [
+   "https://largestcompanies.com/company/Laerdal-Medical-AS-72104/closing-figures-and-key-ratios",
+   "https://www.proff.no/roller/tore-lc3a6rdal/stavanger/478983",
+   "https://www.reveliolabs.com/companies/laerdal-medical/employees"
+  ]
+ },
+ {
+  "id": "hunter.com",
+  "company": "Hunter Engineering Company",
+  "sector_tab": "43 Mobility & Automotive",
+  "domain": "hunter.com",
+  "hq": "Bridgeton, MO, United States",
+  "ownership": "Private, family-owned",
+  "sells": "Wheel alignment systems, balancers, tyre changers, vehicle inspection and brake equipment for garages and dealers",
+  "headcount_band": "1,001-5,000 (~1,600 est, Revelio 2025)",
+  "revenue": "~USD 500M-1B (est, Levels.fyi); ~USD 735M (est, Bitscale) - no primary source",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 2,
+  "fit_detail": "Sells globally (US, Europe, Asia; 3+ F1 markets); precision-engineering story fits; buyers are garages/dealers (not affluent or senior B2B); automotive category crowded = 0",
+  "up_and_coming": false,
+  "flags": [
+   "revenue est only (aggregators)",
+   "automotive category crowded"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on estimated revenue USD 500M+ (aggregators, undated); reservation: trade-only B2B automotive equipment in a crowded grid category, scale needs confirming",
+  "best_angle": "Precision alignment/measurement story fits F1 engineering; a technical-supplier style deal could lift its dealer/OEM profile",
+  "sources": [
+   "https://www.reveliolabs.com/companies/hunter-engineering/employees",
+   "https://www.levels.fyi/companies/hunter-engineering-company",
+   "https://bitscale.ai/directory/hunter-engineering-company",
+   "https://tyrepress.com/tag/wheel/page/41"
+  ]
+ },
+ {
+  "id": "people-voyage-prive.com",
+  "company": "Voyage Privé",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "voyage-prive.com",
+  "hq": "Aix-en-Provence, France",
+  "ownership": "Private; founder Denis Philipon-led, employee shareholders (2014 plan); no recent ownership data",
+  "sells": "Members-only flash-sale luxury travel (hotels, packages, cruises) in FR, IT, ES, UK, DE, BE, CH",
+  "headcount_band": "1,001-5,000 (~1,500 est; 400+ per FrenchWeb, older)",
+  "revenue": "EUR 500M (2015, FrenchWeb); EUR 600M forecast 2016 - no recent figures",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 3,
+  "fit_detail": "Sells in France, Italy, Spain, UK, Germany (3+ F1 markets); affluent 25-54 travellers; travel (non-airline) not crowded; performance story weak",
+  "up_and_coming": false,
+  "flags": [
+   "revenue figures stale (2015-16); confirm current scale",
+   "resells Monaco GP packages (not a partner)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on revenue EUR 500M+ (2015-16, stale); reservation: no current financials published, scale must be reconfirmed",
+  "best_angle": "European affluent travel audience overlaps F1 fans; GP travel packages already sold on platform could become an official ticketing/hospitality angle",
+  "sources": [
+   "https://www.frenchweb.fr/fw-500-e-commerce-voyage-prive-une-croissance-a-deux-chiffres-et-une-soif-dinternational/242695",
+   "https://www.lechotouristique.com/article/ventes-privees-les-forces-en-presence,85304",
+   "https://www.voyage-prive.com/ppl/voyage-monaco-monaco-monte-carlo-grand-prix-de-formule-a-monaco/35763"
+  ]
+ },
+ {
+  "id": "ornua.com",
+  "company": "Ornua (Kerrygold)",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "ornua.com",
+  "hq": "Dublin, Ireland",
+  "ownership": "Co-operative owned by Irish dairy co-ops (independent)",
+  "sells": "Dairy products; Kerrygold butter/cheese brand sold in 110+ markets; #1 butter in Ireland and Germany, #2 in US",
+  "headcount_band": "1,001-5,000 (~3,000 est)",
+  "revenue": "EUR 3,450.3M (FY2025, Ornua results 15 Apr 2026)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 2,
+  "fit_detail": "Sells in US, Germany, UK and more (3+ F1 markets); category not crowded; mass-grocery audience and dairy story do not map to performance",
+  "up_and_coming": false,
+  "flags": [
+   "sponsors horse racing (Kerrygold Irish Oaks)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes all filters (revenue EUR 3.45B FY2025); reservation: dairy/FMCG brand with weak performance-technology story",
+  "best_angle": "Kerrygold just passed USD 1B US retail sales (2025) - F1's US growth could support its push to #1 US butter",
+  "sources": [
+   "https://www.ornua.com/ornua-publishes-full-year-results-for-2025/",
+   "https://www.dairyindustries.com/news/50424/profits-up-for-ornua-as-group-turnover-exceeds-e3-5-billion/",
+   "https://sportforbusiness.com/bringing-traditions-together-at-the-curragh/"
+  ]
+ },
+ {
+  "id": "medela.com",
+  "company": "Medela",
+  "sector_tab": "X Medtech",
+  "domain": "medela.com",
+  "hq": "Baar, Switzerland",
+  "ownership": "Private, family-owned (Larsson family; Michael Larsson chairman)",
+  "sells": "Breast pumps and breastfeeding products; hospital suction/airway and wound-care devices",
+  "headcount_band": "1,001-5,000 (~1,500-1,900, 2025)",
+  "revenue": "CHF 577M (prior year, apotheke-adhoc, undated); ~CHF 600M (est, aggregator)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 2,
+  "fit_detail": "Sells worldwide (3+ F1 markets); category not crowded; audience is new parents/hospitals, story weakly maps to performance/technology",
+  "up_and_coming": false,
+  "flags": [
+   "revenue undated/est",
+   "small layoffs Zug Apr 2025 (not distress)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes revenue route (CHF ~577-600M, est) and filters; reservation: parenting/clinical audience gives a weak F1 story",
+  "best_angle": "",
+  "sources": [
+   "https://www.apotheke-adhoc.de/nachrichten/detail/markt/medela-weisses-gold-muttermilch/",
+   "https://www.wirtschaftsforum.de/portraits/medela-medizintechnik-gmbh-co-handels-kg/klare-position-muttermilch-im-mittelpunkt",
+   "https://www.reveliolabs.com/companies/medela/employees",
+   "https://kildare.luzernerzeitung.ch/wirtschaft/baar-das-geschaeft-mit-muttermilchpumpen-harzt-medela-streicht-stellen-in-zug-ld.2092445"
+  ]
+ },
+ {
+  "id": "fotile.com",
+  "company": "FOTILE",
+  "sector_tab": "49 Home & Living",
+  "domain": "fotile.com",
+  "hq": "Ningbo, China",
+  "ownership": "Private, founder-family owned (Mao family; chairman Mao Zhongqun)",
+  "sells": "Premium kitchen appliances (range hoods, cooktops, dishwashers, ovens) in China and 30+ overseas markets",
+  "headcount_band": "10,001+ (~20,000 est)",
+  "revenue": "CNY 17B+ (FY2025, chairman via press; ~USD 2.4B est); CNY 17.63B (2023)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 3,
+  "fit_detail": "Sells in China, US, Canada, Australia, SE Asia (3+ F1 markets); affluent homeowner audience; innovation/technology story; appliances not crowded on grid",
+  "up_and_coming": true,
+  "flags": [
+   "market expansion: China -> North America/Australia/SE Asia",
+   "China HQ - not found on UFLPA/Entity List/1260H; run group screening before outreach"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes all filters (revenue CNY 17B+ FY2025); fit 3 with overseas premium-brand expansion motive",
+  "best_angle": "Premium Chinese brand pushing into North America and Australia; F1 global reach (incl. Chinese GP) suits a technology-led brand building abroad",
+  "sources": [
+   "https://www.jiemian.com/article/13937859.html",
+   "https://m.gelonghui.com/p/3679921",
+   "https://www.barchart.com/story/news/34738834/chinese-dishwasher-gains-international-spotlight-with-nextgen-innovation",
+   "https://ningbo.chinadaily.com.cn/2016-12/09/c_63540.htm"
+  ]
+ },
+ {
+  "id": "radancy.com",
+  "company": "Radancy",
+  "sector_tab": "20 Staffing & Talent",
+  "domain": "radancy.com",
+  "hq": "New York, NY, United States",
+  "ownership": "New Mountain Capital (PE, majority since ~2022); Gemspring Capital minority",
+  "sells": "Talent Acquisition Cloud: recruitment marketing, career sites, programmatic job ads, AI interviewing for enterprise employers",
+  "headcount_band": "1,001-5,000 (est)",
+  "revenue": "~USD 100-200M (est, Similarweb); ~USD 144M (est, Clodura Nov 2025); estimates vary USD 46M-1B",
+  "valuation": "Undisclosed (New Mountain deal)",
+  "latest_raise": "",
+  "fit_score": 2,
+  "fit_detail": "Sells in US, UK, EU, APAC (3+ F1 markets); senior HR buyers; story weak; category not crowded",
+  "up_and_coming": false,
+  "flags": [
+   "revenue unverified; estimates conflict"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Hard filter 1 fail: scale not verified - only conflicting aggregator revenue estimates (~USD 100-200M), no valuation or priced USD 100M+ round",
+  "best_angle": "",
+  "sources": [
+   "https://www.similarweb.com/company/radancy.com",
+   "https://www.clodura.ai/directory/company/radancy",
+   "https://getlatka.com/companies/radancy",
+   "https://www.appsruntheworld.com/cloud-top-500-applications-vendors/radancy-formerly-tmp-worldwide"
+  ]
+ },
+ {
+  "id": "deoleo.com",
+  "company": "Deoleo",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "deoleo.com",
+  "hq": "Madrid, Spain",
+  "ownership": "Listed (BME: OLE); CVC Capital Partners 57%, Aceites del Sur 5.1% (Mar 2026); Dcoop EUR 470M bid for CVC stake reported Aug 2026",
+  "sells": "Olive and seed oils: Bertolli, Carapelli, Carbonell, Koipe, Hojiblanca brands sold in US, Italy, Spain and 70+ countries",
+  "headcount_band": "501-1,000 (~650-700 est)",
+  "revenue": "EUR 820.9M net sales (FY2025, -17.6%); EUR 393.2M (H1 2026)",
+  "valuation": "Market cap n/a; Dcoop bid EUR 470M for 57% stake (Aug 2026, reported)",
+  "latest_raise": "",
+  "fit_score": 2,
+  "fit_detail": "Sells in US, Italy, Spain, UK and more (3+ F1 markets); category not crowded; mass grocery audience, no performance story",
+  "up_and_coming": false,
+  "flags": [
+   "lapsed F1 deal: Carbonell sponsored HRT F1 (2011-12) - confirm before outreach",
+   "pending change of control/break-up: Dcoop bid for CVC 57% (Aug 2026), brands may be split",
+   "post-2020 restructuring, thin margins"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes revenue route (EUR 820.9M FY2025); capped Stretch for lapsed Carbonell-HRT F1 deal; ownership in flux with Dcoop bid",
+  "best_angle": "",
+  "sources": [
+   "https://www.elespanol.com/invertia/20260729/deoleo-multiplica-once-beneficios-netos-pese-caer-volumen-negocio-calienta-posible-venta/1003744337720_0.amp.html",
+   "https://institutodeanalistas.com/wp-content/uploads/ole_20260302_1.pdf",
+   "https://just-food.com/?p=52626",
+   "https://thecorner.eu/?p=127380",
+   "https://www.italiaoggi.it/settori/agroalimentare/bf-vuole-comprare-carapelli-mani-spagnole-sul-resto-del-gruppo-deoleo-wsonqr9b"
+  ]
+ }
+]

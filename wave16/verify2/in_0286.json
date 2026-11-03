@@ -1,0 +1,122 @@
+[
+{
+"id": "sweetnight.com",
+"company": "Sweet Night Innovations",
+"sector": "49 Home & Living",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese mattress brand"
+},
+{
+"id": "smercharger.com",
+"company": "Bonace International Group",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese power products exporter"
+},
+{
+"id": "foxsemicon.com",
+"company": "FITI Group",
+"sector": "27 Chip Makers",
+"country": "Taiwan",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Foxconn",
+"triage_note": "real; fit 1; scale mid; Taiwanese semiconductor packaging"
+},
+{
+"id": "sanlang.com",
+"company": "SanLang",
+"sector": "33 Automation & Robotics",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese lubrication brand"
+},
+{
+"id": "axen.com.tr",
+"company": "AXEN",
+"sector": "45 Electronic Parts",
+"country": "Türkiye",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Turkish electronics manufacturer"
+},
+{
+"id": "brightcomgroup.com",
+"company": "Brightcom Group",
+"sector": "22 SaaS",
+"country": "India",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; adtech group India"
+},
+{
+"id": "iwhalecloud.com",
+"company": "Whale Cloud",
+"sector": "25 IT Services & Consulting",
+"country": "China",
+"type": "Partnership",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; telecom software"
+},
+{
+"id": "change.org",
+"company": "Change.org",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "51-200",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; petition platform"
+},
+{
+"id": "",
+"company": "Earls Court & Olympia Group",
+"sector": "29 Tech Media & Gaming",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; London exhibition venues"
+},
+{
+"id": "cbon.co.jp",
+"company": "シーボン",
+"sector": "03 Luxury & Beauty",
+"country": "Japan",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Japanese beauty salons"
+}
+]

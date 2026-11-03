@@ -1,0 +1,122 @@
+[
+{
+"id": "cabero.de",
+"company": "CABERO",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; heat exchangers"
+},
+{
+"id": "pronar.pl",
+"company": "Pronar",
+"sector": "23 Machine Tools",
+"country": "Poland",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Poland",
+"triage_note": "real; fit 1; scale mid; agricultural machinery"
+},
+{
+"id": "sport24.dk",
+"company": "SPORT 24",
+"sector": "53 Consumer & Lifestyle",
+"country": "Denmark",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Danish sports retailer"
+},
+{
+"id": "cwbearing.de",
+"company": "CW Bearing GmbH",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; bearings"
+},
+{
+"id": "irsap.com",
+"company": "Irsap Spa",
+"sector": "23 Machine Tools",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; radiators"
+},
+{
+"id": "wik-group.com",
+"company": "WIK Group",
+"sector": "45 Electronic Parts",
+"country": "Switzerland",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; electronics manufacturing"
+},
+{
+"id": "oez.cz",
+"company": "OEZ s.r.o.",
+"sector": "45 Electronic Parts",
+"country": "Czechia",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; electrical equipment"
+},
+{
+"id": "segmueller.de",
+"company": "Hans Segmüller Polstermöbelfabrik",
+"sector": "49 Home & Living",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; furniture retailer"
+},
+{
+"id": "fpscorp.ca",
+"company": "FPS Food Process Solutions Corporation",
+"sector": "23 Machine Tools",
+"country": "Canada",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; food process systems"
+},
+{
+"id": "sun-garden.eu",
+"company": "Sun Garden",
+"sector": "49 Home & Living",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; garden furniture"
+}
+]

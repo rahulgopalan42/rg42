@@ -1,0 +1,292 @@
+[
+ {
+  "id": "evalueserve.com",
+  "company": "Evalueserve",
+  "sector_tab": "18 Services & Other",
+  "domain": "evalueserve.com",
+  "hq": "Zug, Switzerland (ops centre Gurgaon, India)",
+  "ownership": "Private (management/founders; undisclosed investors)",
+  "sells": "AI-enabled research, analytics and knowledge-process services to corporates, banks and law firms globally",
+  "headcount_band": "5,001-10,000 (~6,000, PitchBook 2025)",
+  "revenue": "Undisclosed; aggregator estimates conflict USD 0.81B (Prospeo) to USD 1.2B (RocketReach) 2025 (est, unverified)",
+  "valuation": "Not disclosed",
+  "latest_raise": "None found in last 36 months",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; senior B2B buyers yes; AI/analytics technology story yes; category (research/KPO) not crowded yes - but no verifiable scale",
+  "up_and_coming": false,
+  "flags": [
+   "scale unverified: no company-reported revenue",
+   "aggregator revenue estimates conflict",
+   "Built In notes slowing hiring/headcount decline (low confidence)"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Fails scale filter: no dated, sourced revenue/valuation/raise; only conflicting aggregator estimates (USD 0.81-1.2B, 2025 est). No F1 tie found.",
+  "best_angle": "",
+  "sources": [
+   "https://pitchbook.com/profiles/company/84787-12",
+   "https://www.rocketreach.co/answers/what-is-the-annual-revenue-of-evalueserve_b5c60a85f42e0c52",
+   "https://prospeo.io/c/evalueserve-revenue",
+   "https://builtin.com/company/evalueserve/faq/stability-growth"
+  ]
+ },
+ {
+  "id": "idc.com",
+  "company": "International Data Corporation (IDC)",
+  "sector_tab": "07 Marketing & Sales",
+  "domain": "idc.com",
+  "hq": "Needham, Massachusetts, USA",
+  "ownership": "International Data Group (IDG), owned by Blackstone PE funds since Nov 2021; IDG sold Foundry to Regent Mar 2025 and now centres on IDC",
+  "sells": "Technology market intelligence, data, research and advisory to tech vendors and IT buyers worldwide",
+  "headcount_band": "1,001-5,000 (~1,200-1,500, est)",
+  "revenue": "~USD 442M (ZoomInfo, est, unverified)",
+  "valuation": "IDG EV USD 1.3B at Blackstone acquisition (Nov 2021, incl. Foundry since sold)",
+  "latest_raise": "None (PE-owned)",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; senior B2B tech buyers yes; data/technology story yes; category market research not crowded but brand is B2B-only (fit counted 3 for weak consumer reach)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "scale evidence weak: revenue est only; IDG EV dated 2021",
+   "PE-owned (Blackstone) - possible exit/sale"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on estimated revenue ~USD 442M (150-500M route, capped Stretch) plus 2021 IDG EV USD 1.3B; no F1 tie found for IDC, IDG or Blackstone-controlled brand; B2B-only marketing motive.",
+  "best_angle": "IDC refocused as a standalone tech-intelligence brand after the 2025 Foundry sale - F1's tech-partner ecosystem is a natural stage for its 'trusted data on AI' positioning.",
+  "sources": [
+   "https://www.blackstone.com/news/press/blackstone-completes-acquisition-of-international-data-group-a-leading-market-intelligence-and-data-platform-for-the-technology-industry/",
+   "https://www.idc.com/resource-center/press-releases/idc-enters-a-new-era-of-growth-and-innovation-following-foundry-sale/",
+   "https://www.zoominfo.com/c/international-data-corporation/18678098",
+   "https://en.wikipedia.org/wiki/International_Data_Corporation"
+  ]
+ },
+ {
+  "id": "trigo-group.com",
+  "company": "TRIGO Group",
+  "sector_tab": "54 TIC",
+  "domain": "trigo-group.com",
+  "hq": "Paris, France",
+  "ownership": "PE: Ardian selling majority to Montyon Capital (announced Apr 2026, closing subject to regulatory approval; management buy-in)",
+  "sells": "Operational quality management, inspection and quality engineering for automotive, aerospace and transport manufacturers worldwide",
+  "headcount_band": "10,001+ (12,000+, Ardian Apr 2026)",
+  "revenue": "~EUR 500M (CFNews, est, date unclear); screen cited ~EUR 530M FY2024 (est)",
+  "valuation": "Not disclosed (Montyon deal terms undisclosed, Apr 2026)",
+  "latest_raise": "Change of control to Montyon Capital (Apr 2026, terms undisclosed)",
+  "fit_score": 4,
+  "fit_detail": "3+ F1 markets (Europe, Americas, Asia) yes; senior B2B manufacturing buyers yes; quality/precision story yes; TIC category not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "revenue est ~EUR 500M - near threshold, verify",
+   "ownership change pending: Ardian -> Montyon Capital (2026)",
+   "B2B only; weak brand-marketing history"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on est revenue ~EUR 500M (~USD 540M) and 12,000 staff; no F1 tie found; reservation: B2B-only with ownership transition under way and revenue near threshold.",
+  "best_angle": "New owner Montyon Capital (2026) may want a brand reset - F1's precision/quality narrative mirrors TRIGO's automotive and aerospace quality pitch.",
+  "sources": [
+   "https://www.lw.com/en/news/2026/04/latham-advises-ardian-on-sale-of-its-stake-in-trigo",
+   "https://www.proskauer.com/release/proskauer-advises-financing-sources-on-montyon-capitals-acquisition-of-trigo",
+   "https://www.rwbaird.com/transactions/investment-banking/dealcard/6700/",
+   "https://www.cfnews.net/L-actualite/Build-up/Nouvelle-prise-de-controle-pour-Trigo-514720",
+   "https://campaign.trigo-group.com/en/news-and-events/press-relations/trigo-announced-toyotas-official-quality-partner"
+  ]
+ },
+ {
+  "id": "swift.com",
+  "company": "SWIFT",
+  "sector_tab": "01 Banking & Insurance",
+  "domain": "swift.com",
+  "hq": "La Hulpe, Belgium",
+  "ownership": "Member-owned cooperative (owned by member banks)",
+  "sells": "Interbank financial messaging network and related services to 11,000+ financial institutions",
+  "headcount_band": "1,001-5,000 (~4,000, est)",
+  "revenue": "EUR 1.1B FY2024 (Craft, est; SWIFT Annual Review 2024)",
+  "valuation": "n/a (cooperative)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes; senior B2B (bank) buyers yes; technology/global story yes; category banking/financial infrastructure crowded on grid = 0",
+  "up_and_coming": false,
+  "flags": [
+   "member-owned utility, no consumer brand",
+   "banking category crowded on grid"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes hard filters (revenue ~EUR 1.1B 2024 est; no F1 tie found), but a bank-owned B2B utility with no brand-marketing ambition.",
+  "best_angle": "",
+  "sources": [
+   "https://craft.co/swift-366",
+   "https://www.lobbyregister.bundestag.de/media/3e/c9/638463/swift-annual-review-2024.pdf",
+   "https://www.swift.com/news-events/news/connecting-global-financial-community-our-year-review"
+  ]
+ },
+ {
+  "id": "vialto.com",
+  "company": "Vialto Partners",
+  "sector_tab": "18 Services & Other",
+  "domain": "vialto.com",
+  "hq": "London, United Kingdom",
+  "ownership": "Clayton Dubilier & Rice (majority) with HPS Investment Partners (minority, lender) after Feb 2025 recapitalisation",
+  "sells": "Global mobility tax, immigration and expat payroll services to multinationals",
+  "headcount_band": "5,001-10,000 (~6,000+, company 2025)",
+  "revenue": "Undisclosed; ~USD 1B (screen est, unverified)",
+  "valuation": "Not disclosed",
+  "latest_raise": "USD 225M equity in lender-led recapitalisation with ~USD 550-700M debt reduction (Feb 2025)",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; senior HR/tax buyers yes; global-ambition story yes; category not crowded yes (but no performance/tech story counted)",
+  "up_and_coming": false,
+  "flags": [
+   "Feb 2025 recapitalisation with First Lien ad hoc lender group and debt amendments = restructuring",
+   "revenue unverified"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Fails distress filter: Feb 2025 lender-led recapitalisation (first-lien ad hoc group, ~USD 550-700M debt cut, lender HPS took equity); revenue also unverified. No F1 tie found.",
+  "best_angle": "",
+  "sources": [
+   "https://vialtopartners.com/news/vialto-partners-to-accelerate-growth-and-investment-with-equity-capital-investment-from-existing-investors",
+   "https://www.debevoise.com/news/2025/02/debevoise-advised-cdr-in-participating-in-the-225",
+   "https://www.cdr.com/news/cdr-completes-acquisition-of-vialto-partners"
+  ]
+ },
+ {
+  "id": "quality-ai.com",
+  "company": "Qualitest",
+  "sector_tab": "25 IT Services & Consulting",
+  "domain": "quality-ai.com",
+  "hq": "London, United Kingdom",
+  "ownership": "Bridgepoint (PE, majority since 2019)",
+  "sells": "Software testing, AI assurance and quality engineering services to enterprises; rebranded QualityAI June 2026",
+  "headcount_band": "5,001-10,000 (~6,500, PitchBook 2025)",
+  "revenue": "~USD 220M (Bitscale, Mar 2026, est)",
+  "valuation": "~USD 420M at Bridgepoint deal (2019, reported); none recent",
+  "latest_raise": "None in last 36 months",
+  "fit_score": 4,
+  "fit_detail": "3+ F1 markets (UK, US, India, Israel, Europe) yes; senior B2B tech buyers yes; AI/quality-engineering precision story yes; QA category not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue est only",
+   "rebranded Qualitest -> QualityAI (Jun 2026)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes via estimated revenue ~USD 220M (150-500M route, capped Stretch); no F1 tie found for Qualitest/QualityAI or Bridgepoint-controlled brands.",
+  "best_angle": "The June 2026 QualityAI rebrand needs awareness fast - F1's engineering-precision stage suits an 'AI assurance' launch to enterprise tech buyers.",
+  "sources": [
+   "https://pitchbook.com/profiles/company/58848-67",
+   "https://bitscale.ai/directory/qualitest-2",
+   "https://www.accessnewswire.com/newsroom/en/computers-technology-and-internet/qualitest-becomes-qualityai-the-trusted-assurance-and-engineering-1178605",
+   "https://www.qualitestgroup.com/he/news/qualitest-seeks-acquisitions-to-reach-1-billion-revenue-goal/"
+  ]
+ },
+ {
+  "id": "vanoord.com",
+  "company": "Van Oord",
+  "sector_tab": "39 Construction & Field Svc",
+  "domain": "vanoord.com",
+  "hq": "Rotterdam, Netherlands",
+  "ownership": "Private, family-owned (Cobepa minority stake)",
+  "sells": "Dredging, marine infrastructure and offshore wind installation for governments, ports and energy developers in 36 countries",
+  "headcount_band": "5,001-10,000 (~6,300, 2025)",
+  "revenue": "EUR 2.59B (FY2025); EUR 2.44B (FY2024)",
+  "valuation": "Not disclosed",
+  "latest_raise": "n/a",
+  "fit_score": 4,
+  "fit_detail": "3+ F1 markets (NL, UK, US, Middle East, Asia-Pacific) yes; senior B2B/government buyers yes; engineering/global ambition story yes; marine contracting not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "B2B/government buyers, limited brand marketing"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes all filters (EUR 2.59B revenue 2025, ~6,300 staff, net profit EUR 110M, no F1 tie found); reservation: B2B/government buyers with little sponsorship motive.",
+  "best_angle": "Record 2025 profit and the new Boreas wind-installation vessel give Van Oord a Dutch-engineering energy-transition story to tell at Zandvoort-linked hospitality and global races.",
+  "sources": [
+   "https://breakbulk.news/van-oord-net-profit-jumps-156-to-eur-110-million-as-offshore-energy-surge-offsets-dredging-dip/",
+   "https://dredgewire.com/van-oords-profits-more-than-doubled-in-strong-operational-year-ebitda-up-over-100-dredging-revenues-declined/",
+   "https://cobepapublications.h5mag.com/cobepa_annual_report_2025/van_oord",
+   "https://en.wikipedia.org/wiki/Van_Oord"
+  ]
+ },
+ {
+  "id": "groupe.schmidt",
+  "company": "Schmidt Groupe",
+  "sector_tab": "49 Home & Living",
+  "domain": "groupe.schmidt",
+  "hq": "Lièpvre, Alsace, France",
+  "ownership": "Private, family-owned (Leitzgen family)",
+  "sells": "Fitted kitchens and home storage via Schmidt and Cuisinella franchise stores (920+ stores, ~20-23 countries)",
+  "headcount_band": "1,001-5,000 (~1,900, 2025)",
+  "revenue": "EUR 585M group (2025), ~EUR 1.6B retail sales; EUR 594M (2024)",
+  "valuation": "Not disclosed",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets (France, Spain, Germany, Italy, UK, Belgium) yes; affluent 25-54 homeowners yes; precision/industrial-technology story partial (not counted); kitchens not crowded yes",
+  "up_and_coming": true,
+  "flags": [
+   "revenue declining since 2022 (EUR 670M)",
+   "market expansion: France -> Spain/international (target 20% international by 2030)",
+   "revenue EUR 585M only ~USD 650M - near threshold"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes (EUR 585M revenue 2025, ~1,900 staff, no F1 tie found); reservation: mostly French/European franchise brand with declining group revenue.",
+  "best_angle": "Push to 20% international sales by 2030 (Spain double-digit growth) needs pan-European brand awareness - a Spanish or European GP activation fits.",
+  "sources": [
+   "https://www.republikgroup.com/articles/d6e13109-b6b2-f111-a6a7-6045bd9f5987/Schmidt%20Groupe%20acc%C3%A9l%C3%A8re%20malgr%C3%A9%20un%20march%C3%A9%20de%20l%E2%80%99habitat%20sous%20pression",
+   "https://www.lejournaldesentreprises.com/entreprise/schmidt-groupe",
+   "https://www.observatoiredelafranchise.fr/indiscretions-actualite/CUISINELLA-cuisinella-schmidt-groupe-celebre-15-ans-de-partenariat-avec-sos-villages-denfants-80446.htm"
+  ]
+ },
+ {
+  "id": "doehler.com",
+  "company": "Doehler Group",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "doehler.com",
+  "hq": "Darmstadt, Germany",
+  "ownership": "Private, family-owned (Döhler family)",
+  "sells": "Natural ingredients, flavours and ingredient systems for food and beverage manufacturers worldwide",
+  "headcount_band": "5,001-10,000 (9,500+, company)",
+  "revenue": "~EUR 1B+ (2021, Businesscoot); USD 2.5-4B 2025 (aggregators, est)",
+  "valuation": "Not disclosed",
+  "latest_raise": "n/a (acquiring Treatt plc for ~GBP 183M, 2026)",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; senior B2B F&B buyers yes; science/innovation story partial (not counted); ingredients category not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "revenue est only (no published group accounts found)",
+   "B2B ingredient supplier, weak consumer motive"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on est revenue EUR 1B+ and 9,500 staff; no F1 tie found; reservation: B2B ingredients supplier with weak sponsorship motive.",
+  "best_angle": "The Treatt acquisition widens Döhler's global flavour footprint - F1 hospitality could court beverage-brand buyers who already sponsor the sport.",
+  "sources": [
+   "https://www.businesscoot.com/en/company/dohler",
+   "https://www.zeliq.com/company/germany/manufacturing/food-and-beverage-manufacturing/dohlergroup",
+   "https://rocketreach.co/answers/what-is-the-annual-revenue-of-dohlergroup_b5c795dbf42e0d7b",
+   "https://www.law360.co.uk/amp/articles/2490013"
+  ]
+ },
+ {
+  "id": "mane.com",
+  "company": "MANE",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "mane.com",
+  "hq": "Le Bar-sur-Loup (Grasse), France",
+  "ownership": "Private, family-owned (Mane family)",
+  "sells": "Fragrances and flavours for consumer-goods, beauty and food brands in 40 countries",
+  "headcount_band": "5,001-10,000 (8,000+, 2025)",
+  "revenue": "EUR 2.012B (FY2025, +6.5% LFL)",
+  "valuation": "Not disclosed",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; senior B2B brand-owner buyers yes; craft/science story partial (not counted); fragrance/flavour category not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "B2B ingredient house, weak consumer motive"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes (EUR 2.012B revenue 2025, 8,000+ staff, no F1 tie found); reservation: B2B supplier to brands with limited marketing motive.",
+  "best_angle": "Crossing EUR 2B in 2025 as a family-owned Grasse house, MANE could use F1's luxury-heavy partner roster for client hospitality with beauty and FMCG buyers.",
+  "sources": [
+   "https://www.premiumbeautynews.com/en/mane-surpasses-eur-2-billion-in,27464",
+   "https://en.wikipedia.org/wiki/Mane_SA",
+   "https://www.premiumbeautynews.com/fr/mane-passe-la-barre-des-2,27463"
+  ]
+ }
+]

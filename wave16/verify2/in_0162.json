@@ -1,0 +1,122 @@
+[
+{
+"id": "chpt.com",
+"company": "中華精測 Chunghwa Precision Test",
+"sector": "27 Chip Makers",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; probe cards"
+},
+{
+"id": "althoffhotels.com",
+"company": "Althoff Hotels",
+"sector": "16 Travel & Hospitality",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; German luxury hotels"
+},
+{
+"id": "gulfair.com",
+"company": "Gulf Air",
+"sector": "19 Gulf Sovereign & Tourism",
+"country": "Bahrain",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Bahrain national airline"
+},
+{
+"id": "salams.com",
+"company": "Salam Studio and Stores",
+"sector": "X06 Retail & E-commerce",
+"country": "Qatar",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Salam International",
+"triage_note": "real; fit 2; scale mid; Qatar luxury retail"
+},
+{
+"id": "kutahyaporselen.com.tr",
+"company": "Kütahya Porselen Sanayi A.S.",
+"sector": "X06 Retail & E-commerce",
+"country": "Türkiye",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Turkish porcelain exporter"
+},
+{
+"id": "dominant-semi.com",
+"company": "Dominant Opto Technologies Sdn Bhd",
+"sector": "27 Chip Makers",
+"country": "Malaysia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; LED manufacturer"
+},
+{
+"id": "kyland.com",
+"company": "Kyland",
+"sector": "33 Automation & Robotics",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; industrial networking"
+},
+{
+"id": "titanwci.com",
+"company": "Titan Wealth CI",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "Guernsey",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; wealth management group"
+},
+{
+"id": "cyientdlm.com",
+"company": "Cyient DLM Limited",
+"sector": "45 Electronic Parts",
+"country": "India",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Cyient",
+"triage_note": "real; fit 2; scale mid; electronics manufacturing"
+},
+{
+"id": "joop.com",
+"company": "JOOP!",
+"sector": "53 Consumer & Lifestyle",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Holy Fashion Group",
+"triage_note": "real; fit 2; scale mid; German lifestyle brand"
+}
+]

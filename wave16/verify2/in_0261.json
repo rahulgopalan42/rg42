@@ -1,0 +1,122 @@
+[
+{
+"id": "shemar.us",
+"company": "SHEMAR",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; electronics group China"
+},
+{
+"id": "ventivehospitality.com",
+"company": "Ventive Hospitality Ltd",
+"sector": "16 Travel & Hospitality",
+"country": "India",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Panchshil Realty",
+"triage_note": "real; fit 1; scale mid; Indian hotel operator"
+},
+{
+"id": "guocoland.com.sg",
+"company": "GuocoLand Group",
+"sector": "X02 Real Estate & Building Products",
+"country": "Singapore",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Guoco Group",
+"triage_note": "real; fit 1; scale mid; Singapore developer"
+},
+{
+"id": "lindnerhotelgroup.com",
+"company": "Lindner Hotel Group",
+"sector": "16 Travel & Hospitality",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; German hotel group"
+},
+{
+"id": "arabella.com",
+"company": "Arabella Hospitality SE",
+"sector": "16 Travel & Hospitality",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Schörghuber Group - a Bavarian family-owned company which",
+"triage_note": "real; fit 1; scale mid; hotel group Germany"
+},
+{
+"id": "ichia.com",
+"company": "Ichia Technologies, INC.",
+"sector": "45 Electronic Parts",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Taiwanese electronics maker"
+},
+{
+"id": "inoxwind.com",
+"company": "Inox Wind Ltd.",
+"sector": "27 Chip Makers",
+"country": "India",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Inox Group",
+"triage_note": "real; fit 1; scale mid; Indian wind turbines"
+},
+{
+"id": "",
+"company": "ISMT Limited",
+"sector": "23 Machine Tools",
+"country": "India",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Indian steel tubes"
+},
+{
+"id": "seri-industrial.it",
+"company": "SERI Industrial Spa",
+"sector": "45 Electronic Parts",
+"country": "Italy",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Italian battery maker"
+},
+{
+"id": "achilles-semi.com",
+"company": "Achilles corporation [Semiconductor transfer and handling solution]",
+"sector": "27 Chip Makers",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Japanese materials maker"
+}
+]

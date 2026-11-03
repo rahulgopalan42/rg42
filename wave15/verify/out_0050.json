@@ -1,0 +1,287 @@
+[
+ {
+  "id": "hero-group.ch",
+  "company": "Hero",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "hero-group.ch",
+  "hq": "Lenzburg, Switzerland",
+  "ownership": "Private; Oetker family (Dr. Arend Oetker) full ownership since 2003 - separate from Dr. Oetker group",
+  "sells": "Packaged foods: jams/spreads, Corny cereal bars, baby food (Semper, Organix), snacks; Europe and US",
+  "headcount_band": "1,001-5,000 (~4,000, company 2025)",
+  "revenue": "Net sales CHF 1,187M (FY2025, +2.2% organic) ~ USD 1.4B",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets (UK, Germany, Spain, Netherlands, US): yes; affluent 25-54: no (mass grocery); performance story: no (snack bars partial); category not crowded: yes",
+  "up_and_coming": false,
+  "flags": [
+   "weak performance angle"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (CHF 1,187M FY2025 net sales) and all filters; no F1 tie for Hero or Oetker owner; mass grocery brand with weak performance story.",
+  "best_angle": "Corny/healthy-snacking range could own an 'energy for performance' message in key European GP markets.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hero_Group",
+   "https://www.esmmagazine.com/tag/deliciously-ella",
+   "https://www.swissinfo.ch/eng/multinational-companies/hero-is-perceived-as-a-swiss-brand-only-in-switzerland/88603150"
+  ]
+ },
+ {
+  "id": "bimbaylola.com",
+  "company": "BIMBA Y LOLA",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "bimbaylola.com",
+  "hq": "Vigo, Spain",
+  "ownership": "Private, controlled by Dominguez family (Puig minority reported in screen, not confirmed)",
+  "sells": "Women's fashion and accessories; 321 points of sale in 34 countries, 42% international, 22% online",
+  "headcount_band": "1,001-5,000 (~1,900 est)",
+  "revenue": "~EUR 250M (FY2025 to Feb 2026, +7%) ~ USD 270M; EBITDA EUR 32M",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets (Spain, Mexico, other LatAm/Europe): yes; affluent women 25-54: yes; performance story: no; category not crowded: no (fashion increasingly present, e.g. Gucci at Alpine)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "Puig stake unconfirmed - no F1 tie found for Puig"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on USD 150-500M revenue route (EUR 250M FY2025), capped at Stretch; no F1 tie found.",
+  "best_angle": "Madrid and Barcelona GPs give a Spanish fashion brand a home stage to reach F1's fast-growing young female audience.",
+  "sources": [
+   "https://www.modaes.com/empresas/bimba-y-lola-eleva-ventas-un-7-en-2025-y-rebasa-los-250-millones",
+   "https://fashionunited.es/noticias/empresas/bimba-y-lola-cierra-2025-con-ventas-de-250-millones-de-euros-y-anticipa-un-ano-complejo/2026031048626",
+   "https://fashionunited.es/noticias/empresas/bimba-y-lola-dispara-beneficios-y-gana-8-millones-de-euros-en-2025/2026061049634"
+  ]
+ },
+ {
+  "id": "liujo.com",
+  "company": "Liu Jo",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "liujo.com",
+  "hq": "Carpi, Italy",
+  "ownership": "Private, founder-owned (Marchi family); founder Marco Marchi stepped back, new CEO",
+  "sells": "Women's/men's fashion, accessories, licensed eyewear/fragrance; Italy, Spain (2nd market), Europe, expanding South America/Middle East",
+  "headcount_band": "1,001-5,000 (~2,300 2025, Revelio est)",
+  "revenue": "EUR 490M (2022, Modaes); EUR ~489-500M+ (2024, secondary reports) ~ USD 530M",
+  "valuation": "n/a (private)",
+  "latest_raise": "EUR 15M state-backed loan (2020, debt)",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets (Italy, Spain, Germany, Middle East): yes; affluent women 25-54: yes; performance story: no; category not crowded: yes (fashion not a crowded grid category)",
+  "up_and_coming": false,
+  "flags": [
+   "2024 revenue from secondary sources (est)",
+   "sports sponsor history: Bologna FC shirt, volleyball"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes scale (~EUR 490-500M revenue 2022-24, ~USD 530M) and all filters; no F1 tie found; fit 3 with proven sports-sponsorship marketing motive.",
+  "best_angle": "Proven sports sponsor (Bologna FC) aiming for EUR 500M and Middle East growth - Monza/Imola heritage plus Gulf GPs fit the push.",
+  "sources": [
+   "https://www.modaes.com/empresa/liu-jo-pone-rumbo-a-35-tiendas-en-espana-tras-convertirlo-en-su-segundo-mercado-exterior",
+   "https://www.reveliolabs.com/companies/liu-jo/employees",
+   "https://www.bolognafc.it/en/liu-jo-named-new-main-sponsor-for-the-2018-19-campaign/",
+   "https://pt.linkedin.com/in/david-mendes-74070a84"
+  ]
+ },
+ {
+  "id": "gruppogranarolo.it",
+  "company": "Granarolo S.p.A.",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "gruppogranarolo.it",
+  "hq": "Bologna, Italy",
+  "ownership": "Granlatte farmer cooperative ~77% (2021); minority investors",
+  "sells": "Milk, cheese, yogurt; Italy plus subsidiaries in UK, France, etc.; ~40% revenue abroad",
+  "headcount_band": "1,001-5,000 (~2,500 est)",
+  "revenue": "EUR 1.8B (2025, +5.2%) ~ USD 2B; net profit EUR 5.5M",
+  "valuation": "n/a",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets (Italy, UK, France): yes; affluent 25-54: no; performance story: no; category not crowded: yes",
+  "up_and_coming": false,
+  "flags": [
+   "co-op controlled; thin margins",
+   "marketing mostly domestic"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (EUR 1.8B 2025 revenue) and filters; no F1 tie found; co-op dairy with thin margins and mostly domestic marketing.",
+  "best_angle": "Italian-cheese export push (40% foreign revenue) could use Monza/Imola as an Italian-quality showcase.",
+  "sources": [
+   "https://www.ilrestodelcarlino.it/bologna/cronaca/industria-e-filiera-sono-la-269127a1",
+   "https://en.wikipedia.org/wiki/Granarolo_(company)",
+   "https://www.thenews.coop/tag/granlatte/"
+  ]
+ },
+ {
+  "id": "poltronesofa.com",
+  "company": "Poltronesofa",
+  "sector_tab": "49 Home & Living",
+  "domain": "poltronesofa.com",
+  "hq": "Forli / Reggio Emilia, Italy",
+  "ownership": "Private; Poltronesofa Holding (Renzo Ricci 100%) holds >87%",
+  "sells": "Made-in-Italy sofas and armchairs via own stores in Italy, France, UK, Spain, Belgium, Switzerland and more; heavy TV advertiser",
+  "headcount_band": "1,001-5,000 (~1,400 est)",
+  "revenue": "EUR 801M (2025, -7%, Milano Finanza) ~ USD 900M; operating co EUR 539M (2024)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets (Italy, UK, France, Spain): yes; affluent 25-54 homeowners: yes; performance story: no; category not crowded: yes - scored 2 conservatively as mid-market",
+  "up_and_coming": false,
+  "flags": [
+   "revenue down 7% in 2025",
+   "minority shareholder exit dispute (Milano Finanza)",
+   "GBP 57M UK store investment"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes scale (EUR 801M 2025 revenue) and filters; no F1 tie found; heavy pan-European TV advertiser gives credible marketing motive.",
+  "best_angle": "Brand built on mass TV reach and 'Italian craftsmanship' - Monza/Imola plus British GP to back its UK expansion.",
+  "sources": [
+   "https://www.milanofinanza.it/news/poltronesofa-scontro-sul-recesso-2716916",
+   "https://topaziende.quotidiano.net/?p=104214",
+   "https://www.interiordaily.com/article/9747065/poltronesofa-transforms-uk-stores-with-ps57m-investment-push/"
+  ]
+ },
+ {
+  "id": "galanz.com",
+  "company": "Galanz",
+  "sector_tab": "49 Home & Living",
+  "domain": "galanz.com",
+  "hq": "Foshan, China",
+  "ownership": "Private, Liang family-controlled",
+  "sells": "Microwaves, small and major appliances under Galanz and OEM; US, Europe, Asia",
+  "headcount_band": "10,001+ (~46,000 2013, LBS case; est)",
+  "revenue": "RMB 46B (~USD 7.3B, 2013, LBS case); current unpublished (est well above USD 500M)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets (US, Europe, Japan, China): yes; affluent 25-54: no (value appliances); performance story: no; category not crowded: yes",
+  "up_and_coming": false,
+  "flags": [
+   "revenue figure dated 2013",
+   "China HQ - not found on UFLPA/Entity List/1260H"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (RMB 46B revenue, 2013 - dated) and filters; no F1 tie or US list hit found; value positioning is a reservation.",
+  "best_angle": "Chinese GP return and US growth give a brand-building route beyond OEM microwaves.",
+  "sources": [
+   "https://london.edu/faculty-and-research/academic-research/g/galanz-from-price-killer-to-consumer-brand-innovator-c430",
+   "https://global.chinadaily.com.cn/a/202103/31/WS6063c6e0a31024ad0bab2a4f.html",
+   "https://www.z2data.com/guides/uflpa-entity-list-expansion-2026/"
+  ]
+ },
+ {
+  "id": "bhvr.com",
+  "company": "Behaviour Interactive",
+  "sector_tab": "29 Tech Media & Gaming",
+  "domain": "bhvr.com",
+  "hq": "Montreal, Canada",
+  "ownership": "Private; co-founder/CEO Remi Racine and partners",
+  "sells": "Video games (Dead by Daylight, 60M+ copies) and game-development services; global",
+  "headcount_band": "1,001-5,000 (~1,300 2024 before ~140 layoffs)",
+  "revenue": "CAD 225M (2021, Wikipedia) ~ USD 180M; Dead by Daylight revenue +50% in last 12 months (Jun 2026)",
+  "valuation": "n/a",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets: yes (global gamers); affluent 25-54: no (gamers 18-34); performance story: no (horror IP); category not crowded: yes",
+  "up_and_coming": true,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue figure dated 2021",
+   "2024 layoffs (~140 roles)",
+   "DbD revenue +50% YoY (2026)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on USD 150-500M revenue route (CAD 225M 2021, dated), capped at Stretch; no F1 tie found; horror IP fits F1 poorly.",
+  "best_angle": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Behaviour_Interactive",
+   "https://www.pocketgamer.biz/news/84129/behaviour-interactive-laying-off-approximately-7-of-workforce-with-new-clear-ambitions-focus/",
+   "https://playday.one/2026/06/12/dead-by-daylight-celebrates-10-years-of-scares-and-sacrifices/"
+  ]
+ },
+ {
+  "id": "hk.co",
+  "company": "Hari Krishna Exports (HK Group)",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "hk.co",
+  "hq": "Surat / Mumbai, India",
+  "ownership": "Private, Dholakia family",
+  "sells": "Polished diamonds (B2B, global trade) and Kisna diamond jewellery (domestic India, 6,000+ retailers)",
+  "headcount_band": "5,001-10,000 (9,000+, company 2024)",
+  "revenue": "~USD 2.1B (Wikipedia, undated; est); registered entity INR 1,380 cr (FY2024, filing)",
+  "valuation": "n/a",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets (US, Belgium, HK/China, UAE via diamond trade): yes; affluent buyers: partial - no; precision (diamond cutting) story: yes; category not crowded: no counted (luxury/jewellery adjacent to watches) - 2",
+  "up_and_coming": false,
+  "flags": [
+   "revenue figure conflicting (est)",
+   "consumer brand Kisna is domestic India - no Indian GP"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes scale (~USD 2.1B est) and filters, no F1 tie found; B2B diamond trade plus a domestic-only consumer brand gives little F1 brand motive.",
+  "best_angle": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hari_Krishna_Exports",
+   "https://www.infyner.com/company/hk/U36912MH2012PTC227014",
+   "https://www.hrkatha.com/news/kisna-plans-major-hiring-push-to-support-retail-growth/"
+  ]
+ },
+ {
+  "id": "mtxg.ai",
+  "company": "MTX Group",
+  "sector_tab": "25 IT Services & Consulting",
+  "domain": "mtxg.ai",
+  "hq": "Frisco, Texas, United States",
+  "ownership": "Private, founder-led (Nagaraja Srivatsan Somasundaram)",
+  "sells": "Salesforce/Google Cloud/AI consulting to public-sector and enterprise clients, US/India/global",
+  "headcount_band": "1,001-5,000 (~1,500, levels.fyi est)",
+  "revenue": "USD 250-500M (levels.fyi est, undated); USD 245M (ZoomInfo est) - unpublished",
+  "valuation": "n/a",
+  "latest_raise": "n/a",
+  "fit_score": 1,
+  "fit_detail": "3+ F1 markets: no (mostly US public sector); senior B2B buyers: yes; tech story: no specific; category not crowded: no (IT services/cloud crowded)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue estimates only",
+   "headcount fell 2025 (screen)"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes on estimated USD 150-500M revenue route; no F1 tie found; US public-sector IT consultancy in a crowded category, fit 1.",
+  "best_angle": "",
+  "sources": [
+   "https://www.levels.fyi/companies/mtx-group",
+   "https://dallasnews.com/business/real-estate/2020/12/08/frisco-tech-firm-eyes-move-to-new-office",
+   "https://smu.edu/cox/at-smu-cox/cox-news/dallas-100"
+  ]
+ },
+ {
+  "id": "tiendanube.com",
+  "company": "Tiendanube / Nuvemshop",
+  "sector_tab": "22 SaaS",
+  "domain": "tiendanube.com",
+  "hq": "Buenos Aires, Argentina / Sao Paulo, Brazil",
+  "ownership": "Private, VC-backed (Insight Partners, Tiger Global, Kaszek)",
+  "sells": "E-commerce platform for SMB merchants in Brazil, Argentina, Mexico (170k+ merchants)",
+  "headcount_band": "1,001-5,000 (~1,500, PitchBook)",
+  "revenue": "~USD 126M (Latka, unverified est)",
+  "valuation": "USD 3.1B (Series E, Aug 2021)",
+  "latest_raise": "USD 500M Series E (Aug 2021) - outside 36 months",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets: no (Brazil, Mexico; Argentina has no GP); senior B2B buyers: no (SMBs); technology/global ambition story: yes; category not crowded: yes (but Mercado Libre at Alpine)",
+  "up_and_coming": false,
+  "flags": [
+   "valuation dated 2021",
+   "Mercado Libre (rival) sponsors Alpine/Colapinto"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on USD 3.1B valuation (Aug 2021, dated) and filters; no F1 tie found; stale valuation and SMB audience are reservations.",
+  "best_angle": "Colapinto's Argentine F1 fandom and the Sao Paulo/Mexico GPs offer a challenger answer to Mercado Libre's Alpine deal.",
+  "sources": [
+   "https://neofeed.com.br/blog/home/nuvemshop-recebe-us-500-milhoes-vale-us-31-bi-e-torna-se-a-6a-startup-mais-valiosa-da-al/",
+   "https://latamlist.com/e-commerce-platform-nuvemshop-raises-500m-series-e/",
+   "https://pitchbook.com/profiles/company/90805-78",
+   "https://www.lanacion.com.ar/economia/negocios/formula-1-mercado-libre-sera-sponsor-de-alpine-el-nuevo-equipo-de-franco-colapinto-nid18022025/"
+  ]
+ }
+]

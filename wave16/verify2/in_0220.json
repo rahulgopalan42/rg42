@@ -1,0 +1,122 @@
+[
+{
+"id": "konar.ru",
+"company": "KONAR Industrial Group",
+"sector": "23 Machine Tools",
+"country": "India",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; industrial group"
+},
+{
+"id": "twktec.com",
+"company": "KTEC GLOBAL",
+"sector": "45 Electronic Parts",
+"country": "台灣",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; power supplies"
+},
+{
+"id": "dovida.com",
+"company": "Dovida Group",
+"sector": "42 Health & Wellness",
+"country": "Switzerland",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Swiss health group"
+},
+{
+"id": "villagroupresorts.com.mx",
+"company": "Reclutamiento The Villa Group Los Cabos",
+"sector": "16 Travel & Hospitality",
+"country": "Mexico",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Mexican resort group"
+},
+{
+"id": "toptoyglobal.com",
+"company": "TOP TOY GLOBAL",
+"sector": "X06 Retail & E-commerce",
+"country": "China",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Miniso",
+"triage_note": "real; fit 1; scale mid; designer toy retailer"
+},
+{
+"id": "bak.com.cn",
+"company": "深圳市比克电池有限公司",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; battery maker"
+},
+{
+"id": "kido.com",
+"company": "Kido Industrial Co.,ltd 기도산업",
+"sector": "53 Consumer & Lifestyle",
+"country": "South Korea",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; technical outerwear"
+},
+{
+"id": "digitalhearts.com",
+"company": "DIGITAL HEARTS",
+"sector": "25 IT Services & Consulting",
+"country": "Japan",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Japanese digital services"
+},
+{
+"id": "devere.co.uk",
+"company": "De Vere",
+"sector": "16 Travel & Hospitality",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; country estate hotels"
+},
+{
+"id": "pueblobonito.com",
+"company": "Pueblo Bonito Golf and Spa Resorts",
+"sector": "16 Travel & Hospitality",
+"country": "Mexico",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Mexican golf resorts"
+}
+]

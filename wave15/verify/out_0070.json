@@ -1,0 +1,302 @@
+[
+ {
+  "id": "p:karnov",
+  "company": "Karnov Group",
+  "sector_tab": "50 Law Firms & Legal AI",
+  "domain": "karnovgroup.com",
+  "hq": "Stockholm, Sweden",
+  "ownership": "Listed Nasdaq Stockholm Mid Cap (KAR); Greenoaks/Long Path held ~20% and bid SEK 84/sh in May 2024, company remains listed (Feb 2026 report)",
+  "sells": "Legal information, workflow and legal AI tools for lawyers, companies and public sector in Nordics, France, Spain/Portugal",
+  "headcount_band": "1,001-5,000 (~1,100, Feb 2026)",
+  "revenue": "~SEK 2.65B (~USD 280M) FY2025 (est, sum of quarters; Q4 2025 SEK 665M)",
+  "valuation": "Market cap ~SEK 7.5B (~USD 0.8B), 8 Sep 2026",
+  "latest_raise": "",
+  "fit_score": 3,
+  "fit_detail": "Markets: Nordics/France/Spain-Portugal (1); senior legal/B2B buyers (1); story: legal AI is tech but weak performance fit (0); category not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "B2B regional publisher, no sponsorship history"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters via USD 150-500M revenue route, but regional B2B legal-information business with no visible brand ambition",
+  "best_angle": "",
+  "sources": [
+   "https://news.cision.com/karnov-group/r/karnov-group-reports-fourth-quarter-and-full-year-results-2025,c4305677",
+   "https://www.mfn.se/cis/a/karnov-group/karnov-group-reports-second-quarter-2025-61a13d52",
+   "https://www.inderes.se/releases/karnov-group-reports-first-quarter-2025",
+   "https://ca.marketscreener.com/quote/stock/KARNOV-GROUP-AB-57086027/",
+   "https://www.karnovgroup.com/en/statement-by-the-board-of-directors-of-karnov-group-in-relation-to-the-public-offer-from-greenoaks-and-long-path/"
+  ]
+ },
+ {
+  "id": "p:bip",
+  "company": "BIP (Business Integration Partners)",
+  "sector_tab": "25 IT Services & Consulting",
+  "domain": "bip-group.com",
+  "hq": "Milan, Italy",
+  "ownership": "PE-owned: CVC Fund VIII majority since 2021; management/partners minority",
+  "sells": "Management, digital and technology consulting in 14 countries (Italy, UK, Spain, US, Brazil, etc.)",
+  "headcount_band": "5,001-10,000 (~8,200, Sep 2025, est)",
+  "revenue": "EUR 430M (~USD 465M) FY2024 for Business Integration Partners SpA (registry aggregator; group consolidated unpublished, likely higher)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 3,
+  "fit_detail": "Markets: Italy/UK/Spain/US etc. (1); senior B2B buyers (1); story: digital/tech transformation (1); consulting not on crowded list though PwC is F1 consulting partner (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue from registry aggregator, not audited group accounts",
+   "PE-owned (CVC), possible exit horizon",
+   "2023 net loss ~EUR 46M (SpA)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes via USD 150-500M revenue route (capped Stretch); scale figure is entity-level and unaudited",
+  "best_angle": "BIP UK is investing to become a top-10 UK consultancy; F1 hospitality suits senior client entertainment.",
+  "sources": [
+   "https://topaziende.quotidiano.net/lombardia/milano/fatturato-business-integration-partners-s-p-a/",
+   "https://www.cvc.com/media/news/2021/2021-06-01-cvc-fund-viii-to-invest-in-business-integration-partners/",
+   "https://www.reveliolabs.com/companies/business-integration/employees",
+   "https://prnewswire.co.uk/news-releases/why-size-matters-in-consulting-bip-uk-forecasts-exponential-growth-for-2025-302367409.html",
+   "https://www.formula1.com/en/latest/article/formula-1-welcomes-pwc-as-official-consulting-partner.jLK5v2MLA3QKOFtwcHLN8"
+  ]
+ },
+ {
+  "id": "p:dowjonesnews",
+  "company": "Dow Jones / News Corp",
+  "sector_tab": "29 Tech Media & Gaming",
+  "domain": "newscorp.com",
+  "hq": "New York, United States",
+  "ownership": "Listed Nasdaq (NWSA/NWS); Murdoch Family Trust ~40% of votes",
+  "sells": "Dow Jones (WSJ, Barron's, Factiva), news (The Times, The Australian, NY Post), HarperCollins, REA stake; US, UK, Australia",
+  "headcount_band": "10,001+ (~22,000-25,000, 2026)",
+  "revenue": "~USD 8.6-9.0B TTM to Jun 2026 (FY2026; Q4 USD 2.34B)",
+  "valuation": "Market cap ~USD 16B, Aug 2026",
+  "latest_raise": "",
+  "fit_score": 3,
+  "fit_detail": "Markets: US/UK/Australia (1); affluent/senior business readers (1); story: media, weak performance fit (0); category not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "lapsed: former 65%-owned Foxtel/Kayo was F1 broadcast-rights holder in Australia; sold to DAZN Apr 2025 - confirm before outreach",
+   "holds ~6% of DAZN (F1 broadcaster in several markets)",
+   "Dow Jones is a News Corp unit; co-hosted F1-linked summit 2023"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale; capped Stretch for lapsed F1 broadcast tie via former Foxtel subsidiary and DAZN minority stake",
+  "best_angle": "WSJ/Barron's affluent US readership overlaps F1's fast-growing US audience.",
+  "sources": [
+   "https://www.google.com/finance/quote/NWS:NASDAQ",
+   "https://www.fool.com/quote/nasdaq/news-corporation/nwsa/",
+   "https://www.mediaweek.com.au/dazn-completes-acquisition-of-foxtel-in-landmark-deal-with-news-corp",
+   "https://www.businesswire.com/news/home/20250401984813/en"
+  ]
+ },
+ {
+  "id": "p:groupedassault",
+  "company": "Groupe Dassault",
+  "sector_tab": "X Aviation & Aerospace",
+  "domain": "groupedassault.fr",
+  "hq": "Paris, France",
+  "ownership": "Private family holding (Groupe Industriel Marcel Dassault, GIMD); controls Dassault Aviation (67.05% capital / 80.01% votes, Mar 2026) and Dassault Systemes (~40%+ capital, voting control est); ~26% of Thales; Le Figaro",
+  "sells": "Falcon business jets and Rafale (Dassault Aviation), 3D/PLM software (Dassault Systemes), media (Le Figaro), wine, real estate; global",
+  "headcount_band": "10,001+ (~40,000+ across controlled companies, est)",
+  "revenue": "Group consolidated not published; Dassault Aviation ~EUR 6B+ and Dassault Systemes ~EUR 6.2B FY2025 (est)",
+  "valuation": "Controlled listed holdings worth well over USD 1B (Dassault Aviation market cap ~EUR 20B+, 2026, est)",
+  "latest_raise": "",
+  "fit_score": 4,
+  "fit_detail": "Markets: global (1); UHNW jet buyers and senior engineering execs (1); story: aerospace precision/engineering software (1); business aviation/PLM not on crowded list (1)",
+  "up_and_coming": false,
+  "flags": [
+   "holding company: outreach must target Dassault Aviation (Falcon) or Dassault Systemes",
+   "Dassault Systemes CATIA/3DEXPERIENCE used by F1 teams; past F1 software supply - confirm no current team supplier deal",
+   "defence exposure (Rafale)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters; reservation: family holding rather than a marketed brand, plus defence exposure",
+  "best_angle": "Falcon jets already fly F1 drivers; F1's UHNW paddock audience matches upcoming Falcon 10X sales push.",
+  "sources": [
+   "https://www.optionfinance.fr/info-financiere-en-continu/d/2026-03-13-gimd-depasse-les-deux-tiers-du-capital-de-dassault-aviation.html",
+   "https://lessentieldeleco.fr/5152-dassault-aviation-dernier-geant-familial-de-laeronautique/",
+   "https://thepointsguy.com/news/formula-one-ferraris-jets",
+   "https://www.f1technical.net/news/28819"
+  ]
+ },
+ {
+  "id": "p:kapetechnologies",
+  "company": "Kape Technologies",
+  "sector_tab": "14 Cyber + IT",
+  "domain": "kape.com",
+  "hq": "London, United Kingdom",
+  "ownership": "Private: 100% Unikmind Holdings (Teddy Sagi) after 2023 take-private",
+  "sells": "Consumer privacy/security software: ExpressVPN, CyberGhost, Private Internet Access, Intego; global",
+  "headcount_band": "1,001-5,000 (1,000+, 2023)",
+  "revenue": "USD 623.5M FY2022 (last reported); ~USD 700M+ 2025 (est)",
+  "valuation": "GBP 1.25B (~USD 1.6B) take-private valuation, May 2023",
+  "latest_raise": "",
+  "fit_score": 3,
+  "fit_detail": "Markets: global consumer (1); affluent tech-savvy 25-54 (1); story: technology/privacy (1); category cyber crowded (0)",
+  "up_and_coming": false,
+  "flags": [
+   "cyber/VPN category crowded on grid",
+   "financials undisclosed since 2023 take-private",
+   "past adware (Crossrider) reputational history",
+   "ExpressVPN backs IndyCar driver only; VPN affiliate F1-viewing ads, no F1 deal found"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters; reservation: crowded cyber category and opaque post-take-private financials",
+  "best_angle": "ExpressVPN already markets heavily to F1 streaming viewers; an official tie would formalise that audience.",
+  "sources": [
+   "https://www.cbn.com.cy/article/2023/5/9/711630/successful-public-offer-by-teddy-sagi-for-kape-technologies/",
+   "https://www.techradar.com/news/kape-receives-dollar15bn-proposal-to-go-private",
+   "https://www.investegate.co.uk/announcement/rns/kape-technologies--kape/-936m-acquisition-of-expressvpn-354m-placing/6825145",
+   "https://www.androidplanet.nl/deals/formule-1-gratis-kijken-vpn-kape-adv/"
+  ]
+ },
+ {
+  "id": "p:rezolveai",
+  "company": "Rezolve Ai",
+  "sector_tab": "13 AI Agents",
+  "domain": "rezolve.com",
+  "hq": "London, United Kingdom",
+  "ownership": "Listed Nasdaq (RZLV); founder Dan Wagner",
+  "sells": "AI commerce/agentic retail software for retailers and payments; UK, US, Mexico, Brazil, India, etc.",
+  "headcount_band": "501-1,000 (~1,000, 2026, est)",
+  "revenue": "USD 130.8M H1 2026 (vs USD 6.3M H1 2025); FY2025 USD 46.8M; FY2026 guidance ~USD 360M",
+  "valuation": "Market cap ~USD 0.8B (Jun 2026, est)",
+  "latest_raise": "USD 250M registered direct offering, closed 21 Jan 2026",
+  "fit_score": 3,
+  "fit_detail": "Markets: UK/US/LatAm/India (1); senior retail/B2B buyers (1); story: AI technology (1); AI increasingly crowded on grid (0)",
+  "up_and_coming": true,
+  "flags": [
+   "scale via USD 250M priced raise Jan 2026",
+   "H1 2026 net loss ~USD 139.5M, op cash burn USD 96M",
+   "acquisition-driven growth, volatile stock",
+   ">40%/yr growth"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes via USD 100M+ priced raise (Jan 2026); reservation: heavy losses and volatile, acquisition-led revenue",
+  "best_angle": "Hyper-growth AI commerce challenger seeking global brand credibility as revenue scales toward USD 360M.",
+  "sources": [
+   "https://investor.rezolve.com/news-releases/news-release-details/rezolve-ai-delivers-543-h2-growth-raises-2026-revenue-guidance",
+   "https://www.sec.gov/Archives/edgar/data/0001920294/000119312526318288/rzlv-ex99_1.htm",
+   "https://www.webull.com/news/15306541121299456",
+   "https://app.sentisense.ai/stories/rezolve-ai-fy25-gaap-revenue-hits-46.8m-raises-2026-guidance-to-360m-03302026"
+  ]
+ },
+ {
+  "id": "p:oppobbkelectronics",
+  "company": "OPPO / BBK Electronics",
+  "sector_tab": "X Consumer Electronics",
+  "domain": "oppo.com",
+  "hq": "Dongguan, China",
+  "ownership": "Private (founder Tony Chen/management); OnePlus and realme are OPPO group brands (realme reintegrated into OPPO 2026)",
+  "sells": "Smartphones and devices under OPPO, OnePlus, realme; Asia, Europe, LatAm, MEA",
+  "headcount_band": "10,001+ (~40,000, est)",
+  "revenue": "~USD 30B+ (est)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 3,
+  "fit_detail": "Markets: global (1); young/affluent smartphone buyers (1); story: technology (1); consumer electronics not on crowded list but Lenovo/Motorola is F1 global partner (0)",
+  "up_and_coming": false,
+  "flags": [
+   "F1 tie: realme (OPPO group brand) is Aston Martin Aramco F1 Team multi-year licensing partner since May 2025",
+   "lapsed: OnePlus-McLaren partner 2018-21"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Hard filter 4: F1 tie via controlled brand realme (current Aston Martin F1 licensee, 3-year deal from May 2025)",
+  "best_angle": "",
+  "sources": [
+   "https://www.astonmartinf1.com/en-GB/news/announcement/aston-martin-aramco-launches-first-co-branded-phone-with-realme",
+   "https://www.dtnext.in/news/business/realme-announces-3-year-licensing-collaboration-with-aston-martin-aramco-f1-team-834501",
+   "https://mobilemasr.com/en/blogs/oneplus-and-realme-officially-merge-under-oppo",
+   "https://www.businesstoday.in/technology/story/oneplus-and-realme-to-merge-operations-amid-shutdown-claims-528178-2026-04-30",
+   "https://www.gearbrain.com/oneplus-mclaren-6t-partnership-2621626081.html"
+  ]
+ },
+ {
+  "id": "pamesa.com",
+  "company": "Grupo Pamesa",
+  "sector_tab": "21 Materials & Mech Parts",
+  "domain": "pamesa.com",
+  "hq": "Almassora (Castellon), Spain",
+  "ownership": "Private, family-owned (Fernando Roig)",
+  "sells": "Ceramic tiles (67% exported to 162 countries), plus energy division",
+  "headcount_band": "1,001-5,000 (~3,000+, 2025, est)",
+  "revenue": "EUR 1,147M (~USD 1.3B) FY2025; ceramics EUR 926M",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 2,
+  "fit_detail": "Markets: 162 countries (1); trade/mass homeowner buyers, not affluent-focused (0); story: weak performance fit (0); tiles not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "weak performance/technology story",
+   "heavy sports sponsor (Villarreal, Valencia Basket)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters; reservation: weak F1 story for a tile maker despite strong sponsorship culture",
+  "best_angle": "Madrid Grand Prix (from 2026) gives a home-market F1 stage for an export brand with a sponsorship habit.",
+  "sources": [
+   "https://www.eldebate.com/espana/comunidad-valenciana/20260512/grupo-pamesa-supera-1147-millones-facturacion-mantiene-beneficio-101-millones-2025_416817.html",
+   "https://ceramicworldweb.com/en/news/grupo-pamesa-posts-revenue-more-eu114-billion-it-intensifies-its-investment-programme",
+   "https://valenciaplaza.com/valenciaplaza/roigdestacalabuenasaluddelazulejopamesacrea400empleosenloquevadeao"
+  ]
+ },
+ {
+  "id": "airasia.com",
+  "company": "AirAsia (AirAsia Berhad, ex-AirAsia X)",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "airasia.com",
+  "hq": "Sepang, Malaysia",
+  "ownership": "Listed Bursa Malaysia as AirAsia Group Berhad (renamed from AirAsia X, 2 Jul 2026) after acquiring Capital A's airlines Jan 2026; Capital A/Tony Fernandes-linked holders",
+  "sells": "Low-cost airlines across Malaysia, Thailand, Indonesia, Philippines, Cambodia; long-haul to Australia, Japan, China, Middle East",
+  "headcount_band": "10,001+ (~20,000 group, est)",
+  "revenue": "RM 22.2B (~USD 5.0B) FY2025 pro-forma enlarged group; 2026 target RM 25B",
+  "valuation": "Market cap ~RM 3.7-4.2B (~USD 0.9B), Jul 2026",
+  "latest_raise": "",
+  "fit_score": 2,
+  "fit_detail": "Markets: Japan/Singapore/Australia/China etc. (1); budget mass-market flyers (0); story: global ambition (1); airline category crowded (0)",
+  "up_and_coming": false,
+  "flags": [
+   "lapsed: Williams official airline 2007-09 and Team Lotus/Caterham (Fernandes) 2010-14 - confirm before outreach",
+   "airline category crowded",
+   "group restructuring 2026; Capital A PN17 uplift not confirmed",
+   "shares down >30% YTD 2026"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes revenue route; capped Stretch for lapsed F1 ties, plus crowded airline category",
+  "best_angle": "",
+  "sources": [
+   "https://centreforaviation.com/news/capital-a-completes-aviation-business-disposal-to-airasia-x-1345217",
+   "https://www.ch-aviation.com/news/169385",
+   "https://theedgemalaysia.com/node/801265",
+   "https://stockanalysis.com/quote/klse/AAGB/revenue/",
+   "https://www.sportbusiness.com/news/airasia-signs-up-with-formula-1s-att-williams/"
+  ]
+ },
+ {
+  "id": "aubay.com",
+  "company": "Aubay",
+  "sector_tab": "25 IT Services & Consulting",
+  "domain": "aubay.com",
+  "hq": "Boulogne-Billancourt, France",
+  "ownership": "Listed Euronext Paris; founder-led (Christian Aubert family significant holder, est)",
+  "sells": "IT services/digital consulting to banks, insurers, industry in France, Italy, Spain, Portugal, Belgium, Luxembourg, UK",
+  "headcount_band": "5,001-10,000 (9,049, 31 Dec 2025)",
+  "revenue": "EUR 601.6M (~USD 690M) FY2025, +11.4%",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 3,
+  "fit_detail": "Markets: Italy/Spain/Belgium/UK (1); senior B2B buyers (1); story: modest tech fit (0); IT services not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "B2B services, little brand-marketing history"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters but B2B IT services firm with no visible brand ambition",
+  "best_angle": "",
+  "sources": [
+   "https://www.abcbourse.com/marches/aubay-depasse-ses-objectifs-en-2025-avec-un-resultat-net-record_692479",
+   "https://www.optionfinance.fr/info-financiere-en-continu/d/2026-03-18-aubay-vise-une-nouvelle-annee-de-croissance-en-2026.html"
+  ]
+ }
+]

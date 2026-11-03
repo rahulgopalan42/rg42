@@ -1,0 +1,902 @@
+[
+{
+"id": "duos.dk",
+"company": "DUOS",
+"sector": "42 Health & Wellness",
+"country": "Danmark",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Vi er en dansk familieejet velfærdsvirksomhed og bestræber os på at levere den bedst mulige daglige trivsel for borgere. Vi har mere end 25 års erfaring med at hjælpe børn og voksne med funktionsnedsættelser, psykiske og"
+},
+{
+"id": "tgccimmobilier.com",
+"company": "TGCC Immobilier",
+"sector": "X02 Real Estate & Building Products",
+"country": "Morocco",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "TGCC Immobilier conçoit des espaces de vie dans une démarche respectueuse des attentes de chacun, tournée vers l’écoute, le respect des engagements et la qualité sans compromis."
+},
+{
+"id": "jobhome.com.br",
+"company": "JobHome",
+"sector": "25 IT Services & Consulting",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "A JobHome foi criada com o objetivo de trazer mais qualidade para o atendimento do seu cliente.  Através da tecnologia em nuvem, monitoramos nossos operadores full time, tendo assim o controle de todas as ações realizada"
+},
+{
+"id": "channelplay.in",
+"company": "Channelplay Limited",
+"sector": "07 Marketing & Sales",
+"country": "India",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Channelplay is India’s leading tech-enabled channel execution company.  \n  \nOutsourced sales teams, building specific channels, executing amazing visual merchandising, loyalty programs for the channel, going digital, we "
+},
+{
+"id": "ataholding.com.tr",
+"company": "Ata Holding",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "Türkiye",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Ata Group traces its roots back to Seri İnşaat, founded in 1969, which successfully completed the Atatürk Dam and Hydroelectric Power Plant, one of Turkey's largest projects under the The Southeastern Anatolia Project (G"
+},
+{
+"id": "pratibhasyntex.com",
+"company": "Pratibha Syntex Ltd.",
+"sector": "53 Consumer & Lifestyle",
+"country": "India",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "A vertically-integrated, sustainability-oriented manufacturer of knitted textile products since 1997,\nPratibha aims at creating relationships across the value chain. We connect 35,000 farmers, 10,000 employees and global"
+},
+{
+"id": "raspl.com",
+"company": "RENOVISION AUTOMATION SERVICES PVT.LTD",
+"sector": "33 Automation & Robotics",
+"country": "India",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Renovision Automation Services Pvt. Ltd. (RASPL) is an established IT company transforming Talent and Technology proactively towards innovation. It is a leading IT & Outsourced business services provider which was founde"
+},
+{
+"id": "oberoigroup.com",
+"company": "The Oberoi Centre of Learning and Development",
+"sector": "16 Travel & Hospitality",
+"country": "India",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Nearly Sixty years. Thousands of leaders. One unwavering commitment to excellence. \nThe Oberoi Centre of Learning and Development (OCLD) has been shaping the future of luxury hospitality since 1966.\n\nFrom our renowned Da"
+},
+{
+"id": "orpea.es",
+"company": "ORPEA Ibérica",
+"sector": "42 Health & Wellness",
+"country": "Spain",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Grupo Sanyres es un referente en el cuidado y confort de los mayores en España. El trato personalizado a cada residente, la asistencia especializada y nuestro constante esfuerzo por aumentar su calidad de vida han marcad"
+},
+{
+"id": "lotuss.com.my",
+"company": "Lotus's Malaysia",
+"sector": "X06 Retail & E-commerce",
+"country": "Malaysia",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Lotus's Malaysia is a member of the Charoen Pokphand Group Co., Ltd (C.P. Group) since December 2020. The C.P. Group is a multinational conglomerate, operating across various industries ranging from agricultural, industr"
+},
+{
+"id": "tata.com.uy",
+"company": "TaTa S.A.",
+"sector": "X06 Retail & E-commerce",
+"country": "Uruguay",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Somos TaTa, una cadena de Supermercados fundada en Uruguay el 13 de junio de 1956 en la esquina de 18 de Julio y Carlos Roxlo, instaurando un nuevo modelo de negocio desconocido para la época, la primera tienda por depar"
+},
+{
+"id": "npegroup.com.br",
+"company": "Grupo NPE",
+"sector": "23 Machine Tools",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "O Grupo NPE oferece serviços de manutenção industrial, montagem eletromecânica, locações de equipamentos e fabricação industrial."
+},
+{
+"id": "resolv.com.br",
+"company": "Resolv",
+"sector": "25 IT Services & Consulting",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Há 30 anos, a Resolv constrói relações baseadas em confiança, transparência e excelência. Desde 1996, evoluímos continuamente para oferecer soluções que simplificam rotinas e elevam o padrão operacional dos nossos client"
+},
+{
+"id": "hayathealth.com",
+"company": "Hayat Healthcare",
+"sector": "42 Health & Wellness",
+"country": "Saudi Arabia",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Hayat Healthcare\nFounded in 1999, Hayat Healthcare brings together hospitals, clinics and pharmacies across Saudi Arabia.\n\nWe combine medical expertise and modern technology with a personal approach to care understanding"
+},
+{
+"id": "mannaitechnologies.com",
+"company": "Mannai InfoTech",
+"sector": "25 IT Services & Consulting",
+"country": "Qatar",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Mannai InfoTech is an IT services, consulting & business solutions organization that partners with many of the Qatar’s largest businesses in their transformation journeys. Mannai InfoTech offers a consulting-led, cogniti"
+},
+{
+"id": "saadmedical.com",
+"company": "Saad Specialist Hospital",
+"sector": "42 Health & Wellness",
+"country": "Saudi Arabia",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Saad Specialist Hospital is a private tertiary care and referral healthcare facility, located in Al-Khobar in the Eastern Province of the Kingdom of Saudi Arabia.\r\n\r\nSince its first patient was admitted in 2001, Saad Hos"
+},
+{
+"id": "edwardian.com",
+"company": "Edwardian Hotels London",
+"sector": "16 Travel & Hospitality",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Edwardian Hotels London is a privately owned hotel group that has been operating and developing its hospitality portfolio since Jasminder Singh OBE began his career within the hospitality industry in 1977; forming the be"
+},
+{
+"id": "policlinicogemelli.it",
+"company": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS",
+"sector": "42 Health & Wellness",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "La Fondazione Policlinico Universitario Agostino Gemelli, costituita dall’Università Cattolica del Sacro Cuore e dall’Istituto Giuseppe Toniolo di Studi Superiori, gestisce l’attività ospedaliera del Policlinico Gemelli "
+},
+{
+"id": "c3engenharia.com.br",
+"company": "C3 Engenharia & Soluções",
+"sector": "23 Machine Tools",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Desde 2005 a C3 Engenharia é atuante nos segmentos de Paradas de Manutenção, Manutenção de Rotina, Construção e Montagem e Inspeção industrial.\n\nNosso compromisso é fazer a diferença em cada projeto que realizamos, traze"
+},
+{
+"id": "mke.gov.tr",
+"company": "MKE",
+"sector": "32 Defense & Industrial AI",
+"country": "Turkey",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Established in 30 June 1453 under the name Tophane-i Âmire (Imperial Armoury), MKE is Turkey’s oldest defence industry organisation, with a deep-rooted history spanning approximately six centuries and providing uninterru"
+},
+{
+"id": "mavenodigital.com",
+"company": "Digital Marketplace1",
+"sector": "07 Marketing & Sales",
+"country": "Pakistan",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Hi, Thanks for visiting our company page. we have expertise in social media management and marketing with more than 11 years of experience. We have the expertise to grow your Linkedin or Facebook Personal or business/com"
+},
+{
+"id": "grupohope.com.br",
+"company": "Grupo HOPE",
+"sector": "53 Consumer & Lifestyle",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "HOPE Group has been in the market for 55 years and is the leader in the underwear segment in Brazil.\n\nOur story began in 1966 with the creation of HOPE, one of the first lingerie brands in the country! Today, HOPE's main"
+},
+{
+"id": "ecg.camp",
+"company": "ECG",
+"sector": "16 Travel & Hospitality",
+"country": "France",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "ECG (European Camping Group) stands as the European leader in outdoor hospitality (HPA), providing an unrivalled, premium selection of 4/5* campsites in the continent’s most sought-after destinations.\nOur operations are "
+},
+{
+"id": "v-n.com.ar",
+"company": "VN GLOBAL BPO",
+"sector": "25 IT Services & Consulting",
+"country": "Argentina",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Somos una BPO \r\n\r\nEspecialista en Customer Service, Cobranzas, Telemarketing, Soporte Técnico y Back Office. Con más de 20 años de trayectoria en el diseño e implementación de metodologías de outsourcing con presencia en"
+},
+{
+"id": "achievetogether.co.uk",
+"company": "Achieve together",
+"sector": "42 Health & Wellness",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Achieve together is one of the UK’s leading providers of specialist support\nfor people with learning disabilities, autism, and associated complex needs.\n\nIt currently provides the best specialist support to over 2,300 ad"
+},
+{
+"id": "traki.com",
+"company": "Traki Distribuidora",
+"sector": "X06 Retail & E-commerce",
+"country": "Venezuela",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Tienda por departamentos ubicada en Venezuela, con más de 40 sedes a nivel nacional."
+},
+{
+"id": "ahi.com.br",
+"company": "Atlantica Hotels International",
+"sector": "16 Travel & Hospitality",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Fundada em 1998, a Atlantica Hospitality International, sediada no estado de São Paulo, conta com um portfólio com mais de 186 empreendimentos, que agregam a oferta de mais de 28.554 quartos, em 74 cidades no Brasil. Pos"
+},
+{
+"id": "lusiadas.pt",
+"company": "Lusíadas Saúde",
+"sector": "42 Health & Wellness",
+"country": "Portugal",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "A Lusíadas Saúde é um grupo de referência no setor da saúde em Portugal.\nA nossa missão é transformar os cuidados de saúde, com decisões sustentadas em ciência e dados, potenciando o Nosso Talento, a inovação, a qualidad"
+},
+{
+"id": "nutricia.com",
+"company": "Nutricia",
+"sector": "42 Health & Wellness",
+"country": "Netherlands",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Nutricia pioneers nutritional solutions that help people live longer, more joyful and healthier lives. \nBuilding on more than a century of nutritional research and innovation, Nutricia continues to transform lives throug"
+},
+{
+"id": "serval.com.br",
+"company": "Grupo Serval",
+"sector": "25 IT Services & Consulting",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "SERVAL is characterized by being one of the largest companies in providing specialized labor services in our region.\nBetween SERVAL and its customers there is total transparency in commercial, operational and administrat"
+},
+{
+"id": "star.lk",
+"company": "Star Garments Group",
+"sector": "53 Consumer & Lifestyle",
+"country": "Sri Lanka",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Founded in 1978, we are a leader in the Sri Lankan apparel industry — proudly employing over 10,000 people across our global operations. As an end-to-end solutions provider, we’re committed to setting a higher standard f"
+},
+{
+"id": "cumminsperu.pe",
+"company": "Cummins Perú",
+"sector": "23 Machine Tools",
+"country": "Peru",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Distribuidora Cummins Perú S.A.C. ofrece soluciones con los más altos estándares internacionales en motores diesel, generadores eléctricos, filtros, repuestos, alquiler de equipos y soporte en campo."
+},
+{
+"id": "erenperakende.com",
+"company": "Eren Perakende",
+"sector": "X06 Retail & E-commerce",
+"country": "Turkey",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "35 yılı aşkın süredir dünya markalarını Türkiye’de müşterileriyle buluşturan Eren Perakende, 1990 yılında Devanlay ile ortaklık kurarak Lacoste’un lisanslı üretimine ve dağıtımına başlamıştır. Bugüne kadar, Burberry, Gan"
+},
+{
+"id": "cmsitservices.com",
+"company": "CMS IT Services",
+"sector": "25 IT Services & Consulting",
+"country": "India",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "CMS IT is a leading India-focused, tier-1 preferred IT provider with a legacy of four decades. We empower businesses with robust offerings in IT Infrastructure Management, FMS, EUS, Centralized Helpdesk, Network Manageme"
+},
+{
+"id": "alghalia.com",
+"company": "Al Ghalia",
+"sector": "19 Gulf Sovereign & Tourism",
+"country": "Bahrain",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "For over two decades, Al Ghalia has been redefining hospitality and lifestyle experiences across the Kingdom of Bahrain and beyond. We’re the proud home of beloved brands like Café Lilou, Lilou Artisan Pâtisserie, Monsoo"
+},
+{
+"id": "istikbal.com.tr",
+"company": "İstikbal Mobilya A.Ş.",
+"sector": "49 Home & Living",
+"country": "Turkey",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Paşalı Grubu bünyesinde yer alan İstikbal, 1957 yılından günümüze süre gelen başarı hikayesi ve 69 yıllık tecrübesi ile mobilya sektörünün lider kuruluşlarından biri olarak; ürün çeşitliliği, tasarım farklılıkları, kalit"
+},
+{
+"id": "pronep.com.br",
+"company": "Pronep Life Care",
+"sector": "42 Health & Wellness",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Somos movidos pela vontade de FAZER O BEM: ouvir, sentir e cuidar.\n\nEscutar cada detalhe. Notar e comemorar as pequenas e grandes conquistas. Zelar pelo seu bem mais precioso: a vida. \n\nIsso faz parte do dia a dia de cen"
+},
+{
+"id": "roketsan.com.tr",
+"company": "ROKETSAN",
+"sector": "32 Defense & Industrial AI",
+"country": "Turkey",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Roketsan, was founded on 14 June 1988 by the decision of the Defense Industries Executive Committee for the purpose of “Establishing a leading institution in the country for designing, developing and manufacturing rocket"
+},
+{
+"id": "wings-promos.com",
+"company": "Wings Brand Activations(I) Pvt. Ltd.",
+"sector": "07 Marketing & Sales",
+"country": "India",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "WINGS Brand Activations provides integrated marketing solutions to brands worldwide. From digital marketing to rural, and retail marketing, we take your brand to the customer and help leave a lasting impression.\n\nOUR REA"
+},
+{
+"id": "ssiplgroup.com",
+"company": "SSIPL Retail LTD",
+"sector": "X06 Retail & E-commerce",
+"country": "India",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "About Us\r\nSSIPL Retail Ltd. was instituted as a humble footwear manufacturing entity in the year 1994 as Moja Shoes Pvt. Ltd. The organization hasn’t looked back since then and has climbed the pedestals of success to bec"
+},
+{
+"id": "diltexbrands.com",
+"company": "Diltex brands",
+"sector": "53 Consumer & Lifestyle",
+"country": "Mexico",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Somos una empresa orgullosamente mexicana que por más de 70 años hemos sido líderes vistiendo a las mujeres latinas a través de marcas de moda.\nSomos líderes en México y Centroamérica, donde contamos con una fuerte prese"
+},
+{
+"id": "lidl.ie",
+"company": "Lidl Ireland",
+"sector": "X06 Retail & E-commerce",
+"country": "Ireland",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "At Lidl Ireland, we are a big and ambitious team.\n\nBursting onto the Irish grocery market in 2000, we have changed the face of shopping for the better with top quality products made available at the lowest possible price"
+},
+{
+"id": "gdnargentina.com",
+"company": "GDN AR",
+"sector": "X06 Retail & E-commerce",
+"country": "Argentina",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Somos GDN Argentina, una compañía de retail, de origen nacional, con un equipo de más de 8000 personas a nivel local y 93 tiendas distribuidas en todo el país. Operamos distintos formatos, bajo las marcas Hiper ChangoMâs"
+},
+{
+"id": "fernhotels.com",
+"company": "The Fern Hotels & Resorts",
+"sector": "16 Travel & Hospitality",
+"country": "India",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "A member of CG Hospitality.\nWith our baseline 'Leading environmentally sensitive hotels', The Fern Hotels & Resorts is amongst the fastest growing hotel brands in India with 5000+ rooms presently under management across "
+},
+{
+"id": "carvajaldigital.co",
+"company": "Carvajal Digital",
+"sector": "25 IT Services & Consulting",
+"country": "Colombia",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Creamos, habilitamos e implementamos soluciones tecnológicas y de información que optimizan los procesos de la cadena de valor en entornos B2B, desde el pedido hasta el recaudo, para ayudar a las empresas a crecer sosten"
+},
+{
+"id": "cottonweblimited.com",
+"company": "Cotton Web Limited",
+"sector": "53 Consumer & Lifestyle",
+"country": "Pakistan",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Cotton Web Limited is a certified denim manufacturer and exporter based in Lahore, Pakistan, producing over 1 million garments a month for leading global apparel brands.\nFounded in 1998 by three friends, we've grown from"
+},
+{
+"id": "luminousindia.com",
+"company": "Luminous Power Technologies (P) Ltd",
+"sector": "45 Electronic Parts",
+"country": "India",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Powering Progress, Lighting Lives!  India’s Leading Energy Solutions Provider, illuminating homes and businesses with cutting-edge Solar Systems, Inverters & Batteries."
+},
+{
+"id": "robinsons-supermarket.com.ph",
+"company": "Robinsons Supermarket",
+"sector": "X06 Retail & E-commerce",
+"country": "Philippines",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Robinsons Supermarket Corporation is one of the largest supermarket chains in the Philippines today.  Its first branch, Robinsons Supermarket Cebu Fuente, opened in 1985. Today, it has 158 branches across the Philippines"
+},
+{
+"id": "smsupermalls.com",
+"company": "SM Supermalls",
+"sector": "X02 Real Estate & Building Products",
+"country": "Philippines",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "The SM Group of companies stands today as an institution, a store, a mall, a bank, a home, a resort, a hotel, and a place to see and experience with the family. \n\nOne of the core business areas of the SM Group is the Sho"
+},
+{
+"id": "eichertractors.in",
+"company": "Eicher Tractors",
+"sector": "30 Commercial Vehicles",
+"country": "India",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Welcome to the OFFICIAL LinkedIn Page of Eicher Tractors. The Eicher brand of tractors are one of the oldest names in the industry, and with the all new and refreshing Eicher ‘E’ symbol, are a household name in India, an"
+},
+{
+"id": "princesasupermercados.com.br",
+"company": "Princesa Supermercados Oficial",
+"sector": "X06 Retail & E-commerce",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Com mais de 40 anos de história, o Supermercados Princesa nasceu no coração do Rio de Janeiro e cresceu para se tornar uma das redes mais tradicionais do estado. Hoje, com 26 lojas, seguimos firmes em nosso compromisso c"
+},
+{
+"id": "uranet.com.br",
+"company": "Uranet Projetos e Sistemas",
+"sector": "25 IT Services & Consulting",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "A Uranet é uma referência no mercado em soluções de relacionamento com o cliente e em projetos que visam vendas de produtos e/ou serviços. A empresa nasceu e cresceu da união de profissionais experientes, com know how em"
+},
+{
+"id": "kolanhastanesi.com.tr",
+"company": "KOLAN HOSPITAL GROUP",
+"sector": "42 Health & Wellness",
+"country": "Türkiye",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Kolan Hastaneler Grubu olarak hedefimiz; teknolojik gelişmeleri, yeni tanı ve tedavi yöntemlerini takip ederek, hastalarımıza daha iyi ve güvenli sağlık hizmeti sunmaktır.  Grubumuz; hasta odaklı yaklaşımı, seçkin hekim "
+},
+{
+"id": "aljasser-holding.com",
+"company": "Aljasser Holding",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "Saudi Arabia",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Aljasser Holding Group emerged from the success of Arabian Oud – founded in 1982 in Riyadh – to become the global leader in oriental and luxury perfumes. Today, it has grown into a diversified economic entity with a prom"
+},
+{
+"id": "naraya.com",
+"company": "NaRaYa",
+"sector": "X06 Retail & E-commerce",
+"country": "Thailand",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "NaRaYa is Thailand's #1 Handbag and Accessories Brand! (Source: Ipsos Marketing, 800 samples in Thailand) \n\nToday, NaRaYa products are purchased, shared, gifted, and used by tens of millions of visitors to Thailand each "
+},
+{
+"id": "fashionstep.net",
+"company": "Fashion Step Group",
+"sector": "53 Consumer & Lifestyle",
+"country": "Bangladesh",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Founded in 2013, Fashion Step Group is a leading export-oriented garments manufacturer in Bangladesh, producing high-quality and sustainable apparel for global brands. From a modest start with just 4 sewing lines, the co"
+},
+{
+"id": "leonardohotels.co.uk",
+"company": "Jurys Inn Hotel Group",
+"sector": "16 Travel & Hospitality",
+"country": "Ireland",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Leonardo Hotels is one of the fastest-growing hotel chains in Europe with over 150 hotels in 13 countries, 52 of which are within the UK & Ireland. \n\nLeonardo Hotels are ideally located for sightseeing, shopping and busi"
+},
+{
+"id": "bahwanengineering.com",
+"company": "Bahwan Engineering Co LLC",
+"sector": "23 Machine Tools",
+"country": "Oman",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Founded in 1977, Bahwan Engineering Group is one of Oman's foremost business houses. The Group has emerged as one of the largest engineering construction, trading & services groups in Oman. \n\nFor four decades, the Engine"
+},
+{
+"id": "kero.co.ao",
+"company": "Grupo Zahara",
+"sector": "X06 Retail & E-commerce",
+"country": "Angola",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "O Grupo Zahara é uma empresa privada cuja estrutura accionista é 100% angolana. Na sua origem o Grupo teve como principal objectivo a criação e desenvolvimento de uma cadeia de retalho reconhecida, o Kero. Actualmente o "
+},
+{
+"id": "jamshrsolutions.com",
+"company": "JAMS HR Solutions",
+"sector": "25 IT Services & Consulting",
+"country": "United Arab Emirates",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "JAMS HR Solutions is a leading provider of Manpower Supply Services that operates under the umbrella of JAMS GROUP. Established in the year 1978, JAMS GROUP is an organization solely specialized in providing Outsourcing,"
+},
+{
+"id": "grupooncoclinicas.com",
+"company": "Oncoclínicas&Co",
+"sector": "42 Health & Wellness",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "A Oncoclínicas&Co é dedicada ao tratamento do câncer com um modelo especializado e inovador focado em toda a jornada do tratamento oncológico, aliando eficiência operacional, atendimento humanizado e especialização por m"
+},
+{
+"id": "builders.co.za",
+"company": "Builders: Warehouse, Express, Trade Depot, Superstore",
+"sector": "X06 Retail & E-commerce",
+"country": "South Africa",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Southern Africa’s leading home improvement, DIY and building materials retailer, with stores across South Africa, Botswana, Mozambique and Zambia. \r\n\r\nBuilders offer four store formats, each designed to address the uniqu"
+},
+{
+"id": "emera.fr",
+"company": "Groupe Emera",
+"sector": "42 Health & Wellness",
+"country": "France",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Emera, reconnu pour ses prestations de qualité et sa dynamique de développement, est le 7e Groupe privé de résidences retraite en France. \n\nGroupe construit autour de valeurs fortes, Emera a développé une véritable exper"
+},
+{
+"id": "kelebek.com",
+"company": "KELEBEK MOBİLYA",
+"sector": "49 Home & Living",
+"country": "Turkey",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Kelebek Mobilya, Düzce'de 180.000 m2 açık alan üzerine kurulu 40.000 m2 kapalı alana sahip Türkiye'nin ilk ve en önemli büyük mobilya ve mutfak üretim tesislerinden biridir. \nKelebek Mobilya’nın en ileri teknolojiye sahi"
+},
+{
+"id": "casmu.com.uy",
+"company": "CASMU",
+"sector": "42 Health & Wellness",
+"country": "Uruguay",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "CASMU - IAMPP\n\nFundada en 1935, CASMU es una de las mayores instituciones privadas de salud del país, contando actualmente con mas de 180.000 afiliados.\n\nEs una institución sin fines de lucro que se ubica dentro de las c"
+},
+{
+"id": "omegaservice.com.br",
+"company": "OMEGA SERVICE",
+"sector": "23 Machine Tools",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Somos a OMEGA SERVICE, uma empresa genuinamente brasileira, fundada em 2004 em Parauapebas – PA, consolidada como parceira estratégica de grandes players da economia nacional.\n\nCom mais de 20 anos de experiência, entrega"
+},
+{
+"id": "hitss.com",
+"company": "Hitss Colombia",
+"sector": "25 IT Services & Consulting",
+"country": "Colombia",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "We are a company of the América Móvil Group with more than 30 years of experience in the digital transformation market and IT consulting services in Latin America and the United States.\n\nOur organizational DNA is focused"
+},
+{
+"id": "carelonglobal.com",
+"company": "Carelon Global Solutions Philippines",
+"sector": "25 IT Services & Consulting",
+"country": "Philippines",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Carelon Global Solutions makes healthcare operations more practical, effective, and efficient. Our global team of more than 25K innovators drives growth, delivers exceptional support, and develops digital tools specifica"
+},
+{
+"id": "baronhotels.com",
+"company": "Baron Hotels & Resorts",
+"sector": "16 Travel & Hospitality",
+"country": "Egypt",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Baron Hotels & Resorts is a boutique chain leading hotel management group that has established an outstanding reputation for hospitality excellence founded by Abdelmoneim Shahein since 1980 with one thing in mind: delive"
+},
+{
+"id": "blueplanetgroup.com",
+"company": "Blue Planet Group",
+"sector": "53 Consumer & Lifestyle",
+"country": "Bangladesh",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Blue Planet Group (BPG) is a collection of entities engaged in diversified businesses. The textile division is vertically integrated. Apart from textile BPG has footprints in hospitality, aviation and construction. One o"
+},
+{
+"id": "dsmaxproperties.com",
+"company": "DS-MAX Properties Pvt Ltd",
+"sector": "X02 Real Estate & Building Products",
+"country": "India",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "DS MAX PROPERTIES PVT. LTD is an award-wining real estate development firm, based in Bangalore. Our properties come with most sought-after locations, competitive pricing and excellent service; which manages to receive ov"
+},
+{
+"id": "classicfashionapparel.com",
+"company": "GIA Apparels Industry",
+"sector": "53 Consumer & Lifestyle",
+"country": "Jordan",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "GiA Apparels is one of the most trusted end-to-end apparel manufacturers for global fashion and lifestyle brands. Headquartered and fully operational in Aqaba, Jordan, we bring end-to-end manufacturing expertise for lead"
+},
+{
+"id": "orel.com",
+"company": "OREL Group",
+"sector": "45 Electronic Parts",
+"country": "Singapore",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Orel Group is a Technology and Manufacturing Multinational Conglomerate Corporation. Our Global Ecosystem Empowers Humanity by creating a cleaner, smarter and sustainable future through reimagining the possibilities of P"
+},
+{
+"id": "thewavegroup.com",
+"company": "Wave Infratech Pvt Ltd",
+"sector": "X02 Real Estate & Building Products",
+"country": "India",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Wave Infratech was established as the real estate arm of the Wave Group. Since then it has evolved into one of the leading players in the real estate sector and is envisioned to soon become one of the largest real estate"
+},
+{
+"id": "maxmyanmargroup.com",
+"company": "Max Myanmar Group",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "Myanmar",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Max Myanmar Group of Companies was originally established as Max Myanmar Co., Ltd. in 1993. It started operation by importing buses from Japan, simultaneously followed by import of generators and earth-moving equipment a"
+},
+{
+"id": "royal-holiday.com",
+"company": "Royal Holiday",
+"sector": "16 Travel & Hospitality",
+"country": "Mexico",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Providing Unforgettable Vacations for over 30 years\r\n\r\nRoyal Holiday provides members with a flexible, points-based system that allows them to purchase vacation time at the many destinations in its wide network of hotels"
+},
+{
+"id": "pronobis.com.ec",
+"company": "Pronobis Ecuador",
+"sector": "X02 Real Estate & Building Products",
+"country": "Ecuador",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "El 19 de agosto de 1997, nace en la ciudad de Guayaquil, Promotores Inmobiliarios Pronobis S.A. con una generación de ideas y creatividad, cuyo principal objetivo\nha sido el desarrollo urbano de las distintas ciudades de"
+},
+{
+"id": "visionone.com.br",
+"company": "Vision One",
+"sector": "42 Health & Wellness",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Vision One é uma empresa que cuida da saúde ocular do paciente em todas as etapas da sua jornada.\nSomos uma rede nacional que integra hospitais e clínicas especializadas em oftalmologia, unidades óticas e um robusto Cent"
+},
+{
+"id": "vacobinary.in",
+"company": "Vaco Binary Semantics LLP",
+"sector": "50 Law Firms & Legal AI",
+"country": "India",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "This page is no longer active.\nPlease follow @highspring-india-formerly-vaco-binary-semantics for all future updates and communications. Thank you for your continued support."
+},
+{
+"id": "dollarcity.com",
+"company": "Dollarcity",
+"sector": "X06 Retail & E-commerce",
+"country": "El Salvador",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Sé parte de nuestra historia.\n\nMiles de personas en El Salvador, Guatemala, Colombia, Perú y ahora México pensaban que comprar productos a bajo costo era sinónimo de mala calidad hasta que apareció Dollarcity. Con un mod"
+},
+{
+"id": "accamargo.org.br",
+"company": "A.C.Camargo Cancer Center",
+"sector": "42 Health & Wellness",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Você sabe a diferença entre um Cancer Center e um hospital geral? Um Cancer Center pode até ter um hospital, mas se caracteriza por ser um centro integrado de diagnóstico, tratamento, ensino e pesquisa em oncologia. O pa"
+},
+{
+"id": "medcodeservices.com",
+"company": "MedCode Services",
+"sector": "42 Health & Wellness",
+"country": "India",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "At MedCode, we are dedicated to empowering healthcare providers with accurate, efficient, and reliable medical coding services. With a deep understanding of clinical documentation and payer requirements, our team of cert"
+},
+{
+"id": "maxicus.com",
+"company": "Maxicus",
+"sector": "25 IT Services & Consulting",
+"country": "India",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Maxicus offers tech-enabled BPM services across industry verticals. We harness the power of the human touch blended with automation, robotics, cloud, Business Intelligence, and emerging technologies to help diverse busin"
+},
+{
+"id": "atlantis.com",
+"company": "Atlantis Resorts",
+"sector": "19 Gulf Sovereign & Tourism",
+"country": "United Arab Emirates",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Discover an extraordinary world beyond anything you’ve ever imagined. Our Atlantis properties in Dubai and Sanya, China redefine the concept of entertainment destination resorts. They are extraordinary, intriguing and un"
+},
+{
+"id": "redemadre.org.br",
+"company": "Rede Madre",
+"sector": "42 Health & Wellness",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "O IPMMI apresenta sua nova marca - Rede Madre. \nTraduzindo a essência do carisma da Venerável Madre Maria Teresa de Jesus Eucarístico no cuidado\nintegral, proteção, acolhimento as pessoas por meio das diversas obras."
+},
+{
+"id": "wharfhotels.com",
+"company": "Wharf Hotels",
+"sector": "16 Travel & Hospitality",
+"country": "Hong Kong",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Wharf Hotels, a wholly owned subsidiary of The Wharf (Holdings) Limited, is based in Hong Kong SAR, and currently operates 15 owned and managed hotels under Niccolo Hotels, Marco Polo Hotels and Maqo in China, Hong Kong "
+},
+{
+"id": "fstravel.com",
+"company": "FUN AND SUN",
+"sector": "16 Travel & Hospitality",
+"country": "Egypt",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "About Fun & Sun\n\nFun & Sun is a leading Russian tour operator, formerly TUI Russia, dedicated to crafting unforgettable journeys. Our mission is to enhance happiness through travel, offering diverse services and unique v"
+},
+{
+"id": "zarahome.com",
+"company": "ZARA HOME",
+"sector": "53 Consumer & Lifestyle",
+"country": "Spain",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Zara Home is the home décor brand of the Inditex Group. We offer since 2003 new styles to renovate the decoration of your home every season. Our collections introduce a wide range of products which include bedroom, kitch"
+},
+{
+"id": "neohype.co",
+"company": "Neohype",
+"sector": "25 IT Services & Consulting",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Após um processo de rebranding, a Neobpo passou a ser Neohype, refletindo uma evolução do negócio e um posicionamento mais alinhado. Esta é a nova página oficial da companhia.\n\nSomos especializados em integrar tecnologia"
+},
+{
+"id": "plurix.com",
+"company": "Plurix",
+"sector": "X06 Retail & E-commerce",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Somos uma empresa do Pátria Investimentos, no segmento de varejo alimentício multiformato e multicanal com atuação nas regiões Sul e Sudeste, em processo de rápida expansão. Através de operações regionais, entregamos a m"
+},
+{
+"id": "grupoveper.com.br",
+"company": "Grupo Veper",
+"sector": "25 IT Services & Consulting",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Com ampla experiência no planejamento e execução de projetos de segurança patrimonial, somos hoje uma das maiores empresas no setor de segurança e prestação de serviços especializados do Estado do Paraná, com atuação em "
+},
+{
+"id": "alshaya.com.tr",
+"company": "Alshaya Group Avrasya",
+"sector": "X06 Retail & E-commerce",
+"country": "Turkey",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "ABOUT US Kuwait based Alshaya Group started its operations in Türkiye in 2002. In 2015, Azerbaijan joined the portfolio, followed by Kazakhstan in 2024 and Georgia in 2026, establishing the Alshaya Group Eurasia structur"
+},
+{
+"id": "naturaldaterra.com.br",
+"company": "Natural da Terra",
+"sector": "X06 Retail & E-commerce",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Somos o Grupo Hortifruti Natural da Terra, a primeira e maior rede varejista de hortifrutigranjeiros do Brasil.\n\nCriamos um segmento com um jeito diferente de oferecer o frescor das feiras com a praticidade dos grandes m"
+},
+{
+"id": "quantrics.com",
+"company": "Quantrics Enterprises Inc.",
+"sector": "25 IT Services & Consulting",
+"country": "Philippines",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "In the Philippines, Quantrics by NQX is redefining customer experience by bringing together the expertise of a global leader and the passion of world-class Filipino talent. With roots in Canada and a strong hub in the Ph"
+},
+{
+"id": "grupoboavida.co.ao",
+"company": "GRUPO BOAVIDA S.A.",
+"sector": "X02 Real Estate & Building Products",
+"country": "Angola",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "O Grupo BOAVIDA SA registra mais de 20 anos de experiência na implementação de projectos e gestão de investimentos. A presença do Grupo, a sua afirmação com sucesso no mercado angolano, e não só, têm sido sustentadas pel"
+},
+{
+"id": "soservi.net.br",
+"company": "Soservi Terceirização",
+"sector": "25 IT Services & Consulting",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Contar com os serviços de uma empresa líder em terceirização e com ISO 9001 é assegurar o melhor para sua empresa e seus clientes. \n\nEstamos presentes em todo o Nordeste, com filiais que são nossas bases em recrutamento,"
+},
+{
+"id": "yoma.com.mm",
+"company": "YOMA GROUP",
+"sector": "X02 Real Estate & Building Products",
+"country": "Myanmar",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Listed on the Main Board of the Singapore Securities Exchange Trading Limited (SGX-ST), Yoma Strategic Holdings Ltd. is a leading business corporation with a diversified portfolio of businesses in Real Estate, Consumer, "
+},
+{
+"id": "cloudstaff.com",
+"company": "Cloudstaff",
+"sector": "25 IT Services & Consulting",
+"country": "Australia",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "We are Cloudstaff, the remote staffing pioneer that combines ethical outsourcing with enterprise-grade people tech. We connect businesses embarking on remarkable growth with the world’s top talent from our pool of over 1"
+},
+{
+"id": "oneandonlyresorts.com",
+"company": "One&Only Resorts",
+"sector": "19 Gulf Sovereign & Tourism",
+"country": "United Arab Emirates",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "One&Only Resorts and Private Homes bring extraordinary destinations to life. Experience a rare sense of freedom across secluded beaches, wild landscapes and dynamic cities around the globe. Here, luxury suites and villas"
+},
+{
+"id": "ripley.com.pe",
+"company": "Ripley Perú",
+"sector": "X06 Retail & E-commerce",
+"country": "Peru",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"description": "Nuestra fascinante historia en Ripley Perú inicia con nuestra primera tienda en Jockey Plaza. Hoy después de 26 años nos hemos posicionado como una de las empresas líderes en el sector retail; ofreciendo oportunidades de"
+}
+]

@@ -1,0 +1,122 @@
+[
+{
+"id": "theparkhotels.com",
+"company": "The Park Hotels",
+"sector": "16 Travel & Hospitality",
+"country": "India",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Apeejay Surrendra",
+"triage_note": "real; fit 2; scale mid; luxury boutique hotels"
+},
+{
+"id": "ogawa.com.cn",
+"company": "奥佳华智能健康科技集团股份有限公司",
+"sector": "42 Health & Wellness",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; massage chairs maker"
+},
+{
+"id": "eva-group.com",
+"company": "EVA Precision Industrial Holdings Limited",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; precision components"
+},
+{
+"id": "tpe.group",
+"company": "TPEG Tech Power Electronics Group",
+"sector": "45 Electronic Parts",
+"country": "Germany",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; power electronics"
+},
+{
+"id": "technicatome.com",
+"company": "TechnicAtome",
+"sector": "32 Defense & Industrial AI",
+"country": "France",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; nuclear propulsion"
+},
+{
+"id": "weare-group.com",
+"company": "WeAre Group",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "France",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; aerospace group"
+},
+{
+"id": "delachaux.com",
+"company": "Groupe Delachaux",
+"sector": "23 Machine Tools",
+"country": "France",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; industrial group"
+},
+{
+"id": "zjevt.com",
+"company": "EVTech 富特科技",
+"sector": "33 Automation & Robotics",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; EV power electronics"
+},
+{
+"id": "ruhlamat.com.cn",
+"company": "Ruhlamat Group",
+"sector": "33 Automation & Robotics",
+"country": "Germany",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; manufacturing automation"
+},
+{
+"id": "danhotels.com",
+"company": "Dan Hotels Israel",
+"sector": "16 Travel & Hospitality",
+"country": "Israel",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; luxury hotels Israel"
+}
+]

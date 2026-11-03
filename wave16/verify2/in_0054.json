@@ -1,0 +1,122 @@
+[
+{
+"id": "shopdutyfree.com",
+"company": "Hellenic Duty Free Shops",
+"sector": "X06 Retail & E-commerce",
+"country": "Greece",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Avolta (Dufry)",
+"triage_note": "real; fit 1; scale mid; Greek duty free"
+},
+{
+"id": "clickbank.com",
+"company": "ClickBank",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "51-200",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; digital product marketplace"
+},
+{
+"id": "luxglobal.co.in",
+"company": "Lux Industries Ltd. - JM Hosiery Division",
+"sector": "53 Consumer & Lifestyle",
+"country": "India",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Lux Industries Ltd",
+"triage_note": "real; fit 1; scale mid; Indian innerwear maker"
+},
+{
+"id": "expert.org",
+"company": "Expert International Retail",
+"sector": "X06 Retail & E-commerce",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; retail buying group"
+},
+{
+"id": "cowelleholdings.com",
+"company": "Cowell Optic Electronics Ltd",
+"sector": "52 Photonics & Optical",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; optical camera modules"
+},
+{
+"id": "hsw.pl",
+"company": "Huta Stalowa Wola S.A./HSW S.A.",
+"sector": "32 Defense & Industrial AI",
+"country": "Poland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Polska Grupa Zbrojeniowa",
+"triage_note": "real; fit 1; scale mid; artillery maker"
+},
+{
+"id": "haicorp.com",
+"company": "Hellenic Aerospace Industry S.A. (EAB)",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "Greece",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Greek State (HCAP)",
+"triage_note": "real; fit 1; scale mid; aircraft maintenance"
+},
+{
+"id": "cnim.com",
+"company": "CNIM",
+"sector": "23 Machine Tools",
+"country": "France",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; industrial equipment, defence"
+},
+{
+"id": "jolywood.com",
+"company": "Jolywood Solar",
+"sector": "27 Chip Makers",
+"country": "Italy",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Jolywood (Suzhou) Sunwatt Co.",
+"triage_note": "real; fit 1; scale mid; solar cell maker"
+},
+{
+"id": "weber-hydraulik.com",
+"company": "WEBER-HYDRAULIK GMBH",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; hydraulic systems"
+}
+]

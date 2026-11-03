@@ -1,0 +1,294 @@
+[
+ {
+  "id": "jeppesen.com",
+  "company": "Jeppesen ForeFlight",
+  "sector_tab": "47 Vertical SaaS",
+  "domain": "jeppesen.com",
+  "hq": "Denver, CO and San Francisco, CA, USA",
+  "ownership": "Thoma Bravo (PE), standalone since closing 3 Nov 2025 (carved out of Boeing)",
+  "sells": "Aviation software: Jeppesen charts/nav data, ForeFlight pilot apps, AerData, OzRunways - to pilots, airlines, operators worldwide",
+  "headcount_band": "1,001-5,000 (~3,900 transferred, Nov 2025)",
+  "revenue": "not disclosed",
+  "valuation": "USD 10.55B transaction value (closed Nov 2025)",
+  "latest_raise": "PE buyout USD 10.55B all-cash (Nov 2025)",
+  "fit_score": 4,
+  "fit_detail": "3+ F1 markets yes; affluent private pilots 25-54 + senior airline buyers yes; precision/navigation tech story yes; aviation software not crowded (grid aviation partners are airlines/jets, not software) yes",
+  "up_and_coming": true,
+  "flags": [
+   "new standalone brand Nov 2025",
+   "PE-owned (Thoma Bravo)"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes all filters (USD 10.55B valuation Nov 2025, ~3,900 staff, no F1 tie found); fit 4 with a new standalone brand to build",
+  "best_angle": "Newly independent Jeppesen ForeFlight needs to establish its standalone brand with affluent pilots and airline buyers globally, and F1's precision/navigation story fits.",
+  "sources": [
+   "https://www.thomabravo.com/press-releases/jeppesen-foreflight-launches-as-a-standalone-company-to-redefine-the-future-of-aviation-software",
+   "https://www.govconwire.com/articles/thoma-bravo-boeing-digital-aviation-deal",
+   "https://backend.ainonline.com/aviation-news/air-transport/2025-11-04/boeing-sells-digital-aviation-solutions-thoma-bravo",
+   "https://avioradar.net/en/boeing-completes-sale-of-digital-services-for-10-55-billion/"
+  ]
+ },
+ {
+  "id": "leonhard-kurz.com",
+  "company": "LEONHARD KURZ",
+  "sector_tab": "21 Materials & Mech Parts",
+  "domain": "leonhard-kurz.com",
+  "hq": "Fürth, Germany",
+  "ownership": "Private, family/foundation (LEONHARD KURZ Stiftung & Co. KG)",
+  "sells": "Hot-stamping foils, decorative/functional surface finishing for packaging, electronics, automotive interiors, cosmetics",
+  "headcount_band": "5,001-10,000 (5,800+, 2025-26)",
+  "revenue": "~EUR 1B (est; not disclosed)",
+  "valuation": "n/a (private)",
+  "latest_raise": "none",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; senior B2B buyers yes; tech/precision surface story partial yes; category not crowded yes; but no consumer audience",
+  "up_and_coming": false,
+  "flags": [
+   "revenue est only",
+   "industrial B2B, low brand motive"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters on estimated revenue (5,800+ staff, no F1 tie found) but B2B foil supplier with no brand ambition",
+  "best_angle": "",
+  "sources": [
+   "https://www.kurz-world.com/en/newsroom/press/leonhard-kurz-opens-new-assembly-and-central-building-in-sulzbach-rosenberg",
+   "https://www.ausbildung.de/unternehmen/leonhard-kurz/lebenslauf/",
+   "https://en.pine.gs1.de/solution-provider/leonhard-kurz-stiftung-co-kg"
+  ]
+ },
+ {
+  "id": "venchi.com",
+  "company": "Venchi",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "venchi.com",
+  "hq": "Castelletto Stura (Cuneo), Italy",
+  "ownership": "Private; investor group incl. De Agostini-family shareholders and Andrea Guerra",
+  "sells": "Premium chocolate and gelato through 200+ own stores worldwide (Europe, US, Asia, Middle East)",
+  "headcount_band": "1,001-5,000 (est)",
+  "revenue": "~EUR 205M group (2023); EUR 150.4M Venchi S.p.A. (2024); group target EUR 250M (2024)",
+  "valuation": "n/a (private)",
+  "latest_raise": "none disclosed",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; affluent 25-54 consumers yes; craft story not performance = 0; premium chocolate not crowded yes (KitKat is F1 official chocolate)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "KitKat holds F1 official chocolate partnership (category occupied at F1 level)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters via USD 150-500M revenue route (EUR 205M 2023; capped Stretch); no F1 tie found",
+  "best_angle": "Italian premium chocolatier with global store roll-out could use team-level hospitality and retail activations in key F1 cities.",
+  "sources": [
+   "https://retailinstitute.it/tag/venchi/",
+   "https://www.aziende.it/venchi-s-p-a",
+   "https://www.milanofinanza.it/news/venchi-l-affare-del-cioccolato-tutto-in-casa-de-agostini-202408082256305787",
+   "https://www.dissapore.com/notizie/andrea-guerra-ex-luxottica-diventa-socio-di-venchi",
+   "https://www.efanews.eu/item/56932-kitkat-global-partnership-with-formula-1-in-2026.html"
+  ]
+ },
+ {
+  "id": "myrenova.com",
+  "company": "Renova",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "myrenova.com",
+  "hq": "Zibreira, Torres Novas, Portugal",
+  "ownership": "Private, Portuguese",
+  "sells": "Design-led tissue and paper products (toilet paper, napkins) sold in retail across Europe and other continents; ~60% export",
+  "headcount_band": "501-1,000 (~800 est)",
+  "revenue": "EUR 245M+ (2023)",
+  "valuation": "n/a (private)",
+  "latest_raise": "none",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes (on every continent); affluent design-led consumers yes; story not performance/tech = 0; tissue category not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "headcount unverified (est)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters via USD 150-500M revenue route (EUR 245M 2023; capped Stretch); no F1 tie found",
+  "best_angle": "Provocative design-led brand pushing European growth could use F1 for bold consumer awareness campaigns.",
+  "sources": [
+   "https://portugalglobal.pt/en/news/2025/january/the-sexiest-paper-on-earth-is-present-on-every-continent"
+  ]
+ },
+ {
+  "id": "spray.com",
+  "company": "Spraying Systems Co.",
+  "sector_tab": "21 Materials & Mech Parts",
+  "domain": "spray.com",
+  "hq": "Wheaton, Illinois, USA",
+  "ownership": "Private (privately held 85+ years)",
+  "sells": "Precision spray nozzles, spray systems and controls for industrial customers in 85+ countries",
+  "headcount_band": "1,001-5,000 (1,000+ per company)",
+  "revenue": "USD 200-500M (est, Similarweb/Owler); company states >USD 100M",
+  "valuation": "n/a (private)",
+  "latest_raise": "none",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; senior B2B buyers yes; precision story yes; category not crowded yes; no consumer audience",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue unverified (est)",
+   "industrial B2B, low brand motive"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Scale only via estimated USD 150-500M revenue (capped Stretch); industrial B2B nozzle maker with no brand ambition",
+  "best_angle": "",
+  "sources": [
+   "https://spray.com/careers",
+   "https://www.owler.com/company/spray",
+   "https://www.similarweb.com/company/spray.de",
+   "https://contactout.io/company/spraying-systems-co-5228717"
+  ]
+ },
+ {
+  "id": "llproducts.com",
+  "company": "L&L Products",
+  "sector_tab": "21 Materials & Mech Parts",
+  "domain": "llproducts.com",
+  "hq": "Romeo, Michigan, USA",
+  "ownership": "Private, family-owned (Ligon family; founded 1958)",
+  "sells": "Sealing, acoustic, structural reinforcement and composite materials mainly for auto OEMs, also aerospace/building; ships to 30+ countries",
+  "headcount_band": "1,001-5,000 (~1,250, Sep 2025)",
+  "revenue": "USD 115-471M (est, conflicting: Clodura/RocketReach)",
+  "valuation": "n/a (private)",
+  "latest_raise": "none",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes; senior B2B buyers yes; automotive-led category crowded = 0; story partial = 0",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue unverified (est, may be below USD 150M)",
+   "automotive-led"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Scale unconfirmed (estimates USD 115-471M); B2B auto materials supplier with no brand ambition",
+  "best_angle": "",
+  "sources": [
+   "https://rocketreach.co/ll-products-profile_b5c6c0d2f42e0cce",
+   "https://www.clodura.ai/directory/company/ll-products",
+   "https://www.reveliolabs.com/companies/l-l-products/employees",
+   "https://www.llproducts.com/?p=451"
+  ]
+ },
+ {
+  "id": "trump.com",
+  "company": "The Trump Organization",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "trump.com",
+  "hq": "New York, NY, USA",
+  "ownership": "Private, Trump family (run by Eric/Donald Jr.; President Trump beneficial owner via trust)",
+  "sells": "Luxury real estate, golf resorts, hotels, licensing (US, UK, Ireland, UAE, Gulf, Asia)",
+  "headcount_band": "1,001-5,000 (~2,506, Sep 2025)",
+  "revenue": "~USD 970M real estate + golf (2025 OGE disclosure, est); USD 622M+ minimum all businesses (2024)",
+  "valuation": "n/a (private)",
+  "latest_raise": "none",
+  "fit_score": 4,
+  "fit_detail": "3+ F1 markets yes (US, UK, UAE, Saudi, Qatar); affluent 25-54 yes; global luxury ambition yes; real estate/golf not crowded yes",
+  "up_and_coming": true,
+  "flags": [
+   "political/reputational sensitivity: sitting US President's family business",
+   "market expansion: US -> Gulf (Saudi, Qatar, UAE) 2025-26",
+   "no F1 tie found (Trump/Briatore NJ GP bid 2010s never happened)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters (revenue est USD 500M+ 2025, ~2,500 staff, no F1 tie found); major reservation: political/reputational risk for SPORTFIVE and teams",
+  "best_angle": "Gulf luxury real-estate expansion aligns with Middle East Grands Prix audiences, if reputational risk is acceptable.",
+  "sources": [
+   "https://www.credaily.com/?p=219678",
+   "https://en.politis.com.cy/news/world/1016063/trump-made-at-least-22-billion-in-first-year-back-in-office-filing-shows",
+   "https://www.reveliolabs.com/companies/trump-organization/employees",
+   "https://www.planetf1.com/news/donald-trump-f1-plan-flavio-briatore-new-jersey-grand-prix-failed"
+  ]
+ },
+ {
+  "id": "sunsiyam.com",
+  "company": "Sun Siyam Resorts",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "sunsiyam.com",
+  "hq": "Malé, Maldives",
+  "ownership": "Private, founder family (Sun Siyam Group)",
+  "sells": "Five luxury private-island resorts in Maldives and one in Sri Lanka (~1,595 rooms)",
+  "headcount_band": "1,001-5,000 (est; Prospeo 501-1,000)",
+  "revenue": "~USD 49M (est, Prospeo); not disclosed",
+  "valuation": "n/a (private)",
+  "latest_raise": "none",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 source markets yes; affluent travellers yes; story not performance = 0; luxury resorts not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "scale unverified",
+   "new property expected by 2028"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Hard filter 1 (scale) not met: no sourced revenue >= USD 150M; only estimate is ~USD 49M",
+  "best_angle": "",
+  "sources": [
+   "https://prospeo.io/c/sun-siyam-resorts-revenue",
+   "https://www.lechotouristique.com/article/sun-siyam-resorts-un-rebranding-et-de-nouveaux-projets",
+   "https://prelive.sunsiyam.com/about-sun-siyam/news-press/india-pr-representation"
+  ]
+ },
+ {
+  "id": "thomassabo.com",
+  "company": "THOMAS SABO",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "thomassabo.com",
+  "hq": "Lauf an der Pegnitz, Germany",
+  "ownership": "Private, founder Thomas Sabo (chairman); CEO Bernd Stadlwieser since Jan 2024",
+  "sells": "Jewellery and watches via ~275 own stores and 2,600 retail partners worldwide",
+  "headcount_band": "1,001-5,000 (~1,400)",
+  "revenue": "EUR 250-300M (undated, TextilWirtschaft; est)",
+  "valuation": "n/a (private)",
+  "latest_raise": "none",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; affluent 25-54 partial yes; story not performance = 0; jewellery not crowded yes (watches are)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "lapsed F1 tie: Mercedes AMG Petronas official jewellery supplier 2012-~2014 and Nico Rosberg personal sponsor 2010-14 - confirm before outreach",
+   "revenue est"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters via USD 150-500M revenue route (capped Stretch); lapsed Mercedes F1 partnership (cap Stretch, confirm before outreach)",
+  "best_angle": "Former Mercedes F1 partner with brand heritage in the sport could return under new CEO to re-energise global retail.",
+  "sources": [
+   "https://www.grandprix247.com/formula-1-news/mercedes-and-thomas-sabo-announce-partnership",
+   "https://fashionunited.uk/news/fashion/thomas-sabo-partners-formula-1/2010040631420",
+   "https://www.jewellerybusiness.com/?p=2242",
+   "https://www.textilwirtschaft.de/fashion-management/tomas-sabo-schmuck-ist-emotionaler-als-bekleidung-136361",
+   "https://fashionunited.uk/news/people/thomas-sabo-names-bernd-stadlwieser-as-new-ceo/2023120472910",
+   "https://www.jobvoting.de/THOMAS+SABO+GmbH+und+Co.+KG/Firmenprofil-146101"
+  ]
+ },
+ {
+  "id": "semilab.com",
+  "company": "Semilab",
+  "sector_tab": "35 Semiconductor Equipment",
+  "domain": "semilab.com",
+  "hq": "Budapest, Hungary",
+  "ownership": "Private, Hungarian founders",
+  "sells": "Semiconductor and PV metrology equipment; materials analysis unit sold to Onto Innovation (USD 545M, announced Jun 2025)",
+  "headcount_band": "501-1,000 to 1,001-5,000 (665-1,500, conflicting)",
+  "revenue": "HUF 32.7B (~USD 105M, FY2021); divested unit ~USD 130M (2025 est)",
+  "valuation": "n/a; materials analysis unit sold for USD 545M (Jun 2025)",
+  "latest_raise": "none",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes; senior B2B buyers yes; precision tech story yes; semicap B2B, no consumer",
+  "up_and_coming": false,
+  "flags": [
+   "sold materials analysis business to Onto Innovation (2025)",
+   "scale unverified post-divestment"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Hard filter 1 (scale) not met: last sourced revenue ~USD 105M (FY2021) and a large unit (~USD 130M revenue) divested to Onto Innovation in 2025",
+  "best_angle": "",
+  "sources": [
+   "https://craft.co/semilab",
+   "https://www.nasdaq.com/articles/inks-deal-buy-semilabs-materials-analysis-business-545m",
+   "https://www.intellinews.com/onto-innovation-inc-acquires-business-unit-of-hungarian-semiconductor-metrology-firm-for-545mn-391534",
+   "https://hvg.hu/kkv/20251117_semilab-onto-innovations-felvasarlas-usa-164-milliard-forint"
+  ]
+ }
+]

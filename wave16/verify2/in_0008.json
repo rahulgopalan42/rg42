@@ -1,0 +1,122 @@
+[
+{
+"id": "pmc.com",
+"company": "Penske Media Corporation",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Jay Penske",
+"triage_note": "real; fit 4; scale large; Variety and Rolling Stone owner"
+},
+{
+"id": "ashurstperkinscoie.com",
+"company": "Ashurst",
+"sector": "50 Law Firms & Legal AI",
+"country": "United Kingdom",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale large; Global law firm merger"
+},
+{
+"id": "winstontaylor.com",
+"company": "Winston Taylor",
+"sector": "50 Law Firms & Legal AI",
+"country": "United States",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale large; Transatlantic law firm"
+},
+{
+"id": "mofo.com",
+"company": "Morrison Foerster",
+"sector": "50 Law Firms & Legal AI",
+"country": "United States",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale large; Global law firm"
+},
+{
+"id": "poltronafraugroup.com",
+"company": "Poltrona Frau Group",
+"sector": "49 Home & Living",
+"country": "Italia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Haworth",
+"triage_note": "real; fit 4; scale mid; luxury furniture, Ferrari link"
+},
+{
+"id": "cirquedusoleil.com",
+"company": "Cirque du Soleil Entertainment Group",
+"sector": "29 Tech Media & Gaming",
+"country": "Canada",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Cirque du Soleil Entertainment Group",
+"triage_note": "real; fit 4; scale mid; global live entertainment"
+},
+{
+"id": "corneliani.com",
+"company": "Corneliani S.p.A.",
+"sector": "03 Luxury & Beauty",
+"country": "Italia",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale mid; Italian menswear luxury"
+},
+{
+"id": "capellahotelgroup.com",
+"company": "Capella Hotel Group",
+"sector": "16 Travel & Hospitality",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale mid; Luxury hotel group"
+},
+{
+"id": "riedel.net",
+"company": "RIEDEL Communications",
+"sector": "48 Telecom & Space",
+"country": "Germany",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale mid; broadcast comms, F1 supplier"
+},
+{
+"id": "charlesrussellspeechlys.com",
+"company": "Charles Russell Speechlys",
+"sector": "50 Law Firms & Legal AI",
+"country": "United Kingdom",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale mid; Private wealth law firm"
+}
+]

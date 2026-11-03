@@ -1,0 +1,122 @@
+[
+{
+"id": "fritzmeier.com",
+"company": "Georg Fritzmeier GmbH & Co. KG",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; vehicle cabin components"
+},
+{
+"id": "gardner-aerospace.com",
+"company": "Gardner Aerospace",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; aerostructures"
+},
+{
+"id": "atitech.it",
+"company": "Atitech S.p.A.",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; aircraft maintenance"
+},
+{
+"id": "mosca.com",
+"company": "Mosca GmbH",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; strapping machines"
+},
+{
+"id": "megadynegroup.com",
+"company": "Megadyne Group",
+"sector": "33 Automation & Robotics",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; power transmission belts"
+},
+{
+"id": "faac.it",
+"company": "FAAC Simply automatic.",
+"sector": "45 Electronic Parts",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; gate automation"
+},
+{
+"id": "fltechnics.com",
+"company": "FL Technics",
+"sector": "16 Travel & Hospitality",
+"country": "Lietuva",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Avia Solutions Group",
+"triage_note": "real; fit 2; scale mid; aircraft maintenance"
+},
+{
+"id": "fortidia.com",
+"company": "Fortidia",
+"sector": "X06 Retail & E-commerce",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; global shipping franchise network"
+},
+{
+"id": "ferroli.com",
+"company": "Ferroli Group",
+"sector": "23 Machine Tools",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; heating equipment"
+},
+{
+"id": "tpvision.com",
+"company": "TP Vision",
+"sector": "45 Electronic Parts",
+"country": "Netherlands",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "TPV Technology",
+"triage_note": "real; fit 2; scale mid; Philips TVs"
+}
+]

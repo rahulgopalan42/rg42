@@ -1,0 +1,122 @@
+[
+{
+"id": "clicksgroup.co.za",
+"company": "Clicks Group",
+"sector": "X06 Retail & E-commerce",
+"country": "South Africa",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; South African pharmacy retail"
+},
+{
+"id": "americanas.io",
+"company": "americanas s.a.",
+"sector": "X06 Retail & E-commerce",
+"country": "Brazil",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Brazilian retailer"
+},
+{
+"id": "samolet.ru",
+"company": "SAMOLET Group",
+"sector": "X02 Real Estate & Building Products",
+"country": "Russia",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Russian developer"
+},
+{
+"id": "okmarket.ru",
+"company": "O'KEY group",
+"sector": "X06 Retail & E-commerce",
+"country": "Russia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Russian retail chain"
+},
+{
+"id": "aorti.ru",
+"company": "АО \"РТИ\"",
+"sector": "25 IT Services & Consulting",
+"country": "Russia",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Sistema",
+"triage_note": "real; fit 0; scale large; Russian radio-technical group"
+},
+{
+"id": "actionlogement.fr",
+"company": "Action Logement",
+"sector": "X02 Real Estate & Building Products",
+"country": "France",
+"type": "Partnership",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; French housing social partner"
+},
+{
+"id": "grouphms.com",
+"company": "HMS Group",
+"sector": "23 Machine Tools",
+"country": "Russia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Russian pump maker"
+},
+{
+"id": "power-m.ru",
+"company": "ПАО \"Силовые машины\" / Power Machines, PJSC",
+"sector": "23 Machine Tools",
+"country": "Russia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Russian power machinery"
+},
+{
+"id": "sichuanair.com",
+"company": "四川航空股份有限公司",
+"sector": "16 Travel & Hospitality",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Sichuan Airlines Group (Sichuan SASAC)",
+"triage_note": "real; fit 0; scale large; Chinese airline"
+},
+{
+"id": "polycn.com",
+"company": "Poly Developments and Holdings",
+"sector": "X02 Real Estate & Building Products",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "China Poly Group Corporation",
+"triage_note": "real; fit 0; scale large; Chinese developer"
+}
+]

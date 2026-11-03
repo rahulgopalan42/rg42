@@ -1,0 +1,122 @@
+[
+{
+"id": "vitronic.com",
+"company": "VITRONIC Machine Vision",
+"sector": "33 Automation & Robotics",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; machine vision"
+},
+{
+"id": "christopherguy.com",
+"company": "CHRISTOPHER GUY",
+"sector": "49 Home & Living",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; luxury furniture brand"
+},
+{
+"id": "elektrisola.com",
+"company": "ELEKTRISOLA GmbH & Co. KG",
+"sector": "45 Electronic Parts",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; ultrafine enamelled wire"
+},
+{
+"id": "rosler.com",
+"company": "Rösler",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; surface finishing systems"
+},
+{
+"id": "thenuancegroup.com",
+"company": "The Nuance Group",
+"sector": "X06 Retail & E-commerce",
+"country": "Switzerland",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; travel retailer"
+},
+{
+"id": "aero.cz",
+"company": "AERO Vodochody AEROSPACE a.s.",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "Czechia",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; aircraft maker"
+},
+{
+"id": "tttech.com",
+"company": "TTTECH",
+"sector": "36 IoT & Connectivity",
+"country": "Austria",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; safe networked computing"
+},
+{
+"id": "ogma.pt",
+"company": "OGMA-Indústria Aeronáutica de Portugal, SA",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "Portugal",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Embraer",
+"triage_note": "real; fit 3; scale mid; aircraft maintenance"
+},
+{
+"id": "pepejeans.com",
+"company": "Pepe Jeans London",
+"sector": "53 Consumer & Lifestyle",
+"country": "Spain",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; denim lifestyle brand"
+},
+{
+"id": "sabca.be",
+"company": "SABCA",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "Belgium",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Dassault Aviation",
+"triage_note": "real; fit 3; scale mid; aerospace manufacturer"
+}
+]

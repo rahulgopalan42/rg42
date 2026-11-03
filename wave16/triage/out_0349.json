@@ -1,0 +1,802 @@
+[
+{
+"id": "rimc.de",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "Hamburg based hotel and resort group"
+},
+{
+"id": "pepitosupermarket.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Bali supermarket chain"
+},
+{
+"id": "xmcwh.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "Yangtze Memory",
+"note": "Wuhan semiconductor foundry"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "French healthcare group; junk description"
+},
+{
+"id": "hkhongtu.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "CIMC",
+"note": "Chemical storage equipment unit of CIMC"
+},
+{
+"id": "bijjoraworld.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Egyptian real estate provider"
+},
+{
+"id": "preciosahome.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Peruvian lighting retailer"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Brazilian supermarket chain"
+},
+{
+"id": "laeg-en.com",
+"t": "division",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Shenzhen electric unit of parent firm"
+},
+{
+"id": "aaba.org.ar",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Buenos Aires lawyers association"
+},
+{
+"id": "theview-hurghada.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Egyptian resort project page"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Pakistani marketing; junk description"
+},
+{
+"id": "adloyaltybn.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Nigerian real estate network marketing"
+},
+{
+"id": "qdairlines.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Chinese regional airline"
+},
+{
+"id": "nordavia.ru",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "Aeroflot",
+"note": "Nordavia merged into Aeroflot-Nord"
+},
+{
+"id": "cofcoet.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "COFCO",
+"note": "Wuxi biochemical technology unit"
+},
+{
+"id": "sunrisedutyfree.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "Beijing airport duty free operator"
+},
+{
+"id": "gtb.in",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian real estate developer"
+},
+{
+"id": "lespeakers.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "French speakers booking platform"
+},
+{
+"id": "hostingelevator.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Chinese elevator manufacturer"
+},
+{
+"id": "centropolis.ca",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Laval entertainment shopping centre"
+},
+{
+"id": "rm-motion.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Chinese machinery manufacturer"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Honduran retailer; junk description"
+},
+{
+"id": "tenzo.co.in",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian property listing platform"
+},
+{
+"id": "saudigulf.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Joint venture partnership advisor"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Indian apparel; junk description"
+},
+{
+"id": "luxurycleaningservices.fr",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Luxury cleaning services subsidiary"
+},
+{
+"id": "totalpackmachinery.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Brazilian packaging machinery JV"
+},
+{
+"id": "walbrzych.pl",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Polish specialist hospital"
+},
+{
+"id": "dewomachinery.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Chinese crushing equipment maker"
+},
+{
+"id": "katingan.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Indonesian plywood timber group"
+},
+{
+"id": "ghzy.com.hk",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "Chinese eyewear brands group"
+},
+{
+"id": "marsvalve.com.tw",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Taiwanese valve maker"
+},
+{
+"id": "laaraucanasalud.cl",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "La Araucana",
+"note": "Chilean medical dental network"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Saudi medical complex"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Egyptian market chain"
+},
+{
+"id": "lgap.net",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Partner alliance network"
+},
+{
+"id": "aorelaser.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "Chinese laser equipment maker"
+},
+{
+"id": "alfainmobolivia.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Alfa Inmobiliaria",
+"note": "Bolivian franchise of Alfa Inmobiliaria"
+},
+{
+"id": "sgla.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "Chinese full-service law firm"
+},
+{
+"id": "iszmfg.co.jp",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Japanese manufacturing company"
+},
+{
+"id": "jgdt.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Shenzhen IT services firm"
+},
+{
+"id": "asimsr.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian medical institute hospital"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Nigerian property; junk description"
+},
+{
+"id": "hj-robot.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Chinese industrial robotics firm"
+},
+{
+"id": "sippy.in",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian law firm"
+},
+{
+"id": "idea1.ph",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Philippine integrated marketing agency"
+},
+{
+"id": "funs.com.pk",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Pakistani apparel exporter"
+},
+{
+"id": "sinreen.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Chinese kitchen appliance maker"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Canadian firm; junk description"
+},
+{
+"id": "ptprogress.co.id",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indonesian outsourcing company"
+},
+{
+"id": "greensun-tech.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Chinese industrial technology firm"
+},
+{
+"id": "altonindustries.cn",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Chinese household appliance maker"
+},
+{
+"id": "jshongdou.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "Hongdou Group",
+"note": "Chinese suit maker with Cambodian factory"
+},
+{
+"id": "spbrokersimoveis.com.br",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Brazilian real estate advisory"
+},
+{
+"id": "kaizenmetal.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian industrial services provider"
+},
+{
+"id": "yamaribbon.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Chinese ribbon manufacturer"
+},
+{
+"id": "evrika.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Kazakh consumer electronics chain"
+},
+{
+"id": "twabc.com.cn",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "Chinese children's footwear brand"
+},
+{
+"id": "krankenhaus-prignitz.de",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "German regional clinic group"
+},
+{
+"id": "cordialdesign.net",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Bangladeshi denim manufacturer"
+},
+{
+"id": "urologicamg.com.br",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Brazilian urology hospital"
+},
+{
+"id": "limpium.com",
+"t": "division",
+"fit": 0,
+"scale": "small",
+"parent": "Limpium",
+"note": "Peruvian arm of Grupo Limpium"
+},
+{
+"id": "sinomax.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "Hong Kong comfort mattress brand"
+},
+{
+"id": "sunbun.cn",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Chinese hydraulics maker"
+},
+{
+"id": "zjjudong.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Chinese electronics maker"
+},
+{
+"id": "quiphuc.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Vietnamese durable furniture maker"
+},
+{
+"id": "hydroknit.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Bangladeshi knitwear maker"
+},
+{
+"id": "goldenfield.com.cn",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Chinese computer peripherals maker"
+},
+{
+"id": "jinzhuangroup.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Shanghai investment advisory"
+},
+{
+"id": "lotusgroup.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Egyptian real estate developer"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "UAE trading group; junk description"
+},
+{
+"id": "freemedlifecare.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian healthcare services"
+},
+{
+"id": "isladiamante.com.mx",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Cancun property development page"
+},
+{
+"id": "wagongroups.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Chinese giftware manufacturer"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Chinese electronics; junk description"
+},
+{
+"id": "tasameng.com.tw",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Taiwanese retail merchandise firm"
+},
+{
+"id": "fourwents.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian products group"
+},
+{
+"id": "shundacrusher.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Chinese heavy industry machinery"
+},
+{
+"id": "saomaitrading.com.vn",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Vietnamese trading company"
+},
+{
+"id": "manalijeansltd.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Bangladeshi jeans maker"
+},
+{
+"id": "dtwoodvn.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Vietnamese wood processing company"
+},
+{
+"id": "hubooze.in",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian online retailer"
+},
+{
+"id": "eurotexfashionbd.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Bangladeshi garment supplier"
+},
+{
+"id": "xuguang.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "Chengdu electronics former state firm"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Jamaican university hospital"
+},
+{
+"id": "rf-sa.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Saudi medical company"
+},
+{
+"id": "remax.mn",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "RE/MAX",
+"note": "Mongolian franchise of RE/MAX"
+},
+{
+"id": "apeiroinstruments.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Pakistani surgical instruments maker"
+},
+{
+"id": "kzntopbusiness.co.za",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "South African Spar supermarkets"
+},
+{
+"id": "almfzc.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian signalling system integrator"
+},
+{
+"id": "preethisilks.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian apparel showrooms"
+},
+{
+"id": "vivea-hotels.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "Austrian family spa hotels"
+},
+{
+"id": "gopalanenterprises.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Indian real estate developer"
+},
+{
+"id": "modoko.com.tr",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Turkish furniture cooperative"
+},
+{
+"id": "consejoandaluzgraduadossociales.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Spanish regional professional council"
+},
+{
+"id": "anevita.de",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "German hospital group"
+},
+{
+"id": "iraniborkabazar.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Bangladeshi Islamic attire brand"
+},
+{
+"id": "arsangroup.com.tr",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Turkish treatment and construction group"
+},
+{
+"id": "tiendasel.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Peruvian retail chain"
+}
+]

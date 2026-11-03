@@ -1,0 +1,122 @@
+[
+{
+"id": "dillinger.de",
+"company": "Dillinger",
+"sector": "21 Materials & Mech Parts",
+"country": "Germany",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; heavy steel plate"
+},
+{
+"id": "veka.com",
+"company": "VEKA Aktiengesellschaft",
+"sector": "NEW Other",
+"country": "Germany",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; PVC profiles"
+},
+{
+"id": "ctg.com.cn",
+"company": "中国长江三峡集团有限公司(CTG)",
+"sector": "NEW Other",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Chinese state",
+"triage_note": "real; fit 1; scale large; hydropower group"
+},
+{
+"id": "xjgc.com",
+"company": "XJ Group Corporation",
+"sector": "NEW Other",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "State Grid",
+"triage_note": "real; fit 1; scale large; power equipment"
+},
+{
+"id": "ardaghmetalpackaging.com",
+"company": "Ardagh Metal Packaging",
+"sector": "55 Packaging & Food Machinery",
+"country": "Luxembourg",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Ardagh Group",
+"triage_note": "real; fit 1; scale large; can maker"
+},
+{
+"id": "coromandel.biz",
+"company": "Coromandel International Limited",
+"sector": "21 Materials & Mech Parts",
+"country": "India",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Murugappa Group",
+"triage_note": "real; fit 1; scale large; fertilisers"
+},
+{
+"id": "tinci.com",
+"company": "TINCI MATERIALS",
+"sector": "21 Materials & Mech Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; battery chemicals"
+},
+{
+"id": "taiwanglass.eu",
+"company": "Taiwan Glass",
+"sector": "NEW Other",
+"country": "Netherlands",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; glass maker"
+},
+{
+"id": "fawfw.com.cn",
+"company": "Changchun Faway Automobile Components Co., Ltd",
+"sector": "43 Mobility & Automotive",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "FAW Group",
+"triage_note": "real; fit 1; scale large; auto parts"
+},
+{
+"id": "yyth.com.cn",
+"company": "YUNNAN YUNTIANHUA CO., LTD",
+"sector": "21 Materials & Mech Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; fertilisers and chemicals"
+}
+]

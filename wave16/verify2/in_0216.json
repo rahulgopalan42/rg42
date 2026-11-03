@@ -1,0 +1,122 @@
+[
+{
+"id": "imsat.ro",
+"company": "IMSAT S.A.",
+"sector": "23 Machine Tools",
+"country": "Romania",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "French SNEF group",
+"triage_note": "real; fit 1; scale mid; multi-technical integrator"
+},
+{
+"id": "fermator.com",
+"company": "Fermator Group",
+"sector": "23 Machine Tools",
+"country": "España",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; elevator doors"
+},
+{
+"id": "uniagroup.com",
+"company": "UNIA",
+"sector": "23 Machine Tools",
+"country": "Polska",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; press brakes and machinery"
+},
+{
+"id": "novasoft.eu",
+"company": "Novasoft",
+"sector": "25 IT Services & Consulting",
+"country": "Spain",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Spanish IT firm"
+},
+{
+"id": "iqsight.com",
+"company": "IQSIGHT",
+"sector": "45 Electronic Parts",
+"country": "Netherlands",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; video security"
+},
+{
+"id": "wk-industrietechnik.de",
+"company": "W&K Gesellschaft für Industrietechnik mbH",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; industrial technology"
+},
+{
+"id": "slg.lu",
+"company": "SLG",
+"sector": "16 Travel & Hospitality",
+"country": "Luxembourg",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; travel and aviation group"
+},
+{
+"id": "wec-group.com",
+"company": "WEC Group Ltd",
+"sector": "23 Machine Tools",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Group",
+"triage_note": "real; fit 1; scale mid; engineering fabrication"
+},
+{
+"id": "fnacompressors.com",
+"company": "FNA COMPRESSORS S.p.A.",
+"sector": "23 Machine Tools",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; compressors"
+},
+{
+"id": "logstor.com",
+"company": "LOGSTOR District Heating Solutions",
+"sector": "27 Chip Makers",
+"country": "Denmark",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; district heating pipes"
+}
+]

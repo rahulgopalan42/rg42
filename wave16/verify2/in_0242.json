@@ -1,0 +1,122 @@
+[
+{
+"id": "rzb.de",
+"company": "RZB Lighting",
+"sector": "45 Electronic Parts",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; architectural lighting"
+},
+{
+"id": "clenergy.com",
+"company": "Clenergy",
+"sector": "27 Chip Makers",
+"country": "Australia",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; solar mounting systems"
+},
+{
+"id": "mku.com",
+"company": "MKU",
+"sector": "32 Defense & Industrial AI",
+"country": "India",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; body armour maker"
+},
+{
+"id": "tracto.com",
+"company": "TRACTO",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; trenchless tech"
+},
+{
+"id": "tasgroup.eu",
+"company": "TAS",
+"sector": "25 IT Services & Consulting",
+"country": "Italy",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; payments software"
+},
+{
+"id": "sommer-group.eu",
+"company": "SOMMER Group",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; drive and door tech"
+},
+{
+"id": "anyka.com",
+"company": "Anyka Microelectronics",
+"sector": "27 Chip Makers",
+"country": "United States",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; fabless chips"
+},
+{
+"id": "nafaxles.com",
+"company": "NAF Neunkirchener Achsenfabrik AG",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; axles maker"
+},
+{
+"id": "vecoplan.com",
+"company": "Vecoplan",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; shredding machines"
+},
+{
+"id": "data-modul.com",
+"company": "DATA MODUL AG",
+"sector": "45 Electronic Parts",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Rutronik",
+"triage_note": "real; fit 1; scale mid; display solutions"
+}
+]

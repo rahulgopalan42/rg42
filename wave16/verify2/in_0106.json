@@ -1,0 +1,122 @@
+[
+{
+"id": "bucherer.com",
+"company": "Bucherer AG",
+"sector": "03 Luxury & Beauty",
+"country": "Switzerland",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Rolex",
+"triage_note": "real; fit 3; scale large; luxury watch retailer"
+},
+{
+"id": "primetals.com",
+"company": "Primetals Technologies",
+"sector": "23 Machine Tools",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Mitsubishi Heavy Industries",
+"triage_note": "real; fit 3; scale large; metals plant tech"
+},
+{
+"id": "tataadvancedsystems.com",
+"company": "Tata Advanced Systems Limited",
+"sector": "32 Defense & Industrial AI",
+"country": "India",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Tata Sons",
+"triage_note": "real; fit 3; scale large; aerospace and defence"
+},
+{
+"id": "flender.com",
+"company": "Flender",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Carlyle",
+"triage_note": "real; fit 3; scale large; industrial gears maker"
+},
+{
+"id": "eagleburgmann.com",
+"company": "EagleBurgmann",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Freudenberg",
+"triage_note": "real; fit 3; scale large; mechanical seals maker"
+},
+{
+"id": "egoproducts.com",
+"company": "E.G.O.-Group",
+"sector": "45 Electronic Parts",
+"country": "Germany",
+"type": "Partnership",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "BLANC & FISCHER Family Holding",
+"triage_note": "real; fit 3; scale large; appliance components maker"
+},
+{
+"id": "semikron.com",
+"company": "Danfoss Silicon Power",
+"sector": "27 Chip Makers",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Danfoss",
+"triage_note": "real; fit 3; scale large; power semiconductors"
+},
+{
+"id": "webtoon.com",
+"company": "WEBTOON",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Privately Held",
+"staff": "51-200",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Naver",
+"triage_note": "real; fit 3; scale large; webcomics platform"
+},
+{
+"id": "",
+"company": "tw telecom",
+"sector": "48 Telecom & Space",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; spark plugs and ceramics"
+},
+{
+"id": "marchon.com",
+"company": "Marchon Eyewear",
+"sector": "53 Consumer & Lifestyle",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "VSP Global",
+"triage_note": "real; fit 3; scale large; eyewear maker"
+}
+]

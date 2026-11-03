@@ -1,0 +1,122 @@
+[
+{
+"id": "royal-holiday.com",
+"company": "Royal Holiday",
+"sector": "16 Travel & Hospitality",
+"country": "Mexico",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Park Royal Hotels",
+"triage_note": "real; fit 1; scale mid; vacation club"
+},
+{
+"id": "cloudstaff.com",
+"company": "Cloudstaff",
+"sector": "25 IT Services & Consulting",
+"country": "Australia",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; remote staffing"
+},
+{
+"id": "midisgroup.com",
+"company": "Midis Group",
+"sector": "25 IT Services & Consulting",
+"country": "Lebanon",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; ICT distribution"
+},
+{
+"id": "htlinternational.com",
+"company": "HTL Group of Companies",
+"sector": "49 Home & Living",
+"country": "China",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; leather tanner"
+},
+{
+"id": "solarspace.com",
+"company": "SolarSpace",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; solar cells"
+},
+{
+"id": "hashoogroup.com",
+"company": "Hashoo Group",
+"sector": "16 Travel & Hospitality",
+"country": "Pakistan",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; diversified Pakistani group"
+},
+{
+"id": "unifive.com",
+"company": "UNIFIVE.,CO.LTD",
+"sector": "45 Electronic Parts",
+"country": "Japan",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; power adapters"
+},
+{
+"id": "denave.com",
+"company": "Denave",
+"sector": "25 IT Services & Consulting",
+"country": "India",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; outsourced sales"
+},
+{
+"id": "made-in-china.com",
+"company": "Made-in-China.com",
+"sector": "25 IT Services & Consulting",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Focus Technology",
+"triage_note": "real; fit 1; scale mid; B2B marketplace"
+},
+{
+"id": "salary.com",
+"company": "Salary.com",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "201-500",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; compensation software"
+}
+]

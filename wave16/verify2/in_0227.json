@@ -1,0 +1,122 @@
+[
+{
+"id": "sgxgroup.com",
+"company": "SGX Group",
+"sector": "01 Banking & Insurance",
+"country": "Singapore",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Singapore exchange"
+},
+{
+"id": "rassini.com",
+"company": "Rassini International",
+"sector": "43 Mobility & Automotive",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; leaf spring maker"
+},
+{
+"id": "flabeg.com",
+"company": "FLABEG Automotive Group",
+"sector": "43 Mobility & Automotive",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; glass and mirror maker"
+},
+{
+"id": "sintef.no",
+"company": "SINTEF",
+"sector": "NEW Other",
+"country": "Norway",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Norwegian research institute"
+},
+{
+"id": "ascorium.com",
+"company": "Ascorium Industries",
+"sector": "43 Mobility & Automotive",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Mutares",
+"triage_note": "real; fit 1; scale mid; automotive foam supplier"
+},
+{
+"id": "saargummi.com",
+"company": "SaarGummi Group",
+"sector": "43 Mobility & Automotive",
+"country": "Luxembourg",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; automotive seals supplier"
+},
+{
+"id": "zarges.com",
+"company": "ZARGES GmbH",
+"sector": "NEW Other",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; aluminium ladders and cases"
+},
+{
+"id": "demmel-group.com",
+"company": "DEMMEL AG",
+"sector": "43 Mobility & Automotive",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; surface finishing"
+},
+{
+"id": "mado.com.tr",
+"company": "MADO Global",
+"sector": "04 Food & Beverage",
+"country": "Turkey",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Turkish ice cream"
+},
+{
+"id": "gbm.com.tw",
+"company": "Global Brands Manufacture Ltd",
+"sector": "NEW Other",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; display materials Taiwan"
+}
+]

@@ -1,0 +1,122 @@
+[
+{
+"id": "diamondsinternational.com",
+"company": "Diamonds International",
+"sector": "03 Luxury & Beauty",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; cruise-port luxury jeweller"
+},
+{
+"id": "revima.com",
+"company": "REVIMA",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Revima Group",
+"triage_note": "real; fit 3; scale mid; Independent aerospace MRO"
+},
+{
+"id": "hannainst.com",
+"company": "Hanna Instruments",
+"sector": "40 Test & Measurement",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; Analytical instruments maker"
+},
+{
+"id": "ruderfinn.com",
+"company": "Ruder Finn",
+"sector": "07 Marketing & Sales",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; Independent PR agency"
+},
+{
+"id": "farmrio.com",
+"company": "FARM Rio",
+"sector": "53 Consumer & Lifestyle",
+"country": "Brazil",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Azzas 2154",
+"triage_note": "real; fit 3; scale mid; Brazilian fashion brand"
+},
+{
+"id": "croisieurope.com",
+"company": "CroisiEurope",
+"sector": "16 Travel & Hospitality",
+"country": "France",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; River cruise operator"
+},
+{
+"id": "hudl.com",
+"company": "Hudl",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Onform",
+"triage_note": "real; fit 3; scale mid; sports video analytics"
+},
+{
+"id": "bitdefender.com",
+"company": "Bitdefender",
+"sector": "22 SaaS",
+"country": "Romania",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; cybersecurity vendor"
+},
+{
+"id": "insiderone.com",
+"company": "Insider One",
+"sector": "22 SaaS",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; marketing platform"
+},
+{
+"id": "hstern.com.br",
+"company": "HStern",
+"sector": "03 Luxury & Beauty",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; luxury jewellery"
+}
+]

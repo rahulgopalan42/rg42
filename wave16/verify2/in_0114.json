@@ -1,0 +1,122 @@
+[
+{
+"id": "tectcorp.com",
+"company": "TECT Corporation",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; forged aerospace parts"
+},
+{
+"id": "semilab.com",
+"company": "Semilab Zrt",
+"sector": "27 Chip Makers",
+"country": "Hungary",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; semiconductor metrology"
+},
+{
+"id": "intercable-as.com",
+"company": "Intercable Automotive Solutions",
+"sector": "44 Grid & Transformers",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; automotive wiring"
+},
+{
+"id": "isabellenhuette.com",
+"company": "Isabellenhütte Heusler GmbH & Co. KG",
+"sector": "27 Chip Makers",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; precision resistor alloys"
+},
+{
+"id": "trogroup.com",
+"company": "TroGroup",
+"sector": "53 Consumer & Lifestyle",
+"country": "Austria",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; stamps and laser systems"
+},
+{
+"id": "",
+"company": "tw telecom",
+"sector": "48 Telecom & Space",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; rail electrical equipment"
+},
+{
+"id": "criticalsoftware.com",
+"company": "Critical Software",
+"sector": "25 IT Services & Consulting",
+"country": "Portugal",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; safety-critical software"
+},
+{
+"id": "kuonitumlare.com",
+"company": "Kuoni Tumlare",
+"sector": "16 Travel & Hospitality",
+"country": "Switzerland",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; destination management travel"
+},
+{
+"id": "iee-sensing.com",
+"company": "IEE Sensing",
+"sector": "45 Electronic Parts",
+"country": "Luxembourg",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; sensing solutions"
+},
+{
+"id": "isola-group.com",
+"company": "Isola Group",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; PCB materials"
+}
+]

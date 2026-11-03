@@ -1,0 +1,122 @@
+[
+{
+"id": "megafon.ru",
+"company": "MegaFon",
+"sector": "48 Telecom & Space",
+"country": "Russia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Russian telecom"
+},
+{
+"id": "rostelecom.ru",
+"company": "Rostelecom",
+"sector": "48 Telecom & Space",
+"country": "Russia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Russian government",
+"triage_note": "real; fit 1; scale large; Russian telecom"
+},
+{
+"id": "evokeplc.com",
+"company": "evoke",
+"sector": "29 Tech Media & Gaming",
+"country": "Gibraltar",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; betting and gaming group"
+},
+{
+"id": "myvi.in",
+"company": "Vodafone Idea Limited",
+"sector": "48 Telecom & Space",
+"country": "India",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Vodafone Idea Ltd",
+"triage_note": "real; fit 1; scale large; Indian telecom"
+},
+{
+"id": "bbc.co.uk",
+"company": "BBC",
+"sector": "29 Tech Media & Gaming",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; public broadcaster"
+},
+{
+"id": "leadintelligent.com",
+"company": "Lead Intelligent Equipment",
+"sector": "33 Automation & Robotics",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; battery equipment maker"
+},
+{
+"id": "rbauction.com",
+"company": "Ritchie Bros.",
+"sector": "23 Machine Tools",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "RB Global",
+"triage_note": "real; fit 1; scale large; industrial auction marketplace"
+},
+{
+"id": "atruvia.de",
+"company": "Atruvia AG",
+"sector": "25 IT Services & Consulting",
+"country": "Germany",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Volksbanken Raiffeisenbanken cooperative group",
+"triage_note": "real; fit 1; scale large; bank IT provider"
+},
+{
+"id": "powerlong.com",
+"company": "Powerlong Real Estate Holdings Limited",
+"sector": "X02 Real Estate & Building Products",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Chinese property developer"
+},
+{
+"id": "hkbn.net",
+"company": "HKBN",
+"sector": "25 IT Services & Consulting",
+"country": "Hong Kong",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "China Mobile Hong Kong (China Mobile)",
+"triage_note": "real; fit 1; scale large; HK telecom"
+}
+]

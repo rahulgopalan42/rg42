@@ -1,0 +1,122 @@
+[
+{
+"id": "tortuga-resorts.com",
+"company": "Tortuga Resorts",
+"sector": "16 Travel & Hospitality",
+"country": "Mexico",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; luxury beach resorts"
+},
+{
+"id": "askey.com",
+"company": "Askey",
+"sector": "36 IoT & Connectivity",
+"country": "台灣",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "ASUS",
+"triage_note": "real; fit 2; scale mid; networking solutions"
+},
+{
+"id": "ivycollection.com",
+"company": "The Ivy Collection",
+"sector": "16 Travel & Hospitality",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Caprice Holdings",
+"triage_note": "real; fit 2; scale mid; upscale restaurants"
+},
+{
+"id": "hidesign.com",
+"company": "Hidesign",
+"sector": "X06 Retail & E-commerce",
+"country": "India",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Indian leather luxury brand"
+},
+{
+"id": "edwardian.com",
+"company": "Edwardian Hotels London",
+"sector": "16 Travel & Hospitality",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; London luxury hotels"
+},
+{
+"id": "aljasser-holding.com",
+"company": "Aljasser Holding",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "Saudi Arabia",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Gulf perfume group"
+},
+{
+"id": "aguadecoco.com.br",
+"company": "Água de Coco",
+"sector": "X06 Retail & E-commerce",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Brazilian resort wear"
+},
+{
+"id": "okadamanila.com",
+"company": "Okada Manila",
+"sector": "16 Travel & Hospitality",
+"country": "Philippines",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Universal Entertainment",
+"triage_note": "real; fit 2; scale mid; Manila integrated resort"
+},
+{
+"id": "castsoftware.com",
+"company": "CAST",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "201-500",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; software intelligence"
+},
+{
+"id": "pixelogicmedia.com",
+"company": "Pixelogic Media",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Privately Held",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; media distribution tech"
+}
+]

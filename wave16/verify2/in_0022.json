@@ -1,0 +1,122 @@
+[
+{
+"id": "sunac.com.cn",
+"company": "融创中国",
+"sector": "X02 Real Estate & Building Products",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; China developer, distressed"
+},
+{
+"id": "dotdashmeredith.com",
+"company": "Dotdash Meredith",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "IAC (People Inc.)",
+"triage_note": "real; fit 2; scale large; Dotdash Meredith (People Inc)"
+},
+{
+"id": "aegm.com",
+"company": "A+E Global Media",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Disney / Hearst (50/50)",
+"triage_note": "real; fit 2; scale large; A+E cable networks"
+},
+{
+"id": "fujitsu-nt.com",
+"company": "Nantong Fujitsu Microelectronics Co., Ltd",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; chip packaging"
+},
+{
+"id": "allegro.pl",
+"company": "QXL",
+"sector": "22 SaaS",
+"country": "Poland",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Allegro.eu",
+"triage_note": "real; fit 2; scale large; Polish e-commerce"
+},
+{
+"id": "goldenladycompany.com",
+"company": "Goldenlady Company",
+"sector": "03 Luxury & Beauty",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; Italian hosiery maker"
+},
+{
+"id": "hongleong.com",
+"company": "Hong Leong Group",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "Malaysia",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; Malaysian conglomerate"
+},
+{
+"id": "primax.com.tw",
+"company": "Primax Electronics Ltd.",
+"sector": "45 Electronic Parts",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; peripherals/camera modules"
+},
+{
+"id": "trans-cosmos.co.jp",
+"company": "transcosmos inc.",
+"sector": "25 IT Services & Consulting",
+"country": "Japan",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; CX outsourcing Japan"
+},
+{
+"id": "crland.com.hk",
+"company": "华润置地",
+"sector": "X02 Real Estate & Building Products",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "China Resources",
+"triage_note": "real; fit 2; scale large; China developer"
+}
+]

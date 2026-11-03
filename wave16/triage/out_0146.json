@@ -1,0 +1,802 @@
+[
+{
+"id": "vivawest.de",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "housing company"
+},
+{
+"id": "cafom.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "overseas retail group"
+},
+{
+"id": "silverstone-park.com",
+"t": "division",
+"fit": 0,
+"scale": "small",
+"parent": "MEPC",
+"note": "business park at circuit"
+},
+{
+"id": "express-gifts.co.uk",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "defunct catalogue retailer"
+},
+{
+"id": "zoeller-kipper.de",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "refuse truck bodies"
+},
+{
+"id": "peeassa.fi",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "local co-op"
+},
+{
+"id": "angstrem.ru",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Russian semiconductors"
+},
+{
+"id": "sbacbank.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Bangladesh bank"
+},
+{
+"id": "volg.ch",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "fenaco",
+"note": "village shops chain"
+},
+{
+"id": "envirochemie.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "water treatment"
+},
+{
+"id": "kefairport.is",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Isavia",
+"note": "airport unit"
+},
+{
+"id": "finbank.com.ng",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "absorbed by FCMB"
+},
+{
+"id": "sidestepstore.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Foot Locker",
+"note": "sneaker retailer"
+},
+{
+"id": "thalesraytheon.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Thales",
+"note": "radar joint venture"
+},
+{
+"id": "sauter-cumulus.de",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Fr. Sauter AG",
+"note": "Germany unit"
+},
+{
+"id": "stromma.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "sightseeing group"
+},
+{
+"id": "wrwks.at",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "City of Vienna",
+"note": "customer service unit"
+},
+{
+"id": "gino-rossi.com",
+"t": "real",
+"fit": 1,
+"scale": "small",
+"parent": "",
+"note": "footwear brand"
+},
+{
+"id": "rabota.ua",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Ukraine fashion retail"
+},
+{
+"id": "ztr.com.ua",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "transformer maker"
+},
+{
+"id": "norsktakst.no",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "trade association"
+},
+{
+"id": "flygt.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Xylem",
+"note": "pumps brand"
+},
+{
+"id": "chinesesilk.com",
+"t": "real",
+"fit": 1,
+"scale": "small",
+"parent": "",
+"note": "silk supplier"
+},
+{
+"id": "lalandia.dk",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "holiday centres"
+},
+{
+"id": "czechairlineshandling.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Czech Aeroholding",
+"note": "handling unit"
+},
+{
+"id": "fust.ch",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Coop Switzerland",
+"note": "electronics retailer"
+},
+{
+"id": "kghmzanam.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "KGHM",
+"note": "mining machinery unit"
+},
+{
+"id": "maico-ventilatoren.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "ventilation maker"
+},
+{
+"id": "carlogavazzi.dk",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Carlo Gavazzi",
+"note": "Denmark unit"
+},
+{
+"id": "novelan.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "ait-deutschland",
+"note": "heat pump brand"
+},
+{
+"id": "nanu-nana.de",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "decor retailer"
+},
+{
+"id": "obo.hu",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "OBO Bettermann",
+"note": "Hungary unit"
+},
+{
+"id": "neuenhauser.de",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "engineering group"
+},
+{
+"id": "ctcgroup.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Cyprus trading group"
+},
+{
+"id": "k-rauta.fi",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Kesko",
+"note": "DIY chain"
+},
+{
+"id": "rbauction.de",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "RB Global",
+"note": "auction unit"
+},
+{
+"id": "kesko.se",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Kesko",
+"note": "Sweden unit"
+},
+{
+"id": "romarm.ro",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "state defence company"
+},
+{
+"id": "expert.ie",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "electrical retailer"
+},
+{
+"id": "contipark.de",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "parking operator"
+},
+{
+"id": "maendeleobank.co.tz",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Tanzania bank"
+},
+{
+"id": "matratzen-concord.de",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "mattress retailer"
+},
+{
+"id": "sas.no",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "SAS",
+"note": "Norway unit"
+},
+{
+"id": "pflanzen-koelle.de",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "garden centres"
+},
+{
+"id": "sikorea.co.kr",
+"t": "real",
+"fit": 2,
+"scale": "large",
+"parent": "Shinsegae Group",
+"note": "luxury fashion distributor"
+},
+{
+"id": "nshgroup.com",
+"t": "real",
+"fit": 2,
+"scale": "mid",
+"parent": "",
+"note": "machine tool group"
+},
+{
+"id": "iba-industrial.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "IBA",
+"note": "industrial unit"
+},
+{
+"id": "weidmuller.pl",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Weidmuller",
+"note": "Poland unit"
+},
+{
+"id": "mediamarkt.at",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Ceconomy",
+"note": "country unit"
+},
+{
+"id": "koerber.hu",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Korber",
+"note": "Pecs campus"
+},
+{
+"id": "getraenke-hoffmann.de",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "beverage retailer"
+},
+{
+"id": "vnukovo.ru",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "airport operator"
+},
+{
+"id": "rena.com",
+"t": "real",
+"fit": 2,
+"scale": "mid",
+"parent": "",
+"note": "wet processing equipment"
+},
+{
+"id": "svenskfast.se",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "estate agency"
+},
+{
+"id": "ivalisgroup.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "French retail group"
+},
+{
+"id": "orridge.co.uk",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "stocktaking services"
+},
+{
+"id": "uralairlines.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "airline"
+},
+{
+"id": "bimeks.com.tr",
+"t": "real",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "electronics retailer"
+},
+{
+"id": "carsrl.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "road signage"
+},
+{
+"id": "esystems.de",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Kontron",
+"note": "embedded unit"
+},
+{
+"id": "epcg.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "state utility"
+},
+{
+"id": "sma-sverige.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "SMA Solar",
+"note": "Sweden unit"
+},
+{
+"id": "amavita.ch",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Galenica",
+"note": "pharmacy chain"
+},
+{
+"id": "blythevalleypark.co.uk",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "business park site"
+},
+{
+"id": "jeans-fritz.de",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "jeans retailer"
+},
+{
+"id": "smart-dataservices.de",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "data services"
+},
+{
+"id": "spar.ch",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "SPAR International",
+"note": "Swiss licensee"
+},
+{
+"id": "alphamega.com.cy",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Cyprus supermarkets"
+},
+{
+"id": "zbomhome.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "home furnishing"
+},
+{
+"id": "burkert.se",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Burkert",
+"note": "Sweden unit"
+},
+{
+"id": "itoki.jp",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "office furniture"
+},
+{
+"id": "flyco.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "shavers, appliances"
+},
+{
+"id": "clemessy-services.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Eiffage",
+"note": "energy systems brand"
+},
+{
+"id": "dh.hu",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Duna House Holding",
+"note": "franchise unit"
+},
+{
+"id": "ctip.it",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "energy solutions"
+},
+{
+"id": "autocom.su",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "auto components"
+},
+{
+"id": "airbusan.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "Korean Air",
+"note": "low-cost airline"
+},
+{
+"id": "elco-automation.de",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Elco Holding",
+"note": "automation unit"
+},
+{
+"id": "washtec.es",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "WashTec",
+"note": "Spain unit"
+},
+{
+"id": "affecto.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "absorbed into Tietoevry"
+},
+{
+"id": "frolundatorg.se",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "shopping mall"
+},
+{
+"id": "flyaurora.ru",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Aeroflot",
+"note": "airline subsidiary"
+},
+{
+"id": "vowretail.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "office supplies"
+},
+{
+"id": "prooptik.de",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "optician chain"
+},
+{
+"id": "topline.ie",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "DIY retailer"
+},
+{
+"id": "mouzenidis.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Greek tour operator"
+},
+{
+"id": "glatt.ch",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "shopping mall"
+},
+{
+"id": "eti-de.de",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "ETI Group",
+"note": "Germany unit"
+},
+{
+"id": "primetower.ch",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "office tower site"
+},
+{
+"id": "jdsports.nl",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "JD Sports",
+"note": "Netherlands unit"
+},
+{
+"id": "werkenbijeyecare.nl",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "optician group"
+},
+{
+"id": "ems.rs",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "grid operator"
+},
+{
+"id": "noventi.healthcare",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "healthcare IT"
+},
+{
+"id": "rukavychka.ua",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "supermarket chain"
+},
+{
+"id": "abs-group.de",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Adecco",
+"note": "staffing unit"
+},
+{
+"id": "vivafresh-rks.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Kosovo retailer"
+},
+{
+"id": "kmchhospitals.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "single hospital"
+},
+{
+"id": "arunestates.co.uk",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "estate agency"
+},
+{
+"id": "deutsche-hypo.de",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "NORD/LB",
+"note": "real estate bank unit"
+},
+{
+"id": "vtwonen.nl",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "trade fair event"
+}
+]

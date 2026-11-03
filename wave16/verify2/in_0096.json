@@ -1,0 +1,122 @@
+[
+{
+"id": "wfj.com.cn",
+"company": "Beijing Wangfujing Department Store (Group) Co., Ltd.",
+"sector": "X06 Retail & E-commerce",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Beijing department stores"
+},
+{
+"id": "sh600649.com",
+"company": "Shanghai Chengtou Holding Co., Ltd.",
+"sector": "X02 Real Estate & Building Products",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Shanghai investment holding"
+},
+{
+"id": "shenergy.net.cn",
+"company": "Shenergy Co., Ltd.",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Shanghai energy group"
+},
+{
+"id": "ssgf.net",
+"company": "Ningbo Shanshan Co., Ltd.",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Chinese battery materials"
+},
+{
+"id": "kmart.com",
+"company": "Kmart",
+"sector": "X06 Retail & E-commerce",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Transformco",
+"triage_note": "real; fit 0; scale large; faded US retailer"
+},
+{
+"id": "gclsi.com",
+"company": "GCL System Integration",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "GCL System Integration",
+"triage_note": "real; fit 0; scale large; solar integrator"
+},
+{
+"id": "elisabeth-vinzenz.de",
+"company": "Elisabeth Vinzenz Verbund GmbH (EVV)",
+"sector": "42 Health & Wellness",
+"country": "Germany",
+"type": "Self Owned",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; German hospital group"
+},
+{
+"id": "jobs-fressnapf.com",
+"company": "Fressnapf Deutschland",
+"sector": "X06 Retail & E-commerce",
+"country": "Germany",
+"type": "Self Owned",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; European pet retailer"
+},
+{
+"id": "spsetia.com",
+"company": "SP Setia Career Page",
+"sector": "X02 Real Estate & Building Products",
+"country": "Malaysia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Malaysian property developer"
+},
+{
+"id": "ldjt.com.cn",
+"company": "绿地集团",
+"sector": "X02 Real Estate & Building Products",
+"country": "Hong Kong",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Chinese real estate giant"
+}
+]

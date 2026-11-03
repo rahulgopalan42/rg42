@@ -1,0 +1,289 @@
+[
+ {
+  "id": "isabellenhuette.com",
+  "company": "Isabellenhuette",
+  "sector_tab": "45 Electronic Parts",
+  "domain": "isabellenhuette.com",
+  "hq": "Dillenburg, Germany",
+  "ownership": "Private, Heusler family since 1827",
+  "sells": "Precision/power resistors, precision alloys, current sensors (IVT) and measurement tech for automotive/EV and industry; acquired Rathgeber Dec 2024",
+  "headcount_band": "1,001-5,000 (~1,000 at Dillenburg, 2024)",
+  "revenue": "not disclosed; only estimate ~USD 30M (Prospeo, est, implausible); input EUR 200M unverified",
+  "valuation": "n/a (private)",
+  "latest_raise": "none",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; senior B2B buyers yes; precision story yes; electronic components not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "F1 tie: FIA technology partner; IVT-F current sensor supplied to F1 teams' KERS/ERS (McLaren origin, 9 teams in 2012) - confirm current status",
+   "scale unverified"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Hard filter 4: F1 supplier tie (FIA technology partner; IVT-F sensors used by F1 teams) and hard filter 1 unproven (no sourced revenue >= USD 150M)",
+  "best_angle": "",
+  "sources": [
+   "https://www.computer-automation.de/sensoren/isabellenhuette-kontrolliert-formel-1-boliden.htm",
+   "https://eepower.com/technical-articles/electricity-in-the-blood-utilizing-ivt-current-measuring-technology-in-today039s-racing-cars/",
+   "https://www.isabellenhuette.de/fileadmin/Daten/Unternehmen/PM_Isabellenhuette_Rathgeber_Website.pdf",
+   "https://prospeo.io/c/isabellenhutte-heusler-revenue"
+  ]
+ },
+ {
+  "id": "shapetechnologies.com",
+  "company": "Shape Technologies (Flow, KMT)",
+  "sector_tab": "23 Machine Tools",
+  "domain": "shapetechnologies.com",
+  "hq": "Kent, Washington, USA",
+  "ownership": "PE-backed; American Industrial Partners since 2013, AIP lists exit 2024 (buyer not disclosed) - current owner unverified",
+  "sells": "Ultra-high-pressure waterjet cutting systems and pumps (Flow, KMT Group), process automation",
+  "headcount_band": "1,001-5,000 (1,100 in 2016; ~2,000 est)",
+  "revenue": "~USD 390M (2016); current est higher (unverified)",
+  "valuation": "n/a (Flow acquired for USD 200M+ in 2013)",
+  "latest_raise": "none disclosed",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; senior B2B buyers yes; precision cutting story yes; category not crowded yes; no consumer audience",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue dated (2016)",
+   "AIP exit 2024 - confirm current owner",
+   "industrial B2B, low brand motive"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Scale only via USD 150-500M revenue route (USD 390M 2016; capped Stretch); industrial B2B waterjet maker with no brand ambition and unclear current ownership",
+  "best_angle": "",
+  "sources": [
+   "https://peprofessional.com/tag/waterjets/",
+   "https://americanindustrial.com/portfolio/shape-technologies/",
+   "https://www.compositesworld.com/news/flow-international-to-be-acquired-by-private-equity-firm",
+   "https://www.shapetechnologies.com/our-companies/"
+  ]
+ },
+ {
+  "id": "ulma.com",
+  "company": "ULMA Group",
+  "sector_tab": "39 Construction & Field Svc",
+  "domain": "ulma.com",
+  "hq": "Oñati (Gipuzkoa), Spain",
+  "ownership": "Cooperative group (member of Mondragon cooperative federation; not a subsidiary)",
+  "sells": "Construction formwork/scaffolding, packaging machinery, handling/logistics systems, architectural products, forgings, in 80+ countries",
+  "headcount_band": "5,001-10,000 (6,000+, end 2025)",
+  "revenue": "EUR 1,238.9M (2025); EUR 1,151M (2024)",
+  "valuation": "n/a (cooperative)",
+  "latest_raise": "none (EUR 115M debt financing; EUR 45M EIB loan 2025)",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; senior B2B buyers yes; engineering story partial; category not crowded yes; diversified B2B",
+  "up_and_coming": false,
+  "flags": [
+   "Mondragon cooperative member",
+   "diversified industrial B2B, low brand motive"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters (EUR 1.24B revenue 2025, 6,000+ staff, no F1 tie found) but diversified industrial B2B cooperative with no brand ambition",
+  "best_angle": "",
+  "sources": [
+   "https://forbes.es/?p=954581",
+   "https://www.alimarket.es/envase/noticia_amp/414923/ulma-cierra-una-ronda-de-financiacion-de-115-m",
+   "https://www.eib.org/en/press/all/2025-270-eib-and-ulma-group-sign-eur45-million-loan-to-support-innovation-and-sustainability-in-the-construction-value-chain?lang=es"
+  ]
+ },
+ {
+  "id": "dbapparel.com",
+  "company": "Dim Brands International",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "dbapparel.com",
+  "hq": "Rueil-Malmaison (Paris), France",
+  "ownership": "Regent L.P. (PE; bought from HanesBrands for symbolic EUR 1, 2022)",
+  "sells": "Innerwear and hosiery brands Dim, Playtex, Wonderbra, Lovable, Bellinda across Europe",
+  "headcount_band": "1,001-5,000 (~3,300 in 10 countries)",
+  "revenue": "USD 500-600M (2020, reported); input EUR ~500M FY2023 (est)",
+  "valuation": "n/a (sold for EUR 1, 2022)",
+  "latest_raise": "none",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets (France, Italy, Spain, Germany) yes; mass-market not affluent = 0; story not performance = 0; innerwear not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "revenue dated (2020)",
+   "PE turnaround owner (Regent) - monitor for restructuring",
+   "Europe-only"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters (revenue ~USD 500-600M 2020, ~3,300 staff, no F1 tie found); reservations: dated revenue, turnaround owner, mass-market audience",
+  "best_angle": "Heritage French innerwear brands could use F1 Academy or European races for a women-focused relaunch.",
+  "sources": [
+   "https://ie.fashionnetwork.com/news/Hanes-Europe-Innerwear-renamed-Dim-Brands-International-after-sale,1385439.html",
+   "https://fashionunited.fr/actualite/business/dim-cede-a-un-fonds-d-investissement-americain/2021110428341",
+   "https://www.macommune.info/dim-en-chomage-partiel-suite-a-un-serieux-incident-informatique"
+  ]
+ },
+ {
+  "id": "chelseafc.com",
+  "company": "Chelsea Football Club",
+  "sector_tab": "X Sports Clubs & Leagues",
+  "domain": "chelseafc.com",
+  "hq": "London, UK",
+  "ownership": "BlueCo (Todd Boehly / Clearlake Capital consortium; bought for GBP 4.25B, 2022)",
+  "sells": "Premier League football club: media rights, matchday, commercial",
+  "headcount_band": "501-1,000 (~900 est)",
+  "revenue": "GBP 490.9M (FY to 30 Jun 2025)",
+  "valuation": "GBP 4.25B purchase (2022)",
+  "latest_raise": "none",
+  "fit_score": 2,
+  "fit_detail": "global fanbase in 3+ F1 markets yes; mass football fans not affluent target = 0; story not performance = 0; sports clubs not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "rights-holder, not natural sponsor buyer",
+   "record GBP 262.4M pre-tax loss FY2025 (owner-funded, not distress)"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters (GBP 490.9M revenue FY2025, no F1 tie found) but a rights-holder with weak motive to buy F1 sponsorship",
+  "best_angle": "",
+  "sources": [
+   "https://www.chelseafc.com/en/news/article/financial-results-for-2024-25",
+   "https://www.insideworldfootball.com/2026/04/02/chelsea-announce-staggering-262-4million-loss-latest-accounts/"
+  ]
+ },
+ {
+  "id": "desigual.com",
+  "company": "Desigual",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "desigual.com",
+  "hq": "Barcelona, Spain",
+  "ownership": "Private, founder Thomas Meyer (majority); Eurazeo minority",
+  "sells": "Fashion apparel and accessories in 100+ countries via own stores, wholesale and online",
+  "headcount_band": "1,001-5,000 (~3,000 est)",
+  "revenue": "EUR 332M (2024)",
+  "valuation": "n/a (Eurazeo bought 10% at ~EUR 2.9B implied, 2014 - dated)",
+  "latest_raise": "none recent",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; affluent 25-54 partial yes; story not performance = 0; fashion not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "returned to profit 2024 after EUR 61.4M loss 2023"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters via USD 150-500M revenue route (EUR 332M 2024; capped Stretch); no F1 tie found",
+  "best_angle": "Colour-driven Barcelona fashion brand in a new strategic plan to 2029 could use F1 lifestyle/fashion activations (Barcelona GP) to regain growth.",
+  "sources": [
+   "https://fashionunited.es/noticias/empresas/desigual-cierra-2024-vendiendo-332-millones-de-euros/2025041645569",
+   "https://es.ara.cat/economia/moda/receta-estetica-financiera-devuelto-desigual-beneficios_1_5552946.html",
+   "https://www.modaes.com/empresa/desigual-fase-2-de-la-transformacion-nuevo-plan-estrategico-hasta-2029-para-volver-a-crecer"
+  ]
+ },
+ {
+  "id": "ballarena.com",
+  "company": "Kroenke Sports & Entertainment",
+  "sector_tab": "X Sports Clubs & Leagues",
+  "domain": "ballarena.com",
+  "hq": "Denver, Colorado, USA",
+  "ownership": "Private, Stan Kroenke family",
+  "sells": "Sports teams and venues: Arsenal, LA Rams, Denver Nuggets, Colorado Avalanche, Ball Arena, media",
+  "headcount_band": "1,001-5,000 (1,001-2,000 est)",
+  "revenue": "not disclosed",
+  "valuation": "~USD 15.59B (Forbes sports empires, 2024)",
+  "latest_raise": "none",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets (US, UK) yes; mass sports fans = 0; story not performance = 0; sports clubs not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "rights-holder, not natural sponsor buyer",
+   "domain is Ball Arena venue"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters (USD 15.6B valuation 2024, no F1 tie found) but a rights-holder with weak motive to buy F1 sponsorship",
+  "best_angle": "",
+  "sources": [
+   "https://www.nationalworld.com/sport/football/arsenal-owners-named-second-richest-sports-empire-how-stunning-ps1337bn-value-compares-to-liverpool-man-united-4566955?page=7",
+   "https://www.gpfans.com/amp/article.php?id=100339",
+   "https://prospeo.io/c/kroenke-sports-entertainment-revenue"
+  ]
+ },
+ {
+  "id": "geox.com",
+  "company": "Geox",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "geox.com",
+  "hq": "Montebelluna (Treviso), Italy",
+  "ownership": "Listed (Euronext Milan); LIR S.r.l. (Moretti Polegato family) ~71%",
+  "sells": "Breathable-technology footwear and apparel in 100+ countries",
+  "headcount_band": "1,001-5,000 (~2,900 est)",
+  "revenue": "EUR 608.7M (FY2025)",
+  "valuation": "listed small-cap (market cap < USD 1B)",
+  "latest_raise": "EUR 30M capital increase under Refinancing Plan (2025)",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; affluent 25-54 partial yes; breathing-tech story yes; footwear not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "lapsed F1 tie: Red Bull Racing footwear/apparel partner 2011-2014 - confirm before outreach",
+   "loss-making turnaround: EUR 16.2M net loss FY2025, Refinancing Plan, closed China/US subsidiaries"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters (EUR 608.7M revenue FY2025, no current F1 tie); lapsed Red Bull Racing partnership (cap Stretch) and loss-making turnaround",
+  "best_angle": "Former Red Bull Racing partner could revisit F1 to re-launch its breathable tech story as the turnaround progresses.",
+  "sources": [
+   "https://www.geox.biz/static/upload/fy2/fy2025-results1.pdf",
+   "https://fashionunited.uk/news/business/geox-spa-h1-revenue-down-4-7-percent/2025073083099",
+   "https://www.grandprix247.com/formula-1-news/red-bull-to-continue-partnership-with-geox-in-2014",
+   "https://www.shoeintelligence.com/geox-extends-red-bull-partnership/31927.article"
+  ]
+ },
+ {
+  "id": "ugg.com",
+  "company": "UGG",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "ugg.com",
+  "hq": "Goleta, California, USA",
+  "ownership": "Brand of Deckers Brands (NYSE: DECK)",
+  "sells": "Premium footwear, apparel and home goods sold globally via DTC and wholesale",
+  "headcount_band": "1,001-5,000 (~1,100 brand est; Deckers ~5,500)",
+  "revenue": "UGG ~USD 2.5B (FY2025, est); Deckers USD 5.47B (FY to Mar 2026)",
+  "valuation": "Deckers market cap USD 1B+ (listed)",
+  "latest_raise": "n/a (listed parent)",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; affluent 25-54 yes; comfort/fashion story not performance = 0; footwear/fashion not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "group brand: Deckers Brands",
+   "no F1 tie found for UGG, HOKA or Deckers"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Separately marketed consumer brand (Deckers) passing all filters (UGG ~USD 2.5B revenue), fit 3, active fashion/culture marketing gives credible motive",
+  "best_angle": "UGG's fashion-week and culture collaborations fit F1's lifestyle audience growth, especially in the US races (Miami, Austin, Las Vegas).",
+  "sources": [
+   "https://fashionunited.com/news/fashion/alphatauri-named-official-fashion-brand-sponsor-for-formula-1/2022032246660",
+   "https://fibre2fashion.com/news/fashion-news/germany-s-hugo-teams-up-with-rb-formula-one-team-for-f1-fashion-292996-newsdetails.htm"
+  ]
+ },
+ {
+  "id": "laderach.com",
+  "company": "Laderach",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "laderach.com",
+  "hq": "Bilten (Glarus), Switzerland",
+  "ownership": "Private, Läderach family",
+  "sells": "Premium Swiss chocolate via 250+ own chocolateries in 28 countries (plus franchise Middle East/Far East)",
+  "headcount_band": "1,001-5,000 (2,500+, 2025)",
+  "revenue": "not disclosed; CHF 120M (2016); ~20% growth 2025; est CHF 250M+ (2024, est)",
+  "valuation": "n/a (private)",
+  "latest_raise": "none",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; affluent 25-54 yes; Swiss craft story not performance = 0; premium chocolate not crowded yes (KitKat is F1 official chocolate)",
+  "up_and_coming": true,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue unverified (est)",
+   "market expansion: Europe/US -> Japan, Egypt, Thailand, Turkey (2025)",
+   "owner-family controversy (2024)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters on estimated USD 150-500M revenue (capped Stretch); reservations: revenue unverified and 2024 owner-family controversy",
+  "best_angle": "Fast-expanding Swiss chocolatier (~20% growth, 43 new stores in 2025) could use F1 to build awareness in new markets like Japan and the Middle East.",
+  "sources": [
+   "https://laderach.com/uk-en/blog/post/laderach-opens-its-250th-chocolate-store-in-toronto",
+   "https://www.confectioneryproduction.com/news/55715/festive-season-success-for-laderach-as-toronto-store-becomes-companys-250th-chocolaterie/",
+   "https://en.wikipedia.org/wiki/L%C3%A4derach",
+   "https://prospeo.io/c/laderach-revenue"
+  ]
+ }
+]

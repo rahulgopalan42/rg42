@@ -1,0 +1,289 @@
+[
+ {
+  "id": "feg.eu",
+  "company": "Fortuna Entertainment Group",
+  "sector_tab": "X Gambling & Lotteries",
+  "domain": "feg.eu",
+  "hq": "Prague, Czechia",
+  "ownership": "Private; wholly owned by Penta Investments (via Fortbet Holdings) since 2005/2017 delisting",
+  "sells": "Retail and online sports betting, casino, lottery in Czechia, Slovakia, Poland, Romania, Croatia; acquiring Lob (Montenegro, 51%, Oct 2025) and TOPsport (Lithuania, 70%, Mar 2026)",
+  "headcount_band": "1,001-5,000 (~3,000, est)",
+  "revenue": "Not disclosed; EBITDA ~EUR 200M 2023 (Reuters via next.io) implies revenue ~EUR 0.7-1B (est)",
+  "valuation": "~EUR 2B (2024-25 sale talks, Reuters/Forbes CZ, est)",
+  "latest_raise": "none (acquisitions funded internally)",
+  "fit_score": 2,
+  "fit_detail": "F1 markets weak (CEE only; no GP host market); men 25-54 audience yes; story weak on performance/tech; betting not on crowded list yes",
+  "up_and_coming": true,
+  "flags": [
+   "gambling advertising restrictions by market",
+   "CEE-regional brand",
+   "market expansion: CEE -> Lithuania/Montenegro (2025-26 acquisitions)",
+   "revenue est only (EBITDA-derived)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on valuation ~EUR 2B (est) / revenue (est); no F1 tie found for Fortuna or Penta; reservation: regional CEE gambling brand with ad restrictions.",
+  "best_angle": "Expanding across CEE via acquisitions; F1 betting/hospitality content could build a pan-regional brand beyond football.",
+  "sources": [
+   "https://next.io/?p=153961",
+   "https://www.pentainvestments.com/en/fortuna-entertainment-group-expands-into-lithuania-with-acquisition-of-topsport/",
+   "https://www.pentainvestments.com/en/fortuna-entertainment-group-acquires-montenegrin-lob/",
+   "https://forbes.cz/penta-zacina-zvazovat-prodej-fortuny-cena-by-mohla-presahnout-padesat-miliard/",
+   "https://www.pentainvestments.com/en/?p=3292"
+  ]
+ },
+ {
+  "id": "scalperscompany.com",
+  "company": "Scalpers",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "scalperscompany.com",
+  "hq": "Seville, Spain",
+  "ownership": "Private; founder-led (Alfonso Martinez de Irujo / Borja Vazquez)",
+  "sells": "Premium men's and women's fashion and sportswear (golf/padel); ~370 points of sale in 11 countries incl. Spain, Portugal, Mexico, Peru, Middle East",
+  "headcount_band": "1,001-5,000 (~1,200, est)",
+  "revenue": "EUR ~220M 2024 (+10%); EUR 200M 2023; EUR 300M 2025 target (unconfirmed)",
+  "valuation": "n/a (private)",
+  "latest_raise": "none",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes (Spain, Mexico, Portugal/Middle East); affluent 25-54 yes; sporty/ambition story partial; fashion not crowded on grid yes",
+  "up_and_coming": true,
+  "flags": [
+   "USD 150-500M revenue route",
+   "market expansion: Spain -> Latin America/international (2025 plan, 35 openings)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on USD 150-500M revenue route (EUR ~220M 2024); no F1 tie found; capped at Stretch.",
+  "best_angle": "Madrid GP from 2026 plus Mexico City give a home and expansion-market stage for a fast-growing Spanish premium brand.",
+  "sources": [
+   "https://www.modaes.com/empresa/scalpers-crece-un-20-en-2024-hasta-220-millones-y-proyecta-35-aperturas-en-2025",
+   "https://www.modaes.com/empresa/scalpers-se-apoya-en-la-expansion-internacional-para-alcanzar-300-millones-de-euros-en-2025",
+   "https://www.modaes.com/empresa/scalpers-sigue-ganando-terreno-en-latinoamerica-con-la-apertura-de-su-segunda-tienda-en-peru"
+  ]
+ },
+ {
+  "id": "paulsmith.com",
+  "company": "Paul Smith",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "paulsmith.com",
+  "hq": "Nottingham/London, United Kingdom",
+  "ownership": "Private; founder Sir Paul Smith controls; Itochu ~40% minority",
+  "sells": "Designer menswear/womenswear, accessories; own stores, e-commerce and wholesale; UK, Japan, Europe, Asia, US",
+  "headcount_band": "1,001-5,000 (~1,200, est)",
+  "revenue": "GBP ~181M FY6/2025 (-8%; ~USD 235M); pre-tax loss GBP 16.7M",
+  "valuation": "n/a (private)",
+  "latest_raise": "none",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes (UK, Japan, Europe, US); affluent 25-54 yes; British design story, not performance (no); fashion not crowded on grid yes",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "sales falling and loss widening FY2025",
+   "minority holder Itochu (no F1 tie found)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on USD 150-500M revenue route (GBP 181M FY2025); no F1 tie found; capped at Stretch with declining sales.",
+  "best_angle": "British GP and Japan GP audiences mirror its two biggest markets; founder's motorsport/cycling passion gives authentic story.",
+  "sources": [
+   "https://uk.fashionnetwork.com/news/Loss-making-paul-smith-is-bouncing-back-in-current-year,1813130.html",
+   "https://www.theindustry.fashion/paul-smith-sales-and-profits-tumble-but-outlook-for-2026-remains-positive/"
+  ]
+ },
+ {
+  "id": "gewiss.com",
+  "company": "Gewiss",
+  "sector_tab": "45 Electronic Parts",
+  "domain": "gewiss.com",
+  "hq": "Cenate Sotto (Bergamo), Italy",
+  "ownership": "Private; Bosatelli family via Polifin; acquired 75% of Beghelli (Dec 2024)",
+  "sells": "Electrical installation products, smart home/building automation, lighting, EV charging; Italy plus Europe, Middle East",
+  "headcount_band": "1,001-5,000 (~3,300, est)",
+  "revenue": "EUR 556M 2023 (+18.8%; >EUR 620M on wider perimeter); EUR 824M 2025 incl. Beghelli (Il Sole 24 Ore, per screen)",
+  "valuation": "n/a (private)",
+  "latest_raise": "none",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes (Italy, Spain, France, UK, Middle East); senior B2B buyers yes; smart/technology story yes; electrical not crowded on grid yes",
+  "up_and_coming": false,
+  "flags": [
+   "mostly B2B Europe",
+   "acquisitive (Beghelli 2024)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on revenue USD 500M+ (EUR 556M 2023; EUR 824M 2025); no F1 tie found; reservation: mostly B2B installer brand in Europe.",
+  "best_angle": "Targeting EUR 1B revenue and growing via Beghelli; Monza/Imola and EV-charging/energy story suit an Italian electrification brand.",
+  "sources": [
+   "https://www.milanofinanza.it/news/gewiss-entro-5-anni-punta-a-1-miliardo-di-fatturato-202406252032243287",
+   "https://www.milanofinanza.it/news/polifin-la-cassaforte-dei-bosatelli-vede-un-miliardo-di-ricavi-dal-boom-di-gewiss-al-rilancio-di-costim-202411012027164683",
+   "https://forbes.it/2024/12/10/bergamasca-gewiss-compra-75-beghelli-prepara-delistare-titolo/"
+  ]
+ },
+ {
+  "id": "nuxe.com",
+  "company": "Nuxe Group",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "nuxe.com",
+  "hq": "Paris, France",
+  "ownership": "Private; founder Aliza Jabes controls; Sofina 49% minority (since 2019)",
+  "sells": "Natural-origin skincare and body care (Huile Prodigieuse), spas; pharmacies and retail; 53% of sales outside France (China, Europe, US)",
+  "headcount_band": "501-1,000 (~800, 2023, Sofina)",
+  "revenue": "EUR 285M 2023 (restated, Sofina); EUR 275M 2018",
+  "valuation": "n/a (Sofina's 2019 stake price undisclosed)",
+  "latest_raise": "none in 36m",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; affluent 25-54 women yes; story not performance/tech (no); beauty not crowded on grid yes",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "minority holder Sofina 49% (no F1 tie found)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on USD 150-500M revenue route (EUR 285M 2023); no F1 tie found; capped at Stretch.",
+  "best_angle": "F1's fast-growing female audience in China/US fits a French skincare brand with over half its sales abroad.",
+  "sources": [
+   "https://sofinagroup.com/project/nuxe",
+   "https://hk.fashionnetwork.com/news/Sofina-buys-45-13-stake-in-French-natural-cosmetics-brand-Nuxe,1141593",
+   "https://www.gcimagazine.com/brands-products/news/news/21871593/sofina-takes-minority-stake-in-nuxe"
+  ]
+ },
+ {
+  "id": "ba-sh.com",
+  "company": "ba&sh",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "ba-sh.com",
+  "hq": "Paris, France",
+  "ownership": "Private; Muse Holding; HLD (majority since 2022, diluted by bondholder conversion Mar 2025); founders run operations",
+  "sells": "Contemporary womenswear; ~320-330 stores, 25% digital sales; Europe, US, Asia",
+  "headcount_band": "1,001-5,000 (~1,100, est)",
+  "revenue": "EUR ~300M 2024; EUR ~300M 2025 (single source); EUR 310M 2023",
+  "valuation": "n/a",
+  "latest_raise": "EUR 15M shareholder equity injection with debt-for-equity (Mar 2025)",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; affluent 25-54 women yes; story not performance/tech (no); fashion not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "distress: accelerated safeguard plan for Muse Holding approved by Paris commercial court 18 Mar 2025 (bond/vendor loan converted to equity, senior debt rescheduled)",
+   "financial debt EUR 218M (2024)"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Fails hard filter 3 (distress): court-approved accelerated safeguard/debt-for-equity restructuring of holding company in Mar 2025.",
+  "best_angle": "",
+  "sources": [
+   "https://www.lemondedudroit.fr/deals/97916-willkie-conseille-groupe-ba-sh-dans-le-cadre-de-sa-restructuration-financiere.html",
+   "https://www.doctrine.fr/d/TCOM/Paris/2025/TCOMP3A9798E3235ADC02B7A6",
+   "https://fashionunited.com/news/business/ba-sh-founders-take-back-control-of-the-brand/2025013164254",
+   "https://letsdatascience.com/news/bash-posts-sales-growth-reaches-300-million-c9f41e2e"
+  ]
+ },
+ {
+  "id": "camper.com",
+  "company": "Camper",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "camper.com",
+  "hq": "Inca (Mallorca), Spain",
+  "ownership": "Private; Fluxa family-owned",
+  "sells": "Design-led casual footwear; 350 own stores in 30 countries plus wholesale and e-commerce",
+  "headcount_band": "1,001-5,000 (~1,100, est)",
+  "revenue": "EUR 237-240M 2024 (Modaes; +5.8-14%); EUR 265M 2025 target",
+  "valuation": "n/a (private)",
+  "latest_raise": "none",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes (30 countries); affluent 25-54 partial yes; design story not performance (no); footwear/fashion not crowded on grid yes",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on USD 150-500M revenue route (EUR ~237M 2024); no F1 tie found; capped at Stretch.",
+  "best_angle": "2025 expansion plan (Paris flagship, 25 net openings) and Madrid GP from 2026 give a Spanish-heritage brand a global stage.",
+  "sources": [
+   "https://www.modaes.com/empresas/camper-mira-al-doble-digito-apunta-a-facturar-265-millones-en-2025-un-12-mas",
+   "https://www.modaes.com/empresas/camper-alcanza-240-millones-en-2024-y-estrena-en-paris-su-plan-de-expansion-para-2025"
+  ]
+ },
+ {
+  "id": "acnestudios.com",
+  "company": "Acne Studios",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "acnestudios.com",
+  "hq": "Stockholm, Sweden",
+  "ownership": "Private; founders/management majority (Jonny Johansson, Mikael Schiller); IDG Capital and I.T Group minority",
+  "sells": "Fashion, denim, accessories; own stores in Europe, Asia, US plus wholesale and e-commerce",
+  "headcount_band": "501-1,000 (~1,000, est)",
+  "revenue": "SEK 2,156M FY to Aug 2024 (~USD 205M; -0.9%), net income SEK 234M; group est EUR 300-350M 2024",
+  "valuation": "n/a (private)",
+  "latest_raise": "none",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; affluent 25-40 skew (partial 25-54) yes; creative story not performance (no); fashion not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "flat revenue"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on USD 150-500M revenue route (SEK 2.16B FY2024); no F1 tie found; capped at Stretch.",
+  "best_angle": "F1's younger, fashion-forward fanbase and paddock-as-runway culture suit a cult Scandinavian label.",
+  "sources": [
+   "https://www.fashionbi.com/insights/acne-studios-2024-financial-performance-from-revenue-plateau-to-profit-surge",
+   "https://www.allabolag.se/bokslut/acne-studios-ab/stockholm/klc3a4der/2K1AAB2I5YEZD",
+   "https://thefashionography.com/fashion-brands/acne-studios/"
+  ]
+ },
+ {
+  "id": "humanscale.com",
+  "company": "Humanscale",
+  "sector_tab": "49 Home & Living",
+  "domain": "humanscale.com",
+  "hq": "New York, NY, United States",
+  "ownership": "Private; founder-owned (CEO Bob King)",
+  "sells": "Ergonomic office furniture, monitor arms, sit-stand desks, task chairs; workplace buyers in US, UK, Europe, Asia",
+  "headcount_band": "1,001-5,000 (~1,178, 2025, Revelio est)",
+  "revenue": "USD ~275M FY2024 (est; unverified - third-party ranges USD 100M-2B)",
+  "valuation": "n/a (private)",
+  "latest_raise": "none",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; senior B2B workplace buyers yes; ergonomic performance/design story yes; furniture not crowded on grid yes",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue unverified (est)",
+   "B2B workplace buyers"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on USD 150-500M revenue route (USD ~275M, est); no F1 tie found; capped at Stretch, revenue unverified.",
+  "best_angle": "Ergonomics-and-performance story fits F1 factory/sim-rig seating; B2B hospitality reaches corporate workplace buyers.",
+  "sources": [
+   "https://www.reveliolabs.com/companies/humanscale/employees",
+   "https://uk.humanscale.com/about/company-overview",
+   "https://rocketreach.co/answers/what-is-the-annual-revenue-of-humanscale_b5c6236cf42e0cab"
+  ]
+ },
+ {
+  "id": "saber.games",
+  "company": "Saber Interactive",
+  "sector_tab": "29 Tech Media & Gaming",
+  "domain": "saber.games",
+  "hq": "Miami, Florida, United States (studios in Europe/Americas)",
+  "ownership": "Private; Beacon Interactive Group Holdings (co-founder Matthew Karch) since Mar 2024 buyout from Embracer; 2024 minority equity undisclosed",
+  "sells": "Video game developer/publisher (Warhammer 40,000: Space Marine 2, World War Z, SnowRunner); global PC/console",
+  "headcount_band": "1,001-5,000 (~2,500, est)",
+  "revenue": "USD 161.2M 2022 (latest found; stale); 2024-25 higher (est) on Space Marine 2",
+  "valuation": "Embracer sale price USD 247M (Mar 2024)",
+  "latest_raise": "2024 equity from Aleph/Crestview (undisclosed)",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes (global); audience 18-34 male skew (partial); technology/entertainment story yes; game publishers modestly present on grid (not on crowded list) yes",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue stale (2022) - verify",
+   "Russian-origin studio history: Embracer liquidated Russian entities on 2024 sale - confirm no Russian operations/HQ",
+   "financed by USD 203M promissory notes to Embracer"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on USD 150-500M revenue route (USD 161M 2022, stale); no F1 tie or sanctions issue found; capped at Stretch pending Russia-exposure check.",
+  "best_angle": "Post-Embracer independence and Space Marine 2 success; F1's gaming/esports crossover suits a publisher building its own brand.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Saber_Interactive",
+   "https://GamaSutra.com/business/embracer-group-divests-core-saber-interactive-assets-in-deal-worth-247-million",
+   "https://wnhub.io/news/investment/item-43085",
+   "https://shacknews.com/article/139115/embracer-sells-saber-interactive-247-million"
+  ]
+ }
+]

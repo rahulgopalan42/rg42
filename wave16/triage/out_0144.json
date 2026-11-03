@@ -1,0 +1,802 @@
+[
+{
+"id": "maxeon.com",
+"t": "real",
+"fit": 2,
+"scale": "mid",
+"parent": "TCL Zhonghuan",
+"note": "solar panels"
+},
+{
+"id": "lord.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Parker Hannifin",
+"note": "Lord materials unit"
+},
+{
+"id": "yotrioint.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "outdoor furniture"
+},
+{
+"id": "drs.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Leonardo DRS",
+"note": "training systems unit"
+},
+{
+"id": "castillalamancha.es",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "regional health service"
+},
+{
+"id": "groupebonmarche.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "LVMH",
+"note": "department store group"
+},
+{
+"id": "schiphol.com",
+"t": "real",
+"fit": 1,
+"scale": "large",
+"parent": "",
+"note": "Amsterdam airport group"
+},
+{
+"id": "dagab.se",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Axfood",
+"note": "grocery wholesaler unit"
+},
+{
+"id": "bud.hu",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "airport operator"
+},
+{
+"id": "sunclassairlines.dk",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "charter airline"
+},
+{
+"id": "hsw.pl",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "PGZ",
+"note": "artillery maker"
+},
+{
+"id": "cardiff-airport.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "regional airport"
+},
+{
+"id": "big.at",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Austrian state property"
+},
+{
+"id": "doclerholding.hu",
+"t": "real",
+"fit": 0,
+"scale": "large",
+"parent": "",
+"note": "adult streaming operator"
+},
+{
+"id": "lotnisko-chopina.pl",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "PPL",
+"note": "Warsaw airport"
+},
+{
+"id": "kid.no",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Nordic home textiles"
+},
+{
+"id": "tmsindustrialservices.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "industrial maintenance"
+},
+{
+"id": "muenchner-wohnen.de",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "municipal housing"
+},
+{
+"id": "fastighetsbyran.se",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Swedbank",
+"note": "estate agent brand"
+},
+{
+"id": "haicorp.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "aircraft maintenance"
+},
+{
+"id": "stanstedairport.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Manchester Airports Group",
+"note": "airport unit"
+},
+{
+"id": "finavia.fi",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "airport operator"
+},
+{
+"id": "poltronafraugroup.com",
+"t": "real",
+"fit": 4,
+"scale": "mid",
+"parent": "Haworth",
+"note": "luxury furniture, Ferrari link"
+},
+{
+"id": "dus.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "airport operator"
+},
+{
+"id": "nk.se",
+"t": "division",
+"fit": 0,
+"scale": "small",
+"parent": "Hufvudstaden",
+"note": "department store"
+},
+{
+"id": "framo.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Alfa Laval",
+"note": "pump unit"
+},
+{
+"id": "gdels.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "General Dynamics",
+"note": "land systems unit"
+},
+{
+"id": "cnim.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "industrial equipment, defence"
+},
+{
+"id": "komatsuforest.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Komatsu",
+"note": "forestry unit"
+},
+{
+"id": "gfcs.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "absorbed into Nemak"
+},
+{
+"id": "sbibank.com.kh",
+"t": "division",
+"fit": 0,
+"scale": "small",
+"parent": "SBI Holdings",
+"note": "Cambodia bank"
+},
+{
+"id": "stamford-avk.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Cummins",
+"note": "alternator brand"
+},
+{
+"id": "intugroup.co.uk",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "defunct mall owner"
+},
+{
+"id": "sofia-airport.eu",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "airport operator"
+},
+{
+"id": "discover-airlines.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Lufthansa Group",
+"note": "leisure airline"
+},
+{
+"id": "jolywood.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "solar cell maker"
+},
+{
+"id": "rentalcars.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Booking Holdings",
+"note": "car rental platform"
+},
+{
+"id": "lechateau.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "defunct retailer"
+},
+{
+"id": "unionassurance.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Sri Lanka insurer"
+},
+{
+"id": "phase-eight.com",
+"t": "real",
+"fit": 1,
+"scale": "small",
+"parent": "Aurelius",
+"note": "womenswear brand"
+},
+{
+"id": "enterair.pl",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "charter airline"
+},
+{
+"id": "offshore-channel.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "placeholder"
+},
+{
+"id": "prg.aero",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "airport operator"
+},
+{
+"id": "tarom.ro",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "state airline"
+},
+{
+"id": "countrysidepartnerships.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Vistry Group",
+"note": "homebuilder brand"
+},
+{
+"id": "lindenhomes.co.uk",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Vistry Group",
+"note": "homebuilder brand"
+},
+{
+"id": "hikrobotics.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Hikvision",
+"note": "robotics unit"
+},
+{
+"id": "roth-industries.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "heating and bath"
+},
+{
+"id": "watsons.ua",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "A.S. Watson",
+"note": "Ukraine unit"
+},
+{
+"id": "neilson.co.uk",
+"t": "real",
+"fit": 1,
+"scale": "small",
+"parent": "",
+"note": "active holidays"
+},
+{
+"id": "weber-hydraulik.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "hydraulic systems"
+},
+{
+"id": "fortacogroup.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "OEM structures"
+},
+{
+"id": "megabrands.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Mattel",
+"note": "toy brand"
+},
+{
+"id": "aldi.ch",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Aldi Sud",
+"note": "country unit"
+},
+{
+"id": "framtiden.se",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "municipal housing"
+},
+{
+"id": "worten.pt",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Sonae",
+"note": "electronics retailer"
+},
+{
+"id": "rbcgam.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "RBC",
+"note": "asset mgmt division"
+},
+{
+"id": "bricostore.ro",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Kingfisher",
+"note": "DIY brand"
+},
+{
+"id": "skyguide.ch",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "air navigation"
+},
+{
+"id": "sigmait.se",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "IT consulting"
+},
+{
+"id": "intersport.at",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Intersport International",
+"note": "national company"
+},
+{
+"id": "beijingcaesarstravels.com",
+"t": "division",
+"fit": 0,
+"scale": "small",
+"parent": "Caesars Travel",
+"note": "China office"
+},
+{
+"id": "damartex.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "senior retail group"
+},
+{
+"id": "croatiaairlines.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "national airline"
+},
+{
+"id": "matas.dk",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "health and beauty retail"
+},
+{
+"id": "ebl.com.bd",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Bangladesh bank"
+},
+{
+"id": "robinsonsland.com",
+"t": "real",
+"fit": 1,
+"scale": "large",
+"parent": "JG Summit",
+"note": "Philippine developer"
+},
+{
+"id": "digitalhangar.aero",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Lufthansa Group",
+"note": "digital unit"
+},
+{
+"id": "sodifrance.fr",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "IT services France"
+},
+{
+"id": "bonmarche.co.uk",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "collapsed retailer"
+},
+{
+"id": "ytrealtygroup.com.hk",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "HK property"
+},
+{
+"id": "kitchencraft.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "cabinet maker"
+},
+{
+"id": "culham.org.uk",
+"t": "division",
+"fit": 0,
+"scale": "unknown",
+"parent": "UKAEA",
+"note": "science campus site"
+},
+{
+"id": "biochemtex.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "M&G Group",
+"note": "biofuel tech unit"
+},
+{
+"id": "lucky-bike.de",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "bike retailer"
+},
+{
+"id": "zajrzyjzciekawosci.pl",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "TRUMPF",
+"note": "power supply unit"
+},
+{
+"id": "hirschmann-car.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "car antenna unit"
+},
+{
+"id": "pittards.com",
+"t": "real",
+"fit": 1,
+"scale": "small",
+"parent": "",
+"note": "leather maker"
+},
+{
+"id": "aida.co.jp",
+"t": "real",
+"fit": 2,
+"scale": "mid",
+"parent": "",
+"note": "precision press maker"
+},
+{
+"id": "duluxdecoratorcentre.co.uk",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "AkzoNobel",
+"note": "paint retail brand"
+},
+{
+"id": "inno.be",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "defunct department store"
+},
+{
+"id": "friwo.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "power supplies"
+},
+{
+"id": "hudsonsbay.nl",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "defunct NL retailer"
+},
+{
+"id": "sefako.pl",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "boiler maker"
+},
+{
+"id": "peek-und-cloppenburg.de",
+"t": "real",
+"fit": 2,
+"scale": "large",
+"parent": "",
+"note": "fashion retailer"
+},
+{
+"id": "schulz.st",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "systems engineering"
+},
+{
+"id": "driventic.com",
+"t": "real",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "drive technology"
+},
+{
+"id": "goldwin-global.com",
+"t": "real",
+"fit": 2,
+"scale": "mid",
+"parent": "",
+"note": "technical apparel, North Face Japan"
+},
+{
+"id": "burger-group.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "clock and tech parts"
+},
+{
+"id": "eltronic-group.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "industrial automation"
+},
+{
+"id": "aitgroup.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "heat pumps"
+},
+{
+"id": "nuheat.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Chemelex",
+"note": "floor heating brand"
+},
+{
+"id": "landal.dk",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Roompot Group",
+"note": "holiday parks"
+},
+{
+"id": "elproffen.no",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "electrician chain"
+},
+{
+"id": "runsvengruppen.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Swedish retail group"
+},
+{
+"id": "groupedelom.ca",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Wajax",
+"note": "equipment dealer branch"
+},
+{
+"id": "abus-kransysteme.de",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "ABUS Group",
+"note": "crane maker unit"
+},
+{
+"id": "pzlmielec.pl",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Lockheed Martin",
+"note": "aircraft maker"
+},
+{
+"id": "pgeenergiaciepla.pl",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "PGE",
+"note": "heat and power unit"
+},
+{
+"id": "alpha-innotec.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "ait-deutschland",
+"note": "heat pump brand"
+}
+]

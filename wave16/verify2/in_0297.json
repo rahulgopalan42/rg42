@@ -1,0 +1,122 @@
+[
+{
+"id": "tonlyele.com",
+"company": "Tonly Taiwan",
+"sector": "45 Electronic Parts",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; audio and video electronics"
+},
+{
+"id": "deren.com.cn",
+"company": "深圳市得润电子股份有限公司",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; connectors maker"
+},
+{
+"id": "",
+"company": "Mormaii Global",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "Brazil",
+"type": "Partnership",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Brazil surf apparel"
+},
+{
+"id": "heuking.de",
+"company": "HEUKING",
+"sector": "50 Law Firms & Legal AI",
+"country": "Germany",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; German law firm"
+},
+{
+"id": "goerg.de",
+"company": "GÖRG",
+"sector": "50 Law Firms & Legal AI",
+"country": "Germany",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; German law firm"
+},
+{
+"id": "stephensonharwood.com",
+"company": "Stephenson Harwood LLP",
+"sector": "50 Law Firms & Legal AI",
+"country": "United Kingdom",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; international law firm"
+},
+{
+"id": "operational-services.de",
+"company": "operational services GmbH & Co. KG",
+"sector": "25 IT Services & Consulting",
+"country": "Germany",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Airbus",
+"triage_note": "real; fit 1; scale mid; ICT services"
+},
+{
+"id": "lecitrailer.com",
+"company": "LECITRAILER S.A.",
+"sector": "30 Commercial Vehicles",
+"country": "España",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; trailer maker"
+},
+{
+"id": "millerthomson.com",
+"company": "Miller Thomson LLP",
+"sector": "50 Law Firms & Legal AI",
+"country": "Canada",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Canadian law firm"
+},
+{
+"id": "hannover-airport.de",
+"company": "Flughafen Hannover-Langenhagen GmbH",
+"sector": "16 Travel & Hospitality",
+"country": "Germany",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; airport operator"
+}
+]

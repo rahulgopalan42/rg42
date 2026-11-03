@@ -1,0 +1,122 @@
+[
+{
+"id": "fosunholiday.com",
+"company": "Fosun Tourism Group",
+"sector": "16 Travel & Hospitality",
+"country": "China",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Fosun 复星",
+"triage_note": "real; fit 2; scale large; Club Med owner"
+},
+{
+"id": "komatsu.jp",
+"company": "Komatsu",
+"sector": "23 Machine Tools",
+"country": "Japan",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; construction machinery"
+},
+{
+"id": "marriott.com.au",
+"company": "Marriott International",
+"sector": "16 Travel & Hospitality",
+"country": "Australia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; global hotel company"
+},
+{
+"id": "xtep.com.hk",
+"company": "Xtep",
+"sector": "53 Consumer & Lifestyle",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; Chinese sportswear"
+},
+{
+"id": "comac.cc",
+"company": "COMAC",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; Chinese aircraft maker"
+},
+{
+"id": "honhai.com",
+"company": "鴻海精密工業股份有限公司",
+"sector": "45 Electronic Parts",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; Foxconn electronics maker"
+},
+{
+"id": "sands.com",
+"company": "Las Vegas Sands Corp.",
+"sector": "16 Travel & Hospitality",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; casino resorts operator"
+},
+{
+"id": "vioc.com",
+"company": "Valvoline Inc.",
+"sector": "X06 Retail & E-commerce",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; quick lube chain"
+},
+{
+"id": "cognizant.ai",
+"company": "Cognizant",
+"sector": "25 IT Services & Consulting",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; IT services"
+},
+{
+"id": "hgv.com",
+"company": "Hilton Grand Vacations",
+"sector": "16 Travel & Hospitality",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; timeshare operator"
+}
+]

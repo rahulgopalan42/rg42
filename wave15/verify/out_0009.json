@@ -1,0 +1,280 @@
+[
+ {
+  "id": "driscolls.com",
+  "company": "Driscoll's",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "driscolls.com",
+  "hq": "Watsonville, California, USA",
+  "ownership": "Private, Reiter family-owned",
+  "sells": "Branded fresh berries (strawberries, blueberries, raspberries, blackberries) in Americas, Europe, Asia, Australia",
+  "headcount_band": "1,001-5,000 (~2,500-5,000 est)",
+  "revenue": "USD ~3B+ (est, third-party; private)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a (family-owned)",
+  "fit_score": 3,
+  "fit_detail": "Sells in US, UK, Europe, China, Australia, Mexico; affluent 25-54 premium grocery shoppers; health/quality story, not performance tech; fresh produce not crowded on grid",
+  "up_and_coming": false,
+  "flags": [
+   "revenue unpublished (est)"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes hard filters (revenue USD ~3B est, no F1 tie found); fit 3",
+  "best_angle": "Premium global berry brand in F1 hospitality/driver-nutrition storytelling across US, UK and Asia races.",
+  "sources": [
+   "https://rocketreach.co/answers/what-is-the-annual-revenue-of-driscolls_b5c6d0b6f42e0cfe",
+   "https://www.producemarketguide.com/company/111721/driscolls",
+   "https://www.freshfruitportal.com/archive/2022/06/27/driscolls-acquires-berry-gardens-limited/"
+  ]
+ },
+ {
+  "id": "cbmm.com",
+  "company": "CBMM",
+  "sector_tab": "21 Materials & Mech Parts",
+  "domain": "cbmm.com",
+  "hq": "Araxa (Minas Gerais), Brazil",
+  "ownership": "Private; Moreira Salles family ~70%, Asian steel/industrial consortium ~30% (minority)",
+  "sells": "Niobium products (ferroniobium, oxides, battery materials) to steel, auto, aerospace and battery makers worldwide",
+  "headcount_band": "1,001-5,000 (~2,200 est)",
+  "revenue": "BRL 11.4B net revenue (~USD 2.3B) (2023); net profit BRL 6.4B (2025)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 4,
+  "fit_detail": "Sells in China, Japan, Europe, US; senior B2B buyers (steel/auto/battery); materials technology and lightweighting story; niobium not crowded on grid",
+  "up_and_coming": false,
+  "flags": [
+   "Formula E/Extreme E sponsor history (not F1)",
+   "Asian minority holders (~30%) - screen at outreach"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes all hard filters (revenue BRL 11.4B 2023, record 100kt sales 2025, no F1 tie found); fit 4 with proven motorsport marketing",
+  "best_angle": "Niobium battery and lightweight-steel story fits F1's 2026 hybrid era; natural step up from Formula E and Extreme E.",
+  "sources": [
+   "https://diariodocomercio.com.br/negocios/cbmm-bate-recorde-supera-100-mil-toneladas-vendas/",
+   "https://cenarioenergia.com.br/2026/03/25/cbmm-acelera-diversificacao-e-novos-materiais-ja-respondem-por-25-da-receita-global/",
+   "https://sponsorship.sportbusiness.com/news/cbmm-niobium-signs-third-race-title-partnership-with-formula-e",
+   "https://www.extreme-e.com/en/news/23_EXTREME-E-ANNOUNCES-CBMM-AS-FOUNDING-SUPPLIER.html"
+  ]
+ },
+ {
+  "id": "fritz.com",
+  "company": "FRITZ! (formerly AVM)",
+  "sector_tab": "36 IoT & Connectivity",
+  "domain": "fritz.com",
+  "hq": "Berlin, Germany",
+  "ownership": "Private; Imker Capital Partners majority since Jul 2024, founders minority",
+  "sells": "FRITZ!Box routers, mesh Wi-Fi, smart-home and DECT devices; mainly DACH/Europe",
+  "headcount_band": "501-1,000 (~900, 2024)",
+  "revenue": "EUR ~630M (2024)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a (PE majority acquisition Jul 2024)",
+  "fit_score": 4,
+  "fit_detail": "Sells in Germany, Austria, Netherlands, Italy, Spain etc.; affluent tech-savvy 25-54 consumers; connectivity technology story; home networking not crowded on grid",
+  "up_and_coming": true,
+  "flags": [
+   "market expansion: DACH -> international (AVM renamed FRITZ! 2025)",
+   "PE-owned (Imker)"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes all hard filters (revenue EUR ~630M 2024, ~900 staff, no F1 tie found); fit 4",
+  "best_angle": "2025 rebrand to FRITZ! to go international; F1's European audience is a fast way to build brand awareness beyond DACH.",
+  "sources": [
+   "https://www.unternehmeredition.de/imker-erwirbt-mehrheitsbeteiligung-an-avm/",
+   "https://heise.de/-9797979",
+   "https://www.mobiflip.de/vm-firmiert-kuenftig-unter-dem-namen-fritz/amp/"
+  ]
+ },
+ {
+  "id": "jagex.com",
+  "company": "Jagex",
+  "sector_tab": "29 Tech Media & Gaming",
+  "domain": "jagex.com",
+  "hq": "Cambridge, United Kingdom",
+  "ownership": "Private; CVC Capital Partners Fund VIII and Haveli Investments (since Feb 2024)",
+  "sells": "Online games (RuneScape, Old School RuneScape), global PC/mobile players",
+  "headcount_band": "501-1,000 (600+, Jan 2026)",
+  "revenue": "n/a (RuneScape franchise USD 3B lifetime, Jan 2026)",
+  "valuation": "GBP 910M (~USD 1.15B) acquisition (Feb 2024)",
+  "latest_raise": "n/a (PE buyout Feb 2024)",
+  "fit_score": 3,
+  "fit_detail": "Players in US, UK, Europe, Australia; 25-45 gamers; fantasy MMO not a performance/tech story; gaming not crowded on grid",
+  "up_and_coming": false,
+  "flags": [
+   "PE-owned; CVC formerly owned F1 (sold 2017) - not a current tie",
+   "2025 layoffs (admin/ops)"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes hard filters (GBP 910M / ~USD 1.15B valuation Feb 2024, 600+ staff, no F1 tie found); fit 3",
+  "best_angle": "Player-acquisition campaigns for new titles to F1's global 25-44 male audience.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Jagex",
+   "https://respawn.outlookindia.com/gaming/gaming-news/runescape-crosses-3-billion-in-lifetime-revenue",
+   "https://www.pcgamesinsider.biz/news/75212/runescape-maker-jagex-confirms-layoffs/"
+  ]
+ },
+ {
+  "id": "cosnova.com",
+  "company": "cosnova Beauty",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "cosnova.com",
+  "hq": "Sulzbach am Taunus, Germany",
+  "ownership": "Private, founder/family-owned",
+  "sells": "Affordable cosmetics (essence, Catrice) in 80+ countries via drugstores and retailers",
+  "headcount_band": "501-1,000 (~800 est)",
+  "revenue": "EUR 991M net revenue (FY2025)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "Sells across Europe, US and Asia; young budget-beauty audience rather than affluent 25-54; no performance/tech story; mass beauty not crowded on grid",
+  "up_and_coming": false,
+  "flags": [
+   "Sephora (LVMH) is F1 Academy official beauty retail partner; Charlotte Tilbury and Wella also F1 Academy partners"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes all hard filters (revenue EUR 991M FY2025, no F1 tie found); fit 2 with F1 Academy audience motive",
+  "best_angle": "F1 Academy's young female fan base matches essence/Catrice's core consumer.",
+  "sources": [
+   "https://www.cosnova.com/EN/news/the-company-behind-the-brands-essence-and-catrice-introduces-itself",
+   "https://www.lvmh.com/en/news-lvmh/sephora-and-f1-academy-launch-partnership",
+   "https://www.wella.com/professional/de-DE/blog/haarfarbe/official-partner-F1-academy"
+  ]
+ },
+ {
+  "id": "laliga.com",
+  "company": "LALIGA",
+  "sector_tab": "X Sports Clubs & Leagues",
+  "domain": "laliga.com",
+  "hq": "Madrid, Spain",
+  "ownership": "League association of Spanish clubs; CVC holds ~8% of LaLiga Impulso commercial vehicle",
+  "sells": "Spanish football league media and sponsorship rights, global",
+  "headcount_band": "1,001-5,000 (~1,300 est)",
+  "revenue": "n/a (league entity)",
+  "valuation": "EUR ~24B implied (2021, CVC deal)",
+  "latest_raise": "EUR 2B CVC investment (2021, LaLiga Impulso)",
+  "fit_score": 4,
+  "fit_detail": "Global fan base and offices in US, Asia, Middle East; 18-54 fans; global ambition story; football leagues not crowded on grid",
+  "up_and_coming": false,
+  "flags": [
+   "lapsed F1 tie: Renault F1 official football league partner 2018 - confirm before outreach",
+   "league association, not a company"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (EUR ~24B valuation 2021) but lapsed Renault F1 partnership (2018) caps at Stretch",
+  "best_angle": "LALIGA's international growth push, as in 2018 when it called F1 a perfect fit for its strategy.",
+  "sources": [
+   "https://www.motorsport.com/f1/news/renault-f1-team-partners-spain-top-football-league-1007804/1392825/?nrt=54",
+   "https://sponsorship.sportbusiness.com/news/renault-sport-and-laliga-strike-innovative-partnership",
+   "https://sportskhabri.com/?p=125769"
+  ]
+ },
+ {
+  "id": "rosewoodhotelgroup.com",
+  "company": "Rosewood Hotel Group",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "rosewoodhotelgroup.com",
+  "hq": "Hong Kong",
+  "ownership": "Private; Chow Tai Fook Enterprises (Cheng family)",
+  "sells": "Luxury hotel management (Rosewood, KHOS, New World Hotels): 58 properties",
+  "headcount_band": "5,001-10,000 (~10,000 est)",
+  "revenue": "n/a (unpublished)",
+  "valuation": "n/a (Rosewood Hong Kong asset HK$15.9B is owned by New World Development, not RHG)",
+  "latest_raise": "n/a",
+  "fit_score": 4,
+  "fit_detail": "Hotels in all major F1 markets; affluent 25-54 travellers; luxury/global ambition; luxury hotels not crowded on grid",
+  "up_and_coming": false,
+  "flags": [
+   "group brand: Chow Tai Fook Enterprises",
+   "parent liquidity pressure: Cheng family exploring Rosewood asset sales to ease NWD debt (Dec 2025)",
+   "scale unverified"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Scale filter not met: no sourced revenue or valuation for Rosewood Hotel Group; parent liquidity pressure also noted",
+  "best_angle": "",
+  "sources": [
+   "https://www.thestandard.com.hk/market/article/318226/Hong-Kongs-Cheng-family-explores-partial-sale-of-Rosewood-Hotel-Group-assets-Bloomberg",
+   "https://bondblox.com/news/nwds-cash-strain-sees-cheng-family-considering-rosewood-divestments",
+   "https://www.scmp.com/business/article/3337028/rosewood-presses-ahead-global-expansion-after-sources-say-hotel-brand-not-sale"
+  ]
+ },
+ {
+  "id": "jandenul.com",
+  "company": "Jan De Nul Group",
+  "sector_tab": "39 Construction & Field Svc",
+  "domain": "jandenul.com",
+  "hq": "Capellen, Luxembourg (operations Aalst, Belgium)",
+  "ownership": "Private, De Nul family-owned",
+  "sells": "Dredging, offshore energy installation, civil works, environmental remediation in 31+ countries",
+  "headcount_band": "5,001-10,000 (8,848, 2025)",
+  "revenue": "EUR 4.24B (2025, +6%); net profit EUR 458M",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a (family-owned)",
+  "fit_score": 4,
+  "fit_detail": "Projects in 31 countries incl. many F1 hosts; senior B2B buyers (governments, energy majors); engineering/global ambition story; dredging/marine construction not crowded on grid",
+  "up_and_coming": false,
+  "flags": [
+   "B2B: brand motive unclear (rebranded 'World Builders' 2025)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes all hard filters (EUR 4.24B revenue 2025, 8,848 staff, no F1 tie found) but pure B2B with unclear sponsorship motive",
+  "best_angle": "'World Builders' rebrand and offshore-wind work for B2B hospitality with energy majors and governments at races such as Abu Dhabi, Saudi Arabia and Singapore.",
+  "sources": [
+   "https://chronicle.lu/category/business/61353-jan-de-nul-reports-record-eur4-24bn-turnover-in-2025",
+   "https://www.bairdmaritime.com/offshore/exploration-development/offshore-construction/jan-de-nul-group-reports-record-revenue-and-profit-for-2025",
+   "https://en.wikipedia.org/wiki/Jan_De_Nul"
+  ]
+ },
+ {
+  "id": "schunk-group.com",
+  "company": "Schunk Group",
+  "sector_tab": "21 Materials & Mech Parts",
+  "domain": "schunk-group.com",
+  "hq": "Heuchelheim, Germany",
+  "ownership": "Private; owned by Ludwig Schunk Foundation",
+  "sells": "Carbon and ceramic components, sintered metals, environmental simulation (Weiss Technik), ultrasonic welding; 26 countries",
+  "headcount_band": "10,001+ (10,000+, 2025)",
+  "revenue": "EUR ~1.7B (2025, -6%)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a (foundation-owned)",
+  "fit_score": 4,
+  "fit_detail": "Operates in 26 countries incl. US, China, Japan, Europe; senior B2B engineering buyers; materials technology/precision story; carbon/ceramics not crowded on grid",
+  "up_and_coming": false,
+  "flags": [
+   "low marketing profile",
+   "revenue declining (2025 -6%)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes all hard filters (EUR 1.7B revenue 2025, 10,000+ staff, no F1 tie found) but B2B with low marketing profile",
+  "best_angle": "Carbon/ceramic materials and climate-test chambers support an F1 engineering-partner story aimed at auto and semiconductor buyers.",
+  "sources": [
+   "https://www.schunk-group.com/en/press/news/press-conference-on-the-annual-results-2025~n83032",
+   "https://en.wikipedia.org/wiki/Schunk_Group"
+  ]
+ },
+ {
+  "id": "galeon.yachts",
+  "company": "Galeon",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "galeon.yachts",
+  "hq": "Straszyn (Gdansk), Poland",
+  "ownership": "Private, founder-owned",
+  "sells": "Luxury motor yachts 32-83 ft, sold in Europe, Americas, Middle East, Asia",
+  "headcount_band": "501-1,000 (700+, job ads 2026); ~1,400 (2019)",
+  "revenue": "n/a (unpublished; not verified)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 4,
+  "fit_detail": "Sells in Europe, US and Middle East; affluent 35-54 buyers; design/performance story; yachts not crowded (Riva/Ferrari and Sunseeker exceptions)",
+  "up_and_coming": false,
+  "flags": [
+   "IndyCar Meyer Shank Racing partner 2025-26 (not F1)",
+   "scale unverified"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Scale filter not met: no sourced revenue (USD 150M+ unverified) or valuation",
+  "best_angle": "",
+  "sources": [
+   "https://www.yachtbuyer.com/en-us/galeon/heritage",
+   "https://pracodawcy.pracuj.pl/company/20062255",
+   "https://www.galeonyachts.us/community/news/making-a-splash-in-us-sales"
+  ]
+ }
+]

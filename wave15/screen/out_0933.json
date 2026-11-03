@@ -1,0 +1,53 @@
+[
+{
+"id": "sumaracciosocial.cat",
+"company": "SUMAR, Serveis Públics d'Acció Social de Catalunya",
+"keep": false,
+"reason": "quick triage: public social services body",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+},
+{
+"id": "congreso.gob.pe",
+"company": "CONGRESO DE LA REPUBLICA DEL PERU",
+"keep": false,
+"reason": "quick triage: national congress, government",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+},
+{
+"id": "midlandstruckvan.com",
+"company": "Midlands Truck & Van Ltd",
+"keep": false,
+"reason": "quick triage: tiny local dealer",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+}
+]

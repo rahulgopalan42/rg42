@@ -1,0 +1,122 @@
+[
+{
+"id": "thaicom.net",
+"company": "THAICOM PUBLIC COMPANY LIMITED",
+"sector": "48 Telecom & Space",
+"country": "Thailand",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Intouch Holdings (~41%)",
+"triage_note": "real; fit 3; scale mid; Thai satellite operator"
+},
+{
+"id": "skyworthdigital.com",
+"company": "Skyworth Digital",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Skyworth Group",
+"triage_note": "real; fit 3; scale mid; consumer electronics"
+},
+{
+"id": "cirrusaircraft.com",
+"company": "Cirrus",
+"sector": "16 Travel & Hospitality",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "AVIC (China Aviation Industry General Aircraft)",
+"triage_note": "real; fit 3; scale mid; personal aircraft maker"
+},
+{
+"id": "kempinski.com",
+"company": "Kempinski Hotels",
+"sector": "16 Travel & Hospitality",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Kempinski Hotels SA",
+"triage_note": "real; fit 3; scale mid; luxury hotel group"
+},
+{
+"id": "missionhillsgroup.com",
+"company": "Mission Hills Group",
+"sector": "16 Travel & Hospitality",
+"country": "China",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; Chinese luxury golf resort"
+},
+{
+"id": "saurer.com",
+"company": "Saurer Group",
+"sector": "23 Machine Tools",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Jinsheng Group",
+"triage_note": "real; fit 3; scale mid; textile machinery, precision"
+},
+{
+"id": "starragtornos.com",
+"company": "StarragTornos",
+"sector": "23 Machine Tools",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; precision machine tools"
+},
+{
+"id": "fbdev.com",
+"company": "Fontainebleau Development",
+"sector": "X02 Real Estate & Building Products",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; Luxury hotel developer"
+},
+{
+"id": "darglobal.co.uk",
+"company": "Darglobal",
+"sector": "19 Gulf Sovereign & Tourism",
+"country": "United Arab Emirates",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Dar Al Arkan Real Estate Development",
+"triage_note": "real; fit 3; scale mid; luxury real estate"
+},
+{
+"id": "brgsports.com",
+"company": "BRG Sports",
+"sector": "53 Consumer & Lifestyle",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; Bike helmet and sports brands"
+}
+]

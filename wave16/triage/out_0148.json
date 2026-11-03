@@ -1,0 +1,802 @@
+[
+{
+"id": "rockinger-agriculture.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "towing hitch maker"
+},
+{
+"id": "torch.cn",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "electronic components"
+},
+{
+"id": "itjobbivaxjo.se",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "local IT jobs page"
+},
+{
+"id": "zhongyagroup.it",
+"t": "division",
+"fit": 0,
+"scale": "small",
+"parent": "Zhongya Group",
+"note": "European branch"
+},
+{
+"id": "mvairport.ru",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "airport operator"
+},
+{
+"id": "upmgrada.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "UPM",
+"note": "wood material product"
+},
+{
+"id": "metafworld.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "investment scam page"
+},
+{
+"id": "vias-system.com",
+"t": "real",
+"fit": 1,
+"scale": "small",
+"parent": "",
+"note": "sensor/electronics maker"
+},
+{
+"id": "kolesa-darom.ru",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "tyre retailer"
+},
+{
+"id": "bcc.nl",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "BCC",
+"note": "business arm of retailer"
+},
+{
+"id": "maximarkt.at",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Austrian retailer"
+},
+{
+"id": "acando.fi",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "CGI",
+"note": "absorbed consultancy"
+},
+{
+"id": "metabo.be",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Koki Holdings",
+"note": "power tools brand"
+},
+{
+"id": "raytrontek.com",
+"t": "real",
+"fit": 2,
+"scale": "mid",
+"parent": "",
+"note": "infrared thermal imaging"
+},
+{
+"id": "frasec-aviation.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Fraport",
+"note": "security unit"
+},
+{
+"id": "monni.bg",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Bulgarian fashion chain"
+},
+{
+"id": "sphold.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "industrial holding"
+},
+{
+"id": "samberi.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Russian hypermarkets"
+},
+{
+"id": "jemogfix.no",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "jem & fix",
+"note": "Norway unit"
+},
+{
+"id": "lets-doit.at",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "tools retailer"
+},
+{
+"id": "bominelec.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "electronic components"
+},
+{
+"id": "porvair.com",
+"t": "real",
+"fit": 2,
+"scale": "mid",
+"parent": "",
+"note": "filtration, aerospace"
+},
+{
+"id": "bogdol.gmbh",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "facility cleaning"
+},
+{
+"id": "lafka.bg",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "kiosk chain"
+},
+{
+"id": "laendleerde.cc",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "soil producer"
+},
+{
+"id": "protonmarkets.gr",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Greek retailer"
+},
+{
+"id": "arubacloud.pl",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Aruba S.p.A.",
+"note": "cloud unit Poland"
+},
+{
+"id": "atb-motors.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Wolong Electric",
+"note": "motor maker"
+},
+{
+"id": "lanterisspace.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Intuitive Machines",
+"note": "ex Maxar Space"
+},
+{
+"id": "cycle-ag.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "tech holding"
+},
+{
+"id": "cozyhome.ru",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "home goods retail"
+},
+{
+"id": "ms-hydraulic.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "hydraulic motors"
+},
+{
+"id": "metalwork.ch",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Metal Work",
+"note": "Swiss unit"
+},
+{
+"id": "pginstruments.com",
+"t": "real",
+"fit": 1,
+"scale": "small",
+"parent": "",
+"note": "spectrometers"
+},
+{
+"id": "washtec.pt",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "WashTec",
+"note": "Portugal unit"
+},
+{
+"id": "zenden.ru",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Russian holding"
+},
+{
+"id": "uniconn.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "connector supplier"
+},
+{
+"id": "playaresorts.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "Hyatt",
+"note": "resort operator"
+},
+{
+"id": "jeanssymphony.ru",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "jeans retailer"
+},
+{
+"id": "bauhaus.at",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Bauhaus",
+"note": "Austria unit"
+},
+{
+"id": "vgrass.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "high-end womenswear"
+},
+{
+"id": "turmareal.ch",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "office tower site"
+},
+{
+"id": "prostore.by",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Belarus hypermarkets"
+},
+{
+"id": "capitaldockresidence.ie",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "residential block"
+},
+{
+"id": "aemtech.ru",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Rosatom",
+"note": "nuclear equipment unit"
+},
+{
+"id": "greggfous.cloud",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "personal real estate page"
+},
+{
+"id": "onyxoasis.xyz",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "shell company"
+},
+{
+"id": "regalhotel.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "hotel/property group"
+},
+{
+"id": "remax.com.tr",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "RE/MAX Holdings",
+"note": "Turkey franchise"
+},
+{
+"id": "brggroup.vn",
+"t": "real",
+"fit": 2,
+"scale": "unknown",
+"parent": "",
+"note": "Vietnam multi-sector group"
+},
+{
+"id": "remax.com.br",
+"t": "division",
+"fit": 0,
+"scale": "small",
+"parent": "RE/MAX Holdings",
+"note": "franchise office"
+},
+{
+"id": "bluegreenvacations.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Hilton Grand Vacations",
+"note": "timeshare unit"
+},
+{
+"id": "big5sportinggoods.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "US sporting retailer"
+},
+{
+"id": "meuaprj.com.br",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "sales team page"
+},
+{
+"id": "donyab.app",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "classifieds site"
+},
+{
+"id": "bengalipatrika.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "news site"
+},
+{
+"id": "plasway.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "defunct Proview"
+},
+{
+"id": "payporte.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "tiny e-shop"
+},
+{
+"id": "ktcplay.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "gaming monitors"
+},
+{
+"id": "4seasonss.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "hotel booking spam"
+},
+{
+"id": "mctdamansara.com.my",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "residential project"
+},
+{
+"id": "trendmicro.co.kr",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Trend Micro",
+"note": "Korea unit"
+},
+{
+"id": "hotel-livemax.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Japan hotel operator"
+},
+{
+"id": "dpholding.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "pharma holding"
+},
+{
+"id": "hyunion.com.cn",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "hydraulic machinery"
+},
+{
+"id": "czdq.cn",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "holding company"
+},
+{
+"id": "re.co",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "placeholder record"
+},
+{
+"id": "priorityprivilegehanoi.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "loyalty program"
+},
+{
+"id": "bestfootcares.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "health info page"
+},
+{
+"id": "aht.at",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Daikin",
+"note": "refrigeration unit"
+},
+{
+"id": "llflooring.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "bankrupt retailer"
+},
+{
+"id": "robotautopilotoffice.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "trading robot scam"
+},
+{
+"id": "kontur.cn",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "lumber page"
+},
+{
+"id": "modaroyal.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "knitwear shop"
+},
+{
+"id": "wishalive.co.za",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "empty e-commerce"
+},
+{
+"id": "tuvannonganhang.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "debt consulting page"
+},
+{
+"id": "ngocdung.net",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "local beauty clinic"
+},
+{
+"id": "arcticcat.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Textron",
+"note": "snowmobile brand"
+},
+{
+"id": "laird.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "DuPont",
+"note": "materials unit"
+},
+{
+"id": "lilium.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "insolvent eVTOL firm"
+},
+{
+"id": "thermon.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "heat tracing"
+},
+{
+"id": "flysaa.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "airline"
+},
+{
+"id": "kimballinternational.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "HNI",
+"note": "furniture unit"
+},
+{
+"id": "everi.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Apollo/IGT",
+"note": "gaming tech"
+},
+{
+"id": "chromalox.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "industrial heating"
+},
+{
+"id": "radiofrance.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Radio France",
+"note": "studios venue"
+},
+{
+"id": "flyphone.in",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "defunct handset brand"
+},
+{
+"id": "tecmaia.pt",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "science park"
+},
+{
+"id": "quotesoft.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "ConstructConnect",
+"note": "software product"
+},
+{
+"id": "bosch.ca",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Bosch",
+"note": "Canada unit"
+},
+{
+"id": "gentingcasinos.co.uk",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Genting Group",
+"note": "casino unit"
+},
+{
+"id": "bold360.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Bold360",
+"note": "AI chat product"
+},
+{
+"id": "gravitymedia.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Gravity Media",
+"note": "France unit"
+},
+{
+"id": "silvertouchinc.com",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Silver Touch",
+"note": "USA unit"
+},
+{
+"id": "entre.link",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "community page"
+},
+{
+"id": "bosch.com.br",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Bosch",
+"note": "Brazil unit"
+},
+{
+"id": "axtria.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "pharma analytics"
+},
+{
+"id": "cghi.in",
+"t": "real",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "vague conglomerate"
+},
+{
+"id": "mygig.com.au",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "workforce platform"
+},
+{
+"id": "zoho.com.br",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Zoho",
+"note": "Brazil unit"
+}
+]

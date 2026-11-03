@@ -1,0 +1,53 @@
+[
+{
+"id": "comune.genova.it",
+"company": "Comune di Genova",
+"keep": false,
+"reason": "quick triage: non-profit/government/association",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+},
+{
+"id": "cityscape-events.com",
+"company": "Cityscape",
+"keep": false,
+"reason": "quick triage: tiny local business",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+},
+{
+"id": "seg-social.es",
+"company": "Instituto Nacional de la Seguridad Social  INSS",
+"keep": false,
+"reason": "quick triage: non-profit/government/association",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+}
+]

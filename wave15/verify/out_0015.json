@@ -1,0 +1,292 @@
+[
+ {
+  "id": "expro.com",
+  "company": "Expro",
+  "sector_tab": "02 Energy & Industrial",
+  "domain": "expro.com",
+  "hq": "Houston, USA",
+  "ownership": "Listed (NYSE: XPRO)",
+  "sells": "Well construction, flow management, subsea well access and well intervention services for oil and gas producers",
+  "headcount_band": "5,001-10,000 (~8,500 est)",
+  "revenue": "USD 1,607M FY2025 (company Q4 2025 release, 19 Feb 2026); 2026 guide USD 1.60-1.65B",
+  "valuation": "n/a (listed)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 1,
+  "fit_detail": "3+ F1 markets yes; senior B2B buyers (oil majors) yes; story weak; oil category crowded on grid (0)",
+  "up_and_coming": false,
+  "flags": [
+   "oil & gas services - crowded category (Aramco, Petronas, Shell, ExxonMobil)",
+   "B2B only"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes revenue route (USD 1.6B FY2025) but fit 1: B2B oilfield services in the crowded oil category.",
+  "best_angle": "",
+  "sources": [
+   "https://www.expro.com/media-hub/news/expro-group-holdings-n-v-announces-fourth-quarter-2025-results-and-full-year-2026-guidance",
+   "https://www.businesswire.com/news/home/20260219026612/en/Expro-Group-Holdings-N.V.-Announces-Fourth-Quarter-2025-Results-and-Ful"
+  ]
+ },
+ {
+  "id": "omnihotels.com",
+  "company": "Omni Hotels & Resorts",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "omnihotels.com",
+  "hq": "Dallas, USA",
+  "ownership": "Private; owned by TRT Holdings (Robert Rowling)",
+  "sells": "Luxury hotels, resorts and golf properties in the US, Canada and Mexico",
+  "headcount_band": "10,001+ (~17,000-23,000 est; sources vary)",
+  "revenue": "~USD 2.6-2.8B (est, Bitscale/Prospeo; no published financials)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes (US, Canada, Mexico - all host GPs); affluent 25-54 travellers and meeting planners yes; luxury story partly; hotels not on crowded list (Hyatt, Ritz-Carlton present on grid)",
+  "up_and_coming": false,
+  "flags": [
+   "group brand: TRT Holdings",
+   "revenue unverified (est)",
+   "North America-only footprint"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on estimated revenue (~USD 2.6B); reservation is unverified financials and North America-only footprint.",
+  "best_angle": "Omni has properties in Austin, Miami, Montreal and Cancun-area markets, so GP hospitality packages at COTA/Miami/Montreal fit its group-sales business.",
+  "sources": [
+   "https://bitscale.ai/directory/omni-hotels-and-resorts",
+   "https://www.plunkettresearch.com/?p=1894701",
+   "https://www.reveliolabs.com/companies/omni-hotels/employees",
+   "https://www.loeb.com/en/newsevents/news/2026/01/loeb-represents-hyatt-in-its-official-hospitality-partnership-with-audi-revolut-formula-1-team"
+  ]
+ },
+ {
+  "id": "polarcapitalfunds.com",
+  "company": "Polar Capital",
+  "sector_tab": "X Asset Mgmt & PE",
+  "domain": "polarcapitalfunds.com",
+  "hq": "London, UK",
+  "ownership": "Listed (AIM: POLR)",
+  "sells": "Active fund management (technology, healthcare, financials, emerging markets) for intermediaries and institutions",
+  "headcount_band": "201-500 (~250 est)",
+  "revenue": "~GBP 200M FY to Mar 2026 (est); PBT GBP 76.9M; AuM GBP 30.6B (31 Mar 2026), GBP 45.0B (30 Jun 2026)",
+  "valuation": "Market cap < USD 1B (est)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes (UK, Europe, Asia distribution); affluent investors/senior B2B buyers yes; tech-fund story partly; asset management adjacent to crowded banking category (0)",
+  "up_and_coming": true,
+  "flags": [
+   "USD 150-500M revenue route",
+   "AuM +47% in Q2 2026 to GBP 45B",
+   "financial-services category busy on grid"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes only on USD 150-500M revenue route (~GBP 200M est), so capped at Stretch.",
+  "best_angle": "Fast AuM growth from its technology funds gives a performance/technology story for wealth-adviser hospitality around Silverstone.",
+  "sources": [
+   "https://www.polarcapital.co.uk/gb/professional/About-Us/Press-Release/Post/18384/Polar_Capital_Holdings_plc_AuM_update_31_March_2026/",
+   "https://www.morningstar.co.uk/uk/news/AN_1776067349751581800/polar-capital-holdings-hails-strong-finish-to-financial-year.aspx",
+   "https://www.ticker.app/lse/POLR/rns/2026-07-09/AuM-Update/6021L",
+   "https://investmentweek.co.uk/news/4027785/polar-capital-completes-dalton-strategic-partnership-acquisition"
+  ]
+ },
+ {
+  "id": "ascendion.com",
+  "company": "Ascendion",
+  "sector_tab": "25 IT Services & Consulting",
+  "domain": "ascendion.com",
+  "hq": "Basking Ridge, New Jersey, USA",
+  "ownership": "Private; founder-led (CEO Karthik Krishnamurthy), PE-backed (Accel-KKR, reported - verify)",
+  "sells": "AI-led digital engineering, software product engineering, data and cloud services for Global 2000 clients",
+  "headcount_band": "5,001-10,000 (~9,600, Revelio Dec 2025)",
+  "revenue": "Unpublished; ~USD 300-500M (est from ~9,600 staff)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a (no priced round found)",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes (US, India, Mexico, UK); senior B2B buyers (CIOs) yes; AI/engineering story yes; IT services not on crowded list (cloud/cyber are)",
+  "up_and_coming": true,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue and ownership unverified",
+   "acquisitive: Nitor Infotech, UXReactor"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes only on estimated USD 150-500M revenue (unverified), so capped at Stretch.",
+  "best_angle": "IT services peers (HCL, Globant, TCS-style deals) use F1 for CIO hospitality; an AI-native engineering story fits a team technology partnership.",
+  "sources": [
+   "https://www.reveliolabs.com/companies/ascendion/employees/",
+   "https://cxotoday.com/press-release/ascendion-advances-software-product-engineering-and-ai-capabilities-with-acquisition-of-nitor-infotech/",
+   "https://www.roi-nj.com/?p=109619"
+  ]
+ },
+ {
+  "id": "kukahome.com",
+  "company": "KUKA Home (Jason Furniture)",
+  "sector_tab": "49 Home & Living",
+  "domain": "kukahome.com",
+  "hq": "Hangzhou, China",
+  "ownership": "Listed (SSE: 603816); largest holder Infore Group (He Jianfeng, Midea founder's son) ~29.4% - not majority",
+  "sells": "Upholstered sofas, beds and home furniture (KUKA, Rolf Benz) sold in China, US and Europe",
+  "headcount_band": "10,001+ (~15,000 est)",
+  "revenue": "~CNY 19.1B (~USD 2.7B) FY2025 (Craft.co, unverified)",
+  "valuation": "Market cap ~CNY 26.4B (~USD 3.7B) (Craft.co, 29 Oct 2024; dated)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes (China, US, Europe, Mexico plants); affluent 25-54 homeowners yes; design story, weak performance link; furniture not crowded",
+  "up_and_coming": true,
+  "flags": [
+   "China HQ - no Entity List/1260H/UFLPA listing found",
+   "market expansion: China -> US/Mexico plants (2024)",
+   "name confusion with KUKA robotics (Midea)",
+   "owns Rolf Benz"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes revenue route (~CNY 19B 2025, unverified); reservation is weak performance/technology story and limited Western brand awareness.",
+  "best_angle": "Chinese GP and US expansion (Texas/Mexico plants) give a consumer-brand awareness angle with affluent homeowners.",
+  "sources": [
+   "https://craft.co/kuka-home",
+   "https://en.wikipedia.org/wiki/Kuka_Home",
+   "https://yicaiglobal.com/news/chinese-firm-linked-to-midea-could-take-control-of-jason-furniture",
+   "https://www.euwid-wood-products.com/news/companies/kuka-home-opens-plants-in-texas-and-mexico-070224/"
+  ]
+ },
+ {
+  "id": "edelman.com",
+  "company": "Edelman",
+  "sector_tab": "07 Marketing & Sales",
+  "domain": "edelman.com",
+  "hq": "Chicago / New York, USA",
+  "ownership": "Private, Edelman family-owned (independent)",
+  "sells": "Public relations, communications and reputation consulting (Edelman Trust Barometer)",
+  "headcount_band": "5,001-10,000 (~6,000 est)",
+  "revenue": "Fee income USD 950M 2025 (-3.6%; O'Dwyer's, Apr 2026)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes; senior B2B buyers (CMOs, CCOs) yes; story weak; PR not crowded",
+  "up_and_coming": false,
+  "flags": [
+   "revenue declining 2023-25",
+   "agency - sponsorship motive unclear"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes revenue route (USD 950M 2025) but an agency with no clear brand-sponsorship motive of its own.",
+  "best_angle": "",
+  "sources": [
+   "https://www.odwyerpr.com/story/public/24574/2026-04-06/pr-firms-post-38-increase-25-income.html",
+   "https://www.globenewswire.com/news-release/2025/04/14/3061306/0/en/O-Dwyer-s-Releases-Annual-PR-Firm-Rankings.html"
+  ]
+ },
+ {
+  "id": "mantu.com",
+  "company": "Mantu",
+  "sector_tab": "18 Services & Other",
+  "domain": "mantu.com",
+  "hq": "Geneva, Switzerland",
+  "ownership": "Private, founder-owned (independent)",
+  "sells": "Consulting and engineering services (Amaris Consulting, Mantu Lab) across 60+ countries",
+  "headcount_band": "10,001+ (~12,000, company)",
+  "revenue": "~EUR 1B (2024 press kit); target EUR 3B by 2030",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes (60+ countries); senior B2B buyers yes; global-ambition story yes; consulting not crowded",
+  "up_and_coming": false,
+  "flags": [
+   "B2B consulting, sponsorship motive unproven",
+   "Accelerate 2030 plan: triple revenue"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes revenue route (~EUR 1B 2024); reservation is B2B consulting with unproven brand-marketing motive.",
+  "best_angle": "Accelerate 2030 aim to triple revenue to EUR 3B needs global brand awareness among corporate buyers; F1 hospitality fits that push.",
+  "sources": [
+   "https://mantu.com/wp-content/uploads/2024/05/240516-Presskit2024-Mantu.pdf",
+   "https://www.planetegrandesecoles.com/?p=118446",
+   "https://www.reveliolabs.com/companies/amaris-group/employees/"
+  ]
+ },
+ {
+  "id": "harrodscareers.com",
+  "company": "Harrods",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "harrods.com",
+  "hq": "London, UK",
+  "ownership": "Private; owned by Qatar Holding (Qatar Investment Authority)",
+  "sells": "Luxury department store, e-commerce, beauty (H beauty) and hospitality",
+  "headcount_band": "1,001-5,000 (~5,000 est)",
+  "revenue": "GBP 1,095.2M FY to 31 Jan 2026 (+1.2%; CFO via FashionUnited)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets partly (London store plus global e-commerce and international tourists); affluent 25-54 yes; luxury story yes; department-store luxury not crowded (watches are)",
+  "up_and_coming": false,
+  "flags": [
+   "group brand: Qatar Investment Authority",
+   "parent QIA holds minority stake in Audi F1 team (Nov 2024) - confirm before outreach",
+   "Qatar state entities (Visit Qatar, Qatar Airways) are F1 partners",
+   "reputational: Al Fayed abuse compensation provision 2024"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes revenue route (GBP 1.1B FY to Jan 2026); capped Stretch because parent QIA holds a minority stake in the Audi F1 team.",
+  "best_angle": "Luxury retail is underused on the grid (M&S joined Williams); British GP/London audience and Gulf links support a hospitality/retail activation.",
+  "sources": [
+   "https://fashionunited.uk/news/business/harrods-navigates-global-luxury-headwinds-outperforms-market-in-fy25/2026081289740",
+   "https://www.modaes.com/global/companies/harrods-reports-nearly-100-million-in-profits-after-a-12-increase-in-sales",
+   "https://www.aljazeera.com/sports/2024/11/29/qatars-sovereign-wealth-fund-takes-a-stake-in-audis-future-f1-team",
+   "https://www.cosmeticsbusiness.com/elemis-accelerates-its-formula-1-partnership-with-new"
+  ]
+ },
+ {
+  "id": "wsa.com",
+  "company": "WS Audiology",
+  "sector_tab": "X Medtech",
+  "domain": "wsa.com",
+  "hq": "Lynge, Denmark",
+  "ownership": "Private; EQT, Tøpholm & Westermann and Strüngmann families",
+  "sells": "Hearing aids (Signia, Widex, Rexton) and hearing-care retail",
+  "headcount_band": "10,001+ (10,000+, company)",
+  "revenue": "~EUR 2.6B FY2024/25 (Oct-Sep; est from reported quarters, flat organic)",
+  "valuation": "n/a (private); IPO preparation reported",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes (125 markets); affluent 25-54 no (older users); hearing technology/precision story yes; hearing aids not crowded",
+  "up_and_coming": false,
+  "flags": [
+   "possible Copenhagen IPO in preparation (banks hired, reported)",
+   "older core demographic"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes revenue route (~EUR 2.6B FY2024/25 est); reservation is an older core demographic outside the F1 sweet spot.",
+  "best_angle": "Pre-IPO brand building plus a hearing-protection/audio-tech angle for loud trackside environments.",
+  "sources": [
+   "https://hearinghealthmatters.org/hearing-news-watch/2025/wsa-annual-report/",
+   "https://www.wsa.com/press-release/ws-audiology-delivered-4-organic-revenue-growth-in-the-first-quarter-of-fy-2024-25/",
+   "https://www.hearingtracker.com/news/wsa-reports-modest-growth-in-q2-2025-26-as-margins-improve-and-consumer-channels-outperform",
+   "https://hearingreview.com/hearing-products/hearing-aids/widex-and-signia-unite-commercial-and-sales-teams-in-us"
+  ]
+ },
+ {
+  "id": "tsubakimoto.com",
+  "company": "Tsubakimoto Chain Co.",
+  "sector_tab": "33 Automation & Robotics",
+  "domain": "tsubakimoto.com",
+  "hq": "Osaka, Japan",
+  "ownership": "Listed (TSE Prime: 6371)",
+  "sells": "Industrial and automotive timing chains, power transmission, materials handling systems",
+  "headcount_band": "10,001+ (12,228 consolidated, 31 Mar 2026)",
+  "revenue": "JPY 295.9B (~USD 2.0B) FY to Mar 2026, +6.0% (company)",
+  "valuation": "n/a (listed)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; senior B2B engineering buyers yes; precision engineering story yes; chains not crowded (some automotive overlap)",
+  "up_and_coming": false,
+  "flags": [
+   "sponsors EnduroGP juniors (2026), not F1",
+   "B2B, limited brand motive"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes revenue route (JPY 295.9B FY2025) but a B2B power-transmission maker with limited brand-marketing motive.",
+  "best_angle": "",
+  "sources": [
+   "https://tsubakimoto.com/fileadmin/en/ir/pdf/tsubaki-260513-4q-summary.pdf",
+   "https://tsubakimoto.com/company/profile/overview/",
+   "https://tsubakimoto.com/fileadmin/en/ir/pdf/tsubaki-fy2025-4q-script-en.pdf"
+  ]
+ }
+]

@@ -1,0 +1,122 @@
+[
+{
+"id": "ktcplay.com",
+"company": "KTC",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; gaming monitors"
+},
+{
+"id": "hyunion.com.cn",
+"company": "HyUnion Holding Co.,Ltd",
+"sector": "33 Automation & Robotics",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; hydraulic machinery"
+},
+{
+"id": "thermon.com",
+"company": "Thermon",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "CECO Environmental Corporation",
+"triage_note": "real; fit 1; scale mid; heat tracing"
+},
+{
+"id": "chromalox.com",
+"company": "Chromalox",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Spirax Group",
+"triage_note": "real; fit 1; scale mid; industrial heating"
+},
+{
+"id": "axtria.com",
+"company": "Axtria - Ingenious Insights",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; pharma analytics"
+},
+{
+"id": "moovimenta.com",
+"company": "Moovimenta AG",
+"sector": "23 Machine Tools",
+"country": "Switzerland",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Swiss family industrial group"
+},
+{
+"id": "q-park.com",
+"company": "Q-Park Intl",
+"sector": "X02 Real Estate & Building Products",
+"country": "Netherlands",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Parking operator Europe"
+},
+{
+"id": "cbmspa.com",
+"company": "CBM SPA",
+"sector": "23 Machine Tools",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Italian precision engineering"
+},
+{
+"id": "knillgruppe.com",
+"company": "Knill Gruppe",
+"sector": "23 Machine Tools",
+"country": "Austria",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Austrian industrial group"
+},
+{
+"id": "pohkong.com.my",
+"company": "Poh Kong Holdings Berhad",
+"sector": "03 Luxury & Beauty",
+"country": "Malaysia",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Malaysian jeweller"
+}
+]

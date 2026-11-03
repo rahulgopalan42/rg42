@@ -1,0 +1,122 @@
+[
+{
+"id": "beymengroup.com",
+"company": "Beymen Group",
+"sector": "03 Luxury & Beauty",
+"country": "Türkiye",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Mayhoola for Investments (~97%)",
+"triage_note": "real; fit 2; scale mid; Turkish luxury retailer"
+},
+{
+"id": "birksgroup.com",
+"company": "Birks Group Inc",
+"sector": "03 Luxury & Beauty",
+"country": "Canada",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Canadian luxury jeweller"
+},
+{
+"id": "amos-spacecom.com",
+"company": "AMOS-Spacecom",
+"sector": "48 Telecom & Space",
+"country": "Israel",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; satellite operator"
+},
+{
+"id": "ucloudlink.com",
+"company": "uCloudlink Group Inc (Nasdaq: UCL)",
+"sector": "48 Telecom & Space",
+"country": "Singapore",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; mobile data hotspot tech"
+},
+{
+"id": "rocnation.com",
+"company": "Roc Nation",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; music/sports entertainment agency"
+},
+{
+"id": "capillarytech.com",
+"company": "Capillary Technologies",
+"sector": "22 SaaS",
+"country": "India",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; loyalty tech"
+},
+{
+"id": "chemmanurinternationalgroup.com",
+"company": "Boby Chemmanur International Group",
+"sector": "03 Luxury & Beauty",
+"country": "India",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Indian gold/diamond jeweller"
+},
+{
+"id": "chcnav.com",
+"company": "CHC Navigation | CHCNAV",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; GNSS mapping tech"
+},
+{
+"id": "jinshengroup.com",
+"company": "江苏金昇实业股份有限公司",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Partnership",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale unknown; Chinese smart manufacturing group"
+},
+{
+"id": "tcnworldwide.com",
+"company": "TCN Worldwide",
+"sector": "X02 Real Estate & Building Products",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale unknown; Commercial property network"
+}
+]

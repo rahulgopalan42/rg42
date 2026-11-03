@@ -1,0 +1,122 @@
+[
+{
+"id": "astagroup.com",
+"company": "ASTA",
+"sector": "NEW Other",
+"country": "Österreich",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; winding wire"
+},
+{
+"id": "tasimeasurement.com",
+"company": "TASI Measurement",
+"sector": "40 Test & Measurement",
+"country": "United States",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale unknown; test and measurement"
+},
+{
+"id": "cpcgroup.it",
+"company": "CPC Group",
+"sector": "43 Mobility & Automotive",
+"country": "Italy",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale unknown; prototype tech"
+},
+{
+"id": "univision.com",
+"company": "Univision",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; US Hispanic broadcaster"
+},
+{
+"id": "one97.com",
+"company": "One97 Communications Limited",
+"sector": "22 SaaS",
+"country": "India",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Indian fintech and mobile"
+},
+{
+"id": "atlasairworldwide.com",
+"company": "Atlas Air",
+"sector": "16 Travel & Hospitality",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Apollo-led consortium",
+"triage_note": "real; fit 1; scale large; cargo airline"
+},
+{
+"id": "aerlingus.com",
+"company": "Aer Lingus",
+"sector": "16 Travel & Hospitality",
+"country": "Ireland",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "IAG",
+"triage_note": "real; fit 1; scale large; Irish airline"
+},
+{
+"id": "leoni.com",
+"company": "LEONI",
+"sector": "43 Mobility & Automotive",
+"country": "Germany",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Luxshare",
+"triage_note": "real; fit 1; scale large; cable and wiring group"
+},
+{
+"id": "viivhealthcare.com",
+"company": "ViiV Healthcare",
+"sector": "NEW Pharma & Biotech",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "GSK",
+"triage_note": "real; fit 1; scale large; HIV pharma"
+},
+{
+"id": "moneygram.com",
+"company": "MoneyGram",
+"sector": "01 Banking & Insurance",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Madison Dearborn",
+"triage_note": "real; fit 1; scale large; money transfer"
+}
+]

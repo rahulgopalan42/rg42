@@ -1,0 +1,122 @@
+[
+{
+"id": "wanda-group.com",
+"company": "Wanda Cultural Industry Group",
+"sector": "NEW Other",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Dalian Wanda",
+"triage_note": "real; fit 2; scale large; culture and sports group"
+},
+{
+"id": "tifluidsystems.com",
+"company": "TI Automotive",
+"sector": "43 Mobility & Automotive",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; fluid systems supplier"
+},
+{
+"id": "sherwin-williams.com",
+"company": "Sherwin-Williams",
+"sector": "21 Materials & Mech Parts",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; paint maker"
+},
+{
+"id": "yellowjacket110.com",
+"company": "ITW",
+"sector": "55 Packaging & Food Machinery",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; industrial conglomerate"
+},
+{
+"id": "kelloggcompany.com",
+"company": "Kellogg Company",
+"sector": "NEW Other",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Mars",
+"triage_note": "real; fit 2; scale large; snack maker"
+},
+{
+"id": "paradoxinteractive.com",
+"company": "Paradox Interactive",
+"sector": "29 Tech Media & Gaming",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; strategy game publisher"
+},
+{
+"id": "zinus.co.kr",
+"company": "Zinus Korea",
+"sector": "53 Consumer & Lifestyle",
+"country": "Republic of Korea",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; mattress maker"
+},
+{
+"id": "bryancave.com",
+"company": "Bryan Cave LLP",
+"sector": "50 Law Firms & Legal AI",
+"country": "United States",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; global law firm"
+},
+{
+"id": "mrbeastjobs.com",
+"company": "MrBeast",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Privately Held",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; creator media company"
+},
+{
+"id": "unigroup.com.cn",
+"company": "Tsinghua Unigroup",
+"sector": "25 IT Services & Consulting",
+"country": "China",
+"type": "Partnership",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": true,
+"parent_hint": "Tsinghua Holdings",
+"triage_note": "real; fit 2; scale large; state semiconductor group"
+}
+]

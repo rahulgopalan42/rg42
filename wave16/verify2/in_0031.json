@@ -1,0 +1,122 @@
+[
+{
+"id": "trojanbattery.com",
+"company": "Trojan Battery Company",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "C&D Technologies (KPS Capital)",
+"triage_note": "real; fit 2; scale mid; Deep-cycle battery maker"
+},
+{
+"id": "dedietrich.com",
+"company": "De Dietrich",
+"sector": "23 Machine Tools",
+"country": "France",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Process equipment group"
+},
+{
+"id": "eccouncil.org",
+"company": "EC-Council",
+"sector": "14 Cyber + IT",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Cyber certification body"
+},
+{
+"id": "dorsey.com",
+"company": "Dorsey & Whitney LLP",
+"sector": "50 Law Firms & Legal AI",
+"country": "United States",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; US law firm"
+},
+{
+"id": "dwt.com",
+"company": "Davis Wright Tremaine LLP",
+"sector": "50 Law Firms & Legal AI",
+"country": "United States",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; US law firm"
+},
+{
+"id": "duanemorris.com",
+"company": "Duane Morris LLP",
+"sector": "50 Law Firms & Legal AI",
+"country": "United States",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; US law firm"
+},
+{
+"id": "hollandhart.com",
+"company": "Holland & Hart LLP",
+"sector": "50 Law Firms & Legal AI",
+"country": "United States",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Holland & Hart family",
+"triage_note": "real; fit 2; scale mid; Mountain West law firm"
+},
+{
+"id": "unilumin.cn",
+"company": "Shenzhen Unilumin Group Co. Ltd.",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Unilumin Group",
+"triage_note": "real; fit 2; scale mid; LED display maker"
+},
+{
+"id": "gseo.com",
+"company": "玉晶光電股份有限公司",
+"sector": "45 Electronic Parts",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; optical lens maker"
+},
+{
+"id": "raytrontek.com",
+"company": "Raytron",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; infrared thermal imaging"
+}
+]

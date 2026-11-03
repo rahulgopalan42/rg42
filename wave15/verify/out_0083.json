@@ -1,0 +1,300 @@
+[
+ {
+  "id": "bpdr.com",
+  "company": "Baron Philippe de Rothschild",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "bpdr.com",
+  "hq": "Pauillac (Bordeaux), France",
+  "ownership": "Private, Rothschild family (Philippine de Rothschild heirs)",
+  "sells": "Bordeaux and international wines: Chateau Mouton Rothschild, Mouton Cadet (~12M bottles/yr, 70% exported), Opus One JV, Almaviva, Escudo Rojo",
+  "headcount_band": "201-1,000 (420 in France, company careers page, undated)",
+  "revenue": "~EUR 150M (~USD 170M) (company careers page, undated); Mouton Cadet EUR 233M cited 2018 (conflicting)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets: yes (70% export, US/UK/Asia). Affluent 25-54: yes (premium wine). Story: no (heritage, not performance). Category not crowded: yes (wine; Ferrari Trento and Whispering Angel present but wine not on crowded list).",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue figures conflict and undated - confirm 150M+",
+   "alcohol category",
+   "long-time CEO Hugues Lechanoine left (2026)",
+   "golf sponsor history (Ryder Cup, European Tour)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "No F1 tie found for BPdR or Mouton Cadet; capped at Stretch by the USD 150-500M revenue route, with revenue near the floor and undated.",
+  "best_angle": "Mouton Cadet's sports-hospitality heritage (Ryder Cup, European Tour) translates naturally to F1 Paddock Club hospitality for affluent wine buyers.",
+  "sources": [
+   "https://talent.bpdr.com/jobs/7013527-area-manager-germany-austria-w-m-d-local-contract",
+   "https://focusonbelgium.be/en/business/taking-charge-mouton-cadet",
+   "https://www.meininger.de/wein/erzeuger/lechanoine-verlaesst-bpr",
+   "https://www.europeantour.com/dpworld-tour/news/articles/detail/european-tour-toasts-mouton-cadet-at-the-dp-world-tour-championship-in-du"
+  ]
+ },
+ {
+  "id": "lowa.com",
+  "company": "LOWA",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "lowa.com",
+  "hq": "Jetzendorf, Germany",
+  "ownership": "Subsidiary of Tecnica Group (Italy) since 1993; Italmobiliare holds 40% of Tecnica Group",
+  "sells": "Premium hiking, mountaineering and tactical footwear; 3.1M+ pairs sold worldwide in 2025; growing US business (new Salt Lake City HQ)",
+  "headcount_band": "1,001-5,000 (~1,800, est)",
+  "revenue": "USD 282.5M FY2025, record (company, May 2026); EUR 233.9M FY2024",
+  "valuation": "n/a (part of private Tecnica Group)",
+  "latest_raise": "n/a",
+  "fit_score": 4,
+  "fit_detail": "3+ F1 markets: yes (Europe, US, Asia). Affluent 25-54: yes (premium outdoor). Story: yes (performance and precision footwear engineering). Category not crowded: yes.",
+  "up_and_coming": true,
+  "flags": [
+   "USD 150-500M revenue route",
+   "group brand: Tecnica Group",
+   "market expansion: Europe -> US (Salt Lake City HQ 2025-26)",
+   "Slovak production (Handlova) closed Aug 2025 - production restructuring, not distress",
+   "no F1 tie found for Tecnica Group brands (Nordica, Moon Boot, Blizzard, Rollerblade)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Separately marketed consumer brand of Tecnica Group; no F1 tie found for LOWA or parent; record revenue USD 282.5M (2025) but capped at Stretch by the USD 150-500M revenue route.",
+  "best_angle": "LOWA's push into the US with record 2025 sales gives it reason to build brand recognition, and F1's US races reach the affluent outdoor audience it wants.",
+  "sources": [
+   "https://www.tradeandindustrydev.com/region/utah/news/ut-lowa-opens-new-us-headquarters-salt-lake-city-35870",
+   "https://fashionunited.de/nachrichten/business/lowa-steigert-jahresumsatz-um-fast-zwei-prozent/2025042961266",
+   "https://newsnow.tasr.sk/lowa-to-end-its-footwear-production-in-handlova-by-end-of-august/",
+   "https://www.italmobiliare.it/en/investments/portfolio-companies/tecnica-group"
+  ]
+ },
+ {
+  "id": "selleroyalgroup.com",
+  "company": "Selle Royal Group",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "selleroyalgroup.com",
+  "hq": "Pozzoleone (Vicenza), Italy",
+  "ownership": "Private, Bigolin family majority; minority stake sold to a European equity fund (2021)",
+  "sells": "Cycling saddles, shoes and components: Selle Royal, fizik, Brooks England, Crankbrothers, PEdALED",
+  "headcount_band": "1,001-5,000 (1,000-1,400, company)",
+  "revenue": "~USD 131.9M FY to Jun 2022 (Preqin); EUR 205.1M at 30 Jun 2021 (Milano Finanza, COVID-boom peak); EUR 130M 2019",
+  "valuation": "n/a (private; Euronext listing plan reported Jan 2022, not completed)",
+  "latest_raise": "Minority equity stake sold to European fund, May 2021 (terms undisclosed)",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets: yes. Affluent 25-54: yes (premium cyclists). Story: yes (performance cycling). Category not crowded: yes.",
+  "up_and_coming": false,
+  "flags": [
+   "revenue below USD 150M on latest dated figure",
+   "cycling industry downturn 2023-24"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Fails scale: latest dated revenue ~USD 132M (FY to Jun 2022, Preqin), below USD 150M; 2021 EUR 205M was a pandemic peak before the cycling slump; no F1 tie found.",
+  "best_angle": "",
+  "sources": [
+   "https://www.preqin.com/data/profile/asset/selle-royal-s-p-a-/431568",
+   "https://www.milanofinanza.it/news/selle-royal-si-quota-su-euronext-202201130839121070",
+   "https://bicycleretailer.com/international/2021/05/14/european-equity-fund-acquires-third-selle-royal-group",
+   "https://en.wikipedia.org/wiki/Selle_Royal"
+  ]
+ },
+ {
+  "id": "caseking.de",
+  "company": "Caseking GmbH",
+  "sector_tab": "X Retail & E-commerce",
+  "domain": "caseking.de",
+  "hq": "Berlin, Germany",
+  "ownership": "Private, majority owned by Gilde Buy Out Partners since Jul 2018 (from Equistone)",
+  "sells": "Gaming PC hardware, peripherals and own brands (noblechairs, King Mod) online in Germany, UK (Overclockers UK), Nordics, Southern/Eastern Europe",
+  "headcount_band": "501-1,000 (641, 2023, Implisense)",
+  "revenue": "~EUR 450M (~USD 490M) 2023 (Implisense, Caseking GmbH, unverified); EUR 239M FY2017/18 (Equistone)",
+  "valuation": "Undisclosed (Gilde deal 2018)",
+  "latest_raise": "n/a (PE buyout 2018)",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets: yes (DE, UK, Nordics, Southern Europe). Affluent 25-54: partial (gamers/PC enthusiasts skew 18-34). Story: yes (performance hardware). Category not crowded: yes.",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "lapsed F1 tie: Overclockers UK (Caseking subsidiary) was official partner of Mercedes-AMG Petronas Esports Team (renewed 2023; partner page now removed) - confirm before outreach",
+   "PE-owned (Gilde)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale on ~EUR 450M revenue (2023, est); controlled brand Overclockers UK had a Mercedes-AMG Petronas Esports partnership that appears lapsed, so capped at Stretch (confirm before outreach).",
+  "best_angle": "Has activated F1 esports through Overclockers UK before; a full F1 sim-racing and gaming hardware tie-in would extend that to its whole European customer base.",
+  "sources": [
+   "https://implisense.com/en/companies/caseking-gmbh-berlin-DEUY2MO95P69",
+   "https://equistonepe.com/newsdetail/equistone-sells-caseking-group-to-gilde/550",
+   "https://www.vortez.net/news_story/overclockers_uk_renew_partnership_with_mercedes_amg_petronas_esports_team.html",
+   "https://www.overclockers.co.uk/about-us/partnerships.html"
+  ]
+ },
+ {
+  "id": "sanyodenki.com",
+  "company": "SANYO DENKI CO., LTD.",
+  "sector_tab": "33 Automation & Robotics",
+  "domain": "sanyodenki.com",
+  "hq": "Tokyo, Japan",
+  "ownership": "Listed Tokyo Stock Exchange (6516)",
+  "sells": "Cooling fans, servo motors/drives, stepping motors, UPS and power systems for factory automation, semiconductor, data center and AI equipment; global subsidiaries",
+  "headcount_band": "1,001-5,000 (~3,900, est)",
+  "revenue": "JPY 107.3B (~USD 720M) FY to Mar 2026, +9.7%; operating profit JPY 10.9B; JPY 97.8B FY to Mar 2025",
+  "valuation": "Market cap below USD 1B (est)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 4,
+  "fit_detail": "3+ F1 markets: yes (Japan, US, Europe, Asia). Senior B2B buyers: yes (OEM engineers/procurement). Story: yes (precision motion control, cooling technology for AI). Category not crowded: yes.",
+  "up_and_coming": false,
+  "flags": [
+   "B2B, weak marketing motive",
+   "not related to Sanyo Electric (past F1 sponsor of Williams/Benetton/Stewart)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes all hard filters (revenue ~USD 720M FY to Mar 2026, no F1 tie found) with strong precision fit, but pure B2B component maker with no visible brand-marketing motive.",
+  "best_angle": "Precision servo and cooling technology demand from AI data centers could be showcased through an F1 technical partnership aimed at engineering buyers.",
+  "sources": [
+   "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260427/20260427511092.pdf",
+   "https://stockanalysis.com/quote/tyo/6516/financials/income-statement/",
+   "https://filingreader.com/news-wire/tokyo/2025-05-27/sanyo-denki-fy2025-profits-decline-amid-sluggish-demand",
+   "https://www.grandprix.com/ns/ns00881.html"
+  ]
+ },
+ {
+  "id": "marc-cain.com",
+  "company": "Marc Cain",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "marc-cain.com",
+  "hq": "Bodelshausen, Germany",
+  "ownership": "Private; founder Helmut Schlotterer, planned transfer to Helmut Schlotterer Stiftung (employee foundation), timing open",
+  "sells": "Premium womenswear and knitwear, sold in 60+ countries via own stores and wholesale",
+  "headcount_band": "501-1,000 (~1,000, est)",
+  "revenue": "EUR 248.7M FY2019; EUR 198M FY2020 (Bundesanzeiger); later figures not published (est EUR 200-260M)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets: yes (60+ countries). Affluent 25-54: yes. Story: no (fashion). Category not crowded: yes.",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "latest revenue not published since 2020 - confirm",
+   "ownership succession to foundation pending"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "No F1 tie found; capped at Stretch by the USD 150-500M revenue route, and current revenue is unconfirmed.",
+  "best_angle": "F1's growing female audience fits a premium womenswear brand sold in 60+ countries.",
+  "sources": [
+   "https://fashionunited.de/nachrichten/business/marc-cain-schrieb-2020-rote-zahlen/2021122944473",
+   "https://www.textilwirtschaft.de/fashion-management/marc-cain-helmut-schlotterer-uebergibt-den-staffelstab-110388",
+   "https://statista.com/statistics/1543643/marc-cain-holding-revenue"
+  ]
+ },
+ {
+  "id": "osborne.es",
+  "company": "Grupo Osborne",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "osborne.es",
+  "hq": "El Puerto de Santa Maria, Spain",
+  "ownership": "Private, Osborne family",
+  "sells": "Spirits, brandy, sherry, wine, gin and Iberian ham (Cinco Jotas); exports to many markets",
+  "headcount_band": "501-1,000 (616, Revelio 2025)",
+  "revenue": "EUR 252.5M (~USD 290M) 2025, +0.6%; net profit EUR 12.9M (-19.9%); EBITDA EUR 35.4M",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets: yes. Affluent 25-54: yes. Story: no (heritage). Category not crowded: no (spirits are crowded on the grid).",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "spirits crowded on grid",
+   "profit falling (US tariffs, swine fever, alcohol demand)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "No F1 tie found; capped at Stretch by the USD 150-500M revenue route; spirits category crowded on the grid and profits falling.",
+  "best_angle": "",
+  "sources": [
+   "https://www.eldebate.com/economia/20260615/aranceles-peste-porcina-caida-consumo-alcohol-danan-cifras-osborne_428981.html",
+   "https://www.alimarket.es/alimentacion/noticia_amp/409938/grupo-osborne-cierra-un-ejercicio--solido---con-ligera-subida-en-ventas",
+   "https://www.reveliolabs.com/companies/grupo-osborne/employees/"
+  ]
+ },
+ {
+  "id": "nexters.com",
+  "company": "GDEV (Nexters)",
+  "sector_tab": "29 Tech Media & Gaming",
+  "domain": "nexters.com",
+  "hq": "Limassol, Cyprus",
+  "ownership": "Listed Nasdaq (GDEV); founder-controlled (Russian-born founders)",
+  "sells": "Mobile and web games (Hero Wars, Island Hoppers, Pixel Gun 3D) worldwide",
+  "headcount_band": "501-1,000 (~590, est; 900+ in 2024 per Wikipedia)",
+  "revenue": "USD 404M FY2025 (-4%); USD 421M FY2024",
+  "valuation": "Market cap below USD 1B (est)",
+  "latest_raise": "n/a (listed via SPAC 2021)",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets: yes (global players). Affluent 25-54: no (broad mobile gamers). Story: no. Category not crowded: yes (mobile games).",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "Russian-founded; not sanctioned (no OFAC/EU/UK listing found) - reputational check before outreach",
+   "revenue declining"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (revenue USD 404M FY2025, Cyprus HQ, no sanctions or F1 tie found) but capped at Stretch by the USD 150-500M route, declining revenue and Russian-origin reputational risk.",
+  "best_angle": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/GDEV",
+   "https://www.roic.ai/quote/GDEV",
+   "https://www.gamedeveloper.com/press-release/hero-wars-alliance-continues-it-s-ascent-with-over-1-7bn-revenue-185m-installs/"
+  ]
+ },
+ {
+  "id": "duckhornportfolio.com",
+  "company": "The Duckhorn Portfolio",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "duckhornportfolio.com",
+  "hq": "St. Helena, California, United States",
+  "ownership": "Private, owned by Butterfly Equity (take-private closed Dec 2024)",
+  "sells": "Premium North American wine: Duckhorn Vineyards, Decoy, Kosta Browne, Sonoma-Cutrer and 7 more winery brands, mainly US",
+  "headcount_band": "501-1,000 (~800, est)",
+  "revenue": "~USD 406M FY2024 (company, to Jul 2024)",
+  "valuation": "EV USD 1.95B (Butterfly take-private, closed Dec 2024)",
+  "latest_raise": "n/a (PE take-private Dec 2024)",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets: no (US-centric). Affluent 25-54: yes. Story: no. Category not crowded: yes (wine).",
+  "up_and_coming": false,
+  "flags": [
+   "PE-owned (Butterfly Equity)",
+   "US-centric sales",
+   "ACM Awards partner (country music)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale on USD 1.95B take-private EV (Dec 2024) and no F1 tie found, but sales are concentrated in the US, limiting F1's global value.",
+  "best_angle": "US races (Miami, Austin, Las Vegas) give a premium US wine portfolio high-end hospitality exposure to affluent American fans.",
+  "sources": [
+   "https://www.foodprocessing.com/business-of-food-beverage/mergers-acquisitions/news/55252570/butterfly-equity-completes-195-billion-acquisition-of-the-duckhorn-portfolio",
+   "https://www.businesswire.com/news/home/20241007954663/en",
+   "https://www.formula1.com/en/latest/article/whispering-angel-announced-as-official-rose-of-formula-1.5JcAaJ5dpDU2gg2kbuTKUC"
+  ]
+ },
+ {
+  "id": "fersa.com",
+  "company": "Fersa Bearings",
+  "sector_tab": "21 Materials & Mech Parts",
+  "domain": "fersa.com",
+  "hq": "Zaragoza, Spain",
+  "ownership": "Private, family-owned (Fersa Group; brands Fersa, NKE, A&S)",
+  "sells": "Bearings for automotive aftermarket, heavy-duty and OE; plants in Spain, Austria, China (Jiaxing, Feb 2025), India (Delux Bearings, 70%)",
+  "headcount_band": "501-1,000 (Revelio 509 Dec 2025; group likely larger incl. China/India)",
+  "revenue": "~EUR 200M FY2023 (company guidance per screen, unverified); 2019 target EUR 160M by 2022; 2024 reportedly down significantly",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a (COFIDES loans for China/India/US expansion)",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets: yes. Senior B2B buyers: no (aftermarket distributors). Story: yes (precision engineering). Category not crowded: no (automotive).",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue unverified and declining in 2024 - confirm 150M+",
+   "automotive category crowded"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "No F1 tie found; capped at Stretch by the USD 150-500M revenue route, with unverified and declining revenue and a crowded automotive category.",
+  "best_angle": "",
+  "sources": [
+   "https://empresite.eleconomista.es/FERSA-BEARINGS.html",
+   "https://www.reveliolabs.com/companies/fersa-bearings/employees/",
+   "https://aftermarket.fersa.com/uploads/files/rsc/Memoria%20de%20RSA_2019.pdf",
+   "https://zaragozala.com/actualidad/zaragoza-refuerza-su-presencia-en-china-con-la-inauguracion-de-fersa-en-jiaxing/"
+  ]
+ }
+]

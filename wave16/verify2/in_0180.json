@@ -1,0 +1,122 @@
+[
+{
+"id": "suzano.com.br",
+"company": "Suzano",
+"sector": "21 Materials & Mech Parts",
+"country": "Brazil",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Brazilian pulp producer"
+},
+{
+"id": "manpowergroup.com",
+"company": "ManpowerGroup",
+"sector": "20 Staffing & Talent",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; staffing major"
+},
+{
+"id": "lomonbillions.global",
+"company": "LB Group",
+"sector": "21 Materials & Mech Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; titanium dioxide producer"
+},
+{
+"id": "imip.co.id",
+"company": "PT INDONESIA MOROWALI INDUSTRIAL PARK",
+"sector": "X04 Mining, Metals & Commodities",
+"country": "Indonesia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Tsingshan",
+"triage_note": "real; fit 1; scale large; industrial park"
+},
+{
+"id": "penoles.com.mx",
+"company": "Penoles Industries",
+"sector": "X04 Mining, Metals & Commodities",
+"country": "Mexico",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Mexican silver miner"
+},
+{
+"id": "huayou.com",
+"company": "Huayou Cobalt",
+"sector": "21 Materials & Mech Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; cobalt producer"
+},
+{
+"id": "dssmith.com",
+"company": "DS Smith",
+"sector": "NEW Other",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "International Paper",
+"triage_note": "real; fit 1; scale large; packaging group"
+},
+{
+"id": "rusal.com",
+"company": "UC RUSAL",
+"sector": "X04 Mining, Metals & Commodities",
+"country": "Russia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; aluminium producer"
+},
+{
+"id": "efko.ru",
+"company": "ГК «ЭФКО»",
+"sector": "04 Food & Beverage",
+"country": "Russia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; edible oils group"
+},
+{
+"id": "whitemountains.com",
+"company": "White Mountains Insurance Group",
+"sector": "01 Banking & Insurance",
+"country": "Bermuda",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; insurance holding"
+}
+]

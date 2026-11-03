@@ -1,0 +1,122 @@
+[
+{
+"id": "liberatedbrands.com",
+"company": "Liberated Brands",
+"sector": "53 Consumer & Lifestyle",
+"country": "United States",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale unknown; Outdoor apparel"
+},
+{
+"id": "activsolar.com",
+"company": "Activ Solar",
+"sector": "27 Chip Makers",
+"country": "Österreich",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale unknown; Solar technology firm"
+},
+{
+"id": "akcome.com",
+"company": "AKCOME",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale unknown; solar maker, restructured"
+},
+{
+"id": "dtpower.com",
+"company": "Datang International Power Generation Co., Ltd.",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 10B-100B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "China Datang Corporation",
+"triage_note": "real; fit 0; scale large; Chinese power utility"
+},
+{
+"id": "hdpi.com.cn",
+"company": "Huadian Power International Co., Ltd.",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 10B-100B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "China Huadian Corporation",
+"triage_note": "real; fit 0; scale large; Chinese power utility"
+},
+{
+"id": "unext-hd.co.jp",
+"company": "U-NEXT HD.(USEN&U-NEXT GROUP)",
+"sector": "48 Telecom & Space",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Japanese telecom and media"
+},
+{
+"id": "yuewen.com",
+"company": "阅文集团",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Tencent",
+"triage_note": "real; fit 0; scale large; Chinese web fiction"
+},
+{
+"id": "magazinevoce.com.br",
+"company": "Magazine Luiza | LinkedIn",
+"sector": "X06 Retail & E-commerce",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Brazil-only retailer"
+},
+{
+"id": "gongniu.cn",
+"company": "公牛集团有限公司",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Chinese electrical goods"
+},
+{
+"id": "sportmastercorp.com",
+"company": "Sportmaster",
+"sector": "53 Consumer & Lifestyle",
+"country": "Singapore",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Russian sports retailer"
+}
+]

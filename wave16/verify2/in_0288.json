@@ -1,0 +1,122 @@
+[
+{
+"id": "eleco.com",
+"company": "Eleco",
+"sector": "22 SaaS",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; UK software group"
+},
+{
+"id": "bktechnologies.com",
+"company": "BK Technologies Inc.",
+"sector": "48 Telecom & Space",
+"country": "United States",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; two-way radios"
+},
+{
+"id": "vertigis.com",
+"company": "VertiGIS Data Platform North America",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; GIS software"
+},
+{
+"id": "leedsunited.com",
+"company": "Leeds United",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "49ers Enterprises",
+"triage_note": "real; fit 1; scale mid; football club"
+},
+{
+"id": "gbtec.com",
+"company": "GBTEC Group",
+"sector": "22 SaaS",
+"country": "Germany",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; process software"
+},
+{
+"id": "feyenoord.nl",
+"company": "Feyenoord Rotterdam N.V.",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "Netherlands",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; football club"
+},
+{
+"id": "growens.io",
+"company": "Growens",
+"sector": "22 SaaS",
+"country": "Italy",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; email SaaS group"
+},
+{
+"id": "qoria.com",
+"company": "Qoria",
+"sector": "22 SaaS",
+"country": "Australia",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; edtech safety software"
+},
+{
+"id": "visable.com",
+"company": "Visable",
+"sector": "22 SaaS",
+"country": "Germany",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; B2B marketplace"
+},
+{
+"id": "lime-technologies.com",
+"company": "Lime Technologies",
+"sector": "22 SaaS",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; CRM software"
+}
+]

@@ -1,0 +1,122 @@
+[
+{
+"id": "gzzg.com.cn",
+"company": "Guangzhou Zhiguang Electric Co., Ltd.",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; electrical equipment"
+},
+{
+"id": "lancygroup.com",
+"company": "Lancy Co., Ltd",
+"sector": "53 Consumer & Lifestyle",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; high-end womenswear"
+},
+{
+"id": "neibearing.com",
+"company": "NEI",
+"sector": "23 Machine Tools",
+"country": "India",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Indian bearing maker"
+},
+{
+"id": "pri.co.uk",
+"company": "PRI Limited",
+"sector": "45 Electronic Parts",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Smart meter maker"
+},
+{
+"id": "polarisworld.com",
+"company": "Polaris World",
+"sector": "X02 Real Estate & Building Products",
+"country": "España",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Spanish resort developer"
+},
+{
+"id": "amkodor.by",
+"company": "AMKODOR",
+"sector": "23 Machine Tools",
+"country": "Belarus",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Belarus machinery holding"
+},
+{
+"id": "okingroup.com",
+"company": "OKIN Group",
+"sector": "25 IT Services & Consulting",
+"country": "Česko",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Work-tech consultancy"
+},
+{
+"id": "heyco-qualitaetswerkzeuge.de",
+"company": "HEYCO Qualitätswerkzeuge GmbH & Co. KG",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; German tool supplier"
+},
+{
+"id": "elenafurs.ru",
+"company": "Elena Furs",
+"sector": "X06 Retail & E-commerce",
+"country": "Russia",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Russian fur brand"
+},
+{
+"id": "picerne.com",
+"company": "Picerne Real Estate Group",
+"sector": "X02 Real Estate & Building Products",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Luxury property developer"
+}
+]

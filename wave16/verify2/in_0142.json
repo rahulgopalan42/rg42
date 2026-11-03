@@ -1,0 +1,122 @@
+[
+{
+"id": "inventronics-co.com",
+"company": "Inventronics-co",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; LED drivers"
+},
+{
+"id": "somacis.com",
+"company": "SOMACIS",
+"sector": "45 Electronic Parts",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; PCB maker"
+},
+{
+"id": "raycap.com",
+"company": "Raycap",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; surge protection"
+},
+{
+"id": "alstefgroup.com",
+"company": "Alstef Group",
+"sector": "33 Automation & Robotics",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; airport automation"
+},
+{
+"id": "apem.com",
+"company": "APEM",
+"sector": "45 Electronic Parts",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "IDEC",
+"triage_note": "real; fit 2; scale mid; HMI components"
+},
+{
+"id": "heuft.com",
+"company": "HEUFT SYSTEMTECHNIK GMBH",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; inspection systems"
+},
+{
+"id": "montanhydraulik.com",
+"company": "Montanhydraulik GmbH",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; hydraulic components"
+},
+{
+"id": "mccsemi.com",
+"company": "MCC (Micro Commercial Components)",
+"sector": "27 Chip Makers",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; semiconductor devices"
+},
+{
+"id": "keestrack.com",
+"company": "Keestrack Group",
+"sector": "23 Machine Tools",
+"country": "Belgium",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; mobile crushers"
+},
+{
+"id": "zenixaerospace.com",
+"company": "Zenix Aerospace",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; aerospace manufacturing"
+}
+]

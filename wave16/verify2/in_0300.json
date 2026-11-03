@@ -1,0 +1,122 @@
+[
+{
+"id": "coincheckgroup.com",
+"company": "Coincheck Group N.V.",
+"sector": "12 Trading & Crypto",
+"country": "Netherlands",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Coincheck",
+"triage_note": "real; fit 1; scale mid; crypto exchange group"
+},
+{
+"id": "libertexgroup.com",
+"company": "Libertex Group",
+"sector": "01 Banking & Insurance",
+"country": "Cyprus",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; online trading platform"
+},
+{
+"id": "sac-world.com",
+"company": "Guodian Nanjing Automation Co., Ltd.",
+"sector": "43 Mobility & Automotive",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "China Energy Investment",
+"triage_note": "real; fit 1; scale mid; grid automation"
+},
+{
+"id": "gtig.com",
+"company": "Jiangsu Saintybritex Co.,ltd",
+"sector": "NEW Other",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese textile trader"
+},
+{
+"id": "metawater.co.jp",
+"company": "METAWATER Co., Ltd",
+"sector": "NEW Other",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; water technology"
+},
+{
+"id": "abrau.ru",
+"company": "Abrau-Durso",
+"sector": "04 Food & Beverage",
+"country": "Russia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Russian sparkling wine"
+},
+{
+"id": "meikesolar.com",
+"company": "Meike Solar",
+"sector": "NEW Other",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; solar supplier"
+},
+{
+"id": "payone.com",
+"company": "PAYONE",
+"sector": "01 Banking & Insurance",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Worldline/DSV",
+"triage_note": "real; fit 1; scale mid; payment provider"
+},
+{
+"id": "joriside.com",
+"company": "Joris Ide",
+"sector": "NEW Other",
+"country": "Belgique",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; heating products"
+},
+{
+"id": "synlait.com",
+"company": "Synlait Milk Limited",
+"sector": "04 Food & Beverage",
+"country": "New Zealand",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; dairy nutrition NZ"
+}
+]

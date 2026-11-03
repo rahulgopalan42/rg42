@@ -1,0 +1,122 @@
+[
+{
+"id": "yanglipress.com",
+"company": "YANGLI GROUP CORPORATION LTD",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese press maker"
+},
+{
+"id": "getir.com",
+"company": "Getir",
+"sector": "22 SaaS",
+"country": "Turkey",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Uber",
+"triage_note": "real; fit 1; scale mid; Turkish quick commerce"
+},
+{
+"id": "accertify.com",
+"company": "Accertify, Inc.",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Accel-KKR",
+"triage_note": "real; fit 1; scale mid; fraud prevention software"
+},
+{
+"id": "vicemedia.com",
+"company": "VICE Media",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "VICE Studios",
+"triage_note": "real; fit 1; scale mid; digital media group"
+},
+{
+"id": "enjoy.cl",
+"company": "Enjoy S.A.",
+"sector": "29 Tech Media & Gaming",
+"country": "Chile",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chilean casino group"
+},
+{
+"id": "woodbineentertainment.com",
+"company": "Woodbine Entertainment",
+"sector": "29 Tech Media & Gaming",
+"country": "Canada",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Canadian horse racing"
+},
+{
+"id": "uwlaser.com",
+"company": "United Winners Laser Co., ltd",
+"sector": "52 Photonics & Optical",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; laser maker"
+},
+{
+"id": "yokowo.co.jp",
+"company": "Yokowo Co., Ltd.",
+"sector": "45 Electronic Parts",
+"country": "Japan",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; antenna/connector maker"
+},
+{
+"id": "gp.industries",
+"company": "GP Industries Limited",
+"sector": "45 Electronic Parts",
+"country": "Singapore",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Gold Peak Technology Group",
+"triage_note": "real; fit 1; scale mid; batteries/audio"
+},
+{
+"id": "baoxiniao.com.cn",
+"company": "Saint Angelo 报喜鸟",
+"sector": "53 Consumer & Lifestyle",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese menswear"
+}
+]

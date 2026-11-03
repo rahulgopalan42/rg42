@@ -1,0 +1,122 @@
+[
+{
+"id": "elegant-prosper.com",
+"company": "Zhejiang Elegant Prosper Group Co. Ltd.(浙江雅莹集团有限公司)",
+"sector": "53 Consumer & Lifestyle",
+"country": "China",
+"type": "Partnership",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Chinese luxury fashion brand"
+},
+{
+"id": "merithotels.com",
+"company": "Merit International Hotels & Resorts",
+"sector": "16 Travel & Hospitality",
+"country": "Cyprus",
+"type": "Partnership",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Cyprus luxury hotel group"
+},
+{
+"id": "ktccd.com",
+"company": "Shenzhen KTC Commercial Display Technology Co., Ltd.",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Partnership",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Chinese commercial display maker"
+},
+{
+"id": "andrettikarting.com",
+"company": "Andretti Indoor Karting & Games",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; motorsport-adjacent karting venues"
+},
+{
+"id": "rtjgolf.com",
+"company": "Robert Trent Jones Golf Trail",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Retirement Systems of Alabama",
+"triage_note": "real; fit 2; scale mid; golf trail operator"
+},
+{
+"id": "schwancosmetics.com",
+"company": "Schwan Cosmetics International GmbH",
+"sector": "03 Luxury & Beauty",
+"country": "Germany",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Schwan-STABILO",
+"triage_note": "real; fit 2; scale mid; cosmetics pencil maker"
+},
+{
+"id": "sokolov.ru",
+"company": "SOKOLOV",
+"sector": "03 Luxury & Beauty",
+"country": "Russia",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Russian jewellery maker"
+},
+{
+"id": "aviavip.com",
+"company": "AviaVIP",
+"sector": "16 Travel & Hospitality",
+"country": "Belgium",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Aviapartner Group",
+"triage_note": "real; fit 2; scale mid; European FBO network"
+},
+{
+"id": "iberomoldes.pt",
+"company": "IBEROMOLDES Group",
+"sector": "23 Machine Tools",
+"country": "Portugal",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Portuguese mould maker"
+},
+{
+"id": "ballardspahr.com",
+"company": "Ballard Spahr LLP",
+"sector": "50 Law Firms & Legal AI",
+"country": "United States",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; US law firm"
+}
+]

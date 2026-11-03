@@ -1,0 +1,122 @@
+[
+{
+"id": "beallsinc.com",
+"company": "Bealls, Inc.",
+"sector": "X06 Retail & E-commerce",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; family-owned department stores"
+},
+{
+"id": "rema.no",
+"company": "REMA 1000 i Norge",
+"sector": "X06 Retail & E-commerce",
+"country": "Norway",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Reitangruppen",
+"triage_note": "real; fit 0; scale large; Norwegian discount grocer"
+},
+{
+"id": "risesun.cn",
+"company": "Risesun Real Estate Development Co., Ltd",
+"sector": "X02 Real Estate & Building Products",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Chinese developer"
+},
+{
+"id": "rhoen-klinikum-ag.com",
+"company": "RHÖN-KLINIKUM AG",
+"sector": "42 Health & Wellness",
+"country": "Germany",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Asklepios",
+"triage_note": "real; fit 0; scale large; German hospital operator"
+},
+{
+"id": "fix-price.com",
+"company": "FIX PRICE",
+"sector": "X06 Retail & E-commerce",
+"country": "Russia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Russian variety retailer"
+},
+{
+"id": "magnit.ru",
+"company": "ЗАО \"Тандер\"",
+"sector": "X06 Retail & E-commerce",
+"country": "Russia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Russian retailer Magnit"
+},
+{
+"id": "hoshinesilicon.com",
+"company": "HOSHINE SILICON INDUSTRY CO., LTD.",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Chinese silicone producer"
+},
+{
+"id": "rostselmash.com",
+"company": "Rostselmash",
+"sector": "23 Machine Tools",
+"country": "Russia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Russian harvester maker"
+},
+{
+"id": "bl.com",
+"company": "Bailian Omnichannel eCommerce",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Bailian Group (Shanghai state)",
+"triage_note": "real; fit 0; scale large; Chinese retail group"
+},
+{
+"id": "brightstar.com",
+"company": "Brightstar Corp.",
+"sector": "48 Telecom & Space",
+"country": "United States",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Brightstar Capital Partners (PE)",
+"triage_note": "real; fit 0; scale large; device lifecycle distributor"
+}
+]

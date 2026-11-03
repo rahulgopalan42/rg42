@@ -1,0 +1,122 @@
+[
+{
+"id": "roemheld.de",
+"company": "ROEMHELD Gruppe",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Hilma-Römheld",
+"triage_note": "real; fit 2; scale mid; clamping technology"
+},
+{
+"id": "zkl.eu",
+"company": "ZKL Group",
+"sector": "23 Machine Tools",
+"country": "Česko",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; rolling bearings"
+},
+{
+"id": "rosendahlnextrom.com",
+"company": "Rosendahl Nextrom GmbH",
+"sector": "23 Machine Tools",
+"country": "Austria",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; cable production tech"
+},
+{
+"id": "bernardcontrols.com",
+"company": "BERNARD CONTROLS",
+"sector": "23 Machine Tools",
+"country": "France",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; electric actuators"
+},
+{
+"id": "bachmann.com",
+"company": "BACHMANN Group",
+"sector": "45 Electronic Parts",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; automation systems"
+},
+{
+"id": "wittchen.com",
+"company": "WITTCHEN S.A.",
+"sector": "X06 Retail & E-commerce",
+"country": "Poland",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; leather luxury goods"
+},
+{
+"id": "ebang.com",
+"company": "Ebang International",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; crypto mining chips"
+},
+{
+"id": "saueressig.com",
+"company": "SAUERESSIG Group",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; embossing tools"
+},
+{
+"id": "springer.eu",
+"company": "SPRINGER Maschinenfabrik GmbH",
+"sector": "23 Machine Tools",
+"country": "Österreich",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; sawmill machinery"
+},
+{
+"id": "nordicnestgroup.com",
+"company": "Nordic Nest Group",
+"sector": "X06 Retail & E-commerce",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Scandinavian design retail"
+}
+]

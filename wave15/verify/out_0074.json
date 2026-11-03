@@ -1,0 +1,292 @@
+[
+ {
+  "id": "erewhon.com",
+  "company": "Erewhon",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "erewhon.com",
+  "hq": "Los Angeles, CA, United States",
+  "ownership": "Private; Antoci family (owners since 2011); Stripes Group minority growth investment (2019)",
+  "sells": "Luxury organic grocery and prepared foods/smoothie bar chain (10-14 LA stores; NYC location announced)",
+  "headcount_band": "1,001-5,000 (~2,500, Wikipedia 2025)",
+  "revenue": "~USD 520-750M (est: ~USD 1M weekly sales per store x ~10-11 stores, Hollywood Reporter 2025; ~USD 750M third-party est)",
+  "valuation": "",
+  "latest_raise": "Stripes Group minority investment (2019, undisclosed)",
+  "fit_score": 2,
+  "fit_detail": "Only sells in US (LA; NYC planned) - fails 3+ markets; affluent 25-54 cult audience; category not crowded; wellness story, not performance",
+  "up_and_coming": true,
+  "flags": [
+   "revenue est only (not disclosed)",
+   "market expansion: Los Angeles -> New York",
+   "domestic single-metro footprint"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on estimated revenue USD 500M+ (2025 est); reservation: LA-only footprint gives little reach across F1 markets",
+  "best_angle": "Celebrity-driven affluent lifestyle brand expanding east; US race weekends (Miami, Las Vegas) could host Erewhon pop-ups/collab drinks",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Erewhon_(store)",
+   "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/erewhon-dynasty-antoci-family-interview-1235613048/",
+   "https://www.aim13.com/erewhon",
+   "https://retailisnotdead.beehiiv.com/p/issue-61-erewhon-in-nyc",
+   "https://progressivegrocer.com/erewhon-could-go-nationwide-after-private-equity-deal"
+  ]
+ },
+ {
+  "id": "gullon.es",
+  "company": "Galletas Gullon",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "gullon.es",
+  "hq": "Aguilar de Campoo, Palencia, Spain",
+  "ownership": "Private, family-owned",
+  "sells": "Biscuits and cookies (incl. sugar-free/health ranges and private label) sold in 125+ countries; 45% of sales exported",
+  "headcount_band": "1,001-5,000 (~2,300 direct jobs, 2025)",
+  "revenue": "EUR 750M (FY2025, +7.6%; El Espanol Feb 2026); EUR 697M (2024)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 2,
+  "fit_detail": "Sells in Spain, UK, Italy, Portugal and 125+ countries (3+ F1 markets); category not crowded; mass grocery audience and biscuit story do not map to performance",
+  "up_and_coming": false,
+  "flags": [],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes all filters (revenue EUR 750M FY2025); reservation: mass biscuit brand with weak performance story",
+  "best_angle": "Fast international growth (+41% since 2022) and Spanish F1 boom (Madrid GP from 2026) give a home-market hook",
+  "sources": [
+   "https://www.elespanol.com/invertia/empresas/distribucion/20260212/galletas-gullon-dispara-facturacion-millones-gracias-expansion-internacional/1003744125769_0.html",
+   "https://www.corresponsables.com/actualidad/galletas-gullon-facturacion-empleo-crecen/",
+   "https://es.ara.cat/economia/empresas/gullon-convertido-galleta-saludable-negocio-690-millones_1_5715958.html"
+  ]
+ },
+ {
+  "id": "streparava.com",
+  "company": "Streparava",
+  "sector_tab": "43 Mobility & Automotive",
+  "domain": "streparava.com",
+  "hq": "Adro, Brescia, Italy",
+  "ownership": "Private, family-owned",
+  "sells": "Powertrain, chassis, suspension and e-axle components for trucks, buses, cars and motorcycles (OEM B2B)",
+  "headcount_band": "201-500 (Streparava SpA ~460, Revelio 2025; group larger est)",
+  "revenue": "EUR 282.1M (2024, Topaziende/Quotidiano); EUR 286.2M (2023)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 1,
+  "fit_detail": "Sells to OEMs in Italy, Europe, India, Brazil (3+ F1 markets); OEM procurement buyers; precision engineering story; automotive category crowded = 0; no consumer brand",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "automotive category crowded",
+   "Ducati (MotoGP) technical partner/sponsor - not F1"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters (revenue EUR 282M 2024) but B2B OEM parts supplier in crowded automotive category with no brand ambition",
+  "best_angle": "",
+  "sources": [
+   "https://topaziende.quotidiano.net/?p=99874",
+   "https://www.reveliolabs.com/companies/streparava/employees/",
+   "https://automa.net/company/streparava"
+  ]
+ },
+ {
+  "id": "swoboda.com",
+  "company": "Swoboda Technologies",
+  "sector_tab": "43 Mobility & Automotive",
+  "domain": "swoboda.com",
+  "hq": "Wiggensbach, Germany",
+  "ownership": "Private; main shareholder Dr. Matthias Groth (per Stuttgarter Zeitung); Swoboda family founders (1947)",
+  "sells": "Sensors, actuators, electronic and mechatronic systems for automotive OEMs/Tier-1s",
+  "headcount_band": "1,001-5,000 (~3,500 at 12 sites, company)",
+  "revenue": "EUR 450M+ (last FY, company job ads, undated)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 1,
+  "fit_detail": "Sells to OEMs in Germany, China, US, Mexico (3+ F1 markets); B2B procurement buyers; precision/tech story; automotive category crowded = 0",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route (EUR 450M+ undated, borderline)",
+   "closing Schorndorf site (140 jobs) - auto-supplier downturn, not insolvency",
+   "automotive category crowded"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters (revenue EUR 450M+, undated) but B2B automotive tier supplier with no brand ambition, in a crowded category and cost-cutting",
+  "best_angle": "",
+  "sources": [
+   "https://www.stepstone.de/cmp/de/Swoboda-Wiggensbach-KG-82448/uber-das-unternehmen.html",
+   "https://www.stuttgarter-zeitung.de/lokales/rems-murr-kreis/automobilzulieferer-in-schorndorf-swoboda-schliesst-standort-schorndorf-140-jobs-vor-dem-aus-78882180.html",
+   "https://swoboda.com/en/company/locations/wiggensbach",
+   "https://swoboda.com/en/news-events/news/75-years-of-swoboda"
+  ]
+ },
+ {
+  "id": "borgesinternationalgroup.com",
+  "company": "Borges International Group",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "borgesinternationalgroup.com",
+  "hq": "Reus/Tarrega, Catalonia, Spain",
+  "ownership": "Private, Pont family-controlled (listed subsidiary Borges Agricultural & Industrial Nuts)",
+  "sells": "Olive oil, vinegar, nuts and dried fruit under Borges brand in 100+ countries",
+  "headcount_band": "1,001-5,000 (~1,181, 2021)",
+  "revenue": "EUR 701M (FY2021-22, to 31 May 2022; El Independiente) - no later figure found",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 2,
+  "fit_detail": "Sells in Spain, US, India, Middle East and 100+ countries (3+ F1 markets); category not crowded; mass grocery audience, no performance story",
+  "up_and_coming": false,
+  "flags": [
+   "latest revenue FY2021-22; confirm current scale",
+   "no F1 tie (2012 HRT olive-oil deal was Deoleo's Carbonell, not Borges)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes revenue route (EUR 701M FY2021-22) and filters; reservation: FMCG olive oil/nuts brand with weak performance angle and dated financials",
+  "best_angle": "",
+  "sources": [
+   "https://www.elindependiente.com/economia/2023/04/01/borges-cumple-125-anos-con-mas-nueces-que-ruido-y-con-la-vista-puesta-en-ganar-terreno-internacional/",
+   "https://www.alimarket.es/alimentacion/noticia/325393/borges-reinvierte-su-beneficio-en-un-ano-de-bajada-de-ingresos",
+   "https://en.wikipedia.org/wiki/Borges_(company)",
+   "https://www.oliveoiltimes.com/business/europe/carbonell-formula-1-team-hrt/26570"
+  ]
+ },
+ {
+  "id": "demcon.com",
+  "company": "Demcon",
+  "sector_tab": "33 Automation & Robotics",
+  "domain": "demcon.com",
+  "hq": "Enschede, Netherlands",
+  "ownership": "Private (founder/management-owned group)",
+  "sells": "Contract development and manufacturing of high-tech mechatronic, optical and medical systems (20+ companies)",
+  "headcount_band": "1,001-5,000 (1,200+, company 2025)",
+  "revenue": "~USD 204M (2025, est, RocketReach); ~EUR 300M (est, screen) - no company disclosure",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 1,
+  "fit_detail": "Mainly Benelux/Germany with some international sites (weak 3+ F1 markets); B2B engineering buyers; precision-technology story fits; category not crowded",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue est only"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes on estimated revenue (~USD 200M+, 2025 est) but B2B contract engineer with mainly Benelux/DE footprint and no brand ambition",
+  "best_angle": "",
+  "sources": [
+   "https://www.rocketreach.co/answers/what-is-the-annual-revenue-of-demcon_b5c7a4c3f42e0d55",
+   "https://insights.munich-startup.de/companies/demcon",
+   "https://htpgids.mikrocentrum.nl/preview.php?pageId=121"
+  ]
+ },
+ {
+  "id": "festinagroup.com",
+  "company": "Festina Group",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "festinagroup.com",
+  "hq": "Barcelona, Spain",
+  "ownership": "Private, family-owned (Rodriguez family)",
+  "sells": "Watches and jewellery: Festina, Lotus, Jaguar, Candino, Calypso; Time Road retail (200 stores Iberia)",
+  "headcount_band": "1,001-5,000 (est)",
+  "revenue": "~EUR 250M (undated, Spanish trade press); EUR 237M (2011, Modaes)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 1,
+  "fit_detail": "Sells in Spain, France, Italy, Germany, Latin America (3+ F1 markets); mid-market audience; precision timekeeping story; watches category crowded = 0",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "watches category crowded (TAG Heuer is F1 timekeeper)",
+   "revenue undated est"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters (revenue ~EUR 250M, est) but fit 1: crowded watch category with TAG Heuer/LVMH owning F1 timing",
+  "best_angle": "",
+  "sources": [
+   "https://www.modaes.com/empresa/el-grupo-festina-apuesta-por-los-mercados-internacionales-con-su-marca-lotus",
+   "https://www.modaes.com/empresas/festina-impulsa-su-cadena-time-road-alcanza-200-tiendas-en-espana-y-portugal",
+   "https://en.ilsole24ore.com/art/festina-group-italia-is-growing-and-enhancing-its-brand-portfolio-AJIy9wM",
+   "https://en.wikipedia.org/wiki/Festina",
+   "https://timeandtidewatches.com/timing-formula-1/"
+  ]
+ },
+ {
+  "id": "markwinsbeauty.com",
+  "company": "Markwins Beauty Brands",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "markwinsbeauty.com",
+  "hq": "City of Industry, CA, United States",
+  "ownership": "Private (Chen family, founder Eric Chen)",
+  "sells": "Mass colour cosmetics: wet n wild, Physicians Formula, Lorac, Lip Smacker, Bonne Bell in 50,000+ stores worldwide",
+  "headcount_band": "1,001-5,000 (est)",
+  "revenue": "~USD 490M (2024, Happi est); Happi estimates range USD 403-540M by year",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 2,
+  "fit_detail": "Sells in US, UK, EU, Asia (3+ F1 markets); mass/teen audience not affluent 25-54; beauty not crowded on grid; story not performance",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue est only (Happi)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes 150-500M route (USD ~490M 2024 est), capped at Stretch; reservation: mass cosmetics audience skews young/value",
+  "best_angle": "F1's growing Gen-Z and female fanbase matches wet n wild's audience - limited-edition race-themed collections",
+  "sources": [
+   "https://www.happi.com/top-company-profile/markwins-beauty-brands/",
+   "https://www.happi.com/top-company-profile/markwins/",
+   "https://www.sec.gov/Archives/edgar/data/1269871/000110465912076089/a12-26527_1ex99d1.htm"
+  ]
+ },
+ {
+  "id": "fnbrowninggroup.com",
+  "company": "FN Browning Group",
+  "sector_tab": "32 Defense & Industrial AI",
+  "domain": "fnbrowninggroup.com",
+  "hq": "Herstal, Belgium",
+  "ownership": "100% owned by the Walloon Region (Belgium) since 1997",
+  "sells": "Defence small arms (FN Herstal), sporting/hunting firearms (Browning, Winchester licence), ammunition",
+  "headcount_band": "1,001-5,000 (~5,000 est)",
+  "revenue": "EUR 1B+ (FY2025, record, company Jun 2026); ~EUR 934M (2024)",
+  "valuation": "",
+  "latest_raise": "EUR 100M capital increase from Walloon Region (2025, state)",
+  "fit_score": 2,
+  "fit_detail": "Sells in US, Belgium/EU, UK and more (3+ F1 markets); precision engineering story; category not crowded; buyers are defence ministries and hunters, not F1's affluent audience",
+  "up_and_coming": true,
+  "flags": [
+   "brand safety: firearms/defence - F1 and teams unlikely to accept",
+   "state-owned (Walloon Region)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes all hard filters (revenue EUR 1B+ FY2025); reservation: firearms/defence brand safety likely blocks any F1 deal",
+  "best_angle": "",
+  "sources": [
+   "https://fnherstal.com/en/news/fn-browning-group-sets-a-new-benchmark-in-2025-with-record-results/",
+   "https://en.wikipedia.org/wiki/FN_Browning_Group",
+   "https://www.rtbf.be/article/la-wallonie-investit-100-millions-dans-l-entreprise-d-armement-fn-browning-11556734",
+   "https://belganewsagency.eu/liege-arms-manufacturer-herstal-becomes-fn-browning-rakes-in-record-profits"
+  ]
+ },
+ {
+  "id": "itchotels.com",
+  "company": "ITC Hotels Limited",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "itchotels.com",
+  "hq": "Kolkata, India",
+  "ownership": "Listed (NSE/BSE); ITC Ltd ~40% (minority); BAT ~6.3% after Dec 2025 block sale",
+  "sells": "Luxury and upscale hotels (ITC Hotels, Mementos, Welcomhotel, Storii, Fortune) mainly in India, plus ITC Ratnadipa Colombo",
+  "headcount_band": "10,001+ (~14,000 est)",
+  "revenue": "INR 4,260 crore TTM (~USD 485M, Aug 2026, Value Research)",
+  "valuation": "Market cap INR 34,036 crore (~USD 3.9B, 28 Aug 2026)",
+  "latest_raise": "",
+  "fit_score": 2,
+  "fit_detail": "Mostly India (+ Sri Lanka) - fails 3+ F1 markets; affluent 25-54 travellers; hospitality not crowded; story partly maps (luxury, ambition)",
+  "up_and_coming": true,
+  "flags": [
+   "minority holder BAT (~6.3%) is a McLaren F1 partner (Velo) - cap Stretch",
+   "demerged from ITC Ltd Jan 2025",
+   "India-centric footprint"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes market-cap route (~USD 3.9B Aug 2026); capped Stretch because minority shareholder BAT sponsors McLaren F1; India-centric reach",
+  "best_angle": "Recent demerger gives a standalone brand needing profile among global affluent travellers; India's F1 fanbase is fast-growing",
+  "sources": [
+   "https://www.valueresearchonline.com/stocks/176813/itc-hotels-ltd/news/",
+   "https://www.business-standard.com/amp/industry/news/bat-offload-stake-itc-hotels-block-trade-divestment-125120401314_1.html",
+   "https://www.hotel-online.com/news/british-american-tobacco-sells-9-itc-hotels-stake-for-425-million",
+   "https://www.screener.in/company/544325/"
+  ]
+ }
+]

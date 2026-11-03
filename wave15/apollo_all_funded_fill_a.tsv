@@ -1,0 +1,201 @@
+name	primary_domain	founded_year	organization_revenue_printed	publicly_traded_exchange	owned_by_organization	linkedin_url	naics_codes	sic_codes	page
+Google	google.com	2010	422.5B		{"id": "57c4a824a6da98411e7df3eb", "name": "Alphabet Inc.", "website_url": "http://www.abc.xyz"}	http://www.linkedin.com/company/google	["519290", "513210", "541810"]	["7375", "7372", "7311"]	1
+Forbes	forbes.com	1917	3B	other		http://www.linkedin.com/company/forbes-magazine	["513120", "519290"]	["2711", "2721", "7375"]	1
+OpenAI	openai.com	2011	24B	nasdaq	{"id": "69e2f750382b860001138801", "name": "The OpenAI Foundation", "website_url": "http://www.openaifoundation.org"}	http://www.linkedin.com/company/openai	["51321", "541715"]	["7375"]	1
+Business Insider	businessinsider.com	2007			{"id": "57c4b8f0a6da98366aeaeb3c", "name": "Axel Springer", "website_url": "http://www.axelspringer.com"}	http://www.linkedin.com/company/businessinsider	["513120", "51929"]	["2711", "2721"]	1
+Capgemini	capgemini.com	1967	23.9B			http://www.linkedin.com/company/capgemini	["541611", "541512"]	["7371"]	1
+Financial Times	ft.com	1888	678M		{"id": "6170e2accd283a008cbbe1c2", "name": "Nikkei", "website_url": "http://www.nikkei.co.jp"}	http://www.linkedin.com/company/financial-times	["519", "513110"]	["2711"]	1
+McKinsey & Company	mckinsey.com	1926	15.5B			http://www.linkedin.com/company/mckinsey	["541611"]	["8742"]	1
+GitHub	github.com	2008	2B		{"id": "62337760d02af100a5ca2468", "name": "Microsoft", "website_url": "http://www.microsoft.com"}	http://www.linkedin.com/company/github	["519", "518210"]	["7375", "7372"]	1
+Tata Motors	tatamotors.com	1945	8.9B		{"id": "5f497a54f9b40f00011a65ac", "name": "Tata Group", "website_url": "http://www.tata.com"}	http://www.linkedin.com/company/tata-motors	["336110", "336120"]	["3711"]	1
+J.P. Morgan	jpmorgan.com	1871	185.6B	nyse	{"id": "54a139b569702de5b3a05e00", "name": "JPMorganChase", "website_url": "http://www.jpmorganchase.com"}	http://www.linkedin.com/company/jpmorgan	["522110", "523150", "523940"]	["6021", "6211", "6282"]	1
+Flipkart	flipkart.com	2007	2.4B		{"id": "5f8e6117ab820101120cc9ff", "name": "Walmart", "website_url": "http://www.walmart.com"}	http://www.linkedin.com/company/flipkart	["492110"]	["5999", "5961", "7375", "4215"]	1
+Huawei	huawei.com	1987	126.1B			http://www.linkedin.com/company/huawei	["33411", "5171", "334220", "5182"]	["3661", "4813", "3663", "7373"]	1
+Emirates	emirates.com	1985	41.0B	other	{"id": "5f49d9071688e70001d9f8bf", "name": "Emirates Group Security", "website_url": "http://www.theemiratesgroup.com"}	http://www.linkedin.com/company/emirates	["481111"]	["4512"]	1
+Anthropic	anthropic.com		30B	nasdaq		http://www.linkedin.com/company/anthropicresearch	["513210", "541715"]	["7375", "7372", "8731"]	1
+TikTok	tiktok.com	2016	39B		{"id": "5c2314dbf651252c3014370a", "name": "ByteDance", "website_url": "http://www.bytedance.com"}	http://www.linkedin.com/company/tiktok	["51621", "51929"]	["7375"]	1
+ABB	abb.com	1988	34.6B			http://www.linkedin.com/company/abb	["333248", "335312"]	["3599"]	1
+National Geographic	nationalgeographic.com		350M		{"id": "613e190931e7bc0001b205e0", "name": "National Geographic Partners"}	http://www.linkedin.com/company/national-geographic	["519", "813211", "513120", "712110"]	["2711"]	1
+Cargill	cargill.com	1865	154B			http://www.linkedin.com/company/cargill	["11141", "311", "42"]	["2099"]	1
+Qatar Airways	qatarairways.com	1993	22.9B			http://www.linkedin.com/company/qatar-airways	["481111"]	["4512"]	1
+Harvard University	harvard.edu		6.7B		{"id": "5e57f68854c3e10001ac6d5c", "name": "Harvard Business School", "website_url": "http://www.hbs.edu"}	http://www.linkedin.com/school/harvard-university	["611310"]	["8222", "8221"]	1
+European Commission	europa.eu	1958	237.4B			http://www.linkedin.com/company/european-commission	["22111", "92111", "928120"]	["9711"]	1
+Canva	canva.com	2012	4B			http://www.linkedin.com/company/canva	["513210", "541430"]	["7373", "7372", "7336"]	1
+Majid Al Futtaim	majidalfuttaim.com	1992	9.8B			http://www.linkedin.com/company/majid-al-futtaim	["531120", "445110", "512131"]	["6512", "5411", "7832"]	1
+Myntra	myntra.com	2007	685M		{"id": "5edbb84cb5d2520001b2cf4e", "name": "Flipkart", "website_url": "http://www.flipkart.com"}	http://www.linkedin.com/company/myntra		["5734"]	1
+CHANEL	chanel.com		19.3B		{"id": "64f1a6127faf5e00011cf3cf", "name": "Mousse Investments Limited", "website_url": "http://www.mousseinvestments.ky"}	http://www.linkedin.com/company/chanel	["33991", "458110", "458310", "456120"]	["3911"]	1
+Tata Projects	tataprojects.com	1979	1.8B		{"id": "5f497a54f9b40f00011a65ac", "name": "Tata Group", "website_url": "http://www.tata.com"}	http://www.linkedin.com/company/tata-projects	["23713", "236210", "237110", "237310"]	["1731"]	1
+Etihad	etihad.com	2003	8.4B		{"id": "5e578a1f6b13a90001cc5223", "name": "ADQ", "website_url": "http://www.adq.ae"}	http://www.linkedin.com/company/etihadairways	["481111"]	["4512"]	1
+YouTube	youtube.com	2023	60B		{"id": "57c4ace7a6da9867ee5599e7", "name": "Google", "website_url": "http://www.google.com"}	http://www.linkedin.com/company/youtube	["51621", "51929"]	["7375"]	1
+Grupo Boticário	grupoboticario.com.br	2010	6.9B			http://www.linkedin.com/company/grupo-boticario	["325620", "45612"]	["2844"]	1
+noon	noon.com	2016	1.9B			http://www.linkedin.com/company/nooncom	["44-45", "51"]	["5961"]	1
+Grupo Arcor	arcor.com	1951	3.4B		{"id": "556dce4e736964124391a001", "name": "Vodafone", "website_url": "http://www.vodafone.com"}	http://www.linkedin.com/company/grupo-arcor	["31134", "322", "11"]	["2099", "20", "26", "01"]	1
+Sicoob	sicoob.com.br	1996	8.5B			http://www.linkedin.com/company/sicooboficial	["522130", "522110"]	["6061"]	1
+Gucci	gucci.com	1921	7B		{"id": "5d0a39a4f651255df36302f6", "name": "Kering", "website_url": "http://www.kering.com"}	http://www.linkedin.com/company/gucci	["33991", "458110", "458310", "44-45"]	["3911"]	1
+JBS	jbs.com.br	1953	79B		{"id": "5a9d6e92a6da98d93565105b", "name": "JBS Global (UK) Ltd", "website_url": "http://www.jbsglobal.co.uk"}	http://www.linkedin.com/company/jbs	["31121", "311611", "311615", "311710"]	["2011", "2015"]	1
+Revolut	revolut.com	2015	6.1B			http://www.linkedin.com/company/revolut	["522110", "523999"]	["3571", "6021", "6211"]	1
+Turing	turing.com	2018	300M			http://www.linkedin.com/company/turingcom	["541512", "561311"]	["7375", "7373", "7361"]	1
+❤️ Positive thought ☀️ Daily Good News	positive-thought.news	2020				http://www.linkedin.com/company/smart-nut	["81331", "513120", "513130"]	["7299"]	1
+Mars	mars.com	1911	65B			http://www.linkedin.com/company/mars	["311351", "311111", "541940"]	["2099"]	1
+CyberCoders	cybercoders.com	1999	121M			http://www.linkedin.com/company/cybercoders	["561311"]	["7361"]	1
+GOL Linhas Aéreas	voegol.com.br	2001	4B		{"id": "63ea3362b53a2d00a3250d5f", "name": "Abra Group", "website_url": "http://www.abragroup.net"}	http://www.linkedin.com/company/gol	["481111"]	["4512"]	1
+VMware	broadcom.com	1998	13.6B		{"id": "5e56ff8794c49d00016857dd", "name": "Broadcom", "website_url": "http://www.broadcom.com"}	http://www.linkedin.com/company/vmware	["54151", "51321"]	["7371", "7372"]	1
+Zomato	zomato.com	2008	2.3B		{"id": "6599fa752f8f7f0001c3825e", "name": "Eternal", "website_url": "http://www.eternal.com"}	http://www.linkedin.com/company/zomato	["54151", "51929", "72251", "492110"]	["5812"]	1
+UST	ust.com	1999	464M			http://www.linkedin.com/company/ustglobal	["541512"]	["7379", "7373"]	1
+iFood	ifood.com.br	2011	1.9B		{"id": "604a1f66b510330001706486", "name": "Prosus", "website_url": "http://www.prosus.com"}	http://www.linkedin.com/company/ifood-	["49211", "519290"]	["7375"]	1
+Sicredi	sicredi.com.br	1902	8.4B			http://www.linkedin.com/company/sicredi	["522130", "524210", "523940"]	["6061", "6411", "6282"]	1
+Christian Dior Couture	dior.com	1947			{"id": "5fce7d2d0db87101102dcbfa", "name": "LVMH", "website_url": "http://www.lvmh.com"}	http://www.linkedin.com/company/christian-dior-couture	["33991", "458110", "456120", "458310"]	["5099", "5699", "5944"]	1
+WNS	wns.com	1996	1.3B		{"id": "5d5d2c6ec8570e00d9c50aa5", "name": "Capgemini", "website_url": "http://www.capgemini.com"}	http://www.linkedin.com/company/wns-global-services	["561110", "541512"]	["7371", "7389"]	1
+HackerRank	hackerrank.com	2012	221M			http://www.linkedin.com/company/hackerrank	["54151", "513210"]	["7375"]	1
+Dexian	dexian.com	1981	1.2B		{"id": "65e53e0b541534058d1a408b", "name": "Dexian Inc", "website_url": "http://www.dexianinc.com"}	http://www.linkedin.com/company/dexiansolutions	["561320", "541512"]	["8742", "7363", "7371"]	1
+Petrofac	petrofac.com	1981	2.5B			http://www.linkedin.com/company/petrofac_3	["213112", "541330"]	["1731"]	1
+Motion Recruitment	motionrecruitment.com	1989	115M		{"id": "56d991f0f3e5bb262c003808", "name": "Kelly", "website_url": "http://www.kellyservices.com"}	http://www.linkedin.com/company/motion-recruitment-partners	["54161", "561311", "561312", "561320"]	["7361"]	1
+Twitter	twitter.com	2006	2.9B		{"id": "64a0922f657fba0001828912", "name": "X", "website_url": "http://www.x.com"}	http://www.linkedin.com/company/twitter	["516210"]	["7372"]	1
+BYJU'S	byjus.com	2008	757M	nyse		http://www.linkedin.com/company/byjus	["61171", "611691"]	["8299"]	1
+Public Investment Fund (PIF)	pif.gov.sa	1971	120.0B			http://www.linkedin.com/company/pifsaudi	["5231", "523940", "525990"]	["6799"]	1
+Mayo Clinic	mayoclinic.org	1864	19.8B			http://www.linkedin.com/company/mayo-clinic	["622110", "611310", "541714"]	["8062", "8221", "8731"]	1
+Blinkit	blinkit.com	2013	4B		{"id": "6599fa752f8f7f0001c3825e", "name": "Eternal", "website_url": "http://www.eternal.com"}	http://www.linkedin.com/company/letsblinkit	["445110", "51929"]	["5411", "5961"]	1
+Jio	jio.com	2010			{"id": "5d0ab6a4f65125e761feb093", "name": "Reliance Industries Limited", "website_url": "http://www.ril.com"}	http://www.linkedin.com/company/jio	["517112"]	["4812", "4813"]	1
+CMA CGM	cma-cgm.com	1978	54.4B			http://www.linkedin.com/company/cma-cgm	["483111", "488510"]	["4412", "4731"]	1
+Udemy	udemy.com	2010	789.8M		{"id": "5fc93a24cc46f90001ef10a2", "name": "Coursera", "website_url": "http://www.coursera.org"}	http://www.linkedin.com/company/udemy	["61131", "611430", "611420"]	["8299"]	1
+Ferrero	ferrero.com	1946	22.6B			http://www.linkedin.com/company/ferrero	["311351", "311991"]	["2099", "2064"]	1
+Riot Games	riotgames.com	2006	334.1M	nyse	{"id": "54a12a9569702d95480c1902", "name": "Tencent", "website_url": "http://www.tencent.com"}	http://www.linkedin.com/company/riot-games	["519", "513210", "512110"]	["7375", "7372", "7812"]	1
+Stripe	stripe.com	2010	6.9B			http://www.linkedin.com/company/stripe	["54151", "522320", "518210"]	["7375", "7374", "7389"]	1
+The Washington Post	washingtonpost.com	1877	812.2M			http://www.linkedin.com/company/washingtonpost	["513110"]	["2711"]	1
+Y Combinator	ycombinator.com	2005	300M			http://www.linkedin.com/school/y-combinator	["54171", "523940"]	["6799"]	1
+Kellanova	kellanova.com	2023	12.8B		{"id": "5fe2e194bb6a51014ca8d802", "name": "Mars", "website_url": "http://www.mars.com"}	http://www.linkedin.com/company/kellanova	["311230", "311919"]	["2092"]	1
+Brilliant Ads	brilliantads.com.mx	2013				http://www.linkedin.com/company/brilliantads	["54151", "541810"]	["7375", "7311"]	1
+PhonePe	phonepe.com	2015	837M	other	{"id": "5f8e6117ab820101120cc9ff", "name": "Walmart", "website_url": "http://www.walmart.com"}	http://www.linkedin.com/company/phonepe-internet	["522320", "522291", "523150"]	["7375"]	1
+Grupo Carrefour Brasil	grupocarrefourbrasil.com.br	1975	24.9B		{"id": "55e15542f3e5bb50b6000399", "name": "Carrefour", "website_url": "http://www.carrefour.com"}	http://www.linkedin.com/company/grupocarrefourbrasil	["52211", "445110", "455211", "424410"]	["6021"]	1
+Electronic Arts (EA)	ea.com	1982	7.8B			http://www.linkedin.com/company/electronic-arts	["513210"]	["7375", "7372"]	1
+NES Fircroft	nesfircroft.com	1978	2.3B			http://www.linkedin.com/company/nes-fircroft	["54133", "561311", "541612", "541611"]	["8742", "7361"]	1
+Perplexity	perplexity.ai	2022	450M			http://www.linkedin.com/company/perplexity-ai	["519290", "513210"]	["7375", "7372"]	1
+TransPerfect	transperfect.com	1992	1.3B			http://www.linkedin.com/company/transperfect	["541930", "513210"]	["7338", "7389", "7372"]	1
+Eurofarma	eurofarma.com	1972	2.4B			http://www.linkedin.com/company/eurofarma	["325412"]	["2834"]	1
+Reliance Retail	relianceretail.com	2006	39.5B		{"id": "5d0ab6a4f65125e761feb093", "name": "Reliance Industries Limited", "website_url": "http://www.ril.com"}	http://www.linkedin.com/company/reliance-retail	["44-45", "445110"]	["5999"]	1
+Slack	slack.com	2009	1.5B		{"id": "5a9f506ea6da98d99781eff8", "name": "Salesforce", "website_url": "http://www.salesforce.com"}	http://www.linkedin.com/company/tiny-spec-inc	["513210"]	["7375", "7372"]	1
+Stack Overflow	stackoverflow.co	2008	115M		{"id": "604a1f66b510330001706486", "name": "Prosus", "website_url": "http://www.prosus.com"}	http://www.linkedin.com/company/stack-overflow	["519290", "513210"]	["7375"]	1
+ZF Group	zf.com	1915	45.5B			http://www.linkedin.com/company/zf-group	["33639", "336350", "336330", "333248"]	["3711", "3714", "3599"]	1
+Google DeepMind	deepmind.google	2010	1.7B		{"id": "57c4ace7a6da9867ee5599e7", "name": "Google", "website_url": "http://www.google.com"}	http://www.linkedin.com/company/googledeepmind	["513210", "541715"]	["8731", "7372"]	1
+Optum	optum.com	1992	270.6B		{"id": "5e58534210d2250001e13da1", "name": "UnitedHealth Group", "website_url": "http://www.unitedhealthgroup.com"}	http://www.linkedin.com/company/optum	["62111", "621999", "541512"]	["8011", "7371"]	1
+ByteDance	bytedance.com	2012	155B	sehk		http://www.linkedin.com/company/bytedance	["519", "516210"]	["7375"]	1
+Inetum	inetum.com	1970	2.5B		{"id": "59e52599a6da98ae7e7d1b82", "name": "Bain Capital", "website_url": "http://www.baincapital.com"}	http://www.linkedin.com/company/inetum	["541511", "541512"]	["7375", "7371", "7373"]	1
+C6 Bank	c6bank.com.br	2018	1.7B			http://www.linkedin.com/company/c6bankoficial	["522110"]	["6021"]	1
+Nielsen	nielsen.com	1923	3.5B		{"id": "55921ed7736964186fff7e00", "name": "Brookfield", "website_url": "http://www.brookfield.com"}	http://www.linkedin.com/company/nielsen	["541910", "519290"]	["7375"]	1
+Bechtel Corporation	bechtel.com	1898	20.6B			http://www.linkedin.com/company/bechtel-corporation	["23713", "237990", "541330"]	["1629"]	1
+Fast Company	fastcompany.com	1995			{"id": "54a126f469702d8cfc339300", "name": "Mansueto Ventures", "website_url": "http://www.mansueto.com"}	http://www.linkedin.com/company/fast-company	["513120", "519290"]	["2711"]	1
+Red Sea Global	redseaglobal.com	2018	1.6B		{"id": "5de9f00d4aaaca00d4e15de3", "name": "Public Investment Fund (PIF)", "website_url": "http://www.pif.gov.sa"}	http://www.linkedin.com/company/red-sea-global	["53112", "531390", "721110"]	["6799"]	1
+Cheddar	cheddar.com	2016	27M			http://www.linkedin.com/company/cheddar-inc-	["519", "51621", "512110"]	["4899"]	1
+Fidelity Investments	fidelity.com	1946	37.7B		{"id": "5d0a05c380f93e2e1b4cfc74", "name": "U.S. Bank", "website_url": "http://www.usbank.com"}	http://www.linkedin.com/company/fidelity-investments	["523940", "523150", "525910"]	["6722", "6211"]	1
+Instagram	instagram.com	2010	83.6B		{"id": "559226da736964191e149b00", "name": "Meta", "website_url": "http://www.meta.com"}	http://www.linkedin.com/company/instagram	["51621", "51929"]	["7375"]	1
+Unacademy	unacademy.com	2015	97M		{"id": "5e57d13e5e3c2600014d1426", "name": "upGrad", "website_url": "http://www.upgrad.com"}	http://www.linkedin.com/company/unacademy	["61131", "611691"]	["8299"]	1
+Databricks	databricks.com	2013	6.9B			http://www.linkedin.com/company/databricks	["54151", "51321"]	["7374", "7372"]	1
+GlobalLogic	globallogic.com	2000	2B		{"id": "54a1340469702d2f9fcb2800", "name": "Hitachi", "website_url": "http://www.hitachi.com"}	http://www.linkedin.com/company/globallogic	["541511", "541512"]	["7375", "7371", "7373"]	1
+Sutherland	sutherlandglobal.com	1986	7.1B			http://www.linkedin.com/company/sutherland-global	["561110", "541512"]	["7389"]	1
+Lenovo	lenovo.com	1984	69.1B			http://www.linkedin.com/company/lenovo	["334111", "541512"]	["3571", "7371"]	1
+Sony Music Entertainment	sonymusic.com		13.3B		{"id": "5f905e899a6e0b00dc9989de", "name": "Sony", "website_url": "http://www.sony.com"}	http://www.linkedin.com/company/sony-music-entertainment	["512230", "512240"]	["7812"]	1
+Credit Suisse		1856			{"id": "5e564080840a24000117efaf", "name": "UBS", "website_url": "http://www.ubs.com"}	http://www.linkedin.com/company/credit-suisse	["522110", "523150", "523940"]	["6021", "6211", "6282"]	1
+JLR	jlr.com	1922	30.3B		{"id": "54a1354669702d352f7bc500", "name": "Tata Motors", "website_url": "http://www.tatamotors.com"}	http://www.linkedin.com/company/jaguar-land-rover_1	["336110"]	["3711"]	1
+Embraer	embraer.com	1969	7.6B		{"id": "638b1e99428a8e00dbcc607e", "name": "Grupo Salta Educa\u00e7\u00e3o", "website_url": "http://www.gruposaltaedu.com"}	http://www.linkedin.com/company/embraer	["336411", "488190"]	["3721"]	1
+PW (PhysicsWallah)	pw.live	2016	34M			http://www.linkedin.com/company/physicswallah	["611691"]	["8299"]	1
+Azul Linhas Aéreas Brasileiras	voeazul.com.br	2008	3.9B		{"id": "63ea3362b53a2d00a3250d5f", "name": "Abra Group", "website_url": "http://www.abragroup.net"}	http://www.linkedin.com/company/azulinhasaereas	["481111"]	["4512"]	1
+ViiV Healthcare	viivhealthcare.com	2009	10B		{"id": "54a116ce69702d3ec05b0200", "name": "GSK", "website_url": "http://www.gsk.com"}	http://www.linkedin.com/company/viiv-healthcare	["325412", "541714"]	["2834"]	23
+Polycom		1990	1.7B			http://www.linkedin.com/company/polycom	["334210"]	["3661"]	23
+Fourth Partner Energy	fourthpartner.co	2010	154.1M			http://www.linkedin.com/company/fourth-partner-energy-private-limited	["221114"]	["3631", "4911"]	23
+Ascend Group	ascendcorp.com	2015			{"id": "5f49209b016e0500016077ee", "name": "Charoen Pokphand Group Co.,Ltd.", "website_url": "http://www.cpgroupglobal.com"}	http://www.linkedin.com/company/ascend-corporation	["522291", "522320", "519290", "518210"]	["7375", "7374", "7371", "7389"]	23
+Truveta	truveta.com	2020	80M			http://www.linkedin.com/company/truveta	["51929", "541715"]	["8731"]	23
+Argus Media	argusmedia.com	1970	250M		{"id": "5e5704c8126a770001d89c0e", "name": "General Atlantic", "website_url": "http://www.generalatlantic.com"}	http://www.linkedin.com/company/argus-media	["51929", "541910"]	["8731"]	23
+Ebury	ebury.com	2009	392M		{"id": "54a2449d7468692e7122bb1b", "name": "Santander", "website_url": "http://www.santander.com"}	http://www.linkedin.com/company/eburyfintech	["52239", "522320"]		23
+Harry's	harrys.com	2013	835M	other		http://www.linkedin.com/company/harrysinc	["33911", "45612"]	["2842"]	23
+MaxAB	maxab.io	2018	251.1M			http://www.linkedin.com/company/maxab	["424410", "493110"]	["7389"]	23
+Skild AI	skild.ai	2023	15M		{"id": "54a11d9c69702d77c2823601", "name": "Zebra Technologies", "website_url": "http://www.zebra.com"}	http://www.linkedin.com/company/skildai	["54171", "51321", "541512"]	["3581", "7372", "7373"]	23
+Versa Networks	versa-networks.com	2012	313.2M			http://www.linkedin.com/company/versa-networks	["541512", "51321"]	["7375"]	23
+QTS Data Centers	q.com	2005	935M		{"id": "54a11f7f69702d7fe6eaf501", "name": "Blackstone", "website_url": "http://www.blackstone.com"}	http://www.linkedin.com/company/qtsdatacenters	["518210", "531120"]	["7374", "6512"]	23
+wagamama	wagamama.com	1992	649M		{"id": "54a241a774686935bee0651a", "name": "the restaurant group", "website_url": "http://www.therestaurantgroup.com"}	http://www.linkedin.com/company/wagamama	["722511"]	["5812", "5812:Eating Places"]	23
+BeyondTrust	beyondtrust.com	1985	337.1M		{"id": "66c3bdcf7e0a170001ca6d36", "name": "Bomgar Corporation", "website_url": "http://www.bomgar.com"}	http://www.linkedin.com/company/beyondtrust	["513210", "541512"]	["7375", "7372", "7371"]	23
+Liberty	libertyenergyandwater.com	1988	2.3B		{"id": "5ee0695935594700014916a1", "name": "Algonquin Power & Utilities Corp.", "website_url": "http://www.algonquinpower.com"}	http://www.linkedin.com/company/libertyenergyandwater	["221122", "221210", "221310", "221320"]	["1382", "4900", "1623"]	23
+Conviva	conviva.ai	2006	59.3M			http://www.linkedin.com/company/conviva	["513210"]	["7372"]	23
+Ball Aerospace		1956				http://www.linkedin.com/company/ball-aerospace	["336414", "541715"]	["3761", "8731"]	23
+Université Sorbonne Paris Nord	univ-spn.fr	1970				http://www.linkedin.com/school/universit%c3%a9-sorbonne-paris-nord	["611310", "541715", "541720"]	["8222", "8221"]	23
+Jordan Kuwait Bank	jkb.com	1976	464M		{"id": "559228ae73696418d2c7a100", "name": "Kuwait Projects Company (Holding) - KIPCO", "website_url": "http://www.kipco.com"}	http://www.linkedin.com/company/jordankuwaitbank	["522110"]	["6021"]	23
+Sierra	sierra.ai	2023	150M			http://www.linkedin.com/company/sierra	["54151"]	["7375", "7372"]	23
+Sana	sanalabs.com	2016	52.1M		{"id": "5f4b5de8b8e8440001c3cb69", "name": "Workday", "website_url": "http://www.workday.com"}	http://www.linkedin.com/company/sana-labs	["54151", "513210", "611430"]	["7375"]	23
+MATCHES	matchesfashion.com	1987	461.6M	nyse	{"id": "6942790dd93d4f001dac84b2", "name": "Hulcan", "website_url": "http://www.hulcan.com"}	http://www.linkedin.com/company/matches	["458110"]	["5999"]	23
+Africell Group	africell.com	2000	400M			http://www.linkedin.com/company/africell-group	["517112"]	["4812"]	23
+LogicMonitor	logicmonitor.com	2007	400M		{"id": "5a9ccb80a6da98d98c67038f", "name": "Vista Equity Partners", "website_url": "http://www.vistaequitypartners.com"}	http://www.linkedin.com/company/logicmonitor	["54151", "513210"]	["7375", "7372"]	23
+DroneDeploy	dronedeploy.com	2013	121.2M		{"id": "5e5987f73a55a2016dd284de", "name": "Procore Technologies", "website_url": "http://www.procore.com"}	http://www.linkedin.com/company/dronedeploy	["54133", "513210"]	["7375", "7372"]	23
+Aircall	aircall.io	2014	175M			http://www.linkedin.com/company/aircall	["54151", "517121"]	["7375"]	23
+Atotech an MKS Brand	atotech.com	1993	1.2B		{"id": "5f483bc8babfdc0001d97064", "name": "MKS Inc.", "website_url": "http://www.mks.com"}	http://www.linkedin.com/company/atotechanmksbrand	["33999", "325998", "333242"]	["3471"]	23
+duagon	duagon.com	1995	36M		{"id": "5e57d75efefac20001fe1c77", "name": "Knorr-Bremse AG", "website_url": "http://www.knorr-bremse.com"}	http://www.linkedin.com/company/duagon-ag	["334418", "334111"]	["3711", "3679", "3571"]	23
+Moonbug Entertainment	moonbug.com	2018	53.7M		{"id": "6726d6337efe3d0001d26593", "name": "Next Gen Media Ng", "website_url": "http://www.nextgenmedia.ng"}	http://www.linkedin.com/company/moonbug-entertainment	["512110", "516210"]	["2731"]	23
+Genpact Headstrong Capital Markets	headstrong.com	1981	5.1B		{"id": "5d352750a3ae619f9335e06c", "name": "Genpact", "website_url": "http://www.genpact.com"}	http://www.linkedin.com/company/headstrong	["523150", "541512"]	["6211", "7373"]	23
+Humanoid	thehumanoid.ai	2024				http://www.linkedin.com/company/humanoidai	["33324", "31-33", "54"]	["3581"]	23
+Bluebeam	bluebeam.com	2002	77.7M		{"id": "6211d213d63c2000f96a5b07", "name": "Nemetschek Group", "website_url": "http://www.nemetschek.com"}	http://www.linkedin.com/company/bluebeam-software	["54133", "513210"]	["7375", "7372"]	23
+Electrify America	electrifyamerica.com	2016	106.3M		{"id": "5ed233e6ee7d730001a09785", "name": "Volkswagen Group of America"}	http://www.linkedin.com/company/electrifyamerica	["221122"]	["3621", "4911"]	23
+ClearTax	clr.tax	2011				http://www.linkedin.com/company/clearofficial	["511210", "522390"]		23
+Clara	clara.com	2020	60M			http://www.linkedin.com/company/claracc	["522320", "513210"]	["7375"]	23
+TRM Labs	trmlabs.com	2018	64.2M			http://www.linkedin.com/company/trmlabs	["54169", "513210", "541512"]	["7375", "7372", "7371"]	23
+Wintershall Dea	wintershalldea.com	1894			{"id": "618216e01ffe0c00a4ed0dfd", "name": "BASF", "website_url": "http://www.basf.com"}	http://www.linkedin.com/company/wintershalldea	["211120", "211130", "486210"]	["1311"]	23
+Bancoldex	bancoldex.com	1992	258M			http://www.linkedin.com/company/bancoldex	["52232", "522110"]	["6021"]	23
+Minimalist	beminimalist.co	2020	59M		{"id": "6131f47c6f7265000138e775", "name": "Unilever", "website_url": "http://www.unilever.com"}	http://www.linkedin.com/company/beminimalist	["325620"]	["2842"]	23
+Covetrus	covetrus.com	2019	4.6B		{"id": "54a1217f69702da425f2b402", "name": "Henry Schein Animal Health", "website_url": "http://www.henryscheinvet.com"}	http://www.linkedin.com/company/covetrus	["33911", "541940", "424210", "513210"]	["0742", "5122", "7372"]	23
+TradingView	tradingview.com	2011	323M			http://www.linkedin.com/company/tradingview	["519", "513210"]	["7375", "7372"]	23
+Emergent Cold LatAm	emergentcoldlatam.com	2021	75M		{"id": "6a5e09070462d100010b10ca", "name": "Lineage, Inc.", "website_url": "http://www.lineagelogistics.com"}	http://www.linkedin.com/company/emergentcoldlatam	["493120", "488510"]	["5141"]	23
+Argo AI	argo.ai	2016	250M			http://www.linkedin.com/company/argo-ai	["33621", "513210", "334511", "336320"]	["3711", "7372", "3571", "3714"]	23
+Mirantis	mirantis.com	1999	120M			http://www.linkedin.com/company/mirantis	["51321", "541512"]	["7375", "7372", "7371"]	23
+Hotels Jobs Worldwide		2015				http://www.linkedin.com/company/hoteljobsglobal	["561311"]	["7361"]	23
+Cybereason, A LevelBlue Company	cybereason.com	2012	62.8M	other	{"id": "66390403d9608a0300af9300", "name": "LevelBlue", "website_url": "http://www.levelblue.com"}	http://www.linkedin.com/company/cybereason	["51321", "541512"]	["7371", "7372"]	23
+Lightning AI	lightning.ai	2019	500M			http://www.linkedin.com/company/pytorch-lightning	["54151", "513210"]	["7375", "7372"]	23
+Lhoist	lhoist.com	1889	4.1B			http://www.linkedin.com/company/lhoist	["212312", "327410"]	["1499"]	23
+Robosoft Technologies	robosoftin.com	1996	25.1M		{"id": "556d942b73696412086b3d01", "name": "TechnoPro Engineering, Inc."}	http://www.linkedin.com/company/robosoft-technologies	["541512", "541511"]	["7375", "7371", "7373"]	23
+Duetto	duettocloud.com	2012	105.4M		{"id": "60ac0b738a57ee00d961da51", "name": "GrowthCurve Capital", "website_url": "http://www.growthcurvecapital.com"}	http://www.linkedin.com/company/duetto-research	["54151", "51321"]	["7375"]	23
+Hillrom	hillrom.ca	1929	3.0B		{"id": "5e6f9b731841ed0099be5edc", "name": "Baxter International Inc.", "website_url": "http://www.baxter.com"}	http://www.linkedin.com/company/hillrom	["33911", "334510"]	["3841"]	23
+Mobilize Financial Services	mobilize-fs.com	1974	2.6B			http://www.linkedin.com/company/mobilize-fs	["52232", "52211", "52222"]	["6162"]	23
+HireRight	hireright.com	1981	719.6M		{"id": "5e5704c8126a770001d89c0e", "name": "General Atlantic", "website_url": "http://www.generalatlantic.com"}	http://www.linkedin.com/company/hireright	["56199", "561611"]	["7381"]	23
+Superdry	superdry.com	2003	499M		{"id": "6a66394246d0c800010bd8bc", "name": "Third Kultuur", "website_url": "http://www.thirdkultuur.co.za"}	http://www.linkedin.com/company/superdry	["458110"]	["5699"]	23
+ZestMoney	zestmoney.in	2015	37.6M		{"id": "556ce1be7369641261494700", "name": "DMI Finance Private Limited", "website_url": "http://www.dmifinance.in"}	http://www.linkedin.com/company/zestmoney	["52232", "522291"]	["6141"]	23
+Grass Valley	grassvalley.com	1959	545M		{"id": "5e3c8550a1e72e0099a06b3b", "name": "Black Dragon Capital", "website_url": "http://www.blackdragoncap.com"}	http://www.linkedin.com/company/grassvalley	["516210", "334310", "513210"]	["3571"]	23
+Instabase	instabase.com	2015	50M			http://www.linkedin.com/company/instabase	["54151", "513210"]	["7375", "7372"]	23
+Solana Labs	solanalabs.com	2018	5.5M			http://www.linkedin.com/company/solanalabs	["513210", "334111"]	["3571", "7372"]	23
+Greenway Health	greenwayhealth.com	1977	189.6M			http://www.linkedin.com/company/greenway-health	["513210", "541512"]	["7375", "7372", "7371"]	23
+Carwow	carwow.co.uk	2013	114M			http://www.linkedin.com/company/carwow	["54181", "441120", "519290"]	["7359"]	23
+Lightsource bp	lightsourcebp.com	2010	40M		{"id": "54a1178c69702d5010870200", "name": "bp", "website_url": "http://www.bp.com"}	http://www.linkedin.com/company/lightsourcebp	["221114"]	["4911"]	23
+Avalanche	avalanche.com	2018	9M			http://www.linkedin.com/company/avalancheavax	["51321", "518210"]	["7372", "7374"]	23
+Pennylane	pennylane.com	2020	135M			http://www.linkedin.com/company/pennylaneaccounting	["54121", "513210", "522390"]	["7375"]	23
+Sanovel İlaç	sanovel.com.tr	1983				http://www.linkedin.com/company/sanovelilac	["325412"]	["2834"]	23
+Stream Realty Partners	streamrealty.com	1996	380M			http://www.linkedin.com/company/stream-realty-partners	["53139", "531210", "531312"]	["6531"]	23
+Together AI	together.ai	2022	1.2B			http://www.linkedin.com/company/togethercomputer	["518210"]	["7374", "7372"]	23
+Bank Rakyat Malaysia	bankrakyat.com.my	1954	1.7B			http://www.linkedin.com/company/bank-rakyat-malaysia	["522110"]	["6411", "6021"]	23
+Palo Alto Networks Unit 42		2005				http://www.linkedin.com/company/unit42	["541512"]	["7379", "7371"]	23
+Homes.com	homes.com	1973	106M		{"id": "5ed2cb5c198f050001401441", "name": "CoStar Group", "website_url": "http://www.costargroup.com"}	http://www.linkedin.com/company/homes-com	["53121", "531390", "51929"]	["6799"]	23
+Euroclear	euroclear.com	1968	2.2B			http://www.linkedin.com/company/euroclear	["5231", "522320", "523991"]	["6712"]	23
+Rio Energy	rioenergy.com.br	2012	45M		{"id": "5e628e7df4154b010906540e", "name": "Equinor", "website_url": "http://www.equinor.com"}	http://www.linkedin.com/company/rio-energy	["221114", "221115"]	["3621", "4911"]	23
+ITP Aero	itpaero.com	1989	2.2B		{"id": "59e52599a6da98ae7e7d1b82", "name": "Bain Capital", "website_url": "http://www.baincapital.com"}	http://www.linkedin.com/company/itpaero	["336412"]	["3721", "3724"]	23
+Duo Security	duo.com	2010	217.9M		{"id": "62987dc94fbae900a51766b3", "name": "Cisco", "website_url": "http://www.cisco.com"}	http://www.linkedin.com/company/duosec	["541512", "513210"]	["7375", "7371", "7372"]	23
+Ryan	ryan.com	1991	1.2B		{"id": "54a128a969702d8b19a4ab01", "name": "Onex", "website_url": "http://www.onex.com"}	http://www.linkedin.com/company/ryan	["541219", "51321"]	["8731", "8721", "7372"]	23
+ClearBank	clear.bank	2015	163M			http://www.linkedin.com/company/clear-bank	["52232", "522110", "541512"]	["6021"]	23
+BAYARA	bayara.com	1992	120M		{"id": "5fd0398c871cd800bc2b801b", "name": "Savola Group", "website_url": "http://www.savola.com"}	http://www.linkedin.com/company/bayara	["311423", "311942", "311919"]	["2099"]	23
+EPSA	epsa.com	2001	600M		{"id": "65d328601d9432031ae98758", "name": "SERO EMS Group", "website_url": "http://www.seroemsgroup.com"}	http://www.linkedin.com/company/epsagroup	["541611"]	["8742"]	23
+Tarana Wireless	taranawireless.com	2009	221M			http://www.linkedin.com/company/tarana-wireless-inc	["517", "334220", "518210"]	["3663"]	23
+JLT Group					{"id": "688af2b11ee6180001aac881", "name": "Management & Marketing Co. Ltd", "website_url": "http://www.mmcco.com"}	http://www.linkedin.com/company/jardine-lloyd-thompson	["524210"]	["6411"]	23
+Drip Capital	dripcapital.com	2016	60.9M			http://www.linkedin.com/company/dripcapital	["52232", "522299"]	["6162"]	23
+First Student	firststudentinc.com	1999	2.4B		{"id": "60f216032b116c0001b75008", "name": "EQT AB", "website_url": "http://www.eqtpartners.com"}	http://www.linkedin.com/company/first-student	["48599", "485410"]	["4111"]	23
+The Chefz		2017			{"id": "61a7f8127fea4c00de924a99", "name": "Block", "website_url": "http://www.block.xyz"}	http://www.linkedin.com/company/thechefz	["519290"]		23
+The Athletic		2016	101.6M			http://www.linkedin.com/company/the-athletic-media-company	["458110"]		23
+Denny's	dennys.com	1953	452.3M		{"id": "5b1485eca6da98711959d8f6", "name": "TriArtisan Capital Advisors", "website_url": "http://www.triartisan.com"}	http://www.linkedin.com/company/denny's	["722511"]	["5812"]	23
+Sono Bello	sonobello.com	2008	392.5M			http://www.linkedin.com/company/sono-bello	["621493"]	["8011"]	23
+Sesame Workshop	sesameworkshop.org	1969	183.6M	nyse		http://www.linkedin.com/company/sesame-workshop	["512110", "611710", "813990"]	["8300"]	23
+Bang Energy	bangenergy.com	1993	440M		{"id": "6342412e4fe5c80001bef76a", "name": "Monster Beverage Corporation", "website_url": "http://www.monsterbevcorp.com"}	http://www.linkedin.com/company/bangenergy	["312111"]	["2099", "2086"]	23
+Coca-Cola Beverages Florida	cokeflorida.com	2015	1.5B			http://www.linkedin.com/company/cokeflorida	["312111", "493110", "484110"]	["2086", "4225", "4213"]	23
+Worldwide Flight Services (WFS)	wfs.aero	1984	2.9B		{"id": "5ed7221f972ee800019fc371", "name": "SATS Ltd.", "website_url": "http://www.sats.com.sg"}	http://www.linkedin.com/company/worldwide-flight-services	["48111", "488190", "493110"]	["4512", "4581"]	23
+Pinewood Group Limited	pinewoodgroup.com	1936	299M		{"id": "5a9d78aea6da98d93be00abf", "name": "Aermont Capital", "website_url": "http://www.aermont.com"}	http://www.linkedin.com/company/pinewood-group	["512110", "512191"]	["7929", "7812"]	23
+The Orchard	theorchard.com	1997	400M		{"id": "55922c3273696418fbb5aa00", "name": "Sony Music Entertainment", "website_url": "http://www.sonymusic.com"}	http://www.linkedin.com/company/the-orchard	["519"]	["7389"]	23
+Kedrion Biopharma	kedrion.com	2001	1.9B		{"id": "64567661b205050001019db7", "name": "Kedrion Biopharma US", "website_url": "http://www.kedrion.us"}	http://www.linkedin.com/company/kedrion-biopharma	["325414", "541714"]	["2834", "2836"]	23
+Back Market	backmarket.com	2014	516M			http://www.linkedin.com/company/back-market	["44-45", "51"]	["5734"]	23
+Sumo Digital Ltd	sumo-digital.com	2003	198M	other	{"id": "6732c1fcca38ae0001b7984c", "name": "Sumo Group", "website_url": "http://www.sumogroupltd.com"}	http://www.linkedin.com/company/sumo-digital	["51", "541511"]	["7375"]	23
+Flatiron Health	flatiron.com	2012	375.5M		{"id": "54a135f469702d3cbb601301", "name": "Roche", "website_url": "http://www.roche.com"}	http://www.linkedin.com/company/flatiron-health	["54171", "513210", "519290"]	["8731", "7372", "7374"]	23
+Aeroporti di Roma	adr.it	1974	1.1B		{"id": "65edeaf55703be000767fff1", "name": "Mundys", "website_url": "http://www.mundys.com"}	http://www.linkedin.com/company/aeroporti-di-roma	["488119"]	["4512", "4581"]	23
+Khatabook	khatabook.com	2018	9.9M			http://www.linkedin.com/company/khatabook	["54151", "513210"]	["7372"]	23
+Brandwatch	brandwatch.com	2007	59M		{"id": "5c5361fa6c0e6b098cf38205", "name": "Cision", "website_url": "http://www.cision.com"}	http://www.linkedin.com/company/brandwatch	["54161", "513210", "541910"]	["7375"]	23
+Halodoc	halodoc.com	2016	45M			http://www.linkedin.com/company/halodoc-id	["62111", "62199", "51929"]	["8731"]	23
+360Energy	360energy.solar	2011	10M			http://www.linkedin.com/company/360energyar	["221114"]	["4911"]	23

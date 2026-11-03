@@ -1,0 +1,122 @@
+[
+{
+"id": "citichmc.com",
+"company": "CITICIC luoyang Heavy Machinery CO.,LTD",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "CITIC Group",
+"triage_note": "real; fit 1; scale large; heavy machinery"
+},
+{
+"id": "yuyuantm.com.cn",
+"company": "上海豫园旅游商城股份有限公司",
+"sector": "X06 Retail & E-commerce",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Fosun",
+"triage_note": "real; fit 1; scale large; tourism and retail"
+},
+{
+"id": "klcc.com.my",
+"company": "KLCC",
+"sector": "X02 Real Estate & Building Products",
+"country": "Malaysia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Petronas",
+"triage_note": "real; fit 1; scale large; Kuala Lumpur property"
+},
+{
+"id": "modon.com",
+"company": "Q",
+"sector": "19 Gulf Sovereign & Tourism",
+"country": "United Arab Emirates",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "ADQ",
+"triage_note": "real; fit 1; scale large; Abu Dhabi developer"
+},
+{
+"id": "coli688.com",
+"company": "中海地产",
+"sector": "X02 Real Estate & Building Products",
+"country": "Hong Kong",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "China State Construction",
+"triage_note": "real; fit 1; scale large; China Overseas Land"
+},
+{
+"id": "pursuitcollection.com",
+"company": "Viad Corp is now Pursuit (NYSE: PRSU)",
+"sector": "16 Travel & Hospitality",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; attractions operator"
+},
+{
+"id": "pursuit.com",
+"company": "Pursuit",
+"sector": "16 Travel & Hospitality",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; attractions operator"
+},
+{
+"id": "kewpie.co.jp",
+"company": "キユーピー株式会社",
+"sector": "04 Food & Beverage",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Japanese mayonnaise maker"
+},
+{
+"id": "nankai.co.jp",
+"company": "南海電気鉄道株式会社",
+"sector": "NEW Other",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Japanese railway and property"
+},
+{
+"id": "sembmarine.com",
+"company": "Sembcorp Marine Ltd",
+"sector": "X09 Maritime, Shipping & Ports",
+"country": "Singapore",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; rig builder renamed Seatrium"
+}
+]

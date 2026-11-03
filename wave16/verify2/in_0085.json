@@ -1,0 +1,122 @@
+[
+{
+"id": "vanjee.net",
+"company": "VanJee Technology",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese ITS lidar"
+},
+{
+"id": "batm.com",
+"company": "BATM",
+"sector": "22 SaaS",
+"country": "Israel",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Israel networking company"
+},
+{
+"id": "hnahotels.com",
+"company": "HNA Hospitality Group",
+"sector": "16 Travel & Hospitality",
+"country": "China",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "HNA Group (restructured)",
+"triage_note": "real; fit 1; scale unknown; hotel investment platform"
+},
+{
+"id": "royalgroup.com.kh",
+"company": "Royal Group of Companies",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "Cambodia",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale unknown; Cambodian conglomerate"
+},
+{
+"id": "wehrleglobal.com",
+"company": "Wehrle Co.",
+"sector": "45 Electronic Parts",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale unknown; German industrial technology brand"
+},
+{
+"id": "tenarai.com",
+"company": "Tenarai",
+"sector": "25 IT Services & Consulting",
+"country": "United States",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale unknown; enterprise AI consultancy"
+},
+{
+"id": "gobel.co.id",
+"company": "Gobel Group",
+"sector": "23 Machine Tools",
+"country": "Indonesia",
+"type": "Partnership",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale unknown; Indonesian business group"
+},
+{
+"id": "hanergy.com",
+"company": "Hanergy Mobile Energy Holding Group",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale unknown; Chinese clean energy group"
+},
+{
+"id": "vettecorp.com",
+"company": "Vette Corp",
+"sector": "45 Electronic Parts",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale unknown; Electronics thermal cooling"
+},
+{
+"id": "unrivaledsports.com",
+"company": "Unrivaled Sports",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale unknown; sports business brand"
+}
+]

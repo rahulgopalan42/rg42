@@ -1,0 +1,122 @@
+[
+{
+"id": "gatwickairport.com",
+"company": "London Gatwick",
+"sector": "16 Travel & Hospitality",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "VINCI",
+"triage_note": "real; fit 2; scale mid; London airport"
+},
+{
+"id": "thomasnet.com",
+"company": "Thomas",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "201-500",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; industrial sourcing platform"
+},
+{
+"id": "voxxintl.com",
+"company": "VOXX International Corporation",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; audio and electronics"
+},
+{
+"id": "duagon.com",
+"company": "duagon",
+"sector": "45 Electronic Parts",
+"country": "Schweiz",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; rail electronics"
+},
+{
+"id": "creditsafe.com",
+"company": "Creditsafe",
+"sector": "22 SaaS",
+"country": "Ireland",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; business credit reports"
+},
+{
+"id": "rtbhouse.com",
+"company": "RTB House",
+"sector": "22 SaaS",
+"country": "Poland",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; adtech DSP"
+},
+{
+"id": "xsolla.com",
+"company": "Xsolla",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; game commerce platform"
+},
+{
+"id": "thesoul.group",
+"company": "TheSoul Group",
+"sector": "29 Tech Media & Gaming",
+"country": "Cyprus",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; online video creator group"
+},
+{
+"id": "arisglobal.com",
+"company": "ArisGlobal",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; life sciences software"
+},
+{
+"id": "syncfusion.com",
+"company": "Syncfusion",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; developer component software"
+}
+]

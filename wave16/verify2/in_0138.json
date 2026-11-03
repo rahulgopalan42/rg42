@@ -1,0 +1,122 @@
+[
+{
+"id": "everfox.com",
+"company": "Everfox",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Francisco Partners",
+"triage_note": "real; fit 2; scale mid; secure data transfer"
+},
+{
+"id": "blenheimchalcot.com",
+"company": "Blenheim Chalcot",
+"sector": "22 SaaS",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; venture builder UK"
+},
+{
+"id": "secoo.com",
+"company": "寺库 SECOO",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Chinese luxury e-commerce"
+},
+{
+"id": "medik8.com",
+"company": "Medik8",
+"sector": "03 Luxury & Beauty",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; British skincare brand"
+},
+{
+"id": "media.net",
+"company": "Media.net",
+"sector": "22 SaaS",
+"country": "United Arab Emirates",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; adtech platform"
+},
+{
+"id": "atgtravel.com",
+"company": "ATG Travel Worldwide",
+"sector": "16 Travel & Hospitality",
+"country": "Netherlands",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; travel and expense mgmt"
+},
+{
+"id": "ezviz.com",
+"company": "EZVIZ Inc.",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Hikvision",
+"triage_note": "real; fit 2; scale mid; smart home cameras"
+},
+{
+"id": "tzell.com",
+"company": "Tzell Travel Group LLC",
+"sector": "16 Travel & Hospitality",
+"country": "United States",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; luxury travel agency"
+},
+{
+"id": "gri.com.es",
+"company": "GRI Renewable Industries",
+"sector": "27 Chip Makers",
+"country": "Spain",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; wind towers maker"
+},
+{
+"id": "sengled.com",
+"company": "Sengled",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; smart lighting maker"
+}
+]

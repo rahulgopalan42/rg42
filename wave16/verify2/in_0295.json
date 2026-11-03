@@ -1,0 +1,122 @@
+[
+{
+"id": "adamas.ru",
+"company": "Adamas capital jewellery factory",
+"sector": "03 Luxury & Beauty",
+"country": "Russia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Russian jewelry maker"
+},
+{
+"id": "miuzdiamonds.com",
+"company": "MIUZ diamonds",
+"sector": "03 Luxury & Beauty",
+"country": "Russia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Russian diamond jewelry"
+},
+{
+"id": "jrclte.com",
+"company": "JRC (5G/LTE)",
+"sector": "48 Telecom & Space",
+"country": "Japan",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Nisshinbo",
+"triage_note": "real; fit 1; scale mid; Japanese radio equipment"
+},
+{
+"id": "shochiku.co.jp",
+"company": "Shochiku Co., Ltd.",
+"sector": "29 Tech Media & Gaming",
+"country": "Japan",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Japanese entertainment group"
+},
+{
+"id": "carsoncumberbatch.com",
+"company": "Carson Cumberbatch PLC",
+"sector": "33 Automation & Robotics",
+"country": "Sri Lanka",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Sri Lankan conglomerate"
+},
+{
+"id": "hanscnc.com",
+"company": "HAN'S CNC",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Han's Laser",
+"triage_note": "real; fit 1; scale mid; Chinese CNC maker"
+},
+{
+"id": "yysports.com",
+"company": "YYsports",
+"sector": "53 Consumer & Lifestyle",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese sportswear retailer"
+},
+{
+"id": "sabina.co.th",
+"company": "Sabina",
+"sector": "53 Consumer & Lifestyle",
+"country": "Thailand",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Thai lingerie brand"
+},
+{
+"id": "smtcl.com",
+"company": "Shenyang Machine Tool Co Ltd (000410)",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese machine tool maker"
+},
+{
+"id": "pantum.com",
+"company": "PANTUM Technology Ltd",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese laser printers"
+}
+]

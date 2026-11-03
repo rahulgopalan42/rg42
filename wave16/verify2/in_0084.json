@@ -1,0 +1,122 @@
+[
+{
+"id": "enmonster.com",
+"company": "怪兽充电 Energy Monster",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; China power bank sharing, Nasdaq-listed"
+},
+{
+"id": "dwango.co.jp",
+"company": "Dwango corp",
+"sector": "22 SaaS",
+"country": "Japan",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Kadokawa",
+"triage_note": "real; fit 1; scale mid; Niconico operator, Japan only"
+},
+{
+"id": "axiomxgroup.com",
+"company": "Axiom Telecom",
+"sector": "48 Telecom & Space",
+"country": "United Arab Emirates",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; UAE mobile distributor/retailer"
+},
+{
+"id": "belfone.com",
+"company": "BelFone Communications",
+"sector": "48 Telecom & Space",
+"country": "China",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; mission-critical radios"
+},
+{
+"id": "kmw.co.kr",
+"company": "KMW COMMUNICATIONS",
+"sector": "48 Telecom & Space",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; RF antenna maker"
+},
+{
+"id": "sport1-medien.de",
+"company": "Sport1 Medien GmbH",
+"sector": "29 Tech Media & Gaming",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; German sports media"
+},
+{
+"id": "arobs.com",
+"company": "AROBS Group",
+"sector": "22 SaaS",
+"country": "Romania",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Romanian software group"
+},
+{
+"id": "chivasdecorazon.com.mx",
+"company": "CHIVAS FC",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "Mexico",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Grupo Omnilife",
+"triage_note": "real; fit 1; scale mid; Mexican football club"
+},
+{
+"id": "tejasnetworks.com",
+"company": "Tejas Networks",
+"sector": "48 Telecom & Space",
+"country": "India",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Tata Sons",
+"triage_note": "real; fit 1; scale mid; optical networking"
+},
+{
+"id": "urovo.com",
+"company": "UROVO",
+"sector": "22 SaaS",
+"country": "Singapore",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; handheld terminals"
+}
+]

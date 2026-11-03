@@ -1,0 +1,122 @@
+[
+{
+"id": "friwo.com",
+"company": "FRIWO",
+"sector": "45 Electronic Parts",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; power supplies"
+},
+{
+"id": "schulz.st",
+"company": "SCHULZ Systemtechnik",
+"sector": "33 Automation & Robotics",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; systems engineering"
+},
+{
+"id": "burger-group.com",
+"company": "BURGER GROUP",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; clock and tech parts"
+},
+{
+"id": "southernsun.com",
+"company": "Southern Sun",
+"sector": "16 Travel & Hospitality",
+"country": "South Africa",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; South African hotels"
+},
+{
+"id": "ap1.co.id",
+"company": "Angkasa Pura | Airports",
+"sector": "16 Travel & Hospitality",
+"country": "Indonesia",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "InJourney",
+"triage_note": "real; fit 1; scale mid; Indonesian airport operator"
+},
+{
+"id": "nalli.com",
+"company": "Nalli Silk Sarees Pvt. Ltd.",
+"sector": "X06 Retail & E-commerce",
+"country": "India",
+"type": "Partnership",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Indian silk saree retailer"
+},
+{
+"id": "microtekdirect.com.cn",
+"company": "UPS Manufacturer",
+"sector": "34 DC Power & Cooling",
+"country": "China",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; UPS and power products maker"
+},
+{
+"id": "anbolife.com",
+"company": "ANBOLIFE | Smart Kitchen Appliances & Home Solutions",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese kitchen appliance maker"
+},
+{
+"id": "cnppump.com",
+"company": "CNP Pump—Export Marketing Center",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; pump maker, listed"
+},
+{
+"id": "easepal.com.cn",
+"company": "漳州蒙发利实业有限公司",
+"sector": "42 Health & Wellness",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; massage chairs maker"
+}
+]

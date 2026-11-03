@@ -1,0 +1,304 @@
+[
+ {
+  "id": "testmuai.com",
+  "company": "TestMu AI (formerly LambdaTest)",
+  "sector_tab": "08 Devtools & Integration",
+  "domain": "testmuai.com",
+  "hq": "San Francisco, CA, USA (engineering in Noida, India)",
+  "ownership": "Private, VC-backed (Avataar Ventures, Qualcomm Ventures, Premji Invest, Peak XV)",
+  "sells": "AI-native software testing / quality-engineering cloud (cross-browser testing, KaneAI test agent); renamed from LambdaTest Jan 2026",
+  "headcount_band": "501-1,000 (~630, 2026 est)",
+  "revenue": "ARR ~USD 120.6M (2024, third-party report) (est)",
+  "valuation": "~USD 400M (Dec 2024, ET single-source report) (est)",
+  "latest_raise": "USD 38M led by Avataar Ventures w/ Qualcomm Ventures (Dec 2024); ~USD 108M total raised",
+  "fit_score": 4,
+  "fit_detail": "Global sales incl. US/UK/EU/India (1); senior engineering/QA buyers (1); AI/technology/precision-testing story (1); devtools not crowded on grid (1)",
+  "up_and_coming": true,
+  "flags": [
+   "scale via cumulative raise route (~USD 108M, priced round Dec 2024)",
+   "valuation well below USD 1B",
+   "rebrand Jan 2026: LambdaTest -> TestMu AI",
+   "visible challenger to BrowserStack"
+  ],
+  "verdict": "Yes",
+  "verdict_reason": "Passes all filters: ~USD 108M cumulative equity with priced round Dec 2024, ~630 staff, no distress, no F1 tie found; fit 4 and a fresh rebrand needs awareness.",
+  "best_angle": "Fresh January 2026 rebrand to TestMu AI needs global name recognition among engineering leaders, and F1's precision/testing story fits an AI quality-engineering platform.",
+  "sources": [
+   "https://wamdacapital.com/news/lambdatest-raises-38-million-from-avataar-ventures-valuation-hits-400-million/",
+   "https://www.tooljunction.io/ai-tools/kane-ai-by-testmu-ai/company",
+   "https://www.everydev.ai/developers/testmu-ai",
+   "https://testmuai.medium.com/"
+  ]
+ },
+ {
+  "id": "fagorarrasate.com",
+  "company": "Fagor Arrasate S. Coop.",
+  "sector_tab": "23 Machine Tools",
+  "domain": "fagorarrasate.com",
+  "hq": "Mondragón (Arrasate), Gipuzkoa, Spain",
+  "ownership": "Worker cooperative (S. Coop.), member of Fagor Group / Mondragon Corporation",
+  "sells": "Press lines, stamping, sheet-metal processing and composites equipment for automotive and industry; plants in ES, DE, US, CN, MX, BR, TR",
+  "headcount_band": "201-500 (~440, Dec 2025, Revelio est); ~547 (db)",
+  "revenue": "Not published; last found group sales >EUR 290M (2013) and ~EUR 200M (2008); Fagor Group total EUR 1,735M (2025, all 8 co-ops)",
+  "valuation": "n/a (cooperative)",
+  "latest_raise": "n/a",
+  "fit_score": 4,
+  "fit_detail": "Sells in 3+ F1 markets (1); senior B2B buyers (automakers) (1); precision engineering story (1); machine tools not crowded on grid (1) - but no consumer brand ambition",
+  "up_and_coming": false,
+  "flags": [
+   "revenue unverified - no figure since 2013",
+   "B2B capital goods, no brand ambition"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Scale: no verifiable revenue >= USD 150M (company figures unpublished since 2013's EUR 290M; headcount since fell to ~440-550); would be Low-value even if confirmed.",
+  "best_angle": "",
+  "sources": [
+   "https://www.ondavasca.com/fagor-cierra-el-ejercicio-2025-con-unas-ventas-de-1-735-millones-de-euros/",
+   "https://www.reveliolabs.com/companies/fagor-arrasate/employees/",
+   "https://www.fagorarrasate.com/",
+   "https://estrategia.net/download/portada/332"
+  ]
+ },
+ {
+  "id": "kiton.com",
+  "company": "Kiton",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "kiton.com",
+  "hq": "Arzano (Naples), Italy",
+  "ownership": "Private, Paone / De Matteis founding family (CEO Antonio De Matteis)",
+  "sells": "Luxury hand-tailored menswear and womenswear, 67 single-brand boutiques; US is lead market",
+  "headcount_band": "501-1,000 (~800-850, est)",
+  "revenue": "EUR 230M (FY2025, company-reported, +3%); EUR 225M (FY2024)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a; EUR 15M Intesa loan for NY Palazzo Kiton (2025)",
+  "fit_score": 4,
+  "fit_detail": "Sells in US, Italy, UK, UAE, Japan, China (1); affluent 25-54 male buyers (1); craftsmanship/precision story (1); luxury tailoring not crowded on grid (1)",
+  "up_and_coming": true,
+  "flags": [
+   "USD 150-500M revenue route",
+   "market expansion: Europe/US -> Asia; new NY Palazzo and 2nd Montenapoleone flagship (2025-26)",
+   "wholesale soft in 2025"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters on EUR 230M (FY2025) revenue but capped at Stretch by the USD 150-500M route; no F1 tie found; fit 4.",
+  "best_angle": "Kiton is expanding flagships in New York, Milan and Asia, and F1's affluent male audience in its lead US market matches its customer exactly.",
+  "sources": [
+   "https://uk.fashionnetwork.com/news/Kiton-ends-2025-with-230-million-in-revenue-debuts-on-milan-s-via-montenapoleone,1798968.html",
+   "https://en.ilsole24ore.com/art/per-kiton-qualita-e-sostanza-vincono-moda-AGLRfjBD",
+   "https://group.intesasanpaolo.com/en/newsroom/all-news/news/2025/intesa-sanpaolo-15m-loan-kiton-new-york",
+   "https://en.wikipedia.org/wiki/Kiton"
+  ]
+ },
+ {
+  "id": "santec.com",
+  "company": "santec Holdings",
+  "sector_tab": "52 Photonics & Optical",
+  "domain": "santec.com",
+  "hq": "Komaki, Aichi, Japan",
+  "ownership": "Public (TSE Prime: 6777)",
+  "sells": "Optical test & measurement instruments, tunable lasers and optical components for telecom, AI datacentre transceivers and imaging",
+  "headcount_band": "201-500 (350 consolidated, Mar 2025; ~378 Mar 2026 est)",
+  "revenue": "JPY 31.5B (~USD 210M) (FY to Mar 2026)",
+  "valuation": "Market cap ~JPY 326-329B (~USD 2.1B) (2026); was JPY 66.7B (Oct 2024)",
+  "latest_raise": "n/a (listed)",
+  "fit_score": 4,
+  "fit_detail": "Sells in Japan, US, Canada, Europe, China (1); senior B2B technical buyers (1); precision/photonics technology story (1); photonics not crowded on grid (1)",
+  "up_and_coming": true,
+  "flags": [
+   "crossed USD 1B market cap 2025-26 (AI-transceiver test boom)",
+   "B2B niche - weak consumer brand motive"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters on ~USD 2B market cap (2026), 350+ staff, no F1 tie found; reservation: niche B2B instrument maker with limited brand-marketing motive.",
+  "best_angle": "A newly USD 2B photonics name riding the AI-datacentre boom could use F1's precision-technology stage to build global profile with hyperscaler and telecom buyers.",
+  "sources": [
+   "https://www.stockopedia.com/share-prices/santec-holdings-TYO:6777/",
+   "https://finboard.net/companies/JP:6777/financials/Revenues",
+   "https://docs.multiples.vc/public-comps/santec-holdings-valuation-multiples",
+   "https://www.santec.com/en/about/company",
+   "https://www.reveliolabs.com/companies/santec-holdings/employees/",
+   "https://craft.co/santec"
+  ]
+ },
+ {
+  "id": "audleytravel.com",
+  "company": "Audley Travel",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "audleytravel.com",
+  "hq": "Witney, Oxfordshire, UK",
+  "ownership": "Private equity: 3i Group 48% of shares plus most shareholder loan notes (since 2015; Equistone exited 2015); management/others hold rest",
+  "sells": "Tailor-made luxury long-haul travel, sold in UK, US and Canada",
+  "headcount_band": "501-1,000 (~889, db)",
+  "revenue": "GBP 482M (~USD 650M) (FY2025, Skift Sep 2026); GBP 220.9M (FY2023, Companies House)",
+  "valuation": "Offers below 3i's ask; auction shelved Apr 2025 (no figure)",
+  "latest_raise": "n/a (PE-owned)",
+  "fit_score": 3,
+  "fit_detail": "Sells in UK, US, Canada (1); affluent travellers (1); story is exploration not performance/technology (0); tour operators not crowded on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "high leverage: GBP 610M borrowings, GBP 23.3M net loss FY2025 on shareholder-note interest",
+   "failed 2025 sale process; ownership change possible",
+   "new CEO Mar 2026"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters on GBP 482M (~USD 650M) FY2025 revenue with record operating profit (not distress); reservation: heavy PE leverage and unresolved sale may freeze discretionary spend.",
+  "best_angle": "Audley's UK/US/Canada luxury traveller mirrors F1's affluent audience in its own markets, and a new CEO may seek brand growth ahead of a renewed sale.",
+  "sources": [
+   "https://skift.com/2026/09/01/what-happens-to-a-travel-company-owned-by-private-equity-for-too-long/",
+   "https://ionanalytics.com/insights/mergermarket/3i-group-poised-to-launch-audley-travel-auction-early-2025-sources/",
+   "https://www.equistonepe.com/newsdetail/equistone-partners-europe-exits-audley-travel-investment/223",
+   "https://travelweekly.co.uk/articles/58925/3i-to-invest-159-million-in-audley-travel"
+  ]
+ },
+ {
+  "id": "airelles.com",
+  "company": "Airelles Collection",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "airelles.com",
+  "hq": "Paris, France",
+  "ownership": "Owned by LOV Group (Stéphane Courbit) via LOV Hotel Collection",
+  "sells": "Luxury palace hotels (Courchevel, Versailles, Saint-Tropez x2, Gordes, Val d'Isère, Venice, St Barth from Nov 2026)",
+  "headcount_band": "501-1,000 (~760, db)",
+  "revenue": "Not published; ~EUR 200-300M (2026, est, unverified)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a; EUR 271M debt financing for Messardière (2019)",
+  "fit_score": 3,
+  "fit_detail": "Sells to guests from US, UK, Middle East, Europe (1); ultra-affluent buyers (1); story is luxury hospitality not performance (0); luxury hotels not crowded on grid (1)",
+  "up_and_coming": true,
+  "flags": [
+   "group brand: LOV Group",
+   "revenue unverified - confirm USD 150M+ before outreach",
+   "USD 150-500M revenue route (est)",
+   "market expansion: France -> Venice (2024-25) and St Barth (Nov 2026)",
+   "LOV/Banijay group: Betclic betting brand - no F1 deal found"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Separately marketed consumer brand of LOV Group, no F1 tie found; scale rests on an unverified EUR 200-300M revenue estimate, so capped at Stretch pending confirmation.",
+  "best_angle": "Expanding beyond France to Venice and St Barth, Airelles could use Monaco/Las Vegas/Abu Dhabi race weekends to reach the ultra-wealthy F1 paddock audience.",
+  "sources": [
+   "https://www.tendancehotellerie.fr/articles-breves/communique-de-presse/8511-article/la-branche-hoteliere-de-la-holding-lov-group-cree-la-marque-airelles-collection",
+   "https://hospitality-on.com/fr/fusionacquisition/airelles-reprend-le-guanahani-plus-grand-hotel-de-saint-barthelemy",
+   "https://groupebpce.com/en/all-the-latest-news/news/2019/luxury-hotels-cheyne-capital-and-natixis-finance-an-acquisition-in-saint-tropez",
+   "https://en.wikipedia.org/wiki/St%C3%A9phane_Courbit",
+   "https://bnnbloomberg.ca/business/2024/11/14/french-hotel-brand-loved-by-celebs-and-royalty-comes-to-venice"
+  ]
+ },
+ {
+  "id": "combe.com",
+  "company": "Combe Incorporated",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "combe.com",
+  "hq": "White Plains, New York, USA",
+  "ownership": "Private, Combe family-owned",
+  "sells": "Personal-care brands: Just For Men, Vagisil, Sea-Bond, Astroglide, Aqua Velva, Brylcreem (US/CA); 64 countries, ~1/3 revenue outside US/Canada",
+  "headcount_band": "1,001-5,000 (~1,000, est)",
+  "revenue": "~USD 425M (Happi Top 50 profile, 2025, est); USD 350M (2013)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "Sells in US, Canada, UK, Mexico, Brazil, Spain, Italy (1); men 35-54 core buyer for Just For Men (1); mass grooming story weak on performance/tech (0); men's grooming not crowded on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue estimate only (private)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters on ~USD 425M estimated revenue (capped Stretch by USD 150-500M route); no F1 tie found; mass-market grooming brand with moderate fit.",
+  "best_angle": "Just For Men's core 35-54 male buyer matches F1's fast-growing US audience, where a race-weekend activation could refresh an older brand.",
+  "sources": [
+   "https://www.happi.com/top-company-profile/combe/?cyear=2025",
+   "https://www.happi.com/top-company-profile/combe-incorporated/?cyear=2013",
+   "https://excellence.bestpracticeinstitute.org/company/combe/"
+  ]
+ },
+ {
+  "id": "spotnana.com",
+  "company": "Spotnana",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "spotnana.com",
+  "hq": "New York, NY, USA",
+  "ownership": "Private, VC-backed (Durable Capital, Madrona, ICONIQ, Mubadala)",
+  "sells": "Travel-as-a-Service cloud platform for corporate travel booking, TMCs and travel suppliers",
+  "headcount_band": "201-500 (~400, est)",
+  "revenue": "Not published; well below USD 150M (est)",
+  "valuation": "~USD 1.2B claimed (Dec 2024, aggregator only, unconfirmed by primary source)",
+  "latest_raise": "USD 75M Series B led by Durable Capital (Jul 2022, valuation undisclosed); ~USD 116M total; possible USD 1.7M Form D (Aug 2026, unverified)",
+  "fit_score": 3,
+  "fit_detail": "Sells in US, Europe, India (1); senior B2B travel/finance buyers (1); technology story (1); travel-management category now on grid via Perk/Audi (0)",
+  "up_and_coming": false,
+  "flags": [
+   "scale unverified: USD 1.2B valuation only on aggregator sites",
+   "last confirmed priced round Jul 2022 (outside 36 months)",
+   "competitor Perk is Audi F1 partner (Dec 2025)"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Scale: no primary-source USD 1B+ valuation, last confirmed priced round Jul 2022 is outside 36 months, and revenue is far below USD 150M.",
+  "best_angle": "",
+  "sources": [
+   "https://salestools.io/en/blog/spotnana-raises-75m-series-c",
+   "https://startupintros.com/news/2022-07-01-spotnana-series-b",
+   "https://airguide.info/spotnana-crosses-100m-funding-mark-with-latest-investment-round/",
+   "https://valueaddvc.com/pulse/company/spotnana-technology",
+   "https://www.perk.com/press-release/perk-becomes-official-partner-of-the-future-audi-f1-team/"
+  ]
+ },
+ {
+  "id": "rocskincare.com",
+  "company": "RoC Skincare",
+  "sector_tab": "03 Luxury & Beauty",
+  "domain": "rocskincare.com",
+  "hq": "Fort Lee, New Jersey, USA (est)",
+  "ownership": "Private equity: Bridgepoint Europe VII majority (from Gryphon, Jan 2024)",
+  "sells": "Retinol / dermo-cosmetic anti-ageing skincare, mass and drugstore channels in US, France, UK and other markets",
+  "headcount_band": "201-500 (~220, db)",
+  "revenue": "Retail sales ~USD 300M (2024, Beauty Independent); net revenue ~USD 200M (est)",
+  "valuation": "~USD 500-522M deal value (Jan 2024, Reuters/Altaroc)",
+  "latest_raise": "n/a (PE buyout Jan 2024)",
+  "fit_score": 2,
+  "fit_detail": "Sells in US, France, UK, Canada (1); affluent women 35-54 partly (1); science story but not performance/tech (0); skincare increasingly on grid (Elemis, SkinCeuticals) (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue est - net revenue unpublished",
+   "skincare now on grid: SkinCeuticals-Ferrari (Jun 2026), Elemis-Aston Martin"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters on ~USD 300M retail sales / ~USD 200M est net revenue (capped Stretch), no F1 tie found; reservation: competitors already on grid and revenue unconfirmed.",
+  "best_angle": "Under Bridgepoint RoC is pushing international growth, and F1's fast-growing female US audience could carry a retinol 'proven performance' message.",
+  "sources": [
+   "https://www.beautyindependent.com/?p=173049",
+   "https://altaroc.pe/en/companies/roc",
+   "https://beautymatter.com/articles/bridgepoint-to-acquire-roc-skincare",
+   "https://www.aap.com.au/aapreleases/cision20260603ae73453/"
+  ]
+ },
+ {
+  "id": "stosa.it",
+  "company": "Stosa Cucine",
+  "sector_tab": "49 Home & Living",
+  "domain": "stosa.it",
+  "hq": "Radicofani / Barberino Tavarnelle, Tuscany, Italy",
+  "ownership": "Private, Sani family-owned (Stosa SpA)",
+  "sells": "Modular kitchens sold through 60+ flagship stores and dealers in ~40 countries",
+  "headcount_band": "201-500 (2025, registry band)",
+  "revenue": "~EUR 200M (FY2025, +8%; registry EUR 199.9M)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "Sells in Italy, Turkey, Europe and export markets (1); affluent home buyers 30-54 (1); story is design not performance/tech (0); kitchens not crowded on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "Italy-heavy sales; export detail unpublished"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters on ~EUR 200M FY2025 revenue (capped Stretch), 200-499 staff, no F1 tie found; reservation: mostly domestic brand with limited global ambition.",
+  "best_angle": "Stosa's push into foreign markets through new flagships could borrow Italian F1 prestige (Monza/Imola) to build export brand awareness.",
+  "sources": [
+   "https://forbes.it/2026/05/05/stosa-cucine-consolida-crescita-visione-internazionale",
+   "https://registroaziende.it/azienda/stosa-spa-barberino-tavarnelle",
+   "https://ifdm.design/2019/10/09/stosa-cucine-continues-to-grow",
+   "https://www.internimagazine.com/interior/showroom/stosa-cucine-a-istanbul/"
+  ]
+ }
+]

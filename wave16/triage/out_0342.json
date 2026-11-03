@@ -1,0 +1,802 @@
+[
+{
+"id": "evangelicovv.com.br",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Brazilian evangelical hospital"
+},
+{
+"id": "pas.com.eg",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Egyptian oil-sector air services"
+},
+{
+"id": "atryshealth.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Spanish medical diagnostics group"
+},
+{
+"id": "magichotelgroup.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Spanish family hotel group"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Egyptian tour operator"
+},
+{
+"id": "perinatal.com.br",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Brazilian obstetrics hospital group"
+},
+{
+"id": "omeris.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "French family healthcare network"
+},
+{
+"id": "hmhotels.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Spanish family hotel chain"
+},
+{
+"id": "klinikum-fuerth.de",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "German municipal hospital Fuerth"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Peruvian firm; junk description"
+},
+{
+"id": "grupoviper.com.br",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Brazilian outsourcing group"
+},
+{
+"id": "grupoagil.com.br",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Brazilian public-sector services group"
+},
+{
+"id": "bundesdruckerei.de",
+"t": "real",
+"fit": 2,
+"scale": "large",
+"parent": "German federal government",
+"note": "German federal security technology company"
+},
+{
+"id": "clinicalacolina.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Colombian private clinic"
+},
+{
+"id": "asec-engineering.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Egyptian cement plant engineering"
+},
+{
+"id": "nbcc.com.sa",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Saudi biscuit and confectionery maker"
+},
+{
+"id": "7-eleven.vn",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Seven & i",
+"note": "Vietnam franchise of 7-Eleven"
+},
+{
+"id": "energyasteel.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Egyptian steel fabrication"
+},
+{
+"id": "arabiantransformers.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "Saudi power transformer manufacturer"
+},
+{
+"id": "lippomalls.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "Lippo Group",
+"note": "Indonesian shopping mall operator"
+},
+{
+"id": "bara.com.mx",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "FEMSA",
+"note": "FEMSA discount retail chain"
+},
+{
+"id": "hansme.net",
+"t": "real",
+"fit": 3,
+"scale": "large",
+"parent": "",
+"note": "Chinese laser equipment maker"
+},
+{
+"id": "emkanholding.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Saudi diversified investment group"
+},
+{
+"id": "report.cl",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Chilean port services firm"
+},
+{
+"id": "umivaleactiva.es",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Spanish occupational health mutual"
+},
+{
+"id": "gozenholding.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Turkish aviation and tourism holding"
+},
+{
+"id": "perthradclinic.com.au",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Australian radiology clinic network"
+},
+{
+"id": "",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "SYNLAB",
+"note": "UK pathology partnership with SYNLAB"
+},
+{
+"id": "cyamoda.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "C&A",
+"note": "Mexican arm of C&A"
+},
+{
+"id": "turkishcargo.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Turkish Airlines",
+"note": "Turkish Airlines air cargo brand"
+},
+{
+"id": "drnutrition.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Dubai nutrition clinics"
+},
+{
+"id": "mc2i.fr",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "French IT consultancy"
+},
+{
+"id": "blogdesire.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Google AdSense product page"
+},
+{
+"id": "redemix.com.br",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Brazilian supermarket network"
+},
+{
+"id": "joymeo.cn",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Chinese contract sales organisation"
+},
+{
+"id": "pazinobn.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Nigerian engineering construction firm"
+},
+{
+"id": "aimchile.cl",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Market research association Chile"
+},
+{
+"id": "mhphotels.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "German hotel investment manager"
+},
+{
+"id": "beneficenciacamp.com.br",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Brazilian charity hospital"
+},
+{
+"id": "almoajilholding.com",
+"t": "real",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Saudi diversified holding"
+},
+{
+"id": "al-otaishan.com.sa",
+"t": "real",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Saudi diversified holding"
+},
+{
+"id": "drmohans.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Indian diabetes clinic chain"
+},
+{
+"id": "davita.sa",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "DaVita",
+"note": "Saudi arm of DaVita"
+},
+{
+"id": "divinaprovidencia.org.br",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Brazilian health network"
+},
+{
+"id": "gruposaona.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Spanish Mediterranean restaurant group"
+},
+{
+"id": "iiqaf.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "UAE services group"
+},
+{
+"id": "amer-group.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Egyptian diversified developer group"
+},
+{
+"id": "otamendi.com.ar",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Buenos Aires private hospital"
+},
+{
+"id": "malindoair.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "Lion Air Group",
+"note": "Malindo Air rebranded Batik Air Malaysia"
+},
+{
+"id": "ceneged.com.br",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Brazilian energy cooperative"
+},
+{
+"id": "saj-electric.com",
+"t": "real",
+"fit": 3,
+"scale": "mid",
+"parent": "",
+"note": "Chinese solar energy storage maker"
+},
+{
+"id": "tradimaq.com.br",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Brazilian machinery dealer"
+},
+{
+"id": "alvoradanet.com.br",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Brazilian agricultural products distributor"
+},
+{
+"id": "geprekinaja.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Indonesian fried chicken restaurant brand"
+},
+{
+"id": "komm.one",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "German public municipal IT provider"
+},
+{
+"id": "clujit.ro",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Regional IT cluster association"
+},
+{
+"id": "tandpgroup.com",
+"t": "real",
+"fit": 1,
+"scale": "small",
+"parent": "",
+"note": "UK integrated ideas agency"
+},
+{
+"id": "ca-groupinfrastructureplatform.fr",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Credit Agricole",
+"note": "Group infrastructure IT platform"
+},
+{
+"id": "louzanfashion.com",
+"t": "real",
+"fit": 1,
+"scale": "mid",
+"parent": "",
+"note": "UAE fashion retail group"
+},
+{
+"id": "beikohn.com",
+"t": "division",
+"fit": 0,
+"scale": "small",
+"parent": "BEIKOHN GmbH",
+"note": "Chinese subsidiary of German meditech"
+},
+{
+"id": "avantexapparels.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Bangladeshi woven garment exporter"
+},
+{
+"id": "whitefeathers.com.my",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Singapore furniture and bedding"
+},
+{
+"id": "cottonsfit.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Egyptian garment maker retailer"
+},
+{
+"id": "mvsco.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Iranian automation; no data"
+},
+{
+"id": "maplegrove.ph",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Megaworld",
+"note": "Cavite residential project"
+},
+{
+"id": "piramalthegreens.in",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Piramal Realty",
+"note": "Thane residential project"
+},
+{
+"id": "cas-centre.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Property development project page"
+},
+{
+"id": "santhan.com",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "No data listing"
+},
+{
+"id": "scgresearch.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian market research firm"
+},
+{
+"id": "konutatolyesi.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Turkish housing developer"
+},
+{
+"id": "eurowindowholding.biz",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Eurowindow Holding",
+"note": "Recruitment page of Eurowindow"
+},
+{
+"id": "get88.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Malaysian gaming affiliate network"
+},
+{
+"id": "laskesi.or.id",
+"t": "junk",
+"fit": 0,
+"scale": "unknown",
+"parent": "",
+"note": "Healthcare accreditation body not company"
+},
+{
+"id": "iotconstrucoesinteligentes.com.br",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Brazilian smart building projects"
+},
+{
+"id": "lyraindustrials.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian garment exporter"
+},
+{
+"id": "sukhahospitality.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Bali venue software provider"
+},
+{
+"id": "bookaberyl.co.uk",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "UK cleaning property services"
+},
+{
+"id": "greenworldbd.net",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Bangladeshi garment exporter"
+},
+{
+"id": "benhvientthvinh.vn",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Vietnamese general hospital"
+},
+{
+"id": "epowero.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Singapore engineering supplier"
+},
+{
+"id": "corusfashion.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Bangladeshi apparel maker"
+},
+{
+"id": "hospitalsantamarta.com.br",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Brazilian hospital"
+},
+{
+"id": "dynacare.ca",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Labcorp",
+"note": "Canadian diagnostics lab of Labcorp"
+},
+{
+"id": "sagradocorazon.net.ar",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Argentine sanatorium"
+},
+{
+"id": "onneragroup.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Spanish international hotel group"
+},
+{
+"id": "gmad.com.br",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Brazilian furniture distributor"
+},
+{
+"id": "ambroisepare.fr",
+"t": "division",
+"fit": 0,
+"scale": "mid",
+"parent": "Ramsay Sante",
+"note": "French private clinics"
+},
+{
+"id": "nagarmal.com",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Indian family retail store"
+},
+{
+"id": "lagardereawpl.com",
+"t": "division",
+"fit": 0,
+"scale": "large",
+"parent": "Lagardere",
+"note": "Pacific travel retail arm"
+},
+{
+"id": "aralco.com.br",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Brazilian sugar ethanol group"
+},
+{
+"id": "southwindairlines.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Turkish charter airline"
+},
+{
+"id": "isgsa.com.br",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Brazilian holding group"
+},
+{
+"id": "arbuz.kz",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Kazakh online supermarket"
+},
+{
+"id": "supervalue.co.nz",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "Woolworths Group",
+"note": "New Zealand grocery brand"
+},
+{
+"id": "greenfuel.co.zw",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Zimbabwe ethanol producer"
+},
+{
+"id": "sanatorioimm.com.ar",
+"t": "real",
+"fit": 0,
+"scale": "small",
+"parent": "",
+"note": "Argentine sanatorium"
+},
+{
+"id": "tiba-group.com",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Egyptian air conditioning manufacturer"
+},
+{
+"id": "dagelijks-leven.nl",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Dutch dementia care provider"
+},
+{
+"id": "myland.net.vn",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Vietnamese real estate developer"
+},
+{
+"id": "towngroup.org",
+"t": "real",
+"fit": 0,
+"scale": "mid",
+"parent": "",
+"note": "Egyptian shoes retailer maker"
+}
+]

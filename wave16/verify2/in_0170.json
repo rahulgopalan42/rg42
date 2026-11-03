@@ -1,0 +1,122 @@
+[
+{
+"id": "allot.com",
+"company": "Allot",
+"sector": "48 Telecom & Space",
+"country": "Israel",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; network traffic software"
+},
+{
+"id": "fynapse.app",
+"company": "Aptitude Software",
+"sector": "22 SaaS",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; subscription finance software"
+},
+{
+"id": "pexip.com",
+"company": "Pexip",
+"sector": "22 SaaS",
+"country": "Norway",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; video conferencing"
+},
+{
+"id": "orbit-cs.com",
+"company": "Orbit Communication Systems",
+"sector": "48 Telecom & Space",
+"country": "Israel",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Orbit Technologies",
+"triage_note": "real; fit 2; scale mid; maritime satcom"
+},
+{
+"id": "cyberlink.com",
+"company": "CyberLink",
+"sector": "22 SaaS",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; video software"
+},
+{
+"id": "revolutionbeauty.com",
+"company": "REVOLUTION BEAUTY",
+"sector": "03 Luxury & Beauty",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; UK cosmetics brand"
+},
+{
+"id": "travelzoo.com",
+"company": "Travelzoo",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; travel deals club"
+},
+{
+"id": "rtx.dk",
+"company": "RTX A/S",
+"sector": "48 Telecom & Space",
+"country": "Denmark",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Danish wireless firm"
+},
+{
+"id": "simulations-plus.com",
+"company": "Simulations Plus, Inc.",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; biosimulation software"
+},
+{
+"id": "saftehnika.com",
+"company": "SAF Tehnika",
+"sector": "48 Telecom & Space",
+"country": "Latvija",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; microwave radio maker"
+}
+]

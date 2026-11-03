@@ -1,0 +1,122 @@
+[
+{
+"id": "superioressex.com",
+"company": "Superior Essex",
+"sector": "45 Electronic Parts",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "LS Cable & System",
+"triage_note": "real; fit 2; scale large; cable and wire maker"
+},
+{
+"id": "engine.com",
+"company": "Hotel Engine",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; hotel booking platform"
+},
+{
+"id": "mgm.com",
+"company": "MGM",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Privately Held",
+"staff": "201-500",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Amazon",
+"triage_note": "real; fit 2; scale large; film studio"
+},
+{
+"id": "block.xyz",
+"company": "Block",
+"sector": "01 Banking & Insurance",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; fintech payments group"
+},
+{
+"id": "odeon.co.uk",
+"company": "ODEON Cinemas Group",
+"sector": "29 Tech Media & Gaming",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "AMC Entertainment",
+"triage_note": "real; fit 2; scale large; European cinema chain"
+},
+{
+"id": "avature.net",
+"company": "Avature",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; recruiting SaaS"
+},
+{
+"id": "",
+"company": "tw telecom",
+"sector": "48 Telecom & Space",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Globo",
+"triage_note": "real; fit 2; scale large; Brazilian media group"
+},
+{
+"id": "benettongroup.com",
+"company": "Benetton Group",
+"sector": "53 Consumer & Lifestyle",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Edizione",
+"triage_note": "real; fit 2; scale large; fashion; past F1 ties"
+},
+{
+"id": "afgretail.com",
+"company": "Cenomi Retail",
+"sector": "53 Consumer & Lifestyle",
+"country": "Saudi Arabia",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Cenomi",
+"triage_note": "real; fit 2; scale large; Saudi fashion retail"
+},
+{
+"id": "saks.com",
+"company": "Saks Fifth Avenue",
+"sector": "53 Consumer & Lifestyle",
+"country": "United States",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Saks Global",
+"triage_note": "real; fit 2; scale large; luxury department store"
+}
+]

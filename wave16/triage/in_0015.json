@@ -1,0 +1,902 @@
+[
+{
+"id": "saltproject.io",
+"company": "Salt Project",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"description": "Salt Project is one of the largest, friendliest, and most active open source communities in the world.\n\nBuilt on Python, Salt is an event-driven automation tool and framework to deploy, configure, and manage complex IT s"
+},
+{
+"id": "alcatelmobile.com",
+"company": "Alcatel mobile",
+"sector": "48 Telecom & Space",
+"country": "China",
+"type": "Privately Held",
+"staff": "10,001+",
+"description": "Mobile innovation that creates and enhances moments of joy everyday, for everyone.\r\nThis is our positioning, our philosophy and the key message of our brand. It is what we deliver that no other brand in the category does"
+},
+{
+"id": "humanatic.com",
+"company": "Humanatic Official",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"description": "Humanatic is a software that we created to  provide companies with an in depth analysis of their phone calls.  Many companies use this information to improve their customer service or increase sales.  We provide working "
+},
+{
+"id": "eviews.com",
+"company": "IHS EViews",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "EViews accelerates econometric estimation and forecasting, freeing you to spend more time\r\nanalyzing data than configuring it.\r\n\r\nThe easiest way to perform time series analysis, EViews also offers powerful estimation an"
+},
+{
+"id": "wafb.com",
+"company": "WAFB",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "WAFB 9 is Baton Rouge’s trusted news leader, delivering impactful local journalism across broadcast, streaming, and digital platforms. Our award-winning team produces 40+ hours of news each week, including investigations"
+},
+{
+"id": "propertyware.com",
+"company": "Propertyware, a RealPage Company",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Propertyware® is a property management solution for single-family and low-density rental units through a full suite of on-demand property management tools, including customized, hosted websites; online payment processing"
+},
+{
+"id": "faichi.com",
+"company": "Faichi Solutions (A Saksoft Company)",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Faichi Solutions is a technology company that specializes in outsourced product engineering services and open source development.\nEstablished in 2011, we have achieved exponential growth (CAGR: 145% over 5 years)\n\nVertic"
+},
+{
+"id": "thlonline.com",
+"company": "thl digital",
+"sector": "22 SaaS",
+"country": "New Zealand",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Using digital innovation we create unforgettable journeys for our customers across our multiple global brands.   \n\nTourism Holdings Limited operates across the globe including motorhome rentals, retail, manufacturing and"
+},
+{
+"id": "gq-group.com",
+"company": "GQ Group of Companies",
+"sector": "29 Tech Media & Gaming",
+"country": "Bangladesh",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "GQ Group of Companies is a leading manufacturing based organization in Bangladesh. The group came in limelight when it launched its legendary brand “ECONO”. Within very short time ECONO became the leader as writing instr"
+},
+{
+"id": "tvr.ro",
+"company": "TVR Romania",
+"sector": "29 Tech Media & Gaming",
+"country": "Romania",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Romanian Television operates under the control of the Parliament, according to Law no. 41/1994. The President of the Board of Administration is assigned by the Parliament, for a period of four years. The Board of Adminis"
+},
+{
+"id": "circet-benelux.eu",
+"company": "Circet Benelux",
+"sector": "48 Telecom & Space",
+"country": "Belgium",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "We’re building and managing tomorrow’s vital infrastructure\n\nCircet Benelux bouwt en beheert de vitale netwerken van morgen: vaste en mobiele telecomnetwerken, slimme infrastructuur zoals EV-laadstations en digitale mete"
+},
+{
+"id": "aljex.com",
+"company": "Descartes AljexTM",
+"sector": "22 SaaS",
+"country": "Canada",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Descartes AljexTM portfolio provides back-office transportation management solutions for freight brokers and transportation providers. Our solutions help customers automate business processes and create electronic docume"
+},
+{
+"id": "moldtelecom.md",
+"company": "Moldtelecom",
+"sector": "48 Telecom & Space",
+"country": "Moldova",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Moldtelecom este Operatorul Naţional de Telecomunicaţii din Republica Moldova cu servicii şi produse de cea mai înaltă calitate.\r\n \r\nÎntreprinderea de Stat Moldtelecom a fost înfiinţată în 1993 ca urmare a restructurării"
+},
+{
+"id": "gruppodistribuzione.it",
+"company": "Gruppo Distribuzione SPA",
+"sector": "48 Telecom & Space",
+"country": "Italy",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Multinazionale fondata nel 1998, con circa 4.000 dipendenti, 5 siti in tre differenti nazioni (Italia, Romania e Brasile), che opera in diversi mercati: telco, media, energy, banking e public sector.\nGestisce un portafog"
+},
+{
+"id": "stvr.sk",
+"company": "STVR",
+"sector": "29 Tech Media & Gaming",
+"country": "Slovakia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "STVR is a public, national, independent, information, cultural and educational institution operating television and radio broadcasting in Slovakia. It was founded on 1st January 2011 after merging Slovak Television and S"
+},
+{
+"id": "tv4media.se",
+"company": "TV4",
+"sector": "29 Tech Media & Gaming",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "TV4 är ett av Sveriges ledande mediebolag med en unik kombination av journalistik, underhållning, drama och sport. Vi är en förenande kraft i en tid när det verkligen behövs och är en självklar del av människors vardag. "
+},
+{
+"id": "ptsmn.co.id",
+"company": "Protelindo, PT",
+"sector": "48 Telecom & Space",
+"country": "Indonesia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "PT Profesional Telekomunikasi Indonesia (\"Protelindo\") was established in 2003 and is the leading independent owner and operator of towers for wireless communications companies in Indonesia.\n\nSince 2008, Protelindo's sha"
+},
+{
+"id": "antel.com.uy",
+"company": "ANTEL",
+"sector": "48 Telecom & Space",
+"country": "Uruguay",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "La Administración Nacional de Comunicaciones, ANTEL, es una empresa propiedad del Estado uruguayo creada el 25 de julio de 1974, cuyo cometido fundamental es la prestación de todos los servicios de comunicaciones en el t"
+},
+{
+"id": "laprairiegroup.ch",
+"company": "La Prairie Switzerland",
+"sector": "03 Luxury & Beauty",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "LA PRAIRIE -\nThe Luxury skincare house where audacious innovation has cultivated a pioneering approach to beauty. \nA place where heritage and creativity are infused with the values of care, passion, entrepreneurship and "
+},
+{
+"id": "grameenphone.com",
+"company": "Grameenphone Ltd",
+"sector": "48 Telecom & Space",
+"country": "Bangladesh",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "The right and contemporary use of technology is key to the progress of a nation. Keeping this in mind, Grameenphone always brings future-proof technology in order to facilitate your progress. The possibilities in this ne"
+},
+{
+"id": "vitronet.de",
+"company": "vitronet Gruppe",
+"sector": "48 Telecom & Space",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Als Firmengruppe gemeinsam stark: Mit mehr als 2.700 Mitarbeitenden an über 40 Standorten sind wir deutschlandweit der führende Dienstleister für die Telekommunikations- und Energieinfrastruktur. Vom Glasfaserausbau über"
+},
+{
+"id": "spie-nexotech.pl",
+"company": "SPIE Nexotech S.A.",
+"sector": "48 Telecom & Space",
+"country": "Poland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Jesteśmy firmą z branży telekomunikacyjnej i elektrotechnicznej. Posiadamy 20-letnie doświadczenie w budowaniu, dostarczaniu oraz utrzymaniu sieci i systemów teletechnicznych wraz z towarzyszącą infrastrukturą. Na dzień "
+},
+{
+"id": "eesii.com",
+"company": "eesii",
+"sector": "22 SaaS",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "eesii by Bertelsmann Marketing Services macht Print so einfach, automatisiert und flexibel wie digitale Kanäle, und dadurch zukunftssicher.\nWir transformieren Workflows um effiziente und erfolgreiche Direct Mail Marketin"
+},
+{
+"id": "onebroadcast.hu",
+"company": "One Broadcast",
+"sector": "48 Telecom & Space",
+"country": "Hungary",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "2025. január 1-jétől One Broadcast márkanéven nyújtja műsorgyártási szolgáltatásait az ”ANTENNA HUNGÁRIA” Zrt. jogutódja, az AH Média Kereskedelmi Zrt. \n\nAz Antenna Hungária 2016 januárjában indította el a műsorgyártási "
+},
+{
+"id": "hrt.hr",
+"company": "HRT",
+"sector": "29 Tech Media & Gaming",
+"country": "Croatia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Hrvatska radiotelevizija (HRT) je nacionalna javna medijska ustanova u Hrvatskoj koja je osnovana 1926. godine kao Radio Zagreb, dok je televizijsko emitiranje započelo 1956. godine.\n\nSvojim bogatim programom obuhvaća ra"
+},
+{
+"id": "netcologne.de",
+"company": "NetCologne",
+"sector": "48 Telecom & Space",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Regional telecommunications company in the area of Cologne and Bonn\r\n(Germany)\r\n\r\nOperator of an own telecommunications network and full service\r\nprovider in all areas of communications – voice, data and Internet\r\n\r\nRegi"
+},
+{
+"id": "rozhlas.cz",
+"company": "Czech Radio",
+"sector": "29 Tech Media & Gaming",
+"country": "Czechia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Český rozhlas (ČRo) je český veřejnoprávní rozhlasový subjekt zřízený zákonem.\r\nJe jediným veřejnoprávním rádiem v České republice. Kromě základních čtyř celoplošných plnoformátových stanic, nabízí ještě program na čtyře"
+},
+{
+"id": "sabc.co.za",
+"company": "SABC",
+"sector": "29 Tech Media & Gaming",
+"country": "South Africa",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "The South African Broadcasting Corporation (SABC (SOC) Limited, is a Schedule 2 (Major Public Entity) entity in terms of the Public Finance Management Act NO. 1 of 1999, as amended. It was established through an Act of P"
+},
+{
+"id": "rtva.es",
+"company": "Canal Sur TV",
+"sector": "48 Telecom & Space",
+"country": "Spain",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "La Radio y Televisión de Andalucía (RTVA) , líder en el actual mercado audiovisual del sur de España, es una Agencia Pública Empresarial perteneciente a la Junta de Andalucía . Empieza su andadura entre finales de 1988 ,"
+},
+{
+"id": "home24.de",
+"company": "home24 SE",
+"sector": "22 SaaS",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "We are home24, a leading home & living e-commerce platform in continental Europe and Brazil. We are currently active in eight countries. Over 1,000 Homies work together towards a common goal: to create happy homes for ev"
+},
+{
+"id": "amevida.de",
+"company": "AMEVIDA SE",
+"sector": "48 Telecom & Space",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "AMEVIDA is one of the largest owner-managed companies in the German call center and customer care industry and is headquartered in Gelsenkirchen. As a successful BPO service partner with around 2,400 employees, we offer "
+},
+{
+"id": "stepup.one",
+"company": "StepUp.One",
+"sector": "22 SaaS",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Engineering Business Outcomes Through AI + Human Excellence\n\nStepUp.One stands at the intersection of technological innovation and social impact, revolutionizing how businesses achieve exceptional outcomes while creating"
+},
+{
+"id": "canon-elec.co.jp",
+"company": "Canon Electronics Inc.",
+"sector": "X15 Consumer Electronics & Audio",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Development, production, and sales of precision machines and instruments, electric and electronic machines and instruments; information devices; software for computers and communications devices. Specialties include scan"
+},
+{
+"id": "avex.com",
+"company": "Avex Inc.",
+"sector": "29 Tech Media & Gaming",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Avex Inc., an entertainment conglomerate headquartered in Tokyo, Japan, specializes in a broad range of activities across its music, anime, and digital divisions. Established in 1988, the company is deeply involved in th"
+},
+{
+"id": "upc.ch",
+"company": "UPC Schweiz GmbH",
+"sector": "48 Telecom & Space",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "As a leading provider of communication and entertainment, we strive to create happy moments for our customers every day. The current demands for innovation, untethered connectivity, personalised entertainment and digitis"
+},
+{
+"id": "arcor.de",
+"company": "Arcor",
+"sector": "48 Telecom & Space",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Vodafone AG & Co. KG provides fixed-network telecommunication services"
+},
+{
+"id": "fastweb.it",
+"company": "Fastweb",
+"sector": "48 Telecom & Space",
+"country": "Italia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "A partire dal 1° gennaio 2026 Fastweb S.p.A. e Vodafone Italia S.p.A., a seguito della fusione per incorporazione deliberata dalle rispettive assemblee degli azionisti, diventano un’unica realtà societaria sotto la denom"
+},
+{
+"id": "telekom.sk",
+"company": "Slovak Telekom",
+"sector": "48 Telecom & Space",
+"country": "Slovakia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Slovak Telekom, member of the multinational Deutsche Telekom Group, is the largest Slovak multimedia operator with many years of experience and responsible approach to doing business.\nSlovak Telekom offers a full range o"
+},
+{
+"id": "lakeside-scitec.com",
+"company": "Lakeside Science & Technology Park",
+"sector": "22 SaaS",
+"country": "Austria",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Der Lakeside Science & Technology Park liegt wenige hundert Meter vom Wörthersee in direkter Nachbarschaft zur Universität Klagenfurt entfernt. Mit etwa 42.000 m2 Fläche bietet er Raum für Kooperationen zwischen Unterneh"
+},
+{
+"id": "fanduel.careers",
+"company": "FanDuel",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "FanDuel Group is an innovative sports-tech entertainment company that is changing the way consumers engage with their favorite sports, teams, and leagues. The premier gaming destination in the North America, FanDuel Grou"
+},
+{
+"id": "cash.app",
+"company": "Cash App",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financi"
+},
+{
+"id": "cbsinteractive.com",
+"company": "CBS Interactive",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "We are the premier online content network for information and entertainment. Our brands dive deep into the things people care about across entertainment, tech, news, games, business and sports. With over 1 billion users "
+},
+{
+"id": "tre.se",
+"company": "3 Sverige",
+"sector": "48 Telecom & Space",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "We are Three. We are the underdog that challenges the whole Swedish telecommarket. Since the start in 2003 our main priority have been to develop our products and our network so that our two million customers can have th"
+},
+{
+"id": "apm.mc",
+"company": "APM Monaco",
+"sector": "03 Luxury & Beauty",
+"country": "Monaco",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "APM Monaco is a leader in the global fashion jewelry market.\n\nIt started with a female founder and her son in Monaco, Monte-Carlo, in 1982. Ariane and Philippe Prette were key manufacturers in gold, diamonds, and other p"
+},
+{
+"id": "verafin.com",
+"company": "Verafin",
+"sector": "22 SaaS",
+"country": "Canada",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Nasdaq Verafin provides cloud-based Financial Crime Management Technology solutions for Fraud Detection, AML/CFT Compliance, High-Risk Customer Management, Sanctions Screening and Management, and Information Sharing. Mor"
+},
+{
+"id": "visiblexposure.com",
+"company": "Miami SEO",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Put your SEO efforts in the hands of the professionals. Our SEO Specialists do all the work for you - from analyzing and monitoring your site to implementing html tags and editing your site content.\r\n\r\nSpend your time ru"
+},
+{
+"id": "elgiganten.se",
+"company": "Elgiganten AB",
+"sector": "X15 Consumer Electronics & Audio",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "We are giants! Hos Elgiganten är människorna den viktigaste tillgången!\nVi har en stark tro på varje individs inneboende kraft och vill ge förutsättningar för alla medarbetare att växa och utvecklas. Utbildning är ett av"
+},
+{
+"id": "alticemedia.com",
+"company": "Altice Media",
+"sector": "29 Tech Media & Gaming",
+"country": "France",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Altice Media devient RMC BFM. \nCette page sera bientôt désactivée. Ne ratez aucune actualités du groupe en vous abonnant : https://www.linkedin.com/company/rmc-bfm-groupe/?viewAsMember=true"
+},
+{
+"id": "macromedia.com",
+"company": "Macromedia, Inc.",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Macromedia was an American graphics, multimedia, and web development software company headquartered in San Francisco, California that produced such products as Flash and Dreamweaver. It was purchased by Adobe Systems on "
+},
+{
+"id": "kaobrands.com",
+"company": "KPSS",
+"sector": "03 Luxury & Beauty",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Kao Salon is committed to creating beautiful show-stopping hair that represents the bold individuality and unique styles of our stylists and their clients through our Goldwell® and KMS California® brands.\r\n\r\nThe company "
+},
+{
+"id": "tpc.com",
+"company": "TPC Network",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Owned, operated, and licensed by the PGA TOUR, the TPC Network is comprised of more than 30 premier private, resort and daily fee golf properties designed by some of golf’s most elite architects. Each TPC has hosted or h"
+},
+{
+"id": "enwisen.com",
+"company": "Enwisen",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Enwisen helps organizations transform HR by providing human resource management tools that enable employers to provide better HR service delivery with fewer resources and lower costs while significantly improving overall"
+},
+{
+"id": "agentm2.com",
+"company": "Miami Web Design and Miami SEO",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "AGENTM2 is the leading Miami Web Design Company and Miami SEO company since 1995. We design web sites that are both user and SEO friendly as well as cross browser and cross platform. \r\n\r\nWe've provided internet services,"
+},
+{
+"id": "remedy.com",
+"company": "Remedy Corporation",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Remedy Corp was founded in 1990 by Larry Garlick, who was the CEO until 2001, and Dave Mahler and Doug Mueller. The company went public in 1995 and in 1996 was named by Business Week as the \"Number 1 Top Hot Growth Compa"
+},
+{
+"id": "ukelite.com",
+"company": "U.K. Elite Soccer Alumni",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "The 1st Professional Youth Soccer Training organization in the USA."
+},
+{
+"id": "malys.com",
+"company": "Maly's of California",
+"sector": "03 Luxury & Beauty",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Wholesale products and equipment to the trade, i.e. Beauty Salons.  Multiple company store locations with (232) Sales Consultants in the field servicing the accounts."
+},
+{
+"id": "voo.be",
+"company": "VOO",
+"sector": "48 Telecom & Space",
+"country": "Belgique",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "VOO est active dans le secteur des télécoms, en Wallonie et à Bruxelles et commercialise des services de : \n- Télévision numérique (plus de 150 chaînes), des bouquets thématiques,  l'offre Premium Be tv, l'option VOOspor"
+},
+{
+"id": "three.ie",
+"company": "Three Ireland",
+"sector": "48 Telecom & Space",
+"country": "Ireland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Three is Ireland’s largest mobile telecommunications provider with 48.4% market share and 4.9 million customers (as of December 2024).\n\nAt Three we strive to provide our customers with a better-connected life through mea"
+},
+{
+"id": "sportcal.com",
+"company": "Sportcal",
+"sector": "22 SaaS",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "GlobalData’s Sport Intelligence Center is a world-leading sport market intelligence service, providing unparalleled information, analysis, insights and data on media rights, sponsorship, events and bidding. It is also a "
+},
+{
+"id": "avon.ro",
+"company": "Avon România",
+"sector": "03 Luxury & Beauty",
+"country": "Romania",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Schimbăm lumea prin frumuseţe!\n\n\nNe-am asumat misiunea de a face bine prin oamenii noștri, prin implicare socială şi prin produsele noastre. Îţi deschidem toate oportunităţile pentru a face bine împreună şi pentru a-ţi c"
+},
+{
+"id": "dialog.lk",
+"company": "Dialog Axiata PLC",
+"sector": "48 Telecom & Space",
+"country": "Sri Lanka",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Dialog Axiata PLC is Sri Lanka’s flagship telecommunications service provider, which operates Dialog Mobile– the country’s largest mobile network. A subsidiary of the Axiata Group Berhad (formerly TM International), Dial"
+},
+{
+"id": "virginmediao2business.co.uk",
+"company": "Virgin Media O2 Business",
+"sector": "48 Telecom & Space",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Welcome to a new era. Two great UK brands. Two powerful networks. Virgin Media Business and O2 Business have joined forces to provide a new type of digital partner for today’s organisations in private and public sectors."
+},
+{
+"id": "sevenwestmedia.com.au",
+"company": "Seven West Media",
+"sector": "29 Tech Media & Gaming",
+"country": "Australia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Seven West Media merged with Southern Cross Media Group (ASX: SXL) in January 2026 to create one of Australia’s most prominent media companies, with a market-leading presence across television, audio, publishing and digi"
+},
+{
+"id": "viewlocity.com",
+"company": "Viewlocity Technologies",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Founded in 1999, Viewlocity Technologies has a heritage of providing solutions for supply chain management, visibility and control in major companies through our flagship product, Control Tower Platform, as well as advan"
+},
+{
+"id": "beautyplusinc.com",
+"company": "Beauty Plus",
+"sector": "03 Luxury & Beauty",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Whether you are looking for custom manufacturing,private label, or ready to sell products, Beauty Plus Global has the services you are looking for.\r\n\r\nBeauty Plus Global is a fully operational cosmetics & packaging manuf"
+},
+{
+"id": "splk.it",
+"company": "AppDynamics",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Get unified visibility across any environment and any stack with the Splunk Observability portfolio, supercharged by Splunk AppDynamics (formerly Cisco AppDynamics). Our full-stack observability experience provides organ"
+},
+{
+"id": "neustarlocaleze.biz",
+"company": "Localeze",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "PLEASE NOTE: As of November 15, 2012 Localeze has changed its name to Neustar Localeze and is a solution under Neustar, Inc. in the Neustar Information Services division. Please follow us now at\r\nhttp://www.linkedin.com/"
+},
+{
+"id": "compuserve.com",
+"company": "CompuServe",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "CompuServe Interactive Services provides complete and comprehensive products and access for Internet online users at home, in the workplace and around the globe. With the launch of CompuServe 7.0 in 2001, CompuServe reac"
+},
+{
+"id": "kristallsmolensk.com",
+"company": "Kristall Production Corporation OAO",
+"sector": "03 Luxury & Beauty",
+"country": "Russia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Kristall Production Corporation, the largest polished diamonds manufacturer in Russia and in the whole Europe, was established more than 50 years ago. It is the first and sole DTC sightholder in the country. The company "
+},
+{
+"id": "acordeng.com",
+"company": "Acord Engineering",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Welcome to Acord Engineering Inc, where innovation meets excellence in software solutions. We are a dynamic team of passionate technologists dedicated to pushing the boundaries of what’s possible in the digital realm. Si"
+},
+{
+"id": "gdconf.com",
+"company": "Virtual Reality Developers Conference (VRDC)",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "The Virtual Reality Developers Conference (VRDC) brings together creators of amazing, immersive experiences in to learn, network, and be inspired. VRDC will take place March 19-20, 2018 during the Game Developers Confere"
+},
+{
+"id": "cablex.ch",
+"company": "cablex AG",
+"sector": "48 Telecom & Space",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Connected for the future with cablex:\n\ncablex is the leading infrastructure partner for ICT, energy and mobility. With around 2,000 employees across Switzerland, the company plans, constructs and maintains infrastructure"
+},
+{
+"id": "ebel.com",
+"company": "EBEL",
+"sector": "03 Luxury & Beauty",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "EBEL’s success has been built upon the perfect fusion of technical excellence and a passion for aesthetically daring and timeless, distinctive design. A passion for innovation and excellence in watch design has always be"
+},
+{
+"id": "stepstone.de",
+"company": "Stepstone Deutschland",
+"sector": "22 SaaS",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Bei Stepstone arbeiten unterschiedliche Menschen, die etwas ganz Wichtiges gemeinsam haben: Sie streben immer nach den besten Resultaten. Das große gemeinsame Ziel ist es, jeden Monat Millionen Jobsuchende zu ihrem Traum"
+},
+{
+"id": "intellisoft-tech.com",
+"company": "Intellisoft Technologies",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Empowering Innovation with Intellisoft Technologies, Inc. \n\nSince 1995, Intellisoft Technologies, Inc. has been a trusted provider of cutting-edge IT solutions for both Federal and Commercial sectors. With over two decad"
+},
+{
+"id": "x-holding.ru",
+"company": "ИКС Холдинг",
+"sector": "22 SaaS",
+"country": "Russia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": ""
+},
+{
+"id": "teletu.it",
+"company": "TeleTu",
+"sector": "48 Telecom & Space",
+"country": "Italy",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Convenienza e maggiore valore per il Cliente sono gli obiettivi di TeleTu, operatore alternativo presente sul mercato italiano di telefonia fissa dall'Aprile del 1999. Il nuovo brand TeleTu indica la centralità del Clien"
+},
+{
+"id": "hansenet.de",
+"company": "HanseNet",
+"sector": "48 Telecom & Space",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "HanseNet steht mit seiner Marke Alice und dem Geschäftskundenangeboten unter dem Dach der Telecom Italia für Breitbandige Netzzugänge über das Internetprotokoll (IP) auf Basis von Direktanschlüssen. Das umfasst ein hochm"
+},
+{
+"id": "tandberg.com",
+"company": "TANDBERG",
+"sector": "48 Telecom & Space",
+"country": "Norway",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Cisco has acquired Tandberg. Please continue to follow Cisco on our company page on LinkedIn. http://www.linkedin.com/company/cisco\r\n\r\nTANDBERG is the leading provider of telepresence, high-definition videoconferencing a"
+},
+{
+"id": "chellomedia.com",
+"company": "chellomedia",
+"sector": "29 Tech Media & Gaming",
+"country": "Netherlands",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Chellomedia produces and distributes a portfolio of thematic television channels in the key areas of movies, sport, entertainment, lifestyle, kids and documentaries; something for everyone in the family. \r\n\r\nChellomedia'"
+},
+{
+"id": "voxmobili.com",
+"company": "Voxmobili",
+"sector": "48 Telecom & Space",
+"country": "France",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Voxmobili S.A. was founded in 1999 and funded by European venture capital firms. Then in September 2007 it was acquired 100% by OnMobile Global Ltd (www.onmobile.com), India's leading and pioneering Telecom Value Added S"
+},
+{
+"id": "te-ex.ru",
+"company": "Telecom-Express LLC",
+"sector": "48 Telecom & Space",
+"country": "Russia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Telecom-Express is the largest contact center in Russia, a market leader in contact centers outsourcing services.\nSites:  Moscow,  Rostov-on-Don, Chelabynsk, Nizniy Novgorod, Kaluga, Taganrog, Novocherkassk\nEmployees: 2 "
+},
+{
+"id": "holder.gr",
+"company": "Holder Greece",
+"sector": "48 Telecom & Space",
+"country": "Greece",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Holder Greece provides comprehensive Customer Care Service for the largest telecommunications companies in Europe and more specifically in Germany. \n\nIn locations such as Thessaloniki, Serres, Katerini, Kavala, Drama, Ve"
+},
+{
+"id": "tiu.ru",
+"company": "TIU.RU",
+"sector": "22 SaaS",
+"country": "Russia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Tiu.ru\nTiu.ru — российский маркетплейс, где больше 16 тысяч интернет-предпринимателей продают больше 36 млн товаров и услуг.\n\nНа нашей площадке предприниматели создают интернет-магазины и размещают товары в каталоге."
+},
+{
+"id": "ubmmedica.com",
+"company": "CMPMedica",
+"sector": "22 SaaS",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "CMPMedica is a leading healthcare media company providing bespoke solutions to a global healthcare market. We provide reference data, decision support solutions, news and education to communities of general practitioners"
+},
+{
+"id": "gnivc.ru",
+"company": "АО \"ГНИВЦ\"",
+"sector": "22 SaaS",
+"country": "Russia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "АО «ГНИВЦ» является лидером на российском рынке в области автоматизации сложных бизнес-процессов и представляет собой современную IT- компанию."
+},
+{
+"id": "ecom.tech",
+"company": "ecom.tech",
+"sector": "22 SaaS",
+"country": "Russia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "ecom.tech (ex. Samokat.tech) – делаем ИТ-решения для ритейла реального времени.\n\nНаши технологии работают под капотом большого екома (Самокат, Мегамаркет, логистические системы). Хотим сделать так, чтобы все нужные товар"
+},
+{
+"id": "evertz.io",
+"company": "evertz.io",
+"sector": "29 Tech Media & Gaming",
+"country": "Canada",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "evertz.io offers cloud-native pay-as-you-go video services including a channel playout service, a conformance and transcoding service and a digital overlay service.\n\nevertz.io Stream is a Channel as a Service application"
+},
+{
+"id": "cheriefm.fr",
+"company": "Chérie FM",
+"sector": "29 Tech Media & Gaming",
+"country": "France",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Radio musicale du groupe NRJ. Présence d'une 40aine de stations locales en France. Programmation musicale soft et infos internationales, nationales et locales... \r\nFlashs en locale du lundi au vendredi, 6 à 9H, toutes le"
+},
+{
+"id": "wyborcza.biz",
+"company": "Wyborcza.biz",
+"sector": "22 SaaS",
+"country": "Poland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Wyborcza.biz to gospodarczy serwis \"Gazety Wyborczej\" i codzienny wybór czytelników, którzy szukają rzetelnych informacji, analiz, poradników, opinii i komentarzy.   \n\n\nPomagamy odnaleźć się w gąszczu zmieniających się p"
+},
+{
+"id": "canalsur.es",
+"company": "CanalSur",
+"sector": "29 Tech Media & Gaming",
+"country": "Spain",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Canal Sur Radio y Televisión (CSRTV) es una sociedad perteneciente a la Agencia Pública Empresarial RTVA de la Junta de Andalucía, dedicada a generar contenidos audiovisuales y distribuirlos a través de sus canales de ra"
+},
+{
+"id": "mtel.ba",
+"company": "mtel.ba",
+"sector": "48 Telecom & Space",
+"country": "Bosnia and Herzegovina",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Mtel a.d. Banja Luka, vodeći telekom operator u Bosni i Hercegovini, nudi jedinstvena komunikaciona rješenja objedinjena pod korporativnim brendom m:tel.\r\n\r\nPoslujući na sve dinamičnijem tržištu, kompanija nudi najsavrem"
+},
+{
+"id": "enghouseinsights.com",
+"company": "Enghouse Insights",
+"sector": "22 SaaS",
+"country": "Canada",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Welcome to Enghouse Insights – your software partner in simplifying complex data collection for smarter research decisions.\n\nWe provide powerful, user-friendly software solutions specifically designed for political polli"
+},
+{
+"id": "mavriq.com",
+"company": "Mavriq",
+"sector": "22 SaaS",
+"country": "Italia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "We are a global leader in price comparison. Our teams and our proprietary technology connect customers to providers and help them save money.\nWe are 1.500 people working from 18 different locations and we manage 20 brand"
+},
+{
+"id": "pyxissoftware.com",
+"company": "PYXiS Software Group",
+"sector": "22 SaaS",
+"country": "Canada",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "PYXiS Software Group is a buy-and-hold forever acquirer of mission critical vertical market software businesses.\n\nWe provide vertical market software expertise, operational support, and capital to help our businesses gro"
+},
+{
+"id": "ctcmedia.ru",
+"company": "CTC Media, Inc.",
+"sector": "29 Tech Media & Gaming",
+"country": "Russia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "CTC Media is the leading independent broadcasting company in Russia. The Group owns and operates the CTC, Domashny and Peretz television channels in Russia, as well Channel 31 in Kazakhstan and a TV company in Moldova, a"
+},
+{
+"id": "suspilne.media",
+"company": "Suspilne Ukraine",
+"sector": "29 Tech Media & Gaming",
+"country": "Ukraine",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Suspilne Ukraine is an independent public media company with a strong presence across all platforms: the TV channels Pershyi, Suspilne Kultura, Suspilne Sport, and a national network of local channels; the radio stations"
+},
+{
+"id": "gftd-united.com",
+"company": "GfTD United SE",
+"sector": "48 Telecom & Space",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "Wir sind die  Führungsgesellschaft der GfTD United-Gruppe.\n\nZu unserer inhabergeführten Unternehmensgruppe gehören aktuell neun Unternehmen, deren Aktivitäten von der GfTD United SE koordiniert und unterstützt werden. Du"
+},
+{
+"id": "ncplus.pl",
+"company": "nc+",
+"sector": "29 Tech Media & Gaming",
+"country": "Poland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"description": "NC+  is digital TV platform - result of a merger between Polish pay TV operators Cyfra Plus (Canal+Group) and ‘n’ (ITI Group) at the end of 2012. New offer was launched at 21.03.2013.\r\n\r\nNC+ is also broadcaster of: 6 pre"
+},
+{
+"id": "newsseva.in",
+"company": "NEWS SEVA",
+"sector": "29 Tech Media & Gaming",
+"country": "India",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"description": ""
+}
+]

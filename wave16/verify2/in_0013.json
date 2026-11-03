@@ -1,0 +1,122 @@
+[
+{
+"id": "xiaohongshu.com",
+"company": "Xiaohongshu",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Xiaohongshu Technology",
+"triage_note": "real; fit 3; scale large; Chinese lifestyle platform"
+},
+{
+"id": "coway.co.kr",
+"company": "코웨이(주)",
+"sector": "45 Electronic Parts",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; water purifier maker"
+},
+{
+"id": "oregonproducts.com",
+"company": "Oregon Products",
+"sector": "53 Consumer & Lifestyle",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Platinum Equity",
+"triage_note": "real; fit 3; scale large; Chainsaw chain maker"
+},
+{
+"id": "asn.com",
+"company": "ASN",
+"sector": "48 Telecom & Space",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "French State (APE)",
+"triage_note": "real; fit 3; scale large; submarine cable maker"
+},
+{
+"id": "neweracap.com",
+"company": "New Era Cap",
+"sector": "53 Consumer & Lifestyle",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; global headwear brand"
+},
+{
+"id": "kennedywilson.com",
+"company": "Kennedy Wilson",
+"sector": "X02 Real Estate & Building Products",
+"country": "United States",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Fairfax Financial Holdings",
+"triage_note": "real; fit 3; scale large; global real estate investor"
+},
+{
+"id": "atr-aircraft.com",
+"company": "ATR",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "France",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Airbus 50% / Leonardo 50% JV",
+"triage_note": "real; fit 3; scale large; Regional turboprop maker"
+},
+{
+"id": "vastdata.com",
+"company": "VAST Data",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-500M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; AI data platform"
+},
+{
+"id": "relaischateaux.com",
+"company": "Relais & Châteaux",
+"sector": "16 Travel & Hospitality",
+"country": "France",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; luxury hotel association"
+},
+{
+"id": "teamtailor.com",
+"company": "SABON",
+"sector": "03 Luxury & Beauty",
+"country": "France",
+"type": "Privately Held",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Ambea AB",
+"triage_note": "real; fit 3; scale mid; luxury bath brand"
+}
+]

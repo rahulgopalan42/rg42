@@ -1,0 +1,122 @@
+[
+{
+"id": "brueckner-maschinenbau.com",
+"company": "Brückner Maschinenbau",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; film stretching lines"
+},
+{
+"id": "studer.com",
+"company": "Fritz Studer AG",
+"sector": "23 Machine Tools",
+"country": "Schweiz",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "United Grinding Group",
+"triage_note": "real; fit 3; scale mid; precision grinding"
+},
+{
+"id": "mt-aerospace.de",
+"company": "MT Aerospace AG",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "OHB",
+"triage_note": "real; fit 3; scale mid; aerospace structures"
+},
+{
+"id": "ledlenser.com",
+"company": "Ledlenser Global",
+"sector": "45 Electronic Parts",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; premium torches"
+},
+{
+"id": "hainbuch.com",
+"company": "HAINBUCH GMBH SPANNENDE TECHNIK",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; precision clamping"
+},
+{
+"id": "schneiderkreuznach.com",
+"company": "Schneider-Kreuznach",
+"sector": "34 DC Power & Cooling",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; precision optics"
+},
+{
+"id": "fraisa.com",
+"company": "Fraisa",
+"sector": "23 Machine Tools",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; precision milling tools"
+},
+{
+"id": "indie.inc",
+"company": "indie.inc",
+"sector": "27 Chip Makers",
+"country": "United States",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; automotive semiconductors"
+},
+{
+"id": "ripcurl.com",
+"company": "Rip Curl",
+"sector": "53 Consumer & Lifestyle",
+"country": "Australia",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "KMD Brands",
+"triage_note": "real; fit 3; scale mid; surf brand"
+},
+{
+"id": "appotronics.com",
+"company": "Appotronics",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; laser display tech"
+}
+]

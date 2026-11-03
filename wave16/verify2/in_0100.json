@@ -1,0 +1,122 @@
+[
+{
+"id": "nascar.com",
+"company": "NASCAR",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "United States",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; stock car racing league"
+},
+{
+"id": "visabeiraglobal.com",
+"company": "Visabeira Global SGPS, SA",
+"sector": "48 Telecom & Space",
+"country": "Portugal",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Grupo Visabeira",
+"triage_note": "real; fit 0; scale large; Portuguese conglomerate"
+},
+{
+"id": "prisa.com",
+"company": "PRISA",
+"sector": "29 Tech Media & Gaming",
+"country": "Spain",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "PRISA (Promotora de Informaciones)",
+"triage_note": "real; fit 0; scale large; Spanish media group"
+},
+{
+"id": "gac-toyota.com",
+"company": "GAC Toyota Motor Corporation",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Partnership",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "GAC Group / Toyota Motor",
+"triage_note": "real; fit 0; scale large; Chinese car manufacturing JV"
+},
+{
+"id": "suninc.com",
+"company": "Sun Communities & Sun Outdoors",
+"sector": "X02 Real Estate & Building Products",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; manufactured housing REIT"
+},
+{
+"id": "risenenergy.com",
+"company": "东方日升能源 (马来西亚) RISEN SOLAR TECHNOLOGY SDN. BHD. (MALAYSIA)",
+"sector": "27 Chip Makers",
+"country": "Malaysia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Chinese solar maker"
+},
+{
+"id": "equityapartments.com",
+"company": "Equity Residential",
+"sector": "X02 Real Estate & Building Products",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Vivmark Residential",
+"triage_note": "real; fit 0; scale large; apartment REIT"
+},
+{
+"id": "icbcstandard.com",
+"company": "ICBC Standard Bank Plc",
+"sector": "33 Automation & Robotics",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Industrial and Commercial Bank of China",
+"triage_note": "real; fit 0; scale large; bank joint venture"
+},
+{
+"id": "putailai.com",
+"company": "上海璞泰来新能源科技股份有限公司",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Chinese battery materials"
+},
+{
+"id": "cablevisionfibertel.com.ar",
+"company": "Cablevisión - Fibertel",
+"sector": "48 Telecom & Space",
+"country": "Argentina",
+"type": "Self Owned",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Telecom Argentina",
+"triage_note": "real; fit 0; scale large; cable and broadband"
+}
+]

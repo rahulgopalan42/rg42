@@ -1,0 +1,122 @@
+[
+{
+"id": "reiss.com",
+"company": "Reiss",
+"sector": "X06 Retail & E-commerce",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale mid; British premium fashion"
+},
+{
+"id": "furla.com",
+"company": "FURLA",
+"sector": "53 Consumer & Lifestyle",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale mid; Italian luxury handbags"
+},
+{
+"id": "amacaerospace.com",
+"company": "AMAC Aerospace Switzerland AG",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "Switzerland",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale mid; business aviation services"
+},
+{
+"id": "harveynichols.com",
+"company": "Harvey Nichols",
+"sector": "X06 Retail & E-commerce",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale mid; luxury department stores"
+},
+{
+"id": "mecachrome.com",
+"company": "Groupe MECACHROME",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "France",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale mid; precision machining motorsport"
+},
+{
+"id": "db.group",
+"company": "d&b group",
+"sector": "45 Electronic Parts",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale mid; pro audio technology"
+},
+{
+"id": "technogym.com",
+"company": "Technogym",
+"sector": "NEW Other",
+"country": "Italy",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale mid; premium fitness equipment"
+},
+{
+"id": "albion-cosmetics.com",
+"company": "ALBION COSMETICS., LTD",
+"sector": "03 Luxury & Beauty",
+"country": "Japan",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale mid; Japanese luxury skincare"
+},
+{
+"id": "sabyasachi.com",
+"company": "SABYASACHI",
+"sector": "03 Luxury & Beauty",
+"country": "India",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale mid; Indian luxury fashion house"
+},
+{
+"id": "gudel.com",
+"company": "Güdel Group",
+"sector": "33 Automation & Robotics",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale mid; precision automation"
+}
+]

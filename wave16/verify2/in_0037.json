@@ -1,0 +1,122 @@
+[
+{
+"id": "lgcorp.com",
+"company": "LG Corp.",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Korean holding company"
+},
+{
+"id": "latam.com",
+"company": "LATAM Airlines",
+"sector": "16 Travel & Hospitality",
+"country": "Chile",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; South American airline"
+},
+{
+"id": "mohegansun.com",
+"company": "Mohegan Sun",
+"sector": "NEW Gambling & Lotteries",
+"country": "United States",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Mohegan Tribal Gaming Authority",
+"triage_note": "real; fit 1; scale large; casino resort operator"
+},
+{
+"id": "supor.com",
+"company": "Zhejiang Supor Co., Ltd.",
+"sector": "53 Consumer & Lifestyle",
+"country": "China",
+"type": "Partnership",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Groupe SEB",
+"triage_note": "real; fit 1; scale large; Chinese cookware maker"
+},
+{
+"id": "jbtmarel.com",
+"company": "JBT Corporation",
+"sector": "23 Machine Tools",
+"country": "United States",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "JBT Marel Corporation",
+"triage_note": "real; fit 1; scale large; food processing machinery"
+},
+{
+"id": "avianca.com",
+"company": "avianca",
+"sector": "16 Travel & Hospitality",
+"country": "Colombia",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Colombian airline"
+},
+{
+"id": "voeazul.com.br",
+"company": "Azul Linhas Aéreas Brasileiras",
+"sector": "16 Travel & Hospitality",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Abra Group",
+"triage_note": "real; fit 1; scale large; Brazilian airline"
+},
+{
+"id": "voegol.com.br",
+"company": "GOL Linhas Aéreas",
+"sector": "16 Travel & Hospitality",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Abra Group",
+"triage_note": "real; fit 1; scale large; Brazilian airline"
+},
+{
+"id": "neqsolholding.com",
+"company": "NEQSOL HOLDING",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "Netherlands",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Azerbaijan-linked holding"
+},
+{
+"id": "istanbulhavalimani.aero",
+"company": "Istanbul Airport",
+"sector": "16 Travel & Hospitality",
+"country": "Turkey",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Cengiz/Kolin/Limak consortium",
+"triage_note": "real; fit 1; scale large; Istanbul airport operator"
+}
+]

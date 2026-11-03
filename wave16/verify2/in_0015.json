@@ -1,0 +1,122 @@
+[
+{
+"id": "feldentertainment.com",
+"company": "Feld Entertainment",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; family live entertainment, motorsport tie"
+},
+{
+"id": "delaware.pro",
+"company": "delaware International",
+"sector": "25 IT Services & Consulting",
+"country": "Belgium",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "delaware",
+"triage_note": "real; fit 3; scale mid; Global IT consultancy"
+},
+{
+"id": "capcana.com",
+"company": "Cap Cana",
+"sector": "X02 Real Estate & Building Products",
+"country": "Dominican Republic",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; Dominican luxury resort developer"
+},
+{
+"id": "discoverylandco.com",
+"company": "Discovery Land Company",
+"sector": "X02 Real Estate & Building Products",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; Luxury golf communities"
+},
+{
+"id": "ktslaw.com",
+"company": "Kilpatrick Townsend & Stockton LLP",
+"sector": "50 Law Firms & Legal AI",
+"country": "United States",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; IP law firm"
+},
+{
+"id": "williams-int.com",
+"company": "Williams International",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; Jet engine maker"
+},
+{
+"id": "omniatechnologiesgroup.com",
+"company": "Omnia Technologies",
+"sector": "23 Machine Tools",
+"country": "Italy",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Investindustrial",
+"triage_note": "real; fit 3; scale mid; Italian machinery group"
+},
+{
+"id": "ums.swiss",
+"company": "UNITED MACHINING SOLUTIONS",
+"sector": "23 Machine Tools",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; machine tool group"
+},
+{
+"id": "weihuagrp.com",
+"company": "Weihua Crane",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Self Owned",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Weihua Group with registered capital of 560 million",
+"triage_note": "real; fit 3; scale mid; Chinese overhead crane maker"
+},
+{
+"id": "lycbearing.com",
+"company": "LUO YANG BEARING GROUP CO., LTD",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Partnership",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; Chinese bearing manufacturer"
+}
+]

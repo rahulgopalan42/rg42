@@ -1,0 +1,273 @@
+[
+ {
+  "id": "p:bhbikes",
+  "company": "BH Bikes (Bicicletas de Álava)",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "bhbikes.com",
+  "hq": "Vitoria-Gasteiz, Spain",
+  "ownership": "Private, family-owned (Beistegui Hermanos lineage); operating entity BH Bikes Europe SL",
+  "sells": "Road, MTB and e-bikes sold through dealers in Europe, US and other markets; production in Portugal and Asia",
+  "headcount_band": "201-1000 (~900, est 2024)",
+  "revenue": "Not verified: filed accounts (FY2024) hidden; screen estimate EUR ~200M unsourced",
+  "valuation": "Not disclosed",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets (ES, PT, FR, UK, US) yes; affluent 25-54 cyclists yes; performance engineering story yes; bikes not crowded but BMC (Red Bull) and Specialized (Audi) hold team bike slots 0",
+  "up_and_coming": false,
+  "flags": [
+   "scale unverified - re-check Registro Mercantil accounts for EUR 150M+",
+   "bike category partly taken (BMC/Red Bull, Specialized/Audi)"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Hard filter 1 (scale) not met: no dated, sourced revenue, valuation or raise reaching USD 150M; FY2024 figures undisclosed.",
+  "best_angle": "",
+  "sources": [
+   "https://infonif.economia3.com/ficha-empresa/bhbikes-europe-sl",
+   "https://en.wikipedia.org/wiki/Beistegui_Hermanos",
+   "https://bikerumor.com/bmc-red-bull-racing-official-partner/"
+  ]
+ },
+ {
+  "id": "p:wlgoreandassociates",
+  "company": "W. L. Gore & Associates",
+  "sector_tab": "21 Materials & Mech Parts",
+  "domain": "gore.com",
+  "hq": "Newark, Delaware, United States",
+  "ownership": "Private, employee- and family-owned",
+  "sells": "GORE-TEX fabrics, fluoropolymer materials for medical, electronics, industrial and aerospace markets worldwide",
+  "headcount_band": "10001+ (~13,000, 2025)",
+  "revenue": "USD 5.3B (annual, Gore fact sheet Aug 2025)",
+  "valuation": "Not disclosed",
+  "latest_raise": "n/a",
+  "fit_score": 4,
+  "fit_detail": "3+ F1 markets yes; affluent outdoor consumers and senior engineering buyers yes; performance materials/technology story yes; advanced materials not crowded yes",
+  "up_and_coming": false,
+  "flags": [
+   "lapsed F1 tie: GORE-TEX supplier/partner to BMW WilliamsF1 from 2004 season - confirm before outreach",
+   "PFAS litigation exposure (monitor)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (USD 5.3B revenue 2025) and all filters, but lapsed BMW WilliamsF1 supply/partner deal (2004-05) caps at Stretch.",
+  "best_angle": "GORE-TEX performance-materials story fits F1 engineering and premium outdoor consumers in F1's core markets.",
+  "sources": [
+   "https://www.gore.com/sites/default/files/2025-08/Gore-Fact-Sheet-1pg-English-August2025.pdf",
+   "https://www.horizont.net/marketing/nachrichten/-Gore-zeigt-sportlichen-Einsatz-48108",
+   "https://www.nss-sports.com/en/lifestyle/44244/f1-2026-fashion-partners"
+  ]
+ },
+ {
+  "id": "p:tclelectronics",
+  "company": "TCL Electronics",
+  "sector_tab": "X Consumer Electronics",
+  "domain": "tcl.com",
+  "hq": "Hong Kong / Huizhou, China",
+  "ownership": "Public (HKEX: 1070); controlled by TCL Industries Holdings",
+  "sells": "TVs and large displays, smart home, mobile, photovoltaics; sold in 160+ markets",
+  "headcount_band": "10001+ (~30,000, est 2025)",
+  "revenue": "HKD 114.58B (FY2025, ~USD 14.7B), +15.4% YoY",
+  "valuation": "Market cap not retrieved (est USD 3-4B, 2026)",
+  "latest_raise": "n/a (public)",
+  "fit_score": 4,
+  "fit_detail": "3+ F1 markets yes; mass/affluent TV buyers 25-54 yes; display technology story yes; TVs not crowded on grid yes",
+  "up_and_coming": false,
+  "flags": [
+   "F1 tie (lapsed/unconfirmed): Official Television Partner/Provider of the Australian Grand Prix 2022-2025; 2026 renewal not found - confirm before outreach (if renewed, verdict No)",
+   "worldwide Olympic TOP partner",
+   "China HQ - check UFLPA exposure of PV business"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (HKD 114.6B revenue 2025); Australian GP promoter partner through 2025 with 2026 status unconfirmed - lapsed deal, capped Stretch.",
+  "best_angle": "Existing AGP activation shows F1 appetite; a team or global display deal would scale it beyond Australia.",
+  "sources": [
+   "https://www.tcl.com/global/en/news/tcl-electronics-achieving-high-quality-global-growth-in-2025-with-adjusted-profit-attributable-to-owners-of-the-parent-and-dividends-surging-by-over-56percent",
+   "https://sportskhabri.com/australian-grand-prix-tcl-electronics/",
+   "https://www.tcl.com/au/en/blog/tcl-returns-to-grand-prix-2023",
+   "https://www.channelnews.com.au/breaking-news-tcl-snares-major-olympic-sponsorship-deal-it-includes-brisbane-2032/"
+  ]
+ },
+ {
+  "id": "hemmersbach.com",
+  "company": "Hemmersbach",
+  "sector_tab": "25 IT Services & Consulting",
+  "domain": "hemmersbach.com",
+  "hq": "Nuremberg, Germany",
+  "ownership": "Private, family-owned (Hemmersbach family)",
+  "sells": "IT field services and workplace support for IT OEMs and enterprises in 190 countries",
+  "headcount_band": "1001-5000 (2,100-2,800, 2025)",
+  "revenue": "EUR 310.5M (FY2024, ~USD 336M), +5.7% YoY; EUR 294M (FY2023)",
+  "valuation": "Not disclosed",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; senior B2B IT buyers yes; global reach/precision service story yes; IT field services not crowded yes (but white-label B2B, low brand pull)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "20% of profits to Rhino Force charity"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on USD 150-500M revenue route (EUR 310.5M 2024), headcount 2,000+, no F1 tie found; capped Stretch.",
+  "best_angle": "Rhino Force purpose story plus 190-country service footprint could anchor a sustainability-led B2B partnership.",
+  "sources": [
+   "https://www.reveliolabs.com/companies/hemmersbach/employees/",
+   "https://uploads1.craft.co/uploads/unified_record/source/document/2113756/2701f8240b63a1d1.pdf"
+  ]
+ },
+ {
+  "id": "danddlondon.com",
+  "company": "The Evolv Collection (formerly D&D London)",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "danddlondon.com",
+  "hq": "London, United Kingdom",
+  "ownership": "Private: Calveton / Breal Capital (acquired 2023)",
+  "sells": "Premium restaurants and a hotel (Bluebird, Quaglino's, Sartoria, Chop House) in London, Manchester, NYC, Paris, Tokyo",
+  "headcount_band": "1001-5000 (~3,000, est)",
+  "revenue": "GBP 151.6M (15 months to 31 Dec 2025, ~USD 200M; ~GBP 121M annualised, ~USD 160M)",
+  "valuation": "Not disclosed",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets (UK, US, France, Japan) yes; affluent diners yes; dining story does not map to performance/tech 0; restaurant groups compete with DO&CO paddock catering, weak category fit 0",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "still loss-making (GBP 6.8M pre-tax loss, 15m to Dec 2025)",
+   "renamed April 2025"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on USD 150-500M revenue route (borderline, ~USD 160M annualised), no distress (losses narrowing), no F1 tie found; capped Stretch.",
+  "best_angle": "",
+  "sources": [
+   "https://www.thecaterer.com/news/evolv-collection-narrows-losses-as-sales-climb-in-transformative-year",
+   "https://www.restaurantonline.co.uk/Article/2026/05/11/evolv-collection-reports-transformative-period-of-growth/",
+   "https://www.restaurantonline.co.uk/Article/2025/02/24/restaurant-group-dd-london-to-become-the-evolv-collection"
+  ]
+ },
+ {
+  "id": "iba-group.com",
+  "company": "IBA (Ion Beam Applications)",
+  "sector_tab": "X Medtech",
+  "domain": "iba-group.com",
+  "hq": "Louvain-la-Neuve, Belgium",
+  "ownership": "Public (Euronext Brussels: IBAB)",
+  "sells": "Proton-therapy systems, radiopharma cyclotrons, dosimetry and industrial accelerators sold to hospitals worldwide",
+  "headcount_band": "1001-5000 (~2,200, est 2025)",
+  "revenue": "EUR 620.2M (FY2025, ~USD 700M), +24% YoY; backlog EUR 1.6B",
+  "valuation": "Market cap below USD 1B (est, 2026)",
+  "latest_raise": "n/a (public)",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes; senior hospital/oncology buyers partial 0; precision particle-accelerator tech story yes; proton therapy not crowded but no consumer reach 0",
+  "up_and_coming": false,
+  "flags": [],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters (EUR 620M revenue 2025, ~2,200 staff, no F1 tie found) but niche B2B hospital-capital buyer with no consumer brand ambition.",
+  "best_angle": "",
+  "sources": [
+   "https://www.iba-worldwide.com/iba-delivers-strong-fy-2025-results-solid-execution-all-segments",
+   "https://www.iba-worldwide.com/sites/default/files/2026-03/260327-iba-fy2025-results-en.pdf"
+  ]
+ },
+ {
+  "id": "travelopia.com",
+  "company": "Travelopia",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "travelopia.com",
+  "hq": "London, United Kingdom",
+  "ownership": "Private: KKR (acquired from TUI 2017, GBP 325M)",
+  "sells": "House of ~50 specialist travel brands (The Moorings, Sunsail, Exodus, Quark Expeditions, etc.), 800,000+ travellers/yr",
+  "headcount_band": "1001-5000 (900-2,500, conflicting, 2025)",
+  "revenue": "USD 985M (FY2024, Preqin, est); EUR 1.17-1.5B (est)",
+  "valuation": "Not disclosed",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes; affluent 25-54 travellers yes; adventure/specialist travel story weak for performance/tech 0; parent brand not consumer-facing, so no unified category play 0",
+  "up_and_coming": false,
+  "flags": [
+   "house of brands - consumer brands not marketed as Travelopia",
+   "portfolio disposals 2024-25 (e.g. Sawadee to Intrepid)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (~USD 1B revenue FY2024, est) and filters, no F1 tie found; reservation: Travelopia is not a consumer brand, so a deal must run through a portfolio brand.",
+  "best_angle": "A single portfolio brand (e.g. The Moorings or Quark) could use F1 hospitality to reach affluent experience travellers.",
+  "sources": [
+   "https://www.preqin.com/data/profile/asset/travelopia-holdings-limited/216468",
+   "https://skift.com/2026/08/20/the-next-dollar-three-competing-strategies-at-lindblad-intrepid-and-travelopia/",
+   "https://www.privateequitywire.co.uk/kkr-acquire-travelopia-tui/",
+   "https://www.reveliolabs.com/companies/travelopia-group-holdings/employees"
+  ]
+ },
+ {
+  "id": "orthofix.com",
+  "company": "Orthofix",
+  "sector_tab": "X Medtech",
+  "domain": "orthofix.com",
+  "hq": "Lewisville, Texas, United States",
+  "ownership": "Public (NASDAQ: OFIX)",
+  "sells": "Spine and orthopedic implants, bone-growth therapies and enabling tech sold to surgeons",
+  "headcount_band": "1001-5000 (~1,600-1,900, 2025)",
+  "revenue": "USD 822.3M (FY2025), +2.9% YoY",
+  "valuation": "Market cap ~USD 360-570M (Nov 2025-2026)",
+  "latest_raise": "n/a (public)",
+  "fit_score": 1,
+  "fit_detail": "3+ F1 markets partial (mostly US) 0; surgeon/hospital buyers only 0; precision implant story yes; medtech not crowded but regulated promotion 0",
+  "up_and_coming": false,
+  "flags": [
+   "regulated promotion to surgeons"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters (USD 822M revenue 2025, ~1,600 staff, no F1 tie found) but fit 1: US-centric, surgeon audience, no consumer brand ambition.",
+  "best_angle": "",
+  "sources": [
+   "https://www.tipranks.com/stocks/ofix/revenue",
+   "https://www.reveliolabs.com/companies/orthofix/employees",
+   "https://multiples.vc/public-comps/orthofix-medical-valuation-multiples"
+  ]
+ },
+ {
+  "id": "lectra.com",
+  "company": "Lectra",
+  "sector_tab": "23 Machine Tools",
+  "domain": "lectra.com",
+  "hq": "Paris, France",
+  "ownership": "Public (Euronext Paris: LSS)",
+  "sells": "Automated cutting systems, CAD/PLM and SaaS (incl. Launchmetrics) for fashion, automotive seating/interiors and furniture",
+  "headcount_band": "1001-5000 (~3,000, est 2025)",
+  "revenue": "EUR 506.7M (FY2025, ~USD 575M); recurring EUR 380.1M",
+  "valuation": "Market cap ~EUR 1B (est, 2026)",
+  "latest_raise": "n/a (public)",
+  "fit_score": 3,
+  "fit_detail": "3+ F1 markets yes; senior B2B buyers (fashion brands, auto suppliers) yes; precision cutting/Industry 4.0 story yes; category partly overlaps automotive suppliers on grid 0",
+  "up_and_coming": false,
+  "flags": [
+   "modest B2B brand spend"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale (EUR 506.7M revenue 2025, ~USD 575M) and filters, no F1 tie found; reservation: B2B with modest marketing budget.",
+  "best_angle": "Launchmetrics fashion-brand audience plus automotive interiors customers overlap F1's luxury and auto partner ecosystem.",
+  "sources": [
+   "https://ww.fashionnetwork.com/news/Lectra-held-steady-in-2025-supported-by-subscriptions,1807235.html"
+  ]
+ },
+ {
+  "id": "erbegroup.com",
+  "company": "Erbe Elektromedizin",
+  "sector_tab": "X Medtech",
+  "domain": "erbegroup.com",
+  "hq": "Tübingen, Germany",
+  "ownership": "Private, family-owned (Erbe family)",
+  "sells": "Electrosurgery, plasma and cryosurgery systems sold to hospitals in 100+ countries",
+  "headcount_band": "1001-5000 (~2,200, 2026)",
+  "revenue": "EUR 493M (FY2025, ~USD 560M); EUR 525M planned 2026",
+  "valuation": "Not disclosed",
+  "latest_raise": "n/a",
+  "fit_score": 2,
+  "fit_detail": "3+ F1 markets yes; senior surgical/hospital buyers partial 0; precision surgical tech story yes; electrosurgery not crowded but no consumer reach 0",
+  "up_and_coming": false,
+  "flags": [],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters (EUR 493M revenue 2025 ~USD 560M, ~2,200 staff, no F1 tie found) but B2B surgical audience with no brand ambition beyond clinicians.",
+  "best_angle": "",
+  "sources": [
+   "https://www.stuttgarter-zeitung.de/wirtschaft/erbe-elektromedizin-tuebingen-alte-firma-neue-stellen-steigender-umsatz-78827469.html",
+   "https://endoscopyonair.com/partner/erbe/"
+  ]
+ }
+]

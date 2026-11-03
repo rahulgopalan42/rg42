@@ -1,0 +1,122 @@
+[
+{
+"id": "signa.at",
+"company": "SIGNA Group of Companies",
+"sector": "X02 Real Estate & Building Products",
+"country": "Austria",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; insolvent real estate group"
+},
+{
+"id": "thunis.com",
+"company": "Tsinghua Unisplendour Co., Ltd",
+"sector": "25 IT Services & Consulting",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Tsinghua Unigroup (Zhiguangxin)",
+"triage_note": "real; fit 1; scale large; Chinese IT group"
+},
+{
+"id": "jfe-steel.co.jp",
+"company": "JFE Steel Corporation",
+"sector": "23 Machine Tools",
+"country": "Japan",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "JFE Holdings",
+"triage_note": "real; fit 1; scale large; Japanese steelmaker"
+},
+{
+"id": "modivoplatform.com",
+"company": "MODIVO PLATFORM",
+"sector": "53 Consumer & Lifestyle",
+"country": "Poland",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "CCC S.A.",
+"triage_note": "real; fit 1; scale large; Polish fashion e-commerce"
+},
+{
+"id": "tdsinc.com",
+"company": "TDS®",
+"sector": "48 Telecom & Space",
+"country": "United States",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Telephone",
+"triage_note": "real; fit 1; scale large; US telecom holding"
+},
+{
+"id": "inwit.it",
+"company": "INWIT S.p.A.",
+"sector": "48 Telecom & Space",
+"country": "Italy",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Italian tower operator"
+},
+{
+"id": "boohoo.com",
+"company": "boohoo",
+"sector": "53 Consumer & Lifestyle",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; online fashion group"
+},
+{
+"id": "entaincareers.com",
+"company": "GVC Group",
+"sector": "NEW Gambling & Lotteries",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Entain plc",
+"triage_note": "real; fit 1; scale large; now Entain, betting"
+},
+{
+"id": "dxc.com",
+"company": "DXC Technology",
+"sector": "25 IT Services & Consulting",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "DXC Technology",
+"triage_note": "real; fit 1; scale large; IT services"
+},
+{
+"id": "campingworld.com",
+"company": "Camping World",
+"sector": "X06 Retail & E-commerce",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; RV retailer"
+}
+]

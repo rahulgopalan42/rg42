@@ -1,0 +1,291 @@
+[
+ {
+  "id": "montageinternational.com",
+  "company": "Montage International",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "montageinternational.com",
+  "hq": "Irvine, California, USA",
+  "ownership": "Private; founder Alan J. Fuerstman (ownership split not disclosed)",
+  "sells": "Luxury hotel/resort and residence management (Montage, Pendry brands) and golf clubs",
+  "headcount_band": "1,001-5,000 (~1,960 corporate/managed est, Revelio 2025)",
+  "revenue": "~USD 1.1B (est, Prospeo aggregator; managed-property basis, unverified)",
+  "valuation": "Undisclosed (private)",
+  "latest_raise": "None disclosed",
+  "fit_score": 3,
+  "fit_detail": "Mostly US with Mexico and growing international pipeline (1 - US, Mexico, Caribbean/Europe pipeline); affluent 25-54 luxury travellers (1); lifestyle rather than performance story (0); luxury hotels not crowded on grid (1)",
+  "up_and_coming": false,
+  "flags": [
+   "scale unverified - revenue est only",
+   "mostly US footprint",
+   "manager model: fee revenue far smaller than system revenue"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "No F1 tie found for Montage or Pendry; scale rests on an unverified ~USD 1.1B aggregator estimate, a real reservation.",
+  "best_angle": "Affluent US luxury guests match Miami, Austin and Las Vegas GP hospitality audiences.",
+  "sources": [
+   "https://www.reveliolabs.com/companies/montage-hotels-resorts/employees",
+   "https://prospeo.io/c/montage-international-revenue",
+   "https://www.ocbj.com/tourism/fuerstman-family-adding-quality-to-montage-international/"
+  ]
+ },
+ {
+  "id": "cirion.it",
+  "company": "Cirion Technologies",
+  "sector_tab": "48 Telecom & Space",
+  "domain": "cirion.it (redirects to ciriontechnologies.com)",
+  "hq": "Latin America (regional HQ; input country US is wrong)",
+  "ownership": "PE-owned: Stonepeak (100%, acquired Lumen's LatAm business Aug 2022)",
+  "sells": "Fibre network (105,000+ km), data centres, connectivity and cloud/security services across Latin America",
+  "headcount_band": "1,001-5,000 (~2,000-2,200 est)",
+  "revenue": "~USD 540-700M (est; Datanyze USD 536M, unverified)",
+  "valuation": "EV USD 2.7B (Stonepeak acquisition, closed 1 Aug 2022)",
+  "latest_raise": "USD 2.7B buyout, debt + equity (2022)",
+  "fit_score": 3,
+  "fit_detail": "Brazil, Mexico plus multinational carriers (1); senior enterprise/carrier IT buyers (1); connectivity/infrastructure tech story (1); data-centre/cloud adjacent category crowded (0)",
+  "up_and_coming": false,
+  "flags": [
+   "domain cirion.it redirects to ciriontechnologies.com - entity confirmed",
+   "B2B infrastructure, limited brand budget",
+   "PE leverage"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale via USD 2.7B buyout EV (Aug 2022) and no F1 tie found; B2B infrastructure with limited brand motive is the reservation.",
+  "best_angle": "Mexico City and Sao Paulo GPs are home-market showcases for a LatAm digital-infrastructure brand courting enterprise CIOs.",
+  "sources": [
+   "https://ir.lumen.com/news/news-details/2022/Lumen-Closes-Sale-of-its-Latin-American-Business-to-Stonepeak/default.aspx",
+   "https://www.ciriontechnologies.com/",
+   "https://www.datanyze.com/companies/cirion/8176388"
+  ]
+ },
+ {
+  "id": "vermeg.com",
+  "company": "Vermeg",
+  "sector_tab": "26 Horizontal SaaS",
+  "domain": "vermeg.com",
+  "hq": "Amsterdam, Netherlands (operations Tunis, Tunisia)",
+  "ownership": "Private; founder Badreddine Ouali (Vermeg Group NV)",
+  "sells": "Software for banking, capital markets and insurance (collateral, regulatory reporting, life/pension admin)",
+  "headcount_band": "1,001-5,000 (1,357 Dec 2025 Revelio; 1,500+ company)",
+  "revenue": "Unverified: estimates conflict (Gartner USD 50-250M band; aggregators USD 530M+); last reported EUR 54M (c.2017)",
+  "valuation": "Undisclosed",
+  "latest_raise": "None found in 36 months",
+  "fit_score": 3,
+  "fit_detail": "Clients in 40+ countries (1); senior bank/insurer buyers (1); precision regtech story (1); banking-software adjacent to crowded banking (0)",
+  "up_and_coming": false,
+  "flags": [
+   "scale unverified - no sourced revenue >= USD 150M",
+   "headcount -18% y/y (Revelio)"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Hard filter 1 (scale): no sourced revenue >= USD 150M or valuation; estimates conflict and the last reported figure is EUR 54M.",
+  "best_angle": "",
+  "sources": [
+   "https://www.reveliolabs.com/companies/vermeg-group/employees/",
+   "https://derivsource.com/?p=10782",
+   "https://www.webdo.tn/fr/actualite/national/vermeg-compte-recruter-200-tunisiens-dici-2020/160695/",
+   "https://bitscale.ai/directory/vermeg-for-banking-and-insurance-software"
+  ]
+ },
+ {
+  "id": "azentio.com",
+  "company": "Azentio",
+  "sector_tab": "26 Horizontal SaaS",
+  "domain": "azentio.com",
+  "hq": "Singapore",
+  "ownership": "PE-owned: Apax Partners funds (100%, carved out of 3i Infotech 2021)",
+  "sells": "Core banking, insurance and ERP software for financial institutions in Middle East, Africa and Asia",
+  "headcount_band": "1,001-5,000 (1,900 Dec 2025 Latka; 2,300+ company)",
+  "revenue": "~USD 213.5M (Dec 2025, Latka est)",
+  "valuation": "Undisclosed (acquired for INR 10B in 2021)",
+  "latest_raise": "None (Apax buyout 2021)",
+  "fit_score": 3,
+  "fit_detail": "Middle East, India, SE Asia, Africa (1); senior bank/insurer IT buyers (1); technology story (1); banking-software adjacent to crowded banking (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue est only",
+   "B2B software, limited brand budget"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale only on an estimated ~USD 214M revenue (2025), capped Stretch; no F1 tie found for Azentio or Apax-controlled brands.",
+  "best_angle": "Strong Gulf and Asia footprint aligns with Bahrain, Saudi, Abu Dhabi, Qatar and Singapore GP hospitality for bank CIOs.",
+  "sources": [
+   "https://getlatka.com/companies/azentio.com",
+   "https://cxotoday.com/press-release/3i-infotech-announces-sale-of-its-software-products-business-to-funds-advised-by-apax-partners/",
+   "https://technode.global/?p=80079"
+  ]
+ },
+ {
+  "id": "neweratech.com",
+  "company": "New Era Technology",
+  "sector_tab": "25 IT Services & Consulting",
+  "domain": "neweratech.com",
+  "hq": "Charlotte, North Carolina, USA (est)",
+  "ownership": "PE-owned: Sentinel Capital Partners (recap Sep 2019) with Gemini Investors",
+  "sells": "IT, unified communications, AV and managed services integration in US, UK, Canada, Australia, NZ",
+  "headcount_band": "1,001-5,000 (~4,500, PitchBook)",
+  "revenue": "~USD 1B (est, unverified)",
+  "valuation": "Undisclosed",
+  "latest_raise": "Debt placement (Piper Sandler, Apr 2021); no priced equity round found",
+  "fit_score": 3,
+  "fit_detail": "US, UK, Canada, Australia (1); senior IT buyers (1); technology integration story (0); IT services not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "scale unverified - revenue est only",
+   "roll-up of 12+ acquisitions, PE leverage",
+   "not New Era Cap (F1 apparel licensee)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "No F1 tie found (distinct from New Era Cap); scale rests on an unverified ~USD 1B estimate for a ~4,500-staff integrator.",
+  "best_angle": "AV/collaboration integrator could use F1 hospitality across US, UK, Canada and Australia races for enterprise clients.",
+  "sources": [
+   "https://www.sentinelpartners.com/sentinel-capital-partners-recapitalizes-new-era-technology/",
+   "https://pitchbook.com/profiles/company/61086-34",
+   "https://www.pipersandler.com/investment-banking-transactions/neweratechnologyinc-2021-04-30"
+  ]
+ },
+ {
+  "id": "infotech.com",
+  "company": "Info-Tech Research Group",
+  "sector_tab": "25 IT Services & Consulting",
+  "domain": "infotech.com",
+  "hq": "London, Ontario, Canada (input country UK is wrong)",
+  "ownership": "Private, founder/management owned (Joel McLean)",
+  "sells": "IT research, advisory and benchmarking memberships for CIOs and IT leaders",
+  "headcount_band": "1,001-5,000 (~2,018 Dec 2025, Revelio)",
+  "revenue": "~USD 300M (est, unverified; Deloitte Fast 500 2025 grower)",
+  "valuation": "Undisclosed (private)",
+  "latest_raise": "None",
+  "fit_score": 3,
+  "fit_detail": "US, Canada, UK, Australia (1); senior CIO/IT buyers (1); data-driven insight story, weak performance link (0); IT advisory not crowded (1)",
+  "up_and_coming": true,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue est only",
+   "Deloitte Technology Fast 500 (2025); headcount +17% y/y"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale only on an estimated ~USD 300M revenue, capped Stretch; no F1 tie found; strong CIO audience.",
+  "best_angle": "CIO-focused brand could host IT leaders at Montreal, Austin and Silverstone, matching its Canada/US/UK base.",
+  "sources": [
+   "https://www.reveliolabs.com/companies/info-tech-research-group/employees/",
+   "https://www.infotech.com/research/info-tech-research-group-named-one-of-north-america-s-fastest-growing-companies-by-deloitte-for-2025-technology-fast-500-list",
+   "https://www.infotech.com/about"
+  ]
+ },
+ {
+  "id": "stemcell.com",
+  "company": "STEMCELL Technologies",
+  "sector_tab": "X Pharma & Biotech",
+  "domain": "stemcell.com",
+  "hq": "Vancouver, British Columbia, Canada",
+  "ownership": "Private, founder Dr Allen Eaves",
+  "sells": "Cell culture media, cell separation, instruments and research tools for life-science labs",
+  "headcount_band": "1,001-5,000 (1,983 Sep 2025, Revelio; 2,000+ company)",
+  "revenue": "CAD 563.0M (~USD 410M) 2025, +3% (BCBusiness Top 100, 2026)",
+  "valuation": "Undisclosed (private)",
+  "latest_raise": "USD 34.8M (Mar 2025, CB Insights)",
+  "fit_score": 2,
+  "fit_detail": "Sells in 70+ countries (1); research scientists, B2B (0); precision science story (1); life-science tools not on grid but no consumer brand need (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "scientist B2B audience, no brand ambition",
+   "headcount -18% y/y (Revelio)"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes scale via CAD 563M revenue (2025), no F1 tie found; lab-scientist audience with no brand marketing motive.",
+  "best_angle": "",
+  "sources": [
+   "https://bcbusiness.ca/business/tech-science/2026-top-100-science-tech-bc/",
+   "https://www.reveliolabs.com/companies/stemcell-technologies/employees",
+   "https://www.cbinsights.com/company/stemcell-technologies/financials"
+  ]
+ },
+ {
+  "id": "cbtw.tech",
+  "company": "CBTW (Collaboration Betters The World)",
+  "sector_tab": "25 IT Services & Consulting",
+  "domain": "cbtw.tech",
+  "hq": "Brussels, Belgium / Luxembourg",
+  "ownership": "Private, management/founder owned (merger of Positive Thinking Company, OneAston, Versett, others)",
+  "sells": "Technology consulting, software engineering, data and digital services",
+  "headcount_band": "1,001-5,000 (3,000+ company; 4,000 BuiltIn)",
+  "revenue": "~USD 180-350M (est; Prospeo USD 178.8M, unverified)",
+  "valuation": "Undisclosed (private)",
+  "latest_raise": "None found",
+  "fit_score": 2,
+  "fit_detail": "Present in 21 countries incl. Europe, Asia, North America (1); senior IT buyers (1); generic services story (0); IT services crowded with consultancies (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue est only, near threshold",
+   "B2B services, limited brand budget"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale only on an estimated USD 180-350M revenue, capped Stretch; no F1 tie found; B2B services with modest brand motive.",
+  "best_angle": "Newly unified CBTW brand (rebrand from Positive Thinking Company) needs awareness among European enterprise buyers.",
+  "sources": [
+   "https://prospeo.io/c/cbtw-revenue",
+   "https://builtin.com/company/cbtw",
+   "https://temenos.com/community/partners/oneaston"
+  ]
+ },
+ {
+  "id": "adastracorp.com",
+  "company": "Adastra",
+  "sector_tab": "17 AI Cloud & Data",
+  "domain": "adastracorp.com",
+  "hq": "Toronto, Canada and Prague, Czechia",
+  "ownership": "PE-owned: Carlyle majority stake (agreed Jul 2025, ~USD 400M valuation); founders retain stake",
+  "sells": "Data engineering, analytics, AI, cloud and managed data services",
+  "headcount_band": "1,001-5,000 (~2,200, Jul 2025)",
+  "revenue": "USD 220M 2023 (Consulting.ca/Bloomberg)",
+  "valuation": "~USD 400M (Carlyle deal, Jul 2025)",
+  "latest_raise": "Carlyle majority buyout (Jul 2025, terms undisclosed)",
+  "fit_score": 2,
+  "fit_detail": "Canada, Czechia, US, Germany, UK (1); senior data/IT buyers (1); data/AI story (0); data consulting adjacent to crowded cloud (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "B2B services, limited brand budget"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes scale via USD 220M revenue (2023), capped Stretch; Carlyle majority buyout is a PE ownership change, not distress; no F1 tie found.",
+  "best_angle": "Carlyle-backed growth push could use F1 data-and-AI storytelling with enterprise clients at Montreal and European races.",
+  "sources": [
+   "https://www.consulting.ca/news/4558/carlyle-acquires-toronto-it-consultancy-adastra-group",
+   "https://builtintoronto.com/company/adastra",
+   "https://clutch.co/go-to-review/adastra-corporation/187749"
+  ]
+ },
+ {
+  "id": "scenic.cruises",
+  "company": "Scenic Group",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "scenic.cruises",
+  "hq": "Sydney, Australia (European ops in Basel, Switzerland)",
+  "ownership": "Private, founder Glen Moroney",
+  "sells": "Luxury river cruises (Scenic, Emerald) and ocean discovery yachts (Scenic Eclipse), escorted tours",
+  "headcount_band": "1,001-5,000 (1,600+ c.2024)",
+  "revenue": "~USD 800M (est, unpublished; ~25 vessels operating or on order, Mar 2026)",
+  "valuation": "Undisclosed (private)",
+  "latest_raise": "None",
+  "fit_score": 3,
+  "fit_detail": "Guests from Australia, US, UK, Canada (1); affluent 50+ cruisers, some 25-54 (1); lifestyle rather than performance story (0); cruise not crowded but MSC is F1 cruise partner (1)",
+  "up_and_coming": true,
+  "flags": [
+   "scale unverified - revenue est only",
+   "MSC Cruises is F1 global partner in cruise category",
+   "market expansion: river -> ocean/yacht (Emerald yachts 2027-28)"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "No F1 tie found; scale rests on an unsourced ~USD 800M estimate and MSC already holds F1's cruise partnership.",
+  "best_angle": "Ocean-yacht expansion (Emerald yachts 2027-28) targets Mediterranean and Caribbean affluent travellers, matching Monaco and Miami GP audiences.",
+  "sources": [
+   "https://www.seatrade-cruise.com/ship-operations/scenic-celebrates-its-launch-in-australia-30-years-ago",
+   "https://www.cruisemapper.com/news/15899-scenic-group-marks-4-decades",
+   "https://cruisemapper.com/news/14250-scenic-group-achieves-passenger-growth"
+  ]
+ }
+]

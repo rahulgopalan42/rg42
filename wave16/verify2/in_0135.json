@@ -1,0 +1,122 @@
+[
+{
+"id": "deme-group.com",
+"company": "DEME Group",
+"sector": "39 Construction & Field Svc",
+"country": "Belgium",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; marine contractor"
+},
+{
+"id": "vsmpo.ru",
+"company": "VSMPO-AVISMA Corp PJSC",
+"sector": "X04 Mining, Metals & Commodities",
+"country": "Russia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Rostec",
+"triage_note": "real; fit 2; scale large; titanium producer"
+},
+{
+"id": "sinogpc.com",
+"company": "Sinogpc",
+"sector": "02 Energy & Industrial",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "China Petrochemical Corp",
+"triage_note": "real; fit 2; scale large; oil and chemicals"
+},
+{
+"id": "fuyaogroup.com",
+"company": "Fuyao Group",
+"sector": "43 Mobility & Automotive",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; auto glass maker"
+},
+{
+"id": "musashi.co.jp",
+"company": "武蔵精密工業Musashi Seimitsu Industry Co., Ltd.",
+"sector": "NEW Other",
+"country": "Japan",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; precision auto parts"
+},
+{
+"id": "cocacolaep.com",
+"company": "Coca-Cola Europacific Partners",
+"sector": "NEW Other",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; bottler"
+},
+{
+"id": "skoda-career.com",
+"company": "Škoda Auto",
+"sector": "43 Mobility & Automotive",
+"country": "Czechia",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Volkswagen Group",
+"triage_note": "real; fit 2; scale large; Czech carmaker"
+},
+{
+"id": "sinochem.com",
+"company": "Sinochem Holdings",
+"sector": "21 Materials & Mech Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Chinese state",
+"triage_note": "real; fit 2; scale large; chemicals holding"
+},
+{
+"id": "desaysv.com",
+"company": "Desay SV",
+"sector": "43 Mobility & Automotive",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; auto electronics"
+},
+{
+"id": "helvetia-baloise.com",
+"company": "Helvetia Baloise Group",
+"sector": "01 Banking & Insurance",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale large; insurer"
+}
+]

@@ -1,0 +1,122 @@
+[
+{
+"id": "elcorteingles.es",
+"company": "El Corte Inglés",
+"sector": "X06 Retail & E-commerce",
+"country": "Spain",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "El Corte Inglés",
+"triage_note": "real; fit 1; scale large; Spanish department store giant"
+},
+{
+"id": "nri.com",
+"company": "NRI Group",
+"sector": "25 IT Services & Consulting",
+"country": "Japan",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Nomura Research Institute"
+},
+{
+"id": "cvte.com",
+"company": "CVTE (Guangzhou Shiyuan Electronics Co., Ltd )",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Chinese display maker"
+},
+{
+"id": "swisssteel-group.com",
+"company": "Swiss Steel Group",
+"sector": "23 Machine Tools",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; specialty steel producer"
+},
+{
+"id": "zpmc.com",
+"company": "ZPMC",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "China Communications Construction Group",
+"triage_note": "real; fit 1; scale large; port crane maker"
+},
+{
+"id": "lguplus.com",
+"company": "LG유플러스 (LG Uplus)",
+"sector": "48 Telecom & Space",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "LG Corp",
+"triage_note": "real; fit 1; scale large; Korean telecom"
+},
+{
+"id": "360.cn",
+"company": "Qihoo 360",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Chinese internet company"
+},
+{
+"id": "koelagri.com",
+"company": "KOEL",
+"sector": "23 Machine Tools",
+"country": "India",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Kirloskar Oil Engines",
+"triage_note": "real; fit 1; scale large; Indian engine maker"
+},
+{
+"id": "dmartindia.com",
+"company": "DMart - Avenue Supermarts Ltd",
+"sector": "X06 Retail & E-commerce",
+"country": "India",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Indian supermarket chain"
+},
+{
+"id": "crmixclifestyle.com.cn",
+"company": "China Resources Land - CR Mixc Lifestyle",
+"sector": "X02 Real Estate & Building Products",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "China Resources Land / China Resources (state)",
+"triage_note": "real; fit 1; scale large; Chinese property services"
+}
+]

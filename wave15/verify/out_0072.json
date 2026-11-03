@@ -1,0 +1,284 @@
+[
+ {
+  "id": "schueller.de",
+  "company": "Schuller Moebelwerk",
+  "sector_tab": "49 Home & Living",
+  "domain": "schueller.de",
+  "hq": "Herrieden, Germany",
+  "ownership": "Private, family-owned (Schueller family)",
+  "sells": "Fitted kitchens (schueller, next125); ~170,000 kitchens/yr exported across Europe (France, Benelux, Switzerland, Austria, UK, etc.)",
+  "headcount_band": "1,001-5,000 (~2,300, 2024-25)",
+  "revenue": "EUR 758.8M (~USD 820M) FY2023 (latest reported)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 3,
+  "fit_detail": "Markets: France/Benelux/UK/Austria (1); affluent homeowners 25-54 (1); story: manufacturing quality, weak performance fit (0); not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "revenue figure dated 2023",
+   "mid-market brand, no sponsorship history found"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters; reservation: weak performance story and no visible sports-marketing history",
+  "best_angle": "",
+  "sources": [
+   "https://www.ihk-nuernberg.de/wim-wirtschaft-in-mittelfranken/ihk-magazin-wim-04-052023/details/solides-wachstum-in-2022",
+   "https://schueller.de/en/company",
+   "https://www.ausbildung.de/unternehmen/schueller-moebelwerk-gmbh/stellen/"
+  ]
+ },
+ {
+  "id": "niu.com",
+  "company": "NIU Technologies",
+  "sector_tab": "43 Mobility & Automotive",
+  "domain": "niu.com",
+  "hq": "Beijing, China",
+  "ownership": "Listed Nasdaq (NIU); founders Yan Li and Yinan Hu significant holders",
+  "sells": "Smart electric scooters, motorcycles and kick-scooters in China, Europe, US and other markets",
+  "headcount_band": "1,001-5,000 (est)",
+  "revenue": "RMB 4,307.9M (~USD 600M) FY2025 (+31%); Q4 2025 -17.4% YoY",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 3,
+  "fit_detail": "Markets: China/Europe/US (1); young urban commuters, not affluent focus (0); story: e-mobility technology (1); micromobility not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "Q4 2025 revenue decline",
+   "small market cap",
+   "existing motorsport ties only in MotoAmerica/BSB, no F1"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes revenue route; reservation: volatile growth and young mass-market audience",
+  "best_angle": "Racing-flavoured e-mobility brand already using motorsport paddocks to build Western awareness.",
+  "sources": [
+   "https://ir.niu.com/news-releases/news-release-details/niu-technologies-announces-unaudited-fourth-quarter-and-full-2",
+   "https://global.niu.com/blog/niu-partners-with-saddlemen-race-development-for-the-2026-racing-season",
+   "https://www.visordown.com/news/racing/bsb/niu-partners-rapid-cdh-racing-british-superbike-paddock-scooters"
+  ]
+ },
+ {
+  "id": "cyncly.com",
+  "company": "Cyncly",
+  "sector_tab": "47 Vertical SaaS",
+  "domain": "cyncly.com",
+  "hq": "Melbourne, Australia / global (est)",
+  "ownership": "PE-owned: TA Associates and Genstar Capital (May 2025)",
+  "sells": "Design, configuration and CAD/CAM software for kitchen, bath and furniture retailers/manufacturers; 70,000+ customers in 100+ countries; acquired imos Aug 2026",
+  "headcount_band": "1,001-5,000 (~2,300-2,500, est)",
+  "revenue": "~USD 250-350M (est from headcount; unpublished)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 2,
+  "fit_detail": "Markets: 100+ countries (1); B2B retailers/manufacturers, not senior-exec focus (0); story: design software, weak (0); not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route (est, unpublished)",
+   "PE-owned, refinanced USD/EUR debt 2025"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes on estimated revenue only; B2B vertical SaaS with no brand ambition",
+  "best_angle": "",
+  "sources": [
+   "https://www.lw.com/en/news/2025/05/latham-advises-cyncly-on-its-usd-and-eur-refinancing",
+   "https://www.cyncly.com/en/news/compusoft-and-2020-complete-merger/",
+   "https://www.woodworkingnetwork.com/news/canadian-news/2020-rebrands-cyncly-after-merger-compusoft"
+  ]
+ },
+ {
+  "id": "ilf.com",
+  "company": "ILF Consulting Engineers in Germany",
+  "sector_tab": "18 Services & Other",
+  "domain": "ilf.com",
+  "hq": "Munich, Germany (group HQ Munich/Innsbruck)",
+  "ownership": "German operating arm of ILF Group (private, owner/management-held)",
+  "sells": "Engineering consultancy for energy, water, transport, pipelines; 45+ offices worldwide",
+  "headcount_band": "1,001-5,000 (group 2,500+, est)",
+  "revenue": "Group ~USD 300M (aggregator est, unverified)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 1,
+  "fit_detail": "Markets: global B2B (1); infrastructure clients, not senior consumer (0); story weak (0); not crowded but B2B (0)",
+  "up_and_coming": false,
+  "flags": [
+   "regional arm of ILF Group",
+   "group scale unverified",
+   "B2B, low brand ambition"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Hard filter 6: regional arm/subsidiary of ILF Group (group itself would be Low-value B2B with unverified scale)",
+  "best_angle": "",
+  "sources": [
+   "https://www.reveliolabs.com/companies/ilf-consulting-engineers/employees/",
+   "https://www.clodura.ai/directory/company/ilf-consulting-engineers",
+   "https://greatplacetowork.ch/en/employer/ilf-consulting-engineers/"
+  ]
+ },
+ {
+  "id": "groupebarriere.com",
+  "company": "Barrière",
+  "sector_tab": "16 Travel & Hospitality",
+  "domain": "groupebarriere.com",
+  "hq": "Paris, France",
+  "ownership": "Private: 100% Desseigne-Barriere family (Alexandre Barriere, Joy Desseigne-Barriere) after buying out Fimalac's 40% (Jul 2023)",
+  "sells": "Casinos (32), luxury hotels (19, e.g. Fouquet's, Majestic, Normandy), 150+ restaurants; France, Switzerland, Morocco, Belgium, plus UAE/US expansion",
+  "headcount_band": "5,001-10,000 (~7,000, est)",
+  "revenue": "EUR 1.29B (~USD 1.4B) FY to Oct 2022 (latest found)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 3,
+  "fit_detail": "Markets: France/Switzerland/Belgium/Morocco (1); affluent leisure 25-54 (1); story: luxury, weak performance fit (0); not crowded (1)",
+  "up_and_coming": false,
+  "flags": [
+   "gambling exposure: advertising rules vary",
+   "revenue figure dated FY2022"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes filters; reservation: casino-led business with gambling marketing constraints",
+  "best_angle": "Luxury Riviera/Paris hotels map to F1's affluent Monaco-weekend audience.",
+  "sources": [
+   "https://www.groupebarriere.com/en/our-news/news/barriere-governance",
+   "https://www.journaldespalaces.com/en/pressrelease-67581-barriere-changes-its-governance-and-shareholder-structure-with-the-fourth-generation-taking-over-the-leadership-of-the-group-which-bought-out-fimalac-s-stake.html",
+   "https://www.tourmag.com/Alexandre-Barriere-prend-la-tete-du-Groupe-Barriere_a118272.html"
+  ]
+ },
+ {
+  "id": "piramalpharma.com",
+  "company": "Piramal Pharma Ltd",
+  "sector_tab": "X Pharma & Biotech",
+  "domain": "piramalpharma.com",
+  "hq": "Mumbai, India",
+  "ownership": "Listed NSE/BSE (PPLPHARMA); Piramal promoter group 34.86% (Jul 2026), not controlling",
+  "sells": "CDMO services (global), complex hospital generics, India consumer health brands",
+  "headcount_band": "5,001-10,000 (~6,000+, est)",
+  "revenue": "INR 8,869 cr (~USD 1.0B) FY26 (vs INR 9,151 cr FY25)",
+  "valuation": "Market cap ~INR 23,275 cr (~USD 2.6B), 19 Jul 2026",
+  "latest_raise": "",
+  "fit_score": 1,
+  "fit_detail": "Markets: US/Europe/India (1); pharma procurement buyers (0); story weak (0); not crowded but B2B (0)",
+  "up_and_coming": false,
+  "flags": [
+   "FY26 loss after exceptional items INR 326 cr",
+   "B2B-led; consumer health India-only"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters but B2B CDMO with domestic consumer arm and no brand motive",
+  "best_angle": "",
+  "sources": [
+   "https://www.stockezee.com/stocks/pplpharma",
+   "https://tirto.id/piramal-pharma-limited-announces-results-for-q4-and-full-year-fy26-hvdE",
+   "https://www.share.market/stocks/piramal-pharma-ltd-share/financials"
+  ]
+ },
+ {
+  "id": "atr-aircraft.com",
+  "company": "ATR",
+  "sector_tab": "X Aviation & Aerospace",
+  "domain": "atr-aircraft.com",
+  "hq": "Toulouse, France",
+  "ownership": "50/50 joint venture of Airbus and Leonardo (rotating presidency)",
+  "sells": "Regional turboprop aircraft and services to airlines worldwide",
+  "headcount_band": "1,001-5,000 (1,300+ 2017; est higher now)",
+  "revenue": "~USD 1.2B FY2025 (32 deliveries)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 1,
+  "fit_detail": "Markets: global (1); airline fleet buyers (0); story: aerospace engineering (0, B2B); not crowded (0, airline-adjacent)",
+  "up_and_coming": false,
+  "flags": [
+   "JV of Airbus/Leonardo",
+   "no F1 tie found for ATR, Airbus or Leonardo"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Hard filter 6: jointly controlled subsidiary of Airbus and Leonardo, not an independent brand",
+  "best_angle": "",
+  "sources": [
+   "https://www.atr-aircraft.com/presspost/atr-reports-strong-2025-demand-prepares-2026-ramp-up/",
+   "https://avitrader.com/2026/02/23/atr-posts-solid-2025-performance-amid-production-challenges/",
+   "https://en.wikipedia.org/wiki/ATR_(aircraft_manufacturer)"
+  ]
+ },
+ {
+  "id": "briochepasquier.com",
+  "company": "Brioche PASQUIER",
+  "sector_tab": "04 Food & Beverage",
+  "domain": "briochepasquier.com",
+  "hq": "Les Cerqueux, France",
+  "ownership": "Private, family-owned (Pasquier family)",
+  "sells": "Industrial bakery (brioche, pains au lait, pastries); ~77% France, rest UK, Spain, Italy, US, 35+ countries",
+  "headcount_band": "1,001-5,000 (3,400+, est)",
+  "revenue": "EUR 694M+ (~USD 790M) (latest group figure, undated, est)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 1,
+  "fit_detail": "Markets: UK/Spain/Italy/US (1); mass-market families (0); story weak (0); not crowded (0, mass FMCG low fit)",
+  "up_and_coming": false,
+  "flags": [
+   "domestic-led (~77% France)",
+   "group revenue undated"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters but domestic-led mass bakery brand with weak F1 fit",
+  "best_angle": "",
+  "sources": [
+   "https://my.motherbase.ai/company/71355-brioche-pasquier",
+   "https://pappers.fr/entreprise/305119125",
+   "https://www.lagazettefrance.fr/article/patisserie-pasquier-a-vron-voit-encore-plus-grand-et-recrute"
+  ]
+ },
+ {
+  "id": "promega.com",
+  "company": "Promega Corporation",
+  "sector_tab": "X Pharma & Biotech",
+  "domain": "promega.com",
+  "hq": "Madison, Wisconsin, United States",
+  "ownership": "Private (founder Bill Linton-led)",
+  "sells": "Life-science reagents, kits and instruments; branches in 16 countries, distributors in 100",
+  "headcount_band": "1,001-5,000 (~1,900, Dec 2025)",
+  "revenue": "~USD 450-700M (est, aggregators; unpublished)",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 1,
+  "fit_detail": "Markets: global (1); lab scientists (0); story weak (0); not crowded but B2B (0)",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route (est range USD 450-700M)",
+   "B2B scientist buyers"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes on estimated revenue but B2B life-science supplier with no brand motive",
+  "best_angle": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Promega",
+   "https://www.reveliolabs.com/companies/promega/employees/",
+   "https://intuitionlabs.ai/companies/biotech/promega-corporation"
+  ]
+ },
+ {
+  "id": "stago.com",
+  "company": "Stago",
+  "sector_tab": "X Medtech",
+  "domain": "stago.com",
+  "hq": "Asnieres-sur-Seine, France",
+  "ownership": "PE-owned: ARCHIMED-led consortium with La Caisse minority, acquired from founding family (closed ~Apr 2026)",
+  "sells": "Haemostasis/thrombosis diagnostic analysers and reagents in 115 countries",
+  "headcount_band": "1,001-5,000 (~2,600, Dec 2025)",
+  "revenue": "EUR 550M (~USD 630M) FY2025",
+  "valuation": "",
+  "latest_raise": "",
+  "fit_score": 1,
+  "fit_detail": "Markets: global (1); hospital lab buyers (0); story weak (0); not crowded but B2B (0)",
+  "up_and_coming": false,
+  "flags": [
+   "PE buyout by ARCHIMED 2026",
+   "B2B lab buyers"
+  ],
+  "verdict": "Low-value",
+  "verdict_reason": "Passes filters (standalone after PE buyout) but B2B diagnostics with no brand motive",
+  "best_angle": "",
+  "sources": [
+   "https://www.lacaisse.com/en/node/13246",
+   "https://www.stago.com/news/focus-on-haemostasis/detail/article/stago-enters-into-exclusive-negotiations-with-archimed-and/",
+   "https://www.bnnbloomberg.ca/business/2026/04/29/la-caisse-and-archimed-diagnostics-buy-french-company-stago/"
+  ]
+ }
+]

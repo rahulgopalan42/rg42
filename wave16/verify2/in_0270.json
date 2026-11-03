@@ -1,0 +1,122 @@
+[
+{
+"id": "baclcorp.com.cn",
+"company": "Bay Area Compliance Lab Corp Shenzhen",
+"sector": "31 GRC & Risk SW",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; testing lab Shenzhen"
+},
+{
+"id": "anzhenggroup.com",
+"company": "安正时尚集团",
+"sector": "53 Consumer & Lifestyle",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese fashion group"
+},
+{
+"id": "owndays.com",
+"company": "OWNDAYS CO LTD",
+"sector": "X06 Retail & E-commerce",
+"country": "Japan",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Japanese eyewear chain"
+},
+{
+"id": "stronachgroup.com",
+"company": "The Stronach Group",
+"sector": "NEW Gambling & Lotteries",
+"country": "Canada",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; horse racing group"
+},
+{
+"id": "sitronics.com",
+"company": "NVision Group",
+"sector": "25 IT Services & Consulting",
+"country": "Россия",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "NVision Group",
+"triage_note": "real; fit 1; scale mid; Russian tech supplier"
+},
+{
+"id": "macromill.com",
+"company": "MACROMILL, INC.",
+"sector": "07 Marketing & Sales",
+"country": "Japan",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; market research Japan"
+},
+{
+"id": "nordomatic.com",
+"company": "Nordomatic",
+"sector": "25 IT Services & Consulting",
+"country": "Sweden",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; smart buildings firm"
+},
+{
+"id": "conprofecnc.com",
+"company": "Conprofe Technology Group Co., Ltd.",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese energy equipment"
+},
+{
+"id": "senacor.com",
+"company": "Senacor Technologies",
+"sector": "25 IT Services & Consulting",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; IT consultancy Germany"
+},
+{
+"id": "cosmicpvpower.com",
+"company": "Cosmic PV Power Limited",
+"sector": "27 Chip Makers",
+"country": "India",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Indian solar modules"
+}
+]

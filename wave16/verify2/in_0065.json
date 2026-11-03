@@ -1,0 +1,122 @@
+[
+{
+"id": "energylandia.pl",
+"company": "Park Rozrywki Energylandia",
+"sector": "29 Tech Media & Gaming",
+"country": "Poland",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Polish theme park"
+},
+{
+"id": "recordtv.com.br",
+"company": "RecordTV Comunicação",
+"sector": "29 Tech Media & Gaming",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Grupo Record",
+"triage_note": "real; fit 1; scale mid; Brazilian TV network"
+},
+{
+"id": "eye-lashes.com",
+"company": "Royal Korindah",
+"sector": "03 Luxury & Beauty",
+"country": "Indonesia",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; eyelash manufacturer"
+},
+{
+"id": "hellopower-global.com",
+"company": "HelloPower",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Partnership",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; two-wheeler EV provider"
+},
+{
+"id": "ocic.com.kh",
+"company": "OCIC",
+"sector": "X02 Real Estate & Building Products",
+"country": "Cambodia",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Cambodian property developer"
+},
+{
+"id": "btproperties.ae",
+"company": "BT Properties",
+"sector": "19 Gulf Sovereign & Tourism",
+"country": "United Arab Emirates",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Dubai property developer"
+},
+{
+"id": "softcomputer.com",
+"company": "SCC Soft Computer",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; lab information systems"
+},
+{
+"id": "fitocosmetic.ru",
+"company": "FITOCOSMETIC",
+"sector": "03 Luxury & Beauty",
+"country": "Russia",
+"type": "Self Owned",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Russian natural cosmetics"
+},
+{
+"id": "com40.pl",
+"company": "Grupa Com40",
+"sector": "49 Home & Living",
+"country": "Poland",
+"type": "Partnership",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Polish upholstered furniture"
+},
+{
+"id": "dtcdtc.com",
+"company": "DTC Hardware",
+"sector": "49 Home & Living",
+"country": "China",
+"type": "Partnership",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese hardware maker"
+}
+]

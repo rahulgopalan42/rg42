@@ -1,0 +1,305 @@
+[
+ {
+  "id": "big.dk",
+  "company": "BIG - Bjarke Ingels Group",
+  "sector_tab": "39 Construction & Field Svc",
+  "domain": "big.dk",
+  "hq": "Copenhagen, Denmark (major office New York)",
+  "ownership": "Private, founder/partner-owned (Bjarke Ingels; B.I.G. Bjarke Ingels Group Holding ApS)",
+  "sells": "Architecture, landscape, engineering, urban planning and product design services",
+  "headcount_band": "501-1,000 (700+ per company site, Dec 2025)",
+  "revenue": "Bjarke Ingels Group A/S DKK 397.5M (~USD 58M) 2024 (aggregator of Danish filings); group incl. NY/London/Barcelona est USD ~100-150M (est); third-party est USD 92-102M",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a (none)",
+  "fit_score": 3,
+  "fit_detail": "Offices/projects in 3+ F1 markets (DK, US, UK, ES, CN, SA) = 1; senior B2B / developer buyers = 1; design/innovation global-ambition story = 1; category uncrowded but audience is clients not consumers - weak brand-sponsorship motive = 0",
+  "up_and_coming": false,
+  "flags": [
+   "scale not verified - group revenue est below USD 150M",
+   "UK office loss GBP 4.2M after Saudi project halted",
+   "no F1 tie found"
+  ],
+  "verdict": "No",
+  "verdict_reason": "Scale: no route met - Danish A/S revenue DKK 397.5M (~USD 58M, 2024), group est ~USD 100-150M, no valuation or raise; otherwise 700+ staff, no F1 tie found",
+  "best_angle": "",
+  "sources": [
+   "https://estatistik.dk/virksomhed/bjarke-ingels-group-as/29309396",
+   "https://companydata.dk/en/claim/29309396",
+   "https://en.wikipedia.org/wiki/Bjarke_Ingels_Group",
+   "https://www.building.co.uk/news/uk-office-of-big-sinks-to-42m-loss-in-wake-of-largest-project-being-stopped/5143156.article",
+   "https://www.reveliolabs.com/companies/big/employees"
+  ]
+ },
+ {
+  "id": "populous.com",
+  "company": "Populous",
+  "sector_tab": "39 Construction & Field Svc",
+  "domain": "populous.com",
+  "hq": "Kansas City, Missouri, USA",
+  "ownership": "Private, management-owned (led by CEO Bruce Miller and Earl Santee)",
+  "sells": "Architecture and design for stadiums, arenas, motorsport circuits, convention centres and major events",
+  "headcount_band": "1,001-5,000 (1,600+ in 35 offices per company, May 2026; Revelio ~1,980 2025)",
+  "revenue": "Contract revenue USD 552.4M 2025 (company, May 2026); USD 187.8M 2020",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a (none)",
+  "fit_score": 4,
+  "fit_detail": "35 offices incl. US, UK, AU, SG, CN, UAE, SA, BR = 1; senior B2B buyers (team owners, promoters, governments) = 1; precision venue design / global events story = 1; architecture uncrowded on grid = 1",
+  "up_and_coming": true,
+  "flags": [
+   "lapsed: designed Silverstone Arena circuit layout (2010) - confirm no current GP/circuit commission before outreach",
+   "London Grand Prix concept study for Santander (not an F1 deal)",
+   "~3x contract revenue growth 2020-2025 (~24%/yr)",
+   "B2B, limited consumer brand motive"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (contract revenue USD 552.4M 2025, 1,600+ staff, no distress, independent); capped at Stretch for lapsed motorsport-circuit design link (Silverstone) - confirm before outreach",
+  "best_angle": "As the designer pitching new street-race and circuit concepts (London GP study, Rio motorsport park), F1 hospitality would put Populous in front of the promoters, owners and governments who commission venues.",
+  "sources": [
+   "https://populous.com/article/earl-santee-bruce-miller-named-entrepreneur-of-the-year-2026-heartland-finalists-by-ey-us",
+   "https://www.reveliolabs.com/companies/populous/employees",
+   "https://building.co.uk/news/images-british-grand-prix-to-hit-new-silverstone-circuit/3158075.article",
+   "https://www.cladglobal.com/CLADnews/architecture-design/Santander-unveils-Populous-designed-vision-for-London-Grand-Prix-/301648",
+   "https://www.stadiaworld.com/company/103883/populous"
+  ]
+ },
+ {
+  "id": "dimensional.com",
+  "company": "Dimensional Fund Advisors",
+  "sector_tab": "X Asset Mgmt & PE",
+  "domain": "dimensional.com",
+  "hq": "Austin, Texas, USA",
+  "ownership": "Private, owned by employees and directors (founder David Booth)",
+  "sells": "Systematic/evidence-based mutual funds, ETFs and separate accounts via financial advisors and institutions",
+  "headcount_band": "1,001-5,000 (1,600+ in 15+ offices, 2026)",
+  "revenue": "~USD 2-3B (est, 2026, private; implied by ~USD 1.08T AUM at ~0.2-0.25% fees)",
+  "valuation": "n/a (private); AUM ~USD 1.08T (30 Jun 2026, Zacks/Nasdaq); USD 969B (31 Mar 2026, company)",
+  "latest_raise": "n/a (none)",
+  "fit_score": 3,
+  "fit_detail": "Offices/clients in US, UK, AU, JP, CA, NL, SG, DE = 1; affluent investors and senior advisor/institutional buyers = 1; precision/evidence-based investing story = 1; finance/wealth category crowded on grid (UBS, Santander, Amex) = 0",
+  "up_and_coming": false,
+  "flags": [
+   "revenue unpublished (est)",
+   "advisor-led, historically low-key brand marketing"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (revenue est USD 2B+, AUM ~USD 1.08T Jun 2026, 1,600+ staff, independent, no F1 tie found); reservation: low marketing motive in a crowded finance category",
+  "best_angle": "Dimensional's rapid ETF growth past USD 1T AUM gives it a reason to build brand awareness with affluent investors and advisors in the US, UK, Japan and Australia.",
+  "sources": [
+   "https://www.nasdaq.com/articles/3-dimensional-mutual-funds-poised-deliver-solid-gains",
+   "https://www.dimensional.com/chmedia/494082/source/download/us-large-cap-equity-portfolio-dusqx-shelf-book_edj.pdf",
+   "https://www.thewealthadvisor.com/article/dimensional-fund-advisors-add-800-employees"
+  ]
+ },
+ {
+  "id": "colehaan.com",
+  "company": "Cole Haan",
+  "sector_tab": "53 Consumer & Lifestyle",
+  "domain": "colehaan.com",
+  "hq": "Greenland, New Hampshire, USA",
+  "ownership": "Private, majority-owned by funds advised by Apax Partners (since Feb 2013, ex-Nike)",
+  "sells": "Premium footwear, bags, outerwear and accessories (ZERØGRAND, Grand.OS comfort-tech lines)",
+  "headcount_band": "1,001-5,000 (~1,650 per Revelio, Dec 2025)",
+  "revenue": "USD 687M FY2019 (S-1/Bloomberg, last disclosed); ~USD 738M LTM (IPOScoop, undated)",
+  "valuation": "n/a (private; acquired for USD 570M in 2013); IPO withdrawn 2020",
+  "latest_raise": "n/a (PE-owned)",
+  "fit_score": 4,
+  "fit_detail": "Sells in US, Canada, Japan, Korea, UK and other F1 markets = 1; affluent 25-54 professionals = 1; comfort-technology / engineered footwear story = 1; footwear/lifestyle not crowded (apparel partners exist but not on zero list) = 1",
+  "up_and_coming": false,
+  "flags": [
+   "revenue last disclosed FY2019 (USD 687M) - current figure unverified",
+   "Apax holding since 2013 - possible exit/sale"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (revenue USD 687M FY2019 / ~USD 738M LTM, ~1,650 staff, no F1 tie found); reservation: no current revenue disclosure since the withdrawn 2020 IPO",
+  "best_angle": "With fashion brands moving into F1 (Tommy Hilfiger, BOSS, Gucci), Cole Haan could use F1's affluent US and Asian audience to reposition its comfort-tech footwear.",
+  "sources": [
+   "https://www.iposcoop.com/ipo/cole-haan/",
+   "https://mr-mag.com/cole-haan-to-go-public/",
+   "https://www.reveliolabs.com/companies/cole-haan/employees/",
+   "https://www.apax.com/news-views/apax-completes-acquisiton-of-cole-haan/",
+   "https://www.thezoereport.com/fashion/gucci-formula-1-title-partner-alpine"
+  ]
+ },
+ {
+  "id": "executivecentre.com",
+  "company": "The Executive Centre",
+  "sector_tab": "X Real Estate",
+  "domain": "executivecentre.com",
+  "hq": "Hong Kong",
+  "ownership": "Private, founder-led group (Paul Salnikow); Indian arm Executive Centre India preparing IPO",
+  "sells": "Premium serviced offices, coworking and meeting space in Asia-Pacific, Middle East and Australia",
+  "headcount_band": "1,001-5,000 (~1,200 est)",
+  "revenue": "Group USD 315M FY2023 (screen figure); India arm revenue from operations INR 1,322.6 crore (~USD 155M) FY2025, +27.6% YoY (DRHP)",
+  "valuation": "n/a (India IPO of INR 2,600 crore approved by SEBI Jan 2026; listing not confirmed)",
+  "latest_raise": "India IPO pending (INR 2,600 crore fresh issue, SEBI nod Jan 2026)",
+  "fit_score": 4,
+  "fit_detail": "Centres in JP, SG, CN, AU, UAE, SA, QA, IN = 1; senior executives and affluent professionals = 1; premium, global-expansion story = 1; flex office uncrowded on grid = 1",
+  "up_and_coming": true,
+  "flags": [
+   "USD 150-500M revenue route",
+   "India arm IPO pending 2026",
+   "India arm net loss INR 80.6 crore FY2025"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters on the USD 150-500M revenue route (group USD 315M FY2023; India alone ~USD 155M FY2025), ~1,200 staff, no F1 tie found; capped at Stretch by revenue route",
+  "best_angle": "TEC's footprint matches the Asian and Gulf race calendar (Singapore, Shanghai, Suzuka, Abu Dhabi, Jeddah, Lusail), and an India IPO gives it a reason to raise brand profile now.",
+  "sources": [
+   "https://www.business-standard.com/markets/ipo/executive-centre-india-gets-sebi-nod-for-2-600-cr-ipo-check-key-details-126011400535_1.html",
+   "https://hdfcsky.com/news/executive-centre-india-files-drhp-for-ipo",
+   "https://www.angelone.in/news/ipos/ipo-alert-executive-centre-india-files-drhp-with-sebi-to-raise-2-600-crore"
+  ]
+ },
+ {
+  "id": "odgers.com",
+  "company": "Odgers (formerly Odgers Berndtson)",
+  "sector_tab": "20 Staffing & Talent",
+  "domain": "odgers.com",
+  "hq": "London, UK",
+  "ownership": "Private, partner-owned",
+  "sells": "Executive search, interim management and leadership advisory in 30+ countries",
+  "headcount_band": "1,001-5,000 (~1,100 per Revelio, 2025)",
+  "revenue": "~GBP 250M (~USD 320M) (est, 2024; unpublished)",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a (none)",
+  "fit_score": 3,
+  "fit_detail": "Offices in 30+ countries incl. UK, US, CA, DE, ES, SG, AU = 1; senior B2B buyers (boards, CEOs) = 1; talent/leadership story fits global ambition only loosely = 0; executive search uncrowded on grid = 1",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route",
+   "revenue unverified (est)",
+   "2025 rebrand to Odgers",
+   "B2B, modest marketing budget"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters on estimated USD 150-500M revenue route (~GBP 250M est), ~1,100 staff, no F1 tie found; capped at Stretch (revenue unverified)",
+  "best_angle": "The 2025 rebrand to Odgers needs awareness among the board-level executives F1 hospitality reaches, and its sports practice already serves FIFA and the IOC.",
+  "sources": [
+   "https://www.reveliolabs.com/companies/odgers-berndtson/employees/",
+   "https://leadiq.com/c/odgers/5a1d95f12300005c00848d62",
+   "https://www.odgersberndtson.com/nl-nl/mensen/jaspar-topham"
+  ]
+ },
+ {
+  "id": "messefrankfurt.com",
+  "company": "Messe Frankfurt GmbH",
+  "sector_tab": "X Live Events & Ticketing",
+  "domain": "messefrankfurt.com",
+  "hq": "Frankfurt am Main, Germany",
+  "ownership": "Publicly owned GmbH: City of Frankfurt 60%, State of Hesse 40%",
+  "sells": "Trade fairs, congresses and events worldwide (Automechanika, Ambiente, Heimtextil, Light + Building, ISH) and venue operation",
+  "headcount_band": "1,001-5,000 (2,623 active staff, 31 Dec 2025)",
+  "revenue": "EUR 766M (~USD 860M) 2025 (EUR 775M 2024); 2026 guided just under EUR 800M (Jun 2026)",
+  "valuation": "n/a (state-owned); equity EUR 649.3M (2025)",
+  "latest_raise": "n/a",
+  "fit_score": 4,
+  "fit_detail": "Events in DE, CN, US, JP, UAE, BR, IT and more = 1; senior B2B buyers (exhibitors, trade visitors) = 1; global-ambition story, Automechanika gives automotive relevance = 1; trade-fair category uncrowded on grid = 1",
+  "up_and_coming": false,
+  "flags": [
+   "municipal/state ownership - public-procurement and sponsorship approvals likely",
+   "2025 net income fell to EUR 42M (EUR 82M 2024); will miss EUR 839M 2026 target",
+   "B2B, weak consumer motive"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters (revenue EUR 766M 2025, 2,623 staff, no distress, no F1 tie found); reservation: publicly owned B2B organiser with tightening budgets",
+  "best_angle": "Automechanika's global aftermarket audience aligns with F1 technology, and F1 hospitality could help Messe Frankfurt win exhibitors as German trade-fair budgets tighten.",
+  "sources": [
+   "https://kongres-magazine.eu/2026/06/messe-frankfurt-holds-its-own-in-challenging-times/",
+   "https://www.messefrankfurt.com/content/dam/messefrankfurt-redaktion/corporate/press/2026-06-pk/20260624-messe-frankfurt-holds-its-own-in-challenging-times.pdf",
+   "https://us.messefrankfurt.com/content/dam/messefrankfurt-usa/corporate-usa/pdfs/annualreports/annual-report-messe-frankfurt-2025.pdf",
+   "https://fashionunited.de/nachrichten/business/messe-frankfurt-macht-im-inland-kaum-noch-gewinn/2026062467355"
+  ]
+ },
+ {
+  "id": "apextraderfunding.com",
+  "company": "Apex Trader Funding",
+  "sector_tab": "12 Trading & Crypto",
+  "domain": "apextraderfunding.com",
+  "hq": "Austin, Texas, USA",
+  "ownership": "Private, founder-owned (Darrell Martin)",
+  "sells": "Futures prop-trading evaluation accounts and funded-trader payouts to retail traders worldwide",
+  "headcount_band": "201-500 (est; sources conflict: 65 to 1,324)",
+  "revenue": "Undisclosed; ~USD 300-400M/yr (est, 2025) implied by claimed USD 660-819M cumulative payouts since 2022 at ~50% of revenue; Prospeo est USD 69.5M",
+  "valuation": "n/a (private)",
+  "latest_raise": "n/a (none)",
+  "fit_score": 2,
+  "fit_detail": "Retail traders in many F1 markets = 1; audience mainly younger male retail traders, not affluent 25-54 = 0; performance/precision trading story = 1; trading/broker category increasingly crowded on grid = 0",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route (est)",
+   "scale unverified - revenue and headcount sources conflict",
+   "regulatory/reputation risk: unregulated prop model, payout-denial disputes, CFTC scrutiny of sector"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes on an estimated USD 150-500M revenue route (unverified, est from payout claims), 51+ staff (est), no F1 tie found; capped at Stretch with reputational/regulatory risk",
+  "best_angle": "",
+  "sources": [
+   "https://propfirmmap.com/blog/apex-trader-funding-review-2026-payouts-profit-split-otp",
+   "https://www.reveliolabs.com/companies/apex-trader-funding/employees",
+   "https://prospeo.io/c/apex-trader-funding",
+   "https://www.imantrading.org/firmfaq/apex-trader-funding-problems",
+   "https://pickmytrade.io/prop-firm-faq/apex-trader-funding"
+  ]
+ },
+ {
+  "id": "mcarthurglen.com",
+  "company": "McArthurGlen Group",
+  "sector_tab": "X Real Estate",
+  "domain": "mcarthurglen.com",
+  "hq": "London, UK",
+  "ownership": "Private; founded by Kaempfer partners (J.W. Kaempfer chairman); Simon Property Group JV/stake since 2013 (share undisclosed)",
+  "sells": "Designer outlet centres (~22 destinations in UK, IT, AT, NL, ES, FR, DE, GR, CA) - development, ownership and management",
+  "headcount_band": "1,001-5,000 (~1,000+ est)",
+  "revenue": "Company revenue undisclosed; est USD 150-500M (est); brand sales across centres >EUR 4B (record, company)",
+  "valuation": "n/a (private; Simon paid ~USD 569M for its stake in 2013)",
+  "latest_raise": "n/a",
+  "fit_score": 3,
+  "fit_detail": "Centres in UK, IT, AT, NL, ES, FR, CA = 1; affluent luxury/premium shoppers 25-54 = 1; story is value retail, not performance/technology = 0; outlet retail uncrowded on grid = 1",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route (est)",
+   "revenue unverified",
+   "portfolio shrinking: Swindon, East Midlands, York sold to Frasers 2025-26; Berlin sold May 2025",
+   "hosted F1 x BOSS (Aston Martin apparel) activation at West Midlands centre, 2026 - tenant activation, not an F1 deal",
+   "Red Bull/AlphaTauri store at Parndorf - tenant, not a tie"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes hard filters on estimated revenue route (unverified), 1,000+ staff, no F1 partner deal found; capped at Stretch with portfolio disposals and unverified revenue",
+  "best_angle": "McArthurGlen already runs F1-themed activations with tenant brands and could formalise this into GP-linked luxury shopping experiences near European race venues.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/McArthurGlen_Group",
+   "https://www.mcarthurglen.com/en/news/2026-summer-of-sport/",
+   "https://www.ibj.com/articles/41724-simon-to-buy-569m-stake-in-european-mall-operator",
+   "https://old.across-magazine.com/?p=94863"
+  ]
+ },
+ {
+  "id": "flextrade.com",
+  "company": "FlexTrade",
+  "sector_tab": "12 Trading & Crypto",
+  "domain": "flextrade.com",
+  "hq": "Great Neck, New York, USA",
+  "ownership": "Private, founder-owned (Vijay Kedia); no outside funding reported",
+  "sells": "Multi-asset execution and order management trading systems (FlexTRADER EMS, FlexOMS) for buy-side and sell-side firms",
+  "headcount_band": "501-1,000 (~864 per Revelio, Sep 2025)",
+  "revenue": "~USD 120-375M (third-party est, 2025); Prospeo est USD 120M",
+  "valuation": "n/a (private; Prospeo est USD 384M)",
+  "latest_raise": "n/a (none)",
+  "fit_score": 3,
+  "fit_detail": "Offices/clients in US, UK, SG, AU, IN, JP = 1; senior B2B buyers (trading heads, CTOs) = 1; speed/precision execution technology story = 1; trading-tech category with grid fintech/trading brands present - partial, scored 0",
+  "up_and_coming": false,
+  "flags": [
+   "USD 150-500M revenue route (est)",
+   "revenue unverified - may be below USD 150M",
+   "B2B niche, limited brand ambition"
+  ],
+  "verdict": "Stretch",
+  "verdict_reason": "Passes only on an estimated revenue range (USD 120-375M, unverified), ~864 staff, no F1 tie found; capped at Stretch and at risk of failing scale",
+  "best_angle": "",
+  "sources": [
+   "https://www.reveliolabs.com/companies/flextrade-systems/employees",
+   "https://prospeo.io/c/flextrade-revenue",
+   "https://leadiq.com/c/flextrade/5a1d82c124000024005d79ce/employee-directory",
+   "https://www.businesswire.com/news/home/20240220657006/de"
+  ]
+ }
+]

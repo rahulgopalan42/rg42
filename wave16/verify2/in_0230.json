@@ -1,0 +1,122 @@
+[
+{
+"id": "ktl.com.hk",
+"company": "KTL Jewellery Manufacturer Ltd.",
+"sector": "03 Luxury & Beauty",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; jewelry exporter"
+},
+{
+"id": "ellassay.com",
+"company": "Ellassay",
+"sector": "03 Luxury & Beauty",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "ESCADA",
+"triage_note": "real; fit 1; scale mid; Chinese luxury fashion"
+},
+{
+"id": "transwarp.cn",
+"company": "Transwarp",
+"sector": "22 SaaS",
+"country": "Singapore",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese big data platform"
+},
+{
+"id": "chcedo.com",
+"company": "自然堂",
+"sector": "03 Luxury & Beauty",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Jala Group",
+"triage_note": "real; fit 1; scale mid; Chinese skincare brand"
+},
+{
+"id": "centralmegakencana.com",
+"company": "PT. Central Mega Kencana",
+"sector": "03 Luxury & Beauty",
+"country": "Indonesia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Indonesian luxury retailer"
+},
+{
+"id": "yatsenglobal.com",
+"company": "Yatsen Group",
+"sector": "03 Luxury & Beauty",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese beauty group"
+},
+{
+"id": "colopl.co.jp",
+"company": "COLOPL Inc.",
+"sector": "29 Tech Media & Gaming",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Japanese mobile games"
+},
+{
+"id": "hypoport.de",
+"company": "Hypoport SE",
+"sector": "22 SaaS",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; German fintech platforms"
+},
+{
+"id": "viaplaygroup.com",
+"company": "Viaplay Group",
+"sector": "29 Tech Media & Gaming",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Nordic streaming"
+},
+{
+"id": "tslj.com",
+"company": "TSL Jewellery",
+"sector": "03 Luxury & Beauty",
+"country": "Macao",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Hong Kong jeweller"
+}
+]

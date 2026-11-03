@@ -1,0 +1,122 @@
+[
+{
+"id": "globalsources.com",
+"company": "Global Sources",
+"sector": "22 SaaS",
+"country": "Hong Kong",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; B2B trade platform"
+},
+{
+"id": "cerence.ai",
+"company": "Cerence AI",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; automotive voice AI"
+},
+{
+"id": "commerce.com",
+"company": "Commerce",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "BigCommerce",
+"triage_note": "real; fit 2; scale mid; e-commerce platform"
+},
+{
+"id": "atlanticwatches.ch",
+"company": "Atlantic Watches",
+"sector": "03 Luxury & Beauty",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Swiss watch brand"
+},
+{
+"id": "babor-beauty-group.com",
+"company": "BABOR BEAUTY GROUP",
+"sector": "03 Luxury & Beauty",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; family-owned skincare group"
+},
+{
+"id": "wkruk.pl",
+"company": "W.KRUK S.A.",
+"sector": "03 Luxury & Beauty",
+"country": "Poland",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Polish jewelry and watch retailer"
+},
+{
+"id": "composecure.com",
+"company": "CompoSecure",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; metal payment cards"
+},
+{
+"id": "hk970.com",
+"company": "Sparkle Roll Group",
+"sector": "03 Luxury & Beauty",
+"country": "中华人民共和国",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; China luxury goods distributor"
+},
+{
+"id": "mormaii.com.br",
+"company": "MORMAII",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "Brazil",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; Brazilian surf and sports brand"
+},
+{
+"id": "psi.de",
+"company": "PSI Software",
+"sector": "22 SaaS",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 2; scale mid; German industrial software"
+}
+]

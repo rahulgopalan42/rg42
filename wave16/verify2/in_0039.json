@@ -1,0 +1,122 @@
+[
+{
+"id": "mes.co.jp",
+"company": "MITSUI E&S Hydrogen Team",
+"sector": "23 Machine Tools",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Mitsui E&S Co.",
+"triage_note": "real; fit 1; scale large; Japanese shipbuilding/machinery"
+},
+{
+"id": "matasgroup.com",
+"company": "Matas Group",
+"sector": "X06 Retail & E-commerce",
+"country": "Denmark",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Nordic beauty retailer"
+},
+{
+"id": "aboutyou.de",
+"company": "ABOUT YOU",
+"sector": "X06 Retail & E-commerce",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Zalando",
+"triage_note": "real; fit 1; scale large; fashion e-commerce, Zalando owned"
+},
+{
+"id": "macfehd.co.jp",
+"company": "Macnica Fuji Electronics Holdings Inc",
+"sector": "25 IT Services & Consulting",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Japanese tech distributor"
+},
+{
+"id": "thtf.com.cn",
+"company": "Tsinghua Tongfang",
+"sector": "25 IT Services & Consulting",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "China National Nuclear Corporation",
+"triage_note": "real; fit 1; scale large; Chinese IT group"
+},
+{
+"id": "xxl.no",
+"company": "XXL",
+"sector": "53 Consumer & Lifestyle",
+"country": "Norway",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Frasers Group",
+"triage_note": "real; fit 1; scale large; Nordic sports retailer"
+},
+{
+"id": "sbicard.com",
+"company": "SBI Card",
+"sector": "09 Fintech",
+"country": "India",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "State Bank of India (~69%)",
+"triage_note": "real; fit 1; scale large; Indian card issuer"
+},
+{
+"id": "netone.co.jp",
+"company": "ネットワンシステムズ(株)",
+"sector": "25 IT Services & Consulting",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Sumitomo Corporation",
+"triage_note": "real; fit 1; scale large; Japanese network integrator"
+},
+{
+"id": "vng.com.vn",
+"company": "VNG Vietnam",
+"sector": "22 SaaS",
+"country": "Vietnam",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Vietnamese internet firm"
+},
+{
+"id": "hkt.com",
+"company": "HKT",
+"sector": "22 SaaS",
+"country": "Hong Kong",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "HKT Trust / PCCW",
+"triage_note": "real; fit 1; scale large; Hong Kong telecom"
+}
+]

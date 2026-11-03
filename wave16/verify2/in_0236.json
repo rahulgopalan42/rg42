@@ -1,0 +1,122 @@
+[
+{
+"id": "asicentral.com",
+"company": "Advertising Specialty Institute",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "201-500",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; promo products media"
+},
+{
+"id": "origamiowl.com",
+"company": "Origami Owl",
+"sector": "03 Luxury & Beauty",
+"country": "United States",
+"type": "Privately Held",
+"staff": "51-200",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; direct selling jewellery"
+},
+{
+"id": "mingyuanyun.com",
+"company": "Mingyuanyun.com",
+"sector": "22 SaaS",
+"country": "China",
+"type": "Privately Held",
+"staff": "1",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; property SaaS China"
+},
+{
+"id": "fout.co.jp",
+"company": "FreakOut Holdings, inc.",
+"sector": "25 IT Services & Consulting",
+"country": "Japan",
+"type": "Public Company",
+"staff": "",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Japanese adtech"
+},
+{
+"id": "",
+"company": "Hangzhou Songcheng Tourism Development Co., Ltd.",
+"sector": "16 Travel & Hospitality",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese theme parks"
+},
+{
+"id": "aoielectronics.com",
+"company": "Aoi Electronics Co., Ltd.",
+"sector": "45 Electronic Parts",
+"country": "Japan",
+"type": "Public Company",
+"staff": "2-10",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; microphone maker"
+},
+{
+"id": "cooltechsh.com",
+"company": "Shanghai Cooltech Power Co., Ltd.",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; power supplies"
+},
+{
+"id": "septwolves.com",
+"company": "Fujian Septwolves Industry Co., Ltd.",
+"sector": "53 Consumer & Lifestyle",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; Chinese menswear"
+},
+{
+"id": "unistrong.com",
+"company": "Beijing Unistrong Science&Technology Co., Ltd.",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "1",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; positioning tech"
+},
+{
+"id": "hnyj-cn.com",
+"company": "Yujing Machinery International",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; machinery maker"
+}
+]

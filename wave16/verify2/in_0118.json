@@ -1,0 +1,122 @@
+[
+{
+"id": "",
+"company": "tw telecom",
+"sector": "48 Telecom & Space",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; African luxury safari operator"
+},
+{
+"id": "olentreprises.com",
+"company": "Olympique Lyonnais Groupe",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "France",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Eagle Football Group",
+"triage_note": "real; fit 3; scale mid; French football club"
+},
+{
+"id": "acast.com",
+"company": "Acast",
+"sector": "29 Tech Media & Gaming",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; podcast platform"
+},
+{
+"id": "kx.com",
+"company": "KX",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "FD Technologies",
+"triage_note": "real; fit 3; scale mid; capital markets database"
+},
+{
+"id": "nucleussoftware.com",
+"company": "Nucleus Software",
+"sector": "22 SaaS",
+"country": "India",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; lending software India"
+},
+{
+"id": "altrata.com",
+"company": "Altrata",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; HNW data and intelligence"
+},
+{
+"id": "qt.io",
+"company": "Qt Group",
+"sector": "22 SaaS",
+"country": "Finland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; cross-platform dev framework"
+},
+{
+"id": "waldencast.com",
+"company": "Waldencast",
+"sector": "03 Luxury & Beauty",
+"country": "United States",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; beauty brand holding company"
+},
+{
+"id": "maag.com",
+"company": "MAAG Group",
+"sector": "23 Machine Tools",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; pumps and gears"
+},
+{
+"id": "kendrion.com",
+"company": "Kendrion",
+"sector": "23 Machine Tools",
+"country": "Netherlands",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; electromagnetic systems"
+}
+]

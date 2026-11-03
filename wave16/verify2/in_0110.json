@@ -1,0 +1,122 @@
+[
+{
+"id": "hansme.net",
+"company": "Han's Laser Smart Equipment Group Co., Ltd.",
+"sector": "52 Photonics & Optical",
+"country": "China",
+"type": "Partnership",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Han's Laser Group",
+"triage_note": "real; fit 3; scale large; Chinese laser equipment maker"
+},
+{
+"id": "mayekawa.co.jp",
+"company": "(株)前川製作所",
+"sector": "23 Machine Tools",
+"country": "Japan",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; Japanese industrial refrigeration maker"
+},
+{
+"id": "skydance.com",
+"company": "Skydance",
+"sector": "29 Tech Media & Gaming",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Paramount Skydance",
+"triage_note": "real; fit 3; scale large; film and TV producer"
+},
+{
+"id": "marineharvest.com",
+"company": "Marine Harvest Group",
+"sector": "04 Food & Beverage",
+"country": "Norway",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; renamed Mowi"
+},
+{
+"id": "bat.com",
+"company": "BAT",
+"sector": "NEW Other",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; tobacco, existing F1 partner"
+},
+{
+"id": "mediapro.tv",
+"company": "GRUP MEDIAPRO",
+"sector": "29 Tech Media & Gaming",
+"country": "Spain",
+"type": "Self Owned",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; Spanish audiovisual and sports group"
+},
+{
+"id": "ieisystem.com",
+"company": "IEIT SYSTEMS",
+"sector": "25 IT Services & Consulting",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; servers and AI computing"
+},
+{
+"id": "narigroup.com",
+"company": "NARI Group Corporation",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Partnership",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "State Grid",
+"triage_note": "real; fit 3; scale large; power grid equipment"
+},
+{
+"id": "astonmartin.com",
+"company": "Aston Martin Lagonda Ltd",
+"sector": "43 Mobility & Automotive",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; F1 team luxury carmaker"
+},
+{
+"id": "bajajmobility.com",
+"company": "Bajaj Mobility",
+"sector": "43 Mobility & Automotive",
+"country": "Austria",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Bajaj Auto",
+"triage_note": "real; fit 3; scale large; KTM motorcycle group"
+}
+]

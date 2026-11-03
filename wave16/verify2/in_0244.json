@@ -1,0 +1,122 @@
+[
+{
+"id": "clevelandcable.com",
+"company": "Cleveland Cable Company",
+"sector": "44 Grid & Transformers",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; cable supplier"
+},
+{
+"id": "bellmer.com",
+"company": "Bellmer",
+"sector": "23 Machine Tools",
+"country": "Germany",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; paper machinery"
+},
+{
+"id": "tradedoubler.com",
+"company": "Tradedoubler",
+"sector": "07 Marketing & Sales",
+"country": "Sweden",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; affiliate marketing"
+},
+{
+"id": "avon-protection.com",
+"company": "Avon Protection",
+"sector": "32 Defense & Industrial AI",
+"country": "United States",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Avon Technologies",
+"triage_note": "real; fit 1; scale mid; CBRN protection"
+},
+{
+"id": "avalue.com",
+"company": "Avalue Technology",
+"sector": "45 Electronic Parts",
+"country": "Taiwan",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; industrial computers"
+},
+{
+"id": "goldenyh.com",
+"company": "Foshan Golden Milky Way Intelligent Equipment Co., Ltd.",
+"sector": "23 Machine Tools",
+"country": "China",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; laser equipment"
+},
+{
+"id": "sportsoul.com",
+"company": "SPORTSOUL CO., LTD.",
+"sector": "53 Consumer & Lifestyle",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; trampoline maker"
+},
+{
+"id": "pncs.cn",
+"company": "上海至纯洁净系统科技股份有限公司",
+"sector": "27 Chip Makers",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; cleanroom systems"
+},
+{
+"id": "sac-china.com",
+"company": "南自自动化",
+"sector": "33 Automation & Robotics",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Guodian Nanjing Automation",
+"triage_note": "real; fit 1; scale mid; power automation JV"
+},
+{
+"id": "kelimotor.com",
+"company": "Keli Motor Group Co., Ltd.",
+"sector": "45 Electronic Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale mid; motor maker"
+}
+]

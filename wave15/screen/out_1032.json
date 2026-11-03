@@ -1,0 +1,36 @@
+[
+{
+"id": "ras-interim.fr",
+"company": "RAS Intérim",
+"keep": false,
+"reason": "quick triage: small staffing agency",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+},
+{
+"id": "multi-prets.com",
+"company": "Multi-Prets Hypotheques (Mortgage)",
+"keep": false,
+"reason": "quick triage: small mortgage broker",
+"real_name": "",
+"parent": "",
+"status": "unknown",
+"scale_route": "below",
+"scale_evidence": "",
+"staff_est": "",
+"f1_tie": "",
+"sector": "",
+"fit": 0,
+"verdict_guess": "No",
+"note": ""
+}
+]

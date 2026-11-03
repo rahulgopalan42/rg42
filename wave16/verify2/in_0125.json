@@ -1,0 +1,122 @@
+[
+{
+"id": "peterthomasroth.com",
+"company": "Peter Thomas Roth Clinical Skin Care",
+"sector": "03 Luxury & Beauty",
+"country": "United States",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; luxury skincare"
+},
+{
+"id": "cmgl.ca",
+"company": "Computer Modelling Group",
+"sector": "22 SaaS",
+"country": "Canada",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; reservoir simulation software"
+},
+{
+"id": "swissphone.com",
+"company": "Swissphone Group",
+"sector": "48 Telecom & Space",
+"country": "Schweiz",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; Swiss alerting systems"
+},
+{
+"id": "apivita.com",
+"company": "APIVITA SA",
+"sector": "03 Luxury & Beauty",
+"country": "Greece",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "PUIG Group",
+"triage_note": "real; fit 3; scale mid; natural cosmetics"
+},
+{
+"id": "grandel.com",
+"company": "Dr. Grandel GmbH",
+"sector": "03 Luxury & Beauty",
+"country": "Germany",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; luxury skincare"
+},
+{
+"id": "orbray.com",
+"company": "Orbray Co., Ltd.",
+"sector": "48 Telecom & Space",
+"country": "Japan",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; synthetic crystals and jewels"
+},
+{
+"id": "pankl.com",
+"company": "Pankl Racing Systems",
+"sector": "43 Mobility & Automotive",
+"country": "Austria",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Pierer Group",
+"triage_note": "real; fit 3; scale mid; racing component systems"
+},
+{
+"id": "cadfem.net",
+"company": "CADFEM Europe",
+"sector": "22 SaaS",
+"country": "Germany",
+"type": "Public Company",
+"staff": "51-200",
+"clay_revenue_band": "USD 75M-200M (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; engineering simulation"
+},
+{
+"id": "apm.mc",
+"company": "APM Monaco",
+"sector": "03 Luxury & Beauty",
+"country": "Monaco",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale mid; fashion jewelry brand"
+},
+{
+"id": "juventus.com",
+"company": "Juventus Football Club",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "Italy",
+"type": "Public Company",
+"staff": "501-1,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Exor",
+"triage_note": "real; fit 3; scale mid; Italian football club"
+}
+]

@@ -1,0 +1,122 @@
+[
+{
+"id": "dnsgroup.ru",
+"company": "DNS Group",
+"sector": "X06 Retail & E-commerce",
+"country": "Russia",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Russian electronics retailer"
+},
+{
+"id": "meiyijia.com.cn",
+"company": "美宜佳控股有限公司",
+"sector": "X06 Retail & E-commerce",
+"country": "China",
+"type": "Self Owned",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Chinese convenience store chain"
+},
+{
+"id": "jejuair.net",
+"company": "Jeju Air",
+"sector": "16 Travel & Hospitality",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Korean low-cost airline"
+},
+{
+"id": "leg-wohnen.de",
+"company": "LEG-Immobilien-Gruppe",
+"sector": "X02 Real Estate & Building Products",
+"country": "Germany",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; German residential landlord"
+},
+{
+"id": "norma-online.de",
+"company": "NORMA Lebensmittelfilialbetrieb Stiftung & Co. KG",
+"sector": "X06 Retail & E-commerce",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; German discount grocer"
+},
+{
+"id": "ramsaysante.fr",
+"company": "Ramsay Santé",
+"sector": "42 Health & Wellness",
+"country": "France",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Ramsay Health Care",
+"triage_note": "real; fit 0; scale large; private hospital group"
+},
+{
+"id": "atento.com",
+"company": "Atento",
+"sector": "25 IT Services & Consulting",
+"country": "Spain",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Bain Capital",
+"triage_note": "real; fit 0; scale large; CRM outsourcer"
+},
+{
+"id": "barnesandnoble.com",
+"company": "Barnes & Noble, Inc.",
+"sector": "X06 Retail & E-commerce",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Elliott Investment Management L.P.",
+"triage_note": "real; fit 0; scale large; US bookseller"
+},
+{
+"id": "icelandcareers.co.uk",
+"company": "Iceland Foods",
+"sector": "X06 Retail & E-commerce",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; UK frozen food retailer"
+},
+{
+"id": "aydin.com",
+"company": "Turgut Aydın Holding",
+"sector": "X01 Asset Mgmt, PE & Trading Firms",
+"country": "Turkey",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 0; scale large; Turkish conglomerate, A101"
+}
+]

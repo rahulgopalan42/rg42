@@ -1,0 +1,122 @@
+[
+{
+"id": "uzum.com",
+"company": "Uzum Team",
+"sector": "22 SaaS",
+"country": "Uzbekistan",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "; fit ; scale ; "
+},
+{
+"id": "everpuredata.com",
+"company": "Everpure",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; data storage (ex-Pure Storage)"
+},
+{
+"id": "meta.com",
+"company": "Meta",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 3; scale large; social and AI platforms"
+},
+{
+"id": "abs-cbn.com",
+"company": "ABS-CBN Corporation",
+"sector": "29 Tech Media & Gaming",
+"country": "Philippines",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "; fit ; scale ; "
+},
+{
+"id": "hinode.com.br",
+"company": "LEADERSHIP MMN",
+"sector": "03 Luxury & Beauty",
+"country": "Brazil",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "junk; fit 0; scale small; MLM training page"
+},
+{
+"id": "tatasky.com",
+"company": "Tatasky Partner Recruitment",
+"sector": "48 Telecom & Space",
+"country": "India",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Tata Play",
+"triage_note": "; fit ; scale ; "
+},
+{
+"id": "netapp.com",
+"company": "NetApp BlueXP",
+"sector": "11 Storage Hardware",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "NetApp",
+"triage_note": "division; fit 0; scale large; cloud management product"
+},
+{
+"id": "cherokeenationbusinesses.com",
+"company": "Cherokee Nation Businesses",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Cherokee Nation (tribal government)",
+"triage_note": "real; fit 0; scale large; tribal holding company"
+},
+{
+"id": "smartertech.com",
+"company": "Smarter Technologies",
+"sector": "22 SaaS",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "; fit ; scale ; "
+},
+{
+"id": "no7company.com",
+"company": "No7 Beauty Company",
+"sector": "03 Luxury & Beauty",
+"country": "United Kingdom",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "USD 1B-10B (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Walgreens Boots Alliance (Sycamore)",
+"triage_note": "division; fit 0; scale large; beauty brand owner"
+}
+]

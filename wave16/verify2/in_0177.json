@@ -1,0 +1,122 @@
+[
+{
+"id": "kaltire.com",
+"company": "Kal Tire",
+"sector": "X06 Retail & E-commerce",
+"country": "Canada",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Canadian tyre retailer"
+},
+{
+"id": "manor.ch",
+"company": "Manor AG",
+"sector": "X06 Retail & E-commerce",
+"country": "Switzerland",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Maus Freres",
+"triage_note": "real; fit 1; scale large; Swiss department stores"
+},
+{
+"id": "peets.com",
+"company": "Peet's Coffee",
+"sector": "X06 Retail & E-commerce",
+"country": "United States",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "JAB Holding",
+"triage_note": "real; fit 1; scale large; premium coffee chain"
+},
+{
+"id": "williamslea.com",
+"company": "Williams Lea",
+"sector": "25 IT Services & Consulting",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Advent International",
+"triage_note": "real; fit 1; scale large; document services"
+},
+{
+"id": "7-eleven.com",
+"company": "7-Eleven",
+"sector": "X06 Retail & E-commerce",
+"country": "United States",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Seven & i",
+"triage_note": "real; fit 1; scale large; convenience stores"
+},
+{
+"id": "jtbcorp.jp",
+"company": "JTB Corp.",
+"sector": "16 Travel & Hospitality",
+"country": "Japan",
+"type": "Privately Held",
+"staff": "10,001+",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Japanese travel group"
+},
+{
+"id": "sosi.com",
+"company": "STG Inc.",
+"sector": "25 IT Services & Consulting",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; government services"
+},
+{
+"id": "jacksonlewis.com",
+"company": "Jackson Lewis P.C.",
+"sector": "50 Law Firms & Legal AI",
+"country": "United States",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; labor law firm"
+},
+{
+"id": "topicus.nl",
+"company": "Topicus",
+"sector": "25 IT Services & Consulting",
+"country": "Netherlands",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Constellation Software",
+"triage_note": "real; fit 1; scale large; vertical software"
+},
+{
+"id": "50hertz.com",
+"company": "50Hertz Transmission GmbH",
+"sector": "44 Grid & Transformers",
+"country": "Germany",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "Elia Group",
+"triage_note": "real; fit 1; scale large; power grid operator"
+}
+]

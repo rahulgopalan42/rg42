@@ -1,0 +1,122 @@
+[
+{
+"id": "gemchina.com",
+"company": "格林美股份有限公司  (GEM)",
+"sector": "21 Materials & Mech Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; battery materials recycler"
+},
+{
+"id": "sd-gold.com",
+"company": "Shandong Gold",
+"sector": "X04 Mining, Metals & Commodities",
+"country": "China",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Chinese gold miner"
+},
+{
+"id": "morinaga.co.jp",
+"company": "森永製菓株式会社",
+"sector": "04 Food & Beverage",
+"country": "Japan",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; Japanese confectioner"
+},
+{
+"id": "lomonbillions.com",
+"company": "龙佰集团股份有限公司",
+"sector": "21 Materials & Mech Parts",
+"country": "China",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; titanium chemicals"
+},
+{
+"id": "sandfire.com.au",
+"company": "Sandfire",
+"sector": "X04 Mining, Metals & Commodities",
+"country": "Australia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; copper miner"
+},
+{
+"id": "bancagenerali.com",
+"company": "Banca Generali",
+"sector": "01 Banking & Insurance",
+"country": "Italy",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Generali",
+"triage_note": "real; fit 1; scale large; private bank"
+},
+{
+"id": "triglav.eu",
+"company": "Zavarovalnica Triglav, d.d.",
+"sector": "01 Banking & Insurance",
+"country": "Slovenia",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Triglav Group",
+"triage_note": "real; fit 1; scale large; Slovenian insurer"
+},
+{
+"id": "seahbesteel.co.kr",
+"company": "SeAH Besteel Corp.",
+"sector": "X04 Mining, Metals & Commodities",
+"country": "South Korea",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "SeAH Holdings",
+"triage_note": "real; fit 1; scale large; special steel maker"
+},
+{
+"id": "richelieu.com",
+"company": "Quincaillerie Richelieu Ltée/Richelieu Hardware Ltd",
+"sector": "21 Materials & Mech Parts",
+"country": "Canada",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 1; scale large; hardware distributor"
+},
+{
+"id": "britannia.co.in",
+"company": "Britannia Industries Limited",
+"sector": "04 Food & Beverage",
+"country": "India",
+"type": "Public Company",
+"staff": "1,001-5,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Wadia Group",
+"triage_note": "real; fit 1; scale large; biscuits maker"
+}
+]

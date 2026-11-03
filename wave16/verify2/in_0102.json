@@ -1,0 +1,122 @@
+[
+{
+"id": "thalesaleniaspace.com",
+"company": "Thales Alenia Space",
+"sector": "X07 Aviation & Aerospace Suppliers",
+"country": "France",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Thales",
+"triage_note": "real; fit 4; scale large; satellite manufacturer"
+},
+{
+"id": "straumann-group.com",
+"company": "Straumann Group",
+"sector": "NEW Medtech & Healthcare Services",
+"country": "Switzerland",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale large; dental implants"
+},
+{
+"id": "hansgrohe-group.com",
+"company": "Hansgrohe Group",
+"sector": "NEW Other",
+"country": "Germany",
+"type": "Public Company",
+"staff": "5,001-10,000",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Masco",
+"triage_note": "real; fit 4; scale large; premium bathroom fittings"
+},
+{
+"id": "lagardere.com",
+"company": "Lagardere",
+"sector": "NEW Other",
+"country": "France",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "Vivendi/Bolloré",
+"triage_note": "real; fit 4; scale large; sports and media"
+},
+{
+"id": "essilorluxottica.com",
+"company": "EssilorLuxottica",
+"sector": "NEW Other",
+"country": "France",
+"type": "Public Company",
+"staff": "10,001+",
+"clay_revenue_band": "none",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale large; eyewear leader"
+},
+{
+"id": "ironman.com",
+"company": "The IRONMAN Group",
+"sector": "NEW Sports Clubs & Leagues",
+"country": "United States",
+"type": "Public Company",
+"staff": "201-500",
+"clay_revenue_band": "USD 200M-1B (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Orkila Capital",
+"triage_note": "real; fit 4; scale mid; global triathlon events"
+},
+{
+"id": "deltatre.com",
+"company": "Deltatre",
+"sector": "22 SaaS",
+"country": "United Kingdom",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale mid; sports broadcast tech"
+},
+{
+"id": "balmain.com",
+"company": "Balmain",
+"sector": "03 Luxury & Beauty",
+"country": "France",
+"type": "Privately Held",
+"staff": "201-500",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": true,
+"parent_hint": "Mayhoola",
+"triage_note": "real; fit 4; scale mid; French luxury fashion"
+},
+{
+"id": "akris.com",
+"company": "Akris",
+"sector": "03 Luxury & Beauty",
+"country": "Switzerland",
+"type": "Privately Held",
+"staff": "1,001-5,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale mid; Swiss luxury fashion house"
+},
+{
+"id": "nobuhospitality.com",
+"company": "Nobu Hospitality",
+"sector": "16 Travel & Hospitality",
+"country": "United States",
+"type": "Privately Held",
+"staff": "5,001-10,000",
+"clay_revenue_band": "USD 500M+ (Clay estimate)",
+"apollo_funding_100m": false,
+"parent_hint": "",
+"triage_note": "real; fit 4; scale mid; luxury hotels and restaurants"
+}
+]
