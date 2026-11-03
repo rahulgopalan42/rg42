@@ -1,0 +1,402 @@
+[
+ {
+  "name": "Takeda",
+  "correct_name": "",
+  "description": "Takeda is a Tokyo-based drugmaker selling medicines for gastrointestinal, rare, neurological and cancer conditions plus plasma-derived therapies to health systems in about 80 countries, with roughly 49,000 employees.",
+  "source": "https://intuitionlabs.ai/companies/pharma/takeda-pharmaceutical-company",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "International Finance Corpor",
+  "correct_name": "International Finance Corporation",
+  "description": "The World Bank Group's private-sector arm, IFC provides loans, equity, trade finance and advice to companies in more than 100 developing countries, committing $71.7 billion in fiscal 2025.",
+  "source": "https://ifc.org/en/about",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Deutsche Bank",
+  "correct_name": "",
+  "description": "Deutsche Bank is a Frankfurt-based bank offering corporate, investment, private and retail banking and asset management to companies, institutions and individuals, with about 85,000 employees in 58 countries.",
+  "source": "https://careers.db.com/inside-deutsche-bank/our-workforce-at-a-glance",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Alianza",
+  "correct_name": "",
+  "description": "Utah-based Alianza sells a cloud communications platform that lets telecom carriers and cable operators offer voice, messaging and collaboration services, deployed at more than 100 service providers.",
+  "source": "https://www.constellationr.com/insights/news/alianza-aws-team-cloud-communication-services",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Kapital",
+  "correct_name": "",
+  "description": "Kapital is a Mexico City-based, AI-driven bank serving small and mid-sized businesses in Mexico, Colombia and the US, valued at about $1.3 billion after a 2025 funding round.",
+  "source": "https://www.fintechfutures.com/venture-capital-funding/mexicos-kapital-achieves-unicorn-status-with-100m-series-c",
+  "note": "Acquired Intercam Banco (2025), which faced US FinCEN anti-money-laundering action.",
+  "confidence": "high"
+ },
+ {
+  "name": "NineDot Energy",
+  "correct_name": "",
+  "description": "NineDot Energy develops and operates community-scale battery storage sites in New York City and Long Island that support the local grid, with $431 million raised in 2026 for 28 projects.",
+  "source": "https://www.businesswire.com/news/home/20260209595778/en/NineDot-Energy-Completes-%24431-Million-Financing-With-Natixis-Corporate-Investment-Banking-For-28-Battery-Energy-Storage-Projects-In-New-York-City",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Commonwealth Fusion Syste",
+  "correct_name": "Commonwealth Fusion Systems",
+  "description": "Commonwealth Fusion Systems is building the SPARC fusion demonstration machine in Massachusetts and plans a 400 MW commercial ARC plant in Virginia, with Google and Eni signed as power buyers.",
+  "source": "https://en.wikipedia.org/wiki/Commonwealth_Fusion_Systems",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Manulife Financial",
+  "correct_name": "",
+  "description": "Manulife, branded John Hancock in the US, sells insurance, wealth and asset management products to individuals and institutions across Asia, Canada and the US; listed in Toronto and New York.",
+  "source": "https://www.builtinnyc.com/company/manulife",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Comeast",
+  "correct_name": "Comcast",
+  "description": "Comcast sells broadband, mobile, TV and voice services under the Xfinity brand to US homes and businesses and owns NBCUniversal and Sky, employing roughly 186,000 people.",
+  "source": "https://www.sec.gov/Archives/edgar/data/0001166691/000116669120000008/cmcsa-12312019x10k.htm",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Tabby",
+  "correct_name": "",
+  "description": "Tabby is a Riyadh-based buy now, pay later app letting shoppers split payments at over 40,000 brands across Saudi Arabia and the Gulf, with more than 15 million users.",
+  "source": "https://tabby.ai/newsroom/series-e-funding",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Sitio",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "could not identify",
+  "confidence": "low"
+ },
+ {
+  "name": "Figure",
+  "correct_name": "Figure Technology Solutions",
+  "description": "Figure Technology Solutions runs a blockchain lending platform that originates home equity lines of credit for US homeowners and partner lenders, facilitating over $16 billion; listed on Nasdaq since 2025.",
+  "source": "https://www.nationalmortgagenews.com/articles/figure-files-publicly-for-ipo",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "SmartStop Self Storage",
+  "correct_name": "",
+  "description": "SmartStop Self Storage is a real estate investment trust owning and managing self-storage facilities rented by households and businesses across the US and Canada; listed on the NYSE since 2025.",
+  "source": "https://www.renaissancecapital.com/IPO-Center/News/110043/California-based-SmartStop-Self-Storage-REIT-sets-terms-for-$864-million-IP",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Avalanche",
+  "correct_name": "",
+  "description": "Avalanche is a public layer-1 blockchain network, developed by New York-based Ava Labs, that lets developers, enterprises and financial institutions launch their own blockchains, with about 80 live chains.",
+  "source": "https://en.wikipedia.org/wiki/Avalanche_(blockchain_platform)",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Revere",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "could not identify",
+  "confidence": "low"
+ },
+ {
+  "name": "Bank Muscat",
+  "correct_name": "",
+  "description": "Bank Muscat is Oman's largest bank by assets, offering retail, corporate and Islamic banking to individuals and businesses, with 3.9 million customers and about 198 branches in Oman.",
+  "source": "https://en.wikipedia.org/wiki/Bank_Muscat",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "DANONE",
+  "correct_name": "",
+  "description": "Danone makes and sells dairy and plant-based foods, bottled waters such as Evian and specialized nutrition such as Aptamil to consumers and healthcare channels in over 120 countries.",
+  "source": "https://stockanalysis.com/quote/etr/BSN/company",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Serve",
+  "correct_name": "Serve Robotics",
+  "description": "Serve Robotics builds AI-powered sidewalk delivery robots that carry orders for Uber Eats and 7-Eleven in US cities including Los Angeles, Miami, Dallas and Chicago; listed on Nasdaq.",
+  "source": "https://www.automatedwarehouseonline.com/serve-robotics-goes-public-nasdaq-plans-expand-uber-eats-deliveries/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Seabridge Gold",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Cliffwater Corporate Lendin",
+  "correct_name": "Cliffwater Corporate Lending Fund",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "EquipmentShare",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Bank of America",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Sandisk",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "BNP Paribas",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Cornelis Networks",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Mitsubishi Corporation",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Capitolis",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Supermicro",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Planet",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Alphabet",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Huatai Securities",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Generate Capital",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Vulcan Infrastructure",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Local Bounti",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Saratoga Investment",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Arch",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Telefonica Emisiones",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Ode with Anthropic",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "DoorDash",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Isar Aerospace",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "SK Horizon",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Nutanix",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Domyn",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Urbaser",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Intrepid Fiber Networks",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Venture Global",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Crescent Energy",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Moonshot AI",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "QatarEnergy",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Sumitomo Mitsui Financial",
+  "correct_name": "Sumitomo Mitsui Financial Group",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search limit reached; rerun needed",
+  "confidence": "low"
+ }
+]

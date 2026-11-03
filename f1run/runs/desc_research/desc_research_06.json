@@ -1,0 +1,402 @@
+[
+ {
+  "name": "Banco BPM",
+  "correct_name": "",
+  "description": "Banco BPM is an Italian commercial bank serving retail, small business and corporate customers through about 1,400 branches, mainly in northern Italy, and is listed on Borsa Italiana.",
+  "source": "https://gruppo.bancobpm.it/en/the-group/profile/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Cloud Capital",
+  "correct_name": "",
+  "description": "Cloud Capital is a Washington, D.C.-based investment manager affiliated with CloudHQ that buys and operates data centers for institutional investors, having acquired about 30 data center assets since 2020.",
+  "source": "https://www.datacenterdynamics.com/en/news/cloud-capital-and-realty-income-partner-for-6bn-data-center-joint-venture-fund/",
+  "note": "",
+  "confidence": "medium"
+ },
+ {
+  "name": "TerraPower",
+  "correct_name": "",
+  "description": "TerraPower is a Bellevue, Washington nuclear company developing the Natrium sodium-cooled reactor for utilities and large power buyers, with its first commercial plant under construction in Kemmerer, Wyoming.",
+  "source": "https://en.wikipedia.org/wiki/TerraPower",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Howard Hughes Holdings",
+  "correct_name": "",
+  "description": "Howard Hughes Holdings is an NYSE-listed real estate company that develops master planned communities such as The Woodlands, Bridgeland and Summerlin, selling land to homebuilders and leasing commercial property.",
+  "source": "https://www.reit.com/investing/reit-directory/howard-hughes-holdings-inc",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Constellation Brands",
+  "correct_name": "",
+  "description": "Constellation Brands is an NYSE-listed producer and importer of beer, wine and spirits, including Corona and Modelo, selling mainly to US distributors and retailers, with about $10 billion in revenue.",
+  "source": "https://stockanalysis.com/stocks/stz/company/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "lsomorphic Labs",
+  "correct_name": "Isomorphic Labs",
+  "description": "Isomorphic Labs is a London-based Alphabet spinout from DeepMind that uses AI to discover drugs, partnering with pharma firms Eli Lilly and Novartis, and raised $2.1 billion in 2026.",
+  "source": "https://the-decoder.com/alphabets-isomorphic-labs-raises-2-1-billion-to-scale-ai-drug-discovery-toward-clinical-trials/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Marriott International",
+  "correct_name": "",
+  "description": "Marriott International is a Nasdaq-listed hotel company that manages and franchises about 9,800 properties under more than 30 brands in 145 countries and territories for business and leisure travelers.",
+  "source": "https://hotelsmag.com/news/marriott-international-2025-growth/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Sagard",
+  "correct_name": "",
+  "description": "Sagard is a Montreal-based alternative asset manager investing in venture capital, private equity, private credit and real estate for institutional and private investors, with about $46 billion under management.",
+  "source": "https://sagard.com/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Butterfly Net",
+  "correct_name": "Butterfly Network",
+  "description": "Butterfly Network is an NYSE-listed medical device company in Burlington, Massachusetts, selling handheld ultrasound probes and AI imaging software to hospitals and clinicians in about 20 countries.",
+  "source": "https://stockanalysis.com/stocks/bfly/company/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Aypa Power",
+  "correct_name": "",
+  "description": "Aypa Power is an Austin-based, Blackstone-owned developer and operator of utility-scale battery storage and hybrid renewable projects for US power markets, backed by a $1.5 billion credit facility.",
+  "source": "https://www.constructionowners.com/news/aypa-power-lands-1-5b-storage-financing",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Chaos",
+  "correct_name": "CHAOS Industries",
+  "description": "CHAOS Industries is a Los Angeles defense company building radar networks that detect drones, missiles and aircraft for military and government customers, valued at $4.5 billion in 2025.",
+  "source": "https://www.businesswire.com/news/home/20251113579391/en",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Phoenix Tailings",
+  "correct_name": "",
+  "description": "Phoenix Tailings is a Woburn, Massachusetts company that refines rare earth metals and alloys from mined ore and recycled magnets for manufacturers, operating facilities in Massachusetts and New Hampshire.",
+  "source": "https://www.businesswire.com/news/home/20250430735778/en",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Commercial International Ba",
+  "correct_name": "Commercial International Bank (Egypt)",
+  "description": "Commercial International Bank is Egypt's largest private-sector bank, serving retail and corporate customers through more than 200 branches, and is listed on the Egyptian Exchange.",
+  "source": "https://weforum.org/organizations/commercial-international-bank-cib",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Yankee Global Enterprises",
+  "correct_name": "",
+  "description": "Yankee Global Enterprises is the Steinbrenner family holding company that owns the New York Yankees and a stake in the YES regional sports network, serving fans, broadcasters and advertisers.",
+  "source": "https://en.wikipedia.org/wiki/Yankee_Global_Enterprises",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Riyad Bank",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Parabilis Medicines",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "HighTower Advisors",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Check Point Software Techn",
+  "correct_name": "Check Point Software Technologies",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Sanofi",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Delek Logistics Partners",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Electricité de France",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Zenas BioPharma",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Tomorrow.io",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Duke Energy",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Evernorth",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Montana",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Generali Group",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Trucordia",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "U.S. Energy Development",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Lennar",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Consumer Cellular",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Groupe BPCE",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "DataBank",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Commerzbank",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Owner",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "AI Morjan Two Electricity",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Qatar Islamic Bank",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Merritt Properties",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Revolution Medicines",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Cl Financial",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Agree",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "ProLogium Technology",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Epirus",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Fluence",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Standard Motor Products",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "AI Financial",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Suki",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Groupama",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "TD SYNNEX",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "CNS Pharmaceutical",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: WebSearch budget exhausted; rerun needed",
+  "confidence": "low"
+ }
+]

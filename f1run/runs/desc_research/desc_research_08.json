@@ -1,0 +1,402 @@
+[
+ {
+  "name": "Alabama Power Company",
+  "correct_name": "",
+  "description": "Alabama Power, a Southern Company subsidiary, is an investor-owned electric utility serving about 1.5 million residential, commercial and industrial customers across the southern two-thirds of Alabama.",
+  "source": "https://en.wikipedia.org/wiki/Alabama_Power",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Allogene Therapeutics",
+  "correct_name": "",
+  "description": "Allogene Therapeutics, listed on Nasdaq, develops off-the-shelf allogeneic CAR T cell therapies made from healthy donor cells for patients with lymphoma, kidney cancer and autoimmune diseases.",
+  "source": "https://www.renaissancecapital.com/Profile/ALLO",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Rent the",
+  "correct_name": "Rent the Runway",
+  "description": "Rent the Runway runs a U.S. online designer clothing rental service where customers subscribe, rent single items or buy resale pieces from hundreds of brands, and trades on Nasdaq.",
+  "source": "https://investors.renttherunway.com/news-releases/news-release-details/rent-runway-announces-closing-recapitalization-transactions",
+  "note": "Debt-for-equity recapitalization closed Oct 2025; lender APS with Story3 and Nexus now major owners; still Nasdaq-listed",
+  "confidence": "high"
+ },
+ {
+  "name": "Pigment",
+  "correct_name": "",
+  "description": "Pigment is a Paris-based software company selling an AI-powered business planning and forecasting platform to finance and operations teams at large enterprises, with roughly 700 employees.",
+  "source": "https://pitchbook.com/profiles/company/435866-68",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Pacaso",
+  "correct_name": "",
+  "description": "Pacaso runs a marketplace that buys luxury second homes and sells co-ownership shares of one-eighth or more to buyers, operating in about 40 vacation destinations in the U.S. and abroad.",
+  "source": "https://techcrunch.com/2021/03/24/pacaso-raises-75m-goes-from-launch-to-unicorn-in-5-months",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Royal Caribbean Cruises",
+  "correct_name": "Royal Caribbean Group",
+  "description": "Royal Caribbean Group sells cruise vacations worldwide through its Royal Caribbean International, Celebrity Cruises and Silversea brands, operating a fleet of about 69 ships, and is listed on NYSE.",
+  "source": "https://en.wikipedia.org/wiki/Royal_Caribbean_Group",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "State Bank of Pakistan",
+  "correct_name": "",
+  "description": "The State Bank of Pakistan is the country's central bank, established under a 1956 act, issuing banknotes, setting monetary policy, supervising banks and serving the federal and provincial governments.",
+  "source": "https://www.sbp.org.pk/about/core_functions/index.htm",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Jack in the Box",
+  "correct_name": "",
+  "description": "Jack in the Box is a San Diego-based fast-food burger chain, mostly franchised, with about 2,100 restaurants serving U.S. consumers, and its shares trade on Nasdaq.",
+  "source": "https://www.sec.gov/Archives/edgar/data/807882/000080788225000072/jack-20250928.htm",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Greenbacker Group",
+  "correct_name": "Greenbacker (Greenbacker Renewable Energy Company)",
+  "description": "Greenbacker is a New York-based independent power producer and investment manager owning about 220 solar, wind and storage projects totalling roughly 2.8 GW, selling power mainly under long-term contracts.",
+  "source": "https://www.sec.gov/Archives/edgar/data/1563922/000156392226000006/cik0001563922-20251231.htm",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Pennymac",
+  "correct_name": "Pennymac Financial Services",
+  "description": "Pennymac Financial Services originates and services U.S. residential mortgages through correspondent, consumer-direct and broker channels, manages a mortgage REIT, and is NYSE-listed with about 4,900 employees.",
+  "source": "https://stockanalysis.com/stocks/pfsi/company/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Cathedral",
+  "correct_name": "",
+  "description": "Cathedral is a Washington-area startup building AI-powered offensive and defensive cyber capabilities for the U.S. military and federal agencies, valued at $1.4 billion after a 2026 funding round.",
+  "source": "https://www.citybiz.co/article/878111/andreessen-horowitz-sequoia-capital-lead-160m-round-for-former-doge-staffs-venture/",
+  "note": "",
+  "confidence": "medium"
+ },
+ {
+  "name": "rPlus Energies",
+  "correct_name": "",
+  "description": "rPlus Energies is a Salt Lake City-based developer of utility-scale renewable and storage projects for utilities, including Utah's 400 MW solar, 1,600 MWh battery Green River Energy Center for PacifiCorp.",
+  "source": "https://www.energy-storage.news/rplus-energies-1600mwh-utah-solar-plus-storage-project-begins-commercial-operation/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "DIRTT Environmental Solutio",
+  "correct_name": "DIRTT Environmental Solutions",
+  "description": "DIRTT Environmental Solutions makes prefabricated interior construction systems and design software for workplace, healthcare, education and government buildings, mainly in North America, and is listed on the TSX.",
+  "source": "https://www.dirtt.com/press/dirtt-reports-second-quarter-2026-financial-results/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Amex Exploration",
+  "correct_name": "",
+  "description": "Amex Exploration is a Montreal-based junior miner advancing the high-grade Perron gold project in Quebec toward production, listed on the TSX Venture Exchange with Eldorado Gold as a major shareholder.",
+  "source": "https://www.mining.com/eldorado-nears-100m-bet-on-amex-as-perron-advances/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Rackspace",
+  "correct_name": "Rackspace Technology",
+  "description": "Rackspace Technology provides managed multicloud, private cloud, security and application services on AWS, Azure and Google Cloud to enterprises in finance, healthcare, retail and government, and is Nasdaq-listed.",
+  "source": "https://ycharts.com/companies/RXT",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Datadog",
+  "correct_name": "",
+  "description": "Datadog sells a cloud monitoring, observability and security platform to software engineering and IT teams, with about 33,400 customers including 48% of the Fortune 500, and is listed on Nasdaq.",
+  "source": "https://investors.datadoghq.com/news-releases/news-release-details/datadog-announces-second-quarter-2026-financial-results",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Kratos Defense and Security",
+  "correct_name": "Kratos Defense & Security Solutions",
+  "description": "Kratos Defense & Security Solutions builds jet drones, hypersonic test vehicles, space and satellite systems and training systems, mainly for the U.S. Department of Defense, and trades on Nasdaq.",
+  "source": "https://ir.kratosdefense.com/node/32876",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Origis Energy",
+  "correct_name": "",
+  "description": "Origis Energy is a Miami-based developer, owner and operator of utility-scale solar and battery storage projects selling power to utilities and corporate buyers, with about 2.3 GW operating.",
+  "source": "https://www.pv-tech.org/origis-raises-us900-million-to-fund-5gw-of-project-development/",
+  "note": "Portfolio company of Antin Infrastructure Partners since 2021",
+  "confidence": "high"
+ },
+ {
+  "name": "FuriosaAl",
+  "correct_name": "FuriosaAI",
+  "description": "FuriosaAI is a Seoul-based chip company designing RNGD AI inference accelerators and servers for data centers, cloud providers and enterprises such as LG and Samsung SDS, valued at $2.9 billion.",
+  "source": "https://www.crnasia.com/news/2026/components-and-peripherals/furiosaai-to-scale-rngd-inference-chip-production-following",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Bombardier",
+  "correct_name": "",
+  "description": "Bombardier designs, builds and services Challenger and Global business jets for corporations, charter operators and governments worldwide, employs about 18,000 people and is listed on the Toronto Stock Exchange.",
+  "source": "https://en.wikipedia.org/wiki/Bombardier_Inc.",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Under Armour",
+  "correct_name": "",
+  "description": "Under Armour, listed on NYSE, sells athletic apparel, footwear and accessories worldwide through wholesale partners, its own stores and e-commerce, with about $5 billion in fiscal 2026 revenue.",
+  "source": "https://www.sec.gov/Archives/edgar/data/0001336917/000133691726000073/ua-20260331.htm",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Echelon Data Centres",
+  "correct_name": "",
+  "description": "Echelon Data Centres builds and operates wholesale data centre campuses in Ireland, the UK and wider Europe for hyperscale cloud tenants, with eight campuses totalling about 1.2 GW planned.",
+  "source": "https://www.bisnow.com/news/dublin/data-center-capital-markets/echelon-data-centre-expansion-17b-morgan-stanley-funding-133741",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "POET Technologies",
+  "correct_name": "",
+  "description": "POET Technologies designs optical engines and light sources built on its optical interposer platform for module makers supplying AI and hyperscale data centres, and is listed on Nasdaq.",
+  "source": "https://www.optica-opn.org/home/industry/2026/may/poet_raises_us$400_million_to_scale_integrated_photonics_for_ai_data_centers/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Raymond James",
+  "correct_name": "Raymond James Financial",
+  "description": "",
+  "source": "",
+  "note": "not researched: shared web search limit reached before lookup",
+  "confidence": ""
+ },
+ {
+  "name": "Applied Optoelectronics",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "not researched: shared web search limit reached before lookup",
+  "confidence": ""
+ },
+ {
+  "name": "Prime Capital Financial",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "not researched: shared web search limit reached before lookup",
+  "confidence": ""
+ },
+ {
+  "name": "Eve Air Mobility",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "not researched: shared web search limit reached before lookup",
+  "confidence": ""
+ },
+ {
+  "name": "Skeleton Technologies",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "not researched: shared web search limit reached before lookup",
+  "confidence": ""
+ },
+ {
+  "name": "Swisscom",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "not researched: shared web search limit reached before lookup",
+  "confidence": ""
+ },
+ {
+  "name": "Abbott",
+  "correct_name": "Abbott Laboratories",
+  "description": "",
+  "source": "",
+  "note": "not researched: shared web search limit reached before lookup",
+  "confidence": ""
+ },
+ {
+  "name": "Infarm",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "not researched: shared web search limit reached before lookup",
+  "confidence": ""
+ },
+ {
+  "name": "Publicis Grou",
+  "correct_name": "Publicis Groupe",
+  "description": "",
+  "source": "",
+  "note": "not researched: shared web search limit reached before lookup",
+  "confidence": ""
+ },
+ {
+  "name": "TalkTalk",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "not researched: shared web search limit reached before lookup",
+  "confidence": ""
+ },
+ {
+  "name": "IDB Invest",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "not researched: shared web search limit reached before lookup",
+  "confidence": ""
+ },
+ {
+  "name": "Hudbay",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "not researched: shared web search limit reached before lookup",
+  "confidence": ""
+ },
+ {
+  "name": "Alpha Bank",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "not researched: shared web search limit reached before lookup",
+  "confidence": ""
+ },
+ {
+  "name": "Vital Infrastructure Property",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "not researched: shared web search limit reached before lookup",
+  "confidence": ""
+ },
+ {
+  "name": "Sealed Air",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "not researched: shared web search limit reached before lookup",
+  "confidence": ""
+ },
+ {
+  "name": "PF Holdings",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "not researched: shared web search limit reached before lookup",
+  "confidence": ""
+ },
+ {
+  "name": "Doral",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "not researched: shared web search limit reached before lookup",
+  "confidence": ""
+ },
+ {
+  "name": "Uniti Group",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "not researched: shared web search limit reached before lookup",
+  "confidence": ""
+ },
+ {
+  "name": "Einride",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "not researched: shared web search limit reached before lookup",
+  "confidence": ""
+ },
+ {
+  "name": "Ib Vogt",
+  "correct_name": "ib vogt",
+  "description": "",
+  "source": "",
+  "note": "not researched: shared web search limit reached before lookup",
+  "confidence": ""
+ },
+ {
+  "name": "Apple",
+  "correct_name": "Apple Inc.",
+  "description": "",
+  "source": "",
+  "note": "not researched: shared web search limit reached before lookup",
+  "confidence": ""
+ },
+ {
+  "name": "Field AI",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "not researched: shared web search limit reached before lookup",
+  "confidence": ""
+ },
+ {
+  "name": "AEP Texas",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "not researched: shared web search limit reached before lookup",
+  "confidence": ""
+ },
+ {
+  "name": "Centalion",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "not researched: shared web search limit reached before lookup",
+  "confidence": ""
+ },
+ {
+  "name": "AdaniConneX",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "not researched: shared web search limit reached before lookup",
+  "confidence": ""
+ },
+ {
+  "name": "Corteva Agriscience",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "not researched: shared web search limit reached before lookup",
+  "confidence": ""
+ },
+ {
+  "name": "Razor Group",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "not researched: shared web search limit reached before lookup",
+  "confidence": ""
+ }
+]

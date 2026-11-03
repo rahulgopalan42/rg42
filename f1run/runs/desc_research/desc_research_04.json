@@ -1,0 +1,402 @@
+[
+ {
+  "name": "IGM Financial",
+  "correct_name": "",
+  "description": "IGM Financial is a Toronto Stock Exchange-listed Canadian wealth and asset manager that runs IG Wealth Management and Mackenzie Investments for Canadian investors, with about C$310 billion in assets.",
+  "source": "https://stockanalysis.com/quote/tsx/IGM/company/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Intuit",
+  "correct_name": "",
+  "description": "Intuit makes financial software including TurboTax, QuickBooks, Credit Karma and Mailchimp for consumers, small businesses and accountants, serving about 100 million customers and listed on Nasdaq.",
+  "source": "https://en.wikipedia.org/wiki/Intuit",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Upstart",
+  "correct_name": "",
+  "description": "Upstart runs an AI lending marketplace that matches consumers seeking personal, auto and home equity loans with more than 100 partner banks and credit unions, and is listed on Nasdaq.",
+  "source": "https://www.sec.gov/Archives/edgar/data/1647639/000164763925000018/upst-20241231.htm",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "HiBob",
+  "correct_name": "",
+  "description": "HiBob makes Bob, a cloud HR platform covering core HR, payroll, performance and compensation for mid-sized companies, used by more than 4,000 businesses worldwide.",
+  "source": "https://www.hibob.com/news/hibob-achieves-outstanding-results-in-sapient-insights-group-2024-2025-hr-systems-survey/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Flatiron Energy",
+  "correct_name": "",
+  "description": "Flatiron Energy develops, owns and operates utility-scale standalone battery storage projects that help US grids integrate renewables, with a portfolio of about 4.5 GW including Massachusetts sites.",
+  "source": "https://www.businesswire.com/news/home/20251204167818/en",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Ambie",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "could not identify",
+  "confidence": "low"
+ },
+ {
+  "name": "Optasia",
+  "correct_name": "",
+  "description": "Optasia uses AI to provide airtime credit and microloans through mobile operators and banks to underserved consumers in about 38 countries, and is listed on the Johannesburg Stock Exchange.",
+  "source": "https://www.jse.co.za/news/news/johannesburg-stock-exchange-welcomes-global-fintech-leader-optasia-main-board",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "BrightSpeed",
+  "correct_name": "Brightspeed",
+  "description": "Brightspeed is a US telecom provider offering fiber and DSL internet, Wi-Fi and voice services to homes and small businesses across a 20-state footprint, with over 3 million fiber-enabled locations.",
+  "source": "https://www.brightspeed.com/content/dam/brightspeed/pdfs/brightspeed-fact-sheet.pdf",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Westpac",
+  "correct_name": "Westpac Banking Corporation",
+  "description": "Westpac is one of Australia's four major banks, providing consumer, business and institutional banking in Australia and New Zealand to about 13 million customers, and is listed on the ASX.",
+  "source": "https://stockanalysis.com/quote/asx/WBC/company",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Jersey Mike's Subs",
+  "correct_name": "",
+  "description": "Jersey Mike's Subs is a franchised sub sandwich chain selling to consumers through about 3,000 shops open or in development across the United States, with some locations in Canada.",
+  "source": "https://wtop.com/news/2024/11/jersey-mikes-sandwich-chain-is-acquired-by-private-equity-firm-blackstone",
+  "note": "Majority stake acquired by Blackstone (deal agreed Nov 2024, about $8B valuation)",
+  "confidence": "high"
+ },
+ {
+  "name": "Figma",
+  "correct_name": "",
+  "description": "Figma makes browser-based collaborative design and prototyping software used by designers, developers and product teams, with over 13 million monthly users, and has been listed on the NYSE since 2025.",
+  "source": "https://www.renaissancecapital.com/Profile/FIG/Figma/IPO",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "OPC Energy",
+  "correct_name": "",
+  "description": "OPC Energy is a Tel Aviv-listed independent power producer that builds and runs gas, solar and wind plants in Israel and, through its CPV unit, the United States.",
+  "source": "https://stockanalysis.com/quote/tlv/OPCE/company/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "EnergyRe",
+  "correct_name": "energyRe",
+  "description": "energyRe develops utility-scale wind, solar, storage and high-voltage transmission projects for US power markets, with a pipeline across 17 states and a $1.2 billion capital raise in 2023.",
+  "source": "https://www.utilitydive.com/press-release/20231205-energyre-announces-12-billion-capital-raise-to-accelerate-us-clean-ener-1/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Hyperliquid Strategies",
+  "correct_name": "Hyperliquid Strategies Inc",
+  "description": "Hyperliquid Strategies is a Nasdaq-listed company that holds HYPE, the token of the Hyperliquid blockchain, as a treasury asset for public investors, launching with about 12.6 million HYPE.",
+  "source": "https://www.tipranks.com/news/company-announcements/sonnet-biotherapeutics-merges-with-hyperliquid-strategies",
+  "note": "Formed by merger with Sonnet BioTherapeutics (closed Dec 2025); trades as PURR",
+  "confidence": "high"
+ },
+ {
+  "name": "DailyPay",
+  "correct_name": "",
+  "description": "DailyPay provides earned wage access software that employers offer so workers can withdraw pay they have already earned before payday, working with more than 1,000 US employers.",
+  "source": "https://www.dailypay.com/DailyPay",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Recursion Pharmaceuticals",
+  "correct_name": "",
+  "description": "Recursion is a clinical-stage biotech that uses AI and its Recursion OS platform to discover drugs, partnering with drugmakers such as Roche, Sanofi and Bayer, and is listed on Nasdaq.",
+  "source": "https://seekingalpha.com/symbol/RXRX",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "BluPine Energy",
+  "correct_name": "",
+  "description": "BluPine Energy is an Actis-owned independent power producer that develops and operates renewable energy projects in India, including for commercial and industrial buyers, with about 3.9 GW across 10 states.",
+  "source": "https://ionanalytics.com/insights/infralogic/actis-launches-3-9-gw-indian-renewables-platform-blupine-sale/",
+  "note": "Owner Actis running a sale process (2025); no buyer confirmed",
+  "confidence": "high"
+ },
+ {
+  "name": "KoBold Metal",
+  "correct_name": "KoBold Metals",
+  "description": "KoBold Metals uses AI to find and develop copper, lithium, cobalt and nickel deposits, led by its Mingomba copper project in Zambia, and is valued near $3 billion.",
+  "source": "https://mining.com/?p=1168911",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "AI-Rajhi Bank",
+  "correct_name": "Al Rajhi Bank",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Helus Pharma",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Mirendit",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Station Casinos",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Nexus Data Centers",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "KIB",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Apex Service Partners",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Doha Bank",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Spironet",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "CAR",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Mashreq Bank",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Compass Diversified Holdings",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Outreach",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "ESENTIA Energy Systems",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "FINN",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Box",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Saudi Telecom Company",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Reliable",
+  "correct_name": "Reliable Robotics",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Karman Space & Defense",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Chubb",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Careem",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Charter Communications",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "The Baldwin Group",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Forgent",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "G3 Exploration",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Datavault AI",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "XCL Education",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Vuori",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "BW LPG",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "SellersFi",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "Dise Medicine",
+  "correct_name": "Disc Medicine",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ },
+ {
+  "name": "American Tower",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "NOT RESEARCHED: shared web search budget exhausted; rerun needed",
+  "confidence": "low"
+ }
+]

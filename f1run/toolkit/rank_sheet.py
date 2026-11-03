@@ -18,14 +18,19 @@ def clean_name(n):
     n=re.sub(r'\bAl\b','AI',n).strip(" '\"`.,;:-_~*|‘’"); return n
 def clean_desc(d):
     d=re.sub(r'\s+',' ',d).strip()
-    d=re.sub(r'\s*\d{1,3}(?:[,\.]\d{3})+\s*$','',d); d=re.sub(r'\s+\d{1,6}\s*$','',d)
-    d=d.replace(' ...','...').strip(" |_~*'\"")
+    d=re.sub(r'\s*\b\d{1,3}(?:[,\.]\d{3})+\b','',d); d=re.sub(r'\s+\d{1,6}\s*$','',d); d=re.sub(r'\s+',' ',d)
+    d=re.sub(r'\bAl\b','AI',d); d=d.replace(' ...','...').strip(" |_~*'\"”“‘’")
+    if not d[:1].isupper() and not d[:1].isdigit(): return ''
     if len(d)<25 or sum(ch.isalpha() for ch in d)<0.7*len(d): return ''
     return d
 RES={}
+POST={'03':20,'07':20,'09':23}   # rows after the shared search limit ran out: read directly from sites
 for f in glob.glob('rec/desc_research*.json'):
-    for r in json.load(open(f)):
-        if r.get('description'): RES[key(r['name'])]=r
+    b=f[-7:-5]
+    for i,r in enumerate(json.load(open(f))):
+        if r.get('description'):
+            if b in POST and i>=POST[b]: r['source']=(r.get('source') or '')+(' (read directly, a few details from memory: check)' if b=='03' else ' (read directly)')
+            RES[key(r['name'])]=r
 for f in glob.glob(os.environ.get('ROWS','rec2')+'/rows_*.json'):
     for fr in json.load(open(f))['frames']:
         for r in fr.get('rows',[]):
@@ -49,6 +54,22 @@ for f in glob.glob(os.environ.get('ROWS','rec2')+'/rows_*.json'):
                 if v: obs[k][fld][v]+=1
             d=clean_desc(r.get('desc') or '')
             if d: obs[k]['desc'][d]+=1
+VOC=collections.Counter()
+for o_ in obs.values():
+    for d_,n_ in (o_.get('desc') or {}).items():
+        for w_ in set(re.findall(r'[a-z]{3,}',d_.lower())): VOC[w_]+=1
+def vratio(d):
+    ws=re.findall(r'[A-Za-z]{3,}',d)
+    if not ws: return 0
+    return sum(1 for w in ws if VOC[w.lower()]>=8 or w[0].isupper())/len(ws)
+def wrong_co(name,d):
+    m=re.match(r"^(.{2,45}?)\s+(is|are|was|provides|offers|operates|develops|designs|focuses|specializes|manufactures|engages)\b",d)
+    if not m: return False
+    subj=m.group(1); a=re.sub(r'[^a-z0-9]','',name.lower()); b=re.sub(r'[^a-z0-9]','',subj.lower())
+    if fuzz.partial_ratio(a,b)>=60: return False
+    if subj.isupper() and len(subj)<=6 and subj[:1]==name[:1].upper(): return False
+    return True
+def fixai(t): return re.sub(r'(?<=[a-z])Al\b','AI',re.sub(r'\b(is|as|for|in) 2 (?=[a-z])',r'\1 a ',t or ''))
 # ---------- parsers
 FX={'$':1,'US$':1,'€':1.08,'£':1.27,'CA$':0.73,'A$':0.66,'AU$':0.66,'R$':0.18,'RS':0.18,'MX$':0.055,'CN¥':0.14,'CNY¥':0.14,'¥':0.0067,'JP¥':0.0067,'₹':0.012,'SAR':0.27,'AED':0.27,'CHF':1.13,'SEK':0.095,'NOK':0.092,'HK$':0.13,'S$':0.74,'NT$':0.031,'₩':0.00072,'KRW':0.00072,'THB':0.028,'ZAR':0.055,'TRY':0.03,'PLN':0.25,'DKK':0.145,'ILS':0.27,'NZ$':0.6,'IDR':0.000063,'MYR':0.22,'PHP':0.017,'VND':0.00004,'NGN':0.00065,'EGP':0.02,'KZT':0.002}
 def money(s):
@@ -146,7 +167,9 @@ for k,c in ckeys.items():
         if yr: break
     stg=top('stage'); ctry=country(hq) if hq else ''
     dc=o.get('desc') or collections.Counter()
-    cbd=max(dc.items(),key=lambda kv:(kv[1],len(kv[0])))[0] if dc else ''
+    cbd=max(dc.items(),key=lambda kv:(round(vratio(kv[0]),1),kv[1],len(kv[0])))[0] if dc else ''
+    if cbd and vratio(cbd)<0.75: cbd=''
+    if cbd and wrong_co(c['name'],cbd): cbd=''
     rr=RES.get(k) or {}
     hasdata=bool(ind or hq or tot or rk)
     sec=(sector(ind) if ind else 'Other / Unclassified') if hasdata else 'No data read'
@@ -169,6 +192,7 @@ for k,c in ckeys.items():
     if k in exk: status='Excluded (your remove list)'
     if ctry in BLOCK: status=status or 'Declined: sanctioned/restricted country'
     flag='China/India/Brazil HQ override' if ctry in OVERRIDE else ''
+    if rr.get('note') and 'NOT RESEARCHED' not in rr['note'].upper(): flag=(flag+'; ' if flag else '')+rr['note']
     out.append(dict(hasdata=hasdata,name=c['name'],sector=sec,industries=ind,hq=hq.replace('…',''),country=ctry,total=tot,rank=rk,year=yr,stage=stg,score=round(sc,1),conf=conf,status=status,flag=flag,frames=c['frames'],key=k,cbdesc=cbd,desc=rr.get('description') or cbd,dsrc=(rr.get('source') or 'public sources') if rr.get('description') else ('Crunchbase (recording)' if cbd else ''),fixname=rr.get('correct_name') or ''))
 _act=sorted([x['score'] for x in out if not x['status'] and x['hasdata']],reverse=True)
 _cut=lambda q:_act[min(len(_act)-1,int(len(_act)*q))] if _act else 0
@@ -186,7 +210,7 @@ for s in order:
     ws.append(hdr); n=0
     for x in L:
         nd=(s=='No data read'); n+=1 if not x['status'] and not nd else 0
-        ws.append([n if not x['status'] and not nd else '',x['name']+(f" (likely {x['fixname']})" if x['fixname'] and key(x['fixname'])!=x['key'] else ''),x['desc'],(tier(x['score']) if not nd else 'Unscored') if not x['status'] else '—',x['score'],x['hq'],x['country'],round(x['total']) if x['total'] else None,x['year'],x['rank'],x['industries'],x['stage'],x['status'],x['flag'],x['conf'],x['dsrc']])
+        ws.append([n if not x['status'] and not nd else '',fixai(x['name'])+(f" (likely {x['fixname']})" if x['fixname'] and key(x['fixname'])!=x['key'] else ''),fixai(x['desc']),(tier(x['score']) if not nd else 'Unscored') if not x['status'] else '—',x['score'],x['hq'],x['country'],round(x['total']) if x['total'] else None,x['year'],x['rank'],x['industries'],x['stage'],x['status'],x['flag'],x['conf'],x['dsrc']])
     for i,wd in enumerate([6,30,70,9,7,30,16,20,10,9,40,14,34,26,10,40]): ws.column_dimensions[openpyxl.utils.get_column_letter(i+1)].width=wd
     for c in ws[1]: c.font=Font(bold=True,color='FFFFFF'); c.fill=PatternFill('solid',fgColor='1F3864')
     for row in ws.iter_rows(min_row=2,min_col=8,max_col=8):

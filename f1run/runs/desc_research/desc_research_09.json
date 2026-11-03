@@ -1,0 +1,402 @@
+[
+ {
+  "name": "Reinsurance Group Of",
+  "correct_name": "Reinsurance Group of America",
+  "description": "Reinsurance Group of America provides life and health reinsurance to insurance companies in the Americas, Europe, Africa and Asia Pacific, and trades on the NYSE.",
+  "source": "https://en.wikipedia.org/wiki/Reinsurance_Group_of_America",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Corebridge Financial",
+  "correct_name": "",
+  "description": "Corebridge Financial sells annuities, life insurance and retirement plans to individuals, employers and institutions in the US, and is an NYSE-listed company spun off from AIG in 2022.",
+  "source": "https://www.sec.gov/Archives/edgar/data/0001889539/000188953926000141/crbg-20260630.htm",
+  "note": "Agreed all-stock merger with Equitable Holdings (announced Mar 2026, shareholders approved Jul 2026); closing expected by end-2026.",
+  "confidence": "high"
+ },
+ {
+  "name": "MPOWER Financing",
+  "correct_name": "",
+  "description": "MPOWER Financing provides student loans without cosigners or collateral to international and DACA students attending hundreds of universities in the US and Canada.",
+  "source": "https://www.fintechfutures.com/lendtech/mpower-financing-boosts-lending-capacity-to-over-300m-with-fresh-debt-funding",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Grenergy",
+  "correct_name": "",
+  "description": "Grenergy is an independent power producer that builds and operates solar and battery storage plants in about 10 countries across Europe and the Americas, and is listed in Spain.",
+  "source": "https://en.wikipedia.org/wiki/Grenergy",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Zum",
+  "correct_name": "",
+  "description": "Zum provides school bus and student transportation services to US school districts, including electric bus fleets with vehicle-to-grid charging, and works with districts in about 15 states.",
+  "source": "https://en.wikipedia.org/wiki/Zum_(company)",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Presto",
+  "correct_name": "",
+  "description": "Presto sells voice AI systems that take drive-thru orders for quick-service restaurant chains, working with about a dozen restaurant brands across hundreds of locations.",
+  "source": "https://www.restaurantbusinessonline.com/technology/presto-raises-10m-fuel-its-ai-drive-thru-system",
+  "note": "Formerly Nasdaq-listed Presto Automation; delisted 2024 and assets sold to Remus Capital-led investors, now private as Presto Phoenix.",
+  "confidence": "high"
+ },
+ {
+  "name": "Equinor",
+  "correct_name": "",
+  "description": "Equinor is a majority state-owned Norwegian energy company producing oil, gas and renewable power for international markets, with over 20,000 employees and listings in Oslo and New York.",
+  "source": "https://en.wikipedia.org/wiki/Equinor",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Victory Capitz",
+  "correct_name": "Victory Capital",
+  "description": "Victory Capital is a Nasdaq-listed asset manager offering mutual funds, ETFs and separately managed accounts to institutional, intermediary and retail investors, with about $340 billion under management.",
+  "source": "https://ir.vcm.com/news/news-details/2026/Victory-Capital-Reports-May-2026-Total-Client-Assets/default.aspx",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Discovery Mining",
+  "correct_name": "",
+  "description": "Discovery Mining is a TSX-listed gold producer operating the Porcupine mining complex near Timmins, Ontario, bought from Newmont in 2025, and developing the Cordero silver project in Mexico.",
+  "source": "https://www.barchart.com/story/news/37074153/discovery-produces-66-718-ounces-of-gold-in-fourth-quarter-2025",
+  "note": "Renamed from Discovery Silver Corp.",
+  "confidence": "high"
+ },
+ {
+  "name": "Windward Bio",
+  "correct_name": "",
+  "description": "Windward Bio is a clinical-stage Basel biotech developing long-acting antibodies for asthma and other immune diseases, has raised about $365 million privately and filed for a Nasdaq IPO in 2026.",
+  "source": "https://www.renaissancecapital.com/IPO-Center/News/122385/switzerland-based-respiratory-biotech-windward-bio-group-files-for-a-100",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "tron Mountain",
+  "correct_name": "Iron Mountain",
+  "description": "Iron Mountain is an NYSE-listed company that stores and manages physical records and data, and operates data centers, for more than 220,000 business customers worldwide.",
+  "source": "https://en.wikipedia.org/wiki/Iron_Mountain_(company)",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Wonderful",
+  "correct_name": "",
+  "description": "Wonderful builds AI agents that handle customer service over voice, chat and email for large enterprises in non-English markets, and raised $150 million in 2026.",
+  "source": "https://www.bloomberg.com/news/articles/2026-03-12/ai-customer-support-startup-wonderful-ai-raises-150-million",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Banco Sabade",
+  "correct_name": "Banco Sabadell",
+  "description": "Banco Sabadell is a Spanish bank serving retail, business and corporate customers mainly in Spain, and is listed in Madrid as a member of the IBEX 35 index.",
+  "source": "https://en.ara.cat/economy/from-tortuous-purchase-to-key-takeover-bid-sabadell-bids-farewell-to-tsb_1_5464417.html",
+  "note": "BBVA hostile takeover bid failed (2025); sold UK unit TSB to Santander (completed 2026).",
+  "confidence": "high"
+ },
+ {
+  "name": "Fannie Mae",
+  "correct_name": "",
+  "description": "Fannie Mae is a US government-sponsored enterprise that buys and guarantees home mortgages from lenders, packaging them into securities for investors, and has been under federal conservatorship since 2008.",
+  "source": "https://en.wikipedia.org/wiki/Fannie_Mae",
+  "note": "Under FHFA conservatorship since 2008; exit/privatization under discussion but not completed.",
+  "confidence": "high"
+ },
+ {
+  "name": "AutoCanada",
+  "correct_name": "",
+  "description": "AutoCanada operates about 61 franchised car dealerships across eight Canadian provinces, selling new and used vehicles, parts, service and collision repair to consumers, and is TSX-listed.",
+  "source": "https://www.bnnbloomberg.ca/business/company-news/2026/07/16/autocanada-sells-3-bc-dealerships-for-a-total-of-322-million/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Red Cat",
+  "correct_name": "Red Cat Holdings",
+  "description": "Red Cat Holdings makes small military reconnaissance drones, including the Black Widow chosen for the US Army's Short Range Reconnaissance program, for defense and government customers; listed on Nasdaq.",
+  "source": "https://www.nasdaq.com/press-release/red-cat-announces-production-selection-us-army-short-range-reconnaissance-program",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Scale Computing",
+  "correct_name": "",
+  "description": "Scale Computing sells hyperconverged and edge computing platforms that retailers, schools and mid-sized businesses use to run applications across many sites; founded in Indianapolis in 2008.",
+  "source": "https://www.storagenewsletter.com/2026/02/04/company-profile-scale-computing/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "DataRobot",
+  "correct_name": "",
+  "description": "DataRobot sells a software platform that enterprises and government agencies use to build, deploy and govern machine learning models and AI agents, and is a venture-backed company based in Boston.",
+  "source": "https://aimagazine.com/data-and-analytics/datarobots-enterprise-ai-and-ml-cloud-platform",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Beacon Pointe",
+  "correct_name": "Beacon Pointe Advisors",
+  "description": "Beacon Pointe Advisors is a Newport Beach-based registered investment adviser offering wealth management, institutional consulting and retirement plan services to individuals and institutions, with about $63 billion in assets.",
+  "source": "https://dealroom.co/news/131806-beacon-pointe-acquires-financially-in-tune-grows-to-63b-in-assets/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Gogoro",
+  "correct_name": "",
+  "description": "Gogoro runs a battery-swapping network and sells electric scooters to riders in Taiwan, with over 2,700 swap stations and more than 650,000 riders, and is listed on Nasdaq.",
+  "source": "https://focustaiwan.tw/business/202604020022",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "FC Barcelona",
+  "correct_name": "",
+  "description": "FC Barcelona is a member-owned Spanish football and multi-sport club earning revenue from broadcasters, sponsors, merchandise and ticket sales, with record income of about €1.06 billion in 2025-26.",
+  "source": "https://onthemoney.sportbusiness.com/news/no-asset-sales-planned-as-barca-finances-improve/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Saudi Energy",
+  "correct_name": "Saudi Energy (formerly Saudi Electricity Company)",
+  "description": "Saudi Energy, formerly Saudi Electricity Company, generates, transmits and distributes electricity to government, industrial and residential customers across Saudi Arabia, and is listed on Tadawul.",
+  "source": "https://saudipedia.com/fr/saudi-energy",
+  "note": "Renamed from Saudi Electricity Company (Feb 2026).",
+  "confidence": "medium"
+ },
+ {
+  "name": "Alto Neuroscience",
+  "correct_name": "",
+  "description": "Alto Neuroscience is a clinical-stage biotech using EEG and other brain biomarkers to develop psychiatric drugs for depression and schizophrenia matched to likely responders; listed on the NYSE.",
+  "source": "https://www.renaissancecapital.com/Profile/ANRO",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "SAL",
+  "correct_name": "SAL Saudi Logistics Services",
+  "description": "SAL Saudi Logistics Services handles air cargo, ground handling, warehousing and logistics for airlines and shippers at 18 Saudi airports, moving about 961,000 tons in 2025; listed on Tadawul.",
+  "source": "https://ir.sal.sa/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Castelion",
+  "correct_name": "",
+  "description": "Castelion designs and manufactures hypersonic strike weapons, led by its Blackbeard missile, for the US Navy, Army, Air Force and allies, and raised a $1 billion Series C in 2026.",
+  "source": "https://www.castelion.com/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "maincubes",
+  "correct_name": "",
+  "description": "maincubes builds and operates data centers in Frankfurt, Berlin and Amsterdam for cloud and AI providers, enterprises and public-sector clients, with over 400 MW operating or under development.",
+  "source": "https://www.maincubes.com/en/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Platform Accounting Group",
+  "correct_name": "",
+  "description": "",
+  "source": "",
+  "note": "could not identify (web search budget exhausted; company website returned 403)",
+  "confidence": "low"
+ },
+ {
+  "name": "Bancomext",
+  "correct_name": "",
+  "description": "Bancomext is Mexico's state-owned development bank for foreign trade, providing credit and financial services to Mexican exporters and companies in export supply chains since 1937.",
+  "source": "https://en.wikipedia.org/wiki/Bancomext",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Commercial Bank Of Qatar",
+  "correct_name": "",
+  "description": "Commercial Bank of Qatar is a Doha-based bank, founded in 1975, offering retail, corporate, wealth management and investment banking services in Qatar, and is listed on the Qatar Stock Exchange.",
+  "source": "https://en.wikipedia.org/wiki/Commercial_Bank_of_Qatar",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Totalplay",
+  "correct_name": "",
+  "description": "Totalplay, part of Grupo Salinas, sells fiber-optic internet, pay TV and fixed phone bundles to households and businesses across 26 Mexican states and Mexico City.",
+  "source": "https://en.wikipedia.org/wiki/Totalplay",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Six Flags",
+  "correct_name": "Six Flags Entertainment Corporation",
+  "description": "Six Flags Entertainment Corporation operates amusement and water parks and resorts in North America for families and tourists, with about 34 properties, and is listed on the NYSE.",
+  "source": "https://en.wikipedia.org/wiki/Six_Flags",
+  "note": "Merged with Cedar Fair (Jul 2024); sold seven parks to EPR Properties (2026).",
+  "confidence": "high"
+ },
+ {
+  "name": "Pan American Energy",
+  "correct_name": "Pan American Energy Corp.",
+  "description": "Pan American Energy Corp. is an exploration-stage mining company acquiring and exploring battery-metal properties, including the Big Mack lithium project in northwestern Ontario, and is listed on the CSE.",
+  "source": "https://thecse.com/listings/pan-american-energy-corp/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Bristol-Myers Squibb",
+  "correct_name": "Bristol Myers Squibb",
+  "description": "Bristol Myers Squibb is an NYSE-listed pharmaceutical company selling cancer, cardiovascular, immunology and other prescription drugs such as Eliquis and Opdivo worldwide, with about $48 billion in 2025 revenue.",
+  "source": "https://en.wikipedia.org/wiki/Bristol_Myers_Squibb",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Nexstar Media Group",
+  "correct_name": "",
+  "description": "Nexstar Media Group is the largest US local television station owner, also controlling The CW, NewsNation and The Hill, earning from advertisers and pay-TV distributors, with about 18,500 employees.",
+  "source": "https://en.wikipedia.org/wiki/Nexstar_Media_Group",
+  "note": "Acquired Tegna ($6.2B; DOJ/FCC approved Mar 2026); state and DirecTV antitrust suits led to a court order restricting integration.",
+  "confidence": "high"
+ },
+ {
+  "name": "Brown University",
+  "correct_name": "",
+  "description": "Brown University is a private Ivy League research university in Providence, Rhode Island, founded in 1764, enrolling about 11,000 students with an endowment of roughly $9.5 billion.",
+  "source": "https://en.wikipedia.org/wiki/Brown_University",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "ACWA Power",
+  "correct_name": "Acwa (formerly ACWA Power)",
+  "description": "Acwa, formerly ACWA Power, develops and operates power, desalination and green hydrogen plants that sell electricity and water to state utilities in 14 countries; listed on Tadawul.",
+  "source": "https://en.wikipedia.org/wiki/ACWA_Power",
+  "note": "Rebranded from ACWA Power to Acwa (Jan 2026).",
+  "confidence": "high"
+ },
+ {
+  "name": "AMAG Pharmaceuticals",
+  "correct_name": "",
+  "description": "AMAG Pharmaceuticals is a US drug company best known for Feraheme, an intravenous iron treatment for adults with iron deficiency anemia, and has been a Covis Group subsidiary since 2020.",
+  "source": "https://en.wikipedia.org/wiki/AMAG_Pharmaceuticals",
+  "note": "Acquired by Covis Group (Nov 2020, about $498M); delisted from Nasdaq.",
+  "confidence": "high"
+ },
+ {
+  "name": "Nakamoto",
+  "correct_name": "",
+  "description": "Nakamoto is a Nasdaq-listed bitcoin company that holds bitcoin on its balance sheet and runs Bitcoin media (BTC Inc.), asset management (UTXO Management) and advisory businesses.",
+  "source": "https://nakamoto.com/",
+  "note": "Successor to KindlyMD after its 2025 merger with Nakamoto Holdings; trades as NAKA.",
+  "confidence": "high"
+ },
+ {
+  "name": "Wabtec",
+  "correct_name": "",
+  "description": "Wabtec makes locomotives, braking systems and other equipment and services for freight railroads and passenger transit operators worldwide, with about 29,500 employees and an NYSE listing.",
+  "source": "https://en.wikipedia.org/wiki/Wabtec",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "UL Solutions",
+  "correct_name": "",
+  "description": "UL Solutions provides product safety testing, inspection and certification services and compliance software to manufacturers and businesses in more than 110 countries, and is listed on the NYSE.",
+  "source": "https://www.ul.com/about",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Princeton Digital Group",
+  "correct_name": "",
+  "description": "Princeton Digital Group develops and operates hyperscale data centers for cloud and AI customers across seven Asia Pacific markets including Singapore, Japan, India and Indonesia.",
+  "source": "https://princetondg.com/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "ProducePay",
+  "correct_name": "",
+  "description": "ProducePay offers pre-season financing, quick payment and supply chain tools to fresh produce growers and buyers in more than 20 countries, and has over 300 employees.",
+  "source": "https://producepay.com/about-us/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Vestwell",
+  "correct_name": "",
+  "description": "Vestwell runs a retirement and education savings platform used by employers, financial advisors, institutions and state-run programs, serving over 2.75 million savers with more than $57 billion in assets.",
+  "source": "https://www.vestwell.com/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Copia Power",
+  "correct_name": "",
+  "description": "Copia Power develops and operates US solar, battery storage and thermal power campuses serving utilities, cooperatives, municipalities and corporations, with about 750 MW operating and over 30 GW in development.",
+  "source": "https://www.copiapower.com/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Rakuten Medical",
+  "correct_name": "",
+  "description": "Rakuten Medical develops cancer treatments based on its Alluminox photoimmunotherapy platform, with a drug approved in Japan for head and neck cancer and operations in the US, Japan and Taiwan.",
+  "source": "https://rakuten-med.com/us/",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Taiwan Semiconductor Manu",
+  "correct_name": "Taiwan Semiconductor Manufacturing Company (TSMC)",
+  "description": "TSMC is the world's largest contract chipmaker, producing chips for Nvidia, Apple, AMD and other designers, with about 70% foundry market share and listings in Taipei and New York.",
+  "source": "https://en.wikipedia.org/wiki/TSMC",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Allegiant Travel",
+  "correct_name": "Allegiant Travel Company",
+  "description": "Allegiant Travel runs Allegiant Air, a low-cost airline flying leisure travelers from small and mid-sized US cities to vacation destinations, plus travel packages, and is listed on Nasdaq.",
+  "source": "https://en.wikipedia.org/wiki/Allegiant_Air",
+  "note": "Acquired Sun Country Airlines (about $1.5B, closed May 2026).",
+  "confidence": "high"
+ },
+ {
+  "name": "Planet Fitness",
+  "correct_name": "",
+  "description": "Planet Fitness franchises and operates low-cost gyms aimed at casual and first-time exercisers, with about 2,700 clubs in the US, Canada, Mexico, Panama, Spain and Australia; NYSE-listed.",
+  "source": "https://en.wikipedia.org/wiki/Planet_Fitness",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "CHIP Reverse Mortgage",
+  "correct_name": "HomeEquity Bank (CHIP Reverse Mortgage)",
+  "description": "HomeEquity Bank, a Canadian chartered bank owned by Ontario Teachers' Pension Plan, offers CHIP reverse mortgages to homeowners aged 55 and over, with a portfolio above CA$5 billion.",
+  "source": "https://en.wikipedia.org/wiki/HomeEquity_Bank",
+  "note": "",
+  "confidence": "high"
+ },
+ {
+  "name": "Taylor Morrison",
+  "correct_name": "",
+  "description": "Taylor Morrison builds and sells new homes, from entry-level to resort-style communities, to homebuyers in 12 US states, and since July 2026 is owned by Berkshire Hathaway.",
+  "source": "https://www.berkshirehathaway.com/news/2026news.html",
+  "note": "Acquired by Berkshire Hathaway for $8.5B in cash (announced May 2026, closed Jul 2026).",
+  "confidence": "high"
+ }
+]
