@@ -14,7 +14,20 @@ PATTERNS = [
     r"\s*It appeared in a search for listed \(public\) companies\.",
     r"\s*Crunchbase gives its headquarters country as [^;.]*;[^.]*\.",
 ]
-_RX = [re.compile(p, re.I | re.S) for p in PATTERNS]
+
+# stock closing lines one writer appended from a fixed pool (generic, and the ownership ones may not fit the row)
+STOCK = ["Business-to-business model, so brand exposure through a consumer sport would be of limited commercial use.",
+         "Sells to professional buyers rather than the public, so sport sponsorship would reach few of its customers.",
+         "Its buyers are specialist or industrial professionals, so the fit with a mass-audience sport is limited.",
+         "Income depends on trial milestones and partner payments rather than product sales, which limits sponsorship budgets.",
+         "No marketed product yet, so spending on consumer brand-building is unlikely.",
+         "Pre-revenue and funded by investors, so marketing budgets are minimal and sponsorship appetite is low.",
+         "No longer trading as an independent business, so there is no active marketing budget to approach.",
+         "Now part of a larger group, so any sponsorship decision would sit with the parent company.",
+         "No longer independent, so outreach would need to go through its new owner.",
+         "Ownership has changed hands, so budgets and brand decisions rest with the acquirer.",
+         "Operations have ceased, so it is not a live sponsorship prospect."]
+_RX = [re.compile(p, re.I | re.S) for p in PATTERNS] + [re.compile(r'\s*' + re.escape(x)) for x in STOCK]
 def clean_about(t):
     t = str(t or '')
     for rx in _RX: t = rx.sub(' ', t)
