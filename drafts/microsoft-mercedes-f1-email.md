@@ -1,51 +1,57 @@
-**Subject:** Microsoft x Mercedes F1: what the deal covers and where the logo sits
+**Subject:** Microsoft on the Mercedes F1 car: quick rundown
 
 Hi Ant and Harness,
 
-You both asked where Microsoft sits on the Mercedes car. Here is a short summary of the deal, the placement, and links to the visuals.
+Following up on your question about Microsoft and Mercedes. Here's a quick rundown of the deal, where the logo sits right now, and some photos from last weekend in Mexico City.
 
 **The deal**
 
-- Multi-year partnership with the Mercedes-AMG PETRONAS F1 Team, announced 22 January 2026 and running from the 2026 season. The length has not been disclosed.
-- Microsoft is listed as a Principal Partner. That is the tier below title partner PETRONAS, alongside INEOS and CrowdStrike. No "Official X Partner" title has been published, and the team name is unchanged.
-- Value: Sky News reported it at around US$60M per season (cited by BlackBook Motorsport). Neither company has confirmed a figure. If the number is right, it is one of the biggest single team sponsorships on the grid.
+Microsoft signed a multi-year partnership with Mercedes-AMG PETRONAS, announced on 22 January and starting this season. It moved across from Alpine, whose deal ended after 2025. Microsoft first sponsored that team back in 2012, when it raced as Lotus.
 
-**Where the logo sits on the W17**
+Mercedes lists Microsoft as a Principal Partner. That's the tier just below title partner PETRONAS, alongside INEOS and CrowdStrike. There's no category title like "Official Cloud Partner", and neither side has disclosed the length or the fee. The only number out there comes from Sky News, which quoted a sponsorship expert estimating the deal at around $60m a year. Both companies declined to comment, so treat that as an estimate rather than a confirmed figure.
 
-- Airbox: the intake directly above the driver's head. This is the premium spot INEOS held on last year's car. INEOS has moved to the nose.
-- Front wing endplates.
-- Race suits: Autosport and others report the logo on George Russell's and Kimi Antonelli's overalls.
+**Where the logo sits now**
 
-The airbox and endplate placements are both clear in the official launch image (first link below).
+I checked Mercedes' own photos from Mexico City (30 Oct to 1 Nov). Nothing has moved since the launch:
 
-**What Microsoft is doing for the team**
+- Both sides of the airbox, the intake right above the driver's head.
+- The outside of both front wing endplates, just under the IWC logo.
+- The drivers' race suits, on the front just below the big PETRONAS lettering. It's in the same spot on the pit crew's overalls.
 
-This is a technology deal as well as a branding one. From the team's announcement and Microsoft's own material:
+It's the standard Microsoft logo everywhere, not Azure or Copilot branding. It also stayed on for the one-off liveries Mercedes has run this year, like the blue one in Austin.
 
-- Microsoft Azure and its AI tools expand the team's high-performance computing and data work, both at the Brackley factory and trackside. The named uses are simulation, performance analysis, race strategy modelling and cross-team analytics.
-- Azure Kubernetes Service lets the team scale computing power up or down as needed. This helps it stay within F1's financial regulations and test new parts without waiting for new in-house hardware.
-- The team already used Microsoft 365 and GitHub and is expanding its use of both.
-- Microsoft's customer story says Azure runs thousands of live strategy simulations around race weekends. Mercedes' Lead Race Strategist, Joey McMillan, credits Azure Batch for this.
+**What the season looks like**
 
-Toto Wolff: "By putting Microsoft's technology at the centre of how we operate as a team, we will create faster insights, smarter collaboration and new ways of working."
+Microsoft picked a good year to come in. Kimi Antonelli clinched the drivers' title in Mexico City on Sunday and is now the youngest world champion in F1 history. Mercedes has won 12 of the 19 races so far and had a car on the podium at every one. It leads the constructors' standings by 126 points (630 to Ferrari's 504) with four races left. So the Microsoft logo has been on the front-running car all season.
 
-Judson Althoff, CEO of Microsoft's commercial business: "This partnership puts Microsoft's cloud and enterprise AI technologies at the heart of racing performance."
+**What Microsoft does for the team**
 
-**Background**
+It's more than a logo deal. Per the January announcement:
 
-Microsoft moved across from Alpine. It first backed the Enstone team in 2012, when it raced as Lotus, and most recently promoted Xbox and Azure with Alpine from 2023 to 2025. That deal ended after the 2025 season.
+- Azure and Microsoft's AI tools add to the team's existing computing and data setup, both at the factory and trackside. The named uses are simulation, performance analysis, race strategy and cross-team analytics.
+- The team was already using Microsoft 365 and GitHub across Brackley, Brixworth and trackside, and is expanding both.
+- They've piloted "virtual sensors" on Azure. These are models that work out a sensor reading from data the car already produces, so the team doesn't have to add extra hardware.
 
-**Links**
+Microsoft put out a case study in September with more detail. The team now runs up to 10 million strategy simulations over a race weekend, about 75% of them live. It scales computing up for race windows and back down afterwards to keep costs down. More than 150 of its engineers use GitHub Copilot day to day, and the team tracks its cost-cap spending in Power BI.
 
-1. Official W17 launch image (Microsoft on the airbox and front wing endplate): https://images.ctfassets.net/1fvlg6xqnm65/5mPoJIJroXGsBxhRL0tYrQ/5bcb87e98a87414fe2fc900bc68382ba/Mercedes-AMG_F1_W17_E_PERFORMANCE_-_GR_6.jpg
-2. Mercedes W17 launch release: https://www.mercedesamgf1.com/news/mercedes-amg-f1-2026-challenger-w17-revealed
-3. Autosport, W17 livery reveal with photos: https://www.autosport.com/f1/news/mercedes-reveals-new-look-f1-design-for-2026/10791870/
-4. Autosport, Microsoft switches from Alpine to Mercedes: https://www.autosport.com/f1/news/microsoft-switches-f1-sponsorship-from-alpine-to-mercedes/10791880/
-5. Mercedes partner list by tier: https://www.mercedesamgf1.com/partners
-6. BlackBook Motorsport on the deal and reported value: https://www.blackbookmotorsport.com/news/mercedes-f1-microsoft-ai-tech-sponsorship-january-2026/
-7. Microsoft customer story on Mercedes race strategy: https://www.microsoft.com/en-us/customers/brand-collections/mercedes-f1-race-performance-and-strategy
+One more thing: Fortune reported on 12 October that Peter Lee, who is leaving his role as president of Microsoft Science, plans to join Mercedes in a newly created AI advisor role. Mercedes hadn't commented at the time, and the article doesn't link it to the sponsorship, so I'd treat it as a side note.
 
-Happy to dig further into any part of this.
+**Photos**
+
+- Mexico City podium, showing the airbox and front wing: https://images.ctfassets.net/1fvlg6xqnm65/4Abc7ToQXAV5Y97zCsO1C0/e676a1a87f5f19fcdb0b6de9183adc1f/M647494.jpg
+- Mexico City on track, other side of the car: https://images.ctfassets.net/1fvlg6xqnm65/7F6wVoNH8P1wn374wlXBYR/5b62cef0b1783af6de4c00456e60418a/05-M646356.jpg
+- George Russell's race suit: https://images.ctfassets.net/1fvlg6xqnm65/32kZtdZi5ODZpx1Wcgjxrv/7456b45848aa5a9365c1cf49832d3ff0/M647367.jpg
+- Mercedes' full Mexico City gallery: https://www.mercedesamgf1.com/news/in-pictures-the-best-images-from-mexico-city-2026
+- Launch studio shot from January: https://images.ctfassets.net/1fvlg6xqnm65/5mPoJIJroXGsBxhRL0tYrQ/5bcb87e98a87414fe2fc900bc68382ba/Mercedes-AMG_F1_W17_E_PERFORMANCE_-_GR_6.jpg
+
+**Sources if you want to dig in**
+
+- Microsoft's announcement: https://news.microsoft.com/source/2026/01/22/microsoft-and-mercedes-amg-petronas-f1-team-unite-to-drive-innovation-from-factory-to-circuit/
+- Microsoft's September case study: https://www.microsoft.com/en/customers/story/27253-mercedes-amg-petronas-f1-team-azure-kubernetes-service
+- Mercedes partner list: https://www.mercedesamgf1.com/partners
+- Mercedes race report from Mexico City: https://www.mercedesamgf1.com/reports/race-report-kimi-antonelli-becomes-youngest-ever-world-champion-with-mexico-podium
+
+Let me know if you want me to dig into anything else.
 
 Best,
 Rahul
