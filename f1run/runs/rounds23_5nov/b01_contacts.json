@@ -1,0 +1,336 @@
+{
+ "rows": [
+  {
+   "brand": "KoBold Metals",
+   "people": [
+    {
+     "name": "Kurt House",
+     "title": "Chief Executive & Co-Founder",
+     "email": "kurt.house@koboldmetals.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kurtzenzhouse",
+     "location": "San Francisco, California, United States"
+    },
+    {
+     "name": "Katongo Chilufya",
+     "title": "Head of Corporate Communications",
+     "email": "katongo.chilufya@koboldmetals.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/katongochilufya",
+     "location": "Zambia"
+    },
+    {
+     "name": "Josh Goldman",
+     "title": "Co-Founder & President",
+     "email": "josh.goldman@koboldmetals.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/josh-goldman-819b834",
+     "location": "Boston, Massachusetts, United States"
+    },
+    {
+     "name": "Fabiana Peek",
+     "title": "Director of Community Engagement",
+     "email": "fabiana.peek@koboldmetals.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/fabiana-peek-illescas-165b8226",
+     "location": "North Las Vegas, Nevada, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Fleet Space Technologies",
+   "people": [
+    {
+     "name": "Flavia Nardini",
+     "title": "CEO and Co-founder",
+     "email": "flavia@fleet.space",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/flavia-tata-nardini-53220b231",
+     "location": "Adelaide Airport, Australia"
+    },
+    {
+     "name": "Steve Ledger",
+     "title": "Regional VP, Strategic Partnerships",
+     "email": "steve.ledger@fleet.space",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/steve-ledger-810b066",
+     "location": "Brisbane, Australia"
+    },
+    {
+     "name": "Danielle Pinkus",
+     "title": "Head of Ecosystem and Partnerships",
+     "email": "danielle.pinkus@fleet.space",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/danielle-pinkus-83a25066",
+     "location": "Sydney, Australia"
+    },
+    {
+     "name": "Danielle Higgs",
+     "title": "Chief of Staff - Marketing",
+     "email": "danielle.higgs@fleet.space",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/higgsdanielle",
+     "location": "Sydney, Australia"
+    }
+   ]
+  },
+  {
+   "brand": "EARTH AI",
+   "people": [
+    {
+     "name": "Roman Teslyuk",
+     "title": "Founder and CEO",
+     "role": "decision_maker",
+     "email": "roman@earth-ai.com"
+    },
+    {
+     "name": "Isabella Sykes",
+     "title": "COO",
+     "email": "isabella@earth-ai.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Holly Davine",
+     "title": "Business Operations Manager",
+     "email": "holly@earth-ai.com",
+     "role": "cro"
+    },
+    {
+     "name": "Lillie Alston",
+     "title": "Chief of Staff",
+     "email": "lillie@earth-ai.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/lillie-maree-alston-873620235",
+     "location": "Sydney, Australia"
+    }
+   ]
+  },
+  {
+   "brand": "GeologicAI",
+   "people": [
+    {
+     "name": "Grant Sanden",
+     "title": "CEO and Founder of GeologicAI",
+     "email": "gsanden@geologicai.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/grant-sanden-enersoft",
+     "location": "Calgary, Canada"
+    },
+    {
+     "name": "Michael Flach",
+     "title": "Chief Commercial Officer",
+     "email": "mflach@geologicai.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/michael-flach-01b36813",
+     "location": "Calgary, Canada"
+    },
+    {
+     "name": "Jessica Andrew",
+     "title": "Director of Business Development",
+     "email": "jandrew@geologicai.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jessicaandrew",
+     "location": "Calgary, Canada"
+    },
+    {
+     "name": "Jamie Davie",
+     "title": "Director of Sales",
+     "email": "jdavie@geologicai.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jamie-davie-6236b83",
+     "location": "Newmarket, Canada"
+    }
+   ]
+  },
+  {
+   "brand": "Datarock",
+   "people": [
+    {
+     "name": "Stephen Alpers",
+     "title": "Business Development",
+     "email": "stephenalpers@datarock.com.au",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/stephenalpers",
+     "location": "Perth, Australia"
+    },
+    {
+     "name": "Tim Chalke",
+     "title": "Business Development Manager",
+     "email": "timchalke@datarock.com.au",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/tim-chalke-61b79821",
+     "location": "Hobart, Australia"
+    }
+   ]
+  },
+  {
+   "brand": "Epiroc",
+   "people": [
+    {
+     "name": "Karin Cox",
+     "title": "Vice President Brand & Communication, Epiroc AB",
+     "email": "karin.cox@epiroc.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/karin-cox-epiroc",
+     "location": "Stockholm, Sweden"
+    },
+    {
+     "name": "Kevin Chui",
+     "title": "Global Vice President Marketing - Parts and Service Divisions",
+     "email": "kevin.chui@epiroc.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kevin-chui",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Dustin Penn",
+     "title": "Vice President Marketing",
+     "email": "dustin.penn@epiroc.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/dustin-penn-11738985",
+     "location": "Dallas, United States"
+    },
+    {
+     "name": "Nurgul Atayer",
+     "title": "Head of Global Marketing Communications and Brand",
+     "email": "nurgul.atayer@epiroc.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/nurgulatayer",
+     "location": "Stockholm, Sweden"
+    }
+   ]
+  },
+  {
+   "brand": "Lilac",
+   "people": [
+    {
+     "name": "Elizabeth Pond",
+     "title": "VP of Communications and Brand",
+     "role": "decision_maker",
+     "email": "elizabeth.pond@lilacsolutions.com"
+    },
+    {
+     "name": "Christopher McCune",
+     "title": "Vice President, Capital Markets and Partnerships",
+     "role": "vp_marketing",
+     "email": "christopher.mccune@lilacsolutions.com"
+    },
+    {
+     "name": "Matthew Ganser",
+     "title": "SVP, Sales & Government Affairs",
+     "role": "cro",
+     "email": "matthew.ganser@lilacsolutions.com"
+    },
+    {
+     "name": "Raef Sully",
+     "title": "Chief Executive Officer",
+     "role": "field_marketing",
+     "email": "raef.sully@lilacsolutions.com"
+    }
+   ]
+  },
+  {
+   "brand": "Jetti Resources",
+   "people": [
+    {
+     "name": "Nelson Mora",
+     "title": "CTO & Acting CEO",
+     "email": "nelsonmora@jettiresources.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/nelsonmorabio",
+     "location": "Perth, Australia"
+    },
+    {
+     "name": "Mike Outwin",
+     "title": "Co-Founder",
+     "email": "mike@jettiresources.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/michaeloutwin",
+     "location": "United States"
+    },
+    {
+     "name": "Monserrat Rebolledo",
+     "title": "Director",
+     "email": "monserebolledo@jettiresources.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/monserrat-rebolledo",
+     "location": "Vancouver, Canada"
+    }
+   ]
+  },
+  {
+   "brand": "Phoenix Tailings",
+   "people": [
+    {
+     "name": "Nicholas Myers",
+     "title": "CEO & Co-Founder",
+     "email": "nick@phoenixtailings.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/nicholaswilliammyers",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Anthony Balladon",
+     "title": "Chief Commercial Officer & Co-Founder",
+     "email": "anthony@phoenixtailings.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/anthonyballadon",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Peter Bellotti",
+     "title": "VP of Sales",
+     "email": "peter.bellotti@phoenixtailings.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/peter-bellotti-78a78791",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Peter Kombouras",
+     "title": "Senior Director of Strategic Partnerships",
+     "email": "peter.kombouras@phoenixtailings.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/peter-kombouras-181b888",
+     "location": "Boston, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Seequent",
+   "people": [
+    {
+     "name": "Karen Bone",
+     "title": "Director, Digital Marketing",
+     "email": "karen.bone@seequent.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/karen-bone",
+     "location": "Vancouver, Canada"
+    },
+    {
+     "name": "Samuel Chappell",
+     "title": "Director, Segment and Product Marketing",
+     "email": "sam.chappell@seequent.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/samuel-chappell-16a60034",
+     "location": "New Zealand"
+    },
+    {
+     "name": "Daniela Ximenes",
+     "title": "Director of Business Development - EMEA Region",
+     "email": "daniela.ximenes@seequent.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/daniela-ximenes",
+     "location": "Madrid, Spain"
+    },
+    {
+     "name": "Scott Moore",
+     "title": "Director, Business Development New Markets",
+     "email": "scott.moore@seequent.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/scottmooreperth",
+     "location": "Perth, Australia"
+    }
+   ]
+  }
+ ]
+}

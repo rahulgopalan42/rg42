@@ -1,0 +1,302 @@
+{
+ "rows": [
+  {
+   "brand": "Parker Hannifin",
+   "people": [
+    {
+     "name": "Mark Schoessler",
+     "title": "VP Sales and Marketing",
+     "email": "mschoessler@parker.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Matt Pritchard",
+     "title": "Vice President of Sales and Marketing",
+     "email": "mpritchard@parker.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Craig Sagar",
+     "title": "Group Marketing Communications Leader",
+     "email": "craig.sagar@parker.com",
+     "role": "cro"
+    },
+    {
+     "name": "Ewa Saunders",
+     "title": "Group Marketing Communications Leader",
+     "email": "ewa.saunders@parker.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Eaton",
+   "people": [
+    {
+     "name": "Megan Graves",
+     "title": "Marketing and Strategic Partnerships",
+     "role": "decision_maker",
+     "email": "meganegraves@eaton.com"
+    },
+    {
+     "name": "Ben Bercham",
+     "title": "Director - Energy Transition, Business Development, and Partnerships",
+     "role": "vp_marketing",
+     "email": "benjaminrbercham@eaton.com"
+    },
+    {
+     "name": "Dave Barrett",
+     "title": "Business Development",
+     "role": "cro",
+     "email": "davetbarrett@eaton.com"
+    },
+    {
+     "name": "Latia Miller",
+     "title": "Strategic Partnerships",
+     "role": "field_marketing",
+     "email": "latianmiller@eaton.com"
+    }
+   ]
+  },
+  {
+   "brand": "Cummins",
+   "people": [
+    {
+     "name": "Carole Casto",
+     "title": "Vice President-Marketing and Communications",
+     "email": "carole.casto@cummins.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Shailesh Zinge",
+     "title": "Director - Marketing Growth Initiatives & Product Strategy",
+     "email": "shailesh.zinge@cummins.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Srikant Gupta",
+     "title": "Strategy, Marketing & Sales Leader",
+     "email": "srikant.gupta@cummins.com",
+     "role": "cro"
+    },
+    {
+     "name": "Brooke Robertson",
+     "title": "Director Marketing Communications",
+     "email": "brooke.robertson@cummins.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Yokogawa Electric Corporation",
+   "people": [
+    {
+     "name": "Mickael Lozac'h",
+     "title": "Business Development & Marketing Manager",
+     "role": "decision_maker",
+     "email": "mickael.lozach@yokogawa.com"
+    },
+    {
+     "name": "Peter McGrory",
+     "title": "Energy Business Development/Marketing Strategy",
+     "role": "vp_marketing",
+     "email": "peter.mcgrory@yokogawa.com"
+    },
+    {
+     "name": "Kennan Sirait",
+     "title": "Regional Product Marketing and Business Development",
+     "role": "cro",
+     "email": "kennan.sirait@yokogawa.com"
+    },
+    {
+     "name": "Jordi Toro",
+     "title": "Business Development Specialist",
+     "role": "field_marketing",
+     "email": "jordi.toro@yokogawa.com"
+    }
+   ]
+  },
+  {
+   "brand": "SMC Corporation",
+   "people": [
+    {
+     "name": "Steven Loke",
+     "title": "Director of Marketing",
+     "email": "stevenloke@smcsing.com.sg",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/steven-loke-565919188",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Martin Schuh",
+     "title": "Director Sales&Business Development CEE",
+     "email": "mschuh@smcusa.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/martin-schuh-97950656",
+     "location": "Austria"
+    },
+    {
+     "name": "Grzegorz Welke",
+     "title": "Head of Sales & Marketing Poland",
+     "email": "gwelke@smcusa.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/grzegorz-welke-61a34a273",
+     "location": "Gdansk, Poland"
+    }
+   ]
+  },
+  {
+   "brand": "Keyence",
+   "people": [
+    {
+     "name": "Alex Piscopo",
+     "title": "Director, Marketing & Strategic Business Development",
+     "email": "alex.piscopo@keyence.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Ayush Sharma",
+     "title": "Marketing Team Lead",
+     "email": "ayush.sharma@keyence.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Ryan Pfaff",
+     "title": "Marketing Director",
+     "email": "ryan.pfaff@keyence.com",
+     "role": "cro"
+    },
+    {
+     "name": "Greg Haldaman",
+     "title": "Director of Business Development",
+     "email": "greg.haldaman@keyence.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "SICK AG",
+   "people": [
+    {
+     "name": "Samir Desai",
+     "title": "Head- Logistics Automation Sales, Business Development, Product Management, Marketing",
+     "role": "decision_maker",
+     "email": "samir.desai@sick-india.com"
+    },
+    {
+     "name": "Andreas Esslinger",
+     "title": "Head of Marketing",
+     "role": "vp_marketing",
+     "email": "andreas.esslinger@sick.de"
+    },
+    {
+     "name": "Aaron Woytcke",
+     "title": "Director, Marketing",
+     "role": "cro",
+     "email": "aaron.woytcke@sick.com"
+    },
+    {
+     "name": "Christin Koelsch",
+     "title": "Brand Manager",
+     "role": "field_marketing",
+     "email": "christin.koelsch@sick.de"
+    }
+   ]
+  },
+  {
+   "brand": "Yaskawa Electric",
+   "people": [
+    {
+     "name": "Jeff Pike",
+     "title": "Director, Motion Group Marketing",
+     "email": "jeff_pike@yaskawa.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jeff-pike-b83066a",
+     "location": "Madison, United States"
+    },
+    {
+     "name": "Johnny Jarhall",
+     "title": "Sales & Marketing Director",
+     "email": "johnny.jarhall@yaskawa.eu",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/johnnyjarhall",
+     "location": "Sweden"
+    },
+    {
+     "name": "Jim Mackinnon",
+     "title": "Director International Sales",
+     "email": "jim_mackinnon@yaskawa.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jim-mackinnon-aa35032a",
+     "location": "Calgary, Canada"
+    },
+    {
+     "name": "Yoshiharu Hayashi",
+     "title": "Manager, Business Promotion Dept., Global Marketing Div.",
+     "email": "yoshiharu.hayashi@yaskawa.co.jp",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/yoshiharu-hayashi-978a1413b",
+     "location": "Tokyo, Japan"
+    }
+   ]
+  },
+  {
+   "brand": "Teradyne",
+   "people": [
+    {
+     "name": "Craig Dowley",
+     "title": "Chief Marketing Officer - Teradyne Robotics",
+     "email": "craig.dowley@teradyne.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Paul Okino",
+     "title": "SVP of Memory Marketing",
+     "email": "paul.okino@teradyne.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Nico Ostendorf",
+     "title": "Global Lead - Marketing Strategy & GTM - Robotics",
+     "email": "nico.ostendorf@teradyne.com",
+     "role": "cro"
+    },
+    {
+     "name": "Colleen Hayes",
+     "title": "VP, Strategic Marketing, Robotics Group",
+     "email": "colleen.hayes@teradyne.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Comau S.p.A.",
+   "people": [
+    {
+     "name": "Chao Bie",
+     "title": "Head of Marketing APAC\uff0cHead of Government Affairs China, Head of Business Development China(interim)",
+     "role": "decision_maker",
+     "email": "chao.bie@comau.com"
+    },
+    {
+     "name": "Marcelo Lima",
+     "title": "Head of Marketing South America",
+     "role": "vp_marketing",
+     "email": "marcelo.lima@comau.com"
+    },
+    {
+     "name": "Andrea Puglielli",
+     "title": "Head of Marketing Extended Europe & Marketing After Sales Segment Leader",
+     "role": "cro",
+     "email": "andrea.puglielli@comau.com"
+    },
+    {
+     "name": "Giuseppe Costabile",
+     "title": "Global Communications and Brand Manager",
+     "role": "field_marketing",
+     "email": "giuseppe.costabile@comau.com"
+    }
+   ]
+  }
+ ]
+}

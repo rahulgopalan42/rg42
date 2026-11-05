@@ -1,0 +1,303 @@
+{
+ "rows": [
+  {
+   "brand": "Amphenol",
+   "people": [
+    {
+     "name": "Kyle Kruse",
+     "title": "Growth Marketing and Communications Director",
+     "email": "kkruse@amphenol-aio.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Hasan Keskin",
+     "title": "Director of Business Development and Marketing, Turkiye & Middle East",
+     "email": "keskin@amphenol.com.tr",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Barb Lent",
+     "title": "Director, Sales and Marketing",
+     "email": "barbl@amphenolcanada.com",
+     "role": "cro"
+    },
+    {
+     "name": "Dan Gorsage",
+     "title": "Director of Global Account Sales & New Business Development",
+     "email": "dan.gorsage@amphenolmcp.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "TE Connectivity",
+   "people": [
+    {
+     "name": "Melissa Kladder",
+     "title": "Vice President of Sales & Marketing",
+     "email": "melissa.kladder@te.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Julie Alsua",
+     "title": "Director Marketing Communications",
+     "email": "julie.alsua@te.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Heather Heimbuch",
+     "title": "Marketing Communications Leader",
+     "email": "heather.heimbuch@te.com",
+     "role": "cro"
+    },
+    {
+     "name": "Ann-Kathrin Knorn",
+     "title": "Brand and Communications Lead EMIA",
+     "email": "annkathrin.knorn@te.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "US Conec",
+   "people": [
+    {
+     "name": "Jennifer Cline",
+     "title": "Director, Business & Technology Development",
+     "role": "decision_maker",
+     "email": "jennifercline@usconec.com"
+    },
+    {
+     "name": "Tracey Horton",
+     "title": "President",
+     "email": "traceyhorton@usconec.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/tracey-horton-abb7a67",
+     "location": "Hickory, United States"
+    },
+    {
+     "name": "Wilmar Cubias",
+     "title": "Vice President of Global Sales",
+     "email": "wilmarcubias@usconec.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/wilmarcubias",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Youa Yang-Xiong",
+     "title": "Marketing Communications Manager",
+     "email": "youayang-xiong@usconec.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/youayangxiong",
+     "location": "Hickory, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Panduit",
+   "people": [
+    {
+     "name": "Dawn Leach",
+     "title": "Global Brand Lead",
+     "role": "decision_maker",
+     "email": "dawn.leach@panduit.com"
+    },
+    {
+     "name": "Bob Kenny",
+     "title": "Marketing",
+     "role": "vp_marketing",
+     "email": "bob.kenny@panduit.com"
+    },
+    {
+     "name": "Maricarmen Medina",
+     "title": "Marketing",
+     "role": "cro",
+     "email": "maricarmen.medina@panduit.com"
+    },
+    {
+     "name": "Mahmoud Dief",
+     "title": "Business Development Manager",
+     "role": "field_marketing",
+     "email": "mahmoud.dief@panduit.com"
+    }
+   ]
+  },
+  {
+   "brand": "Leviton",
+   "people": [
+    {
+     "name": "Jennifer Przewoznik",
+     "title": "Vice President Marketing",
+     "email": "jprzewoznik@leviton.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jennifer-przewoznik-a97a51a9",
+     "location": "Huntington Station, United States"
+    },
+    {
+     "name": "Ron Ridenour",
+     "title": "Vice President of Sales and Marketing",
+     "email": "rridenour@leviton.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/ron-ridenour-40645619",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Bruno Filio",
+     "title": "Vice President of Global Business Development",
+     "email": "bfilio@leviton.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/bruno-filio-92582a4",
+     "location": "Fort Lauderdale, United States"
+    },
+    {
+     "name": "Peter Kleinman",
+     "title": "Director of Marketing",
+     "email": "pkleinman@leviton.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/peter-kleinman-478b7aa",
+     "location": "Melville, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Viavi Solutions",
+   "people": [
+    {
+     "name": "Sian Cummings",
+     "title": "Vice President, Viavi Global Marketing",
+     "email": "sian.cummings@viavisolutions.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/sian-cummings-6926442",
+     "location": "Denver, Colorado, United States"
+    },
+    {
+     "name": "Stephen Hire",
+     "title": "Vice President, Wireless Marketing",
+     "email": "stephen.hire@viavisolutions.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/stephenhire",
+     "location": "Hong Kong"
+    },
+    {
+     "name": "Jurrie Van Den Breekel",
+     "title": "VP Presales & Partnerships",
+     "email": "jurrie.vandenbreekel@viavisolutions.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jurrievandenbreekel",
+     "location": "Calabasas, California, United States"
+    },
+    {
+     "name": "Peter Halverson",
+     "title": "Global Vice President of Sales and Business Development - Wireless Business Unit",
+     "email": "peter.halverson@viavisolutions.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/peter-d-halverson",
+     "location": "Dallas, Texas, United States"
+    }
+   ]
+  },
+  {
+   "brand": "EXFO",
+   "people": [
+    {
+     "name": "Germain Lamonde",
+     "title": "Founder, CEO and Executive Chairman of EXFO",
+     "email": "germain.lamonde@exfo.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/germain-lamonde-exfo",
+     "location": "Quebec City, Canada"
+    },
+    {
+     "name": "Louis Adam",
+     "title": "Chief Marketing Officer (CMO)",
+     "email": "louis.adam@exfo.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/louisadam",
+     "location": "Quebec City, Canada"
+    },
+    {
+     "name": "Stephane Chabot",
+     "title": "Vice President of Global Business Development",
+     "email": "stephane.chabot@exfo.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/stephanechabot",
+     "location": "Quebec City, Canada"
+    },
+    {
+     "name": "Michael Scheppke",
+     "title": "Vice President of Sales (APAC, Global Labs and Manufacturing)",
+     "email": "michael.scheppke@exfo.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/mscheppke",
+     "location": "Singapore, Singapore"
+    }
+   ]
+  },
+  {
+   "brand": "Fluke Corporation",
+   "people": [
+    {
+     "name": "Georgia Marchant",
+     "title": "Director Global Communications",
+     "email": "georgia.marchant@fluke.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/georgia-marchant",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Sandra Pernis",
+     "title": "EMEA Head of Marketing Communications",
+     "email": "sandra.pernis@fluke.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sandrabaijensvanpernis",
+     "location": "Netherlands"
+    },
+    {
+     "name": "Mark Inouye",
+     "title": "Brand UX and Creative Director",
+     "email": "mark.inouye@fluke.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/markinouye",
+     "location": "Lake Stevens, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Luna Innovations",
+   "people": [
+    {
+     "name": "Salvan Farooqui",
+     "title": "Senior Vice President - Head of Global Sales & Marketing",
+     "email": "farooquis@lunainc.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/salvan-farooqui-7040b21b9",
+     "location": "Santa Clara, United States"
+    },
+    {
+     "name": "Rich Silley",
+     "title": "VP Sales & Marketing",
+     "email": "rich.silley@lunainc.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/richardsilley",
+     "location": "Reading, United Kingdom"
+    },
+    {
+     "name": "Ian Shannan",
+     "title": "Vice President of EMEA Sales",
+     "email": "shannani@lunainc.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/ian-shannan-9462232a2",
+     "location": "Edinburgh, United Kingdom"
+    },
+    {
+     "name": "Wajih Daab",
+     "title": "Director of Product Marketing",
+     "email": "daabw@lunainc.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/wajih-daab-74ab2949",
+     "location": "Los Angeles, United States"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,299 @@
+{
+ "rows": [
+  {
+   "brand": "Adtran",
+   "people": [
+    {
+     "name": "Hirva Bharadia",
+     "title": "Marketing Specialist",
+     "role": "decision_maker",
+     "email": "hirva.bharadia@adtran.com"
+    },
+    {
+     "name": "Michael Sumitra",
+     "title": "Solutions Marketing Manager",
+     "role": "vp_marketing",
+     "email": "michael.sumitra@adtran.com"
+    },
+    {
+     "name": "Haley Barnhill",
+     "title": "Americas Marketing Manager",
+     "role": "cro",
+     "email": "haley.barnhill@adtran.com"
+    },
+    {
+     "name": "Julian Khoury",
+     "title": "Business Development",
+     "role": "field_marketing",
+     "email": "julian.khoury@adtran.com"
+    }
+   ]
+  },
+  {
+   "brand": "Calix",
+   "people": [
+    {
+     "name": "Juergen Lindner",
+     "title": "Chief Marketing Officer",
+     "email": "juergen.lindner@calix.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/lindnerjuergen",
+     "location": "Redwood City, United States"
+    },
+    {
+     "name": "Scott Neuman",
+     "title": "Senior Vice President / Vice President of Corporate Marketing",
+     "email": "scott.neuman@calix.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/scottneuman",
+     "location": "Norwich, United States"
+    },
+    {
+     "name": "Stephen Eyre",
+     "title": "Vice President, Calix Partner Ecosystem",
+     "email": "stephen.eyre@calix.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/stepheneyre",
+     "location": "Canada"
+    },
+    {
+     "name": "Aleksandra Ciric",
+     "title": "Sr. Director Marketing",
+     "email": "aleksandra.ciric@calix.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/aleksandra-ciric-012121136",
+     "location": "Miami Beach, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Ribbon Communications",
+   "people": [
+    {
+     "name": "Andreas Hegers",
+     "title": "Senior Director Global Marketing",
+     "role": "decision_maker",
+     "email": "andreas.hegers@ecitele.com"
+    },
+    {
+     "name": "Lance McCall",
+     "title": "Sr. Director | Global Campaigns & Marketing Operations",
+     "role": "vp_marketing",
+     "email": "lmccall@rbbn.com"
+    },
+    {
+     "name": "Kevin Wade",
+     "title": "Director of Solutions Marketing, AI Strategy and Acumen",
+     "role": "cro",
+     "email": "kwade@rbbn.com"
+    },
+    {
+     "name": "Yoav Spanic",
+     "title": "Marketing Manager, Enterprise & Channel Marketing",
+     "role": "field_marketing",
+     "email": "yoav.spanic@ecitele.com"
+    }
+   ]
+  },
+  {
+   "brand": "NEC Corporation",
+   "people": [
+    {
+     "name": "Mayuko Tatewaki",
+     "title": "Corporate Senior Vice President, Marketing and Alliance",
+     "email": "tatewaki@nec.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mayuko-tatewaki-785b6411",
+     "location": "Japan"
+    },
+    {
+     "name": "Hideki Tomioka",
+     "title": "Senior Director, Head of Corporate Brand Strategy Department",
+     "email": "hideki-tomioka@nec.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/hideki-tomioka",
+     "location": "Tokyo, Japan"
+    },
+    {
+     "name": "Junichi Nishimura",
+     "title": "Senior Director, Marketing Center of Excellence",
+     "email": "junichi-nishimura@nec.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/junichi-nishimura-b6b07467",
+     "location": "Japan"
+    },
+    {
+     "name": "Miki Otani",
+     "title": "Director of Communications",
+     "email": "m-otani@nec.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/miki-otani-8a936b52",
+     "location": "Japan"
+    }
+   ]
+  },
+  {
+   "brand": "Fujitsu",
+   "people": [
+    {
+     "name": "Raj Menon",
+     "title": "Chief Marketing Officer",
+     "email": "raj.menon@fujitsu.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rajaymenon",
+     "location": "Phoenix, United States"
+    },
+    {
+     "name": "Chiho Goto",
+     "title": "VP, Head of Strategic Communications",
+     "email": "goto.chiho@fujitsu.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/chiho-goto-814a8bb4",
+     "location": "Japan"
+    },
+    {
+     "name": "Hiroyuki Yokokawa",
+     "title": "Head of Corporate Marketing",
+     "email": "yokokawa.hiro@fujitsu.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/hiroyuki-hiro-yokokawa-576a10116",
+     "location": "Tokyo, Japan"
+    },
+    {
+     "name": "Toni Koberling",
+     "title": "Marketing Director, Global Head of Brand Identity",
+     "email": "toni.koberling@fujitsu.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/toni-koberling-662a58105",
+     "location": "Germany"
+    }
+   ]
+  },
+  {
+   "brand": "Ekinops",
+   "people": [
+    {
+     "name": "Delphine Plasse",
+     "title": "Director of Corporate and Marketing Communications",
+     "email": "delphine.plasse@ekinops.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/delphineplasse",
+     "location": "Paris, France"
+    },
+    {
+     "name": "Dominique Arestan",
+     "title": "Marketing Communications Director",
+     "email": "dominique.arestan@ekinops.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/dominiquearestan",
+     "location": "Paris, France"
+    },
+    {
+     "name": "Andy McCormick",
+     "title": "Director of Marketing",
+     "email": "andy.mccormick@ekinops.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/andy-mccormick-234a2811",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Michal Nasilowski",
+     "title": "Head of Business Development and Sales Eastern Europe",
+     "email": "michal.nasilowski@ekinops.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/michal-nasilowski-0ab5865",
+     "location": "Warsaw, Poland"
+    }
+   ]
+  },
+  {
+   "brand": "Broadcom",
+   "people": [
+    {
+     "name": "Prashanth Shenoy",
+     "title": "CMO and Vice President, Marketing, VMware Cloud Foundation (VCF) Division at Broadcom",
+     "email": "prashanth.shenoy@broadcom.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Monica White",
+     "title": "Chief Marketing Officer, Enterprise Security Group",
+     "email": "monica.white@broadcom.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "John Kaplan",
+     "title": "Brand, Communications and Content Marketing Lead: Mainframe Software",
+     "email": "john.kaplan@broadcom.com",
+     "role": "cro"
+    },
+    {
+     "name": "Gabriel Desjardins",
+     "title": "Director, Product Marketing",
+     "email": "gabriel.desjardins@broadcom.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "LITEON Technology",
+   "people": [
+    {
+     "name": "Anson Chiu",
+     "title": "Chief Executive Officer",
+     "email": "anson.chiu@liteon.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/anson-chiu-210138121",
+     "location": "New Taipei, Taiwan"
+    },
+    {
+     "name": "Aria Hsieh",
+     "title": "Marketing Communications Manager",
+     "email": "aria.hsieh@liteon.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/hyj",
+     "location": "Taiwan"
+    },
+    {
+     "name": "Sam Lai",
+     "title": "Senior Principal, New Business Development",
+     "email": "sam.lai@liteon.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/sam-lai-6021202",
+     "location": "Taiwan"
+    }
+   ]
+  },
+  {
+   "brand": "Source Photonics",
+   "people": [
+    {
+     "name": "Jervis Meng",
+     "title": "Marketing Manager, China",
+     "role": "decision_maker",
+     "email": "jervis.meng@sourcephotonics.com"
+    },
+    {
+     "name": "Quanqi Zhan",
+     "title": "Product Marketing Manager",
+     "role": "vp_marketing",
+     "email": "quanqi.zhan@sourcephotonics.com"
+    },
+    {
+     "name": "Jack Huang",
+     "title": "Fab GM and Chip BU CEO",
+     "role": "cro",
+     "email": "jack.huang@sourcephotonics.com"
+    },
+    {
+     "name": "Robert Liu",
+     "title": "Senior Sales Director",
+     "email": "robert.liu@sourcephotonics.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/robert-liu-07046134",
+     "location": "Chengdu, China"
+    }
+   ]
+  }
+ ]
+}

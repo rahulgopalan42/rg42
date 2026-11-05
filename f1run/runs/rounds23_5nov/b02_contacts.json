@@ -1,0 +1,366 @@
+{
+ "rows": [
+  {
+   "brand": "Orica",
+   "people": [
+    {
+     "name": "Steve Katsonis",
+     "title": "Vice President - Marketing",
+     "email": "steve.katsonis@orica.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/steve-katsonis",
+     "location": "Denver, United States"
+    },
+    {
+     "name": "Tim Ihle",
+     "title": "Vice President - Commercial & Marketing",
+     "email": "tim.ihle@orica.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/tim-ihle",
+     "location": "Melbourne, Australia"
+    },
+    {
+     "name": "Cameron Blaydes",
+     "title": "VP Strategy & Marketing",
+     "email": "cameron.blaydes@orica.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/cblaydes",
+     "location": "Denver, United States"
+    },
+    {
+     "name": "Andrew Valler",
+     "title": "Head of Communications",
+     "email": "andrew.valler@orica.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/andrewvaller",
+     "location": "Newcastle, Australia"
+    }
+   ]
+  },
+  {
+   "brand": "XCMG",
+   "people": [
+    {
+     "name": "Naichao Li",
+     "title": "Chief Executive Officer, XCMG North America",
+     "email": "felix@xcmgusa.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/naichao-li-b68463b5",
+     "location": "Xuzhou, China"
+    },
+    {
+     "name": "Tom Schwind",
+     "title": "Vice President of Sales (XCMG North America)",
+     "email": "tschwind@xcmgusa.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/tom-schwind-221ab1b8",
+     "location": "Perkasie, United States"
+    },
+    {
+     "name": "Chen Ling",
+     "title": "Vice President of Sales, XCMG North America (Sales and Marketing, XCMG IE)",
+     "email": "lingchen@xcmg.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/chen-ling-415b54a8",
+     "location": "Xuzhou, China"
+    },
+    {
+     "name": "Team",
+     "title": "Shared xcmg.com inbox listed in Apollo for Marketing Director Jack Sun (XCMG Construction Machinery)",
+     "email": "xcmg@xcmg.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jack-sun-xcmg-54467b1b0",
+     "location": "Jiangsu, China"
+    }
+   ]
+  },
+  {
+   "brand": "CNH Industrial",
+   "people": [
+    {
+     "name": "Laura Overall",
+     "title": "Senior Vice President - Agricultural Brand Communications",
+     "email": "laura.overall@cnhind.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/laura-overall-856b6b14",
+     "location": "North End, United Kingdom"
+    },
+    {
+     "name": "Sara Granack",
+     "title": "Vice President, Corporate Communications",
+     "email": "sara.granack@cnhind.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sara-granack-b552044",
+     "location": "Lake Forest, United States"
+    },
+    {
+     "name": "Sergio Gil",
+     "title": "Global Head of Brand Partnerships, Sponsorships and Merchandise",
+     "email": "sergio.gil@cnhind.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/sergiogil",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Mattia Manicardi",
+     "title": "New Holland Ag - Head of Global Brand Marketing and Communication",
+     "email": "mattia.manicardi@cnhind.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/mattia-manicardi-46277787",
+     "location": "Italy"
+    }
+   ]
+  },
+  {
+   "brand": "AGCO",
+   "people": [
+    {
+     "name": "Rachel Potts",
+     "title": "Vice President, Chief Communications Officer",
+     "email": "rachel.potts@agcocorp.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rachel-potts-714b267",
+     "location": "Alpharetta, United States"
+    },
+    {
+     "name": "Benjamin Matthies",
+     "title": "Senior Director, Fendt Marketing",
+     "email": "benjamin.matthies@agcocorp.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/benjaminmatthies",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Joe Whorton",
+     "title": "Director of Marketing, Massey Ferguson",
+     "email": "joe.whorton@agcocorp.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/joewhorton",
+     "location": "Atlanta, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Terex",
+   "people": [
+    {
+     "name": "Oleg Tkachenko",
+     "title": "Vice President Strategy and Business Development for Environmental Segment",
+     "email": "oleg.tkachenko@terex.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/oleg-tkachenko-4b6b302b",
+     "location": "Denver, United States"
+    },
+    {
+     "name": "Julie Nuernberg",
+     "title": "Senior Director Corporate Communications",
+     "email": "julie.nuernberg@terex.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/julie-nuernberg",
+     "location": "United States"
+    },
+    {
+     "name": "Viraj Parthi",
+     "title": "Director Commercial - Terex Lifting, Environmental & Terex Finlay",
+     "email": "viraj.parthi@terex.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/viraj-parthi-39326a9",
+     "location": "Bengaluru, India"
+    },
+    {
+     "name": "Joe Caywood",
+     "title": "Director of Commercial Operations",
+     "email": "joe.caywood@terex.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/joe-caywood-18654613",
+     "location": "Watertown, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Oshkosh Corporation",
+   "people": [
+    {
+     "name": "Bryan Brandt",
+     "title": "Senior Vice President, Chief Marketing Officer",
+     "email": "bbrandt@oshkoshcorp.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/bryan-brandt-31a03817",
+     "location": "United States"
+    },
+    {
+     "name": "Logan Jones",
+     "title": "Chief Growth Officer",
+     "email": "ljones@oshkoshcorp.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/loganjones",
+     "location": "Chesterfield, United States"
+    },
+    {
+     "name": "Jordan Catrine",
+     "title": "Senior Director Strategy & Business Development",
+     "email": "jcatrine@defense.oshkoshcorp.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jordan-catrine-8058276",
+     "location": "Royal Oak, United States"
+    },
+    {
+     "name": "Katie Kauzlaric",
+     "title": "Director of Marketing - Oshkosh Vocational Segment",
+     "email": "kkauzlaric@oshkoshcorp.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/katie-hoxtell-kauzlaric",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "JLG Industries",
+   "people": [
+    {
+     "name": "Brent Miller",
+     "title": "Vice President of Sales Administration, Marketing and Latin America",
+     "email": "brmiller@jlg.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/brentrmiller",
+     "location": "Allentown, United States"
+    },
+    {
+     "name": "Joe Kleiner",
+     "title": "Vice President, Sales and Service",
+     "email": "jtkleiner@jlg.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/joe-kleiner-67b3a985",
+     "location": "United States"
+    },
+    {
+     "name": "Jeff Ford",
+     "title": "Director Global Strategy and Business Development",
+     "email": "jdford@jlg.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jeff-ford-8b183811",
+     "location": "Baltimore, United States"
+    },
+    {
+     "name": "Kasia Gotlib",
+     "title": "JLG Marketing Lead",
+     "email": "kgotlib@jlg.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/kasiagotlib",
+     "location": "Amsterdam, Netherlands"
+    }
+   ]
+  },
+  {
+   "brand": "Metso",
+   "people": [
+    {
+     "name": "Leila Mojtahedi",
+     "title": "VP Marketing & Brand",
+     "email": "leila.mojtahedi@metso.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/leilamojtahedi",
+     "location": "Helsinki, Finland"
+    },
+    {
+     "name": "Jalaj Modi",
+     "title": "Head of Marketing Communications",
+     "email": "jalaj.modi@metso.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jalaj-modi-58389013",
+     "location": "Gurgaon, India"
+    },
+    {
+     "name": "Marita Navratilova",
+     "title": "Director, Brand & Events",
+     "email": "marita.navratilova@metso.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/maritanavratilova",
+     "location": "Helsinki, Finland"
+    },
+    {
+     "name": "Kevin Graney",
+     "title": "Director Strategic Partnerships",
+     "email": "kevin.graney@metso.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/kevin-graney",
+     "location": "Brookfield, United States"
+    }
+   ]
+  },
+  {
+   "brand": "FLSmidth",
+   "people": [
+    {
+     "name": "Annika Lindstrom",
+     "title": "Head of Marketing, Market Insights & Branding",
+     "email": "annika.lindstrom@flsmidth.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/annika-lindstr%c3%b6m",
+     "location": "Malmoe, Sweden"
+    },
+    {
+     "name": "Anna Torres",
+     "title": "Head of Marketing Operations",
+     "email": "annadymytrovabjelke.torres@flsmidth.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/anna-bjelke-torres",
+     "location": "Copenhagen, Denmark"
+    },
+    {
+     "name": "Chengappa Pm",
+     "title": "Head - Sales, Marketing, Services (Electrical & Automation)",
+     "email": "pm.chengappa@flsmidth.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/chengappa-pm-bbb7324a",
+     "location": "Chennai, India"
+    },
+    {
+     "name": "Lucy England",
+     "title": "Head of Capital Sales Business Development and European Sales",
+     "email": "lucy.england@flsmidth.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lucy-england-70133a11",
+     "location": "Huddersfield, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Atlas Copco",
+   "people": [
+    {
+     "name": "Patrick Kessler",
+     "title": "Vice President Communications & Digital Marketing",
+     "email": "patrick.kessler@atlascopco.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/patrick-m-kessler-mba-526b1435",
+     "location": "Munich, Germany"
+    },
+    {
+     "name": "Paul Humphreys",
+     "title": "Vice President Corporate Communications",
+     "email": "paul.humphreys@atlascopco.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/paul-humphreys-a7b3aa9",
+     "location": "Charlotte, United States"
+    },
+    {
+     "name": "Rafael Lanzi",
+     "title": "Head of Global Marketing & Business Development",
+     "email": "rafael.lanzi@atlascopco.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/rafael-lanzi-a3166131",
+     "location": "Monza, Italy"
+    },
+    {
+     "name": "Will Polumbo",
+     "title": "Marketing Director",
+     "email": "will.polumbo@atlascopco.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/willpolumbo",
+     "location": "Oxford Charter Township, United States"
+    }
+   ]
+  }
+ ]
+}

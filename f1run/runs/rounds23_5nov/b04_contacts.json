@@ -1,0 +1,268 @@
+{
+ "rows": [
+  {
+   "brand": "Corning",
+   "people": [
+    {
+     "name": "Maria Majiros",
+     "title": "Marketing Communications Leader",
+     "email": "majirosmv2@corning.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Leslie Morris",
+     "title": "Communications and Marketing Leader",
+     "email": "morrisl3@corning.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Kerstin Stobbe",
+     "title": "Leader, Marketing and Communications",
+     "email": "stobbek@corning.com",
+     "role": "cro"
+    },
+    {
+     "name": "Andy Jackson",
+     "title": "Vice President Marketing",
+     "email": "andy.jackson@corning.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Prysmian",
+   "people": [
+    {
+     "name": "Victor Six",
+     "title": "Chief Commercial Officer (CCO)",
+     "email": "victor.six@prysmiangroup.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/victor-six-52020267",
+     "location": "Milan, Italy"
+    },
+    {
+     "name": "Anna Wright",
+     "title": "VP of Marketing & Communications",
+     "email": "anna.wright@prysmiangroup.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/annawright16",
+     "location": "Cincinnati, United States"
+    },
+    {
+     "name": "Jonathan Heywood",
+     "title": "Press Office, Marketing and Communication Director",
+     "email": "jonathan.heywood@prysmian.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jonathan-heywood-7407265a",
+     "location": "Milan, Italy"
+    },
+    {
+     "name": "Yvonne Steeds",
+     "title": "Marketing Director",
+     "email": "yvonne.steeds@prysmiangroup.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/yvonne-steeds-van-bruggen-551a8b26",
+     "location": "Stadskanaal, Netherlands"
+    }
+   ]
+  },
+  {
+   "brand": "Furukawa Electric",
+   "people": [
+    {
+     "name": "Euston Tsai",
+     "title": "Head of Global Accounts & Partnership",
+     "email": "euston.tsai@furukawaelectric.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/euston",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Hiroshi Mayama",
+     "title": "Marketing Manager",
+     "email": "hiroshi.mayama@furukawaelectric.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/hiroshi-mayama-685512110",
+     "location": "Japan"
+    },
+    {
+     "name": "Atsushi Himura",
+     "title": "New Business Development",
+     "email": "atsushi.himura@furukawaelectric.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/atsushi-himura-a63216150",
+     "location": "Tokyo, Japan"
+    },
+    {
+     "name": "Yukiko Moritsuka",
+     "title": "Marketing",
+     "email": "yukiko.moritsuka@furukawaelectric.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/yukiko-moritsuka-aa8422258",
+     "location": "Tokyo, Japan"
+    }
+   ]
+  },
+  {
+   "brand": "OFS / Lightera",
+   "people": [
+    {
+     "name": "John George",
+     "title": "Sr. Director, Global Business Development",
+     "email": "john.george@lightera.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/john-george-a34b8",
+     "location": "Cumming, United States"
+    },
+    {
+     "name": "Stephanie Webb",
+     "title": "Director Marketing",
+     "email": "shwebb@ofsoptics.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/stephanie-webb-1812a87",
+     "location": "Norcross, United States"
+    },
+    {
+     "name": "Ryan Cole",
+     "title": "Senior Director of North America-Sales, Business Development, & Customer Experience",
+     "email": "ryan.cole@lightera.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/colerryan",
+     "location": "United States"
+    },
+    {
+     "name": "Mark Graveston",
+     "title": "Director - Marketing & Sales EMEA",
+     "email": "mark.graveston@lightera.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/mark-graveston-9ba1781",
+     "location": "Newport, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Belden",
+   "people": [
+    {
+     "name": "Mark Banick",
+     "title": "Vice President, Marketing",
+     "role": "decision_maker",
+     "email": "mark.banick@belden.com"
+    },
+    {
+     "name": "Alison McCreath",
+     "title": "Director of Marketing",
+     "role": "vp_marketing",
+     "email": "alison.mccreath@belden.com"
+    },
+    {
+     "name": "Katherine Vujovich",
+     "title": "Director, Corporate Brand",
+     "role": "cro",
+     "email": "katherine.vujovich@belden.com"
+    },
+    {
+     "name": "Swapnali Limaye",
+     "title": "Marketing Specialist",
+     "role": "field_marketing",
+     "email": "swapnali.limaye@belden.com"
+    }
+   ]
+  },
+  {
+   "brand": "HFCL",
+   "people": [
+    {
+     "name": "Reena Kariyal",
+     "title": "Assistant Vice President - Marketing",
+     "role": "decision_maker",
+     "email": "reena.kariyal@hfcl.com"
+    },
+    {
+     "name": "Karan Diwakar",
+     "title": "Brand Manager",
+     "role": "vp_marketing",
+     "email": "karan.diwakar@hfcl.com"
+    },
+    {
+     "name": "Karan Dunga",
+     "title": "Marketing Design Manager",
+     "role": "cro",
+     "email": "karan@hfcl.com"
+    },
+    {
+     "name": "Anshuman Thakur",
+     "title": "Product Marketing Manager",
+     "role": "field_marketing",
+     "email": "anshuman.thakur@hfcl.com"
+    }
+   ]
+  },
+  {
+   "brand": "HUBER+SUHNER",
+   "people": [
+    {
+     "name": "Rachel Leon",
+     "title": "Vice President / Head of Marketing Communications, Industry Segment",
+     "role": "decision_maker",
+     "email": "rachel.hoher@hubersuhner.com"
+    },
+    {
+     "name": "Jim Mack",
+     "title": "VP Marketing Communication Management, Communication Segment",
+     "role": "vp_marketing",
+     "email": "jim.mack@hubersuhner.com"
+    },
+    {
+     "name": "Rong Lin",
+     "title": "Vice President/Head Marketing Communications, Transportation Segment",
+     "role": "cro",
+     "email": "rong.lin@hubersuhner.com"
+    },
+    {
+     "name": "Peter Marjasin",
+     "title": "Sales & Marketing Director",
+     "role": "field_marketing",
+     "email": "peter.marjasin@hubersuhner.com"
+    }
+   ]
+  },
+  {
+   "brand": "Ciena",
+   "people": [
+    {
+     "name": "Rebecca Smith",
+     "title": "SVP Global Marketing & Communications, CMO",
+     "email": "rprudhom@ciena.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rebecca-prudhomme",
+     "location": "Pelham, Canada"
+    },
+    {
+     "name": "Kamran Ghazian",
+     "title": "Vice President - Global Marketing",
+     "email": "kghazian@ciena.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kghazian",
+     "location": "Montreal, Canada"
+    },
+    {
+     "name": "Denis Palin",
+     "title": "Executive Director Global Partnerships",
+     "email": "dpalin@ciena.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/denis-palin-6009a31",
+     "location": "Ottawa, Canada"
+    },
+    {
+     "name": "Nicole Frankenberg",
+     "title": "Director, Brand and Communications",
+     "email": "nfranken@ciena.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/nicole-frankenberg-4127484",
+     "location": "Great Falls, United States"
+    }
+   ]
+  }
+ ]
+}
