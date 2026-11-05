@@ -1,0 +1,115 @@
+{
+ "rows": [
+  {
+   "brand": "Finary",
+   "people": [
+    {
+     "name": "Maxime Kerserho",
+     "title": "Vice-President | Lead Wealth Advisor",
+     "email": "maxime.kerserho@finary.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/maxime-kerserho",
+     "location": "Paris, France"
+    },
+    {
+     "name": "Florian Bidaut",
+     "title": "Growth Lead",
+     "email": "florian@finary.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/florian-b-86a41a64",
+     "location": "France"
+    },
+    {
+     "name": "Corentin Hue",
+     "title": "Head of Finary One",
+     "email": "corentin@finary.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/corentinh",
+     "location": "Paris, France"
+    },
+    {
+     "name": "Theo David",
+     "title": "Growth Marketing (data & Automation)",
+     "email": "theo.david@finary.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/theodavid-tiro",
+     "location": "Nantes, France"
+    }
+   ]
+  },
+  {
+   "brand": "Arch",
+   "people": [
+    {
+     "name": "Annabel Fan",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "annabel@arch.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/annabel-fan",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Melanie Heroux",
+     "title": "Head of Marketing",
+     "email": "melanie@arch.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/melanieheroux",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Andy Hughes",
+     "title": "SVP of Partnerships, Boston Office Lead",
+     "email": "andy@arch.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/andy-hughes-5bb97911",
+     "location": "Kennebunkport, United States"
+    },
+    {
+     "name": "Jacqueline Thomas",
+     "title": "Director, Marketing",
+     "email": "jacqueline@arch.co",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jacqueline-thomas-5a6661119",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Allocate",
+   "people": [
+    {
+     "name": "Samir Kaji",
+     "title": "CEO and Co-founder",
+     "email": "samir@allocate.co",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/samirkaji",
+     "location": "Menlo Park, United States"
+    },
+    {
+     "name": "Joe Ringoen",
+     "title": "Director of Integrated Marketing",
+     "email": "joe.ringoen@allocate.co",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/joeringoen",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Raj Khathuria",
+     "title": "VP, Head of Relationship Management",
+     "email": "raj@allocate.co",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/raj-khathuria",
+     "location": "Encinitas, United States"
+    },
+    {
+     "name": "Hana Yang",
+     "title": "Co-Founder & CXO",
+     "email": "hana@allocate.co",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/hanayang",
+     "location": "Palo Alto, United States"
+    }
+   ]
+  }
+ ]
+}

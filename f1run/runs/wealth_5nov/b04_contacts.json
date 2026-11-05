@@ -1,0 +1,453 @@
+{
+ "rows": [
+  {
+   "brand": "intelliflo",
+   "people": [
+    {
+     "name": "Nick Eatock",
+     "title": "CEO",
+     "email": "nick.eatock@intelliflo.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/nickeatock",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Andrew McNamee",
+     "title": "UK Marketing Director",
+     "email": "amcnamee@intelliflo.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/andrewmcnamee",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Alan Easter",
+     "title": "Chief Commercial Officer",
+     "email": "alan.easter@intelliflo.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/alan-easter-38a936",
+     "location": "Shoreham-by-Sea, United Kingdom"
+    },
+    {
+     "name": "Johann Koch",
+     "title": "Chief Sales Officer",
+     "email": "johann.koch@intelliflo.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/johannkoch",
+     "location": "United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Advyzon",
+   "people": [
+    {
+     "name": "Samantha Schwimmer",
+     "title": "Chief Marketing Officer",
+     "email": "samantha.schwimmer@advyzon.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/samanthaschwimmer",
+     "location": "United States"
+    },
+    {
+     "name": "Rob Lane",
+     "title": "SVP of Business Development",
+     "email": "robert.lane@advyzon.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/robclane",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "John Mackowiak",
+     "title": "Chief Revenue Officer",
+     "email": "john.mackowiak@advyzon.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/mackowiakjohn",
+     "location": "Denver, United States"
+    },
+    {
+     "name": "Ashleigh Boone",
+     "title": "SVP of Business Development",
+     "email": "ashleigh.boone@advyzon.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/ashleigh-boone",
+     "location": "Sacramento, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Seccl",
+   "people": [
+    {
+     "name": "Jonathan Dees",
+     "title": "CEO",
+     "email": "jonathan.dees@seccl.tech",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jonathan-dees-38b3713b",
+     "location": "Marlow, United Kingdom"
+    },
+    {
+     "name": "Jayne Scott",
+     "title": "Head of Comms and Marketing Delivery",
+     "email": "jayne.scott@seccl.tech",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jayne-scott-23173427",
+     "location": "Edinburgh, United Kingdom"
+    },
+    {
+     "name": "Barry Neilson",
+     "title": "Commercial Director",
+     "email": "barry.neilson@seccl.tech",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/barryneilson",
+     "location": "Edinburgh, United Kingdom"
+    },
+    {
+     "name": "Olivia Segsworth",
+     "title": "Head of Growth",
+     "email": "olivia.segsworth@seccl.tech",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/olivia-segsworth",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "DriveWealth",
+   "people": [
+    {
+     "name": "Matt Myklusch",
+     "title": "Head of Communications",
+     "email": "mmyklusch@drivewealth.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Rohit Mahna",
+     "title": "Chief Revenue Officer",
+     "email": "rmahna@drivewealth.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Jesse Quan",
+     "title": "Partnerships",
+     "email": "cquan@drivewealth.tech",
+     "role": "cro"
+    },
+    {
+     "name": "Paul Havens",
+     "title": "Business Development Executive",
+     "email": "phavens@drivewealth.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Alpaca",
+   "people": [
+    {
+     "name": "Lavinia Chirico",
+     "title": "VP of Communications",
+     "email": "lavinia.chirico@alpaca.markets",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Melek Kartal",
+     "title": "Director of Business Development",
+     "email": "melek.kartal@alpaca.markets",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Candace Gawler",
+     "title": "Senior Director of Business Development",
+     "email": "candace.gawler@alpaca.markets",
+     "role": "cro"
+    },
+    {
+     "name": "Tarun Ajwani",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "tarun@alpaca.markets",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Upvest",
+   "people": [
+    {
+     "name": "Til Rochow",
+     "title": "Chief Product and Revenue Officer",
+     "email": "til@upvest.co",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/tilrochow",
+     "location": "Bremen, Germany"
+    },
+    {
+     "name": "Alexander Reichhardt",
+     "title": "Director of Growth",
+     "email": "alexander@upvest.co",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/alexander-reichhardt-87b6a9b0",
+     "location": "Berlin, Germany"
+    },
+    {
+     "name": "Djurre Hoogeveen",
+     "title": "Head of Partnerships",
+     "email": "djurre@upvest.co",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/djurrehoogeveen",
+     "location": "Germany"
+    },
+    {
+     "name": "Jana Brunsen",
+     "title": "Senior Marketing Manager",
+     "email": "jana@upvest.co",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jana-brunsen-78946b87",
+     "location": "Berlin, Germany"
+    }
+   ]
+  },
+  {
+   "brand": "Vestwell",
+   "people": [
+    {
+     "name": "Latoya Bowlah",
+     "title": "SVP, Head of Marketing",
+     "email": "latoya.bowlah@vestwell.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/latoya-bowlah-6b82835b",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Anthony Petrucelli",
+     "title": "Vice President, Go-To-Market & Growth",
+     "email": "anthony.petrucelli@vestwell.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/anthony-petrucelli-jr",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Tayo Ogunnaike",
+     "title": "SVP, Head of Strategic Partnerships",
+     "email": "tayo.ogunnaike@vestwell.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/tayo-ogunnaike-8147b57",
+     "location": "Chappaqua, United States"
+    },
+    {
+     "name": "Paul Martin",
+     "title": "VP, Strategic Partnerships",
+     "email": "paul.martin@vestwell.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/paulgmartinjr",
+     "location": "Philadelphia, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Pontera",
+   "people": [
+    {
+     "name": "Zachary Pardes",
+     "title": "Vice President Marketing",
+     "email": "zpardes@pontera.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/zpardes",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Ryan Harrivan",
+     "title": "Director of Growth Marketing",
+     "email": "rharrivan@pontera.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/ryanharrivan",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Ben White",
+     "title": "Sr. Director, Strategic Partnerships",
+     "email": "bwhite@pontera.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/ben-white1",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Michelle Mathias",
+     "title": "Director Event Marketing",
+     "email": "mmathias@pontera.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/michelle-mathias",
+     "location": "Suffern, United States"
+    }
+   ]
+  },
+  {
+   "brand": "TIFIN",
+   "people": [
+    {
+     "name": "Vinay Nair",
+     "title": "Founder, Chairman & CEO",
+     "email": "vinay@tifin.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/vinaybnair",
+     "location": "Boulder, United States"
+    },
+    {
+     "name": "Tanya Bhasin",
+     "title": "Head of Capital Partnerships and Corporate Communications",
+     "email": "tanya.bhasin@tifin.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/tanya-bhasin-65bb8a1",
+     "location": "Danville, United States"
+    },
+    {
+     "name": "Anirudh Subramaniam",
+     "title": "Chief Revenue & Growth Officer",
+     "email": "anirudh.s@tifin.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/anirudhsubramaniam",
+     "location": "Mumbai, India"
+    },
+    {
+     "name": "Rob Pettman",
+     "title": "President",
+     "email": "rob.pettman@tifin.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/rob-pettman-886a631",
+     "location": "Charlotte, United States"
+    }
+   ]
+  },
+  {
+   "brand": "WeInvest",
+   "people": [
+    {
+     "name": "Bhaskar Prabhakara",
+     "title": "Founder & CEO",
+     "email": "bhaskar@weinvest.net",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/bprabhakara",
+     "location": "India"
+    },
+    {
+     "name": "Martin Pickrodt",
+     "title": "Chief Investment Officer",
+     "email": "martin@weinvest.net",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/martin-pickrodt",
+     "location": "Singapore, Singapore"
+    }
+   ]
+  },
+  {
+   "brand": "Endowus",
+   "people": [
+    {
+     "name": "Jason Huan",
+     "title": "Chief Marketing Officer",
+     "email": "jason.huan@endowus.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jasonhuan",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Jason Teo",
+     "title": "Vice President Marketing",
+     "email": "jason.teo@endowus.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jasontzx",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Dominic Ong",
+     "title": "Chief Financial Officer and Head of Strategic Partnerships",
+     "email": "dominic.ong@endowus.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/domong",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Jonathan Wong",
+     "title": "Head of Brand and Product Marketing",
+     "email": "jonathan.wong@endowus.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jonathan-wong-7322a617",
+     "location": "Singapore, Singapore"
+    }
+   ]
+  },
+  {
+   "brand": "Syfe",
+   "people": [
+    {
+     "name": "Jack Prickett",
+     "title": "Chief Commercial Officer (CCO)",
+     "email": "jack.prickett@syfe.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jack-prickett",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Kushal Manupati",
+     "title": "Head of Marketing",
+     "email": "kushal.manupati@syfe.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kushalmanupati",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Michael Lee",
+     "title": "Head of Brand and Creative",
+     "email": "michael.lee@syfe.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/michael-lee-90542635",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Claire Hopkins",
+     "title": "Head of PR & Communications",
+     "email": "claire.hopkins@syfe.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/claire-hopkins",
+     "location": "Singapore, Singapore"
+    }
+   ]
+  },
+  {
+   "brand": "Kristal.AI",
+   "people": [
+    {
+     "name": "Asheesh Chanda",
+     "title": "Founder & CEO",
+     "email": "asheesh@kristal.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/asheesh-chanda-171a51",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Gaurav Rustagi",
+     "title": "Chief Growth Officer",
+     "email": "gaurav.r@kristal.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/gauravrustagi",
+     "location": "Dubai, United Arab Emirates"
+    },
+    {
+     "name": "Ashwin Patravali",
+     "title": "Sales Director | Head of Private Wealth",
+     "email": "ashwin@kristal.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/apatravali",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Karan Bhagat",
+     "title": "Head - Channel Partnership North",
+     "email": "kb@kristal.ai",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/karanbhagat298",
+     "location": "New Delhi, India"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,424 @@
+{
+ "rows": [
+  {
+   "brand": "Farther Finance",
+   "people": [
+    {
+     "name": "Sarah Howes",
+     "title": "Senior Director, Advisor Marketing",
+     "email": "sarah.howes@farther.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/sarah-howes",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Rebecca Thran",
+     "title": "Head of Product & Growth Marketing",
+     "email": "rebecca.thran@farther.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/rebeccamarber",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Colleen Melton",
+     "title": "Director, Business Development at Farther",
+     "email": "colleen.melton@farther.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/colleenmelton",
+     "location": "Dallas, United States"
+    },
+    {
+     "name": "Yan Grossman",
+     "title": "Director of Digital Growth Marketing",
+     "email": "yan@farther.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/yangrossman",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Range",
+   "people": [
+    {
+     "name": "Fahad Hassan",
+     "title": "Co-founder & CEO",
+     "email": "fahad@range.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/fahadrange",
+     "location": "Potomac, United States"
+    },
+    {
+     "name": "Grant Neumann",
+     "title": "Head of Performance Marketing",
+     "email": "grant@range.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/grant-neumann-39b78b59",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Chowdhry Ahmed",
+     "title": "Director of Sales",
+     "email": "chowdhry@range.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/chowdhry-ahmed-3050b546",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Isabel Contreras",
+     "title": "Marketing",
+     "email": "isabel@range.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/isabel-contreras-67b301153",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Nitrogen",
+   "people": [
+    {
+     "name": "Justin Boatman",
+     "title": "Chief Marketing Officer & Head of Product Strategy",
+     "email": "jboat@nitrogenwealth.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/justin-boatman-1a0bb895",
+     "location": "Auburn, United States"
+    },
+    {
+     "name": "Daniel Prendergast",
+     "title": "Director, Growth Marketing",
+     "email": "dprendergast@riskalyze.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/danieljprendergast",
+     "location": "Warrington, United States"
+    },
+    {
+     "name": "Raoul Van Der Berg",
+     "title": "SVP, Growth",
+     "email": "rvanderberg@nitrogenwealth.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/raoulb",
+     "location": "Vancouver, Canada"
+    },
+    {
+     "name": "Rachel Cameron",
+     "title": "SVP, Partnerships and Wealth Networks",
+     "email": "rcameron@nitrogenwealth.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/rachel-cameron",
+     "location": "Jacksonville, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Wealthbox",
+   "people": [
+    {
+     "name": "John Rourke",
+     "title": "CEO & Cofounder",
+     "email": "john.rourke@wealthbox.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jrourke1",
+     "location": "United States"
+    },
+    {
+     "name": "Erin Bickford",
+     "title": "VP of Marketing",
+     "email": "erin.bickford@wealthbox.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/erinbickford",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Willie Mullen",
+     "title": "Senior Vice President of Sales",
+     "email": "willie.mullen@wealthbox.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/williemullen",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Charles Fargo",
+     "title": "Head of Product Partnerships",
+     "email": "charlie.fargo@wealthbox.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/charles-fargo",
+     "location": "San Diego, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Ortec Finance",
+   "people": [
+    {
+     "name": "Ton Van Welie",
+     "title": "CEO",
+     "email": "ton.vanwelie@ortec-finance.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/tonvanwelie",
+     "location": "The Hague, Netherlands"
+    },
+    {
+     "name": "Annemarie Welling",
+     "title": "Marketing & Communications Manager",
+     "email": "annemarie.welling@ortec-finance.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/awelling",
+     "location": "Netherlands"
+    },
+    {
+     "name": "Iwan Schafthuizen",
+     "title": "Partner / MD Business Development and Platforms Global Wealth Solutions",
+     "email": "iwan.schafthuizen@ortec-finance.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/iwanschafthuizen",
+     "location": "Netherlands"
+    },
+    {
+     "name": "Richard Boyce",
+     "title": "Head of Sales",
+     "email": "richard.boyce@ortec-finance.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/richardboyce13",
+     "location": "Canada"
+    }
+   ]
+  },
+  {
+   "brand": "ETON Solutions",
+   "people": [
+    {
+     "name": "Robert Mallernee",
+     "title": "CEO - Eton Solutions, LP",
+     "email": "rob.mallernee@eton-solutions.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/robert-mallernee-33647713",
+     "location": "Chapel Hill, United States"
+    },
+    {
+     "name": "Pallabi Sen",
+     "title": "Director - Marketing",
+     "email": "pallabi.sen@eton-solutions.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/senpallabi",
+     "location": "Bengaluru, India"
+    },
+    {
+     "name": "Sandip Shah",
+     "title": "Chief Business Officer",
+     "email": "sandip.shah@eton-solutions.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/sandip-shah-62966312",
+     "location": "India"
+    },
+    {
+     "name": "Anthony Kane",
+     "title": "Vice President of Sales",
+     "email": "anthony.kane@eton-solutions.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/anthony-kane",
+     "location": "Indianapolis, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Croesus",
+   "people": [
+    {
+     "name": "Vincent Fraser",
+     "title": "President and Chief Executive Officer",
+     "email": "vincent.fraser@croesus.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/vincentfraser",
+     "location": "Montreal, Canada"
+    },
+    {
+     "name": "Marc Riel",
+     "title": "Vice-President, Business Development and Strategic Partnerships, North America",
+     "email": "marc.riel@croesus.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/marcriel",
+     "location": "Longueuil, Canada"
+    },
+    {
+     "name": "Sanjay Kulkarni",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "sanjay.kulkarni@croesus.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/sskulkar",
+     "location": "Mississauga, Canada"
+    },
+    {
+     "name": "Romain Faraut",
+     "title": "Director, Swiss Market",
+     "email": "romain.faraut@croesus.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/romainfaraut",
+     "location": "Geneva, Switzerland"
+    }
+   ]
+  },
+  {
+   "brand": "Morningstar",
+   "people": [
+    {
+     "name": "Rinchen Olthang",
+     "title": "Senior Vice President, Global Brand & Marketing",
+     "email": "rinchen.olthang@morningstar.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rinchenolthang",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Nicola Harley",
+     "title": "Global Marketing Head",
+     "email": "nicola.harley@morningstar.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/nharley",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Dalia Haddad",
+     "title": "Head of International Marketing",
+     "email": "dalia.haddad@morningstar.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/daliahaddad",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Michael Sunden",
+     "title": "Head of Global Brand Strategy",
+     "email": "michael.sunden@morningstar.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/michaelsunden",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "FactSet",
+   "people": [
+    {
+     "name": "Goncalo Tenente",
+     "title": "VP Product Marketing",
+     "email": "goncalo.freitastenente@factset.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Stefanie Tavolato",
+     "title": "VP, Product Marketing",
+     "email": "stavolato@factset.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Benedicte Godet",
+     "title": "Senior Director, Product Marketing & Sales Enablement",
+     "email": "benedicte.godet@factset.com",
+     "role": "cro"
+    },
+    {
+     "name": "Greta Spiess",
+     "title": "SVP, Global Head of Digital Marketing & Content",
+     "email": "greta.spiess@factset.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "MSCI",
+   "people": [
+    {
+     "name": "Cristina Bondolowski",
+     "title": "Chief Marketing & Communications Officer",
+     "email": "cristina.bondolowski@msci.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Rosemary Pugh",
+     "title": "Marketing Content Strategy Lead",
+     "email": "rosemary.pugh@msci.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Mike Demilio",
+     "title": "Vice President, Index Marketing",
+     "email": "michael.demilio@msci.com",
+     "role": "cro"
+    },
+    {
+     "name": "Sumit Majumdar",
+     "title": "Vice President - Product Marketing",
+     "email": "sumit.majumdar@msci.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Clearwater Analytics",
+   "people": [
+    {
+     "name": "Laurie Gavitt-Smith",
+     "title": "Vice President, Growth Marketing",
+     "email": "laurie.gavitt-smith@cwan.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/laurie-gavitt-smith-4ba7542",
+     "location": "Frederick, United States"
+    },
+    {
+     "name": "Claudia Cahill",
+     "title": "Head of Communications and PR",
+     "email": "claudiacahill@cwan.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/claudiacahill",
+     "location": "Sterling, United States"
+    },
+    {
+     "name": "Shalini O'Suilleabhain",
+     "title": "Global Head of Partnerships and Alliances",
+     "email": "shalini.osuilleabhai@cwan.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/shalini-osuilleabhain",
+     "location": "United States"
+    },
+    {
+     "name": "Sara John",
+     "title": "Global Head of Field Marketing - Asset Owners",
+     "email": "sjohn@cwan.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/sarajojohn",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "Conquest",
+   "people": [
+    {
+     "name": "Karen Budell",
+     "title": "Chief Marketing Officer",
+     "email": "karen.budell@conquestplanning.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Libby Lienhoop",
+     "title": "Director, Product Marketing & Sales Enablement",
+     "email": "libby.lienhoop@conquestplanning.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Stacie Calder",
+     "title": "EVP, North American Distribution & Marketing",
+     "email": "stacie.calder@conquestplanning.com",
+     "role": "cro"
+    },
+    {
+     "name": "Jia Rae",
+     "title": "Director, Global Demand Generation",
+     "email": "jia.rae@conquestplanning.com",
+     "role": "field_marketing"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,405 @@
+{
+ "rows": [
+  {
+   "brand": "SS&C Technologies",
+   "people": [
+    {
+     "name": "Lindsay Sones",
+     "title": "Vice President, Head of Global Growth Marketing",
+     "email": "lindsay.sones@sscinc.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Cole Deakin",
+     "title": "Global Director, Growth Marketing",
+     "email": "cole.deakin@sscinc.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Kristen Schwecke",
+     "title": "Co-Head of Marketing & Communications",
+     "email": "kschwecke@sscinc.com",
+     "role": "cro"
+    },
+    {
+     "name": "Susan Smart",
+     "title": "Senior Director, Marketing Communications",
+     "email": "susan.smart@sscinc.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "FNZ",
+   "people": [
+    {
+     "name": "Matt Roobol",
+     "title": "Director of Marketing Operations & Digital",
+     "email": "matt.roobol@fnz.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Nina Sosna",
+     "title": "Change and Communications Strategy Lead",
+     "email": "nina.sosna@fnz.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Tom Chard",
+     "title": "Group Head of Growth",
+     "email": "tom.chard@fnz.com",
+     "role": "cro"
+    },
+    {
+     "name": "Hannah Foran",
+     "title": "Chief of Staff, Growth",
+     "email": "hannah.foran@fnz.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Envestnet | Yodlee",
+   "people": [
+    {
+     "name": "Sue Burton",
+     "title": "Chief Marketing Officer",
+     "email": "suzanne.burton@envestnet.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Kelly Quackenbush",
+     "title": "Marketing Director, External Communications",
+     "email": "kelly.quackenbush@envestnet.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Robert Fundy",
+     "title": "Vice President Corporate Marketing",
+     "email": "robert.fundy@envestnet.com",
+     "role": "cro"
+    },
+    {
+     "name": "Jennifer Yanni",
+     "title": "Marketing Director",
+     "email": "jennifer.yanni@envestnet.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Broadridge",
+   "people": [
+    {
+     "name": "Theresa Harvin",
+     "title": "Vice President Marketing and Strategy",
+     "email": "theresa.harvin@broadridge.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Jim Longenecker",
+     "title": "VP, Marketing Communications",
+     "email": "jlongenecker@broadridge.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Kathryn Mendoza",
+     "title": "Chief Operations Officer, Global Sales, Marketing and Solutions",
+     "email": "kathryn.mendoza@broadridge.com",
+     "role": "cro"
+    },
+    {
+     "name": "Sonali Srivastava",
+     "title": "Global Growth & Marketing Leader",
+     "email": "sonali.srivastava@broadridge.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Avaloq (NEC)",
+   "people": [
+    {
+     "name": "Carina Schoenenberger",
+     "title": "Head of Marketing",
+     "email": "carina.schoenenberger@avaloq.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Lenka Drews",
+     "title": "Head of Product Marketing",
+     "email": "lenka.drews@avaloq.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Claudia Ramos",
+     "title": "Head of Digital Marketing and Demand Generation",
+     "email": "claudia.ramos@avaloq.com",
+     "role": "cro"
+    },
+    {
+     "name": "Dominika Wirth",
+     "title": "Head of Brand and Content",
+     "email": "dominika.wirthova@avaloq.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "SEI Investments",
+   "people": [
+    {
+     "name": "Team",
+     "title": "General inbox under 'Connect with us' (public inbox on company site; the name points to SEI Sphere, their IT services unit, so ask for it to be forwarded to marketing)",
+     "email": "sphere@seic.com",
+     "role": "field_marketing",
+     "linkedin": "",
+     "location": "https://www.seic.com/contact-us"
+    }
+   ]
+  },
+  {
+   "brand": "InvestCloud",
+   "people": [
+    {
+     "name": "Leigh Asher",
+     "title": "Chief Marketing Officer",
+     "email": "lasher@investcloud.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Ann Teasley",
+     "title": "Vice President, Head of Communications",
+     "email": "ateasley@investcloud.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Corey Rainbow",
+     "title": "Vice President - Private Markets Strategy and Partnerships",
+     "email": "crainbow@investcloud.com",
+     "role": "cro"
+    },
+    {
+     "name": "Harry Callaway",
+     "title": "Senior Director - Private Markets Strategy & Partnerships",
+     "email": "hcallaway@investcloud.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Temenos (Financial Crime Mitigation)",
+   "people": [
+    {
+     "name": "Edgardo Torres-Caballero",
+     "title": "Senior Vice President Global Partnerships",
+     "email": "edgardo.torres@temenos.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/edgardo-torres-caballero",
+     "location": "Dubai, United Arab Emirates"
+    },
+    {
+     "name": "Shirra Frost",
+     "title": "VP, Product Marketing",
+     "email": "shirra.frost@temenos.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/shirra-frost",
+     "location": "Atlanta, United States"
+    },
+    {
+     "name": "Virginia Sorabji",
+     "title": "Digital and Brand Awareness Director",
+     "email": "virginia.sorabji@temenos.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/virginia-petrou",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Rhiannon Marzocca",
+     "title": "Director Corporate Communications",
+     "email": "rhiannon.marzocca@temenos.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/rhiannon-marzocca-47b31751",
+     "location": "United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Orion",
+   "people": [
+    {
+     "name": "Betsy Perez",
+     "title": "Chief Marketing Officer",
+     "email": "betsy@orion.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/betsyrperez",
+     "location": "Omaha, United States"
+    },
+    {
+     "name": "Kate Stous",
+     "title": "VP of Revenue Marketing",
+     "email": "kate.stous@orion.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/katestous",
+     "location": "Lincoln, United States"
+    },
+    {
+     "name": "Joel Hurst",
+     "title": "SVP Business Development, Enterprise",
+     "email": "joelh@orion.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/joel-hurst-503a722b",
+     "location": "Charlotte, United States"
+    },
+    {
+     "name": "Kara Hobza",
+     "title": "Director Corporate Communications",
+     "email": "kara.hobza@orion.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/kara-hobza-marketing22",
+     "location": "La Vista, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Objectway",
+   "people": [
+    {
+     "name": "Maria Marciano",
+     "title": "Chief Marketing & People Officer",
+     "email": "mariafederica.marciano@objectway.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/maria-federica-marciano-bb0b4215a",
+     "location": "Milan, Italy"
+    },
+    {
+     "name": "Gilda Garbin",
+     "title": "Marketing Manager",
+     "email": "gilda.garbin@objectway.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/gilda-garbin-0187577",
+     "location": "Milan, Italy"
+    },
+    {
+     "name": "Jos Martens",
+     "title": "Director Sales and Business Development",
+     "email": "jos.martens@objectway.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jos-martens-0a363b",
+     "location": "Eindhoven, Netherlands"
+    },
+    {
+     "name": "Chiara Giudici",
+     "title": "Communication Manager",
+     "email": "chiara.giudici@objectway.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/chiara-giudici-8647929",
+     "location": "Milan, Italy"
+    }
+   ]
+  },
+  {
+   "brand": "d1g1t",
+   "people": [
+    {
+     "name": "Philippe Rouanet",
+     "title": "Co-Founder and COO",
+     "email": "philippe.rouanet@d1g1t.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/philipperouanet",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Tracy Staniland",
+     "title": "Vice President Marketing",
+     "email": "tracy.staniland@d1g1t.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/tracystaniland",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Alex Strekel",
+     "title": "CRO",
+     "email": "alex.strekel@d1g1t.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/astrekel",
+     "location": "Old Lyme, United States"
+    },
+    {
+     "name": "Michael Volpe",
+     "title": "Senior Sales Director",
+     "email": "michael.volpe@d1g1t.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/michael-volpe-33303414",
+     "location": "Philadelphia, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Profile Software",
+   "people": [
+    {
+     "name": "Evangelos Angelides",
+     "title": "CEO",
+     "email": "eangelides@profilesw.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/evangelosangelides",
+     "location": "Greece"
+    },
+    {
+     "name": "Kate Tsoura",
+     "title": "Group CMO",
+     "email": "ktsoura@profilesw.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kate-tsoura-6706004",
+     "location": "Greece"
+    },
+    {
+     "name": "Devraj Kapoor",
+     "title": "Sales Director (FSI) - GCC",
+     "email": "dkapoor@profilesw.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/devraj-kapoor-8684006",
+     "location": "Dubai, United Arab Emirates"
+    },
+    {
+     "name": "Stefanos Kiposis",
+     "title": "Sales Director LSP",
+     "email": "skiposis@profilesw.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/stefanos-kiposis-115a323b",
+     "location": "Athens, Greece"
+    }
+   ]
+  },
+  {
+   "brand": "Wealthfront",
+   "people": [
+    {
+     "name": "Oliver Stewart",
+     "title": "Director of Growth & Marketing Research",
+     "email": "oliverstewart@wealthfront.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Jamie Kelly",
+     "title": "VP of Marketing",
+     "email": "jamiekelly@wealthfront.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Parker Cuskey",
+     "title": "Lead Marketing Manager",
+     "email": "parkercuskey@wealthfront.com",
+     "role": "cro"
+    },
+    {
+     "name": "Ashley Pham",
+     "title": "Product Marketing Lead",
+     "email": "ashleypham@wealthfront.com",
+     "role": "field_marketing"
+    }
+   ]
+  }
+ ]
+}

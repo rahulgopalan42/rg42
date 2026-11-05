@@ -1,0 +1,445 @@
+{
+ "rows": [
+  {
+   "brand": "Betterment",
+   "people": [
+    {
+     "name": "Veronica Mendoza",
+     "title": "Vice President of Growth Marketing",
+     "email": "veronica.mendoza@betterment.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Jessica Zamorski",
+     "title": "Vice President, Marketing Strategy and Insights",
+     "email": "jessica.zamorski@betterment.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Matthew Prager",
+     "title": "Senior Director, Performance and Brand Marketing",
+     "email": "matthew.prager@betterment.com",
+     "role": "cro"
+    },
+    {
+     "name": "Aparna Tikku",
+     "title": "Director, Partnerships, Product Marketing & Client Engagement",
+     "email": "aparna.tikku@betterment.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Wealthsimple",
+   "people": [
+    {
+     "name": "Paul Teshima",
+     "title": "Chief Marketing and Commercial Officer",
+     "email": "pteshima@wealthsimple.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/paulteshima",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Dasha Sivkov",
+     "title": "VP Marketing",
+     "email": "dsivkov@wealthsimple.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/dasha-sivkov-99207a1a",
+     "location": "Mississauga, Canada"
+    },
+    {
+     "name": "Natalie Riso",
+     "title": "Director of Strategic Partnerships",
+     "email": "natalie.riso@wealthsimple.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/natalieriso",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Sheryl So",
+     "title": "Senior Director, Communications",
+     "email": "sheryl.so@wealthsimple.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/sherylso",
+     "location": "Canada"
+    }
+   ]
+  },
+  {
+   "brand": "Acorns",
+   "people": [
+    {
+     "name": "Kasia Leyden",
+     "title": "Chief Marketing Officer",
+     "email": "kasia.leyden@acorns.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kasialeyden",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Mariel Strauch",
+     "title": "Sr. Director of Brand Marketing",
+     "email": "mariel.strauch@acorns.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/marielstrauch",
+     "location": "Los Angeles, United States"
+    },
+    {
+     "name": "Russ Brodmerkle",
+     "title": "Vice President of Growth Marketing",
+     "email": "russ.brodmerkle@acorns.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/russellbrodmerkle",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Jinny Davoudi",
+     "title": "Director of Communications",
+     "email": "jinny.davoudi@acorns.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jinny-davoudi-7825113b",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Stash",
+   "people": [
+    {
+     "name": "Brandon Krieg",
+     "title": "Co-Founder/CEO",
+     "email": "brandon@stash.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/brandonkrieg1",
+     "location": "United States"
+    },
+    {
+     "name": "Nicole Kirchner",
+     "title": "Director of Marketing Technology",
+     "email": "nicole.kirchner@stash.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/nicole-kirchner",
+     "location": "Portland, United States"
+    },
+    {
+     "name": "Steven Meyers",
+     "title": "VP, Growth",
+     "email": "steven.meyers@stash.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/stevengmeyers",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Adrienne Zable",
+     "title": "Senior Director, Acquisition",
+     "email": "adrienne.zable@stash.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/adriennezable",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "M1 Finance",
+   "people": [
+    {
+     "name": "Shanee Ben-Zur",
+     "title": "Fractional CMO",
+     "email": "s.benzur@m1finance.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Kelsey Hudmon",
+     "title": "Director of Growth & Content",
+     "email": "k.hudmon@m1finance.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Amanda Jardine",
+     "title": "Growth & Lifecycle",
+     "email": "a.jardine@m1.com",
+     "role": "cro"
+    },
+    {
+     "name": "Brian Doherty",
+     "title": "Sr Dir Brand and Creative",
+     "email": "b.doherty@m1finance.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Moneybox",
+   "people": [
+    {
+     "name": "Paul Gambrill",
+     "title": "VP Marketing (Interim)",
+     "email": "paul.gambrill@moneyboxapp.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/paulgambrill",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Joanne Leahy",
+     "title": "PR & Communications Director",
+     "email": "joanne.leahy@moneyboxapp.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/joanne-leahy",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Alan Frankton",
+     "title": "Head of Paid Marketing",
+     "email": "alan.frankton@moneyboxapp.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/alan-frankton-1a2bb345",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Hannah Allen",
+     "title": "Head of Brand and Creative",
+     "email": "hannah@moneyboxapp.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/hannah-allen-6661a1a5",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Nutmeg",
+   "people": [
+    {
+     "name": "Kat Mann",
+     "title": "Communications Lead",
+     "email": "kat@nutmeg.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kat-mann-20a92631",
+     "location": "Alton, United Kingdom"
+    },
+    {
+     "name": "Emily Brenker",
+     "title": "Nutmeg Investments Campaign Marketing Manager - Associate",
+     "email": "emily.brenker@jpmorgan.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/emily-brenker",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "iCapital",
+   "people": [
+    {
+     "name": "Magdalena Pandiloska",
+     "title": "Chief Marketing Officer",
+     "email": "mpandiloska@icapitalnetwork.com",
+     "role": "decision_maker"
+    },
+    {
+     "name": "Rob Byrd",
+     "title": "Vice President, Digital Marketing & Strategy",
+     "email": "robert.byrd@icapital.com",
+     "role": "vp_marketing"
+    },
+    {
+     "name": "Shannon McGorry",
+     "title": "Vice President Marketing",
+     "email": "shannon.mcgorry@icapitalnetwork.com",
+     "role": "cro"
+    },
+    {
+     "name": "Brian Jensen",
+     "title": "Marketing Communications Manager",
+     "email": "brian.jensen@icapital.com",
+     "role": "field_marketing"
+    }
+   ]
+  },
+  {
+   "brand": "Willow Wealth",
+   "people": [
+    {
+     "name": "Mitch Caplan",
+     "title": "Chief Executive Officer",
+     "email": "mcaplan@yieldstreet.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mitch-caplan",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Dennis Matsugin",
+     "title": "Director, Performance Marketing",
+     "email": "dmatsugin@willowwealth.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/dennis-matsugin-15297430",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Morgan Sharfstein",
+     "title": "Senior Manager Strategic Marketing",
+     "email": "mspindler@willowwealth.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/msharfstein",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Matthew Silverman",
+     "title": "Senior Manager, Communications and Content",
+     "email": "msilverman@willowwealth.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/matthew-silverman-a84382105",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Fundrise",
+   "people": [
+    {
+     "name": "Jon Carden",
+     "title": "Chief Marketing Officer",
+     "email": "jcarden@fundrise.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jonathancarden",
+     "location": "Washington, United States"
+    },
+    {
+     "name": "Russell Tischler",
+     "title": "VP of Marketing",
+     "email": "rtischler@fundrise.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/russell-tischler-4bb30626",
+     "location": "Baltimore, United States"
+    },
+    {
+     "name": "Lindsay Kaplan",
+     "title": "Senior Director, Lifecycle Marketing",
+     "email": "lkaplan@fundrise.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/lindsayarynkaplan",
+     "location": "Austin, United States"
+    },
+    {
+     "name": "Carly Wagenbach",
+     "title": "Director, Communications + Platform",
+     "email": "cwagenbach@fundrise.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/carly-wagenbach",
+     "location": "Los Angeles, United States"
+    }
+   ]
+  },
+  {
+   "brand": "OurCrowd",
+   "people": [
+    {
+     "name": "Cali Chill",
+     "title": "Chief Executive Officer",
+     "email": "cali@ourcrowd.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/cali-chill-2a29874",
+     "location": "Israel"
+    },
+    {
+     "name": "Jeremy Ruden",
+     "title": "Head of Deal Marketing",
+     "email": "jeremy.ruden@ourcrowd.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jeremy-ruden",
+     "location": "Herzliya, Israel"
+    },
+    {
+     "name": "Gabe Homa",
+     "title": "Senior Vice President, Global Head of Investor Relations",
+     "email": "gabe@ourcrowd.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/gihoma",
+     "location": "Israel"
+    },
+    {
+     "name": "Susan Lerner",
+     "title": "Communications Associate/Portfolio Communications Manager",
+     "email": "susan.lerner@ourcrowd.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/susan-lerner-5115a35",
+     "location": "Jerusalem, Israel"
+    }
+   ]
+  },
+  {
+   "brand": "Altruist",
+   "people": [
+    {
+     "name": "Jason Wenk",
+     "title": "Founder / CEO",
+     "email": "jwenk@altruist.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jasonwenk",
+     "location": "Los Angeles, United States"
+    },
+    {
+     "name": "Andie Figlin",
+     "title": "Director, Growth Marketing",
+     "email": "andie.figlin@altruist.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/andiefiglin",
+     "location": "Los Angeles, United States"
+    },
+    {
+     "name": "Robert Mennow",
+     "title": "Vice President of Sales",
+     "email": "robert.mennow@altruist.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/robert-mennow-mba",
+     "location": "Dallas, United States"
+    },
+    {
+     "name": "Michaela Kastelman",
+     "title": "Senior Product Marketing Manager",
+     "email": "michaela.kastelman@altruist.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/michaela-kastelman-1a152820",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "Savvy Wealth",
+   "people": [
+    {
+     "name": "Peter Lu",
+     "title": "Chief Business Officer",
+     "email": "peter.lu@savvywealth.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/peterlu92",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Steven Cherucheril",
+     "title": "Senior Director, Marketing and Revenue Strategy & Ops",
+     "email": "steven@savvywealth.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/steven-cherucheril",
+     "location": "New York, United States"
+    },
+    {
+     "name": "David Weiner",
+     "title": "CRO",
+     "email": "dw@savvywealth.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/davidweiner18",
+     "location": "Port Washington, United States"
+    },
+    {
+     "name": "Nick Hampson",
+     "title": "Senior Director of Strategic Growth",
+     "email": "nick.hampson@savvywealth.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/nick-hampson-257a9a16",
+     "location": "Austin, United States"
+    }
+   ]
+  }
+ ]
+}
