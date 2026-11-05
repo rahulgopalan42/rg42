@@ -16,6 +16,8 @@
 >
 > Second, what you do. You decide in a split second whether someone is who they say they are. And that's pretty much how an F1 team works too. All weekend, they're deciding who and what to trust, and fast.
 >
+> And there's a bit of a trend here too. Security and identity brands are going quite big in F1 right now. Okta came in with McLaren last year, 1Password with Red Bull, Zscaler joined Aston Martin this summer, and ThreatLocker signed with Racing Bulls just last month. CrowdStrike's been with Mercedes since 2019. And they all say the same thing: a team runs on trusted data, so if it works there, it'll work for their customers.
+>
 > So it felt like a conversation worth having. But I'd much rather hear it from you. Where's Alloy at right now?"
 
 ---
