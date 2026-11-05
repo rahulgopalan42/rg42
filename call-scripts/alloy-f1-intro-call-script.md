@@ -13,9 +13,10 @@
   - **Why them:** who they sell to and how they work make an F1 conversation logical.
   - **What others do:** identity, security and payments brands use F1 as a proof point and a room for clients. We know why they joined.
   - **How we work:** we map the grid, size it for Alloy, and say "not yet" if that's the answer.
+- **Questions to be ready for:** competitors and teams; standing out (see section 9).
 - **Top flags:**
   - **Capacity:** caution, FIRM.
-  - **Conflicts:** identity and security seats are taken at most teams, and payments seats at several. See Prep notes.
+  - **Conflicts:** from what's public, McLaren and both Red Bull teams look taken. Most other teams have a security partner, so check how each defines the category. No identity or fraud partner found at Audi, Haas or Cadillac. See section 9 and Prep notes.
   - **The email:** it said we're "leading the search" for an "Official Fraud Prevention Partner". Don't repeat that as fact.
   - **Mastercard:** it's Alloy's partner and McLaren's title partner. That could be a door or a clash, so check before raising it.
 
@@ -134,111 +135,92 @@ It says more than 900 financial institutions and fintechs use it. Its last raise
 
 *["Active" means on a team's partner page or announced in 2025 or 2026. Never present an ended deal as current, and never say or imply a team uses Alloy.]*
 
-*[The short version: we found no fraud-prevention or identity-verification company with an F1 team deal. The nearest are identity security brands (Okta, 1Password, Keeper), cybersecurity brands, and the payments and banking brands Alloy sells alongside. Keep the "none found" point off spoken lines.]*
+*[The short version: we found no fraud-prevention or identity-verification company with an F1 team deal. The nearest are identity security brands (Okta, 1Password, Keeper), cybersecurity brands, and the payments and banking brands Alloy sells alongside. The closest job to Alloy's is Okta's fan login at McLaren, which guards fans against identity fraud. Keep the "none found" point off spoken lines.]*
 
-### Okta at McLaren: identity security, the closest category
+### Okta at McLaren: identity, the closest category
 
-- **The deal:** Official Partner of the McLaren Formula 1 Team, multi-year, announced 28 January 2025. On McLaren's partner grid (checked 5 November 2026). Active.
-- **Value to the team:** manages how McLaren's employees, partners and fans sign in to its apps and platforms, then tightens the team's wider digital set-up (their claim).
-- **How they activate:** logo on the cars and drivers' overalls from 2025, and a "fans, partners and employees" customer story. No hospitality programme published.
-- **Why F1, in their words:** "By coupling speed with security, together we'll be able to strengthen the team's confidence" (Todd McKinnon, CEO). Zak Brown said it would help "performance, efficiency and security off the track".
-- **Results:** none published.
-- **For Alloy:** proof an identity brand can win a fan-facing job. Also a likely conflict at McLaren for anything called "identity".
+Here's what that looks like in practice. A fan who joins the McLaren Racing Club, the team's new fan hub, uses one login for the app, the website and the online store, and that login runs on Auth0, Okta's customer identity product. McLaren needed it to hold up when millions of fans pile in on a race weekend, and Okta says it protects them from web attacks and identity fraud. More than fifty of McLaren's brand partners sign in the same way to its Partner Hub, where they book Paddock Club tickets and buy co-branded merchandise. For Alloy, it's proof an identity brand can win a fan-facing job, and it makes McLaren a likely conflict for anything called identity.
 
-### 1Password at Red Bull: a first-time F1 brand with one clear job
+*[Official Partner, multi-year, announced 28 January 2025; on McLaren's partner grid (checked 5 November 2026); logo on the cars and overalls. Fan hub: Okta newsroom, 14 April 2026, quoting Leesa Haydock, McLaren's Director of Digital Marketing and Products: "keep our fan identity secure so that they can log in with confidence". Partner Hub, the 50+ partners and "100% growth" in partner users onboarded: Okta customer story (their claim). Why F1: "By coupling speed with security, together we'll be able to strengthen the team's confidence" (Todd McKinnon, CEO); Zak Brown said it would help "performance, efficiency and security off the track". No other results published.]*
 
-- **The deal:** exclusive Cybersecurity Partner of Oracle Red Bull Racing, multi-year, announced 11 February 2025. It was 1Password's first F1 deal. On the partner page (checked 5 November 2026). Active.
-- **Value to the team:** Extended Access Management, so engineers get quick, secure sign-in to telemetry, tyre and weather systems at the track and in Milton Keynes (their claim, via Autosport).
-- **How they activate:** a "team-first" steering wheel logo, plus halo, chassis, suits and garage screens; an F1 Academy car; behind-the-scenes content; and meeting "customers where they are" at races and the factory.
-- **Why F1, in their words:** F1 is "a sport built on precision, innovation, and trust", and the deal shows cybersecurity "doesn't slow you down" (David Faugno, CEO). Christian Horner wanted "secure, trusted access to critical information".
-- **Results:** none published.
-- **For Alloy:** the model for a first deal: an exclusive category, a real job and a programme for business leaders. Red Bull's security seat looks taken.
+### 1Password at Red Bull: one clear job, first time in F1
+
+Here's how it works day to day. When a Red Bull race engineer or strategist signs in to live telemetry, tyre data or weather models, at the track or at the Milton Keynes factory, that access runs through 1Password's Extended Access Management. It's Red Bull's exclusive Cybersecurity Partner and 1Password's first F1 deal, and its logo sits on the drivers' steering wheel screens, a first for the team. It uses the deal for content, like the "Securing the Win" podcast hosted by former Red Bull mechanic Calum Nicholas, and to meet business and tech leaders at races and at the factory. For Alloy, it's the model for a first deal: one exclusive job, a product in use across the team, and time with buyers.
+
+*[Multi-year, announced 11 February 2025; on Red Bull's partner page (checked 5 November 2026). Also on the halo, chassis, suits and garage screens, and an F1 Academy car (Motorsport Week). Day-to-day use, podcast and customer meetings: Autosport Q&A with CEO David Faugno, 20 November 2025 (their claim). Why F1: a sport built on "precision, innovation, and trust" (Faugno). Christian Horner, then team principal, wanted "secure, trusted access to critical information". No results published. Red Bull's security seat is taken.]*
 
 ### Keeper Security at Williams: closest in size and stage
 
-- **The deal:** Official Partner since April 2024, renewed early, now described as Official Cybersecurity and Password Security Partner. On the partner page (checked 5 November 2026). Active.
-- **Value to the team:** KeeperPAM secures credentials, passkeys and privileged accounts across the team (their claim, January 2026 case study).
-- **How they activate:** car, garage, truck and screen branding; the Williams Fan Zone in Austin with a 360° spin cam and a product offer (October 2024); a 2026 global campaign with Alex Albon.
-- **Why F1, in their words:** "cybersecurity plays a pivotal role in protecting data and ensuring a competitive advantage" (Darren Guccione, CEO).
-- **Results:** none published.
-- **For Alloy:** a private security company that started at a midfield team with product, branding and fan activation, then renewed early. Williams' identity security seat looks taken.
+Here's what it does at the team. When someone at Williams needs admin rights on their laptop, KeeperPAM grants them there and then and takes them away afterwards, and every remote connection that needs extra access goes through the one platform. That matters for a team that, as James Vowles puts it, is "in a new location" every week. Keeper has activated for fans too, with a 360° spin cam and a product offer at the Williams Fan Zone in Austin in October 2024, and a 2026 global campaign on "identity-first" security fronted by Alex Albon. For Alloy, it's a private security company that started at a midfield team and renewed early, and its identity message makes Williams' identity seat look taken.
+
+*[Partner since April 2024, renewed early, now Official Cybersecurity and Password Security Partner; on the Williams partner page (checked 5 November 2026). Car, garage, truck and screen branding. Day-to-day use: Keeper case study, January 2026, quoting Harry Wilson, former Head of Information Security ("There are times when employees need local admin rights on a case-by-case basis"). Campaign: 11 March 2026, the partnership's third year. Why F1: "cybersecurity plays a pivotal role in protecting data and ensuring a competitive advantage" (Darren Guccione, CEO). No results published.]*
 
 ### CrowdStrike at Mercedes: the longest-running security deal
 
-- **The deal:** global partner since 2019 and now a Principal Partner (Mercedes partner page, checked 5 November 2026). CEO George Kurtz bought a 15% stake in the team in November 2025. Active.
-- **Value to the team:** its Falcon platform protects the team's endpoints at the Brackley factory and on race weekends (team release).
-- **How they activate:** car branding, and "Safe and Secure", a 13-part YouTube series in 2024 that ties F1 safety kit to cybersecurity.
-- **Why F1, in their words:** "Formula One is a highly data-intensive sport" (Kurtz). Toto Wolff: "To win, we need complete confidence in the information and infrastructure that drive our team."
-- **Results:** Mercedes reports 8.3M impressions and 6.2M video views for the series (team figure).
-- **For Alloy:** a lesson in content: they made the sport's safety the story, not the software. Mercedes' security seat is taken.
+Here's the day-to-day job. CrowdStrike's Falcon platform protects thousands of the team's computers and devices, at the Brackley factory and at the track. What made it stand out was content: "Safe and Secure", a 13-part YouTube series in 2024 where Mercedes specialists explain F1 safety kit, from the halo and the helmet to the fire extinguisher, and link each piece to keeping a business safe. Mercedes reports 6.2 million video views for it. For Alloy, the lesson is to make the sport the story, not the software, and Mercedes' security seat is taken.
+
+*[Global partner since 2019, now a Principal Partner (Mercedes partner page, checked 5 November 2026). CEO George Kurtz bought a 15% stake in the team in November 2025. "Thousands of endpoints": team release. Series results: 8.3M impressions, 6.2M views, 341K engagements (team figures). Why F1: "Formula One is a highly data-intensive sport" (Kurtz). Toto Wolff: "To win, we need complete confidence in the information and infrastructure that drive our team." Mercedes' page says the platform also protects "identities", so check its scope.]*
 
 ### Zscaler at Aston Martin: still being bought in 2026
 
-- **The deal:** Global Cybersecurity Partner, multi-year, announced 25 June 2026. On Aston Martin's partner page. Active.
-- **Value to the team:** its Zero Trust Exchange protects car design, race strategy and live data between the track and the factory (their claim).
-- **How they activate:** logo on the nose, seatbelts and mirrors of the AMR26, and on drivers' overalls from the Austrian Grand Prix.
-- **Why F1, in their words:** "Every car is a mobile data center, every race is a global, distributed operation, and every millisecond counts" (Sunil Frida, CMO).
-- **Results:** none yet. One analysis called it useful for brand and proof of concept, not a change to the near-term business (Yahoo Finance).
-- **For Alloy:** security is still a live category, and a crowded one. Aston Martin's security seat is taken.
+Here's the job. Zscaler's Zero Trust Exchange links the race team straight to the apps it needs without opening up the wider network, so car designs, race strategy and live data can move safely between the track and the team's UK campus. It signed in June 2026 as Global Cybersecurity Partner, with its logo on the AMR26's nose, seatbelts and mirrors, and on the drivers' overalls from the Austrian Grand Prix. Beyond branding, no activation has been published yet. For Alloy, it shows security is still being bought in 2026, and that it's crowded; Aston Martin's security seat is taken.
+
+*[Multi-year, announced 25 June 2026; on Aston Martin's partner page (checked 5 November 2026). Why F1: "Every car is a mobile data center, every race is a global, distributed operation, and every millisecond counts" (Sunil Frida, CMO). One analysis called it useful for brand and proof of concept, not a change to the near-term business (Yahoo Finance). No results yet.]*
 
 ### Bitdefender at Ferrari, and Kaspersky before it
 
-- **The deal:** exclusive cybersecurity partner since 2022, renewed multi-year in October 2025, with a bigger car placement for 2026. Active. It replaced Kaspersky, whose logos came off the cars in March 2022 after Russia invaded Ukraine; that deal then ended.
-- **Value to the team:** its threat intelligence feeds Ferrari's Security Operations Center (their claim).
-- **How they activate:** private events for its customers and partners with Ferrari drivers and engineers, plus on-car branding (Bitdefender, March 2026).
-- **Why F1, in their words:** "protection is fundamental to winning" (Ciprian Istrate, SVP Operations).
-- **Results:** none published.
-- **For Alloy:** customer events with drivers are what security brands repeat. Kaspersky is the warning: for a trust brand, reputation is the product. Ferrari's seat is taken.
+Here's how it works. Bitdefender's threat intelligence feeds straight into Ferrari's Security Operations Center, so the team's analysts can check and sort alerts faster and respond to incidents sooner. It uses the deal for its own customers, with private events where they meet Ferrari drivers and engineers. In May 2026 it went a step further and presented a "Fan Threat Index" at Ferrari: a year of research on scams aimed at F1 fans, from fake tickets to fake merchandise shops. For Alloy, that's a lesson and a warning: a security brand has already told the fan-scam story, and Kaspersky's exit shows that for a trust brand, reputation is the product.
+
+*[Exclusive cybersecurity partner since 2022, renewed multi-year in October 2025, with a bigger car placement from Melbourne 2026 (Bitdefender, 7 March 2026). Active. It replaced Kaspersky, whose logos came off the cars in March 2022 after Russia invaded Ukraine; that deal then ended. Fan Threat Index: presented in Maranello by Bogdan Botezatu, senior director of threat research (Infosecurity Magazine, 25 May 2026). Why F1: "protection is fundamental to winning" (Ciprian Istrate, SVP Operations). No results published. Ferrari's seat is taken.]*
 
 ### Mastercard at McLaren: Alloy's own partner, on the car
 
-- **The deal:** partner since 2024, and Official Naming Partner from 2026, so the team races as the McLaren Mastercard Formula 1 Team (announced 27 August 2025). Active.
-- **Value to the team:** money, and fans: "Team Priceless" gives selected fans hot laps, driver meet-ups and city experiences.
-- **How they activate:** naming rights, fan programmes, and a launch fan event in Amsterdam with both drivers.
-- **Why F1, in their words:** "McLaren Racing represents the pinnacle of innovation, precision, and performance" (Raja Rajamannar, Chief Marketing and Communications Officer).
-- **Results:** none published. Reported value is around $90M to $100M a year (press estimates; background only).
-- **For Alloy:** Mastercard has had a global onboarding and fraud partnership with Alloy since August 2025. That could open a door at McLaren or close one, because Mastercard sells identity and fraud tools too.
+Here's what it looks like for fans. Through "Team Priceless", Mastercard picks four cardholders for each of five races (Melbourne, Miami, the UK, Mexico City and Abu Dhabi) and gives them travel, a seat inside the McLaren garage and time with Lando Norris and Oscar Piastri. In return they post content from the weekend, and only eligible Mastercard cardholders can enter. It's been a partner since 2024 and is naming partner from 2026, so the team races as the McLaren Mastercard Formula 1 Team. For Alloy, it's close to home: Mastercard has partnered Alloy on onboarding and fraud since August 2025, which could open a door at McLaren or close one, because Mastercard sells identity and fraud tools too.
+
+*[Naming partner announced 27 August 2025, with a launch fan event in Amsterdam with both drivers. Team Priceless launched in December 2025; Miami entries were open to eligible US and Canadian cardholders (Mastercard; SI). Why F1: "McLaren Racing represents the pinnacle of innovation, precision, and performance" (Raja Rajamannar, Chief Marketing and Communications Officer). Reported value around $90M to $100M a year (press estimates; background only). No results published.]*
 
 ### Visa at Red Bull and Racing Bulls: F1 for bank clients
 
-- **The deal:** title partner of Visa Cash App Racing Bulls since 2024 and a partner of Oracle Red Bull Racing. Renewed in February 2026 to 2030, with exclusive rights in retail banking (SportsPro; Visa). Active.
-- **Value to the team:** money, payments presence and cardholder offers.
-- **How they activate:** front-wing branding on the Red Bull car, the Red Bull Showrun Tour in US cities, Cash App cardholder offers, VIP hospitality and two F1 Academy cars.
-- **Why F1, in their words:** a platform "to connect with fans, clients and cardholders" (Frank Cooper III, CMO).
-- **Results:** none published.
-- **For Alloy:** "clients" is the word to notice. Visa uses F1 for the banks that issue its cards, who are Alloy's buyers too. Its retail banking exclusivity makes both teams a likely conflict.
+Here's how Visa uses it. It's title partner of Racing Bulls, its name is on the front wing of the Red Bull car, and it renewed both in February 2026, with exclusive rights in retail banking at Red Bull. It also takes the cars to US cities through the Red Bull Showrun Tour, which started in San Francisco on 21 February 2026 with Yuki Tsunoda, with offers for Visa Cash App cardholders and VIP hospitality. Visa's CMO says it uses F1 to "connect with fans, clients and cardholders". For Alloy, "clients" is the word to notice: Visa's clients are largely the banks that issue its cards, who are Alloy's buyers too, and its rights make both teams a likely conflict.
+
+*[Multi-year renewal announced 19 February 2026; the Racing Bulls title runs through 2030 (Visa; SportsPro). Showrun Tour: San Francisco, then Phoenix, Detroit and Atlanta planned. Also two F1 Academy cars. Quote: Frank Cooper III, CMO. No results published.]*
 
 ### Airwallex at McLaren: the best published B2B results
 
-- **The deal:** partner from February 2024, extended on 21 October 2026 to become Official AI Finance Partner from January 2027, with a sleeve logo added. Active.
-- **Value to the team:** supports McLaren's global payments and finance operations, and runs its digital partner merchandise platform (their claim).
-- **How they activate:** halo and overalls branding, with activations around races from Melbourne to Las Vegas (their claim, 2024). It was Airwallex's first global sports partnership.
-- **Why F1, in their words:** "Formula 1 is built on the pursuit of marginal gains" (Pranav Sood, CFO).
-- **Results:** revenue up 50% year on year across EMEA and the Americas during the partnership, and UK revenue up 57% from new customer acquisition (stat bank). Airwallex also reported a 58% rise in brand trust among people who linked it with McLaren (their claim, December 2024).
-- **For Alloy:** the template for a B2B fintech: start with a real job, show results, then grow the deal.
+Here's what it does inside the team. Airwallex's payment system works inside McLaren's finance team, and Airwallex says custom payment templates save McLaren half a day a month on international payments. It also powers the payments on McLaren's online platform where partners buy team merchandise. It has results to show: revenue up 50% year on year across EMEA and the Americas during the partnership, and, in its own survey, a 58% rise in brand trust among people who linked it with McLaren. In October 2026 McLaren made it Official AI Finance Partner from 2027, which makes it the template for a B2B fintech: start with a real job, show results, then grow.
+
+*[Partner from February 2024, Airwallex's first global sports partnership; extended 21 October 2026, with a sleeve logo added and the halo and overalls kept. Activations around races from Melbourne to Las Vegas (their claim). Half a day a month and brand trust: Airwallex, 10 December 2024 (their claim). Revenue figures: stat bank. Why F1: "Formula 1 is built on the pursuit of marginal gains" (Pranav Sood, CFO). Jon Stona, VP of Marketing: "the competition to stand out as a sponsor is steep".]*
 
 ### Revolut at Audi: a fintech inside the team's money
 
-- **The deal:** title partner of the Audi Revolut F1 Team from 2026 (announced 30 July 2025), Revolut's first F1 deal. Active.
-- **Value to the team:** Revolut Business runs parts of the team's finance operations, and Revolut powers checkout for team merchandise.
-- **How they activate:** naming rights, race-weekend fan experiences and benefits for Revolut customers.
-- **Why F1, in their words:** "We're accelerating towards 100 million customers, and we'll be bringing them into Formula 1" (Nik Storonsky, CEO).
-- **Results:** none published yet.
-- **For Alloy:** a fintech product doing a real job inside a team. Revolut runs its own fraud and onboarding checks, so check its title terms at Audi.
+Here's the job. Revolut Business is built into the Audi team's financial operations, and Revolut powers the checkout when fans buy team merchandise. It's title partner from 2026, so the team races as the Audi Revolut F1 Team, and the plan is race-weekend experiences for fans and perks for Revolut customers. Nik Storonsky's reason was simple: "We're accelerating towards 100 million customers, and we'll be bringing them into Formula 1." For Alloy, it's a fintech product doing a real job inside a team, and since Revolut runs its own fraud and onboarding checks, its title terms at Audi need checking.
+
+*[Announced 30 July 2025, Revolut's first F1 deal; listed as Title Sponsor on Audi's partner page (checked 5 November 2026). Source: Audi press release. No results published yet.]*
 
 ### Also in the paddock: payments and banks
 
-- **Stripe at Mercedes:** Official Global Payments Partner, announced 20 October 2026. Branding from the first race of 2027, with first products at races this year, starting with retail. Toto Wolff: "Stripe was the only choice." Stripe also sells fraud and identity tools, so check its scope.
+- **Stripe at Mercedes:** Official Global Payments Partner, announced 20 October 2026. It starts at races this year with the team's retail, and its branding arrives at the first race of 2027. Toto Wolff: "Stripe was the only choice." Stripe also sells fraud and identity tools, so check its scope.
 - **Nasdaq at Mercedes:** official partner since May 2025, partly because "one third of the Team's partners already list on Nasdaq's exchange". Nasdaq Verafin became Alloy's partner on 3 September 2026.
 - **Barclays, BNY and Nuveen at Williams:** all signed in January and February 2026. Barclays, in its first F1 deal, says it will "deepen our client engagement" (Stephen Dainton). BNY plans client touchpoints; Nuveen is official asset management partner. Santander's Williams deal ended.
 - **Standard Chartered, American Express and Santander with F1 itself:** Standard Chartered joined in January 2026 to "bring clients closer to the excitement of F1" (Judy Hsu, CEO, Wealth and Retail Banking). Amex is F1's official payments partner. Santander has been retail banking partner since 2025.
 - **Kraken at Williams:** crypto partner since 2023, renewed January 2026, with front-wing branding and fan zones.
-- **Arctic Wolf at Alpine:** official cybersecurity partner since February 2025.
+
+### Also in the paddock: the other security partners
+
+- **Cisco at McLaren:** Official Security Partner since May 2024. Its firewalls guard the network at the McLaren Technology Centre, with virtual firewalls and cloud security for the race sites and remote staff.
+- **Rubrik at McLaren:** Official Partner from 28 January 2026, keeping the team's data secure and recoverable across F1 and IndyCar.
+- **ThreatLocker at Racing Bulls:** Official Cybersecurity Partner from the Austin race (announced 19 October 2026). Logos on the mirrors, bargeboards, suits and helmets, and the team runs its software internally.
+- **Arctic Wolf, Cato Networks and SEALSQ at Alpine:** Arctic Wolf has been official cybersecurity partner since February 2025, watching the team's systems around the clock at the factory and trackside. Cato became exclusive network security (SASE) partner for 2026.
+- **Exein at Haas:** Official Physical AI Security Partner from the Belgian Grand Prix (announced 16 July 2026). It protects connected devices, and its logo sits on the rear wing actuator.
+- **NinjaOne at Audi:** official endpoint management partner since January 2026. IT management, not security as such.
+- **viagogo at Alpine:** not security, but close to fraud: since March 2025 Alpine has sold its ticket allocation through viagogo internationally and StubHub in North America.
 
 ### Ended, or not in F1
 
 - **Darktrace:** McLaren's AI cybersecurity partner from 2020. Not on McLaren's partner grid today. Ended; no announcement found.
+- **Trend Micro:** named an Official Partner of McLaren in September 2025, with client hospitality. Not on McLaren's partner grid today (checked 5 November 2026). Status unknown.
 - **Kaspersky:** Ferrari, ended after March 2022 (above).
+- **CYBER1:** F1's own cybersecurity provider on a five-year deal from 2019. Not on F1's partner list today.
 - **Palo Alto Networks:** no F1 team deal found. It backed Envision Racing in Formula E (2021) and is the NHL's cybersecurity partner (2025).
 - **Identity verification firms:** no F1 team deal found for Socure, Jumio, Entrust (Onfido), Persona, Sumsub, Veriff, Incode, Prove, Experian or LexisNexis Risk Solutions.
 - **MoneyGram:** title partner of Haas in past seasons. Not on the TGR Haas partner page now (checked 5 November 2026).
@@ -247,15 +229,15 @@ It says more than 900 financial institutions and fintechs use it. Its last raise
 
 | Brand | Team | Since / status | How they add value | How they activate | What Alloy can take from it |
 |---|---|---|---|---|---|
-| Okta | McLaren | 2025 / active | Sign-in for staff, partners and fans | Car and overalls | Closest category; McLaren likely taken |
-| 1Password | Red Bull | 2025 / active | Secure access for engineers | Steering wheel logo, content, customer meetings | First-deal model: one job, exclusive |
-| Keeper Security | Williams | 2024, renewed / active | Credentials and privileged access | Fan zone, campaign with Albon | Right size: start midfield, renew early |
-| CrowdStrike | Mercedes | 2019 / active, Principal | Endpoint protection | 13-part safety series | Make the sport the story |
-| Zscaler | Aston Martin | 2026 / active | Zero trust for design and race data | Nose, seatbelts, overalls | Security still sells, and it's crowded |
-| Bitdefender | Ferrari | 2022, renewed 2025 / active | Threat intel for the team's SOC | Customer events with drivers | Drivers meet customers; reputation matters |
-| Mastercard | McLaren | 2024; title 2026 / active | Money, fan programmes | Team Priceless | Alloy's partner: door or clash |
-| Visa | Red Bull, Racing Bulls | 2024, to 2030 / active | Money, cardholder offers | Showrun, hospitality, F1 Academy | F1 for bank clients; retail banking exclusive |
-| Airwallex | McLaren | 2024, extended from 2027 / active | Payments, finance, merch platform | Branding, race activations | Best published B2B results |
+| Okta | McLaren | 2025 / active | Fan and partner login (Auth0), guarding against identity fraud | Car and overalls, fan hub story | Closest category; McLaren likely taken |
+| 1Password | Red Bull | 2025 / active | Secure sign-in for engineers and strategists | Steering wheel logo, podcast, customer meetings | First-deal model: one job, exclusive |
+| Keeper Security | Williams | 2024, renewed / active | Temporary admin rights, controlled remote access | Austin fan zone, campaign with Albon | Right size: start midfield, renew early |
+| CrowdStrike | Mercedes | 2019 / active, Principal | Protects computers at factory and track | 13-part safety series | Make the sport the story |
+| Zscaler | Aston Martin | 2026 / active | Secure links for design and race data | Nose, seatbelts, overalls | Security still sells, and it's crowded |
+| Bitdefender | Ferrari | 2022, renewed 2025 / active | Threat intel for the team's SOC | Customer events with drivers, Fan Threat Index | Fan scams already told; reputation matters |
+| Mastercard | McLaren | 2024; naming 2026 / active | Money, fan programmes | Team Priceless | Alloy's partner: door or clash |
+| Visa | Red Bull, Racing Bulls | 2024, renewed 2026 / active | Money, cardholder offers | Showrun, hospitality, F1 Academy | F1 for bank clients; retail banking exclusive |
+| Airwallex | McLaren | 2024, extended from 2027 / active | Payments for the finance team, partner merch platform | Branding, race activations, published results | Best published B2B results |
 | Revolut | Audi | 2026 / active | Team finance, merch checkout | Naming rights, customer perks | Product inside the team's money |
 
 ### Insights: what this tells Alloy
@@ -263,14 +245,15 @@ It says more than 900 financial institutions and fintechs use it. Its last raise
 - **Security brands buy a proof point:** every security deal is pitched as "we protect a team where data is the edge" (Kurtz, Frida, Faugno). The logo is the receipt; the job is the story.
 - **Money brands buy the room:** Barclays, Visa and Standard Chartered all say "clients". Alloy's buyers are those firms, so for Alloy the room may matter more than the car.
 - **What works:** one clear job, time with customers (Bitdefender's driver events, 1Password's customer meetings) and content about the sport, not the software (CrowdStrike). Deals grow: Airwallex went from partner to AI Finance Partner in under three years, and Keeper renewed early.
-- **What to avoid:** being another security logo at a team that has one; at least seven of eleven teams list a cybersecurity or identity security partner. And Kaspersky's lesson: for a trust brand, who you sit next to matters.
+- **How the small ones stand out:** Airwallex's marketing lead called the competition to stand out "steep". It answered with a real job inside the team and results it can point to, not a bigger logo.
+- **What to avoid:** being another security logo at a team that has one; nine of eleven teams list a cybersecurity or identity security partner (all but Audi and Cadillac). And Kaspersky's lesson: for a trust brand, who you sit next to matters.
 - **A first deal at Alloy's size:** usually an official partner title in one category at one team, with the product in use, some car or kit branding, a few hospitality weekends and a content series, on a multi-year term (Keeper, 1Password, Airwallex). Not a title deal.
 
 ### What an Alloy partnership could look like, based on these
 
 *[Ideas to test, not proposals. Sized for a funded scale-up, and only at a team where the seat is free.]*
 
-- **Idea to test, a "trusted fan" job:** like Okta at McLaren, a fan-facing role: checking sign-ups for a team's fan club, competitions or ticket ballots so real fans get in and fake accounts don't. Product plus cash.
+- **Idea to test, a "trusted fan" job:** like Okta at McLaren, a fan-facing role: checking sign-ups for a team's fan club, competitions or ticket ballots so real fans get in and fake accounts don't. Product plus cash. Not at McLaren, where Okta already does this.
 - **Idea to test, a client programme before a car:** like Barclays, Visa and Bitdefender: two or three race weekends hosting fraud and risk leaders from banks and credit unions, with a driver or engineer moment. Miami, Austin or Las Vegas first.
 - **Idea to test, "trust under pressure" content:** like CrowdStrike's safety series: how a team decides fast who and what to trust, told for fraud people. It could feed Alloy's annual State of Fraud report.
 - **Idea to test, a door through a partner:** Mastercard (McLaren) and Nasdaq (Mercedes) already work with Alloy. A joint piece or a shared hospitality day could be tested, if those deals allow it.
@@ -278,7 +261,7 @@ It says more than 900 financial institutions and fintechs use it. Its last raise
 
 ### If they ask: "What are companies like us doing in F1?"
 
-> "Good question. The closest to you are the identity and security brands. Okta's with McLaren, managing how staff, partners and fans sign in. 1Password's with Red Bull, Keeper's with Williams, and CrowdStrike's been with Mercedes since 2019. They all say the same thing: a team runs on trusted data, so if it works there, it'll work for you. On the money side, Mastercard, Visa and Airwallex use it for their clients and customers. So for you, would it be more about the proof point, or about time with the banks you sell to?"
+> "Good question. The closest to you are the identity and security brands. Okta's with McLaren, and when a McLaren fan logs in to the app or the online shop, that runs on Okta. At Red Bull, the engineers sign in to their car data through 1Password. Keeper's with Williams, and CrowdStrike's been protecting Mercedes since 2019. Their pitch is simple: a team runs on trusted data, so if it works there, it'll work for you. On the money side, Airwallex's payments run inside McLaren's finance team, and Mastercard and Visa use F1 for their clients and cardholders. So for you, would it be more about the proof point, or about time with the banks you sell to?"
 
 *[Keep stats off this one. Don't call any team "free", and don't suggest any team uses Alloy.]*
 
@@ -319,7 +302,7 @@ It says more than 900 financial institutions and fintechs use it. Its last raise
 
 *[Only if they ask for more. Who you sell to: banks, credit unions and fintechs, 900+ by their count (July 2026). That's the room; the partner list is in Who they sell to, part 7.]*
 
-*[Real time: team bosses describe trusted access as part of winning. Toto Wolff wants "complete confidence in the information and infrastructure"; Christian Horner wanted "secure, trusted access to critical information".]*
+*[Real time: team bosses describe trusted access as part of winning. Toto Wolff wants "complete confidence in the information and infrastructure"; Christian Horner, then Red Bull's team principal, wanted "secure, trusted access to critical information" (February 2025).]*
 
 *[Past the front door: risk-based authentication, transaction monitoring, pKYB and the AI Assistant (2026). Nicholas says fraud "happens across the entire customer lifecycle, not just at onboarding". If you want an analogy: trust isn't a one-time check at the gate, it runs all weekend.]*
 
@@ -335,7 +318,7 @@ It says more than 900 financial institutions and fintechs use it. Its last raise
 
 *[Expect it: the email said we're "leading the search" for an "Official Fraud Prevention Partner". Say this with confidence, and keep the last two lines in.]*
 
-> "Good question, and I'll give you the real answer, not the sales one. Tech's got quite saturated in F1. It's now the biggest sponsorship category for the teams, and Reuters counted eight new AI deals in six months earlier this year.
+> "Good question, and I'll give you the real answer, not the sales one. Tech's got quite saturated in F1. It's now the biggest sponsorship category for the teams, and Reuters reported eight new AI deals in six months earlier this year.
 >
 > Security's busy too. CrowdStrike's with Mercedes, Bitdefender's with Ferrari, 1Password's with Red Bull, and Zscaler joined Aston Martin this summer. Okta's with McLaren on identity.
 >
@@ -343,7 +326,7 @@ It says more than 900 financial institutions and fintechs use it. Its last raise
 >
 > The other reason is the room. Banks and payment companies are all over the grid, Mastercard at McLaren, Visa at Red Bull, Barclays at Williams. That's exactly who you sell to.
 >
-> Whether that seat's free at a given team is what we check properly. I won't tell you it's open everywhere."
+> Whether that seat's free at a given team is what we check properly. I'd rather do that than guess today."
 
 **Short version, if there's no time:**
 
@@ -415,27 +398,27 @@ It says more than 900 financial institutions and fintechs use it. Its last raise
 
 *[The detail and sources are in Comparable brands. These are the three reasons, with one example each.]*
 
-- **A proof point for trust:** security brands say a team is one of the hardest places to protect data, which makes their claim easy to believe. Example: CrowdStrike at Mercedes since 2019.
-- **The room:** banks and payments brands say "clients" every time. Example: Barclays joined Williams this year to "deepen our client engagement".
-- **Customers at scale:** Visa, Mastercard and Revolut use F1 to reach cardholders and customers. Example: Mastercard's "Team Priceless" at McLaren.
+- **A proof point for trust:** security brands say a team is one of the hardest places to protect data, which makes their claim easy to believe. Example: CrowdStrike has protected the computers at Mercedes' factory and at the track since 2019, and that's the story it tells its own customers.
+- **The room:** banks and payments brands say "clients" every time. Example: Barclays joined Williams this year to "deepen our client engagement", and Bitdefender takes its customers to private events with Ferrari's drivers and engineers.
+- **Customers at scale:** Visa, Mastercard and Revolut use F1 to reach cardholders and customers. Example: Mastercard's "Team Priceless" picks four cardholders at each of five races and gives them a seat inside the McLaren garage.
 - **What it means for Alloy:** the first two fit best, because Alloy sells to institutions, not consumers.
 
-> "I think for companies like yours it's rarely about the logo. The security brands use it as proof: if you can protect a team where data is everything, people believe you can protect them. The banks and payment brands use it for their clients. Barclays came into Williams this year and said that straight out. And the audience helps: F1 fans index at 160 for business decision makers, the highest in sport. For you, the interesting bit is that your buyers are already in the room as partners."
+> "I think for companies like yours it's rarely about the logo. The security brands use it as proof. CrowdStrike looks after Mercedes' computers at the factory and at the track, and the message to its customers is simple: if it works there, it'll work for you. The banks and payment brands use it for their clients. Barclays came into Williams this year and said that straight out. And the audience helps: F1 fans index at 160 for business decision makers, the highest in sport. For you, the interesting bit is that your buyers are already in the room as partners."
 
 ## 6. If they ask: "How are similar brands activating?"
 
-> "There are four or five ways people use it, and most do two or three. The first is a working role, where the product does a real job. RUCKUS at Haas is a good example: their wireless runs the team's operations, and they show it live in the garage. The security brands work the same way. The second is the business side, hospitality and proper time with buyers. Airwallex at McLaren has published numbers: revenue up 50% year on year across EMEA and the Americas during the partnership. Third is content. CrowdStrike made a whole series about F1 safety, not about software. Fourth is customer events with drivers, which Bitdefender does with Ferrari. And last is picking particular races, which for you probably means the three in the US."
+> "There are four or five ways people use it, and most do two or three. The first is a working role, where the product does a real job. RUCKUS at Haas is a good example: their wireless runs the team's operations, and they show it live in the garage. 1Password's the same at Red Bull, where the engineers sign in to their car data through it. The second is the business side, hospitality and proper time with buyers. Airwallex at McLaren can point to numbers: revenue up 50% year on year across EMEA and the Americas during the partnership. Third is content. CrowdStrike made a series of short films on F1 safety, the halo, the helmet, the seat belts, and tied each one to keeping a business safe. Fourth is customer events with drivers. Bitdefender brings its customers to private events with Ferrari's drivers and engineers. And last is picking particular races, which for you probably means the three in the US."
 
 *[Brand detail and sources: see Comparable brands. Alloy-specific ideas: see "What an Alloy partnership could look like" there. Don't repeat them here.]*
 
 ## 7. If they ask: "What can we do with the team's other partners?"
 
-> "This is the bit people don't expect. Every team has 25 or more partners, and there are over 350 across the grid. The teams work hard to get them talking. They run partner summits, they make introductions, and there are business forums on race weekends. Partners host together, make content together, and quite often end up buying from each other. We call it co-partner activations. For you, what's interesting is how many of those partners are banks and payment companies."
+> "This is the bit people don't expect. Every team has 25 or more partners, and there are over 350 across the grid. The teams work hard to get them talking. They run partner summits, they make introductions, and there are business forums on race weekends. Partners host together, make content together, and quite often end up buying from each other. At McLaren, for example, the other partners sign in to the team's partner portal through Okta, and pay for team merchandise through Airwallex. We call it co-partner activations. For you, what's interesting is how many of those partners are banks and payment companies."
 
 *[Named examples, verified. Use one if they want proof it's real.]*
 
 - **A partner chosen partly for the other partners:** Nasdaq joined Mercedes in May 2025, and the team said "one third of the Team's partners already list on Nasdaq's exchange".
-- **One partner's product inside the team's business:** Airwallex runs McLaren's digital partner merchandise platform (Airwallex, October 2026).
+- **Partners' products serving the other partners:** at McLaren, more than fifty brand partners sign in to the Partner Hub through Okta's Auth0, where they book Paddock Club tickets and buy co-branded merchandise (Okta customer story). Airwallex supplies the payments behind McLaren's digital partner merchandise platform (Airwallex, October 2026).
 - **A partner summit:** Mercedes hosted its partners at a Partner Summit in London in February 2025 (team event page).
 - **Alloy's own links:** Mastercard (McLaren) has partnered Alloy since August 2025, and Nasdaq Verafin (Nasdaq is at Mercedes) since September 2026. Don't assume either would do anything in F1.
 
@@ -449,7 +432,7 @@ It says more than 900 financial institutions and fintechs use it. Its last raise
 
 *[Ideas to test with a team's commercial and digital people, never claims. Never say or imply any team uses or needs Alloy. A team isn't a bank, so the honest fit is narrower than for a security brand: lead with marketing, and keep product as a showcase.]*
 
-- **Fan and digital platforms (most plausible):** checking sign-ups for fan clubs, competitions, ticket ballots or hospitality bookings, so real fans get through and fake accounts don't. Fan programmes like Mastercard's "Team Priceless" show teams run these at scale.
+- **Fan and digital platforms (most plausible):** checking sign-ups for fan clubs, competitions, ticket ballots or hospitality bookings, so real fans get through and fake accounts don't. Fan programmes like Mastercard's "Team Priceless" show teams run these at scale. Check who owns the job first: at McLaren, Okta's Auth0 already runs fan login and guards against identity fraud, and Alpine sells its tickets through viagogo.
 - **Partner and supplier checks:** a team signs and pays dozens of partners and suppliers. Ongoing business checks (Alloy's pKYB) are an idea to test with the finance team.
 - **E-commerce and payments:** account takeover and payment fraud on the team shop. Payments partners already run several shops (Airwallex, Stripe, Revolut), so this is a "with them" idea, never "instead of them".
 - **Not a fit:** factory, design, trackside operations and car performance. Don't pitch them.
@@ -461,9 +444,41 @@ It says more than 900 financial institutions and fintechs use it. Its last raise
 
 ## 9. Other questions they may ask
 
+### "Who are our competitors in F1, and which teams are available?"
+
+> "From what's public, the identity and security brands are spread across most of the grid. Okta's with McLaren, and it runs the login for McLaren's fans and partners. 1Password's with Red Bull, Keeper's with Williams, CrowdStrike's with Mercedes, Bitdefender's with Ferrari and Zscaler's with Aston Martin. Alpine, Racing Bulls and Haas have security partners too. For you, the ones that look most taken are McLaren, because of Okta, and the two Red Bull teams, because of Visa. Where we don't see an identity or fraud partner today is Cadillac, Audi and Haas. At Audi, Revolut's the title partner, so we'd confirm what that covers. The honest caveat is that fraud prevention is narrower than cybersecurity. So a team with a security partner might still have room for a fraud partner. It depends on how its contracts define the category, and checking that is exactly what our grid mapping does. Which teams are you most interested in?"
+
+*[Never say a category is open, never call a team "available", and never name a team as "looking". If they name a direct competitor (Socure, Jumio, Persona, Sumsub, Veriff, Incode, Prove, Entrust or Onfido): none has a team deal we could find. If asked straight, "Not that we've seen", and don't present it as a gap.]*
+
+| Team | Identity / security partner | Payments / banking partner | Status | What it means for Alloy |
+|---|---|---|---|---|
+| McLaren | Okta (identity; runs fan and partner login), Cisco (Official Security Partner), Rubrik (data security) | Mastercard (naming partner), Airwallex, Goldman Sachs, Edward Jones, OKX, FxPro | All on the partner grid, 5 Nov 2026 | Likely taken: Okta already does fan identity, and Mastercard sells identity and fraud tools |
+| Red Bull | 1Password (exclusive Cybersecurity Partner) | Visa (exclusive in retail banking), Carlyle, AvaTrade, Gate | Partner page, 5 Nov 2026 | Likely taken: security is exclusive, and Visa holds retail banking |
+| Racing Bulls | ThreatLocker (Official Cybersecurity Partner, from October 2026) | Visa and Cash App (title), XMTrading | Partner page, 5 Nov 2026 | Likely taken: Visa and Cash App hold the title |
+| Mercedes | CrowdStrike (Principal Partner; says it protects identities too) | UBS, Nu, Nasdaq, Stripe (Official Global Payments Partner, branding from 2027) | Partner page, 5 Nov 2026 | Check: CrowdStrike's scope, and Stripe sells fraud tools |
+| Ferrari | Bitdefender (exclusive cybersecurity) | UniCredit, BingX, Vantage | Bitdefender release, March 2026; rest from a third-party list | Check: Bitdefender already tells the fan-scam story |
+| Williams | Keeper Security (Official Cybersecurity and Password Security Partner) | Barclays, BNY, Nuveen, Stephens, Kraken | Partner page, 5 Nov 2026 | Check: Keeper's 2026 campaign is about identity; strong bank room |
+| Aston Martin | Zscaler (Global Cybersecurity Partner, June 2026) | Coinbase, Pepperstone, CoinPayments | Partner page, 5 Nov 2026 | Check: security taken; fraud depends on Zscaler's terms |
+| Alpine | Arctic Wolf (cybersecurity), Cato Networks (network security, 2026), SEALSQ | eToro, Mobilize Financial Services | Partner page, 5 Nov 2026 | Check: three security partners, and viagogo sells its tickets |
+| Audi | NinjaOne (endpoint management, not security as such) | Revolut (title), Nexo, Libertex, Aleph, Perk | Partner page, 5 Nov 2026 | No identity or fraud partner found; check Revolut's title terms first |
+| Haas | Exein (Physical AI Security Partner for connected devices, July 2026) | IC (FX trading), Emburse, Zoomex | Partner page, 5 Nov 2026 | No identity or fraud partner found |
+| Cadillac | None found | None found | Team page blocked; F1 Salaries list (30 Sep 2026) and releases to 19 Oct 2026 | No identity or fraud partner found; short roster |
+| F1 (series) | None found (CYBER1's 2019 deal not listed) | American Express (payments), Santander (retail banking), Standard Chartered, Crypto.com | Third-party list checked against F1's roster, 6 Oct 2026 | Check: series rights sit above the teams |
+| FIA | None found | None found | FIA partner news; Hankook joined in January 2026 | No identity or fraud partner found; not a usual route |
+
+*[Read the last column as "from what's public, to confirm". "Likely taken" means a partner already does an identity job or holds payments or banking rights that could cover fraud. "Check" means a security partner whose contract may or may not cover fraud. "No identity or fraud partner found" never means free.]*
+
+### "It's very crowded. Won't we get lost? How do we stand out?"
+
+> "It's a fair worry. Airwallex's marketing lead said the same thing: in F1, the competition to stand out as a sponsor is steep. At McLaren they sit next to Mastercard and Goldman Sachs, so they were never going to be the biggest logo. Instead, they put their product to work, inside McLaren's finance team and behind the platform where partners buy team merchandise. That gave them something real to talk about, and they can point to results: revenue up 50% year on year across EMEA and the Americas during the partnership. And last month McLaren gave them a bigger role, as Official AI Finance Partner from 2027. For you, I'd take three things from that. Own one job, fraud and identity, not 'security'. Make it visible, with a real role or a showcase people can see. And use the room for your own buyers, by hosting the fraud leaders from banks and fintechs. Which of those feels most like Alloy?"
+
+*[If they want a story of their own (sourced, optional): "And there's one in the sport already. F1's own ticket site warns fans about fake sites and sellers who ask for a bank transfer. That money moves through banks and fintechs, the people you work with, so it's a fraud story you could tell from the inside." Bitdefender presented a "Fan Threat Index" on fan scams at Ferrari in May 2026, so the consumer side has been told; Alloy's side is the account the money lands in. Never suggest a team or its fans have a fraud problem.]*
+
+*[Backing: Jon Stona, VP of Marketing, Airwallex (FF News, 10 December 2024): "the competition to stand out as a sponsor is steep". Product role: Airwallex, 10 December 2024 and 21 October 2026. Revenue figure: stat bank only (not found in Airwallex's own releases), so say "point to", not "published". Keep the 58% brand-trust figure off this line. If they want a second example: CrowdStrike made a safety series at Mercedes that was about the sport, not the software; RUCKUS shows its wireless live in the Haas garage, and SPORTFIVE ran that grid-wide process.]*
+
 ### "What does it cost?"
 
-> "It's a wide range. Entry-level and supplier positions start in the low single-digit millions a year, official partner tiers sit above that, and driver, content and pure hospitality programs sit below. For you, I'd start with hospitality and content, and look at a partner role once we know which team fits."
+> "It's a wide range. Entry-level and supplier positions start in the low single-digit millions a year. Official partner tiers sit above that, and driver, content and pure hospitality programs sit below. For you, I'd start with hospitality and content, and look at a partner role once we know which team fits."
 
 ### "Why SPORTFIVE rather than going direct?"
 
@@ -471,7 +486,7 @@ It says more than 900 financial institutions and fintechs use it. Its last raise
 
 ### "Which team would fit?"
 
-> "I don't know yet, and I'd be making it up if I named one. That's what the grid mapping is for. We look at which teams have the category free, which partners sit around it, and the price, then come back with a short list."
+> "I don't know yet, and I'd be making it up if I named one. That's what the grid mapping is for. We look at where the category could work, who the other partners are, and the price, then come back with a short list."
 
 ### "How would we measure ROI?"
 
@@ -520,24 +535,26 @@ It says more than 900 financial institutions and fintechs use it. Its last raise
 
 ### Conflicts by team
 
-*[From team partner pages and releases checked 5 November 2026; confirmed at the recommendations stage. Never claim a category is open. Ferrari is from a third-party list (RTR Sports); Cadillac's page didn't load.]*
+*[Matches the team table in section 9. From team partner pages and releases checked 5 November 2026; confirmed at the recommendations stage. Never claim a category is open. Ferrari is from its own releases plus a third-party list (RTR Sports). Cadillac's partner page blocks automated checks (403), so Cadillac is from F1 Salaries (updated 30 September 2026), RTR Sports (August 2026) and team releases up to 19 October 2026.]*
 
 | Team | Identity and security | Payments, banks, fintech | Read for Alloy |
 |---|---|---|---|
-| McLaren | Okta (identity), Rubrik | Mastercard (title), Airwallex, Goldman Sachs, Edward Jones, OKX, FxPro | Likely conflict; Mastercard is Alloy's partner, check rights |
-| Mercedes | CrowdStrike (Principal) | UBS, Nu, Nasdaq, Stripe (branding from 2027) | Likely conflict on security; Stripe sells fraud tools, check |
-| Red Bull | 1Password (exclusive cybersecurity) | Visa (retail banking exclusive), Carlyle, AvaTrade, Gate | Likely conflict |
-| Racing Bulls | ThreatLocker | Visa and Cash App (title), XMTrading | Likely conflict (Visa) |
-| Ferrari | Bitdefender (exclusive cybersecurity) | UniCredit, AON, BingX, Vantage | Check; security taken |
-| Williams | Keeper Security (cybersecurity and password security) | Barclays, BNY, Nuveen, Stephens, Kraken | Check; identity security taken, strong bank room |
-| Aston Martin | Zscaler | Coinbase, Pepperstone | Check; security taken |
-| Alpine | Arctic Wolf, Cato Networks, SEALSQ | eToro, Mobilize Financial Services | Check |
-| Audi | NinjaOne (IT management) | Revolut (title), Nexo, Libertex, Perk, Aleph | Check Revolut's title terms |
-| Haas | Exein | Emburse, Zoomex | No identity or fraud partner found |
-| Cadillac | None found | None found | Page didn't load; check |
-| F1 (series) | None found | American Express, Santander, Standard Chartered | Series rights sit above teams; check |
+| McLaren | Okta (identity: fan and partner login via Auth0), Cisco (Official Security Partner since May 2024), Rubrik (data security, January 2026) | Mastercard (naming partner), Airwallex, Goldman Sachs, Edward Jones, OKX, FxPro | Likely taken. Okta does fan identity; Mastercard is Alloy's partner and sells identity and fraud tools, so check rights |
+| Red Bull | 1Password (exclusive Cybersecurity Partner) | Visa (exclusive in retail banking), Carlyle, AvaTrade, Gate | Likely taken |
+| Racing Bulls | ThreatLocker (Official Cybersecurity Partner, 19 October 2026) | Visa and Cash App (title, to 2030), XMTrading | Likely taken (Visa and Cash App title) |
+| Mercedes | CrowdStrike (Principal; says it protects identities too) | UBS, Nu, Nasdaq, Stripe (branding from 2027) | Check CrowdStrike's scope; Stripe sells fraud tools |
+| Ferrari | Bitdefender (exclusive cybersecurity; Fan Threat Index, May 2026) | UniCredit, AON, BingX, Vantage | Check; security taken, fan-scam story told |
+| Williams | Keeper Security (Official Cybersecurity and Password Security Partner; "identity-first" campaign, 2026) | Barclays, BNY, Nuveen, Stephens, Kraken | Check; identity security looks taken, strong bank room |
+| Aston Martin | Zscaler (Global Cybersecurity Partner, June 2026) | Coinbase, Pepperstone, CoinPayments | Check; security taken |
+| Alpine | Arctic Wolf, Cato Networks (exclusive SASE, 2026), SEALSQ | eToro, Mobilize Financial Services; viagogo (tickets) | Check; viagogo sells Alpine's ticket allocation |
+| Audi | NinjaOne (endpoint management, January 2026) | Revolut (title), Nexo, Libertex, Perk, Aleph | No identity or fraud partner found; check Revolut's title terms first |
+| Haas | Exein (Physical AI Security Partner, 16 July 2026); Infobip (fan messaging, not security) | IC (FX trading), Emburse, Zoomex | No identity or fraud partner found |
+| Cadillac | None found | None found | No identity or fraud partner found; ten partners listed, Frontieras (energy) added 19 October 2026 |
+| F1 (series) | None found; CYBER1's five-year deal from 2019 is not on the current list | American Express (payments), Santander (retail banking), Standard Chartered, Crypto.com | Check; series rights sit above teams |
+| FIA | None found | None found | No identity or fraud partner found |
 
-- **Past deals, not current:** Darktrace (McLaren, from 2020; not on the grid), Kaspersky (Ferrari, ended after 2022), Santander (Ferrari 2022 to 2024; Williams, ended), MoneyGram (Haas title in past seasons; not on the page).
+- **Past deals, not current:** Darktrace (McLaren, from 2020; not on the grid), Trend Micro (McLaren Official Partner from September 2025; not on the grid now, status unknown), Kaspersky (Ferrari, ended after 2022), CYBER1 (F1, 2019 deal; not listed), Santander (Ferrari 2022 to 2024; Williams, ended), MoneyGram (Haas title in past seasons; not on the page).
+- **Fan-economy fraud, for background (sourced):** F1's own ticket FAQ says it "is aware of ticketing scams including fraudulent websites, suspicious emails, SMS and social media messages", and lists being asked to pay by bank transfer as a red flag. Mexico City's Citizens' Council has logged 301 reports of fake F1 tickets since 2022 (Infobae, 30 October 2026). F1 sued two Las Vegas gift shops over counterfeit Grand Prix merchandise (August 2025). Kaspersky warned of fake F1 merchandise sites before the Sepang race (October 2026). Bitdefender's Fan Threat Index covers fake tickets and fake merchandise shops (May 2026). No public source found for fan account takeovers at a team; don't claim it.
 
 ### Claims discipline
 
@@ -555,12 +572,14 @@ It says more than 900 financial institutions and fintechs use it. Its last raise
 - **Nasdaq Verafin's data:** "850 million counterparties" (Verafin release) against "850+" (Alloy's Summit recap). Used Verafin's.
 - **Sam Swift's title:** VP of Engineering, Intelligence, and Head of Engineering, Intelligence, in the same release.
 - **Mastercard at McLaren:** $100M a year (SportsPro) against about $90M (RacingNews365, via F1 Salaries). Background only.
+- **Airwallex brand trust:** FF News (10 December 2024) says a 58% increase in trust among people who linked Airwallex with McLaren; B&T (29 November 2024) says 58% of respondents said the sponsorship increased their trust. Both are Airwallex's own survey. Keep it off spoken lines.
 - **Standard Chartered:** says it's present in "19 of the 21" F1 race markets; our calendar has 22 races. Don't repeat it.
 
 ### Names check
 
 - **From the allowed lists (September 2026 checks):** Oracle at Red Bull, Google Cloud at McLaren, Microsoft with Mercedes (now a Principal Partner on Mercedes' page), Atlassian at Williams, RUCKUS at Haas, Airwallex at McLaren.
-- **Verified now (5 November 2026):** partner pages of Mercedes, Red Bull, McLaren (grid), Williams, Aston Martin, Alpine, Audi, Haas and Racing Bulls, and releases for every comparable named above. Brand facts checked 5 November 2026; re-verify on call day.
+- **Verified now (5 November 2026):** partner pages of Mercedes, Red Bull, McLaren (grid), Williams, Aston Martin, Alpine, Audi, Haas and Racing Bulls, and releases for every comparable named above. Cadillac from F1 Salaries, RTR Sports and team releases (its page blocks automated checks). Ferrari from its own releases and RTR Sports. F1's series list from RTR Sports (checked against F1's roster, 6 October 2026). Brand facts checked 5 November 2026; re-verify on call day.
+- **Changed since the last check:** Cisco added at McLaren (Official Security Partner since May 2024; it was missing). Trend Micro was announced at McLaren in September 2025 but isn't on the grid now. Okta's McLaren job is now known in detail: fan and partner login (Auth0). ThreatLocker at Racing Bulls dated to 19 October 2026. Exein at Haas dated to 16 July 2026. Cadillac checked through other sources: no identity, security, payments or banking partner found. Bitdefender's Fan Threat Index (May 2026) noted at Ferrari.
 
 ### Timing
 
@@ -605,3 +624,31 @@ It says more than 900 financial institutions and fintechs use it. Its last raise
 - **More partner pages:** https://www.alpinef1.com/partners ; https://www.audif1.com/en/partners ; https://www.haasf1team.com/partners ; https://www.visacashapprb.com/int-en/partners ; Ferrari (third-party list): https://rtrsports.com/en/blog/ferrari-formula-1-sponsor/
 - **Partner summit:** https://www.mercedesamgf1.com/promo/partner-summit-2025
 - **Category answer (section 3):** Reuters, 4 May 2026: https://whbl.com/2026/05/04/motor-racing-as-formula-one-evolves-ai-becomes-part-of-the-race/ ; https://www.timeslive.co.za/motoring/2026-05-04-as-formula-one-evolves-ai-is-fast-becoming-a-crucial-part-of-the-race/
+
+### Sources: comparables, concrete detail (added 5 November 2026)
+
+- **Okta at McLaren:** https://www.okta.com/customers/mclaren/ ; https://www.okta.com/newsroom/articles/mclaren-racing-redefines-fan-experience/
+- **1Password at Red Bull:** https://www.autosport.com/f1/news/inside-how-oracle-red-bull-racing-uses-1password-to-secure-f1-data-strategy-and-performance-in-real-time/10776511/ ; https://www.planetf1.com/news/red-bull-beat-f1-competition-land-major-sponsor-1password-2025-season
+- **Keeper at Williams:** https://securitybrief.com.au/story/atlassian-williams-f1-secures-global-ops-with-keeperpam ; https://securitybrief.com.au/story/keeper-williams-f1-launch-identity-first-security-push
+- **Bitdefender at Ferrari:** https://www.bitdefender.com/en-gb/blog/hotforsecurity/bitdefender-2026-cybersecurity-partner-scuderia-ferrari-hp ; Fan Threat Index: https://infosecurity-magazine.com/news/how-fraudsters-target-f1-fans ; https://www.techradar.com/pro/security/when-things-are-moving-fast-people-make-mistakes-and-those-mistakes-cost-formula-1-fans-are-doing-everything-they-can-to-watch-motorsport-but-it-might-cost-them-more-than-theyd-expect
+- **Mastercard Team Priceless:** https://www.mastercard.com/us/en/news-and-trends/press/2025/december/mastercard-and-the-mclaren-formula-1-team-launch-team-priceless-.html ; https://www.si.com/onsi/f1/news/mclaren-and-mastercard-launch-one-of-a-kind-fan-access-program-for-2026
+- **Airwallex at McLaren (stand-out answer):** https://ffnews.com/newsarticle/paytech/airwallex-celebrates-end-of-formula-1-season-with-podium-finish-for-brand-and-partnership-metrics ; https://www.bandt.com.au/results-on-off-the-track-how-airwallex-shifted-gears-for-mclaren/ ; https://www.airwallex.com/global/newsroom/mclaren-mastercard-formula-1-team-designate-airwallex-as-official-ai-finance-partner-from-2027-in-multi-year-partnership-extension
+
+### Sources: team-by-team check (section 9 and Conflicts by team)
+
+- **McLaren:** partner grid (above); Cisco: https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2024/m05/mclaren-formula-1-team-leverages-cisco-security-portfolio-as-part-of-expanded-partnership.html ; Rubrik: https://www.rubrik.com/company/newsroom/press-releases/26/mclaren-racing-announces-a-multi-year-partnership-with-rubrik ; Trend Micro: https://newsroom.trendmicro.com/2025-09-02-McLaren-Racing-Announces-Trend-Micro-as-an-Official-Partner-of-the-McLaren-Formula-1-Team
+- **Racing Bulls:** https://www.threatlocker.com/press-release/threatlocker-joins-visa-cash-app-racing-bulls-as-official-cybersecurity-partner ; https://www.sportcal.com/sponsorship/cadillac-bring-in-frontieras-as-partner-racing-bulls-turn-to-threatlocker/
+- **Ferrari:** https://www.ferrari.com/en-EN/formula1/articles/scuderia-ferrari-hp-extends-multi-year-partnership-with-bitdefender ; https://rtrsports.com/en/blog/ferrari-formula-1-sponsor/
+- **Alpine:** https://www.alpinef1.com/news/new-partner-cato-networks ; https://arcticwolf.com/resources/press-releases/arctic-wolf-named-official-cybersecurity-partner-of-bwt-alpine-formula-one-team/ ; https://www.alpinef1.com/news/bwt-alpine-formula-one-team-announces-partnership-with-viagogo
+- **Audi:** https://www.audif1.com/en/partners ; https://www.techpartner.news/news/ninjaonebecomes-endpoint-managementpartner-of-audi-revolut-f1-team-622985
+- **Haas:** https://www.haasf1team.com/partners ; https://www.exein.io/blog/exein-haas-f1-physical-ai-security-partner ; https://www.infobip.com/news/infobip-and-moneygram-haas-f1-team-join-forces ; IC: https://investinglive.com/Education/moneygram-haas-f1-team-announces-ic-as-official-fx-trading-partner-at-abu-dhabi-grand-prix-20251208
+- **Cadillac:** https://f1salaries.com/sponsors/cadillac/ ; https://rtrsports.com/en/blog/cadillac-f1-sponsorship/ ; https://www.cadillacf1team.com/news/frontieras-north-america-joins-cadillac-formula-1-r-team-as-official-energy-transformation-partner ; https://news.3m.com/2026-06-30-3M-joins-Cadillac-Formula-1-R-Team-as-Official-Material-Science-Partner-to-accelerate-racing-performance ; https://investors.corescientific.com/news-events/press-releases/detail/129/cadillac-formula-1-team-joins-forces-with-core-scientific-as-official-data-center-partner (team page https://www.cadillacf1team.com/partners returned 403)
+- **F1 (series):** https://rtrsports.com/en/blog/formula-1-sponsors-and-partners/ ; CYBER1 (2019): https://news.cision.com/cyber-1/r/cyber1-announces-exclusive-five-year-partnership-with-formula-1-to-provide-cyber-security-services-a,c2735526
+- **FIA:** https://www.tyrenews.co.uk/news/hankook-becomes-global-partner-of-the-fia-strengthening-sustainable-innovation-in-motorsport-and-mobility
+
+### Sources: fan-economy fraud
+
+- **F1 ticket FAQ:** https://tickets.formula1.com/en/t-111-faq
+- **Mexico City fake tickets:** https://www.infobae.com/mexico/deportes/2026/10/30/f1-en-mexico-como-reconocer-boletos-falsos-para-evitar-perder-hasta-345-mil-pesos-en-una-estafa/
+- **Counterfeit merchandise:** https://www.fox5vegas.com/2025/08/20/f1-sues-las-vegas-gift-shops-over-alleged-counterfeit-merchandise/ ; https://soyacincau.com/2026/10/01/kaspersky-warns-formula-1-fans-in-malaysia-about-scam-merchandise-stores-ahead-of-sepang-return/
+- **Bitdefender Fan Threat Index:** https://infosecurity-magazine.com/news/how-fraudsters-target-f1-fans
