@@ -1,8 +1,10 @@
-"""Append the reviewed slides (with the reviewers' blue-box remarks) to the deck as hidden slides.
+"""Append the reviewers' remark slides to the deck as hidden before-and-after pairs.
 
-Copies the chosen slides from the reviewed deck exactly as they were left: same XML, images,
-charts, notes, and their own slide layouts, master and theme (so nothing reflows onto this
-deck's layouts). They go in a hidden section at the end, "Reviewer remarks (hidden)".
+For each round of remarks in reviewed/changes.json, copies every slide with a remark from the
+reviewed deck exactly as it was left: same XML, images, charts, notes, and its own slide layouts,
+master and theme (so nothing reflows onto this deck's layouts). Where the remark led to an updated
+slide, a copy of that slide from this deck follows it, tagged "After". Each round gets its own
+hidden section at the end.
 
 Usage: python3 add_remark_slides.py deck.pptx
 """
@@ -11,15 +13,13 @@ import re
 import shutil
 import sys
 import tempfile
+import json
 import uuid
 import zipfile
+from xml.sax.saxutils import escape
 
-SOURCES = [  # (reviewed deck, every slide in it with a remark box, hidden section name)
-    ("reviewed/Adyen x F1 - Chairman deck 1 (reviewer remarks).pptx", [3, 4, 5, 8, 11, 12, 13, 14, 15, 16, 19, 28],
-     "Reviewer remarks (hidden)"),
-    ("reviewed/Adyen x F1 - Chairman deck 7 (reviewer remarks).pptx", [2, 3, 7, 12, 13, 14, 19, 20, 22, 23],
-     "Reviewer remarks on Deck 7 (hidden)"),
-]
+ROUNDS = json.load(open("reviewed/changes.json", encoding="utf-8"))
+EMU = 914400
 
 R_NS = "http://schemas.openxmlformats.org/officeDocument/2006/relationships"
 NOTES_MASTER_TYPE = R_NS + "/notesMaster"
@@ -30,10 +30,18 @@ deck = sys.argv[1]
 dst = zipfile.ZipFile(deck)
 files = {n: dst.read(n) for n in dst.namelist()}
 infos = {i.filename: i for i in dst.infolist()}
+TARGET_CT = files["[Content_Types].xml"].decode("utf-8")
+
+# this deck's slides in order, before anything is appended: position -> slide part
+_pres = files["ppt/presentation.xml"].decode("utf-8")
+_prels = dict(re.findall(r'Id="(rId\d+)"[^>]*?Target="([^"]*)"', files["ppt/_rels/presentation.xml.rels"].decode("utf-8")))
+DECK_SLIDES = ["ppt/" + _prels[rid] for rid in re.findall(r'<p:sldId id="\d+" r:id="(rId\d+)"', _pres)]
 
 
-def merge(SOURCE, SLIDES, SECTION):
+def merge(rnd):
     global nid, prels, rid_n
+    SOURCE, SECTION = rnd["source"], rnd["section"]
+    SLIDES = [it["slide"] for it in rnd["items"]]
     src = zipfile.ZipFile(SOURCE)
     src_ct = src.read("[Content_Types].xml").decode("utf-8")
     def rels_path(part):
@@ -143,6 +151,7 @@ def merge(SOURCE, SLIDES, SECTION):
                     if rtype == LAYOUT_TYPE:
                         layouts_used.add(abs_t)
                     if part.startswith("ppt/slideLayouts/") and rtype.endswith("/slideMaster"):
+                        assert master_part in (None, abs_t), "remark slides must share one master"
                         master_part = abs_t
                     queue.append(abs_t)
                 rel_t = posixpath.relpath(new_t, posixpath.dirname(tgt))
@@ -198,13 +207,71 @@ def merge(SOURCE, SLIDES, SECTION):
 
     mrid = add_rel("slideMaster", mtgt.replace("ppt/", "", 1))
     pres = pres.replace("</p:sldMasterIdLst>", f'<p:sldMasterId id="{master_id}" r:id="{mrid}"/></p:sldMasterIdLst>')
+    def target_ct(part):
+        m = re.search(r'<Override PartName="/' + re.escape(part) + r'" ContentType="([^"]*)"', TARGET_CT)
+        return m.group(1)
+
+    def duplicate(part, tag):
+        """Hidden copy of one of this deck's slides with an 'After' tag; charts are copied, notes dropped."""
+        new = next_name("ppt/slides/slide", "xml")
+        xml = files[part].decode("utf-8")
+        xml = re.sub(r"<p:sld\b([^>]*?)\sshow=\"[01]\"", r"<p:sld\1", xml, count=1)
+        xml = re.sub(r"<p:sld\b", '<p:sld show="0"', xml, count=1)
+        sid_max = max([int(x) for x in re.findall(r'<p:cNvPr[^>]*?\sid="(\d+)"', xml)] + [1])
+        x, y, w, h = int(6.0 * EMU), int(0.05 * EMU), int(6.73 * EMU), int(0.3 * EMU)
+        shape = (f'<p:sp><p:nvSpPr><p:cNvPr id="{sid_max + 1}" name="After tag"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>'
+                 f'<p:spPr><a:xfrm><a:off x="{x}" y="{y}"/><a:ext cx="{w}" cy="{h}"/></a:xfrm>'
+                 '<a:prstGeom prst="roundRect"><a:avLst/></a:prstGeom><a:solidFill><a:srgbClr val="0ABF53"/></a:solidFill>'
+                 '<a:ln><a:noFill/></a:ln></p:spPr><p:txBody><a:bodyPr wrap="square" lIns="91440" tIns="0" rIns="91440" bIns="0" anchor="ctr">'
+                 '<a:normAutofit/></a:bodyPr><a:lstStyle/><a:p><a:pPr algn="r"/><a:r><a:rPr lang="en-GB" sz="900" b="1">'
+                 '<a:solidFill><a:srgbClr val="00112C"/></a:solidFill><a:latin typeface="Inter"/></a:rPr>'
+                 f'<a:t>{escape(tag)}</a:t></a:r></a:p></p:txBody></p:sp>')
+        xml = xml.replace("</p:spTree>", shape + "</p:spTree>", 1)
+        files[new] = xml.encode("utf-8")
+        overrides[new] = target_ct(part)
+        rels = files[rels_path(part)].decode("utf-8")
+        out = []
+        for rel in parse_rels(rels):
+            rtype, rtarget = attr(rel, "Type"), attr(rel, "Target")
+            if rtype.endswith("/notesSlide"):
+                continue
+            if rtype.endswith("/chart"):
+                chart = posixpath.normpath(posixpath.join("ppt/slides", rtarget))
+                nchart = next_name("ppt/charts/chart", "xml")
+                files[nchart] = files[chart]
+                overrides[nchart] = target_ct(chart)
+                crels = files.get(rels_path(chart), b"").decode("utf-8")
+                cout = []
+                for crel in parse_rels(crels):
+                    emb = posixpath.normpath(posixpath.join("ppt/charts", attr(crel, "Target")))
+                    nemb = posixpath.join(posixpath.dirname(emb), "after_" + uuid.uuid4().hex[:8] + "_" + posixpath.basename(emb))
+                    files[nemb] = files[emb]
+                    cout.append(re.sub(r'Target="[^"]*"', f'Target="{posixpath.relpath(nemb, "ppt/charts")}"', crel))
+                if crels:
+                    files[rels_path(nchart)] = ('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n'
+                        '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">'
+                        + "".join(f"<Relationship {r}/>" for r in cout) + "</Relationships>").encode("utf-8")
+                rel = re.sub(r'Target="[^"]*"', f'Target="../charts/{posixpath.basename(nchart)}"', rel)
+            out.append(rel)
+        files[rels_path(new)] = ('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n'
+            '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">'
+            + "".join(f"<Relationship {r}/>" for r in out) + "</Relationships>").encode("utf-8")
+        return new
+
     sid = max(int(x) for x in re.findall(r'<p:sldId id="(\d+)"', pres)) + 1
     new_ids = []
-    for part in new_slides:
-        rid = add_rel("slide", mapping[part].replace("ppt/", "", 1))
-        pres = pres.replace("</p:sldIdLst>", f'<p:sldId id="{sid}" r:id="{rid}"/></p:sldIdLst>')
-        new_ids.append(sid)
-        sid += 1
+    pairs = 0
+    for it in rnd["items"]:
+        parts = [mapping[f"ppt/slides/slide{it['slide']}.xml"]]
+        if it["after"]:
+            parts.append(duplicate(DECK_SLIDES[it["after"] - 1],
+                f"AFTER · Deck 8 slide {it['after']} · {it['change']}"))
+            pairs += 1
+        for part in parts:
+            rid = add_rel("slide", part.replace("ppt/", "", 1))
+            pres = pres.replace("</p:sldIdLst>", f'<p:sldId id="{sid}" r:id="{rid}"/></p:sldIdLst>')
+            new_ids.append(sid)
+            sid += 1
     section = (f'<p14:section name="{SECTION}" id="{{{uuid.uuid4()}}}"><p14:sldIdLst>'
                + "".join(f'<p14:sldId id="{i}"/>' for i in new_ids) + "</p14:sldIdLst></p14:section>")
     assert "</p14:sectionLst>" in pres
@@ -223,11 +290,11 @@ def merge(SOURCE, SLIDES, SECTION):
             m = re.search(r'<Default Extension="' + ext + r'" ContentType="([^"]*)"', src_ct, re.I)
             ct = ct.replace("</Types>", f'<Default Extension="{ext}" ContentType="{m.group(1)}"/></Types>')
     files["[Content_Types].xml"] = ct.encode("utf-8")
-    print(f"added {len(new_slides)} hidden remark slides from {SOURCE.split('/')[-1]} (slides {', '.join(map(str, SLIDES))})")
+    print(f"{rnd['label']}: added {len(new_slides)} hidden remark slides, {pairs} with an 'After' copy")
 
 
-for SOURCE, SLIDES, SECTION in SOURCES:
-    merge(SOURCE, SLIDES, SECTION)
+for rnd in ROUNDS:
+    merge(rnd)
 
 tmp = tempfile.NamedTemporaryFile(delete=False, suffix=".pptx").name
 with zipfile.ZipFile(tmp, "w", zipfile.ZIP_DEFLATED) as z:

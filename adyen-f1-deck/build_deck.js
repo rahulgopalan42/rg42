@@ -162,7 +162,7 @@ async function defineLayouts() {
 // ------------------------------------------------------------------ helpers
 // slides without data: no source line on the slide (kept in the notes)
 const NO_SOURCE = new Set(["SPORTFIVE credentials", "Business integration", "Overview", "Route 1 · Business opportunity",
-  "Route 1 · Rights package", "Route 1 · Hospitality bundle", "Route 2 · Business opportunity", "Route 2 · Rights overview", "Next steps", "The category"]);
+  "Route 1 · Rights package", "Route 1 · Hospitality bundle", "Route 2 · Business opportunity", "Route 2 · Rights overview", "Next steps", "The category", "Change log"]);
 function content(master, section, track, eyebrow, title, source, notes) {
   const s = pres.addSlide({ masterName: master, sectionTitle: section });
   s.addText(eyebrow.toUpperCase(), { placeholder: "eyebrow" });
@@ -420,6 +420,9 @@ const MAX_PROPOSAL = [
   "Not in the proposal",
   "Orange Army app powered by Adyen (mock-up)",
 ];
+// reviewers' remarks and what changed (shared with add_remark_slides.py)
+const CHANGES = require(path.join(__dirname, "reviewed", "changes.json"));
+
 const ROUTE_NAMES = ["Max Verstappen", "Alpine F1 Team", "Scuderia Ferrari"];
 
 // ------------------------------------------------------------------ slides
@@ -1706,6 +1709,31 @@ async function build() {
       label(s, h, x, 2.0, 3.85, C.accent2);
       ph(s, x, 2.35, 3.85, 4.3, lab, { size: 12, align: "left" });
     });
+  }
+
+  // ================================================================ Change log (hidden): what changed after each round of remarks
+  // Rows come from reviewed/changes.json, which add_remark_slides.py also uses to pair each remark slide with its updated slide.
+  pres.addSection({ title: "Change log (hidden)" });
+  for (const round of CHANGES) {
+    const s = content("CONTENT", "Change log (hidden)", null, "Change log",
+      [{ text: "What changed after the " }, { text: `${round.label} remarks`, options: { color: C.accent1 } }],
+      "", `Hidden. Each remark slide follows in the next section exactly as the reviewers left it, then (where there is one) a copy of the updated slide tagged 'After'. Source: ${round.source}.`);
+    s.hidden = true;
+    const head = (txt, o = {}) => hc(txt, { fontSize: 10, ...o });
+    const rows = [[head(`${round.label} slide`, { align: "center" }), head("Remark"), head("What we changed"), head("In Deck 8", { align: "center" })],
+      ...round.items.map((it) => {
+        const done = it.after !== null;
+        return [
+          { text: String(it.slide), options: { bold: true, fontSize: 11, color: C.text1, align: "center", valign: "middle", fill: { color: C.background2 } } },
+          { text: it.remark, options: { fontSize: 9.5, italic: true, color: C.text2, valign: "middle" } },
+          { text: it.change, options: { fontSize: 9.5, color: C.text1, valign: "middle" } },
+          { text: it.now, options: { fontSize: 9.5, bold: true, align: "center", valign: "middle", color: done ? C.accent2 : C.text2,
+            fill: { color: done ? C.accent6 : C.background1 } } },
+        ];
+      })];
+    const rh = Math.min(0.42, 4.9 / round.items.length);
+    s.addTable(rows, { x: L, y: 1.6, w: CW, colW: [1.05, 4.9, 4.73, 1.45], rowH: [0.34, ...round.items.map(() => rh)],
+      border: { type: "solid", pt: 0.75, color: C.accent4 }, margin: [0.03, 0.08, 0.03, 0.08], objectName: "Change log table" });
   }
 
   await pres.writeFile({ fileName: OUT });
