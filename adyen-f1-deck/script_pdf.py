@@ -11,6 +11,7 @@ import subprocess
 import sys
 
 src, out = sys.argv[1], sys.argv[2]
+eyebrow = sys.argv[3] if len(sys.argv) > 3 else "Talking script"
 md = open(src, encoding="utf-8").read()
 
 
@@ -27,10 +28,10 @@ for block in re.split(r"\n\s*\n", md.strip()):
     b = block.strip()
     if b.startswith("# "):
         title = b[2:]
-        parts.append(f'<header><div class="eyebrow">Talking script</div><h1>{inline(title)}</h1></header>')
+        parts.append(f'<header><div class="eyebrow">{html.escape(eyebrow)}</div><h1>{inline(title)}</h1></header>')
     elif b.startswith("## "):
         h = b[3:]
-        m = re.match(r"(\d+) · (.*)", h)
+        m = re.match(r"([\d–]+) · (.*)", h)
         if m:
             n, name = m.groups()
             key = star in name
@@ -44,9 +45,19 @@ for block in re.split(r"\n\s*\n", md.strip()):
         lines = b.split("\n")
         if len(lines) == 2 and lines[0].startswith("**\""):  # Q&A: question line + answer line
             parts.append(f'<div class="qa"><p class="q">{inline(lines[0])}</p><p>{inline(lines[1])}</p></div>')
+        elif any(re.match(r"\d+\. ", l) for l in lines[1:]):  # lead-in paragraph followed by a numbered list
+            lead = [l for l in lines if not re.match(r"\d+\. ", l)]
+            items = [re.sub(r"^\d+\. ", "", l) for l in lines if re.match(r"\d+\. ", l)]
+            parts.append(f"<p>{inline(' '.join(lead))}</p><ol>" + "".join(f"<li>{inline(i)}</li>" for i in items) + "</ol>")
         else:
-            cls = ' class="cueline"' if b.startswith("*") and b.endswith("*") and not b.startswith("**") else ""
-            parts.append(f"<p{cls}>{inline(' '.join(lines))}</p>")
+            text = " ".join(lines)
+            cls = ""
+            if b.startswith("*") and b.endswith("*") and not b.startswith("**"):
+                cls = "cueline"
+            for key, c in (("**Ask Mark:**", "ask"), ("**Insight:**", "insight"), ("**Land it:**", "land")):
+                if b.startswith(key):
+                    cls = c
+            parts.append(f'<p class="{cls}">{inline(text)}</p>' if cls else f"<p>{inline(text)}</p>")
 
 doc = f"""<!doctype html><html><head><meta charset="utf-8"><title>{html.escape(title)}</title>
 <style>
@@ -67,6 +78,12 @@ em.cue {{ color: #079A44; font-style: italic; }}
 p.cueline {{ color: #079A44; }}
 hr {{ border: 0; border-top: 3px solid #0ABF53; margin: 22px 0; }}
 .qa {{ break-inside: avoid; margin-bottom: 10px; }}
+p.land {{ font-size: 12pt; font-weight: 600; }}
+p.land strong {{ color: #079A44; }}
+p.insight {{ border-left: 3px solid #0ABF53; padding: 2px 0 2px 10px; }}
+p.ask {{ background: #E6F8ED; border-radius: 6px; padding: 7px 10px; break-inside: avoid; }}
+p.ask strong {{ color: #079A44; }}
+ol {{ margin: 0 0 10px 18px; padding: 0; }} li {{ margin-bottom: 4px; }}
 .qa .q {{ margin-bottom: 2px; }}
 </style></head><body>{''.join(parts)}</body></html>"""
 
