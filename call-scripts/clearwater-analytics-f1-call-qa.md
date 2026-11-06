@@ -73,6 +73,18 @@
 >
 > And you have an obvious extra. Connect brings your clients to Boise every September. A team engineer on stage there, talking about how a team makes decisions from live data during a race, would probably be the session people remember."
 
+### "Content is really important for us. How would a team help us make it?"
+
+> "Teams are good at it now, and for a business like yours it's often where most of the value is.
+>
+> Most deals come with a set number of days with the drivers and the team's people each year, and the team's content people help make it. The best partner content usually isn't about the product. CrowdStrike's series with Mercedes had the team's specialists explaining the halo, the helmet and the fire extinguisher, and Mercedes says it got 6.2 million views. 1Password runs a podcast with Red Bull, hosted by a former Red Bull mechanic.
+>
+> One thing to know: the race footage is controlled by Formula 1 itself, not the teams. So partner content is filmed at the factory, in the garage, or on filming days.
+>
+> For you, I'd think about your research and Connect. A team's strategy people talking about making calls from live data, while staying under a spending cap, is a story your clients would recognise. That could be a chapter in one of your reports, a podcast series, or a session at Connect. And it gives your sales team something better to send a CFO than another product email.
+>
+> If content matters to you, we'd spell it out in the deal: how many days, who from the team, what goes on the team's channels, and how long you can use it."
+
 ### "Why are these brands in F1?"
 
 > "Two different reasons, depending on the company.

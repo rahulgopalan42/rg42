@@ -79,6 +79,18 @@
 >
 > None of that needs you to say what a product does, which matters for a brand like yours."
 
+### "Content is really important for us. How would a team help us make it?"
+
+> "That's one of the most useful parts of a deal, if it's set up properly.
+>
+> Most partnerships come with a set number of days with the drivers and the team each year. On those days you film with them, at the factory, in the garage, or somewhere you choose. The team's own content people often help make it, and the good teams post it on their channels too, which is where most fans see it. F1 is the number one sport on social media, ahead of the NBA.
+>
+> One thing to know: the race footage is controlled by Formula 1 itself, not the teams. So most partner content is filmed around the race, not during it. Behind the scenes, travel, the garage, the drivers' routines.
+>
+> For skincare, that's a good fit. ELEMIS made limited-edition products with Aston Martin, and signed Jessica Hawkins from the team's F1 Academy programme as one of its faces. CLEAR at Red Bull built its campaign around helmet hair, something every driver deals with, and set up a barbershop at the Shanghai race. What a driver's skin goes through in a helmet, in the heat, flying across time zones all season, is a real story, and it doesn't need any product claims.
+>
+> So if content matters to you, we'd spell it out in the deal: how many days, which drivers, what the team will post, and how long you can use it."
+
 ### "Why are these brands in F1?"
 
 > "Three reasons, and you can hear them in what the brands say themselves.
