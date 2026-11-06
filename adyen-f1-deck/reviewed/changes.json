@@ -4,30 +4,90 @@
     "source": "reviewed/Adyen x F1 - Chairman deck 1 (reviewer remarks).pptx",
     "section": "Deck 1 remarks: before and after (hidden)",
     "items": [
-      {"slide": 3, "remark": "“I don't understand this” · “Does 19m make a material difference?” · “I think this whole box can be better”",
-       "change": "Hypothesis slide removed; its facts became 'Why F1, at a glance' (19M figure dropped)", "after": 4, "now": "Slide 4"},
-      {"slide": 4, "remark": "“These 6 boxes are repetitions from the previous slide” · “This should be the focus areas for this slide”",
-       "change": "Executive summary now shows only the three routes; the six facts moved to slide 4", "after": 5, "now": "Slide 5"},
-      {"slide": 5, "remark": "“I wouldn't include this” · “Is this meaningful and relevant?”",
-       "change": "'So what' line removed; the two charts kept", "after": 7, "now": "Slide 7"},
-      {"slide": 8, "remark": "“I'd put this as the 1st slide in this section”",
-       "change": "Audience now opens the Why F1 section", "after": 6, "now": "Slide 6"},
-      {"slide": 11, "remark": "“We should be careful when name dropping these as all decks state 'high confidentiality'”",
-       "change": "Replaced in Deck 6, restored at your request in Deck 7; confidentiality still to confirm", "after": 12, "now": "Slide 12"},
-      {"slide": 12, "remark": "“Old data”",
-       "change": "Old partner data removed", "after": null, "now": "Removed"},
-      {"slide": 13, "remark": "“New data”",
-       "change": "Rebuilt with the Nov 2026 data; retitled around Adyen (Deck 7 remark)", "after": 13, "now": "Slide 13"},
-      {"slide": 14, "remark": "“New data”",
-       "change": "Rebuilt with the Nov 2026 data; hidden in Deck 8 (Deck 7 remark)", "after": 14, "now": "Slide 14 (hidden)"},
-      {"slide": 15, "remark": "“I do not understand this – what is the key message?”",
-       "change": "One message: Adyen takes the fan-facing seat rather than following competitors", "after": 15, "now": "Slide 15"},
-      {"slide": 16, "remark": "“Is it the model to beat?”",
-       "change": "Reframed as how a payments peer uses F1, in three steps", "after": 16, "now": "Slide 16"},
-      {"slide": 19, "remark": "“We've said this. If necessary, use the Businessolver case study” · “Is this relevant?”",
-       "change": "ROI slide removed", "after": null, "now": "Removed"},
-      {"slide": 28, "remark": "“Who is this? Looks like they are playing rock, paper, scissors....”",
-       "change": "Photo replaced with the Max and Alpine Adyen mock-ups", "after": 33, "now": "Slide 33"}
+      {
+        "slide": 3,
+        "remark": "“I don't understand this” · “Does 19m make a material difference?” · “I think this whole box can be better”",
+        "change": "Hypothesis slide removed; its facts became 'Why F1, at a glance' (19M figure dropped)",
+        "after": 4,
+        "now": "Slide 4"
+      },
+      {
+        "slide": 4,
+        "remark": "“These 6 boxes are repetitions from the previous slide” · “This should be the focus areas for this slide”",
+        "change": "Executive summary now shows only the three routes; the six facts moved to slide 4",
+        "after": 5,
+        "now": "Slide 5"
+      },
+      {
+        "slide": 5,
+        "remark": "“I wouldn't include this” · “Is this meaningful and relevant?”",
+        "change": "'So what' line removed; the two charts kept",
+        "after": 7,
+        "now": "Slide 7"
+      },
+      {
+        "slide": 8,
+        "remark": "“I'd put this as the 1st slide in this section”",
+        "change": "Audience now opens the Why F1 section",
+        "after": 6,
+        "now": "Slide 6"
+      },
+      {
+        "slide": 11,
+        "remark": "“We should be careful when name dropping these as all decks state 'high confidentiality'”",
+        "change": "Replaced in Deck 6, restored at your request in Deck 7; confidentiality still to confirm",
+        "after": 12,
+        "now": "Slide 12"
+      },
+      {
+        "slide": 12,
+        "remark": "“Old data”",
+        "change": "Old partner data removed",
+        "after": null,
+        "now": "Removed"
+      },
+      {
+        "slide": 13,
+        "remark": "“New data”",
+        "change": "Rebuilt with the Nov 2026 data; retitled around Adyen (Deck 7 remark)",
+        "after": 13,
+        "now": "Slide 13"
+      },
+      {
+        "slide": 14,
+        "remark": "“New data”",
+        "change": "Rebuilt with the Nov 2026 data; hidden in Deck 8 (Deck 7 remark)",
+        "after": 14,
+        "now": "Slide 14 (hidden)"
+      },
+      {
+        "slide": 15,
+        "remark": "“I do not understand this – what is the key message?”",
+        "change": "One message: Adyen takes the fan-facing seat rather than following competitors",
+        "after": 15,
+        "now": "Slide 15"
+      },
+      {
+        "slide": 16,
+        "remark": "“Is it the model to beat?”",
+        "change": "Reframed as how a payments peer uses F1, in three steps",
+        "after": 16,
+        "now": "Slide 16"
+      },
+      {
+        "slide": 19,
+        "remark": "“We've said this. If necessary, use the Businessolver case study” · “Is this relevant?”",
+        "change": "ROI slide removed",
+        "after": null,
+        "now": "Removed"
+      },
+      {
+        "slide": 28,
+        "remark": "“Who is this? Looks like they are playing rock, paper, scissors....”",
+        "change": "Photo replaced with the Max and Alpine Adyen mock-ups",
+        "after": 33,
+        "now": "Slide 33"
+      }
     ]
   },
   {
@@ -35,26 +95,76 @@
     "source": "reviewed/Adyen x F1 - Chairman deck 7 (reviewer remarks).pptx",
     "section": "Deck 7 remarks: before and after (hidden)",
     "items": [
-      {"slide": 2, "remark": "“Add in a slide outlining the competitor analysis of the sports landscape”",
-       "change": "New slide 3: competitor landscape from the BI deck, one dot per property", "after": 3, "now": "Slide 3"},
-      {"slide": 3, "remark": "“Why is point 5 highlighted in blue?” · wording edited to “sport of”",
-       "change": "All six tiles now carry equal weight; your wording kept", "after": 4, "now": "Slide 4"},
-      {"slide": 7, "remark": "“Add in a slide outlining the competitor analysis of the sports landscape” (same as slide 2)",
-       "change": "Covered by the new slide 3", "after": null, "now": "Slide 3"},
-      {"slide": 12, "remark": "“Title should be changed. Removing the McL and Merc headlines. Let's make it relevant to Adyen”",
-       "change": "Retitled: each team's partners are potential Adyen clients", "after": 13, "now": "Slide 13"},
-      {"slide": 13, "remark": "“Let's remove this slide”",
-       "change": "Hidden", "after": null, "now": "Slide 14 (hidden)"},
-      {"slide": 14, "remark": "“Let's be smart on the narrative here as we know Peter doesn't just want to follow his competitors”",
-       "change": "Reframed: Adyen would run what fans actually pay for", "after": 15, "now": "Slide 15"},
-      {"slide": 19, "remark": "“Eleri to make a few tweaks”",
-       "change": "No change: with Eleri", "after": null, "now": "Slide 20"},
-      {"slide": 20, "remark": "“Eleri to make a few tweaks”",
-       "change": "No change: with Eleri", "after": null, "now": "Slide 21"},
-      {"slide": 22, "remark": "“Eleri to make a few tweaks”",
-       "change": "No change: with Eleri", "after": null, "now": "Slide 23"},
-      {"slide": 23, "remark": "“Let's remove this slide”",
-       "change": "Hidden", "after": null, "now": "Slide 24 (hidden)"}
+      {
+        "slide": 2,
+        "remark": "“Add in a slide outlining the competitor analysis of the sports landscape”",
+        "change": "New slide 3: competitor landscape from the BI deck, one dot per property",
+        "after": 3,
+        "now": "Slide 3"
+      },
+      {
+        "slide": 3,
+        "remark": "“Why is point 5 highlighted in blue?” · wording edited to “sport of”",
+        "change": "All six tiles now carry equal weight; your wording kept",
+        "after": 4,
+        "now": "Slide 4"
+      },
+      {
+        "slide": 7,
+        "remark": "“Add in a slide outlining the competitor analysis of the sports landscape” (same as slide 2)",
+        "change": "Covered by the new slide 3",
+        "after": null,
+        "now": "Slide 3"
+      },
+      {
+        "slide": 12,
+        "remark": "“Title should be changed. Removing the McL and Merc headlines. Let's make it relevant to Adyen”",
+        "change": "Retitled: each team's partners are potential Adyen clients",
+        "after": 13,
+        "now": "Slide 13"
+      },
+      {
+        "slide": 13,
+        "remark": "“Let's remove this slide”",
+        "change": "Hidden",
+        "after": null,
+        "now": "Slide 14 (hidden)"
+      },
+      {
+        "slide": 14,
+        "remark": "“Let's be smart on the narrative here as we know Peter doesn't just want to follow his competitors”",
+        "change": "Reframed: Adyen would run what fans actually pay for",
+        "after": 15,
+        "now": "Slide 15"
+      },
+      {
+        "slide": 19,
+        "remark": "“Eleri to make a few tweaks”",
+        "change": "Eleri's rewrite, used exactly as she wrote it (v2 of her deck)",
+        "after": 20,
+        "now": "Slide 20"
+      },
+      {
+        "slide": 20,
+        "remark": "“Eleri to make a few tweaks”",
+        "change": "Eleri's rewrite, used exactly as she wrote it (v2 of her deck)",
+        "after": 21,
+        "now": "Slide 21"
+      },
+      {
+        "slide": 22,
+        "remark": "“Eleri to make a few tweaks”",
+        "change": "Eleri's rewrite, used exactly as she wrote it (v2 of her deck)",
+        "after": 23,
+        "now": "Slide 23"
+      },
+      {
+        "slide": 23,
+        "remark": "“Let's remove this slide”",
+        "change": "Hidden",
+        "after": null,
+        "now": "Slide 24 (hidden)"
+      }
     ]
   }
 ]

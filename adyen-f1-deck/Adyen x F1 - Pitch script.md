@@ -178,7 +178,7 @@ Integration first, not a logo deal. That's how we'd judge Max, Alpine and Ferrar
 
 Now the detail on each route.
 
-Max Verstappen and Alpine came out of conversations already under way, and both have proposals on the table for discussion. Max runs 2027 to 2030, and his fee hasn't been quoted yet. Alpine runs 2027 to 2029, at £10 million in 2027, rising 5% a year. Ferrari has 42 partners with $568 billion in combined revenue, and no proposal yet, so it's one to explore.
+Max Verstappen and Alpine came out of conversations already under way, and both have proposals on the table for discussion. Max runs 2027 to 2030, at €5 to 8 million a year depending on the rights. Alpine runs 2027 to 2029, at £10 million in 2027, rising 5% a year. Ferrari has 42 partners with $568 billion in combined revenue, and no proposal yet, so it's one to explore.
 
 At the bottom is the plan. Start: commit to F1 through one route. Prove: payments running inside the partner's business. Then expand: more teams, more races, more markets.
 
@@ -188,7 +188,7 @@ Route one: Max.
 
 Two Dutch innovators. Max is a four-time World Champion with 71 Grand Prix wins, and Nielsen Sports research names him the most popular driver on the grid. He has 19 million Instagram followers, and his top follower markets are the US, Brazil, the Netherlands, Mexico, the UK and Germany.
 
-What makes Max different is that he's also a business. Verstappen.com covers a shop, travel, GT3 racing, rally, sim racing, a pro simulation centre and news. The visual you see is from Max's own team, showing Adyen with him.
+What makes Max different is that he's also a business. Verstappen.com covers a shop, travel, GT3 racing, rally, sim racing, a pro simulation centre and an app. The visual you see is from Max's own team, showing Adyen with him.
 
 ## 21 · Where Adyen fits in Max's business ★
 
@@ -200,13 +200,15 @@ The right-hand column is what Max's own proposal includes. Orange Army grandstan
 
 ## 22 · Rights package: Max Verstappen × Adyen
 
-*Highlights only.* The proposal runs 2027 to 2030. Max becomes an official ambassador, with a full day of his time, three paddock meet-and-greets for VIP guests, a garage tour and a private track day. Branding covers the GT3 helmets, race wear and car. The rights are non-exclusive, and his team hasn't quoted a fee yet.
+*Highlights only.* The proposal runs 2027 to 2030. Max becomes an official ambassador, with a full day of his time, three paddock meet-and-greets for VIP guests, a garage tour and a private track day. Branding covers the GT3 helmets, race wear and car. The rights are non-exclusive. This is a first draft of what's possible: the fee range is €5 to 8 million a year, depending on which rights Adyen takes, and the next step is to tailor it to Adyen's needs.
 
 What his package doesn't include is F1 hospitality, and that's what the next few slides are about.
 
 ## 23 · Max route: bundle in F1 hospitality ★
 
 Max's package is light on hospitality: a garage tour for two guests, a private track day and three paddock meet-and-greets. So with the Max route, we can bundle in race-weekend hospitality, through SPORTFIVE.
+
+And it doesn't have to be new money. The idea is to build a tailored package that brings in the hospitality budget Adyen already spends race by race.
 
 Think of it as a simple sum. Max's package, plus SPORTFIVE hospitality at the Grands Prix you choose, with off-track experiences and the travel and guest management handled end to end. That gives you one programme to host Adyen's clients, merchants and prospects.
 
@@ -305,7 +307,7 @@ Because today it's market by market. One centralised programme gives you economi
 Three routes are in front of you: Max, Alpine and Ferrari (slide 19). Mercedes and McLaren already have Adyen competitors. Partner data for all eleven teams is on slide 13. Once Adyen commits to F1, we expand from a proven start.
 
 **"Max, Alpine or Ferrari?"**
-They do different jobs. Max brings reach and influence plus a business ecosystem Adyen can power, and hospitality can be bundled in. His rights are non-exclusive and his fee isn't quoted yet. Alpine is the full team platform: exclusive category, ecommerce integration, 56 Paddock Club tickets a year and 49 team partners, at £10 million in 2027. Ferrari has 42 partners and the most fans in financial services, but no proposal yet. The decision today is F1 itself.
+They do different jobs. Max brings reach and influence plus a business ecosystem Adyen can power, and hospitality can be bundled in. His rights are non-exclusive, at €5 to 8 million a year depending on the rights. Alpine is the full team platform: exclusive category, ecommerce integration, 56 Paddock Club tickets a year and 49 team partners, at £10 million in 2027. Ferrari has 42 partners and the most fans in financial services, but no proposal yet. The decision today is F1 itself.
 
 **"Does Max's deal include F1 hospitality?"**
 His package includes a garage tour, a private track day and paddock meet-and-greets. It excludes Red Bull assets and F1 hospitality. That's why we'd bundle hospitality with the Max route (slides 23 and 25 to 28), built bespoke from your feedback.

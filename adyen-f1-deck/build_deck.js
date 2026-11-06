@@ -385,27 +385,27 @@ const MAX_BUSINESS = [ // team deck slide 29, as written: business, Adyen produc
     "Currently free: news, stats, alerts, and a link to the shop. Adds one-tap purchase in the app for merchandise, grandstand tickets and experiences.",
     "Possible. The app has no payments today, so it would be a new build.", "maybe"],
 ];
-const ALPINE_BUSINESS = [ // Alpine's business, activation, what Adyen does, outcome
-  ["Team ecommerce store (new platform)", "The Integrated Commerce Garage",
-    "Powers agreed parts of the Team's ecommerce environment: a dependable, locally relevant purchase journey for fans",
-    "Measurable proof: checkout completion, payment performance, efficiency, customer experience"],
+const ALPINE_BUSINESS = [ // Alpine's business, activation, what Adyen does, outcome (Alpine proposal, in plain words)
+  ["Team online store (new platform)", "The Integrated Commerce Garage",
+    "Runs agreed parts of the Team's new store, with a reliable, local checkout for fans",
+    "Measurable proof: checkout, payment performance, customer experience"],
   ["Fan rewards", "Checkout to Chequered Flag Rewards",
-    "Eligible online purchases unlock selected Team rewards, merchandise or experiences",
+    "Purchases unlock Team rewards, merchandise and experiences",
     "Engagement, conversion and repeat purchase"],
   ["Content and storytelling", "The Performance Proof Series",
-    "Documentary films, technical features and executive interviews on the integration, plus short-form assets",
-    "Flagship case study and sales enablement"],
+    "Films, features and executive interviews on the integration",
+    "A flagship case study for sales"],
   ["Enstone factory (UK)", "Commerce Under Pressure Live Lab",
-    "Immersive session for customers and prospects: commerce scenarios, Team insights, expert discussion",
+    "Hands-on sessions for customers and prospects, with Team insight",
     "Credibility with customers and prospects"],
   ["Grand Prix host city, with an Adyen customer", "Race Week, One Platform",
-    "A flagship venue becomes a race-week experience: booking, mobile ordering, venue payments, merchandise",
-    "Live product demo and a three-party case study"],
+    "A customer's venue becomes a race-week showcase: booking, ordering, payments, merchandise",
+    "A live demo and a three-way case study"],
   ["Grand Prix hospitality", "Adyen Commerce Club",
-    "C-level programme at selected Grands Prix: hospitality, private discussions, garage tours, Team appearances",
+    "C-level hosting at selected Grands Prix, with garage tours and Team appearances",
     "Stronger relationships with priority accounts"],
   ["Team partner network", "One Platform Partner Forum",
-    "Recurring forum connecting Team partners with Adyen experts, customers and enterprise leaders",
+    "A regular forum connecting Team partners with Adyen and its customers",
     "Qualified introductions and new business"],
 ];
 
@@ -437,7 +437,7 @@ async function build() {
     await photo(s, "adyen_kerb.jpg", 7.0, 0, W - 7.0, H, "Race track kerb");
     s.addText("PARTNERSHIP PROPOSAL", { placeholder: "eyebrow" });
     s.addText([{ text: "Adyen ×", options: { breakLine: true } }, { text: "Formula 1", options: { color: C.accent1 } }], { placeholder: "title" });
-    s.addText("Why F1 is the right platform for Adyen, and how to win in it", { placeholder: "subtitle" });
+    s.addText("Why F1 is a commercial platform for Adyen, and how to make it pay", { placeholder: "subtitle" });
     s.addText("Prepared by SPORTFIVE for the Chairman of Adyen  ·  November 2026", { placeholder: "meta" });
     s.addNotes("Cover. Photo: Adyen 'Racing | Unified Payments' deck.");
   }
@@ -521,7 +521,7 @@ async function build() {
   // Why F1 at a glance (replaces the hypothesis slide; the six tiles that sat on the executive summary)
   {
     const s = content("CONTENT", "Introduction", null, "Why F1, at a glance",
-      t("F1 gives Adyen **audience, reach, brands, hospitality and a network** on one platform"),
+      t("One platform that puts Adyen **in front of the right buyers, in the right markets**"),
       "Source: GWI (audience 2026; affinity across five sports); GlobalData (2026); Adyen office list; F1 2027 calendar (SPORTFIVE); SPORTFIVE team partnership network (Nov 2026).",
       "Six facts, one per part of the deck. Audience: F1 ranks #1 of the five sports assessed on all five audiences (GWI). Growth: 625.3M followers in 2026, +30.8% vs 2022 (GWI). Brands: 50% of the world's most valuable brands are involved in F1 (GlobalData). Footprint: 457.2M fans in Adyen's 22 office markets; 13 host a 2027 race. Hospitality: 24 race weekends on the 2027 calendar. Network: 371 partners on the 11 teams' rosters with $6.7tn combined 2025 revenue (a partner on two teams is counted for each).");
     const tiles = [
@@ -633,7 +633,7 @@ async function build() {
   // Growth
   {
     const s = content("CONTENT", "Why F1", 0, "Growth",
-      t("F1 is growing in **audience and in commercial value**"),
+      t("F1 keeps growing, in **audience and in what brands pay** to be there"),
       "Source: GWI (global audience, followers); GlobalData (new sponsorship deals only, excl. renewals). 2026 YTD: $1.91B across 139 deals, year incomplete.",
       "Audience: 478.0M (2022) to 625.3M (2026), +30.8%, +147.3M followers; +8.3% vs 2025.\nSponsorship: total value of NEW deals, not annual sponsorship revenue. $0.89B (2020) to $2.37B (2025), +165.3%. 125 new deals in 2025 (+28.9%).");
     const cards = [
@@ -724,7 +724,7 @@ async function build() {
   // Footprint (offices and races, Adyen markets)
   {
     const s = content("CONTENT", "Why F1", 0, "Footprint",
-      t("F1 races **where Adyen has offices**, and 457M fans live in Adyen's markets"),
+      t("F1 goes **where Adyen does business**: 457M fans in Adyen's markets"),
       "Source: F1 2027 calendar and Adyen office list as supplied to SPORTFIVE (calendar not independently confirmed); GWI (F1 audience by market, 2026 vs 2022); map: Adyen.",
       REGIONS.map(([r, o, rc]) => `${r}: offices ${o.join(", ")}; races ${rc.length ? rc.join(", ") : "none"}.`).join("\n") +
       "\n28 offices and 24 races are counted from this list. Adyen's 22 office markets: 457.2M F1 fans in 2026 vs 342.3M in 2022 (+33.6%); 13 of 22 host a 2027 race. China 122.6M; India 117.4M (+94.9%, no race); Japan 7.1M (+41.2%). Full market chart in the backup slides.");
@@ -995,11 +995,11 @@ async function build() {
   // SPORTFIVE credentials (team deck slide 24)
   {
     const s = content("CONTENT", "Adyen in F1", 2, "SPORTFIVE credentials",
-      t("This is what we've done: **Airwallex × McLaren**, powering performance"),
+      t("We've done this before: **Airwallex × McLaren**, from first idea to board decision"),
       "Source: SPORTFIVE (team deck). Images: McLaren Racing and Airwallex.",
       "SPORTFIVE's flagship F1 payments credential.");
     await fit(s, "mclaren_airwallex_logos.png", L, 1.95, 2.3, 1.3, "McLaren and Airwallex logos");
-    s.addText("Showcased Airwallex's payment service solutions to a wide variety of enterprises on a global scale.",
+    s.addText("We helped Airwallex put its payments in front of enterprises worldwide.",
       { x: L + 2.55, y: 2.0, w: 4.05, h: 1.2, fontSize: 15, bold: true, color: C.text1, margin: 0, isTextBox: true, valign: "middle" });
     const iw = (6.6 - 0.4) / 3;
     const imgs = [["airwallex_carbon.jpg", "Airwallex on McLaren carbon fibre"], ["airwallex_drivers.jpg", "McLaren drivers, Airwallex partner content"],
@@ -1007,15 +1007,16 @@ async function build() {
     for (const [i, [f, alt]] of imgs.entries()) await photo(s, f, L + i * (iw + 0.2), 3.55, iw, 3.05, alt);
     const x = 7.55, w = R - x;
     card(s, x, 1.95, w, 4.65, C.text1, "Scope card");
-    label(s, "Our scope of advisory and execution", x + 0.35, 2.2, w - 0.7, C.accent1);
-    const scope = ["Diagnosed FinTech enterprise awareness gap", "Mapped F1 B2B opportunity landscape", "Benchmarked fintech differentiation positioning",
-      "Built B2B partnership evaluation model", "Modelled investment scenario trade-offs", "Engineered enterprise-focused rights portfolio",
-      "Structured deal for network access", "Enabled board-level partnership decision"];
-    const check = await icon("FiCheck", "0ABF53");
-    scope.forEach((it, i) => {
-      const y = 2.65 + i * 0.48;
-      s.addImage({ data: check, x: x + 0.35, y: y + 0.05, w: 0.24, h: 0.24 });
-      s.addText(it, { x: x + 0.75, y, w: w - 1.0, h: 0.36, fontSize: 12, color: C.background1, margin: 0, isTextBox: true, valign: "middle" });
+    label(s, "How we got there", x + 0.35, 2.2, w - 0.7, C.accent1);
+    const phases = [["Diagnose", "Found the fintech awareness gap with enterprises and mapped the F1 B2B opportunity"],
+      ["Design", "Positioned Airwallex against other fintechs, built the evaluation model, modelled the investment"],
+      ["Deliver", "Built an enterprise-focused rights package, structured the deal for network access, took it to the board"]];
+    phases.forEach(([head, body], i) => {
+      const y = 2.65 + i * 1.28;
+      s.addShape(S.OVAL, { x: x + 0.35, y, w: 0.5, h: 0.5, fill: { color: C.accent1 }, line: { color: C.accent1, width: 0 } });
+      s.addText(String(i + 1), { x: x + 0.35, y, w: 0.5, h: 0.5, fontSize: 15, bold: true, color: C.text1, align: "center", valign: "middle", margin: 0, isTextBox: true });
+      s.addText([{ text: head, options: { bold: true, color: C.background1, fontSize: 15, breakLine: true } }, { text: body, options: { color: C.accent4, fontSize: 11.5 } }],
+        { x: x + 1.05, y: y - 0.05, w: w - 1.35, h: 1.1, margin: 0, isTextBox: true, valign: "top" });
     });
   }
 
@@ -1063,7 +1064,7 @@ async function build() {
       { n: 1, type: "Driver", name: "Max Verstappen", img: "max_banner.jpg", status: "Proposal: for discussion", fields: [
         ["Opportunity", "Official ambassador; Adyen powers the Verstappen ecosystem; plus hospitality"],
         ["Where Adyen sits", "Verstappen Travel tickets and trailers; Pro Simulation booking"],
-        ["Terms", "2027–2030; fee not yet quoted"]] },
+        ["Terms", "2027–2030; €5–8M a year, depending on rights"]] },
       { n: 2, type: "Team", name: "Alpine F1 Team", img: "alpine_engine.jpg", status: "Proposal: for discussion", fields: [
         ["Opportunity", "Exclusive Financial Technology Platform Partner, global"],
         ["Where Adyen sits", "Powers the Team's new ecommerce platform, then hospitality and network"],
@@ -1403,12 +1404,12 @@ async function build() {
   // Our services: travel logistics and on-site support (SPORTFIVE deck), plus why SPORTFIVE
   {
     const s = content("CONTENT_PHOTO", "The routes", 3, "Route 1 · Hospitality bundle",
-      t("Our services: **travel logistics and on-site support**, end to end"),
+      t("We can support you with an **end-to-end hospitality solution**"),
       "Source: SPORTFIVE, 'Adyen – F1 Premium Experiences' (We provide travel logistics & on-site support; Why us?).",
       "Wording from SPORTFIVE's deck. SPORTFIVE is an F1 Experiences Authorised Sales Agent (logo in the deck).");
     await photo(s, "travel_wing.jpg", 0, 0, 4.85, H, "View from an aircraft window");
     const x = 5.35, w = R - x;
-    s.addText("To ensure a smooth end-to-end event experience", { x, y: 1.9, w, h: 0.35, fontSize: 13, color: C.text2, margin: 0, isTextBox: true, valign: "middle" });
+    s.addText("Travel, hotels, guests and on-site delivery, handled for you", { x, y: 1.9, w, h: 0.35, fontSize: 13, color: C.text2, margin: 0, isTextBox: true, valign: "middle" });
     const svc = [
       ["FiSend", "Travel management", "Licensed IATA travel agent with close relations to all major airlines and local transportation management"],
       ["FiHome", "Accommodation management", "Owned inventory & long-standing relationships with high-end international hotel chains"],
@@ -1439,8 +1440,11 @@ async function build() {
       "Source: Alpine Formula One Team, Provisional Rights Overview 2027–2029 (not legally binding). Audience: GWI Core, Q3 2025–Q2 2026, all internet users.",
       "Alpine's objectives for Adyen: (1) prove the enterprise platform through a measurable ecommerce integration and a client-facing case study; (2) deepen relationships with priority customers through C-level hospitality and F1 experiences; (3) generate qualified new business through the Team's international partner network.");
     const lw = 6.15;
-    s.addText("Every F1 result depends on thousands of processes working with speed, precision and resilience; Adyen does the same for enterprise commerce. As exclusive Financial Technology Platform Partner, Adyen powers Alpine's new ecommerce platform, then turns that proof into senior customer conversations and new business.",
-      { x: L, y: 1.95, w: lw, h: 1.7, fontSize: 13, color: C.text1, margin: 0, isTextBox: true, valign: "top" });
+    const lines = [["F1 runs on speed, precision and resilience.", "So does enterprise commerce."],
+      ["Adyen powers Alpine's new online store:", "live proof of the platform."],
+      ["That proof opens doors:", "senior customer conversations and new business."]];
+    lines.forEach(([a, b], i) => s.addText([{ text: a + " ", options: { bold: true, color: C.text1 } }, { text: b, options: { color: C.text2 } }],
+      { x: L, y: 1.9 + i * 0.62, w: lw, h: 0.58, fontSize: 12.5, margin: 0, isTextBox: true, valign: "middle" }));
     label(s, "Alpine fans vs. the average internet user", L, 3.85, lw);
     const aud = [["10.0M", "senior decision-makers", "2.22x"], ["23.6M", "business decision-makers", "1.88x"], ["5.6M", "company owners, founders", "1.98x"],
       ["4.5M", "technology early adopters", "3.02x"], ["24.3M", "Google Pay users", "1.83x"], ["7.2M", "Apple Pay users", "1.59x"]];
