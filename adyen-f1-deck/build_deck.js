@@ -15,7 +15,7 @@ process.env.NODE_PATH = [path.join(__dirname, "node_modules"), process.env.NODE_
 require("module").Module._initPaths();
 const { applyTheme } = require(SKILL + "/scripts/apply_theme.js");
 
-const OUT = process.argv[2] || "Adyen x F1 - Chairman deck 9.pptx";
+const OUT = process.argv[2] || "Adyen x F1 - Chairman deck 10.pptx";
 const A = (f) => path.join(__dirname, "assets", f);
 
 // ------------------------------------------------------------------ brand
@@ -426,7 +426,7 @@ const CHANGES = require(path.join(__dirname, "reviewed", "changes.json"));
 const ROUTE_NAMES = ["Max Verstappen", "Alpine F1 Team", "Scuderia Ferrari"];
 
 // ------------------------------------------------------------------ slides
-// Deck 9: 34 visible slides (two hidden at the reviewers' request), no dividers; the tracker at the top right shows the section.
+// Deck 10: 32 visible slides (four hidden at the reviewers' request), no dividers; the tracker at the top right shows the section.
 async function build() {
   await defineLayouts();
 
@@ -448,8 +448,8 @@ async function build() {
     await photo(s, "earth.jpg", 0, 0, W, H, "Earth from orbit");
     s.addShape(S.RECTANGLE, { x: 0, y: 0, w: W, h: H, fill: { color: C.text1, transparency: 30 }, line: { color: C.text1, width: 0 } });
     s.addText("ADYEN'S BRIEF", { placeholder: "eyebrow" });
-    s.addText(t("Adyen: creating **financial efficiencies** in F1"), { placeholder: "title" });
-    s.addText("WHAT ADYEN WANTS FROM F1", { x: L, y: 2.75, w: 11, h: 0.3, fontSize: 12, bold: true,
+    s.addText(t("What Adyen wants from F1: **B2B growth**, not just payment volume"), { placeholder: "title" });
+    s.addText("FIVE PRIORITIES FROM ADYEN'S BRIEF", { x: L, y: 3.12, w: 11, h: 0.3, fontSize: 12, bold: true,
       color: C.accent4, charSpacing: 1.5, margin: 0, isTextBox: true });
     const pr = [
       ["FiCreditCard", "Payment integration", "Adyen's payments live inside the team's or rights holder's business"],
@@ -460,7 +460,7 @@ async function build() {
     ];
     const cw = (CW - 1.0) / 5;
     for (const [i, [ic, head, body]] of pr.entries()) {
-      const x = L + i * (cw + 0.25), y = 3.25;
+      const x = L + i * (cw + 0.25), y = 3.55;
       card(s, x, y, cw, 2.75, i === 0 ? C.accent2 : C.accent5, "Priority card");
       await iconDot(s, ic, x + 0.25, y + 0.28, 0.52, i === 0 ? C.text1 : C.accent1);
       s.addText(head, { x: x + 0.25, y: y + 0.95, w: cw - 0.5, h: 0.62, fontSize: 15, bold: true, color: C.background1, margin: 0,
@@ -475,12 +475,12 @@ async function build() {
   {
     const s = content("CONTENT", "Introduction", null, "Competitive landscape",
       t("Adyen's rivals invest across sport; **F1 is still the least crowded arena**"),
-      "Source: SPORTFIVE BI competitor scan (not exhaustive). Each dot is one property: a team, league, venue, event or athlete.",
-      "From the BI deck's Competitive Landscape slide. 32 properties across 7 payment competitors: F1 2 (Stripe: Mercedes-AMG Petronas F1 Team; Airwallex: McLaren F1 Team), football 11, US leagues and college 12, other sport and venues 7. Names of every property are in the hidden backup slide 'Adyen's competitors across sport'. No equivalence of rights, fees or exclusivity implied.");
+      "Source: SPORTFIVE BI competitor scan (not exhaustive). Adyen: FC Bayern München (2023, extended Oct 2026), Legia Warsaw. Each dot is one property.",
+      "From the BI deck's Competitive Landscape slide. 32 properties across 7 payment competitors: F1 2 (Stripe: Mercedes-AMG Petronas F1 Team; Airwallex: McLaren F1 Team), football 11, US leagues and college 12, other sport and venues 7. Names of every property are in the hidden backup slide 'Adyen's competitors across sport'. No equivalence of rights, fees or exclusivity implied. Adyen row added at Eleri's request: Adyen is FC Bayern München's exclusive payment solution partner (since February 2023, extended October 2026; fcbayern.com, adyen.com) and has a payments partnership with Legia Warsaw (Adyen Poland). Both are payment-processing partnerships rather than branding sponsorships.");
     const arenas = ["F1", "Football", "US leagues & college", "Other sport & venues"];
     const counts = arenas.map((_, j) => COMPETITORS.reduce((n, r) => n + (r[j + 1] ? r[j + 1].split(", ").length : 0), 0));
     const total = counts.reduce((a, b) => a + b, 0);
-    const nx = L, nw = 1.85, cw = 1.78, gx = nx + nw, y0 = 1.9, hh = 0.78, rh = 0.56;
+    const nx = L, nw = 1.85, cw = 1.78, gx = nx + nw, y0 = 1.85, hh = 0.72, rh = 0.49;
     const yEnd = y0 + hh + COMPETITORS.length * rh;
     s.addShape(S.ROUNDED_RECTANGLE, { x: gx, y: y0, w: cw, h: yEnd - y0 + 0.08, rectRadius: 0.08, fill: { color: C.accent6 },
       line: { color: C.accent1, width: 1.25 }, objectName: "F1 column" });
@@ -506,16 +506,26 @@ async function build() {
       });
     });
     s.addShape(S.LINE, { x: nx, y: yEnd, w: nw + 4 * cw, h: 0, line: { color: C.accent4, width: 0.75 } });
+    // Adyen today: payments partner in football only (FC Bayern München since 2023, extended 2026; Legia Warsaw)
+    const ay = yEnd + 0.16, ah = 0.62;
+    s.addShape(S.ROUNDED_RECTANGLE, { x: nx, y: ay, w: nw + 4 * cw, h: ah, rectRadius: 0.06, fill: { color: C.text1 }, line: { color: C.text1, width: 0 },
+      objectName: "Adyen row" });
+    s.addText("Adyen today", { x: nx + 0.15, y: ay, w: nw - 0.15, h: ah, fontSize: 12.5, bold: true, color: C.accent1, margin: 0, isTextBox: true, valign: "middle" });
+    s.addShape(S.OVAL, { x: gx + cw / 2 - 0.1, y: ay + 0.1, w: 0.2, h: 0.2, fill: { color: C.text1 }, line: { color: C.accent1, width: 1.25, dashType: "dash" } });
+    s.addText("Not yet", { x: gx + 0.05, y: ay + 0.34, w: cw - 0.1, h: 0.2, fontSize: 9, bold: true, color: C.accent1, align: "center", margin: 0, isTextBox: true });
+    [0, 1].forEach((k) => s.addShape(S.OVAL, { x: gx + cw + cw / 2 - 0.23 + k * 0.28, y: ay + 0.1, w: 0.18, h: 0.18, fill: { color: C.accent1 }, line: { color: C.accent1, width: 0 } }));
+    s.addText("FC Bayern, Legia Warsaw", { x: gx + cw + 0.02, y: ay + 0.34, w: cw - 0.04, h: 0.2, fontSize: 8.5, bold: true, color: C.background1, align: "center", margin: 0, isTextBox: true });
+    s.addText("Payments partner in football only", { x: gx + 2 * cw + 0.1, y: ay, w: 2 * cw - 0.2, h: ah, fontSize: 10.5, italic: true, color: C.accent4, margin: 0, isTextBox: true, valign: "middle" });
     const px = gx + 4 * cw + 0.35, pw = R - px;
     card(s, px, y0, pw, 2.35, C.text1, "Total card");
     s.addText([{ text: String(total), options: { bold: true, fontSize: 48, color: C.background1, breakLine: true } },
       { text: "sports properties held by 7 payment competitors", options: { fontSize: 12, color: C.accent4 } }],
     { x: px + 0.25, y: y0 + 0.15, w: pw - 0.5, h: 2.05, margin: 0, isTextBox: true, valign: "middle" });
-    s.addShape(S.ROUNDED_RECTANGLE, { x: px, y: y0 + 2.55, w: pw, h: yEnd - y0 - 2.47, rectRadius: 0.08, fill: { color: C.accent6 },
+    s.addShape(S.ROUNDED_RECTANGLE, { x: px, y: y0 + 2.55, w: pw, h: ay + ah - y0 - 2.55, rectRadius: 0.08, fill: { color: C.accent6 },
       line: { color: C.accent1, width: 1.5, dashType: "dash" }, objectName: "Adyen seat" });
     s.addText([{ text: String(counts[0]), options: { bold: true, fontSize: 40, color: C.accent2 } }, { text: "  in F1", options: { bold: true, fontSize: 16, color: C.accent2, breakLine: true } },
       { text: "The seat is open for Adyen: Max, Alpine or Ferrari", options: { fontSize: 11.5, color: C.text1 } }],
-    { x: px + 0.25, y: y0 + 2.6, w: pw - 0.5, h: yEnd - y0 - 2.6, margin: 0, isTextBox: true, valign: "middle" });
+    { x: px + 0.25, y: y0 + 2.6, w: pw - 0.5, h: ay + ah - y0 - 2.65, margin: 0, isTextBox: true, valign: "middle" });
   }
 
   // Why F1 at a glance (replaces the hypothesis slide; the six tiles that sat on the executive summary)
@@ -630,12 +640,55 @@ async function build() {
     soWhat(s, "F1 leads on **every audience Adyen needs**, from enterprise buyers to the consumers adopting new ways to pay.", 6.15, L, 8.35);
   }
 
+  // Footprint (offices and races, Adyen markets)
+  {
+    const s = content("CONTENT", "Why F1", 0, "Footprint",
+      t("F1 goes **where Adyen does business**: 457M fans in Adyen's markets"),
+      "Source: F1 2027 calendar and Adyen office list as supplied to SPORTFIVE (calendar not independently confirmed); GWI (F1 audience by market, 2026 vs 2022); map: Adyen.",
+      REGIONS.map(([r, o, rc]) => `${r}: offices ${o.join(", ")}; races ${rc.length ? rc.join(", ") : "none"}.`).join("\n") +
+      "\n28 offices and 24 races are counted from this list. Adyen's 22 office markets: 457.2M F1 fans in 2026 vs 342.3M in 2022 (+33.6%); 13 of 22 host a 2027 race. China 122.6M; India 117.4M (+94.9%, no race); Japan 7.1M (+41.2%). Full market chart in the backup slides.");
+    const cx = [L, L + 1.95, L + 5.0], ry = 2.42, rh = 0.47;
+    label(s, "Region", cx[0], 2.0, 1.8);
+    label(s, "Adyen offices (28)", cx[1], 2.0, 3.0);
+    label(s, "F1 races 2027 (24)", cx[2], 2.0, 2.6);
+    REGIONS.forEach(([region, offices, races], i) => {
+      const y = ry + i * rh;
+      s.addShape(S.LINE, { x: L, y, w: 7.35, h: 0, line: { color: C.accent4, width: 0.75 } });
+      s.addText(region, { x: cx[0], y, w: 1.9, h: rh, fontSize: 12.5, bold: true, color: C.text1, margin: 0, valign: "middle", isTextBox: true });
+      const mark = (n, x0, shape, color) => {
+        s.addText(String(n), { x: x0, y, w: 0.35, h: rh, fontSize: 12.5, bold: true, color: C.text1, margin: 0, valign: "middle", isTextBox: true });
+        for (let k = 0; k < n; k++)
+          s.addShape(shape, { x: x0 + 0.4 + k * 0.19, y: y + rh / 2 - 0.065, w: 0.13, h: 0.13, fill: { color }, line: { color, width: 0 } });
+      };
+      mark(offices.length, cx[1], S.OVAL, C.accent1);
+      mark(races.length, cx[2], S.DIAMOND, C.text1);
+    });
+    s.addShape(S.LINE, { x: L, y: ry + REGIONS.length * rh, w: 7.35, h: 0, line: { color: C.accent4, width: 0.75 } });
+    const ly = ry + REGIONS.length * rh + 0.15;
+    s.addShape(S.OVAL, { x: L, y: ly + 0.06, w: 0.13, h: 0.13, fill: { color: C.accent1 }, line: { color: C.accent1, width: 0 } });
+    s.addText("Adyen office", { x: L + 0.2, y: ly, w: 1.3, h: 0.25, fontSize: 10, color: C.text2, margin: 0, isTextBox: true });
+    s.addShape(S.DIAMOND, { x: L + 1.5, y: ly + 0.06, w: 0.13, h: 0.13, fill: { color: C.text1 }, line: { color: C.text1, width: 0 } });
+    s.addText("F1 race weekend", { x: L + 1.7, y: ly, w: 1.6, h: 0.25, fontSize: 10, color: C.text2, margin: 0, isTextBox: true });
+    const x = 8.3, w = R - x;
+    await fit(s, "adyen_map.jpg", x, 1.9, w, 1.55, "Adyen global acquiring footprint map");
+    const tiles = [["457.2M", "F1 fans in Adyen's 22 office markets, +33.6% since 2022", true], ["13 of 22", "Adyen office markets host a 2027 race", false],
+      ["India · 117.4M", "+94.9% since 2022; no Grand Prix", false], ["Japan · 7.1M", "+41.2% since 2022", false]];
+    const tw = (w - 0.2) / 2, th = 1.3;
+    tiles.forEach(([big, lab, dark], i) => {
+      const tx = x + (i % 2) * (tw + 0.2), ty = 3.65 + Math.floor(i / 2) * (th + 0.2);
+      card(s, tx, ty, tw, th, dark ? C.text1 : C.background2);
+      s.addText(big, { x: tx + 0.2, y: ty + 0.15, w: tw - 0.4, h: 0.45, fontSize: 18, bold: true, color: dark ? C.accent1 : C.text1, margin: 0, isTextBox: true, valign: "top" });
+      s.addText(lab, { x: tx + 0.2, y: ty + 0.65, w: tw - 0.4, h: 0.6, fontSize: 10.5, color: dark ? C.accent4 : C.text2, margin: 0, isTextBox: true, valign: "top" });
+    });
+  }
+
   // Growth
   {
     const s = content("CONTENT", "Why F1", 0, "Growth",
       t("F1 keeps growing, in **audience and in what brands pay** to be there"),
       "Source: GWI (global audience, followers); GlobalData (new sponsorship deals only, excl. renewals). 2026 YTD: $1.91B across 139 deals, year incomplete.",
       "Audience: 478.0M (2022) to 625.3M (2026), +30.8%, +147.3M followers; +8.3% vs 2025.\nSponsorship: total value of NEW deals, not annual sponsorship revenue. $0.89B (2020) to $2.37B (2025), +165.3%. 125 new deals in 2025 (+28.9%).");
+    s.hidden = true; // slide 4 already makes the growth point (Eleri)
     const cards = [
       { x: L, head: "Global F1 audience", big: "+30.8%", sub: "2022–2026 · 147.3M additional followers", d: AUDIENCE,
         fmt: '0.0"M"', note: "625.3M followers in 2026, +8.3% vs 2025" },
@@ -721,48 +774,6 @@ async function build() {
     soWhat(s, "IBM and American Express both posted their **biggest brand-value gains the year they entered F1**.", 6.05, x, w);
   }
 
-  // Footprint (offices and races, Adyen markets)
-  {
-    const s = content("CONTENT", "Why F1", 0, "Footprint",
-      t("F1 goes **where Adyen does business**: 457M fans in Adyen's markets"),
-      "Source: F1 2027 calendar and Adyen office list as supplied to SPORTFIVE (calendar not independently confirmed); GWI (F1 audience by market, 2026 vs 2022); map: Adyen.",
-      REGIONS.map(([r, o, rc]) => `${r}: offices ${o.join(", ")}; races ${rc.length ? rc.join(", ") : "none"}.`).join("\n") +
-      "\n28 offices and 24 races are counted from this list. Adyen's 22 office markets: 457.2M F1 fans in 2026 vs 342.3M in 2022 (+33.6%); 13 of 22 host a 2027 race. China 122.6M; India 117.4M (+94.9%, no race); Japan 7.1M (+41.2%). Full market chart in the backup slides.");
-    const cx = [L, L + 1.95, L + 5.0], ry = 2.42, rh = 0.47;
-    label(s, "Region", cx[0], 2.0, 1.8);
-    label(s, "Adyen offices (28)", cx[1], 2.0, 3.0);
-    label(s, "F1 races 2027 (24)", cx[2], 2.0, 2.6);
-    REGIONS.forEach(([region, offices, races], i) => {
-      const y = ry + i * rh;
-      s.addShape(S.LINE, { x: L, y, w: 7.35, h: 0, line: { color: C.accent4, width: 0.75 } });
-      s.addText(region, { x: cx[0], y, w: 1.9, h: rh, fontSize: 12.5, bold: true, color: C.text1, margin: 0, valign: "middle", isTextBox: true });
-      const mark = (n, x0, shape, color) => {
-        s.addText(String(n), { x: x0, y, w: 0.35, h: rh, fontSize: 12.5, bold: true, color: C.text1, margin: 0, valign: "middle", isTextBox: true });
-        for (let k = 0; k < n; k++)
-          s.addShape(shape, { x: x0 + 0.4 + k * 0.19, y: y + rh / 2 - 0.065, w: 0.13, h: 0.13, fill: { color }, line: { color, width: 0 } });
-      };
-      mark(offices.length, cx[1], S.OVAL, C.accent1);
-      mark(races.length, cx[2], S.DIAMOND, C.text1);
-    });
-    s.addShape(S.LINE, { x: L, y: ry + REGIONS.length * rh, w: 7.35, h: 0, line: { color: C.accent4, width: 0.75 } });
-    const ly = ry + REGIONS.length * rh + 0.15;
-    s.addShape(S.OVAL, { x: L, y: ly + 0.06, w: 0.13, h: 0.13, fill: { color: C.accent1 }, line: { color: C.accent1, width: 0 } });
-    s.addText("Adyen office", { x: L + 0.2, y: ly, w: 1.3, h: 0.25, fontSize: 10, color: C.text2, margin: 0, isTextBox: true });
-    s.addShape(S.DIAMOND, { x: L + 1.5, y: ly + 0.06, w: 0.13, h: 0.13, fill: { color: C.text1 }, line: { color: C.text1, width: 0 } });
-    s.addText("F1 race weekend", { x: L + 1.7, y: ly, w: 1.6, h: 0.25, fontSize: 10, color: C.text2, margin: 0, isTextBox: true });
-    const x = 8.3, w = R - x;
-    await fit(s, "adyen_map.jpg", x, 1.9, w, 1.55, "Adyen global acquiring footprint map");
-    const tiles = [["457.2M", "F1 fans in Adyen's 22 office markets, +33.6% since 2022", true], ["13 of 22", "Adyen office markets host a 2027 race", false],
-      ["India · 117.4M", "+94.9% since 2022; no Grand Prix", false], ["Japan · 7.1M", "+41.2% since 2022", false]];
-    const tw = (w - 0.2) / 2, th = 1.3;
-    tiles.forEach(([big, lab, dark], i) => {
-      const tx = x + (i % 2) * (tw + 0.2), ty = 3.65 + Math.floor(i / 2) * (th + 0.2);
-      card(s, tx, ty, tw, th, dark ? C.text1 : C.background2);
-      s.addText(big, { x: tx + 0.2, y: ty + 0.15, w: tw - 0.4, h: 0.45, fontSize: 18, bold: true, color: dark ? C.accent1 : C.text1, margin: 0, isTextBox: true, valign: "top" });
-      s.addText(lab, { x: tx + 0.2, y: ty + 0.65, w: tw - 0.4, h: 0.6, fontSize: 10.5, color: dark ? C.accent4 : C.text2, margin: 0, isTextBox: true, valign: "top" });
-    });
-  }
-
   // ================================================================ 02 Hospitality
   pres.addSection({ title: "Hospitality" });
   {
@@ -799,6 +810,7 @@ async function build() {
       t("F1 partners report **real commercial returns** from hosting at races"),
       "Source: Komatsu × Williams, HPE × Mercedes and Businessolver × Alpine case material, as compiled by SPORTFIVE (team deck slides 22–23).",
       "Three partners, three proof points: orders closed at races (Komatsu), revenue opportunity accelerated (HPE) and pipeline influenced (Businessolver, an Alpine partner). HPE has partnered the Mercedes F1 team since 2018.");
+    s.hidden = true; // source decks are marked highly confidential; numbers are used verbally on the hospitality slide (Eleri)
     const cw = (CW - 0.6) / 3, y = 1.95, h = 4.8, ih = 1.3;
     const cases = [
       { img: null, logo: "case_komatsu_logo.jpg", pair: "Komatsu × Williams", big: "$100M+", lab: "orders received at races",
@@ -1799,7 +1811,7 @@ async function build() {
       "", `Hidden. Each remark slide follows in the next section exactly as the reviewers left it, then (where there is one) a copy of the updated slide tagged 'After'. Source: ${round.source}.`);
     s.hidden = true;
     const head = (txt, o = {}) => hc(txt, { fontSize: 10, ...o });
-    const rows = [[head(`${round.label} slide`, { align: "center" }), head("Remark"), head("What we changed"), head("In Deck 9", { align: "center" })],
+    const rows = [[head(`${round.label} slide`, { align: "center" }), head("Remark"), head("What we changed"), head("In Deck 10", { align: "center" })],
       ...round.items.map((it) => {
         const done = it.after !== null;
         return [

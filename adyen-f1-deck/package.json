@@ -3,7 +3,7 @@
   "private": true,
   "description": "Builds the Adyen x Formula 1 chairman deck",
   "scripts": {
-    "build": "node build_deck.js \"Adyen x F1 - Chairman deck 9.pptx\" && python3 fix_pic_placeholders.py \"Adyen x F1 - Chairman deck 9.pptx\" && python3 add_script.py \"Adyen x F1 - Chairman deck 9.pptx\" && python3 use_reviewed_slides.py \"Adyen x F1 - Chairman deck 9.pptx\" && python3 add_remark_slides.py \"Adyen x F1 - Chairman deck 9.pptx\" && python3 script_pdf.py \"Adyen x F1 - Pitch script.md\" \"Adyen x F1 - Talking script (Deck 9).pdf\""
+    "build": "node build_deck.js \"Adyen x F1 - Chairman deck 10.pptx\" && python3 fix_pic_placeholders.py \"Adyen x F1 - Chairman deck 10.pptx\" && python3 add_script.py \"Adyen x F1 - Chairman deck 10.pptx\" && python3 use_reviewed_slides.py \"Adyen x F1 - Chairman deck 10.pptx\" && python3 add_remark_slides.py \"Adyen x F1 - Chairman deck 10.pptx\" && python3 script_pdf.py \"Adyen x F1 - Pitch script.md\" \"Adyen x F1 - Talking script (Deck 10).pdf\""
   },
   "dependencies": {
     "pptxgenjs": "3.12.0",

@@ -1,10 +1,10 @@
-# Adyen × F1: talking script for Peter (Chairman deck 9)
+# Adyen × F1: talking script for Peter (Chairman deck 10)
 
 **How to use it.** Each slide has the line to land, then the words to say. Say them your way; the numbers are all on the slides, so you can point rather than recite. Lines in *italics* are cues, not words to say.
 
 **The one idea to hold.** Brands aren't in F1 for exposure. They're there to prove their technology under pressure, to be in the room with the right people, and to hit several goals with one partnership. Our job is to find Adyen the right fit. Today's ask is buy-in to F1 and to one central programme; the rights in the proposals are where the conversation starts, not where it ends.
 
-**Timing.** About 30 minutes in full. For a 15-minute slot, use the key slides (marked ★) and give the others one line each. Slides 14 and 24 are hidden: skip them.
+**Timing.** About 30 minutes in full. For a 15-minute slot, use the key slides (marked ★) and give the others one line each. Slides 8, 12, 14 and 24 are hidden: skip them.
 
 ---
 
@@ -50,6 +50,8 @@ Seven payment companies hold 32 properties between them. Each dot is one: a club
 
 Now look at the green column. Only two of the 32 are in F1: Stripe with Mercedes, Airwallex with McLaren.
 
+And the bottom row is Adyen today: payments partner to FC Bayern and Legia Warsaw, so football only, and nothing yet in F1.
+
 That's the insight. F1 is the least crowded arena in sport for payments. The space Adyen would want is still open, and as I'll show you, it's not the space your competitors took.
 
 ## 4 · Why F1, at a glance ★
@@ -82,31 +84,7 @@ Go one level deeper, to fans who work in financial services. Every team's fans o
 
 In plain terms: F1 fans are the people who sign enterprise contracts, and the consumers who adopt new ways to pay first. That's both sides of Adyen's business in one audience.
 
-## 7 · Growth
-
-And it's still growing.
-
-625 million followers this year, up 31% since 2022. That's 147 million new fans in four years.
-
-The money follows. The value of new sponsorship deals rose 165% between 2020 and 2025, with 125 new deals last year. Brands keep paying more to be in F1 because it keeps paying them back.
-
-## 8 · Business leader network ★
-
-This is the slide that matters most for an enterprise business.
-
-Half of the world's most valuable brands are involved in F1. The public brands in the F1 ecosystem have $10 trillion in combined revenue: more than the GDP of Germany, Japan, India, the UK or France.
-
-On the right is who's in the room, including five of the Magnificent Seven. These are the companies Adyen wants as clients and partners, and F1 is where they spend time together.
-
-## 9 · Brand value
-
-A quick word on why brand pays.
-
-Kantar's portfolio of the strongest brands grew 504% between 2006 and 2026, against 451% for the S&P 500. Strong brands outperform.
-
-And two examples close to your world: IBM and American Express both posted their biggest brand-value gains in the year they entered F1.
-
-## 10 · Footprint ★
+## 7 · Footprint ★
 
 F1 goes where Adyen does business.
 
@@ -114,23 +92,29 @@ On the left, your 28 offices next to the 24 races, region by region. Every regio
 
 On the right, 457 million F1 fans live in your 22 office markets, up a third since 2022, and 13 of those markets host a race. India has 117 million fans and nearly doubled without a Grand Prix. Japan, a priority market for you, is up 41%.
 
+## 9 · Business leader network ★
+
+This is the slide that matters most for an enterprise business.
+
+Half of the world's most valuable brands are involved in F1. The public brands in the F1 ecosystem have $10 trillion in combined revenue: more than the GDP of Germany, Japan, India, the UK or France.
+
+On the right is who's in the room, including five of the Magnificent Seven. These are the companies Adyen wants as clients and partners, and F1 is where they spend time together.
+
+## 10 · Brand value
+
+A quick word on why brand pays.
+
+Kantar's portfolio of the strongest brands grew 504% between 2006 and 2026, against 451% for the S&P 500. Strong brands outperform.
+
+And two examples close to your world: IBM and American Express both posted their biggest brand-value gains in the year they entered F1.
+
 ## 11 · Hospitality ★
 
 This is the part of F1 that pays for itself.
 
 Hospitality does three jobs, and each one maps to Adyen's P&L. It keeps clients: experiences ordinary hosting can't match. It builds pipeline: every race puts senior decision-makers in one place, with time to talk. And it brings in new merchants: the teams' 371 partners are all in the paddock.
 
-## 12 · Proof from F1 partners ★
-
-You don't have to take my word for it. Three partners measured it.
-
-Komatsu hosts its stakeholders with Williams: more than $100 million in orders received at races, and 90% of guests said it was useful for business.
-
-HPE with Mercedes. Their CEO, Antonio Neri, says race activations alone accelerated more than $300 million in revenue opportunity.
-
-And Businessolver, an Alpine partner: $122 million in pipeline, influenced by hosting at the track.
-
-*If asked:* some of this case material is marked confidential, so keep it in the room.
+And you don't have to take my word for it. *Say these verbally; the source decks are marked confidential, so they're not on screen.* Komatsu took more than $100 million in orders at races with Williams. HPE's CEO says race activations alone accelerated more than $300 million in revenue opportunity. And Businessolver, an Alpine partner, puts $122 million of pipeline down to hosting at the track.
 
 ## 13 · Team partnership network
 
@@ -315,7 +299,7 @@ So Peter, the question I'd leave you with isn't "which contract". It's this: is 
 ## Questions Peter might ask, and how to answer
 
 **"What's the transaction volume? Is it worth it on payments alone?"**
-Be honest: payment volume is real, but it isn't the headline. Brands are in F1 to prove their technology under pressure, meet the right people and hit several goals with one partnership. Point to slides 4 and 12.
+Be honest: payment volume is real, but it isn't the headline. Brands are in F1 to prove their technology under pressure, meet the right people and hit several goals with one partnership. Point to slides 4 and 11.
 
 **"Aren't we just following Stripe and Airwallex?"**
 No. They're in different seats. Stripe partners Mercedes; Airwallex runs McLaren's supplier payments behind the scenes. Adyen's seat is the commerce fans see, live at the races (slides 3 and 15).

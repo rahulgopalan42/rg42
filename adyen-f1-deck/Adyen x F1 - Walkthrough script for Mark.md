@@ -1,4 +1,4 @@
-# Adyen × F1: Monday walkthrough with Mark (Chairman deck 9)
+# Adyen × F1: Monday walkthrough with Mark (Chairman deck 10)
 
 **Who it's for.** You, walking Mark through the deck before he takes it to Peter. Bjorn is in the room for questions, the Airwallex story and Ferrari. Tom (hospitality) isn't. If it's confirmed, a 30-minute virtual call with Ferrari follows.
 
@@ -43,7 +43,7 @@ Brands aren't in F1 for exposure; the logo on the car is the least interesting p
 
 Look at the fifth box. One global programme, uniting local hosting across eight to ten races. You already host at races, country by country. That box is the economic case for doing it centrally: one budget, one standard, more leverage.
 
-**Insight:** The headline on this slide still says "financial efficiencies". Eleri's point is that's not the story Peter needs. The story is the B2B one: every touchpoint where Adyen meets a client, a prospect or a partner.
+**Insight:** Note the headline: B2B growth, not payment volume. It used to say "financial efficiencies"; Eleri's point was that's not the story Peter needs. The story is every touchpoint where Adyen meets a client, a prospect or a partner.
 
 **Ask Mark:** Of these five, which one does Peter care about most personally? Which one would make him lean in?
 
@@ -55,9 +55,9 @@ Look at the fifth box. One global programme, uniting local hosting across eight 
 
 **Insight:** Two things make F1 different. First, white space: almost nobody in payments is there yet. Second, it's always on. Football and US leagues run on matchdays and seasons, so concession and merchandise volume comes in bursts. F1 runs for ten months a year, March to December, across five continents. That's a story Adyen can tell every week, not every other weekend.
 
-*Cue: Eleri noted Adyen itself is active only in football. If Mark confirms it, ask the next question.*
+The bottom row is Adyen today: payments partner to FC Bayern and Legia Warsaw. Football only, nothing in F1 yet.
 
-**Ask Mark:** Adyen's own sports work is in football. What has it delivered for you, and what hasn't it? That tells us what F1 needs to do differently.
+**Ask Mark:** FC Bayern runs on Adyen. What has that partnership delivered for you, and what hasn't it? That tells us what F1 needs to do differently.
 
 ## 4 · Why F1, at a glance ★
 
@@ -87,29 +87,7 @@ Look at the fifth box. One global programme, uniting local hosting across eight 
 
 **Ask Mark:** Who is Adyen's hardest buyer to reach today: the CFO, the CTO, or the head of ecommerce?
 
-## 7 · Growth (optional)
-
-*Eleri suggests skipping this one: slide 4 already makes the growth point. If you show it, one line only:* the audience keeps growing, and so does the number of brands paying to be there. That's why the timing matters.
-
-## 8 · Business leader network ★
-
-**Land it:** If F1's brands were a country, only the US and China would be bigger.
-
-**Say:** Half the world's most valuable brands are in F1. The public companies alone have $10 trillion in combined revenue: more than the GDP of Germany, Japan, India, the UK or France.
-
-**Insight:** That's public companies only. Add the private ones and the number goes up. Five of the Magnificent Seven are in this room. For Adyen, this isn't an audience to advertise to. It's a client list.
-
-**Ask Mark:** Which ten logos on this wall would Peter most like to see as Adyen merchants?
-
-## 9 · Brand value
-
-**Land it:** The strongest brands outperform, and two of them got their biggest lift the year they joined F1.
-
-**Say:** Kantar's strongest brands returned 504% over twenty years, against 451% for the S&P 500. And IBM and American Express both posted their biggest brand-value gains in the year they entered F1.
-
-*Eleri sees this as one of the strongest slides. If time is tight, show it before the audience slide.*
-
-## 10 · Footprint ★
+## 7 · Footprint ★
 
 **Land it:** F1 goes where Adyen does business, including the markets you're trying to grow.
 
@@ -123,6 +101,22 @@ Look at the fifth box. One global programme, uniting local hosting across eight 
 
 ---
 
+## 9 · Business leader network ★
+
+**Land it:** If F1's brands were a country, only the US and China would be bigger.
+
+**Say:** Half the world's most valuable brands are in F1. The public companies alone have $10 trillion in combined revenue: more than the GDP of Germany, Japan, India, the UK or France.
+
+**Insight:** That's public companies only. Add the private ones and the number goes up. Five of the Magnificent Seven are in this room. For Adyen, this isn't an audience to advertise to. It's a client list.
+
+**Ask Mark:** Which ten logos on this wall would Peter most like to see as Adyen merchants?
+
+## 10 · Brand value
+
+**Land it:** The strongest brands outperform, and two of them got their biggest lift the year they joined F1.
+
+**Say:** Kantar's strongest brands returned 504% over twenty years, against 451% for the S&P 500. And IBM and American Express both posted their biggest brand-value gains in the year they entered F1.
+
 ## Part 2 · F1 pays for itself (7 min)
 
 ## 11 · Hospitality ★
@@ -133,15 +127,11 @@ Look at the fifth box. One global programme, uniting local hosting across eight 
 
 **Insight:** This is the economic heart of the case. The partnership isn't paid for by brand metrics; it's paid for by the deals that close in these rooms.
 
-*Talk through the proof verbally; slide 12 is confidential (see below):* Komatsu took more than $100 million in orders at races with Williams. HPE's CEO says race activations alone accelerated more than $300 million in revenue opportunity. Businessolver, an Alpine partner, puts $122 million of pipeline down to hosting at the track.
+*Talk through the proof verbally; the case-study slide is now hidden because the source decks are confidential:* Komatsu took more than $100 million in orders at races with Williams. HPE's CEO says race activations alone accelerated more than $300 million in revenue opportunity. Businessolver, an Alpine partner, puts $122 million of pipeline down to hosting at the track.
 
 **Ask Mark:** What does Adyen spend on hosting today, roughly, and where? If we can pull that spend into one programme, the partnership starts to fund itself.
 
 *Cue: the hospitality brief is still open. This question gets us most of what it asks.*
-
-## 12 · Case studies (hide)
-
-*Eleri suggests hiding this slide: the source decks are marked highly confidential. Use the numbers verbally on slide 11 and don't leave them on screen.*
 
 ## 13 · Team partnership network ★
 

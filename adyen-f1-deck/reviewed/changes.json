@@ -21,9 +21,9 @@
       {
         "slide": 5,
         "remark": "“I wouldn't include this” · “Is this meaningful and relevant?”",
-        "change": "'So what' line removed; the two charts kept",
-        "after": 7,
-        "now": "Slide 7"
+        "change": "'So what' line removed; slide hidden in Deck 10 (growth already on slide 4)",
+        "after": 8,
+        "now": "Slide 8 (hidden)"
       },
       {
         "slide": 8,
@@ -35,9 +35,9 @@
       {
         "slide": 11,
         "remark": "“We should be careful when name dropping these as all decks state 'high confidentiality'”",
-        "change": "Replaced in Deck 6, restored at your request in Deck 7; confidentiality still to confirm",
+        "change": "Restored in Deck 7; hidden in Deck 10 as confidential, used verbally on slide 11",
         "after": 12,
-        "now": "Slide 12"
+        "now": "Slide 12 (hidden)"
       },
       {
         "slide": 12,
