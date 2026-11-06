@@ -12,11 +12,11 @@
 
 ### "So why did you reach out to us?"
 
-> "A couple of things stood out. The first is who you sell to. Your platform keeps the investment records for a lot of insurers, asset managers and pension funds, more than ten trillion dollars of assets by your count. And the firms around those clients have moved into F1 this year. Nuveen and BNY both signed with Williams in January, Barclays did its first ever F1 deal there in February, and Standard Chartered signed with the sport itself. So a lot of the people you sell to now spend time in the paddock.
+> "Two simple reasons. The first is your clients. Insurers, asset managers, pension funds. A lot of the banks and investment firms that work with them are now in F1. Barclays, BNY and Nuveen all signed with Williams this year.
 >
-> The second is a trend on the money side of the teams. Teams have had a spending cap since 2021, so the finance department matters more than it used to. SAP helps Mercedes forecast its costs against the cap. Red Bull is moving its finance onto Oracle's business software. And last month McLaren named Airwallex its AI Finance Partner from 2027, and the person quoted on the announcement was McLaren's chief financial officer.
+> The second is what you do. You keep the numbers right for very big investment portfolios. F1 teams care a lot about their numbers now, because there's a limit on how much they can spend. So there's a natural link.
 >
-> As far as we can tell, nobody who does what you do has done it yet. You've also just gone private, and your CEO said that makes it easier to build the AI side of the business. So it felt worth a conversation, mainly to understand where you're heading."
+> And you've just gone private, which usually means new plans. So it felt like a good time to talk. But I'd like to hear from you first. Where are things heading?"
 
 ---
 
