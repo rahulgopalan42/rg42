@@ -49,29 +49,61 @@
 >
 > A growing number of those companies are in finance. BNY, Barclays and Nuveen at Williams, UBS and Nasdaq at Mercedes, and Standard Chartered with the sport itself. When the banks explain why they're there, they all talk about the same thing: their clients. So the people standing next to your guests are often people you'd want to meet anyway."
 
-### "What are companies like us doing in F1?"
+### "How are similar brands activating, and what are they getting back?"
 
-> "The finance firms are mostly there for their clients, and the software firms are there to do a real job inside the team. A few examples."
+> "Let me give you a few examples, starting with the one that's published the most."
 
-- **BNY at Williams.** It signed in January as the team's institutional banking partner, with its name on the car's halo and chassis. Its plan for the season is hosting clients in financial centres around the world. What it tells you: the firms that look after institutional money use F1 to spend time with their clients.
-- **Nuveen at Williams.** The asset manager signed in January, with its name above the drivers' steering wheels and on the rear wing. Its CEO said both are built on performance, with a long history and an eye on the future. What it tells you: asset managers, the people you sell to, now put their own names on cars.
-- **UBS at Mercedes.** It's been with the team since 2011 and renewed in 2024. When it renewed, one of its wealth management bosses talked about experiences for clients. What it tells you: the banks that stay longest are the ones using it for clients.
-- **Standard Chartered with F1.** It signed with the sport, not a team, as its wealth management and investment banking partner from this season. That includes F1 Academy, the all-women series, and trackside experiences for its clients. What it tells you: you don't have to pick a team to start.
-- **SAP at Mercedes.** Its finance software helps Mercedes plan its spending, and its AI forecasts costs so the team can see where it will land against the cap. What it tells you: finance software can have a real job inside a team.
-- **Oracle at Red Bull.** Title partner since 2021, extended in February. Red Bull is moving its finance, HR and marketing onto Oracle's business software, and the two are building an AI agent to help race engineers with strategy. What it tells you: even the biggest deals now reach into the back office.
-- **Airwallex at McLaren.** It has supported McLaren's finances for three seasons, and from 2027 it becomes the team's AI Finance Partner. McLaren's CFO was the one quoted on the announcement. What it tells you: a real job leads to a bigger role, and AI for finance is something teams are happy to talk about.
+**Airwallex at McLaren**
 
-### "What do brands like us do, beyond a logo?"
+> "Airwallex has been with McLaren since 2024. The reason they got into F1, in their CFO's words, is that the sport is 'built on the pursuit of marginal gains', and that's how they sell their own product: small savings that add up.
+>
+> Through the partnership, their payments run inside McLaren's finance team, and they say it saves the team half a day a month on international payments. They also run the payments on McLaren's merchandise platform for partners, and they do activations around races from Melbourne to Las Vegas.
+>
+> On the return, they've published more than most. Revenue grew 50% year on year in their Europe and Americas regions during the partnership, and 57% in the UK from new customers. In their own research, trust in the brand was 58% higher among people who linked them with McLaren. And last month McLaren gave them a bigger role, as its AI Finance Partner from 2027."
 
-> "The good ones do a mix. A few concrete examples.
+**CrowdStrike at Mercedes**
+
+> "CrowdStrike has been with Mercedes since 2019, and it's now one of the team's principal partners. The reason, in its CEO's words, is that F1 is 'a highly data-intensive sport', so protecting a team is a very public test of the product.
 >
-> Client weekends are the biggest part for financial firms. BNY is hosting clients in financial centres through the season, and Standard Chartered gives its clients trackside experiences. A Paddock Club pass works all three days, so seven passes can host twenty different guests over one weekend.
+> Through the partnership, it protects thousands of the team's computers at the factory and the track. And it made a 13-part video series where Mercedes specialists explain the safety kit on the car and link each piece to keeping a business safe.
 >
-> Some do something useful with the team. Mercedes gets the use of Nasdaq's MarketSite, where companies ring the opening bell, and the two make content and merchandise together. Airwallex is providing the payments for McLaren's online merchandise shop for partners.
+> The return they can point to: Mercedes reports 6.2 million views and 8.3 million impressions for that series. And the strongest signal came later. CrowdStrike's CEO, George Kurtz, bought a stake in the team last year."
+
+**UBS at Mercedes**
+
+> "UBS has been with Mercedes since 2011, and it renewed in 2024. The reason is its clients. When it renewed, one of its wealth management bosses talked about creating experiences for them, and that's mostly what the partnership is: client experiences at races.
 >
-> Some pick races that match their markets. There are more than twenty race weekends on five continents, including three in the US and Silverstone in the UK. You could put your UK and European clients at one race and your American clients at another.
+> UBS doesn't publish a return. But a bank doesn't keep a deal going for fifteen years without seeing it pay, so the length of it is the best evidence you'll get."
+
+**BNY, Nuveen and Barclays at Williams**
+
+> "These three all signed with Williams early this year, so it's too early for results. But the reasons are worth hearing, because they're your clients' world.
 >
-> And you have an obvious extra. Connect brings your clients to Boise every September. A team engineer on stage there, talking about how a team makes decisions from live data during a race, would probably be the session people remember."
+> Barclays said it wanted to 'deepen our client engagement'. BNY's plan is hosting clients in financial centres through the season. Nuveen, the asset manager, put its name above the drivers' steering wheels, and its CEO talked about both businesses being built on performance.
+>
+> What they'll measure is the same thing you would: time with clients, and what comes from it."
+
+**Standard Chartered with F1**
+
+> "Standard Chartered signed with the sport itself in January, not a team, as its wealth management and investment banking partner. The reason, from the head of its wealth and retail banking business, was to 'bring clients closer to the excitement of F1'. Through the deal it gives clients trackside experiences and supports F1 Academy.
+>
+> Again, too new for numbers. What it shows is that you don't have to pick a team to start."
+
+**SAP at Mercedes, and Oracle at Red Bull**
+
+> "These two are the closest to what you do, because the job is inside the team's finances. SAP's software helps Mercedes forecast its costs against the spending cap. Red Bull is moving its finance, HR and marketing onto Oracle's business software, and Oracle has been the title partner since 2021.
+>
+> Neither publishes a return. The signal is the job itself: a team only lets a partner near its numbers if it trusts them. And Oracle extended its deal in February."
+
+**Nasdaq at Mercedes**
+
+> "Nasdaq joined Mercedes in May last year. Part of the reason was that a third of the team's partners were already listed on its exchange. Through the partnership, Mercedes gets the use of Nasdaq's MarketSite, where companies ring the opening bell, and the two make content and merchandise together. No numbers published, but the reason itself tells you something: the other partners around a team can be worth as much as the team."
+
+**What that adds up to**
+
+> "So the honest picture is this. Very few brands publish numbers. The ones that do, like Airwallex, show real business coming from it. For the rest, the evidence is that they stay, they renew, and their role gets bigger.
+>
+> For you, I'd take three things from that. Client weekends, the way UBS and BNY use it. A real job, or a story about data and the spending cap, the way SAP and Airwallex do. And Connect: a team engineer on stage in Boise, talking about making calls from live data during a race, would probably be the session people remember."
 
 ### "Content is really important for us. How would a team help us make it?"
 
