@@ -265,7 +265,7 @@ def merge(rnd):
         parts = [mapping[f"ppt/slides/slide{it['slide']}.xml"]]
         if it["after"]:
             parts.append(duplicate(DECK_SLIDES[it["after"] - 1],
-                f"AFTER · Deck 8 slide {it['after']} · {it['change']}"))
+                f"AFTER · Deck 9 slide {it['after']} · {it['change']}"))
             pairs += 1
         for part in parts:
             rid = add_rel("slide", part.replace("ppt/", "", 1))

@@ -15,7 +15,7 @@ process.env.NODE_PATH = [path.join(__dirname, "node_modules"), process.env.NODE_
 require("module").Module._initPaths();
 const { applyTheme } = require(SKILL + "/scripts/apply_theme.js");
 
-const OUT = process.argv[2] || "Adyen x F1 - Chairman deck 8.pptx";
+const OUT = process.argv[2] || "Adyen x F1 - Chairman deck 9.pptx";
 const A = (f) => path.join(__dirname, "assets", f);
 
 // ------------------------------------------------------------------ brand
@@ -426,7 +426,7 @@ const CHANGES = require(path.join(__dirname, "reviewed", "changes.json"));
 const ROUTE_NAMES = ["Max Verstappen", "Alpine F1 Team", "Scuderia Ferrari"];
 
 // ------------------------------------------------------------------ slides
-// Deck 8: 32 visible slides (two hidden at the reviewers' request), no dividers; the tracker at the top right shows the section.
+// Deck 9: 34 visible slides (two hidden at the reviewers' request), no dividers; the tracker at the top right shows the section.
 async function build() {
   await defineLayouts();
 
@@ -1433,41 +1433,116 @@ async function build() {
       { x: x + i * (ww + 0.15), y: 5.78, w: ww, h: 0.85, margin: 0, isTextBox: true, valign: "top" }));
   }
 
-  // Route 2: Alpine
+  // Route 2: Alpine. Three slides from Alpine's own presentation to Adyen (2026): the team, the fans, the results.
   {
     const s = content("CONTENT", "The routes", 3, "Route 2 · Alpine F1 Team",
-      t("Alpine: **Performance in Every Transaction**, from checkout to chequered flag"),
-      "Source: Alpine Formula One Team, Provisional Rights Overview 2027–2029 (not legally binding). Audience: GWI Core, Q3 2025–Q2 2026, all internet users.",
-      "Alpine's objectives for Adyen: (1) prove the enterprise platform through a measurable ecommerce integration and a client-facing case study; (2) deepen relationships with priority customers through C-level hospitality and F1 experiences; (3) generate qualified new business through the Team's international partner network.");
-    const lw = 6.15;
-    const lines = [["F1 runs on speed, precision and resilience.", "So does enterprise commerce."],
-      ["Adyen powers Alpine's new online store:", "live proof of the platform."],
-      ["That proof opens doors:", "senior customer conversations and new business."]];
-    lines.forEach(([a, b], i) => s.addText([{ text: a + " ", options: { bold: true, color: C.text1 } }, { text: b, options: { color: C.text2 } }],
-      { x: L, y: 1.9 + i * 0.62, w: lw, h: 0.58, fontSize: 12.5, margin: 0, isTextBox: true, valign: "middle" }));
-    label(s, "Alpine fans vs. the average internet user", L, 3.85, lw);
-    const aud = [["10.0M", "senior decision-makers", "2.22x"], ["23.6M", "business decision-makers", "1.88x"], ["5.6M", "company owners, founders", "1.98x"],
-      ["4.5M", "technology early adopters", "3.02x"], ["24.3M", "Google Pay users", "1.83x"], ["7.2M", "Apple Pay users", "1.59x"]];
-    const aw = (lw - 0.4) / 3, ah = 1.12;
-    aud.forEach(([big, lab, idx], i) => {
-      const ax = L + (i % 3) * (aw + 0.2), ay = 4.2 + Math.floor(i / 3) * (ah + 0.15);
-      card(s, ax, ay, aw, ah);
-      s.addText([{ text: big + " ", options: { fontSize: 19, bold: true, color: C.text1 } }, { text: idx, options: { fontSize: 11, bold: true, color: C.accent2 } }],
-        { x: ax + 0.18, y: ay + 0.12, w: aw - 0.36, h: 0.45, margin: 0, isTextBox: true, valign: "top" });
-      s.addText(lab, { x: ax + 0.18, y: ay + 0.6, w: aw - 0.36, h: 0.42, fontSize: 10.5, color: C.text2, margin: 0, isTextBox: true, valign: "top" });
+      t("Alpine: seven world titles from Enstone, and a **new era with Gucci** from 2027"),
+      "Source: Alpine F1 Team presentation (2026); Alpine Formula One Team, Provisional Rights Overview 2027–2029. Photo: Alpine F1 Team.",
+      "From Alpine's presentation. Enstone has been home to the team since 1981 (Toleman, Benetton, Renault, Lotus, Renault, Alpine) and to seven F1 World Championships: Michael Schumacher's titles in 1994 and 1995 with Benetton (and the 1995 Constructors' title), Fernando Alonso's in 2005 and 2006 with Renault (both with the Constructors' title). From 2027 the team races as 'Gucci Racing Alpine Formula One Team'. François Provost, CEO, Renault Group: 'Formula 1 is part of our core strategy for Alpine, and this I do not intend to change.' Pierre Gasly: 9M followers, 5 podiums, 1 win; contract extended to the end of 2028. Franco Colapinto: 7M followers. Offer terms: Alpine Provisional Rights Overview 2027–2029 (not legally binding).");
+    // left: seven titles and the Enstone timeline
+    s.addText("7", { x: L, y: 1.85, w: 1.0, h: 1.2, fontSize: 80, bold: true, color: C.accent1, margin: 0, isTextBox: true, valign: "top" });
+    s.addText([{ text: "F1 World Championships", options: { bold: true, color: C.text1, fontSize: 16, breakLine: true } },
+      { text: "won at Enstone, the team's home since 1981", options: { color: C.text2, fontSize: 12 } }],
+    { x: L + 1.1, y: 2.0, w: 5.2, h: 0.8, margin: 0, isTextBox: true, valign: "top" });
+    const eras = [["1981", "Toleman"], ["1986", "Benetton"], ["2002", "Renault"], ["2012", "Lotus"], ["2016", "Renault"], ["2021", "Alpine"]];
+    const tx0 = L + 0.1, tw = 6.2, ty = 3.55;
+    s.addShape(S.LINE, { x: tx0, y: ty, w: tw, h: 0, line: { color: C.accent4, width: 1.5 } });
+    eras.forEach(([yr, team], i) => {
+      const x = tx0 + i * (tw / (eras.length - 1)) - 0.5;
+      const last = i === eras.length - 1;
+      s.addShape(S.OVAL, { x: x + 0.42, y: ty - 0.08, w: 0.16, h: 0.16, fill: { color: last ? C.accent1 : C.text1 }, line: { color: C.background1, width: 1 } });
+      s.addText(yr, { x, y: ty - 0.42, w: 1.0, h: 0.28, fontSize: 10.5, bold: true, color: C.text2, align: "center", margin: 0, isTextBox: true });
+      s.addText(team, { x, y: ty + 0.14, w: 1.0, h: 0.28, fontSize: 11, bold: true, color: last ? C.accent2 : C.text1, align: "center", margin: 0, isTextBox: true });
     });
-    const x = 7.1, w = R - x, ih = 2.5;
-    await photo(s, "alpine_engine.jpg", x, 1.95, w, ih, "Alpine car with Adyen branding on the engine cover (mock-up)");
-    s.addText("Alpine mock-up: Adyen on the engine cover", { x, y: 1.95 + ih + 0.06, w, h: 0.25, fontSize: 9.5, color: C.accent3, margin: 0, isTextBox: true });
-    const facts = [["Exclusive", "Financial Technology Platform Partner"], ["2027–2029", "three years, global rights"],
-      ["£10.0M", "fee in 2027, +5% a year"], ["56", "Paddock Club tickets a year"]];
-    const fw = (w - 0.2) / 2, fh = 0.8;
+    [["Schumacher", "1994, 1995", 1], ["Alonso", "2005, 2006", 2]].forEach(([who, yrs, i]) => {
+      const x = tx0 + i * (tw / (eras.length - 1)) - 0.57;
+      s.addShape(S.ROUNDED_RECTANGLE, { x, y: ty + 0.5, w: 1.14, h: 0.55, rectRadius: 0.1, fill: { color: C.accent6 }, line: { color: C.accent6, width: 0 } });
+      s.addText([{ text: who, options: { bold: true, breakLine: true } }, { text: yrs }], { x, y: ty + 0.5, w: 1.14, h: 0.55, fontSize: 9.5,
+        color: C.accent2, align: "center", valign: "middle", margin: 0, isTextBox: true });
+    });
+    // right: the Gucci era
+    const px = 7.25, pw = R - px, ph = pw * 960 / 2370;
+    await photo(s, "alpine_gucci.jpg", px, 1.9, pw, ph, "Gucci Racing Alpine Formula One Team launch");
+    s.addShape(S.RECTANGLE, { x: px, y: 1.9 + ph - 0.42, w: pw, h: 0.42, fill: { color: C.text1, transparency: 15 }, line: { color: C.text1, width: 0 } });
+    s.addText([{ text: "From 2027  ", options: { bold: true, color: C.accent1 } }, { text: "Gucci Racing Alpine Formula One Team", options: { bold: true, color: C.background1 } }],
+      { x: px + 0.2, y: 1.9 + ph - 0.42, w: pw - 0.4, h: 0.42, fontSize: 11, margin: 0, isTextBox: true, valign: "middle" });
+    // bottom: backing, drivers, the offer
+    const cy = 4.75, ch = 2.0, cw = (CW - 0.5) / 3;
+    const cards = [
+      { head: "Backed by Renault Group", body: [{ text: "“Formula 1 is part of our core strategy for Alpine, and this I do not intend to change.”", options: { italic: true, color: C.text1, fontSize: 12, breakLine: true } },
+        { text: "François Provost, CEO, Renault Group", options: { bold: true, color: C.text2, fontSize: 10 } }] },
+      { head: "Drivers with reach", body: [{ text: "Pierre Gasly  ", options: { bold: true, color: C.text1, fontSize: 13 } }, { text: "9M followers; signed to the end of 2028", options: { color: C.text2, fontSize: 11.5, breakLine: true } },
+        { text: "Franco Colapinto  ", options: { bold: true, color: C.text1, fontSize: 13 } }, { text: "7M followers; Argentina's F1 star", options: { color: C.text2, fontSize: 11.5 } }] },
+      { head: "The offer to Adyen", dark: true, body: [{ text: "Exclusive Financial Technology Platform Partner", options: { bold: true, color: C.background1, fontSize: 13, breakLine: true } },
+        { text: "2027–2029 · £10.0M in 2027 · 56 Paddock Club tickets a year", options: { color: C.accent4, fontSize: 11.5 } }] },
+    ];
+    cards.forEach((c, i) => {
+      const x = L + i * (cw + 0.25);
+      card(s, x, cy, cw, ch, c.dark ? C.text1 : C.background2, "Alpine card");
+      s.addText(c.head.toUpperCase(), { x: x + 0.25, y: cy + 0.2, w: cw - 0.5, h: 0.28, fontSize: 10, bold: true, charSpacing: 1, color: c.dark ? C.accent1 : C.accent2, margin: 0, isTextBox: true });
+      s.addText(c.body, { x: x + 0.25, y: cy + 0.58, w: cw - 0.5, h: ch - 0.75, margin: 0, isTextBox: true, valign: "top", paraSpaceAfter: 4 });
+    });
+  }
+  {
+    const s = content("CONTENT", "The routes", 3, "Route 2 · Alpine audience",
+      t("Alpine's 63.6M fans include **the buyers Adyen sells to**"),
+      "Source: Alpine F1 Team presentation (2026): GWI Core; Nielsen & Blinkfire Analytics. Multiples vs the average individual; 276% vs the average sports fan.",
+      "From Alpine's 'Meet your audience' slides. Alpine F1 Team fanbase 63.6M. 28.6M have a high income; 26.8M are decision-makers at work; 10.2% are C-suite level; Alpine fans are 276% more likely to be an 'executive purchaser' than the average sports fan; 51.7% are under 35; 24% more likely to be Gen Z than fans of other F1 teams. Personas, with how much more likely Alpine fans are than the average individual: executive purchasers 5.6M (3.9x), cutting-edge consumers 9.3M (3.06x), social shoppers 3.8M (2.42x), style and luxury spenders 3.1M (2.31x), conscious consumers 4.4M (2.06x).");
+    const lw = 4.35;
+    card(s, L, 1.95, lw, 4.85, C.text1, "Fan card");
+    s.addText([{ text: "63.6M", options: { bold: true, fontSize: 46, color: C.accent1, breakLine: true } }, { text: "Alpine F1 Team fans", options: { fontSize: 13, color: C.accent4 } }],
+      { x: L + 0.3, y: 2.1, w: lw - 0.6, h: 1.35, margin: 0, isTextBox: true, valign: "top" });
+    const facts = [["26.8M", "are decision-makers at work"], ["10.2%", "are C-suite level"], ["276%", "more likely to be an executive purchaser than the average sports fan"], ["51.7%", "are under 35"]];
     facts.forEach(([big, lab], i) => {
-      const fx = x + (i % 2) * (fw + 0.2), fy = 4.88 + Math.floor(i / 2) * (fh + 0.15);
-      card(s, fx, fy, fw, fh, i === 2 ? C.text1 : C.background2);
-      s.addText([{ text: big, options: { fontSize: 15, bold: true, color: i === 2 ? C.accent1 : C.text1, breakLine: true } },
-        { text: lab, options: { fontSize: 10, color: i === 2 ? C.accent4 : C.text2 } }],
-      { x: fx + 0.18, y: fy, w: fw - 0.36, h: fh, margin: 0, isTextBox: true, valign: "middle" });
+      const y = 3.6 + i * 0.78;
+      s.addShape(S.LINE, { x: L + 0.3, y: y - 0.06, w: lw - 0.6, h: 0, line: { color: C.accent5, width: 0.75 } });
+      s.addText(big, { x: L + 0.3, y, w: 1.25, h: 0.62, fontSize: 20, bold: true, color: C.background1, margin: 0, isTextBox: true, valign: "middle" });
+      s.addText(lab, { x: L + 1.6, y, w: lw - 1.9, h: 0.62, fontSize: 11, color: C.accent4, margin: 0, isTextBox: true, valign: "middle" });
+    });
+    const x = L + lw + 0.45, w = R - x;
+    label(s, "How much more likely Alpine fans are than the average person", x, 1.95, w);
+    const P = [["Executive purchasers", "5.6M", 3.9, true], ["Cutting-edge consumers", "9.3M", 3.06, true], ["Social shoppers", "3.8M", 2.42, false],
+      ["Style and luxury spenders", "3.1M", 2.31, false], ["Conscious consumers", "4.4M", 2.06, false]];
+    const by = 2.45, bh = 0.78, labw = 2.6, maxw = w - labw - 0.9;
+    P.forEach(([name, size, mult, hi], i) => {
+      const y = by + i * bh;
+      s.addText([{ text: name, options: { bold: true, color: C.text1, fontSize: 13, breakLine: true } }, { text: size + " fans", options: { color: C.text2, fontSize: 10.5 } }],
+        { x, y, w: labw, h: 0.62, margin: 0, isTextBox: true, valign: "middle" });
+      const bw = maxw * mult / 4;
+      s.addShape(S.RECTANGLE, { x: x + labw, y: y + 0.13, w: bw, h: 0.36, fill: { color: hi ? C.accent1 : "C9CFD6" }, line: { color: hi ? C.accent1 : "C9CFD6", width: 0 } });
+      s.addText(mult.toFixed(mult < 3.9 ? 2 : 1) + "x", { x: x + labw + bw + 0.1, y: y + 0.06, w: 0.8, h: 0.5, fontSize: 15, bold: true, color: hi ? C.accent2 : C.text1, margin: 0, isTextBox: true, valign: "middle" });
+    });
+    card(s, x, 6.3, w, 0.5, C.accent6, "So what");
+    s.addText([{ text: "For Adyen  ", options: { bold: true, color: C.accent2 } }, { text: "enterprise buyers and early adopters of new tech are Alpine's two strongest fan groups.", options: { color: C.text1 } }],
+      { x: x + 0.2, y: 6.3, w: w - 0.4, h: 0.5, fontSize: 11.5, margin: 0, isTextBox: true, valign: "middle" });
+  }
+  {
+    const s = content("CONTENT", "The routes", 3, "Route 2 · Partner results",
+      t("Alpine makes partnerships pay: **hosting that converts**, campaigns that travel"),
+      "Source: Alpine F1 Team presentation (2026); hosting figures: F1 Research 2023 and Businessolver, as cited by Alpine.",
+      "From Alpine's 'We ride together' and 'Business of performance' slides. Eni: 9.8M total impressions over the 2025 Imola weekend (contractual over-delivery of branding at a home race). Xbox: 6M impressions from one weekend of activations (Tony Hawk's Pro Skater 3 + 4 livery, Outernet London and Miami). Mercado Libre with Franco Colapinto: 23M total post impressions, $678K total post valuation. Race into STEM (powered by Microsoft): 10k+ students from 99 countries reached. Hosting at the Alpine Lodge: 90% of guests are more likely to do business with their host as a result; 93% leave with a better understanding of their host's business.");
+    const lw = 5.0;
+    card(s, L, 1.95, lw, 4.85, C.background2, "Hosting card");
+    await photo(s, "alpine_lodge.jpg", L, 1.95, lw, 1.75, "The Alpine Lodge in the paddock");
+    s.addText("HOSTING THAT CONVERTS: THE ALPINE LODGE", { x: L + 0.3, y: 3.85, w: lw - 0.6, h: 0.28, fontSize: 10, bold: true, charSpacing: 1, color: C.accent2, margin: 0, isTextBox: true });
+    [["90%", "of guests are more likely to do business with their host"], ["93%", "leave with a better understanding of their host's business"]].forEach(([big, lab], i) => {
+      const y = 4.25 + i * 0.9;
+      s.addText(big, { x: L + 0.3, y, w: 1.4, h: 0.75, fontSize: 32, bold: true, color: C.text1, margin: 0, isTextBox: true, valign: "middle" });
+      s.addText(lab, { x: L + 1.75, y, w: lw - 2.05, h: 0.75, fontSize: 12, color: C.text1, margin: 0, isTextBox: true, valign: "middle" });
+    });
+    s.addText("Driver meet-and-greets · engineer briefings · pit-lane walks · fine dining", { x: L + 0.3, y: 6.15, w: lw - 0.6, h: 0.45, fontSize: 10.5, color: C.text2, margin: 0, isTextBox: true, valign: "middle" });
+    const x = L + lw + 0.35, w = R - x;
+    label(s, "Campaigns that travel", x, 1.95, w);
+    const tiles = [["Eni", "9.8M", "impressions over the 2025 Imola weekend"], ["Xbox", "6M", "impressions from one weekend of activations"],
+      ["Mercado Libre × Colapinto", "23M", "post impressions, worth $678K"], ["Microsoft · Race into STEM", "10k+", "students reached in 99 countries"]];
+    const tw2 = (w - 0.25) / 2, th = 2.1;
+    tiles.forEach(([who, big, lab], i) => {
+      const tx = x + (i % 2) * (tw2 + 0.25), ty = 2.3 + Math.floor(i / 2) * (th + 0.25);
+      const dark = i === 0;
+      card(s, tx, ty, tw2, th, dark ? C.text1 : C.background2, "Result tile");
+      s.addText(who.toUpperCase(), { x: tx + 0.25, y: ty + 0.2, w: tw2 - 0.5, h: 0.3, fontSize: 10, bold: true, charSpacing: 1, color: dark ? C.accent1 : C.accent2, margin: 0, isTextBox: true });
+      s.addText(big, { x: tx + 0.25, y: ty + 0.55, w: tw2 - 0.5, h: 0.8, fontSize: 36, bold: true, color: dark ? C.background1 : C.text1, margin: 0, isTextBox: true, valign: "top" });
+      s.addText(lab, { x: tx + 0.25, y: ty + 1.38, w: tw2 - 0.5, h: 0.6, fontSize: 11.5, color: dark ? C.accent4 : C.text2, margin: 0, isTextBox: true, valign: "top" });
     });
   }
   {
@@ -1606,7 +1681,7 @@ async function build() {
       ["GlobalData", "F1 sponsorship 2020–2025 (new deals only); brands involved in F1 and their combined revenue (2026)."],
       ["Kantar", "BrandZ 2026 Most Valuable Global Brands; Strong Brands Portfolio 2006–2026; IBM and American Express spotlights; Kantar × Google 2026."],
       ["SPORTFIVE", "Team partnership network (Nov 2026): partner revenue, counts, market-cap tiers. 'Adyen – F1 Premium Experiences': 2027 calendar, Miami overview, Austin programme, off-track ideas, services. F1 partner case studies (Komatsu × Williams, HPE × Mercedes, Businessolver × Alpine). Competitor scan (not exhaustive); Airwallex × McLaren credentials."],
-      ["Rights holders", "Alpine Formula One Team, Provisional Rights Overview 2027–2029 (not legally binding). Max Verstappen × Adyen proposal, October 2026 (for discussion)."],
+      ["Rights holders", "Alpine Formula One Team: Provisional Rights Overview 2027–2029 (not legally binding) and team presentation (2026). Max Verstappen × Adyen proposal, October 2026 (for discussion)."],
       ["Adyen", "Office locations; partnership brief; 'Racing | Unified Payments' imagery and value chain."],
       ["Calculated", "Counts and sums from the sources above: 24 races, 28 offices, 34.4M fans, 56 tickets, competitor property counts, '% above next-best sport', market-cap tier shading."],
     ];
@@ -1724,7 +1799,7 @@ async function build() {
       "", `Hidden. Each remark slide follows in the next section exactly as the reviewers left it, then (where there is one) a copy of the updated slide tagged 'After'. Source: ${round.source}.`);
     s.hidden = true;
     const head = (txt, o = {}) => hc(txt, { fontSize: 10, ...o });
-    const rows = [[head(`${round.label} slide`, { align: "center" }), head("Remark"), head("What we changed"), head("In Deck 8", { align: "center" })],
+    const rows = [[head(`${round.label} slide`, { align: "center" }), head("Remark"), head("What we changed"), head("In Deck 9", { align: "center" })],
       ...round.items.map((it) => {
         const done = it.after !== null;
         return [
