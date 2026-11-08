@@ -1,6 +1,6 @@
 # Adyen × F1: the conversation with Mark (Chairman deck 11)
 
-**What this is.** A full script for walking Mark through the deck in person, so he can take the case to Peter. It's written to be said, as a conversation. Say it your way. Lines in *italics* are cues. **Ask Mark** marks the points where you stop and let him talk. **Where it's from** tells you which source to name if he asks.
+**What this is.** A full script for walking Mark through the deck in person, so he can take the case to Peter. It's written to be said, as a conversation. Say it your way. Lines in *italics* are cues. **Remember** is the one line to hold on to. **Ask Mark** marks the points where you stop and let him talk. **Where it's from** tells you which source to name if he asks.
 
 **The thread.** We're not selling marketing rights. We're showing how F1, as a platform, can work for Adyen's business. Success isn't a logo on a car; it's an integrated partnership that starts with Adyen running payments inside a team's or Max's business.
 
@@ -34,15 +34,19 @@ Our hypothesis, in one sentence: an F1 partnership can build Adyen's global bran
 
 ## 3 · Competitive landscape ★
 
-Here's where the payments industry already sits in sport. This is SPORTFIVE's own scan, and it isn't exhaustive, but it shows the shape. Each dot is one property: a club, a league, a venue, an event.
+**Remember:** 32 deals. 2 in F1. None of them Adyen's.
 
-Seven of your competitors hold 32 properties between them. Football has 11, the US leagues 12. Formula 1 has two: Stripe with Mercedes, and Airwallex with McLaren.
+Each dot is a sports deal held by one of Adyen's payment competitors. Seven companies, 32 deals.
 
-And the bottom row is Adyen today: payments partner to FC Bayern and Legia Warsaw. Football only, nothing in F1.
+Football and the US leagues are crowded. F1 has just two: Stripe with Mercedes, Airwallex with McLaren.
 
-Two insights. First, F1 is the least crowded arena in sport for payments. Second, it's always on: ten racing months a year, March to December, across five continents. Football and the US leagues come in matchday bursts, so the story you can tell there is seasonal. In F1 you can tell it every week.
+And Adyen? FC Bayern and Legia Warsaw. Football only.
 
-**Ask Mark:** FC Bayern runs on Adyen. What has that partnership delivered for you, and what hasn't it? That tells us what F1 needs to do differently.
+So F1 is open. And unlike football, it's on ten months a year, not just on matchdays.
+
+**Where it's from:** SPORTFIVE's own competitor scan; Adyen's row from public announcements.
+
+**Ask Mark:** FC Bayern runs on Adyen. What has it delivered for you, and what hasn't it?
 
 ## 4 · Why F1, at a glance ★
 
@@ -66,25 +70,31 @@ What we'd want you to take to Peter isn't "pick a contract". It's agreement that
 
 ## 6 · The audience ★
 
-This is GWI data. We compared five sports on five audiences that matter to Adyen: high earners, business owners, senior decision-makers, people at large companies, and early tech adopters. F1 comes first on all five.
+**Remember:** Five audiences. F1 wins all five.
 
-Two stand out. Early tech adopters: F1's index is 238, 31% ahead of the next-best sport. Senior decision-makers: 167, 12% ahead.
+We compared five sports on the five audiences Adyen sells to. F1 comes first on every one.
 
-Here's why that matters for Adyen specifically. You sell to two people at once: the enterprise buyer who signs the contract, and the consumer whose behaviour decides whether a new way to pay takes off. F1 over-indexes on both, in the same audience. Few sports give you that.
+Two stand out. Early tech adopters: 31% ahead of the next sport. Senior decision-makers: 12% ahead.
 
-**Where it's from:** GWI. An index of 100 is the general population, so 238 means early tech adopters are more than twice as common among F1 fans.
+That's both halves of Adyen's business in one audience: the person who signs the contract, and the person who tries a new way to pay first.
 
-**Ask Mark:** Which buyer is hardest for Adyen to reach today: the CFO, the CTO, or the head of ecommerce?
+**Where it's from:** GWI. An index of 100 is the general population.
+
+**Ask Mark:** Which buyer is hardest for Adyen to reach today?
 
 ## 7 · Footprint ★
 
-F1 goes where Adyen does business. On the left, your 28 offices next to the 24 races on the 2027 calendar, region by region. Every region with an Adyen office has a race, except India.
+**Remember:** Where Adyen has offices, F1 has races. India is the exception.
 
-On the right, GWI data again: 457 million F1 fans live in your 22 office markets, up a third since 2022, and 13 of those markets host a race.
+28 offices, 24 races. Every region with an Adyen office has a Grand Prix, except India.
 
-Look at where it's growing. India has 117 million fans and nearly doubled in four years, without a Grand Prix. The US is up 74%. Japan is up 41%. F1 is growing fastest in some of the markets Adyen most wants to win.
+457 million fans live in your office markets, up a third since 2022.
 
-**Ask Mark:** Which markets are on Peter's growth list for the next three years? We'd map the races and the hosting to those first.
+And F1 is growing fastest where you want to grow: India nearly doubled, the US is up 74%, Japan up 41%.
+
+**Where it's from:** GWI for fans by market; the 2027 F1 calendar; Adyen's office list.
+
+**Ask Mark:** Which markets are on Peter's growth list?
 
 ## 9 · Business leader network ★
 
@@ -98,29 +108,33 @@ Five of the Magnificent Seven are in this room. For Adyen this isn't an audience
 
 ## 10 · Brand value ★
 
-Now, why brand matters commercially, because Peter will rightly ask what "brand" is worth. This is Kantar's work.
+**Remember:** Brand isn't a cost. It's an asset that beats the market.
 
-On the left is Kantar's 2026 BrandZ list of the hundred most valuable brands. The ones boxed in green are involved in F1, and there are a lot of them.
+The green boxes are the brands in Kantar's top 100 that are involved in F1. There are a lot of them.
 
-Top right: Kantar tracks a portfolio of the strongest brands. Over twenty years it returned 504%, against 451% for the S&P 500 and 234% for the MSCI World.
+Over twenty years, Kantar's strongest brands returned 504%. The S&P 500 returned 451%.
 
-Bottom right is the newer finding, from Kantar and Google, on European companies. They measured what they call Future Power: how well a brand is set up to grow. Index their performance at 100 in 2019. By 2025, the portfolio of brands with strong Future Power stood at 265. The stock market stood at 172, and brands with weak Future Power at 144. Kantar's summary: higher returns, faster recovery, and 2.3 times the stock-market performance of the STOXX Europe 600.
+And brands built for the future did 2.3 times better than the stock market.
 
-The point for Peter: brand isn't a marketing cost. Kantar's data says it's a financial asset that compounds.
+**Where it's from:** Kantar BrandZ 2026, the annual ranking of the world's most valuable brands; the second finding is Kantar with Google.
 
-**Where it's from:** Kantar BrandZ, the brand-value ranking Kantar publishes every year. It combines company financials, using data from S&P Capital IQ and Euromonitor, with Kantar's own consumer research.
+**Ask Mark:** Does Peter see brand as a cost or as an asset?
 
-## 11 · Brand spotlights: IBM and American Express ★
+## 11 · IBM and American Express ★
 
-Two examples from Kantar's 2026 report that are very close to Adyen's world.
+**Remember:** IBM sells trust. Amex sells experiences. Neither sells transactions.
 
-IBM is worth $150.8 billion as a brand, up 20% on last year and up from $86 billion in 2019. Kantar's explanation: IBM is trusted to handle the hardest, riskiest problems in business, built on long relationships with its biggest enterprise customers, and that helps it secure volume and margin. IBM is one of Ferrari's top three partners.
+IBM's brand is worth $150.8 billion, up 20%, because enterprises trust it with their hardest problems. It's one of Ferrari's top partners.
 
-American Express is the one to remember. It's worth $80.3 billion, up 22% on last year, and Kantar says it doubled its brand value since 2024, significantly outperforming the other payment brands in the ranking. How? In Kantar's words, by acting as "a curator of experiences, as opposed to just a facilitator of transactions". Rather than sponsoring from the sidelines, Amex unlocks priority access.
+American Express doubled its brand value since 2024, well ahead of the other payment brands in Kantar's ranking.
 
-That's the lesson for Adyen. The fastest-growing payment brand in Kantar's ranking didn't grow through transactions. It grew through experiences. And our team's analysis is that both IBM and Amex posted their biggest brand-value gains in the year they entered F1.
+Kantar's explanation: Amex acts as "a curator of experiences, as opposed to just a facilitator of transactions".
 
-**Ask Mark:** If Peter described Adyen's brand in one word today, what would it be? And what would you want it to be in three years?
+That's the opening for Adyen. The fastest-growing payment brand grew through experiences, and F1 is where you create them.
+
+**Where it's from:** Kantar BrandZ 2026 brand spotlights.
+
+**Ask Mark:** If Peter described Adyen's brand in one word today, what would it be?
 
 ## 12 · F1 pays for itself ★
 
@@ -158,23 +172,29 @@ And McLaren, with 57 partners, more than any team on the grid, shows you how har
 
 ## 16 · Adyen wouldn't be following ★
 
-So, are we asking Adyen to follow its competitors into F1? No. Look at where they sit.
+**Remember:** They're behind the scenes. Adyen would be in front of the fans.
 
-Stripe partners Mercedes. Airwallex runs McLaren's supplier payments, behind the scenes. Useful, but invisible to fans.
+Stripe partners Mercedes. Airwallex pays McLaren's suppliers. Fans never see either.
 
-Adyen's seat would be different: the commerce fans actually see and use, live at the races. Alpine's team store. Verstappen Travel's tickets. Tap to Pay at Max's trackside trailers.
+Adyen's seat is the commerce fans do see: Alpine's store, Max's tickets, Tap to Pay at the track.
 
-That's not following anyone. It's your product working in real time, in front of fans and clients, which is exactly why the best brands are in F1.
+That's not following competitors. That's taking the seat they left open.
 
-**Ask Mark:** How would Peter react to "Adyen joins Stripe and Airwallex in F1"? We want to make sure the story he hears is "Adyen takes the seat they didn't".
+**Ask Mark:** How would Peter react to the headline "Adyen joins Stripe and Airwallex in F1"? We want him to hear "Adyen takes the seat they didn't".
 
 ## 18 · We've done this before
 
-And we know this playbook, because we built it. SPORTFIVE took Airwallex and McLaren from first idea to board decision.
+**Remember:** Diagnose, design, deliver: idea to board decision.
 
-We diagnosed the gap: enterprises didn't know Airwallex well enough. We mapped the B2B opportunity in F1, positioned Airwallex against other fintechs, built the evaluation model and modelled the investment. Then we built an enterprise-focused rights package, structured the deal for access to McLaren's network, and supported the board decision.
+We took Airwallex and McLaren from first idea to a board decision.
 
-That's the process we'd run with you. *If Bjorn is there, hand to him: "Bjorn was close to this one."*
+Diagnose: we found the gap. Enterprises didn't know Airwallex well enough.
+
+Design: we built the business case and modelled the investment.
+
+Deliver: we built the rights package and structured the deal, right through to the board.
+
+It's the same process we'd run with you. *If Bjorn is there, hand to him: "Bjorn was close to this one."*
 
 ## 19 · Proof of concept: Airwallex × McLaren ★
 
