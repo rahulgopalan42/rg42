@@ -192,6 +192,8 @@ That's not following anyone. It's Adyen's product working in real time, in front
 
 **Ask Mark:** How would Peter react to the headline "Adyen joins Stripe and Airwallex in F1"? We want the story he hears to be "Adyen takes the seat they didn't".
 
+*If Mark says Peter won't want Adyen seen next to Stripe and Airwallex:* "Fair, and that's exactly why we wouldn't put Adyen next to them. They're already in F1; staying out doesn't remove them, it just means your customers only see them. Inside a team each partner owns its category, and Alpine is offering Adyen exclusivity, so no rival can be there. And it's a different job: they're a logo or a back office, Adyen would be what fans actually pay through." The full answer is in the questions at the end.
+
 ## 17 · We've done this before
 
 **Remember:** Diagnose, design, deliver: we took Airwallex from first idea to board decision.
@@ -413,8 +415,12 @@ Honest answer: modest, and it isn't the headline. Max's ticketing volumes are on
 **"Why not just do more football?"**
 For volume alone, football is cheaper and more accessible. But it's crowded with your competitors, it's seasonal, and it doesn't put Adyen in a room with this calibre of buyer every race weekend for ten months.
 
-**"Aren't we just following Stripe and Airwallex?"**
-No. They're behind the scenes or on a logo. Adyen's seat is the commerce fans see, live at the races (slide 15).
+**"Peter won't want Adyen seen in the same space as Stripe and Airwallex."**
+Agree with the instinct, then show why it doesn't apply. "That's fair, and it's exactly why we wouldn't put Adyen next to them. Three points. One: they're already in F1. Staying out doesn't remove them; it just means your customers only see them there. Two: Adyen wouldn't share their space. Inside a team, each partner owns its category. Stripe is at Mercedes, Airwallex at McLaren, and Alpine is offering Adyen exclusivity as its Financial Technology Platform Partner, so no rival can be there. Three: it's a different job. Stripe is a partner logo; Airwallex runs McLaren's supplier payments where fans never see it. Adyen would run what fans actually touch: the team store, the tickets, Tap to Pay at the track. And you already live with this in football: Adyen powers FC Bayern while PayPal, Shift4 and Ant International hold deals elsewhere in the sport. Sharing a sport has never meant sharing a stage."
+
+**"So how does Adyen stand out?"**
+Five ways, all in the deck. Be visible: live commerce at the races, not a logo. Be exclusive: category exclusivity at Alpine, and ask for payments exclusivity in Max's package, which is non-exclusive as drafted. Be the case study: publish live results, the way Anderlecht's 36.6% rise in food and drink revenue already works for you. Own a story: from pit lane to checkout, one platform online and at the circuit. And host your own way: one global programme, to one Adyen standard. Remember the Kantar point: American Express outgrew the other payment brands by curating experiences, not transactions.
+
 
 **"How does this pay for itself?"**
 Through hospitality and pipeline: one programme replacing today's market-by-market hosting, and the deals that close in those rooms. Komatsu, HPE and Businessolver have measured it (say it, don't show it).
