@@ -170,11 +170,17 @@ When you partner a team, its partners become people you can do business with. Th
 
 At Alpine, that's 49 partners with $390 billion in revenue, led by Boeing, Eni and Renault, and Gucci joins as title partner in 2027. At Ferrari, 42 partners with $568 billion: Shell, IBM and HP at the top.
 
-Every one of those companies takes payments somewhere. The team makes the introductions; Alpine's offer even includes a forum built for exactly that.
+Every one of those companies takes payments somewhere. The team makes the introductions, and Alpine's offer goes a step further, with something it calls the One Platform Partner Forum.
+
+It's a recurring business forum. Alpine brings together relevant companies from its partner network with Adyen's experts, Adyen's customers and invited enterprise leaders. The sessions are built around shared problems: payments, unified commerce, customer experience and international expansion. So it isn't a sales pitch dressed up as an event. It's a room of peers talking about problems Adyen solves, with Adyen's own experts in it.
+
+To be precise about what it is: Alpine facilitates the introductions; it doesn't guarantee any partner will buy, or oblige anyone to talk commercially. The value is warm, credible access to companies like Boeing, Eni and Renault, through a team they already trust.
 
 And McLaren, with 57 partners, more than any team on the grid, shows you how hard teams are selling. Under the budget cap, commercial growth is where they build value, and that works in a partner's favour.
 
-**Ask Mark:** Look at Alpine's and Ferrari's lists. Which three would you call first?
+**Where it's from:** Alpine F1 Team, Provisional Rights Overview 2027–2029 (the One Platform Partner Forum, in its marketing framework).
+
+**Ask Mark:** Look at Alpine's and Ferrari's lists. Which three would you call first, and which Adyen experts would you put in that forum?
 
 ## 16 · Adyen wouldn't be following ★
 
