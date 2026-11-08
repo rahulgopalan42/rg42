@@ -36,7 +36,7 @@ Our hypothesis, in one sentence: an F1 partnership can build Adyen's global bran
 
 ## 3 · Competitive landscape ★
 
-**Remember:** 32 deals, only 2 in F1, none of them Adyen's. F1 is open, and it's always on.
+**Remember:** 32 deals, only 2 in F1, none of them Adyen's. Seeing Stripe there doesn't mean the door is closed; it means the category is proven.
 
 Here's where the payments industry already sits in sport. It's SPORTFIVE's own scan; not exhaustive, but it shows the shape. Each dot is one deal: a club, a league, a venue, an event.
 
@@ -44,11 +44,23 @@ Seven of your competitors hold 32 between them. Football has 11, the US leagues 
 
 The bottom row is Adyen today: payments partner to FC Bayern and Legia Warsaw. Football only. Nothing in F1.
 
-Two things to take from it. First, F1 is the least crowded arena in sport for payments. Second, it's always on. Football and the US leagues come in matchday bursts. F1 runs ten months a year, March to December, on five continents. That's a story Adyen can tell every week, not every other weekend.
+Two things to take from the chart. F1 is the least crowded arena in sport for payments. And it's always on: football and the US leagues come in matchday bursts, while F1 runs ten months a year, March to December, on five continents. That's a story Adyen can tell every week, not every other weekend.
 
-**Where it's from:** SPORTFIVE's competitor scan; Adyen's row from public announcements.
+Now, the natural reaction is: "Stripe's already there." Here's how we'd read it.
+
+Seeing Stripe doesn't mean the category is taken. Categories are owned team by team, not across the sport. In our scan, only two of the eleven teams have one of your competitors as a partner. And Alpine is offering Adyen exclusivity in its category, so no rival can sit next to you there.
+
+It doesn't make Adyen a follower, either. Two of your competitors chose F1 because the B2B case works; that's validation, not a reason to stay away. And arriving second has an advantage: you see what they did, and you pick a better seat.
+
+And it isn't the same job. Airwallex runs McLaren's supplier payments, out of sight. Adyen's seat would be the commerce fans actually touch: the team store, the tickets, Tap to Pay at the track. You already live with this in football: Adyen powers FC Bayern while PayPal, Shift4 and Ant International hold deals elsewhere in the sport. Sharing a sport has never meant sharing a stage.
+
+So the smart moves are simple. Take the seat they didn't: fan-facing commerce. Lock in exclusivity. Compete on proof, not logos: a live case study. And tell a story that's Adyen's own: from pit lane to checkout, one platform online and at the circuit.
+
+**Where it's from:** SPORTFIVE's competitor scan; Adyen's row from public announcements; exclusivity from Alpine's proposal.
 
 **Ask Mark:** FC Bayern runs on Adyen. What has that partnership delivered for you, and what hasn't it? That tells us what F1 needs to do differently.
+
+**Ask Mark:** If Peter's first reaction is "Stripe's already there", what would reassure him most: exclusivity, a different role, or the results we can prove?
 
 ## 4 · Why F1, at a glance ★
 
