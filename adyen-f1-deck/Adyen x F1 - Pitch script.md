@@ -62,6 +62,8 @@ Second, the number that matters most for a B2B business isn't the audience, it's
 
 **Where it's from:** GWI for audiences and followers, GlobalData for brands and deals, SPORTFIVE for the partner network.
 
+*If he asks what kind of data this is: "Independent, third-party research, not our own numbers: GWI for audiences, GlobalData for deals, and later Kantar for brand value. None of it was commissioned for this pitch." The fuller answers are in the data section at the end.*
+
 ## 5 · Executive summary: three routes ★
 
 So how does Adyen get in? There are three routes, and two already have proposals on the table.
@@ -370,6 +372,20 @@ Six steps from here. Your review with Peter. Your feedback, including on the hos
 
 ## If Mark asks where the data comes from
 
+**If he asks "what kind of data is this?", the short answer:**
+
+"It's independent, third-party research, not our own numbers. The audience data comes from GWI and the brand-value data from Kantar. None of it was commissioned for this pitch: it's subscription research and published reports that brands, agencies and investors use every day to make decisions. Where a number is ours, like the partner network or the competitor scan, we say so on the slide. And the team and driver figures come from the rights holders' own materials."
+
+**If he asks "what's GWI?":**
+
+"GWI is a global consumer research company. It surveys internet users around the world, in regular waves, on what they do, buy, watch and follow. That's what lets us compare F1 fans with tennis or football fans on exactly the same questions. The numbers are indexed: 100 is the general population, so an index of 238 means that group is more than twice as common among F1 fans."
+
+**If he asks "what's Kantar?":**
+
+"Kantar is one of the world's largest marketing research and data companies. Every year its BrandZ report puts a dollar value on the world's most valuable brands. It combines each company's financial results, using data from S&P Capital IQ and Euromonitor, with research into how consumers see the brand. So when we say a brand is worth $150 billion, that's Kantar's valuation, not ours."
+
+**In more detail, source by source:**
+
 **GWI.** A global consumer research company that runs large online surveys of internet users. We use it for F1's audience size and growth, how F1 fans compare with other sports, and fans by market. An index of 100 equals the general population.
 
 **GlobalData.** A data and analytics company that tracks sponsorship deals and company financials. We use it for the value and number of new F1 sponsorship deals (new deals only, not renewals) and for the brands involved in F1 and their revenue.
@@ -387,6 +403,9 @@ Six steps from here. Your review with Peter. Your feedback, including on the hos
 ---
 
 ## Questions Mark may ask, and how to answer
+
+**"What kind of data is this?"**
+Independent, third-party research: GWI for audiences, Kantar for brand value, GlobalData for sponsorship deals. None of it was commissioned for this pitch. Where a number is ours, the slide says so; team and driver figures are from the rights holders. (Full answers, including what GWI and Kantar are, in the section above.)
 
 **"What's the payment volume?"**
 Honest answer: modest, and it isn't the headline. Max's ticketing volumes are on request. The value is the case study, the hosting and the network.
