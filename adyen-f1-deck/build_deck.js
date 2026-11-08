@@ -15,7 +15,7 @@ process.env.NODE_PATH = [path.join(__dirname, "node_modules"), process.env.NODE_
 require("module").Module._initPaths();
 const { applyTheme } = require(SKILL + "/scripts/apply_theme.js");
 
-const OUT = process.argv[2] || "Adyen x F1 - Chairman deck 10.pptx";
+const OUT = process.argv[2] || "Adyen x F1 - Chairman deck 11.pptx";
 const A = (f) => path.join(__dirname, "assets", f);
 
 // ------------------------------------------------------------------ brand
@@ -160,7 +160,30 @@ async function defineLayouts() {
 }
 
 // ------------------------------------------------------------------ helpers
-// slides without data: no source line on the slide (kept in the notes)
+// Short source lines, in the team deck's style ("Source: GWI, Global Data."), on slides that show data only.
+// Every other slide carries no source line; the full source text always goes into the speaker notes.
+const SHORT_SOURCE = {
+  "Competitive landscape": "Source: SPORTFIVE; Adyen.",
+  "Why F1, at a glance": "Source: GWI; GlobalData; SPORTFIVE.",
+  "Audience": "Source: GWI.",
+  "Footprint": "Source: GWI; F1; Adyen.",
+  "Growth": "Source: GWI; GlobalData.",
+  "Business leader network": "Source: GlobalData (2026).",
+  "Brand value": "Source: Kantar BrandZ 2026; Kantar × Google 2026.",
+  "Brand spotlights": "Source: Kantar BrandZ 2026.",
+  "F1 pays for itself": "Source: SPORTFIVE.",
+  "Proof from F1 partners": "Source: partner case material (SPORTFIVE).",
+  "Team partnership network": "Source: team websites (Nov 2026); companiesmarketcap.com.",
+  "How a payments peer uses F1": "Source: Airwallex.",
+  "Proof of concept": "Source: Airwallex.",
+  "Route 2 · Alpine F1 Team": "Source: Alpine F1 Team.",
+  "Route 2 · Alpine audience": "Source: GWI Core; Nielsen & Blinkfire Analytics (via Alpine F1 Team).",
+  "Route 2 · Partner results": "Source: Alpine F1 Team; F1 Research 2023; Businessolver.",
+  "Route 3 · Scuderia Ferrari": "Source: team websites (Nov 2026); GWI.",
+  "Backup · Fans in finance": "Source: GWI (2026).",
+  "Backup · Adyen markets": "Source: GWI; Adyen.",
+  "Backup · Competitors in sport": "Source: SPORTFIVE.",
+};
 const NO_SOURCE = new Set(["SPORTFIVE credentials", "Business integration", "Overview", "Route 1 · Business opportunity",
   "Route 1 · Rights package", "Route 1 · Hospitality bundle", "Route 2 · Business opportunity", "Route 2 · Rights overview", "Next steps", "The category", "Change log"]);
 function content(master, section, track, eyebrow, title, source, notes) {
@@ -179,13 +202,10 @@ function content(master, section, track, eyebrow, title, source, notes) {
   // Sources show on the slide only where it carries data (audience, fans, partner and market figures);
   // everywhere else the source moves to the speaker notes.
   const x = master === "CONTENT_PHOTO" ? 5.35 : L;
-  if (source && !NO_SOURCE.has(eyebrow)) {
-    s.addText(source, { x, y: 6.98, w: 10.6 - x, h: 0.24, fontSize: 9, color: C.accent3, margin: 0, valign: "middle", isTextBox: true,
-      objectName: "Source" });
-    if (notes) s.addNotes(notes);
-  } else {
-    s.addNotes([notes, source].filter(Boolean).join("\n"));
-  }
+  const short = SHORT_SOURCE[eyebrow];
+  if (short) s.addText(short, { x, y: 6.98, w: 10.6 - x, h: 0.24, fontSize: 9, color: C.accent3, margin: 0, valign: "middle", isTextBox: true,
+    objectName: "Source" });
+  s.addNotes([notes, source].filter(Boolean).join("\n"));
   return s;
 }
 
@@ -426,7 +446,7 @@ const CHANGES = require(path.join(__dirname, "reviewed", "changes.json"));
 const ROUTE_NAMES = ["Max Verstappen", "Alpine F1 Team", "Scuderia Ferrari"];
 
 // ------------------------------------------------------------------ slides
-// Deck 10: 32 visible slides (four hidden at the reviewers' request), no dividers; the tracker at the top right shows the section.
+// Deck 11: 33 visible slides, no dividers; the tracker at the top right shows the section.
 async function build() {
   await defineLayouts();
 
@@ -738,12 +758,12 @@ async function build() {
     await fit(s, "mag7_logos.png", x + 2.9, 5.5, w - 2.9, 0.9, "Meta, Google, Amazon Web Services, Microsoft and Apple logos");
   }
 
-  // Brand value (team deck slides 38-39)
+  // Brand value (team deck slides 38-39): Kantar evidence that strong brands are a financial asset
   {
     const s = content("CONTENT", "Why F1", 0, "Brand value",
-      t("The strongest brands **outperform the market**, and many of them race in F1"),
-      "Source: Kantar BrandZ 2026 (Top 100, Strong Brands Portfolio, brand spotlights); Kantar × Google 2026. F1 involvement marked by SPORTFIVE.",
-      "Left: Kantar BrandZ 2026 Top 100, with the brands the team identified as involved in F1 boxed. IBM and American Express: the team's analysis is that both posted their biggest brand-value increase in the year they entered F1 partnerships.");
+      t("Strong brands are a financial asset: they **outperform the market**, and many race in F1"),
+      "Source: Kantar BrandZ 2026 (Top 100, Strong Brands Portfolio); Kantar × Google 2026 (European companies). F1 involvement marked by SPORTFIVE.",
+      "Left: Kantar BrandZ 2026 Top 100 (Kantar, including data from S&P Capital IQ and Euromonitor), with the brands the team identified as involved in F1 boxed. Top right: Kantar Strong Brands Portfolio vs S&P 500 and MSCI World, 2006–2026. Bottom right: Kantar × Google 2026, European companies, portfolio performance index (2019 = 100) by 2025: brands with weak Future Power 144, the stock market 172, brands with strong Future Power 265; Kantar's summary: higher returns, faster recovery and better stock market performance, 2.3x vs STOXX Europe 600.");
     const box = await fit(s, "kantar_list.png", L, 1.85, 4.45, 4.95, "Kantar BrandZ 2026 Top 100 list", "left");
     const top = 25 / 1100, pitch = 18.714 / 1100;
     for (const [a, b] of KANTAR_GROUPS) {
@@ -757,28 +777,70 @@ async function build() {
     s.addShape(S.RECTANGLE, { x, y: 1.93, w: 0.3, h: 0.18, fill: { color: C.accent1, transparency: 88 }, line: { color: C.accent1, width: 1.25 } });
     s.addText("Kantar Top 100 brand involved in F1", { x: x + 0.42, y: 1.88, w: w - 0.42, h: 0.28, fontSize: 10.5, color: C.text2, margin: 0, isTextBox: true, valign: "middle" });
     card(s, x, 2.3, w, 1.75, C.text1, "Returns card");
-    label(s, "Performance, 2006–2026", x + 0.3, 2.45, w - 0.6, C.accent1);
+    label(s, "Strong brands vs the market, 2006–2026", x + 0.3, 2.45, w - 0.6, C.accent1);
     const rets = [["504%", "Kantar Strong Brands Portfolio", true], ["451%", "S&P 500", false], ["234%", "MSCI World", false]];
     const rw = (w - 0.6) / 3;
     rets.forEach(([big, lab, on], i) => stat(s, x + 0.3 + i * rw, 2.8, rw - 0.15, big, lab,
       { size: on ? 34 : 28, color: on ? C.accent1 : C.background1, capColor: C.accent4, capSize: 11 }));
-    const cards = [["2.3x", "stock-market performance vs the STOXX Europe 600, for the brands with the strongest future power"],
-      ["IBM · $150.8B", "brand value, +20% vs 2025. Ferrari partner"], ["AmEx · $80.3B", "brand value, +22% vs 2025. Involved in F1"]];
-    const cw = (w - 0.4) / 3;
-    cards.forEach(([big, lab], i) => {
-      const cx = x + i * (cw + 0.2);
-      card(s, cx, 4.25, cw, 1.6);
-      s.addText(big, { x: cx + 0.2, y: 4.38, w: cw - 0.4, h: 0.45, fontSize: 17, bold: true, color: C.text1, margin: 0, isTextBox: true, valign: "top" });
-      s.addText(lab, { x: cx + 0.2, y: 4.85, w: cw - 0.4, h: 0.9, fontSize: 10.5, color: C.text2, margin: 0, isTextBox: true, valign: "top" });
+    card(s, x, 4.2, w, 2.6, C.background2, "Future Power card");
+    label(s, "Brands built for the future grow fastest", x + 0.3, 4.35, w - 0.6, C.accent2);
+    s.addText("Portfolio performance, 2019 = 100 → 2025 (European companies)", { x: x + 0.3, y: 4.62, w: w - 0.6, h: 0.26, fontSize: 9.5, color: C.text2, margin: 0, isTextBox: true });
+    const bars = [["Weak Future Power", 144, false], ["Stock market", 172, false], ["Strong Future Power", 265, true]];
+    const bx = x + 2.15, bmax = w - 2.15 - 0.95;
+    bars.forEach(([lab, v, on], i) => {
+      const by = 4.98 + i * 0.42;
+      s.addText(lab, { x: x + 0.3, y: by, w: 1.8, h: 0.32, fontSize: 10.5, bold: on, color: C.text1, margin: 0, isTextBox: true, valign: "middle" });
+      s.addShape(S.RECTANGLE, { x: bx, y: by + 0.05, w: bmax * v / 265, h: 0.22, fill: { color: on ? C.accent1 : "C9CFD6" }, line: { color: on ? C.accent1 : "C9CFD6", width: 0 } });
+      s.addText(String(v), { x: bx + bmax * v / 265 + 0.08, y: by, w: 0.6, h: 0.32, fontSize: 12, bold: true, color: on ? C.accent2 : C.text1, margin: 0, isTextBox: true, valign: "middle" });
     });
-    soWhat(s, "IBM and American Express both posted their **biggest brand-value gains the year they entered F1**.", 6.05, x, w);
+    s.addText([{ text: "2.3x  ", options: { bold: true, color: C.accent2, fontSize: 15 } }, { text: "the market's growth, for the brands with the strongest Future Power", options: { color: C.text1, fontSize: 11 } }],
+      { x: x + 0.3, y: 6.28, w: w - 0.6, h: 0.42, margin: 0, isTextBox: true, valign: "middle" });
+  }
+
+  // Brand spotlights (Kantar BrandZ 2026): what IBM and American Express did, and the lesson for Adyen
+  {
+    const s = content("CONTENT", "Why F1", 0, "Brand spotlights",
+      t("IBM and American Express: brand value built on **trust and experiences**, not transactions"),
+      "Source: Kantar BrandZ 2026 brand spotlights (IBM; American Express).",
+      "Kantar BrandZ 2026. IBM: brand value $150,760M in 2026, +20% vs 2025, up from $86,005M in 2019; founded 1911; Kantar: long-standing relationships with its biggest enterprise customers have earned it the right to handle the hardest, riskiest problems in business; its Meaningful Difference among its business audience has gone from strength to strength, helping to secure volume and margin; US brand equity growth: Different 123 to 135, Meaningful 125 to 129. American Express: $80,316M in 2026, +22% vs 2025, up from $39,720M; Kantar: doubled its brand value since 2024, significantly outperforming other payment brands in the ranking; built strong audience connections by acting as a curator of experiences, as opposed to just a facilitator of transactions; rather than sponsoring from the sidelines, Amex unlocks priority access. F1 links: IBM is one of Ferrari's top three partners (SPORTFIVE partner data); the team's analysis is that IBM and American Express both posted their biggest brand-value increase in the year they entered F1 partnerships.");
+    const cw = (CW - 0.3) / 2, y = 1.9, h = 4.15;
+    const spots = [
+      { name: "IBM", sub: "Business technology · Ferrari partner", big: "$150.8B", grow: "+20% vs 2025 · $86.0B in 2019",
+        how: "Trusted to handle the hardest, riskiest problems in business",
+        pts: ["Long-standing relationships with its biggest enterprise customers", "Meaningful Difference with its business audience keeps rising", "Kantar: this helps secure volume and margin"] },
+      { name: "American Express", sub: "Payments · involved in F1", big: "$80.3B", grow: "+22% vs 2025 · doubled since 2024",
+        how: "“A curator of experiences, as opposed to just a facilitator of transactions”",
+        pts: ["Significantly outperforming other payment brands in the ranking", "Rather than sponsoring from the sidelines, unlocks priority access", "Makes live culture feel attainable, exclusive and rewarding"], dark: true },
+    ];
+    const check = await icon("FiCheck", "0ABF53");
+    spots.forEach((sp, i) => {
+      const x = L + i * (cw + 0.3);
+      card(s, x, y, cw, h, sp.dark ? C.text1 : C.background2, "Spotlight card");
+      s.addText([{ text: sp.name, options: { bold: true, fontSize: 20, color: sp.dark ? C.background1 : C.text1, breakLine: true } },
+        { text: sp.sub, options: { fontSize: 10.5, color: sp.dark ? C.accent4 : C.text2 } }],
+      { x: x + 0.3, y: y + 0.22, w: cw - 2.6, h: 0.75, margin: 0, isTextBox: true, valign: "top" });
+      s.addText([{ text: sp.big, options: { bold: true, fontSize: 26, color: sp.dark ? C.accent1 : C.accent2, breakLine: true } },
+        { text: sp.grow, options: { fontSize: 9.5, color: sp.dark ? C.accent4 : C.text2 } }],
+      { x: x + cw - 2.55, y: y + 0.18, w: 2.3, h: 0.85, margin: 0, isTextBox: true, valign: "top", align: "right" });
+      s.addShape(S.LINE, { x: x + 0.3, y: y + 1.12, w: cw - 0.6, h: 0, line: { color: sp.dark ? C.accent5 : C.accent4, width: 0.75 } });
+      s.addText(sp.how, { x: x + 0.3, y: y + 1.25, w: cw - 0.6, h: 0.8, fontSize: 15, bold: true, color: sp.dark ? C.background1 : C.text1, margin: 0, isTextBox: true, valign: "top" });
+      sp.pts.forEach((pt, k) => {
+        const py = y + 2.2 + k * 0.6;
+        s.addImage({ data: check, x: x + 0.3, y: py + 0.04, w: 0.2, h: 0.2 });
+        s.addText(pt, { x: x + 0.62, y: py, w: cw - 0.92, h: 0.55, fontSize: 11.5, color: sp.dark ? C.accent4 : C.text1, margin: 0, isTextBox: true, valign: "top" });
+      });
+    });
+    card(s, L, 6.2, CW, 0.6, C.accent6, "Lesson");
+    s.addText([{ text: "For Adyen  ", options: { bold: true, color: C.accent2 } },
+      { text: "the fastest-growing payment brand in Kantar's ranking grew through experiences, not transactions. Both brands, in the team's analysis, posted their biggest gain the year they entered F1.", options: { color: C.text1 } }],
+    { x: L + 0.25, y: 6.2, w: CW - 0.5, h: 0.6, fontSize: 11.5, margin: 0, isTextBox: true, valign: "middle" });
   }
 
   // ================================================================ 02 Hospitality
   pres.addSection({ title: "Hospitality" });
   {
-    const s = content("CONTENT", "Hospitality", 1, "The B2B platform",
-      t("F1 hospitality turns guests into **retention, pipeline and new merchants**"),
+    const s = content("CONTENT", "Hospitality", 1, "F1 pays for itself",
+      t("Hospitality is how **F1 pays for itself**: retention, pipeline, new merchants"),
       "Source: SPORTFIVE; SPORTFIVE team partnership network (Nov 2026); F1 2027 calendar. Photos: team deck.",
       "Team deck slide 13, the ultimate B2B platform: exclusive experiences, a qualified audience and visibility with a high-value enterprise buyer universe. 371 partners: SPORTFIVE team partnership network (Nov 2026), the sum of the 11 teams' rosters. 24 race weekends: the 2027 calendar.");
     const cols = [
@@ -796,12 +858,18 @@ async function build() {
       s.addText([{ text: head, options: { bold: true, color: C.text1, fontSize: 15, breakLine: true } }, { text: body, options: { color: C.text2, fontSize: 12 } }],
         { x, y: 4.8, w: cw, h: 0.95, margin: 0, isTextBox: true, valign: "top" });
     }
-    card(s, L, 5.95, CW, 0.75, C.text1, "Stats strip");
-    const strip = [["371", "partners on the 11 teams' rosters"], ["24", "race weekends in 2027 to host clients"], ["8–10", "races in Adyen's first global programme"]];
-    const sw = CW / 3;
-    strip.forEach(([big, lab], i) => s.addText([{ text: big + "  ", options: { bold: true, color: C.accent1, fontSize: 20 } },
-      { text: lab, options: { color: C.background1, fontSize: 11.5 } }],
-    { x: L + 0.3 + i * sw, y: 5.95, w: sw - 0.4, h: 0.75, margin: 0, isTextBox: true, valign: "middle" }));
+    // how it pays back: host, convert, fund
+    const steps = [["1  Host", "24 race weekends; clients and prospects in one place"], ["2  Convert", "Decision-makers, time together: deals move faster"],
+      ["3  Fund", "Bring today's local hosting budgets into one programme"]];
+    const sw = (CW + 0.15 * 2) / 3;
+    steps.forEach(([head, sub], i) => {
+      const x = L + i * (sw - 0.15);
+      s.addShape(i === 0 ? S.PENTAGON : S.CHEVRON, { x, y: 5.95, w: sw, h: 0.75, fill: { color: i === 0 ? C.accent1 : i === 2 ? C.text1 : C.accent5 },
+        line: { color: C.background1, width: 1.5 } });
+      s.addText([{ text: head + "   ", options: { bold: true, color: i === 0 ? C.text1 : C.background1, fontSize: 13 } },
+        { text: sub, options: { color: i === 0 ? C.text1 : C.accent4, fontSize: 10.5 } }],
+      { x: x + 0.45, y: 5.95, w: sw - 0.8, h: 0.75, margin: 0, isTextBox: true, valign: "middle" });
+    });
   }
 
   // F1 partner case studies (team deck slides 22-23, incl. George's Businessolver x Alpine material)
@@ -971,6 +1039,7 @@ async function build() {
       t("Airwallex × McLaren: **run the payments, prove it, win clients**"),
       "Source: McLaren Racing modernises cross-border payments with Airwallex (Airwallex case study); SPORTFIVE (team deck: competitor scan, credentials).",
       "Challenge: McLaren Racing operates across 24 race locations with frequent international supplier payments; ~30 manual payments per run, high FX and transfer fees, 2–5 day settlement via banks and SWIFT; the cost cap makes efficiency matter. Solution: implemented in 14 days; batch payouts, approval workflows, faster cross-border transfers; suppliers paid in local currencies; integrated with banking and accounting. Results: 90% of payments within hours, 65% instantly, 110+ countries on local networks, 0.5 day a month saved, £4,000+ a year saved on transaction and FX fees.");
+    s.hidden = true; // superseded by the team's proof-of-concept slide (team deck slide 25), which follows the credentials
     await photo(s, "airwallex_carbon.jpg", L, 1.95, 2.9, 4.2, "Airwallex branding on McLaren carbon fibre");
     const x0 = L + 3.2, sw = (R - x0 - 0.5) / 3, y = 1.95, h = 4.2;
     const steps = [
@@ -1030,6 +1099,45 @@ async function build() {
       s.addText([{ text: head, options: { bold: true, color: C.background1, fontSize: 15, breakLine: true } }, { text: body, options: { color: C.accent4, fontSize: 11.5 } }],
         { x: x + 1.05, y: y - 0.05, w: w - 1.35, h: 1.1, margin: 0, isTextBox: true, valign: "top" });
     });
+  }
+
+  // Proof of concept (team deck slide 25): how Airwallex optimised McLaren's financial operations
+  {
+    const s = content("CONTENT", "Adyen in F1", 2, "Proof of concept",
+      t("Proof of concept: how Airwallex **optimised McLaren's financial operations**"),
+      "Source: Airwallex (McLaren Racing case study), as presented in the team deck.",
+      "Team deck slide 25, as presented. Business impact: by reducing payment costs, eliminating manual processes and accelerating cash movement, Airwallex helped McLaren create financial efficiencies that can be reinvested into racing performance, supporting the team's pursuit of competitive advantage on and off the track.");
+    const y = 1.9, h = 3.15, cw = 3.2;
+    const cols = [
+      ["Business challenge", ["24 race locations: frequent international supplier payments", "Highly manual: ~30 payments per run, high FX and transfer fees", "2–5 business days to settle via banks and SWIFT", "Under the cost cap, efficiency frees budget for performance"]],
+      ["Airwallex solution", ["Live in just 14 days", "Automated global payment workflows: batch payouts and approvals", "Suppliers paid in local currencies across a global network", "Integrated with banking and accounting for cash-flow control"]],
+    ];
+    cols.forEach(([head, items], i) => {
+      const x = L + i * (cw + 0.25);
+      card(s, x, y, cw, h, C.background2, "PoC column");
+      label(s, head, x + 0.25, y + 0.2, cw - 0.5, C.accent2);
+      s.addText(items.map((it, k) => ({ text: it, options: { bullet: { indent: 12 }, breakLine: k < items.length - 1, paraSpaceAfter: 5 } })),
+        { x: x + 0.25, y: y + 0.55, w: cw - 0.45, h: h - 0.7, fontSize: 11, color: C.text1, margin: 0, isTextBox: true, valign: "top" });
+    });
+    const ox = L + 2 * (cw + 0.25), ow = R - ox;
+    card(s, ox, y, ow, h, C.text1, "Outcomes");
+    label(s, "Outcomes", ox + 0.25, y + 0.2, ow - 0.5, C.accent1);
+    const outs = [["90%", "of payments arrive within hours; 65% instantly"], ["110+", "countries on local payment networks"],
+      ["0.5 day", "saved a month on payment runs"], ["£4,000+", "saved a year on transaction and FX fees"]];
+    const tw = (ow - 0.7) / 2;
+    outs.forEach(([big, lab], k) => {
+      const tx = ox + 0.25 + (k % 2) * (tw + 0.2), ty = y + 0.6 + Math.floor(k / 2) * 1.2;
+      s.addText([{ text: big, options: { bold: true, fontSize: 24, color: C.accent1, breakLine: true } }, { text: lab, options: { fontSize: 10.5, color: C.accent4 } }],
+        { x: tx, y: ty, w: tw, h: 1.1, margin: 0, isTextBox: true, valign: "top" });
+    });
+    // bottom: the photos and the business impact
+    const by = y + h + 0.2, bh = R - L;
+    await photo(s, "mclaren_champions.jpg", L, by, 3.0, 1.65, "McLaren team celebrating the 2025 Constructors' World Championship");
+    await photo(s, "airwallex_ad.jpg", L + 3.15, by, 1.65, 1.65, "McLaren × Airwallex: cross-border payments at speed");
+    card(s, L + 4.95, by, R - L - 4.95, 1.65, C.accent6, "Business impact");
+    s.addText([{ text: "BUSINESS IMPACT", options: { bold: true, color: C.accent2, fontSize: 10, charSpacing: 1, breakLine: true } },
+      { text: "Lower payment costs, no manual processes and faster cash movement: financial efficiencies McLaren can reinvest in racing performance, on and off the track.", options: { color: C.text1, fontSize: 13 } }],
+    { x: L + 5.2, y: by, w: R - L - 5.45, h: 1.65, margin: 0, isTextBox: true, valign: "middle", paraSpaceAfter: 4 });
   }
 
   // Business integration
@@ -1811,7 +1919,7 @@ async function build() {
       "", `Hidden. Each remark slide follows in the next section exactly as the reviewers left it, then (where there is one) a copy of the updated slide tagged 'After'. Source: ${round.source}.`);
     s.hidden = true;
     const head = (txt, o = {}) => hc(txt, { fontSize: 10, ...o });
-    const rows = [[head(`${round.label} slide`, { align: "center" }), head("Remark"), head("What we changed"), head("In Deck 10", { align: "center" })],
+    const rows = [[head(`${round.label} slide`, { align: "center" }), head("Remark"), head("What we changed"), head("In Deck 11", { align: "center" })],
       ...round.items.map((it) => {
         const done = it.after !== null;
         return [

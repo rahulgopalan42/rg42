@@ -54,7 +54,7 @@ for block in re.split(r"\n\s*\n", md.strip()):
             cls = ""
             if b.startswith("*") and b.endswith("*") and not b.startswith("**"):
                 cls = "cueline"
-            for key, c in (("**Ask Mark:**", "ask"), ("**Insight:**", "insight"), ("**Land it:**", "land")):
+            for key, c in (("**Ask Mark:**", "ask"), ("**Insight:**", "insight"), ("**Land it:**", "land"), ("**Where it's from:**", "insight")):
                 if b.startswith(key):
                     cls = c
             parts.append(f'<p class="{cls}">{inline(text)}</p>' if cls else f"<p>{inline(text)}</p>")
