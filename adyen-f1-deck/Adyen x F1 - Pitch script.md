@@ -16,6 +16,8 @@ Let me be clear about what today is and isn't. It isn't a walk through marketing
 
 Here's the shift we'd like you to carry into that room. Most sponsorships are measured by a logo on a car. That's a marketing metric, and on its own it would undersell what F1 can do for Adyen. The question we'd measure this by is different: how integrated can the partnership be? It starts with payment integration: Adyen running the payments inside a team's business, and potentially inside Max Verstappen's. From there it becomes a case study your sales teams can use, a place to host your clients, and a network of companies that should be Adyen merchants.
 
+And what we want to give you for Peter isn't a passion play about racing. It's an objective business case he can test: what Adyen puts in, what it gets back, and how you'd measure it.
+
 Two ground rules. We're not the rights holders, so we won't have every answer today; anything we can't answer, we'll get to you before you see Peter. And please interrupt us. This works best as a conversation.
 
 **Ask Mark:** Before we start: how does Peter judge a partnership like this today? If his first question is "what's the exposure?", we should know that now.
@@ -54,7 +56,9 @@ Six facts, and each one comes back later in the deck.
 
 F1 is the number one sport, of the five we compared, for all five audiences Adyen sells to; that's GWI data. It has 625 million followers, up 31% in four years, also GWI. Half of the world's most valuable brands are involved, according to GlobalData. 457 million F1 fans live in Adyen's own office markets. There are 24 race weekends a year to host at. And the eleven teams have 371 partners between them, with $6.7 trillion in combined revenue; that's our own analysis of the teams' partner lists.
 
-One insight worth keeping for Peter: the number that matters most isn't the audience, it's the network. GlobalData counted 125 new F1 sponsorship deals in 2025, up 29% on the year before. More companies join every year, and each one is a potential Adyen client in the same paddock.
+Two insights worth keeping for Peter. First, timing: the audience growth shows a sport on a trajectory that's still climbing, and the payments seat is still open. That's the case for getting in the door now rather than later.
+
+Second, the number that matters most for a B2B business isn't the audience, it's the network. GlobalData counted 125 new F1 sponsorship deals in 2025, up 29% on the year before. More companies join every year, and each one is a potential Adyen client in the same paddock.
 
 **Where it's from:** GWI for audiences and followers, GlobalData for brands and deals, SPORTFIVE for the partner network.
 
@@ -218,7 +222,7 @@ Airwallex went live in 14 days. It automated the payment runs, paid suppliers in
 
 The results: 90% of payments now arrive within hours, 65% instantly. Local payment networks in more than 110 countries. Half a day a month saved on payment runs, and more than £4,000 a year in fees.
 
-Here's the insight. The savings are small. The story isn't. Airwallex turned a back-office fix into proof it could show every enterprise it sells to, at every race. That's the model: solve a real problem inside the team, then sell the story.
+Here's the insight. The savings are small. The story isn't. Look at what Airwallex actually got from it, in three steps. One: its payments integrated inside a championship-winning team, which became the case study. Two: it told that story to its own customers and prospects through F1 hospitality, on track at the races and off track. Three: it built new business through McLaren's partner network. That's the model: solve a real problem inside the team, then sell the story, then use the network.
 
 **Ask Mark:** What would a case study need to show for Adyen's sales teams to actually use it in a pitch?
 
@@ -240,7 +244,7 @@ Now the detail on each route.
 
 Max and Alpine came out of conversations we've already had, and both proposals are on the table for discussion. Max runs 2027 to 2030, at €5 to 8 million a year depending on the rights. Alpine runs 2027 to 2029, at £10 million in 2027, rising 5% a year. Ferrari has no proposal yet.
 
-The plan at the bottom matters more than the choice. Start with one route. Prove that Adyen's payments work inside the partner's business. Then grow: more teams, more races, more markets. And if none of these is right once Peter buys F1, there are other routes; the first decision is F1 itself.
+The plan at the bottom matters more than the choice. Start with one route. Prove that Adyen's payments work inside the partner's business. Then grow: more teams, more races, more markets. And if none of these is right once Peter buys F1, there are other routes, Red Bull among them. The first decision is F1 itself; the route comes second.
 
 ## 21 · Max Verstappen ★
 
@@ -351,6 +355,8 @@ Route three, briefly: Ferrari.
 42 partners with $568 billion in revenue, Shell, IBM and HP at the top, and six partners worth more than $200 billion each. And, from GWI, Ferrari has the largest pool of fans working in financial services of any team: 1.8 million.
 
 The question for Ferrari is the same one we asked of Alpine and Max: which parts of its business could Adyen power? We'll only know once Ferrari can share information, and that's waiting on the NDA.
+
+*Cue: if the Ferrari call is confirmed, it follows this walkthrough as a 30-minute virtual session. The aim is simply to give Mark enough to talk to Ferrari himself; we're not negotiating.*
 
 **Ask Mark:** Where are we on the NDA? If it's signed this week, Ferrari can share what we need before you see Peter.
 
