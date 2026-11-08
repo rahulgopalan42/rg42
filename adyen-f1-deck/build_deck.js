@@ -758,13 +758,22 @@ async function build() {
     await fit(s, "mag7_logos.png", x + 2.9, 5.5, w - 2.9, 0.9, "Meta, Google, Amazon Web Services, Microsoft and Apple logos");
   }
 
-  // Brand value (team deck slides 38-39): Kantar evidence that strong brands are a financial asset
+  // Brand value (Kantar BrandZ 2026; Kantar × Google 2026), as three numbered, plainly labelled points
   {
     const s = content("CONTENT", "Why F1", 0, "Brand value",
-      t("Strong brands are a financial asset: they **outperform the market**, and many race in F1"),
-      "Source: Kantar BrandZ 2026 (Top 100, Strong Brands Portfolio); Kantar × Google 2026 (European companies). F1 involvement marked by SPORTFIVE.",
-      "Left: Kantar BrandZ 2026 Top 100 (Kantar, including data from S&P Capital IQ and Euromonitor), with the brands the team identified as involved in F1 boxed. Top right: Kantar Strong Brands Portfolio vs S&P 500 and MSCI World, 2006–2026. Bottom right: Kantar × Google 2026, European companies, portfolio performance index (2019 = 100) by 2025: brands with weak Future Power 144, the stock market 172, brands with strong Future Power 265; Kantar's summary: higher returns, faster recovery and better stock market performance, 2.3x vs STOXX Europe 600.");
-    const box = await fit(s, "kantar_list.png", L, 1.85, 4.45, 4.95, "Kantar BrandZ 2026 Top 100 list", "left");
+      t("F1 is full of the world's most valuable brands, and **strong brands beat the stock market**"),
+      "Source: Kantar BrandZ 2026 (Top 100; Strong Brands Portfolio); Kantar × Google 2026 (European companies). F1 involvement marked by SPORTFIVE.",
+      "Three separate facts. (1) Kantar BrandZ 2026 Top 100 most valuable global brands (Kantar, including data from S&P Capital IQ and Euromonitor); the brands boxed in green are involved in F1, as marked by SPORTFIVE. (2) Kantar's Strong Brands Portfolio is a subset of the Kantar BrandZ Top 100: the brands with the strongest brand equity. It is NOT all 100 brands and NOT only the F1 brands. Its shares returned 504% from 2006 to 2026, vs 451% for the S&P 500 and 234% for the MSCI World. (3) Kantar × Google 2026, European companies: portfolio performance index 2019 = 100; by 2025, brands with strong Future Power 265, the stock market 172, brands with weak Future Power 144. Shown on the slide as growth since 2019: +165%, +72%, +44%; 165 / 72 = 2.3, matching Kantar's '2.3x vs STOXX Europe 600'.");
+    const num = (s2, n, x, y) => {
+      s2.addShape(S.OVAL, { x, y, w: 0.42, h: 0.42, fill: { color: C.accent1 }, line: { color: C.accent1, width: 0 } });
+      s2.addText(String(n), { x, y, w: 0.42, h: 0.42, fontSize: 13, bold: true, color: C.text1, align: "center", valign: "middle", margin: 0, isTextBox: true });
+    };
+    // 1: the ranking
+    num(s, 1, L, 1.85);
+    s.addText([{ text: "The world's 100 most valuable brands", options: { bold: true, color: C.text1, fontSize: 12.5, breakLine: true } },
+      { text: "Kantar BrandZ 2026. Green = involved in F1", options: { color: C.text2, fontSize: 10 } }],
+    { x: L + 0.55, y: 1.8, w: 3.9, h: 0.55, margin: 0, isTextBox: true, valign: "middle" });
+    const box = await fit(s, "kantar_list.png", L, 2.45, 4.45, 4.35, "Kantar BrandZ 2026 Top 100 list", "left");
     const top = 25 / 1100, pitch = 18.714 / 1100;
     for (const [a, b] of KANTAR_GROUPS) {
       const right = a > 50, ra = right ? a - 50 : a, rb = right ? b - 50 : b;
@@ -773,28 +782,34 @@ async function build() {
       s.addShape(S.RECTANGLE, { x: box.x + box.w * fx, y: y0, w: box.w * fw, h: y1 - y0, fill: { color: C.accent1, transparency: 88 },
         line: { color: C.accent1, width: 1.25 }, objectName: "F1 brand highlight" });
     }
-    const x = L + box.w + 0.4, w = R - x;
-    s.addShape(S.RECTANGLE, { x, y: 1.93, w: 0.3, h: 0.18, fill: { color: C.accent1, transparency: 88 }, line: { color: C.accent1, width: 1.25 } });
-    s.addText("Kantar Top 100 brand involved in F1", { x: x + 0.42, y: 1.88, w: w - 0.42, h: 0.28, fontSize: 10.5, color: C.text2, margin: 0, isTextBox: true, valign: "middle" });
-    card(s, x, 2.3, w, 1.75, C.text1, "Returns card");
-    label(s, "Strong brands vs the market, 2006–2026", x + 0.3, 2.45, w - 0.6, C.accent1);
-    const rets = [["504%", "Kantar Strong Brands Portfolio", true], ["451%", "S&P 500", false], ["234%", "MSCI World", false]];
-    const rw = (w - 0.6) / 3;
-    rets.forEach(([big, lab, on], i) => stat(s, x + 0.3 + i * rw, 2.8, rw - 0.15, big, lab,
-      { size: on ? 34 : 28, color: on ? C.accent1 : C.background1, capColor: C.accent4, capSize: 11 }));
-    card(s, x, 4.2, w, 2.6, C.background2, "Future Power card");
-    label(s, "Brands built for the future grow fastest", x + 0.3, 4.35, w - 0.6, C.accent2);
-    s.addText("Portfolio performance, 2019 = 100 → 2025 (European companies)", { x: x + 0.3, y: 4.62, w: w - 0.6, h: 0.26, fontSize: 9.5, color: C.text2, margin: 0, isTextBox: true });
-    const bars = [["Weak Future Power", 144, false], ["Stock market", 172, false], ["Strong Future Power", 265, true]];
-    const bx = x + 2.15, bmax = w - 2.15 - 0.95;
-    bars.forEach(([lab, v, on], i) => {
-      const by = 4.98 + i * 0.42;
-      s.addText(lab, { x: x + 0.3, y: by, w: 1.8, h: 0.32, fontSize: 10.5, bold: on, color: C.text1, margin: 0, isTextBox: true, valign: "middle" });
-      s.addShape(S.RECTANGLE, { x: bx, y: by + 0.05, w: bmax * v / 265, h: 0.22, fill: { color: on ? C.accent1 : "C9CFD6" }, line: { color: on ? C.accent1 : "C9CFD6", width: 0 } });
-      s.addText(String(v), { x: bx + bmax * v / 265 + 0.08, y: by, w: 0.6, h: 0.32, fontSize: 12, bold: true, color: on ? C.accent2 : C.text1, margin: 0, isTextBox: true, valign: "middle" });
+    const x = L + 4.85, w = R - x;
+    const bars = (items, bx, by, bw, max) => items.forEach(([lab, v, txt, on], i) => {
+      const yy = by + i * 0.4;
+      s.addText(lab, { x: bx, y: yy, w: 1.95, h: 0.34, fontSize: 11, bold: on, color: C.text1, margin: 0, isTextBox: true, valign: "middle" });
+      const len = (bw - 1.95 - 0.85) * v / max;
+      s.addShape(S.RECTANGLE, { x: bx + 1.95, y: yy + 0.06, w: len, h: 0.22, fill: { color: on ? C.accent1 : "C9CFD6" }, line: { color: on ? C.accent1 : "C9CFD6", width: 0 } });
+      s.addText(txt, { x: bx + 1.95 + len + 0.08, y: yy, w: 0.8, h: 0.34, fontSize: 12, bold: true, color: on ? C.accent2 : C.text1, margin: 0, isTextBox: true, valign: "middle" });
     });
-    s.addText([{ text: "2.3x  ", options: { bold: true, color: C.accent2, fontSize: 15 } }, { text: "the market's growth, for the brands with the strongest Future Power", options: { color: C.text1, fontSize: 11 } }],
-      { x: x + 0.3, y: 6.28, w: w - 0.6, h: 0.42, margin: 0, isTextBox: true, valign: "middle" });
+    // 2: strong brands vs the stock market, 2006–2026
+    card(s, x, 1.8, w, 2.12, C.background2, "Strong brands card");
+    num(s, 2, x + 0.25, 1.98);
+    s.addText([{ text: "Strong brands beat the stock market", options: { bold: true, color: C.text1, fontSize: 12.5, breakLine: true } },
+      { text: "Share-price return, 2006–2026", options: { color: C.text2, fontSize: 10 } }],
+    { x: x + 0.8, y: 1.93, w: w - 1.0, h: 0.55, margin: 0, isTextBox: true, valign: "middle" });
+    bars([["Kantar's strongest brands*", 504, "+504%", true], ["S&P 500", 451, "+451%", false], ["MSCI World", 234, "+234%", false]], x + 0.3, 2.5, w - 0.3, 504);
+    s.addText("*Kantar's Strong Brands Portfolio: the Top 100 brands with the strongest brand equity. Not only the F1 brands.",
+      { x: x + 0.3, y: 3.6, w: w - 0.5, h: 0.3, fontSize: 9, italic: true, color: C.text2, margin: 0, isTextBox: true, valign: "middle" });
+    // 3: brands built for the future, 2019–2025
+    card(s, x, 4.05, w, 2.1, C.background2, "Future Power card");
+    num(s, 3, x + 0.25, 4.23);
+    s.addText([{ text: "Brands built for the future grow 2.3 times faster", options: { bold: true, color: C.text1, fontSize: 12.5, breakLine: true } },
+      { text: "Share-price growth, 2019–2025, European companies (Kantar × Google)", options: { color: C.text2, fontSize: 10 } }],
+    { x: x + 0.8, y: 4.18, w: w - 1.0, h: 0.55, margin: 0, isTextBox: true, valign: "middle" });
+    bars([["Strong brands", 165, "+165%", true], ["Stock market", 72, "+72%", false], ["Weaker brands", 44, "+44%", false]], x + 0.3, 4.83, w - 0.3, 165);
+    // so what
+    card(s, x, 6.3, w, 0.5, C.text1, "So what");
+    s.addText([{ text: "So what  ", options: { bold: true, color: C.accent1 } }, { text: "a strong brand is a financial asset, and F1 is where many of the strongest build theirs.", options: { color: C.background1 } }],
+      { x: x + 0.25, y: 6.3, w: w - 0.5, h: 0.5, fontSize: 11, margin: 0, isTextBox: true, valign: "middle" });
   }
 
   // Brand spotlights (Kantar BrandZ 2026): what IBM and American Express did, and the lesson for Adyen

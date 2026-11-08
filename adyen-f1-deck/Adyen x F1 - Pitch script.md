@@ -110,19 +110,19 @@ Five of the Magnificent Seven are in this room. For Adyen this isn't an audience
 
 ## 10 · Brand value ★
 
-**Remember:** Brand isn't a cost; it's an asset that beats the market. Three proofs: the list, 504%, 2.3 times.
+**Remember:** Three separate facts: the F1 brands, strong brands beat the market, brands built for the future grow 2.3 times faster.
 
-Peter will rightly ask what "brand" is worth in money. This is Kantar's answer, in three steps.
+Peter will rightly ask what "brand" is worth in money. This slide answers it in three numbered steps, and it's worth being precise, because they're three different things.
 
-The list: Kantar's 2026 ranking of the hundred most valuable brands. The ones boxed in green are involved in F1, and there are a lot of them.
+One: the list. Kantar publishes a ranking of the world's 100 most valuable brands every year. This is the 2026 list. The brands boxed in green are involved in F1. So F1 is full of the world's most valuable brands.
 
-The long run: Kantar's portfolio of the strongest brands returned 504% over twenty years. The S&P 500 returned 451%; the MSCI World, 234%.
+Two: strong brands beat the stock market. Kantar picks out the brands in its Top 100 with the strongest brand equity, and tracks them as a share portfolio. Over twenty years, that portfolio returned 504%. The S&P 500 returned 451%, and the MSCI World 234%. To be clear, that's Kantar's strongest brands, not all 100 and not only the F1 ones.
 
-The future: Kantar and Google measured "Future Power", how well a brand is set up to grow. Set 2019 at 100. By 2025, brands with strong Future Power stood at 265, the stock market at 172, and brands with weak Future Power at 144. That's 2.3 times the stock-market performance, with faster recovery from shocks.
+Three: brands built for the future grow fastest. Kantar and Google looked at European companies from 2019 to 2025. Brands with what Kantar calls strong "Future Power", meaning they're well set up to grow, rose 165% in share value. The stock market rose 72%. Weaker brands, 44%. That's 2.3 times the market.
 
-So the point for Peter: brand isn't a marketing cost. It's a financial asset that compounds.
+So the point for Peter: a strong brand isn't a marketing cost. It's a financial asset. And F1 is where many of the world's strongest brands choose to build theirs.
 
-**Where it's from:** Kantar BrandZ, the brand-value ranking Kantar publishes every year. It combines company financials, using data from S&P Capital IQ and Euromonitor, with Kantar's own consumer research. The Future Power study is Kantar with Google, on European companies.
+**Where it's from:** Kantar BrandZ 2026, the brand-value ranking Kantar publishes every year, combining company financials (from S&P Capital IQ and Euromonitor) with its own consumer research. The F1 boxes are SPORTFIVE's marking. Point three is Kantar with Google; on the original chart it's an index, 2019 = 100, rising to 265, 172 and 144.
 
 **Ask Mark:** Does Peter see brand as a cost or as an asset? It changes how we frame the investment.
 
