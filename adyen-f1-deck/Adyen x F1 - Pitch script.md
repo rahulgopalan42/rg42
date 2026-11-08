@@ -148,7 +148,7 @@ You don't have to take our word for the returns. Three partners have measured th
 
 Komatsu hosts its key global stakeholders at races with Williams; for many of them, it's the first Komatsu event they've ever attended. Komatsu has hosted 3,735 stakeholders. 90% said it was useful for business discussions, 94% were satisfied, and Komatsu has received more than $100 million in orders at races.
 
-HPE has partnered Mercedes since 2018. Their CEO, Antonio Neri, says the real value is being able to show their technology working through Mercedes, and to engage customers directly at races. In his words: "From race activations alone, we've accelerated over $300 million in revenue opportunity."
+HPE has partnered Mercedes since 2018. Their CEO, Antonio Neri, says the real value is being able to show their technology working through Mercedes, and to engage customers directly at races. Looking back over that partnership, in his words: "From race activations alone, we've accelerated over $300 million in revenue opportunity."
 
 And Businessolver, a partner of Alpine: $122 million in business pipeline, influenced by hosting at the track.
 
@@ -159,6 +159,8 @@ The economics are simple. Adyen already spends on hosting, market by market. Pul
 **Ask Mark:** And roughly what does Adyen spend on hosting today, and who owns that budget in each market?
 
 **Where it's from:** partner case material compiled by SPORTFIVE: Komatsu with Williams, HPE with Mercedes, Businessolver with Alpine. Marked confidential, so keep it in the room.
+
+*If Mark asks how long it took them to earn it back:* be precise, because none of the three figures is a payback period. HPE's $300 million is revenue opportunity accelerated over its whole partnership with Mercedes, which started in 2018, so roughly eight seasons; it's opportunity, not booked revenue. Komatsu's $100 million is orders received at races; the material gives no time period, but Komatsu's current Williams partnership began in 2024 and was renewed this year, so it sits within the last few seasons. Businessolver's $122 million is pipeline influenced, not closed business, and also has no period. Say: "The case material doesn't give a payback period; we'll get the exact timeframes for you before you see Peter." Then turn it back to Adyen's own maths: what's one new enterprise merchant worth in year one?
 
 ## 13 · Team partnership network
 
@@ -399,6 +401,9 @@ No. They're behind the scenes or on a logo. Adyen's seat is the commerce fans se
 
 **"How does this pay for itself?"**
 Through hospitality and pipeline: one programme replacing today's market-by-market hosting, and the deals that close in those rooms. Komatsu, HPE and Businessolver have measured it (say it, don't show it).
+
+**"How long did it take Komatsu and HPE to earn that back?"**
+The material doesn't give a payback period, so don't invent one. HPE's $300 million is revenue opportunity accelerated across its partnership since 2018. Komatsu's $100 million is orders received at races, with no period given; its current Williams deal started in 2024. We'll confirm the exact timeframes before Mark sees Peter.
 
 **"What does it cost?"**
 Max: €5–8 million a year depending on rights. Alpine: £10 million in 2027, rising 5% a year, with 56 Paddock Club tickets included.
