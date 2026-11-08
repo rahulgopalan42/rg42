@@ -84,9 +84,9 @@ Why it matters: Adyen sells to two people at once. The enterprise buyer who sign
 
 ## 7 · Footprint ★
 
-**Remember:** Offices and races line up, and F1 is growing fastest where Adyen wants to grow.
+**Remember:** Offices and races line up. Pool the hosting Adyen already buys, market by market, into one programme, and host each market's customers at its own race.
 
-Three things on this slide.
+Three things on this slide, then what they mean for you.
 
 The map: your 28 offices sit next to the 24 races on the 2027 calendar. Every region with an Adyen office has a Grand Prix, except India.
 
@@ -94,9 +94,19 @@ The fans: 457 million live in your 22 office markets, up a third since 2022, and
 
 The growth: India has 117 million fans and nearly doubled in four years, without a race. The US is up 74%. Japan is up 41%. F1 is growing fastest in some of the markets Adyen most wants to win.
 
-**Where it's from:** GWI for fans by market; the 2027 F1 calendar; Adyen's office list.
+What it means for hosting. Adyen already buys F1 hospitality, but market by market: each country picks its own race, buys its own tickets, runs its own guest list. That works, but it's fragmented. Nobody negotiates for the whole of Adyen, every market starts from scratch, the guest experience varies, and there's no single view of who you hosted and what it led to.
 
-**Ask Mark:** Which markets are on Peter's growth list for the next three years? We'd map the races and the hosting to those first.
+A partnership flips that. One programme across eight to ten races, chosen to match your priority markets. Hospitality comes through the partnership rather than being bought race by race: Alpine's offer, for example, includes 56 Paddock Club tickets a year, spread across the calendar. You buy once, centrally, so you get scale. You host to one Adyen standard. You track every guest and every opportunity in one place. And each market still hosts its own clients at its own race. That's the economies-of-scale argument, and it's exactly what the fifth box in your brief asked for.
+
+What it means for customers. Think about the two kinds of customers this map covers. First, your merchants. In the 13 markets with a race, your local teams can host clients at home: the US alone has three races, Miami, Austin and Las Vegas, and there's Silverstone for the UK, Madrid for Spain, Monza for Italy, Suzuka for Japan, Shanghai for China. In big markets without a race, like Germany with 14 million fans and India with 117 million, you fly your best clients to a flagship weekend, and that becomes the reward.
+
+Second, their customers: the people who pay at your merchants' checkouts. F1 fans over-index on early tech adopters, as we saw on the last slide. So where the F1 audience is growing fastest, in India, the US and Japan, the pool of consumers most likely to try a new way to pay is growing with it. That's a story your merchants care about too.
+
+**Where it's from:** GWI for fans by market; the 2027 F1 calendar; Adyen's office list; the 56 Paddock Club tickets are from Alpine's proposal.
+
+**Ask Mark:** Which markets buy F1 hospitality today, and roughly what do they spend? That's the budget a single programme would pool.
+
+**Ask Mark:** And which markets are on Peter's growth list for the next three years? We'd map the races and the hosting to those first.
 
 ## 9 · Business leader network ★
 
