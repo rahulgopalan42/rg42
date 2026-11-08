@@ -36,8 +36,8 @@
         "slide": 11,
         "remark": "“We should be careful when name dropping these as all decks state 'high confidentiality'”",
         "change": "Restored in Deck 7; hidden in Deck 10 as confidential, used verbally on slide 11",
-        "after": 13,
-        "now": "Slide 13 (hidden)"
+        "after": 12,
+        "now": "Slide 12 (hidden)"
       },
       {
         "slide": 12,
@@ -50,29 +50,29 @@
         "slide": 13,
         "remark": "“New data”",
         "change": "Rebuilt with the Nov 2026 data; retitled around Adyen (Deck 7 remark)",
-        "after": 14,
-        "now": "Slide 14"
+        "after": 13,
+        "now": "Slide 13"
       },
       {
         "slide": 14,
         "remark": "“New data”",
         "change": "Rebuilt with the Nov 2026 data; hidden in Deck 8 (Deck 7 remark)",
-        "after": 15,
-        "now": "Slide 15 (hidden)"
+        "after": 14,
+        "now": "Slide 14 (hidden)"
       },
       {
         "slide": 15,
         "remark": "“I do not understand this – what is the key message?”",
         "change": "One message: Adyen takes the fan-facing seat rather than following competitors",
-        "after": 16,
-        "now": "Slide 16"
+        "after": 15,
+        "now": "Slide 15"
       },
       {
         "slide": 16,
         "remark": "“Is it the model to beat?”",
         "change": "Now the team's proof of concept: how Airwallex optimised McLaren's financial operations",
-        "after": 19,
-        "now": "Slide 19"
+        "after": 18,
+        "now": "Slide 18"
       },
       {
         "slide": 19,
@@ -85,8 +85,8 @@
         "slide": 28,
         "remark": "“Who is this? Looks like they are playing rock, paper, scissors....”",
         "change": "Photo replaced with the Max and Alpine Adyen mock-ups",
-        "after": 37,
-        "now": "Slide 37"
+        "after": 36,
+        "now": "Slide 36"
       }
     ]
   },
@@ -120,50 +120,50 @@
         "slide": 12,
         "remark": "“Title should be changed. Removing the McL and Merc headlines. Let's make it relevant to Adyen”",
         "change": "Retitled: each team's partners are potential Adyen clients",
-        "after": 14,
-        "now": "Slide 14"
+        "after": 13,
+        "now": "Slide 13"
       },
       {
         "slide": 13,
         "remark": "“Let's remove this slide”",
         "change": "Hidden",
         "after": null,
-        "now": "Slide 15 (hidden)"
+        "now": "Slide 14 (hidden)"
       },
       {
         "slide": 14,
         "remark": "“Let's be smart on the narrative here as we know Peter doesn't just want to follow his competitors”",
         "change": "Reframed: Adyen would run what fans actually pay for",
-        "after": 16,
-        "now": "Slide 16"
+        "after": 15,
+        "now": "Slide 15"
       },
       {
         "slide": 19,
+        "remark": "“Eleri to make a few tweaks”",
+        "change": "Eleri's rewrite, used exactly as she wrote it (v2 of her deck)",
+        "after": 21,
+        "now": "Slide 21"
+      },
+      {
+        "slide": 20,
         "remark": "“Eleri to make a few tweaks”",
         "change": "Eleri's rewrite, used exactly as she wrote it (v2 of her deck)",
         "after": 22,
         "now": "Slide 22"
       },
       {
-        "slide": 20,
-        "remark": "“Eleri to make a few tweaks”",
-        "change": "Eleri's rewrite, used exactly as she wrote it (v2 of her deck)",
-        "after": 23,
-        "now": "Slide 23"
-      },
-      {
         "slide": 22,
         "remark": "“Eleri to make a few tweaks”",
         "change": "Eleri's rewrite, used exactly as she wrote it (v2 of her deck)",
-        "after": 25,
-        "now": "Slide 25"
+        "after": 24,
+        "now": "Slide 24"
       },
       {
         "slide": 23,
         "remark": "“Let's remove this slide”",
         "change": "Hidden",
         "after": null,
-        "now": "Slide 26 (hidden)"
+        "now": "Slide 25 (hidden)"
       }
     ]
   }

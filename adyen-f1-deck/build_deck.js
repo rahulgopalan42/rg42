@@ -170,7 +170,6 @@ const SHORT_SOURCE = {
   "Growth": "Source: GWI; GlobalData.",
   "Business leader network": "Source: GlobalData (2026).",
   "Brand value": "Source: Kantar BrandZ 2026; Kantar × Google 2026.",
-  "Brand spotlights": "Source: Kantar BrandZ 2026.",
   "F1 pays for itself": "Source: SPORTFIVE.",
   "Proof from F1 partners": "Source: partner case material (SPORTFIVE).",
   "Team partnership network": "Source: team websites (Nov 2026); companiesmarketcap.com.",
@@ -446,7 +445,7 @@ const CHANGES = require(path.join(__dirname, "reviewed", "changes.json"));
 const ROUTE_NAMES = ["Max Verstappen", "Alpine F1 Team", "Scuderia Ferrari"];
 
 // ------------------------------------------------------------------ slides
-// Deck 11: 33 visible slides, no dividers; the tracker at the top right shows the section.
+// Deck 11: 32 visible slides, no dividers; the tracker at the top right shows the section.
 async function build() {
   await defineLayouts();
 
@@ -763,7 +762,7 @@ async function build() {
     const s = content("CONTENT", "Why F1", 0, "Brand value",
       t("F1 is full of the world's most valuable brands, and **strong brands beat the stock market**"),
       "Source: Kantar BrandZ 2026 (Top 100; Strong Brands Portfolio); Kantar × Google 2026 (European companies). F1 involvement marked by SPORTFIVE.",
-      "Three separate facts. (1) Kantar BrandZ 2026 Top 100 most valuable global brands (Kantar, including data from S&P Capital IQ and Euromonitor); the brands boxed in green are involved in F1, as marked by SPORTFIVE. (2) Kantar's Strong Brands Portfolio is a subset of the Kantar BrandZ Top 100: the brands with the strongest brand equity. It is NOT all 100 brands and NOT only the F1 brands. Its shares returned 504% from 2006 to 2026, vs 451% for the S&P 500 and 234% for the MSCI World. (3) Kantar × Google 2026, European companies: portfolio performance index 2019 = 100; by 2025, brands with strong Future Power 265, the stock market 172, brands with weak Future Power 144. Shown on the slide as growth since 2019: +165%, +72%, +44%; 165 / 72 = 2.3, matching Kantar's '2.3x vs STOXX Europe 600'.");
+      "Three separate facts, plus IBM and American Express at the bottom (Kantar BrandZ 2026 brand spotlights: IBM $150,760M, +20% vs 2025; American Express $80,316M, +22% vs 2025; the 'biggest gain the year they entered F1' point is the team's analysis; IBM is one of Ferrari's top three partners per SPORTFIVE partner data). (1) Kantar BrandZ 2026 Top 100 most valuable global brands (Kantar, including data from S&P Capital IQ and Euromonitor); the brands boxed in green are involved in F1, as marked by SPORTFIVE. (2) Kantar's Strong Brands Portfolio is a subset of the Kantar BrandZ Top 100: the brands with the strongest brand equity. It is NOT all 100 brands and NOT only the F1 brands. Its shares returned 504% from 2006 to 2026, vs 451% for the S&P 500 and 234% for the MSCI World. (3) Kantar × Google 2026, European companies: portfolio performance index 2019 = 100; by 2025, brands with strong Future Power 265, the stock market 172, brands with weak Future Power 144. Shown on the slide as growth since 2019: +165%, +72%, +44%; 165 / 72 = 2.3, matching Kantar's '2.3x vs STOXX Europe 600'.");
     const num = (s2, n, x, y) => {
       s2.addShape(S.OVAL, { x, y, w: 0.42, h: 0.42, fill: { color: C.accent1 }, line: { color: C.accent1, width: 0 } });
       s2.addText(String(n), { x, y, w: 0.42, h: 0.42, fontSize: 13, bold: true, color: C.text1, align: "center", valign: "middle", margin: 0, isTextBox: true });
@@ -791,64 +790,26 @@ async function build() {
       s.addText(txt, { x: bx + 1.95 + len + 0.08, y: yy, w: 0.8, h: 0.34, fontSize: 12, bold: true, color: on ? C.accent2 : C.text1, margin: 0, isTextBox: true, valign: "middle" });
     });
     // 2: strong brands vs the stock market, 2006–2026
-    card(s, x, 1.8, w, 2.12, C.background2, "Strong brands card");
+    card(s, x, 1.8, w, 2.08, C.background2, "Strong brands card");
     num(s, 2, x + 0.25, 1.98);
     s.addText([{ text: "Strong brands beat the stock market", options: { bold: true, color: C.text1, fontSize: 12.5, breakLine: true } },
       { text: "Share-price return, 2006–2026", options: { color: C.text2, fontSize: 10 } }],
     { x: x + 0.8, y: 1.93, w: w - 1.0, h: 0.55, margin: 0, isTextBox: true, valign: "middle" });
     bars([["Kantar's strongest brands*", 504, "+504%", true], ["S&P 500", 451, "+451%", false], ["MSCI World", 234, "+234%", false]], x + 0.3, 2.5, w - 0.3, 504);
     s.addText("*Kantar's Strong Brands Portfolio: the Top 100 brands with the strongest brand equity. Not only the F1 brands.",
-      { x: x + 0.3, y: 3.6, w: w - 0.5, h: 0.3, fontSize: 9, italic: true, color: C.text2, margin: 0, isTextBox: true, valign: "middle" });
+      { x: x + 0.3, y: 3.58, w: w - 0.5, h: 0.26, fontSize: 9, italic: true, color: C.text2, margin: 0, isTextBox: true, valign: "middle" });
     // 3: brands built for the future, 2019–2025
-    card(s, x, 4.05, w, 2.1, C.background2, "Future Power card");
-    num(s, 3, x + 0.25, 4.23);
+    card(s, x, 4.0, w, 1.97, C.background2, "Future Power card");
+    num(s, 3, x + 0.25, 4.16);
     s.addText([{ text: "Brands built for the future grow 2.3 times faster", options: { bold: true, color: C.text1, fontSize: 12.5, breakLine: true } },
       { text: "Share-price growth, 2019–2025, European companies (Kantar × Google)", options: { color: C.text2, fontSize: 10 } }],
-    { x: x + 0.8, y: 4.18, w: w - 1.0, h: 0.55, margin: 0, isTextBox: true, valign: "middle" });
-    bars([["Strong brands", 165, "+165%", true], ["Stock market", 72, "+72%", false], ["Weaker brands", 44, "+44%", false]], x + 0.3, 4.83, w - 0.3, 165);
-    // so what
-    card(s, x, 6.3, w, 0.5, C.text1, "So what");
-    s.addText([{ text: "So what  ", options: { bold: true, color: C.accent1 } }, { text: "a strong brand is a financial asset, and F1 is where many of the strongest build theirs.", options: { color: C.background1 } }],
-      { x: x + 0.25, y: 6.3, w: w - 0.5, h: 0.5, fontSize: 11, margin: 0, isTextBox: true, valign: "middle" });
-  }
-
-  // Brand spotlights (Kantar BrandZ 2026): what IBM and American Express did, and the lesson for Adyen
-  {
-    const s = content("CONTENT", "Why F1", 0, "Brand spotlights",
-      t("IBM and American Express: brand value built on **trust and experiences**, not transactions"),
-      "Source: Kantar BrandZ 2026 brand spotlights (IBM; American Express).",
-      "Kantar BrandZ 2026. IBM: brand value $150,760M in 2026, +20% vs 2025, up from $86,005M in 2019; founded 1911; Kantar: long-standing relationships with its biggest enterprise customers have earned it the right to handle the hardest, riskiest problems in business; its Meaningful Difference among its business audience has gone from strength to strength, helping to secure volume and margin; US brand equity growth: Different 123 to 135, Meaningful 125 to 129. American Express: $80,316M in 2026, +22% vs 2025, up from $39,720M; Kantar: doubled its brand value since 2024, significantly outperforming other payment brands in the ranking; built strong audience connections by acting as a curator of experiences, as opposed to just a facilitator of transactions; rather than sponsoring from the sidelines, Amex unlocks priority access. F1 links: IBM is one of Ferrari's top three partners (SPORTFIVE partner data); the team's analysis is that IBM and American Express both posted their biggest brand-value increase in the year they entered F1 partnerships.");
-    const cw = (CW - 0.3) / 2, y = 1.9, h = 4.15;
-    const spots = [
-      { name: "IBM", sub: "Business technology · Ferrari partner", big: "$150.8B", grow: "+20% vs 2025 · $86.0B in 2019",
-        how: "Trusted to handle the hardest, riskiest problems in business",
-        pts: ["Long-standing relationships with its biggest enterprise customers", "Meaningful Difference with its business audience keeps rising", "Kantar: this helps secure volume and margin"] },
-      { name: "American Express", sub: "Payments · involved in F1", big: "$80.3B", grow: "+22% vs 2025 · doubled since 2024",
-        how: "“A curator of experiences, as opposed to just a facilitator of transactions”",
-        pts: ["Significantly outperforming other payment brands in the ranking", "Rather than sponsoring from the sidelines, unlocks priority access", "Makes live culture feel attainable, exclusive and rewarding"], dark: true },
-    ];
-    const check = await icon("FiCheck", "0ABF53");
-    spots.forEach((sp, i) => {
-      const x = L + i * (cw + 0.3);
-      card(s, x, y, cw, h, sp.dark ? C.text1 : C.background2, "Spotlight card");
-      s.addText([{ text: sp.name, options: { bold: true, fontSize: 20, color: sp.dark ? C.background1 : C.text1, breakLine: true } },
-        { text: sp.sub, options: { fontSize: 10.5, color: sp.dark ? C.accent4 : C.text2 } }],
-      { x: x + 0.3, y: y + 0.22, w: cw - 2.6, h: 0.75, margin: 0, isTextBox: true, valign: "top" });
-      s.addText([{ text: sp.big, options: { bold: true, fontSize: 26, color: sp.dark ? C.accent1 : C.accent2, breakLine: true } },
-        { text: sp.grow, options: { fontSize: 9.5, color: sp.dark ? C.accent4 : C.text2 } }],
-      { x: x + cw - 2.55, y: y + 0.18, w: 2.3, h: 0.85, margin: 0, isTextBox: true, valign: "top", align: "right" });
-      s.addShape(S.LINE, { x: x + 0.3, y: y + 1.12, w: cw - 0.6, h: 0, line: { color: sp.dark ? C.accent5 : C.accent4, width: 0.75 } });
-      s.addText(sp.how, { x: x + 0.3, y: y + 1.25, w: cw - 0.6, h: 0.8, fontSize: 15, bold: true, color: sp.dark ? C.background1 : C.text1, margin: 0, isTextBox: true, valign: "top" });
-      sp.pts.forEach((pt, k) => {
-        const py = y + 2.2 + k * 0.6;
-        s.addImage({ data: check, x: x + 0.3, y: py + 0.04, w: 0.2, h: 0.2 });
-        s.addText(pt, { x: x + 0.62, y: py, w: cw - 0.92, h: 0.55, fontSize: 11.5, color: sp.dark ? C.accent4 : C.text1, margin: 0, isTextBox: true, valign: "top" });
-      });
-    });
-    card(s, L, 6.2, CW, 0.6, C.accent6, "Lesson");
-    s.addText([{ text: "For Adyen  ", options: { bold: true, color: C.accent2 } },
-      { text: "the fastest-growing payment brand in Kantar's ranking grew through experiences, not transactions. Both brands, in the team's analysis, posted their biggest gain the year they entered F1.", options: { color: C.text1 } }],
-    { x: L + 0.25, y: 6.2, w: CW - 0.5, h: 0.6, fontSize: 11.5, margin: 0, isTextBox: true, valign: "middle" });
+    { x: x + 0.8, y: 4.11, w: w - 1.0, h: 0.55, margin: 0, isTextBox: true, valign: "middle" });
+    bars([["Strong brands", 165, "+165%", true], ["Stock market", 72, "+72%", false], ["Weaker brands", 44, "+44%", false]], x + 0.3, 4.72, w - 0.3, 165);
+    // IBM and American Express, as before: a short line at the bottom
+    card(s, x, 6.08, w, 0.72, C.text1, "IBM and AmEx");
+    s.addText([{ text: "IBM and American Express both posted their biggest brand-value gains the year they entered F1", options: { bold: true, color: C.background1, fontSize: 11, breakLine: true } },
+      { text: "IBM $150.8B, +20% vs 2025, a Ferrari partner  ·  American Express $80.3B, +22% vs 2025, involved in F1", options: { color: C.accent4, fontSize: 9.5 } }],
+    { x: x + 0.25, y: 6.08, w: w - 0.5, h: 0.72, margin: 0, isTextBox: true, valign: "middle", paraSpaceAfter: 2 });
   }
 
   // ================================================================ 02 Hospitality

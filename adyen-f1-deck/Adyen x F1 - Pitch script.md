@@ -4,7 +4,7 @@
 
 **The thread.** We're not selling marketing rights. We're showing how F1, as a platform, can work for Adyen's business. Success isn't a logo on a car; it's an integrated partnership that starts with Adyen running payments inside a team's or Max's business.
 
-**Timing.** About 45 minutes, and Mark should do a third of the talking. If time runs short, protect slides 1–5, 12, 16, 19 and 37. Hidden slides (8, 13, 15, 17, 26) aren't scripted.
+**Timing.** About 45 minutes, and Mark should do a third of the talking. If time runs short, protect slides 1–5, 11, 15, 18 and 36. Hidden slides (8, 12, 14, 16, 25) aren't scripted.
 
 ---
 
@@ -66,7 +66,7 @@ Max Verstappen: reach, influence, and a business Adyen can actually power. Alpin
 
 What we'd want you to take to Peter isn't "pick a contract". It's agreement that F1 is the right platform. Then you start with one route, prove it, and grow.
 
-**Ask Mark:** If you had to walk into Peter's office with one route today, which would it be, and why? *Don't debate it; note the answer and come back to it at slide 21.*
+**Ask Mark:** If you had to walk into Peter's office with one route today, which would it be, and why? *Don't debate it; note the answer and come back to it at slide 20.*
 
 ## 6 · The audience ★
 
@@ -110,7 +110,7 @@ Five of the Magnificent Seven are in this room. For Adyen this isn't an audience
 
 ## 10 · Brand value ★
 
-**Remember:** Three separate facts: the F1 brands, strong brands beat the market, brands built for the future grow 2.3 times faster.
+**Remember:** Three separate facts: the F1 brands, strong brands beat the market, brands built for the future grow 2.3 times faster. Then IBM and Amex in one line.
 
 Peter will rightly ask what "brand" is worth in money. This slide answers it in three numbered steps, and it's worth being precise, because they're three different things.
 
@@ -120,29 +120,15 @@ Two: strong brands beat the stock market. Kantar picks out the brands in its Top
 
 Three: brands built for the future grow fastest. Kantar and Google looked at European companies from 2019 to 2025. Brands with what Kantar calls strong "Future Power", meaning they're well set up to grow, rose 165% in share value. The stock market rose 72%. Weaker brands, 44%. That's 2.3 times the market.
 
+And at the bottom, two examples in one line. IBM and American Express both posted their biggest brand-value gains in the year they entered F1. IBM is one of Ferrari's partners. And Kantar says American Express doubled its brand value since 2024, well ahead of the other payment brands.
+
 So the point for Peter: a strong brand isn't a marketing cost. It's a financial asset. And F1 is where many of the world's strongest brands choose to build theirs.
 
 **Where it's from:** Kantar BrandZ 2026, the brand-value ranking Kantar publishes every year, combining company financials (from S&P Capital IQ and Euromonitor) with its own consumer research. The F1 boxes are SPORTFIVE's marking. Point three is Kantar with Google; on the original chart it's an index, 2019 = 100, rising to 265, 172 and 144.
 
 **Ask Mark:** Does Peter see brand as a cost or as an asset? It changes how we frame the investment.
 
-## 11 · Brand spotlights: IBM and American Express ★
-
-**Remember:** IBM sells trust. Amex sells experiences. Both grew fastest the year they entered F1.
-
-Two examples from Kantar's 2026 report, very close to Adyen's world.
-
-IBM, trust. Its brand is worth $150.8 billion, up 20% this year and up from $86 billion in 2019. Kantar says enterprises trust IBM with their hardest, riskiest problems, built on long relationships with its biggest customers, and that helps it secure volume and margin. IBM is one of Ferrari's top three partners.
-
-American Express, experiences. It's worth $80.3 billion, up 22%, and it doubled its brand value since 2024, well ahead of the other payment brands in the ranking. Kantar's explanation: Amex acts as "a curator of experiences, as opposed to just a facilitator of transactions". Rather than sponsoring from the sidelines, it unlocks priority access.
-
-The lesson for Adyen: the fastest-growing payment brand in Kantar's ranking didn't grow through transactions. It grew through experiences. And our team's analysis is that both IBM and Amex posted their biggest brand-value gains in the year they entered F1.
-
-**Where it's from:** Kantar BrandZ 2026 brand spotlights; the F1 timing is SPORTFIVE's analysis.
-
-**Ask Mark:** If Peter described Adyen's brand in one word today, what would it be? And what would you want it to be in three years?
-
-## 12 · F1 pays for itself ★
+## 11 · F1 pays for itself ★
 
 This is the part of F1 that pays for itself: hospitality. It does three jobs. It keeps clients, with experiences ordinary hosting can't match. It builds pipeline, because every race puts senior decision-makers in one place, with time to talk. And it brings in new merchants: the teams' 371 partners are all in the paddock.
 
@@ -164,7 +150,7 @@ The economics are simple. Adyen already spends on hosting, market by market. Pul
 
 **Where it's from:** partner case material compiled by SPORTFIVE: Komatsu with Williams, HPE with Mercedes, Businessolver with Alpine. Marked confidential, so keep it in the room.
 
-## 14 · Team partnership network
+## 13 · Team partnership network
 
 When you partner a team, its partners become people you can do business with. This is our own analysis: every partner listed on each team's website in November 2026, with 2025 revenues from company reports.
 
@@ -182,7 +168,7 @@ And McLaren, with 57 partners, more than any team on the grid, shows you how har
 
 **Ask Mark:** Look at Alpine's and Ferrari's lists. Which three would you call first, and which Adyen experts would you put in that forum?
 
-## 16 · Adyen wouldn't be following ★
+## 15 · Adyen wouldn't be following ★
 
 **Remember:** They're behind the scenes. Adyen would be in front of the fans.
 
@@ -196,7 +182,7 @@ That's not following anyone. It's Adyen's product working in real time, in front
 
 **Ask Mark:** How would Peter react to the headline "Adyen joins Stripe and Airwallex in F1"? We want the story he hears to be "Adyen takes the seat they didn't".
 
-## 18 · We've done this before
+## 17 · We've done this before
 
 **Remember:** Diagnose, design, deliver: we took Airwallex from first idea to board decision.
 
@@ -210,7 +196,7 @@ Deliver: we built an enterprise-focused rights package, structured the deal for 
 
 That's the process we'd run with you. *If Bjorn is there, hand to him: "Bjorn was close to this one."*
 
-## 19 · Proof of concept: Airwallex × McLaren ★
+## 18 · Proof of concept: Airwallex × McLaren ★
 
 This is what that partnership actually did inside McLaren's business. It's Airwallex's published case study.
 
@@ -224,7 +210,7 @@ Here's the insight. The savings are small. The story isn't. Airwallex turned a b
 
 **Ask Mark:** What would a case study need to show for Adyen's sales teams to actually use it in a pitch?
 
-## 20 · Where Adyen sits in the business ★
+## 19 · Where Adyen sits in the business ★
 
 Now let's put Adyen in that position, using your own material. This is the value chain from Adyen's "Racing | Unified Payments" deck: from pit lane to checkout, payments built for speed.
 
@@ -236,7 +222,7 @@ So we'd judge every route in four steps. Power: Adyen runs the partner's payment
 
 **Ask Mark:** Which Adyen products would you want to show off first in F1: online checkout, in-person and Tap to Pay, or unified commerce across both?
 
-## 21 · Three routes into F1 ★
+## 20 · Three routes into F1 ★
 
 Now the detail on each route.
 
@@ -244,7 +230,7 @@ Max and Alpine came out of conversations we've already had, and both proposals a
 
 The plan at the bottom matters more than the choice. Start with one route. Prove that Adyen's payments work inside the partner's business. Then grow: more teams, more races, more markets. And if none of these is right once Peter buys F1, there are other routes; the first decision is F1 itself.
 
-## 22 · Max Verstappen ★
+## 21 · Max Verstappen ★
 
 Route one: Max. More than a champion, a motorsport entrepreneur.
 
@@ -252,7 +238,7 @@ The numbers are Max's, from his team's proposal: four world titles, 71 Grand Pri
 
 But the reason he's here is that Max has built a business: a shop, travel, GT3 racing, rally, sim racing, a pro simulation centre and an app. He's gone from competitor to entrepreneur, and that's the kind of high-growth business Adyen exists to power. Two Dutch innovators.
 
-## 23 · Powering Verstappen.com ★
+## 22 · Powering Verstappen.com ★
 
 So where would Adyen power Max's business? Let's be straight about it.
 
@@ -262,7 +248,7 @@ It's not a volume play. We've asked Max's team for grandstand ticketing volumes 
 
 **Ask Mark:** Which matters more to Peter here: Max's name next to Adyen's, or Adyen running inside Max's business?
 
-## 24 · Rights package: Max Verstappen × Adyen
+## 23 · Rights package: Max Verstappen × Adyen
 
 This is a first draft of what's possible, and the next step is to tailor it to Adyen.
 
@@ -272,7 +258,7 @@ The fee range is €5 to 8 million a year, depending on which rights Adyen takes
 
 *Only if he presses, and flag it as rough: as drafted, the package is around €8 million, about €9 million with hospitality. Without the GT3 branding it's around €5 million, €5.5–6 million with hospitality.*
 
-## 25 · A tailored hospitality package ★
+## 24 · A tailored hospitality package ★
 
 Max's package is light on F1 hospitality, so this is where we'd build it in.
 
@@ -282,7 +268,7 @@ The next few slides are examples, not a quote. With your feedback, we build it b
 
 **Ask Mark:** Which three races would you pick for Adyen's first year, and why those?
 
-## 27 · Example race: Miami
+## 26 · Example race: Miami
 
 To make it concrete, here's one race: Miami.
 
@@ -290,7 +276,7 @@ There are four ways to host. A private villa for 20 guests over three days, from
 
 *If asked: these are starting prices from our hospitality team, and what's included varies race by race.*
 
-## 28 · Example programme: Austin
+## 27 · Example programme: Austin
 
 And this is how a full programme comes together around one race: four days in Austin.
 
@@ -298,17 +284,17 @@ Day one, arrival at the Commodore Perry Estate and dinner at Hestia. Day two, ha
 
 That's the difference between giving someone a race ticket and building a relationship.
 
-## 29 · Off track
+## 28 · Off track
 
 A race weekend is three days, and the time off track matters as much as the race. Friday to arrive and unwind, Saturday to explore the city, Sunday for the race and the after-party. These ideas come from our programmes in Austin, Singapore, Silverstone and Madrid.
 
-## 30 · End-to-end hospitality
+## 29 · End-to-end hospitality
 
 And we'd run all of it, so your country teams don't have to: travel as a licensed travel agent, hotels from our own inventory, a branded platform for guests and invitations, and partners on the ground. More than twenty years of doing this, for over 30,000 guests a year.
 
 *Cue: hospitality is Tom's area. Offer Mark the full hospitality deck, and ask him to complete the hospitality brief.*
 
-## 31 · Alpine ★
+## 30 · Alpine ★
 
 Route two: Alpine. This comes from Alpine's own presentation to us.
 
@@ -318,7 +304,7 @@ And it's entering its biggest commercial era. From 2027 the team races as Gucci 
 
 The offer to Adyen: exclusive financial technology platform partner, 2027 to 2029, £10 million in 2027, with 56 Paddock Club tickets a year.
 
-## 32 · Alpine's fans
+## 31 · Alpine's fans
 
 Who would Adyen be talking to? Alpine's own numbers, from GWI, Nielsen and Blinkfire.
 
@@ -326,7 +312,7 @@ Who would Adyen be talking to? Alpine's own numbers, from GWI, Nielsen and Blink
 
 And on the right, Alpine's two strongest fan groups are executive purchasers, at almost four times the average person, and early adopters of new technology, at three times. Enterprise buyers and early adopters: that's Adyen's customer list.
 
-## 33 · Alpine makes partnerships pay
+## 32 · Alpine makes partnerships pay
 
 And Alpine knows how to make a partnership pay back.
 
@@ -338,15 +324,15 @@ That's the machine Adyen would plug into.
 
 **Ask Mark:** Exclusive at Alpine, or non-exclusive with Max: how much is exclusivity worth to Peter?
 
-## 34 · How Adyen would power Alpine
+## 33 · How Adyen would power Alpine
 
 Alpine's plan for Adyen follows the same four steps. Power: Adyen runs the team's new online store, with fan rewards on top. That's your online payments, checkout and local payment methods, welcoming every fan with their preferred way to pay. Prove: films and features on the integration, and a live lab at the Enstone factory for your customers. Experience: a race-week showcase with an Adyen customer in a Grand Prix city, with online and in-person payments in one place. Convert: a C-level club at the races, and a forum with Alpine's partners.
 
-## 35 · Alpine rights overview
+## 34 · Alpine rights overview
 
 *Highlights only.* Branding on the engine cover and halo. Time with the drivers and senior team. Content and case studies. And a strong hospitality programme: 56 Paddock Club tickets a year, factory tours at Enstone, a driving day, and introductions to Alpine's partners. The full list is there for reference.
 
-## 36 · Scuderia Ferrari
+## 35 · Scuderia Ferrari
 
 Route three, briefly: Ferrari.
 
@@ -356,7 +342,7 @@ The question for Ferrari is the same one we asked of Alpine and Max: which parts
 
 **Ask Mark:** Where are we on the NDA? If it's signed this week, Ferrari can share what we need before you see Peter.
 
-## 37 · Next steps ★
+## 36 · Next steps ★
 
 Six steps from here. Your review with Peter. Your feedback, including on the hospitality programme. Refine the rights. Decide on Ferrari. Then the contract and integration plan, and launch.
 
@@ -366,7 +352,7 @@ Six steps from here. Your review with Peter. Your feedback, including on the hos
 
 **Ask Mark:** And once Peter says yes, who else at Adyen should be in the room?
 
-## 38 · Sources and notes
+## 37 · Sources and notes
 
 *Keep this slide for reference. If Mark asks where a number comes from, it's here, and the speaker notes on each slide carry the full detail.*
 
@@ -399,7 +385,7 @@ Honest answer: modest, and it isn't the headline. Max's ticketing volumes are on
 For volume alone, football is cheaper and more accessible. But it's crowded with your competitors, it's seasonal, and it doesn't put Adyen in a room with this calibre of buyer every race weekend for ten months.
 
 **"Aren't we just following Stripe and Airwallex?"**
-No. They're behind the scenes or on a logo. Adyen's seat is the commerce fans see, live at the races (slide 16).
+No. They're behind the scenes or on a logo. Adyen's seat is the commerce fans see, live at the races (slide 15).
 
 **"How does this pay for itself?"**
 Through hospitality and pipeline: one programme replacing today's market-by-market hosting, and the deals that close in those rooms. Komatsu, HPE and Businessolver have measured it (say it, don't show it).
