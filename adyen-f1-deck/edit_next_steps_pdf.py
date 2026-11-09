@@ -13,8 +13,8 @@ import pymupdf
 src, out, pno = sys.argv[1], sys.argv[2], int(sys.argv[3])
 BOLD = "/usr/share/fonts/truetype/crosextra/Carlito-Bold.ttf"
 STEPS = [("Meeting with the Chairman", "Week of 9 November 2026"),
-         ("Revisit the rights package", None),
-         ("Contracting", None),
+         ("Revisit the rights package", "End of November 2026"),
+         ("Contracting", "15 December 2026"),
          ("Launch in Milan", "February 2027")]
 GREEN, NAVY, WHITE = (0.0392, 0.749, 0.325), (0.0, 0.0667, 0.173), (1, 1, 1)
 DEEP, LINE = (0.0275, 0.6039, 0.2667), (0.835, 0.855, 0.878)
