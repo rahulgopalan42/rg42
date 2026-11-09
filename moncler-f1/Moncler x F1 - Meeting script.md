@@ -1,328 +1,351 @@
 # Moncler × Formula 1: meeting script
 
-**What this is.** The script for presenting our "Moncler × Formula One" deck. This is our second conversation. In the discovery call we listened, asked questions and built the brief. We promised to come back with recommendations. Today we keep that promise.
+**What this is.** The script for presenting our "Moncler × Formula One" deck in person. It is our second meeting. In the discovery call we listened and built the brief. Today we bring back our recommendations.
 
-**Who is in the room.** The Moncler team is Italian, and English is not their first language. So every line here is short and simple. Read the **Remember** line, look up, and talk. **Ask Moncler** is where you stop and let them speak. Lines in *italics* are notes for you, not to say.
+The agenda: three parts, about 30 minutes.
+1. Why Formula 1: the opportunity, the fans, and why it fits Moncler. Slides 2 to 11, about 10 minutes.
+2. Our recommendations: why a driver, four drivers, and three teams. Slides 12 to 26, about 15 minutes.
+3. Next steps. Slides 27 and 28, about 5 minutes.
 
-How to speak in this meeting:
+**Tone.** Calm and factual. This is advice, not a sales pitch. Let the facts do the work. Say "we think" and "our recommendation is", never "amazing" or "incredible". If a point is weak, say so: it makes the strong points more believable.
+
+How to speak in this meeting (the Moncler team is Italian; English is not their first language):
 1. One idea per sentence. Then stop.
 2. Speak slowly. Pause after every number and every name.
-3. Use their words: Moncler Collection, Grenoble, Genius, the mountain.
-4. No idioms and no slang. Say "it is very popular", not "it is huge right now".
-5. Say the number, then say what it means.
+3. Plain words. No idioms, no slang, no hype.
+4. Say the number, then say what it means.
+5. Use their words: Moncler Collection, Grenoble, Genius, the mountain.
 6. After a question, wait. Silence is fine. They may be translating in their head.
 
 What we told them in the discovery call (build on it, do not repeat it):
-1. We start from Moncler's objectives. We work with teams across the grid, so our advice is neutral. And it costs Moncler nothing: the teams pay our fee.
-2. Luxury has already arrived in F1: Louis Vuitton at Monaco, TAG Heuer at Madrid, Moët on the podium, Brioni dressing Alpine.
+1. We start from Moncler's objectives. We work with teams across the grid, so our advice is neutral, and it costs Moncler nothing: the teams pay our fee.
+2. Luxury is already in F1: Louis Vuitton at Monaco, TAG Heuer at Madrid, Moët on the podium, Brioni dressing Alpine.
 3. The fans are the next luxury customer: young, more and more female, and premium buyers.
-4. Moncler's own story fits: the mountain and Grenoble, the Genius collaborations, Project Mondo G with Mercedes-Benz, and growth in the US and Asia.
-5. There are three doors into F1: the sport, a team, or a driver. Eleri joined the call because the driver door is her world, our athlete department.
+4. Moncler's story fits: the mountain and Grenoble, the Genius collaborations, Project Mondo G with Mercedes-Benz, and growth in the US and Asia.
+5. There are three ways into F1: the sport, a team, or a driver. Eleri joined because drivers are her area, our athlete department.
 6. Next steps were a brief, then grid mapping, then recommendations. And we invited them to a Grand Prix.
 
-**Before the meeting, add their answers.** This script does not know what Moncler told us in the first call. Where you see **[brackets]**, use their own words: what success looks like for them, their priority markets, the customer they want to win next, and their timing. Hearing their own words back is the strongest thing you can do in this meeting.
+**Before the meeting, add their answers.** This script does not know what Moncler told us in the first call. Where you see **[brackets]**, use their own words: their objective, their priority markets, and your timing for the proposal.
 
-**The thread.** Last time we said: "We start from your objectives." Today we show the answer. A driver, as Moncler's face in F1, all year long. And, if they want it, a team around the driver.
-
-**The goal today.** Not a decision. Leave with three things: their honest reaction, a short list (one or two drivers, maybe one team), and an agreed next step.
-
-**Timing.** About 30 minutes. Moncler should speak for at least a third of it. Slides 9 to 11 are one build; treat them as one slide.
+**The goal today.** Not a decision. Leave with their honest reaction, a short list (one or two drivers, maybe one team), and an agreed next step.
 
 ---
 
-## 1 · Opening ★
+## 1 · Opening and agenda ★
 
-**Remember:** Thank them. Remind them of our promise. Today is the answer.
+**Remember:** Thank them. Say why we are here. Give the three parts.
 
-*[Smile. Slow down. A short "grazie" at the start is a nice touch, if it feels natural to you.]*
+*[Smile, sit back, slow down.]*
 
-Thank you for your time today. It is really good to see you again.
+Thank you for your time today. It is good to see you again.
 
-Last time, you told us about Moncler. Where the brand is today, and where you want to go. And we made you a promise. We said: we start from your objectives, and we come back with ideas that fit them.
+In our first conversation, you told us about Moncler: where the brand is today, and where you want to take it. We said we would study that and come back with recommendations. That is what we have today.
 
-So today we come back. This is what we found.
+*[If Eleri and Bjorn are joining:]* Eleri and Bjorn are with us again. Eleri will take you through the drivers.
 
-It is not a contract. It is not a final offer. It is a direction. And we want your honest opinion as we go. If something does not feel like Moncler, please tell us. That helps us more than anything.
+The meeting has three parts. *[Count them on your fingers.]*
 
-*[If Eleri and Bjorn are joining:]* Eleri and Bjorn are with us again. You will hear from Eleri when we come to the drivers. That is her world.
+Part one: why Formula 1. What the sport is today, who the fans are, and why it fits Moncler.
 
-**Ask Moncler:** Before we start: since we last spoke, has anything changed on your side? New priorities, new plans?
+Part two: our recommendations. First, why we suggest a driver. Then four drivers, and three teams.
+
+Part three: next steps.
+
+It takes about thirty minutes. Please stop us at any time. A question in the middle is better than a question at the end.
+
+And this is not a final offer. It is a direction. If something does not feel right for Moncler, please tell us. That is the most useful thing for us.
+
+**Ask Moncler:** Before we start: has anything changed on your side since we last spoke?
+
+## Part 1 · Why Formula 1
+
+*[About 10 minutes. Slides 2 to 11.]*
 
 ## 2 · The opportunity
 
-**Remember:** F1 is one of the most visible worlds on the planet. Moncler can enter it in a credible way.
+**Remember:** A credible way into one of the most visible worlds of sport and culture.
 
-Here is the idea in one sentence. Formula 1 gives Moncler a credible way into one of the most visible worlds of sport and culture.
+Let me start with the idea in one sentence. *[Point to the slide.]* Formula 1 gives Moncler a credible way into one of the most visible worlds of sport and culture.
 
-The important word is "credible". Many fashion brands now appear around F1. Some of them look like guests. The best ones look like they belong there. That is our goal for Moncler.
+The key word is "credible". Many fashion brands now appear around F1. Some look like guests. Others look like they belong. The difference is not the budget. It is the fit. That is what we looked for.
 
 ## 3 · The idea
 
-**Remember:** Not only product in the paddock. A driver who carries Moncler through the whole year.
+**Remember:** Not only product in the paddock. One driver, all year.
 
-So the idea is not only to put product in the paddock. The idea is a driver. A real person who brings Moncler Collection into everyday life: travel, cities, race weekends, and the private moments around the race.
+The simple option is to put product in the paddock. We think that is not enough.
 
-Think about the year of a driver. Twenty-four races. Many countries. Early mornings at cold circuits. Evenings in the most photographed cities in the world. Airports, hotels, long flights.
+Our idea is a driver. One person who carries Moncler Collection through the whole year: travel, cities, race weekends, and the private moments around the race.
 
-Honestly, when we looked at this life, we thought of Moncler straight away. A brand born in the mountains, made for warmth and for travel. This is a natural home.
+The reason is practical. A driver's year is 24 races in many countries. Cold mornings at the circuit. Long flights. Evenings in big cities. That is the life Moncler designs for.
 
 ## 4 · The objective
 
-**Remember:** This is the objective as we understood it. Ask if we got it right.
+**Remember:** The objective as we understood it. Check it with them.
 
-This is the objective we took from our conversation with you. Place Moncler Collection inside global cultural and sporting moments. And introduce the brand to new communities, beyond your existing clients.
+This is the objective we took from our first conversation. *[Read it slowly.]* Place Moncler Collection in global cultural and sporting moments. And introduce the brand to new communities, beyond your existing clients.
 
-The second part is very important. F1 is not only a stage for the clients you already have. It is a way to meet the next ones.
+Everything after this slide answers this objective. So it is important that we got it right.
 
-*[If they gave you a clear objective in the first call, say it back now in their words: "Last time you said **[their words]**. This is how we built on it."]*
+*[If they gave a clear objective in the first call, say it in their words: "Last time you said **[their words]**."]*
 
-**Ask Moncler:** Did we understand this correctly? Is something missing, or would you say it differently?
+**Ask Moncler:** Is this correct? Would you change anything?
 
 ## 5 · Why Formula One?
 
-So, why F1? And why now?
+So, part one. Why Formula 1?
 
 ## 6 · What F1 has become
 
-**Remember:** Sport, fashion, travel, technology and entertainment. And people discover it on social media first.
+**Remember:** F1 is now sport, fashion, travel, technology and entertainment, and much of it is told on social media.
 
-Today, F1 is much more than a race. It is sport, fashion, travel, technology and entertainment, all together. And most people now discover it on their phone, through social media.
+Ten years ago, F1 was mainly a race on television. Today it is sport, fashion, travel, technology and entertainment together. And much of the story is now told on social media first.
 
-This is the big change. The story off the track is now as important as the race. When the drivers arrive at the circuit, the cameras are already waiting. We call it the paddock walk. It is photographed like a fashion show.
-
-As we said last time, it is like a runway. And it happens at every race. So, twenty-four times a year.
+One moment shows this change clearly: the paddock walk. The drivers arrive at the circuit, and the photographers are waiting, like at a fashion show. It happens at every race. So, 24 times a year.
 
 ## 7 · Scale
 
-**Remember:** Almost one billion fans. Young. Many women. And millions of people at the races.
+**Remember:** Almost one billion fans. 43% under 35. 42% women. 6.7 million at the races.
 
-Now some numbers. *[Slowly.]*
+Four numbers. *[Slowly. Point to each box.]*
 
-982 million fans around the world. That is almost one billion people.
+982 million fans. Almost one billion people.
 
-43% of them are under 35. And 42% are women.
+43% are under 35.
 
-And 6.7 million people went to the races across the season.
+42% are women.
 
-So F1 gives Moncler two things at the same time. Global reach, on screens everywhere. And real moments, in important cities, with real people. Very few platforms give you both.
+And 6.7 million people at the races across the season.
+
+For Moncler, the two numbers in the middle matter most: young people, and women. These are the luxury clients of the next ten years.
+
+The last number matters too. These are real people who travel to a city for three days. And many race cities are also important luxury cities: Miami, Las Vegas, Shanghai, Singapore, Monaco.
+
+So F1 gives you two things together: global reach on screens, and physical moments in key cities.
 
 *Cue: the deck gives no source for these figures, and in the first call you used 827 million fans. See the questions at the end. Get the sources from the deck's author before the meeting.*
 
 ## 8 · The audience
 
-**Remember:** F1 fans love fashion, buy premium and earn more. More than football fans. More than basketball fans.
+**Remember:** F1 is ahead of football and basketball on all four. The biggest gap is buying premium.
 
-For a luxury house, this is the most important slide. It compares F1 fans with football fans and basketball fans. The number 100 is the average person. Above 100 means more than average.
+For a luxury brand, this is the key slide. It compares F1 fans with football fans and basketball fans. 100 is the average person.
 
-Look at the four boxes.
+*[Pause. Let them read.]*
 
-Interest in fashion: F1 fans are at 115. Higher than basketball. Higher than football.
+On all four measures, F1 fans are ahead of both. Interest in fashion. Buying premium. Paying more for quality. And high income.
 
-Buying the premium version of a product: 132. So about one third more than the average person.
+But look where the gap is biggest. *[Point to 132.6.]* Buying the premium version of a product. F1 fans are at 132. Football fans are at 112. That is a gap of about twenty points.
 
-Paying more for quality: 108. And being in the highest income group: 123.
+Why does this matter? Income tells you what people can spend. This number tells you what they choose to buy. For a premium brand, the choice matters more than the income.
 
-You know football very well in Italy. On all four of these, F1 is ahead of football. And it is ahead of basketball too, the sport people usually call "the fashion sport". *[Pause.]*
+To be fair, on "pay more for quality" the difference is small: 108 against 104. We would not build the case on that one. The case is fashion interest, premium buying, and income.
 
-So F1 is not only a big audience. It is the right audience for a house like Moncler.
-
-**Ask Moncler:** Does this match what you see in your own clients? Where are you strong today? And where do you want to grow?
+**Ask Moncler:** Does this match your own client data? Where are you strong today, and where do you want to grow?
 
 ## 9–11 · Five reasons ★
 
-**Remember:** Culture. New luxury clients. Stories all year. Global and local. Fans who welcome partners.
+**Remember:** Culture. A new luxury audience. Stories all year. Global and local. Fans accept partners.
 
-Five reasons why this works for Moncler. I will be quick.
+Five reasons why this fits Moncler. The short version.
 
-One: culture. A race weekend today is a cultural event. Fashion, music, hospitality, nightlife. Artists and celebrities walk the paddock. It goes far beyond the track.
+One: culture. A race weekend is now a cultural event: fashion, music, hospitality, nightlife.
 
-Two: a new luxury audience. Young, and more and more balanced between men and women. Moncler can meet the luxury clients of tomorrow, without losing anything of its premium position.
+Two: a new luxury audience. Younger, and more balanced between men and women. Moncler can reach them without changing its premium position.
 
-Three: stories all year. Twenty-four races means twenty-four big moments. And between the races, the driver's travel and training fill the gaps.
+Three: stories all year. 24 races give you 24 moments. Between the races, the driver's travel and training keep the story going.
 
-Four: global and local. One brand idea for the whole world. But you choose where to activate: your key markets, your stores, your moments. Last time we spoke about the US and Asia. F1 has three races in the United States, and races in China, Japan and Singapore. *[If they named other markets in the first call, name them here: **[their markets]**.]*
+Four: global and local. One idea for the whole world, activated only where you choose: your markets, your stores. Last time we talked about the US and Asia. There are three races in the US, and races in China, Japan and Singapore. *[If they named other markets in the first call: **[their markets]**.]*
 
-Five: fans welcome partners. In the 2025 Global F1 Fan Survey, 76% of fans said sponsors make the sport better. That is three fans out of four. But only when the partnership feels authentic, and adds something real.
+Five: fans accept partners. In the 2025 Global F1 Fan Survey, 76% of fans said sponsors make the sport better. Three out of four. The condition is that the partnership feels authentic and adds something. That is why we focus on fit, not on visibility.
 
-**Ask Moncler:** Which markets, cities or stores would you want to start with?
+**Ask Moncler:** Which markets or stores would you start with?
+
+*[Close part one:]* That was part one: why Formula 1. Now part two: our recommendations.
+
+## Part 2 · Our recommendations
+
+*[About 15 minutes. Slides 12 to 26. If Eleri presents the drivers, hand over at slide 12 or at slide 18.]*
 
 ## 12 · Why partner with an F1 driver?
 
-**Remember:** Last time: three doors. Our answer: start with the driver.
+**Remember:** Three ways in. We recommend starting with a driver.
 
-Last time, we explained the three doors into F1. The sport itself. A team. Or a driver.
+Last time, we described three ways into F1: the sport itself, a team, or a driver.
 
-After the brief, we believe the best first door for Moncler is the driver. A team can come with it, and I will show you that later. But first, the driver. Let me explain why.
-
-*[If Eleri is presenting the driver section, hand over here: "Eleri, over to you."]*
+Our recommendation is to start with a driver. A team can be added. Let me explain the reasoning in five short points.
 
 ## 13 · A human point of view
 
-**Remember:** A logo cannot wear a jacket. A driver can.
+**Remember:** The arrival is the driver's moment. That is Moncler's moment.
 
-A driver gives Moncler a human face inside F1.
+A logo can be seen. But it cannot wear a jacket, travel, or tell a story. A driver can.
 
-A logo cannot wear a jacket. A logo cannot travel, or tell a story. A driver can. The driver wears the brand, lives in it, and talks about it. At the track, at the airport, in the city.
+There is also a practical reason. At the circuit, drivers wear team clothing for most of the weekend. The arrival is different. On arrival, the driver chooses the clothes. And the arrival is the most photographed moment of the weekend. For a fashion brand, that is the moment that matters.
 
-And you already know this way of thinking. With Project Mondo G, you showed that even a car can become a Moncler piece. A driver is the next step. Not an object this time. A person, wearing Moncler, twenty-four weekends a year.
+You already know this way of thinking. With Project Mondo G, you turned a car into a Moncler piece. A driver is the same idea, with a person.
+
+*Cue: check each driver's team rules on what they wear on arrival.*
 
 ## 14 · Authentic integration
 
-**Remember:** Moments that already happen: arrivals, travel, client events, fashion weeks.
+**Remember:** The moments already exist: arrivals, travel, client events, fashion weeks.
 
-With a driver, Moncler becomes part of F1 culture. Not a sponsor standing on the side.
+With a driver, Moncler does not need to create moments. They already exist. The arrival at the circuit. The flight to the next race. A client event. A fashion week.
 
-Think of the moments that already happen. The arrival in the paddock. The flight to the next race. A client event. A fashion week. In each one, Moncler is there, in a natural way. Nothing is staged. And every moment reflects the brand's lifestyle and heritage.
+Moncler is simply there, worn by the same person each time. Nothing looks staged. That is what makes it credible.
 
 ## 15 · Human storytelling
 
-**Remember:** Ambition, resilience, excellence. These are Moncler values too.
+**Remember:** The driver's journey carries Moncler's values: ambition, resilience, excellence.
 
-Drivers live with ambition, resilience and excellence. These are Moncler values too.
+Drivers live with ambition, resilience and excellence. Moncler is built on the same values.
 
-Every driver has a personal journey. Years of work. Risk. Victories, and defeats. That journey can tell Moncler's story: the heritage, the craft, the performance. People do not only see it. They feel it.
+A driver's career has years of work, risk, wins and losses. People follow that story over many years. Moncler's heritage, craft and performance can live inside it.
 
 ## 16 · A 365-day platform
 
-**Remember:** Not only race weekends. All year.
+**Remember:** A sponsor is seen on race weekends. A driver is seen all year.
 
-F1 is not only race weekends anymore. A driver gives you moments all year. The races, of course. But also training, travel, interviews, fashion weeks, cultural events and store openings.
-
-So Moncler is visible through the whole year. Not only on Sundays.
+A sponsor is visible on race weekends. A driver is visible all year: races, training, travel, interviews, fashion weeks, store openings. The winter months too, when there are no races.
 
 ## 17 · People connect with people
 
-**Remember:** People connect with people, not with logos.
+**Remember:** People follow people, not logos.
 
-And the simplest point of all. People build relationships with people, not with logos.
+The last point. People build relationships with people, not with logos. A driver gives Moncler a face that many people already follow. That brings new audiences to the brand, outside your current clients.
 
-A driver gives Moncler a face that people like and admire. That creates affection for the brand. And it opens the door to new audiences, outside your current clients.
-
-**Ask Moncler:** How do you work with ambassadors today? And how do you know when an ambassador is working well?
+**Ask Moncler:** How do you work with ambassadors today? And how do you measure whether it works?
 
 ## 18 · Driver recommendations ★
 
-**Remember:** Four drivers. Two stars of today. Two stars of tomorrow.
+**Remember:** Two established, two emerging. The real choice is now or later.
 
-We chose four drivers. Think of them on a line.
+We chose four drivers. Two are established. Two are young. *[Point left, then right.]*
 
-On one side, two established names. They bring recognition today. On the other side, two young talents. They bring a longer story, and the chance to grow together with Moncler.
+The real choice is about time. With an established driver, you pay for recognition today. With a young driver, you pay less today and share the growth. The risk is that a young career may not grow as expected. Both are valid. It depends on your objective.
 
-*Cue: availability and each driver's personal contracts still need checking. If they ask, say it clearly, the same way as last time: we do not promise availability today; we check first, then we recommend.*
+*Cue: availability and personal contracts are not checked yet. If asked, say it the same way as last time: we do not promise availability today; we check first, then we recommend.*
 
 ## 19 · Carlos Sainz
 
-**Remember:** Timeless. Proven. Elegant, but quiet.
+**Remember:** Proven, respected, understated.
 
-Carlos Sainz. In Italy, you know Carlos well: four seasons in red, at Ferrari.
+Carlos Sainz. You know Carlos from four seasons at Ferrari.
 
-For us, Carlos means timeless excellence. A race winner. One of the most respected drivers in the paddock. Precise, strong, consistent. And the style is elegant, but never loud. That feels very Moncler: quality that does not follow trends.
+A race winner, and one of the most respected drivers in the paddock. Precise, consistent, calm. The style is elegant but understated: quality that does not follow trends. And Carlos has a real connection to travel and performance.
 
-Carlos also has a real connection to travel and to performance. A very credible face for Moncler's heritage.
+One more fact. Carlos now drives for Williams, one of the teams we recommend. I will come back to that.
 
 ## 20 · Charles Leclerc
 
-**Remember:** Where top performance meets modern luxury.
+**Remember:** The best-known name: top performance and fashion credibility.
 
-Charles Leclerc. In Italy, Charles needs no introduction.
+Charles Leclerc. In Italy, no introduction is needed.
 
-Charles stands where top sport meets modern luxury. One of the most famous faces in F1. Naturally elegant, with real credibility in fashion.
+Charles is one of the most recognised faces in F1, with an elegant image and real fashion credibility. Charles moves easily between the circuit, luxury events and fashion editorials.
 
-And Charles moves easily between three worlds: the race track, luxury events, and fashion editorials. That mix of performance, innovation and style is very close to Moncler.
+For Moncler: of these four, probably the best-known name from the first day. Recognition at this level comes at a higher price.
 
-*Cue: Charles drives for Ferrari. Check any limits the team places on personal fashion deals before the meeting.*
+*Cue: Charles drives for Ferrari. Check any team limits on personal fashion deals before the meeting.*
 
 ## 21 · Arvid Lindblad
 
-**Remember:** The future. Young, multicultural, a long partnership.
+**Remember:** Young, multicultural, modern. A long-term partnership.
 
-Arvid Lindblad is about the future. One of the most exciting young talents in the sport. Ambitious, creative, and not afraid to be different.
+Arvid Lindblad. One of the most promising young drivers in the sport. Ambitious, and not afraid to do things differently. Arvid's background is multicultural, and the outlook is modern.
 
-Arvid's background is multicultural, and the outlook is very modern. With Arvid, Moncler could build a long partnership. A bridge between the heritage of the brand and the future of sport and culture.
+For Moncler: a long partnership. Moncler could be there from the beginning, and grow with Arvid.
 
-*Cue: Arvid races for Racing Bulls, whose fashion partner is Hugo Boss. Check what that means for a personal deal before the meeting.*
+*Cue: Arvid races for Racing Bulls, whose fashion partner is Hugo Boss. Check what that means for a personal deal.*
 
 ## 22 · Oliver Bearman
 
-**Remember:** Young, modern, natural on camera. A growing name in fashion.
+**Remember:** Young, natural on camera, growing in fashion.
 
-Oliver Bearman. Young, authentic and modern. Younger audiences love Oliver.
+Oliver Bearman. A fast rise through motorsport, which shows determination. Oliver connects well with younger audiences, is growing in fashion, and is natural in front of the camera.
 
-Oliver rose very fast through motorsport. That shows determination, and the wish to be excellent. Exactly what Moncler stands for. Oliver is more and more present in fashion, and very natural in front of the camera. A modern way to express Moncler's sporting heritage.
+For Moncler: a younger, modern face for the brand's sporting heritage.
 
-So, here is the choice. *[Pause.]* Carlos and Charles bring recognition now. Arvid and Oliver bring a story you build together. And the earlier a brand starts with a young talent, the more of that rise belongs to the brand. Some brands choose both: one face of today, and one face of tomorrow.
+*[Summarise the four calmly:]* So: Carlos and Charles for recognition now. Arvid and Oliver for a story that grows over time. Some brands take one of each.
 
-**Ask Moncler:** Which of these four feels most like Moncler? And would you prefer one face, or two?
+**Ask Moncler:** Which of the four feels closest to Moncler? One face, or two?
 
 ## 23 · Team recommendations
 
-**Remember:** Three teams. Three very different deals.
+**Remember:** A driver gives you a face. A team gives you a place.
 
-A driver can work alone. But some brands also want a team, because a team gives more. Hospitality. The garage. The team's name and images for your campaigns and stores.
+Now the teams. A simple way to see the difference: a driver gives you a face. A team gives you a place. Hospitality, the paddock, the garage, and the team's name and images for your campaigns and stores.
 
-Remember the passes we spoke about last time: the passes work all three days, so seven passes can host twenty different guests in one weekend.
+On hospitality, remember the point from last time. The passes work all three days, so seven passes can host twenty different guests in one weekend.
 
-Here are three teams. Each one is a very different kind of partnership.
+We recommend three teams, and they are three different deals. The general rule: the more successful the team, the higher the price, and the less room you have to shape the partnership.
 
 *Cue: as we told them in the first call, a team's racewear is a separate contract, held by sportswear brands. The luxury space next to it is its own category. Do not promise that any category is open.*
 
 ## 24 · McLaren
 
-**Remember:** Join a winner with real cultural power.
+**Remember:** The winner. Most visibility, highest price, least room to shape.
 
-McLaren. One of the oldest and most successful teams in F1, based in England. They won the team championship in 2024 and in 2025. And Lando Norris won the drivers' title in 2025. The drivers are Lando Norris and Oscar Piastri.
+McLaren. One of the oldest and most successful teams in F1. Team champions in 2024 and 2025, and Lando Norris won the 2025 drivers' title. The drivers are Lando Norris and Oscar Piastri. Young, fashion-aware fans, and experience with lifestyle and apparel partners.
 
-McLaren is very active commercially. The fans are young and fashion-aware. And the team already has experience with lifestyle and fashion partners. With McLaren, Moncler joins a winning team with real cultural power.
+For Moncler: a link with a winning team. The trade-off: many partners already, and a premium price.
 
 *Cue: check the 2026 results before the meeting. The slide says McLaren is "at the top of the sport right now"; make sure that is still true.*
 
 ## 25 · Audi
 
-**Remember:** A brand-new team. Moncler as a founding luxury partner.
+**Remember:** The new team. A founding partner, with a Swiss base and an Alpine fit.
 
-Audi. A new team, building its brand from zero. So Moncler would not be one name among many. Moncler could be a founding luxury partner, there from the very beginning.
+Audi. A new team, building its brand now. Moncler would not be one name among many. Moncler could be the founding luxury partner.
 
-And the fit is natural. European premium design. Precise engineering. And the team's base is in Switzerland, close to the Alps. That speaks directly to Moncler Grenoble, and to the mountain.
+The team's base is in Switzerland. European design, precise engineering, and the Alps: a natural fit with Moncler Grenoble.
+
+The trade-off: a new team needs time to win.
 
 ## 26 · Williams
 
-**Remember:** Heritage, a comeback story, and more control for Moncler.
+**Remember:** The comeback. Lower cost, more control, and the link with Carlos.
 
-Williams. A historic British team, founded in 1977. Today it is rebuilding, with strong investment, under the team principal James Vowles. The drivers are Carlos Sainz and Alex Albon.
+Williams. A historic British team, founded in 1977. Now in a well-funded rebuild under team principal James Vowles. The drivers are Carlos Sainz and Alex Albon.
 
-Williams brings heritage, and a comeback story. People love a comeback. And the entry cost is lower than at a top team. So Moncler gets more visibility, and more control over how the partnership looks.
+For Moncler: a lower entry cost than a top team, more visibility for the money, and more say in how the partnership looks. And, as I said, Carlos drives for Williams. So the team and the driver could be one story.
 
-And here is a nice link. Carlos Sainz drives for Williams. So Williams and Carlos could become one single story for Moncler.
+So, three options. Join the winner. Be a founder. Or shape a comeback.
 
-So: three teams, three strategies. Join a winner. Build with a newcomer. Or shape a comeback, with more control.
+**Ask Moncler:** Driver, team, or both? And which option is closest to how Moncler likes to work?
 
-**Ask Moncler:** Driver, team, or both? And which of these three strategies feels most like Moncler?
+*[Close part two:]* That was part two, our recommendations. Now part three: next steps.
+
+## Part 3 · Next steps
+
+*[About 5 minutes. Slides 27 and 28.]*
 
 ## 27 · The close ★
 
-**Remember:** A global platform where performance, style and modern culture meet.
+**Remember:** One sentence: performance, style and modern culture.
 
-So, to close. Formula 1 is a global platform. It is the place where performance, style and modern culture meet.
+To summarise in one sentence. *[Point to the slide.]* F1 is a global platform where performance, style and modern culture meet.
 
-With the right driver, Moncler does not simply sponsor F1. Moncler becomes part of how F1 looks and feels. All year long.
+With the right driver, Moncler is not only a sponsor. Moncler becomes part of how the sport looks, all year.
 
 ## 28 · Next steps
 
-Here is what we suggest. Three simple steps, like last time.
+Three steps, like last time.
 
-First, your feedback. Today, or in the next few days. Which drivers, which teams, which direction.
+One: your feedback. Which drivers, which teams, which direction. Today, or in the next few days.
 
-Second, we check everything for your short list. Availability, existing contracts, the exact category, and the cost.
+Two: we check your short list. Availability, existing contracts, the exact category, and the cost.
 
-Third, we come back with a proposal made only for Moncler. Your markets, your calendar, your objectives. **[Say when: e.g. "within three weeks".]**
+Three: we come back with a proposal for Moncler only. **[When: e.g. "within three weeks".]**
 
-And as always, our advice costs you nothing. The teams pay our fee.
+As before, our work costs you nothing. The teams pay our fee.
 
-One more thing. Last time we invited you to a Grand Prix. The invitation is still open, and now it has a purpose. Come and see the paddock with these options in mind. And Monza is less than one hour from your office in Milan. *[Name a race you can really offer.]*
+And the invitation from last time is still open. Be our guests at a Grand Prix, and see the paddock with these options in mind. Monza is less than one hour from Milan. *[Name a race you can really offer.]*
 
-**Ask Moncler:** Who else at Moncler should join the next conversation? And is there a moment in your calendar we should build towards: a show, a launch, a store opening?
+**Ask Moncler:** Who else at Moncler should be in the next meeting? And is there a date we should work towards: a show, a launch, a store opening?
 
-*[Last words, warm and simple:]* Thank you very much. We really enjoyed preparing this for you. Grazie.
+*[End simply:]* Thank you. Grazie.
 
 ---
 
@@ -340,13 +363,13 @@ One more thing. Last time we invited you to a Grand Prix. The invitation is stil
 ## Questions Moncler may ask, and simple answers
 
 **"Last time you said 827 million fans. Now it is 982 million. Which one is right?"**
-Good question. Different studies count fans in different ways. 827 million came from one study; the deck uses a wider count. Both tell the same story: a very large audience, and it is still growing. We will send you both sources. *[Say this only once you know the deck's source.]*
+Good question. Different studies count fans in different ways. 827 million came from one study; the deck uses a wider count. Both say the same thing: a very large audience, and still growing. We will send you both sources. *[Say this only once you know the deck's source.]*
 
 **"Isn't F1 too masculine for Moncler?"**
 Ten years ago, maybe. Today 42% of fans are women, and 43% are under 35. Race weekends are now fashion and culture events. And with a driver, Moncler controls the image: what the driver wears, where, and how it is photographed.
 
 **"Will we be just one of many fashion brands in the paddock?"**
-That is why the choice is important. We look for a driver with no competing luxury deal, and we write exclusivity for your category into the contract. In your category, you are the only one. And at Audi, Moncler could be there from the start.
+That is why the choice matters. We look for a driver with no competing luxury deal, and we write exclusivity for your category into the contract. In your category, you are the only one. At Audi, Moncler could also be there from the start.
 
 **"Why not just send product to a driver?"**
 A gift gives you one photo. A partnership gives you a story: the driver's travel and life between races, the right to use the images in your campaigns and stores, and a calendar of moments we plan together.
@@ -358,13 +381,13 @@ It depends on the driver or the team, and on the rights. As we said last time, t
 Same answer as last time. We do not promise it today. First we check the driver's existing contracts and the team's rules. Then we come back with a clear answer.
 
 **"Is this for Moncler Collection or for Grenoble?"**
-Mainly Moncler Collection, because the objective is cultural moments and new audiences. But Grenoble fits naturally too: the cold races, the mountain, and Audi's Swiss base. It can come in at a later stage.
+Mainly Moncler Collection, because the objective is cultural moments and new audiences. Grenoble fits too: the cold races, the mountain, and Audi's Swiss base. It can come in at a later stage.
 
 **"How do we measure success?"**
 Against your objective, and we agree the measures at the start. For example: media value, social engagement, visits to stores in race cities, new clients, and sales of the pieces the driver wears.
 
 **"Which driver would you choose?"**
-It depends on your objective. For recognition now: Charles or Carlos. For a long story that Moncler helps to shape: Arvid or Oliver. If you want both, one of each.
+It depends on your objective. For recognition now: Charles or Carlos. For a story that Moncler helps to shape: Arvid or Oliver. If you want both, one of each.
 
 **"Where does the data come from?"**
 The 76% is from the 2025 Global F1 Fan Survey. For the other figures, give the sources from the deck's author. If you do not have them yet, say we will send them straight after the meeting.
