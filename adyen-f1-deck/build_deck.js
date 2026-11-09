@@ -817,17 +817,23 @@ async function build() {
   {
     const s = content("CONTENT", "Hospitality", 1, "F1 pays for itself",
       t("Hospitality is how **F1 pays for itself**: retention, pipeline, new merchants"),
-      "Source: SPORTFIVE; SPORTFIVE team partnership network (Nov 2026); F1 2027 calendar. Photos: team deck.",
+      "Source: SPORTFIVE; SPORTFIVE team partnership network (Nov 2026); F1 2027 calendar. Photos: Max Verstappen × Adyen proposal; Alpine F1 Team presentation; SPORTFIVE hospitality film.",
       "Team deck slide 13, the ultimate B2B platform: exclusive experiences, a qualified audience and visibility with a high-value enterprise buyer universe. 371 partners: SPORTFIVE team partnership network (Nov 2026), the sum of the 11 teams' rosters. 24 race weekends: the 2027 calendar.");
+    // one image per route: Max (his proposal), Alpine (its presentation), Ferrari (SPORTFIVE hospitality film)
     const cols = [
-      ["hosp_hotlap.jpg", "FiHeart", "Client retention", "Exclusive experiences", "Bonds with clients that traditional hosting cannot match."],
-      ["hosp_suite.jpg", "FiTrendingUp", "Pipeline generation", "A qualified audience", "C-suite decision-makers, in market, at every race."],
-      ["hosp_terrace.jpg", "FiUserPlus", "Merchant acquisition", "A network of brands", "371 partners on the 11 teams' rosters to meet."],
+      ["hosp_max_orange_army.jpg", "FiHeart", "Client retention", "Exclusive experiences", "Bonds with clients that traditional hosting cannot match.",
+        "Max Verstappen · Orange Army grandstand"],
+      ["alpine_lodge.jpg", "FiTrendingUp", "Pipeline generation", "A qualified audience", "C-suite decision-makers, in market, at every race.",
+        "Alpine F1 Team · the Alpine Lodge"],
+      ["hosp_ferrari_podium.jpg", "FiUserPlus", "Merchant acquisition", "A network of brands", "371 partners on the 11 teams' rosters to meet.",
+        "Scuderia Ferrari · fans at the podium"],
     ];
     const cw = (CW - 0.6) / 3;
-    for (const [i, [img, ic, outcome, head, body]] of cols.entries()) {
+    for (const [i, [img, ic, outcome, head, body, cap]] of cols.entries()) {
       const x = L + i * (cw + 0.3);
-      await photo(s, img, x, 1.95, cw, 2.35, head);
+      await photo(s, img, x, 1.95, cw, 2.35, cap);
+      s.addShape(S.RECTANGLE, { x, y: 1.95, w: cw, h: 0.34, fill: { color: C.text1, transparency: 20 }, line: { color: C.text1, width: 0 } });
+      s.addText(cap, { x: x + 0.12, y: 1.95, w: cw - 0.24, h: 0.34, fontSize: 9.5, bold: true, color: C.background1, margin: 0, isTextBox: true, valign: "middle" });
       await iconDot(s, ic, x + 0.2, 4.05, 0.55);
       s.addText(outcome.toUpperCase(), { x: x + 0.9, y: 4.42, w: cw - 0.9, h: 0.3, fontSize: 11, bold: true, color: C.accent2, charSpacing: 1,
         margin: 0, isTextBox: true });
