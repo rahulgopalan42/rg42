@@ -24,25 +24,51 @@ This is not a final offer. It is a direction. If something does not feel right f
 
 ## 2 · The opportunity
 
-Let me start with the idea in one sentence. Formula 1 gives Moncler a credible way into one of the most visible worlds of sport and culture.
+Let me start with the idea in one sentence. Formula 1 offers Moncler a credible route into one of the most visible cultural and sporting worlds.
 
-The key word is "credible". Many fashion brands now appear around F1. Some look like guests. Others look like they belong. The difference is not the budget. It is the fit.
+Two words matter here: visible, and credible.
+
+Visible first. F1 is no longer only a sport. The Netflix series Drive to Survive, and the F1 film with Brad Pitt in 2025, brought it to people who had never watched a race. The season travels across Europe, Asia, the Americas and Australia. And luxury has noticed. In 2025, LVMH started a ten-year global partnership with Formula 1, with Louis Vuitton, Moët Hennessy and TAG Heuer.
+
+Credible is the harder part. Many fashion brands now appear around F1. Some look like guests. Others look like they belong. The difference is not the budget. It is the fit, and how long you stay.
+
+So our question was not "how can Moncler be seen in F1?" Our question was "how can Moncler belong there?"
 
 ## 3 · The idea
 
-The simple option is to put product in the paddock. We think that is not enough.
+Here is our answer. The opportunity is not simply to place product in the paddock. It is to use a driver as a year-round cultural connector.
 
-Our idea is a driver. One person who carries Moncler Collection through the whole year: travel, cities, race weekends, and the private moments around the race.
+Why not just product in the paddock? Because many brands already send clothes to drivers. It gives you a photo, once. It does not give you a story, and it does not last.
 
-The reason is practical. A driver's year means more than twenty races, in many countries. Cold mornings at the circuit. Long flights. Evenings in big cities. That is the life Moncler designs for.
+A connector is different. The slide names four places where a driver can bring Moncler Collection.
+
+Travel. More than twenty races a year, around the world. Airports, flights, hotels.
+
+City life. Race week does not happen only at the circuit. It happens in the city: Miami, Shanghai, Singapore, Las Vegas, Monaco. The restaurants, the events, the stores.
+
+Race-week style. The arrival at the circuit, photographed at every race.
+
+And the personal moments around elite performance. The preparation, the training, the quiet minutes before and after a race. That is where the most honest images come from.
+
+One more practical point. The season runs from March to December. So one driver covers both your spring-summer and your autumn-winter collections. Las Vegas, for example, races at night in November, when the desert is cold.
 
 ## 4 · The objective
 
-This is the objective we took from our first conversation. Place Moncler Collection in global cultural and sporting moments. And introduce the brand to new communities, beyond your existing clients.
+This is the objective, as we understood it from our first conversation. Position Moncler Collection within globally relevant cultural and sporting moments, while introducing the brand to communities beyond its established client base.
+
+It has two halves, and each half needs something different.
+
+The first half is about where Moncler is seen: in moments that matter around the world, not only in your own stores and shows. Here we would measure the quality of the moments, and the coverage in fashion and sport media.
+
+The second half is about who sees it: new people, beyond your current clients. Here we would measure new clients: how many, how young, and in which markets.
+
+Now look at the products on this slide. Knitwear, a long parka, short down jackets, a wool zip-up, a cardigan. Beanies, bags and boots. Three looks for men, three for women. This is not one product. It is a full wardrobe. And a driver's week needs all of it: the cold morning at the circuit, the flight, the dinner in the city.
+
+The balance between men and women matters too. 42% of F1 fans are women. So this is not only a men's story.
 
 Everything after this slide answers this objective.
 
-**Ask Moncler:** Did we understand this correctly? Would you change anything?
+**Ask Moncler:** Did we understand the objective correctly? Would you change anything?
 
 ## 5 · Why Formula One?
 
@@ -74,7 +100,7 @@ So F1 gives you two things together: global reach on screens, and physical momen
 
 ## 8 · The audience
 
-This slide compares F1 fans with football fans and basketball fans. 100 is the average person.
+The message of this slide: compared with football and basketball, F1 has the highest concentration of affluent, premium-minded and fashion-conscious fans. 100 is the average person.
 
 On all four measures, F1 fans are ahead of both: interest in fashion, buying premium, paying more for quality, and high income.
 
@@ -98,7 +124,7 @@ Three: stories all year. Every race weekend is a moment. Between the races, the 
 
 Four: global and local. One idea for the whole world, activated only where you choose: your markets, your stores. There are three races in the United States, and races in China, Japan and Singapore.
 
-Five: fans accept partners. In the 2025 Global F1 Fan Survey, by Formula 1 and Motorsport Network, 76% of fans said sponsors make the F1 experience better. Three out of four. The condition is that the partnership feels authentic. That is why we focus on fit, not only on visibility.
+Five: commercial receptivity. In simple words, fans welcome partners. In the 2025 Global F1 Fan Survey, by Formula 1 and Motorsport Network, 76% of fans said sponsors make the F1 experience better. Three out of four. The condition is that the partnership feels authentic. That is why we focus on fit, not only on visibility.
 
 **Ask Moncler:** Which markets or stores would you start with?
 
@@ -114,7 +140,9 @@ Our recommendation is to start with a driver. A team can be added. Here is why, 
 
 ## 13 · A human point of view
 
-A logo can be seen. But it cannot wear a jacket, travel, or tell a story. A driver can.
+A driver gives Moncler a recognisable human point of view inside Formula 1.
+
+A logo can be seen. But it cannot wear a jacket, travel, or tell a story. The right driver can wear, interpret and narrate the brand, across racing, travel and culture. That turns a global platform into a personal and credible story.
 
 There is also a practical reason. Inside the circuit, drivers mostly wear team clothing. The arrival is different. What a driver wears on arrival is usually a personal choice, and it is photographed at every race. For a fashion brand, that is the moment that matters.
 
@@ -154,7 +182,7 @@ Availability and existing contracts are not checked yet. We check first, then we
 
 Carlos Sainz. You know Carlos from four seasons at Ferrari.
 
-A race winner, and one of the most respected drivers in the paddock. Precise, consistent and calm. The style is elegant but understated: quality that does not follow trends.
+A race winner, and one of the most respected drivers in the paddock. Precise, resilient and consistent. The style is polished but understated, with global appeal: quality that does not follow trends. And a real connection to travel and performance.
 
 Carlos now drives for Williams, with a multi-year contract. Williams is also one of the teams we recommend. I will come back to that.
 
@@ -162,7 +190,7 @@ Carlos now drives for Williams, with a multi-year contract. Williams is also one
 
 Charles Leclerc. Ferrari driver, born in Monaco. In Italy, no introduction is needed.
 
-Charles is one of the most recognised faces in F1, with an elegant image and real credibility in fashion. Charles moves easily between the circuit, luxury events and fashion editorials.
+Charles is one of the most recognised faces in F1, with an elegant image and real credibility in fashion. Charles moves easily between the circuit, luxury events and fashion editorials. That is Moncler's own mix: performance, innovation and elevated style.
 
 For Moncler: very strong recognition from the first day. Recognition at this level comes at a higher price.
 
@@ -172,11 +200,11 @@ Arvid Lindblad. This is Arvid's first season in F1, with Racing Bulls. One of th
 
 Ambitious, and not afraid to do things differently. Arvid's background is multicultural, and the outlook is modern.
 
-For Moncler: a long-term partnership. Moncler could be there from the beginning.
+For Moncler: a long-term partnership. Moncler could be there from the beginning, connecting the brand's heritage with the future of sport and culture.
 
 ## 22 · Oliver Bearman
 
-Oliver Bearman drives for Haas. A fast rise through motorsport, which shows determination.
+Oliver Bearman drives for Haas. A fast rise through motorsport, which shows determination and adaptability.
 
 Oliver connects well with younger audiences, is growing in fashion, and is natural in front of the camera.
 
@@ -194,7 +222,7 @@ We recommend three teams. They are three different deals. In general, the more s
 
 ## 24 · McLaren
 
-McLaren. One of the oldest teams in F1, based in England. Team champions in 2024 and 2025, and Lando Norris won the 2025 drivers' title. The drivers are Lando Norris and Oscar Piastri.
+McLaren. One of the oldest teams in F1, based in Woking, in England. Team champions in 2024 and 2025, and Lando Norris won the 2025 drivers' title. The drivers are Lando Norris and Oscar Piastri.
 
 This season, with the new rules, Mercedes has been the strongest team. But McLaren is still one of the most commercially active brands in the sport, with young, fashion-aware fans and experience with lifestyle and apparel partners.
 
@@ -210,11 +238,11 @@ The trade-off: a new team needs time to win.
 
 ## 26 · Williams
 
-Williams. A historic British team, founded in 1977. The team principal is James Vowles. The drivers are Carlos Sainz and Alex Albon.
+Williams. A historic British team from Grove, founded in 1977. The team principal is James Vowles. The drivers are Carlos Sainz and Alex Albon.
 
-2026 has been a difficult season for Williams. That is part of a long rebuild, with strong investment. It is also one reason the entry price is lower than at a top team. For Moncler, that means more visibility for the money, and more say in how the partnership looks.
+Williams brings heritage, and a comeback story. 2026 has been a difficult season for the team. That is part of a long rebuild, with strong investment. It is also one reason the entry price is lower than at a top team. For Moncler, that means more visibility for the money, and more say in how the partnership looks.
 
-And Carlos drives for Williams. So the team and the driver could be one story.
+And Carlos, who has a strong personal style, drives for Williams. So the team and the driver could be one story.
 
 So, three options: join a recent champion, be a founder, or shape a comeback.
 
