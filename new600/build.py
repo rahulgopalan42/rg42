@@ -11,6 +11,10 @@ sys.path.insert(0, H); sys.path.insert(0, os.path.join(R, 'screenrec')); sys.pat
 from excl import why, why_all
 from match import loose, regdom
 from sectors_cb import sector_of, FIT, CONSUMER
+from overrides import SECTOR, GROUP, DROP, ABOUT
+def lookup(d, nm, default=None):
+    b = nm.split(' (')[0].lower()
+    return d.get(nm) or next((v for k, v in d.items() if b.startswith(k.split(' (')[0].lower()) or k.split(' (')[0].lower().startswith(b)), default)
 OUT = sys.argv[1]
 TIER_A = {'United States', 'United Kingdom', 'United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Netherlands', 'Germany', 'Switzerland', 'Japan', 'Singapore',
           'France', 'Italy', 'Spain', 'Monaco', 'China', 'Hong Kong', 'Australia', 'Canada', 'Brazil', 'Mexico', 'India', 'Bahrain', 'Azerbaijan', 'Austria', 'Belgium', 'Hungary'}
@@ -39,6 +43,7 @@ for r in rows:
     ex = why_all(nm, r.get('former_name', ''), web)
     if ex: dropped.append([nm, f'already covered ({ex})']); continue
     if loose(nm) in F1N: dropped.append([nm, 'current F1 sponsor/partner']); continue
+    if lookup(DROP, nm): dropped.append([nm, lookup(DROP, nm)]); continue
     v, fm = num(r.get('valuation_usd_bn')), num(r.get('funding_usd_m'))
     meets = (v or 0) >= 1 or (fm or 0) >= 150
     if not meets: dropped.append([nm, f'below the bar (valuation {v} bn, funding {fm} m)']); continue
@@ -51,7 +56,9 @@ for r in rows:
          'investors': r.get('investors', ''), 'src': r.get('source_url', ''), 'src_note': r.get('source_note', ''), 'conf': r.get('confidence', ''),
          'via': r['via']}
     c['orig_bar'] = 'Yes' if (v or 0) >= 1 or (fm or 0) >= 200 else 'No - USD 150-200M funding'
-    c['sector'] = sector_of(c['about'], nm, c['about'])
+    c['sector'] = lookup(SECTOR, nm) or sector_of(c['about'], nm, c['about'])
+    c['group'] = lookup(GROUP, nm, '')
+    c['about'] = lookup(ABOUT, nm) or c['about']
     yrs = [int(y) for y in re.findall(r'\b(20[0-2]\d)\b', f"{c['round']} {c['val_date']}")]
     c['year'] = max(yrs) if yrs else None
     seen[k] = c
@@ -66,7 +73,8 @@ def rec_pts(y): return 3 if y is None else {2026: 20, 2025: 18, 2024: 15, 2023: 
 for c in out:
     fit = FIT[c['sector']]; consumer = bool(CONSUMER.search(c['about']))
     geo = 8 if c['country'] in TIER_A else 5 if c['country'] in TIER_B else 3
-    c['score'] = round(fit * 4 + cap_pts(c) + rec_pts(c['year']) + geo + (7 if consumer else 0), 1)
+    rec = 12 if c['listed'] != 'Private' else rec_pts(c['year'])
+    c['score'] = round(fit * 4 + cap_pts(c) + rec + geo + (7 if consumer else 0), 1)
     fig = (f"valued USD {c['val']:g}B" + (f" ({c['val_date']})" if c['val_date'] else '')) if c['val'] else f"raised USD {c['fund']:,.0f}M"
     c['why'] = '; '.join(x for x in [f"{c['sector']} (F1 fit {fit}/10)", fig, f"last round {c['round']}" if c['round'] else '',
                                     f"HQ {c['country']}" if c['country'] else '', 'consumer-facing' if consumer else ''] if x)
@@ -80,7 +88,7 @@ TFILL = {'Tier 1': 'C6EFCE', 'Tier 2': 'FFEB9C', 'Tier 3': 'F2F2F2'}
 COLS = [('Rank', 6, 'rank'), ('Tier', 8, 'tier'), ('Priority score (/100)', 10, 'score'), ('Brand', 28, 'brand'), ('Former name', 16, 'former'),
         ('Sector', 26, 'sector'), ('HQ country', 16, 'country'), ('HQ city', 14, 'city'), ('Website', 22, 'web'), ('About the company', 80, 'about'),
         ('Qualifies on', 11, 'basis'), ('Valuation / market cap (USD bn)', 12, 'val'), ('Valuation date', 10, 'val_date'), ('Total equity funding (USD m)', 12, 'fund'),
-        ('Last round', 26, 'round'), ('Listed / private', 14, 'listed'), ('Investors / owner', 30, 'investors'),
+        ('Last round', 26, 'round'), ('Listed / private', 14, 'listed'), ('Investors / owner', 30, 'investors'), ('Part of a group already on your lists', 22, 'group'),
         ('Meets USD 1B valuation or USD 200M funding?', 14, 'orig_bar'), ('Why ranked here', 50, 'why'), ('Source (what it shows)', 40, 'src_note'),
         ('Source URL', 40, 'src'), ('Confidence', 9, 'conf'), ('Found via', 22, 'via')]
 def sheet(wb, title, data):
@@ -91,7 +99,7 @@ def sheet(wb, title, data):
     for c in data:
         ws.append([c.get(k) if c.get(k) not in (None, '') else '' for _, _, k in COLS])
         ws.cell(ws.max_row, 2).fill = PatternFill('solid', fgColor=TFILL[c['tier']])
-        for j in (10, 19, 20): ws.cell(ws.max_row, j).alignment = WRAP
+        for j in (10, 20, 21): ws.cell(ws.max_row, j).alignment = WRAP
     ws.freeze_panes = 'E2'; ws.auto_filter.ref = ws.dimensions
 wb = Workbook(); s = wb.active; s.title = 'SUMMARY'
 n_orig = sum(c['orig_bar'] == 'Yes' for c in out)
@@ -103,8 +111,15 @@ lines = [('NEW BRANDS: valuation USD 1B+ or USD 150M+ equity funding, not on any
           '(CB Insights, Hurun, Wikipedia), listed companies over USD 1B and Apollo/Lusha/Clay funded companies. Of 9,900 Crunchbase companies pulled for this '
           'task (USD 150M+ funding with a round since 2025, PrivCo valuation USD 1B+, every round valued USD 1B+ that raised under USD 150M), only 287 were new, '
           'and most of those were joint ventures, project companies, funds or public bodies.', None),
-         ('Sources: Crunchbase searches (verified company by company on the web) and web research on 2025-26 unicorns, large rounds and USD 1B+ deals. '
-          'Every row has a dated source URL for the qualifying figure.', None),
+         ('Sources: Crunchbase searches (verified company by company on the web), web research on 2025-26 unicorns, large rounds, IPOs and USD 1B+ deals, '
+          'and sweeps of listed mid-caps (USD 1-10B) in China, Hong Kong, Taiwan, Japan and emerging markets, which the earlier market-cap lists did not reach. '
+          'Every row has a dated source URL for the qualifying figure (market caps read on 9-10 Nov 2026; CNY 7.1, HKD 7.8 per USD). '
+          'Descriptions of listed Asian mid-caps are written from research knowledge: check before outreach.', None),
+         (f"{sum(1 for c in out if c['group'])} are listed subsidiaries or brands of a group already on your lists (column 'Part of a group already on your lists'), "
+          'e.g. Kind Snacks (Mars), Casamigos (Diageo). Filter them out if you only want groups that are entirely new.', None),
+         (f"Mix: {sum(1 for c in out if c['listed'] != 'Private')} listed, {sum(1 for c in out if c['listed'] == 'Private')} private; "
+          f"{sum(1 for c in out if c['country'] == 'China')} HQ in China. Many are regional banks, utilities, ports and commodity producers: real money, weaker "
+          'sponsorship fit, so they rank lower.', None),
          ('Priority score (/100) = sector F1 fit x4 (40) + size: funding or valuation (25) + recency of last round/valuation (20) + HQ market (8) + consumer-facing (7). '
           'Tier 1 = top 50, Tier 2 = 51-100, Tier 3 = rest.', None),
          ('', None), ('Tabs', HDR)]
