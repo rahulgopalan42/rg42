@@ -1922,4 +1922,7 @@ async function build() {
   console.log("wrote", OUT);
 }
 
-build().catch((e) => { console.error(e); process.exit(1); });
+// Other builders (e.g. build_payments_landscape.js) reuse the layouts and helpers without building this deck.
+module.exports = { pres, defineLayouts, content, t, card, label, soWhat, iconDot, icon, hc, stat, C, S, W, H, L, R, CW, A, THEME,
+  SHORT_SOURCE, applyTheme };
+if (require.main === module) build().catch((e) => { console.error(e); process.exit(1); });
