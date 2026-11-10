@@ -4,19 +4,21 @@
 
 Thank you for your time today. It is good to see you again.
 
-In our first conversation, you told us about Moncler: where the brand is today, and where you want to take it. We promised to come back with recommendations. That is what we have today.
+In our first conversation, you told us about Moncler: where the brand is today, and where you want to take it. What we show today is based on that first conversation. These are our initial findings.
+
+But today is not only about our findings. We also want to update the brief with you, and define it more clearly. The clearer the brief, the better we can refine our recommendations for Moncler.
 
 The meeting has three parts.
 
 Part one: why Formula 1. What the sport is today, who the fans are, and why it fits Moncler.
 
-Part two: our recommendations. Why we suggest a driver, then four drivers and three teams.
+Part two: our initial recommendations. Why we suggest a driver, then four drivers and three teams.
 
-Part three: next steps.
+Part three: next steps, and how we refine the brief together.
 
 It takes about thirty minutes. Please stop us at any time.
 
-This is not a final offer. It is a direction. If something does not feel right for Moncler, please tell us.
+This is not a final offer. It is a first direction. If something does not feel right for Moncler, please tell us. Your feedback today goes straight into the brief.
 
 **Ask Moncler:** Before we start: has anything changed on your side since we last spoke?
 
@@ -262,11 +264,11 @@ With the right driver, Moncler is not only a sponsor. Moncler becomes part of ho
 
 Three steps.
 
-One: your feedback. Which drivers, which teams, which direction.
+One: we update the brief together, with your feedback from today. Which drivers, which teams, which direction.
 
 Two: we check your short list: availability, existing contracts, the exact category, and the cost.
 
-Three: we come back with a proposal for Moncler.
+Three: we come back with refined recommendations and a proposal for Moncler.
 
 Our work costs you nothing. The teams pay our fee.
 
