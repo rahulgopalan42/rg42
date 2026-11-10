@@ -79,7 +79,7 @@ header {{ border-bottom: 3px solid {RULE}; padding-bottom: 10px; margin-bottom: 
 h1 {{ font-size: 22pt; margin: 4px 0 0; font-weight: 700; }}
 h2 {{ font-size: 13.5pt; margin: 22px 0 6px; padding-top: 10px; border-top: 1px solid #D5DAE0; break-after: avoid; display: flex; align-items: center; gap: 10px; }}
 h2.plain {{ display: block; color: {ACC}; }}
-.num {{ display: inline-block; min-width: 26px; height: 26px; line-height: 26px; text-align: center; border-radius: 13px;
+.num {{ display: inline-block; min-width: 26px; height: 26px; line-height: 26px; text-align: center; border-radius: 13px; padding: 0 7px; box-sizing: border-box; white-space: nowrap;
   background: {INK}; color: #fff; font-size: 10pt; }}
 .key {{ margin-left: auto; font-size: 8pt; font-weight: 700; color: {ACC}; background: {TINT}; border-radius: 10px; padding: 2px 8px;
   letter-spacing: .06em; text-transform: uppercase; }}
