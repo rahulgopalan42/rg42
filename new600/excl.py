@@ -29,6 +29,7 @@ PLACES = ('beijing shanghai shenzhen guangzhou tianjin chongqing hangzhou nanjin
           'taiwan pt bank').split()
 GENERIC_TAIL = re.compile(r'\b(technology|technologies|tech|group|holdings?|industrial|industries|industry|co|company|corp|corporation|'
                           r'limited|ltd|inc|science|sci|development|international|stock|joint|share|shares|tbk|berhad|bhd|plc|ag|sa)\b\.?', re.I)
+GENERIC_WORDS = set('film films media culture advertising foods energy power bank banks dairy brewery liquor wine beverage pharma pharmaceutical medical health airlines airport expressway securities insurance holding holdings electric electronics materials material chemical chemicals industrial logistics shipping property properties realty tourism hotels hotel education fashion apparel textile steel mining metals gold silver resources software network networks motors motor auto automotive'.split())
 def variants(name):
     n = str(name or ''); out = {n}
     out |= {m.strip() for m in re.findall(r'\(([^)]+)\)', n)}
@@ -37,12 +38,18 @@ def variants(name):
     while w and w[0].lower().strip(',') in PLACES: w = w[1:]
     core = ' '.join(w); out.add(core)
     out.add(GENERIC_TAIL.sub(' ', core).strip())
-    return {re.sub(r'\s+', ' ', v).strip() for v in out if len(re.sub(r'[^a-z0-9]', '', v.lower())) >= 4}
+    keep = set()
+    for v in out:
+        v = re.sub(r'\s+', ' ', v).strip(); k = re.sub(r'[^a-z0-9]', '', v.lower())
+        if v == n or (len(k) >= 6 and k not in GENERIC_WORDS) or (len(v.split()) >= 2 and len(k) >= 5): keep.add(v)
+    return keep
 def why_all(name, former='', web=''):
     r = why(name, web)
     if r: return r
     for nm in [name] + ([former] if former else []):
         for v in variants(nm):
+            lv = loose(v)
+            if v != nm and (len(lv) < 5 or lv in GENERIC_WORDS): continue
             r = why(v)
             if r: return f'{r} via "{v}"'
     return ''
