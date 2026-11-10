@@ -8,7 +8,7 @@ from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment
 H = os.path.dirname(os.path.abspath(__file__)); R = os.path.dirname(H)
 sys.path.insert(0, H); sys.path.insert(0, os.path.join(R, 'screenrec')); sys.path.insert(0, os.path.join(R, 'brands200'))
-from excl import why
+from excl import why, why_all
 from match import loose, regdom
 from sectors_cb import sector_of, FIT, CONSUMER
 OUT = sys.argv[1]
@@ -36,7 +36,7 @@ out, seen = [], {}
 for r in rows:
     nm = str(r.get('name') or '').strip(); web = str(r.get('website') or '').strip()
     if not nm: continue
-    ex = why(nm, web) or (why(r['former_name']) if r.get('former_name') else '')
+    ex = why_all(nm, r.get('former_name', ''), web)
     if ex: dropped.append([nm, f'already covered ({ex})']); continue
     if loose(nm) in F1N: dropped.append([nm, 'current F1 sponsor/partner']); continue
     v, fm = num(r.get('valuation_usd_bn')), num(r.get('funding_usd_m'))

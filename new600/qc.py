@@ -5,7 +5,7 @@ from collections import Counter
 from openpyxl import load_workbook
 H = os.path.dirname(os.path.abspath(__file__)); R = os.path.dirname(H)
 sys.path.insert(0, H); sys.path.insert(0, os.path.join(R, 'brands200'))
-from excl import why
+from excl import why, why_all
 from match import loose, regdom
 OUT = sys.argv[1]; d = json.load(open(os.path.join(H, 'build.json'))); main = d['main']
 checks = []
@@ -15,7 +15,7 @@ chk('Ranks run 1..N without gaps', [c['rank'] for c in main] == list(range(1, le
 kn = Counter(loose(c['brand']) for c in main); kd = Counter(c['web'] for c in main if c['web'])
 chk('No company listed twice (name or website)', all(v == 1 for v in kn.values()) and all(v == 1 for v in kd.values()),
     [k for k, v in kn.items() if v > 1] + [k for k, v in kd.items() if v > 1])
-bad = [c['brand'] for c in main if why(c['brand'], c['web']) or (c['former'] and why(c['former']))]
+bad = [c['brand'] for c in main if why_all(c['brand'], c['former'], c['web'])]
 chk('None is on an earlier list, Rahul\'s sheets or the screen recordings (name, former name, variants, website)', not bad, ', '.join(bad))
 f1n = {loose(x[0]) for x in json.load(open(os.path.join(R, 'unicorns', 'ref', 'f1_sponsors_2026.json')))}
 chk('No current F1 sponsor / partner (2026 rosters)', not [c for c in main if loose(c['brand']) in f1n])

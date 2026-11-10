@@ -18,3 +18,31 @@ def why(name, web=''):
             for j in range(len(k) - 1, 5, -1):
                 if k[:j] in NS and len(k) - j <= 3: return 'name variant'
     return ''
+
+# name variants for a stricter check: bracket contents, the name without brackets, and the name without a leading
+# place prefix ("Shenzhen", "Jiangsu", ...) or trailing generic words ("Technology", "Group", ...)
+import re
+PLACES = ('beijing shanghai shenzhen guangzhou tianjin chongqing hangzhou nanjing suzhou wuxi ningbo xiamen fuzhou qingdao jinan '
+          'wuhan changsha chengdu xian zhengzhou hefei kunming dalian shenyang harbin changchun foshan dongguan zhuhai '
+          'jiangsu zhejiang guangdong fujian shandong henan hebei hubei hunan anhui jiangxi sichuan shaanxi shanxi yunnan guizhou '
+          'guangxi hainan liaoning jilin heilongjiang gansu qinghai ningxia xinjiang tibet inner mongolia china chinese hong kong '
+          'taiwan pt bank').split()
+GENERIC_TAIL = re.compile(r'\b(technology|technologies|tech|group|holdings?|industrial|industries|industry|co|company|corp|corporation|'
+                          r'limited|ltd|inc|science|sci|development|international|stock|joint|share|shares|tbk|berhad|bhd|plc|ag|sa)\b\.?', re.I)
+def variants(name):
+    n = str(name or ''); out = {n}
+    out |= {m.strip() for m in re.findall(r'\(([^)]+)\)', n)}
+    base = re.sub(r'\([^)]*\)', ' ', n).strip(); out.add(base)
+    w = base.split()
+    while w and w[0].lower().strip(',') in PLACES: w = w[1:]
+    core = ' '.join(w); out.add(core)
+    out.add(GENERIC_TAIL.sub(' ', core).strip())
+    return {re.sub(r'\s+', ' ', v).strip() for v in out if len(re.sub(r'[^a-z0-9]', '', v.lower())) >= 4}
+def why_all(name, former='', web=''):
+    r = why(name, web)
+    if r: return r
+    for nm in [name] + ([former] if former else []):
+        for v in variants(nm):
+            r = why(v)
+            if r: return f'{r} via "{v}"'
+    return ''
