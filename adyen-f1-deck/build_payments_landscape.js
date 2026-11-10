@@ -14,34 +14,35 @@ D.SHORT_SOURCE["Financial services landscape"] = "Source: Formula 1; teams; part
 
 // Formula 1 first, then the teams A–Z; brands in the order of the deal's prominence (title partners first)
 const BRANDS = [
-  ["Formula 1", ["American Express", "Santander", "Standard Chartered", "Crypto.com"]],
-  ["Alpine", ["eToro", "Mobilize Financial Services", "BlockDAG"]],
+  ["Formula 1", ["American Express", "Santander", "Standard Chartered", "Crypto.com", "Marsh"]],
+  ["Alpine", ["eToro", "Mobilize Financial Services"]],
   ["Aston Martin", ["Coinbase", "CoinPayments", "Pepperstone", "Public"]],
-  ["Audi", ["Revolut", "Nexo"]],
+  ["Audi", ["Revolut", "Nexo", "Libertex"]],
   ["Cadillac", []],
-  ["Ferrari", ["UniCredit", "BingX"]],
-  ["Haas", ["IC Markets", "Zoomex"]],
-  ["McLaren", ["Mastercard", "Airwallex", "OKX", "FxPro"]],
-  ["Mercedes", ["Stripe", "Nu", "Nasdaq"]],
+  ["Ferrari", ["UniCredit", "Aon", "ZCG", "Vantage Markets", "BingX"]],
+  ["Haas", ["Bradesco", "IC Markets", "Orion180", "Zoomex"]],
+  ["McLaren", ["Mastercard", "Airwallex", "Edward Jones", "OKX", "FxPro"]],
+  ["Mercedes", ["Stripe", "UBS", "Nu", "Nasdaq"]],
   ["Racing Bulls", ["Visa", "Cash App", "XMTrading"]],
   ["Red Bull Racing", ["Visa", "Carlyle", "AvaTrade", "Gate"]],
   ["Williams", ["Barclays", "BNY", "Nuveen", "Stephens", "Kraken"]],
 ];
-const UNIQUE = new Set(BRANDS.flatMap(([, b]) => b)).size; // 35 (Visa partners two teams)
+const UNIQUE = new Set(BRANDS.flatMap(([, b]) => b)).size; // 43 (Visa partners two teams)
 const TEAMS_WITH = BRANDS.filter(([n, b]) => n !== "Formula 1" && b.length).length; // 10 of 11
 
 const NOTES = [
-  `${UNIQUE} financial services brands partner Formula 1 or the teams (Visa partners two teams): payments, banking, asset management, trading and crypto. Every team except Cadillac has at least one (${TEAMS_WITH} of 11). Stripe (Mercedes) and Airwallex (McLaren) are the two from the competitive landscape on the previous slide.`,
-  "Formula 1: American Express, Americas payments partner (Oct 2023), global (Oct 2024); Santander, Official Retail Banking Partner (Sep 2024); Standard Chartered, Official Partner (Jan 2026); Crypto.com, extended to 2030 (Dec 2024).",
-  "Teams: Mercedes and Stripe (20 Oct 2026), Nu (20 Jan 2026), Nasdaq (Apr 2025). McLaren and Mastercard (title from 2026), Airwallex (extended Oct 2026), OKX (to end-2026), FxPro (25 Feb 2026). Audi and Revolut (title from 2026), Nexo (16 Jan 2026). Visa, title partner of Racing Bulls with Cash App and on the Red Bull Racing car (19 Feb 2026); Racing Bulls and XMTrading (2026). Red Bull Racing and Carlyle (exclusive investment management partner, Sep 2025), AvaTrade (multi-year from 2025), Gate (2025). Aston Martin and Coinbase (Feb 2025), CoinPayments (Dec 2025), Pepperstone (Jun 2025), Public (multi-year from Apr 2025). Ferrari and UniCredit (2025), BingX (2026). Williams and Barclays (Feb 2026), BNY (30 Jan 2026), Nuveen (22 Jan 2026), Stephens (Official Investment Banking Partner since 2023), Kraken (renewed Jan 2026). Alpine and eToro (15 Jan 2026), Mobilize Financial Services (2025, continuing), BlockDAG (Sep 2025, multi-year). Haas and IC Markets (Official FX Trading Partner, Dec 2025, multi-year), Zoomex (renewed for 2026).",
-  "Not counted: Mercado Libre (Alpine; marketplace), Aleph (Audi; digital advertising), Allwyn (F1; lottery), Nuvei (Mercedes, 2023 multi-year deal; current status not confirmed). Ended before 2026: MoneyGram (Haas), Hantec Markets (Haas), Santander at Ferrari and Williams, Bybit (Red Bull Racing).",
+  `${UNIQUE} banking, finance and insurance brands partner Formula 1 or the teams (Visa partners two teams): banks, payments, wealth and asset management, investment banking, insurance, trading and crypto. Every team except Cadillac has at least one (${TEAMS_WITH} of 11). Stripe (Mercedes) and Airwallex (McLaren) are the two from the competitive landscape on the previous slide.`,
+  "Checked against the official partner pages of Mercedes, Red Bull Racing, Racing Bulls, Aston Martin, Alpine, Williams, Haas and Audi (10 Nov 2026), and against team, partner or Formula 1 announcements for Ferrari, McLaren and the series.",
+  "Formula 1: American Express (Americas 2023, global 2024); Santander, Official Retail Banking Partner (Sep 2024); Standard Chartered, wealth management and corporate and investment banking (Jan 2026); Crypto.com (to 2030); Marsh, Official Risk and Insurance Brokering Partner (28 Apr 2026).",
+  "Ferrari: UniCredit (2025), Aon (Official Partner from Monza 2025), ZCG (extended through 2026), Vantage Markets (multi-year from 2025), BingX (2026). McLaren: Mastercard (title from 2026), Airwallex (extended Oct 2026), Edward Jones (Official Private Wealth Management Partner, 29 Sep 2026), OKX (to end-2026), FxPro (25 Feb 2026). Haas: Bradesco (Official Banking Partner, Nov 2026), IC Markets (Dec 2025), Orion180 (insurance, multi-year from 2024), Zoomex (2026). Audi: Revolut (title), Nexo (Jan 2026), Libertex (3 Mar 2026). Mercedes: Stripe (20 Oct 2026), UBS, Nu (Jan 2026), Nasdaq (2025). Williams: Barclays, BNY, Nuveen (2026), Stephens (since 2023), Kraken. Red Bull Racing: Visa, Carlyle (Sep 2025), AvaTrade (2025), Gate (2025). Racing Bulls: Visa, Cash App, XMTrading. Aston Martin: Coinbase, CoinPayments, Pepperstone, Public. Alpine: eToro (2026), Mobilize Financial Services.",
+  "Not counted: Goldman Sachs (McLaren partner from 2022; not confirmed by McLaren for 2026), Nuvei (left Mercedes), BlockDAG (no longer on Alpine's partner list), Emburse (Haas) and Perk (Audi) (spend-management software), Aleph (Audi; media), JCB (Aston Martin; construction equipment), Allwyn (lottery), PwC and Deloitte (professional services), Mercado Libre (marketplace).",
 ].join("\n");
 
 async function build() {
   await D.defineLayouts();
   pres.addSection({ title: "Financial services landscape" });
   const s = content("CONTENT", "Financial services landscape", null, "Financial services landscape",
-    t(`**${UNIQUE} financial services brands** partner F1 and ${TEAMS_WITH} of its 11 teams`), "", NOTES);
+    t(`**${UNIQUE} banking, finance and insurance brands** partner F1 and ${TEAMS_WITH} of its 11 teams`), "", NOTES);
 
   const cols = 4, gap = 0.16, y0 = 1.6, th = 1.62;
   const tw = (CW - gap * (cols - 1)) / cols;
