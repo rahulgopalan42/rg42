@@ -79,7 +79,7 @@ HDR = Font(bold=True, color='FFFFFF'); HFILL = PatternFill('solid', fgColor='1F3
 TFILL = {'Tier 1': 'C6EFCE', 'Tier 2': 'FFEB9C', 'Tier 3': 'F2F2F2'}
 COLS = [('Rank', 6, 'rank'), ('Tier', 8, 'tier'), ('Priority score (/100)', 10, 'score'), ('Brand', 28, 'brand'), ('Former name', 16, 'former'),
         ('Sector', 26, 'sector'), ('HQ country', 16, 'country'), ('HQ city', 14, 'city'), ('Website', 22, 'web'), ('About the company', 80, 'about'),
-        ('Valuation / market cap (USD bn)', 12, 'val'), ('Valuation date', 10, 'val_date'), ('Total equity funding (USD m)', 12, 'fund'),
+        ('Qualifies on', 11, 'basis'), ('Valuation / market cap (USD bn)', 12, 'val'), ('Valuation date', 10, 'val_date'), ('Total equity funding (USD m)', 12, 'fund'),
         ('Last round', 26, 'round'), ('Listed / private', 14, 'listed'), ('Investors / owner', 30, 'investors'),
         ('Meets USD 1B valuation or USD 200M funding?', 14, 'orig_bar'), ('Why ranked here', 50, 'why'), ('Source (what it shows)', 40, 'src_note'),
         ('Source URL', 40, 'src'), ('Confidence', 9, 'conf'), ('Found via', 22, 'via')]
@@ -91,7 +91,7 @@ def sheet(wb, title, data):
     for c in data:
         ws.append([c.get(k) if c.get(k) not in (None, '') else '' for _, _, k in COLS])
         ws.cell(ws.max_row, 2).fill = PatternFill('solid', fgColor=TFILL[c['tier']])
-        for j in (10, 18, 19): ws.cell(ws.max_row, j).alignment = WRAP
+        for j in (10, 19, 20): ws.cell(ws.max_row, j).alignment = WRAP
     ws.freeze_panes = 'E2'; ws.auto_filter.ref = ws.dimensions
 wb = Workbook(); s = wb.active; s.title = 'SUMMARY'
 n_orig = sum(c['orig_bar'] == 'Yes' for c in out)
