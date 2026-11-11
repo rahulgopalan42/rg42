@@ -26,7 +26,7 @@
 2. "You've said more than half the data coming in is now outside litigation: investigations, regulatory work, data breaches, privacy. Which of those is growing fastest? And does it bring you new buyers, like compliance or security chiefs?"
 3. "When a big company chooses Relativity aiR, who makes the final call? The general counsel, the head of e-discovery, IT, or the law firm running the matter? And how long does that usually take?"
 4. "Your customers include big companies like Microsoft, and firms like KPMG and Deloitte that run the work for their own clients. Who do you most want to spend time with: corporate legal teams, law firms, or those partners?"
-5. "You now run RelFest in Sydney and London as well as Chicago. Outside the US, which markets matter most over the next two years: the UK and Europe, Canada, Australia or Brazil?"
+5. "You run RelFest in Sydney and London as well as Chicago. Outside the US, which markets matter most over the next two years: the UK and Europe, Canada, Australia or Brazil?"
 6. "Harvey and Legora have both done big sports deals, with teams like the Warriors and the Yankees. Do you see them as going after the same buyers as you? And does that change how you think about the brand?"
 7. "RelFest seems to do a lot of work for you. When you spend serious money on marketing, how do you judge it afterwards?"
 8. "You filed confidentially for an IPO in March. Does that change what you can do in marketing, or when? And does a wider audience, like investors, start to matter more for the brand?"
@@ -59,17 +59,17 @@
 
 **Ashurst at McLaren**
 
-> "Start with the closest to you. Ashurst has worked with McLaren's road car business since 2013. In 2019 it became the official legal services partner for the whole McLaren Group, racing included. When it signed, McLaren's group legal director said he wanted 'a partner who understands our different businesses.'
+> "Start with the closest to you. Ashurst has worked with McLaren's road car business since 2013. In 2019 it became the official legal services partner for the whole McLaren Group, racing included. When it signed, McLaren's group legal director talked about having 'a partner who understands our different businesses.'
 >
-> Through the partnership, Ashurst works alongside McLaren's own lawyers. It has advised on the group's biggest deals, including the reorganisation two and a half years ago that left Bahrain's sovereign fund as the only shareholder.
+> Through the partnership, Ashurst works alongside McLaren's own lawyers. It has advised on some of the group's biggest deals.
 >
 > No return is published, and law firms rarely publish one. The signal is that it's lasted. Ashurst extended the deal around its tenth year with McLaren, and it's still on McLaren's partner pages this season. And you know the firm. After this year's merger it's Ashurst Perkins Coie, and in September it joined your claiR early access programme."
 
 **Deloitte at McLaren**
 
-> "Deloitte started working with McLaren in 2017, when McLaren was a client, on things like race simulators and HR systems. Over time that turned into a sponsorship. In January it became Official Transformation Partner across McLaren's whole racing business: F1, IndyCar and, from next year, endurance racing. Its US marketing chief, Scott Mager, gave the reason in five words: 'Why not double down on it?'
+> "Deloitte started working with McLaren in 2017, when McLaren was a client, on things like race simulators and HR systems. Over time that turned into a sponsorship. In January it became Official Transformation Partner across McLaren's whole racing business: F1, IndyCar and, from next year, endurance racing. Its US marketing chief, Scott Mager, gave the reason simply: 'Why not double down on it?'
 >
-> Through the partnership, Deloitte hosts senior clients at races for a few days behind the scenes, with a look at the work it does for the team. It put the McLaren car on its stand at CES in January, and it's buying ads around the US races.
+> Through the partnership, Deloitte hosts senior clients at races for a few days behind the scenes, with a look at the work it does for the team. It put the McLaren car on its stand at CES in January, and it planned ads near the US races.
 >
 > It hasn't published figures. But Mager told Marketing Brew the value often outstrips the cost, 'pretty significantly'. And he put the logic in one line: 'Nobody buys multiyear transformation services out of an e-commerce cart.' Your contracts are the same. People buy them after they trust you."
 
@@ -93,7 +93,7 @@
 
 > "Microsoft signed a multi-year deal with Mercedes in January. Sky News reported it at around sixty million dollars a season, though neither side confirmed that. The reason, from Microsoft's commercial chief, Judson Althoff: F1 is where 'milliseconds matter and data determines outcomes.'
 >
-> Through the deal, Mercedes runs more of its simulation, race strategy and analysis on Microsoft's cloud and AI. Mercedes says each car carries more than 400 sensors, sending over a million data points a second. The cloud lets the team add computing power when it needs it, while staying inside strict financial rules.
+> Through the deal, Mercedes runs more of its simulation, race strategy and analysis on Microsoft's cloud and AI. The two companies say each car carries more than 400 sensors, sending over a million data points a second. The cloud lets the team add computing power when it needs it, while staying inside strict financial rules.
 >
 > It's too new for results. Two things matter for you. It shows how much money is now behind the AI deals in F1. And Microsoft is your customer. Its litigation team uses aiR, and your own case study says aiR's calls matched its human reviewers 92% of the time."
 
@@ -101,7 +101,7 @@
 
 > "Oracle has been Red Bull's title partner since February 2022, and it extended and expanded the deal this February. The team boss, Laurent Mekies, said Red Bull relies on Oracle 'to help us understand and optimise countless variables.'
 >
-> Through the partnership, Red Bull runs billions of race strategy simulations on Oracle's cloud across a race weekend. It's moving finance, HR and marketing onto Oracle's business software. And this season it added an AI strategy agent that works with the race engineers on the big calls.
+> Through the partnership, Red Bull runs billions of race strategy simulations on Oracle's cloud around each race weekend. It's moving finance, HR and marketing onto Oracle's business software. And this season it added an AI strategy agent that works with the race engineers on the big calls.
 >
 > Oracle doesn't publish a business return. The signal is the renewal, and what the team points to since Oracle arrived: three drivers' titles and two constructors' titles."
 
@@ -141,7 +141,7 @@
 
 > "I don't want to promise you anything on that yet, because right now it would be a guess. As far as we can tell, no legal technology company has a deal with an F1 team. Harvey, Legora and Clio have gone into other sports, but not F1.
 >
-> But nearly every team now has an AI partner, and some are close to what you do. Williams has Anthropic's Claude as its 'Official Thinking Partner'. Aston Martin has three AI deals: Cognition, Cohere and Cognizant. Mercedes has Microsoft and Meta AI. McLaren has Google's Gemini, and Ashurst for legal services. Red Bull has Oracle, and Ferrari has IBM. Cadillac's AI partner, TWG AI, is exclusive. Two of those are your partners too: you connect to Claude, and your AI runs on Microsoft's cloud. Deals like these usually come with exclusivity.
+> But nearly every team now has an AI partner, and some are close to what you do. Williams has Anthropic's Claude as its 'Official Thinking Partner'. Aston Martin has Cognition, Cohere and Cognizant. Mercedes has Microsoft and Meta AI. McLaren has Google's Gemini, and Ashurst for legal services. Red Bull has Oracle, and Ferrari has IBM. Cadillac's AI partner, TWG AI, is exclusive. You already work with two of those: you connect to Claude, and your AI runs on Microsoft's cloud. Deals like these usually come with exclusivity.
 >
 > So the first thing we do is check where there's a conflict, and rule those teams out.
 >
@@ -149,7 +149,7 @@
 >
 > One thing worth knowing: legal AI isn't the same job as a general AI deal, and these contracts are often written quite narrowly. That's why my note said 'Official Legal AI Partner'. But we'd check each team before saying any more.
 >
-> To give you an idea of what a partner like you does once they're in, look at Oracle at Red Bull. The team runs billions of strategy simulations on Oracle's cloud across a race weekend. It's moving its finance, HR and marketing onto Oracle's software. And this season Oracle built it an AI agent that works with the race engineers on strategy calls. So Oracle gets to say a championship-winning team runs its strategy and its books on Oracle. That's a much stronger story than a sticker on the car."
+> To give you an idea of what a partner like you does once they're in, look at Oracle at Red Bull. The team runs billions of strategy simulations on Oracle's cloud around each race weekend. It's moving its finance, HR and marketing onto Oracle's software. And this season it built an AI agent with Oracle that works with the race engineers on strategy calls. So Oracle gets to say a championship-winning team runs its strategy and its books on Oracle. That's a much stronger story than a sticker on the car."
 
 ### "It's very crowded. Won't we get lost?"
 
@@ -157,7 +157,7 @@
 >
 > The ones that get noticed do one of two things. Some take on a real job, like Oracle at Red Bull, or Cognizant at Aston Martin. Others make something people want to watch.
 >
-> You have something different to say. Every AI partner on the grid talks about engineering, strategy or fans. As far as we can tell, none of them talks about evidence: finding the facts, and showing where they came from. That's your story, and you've been telling it for 25 years. It just needs a team that wants to tell it with you, and that's what we'd look for."
+> You have something different to say. The AI partners on the grid mostly talk about engineering, strategy or fans. As far as we can tell, none of them talks about evidence: finding the facts, and showing where they came from. That's your story, and you've been telling it for 25 years. It just needs a team that wants to tell it with you, and that's what we'd look for."
 
 ### "Why would a team want a partner like us?"
 
