@@ -91,7 +91,7 @@
 
 **SAP at Mercedes, and Oracle at Red Bull**
 
-> "These two are the closest to what you do, because the job is inside the team's finances. SAP's software helps Mercedes forecast its costs against the spending cap. Red Bull is moving its finance, HR and marketing onto Oracle's business software, and Oracle has been the title partner since 2021.
+> "These two are the closest to what you do, because the job is inside the team's finances. SAP's software helps Mercedes forecast its costs against the spending cap. Red Bull is moving its finance, HR and marketing onto Oracle's business software, and Oracle has been the title partner since 2022.
 >
 > Neither publishes a return. The signal is the job itself: a team only lets a partner near its numbers if it trusts them. And Oracle extended its deal in February."
 
