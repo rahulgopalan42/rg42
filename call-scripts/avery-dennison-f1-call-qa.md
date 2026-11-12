@@ -16,7 +16,9 @@
 >
 > The second is what you do. Your labels and RFID tags let a company follow every product, from the factory to the shop. An F1 team does the same with thousands of parts, across a season on five continents. Then there's the look of the car. It's covered in paint and film, and this year the rules say more of it has to be covered. And all of it has to survive heat, speed and weather.
 >
-> So there's a lot that connects. But I'd like to hear from you first. Where are things heading?"
+> What I'm really trying to work out on this call is the right way into sport for Avery Dennison. It can be complex. There are a lot of options, and they do different jobs. Helping brands find the right one is what we do. So I'm happy to take the conversation beyond Formula 1. SPORTFIVE also works in football, with athletes and across motorsport, so we can look at other opportunities too.
+>
+> But I'd like to hear from you first. Where are things heading?"
 
 ---
 
@@ -31,7 +33,8 @@
 7. "In motorsport, you've worked with Triple Eight in Australian Supercars, and your RFID tyre tags are used in endurance racing. What did you learn from those? Did they bring in business?"
 8. "Which markets matter most for the next two years? Mexico, where you built your biggest RFID plant, the US, Brazil, China or Europe?"
 9. "When you spend serious money on marketing, how do you judge it afterwards? Meetings, sales, brand, or hiring?"
-10. "Has anyone at Avery Dennison been to a race? And is there budget for this kind of thing, or would it need to be found? Who signs it off?"
+10. "What's the biggest risk for you in doing something like this? What would make it go wrong?"
+11. "Has anyone at Avery Dennison been to a race? And is there budget for this kind of thing, or would it need to be found? Who signs it off?"
 
 ---
 
@@ -205,6 +208,14 @@
 >
 > It can show up in the numbers. Airwallex says its revenue grew 50% year on year in its Europe and Americas regions during its McLaren partnership, and 57% in the UK from new customers."
 
+### "What's the biggest risk?"
+
+> "Signing a logo with no job. Most teams have 25 or more partners, and the ones that get lost are the ones that put a name on the car and stop there. A deal needs a real job, a plan for the people you'll host, and someone on your side who owns it.
+>
+> The second risk is a conflict you didn't see. 3M is at Cadillac, and contracts often cover more than the title says. That's why we check every team before your name goes anywhere.
+>
+> The third is picking the wrong option for the job. If what you need is to prove a film on gravel and snow, rallying might come first. If it's the shirt, it might be football. We'd rather tell you that up front than sell you the wrong thing."
+
 ### "3M is already in F1. Are we too late?"
 
 > "No. 3M joined Cadillac in June, and it's 3M's first F1 deal. That's one team out of eleven.
@@ -232,6 +243,14 @@
 > F1 does a different job. It's global, with 827 million fans and more than twenty race weekends on five continents. It's also built for hosting: two thirds of Paddock Club guests are senior executives. And it's a place to show your films and tapes on a car, which football can't do.
 >
 > So the question is what it's for. If it's meeting brand owners, retailers and carmakers around the world, F1 is built for that. If it's mainly about the shirt, you may already have what you need. SPORTFIVE also works in football, with athletes and in rallying, so we'd help you choose rather than sell you everything at once."
+
+### "How do you see anyone developing agentic systems without seeing the product working in real time?"
+
+> "I don't think you can. If you build an AI agent and you can't watch what it's doing, you shouldn't let it run. That's the bottom line.
+>
+> F1 is the clearest example I know of that rule. Every car sends data back to the pit wall and the factory, live, for the whole race. Mercedes and Microsoft say each car carries more than 400 sensors, sending over a million data points a second. And where teams have brought in AI, a person watches it. Red Bull's AI strategy agent, built with Oracle, works alongside the race engineers, and they make the call. Aston Martin's new pit stop is nearly fully automatic, but the rules keep a person on the trigger of the wheel gun.
+>
+> That's where you come in. An AI agent in a supply chain can only act on what it can see. Your tags and atma.io let a company see each product, in real time, from the factory to the shop. So the F1 story for you isn't 'AI'. It's that you can't trust a system you can't see, and you help companies see."
 
 ---
 
