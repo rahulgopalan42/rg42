@@ -8,7 +8,9 @@
 
 > "Hi [Name], thanks for making the time. I'm Rahul. I look after brand partnerships in SPORTFIVE's Formula 1 business, and Bjorn and George are with me.
 >
-> A bit about how we work, because it's different from what most people expect. We don't sell for one team. We look at all eleven, work out what you're trying to achieve, and then see whether any of it fits. The teams pay us, not you. And if it doesn't fit, we'll tell you."
+> What we're really trying to do today is work out the right way into the sport for Quantum Systems. That might be a team, a driver, or something else in F1. Or it might be a different sport altogether. Our goal is to be guided by your brief, and to be as objective as possible. We don't sell for one team, and the teams pay us, not you. So if something doesn't fit, we'll tell you.
+>
+> So we'd like to keep this open-ended, and more educational than a pitch. We'll answer any questions you have, build a brief with you, and then start mapping out the right way in."
 
 ### "So why did you reach out to us?"
 
