@@ -208,14 +208,6 @@
 >
 > It can show up in the numbers. Airwallex says its revenue grew 50% year on year in its Europe and Americas regions during its McLaren partnership, and 57% in the UK from new customers."
 
-### "What's the biggest risk?"
-
-> "Signing a logo with no job. Most teams have 25 or more partners, and the ones that get lost are the ones that put a name on the car and stop there. A deal needs a real job, a plan for the people you'll host, and someone on your side who owns it.
->
-> The second risk is a conflict you didn't see. 3M is at Cadillac, and contracts often cover more than the title says. That's why we check every team before your name goes anywhere.
->
-> The third is picking the wrong option for the job. If what you need is to prove a film on gravel and snow, rallying might come first. If it's the shirt, it might be football. We'd rather tell you that up front than sell you the wrong thing."
-
 ### "3M is already in F1. Are we too late?"
 
 > "No. 3M joined Cadillac in June, and it's 3M's first F1 deal. That's one team out of eleven.
@@ -244,13 +236,25 @@
 >
 > So the question is what it's for. If it's meeting brand owners, retailers and carmakers around the world, F1 is built for that. If it's mainly about the shirt, you may already have what you need. SPORTFIVE also works in football, with athletes and in rallying, so we'd help you choose rather than sell you everything at once."
 
-### "How do you see anyone developing agentic systems without seeing the product working in real time?"
+### "What's the biggest risk?"
 
-> "I don't think you can. If you build an AI agent and you can't watch what it's doing, you shouldn't let it run. That's the bottom line.
+> "Signing a logo with no job. Most teams have 25 or more partners, and the ones that get lost are the ones that put a name on the car and stop there. A deal needs a real job, a plan for the people you'll host, and someone on your side who owns it.
 >
-> F1 is the clearest example I know of that rule. Every car sends data back to the pit wall and the factory, live, for the whole race. Mercedes and Microsoft say each car carries more than 400 sensors, sending over a million data points a second. And where teams have brought in AI, a person watches it. Red Bull's AI strategy agent, built with Oracle, works alongside the race engineers, and they make the call. Aston Martin's new pit stop is nearly fully automatic, but the rules keep a person on the trigger of the wheel gun.
+> The second risk is a conflict you didn't see. 3M is at Cadillac, and contracts often cover more than the title says. That's why we check every team before your name goes anywhere.
 >
-> That's where you come in. An AI agent in a supply chain can only act on what it can see. Your tags and atma.io let a company see each product, in real time, from the factory to the shop. So the F1 story for you isn't 'AI'. It's that you can't trust a system you can't see, and you help companies see."
+> The third is picking the wrong option for the job. If what you need is to prove a film on gravel and snow, rallying might come first. If it's the shirt, it might be football. We'd rather tell you that up front than sell you the wrong thing."
+
+### "Where do you see our product sitting, in real time?"
+
+> "In three places, and you can see all of them live.
+>
+> The first is on the car. This year at least 55% of every car has to be covered in paint or film, and the cars are lighter, so every gram counts. If a team wraps its car, your film is on screen every session, at every race, in heat, rain and gravel. That's the most visible test there is. But teams do this differently. Mercedes paints its car, and Ferrari uses HP's printed film. So this only works with a team that wraps, and we'd check that first.
+>
+> The second is on people. The team kit, and the shirts fans buy at the track. adidas makes the kit for two teams, and every piece in a fan range needs labels and tags. Your Premier League badges already let a fan scan a shirt to check it's real. The same idea could work at a race.
+>
+> The third is everything that moves. A team ships its cars, spares and kit around the world for more than twenty race weekends, and Red Bull tracks about 10,000 unique parts on each car. We don't know what's physically on those parts today, so I won't claim a team needs RFID. But tracking what moves is a job every team does, every week.
+>
+> And one thing I'd hold to. If anyone builds AI on top of that data, the same rule applies as on the pit wall: if you can't watch it working, you shouldn't let it run. Where teams use AI, like Red Bull's strategy agent with Oracle, the race engineers watch it and make the call. Your tags are how a company sees each product in real time. That's the story."
 
 ---
 
