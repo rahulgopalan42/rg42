@@ -1,16 +1,14 @@
 # Avery Dennison x SPORTFIVE: F1 Call, Questions and Answers
 
-**Call:** follow-up call with [Name, Job title] at Avery Dennison. From SPORTFIVE: Rahul, Bjorn and George, plus [Ellery (athletes) / Freddy (AMG GP), if joining].
+**Call:** intro call with [Name, Job title] at Avery Dennison. From SPORTFIVE: Rahul, Bjorn and George.
 
 ---
 
 ## The intro
 
-> "Hi everyone, good to see you again, and thanks for making the time. I've got Bjorn and George with me today. [And Ellery from our athlete team, and Freddy from our AMG GP team.]
+> "Hi [Name], thanks for making the time. I'm Rahul. I look after brand partnerships in SPORTFIVE's Formula 1 business, and Bjorn and George are with me.
 >
-> First, WRC. As promised, we passed all your WRC questions to our WRC team, and they'll take you through it in their own session. [Confirm status: date agreed, or answers already sent.]
->
-> Today I'd like to pick up where we left off, and look at F1 more widely. Same as before: we look at all eleven teams, the teams pay us, not you, and if something doesn't fit, we'll say so."
+> A bit about how we work, because it's different from what most people expect. We don't sell for one team. We look at all eleven, work out what you're trying to achieve, and then see whether any of it fits. The teams pay us, not you. And if it doesn't fit, we'll tell you."
 
 ### "So why did you reach out to us?"
 
@@ -24,7 +22,7 @@
 
 ## Questions to ask Avery Dennison
 
-1. "Last time we talked about athletes, Mercedes and WRC. What drew you to each of those? Is there one goal behind all three, or a different one for each?"
+1. "Before I go further, I'd love to hear where you sit. What does your team look after, and has sport or F1 come up inside the business already?"
 2. "Which part of the business would own this? The Materials Group, with graphics, tapes and reflective films? Or the Solutions Group and Intelligent Labels, with apparel and RFID? Or both together?"
 3. "Danny Allouche took over the Materials Group in June, and Helen Sheirbon started at the Solutions Group this month. She comes from HP, which is Ferrari's title partner. Will either of them be part of this decision?"
 4. "If you could spend three days with one group, who would it be: brand owners, retailers, carmakers, or the converters who print on your materials?"
@@ -149,25 +147,15 @@
 
 > "I don't want to promise you anything on that yet, because right now it would be a guess. As far as we can tell, no labels or RFID company has a deal with an F1 team.
 >
-> But some teams have partners close to what you do. 3M is at Cadillac. HEXIS, the French film maker, has worked on Alpine's graphics since 2018, though the latest we can find on it is from two years ago. HP prints Ferrari's livery graphics, and we don't know whose film it prints on. Sherwin-Williams paints the Mercedes. And some teams have brands you may already serve, like adidas at Mercedes and Audi, and PUMA at Ferrari. That can open a door, or it can need care. Deals like these usually come with exclusivity.
+> But some teams have partners close to what you do. 3M is at Cadillac. HEXIS, the French film maker, has worked on Alpine's graphics since 2018, though the latest we can find on it is from two years ago. HP prints Ferrari's livery graphics, and we don't know whose film it prints on. Sherwin-Williams paints the Mercedes. And some teams have brands you may already serve, like adidas at Mercedes and Audi, and PUMA at Ferrari. adidas signed up to your atma.io platform in 2021, for example. That can open a door, or it can need care. Deals like these usually come with exclusivity.
 >
 > So the first thing we do is check where there's a conflict, and rule those teams out.
 >
 > The second thing is understanding what you want out of it. If it's graphics and the look of the car, that can point to different teams than if it's RFID and tracking, or hosting brand owners. Then we come back with the teams where it fits.
 >
-> One thing worth knowing: these contracts are often written quite narrowly. That's why my note said 'Official Labeling and RFID Partner'. It's narrower than 3M's 'material science'. But we'd check each team before saying any more.
+> One thing worth knowing: these contracts are often written quite narrowly. So something like 'Official Labeling and RFID Partner' would be narrower than 3M's 'material science'. But we'd check each team before saying any more.
 >
 > To give you an idea of what a partner like you does once they're in, look at HP at Ferrari. HP's printers make the graphics on the car. Its engineers worked with Ferrari's to make a lighter, thinner film. So HP gets to say its printing is on a Ferrari at every race, and that it helped make it lighter. That's a much stronger story than a logo."
-
-### "Freddy's here from your AMG GP team. Is Mercedes the one for us?"
-
-> "It might be one of the options, and that's why Freddy's here. But I'd rather not call it yet. We'd follow the same two steps as with any team: conflicts first, then your goals.
->
-> A few Mercedes partners matter for you. adidas makes the team's kit and fan range, and adidas signed up to your atma.io platform back in 2021. So you know each other. That can open a door, or it can need care. PepsiCo joined this year with Gatorade, Sting and Doritos. That's a food brand owner of the kind you serve. And Sherwin-Williams supplies the team's paint, and Mercedes paints its car. So at Mercedes, the films side would need a careful look.
->
-> Mercedes' public partner list doesn't show a labels, RFID or films company. That doesn't tell us what's free. Contracts often cover more than the name suggests. So Freddy would check with the team quietly, before your name goes anywhere. He can also say more about how Mercedes works with its partners.
->
-> And we'd put Mercedes next to two or three other teams, so you can compare. If Mercedes is the right one, you'll know why."
 
 ### "It's very crowded. Won't we get lost?"
 
@@ -205,11 +193,11 @@
 
 ### "Why go through SPORTFIVE rather than a team directly?"
 
-> "You can go to a team directly. They'll tell you about their own team, which is fair enough. Freddy's team works with Mercedes, so he can speak for that side. My job is to look across all eleven teams for you. The teams pay our fee, so having us compare them costs you nothing. And with 3M at Cadillac, HP at Ferrari and HEXIS at Alpine, someone has to check each team quietly before your name goes anywhere."
+> "You can go to a team directly. They'll tell you about their own team, which is fair enough. We worked only with Mercedes and Ferrari for over twelve years, and then stopped, so we could look at all eleven teams for the brand. The teams pay our fee, so having us compare them costs you nothing. And with 3M at Cadillac, HP at Ferrari and HEXIS at Alpine, someone has to check each team quietly before your name goes anywhere."
 
 ### "Which team would fit us?"
 
-> "I don't know yet, and I'd rather not guess. It depends on which part of the business leads, which markets matter most, and where there's no conflict. Mercedes is one to look at, and Freddy's here for that. We'd put it next to the others, so you can compare. That's what we'd come back to you with."
+> "I don't know yet, and I'd rather not guess. It depends on which part of the business leads, which markets matter most, and where there's no conflict. That's what we'd come back to you with."
 
 ### "How would we know whether it worked?"
 
@@ -237,17 +225,13 @@
 >
 > And F1 gives you three days with the brand owners themselves. Two thirds of Paddock Club guests are senior executives. Fans don't need to know the name Avery Dennison. The people who buy from you need to remember the weekend."
 
-### "We're already looking at WRC and athletes. Why F1 as well?"
+### "We already do a lot in football and US sports. Why add F1?"
 
-> "Fair question, and you may not need all three at once. They do different jobs.
+> "Fair question, and you may not need it. Your work in football is mostly the product itself: the badges, the labels, the shirts fans buy. That's a strong story, and it sells to the clubs and the kit brands.
 >
-> WRC is a hard test in the real world. Cars that look like the ones people drive, on gravel, snow and tarmac, in all weathers. If your films and tapes hold up there, that's a strong story, and our WRC colleagues will take you through it.
+> F1 does a different job. It's global, with 827 million fans and more than twenty race weekends on five continents. It's also built for hosting: two thirds of Paddock Club guests are senior executives. And it's a place to show your films and tapes on a car, which football can't do.
 >
-> Athletes give you a face and a story people follow. Ellery can go deeper on that.
->
-> F1 is about reach and hosting. 827 million fans, more than twenty race weekends on five continents, and two thirds of Paddock Club guests are senior executives. It's where you'd bring brand owners, retailers and carmakers for three days.
->
-> So the question is what each one is for. If it's mainly proving the product, WRC may come first. If it's meeting customers around the world, F1 is built for that. We'd help you choose, and the order, rather than sell you everything at once."
+> So the question is what it's for. If it's meeting brand owners, retailers and carmakers around the world, F1 is built for that. If it's mainly about the shirt, you may already have what you need. SPORTFIVE also works in football, with athletes and in rallying, so we'd help you choose rather than sell you everything at once."
 
 ---
 
@@ -255,4 +239,4 @@
 
 > "Thanks, this has been really helpful. Let me play back what I heard: what matters most is [their top priority], the part of the business leading this is [Materials or Solutions], and the people you'd most want to spend time with are [their buyers].
 >
-> What we'll do next is write that up as a short brief and send it over for you to correct. Freddy will check the Mercedes side quietly, and we'll check the other teams for conflicts. Our WRC colleagues will [confirm session date], and Ellery will follow up on the athletes. Then we'll come back in [two to three weeks] with what's realistic. If the answer is that it doesn't make sense yet, we'll tell you that too."
+> What we'll do next is write that up as a short brief and send it over for you to correct. Then we'll check which teams have a conflict, and come back in [two to three weeks] with what's realistic. If the answer is that it doesn't make sense yet, we'll tell you that too."
