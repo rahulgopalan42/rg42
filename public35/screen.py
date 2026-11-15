@@ -16,6 +16,7 @@ out = []; cnt = defaultdict(Counter)
 for sym, c in U.items():
     code = cls.get(sym, '')
     if code not in SECTORS: cnt['--'][code or 'unclassified'] += 1; continue
+    if c['country'] in ('Russia',): cnt['--']['sanctioned market (Russia)'] += 1; continue
     f = financials(c); k = capacity(f, code)
     web = (c.get('sec') or {}).get('web') or (c.get('clay') or {}).get('domain') or ''
     link, src = f1_link(html.unescape(c['name']), web)

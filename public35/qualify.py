@@ -11,7 +11,8 @@ capacity from operations (cap_ops), USD a year:
 capacity from liquidity (cap_liq): 1.2% of cash on hand (1.5% for emerging), not used for banks and insurers
 evidence:
   Strong Evidence    cap_ops >= 4M, profitable (pre-tax > 0), revenue and earnings both known
-  Plausible Capacity cap_ops >= 4M but loss-making or earnings unknown; or cap_ops 3-4M; or cap_liq >= 4M (cash-rich, early revenue)
+  Plausible Capacity cap_ops >= 4M but loss-making or earnings unknown; or cap_ops 3-4M; or cap_liq >= 4M (cash-rich, early revenue);
+                     or a USD 5B+ growth company with USD 250M+ cash; or USD 1B+ market value with no financial figures in the sources
   Insufficient       everything else (not listed)
 category: Challenger 4-6M, Mid-level 6-12M, Large 12M+ from cap_ops (loss-making: cap_ops x 0.6);
           To Verify when the only support is cash or a near-miss.
@@ -43,17 +44,21 @@ def financials(c):
     return f
 def capacity(f, sector):
     s = SECTORS[sector]; g = s['grp']; rev = f['rev'] or 0; pt = f['pretax']; cash = f['cash'] or 0
-    mb = f['mkt'] if f['mkt'] else rev * s['mkt']
+    mb = max(f['mkt'], 0.5 * rev * s['mkt']) if f['mkt'] else rev * s['mkt']        # narrow 'advertising cost' lines understate marketing: floor at half the sector rate
     if g == 'consumer': ops = max(0.08 * mb, 0.003 * rev)
     elif g in ('tech', 'emerging'): ops = max(0.08 * mb, 0.004 * rev)
     elif g == 'fin': ops = max(0.0025 * rev, 0.015 * (pt or 0))
     else: ops = max(0.003 * rev, 0.015 * (pt or 0))
     liq = 0 if g == 'fin' else (0.015 if g == 'emerging' else 0.012) * cash
-    stressed = pt is not None and pt < 0 and cash < 1.5 * abs(pt) and abs(pt) > 0.1 * max(rev, 1)
+    stressed = pt is not None and pt < 0 and cash < 1.0 * abs(pt) and abs(pt) > 0.25 * max(rev, 1)
     if stressed: ops *= 0.5; liq *= 0.5
     loss = pt is not None and pt < 0
+    mcap = f['mcap'] or 0
+    nodata = not f['rev'] and pt is None                 # no fundamentals in the sources used (mostly Gulf-listed companies)
+    access = g in ('tech', 'emerging') and mcap >= 5e9 and cash >= 2.5e8      # large, well-funded growth company: can raise capital
     if ops >= 4e6 and not loss and pt is not None and rev: ev = 'Strong Evidence'
     elif ops >= 4e6 or liq >= 4e6 or ops >= 3e6: ev = 'Plausible Capacity'
+    elif access or (nodata and mcap >= 1e9): ev = 'Plausible Capacity'
     else: ev = 'Insufficient'
     eff = ops * (0.6 if loss else 1.0)
     if ev == 'Insufficient': cat = ''
@@ -62,7 +67,9 @@ def capacity(f, sector):
     else: cat = 'To Verify'
     basis = ('marketing budget (disclosed)' if f['mkt'] and g in ('consumer', 'tech', 'emerging') and 0.08 * mb >= 0.004 * rev else
              'revenue and sector marketing rate' if g == 'consumer' else 'revenue / profit') if ops >= 3e6 else 'cash reserves'
-    return {'ops': ops, 'liq': liq, 'ev': ev, 'cat': cat, 'basis': basis, 'stressed': stressed, 'loss': loss, 'cap': max(eff, 0) if ops >= 3e6 else liq}
+    if nodata: basis = 'market value only: financial figures not available in the sources used'
+    elif ops < 3e6 and liq < 4e6 and access: basis = 'access to capital (large, well-funded growth company)'
+    return {'ops': ops, 'liq': liq, 'ev': ev, 'cat': cat, 'basis': basis, 'stressed': stressed, 'loss': loss, 'nodata': nodata, 'cap': max(eff, 0) if ops >= 3e6 else liq}
 def cap_score(k, f):
     """financial capacity 0-100 for the priority score"""
     v = k['cap']
