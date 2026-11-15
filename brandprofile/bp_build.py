@@ -89,6 +89,7 @@ def tkey(t):
     t = re.sub(r'\(.*?\)', '', str(t)).strip(); t = re.split(r'[.@]', t)[0] if re.search(r'[.@]', t) and not re.match(r'^[A-Z]{1,4}\.[A-Z]$', t) else t
     k = re.sub(r'[^A-Z0-9]', '', t.upper())
     return (k.lstrip('0') or k) if k.isdigit() else k
+RSTEP = ['Domestic', 'Regional', 'International', 'Global']
 JOINT = re.compile(r'co-?owned|co-?owner|jointly owned|part-owned|joint[- ]venture|\bJV\b|minority|\bstake\b|shareholder|consortium|sister|group link|group company|same group', re.I)
 OWNED = re.compile(r'subsidiar|majority|owned by|controlled by|parent|owner of|\bowns\b|brand of|division of|part of|acquired by', re.I)
 SOFT = re.compile(r'licen[cs]|franchis|distribut|bottl|dealer|supplier|supplies|possible|unconfirmed|reported|announced|planned|pending|former|until 20|ended|not confirmed|no direct|not a sponsor|not a partner|tie-in|rights holder|broadcast', re.I)
@@ -115,11 +116,13 @@ def assemble():
     for r in B:
         e = P.get(r['id'])
         if not e: missing.append(r['id']); continue
-        e = dict(e); c2 = C2.get(r['id']); differ = []
+        e = dict(e); c2 = C2.get(r['id']); differ = []; minor = []
         if c2:                                             # second, independent pass: it decides the key facts; a difference is recorded
             for k in ('reach', 'status', 'ticker', 'parent', 'stage', 'changed', 'name', 'hq', 'f1'):
                 a, b = clean(e.get(k)), clean(c2.get(k))
-                if k in ('reach', 'status', 'stage') and a != b and b: differ.append(f'{k}: {a or "-"} / {b}')
+                if k in ('reach', 'status', 'stage') and a != b and b:
+                    step = abs(RSTEP.index(a.title()) - RSTEP.index(b.title())) if k == 'reach' and a.title() in RSTEP and b.title() in RSTEP else 9
+                    (minor if step == 1 else differ).append(f'{k}: {a or "-"} / {b}')
                 if b or k in ('ticker', 'parent', 'changed', 'f1'): e[k] = c2.get(k, e.get(k))
             for k in ('desc', 'markets', 'rationale', 'industry', 'sector', 'rel', 'basis'):
                 if c2.get(k) not in (None, ''): e[k] = c2[k]
@@ -215,6 +218,7 @@ def assemble():
         if not reach_ok: notes.append(('profile', 'Geographic reach not established'))
         elif basis == 'inferred': notes.append(('reach', 'Geographic reach inferred from the type of business and location, not confirmed'))
         if differ: notes.append(('profile', 'Two independent assessments differed (first / second, second used): ' + '; '.join(differ)))
+        if minor: notes.append(('info', 'Reach was assessed twice and the two results were one step apart (first / second, second used): ' + '; '.join(minor)))
         if changed and CHANGE.search(changed): notes.append(('corp', 'Reported corporate change - confirm current position: ' + changed))
         elif changed: notes.append(('info', changed))
         if status == 'subsidiary' and parent: notes.append(('info', f'Owned by {parent}: a sponsorship decision may sit with the parent'))

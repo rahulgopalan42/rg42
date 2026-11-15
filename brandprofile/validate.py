@@ -31,7 +31,6 @@ for f in sorted(glob.glob(os.path.join(H, src, 'in_*.jsonl'))):
         for k, lo, hi in (('markets', 5, 30), ('rationale', 8, 30)):
             if not lo <= len(str(d.get(k, '')).split()) <= hi: errs[f'{k} length'] += 1
         if not str(d.get('name', '')).strip() or not str(d.get('hq', '')).strip(): errs['name or hq empty'] += 1
-        if d.get('status') == 'listed' and not str(d.get('ticker', '')).strip(): errs['listed without ticker'] += 0
     if got != ids:
         miss = len(set(ids) - set(got)); extra = len(set(got) - set(ids)); errs[f'ids differ (missing {miss}, extra {extra}, order {"ok" if sorted(got) == sorted(ids) else "n/a"})'] += 1
     done += 1
