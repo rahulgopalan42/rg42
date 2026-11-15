@@ -80,6 +80,10 @@ def same_country(a, b):
     return a == b or (a in cn and b in cn)
 STATUS = {'private', 'listed', 'subsidiary', 'state-owned', 'non-commercial', 'defunct', 'unknown'}
 STAGE = {'commercial', 'pre-revenue', 'project', 'fund', 'non-commercial'}
+PE = re.compile(r'\b(EQT|Nexus Capital|Thoma Bravo|Vista Equity|KKR|Blackstone|Hg|HgCapital|Permira|Advent International|Bain Capital|TPG|Warburg Pincus|Apollo|Silver Lake|Francisco Partners|'
+                r'Insight Partners|General Atlantic|Clearlake|Prospect Capital|CVC|Cinven|Apax|BC Partners|Leonard Green|Stone Point|Hellman & Friedman|Carlyle|Sycamore Partners|Veritas Capital|'
+                r'Platinum Equity|Symphony Technology|STG|Genstar|GTCR|New Mountain|Madison Dearborn|TA Associates|Summit Partners|Providence Equity|Ardian|PAI Partners|Bridgepoint|Triton|'
+                r'Nordic Capital|L Catterton|Golden Gate Capital|Elliott|Energy Capital Partners|Stonepeak|I Squared|DigitalBridge|Stone Canyon|Investindustrial|Lunate)\b', re.I)
 # a reported change is a point to verify only when it is unsettled (pending, unconfirmed) or threatens the company itself (insolvency, closure)
 CHANGE = re.compile(r'not confirmed|unconfirmed|could not confirm|not completed|completion|pending|agreed (to|sale|in)|\bagreed\b|proposed|planned|plans to|announced|in talks|\bbid\b|offer for|'
                     r'expected|reported|bankrupt|chapter 11|chapter 7|liquidat|insolv|administration|receivership|restructur|delist|wound|wind[- ]down|ceased|shut|dissol|unwound|unwind', re.I)
@@ -190,6 +194,8 @@ def assemble():
         elif link: dec = ('exclude', link)
         elif f1txt and f1txt.lower() not in ('none', 'no', 'n/a', '-'): dec = f1_decide(f1txt)
         else: dec = ('clear', '')
+        pe = status == 'subsidiary' and bool(PE.search(parent))     # owned by an investment firm: a private company, not a subsidiary of an operating group
+        if pe: status = 'private'
         # ---- listed brand: find it in the listed-company data
         sym = None
         if status == 'listed' or (rv and r['id'] in rv.SYM):
@@ -261,6 +267,7 @@ def assemble():
         if changed and CHANGE.search(changed): notes.append(('corp', 'Reported corporate change - confirm current position: ' + changed))
         elif changed: notes.append(('info', changed))
         if status == 'subsidiary' and parent: notes.append(('info', f'Owned by {parent}: a sponsorship decision may sit with the parent'))
+        if pe: notes.append(('info', f'Owned by {parent} (investment firm)'))
         if status == 'unknown': notes.append(('profile', 'Ownership and listing status not confirmed'))
         if status == 'defunct': notes.append(('corp', 'Reported closed or absorbed: confirm before any outreach'))
         if sector != r['sector']: notes.append(('info', f"On the '{r['sector']}' tab in your sheet; its business is {sector}"))

@@ -76,14 +76,14 @@ def accuracy(A):
          f"{len(A['f1x'])} brands were moved to the Current F1 Partners tab. Recent deals were confirmed on the web (Indra / IndraMind with Alpine, ServiceNow's purchase of Armis, Tata Motors' takeover of Iveco).",
          f"5. Financial figures: revenue, market value and profit are shown only for the {sum(1 for x in rows if x['pub']):,} brands matched to a stock ticker in the listed-company database. No figure was estimated for any private company.",
          '6. The finished workbook passes 14 automatic checks (every brand of your 48 tabs present exactly once, x marks carried over, allowed values only, no roster name in the lists, a category only where there is evidence).']
-    if st['web']: L.insert(8, f"   Web verification of the uncertain rows: {st['web']:,} brands found on the web; it changed the reach for {st['web changed reach']:,} and the ownership / listing status for {st['web changed status']:,}.")
+    if st['web']: L.insert(8, f"   Web check of uncertain rows (brands on your 'Private' selection sheet, 15 Nov 2026): {st['web']:,} brands looked up; the web changed the reach for {st['web changed reach']:,} ({st['web changed reach 2+ steps']:,} by two steps or more, mostly Domestic to International) and the ownership / listing status for {st['web changed status']:,}.")
     return L
 def limits(A):
     rows = A['rows']; fl = [x for x in rows if flagged(x) and not x['web']]
     by = {p: sum(1 for x in fl if x['priority'] == p) for p in ('High', 'Medium', 'Lower')}
     return [f"{len(fl):,} rows carry a flag (low confidence, reach inferred, or ownership not confirmed) and have not been looked up on the web: {by['High']} High, {by['Medium']:,} Medium, {by['Lower']:,} Lower priority. "
-            'Treat their reach, ownership and description as unverified until checked. A web check of the flagged High and Medium rows and of the flagged brands you marked is prepared but could not be run in this session '
-            '(the session allows a limited number of web searches).',
+            'Treat their reach, ownership and description as unverified until checked. A web check of the flagged High and Medium rows and of the flagged brands you marked is prepared; '
+            f"{sum(1 for x in rows if x['web']):,} rows have been looked up so far (the session allows a limited number of web searches per message).",
             'Rows not looked up on the web rest on Crunchbase data recorded in Oct-Nov 2026, Wikipedia summaries and general knowledge: an acquisition, listing or closure during 2026 can be missing.',
             'Private companies publish no revenue or profit. Their investment category rests on funding raised and the date of the last round (rule in the Key): it indicates capacity, it is not evidence of a marketing budget.',
             'Geographic reach is a judgement on a four-step scale. One-step differences between two careful assessments are normal (about one row in seven).',
