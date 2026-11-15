@@ -118,12 +118,16 @@ def assemble():
         if not e: missing.append(r['id']); continue
         e = dict(e); c2 = C2.get(r['id']); differ = []; minor = []
         if c2:                                             # second, independent pass: it decides the key facts; a difference is recorded
+            stat['2x'] += 1; stat['2x wiki ' + (clean(c2.get('wiki')).lower() or 'none')] += 1
             for k in ('reach', 'status', 'ticker', 'parent', 'stage', 'changed', 'name', 'hq', 'f1'):
                 a, b = clean(e.get(k)), clean(c2.get(k))
                 if k in ('reach', 'status', 'stage') and a != b and b:
                     step = abs(RSTEP.index(a.title()) - RSTEP.index(b.title())) if k == 'reach' and a.title() in RSTEP and b.title() in RSTEP else 9
                     (minor if step == 1 else differ).append(f'{k}: {a or "-"} / {b}')
+                    stat[f'2x {k} ' + ('one step' if step == 1 else 'differs')] += 1
+                if k == 'hq' and b and a.split(',')[-1].strip().lower() != b.split(',')[-1].strip().lower(): stat['2x hq country differs'] += 1
                 if b or k in ('ticker', 'parent', 'changed', 'f1'): e[k] = c2.get(k, e.get(k))
+            if c2.get('sector') and c2.get('sector') != e.get('sector'): stat['2x sector differs'] += 1
             for k in ('desc', 'markets', 'rationale', 'industry', 'sector', 'rel', 'basis'):
                 if c2.get(k) not in (None, ''): e[k] = c2[k]
             e['conf'] = min(clean(e.get('conf')).lower() or 'low', clean(c2.get('conf')).lower() or 'low', key=lambda x: {'high': 2, 'medium': 1}.get(x, 0))
@@ -234,6 +238,14 @@ def assemble():
         rows.append({'r': r, 'e': e, 'name': name, 'hq': hq, 'sector': sector, 'reach': reach, 'basis': basis, 'rel': rel, 'conf': conf, 'status': status, 'stage': stage, 'parent': parent,
                      'ticker_txt': ticker_txt, 'cat': cat, 'ev': ev, 'cap': capv, 'fin': fin, 'score': score, 'notes': notes, 'pub': pub, 'fin_cells': fin_cells, 'fund_txt': fund_txt,
                      'fund_exact': exact, 'date': d, 'age': age, 'f1note': f1note, 'differ': differ, 'checked': bool(c2)})
+    seen = {}                                                # the same company entered twice in the sheet (old and new name, two tabs, a misread name)
+    for x in rows:
+        seen.setdefault((re.sub(r'[^a-z0-9]', '', x['name'].lower()), x['r']['country']), []).append(x)
+    for k, grp in seen.items():
+        if len(grp) > 1 and k[0]:
+            for x in grp:
+                o = [y for y in grp if y is not x][0]
+                x['notes'].append(('info', f"Same company as '{o['r']['brand']}' on the '{o['r']['sector']}' tab of your sheet (row {o['r']['row']})"))
     for x in rows:
         acq = x['status'] == 'defunct' or (x['status'] == 'subsidiary' and x['cat'] == 'To Verify')
         if x['rel'] <= 1 or x['score'] < 55 or acq: p = 'Lower'

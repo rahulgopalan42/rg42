@@ -1,6 +1,11 @@
 """Manual decisions for the brand workbook (keyed by brand id from data/brands.json.gz)."""
 # id -> fields that replace the profile (after a web check)
-FIX = {}
+FIX = {
+ '48-0086': {'status': 'subsidiary', 'parent': 'ServiceNow', 'ticker': '', 'changed': 'Acquired by ServiceNow in April 2026', 'f1': ''},      # ServiceNow press release, 20 Apr 2026
+ '08-0344': {'status': 'private', 'parent': '', 'ticker': '', 'f1': '', 'conf': 'medium',
+             'changed': 'Bought by Meta in December 2025; China ordered the deal unwound in April 2026 and Manus was reported to be separating from Meta in August 2026'},
+ '08-0247': {'status': 'private', 'parent': '', 'ticker': '', 'changed': 'Taken private by Sycamore Partners in 2025 and split into separate Walgreens, Boots and other businesses; the holding company no longer exists'},
+}
 # id -> ('exclude' | 'note' | 'clear', text) for the Formula 1 link
 F1 = {
  '26-0154': ('clear', ''),                                                   # Paramount Group is a New York office landlord, not Paramount+
@@ -23,6 +28,13 @@ F1 = {
  '27-0037': ('note', 'Was the Indian arm of AkzoNobel (Sikkens is an F1 partner); a sale to JSW Paints was reported in 2025 - confirm'),
  '23-0038': ('note', 'Sells Gulf-branded fuel in the United States under licence; Gulf Oil International (an F1 partner) is a separate company'),
  '08-0192': ('note', 'Name refers to Anthropic (an F1 partner); ownership not confirmed'),
+ # after the second check (web-confirmed 15 Nov 2026)
+ '08-0303': ('exclude', "IndraMind, Indra Group's AI brand, is a BWT Alpine F1 Team partner (announced January 2026)"),
+ '48-0086': ('exclude', 'ServiceNow (Formula 1 partner) completed its acquisition of Armis in April 2026'),
+ '01-0268': ('exclude', 'Parent of Iveco (an F1 partner): Tata Motors completed its takeover of Iveco Group in October 2026'),
+ '08-0344': ('note', 'Meta (an F1 partner) bought Manus in December 2025; China ordered the deal unwound and Manus was reported to be separating from Meta in 2026 - confirm the current owner'),
+ '09-0014': ('note', 'Owns Sky, which holds F1 broadcast rights in the UK, Italy and Germany: a media-rights partner of F1, not a sponsor'),
+ '07-0013': ('note', "Runs Formula 1's official online store under a merchandise licence: a licensing partner of F1, not a sponsor"),
 }
 # id -> listed-company symbol, where the automatic match needs help
 SYM = {}
