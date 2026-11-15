@@ -3,7 +3,7 @@
   bp_build.py xlsx      writes reports/F1-BRAND-PROFILES-<date>.xlsx
 Inputs: data/brands.json.gz (prep.py), out/out_*.jsonl (first profile pass), check/out_*.jsonl (second, independent pass on
 the key rows), review.py (manual decisions), and the listed-company data of public35/ for brands that are listed."""
-import datetime, glob, gzip, html, json, math, os, re, sys
+import unicodedata, datetime, glob, gzip, html, json, math, os, re, sys
 from collections import Counter, defaultdict
 H = os.path.dirname(os.path.abspath(__file__)); R = os.path.dirname(H)
 for p in ('brands200', 'parents', 'screenrec', 'public35'): sys.path.insert(0, os.path.join(R, p))       # public35 first: its build.py and review.py are the ones wanted
@@ -104,6 +104,7 @@ def assemble():
     B = json.load(gzip.open(os.path.join(H, 'data', 'brands.json.gz'), 'rt', encoding='utf-8'))
     P = {d['id']: d for d in jl('out/out_*.jsonl') if isinstance(d, dict) and d.get('id')}
     C2 = {d['id']: d for d in jl('check/out_*.jsonl') if isinstance(d, dict) and d.get('id')}
+    SPOT = {d['id']: d for d in jl('data/spot_web.jsonl') if d.get('found') and d.get('sure') in ('high', 'medium') and not (rv and d['id'] in rv.SPOT_SKIP)}
     W3 = {d['id']: d for d in jl('web/out_*.jsonl') if isinstance(d, dict) and d.get('id')}          # web verification of the uncertain rows
     A = pb.assemble(); U = A['U']; master = {r['sym']: r for r in A['rows']}
     cls = {}
@@ -134,6 +135,21 @@ def assemble():
             for k in ('desc', 'markets', 'rationale', 'industry', 'sector', 'rel', 'basis'):
                 if c2.get(k) not in (None, ''): e[k] = c2[k]
             e['conf'] = min(clean(e.get('conf')).lower() or 'low', clean(c2.get('conf')).lower() or 'low', key=lambda x: {'high': 2, 'medium': 1}.get(x, 0))
+        sp = SPOT.get(r['id']); spot = False
+        if sp:                                             # blind web spot-check: the facts it established replace the desk assessment
+            spot = True; fold = lambda t: unicodedata.normalize('NFKD', clean(t)).encode('ascii', 'ignore').decode().lower()
+            whq = re.sub(r'\s*\([^)]*\)', '', clean(sp.get('hq')))
+            if whq and fold(whq) != fold(e.get('hq')) and r['id'] not in rv.SPOT_KEEP_HQ: e['hq'] = whq
+            ws = clean(sp.get('status')).lower(); was = clean(e.get('status')).lower()
+            if ws in STATUS and ws != 'unknown':
+                e['status'] = ws; e['parent'] = re.sub(r'\s*\([^)]*\)?.*$', '', clean(sp.get('parent'))) if ws in ('subsidiary', 'state-owned') else ''
+                if ws != 'listed': e['ticker'] = ''
+                elif not clean(e.get('ticker')) and re.match(r'^[A-Z0-9.\- ]{1,12} \(', clean(sp.get('ticker'))): e['ticker'] = clean(sp.get('ticker'))
+            wc = re.sub(r'\s+for\s+~?(about\s+)?(US)?[$€£][\d.,]+\s?(bn|billion|m|million)?', '', clean(sp.get('changed')))
+            if wc and (ws != was or re.search(r'renam|rebrand|formerly', wc, re.I)): e['changed'] = wc.rstrip('.')
+            if clean(sp.get('reach')).title() in RSTEP and r['id'] not in rv.SPOT_KEEP_REACH: e['reach'] = sp['reach']; e['basis'] = 'known'
+            if clean(e.get('conf')).lower() == 'low': e['conf'] = 'medium'
+            differ = []; minor = []
         w3 = W3.get(r['id']); web = bool(w3) and clean(w3.get('web')).lower() == 'found'
         if w3 and not web: stat['web not found'] += 1
         if web:                                            # found on the web: these facts replace the desk assessment, and settle earlier differences
@@ -160,7 +176,9 @@ def assemble():
         if len(parts) >= 3: hq = parts[0] + ', ' + parts[-1]                       # "City, State, Country" -> "City, Country"
         country = parts[-1] if parts else r['country']
         if len(parts) == 2 and parts[0] == parts[1] and parts[0] in ('Hong Kong', 'Singapore', 'Monaco', 'Macau', 'Luxembourg', 'Gibraltar'): hq = parts[0]
-        if not hq: hq = (clean(r['loc'].split(',')[0]) + ', ' if r['loc'] and not r['loc'].endswith('.') else '') + r['country']
+        hq = hq.strip().strip(',').strip()
+        if not re.search(r'[A-Za-z\u00C0-\u024F]{3}', hq) or re.search(r'\d|:|crunchbase', hq, re.I): hq = ''      # unreadable location in the recording
+        if not hq or hq.lower() in ('unknown', 'n/a', 'not known', 'none'): hq = clean(r['country']) or 'Not recorded'
         ticker_txt = clean(e.get('ticker')); parent = clean(e.get('parent')); changed = clean(e.get('changed'))
         # ---- F1 exclusion
         link = ''
@@ -237,7 +255,7 @@ def assemble():
         if conf == 'low': notes.append(('profile', 'Profile written with low confidence: little is known about this company; check description, HQ and markets'))
         if not reach_ok: notes.append(('profile', 'Geographic reach not established'))
         elif basis == 'inferred': notes.append(('reach', 'Geographic reach inferred from the type of business and location, not confirmed'))
-        if web: notes.append(('info', 'Ownership, listing and reach looked up on the web on 15 Nov 2026'))
+        if web or spot: notes.append(('info', 'Ownership, listing and reach looked up on the web on 15 Nov 2026'))
         if differ: notes.append(('profile', 'Two independent assessments differed (first / second, second used): ' + '; '.join(differ)))
         if minor: notes.append(('info', 'Reach was assessed twice and the two results were one step apart (first / second, second used): ' + '; '.join(minor)))
         if changed and CHANGE.search(changed): notes.append(('corp', 'Reported corporate change - confirm current position: ' + changed))
@@ -254,7 +272,7 @@ def assemble():
         if re.search(r'tobacco', r['flags'], re.I) or sector == 'Tobacco & Nicotine': notes.append(('info', 'Tobacco, nicotine or cannabis: advertising restrictions apply in most F1 markets'))
         rows.append({'r': r, 'e': e, 'name': name, 'hq': hq, 'sector': sector, 'reach': reach, 'basis': basis, 'rel': rel, 'conf': conf, 'status': status, 'stage': stage, 'parent': parent,
                      'ticker_txt': ticker_txt, 'cat': cat, 'ev': ev, 'cap': capv, 'fin': fin, 'score': score, 'notes': notes, 'pub': pub, 'fin_cells': fin_cells, 'fund_txt': fund_txt,
-                     'fund_exact': exact, 'date': d, 'age': age, 'f1note': f1note, 'differ': differ, 'checked': bool(c2), 'web': web, 'src': (w3 or {}).get('src') or []})
+                     'fund_exact': exact, 'date': d, 'age': age, 'f1note': f1note, 'differ': differ, 'checked': bool(c2), 'web': web or spot, 'src': (w3 or {}).get('src') or []})
     seen = {}                                                # the same company entered twice in the sheet (old and new name, two tabs, a misread name)
     for x in rows:
         seen.setdefault((re.sub(r'[^a-z0-9]', '', x['name'].lower()), x['r']['country']), []).append(x)

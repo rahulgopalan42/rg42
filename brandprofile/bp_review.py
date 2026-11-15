@@ -4,6 +4,7 @@ FIX = {
  '48-0086': {'status': 'subsidiary', 'parent': 'ServiceNow', 'ticker': '', 'changed': 'Acquired by ServiceNow in April 2026', 'f1': ''},      # ServiceNow press release, 20 Apr 2026
  '08-0344': {'status': 'private', 'parent': '', 'ticker': '', 'f1': '', 'conf': 'medium',
              'changed': 'Bought by Meta in December 2025; China ordered the deal unwound in April 2026 and Manus was reported to be separating from Meta in August 2026'},
+ '08-0349': {'status': 'private', 'parent': '', 'ticker': '', 'changed': 'Taken private by Hg in April 2026 and delisted from Nasdaq'},                # found by web search, 15 Nov 2026
  '08-0247': {'status': 'private', 'parent': '', 'ticker': '', 'changed': 'Taken private by Sycamore Partners in 2025 and split into separate Walgreens, Boots and other businesses; the holding company no longer exists'},
 }
 # id -> ('exclude' | 'note' | 'clear', text) for the Formula 1 link
@@ -23,7 +24,7 @@ F1 = {
  '09-0053': ('note', 'Holds the French broadcast rights to Formula 1: a media-rights partner, not a sponsor'),
  '02-0039': ('note', 'Abu Dhabi state holding company reported to own Etihad Airways (an F1 partner); ADQ itself is not a partner'),
  '19-0199': ('note', 'Owned by Mumtalakat, the Bahrain state fund that also owns Gulf Air (an F1 partner); no F1 deal of its own'),
- '46-0215': ('note', 'Long a Boeing business (Boeing is an F1 partner); Boeing agreed to sell it in 2025 - confirm the current owner'),
+ '46-0215': ('clear', ''),                                                   # Boeing sold Jeppesen ForeFlight to Thoma Bravo (closed Nov 2025; web spot-check)
  '06-0119': ('note', 'Was part of Topgolf Callaway Brands (owner of F1 partner TravisMathew); a majority sale was reported in 2025-26 - confirm'),
  '27-0037': ('note', 'Was the Indian arm of AkzoNobel (Sikkens is an F1 partner); a sale to JSW Paints was reported in 2025 - confirm'),
  '23-0038': ('note', 'Sells Gulf-branded fuel in the United States under licence; Gulf Oil International (an F1 partner) is a separate company'),
@@ -38,6 +39,10 @@ F1 = {
 }
 # id -> listed-company symbol, where the automatic match needs help
 SYM = {}
+# Blind web spot-check (data/spot_web.jsonl): rows left as they were, with the reason
+SPOT_SKIP = {'15-0003', '15-0087', '36-1644'}     # the web result may describe a different group entity (Brookfield, Mirae Asset, HEC)
+SPOT_KEEP_HQ = {'01-0143'}                        # Garmin: Swiss legal domicile, operating headquarters in Olathe
+SPOT_KEEP_REACH = {'18-0741'}                     # Shoals: international revenue is marginal, so Domestic stands
 # lines for the Research Summary
 ACCURACY = []
 LIMITS = []
