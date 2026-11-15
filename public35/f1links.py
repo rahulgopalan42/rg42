@@ -48,7 +48,7 @@ GENERIC = {'public', 'clear', 'matrix', 'endless', 'floyd', 'mission', 'octave',
 TAIL = set('holding holdings group corp corporation inc incorporated plc ag sa se nv ab asa oyj ltd limited co company international global worldwide '
            'japan india malaysia pakistan china indonesia thailand nigeria bangladesh lanka kenya ghana egypt philippines vietnam korea brasil brazil mexico '
            'bank the of and berhad tbk bhd pjsc saog kk gmbh spa'.split())
-NOT_F1 = {'ferrarigroup', 'ferrarigroupplc'}             # Ferrari Group PLC is a luxury-goods shipping company, not the carmaker
+NOT_F1 = {'ferrarigroup', 'ferrarigroupplc', 'roland'}             # Ferrari Group PLC is a luxury-goods shipping company, not the carmaker; the Alpine supplier is Roland DG, not Roland Corporation
 BIG_DOMAINS = {'google.com', 'facebook.com', 'linkedin.com', 'microsoft.com', 'apple.com', 'amazon.com', 'github.io', 'wixsite.com'}
 def f1_link(name, domain=''):
     """('', '') or (what the link is, source) for a listed company name / website"""

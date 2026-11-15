@@ -12,7 +12,7 @@ TAGS = ['Revenues', 'RevenueFromContractWithCustomerExcludingAssessedTax', 'Reve
         'DepreciationDepletionAndAmortization', 'DepreciationAndAmortization', 'NetCashProvidedByUsedInOperatingActivities',
         'PaymentsToAcquirePropertyPlantAndEquipment', 'AdvertisingExpense', 'MarketingAndAdvertisingExpense', 'MarketingExpense', 'SellingAndMarketingExpense']
 if sys.argv[2] == 'frames':
-    for y in ('CY2025', 'CY2024'):
+    for y in ('CY2026', 'CY2025', 'CY2024'):        # CY2026 = fiscal years ending by about mid-2026 that have already been filed
         for t in TAGS:
             f = os.path.join(D, f'{t}_{y}.json')
             if os.path.exists(f): continue

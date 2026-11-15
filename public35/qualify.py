@@ -16,31 +16,56 @@ evidence:
   Insufficient       everything else (not listed)
 category: Challenger 4-6M, Mid-level 6-12M, Large 12M+ from cap_ops (loss-making: cap_ops x 0.6);
           To Verify when the only support is cash or a near-miss.
-Usage: imported by build.py"""
+Usage: imported by screen.py and build.py"""
 import math
 from sectors35 import SECTORS
 def fm(v):
     if v is None: return ''
     a = abs(v); s = '-' if v < 0 else ''
     return f'{s}${a/1e9:,.2f}B' if a >= 1e9 else f'{s}${a/1e6:,.0f}M' if a >= 1e6 else f'{s}${a:,.0f}'
-def financials(c):
-    """the best available figures for one company and the text for the spreadsheet columns"""
+def financials(c, grp=None, gap=None):
+    """the best available figures for one company. SEC filing figures (latest fiscal year filed: FY2026 where it is already
+    out, else FY2025) come first, then the market-data site (trailing twelve months), then the gap-fill lookup.
+    grp = the sector group; for banks and insurers the market-data revenue is used because the filing tag is often partial."""
     sec = c.get('sec') or {}; f = {}
-    rev_ttm = c.get('revenue') or None; rev_sec = sec.get('rev25')
-    f['rev'] = rev_sec or rev_ttm; f['rev_src'] = 'sec' if rev_sec else 'cmc' if rev_ttm else ''
-    f['rev_ttm'] = rev_ttm; f['mcap'] = c.get('mcap')
-    f['pretax'] = c.get('earnings') if c.get('earnings') not in (None, 0) else sec.get('pretax25')
+    y = '26' if sec.get('rev26') else '25' if sec.get('rev25') else ''; p = {'26': '25', '25': '24'}.get(y, '')
+    rev_ttm = c.get('revenue') or None; rev_sec = sec.get('rev' + y) if y else None
+    f['mismatch'] = bool(rev_sec and rev_ttm and not (0.4 < rev_sec / rev_ttm < 2.5))      # usually a wrong ticker match or a unit error in the filing data
+    partial = bool(grp == 'fin' and rev_sec and rev_ttm and not (0.7 < rev_sec / rev_ttm < 1.4))
+    use_sec = bool(rev_sec) and not f['mismatch'] and not partial
+    f['fy'] = y if use_sec else ''; f['fy_end'] = sec.get('end' + y) if use_sec else None; f['accn'] = sec.get('accn' + y) if use_sec else None
+    f['rev'] = rev_sec if use_sec else rev_ttm; f['rev_src'] = 'sec' if use_sec else 'cmc' if rev_ttm else ''
+    f['rev_ttm'] = rev_ttm; f['mcap'] = c.get('mcap'); f['assets'] = c.get('assets') or None
+    f['pretax'] = c.get('earnings') if c.get('earnings') not in (None, 0) else (sec.get('pretax' + y) if use_sec else None)
+    f['pretax_kind'] = 'Pre-tax profit'; f['pretax_ttm'] = c.get('earnings') not in (None, 0)
     f['cash'] = c.get('cash') or None; f['debt'] = c.get('debt') or None
     f['opm'] = c['opmargin'] / 100 if c.get('opmargin') not in (None, 0) else None
-    f['growth'] = (sec['rev25'] / sec['rev24'] - 1) if sec.get('rev25') and sec.get('rev24') and sec['rev24'] > 0 else None
-    f['opinc'] = sec.get('opinc25'); da = sec.get('da25') or sec.get('da225')
-    f['ebitda'] = f['opinc'] + da if f['opinc'] is not None and da else None
-    f['fcf'] = sec['cfo25'] - (sec.get('capex25') or 0) if sec.get('cfo25') is not None else None
-    adv = sec.get('adv25') or sec.get('mktadv25') or sec.get('mkt25')
-    f['mkt'] = adv; f['mkt_kind'] = 'Advertising expense' if sec.get('adv25') else 'Marketing and advertising expense' if sec.get('mktadv25') else 'Marketing expense' if sec.get('mkt25') else ''
-    f['sellmkt'] = sec.get('sellmkt25')
-    # a revenue mismatch between the filing and the market-data site usually means a wrong ticker match
-    f['mismatch'] = bool(rev_sec and rev_ttm and not (0.4 < rev_sec / rev_ttm < 2.5))
+    for k in ('growth', 'opinc', 'ebitda', 'fcf', 'cfo', 'capex', 'mkt', 'sellmkt', 'netinc', 'pretax_fy'): f[k] = None
+    f['mkt_kind'] = ''; f['mkt_fy'] = ''; f['sellmkt_fy'] = ''
+    if use_sec:
+        prev = sec.get('rev' + p) if p else None
+        g = rev_sec / prev - 1 if prev and prev > 0 else None
+        f['growth'] = g if g is not None and -0.9 < g < 5 else None
+        f['opinc'] = sec.get('opinc' + y); da = sec.get('da' + y) or sec.get('da2' + y)
+        if f['opinc'] is not None and abs(f['opinc']) > 1.5 * rev_sec: f['opinc'] = None
+        f['ebitda'] = f['opinc'] + da if f['opinc'] is not None and da and 0 < da < rev_sec else None
+        f['cfo'] = sec.get('cfo' + y); f['capex'] = sec.get('capex' + y)
+        f['fcf'] = f['cfo'] - (f['capex'] or 0) if f['cfo'] is not None else None
+        f['netinc'] = sec.get('netinc' + y); f['pretax_fy'] = sec.get('pretax' + y)
+        for yy in (y, p):                                                   # advertising lines are not tagged every year: take the latest of the two
+            if not yy: continue
+            for tag, kind in (('adv', 'Advertising expense'), ('mktadv', 'Marketing and advertising expense'), ('mkt', 'Marketing expense')):
+                v = sec.get(tag + yy)
+                if v and 0 < v < 0.6 * rev_sec and not f['mkt']: f['mkt'] = v; f['mkt_kind'] = kind; f['mkt_fy'] = yy
+            v = sec.get('sellmkt' + yy)
+            if v and 0 < v < 0.9 * rev_sec and not f['sellmkt']: f['sellmkt'] = v; f['sellmkt_fy'] = yy
+    f['gap'] = None
+    if gap and not f['rev'] and f['pretax'] is None:                        # no figures in either source: use the gap-fill lookup
+        f['rev'] = gap.get('revenue_usd') or None; f['rev_src'] = 'gap' if f['rev'] else ''
+        if gap.get('pretax_usd') is not None: f['pretax'] = gap['pretax_usd']
+        elif gap.get('net_income_usd') is not None: f['pretax'] = gap['net_income_usd']; f['pretax_kind'] = 'Net income'
+        if gap.get('cash_usd') and not f['cash']: f['cash'] = gap['cash_usd']
+        f['gap'] = gap
     return f
 def capacity(f, sector):
     s = SECTORS[sector]; g = s['grp']; rev = f['rev'] or 0; pt = f['pretax']; cash = f['cash'] or 0

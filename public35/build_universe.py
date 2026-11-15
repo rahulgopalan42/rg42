@@ -1,6 +1,6 @@
 """Merge the downloaded data into one table of listed companies: public35/data/universe.json.gz
  - companiesmarketcap.com CSVs: market cap, revenue (TTM), earnings (TTM), operating margin, cash, debt, employees, categories
- - SEC EDGAR (US filers, joined on ticker): FY2025 / FY2024 revenue, operating income, D&A, operating cash flow, capex,
+ - SEC EDGAR (US filers, joined on ticker): FY2026 (where already filed) / FY2025 / FY2024 revenue, operating income, D&A, operating cash flow, capex,
    advertising / marketing expense, SIC industry, business address, website, fiscal year end
  - Clay company exports already in the repo (wave15/clay_export_*.tsv): HQ city and LinkedIn industry, joined on name + country
 Usage: build_universe.py <raw dir>"""
@@ -31,7 +31,7 @@ S = os.path.join(RAW, 'sec'); fr = defaultdict(dict)
 def frame(tag, y):
     f = os.path.join(S, f'{tag}_{y}.json')
     return json.load(open(f))['data'] if os.path.exists(f) else []
-for y in ('CY2025', 'CY2024'):
+for y in ('CY2026', 'CY2025', 'CY2024'):
     for tag in ('Revenues', 'RevenueFromContractWithCustomerExcludingAssessedTax', 'RevenueFromContractWithCustomerIncludingAssessedTax', 'RevenuesNetOfInterestExpense'):
         for x in frame(tag, y):
             k = 'rev' + y[-2:]
