@@ -24,7 +24,7 @@ COLS = ['Company Name', 'Headquarters – City and country', 'F1 Investment Cate
         'Free Cash Flow / Liquidity', 'Marketing Expenditure (if disclosed)', 'Geographic Reach', 'Main Customer Markets & International Expansion',
         'F1 Sponsorship Rationale', 'Latest Financial Reporting Period', 'Financial & Corporate Sources', 'F1 Sponsorship Verification Source',
         'Financial Capacity Confidence', 'Verification Notes', 'Priority Score (0-100)']
-WIDTH = [30, 24, 13, 11, 46, 30, 22, 14, 14, 11, 36, 36, 38, 13, 44, 48, 32, 46, 44, 16, 46, 10]
+WIDTH = [30, 24, 13, 11, 50, 30, 22, 14, 14, 11, 42, 42, 42, 13, 50, 55, 36, 60, 60, 16, 50, 10]
 TAB = {'01': 'AI infrastructure', '02': 'AI software', '03': 'Semiconductors', '04': 'Enterprise software & cyber', '05': 'IT services & consulting',
        '06': 'Fintech & payments', '07': 'Crypto & prediction markets', '08': 'Banks & wealth', '09': 'Insurance & insurtech', '10': 'Betting & iGaming',
        '11': 'Telecoms', '12': 'Satellite & space', '13': 'Defence technology', '14': 'Quantum computing', '15': 'Robotics & industrial tech',
@@ -47,8 +47,8 @@ EXCH = {'T': 'Tokyo Stock Exchange', 'NS': 'NSE India', 'BO': 'BSE India', 'L': 
 US_STATES = set('AL AK AZ AR CA CO CT DE DC FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY PR'.split())
 ASIA35 = {'China', 'Hong Kong', 'Taiwan', 'South Korea', 'Singapore', 'Malaysia', 'Thailand', 'Indonesia', 'Vietnam', 'Philippines', 'Macau', 'Cambodia'}
 REL = {1: 10, 2: 35, 3: 60, 4: 80, 5: 100}; REACH = {'Global': 100, 'International': 80, 'Regional': 50, 'Domestic': 25}
-ROSTER_NOTE = ('Not on the 2025-26 Formula 1 partner roster (424 championship, team and Grand Prix partners from official team partner pages, rtrsports.com, '
-               'pitdebrief.com and sports-khabri.com, compiled Aug-Oct 2026); no parent, subsidiary or brand match found')
+ROSTER_NOTE = ('Not on the 2025-26 F1 partner roster (424 championship, team and Grand Prix partners; team partner pages re-read 15 Nov 2026). '
+               'No parent, subsidiary or brand match')
 def jl(pattern):
     for f in sorted(glob.glob(os.path.join(H, pattern))):
         for line in open(f, encoding='utf-8'):
@@ -71,20 +71,23 @@ def sa_growth(sa):
     g = sa_num(sa, 'revenue_growth_pct')
     return g / 100 if g is not None and -90 < g < 500 else None
 def sa_period(sa): return dt(sa.get('period_end')) or str(sa.get('fy') or 'latest fiscal year')
-def sa_profit(sa):
+def sa_usd(v, rev, usd_rev, cur):
+    """the same share of the USD revenue shown in the revenue column - an approximation, labelled 'about'"""
+    return f' (about {fm(v / rev * usd_rev)})' if cur != 'USD' and rev and usd_rev else ''
+def sa_profit(sa, usd_rev=None):
     cur = str(sa.get('currency') or '').upper(); u = sa.get('unit') or 'millions'; rev = sa_num(sa, 'revenue'); parts = []
     for k, lab in (('ebitda', 'EBITDA'), ('operating_income', 'Operating profit')):
         v = sa_num(sa, k)
-        if v is not None and rev and abs(v) < 1.5 * rev: parts.append(f'{lab} {lfm(v, cur, u)} ({v / rev * 100:.1f}% of revenue)')
+        if v is not None and rev and abs(v) < 1.5 * rev: parts.append(f'{lab} {lfm(v, cur, u)}{sa_usd(v, rev, usd_rev, cur)}, {v / rev * 100:.1f}% of revenue')
     return '; '.join(parts) + f' (year to {sa_period(sa)}; stockanalysis.com)' if parts else ''
-def sa_fcf(sa):
-    cur = str(sa.get('currency') or '').upper(); v = sa_num(sa, 'free_cash_flow')
-    return f"Free cash flow {lfm(v, cur, sa.get('unit') or 'millions')} (year to {sa_period(sa)}; stockanalysis.com)" if v is not None else ''
-def sa_mkt(sa):
+def sa_fcf(sa, usd_rev=None):
+    cur = str(sa.get('currency') or '').upper(); v = sa_num(sa, 'free_cash_flow'); rev = sa_num(sa, 'revenue')
+    return f"Free cash flow {lfm(v, cur, sa.get('unit') or 'millions')}{sa_usd(v, rev, usd_rev, cur)} (year to {sa_period(sa)}; stockanalysis.com)" if v is not None and rev and abs(v) < rev else ''
+def sa_mkt(sa, usd_rev=None):
     cur = str(sa.get('currency') or '').upper(); u = sa.get('unit') or 'millions'; rev = sa_num(sa, 'revenue'); v = sa_num(sa, 'advertising')
-    if v and rev and 0 < v < 0.6 * rev: return f'Advertising expense {lfm(v, cur, u)} ({v / rev * 100:.1f}% of revenue; year to {sa_period(sa)}; stockanalysis.com)'
+    if v and rev and 0 < v < 0.6 * rev: return f'Advertising expense {lfm(v, cur, u)}{sa_usd(v, rev, usd_rev, cur)}, {v / rev * 100:.1f}% of revenue (year to {sa_period(sa)}; stockanalysis.com)'
     v = sa_num(sa, 'selling_marketing')
-    if v and rev and 0 < v < 0.9 * rev: return f'Selling and marketing expense {lfm(v, cur, u)} (year to {sa_period(sa)}; stockanalysis.com): includes sales staff costs; advertising not disclosed separately'
+    if v and rev and 0 < v < 0.9 * rev: return f'Selling and marketing expense {lfm(v, cur, u)}{sa_usd(v, rev, usd_rev, cur)} (year to {sa_period(sa)}; stockanalysis.com): includes sales staff costs; advertising not disclosed separately'
     return ''
 def money(pos, neg, v): return f'{pos} {fm(v)}' if v >= 0 else f'{neg} {fm(-v)}'
 def words(s): return len(str(s or '').split())
@@ -118,7 +121,7 @@ def col_profit(f, grp):
         if parts: parts[-1] += yr
         elif f['pretax'] is not None:
             parts.append(money(f['pretax_kind'], neg, f['pretax']) + (ttm if f['pretax_ttm'] else yr))
-            if f['opm'] is not None and f['pretax_ttm']: parts.append(f"pre-tax margin {f['opm']:.1f}%")
+            if f['opm'] is not None and f['pretax_ttm'] and (f['opm'] >= 0) == (f['pretax'] >= 0): parts.append(f"pre-tax margin {f['opm']:.1f}%")
     return '; '.join(parts) or 'Not available'
 def col_liq(f, grp):
     yr = f" (year to {dt(f['fy_end'])})" if f['fy_end'] else ''; parts = []
@@ -190,6 +193,9 @@ def assemble():
         sa = FIN.get(sym)
         grp = SECTORS[code]['grp']; f = financials(c, grp, G.get(sym))
         gross = bool(f['rev'] and f['mcap'] and f['rev'] > 3 * f['mcap'] and (code == '07' or grp == 'fin'))     # gross trading / investment value booked as revenue
+        if gross and sa and str(sa.get('currency') or '').upper() == 'USD' and sa_num(sa, 'revenue') and sa_num(sa, 'revenue') * 1e6 < 0.1 * f['rev']:
+            f['rev'] = sa_num(sa, 'revenue') * 1e6; f['rev_src'] = 'sa'; f['mkt'] = None; gross = False; netrev = True      # net revenue instead of gross trading value
+        else: netrev = False
         k = capacity(dict(f, rev=None, mkt=None) if gross else f, code)
         if k['ev'] == 'Insufficient': out['insufficient financial capacity'] += 1; continue
         if not e: missing.append(sym); continue
@@ -221,6 +227,7 @@ def assemble():
             notes.append(('cat', 'Investment category not assigned: ' + why))
         if k['stressed']: notes.append(('data', 'Losses are large relative to cash on hand: check the funding position'))
         elif k['loss'] and k['cat'] != 'To Verify': notes.append(('info', 'Loss-making: capacity estimate discounted'))
+        if netrev: notes.append(('info', 'Revenue shown is net revenue from stockanalysis.com; the market-data site reports gross trading value'))
         if gross: notes.append(('data', 'Reported revenue is gross trading or investment value, not net revenue: it was not used for the capacity estimate'))
         if f['mismatch']: notes.append(('data', 'Revenue in the SEC filing data and the market-data site differ widely, so the filing figures were not used: check the latest report'))
         if f['gap']: notes.append(('info', 'Revenue and profit from stockanalysis.com, converted from local currency (' + str(f['gap'].get('currency_note') or '') + ')'))
@@ -256,12 +263,15 @@ def cells(r):
     growth = f['growth'] if f['growth'] is not None else (sa_growth(sa) if sa else None)
     profit = col_profit(f, grp); liq = col_liq(f, grp); mkt = col_mkt(f, c.get('sec') or {}); period = col_period(f); sources = col_sources(c, f)
     if sa:
-        if grp != 'fin' and sa_profit(sa): profit = sa_profit(sa) + ('; ' + profit if profit != 'Not available' else '')
-        if grp != 'fin' and sa_fcf(sa): liq = sa_fcf(sa) + ('; ' + liq if liq != 'Not available' else '')
-        if mkt == 'Not Disclosed' and sa_mkt(sa): mkt = sa_mkt(sa)
-        period = f'Fiscal year to {sa_period(sa)} for growth, profit and cash flow (stockanalysis.com); revenue is ' + period[0].lower() + period[1:]
-        if sa.get('source_url'): sources += '; ' + str(sa['source_url'])
-    clean = lambda s: re.sub(r'\s+', ' ', str(s or '')).strip()
+        ur = f['rev']
+        if grp != 'fin' and sa_profit(sa, ur): profit = sa_profit(sa, ur)
+        if grp != 'fin' and sa_fcf(sa, ur): liq = sa_fcf(sa, ur) + ('; ' + liq if liq != 'Not available' else '')
+        if mkt == 'Not Disclosed' and sa_mkt(sa, ur): mkt = sa_mkt(sa, ur)
+        period = (f'Fiscal year to {sa_period(sa)} (stockanalysis.com); market value at Nov 2026' if f['rev_src'] != 'cmc' else
+                  f'Fiscal year to {sa_period(sa)} for growth, profit and cash flow (stockanalysis.com); revenue is trailing 12 months (companiesmarketcap.com, Nov 2026)')
+        if sa.get('source_url') and str(sa['source_url']) not in sources: sources += '; ' + str(sa['source_url'])
+    if growth is not None: growth = round(growth, 4)
+    clean = lambda x: re.sub(r'\s+', ' ', str(x or '')).strip()
     f1 = ROSTER_NOTE + ('. Web search check, 15 Nov 2026: ' + r['webnote'] if r['webnote'] else '') + ('. Note: ' + r['f1note'] if r['f1note'] and not r['webnote'] else '')
     return [r['name'], r['hq'], k['cat'], r['priority'], clean(e.get('desc')), SECTORS[r['sector']]['name'], ticker(c, f['gap']),
             f['rev'] if f['rev'] else 'Not available', f['mcap'] if f['mcap'] else 'Not available', growth if growth is not None else 'Not available',
@@ -282,6 +292,7 @@ def style_sheet(ws, n):
     ws.auto_filter.ref = f'A1:{get_column_letter(len(COLS))}{max(n + 1, 2)}'
     longcols = {5, 11, 12, 13, 15, 16, 17, 18, 19, 21}
     for i in range(2, n + 2):
+        ws.row_dimensions[i].height = 62                      # four lines: keeps rows even; longer cells stay readable in the formula bar
         for j in range(1, len(COLS) + 1):
             x = ws.cell(i, j); x.alignment = wrap if j in longcols else top
         for j in (8, 9):
@@ -349,7 +360,7 @@ def summary_rows(A):
     for a, b in [('Market data', 'companiesmarketcap.com data downloads, Nov 2026: market value, trailing-12-month revenue and pre-tax earnings, cash, debt, total assets (11,396 listed companies).'),
                  ('Company filings', 'SEC EDGAR official data (data.sec.gov): annual revenue, operating income, depreciation, operating cash flow, capital spending and advertising / marketing expense for the latest fiscal year filed (FY2026 where already out, otherwise FY2025) and the year before; business address and exchange.'),
                  ('Gap fill', 'stockanalysis.com for Gulf and other listings with no figures in the two sources above.'),
-                 ('F1 partner roster', '424 current partners from official team partner pages (Aston Martin, Red Bull Racing, Mercedes, Racing Bulls, Haas, Williams, Cadillac, Ferrari) and rtrsports.com, pitdebrief.com, sports-khabri.com, compiled Aug-Oct 2026.'),
+                 ('F1 partner roster', '424 current partners from official team partner pages and rtrsports.com, pitdebrief.com, sports-khabri.com, compiled Aug-Oct 2026. The official partner pages of McLaren, Red Bull Racing, Mercedes, Aston Martin, Williams, Alpine, Audi, Haas and Racing Bulls were re-read on 15 Nov 2026, and the 200 highest-ranked companies were each checked with a live web search; both steps removed further current sponsors.'),
                  ('Not used', 'Apollo was not used.')]: S.append(('kv', [a, b]))
     S.append(('blank', ''))
     S.append(('sub', 'Limits to keep in mind'))
@@ -357,7 +368,7 @@ def summary_rows(A):
               'Coverage follows the market-data universe: China A-shares and smaller emerging-market listings are thinner than US, European and Japanese ones.',
               'Company profiles (HQ, description, markets, rationale) are desk-research summaries that were not individually web-verified; check them before outreach, starting with the rows on the Verification Required tab.',
               'Sponsorship capacity is an estimate from public figures, not a known budget. No sponsorship intentions are implied.',
-              'The F1 partner roster dates from Aug-Oct 2026: re-check a company against current team announcements before contact.',
+              'F1 partner check: the live web search covered the 200 highest-ranked companies and found about ten current sponsors the roster had missed, mostly deals signed in 2026. Companies ranked below that were checked against the roster and the re-read team pages only, so re-check any company against current team announcements before contact.',
               'Emerging sectors (quantum computing, robotaxis, air taxis, satellite) have few listed companies with the means to sponsor, so those lists are short by design.']: S.append(('text', '- ' + t))
     return S
 def write_master(A):

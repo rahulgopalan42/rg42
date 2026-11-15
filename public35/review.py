@@ -60,6 +60,7 @@ F1 = {
  'WOSG.L': ('clear', 'retailer of partner brands only'),
 }
 DROP = {
+ 'WBD': 'acquired by Paramount Skydance (an F1 partner) and delisted in Oct 2026',
  'DAY': 'taken private by Thoma Bravo', 'SHCO': 'taken private by MCR Hotels', 'YAHSAT.AE': 'merged into Space42', '7205.T': 'merged into Archion (no longer separately listed)',
  '096775.KS': 'preferred share line of SK Innovation (ordinary shares listed separately)', 'ASGN': 'old ticker of the same company (now Everforth, EFOR)',
  'SCVL': 'old ticker of the same company (now Shoe Station Group, SHOE)', 'ORDS.AE': 'second listing of Ooredoo (ORDS.QA kept)', '8301.T': 'central bank',
@@ -79,6 +80,8 @@ WEB = {'LVS': 'none', '4755.T': 'current', 'ENT.L': 'unclear', 'BUD': 'unclear'}
 ROSTER_EXTRA = {     # found when the official team partner pages were re-read on 15 Nov 2026, and subsidiaries of sponsors found by the web check
  'BBD': 'Bradesco is on the Haas partner page (Nov 2026)',
  'MELI': 'Mercado Libre is on the Alpine partner page (Nov 2026)',
+ 'SSYS': 'Stratasys is on the McLaren partner page (Nov 2026)',
+ 'ABBV': 'AbbVie is on the McLaren partner page (Nov 2026)',
  'HINDUNILVR.NS': 'subsidiary of Unilever, whose Clear brand is a Red Bull Racing partner from 2026',
  'UNVR.JK': 'subsidiary of Unilever, whose Clear brand is a Red Bull Racing partner from 2026',
  'UPFL.PK': 'subsidiary of Unilever, whose Clear brand is a Red Bull Racing partner from 2026',
