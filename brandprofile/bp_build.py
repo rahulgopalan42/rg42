@@ -80,7 +80,9 @@ def same_country(a, b):
     return a == b or (a in cn and b in cn)
 STATUS = {'private', 'listed', 'subsidiary', 'state-owned', 'non-commercial', 'defunct', 'unknown'}
 STAGE = {'commercial', 'pre-revenue', 'project', 'fund', 'non-commercial'}
-CHANGE = re.compile(r'acquir|merg|bankrupt|chapter 11|liquidat|insolv|administration|delist|taken private|went private|wound|closed|ceased|shut|dissol', re.I)
+# a reported change is a point to verify only when it is unsettled (pending, unconfirmed) or threatens the company itself (insolvency, closure)
+CHANGE = re.compile(r'not confirmed|unconfirmed|could not confirm|not completed|completion|pending|agreed (to|sale|in)|\bagreed\b|proposed|planned|plans to|announced|in talks|\bbid\b|offer for|'
+                    r'expected|reported|bankrupt|chapter 11|chapter 7|liquidat|insolv|administration|receivership|restructur|delist|wound|wind[- ]down|ceased|shut|dissol|unwound|unwind', re.I)
 GENERIC_TOK = set('group holding holdings company corporation international global technologies technology systems solutions industries services financial bank energy motors motor pharma pharmaceuticals '
                   'therapeutics capital partners resources digital software network networks media entertainment china india japan american national first united general'.split())
 def toks(name): return {w for w in re.findall(r'[a-z0-9]+', html.unescape(str(name)).lower()) if len(w) >= 4 and w not in GENERIC_TOK}
@@ -102,6 +104,7 @@ def assemble():
     B = json.load(gzip.open(os.path.join(H, 'data', 'brands.json.gz'), 'rt', encoding='utf-8'))
     P = {d['id']: d for d in jl('out/out_*.jsonl') if isinstance(d, dict) and d.get('id')}
     C2 = {d['id']: d for d in jl('check/out_*.jsonl') if isinstance(d, dict) and d.get('id')}
+    W3 = {d['id']: d for d in jl('web/out_*.jsonl') if isinstance(d, dict) and d.get('id')}          # web verification of the uncertain rows
     A = pb.assemble(); U = A['U']; master = {r['sym']: r for r in A['rows']}
     cls = {}
     for f in sorted(glob.glob(os.path.join(R, 'public35', 'classify', 'out_*.txt'))):
@@ -131,6 +134,19 @@ def assemble():
             for k in ('desc', 'markets', 'rationale', 'industry', 'sector', 'rel', 'basis'):
                 if c2.get(k) not in (None, ''): e[k] = c2[k]
             e['conf'] = min(clean(e.get('conf')).lower() or 'low', clean(c2.get('conf')).lower() or 'low', key=lambda x: {'high': 2, 'medium': 1}.get(x, 0))
+        w3 = W3.get(r['id']); web = bool(w3) and clean(w3.get('web')).lower() == 'found'
+        if w3 and not web: stat['web not found'] += 1
+        if web:                                            # found on the web: these facts replace the desk assessment, and settle earlier differences
+            stat['web'] += 1
+            for k in ('reach', 'status'):
+                a, b = clean(e.get(k)).lower(), clean(w3.get(k)).lower()
+                if a != b: stat[f'web changed {k}'] += 1
+                if k == 'reach' and a.title() in RSTEP and b.title() in RSTEP and abs(RSTEP.index(a.title()) - RSTEP.index(b.title())) >= 2: stat['web changed reach 2+ steps'] += 1
+                if k == 'status' and a == 'unknown' and b != 'unknown': stat['web settled unknown status'] += 1
+            for k in ('name', 'hq', 'desc', 'sector', 'industry', 'reach', 'basis', 'markets', 'rationale', 'rel', 'status', 'stage', 'conf'):
+                if w3.get(k) not in (None, ''): e[k] = w3[k]
+            for k in ('ticker', 'parent', 'changed', 'f1'): e[k] = w3.get(k, '')
+            differ = []; minor = []
         if rv and r['id'] in rv.FIX: e.update(rv.FIX[r['id']])
         name = clean(e.get('name')) or r['brand']
         conf = clean(e.get('conf')).lower(); conf = conf if conf in ('high', 'medium', 'low') else 'low'
@@ -221,6 +237,7 @@ def assemble():
         if conf == 'low': notes.append(('profile', 'Profile written with low confidence: little is known about this company; check description, HQ and markets'))
         if not reach_ok: notes.append(('profile', 'Geographic reach not established'))
         elif basis == 'inferred': notes.append(('reach', 'Geographic reach inferred from the type of business and location, not confirmed'))
+        if web: notes.append(('info', 'Ownership, listing and reach looked up on the web on 15 Nov 2026'))
         if differ: notes.append(('profile', 'Two independent assessments differed (first / second, second used): ' + '; '.join(differ)))
         if minor: notes.append(('info', 'Reach was assessed twice and the two results were one step apart (first / second, second used): ' + '; '.join(minor)))
         if changed and CHANGE.search(changed): notes.append(('corp', 'Reported corporate change - confirm current position: ' + changed))
@@ -237,7 +254,7 @@ def assemble():
         if re.search(r'tobacco', r['flags'], re.I) or sector == 'Tobacco & Nicotine': notes.append(('info', 'Tobacco, nicotine or cannabis: advertising restrictions apply in most F1 markets'))
         rows.append({'r': r, 'e': e, 'name': name, 'hq': hq, 'sector': sector, 'reach': reach, 'basis': basis, 'rel': rel, 'conf': conf, 'status': status, 'stage': stage, 'parent': parent,
                      'ticker_txt': ticker_txt, 'cat': cat, 'ev': ev, 'cap': capv, 'fin': fin, 'score': score, 'notes': notes, 'pub': pub, 'fin_cells': fin_cells, 'fund_txt': fund_txt,
-                     'fund_exact': exact, 'date': d, 'age': age, 'f1note': f1note, 'differ': differ, 'checked': bool(c2)})
+                     'fund_exact': exact, 'date': d, 'age': age, 'f1note': f1note, 'differ': differ, 'checked': bool(c2), 'web': web, 'src': (w3 or {}).get('src') or []})
     seen = {}                                                # the same company entered twice in the sheet (old and new name, two tabs, a misread name)
     for x in rows:
         seen.setdefault((re.sub(r'[^a-z0-9]', '', x['name'].lower()), x['r']['country']), []).append(x)
@@ -281,7 +298,7 @@ def cells(x):
     f1 = F1_NOTE + ('. Note: ' + x['f1note'] if x['f1note'] else '')
     ind = clean(e.get('industry')); sec = x['sector'] + (': ' + ind if ind else '')
     return [x['name'], x['hq'], x['cat'], x['priority'], clean(e.get('desc')), sec, tick, rev, mcap, growth, profit, liq, mkt, x['reach'], clean(e.get('markets')), clean(e.get('rationale')),
-            period, src, f1, x['ev'], '; '.join(t for _, t in x['notes']), x['score'], x['conf'].title(), 'x' if r['mark'] else '', r['brand'], r['sector']]
+            period, src, f1, x['ev'], '; '.join(t for _, t in x['notes']) or 'None flagged', x['score'], x['conf'].title(), 'x' if r['mark'] else '', r['brand'], r['sector']]
 if __name__ == '__main__':
     cmd = sys.argv[1] if len(sys.argv) > 1 else 'check'
     A = assemble(); rows = A['rows']

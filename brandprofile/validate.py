@@ -1,8 +1,8 @@
-"""Checks every out/out_NNN.jsonl against in/in_NNN.jsonl.  Usage: validate.py [dir=out]   Prints files that are missing, short or malformed."""
+"""Checks every out/out_NNN.jsonl against in/in_NNN.jsonl.  Usage: validate.py [out|check|web]   Prints files that are missing, short or malformed."""
 import glob, json, os, re, sys
 from collections import Counter
 H = os.path.dirname(os.path.abspath(__file__)); D = sys.argv[1] if len(sys.argv) > 1 else 'out'
-src = 'in' if D == 'out' else 'check_in'
+src = {'out': 'in', 'check': 'check_in', 'web': 'web_in'}[D]
 ALLOWED = {'reach': {'Domestic', 'Regional', 'International', 'Global'}, 'basis': {'stated', 'known', 'inferred'}, 'conf': {'high', 'medium', 'low'},
            'status': {'private', 'listed', 'subsidiary', 'state-owned', 'non-commercial', 'defunct', 'unknown'}, 'stage': {'commercial', 'pre-revenue', 'project', 'fund', 'non-commercial'}}
 SECT = None
@@ -30,6 +30,7 @@ for f in sorted(glob.glob(os.path.join(H, src, 'in_*.jsonl'))):
         if not 10 <= w <= 20: errs['desc length'] += 1
         for k, lo, hi in (('markets', 5, 30), ('rationale', 8, 30)):
             if not lo <= len(str(d.get(k, '')).split()) <= hi: errs[f'{k} length'] += 1
+        if D == 'web' and str(d.get('web', '')).strip() not in ('found', 'not found'): errs['web value'] += 1
         if not str(d.get('name', '')).strip() or not str(d.get('hq', '')).strip(): errs['name or hq empty'] += 1
     if got != ids:
         miss = len(set(ids) - set(got)); extra = len(set(got) - set(ids)); errs[f'ids differ (missing {miss}, extra {extra}, order {"ok" if sorted(got) == sorted(ids) else "n/a"})'] += 1

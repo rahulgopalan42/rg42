@@ -34,8 +34,10 @@ bad = [(r[0], len(str(r[4]).split())) for r in M if not 10 <= len(str(r[4]).spli
 check('6 every description is 10-20 words', not bad, (len(bad), bad[:5]))
 bad = [(r[0], build.COLS[j]) for r in M for j in range(22) if r[j] in (None, '')]
 check('7 no blank cell in the 22 profile columns', not bad, (len(bad), bad[:5]))
-bad = [(r[0], f1_link(str(r[0]))[0]) for r in M if f1_link(str(r[0]))[0] or f1_link(str(r[24]))[0]]
-check('8 no brand in the lists matches the F1 partner roster by name', not bad, bad[:5])
+import bp_review
+decided = {key(r['brand'], r['sector']) for r in B if bp_review.F1.get(r['id'], ('',))[0] in ('clear', 'note')}     # looked at by hand: not the roster company, or a link that is noted
+bad = [(r[0], f1_link(str(r[0]))[0] or f1_link(str(r[24]))[0]) for r in M if (f1_link(str(r[0]))[0] or f1_link(str(r[24]))[0]) and key(r[24], r[25]) not in decided]
+check('8 no brand in the lists matches the F1 partner roster by name (apart from the names reviewed by hand)', not bad, bad[:5])
 T = data['Top 500 Prospects'][1]; mk = {key(r[24], r[25]) for r in M}
 check('9 Top 500 has 500 rows, all from the master list, all High priority', len(T) == 500 and all(key(r[24], r[25]) in mk for r in T) and all(r[3] == 'High' for r in T), f'{len(T)} rows, {dict(Counter(r[3] for r in T))}')
 V = data['Verification Required'][1]
