@@ -48,5 +48,5 @@ for c in ORDER:
     if not os.path.exists(p): miss.append(c + ' missing'); continue
     h, rows = read(load_workbook(p, read_only=True).worksheets[0])
     if h[:len(build.COLS)] != build.COLS or [r[6] for r in rows] != [r[6] for r in sec_rows[c]]: miss.append(c + ' differs from the master tab')
-check('14 the 35 sector files exist and match their master tabs', not miss, miss[:5])
+check('14 the sector files exist and match their master tabs', not miss, miss[:5])
 print(f"{sum(res)}/{len(res)} checks passed | master {len(M)} companies | priority {dict(Counter(r[3] for r in M))} | category {dict(Counter(r[2] for r in M))} | verification {len(V)}")

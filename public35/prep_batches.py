@@ -46,7 +46,16 @@ else:
         for line in open(f):
             p = line.strip().split('|')
             if len(p) == 2: cls[p[0]] = p[1].strip()
-    todo = sorted(A['missing'], key=lambda s: (cls[s], -(U[s].get('mcap') or 0))); n0 = nxt('enrich/in_*.jsonl')
+    # a sector that is already over the 400 cap: skip a company that could not reach the current 400th score even with a good profile
+    from sectors35 import SECTORS
+    from qualify import financials, capacity, cap_score
+    cutoff = {c: min(r['score'] for r in A['bysec'][c]) for c, n in A['cut'].items() if n > 0}
+    def best_case(s):
+        code = cls[s]; f = financials(U[s], SECTORS[code]['grp']); k = capacity(f, code)
+        return 0.6 * (0.25 * SECTORS[code]['fit'] * 10 + 0.5 * 60 + 0.25 * 80) + 0.4 * cap_score(k, f)          # relevance 3, international reach
+    skip = [s for s in A['missing'] if cls[s] in cutoff and best_case(s) < cutoff[cls[s]]]
+    print('skipped (sector over the cap and the company could not reach the cut-off):', len(skip), {c: sum(1 for s in skip if cls[s] == c) for c in cutoff})
+    todo = sorted([s for s in A['missing'] if s not in set(skip)], key=lambda s: (cls[s], -(U[s].get('mcap') or 0))); n0 = nxt('enrich/in_*.jsonl')
     for i in range(0, len(todo), per):
         with open(os.path.join(H, 'enrich', f'in_{n0 + i // per:02d}.jsonl'), 'w', encoding='utf-8') as fh:
             for s in todo[i:i + per]:

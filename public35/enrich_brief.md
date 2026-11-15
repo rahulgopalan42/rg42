@@ -86,3 +86,16 @@ Output rules: valid JSON on each line, double quotes, no trailing commas, no lin
 in chunks of about 25 companies (append), then at the end check: same number of lines as the input, same symbols in the
 same order, every line parses as JSON. Create no other files in the repository (use your scratchpad for temp files).
 Reply with: lines written, how many `conf: low`, how many sector changes, how many non-empty `f1`.
+
+Extra rules (apply to every batch)
+- Write each description as a real, specific sentence of 10-20 words about that company (products, customers, where).
+  Never pad a short description with a generic suffix. Write `markets` in 8-25 words and `rationale` in 12-25 words.
+- Many companies in these batches are mid-sized listed companies from China, Japan, South Korea, Taiwan and India with
+  few hints. If you do not know a company, write the description from what its name, country and hints support, keep
+  `markets` and `rationale` modest ("No verified expansion plans."), and set `conf` to "low". Do not invent products,
+  customers or international operations.
+- `hq`: leave the city empty rather than guess. Exception: if the registered name starts with a city (for example
+  "Shenzhen ...", "Ningbo ...", "Suzhou ..."), you may use that city. A province name alone (Zhejiang, Guangdong,
+  Jiangsu, Shandong) is not a city.
+- Keep any helper script in your own new scratch directory (named in your instructions) and never run a script you
+  did not write: other agents share the machine.

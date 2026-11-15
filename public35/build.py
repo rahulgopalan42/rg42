@@ -1,6 +1,6 @@
 """Step 2 of the build: turn the screened, profiled companies into the deliverables.
   build.py check          counts, score distribution and things to review (writes nothing)
-  build.py sectors        one workbook per sector in reports/public-companies-35-sectors/
+  build.py sectors        one workbook per sector in reports/public-companies-by-sector/
   build.py master         the master workbook (Master Companies, 35 sector tabs, Top 500 Prospects, Verification Required, Research Summary)
 Inputs: data/universe.json.gz (market data + SEC filings), classify/out_*.txt (sector), enrich/out_*.jsonl (profile fields),
 fix/out_*.jsonl (rewritten thin fields), gap/out_*.jsonl (figures for companies with none), review.py (manual decisions).
@@ -17,8 +17,8 @@ from sectors35 import SECTORS, ORDER
 from qualify import financials, capacity, cap_score, fm
 from f1links import f1_link
 import review
-DATE = '2026-11-15'; OUT = os.path.join(R, 'reports', 'public-companies-35-sectors'); CAP = 400
-MASTER = os.path.join(R, 'reports', f'F1-PUBLIC-COMPANIES-MASTER-35-SECTORS-{DATE}.xlsx')
+DATE = '2026-11-15'; OUT = os.path.join(R, 'reports', 'public-companies-by-sector'); CAP = 400
+MASTER = os.path.join(R, 'reports', f'F1-PUBLIC-COMPANIES-MASTER-{DATE}.xlsx')
 COLS = ['Company Name', 'Headquarters – City and country', 'F1 Investment Category', 'Outreach Priority', 'Company Description', 'Sector / Industry',
         'Stock Ticker / Exchange', 'Annual Revenue (USD)', 'Market Capitalization (USD)', 'Revenue Growth (YoY)', 'EBITDA / Operating Profit',
         'Free Cash Flow / Liquidity', 'Marketing Expenditure (if disclosed)', 'Geographic Reach', 'Main Customer Markets & International Expansion',
@@ -32,7 +32,9 @@ TAB = {'01': 'AI infrastructure', '02': 'AI software', '03': 'Semiconductors', '
        '21': 'Airlines, hotels & leisure', '22': 'Logistics & shipping', '23': 'Energy, fuels & lubricants', '24': 'Nuclear & new energy',
        '25': 'Consumer electronics', '26': 'Games & entertainment', '27': 'Beverages & alcohol', '28': 'Restaurants & coffee', '29': 'Food, household & retail',
        '30': 'Beauty & personal care', '31': 'Fashion & footwear', '32': 'Luxury, jewellery & watches', '33': 'Consumer health',
-       '34': 'Weight-loss & digital health', '35': 'Asian consumer brands'}
+       '34': 'Weight-loss & digital health', '35': 'Asian consumer brands', '36': 'Pharma & biotech', '37': 'Medtech & healthcare', '38': 'Chemicals & materials',
+       '39': 'Aerospace & aviation', '40': 'Professional & staffing', '41': 'Real estate & developers', '42': 'Mining, metals & steel', '43': 'Conglomerates & trading',
+       '44': 'Construction & building', '45': 'Utilities, power & water', '46': 'Education & edtech'}
 EXCH = {'T': 'Tokyo Stock Exchange', 'NS': 'NSE India', 'BO': 'BSE India', 'L': 'London Stock Exchange', 'IL': 'London Stock Exchange (IOB)', 'SS': 'Shanghai Stock Exchange',
         'SZ': 'Shenzhen Stock Exchange', 'HK': 'Hong Kong Stock Exchange', 'KS': 'Korea Exchange', 'KQ': 'KOSDAQ', 'PA': 'Euronext Paris', 'AS': 'Euronext Amsterdam',
         'BR': 'Euronext Brussels', 'LS': 'Euronext Lisbon', 'IR': 'Euronext Dublin', 'MI': 'Euronext Milan', 'AX': 'ASX', 'NZ': 'NZX', 'TO': 'Toronto Stock Exchange',
@@ -182,7 +184,7 @@ def assemble():
     rows = []; out = Counter(); missing = []; f1x = []
     for sym, c in U.items():
         code0 = cls.get(sym, '')
-        if code0 not in SECTORS: out['not in any of the 35 sectors (first pass)'] += 1; continue
+        if code0 not in SECTORS: out['not in any sector (funds, shells, tobacco, packaging, agriculture) or not classified'] += 1; continue
         if c['country'] == 'Russia' or sym.endswith('.ME'): out['Russian market'] += 1; continue
         name = re.sub(r'\s+', ' ', html.unescape(c['name'])).strip(); sec = c.get('sec') or {}
         web = sec.get('web') or (c.get('clay') or {}).get('domain') or ''
@@ -192,7 +194,7 @@ def assemble():
         e = E.get(sym); code = code0
         if e:
             s2 = str(e.get('sector') or '')
-            if s2 == '00': out['not in any of the 35 sectors (company review)'] += 1; continue
+            if s2 == '00': out['not in any sector (company review)'] += 1; continue
             if s2 in SECTORS and not (s2 == '35' and c['country'] not in ASIA35): code = s2
         if sym in review.DROP: out['removed: ' + review.DROP[sym]] += 1; continue
         sa = FIN.get(sym)
@@ -319,7 +321,7 @@ KEY = [('F1 Investment Category', 'Estimated annual sponsorship capacity: Challe
        ('Outreach Priority', 'High / Medium / Lower from the Priority Score: 60% strategic relevance (sector fit, company relevance, geographic reach) and 40% financial capacity.'),
        ('Financial Capacity Confidence', 'Strong Evidence = profitable, with revenue or marketing spend that supports USD 4M+ a year. Plausible Capacity = could fund it, but loss-making, cash-based, a near-miss or missing figures. Companies with insufficient capacity are not listed.'),
        ('Capacity is an estimate', 'It is derived from revenue, profit, cash and disclosed marketing spend with sector-specific tests. It is not a stated sponsorship budget.'),
-       ('Financial figures', 'Revenue, growth, EBITDA / operating profit, cash flow and marketing spend come from SEC annual filings where the company files in the US; otherwise revenue, pre-tax profit, cash and debt are trailing-12-month figures from companiesmarketcap.com. "Not available" / "Not Disclosed" = not in the sources used, not zero.'),
+       ('Financial figures', 'Revenue, growth, EBITDA / operating profit, cash flow and marketing spend come from SEC annual filings where the company files in the US; otherwise revenue, pre-tax profit, cash and debt are trailing-12-month figures from companiesmarketcap.com, or market value and revenue from the stockanalysis.com exchange lists. "Not available" / "Not Disclosed" = not in the sources used, not zero.'),
        ('Profile fields', 'Headquarters, description, markets and rationale are desk-research summaries and were not individually web-verified. Rows written with low confidence are flagged in Verification Notes.'),
        ('F1 exclusion', 'Current Formula 1 championship, team and Grand Prix partners, team owners and engine suppliers, and their parents and subsidiaries, are excluded (2025-26 roster of 424 partners, compiled Aug-Oct 2026).'),
        ('Verification Notes', 'What to check before outreach: unassigned category, data gaps, recent corporate actions, licence or franchise links to an F1 partner.')]
@@ -339,7 +341,7 @@ def write_sector(A, code):
 def summary_rows(A):
     rows = A['rows']; out = A['out']; S = []
     S.append(('title', f'Listed companies that could fund a Formula 1 partnership - research summary ({DATE})'))
-    S.append(('text', f"{len(rows):,} listed companies across 35 sectors. Each company appears once, in its best-fit sector. Current F1 partners and their parents and subsidiaries are excluded."))
+    S.append(('text', f"{len(rows):,} listed companies across {len(ORDER)} sectors: the original 35 plus 11 added at your request (36-46), where Formula 1 already has sponsors or a clear commercial logic. Each company appears once, in its best-fit sector. Current F1 partners and their parents and subsidiaries are excluded."))
     S.append(('blank', ''))
     S.append(('head', ['Sector', 'F1 fit (0-10)', 'Companies', 'High', 'Medium', 'Lower', 'Large', 'Mid-level', 'Challenger', 'To Verify', 'Strong Evidence', 'Plausible Capacity', 'Note']))
     for code in ORDER:
@@ -351,7 +353,7 @@ def summary_rows(A):
     S.append(('total', ['Total', '', len(rows), pc['High'], pc['Medium'], pc['Lower'], cc['Large'], cc['Mid-level'], cc['Challenger'], cc['To Verify'], ec['Strong Evidence'], ec['Plausible Capacity'], '']))
     S.append(('blank', ''))
     S.append(('sub', 'How the list was narrowed'))
-    S.append(('kv', ['Listed companies reviewed (companiesmarketcap.com universe)', A['universe']]))
+    S.append(('kv', ['Listed companies reviewed (11,396 from the market-data site, the rest added from full exchange lists)', A['universe']]))
     for k, v in sorted(out.items(), key=lambda x: -x[1]):
         if k.startswith('removed: '): continue
         S.append(('kv', ['Taken out: ' + k, v]))
@@ -366,6 +368,7 @@ def summary_rows(A):
     S.append(('blank', ''))
     S.append(('sub', 'Sources'))
     for a, b in [('Market data', 'companiesmarketcap.com data downloads, Nov 2026: market value, trailing-12-month revenue and pre-tax earnings, cash, debt, total assets (11,396 listed companies).'),
+                 ('Exchange lists', 'stockanalysis.com lists for 56 home-market exchanges, Nov 2026: ticker, market value and trailing-12-month revenue for every listed company. Used to add companies the market-data site does not carry, mostly in China, Japan, Hong Kong, South Korea, Taiwan and India. Local currency converted to USD at Nov 2026 rates.'),
                  ('Company filings', 'SEC EDGAR official data (data.sec.gov): annual revenue, operating income, depreciation, operating cash flow, capital spending and advertising / marketing expense for the latest fiscal year filed (FY2026 where already out, otherwise FY2025) and the year before; business address and exchange.'),
                  ('Gap fill', 'stockanalysis.com for Gulf and other listings with no figures in the two sources above.'),
                  ('F1 partner roster', '424 current partners from official team partner pages and rtrsports.com, pitdebrief.com, sports-khabri.com, compiled Aug-Oct 2026. The official partner pages of McLaren, Red Bull Racing, Mercedes, Aston Martin, Williams, Alpine, Audi, Haas and Racing Bulls were re-read on 15 Nov 2026, and the 200 highest-ranked companies were each checked with a live web search; both steps removed further current sponsors.'),
@@ -373,7 +376,8 @@ def summary_rows(A):
     S.append(('blank', ''))
     S.append(('sub', 'Limits to keep in mind'))
     for t in ['Revenue growth, EBITDA, free cash flow and marketing spend are only available for companies that file with the SEC (mainly US-listed); elsewhere the columns show pre-tax profit, cash and debt, or "Not available".',
-              'Coverage follows the market-data universe: China A-shares and smaller emerging-market listings are thinner than US, European and Japanese ones.',
+              'Companies added from the exchange lists come with market value and revenue only. Their capacity is rated Plausible, not Strong, unless a fiscal-year lookup confirmed profit, and their profit, cash and marketing columns read "Not available" / "Not Disclosed".',
+              'Companies under about USD 190M of revenue were not added from the exchange lists, because with revenue-only data none could pass a capacity test.',
               'Company profiles (HQ, description, markets, rationale) are desk-research summaries that were not individually web-verified; check them before outreach, starting with the rows on the Verification Required tab.',
               'Sponsorship capacity is an estimate from public figures, not a known budget. No sponsorship intentions are implied.',
               'F1 partner check: the live web search covered the 200 highest-ranked companies and found about ten current sponsors the roster had missed, mostly deals signed in 2026. Companies ranked below that were checked against the roster and the re-read team pages only, so re-check any company against current team announcements before contact.',
