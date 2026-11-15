@@ -1,0 +1,44 @@
+"""The 35 sectors for the listed-company database, with the numbers used in the capacity model.
+fit  = how well the sector fits F1 sponsorship (0-10), from the earlier sector work in this project
+mkt  = typical marketing spend as a share of revenue (used only when a company does not disclose its own)
+grp  = which financial test applies: consumer (marketing-led), tech (growth / liquidity), fin (profit / capital),
+       ind (revenue / operating profit / cash flow), emerging (cash reserves and contracts)"""
+S = [
+ ('01', 'AI infrastructure', 9, 0.02, 'tech', 'GPU clouds, data-centre operators and builders, servers and networking for AI, data-centre power and cooling'),
+ ('02', 'AI software & applications', 9, 0.12, 'tech', 'companies whose main product is AI: models, agents, AI analytics, AI-first applications'),
+ ('03', 'Semiconductors & chip equipment', 8, 0.02, 'tech', 'chip designers, foundries, memory, chip equipment and materials, EDA'),
+ ('04', 'Enterprise software & cybersecurity', 8, 0.12, 'tech', 'business software, cloud platforms, data, developer tools, security software'),
+ ('05', 'IT services & consulting', 7, 0.015, 'ind', 'IT outsourcing, systems integrators, digital engineering, management and technology consulting'),
+ ('06', 'Fintech, payments & digital banking', 9, 0.12, 'consumer', 'payment networks and processors, neobanks, online lenders, trading apps, buy-now-pay-later, money transfer, financial software'),
+ ('07', 'Crypto, stablecoins & prediction markets', 8, 0.15, 'consumer', 'crypto exchanges and brokers, stablecoin issuers, crypto miners and treasuries, prediction-market operators'),
+ ('08', 'Banks, wealth management & capital markets', 6, 0.015, 'fin', 'banks, private banks, asset and wealth managers, brokers, stock exchanges'),
+ ('09', 'Insurance & insurtech', 7, 0.02, 'fin', 'life, health, property and casualty insurers, reinsurers, insurance brokers, digital insurers'),
+ ('10', 'Betting, iGaming & lotteries', 6, 0.20, 'consumer', 'sportsbooks, online casinos, lotteries, casino-resort operators, betting technology'),
+ ('11', 'Telecoms & connectivity', 7, 0.025, 'ind', 'mobile and fixed operators, cable and broadband, eSIM and mobile resellers, telecom equipment'),
+ ('12', 'Satellite & space', 7, 0.02, 'emerging', 'satellite operators and connectivity, satellite-to-phone, launch, space systems'),
+ ('13', 'Defence technology', 4, 0.005, 'ind', 'defence primes and electronics, drones, defence software, military aerospace'),
+ ('14', 'Quantum computing', 6, 0.05, 'emerging', 'quantum computers, quantum software and components'),
+ ('15', 'Robotics, automation & industrial technology', 7, 0.015, 'ind', 'humanoid and industrial robots, factory automation, industrial machinery, electrical equipment, tools, test and measurement, 3D printing'),
+ ('16', 'Robotaxis & autonomous driving', 8, 0.03, 'emerging', 'robotaxi operators, self-driving software, lidar and driver-assistance systems'),
+ ('17', 'Air taxis & advanced air mobility', 7, 0.03, 'emerging', 'eVTOL makers, electric aircraft, drone delivery, private aviation'),
+ ('18', 'Automotive: carmakers, EVs & auto parts', 8, 0.025, 'ind', 'car, truck and motorcycle makers, EV makers, batteries, charging, tyres, parts suppliers, car dealers'),
+ ('19', 'Ride-hailing, delivery & car rental', 8, 0.08, 'consumer', 'ride-hailing, food and grocery delivery apps, car rental and car sharing, micromobility'),
+ ('20', 'Online travel, cruise lines & luggage', 8, 0.15, 'consumer', 'online travel agencies, tour operators, cruise lines, luggage and travel goods'),
+ ('21', 'Airlines, hotels & leisure', 8, 0.03, 'consumer', 'airlines, hotel groups, resorts, theme parks, live events, fitness clubs'),
+ ('22', 'Logistics, freight & shipping', 7, 0.01, 'ind', 'parcel and express, freight forwarders, trucking, railways, container and bulk shipping, ports'),
+ ('23', 'Energy, fuels & lubricants', 7, 0.003, 'ind', 'oil and gas producers, refiners, fuel retail, lubricants, oilfield services, LNG'),
+ ('24', 'Nuclear, fusion & new energy', 5, 0.01, 'ind', 'nuclear and uranium, hydrogen, solar, wind, energy storage, clean-power producers'),
+ ('25', 'Consumer electronics & home appliances', 8, 0.05, 'consumer', 'phones, PCs, audio, wearables, cameras, TVs, home appliances, smart home'),
+ ('26', 'Video games, esports & digital entertainment', 8, 0.10, 'consumer', 'game publishers and platforms, esports, streaming, music, social media, sports media'),
+ ('27', 'Beverages & alcoholic drinks', 9, 0.10, 'consumer', 'soft drinks, energy drinks, water, coffee and tea brands, beer, wine, spirits'),
+ ('28', 'Restaurant & coffee chains', 7, 0.045, 'consumer', 'quick-service and casual-dining chains, coffee and tea chains, franchise operators'),
+ ('29', 'Food, household brands & consumer retail', 7, 0.06, 'consumer', 'packaged food and snacks, household goods, toys, sporting goods, pet care, large retailers and e-commerce'),
+ ('30', 'Beauty & personal care', 8, 0.15, 'consumer', 'cosmetics, skincare, fragrance, hair care, personal-care brands'),
+ ('31', 'Fashion, apparel & footwear', 8, 0.08, 'consumer', 'clothing, sportswear, footwear, accessories, eyewear'),
+ ('32', 'Luxury goods, jewellery & watches', 10, 0.12, 'consumer', 'luxury houses, jewellery, watches, luxury cars and yachts, premium lifestyle brands'),
+ ('33', 'Consumer health & over-the-counter brands', 7, 0.12, 'consumer', 'over-the-counter medicines, vitamins and supplements, consumer-health arms, pharmacy chains'),
+ ('34', 'Weight-loss, longevity & digital health', 7, 0.15, 'consumer', 'obesity-drug makers, telehealth, consumer diagnostics, wearables and connected fitness, consumer medical devices'),
+ ('35', 'Chinese & Asian consumer brands going global', 8, 0.08, 'consumer', 'consumer brands headquartered in China, Hong Kong, Taiwan, South Korea or South-East Asia that sell or are expanding abroad'),
+]
+SECTORS = {c: {'code': c, 'name': n, 'fit': f, 'mkt': m, 'grp': g, 'scope': d} for c, n, f, m, g, d in S}
+ORDER = [c for c, *_ in S]
