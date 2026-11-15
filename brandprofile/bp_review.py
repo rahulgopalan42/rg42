@@ -2,7 +2,28 @@
 # id -> fields that replace the profile (after a web check)
 FIX = {}
 # id -> ('exclude' | 'note' | 'clear', text) for the Formula 1 link
-F1 = {}
+F1 = {
+ '26-0154': ('clear', ''),                                                   # Paramount Group is a New York office landlord, not Paramount+
+ '13-1139': ('note', 'Owned by Carlyle, which is an F1 partner as an investment firm; Hexaware itself has no F1 deal'),
+ '36-0034': ('note', 'Owned by Carlyle, which is an F1 partner as an investment firm; the company itself has no F1 deal'),
+ '08-1280': ('note', 'Majority-owned by Carlyle, which is an F1 partner as an investment firm; Syniverse itself has no F1 deal'),
+ '03-0083': ('note', 'Part of Carlyle Aviation Partners; Carlyle is an F1 partner as an investment firm'),
+ '46-0211': ('note', 'Was bought by Goldman Sachs (an F1 partner) in 2019; Goldman later sold this business - confirm the current owner'),
+ '18-0595': ('note', 'Sister company of Duracell (an F1 partner) inside Berkshire Hathaway; no F1 deal of its own'),
+ '16-0576': ('note', 'Formerly owned by Berkshire Hathaway (owner of F1 partner Duracell); reported sold in 2019 - confirm'),
+ '05-0005': ('note', 'Runs The Venetian Macao; The Venetian Resort Las Vegas (an F1 partner) is under separate ownership'),
+ '09-0001': ('note', 'Streams "Formula 1: Drive to Survive": a content relationship with F1, not a sponsorship'),
+ '09-0004': ('note', 'Holds the US broadcast rights to Formula 1 from 2026 (Apple TV): a media-rights partner of F1, not a sponsor'),
+ '11-0321': ('note', 'Owned by Apple, which holds the US broadcast rights to Formula 1 from 2026: a media-rights partner, not a sponsor'),
+ '09-0053': ('note', 'Holds the French broadcast rights to Formula 1: a media-rights partner, not a sponsor'),
+ '02-0039': ('note', 'Abu Dhabi state holding company reported to own Etihad Airways (an F1 partner); ADQ itself is not a partner'),
+ '19-0199': ('note', 'Owned by Mumtalakat, the Bahrain state fund that also owns Gulf Air (an F1 partner); no F1 deal of its own'),
+ '46-0215': ('note', 'Long a Boeing business (Boeing is an F1 partner); Boeing agreed to sell it in 2025 - confirm the current owner'),
+ '06-0119': ('note', 'Was part of Topgolf Callaway Brands (owner of F1 partner TravisMathew); a majority sale was reported in 2025-26 - confirm'),
+ '27-0037': ('note', 'Was the Indian arm of AkzoNobel (Sikkens is an F1 partner); a sale to JSW Paints was reported in 2025 - confirm'),
+ '23-0038': ('note', 'Sells Gulf-branded fuel in the United States under licence; Gulf Oil International (an F1 partner) is a separate company'),
+ '08-0192': ('note', 'Name refers to Anthropic (an F1 partner); ownership not confirmed'),
+}
 # id -> listed-company symbol, where the automatic match needs help
 SYM = {}
 # lines for the Research Summary

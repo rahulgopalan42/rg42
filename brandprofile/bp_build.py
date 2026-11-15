@@ -89,9 +89,9 @@ def tkey(t):
     t = re.sub(r'\(.*?\)', '', str(t)).strip(); t = re.split(r'[.@]', t)[0] if re.search(r'[.@]', t) and not re.match(r'^[A-Z]{1,4}\.[A-Z]$', t) else t
     k = re.sub(r'[^A-Z0-9]', '', t.upper())
     return (k.lstrip('0') or k) if k.isdigit() else k
-JOINT = re.compile(r'co-?owned|jointly owned|part-owned|joint venture|\\bJV\\b|minority|stake of|shareholder', re.I)
+JOINT = re.compile(r'co-?owned|co-?owner|jointly owned|part-owned|joint[- ]venture|\bJV\b|minority|\bstake\b|shareholder|consortium|sister|group link|group company|same group', re.I)
 OWNED = re.compile(r'subsidiar|majority|owned by|controlled by|parent|owner of|\bowns\b|brand of|division of|part of|acquired by', re.I)
-SOFT = re.compile(r'licens|franchis|distribut|bottl|dealer|supplier|supplies|possible|unconfirmed|reported|announced|planned|former|until 20|ended', re.I)
+SOFT = re.compile(r'licen[cs]|franchis|distribut|bottl|dealer|supplier|supplies|possible|unconfirmed|reported|announced|planned|pending|former|until 20|ended|not confirmed|no direct|not a sponsor|not a partner|tie-in|rights holder|broadcast', re.I)
 def f1_decide(text):
     """the profile's F1 note -> exclude (the brand, its owner or its subsidiary is a current partner) or a note for a looser link"""
     if JOINT.search(text) or (SOFT.search(text) and not OWNED.search(text)) or re.search(r'possible|unconfirmed|former|ended', text, re.I):
