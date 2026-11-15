@@ -1,4 +1,4 @@
-"""Checks on the finished workbooks (master + 35 sector files). Prints PASS / FAIL per check.  Usage: qc.py"""
+"""Checks on the finished workbooks (master + 46 sector files). Prints PASS / FAIL per check.  Usage: qc.py"""
 import os, re, sys
 from collections import Counter
 from openpyxl import load_workbook

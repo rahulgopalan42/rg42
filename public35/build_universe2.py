@@ -56,7 +56,7 @@ for cur, v in byname.items():
 known = {loose(r['name']) for r in rows if tkey(r['tk'], SUF[r['code']]) in ut}          # names of companies matched to the first universe on any listing
 print('USD per unit of currency (from', sum(len(v) for v in ratio.values()), 'matched companies):', {k: round(v, 5) for k, v in sorted(FX.items())})
 print('currencies with no rate (skipped):', sorted({EX[r['code']]['cur'] for r in rows} - set(FX)))
-FOREIGN_LINE = {'LON': r'^0[A-Z0-9]{3}$', 'AIM': r'^0[A-Z0-9]{3}$', 'BVMF': r'(3[1-59])$', 'BIT': r'^\d'}            # international order-book lines, Brazilian depositary receipts, Borsa Italiana global lines
+FOREIGN_LINE = {'LON': r'^0[A-Z0-9]{3}$', 'AIM': r'^0[A-Z0-9]{3}$', 'BVMF': r'(3[1-59])$', 'BIT': r'^\d', 'BME': r'^X[A-Z]{3,}', 'BKK': r'\d{2}$'}            # international order-book lines, Brazilian and Thai depositary receipts, Borsa Italiana global lines, Latibex lines in Madrid
 SKIP_EX = {'NYSE', 'NASDAQ', 'AMEX', 'ETR', 'TSX'}                                       # well covered by the first universe; their lists mix in many foreign or dual listings
 GROUP = {'Hong Kong': 'China', 'Macau': 'China'}
 first = defaultdict(list)
@@ -75,7 +75,7 @@ def same_company(name, country, mc, rev):
         if near and len(n) >= 5 and len(k) >= 5 and (k.startswith(n) or n.startswith(k)): return sym
         if mc >= 1e10 and near and rev and rv and abs(rev / rv - 1) < 0.15: return sym
     return ''
-LAST = ['LON', 'AIM', 'SWX', 'EPA', 'BIT', 'BMV', 'ASX', 'SGX', 'HKG']            # venues that also list foreign companies: a company's home listing is read first and kept
+LAST = ['LON', 'AIM', 'SWX', 'EPA', 'BIT', 'BMV', 'ASX', 'HKG', 'SGX']            # venues that also list foreign companies: a company's home listing is read first and kept
 rows.sort(key=lambda r: LAST.index(r['code']) + 1 if r['code'] in LAST else 0)
 new = {}; stat = Counter()
 for r in rows:

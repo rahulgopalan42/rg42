@@ -51,6 +51,16 @@ F1 = {
  'COTY': ('note', 'Makes BOSS and HUGO fragrances under licence; HUGO BOSS is an F1 team partner. Check for category conflict.'),
  'MOV': ('note', 'Makes Tommy Hilfiger watches under licence; Tommy Hilfiger is a Cadillac partner. Check for category conflict.'),
  '9914.TW': ('note', 'Holds a minority stake in Specialized, an F1 team partner. Not a parent company.'),
+ 'RAIZ55.SA': ('exclude', 'joint venture half-owned by Shell that sells Shell-branded fuel; Shell is a Ferrari partner'),
+ 'WAFI.PK': ('note', 'Sells Shell-branded fuel in Pakistan under licence (not a Shell subsidiary since 2024); Shell is a Ferrari partner. Check for category conflict.'),
+ '1691.HK': ('note', 'Sells Shark and Ninja products in Asia-Pacific under licence and shares a controlling shareholder with SharkNinja, a McLaren partner. Check for category conflict.'),
+ '8015.T': ('note', 'Toyota group trading company (Toyota holds a minority stake); Toyota Gazoo Racing is the Haas title partner. Not a subsidiary.'),
+ 'APLE': ('note', 'Owns hotels run under Marriott, Hilton and Hyatt brands (all F1 partners) as a franchisee; not a subsidiary of any of them.'),
+ 'PK': ('note', 'Owns hotels run under Hilton, Marriott and Hyatt brands (all F1 partners); not a subsidiary of any of them.'),
+ 'DRH': ('note', 'Owns hotels run under Marriott, Hilton and Hyatt brands (all F1 partners); not a subsidiary of any of them.'),
+ 'PEB': ('note', 'Owns hotels run under Marriott, Hilton and Hyatt brands (all F1 partners); not a subsidiary of any of them.'),
+ 'PETRONM.KL': ('clear', 'no current Esso licence: the stations were rebranded Petron'),
+ '2460.HK': ('clear', 'not a PepsiCo bottler'),
  'LVS': ('clear', 'The Venetian Resort Las Vegas (an F1 partner) was sold by Las Vegas Sands in 2022'),
  'BYD': ('clear', 'Boyd Gaming is not the owner of FanDuel (Flutter is)'),
  'HYUNDAI.NS': ('clear', 'Hyundai is not on the roster'),
@@ -60,6 +70,9 @@ F1 = {
  'WOSG.L': ('clear', 'retailer of partner brands only'),
 }
 DROP = {
+ 'ATS.PR': 'second listing of AT&S (ATS.VI kept)',
+ 'SYAB.VI': 'taken private by Cinven', 'BPYPP': 'preferred units of a company taken private', 'HMH': 'taken private by Veritas Capital',
+ '514162.BO': 'second listing of Welspun Living (WELSPUNIND.NS kept)', 'SDF.SW': 'second listing of K+S (SDF.F kept)', 'RICHTER.BD': 'second listing of Gedeon Richter (RIG2.F kept)',
  'WBD': 'acquired by Paramount Skydance (an F1 partner) and delisted in Oct 2026',
  'DAY': 'taken private by Thoma Bravo', 'SHCO': 'taken private by MCR Hotels', 'YAHSAT.AE': 'merged into Space42', '7205.T': 'merged into Archion (no longer separately listed)',
  '096775.KS': 'preferred share line of SK Innovation (ordinary shares listed separately)', 'ASGN': 'old ticker of the same company (now Everforth, EFOR)',
@@ -67,9 +80,11 @@ DROP = {
  'GLOP-PA': 'preferred units, not an operating listing', 'OZON.ME': 'Russian market', 'FIVE.ME': 'Russian market', 'OZON': 'Russian market', 'QIWI': 'Russian market',
  '688256.SS': 'on the US Entity List', '688795.SS': 'on the US Entity List', '002415.SZ': 'on the US Entity List',
 }
-CLEAR_FLAG = {'AMLAK.AE', 'STC', 'SPCX'}          # still listed / the name is not in doubt
+CLEAR_FLAG = {'AMLAK.AE', 'STC', 'SPCX', 'WELSPUNIND.NS', 'RIG2.F'}          # still listed / the name is not in doubt
 FIX = {'SPCX': {'hq': 'Starbase (Texas), United States', 'conf': 'medium'}}          # corrections to profile fields
 NOTE = {
+ '3382.T': '7-Eleven Australia has been a regional partner of Red Bull Racing for the Australian Grand Prix; confirm current status.',
+ '002129.SZ': 'Shares the TCL brand with TCL Electronics, the official TV partner of the Australian Grand Prix (a separate listed group).',
  'BUD': 'Michelob Ultra (AB InBev) announced a North America partnership with Williams Racing in 2024; it is not on the Williams partner page in Nov 2026. Confirm before outreach.',                                                                             # extra F1-proximity notes (kept, flagged for checking)
  'WYNN': 'Wynn Las Vegas was a founding partner of the Las Vegas Grand Prix in 2023; not on the current roster. Confirm status before outreach.',
  'CZR': 'Caesars Entertainment was a founding partner of the Las Vegas Grand Prix in 2023; not on the current roster. Confirm status before outreach.',
@@ -80,6 +95,19 @@ WEB = {'LVS': 'none', '4755.T': 'current', 'ENT.L': 'unclear', 'BUD': 'unclear'}
 ROSTER_EXTRA = {     # found when the official team partner pages were re-read on 15 Nov 2026, and subsidiaries of sponsors found by the web check
  'BBD': 'Bradesco is on the Haas partner page (Nov 2026)',
  'MELI': 'Mercado Libre is on the Alpine partner page (Nov 2026)',
+ # Grand Prix partners found by searching the partner lists of 13 Grands Prix on 15 Nov 2026, and their subsidiaries
+ 'FAB.AE': 'sponsor of the Abu Dhabi Grand Prix', 'ADCB.AE': 'partner of the Abu Dhabi Grand Prix', 'ADAVIATION.AE': 'partner of the Abu Dhabi Grand Prix',
+ 'ADNOCLS.AE': 'subsidiary of ADNOC, a founding partner of the Abu Dhabi Grand Prix', 'ADNOCGAS.AE': 'subsidiary of ADNOC, a founding partner of the Abu Dhabi Grand Prix',
+ 'ADNOCDIST.AE': 'subsidiary of ADNOC, a founding partner of the Abu Dhabi Grand Prix', 'ADNOCDRILL.AE': 'subsidiary of ADNOC, a founding partner of the Abu Dhabi Grand Prix',
+ 'ALDAR.AE': 'founding partner of the Abu Dhabi Grand Prix',
+ 'CBQK.QA': 'official race partner of McLaren for the Qatar Grand Prix, 2025-27', 'ORDS.QA': 'founding partner of the Qatar Grand Prix 2026',
+ 'ISAT.JK': 'jointly controlled by Ooredoo, a founding partner of the Qatar Grand Prix 2026',
+ 'AN': 'event sponsor of the Miami Grand Prix 2026', 'TWE.AX': 'Penfolds is an event supporter of the Australian Grand Prix 2026',
+ '1070.HK': 'TCL is the official TV partner of the Australian Grand Prix', '002668.SZ': 'TCL group company; TCL is the official TV partner of the Australian Grand Prix',
+ 'SPHR': 'presenting partner of the Las Vegas Grand Prix', '8473.T': 'presenting partner of the Las Vegas Grand Prix', '8303.T': 'subsidiary of SBI Holdings, a presenting partner of the Las Vegas Grand Prix',
+ 'PSSA3.SA': 'PortoBank is a sponsor of the Sao Paulo Grand Prix 2026', 'BCE': 'Bell is the promoter and a sponsor of the Canadian Grand Prix',
+ 'TME': 'majority-owned by Tencent, publisher of PUBG Mobile (a Ferrari partner)',
+ 'CALY': 'owner of TravisMathew, a Haas partner',
  'SSYS': 'Stratasys is on the McLaren partner page (Nov 2026)',
  'ABBV': 'AbbVie is on the McLaren partner page (Nov 2026)',
  'HINDUNILVR.NS': 'subsidiary of Unilever, whose Clear brand is a Red Bull Racing partner from 2026',

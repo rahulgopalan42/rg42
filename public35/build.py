@@ -1,7 +1,7 @@
 """Step 2 of the build: turn the screened, profiled companies into the deliverables.
   build.py check          counts, score distribution and things to review (writes nothing)
   build.py sectors        one workbook per sector in reports/public-companies-by-sector/
-  build.py master         the master workbook (Master Companies, 35 sector tabs, Top 500 Prospects, Verification Required, Research Summary)
+  build.py master         the master workbook (Master Companies, 46 sector tabs, Top 500 Prospects, Verification Required, Research Summary)
 Inputs: data/universe.json.gz (market data + SEC filings), classify/out_*.txt (sector), enrich/out_*.jsonl (profile fields),
 fix/out_*.jsonl (rewritten thin fields), gap/out_*.jsonl (figures for companies with none), review.py (manual decisions).
 
@@ -49,8 +49,8 @@ EXCH = {'T': 'Tokyo Stock Exchange', 'NS': 'NSE India', 'BO': 'BSE India', 'L': 
 US_STATES = set('AL AK AZ AR CA CO CT DE DC FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY PR'.split())
 ASIA35 = {'China', 'Hong Kong', 'Taiwan', 'South Korea', 'Singapore', 'Malaysia', 'Thailand', 'Indonesia', 'Vietnam', 'Philippines', 'Macau', 'Cambodia'}
 REL = {1: 10, 2: 35, 3: 60, 4: 80, 5: 100}; REACH = {'Global': 100, 'International': 80, 'Regional': 50, 'Domestic': 25}
-ROSTER_NOTE = ('Not on the 2025-26 F1 partner roster (424 championship, team and Grand Prix partners; team partner pages re-read 15 Nov 2026). '
-               'No parent, subsidiary or brand match')
+ROSTER_NOTE = ('Not on the 2025-26 F1 partner roster (424 championship, team and Grand Prix partners; team partner pages re-read and the partner lists of '
+               '13 Grands Prix searched on 15 Nov 2026). No parent, subsidiary or brand match')
 def jl(pattern):
     for f in sorted(glob.glob(os.path.join(H, pattern))):
         for line in open(f, encoding='utf-8'):
@@ -160,6 +160,13 @@ def col_sources(c, f):
     web = re.sub(r'^(https?://)?(www\.)?', '', (sec.get('web') or (c.get('clay') or {}).get('domain') or '').strip().lower()).split('/')[0]
     if web: src.append('company site: ' + web)
     return '; '.join(src)
+LOOSE_LINK = re.compile(r'licens|distribut|bottl|franchis|dealer|assembl|joint venture|\bJV\b|supplier|supplies|retail|minority|stake|contract manufactur|sister|affiliate|not a subsidiary|unconfirmed|not on the roster', re.I)
+TIGHT_LINK = re.compile(r'subsidiar|majority|parent|owned by|controlled by|owner of|\bowns\b|brand of|itself|is a (current )?(formula|f1)', re.I)
+def auto_f1(text):
+    """a possible F1 link reported by a research pass, with no manual decision: a distributor, licensee, bottler, supplier or minority link is kept
+    and flagged; ownership links and anything unclear are excluded"""
+    if LOOSE_LINK.search(text) and not TIGHT_LINK.search(text): return ('note', 'Reported link to an F1 partner (not a parent or subsidiary): ' + text + ' Check for category conflict.')
+    return ('exclude', text)
 VERIFY_FLAG = re.compile(r'unclear|acquir|merg|private|distress|restructur|taken over|chapter 11|spun|delist|bankrupt', re.I)
 DROP_FLAG = re.compile(r'delisted or bankrupt|sanctioned|central bank', re.I)
 def assemble():
@@ -198,6 +205,9 @@ def assemble():
             if s2 in SECTORS and not (s2 == '35' and c['country'] not in ASIA35): code = s2
         if sym in review.DROP: out['removed: ' + review.DROP[sym]] += 1; continue
         sa = FIN.get(sym)
+        if sa and c.get('revenue'):                        # a lookup whose revenue is far from the revenue already held points to a wrong page or a unit slip: ignore it
+            cur = str(sa.get('currency') or '').upper(); fx = 1.0 if cur == 'USD' else (c['sa']['fx'] if c.get('sa') and c['sa']['cur'] == cur else None)
+            if fx and sa_num(sa, 'revenue') and not 0.4 < sa_num(sa, 'revenue') * 1e6 * fx / c['revenue'] < 2.5: sa = None
         grp = SECTORS[code]['grp']; f = financials(c, grp, G.get(sym))
         if sa and f['pretax'] is None and f['rev'] and sa_num(sa, 'operating_income') is not None and sa_num(sa, 'revenue'):
             f['pretax'] = sa_num(sa, 'operating_income') / sa_num(sa, 'revenue') * f['rev']; f['pretax_kind'] = 'Operating profit'      # same margin applied to the USD revenue
@@ -208,9 +218,10 @@ def assemble():
         k = capacity(dict(f, rev=None, mkt=None) if gross else f, code)
         if k['ev'] == 'Insufficient': out['insufficient financial capacity'] += 1; continue
         if not e: missing.append(sym); continue
+        e['conf'] = str(e.get('conf') or '').strip().lower()
         f1txt = (e.get('f1') or '').strip(); f1note = ''
         if f1txt:
-            dec = review.F1.get(sym, ('exclude', f1txt))
+            dec = review.F1.get(sym) or auto_f1(f1txt)
             if dec[0] == 'exclude': out['current F1 partner, or parent / subsidiary of one (company review)'] += 1; f1x.append((sym, name, dec[1])); continue
             if dec[0] == 'note': f1note = dec[1]
         w = W.get(sym); webnote = ''
@@ -221,7 +232,8 @@ def assemble():
                        'related': 'not a sponsor, but linked: ' + str(w.get('detail', '')), 'unclear': 'unclear, check: ' + str(w.get('detail', ''))}.get(st, '')
             if st in ('related', 'unclear'): f1note = (f1note + ' ' if f1note else '') + 'Web check: ' + str(w.get('detail', ''))
             if webnote and w.get('source_url') and st != 'none': webnote += ' (' + w['source_url'] + ')'
-        flags = '' if sym in review.CLEAR_FLAG else re.sub(r'\s+', ' ', (e.get('flags') or '')).strip()
+        flags = '' if sym in review.CLEAR_FLAG else re.sub(r'\s+', ' ', str(e.get('flags') or '')).strip()
+        if flags.lower() in ('high', 'medium', 'low', 'none', 'n/a', '-'): flags = ''          # a confidence value written into the wrong field
         if DROP_FLAG.search(flags): out['delisted, bankrupt, sanctioned or not a commercial company'] += 1; continue
         rel = e.get('rel') if e.get('rel') in REL else 2; reach = e.get('reach') if e.get('reach') in REACH else 'Regional'
         fit = SECTORS[code]['fit']; strat = 0.25 * fit * 10 + 0.50 * REL[rel] + 0.25 * REACH[reach]; fin = cap_score(k, f)
@@ -371,7 +383,7 @@ def summary_rows(A):
                  ('Exchange lists', 'stockanalysis.com lists for 56 home-market exchanges, Nov 2026: ticker, market value and trailing-12-month revenue for every listed company. Used to add companies the market-data site does not carry, mostly in China, Japan, Hong Kong, South Korea, Taiwan and India. Local currency converted to USD at Nov 2026 rates.'),
                  ('Company filings', 'SEC EDGAR official data (data.sec.gov): annual revenue, operating income, depreciation, operating cash flow, capital spending and advertising / marketing expense for the latest fiscal year filed (FY2026 where already out, otherwise FY2025) and the year before; business address and exchange.'),
                  ('Gap fill', 'stockanalysis.com for Gulf and other listings with no figures in the two sources above.'),
-                 ('F1 partner roster', '424 current partners from official team partner pages and rtrsports.com, pitdebrief.com, sports-khabri.com, compiled Aug-Oct 2026. The official partner pages of McLaren, Red Bull Racing, Mercedes, Aston Martin, Williams, Alpine, Audi, Haas and Racing Bulls were re-read on 15 Nov 2026, and the 200 highest-ranked companies were each checked with a live web search; both steps removed further current sponsors.'),
+                 ('F1 partner roster', '424 current partners from official team partner pages and rtrsports.com, pitdebrief.com, sports-khabri.com, compiled Aug-Oct 2026. The official partner pages of McLaren, Red Bull Racing, Mercedes, Aston Martin, Williams, Alpine, Audi, Haas and Racing Bulls were re-read on 15 Nov 2026, the partner lists of 13 Grands Prix were searched (Abu Dhabi, Qatar, Saudi Arabia, Bahrain, Singapore, Miami, Las Vegas, Austin, Mexico City, Sao Paulo, Canada, Australia), and the 200 highest-ranked companies of the first pass were each checked with a live web search; all three steps removed further current sponsors.'),
                  ('Not used', 'Apollo was not used.')]: S.append(('kv', [a, b]))
     S.append(('blank', ''))
     S.append(('sub', 'Limits to keep in mind'))
@@ -380,7 +392,7 @@ def summary_rows(A):
               'Companies under about USD 190M of revenue were not added from the exchange lists, because with revenue-only data none could pass a capacity test.',
               'Company profiles (HQ, description, markets, rationale) are desk-research summaries that were not individually web-verified; check them before outreach, starting with the rows on the Verification Required tab.',
               'Sponsorship capacity is an estimate from public figures, not a known budget. No sponsorship intentions are implied.',
-              'F1 partner check: the live web search covered the 200 highest-ranked companies and found about ten current sponsors the roster had missed, mostly deals signed in 2026. Companies ranked below that were checked against the roster and the re-read team pages only, so re-check any company against current team announcements before contact.',
+              'F1 partner check: the live web search covered the 200 highest-ranked companies of the first pass and found about ten current sponsors the roster had missed; searching Grand Prix partner lists found about twenty more local race partners (banks, telecoms, resorts). Eleven Grands Prix were not searched, and companies outside that top 200 were checked against the roster and the re-read team pages only, so re-check any company against current team and race announcements before contact.',
               'Emerging sectors (quantum computing, robotaxis, air taxis, satellite) have few listed companies with the means to sponsor, so those lists are short by design.']: S.append(('text', '- ' + t))
     return S
 def write_master(A):
