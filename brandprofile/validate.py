@@ -2,7 +2,7 @@
 import glob, json, os, re, sys
 from collections import Counter
 H = os.path.dirname(os.path.abspath(__file__)); D = sys.argv[1] if len(sys.argv) > 1 else 'out'
-src = 'in' if D == 'out' else D + '_in'
+src = 'in' if D == 'out' else 'check_in'
 ALLOWED = {'reach': {'Domestic', 'Regional', 'International', 'Global'}, 'basis': {'stated', 'known', 'inferred'}, 'conf': {'high', 'medium', 'low'},
            'status': {'private', 'listed', 'subsidiary', 'state-owned', 'non-commercial', 'defunct', 'unknown'}, 'stage': {'commercial', 'pre-revenue', 'project', 'fund', 'non-commercial'}}
 SECT = None
