@@ -3,7 +3,7 @@
   bp_build.py xlsx      writes reports/F1-BRAND-PROFILES-<date>.xlsx
 Inputs: data/brands.json.gz (prep.py), out/out_*.jsonl (first profile pass), check/out_*.jsonl (second, independent pass on
 the key rows), review.py (manual decisions), and the listed-company data of public35/ for brands that are listed."""
-import datetime, glob, gzip, json, math, os, re, sys
+import datetime, glob, gzip, html, json, math, os, re, sys
 from collections import Counter, defaultdict
 H = os.path.dirname(os.path.abspath(__file__)); R = os.path.dirname(H)
 for p in ('brands200', 'parents', 'screenrec', 'public35'): sys.path.insert(0, os.path.join(R, p))       # public35 first: its build.py and review.py are the ones wanted
@@ -75,9 +75,28 @@ def last_round(r):
     try: return datetime.date(y, MON[m.group(1).lower()], min(int(m.group(2)), 28))
     except ValueError: return None
 def norm_country(c): return {'usa': 'unitedstates', 'us': 'unitedstates', 'uk': 'unitedkingdom', 'uae': 'unitedarabemirates', 'korea': 'southkorea', 'republicofkorea': 'southkorea'}.get(strict(c), strict(c))
+def same_country(a, b):
+    a, b = norm_country(a), norm_country(b); cn = {'china', 'hongkong'}
+    return a == b or (a in cn and b in cn)
 STATUS = {'private', 'listed', 'subsidiary', 'state-owned', 'non-commercial', 'defunct', 'unknown'}
 STAGE = {'commercial', 'pre-revenue', 'project', 'fund', 'non-commercial'}
 CHANGE = re.compile(r'acquir|merg|bankrupt|chapter 11|liquidat|insolv|administration|delist|taken private|went private|wound|closed|ceased|shut|dissol', re.I)
+GENERIC_TOK = set('group holding holdings company corporation international global technologies technology systems solutions industries services financial bank energy motors motor pharma pharmaceuticals '
+                  'therapeutics capital partners resources digital software network networks media entertainment china india japan american national first united general'.split())
+def toks(name): return {w for w in re.findall(r'[a-z0-9]+', html.unescape(str(name)).lower()) if len(w) >= 4 and w not in GENERIC_TOK}
+def tkey(t):
+    """'VOLCAR B (Stockholm)', 'VOLCAR-B.ST', '0175 (Hong Kong)', '175.HK' -> one comparable key"""
+    t = re.sub(r'\(.*?\)', '', str(t)).strip(); t = re.split(r'[.@]', t)[0] if re.search(r'[.@]', t) and not re.match(r'^[A-Z]{1,4}\.[A-Z]$', t) else t
+    k = re.sub(r'[^A-Z0-9]', '', t.upper())
+    return (k.lstrip('0') or k) if k.isdigit() else k
+JOINT = re.compile(r'co-?owned|jointly owned|part-owned|joint venture|\\bJV\\b|minority|stake of|shareholder', re.I)
+OWNED = re.compile(r'subsidiar|majority|owned by|controlled by|parent|owner of|\bowns\b|brand of|division of|part of|acquired by', re.I)
+SOFT = re.compile(r'licens|franchis|distribut|bottl|dealer|supplier|supplies|possible|unconfirmed|reported|announced|planned|former|until 20|ended', re.I)
+def f1_decide(text):
+    """the profile's F1 note -> exclude (the brand, its owner or its subsidiary is a current partner) or a note for a looser link"""
+    if JOINT.search(text) or (SOFT.search(text) and not OWNED.search(text)) or re.search(r'possible|unconfirmed|former|ended', text, re.I):
+        return ('note', 'Reported link to an F1 partner (not a parent or subsidiary): ' + text.rstrip('.') + '. Check for category conflict.')
+    return ('exclude', text)
 def assemble():
     B = json.load(gzip.open(os.path.join(H, 'data', 'brands.json.gz'), 'rt', encoding='utf-8'))
     P = {d['id']: d for d in jl('out/out_*.jsonl') if isinstance(d, dict) and d.get('id')}
@@ -91,7 +110,7 @@ def assemble():
     G = {d['sym']: d for d in pb.jl('gap/out_*.jsonl') if d.get('found')}
     byname = defaultdict(list); byroot = defaultdict(list)
     for s, c in U.items():
-        byname[loose(c['name'])].append(s); byroot[re.split(r'[.@]', s)[0].upper()].append(s)
+        byname[loose(html.unescape(c['name']))].append(s); byroot[tkey(s)].append(s)
     rows = []; f1x = []; missing = []; stat = Counter()
     for r in B:
         e = P.get(r['id'])
@@ -114,7 +133,10 @@ def assemble():
         reach = clean(e.get('reach')).title(); reach_ok = reach in REACH; reach = reach if reach_ok else 'Domestic'
         basis = clean(e.get('basis')).lower(); basis = basis if basis in ('stated', 'known', 'inferred') else 'inferred'
         rel = e.get('rel') if e.get('rel') in REL else 2
-        hq = clean(e.get('hq')); country = clean(hq.split(',')[-1]) if hq else r['country']
+        hq = clean(e.get('hq')); parts = [x.strip() for x in hq.split(',') if x.strip()]
+        if len(parts) >= 3: hq = parts[0] + ', ' + parts[-1]                       # "City, State, Country" -> "City, Country"
+        country = parts[-1] if parts else r['country']
+        if len(parts) == 2 and parts[0] == parts[1] and parts[0] in ('Hong Kong', 'Singapore', 'Monaco', 'Macau', 'Luxembourg', 'Gibraltar'): hq = parts[0]
         if not hq: hq = (clean(r['loc'].split(',')[0]) + ', ' if r['loc'] and not r['loc'].endswith('.') else '') + r['country']
         ticker_txt = clean(e.get('ticker')); parent = clean(e.get('parent')); changed = clean(e.get('changed'))
         # ---- F1 exclusion
@@ -125,17 +147,25 @@ def assemble():
         f1txt = clean(e.get('f1')); f1note = ''
         if rv and r['id'] in rv.F1: dec = rv.F1[r['id']]
         elif link: dec = ('exclude', link)
-        elif f1txt and f1txt.lower() not in ('none', 'no', 'n/a', '-'): dec = pb.auto_f1(f1txt)
+        elif f1txt and f1txt.lower() not in ('none', 'no', 'n/a', '-'): dec = f1_decide(f1txt)
         else: dec = ('clear', '')
         # ---- listed brand: find it in the listed-company data
         sym = None
         if status == 'listed' or (rv and r['id'] in rv.SYM):
-            roots = {t.upper() for t in re.findall(r'\b([A-Za-z0-9]{1,6})\s*\(', ticker_txt)} | {t.upper() for t in re.findall(r'^([A-Za-z0-9.]{1,7})\b', ticker_txt)}
-            cand = {s for k in {loose(name), loose(r['brand'])} if len(k) >= 3 for s in byname.get(k, [])}
-            good = [s for s in cand if norm_country(U[s]['country']) == norm_country(country) or re.split(r'[.@]', s)[0].upper() in roots]
-            if not good:
-                w0 = strict(name.split()[0]) if name.split() else ''
-                good = [s for t in roots for s in byroot.get(t, []) if len(w0) >= 4 and strict(U[s]['name']).startswith(w0)]
+            roots = {tkey(t) for t in re.split(r'[,;/]', ticker_txt) if tkey(t)}
+            nk = {k for k in (loose(name), loose(r['brand']), loose(re.sub(r'^the\s+', '', name, flags=re.I))) if len(k) >= 3}
+            cand = {s for k in nk for s in byname.get(k, [])}
+            good = [s for s in cand if same_country(U[s]['country'], country) or tkey(s) in roots]
+            if not good:                                   # same ticker, and the two names share a distinctive word or one contains the other
+                tk = toks(name) | toks(r['brand'])
+                for s in {s for t in roots for s in byroot.get(t, [])}:
+                    un = toks(U[s]['name']); lk = loose(U[s]['name'])
+                    if (tk & un) or any(len(k) >= 4 and (k in lk or lk in k) for k in nk if len(lk) >= 4): good.append(s)
+                same = [s for s in good if same_country(U[s]['country'], country)]
+                good = same or (good if len(good) == 1 else [])
+                if not good:                               # same ticker and same country, one candidate only: accept without a name match (short names such as BT, Wix, Gen)
+                    rc = [s for t in roots for s in byroot.get(t, []) if same_country(U[s]['country'], country)]
+                    if len(set(rc)) == 1: good = rc
             if good: sym = max(good, key=lambda s: (s in master, U[s].get('mcap') or 0))
             if rv and r['id'] in rv.SYM: sym = rv.SYM[r['id']]
         if sym and dec[0] != 'exclude':
