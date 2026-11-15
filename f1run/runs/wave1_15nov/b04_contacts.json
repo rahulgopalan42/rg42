@@ -1,0 +1,300 @@
+{
+ "rows": [
+  {
+   "brand": "Broadcom",
+   "people": [
+    {
+     "name": "Prashanth Shenoy",
+     "title": "CMO and Vice President, Marketing, VMware Cloud Foundation (VCF) Division at Broadcom",
+     "email": "prashanth.shenoy@broadcom.com"
+    },
+    {
+     "name": "Monica White",
+     "title": "Chief Marketing Officer, Enterprise Security Group",
+     "email": "monica.white@broadcom.com"
+    },
+    {
+     "name": "John Kaplan",
+     "title": "Brand, Communications and Content Marketing Lead: Mainframe Software",
+     "email": "john.kaplan@broadcom.com"
+    },
+    {
+     "name": "Gabriel Desjardins",
+     "title": "Director, Product Marketing",
+     "email": "gabriel.desjardins@broadcom.com"
+    }
+   ]
+  },
+  {
+   "brand": "Micron Technology",
+   "people": [
+    {
+     "name": "Vikas Prabhakar",
+     "title": "Communications & Marketing Lead",
+     "email": "vprabhakar@micron.com"
+    },
+    {
+     "name": "Craig Smith",
+     "title": "Sr. Director, Marketing Strategy & Operations",
+     "email": "craigsmith@micron.com"
+    },
+    {
+     "name": "Sanjay Mehrotra",
+     "title": "Chairman, President & CEO",
+     "email": "sanjay@micron.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/sanjay-mehrotra",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Melanie Stevens",
+     "title": "Vice President, Global Communications",
+     "email": "mstevens@micron.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/melanie-stevens-29872610",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "SK Hynix",
+   "people": [
+    {
+     "name": "Jeonghwan Park",
+     "title": "Marketing Director",
+     "email": "jeonghwan.park@skhynix.com"
+    },
+    {
+     "name": "Keewon Suh",
+     "title": "Head of Computing Marketing, DRAM Marketing",
+     "email": "keewon.suh@skhynix.com"
+    },
+    {
+     "name": "Young Nam",
+     "title": "Director of Technical Marketing",
+     "email": "youngjun.nam@skhynix.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/young-jun-nam-7163a1b",
+     "location": "South Korea"
+    },
+    {
+     "name": "Kwang Cho",
+     "title": "Director, Nand Storage Technical Marketing",
+     "email": "kwangheng.cho@us.skhynix.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kwang-cho-5618a01a",
+     "location": "San Jose, United States"
+    }
+   ]
+  },
+  {
+   "brand": "ASML",
+   "people": [
+    {
+     "name": "Fei Wang",
+     "title": "Director of Product Marketing",
+     "email": "fei.wang@hermes-microvision.com"
+    },
+    {
+     "name": "Dick Bos",
+     "title": "Head of Marketing - Business Line Mature Product & Services",
+     "email": "dick.bos@asml.nl"
+    },
+    {
+     "name": "Jojanneke Meewis",
+     "title": "Head of Brand Activation",
+     "email": "jojanneke.meewis@hermes-microvision.com"
+    },
+    {
+     "name": "Noreen Harned",
+     "title": "Vice President, Marketing&Technology",
+     "email": "noreen.harned@hermes-microvision.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/noreen-harned-b2759511",
+     "location": "Wilton, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Texas Instruments",
+   "people": [
+    {
+     "name": "Samantha Lee",
+     "title": "Global Brand Marketing Director",
+     "email": "s.lee@ti.com"
+    },
+    {
+     "name": "Hanfland Anita",
+     "title": "Head of Business & Marketing Strategy",
+     "email": "anita@ti.com"
+    },
+    {
+     "name": "Christine Witzsche",
+     "title": "Senior Vice President, Communications & Investor Relations",
+     "email": "c-witzsche@ti.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/christinewitzsche",
+     "location": "Dallas, United States"
+    },
+    {
+     "name": "Stefan Bruder",
+     "title": "VP WW Marketing",
+     "email": "s-bruder@ti.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/stefan-bruder-b96a4817",
+     "location": "Dallas, United States"
+    }
+   ]
+  },
+  {
+   "brand": "MediaTek",
+   "people": [
+    {
+     "name": "Rahul Sandil",
+     "title": "CMO",
+     "email": "rahul.sandil@mediatek.com"
+    },
+    {
+     "name": "James Chen",
+     "title": "Vice President, Product Technology Marketing",
+     "email": "james.chen@mediatek.com"
+    },
+    {
+     "name": "Weizhi Yu",
+     "title": "VP Automotive Product Marketing",
+     "email": "weizhi.yu@mediatek.com"
+    },
+    {
+     "name": "Rami Osman",
+     "title": "Director, Corporate Sales and Marketing - MEA",
+     "email": "rami.osman@mediatek.com"
+    }
+   ]
+  },
+  {
+   "brand": "Marvell Technology",
+   "people": [
+    {
+     "name": "Kammie Bull",
+     "title": "CMO Manager, Commercial Transactions Group",
+     "email": "kbull@marvell.com"
+    },
+    {
+     "name": "Mike Roberts",
+     "title": "Sr. Vice President and Chief Marketing Officer",
+     "email": "mroberts@marvell.com"
+    },
+    {
+     "name": "Josef Berger",
+     "title": "Vice President Marketing",
+     "email": "jberger@marvell.com"
+    },
+    {
+     "name": "Quade Lam",
+     "title": "Vice President of Global Marketing",
+     "email": "qlam@marvell.com"
+    }
+   ]
+  },
+  {
+   "brand": "Sandisk",
+   "people": [
+    {
+     "name": "David Goeckeler",
+     "title": "Chief Executive Officer",
+     "email": "david.goeckeler@sandisk.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/davidgoeckeler",
+     "location": "Milpitas, CA, USA"
+    },
+    {
+     "name": "Jim Elliott",
+     "title": "Executive Vice President and Chief Revenue Officer",
+     "email": "jim.elliott@sandisk.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jimelliott",
+     "location": "Los Gatos, CA, USA"
+    },
+    {
+     "name": "Anthony Morquecho",
+     "title": "Director, Global Brand and Integrated Marketing",
+     "email": "anthony.morquecho@sandisk.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/anthonymorquecho",
+     "location": "Costa Mesa, CA, USA"
+    },
+    {
+     "name": "Paco Allen",
+     "title": "Sr. Director, Brand Identity, Global Assets and Experience",
+     "email": "paco.allen@sandisk.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/pacoallen",
+     "location": "San Francisco, CA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "NXP Semiconductors",
+   "people": [
+    {
+     "name": "Birgit Ahlborn",
+     "title": "Vice President Marketing & Communications",
+     "email": "birgit.ahlborn@nxp.com"
+    },
+    {
+     "name": "Rafael Sotomayor",
+     "title": "Chief Executive Officer",
+     "email": "rafael.sotomayor@nxp.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rafael-sotomayor-09bb9",
+     "location": "San Jose, United States"
+    },
+    {
+     "name": "Jan-Philipp Gehrmann",
+     "title": "SVP & CMO",
+     "email": "jan-philipp.gehrmann@nxp.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jpgehrmann",
+     "location": "Hamburg, Germany"
+    },
+    {
+     "name": "Stefanie Van Roermund",
+     "title": "Director Brand Experience",
+     "email": "stefanie.van.roermund@nxp.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/stefanie-van-roermund-2071369",
+     "location": "Hamburg, Germany"
+    }
+   ]
+  },
+  {
+   "brand": "Avnet",
+   "people": [
+    {
+     "name": "Phil Gallagher",
+     "title": "Chief Executive Officer",
+     "email": "phil.gallagher@avnet.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/philiprgallagher",
+     "location": "United States"
+    },
+    {
+     "name": "Nicole Freeman",
+     "title": "VP, Corporate Marketing and Communications",
+     "email": "nicole.freeman@avnet.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/nicolegfreeman",
+     "location": "Yellow Springs, OH, USA"
+    },
+    {
+     "name": "Alex Wood",
+     "title": "Global Marketing Director",
+     "email": "alex.wood@avnet.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/marketingforthewin",
+     "location": "London, UK"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,290 @@
+{
+ "rows": [
+  {
+   "brand": "Frequentis",
+   "people": [
+    {
+     "name": "Fabienne Hamberg",
+     "title": "Head of Global Marketing",
+     "email": "fabienne.hamberg@frequentis.com"
+    },
+    {
+     "name": "Muhamed Hadzic",
+     "title": "Strategic Marketing Manager",
+     "email": "muhamed.hadzic@frequentis.com"
+    },
+    {
+     "name": "Tamara Blaschek",
+     "title": "Lead Event Marketing",
+     "email": "tamara.blaschek@frequentis.com"
+    },
+    {
+     "name": "Claudia Painsi",
+     "title": "International Event Marketing Manager",
+     "email": "claudia.painsi@frequentis.com"
+    }
+   ]
+  },
+  {
+   "brand": "Digital Turbine",
+   "people": [
+    {
+     "name": "Joy Ho",
+     "title": "Vice President, Marketing",
+     "email": "joy.ho@digitalturbine.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jjho66",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Zeta Global",
+   "people": [
+    {
+     "name": "Leah Pope",
+     "title": "Chief Marketing Officer",
+     "email": "lpope@zetaglobal.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/popeleah",
+     "location": "United States"
+    },
+    {
+     "name": "Megan Rose",
+     "title": "Group VP, Head of Brand & Growth Marketing",
+     "email": "merose@zetaglobal.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/meganrose1",
+     "location": "Los Angeles, United States"
+    },
+    {
+     "name": "Kelly Kennedy",
+     "title": "Chief Revenue Officer (CRO) & Advisor",
+     "email": "kkennedy@zetaglobal.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/kelly-kennedy-4a21337",
+     "location": "Naples, United States"
+    },
+    {
+     "name": "Lindsey Kollross",
+     "title": "VP, Growth Marketing",
+     "email": "lkollross@zetaglobal.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lindsey-kollross",
+     "location": "Hawthorne, United States"
+    }
+   ]
+  },
+  {
+   "brand": "SPS Commerce",
+   "people": [
+    {
+     "name": "Dana Norsten",
+     "title": "Sr Executive Coordinator to CMO/Marketing",
+     "email": "dnorsten@spscommerce.com"
+    },
+    {
+     "name": "Maria Pergolino",
+     "title": "Chief Marketing Officer",
+     "email": "mpergolino@spscommerce.com"
+    },
+    {
+     "name": "Heather Perry",
+     "title": "Director of Marketing",
+     "email": "hperry@spscommerce.com"
+    },
+    {
+     "name": "Timo Geest",
+     "title": "Director of Marketing",
+     "email": "tdegeest@spscommerce.com"
+    }
+   ]
+  },
+  {
+   "brand": "PagerDuty",
+   "people": [
+    {
+     "name": "Vivian Chan",
+     "title": "Director of Product Marketing",
+     "email": "vchan@pagerduty.com"
+    },
+    {
+     "name": "Rachel Singleton",
+     "title": "Director, Integrated Marketing",
+     "email": "rsingleton@pagerduty.com"
+    },
+    {
+     "name": "Victoria Walters",
+     "title": "Senior Brand Media Manager",
+     "email": "vwalters@pagerduty.com"
+    },
+    {
+     "name": "Eileen McGonigle",
+     "title": "Art Director + Brand Designer",
+     "email": "emcgonigle@pagerduty.com"
+    }
+   ]
+  },
+  {
+   "brand": "Nexxen",
+   "people": [
+    {
+     "name": "Ofer Druker",
+     "title": "Chief Executive Officer",
+     "email": "odruker@nexxen.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/oferdruker",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Ben Kaplan",
+     "title": "Chief Marketing Officer",
+     "email": "bkaplan@nexxen.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/benbkaplan",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Carol Gillard",
+     "title": "Global Vice President Marketing & Communications",
+     "email": "cgillard@nexxen.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/carol-gillard-7a815218",
+     "location": "United States"
+    },
+    {
+     "name": "Justin Chadwick",
+     "title": "Vice President, Marketing & Communications",
+     "email": "jchadwick@nexxen.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/justinchadwick",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "DigitalOcean",
+   "people": [
+    {
+     "name": "Leo Leung",
+     "title": "Chief Marketing Officer",
+     "email": "leoleung@digitalocean.com"
+    },
+    {
+     "name": "Meghan Grady",
+     "title": "Head of Marketing and Communications",
+     "email": "mgrady@digitalocean.com"
+    },
+    {
+     "name": "Aaqib Sayed",
+     "title": "Director Growth & Partnerships",
+     "email": "asayed@digitalocean.com"
+    },
+    {
+     "name": "Miranda Gahrmann",
+     "title": "Digital Marketing Director",
+     "email": "mgahrmann@digitalocean.com"
+    }
+   ]
+  },
+  {
+   "brand": "Perion Network",
+   "people": [
+    {
+     "name": "Tal Jacobson",
+     "title": "CEO",
+     "email": "tal@perion.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/taljacobson",
+     "location": "Israel"
+    },
+    {
+     "name": "Erin McCallion",
+     "title": "Chief Marketing Officer",
+     "email": "erinm@perion.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/erinkmccallion",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Sharona Meushar",
+     "title": "VP, Marketing Communications",
+     "email": "sharonam@perion.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/sharona",
+     "location": "Israel"
+    },
+    {
+     "name": "Marie Joseph",
+     "title": "Sr. Director, Growth Marketing & Experiential",
+     "email": "mariej@perion.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/mariejjoseph",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Certara",
+   "people": [
+    {
+     "name": "Jon Resnick",
+     "title": "CEO",
+     "email": "jon.resnick@certara.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jon-resnick-5508825",
+     "location": "Millburn, United States"
+    },
+    {
+     "name": "Leif Pedersen",
+     "title": "President, Chief Commercial Officer",
+     "email": "leif.pedersen@certara.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/leifpedersen",
+     "location": "Dripping Springs, United States"
+    },
+    {
+     "name": "Kristen Zannella",
+     "title": "VP Marketing - PBPK, QSP, and Pharmacometrics",
+     "email": "kristen.zannella@certara.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/kristenzannella",
+     "location": "United States"
+    },
+    {
+     "name": "Carolyn Peterson",
+     "title": "Senior Director Marketing, Demand Generation",
+     "email": "carolyn.peterson@certara.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/carolynpeterson",
+     "location": "Boston, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Domo, Inc.",
+   "people": [
+    {
+     "name": "Mark Boothe",
+     "title": "CMO",
+     "email": "mark.boothe@domo.com"
+    },
+    {
+     "name": "Cory Edwards",
+     "title": "Vice President Marketing",
+     "email": "cory.edwards@domo.com"
+    },
+    {
+     "name": "Jeff Morgan",
+     "title": "VP, Demand Marketing and Marketing Ops",
+     "email": "jeff.morgan@domo.com"
+    },
+    {
+     "name": "Paris Gibson",
+     "title": "VP, Experiential Marketing",
+     "email": "paris.gibson@domo.com"
+    }
+   ]
+  }
+ ]
+}

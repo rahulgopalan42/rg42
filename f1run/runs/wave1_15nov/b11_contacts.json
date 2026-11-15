@@ -1,0 +1,332 @@
+{
+ "rows": [
+  {
+   "brand": "Twilio",
+   "people": [
+    {
+     "name": "Amanda Ramos",
+     "title": "Principal Executive Communications Manager, CMO",
+     "email": "aramos@twilio.com"
+    },
+    {
+     "name": "Chris Koehler",
+     "title": "Chief Marketing Officer",
+     "email": "ckoehler@twilio.com"
+    },
+    {
+     "name": "Vanessa Thompson",
+     "title": "Vice President, Revenue and Growth Marketing",
+     "email": "vthompson@twilio.com"
+    },
+    {
+     "name": "Kailey Raymond",
+     "title": "Revenue & Growth Marketing Leader",
+     "email": "kraymond@twilio.com"
+    }
+   ]
+  },
+  {
+   "brand": "Sinch",
+   "people": [
+    {
+     "name": "Sophie Cheng",
+     "title": "Chief Marketing Officer",
+     "email": "sophie.cheng@sinch.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/sophiebcheng",
+     "location": "United States"
+    },
+    {
+     "name": "Gwen Lafage",
+     "title": "VP Marketing, Global Brand & Integrated Campaigns",
+     "email": "gwen.lafage@sinch.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/gwen-lafage",
+     "location": "Nantes, France"
+    },
+    {
+     "name": "Suphal Mehrotra",
+     "title": "Chief Revenue Officer",
+     "email": "suphal.mehrotra@sinch.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/suphalmehrotra",
+     "location": "Mumbai, India"
+    },
+    {
+     "name": "Jan Ritter",
+     "title": "VP of Marketing",
+     "email": "jan.ritter@sinch.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/janritter",
+     "location": "Springfield, United States"
+    }
+   ]
+  },
+  {
+   "brand": "FactSet",
+   "people": [
+    {
+     "name": "Goncalo Tenente",
+     "title": "VP Product Marketing",
+     "email": "goncalo.freitastenente@factset.com"
+    },
+    {
+     "name": "Stefanie Tavolato",
+     "title": "VP, Product Marketing",
+     "email": "stavolato@factset.com"
+    },
+    {
+     "name": "Benedicte Godet",
+     "title": "Senior Director, Product Marketing & Sales Enablement",
+     "email": "benedicte.godet@factset.com"
+    },
+    {
+     "name": "Greta Spiess",
+     "title": "SVP, Global Head of Digital Marketing & Content",
+     "email": "greta.spiess@factset.com"
+    }
+   ]
+  },
+  {
+   "brand": "Taboola.com",
+   "people": [
+    {
+     "name": "Krishan Bhatia",
+     "title": "Chief Business Officer",
+     "email": "krishan.b@taboola.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/krishanbhatia",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Tom Inbal",
+     "title": "SVP Strategy & Corporate Marketing",
+     "email": "tom.i@taboola.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/tomtechteam",
+     "location": "Israel"
+    },
+    {
+     "name": "Or Gottlib",
+     "title": "Global Head of Marketing Communications and Brand",
+     "email": "or.gottlib@taboola.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/orgottlib",
+     "location": "Tel Aviv-Yafo, Israel"
+    },
+    {
+     "name": "Eyal Nir",
+     "title": "Head of Growth Marketing",
+     "email": "eyal.n@taboola.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/eyal-nir-74aa1761",
+     "location": "Israel"
+    }
+   ]
+  },
+  {
+   "brand": "Wix.com",
+   "people": [
+    {
+     "name": "Avishai Abrahami",
+     "title": "Co-Founder, CEO",
+     "email": "avish@wix.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/abrahamiavishai",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Shani More",
+     "title": "Senior Vice President Marketing",
+     "email": "shanim@wix.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/shani-more-22136722",
+     "location": "Israel"
+    },
+    {
+     "name": "Paula Mejia",
+     "title": "SVP Marketing",
+     "email": "paulaxm@wix.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/paulaxmejia",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Eyal Sebbag",
+     "title": "Head of Wix.com Brand Marketing",
+     "email": "eyals@wix.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/eyal-sebbag-a8459123",
+     "location": "Ramat Gan, Israel"
+    }
+   ]
+  },
+  {
+   "brand": "VusionGroup",
+   "people": [
+    {
+     "name": "Thierry Gadou",
+     "title": "Chairman & CEO",
+     "email": "thierry.gadou@vusion.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/thierrygadou",
+     "location": "Paris, France"
+    },
+    {
+     "name": "Roy Horgan",
+     "title": "Group SEVP Strategy, Marketing & Communications",
+     "email": "roy.horgan@ses-imagotag.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/roy-horgan-a424a112",
+     "location": "Ireland"
+    },
+    {
+     "name": "Cristina Rodrigues",
+     "title": "VP of Marketing, Americas",
+     "email": "cristina.rodrigues@vusion.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/cristinarodrigues",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Diana Vargas",
+     "title": "Head of Marketing EMEA",
+     "email": "diana.vargas@vusion.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/dianaangelicavargasvega",
+     "location": "Paris, France"
+    }
+   ]
+  },
+  {
+   "brand": "Nutanix",
+   "people": [
+    {
+     "name": "Rajiv Ramaswami",
+     "title": "President and CEO",
+     "email": "rajiv@nutanix.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rajiv-ramaswami-b365704",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Mandy Dhaliwal",
+     "title": "Chief Marketing Officer",
+     "email": "mandy.dhaliwal@nutanix.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/1mandydhaliwal",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Damon Waldron",
+     "title": "Global VP, Growth & Demand Generation",
+     "email": "damon.waldron@nutanix.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/damonwaldron",
+     "location": "Franklin, United States"
+    },
+    {
+     "name": "Carol Kimura",
+     "title": "Head of Corporate Marketing",
+     "email": "carol.kimura@nutanix.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/carolkimura",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Teradata",
+   "people": [
+    {
+     "name": "Richard Petley",
+     "title": "Chief Revenue Officer",
+     "email": "richard.petley@teradata.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/richpetley",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Aditi Uppal",
+     "title": "Vice President Corporate and Growth Marketing",
+     "email": "aditi.uppal@teradata.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/aditiuppal",
+     "location": "Carlsbad, United States"
+    },
+    {
+     "name": "Carlos Pastor",
+     "title": "Sr. Director, WW Field Marketing & Demand Generation",
+     "email": "carlos.pastor@teradata.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/clopastor",
+     "location": "Charlotte, United States"
+    },
+    {
+     "name": "Amy Udelson",
+     "title": "Sr Director, Marketing",
+     "email": "amy.udelson@teradata.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/amyudelson",
+     "location": "Seattle, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Samsara",
+   "people": [
+    {
+     "name": "Angelina Elhassan",
+     "title": "Vice President | Marketing",
+     "email": "angelina.elhassan@samsara.com"
+    },
+    {
+     "name": "Buck Choate",
+     "title": "Head of Corporate Marketing",
+     "email": "buck.choate@samsara.com"
+    },
+    {
+     "name": "Lauren Levinger",
+     "title": "Director Brand Strategy",
+     "email": "lauren.levinger@samsara.com"
+    },
+    {
+     "name": "Sanjit Biswas",
+     "title": "CEO & Co-founder",
+     "email": "biswas@samsara.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/sanjit-biswas-aa77a5435",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "WiseTech Global",
+   "people": [
+    {
+     "name": "Stephen Murdoch",
+     "title": "Global Head of Marketing",
+     "email": "stephen.murdoch@wisetechglobal.com"
+    },
+    {
+     "name": "Marijana Okanovic",
+     "title": "Head of Corporate Communications",
+     "email": "marijana.okanovic@wisetechglobal.com"
+    },
+    {
+     "name": "Celine Gouriou",
+     "title": "Director, Commercial Marketing - E2open",
+     "email": "celine.gouriou@wisetechglobal.com"
+    },
+    {
+     "name": "Zubin Appoo",
+     "title": "Chief Executive Officer",
+     "email": "zubin.appoo@wisetechglobal.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/zubinappoo",
+     "location": "Sydney, Australia"
+    }
+   ]
+  }
+ ]
+}

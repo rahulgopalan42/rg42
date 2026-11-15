@@ -1,0 +1,314 @@
+{
+ "rows": [
+  {
+   "brand": "Onto Innovation",
+   "people": [
+    {
+     "name": "Mike Rosa",
+     "title": "Chief Marketing Officer (CMO) & SVP of Strategy",
+     "email": "mike.rosa@ontoinnovation.com"
+    },
+    {
+     "name": "Vamsi Velidandla",
+     "title": "Sr. Director, Marketing",
+     "email": "vamsi.velidandla@ontoinnovation.com"
+    },
+    {
+     "name": "Amy Shay",
+     "title": "Director, Marketing Communications",
+     "email": "amy.shay@ontoinnovation.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/amyshay",
+     "location": "Chaska, United States"
+    },
+    {
+     "name": "Burhan Ali",
+     "title": "Director of Product Marketing",
+     "email": "burhan.ali@ontoinnovation.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/buriali",
+     "location": "Boston, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Socionext",
+   "people": [
+    {
+     "name": "Dongyan Hao",
+     "title": "Marketing Director",
+     "email": "dongyan.hao@socionext.com"
+    },
+    {
+     "name": "Makoto Hirano",
+     "title": "Marketing",
+     "email": "hirano.makoto@socionext.com"
+    },
+    {
+     "name": "Kota Soejima",
+     "title": "Marketing Manager",
+     "email": "soejima.kota@socionext.com"
+    },
+    {
+     "name": "Katsuhiro Watanabe",
+     "title": "ASIC Marketing",
+     "email": "watanabe.katsuhiro@socionext.com"
+    }
+   ]
+  },
+  {
+   "brand": "Nova Ltd.",
+   "people": [
+    {
+     "name": "Gaby Waisman",
+     "title": "President & Chief Executive Officer",
+     "email": "gaby-w@novami.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/gaby-waisman-4443531",
+     "location": "Israel"
+    },
+    {
+     "name": "Zohar Gil",
+     "title": "Chief Business Officer",
+     "email": "zohar-g@novami.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/zohar-gil-5a588814",
+     "location": "Israel"
+    },
+    {
+     "name": "Noa Shinar-Ron",
+     "title": "Corporate Marketing VP",
+     "email": "noa-s@novami.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/noashin",
+     "location": "Israel"
+    },
+    {
+     "name": "Sang Han",
+     "title": "Vice President of Strategic Marketing",
+     "email": "sang-h@novami.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/sang-hyun-han-b9a85417",
+     "location": "Milpitas, CA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Silicon Motion",
+   "people": [
+    {
+     "name": "Stanley Huang",
+     "title": "Associate Vice President, SSD Product Marketing",
+     "email": "stanley.huang@siliconmotion.com"
+    },
+    {
+     "name": "Shamil Sharief",
+     "title": "Sr. Director, Enterprise Product Marketing",
+     "email": "ssharief@siliconmotion.com"
+    },
+    {
+     "name": "Jason Chien",
+     "title": "Sr. Director, Enterprise Storage, Next Gen Product Marketing",
+     "email": "jchien@siliconmotion.com"
+    },
+    {
+     "name": "Leo Liu",
+     "title": "Product Marketing Manager",
+     "email": "leo.liu@siliconmotion.com"
+    }
+   ]
+  },
+  {
+   "brand": "Camtek",
+   "people": [
+    {
+     "name": "Rafi Amit",
+     "title": "CEO",
+     "email": "rafia@camtek.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rafi-amit-325801111",
+     "location": "Singapore"
+    },
+    {
+     "name": "Eyal Segev",
+     "title": "Director of Strategic Marketing",
+     "email": "eyals@camtek.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/eyalsegev",
+     "location": "Israel"
+    },
+    {
+     "name": "Danny Wu",
+     "title": "Regional Director of Sales and Marketing",
+     "email": "danny_w@camtek.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/danny-wu-360a7bb5",
+     "location": "Taiwan"
+    },
+    {
+     "name": "Thomas Moelders",
+     "title": "V.P. Camtek Europe N.V.",
+     "email": "thomas@camtek.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/thomas-moelders-67669610",
+     "location": "Ghent, Belgium"
+    }
+   ]
+  },
+  {
+   "brand": "Cohu",
+   "people": [
+    {
+     "name": "Justin Brown",
+     "title": "Senior Vice President of Global Sales",
+     "email": "justin.brown@cohu.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/justin-brown-213b8b5",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Ulrich Lausser",
+     "title": "Head of Product Marketing Sensors",
+     "email": "ulrich.lausser@cohu.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/ulrich-lausser-b2649b137",
+     "location": "Nu\u00dfdorf am Inn, Germany"
+    },
+    {
+     "name": "Jeremy Steele",
+     "title": "Director of Marketing",
+     "email": "jeremy.steele@cohu.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jeremy-steele-b224ba77",
+     "location": "Norwood, MA, USA"
+    },
+    {
+     "name": "Nigel Beddoe",
+     "title": "Director Project Marketing Manager MEMS & Sensors",
+     "email": "nigel.beddoe@cohu.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/nigel-beddoe-870724233",
+     "location": "Malacca, Malaysia"
+    }
+   ]
+  },
+  {
+   "brand": "Ichor Systems",
+   "people": [
+    {
+     "name": "David Shimmon",
+     "title": "CEO",
+     "email": "dshimmon@ichorsystems.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/david-shimmon-34997934",
+     "location": "Santa Clara, CA, USA"
+    },
+    {
+     "name": "Mark Hutson",
+     "title": "President and COO",
+     "email": "mhutson@ichorsystems.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/mark-hutson-8399b95",
+     "location": "Austin, TX, USA"
+    },
+    {
+     "name": "Tom Rohrs",
+     "title": "Chairman and CEO",
+     "email": "trohrs@ichorsystems.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/tom-rohrs-16582b19",
+     "location": "Reno, NV, USA"
+    },
+    {
+     "name": "Christopher Smith",
+     "title": "Chief Commercial Officer",
+     "email": "csmith@ichorsystems.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/cwsmith59",
+     "location": "Encinitas, CA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Astera Labs",
+   "people": [
+    {
+     "name": "Paroma Sen",
+     "title": "VP, Ecosystem and Corporate Marketing",
+     "email": "paroma.sen@asteralabs.com"
+    },
+    {
+     "name": "Mike Hendricks",
+     "title": "Associate Vice President, Solutions & Ecosystem Marketing",
+     "email": "mike.hendricks@asteralabs.com"
+    },
+    {
+     "name": "Shaunak Salvi",
+     "title": "Strategic Marketing Programs Lead",
+     "email": "shaunak.salvi@asteralabs.com"
+    },
+    {
+     "name": "Peter Lo",
+     "title": "Director of Communications",
+     "email": "peter.lo@asteralabs.com"
+    }
+   ]
+  },
+  {
+   "brand": "SiTime",
+   "people": [
+    {
+     "name": "Judy Ash",
+     "title": "Vice President, Digital CX Marketing",
+     "email": "jash@sitime.com"
+    },
+    {
+     "name": "Joe Salvador",
+     "title": "Senior Director of Marketing",
+     "email": "jsalvador@sitime.com"
+    },
+    {
+     "name": "Chanakya Mehta",
+     "title": "Director of Product Marketing | Automotive",
+     "email": "cmehta@sitime.com"
+    },
+    {
+     "name": "Rajesh Vashist",
+     "title": "CEO",
+     "email": "rvashist@sitime.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rajesh-vashist",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Applied Optoelectronics",
+   "people": [
+    {
+     "name": "Thompson Lin",
+     "title": "Founder, Chairman, Chief Executive Officer and President",
+     "email": "chlin@ao-inc.com"
+    },
+    {
+     "name": "Michael Ballard",
+     "title": "Senior Director of Marketing",
+     "email": "michael_ballard@ao-inc.com"
+    },
+    {
+     "name": "Sara Cicero",
+     "title": "Head of Communications",
+     "email": "sara_cicero@ao-inc.com"
+    },
+    {
+     "name": "Ruth Lee",
+     "title": "Senior Manager, Field Marketing",
+     "email": "ruth_lee@ao-inc.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ruthlee-rl",
+     "location": "Oshawa, Canada"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,354 @@
+{
+ "rows": [
+  {
+   "brand": "Technoprobe",
+   "people": [
+    {
+     "name": "Eric Miller",
+     "title": "Director, Technical Marketing - Equipment",
+     "email": "eric.miller@technoprobe.com"
+    },
+    {
+     "name": "Stefano Felici",
+     "title": "Chief Executive Officer",
+     "email": "stefano.felici@technoprobe.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/stefano-felici-52603462",
+     "location": "San Jose, United States"
+    },
+    {
+     "name": "David Perniz",
+     "title": "President Japan",
+     "email": "david.perniz@technoprobe.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/davidperniz",
+     "location": "Shinjuku, Japan"
+    },
+    {
+     "name": "Paolo Cavallotti",
+     "title": "Communication & Marketing Manager",
+     "email": "paolo.cavallotti@technoprobe.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/paolo-cavallotti-1118b1a0",
+     "location": "Milan, Italy"
+    }
+   ]
+  },
+  {
+   "brand": "FormFactor",
+   "people": [
+    {
+     "name": "Raajit Lall",
+     "title": "VP of Product & Marketing",
+     "email": "raajit.lall@formfactor.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/raajitlall",
+     "location": "Beaverton, OR, USA"
+    },
+    {
+     "name": "Ross Martindale",
+     "title": "VP of Marketing, Systems BU",
+     "email": "ross.martindale@formfactor.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/rossmartindale",
+     "location": "Nice, France"
+    },
+    {
+     "name": "Timothy McMullen",
+     "title": "Sr. Director, Strategic Marketing",
+     "email": "timothy.mcmullen@formfactor.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/timothy-mcmullen-43564a1a4",
+     "location": "Minneapolis, MN, USA"
+    },
+    {
+     "name": "Eric Wilcox",
+     "title": "Director, Marketing",
+     "email": "eric.wilcox@formfactor.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/eric-wilcox-04203015",
+     "location": "Twin Cities, MN, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Mycronic",
+   "people": [
+    {
+     "name": "Lena Bavegard",
+     "title": "Sr VP Global Functions",
+     "email": "lena.bavegard@mycronic.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/lena-bavegard",
+     "location": "Liding\u00f6, Sweden"
+    },
+    {
+     "name": "Simon Sandgren",
+     "title": "Head of Strategy & Marketing, High Flex",
+     "email": "simon.sandgren@mycronic.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/simon-sandgren",
+     "location": "Stockholm, Sweden"
+    },
+    {
+     "name": "Elisa Weidlertz",
+     "title": "Director Corporate Communications & Brand",
+     "email": "elisa.weidlertz@mycronic.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/weidlertz",
+     "location": "Stockholm, Sweden"
+    },
+    {
+     "name": "Adam Granath",
+     "title": "An all Things Communications guy.",
+     "email": "adam.granath@mycronic.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/adam-granath",
+     "location": "Stockholm, Sweden"
+    }
+   ]
+  },
+  {
+   "brand": "Soitec",
+   "people": [
+    {
+     "name": "Jerome Fohet",
+     "title": "Director Marketing and Communications",
+     "email": "jerome.fohet@soitec.com"
+    },
+    {
+     "name": "Travis Heng",
+     "title": "Head of Strategic Marketing",
+     "email": "travis.heng@gigadevice.com"
+    },
+    {
+     "name": "Yvan Morandini",
+     "title": "Head of Strategic Marketing",
+     "email": "yvan.morandini@soitec.com"
+    },
+    {
+     "name": "Laurent Remont",
+     "title": "Chief Executive Officer",
+     "email": "laurent.remont@soitec.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/laurentremont",
+     "location": "Grenoble, France"
+    }
+   ]
+  },
+  {
+   "brand": "Kulicke and Soffa Industries",
+   "people": [
+    {
+     "name": "Nelson Wong",
+     "title": "SVP of Global Sales & Supply Chain",
+     "email": "nwong@kns.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/nelson-wong-06372814",
+     "location": "Singapore"
+    },
+    {
+     "name": "Roger Jeng",
+     "title": "Product Marketing Director",
+     "email": "scjeng@kns.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/roger-jeng-4b595517",
+     "location": "Hsinchu City, Taiwan"
+    },
+    {
+     "name": "Matt Liang",
+     "title": "Marketing Communicatoins Senior Executive",
+     "email": "hcliang@kns.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/matt-liang-635248ab",
+     "location": "Taiwan"
+    },
+    {
+     "name": "Hannah Lim",
+     "title": "Specialist, Marketing Communications (Corporate Strategy)",
+     "email": "lhannah@kns.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/hannah-lim-2370aa1a",
+     "location": "Singapore"
+    }
+   ]
+  },
+  {
+   "brand": "Veeco",
+   "people": [
+    {
+     "name": "Bill Miller",
+     "title": "Chief Executive Officer",
+     "email": "bmiller@veeco.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/bill-miller-2483048",
+     "location": "Woodbury, NY, USA"
+    },
+    {
+     "name": "Meng Lee",
+     "title": "VP of Marketing",
+     "email": "mlee@veeco.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/meng-lee-41381172",
+     "location": "Kings Park, NY, USA"
+    },
+    {
+     "name": "Anil Vijayendran",
+     "title": "VP Product Line Management/Strategic Marketing",
+     "email": "avijayendran@veeco.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/anil-vijayendran-4a13015",
+     "location": "New York, NY, USA"
+    },
+    {
+     "name": "Javier Banos",
+     "title": "Marketing Director",
+     "email": "jbanos@veeco.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/javier-banos-07752552",
+     "location": "New York, NY, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Axcelis Technologies",
+   "people": [
+    {
+     "name": "Russell Low",
+     "title": "Chief Executive Officer",
+     "email": "russell.low@axcelis.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/russell-low-ph-d-ab3408a",
+     "location": "Beverly, MA, USA"
+    },
+    {
+     "name": "Maureen Hart",
+     "title": "Senior Director Corporate & Marketing Communications",
+     "email": "maureen.hart@axcelis.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/maureen-hart-mba-9215434",
+     "location": "United States"
+    },
+    {
+     "name": "Atul Gupta",
+     "title": "Senior Director of Marketing",
+     "email": "atul.gupta@axcelis.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/atul-gupta-317163",
+     "location": "Boston, MA, USA"
+    },
+    {
+     "name": "Denise Burley",
+     "title": "Global Marketing Director, Aftermarket",
+     "email": "denise.burley@axcelis.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/deniseburley-mba-pmp",
+     "location": "Port St Lucie, FL, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Palo Alto Networks",
+   "people": [
+    {
+     "name": "Nikesh Arora",
+     "title": "Chairman CEO",
+     "email": "narora@paloaltonetworks.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/nikesh-arora-02894670",
+     "location": "Atherton, CA, USA"
+    },
+    {
+     "name": "Kelly Waldher",
+     "title": "Executive Vice President & Chief Marketing Officer",
+     "email": "kwaldher@paloaltonetworks.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kellywaldher",
+     "location": "Seattle, WA, USA"
+    },
+    {
+     "name": "Anna Nguyen",
+     "title": "SVP Global Digital Marketing",
+     "email": "annanguyen@paloaltonetworks.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/annanguyen",
+     "location": "Santa Clara, CA, USA"
+    },
+    {
+     "name": "Andrea Benson",
+     "title": "VP, Global Marketing Operations & Demand",
+     "email": "abenson@paloaltonetworks.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/andreabenson",
+     "location": "Hopkinton, MA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Shopify",
+   "people": [
+    {
+     "name": "Tobias Luetke",
+     "title": "CEO",
+     "email": "tobi@shopify.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/tobiaslutke",
+     "location": "Ottawa, Canada"
+    },
+    {
+     "name": "Kim Wike",
+     "title": "Vice President, Growth Marketing & Paid Acquisition",
+     "email": "kim.wike@shopify.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/kayres",
+     "location": "Seattle, United States"
+    },
+    {
+     "name": "Shaun Horbochuk",
+     "title": "Director, Brand Partnerships",
+     "email": "shaun.horbochuk@shopify.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/shaunhorbochuk",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Dassault Syst\u00e8mes",
+   "people": [
+    {
+     "name": "Ian Marks",
+     "title": "Chief Commercial Officer",
+     "email": "ian.marks@3ds.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ianmmarks",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Susanne Eberhardt",
+     "title": "Marketing & Communications Chief Operations Officer",
+     "email": "susanne.eberhardt@3ds.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/susanne-eberhardt-2500a45",
+     "location": "France"
+    },
+    {
+     "name": "Rosemary Grabowski",
+     "title": "VP, Global Marketing Operations",
+     "email": "rosemary.grabowski@3ds.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/rosemary-gillespie-grabowski",
+     "location": "Monroe, United States"
+    },
+    {
+     "name": "Cagatay",
+     "title": "Head of Global Marketing",
+     "email": "cagatay.serin@3ds.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/cagatayserin",
+     "location": "Sheffield, United Kingdom"
+    }
+   ]
+  }
+ ]
+}

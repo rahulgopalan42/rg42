@@ -1,0 +1,374 @@
+{
+ "rows": [
+  {
+   "brand": "Azimut Holding",
+   "people": [
+    {
+     "name": "Giorgio Medda",
+     "title": "CEO / Global Head of Asset Management & Fintech",
+     "email": "giorgio.medda@azimut.it",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/giorgio-medda-857492b",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Fabio Arioldi",
+     "title": "CEO",
+     "email": "fabio.arioldi@azimut.it",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/fabio-arioldi-5b3b434a",
+     "location": "Milan, Italy"
+    },
+    {
+     "name": "Riccardo Fosi",
+     "title": "Chief Commercial Officer (CCO), Partner",
+     "email": "riccardo.fosi@azimut.it",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/riccardo-fosi-69229a310",
+     "location": "Florence, Italy"
+    },
+    {
+     "name": "Francesca Bartolino",
+     "title": "Head of Digital Marketing & Communication",
+     "email": "francesca.bartolino@azimut.it",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/francesca-bartolino",
+     "location": "Milan, Italy"
+    }
+   ]
+  },
+  {
+   "brand": "Intermediate Capital Group (ICG)",
+   "people": [
+    {
+     "name": "Antje Hensel-Roth",
+     "title": "Executive Board Director, Chief People & External Affairs Officer",
+     "email": "ahr@icgam.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/antje-hensel-roth-0b14915",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Alan Isenberg",
+     "title": "Senior Managing Director, Global Head of Marketing and Client Relations",
+     "email": "alan.isenberg@icgam.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/alan-isenberg-cfa-b330687",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Bastian Schmedding",
+     "title": "Managing Director Marketing",
+     "email": "bastian.schmedding@icgplc.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/bastian-schmedding-0b9ab71a5",
+     "location": "Hofheim, Germany"
+    },
+    {
+     "name": "Clare Glynn",
+     "title": "Head of Corporate Communications",
+     "email": "clare.glynn@icgam.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/clare-glynn-b3722a143",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Lazard",
+   "people": [
+    {
+     "name": "Peter Orszag",
+     "title": "Chief Executive Officer and Chairman",
+     "email": "peter.orszag@lazard.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/peterorszag",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Shannon Houston",
+     "title": "Global Head of Communications and Marketing",
+     "email": "shannon.houston@lazard.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/shannonhouston",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Cynthia Zebro",
+     "title": "Senior Vice President & Head of PMA Marketing",
+     "email": "cindy.zebro@lazard.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/cynthiazebro",
+     "location": "Minneapolis, United States"
+    },
+    {
+     "name": "Roberto Seoane",
+     "title": "Vice President, Marketing",
+     "email": "roberto.seoane@lazard.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/seoaner",
+     "location": "Paris, France"
+    }
+   ]
+  },
+  {
+   "brand": "Invesco",
+   "people": [
+    {
+     "name": "Andrew Schlossberg",
+     "title": "President and CEO",
+     "email": "andrew.schlossberg@invesco.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/andrew-schlossberg-invesco",
+     "location": "Atlanta, United States"
+    },
+    {
+     "name": "Chiara Minari",
+     "title": "Associate Director CMO Office - Strategy & Planning Department",
+     "email": "chiara.minari@invesco.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/chiaraminari",
+     "location": "Milan, Italy"
+    },
+    {
+     "name": "Tom Clifford",
+     "title": "Associate Director, Sponsorship & Experiential Marketing",
+     "email": "tom.clifford@invesco.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/thomasbclifford",
+     "location": "United States"
+    },
+    {
+     "name": "Allyson Doker",
+     "title": "Associate Director, Brand Activation and Management",
+     "email": "allyson.doker@invesco.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/allysonayers",
+     "location": "Atlanta, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Evercore",
+   "people": [
+    {
+     "name": "Keith Magnus",
+     "title": "Chairman, Asia, CEO, Member of Global Management Committee",
+     "email": "keith.magnus@evercore.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/keith-magnus-b606a697",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Elizabeth Forest",
+     "title": "Global Head of Events",
+     "email": "elizabeth.forest@evercore.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/elizabethlforest",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Lizzie Drew",
+     "title": "Vice President, Corporate Communications",
+     "email": "elizabeth.drew@evercore.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/elizabeth-germack",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Lisa Monette",
+     "title": "Vice President - Corporate Events",
+     "email": "lisa.monette@evercore.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lisa-torswick-monette-a284734b",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Moelis & Company",
+   "people": [
+    {
+     "name": "Ken Moelis",
+     "title": "Chairman & Chief Executive Officer",
+     "email": "ken.moelis@moelis.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ken-moelis-a28911169",
+     "location": "United States"
+    },
+    {
+     "name": "Navid Mahmoodzadegan",
+     "title": "CEO & Co-Founder",
+     "email": "navid.mahmoodzadegan@moelis.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/navid-mahmoodzadegan",
+     "location": "Los Angeles, United States"
+    },
+    {
+     "name": "Margot Shoshan",
+     "title": "Global Head of Marketing & Communications",
+     "email": "margot.shoshan@moelis.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/margot-shoshan-a1ba3552",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Katie Bennett",
+     "title": "Director, Marketing & Communications",
+     "email": "katie.bennett@moelis.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/katiebennett26",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Ninety One Group",
+   "people": [
+    {
+     "name": "Hendrik du Toit",
+     "title": "Chief Executive Officer",
+     "email": "hendrik.dutoit@ninetyone.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/hendrik-du-toit-86985075",
+     "location": ""
+    },
+    {
+     "name": "Malcolm Fried",
+     "title": "Chief Marketing Officer",
+     "email": "malcolm.fried@ninetyone.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/malcolm-fried-fcim-46468753",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "John Green",
+     "title": "Chief Commercial Officer",
+     "email": "john.green@ninetyone.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/john-green-27b797b7",
+     "location": "Cape Town, South Africa"
+    },
+    {
+     "name": "Rebecca Hoberg",
+     "title": "Head of Client Marketing",
+     "email": "rebecca.hoberg@ninetyone.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/rebecca-hoberg-52376422",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "MarketAxess",
+   "people": [
+    {
+     "name": "Dean Berry",
+     "title": "MarketAxess Group COO, CEO of EMEA & APAC",
+     "email": "dberry@marketaxess.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/dean-berry-38243b59",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Toby West",
+     "title": "Global Head of Marketing",
+     "email": "twest@marketaxess.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/tubswest",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Timothy Morrell",
+     "title": "Global Head of Digital and Brand",
+     "email": "tmorrell@marketaxess.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/timmorrell",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Karina Rousseau",
+     "title": "Head of Americas Marketing",
+     "email": "krousseau@marketaxess.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/karinamrousseau",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "Federated Hermes",
+   "people": [
+    {
+     "name": "Paul Uhlman",
+     "title": "President & CEO of Federated Advisory Companies",
+     "email": "paul.uhlman@federatedhermes.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/paul-a-uhlman-b6253036b",
+     "location": "Pittsburgh, United States"
+    },
+    {
+     "name": "Dan McGrath",
+     "title": "Senior Vice President, Global Head of Marketing",
+     "email": "dan.mcgrath@federatedhermes.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/dan-mcgrath-4b445620",
+     "location": "Pittsburgh, United States"
+    },
+    {
+     "name": "Erik Gosule",
+     "title": "Senior Vice President, Director of Product and Marketing Management",
+     "email": "erik.gosule@federatedhermes.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/erik-gosule-cfa-7909285",
+     "location": "Pittsburgh, United States"
+    },
+    {
+     "name": "Donald Jacobson",
+     "title": "Senior Vice President, Director, Product and Marketing Management Division",
+     "email": "djacobson@federatedinv.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/donald-jacobson-0b451428",
+     "location": "Pittsburgh, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Houlihan Lokey",
+   "people": [
+    {
+     "name": "Scott Waltz",
+     "title": "Chief Marketing Officer",
+     "email": "swaltz@hl.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/scottwaltz",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "David Jones",
+     "title": "SVP of Marketing, Brand Creative and Digital Experience",
+     "email": "djones@hl.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/davidxjones",
+     "location": "Los Angeles, United States"
+    },
+    {
+     "name": "Stefanie Dixon",
+     "title": "Vice President, Marketing",
+     "email": "sdixon@hl.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/stefanie-dixon-117b796",
+     "location": "Los Angeles, United States"
+    },
+    {
+     "name": "Mary Mercado",
+     "title": "Vice President, Co-Head of Marketing Operations",
+     "email": "mkmercado@hl.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/mary-mercado",
+     "location": "San Francisco, United States"
+    }
+   ]
+  }
+ ]
+}

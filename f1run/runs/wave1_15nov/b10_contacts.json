@@ -1,0 +1,350 @@
+{
+ "rows": [
+  {
+   "brand": "Gen Digital",
+   "people": [
+    {
+     "name": "Vincent Pilette",
+     "title": "Chairman and CEO",
+     "email": "vincent@gendigital.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/vincentpilette",
+     "location": "United States"
+    },
+    {
+     "name": "Krista Todd",
+     "title": "Chief Marketing Officer",
+     "email": "krista.todd@gendigital.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kristawtodd",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Chris Apostle",
+     "title": "Global Head of Media & Performance, Gen & CEO of Malka / Gen Studio",
+     "email": "chris.apostle@gendigital.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/chrisapostle",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Verena Jordan",
+     "title": "Senior Director, Head of Global Integrated Marketing, Cyber Safety",
+     "email": "verena.jordan@gendigital.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/verenajordan",
+     "location": "Bonn, Germany"
+    }
+   ]
+  },
+  {
+   "brand": "GoDaddy",
+   "people": [
+    {
+     "name": "Aman Bhutani",
+     "title": "Chief Executive Officer",
+     "email": "aman@godaddy.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/amanbhutani",
+     "location": "Bellevue, United States"
+    },
+    {
+     "name": "Greg Efthimiou",
+     "title": "Vice President, Communications",
+     "email": "gefthimiou@godaddy.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/efthimiou",
+     "location": "Charlotte, United States"
+    },
+    {
+     "name": "Mark Baldridge",
+     "title": "Director, Global Brand & Creative Management",
+     "email": "mbaldridge@godaddy.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/markbaldridge",
+     "location": "Pensacola, United States"
+    },
+    {
+     "name": "Georgette Taylor",
+     "title": "Director, Global Marketing Community",
+     "email": "gtaylor@godaddy.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/georgettegtaylor",
+     "location": "Phoenix, United States"
+    }
+   ]
+  },
+  {
+   "brand": "monday.com",
+   "people": [
+    {
+     "name": "Roy Mann",
+     "title": "CEO",
+     "email": "roy@monday.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/manroy",
+     "location": "Israel"
+    },
+    {
+     "name": "Yuval Azulay",
+     "title": "Vice President Marketing",
+     "email": "yuval@monday.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/yuval-azulay-75715a67",
+     "location": "Tel Aviv-Yafo, Israel"
+    },
+    {
+     "name": "Casey George",
+     "title": "CRO",
+     "email": "caseyge@monday.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/casey-george",
+     "location": "Atlanta, United States"
+    },
+    {
+     "name": "Dan Brooks",
+     "title": "VP, Brand",
+     "email": "danbr@monday.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/brooksynyc",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Thomson Reuters",
+   "people": [
+    {
+     "name": "Steve Hasker",
+     "title": "President and CEO",
+     "email": "steve.hasker@thomsonreuters.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/stevehasker",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Melanie Eidson",
+     "title": "Chief Marketing Officer",
+     "email": "melanie.eidson@thomsonreuters.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/melanie-eidson-aa413716",
+     "location": "United States"
+    },
+    {
+     "name": "Bernardo Moisao",
+     "title": "Vice President, Demand Generation",
+     "email": "bernardo.moisao@thomsonreuters.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/bernardomoisao",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Jennifer Perez",
+     "title": "Head of Global Marketing",
+     "email": "jennifer.perez@thomsonreuters.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jennifer-l-perez",
+     "location": "Washington, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Amdocs",
+   "people": [
+    {
+     "name": "Shimie Hortig",
+     "title": "President and CEO",
+     "email": "shimieh@amdocs.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/shimie-hortig-a9181187",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Gil Rosen",
+     "title": "Chief Marketing Officer",
+     "email": "gil.rosen@amdocs.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/gilrosen",
+     "location": "Tel Aviv-Yafo, Israel"
+    },
+    {
+     "name": "Hillel Geiger",
+     "title": "VP, Head of Corporate Marketing",
+     "email": "hillel.geiger@amdocs.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/hillel-geiger-74872a2a",
+     "location": "Israel"
+    },
+    {
+     "name": "Lora Gazit",
+     "title": "Head of Demand Generation Hub",
+     "email": "lorag@amdocs.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lorag",
+     "location": "Israel"
+    }
+   ]
+  },
+  {
+   "brand": "Veeva Systems",
+   "people": [
+    {
+     "name": "Peter Gassner",
+     "title": "Founder and CEO",
+     "email": "peter.gassner@veeva.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/pgassner",
+     "location": "Pleasanton, United States"
+    },
+    {
+     "name": "Franklin Teagle",
+     "title": "VP of Global Marketing",
+     "email": "franklin.teagle@veeva.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/franklinteagle",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Katie Duzan",
+     "title": "VP of Marketing",
+     "email": "katie.duzan@veeva.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/katie-duzan-o-brien-4675362",
+     "location": "Dallas, United States"
+    },
+    {
+     "name": "Christel Rollin",
+     "title": "Senior Director Global Marketing",
+     "email": "christel.rollin@veeva.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/christel-rollin-792ab84",
+     "location": "Paris, France"
+    }
+   ]
+  },
+  {
+   "brand": "The Trade Desk",
+   "people": [
+    {
+     "name": "Jeff Green",
+     "title": "CEO",
+     "email": "jeff.green@thetradedesk.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jefftgreen",
+     "location": "Ventura, United States"
+    },
+    {
+     "name": "Sarah Gavin",
+     "title": "Chief Marketing Officer & Executive Vice President",
+     "email": "sarah.gavin@thetradedesk.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sarahgavin",
+     "location": "Seattle, United States"
+    },
+    {
+     "name": "Kristi Argyilan",
+     "title": "Chief Commercial Officer",
+     "email": "kristi.argyilan@thetradedesk.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/kristiargyilan",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Lindsay Rice",
+     "title": "Director, Global Brand Marketing",
+     "email": "lindsay.rice@thetradedesk.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lindsay-rice-4488a18",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "MongoDB",
+   "people": [
+    {
+     "name": "May Petry",
+     "title": "Chief Marketing Officer",
+     "email": "may.petry@mongodb.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/maygpetry",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Michelle Tolod",
+     "title": "Vice President Corporate Marketing",
+     "email": "michelle.tolod@mongodb.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/michelle-tolod-6440841",
+     "location": "Redwood City, United States"
+    },
+    {
+     "name": "Paul Capombassis",
+     "title": "Chief Revenue Officer MongoDB",
+     "email": "paul.capombassis@mongodb.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/paul-capombassis-3684b211",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Scott Worthington",
+     "title": "Vice President, Growth Marketing",
+     "email": "scott.worthington@mongodb.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/scotttworthington",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Automatic Data Processing",
+   "people": [
+    {
+     "name": "Kelly Welch",
+     "title": "VP Marketing Brand",
+     "email": "kelly.welch@adp.com"
+    },
+    {
+     "name": "Michael Selvaggio",
+     "title": "Vice President, Brand and Digital Marketing",
+     "email": "michael.selvaggio@adp.com"
+    },
+    {
+     "name": "Brian Pinion",
+     "title": "VICE President, Growth Marketing Operations / Chief of Staff to Sdvp, Growth Marketing",
+     "email": "brian.pinion@adp.com"
+    },
+    {
+     "name": "Brett Gardner",
+     "title": "Director Marketing Communications",
+     "email": "brett.gardner@adp.com"
+    }
+   ]
+  },
+  {
+   "brand": "Snowflake",
+   "people": [
+    {
+     "name": "Sonya Brieske",
+     "title": "Brand Marketing Manager",
+     "email": "sonya.brieske@snowflake.com"
+    },
+    {
+     "name": "Alison Maloney",
+     "title": "Director, Brand Design",
+     "email": "alison.maloney@snowflake.com"
+    },
+    {
+     "name": "Hannah Friedland",
+     "title": "Marketing Communications Specialist, Brand Writer and Editor",
+     "email": "hannah.friedland@snowflake.com"
+    },
+    {
+     "name": "Shirley Gao",
+     "title": "Marketing",
+     "email": "shirley.gao@snowflake.com"
+    }
+   ]
+  }
+ ]
+}

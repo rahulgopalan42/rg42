@@ -1,0 +1,310 @@
+{
+ "rows": [
+  {
+   "brand": "Commvault",
+   "people": [
+    {
+     "name": "Carrie Kelly",
+     "title": "VP of Global Brand & Integrated Marketing",
+     "email": "carriekelly@commvault.com"
+    },
+    {
+     "name": "Ross Camp",
+     "title": "Vice President Corporate Communications",
+     "email": "rcamp@commvault.com"
+    },
+    {
+     "name": "Laura Wilkinson",
+     "title": "Director of Field Marketing",
+     "email": "lwilkinson@commvault.com"
+    },
+    {
+     "name": "Sanjay Mirchandani",
+     "title": "President and CEO",
+     "email": "sanjay@commvault.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/sanjay-mirchandani",
+     "location": "Eatontown, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Sabre",
+   "people": [
+    {
+     "name": "Jennifer Catto",
+     "title": "Chief Marketing Officer",
+     "email": "jen.catto@sabre.com"
+    },
+    {
+     "name": "Darren Atkins",
+     "title": "Marketing Director",
+     "email": "darren.atkins@sabre.com"
+    },
+    {
+     "name": "Stephanie Maniord",
+     "title": "Director, Experiential Marketing & Marketing Operations",
+     "email": "smaniord@sabre.com"
+    },
+    {
+     "name": "Kurt Ekert",
+     "title": "President & Chief Executive Officer",
+     "email": "kurt.ekert@sabre.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kurtekert",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "Kinaxis",
+   "people": [
+    {
+     "name": "Kristin Russel",
+     "title": "Chief Marketing Officer",
+     "email": "krussel@kinaxis.com"
+    },
+    {
+     "name": "Gaurav Sharma",
+     "title": "Vice President, Corporate Marketing and Brand",
+     "email": "gsharma@kinaxis.com"
+    },
+    {
+     "name": "Ashley Morjaria",
+     "title": "Marketing Campaign Lead",
+     "email": "amorjaria@kinaxis.com"
+    },
+    {
+     "name": "Bryan Palma",
+     "title": "Director, Product Marketing",
+     "email": "bpalma@kinaxis.com"
+    }
+   ]
+  },
+  {
+   "brand": "TomTom",
+   "people": [
+    {
+     "name": "Mike Schoofs",
+     "title": "Chief Executive Officer",
+     "email": "mike.schoofs@tomtom.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mike-schoofs",
+     "location": "Mijdrecht, Netherlands"
+    },
+    {
+     "name": "Anouk Stoof",
+     "title": "Global Head of Marketing",
+     "email": "anouk.stoof@tomtom.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/anouk-stoof",
+     "location": "Amsterdam, Netherlands"
+    },
+    {
+     "name": "Tayla Drew",
+     "title": "Head of Marketing (D2C)",
+     "email": "tayla.drew@tomtom.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/tayla-drew-9aa0905a",
+     "location": "Amsterdam, Netherlands"
+    },
+    {
+     "name": "Vinod Poomalai",
+     "title": "Head of Product Marketing - Location AI",
+     "email": "vinodkumar.p@tomtom.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/vinod-kumar-poomalai",
+     "location": "Amsterdam, Netherlands"
+    }
+   ]
+  },
+  {
+   "brand": "Tenable",
+   "people": [
+    {
+     "name": "Meg O'Leary",
+     "title": "Chief Marketing Officer",
+     "email": "moleary@tenable.com"
+    },
+    {
+     "name": "Maranda Cigna",
+     "title": "Vice President, Marketing",
+     "email": "mcigna@tenable.com"
+    },
+    {
+     "name": "Steve Vintz",
+     "title": "Co-Chief Executive Officer",
+     "email": "svintz@tenable.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/steve-vintz-a6601b9",
+     "location": "Columbia, United States"
+    },
+    {
+     "name": "Dino Dimarino",
+     "title": "Chief Revenue Officer",
+     "email": "ddimarino@tenable.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/dinodimarino",
+     "location": "Boston, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Paychex",
+   "people": [
+    {
+     "name": "John Gibson",
+     "title": "President and Chief Executive Officer",
+     "email": "jbgibson1@paychex.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/johnbgibsonjr",
+     "location": "Rochester, United States"
+    },
+    {
+     "name": "Judy Gordon",
+     "title": "Vice President Marketing",
+     "email": "jgordon5@paychex.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/judyschwartzgordon",
+     "location": "Glencoe, United States"
+    },
+    {
+     "name": "Elizabeth Mertz",
+     "title": "Vice President, Segment Marketing",
+     "email": "emertz@paychex.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/elizabethmertz",
+     "location": "Rochester, United States"
+    },
+    {
+     "name": "Matt Bergantino",
+     "title": "Senior Director, Content Marketing",
+     "email": "mbergantino@paycor.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/matt-bergantino-1470284",
+     "location": "Cincinnati, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Lectra SA",
+   "people": [
+    {
+     "name": "Daniel Harari",
+     "title": "Chairman and CEO",
+     "email": "d.harari@lectra.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/daniel-harari-a5578440",
+     "location": "Paris, France"
+    },
+    {
+     "name": "Maria Modrono",
+     "title": "Chief Marketing and Communications Officer",
+     "email": "m.modrono@lectra.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/maria-modrono-2845254",
+     "location": "Paris, France"
+    },
+    {
+     "name": "Aude Reine",
+     "title": "Growth Marketing Director",
+     "email": "a.reine@lectra.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/audereine",
+     "location": "Bordeaux, France"
+    },
+    {
+     "name": "Marina Massonet",
+     "title": "Global Marketing Operations Director",
+     "email": "m.massonet@lectra.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/marina-massonet-51009753",
+     "location": "Bordeaux, France"
+    }
+   ]
+  },
+  {
+   "brand": "Clarivate",
+   "people": [
+    {
+     "name": "Matti Tov",
+     "title": "Chief Executive Officer",
+     "email": "matti.shemtov@clarivate.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/matti-shem-tov-51555a5",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Gwenan White",
+     "title": "Senior Vice President Communications & Brand",
+     "email": "gwenan.white@clarivate.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/gwenan-white-6459ab19",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Julie Carney",
+     "title": "Vice President, Brand & Voice of Customer",
+     "email": "julie.carney@clarivate.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/juliecarney",
+     "location": "Caterham, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Verisk Analytics",
+   "people": [
+    {
+     "name": "Catherine Tsai",
+     "title": "VP, Digital Strategy & Marketing Operations",
+     "email": "catherine.tsai@verisk.com"
+    },
+    {
+     "name": "Noelle Bartlett",
+     "title": "Marketing Director, Strategic Partnerships",
+     "email": "noelle.bartlett@verisk.com"
+    },
+    {
+     "name": "Doug Tangwall",
+     "title": "Director of Marketing Strategy/Marketing Strategist",
+     "email": "dtangwall@verisk.com"
+    },
+    {
+     "name": "Jessica Stanley",
+     "title": "Vice President, Brand, Creative and Extreme Events Integrated Marketing",
+     "email": "jessica.stanley@verisk.com"
+    }
+   ]
+  },
+  {
+   "brand": "Lumine Group",
+   "people": [
+    {
+     "name": "David Nyland",
+     "title": "Founder & Chief Executive Officer",
+     "email": "david.nyland@luminegroup.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/davidwnyland",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Erini Andriopoulos",
+     "title": "Senior Director, Marketing & Communications",
+     "email": "erini.andriopoulos@luminegroup.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/eriniandri",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Carlos Vasconcelos",
+     "title": "Group Chief Commercial & Marketing Officer at Lumine Group",
+     "email": "carlos.vasconcelos@luminegroup.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/carlospedrovasconcelos",
+     "location": "Lisbon, Portugal"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,326 @@
+{
+ "rows": [
+  {
+   "brand": "UCT (Ultra Clean Holdings)",
+   "people": [
+    {
+     "name": "James Xiao",
+     "title": "Chief Executive Officer",
+     "email": "james.xiao@uct.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/james-xiao-a924757",
+     "location": "San Jose, CA, USA"
+    },
+    {
+     "name": "Chris Cook",
+     "title": "President, Chief Business Officer",
+     "email": "chris.cook@uct.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/contactcook",
+     "location": "Pleasanton, CA, USA"
+    },
+    {
+     "name": "Guy Morgenstern",
+     "title": "VP Marketing & Product Line Management",
+     "email": "guym@uct.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/guy-morgenstern-29678b51",
+     "location": "Israel"
+    },
+    {
+     "name": "Sarit Tordjman",
+     "title": "Director of Marketing Communications, UCT Fluid Solutions",
+     "email": "sarit.tordjman@uct.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/sarit-tordjman",
+     "location": "Haifa District, Israel"
+    }
+   ]
+  },
+  {
+   "brand": "Rambus",
+   "people": [
+    {
+     "name": "Matt Jones",
+     "title": "Vice President of Strategic Marketing",
+     "email": "mjones@rambus.com"
+    },
+    {
+     "name": "Sebastien Bertrand",
+     "title": "VP Marketing & Operations, Silicon IP BU",
+     "email": "sbertrand@rambus.com"
+    },
+    {
+     "name": "Raj Uppala",
+     "title": "Senior Director - Marketing & Partnerships",
+     "email": "auppala@rambus.com"
+    },
+    {
+     "name": "Tim Messegee",
+     "title": "Senior Director, Solutions Marketing",
+     "email": "timm@rambus.com"
+    }
+   ]
+  },
+  {
+   "brand": "Silicon Labs",
+   "people": [
+    {
+     "name": "Matt Johnson",
+     "title": "President and CEO",
+     "email": "matt.johnson@silabs.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mattjohnson6",
+     "location": "Austin, TX, USA"
+    },
+    {
+     "name": "Brandon Tolany",
+     "title": "SVP Worldwide Sales and Marketing",
+     "email": "brandon.tolany@silabs.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/brandontolany",
+     "location": "Austin, TX, USA"
+    },
+    {
+     "name": "John Dixon",
+     "title": "VP Marketing & Sales",
+     "email": "john.dixon@silabs.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/john-dixon-851446",
+     "location": "Austin, TX, USA"
+    },
+    {
+     "name": "Alisha Perkins",
+     "title": "Director Corporate Marketing",
+     "email": "alisha.perkins@silabs.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/alishaperkins",
+     "location": "Austin, TX, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Allegro MicroSystems",
+   "people": [
+    {
+     "name": "Cao Hongyu",
+     "title": "Marketing Manager",
+     "email": "hcao@allegromicro.com"
+    },
+    {
+     "name": "Tom Bateman",
+     "title": "Marketing Manager",
+     "email": "tbateman@allegromicro.com"
+    },
+    {
+     "name": "Zachary Byron",
+     "title": "Manager, Digital Marketing & Marketing Operations",
+     "email": "zbyron@allegromicro.com"
+    },
+    {
+     "name": "Stephen Daly",
+     "title": "Strategic Marketing Manager",
+     "email": "sdaly@allegromicro.com"
+    }
+   ]
+  },
+  {
+   "brand": "Cirrus Logic",
+   "people": [
+    {
+     "name": "John Forsyth",
+     "title": "CEO at Cirrus Logic",
+     "email": "john.forsyth@cirrus.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/johnmforsyth",
+     "location": "Austin, TX, USA"
+    },
+    {
+     "name": "Duncan Macadie",
+     "title": "Director, Product Marketing",
+     "email": "duncan.macadie@cirrus.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/duncan-macadie-52363b7",
+     "location": "Edinburgh, UK"
+    },
+    {
+     "name": "Adele Marchand",
+     "title": "Director of North America Semiconductor Sales & Marketing",
+     "email": "adele.marchand@cirrus.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/adele-marchand-57b053227",
+     "location": "United States"
+    },
+    {
+     "name": "Julia Betts",
+     "title": "Corporate Communications and Employee Experience Leader",
+     "email": "julia.betts@cirrus.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/julia-betts",
+     "location": "Austin, TX, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Tower Semiconductor",
+   "people": [
+    {
+     "name": "Noit Levy",
+     "title": "SVP of Human Resources, Investor Relations and Corporate Communications",
+     "email": "noitle@towersemi.com"
+    },
+    {
+     "name": "Marco Racanelli",
+     "title": "President",
+     "email": "marco.racanelli@towersemi.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/marco-racanelli-5333965",
+     "location": "Santa Ana, United States"
+    },
+    {
+     "name": "Todd Mahlen",
+     "title": "Corporate Marketing Officer",
+     "email": "todd.mahlen@towersemi.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/todd-mahlen-a547ab6",
+     "location": "Trabuco Canyon, United States"
+    },
+    {
+     "name": "Limor Silberberg",
+     "title": "PR & MarCom Israel and Europe",
+     "email": "limorsi@towersemi.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/limor-silberberg-bba45461",
+     "location": "Acre, Israel"
+    }
+   ]
+  },
+  {
+   "brand": "ASMPT (ASM Pacific Technology)",
+   "people": [
+    {
+     "name": "Wee Eugene",
+     "title": "Marketing Director",
+     "email": "eugene.wee@asmpt.com"
+    },
+    {
+     "name": "Chris Yeung",
+     "title": "Product Marketing Director",
+     "email": "chris.yeung@asmpt.com"
+    },
+    {
+     "name": "Susanne Oswald",
+     "title": "Director Corporate Communications Content & Campaigns",
+     "email": "susanne.oswald@asmpt.com"
+    },
+    {
+     "name": "Bassel Haddad",
+     "title": "Group Chief Executive Officer",
+     "email": "bassel.haddad@asmpt.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/bassel-haddad-565b955",
+     "location": "Singapore"
+    }
+   ]
+  },
+  {
+   "brand": "Melexis NV",
+   "people": [
+    {
+     "name": "Marc Biron",
+     "title": "Chief Executive Officer",
+     "email": "mbi@melexis.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/marc-biron-8a30b53",
+     "location": "Li\u00e8ge, Belgium"
+    },
+    {
+     "name": "Klaus Wilczek",
+     "title": "Global Marketing Director and Applications Engineering Manager - BU Postion Sensors",
+     "email": "klaus.wilczek@melexis.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/klaus-wilczek-b5629429",
+     "location": "Belgium"
+    },
+    {
+     "name": "Katya Hristova",
+     "title": "External Communications Lead",
+     "email": "katya.hristova@melexis.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/katya-hristova-5ba78050",
+     "location": "Bulgaria"
+    },
+    {
+     "name": "Daphne Sannen",
+     "title": "External Communications Manager",
+     "email": "dhp@melexis.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/daphnesannen",
+     "location": "Hasselt, Belgium"
+    }
+   ]
+  },
+  {
+   "brand": "Wolfspeed",
+   "people": [
+    {
+     "name": "Sonja Burfeind",
+     "title": "VP Global Communications - Corporate & Marketing",
+     "email": "sonja.burfeind@wolfspeed.com"
+    },
+    {
+     "name": "Marcel Knecht",
+     "title": "Senior Director Application Marketing",
+     "email": "mknecht@cree.com"
+    },
+    {
+     "name": "Mitchell Rothrock",
+     "title": "Director, Web & Digital Marketing",
+     "email": "mitchell.rothrock@wolfspeed.com"
+    },
+    {
+     "name": "Andrea Colognese",
+     "title": "Sr Director Automotive Product Marketing",
+     "email": "acolognese@cree.com"
+    }
+   ]
+  },
+  {
+   "brand": "VAT Group",
+   "people": [
+    {
+     "name": "Urs Gantner",
+     "title": "CEO",
+     "email": "u.gantner@vat.ch",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/urs-gantner-4ba535177",
+     "location": "Switzerland"
+    },
+    {
+     "name": "Michael Young",
+     "title": "President of Asia, Sales and Marketing",
+     "email": "michael.young@vatvalve.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/memsyoung",
+     "location": "Shanghai, China"
+    },
+    {
+     "name": "Joel John",
+     "title": "Communications and Branding Manager",
+     "email": "joel.john@vatgroup.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/joel-john",
+     "location": "Bayan Lepas, Penang, Malaysia"
+    },
+    {
+     "name": "Stacy Gerrity",
+     "title": "Marketing & Communications",
+     "email": "sgerrity@vatvalve.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/stacy-l-gerrity-40239939",
+     "location": "San Jose, CA, USA"
+    }
+   ]
+  }
+ ]
+}

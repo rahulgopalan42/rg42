@@ -1,0 +1,330 @@
+{
+ "rows": [
+  {
+   "brand": "Sprinklr",
+   "people": [
+    {
+     "name": "Rory Read",
+     "title": "President and CEO",
+     "email": "rory.read@sprinklr.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rory-read-2433218",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Arun Pattabhiraman",
+     "title": "Chief Marketing Officer",
+     "email": "arun.pattabhiraman@sprinklr.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/arunpattabhiraman",
+     "location": "Bengaluru, India"
+    },
+    {
+     "name": "Sarah Stansberry",
+     "title": "Chief Marketing Officer",
+     "email": "sarah.stansberry@sprinklr.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/sarah-stansberry",
+     "location": "Alpharetta, United States"
+    },
+    {
+     "name": "Sally Egan",
+     "title": "Vice President, Field Marketing and Global Events",
+     "email": "sally.egan@sprinklr.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/monikermarketing",
+     "location": "Philadelphia, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Topicus",
+   "people": [
+    {
+     "name": "Daan Dijkhuizen",
+     "title": "Chief Executive Officer",
+     "email": "daan.dijkhuizen@topicus.nl",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/daandijkhuizen",
+     "location": "Amsterdam, Netherlands"
+    },
+    {
+     "name": "Liesbeth Platvoet",
+     "title": "Head of Marketing",
+     "email": "liesbeth.platvoet@topicus.nl",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/liesbethplatvoet",
+     "location": "Deventer, Netherlands"
+    },
+    {
+     "name": "Jesse Lensen",
+     "title": "Head of Marketing & Employer Branding",
+     "email": "jesse.lensen@topicus.nl",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jesselensen",
+     "location": "Harderwijk, Netherlands"
+    }
+   ]
+  },
+  {
+   "brand": "Bentley Systems",
+   "people": [
+    {
+     "name": "Nicholas Cumins",
+     "title": "Chief Executive Officer",
+     "email": "nicholas.cumins@bentley.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ncumins",
+     "location": "France"
+    },
+    {
+     "name": "Cate Lochead",
+     "title": "CMO",
+     "email": "cate.lochead@bentley.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/clochead",
+     "location": "Denver, United States"
+    },
+    {
+     "name": "Fiona Guest",
+     "title": "VP of Field Marketing",
+     "email": "fiona.guest@bentley.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/fguest1",
+     "location": "Ireland"
+    },
+    {
+     "name": "Sheila Morrison",
+     "title": "Director, Brand Strategy",
+     "email": "sheila.morrison@bentley.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/sheilachristinemorrison",
+     "location": "United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Varonis Systems",
+   "people": [
+    {
+     "name": "Rob Sobers",
+     "title": "Chief Marketing Officer",
+     "email": "rsobers@varonis.com"
+    },
+    {
+     "name": "Madeline Condron",
+     "title": "Senior Director of Brand and Integrated Marketing",
+     "email": "mcondron@varonis.com"
+    },
+    {
+     "name": "Rebekah McAdams",
+     "title": "Vice President, Global Field, Partner, and Corporate Events Marketing",
+     "email": "rmcadams@varonis.com"
+    },
+    {
+     "name": "Alexa Kusovitsky",
+     "title": "Director of Strategic Marketing Programs",
+     "email": "akusovitsky@varonis.com"
+    }
+   ]
+  },
+  {
+   "brand": "Manhattan Associates",
+   "people": [
+    {
+     "name": "Katie Foote",
+     "title": "Chief Marketing Officer",
+     "email": "kfoote@manh.com"
+    },
+    {
+     "name": "Chris Shaw",
+     "title": "Vice President of Solution Marketing, Partner Marketing & Analyst Relations",
+     "email": "cshaw@manh.com"
+    },
+    {
+     "name": "Liz Sophia",
+     "title": "VP, Field Marketing",
+     "email": "lsophia@manh.com"
+    },
+    {
+     "name": "Justin Keller",
+     "title": "VP of Brand, Creative, and Content",
+     "email": "jkeller@manh.com"
+    }
+   ]
+  },
+  {
+   "brand": "JFrog",
+   "people": [
+    {
+     "name": "Shlomi Haim",
+     "title": "Co-Founder and CEO",
+     "email": "shlomib@jfrog.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/shlomibenhaim",
+     "location": "Los Altos, United States"
+    },
+    {
+     "name": "Genefa Murphy",
+     "title": "Chief Marketing Officer",
+     "email": "genefam@jfrog.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/genefamurphy",
+     "location": "San Jose, United States"
+    },
+    {
+     "name": "Vanessa Rodriguez",
+     "title": "Senior Director of Growth Marketing",
+     "email": "vanessar@jfrog.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/vanessamacedo1108",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Sivan Neumann",
+     "title": "Director of Demand Generation",
+     "email": "sivann@jfrog.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/sivan-neumann-655450b7",
+     "location": "Israel"
+    }
+   ]
+  },
+  {
+   "brand": "Braze",
+   "people": [
+    {
+     "name": "Bill Magnuson",
+     "title": "Co-founder, CEO",
+     "email": "bill@braze.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/billmagnuson",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Patrick Holly",
+     "title": "VP, Brand + Creative",
+     "email": "patrick.holly@braze.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/patrickholly",
+     "location": "Austin, United States"
+    },
+    {
+     "name": "Ural Cebeci",
+     "title": "Vice President Marketing, Global Demand Generation",
+     "email": "ural.cebeci@braze.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/uralcebeci",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Brian Laker",
+     "title": "Senior Director, Global Industry Marketing",
+     "email": "brian.laker@braze.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/brianlaker",
+     "location": "Dallas, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Qualys",
+   "people": [
+    {
+     "name": "May Mitchell",
+     "title": "CMO",
+     "email": "mmitchell@qualys.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/maymitchell",
+     "location": "San Jose, United States"
+    },
+    {
+     "name": "Vivek Bhandari",
+     "title": "Vice President of Product Marketing and GTM Strategy",
+     "email": "vibhandari@qualys.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/vivekbhandari",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Rachel Shimanski",
+     "title": "Global Partner Marketing Director",
+     "email": "rshimanski@qualys.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/rachelshimanski",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Christopher Morlan",
+     "title": "Brand Creative Director",
+     "email": "cmorlan@qualys.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/cmorlan",
+     "location": "Alameda, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Fastly",
+   "people": [
+    {
+     "name": "Joan Jenkins",
+     "title": "CMO",
+     "email": "joan.jenkins@fastly.com"
+    },
+    {
+     "name": "Mariah Petrovic",
+     "title": "Content Marketing Director",
+     "email": "mariah.petrovic@fastly.com"
+    },
+    {
+     "name": "Sean Branton",
+     "title": "Director, Marketing Analytics",
+     "email": "sean.branton@fastly.com"
+    },
+    {
+     "name": "Katie Slad",
+     "title": "Head of Global Brand Design",
+     "email": "kslad@fastly.com"
+    }
+   ]
+  },
+  {
+   "brand": "DoubleVerify",
+   "people": [
+    {
+     "name": "Mark Zagorski",
+     "title": "Chief Executive Officer",
+     "email": "mark.zagorski@doubleverify.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/markzagorski",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Dan Slivjanovski",
+     "title": "Chief Marketing Officer",
+     "email": "dan.slivjanovski@doubleverify.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/danslivjanovski",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Steve Mougis",
+     "title": "Global Chief Commercial Officer",
+     "email": "steve.mougis@doubleverify.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/stevemougis",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Katia Mar",
+     "title": "Senior Vice President Marketing, Global Strategy, Product and Field Marketing",
+     "email": "katia.mar@doubleverify.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/katiamar",
+     "location": "New York, United States"
+    }
+   ]
+  }
+ ]
+}

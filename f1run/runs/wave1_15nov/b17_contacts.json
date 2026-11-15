@@ -1,0 +1,335 @@
+{
+ "rows": [
+  {
+   "brand": "Sectra AB",
+   "people": [
+    {
+     "name": "Torbjorn Kronander",
+     "title": "President and CEO",
+     "email": "torbjorn.kronander@sectra.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/torbj%c3%b6rn-kronander-4ab6437",
+     "location": "Linkoeping, Sweden"
+    },
+    {
+     "name": "Lisa Everhill",
+     "title": "Chief People and Brand Officer",
+     "email": "lisa.everhill@sectra.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/leverhill",
+     "location": "Linkoeping, Sweden"
+    },
+    {
+     "name": "Brooke Incontrera",
+     "title": "Vice President of Marketing",
+     "email": "brooke.incontrera@sectra.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/brooke-gittings-incontrera-a327761",
+     "location": "Baltimore, United States"
+    },
+    {
+     "name": "Nadina Gurdic",
+     "title": "Global Director Sales and Marketing Operations",
+     "email": "nadina.gurdic@sectra.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/nadina-gurdic-a889243b",
+     "location": "Norrkoeping, Sweden"
+    }
+   ]
+  },
+  {
+   "brand": "BlackLine",
+   "people": [
+    {
+     "name": "Emily Campbell",
+     "title": "Chief Marketing Officer",
+     "email": "emily.campbell@blackline.com"
+    },
+    {
+     "name": "Hazel Resurreccion-Cobb",
+     "title": "Global Director, Growth Marketing",
+     "email": "hazel.cobb@blackline.com"
+    },
+    {
+     "name": "Lucie Clayton",
+     "title": "Global Senior Marketing Director, Strategic Brand",
+     "email": "lucie.clayton@blackline.com"
+    },
+    {
+     "name": "Owen Ryan",
+     "title": "Chief Executive Officer",
+     "email": "owen.ryan@blackline.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/owenryan1",
+     "location": "Bernards, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Enghouse Systems",
+   "people": [
+    {
+     "name": "Steve Sadler",
+     "title": "Chairman and CEO",
+     "email": "steve.sadler@enghouse.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/steve-sadler-9a1401327",
+     "location": "Markham, Canada"
+    },
+    {
+     "name": "Chandan Mehta",
+     "title": "Vice President Product Marketing",
+     "email": "chandan.mehta@enghouse.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/1chandanmehta",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Balvinder Sandhu",
+     "title": "Director, Global Marketing & Demand Generation, Networks & Transportation",
+     "email": "balvinder.sandhu@enghouse.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/balvindersandhu",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Sylvain Awad",
+     "title": "Director Demand Generation, Vidyo",
+     "email": "sylvain.awad@enghouse.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/sylvainawad",
+     "location": "Mount Royal, Canada"
+    }
+   ]
+  },
+  {
+   "brand": "HCL Technologies",
+   "people": [
+    {
+     "name": "Vijayakumar C",
+     "title": "CEO & Managing Director, HCLTech",
+     "email": "vijayakumar_c@hcltech.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/vijayakumar-c-hcl",
+     "location": "United States"
+    },
+    {
+     "name": "Jill Kouri",
+     "title": "Chief Marketing Officer",
+     "email": "jill.kouri@hcltech.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jill-kouri-40b647",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Vinod Iyer",
+     "title": "Vice President, Global Head of Marketing",
+     "email": "vinodkrishna.ravii@hcltech.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/vinodkraviiyer",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Abhishek Atree",
+     "title": "Associate Vice President, Global Lead, Brand and Sports Marketing",
+     "email": "abhisheka@hcltech.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/abhishek-atree-7381477",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Capgemini",
+   "people": [
+    {
+     "name": "Aiman Ezzat",
+     "title": "CEO, Capgemini Group",
+     "email": "aiman.ezzat@capgemini.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/aiman-ezzat",
+     "location": "Paris, France"
+    },
+    {
+     "name": "Sarah Thomas",
+     "title": "Group Chief Marketing Officer, EVP",
+     "email": "sarah.thomas@capgemini.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/drsarahthomas",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Benjamin Drevs",
+     "title": "Global Head of Marketing and Communications, Performance & Technology",
+     "email": "benjamin.drevs@capgemini.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/benjamin-drevs-3319b54",
+     "location": "Hanover, Germany"
+    },
+    {
+     "name": "Amit Khurana",
+     "title": "Sr. Director; Head of Brand, Employer Brand & Sports Sponsorship",
+     "email": "amit.khurana@capgemini.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/amitkhuranaiitr",
+     "location": "Bengaluru, India"
+    }
+   ]
+  },
+  {
+   "brand": "Fujitsu",
+   "people": [
+    {
+     "name": "Raj Menon",
+     "title": "Chief Marketing Officer",
+     "email": "raj.menon@fujitsu.com"
+    },
+    {
+     "name": "Chiho Goto",
+     "title": "VP, Head of Strategic Communications",
+     "email": "goto.chiho@fujitsu.com"
+    },
+    {
+     "name": "Hiroyuki Yokokawa",
+     "title": "Head of Corporate Marketing",
+     "email": "yokokawa.hiro@fujitsu.com"
+    },
+    {
+     "name": "Toni Koberling",
+     "title": "Marketing Director, Global Head of Brand Identity",
+     "email": "toni.koberling@fujitsu.com"
+    }
+   ]
+  },
+  {
+   "brand": "Teleperformance",
+   "people": [
+    {
+     "name": "Luciana Aguiar",
+     "title": "Global Chief Marketing Officer",
+     "email": "luciana.cemerka@teleperformance.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/lucianacemerka",
+     "location": "Sao Paulo, Brazil"
+    },
+    {
+     "name": "Susan Richards",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "susan.richards@tp.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/susan-richards-a454983a",
+     "location": "Delray Beach, United States"
+    },
+    {
+     "name": "Leslie Kostrikin",
+     "title": "EVP, Marketing",
+     "email": "leslie.kostrikin@tp.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/lesliesurley",
+     "location": "El Dorado Hills, United States"
+    },
+    {
+     "name": "Vitor Duarte",
+     "title": "Head of Global Strategic Marketing",
+     "email": "vitor.duarte@tp.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/vitorrduarrte",
+     "location": "Sao Paulo, Brazil"
+    }
+   ]
+  },
+  {
+   "brand": "CGI",
+   "people": [
+    {
+     "name": "Susan Daoud",
+     "title": "Global Editorial Director, Brand & External Communications",
+     "email": "susan.daoud@cgi.com"
+    },
+    {
+     "name": "Allie Sabo",
+     "title": "Director Marketing Communications",
+     "email": "allie.sabo@cgi.com"
+    },
+    {
+     "name": "Susan Balding",
+     "title": "Senior Vice President & Global Head of Marketing & Communications",
+     "email": "susan.balding@cgi.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/susanbalding",
+     "location": "Baltimore, United States"
+    },
+    {
+     "name": "Isabelle Camus",
+     "title": "Director, Head of Global Marketing Industries",
+     "email": "isabelle.camus@cgi.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/isabelle-camus-dellal",
+     "location": "Toulouse, France"
+    }
+   ]
+  },
+  {
+   "brand": "Gartner",
+   "people": [
+    {
+     "name": "Alex Sun",
+     "title": "Group Vice President, Global Marketing",
+     "email": "alex.sun@gartner.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/alexsun",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Sagar Jain",
+     "title": "Managing Vice President - Global Marketing",
+     "email": "sagar.jain@gartner.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sagar-jain-gartner",
+     "location": "Gurugram, India"
+    },
+    {
+     "name": "Melanie Yamada",
+     "title": "Managing Vice President, Marketing",
+     "email": "melanie.yamada@gartner.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/melanieying",
+     "location": "Portland, United States"
+    },
+    {
+     "name": "Burcu Acarlar",
+     "title": "Head of Brand",
+     "email": "burcu.acarlar@gartner.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/burcuacarlar",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Genpact",
+   "people": [
+    {
+     "name": "Partho Bhattacharjee",
+     "title": "AVP - Head of Marketing Technology and Channel Operations",
+     "email": "parthosarathi.bhattacharjee@genpact.com"
+    },
+    {
+     "name": "Amarjeet Rajput",
+     "title": "Strategy & Growth Leader",
+     "email": "amarjeet.rajput@genpact.com"
+    },
+    {
+     "name": "Michael Schneider",
+     "title": "Vice President of Communications, Office of the CEO",
+     "email": "michael.schneider@genpact.com"
+    },
+    {
+     "name": "Aadrit Kashyap",
+     "title": "Commercial Growth Leader",
+     "email": "aadrit.kashyap@genpact.com"
+    }
+   ]
+  }
+ ]
+}

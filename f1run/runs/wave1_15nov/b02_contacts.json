@@ -1,0 +1,315 @@
+{
+ "rows": [
+  {
+   "brand": "Seagate Technology",
+   "people": [
+    {
+     "name": "Paul Langston",
+     "title": "Senior Director, Brand Marketing",
+     "email": "paul.langston@seagate.com"
+    },
+    {
+     "name": "Glen Roberts",
+     "title": "Sales & Marketing Leader",
+     "email": "glen.roberts@seagate.com"
+    },
+    {
+     "name": "Farrah Cox",
+     "title": "Vice President of Corporate Marketing",
+     "email": "farrah.cox@seagate.com"
+    },
+    {
+     "name": "Lance Ohara",
+     "title": "Vice President, Consumer and oem Marketing",
+     "email": "lance.ohara@seagate.com"
+    }
+   ]
+  },
+  {
+   "brand": "Western Digital",
+   "people": [
+    {
+     "name": "Douglas Pickford",
+     "title": "Sr. Director, Marketing",
+     "email": "douglas.pickford@hgst.com"
+    }
+   ]
+  },
+  {
+   "brand": "Foxconn (Hon Hai Precision Industry)",
+   "people": [
+    {
+     "name": "Michael Chang",
+     "title": "Chief Executive Officer",
+     "email": "michael.chang@foxconn.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/michael-chang-11025213a",
+     "location": "Taipei City, Taiwan"
+    },
+    {
+     "name": "Jacob Chen",
+     "title": "Vice Chairman",
+     "email": "jacob.chen@foxconn.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jacob-chen-a43a76101",
+     "location": "Missouri City, TX, USA"
+    },
+    {
+     "name": "Edward Wu",
+     "title": "Engineering Marketing & Sales Head",
+     "email": "edward.wu@foxconn.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/edward-wu-255190a",
+     "location": "Taipei, Taiwan"
+    },
+    {
+     "name": "Jack Chen",
+     "title": "Sales/Marketing Director",
+     "email": "jack.chen@fit-foxconn.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jack-chen-41644710",
+     "location": "Santa Clara, CA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Digital Realty",
+   "people": [
+    {
+     "name": "Mathew Donoghue",
+     "title": "Chief Marketing Officer",
+     "email": "mdonoghue@digitalrealty.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mathewdonoghue01",
+     "location": "New York, NY, USA"
+    },
+    {
+     "name": "Colin McLean",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "cmclean@digitalrealty.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/colin-mclean",
+     "location": "Austin, TX, USA"
+    },
+    {
+     "name": "Selcan Findikoglu",
+     "title": "Director, Global Brand and Corporate Communications",
+     "email": "sfindikoglu@digitalrealty.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/selcan-f-a1b768157",
+     "location": "London, UK"
+    },
+    {
+     "name": "Amy Mann",
+     "title": "Sr. Director, Growth Marketing & Campaigns",
+     "email": "amann@digitalrealty.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/amy-m-0106321a",
+     "location": "Austin, TX, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Modine Manufacturing",
+   "people": [
+    {
+     "name": "Metin Tasdelen",
+     "title": "Head of Sales and Marketing",
+     "email": "metin.tasdelen@modine.com"
+    },
+    {
+     "name": "Craig Grohman",
+     "title": "Director OEM Coils Sales & Marketing",
+     "email": "c.c.grohman@na.modine.com"
+    },
+    {
+     "name": "Alesia Sargent",
+     "title": "Marketing Specialist",
+     "email": "alesia.c.sargent@modine.com"
+    },
+    {
+     "name": "Ashley Conley",
+     "title": "Corporate Marketing Manager",
+     "email": "ashley.m.conley@modine.com"
+    }
+   ]
+  },
+  {
+   "brand": "Everpure",
+   "people": [
+    {
+     "name": "Cheryl Hayes",
+     "title": "VP, Growth Marketing",
+     "email": "chayes@purestorage.com"
+    },
+    {
+     "name": "Susie Hamlin",
+     "title": "VP Corporate Marketing & Brand",
+     "email": "shamlin@purestorage.com"
+    },
+    {
+     "name": "Laurie Wagner",
+     "title": "Vice President, Marketing Operations and Strategy",
+     "email": "lcremonawagner@purestorage.com"
+    },
+    {
+     "name": "Kindra Lewis",
+     "title": "Director, Marketing Orchestration & Audience Strategy",
+     "email": "klewis@everpuredata.com"
+    }
+   ]
+  },
+  {
+   "brand": "Quanta Computer",
+   "people": [
+    {
+     "name": "Jason Yang",
+     "title": "Director of Sales Marketing",
+     "email": "jason.yang@quantatw.com"
+    },
+    {
+     "name": "Sean Wang",
+     "title": "Senior Director of Sales and Marketing",
+     "email": "sean.wang@quantatw.com"
+    },
+    {
+     "name": "Veronica Lin",
+     "title": "Associate Director Sales Marketing",
+     "email": "veronica.lin@quantatw.com"
+    },
+    {
+     "name": "Ling-Ya Liu",
+     "title": "Product Marketing",
+     "email": "ling-ya.liu@quantatw.com"
+    }
+   ]
+  },
+  {
+   "brand": "Celestica",
+   "people": [
+    {
+     "name": "Rob Mionis",
+     "title": "Chair and CEO at Celestica",
+     "email": "rob@celestica.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rob-mionis-6323656",
+     "location": "Boston, MA, USA"
+    },
+    {
+     "name": "Pam White",
+     "title": "Head and Senior Director, Global Brand and Marketing Communications",
+     "email": "pamw@celestica.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/whitepam",
+     "location": "Toronto, ON, Canada"
+    },
+    {
+     "name": "Andy Winslow",
+     "title": "Director, Marketing",
+     "email": "awinslow@celestica.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/andy-winslow-1533aa7",
+     "location": "Londonderry, NH, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Wistron Corporation",
+   "people": [
+    {
+     "name": "Alex Chiu",
+     "title": "Director of Sales and Marketing",
+     "email": "alex_chiu@wistron.com"
+    },
+    {
+     "name": "Nick Wang",
+     "title": "Marketing Director",
+     "email": "nick_wang@wistron.com"
+    },
+    {
+     "name": "Kay Li",
+     "title": "Marketing Director",
+     "email": "kay_li@wistron.com"
+    },
+    {
+     "name": "Robert Hwang",
+     "title": "CEO",
+     "email": "robert_hwang@wistron.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/robert-hwang-7543ab",
+     "location": "Taiwan"
+    }
+   ]
+  },
+  {
+   "brand": "Accton Technology",
+   "people": [
+    {
+     "name": "Ray Huang",
+     "title": "Head of Marketing Communications",
+     "email": "ray_huang@accton.com"
+    },
+    {
+     "name": "Joanne Hsu",
+     "title": "Corpporate Marketing Manager",
+     "email": "hsu.joanne@accton.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/joanne-hsu-231b674",
+     "location": "Taiwan"
+    }
+   ]
+  },
+  {
+   "brand": "Wiwynn",
+   "people": [
+    {
+     "name": "Jenny Chew",
+     "title": "Marketing",
+     "email": "jenny_chew@wiwynn.com"
+    },
+    {
+     "name": "Jason Chen",
+     "title": "Communications Exec., Corporate Comms",
+     "email": "jason_cs_chen@wiwynn.com"
+    }
+   ]
+  },
+  {
+   "brand": "Forgent Power Solutions",
+   "people": [
+    {
+     "name": "Gary Niederpruem",
+     "title": "Chief Executive Officer",
+     "email": "gary.niederpruem@forgentpower.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/gniederpruem",
+     "location": "Columbus, OH, USA"
+    },
+    {
+     "name": "Bobby Rogers",
+     "title": "Chief Commercial Officer",
+     "email": "bobby.rogers@forgentpower.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/bobbyrogers",
+     "location": "Louisville, KY, USA"
+    },
+    {
+     "name": "Abdul Idris",
+     "title": "VP Strategic Marketing",
+     "email": "abdul.idris@forgentpower.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/aidris-dm",
+     "location": "Ellicott City, MD, USA"
+    },
+    {
+     "name": "Massimo Nardi",
+     "title": "VP of Sales and Marketing",
+     "email": "massimo.nardi@forgentpower.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/nardim",
+     "location": "Boston, MA, USA"
+    }
+   ]
+  }
+ ]
+}

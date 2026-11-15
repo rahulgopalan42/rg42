@@ -1,0 +1,297 @@
+{
+ "rows": [
+  {
+   "brand": "United Microelectronics",
+   "people": [
+    {
+     "name": "Michael Chan",
+     "title": "Technical Deputy Director of Product Marketing",
+     "email": "michael_chan@umc.com"
+    },
+    {
+     "name": "Jenny Yeh",
+     "title": "Communications Manager",
+     "email": "jenny_yeh@umc.com"
+    },
+    {
+     "name": "Michelle Yun",
+     "title": "Corporate Communications Manager",
+     "email": "michelle_yun@umc.com"
+    }
+   ]
+  },
+  {
+   "brand": "GlobalFoundries",
+   "people": [
+    {
+     "name": "Nancy Kelly",
+     "title": "Chief Marketing & Communications Officer",
+     "email": "nancy.kelly@gf.com"
+    },
+    {
+     "name": "Ankush Gupta",
+     "title": "Vice President, Power Product Management and Marketing",
+     "email": "ankush.gupta@gf.com"
+    },
+    {
+     "name": "Robert Rich",
+     "title": "Director of Marketing",
+     "email": "robert.rich@gf.com"
+    },
+    {
+     "name": "Sally Montgomery",
+     "title": "Head of Executive and Employee Communications",
+     "email": "sally.montgomery@gf.com"
+    }
+   ]
+  },
+  {
+   "brand": "Vishay Intertechnology",
+   "people": [
+    {
+     "name": "Melissa Day",
+     "title": "Global Marketing Communications Leader",
+     "email": "melissa.day@vishay.com"
+    },
+    {
+     "name": "Charles Pothier",
+     "title": "VP Marketing",
+     "email": "charles.pothier@vishay.com"
+    },
+    {
+     "name": "Joel Smejkal",
+     "title": "President and Chief Executive Officer",
+     "email": "joel.smejkal@vishay.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/joel-smejkal-5b363440",
+     "location": "Columbus, United States"
+    },
+    {
+     "name": "Olaf Luethje",
+     "title": "Sr Vice President CRM and Marketing Operations",
+     "email": "olaf.luethje@vishay.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/olaf-luethje-40471429",
+     "location": "Heide, Germany"
+    }
+   ]
+  },
+  {
+   "brand": "Fabrinet",
+   "people": [
+    {
+     "name": "Coynne Robbins",
+     "title": "Sales & Marketing Operations Manager",
+     "email": "coynner@fabrinet.com"
+    },
+    {
+     "name": "Seamus Grady",
+     "title": "Chief Executive Officer",
+     "email": "seamus.grady@fabrinet.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/seamus-grady-45764120",
+     "location": "San Jose, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Qnity Electronics",
+   "people": [
+    {
+     "name": "Alan Siu",
+     "title": "Global Marketing Director",
+     "email": "alan.siu@qnityelectronics.com"
+    },
+    {
+     "name": "Payal Patra",
+     "title": "Digital Marketing Lead",
+     "email": "payal.patra@qnityelectronics.com"
+    },
+    {
+     "name": "Seokho Kang",
+     "title": "Global Strategic Planning and Marketing Director, Semiconductor Technologies",
+     "email": "seokho.kang@qnityelectronics.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/seokho-steven-kang-8a737914",
+     "location": "Wilmington, United States"
+    },
+    {
+     "name": "Guillaume Derron",
+     "title": "Global Marketing Director CMPT",
+     "email": "guillaume.derron@qnityelectronics.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/guillaume-derron-93a02a6",
+     "location": "Taiwan"
+    }
+   ]
+  },
+  {
+   "brand": "MKS Instruments",
+   "people": [
+    {
+     "name": "David Henry",
+     "title": "Executive Vice President Global Strategic Marketing & General Manager Materials Solutions Division",
+     "email": "dhenry@mksinst.com"
+    },
+    {
+     "name": "Bill Casey",
+     "title": "Vice President Marketing",
+     "email": "bill.casey@mks.com"
+    },
+    {
+     "name": "Susan Corliss",
+     "title": "Senior Director, Global Communications",
+     "email": "susan.corliss@mksinst.com"
+    },
+    {
+     "name": "Maryann Naddy",
+     "title": "Senior Director Corporate Marketing",
+     "email": "maryann.naddy@mks.com"
+    }
+   ]
+  },
+  {
+   "brand": "ASM International",
+   "people": [
+    {
+     "name": "Vamsi Paruchuri",
+     "title": "Corporate Vice President, Technology Innovation and Market Research",
+     "email": "vamsi.paruchuri@asm.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/vamsiparuchuri",
+     "location": "Phoenix, AZ, USA"
+    },
+    {
+     "name": "Jonathan Bakke",
+     "title": "Corporate Director, Head of Corporate & Strategic Marketing",
+     "email": "jonathan.bakke@asm.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jrbakke",
+     "location": "Phoenix, AZ, USA"
+    },
+    {
+     "name": "Klara Zakis",
+     "title": "Senior Director Global Marketing and Communications",
+     "email": "klara.zakis@asm.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/klara-zakis",
+     "location": "Amsterdam, Netherlands"
+    }
+   ]
+  },
+  {
+   "brand": "Realtek",
+   "people": [
+    {
+     "name": "Mike Huang",
+     "title": "Senior Chief Officer of International Marketing & Sales",
+     "email": "mike_huang@realtek.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mike-huang-202b2620",
+     "location": "Taiwan"
+    },
+    {
+     "name": "Yong Kim",
+     "title": "Marketing Director",
+     "email": "yong.kim@realtek.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/yong-kim-20612088",
+     "location": "South Korea"
+    }
+   ]
+  },
+  {
+   "brand": "Skyworks Solutions",
+   "people": [
+    {
+     "name": "Todd Lepinski",
+     "title": "Senior Vice President Global Sales and Marketing",
+     "email": "todd.lepinski@skyworksinc.com"
+    },
+    {
+     "name": "HO Lee",
+     "title": "Vice President of Mobile Marketing & Samsung Sales",
+     "email": "harry.lee@skyworksinc.com"
+    },
+    {
+     "name": "William Cao",
+     "title": "Marketing Director",
+     "email": "william.cao@skyworksinc.com"
+    },
+    {
+     "name": "Parul Singla",
+     "title": "Sr Director, Marketing",
+     "email": "parul.singla@skyworksinc.com"
+    }
+   ]
+  },
+  {
+   "brand": "Monolithic Power Systems",
+   "people": [
+    {
+     "name": "Maurice Sciammas",
+     "title": "VP of Sales & Marketing",
+     "email": "maurice.sciammas@monolithicpower.com"
+    },
+    {
+     "name": "Bob Lucas",
+     "title": "Vice President Marketing",
+     "email": "robert.lucas@monolithicpower.com"
+    },
+    {
+     "name": "Heike McGlothern",
+     "title": "Director of Corporate Marketing and Brand Management",
+     "email": "heike.mcglothern@monolithicpower.com"
+    },
+    {
+     "name": "Eric Yang",
+     "title": "VP Technical Marketing and Applications Engineering",
+     "email": "eric.yang@monolithicpower.com"
+    }
+   ]
+  },
+  {
+   "brand": "Diodes Incorporated",
+   "people": [
+    {
+     "name": "Gurmeet Dhaliwal",
+     "title": "Head of Corporate Marketing & Investor Relations",
+     "email": "gurmeet_dhaliwal@diodes.com"
+    },
+    {
+     "name": "Tim Monaghan",
+     "title": "European President",
+     "email": "tim_monaghan@eu.diodes.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/tim-monaghan-b4313b5",
+     "location": "Stockport, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Synaptics",
+   "people": [
+    {
+     "name": "Neeta Shenoy",
+     "title": "Vice President, Corporate Marketing",
+     "email": "neeta.shenoy@synaptics.com"
+    },
+    {
+     "name": "Ganesh Tekkatte",
+     "title": "Director of Product Marketing",
+     "email": "ganesh.tekkatte@synaptics.com"
+    },
+    {
+     "name": "David Hsu",
+     "title": "Product Marketing Director",
+     "email": "dhsu@synaptics.com"
+    },
+    {
+     "name": "Forrest Chien",
+     "title": "Technical Marketing Director",
+     "email": "forrest.chien@synaptics.com"
+    }
+   ]
+  }
+ ]
+}

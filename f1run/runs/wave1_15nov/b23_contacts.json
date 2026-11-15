@@ -1,0 +1,355 @@
+{
+ "rows": [
+  {
+   "brand": "Artisan Partners",
+   "people": [
+    {
+     "name": "Andrea Mullins",
+     "title": "Director, Marketing and Communications",
+     "email": "andrea.mullins@artisanpartners.com"
+    },
+    {
+     "name": "Sheree Escobar",
+     "title": "Marketing & Communications",
+     "email": "sheree.escobar@artisanpartners.com"
+    },
+    {
+     "name": "Nathan Fear",
+     "title": "Marketing and Communications",
+     "email": "nathan.fear@artisanpartners.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/nathan-fear-94369217",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "PJT Partners",
+   "people": [
+    {
+     "name": "Paul Taubman",
+     "title": "Chief Executive Officer",
+     "email": "pjt@pjtpartners.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/paul-taubman-56798422a",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Canaccord Genuity Group",
+   "people": [
+    {
+     "name": "Daniel Daviau",
+     "title": "Chairman & CEO",
+     "email": "ddaviau@cgf.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/daniel-daviau-43b794a",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Stuart Raftus",
+     "title": "Chief Executive Officer",
+     "email": "sraftus@cgf.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/stuartraftus",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Nadine Miller",
+     "title": "Managing Director, Global Head of Marketing & Communications",
+     "email": "nmiller@canaccordgenuity.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/nadine-miller-3762184",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Christina Marinoff",
+     "title": "Senior Vice President, Head of Investor Relations & Global Corporate Communications",
+     "email": "cmarinoff@cgf.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/christina-marinoff-22384212",
+     "location": "Toronto, Canada"
+    }
+   ]
+  },
+  {
+   "brand": "Onex",
+   "people": [
+    {
+     "name": "Bobby Blanc",
+     "title": "Chief Executive Officer",
+     "email": "bobby@onex.com"
+    }
+   ]
+  },
+  {
+   "brand": "DigitalBridge Group",
+   "people": [
+    {
+     "name": "Marc Ganzi",
+     "title": "Chief Executive Officer",
+     "email": "marc.ganzi@digitalbridge.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/marc-ganzi-627595",
+     "location": "Boca Raton, United States"
+    },
+    {
+     "name": "Kevin Smithen",
+     "title": "Chief Commercial and Strategy Officer",
+     "email": "kevin.smithen@digitalbridge.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kevin-smithen-7a74a710",
+     "location": "Boca Raton, United States"
+    },
+    {
+     "name": "Cecilia Reissmeier",
+     "title": "Global Director of Strategic Communications and Marketing",
+     "email": "ceci.reissmeier@digitalbridge.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/cecilia-23914159",
+     "location": "Marina del Rey, United States"
+    },
+    {
+     "name": "Iris Tomczyk",
+     "title": "Principal, Marketing & Communications",
+     "email": "it@digitalbridge.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/iris-tomczyk-8576b514",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Butterfield Group",
+   "people": [
+    {
+     "name": "Andrew Masters",
+     "title": "VP, Group & Bermuda Marketing",
+     "email": "andrew.masters@butterfieldgroup.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/amastersbda",
+     "location": "Hamilton, Bermuda"
+    },
+    {
+     "name": "Amy Glover-Ghia",
+     "title": "VP of Marketing",
+     "email": "amy.glover@butterfieldgroup.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/amyhannahglover",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Alexandra King-Ellison",
+     "title": "AVP, Marketing & Communications",
+     "email": "alexandra.kingellison@butterfieldgroup.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/alexandra-king-ellison-8ba516150",
+     "location": "Hamilton, Bermuda"
+    }
+   ]
+  },
+  {
+   "brand": "Bombardier",
+   "people": [
+    {
+     "name": "Eric Martel",
+     "title": "President and Chief Executive Officer",
+     "email": "eric.martel@bombardier.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/martel-eric",
+     "location": "Montreal, Canada"
+    },
+    {
+     "name": "Mark Masluch",
+     "title": "Senior Director, Communications",
+     "email": "mark.masluch@aero.bombardier.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/markmasluch",
+     "location": "Dorval, Canada"
+    },
+    {
+     "name": "Jess White",
+     "title": "Global Marketing & Events Leader",
+     "email": "jessica.white@aero.bombardier.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jesslynnwhite",
+     "location": "Dallas, United States"
+    },
+    {
+     "name": "Pascale Acaf",
+     "title": "International Brand and Marketing Lead",
+     "email": "pascale.acaf@aero.bombardier.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/pascale-acaf",
+     "location": "Montreal, Canada"
+    }
+   ]
+  },
+  {
+   "brand": "Joby Aviation",
+   "people": [
+    {
+     "name": "Joeben Bevirt",
+     "title": "Founder",
+     "email": "joeben@jobyaviation.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/joeben-bevirt-639451",
+     "location": "Santa Cruz, United States"
+    },
+    {
+     "name": "Oliver Walker-Jones",
+     "title": "Head of Marketing, Communications & Brand",
+     "email": "oliver.walker-jones@jobyaviation.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/owj",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Nadine Finge",
+     "title": "Senior Marketing Manager",
+     "email": "nadine.finge@joby.aero",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/nadine-finge-120741115",
+     "location": "Dubai, United Arab Emirates"
+    },
+    {
+     "name": "Clay Hausmann",
+     "title": "Strategic Brand Partnerships",
+     "email": "clay.hausmann@jobyaviation.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/clayhausmann",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Bristow Group",
+   "people": [
+    {
+     "name": "Chris Bradshaw",
+     "title": "President and Chief Executive Officer",
+     "email": "cbradshaw@bristowgroup.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/chris-bradshaw-43479b6",
+     "location": "Houston, United States"
+    },
+    {
+     "name": "Kallise Clayton",
+     "title": "Global Director, Communications & Marketing",
+     "email": "kallise.clayton@bristowgroup.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kallise",
+     "location": "Houston, United States"
+    },
+    {
+     "name": "Cathy Hayek",
+     "title": "Global Communications & Marketing Manager",
+     "email": "catherine.hayek@bristowgroup.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/cathyhayek",
+     "location": "Houston, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Eve Holding, Inc.",
+   "people": [
+    {
+     "name": "David Malpass",
+     "title": "Chief Marketing Officer",
+     "email": "david@eve.legal"
+    },
+    {
+     "name": "Laura Hibben",
+     "title": "SVP Revenue Marketing & Partnerships",
+     "email": "laura.hibben@eve.legal"
+    },
+    {
+     "name": "Jamie Eggertsen",
+     "title": "Head of Marketing Strategy & Ops",
+     "email": "jamie.eggertsen@eve.legal"
+    },
+    {
+     "name": "Allegra Heath",
+     "title": "VP, Product Marketing",
+     "email": "allegra.heath@eve.legal"
+    }
+   ]
+  },
+  {
+   "brand": "Garmin",
+   "people": [
+    {
+     "name": "Verena Bartlog",
+     "title": "Head of Global Marketing Garmin Health",
+     "email": "verena.bartlog@garmin.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/verena-bartlog-428268199",
+     "location": "Germany"
+    },
+    {
+     "name": "Krista Klaus",
+     "title": "Director of Global Corporate Communications",
+     "email": "krista.klaus@garmin.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/krista-klaus-37203bb",
+     "location": "Kansas City, United States"
+    },
+    {
+     "name": "Steve Lovell",
+     "title": "Director Advertising & Sponsorship",
+     "email": "steve.lovell@garmin.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/steve-lovell-524a033",
+     "location": "Olathe, United States"
+    },
+    {
+     "name": "Jennifer Swisher",
+     "title": "Director of Global Retail and Tradeshow Marketing",
+     "email": "jennifer.swisher@garmin.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jswisher854b5",
+     "location": "Overland Park, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Canon",
+   "people": [
+    {
+     "name": "Lindsey Allardyce",
+     "title": "SVP Corporate Communications, Marketing & Sustainability",
+     "email": "lindsey.allardyce@canon-europe.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/lindseyallardyce",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Julie McMahon",
+     "title": "Senior Vice President of Marketing",
+     "email": "jmcmahon@csa.canon.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/julie-mcmahon-84350511",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Marc Bory",
+     "title": "Vice President - Head of EMEA Marketing & Innovation (DP&S Business Unit), and IRIS CEO",
+     "email": "marc.bory@canon-europe.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/marc-bory-1a617712",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Paolo Tedeschi",
+     "title": "Head of Communications, Corporate Marketing & Sustainability",
+     "email": "paolo.tedeschi@canon.it",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/paolotedeschi",
+     "location": "Rome, Italy"
+    }
+   ]
+  }
+ ]
+}

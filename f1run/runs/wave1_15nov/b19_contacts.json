@@ -1,0 +1,304 @@
+{
+ "rows": [
+  {
+   "brand": "Fiserv",
+   "people": [
+    {
+     "name": "Elma Joseph",
+     "title": "Marketing Director",
+     "email": "elma.joseph@fiserv.com"
+    },
+    {
+     "name": "Rick Singh",
+     "title": "EVP Chief Growth Officer",
+     "email": "rick.singh@fiserv.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rick-singh-62024663",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Patrick Eisenbeil",
+     "title": "Sr. Director of Global Brand Strategy and Enterprise Marketing",
+     "email": "patrick.eisenbeil@fiserv.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/patrick-eisenbeil",
+     "location": "Atlanta, United States"
+    },
+    {
+     "name": "Matt Bonomolo",
+     "title": "Director, Sponsorship Activation and Event Programming",
+     "email": "matthew.bonomolo@fiserv.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/matt-bonomolo-a4519030",
+     "location": "Pearl River, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Fidelity National Information Services",
+   "people": [
+    {
+     "name": "Stephanie Ferris",
+     "title": "Chief Executive Officer and President",
+     "email": "stephanie.ferris@fisglobal.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/stephanieferris",
+     "location": "Cincinnati, United States"
+    },
+    {
+     "name": "Ellyn Raftery",
+     "title": "EVP|Office of the CEO and Chief Marketing and Communications Officer",
+     "email": "ellyn.raftery@fisglobal.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/ellyn-raftery",
+     "location": "Jacksonville, United States"
+    },
+    {
+     "name": "Kyle Smith",
+     "title": "SVP, Global Head of Brand Marketing",
+     "email": "kyle.smith@fisglobal.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/kyle-smith-fis",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Meghna Tambe",
+     "title": "Head of Demand Generation",
+     "email": "meghna.tambe@fisglobal.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/meghna-tambe-52933122a",
+     "location": "Shirur, India"
+    }
+   ]
+  },
+  {
+   "brand": "Euronet Worldwide",
+   "people": [
+    {
+     "name": "Jamie Chomas",
+     "title": "SVP, Strategic Partnerships & Enterprise Marketing",
+     "email": "jchomas@euronetworldwide.com"
+    },
+    {
+     "name": "Cherry Mungcal",
+     "title": "AVP for Marketing",
+     "email": "cmungcal@euronetworldwide.com"
+    },
+    {
+     "name": "Jocelyn Aranda",
+     "title": "Sales and Marketing Operations Leader",
+     "email": "daranda@euronetworldwide.com"
+    },
+    {
+     "name": "Areti Vasilogianni",
+     "title": "Digital Marketing Lead",
+     "email": "avasilogianni@euronetworldwide.com"
+    }
+   ]
+  },
+  {
+   "brand": "Western Union",
+   "people": [
+    {
+     "name": "Alex Chassin",
+     "title": "Director, Lifecycle Marketing & Strategy",
+     "email": "alex.chassin@westernunion.com"
+    },
+    {
+     "name": "Cara Wallace",
+     "title": "VP Marketing",
+     "email": "cara.wallace@westernunion.com"
+    },
+    {
+     "name": "Frank Privette",
+     "title": "Global Marketing Senior Lead",
+     "email": "frank.privette@wu.com"
+    },
+    {
+     "name": "Maria Marmolejo",
+     "title": "Brand & Communications Leader",
+     "email": "maria.marmolejo@westernunion.com"
+    }
+   ]
+  },
+  {
+   "brand": "Broadridge Financial Solutions",
+   "people": [
+    {
+     "name": "Tim Gokey",
+     "title": "Chief Executive Officer",
+     "email": "tim.gokey@broadridge.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/timgokey",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Justin Garrett",
+     "title": "Global Head of Brand & Digital Marketing",
+     "email": "justin.garrett@broadridge.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/justingarrett",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Vishal Desai",
+     "title": "Global Head of Marketing, Capital Markets",
+     "email": "vishal.desai@broadridge.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/vishaldesai01",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Lisa Grossman",
+     "title": "Global Head of Marketing for Wealth",
+     "email": "lisa.grossman@broadridge.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lgrossman",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Diebold Nixdorf",
+   "people": [
+    {
+     "name": "Juergen Kisters",
+     "title": "Vice President | Brand & Solution Marketing",
+     "email": "juergen.kisters@dieboldnixdorf.com"
+    },
+    {
+     "name": "Arvin Jawa",
+     "title": "VP, Global Retail Strategy and Marketing",
+     "email": "arvin.jawa@dieboldnixdorf.com"
+    },
+    {
+     "name": "Brian Haynes",
+     "title": "Director of Retail Marketing Strategy - Cardtronics Division",
+     "email": "brian.haynes@dieboldnixdorf.com"
+    },
+    {
+     "name": "Octavio Marquez",
+     "title": "President and Chief Executive Officer",
+     "email": "octavio.marquez@dieboldnixdorf.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/octavio-marquez-a41374",
+     "location": "North Canton, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Pluxee",
+   "people": [
+    {
+     "name": "Aurelien Sonet",
+     "title": "Global CEO at Pluxee",
+     "email": "aurelien.sonet@pluxeegroup.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/aurelien-sonet",
+     "location": "France"
+    },
+    {
+     "name": "Doris Dezzani",
+     "title": "Chief Marketing Officer",
+     "email": "doris.dezzani@pluxeegroup.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/doris-dezzani-3973332",
+     "location": "Bucharest, Romania"
+    },
+    {
+     "name": "Sebastien Godet",
+     "title": "Chief Revenue Growth Officer Europe Middle East Africa and Asia - Area CEO - Member of Group Excom",
+     "email": "sebastien.godet@pluxeegroup.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/sebgodet",
+     "location": "France"
+    },
+    {
+     "name": "Suvodeep Das",
+     "title": "Vice President - Global Marketing Enablement & Performance",
+     "email": "suvodeep.das@pluxeegroup.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/suvodeepdas",
+     "location": "Paris, France"
+    }
+   ]
+  },
+  {
+   "brand": "Marqeta",
+   "people": [
+    {
+     "name": "Jonathan Soffin",
+     "title": "Chief Marketing Officer",
+     "email": "jsoffin@marqeta.com"
+    },
+    {
+     "name": "Jessica Miller",
+     "title": "Vice President, Global Corporate Communications",
+     "email": "jmiller@marqeta.com"
+    },
+    {
+     "name": "Jordan Fellows",
+     "title": "Director, Corporate Communications",
+     "email": "jfellows@marqeta.com"
+    },
+    {
+     "name": "Maria Shi",
+     "title": "Senior Director, B2B Platforms and Growth",
+     "email": "mshi@marqeta.com"
+    }
+   ]
+  },
+  {
+   "brand": "EML Payments",
+   "people": [
+    {
+     "name": "Tom Cregan",
+     "title": "Group CEO",
+     "email": "tcregan@emlpayments.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/tom-cregan-b987b3178",
+     "location": "Melbourne, Australia"
+    },
+    {
+     "name": "Anthony Hynes",
+     "title": "Executive Chairman",
+     "email": "anthony.hynes@emlpayments.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/anthonyhynes",
+     "location": "Melbourne, Australia"
+    },
+    {
+     "name": "Mario Natoli",
+     "title": "Chief Marketing & Customer Officer",
+     "email": "mario.natoli@emlpayments.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/mario-natoli-22901326",
+     "location": "Melbourne, Australia"
+    }
+   ]
+  },
+  {
+   "brand": "Bitdeer Technologies Group",
+   "people": [
+    {
+     "name": "Eren Wang",
+     "title": "Marketing Director",
+     "email": "eren.wang@bitdeer.com"
+    },
+    {
+     "name": "Eunice Hwangbo",
+     "title": "Director Corporate Communications",
+     "email": "eunice.hwangbo@bitdeer.com"
+    },
+    {
+     "name": "Yolanda Li",
+     "title": "President, AI Cloud",
+     "email": "yolanda.li@bitdeer.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/yolandali2025",
+     "location": "San Francisco, United States"
+    }
+   ]
+  }
+ ]
+}

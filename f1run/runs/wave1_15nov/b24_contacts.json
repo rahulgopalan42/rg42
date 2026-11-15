@@ -1,0 +1,362 @@
+{
+ "rows": [
+  {
+   "brand": "Ricoh Company",
+   "people": [
+    {
+     "name": "Chris Reid",
+     "title": "VP, Global Marketing",
+     "email": "chris.reid2@ricoh-usa.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/cpdreid",
+     "location": "Boulder, United States"
+    },
+    {
+     "name": "Yoshi Sasaki",
+     "title": "Head of Marketing Centre, Digital Products Business Unit",
+     "email": "yoshi.sasaki@ricoh.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/yoshi-yoshihiko-sasaki-63804336",
+     "location": "Tokyo, Japan"
+    },
+    {
+     "name": "Mark Little",
+     "title": "Senior Director, Global Product Marketing",
+     "email": "mark.little@ricoh.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/marklittle299",
+     "location": "Oklahoma City, United States"
+    },
+    {
+     "name": "Linnea Wolken",
+     "title": "Senior Director, Global Product Marketing",
+     "email": "lwolken@ricoh.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/linneawolken",
+     "location": "Denver, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Groupe SEB",
+   "people": [
+    {
+     "name": "Jasmin Dugal",
+     "title": "Vice President, Sales & Marketing",
+     "email": "jdugal@groupeseb.com"
+    },
+    {
+     "name": "Maha Shaker",
+     "title": "Marketing Communications Lead",
+     "email": "mshaker@groupeseb.com"
+    },
+    {
+     "name": "Paulina Garduno",
+     "title": "Global Head of Brand Marketing",
+     "email": "pgardunorubi@groupeseb.com"
+    }
+   ]
+  },
+  {
+   "brand": "De' Longhi",
+   "people": [
+    {
+     "name": "Aparna Sundaresh",
+     "title": "Global Chief Marketing Officer",
+     "email": "aparna.sundaresh@delonghigroup.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/aparna-sundaresh-4467b714",
+     "location": "Italy"
+    },
+    {
+     "name": "Valentina Bonutto",
+     "title": "Head of Brand Experience - De\u2019Longhi Brand",
+     "email": "valentina.bonutto@delonghigroup.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/valentina-bonutto-3baba029",
+     "location": "Dolo, Italy"
+    },
+    {
+     "name": "Paolo Laratta",
+     "title": "Head of Marketing Communications",
+     "email": "paolo.laratta@delonghigroup.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/paolo-laratta-6841b5b",
+     "location": "Pisa, Italy"
+    },
+    {
+     "name": "Stefania Accardo",
+     "title": "Global Director of Marketing Technology",
+     "email": "stefania.accardo@delonghigroup.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/saccardo",
+     "location": "Italy"
+    }
+   ]
+  },
+  {
+   "brand": "Whirlpool",
+   "people": [
+    {
+     "name": "Lorenzo Masiello",
+     "title": "CMO",
+     "email": "lorenzo_masiello_snce@whirlpool.com"
+    },
+    {
+     "name": "Michael Gross",
+     "title": "Senior Vice President, Brands and Product - Business Units",
+     "email": "michael_r_gross@whirlpool.com"
+    },
+    {
+     "name": "Josh Weichhand",
+     "title": "Head of Brand, US - KitchenAid",
+     "email": "josh_weichhand@whirlpool.com"
+    },
+    {
+     "name": "Lauren Bigger",
+     "title": "Director, Integrated Brand Marketing",
+     "email": "lauren.bigger@whirlpool.com"
+    }
+   ]
+  },
+  {
+   "brand": "Brother Industries",
+   "people": [
+    {
+     "name": "John Wandishin",
+     "title": "Vice-President, Marketing",
+     "email": "john.wandishin@brother.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/john-wandishin-a69b9",
+     "location": "South Brunswick Township, United States"
+    },
+    {
+     "name": "Eric Dahl",
+     "title": "Vice President of Product Marketing",
+     "email": "eric.dahl@brother.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/ericmdahl",
+     "location": "Bridgewater, United States"
+    },
+    {
+     "name": "Linda Sanford",
+     "title": "Director of Marketing",
+     "email": "linda.sanford@brother.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/linda-sanford-7a5bab4",
+     "location": "Flemington, United States"
+    },
+    {
+     "name": "Matthias Schach",
+     "title": "Director Sales and Marketing - Soho/dsc",
+     "email": "matthias.schach@brother.co.uk",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/matthias-schach-038979131",
+     "location": "Manchester, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Ariston Holding",
+   "people": [
+    {
+     "name": "Maurizio Brusadelli",
+     "title": "Chief Executive Officer",
+     "email": "maurizio.brusadelli@ariston.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/maurizio-brusadelli-7936518",
+     "location": "Italy"
+    },
+    {
+     "name": "Sabrina Baggioni",
+     "title": "Chief Digital, Marketing & Sustainability Officer",
+     "email": "sabrina.baggioni@ariston.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sabrina-baggioni",
+     "location": "Milan, Italy"
+    },
+    {
+     "name": "Prashant Dhar",
+     "title": "Vice President Marketing",
+     "email": "prashant.dhar@ariston.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/prashant-dhar-2456bb4",
+     "location": "Pune, India"
+    },
+    {
+     "name": "Patrizia Pietralunga",
+     "title": "Global Sr Director Ariston Brand & Marketing Programs",
+     "email": "patrizia.pietralunga@ariston.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/patrizia-pietralunga-958a7b14",
+     "location": "Italy"
+    }
+   ]
+  },
+  {
+   "brand": "Pegatron",
+   "people": [
+    {
+     "name": "Hugo Hernandez",
+     "title": "SVP Sales & Marketing",
+     "email": "hugo_hernandez@pegatroncorp.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/hugohhhh",
+     "location": "San Diego, United States"
+    },
+    {
+     "name": "Mike Adamo",
+     "title": "VP Sales and Marketing",
+     "email": "michael_adamo@pegatroncorp.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/adamo1",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Alex Wu",
+     "title": "Director of Product Marketing",
+     "email": "alex_wu@pegatroncorp.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/alex-wu-8888aw",
+     "location": "Fremont, United States"
+    },
+    {
+     "name": "Anne Chou",
+     "title": "Public Relations Manager",
+     "email": "anne_chou@pegatroncorp.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/anne-chou-41a72319a",
+     "location": "Taiwan"
+    }
+   ]
+  },
+  {
+   "brand": "Innolux",
+   "people": [
+    {
+     "name": "Xianhui Huang",
+     "title": "Deputy Director of Marketing and Product Management",
+     "email": "x.huang@innolux.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/%e7%8d%bb%e8%bc%9d-%e9%bb%83-b9a13888",
+     "location": "Tainan, Taiwan"
+    },
+    {
+     "name": "Uming Chang",
+     "title": "Intelligent Promotion Department Director",
+     "email": "uming.chang@innolux.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/uming-chang-490581b2",
+     "location": "Tainan, Taiwan"
+    }
+   ]
+  },
+  {
+   "brand": "Resideo Technologies",
+   "people": [
+    {
+     "name": "Justin McCurnin",
+     "title": "Vice President Marketing",
+     "email": "justin.mccurnin@resideo.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/justinmccurnin",
+     "location": "Minneapolis, United States"
+    },
+    {
+     "name": "Stacie Dudy",
+     "title": "Sr Director, Marketing Services (Global)",
+     "email": "stacie.dudy@resideo.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/staciedudy",
+     "location": "Minneapolis, United States"
+    },
+    {
+     "name": "Kevin Hunt",
+     "title": "Director, Communications",
+     "email": "kevin.hunt@resideo.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/kevinjameshunt",
+     "location": "Minneapolis, United States"
+    },
+    {
+     "name": "Natalie O'Keefe",
+     "title": "Sr. Director Retail Marketing",
+     "email": "natalie.okeefe@resideo.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/natalie-o-keefe-a207236",
+     "location": "Naperville, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Nikon",
+   "people": [
+    {
+     "name": "Hamid Zarringhalam",
+     "title": "Chief Executive Officer",
+     "email": "hamid.zarringhalam@nikon.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/hamidzarringhalam",
+     "location": "Atherton, United States"
+    },
+    {
+     "name": "Kosuke Kawaura",
+     "title": "Marketing Director",
+     "email": "kosuke.kawaura@nikon.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kosuke-kawaura-a870b3148",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Stacy Dash",
+     "title": "Marketing Director",
+     "email": "sdash@nikon.net",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/stacy-dash-021934105",
+     "location": "Homestead, United States"
+    }
+   ]
+  },
+  {
+   "brand": "GN Store Nord",
+   "people": [
+    {
+     "name": "Peter Karlstromer",
+     "title": "President and CEO GN Group",
+     "email": "pkarlstromer@gn.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/peter-karlstromer-521757",
+     "location": "Stockholm, Sweden"
+    },
+    {
+     "name": "Maria Bybjerg",
+     "title": "Senior Vice President, Global Marketing",
+     "email": "mbybjerg@gnresound.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/maria-bybjerg-473b334",
+     "location": "Copenhagen, Denmark"
+    },
+    {
+     "name": "Nikolaus Scheurer",
+     "title": "Vice President Marketing | Product Marketing, Brand & Communication | GN Hearing",
+     "email": "nscheurer@gnhearing.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/nikolausscheurer",
+     "location": "Malmoe, Sweden"
+    },
+    {
+     "name": "Sophie Hansen",
+     "title": "Senior Director, Product Marketing & Brand Strategy",
+     "email": "sophansen@gnhearing.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/sophie-hansen-2b2a52b",
+     "location": "Copenhagen, Denmark"
+    }
+   ]
+  },
+  {
+   "brand": "Chicony Electronics",
+   "people": []
+  }
+ ]
+}

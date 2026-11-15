@@ -1,0 +1,405 @@
+# F1 team partner roster (f1salaries team pages saved 21 Oct 2026). Baseline only: re-check the live team pages for the categories that matter to each brand.
+
+## alpine
+- BWT | Title Partner | Water treatment
+- Eni | Premium Partner | Energy
+- MSC Cruises | Premium Partner | Cruises
+- Mercado Libre | Team Partner | E-commerce
+- Qatar Airways | Commercial Airline Partner | Airline
+- H. Moser &amp; Cie. | Premium Partner | Watches
+- 3D Systems | Team Supplier | 3D printing
+- Alpinestars | Team Supplier | Racewear
+- Arctic Wolf | Team Partner | Cybersecurity
+- AtkinsRéalis | Team Partner | Engineering
+- Avature | Team Partner | Recruiting software
+- Beforeyouspeak Coffee | Team Supplier | Coffee
+- Boeing | Team Partner | Aerospace
+- Built For Athletes | Team Supplier | Sports bags
+- Businessolver | Team Partner | Benefits software
+- Castore | Team Partner | Sportswear
+- Cato Networks | Team Partner | Network security
+- D3O | Team Supplier | Impact protection
+- Delphi | Team Supplier | Auto parts
+- Endstate | Team Licensee | Footwear
+- eToro | Team Partner | Online trading
+- Eurodatacar | Team Partner | Vehicle telematics
+- HMN24 | Team Supplier | Supplements
+- IndraMind | Team Partner | AI software
+- JAAQ | Team Supplier | Mental health app
+- LUMI | Team Supplier | Light therapy
+- M-Experiment | Team Supplier | Eyewear
+- Matrix | Team Supplier | Fitness equipment
+- MISSION | Team Supplier | Energy drinks
+- Mobilize Financial Services | Team Partner | Car finance
+- MODO Casino | Team Partner | Online casino
+- New Era | Team Partner | Headwear
+- OAKBERRY | Team Partner | Acai bowls
+- Perfect Moment | Team Licensee | Skiwear
+- Pirelli | Team Supplier | Tires
+- R5 Turbo 3E | Premium Partner | Renault road car
+- Roland DG | Team Supplier | Digital printers
+- SEALSQ | Team Partner | Security chips
+- Shamir | Team Partner | Optical lenses
+- Skip | Team Partner | Food delivery
+- The James Brand | Team Licensee | Pocket tools
+- The Venetian Resort | Team Partner | Resort and casino
+- Trak Racer | Team Supplier | Sim racing rigs
+- United Machining | Team Supplier | Precision machining
+- Valvoline | Team Partner | Motor oil
+- Viagogo | Team Partner | Ticket resale
+
+## aston-martin
+- Aramco | Title Partner | Oil and gas
+- Maaden | Principal Partner | Mining
+- Cognizant | Global AI Services Partner | IT services
+- CoreWeave | Official AI Cloud Computing Partner | AI cloud computing
+- Cohere | Official Generative AI Partner | Enterprise AI
+- Aquame | Official Supplier | Smart water bottles
+- Arm | Partner | Chip design
+- Atlas Air | Partner | Cargo airline
+- BOSS | Partner | Fashion
+- Breitling | Partner | Luxury watches
+- Celsius | Partner | Energy drinks
+- Cognition | Partner | AI software
+- Coinbase | Partner | Crypto exchange
+- CoinPayments | Partner | Crypto payments
+- Eight Sleep | Partner | Sleep technology
+- Elemis | Partner | Skincare
+- Financial Times | Partner | Business news
+- Glenfiddich | Partner | Scotch whisky
+- Honda | Technical Partner | Automotive
+- JCB | Partner | Construction equipment
+- Krown Produce | Partner | Fresh produce
+- Morrison Foerster | Partner | Law firm
+- NetApp | Partner | Data storage
+- NexGen | Partner | Uranium
+- Oakley | Partner | Eyewear
+- Pepperstone | Partner | Online trading
+- Pirelli | Partner | Tires
+- Public | Partner | Investing app
+- PUMA | Partner | Sportswear
+- Regent Seven Seas Cruises | Partner | Luxury cruises
+- ServiceNow | Partner | Workflow software
+- TikTok | Partner | Social media
+- UKG | Partner | HR software
+- Valvoline | Partner | Lubricants
+- Velocity Black | Partner | Luxury concierge
+- Xerox | Partner | Printing technology
+- Zscaler | Partner | Cloud security
+
+## audi
+- Revolut | Title Partner | Digital banking
+- Bp | Principal Partner | Energy
+- Visit Qatar | Principal Partner | Tourism
+- Nexo | Official Partner | Digital assets
+- Adidas | Official Partner | Sportswear
+- Aleph | Official Partner | Digital advertising
+- Bell | Official Supplier | Racing helmets
+- Camozzi | Official Partner | Industrial automation
+- Castrol | Principal Partner | Lubricants
+- ElevenLabs | Official Partner | AI voice
+- Extreme Networks | Official Partner | Networking
+- Gillette | Official Partner | Razors
+- Glasurit | Official Supplier | Automotive paint
+- Hyatt | Official Partner | Hotels
+- ic! berlin | Official Partner | Eyewear
+- JigSpace | Official Supplier | 3D presentations
+- Libertex | Official Partner | Online trading
+- Mammoet | Official Supplier | Heavy lifting
+- NinjaOne | Official Partner | IT management
+- Öhlins | Official Supplier | Suspension
+- Paulaner | Official Supplier | Beer
+- Perk | Official Partner | Business travel
+- Piquadro | Official Supplier | Leather goods
+- Pirelli | Official Supplier | Tires
+- Sabelt | Official Supplier | Safety harnesses
+- Specialized | Official Supplier | Bicycles
+
+## cadillac
+- Claro | Official Telecommunications Partner | Telecoms
+- Tommy Hilfiger | Official Apparel Partner | Fashion
+- Tenneco | Official Technical Partner | Auto components
+- Core Scientific | Official Data Center Partner | Data centers
+- IFS | Official Technology Partner | Enterprise software
+- 3M | Official Material Science Partner | Materials science
+- Alpinestars | Technical Racewear Supplier | Racewear
+- Jim Beam | Official Spirits Partner | Bourbon
+- Pirelli | Official Tire Supplier | Tires
+- TWG AI | Official AI Partner | Enterprise AI
+
+## ferrari
+- HP | Title Partner | PCs and printers
+- Shell | Premium Partner | Energy
+- UniCredit | Premium Partner | Banking
+- PUMA | Premium Partner | Sportswear
+- IBM | Premium Partner | Software and consulting
+- CEVA Logistics | Premium Partner | Logistics
+- Ambipar | Partner | Environmental services
+- Aon | Partner | Risk and insurance
+- BBS | Technical Supplier | Wheels
+- Bell | Technical Supplier | Helmets
+- BingX | Partner | Crypto exchange
+- Bitdefender | Partner | Cybersecurity
+- Brembo | Technical Supplier | Brakes
+- Chivas | Partner | Scotch whisky
+- DXC | Team Partner | IT services
+- Ecopol | Official Partner | Water-soluble films
+- Espacio | Official Partner | Hotels
+- Garrett | Technical Supplier | Turbochargers
+- Genesys | Partner | Contact center software
+- Iveco | Partner | Commercial vehicles
+- Manpower | Partner | Staffing
+- Marina Bay Sands | Partner | Resort and casino
+- Mumm | Partner | Champagne
+- NGK | Technical Supplier | Spark plugs
+- Ohlins | Technical Supplier | Suspension
+- OMR | Technical Supplier | Auto components
+- Peroni | Partner | Beer
+- Pirelli | Technical Supplier | Tires
+- Ray-Ban | Partner | Eyewear
+- Richard Mille | Partner | Luxury watches
+- Riedel | Technical Supplier | Radio communications
+- S.Pellegrino | Partner | Mineral water
+- Sabelt | Technical Supplier | Safety harnesses
+- SKF | Technical Supplier | Bearings
+- SkinCeuticals | Partner | Skincare
+- Technogym | Partner | Fitness equipment
+- Vantage | Official Partner | Online trading
+- VistaJet | Partner | Private aviation
+- Whoop | Team Partner | Fitness wearables
+- ZCG | Partner | Investment firm
+- Zyn | Partner | Nicotine pouches
+
+## haas
+- Toyota Gazoo Racing | Title Partner | Toyota motorsport
+- Castore | Official Partner | Sportswear
+- Play&#039;n GO | Official Partner | Casino games
+- CommScope | Official Partner | Connectivity
+- Fix Network | Official Partner | Auto repair
+- Alpinestars | Official Partner | Racewear
+- Champagne Taittinger | Official Partner | Champagne
+- D.Energy | Official Partner | Energy technology
+- Emburse | Official Partner | Expense software
+- Exein | Official Partner | Embedded security
+- Haas Automation | Official Partner | CNC machine tools
+- HaasTooling.com | Official Partner | Cutting tools
+- IC | Official Partner | FX trading
+- Infobip | Official Partner | Cloud communications
+- MGM Rewards | Official Partner | Resort loyalty
+- Mphasis | Official Partner | IT services
+- NeverMile | Official Partner | Technology
+- New Era | Official Partner | Headwear
+- Orion180 | Official Partner | Home insurance
+- Pirelli | Official Partner | Tires
+- Ruckus Networks | Official Partner | Wi-Fi networks
+- Schuberth | Official Partner | Helmets
+- Singha | Official Partner | Beer
+- TravisMathew | Official Partner | Golf apparel
+- UChicago Medicine | Official Partner | Healthcare
+- Vellamo | Official Partner | Water
+- Zoomex | Official Partner | Crypto exchange
+
+## mclaren
+- Mastercard | Official Naming Partner | Payments
+- British American Tobacco | Principal Partner | Tobacco and nicotine
+- OKX | Official Primary Partner | Crypto exchange
+- DP World | Partner | Ports and logistics
+- Google | Official Primary Partner | Technology
+- Dell Technologies | Official Innovation Partner | Computing hardware
+- FxPro | Partner | Online trading
+- Etihad | Official Partner | Airline
+- Airwallex | Partner | Business payments
+- AkzoNobel-Sikkens | Partner | Paints and coatings
+- Allwyn | Partner | Lottery operator
+- Alpinestars | Partner | Racewear
+- Alteryx | Partner | Data analytics
+- Arrow Electronics | Partner | Electronics distribution
+- Ashurst | Partner | Law firm
+- Cisco | Partner | Networking
+- CNBC | Partner | Business news
+- Deloitte | Partner | Professional services
+- Dropbox | Partner | Cloud storage
+- Ecolab | Partner | Water and hygiene
+- Freshworks | Partner | Business software
+- Global | Partner | Media and entertainment
+- Goldman Sachs | Partner | Investment banking
+- Greene Tweed | Partner | Seals and composites
+- Groq | Partner | AI inference
+- Hedera | Partner | Blockchain network
+- Hilton | Partner | Hotels
+- Intel | Partner | Semiconductors
+- Iron Mountain | Partner | Information management
+- Jack Daniel&#039;s | Partner | Whiskey
+- KAUST | Partner | University
+- LEGO | Partner | Toys
+- Liquid IV | Partner | Hydration drinks
+- Medallia | Partner | Experience software
+- Monster Energy | Partner | Energy drinks
+- Motul | Partner | Lubricants
+- Okta | Partner | Identity security
+- Optimum Nutrition | Partner | Sports nutrition
+- Pirelli | Technical Supplier | Tires
+- PUMA | Team Kit and Apparel Partner | Sportswear
+- Reiss | Partner | Fashion
+- Richard Mille | Partner | Luxury watches
+- Rubrik | Partner | Data security
+- Schneider Electric | Partner | Energy management
+- SharkNinja | Official Partner | Home appliances
+- Smartsheet | Partner | Work management
+- Stanley Black &amp; Decker | Partner | Tools
+- T-Mobile | Partner | Mobile network
+- TUMI | Partner | Luggage
+- Udemy | Partner | Online learning
+- Workday | Partner | HR software
+
+## mercedes
+- PETRONAS | Title Partner | Oil and gas
+- Microsoft | Principal Partner | Software and cloud
+- Adidas | Team Partner | Sportswear
+- INEOS | Principal Partner | Chemicals
+- Snapdragon | Team Partner | Processors
+- CrowdStrike | Principal Partner | Cybersecurity
+- Akkodis | Team Partner | Engineering consulting
+- AMD | Team Partner | Semiconductors
+- BetterUp | Regional Partner | Coaching platform
+- Einhell | Team Partner | Power tools
+- Endless | Team Supplier | Brakes
+- G42 | Team Partner | AI technology
+- Hewlett Packard Enterprise | Team Partner | Enterprise IT
+- IWC Schaffhausen | Team Partner | Luxury watches
+- Marriott Bonvoy | Team Partner | Hotels
+- Meta AI | Team Partner | AI assistant
+- Mous | Team Supplier | Phone cases
+- Nasdaq | Team Partner | Stock exchange
+- Nu | Team Partner | Digital banking
+- PepsiCo | Team Partner | Food and drinks
+- Pirelli | Team Supplier | Tires
+- SAP | Team Partner | Business software
+- Sherwin-Williams | Team Partner | Paints and coatings
+- Signify | Team Partner | Lighting
+- Solera | Team Partner | Vehicle data software
+- TeamViewer | Team Partner | Remote access software
+- UBS | Team Partner | Banking
+- Vercel | Team Partner | Cloud platform
+- WhatsApp | Team Partner | Messaging app
+
+## racing-bulls
+- Visa | Title Partner | Payments
+- HUGO | Official Apparel Partner | Fashion
+- TUDOR | Official Partner | Luxury watches
+- Airtasker | Team Partner | Task marketplace
+- Barilla | Team Partner | Pasta
+- Cash App | Title Partner | Mobile payments
+- Confluent | Team Partner | Data streaming
+- Dynatrace | Team Partner | Observability software
+- Floyd | Official Supplier | Luggage
+- Ford Racing | Technical Partner | Automotive
+- Hahnair | Team Partner | Aviation
+- HUGO Eyewear | Team Partner | Eyewear
+- Mobil 1 | Technical Partner | Lubricants
+- NEFT Vodka | Team Partner | Vodka
+- Nouryon | Team Partner | Specialty chemicals
+- Octave | Technical Partner | Industrial software
+- Pirelli | Team Partner | Tires
+- Randstad | Team Partner | Recruitment
+- RebelDot | Team Partner | Software development
+- Red Bull | Owner | Energy drinks
+- Riedel | Team Partner | Radio communications
+- Roboze | Team Partner | 3D printing
+- Salesforce | Team Partner | CRM software
+- Siemens | Team Partner | Industrial technology
+- Student.com | Team Partner | Student housing
+- XMTrading | Team Partner | Online trading
+
+## red-bull
+- Oracle | Title Partner | Cloud software
+- TAG Heuer | Team Partner | Luxury watches
+- Gate | Exclusive Crypto Exchange Partner | Crypto exchange
+- Indeed | Official Recruitment Partner | Job search
+- 1Password | Partner | Password security
+- Armor All | Partner | Car care
+- AT&amp;T | Partner | Telecommunications
+- Athletic Propulsion Labs | Partner | Athletic footwear
+- AvaTrade | Partner | Online trading
+- Carlyle | Partner | Investment firm
+- Castore | Partner | Sportswear
+- CLEAR | Partner | Identity verification
+- DAMAC Properties | Partner | Property developer
+- DMG MORI | Partner | Machine tools
+- Ford Racing | Technical Partner | Automotive
+- Hard Rock | Partner | Hotels and casinos
+- Heineken | Partner | Beer
+- Hexagon | Partner | Measurement technology
+- Maui Jim | Partner | Sunglasses
+- Mobil | Partner | Fuels
+- Mobil 1 | Partner | Lubricants
+- Mophie | Partner | Mobile accessories
+- Neat | Partner | Video conferencing
+- New Era | Partner | Headwear
+- Pepe Jeans | Partner | Fashion
+- Philips Professional Displays | Partner | Commercial displays
+- Pirelli | Partner | Tires
+- PWR | Partner | Cooling systems
+- Rauch | Partner | Juices and drinks
+- Rokt | Partner | Ecommerce technology
+- Siemens | Partner | Industrial technology
+- Sparco | Partner | Racewear
+- Synopsys | Partner | Chip design software
+- Visa | Partner | Payments
+- YETI | Partner | Outdoor gear
+
+## williams
+- Atlassian | Title Partner | Collaboration software
+- Komatsu | Principal Partner | Construction machinery
+- Duracell | Global Partner | Batteries
+- Gulf | Global Partner | Lubricants
+- Kraken | Fan Zone Presenting Partner | Crypto exchange
+- Airia | Partner | Enterprise AI
+- Barclays | Partner | Banking
+- Betway | Partner | Sports betting
+- BNY | Partner | Banking
+- Brillio | Partner | Digital consulting
+- Claude | Partner | AI assistant
+- Estrella Galicia | Partner | Beer
+- Girard-Perregaux | Partner | Watches
+- Jackpot City | Partner | Online casino
+- Keeper | Partner | Cybersecurity
+- M&amp;S | Partner | Retail
+- New Era | Partner | Headwear
+- NMC² | Partner | Cloud computing
+- Nuveen | Partner | Asset management
+- Pirelli | Technical Supplier | Tires
+- SIA | Charity Partner | Spinal injury charity
+- Sparco | Technical Supplier | Racewear
+- Stephens | Partner | Investment banking
+- VAST Data | Partner | Data storage
+- Wilkinson Sword | Partner | Razors
+- Zoox | Partner | Robotaxis
+
+## Addendum: deals confirmed by research agents on 2-3 Nov 2026 (newer than the 21 Oct pages)
+- Mercedes: Stripe (Official Global Payments Partner, from 20 Oct 2026); Microsoft (Principal Partner 2026); Vercel (Jul 2026); Nu (2026)
+- Racing Bulls: ThreatLocker; Introl (Data Centre Deployment Partner); Octave (Mar 2026)
+- Alpine: Adobe (Official AI Fan Experience Partner from 2027); Apex Ultra; Gucci becomes title partner from 2027
+- Aston Martin: BK8; BOXBOX; Cohere (Official Generative AI Partner, Mar 2026); UKG (Nov 2025); Zscaler (Jun 2026)
+- Cadillac: Frontieras North America; Core Scientific (Official Data Center Partner, Mar 2026); Claro/America Movil (Jan 2026); 3M (Jun 2026)
+- McLaren: AbbVie (Official Pharmaceutical Partner, 20 Oct 2026); Intel (Official Compute Partner, 14 May 2026); Iron Mountain (Oct 2025); Schneider Electric (Jan 2026); Etihad (2026)
+- Ferrari: Rakuten joins 1 Jan 2027; WHOOP (Jan 2026); IBM Premium Partner (2025)
+- Williams: Barclays (Official Banking Partner 2026); Claude/Anthropic
+- Formula 1 (series): AWS, DHL, Aggreko, Crypto.com, American Express, Standard Chartered, Lenovo, Qatar Airways, MSC
+
+## Addendum 2 (15 Nov 2026): facts verified by this project's research agents since 21 Oct (still confirm live before citing)
+- NTT | McLaren | Official Partner from 2027 (announced 4 Nov 2026)
+- Edward Jones | McLaren | Official Private Wealth Management Partner (29 Sep 2026, mclaren.com)
+- Cisco | McLaren | Official Technology and Security Partner since 2021, extended July 2026
+- Schneider Electric | McLaren | partner from January 2026 (energy technology)
+- CommScope | Haas | Official Connectivity Partner since 2025; CommScope's CCS business and name now owned by Amphenol (Jan 2026)
+- RUCKUS Networks | Haas | Wi-Fi partner; RUCKUS owned by Belden since 1 Jul 2026
+- Toyota Gazoo Racing | Haas | title partner
+- Ma'aden | Aston Martin | partner (astonmartinf1.com announcement); NexGen Energy also at Aston Martin; JCB at Aston Martin since 2019 (renewed Dec 2025); Public is Aston Martin's official US investing app
+- Komatsu | Williams | Principal Partner since 2024, renewed Sept 2026
+- Barclays | Williams | Official Banking Partner 2026; BNY | Williams | institutional banking from 30 Jan 2026; Nuveen | Williams | asset management
+- Salesforce | Racing Bulls | since June 2026
+- Visa | Red Bull and Racing Bulls | retail banking exclusive (renewed Feb 2026); Carlyle | Red Bull | Investment Management Partner
+- Standard Chartered | Formula 1 (series) | Official Wealth Management Partner from 2026
+- Camozzi | Audi | automation; Revolut | Audi | title partner
+- Atlas Copco supplies Red Bull Powertrains (assembly tools) but is not on redbullracing.com's partner list

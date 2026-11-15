@@ -1,0 +1,335 @@
+{
+ "rows": [
+  {
+   "brand": "Ingram Micro Holding Corporation",
+   "people": [
+    {
+     "name": "Isabella Brown",
+     "title": "Chief Marketing Officer",
+     "email": "ibrown@ingrammicro.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/isabella-brown-8013711b3",
+     "location": "Frederiksberg, Denmark"
+    },
+    {
+     "name": "Dennis Crupi",
+     "title": "VP Global Marketing",
+     "email": "dennis.crupi@ingrammicro.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/denniscrupi",
+     "location": "United States"
+    },
+    {
+     "name": "Stacie Nadeau",
+     "title": "Director, Global Brand & Content Marketing",
+     "email": "stacie.nadeau@ingrammicro.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/stacienadeau",
+     "location": "Saint Petersburg, United States"
+    },
+    {
+     "name": "Mike Kenney",
+     "title": "Global Marketing Director",
+     "email": "mike.kenney@ingrammicro.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/mike-kenney-32711b376",
+     "location": "Portland, United States"
+    }
+   ]
+  },
+  {
+   "brand": "CDW Corporation",
+   "people": [
+    {
+     "name": "Chris Leahy",
+     "title": "President & CEO",
+     "email": "cleahy@cdw.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/chris-leahy-ba226687",
+     "location": "Vernon Hills, United States"
+    },
+    {
+     "name": "Gerald Youngblood",
+     "title": "Chief Digital Officer and SVP, Small Business and Marketing",
+     "email": "gerald.youngblood@cdw.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/geraldyoungblood",
+     "location": "Austin, United States"
+    },
+    {
+     "name": "Amy Sarosiek",
+     "title": "SVP, Chief Communications Officer",
+     "email": "amy.sarosiek@cdw.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/asarosiek",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Andy Wang",
+     "title": "VP of Performance Marketing & ABM",
+     "email": "andy.wang@cdw.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/poyaowang",
+     "location": "Chicago, United States"
+    }
+   ]
+  },
+  {
+   "brand": "KBR",
+   "people": [
+    {
+     "name": "Amanda Mark",
+     "title": "Global Brand Marketing",
+     "email": "amanda.mark@kbr.com"
+    },
+    {
+     "name": "Rakesh Singh",
+     "title": "Director, Global Marketing",
+     "email": "r.singh@kbr.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/callrakesh",
+     "location": "New Delhi, India"
+    },
+    {
+     "name": "Jessica Burnett",
+     "title": "Director, Global Marketing",
+     "email": "jessica.burnett@kbr.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jessica-kline-burnett-43337947",
+     "location": "Houston, United States"
+    },
+    {
+     "name": "Sam Edwards",
+     "title": "Director of Communications & Marketing",
+     "email": "sam.edwards@kbr.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/sam-edwards-59b43a102",
+     "location": "Carshalton, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Coforge",
+   "people": [
+    {
+     "name": "Paresh Vankar",
+     "title": "Chief Marketing Officer",
+     "email": "paresh.vankar@coforge.com"
+    },
+    {
+     "name": "Madhura Gaikwad",
+     "title": "Director of Marketing - Partnerships and Products",
+     "email": "madhura.gaikwad@coforge.com"
+    },
+    {
+     "name": "Ganesh Iyer",
+     "title": "Vice President Marketing",
+     "email": "ganesh.iyer@coforge.com"
+    },
+    {
+     "name": "Rtn Kapoor",
+     "title": "Associate Vice President Marketing",
+     "email": "amit.2.kapoor@coforge.com"
+    }
+   ]
+  },
+  {
+   "brand": "Afry AB",
+   "people": [
+    {
+     "name": "Linda Palsson",
+     "title": "President and CEO at AFRY",
+     "email": "linda.palsson@afry.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/linda-p%c3%a5lsson%e2%99%a6%ef%b8%8f-67516bb",
+     "location": "Onsala, Sweden"
+    },
+    {
+     "name": "Karolina Baeckbro",
+     "title": "Head of Brand",
+     "email": "karolina.backbro@afry.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/karolina-b%c3%a4ckbro-1a57422b",
+     "location": "Stockholm, Sweden"
+    },
+    {
+     "name": "Charlotta Herte",
+     "title": "Head of Corporate Communications",
+     "email": "charlotta.herte@afry.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/charlotta-herte-51a8612",
+     "location": "Stockholm, Sweden"
+    },
+    {
+     "name": "Liisa Palmu",
+     "title": "Head of Communications",
+     "email": "liisa.palmu@afry.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/liisa-palmu",
+     "location": "Helsinki, Finland"
+    }
+   ]
+  },
+  {
+   "brand": "SoftwareONE",
+   "people": [
+    {
+     "name": "Raphael Erb",
+     "title": "Chief Executive Officer",
+     "email": "raphael.erb@softwareone.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/raphael-erb-softwareone",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Liz Waugh",
+     "title": "Global Head of GTM & Marketing",
+     "email": "liz.waugh@softwareone.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/lizwaugh",
+     "location": "Reading, United Kingdom"
+    },
+    {
+     "name": "Heather Dahmer",
+     "title": "Global Head of Demand Generation, and Sales Activation",
+     "email": "heather.dahmer@softwareone.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/heatherdahmer",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Holger Frensel",
+     "title": "Head of Marketing Management and Operations",
+     "email": "holger.frensel@softwareone.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/holger-frensel-a3799081",
+     "location": "Leipzig, Germany"
+    }
+   ]
+  },
+  {
+   "brand": "Rackspace Technology",
+   "people": [
+    {
+     "name": "Gajen Kandiah",
+     "title": "Chief Executive Officer",
+     "email": "gajen.kandiah@rackspace.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/gajenkandiah",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Vivek Kwatra",
+     "title": "CRO, Public Cloud",
+     "email": "vivek.kwatra@rackspace.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/vivekkwatradisruptor",
+     "location": "Cedar Grove, United States"
+    },
+    {
+     "name": "Michelle Ramirez",
+     "title": "Head of Global Marketing",
+     "email": "michelle.ramirez@rackspace.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/michellearamirez",
+     "location": "San Antonio, United States"
+    },
+    {
+     "name": "Matt Charoenrath",
+     "title": "Sr. Director, Global Marketing Transformation & Insights",
+     "email": "matt.charoenrath@rackspace.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/mcharoenrath",
+     "location": "San Clemente, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Unisys",
+   "people": [
+    {
+     "name": "Jeffrey Kennedy",
+     "title": "Manager, Video / Event Production for Brand & Digital Marketing",
+     "email": "jeffrey.kennedy@unisys.com"
+    },
+    {
+     "name": "Akriti Singh",
+     "title": "Associate - Marketing and Communications (Brand & Strategic Messaging | Tech & Innovation)",
+     "email": "akriti.singh@unisys.com"
+    },
+    {
+     "name": "Bruce Kerney",
+     "title": "Marketing",
+     "email": "bruce.kerney@unisys.com"
+    },
+    {
+     "name": "Payal Malpani",
+     "title": "Marketing Lead",
+     "email": "payal.jugalkishormalpani@unisys.com"
+    }
+   ]
+  },
+  {
+   "brand": "TTEC",
+   "people": [
+    {
+     "name": "Hernan Repetto",
+     "title": "Growth Marketing Director",
+     "email": "hernan.repetto@ttec.com"
+    },
+    {
+     "name": "Liyan Porras",
+     "title": "Lead Specialist, TA Marketing and Communications",
+     "email": "liyan.porras@ttec.com"
+    },
+    {
+     "name": "Dimitrios Banos",
+     "title": "Lead Specialist, TA Marketing and Communications",
+     "email": "dimitrios.banos@ttec.com"
+    },
+    {
+     "name": "Marji Chimes",
+     "title": "Group Vice President Global Marketing",
+     "email": "marji.chimes@ttec.com"
+    }
+   ]
+  },
+  {
+   "brand": "Zensar",
+   "people": [
+    {
+     "name": "Manish Tandon",
+     "title": "CEO & Managing Director",
+     "email": "manish.tandon@zensar.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/manish-tandon-347481",
+     "location": "Bridgewater, United States"
+    },
+    {
+     "name": "Deepak Kadambi",
+     "title": "Global Head - Marketing and Growth",
+     "email": "deepak.kadambi@zensar.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/deepakkadambi",
+     "location": "Bengaluru, India"
+    },
+    {
+     "name": "Shikhar Vishnoi",
+     "title": "Head- Industry Vertical Marketing",
+     "email": "shikhar.vishnoi@zensar.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/shikhar-vishnoi-25a571107",
+     "location": "Pune, India"
+    },
+    {
+     "name": "Nikhil Paratwar",
+     "title": "Head of Digital Marketing and Website Management",
+     "email": "n.paratwar@zensar.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/nikhilparatwar",
+     "location": "Pune, India"
+    }
+   ]
+  }
+ ]
+}

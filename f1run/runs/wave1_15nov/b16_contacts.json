@@ -1,0 +1,357 @@
+{
+ "rows": [
+  {
+   "brand": "Quadient",
+   "people": [
+    {
+     "name": "Geoffrey Godet",
+     "title": "CEO",
+     "email": "gg.quadient@quadient.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/geoffrey-godet-811453",
+     "location": "France"
+    },
+    {
+     "name": "Petra Wolf",
+     "title": "Chief Marketing Officer",
+     "email": "p.wolf@quadient.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/petrawolf",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Natalie Hahn",
+     "title": "Vice President, Global Strategic Marketing",
+     "email": "n.hahn@quadient.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/nh329",
+     "location": "Phoenix, United States"
+    },
+    {
+     "name": "Brian Chung",
+     "title": "Vice President - Global Demand Generation",
+     "email": "b.chung@quadient.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/brc888",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "AvePoint",
+   "people": [
+    {
+     "name": "Mario Carvajal",
+     "title": "Chief Strategy & Marketing Officer",
+     "email": "mario.carvajal@avepoint.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mdivar",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Taylor Davenport",
+     "title": "Chief Revenue Officer",
+     "email": "taylor.davenport@avepoint.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/taylor-davenport-05119b15",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Timothy Boettcher",
+     "title": "Senior Vice President, GTM Strategy & Global Product Marketing",
+     "email": "timothy.boettcher@avepoint.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/timothyboettcher",
+     "location": "Arlington, United States"
+    },
+    {
+     "name": "Nicole Caci",
+     "title": "Senior Director, Brand Communications",
+     "email": "nicole.caci@avepoint.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/nicole-caci-30aa24108",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Verve Group SE",
+   "people": [
+    {
+     "name": "Remco Westermann",
+     "title": "Chief Executive Officer",
+     "email": "remco.westermann@verve.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/remcowestermann",
+     "location": "Duesseldorf, Germany"
+    },
+    {
+     "name": "Alessandro Giuliani",
+     "title": "CRO",
+     "email": "alessandro.giuliani@verve.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/alessandro-giuliani-98992a40",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Stephanie Nerby",
+     "title": "Vice President, Marketing",
+     "email": "stephanie.nerby@verve.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/stephanie-nerby-36566a63",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Cellebrite",
+   "people": [
+    {
+     "name": "Shiven Ramji",
+     "title": "Chief Executive Officer",
+     "email": "shiven.ramji@cellebrite.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/shivenramji",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Marcus Jewell",
+     "title": "Chief Revenue Officer",
+     "email": "marcus.jewell@cellebrite.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/marcus-jewell-b53b062a4",
+     "location": "Los Gatos, United States"
+    },
+    {
+     "name": "Mark Heller",
+     "title": "Vice President Corporate Marketing",
+     "email": "mark.heller@cellebrite.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/hellermark",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Jeff Nolan",
+     "title": "VP Growth Marketing",
+     "email": "jeffrey.nolan@cellebrite.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jeffnolan",
+     "location": "Fort Myers, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Shutterstock",
+   "people": [
+    {
+     "name": "Jon Oringer",
+     "title": "Founder, CEO, and Chairman",
+     "email": "jon@shutterstock.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jonoringer",
+     "location": "Miami Beach, United States"
+    },
+    {
+     "name": "Allison Sitzman",
+     "title": "Vice President, Brand Strategy",
+     "email": "asitzman@shutterstock.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/allisonsitzman",
+     "location": "Atlanta, United States"
+    },
+    {
+     "name": "Whitney Watts",
+     "title": "Head of Business Solutions Central Marketing",
+     "email": "wwatts@shutterstock.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/whitney-watts-760b45425",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Mike Krau",
+     "title": "Senior Director, Growth Marketing (SEO & SEM)",
+     "email": "mkrau@shutterstock.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/mike-krau",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "NETSCOUT",
+   "people": [
+    {
+     "name": "Anil Singhal",
+     "title": "Co-founder and CEO",
+     "email": "anil.singhal@netscout.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/anil-singhal",
+     "location": "Westford, United States"
+    },
+    {
+     "name": "Pamela Jacques",
+     "title": "Vice President, Global Corporate Marketing",
+     "email": "pamela.jacques@netscout.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/pamela-jacques-a693a9",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Dawn Brock",
+     "title": "Sr. Director Marketing, Enterprise Demand Generation and Customer Engagement",
+     "email": "dawn.brock@netscout.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/dawn-brock-b9b59b1",
+     "location": "Castle Rock, United States"
+    },
+    {
+     "name": "Jack Callahan",
+     "title": "Director, Corporate Brand & Strategic Communications",
+     "email": "jack.callahan@netscout.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jlcallahan",
+     "location": "Boston, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Altus Group",
+   "people": [
+    {
+     "name": "Mike Gordon",
+     "title": "Chief Executive Officer",
+     "email": "mike.gordon@altusgroup.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mike-gordon-cre",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Ernest Clark",
+     "title": "Chief Marketing Officer",
+     "email": "ernest.clark@altusgroup.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/ernestclark",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Lauren Dettloff",
+     "title": "Senior Vice President, Marketing and Partners",
+     "email": "lauren.dettloff@altusgroup.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/laurendettloff",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Sas Izadpanah",
+     "title": "Senior Director, Demand Generation and Digital Marketing",
+     "email": "sasan.izadpanah@altusgroup.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/sas-izadpanah-69103a14",
+     "location": "Cobham, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Agora, Inc.",
+   "people": [
+    {
+     "name": "Patrick Ferriter",
+     "title": "SVP Product & Marketing",
+     "email": "patrick.ferriter@agora.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/patrickferriter",
+     "location": "Fremont, United States"
+    },
+    {
+     "name": "Bin Zhao",
+     "title": "Co-founder, CEO",
+     "email": "zhaobin@agora.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/tozhao",
+     "location": "Santa Clara, United States"
+    },
+    {
+     "name": "Tony Wang",
+     "title": "Co-Founder, Chief Revenue Officer",
+     "email": "tony.wang@agora.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/listerine",
+     "location": "Palo Alto, United States"
+    },
+    {
+     "name": "Thomas Dong",
+     "title": "VP Product Marketing",
+     "email": "thomas.dong@agora.io",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/tomdong",
+     "location": "Los Altos, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Appian",
+   "people": [
+    {
+     "name": "David Crozier",
+     "title": "Chief Marketing Officer",
+     "email": "david.crozier@appian.com"
+    },
+    {
+     "name": "Robin McIntosh",
+     "title": "Director, Marketing",
+     "email": "robin.mcintosh@appian.com"
+    },
+    {
+     "name": "Mary Grove",
+     "title": "Director of Marketing Operations",
+     "email": "mary.grove@appian.com"
+    },
+    {
+     "name": "Matt Calkins",
+     "title": "CEO",
+     "email": "matt.calkins@appian.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mattcalkins",
+     "location": "McLean, United States"
+    }
+   ]
+  },
+  {
+   "brand": "LiveRamp",
+   "people": [
+    {
+     "name": "Scott Howe",
+     "title": "Chief Executive Officer",
+     "email": "scott.howe@liveramp.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/schowe",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Christine Travis",
+     "title": "VP, Corporate Marketing",
+     "email": "christine.travis@liveramp.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/christinetrav",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Jen Whelan",
+     "title": "VP Growth Marketing",
+     "email": "jen.whelan@liveramp.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jen-whelan-a280b113",
+     "location": "Encinitas, United States"
+    },
+    {
+     "name": "Jeff Dubois",
+     "title": "Senior Director - Corporate Communications",
+     "email": "jeff.dubois@liveramp.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jeffduboiscommunications",
+     "location": "Bellevue, United States"
+    }
+   ]
+  }
+ ]
+}
