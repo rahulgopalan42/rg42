@@ -1,7 +1,9 @@
-# Brief: put each listed company into one of 35 sectors (F1 sponsorship prospect database)
+# Brief: put each listed company into one of 46 sectors (F1 sponsorship prospect database)
 
 Your input file has one company per line:  `SYMBOL | Name | Country | categories | SIC industry | LinkedIn industry`
-(the last three are hints from databases and can be empty or wrong). Use your own knowledge of the company first.
+(the last three are hints from databases and can be empty or wrong; for some files the fourth field holds revenue,
+market value and the exchange instead of categories). Use your own knowledge of the company first; the company name
+itself usually says what it does.
 
 Give each company exactly ONE code: the sector that matches its MAIN business today, or `00` if none fits.
 
@@ -41,19 +43,37 @@ Sectors:
 - `33` Consumer health & over-the-counter brands: over-the-counter medicines, vitamins and supplements, consumer-health arms, pharmacy chains
 - `34` Weight-loss, longevity & digital health: obesity-drug makers, telehealth, consumer diagnostics, wearables and connected fitness, consumer medical devices
 - `35` Chinese & Asian consumer brands going global: consumer brands headquartered in China, Hong Kong, Taiwan, South Korea or South-East Asia that sell or are expanding abroad
+- `36` Pharmaceuticals & biotech: drug makers, generics, vaccines, biotech with marketed products, animal health, contract drug manufacturing
+- `37` Medical technology & healthcare services: medical devices and equipment, diagnostics, hospital and clinic groups, dental and eye care, health IT sold to hospitals
+- `38` Chemicals, coatings & advanced materials: chemicals, paints and coatings, industrial gases, plastics, glass, carbon fibre and composites, specialty materials
+- `39` Aerospace & aviation manufacturing: civil aircraft and engine makers, aerospace components, aircraft leasing and maintenance
+- `40` Professional services, staffing & business services: staffing and recruitment, HR and payroll services, advertising and marketing groups, market research and information services, legal and accounting, facilities, security and outsourcing
+- `41` Real estate & property developers: property developers, real-estate services and brokers, mall, office and hotel landlords, REITs
+- `42` Mining, metals & steel: miners, gold and copper producers, steel, aluminium, metals processing
+- `43` Conglomerates & trading houses: diversified groups, family and state conglomerates, general trading houses with several unrelated businesses
+- `44` Construction, engineering & building products: contractors, engineering firms, infrastructure builders, cement, building materials, home-improvement and building products
+- `45` Utilities, power & water: power generators and grids, gas and water utilities, water technology, waste and environmental services
+- `46` Education & edtech: online learning platforms, tutoring and test-prep, private schools and universities, education publishers
 
 Rules
 - `35` is only for consumer brands (food, drinks, restaurants, beauty, fashion, toys, consumer electronics, EVs sold
-  to consumers, games, e-commerce) headquartered in China, Hong Kong, Taiwan, South Korea or South-East Asia. An Asian
-  bank, chip maker, telecom or industrial company goes to its normal sector, not 35. Japan and India use the normal sectors.
+  to consumers, games, e-commerce) headquartered in China, Hong Kong, Taiwan, South Korea or South-East Asia THAT ALREADY
+  SELL ABROAD under their own brand or have announced international expansion. A consumer brand from those countries
+  that is domestic-only goes to its product sector (25-34, 46). An Asian bank, chip maker, telecom or industrial
+  company goes to its normal sector, not 35. Japan and India use the normal sectors.
 - Carmakers of any country go to `18` (not 35) unless the company is mainly a consumer EV brand from the 35 region.
-- Health insurers go to `09`. Drug makers go to `00` unless obesity / weight-loss drugs or consumer health is a core
-  business (`34` or `33`). Hospitals, biotech, B2B medical devices: `00`.
-- `00` also covers: mining and metals, steel, chemicals, building materials, construction, real estate and REITs,
-  regulated utilities (water, gas, power grids), waste, packaging, paper, agriculture, tobacco, education, staffing,
-  advertising agencies, holding companies, investment funds, SPACs, sports clubs, shells.
-- Conglomerates: use the sector of the largest consumer-facing or best-known business; if none dominates, `00`.
-- If you do not recognise the company and the hints do not make it clear, give `??` (do not guess).
+- Health insurers go to `09`. Drug makers go to `36` unless obesity / weight-loss drugs (`34`) or consumer health (`33`)
+  is a core business. Hospitals, clinics, medical devices, diagnostics: `37`.
+- Chemicals, coatings, glass, plastics, specialty materials `38`; mining, metals, steel `42`; cement, building
+  materials, contractors, engineering firms `44`; power, gas, water, waste and environmental utilities `45`;
+  property developers, landlords and REITs `41`; staffing, advertising groups, information and business services `40`;
+  civil aerospace `39` (military aerospace stays `13`); education `46`.
+- Conglomerates and trading houses: use the sector of the largest consumer-facing or best-known business; if no
+  single business dominates, `43`.
+- `00` is now only for: investment funds and trusts, SPACs, shells, pure holding or investment vehicles with no
+  operating business, tobacco, packaging and paper, agriculture and food commodities, sports clubs.
+- If you do not recognise the company and neither its name nor the hints make the business clear, give `??` (do not
+  guess). A name such as "... Pharmaceutical", "... Bank", "... Electronics" or "... Cement" is enough to classify.
 
 Output: write a plain text file (path given in your task) with one line per input line, in the same order:
 `SYMBOL|code`   e.g.  `AAPL|25`

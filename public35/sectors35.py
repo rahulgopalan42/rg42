@@ -1,4 +1,4 @@
-"""The 35 sectors for the listed-company database, with the numbers used in the capacity model.
+"""The sectors for the listed-company database (the original 35, plus 36-46 added at the user's request), with the numbers used in the capacity model.
 fit  = how well the sector fits F1 sponsorship (0-10), from the earlier sector work in this project
 mkt  = typical marketing spend as a share of revenue (used only when a company does not disclose its own)
 grp  = which financial test applies: consumer (marketing-led), tech (growth / liquidity), fin (profit / capital),
@@ -39,6 +39,18 @@ S = [
  ('33', 'Consumer health & over-the-counter brands', 7, 0.12, 'consumer', 'over-the-counter medicines, vitamins and supplements, consumer-health arms, pharmacy chains'),
  ('34', 'Weight-loss, longevity & digital health', 7, 0.15, 'consumer', 'obesity-drug makers, telehealth, consumer diagnostics, wearables and connected fitness, consumer medical devices'),
  ('35', 'Chinese & Asian consumer brands going global', 8, 0.08, 'consumer', 'consumer brands headquartered in China, Hong Kong, Taiwan, South Korea or South-East Asia that sell or are expanding abroad'),
+ # sectors 36-46 were added on 15 Nov 2026 (sectors outside the original 35 where Formula 1 already has sponsors or a clear commercial logic)
+ ('36', 'Pharmaceuticals & biotech', 5, 0.03, 'ind', 'drug makers, generics, vaccines, biotech with marketed products, animal health, contract drug manufacturing'),
+ ('37', 'Medical technology & healthcare services', 5, 0.02, 'ind', 'medical devices and equipment, diagnostics, hospital and clinic groups, dental and eye care, health IT sold to hospitals'),
+ ('38', 'Chemicals, coatings & advanced materials', 6, 0.01, 'ind', 'chemicals, paints and coatings, industrial gases, plastics, glass, carbon fibre and composites, specialty materials'),
+ ('39', 'Aerospace & aviation manufacturing', 6, 0.005, 'ind', 'civil aircraft and engine makers, aerospace components, aircraft leasing and maintenance'),
+ ('40', 'Professional services, staffing & business services', 7, 0.02, 'ind', 'staffing and recruitment, HR and payroll services, advertising and marketing groups, market research and information services, legal and accounting, facilities, security and outsourcing'),
+ ('41', 'Real estate & property developers', 6, 0.02, 'ind', 'property developers, real-estate services and brokers, mall, office and hotel landlords, REITs'),
+ ('42', 'Mining, metals & steel', 4, 0.003, 'ind', 'miners, gold and copper producers, steel, aluminium, metals processing'),
+ ('43', 'Conglomerates & trading houses', 6, 0.01, 'ind', 'diversified groups, family and state conglomerates, general trading houses with several unrelated businesses'),
+ ('44', 'Construction, engineering & building products', 5, 0.01, 'ind', 'contractors, engineering firms, infrastructure builders, cement, building materials, home-improvement and building products'),
+ ('45', 'Utilities, power & water', 4, 0.005, 'ind', 'power generators and grids, gas and water utilities, water technology, waste and environmental services'),
+ ('46', 'Education & edtech', 5, 0.10, 'consumer', 'online learning platforms, tutoring and test-prep, private schools and universities, education publishers'),
 ]
 SECTORS = {c: {'code': c, 'name': n, 'fit': f, 'mkt': m, 'grp': g, 'scope': d} for c, n, f, m, g, d in S}
 ORDER = [c for c, *_ in S]

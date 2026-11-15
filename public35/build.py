@@ -92,6 +92,7 @@ def sa_mkt(sa, usd_rev=None):
 def money(pos, neg, v): return f'{pos} {fm(v)}' if v >= 0 else f'{neg} {fm(-v)}'
 def words(s): return len(str(s or '').split())
 def ticker(c, gap=None):
+    if c.get('sa'): return f"{c['sym'].split('@')[0].split('.')[0] if c['sa']['code'] not in ('NYSE', 'NASDAQ', 'AMEX') else c['sym'].split('@')[0]} / {c['sa']['exchange']}"
     sym = c['sym']; m = re.search(r'\.([A-Z]+)$', sym)
     if m and m.group(1) == 'AE' and gap and '/quote/' in str(gap.get('source_url') or ''):
         return f"{sym[:m.start()]} / " + ('Abu Dhabi Securities Exchange (ADX)' if '/adx/' in gap['source_url'] else 'Dubai Financial Market (DFM)' if '/dfm/' in gap['source_url'] else EXCH['AE'])
@@ -143,6 +144,7 @@ def col_mkt(f, sec):
     return 'Not Disclosed'
 def col_period(f):
     if f['rev_src'] == 'sec': return f"Fiscal year to {dt(f['fy_end'])} (annual filing); market value, cash and debt at Nov 2026"
+    if f['rev_src'] == 'lst': return 'Trailing 12 months to the latest reported quarter (stockanalysis.com exchange list, Nov 2026)'
     if f['rev_src'] == 'cmc' or f['pretax_ttm']: return 'Trailing 12 months to the latest reported quarter (retrieved Nov 2026)'
     if f['gap']: return re.sub(r'^TTM', 'Trailing 12 months', str(f['gap'].get('period') or 'Latest reported year')) + '; market value at Nov 2026'
     return 'No revenue or profit figures in the sources used; market value at Nov 2026'
@@ -150,7 +152,8 @@ def col_sources(c, f):
     sec = c.get('sec') or {}; src = []
     if f['rev_src'] == 'sec' and f['accn']: src.append(f"SEC EDGAR annual filing {f['accn']}: https://www.sec.gov/Archives/edgar/data/{sec['cik']}/{f['accn'].replace('-', '')}/")
     has_fund = c.get('revenue') or c.get('earnings')
-    src.append('companiesmarketcap.com (' + ('market value, revenue, earnings, cash, debt' if has_fund else 'market value') + '; Nov 2026)')
+    if c.get('sa'): src.append(f"stockanalysis.com {c['sa']['exchange']} list and company page (market value and revenue in {c['sa']['cur']}, converted to USD at the Nov 2026 rate): {c['sa']['url']}")
+    else: src.append('companiesmarketcap.com (' + ('market value, revenue, earnings, cash, debt' if has_fund else 'market value') + '; Nov 2026)')
     if f['gap'] and f['gap'].get('source_url'): src.append(f['gap']['source_url'])
     web = re.sub(r'^(https?://)?(www\.)?', '', (sec.get('web') or (c.get('clay') or {}).get('domain') or '').strip().lower()).split('/')[0]
     if web: src.append('company site: ' + web)
@@ -159,6 +162,8 @@ VERIFY_FLAG = re.compile(r'unclear|acquir|merg|private|distress|restructur|taken
 DROP_FLAG = re.compile(r'delisted or bankrupt|sanctioned|central bank', re.I)
 def assemble():
     U = {c['sym']: c for c in json.load(gzip.open(os.path.join(H, 'data', 'universe.json.gz'), 'rt'))}
+    u2 = os.path.join(H, 'data', 'universe2.json.gz')                  # companies added from the full exchange lists
+    if os.path.exists(u2): U.update({c['sym']: c for c in json.load(gzip.open(u2, 'rt')) if c['sym'] not in U})
     cls = {}
     for f in sorted(glob.glob(os.path.join(H, 'classify', 'out_*.txt'))):
         for line in open(f):
@@ -192,6 +197,8 @@ def assemble():
         if sym in review.DROP: out['removed: ' + review.DROP[sym]] += 1; continue
         sa = FIN.get(sym)
         grp = SECTORS[code]['grp']; f = financials(c, grp, G.get(sym))
+        if sa and f['pretax'] is None and f['rev'] and sa_num(sa, 'operating_income') is not None and sa_num(sa, 'revenue'):
+            f['pretax'] = sa_num(sa, 'operating_income') / sa_num(sa, 'revenue') * f['rev']; f['pretax_kind'] = 'Operating profit'      # same margin applied to the USD revenue
         gross = bool(f['rev'] and f['mcap'] and f['rev'] > 3 * f['mcap'] and (code == '07' or grp == 'fin'))     # gross trading / investment value booked as revenue
         if gross and sa and str(sa.get('currency') or '').upper() == 'USD' and sa_num(sa, 'revenue') and sa_num(sa, 'revenue') * 1e6 < 0.1 * f['rev']:
             f['rev'] = sa_num(sa, 'revenue') * 1e6; f['rev_src'] = 'sa'; f['mkt'] = None; gross = False; netrev = True      # net revenue instead of gross trading value
@@ -228,6 +235,7 @@ def assemble():
         if k['stressed']: notes.append(('data', 'Losses are large relative to cash on hand: check the funding position'))
         elif k['loss'] and k['cat'] != 'To Verify': notes.append(('info', 'Loss-making: capacity estimate discounted'))
         if netrev: notes.append(('info', 'Revenue shown is net revenue from stockanalysis.com; the market-data site reports gross trading value'))
+        if c.get('src') == 'sa' and f['pretax'] is None: notes.append(('info', 'Profit not confirmed in the sources used: capacity rests on revenue'))
         if gross: notes.append(('data', 'Reported revenue is gross trading or investment value, not net revenue: it was not used for the capacity estimate'))
         if f['mismatch']: notes.append(('data', 'Revenue in the SEC filing data and the market-data site differ widely, so the filing figures were not used: check the latest report'))
         if f['gap']: notes.append(('info', 'Revenue and profit from stockanalysis.com, converted from local currency (' + str(f['gap'].get('currency_note') or '') + ')'))

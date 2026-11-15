@@ -34,7 +34,7 @@ def financials(c, grp=None, gap=None):
     partial = bool(grp == 'fin' and rev_sec and rev_ttm and not (0.7 < rev_sec / rev_ttm < 1.4))
     use_sec = bool(rev_sec) and not f['mismatch'] and not partial
     f['fy'] = y if use_sec else ''; f['fy_end'] = sec.get('end' + y) if use_sec else None; f['accn'] = sec.get('accn' + y) if use_sec else None
-    f['rev'] = rev_sec if use_sec else rev_ttm; f['rev_src'] = 'sec' if use_sec else 'cmc' if rev_ttm else ''
+    f['rev'] = rev_sec if use_sec else rev_ttm; f['rev_src'] = 'sec' if use_sec else ('lst' if c.get('src') == 'sa' else 'cmc') if rev_ttm else ''      # lst = exchange list (second universe)
     f['rev_ttm'] = rev_ttm; f['mcap'] = c.get('mcap'); f['assets'] = c.get('assets') or None
     f['pretax'] = c.get('earnings') if c.get('earnings') not in (None, 0) else (sec.get('pretax' + y) if use_sec else None)
     f['pretax_kind'] = 'Pre-tax profit'; f['pretax_ttm'] = c.get('earnings') not in (None, 0)
