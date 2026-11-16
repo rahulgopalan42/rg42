@@ -45,10 +45,10 @@ RAISED = re.compile(r'(?i)\b(raised|raise|round|series [a-k]\b|funding|investmen
 RECENT = re.compile(r'(?i)\b((nov|dec)[a-z]*\.? 2025|(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov)[a-z]*\.? 2026|in 2026|\(2026\))')
 NOT_RAISE = re.compile(r'(?i)purchase of|agreed to buy|to acquire|acquires|acquired|buys |bought ')
 BUYOUT = re.compile(r'(?i)taken private|take-private|acquired by|bought by|acquisition of|buyout|sold to|agreed sale|sale by')
-REV = re.compile(r'(?i)^[^;:.]{0,45}?\b(revenues?|sales|total income|net trading income|trading income|net revenue)\b')
+REV = re.compile(r'(?i)^[^;:.]{0,45}?\b(revenues?|sales|turnover|total income|net trading income|trading income|net revenue)\b')
 # decisions made by hand after reading the lists: name -> reason it is left out
 DROP = {'Mode Transportation': 'Ownership could not be established', 'Kaspersky': 'Under United States sanctions; Ferrari paused its partnership in 2022',
-        'Qatar Sports Investments': 'Investment fund, not an operating company',
+        'Qatar Sports Investments': 'Investment fund, not an operating company', 'Semikron Danfoss': 'Majority-owned by Danfoss, which is on the list',
         'Eucalyptus': 'Reported bought by Hims & Hers (listed), completed June 2026', 'Eucalyptus Health': 'Reported bought by Hims & Hers (listed), completed June 2026'}
 # an importer or distributor of an F1 carmaker's vehicles is not an F1 partner: kept, with the link in Verification Notes
 F1_KEEP = {'Pon Holdings B.V.'}
@@ -58,7 +58,8 @@ NOT_LISTED = {'WeTrade'}                      # the broker; the listed WeTrade G
 F1_EXTRA = dict(AN.F1_OWNERS, **{'Cognition AI': 'Cognition (Aston Martin)', 'Arctic Wolf Networks': 'Arctic Wolf', 'Jet365': 'Alpine', 'Intel': 'McLaren', 'Gucci': 'Alpine title partner from 2027', 'Electronic Arts': 'EA SPORTS (official F1 video game)'})
 # same company as a brand already on the sheet under a longer or shorter name: name -> name on the sheet
 SAME = {'Roquette Frères S.A.': 'Roquette', 'Louis Dreyfus Company B.V.': 'Louis Dreyfus Company', 'Farmers Insurance Exchange': 'Farmers Insurance', "Jersey Mike's": "Jersey Mike's Subs",
-        'Skechers': 'Skechers U.S.A.', 'Walgreens': 'Walgreens Boots Alliance', 'Fanatics Betting & Gaming': 'Fanatics'}
+        'Skechers': 'Skechers U.S.A.', 'Walgreens': 'Walgreens Boots Alliance', 'Fanatics Betting & Gaming': 'Fanatics',
+        'Temporal': 'Temporal Technologies', 'Aman': 'Aman Resorts', 'Erebor Bank': 'Erebor', 'Jeppesen': 'Jeppesen ForeFlight', 'Envision Energy': 'Envision Group', 'Eurostar': 'Eurostar International'}
 # research lines whose short name collides with a different company on the sheet: (file, name) -> fuller name
 RENAME = {('unicorn_1', 'Branch'): 'Branch Metrics', ('unicorn_1', 'Hello (Hellobike)'): 'Hellobike', ('ai_models', 'Vinci'): 'Vinci AI'}      # Vinci AI is not the listed construction group VINCI
 # research lines not used: the same company is carried from another file with firmer evidence
@@ -84,11 +85,31 @@ NOTE = {'Youibot': 'Filed for a Hong Kong listing in Mar 2026: check whether it 
         'Pentland Group': 'The revenue figure is from 2018 and probably includes its stake in listed JD Sports', 'RSG Group': 'The revenue figure found is from 2021',
         'Qiddiya Investment Company': 'Pre-revenue; Qiddiya is building a circuit intended to host the Saudi Arabian Grand Prix, so it may become an F1 race host',
         'Qiddiya': 'Pre-revenue; Qiddiya is building a circuit intended to host the Saudi Arabian Grand Prix, so it may become an F1 race host',
+        'Naval Group': 'State-controlled; Thales (listed) owns 35%', 'Patria': 'State-controlled; Kongsberg (listed) owns 49.9%', 'Nammo': 'Half owned by Patria, half by the Norwegian state',
+        'Roketsan': 'State-controlled; Aselsan (listed) owns 15%', 'Marshall Group': 'The only turnover figure found is from about 2012', 'Pilatus Aircraft': 'The revenue figure found is from 2018',
+        'Kela Technologies': 'Valuation reports differ: USD 1.2bn post-money or USD 1bn pre-money',
         'Hotwire Communications': 'Owned by Brookfield funds', 'Alcatel Submarine Networks': '80% owned by the French state'}
 # signals read by hand and judged not to be the thing the parameter asks for: shown as "Lead only"
 SIG_DOWN = {('dnata', 'marketing'), ('VGW', 'marketing'), ('Air Serbia', 'marketing'), ('EDGE Group', 'regions'), ('Eurostar', 'regions'), ('atNorth', 'raise')}
 # a company found by two groups keeps one line; where that line came from the less fitting group, the tab is set by hand
 TAB_FIX = {'Tether': 'NEW Crypto & Digital Assets', 'Hargreaves Lansdown': 'NEW Brokers & Trading', 'Zerodha': 'NEW Brokers & Trading', 'Trading 212': 'NEW Brokers & Trading'}
+# headquarters the research did not find on a page, added from general knowledge and flagged as such in Verification Notes
+HQ_KNOWN = {'Axi': 'Sydney, Australia', 'Peregrine Technologies': 'San Francisco, United States', 'Simon-Kucher': 'Bonn, Germany', 'Hudson River Trading': 'New York, United States',
+            'Prime Hydration': 'Louisville, United States', 'Trading 212': 'London, United Kingdom', 'Speak': 'San Francisco, United States', 'PowerSchool': 'Folsom, United States',
+            'Hotwire Communications': 'Fort Lauderdale, United States'}
+HQ_NONE = {'DLA Piper', 'Dentons', 'Norton Rose Fulbright'}      # international law firms whose pages state no single headquarters
+# the same company under two names
+ALIAS = {'Merkur Group': 'Gauselmann Group (Merkur)', 'Massachusetts Mutual Life Insurance Company (MassMutual)': 'MassMutual'}
+FORMS = re.compile(r'(?i)\b(groupe?|gruppo|grupo|holding|holdings|technology|technologies|athletics|stiftung|international|company|companies|corporation|enterprises|industries|limited|ltd|inc|llc|gmbh|kgaa|kg|se|ag|co|cie|sa|spa|bv|nv|as|a/s|ab|asa|pty|plc|lp|l\.p\.|the|and|mbh|og|b\.v\.|s\.a\.|s\.p\.a\.)\b')
+def core(n):
+    n = ALIAS.get(n, n)
+    return b.loose(FORMS.sub('', re.sub(r'\(.*?\)', '', n))) or b.loose(n)
+# owners of current F1 partners, and family holdings whose main operating business is itself listed (that business is covered in the listed-company work)
+F1_PAT = [(re.compile(r'(?i)w[üu]rth'), 'Owner of Liqui Moly, a Formula 1 partner'), (re.compile(r'(?i)^CMA CGM'), 'Owner of CEVA Logistics, a Ferrari partner')]
+HOLDS_LISTED = {'INA-Holding Schaeffler': 'Schaeffler AG', 'John Swire & Sons': 'Swire Pacific', 'Murugappa Group': 'its group companies (Cholamandalam, Tube Investments, Coromandel)', 'Zorlu Holding': 'Vestel',
+                'Yıldız Holding': 'Ülker (its unlisted biscuit business pladis is on the list)', 'Borusan Holding': 'its Istanbul-listed group companies', 'Hengli Group': 'Hengli Petrochemical',
+                'Shandong Weiqiao Pioneering Group': 'China Hongqiao and Weiqiao Textile', 'Hailiang Group': 'Zhejiang Hailiang', 'Wanxiang Group': 'Wanxiang Qianchao', 'Jiangsu Shagang Group': 'Jiangsu Shagang Co.',
+                'Zhejiang Geely Holding Group': 'Geely Automobile and Volvo Cars (it also holds minority stakes in Aston Martin and Mercedes-Benz)'}
 clean = b.clean
 def tab_for(theme, key, sector, what=''):
     if key in ('crypto', 'betting') and re.search(r'prediction market', what, re.I): return 'NEW Betting & Prediction Mkts'
@@ -97,8 +118,11 @@ def tab_for(theme, key, sector, what=''):
     for name, _, pat in NEW:
         if t and re.search(pat, t): return name
     return sector
+CTRY = {'Türkiye': 'Turkey', 'Turkiye': 'Turkey', 'UK': 'United Kingdom', 'USA': 'United States', 'US': 'United States', 'U.S.': 'United States', 'UAE': 'United Arab Emirates', 'Czechia': 'Czech Republic',
+        'Republic of Korea': 'South Korea', 'Korea': 'South Korea', "People's Republic of China": 'China', 'The Netherlands': 'Netherlands'}
 def hq_fix(hq):
     parts = [p.strip() for p in clean(hq).strip(',').split(',') if p.strip()]
+    if parts: parts[-1] = CTRY.get(parts[-1], parts[-1])
     return (parts[0] + ', ' + parts[-1] if len(parts) >= 2 and parts[0] != parts[-1] else parts[-1] if parts else 'Not recorded')
 def load():
     A, rows, L = a.load()
@@ -113,20 +137,29 @@ def load():
         drop[why.split(':')[0]] += 1
         if show: left.append((rec['name'], GROUPS.get(rec.get('key', ''), ''), why))
     def add(rec):
-        k = b.loose(rec['name'])
+        k = b.loose(rec['name']); ck = core(rec['name'])
         if not k: return
-        if k in seen:                                    # found by two groups: keep the better-evidenced line, carry over what the other one adds
-            old = seen[k]; drop['Found twice (kept once)'] += 1
-            rank = lambda r: (CONF.get(r.get('conf'), 0), r.get('usd_m') or 0)
-            keep, other = (rec, old) if rec.get('web') and rank(rec) > rank(old) else (old, rec)
+        if ck in seen:                                   # found by two groups: keep the web-checked, better-evidenced line, carry over what the other one adds
+            old = seen[ck]; drop['Found twice (kept once)'] += 1
+            rank = lambda r: (1 if r.get('web') else 0, CONF.get(r.get('conf'), 0), r.get('usd_m') or 0)
+            keep, other = (rec, old) if rank(rec) > rank(old) else (old, rec)
+            if keep['basis'] in ('d', 'e') and other['basis'] == 'b' and other.get('usd_m'):      # a published revenue figure is the firmer capacity proof
+                if keep['basis'] == 'd' and not keep.get('sponsorships'): keep['sponsorships'] = keep['detail']
+                for f in ('basis', 'detail', 'usd_m', 'year', 'source'): keep[f] = other[f]
+                keep['rank_fig'] = not other.get('web')
             if not keep.get('sponsorships'): keep['sponsorships'] = other.get('sponsorships', '')
+            if len([p for p in clean(keep.get('hq')).split(',') if p.strip()]) < len([p for p in clean(other.get('hq')).split(',') if p.strip()]): keep['hq'] = other['hq']
             for sk, sv in (other.get('signals') or {}).items():
                 if sv and not (keep.get('signals') or {}).get(sk): keep.setdefault('signals', {})[sk] = sv
-            if keep is rec: out[out.index(old)] = rec; seen[k] = rec
+            if keep is rec: out[out.index(old)] = rec; seen[ck] = rec
             return
         if rec['name'] in DROP: return leave(rec, DROP[rec['name']])
         l, _ = b.f1_link(rec['name'])
         if rec['name'] in F1_KEEP: rec['f1note'] = rec.get('f1note') or rec.get('f1'); rec['f1'] = ''
+        for pat, why in F1_PAT:
+            if pat.search(rec['name']): return leave(rec, 'Current F1 partner or owner of one: ' + why)
+        for nm, sub in HOLDS_LISTED.items():
+            if rec['name'].startswith(nm): return leave(rec, 'Holding company whose main operating business is listed: ' + sub)
         if l or rec['name'] in F1_EXTRA or rec.get('f1'): return leave(rec, 'Current F1 partner or owner of one: ' + str(l or F1_EXTRA.get(rec['name']) or rec.get('f1')))
         if k in onsheet or rec['name'] in SAME:
             sr = sheetrow.get(b.loose(SAME[rec['name']])) if rec['name'] in SAME else sheetrow.get(k)
@@ -141,7 +174,7 @@ def load():
             par = clean(rec.get('parent'))
             if not par or b.loose(par) in listed or b.f1_link(par)[0]: return leave(rec, 'Owned by a listed group or an F1 partner: ' + (par or 'owner not named'))
             rec['ownership'] = f'Owned by {par} (unlisted)'
-        seen[k] = rec; out.append(rec)
+        seen[ck] = rec; out.append(rec)
     # 1. ranking companies, profiled from the ranking line
     R = {d['id']: d for d in json.load(open(os.path.join(H, 'newsec', 'ranking_rows.json'), encoding='utf-8'))}
     P = {}
@@ -197,9 +230,15 @@ def load():
         x['S'] = S; x['nconf'] = sum(1 for v in S.values() if v[0] == 'Confirmed')
         x['rank'] = 'High' if x['nconf'] >= 2 else 'Medium' if x['nconf'] == 1 else 'To Verify'
         x['fit'] = round(0.25 * b.FIT[x['sector']] * 10 + 0.50 * b.REL[x['rel']] + 0.25 * b.REACH[x['reach']], 1)
-        x['hq'] = hq_fix(x['hq']); x['country'] = x['hq'].split(',')[-1].strip()
+        x['hq'] = hq_fix(x['hq']); x['hq_known'] = False
+        if x['hq'] == 'Not recorded' and x['name'] in HQ_KNOWN: x['hq'] = HQ_KNOWN[x['name']]; x['hq_known'] = True
+        x['country'] = x['hq'].split(',')[-1].strip()
+        if x['name'] in HQ_NONE and x['hq'] == 'Not recorded': x['hq'] = 'No single headquarters (international partnership)'; x['country'] = 'International'
         x['tab'] = TAB_FIX.get(x['name']) or tab_for(x['theme'], x['key'], x['sector'], x['industry'] + ' ' + x['desc'])
-        x['is_rev'] = x['basis'] == 'b' and bool(x['usd_m']) and (not x['web'] or bool(REV.match(x['detail'])))
+        m = REV.match(x['detail'])
+        said_rev = bool(m) and m.start(1) <= 34 and not re.search(r'(?i)profit|stakes|result|recurring|estimat', x['detail'][:m.start(1)]) and not (m.group(1).lower() == 'turnover' and x['sector'] == 'Gambling & Gaming Venues') and not re.search(r'(?i)estimate', x['detail'])
+        x['is_rev'] = x['basis'] == 'b' and bool(x['usd_m']) and (not x['web'] or bool(x.get('rank_fig')) or said_rev)
+        if x['tab'].startswith('NEW '): x['theme'] = x['tab'][4:]
     out.sort(key=lambda x: ({'High': 0, 'Medium': 1, 'To Verify': 2}[x['rank']], RORD[x['reach']], -x['fit'], -(x['usd_m'] or 0), x['name']))
     newtabs = {n for n, _, _ in NEW}; have = []
     for x in L:                                          # in scope on the sheet, capacity passed, not Domestic, in a sector that gets a new tab
@@ -221,17 +260,20 @@ def cells(x):
     if x['changed']: notes.append(x['changed'])
     if x['f1note']: notes.append('F1 note: ' + x['f1note'])
     if re.search(r'(?i)estimate', x['detail']): notes.append('The capacity figure is a third-party estimate, not a figure published by the company')
-    if x['basis'] == 'b' and not x['is_rev']: notes.append('The capacity figure is not revenue as such (see Capacity Evidence)')
+    if x['basis'] == 'b' and not x['is_rev'] and not re.search(r'(?i)estimate', x['detail']): notes.append('The capacity figure is not revenue as such (see Capacity Evidence)')
     if x['name'] in NOTE: notes.append(NOTE[x['name']])
+    if x['key'] == 'pe_owned' and re.search(r'202[56]', x['year']): notes.append('Taken private or bought recently: confirm that the deal has completed and the shares are delisted')
+    if x.get('hq_known'): notes.append('Headquarters added from general knowledge, not from a page read in this research')
+    if x['hq'] == 'Not recorded': notes.append('Headquarters not found on the pages read')
     if 'newmarketpitch' in x['source']: notes.append('Funding figure comes from one third-party funding tracker: confirm with the company before outreach')
     if x['basis'] in ('d', 'e'): notes.append('No financial figure found: capacity rests on ' + ('an existing sports sponsorship' if x['basis'] == 'd' else 'state-fund ownership'))
     sig = lambda k: x['S'][k][0] + (': ' + x['S'][k][1] if x['S'][k][1] else '')
     liq = ('Valuation or deal value: ' + x['detail']) if x['basis'] == 'c' else ('Equity raised: ' + x['detail']) if x['basis'] == 'a' else 'Not found'
     exp = x['S']['regions']
     return [x['name'], x['hq'], 'Qualifies', x['rank'], x['desc'], x['sector'] + (': ' + x['industry'] if x['industry'] else ''), 'Private (not listed)',
-            x['usd_m'] * 1e6 if x['is_rev'] else 'Not published as revenue: see Capacity Evidence' if x['basis'] == 'b' else 'Not found in the sources used', 'Not applicable (not listed)', 'Not found', 'Not found', liq, 'Not Disclosed', x['reach'], x['markets'],
+            x['usd_m'] * 1e6 if x['is_rev'] else 'No published revenue figure: see Capacity Evidence' if x['basis'] == 'b' else 'Not found in the sources used', 'Not applicable (not listed)', 'Not found', 'Not found', liq, 'Not Disclosed', x['reach'], x['markets'],
             x['rationale'], x['year'] or 'Not stated', x['source'], b.F1_NOTE, 'Plausible Capacity', '; '.join(notes) or 'None flagged', x['fit'], x['conf'].title(),
-            'No (new brand)', x['tab'], x['sector'], x['theme'], x['ownership'], 'Pre-revenue' if x['stage'] == 'pre-revenue' else 'Selling', TEST[x['basis']], x['detail'], x['source'], x['sponsorships']] + \
+            'No (new brand)', x['tab'], x['sector'], x['theme'], x['ownership'], 'Pre-revenue' if x['stage'] == 'pre-revenue' else 'Selling', TEST[x['basis']], x['detail'], x['source'], x['sponsorships'] or ('None found' if x['web'] else 'Not checked')] + \
            [sig(k) for k in a.SIG] + [x['nconf'], ('Yes: ' + exp[1]) if exp[0] == 'Confirmed' else ('Possibly: ' + exp[1]) if exp[0] == 'Lead only' else 'Not yet checked', GROUPS.get(x['key'], x['key'])]
 def cells_have(x, tab):
     """a brand already on the sheet, in this workbook's column layout (figures as in the all-sector workbook)"""
@@ -245,8 +287,8 @@ def tabs(L):
     return [(n, r) for n, r in T if r or any(t == n for t, _ in load.have)]
 def check(L, left, drop, onsheet):
     bad = []
-    names = Counter(b.loose(x['name']) for x in L)
-    bad += [('twice', x['name']) for x in L if names[b.loose(x['name'])] > 1]
+    names = Counter(core(x['name']) for x in L)
+    bad += [('twice', x['name']) for x in L if names[core(x['name'])] > 1]
     bad += [('on sheet', x['name']) for x in L if b.loose(x['name']) in onsheet]
     bad += [('F1', x['name']) for x in L if b.f1_link(x['name'])[0]]
     bad += [('no source', x['name']) for x in L if not x['source']]
@@ -270,7 +312,8 @@ def write(L, left, drop, now_private, path):
     from openpyxl.utils import get_column_letter
     wb = Workbook(write_only=True)
     n = len(L); rc = Counter(x['reach'] for x in L); bc = Counter(x['basis'] for x in L); rk = Counter(x['rank'] for x in L); T = tabs(L)
-    tc = Counter(x['tab'] for x in L); ctry = Counter(x['country'] for x in L); newn = [nm for nm, _, _ in NEW]
+    tc = Counter(x['tab'] for x in L); ctry = Counter(x['country'] for x in L if x['country'] not in ('Not recorded', 'International')); newn = [nm for nm, _, _ in NEW]
+    nohq = sum(1 for x in L if x['hq'] == 'Not recorded')
     n_new = sum(tc[t] for t in newn); desk = sum(1 for x in L if not x['web']); hc = Counter(t for t, _ in load.have)
     S = [('New brands for your sheet, filed by category (16 Nov 2026)',),
          [f"{n:,} companies that are not on your 48-tab sheet. Each is unlisted, is not a current F1 partner or the owner of one, and passes the capacity test with a source. Headquarters in {len(ctry)} countries."],
@@ -281,7 +324,7 @@ def write(L, left, drop, now_private, path):
          ('Your existing tabs that gain new brands (including Domestic)',)] + [[f"{t}: {tc[t]}"] for t in b.FIT if tc[t]] + [[],
          ('How each company passes parameter 3 (can it pay)',)] + [[f"{TEST[k]}: {bc[k]}"] for k in 'abcde' if bc[k]] + [[],
          ('Reach',), [f"Global {rc['Global']}; International {rc['International']}; Regional {rc['Regional']}; Domestic {rc['Domestic']}."], [],
-         ('Headquarters',), ['; '.join(f'{c} {v}' for c, v in ctry.most_common(25)) + ('; others ' + str(sum(v for c, v in ctry.most_common()[25:])) if len(ctry) > 25 else '') + '.'], [],
+         ('Headquarters',), ['; '.join(f'{c} {v}' for c, v in ctry.most_common(25)) + ('; other countries ' + str(sum(v for c, v in ctry.most_common()[25:])) if len(ctry) > 25 else '') + f'; not found on the pages read {nohq}; no single headquarters 3.'], [],
          ('Priority under the parameters',),
          [f"High {rk['High']}; Medium {rk['Medium']}; To Verify {rk['To Verify']}. Most are To Verify because the four reasons to buy (parameter 4) have not been looked up for these companies yet. A reason is shown only where the research came across it."], [],
          ('Found but left out',)] + [[f"{v} - {k}"] for k, v in drop.most_common()] + [[],
