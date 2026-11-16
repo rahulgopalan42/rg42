@@ -8,7 +8,7 @@ import glob, html, json, os, re, sys
 from collections import Counter
 H = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, H)
 import bp_build as b, allsector as a, allsector_notes as AN
-OUT = os.path.join(b.R, 'reports', 'F1-NEW-BRANDS-BY-CATEGORY-2026-11-16.xlsx')
+OUT = os.path.join(b.R, 'reports', 'F1-NEW-BRANDS-BY-CATEGORY-v2-2026-11-16.xlsx')
 RORD = a.RORD
 # how each research group is described in the "How Found" column
 GROUPS = {'rank': 'Public revenue rankings of unlisted companies', 'brokers': 'Web research: brokers and trading platforms', 'crypto': 'Web research: crypto and prediction markets',
@@ -110,9 +110,22 @@ HOLDS_LISTED = {'INA-Holding Schaeffler': 'Schaeffler AG', 'John Swire & Sons': 
                 'Yıldız Holding': 'Ülker (its unlisted biscuit business pladis is on the list)', 'Borusan Holding': 'its Istanbul-listed group companies', 'Hengli Group': 'Hengli Petrochemical',
                 'Shandong Weiqiao Pioneering Group': 'China Hongqiao and Weiqiao Textile', 'Hailiang Group': 'Zhejiang Hailiang', 'Wanxiang Group': 'Wanxiang Qianchao', 'Jiangsu Shagang Group': 'Jiangsu Shagang Co.',
                 'Zhejiang Geely Holding Group': 'Geely Automobile and Volvo Cars (it also holds minority stakes in Aston Martin and Mercedes-Benz)'}
+def group_label(key):
+    if key in GROUPS: return GROUPS[key]
+    if key.startswith('region_'): return 'Second pass: regional rankings and company pages'
+    if key.startswith('confirm_'): return 'Second pass: proof found on a second attempt'
+    if key.startswith('pe_'): return 'Second pass: private-equity portfolios'
+    return key
+def is_pass2(key): return key.startswith(('region_', 'confirm_', 'pe_us', 'pe_intl'))
 clean = b.clean
-def tab_for(theme, key, sector, what=''):
+def tab_for(theme, key, sector, what='', grp=''):
+    g = grp.lower()
     if key in ('crypto', 'betting') and re.search(r'prediction market', what, re.I): return 'NEW Betting & Prediction Mkts'
+    if key.startswith('confirm'):
+        if 'betting' in g: return 'NEW Betting & Prediction Mkts'
+        if 'broker' in g: return 'NEW Brokers & Trading'
+        if 'cybersecurity and fintech' in g and not theme: return 'NEW Cybersecurity' if re.search(r'(?i)cyber|security', what) else 'NEW Neobanks & Payments'
+        if not theme and re.search(r'infrastructure|robotics|ai models|space|defence|nuclear|quantum', g): theme = grp
     if key in GROUP_TAB and not re.search(r'prediction', theme, re.I): return GROUP_TAB[key]
     t = theme.lower()
     for name, _, pat in NEW:
@@ -135,7 +148,7 @@ def load():
     out = []; left = []; drop = Counter(); seen = {}; now_private = []
     def leave(rec, why, show=True):
         drop[why.split(':')[0]] += 1
-        if show: left.append((rec['name'], GROUPS.get(rec.get('key', ''), ''), why))
+        if show: left.append((rec['name'], group_label(rec.get('key', '')), why))
     def add(rec):
         k = b.loose(rec['name']); ck = core(rec['name'])
         if not k: return
@@ -196,14 +209,14 @@ def load():
              'conf': clean(p.get('conf')).lower() or 'low', 'status': clean(p.get('status')).lower(), 'parent': clean(p.get('parent')), 'changed': clean(p.get('changed')), 'stage': 'commercial',
              'f1': f1 if dec[0] == 'exclude' else '', 'f1note': f1 if f1 and dec[0] != 'exclude' else '', 'web': False})
     # 2. web research files, one per group
-    for p in sorted(glob.glob(os.path.join(H, 'newsec', 'web', '*.jsonl'))):
+    for p in sorted(glob.glob(os.path.join(H, 'newsec', 'web', '*.jsonl'))) + sorted(f for f in glob.glob(os.path.join(H, 'newsec', 'web2', '*.jsonl')) if not os.path.basename(f).startswith('unconfirmed_')):
         key = os.path.basename(p)[:-6]
         for l in open(p, encoding='utf-8'):
             if not l.strip(): continue
             try: d = json.loads(l)
             except Exception: drop['Unreadable line'] += 1; continue
             bas = clean(d.get('capacity_basis')).lower()[:1]; um = d.get('capacity_usd_m'); um = um if isinstance(um, (int, float)) else None
-            rec = {'key': key, 'name': clean(d.get('name'))}
+            rec = {'key': key, 'name': clean(d.get('name')), 'grp': clean(d.get('group'))}
             if not rec['name'] or (key, rec['name']) in SKIP_LINE: continue
             rec['name'] = RENAME.get((key, rec['name']), rec['name'])
             if bas not in TEST or not clean(d.get('capacity_source')).startswith('http'): leave(rec, 'Capacity not shown from a page'); continue
@@ -234,7 +247,7 @@ def load():
         if x['hq'] == 'Not recorded' and x['name'] in HQ_KNOWN: x['hq'] = HQ_KNOWN[x['name']]; x['hq_known'] = True
         x['country'] = x['hq'].split(',')[-1].strip()
         if x['name'] in HQ_NONE and x['hq'] == 'Not recorded': x['hq'] = 'No single headquarters (international partnership)'; x['country'] = 'International'
-        x['tab'] = TAB_FIX.get(x['name']) or tab_for(x['theme'], x['key'], x['sector'], x['industry'] + ' ' + x['desc'])
+        x['tab'] = TAB_FIX.get(x['name']) or tab_for(x['theme'], x['key'], x['sector'], x['industry'] + ' ' + x['desc'], x.get('grp', ''))
         m = REV.match(x['detail'])
         said_rev = bool(m) and m.start(1) <= 34 and not re.search(r'(?i)profit|stakes|result|recurring|estimat', x['detail'][:m.start(1)]) and not (m.group(1).lower() == 'turnover' and x['sector'] == 'Gambling & Gaming Venues') and not re.search(r'(?i)estimate', x['detail'])
         x['is_rev'] = x['basis'] == 'b' and bool(x['usd_m']) and (not x['web'] or bool(x.get('rank_fig')) or said_rev)
@@ -248,6 +261,29 @@ def load():
     have.sort(key=lambda r: ({'High': 0, 'Medium': 1, 'To Verify': 2}[r[1]['rank']], RORD[r[1]['reach']], -a.fit(r[1]), r[1]['name']))
     load.have = have
     return out, left, drop, onsheet, now_private
+def extras(L, onsheet):
+    """what the second pass found but could not prove (shown, not counted), Clay leads, and announced deals to watch"""
+    have = {core(x['name']) for x in L}; seen = set(); conf = []; outs = []; leads = []
+    for f in sorted(glob.glob(os.path.join(H, 'newsec', 'web2', 'unconfirmed_*.jsonl'))):
+        for l in open(f, encoding='utf-8'):
+            try: d = json.loads(l)
+            except Exception: continue
+            nm = clean(d.get('name')); ck = core(nm)
+            if not nm or ck in have or ck in seen or b.loose(nm) in onsheet or b.f1_link(nm)[0]: continue
+            seen.add(ck); miss = clean(d.get('missing'))
+            row = [nm, hq_fix(d.get('hq')), d.get('sector') if d.get('sector') in b.FIT else '', clean(d.get('group')), clean(d.get('what_is_known')), miss, clean(d.get('pages_tried'))]
+            (outs if miss.upper().startswith('OUT') else conf).append(row)
+    for f in sorted(glob.glob(os.path.join(H, 'newsec', 'leads', '*.jsonl'))):
+        for l in open(f, encoding='utf-8'):
+            try: d = json.loads(l)
+            except Exception: continue
+            nm = clean(d.get('name')); ck = core(nm)
+            if not nm or ck in have or ck in seen or b.loose(nm) in onsheet or b.f1_link(nm)[0]: continue
+            seen.add(ck)
+            leads.append([nm, clean(d.get('domain')), hq_fix(d.get('hq')), clean(d.get('industry')), clean(d.get('clay_revenue')), clean(d.get('clay_employees')), clean(d.get('clay_type'))])
+    wp = os.path.join(H, 'newsec', 'watch_deals.json')
+    watch = [[n, 'Take-private or sale announced but not completed when checked on 16 Nov 2026: it becomes an unlisted prospect if the deal closes'] for n in (json.load(open(wp)) if os.path.exists(wp) else [])]
+    return sorted(conf, key=lambda r: (r[3], r[0])), sorted(outs), sorted(leads, key=lambda r: (r[2].split(',')[-1].strip(), r[0])), watch
 COLS = a.COLS[:23] + ['On Your Sheet?', 'Category Tab (This Workbook)', 'Closest Tab on Your Existing Sheet', 'Theme', 'Ownership Type', 'Stage', 'Parameter 3: Capacity Test Passed',
                       'Capacity Evidence', 'Capacity Source', 'Sports Sponsorships Found'] + a.COLS[30:35] + ['Expanding?', 'How Found']
 WIDTH = b.WIDTH[:23] + [12, 26, 26, 28, 26, 12, 34, 46, 46, 40, 36, 36, 40, 40, 11, 34, 34]
@@ -274,7 +310,7 @@ def cells(x):
             x['usd_m'] * 1e6 if x['is_rev'] else 'No published revenue figure: see Capacity Evidence' if x['basis'] == 'b' else 'Not found in the sources used', 'Not applicable (not listed)', 'Not found', 'Not found', liq, 'Not Disclosed', x['reach'], x['markets'],
             x['rationale'], x['year'] or 'Not stated', x['source'], b.F1_NOTE, 'Plausible Capacity', '; '.join(notes) or 'None flagged', x['fit'], x['conf'].title(),
             'No (new brand)', x['tab'], x['sector'], x['theme'], x['ownership'], 'Pre-revenue' if x['stage'] == 'pre-revenue' else 'Selling', TEST[x['basis']], x['detail'], x['source'], x['sponsorships'] or ('None found' if x['web'] else 'Not checked')] + \
-           [sig(k) for k in a.SIG] + [x['nconf'], ('Yes: ' + exp[1]) if exp[0] == 'Confirmed' else ('Possibly: ' + exp[1]) if exp[0] == 'Lead only' else 'Not yet checked', GROUPS.get(x['key'], x['key'])]
+           [sig(k) for k in a.SIG] + [x['nconf'], ('Yes: ' + exp[1]) if exp[0] == 'Confirmed' else ('Possibly: ' + exp[1]) if exp[0] == 'Lead only' else 'Not yet checked', group_label(x['key'])]
 def cells_have(x, tab):
     """a brand already on the sheet, in this workbook's column layout (figures as in the all-sector workbook)"""
     c = a.cells(x)
@@ -305,7 +341,7 @@ def near(L, onsheet):
         hit = [onsheet[s] for s in keys if s != k and ((s.startswith(k) and len(s) <= len(k) + 14) or (len(s) >= 5 and k.startswith(s)))][:3]
         if hit: out.append((x['name'], x['tab'], hit))
     return out
-def write(L, left, drop, now_private, path):
+def write(L, left, drop, now_private, path, onsheet=None):
     import write_xlsx as wx
     from openpyxl import Workbook
     from openpyxl.cell import WriteOnlyCell
@@ -315,11 +351,20 @@ def write(L, left, drop, now_private, path):
     tc = Counter(x['tab'] for x in L); ctry = Counter(x['country'] for x in L if x['country'] not in ('Not recorded', 'International')); newn = [nm for nm, _, _ in NEW]
     nohq = sum(1 for x in L if x['hq'] == 'Not recorded')
     n_new = sum(tc[t] for t in newn); desk = sum(1 for x in L if not x['web']); hc = Counter(t for t, _ in load.have)
-    S = [('New brands for your sheet, filed by category (16 Nov 2026)',),
+    conf, outs, leads, watch = extras(L, onsheet or {})
+    p2 = [x for x in L if is_pass2(x['key'])]; p2k = Counter('regional rankings' if x['key'].startswith('region_') else 'second proof attempt' if x['key'].startswith('confirm_') else 'private-equity portfolios' for x in p2)
+    p2c = Counter(x['country'] for x in p2 if x['country'] not in ('Not recorded', 'International'))
+    S = [('New brands for your sheet, filed by category - second pass included (16 Nov 2026)',),
          [f"{n:,} companies that are not on your 48-tab sheet. Each is unlisted, is not a current F1 partner or the owner of one, and passes the capacity test with a source. Headquarters in {len(ctry)} countries."],
          [f"{n_new:,} of the new brands belong to sectors your sheet has no tab for; they are on {sum(1 for t in newn if tc[t] or hc[t])} new tabs (names start with NEW). {n - n_new:,} are filed under {sum(1 for t in b.FIT if tc[t])} of your existing tab names."],
          [f"Each new sector tab is complete: the new brands come first (On Your Sheet? = No), followed by the {len(load.have):,} brands that are already on your sheet under other tabs and belong to that sector (On Your Sheet? = Yes). These are not counted as new."],
          ['Each new brand is on one tab only. Domestic brands are on the Domestic tab, not on the category tabs. The All New Brands tab holds every new brand and nothing else.'], [],
+         ('What the second pass added',),
+         [f"{len(p2):,} more qualifying brands ({n - len(p2):,} in the first pass): " + '; '.join(f'{v} from {k}' for k, v in p2k.most_common()) + '. The "How Found" column starts with "Second pass" for these.'],
+         ['Second-pass brands by headquarters: ' + '; '.join(f'{c} {v}' for c, v in p2c.most_common(30)) + '.'],
+         [f"{len(conf):,} companies that look like prospects but whose capacity or ownership could not be shown from a public page are on the Capacity To Confirm tab. They are not counted as qualifying."],
+         [f"{len(leads):,} privately held companies returned by Clay and not otherwise known are on the Clay Leads tab. Clay's revenue bracket is right about half the time for private companies, so these are leads only."],
+         [f"{len(watch)} listed companies with a take-private or sale announced but not completed are on the Deals Announced tab."], [],
          ('New sector tabs: new brands (including Domestic) + brands already on your sheet (Global, International and Regional)',)] + [[f"{t[4:]}: {tc[t]} new + {hc[t]} already on your sheet - {what}"] for t, what, _ in NEW if tc[t] or hc[t]] + [[],
          ('Your existing tabs that gain new brands (including Domestic)',)] + [[f"{t}: {tc[t]}"] for t in b.FIT if tc[t]] + [[],
          ('How each company passes parameter 3 (can it pay)',)] + [[f"{TEST[k]}: {bc[k]}"] for k in 'abcde' if bc[k]] + [[],
@@ -331,7 +376,8 @@ def write(L, left, drop, now_private, path):
          ('How the list was made',),
          [f"{n - desk:,} companies come from web research on 16 Nov 2026, one group at a time across all regions, and from the public unicorn list with each company checked. Each carries the fact that makes it qualify and the page it comes from."],
          [f"{desk:,} companies come from public revenue rankings of unlisted companies. The revenue is the ranking figure. Their headquarters city, description and reach were written from the ranking line and general knowledge, not looked up, and each is flagged in Verification Notes."],
-         ['This is a first pass, not the full universe. Each group was researched once. Before a company was researched it was checked against your sheet, so brands you already have were skipped.']]
+         ['Second pass: unlisted companies region by region from national rankings and company pages; a second proof attempt on companies dropped in the first pass; the portfolios of the large investment firms; and a Clay sweep for leads.'],
+         ['No complete register of unlisted companies exists, so this cannot be guaranteed complete. Before a company was researched it was checked against your sheet and the first pass, so brands you already have were skipped.']]
     wx.text_sheet(wb, 'Summary', S, widths=(170,))
     data = {id(x): cells(x) for x in L}
     wx.sheet(wb, 'All New Brands', COLS, WIDTH, [data[id(x)] for x in L])
@@ -339,13 +385,16 @@ def write(L, left, drop, now_private, path):
     wx.sheet(wb, 'Domestic', COLS, WIDTH, [data[id(x)] for x in L if x['reach'] == 'Domestic'])
     NPC = ['Company (on your sheet)', 'Tab on Your Sheet', 'Status in the Earlier Workbook', 'Ownership Found Now', 'Capacity Test Passed', 'Evidence', 'Source', 'Headquarters', 'Geographic Reach']
     if now_private: wx.sheet(wb, 'On Your Sheet - Now Unlisted', NPC, [34, 28, 24, 36, 34, 60, 50, 26, 14], sorted(now_private))
+    if conf: wx.sheet(wb, 'Capacity To Confirm', ['Company', 'Headquarters', 'Sector', 'Found Under', 'What Is Known (from pages read)', 'What Could Not Be Shown', 'Pages Tried'], [34, 26, 28, 34, 70, 60, 50], conf)
+    if leads: wx.sheet(wb, 'Clay Leads (Unconfirmed)', ['Company', 'Website', 'Headquarters (Clay)', 'Industry (Clay)', 'Revenue Bracket (Clay, unverified)', 'Employees (Clay)', 'Company Type (Clay)'], [36, 28, 28, 34, 26, 18, 20], leads)
+    if watch: wx.sheet(wb, 'Deals Announced - Watch', ['Company (still listed)', 'Note'], [34, 120], watch)
     ws = wb.create_sheet('Left Out')
     for j, w in enumerate((40, 48, 90), 1): ws.column_dimensions[get_column_letter(j)].width = w
     hdr = []
     for c in ['Company', 'How Found', 'Why it is not on the list']:
         x = WriteOnlyCell(ws, value=c); x.font = wx.HFONT; x.fill = wx.HEAD; x.alignment = wx.HALIGN; hdr.append(x)
     ws.append(hdr)
-    for row in sorted(left, key=lambda r: (r[2].split(':')[0], r[0])): ws.append(list(row))
+    for row in sorted(left + [(r[0], 'Second pass: proof attempt', (r[5] + (' - ' + r[4] if r[4] else ''))[:400]) for r in outs], key=lambda r: (r[2].split(':')[0], r[0])): ws.append(list(row))
     K = [('What this workbook is', 'New brands only: none of them is on your 48-tab sheet. Same parameter set as the all-sector workbook.'),
          ('Tabs', 'Tabs starting with NEW are sectors your sheet has no tab for. Each holds the new brands first, then the brands already on your sheet that belong to that sector. The other category tabs carry your own tab names and hold new brands only, so the rows can be pasted under the matching tab.'),
          ('On Your Sheet?', 'No (new brand) = not on your sheet. Yes = already on your sheet under the tab named in "Closest Tab on Your Existing Sheet"; its figures are those of the all-sector workbook (funding as recorded by Crunchbase).'),
@@ -358,6 +407,9 @@ def write(L, left, drop, now_private, path):
          ('Geographic Reach', 'Global, International, Regional or Domestic. Domestic brands are on the Domestic tab.'),
          ('Fit Score (0-100)', 'Sector fit (25%), relevance to F1 (50%) and reach (25%). Orders companies inside the same priority.'),
          ('On Your Sheet - Now Unlisted tab', 'Brands already on your sheet that the earlier workbook treated as listed, owned by another company or unconfirmed, and that this research found to be unlisted today (for example taken private in 2024-26). They are not new brands, so they are not counted here, but they now belong in scope.'),
+         ('Capacity To Confirm tab', 'Companies found by the research that look like prospects but where no public page stated the funding, revenue or owner. Nothing found is dropped silently: check these directly (company accounts, a call) before treating them as prospects.'),
+         ('Clay Leads (Unconfirmed) tab', 'Privately held companies returned by Clay with revenue brackets at or above about USD 250M that are not on your sheet or in this workbook. Unverified: Clay revenue and ownership tags are often wrong for private companies.'),
+         ('Deals Announced - Watch tab', 'Listed companies with a take-private or sale announced but not completed on 16 Nov 2026. Each becomes an unlisted prospect if its deal closes.'),
          ('Left Out tab', 'Companies the research found that are current F1 partners or their owners, listed, owned by a listed group, closed, or whose capacity could not be shown from a page.')]
     wx.text_sheet(wb, 'Key', K)
     wb.save(path)
@@ -368,9 +420,10 @@ if __name__ == '__main__':
     print('reach', dict(Counter(x['reach'] for x in L)), '| basis', dict(Counter(x['basis'] for x in L)), '| rank', dict(Counter(x['rank'] for x in L)), '| countries', len(Counter(x['country'] for x in L)))
     print('tabs', [(n, len(r)) for n, r in tabs(L)], '| domestic', sum(1 for x in L if x['reach'] == 'Domestic'))
     print('on the sheet but now unlisted:', len(now_private), [r[0] for r in now_private][:30])
+    ex = extras(L, onsheet); print('to confirm', len(ex[0]), '| out on second attempt', len(ex[1]), '| clay leads', len(ex[2]), '| watch', len(ex[3]), '| second-pass brands', sum(1 for x in L if is_pass2(x['key'])))
     bad = check(L, left, drop, onsheet); print('CHECK', 'ok' if not bad else bad[:20])
     if len(sys.argv) > 1 and sys.argv[1] == 'near':
         for r in near(L, onsheet): print(r)
     if len(sys.argv) > 1 and sys.argv[1] == 'xlsx':
         if bad: sys.exit('not written: checks failed')
-        write(L, left, drop, now_private, OUT); print(OUT)
+        write(L, left, drop, now_private, OUT, onsheet); print(OUT)
