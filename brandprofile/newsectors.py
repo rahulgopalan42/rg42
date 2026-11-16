@@ -54,6 +54,10 @@ F1_EXTRA = dict(AN.F1_OWNERS, **{'Cognition AI': 'Cognition (Aston Martin)', 'Ar
 # same company as a brand already on the sheet under a longer or shorter name: name -> name on the sheet
 SAME = {'Roquette Frères S.A.': 'Roquette', 'Louis Dreyfus Company B.V.': 'Louis Dreyfus Company', 'Farmers Insurance Exchange': 'Farmers Insurance', "Jersey Mike's": "Jersey Mike's Subs",
         'Skechers': 'Skechers U.S.A.', 'Walgreens': 'Walgreens Boots Alliance', 'Fanatics Betting & Gaming': 'Fanatics'}
+# research lines whose short name collides with a different company on the sheet: (file, name) -> fuller name
+RENAME = {('unicorn_1', 'Branch'): 'Branch Metrics', ('unicorn_1', 'Hello (Hellobike)'): 'Hellobike'}
+# research lines not used: the same company is carried from another file with firmer evidence
+SKIP_LINE = {('unicorn_1', 'Tether')}       # the unicorn list's USD 350bn is a press valuation; the crypto file's line rests on reported profit
 clean = b.clean
 def tab_for(theme, key, sector, what=''):
     if key in ('crypto', 'betting') and re.search(r'prediction market', what, re.I): return 'NEW Betting & Prediction Mkts'
@@ -136,7 +140,8 @@ def load():
             except Exception: drop['Unreadable line'] += 1; continue
             bas = clean(d.get('capacity_basis')).lower()[:1]; um = d.get('capacity_usd_m'); um = um if isinstance(um, (int, float)) else None
             rec = {'key': key, 'name': clean(d.get('name'))}
-            if not rec['name']: continue
+            if not rec['name'] or (key, rec['name']) in SKIP_LINE: continue
+            rec['name'] = RENAME.get((key, rec['name']), rec['name'])
             if bas not in TEST or not clean(d.get('capacity_source')).startswith('http'): leave(rec, 'Capacity not shown from a page'); continue
             if bas in FLOOR and (um is None or um < FLOOR[bas]): leave(rec, f'Capacity figure missing or below the threshold: {clean(d.get("capacity_detail"))}'); continue
             sector = d.get('sector') if d.get('sector') in b.FIT else 'Diversified & Other'
