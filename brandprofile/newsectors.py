@@ -100,7 +100,7 @@ HQ_KNOWN = {'Axi': 'Sydney, Australia', 'Peregrine Technologies': 'San Francisco
             'Hotwire Communications': 'Fort Lauderdale, United States'}
 HQ_NONE = {'DLA Piper', 'Dentons', 'Norton Rose Fulbright'}      # international law firms whose pages state no single headquarters
 # the same company under two names
-ALIAS = {'Merkur Group': 'Gauselmann Group (Merkur)', 'Massachusetts Mutual Life Insurance Company (MassMutual)': 'MassMutual', 'Koninklijke Jumbo Food Groep (Jumbo)': 'Jumbo'}
+ALIAS = {'Merkur Group': 'Gauselmann Group (Merkur)', 'Massachusetts Mutual Life Insurance Company (MassMutual)': 'MassMutual', 'Koninklijke Jumbo Food Groep (Jumbo)': 'Jumbo', 'Jumbo Supermarkten': 'Jumbo', 'Eurostars/Grupo Hotusa': 'Hotusa', 'Grupo Hotusa': 'Hotusa', 'Eurostars Hotel Company': 'Hotusa'}
 FORMS = re.compile(r'(?i)\b(groupe?|gruppo|grupo|holding|holdings|technology|technologies|athletics|stiftung|international|company|companies|corporation|enterprises|industries|limited|ltd|inc|llc|gmbh|kgaa|kg|se|ag|co|cie|sa|spa|bv|nv|as|a/s|ab|asa|pty|plc|lp|l\.p\.|the|and|mbh|og|b\.v\.|s\.a\.|s\.p\.a\.)\b')
 import unicodedata
 def fold(s): return ''.join(c for c in unicodedata.normalize('NFKD', s) if not unicodedata.combining(c))
