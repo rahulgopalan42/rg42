@@ -20,7 +20,7 @@ GROUPS = {'rank': 'Public revenue rankings of unlisted companies', 'brokers': 'W
           'unicorn_1': 'Public unicorn list, each company checked', 'unicorn_2': 'Public unicorn list, each company checked'}
 # new tabs, in workbook order: (tab name, what it covers, pattern on the theme text)
 NEW = [('NEW Quantum Computing', 'Quantum hardware, software and networking', r'quantum'),
-       ('NEW AI Chips', 'AI chips, photonics and chip start-ups', r'chip|semiconductor'),
+       ('NEW AI Chips & Semiconductors', 'AI chips, photonics, chip start-ups and unlisted chip-equipment makers', r'chip|semiconductor'),
        ('NEW AI Infra & Data Centres', 'Data centres, GPU cloud and AI compute', r'infrastructure|data cent|gpu'),
        ('NEW AI Models & Applications', 'AI model developers, agents and applications', r'ai model|agents|application'),
        ('NEW Cybersecurity', 'Cybersecurity companies', r'cyber'),
@@ -34,9 +34,8 @@ NEW = [('NEW Quantum Computing', 'Quantum hardware, software and networking', r'
        ('NEW Crypto & Digital Assets', 'Crypto exchanges, stablecoins and digital assets', r'crypto|digital asset|stablecoin'),
        ('NEW Betting & Prediction Mkts', 'Betting, iGaming and prediction markets', r'prediction|betting|igaming'),
        ('NEW Neobanks & Payments', 'Neobanks, payments and trading apps', r'neobank|payment|trading app'),
-       ('NEW Consumer Health & Wearables', 'Telehealth, wearables, longevity and sports nutrition', r'health|glp|wearable|longevity'),
-       ('NEW Creator, Gaming & Media', 'Creator economy, games, streaming and sports media', r'sport|gaming|creator|entertainment'),
-       ('NEW Challenger Consumer Brands', 'Venture-backed consumer brands', r'consumer brand')]
+       ('NEW Consumer Health & Wearables', 'Telehealth, wearables, longevity and sports nutrition', r'health|glp|wearable|longevity')]
+# consumer brands, games, media and sport have tabs on the sheet already (Fashion, Food & Beverage, Beauty, Video Games, Media, Sports), so brands in those themes go there
 GROUP_TAB = {'brokers': 'NEW Brokers & Trading', 'crypto': 'NEW Crypto & Digital Assets', 'betting': 'NEW Betting & Prediction Mkts'}
 TEST = {'a': 'Equity raised of USD 150M or more', 'b': 'Published revenue of USD 300M or more', 'c': 'Valued at or bought for USD 1B or more since Nov 2023',
         'd': 'Already pays for a top-tier sports sponsorship', 'e': 'Owned by a state fund building the brand internationally'}
@@ -48,7 +47,8 @@ NOT_RAISE = re.compile(r'(?i)purchase of|agreed to buy|to acquire|acquires|acqui
 BUYOUT = re.compile(r'(?i)taken private|take-private|acquired by|bought by|acquisition of|buyout|sold to|agreed sale|sale by')
 REV = re.compile(r'(?i)^[^;:.]{0,45}?\b(revenues?|sales|total income|net trading income|trading income|net revenue)\b')
 # decisions made by hand after reading the lists: name -> reason it is left out
-DROP = {'Mode Transportation': 'Ownership could not be established'}
+DROP = {'Mode Transportation': 'Ownership could not be established', 'Kaspersky': 'Under United States sanctions; Ferrari paused its partnership in 2022',
+        'Eucalyptus': 'Reported bought by Hims & Hers (listed), completed June 2026', 'Eucalyptus Health': 'Reported bought by Hims & Hers (listed), completed June 2026'}
 # an importer or distributor of an F1 carmaker's vehicles is not an F1 partner: kept, with the link in Verification Notes
 F1_KEEP = {'Pon Holdings B.V.'}
 # names that only look like a listed company (a listed namesake or a listed subsidiary); the company itself is unlisted
@@ -77,9 +77,13 @@ NOTE = {'Youibot': 'Filed for a Hong Kong listing in Mar 2026: check whether it 
         'webAI': 'The source gives no date for the USD 1B+ valuation: confirm it is since Nov 2023', 'Zendesk': 'The revenue figure found is from 2018, before it was taken private in 2022',
         '01.AI': 'Valuation dates from Nov 2023, at the cut-off; it has since stopped training its own models', 'Invisible Technologies': 'The USD 2B valuation appears only in a news headline',
         'Mistral AI': 'ASML holds about 11% and Samsung a stake: minority investors',
+        'MoneyGram': 'Former title sponsor of the Haas F1 team (through 2025); not on the current roster', 'Infoblox': 'The figure found is annual recurring revenue, not total revenue',
+        'Stake (Easygo)': 'Former title sponsor of the Sauber F1 team (through 2025); not on the current roster', 'Bybit': 'Former Red Bull Racing partner (replaced in Feb 2025); not on the current roster',
         'Hotwire Communications': 'Owned by Brookfield funds', 'Alcatel Submarine Networks': '80% owned by the French state'}
 # signals read by hand and judged not to be the thing the parameter asks for: shown as "Lead only"
 SIG_DOWN = {('dnata', 'marketing'), ('VGW', 'marketing'), ('Air Serbia', 'marketing'), ('EDGE Group', 'regions'), ('Eurostar', 'regions'), ('atNorth', 'raise')}
+# a company found by two groups keeps one line; where that line came from the less fitting group, the tab is set by hand
+TAB_FIX = {'Tether': 'NEW Crypto & Digital Assets', 'Hargreaves Lansdown': 'NEW Brokers & Trading', 'Zerodha': 'NEW Brokers & Trading', 'Trading 212': 'NEW Brokers & Trading'}
 clean = b.clean
 def tab_for(theme, key, sector, what=''):
     if key in ('crypto', 'betting') and re.search(r'prediction market', what, re.I): return 'NEW Betting & Prediction Mkts'
@@ -189,7 +193,7 @@ def load():
         x['rank'] = 'High' if x['nconf'] >= 2 else 'Medium' if x['nconf'] == 1 else 'To Verify'
         x['fit'] = round(0.25 * b.FIT[x['sector']] * 10 + 0.50 * b.REL[x['rel']] + 0.25 * b.REACH[x['reach']], 1)
         x['hq'] = hq_fix(x['hq']); x['country'] = x['hq'].split(',')[-1].strip()
-        x['tab'] = tab_for(x['theme'], x['key'], x['sector'], x['industry'] + ' ' + x['desc'])
+        x['tab'] = TAB_FIX.get(x['name']) or tab_for(x['theme'], x['key'], x['sector'], x['industry'] + ' ' + x['desc'])
         x['is_rev'] = x['basis'] == 'b' and bool(x['usd_m']) and (not x['web'] or bool(REV.match(x['detail'])))
     out.sort(key=lambda x: ({'High': 0, 'Medium': 1, 'To Verify': 2}[x['rank']], RORD[x['reach']], -x['fit'], -(x['usd_m'] or 0), x['name']))
     newtabs = {n for n, _, _ in NEW}; have = []
