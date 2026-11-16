@@ -318,6 +318,7 @@ def cells(x):
     if re.search(r'(?i)estimate', x['detail']): notes.append('The capacity figure is a third-party estimate, not a figure published by the company')
     if x['basis'] == 'b' and not x['is_rev'] and not re.search(r'(?i)estimate', x['detail']): notes.append('The capacity figure is not revenue as such (see Capacity Evidence)')
     if x['name'] in NOTE: notes.append(NOTE[x['name']])
+    if x['web'] and x['ownership'].lower().startswith('private, owner not stated') and 'unlisted' not in NOTE.get(x['name'], '').lower(): notes.append('Owner not named on the pages read: confirm it is unlisted')
     if x['web'] and x['basis'] == 'b' and not re.search(r'(19|20)\d\d', str(x['year'])) and 'no year' not in NOTE.get(x['name'], ''): notes.append('The revenue figure found carries no year')
     if x['key'] == 'pe_owned' and re.search(r'202[56]', x['year']): notes.append('Taken private or bought recently: confirm that the deal has completed and the shares are delisted')
     if x.get('hq_known'): notes.append('Headquarters added from general knowledge, not from a page read in this research')
