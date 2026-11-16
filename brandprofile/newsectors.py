@@ -48,6 +48,7 @@ BUYOUT = re.compile(r'(?i)taken private|take-private|acquired by|bought by|acqui
 REV = re.compile(r'(?i)^[^;:.]{0,45}?\b(revenues?|sales|total income|net trading income|trading income|net revenue)\b')
 # decisions made by hand after reading the lists: name -> reason it is left out
 DROP = {'Mode Transportation': 'Ownership could not be established', 'Kaspersky': 'Under United States sanctions; Ferrari paused its partnership in 2022',
+        'Qatar Sports Investments': 'Investment fund, not an operating company',
         'Eucalyptus': 'Reported bought by Hims & Hers (listed), completed June 2026', 'Eucalyptus Health': 'Reported bought by Hims & Hers (listed), completed June 2026'}
 # an importer or distributor of an F1 carmaker's vehicles is not an F1 partner: kept, with the link in Verification Notes
 F1_KEEP = {'Pon Holdings B.V.'}
@@ -79,6 +80,10 @@ NOTE = {'Youibot': 'Filed for a Hong Kong listing in Mar 2026: check whether it 
         'Mistral AI': 'ASML holds about 11% and Samsung a stake: minority investors',
         'MoneyGram': 'Former title sponsor of the Haas F1 team (through 2025); not on the current roster', 'Infoblox': 'The figure found is annual recurring revenue, not total revenue',
         'Stake (Easygo)': 'Former title sponsor of the Sauber F1 team (through 2025); not on the current roster', 'Bybit': 'Former Red Bull Racing partner (replaced in Feb 2025); not on the current roster',
+        'Medvi': 'Its 2025 revenue is press-reported and disputed, and it has received an FDA warning letter', 'Head': 'The revenue figure found is from 2014',
+        'Pentland Group': 'The revenue figure is from 2018 and probably includes its stake in listed JD Sports', 'RSG Group': 'The revenue figure found is from 2021',
+        'Qiddiya Investment Company': 'Pre-revenue; Qiddiya is building a circuit intended to host the Saudi Arabian Grand Prix, so it may become an F1 race host',
+        'Qiddiya': 'Pre-revenue; Qiddiya is building a circuit intended to host the Saudi Arabian Grand Prix, so it may become an F1 race host',
         'Hotwire Communications': 'Owned by Brookfield funds', 'Alcatel Submarine Networks': '80% owned by the French state'}
 # signals read by hand and judged not to be the thing the parameter asks for: shown as "Lead only"
 SIG_DOWN = {('dnata', 'marketing'), ('VGW', 'marketing'), ('Air Serbia', 'marketing'), ('EDGE Group', 'regions'), ('Eurostar', 'regions'), ('atNorth', 'raise')}
