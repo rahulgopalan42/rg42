@@ -5,6 +5,8 @@ import bp_build as b
 H = os.path.dirname(os.path.abspath(__file__))
 BCOLS = ['Company', 'Headquarters', 'Sector', 'What It Does', 'Ownership', 'Published Revenue (USD bn)', 'Year', 'Ranking It Comes From', 'Source', 'On Your Sheet?', 'Parameter 3: Can It Pay?']
 SCOLS = ['Sector or Group', 'On Your Sheet Today', 'Why the Sheet Misses It', 'Examples', 'How to Add It']
+# owners of current F1 partners that a name match does not catch (checked by hand, 16 Nov 2026)
+F1_OWNERS = {'MSC Group': 'MSC Cruises', 'CMA CGM Group': 'CEVA Logistics', 'J.C.B. Service': 'JCB', 'Suntory Holdings Ltd.': 'Jim Beam'}
 def beyond(rows, A):
     p = os.path.join(H, 'data', 'large_private.jsonl'); out = []
     if not os.path.exists(p): return out
@@ -14,7 +16,7 @@ def beyond(rows, A):
         try: d = json.loads(l)
         except Exception: continue
         k = b.loose(d.get('name', ''))
-        if not k or k in seen or b.f1_link(d['name'])[0]: continue          # current F1 partners are left out
+        if not k or k in seen or b.f1_link(d['name'])[0] or d['name'] in F1_OWNERS: continue          # current F1 partners and their owners are left out
         seen.add(k); rev = d.get('revenue_usd_bn')
         if not isinstance(rev, (int, float)) or rev < 0.3: continue
         out.append([d['name'], d.get('hq', ''), d.get('sector', ''), d.get('what_it_does', ''), d.get('ownership', ''), rev, str(d.get('revenue_year', '')), d.get('ranking', ''), d.get('source', ''),
@@ -43,7 +45,7 @@ def sectors(rows, B):
       'Portfolio pages of the large PE firms; credit-rating notes for revenue.'],
      ['Professional partnerships (accounting, consulting, law)', 'Almost none', 'Partnerships take no outside funding', 'Already in F1: Deloitte, PwC, Ashurst, Morrison Foerster. Prospects: ' + top('professional', 'consult', 'account', 'legal', 'law'),
       'Published firm revenues (annual reviews, legal and consulting league tables).'],
-     ['State-backed commercial brands', f"{sum(1 for x in rows if x['status'] == 'state-owned' and x['stage'] == 'commercial')} companies", 'Recorded only when they raised debt or equity', ', '.join(x['name'] for x in sorted([x for x in rows if x['status'] == 'state-owned' and x['stage'] == 'commercial' and x['reach'] in ('Global', 'International')], key=lambda x: -x['amt'])[:8]),
+     ['State-backed commercial brands', f"{sum(1 for x in rows if x['status'] == 'state-owned' and x['stage'] == 'commercial')} companies", 'Recorded only when they raised debt or equity', ', '.join(list(dict.fromkeys(re.sub(r'^.*\((\w+)\)$', r'\1', x['name']) for x in sorted([x for x in rows if x['status'] == 'state-owned' and x['stage'] == 'commercial' and x['reach'] in ('Global', 'International') and x['rel'] >= 3], key=lambda x: -x['amt'])))[:8]),
       'Portfolio pages of the sovereign funds (Gulf, Singapore, others) for consumer and travel brands being built internationally.'],
      ['Private aviation and luxury travel', 'A few', 'Mostly founder- or family-owned', 'Already in F1: Flexjet, VistaJet, Jet365. On the sheet: Abercrombie & Kent, Four Seasons, Soho House.', 'Industry fleet rankings and luxury-travel trade lists.'],
      ['Frontier technology: quantum, space, nuclear and fusion, defence', f"{th['Quantum computing']} quantum, {th['Space & satellites']} space, {th['Nuclear & fusion energy']} nuclear and fusion, {th['Defence technology']} defence",
@@ -55,14 +57,16 @@ def summary(A, rows, L, core, other):
     n = len(A['B']); listed = sum(1 for x in rows if x['status'] == 'listed'); rk = Counter(x['rank'] for x in core); rc = Counter(x['reach'] for x in core)
     web = [x for x in L if x['webchecked']]; dropped = [x for x in rows if x.get('dropped')]
     S = lambda k, v: sum(1 for x in core if x['S'][k][0] == v)
+    import allsector
+    ins = {id(x) for x in L}; oc = Counter(allsector.reason_out(x, None).split(' ')[0] for x in rows if id(x) not in ins)
     out = [('Non-listed prospects across all sectors - parameter check of every brand on your sheet (16 Nov 2026)',),
            [f"Sheet: F1-SCREEN-RECORDINGS-ALL-BRANDS-RANKED-2026-11-02-2 (unchanged since 15 Nov). {n:,} brands on 48 sector tabs, each checked against the parameter set agreed on 16 Nov 2026."], [],
            ('Parameters 1 and 2: who is in scope',),
            [f"{len(L):,} brands are operating companies not listed on a stock exchange: {sum(1 for x in L if x['status'] == 'private'):,} private, {sum(1 for x in L if x['status'] == 'state-owned')} state-owned, "
             f"{sum(1 for x in L if x['status'] == 'subsidiary')} owned by a parent that is not a listed company in my data, {sum(1 for x in L if x['status'] == 'unknown'):,} whose ownership is not confirmed."],
-           [f"Out of scope: {listed:,} listed; {sum(1 for x in rows if x['status'] == 'subsidiary') - sum(1 for x in L if x['status'] == 'subsidiary'):,} owned by a listed group; {sum(1 for x in rows if x['status'] == 'defunct')} closed or absorbed; "
-            f"{sum(1 for x in rows if x['stage'] in ('fund', 'project') and x['status'] not in ('listed', 'defunct', 'non-commercial'))} funds and single-project vehicles; {sum(1 for x in rows if x['status'] == 'non-commercial')} public bodies and non-profits; {len(A['f1x'])} current F1 partners or their owners"
-            + (f"; {len(dropped)} found by the web check to be listed or acquired since ({', '.join(x['name'] for x in dropped)})." if dropped else '.')],
+           [f"Out of scope ({sum(oc.values()) + len(A['f1x']):,}): {oc['Listed']:,} listed; {oc['Owned']:,} owned by a listed group; {oc['Closed']} closed or absorbed; {oc['Investment'] + oc['Single-project']} funds and single-project vehicles; "
+            f"{oc['Public']} public bodies and non-profits; {len(A['f1x'])} current F1 partners or their owners"
+            + (f"; {oc['Now']} found by the web check to be listed or publicly traded ({', '.join(x['name'] for x in dropped)})." if dropped else '.')],
            ['The "All Brands - Parameters" tab lists every brand with the parameters it meets and, where it is out of scope, the reason.'], [],
            ('Parameter 3: can it pay',),
            [f"{len(core):,} private and state-owned companies pass on funding: USD 150M or more raised in total, any date. {sum(1 for x in core if x['stage'] == 'pre-revenue')} of them have no revenue yet and are labelled Pre-revenue."],
