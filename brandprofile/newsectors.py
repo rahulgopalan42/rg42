@@ -42,6 +42,10 @@ TEST = {'a': 'Equity raised of USD 150M or more', 'b': 'Published revenue of USD
         'd': 'Already pays for a top-tier sports sponsorship', 'e': 'Owned by a state fund building the brand internationally'}
 FLOOR = {'a': 150, 'b': 300, 'c': 1000}
 CONF = {'high': 3, 'medium': 2, 'low': 1}
+RAISED = re.compile(r'(?i)\b(raised|raise|round|series [a-k]\b|funding|investment|invested|financing)')
+RECENT = re.compile(r'(?i)\b((nov|dec)[a-z]*\.? 2025|(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov)[a-z]*\.? 2026|in 2026|\(2026\))')
+NOT_RAISE = re.compile(r'(?i)purchase of|agreed to buy|to acquire|acquires|acquired|buys |bought ')
+BUYOUT = re.compile(r'(?i)taken private|take-private|acquired by|bought by|acquisition of|buyout|sold to')
 REV = re.compile(r'(?i)^[^;:.]{0,45}?\b(revenues?|sales|total income|net trading income|trading income|net revenue)\b')
 # decisions made by hand after reading the lists: name -> reason it is left out
 DROP = {'Mode Transportation': 'Ownership could not be established'}
@@ -153,10 +157,15 @@ def load():
                         'stage': 'pre-revenue' if clean(d.get('stage')).lower().startswith('pre') else 'commercial', 'f1': '', 'f1note': '', 'web': True})
             add(rec)
     for x in out:
+        sg = x['signals'] = dict(x['signals'] or {})
+        if x['web'] and x['basis'] in ('a', 'c') and x['key'] != 'pe_owned' and not clean(sg.get('raise')) and RAISED.search(x['detail']) and RECENT.search(x['detail']) and not BUYOUT.search(x['detail']):
+            sg['raise'] = f"{x['detail']} ({x['source']})"            # a round dated Nov 2025 or later is itself the signal
         S = {}
         for k in a.SIG:
             v = clean((x['signals'] or {}).get(k))
-            S[k] = ('Not yet checked', '') if not v else ('Confirmed', v) if re.search(r'https?://', v) and re.search(r'202[56]', v) else ('Lead only', v)
+            ok = bool(v) and bool(re.search(r'https?://', v)) and bool(re.search(r'202[56]', v))
+            if ok and k == 'raise' and (NOT_RAISE.search(v) or not (RAISED.search(v) or re.search(r'(?i)stake sale|valuation', v))): ok = False     # buying something is not raising money
+            S[k] = ('Not yet checked', '') if not v else ('Confirmed', v) if ok else ('Lead only', v)
         x['S'] = S; x['nconf'] = sum(1 for v in S.values() if v[0] == 'Confirmed')
         x['rank'] = 'High' if x['nconf'] >= 2 else 'Medium' if x['nconf'] == 1 else 'To Verify'
         x['fit'] = round(0.25 * b.FIT[x['sector']] * 10 + 0.50 * b.REL[x['rel']] + 0.25 * b.REACH[x['reach']], 1)
@@ -164,6 +173,13 @@ def load():
         x['tab'] = tab_for(x['theme'], x['key'], x['sector'], x['industry'] + ' ' + x['desc'])
         x['is_rev'] = x['basis'] == 'b' and bool(x['usd_m']) and (not x['web'] or bool(REV.match(x['detail'])))
     out.sort(key=lambda x: ({'High': 0, 'Medium': 1, 'To Verify': 2}[x['rank']], RORD[x['reach']], -x['fit'], -(x['usd_m'] or 0), x['name']))
+    newtabs = {n for n, _, _ in NEW}; have = []
+    for x in L:                                          # in scope on the sheet, capacity passed, not Domestic, in a sector that gets a new tab
+        if not x['cap_pass'] or x['reach'] == 'Domestic': continue
+        t = tab_for(x['theme'], '', x['sector'])
+        if t in newtabs: have.append((t, x))
+    have.sort(key=lambda r: ({'High': 0, 'Medium': 1, 'To Verify': 2}[r[1]['rank']], RORD[r[1]['reach']], -a.fit(r[1]), r[1]['name']))
+    load.have = have
     return out, left, drop, onsheet, now_private
 COLS = a.COLS[:23] + ['On Your Sheet?', 'Category Tab (This Workbook)', 'Closest Tab on Your Existing Sheet', 'Theme', 'Ownership Type', 'Stage', 'Parameter 3: Capacity Test Passed',
                       'Capacity Evidence', 'Capacity Source', 'Sports Sponsorships Found'] + a.COLS[30:35] + ['Expanding?', 'How Found']
@@ -187,11 +203,16 @@ def cells(x):
             x['rationale'], x['year'] or 'Not stated', x['source'], b.F1_NOTE, 'Plausible Capacity', '; '.join(notes) or 'None flagged', x['fit'], x['conf'].title(),
             'No (new brand)', x['tab'], x['sector'], x['theme'], x['ownership'], 'Pre-revenue' if x['stage'] == 'pre-revenue' else 'Selling', TEST[x['basis']], x['detail'], x['source'], x['sponsorships']] + \
            [sig(k) for k in a.SIG] + [x['nconf'], ('Yes: ' + exp[1]) if exp[0] == 'Confirmed' else ('Possibly: ' + exp[1]) if exp[0] == 'Lead only' else 'Not yet checked', GROUPS.get(x['key'], x['key'])]
+def cells_have(x, tab):
+    """a brand already on the sheet, in this workbook's column layout (figures as in the all-sector workbook)"""
+    c = a.cells(x)
+    test = TEST['a'] + ' (funding as recorded, may include debt)' if str(c[29]).startswith('Total funding') else str(c[29])
+    return c[:23] + ['Yes', tab, c[25], c[26], c[27], c[28], test, c[11] if str(c[29]).startswith('Total funding') else c[29], c[17], 'Not checked'] + c[30:35] + [c[35] or 'Not yet checked', 'Already on your sheet']
 def tabs(L):
     """ordered list of (tab name, rows): new-sector tabs first, then the sheet's own tabs, each without Domestic brands"""
     new = [n for n, _, _ in NEW]; old = list(b.FIT)
     T = [(n, [x for x in L if x['tab'] == n and x['reach'] != 'Domestic']) for n in new + old]
-    return [(n, r) for n, r in T if r]
+    return [(n, r) for n, r in T if r or any(t == n for t, _ in load.have)]
 def check(L, left, drop, onsheet):
     bad = []
     names = Counter(b.loose(x['name']) for x in L)
@@ -220,13 +241,14 @@ def write(L, left, drop, now_private, path):
     wb = Workbook(write_only=True)
     n = len(L); rc = Counter(x['reach'] for x in L); bc = Counter(x['basis'] for x in L); rk = Counter(x['rank'] for x in L); T = tabs(L)
     tc = Counter(x['tab'] for x in L); ctry = Counter(x['country'] for x in L); newn = [nm for nm, _, _ in NEW]
-    n_new = sum(tc[t] for t in newn); desk = sum(1 for x in L if not x['web'])
+    n_new = sum(tc[t] for t in newn); desk = sum(1 for x in L if not x['web']); hc = Counter(t for t, _ in load.have)
     S = [('New brands for your sheet, filed by category (16 Nov 2026)',),
          [f"{n:,} companies that are not on your 48-tab sheet. Each is unlisted, is not a current F1 partner or the owner of one, and passes the capacity test with a source. Headquarters in {len(ctry)} countries."],
-         [f"{n_new:,} sit on {sum(1 for t in newn if tc[t])} new tabs for sectors your sheet has no tab for (tab names start with NEW). {n - n_new:,} sit under {sum(1 for t in b.FIT if tc[t])} of your existing tab names."],
-         ['Each brand is on one tab only. Domestic brands are on the Domestic tab, not on the category tabs; the All New Brands tab holds every brand.'], [],
-         ('New sector tabs (all brands, including Domestic)',)] + [[f"{t[4:]}: {tc[t]} - {what}"] for t, what, _ in NEW if tc[t]] + [[],
-         ('Your existing tabs that gain brands (all brands, including Domestic)',)] + [[f"{t}: {tc[t]}"] for t in b.FIT if tc[t]] + [[],
+         [f"{n_new:,} of the new brands belong to sectors your sheet has no tab for; they are on {sum(1 for t in newn if tc[t] or hc[t])} new tabs (names start with NEW). {n - n_new:,} are filed under {sum(1 for t in b.FIT if tc[t])} of your existing tab names."],
+         [f"Each new sector tab is complete: the new brands come first (On Your Sheet? = No), followed by the {len(load.have):,} brands that are already on your sheet under other tabs and belong to that sector (On Your Sheet? = Yes). These are not counted as new."],
+         ['Each new brand is on one tab only. Domestic brands are on the Domestic tab, not on the category tabs. The All New Brands tab holds every new brand and nothing else.'], [],
+         ('New sector tabs: new brands (including Domestic) + brands already on your sheet (Global, International and Regional)',)] + [[f"{t[4:]}: {tc[t]} new + {hc[t]} already on your sheet - {what}"] for t, what, _ in NEW if tc[t] or hc[t]] + [[],
+         ('Your existing tabs that gain new brands (including Domestic)',)] + [[f"{t}: {tc[t]}"] for t in b.FIT if tc[t]] + [[],
          ('How each company passes parameter 3 (can it pay)',)] + [[f"{TEST[k]}: {bc[k]}"] for k in 'abcde' if bc[k]] + [[],
          ('Reach',), [f"Global {rc['Global']}; International {rc['International']}; Regional {rc['Regional']}; Domestic {rc['Domestic']}."], [],
          ('Headquarters',), ['; '.join(f'{c} {v}' for c, v in ctry.most_common(25)) + ('; others ' + str(sum(v for c, v in ctry.most_common()[25:])) if len(ctry) > 25 else '') + '.'], [],
@@ -240,7 +262,7 @@ def write(L, left, drop, now_private, path):
     wx.text_sheet(wb, 'Summary', S, widths=(170,))
     data = {id(x): cells(x) for x in L}
     wx.sheet(wb, 'All New Brands', COLS, WIDTH, [data[id(x)] for x in L])
-    for name, rows in T: wx.sheet(wb, name, COLS, WIDTH, [data[id(x)] for x in rows])
+    for name, rows in T: wx.sheet(wb, name, COLS, WIDTH, [data[id(x)] for x in rows] + [cells_have(x, name) for t, x in load.have if t == name])
     wx.sheet(wb, 'Domestic', COLS, WIDTH, [data[id(x)] for x in L if x['reach'] == 'Domestic'])
     NPC = ['Company (on your sheet)', 'Tab on Your Sheet', 'Status in the Earlier Workbook', 'Ownership Found Now', 'Capacity Test Passed', 'Evidence', 'Source', 'Headquarters', 'Geographic Reach']
     if now_private: wx.sheet(wb, 'On Your Sheet - Now Unlisted', NPC, [34, 28, 24, 36, 34, 60, 50, 26, 14], sorted(now_private))
@@ -252,7 +274,8 @@ def write(L, left, drop, now_private, path):
     ws.append(hdr)
     for row in sorted(left, key=lambda r: (r[2].split(':')[0], r[0])): ws.append(list(row))
     K = [('What this workbook is', 'New brands only: none of them is on your 48-tab sheet. Same parameter set as the all-sector workbook.'),
-         ('Tabs', 'Tabs starting with NEW are sectors your sheet has no tab for. The other category tabs carry your own tab names, so the rows can be pasted under the matching tab. Each brand is on one tab.'),
+         ('Tabs', 'Tabs starting with NEW are sectors your sheet has no tab for. Each holds the new brands first, then the brands already on your sheet that belong to that sector. The other category tabs carry your own tab names and hold new brands only, so the rows can be pasted under the matching tab.'),
+         ('On Your Sheet?', 'No (new brand) = not on your sheet. Yes = already on your sheet under the tab named in "Closest Tab on Your Existing Sheet"; its figures are those of the all-sector workbook (funding as recorded by Crunchbase).'),
          ('Category Tab / Closest Tab on Your Existing Sheet', 'The tab the brand is filed under here, and the tab on your current sheet it would otherwise belong to.'),
          ('Parameter 3: capacity test passed', 'One of: equity raised of USD 150M or more in total (no limit on the date of the last round); published revenue of USD 300M or more; valued at or bought for USD 1B or more since Nov 2023; already pays for a top-tier sports sponsorship; owned by a state fund building the brand internationally. Capacity Evidence and Capacity Source give the fact and the page.'),
          ('Annual Revenue (USD)', 'Filled only where the test passed is published revenue; the figure is the one on the source page. Otherwise "Not found in the sources used".'),
