@@ -42,11 +42,15 @@ TEST = {'a': 'Equity raised of USD 150M or more', 'b': 'Published revenue of USD
         'd': 'Already pays for a top-tier sports sponsorship', 'e': 'Owned by a state fund building the brand internationally'}
 FLOOR = {'a': 150, 'b': 300, 'c': 1000}
 # decisions made by hand after reading the lists: name -> reason it is left out
-DROP = {}
+DROP = {'Mode Transportation': 'Ownership could not be established'}
+# an importer or distributor of an F1 carmaker's vehicles is not an F1 partner: kept, with the link in Verification Notes
+F1_KEEP = {'Pon Holdings B.V.'}
+# names that only look like a listed company (a listed namesake or a listed subsidiary); the company itself is unlisted
+NOT_LISTED = set()
 # extra F1 links the roster match does not catch by name
 F1_EXTRA = dict(AN.F1_OWNERS, **{'Cognition AI': 'Cognition (Aston Martin)', 'Arctic Wolf Networks': 'Arctic Wolf', 'Jet365': 'Alpine', 'Intel': 'McLaren', 'Gucci': 'Alpine title partner from 2027'})
 # same company as a brand already on the sheet under a longer or shorter name: name -> name on the sheet
-SAME = {}
+SAME = {'Roquette Frères S.A.': 'Roquette', 'Louis Dreyfus Company B.V.': 'Louis Dreyfus Company', 'Farmers Insurance Exchange': 'Farmers Insurance'}
 clean = b.clean
 def tab_for(theme, key, sector):
     if key in GROUP_TAB and not re.search(r'prediction', theme, re.I): return GROUP_TAB[key]
@@ -74,9 +78,11 @@ def load():
         if k in seen: drop['Found twice (kept once)'] += 1; return
         if rec['name'] in DROP: return leave(rec, DROP[rec['name']])
         l, _ = b.f1_link(rec['name'])
+        if rec['name'] in F1_KEEP: rec['f1note'] = rec.get('f1note') or rec.get('f1'); rec['f1'] = ''
         if l or rec['name'] in F1_EXTRA or rec.get('f1'): return leave(rec, 'Current F1 partner or owner of one: ' + str(l or F1_EXTRA.get(rec['name']) or rec.get('f1')))
         if k in onsheet or rec['name'] in SAME: return leave(rec, 'Already on your sheet: ' + (SAME.get(rec['name']) or onsheet[k]), show=False)
-        if k in listed or rec.get('status') == 'listed': return leave(rec, 'Listed on a stock exchange')
+        if rec.get('status') == 'listed': return leave(rec, 'Listed on a stock exchange')
+        if k in listed and rec['name'] not in NOT_LISTED and not (rec['key'] == 'rank' and rec.get('status') == 'private'): return leave(rec, 'Name matches a listed company: ' + rec['name'])
         if rec.get('status') in ('defunct', 'non-commercial'): return leave(rec, 'Closed or not a commercial company')
         if rec.get('status') == 'subsidiary':
             par = clean(rec.get('parent'))
