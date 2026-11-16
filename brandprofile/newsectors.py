@@ -117,6 +117,8 @@ def group_label(key):
     if key.startswith('pe_'): return 'Second pass: private-equity portfolios'
     return key
 def is_pass2(key): return key.startswith(('region_', 'confirm_', 'pe_us', 'pe_intl'))
+_n2 = os.path.join(H, 'newsec', 'notes2.json')
+if os.path.exists(_n2): NOTE.update(json.load(open(_n2, encoding='utf-8')))
 clean = b.clean
 def tab_for(theme, key, sector, what='', grp=''):
     g = grp.lower()
