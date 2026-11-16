@@ -49,7 +49,7 @@ REV = re.compile(r'(?i)^[^;:.]{0,45}?\b(revenues?|sales|turnover|total income|ne
 # decisions made by hand after reading the lists: name -> reason it is left out
 DROP = {'Mode Transportation': 'Ownership could not be established', 'Kaspersky': 'Under United States sanctions; Ferrari paused its partnership in 2022',
         'Qatar Sports Investments': 'Investment fund, not an operating company', 'Semikron Danfoss': 'Majority-owned by Danfoss, which is on the list',
-        'Diesel': 'Owned by OTB, which is on the list', 'TGI Fridays': 'Filed for bankruptcy', "TGI Friday's": 'Filed for bankruptcy', 'Doğuş Group': 'The only revenue figure found is from 1999', 'Doğuş Holding': 'The only revenue figure found is from 1999',
+        'Diesel': 'Owned by OTB, which is on the list', 'MACIF': 'Part of Aéma Groupe, which is on the list', 'TGI Fridays': 'Filed for bankruptcy', "TGI Friday's": 'Filed for bankruptcy', 'Doğuş Group': 'The only revenue figure found is from 1999', 'Doğuş Holding': 'The only revenue figure found is from 1999',
         'Eucalyptus': 'Reported bought by Hims & Hers (listed), completed June 2026', 'Eucalyptus Health': 'Reported bought by Hims & Hers (listed), completed June 2026'}
 # an importer or distributor of an F1 carmaker's vehicles is not an F1 partner: kept, with the link in Verification Notes
 F1_KEEP = {'Pon Holdings B.V.'}
@@ -100,12 +100,16 @@ HQ_KNOWN = {'Axi': 'Sydney, Australia', 'Peregrine Technologies': 'San Francisco
             'Hotwire Communications': 'Fort Lauderdale, United States'}
 HQ_NONE = {'DLA Piper', 'Dentons', 'Norton Rose Fulbright'}      # international law firms whose pages state no single headquarters
 # the same company under two names
-ALIAS = {'Merkur Group': 'Gauselmann Group (Merkur)', 'Massachusetts Mutual Life Insurance Company (MassMutual)': 'MassMutual', 'Koninklijke Jumbo Food Groep (Jumbo)': 'Jumbo', 'Dirk Rossmann GmbH': 'Rossmann', 'GALLO (E&J Gallo Winery)': 'E. & J. Gallo Winery', 'E&J Gallo Winery': 'E. & J. Gallo Winery', 'Jumbo Supermarkten': 'Jumbo', 'Eurostars/Grupo Hotusa': 'Hotusa', 'Grupo Hotusa': 'Hotusa', 'Eurostars Hotel Company': 'Hotusa'}
+ALIAS = {'Merkur Group': 'Gauselmann Group (Merkur)', 'Massachusetts Mutual Life Insurance Company (MassMutual)': 'MassMutual', 'Koninklijke Jumbo Food Groep (Jumbo)': 'Jumbo', 'Dirk Rossmann GmbH': 'Rossmann', 'Robert Bosch GmbH': 'Bosch', 'Dr. August Oetker KG': 'Dr. Oetker', 'SPAR Österreich': 'SPAR Holding AG', 'Coop Danmark': 'Coop amba', 'Eti': 'Eti Gıda',
+         'Veronesi Holding S.p.A.': 'Gruppo Veronesi', 'PHW Group (Lohmann & Co. AG)': 'PHW-Gruppe (Wiesenhof)', 'Panera Bread': 'Panera Brands', 'Chiesi Group': 'Chiesi Farmaceutici', 'Foodstuffs North Island': 'Foodstuffs', 'Kedrion Biopharma': 'Kedrion', 'Kempinski Hotels': 'Kempinski',
+         'Laboratoires Pierre Fabre': 'Pierre Fabre', 'C.H. Boehringer Sohn AG & Co. KG (Boehringer Ingelheim)': 'Boehringer Ingelheim', 'Eurostars Hotel Company (Grupo Hotusa)': 'Hotusa',
+         'Grupo Hotusa (Eurostars Hotel Company)': 'Hotusa', 'DVAG (Deutsche Vermögensberatung)': 'DVAG', 'Deutsche Vermögensberatung (DVAG)': 'DVAG', 'Mills Fleet Farm': 'Fleet Farm', 'GALLO (E&J Gallo Winery)': 'E. & J. Gallo Winery', 'E&J Gallo Winery': 'E. & J. Gallo Winery', 'Jumbo Supermarkten': 'Jumbo', 'Eurostars/Grupo Hotusa': 'Hotusa', 'Grupo Hotusa': 'Hotusa', 'Eurostars Hotel Company': 'Hotusa'}
 FORMS = re.compile(r'(?i)\b(groupe?|gruppo|grupo|holding|holdings|technology|technologies|athletics|stiftung|international|company|companies|corporation|enterprises|industries|limited|ltd|inc|llc|gmbh|kgaa|kg|se|ag|co|cie|sa|spa|bv|nv|as|a/s|ab|asa|pty|plc|lp|l\.p\.|the|and|mbh|og|b\.v\.|s\.a\.|s\.p\.a\.)\b')
 import unicodedata
 def fold(s): return ''.join(c for c in unicodedata.normalize('NFKD', s) if not unicodedata.combining(c))
 def core(n):
     n = fold(ALIAS.get(n, n))                          # accents folded, so "Postobon" and "Postobón" are one company
+    n = re.sub(r'(?i)\b(b\.v\.?|n\.v\.?|s\.a\.?|s\.p\.a\.?|l\.p\.?|s\.l\.?|a\.s\.?|a/s)(?=\s|,|$)', ' ', n)      # dotted company forms
     return b.loose(FORMS.sub('', re.sub(r'\(.*?\)', '', n))) or b.loose(n)
 # owners of current F1 partners, and family holdings whose main operating business is itself listed (that business is covered in the listed-company work)
 F1_PAT = [(re.compile(r'(?i)^rolex'), 'Owner of TUDOR, a Racing Bulls partner'), (re.compile(r'(?i)w[üu]rth'), 'Owner of Liqui Moly, a Formula 1 partner'), (re.compile(r'(?i)^CMA CGM'), 'Owner of CEVA Logistics, a Ferrari partner')]
@@ -327,6 +331,7 @@ def cells(x):
     if re.search(r'(?i)estimate', x['detail']): notes.append('The capacity figure is a third-party estimate, not a figure published by the company')
     if x['basis'] == 'b' and not x['is_rev'] and not re.search(r'(?i)estimate', x['detail']): notes.append('The capacity figure is not revenue as such (see Capacity Evidence)')
     if x['name'] in NOTE: notes.append(NOTE[x['name']])
+    if re.search(r'(?i)F\.C\.|Super Kings|Punjab Kings|Rajasthan Royals|Knight Riders|Atlético de Madrid|Newcastle United|Al Nassr|Saint-Germain', x['name']): notes.append('A sports club: it qualifies on the tests but is an unlikely sponsor')
     if x['web'] and x['ownership'].lower().startswith('private, owner not stated') and 'unlisted' not in NOTE.get(x['name'], '').lower(): notes.append('Owner not named on the pages read: confirm it is unlisted')
     if x['web'] and x['basis'] == 'b' and not re.search(r'(19|20)\d\d', str(x['year'])) and 'no year' not in NOTE.get(x['name'], ''): notes.append('The revenue figure found carries no year')
     if x['key'] == 'pe_owned' and re.search(r'202[56]', x['year']): notes.append('Taken private or bought recently: confirm that the deal has completed and the shares are delisted')
@@ -393,7 +398,7 @@ def write(L, left, drop, now_private, path, onsheet=None):
          [f"Each new sector tab is complete: the new brands come first (On Your Sheet? = No), followed by the {len(load.have):,} brands that are already on your sheet under other tabs and belong to that sector (On Your Sheet? = Yes). These are not counted as new."],
          ['Each new brand is on one tab only. Domestic brands are on the Domestic tab, not on the category tabs. The All New Brands tab holds every new brand and nothing else.'], [],
          ('What the second pass added',),
-         [f"{len(p2):,} more qualifying brands ({n - len(p2):,} in the first pass): " + '; '.join(f'{v} from {k}' for k, v in p2k.most_common()) + '. The "How Found" column starts with "Second pass" for these.'],
+         [f"The list now holds {n:,} qualifying brands; the first workbook held 722. {len(p2):,} lines come from second-pass research: " + '; '.join(f'{v} from {k}' for k, v in p2k.most_common()) + '. A few of them replace first-pass lines with better-evidenced ones. The "How Found" column starts with "Second pass" for these.'],
          ['Second-pass brands by headquarters: ' + '; '.join(f'{c} {v}' for c, v in p2c.most_common(30)) + '.'],
          [f"{len(conf):,} companies that look like prospects but whose capacity or ownership could not be shown from a public page are on the Capacity To Confirm tab. They are not counted as qualifying."],
          [f"{len(leads):,} privately held companies returned by Clay and not otherwise known are on the Clay Leads tab. Clay's revenue bracket is right about half the time for private companies, so these are leads only."],
