@@ -49,7 +49,7 @@ REV = re.compile(r'(?i)^[^;:.]{0,45}?\b(revenues?|sales|turnover|total income|ne
 # decisions made by hand after reading the lists: name -> reason it is left out
 DROP = {'Mode Transportation': 'Ownership could not be established', 'Kaspersky': 'Under United States sanctions; Ferrari paused its partnership in 2022',
         'Qatar Sports Investments': 'Investment fund, not an operating company', 'Semikron Danfoss': 'Majority-owned by Danfoss, which is on the list',
-        'Doğuş Group': 'The only revenue figure found is from 1999', 'Doğuş Holding': 'The only revenue figure found is from 1999',
+        'TGI Fridays': 'Filed for bankruptcy', "TGI Friday's": 'Filed for bankruptcy', 'Doğuş Group': 'The only revenue figure found is from 1999', 'Doğuş Holding': 'The only revenue figure found is from 1999',
         'Eucalyptus': 'Reported bought by Hims & Hers (listed), completed June 2026', 'Eucalyptus Health': 'Reported bought by Hims & Hers (listed), completed June 2026'}
 # an importer or distributor of an F1 carmaker's vehicles is not an F1 partner: kept, with the link in Verification Notes
 F1_KEEP = {'Pon Holdings B.V.'}
@@ -318,6 +318,7 @@ def cells(x):
     if re.search(r'(?i)estimate', x['detail']): notes.append('The capacity figure is a third-party estimate, not a figure published by the company')
     if x['basis'] == 'b' and not x['is_rev'] and not re.search(r'(?i)estimate', x['detail']): notes.append('The capacity figure is not revenue as such (see Capacity Evidence)')
     if x['name'] in NOTE: notes.append(NOTE[x['name']])
+    if x['web'] and x['basis'] == 'b' and not re.search(r'(19|20)\d\d', str(x['year'])) and 'no year' not in NOTE.get(x['name'], ''): notes.append('The revenue figure found carries no year')
     if x['key'] == 'pe_owned' and re.search(r'202[56]', x['year']): notes.append('Taken private or bought recently: confirm that the deal has completed and the shares are delisted')
     if x.get('hq_known'): notes.append('Headquarters added from general knowledge, not from a page read in this research')
     if x['hq'] == 'Not recorded': notes.append('Headquarters not found on the pages read')
