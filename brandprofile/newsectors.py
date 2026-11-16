@@ -54,7 +54,7 @@ DROP = {'Mode Transportation': 'Ownership could not be established', 'Kaspersky'
 # an importer or distributor of an F1 carmaker's vehicles is not an F1 partner: kept, with the link in Verification Notes
 F1_KEEP = {'Pon Holdings B.V.'}
 # names that only look like a listed company (a listed namesake or a listed subsidiary); the company itself is unlisted
-NOT_LISTED = {'WeTrade'}                      # the broker; the listed WeTrade Group is a different company
+NOT_LISTED = {'WeTrade', 'IDOM', 'Cactus'}                      # the broker; the listed WeTrade Group is a different company
 # extra F1 links the roster match does not catch by name
 F1_EXTRA = dict(AN.F1_OWNERS, **{'Cognition AI': 'Cognition (Aston Martin)', 'Arctic Wolf Networks': 'Arctic Wolf', 'Jet365': 'Alpine', 'Intel': 'McLaren', 'Gucci': 'Alpine title partner from 2027', 'Electronic Arts': 'EA SPORTS (official F1 video game)'})
 # same company as a brand already on the sheet under a longer or shorter name: name -> name on the sheet
