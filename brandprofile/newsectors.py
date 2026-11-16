@@ -41,6 +41,8 @@ GROUP_TAB = {'brokers': 'NEW Brokers & Trading', 'crypto': 'NEW Crypto & Digital
 TEST = {'a': 'Equity raised of USD 150M or more', 'b': 'Published revenue of USD 300M or more', 'c': 'Valued at or bought for USD 1B or more since Nov 2023',
         'd': 'Already pays for a top-tier sports sponsorship', 'e': 'Owned by a state fund building the brand internationally'}
 FLOOR = {'a': 150, 'b': 300, 'c': 1000}
+CONF = {'high': 3, 'medium': 2, 'low': 1}
+REV = re.compile(r'(?i)^[^;:.]{0,45}?\b(revenues?|sales|total income|net trading income|trading income|net revenue)\b')
 # decisions made by hand after reading the lists: name -> reason it is left out
 DROP = {'Mode Transportation': 'Ownership could not be established'}
 # an importer or distributor of an F1 carmaker's vehicles is not an F1 partner: kept, with the link in Verification Notes
@@ -50,9 +52,11 @@ NOT_LISTED = set()
 # extra F1 links the roster match does not catch by name
 F1_EXTRA = dict(AN.F1_OWNERS, **{'Cognition AI': 'Cognition (Aston Martin)', 'Arctic Wolf Networks': 'Arctic Wolf', 'Jet365': 'Alpine', 'Intel': 'McLaren', 'Gucci': 'Alpine title partner from 2027', 'Electronic Arts': 'EA SPORTS (official F1 video game)'})
 # same company as a brand already on the sheet under a longer or shorter name: name -> name on the sheet
-SAME = {'Roquette Frères S.A.': 'Roquette', 'Louis Dreyfus Company B.V.': 'Louis Dreyfus Company', 'Farmers Insurance Exchange': 'Farmers Insurance'}
+SAME = {'Roquette Frères S.A.': 'Roquette', 'Louis Dreyfus Company B.V.': 'Louis Dreyfus Company', 'Farmers Insurance Exchange': 'Farmers Insurance', "Jersey Mike's": "Jersey Mike's Subs",
+        'Skechers': 'Skechers U.S.A.', 'Walgreens': 'Walgreens Boots Alliance'}
 clean = b.clean
-def tab_for(theme, key, sector):
+def tab_for(theme, key, sector, what=''):
+    if key in ('crypto', 'betting') and re.search(r'prediction market', what, re.I): return 'NEW Betting & Prediction Mkts'
     if key in GROUP_TAB and not re.search(r'prediction', theme, re.I): return GROUP_TAB[key]
     t = theme.lower()
     for name, _, pat in NEW:
@@ -64,25 +68,39 @@ def hq_fix(hq):
 def load():
     A, rows, L = a.load()
     PA = b.pb.assemble(); listed = {b.loose(html.unescape(c['name'])) for c in PA['U'].values()} | {b.loose(x['name']) for x in rows if x['status'] == 'listed'}
-    onsheet = {}
+    onsheet = {}; sheetrow = {}
     for x in rows:
-        onsheet.setdefault(b.loose(x['name']), x['name']); onsheet.setdefault(b.loose(x['r']['brand']), x['name'])
+        for k in (b.loose(x['name']), b.loose(x['r']['brand'])):
+            onsheet.setdefault(k, x['name']); sheetrow.setdefault(k, x)
     for d in A['f1x']: onsheet.setdefault(b.loose(d['name']), d['name'])
-    out = []; left = []; drop = Counter(); seen = {}
+    out = []; left = []; drop = Counter(); seen = {}; now_private = []
     def leave(rec, why, show=True):
         drop[why.split(':')[0]] += 1
         if show: left.append((rec['name'], GROUPS.get(rec.get('key', ''), ''), why))
     def add(rec):
         k = b.loose(rec['name'])
         if not k: return
-        if k in seen: drop['Found twice (kept once)'] += 1; return
+        if k in seen:                                    # found by two groups: keep the better-evidenced line, carry over what the other one adds
+            old = seen[k]; drop['Found twice (kept once)'] += 1
+            rank = lambda r: (CONF.get(r.get('conf'), 0), r.get('usd_m') or 0)
+            keep, other = (rec, old) if rec.get('web') and rank(rec) > rank(old) else (old, rec)
+            if not keep.get('sponsorships'): keep['sponsorships'] = other.get('sponsorships', '')
+            for sk, sv in (other.get('signals') or {}).items():
+                if sv and not (keep.get('signals') or {}).get(sk): keep.setdefault('signals', {})[sk] = sv
+            if keep is rec: out[out.index(old)] = rec; seen[k] = rec
+            return
         if rec['name'] in DROP: return leave(rec, DROP[rec['name']])
         l, _ = b.f1_link(rec['name'])
         if rec['name'] in F1_KEEP: rec['f1note'] = rec.get('f1note') or rec.get('f1'); rec['f1'] = ''
         if l or rec['name'] in F1_EXTRA or rec.get('f1'): return leave(rec, 'Current F1 partner or owner of one: ' + str(l or F1_EXTRA.get(rec['name']) or rec.get('f1')))
-        if k in onsheet or rec['name'] in SAME: return leave(rec, 'Already on your sheet: ' + (SAME.get(rec['name']) or onsheet[k]), show=False)
+        if k in onsheet or rec['name'] in SAME:
+            sr = sheetrow.get(b.loose(SAME[rec['name']])) if rec['name'] in SAME else sheetrow.get(k)
+            if sr is not None and rec.get('web') and sr['status'] in ('listed', 'unknown', 'subsidiary') and not b.f1_link(sr['name'])[0]:
+                now_private.append([sr['name'], sr['r'].get('tab', sr['sector']), {'listed': 'Listed', 'unknown': 'Ownership not confirmed', 'subsidiary': 'Owned by another company'}[sr['status']],
+                                    rec['ownership'], TEST[rec['basis']], rec['detail'], rec['source'], rec['hq'], rec['reach']])
+            return leave(rec, 'Already on your sheet: ' + (SAME.get(rec['name']) or onsheet[k]), show=False)
         if rec.get('status') == 'listed': return leave(rec, 'Listed on a stock exchange')
-        if k in listed and rec['name'] not in NOT_LISTED and not (rec['key'] == 'rank' and rec.get('status') == 'private'): return leave(rec, 'Name matches a listed company: ' + rec['name'])
+        if k in listed and rec['name'] not in NOT_LISTED and rec['key'] != 'pe_owned' and not (rec['key'] == 'rank' and rec.get('status') == 'private'): return leave(rec, 'Name matches a listed company: ' + rec['name'])
         if rec.get('status') in ('defunct', 'non-commercial'): return leave(rec, 'Closed or not a commercial company')
         if rec.get('status') == 'subsidiary':
             par = clean(rec.get('parent'))
@@ -138,9 +156,10 @@ def load():
         x['rank'] = 'High' if x['nconf'] >= 2 else 'Medium' if x['nconf'] == 1 else 'To Verify'
         x['fit'] = round(0.25 * b.FIT[x['sector']] * 10 + 0.50 * b.REL[x['rel']] + 0.25 * b.REACH[x['reach']], 1)
         x['hq'] = hq_fix(x['hq']); x['country'] = x['hq'].split(',')[-1].strip()
-        x['tab'] = tab_for(x['theme'], x['key'], x['sector'])
+        x['tab'] = tab_for(x['theme'], x['key'], x['sector'], x['industry'] + ' ' + x['desc'])
+        x['is_rev'] = x['basis'] == 'b' and bool(x['usd_m']) and (not x['web'] or bool(REV.match(x['detail'])))
     out.sort(key=lambda x: ({'High': 0, 'Medium': 1, 'To Verify': 2}[x['rank']], RORD[x['reach']], -x['fit'], -(x['usd_m'] or 0), x['name']))
-    return out, left, drop, onsheet
+    return out, left, drop, onsheet, now_private
 COLS = a.COLS[:23] + ['On Your Sheet?', 'Category Tab (This Workbook)', 'Closest Tab on Your Existing Sheet', 'Theme', 'Ownership Type', 'Stage', 'Parameter 3: Capacity Test Passed',
                       'Capacity Evidence', 'Capacity Source', 'Sports Sponsorships Found'] + a.COLS[30:35] + ['Expanding?', 'How Found']
 WIDTH = b.WIDTH[:23] + [12, 26, 26, 28, 26, 12, 34, 46, 46, 40, 36, 36, 40, 40, 11, 34, 34]
@@ -157,7 +176,7 @@ def cells(x):
     liq = ('Valuation or deal value: ' + x['detail']) if x['basis'] == 'c' else ('Equity raised: ' + x['detail']) if x['basis'] == 'a' else 'Not found'
     exp = x['S']['regions']
     return [x['name'], x['hq'], 'Qualifies', x['rank'], x['desc'], x['sector'] + (': ' + x['industry'] if x['industry'] else ''), 'Private (not listed)',
-            x['usd_m'] * 1e6 if x['basis'] == 'b' and x['usd_m'] else 'Not found in the sources used', 'Not applicable (not listed)', 'Not found', 'Not found', liq, 'Not Disclosed', x['reach'], x['markets'],
+            x['usd_m'] * 1e6 if x['is_rev'] else 'Not published as revenue: see Capacity Evidence' if x['basis'] == 'b' else 'Not found in the sources used', 'Not applicable (not listed)', 'Not found', 'Not found', liq, 'Not Disclosed', x['reach'], x['markets'],
             x['rationale'], x['year'] or 'Not stated', x['source'], b.F1_NOTE, 'Plausible Capacity', '; '.join(notes) or 'None flagged', x['fit'], x['conf'].title(),
             'No (new brand)', x['tab'], x['sector'], x['theme'], x['ownership'], 'Pre-revenue' if x['stage'] == 'pre-revenue' else 'Selling', TEST[x['basis']], x['detail'], x['source'], x['sponsorships']] + \
            [sig(k) for k in a.SIG] + [x['nconf'], ('Yes: ' + exp[1]) if exp[0] == 'Confirmed' else ('Possibly: ' + exp[1]) if exp[0] == 'Lead only' else 'Not yet checked', GROUPS.get(x['key'], x['key'])]
@@ -186,7 +205,7 @@ def near(L, onsheet):
         hit = [onsheet[s] for s in keys if s != k and ((s.startswith(k) and len(s) <= len(k) + 14) or (len(s) >= 5 and k.startswith(s)))][:3]
         if hit: out.append((x['name'], x['tab'], hit))
     return out
-def write(L, left, drop, path):
+def write(L, left, drop, now_private, path):
     import write_xlsx as wx
     from openpyxl import Workbook
     from openpyxl.cell import WriteOnlyCell
@@ -216,6 +235,8 @@ def write(L, left, drop, path):
     wx.sheet(wb, 'All New Brands', COLS, WIDTH, [data[id(x)] for x in L])
     for name, rows in T: wx.sheet(wb, name, COLS, WIDTH, [data[id(x)] for x in rows])
     wx.sheet(wb, 'Domestic', COLS, WIDTH, [data[id(x)] for x in L if x['reach'] == 'Domestic'])
+    NPC = ['Company (on your sheet)', 'Tab on Your Sheet', 'Status in the Earlier Workbook', 'Ownership Found Now', 'Capacity Test Passed', 'Evidence', 'Source', 'Headquarters', 'Geographic Reach']
+    if now_private: wx.sheet(wb, 'On Your Sheet - Now Unlisted', NPC, [34, 28, 24, 36, 34, 60, 50, 26, 14], sorted(now_private))
     ws = wb.create_sheet('Left Out')
     for j, w in enumerate((40, 48, 90), 1): ws.column_dimensions[get_column_letter(j)].width = w
     hdr = []
@@ -233,18 +254,20 @@ def write(L, left, drop, path):
          ('Stage', 'Pre-revenue companies are kept and labelled.'),
          ('Geographic Reach', 'Global, International, Regional or Domestic. Domestic brands are on the Domestic tab.'),
          ('Fit Score (0-100)', 'Sector fit (25%), relevance to F1 (50%) and reach (25%). Orders companies inside the same priority.'),
+         ('On Your Sheet - Now Unlisted tab', 'Brands already on your sheet that the earlier workbook treated as listed, owned by another company or unconfirmed, and that this research found to be unlisted today (for example taken private in 2024-26). They are not new brands, so they are not counted here, but they now belong in scope.'),
          ('Left Out tab', 'Companies the research found that are current F1 partners or their owners, listed, owned by a listed group, closed, or whose capacity could not be shown from a page.')]
     wx.text_sheet(wb, 'Key', K)
     wb.save(path)
 if __name__ == '__main__':
-    L, left, drop, onsheet = load()
+    L, left, drop, onsheet, now_private = load()
     print(len(L), 'new brands | by source', dict(Counter(x['key'] for x in L)))
     print('left out', dict(drop))
     print('reach', dict(Counter(x['reach'] for x in L)), '| basis', dict(Counter(x['basis'] for x in L)), '| rank', dict(Counter(x['rank'] for x in L)), '| countries', len(Counter(x['country'] for x in L)))
     print('tabs', [(n, len(r)) for n, r in tabs(L)], '| domestic', sum(1 for x in L if x['reach'] == 'Domestic'))
+    print('on the sheet but now unlisted:', len(now_private), [r[0] for r in now_private][:30])
     bad = check(L, left, drop, onsheet); print('CHECK', 'ok' if not bad else bad[:20])
     if len(sys.argv) > 1 and sys.argv[1] == 'near':
         for r in near(L, onsheet): print(r)
     if len(sys.argv) > 1 and sys.argv[1] == 'xlsx':
         if bad: sys.exit('not written: checks failed')
-        write(L, left, drop, OUT); print(OUT)
+        write(L, left, drop, now_private, OUT); print(OUT)
