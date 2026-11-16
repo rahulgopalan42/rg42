@@ -56,11 +56,11 @@ if '--dry' in sys.argv: sys.exit()
 root = 'pubw1/pkg/' + TITLE; shutil.rmtree('pubw1/pkg', ignore_errors=True); os.makedirs(root)
 json.dump(CB, open('pubw1/_c.json', 'w'))
 tr = openpyxl.Workbook(); ws = tr.active; ws.title = 'Tracker'
-ws.append(['Batch', 'Folder', 'Sheet tab', 'Brand (your sheet)', 'Email name', 'Status', 'Contacts', 'Sent? (tick)', 'Key flags'])
+ws.append(['Batch', 'Folder', 'Sheet tab', 'Brand (your sheet)', 'Email name', 'Status', 'Contacts', 'Mail merge to use', 'Sent? (tick)', 'Key flags'])
 summ = []
 for i, b in enumerate(batches, 1):
     label = f'Wave 1 - Batch {i:02d}'; n = sum(k(r) for r in b)
-    folder = f'Batch {i:02d} ({n} contacts)'; d = f'{root}/{folder}'; os.makedirs(d + '/Mail merge')
+    folder = f'Batch {i:02d} ({n} contacts)'; d = f'{root}/{folder}'; os.makedirs(d)
     json.dump(b, open(f'pubw1/b{i:02d}_rows.json', 'w'), indent=1)
     json.dump({'rows': [{'brand': r['brand'], 'people': CB[r['brand']]['people']} for r in b]}, open(f'pubw1/b{i:02d}_contacts.json', 'w'), indent=1)
     out = subprocess.run(['python3.13', '-I', 'v7_assemble.py', label, f'pubw1/b{i:02d}_rows.json', f'pubw1/b{i:02d}_contacts.json'], capture_output=True, text=True)
@@ -69,22 +69,30 @@ for i, b in enumerate(batches, 1):
     subprocess.run(['python3.13', '-I', 'contacts_sheet.py', f'pubw1/b{i:02d}_names.txt', f'pubw1/b{i:02d}_rows.json', 'pubw1/_c.json', f'{label} - Contacts.xlsx'], capture_output=True)
     shutil.move(f'{label} - Emails Ready.docx', f'{d}/Batch {i:02d} - Emails.docx')
     shutil.move(f'{label} - Contacts.xlsx', f'{d}/Batch {i:02d} - Contacts.xlsx')
-    for g in glob.glob(f'{label} - Merge List - *.xlsx'): shutil.move(g, f"{d}/Mail merge/Batch {i:02d} - {g.split(' - ', 2)[2]}")
-    for m in sorted(glob.glob('F1 Merge Master v7 - *.docx')): shutil.copy(m, f'{d}/Mail merge/')
+    ORDER = ['B2B', 'B2B no reference', 'B2C', 'B2C no reference']
+    lists = sorted(glob.glob(f'{label} - Merge List - *.xlsx'), key=lambda g: ORDER.index(g.split(' - Merge List - ')[1][:-5]))
+    mm = []
+    for kk, g in enumerate(lists, 1):
+        grp = g.split(' - Merge List - ')[1][:-5]; cnt = openpyxl.load_workbook(g).active.max_row - 1
+        pre = f'Batch {i:02d} - Mail merge {kk} of {len(lists)} - {grp}'
+        shutil.move(g, f'{d}/{pre} - Merge list ({cnt} contacts).xlsx')
+        shutil.copy(f'F1 Merge Master v7 - {grp}.docx', f'{d}/{pre} - Word template.docx')
+        mm.append(f'{kk}. {grp} ({cnt})')
+    GRP = lambda r: r.get('variant', 'B2B') + ('' if r.get('market_reference') else ' no reference')
     for g in glob.glob(f'{label} - Flagged Brands.xlsx') + glob.glob(f'{label.upper()} - Complete.zip'): os.remove(g)
     for r in b:
         fl = [str(x) for x in r['flags'] if not str(x).startswith(('Contacts:',))]
         imp = [x for x in fl if re.search(r'HOLD|resign|PENDING|ACQUIRED|ALREADY|1260H|Entity List|USER INSTRUCTION|Same house|Reputation|Capacity: (hard|firm)|HQ override|Existing F1|former F1|Rebuilt', x, re.I)]
         key_flags = ' | '.join(dict.fromkeys([x[:170] for x in (fl[:1] + imp) if not x.startswith('Rebuilt')]))[:600]
-        ws.append([i, folder, r['_tab'], r['_user'], r.get('email_name') or r['brand'], 'Template + contacts' if k(r) else 'Template only (no contacts found)', k(r), '', key_flags])
-    summ.append((i, folder, len(b), n, ', '.join(dict.fromkeys(r['_tab'] for r in b))))
+        ws.append([i, folder, r['_tab'], r['_user'], r.get('email_name') or r['brand'], 'Template + contacts' if k(r) else 'Template only (no contacts found)', k(r), (f'Mail merge {[x.split(". ")[1].split(" (")[0] for x in mm].index(GRP(r)) + 1} - {GRP(r)}' if k(r) and GRP(r) in [x.split('. ')[1].split(' (')[0] for x in mm] else '-'), '', key_flags])
+    summ.append((i, folder, len(b), n, '; '.join(mm), ', '.join(dict.fromkeys(r['_tab'] for r in b))))
 for r in declined:
     reason = re.sub(r'^DECLINED:\s*', '', str(r.get('skip') or next(x for x in r['flags'] if str(x).startswith('DECLINED'))))
-    ws.append(['-', '-', r['_tab'], r['_user'], r['brand'], 'Declined: ' + reason[:300], 0, '', ''])
-s2 = tr.create_sheet('Batches', 0); s2.append(['Batch', 'Folder', 'Brands', 'Contacts', 'Sheet tabs covered', 'Sent? (tick)'])
+    ws.append(['-', '-', r['_tab'], r['_user'], r['brand'], 'Declined: ' + reason[:300], 0, '-', '', ''])
+s2 = tr.create_sheet('Batches', 0); s2.append(['Batch', 'Folder', 'Brands', 'Contacts', 'Mail merges in this batch (Word template + merge list, contacts)', 'Sheet tabs covered', 'Sent? (tick)'])
 for x in summ: s2.append(list(x) + [''])
-s2.append([]); s2.append(['Total', '', sum(x[2] for x in summ), sum(x[3] for x in summ), f'{len(declined)} declined (see Tracker)'])
-for wsx, widths in ((ws, [7, 22, 22, 34, 30, 30, 9, 11, 110]), (s2, [7, 24, 8, 9, 70, 11])):
+s2.append([]); s2.append(['Total', '', sum(x[2] for x in summ), sum(x[3] for x in summ), '', f'{len(declined)} declined (see Tracker)'])
+for wsx, widths in ((ws, [7, 22, 22, 34, 30, 30, 9, 30, 11, 110]), (s2, [7, 24, 8, 9, 70, 50, 11])):
     for c in wsx[1]: c.font = Font(bold=True, color='FFFFFF'); c.fill = PatternFill('solid', fgColor='1F3864')
     for j, wd in enumerate(widths): wsx.column_dimensions[openpyxl.utils.get_column_letter(j + 1)].width = wd
     wsx.freeze_panes = 'A2'
