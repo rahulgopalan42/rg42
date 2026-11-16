@@ -48,12 +48,12 @@ DROP = {'Mode Transportation': 'Ownership could not be established'}
 # an importer or distributor of an F1 carmaker's vehicles is not an F1 partner: kept, with the link in Verification Notes
 F1_KEEP = {'Pon Holdings B.V.'}
 # names that only look like a listed company (a listed namesake or a listed subsidiary); the company itself is unlisted
-NOT_LISTED = set()
+NOT_LISTED = {'WeTrade'}                      # the broker; the listed WeTrade Group is a different company
 # extra F1 links the roster match does not catch by name
 F1_EXTRA = dict(AN.F1_OWNERS, **{'Cognition AI': 'Cognition (Aston Martin)', 'Arctic Wolf Networks': 'Arctic Wolf', 'Jet365': 'Alpine', 'Intel': 'McLaren', 'Gucci': 'Alpine title partner from 2027', 'Electronic Arts': 'EA SPORTS (official F1 video game)'})
 # same company as a brand already on the sheet under a longer or shorter name: name -> name on the sheet
 SAME = {'Roquette Frères S.A.': 'Roquette', 'Louis Dreyfus Company B.V.': 'Louis Dreyfus Company', 'Farmers Insurance Exchange': 'Farmers Insurance', "Jersey Mike's": "Jersey Mike's Subs",
-        'Skechers': 'Skechers U.S.A.', 'Walgreens': 'Walgreens Boots Alliance'}
+        'Skechers': 'Skechers U.S.A.', 'Walgreens': 'Walgreens Boots Alliance', 'Fanatics Betting & Gaming': 'Fanatics'}
 clean = b.clean
 def tab_for(theme, key, sector, what=''):
     if key in ('crypto', 'betting') and re.search(r'prediction market', what, re.I): return 'NEW Betting & Prediction Mkts'
@@ -171,6 +171,8 @@ def cells(x):
     if x['conf'] == 'low': notes.append('Low-confidence line: check before outreach')
     if x['changed']: notes.append(x['changed'])
     if x['f1note']: notes.append('F1 note: ' + x['f1note'])
+    if re.search(r'(?i)estimate', x['detail']): notes.append('The capacity figure is a third-party estimate, not a figure published by the company')
+    if x['basis'] == 'b' and not x['is_rev']: notes.append('The capacity figure is not revenue as such (see Capacity Evidence)')
     if x['basis'] in ('d', 'e'): notes.append('No financial figure found: capacity rests on ' + ('an existing sports sponsorship' if x['basis'] == 'd' else 'state-fund ownership'))
     sig = lambda k: x['S'][k][0] + (': ' + x['S'][k][1] if x['S'][k][1] else '')
     liq = ('Valuation or deal value: ' + x['detail']) if x['basis'] == 'c' else ('Equity raised: ' + x['detail']) if x['basis'] == 'a' else 'Not found'
