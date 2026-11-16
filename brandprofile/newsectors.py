@@ -62,6 +62,15 @@ SAME = {'Roquette Frères S.A.': 'Roquette', 'Louis Dreyfus Company B.V.': 'Loui
 RENAME = {('unicorn_1', 'Branch'): 'Branch Metrics', ('unicorn_1', 'Hello (Hellobike)'): 'Hellobike'}
 # research lines not used: the same company is carried from another file with firmer evidence
 SKIP_LINE = {('unicorn_1', 'Tether')}       # the unicorn list's USD 350bn is a press valuation; the crypto file's line rests on reported profit
+# cautions the researchers reported, shown in Verification Notes
+NOTE = {'Youibot': 'Filed for a Hong Kong listing in Mar 2026: check whether it has listed', 'Leju Robotics': 'Shenzhen ChiNext listing application accepted in May 2026: check whether it has listed',
+        'TAILG': 'Filed for a Hong Kong listing in Feb 2026: check whether it has listed', 'Alpitronic': 'No page found naming its owners: unlisted status to confirm',
+        'Cult.fit': 'IPO approved in Oct 2026: may list soon', 'atNorth': 'USD 4bn deal announced Feb 2026 and may not have closed; Equinix (listed) takes a 40% minority',
+        'NorthC': 'The EUR 2bn price comes from unconfirmed press reports', 'Altera': 'Intel (listed) keeps 49%; Silver Lake holds 51%', 'ZEISS Semiconductor Manufacturing Technology': 'ASML (listed) owns 24.9%',
+        'Dubizzle Group': 'OLX Group (part of listed Prosus) holds about 39%, a minority', 'Kaizen Gaming (Betano)': 'Allwyn, an F1 team partner, holds a 37% minority stake',
+        'BoyleSports': 'Its West Ham shirt deal covered 2025-26; check that a top-tier deal is still running', 'Lottoland': 'The only revenue figure found is from 2016',
+        'Trulioo': 'Only about USD 150M of its 2021 round went to the company: at the threshold', 'Egon Zehnder': 'Sources conflict on whether it is listed: confirm (it is generally described as a partnership)',
+        'Hotwire Communications': 'Owned by Brookfield funds', 'Alcatel Submarine Networks': '80% owned by the French state'}
 clean = b.clean
 def tab_for(theme, key, sector, what=''):
     if key in ('crypto', 'betting') and re.search(r'prediction market', what, re.I): return 'NEW Betting & Prediction Mkts'
@@ -194,6 +203,7 @@ def cells(x):
     if x['f1note']: notes.append('F1 note: ' + x['f1note'])
     if re.search(r'(?i)estimate', x['detail']): notes.append('The capacity figure is a third-party estimate, not a figure published by the company')
     if x['basis'] == 'b' and not x['is_rev']: notes.append('The capacity figure is not revenue as such (see Capacity Evidence)')
+    if x['name'] in NOTE: notes.append(NOTE[x['name']])
     if x['basis'] in ('d', 'e'): notes.append('No financial figure found: capacity rests on ' + ('an existing sports sponsorship' if x['basis'] == 'd' else 'state-fund ownership'))
     sig = lambda k: x['S'][k][0] + (': ' + x['S'][k][1] if x['S'][k][1] else '')
     liq = ('Valuation or deal value: ' + x['detail']) if x['basis'] == 'c' else ('Equity raised: ' + x['detail']) if x['basis'] == 'a' else 'Not found'
