@@ -123,6 +123,8 @@ def group_label(key):
 def is_pass2(key): return key.startswith(('region_', 'confirm_', 'pe_us', 'pe_intl', 'clayproof_'))
 _n2 = os.path.join(H, 'newsec', 'notes2.json')
 if os.path.exists(_n2): NOTE.update(json.load(open(_n2, encoding='utf-8')))
+# lines whose evidence was judged too weak when read: shown on the Capacity To Confirm tab instead
+DEMOTE = {'Dalian Wanda Group': 'Revenue figure is from 2018, the group has been selling assets since, and part of its business is listed'}
 clean = b.clean
 def tab_for(theme, key, sector, what='', grp=''):
     g = grp.lower()
@@ -241,6 +243,7 @@ def load():
             add(rec)
     stale = []
     for x in list(out):
+        if x['name'] in DEMOTE: x['demote'] = DEMOTE[x['name']]; stale.append(x); out.remove(x); drop['Evidence judged too weak on review (moved to Capacity To Confirm)'] += 1; continue
         ym = re.search(r'(19|20)\d\d', str(x.get('year') or ''))
         if x['web'] and x['basis'] == 'b' and ym and int(ym.group(0)) < 2016:        # a revenue figure more than ten years old is not proof of capacity today
             stale.append(x); out.remove(x); drop['Only revenue figure found is more than ten years old (moved to Capacity To Confirm)'] += 1
@@ -292,7 +295,7 @@ def extras(L, onsheet):
     for x in getattr(load, 'stale', []):
         ck = core(x['name'])
         if ck in seen: continue
-        seen.add(ck); conf.append([x['name'], hq_fix(x['hq']), x['sector'], group_label(x['key']), x['detail'] + ' (' + x['source'] + ')', 'The only revenue figure found is more than ten years old', x['source']])
+        seen.add(ck); conf.append([x['name'], hq_fix(x['hq']), x['sector'], group_label(x['key']), x['detail'] + ' (' + x['source'] + ')', x.get('demote') or 'The only revenue figure found is more than ten years old', x['source']])
     gone = set()                                       # Clay leads checked against public pages and found to be listed, subsidiaries, closed or too small
     for f in glob.glob(os.path.join(H, 'newsec', 'leads_out', '*.jsonl')):
         for l in open(f, encoding='utf-8'):
