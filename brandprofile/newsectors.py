@@ -102,11 +102,13 @@ HQ_NONE = {'DLA Piper', 'Dentons', 'Norton Rose Fulbright'}      # international
 # the same company under two names
 ALIAS = {'Merkur Group': 'Gauselmann Group (Merkur)', 'Massachusetts Mutual Life Insurance Company (MassMutual)': 'MassMutual', 'Koninklijke Jumbo Food Groep (Jumbo)': 'Jumbo'}
 FORMS = re.compile(r'(?i)\b(groupe?|gruppo|grupo|holding|holdings|technology|technologies|athletics|stiftung|international|company|companies|corporation|enterprises|industries|limited|ltd|inc|llc|gmbh|kgaa|kg|se|ag|co|cie|sa|spa|bv|nv|as|a/s|ab|asa|pty|plc|lp|l\.p\.|the|and|mbh|og|b\.v\.|s\.a\.|s\.p\.a\.)\b')
+import unicodedata
+def fold(s): return ''.join(c for c in unicodedata.normalize('NFKD', s) if not unicodedata.combining(c))
 def core(n):
-    n = ALIAS.get(n, n)
+    n = fold(ALIAS.get(n, n))                          # accents folded, so "Postobon" and "Postobón" are one company
     return b.loose(FORMS.sub('', re.sub(r'\(.*?\)', '', n))) or b.loose(n)
 # owners of current F1 partners, and family holdings whose main operating business is itself listed (that business is covered in the listed-company work)
-F1_PAT = [(re.compile(r'(?i)w[üu]rth'), 'Owner of Liqui Moly, a Formula 1 partner'), (re.compile(r'(?i)^CMA CGM'), 'Owner of CEVA Logistics, a Ferrari partner')]
+F1_PAT = [(re.compile(r'(?i)^rolex'), 'Owner of TUDOR, a Racing Bulls partner'), (re.compile(r'(?i)w[üu]rth'), 'Owner of Liqui Moly, a Formula 1 partner'), (re.compile(r'(?i)^CMA CGM'), 'Owner of CEVA Logistics, a Ferrari partner')]
 HOLDS_LISTED = {'INA-Holding Schaeffler': 'Schaeffler AG', 'John Swire & Sons': 'Swire Pacific', 'Murugappa Group': 'its group companies (Cholamandalam, Tube Investments, Coromandel)', 'Zorlu Holding': 'Vestel',
                 'Yıldız Holding': 'Ülker (its unlisted biscuit business pladis is on the list)', 'Borusan Holding': 'its Istanbul-listed group companies', 'Hengli Group': 'Hengli Petrochemical',
                 'Shandong Weiqiao Pioneering Group': 'China Hongqiao and Weiqiao Textile', 'Hailiang Group': 'Zhejiang Hailiang', 'Wanxiang Group': 'Wanxiang Qianchao', 'Jiangsu Shagang Group': 'Jiangsu Shagang Co.',
@@ -150,11 +152,15 @@ def load():
             onsheet.setdefault(k, x['name']); sheetrow.setdefault(k, x)
     for d in A['f1x']: onsheet.setdefault(b.loose(d['name']), d['name'])
     out = []; left = []; drop = Counter(); seen = {}; now_private = []
+    for k0 in list(onsheet):
+        kf = b.loose(fold(onsheet[k0]))
+        if kf and kf not in onsheet: onsheet[kf] = onsheet[k0]; sheetrow.setdefault(kf, sheetrow.get(k0))
     def leave(rec, why, show=True):
         drop[why.split(':')[0]] += 1
         if show: left.append((rec['name'], group_label(rec.get('key', '')), why))
     def add(rec):
         k = b.loose(rec['name']); ck = core(rec['name'])
+        if k not in onsheet and b.loose(fold(rec['name'])) in onsheet: k = b.loose(fold(rec['name']))
         if not k: return
         if ck in seen:                                   # found by two groups: keep the web-checked, better-evidenced line, carry over what the other one adds
             old = seen[ck]; drop['Found twice (kept once)'] += 1
@@ -279,7 +285,7 @@ def extras(L, onsheet):
             try: d = json.loads(l)
             except Exception: continue
             nm = clean(d.get('name')); ck = core(nm)
-            if not nm or ck in have or ck in seen or b.loose(nm) in onsheet or b.f1_link(nm)[0]: continue
+            if not nm or ck in have or ck in seen or b.loose(nm) in onsheet or b.loose(fold(nm)) in onsheet or b.f1_link(nm)[0]: continue
             seen.add(ck); miss = clean(d.get('missing'))
             row = [nm, hq_fix(d.get('hq')), d.get('sector') if d.get('sector') in b.FIT else '', clean(d.get('group')), clean(d.get('what_is_known')), miss, clean(d.get('pages_tried'))]
             (outs if miss.upper().startswith('OUT') else conf).append(row)
@@ -298,7 +304,7 @@ def extras(L, onsheet):
             try: d = json.loads(l)
             except Exception: continue
             nm = clean(d.get('name')); ck = core(nm)
-            if not nm or ck in have or ck in seen or ck in gone or b.loose(nm) in onsheet or b.f1_link(nm)[0]: continue
+            if not nm or ck in have or ck in seen or ck in gone or b.loose(nm) in onsheet or b.loose(fold(nm)) in onsheet or b.f1_link(nm)[0]: continue
             seen.add(ck)
             leads.append([nm, clean(d.get('domain')), hq_fix(d.get('hq')), clean(d.get('industry')), clean(d.get('clay_revenue')), clean(d.get('clay_employees')), clean(d.get('clay_type'))])
     wp = os.path.join(H, 'newsec', 'watch_deals.json')
