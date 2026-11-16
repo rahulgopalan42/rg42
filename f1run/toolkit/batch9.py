@@ -53,7 +53,7 @@ for lim in range(math.ceil(tot / nb), CAP + 1):
 print('brands', len(order), 'live', len(live), 'declined', len(declined), 'contacts', tot, 'batches', len(batches))
 for i, b in enumerate(batches, 1): print(f"  batch {i:02d} brands {len(b):2d} contacts {sum(k(r) for r in b):2d} tabs {sorted(set(r['_tab'] for r in b))}")
 if '--dry' in sys.argv: sys.exit()
-root = 'pubw1/pkg/' + TITLE; shutil.rmtree('pubw1/pkg', ignore_errors=True); os.makedirs(root + '/Mail merge templates')
+root = 'pubw1/pkg/' + TITLE; shutil.rmtree('pubw1/pkg', ignore_errors=True); os.makedirs(root)
 json.dump(CB, open('pubw1/_c.json', 'w'))
 tr = openpyxl.Workbook(); ws = tr.active; ws.title = 'Tracker'
 ws.append(['Batch', 'Folder', 'Sheet tab', 'Brand (your sheet)', 'Email name', 'Status', 'Contacts', 'Sent? (tick)', 'Key flags'])
@@ -70,6 +70,7 @@ for i, b in enumerate(batches, 1):
     shutil.move(f'{label} - Emails Ready.docx', f'{d}/Batch {i:02d} - Emails.docx')
     shutil.move(f'{label} - Contacts.xlsx', f'{d}/Batch {i:02d} - Contacts.xlsx')
     for g in glob.glob(f'{label} - Merge List - *.xlsx'): shutil.move(g, f"{d}/Mail merge/Batch {i:02d} - {g.split(' - ', 2)[2]}")
+    for m in sorted(glob.glob('F1 Merge Master v7 - *.docx')): shutil.copy(m, f'{d}/Mail merge/')
     for g in glob.glob(f'{label} - Flagged Brands.xlsx') + glob.glob(f'{label.upper()} - Complete.zip'): os.remove(g)
     for r in b:
         fl = [str(x) for x in r['flags'] if not str(x).startswith(('Contacts:',))]
@@ -80,7 +81,6 @@ for i, b in enumerate(batches, 1):
 for r in declined:
     reason = re.sub(r'^DECLINED:\s*', '', str(r.get('skip') or next(x for x in r['flags'] if str(x).startswith('DECLINED'))))
     ws.append(['-', '-', r['_tab'], r['_user'], r['brand'], 'Declined: ' + reason[:300], 0, '', ''])
-for m in glob.glob('F1 Merge Master v7 - *.docx'): shutil.copy(m, f'{root}/Mail merge templates/')
 s2 = tr.create_sheet('Batches', 0); s2.append(['Batch', 'Folder', 'Brands', 'Contacts', 'Sheet tabs covered', 'Sent? (tick)'])
 for x in summ: s2.append(list(x) + [''])
 s2.append([]); s2.append(['Total', '', sum(x[2] for x in summ), sum(x[3] for x in summ), f'{len(declined)} declined (see Tracker)'])
