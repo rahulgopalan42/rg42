@@ -116,8 +116,9 @@ def group_label(key):
     if key.startswith('region_'): return 'Second pass: regional rankings and company pages'
     if key.startswith('confirm_'): return 'Second pass: proof found on a second attempt'
     if key.startswith('pe_'): return 'Second pass: private-equity portfolios'
+    if key.startswith('clayproof_'): return 'Second pass: found through Clay, proven from a public page'
     return key
-def is_pass2(key): return key.startswith(('region_', 'confirm_', 'pe_us', 'pe_intl'))
+def is_pass2(key): return key.startswith(('region_', 'confirm_', 'pe_us', 'pe_intl', 'clayproof_'))
 _n2 = os.path.join(H, 'newsec', 'notes2.json')
 if os.path.exists(_n2): NOTE.update(json.load(open(_n2, encoding='utf-8')))
 clean = b.clean
@@ -232,6 +233,12 @@ def load():
                         'rel': d.get('rel') if d.get('rel') in (1, 2, 3, 4, 5) else 2, 'conf': clean(d.get('conf')).lower() or 'medium', 'status': 'private', 'parent': '', 'changed': '',
                         'stage': 'pre-revenue' if clean(d.get('stage')).lower().startswith('pre') else 'commercial', 'f1': '', 'f1note': '', 'web': True})
             add(rec)
+    stale = []
+    for x in list(out):
+        ym = re.search(r'(19|20)\d\d', str(x.get('year') or ''))
+        if x['web'] and x['basis'] == 'b' and ym and int(ym.group(0)) < 2016:        # a revenue figure more than ten years old is not proof of capacity today
+            stale.append(x); out.remove(x); drop['Only revenue figure found is more than ten years old (moved to Capacity To Confirm)'] += 1
+    load.stale = stale
     for x in out:
         sg = x['signals'] = dict(x['signals'] or {})
         if x['web'] and x['basis'] in ('a', 'c') and x['key'] != 'pe_owned' and not clean(sg.get('raise')) and RAISED.search(x['detail']) and RECENT.search(x['detail']) and not BUYOUT.search(x['detail']):
@@ -276,12 +283,22 @@ def extras(L, onsheet):
             seen.add(ck); miss = clean(d.get('missing'))
             row = [nm, hq_fix(d.get('hq')), d.get('sector') if d.get('sector') in b.FIT else '', clean(d.get('group')), clean(d.get('what_is_known')), miss, clean(d.get('pages_tried'))]
             (outs if miss.upper().startswith('OUT') else conf).append(row)
+    for x in getattr(load, 'stale', []):
+        ck = core(x['name'])
+        if ck in seen: continue
+        seen.add(ck); conf.append([x['name'], hq_fix(x['hq']), x['sector'], group_label(x['key']), x['detail'] + ' (' + x['source'] + ')', 'The only revenue figure found is more than ten years old', x['source']])
+    gone = set()                                       # Clay leads checked against public pages and found to be listed, subsidiaries, closed or too small
+    for f in glob.glob(os.path.join(H, 'newsec', 'leads_out', '*.jsonl')):
+        for l in open(f, encoding='utf-8'):
+            try: gone.add(core(clean(json.loads(l).get('name'))))
+            except Exception: pass
+    extras.gone = len(gone)
     for f in sorted(glob.glob(os.path.join(H, 'newsec', 'leads', '*.jsonl'))):
         for l in open(f, encoding='utf-8'):
             try: d = json.loads(l)
             except Exception: continue
             nm = clean(d.get('name')); ck = core(nm)
-            if not nm or ck in have or ck in seen or b.loose(nm) in onsheet or b.f1_link(nm)[0]: continue
+            if not nm or ck in have or ck in seen or ck in gone or b.loose(nm) in onsheet or b.f1_link(nm)[0]: continue
             seen.add(ck)
             leads.append([nm, clean(d.get('domain')), hq_fix(d.get('hq')), clean(d.get('industry')), clean(d.get('clay_revenue')), clean(d.get('clay_employees')), clean(d.get('clay_type'))])
     wp = os.path.join(H, 'newsec', 'watch_deals.json')
@@ -305,6 +322,7 @@ def cells(x):
     if x.get('hq_known'): notes.append('Headquarters added from general knowledge, not from a page read in this research')
     if x['hq'] == 'Not recorded': notes.append('Headquarters not found on the pages read')
     if 'iso500.org.tr' in x['source']: notes.append('Unlisted status and city come from the ISO 500 industrial ranking (100% private capital; chamber city): a listed parent group is not ruled out')
+    if 'famcap.com' in x['source']: notes.append('Revenue is the 2018 figure from the Family Capital / PwC Middle East 150 ranking; the profile is thin: check before outreach')
     if 'newmarketpitch' in x['source']: notes.append('Funding figure comes from one third-party funding tracker: confirm with the company before outreach')
     if x['basis'] in ('d', 'e'): notes.append('No financial figure found: capacity rests on ' + ('an existing sports sponsorship' if x['basis'] == 'd' else 'state-fund ownership'))
     sig = lambda k: x['S'][k][0] + (': ' + x['S'][k][1] if x['S'][k][1] else '')
@@ -356,7 +374,7 @@ def write(L, left, drop, now_private, path, onsheet=None):
     nohq = sum(1 for x in L if x['hq'] == 'Not recorded')
     n_new = sum(tc[t] for t in newn); desk = sum(1 for x in L if not x['web']); hc = Counter(t for t, _ in load.have)
     conf, outs, leads, watch = extras(L, onsheet or {})
-    p2 = [x for x in L if is_pass2(x['key'])]; p2k = Counter('regional rankings' if x['key'].startswith('region_') else 'second proof attempt' if x['key'].startswith('confirm_') else 'private-equity portfolios' for x in p2)
+    p2 = [x for x in L if is_pass2(x['key'])]; p2k = Counter('regional rankings' if x['key'].startswith('region_') else 'second proof attempt' if x['key'].startswith('confirm_') else 'Clay leads proven' if x['key'].startswith('clayproof_') else 'private-equity portfolios' for x in p2)
     p2c = Counter(x['country'] for x in p2 if x['country'] not in ('Not recorded', 'International'))
     S = [('New brands for your sheet, filed by category - second pass included (16 Nov 2026)',),
          [f"{n:,} companies that are not on your 48-tab sheet. Each is unlisted, is not a current F1 partner or the owner of one, and passes the capacity test with a source. Headquarters in {len(ctry)} countries."],
