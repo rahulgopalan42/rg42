@@ -45,7 +45,7 @@ CONF = {'high': 3, 'medium': 2, 'low': 1}
 RAISED = re.compile(r'(?i)\b(raised|raise|round|series [a-k]\b|funding|investment|invested|financing)')
 RECENT = re.compile(r'(?i)\b((nov|dec)[a-z]*\.? 2025|(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov)[a-z]*\.? 2026|in 2026|\(2026\))')
 NOT_RAISE = re.compile(r'(?i)purchase of|agreed to buy|to acquire|acquires|acquired|buys |bought ')
-BUYOUT = re.compile(r'(?i)taken private|take-private|acquired by|bought by|acquisition of|buyout|sold to')
+BUYOUT = re.compile(r'(?i)taken private|take-private|acquired by|bought by|acquisition of|buyout|sold to|agreed sale|sale by')
 REV = re.compile(r'(?i)^[^;:.]{0,45}?\b(revenues?|sales|total income|net trading income|trading income|net revenue)\b')
 # decisions made by hand after reading the lists: name -> reason it is left out
 DROP = {'Mode Transportation': 'Ownership could not be established'}
@@ -70,7 +70,12 @@ NOTE = {'Youibot': 'Filed for a Hong Kong listing in Mar 2026: check whether it 
         'Dubizzle Group': 'OLX Group (part of listed Prosus) holds about 39%, a minority', 'Kaizen Gaming (Betano)': 'Allwyn, an F1 team partner, holds a 37% minority stake',
         'BoyleSports': 'Its West Ham shirt deal covered 2025-26; check that a top-tier deal is still running', 'Lottoland': 'The only revenue figure found is from 2016',
         'Trulioo': 'Only about USD 150M of its 2021 round went to the company: at the threshold', 'Egon Zehnder': 'Sources conflict on whether it is listed: confirm (it is generally described as a partnership)',
+        'Urenco': 'E.ON and RWE (both listed) own a third between them; the UK and Dutch states own the rest',
+        'Kraken Technologies': 'Majority-owned by Octopus Energy (unlisted, already on your sheet). Not the crypto exchange Kraken, which is an F1 partner',
+        'Looop': 'Revenue is only just at the USD 300M line; Chubu Electric (listed) has a capital alliance with it',
         'Hotwire Communications': 'Owned by Brookfield funds', 'Alcatel Submarine Networks': '80% owned by the French state'}
+# signals read by hand and judged not to be the thing the parameter asks for: shown as "Lead only"
+SIG_DOWN = {('dnata', 'marketing'), ('VGW', 'marketing'), ('Air Serbia', 'marketing'), ('EDGE Group', 'regions'), ('Eurostar', 'regions'), ('atNorth', 'raise')}
 clean = b.clean
 def tab_for(theme, key, sector, what=''):
     if key in ('crypto', 'betting') and re.search(r'prediction market', what, re.I): return 'NEW Betting & Prediction Mkts'
@@ -174,6 +179,7 @@ def load():
             v = clean((x['signals'] or {}).get(k))
             ok = bool(v) and bool(re.search(r'https?://', v)) and bool(re.search(r'202[56]', v))
             if ok and k == 'raise' and (NOT_RAISE.search(v) or not (RAISED.search(v) or re.search(r'(?i)stake sale|valuation', v))): ok = False     # buying something is not raising money
+            if ok and (re.search(r'(?i)reportedly|rumou?r|said to be|in talks', v) or (x['name'], k) in SIG_DOWN): ok = False
             S[k] = ('Not yet checked', '') if not v else ('Confirmed', v) if ok else ('Lead only', v)
         x['S'] = S; x['nconf'] = sum(1 for v in S.values() if v[0] == 'Confirmed')
         x['rank'] = 'High' if x['nconf'] >= 2 else 'Medium' if x['nconf'] == 1 else 'To Verify'
@@ -204,6 +210,7 @@ def cells(x):
     if re.search(r'(?i)estimate', x['detail']): notes.append('The capacity figure is a third-party estimate, not a figure published by the company')
     if x['basis'] == 'b' and not x['is_rev']: notes.append('The capacity figure is not revenue as such (see Capacity Evidence)')
     if x['name'] in NOTE: notes.append(NOTE[x['name']])
+    if 'newmarketpitch' in x['source']: notes.append('Funding figure comes from one third-party funding tracker: confirm with the company before outreach')
     if x['basis'] in ('d', 'e'): notes.append('No financial figure found: capacity rests on ' + ('an existing sports sponsorship' if x['basis'] == 'd' else 'state-fund ownership'))
     sig = lambda k: x['S'][k][0] + (': ' + x['S'][k][1] if x['S'][k][1] else '')
     liq = ('Valuation or deal value: ' + x['detail']) if x['basis'] == 'c' else ('Equity raised: ' + x['detail']) if x['basis'] == 'a' else 'Not found'
