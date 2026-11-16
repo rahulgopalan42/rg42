@@ -3,6 +3,8 @@ check/
 check_in/
 web/
 web_in/
+signals/
+signals_in/
 __pycache__/
 data/wiki_ids.txt
 data/check_ids*.txt
