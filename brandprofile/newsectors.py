@@ -59,7 +59,7 @@ F1_EXTRA = dict(AN.F1_OWNERS, **{'Cognition AI': 'Cognition (Aston Martin)', 'Ar
 SAME = {'Roquette Frères S.A.': 'Roquette', 'Louis Dreyfus Company B.V.': 'Louis Dreyfus Company', 'Farmers Insurance Exchange': 'Farmers Insurance', "Jersey Mike's": "Jersey Mike's Subs",
         'Skechers': 'Skechers U.S.A.', 'Walgreens': 'Walgreens Boots Alliance', 'Fanatics Betting & Gaming': 'Fanatics'}
 # research lines whose short name collides with a different company on the sheet: (file, name) -> fuller name
-RENAME = {('unicorn_1', 'Branch'): 'Branch Metrics', ('unicorn_1', 'Hello (Hellobike)'): 'Hellobike'}
+RENAME = {('unicorn_1', 'Branch'): 'Branch Metrics', ('unicorn_1', 'Hello (Hellobike)'): 'Hellobike', ('ai_models', 'Vinci'): 'Vinci AI'}      # Vinci AI is not the listed construction group VINCI
 # research lines not used: the same company is carried from another file with firmer evidence
 SKIP_LINE = {('unicorn_1', 'Tether')}       # the unicorn list's USD 350bn is a press valuation; the crypto file's line rests on reported profit
 # cautions the researchers reported, shown in Verification Notes
@@ -73,6 +73,10 @@ NOTE = {'Youibot': 'Filed for a Hong Kong listing in Mar 2026: check whether it 
         'Urenco': 'E.ON and RWE (both listed) own a third between them; the UK and Dutch states own the rest',
         'Kraken Technologies': 'Majority-owned by Octopus Energy (unlisted, already on your sheet). Not the crypto exchange Kraken, which is an F1 partner',
         'Looop': 'Revenue is only just at the USD 300M line; Chubu Electric (listed) has a capital alliance with it',
+        'micro1': 'The source gives no date for the USD 1B+ valuation: confirm it is since Nov 2023', 'AfterQuery': 'The source gives no date for the USD 1B+ valuation: confirm it is since Nov 2023',
+        'webAI': 'The source gives no date for the USD 1B+ valuation: confirm it is since Nov 2023', 'Zendesk': 'The revenue figure found is from 2018, before it was taken private in 2022',
+        '01.AI': 'Valuation dates from Nov 2023, at the cut-off; it has since stopped training its own models', 'Invisible Technologies': 'The USD 2B valuation appears only in a news headline',
+        'Mistral AI': 'ASML holds about 11% and Samsung a stake: minority investors',
         'Hotwire Communications': 'Owned by Brookfield funds', 'Alcatel Submarine Networks': '80% owned by the French state'}
 # signals read by hand and judged not to be the thing the parameter asks for: shown as "Lead only"
 SIG_DOWN = {('dnata', 'marketing'), ('VGW', 'marketing'), ('Air Serbia', 'marketing'), ('EDGE Group', 'regions'), ('Eurostar', 'regions'), ('atNorth', 'raise')}
