@@ -1,0 +1,362 @@
+{
+ "rows": [
+  {
+   "brand": "Fictiv",
+   "people": [
+    {
+     "name": "Jennifer Shambroom",
+     "title": "CMO",
+     "email": "jennifer.shambroom@fictiv.com"
+    },
+    {
+     "name": "Charles Yeung",
+     "title": "Vice President, Growth Marketing",
+     "email": "charles.yeung@fictiv.com"
+    },
+    {
+     "name": "Christine Evans",
+     "title": "Sr. Director, Marketing Communications",
+     "email": "christine@fictiv.com"
+    },
+    {
+     "name": "Danna Ngo",
+     "title": "Vice President Marketing",
+     "email": "danna.ngo@fictiv.com"
+    }
+   ]
+  },
+  {
+   "brand": "Protolabs",
+   "people": [
+    {
+     "name": "Brian Peters",
+     "title": "Chief Marketing Officer",
+     "email": "brian.peters@protolabs.com"
+    },
+    {
+     "name": "Algirdas Desceras",
+     "title": "Marketing Director",
+     "email": "algirdas.desceras@protolabs.com"
+    },
+    {
+     "name": "Will Martin",
+     "title": "Global Director of Brand + Communications",
+     "email": "will.martin@protolabs.com"
+    },
+    {
+     "name": "Suresh Krishna",
+     "title": "President and Chief Executive Officer | Member, Board of Directors",
+     "email": "suresh.krishna@protolabs.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/-suresh-krishna",
+     "location": "Minneapolis, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Velo3D",
+   "people": [
+    {
+     "name": "Michelle Sidwell",
+     "title": "CRO",
+     "email": "michelle.sidwell@velo3d.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/michelle-sidwell-0a856325",
+     "location": "Moraga, United States"
+    },
+    {
+     "name": "Katelyn Spuhler",
+     "title": "Head of Marketing",
+     "email": "katelyn.spuhler@velo3d.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/katelynspuhler",
+     "location": "Cleveland, United States"
+    }
+   ]
+  },
+  {
+   "brand": "OpenWeb",
+   "people": [
+    {
+     "name": "Jim Daily",
+     "title": "CEO",
+     "email": "jim@openweb.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jim-daily-63ab336",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Rebecca O'Donoghue",
+     "title": "Director Brand Strategy",
+     "email": "rebecca.odonoghue@openweb.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/rebecca-o-donoghue-457136ab",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Eran Kattash",
+     "title": "VP, Strategy & Growth",
+     "email": "eran.k@openweb.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/eran-kattash-366a07ba",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Victor Yakovlev",
+     "title": "Head of Product Marketing",
+     "email": "victor.yakovlev@openweb.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/victor-yakovlev",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Drilling Tools International",
+   "people": [
+    {
+     "name": "Wayne Prejean",
+     "title": "Chairman & CEO",
+     "email": "wayne.prejean@drillingtools.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/wayne-prejean-7257824",
+     "location": "Houston, United States"
+    },
+    {
+     "name": "Jelle Zwart",
+     "title": "Director of Marketing",
+     "email": "jelle.zwart@drillingtools.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jellejens",
+     "location": "Amsterdam, Netherlands"
+    }
+   ]
+  },
+  {
+   "brand": "Swarovski",
+   "people": [
+    {
+     "name": "Alexis Nasard",
+     "title": "CEO",
+     "email": "alexis.nasard@swarovski.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/alexis-nasard-2b106b8",
+     "location": "Switzerland"
+    },
+    {
+     "name": "Myrtille Clement-Fromentel",
+     "title": "Chief Brand Officer",
+     "email": "myrtille.clement-fromentel@swarovski.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/myrtille-cl%c3%a9ment-fromentel-8512b25",
+     "location": "Zuerich, Switzerland"
+    },
+    {
+     "name": "Alexandre Silva",
+     "title": "Vice President, Global Head of Intelligence, Strategic Marketing & Media",
+     "email": "alexandre.silva@swarovski.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/alexandresimoessilva",
+     "location": "Zuerich, Switzerland"
+    },
+    {
+     "name": "Barbara Eck",
+     "title": "Head of Global Marketing",
+     "email": "barbara.eck@swarovski.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/barbara-eck-27252117b",
+     "location": "Austria"
+    }
+   ]
+  },
+  {
+   "brand": "Galderma",
+   "people": [
+    {
+     "name": "Flemming Ornskov",
+     "title": "Chief Executive Officer",
+     "email": "flemming.ornskov@galderma.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/flemming-ornskov-md-mph-a90b687",
+     "location": "Zug, Switzerland"
+    },
+    {
+     "name": "Christian Marcoux",
+     "title": "Chief Communications Officer",
+     "email": "christian.marcoux@galderma.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/christian-marcoux-4428b923",
+     "location": "Lausanne, Switzerland"
+    },
+    {
+     "name": "Dodie Itaoui",
+     "title": "Global Head of Digital Marketing & Brand Engagement",
+     "email": "dodie.itaoui@galderma.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/dodie-itaoui-223890192",
+     "location": "Lausanne, Switzerland"
+    },
+    {
+     "name": "Sebastien Perlo",
+     "title": "Global Head of Marketing and Innovation - Cetaphil",
+     "email": "sebastien.perlo@galderma.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/sebastien-perlo",
+     "location": "Lausanne, Switzerland"
+    }
+   ]
+  },
+  {
+   "brand": "Valentino",
+   "people": [
+    {
+     "name": "Riccardo Bellini",
+     "title": "CEO",
+     "email": "riccardo.bellini@valentino.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/riccardo-bellini-9b97a44",
+     "location": "Italy"
+    },
+    {
+     "name": "Liran Peterzil",
+     "title": "Chief Marketing Officer",
+     "email": "liran.peterzil@valentino.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/liranpeterzil",
+     "location": "Milan, Italy"
+    },
+    {
+     "name": "Tara Kurobe",
+     "title": "Vice President of Marketing & Communications",
+     "email": "tara.kurobe@valentino.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/tara-kurobe-90637829",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Marco Bella",
+     "title": "Head of Performance Marketing & Search",
+     "email": "marco.labella@valentino.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/marcolabella",
+     "location": "Milan, Italy"
+    }
+   ]
+  },
+  {
+   "brand": "Bath & Body Works",
+   "people": [
+    {
+     "name": "Daniel Heaf",
+     "title": "Chief Executive Officer",
+     "email": "dheaf@bbw.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/danielheaf",
+     "location": "Columbus, United States"
+    },
+    {
+     "name": "Vimla Gupta",
+     "title": "EVP & Chief Marketing & Innovation Officer",
+     "email": "vblackgupta@bbw.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/vimla-black-gupta-3797a95",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Veronique Pinsky",
+     "title": "Chief Brand & Product Officer",
+     "email": "vgp@bbw.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/veronique-gabai-pinsky-b4412711",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Brian Talbot",
+     "title": "VP Innovation - Body Care",
+     "email": "btalbot@bbw.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/brian-talbot-3520647",
+     "location": "Columbus, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Wella Company",
+   "people": [
+    {
+     "name": "Carole Diarra",
+     "title": "Chief Marketing Officer",
+     "email": "carole.diarra@wella.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/carolediarra",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Charlene Dauga",
+     "title": "Global Marketing Director - OPI",
+     "email": "charlene.dauga@wella.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/charl%c3%a8ne-dauga-86b84347",
+     "location": "France"
+    },
+    {
+     "name": "Hugo Kunetz",
+     "title": "Chief Revenue Officer, Wella Company (KKR Portfolio Company)",
+     "email": "hugo.kunetz@wella.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/hugokunetz",
+     "location": "Geneva, Switzerland"
+    },
+    {
+     "name": "Nathalie Honda",
+     "title": "Chief Marketing Officer",
+     "email": "nathalie.honda@wella.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/nathalie-honda",
+     "location": "Sao Paulo, Brazil"
+    }
+   ]
+  },
+  {
+   "brand": "THG",
+   "people": [
+    {
+     "name": "Matthew Moulding",
+     "title": "Founder & CEO",
+     "email": "matthew@thg.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/matthew-moulding",
+     "location": "Manchester, United Kingdom"
+    },
+    {
+     "name": "Viki Tahmasebi",
+     "title": "CEO, Group Communications & Portfolio",
+     "email": "viki.tahmasebi@thg.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/viki-tahmasebi-a8414619",
+     "location": "England, United Kingdom"
+    },
+    {
+     "name": "Gareth Gray",
+     "title": "Head of Licensing & Partnerships",
+     "email": "gareth.gray@thg.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/garethgray1",
+     "location": "Manchester, United Kingdom"
+    },
+    {
+     "name": "Jennifer Blow",
+     "title": "Head of Brand Communications",
+     "email": "jennifer.blow@thg.com",
+     "role": "field_marketing",
+     "linkedin": "",
+     "location": ""
+    }
+   ]
+  },
+  {
+   "brand": "Thinking Machines Lab",
+   "people": []
+  }
+ ]
+}

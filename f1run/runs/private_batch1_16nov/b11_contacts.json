@@ -1,0 +1,322 @@
+{
+ "rows": [
+  {
+   "brand": "project44",
+   "people": [
+    {
+     "name": "Brian Cooper",
+     "title": "Chief Marketing Officer",
+     "email": "brian.m.cooper@project44.com"
+    },
+    {
+     "name": "Jeanette Robinson",
+     "title": "VP, Marketing",
+     "email": "jrobinson@project44.com"
+    },
+    {
+     "name": "Eric Fullerton",
+     "title": "Vice President, Product Marketing",
+     "email": "efullerton@project44.com"
+    },
+    {
+     "name": "Matthew Kippen",
+     "title": "Vice President Product Marketing",
+     "email": "matthew.kippen@project44.com"
+    }
+   ]
+  },
+  {
+   "brand": "Verda",
+   "people": [
+    {
+     "name": "Alexander Rozhkov",
+     "title": "Head of Growth Marketing & Operations",
+     "email": "alexander@datacrunch.io"
+    },
+    {
+     "name": "Martin Dessauer",
+     "title": "Growth Sales Team Lead",
+     "email": "martin@datacrunch.io"
+    },
+    {
+     "name": "Jani Hellstrom",
+     "title": "Head of Communications & PR",
+     "email": "jani.hellstrom@verda.com"
+    }
+   ]
+  },
+  {
+   "brand": "Black Forest Labs",
+   "people": [
+    {
+     "name": "Owais Khan",
+     "title": "Marketing",
+     "email": "owais@blackforestlabs.ai"
+    },
+    {
+     "name": "Aitana Van Bekestein",
+     "title": "Marketing",
+     "email": "aitana@blackforestlabs.ai"
+    },
+    {
+     "name": "Andreas Blattmann",
+     "title": "Founder",
+     "email": "andreas@blackforestlabs.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/andreas-blattmann-479038186",
+     "location": "Freiburg, Germany"
+    },
+    {
+     "name": "Axel Sauer",
+     "title": "Co-Founder",
+     "email": "axel@blackforestlabs.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/axel-sauer",
+     "location": "Germany"
+    }
+   ]
+  },
+  {
+   "brand": "Capacity",
+   "people": [
+    {
+     "name": "David Karandish",
+     "title": "Founder and CEO",
+     "email": "david.karandish@aisoftware.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/davidkarandish",
+     "location": "St. Louis, United States"
+    },
+    {
+     "name": "Karaline Venezia",
+     "title": "Chief Revenue Officer",
+     "email": "karaline.venezia@capacity.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/karaline-venezia-6323a018",
+     "location": "New York, United States"
+    },
+    {
+     "name": "James Cox",
+     "title": "Senior Vice President Marketing",
+     "email": "james.cox@capacity.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jamescox",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Lauren Tapko",
+     "title": "Field Marketing Director",
+     "email": "lauren.tapko@capacity.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lauren-wendell",
+     "location": "St. Louis, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Scale Computing",
+   "people": [
+    {
+     "name": "Marlena Fernandez",
+     "title": "Vice President, Marketing",
+     "email": "mfernandez@scalecomputing.com"
+    },
+    {
+     "name": "Dusty Koekenberg",
+     "title": "Sr. Director, Strategic Alliances & Marketing",
+     "email": "dkoekenberg@scalecomputing.com"
+    },
+    {
+     "name": "Kevin Head",
+     "title": "Corporate Design and Brand Manager at Scale Computing",
+     "email": "khead@scalecomputing.com"
+    },
+    {
+     "name": "Todd Davis",
+     "title": "Marketing",
+     "email": "tdavis@scalecomputing.com"
+    }
+   ]
+  },
+  {
+   "brand": "Axonius",
+   "people": [
+    {
+     "name": "Meghan Mitchell-Marks",
+     "title": "Chief Marketing Officer",
+     "email": "meghan.marks@axonius.com"
+    },
+    {
+     "name": "Paul Johnson",
+     "title": "VP, Marketing Operations",
+     "email": "paul.johnson@axonius.com"
+    },
+    {
+     "name": "Sarah Birch",
+     "title": "Marketing Operations Lead",
+     "email": "sarah.birch@axonius.com"
+    },
+    {
+     "name": "Elliott Gilliland",
+     "title": "Head of Marketing Operations",
+     "email": "elliott.gilliland@axonius.com"
+    }
+   ]
+  },
+  {
+   "brand": "Attentive",
+   "people": [
+    {
+     "name": "Amit Jhawar",
+     "title": "Chief Executive Officer",
+     "email": "ajhawar@attentivemobile.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/amitabhjhawar",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Alex Becker",
+     "title": "CMO | Advisor",
+     "email": "abecker@attentive.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/alexybecker",
+     "location": "Los Angeles, United States"
+    },
+    {
+     "name": "Brian Malkerson",
+     "title": "Chief Revenue Officer",
+     "email": "bmalkerson@attentivemobile.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/bmalkerson",
+     "location": "Miami, United States"
+    },
+    {
+     "name": "Megan Miller",
+     "title": "VP, Revenue Marketing",
+     "email": "mmiller@attentivemobile.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/meganneelymiller",
+     "location": "Austin, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Vena Solutions",
+   "people": [
+    {
+     "name": "Hunter Madeley",
+     "title": "CEO",
+     "email": "hmadeley@venacorp.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/huntermadeley",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Allison Munro",
+     "title": "Chief Marketing & Ecosystem Officer",
+     "email": "amunro@venacorp.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/allisondmunro",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Jonathan Paul",
+     "title": "VP, Content Marketing",
+     "email": "jpaul@venacorp.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jdpwrites",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Nicole Nicoloff",
+     "title": "Senior Director, Brand and Distribution",
+     "email": "nnicoloff@venacorp.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/%f0%9f%8c%b1-nicole-nicoloff-6137354",
+     "location": "Indianapolis, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Meltwater",
+   "people": [
+    {
+     "name": "John Box",
+     "title": "Chief Executive Officer",
+     "email": "john.box@meltwater.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/john-b-2952641a",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Perri Robinson",
+     "title": "Global Head of Marketing Campaigns",
+     "email": "perri.robinson@meltwater.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/perri-robinson",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Amy Caton",
+     "title": "Head of Global Marketing Operations",
+     "email": "amy.caton@meltwater.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/acaton",
+     "location": "United States"
+    },
+    {
+     "name": "Sarah Stokholm",
+     "title": "Director Global Digital Marketing - Demand Generation",
+     "email": "sarah.mai@meltwater.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/sarah-mai-stokholm",
+     "location": "Copenhagen, Denmark"
+    }
+   ]
+  },
+  {
+   "brand": "FieldAI",
+   "people": [
+    {
+     "name": "Hassan Anjum",
+     "title": "Director, Marketing and Brand",
+     "email": "hassananjum@fieldai.com"
+    },
+    {
+     "name": "Irene Yoo",
+     "title": "Event Marketing Manager",
+     "email": "irene.yoo@fieldai.com"
+    },
+    {
+     "name": "Ali Agha",
+     "title": "Founder and CEO",
+     "email": "ali@fieldai.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ali-agha-7aa5212a",
+     "location": "United States"
+    },
+    {
+     "name": "James Kim",
+     "title": "Senior Creative Director",
+     "email": "james.kim@fieldai.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/james-kim-63b34b20",
+     "location": "Los Angeles, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Mojo Vision",
+   "people": [
+    {
+     "name": "Nikhil Balram",
+     "title": "Chief Executive Officer",
+     "email": "nikhil.balram@mojo.vision",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/nikhil-balram-a160151a",
+     "location": "United States"
+    }
+   ]
+  }
+ ]
+}

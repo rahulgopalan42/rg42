@@ -1,0 +1,368 @@
+{
+ "rows": [
+  {
+   "brand": "EcoDataCenter",
+   "people": [
+    {
+     "name": "Peter Michelson",
+     "title": "Chief Executive Officer",
+     "email": "peter.michelson@ecodatacenter.se",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/peter-michelson-a7046422",
+     "location": "Stockholm, Stockholm County, Sweden"
+    },
+    {
+     "name": "John Wernvik",
+     "title": "Chief External Relations & Sustainability Officer",
+     "email": "john.wernvik@ecodatacenter.se",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/john-wernvik-0527a891",
+     "location": "Stockholm, Stockholm County, Sweden"
+    },
+    {
+     "name": "Johan Ostlund",
+     "title": "Chief Commercial Officer (CCO)",
+     "email": "johan.ostlund@ecodatacenter.se",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/johan-%c3%b6stlund-60a16b1",
+     "location": "Stockholm County, Sweden"
+    },
+    {
+     "name": "Tova Isberg",
+     "title": "Brand & Communications Manager",
+     "email": "tova.isberg@ecodatacenter.se",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/tovaisberg",
+     "location": "Stockholm, Stockholm County, Sweden"
+    }
+   ]
+  },
+  {
+   "brand": "CACI International",
+   "people": [
+    {
+     "name": "Robert Mathews",
+     "title": "Creative & Brand Marketing Leader",
+     "email": "robert.mathews@caci.com"
+    },
+    {
+     "name": "John Mengucci",
+     "title": "President & CEO",
+     "email": "jmengucci@caci.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/john-mengucci-612a079",
+     "location": "Baltimore, Maryland, United States"
+    },
+    {
+     "name": "Lorraine Corcoran",
+     "title": "Executive Vice President, Corporate Communications",
+     "email": "lorraine.corcoran@caci.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/lorrainemcorcoran",
+     "location": "Baltimore, Maryland, United States"
+    },
+    {
+     "name": "Brian Daly",
+     "title": "Director of Marketing",
+     "email": "bdaly@caci.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/brian-daly-pmp-0350a444",
+     "location": "Baltimore, Maryland, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Lutech",
+   "people": [
+    {
+     "name": "Giuseppe Franco",
+     "title": "Group CEO",
+     "email": "giuseppe.difranco@lutech.it",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/giuseppe-difranco",
+     "location": "Milan, Lombardy, Italy"
+    },
+    {
+     "name": "Alberto Roseo",
+     "title": "Chief Marketing, Communication & Innovation Officer",
+     "email": "a.roseo@lutech.it",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/aroseo",
+     "location": "Milan, Lombardy, Italy"
+    },
+    {
+     "name": "Alice Prisco",
+     "title": "Head of Marketing & Communications",
+     "email": "alice.diprisco@lutech.it",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/alicediprisco",
+     "location": "Milan, Lombardy, Italy"
+    }
+   ]
+  },
+  {
+   "brand": "Systex",
+   "people": [
+    {
+     "name": "Frank Lin",
+     "title": "CEO",
+     "email": "franklin@systex.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/frank-lin-%e6%9e%97%e9%9a%86%e5%a5%ae-04812a116",
+     "location": "Taiwan"
+    },
+    {
+     "name": "Sunny Hsia",
+     "title": "Marketing Director",
+     "email": "sunnyhsia@systex.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sunny-hsia-aa614778",
+     "location": "Taipei, Taiwan"
+    },
+    {
+     "name": "Irene Li",
+     "title": "PR Director",
+     "email": "ireneli@systex.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/irene-li-7a786976",
+     "location": "Taiwan"
+    }
+   ]
+  },
+  {
+   "brand": "Meter",
+   "people": [
+    {
+     "name": "Margaret Good",
+     "title": "Head of Marketing",
+     "email": "margaret@meter.com"
+    },
+    {
+     "name": "Sarah Stern",
+     "title": "Head of Communications",
+     "email": "sarah.stern@meter.com"
+    },
+    {
+     "name": "Anil Varanasi",
+     "title": "CEO, Co-Founder",
+     "email": "anil@meter.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/anilcv",
+     "location": "San Francisco, California, United States"
+    },
+    {
+     "name": "Emma Janaskie",
+     "title": "Head of Editorial",
+     "email": "emma@meter.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/emmajanaskie",
+     "location": "New York, New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Conclusion",
+   "people": [
+    {
+     "name": "Engbert Verkoren",
+     "title": "CEO",
+     "email": "engbert@conclusion.nl",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/engbert-verkoren",
+     "location": "Utrecht, Utrecht, Netherlands"
+    },
+    {
+     "name": "Bjorn Kellerman",
+     "title": "Director | Commercie & Marketing",
+     "email": "bjorn.kellerman@conclusion.nl",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/bjorn-kellerman-18797618",
+     "location": "Utrecht, Utrecht, Netherlands"
+    }
+   ]
+  },
+  {
+   "brand": "CoreSite",
+   "people": [
+    {
+     "name": "Jenna Clark",
+     "title": "Senior Director, Marketing Communications",
+     "email": "jenna.clark@coresite.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jennaclarkco",
+     "location": "Denver, Colorado, United States"
+    },
+    {
+     "name": "Shelly Kessler",
+     "title": "Director, Digital Marketing",
+     "email": "shelly.kessler@coresite.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/shellykessler",
+     "location": "Arvada, Colorado, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Cape",
+   "people": [
+    {
+     "name": "John Doyle",
+     "title": "Founder, CEO",
+     "email": "jdoyle@cape.co",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/john-doyle-48633227",
+     "location": "Washington, District of Columbia, United States"
+    }
+   ]
+  },
+  {
+   "brand": "LendInvest",
+   "people": [
+    {
+     "name": "Rod Lockhart",
+     "title": "Chief Executive Officer",
+     "email": "rod@lendinvest.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rod-lockhart-b1651123",
+     "location": "London, England, United Kingdom"
+    },
+    {
+     "name": "Chris Semple",
+     "title": "Group Head of Investor Relations and Corporate Communications, and Marketing Lead Capital Division",
+     "email": "chris.semple@lendinvest.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/cbtsemple",
+     "location": "Valencia, Valencian Community, Spain"
+    },
+    {
+     "name": "John Eastgate",
+     "title": "Chief Commercial Officer",
+     "email": "john.eastgate@lendinvest.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/john-eastgate",
+     "location": "Cambridge, England, United Kingdom"
+    },
+    {
+     "name": "Gillian McAllister",
+     "title": "Head of Product Marketing",
+     "email": "gillian.mcallister@lendinvest.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/gillian-mcallister-a20b2726",
+     "location": "Kilwinning, Scotland, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Propel Finance",
+   "people": [
+    {
+     "name": "Mark Catton",
+     "title": "CEO",
+     "email": "mcatton@propelfinance.co.uk",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mark-catton-b56038a4",
+     "location": "England, United Kingdom"
+    },
+    {
+     "name": "William Selby",
+     "title": "Head of Digital Marketing",
+     "email": "wselby@propelfinance.co.uk",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/williamselby",
+     "location": "London, England, United Kingdom"
+    },
+    {
+     "name": "Marc Davies",
+     "title": "Senior Marketing Manager",
+     "email": "mdavies@propelfinance.co.uk",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/marc-davies-72ab04146",
+     "location": "Langstone, Wales, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Aukera",
+   "people": [
+    {
+     "name": "Pascal Emsens",
+     "title": "Co-Founder",
+     "email": "pascal.emsens@aukera.energy",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/pascal-emsens-55413512",
+     "location": "Brussels, Brussels, Belgium"
+    },
+    {
+     "name": "Catalin Breaban",
+     "title": "Co-Founder",
+     "email": "catalin.breaban@aukera.energy",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/breaban",
+     "location": "United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Econocom",
+   "people": [
+    {
+     "name": "Angel Benguigui",
+     "title": "Chief Executive Officer - Econocom Group",
+     "email": "angel.benguigui@econocom.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/angel-benguigui-global-ceo-tech",
+     "location": "Paris, Ile-de-France, France"
+    },
+    {
+     "name": "Asma Mnasser",
+     "title": "Group Communications Director",
+     "email": "asma.mnasser@econocom.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/asmamnasser",
+     "location": "Paris, Ile-de-France, France"
+    },
+    {
+     "name": "Laurence Decaux",
+     "title": "Groupe Communications Director - Digital & Social Media",
+     "email": "laurence.decaux@econocom.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/laurence-decaux-3285a463",
+     "location": "Paris, Ile-de-France, France"
+    },
+    {
+     "name": "Maria Sanchez Vargas",
+     "title": "Director Marketing Corporate Communications",
+     "email": "maria.sanchez@econocom.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/maria-sanchez-vargas-marketing-communication-director",
+     "location": "Madrid, Community of Madrid, Spain"
+    }
+   ]
+  },
+  {
+   "brand": "Altruist",
+   "people": [
+    {
+     "name": "Jason Wenk",
+     "title": "Founder / CEO",
+     "email": "jwenk@altruist.com"
+    },
+    {
+     "name": "Andie Figlin",
+     "title": "Director, Growth Marketing",
+     "email": "andie.figlin@altruist.com"
+    },
+    {
+     "name": "Robert Mennow",
+     "title": "Vice President of Sales",
+     "email": "robert.mennow@altruist.com"
+    },
+    {
+     "name": "Michaela Kastelman",
+     "title": "Senior Product Marketing Manager",
+     "email": "michaela.kastelman@altruist.com"
+    }
+   ]
+  }
+ ]
+}

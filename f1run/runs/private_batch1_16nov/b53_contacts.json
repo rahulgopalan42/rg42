@@ -1,0 +1,350 @@
+{
+ "rows": [
+  {
+   "brand": "Bedrock Robotics",
+   "people": [
+    {
+     "name": "Anjelica Sarkar",
+     "title": "Marketing Lead",
+     "email": "anjelica.sarkar@bedrockrobotics.com"
+    },
+    {
+     "name": "Boris Sofman",
+     "title": "Co-Founder & CEO",
+     "email": "boris@bedrockrobotics.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/bsofman",
+     "location": "San Francisco, California, United States"
+    },
+    {
+     "name": "Tom Eliaz",
+     "title": "Co-Founder",
+     "email": "tom.eliaz@bedrockrobotics.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/tomeliaz",
+     "location": "New York, New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Datavault AI",
+   "people": [
+    {
+     "name": "Gerald Stephens",
+     "title": "Marketing Director",
+     "email": "gstephens@dvlt.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/gstephensms",
+     "location": "New York, New York, United States"
+    },
+    {
+     "name": "Tom Robertson",
+     "title": "Director, Partners and Alliances",
+     "email": "trobertson@dvlt.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/tomjrobertson",
+     "location": "Oaklyn, New Jersey, United States"
+    },
+    {
+     "name": "Brett Moyer",
+     "title": "Chief Executive Officer",
+     "email": "bmoyer@dvlt.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/brettamoyer",
+     "location": "Los Gatos, United States"
+    }
+   ]
+  },
+  {
+   "brand": "humans&",
+   "people": [
+    {
+     "name": "Eric Zelikman",
+     "title": "Co-Founder, CEO, and MTS",
+     "email": "eric@humansand.ai"
+    },
+    {
+     "name": "Georges Harik",
+     "title": "Co-Founder",
+     "email": "georges@humansand.ai"
+    },
+    {
+     "name": "Yuchen He",
+     "title": "Co-Founder",
+     "email": "yuchen@humansand.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/yuchen-he-learning",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "Ineffable Intelligence",
+   "people": [
+    {
+     "name": "Heather Gorham",
+     "title": "Co-Founder",
+     "email": "heather@ineffable.ai"
+    },
+    {
+     "name": "Alexandre Laterre",
+     "title": "Co-Founder",
+     "email": "alexandre@ineffable.ai"
+    },
+    {
+     "name": "Wojciech Marian Czarnecki",
+     "title": "Co-Founder",
+     "email": "wojciech@ineffable.inc"
+    },
+    {
+     "name": "Chris Apps",
+     "title": "Co-Founder",
+     "email": "chris@ineffable.ai"
+    }
+   ]
+  },
+  {
+   "brand": "Lila Sciences",
+   "people": [
+    {
+     "name": "Sue Kwon",
+     "title": "Chief Communications Officer (CCO)",
+     "email": "skwon@lila.ai"
+    },
+    {
+     "name": "Erin Heeter",
+     "title": "Director, Congressional Relations, Policy, Communications",
+     "email": "eheeter@lila.ai"
+    },
+    {
+     "name": "Geoffrey Maltzahn",
+     "title": "Co-Founder, Chief Executive Officer",
+     "email": "gvonmaltzahn@lila.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/geoffrey-von-maltzahn-7a6b755a",
+     "location": "Cambridge, Massachusetts, United States"
+    },
+    {
+     "name": "Taylor Ko",
+     "title": "Marketing",
+     "email": "tko@lila.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/taylorko",
+     "location": "Cambridge, Massachusetts, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Netweb Technologies India",
+   "people": [
+    {
+     "name": "Sanjay Lodha",
+     "title": "CEO",
+     "email": "sanjay@netwebindia.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/sanjay-lodha-a740185",
+     "location": "Faridabad, Haryana, India"
+    },
+    {
+     "name": "Sambhav Gupta",
+     "title": "Brand & GTM Marketing",
+     "email": "sambhav.gupta@netwebindia.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sambhav-gupta-12a609249",
+     "location": "Faridabad, Haryana, India"
+    }
+   ]
+  },
+  {
+   "brand": "Nexus Data Centers",
+   "people": [
+    {
+     "name": "Ivan Van Der Walt",
+     "title": "CEO",
+     "email": "ivan@nexus-datacenters.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ivan-van-der-walt",
+     "location": "Austin, Texas, United States"
+    },
+    {
+     "name": "Jerry Schafer",
+     "title": "Vice President, Regulatory & Public Affairs",
+     "email": "jerry@nexus-datacenters.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jerry-schafer-533456b",
+     "location": "Tomball, Texas, United States"
+    },
+    {
+     "name": "Megan Claydon",
+     "title": "SVP Commercial",
+     "email": "megan@nexus-datacenters.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/megan-claydon-28547225",
+     "location": "Houston, Texas, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Oratomic",
+   "people": [
+    {
+     "name": "Dolev Bluvstein",
+     "title": "Chief Executive Officer",
+     "email": "dbluvstein@oratomic.com"
+    }
+   ]
+  },
+  {
+   "brand": "Periodic Labs",
+   "people": [
+    {
+     "name": "Ekin Cubuk",
+     "title": "Co-Founder",
+     "email": "dogus@periodic.com"
+    },
+    {
+     "name": "Liam Fedus",
+     "title": "Co-Founder",
+     "email": "liam@periodic.com"
+    }
+   ]
+  },
+  {
+   "brand": "Physical Intelligence",
+   "people": [
+    {
+     "name": "Karol Hausman",
+     "title": "Chief Executive Officer",
+     "email": "karol@physicalintelligence.company"
+    },
+    {
+     "name": "Adnan Esmail",
+     "title": "Co-Founder",
+     "email": "adnan@physicalintelligence.company"
+    },
+    {
+     "name": "Quan Vuong",
+     "title": "Co-Founder",
+     "email": "quan@physicalintelligence.company"
+    },
+    {
+     "name": "Brian Ichter",
+     "title": "Co-Founder",
+     "email": "brian@physicalintelligence.company"
+    }
+   ]
+  },
+  {
+   "brand": "Project Prometheus",
+   "people": [
+    {
+     "name": "Vik Bajaj",
+     "title": "Co-CEO and Co-Founder",
+     "email": "vik.bajaj@prometheus.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/drvikbajaj",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "Red Violet",
+   "people": [
+    {
+     "name": "Derek Dubner",
+     "title": "Chairman and CEO",
+     "email": "derek@redviolet.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/derek-dubner-475a4138",
+     "location": "Boca Raton, Florida, United States"
+    },
+    {
+     "name": "John Rohrich",
+     "title": "Vice President, Marketing",
+     "email": "jrohrich@redviolet.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jprohrich",
+     "location": "Chicago, Illinois, United States"
+    },
+    {
+     "name": "Chris Groner",
+     "title": "Senior Director, Revenue Marketing",
+     "email": "cgroner@redviolet.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/chris-groner",
+     "location": "Tampa, Florida, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Skild AI",
+   "people": [
+    {
+     "name": "Deepak Pathak",
+     "title": "Co-Founder & CEO",
+     "email": "pathak@skild.ai"
+    },
+    {
+     "name": "Abhinav Gupta",
+     "title": "Co-founder/President",
+     "email": "ag@skild.ai"
+    }
+   ]
+  },
+  {
+   "brand": "Soluna Holdings",
+   "people": [
+    {
+     "name": "John Belizaire",
+     "title": "CEO of Soluna Holdings (Nasdaq:SLNH)",
+     "email": "john@soluna.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/johnbelizaire",
+     "location": "New York, New York, United States"
+    },
+    {
+     "name": "Cybele Ramirez",
+     "title": "Director, Content Marketing",
+     "email": "cybele@soluna.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/cybeleramirez",
+     "location": "New York, New York, United States"
+    },
+    {
+     "name": "Michael Toporek",
+     "title": "Chief Executive Officer",
+     "email": "michael@soluna.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/michael-toporek-66b0304b",
+     "location": "New York, New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Joulent",
+   "people": [
+    {
+     "name": "Michael Wortley",
+     "title": "Co-President & CFO",
+     "email": "michael.wortley@joulent.com"
+    },
+    {
+     "name": "Christopher Wissel-Tyson",
+     "title": "Head of Growth and Strategy",
+     "email": "chris.wissel-tyson@joulent.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/christopher-wissel-tyson-21968832",
+     "location": "Seattle, Washington, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Zetrix AI Berhad",
+   "people": []
+  },
+  {
+   "brand": "Eclairion",
+   "people": []
+  }
+ ]
+}

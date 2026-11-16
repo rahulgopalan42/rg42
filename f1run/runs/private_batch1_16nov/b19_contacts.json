@@ -1,0 +1,335 @@
+{
+ "rows": [
+  {
+   "brand": "D-Wave Quantum",
+   "people": [
+    {
+     "name": "Kelley Noblet",
+     "title": "Director, Product Marketing",
+     "email": "knoblet@dwavesys.com"
+    },
+    {
+     "name": "Melissa Turesky",
+     "title": "Director of Communications and Public Relations",
+     "email": "mturesky@dwavesys.com"
+    },
+    {
+     "name": "Edward Kowalski",
+     "title": "VP, Integrated Marketing",
+     "email": "ekowalski@dwavesys.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/edwardkowalski",
+     "location": "Chicago, IL, USA"
+    },
+    {
+     "name": "Mike Kang",
+     "title": "Director of Demand Generation",
+     "email": "mkang@dwavesys.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/mkang",
+     "location": "Seattle, WA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Nextdoor",
+   "people": [
+    {
+     "name": "Nirav Tolia",
+     "title": "Co-Founder & CEO",
+     "email": "nirav@nextdoor.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/niravtolia",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Sarah Leary",
+     "title": "Co-Founder and Chief Marketing Officer/Chief Business Operations (cmo/cbo)",
+     "email": "sarah@nextdoor.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sarahleary",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Michael Kiernan",
+     "title": "CRO",
+     "email": "mkiernan@nextdoor.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/mikekiernan",
+     "location": "New York, NY, USA"
+    },
+    {
+     "name": "Keith Lui",
+     "title": "Head of Growth Marketing",
+     "email": "keith@nextdoor.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/keith-lui-216b381",
+     "location": "San Francisco, CA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Censys",
+   "people": [
+    {
+     "name": "Sarah Ashburn",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "sashburn@censys.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/sarahashburn",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Oliver Wai",
+     "title": "Vice President Product Marketing",
+     "email": "owai@censys.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/oliverwai",
+     "location": "Seattle, WA, USA"
+    },
+    {
+     "name": "Stephanie Rondy",
+     "title": "Head of Events",
+     "email": "stephanie@censys.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/stephanie-rondy-923bbb66",
+     "location": "Detroit, MI, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Persefoni",
+   "people": [
+    {
+     "name": "Ryan Smith",
+     "title": "Director, Creative",
+     "email": "ryan.smith@persefoni.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ryan-russell-smith",
+     "location": "Los Angeles, CA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "You.com",
+   "people": [
+    {
+     "name": "Alper Tekin",
+     "title": "President",
+     "email": "alper@you.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/alp",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Kelsey Preston",
+     "title": "Head of Events",
+     "email": "kelsey.preston@you.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/-kelseywalsh",
+     "location": "Post Falls, ID, USA"
+    },
+    {
+     "name": "Dorian Stewart",
+     "title": "Senior Director, Marketing",
+     "email": "dorian.stewart@you.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/dorianjstewart",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "Virtru",
+   "people": [
+    {
+     "name": "Matthew Howard",
+     "title": "SVP and CMO",
+     "email": "matthewhoward@virtru.com"
+    },
+    {
+     "name": "Mike Morper",
+     "title": "SVP Product Marketing",
+     "email": "mike.morper@virtru.com"
+    },
+    {
+     "name": "Carissa Nee",
+     "title": "Director, Field Marketing",
+     "email": "carissa.nee@virtru.com"
+    },
+    {
+     "name": "Michael Rejmaniak",
+     "title": "Director of Demand Generation",
+     "email": "michael.rejmaniak@virtru.com"
+    }
+   ]
+  },
+  {
+   "brand": "Endor Labs",
+   "people": [
+    {
+     "name": "Tina Lei",
+     "title": "VP of Marketing",
+     "email": "tina@endor.ai"
+    },
+    {
+     "name": "Andrew Stiefel",
+     "title": "Director, Product Marketing",
+     "email": "astiefel@endor.ai"
+    },
+    {
+     "name": "Hannah Laurence",
+     "title": "Global Head of Field Marketing",
+     "email": "hlaurence@endor.ai"
+    },
+    {
+     "name": "Lu Munoz",
+     "title": "Brand Design Manager",
+     "email": "lmunoz@endor.ai"
+    }
+   ]
+  },
+  {
+   "brand": "SEON",
+   "people": [
+    {
+     "name": "Tamas Kadar",
+     "title": "CEO",
+     "email": "tamas.kadar@seon.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/tomkadar",
+     "location": "Austin, TX, USA"
+    },
+    {
+     "name": "Devlyn Coelho",
+     "title": "Chief Marketing Officer (CMO)",
+     "email": "devlyn.coelho@seon.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/devlyncoelho",
+     "location": "Boston, MA, USA"
+    },
+    {
+     "name": "Klaudia Gal",
+     "title": "Head of Brand & Design",
+     "email": "klaudia.gal@seon.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/klaudia-gal-branding",
+     "location": "Budapest, Hungary"
+    },
+    {
+     "name": "Taylor Chadwick",
+     "title": "Director of Demand Generation",
+     "email": "taylor.chadwick@seon.io",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/taylor-chadwick-869a74326",
+     "location": "London, UK"
+    }
+   ]
+  },
+  {
+   "brand": "Zip",
+   "people": [
+    {
+     "name": "Aleene Webber",
+     "title": "Vice President, Corporate Marketing",
+     "email": "aleene.webber@zip.com"
+    },
+    {
+     "name": "Riley Scherer",
+     "title": "Director, Events & Field Marketing",
+     "email": "riley.scherer@ziphq.com"
+    },
+    {
+     "name": "Sean Kennedy",
+     "title": "Director, Marketing Operations",
+     "email": "sean.kennedy@ziphq.com"
+    }
+   ]
+  },
+  {
+   "brand": "Vega",
+   "people": [
+    {
+     "name": "Shay Sandler",
+     "title": "Co-Founder & CEO",
+     "email": "shay@vega.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/shay-sandler-305508107",
+     "location": "New York, NY, USA"
+    },
+    {
+     "name": "Mike Doherty",
+     "title": "SVP WW Sales & GTM",
+     "email": "mike@vega.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/mikerdoherty",
+     "location": "Key Biscayne, FL, USA"
+    },
+    {
+     "name": "Tyler Golden",
+     "title": "Director of Field Marketing",
+     "email": "tyler@vega.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/tylergolden",
+     "location": "Tel Aviv District, Israel"
+    }
+   ]
+  },
+  {
+   "brand": "Nominal",
+   "people": [
+    {
+     "name": "Cassi Gritzmacher",
+     "title": "Head of Communications",
+     "email": "cassi.gritzmacher@nominal.io"
+    },
+    {
+     "name": "Lucinda Kirk",
+     "title": "EU Growth Lead",
+     "email": "lucinda.kirk@nominal.io"
+    },
+    {
+     "name": "Josh Leibowitz",
+     "title": "Director, Growth ad BD",
+     "email": "josh.leibowitz@nominal.io"
+    },
+    {
+     "name": "Natalie Schneider",
+     "title": "Head of Marketing",
+     "email": "natalie.schneider@nominal.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/natschneider",
+     "location": "Austin, TX, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Whale",
+   "people": [
+    {
+     "name": "Lis Lim",
+     "title": "APAC Field & Partner Marketing Manager",
+     "email": "lislim@whale.im",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/lis-lim-6a67a6188",
+     "location": "Singapore"
+    }
+   ]
+  },
+  {
+   "brand": "Fleet Space Technologies",
+   "people": [
+    {
+     "name": "Flavia Nardini",
+     "title": "CEO and Co-founder",
+     "email": "flavia@fleet.space"
+    },
+    {
+     "name": "Danielle Higgs",
+     "title": "Chief of Staff - Marketing",
+     "email": "danielle.higgs@fleet.space"
+    }
+   ]
+  }
+ ]
+}

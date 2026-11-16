@@ -1,0 +1,319 @@
+{
+ "rows": [
+  {
+   "brand": "Chronograph",
+   "people": [
+    {
+     "name": "Tanner Kellan",
+     "title": "Manager, Marketing",
+     "email": "tanner.kellan@chronograph.pe"
+    },
+    {
+     "name": "Charlie Tafoya",
+     "title": "CEO",
+     "email": "charlie@chronograph.pe"
+    },
+    {
+     "name": "Michael Santos",
+     "title": "Global Head of Sales",
+     "email": "michael.santos@chronograph.pe",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mikesantos2",
+     "location": "New York, NY, USA"
+    },
+    {
+     "name": "Sean Chamberlain",
+     "title": "Senior Demand Generation Manager",
+     "email": "sean.chamberlain@chronograph.pe",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/seanechamberlain",
+     "location": "New York, NY, USA"
+    }
+   ]
+  },
+  {
+   "brand": "ORO Labs",
+   "people": [
+    {
+     "name": "Matthew Tillman",
+     "title": "VP of Marketing & Growth",
+     "email": "matthew.tillman@orolabs.ai"
+    },
+    {
+     "name": "Kate Jeter",
+     "title": "Director, Global Field Marketing | Integrated GTM Programs",
+     "email": "kate.jeter@orolabs.ai"
+    },
+    {
+     "name": "Mutya Benerayan",
+     "title": "Marketing Manager",
+     "email": "mutya.benerayan@orolabs.ai"
+    },
+    {
+     "name": "Rachel Lipman",
+     "title": "Field Marketing Manager",
+     "email": "rachel.weinstock@orolabs.ai"
+    }
+   ]
+  },
+  {
+   "brand": "AtScale",
+   "people": [
+    {
+     "name": "Christopher Lynch",
+     "title": "Executive Chairman & CEO",
+     "email": "chris.lynch@atscale.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/chlynch",
+     "location": "Boston, MA, USA"
+    },
+    {
+     "name": "Mark Palmer",
+     "title": "Chief Marketing and Strategy Officer",
+     "email": "mark.palmer@atscale.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/markwpalmer",
+     "location": "United States"
+    },
+    {
+     "name": "Bryan Abou-Rjaily",
+     "title": "Chief Revenue Officer",
+     "email": "bryan@atscale.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/bryan-abou-rjaily",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Nicole Francoeur",
+     "title": "Vice President Marketing",
+     "email": "nicole.francoeur@atscale.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/nicolefrancoeur",
+     "location": "West Newbury, MA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "HiddenLayer",
+   "people": [
+    {
+     "name": "Chris Sestito",
+     "title": "Co-Founder & CEO",
+     "email": "csestito@hiddenlayer.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kristinsestito",
+     "location": "Austin, TX, USA"
+    },
+    {
+     "name": "Mike Gesnaldo",
+     "title": "Chief Revenue Officer",
+     "email": "mgesnaldo@hiddenlayer.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/mike-gesnaldo",
+     "location": "Boston, MA, USA"
+    },
+    {
+     "name": "Alex Avendano",
+     "title": "Director of Growth Marketing",
+     "email": "aavendano@hiddenlayer.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/alexaven",
+     "location": "Austin, TX, USA"
+    },
+    {
+     "name": "Meg Podgorski",
+     "title": "Director, Event Marketing",
+     "email": "mpodgorski@hiddenlayer.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/meg-podgorski-m-s-46154a93",
+     "location": "Chicago, IL, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Huntress",
+   "people": [
+    {
+     "name": "Liz Kokoska",
+     "title": "Chief Marketing Officer",
+     "email": "liz.kokoska@huntresslabs.com"
+    },
+    {
+     "name": "Elaine Abiera",
+     "title": "Growth Marketing Leader",
+     "email": "elaine.abiera@huntresslabs.com"
+    },
+    {
+     "name": "Kimi Corrigan",
+     "title": "Vice President, Marketing Operations",
+     "email": "kimi.corrigan@huntresslabs.com"
+    },
+    {
+     "name": "Kristin Baker",
+     "title": "Marketing Leader",
+     "email": "kristin.baker@huntresslabs.com"
+    }
+   ]
+  },
+  {
+   "brand": "BigID",
+   "people": [
+    {
+     "name": "Sarah Hospelhorn",
+     "title": "Chief Marketing Officer",
+     "email": "sarahh@bigid.com"
+    },
+    {
+     "name": "Domany Liu",
+     "title": "Director of Growth Marketing",
+     "email": "hliu@bigid.com"
+    },
+    {
+     "name": "Kate Paul",
+     "title": "Digital Marketing Director",
+     "email": "kpaul@bigid.com"
+    },
+    {
+     "name": "Marisabel Herrera",
+     "title": "Director, Field & Events Marketing",
+     "email": "mherrera@bigid.com"
+    }
+   ]
+  },
+  {
+   "brand": "Mysten Labs",
+   "people": [
+    {
+     "name": "Lexi Wangler",
+     "title": "Head of Communications",
+     "email": "lexi.wangler@mystenlabs.com"
+    },
+    {
+     "name": "Mark Epps",
+     "title": "Senior Communications Lead",
+     "email": "mark.epps@mystenlabs.com"
+    },
+    {
+     "name": "Kevin Boon",
+     "title": "Chief Executive Officer",
+     "email": "kevin@mystenlabs.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kevinboon",
+     "location": "San Francisco, CA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Phenom",
+   "people": [
+    {
+     "name": "Jonathan Dale",
+     "title": "VP of Marketing",
+     "email": "jonathan.dale@phenom.com"
+    },
+    {
+     "name": "Rob Patey",
+     "title": "Director Content Marketing",
+     "email": "robert.patey@phenom.com"
+    },
+    {
+     "name": "Jennifer Thomas",
+     "title": "Director, Content Marketing",
+     "email": "jennifer.thomas@phenom.com"
+    },
+    {
+     "name": "Monica Montesa",
+     "title": "Executive Marketing Director",
+     "email": "monica.montesa@phenom.com"
+    }
+   ]
+  },
+  {
+   "brand": "Virtana",
+   "people": [
+    {
+     "name": "Daniel Raskin",
+     "title": "Chief Marketing Officer",
+     "email": "daniel.raskin@virtana.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/draskin",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Kate Fitzgerald",
+     "title": "Chief Revenue Officer",
+     "email": "kate.fitzgerald@virtana.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/katedfitzgerald",
+     "location": "United States"
+    },
+    {
+     "name": "Craig McDonald",
+     "title": "Vice President of Product Marketing",
+     "email": "craig.mcdonald@virtana.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/craig-mcdonald",
+     "location": "Leander, TX, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Piano",
+   "people": [
+    {
+     "name": "Miles Williams",
+     "title": "Interim CMO",
+     "email": "miles.williams@piano.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mileswilliams",
+     "location": "Charleston, SC, USA"
+    },
+    {
+     "name": "Molly Rush",
+     "title": "Global Vice President, Partnerships",
+     "email": "molly.rush@piano.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/mollyerush",
+     "location": "London, UK"
+    },
+    {
+     "name": "Laurent Bar",
+     "title": "Director, Global Field Marketing",
+     "email": "laurent.debar@piano.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/ldebar",
+     "location": "Bordeaux, France"
+    }
+   ]
+  },
+  {
+   "brand": "Quantifind",
+   "people": [
+    {
+     "name": "Ari Tuchman",
+     "title": "CEO and Co-Founder",
+     "email": "ari@quantifind.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ari-tuchman-521559",
+     "location": "Palo Alto, United States"
+    },
+    {
+     "name": "Annalisa Camarillo",
+     "title": "EVP and CMO",
+     "email": "acamarillo@quantifind.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/acamarillo",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Shana Leyva",
+     "title": "Director of Solutions Marketing",
+     "email": "sleyva@quantifind.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/shanaleyva",
+     "location": "Chicago, United States"
+    }
+   ]
+  }
+ ]
+}

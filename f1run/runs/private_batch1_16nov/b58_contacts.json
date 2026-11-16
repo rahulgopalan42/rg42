@@ -1,0 +1,377 @@
+{
+ "rows": [
+  {
+   "brand": "Xendit",
+   "people": [
+    {
+     "name": "Moses Lo",
+     "title": "Founder and CEO",
+     "email": "moses@xendit.co",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/moseslo",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Valerie Cai",
+     "title": "Global Head of Marketing",
+     "email": "valerie.cai@xendit.co",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/valerie-cai-271435a",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Nazim Ali",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "nazim.ali@xendit.co",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/nazim-ali-365b256",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Phoebe Hung",
+     "title": "Head of Product Marketing",
+     "email": "phoebe.hung@xendit.co",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/phoebeh",
+     "location": "Singapore, Singapore"
+    }
+   ]
+  },
+  {
+   "brand": "Grayscale Investments",
+   "people": [
+    {
+     "name": "Peter Mintzberg",
+     "title": "Chief Executive Officer",
+     "email": "peter.mintzberg@grayscale.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mintzberg",
+     "location": "Stamford, United States"
+    },
+    {
+     "name": "Chana White",
+     "title": "Director, Marketing",
+     "email": "chana@grayscale.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/chanawhite",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Ilir Sabovic",
+     "title": "Director, Digital Marketing",
+     "email": "ilir@grayscale.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/ilirsabovic",
+     "location": "Stamford, United States"
+    },
+    {
+     "name": "Reed Schneider",
+     "title": "Director, Communications",
+     "email": "reed@grayscale.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/reedschneider",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "CleanSpark",
+   "people": [
+    {
+     "name": "Eleni Stylianou",
+     "title": "Director of Communications and Marketing",
+     "email": "estylianou@cleanspark.com"
+    },
+    {
+     "name": "Vince Alfi",
+     "title": "Vice President of Commercial Operations - AI Data Centers",
+     "email": "valfi@cleanspark.com"
+    },
+    {
+     "name": "Boyd Goodfellow",
+     "title": "Chief Revenue Officer - Ai/hpc Data Centers",
+     "email": "bgoodfellow@cleanspark.com"
+    },
+    {
+     "name": "Matthew Schultz",
+     "title": "Chief Executive Officer/Chairman",
+     "email": "matt@cleanspark.com"
+    }
+   ]
+  },
+  {
+   "brand": "Finix",
+   "people": [
+    {
+     "name": "Richie Serna",
+     "title": "CEO & Co-Founder",
+     "email": "richie@finixpayments.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/richie-serna",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Amy Wong",
+     "title": "Fractional Head of Demand Generation",
+     "email": "amy.wong@finix.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/amywongmba",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Modulr",
+   "people": [
+    {
+     "name": "Myles Stephenson",
+     "title": "Founder & Chief Executive",
+     "email": "myles.stephenson@modulrfinance.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mylescstephenson",
+     "location": "Edinburgh, United Kingdom"
+    },
+    {
+     "name": "Jason Widup",
+     "title": "Interim VP of Marketing",
+     "email": "jason.widup@modulrfinance.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jasonwidup",
+     "location": "Seattle, United States"
+    },
+    {
+     "name": "Rachel McFaul",
+     "title": "Communications Strategist | Leading PR and Comms",
+     "email": "rachel.mcfaul@modulrfinance.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/rachel-mcfaul",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Ethic",
+   "people": [
+    {
+     "name": "Alex Laipple",
+     "title": "Chief Growth Officer",
+     "email": "alex@ethic.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/alexlaipple",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Benjamin Goldman",
+     "title": "Head of Content",
+     "email": "ben@ethic.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/benfromtv",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "TheStreet",
+   "people": [
+    {
+     "name": "Paul Edmondson",
+     "title": "Chief Executive Officer",
+     "email": "paul.edmondson@thearenagroup.net",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/paedmondson",
+     "location": "Burlingame, United States"
+    },
+    {
+     "name": "Dennis O'Neill",
+     "title": "VP of Marketing",
+     "email": "dennis.oneill@thestreet.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/dennis-o-neill-aab406",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Cerity Partners",
+   "people": [
+    {
+     "name": "Kurt Miscinski",
+     "title": "President & CEO",
+     "email": "kmiscinski@ceritypartners.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kurtmiscinski",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Tara Ryan",
+     "title": "Partner and Chief Marketing Officer",
+     "email": "tryan@ceritypartners.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/tara-marie-ryan",
+     "location": "Saratoga Springs, United States"
+    },
+    {
+     "name": "Matt Merry",
+     "title": "Principal | Head of Marketing and Merger Operations",
+     "email": "mmerry@ceritypartners.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/matt-merry-599aa11a",
+     "location": "Raleigh, United States"
+    },
+    {
+     "name": "Scott Wolinsky",
+     "title": "Principal, Head of Growth Marketing",
+     "email": "swolinsky@ceritypartners.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/scott-wolinsky-79582a6",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "Cresset Asset Management",
+   "people": [
+    {
+     "name": "Susie Cranston",
+     "title": "Chief Executive Officer (effective April 15)",
+     "email": "scranston@cressetcapital.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/susiecranston",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Raquel Ramirez",
+     "title": "Managing Director, Head of Brand & Marketing",
+     "email": "rramirez@cressetcapital.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/raquel-ramirez-254b3913b",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Jessica Malkin",
+     "title": "Chief Growth Officer",
+     "email": "jmalkin@cressetcapital.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jessicamalkin",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Elizabeth Law",
+     "title": "Director, Marketing",
+     "email": "elaw@cressetcapital.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/elizabethblaw",
+     "location": "Dallas, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Mariner Wealth Advisors",
+   "people": [
+    {
+     "name": "Marty Bicknell",
+     "title": "Founder & CEO",
+     "email": "marty.bicknell@marinerwealthadvisors.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/martybicknell",
+     "location": "Overland Park, United States"
+    },
+    {
+     "name": "Kate Ardini",
+     "title": "Chief Marketing Officer",
+     "email": "kate.ardini@mariner.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kate-ardini",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Elizabeth Kelly",
+     "title": "Vice President, Marketing",
+     "email": "elizabeth.kelly@marinerwealth.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/elizabeth-kelly-0a444813",
+     "location": "Kansas City, United States"
+    },
+    {
+     "name": "Kathryn Anastasio",
+     "title": "Senior Vice President, Marketing",
+     "email": "kathryn.anastasio@marinerwealth.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/kanastasio",
+     "location": "Kansas City, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Pathstone",
+   "people": [
+    {
+     "name": "Matthew Fleissig",
+     "title": "Chief Executive Officer",
+     "email": "mfleissig@pathstone.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/fleissig",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Gregg Heard",
+     "title": "Head of Brand and Design",
+     "email": "gheard@pathstone.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/gregg-heard-031625",
+     "location": "Atlanta, United States"
+    },
+    {
+     "name": "Sharon Gupta",
+     "title": "Director, Marketing",
+     "email": "sgupta@pathstone.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/sguptamac",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Dom D'Alessandro",
+     "title": "Head of Digital Marketing",
+     "email": "ddalessandro@pathstone.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/domdalessandro",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Nakamoto Inc.",
+   "people": [
+    {
+     "name": "David Bailey",
+     "title": "Chief Executive Officer",
+     "email": "david@nakamoto.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/david-bailey-btc",
+     "location": "Nashville, United States"
+    },
+    {
+     "name": "Emily Bailey",
+     "title": "Head of Marketing and Public Relations",
+     "email": "emily@nakamoto.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/emilycvaughn",
+     "location": "Guaynabo, Puerto Rico"
+    }
+   ]
+  },
+  {
+   "brand": "PC Jeweller",
+   "people": [
+    {
+     "name": "Rahul Jain",
+     "title": "Head of Media Marketing",
+     "email": "rahul.jain@pcjeweller.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rahul-jain-217b8820a",
+     "location": "New Delhi, India"
+    }
+   ]
+  }
+ ]
+}

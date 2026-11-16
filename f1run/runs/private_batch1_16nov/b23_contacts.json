@@ -1,0 +1,307 @@
+{
+ "rows": [
+  {
+   "brand": "Securiti",
+   "people": [
+    {
+     "name": "Rehan Jalil",
+     "title": "President & CEO",
+     "email": "rjalil@securiti.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rehanjalil",
+     "location": "Portola Valley, United States"
+    },
+    {
+     "name": "Marina Cavallo",
+     "title": "Director of Global Events",
+     "email": "marina.cavallo@securiti.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/marina-cavallo",
+     "location": "Fort Lauderdale, United States"
+    },
+    {
+     "name": "Jessica To",
+     "title": "VP, GTM Strategy, Programs & Operations",
+     "email": "jessica.to@securiti.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jessieto",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "Aiven",
+   "people": [
+    {
+     "name": "Riona Hegarty",
+     "title": "Vice President Marketing",
+     "email": "riona.hegarty@aiven.io"
+    },
+    {
+     "name": "Uliana Belonogova",
+     "title": "Marketing Campaign Manager",
+     "email": "uliana.belonogova@aiven.io"
+    },
+    {
+     "name": "Kaisu Seppaelae",
+     "title": "Revenue Marketing Specialist",
+     "email": "kaisu.seppala@aiven.io"
+    },
+    {
+     "name": "Stepheni Hass",
+     "title": "Sr. Revenue Marketing Manager",
+     "email": "stepheni.hass@aiven.io"
+    }
+   ]
+  },
+  {
+   "brand": "Avaya",
+   "people": [
+    {
+     "name": "Candace Sheitelman",
+     "title": "Global Vice President, Marketing",
+     "email": "csheitelman@avaya.com"
+    },
+    {
+     "name": "Mike Apigian",
+     "title": "Vice President Product & Field Marketing",
+     "email": "mapigian@avaya.com"
+    },
+    {
+     "name": "Adarsh Kaul",
+     "title": "Director of Field Marketing",
+     "email": "akaul@avaya.com"
+    },
+    {
+     "name": "Victoria Parra",
+     "title": "Marketing Director - Head of Global Marketing Campaigns",
+     "email": "vparra@avaya.com"
+    }
+   ]
+  },
+  {
+   "brand": "BrowserStack",
+   "people": [
+    {
+     "name": "Shweta Chhillar",
+     "title": "Lead - Brand Marketing",
+     "email": "shweta@browserstack.com"
+    },
+    {
+     "name": "Ritesh Arora",
+     "title": "Co-founder and CEO",
+     "email": "ritesh@browserstack.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ritesh-arora-browserstack",
+     "location": "Mumbai, India"
+    },
+    {
+     "name": "Akshay Kumar",
+     "title": "Global Head of Revenue Marketing",
+     "email": "akshay.k@browserstack.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/akshay-kumar-20933730",
+     "location": "Bengaluru, India"
+    }
+   ]
+  },
+  {
+   "brand": "Collibra",
+   "people": [
+    {
+     "name": "Chirag Dhull",
+     "title": "Chief Marketing Officer",
+     "email": "chirag.dhull@collibra.com"
+    },
+    {
+     "name": "Mary Labuda",
+     "title": "Vice President, Growth Marketing",
+     "email": "marybeth.labuda@collibra.com"
+    },
+    {
+     "name": "Meredith Bailey",
+     "title": "Product Marketing Director",
+     "email": "meredith.bailey@collibra.com"
+    },
+    {
+     "name": "David Talaga",
+     "title": "Product Marketing Director",
+     "email": "david.talaga@collibra.com"
+    }
+   ]
+  },
+  {
+   "brand": "Docker",
+   "people": [
+    {
+     "name": "Ashley Guillou",
+     "title": "Vice President, Product Marketing",
+     "email": "ashley.guillou@docker.com"
+    },
+    {
+     "name": "Marie Didominica",
+     "title": "Head of Growth Marketing",
+     "email": "marie.didominica@docker.com"
+    },
+    {
+     "name": "Caroline Wiemann",
+     "title": "Head of Marketing, APJ",
+     "email": "caroline.wiemann@docker.com"
+    },
+    {
+     "name": "Gineen Finch",
+     "title": "Sr. Director Brand Content and Audience",
+     "email": "gineen.finch@docker.com"
+    }
+   ]
+  },
+  {
+   "brand": "Druva",
+   "people": [
+    {
+     "name": "Jaspreet Singh",
+     "title": "Founder & CEO",
+     "email": "jaspreet.singh@druva.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jaspreets",
+     "location": "Mountain View, United States"
+    },
+    {
+     "name": "Ranga Rajagopalan",
+     "title": "CPO & CMO",
+     "email": "ranga.rajagopalan@druva.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/rangaraajrajagopalan",
+     "location": "Santa Clara, United States"
+    },
+    {
+     "name": "Sandra Henkel-Rousseau",
+     "title": "Vice President of Corporate Marketing",
+     "email": "sandra.rousseau@druva.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/sandralynnrousseau",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Andrea Johnson",
+     "title": "Vice President, Global Demand Generation",
+     "email": "andrea.johnson@druva.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/andrearjohnson",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "e2open",
+   "people": [
+    {
+     "name": "Terry Hunt",
+     "title": "Director Marketing",
+     "email": "terry.hunt@e2open.com"
+    },
+    {
+     "name": "Jennifer Tom",
+     "title": "Director, Marketing Events",
+     "email": "jennifer.tom@e2open.com"
+    },
+    {
+     "name": "Lahari Kesavan",
+     "title": "Director, Marketing Operations",
+     "email": "lahari.kesavan@e2open.com"
+    },
+    {
+     "name": "Nicole Hudson",
+     "title": "Director of Product Marketing",
+     "email": "nicole.hudson@e2open.com"
+    }
+   ]
+  },
+  {
+   "brand": "Eightfold AI",
+   "people": [
+    {
+     "name": "Navneet Singh",
+     "title": "Chief Marketing Officer",
+     "email": "navneet@eightfold.ai"
+    },
+    {
+     "name": "Brett Barash",
+     "title": "Vice President, Corporate Marketing & Brand",
+     "email": "bbarash@eightfold.ai"
+    },
+    {
+     "name": "Brent Jacobs",
+     "title": "Director of Product Marketing",
+     "email": "bjacobs@eightfold.ai"
+    },
+    {
+     "name": "Emi Witt",
+     "title": "Head of Demand Generation",
+     "email": "ewitt@eightfold.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/emiwitt",
+     "location": "Redwood City, United States"
+    }
+   ]
+  },
+  {
+   "brand": "HackerOne",
+   "people": [
+    {
+     "name": "Stacy Leidwinger",
+     "title": "Chief Marketing Officer",
+     "email": "sleidwinger@hackerone.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/sleidwinger",
+     "location": "Pittsburgh, United States"
+    },
+    {
+     "name": "Maggie Miller",
+     "title": "Senior Director, Corporate Marketing",
+     "email": "maggie@hackerone.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/maggieamiller",
+     "location": "Raleigh, United States"
+    },
+    {
+     "name": "Shawn Baker",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "sbaker@hackerone.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/shawnbaker",
+     "location": "Austin, United States"
+    },
+    {
+     "name": "Christian Trounce",
+     "title": "Senior Director, Global Field Marketing",
+     "email": "ctrounce@hackerone.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/christiantrounce",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Lido",
+   "people": [
+    {
+     "name": "Vasiliy Shapovalov",
+     "title": "Co-Founder",
+     "email": "vs@lido.fi",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/vasiliy-shapovalov-91716491",
+     "location": "Peyia, Cyprus"
+    },
+    {
+     "name": "Galen Crout",
+     "title": "Head of Marketing",
+     "email": "galen.c@lido.fi",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/galencrout",
+     "location": "Singapore, Singapore"
+    }
+   ]
+  }
+ ]
+}

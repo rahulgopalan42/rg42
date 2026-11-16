@@ -1,0 +1,355 @@
+{
+ "rows": [
+  {
+   "brand": "Vectra AI",
+   "people": [
+    {
+     "name": "Hitesh Sheth",
+     "title": "CEO",
+     "email": "hitesh@vectra.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/hitesh-sheth-a0b54349",
+     "location": "San Jose, United States"
+    },
+    {
+     "name": "Tommy Jenkins",
+     "title": "CMO",
+     "email": "tommy@vectra.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jenkinstommy",
+     "location": "Raleigh, United States"
+    },
+    {
+     "name": "Derek Phillips",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "dphillips@vectra.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/derek-phillips-62337712",
+     "location": "Phoenix, United States"
+    },
+    {
+     "name": "Sandra Judge",
+     "title": "Head of Marketing Strategy and Operations",
+     "email": "sjudge@vectra.ai",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/sandradjudge",
+     "location": "Chicago, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Versa Networks",
+   "people": [
+    {
+     "name": "Kelly Ahuja",
+     "title": "President & CEO",
+     "email": "kahuja@versa-networks.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kelly-ahuja-5820772",
+     "location": "San Jose, United States"
+    },
+    {
+     "name": "Dan Maier",
+     "title": "Chief Marketing Officer",
+     "email": "cmo-dan-maier@versa-networks.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/danmaier",
+     "location": "Santa Clara, United States"
+    },
+    {
+     "name": "Karoline McLaughlin",
+     "title": "Vice President, Corporate Marketing",
+     "email": "karoline@versa-networks.com",
+     "role": "field_marketing",
+     "linkedin": "",
+     "location": "Cupertino, United States"
+    },
+    {
+     "name": "Gopal Bhagia",
+     "title": "Vice President Marketing",
+     "email": "gbhagia@versa-networks.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/gopal-bhagia",
+     "location": "Fremont, United States"
+    }
+   ]
+  },
+  {
+   "brand": "CData Software",
+   "people": [
+    {
+     "name": "Amit Sharma",
+     "title": "CEO",
+     "email": "amits@cdata.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/amitsharma7",
+     "location": "Chapel Hill, United States"
+    },
+    {
+     "name": "Will Davis",
+     "title": "Chief Marketing Officer",
+     "email": "williamd@cdata.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/willcmdavis",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Adam Demichele",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "adamd@cdata.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/adamdemichele",
+     "location": "Sudbury, United States"
+    },
+    {
+     "name": "Arielle Daigle",
+     "title": "VP of Growth and Demand Generation",
+     "email": "arielled@cdata.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/arielledaigle",
+     "location": "Boston, United States"
+    }
+   ]
+  },
+  {
+   "brand": "360Learning",
+   "people": [
+    {
+     "name": "Benjamin Marchal",
+     "title": "CEO",
+     "email": "benjamin.marchal@360learning.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/benjamin-marchal-89a01180",
+     "location": "Paris, France"
+    },
+    {
+     "name": "Eloise Perbos",
+     "title": "Head of Brand Communication and Community",
+     "email": "eloise.perbos@360learning.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/eloise-perbos",
+     "location": "Strasbourg, France"
+    },
+    {
+     "name": "Guillaume Alary",
+     "title": "CRO and Co-founder",
+     "email": "guillaume.alary@360learning.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/guillaume-alary-98448629",
+     "location": "Paris, France"
+    },
+    {
+     "name": "James Meincke",
+     "title": "Global Director of Demand Generation",
+     "email": "james.meincke@360learning.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jamesmeincke",
+     "location": "Clermont, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Aerospike",
+   "people": [
+    {
+     "name": "Gaurav Deshpande",
+     "title": "Chief Marketing Officer",
+     "email": "gdeshpande@aerospike.com"
+    },
+    {
+     "name": "Behrad Babaee",
+     "title": "Head of Product Marketing",
+     "email": "bbabaee@aerospike.com"
+    },
+    {
+     "name": "Steve Tuohy",
+     "title": "Director, Product Marketing",
+     "email": "stuohy@aerospike.com"
+    },
+    {
+     "name": "Amanda Morris",
+     "title": "Marketing",
+     "email": "amorris@aerospike.com"
+    }
+   ]
+  },
+  {
+   "brand": "2U",
+   "people": [
+    {
+     "name": "Kees Bol",
+     "title": "Chief Executive Officer",
+     "email": "kbol@2u.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kees-bol-4713421",
+     "location": "Baltimore, United States"
+    },
+    {
+     "name": "Meghan Rodgers",
+     "title": "Chief Marketing Officer",
+     "email": "mrodgers1@2u.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/meghanprodgers",
+     "location": "Baltimore, United States"
+    },
+    {
+     "name": "Courtney Lausch",
+     "title": "VP, Brand and Creative",
+     "email": "clausch@2u.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/courtney-lausch-659a2a13",
+     "location": "Baltimore, United States"
+    },
+    {
+     "name": "Sam Creek",
+     "title": "Vice President of Performance Marketing",
+     "email": "screek@2u.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/sam-creek",
+     "location": "Minneapolis, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Konecta",
+   "people": [
+    {
+     "name": "Marie Iserbijt",
+     "title": "Chief Marketing and Communications Officer",
+     "email": "marie.iserbijt@konecta-group.com"
+    },
+    {
+     "name": "Mariana Banazol",
+     "title": "Head of Global Marketing",
+     "email": "mariana.banazol@konecta.com"
+    },
+    {
+     "name": "Alejandro Perni",
+     "title": "Director Agencia Marketing Digital en Konecta",
+     "email": "alejandro.gomez@konecta.com"
+    },
+    {
+     "name": "Nicholas Lamendola",
+     "title": "Vice President of Growth",
+     "email": "nicholas.lamendola@konecta.com"
+    }
+   ]
+  },
+  {
+   "brand": "Syniverse",
+   "people": [
+    {
+     "name": "Bob Chiodo",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "bob.chiodo@syniverse.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/bchiodo",
+     "location": "Atlanta, United States"
+    },
+    {
+     "name": "Andrea Trum",
+     "title": "Head of Global Brand/Content",
+     "email": "andrea.trum@syniverse.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/andrea-keiner-trum",
+     "location": "Philadelphia, United States"
+    },
+    {
+     "name": "Karen Wentworth",
+     "title": "Head of Global Corporate Communications",
+     "email": "karen.wentworth@syniverse.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/kawentworth",
+     "location": "Annapolis, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Amplience",
+   "people": [
+    {
+     "name": "Jeremy Straker",
+     "title": "Co-Chief Executive Officer & Chief Commercial Officer",
+     "email": "jstraker@amplience.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jeremystraker",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Rachel Tonner",
+     "title": "VP of Product Marketing & Enablement",
+     "email": "rtonner@amplience.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/racheltonner",
+     "location": "Liverpool, United Kingdom"
+    },
+    {
+     "name": "John Williams",
+     "title": "co-Chief Executive Officer / CTO",
+     "email": "jwilliams@amplience.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jjwilliams",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Exodigo",
+   "people": [
+    {
+     "name": "Jeremy Suard",
+     "title": "Co-Founder & CEO",
+     "email": "jeremy@exodigo.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jeremy-suard",
+     "location": "United States"
+    },
+    {
+     "name": "Allie Waskiewicz",
+     "title": "Senior Marketing Manager",
+     "email": "allie.waskiewicz@exodigo.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/allie-zamow",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Dillon Twombly",
+     "title": "Chief Revenue Officer",
+     "email": "dillon.twombly@exodigo.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/dillontwombly",
+     "location": "Portland, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Silk",
+   "people": [
+    {
+     "name": "Dani Golan",
+     "title": "Founder & CEO",
+     "email": "dani@silk.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/dani-golan",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Justine Holt",
+     "title": "Head of Growth Marketing",
+     "email": "justine.holt@silk.us",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/justineholt",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Ed Filippine",
+     "title": "President",
+     "email": "ed.filippine@silk.us",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/ed-filippine-bb3b3022",
+     "location": "Boston, United States"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,350 @@
+{
+ "rows": [
+  {
+   "brand": "SpyCloud",
+   "people": [
+    {
+     "name": "Ted Ross",
+     "title": "Chief Executive Officer",
+     "email": "ted@spycloud.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ted-ross",
+     "location": "Austin, United States"
+    },
+    {
+     "name": "Heather Smith",
+     "title": "Chief Marketing Officer",
+     "email": "heather@spycloud.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/hcsmith",
+     "location": "Austin, United States"
+    },
+    {
+     "name": "Kayla Kretzer",
+     "title": "VP, Brand and Corporate Communications",
+     "email": "kayla.rice@spycloud.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/kaylakretzer",
+     "location": "San Antonio, United States"
+    },
+    {
+     "name": "Rachel Dunner",
+     "title": "Sr. Director, Growth Marketing",
+     "email": "rachel.dunner@spycloud.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/rachelalexander28",
+     "location": "Austin, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Atlan",
+   "people": [
+    {
+     "name": "Ritik Chopra",
+     "title": "Product Marketing Lead",
+     "email": "ritik@atlan.com"
+    },
+    {
+     "name": "Mark Manning",
+     "title": "Director of Product Marketing, Customer Advocacy",
+     "email": "mark.manning@atlan.com"
+    },
+    {
+     "name": "Vivek Dubey",
+     "title": "Growth Lead",
+     "email": "vivek.dubey@atlan.com"
+    },
+    {
+     "name": "Surendran Balachandran",
+     "title": "VP of AI-Led Growth",
+     "email": "surendran@atlan.com"
+    }
+   ]
+  },
+  {
+   "brand": "Exiger",
+   "people": [
+    {
+     "name": "Brandon Daniels",
+     "title": "Chief Executive Officer",
+     "email": "bdaniels@exiger.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/brandondanielslegalconsult",
+     "location": "Washington, United States"
+    },
+    {
+     "name": "Kody Gurfein",
+     "title": "Chief Marketing Officer",
+     "email": "kgurfein@exiger.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kodygurfein",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Stacey Park",
+     "title": "Head of Brand and Community",
+     "email": "spark@exiger.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/staceyapark",
+     "location": "Chelsea, United States"
+    },
+    {
+     "name": "Gail Ballantyne",
+     "title": "Vice President of Demand Generation",
+     "email": "gballantyne@exiger.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/letsgetdigitalgail",
+     "location": "Baltimore, United States"
+    }
+   ]
+  },
+  {
+   "brand": "ExtraHop Networks",
+   "people": [
+    {
+     "name": "Kanaiya Vasani",
+     "title": "Chief Product and Marketing Officer",
+     "email": "kvasani@extrahop.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kanaiyavasani",
+     "location": "Saratoga, United States"
+    },
+    {
+     "name": "Dara Sklar",
+     "title": "Head of Corporate Marketing",
+     "email": "darasklar@extrahop.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/darassklar",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Kevin Carney",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "kevinc@extrahop.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/kevin-carney-16b6a928",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Kristen Riley",
+     "title": "Head of Demand Generation",
+     "email": "kristenr@extrahop.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/kristen-aversa-riley",
+     "location": "Portsmouth, United States"
+    }
+   ]
+  },
+  {
+   "brand": "FundGuard",
+   "people": [
+    {
+     "name": "Lior Yogev",
+     "title": "CEO and Co-founder",
+     "email": "lior.yogev@fundguard.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/lioryogev",
+     "location": "Israel"
+    },
+    {
+     "name": "Erika Alter",
+     "title": "Head of Marketing",
+     "email": "erika.alter@fundguard.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/erikaalter",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Simon Behan",
+     "title": "Chief Commercial Officer (CCO)",
+     "email": "simon.behan@fundguard.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/simon-behan-a070306",
+     "location": "Dublin, Ireland"
+    }
+   ]
+  },
+  {
+   "brand": "Airbyte",
+   "people": [
+    {
+     "name": "Mario Moscatiello",
+     "title": "VP Marketing",
+     "email": "mario.moscatiello@airbyte.io"
+    },
+    {
+     "name": "Tanmay Sarkar",
+     "title": "Marketing & Demand Generation",
+     "email": "tanmay@airbyte.io"
+    },
+    {
+     "name": "Kushal Chatterjee",
+     "title": "Senior Product Marketing Manager",
+     "email": "kushal.chatterjee@airbyte.io"
+    },
+    {
+     "name": "Michel Tricot",
+     "title": "CEO & Co-Founder",
+     "email": "michel.tricot@airbyte.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/michel-tricot-540a46382",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Auvik Networks",
+   "people": [
+    {
+     "name": "Douglas Murray",
+     "title": "CEO",
+     "email": "dmurray@auvik.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/douglas-murray-2324932",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Susanne Rodriguez",
+     "title": "Chief Marketing Officer",
+     "email": "srodriguez@auvik.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/susannebassettharris",
+     "location": "Austin, United States"
+    },
+    {
+     "name": "Elsa Dithmer",
+     "title": "SVP, Marketing",
+     "email": "edithmer@auvik.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/elsa-dithmer-80520232",
+     "location": "Austin, United States"
+    },
+    {
+     "name": "Justin Ong",
+     "title": "Director of Brand and Community",
+     "email": "juong@auvik.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/justinongisrad",
+     "location": "Austin, United States"
+    }
+   ]
+  },
+  {
+   "brand": "BetterCloud",
+   "people": [
+    {
+     "name": "Ezhilarasan Natarajan",
+     "title": "CEO - BetterCloud",
+     "email": "ezhilarasan.natarajan@bettercloud.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ezhiln",
+     "location": "Seattle, United States"
+    },
+    {
+     "name": "Hayley Mathis",
+     "title": "Associate Director, Growth & Retention",
+     "email": "hayley.mathis@bettercloud.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/hayley-mathis",
+     "location": "Austin, United States"
+    },
+    {
+     "name": "Balraj Kunnath",
+     "title": "President",
+     "email": "raj.kunnath@bettercloud.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/rajkunnath",
+     "location": "Seattle, United States"
+    }
+   ]
+  },
+  {
+   "brand": "CircleCI",
+   "people": [
+    {
+     "name": "Gillian Kieser",
+     "title": "Director of Brand Marketing",
+     "email": "gillian@circleci.com"
+    },
+    {
+     "name": "Tim Bush",
+     "title": "Global Field & Community Marketing Director",
+     "email": "tim.bush@circleci.com"
+    },
+    {
+     "name": "Joel Sierra",
+     "title": "Marketing Manager",
+     "email": "joel.sierra@circleci.com"
+    },
+    {
+     "name": "Emily Sakowski",
+     "title": "Marketing Operations",
+     "email": "emily@circleci.com"
+    }
+   ]
+  },
+  {
+   "brand": "Gnosis",
+   "people": [
+    {
+     "name": "Martin Koeppelmann",
+     "title": "CEO",
+     "email": "martin@gnosis.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/koeppelmann",
+     "location": "Gibraltar"
+    },
+    {
+     "name": "Adrienne Youngman",
+     "title": "Head of Marketing & Comms",
+     "email": "adrienne.youngman@gnosis.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/adrienneyoungman",
+     "location": "Portugal"
+    },
+    {
+     "name": "Ondrej Pilny",
+     "title": "Commercial Director",
+     "email": "ondrej.pilny@gnosis.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/ondrejpilny",
+     "location": "Prague, Czech Republic"
+    },
+    {
+     "name": "Mattia Asta",
+     "title": "CEO",
+     "email": "mattia@gnosispay.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/mattia-asta-1987b3a7",
+     "location": "United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "GoodData.AI",
+   "people": [
+    {
+     "name": "Roman Stanek",
+     "title": "Founder, CEO",
+     "email": "roman@gooddata.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/stanekroman",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Martin Hosek",
+     "title": "Head of Marketing",
+     "email": "martin.hosek@gooddata.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/martin-hosek",
+     "location": "Brno, Czech Republic"
+    }
+   ]
+  },
+  {
+   "brand": "OLIX",
+   "people": []
+  }
+ ]
+}

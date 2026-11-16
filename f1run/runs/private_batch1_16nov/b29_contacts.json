@@ -1,0 +1,331 @@
+{
+ "rows": [
+  {
+   "brand": "Securonix",
+   "people": [
+    {
+     "name": "Toby Weiss",
+     "title": "CEO",
+     "email": "tweiss@securonix.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/acwaaacasdsbxejp47uzbji07--jdijldws8hoc",
+     "location": "United States"
+    },
+    {
+     "name": "Ben Gibson",
+     "title": "Chief Marketing Officer",
+     "email": "bgibson@securonix.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/bengibson08",
+     "location": "San Jose, United States"
+    },
+    {
+     "name": "Celine Gajnik-Kinnoo",
+     "title": "Senior Director of Global Marketing",
+     "email": "cgajnik@securonix.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/c%c3%a9line-gajnik-kinnoo-ba69988",
+     "location": "France"
+    },
+    {
+     "name": "Noor Boulos",
+     "title": "Director, Global Growth Marketing",
+     "email": "nboulos@securonix.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/noor-boulos",
+     "location": "Raleigh, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Sift",
+   "people": [
+    {
+     "name": "Jimmy Dunn",
+     "title": "Marketing Leader \u00b7 Product Marketing",
+     "email": "jimmy.dunn@sift.com"
+    },
+    {
+     "name": "Arwen Heredia",
+     "title": "Sr. Director, Corporate Marketing",
+     "email": "aheredia@siftscience.com"
+    },
+    {
+     "name": "Charles Sanders",
+     "title": "Sr. Director of Product, Partner, & Growth",
+     "email": "csanders@siftscience.com"
+    },
+    {
+     "name": "Johannes Hoech",
+     "title": "CMO",
+     "email": "jhoech@siftscience.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jhoech",
+     "location": "Redwood City, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Signifyd",
+   "people": [
+    {
+     "name": "Rajesh Ramanand",
+     "title": "Co-Founder & CEO",
+     "email": "raj@signifyd.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rramanand",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Angie Assennato",
+     "title": "VP of Global Brand & Marketing NA",
+     "email": "angie.assennato@signifyd.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/angieassennato",
+     "location": "Naples, United States"
+    },
+    {
+     "name": "Paul Allen",
+     "title": "Head of Brand Design",
+     "email": "paul.allen@signifyd.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/paul-allen-41aa7818a",
+     "location": "Belfast, United Kingdom"
+    },
+    {
+     "name": "Amal Ahmed",
+     "title": "Director, Financial Services and EMEA Marketing",
+     "email": "amal.ahmed@signifyd.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/amal-ahmed-9a799b12",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "SnapLogic",
+   "people": [
+    {
+     "name": "Brad Stewart",
+     "title": "CEO",
+     "email": "bstewart@snaplogic.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/bradleystewart1",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Dayle Hall",
+     "title": "CMO",
+     "email": "dhall@snaplogic.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/daylehall",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Praneal Narayan",
+     "title": "Vice President, Growth Marketing",
+     "email": "pnarayan@snaplogic.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/praneal",
+     "location": "San Mateo, United States"
+    },
+    {
+     "name": "Nuala Coogan",
+     "title": "Senior Director, Global Field Marketing",
+     "email": "ncoogan@snaplogic.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/nualacoogan",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Sourcegraph",
+   "people": [
+    {
+     "name": "Wendy Lee",
+     "title": "Head of Marketing",
+     "email": "wendy.lee@sourcegraph.com"
+    },
+    {
+     "name": "Aimee Menne",
+     "title": "Chief Revenue Officer",
+     "email": "aimee@sourcegraph.com"
+    },
+    {
+     "name": "Dan Adler",
+     "title": "CEO",
+     "email": "dan@sourcegraph.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/danielnealadler",
+     "location": "Oakland, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Sumo Logic",
+   "people": [
+    {
+     "name": "Chris Malone",
+     "title": "Chief Executive Officer",
+     "email": "cmalone@sumologic.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/chris-malone-2022051",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Justin Brock",
+     "title": "VP, Digital Marketing & Demand Generation",
+     "email": "justin.brock@sumologic.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/justinbrock",
+     "location": "Madison, United States"
+    },
+    {
+     "name": "Kelsey Jensen",
+     "title": "Senior Director of Marketing",
+     "email": "kelsey.jensen@sumologic.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/wheelerjensenkelsey",
+     "location": "Dallas, United States"
+    },
+    {
+     "name": "Claire Dantoni",
+     "title": "Director, Partner Marketing",
+     "email": "cdantoni@sumologic.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/clairedantoni",
+     "location": "Portland, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Sysdig",
+   "people": [
+    {
+     "name": "Thao Swimelar",
+     "title": "Head of Brand & Content Marketing",
+     "email": "thao.doan@sysdig.com"
+    },
+    {
+     "name": "Dana Rottman",
+     "title": "Sr. Director, Head of Growth Marketing",
+     "email": "dana.rottman@sysdig.com"
+    },
+    {
+     "name": "Ryan Davis",
+     "title": "VP, Marketing",
+     "email": "ryan.davis@sysdig.com"
+    },
+    {
+     "name": "Eric Carter",
+     "title": "Director, Product Marketing",
+     "email": "eric.carter@sysdig.com"
+    }
+   ]
+  },
+  {
+   "brand": "Transmit Security",
+   "people": [
+    {
+     "name": "Tim Woolford",
+     "title": "Vice President, Product Marketing",
+     "email": "tim.woolford@transmitsecurity.com"
+    },
+    {
+     "name": "Cameron Sipes",
+     "title": "Senior Director of Product Marketing",
+     "email": "cameron.sipes@transmitsecurity.com"
+    },
+    {
+     "name": "Carrie Hayes",
+     "title": "Senior Director, Partner Marketing",
+     "email": "carrie.hayes@transmitsecurity.com"
+    },
+    {
+     "name": "Matthew Thompson",
+     "title": "Chief Executive Officer",
+     "email": "matt.thompson@transmitsecurity.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mattthompson01",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "Unqork",
+   "people": [
+    {
+     "name": "Allison Barlaz",
+     "title": "VP, Marketing",
+     "email": "allison.barlaz@unqork.com"
+    },
+    {
+     "name": "Ashley Kramer",
+     "title": "Director, Product Marketing",
+     "email": "ashley.kramer@unqork.com"
+    },
+    {
+     "name": "Dino Trevisani",
+     "title": "Chief Growth Officer",
+     "email": "dino.trevisani@unqork.com"
+    },
+    {
+     "name": "Craig Steel",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "craig.steel@unqork.com"
+    }
+   ]
+  },
+  {
+   "brand": "Afiniti",
+   "people": [
+    {
+     "name": "Jerome Kapelus",
+     "title": "Chief Executive Officer",
+     "email": "jerome.kapelus@afiniti.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jeromekapelus",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Ayanna Atontsa",
+     "title": "Head of Marketing and Strategy",
+     "email": "ayanna.fowlkes@afiniti.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/ayannaatontsa",
+     "location": "Baltimore, United States"
+    },
+    {
+     "name": "Chris Karp",
+     "title": "Chief Growth Officer",
+     "email": "chris.karp@afiniti.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/chris-karp-62022b2",
+     "location": "Frisco, United States"
+    },
+    {
+     "name": "Will Thompson",
+     "title": "Director of Demand Generation",
+     "email": "william.thompson@afiniti.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/will-thompson-b264a74b",
+     "location": "Glastonbury, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Deep Instinct",
+   "people": [
+    {
+     "name": "Mukesh Singh",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "mukesh.singh@deepinstinct.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mukesh27singh",
+     "location": "Montville, United States"
+    }
+   ]
+  }
+ ]
+}

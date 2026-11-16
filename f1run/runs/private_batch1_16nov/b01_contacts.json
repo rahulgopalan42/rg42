@@ -1,0 +1,313 @@
+{
+ "rows": [
+  {
+   "brand": "Cyera",
+   "people": [
+    {
+     "name": "Naveen Palavalli",
+     "title": "Chief Marketing Officer",
+     "email": "naveen@cyera.io"
+    },
+    {
+     "name": "Jenna Quigley",
+     "title": "Head of Growth Marketing",
+     "email": "jenna.quigley@cyera.io"
+    },
+    {
+     "name": "Eyal Engel",
+     "title": "Vice President of Technical Product Marketing",
+     "email": "eyal.engel@cyera.io"
+    },
+    {
+     "name": "Yitzy Tannenbaum",
+     "title": "Director of Product Marketing",
+     "email": "yitzy.tannenbaum@cyera.io"
+    }
+   ]
+  },
+  {
+   "brand": "Rippling",
+   "people": [
+    {
+     "name": "Dan Chaput",
+     "title": "VP, Sales and Marketing Strategy and Planning",
+     "email": "dchaput@rippling.com"
+    },
+    {
+     "name": "Anne Maguire",
+     "title": "Growth Marketing Lead",
+     "email": "amaguire@rippling.com"
+    },
+    {
+     "name": "Arteen Asgharzadeh",
+     "title": "Head of Marketing & Growth - Rippling Finance",
+     "email": "aasgharzadeh@rippling.com"
+    },
+    {
+     "name": "Nick Wiesner",
+     "title": "VP of Brand",
+     "email": "nwiesner@rippling.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/nickwiesner",
+     "location": "San Francisco, CA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Flexera",
+   "people": [
+    {
+     "name": "Steve Daheb",
+     "title": "Chief Marketing Officer",
+     "email": "steve.daheb@flexera.com"
+    },
+    {
+     "name": "Kerry Ford",
+     "title": "Vice President, Global Marketing",
+     "email": "kerry.ford@flexera.com"
+    },
+    {
+     "name": "Bridget Bell",
+     "title": "Senior Director, Communications & Brand",
+     "email": "bbell@flexera.com"
+    },
+    {
+     "name": "Michael Jerich",
+     "title": "President and Chief Executive Officer",
+     "email": "mjerich@flexera.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/michael-jerich-92b399",
+     "location": "Chicago, IL, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Grafana Labs",
+   "people": [
+    {
+     "name": "Raj Dutt",
+     "title": "Co-founder/ceo",
+     "email": "dutt@grafana.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/radutt",
+     "location": "New York, NY, USA"
+    },
+    {
+     "name": "Scott Fingerhut",
+     "title": "Chief Marketing Officer",
+     "email": "scott.fingerhut@grafana.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sfingerhut",
+     "location": "Spain"
+    },
+    {
+     "name": "Julie Dam",
+     "title": "Vice President | Marketing & Communications",
+     "email": "julie.dam@grafana.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/juliedam",
+     "location": "New York, NY, USA"
+    },
+    {
+     "name": "Eddie Morales",
+     "title": "Vice President of WW Demand Generation",
+     "email": "eddie.morales@grafana.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/eddiemorales1",
+     "location": "San Francisco, CA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Crusoe",
+   "people": [
+    {
+     "name": "Chase Lochmiller",
+     "title": "Co-Founder and CEO",
+     "email": "chase@crusoe.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/chase-lochmiller-604483341",
+     "location": "United States"
+    },
+    {
+     "name": "Sharieff Mansour",
+     "title": "Vice President, Marketing",
+     "email": "smansour@crusoe.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sharieff-mansour-58162a",
+     "location": "Seattle, WA, USA"
+    },
+    {
+     "name": "Lyn Hart",
+     "title": "Director of Communications",
+     "email": "lhart@crusoe.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/lyn-hart-2523172",
+     "location": "Portland, OR, USA"
+    },
+    {
+     "name": "Gaurav Nihalani",
+     "title": "Sr. Director Digital Marketing",
+     "email": "gnihalani@crusoe.ai",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/gauravnihalani",
+     "location": "San Francisco, CA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Atoms",
+   "people": [
+    {
+     "name": "Vivian Luu",
+     "title": "Head of Product Marketing",
+     "email": "vivian.luu@atoms.co"
+    },
+    {
+     "name": "Luke Voiles",
+     "title": "CEO of Otter",
+     "email": "luke.voiles@tryotter.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/luke-voiles",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Jess Morton",
+     "title": "CCO, Food",
+     "email": "jess@atoms.co",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jessmorton",
+     "location": "Los Angeles, CA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Lenskart",
+   "people": [
+    {
+     "name": "Peyush Bansal",
+     "title": "Co-Founder, Chief Executive Officer",
+     "email": "peyushb@lenskart.com"
+    },
+    {
+     "name": "Emma Lithander",
+     "title": "VP Category and Marketing SEA ME",
+     "email": "emma.lithander@lenskart.sg"
+    },
+    {
+     "name": "Sumit Chawla",
+     "title": "Assistant Vice President Marketing",
+     "email": "sumit.chawla@john-jacobs.com"
+    },
+    {
+     "name": "Abhimanyu Mishra",
+     "title": "AVP Marketing",
+     "email": "abhimanyu.mishra@lenskart.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/abhimanyu-mishra-3b48645a",
+     "location": "Gurugram, Haryana, India"
+    }
+   ]
+  },
+  {
+   "brand": "Bird",
+   "people": [
+    {
+     "name": "Luka Santl",
+     "title": "Head of Brand",
+     "email": "luka.santl@bird.com"
+    },
+    {
+     "name": "Marc Van Agtmael",
+     "title": "Head of SMS Growth",
+     "email": "marc@bird.com"
+    },
+    {
+     "name": "Robert Vis",
+     "title": "Founder & CEO, Bird",
+     "email": "robert@messagebird.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/robertvis",
+     "location": "ArenA Boulevard 1, Netherlands"
+    },
+    {
+     "name": "Keaton Ventura",
+     "title": "Head of Content",
+     "email": "keaton.ventura@bird.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/keaton-ventura-5bb1a296",
+     "location": "New York, NY, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Ripple",
+   "people": [
+    {
+     "name": "Monica Long",
+     "title": "President",
+     "email": "monica@ripple.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/monicalong",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Kiersten Hollars",
+     "title": "SVP, Corporate Marketing & Communications",
+     "email": "khollars@ripple.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/hollarsk",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Stacey Ngo",
+     "title": "Vice President of Corporate Communications",
+     "email": "sngo@ripple.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/staceyngo",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Polina Polishchuk",
+     "title": "Senior Director, Growth Marketing",
+     "email": "ppolishchuk@ripple.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/polina-polishchuk-7a30203a",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "Superhuman",
+   "people": [
+    {
+     "name": "Ashley Antoon",
+     "title": "Vice President, Product Marketing, Enterprise",
+     "email": "ashley.antoon@superhuman.com"
+    },
+    {
+     "name": "Dolleen Cross",
+     "title": "Head of Communications",
+     "email": "dolleen.cross@superhuman.com"
+    },
+    {
+     "name": "Erin Dame",
+     "title": "Director of Brand Marketing (formerly Grammarly)",
+     "email": "erin.dame@grammarly.com"
+    },
+    {
+     "name": "Shishir Mehrotra",
+     "title": "CEO",
+     "email": "shishir.mehrotra@grammarly.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/shishirmehrotra",
+     "location": "Los Altos, CA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Telegram",
+   "people": []
+  }
+ ]
+}

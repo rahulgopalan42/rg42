@@ -1,0 +1,329 @@
+{
+ "rows": [
+  {
+   "brand": "Ebix",
+   "people": [
+    {
+     "name": "Ashish Jaitly",
+     "title": "Executive Director & CEO - Ebix Technology",
+     "email": "ashish.jaitly@ebix.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ashish-jaitly",
+     "location": "New Delhi, India"
+    },
+    {
+     "name": "Amy Skiff",
+     "title": "VP, Marketing - Oakstone CME",
+     "email": "amy.skiff@ebix.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/amy-skiff-4294226",
+     "location": "United States"
+    },
+    {
+     "name": "Sukhwinder Singh",
+     "title": "Creative and Digital Marketing Director",
+     "email": "sukhwinders@ebix.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/sukhwinder-singh-64a8b5256",
+     "location": "Atlanta, United States"
+    }
+   ]
+  },
+  {
+   "brand": "KoBold Metals",
+   "people": [
+    {
+     "name": "Kurt House",
+     "title": "Chief Executive & Co-Founder",
+     "email": "kurt.house@koboldmetals.com"
+    },
+    {
+     "name": "Katongo Chilufya",
+     "title": "Head of Corporate Communications",
+     "email": "katongo.chilufya@koboldmetals.com"
+    },
+    {
+     "name": "Josh Goldman",
+     "title": "Co-Founder & President",
+     "email": "josh.goldman@koboldmetals.com"
+    }
+   ]
+  },
+  {
+   "brand": "Safe Superintelligence",
+   "people": [
+    {
+     "name": "Ilya Sutskever",
+     "title": "Co-Founder and CEO",
+     "email": "ilya@ssi.inc"
+    },
+    {
+     "name": "Daniel Levy",
+     "title": "Co-Founder",
+     "email": "dl@ssi.inc"
+    }
+   ]
+  },
+  {
+   "brand": "Vertiv",
+   "people": [
+    {
+     "name": "Sheila Rathburn",
+     "title": "Director, Marketing Strategy & Programs",
+     "email": "sheila.rathburn@vertiv.com"
+    },
+    {
+     "name": "Yadira Suarez",
+     "title": "Director, Segment Revenue Growth Marketing",
+     "email": "yadira.suarez@vertiv.com"
+    },
+    {
+     "name": "Vicente Chiralt",
+     "title": "Global Vice President, Field & Integrated Marketing",
+     "email": "vicente.chiralt@vertiv.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/vicentechiralt",
+     "location": "Madrid, Spain"
+    },
+    {
+     "name": "Martin Coulthard",
+     "title": "Global VP, Demand Generation Marketing",
+     "email": "martin.coulthard@vertiv.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/martin-coulthard-139910b",
+     "location": "Southampton, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Quess Corp",
+   "people": [
+    {
+     "name": "Lohit Bhatia",
+     "title": "Executive Director and Group CEO",
+     "email": "lohit.bhatia@quesscorp.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/lohitbhatia",
+     "location": "Gurgaon, India"
+    },
+    {
+     "name": "Manish Sridhar",
+     "title": "Vice President Marketing",
+     "email": "manish.sridhar@quesscorp.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/manishsridhar",
+     "location": "Bengaluru, India"
+    },
+    {
+     "name": "Adeeba Dadlani",
+     "title": "Chief Business Officer",
+     "email": "fadeeba@quesscorp.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/adeeba-fatima-dadlani",
+     "location": "Hyderabad, India"
+    }
+   ]
+  },
+  {
+   "brand": "STACK Infrastructure",
+   "people": [
+    {
+     "name": "Sammer Khalaf",
+     "title": "Sr. Vice President, Marketing",
+     "email": "skhalaf@stackinfra.com"
+    },
+    {
+     "name": "Erika Haggerty",
+     "title": "Marketing Director",
+     "email": "ehaggerty@stackinfra.com"
+    },
+    {
+     "name": "Elyse Bawden",
+     "title": "Manager, Growth Marketing",
+     "email": "eloeb@stackinfra.com"
+    },
+    {
+     "name": "Christine Jackson",
+     "title": "B2B Marketing Executive",
+     "email": "cjackson@stackinfra.com"
+    }
+   ]
+  },
+  {
+   "brand": "EdgeConneX",
+   "people": [
+    {
+     "name": "Angela Capon",
+     "title": "Vice President, Global Marketing",
+     "email": "acapon@edgeconnex.com"
+    },
+    {
+     "name": "Vanessa Eixman",
+     "title": "Sr. Director, Marketing and Communications",
+     "email": "veixman@edgeconnex.com"
+    },
+    {
+     "name": "Elle Bretz",
+     "title": "Marketing Manager",
+     "email": "ebretz@edgeconnex.com"
+    },
+    {
+     "name": "Phillip Marangella",
+     "title": "Chief Marketing Officer & Product Officer",
+     "email": "pmarangella@edgeconnex.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/phillipmarangella",
+     "location": "Reston, United States"
+    }
+   ]
+  },
+  {
+   "brand": "CyrusOne",
+   "people": [
+    {
+     "name": "Blair Felter",
+     "title": "Vice President Marketing Communications",
+     "email": "bfelter@cyrusone.com"
+    },
+    {
+     "name": "Laurene Richards",
+     "title": "Director of Marketing",
+     "email": "lrichards@cyrusone.com"
+    },
+    {
+     "name": "Alice Stern",
+     "title": "Senior Marketing Manager",
+     "email": "astern@cyrusone.com"
+    },
+    {
+     "name": "John Hatem",
+     "title": "President and Chief Executive Officer",
+     "email": "jhatem@cyrusone.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/john-hatem",
+     "location": "Dallas, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Serverfarm",
+   "people": [
+    {
+     "name": "Avner Papouchado",
+     "title": "Chief Executive Officer",
+     "email": "avner@sfrdc.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/avner-papouchado-50050648",
+     "location": "El Segundo, United States"
+    },
+    {
+     "name": "Arun Shenoy",
+     "title": "CMO",
+     "email": "arun@sfrdc.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/arunshenoy",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "VEON",
+   "people": [
+    {
+     "name": "Kaan Terzioglu",
+     "title": "Chief Executive Officer",
+     "email": "kaan.terzioglu@veon.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kaanterzioglu",
+     "location": "Dubai, United Arab Emirates"
+    },
+    {
+     "name": "Khairul Hassan",
+     "title": "Chief Marketing Officer",
+     "email": "khassan@banglalink.net",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/khairul-hassan-120826163",
+     "location": "Dhaka, Bangladesh"
+    },
+    {
+     "name": "Hamza Sheikh",
+     "title": "Director Experiential Marketing",
+     "email": "hamza.sheikh@jazz.com.pk",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/hamza-sheikh-63925b115",
+     "location": "Pakistan"
+    },
+    {
+     "name": "Marine Babayan",
+     "title": "Group Corporate Affairs Officer",
+     "email": "marine.babayan@veon.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/marinebabayan",
+     "location": "Dubai, United Arab Emirates"
+    }
+   ]
+  },
+  {
+   "brand": "Flo Networks",
+   "people": [
+    {
+     "name": "Miguel Fernandez",
+     "title": "CEO",
+     "email": "mfs-ola@flo.net",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/miguel-fernandez-4114903",
+     "location": "El Paso, United States"
+    },
+    {
+     "name": "Fernando Machado",
+     "title": "Chief Revenue Officer",
+     "email": "fmc-ola@flo.net",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/fernando-machado-652862",
+     "location": "Fort Lauderdale, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Xpansiv",
+   "people": [
+    {
+     "name": "Ben Stuart",
+     "title": "Chief Commercial Officer",
+     "email": "ben.stuart@xpansiv.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/benstuartxpansiv",
+     "location": "Sydney, Australia"
+    },
+    {
+     "name": "Peter Burton",
+     "title": "Senior Director, Communications and Market Development",
+     "email": "pburton@xpansiv.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/prburton3",
+     "location": "Farmington, United States"
+    },
+    {
+     "name": "Mary Sells",
+     "title": "Director, Global Marketing",
+     "email": "msells@xpansiv.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/marysells",
+     "location": "Portland, United States"
+    },
+    {
+     "name": "Jessica Roemer",
+     "title": "Director Global Marketing - Xpansiv",
+     "email": "jroemer@evomarkets.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jessicaroemer",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Slate Asset Management",
+   "people": []
+  }
+ ]
+}

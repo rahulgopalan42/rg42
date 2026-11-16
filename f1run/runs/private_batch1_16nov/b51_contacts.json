@@ -1,0 +1,337 @@
+{
+ "rows": [
+  {
+   "brand": "Antithesis",
+   "people": [
+    {
+     "name": "Randall Jackson",
+     "title": "Chief Revenue Officer",
+     "email": "randall.jackson@antithesis.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/randall-jackson-04497b2",
+     "location": "Baltimore, United States"
+    },
+    {
+     "name": "Amelia Mango",
+     "title": "Senior Director of Marketing",
+     "email": "amelia.mango@antithesis.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/ameliamango",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Lynae Hilton",
+     "title": "Brand Director",
+     "email": "lynae.hilton@antithesis.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/lynaehilton",
+     "location": "Reston, United States"
+    },
+    {
+     "name": "Kelly Bakalich",
+     "title": "Director, Demand Generation",
+     "email": "kelly.bakalich@antithesis.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/kellybakalich",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Pryon",
+   "people": [
+    {
+     "name": "Chris Mahl",
+     "title": "CEO",
+     "email": "cmahl@pryoninc.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/chrismahl",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Eve",
+   "people": [
+    {
+     "name": "David Malpass",
+     "title": "Chief Marketing Officer",
+     "email": "david@eve.legal"
+    },
+    {
+     "name": "Laura Hibben",
+     "title": "SVP Revenue Marketing & Partnerships",
+     "email": "laura.hibben@eve.legal"
+    },
+    {
+     "name": "Jamie Eggertsen",
+     "title": "Head of Marketing Strategy & Ops",
+     "email": "jamie.eggertsen@eve.legal"
+    },
+    {
+     "name": "Allegra Heath",
+     "title": "VP, Product Marketing",
+     "email": "allegra.heath@eve.legal"
+    }
+   ]
+  },
+  {
+   "brand": "Eclypsium",
+   "people": [
+    {
+     "name": "Andy Smith",
+     "title": "Chief Marketing Officer",
+     "email": "andy.smith@eclypsium.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/andysmithcmo",
+     "location": "Pleasanton, United States"
+    },
+    {
+     "name": "Ariella Robison",
+     "title": "Vice President of Marketing",
+     "email": "ariella.robison@eclypsium.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/ariellarobison",
+     "location": "Seattle, United States"
+    },
+    {
+     "name": "Christopher Garland",
+     "title": "Creative Director",
+     "email": "christopher@eclypsium.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/christopher-garland-4a307819a",
+     "location": "Portland, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Prime Intellect",
+   "people": [
+    {
+     "name": "Alex Ferguson",
+     "title": "Growth",
+     "email": "alex@primeintellect.ai"
+    },
+    {
+     "name": "Johannes Hagemann",
+     "title": "Co-founder / CTO",
+     "email": "johannes@primeintellect.ai"
+    }
+   ]
+  },
+  {
+   "brand": "Apptronik",
+   "people": [
+    {
+     "name": "Barry Phillips",
+     "title": "Chief Commercial Officer (CCO)",
+     "email": "barryphillips@apptronik.com"
+    },
+    {
+     "name": "Dave Perry",
+     "title": "Vice President of Marketing",
+     "email": "daveperry@apptronik.com"
+    },
+    {
+     "name": "Liz Clinkenbeard",
+     "title": "Head of Communications",
+     "email": "lizclinkenbeard@apptronik.com"
+    },
+    {
+     "name": "Jeff Cardenas",
+     "title": "CEO",
+     "email": "jeffcardenas@apptronik.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jeffrey-cardenas",
+     "location": "Austin, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Figure AI",
+   "people": [
+    {
+     "name": "Brett Adcock",
+     "title": "Founder",
+     "email": "bma@figure.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/brettadcock",
+     "location": "Palo Alto, United States"
+    },
+    {
+     "name": "Lee Randaccio",
+     "title": "VP of Growth",
+     "email": "lee@figure.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/lee-randaccio-41848652",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Dana Berlin",
+     "title": "VP of Commercialization",
+     "email": "dana.berlin@figure.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/dana-berlin-95945445",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "General Intuition",
+   "people": [
+    {
+     "name": "Pim Witte",
+     "title": "Co-founder, CEO",
+     "email": "pim@generalintuition.com"
+    },
+    {
+     "name": "Eloi Alonso",
+     "title": "Co-Founder and Member of Technical Staff",
+     "email": "eloi@generalintuition.com"
+    },
+    {
+     "name": "Adam Jelley",
+     "title": "Member of Technical Staff / Co-Founder",
+     "email": "adam@generalintuition.com"
+    },
+    {
+     "name": "Vincent Micheli",
+     "title": "Co-Founder and Member of Technical Staff",
+     "email": "vincent@generalintuition.com"
+    }
+   ]
+  },
+  {
+   "brand": "Reflection AI",
+   "people": [
+    {
+     "name": "Doug Brown",
+     "title": "Head of Growth, USG",
+     "email": "doug@reflection.ai"
+    },
+    {
+     "name": "Abby Reider",
+     "title": "Head of Business and Technology Communications",
+     "email": "abby@reflection.ai"
+    },
+    {
+     "name": "Misha Laskin",
+     "title": "Co-Founder, CEO",
+     "email": "misha@reflection.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mishalaskin",
+     "location": "United States"
+    },
+    {
+     "name": "Becky Sosnov",
+     "title": "Head of Global Corporate Affairs",
+     "email": "becky@reflection.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/becky-sosnov-43221949",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Sesame",
+   "people": [
+    {
+     "name": "Brendan Iribe",
+     "title": "CEO and Co-founder",
+     "email": "brendan@sesame.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/brendaniribe",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Allison Berliner",
+     "title": "Head of Product and Brand Marketing",
+     "email": "allison@sesame.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/allisonberliner",
+     "location": "Oakland, United States"
+    },
+    {
+     "name": "Ohemaa Dixon",
+     "title": "Leading Brand + Social",
+     "email": "ohemaa@sesame.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/ohemaadixon",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Savvy Wealth",
+   "people": [
+    {
+     "name": "Steven Cherucheril",
+     "title": "Senior Director, Marketing and Revenue Strategy & Ops",
+     "email": "steven@savvywealth.com"
+    },
+    {
+     "name": "David Weiner",
+     "title": "CRO",
+     "email": "dw@savvywealth.com"
+    },
+    {
+     "name": "Nick Hampson",
+     "title": "Senior Director of Strategic Growth",
+     "email": "nick.hampson@savvywealth.com"
+    }
+   ]
+  },
+  {
+   "brand": "At-Bay",
+   "people": [
+    {
+     "name": "Michael Lowe",
+     "title": "Head of Marketing",
+     "email": "michael.lowe@at-bay.com"
+    },
+    {
+     "name": "Louis Evans",
+     "title": "Marketing Director",
+     "email": "louis.evans@at-bay.com"
+    },
+    {
+     "name": "Rotem Iram",
+     "title": "Founder and CEO",
+     "email": "rotem@at-bay.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rotemiram",
+     "location": "Mountain View, United States"
+    },
+    {
+     "name": "Roman Itskovich",
+     "title": "Founder & CRO",
+     "email": "roman@at-bay.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/romanitskovich",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Semantix",
+   "people": [
+    {
+     "name": "Fabio Miranda",
+     "title": "Chief Marketing Officer",
+     "email": "fabio.miranda@semantix.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/fabio-miranda-39239737",
+     "location": "Sao Paulo, Brazil"
+    }
+   ]
+  },
+  {
+   "brand": "CScale",
+   "people": []
+  },
+  {
+   "brand": "Euclyd",
+   "people": []
+  }
+ ]
+}

@@ -1,0 +1,322 @@
+{
+ "rows": [
+  {
+   "brand": "LiveKit",
+   "people": [
+    {
+     "name": "Russ D'Sa",
+     "title": "CEO",
+     "email": "dsa@livekit.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/russelldsa",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Tom Davies",
+     "title": "Chief Revenue Officer",
+     "email": "tom.davies@livekit.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/tom-davies-a0b535399",
+     "location": "Newport Beach, CA, USA"
+    },
+    {
+     "name": "Amy Wang",
+     "title": "Director of Demand Generation",
+     "email": "amy.wang@livekit.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/amywang01",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Claire Besset",
+     "title": "Director of AI Operations, Marketing",
+     "email": "claire.besset@livekit.io",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/claire-besset-253b5230",
+     "location": "Los Angeles, CA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "CAST AI",
+   "people": [
+    {
+     "name": "Joe Roualdes",
+     "title": "VP of Marketing",
+     "email": "joe@cast.ai"
+    },
+    {
+     "name": "Ladislav Barton",
+     "title": "Head of Marketing Operations",
+     "email": "ladislav@cast.ai"
+    },
+    {
+     "name": "Mariane Kido",
+     "title": "Global Field Marketing Director",
+     "email": "mariane@cast.ai"
+    },
+    {
+     "name": "Valerio Battelli",
+     "title": "Head of Customer Marketing & Advocacy",
+     "email": "valerio@cast.ai"
+    }
+   ]
+  },
+  {
+   "brand": "RealWear",
+   "people": [
+    {
+     "name": "Sebastian Beetschen",
+     "title": "Chief Executive Officer",
+     "email": "sebastian@realwear.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/doitrightnow",
+     "location": "Switzerland"
+    },
+    {
+     "name": "Justin Winger",
+     "title": "Global Head of Sales",
+     "email": "justin@realwear.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/justin-winger",
+     "location": "San Clemente, CA, USA"
+    },
+    {
+     "name": "David Oreiro",
+     "title": "Creative Director",
+     "email": "david.oreiro@realwear.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/davidoreiro",
+     "location": "Solothurn, Switzerland"
+    }
+   ]
+  },
+  {
+   "brand": "FintechOS",
+   "people": [
+    {
+     "name": "Teo Blidarus",
+     "title": "CEO and Co-Founder",
+     "email": "teodor.blidarus@fintechos.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/teodorblidarus",
+     "location": "London, UK"
+    },
+    {
+     "name": "Ash Govindia",
+     "title": "SVP of Growth",
+     "email": "asheeth.govindia@fintechos.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/agovindia",
+     "location": "New York, NY, USA"
+    },
+    {
+     "name": "Alex Gavril",
+     "title": "VP of Brand & Demand",
+     "email": "alex.gavril@fintechos.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/alexgavril",
+     "location": "London, UK"
+    },
+    {
+     "name": "Enas Beseiso",
+     "title": "Growth Marketing Director",
+     "email": "enas.beseiso@fintechos.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/enas-beseiso-a33168a",
+     "location": "United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Aera Technology",
+   "people": [
+    {
+     "name": "Frederic Laluyaux",
+     "title": "President and CEO",
+     "email": "frederic@aeratechnology.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/flaluyaux",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Folia Grace",
+     "title": "Chief Marketing Officer",
+     "email": "folia.grace@aeratechnology.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/foliagrace",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Ram Krishnan",
+     "title": "Chief Marketing Officer",
+     "email": "ram.krishnan@aeratechnology.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/rampkrishnan",
+     "location": "San Jose, CA, USA"
+    },
+    {
+     "name": "Uma Asthana",
+     "title": "Director, Demand Generation",
+     "email": "uma.asthana@aeratechnology.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/umasharanasthana",
+     "location": "San Francisco, CA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Guardio",
+   "people": [
+    {
+     "name": "Liron Smadja",
+     "title": "VP Brand Marketing",
+     "email": "liron.sm@guardiosecurity.com"
+    },
+    {
+     "name": "Yoav Shoham",
+     "title": "VP Growth",
+     "email": "yoav@guardiosecurity.com"
+    },
+    {
+     "name": "Shachar Rimer",
+     "title": "Head of Product Growth",
+     "email": "shachar.r@guardiosecurity.com"
+    },
+    {
+     "name": "Dean Parsay",
+     "title": "Growth Operations Lead",
+     "email": "dean.p@guardiosecurity.com"
+    }
+   ]
+  },
+  {
+   "brand": "Drata",
+   "people": [
+    {
+     "name": "Monica Eads",
+     "title": "Executive Business Partner, CRO & CMO",
+     "email": "monicaeads@drata.com"
+    },
+    {
+     "name": "Arun Singh",
+     "title": "Chief Marketing Officer",
+     "email": "arun@drata.com"
+    },
+    {
+     "name": "Stacy Campos",
+     "title": "Vice President, Revenue Marketing",
+     "email": "stacycampos@drata.com"
+    },
+    {
+     "name": "Jade Hill",
+     "title": "VP, Corporate and Product Marketing",
+     "email": "jadehill@drata.com"
+    }
+   ]
+  },
+  {
+   "brand": "Blackwall",
+   "people": [
+    {
+     "name": "Tiago Paraty",
+     "title": "Marketing Director",
+     "email": "tiago@botguard.ee"
+    },
+    {
+     "name": "Danica Gallon",
+     "title": "Director of Strategic Communications",
+     "email": "danica@botguard.ee"
+    },
+    {
+     "name": "Roi Carthy",
+     "title": "Founder & CEO",
+     "email": "roi.carthy@blackwall.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/roicarthy",
+     "location": "Israel"
+    }
+   ]
+  },
+  {
+   "brand": "Aqua Security",
+   "people": [
+    {
+     "name": "Mary Rose",
+     "title": "Marketing Director",
+     "email": "mary.rose@aquasec.com"
+    },
+    {
+     "name": "Sean McGowan",
+     "title": "Chief Revenue Officer",
+     "email": "sean.mcgowan@aquasec.com"
+    },
+    {
+     "name": "Michael Dube",
+     "title": "Chief Executive Officer",
+     "email": "michael.dube@aquasec.com"
+    }
+   ]
+  },
+  {
+   "brand": "Pindrop",
+   "people": [
+    {
+     "name": "Vijay Balasubramaniyan",
+     "title": "CEO & Co-founder",
+     "email": "vijay@pindrop.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/vijayab",
+     "location": "Atlanta, GA, USA"
+    },
+    {
+     "name": "Adriana Miner",
+     "title": "Chief Marketing Officer",
+     "email": "adriana@pindrop.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/adrigilminer",
+     "location": "Seattle, WA, USA"
+    },
+    {
+     "name": "Bucky Wallace",
+     "title": "CRO",
+     "email": "bucky.wallace@pindrop.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/buckywallace",
+     "location": "Raleigh, NC, USA"
+    },
+    {
+     "name": "Morgan Butterfield",
+     "title": "VP, Growth Marketing",
+     "email": "morgan.butterfield@pindrop.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/morgan1butterfield",
+     "location": "Austin, TX, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Beyond Identity",
+   "people": [
+    {
+     "name": "Jasson Casey",
+     "title": "Chief Executive Officer",
+     "email": "jasson.casey@beyondidentity.com"
+    }
+   ]
+  },
+  {
+   "brand": "Firebird",
+   "people": [
+    {
+     "name": "Alexander Yesayan",
+     "title": "Co-Founder",
+     "email": "alex@firebird.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/alexander-yesayan-0906ba43",
+     "location": "Armenia"
+    }
+   ]
+  }
+ ]
+}

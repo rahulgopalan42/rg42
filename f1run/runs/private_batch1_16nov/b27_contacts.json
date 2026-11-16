@@ -1,0 +1,306 @@
+{
+ "rows": [
+  {
+   "brand": "FourKites",
+   "people": [
+    {
+     "name": "Robyn Debroy",
+     "title": "Director, Marketing Operations",
+     "email": "robyn.wise@fourkites.com"
+    },
+    {
+     "name": "Miranda Lecea",
+     "title": "Director, Corporate Marketing",
+     "email": "miranda.lecea@fourkites.com"
+    },
+    {
+     "name": "Chandrashekar Ramaswamy",
+     "title": "Vice President - Network Growth",
+     "email": "vicky@fourkites.com"
+    },
+    {
+     "name": "Ron Richardson",
+     "title": "Chief Revenue Officer",
+     "email": "ron.richardson@fourkites.com"
+    }
+   ]
+  },
+  {
+   "brand": "Jobber",
+   "people": [
+    {
+     "name": "Sam Pillar",
+     "title": "CEO & Co-founder",
+     "email": "sam.p@getjobber.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/sampillar",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Moly Milosovic",
+     "title": "Senior Director, Brand Marketing and Communications",
+     "email": "moly.m@getjobber.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/molymilosovic",
+     "location": "Edmonton, Canada"
+    },
+    {
+     "name": "Shawn Cadeau",
+     "title": "Chief Revenue Officer",
+     "email": "shawn.c@getjobber.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/shawncadeau",
+     "location": "Mississauga, Canada"
+    },
+    {
+     "name": "Jill Whitehead",
+     "title": "Senior Director, Demand Generation",
+     "email": "jill.w@getjobber.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jillianwhitehead",
+     "location": "Toronto, Canada"
+    }
+   ]
+  },
+  {
+   "brand": "Seeq",
+   "people": [
+    {
+     "name": "Lisa Graham",
+     "title": "Chief Executive Officer",
+     "email": "lisa.graham@seeq.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/lisagraham2",
+     "location": "Seattle, United States"
+    },
+    {
+     "name": "Megan Buntain",
+     "title": "AI Chief Marketing & Strategy Officer",
+     "email": "megan.buntain@seeq.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/meganbuntain",
+     "location": "Burlington, United States"
+    },
+    {
+     "name": "George Skaryak",
+     "title": "Chief Revenue Officer",
+     "email": "george.skaryak@seeq.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/george-skaryak-a2a155",
+     "location": "Pittsburgh, United States"
+    },
+    {
+     "name": "Bill Hagerott",
+     "title": "Head of Global Demand Generation and AI Marketing Strategy",
+     "email": "bill.hagerott@seeq.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/billhagerott",
+     "location": "Chicago, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Auros",
+   "people": [
+    {
+     "name": "Eric Johnson",
+     "title": "Chief Executive Officer",
+     "email": "ejohnson@usertesting.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ebjohnson1",
+     "location": "Bellevue, United States"
+    },
+    {
+     "name": "Johann Wrede",
+     "title": "Chief Officer Marketing",
+     "email": "jwrede@usertesting.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/johannwrede",
+     "location": "United States"
+    },
+    {
+     "name": "Gwen Knudsen",
+     "title": "VP, Global Growth Marketing",
+     "email": "gknudsen@usertesting.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/gwen-knudsen-b1a5103",
+     "location": "United States"
+    },
+    {
+     "name": "Jahvita Rastafari",
+     "title": "Senior Director, Brand Marketing",
+     "email": "jrastafari@usertesting.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jahvitarastafari",
+     "location": "Palo Alto, United States"
+    }
+   ]
+  },
+  {
+   "brand": "BigPanda",
+   "people": [
+    {
+     "name": "Adam Blau",
+     "title": "Vice President Product Marketing",
+     "email": "ablau@bigpanda.io"
+    },
+    {
+     "name": "Jenne Barbour",
+     "title": "Head of Corporate Marketing",
+     "email": "jbarbour@bigpanda.io"
+    },
+    {
+     "name": "Melissa Kelley",
+     "title": "Vice President, Demand Generation",
+     "email": "mkelley@bigpanda.io"
+    },
+    {
+     "name": "Dave Anderson",
+     "title": "Chief Marketing Officer",
+     "email": "danderson@bigpanda.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/daveando",
+     "location": "Boston, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Cockroach Labs",
+   "people": [
+    {
+     "name": "Raymond Austin",
+     "title": "Head of Product Marketing",
+     "email": "austin@cockroachlabs.com"
+    },
+    {
+     "name": "Maria Toft",
+     "title": "Senior Director, Marketing Operations",
+     "email": "maria@cockroachlabs.com"
+    },
+    {
+     "name": "Tara Tj",
+     "title": "Global Head of Product Marketing and DevRel",
+     "email": "tara.jana@cockroachlabs.com"
+    },
+    {
+     "name": "Spencer Kimball",
+     "title": "CEO",
+     "email": "spencer@cockroachlabs.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/spencerwkimball",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Dixa",
+   "people": [
+    {
+     "name": "Lasse Thomsen",
+     "title": "Head of Marketing",
+     "email": "lbt@dixa.com"
+    },
+    {
+     "name": "Simon Briggs",
+     "title": "Global Head of Partner Pipeline and Growth",
+     "email": "sbr@dixa.com"
+    },
+    {
+     "name": "Sascha Skydsgaard",
+     "title": "Chief Commercial Officer (CCO)",
+     "email": "ssk@dixa.com"
+    }
+   ]
+  },
+  {
+   "brand": "Forter",
+   "people": [
+    {
+     "name": "Rebecca Stone",
+     "title": "Director of Product Marketing",
+     "email": "rebecca.stone@forter.com"
+    },
+    {
+     "name": "Tori Piccin",
+     "title": "Director, Global Partner Marketing",
+     "email": "tori.piccin@forter.com"
+    },
+    {
+     "name": "Kirsty Bell",
+     "title": "Senior Director, Global Demand Generation",
+     "email": "kirsty.bell@forter.com"
+    },
+    {
+     "name": "Michael Reitblat",
+     "title": "CEO and Co-Founder",
+     "email": "michael@forter.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/reitblat",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Front",
+   "people": [
+    {
+     "name": "Dan O'Connell",
+     "title": "Chief Executive Officer",
+     "email": "dan.oconnell@front.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/droconnell",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "David Slater",
+     "title": "Chief Marketing Officer",
+     "email": "david.slater@front.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/slaterdavid",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Mike Fenn",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "mike.fenn@front.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/mikefenn",
+     "location": "Orinda, United States"
+    },
+    {
+     "name": "Adam Risman",
+     "title": "Director of Brand & Comms",
+     "email": "adam.risman@front.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/adam-risman-97834218",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Illumio",
+   "people": [
+    {
+     "name": "Rick Wootten",
+     "title": "Vice President, Growth Marketing",
+     "email": "rick.wootten@illumio.com"
+    },
+    {
+     "name": "Ryan Farsai",
+     "title": "VP, Corporate Marketing & Global Communications",
+     "email": "ryan.farsai@illumio.com"
+    },
+    {
+     "name": "Andrew Lampitt",
+     "title": "Sr. Director, Product Marketing, Ecosystems & Growth",
+     "email": "andrew.lampitt@illumio.com"
+    },
+    {
+     "name": "Dorothy Moore",
+     "title": "Product Marketing Director, Competitive Intelligence",
+     "email": "dorothy.moore@illumio.com"
+    }
+   ]
+  }
+ ]
+}

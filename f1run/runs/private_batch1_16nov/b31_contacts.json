@@ -1,0 +1,352 @@
+{
+ "rows": [
+  {
+   "brand": "Xelix",
+   "people": [
+    {
+     "name": "Alisa McPhail",
+     "title": "Head of Marketing",
+     "email": "alisa.mcphail@xelix.com"
+    },
+    {
+     "name": "Rebecca Taylor",
+     "title": "Product Marketing Lead",
+     "email": "rebecca.taylor@xelix.com"
+    },
+    {
+     "name": "Gwyn Roberts",
+     "title": "Driving Sales Growth as Head of Enterprise Sales -",
+     "email": "gwyn.roberts@xelix.com"
+    },
+    {
+     "name": "Paul Roiter",
+     "title": "Co-Founder",
+     "email": "paul@xelix.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/paul-roiter-77855619",
+     "location": "United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Sayari",
+   "people": [
+    {
+     "name": "Farley Mesko",
+     "title": "CEO",
+     "email": "fmesko@sayari.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/farley-mesko-a1426515",
+     "location": "Washington, United States"
+    },
+    {
+     "name": "Brent Phillips",
+     "title": "Senior Vice President Marketing",
+     "email": "brent.phillips@sayari.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jbrentonphillips",
+     "location": "Atlanta, United States"
+    },
+    {
+     "name": "Romu Gaboriau",
+     "title": "VP of Revenue Marketing (Performance Marketing)",
+     "email": "romu.gaboriau@sayari.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/romugaboriau",
+     "location": "Atlanta, United States"
+    },
+    {
+     "name": "Scott Woodruff",
+     "title": "Director of Demand Generation",
+     "email": "scott.woodruff@sayari.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/scott-woodruff",
+     "location": "Idaho Falls, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Altana",
+   "people": [
+    {
+     "name": "Evan Smith",
+     "title": "CEO and Co-Founder",
+     "email": "evan@altana.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/evan-smith-39516b8",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Claire Cook",
+     "title": "VP of Brand and Communications",
+     "email": "claire.cook@altana.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/claireleecook",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Carter Blatt",
+     "title": "Head of Brand",
+     "email": "carter.blatt@altana.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/carterblatt",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Cassandra Milici",
+     "title": "VP, Product Marketing",
+     "email": "cassie.milici@altana.ai",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/cassandra-milici-vitelli-b370b633",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Groundcover",
+   "people": [
+    {
+     "name": "Shahar Azulay",
+     "title": "Co-Founder and CEO",
+     "email": "shahar@groundcover.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/shahar-azulay-54156bb4",
+     "location": "Israel"
+    },
+    {
+     "name": "Chris Churilo",
+     "title": "VP of Marketing",
+     "email": "chris.churilo@groundcover.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/chrischurilo",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "John Broad",
+     "title": "Head of Partners & Alliances",
+     "email": "john@groundcover.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/johnabroad",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Lauren Jarvis",
+     "title": "Senior Director, Revenue Marketing",
+     "email": "lauren.jarvis@groundcover.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lauren-renee-jarvis",
+     "location": "Charlotte, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Prophecy",
+   "people": [
+    {
+     "name": "Raj Bains",
+     "title": "Founder CEO",
+     "email": "raj.bains@prophecy.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/raj-bains-b837a46",
+     "location": "Denver, United States"
+    },
+    {
+     "name": "Sandra Chim",
+     "title": "Vice President, Marketing",
+     "email": "chim.sandra@prophecy.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sandrachim",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "DroneDeploy",
+   "people": [
+    {
+     "name": "Mike Winn",
+     "title": "Founder & CEO",
+     "email": "mike@dronedeploy.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mikewinn1",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Matt Daly",
+     "title": "Chief Marketing Officer",
+     "email": "matthew.daly@dronedeploy.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/matthewndaly",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Brad King",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "brad.king@dronedeploy.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/kingbradley",
+     "location": "San Mateo, United States"
+    },
+    {
+     "name": "Portia Lamotte",
+     "title": "VP, Demand Generation",
+     "email": "portia.lamotte@dronedeploy.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/portia-lamotte",
+     "location": "Chicago, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Alation",
+   "people": [
+    {
+     "name": "Ankur Gupta",
+     "title": "Director of Product Marketing",
+     "email": "ankur.gupta@alation.com"
+    },
+    {
+     "name": "Talo Szem",
+     "title": "Head of Content Marketing",
+     "email": "talo.szem@alation.com"
+    },
+    {
+     "name": "Ashley Womack",
+     "title": "Sr. Director of Corporate Marketing",
+     "email": "ashley.womack@alation.com"
+    },
+    {
+     "name": "Diana Myers",
+     "title": "B2B & B2G Marketing Leader",
+     "email": "diana.myers@alation.com"
+    }
+   ]
+  },
+  {
+   "brand": "Ocient",
+   "people": [
+    {
+     "name": "John Morris",
+     "title": "Chief Executive Officer",
+     "email": "jmorris@ocient.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/john-morris-8b94584",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Jenna Chorn",
+     "title": "Vice President of Marketing",
+     "email": "jchorn@ocient.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jennabollerchorn",
+     "location": "Los Angeles, United States"
+    },
+    {
+     "name": "Brian Brown",
+     "title": "Chief Revenue Officer",
+     "email": "bbrown@ocient.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/brianbrownc",
+     "location": "Wilmington, United States"
+    },
+    {
+     "name": "Anita Bala",
+     "title": "Director of Growth Marketing",
+     "email": "abala@ocient.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/anitabalasubramanian",
+     "location": "Austin, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Corelight",
+   "people": [
+    {
+     "name": "Brian Dye",
+     "title": "Chief Executive Officer",
+     "email": "brian@corelight.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/brdye",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Julie Parrish",
+     "title": "Chief Marketing Officer",
+     "email": "julie.parrish@corelight.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/juliaparrish",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Zann Aeck",
+     "title": "VP, Digital Marketing & Creative",
+     "email": "zann.aeck@corelight.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/zannaeck",
+     "location": "Portland, United States"
+    },
+    {
+     "name": "Tim Watson",
+     "title": "Director of Marketing, International",
+     "email": "tim.watson@corelight.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/timwatson2",
+     "location": "United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Onyx Security",
+   "people": [
+    {
+     "name": "Maxim Kogan",
+     "title": "Co-Founder & CEO",
+     "email": "maxim@onyx.security",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/maximkogan",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Jolie Kesler",
+     "title": "Head of Demand Generation",
+     "email": "jolie.k@onyx.security",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/joliekesler",
+     "location": "Denver, United States"
+    },
+    {
+     "name": "Mark Loewenstein",
+     "title": "Marketing Leader",
+     "email": "mark@onyx.security",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/loewenstein",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Amy Anderson",
+     "title": "Sr. Field & Partner Marketing",
+     "email": "amy.a@onyx.security",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/amyeanderson15",
+     "location": "Steamboat Springs, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Gravis Robotics",
+   "people": [
+    {
+     "name": "Sheila Bugal",
+     "title": "Marketing Manager",
+     "email": "sbugal@gravisrobotics.com"
+    },
+    {
+     "name": "Ryan Johns",
+     "title": "Chief Executive Officer",
+     "email": "rjohns@gravisrobotics.com"
+    }
+   ]
+  }
+ ]
+}

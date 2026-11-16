@@ -1,0 +1,301 @@
+{
+ "rows": [
+  {
+   "brand": "Hyperscience",
+   "people": [
+    {
+     "name": "Randy Cairns",
+     "title": "Senior Vice President Marketing & Communications",
+     "email": "randy.cairns@hyperscience.com"
+    },
+    {
+     "name": "Sarah Westhoven",
+     "title": "Lead Product Marketing Manager",
+     "email": "sarah.westhoven@hyperscience.ai"
+    },
+    {
+     "name": "Jyotsna Grover",
+     "title": "Head of Global Communications",
+     "email": "jyotsna.grover@hyperscience.com"
+    },
+    {
+     "name": "Dave Wiser",
+     "title": "Vice President of Sales",
+     "email": "dave.wiser@hyperscience.ai"
+    }
+   ]
+  },
+  {
+   "brand": "Laiye",
+   "people": [
+    {
+     "name": "Crystal Wu",
+     "title": "Head of Corporate Marketing",
+     "email": "crystalwu@laiye.com"
+    },
+    {
+     "name": "Xing Yin",
+     "title": "Product Marketing Manager",
+     "email": "yinxing@laiye.com"
+    }
+   ]
+  },
+  {
+   "brand": "Liquidnet",
+   "people": [
+    {
+     "name": "Thomas Yasin",
+     "title": "Global Head of Partnerships",
+     "email": "tyasin@liquidnet.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/thomas-yasin-7a22512",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Emily McBride",
+     "title": "Marketing and Communications Manager",
+     "email": "emcbride@liquidnet.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/emilysmcbride",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Niall Conway",
+     "title": "Marketing and Communications, Asia-Pacific",
+     "email": "nconway@liquidnet.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/niall-c-17214819",
+     "location": "Hong Kong, Hong Kong"
+    }
+   ]
+  },
+  {
+   "brand": "Lookout",
+   "people": [
+    {
+     "name": "Lisa Landa",
+     "title": "CMO",
+     "email": "lisa.landa@lookout.com"
+    },
+    {
+     "name": "Adrian Eyre",
+     "title": "Vice President of Marketing",
+     "email": "adrian.eyre@lookout.com"
+    },
+    {
+     "name": "Patricia Zeifang",
+     "title": "Vice President Marketing",
+     "email": "patty.zeifang@lookout.com"
+    },
+    {
+     "name": "Jim Dolce",
+     "title": "CEO",
+     "email": "jim.dolce@lookout.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jim-dolce-318a626",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Mural",
+   "people": [
+    {
+     "name": "Bill Dwoinen",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "wdwoinen@mural.co",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/bill-dwoinen",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Alan Onnen",
+     "title": "VP, Demand Generation",
+     "email": "aonnen@mural.co",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/alan-onnen-b81a793a3",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Jeremy Moskowitz",
+     "title": "Vice President, Segment Marketing",
+     "email": "jmoskowitz@mural.co",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jeremymoskowitz",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Lindsey Thudin",
+     "title": "Global Partnerships and Events Director",
+     "email": "lthudin@mural.co",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lindsey-thudin-6a74097",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Qumulo",
+   "people": [
+    {
+     "name": "Kelly Seelig",
+     "title": "Vice President of Marketing",
+     "email": "kseelig@qumulo.com"
+    },
+    {
+     "name": "Nick Giampa",
+     "title": "Director, Marketing Operations",
+     "email": "ngiampa@qumulo.com"
+    },
+    {
+     "name": "Lori Wronsky",
+     "title": "Director, Channel and Partner Marketing",
+     "email": "lwronsky@qumulo.com"
+    },
+    {
+     "name": "Kim Sparks",
+     "title": "Head of Global Field & Partner Marketing",
+     "email": "ksparks@qumulo.com"
+    }
+   ]
+  },
+  {
+   "brand": "Salt Security",
+   "people": [
+    {
+     "name": "Michael Callahan",
+     "title": "Chief Marketing Officer",
+     "email": "michaelc@salt.security"
+    },
+    {
+     "name": "Danielle Hickey-Duhon",
+     "title": "Director of Growth",
+     "email": "danielled@salt.security"
+    },
+    {
+     "name": "Roey Eliyahu",
+     "title": "Co-Founder & CEO",
+     "email": "roey@salt.security",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/roey-eliyahu-78391b85",
+     "location": "United States"
+    },
+    {
+     "name": "Danielle Rico",
+     "title": "Global Event Director",
+     "email": "danieller@salt.security",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/daniellerico",
+     "location": "Westford, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Sauce Labs",
+   "people": [
+    {
+     "name": "Katie Peters",
+     "title": "Senior Director of Marketing Operations",
+     "email": "katelyn.peters@saucelabs.com"
+    },
+    {
+     "name": "Katherine Chan",
+     "title": "Marketing Automation",
+     "email": "katherine.chan@saucelabs.com"
+    },
+    {
+     "name": "Corey Wilson",
+     "title": "Sr. Marketing Operations Manager",
+     "email": "corey.wilson@saucelabs.com"
+    },
+    {
+     "name": "Carlos Carvajal",
+     "title": "Senior Product Marketing Manager",
+     "email": "carlos.carvajal@saucelabs.com"
+    }
+   ]
+  },
+  {
+   "brand": "ScienceLogic",
+   "people": [
+    {
+     "name": "Jessica Lindberg",
+     "title": "Head of Marketing",
+     "email": "jess.lindberg@sciencelogic.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jessica-lindberg-46b26218",
+     "location": "Baltimore, United States"
+    },
+    {
+     "name": "Ryan Booth",
+     "title": "Director of Growth Marketing",
+     "email": "ryan.booth@sciencelogic.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/ryanboothuk",
+     "location": "Cambridge, United Kingdom"
+    },
+    {
+     "name": "Mattie Weber",
+     "title": "Senior Director, Global Field Marketing",
+     "email": "mattie.weber@sciencelogic.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/mattie-weber-024b1040",
+     "location": "Baltimore, United States"
+    }
+   ]
+  },
+  {
+   "brand": "SingleStore",
+   "people": [
+    {
+     "name": "Randall Gibson",
+     "title": "Head of Growth Marketing",
+     "email": "rgibson@singlestore.com"
+    },
+    {
+     "name": "Sagar Sheral",
+     "title": "Growth & Performance Marketing Leader",
+     "email": "ssheral@singlestore.com"
+    },
+    {
+     "name": "Lance Turner",
+     "title": "Vice President, Marketing & Demand Gen; Operations",
+     "email": "lturner@singlestore.com"
+    },
+    {
+     "name": "Helen Sollart",
+     "title": "Senior Director of Marketing",
+     "email": "helen.sollart@singlestore.com"
+    }
+   ]
+  },
+  {
+   "brand": "Yugabyte",
+   "people": [
+    {
+     "name": "Ajay Khanna",
+     "title": "Chief Marketing Officer",
+     "email": "ajay.khanna@yugabyte.com"
+    },
+    {
+     "name": "Andrew Marshall",
+     "title": "Vice President of Product Marketing",
+     "email": "andrew.marshall@yugabyte.com"
+    },
+    {
+     "name": "Naveen Gupta",
+     "title": "Vice President of Growth - Data and AI",
+     "email": "naveen.gupta@yugabyte.com"
+    },
+    {
+     "name": "Kannan Muthukkaruppan",
+     "title": "Co-Founder & Co-CEO",
+     "email": "kannan@yugabyte.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kannanmuthukkaruppan",
+     "location": "San Francisco, United States"
+    }
+   ]
+  }
+ ]
+}

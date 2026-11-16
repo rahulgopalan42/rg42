@@ -1,0 +1,318 @@
+{
+ "rows": [
+  {
+   "brand": "Tricentis",
+   "people": [
+    {
+     "name": "Kevin Thompson",
+     "title": "Chairman & CEO",
+     "email": "k.thompson@tricentis.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kevin-thompson-swi",
+     "location": "Austin, TX, USA"
+    },
+    {
+     "name": "Todd Horst",
+     "title": "Chief Growth Officer",
+     "email": "t.horst@tricentis.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/todd-horst",
+     "location": "Washington, DC, USA"
+    },
+    {
+     "name": "Lanier Norville",
+     "title": "Senior Director, Global Campaigns and Content Marketing",
+     "email": "l.norville@tricentis.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lanier-norville-73729a6",
+     "location": "Atlanta, GA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Optimizely",
+   "people": [
+    {
+     "name": "Sebastiaan de Jong",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "sebastiaan.dejong@optimizely.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/sebastiaan-de-jong-16ba513",
+     "location": "Utrecht, Netherlands"
+    },
+    {
+     "name": "Tara Corey",
+     "title": "Senior VP Marketing",
+     "email": "t.corey@optimizely.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/taracorey",
+     "location": "United States"
+    },
+    {
+     "name": "Dan Reid",
+     "title": "Director of Global Brand & Creative",
+     "email": "dan.reid@optimizely.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/danreidishere",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Sopiko Heldebro",
+     "title": "Senior Director, Global Marketing",
+     "email": "sopiko.heldebro@optimizely.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/sopiko",
+     "location": "Stockholm, Sweden"
+    }
+   ]
+  },
+  {
+   "brand": "Dayforce",
+   "people": [
+    {
+     "name": "Eric Glass",
+     "title": "EVP, Chief Marketing & Communications Officer",
+     "email": "eric.glass@dayforce.com"
+    },
+    {
+     "name": "Jeff Shadid",
+     "title": "Senior Vice President of Global Communications",
+     "email": "jeff.shadid@dayforce.com"
+    },
+    {
+     "name": "David Ossip",
+     "title": "CEO & Founder",
+     "email": "david.ossip@dayforce.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/dossip",
+     "location": "Toronto, ON, Canada"
+    },
+    {
+     "name": "Bogdan Grigore",
+     "title": "Senior Vice President, Growth Marketing",
+     "email": "bogdan.grigore@dayforce.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/bogdangrigore",
+     "location": "Lake Oswego, OR, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Qualtrics",
+   "people": [
+    {
+     "name": "Mei He",
+     "title": "VP, Demand Generation and Growth Marketing",
+     "email": "meihe@qualtrics.com"
+    },
+    {
+     "name": "Christina Koch",
+     "title": "Head of Global Brand and Integrated Marketing",
+     "email": "christinak@qualtrics.com"
+    },
+    {
+     "name": "Ken Coleman",
+     "title": "Senior Vice President, Marketing",
+     "email": "kcoleman@qualtrics.com"
+    },
+    {
+     "name": "Ali Rohani",
+     "title": "Chief Transformation Officer, Global Leader of Product Marketing & Market Research Business",
+     "email": "alir@qualtrics.com"
+    }
+   ]
+  },
+  {
+   "brand": "OneStream",
+   "people": [
+    {
+     "name": "Tom Shea",
+     "title": "Chief Executive Officer",
+     "email": "tshea@onestreamsoftware.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/tom-shea-8269815",
+     "location": "Rochester, MI, USA"
+    },
+    {
+     "name": "Victoria Borges",
+     "title": "Vice President Corporate Communications",
+     "email": "vborges@onestreamsoftware.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/victorianknight",
+     "location": "Decatur, GA, USA"
+    },
+    {
+     "name": "Diane Kalmanowicz",
+     "title": "VP Growth Marketing",
+     "email": "dkalmanowicz@onestreamsoftware.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/dkalmanowicz",
+     "location": "Atlanta, GA, USA"
+    },
+    {
+     "name": "David Negron",
+     "title": "Senior Director Global Marketing",
+     "email": "dnegron@onestreamsoftware.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/dnegron",
+     "location": "Jersey City, NJ, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Vultr",
+   "people": [
+    {
+     "name": "Grant Greene",
+     "title": "VP of Demand Generation",
+     "email": "ggreene@vultr.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/grant-greene",
+     "location": "New York, NY, USA"
+    },
+    {
+     "name": "AJ Karolczak",
+     "title": "Director, Content & Communications",
+     "email": "akarolczak@vultr.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/aj-karolczak-a9b445109",
+     "location": "Chicago, IL, USA"
+    },
+    {
+     "name": "Piyush Shukla",
+     "title": "Director Product Marketing GPU and AI",
+     "email": "piyush.shukla@vultr.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/pshukla1",
+     "location": "Austin, TX, USA"
+    },
+    {
+     "name": "Karlee Grant",
+     "title": "Director, Global Partnerships",
+     "email": "kgrant@vultr.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/karleegrant",
+     "location": "Denver, CO, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Kpler",
+   "people": [
+    {
+     "name": "Aleksandra Rakowska",
+     "title": "Head of Growth Marketing",
+     "email": "arakowska@kpler.com"
+    },
+    {
+     "name": "Katherine Watson",
+     "title": "Marketing Director/VP",
+     "email": "kwatson@kpler.com"
+    },
+    {
+     "name": "Georgios Hatzimanolis",
+     "title": "Director of Brand, Events & Communications",
+     "email": "ghatzimanolis@kpler.com"
+    },
+    {
+     "name": "Mark Cunningham",
+     "title": "Chief Executive Officer",
+     "email": "mcunningham@kpler.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mark-cunningham-70652719",
+     "location": "United Arab Emirates"
+    }
+   ]
+  },
+  {
+   "brand": "Replit",
+   "people": [
+    {
+     "name": "Ghazi Masood",
+     "title": "Chief Revenue Officer",
+     "email": "ghazi.masood@replit.com"
+    },
+    {
+     "name": "Nick Silver",
+     "title": "Vice President Marketing",
+     "email": "nick.silver@replit.com"
+    },
+    {
+     "name": "Philipp Dietz",
+     "title": "Head of Brand & Creative",
+     "email": "philipp.dietz@replit.com"
+    },
+    {
+     "name": "Amjad Masad",
+     "title": "CEO",
+     "email": "amjad@repl.it",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/amjadmasad",
+     "location": "San Francisco, CA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Wonderful",
+   "people": [
+    {
+     "name": "Bar Winkler",
+     "title": "Co-Founder & CEO, Wonderful",
+     "email": "bar.w@wonderful.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/bar-winkler",
+     "location": "London, UK"
+    },
+    {
+     "name": "Roi Tavor",
+     "title": "Chief Revenue Officer",
+     "email": "roi.t@wonderful.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/roi-tavor-45470b90",
+     "location": "Z\u00fcrich, Switzerland"
+    },
+    {
+     "name": "Dor Beglaubter",
+     "title": "Head of Product Marketing",
+     "email": "dor.b@wonderful.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/dor-beglaubter-a86825a1",
+     "location": "Israel"
+    },
+    {
+     "name": "Jordy Loozekoot",
+     "title": "Head of EMEA Marketing",
+     "email": "jordy.l@wonderful.ai",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jordyloozekoot",
+     "location": "Amsterdam, Netherlands"
+    }
+   ]
+  },
+  {
+   "brand": "MKS Inc.",
+   "people": [
+    {
+     "name": "Anita Knezevic",
+     "title": "Director Marketing Communications",
+     "email": "anita.knezevic@mks.com"
+    },
+    {
+     "name": "Bill Casey",
+     "title": "Vice President Marketing",
+     "email": "bill_casey@mksinst.com"
+    },
+    {
+     "name": "Cliff Zhang",
+     "title": "Vice President of Strategic Marketing",
+     "email": "cliff.zhang@mksinst.com"
+    },
+    {
+     "name": "Denice Frohman",
+     "title": "Marketing Director",
+     "email": "denice.frohman@mks.com"
+    }
+   ]
+  }
+ ]
+}

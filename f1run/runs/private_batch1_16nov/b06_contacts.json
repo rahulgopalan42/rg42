@@ -1,0 +1,302 @@
+{
+ "rows": [
+  {
+   "brand": "SailPoint",
+   "people": [
+    {
+     "name": "Mark McClain",
+     "title": "CEO & Founder",
+     "email": "mark.mcclain@sailpoint.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/markmcclainceo",
+     "location": "Austin, TX, USA"
+    },
+    {
+     "name": "Gary Nafus",
+     "title": "Chief Commercial Officer",
+     "email": "gary.nafus@sailpoint.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/garynafus",
+     "location": "United States"
+    },
+    {
+     "name": "Nicole Hockin",
+     "title": "SVP, Corporate Marketing",
+     "email": "nicole.hockin@sailpoint.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/nicolehockin",
+     "location": "Denver, CO, USA"
+    },
+    {
+     "name": "Itamar Sabo",
+     "title": "Vice President, Global Demand Generation and Integrated Field Marketing",
+     "email": "itamar.sabo@sailpoint.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/itamarsabo",
+     "location": "San Francisco, CA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Figma",
+   "people": [
+    {
+     "name": "Reema Batta",
+     "title": "SVP Marketing",
+     "email": "rbatta@figma.com"
+    },
+    {
+     "name": "Nairi Hourdajian",
+     "title": "VP, Communications, Content and Community",
+     "email": "nairi@figma.com"
+    },
+    {
+     "name": "Azra Daniels",
+     "title": "Sr. Director, Experiential Marketing",
+     "email": "adaniels@figma.com"
+    },
+    {
+     "name": "Dylan Field",
+     "title": "CEO & Co-founder of Figma",
+     "email": "dylan@figma.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/dylanfield",
+     "location": "Penngrove, CA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Viasat",
+   "people": [
+    {
+     "name": "Michelle Munoz-Talcott",
+     "title": "Vice President, Marketing Viasat Commercial Services",
+     "email": "michelle.munoz-talcott@viasat.com"
+    },
+    {
+     "name": "Isabella Lenhoff",
+     "title": "Director of Commercial Aviation Marketing",
+     "email": "isabella.lenhoff@viasat.com"
+    },
+    {
+     "name": "Michel Rocha",
+     "title": "Director of Marketing, Strategy & Product Management",
+     "email": "michel.rocha@viasat.com"
+    },
+    {
+     "name": "Robeel Haq",
+     "title": "Director of Marketing & Communications, Business Aviation",
+     "email": "robeel.haq@viasat.com"
+    }
+   ]
+  },
+  {
+   "brand": "Cybereason",
+   "people": [
+    {
+     "name": "Yaser Alrawaqa",
+     "title": "Vice President & General Manager",
+     "email": "yaser.alrawaqa@cybereason.com"
+    },
+    {
+     "name": "Yuichi Kikukawa",
+     "title": "Marketing Director",
+     "email": "yuichi.kikukawa@cybereason.com"
+    },
+    {
+     "name": "Manish Narula",
+     "title": "Chief Executive Officer",
+     "email": "manish.narula@cybereason.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/manishnarula",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Daniel Ghillione",
+     "title": "Assistant Vice President (AVP), Brand, Demand Generation and Shared Services",
+     "email": "daniel.ghillione@levelblue.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/daniel-ghillione",
+     "location": "Dallas, TX, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Quantinuum",
+   "people": [
+    {
+     "name": "Lawrence Schwartz",
+     "title": "Chief Marketing Officer",
+     "email": "lawrence.schwartz@quantinuum.com"
+    },
+    {
+     "name": "Peter Sigrist",
+     "title": "Communications Director",
+     "email": "peter.sigrist@quantinuum.com"
+    },
+    {
+     "name": "David Pappalardo",
+     "title": "Director, Website & Marketing Operations",
+     "email": "david.pappalardo@quantinuum.com"
+    },
+    {
+     "name": "Rajeeb Hazra",
+     "title": "President & Chief Executive Officer",
+     "email": "rajeeb.hazra@quantinuum.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rhazra",
+     "location": "Denver, CO, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Verisk",
+   "people": [
+    {
+     "name": "Lee Shavel",
+     "title": "President and Chief Executive Officer",
+     "email": "lee.shavel@verisk.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/lee-shavel-88630826",
+     "location": "Jersey City, NJ, USA"
+    },
+    {
+     "name": "Jessica Stanley",
+     "title": "Vice President, Brand, Creative and Extreme Events Integrated Marketing",
+     "email": "jessica.stanley@verisk.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jessicastanley1",
+     "location": "United States"
+    },
+    {
+     "name": "Sharon Schwartzman",
+     "title": "Vice President - Global Corporate Communications and Media Relations",
+     "email": "sschwartzman@verisk.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/sharonschwartzman",
+     "location": "Brooklyn, NY, USA"
+    },
+    {
+     "name": "Kristin Finley",
+     "title": "AVP, Experiential Marketing",
+     "email": "kfinley@verisk.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/kristin-finley-cmp-4764b216",
+     "location": "Jersey City, NJ, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Dataminr",
+   "people": [
+    {
+     "name": "Deb Wolf",
+     "title": "Chief Marketing Officer",
+     "email": "deb.wolf@dataminr.com"
+    },
+    {
+     "name": "Phoebe Fasulo",
+     "title": "Vice President Marketing Operations",
+     "email": "phoebe.fasulo@dataminr.com"
+    },
+    {
+     "name": "Marc Itzkowitz",
+     "title": "VP, Product Marketing",
+     "email": "marc.itzkowitz@dataminr.com"
+    },
+    {
+     "name": "Meghan McCray",
+     "title": "Vice President, Events, Field & Partner Marketing",
+     "email": "meghan.mccray@dataminr.com"
+    }
+   ]
+  },
+  {
+   "brand": "Fivetran",
+   "people": [
+    {
+     "name": "Natalie Carboni",
+     "title": "Marketing Strategy & Operations Lead",
+     "email": "natalie.carboni@fivetran.com"
+    },
+    {
+     "name": "Natasha Lockwood",
+     "title": "Lead of Marketing, Product-Led Growth",
+     "email": "natasha.lockwood@fivetran.com"
+    },
+    {
+     "name": "Timothy Tran",
+     "title": "Marketing Strategy, Planning and Insights Leader",
+     "email": "timothy.tran@fivetran.com"
+    },
+    {
+     "name": "Olivia Peacock",
+     "title": "Lead Integrated Marketing Manager",
+     "email": "olivia@fivetran.com"
+    }
+   ]
+  },
+  {
+   "brand": "Dataiku",
+   "people": [
+    {
+     "name": "Mark Abramowitz",
+     "title": "Chief Marketing Officer",
+     "email": "mark.abramowitz@dataiku.com"
+    },
+    {
+     "name": "Kevin McLaughlin",
+     "title": "Vice President, Brand and Corporate Marketing",
+     "email": "kevin.mclaughlin@dataiku.com"
+    },
+    {
+     "name": "Peter Gaylord",
+     "title": "VP, Product Marketing",
+     "email": "peter.gaylord@dataiku.com"
+    },
+    {
+     "name": "Jade Tan",
+     "title": "AI Marketing Leader",
+     "email": "jade.tan@dataiku.com"
+    }
+   ]
+  },
+  {
+   "brand": "Aptean",
+   "people": [
+    {
+     "name": "Tvn Reddy",
+     "title": "Chief Executive Officer",
+     "email": "tvn.reddy@aptean.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/tvnreddy",
+     "location": "Atlanta, GA, USA"
+    },
+    {
+     "name": "Yama Habibzai",
+     "title": "Chief Marketing Officer at Aptean",
+     "email": "yama.habibzai@aptean.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/habibzai",
+     "location": "Fort Lauderdale, FL, USA"
+    },
+    {
+     "name": "Tara Blakeman",
+     "title": "Vice President Growth Marketing",
+     "email": "tara.blakeman@aptean.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/tarablakeman",
+     "location": "Seattle, WA, USA"
+    },
+    {
+     "name": "Emmet Porter",
+     "title": "Global Vice President - Digital Marketing",
+     "email": "emmet.porter@aptean.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/emmetporter",
+     "location": "Wicklow, Co. Wicklow, Ireland"
+    }
+   ]
+  }
+ ]
+}

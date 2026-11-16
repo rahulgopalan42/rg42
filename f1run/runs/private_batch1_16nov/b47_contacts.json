@@ -1,0 +1,336 @@
+{
+ "rows": [
+  {
+   "brand": "TierPoint",
+   "people": [
+    {
+     "name": "Andrew Baird",
+     "title": "SVP and Chief Marketing Officer",
+     "email": "andrew.baird@tierpoint.com"
+    },
+    {
+     "name": "Jerry Kent",
+     "title": "Chairman & CEO",
+     "email": "jerry.kent@tierpoint.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jerry-kent-76620b190",
+     "location": "Chesterfield, United States"
+    },
+    {
+     "name": "Sarah Fowler",
+     "title": "Vice President - Marketing",
+     "email": "sarah.fowler@tierpoint.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sarahhfowler",
+     "location": "Little Rock, United States"
+    },
+    {
+     "name": "Michael Wild",
+     "title": "Director, Creative & Brand",
+     "email": "michael.wild@tierpoint.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/michael-wild-b5639050",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Altius Telecom Infrastructure Trust",
+   "people": [
+    {
+     "name": "Munish Seth",
+     "title": "Group Managing Director",
+     "email": "munish.seth@altiusinfra.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/munish-seth-9669261",
+     "location": "New Delhi, India"
+    },
+    {
+     "name": "Shreyosi Sen",
+     "title": "Senior Director Marketing & Communications",
+     "email": "shreyosi.sen@altiusinfra.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/shreyosi-sen-8a10819",
+     "location": "New Delhi, India"
+    },
+    {
+     "name": "Biswajit Patnaik",
+     "title": "Chief Commercial & Sales Officer",
+     "email": "biswajit.patnaik@altiusinfra.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/biswajitpatnaik1",
+     "location": "Gurgaon, India"
+    }
+   ]
+  },
+  {
+   "brand": "Lumen Technologies",
+   "people": [
+    {
+     "name": "Ryan Asdourian",
+     "title": "EVP & Chief Marketing & Strategy Officer",
+     "email": "ryan.asdourian@lumen.com"
+    },
+    {
+     "name": "Erica Schroeder",
+     "title": "Vice President Product Marketing",
+     "email": "erica.schroeder@lumen.com"
+    },
+    {
+     "name": "Craig Salveta",
+     "title": "Marketing Director: Consumer Acquisition, Brand, and Customer Lifecycle Management",
+     "email": "craig.salveta@lumen.com"
+    },
+    {
+     "name": "Lauren Rybacki",
+     "title": "Director of Brand Strategy",
+     "email": "lauren.rybacki@lumen.com"
+    }
+   ]
+  },
+  {
+   "brand": "Oxide Computer Company",
+   "people": [
+    {
+     "name": "Steve Tuck",
+     "title": "Co-Founder and CEO",
+     "email": "steve@oxidecomputer.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/steve-tuck-02b4313",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "SK Horizon",
+   "people": [
+    {
+     "name": "Hui Yea",
+     "title": "Senior Vice President, Head of Brand Division (SK Telecom and SK Broadband)",
+     "email": "huiyea@sk.com"
+    },
+    {
+     "name": "Young Joo",
+     "title": "CMO, SK Telecom",
+     "email": "young.j@sk.com"
+    }
+   ]
+  },
+  {
+   "brand": "Aura",
+   "people": [
+    {
+     "name": "Steven Young",
+     "title": "Global Chief Marketing Officer",
+     "email": "steven.young@aura.com"
+    },
+    {
+     "name": "Jen Eaves",
+     "title": "VP of Marketing, B2B",
+     "email": "jennifer.eaves@aura.com"
+    },
+    {
+     "name": "Alfred Najem",
+     "title": "VP, Growth Marketing",
+     "email": "alfred.najem@aura.com"
+    },
+    {
+     "name": "Hari Ravichandran",
+     "title": "Founder and CEO",
+     "email": "hari@aura.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/hari-ravichandran",
+     "location": "Burlington, United States"
+    }
+   ]
+  },
+  {
+   "brand": "CAIS",
+   "people": [
+    {
+     "name": "Alex Cavalieri",
+     "title": "Managing Director, Chief Marketing Officer",
+     "email": "acavalieri@caisgroup.com"
+    },
+    {
+     "name": "Jenny Kaskel",
+     "title": "Vice President Marketing",
+     "email": "jkaskel@caisgroup.com"
+    },
+    {
+     "name": "Clemence Newman",
+     "title": "Vice President, Digital Marketing",
+     "email": "cnewman@caisgroup.com"
+    },
+    {
+     "name": "Haley Ruotolo",
+     "title": "Vice President, Events, Marketing",
+     "email": "hruotolo@caisgroup.com"
+    }
+   ]
+  },
+  {
+   "brand": "Nxera",
+   "people": [
+    {
+     "name": "Bill Chang",
+     "title": "Chief Executive Officer",
+     "email": "billchang@singtel.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/bill-chang-5783b913",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Robin Seow",
+     "title": "CMO Digital InfraCo, Head, Sales & Partnerships (RE:AI)",
+     "email": "robinseow@singtel.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/robin-seow",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Derrick Heng",
+     "title": "Chief Commercial Officer IDS",
+     "email": "derricktm@singtel.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/hengderrick",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Sophia Lee",
+     "title": "Assoc Marketing Director, Field & Pdt/Svc Mktg, Singtel Digital InfraCo",
+     "email": "sophialee@nxera-dc.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/sophialee76",
+     "location": "Singapore, Singapore"
+    }
+   ]
+  },
+  {
+   "brand": "Kitopi",
+   "people": [
+    {
+     "name": "Mohamad Ballout",
+     "title": "CEO & Co-Founder",
+     "email": "mo@kitopi.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mohamad-ballout-6b88b584",
+     "location": "United Arab Emirates"
+    },
+    {
+     "name": "Badih Hachem",
+     "title": "Chief Consumer Officer",
+     "email": "badih@kitopi.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/badih-hachem-7107b9a1",
+     "location": "United Arab Emirates"
+    },
+    {
+     "name": "Imad Fay",
+     "title": "VP, Growth",
+     "email": "imad@kitopi.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/imadelfay",
+     "location": "United Arab Emirates"
+    },
+    {
+     "name": "Katie Connor",
+     "title": "Head of Marketing",
+     "email": "katie.connor@kitopi.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/katie-connor-186a3449",
+     "location": "Dubai, United Arab Emirates"
+    }
+   ]
+  },
+  {
+   "brand": "Advance Intelligence Group",
+   "people": [
+    {
+     "name": "Jefferson Chen",
+     "title": "Co-founder, Group Chairman and CEO",
+     "email": "jefferson@advancegroup.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jeffersonchen",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Mi Li",
+     "title": "Chief of Staff & CMO",
+     "email": "mi.li@advancegroup.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/mili007",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Magic Tang",
+     "title": "SVP, Growth",
+     "email": "huixiu.tang@advancegroup.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/magic-tang-30b91583",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Jeffrey Oon",
+     "title": "Director, Brand and Communications",
+     "email": "jeffrey.oon@advancegroup.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jeffrey-oon-3412566",
+     "location": "Singapore, Singapore"
+    }
+   ]
+  },
+  {
+   "brand": "Armadin",
+   "people": [
+    {
+     "name": "Eric Gaither",
+     "title": "SVP, Marketing",
+     "email": "eric.gaither@armadin.com"
+    },
+    {
+     "name": "Helena Davis",
+     "title": "Head of Digital Marketing",
+     "email": "helena.davis@armadin.com"
+    },
+    {
+     "name": "Angela Wo",
+     "title": "Head of Marketing and Experiences",
+     "email": "angela.wo@armadin.com"
+    },
+    {
+     "name": "Brian Gumbel",
+     "title": "Chief Revenue Officer",
+     "email": "gumbel@armadin.com"
+    }
+   ]
+  },
+  {
+   "brand": "V.tal",
+   "people": [
+    {
+     "name": "Felipe Campos",
+     "title": "CEO",
+     "email": "felipe.campos@vtal.com"
+    }
+   ]
+  },
+  {
+   "brand": "Wrtn Technologies",
+   "people": [
+    {
+     "name": "Seyoung Lee",
+     "title": "Founder & CEO",
+     "email": "noah@wrtn.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/seyoung-lee-noah",
+     "location": "Seoul, South Korea"
+    }
+   ]
+  },
+  {
+   "brand": "Luminary Cloud",
+   "people": []
+  }
+ ]
+}

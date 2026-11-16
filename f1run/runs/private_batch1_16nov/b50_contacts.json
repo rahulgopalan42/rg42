@@ -1,0 +1,334 @@
+{
+ "rows": [
+  {
+   "brand": "Clari",
+   "people": [
+    {
+     "name": "Prasetya Andika",
+     "title": "Director of Sales Marketing",
+     "email": "prasetya@salesloft.com"
+    },
+    {
+     "name": "Nathan Moffitt",
+     "title": "Vice President Product & Solutions Marketing",
+     "email": "nathan.moffitt@salesloft.com"
+    },
+    {
+     "name": "Ben Weikert",
+     "title": "Senior Director, GTM Strategy, Innovation and Product Marketing",
+     "email": "ben.weikert@salesloft.com"
+    },
+    {
+     "name": "Justin Albano",
+     "title": "Director of Revenue Marketing",
+     "email": "justin.albano@salesloft.com"
+    }
+   ]
+  },
+  {
+   "brand": "Hex Technologies",
+   "people": [
+    {
+     "name": "Peter Ryan",
+     "title": "Growth Marketing Lead",
+     "email": "peter.ryan@hex.tech"
+    },
+    {
+     "name": "Alex Celetti",
+     "title": "Lifecycle Marketing Lead",
+     "email": "aceletti@hex.tech"
+    },
+    {
+     "name": "Chelsea D'Angelo",
+     "title": "Head of Enterprise Marketing",
+     "email": "cdangelo@hex.tech"
+    },
+    {
+     "name": "Trevor Martel",
+     "title": "Global Field and Events Marketing Lead",
+     "email": "tmartel@hex.tech"
+    }
+   ]
+  },
+  {
+   "brand": "Augustus",
+   "people": [
+    {
+     "name": "Ferdinand Dabitz",
+     "title": "Co-Founder & CEO Augustus",
+     "email": "fdabitz@augustus.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ferdinand-dabitz",
+     "location": "Germany"
+    },
+    {
+     "name": "Jacob Steinhardt",
+     "title": "Head of Growth",
+     "email": "jacob@augustus.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jacob-steinhardt",
+     "location": "Berlin, Germany"
+    },
+    {
+     "name": "Peter Lieck",
+     "title": "Co-founder & CRO",
+     "email": "peter@augustus.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/peter-mosebjane-lieck",
+     "location": "Berlin, Germany"
+    },
+    {
+     "name": "Greg Quarles",
+     "title": "Chairman and President",
+     "email": "greg@augustus.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/gregquarles",
+     "location": "Dallas, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Tonal",
+   "people": [
+    {
+     "name": "Todd Bartee",
+     "title": "Chief Executive Officer",
+     "email": "todd@tonal.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/todd-bartee-02ab8a13",
+     "location": "Austin, United States"
+    },
+    {
+     "name": "Stephen Favrot",
+     "title": "VP Performance Marketing",
+     "email": "stephen.favrot@tonal.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/stephenfavrot",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Derek Mellencamp",
+     "title": "Chief Revenue Officer at Tonal | Omnichannel Growth Across DTC, Retail, B2B & Strategic Partnerships",
+     "email": "derek@tonal.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/derekmellencamp",
+     "location": "Austin, United States"
+    }
+   ]
+  },
+  {
+   "brand": "K1x",
+   "people": [
+    {
+     "name": "John Lamancuso",
+     "title": "Chief Executive Officer",
+     "email": "john.lamancuso@k1x.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/john-lamancuso-b6549018",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Heather Teicher",
+     "title": "SVP of Marketing",
+     "email": "heather.teicher@k1x.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/hcteicher",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Chris Lewandowski",
+     "title": "Senior Director, Demand Generation",
+     "email": "chris.lewandowski@k1x.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/chris-lewandowski-137b6942",
+     "location": "Bayport, United States"
+    },
+    {
+     "name": "Danielle Tewes",
+     "title": "EVP of Market Strategy & Growth",
+     "email": "danielle.tewes@k1x.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/danielletewescpa",
+     "location": "Spirit Lake, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Spur Intelligence",
+   "people": [
+    {
+     "name": "Ethan Smith",
+     "title": "Co-Founder",
+     "email": "ethan@spur.us",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ethan-s-7635ba19a",
+     "location": "Baltimore, United States"
+    },
+    {
+     "name": "Mike Yaffe",
+     "title": "Chief Marketing Officer",
+     "email": "mikey@spur.us",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/mike-yaffe-34891a",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Chris Burd",
+     "title": "VP of Digital Marketing",
+     "email": "chris.burd@spur.us",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/cburd",
+     "location": "Portland, United States"
+    },
+    {
+     "name": "Scott Lang",
+     "title": "Vice President Product Marketing",
+     "email": "scott@spur.us",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/scottthomaslang",
+     "location": "Columbus, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Coincheck Group",
+   "people": [
+    {
+     "name": "Pascal St-Jean",
+     "title": "Executive Director & Chief Executive Officer",
+     "email": "pstjean@coincheckgroup.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/pstjean",
+     "location": "Ottawa, Canada"
+    },
+    {
+     "name": "Naoki Takao",
+     "title": "Head of Marketing",
+     "email": "naoki.takao@coincheck.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/naoki-takao-36089b202",
+     "location": "Tokyo, Japan"
+    },
+    {
+     "name": "Tomoyuki Isaka",
+     "title": "President & CEO, Representative Director",
+     "email": "tomoyuki.isaka@coincheck.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/tomoyuki-isaka",
+     "location": "Tokyo, Japan"
+    },
+    {
+     "name": "Shogo Okada",
+     "title": "Head of Marketing",
+     "email": "shogo@coincheck.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/shogo-okada",
+     "location": "Tokyo, Japan"
+    }
+   ]
+  },
+  {
+   "brand": "Walden Robotics",
+   "people": [
+    {
+     "name": "Russ Tedrake",
+     "title": "Co-Founder and CEO",
+     "email": "russ@waldenrobotics.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/russ-tedrake-88648a4a",
+     "location": "Cambridge, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Path Robotics",
+   "people": [
+    {
+     "name": "Ethan Rejto",
+     "title": "Head of Marketing",
+     "email": "erejto@path-robotics.com"
+    },
+    {
+     "name": "Bridget Bartos",
+     "title": "Marketing Events Lead",
+     "email": "bbartos@path-robotics.com"
+    },
+    {
+     "name": "Heather Carroll",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "hcarroll@path-robotics.com"
+    },
+    {
+     "name": "Andrew Lonsberry",
+     "title": "CEO",
+     "email": "andrew@path-robotics.com"
+    }
+   ]
+  },
+  {
+   "brand": "Matic Robots",
+   "people": [
+    {
+     "name": "Navneet Dalal",
+     "title": "Cofounder & CEO",
+     "email": "navneet@maticrobots.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ndalal",
+     "location": "Mountain View, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Quantum Computing Inc.",
+   "people": [
+    {
+     "name": "Yuping Huang",
+     "title": "Chief Executive Officer & Chairman",
+     "email": "yhuang@quantumcomputinginc.com"
+    },
+    {
+     "name": "Karen Jeffers",
+     "title": "Director, Marketing and Communications",
+     "email": "kjeffers@quantumcomputinginc.com"
+    },
+    {
+     "name": "Susan Hunt",
+     "title": "Chief Revenue Officer",
+     "email": "shunt@quantumcomputinginc.com"
+    }
+   ]
+  },
+  {
+   "brand": "WorkOS",
+   "people": [
+    {
+     "name": "Noelle Festa",
+     "title": "Growth Marketing",
+     "email": "noelle.festa@workos.com"
+    },
+    {
+     "name": "Shannon Elliott",
+     "title": "Field Marketing Manager",
+     "email": "shannon@workos.com"
+    },
+    {
+     "name": "Conner Simmons",
+     "title": "Technical Product Marketing",
+     "email": "conner@workos.com"
+    },
+    {
+     "name": "Kristopher Hughes",
+     "title": "Creative Director",
+     "email": "kristopher.hughes@workos.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/knhughes",
+     "location": "Meridian, United States"
+    }
+   ]
+  },
+  {
+   "brand": "DOOR (Latch, Inc.)",
+   "people": []
+  }
+ ]
+}

@@ -1,0 +1,365 @@
+{
+ "rows": [
+  {
+   "brand": "Natura Cosm\u00e9ticos",
+   "people": [
+    {
+     "name": "Joao Ferreira",
+     "title": "CEO",
+     "email": "joao.ferreira@natura.net",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jo%c3%a3o-p-ferreira",
+     "location": "Sao Paulo, Brazil"
+    },
+    {
+     "name": "Carolina Pfulg",
+     "title": "Head of Global Marketing / Gifting",
+     "email": "carolinapfulg@natura.net",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/carolina-pfulg-935901116",
+     "location": "Sao Paulo, Brazil"
+    },
+    {
+     "name": "Gabriela Bonetto",
+     "title": "Global Head of Partnerships & Communities",
+     "email": "gabrielabonetto@natura.net",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/gabriela-sens-bonetto-a5b05859",
+     "location": "Sao Paulo, Brazil"
+    },
+    {
+     "name": "Diego Costa",
+     "title": "Senior Global Marketing Director",
+     "email": "diegocosta1@natura.net",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/diego-costa-2623a531",
+     "location": "Sao Paulo, Brazil"
+    }
+   ]
+  },
+  {
+   "brand": "dsm-firmenich",
+   "people": [
+    {
+     "name": "Lauren Rooney",
+     "title": "Vice President Marketing",
+     "email": "lauren.rooney@firmenich.com"
+    },
+    {
+     "name": "Tess Sansbury",
+     "title": "Vice President Marketing",
+     "email": "tess.sansbury@dsm-firmenich.com"
+    },
+    {
+     "name": "Kunal Mehta",
+     "title": "Global Head - Marketing, Communication and Brand",
+     "email": "kunal.mehta@dsm.com"
+    },
+    {
+     "name": "Fabien Tisserand",
+     "title": "Global Marketing and Communications Director Ingredients",
+     "email": "fabien.tisserand@dsm-firmenich.com"
+    }
+   ]
+  },
+  {
+   "brand": "Glossier",
+   "people": [
+    {
+     "name": "Colin Walsh",
+     "title": "Chief Executive Officer",
+     "email": "colin@glossier.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/colin-walsh-b871546",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Nicole Solorzano",
+     "title": "Chief Marketing Officer",
+     "email": "nicole.solorzano@glossier.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/nicolegervais456",
+     "location": "Los Angeles, United States"
+    },
+    {
+     "name": "Cayla Folz",
+     "title": "Chief Commercial Officer",
+     "email": "cayla.bergman@glossier.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/cayla-bergman-folz623",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Kewanna Donaldson",
+     "title": "Director of Brand Marketing",
+     "email": "kewanna.donaldson@glossier.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/kewannadonaldson",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Revlon",
+   "people": [
+    {
+     "name": "Michelle Peluso",
+     "title": "Chief Executive Officer",
+     "email": "michelle.peluso@revlon.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/michellepeluso",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Kelly Solomon",
+     "title": "Chief Digital Marketing Officer",
+     "email": "kelly.solomon@revlon.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kelly-solomon-3803a279",
+     "location": "Millburn, United States"
+    },
+    {
+     "name": "Erika Woods",
+     "title": "SVP Marketing, Global Category and US Lead: Color Cosmetics, Beauty Tools and Nails",
+     "email": "erika.woods@revlon.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/erikakedem",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Julia Victor",
+     "title": "Director of Brand and Talent Partnerships",
+     "email": "julia.victor@revlon.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/julia-victor-47b31119",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "AptarGroup",
+   "people": [
+    {
+     "name": "Xavier Joseph",
+     "title": "Global Vice President Marketing, Innovation & Business Development, Aptar Beauty",
+     "email": "xavier.joseph@aptar.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/xavier-joseph",
+     "location": "France"
+    },
+    {
+     "name": "Pierre Carlotti",
+     "title": "VP Strategic Marketing Aptar Pharma",
+     "email": "pierre.carlotti@aptar.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/pierre-carlotti-bba63315",
+     "location": "Paris, France"
+    },
+    {
+     "name": "Katie Reardon",
+     "title": "Head of Global Corporate Communications",
+     "email": "katie.reardon@aptar.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/katie-reardon-5110332a",
+     "location": "Chicago, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Debenhams Group",
+   "people": [
+    {
+     "name": "Daniel Finley",
+     "title": "Group Chief Executive Officer",
+     "email": "dan.finley@debenhamsgroup.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/daniel-finley-18231019",
+     "location": "Manchester, United Kingdom"
+    },
+    {
+     "name": "Sarah Gilchrist",
+     "title": "Chief Customer Officer",
+     "email": "sarah.gilchrist@debenhams.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sarah-gilchrist-a4120a25",
+     "location": "Whitefield, United Kingdom"
+    },
+    {
+     "name": "Katy Gibbs",
+     "title": "Head of Partnerships & Social",
+     "email": "katy.gibbs@debenhams.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/katyagibbs",
+     "location": "Manchester, United Kingdom"
+    },
+    {
+     "name": "Natalie Allison",
+     "title": "Brand Director",
+     "email": "natalie.allison@debenhams.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/natalie-allison-634b94299",
+     "location": "Manchester, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Growve",
+   "people": [
+    {
+     "name": "Dave Bunch",
+     "title": "CEO",
+     "email": "dbunch@growve.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/dave-bunch-4909529",
+     "location": "Kaysville, United States"
+    },
+    {
+     "name": "Kevin Tautkus",
+     "title": "Vice President of Marketing & Innovation (Supplement Group)",
+     "email": "ktautkus@growve.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kevin-tautkus-250a4850",
+     "location": "Draper, United States"
+    },
+    {
+     "name": "Nate Mahalli",
+     "title": "VP, Advertising/Optimization",
+     "email": "nmahalli@growve.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/nate-mahalli",
+     "location": "Farmingdale, United States"
+    },
+    {
+     "name": "Brian Baer",
+     "title": "Founder",
+     "email": "bbaer@growve.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/brian-baer-1321239",
+     "location": "Pompano Beach, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Pacific World Corporation",
+   "people": [
+    {
+     "name": "Jason Newby",
+     "title": "Chief Executive Officer",
+     "email": "jnewby@pwcosmetics.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jason-newby-b6b782248",
+     "location": "Bentonville, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Venus Concept",
+   "people": [
+    {
+     "name": "Rajiv Desilva",
+     "title": "Chief Executive Officer",
+     "email": "rdesilva@venusconcept.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rajiv-desilva-6597346",
+     "location": "Chester, United States"
+    },
+    {
+     "name": "Ines Sanchez",
+     "title": "International Marketing Director",
+     "email": "isanchez@venus.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/ines-fernandez-sanchez-13a92061",
+     "location": "Mosman, Australia"
+    },
+    {
+     "name": "Ross Portaro",
+     "title": "Executive Vice-President Commercial Strategy",
+     "email": "rportaro@venus.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/ross-j-portaro",
+     "location": "Charlotte, United States"
+    }
+   ]
+  },
+  {
+   "brand": "HiBob",
+   "people": [
+    {
+     "name": "Ronni Zehavi",
+     "title": "Co-Founder and CEO",
+     "email": "rz@hibob.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ronnizehavi",
+     "location": "Tel Aviv District, Israel"
+    },
+    {
+     "name": "Sophie Chesters",
+     "title": "Chief Marketing Officer",
+     "email": "sophie.chesters@hibob.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sophiechesters",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Paul Zeiter",
+     "title": "Chief Revenue Officer",
+     "email": "paul.zeiter@hibob.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/paulzeiter",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Yael Klass",
+     "title": "Vice President of Brand",
+     "email": "yael.klass@hibob.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/yael-miriam-klass",
+     "location": "Tel Aviv District, Israel"
+    }
+   ]
+  },
+  {
+   "brand": "First Advantage",
+   "people": [
+    {
+     "name": "Michelle Schweitz",
+     "title": "Director of Marketing, Growth and Digital",
+     "email": "michelle.schweitz@fadv.com"
+    },
+    {
+     "name": "Zack Martin",
+     "title": "Marketing Leader",
+     "email": "zack.martin@fadv.com"
+    },
+    {
+     "name": "Shari Hubbert",
+     "title": "Director of Marketing - Community and Shared Services",
+     "email": "shari.hubbert@fadv.com"
+    },
+    {
+     "name": "Ashleigh Kades",
+     "title": "Director, Brand, Content and Digital",
+     "email": "ashleigh.kades@fadv.com"
+    }
+   ]
+  },
+  {
+   "brand": "Avalon Labs",
+   "people": [
+    {
+     "name": "Venus Li",
+     "title": "Co-Founder",
+     "email": "venus@avalonfinance.xyz"
+    }
+   ]
+  },
+  {
+   "brand": "ModelBest",
+   "people": []
+  },
+  {
+   "brand": "Axiom Solutions International",
+   "people": []
+  }
+ ]
+}

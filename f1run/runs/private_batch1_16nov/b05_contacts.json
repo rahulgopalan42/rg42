@@ -1,0 +1,299 @@
+{
+ "rows": [
+  {
+   "brand": "Talkdesk",
+   "people": [
+    {
+     "name": "Cara Boniecki",
+     "title": "Sr. Executive Business Partner to the Chief Marketing Officer, Chief Technology Officer, & SVP, CX",
+     "email": "cara.boniecki@talkdesk.com"
+    },
+    {
+     "name": "Heather Berggren",
+     "title": "Vice President of Growth Marketing",
+     "email": "heather.berggren@talkdesk.com"
+    },
+    {
+     "name": "Taylor Johnson",
+     "title": "Director of Product Marketing",
+     "email": "taylor.johnson@talkdesk.com"
+    },
+    {
+     "name": "Michael Klein",
+     "title": "Director, Product Marketing - Retail, Travel & Hospitality",
+     "email": "michael.klein@talkdesk.com"
+    }
+   ]
+  },
+  {
+   "brand": "SandboxAQ",
+   "people": [
+    {
+     "name": "Naysa Mishler",
+     "title": "VP of Marketing",
+     "email": "naysa.mishler@sandboxquantum.com"
+    },
+    {
+     "name": "Jennifer Stewart",
+     "title": "Head of Product Marketing and Demand Generation",
+     "email": "jennifer.stewart@sandboxaq.com"
+    },
+    {
+     "name": "Reverie Hara",
+     "title": "Head of Demand Generation & Marketing Ops, Cybersecurity",
+     "email": "reverie@sandboxaq.com"
+    },
+    {
+     "name": "Hajo Schiewe",
+     "title": "Vice President of BioSim Partnerships",
+     "email": "hajo.schiewe@sandboxaq.com"
+    }
+   ]
+  },
+  {
+   "brand": "Glean",
+   "people": [
+    {
+     "name": "Nicole Demos",
+     "title": "Marketing Leader",
+     "email": "nicole.demos@glean.com"
+    },
+    {
+     "name": "Chris Duke",
+     "title": "Head of Brand Experiences",
+     "email": "chris.duke@glean.com"
+    },
+    {
+     "name": "Kelly Xu",
+     "title": "Head of Solutions & Growth PMM",
+     "email": "kelly.xu@glean.com"
+    },
+    {
+     "name": "Zubin Irani",
+     "title": "Vice President of Partnerships",
+     "email": "zubin.irani@glean.com"
+    }
+   ]
+  },
+  {
+   "brand": "Legora",
+   "people": [
+    {
+     "name": "Kyle Rocco",
+     "title": "Vice President Product Marketing",
+     "email": "kyle.rocco@legora.com"
+    },
+    {
+     "name": "Varun Atrey",
+     "title": "Product Marketing Director",
+     "email": "varun@legora.com"
+    },
+    {
+     "name": "Stuart Shingler",
+     "title": "SVP Marketing",
+     "email": "stuart@legora.com"
+    },
+    {
+     "name": "Jesper Wigardt",
+     "title": "VP Communications & Public Affairs",
+     "email": "jesper.wigardt@legora.com"
+    }
+   ]
+  },
+  {
+   "brand": "Insider One",
+   "people": [
+    {
+     "name": "Hande Cilingir",
+     "title": "Co-Founder & CEO",
+     "email": "hande.cilingir@useinsider.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/hande-cilingir",
+     "location": "United States"
+    },
+    {
+     "name": "Merve Nazlioglu",
+     "title": "Chief Marketing Officer",
+     "email": "merve@useinsider.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/merve-nazlioglu-11b505236",
+     "location": "United States"
+    },
+    {
+     "name": "Christopher Baldwin",
+     "title": "Shareowner | VP, Global Marketing & Demand Generation",
+     "email": "christopher.baldwin@useinsider.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/iamcbaldwin",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Nicolas Algoedt",
+     "title": "VP of Demand Generation & Revenue Marketing",
+     "email": "nico@insiderone.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/nicolasalgoedt",
+     "location": "Paris, France"
+    }
+   ]
+  },
+  {
+   "brand": "Squarespace",
+   "people": [
+    {
+     "name": "Anthony Casalena",
+     "title": "Founder & CEO",
+     "email": "acasalena@squarespace.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/acasalena",
+     "location": "New York, NY, USA"
+    },
+    {
+     "name": "David Lee",
+     "title": "Chief Brand & Creative Officer",
+     "email": "dlee@squarespace.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/dmklee",
+     "location": "Los Angeles, CA, USA"
+    },
+    {
+     "name": "Josh Groth",
+     "title": "SVP, Head of Marketing and Growth",
+     "email": "jgroth@squarespace.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/joshgroth",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Samantha Eisenberg",
+     "title": "Director, Brand Investment & Sponsorships",
+     "email": "seisenberg@squarespace.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/samanthagrossman1",
+     "location": "New York, NY, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Synthesia",
+   "people": [
+    {
+     "name": "Ken Lawshe",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "ken.lawshe@synthesia.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kenlawshe",
+     "location": "New York, NY, USA"
+    },
+    {
+     "name": "Borys Khodan",
+     "title": "VP of Marketing",
+     "email": "borys.khodan@synthesia.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/borkho",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Dan-Vlad Cobasneanu",
+     "title": "VP Brand and Product Marketing",
+     "email": "dan@synthesia.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/danvladcobasneanu",
+     "location": "New York, NY, USA"
+    },
+    {
+     "name": "Damian Sacco",
+     "title": "Director of Growth",
+     "email": "damian.sacco@synthesia.io",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/damiansacco",
+     "location": "Valencia, Valencia, Spain"
+    }
+   ]
+  },
+  {
+   "brand": "Persistent Systems",
+   "people": [
+    {
+     "name": "Shimona Chadha",
+     "title": "Global Chief Marketing Officer",
+     "email": "shimona_chadha@persistent.com"
+    },
+    {
+     "name": "Reena Kapoor",
+     "title": "Marketing Leader - Communications, Media and Telecom + IBM Alliance",
+     "email": "reena_kapoor@persistent.com"
+    },
+    {
+     "name": "Mane Kamboj",
+     "title": "Head of Global Growth Strategy",
+     "email": "manee_kamboj@persistent.com"
+    },
+    {
+     "name": "Suja Vel",
+     "title": "AVP - Growth and Strategic Relationships",
+     "email": "suja_vel@persistent.com"
+    }
+   ]
+  },
+  {
+   "brand": "Sigma Computing",
+   "people": [
+    {
+     "name": "Mark Zabezhinsky",
+     "title": "Head of Partner Marketing Strategy",
+     "email": "mark.zabezhinsky@sigmacomputing.com"
+    },
+    {
+     "name": "Mallory Busch",
+     "title": "Sr. Director of Strategic Marketing",
+     "email": "mallory@sigmacomputing.com"
+    },
+    {
+     "name": "Mike Palmer",
+     "title": "CEO",
+     "email": "mike.palmer@sigmacomputing.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mike-palmer-51a154",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Mark Sarbiewski",
+     "title": "VP of Product Marketing",
+     "email": "mark.sarbiewski@sigmacomputing.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sarbiewski",
+     "location": "San Francisco, CA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Automation Anywhere",
+   "people": [
+    {
+     "name": "Bilepo Scott",
+     "title": "Vice President Marketing",
+     "email": "bilepo.scott@automationanywhere.com"
+    },
+    {
+     "name": "Jason McLean",
+     "title": "Vice President | Revenue Marketing",
+     "email": "jason.mclean@automationanywhere.com"
+    },
+    {
+     "name": "Seyi Verma",
+     "title": "VP of Product Marketing",
+     "email": "seyi.verma@automationanywhere.com"
+    },
+    {
+     "name": "Mihir Shukla",
+     "title": "Chairman and CEO",
+     "email": "mihir.shukla@automationanywhere.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mihirshukla",
+     "location": "San Jose, CA, USA"
+    }
+   ]
+  }
+ ]
+}

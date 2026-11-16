@@ -1,0 +1,382 @@
+{
+ "rows": [
+  {
+   "brand": "Unconventional AI",
+   "people": [
+    {
+     "name": "Naveen Rao",
+     "title": "Chief Executive Officer",
+     "email": "naveen@unconv.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/naveengrao",
+     "location": "Incline Village, Nevada, United States"
+    },
+    {
+     "name": "Jess Rosenthal",
+     "title": "Head of Digital and Brand",
+     "email": "jess@unconv.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jlarosenthal",
+     "location": "San Diego, California, United States"
+    },
+    {
+     "name": "Michael Carbin",
+     "title": "Co-Founder",
+     "email": "michael@unconv.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/michael-carbin-92464174",
+     "location": "Cambridge, Massachusetts, United States"
+    },
+    {
+     "name": "Robin Alzoghoul",
+     "title": "Digital Marketing Lead",
+     "email": "robin@unconv.ai",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/robin-alzoghoul-20599039",
+     "location": "Seattle, Washington, United States"
+    }
+   ]
+  },
+  {
+   "brand": "iomart Group",
+   "people": [
+    {
+     "name": "Alexander Hendry",
+     "title": "Commercial Director",
+     "email": "alex.hendry@iomart.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/alexander-hendry-75691a16",
+     "location": "Guildford, England, United Kingdom"
+    },
+    {
+     "name": "Emily Turner",
+     "title": "Head of Brand and Creative",
+     "email": "emily.turner@iomart.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/emilyturnermarketing",
+     "location": "Glasgow, Scotland, United Kingdom"
+    },
+    {
+     "name": "Chris Lindsay",
+     "title": "Group Digital Marketing Manager",
+     "email": "chris.lindsay@iomart.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/chris-lindsay-81279647",
+     "location": "Glasgow, Scotland, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Xoople",
+   "people": [
+    {
+     "name": "Jessica Dye",
+     "title": "Chief Marketing Officer",
+     "email": "jessica.dye@xoople.com"
+    },
+    {
+     "name": "Chris Wright",
+     "title": "VP, Marketing Performance and Effectiveness",
+     "email": "chris.wright@xoople.com"
+    },
+    {
+     "name": "Emma Gore",
+     "title": "Head of Product Marketing",
+     "email": "emma.gore@xoople.com"
+    },
+    {
+     "name": "Fabrizio Pirondini",
+     "title": "Co-Founder & CEO",
+     "email": "fabrizio.pirondini@xoople.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/fpirondini",
+     "location": "Madrid, Community of Madrid, Spain"
+    }
+   ]
+  },
+  {
+   "brand": "LawZero",
+   "people": [
+    {
+     "name": "Sam Ramadori",
+     "title": "Co-President, Executive Director",
+     "email": "s.ramadori@lawzero.org",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/sam-ramadori-4272a9",
+     "location": "Montreal, Quebec, Canada"
+    },
+    {
+     "name": "Yoshua Bengio",
+     "title": "President and Scientific Director",
+     "email": "y.bengio@lawzero.org",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/yoshuabengio",
+     "location": "Montreal, Quebec, Canada"
+    },
+    {
+     "name": "Catherine Saine",
+     "title": "Vice President, Development and Operations",
+     "email": "c.saine@lawzero.org",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/catherine-r-saine-02394a31",
+     "location": "Montreal, Quebec, Canada"
+    },
+    {
+     "name": "Jonathan Barry",
+     "title": "Vice President, Global Government Affairs and Public Policy",
+     "email": "j.barry@lawzero.org",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/barryjonathan",
+     "location": "Montreal, Quebec, Canada"
+    }
+   ]
+  },
+  {
+   "brand": "Alto Neuroscience",
+   "people": [
+    {
+     "name": "Amit Etkin",
+     "title": "Founder and CEO",
+     "email": "amitetkin@altoneuroscience.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/amit-etkin",
+     "location": "Los Altos, California, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Enveda",
+   "people": [
+    {
+     "name": "Viswa Colluru",
+     "title": "CEO & Founder",
+     "email": "viswa.colluru@envedabio.com"
+    }
+   ]
+  },
+  {
+   "brand": "Hyperliquid Strategies",
+   "people": [
+    {
+     "name": "David Schamis",
+     "title": "Chief Executive Officer",
+     "email": "david@hypestrat.xyz",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/david-schamis-1bab924",
+     "location": "Port Washington, New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "AirTrunk",
+   "people": [
+    {
+     "name": "Robin Khuda",
+     "title": "Founder and Chief Executive Officer",
+     "email": "robin.khuda@airtrunk.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/robinkhuda",
+     "location": "Australia"
+    },
+    {
+     "name": "Amy Kiu",
+     "title": "Senior Director, Marketing",
+     "email": "amy.kiu@airtrunk.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/amy-k-3b94b741",
+     "location": "Sydney, New South Wales, Australia"
+    },
+    {
+     "name": "Daniel Fitzpatrick",
+     "title": "Senior Director, Corporate Communications",
+     "email": "daniel.fitzpatrick@airtrunk.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/daniel-fitzpatrick-ab045923",
+     "location": "Australia"
+    },
+    {
+     "name": "Elizabeth Cox",
+     "title": "Vice President Corporate Affairs",
+     "email": "elizabeth.cox@airtrunk.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/elizabeth-cox-b2647649",
+     "location": "Tokyo, Tokyo, Japan"
+    }
+   ]
+  },
+  {
+   "brand": "AtlasEdge",
+   "people": [
+    {
+     "name": "Tesh Durvasula",
+     "title": "Chief Executive Officer Atlas Edge",
+     "email": "tesh@atlasedge.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/teshdurvasula",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Francesca Marzari",
+     "title": "Marketing Manager",
+     "email": "francesca.marzari@atlasedge.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/francesca-marzari",
+     "location": "Netherlands"
+    },
+    {
+     "name": "Stuart Levinsky",
+     "title": "Chief Commercial Officer",
+     "email": "stuart.levinsky@atlasedge.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/stuart-levinsky-37241454",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "Switch",
+   "people": [
+    {
+     "name": "Will Adamson",
+     "title": "Senior Vice President of Brand & Marketing Architecture",
+     "email": "wadamson@switch.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/will-adamson-0a7a1942",
+     "location": "Ashland, Oregon, United States"
+    },
+    {
+     "name": "Heather Ellerbe",
+     "title": "Vice President Marketing",
+     "email": "heather@switch.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/heather-ellerbe-622404ab",
+     "location": "Las Vegas, Nevada, United States"
+    },
+    {
+     "name": "Chelsea Darby",
+     "title": "VP of Creative",
+     "email": "cdarby@switch.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/chelsea-darby-73747612",
+     "location": "Las Vegas, Nevada, United States"
+    },
+    {
+     "name": "Kiyo Wiesnoski",
+     "title": "Senior Director of Marketing",
+     "email": "kwiesnoski@switch.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/kwies",
+     "location": "Las Vegas, Nevada, United States"
+    }
+   ]
+  },
+  {
+   "brand": "EdgeCore Digital Infrastructure",
+   "people": [
+    {
+     "name": "Lee Kestler",
+     "title": "Chief Executive Officer",
+     "email": "lee.kestler@edgecore.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/leekestler",
+     "location": "United States"
+    },
+    {
+     "name": "Courtney Gaudet",
+     "title": "Vice President of Marketing and Communications",
+     "email": "courtney.gaudet@edgecore.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/courtney-gaudet-08070013",
+     "location": "Denver, Colorado, United States"
+    },
+    {
+     "name": "Clint Heiden",
+     "title": "Chief Commercial Officer",
+     "email": "clint.heiden@edgecore.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/clintheiden",
+     "location": "Baltimore, Maryland, United States"
+    }
+   ]
+  },
+  {
+   "brand": "DC BLOX",
+   "people": [
+    {
+     "name": "Jeff Uphues",
+     "title": "Chief Executive Officer",
+     "email": "jeff.uphues@dcblox.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jeffreyuphues",
+     "location": "Atlanta, Georgia, United States"
+    },
+    {
+     "name": "William Thomson",
+     "title": "VP, Marketing and Product Management",
+     "email": "bill.thomson@dcblox.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/wathomson",
+     "location": "Atlanta, Georgia, United States"
+    },
+    {
+     "name": "Chris Gatch",
+     "title": "EVP and Chief Revenue Officer",
+     "email": "chris.gatch@dcblox.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/chris-gatch-1a45444",
+     "location": "Atlanta, Georgia, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Ascenty",
+   "people": [
+    {
+     "name": "Christopher Torto",
+     "title": "Chief Executive Officer",
+     "email": "chris.torto@ascenty.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/chris-torto",
+     "location": "United States"
+    },
+    {
+     "name": "Jessica Braga",
+     "title": "Marketing Director",
+     "email": "jessica.braga@ascenty.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/j%c3%a9ssica-braga-mkt",
+     "location": "Sao Paulo, Brazil"
+    },
+    {
+     "name": "Marcos Siqueira",
+     "title": "Vice Presidente Executivo & CRO",
+     "email": "marcos.siqueira@ascenty.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/siqueiramarcos",
+     "location": "Sao Paulo, Brazil"
+    }
+   ]
+  },
+  {
+   "brand": "KUBRA",
+   "people": [
+    {
+     "name": "Alison Copeland",
+     "title": "VP, Marketing",
+     "email": "alison.copeland@kubra.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/alisoncopeland",
+     "location": "Tempe, Arizona, United States"
+    },
+    {
+     "name": "Lesley Slack",
+     "title": "Senior Director of Product Marketing, Kubra",
+     "email": "lesley.slack@kubra.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/lesleyhorlickatlinkedin",
+     "location": "Ottawa, Ontario, Canada"
+    }
+   ]
+  }
+ ]
+}

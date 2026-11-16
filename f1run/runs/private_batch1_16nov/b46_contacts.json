@@ -1,0 +1,321 @@
+{
+ "rows": [
+  {
+   "brand": "Pebl",
+   "people": [
+    {
+     "name": "Doug Pullman",
+     "title": "Chief Marketing Officer",
+     "email": "dougpullman@hellopebl.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/dougpullman",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Christina Robertson",
+     "title": "VP, Global Growth Marketing",
+     "email": "tinar@atlashxm.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/christina-tina-robertson-10a5ba12",
+     "location": "Alpharetta, United States"
+    },
+    {
+     "name": "Patrick Mackelvie",
+     "title": "Chief Revenue Officer",
+     "email": "patrickm@hellopebl.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/patmack",
+     "location": "Portland, United States"
+    },
+    {
+     "name": "Zachary Tindall",
+     "title": "Senior Director, Brand, PR & Content Marketing",
+     "email": "zacharytindall@hellopebl.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/zacharytindall",
+     "location": "Los Angeles, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Dunamu",
+   "people": [
+    {
+     "name": "Seonjoo Yoon",
+     "title": "Chief Brand & Impact Officer",
+     "email": "essjay@dunamu.com"
+    },
+    {
+     "name": "Helen Mo",
+     "title": "Communications",
+     "email": "helen@dunamu.com"
+    },
+    {
+     "name": "Lorenzo Giovanni",
+     "title": "Marketing Manager",
+     "email": "enzo@dunamu.com"
+    }
+   ]
+  },
+  {
+   "brand": "Digital Edge",
+   "people": [
+    {
+     "name": "Yaniv Ghitis",
+     "title": "Chief Commercial & Investment Officer",
+     "email": "yaniv@digitaledgedc.com"
+    },
+    {
+     "name": "Geraldine Lim",
+     "title": "Head of Communications and Corporate Branding",
+     "email": "geraldine.lim@digitaledgedc.com"
+    },
+    {
+     "name": "Olivier Puyraud",
+     "title": "Senior Director, Growth Enablement & GTM Operations",
+     "email": "olivier.puyraud@digitaledgedc.com"
+    },
+    {
+     "name": "Sairam Prasad",
+     "title": "Chief Executive Officer",
+     "email": "sairam.prasad@digitaledgedc.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/sairam-prasad-b7424411",
+     "location": "Mumbai, India"
+    }
+   ]
+  },
+  {
+   "brand": "VIRTUS Data Centres",
+   "people": [
+    {
+     "name": "Adam Eaton",
+     "title": "Chief Executive Officer",
+     "email": "adam.eaton@virtusdcs.com"
+    },
+    {
+     "name": "Sam Day",
+     "title": "Senior Marketing & Communications Manager",
+     "email": "sam.day@virtusdcs.com"
+    },
+    {
+     "name": "Chris Street",
+     "title": "Group Chief Revenue Officer",
+     "email": "chris.street@sttelemediagdc.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/chrisstreet",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Yi Chow",
+     "title": "Head, Group Marketing & Communications",
+     "email": "yi.chow@sttelemediagdc.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/chowyi",
+     "location": "Singapore, Singapore"
+    }
+   ]
+  },
+  {
+   "brand": "Motive",
+   "people": [
+    {
+     "name": "Amy Loh",
+     "title": "VP Marketing",
+     "email": "amy.loh@gomotive.com"
+    },
+    {
+     "name": "Kelly Hanson",
+     "title": "Senior Director of Strategic Marketing",
+     "email": "kelly.hanson@gomotive.com"
+    },
+    {
+     "name": "Gretchen Masterson",
+     "title": "Head of Corporate Communications",
+     "email": "gretchen.masterson@gomotive.com"
+    },
+    {
+     "name": "Shoaib Makani",
+     "title": "Co-founder and CEO",
+     "email": "shoaib@gomotive.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/smakani",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Sopra Steria",
+   "people": [
+    {
+     "name": "Domitilla Ferrari",
+     "title": "Marketing and Communications Lead",
+     "email": "domitilla.ferrari@soprasteria.com"
+    },
+    {
+     "name": "Mariangela Ziller",
+     "title": "Marketing & Communications Director",
+     "email": "mariangela.ziller@soprasteria.com"
+    },
+    {
+     "name": "Helene Bourdiol",
+     "title": "Marketing Performance & Strategy Lead",
+     "email": "helene.bourdiol@soprasteria.com"
+    },
+    {
+     "name": "Mathias Mercier",
+     "title": "Chief Marketing Officer Corporate",
+     "email": "mathias.mercier@soprasteria.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mathiasmercier",
+     "location": "Paris, France"
+    }
+   ]
+  },
+  {
+   "brand": "Tekion",
+   "people": [
+    {
+     "name": "Marylou Hastert",
+     "title": "Vice President Marketing",
+     "email": "marylou@tekion.com"
+    },
+    {
+     "name": "John Okunski",
+     "title": "Senior Vice President, Global Alliances & Ecosystem Development",
+     "email": "jokunski@tekion.com"
+    },
+    {
+     "name": "Aravind Gowda",
+     "title": "Senior Director Communications",
+     "email": "agowda@tekion.com"
+    },
+    {
+     "name": "Jay Vijayan",
+     "title": "Founder and CEO",
+     "email": "jay@tekion.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jayvijayan",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Zelostech (Zelos Technology)",
+   "people": [
+    {
+     "name": "Xuchen Zhang",
+     "title": "COO / CEO of Global Business",
+     "email": "x.zhang@zelostech.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/xuchen-zhang-3bb56366",
+     "location": "San Jose, United States"
+    },
+    {
+     "name": "Li Zhuang",
+     "title": "Co-Founder",
+     "email": "zhuangli@zelostech.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/li-zhuang-7ab73130",
+     "location": "San Ramon, United States"
+    },
+    {
+     "name": "Terry Zhou",
+     "title": "Managing Director, Zelos Technology (Singapore)",
+     "email": "terry.zhou@zelostech.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/terry-zhou-4478bb162",
+     "location": "Singapore, Singapore"
+    }
+   ]
+  },
+  {
+   "brand": "Flexential",
+   "people": [
+    {
+     "name": "Jeff Johnson",
+     "title": "Vice President, Partner Relations",
+     "email": "jeff.johnson@flexential.com"
+    },
+    {
+     "name": "Jaime Dumas",
+     "title": "Senior Director, Corporate Marketing",
+     "email": "jaime.dumas@flexential.com"
+    },
+    {
+     "name": "David Flor",
+     "title": "Director, Digital Marketing",
+     "email": "david.flor@flexential.com"
+    },
+    {
+     "name": "Alison Brooker",
+     "title": "Senior Communications Leader",
+     "email": "alison.brooker@flexential.com"
+    }
+   ]
+  },
+  {
+   "brand": "Checkr",
+   "people": [
+    {
+     "name": "Daniel Yanisse",
+     "title": "Co-founder & CEO",
+     "email": "daniel@checkr.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/yanisse",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Heather Sutherland",
+     "title": "Vice President Marketing",
+     "email": "heather.sutherland@checkr.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/hesutherland",
+     "location": "Redwood City, United States"
+    },
+    {
+     "name": "Sprague Brodie",
+     "title": "Senior Director, Growth Marketing",
+     "email": "sprague.brodie@checkr.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/sprague-brodie-6b8886b",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Paul Ruxton",
+     "title": "Director, Brand and Creative",
+     "email": "paul.ruxton@checkr.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/paulruxton",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Eurofiber",
+   "people": [
+    {
+     "name": "Chris Bakx",
+     "title": "Managing Director Group Marketing",
+     "email": "chris.bakx@eurofiber.com"
+    },
+    {
+     "name": "Alex Goldblum",
+     "title": "CEO",
+     "email": "alex.goldblum@eurofiber.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/agoldblum",
+     "location": "Amsterdam, Netherlands"
+    }
+   ]
+  },
+  {
+   "brand": "Hyperscale Data",
+   "people": []
+  },
+  {
+   "brand": "GridPoint",
+   "people": []
+  }
+ ]
+}

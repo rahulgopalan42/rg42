@@ -1,0 +1,270 @@
+{
+ "rows": [
+  {
+   "brand": "Fiverr",
+   "people": [
+    {
+     "name": "Margarita Osokina",
+     "title": "Brand & Marketing Designer",
+     "email": "margarita.osokina@fiverr.com"
+    },
+    {
+     "name": "Rotem Zohar",
+     "title": "Brand & Marketing Designer",
+     "email": "rotem.zohar@fiverr.com"
+    },
+    {
+     "name": "Akorede Jamiu",
+     "title": "Chief Executive Officer",
+     "email": "akorede.j@fiverr.com"
+    },
+    {
+     "name": "Matti Yahav",
+     "title": "Chief Marketing Officer",
+     "email": "matti.yahav@fiverr.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mattiyahav",
+     "location": "Israel"
+    }
+   ]
+  },
+  {
+   "brand": "Teleperformance",
+   "people": [
+    {
+     "name": "Luciana Aguiar",
+     "title": "Global Chief Marketing Officer",
+     "email": "luciana.cemerka@teleperformance.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/lucianacemerka",
+     "location": "Sao Paulo, Brazil"
+    },
+    {
+     "name": "Susan Richards",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "susan.richards@tp.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/susan-richards-a454983a",
+     "location": "Delray Beach, United States"
+    },
+    {
+     "name": "Leslie Kostrikin",
+     "title": "EVP, Marketing",
+     "email": "leslie.kostrikin@tp.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/lesliesurley",
+     "location": "El Dorado Hills, United States"
+    },
+    {
+     "name": "Vitor Duarte",
+     "title": "Head of Global Strategic Marketing",
+     "email": "vitor.duarte@tp.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/vitorrduarrte",
+     "location": "Sao Paulo, Brazil"
+    }
+   ]
+  },
+  {
+   "brand": "Pegasystems",
+   "people": [
+    {
+     "name": "Catherine Dutton",
+     "title": "VP Global Growth Marketing",
+     "email": "catherine.dutton@pega.com"
+    },
+    {
+     "name": "John Murphy",
+     "title": "Head of Growth Marketing and Integrated Campaigns",
+     "email": "john.murphy@pega.com"
+    },
+    {
+     "name": "Matt Healy",
+     "title": "Sr. Director, Product Strategy & Marketing",
+     "email": "matt.healy@pega.com"
+    },
+    {
+     "name": "Christina Coyne",
+     "title": "Director of Product Marketing/GTM Strategy",
+     "email": "christina.coyne@pega.com"
+    }
+   ]
+  },
+  {
+   "brand": "UiPath",
+   "people": [
+    {
+     "name": "Daniel Dines",
+     "title": "CEO & Founder",
+     "email": "daniel.dines@uipath.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/danieldines",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Michael Atalla",
+     "title": "Chief Marketing Officer",
+     "email": "michael.atalla@uipath.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/michaeljatalla",
+     "location": "Seattle, United States"
+    },
+    {
+     "name": "Alan Browne",
+     "title": "Vice President Global Marketing Strategy, Operations & Digital Marketing",
+     "email": "alan.browne@uipath.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/alan-browne-2a4abb86",
+     "location": "Ireland"
+    },
+    {
+     "name": "Laura Matthews",
+     "title": "Global Marketing Director",
+     "email": "laura.matthews@uipath.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/laurammatthews",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "TPG Inc.",
+   "people": [
+    {
+     "name": "Jack Weingart",
+     "title": "Chief Executive Officer, Global Wealth Solutions",
+     "email": "jweingart@tpg.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jack-weingart-25a211b",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Nicole Brady",
+     "title": "CEO",
+     "email": "nbrady@tpg.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/neemanbrady",
+     "location": "Los Angeles, United States"
+    },
+    {
+     "name": "Dan Allen",
+     "title": "Vice President, Marketing",
+     "email": "dallen@tpg.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/dan-allen-4b705b1",
+     "location": "Austin, United States"
+    },
+    {
+     "name": "Elizabeth Liang",
+     "title": "Senior Director, Communications",
+     "email": "elizabethliang@tpg.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/liz-liang",
+     "location": "Hong Kong, Hong Kong"
+    }
+   ]
+  },
+  {
+   "brand": "Commvault",
+   "people": [
+    {
+     "name": "Carrie Kelly",
+     "title": "VP of Global Brand & Integrated Marketing",
+     "email": "carriekelly@commvault.com"
+    },
+    {
+     "name": "Ross Camp",
+     "title": "Vice President Corporate Communications",
+     "email": "rcamp@commvault.com"
+    },
+    {
+     "name": "Laura Wilkinson",
+     "title": "Director of Field Marketing",
+     "email": "lwilkinson@commvault.com"
+    },
+    {
+     "name": "Sanjay Mirchandani",
+     "title": "President and CEO",
+     "email": "sanjay@commvault.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/sanjay-mirchandani",
+     "location": "Eatontown, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Gartner",
+   "people": [
+    {
+     "name": "Alex Sun",
+     "title": "Group Vice President, Global Marketing",
+     "email": "alex.sun@gartner.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/alexsun",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Sagar Jain",
+     "title": "Managing Vice President - Global Marketing",
+     "email": "sagar.jain@gartner.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sagar-jain-gartner",
+     "location": "Gurugram, India"
+    },
+    {
+     "name": "Melanie Yamada",
+     "title": "Managing Vice President, Marketing",
+     "email": "melanie.yamada@gartner.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/melanieying",
+     "location": "Portland, United States"
+    },
+    {
+     "name": "Burcu Acarlar",
+     "title": "Head of Brand",
+     "email": "burcu.acarlar@gartner.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/burcuacarlar",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Invesco",
+   "people": [
+    {
+     "name": "Andrew Schlossberg",
+     "title": "President and CEO",
+     "email": "andrew.schlossberg@invesco.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/andrew-schlossberg-invesco",
+     "location": "Atlanta, United States"
+    },
+    {
+     "name": "Chiara Minari",
+     "title": "Associate Director CMO Office - Strategy & Planning Department",
+     "email": "chiara.minari@invesco.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/chiaraminari",
+     "location": "Milan, Italy"
+    },
+    {
+     "name": "Tom Clifford",
+     "title": "Associate Director, Sponsorship & Experiential Marketing",
+     "email": "tom.clifford@invesco.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/thomasbclifford",
+     "location": "United States"
+    },
+    {
+     "name": "Allyson Doker",
+     "title": "Associate Director, Brand Activation and Management",
+     "email": "allyson.doker@invesco.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/allysonayers",
+     "location": "Atlanta, United States"
+    }
+   ]
+  }
+ ]
+}

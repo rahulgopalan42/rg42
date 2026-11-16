@@ -1,0 +1,372 @@
+{
+ "rows": [
+  {
+   "brand": "Altavair",
+   "people": [
+    {
+     "name": "Steve Rimmer",
+     "title": "CEO",
+     "email": "steve.rimmer@altavair.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/steve-rimmer-7150199",
+     "location": "Sammamish, United States"
+    },
+    {
+     "name": "Matt Hoesley",
+     "title": "President & Chief Commercial Officer",
+     "email": "matthew.hoesley@altavair.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/matt-hoesley",
+     "location": "Seattle, United States"
+    },
+    {
+     "name": "Alvaro Fuertes",
+     "title": "Senior Vice President Sales & Marketing",
+     "email": "alvaro.fuertes@altavair.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/alvaro-fuertes",
+     "location": "Dublin, Ireland"
+    },
+    {
+     "name": "Clive Bowen",
+     "title": "Director, Marketing",
+     "email": "clive.bowen@altavair.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/clive-bowen-a3677371",
+     "location": "England, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "LMAX Group",
+   "people": [
+    {
+     "name": "Louisa Feltes",
+     "title": "Global Head of Communications",
+     "email": "louisa.feltes@lmax.com"
+    },
+    {
+     "name": "David Mercer",
+     "title": "CEO",
+     "email": "david.mercer@lmax.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mercerdavid",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Clare Tunstead",
+     "title": "Global Head of Events",
+     "email": "clare.tunstead@lmax.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/clare-tunstead-5b629143",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Zip Co",
+   "people": [
+    {
+     "name": "Cynthia Scott",
+     "title": "Managing Director and Group CEO",
+     "email": "cynthia.scott@zip.co",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/cynthia-scott-us",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Jinal Shah",
+     "title": "Chief Marketing and Customer Officer",
+     "email": "jinal.shah@zip.co",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jinalshah",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Chloe Rees",
+     "title": "Senior Director, Communications & Corporate Affairs",
+     "email": "chloe.rees@zip.co",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/chloe-rees-05709377",
+     "location": "Australia"
+    },
+    {
+     "name": "Margaret Meehan",
+     "title": "Director of Brand",
+     "email": "margaret.meehan@zip.co",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/margaretmeehan",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Blockstream",
+   "people": [
+    {
+     "name": "Erik Svenson",
+     "title": "Co-Founder and President",
+     "email": "erik@blockstream.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/eriksvenson",
+     "location": "Oakland, United States"
+    },
+    {
+     "name": "Peter Bain",
+     "title": "Chief Marketing Officer",
+     "email": "peter@blockstream.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/pwbain",
+     "location": "United States"
+    },
+    {
+     "name": "Michael Callahan",
+     "title": "Head of Marketing & Operations, Consumer Products",
+     "email": "mcallahan@blockstream.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/michaelscallah",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Caroline Baker",
+     "title": "Director of Communications",
+     "email": "cbradybaker@blockstream.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/caroline-brady-baker-a2315977",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "ID Finance",
+   "people": [
+    {
+     "name": "Boris Batine",
+     "title": "Co-Founder",
+     "email": "boris.batine@idfinance.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/boris-batine-478a8a2",
+     "location": "Barcelona, Spain"
+    },
+    {
+     "name": "Carlos Martin",
+     "title": "CMO",
+     "email": "carlos.martin@idfinance.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/carlosbmc",
+     "location": "Barcelona, Spain"
+    }
+   ]
+  },
+  {
+   "brand": "Plasma",
+   "people": [
+    {
+     "name": "Paul Faecks",
+     "title": "CEO, Founder",
+     "email": "pf@plasma.to",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/paul-f-540895a4",
+     "location": "Berlin, Germany"
+    },
+    {
+     "name": "Nathan Lenga",
+     "title": "Head of Growth",
+     "email": "nl@plasma.to",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/nathan-lenga",
+     "location": "United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "XTransfer",
+   "people": [
+    {
+     "name": "Bill Deng",
+     "title": "Founder and CEO",
+     "email": "bill.deng@xtransfer.cn",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/bill-deng-978a5b122",
+     "location": "Shanghai, China"
+    },
+    {
+     "name": "Leon Deng",
+     "title": "CMO",
+     "email": "leon.deng@xtransfer.cn",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/leon-deng-a1361015",
+     "location": "Shanghai, China"
+    },
+    {
+     "name": "Weichun Yao",
+     "title": "Co-founder/COO/CRO",
+     "email": "alice.yao@xtransfer.cn",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/weichun-yao-317909a",
+     "location": "China"
+    },
+    {
+     "name": "Maggie Ng",
+     "title": "Public Relations Director",
+     "email": "maggie.ng@xtransfer.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/maggie-ng-a6148180",
+     "location": "Hong Kong, Hong Kong"
+    }
+   ]
+  },
+  {
+   "brand": "Pipe",
+   "people": [
+    {
+     "name": "Jay Saling",
+     "title": "Head of Growth",
+     "email": "jay.saling@pipe.com"
+    },
+    {
+     "name": "Vijay Vachani",
+     "title": "Chief Revenue Officer",
+     "email": "vijay@pipe.com"
+    },
+    {
+     "name": "Claurelle Rakipovic",
+     "title": "Chief Executive Officer",
+     "email": "claurelle@pipe.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/claurelle",
+     "location": "Palo Alto, United States"
+    },
+    {
+     "name": "Josh Mangel",
+     "title": "Co-Founder",
+     "email": "josh@pipe.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/josh-mangel-16208a101",
+     "location": "Los Angeles, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Talos",
+   "people": [
+    {
+     "name": "Roland Jarquio",
+     "title": "VP, Growth & Product Marketing",
+     "email": "roland.jarquio@talos.com"
+    },
+    {
+     "name": "Alfonse Mandese",
+     "title": "SVP, Global Head of Revenue",
+     "email": "alfonse@talos.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/alfonse-mandese",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Audrey Chen",
+     "title": "APAC Marketing and Communications",
+     "email": "audrey.chen@talos.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/ac088444",
+     "location": "Singapore, Singapore"
+    }
+   ]
+  },
+  {
+   "brand": "HashKey Holdings",
+   "people": [
+    {
+     "name": "Deng Chao",
+     "title": "CEO",
+     "email": "deng.chao@hashkey.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/deng-chao-73a6964",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Siya Yang",
+     "title": "Head of Marketing",
+     "email": "siya.yang@hashkey.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/siya-yang-web3",
+     "location": "Hong Kong, Hong Kong"
+    },
+    {
+     "name": "Hussein Ballout",
+     "title": "Director of Growth & Partnerships",
+     "email": "hussein.ballout@hashkey.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/husb",
+     "location": "Dubai, United Arab Emirates"
+    },
+    {
+     "name": "Salina Zhu",
+     "title": "Marketing Director",
+     "email": "salina.zhu@hashkey.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/salina-zhu-3b37b622",
+     "location": "Hong Kong, Hong Kong"
+    }
+   ]
+  },
+  {
+   "brand": "Flowdesk",
+   "people": [
+    {
+     "name": "Guilhem Chaumont",
+     "title": "Co-Founder & CEO",
+     "email": "guilhem@flowdesk.co",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/guilhem-chaumont-215091a5",
+     "location": "Paris, France"
+    },
+    {
+     "name": "Reed Werbitt",
+     "title": "Chief Revenue Officer (CRO) & U.S. CEO",
+     "email": "reed.werbitt@flowdesk.co",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/reed-werbitt-5b7b52130",
+     "location": "United States"
+    },
+    {
+     "name": "Tyler Fleischer",
+     "title": "Vice President of Marketing",
+     "email": "tyler.fleischer@flowdesk.co",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/tyler-fleischer",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Pierre-Olivier Battaglini",
+     "title": "Vice President - Partnerships & Ecosystems",
+     "email": "pierre-olivier@flowdesk.co",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/pierreolivierfaba",
+     "location": "Paris, France"
+    }
+   ]
+  },
+  {
+   "brand": "Lightspark",
+   "people": [
+    {
+     "name": "Davi Strazza",
+     "title": "Chief Business Officer",
+     "email": "davi@lightspark.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/davistrazza",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Griffin Camper",
+     "title": "Product Marketing Lead",
+     "email": "griffin@lightspark.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/griffin-camper",
+     "location": "Los Angeles, United States"
+    }
+   ]
+  }
+ ]
+}

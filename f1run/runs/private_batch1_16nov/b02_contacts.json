@@ -1,0 +1,310 @@
+{
+ "rows": [
+  {
+   "brand": "Aspen Technology",
+   "people": [
+    {
+     "name": "Scott Nordstrom",
+     "title": "Vice President Marketing",
+     "email": "scott.nordstrom@aspentech.com"
+    },
+    {
+     "name": "Ron Beck",
+     "title": "Senior Director, SSE Product Group Marketing; Also Solutions Marketing for AI and Sustainability",
+     "email": "ron.beck@aspentech.com"
+    },
+    {
+     "name": "Stuart Harris",
+     "title": "Senior Vice President, Chief Marketing and Strategy Officer",
+     "email": "stuart.harris@aspentech.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/stuart-harris-3ab255116",
+     "location": "Twin Cities, MN, USA"
+    },
+    {
+     "name": "Filipe Pinto",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "filipe.pinto@aspentech.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/fsoarespinto",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "Flex",
+   "people": [
+    {
+     "name": "Christie Haber",
+     "title": "Director, Commercial Marketing and Communications",
+     "email": "christie.haber@flex.com"
+    },
+    {
+     "name": "James Martin",
+     "title": "Director of Marketing Strategy",
+     "email": "james.martin@flex.com"
+    },
+    {
+     "name": "Hermann Staudacher",
+     "title": "VP Sales and Marketing",
+     "email": "hermann.staudacher@flex.com"
+    },
+    {
+     "name": "Joel Aguilar",
+     "title": "Director, America's Marketing & Communications",
+     "email": "joel.aguilar@flex.com"
+    }
+   ]
+  },
+  {
+   "brand": "Fireworks AI",
+   "people": [
+    {
+     "name": "Christine Dzou",
+     "title": "Head of Growth Marketing",
+     "email": "christine.dzou@fireworks.ai"
+    },
+    {
+     "name": "Leo Zheng",
+     "title": "Senior Vice President Marketing",
+     "email": "leo@fireworks.ai"
+    },
+    {
+     "name": "Megan Boone",
+     "title": "VP Revenue Marketing",
+     "email": "megan@fireworks.ai"
+    },
+    {
+     "name": "Elyse Bartel",
+     "title": "Head of Field Marketing",
+     "email": "elyse@fireworks.ai"
+    }
+   ]
+  },
+  {
+   "brand": "Pinterest",
+   "people": [
+    {
+     "name": "Bill Ready",
+     "title": "CEO",
+     "email": "bready@pinterest.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/williamready",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Claudine Cheever",
+     "title": "Chief Marketing Officer",
+     "email": "ccheever@pinterest.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/claudine-cheever-6011681",
+     "location": "Seattle, WA, USA"
+    },
+    {
+     "name": "Stacy Malone",
+     "title": "VP, Global Head of Business Marketing",
+     "email": "swrightmalone@pinterest.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/stacy-malone",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Sara Pollack",
+     "title": "VP, Global Head of Consumer Marketing",
+     "email": "spollack@pinterest.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/sara-pollack-pinterest",
+     "location": "Los Angeles, CA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Zebra Technologies",
+   "people": [
+    {
+     "name": "Bill Cate",
+     "title": "Vice President Marketing & Channels",
+     "email": "bmi@zebra.com"
+    },
+    {
+     "name": "Breeanna Bergman",
+     "title": "Senior Director Global Marketing",
+     "email": "bree.bergman@zebra.com"
+    },
+    {
+     "name": "Sarah Bryowsky",
+     "title": "Senior Director Brand & Digital Marketing",
+     "email": "sbryowsky@zebra.com"
+    },
+    {
+     "name": "Therese Van Ryne",
+     "title": "Senior Director, Global Communications",
+     "email": "therese.vanryne@zebra.com"
+    }
+   ]
+  },
+  {
+   "brand": "Bending Spoons",
+   "people": [
+    {
+     "name": "Luca Ferrari",
+     "title": "Co-Founder & CEO",
+     "email": "lf@bendingspoons.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/luca-ferrari-12418318",
+     "location": "Milan, Italy"
+    },
+    {
+     "name": "Valerio Volpe",
+     "title": "Head of Growth",
+     "email": "vv@bendingspoons.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/volpevalerio",
+     "location": "Milan, Italy"
+    },
+    {
+     "name": "Michelle Kim",
+     "title": "Global Head of Partnerships",
+     "email": "mkim@bendingspoons.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/michelle-yw-kim",
+     "location": "Paris, France"
+    }
+   ]
+  },
+  {
+   "brand": "TD SYNNEX",
+   "people": [
+    {
+     "name": "Patrick Zammit",
+     "title": "Chief Executive Officer",
+     "email": "patrick.zammit@tdsynnex.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/patrickzammit",
+     "location": "Brussels, Belgium"
+    },
+    {
+     "name": "Jill Kermes",
+     "title": "Corporate Vice President, Global Communications and Corporate Citizenship",
+     "email": "jill.kermes@tdsynnex.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jill-kermes",
+     "location": "Saint Petersburg, FL, USA"
+    },
+    {
+     "name": "Mark Hardy",
+     "title": "Vice President, Marketing",
+     "email": "mark.hardy@tdsynnex.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/mark-hardy-81379b3",
+     "location": "Mississauga, ON, Canada"
+    },
+    {
+     "name": "Amanda Glasgow",
+     "title": "Head of Strategic Marketing Programmes",
+     "email": "amanda.glasgow@tdsynnex.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/amandaglasgow",
+     "location": "United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Nexthink",
+   "people": [
+    {
+     "name": "Paul Gentile",
+     "title": "Senior Vice President, Strategic Marketing",
+     "email": "paul.gentile@nexthink.com"
+    },
+    {
+     "name": "Pedro Bados",
+     "title": "CEO & Co-Founder",
+     "email": "pedro.bados@nexthink.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/pbados",
+     "location": "Boston, MA, USA"
+    },
+    {
+     "name": "Ian Bancroft",
+     "title": "Chief Revenue Officer & North America General Manager",
+     "email": "ian.bancroft@nexthink.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/ian-bancroft-6150721",
+     "location": "Atlanta, GA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "OneTrust",
+   "people": [
+    {
+     "name": "Michael Schanker",
+     "title": "Chief Marketing Officer",
+     "email": "michael.schanker@onetrust.com"
+    },
+    {
+     "name": "Denise Jack",
+     "title": "VP, Global Growth Marketing",
+     "email": "denise.jack@onetrust.com"
+    },
+    {
+     "name": "Teja Vora",
+     "title": "Vice President Product Marketing",
+     "email": "teja.vora@onetrust.com"
+    },
+    {
+     "name": "Rebecca Evans",
+     "title": "Director, Product Marketing",
+     "email": "revans@onetrust.com"
+    }
+   ]
+  },
+  {
+   "brand": "Scale AI",
+   "people": [
+    {
+     "name": "Kevin Hwang",
+     "title": "Head of Growth Marketing",
+     "email": "kevin.hwang@scale.com"
+    },
+    {
+     "name": "Philip Guzman",
+     "title": "VP of Marketing",
+     "email": "philip.deguzman@scale.com"
+    },
+    {
+     "name": "Amulya Vadrevu",
+     "title": "Product Marketing Lead, Gen AI",
+     "email": "amulya.vadrevu@scale.com"
+    },
+    {
+     "name": "Rebecca Woerner",
+     "title": "Senior Director of Events & Field Marketing",
+     "email": "rebecca.woerner@scale.com"
+    }
+   ]
+  },
+  {
+   "brand": "Consensys",
+   "people": [
+    {
+     "name": "Joseph Lubin",
+     "title": "CEO and Founder",
+     "email": "joseph.lubin@consensys.net",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/joseph-lubin-48406489",
+     "location": "United States"
+    },
+    {
+     "name": "Nicole Adarme",
+     "title": "Director of Product Marketing, Linea",
+     "email": "nicole.adarme@consensys.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/nicoleadarme",
+     "location": "United Kingdom"
+    }
+   ]
+  }
+ ]
+}

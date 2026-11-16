@@ -1,0 +1,234 @@
+{
+ "rows": [
+  {
+   "brand": "DigitalOcean",
+   "people": [
+    {
+     "name": "Leo Leung",
+     "title": "Chief Marketing Officer",
+     "email": "leoleung@digitalocean.com"
+    },
+    {
+     "name": "Meghan Grady",
+     "title": "Head of Marketing and Communications",
+     "email": "mgrady@digitalocean.com"
+    },
+    {
+     "name": "Aaqib Sayed",
+     "title": "Director Growth & Partnerships",
+     "email": "asayed@digitalocean.com"
+    },
+    {
+     "name": "Miranda Gahrmann",
+     "title": "Digital Marketing Director",
+     "email": "mgahrmann@digitalocean.com"
+    }
+   ]
+  },
+  {
+   "brand": "Wistron Corporation",
+   "people": [
+    {
+     "name": "Alex Chiu",
+     "title": "Director of Sales and Marketing",
+     "email": "alex_chiu@wistron.com"
+    },
+    {
+     "name": "Nick Wang",
+     "title": "Marketing Director",
+     "email": "nick_wang@wistron.com"
+    },
+    {
+     "name": "Kay Li",
+     "title": "Marketing Director",
+     "email": "kay_li@wistron.com"
+    },
+    {
+     "name": "Robert Hwang",
+     "title": "CEO",
+     "email": "robert_hwang@wistron.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/robert-hwang-7543ab",
+     "location": "Taiwan"
+    }
+   ]
+  },
+  {
+   "brand": "BGC Group",
+   "people": [
+    {
+     "name": "Jean Aubin",
+     "title": "Co-Chief Executive Officer",
+     "email": "jpa@bgcpartners.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jean-pierre-aubin-0b8762a",
+     "location": "New York, United States"
+    },
+    {
+     "name": "John Abularrage",
+     "title": "CEO of North America, Co-Global Head of Financial Services Brokerage",
+     "email": "john.abularrage@bgcg.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/john-abularrage-235619162",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Brad Howell",
+     "title": "CEO Asia Pacific",
+     "email": "brad.howell@bgcg.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/bradmhowell",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Renato Santos",
+     "title": "Global Brand Director",
+     "email": "renato.santos@bgcg.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/renatosantosprofile",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "VeriSign",
+   "people": [
+    {
+     "name": "Scott Schnell",
+     "title": "Senior Vice President of Marketing & Channel Management",
+     "email": "sschnell@verisign.com"
+    },
+    {
+     "name": "Mara Hannula",
+     "title": "Vice President Global Integrated Marketing",
+     "email": "mhannula@verisign.com"
+    },
+    {
+     "name": "George Xiang",
+     "title": "Marketing Director",
+     "email": "lxiang@verisign.com"
+    },
+    {
+     "name": "Jeannie McPherson",
+     "title": "Senior Director, Content Marketing",
+     "email": "jmcpherson@verisign.com"
+    }
+   ]
+  },
+  {
+   "brand": "Sabre",
+   "people": [
+    {
+     "name": "Jennifer Catto",
+     "title": "Chief Marketing Officer",
+     "email": "jen.catto@sabre.com"
+    },
+    {
+     "name": "Darren Atkins",
+     "title": "Marketing Director",
+     "email": "darren.atkins@sabre.com"
+    },
+    {
+     "name": "Stephanie Maniord",
+     "title": "Director, Experiential Marketing & Marketing Operations",
+     "email": "smaniord@sabre.com"
+    },
+    {
+     "name": "Kurt Ekert",
+     "title": "President & Chief Executive Officer",
+     "email": "kurt.ekert@sabre.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kurtekert",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "PagerDuty",
+   "people": [
+    {
+     "name": "Vivian Chan",
+     "title": "Director of Product Marketing",
+     "email": "vchan@pagerduty.com"
+    },
+    {
+     "name": "Rachel Singleton",
+     "title": "Director, Integrated Marketing",
+     "email": "rsingleton@pagerduty.com"
+    },
+    {
+     "name": "Victoria Walters",
+     "title": "Senior Brand Media Manager",
+     "email": "vwalters@pagerduty.com"
+    },
+    {
+     "name": "Eileen McGonigle",
+     "title": "Art Director + Brand Designer",
+     "email": "emcgonigle@pagerduty.com"
+    }
+   ]
+  },
+  {
+   "brand": "AvePoint",
+   "people": [
+    {
+     "name": "Mario Carvajal",
+     "title": "Chief Strategy & Marketing Officer",
+     "email": "mario.carvajal@avepoint.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mdivar",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Taylor Davenport",
+     "title": "Chief Revenue Officer",
+     "email": "taylor.davenport@avepoint.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/taylor-davenport-05119b15",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Timothy Boettcher",
+     "title": "Senior Vice President, GTM Strategy & Global Product Marketing",
+     "email": "timothy.boettcher@avepoint.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/timothyboettcher",
+     "location": "Arlington, United States"
+    },
+    {
+     "name": "Nicole Caci",
+     "title": "Senior Director, Brand Communications",
+     "email": "nicole.caci@avepoint.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/nicole-caci-30aa24108",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Allegro MicroSystems",
+   "people": [
+    {
+     "name": "Cao Hongyu",
+     "title": "Marketing Manager",
+     "email": "hcao@allegromicro.com"
+    },
+    {
+     "name": "Tom Bateman",
+     "title": "Marketing Manager",
+     "email": "tbateman@allegromicro.com"
+    },
+    {
+     "name": "Zachary Byron",
+     "title": "Manager, Digital Marketing & Marketing Operations",
+     "email": "zbyron@allegromicro.com"
+    },
+    {
+     "name": "Stephen Daly",
+     "title": "Strategic Marketing Manager",
+     "email": "sdaly@allegromicro.com"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,334 @@
+{
+ "rows": [
+  {
+   "brand": "Hightouch",
+   "people": [
+    {
+     "name": "Brian Kotlyar",
+     "title": "Chief Marketing Officer",
+     "email": "brian@hightouch.com"
+    },
+    {
+     "name": "Eddie Bonamassa",
+     "title": "Marketing Director",
+     "email": "eddie@hightouchinc.com"
+    },
+    {
+     "name": "Alex Roed",
+     "title": "Head of Growth",
+     "email": "alex.roed@hightouch.com"
+    },
+    {
+     "name": "Michael Chan",
+     "title": "Director of Brand Design",
+     "email": "michael.chan@hightouch.com"
+    }
+   ]
+  },
+  {
+   "brand": "Varonis",
+   "people": [
+    {
+     "name": "Rob Sobers",
+     "title": "Chief Marketing Officer",
+     "email": "rsobers@varonis.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rsobers",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Rebekah McAdams",
+     "title": "Vice President, Global Field, Partner, and Corporate Events Marketing",
+     "email": "rmcadams@varonis.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/rebekah-mcadams-0b197810",
+     "location": "Houston, United States"
+    },
+    {
+     "name": "Madeline Condron",
+     "title": "Senior Director of Brand and Integrated Marketing",
+     "email": "mcondron@varonis.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/madelinecondron",
+     "location": "Nashville, United States"
+    },
+    {
+     "name": "Leona Fadden",
+     "title": "Director of Global Demand Generation",
+     "email": "lmcfadden@varonis.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/leona-mc-fadden",
+     "location": "Ireland"
+    }
+   ]
+  },
+  {
+   "brand": "Tractian",
+   "people": [
+    {
+     "name": "Alex Vedan",
+     "title": "Global Senior Director of Product Marketing and Creative",
+     "email": "avedan@tractian.com"
+    },
+    {
+     "name": "Jillian Arena",
+     "title": "Global Senior Director of Marketing",
+     "email": "jarena@tractian.com"
+    },
+    {
+     "name": "Evan Rosenstein",
+     "title": "Head of Growth, Global",
+     "email": "erosenstein@tractian.com"
+    },
+    {
+     "name": "Priscila Wolyn",
+     "title": "Head of Growth and Corporate Recruitment",
+     "email": "pwolyn@tractian.com"
+    }
+   ]
+  },
+  {
+   "brand": "Tieto",
+   "people": [
+    {
+     "name": "Endre Rangnes",
+     "title": "President & CEO",
+     "email": "endre.rangnes@tieto.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/endre-rangnes-960b7b90",
+     "location": "Espoo, Finland"
+    },
+    {
+     "name": "Jonna Peltola",
+     "title": "Head of Communications and Brand",
+     "email": "jonna.peltola@tieto.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jonnakpeltola",
+     "location": "Finland"
+    },
+    {
+     "name": "Kristin Andreasson",
+     "title": "Global Head of Marketing and Communications, Tieto Tech Consulting",
+     "email": "kristin.andreasson@tieto.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/kristin-andreasson-8a6aa728",
+     "location": "Stockholm, Sweden"
+    },
+    {
+     "name": "Jyri Jokinurmi",
+     "title": "Global Head of Sales & Marketing",
+     "email": "jyri.jokinurmi@tieto.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jyri-jokinurmi-7696a835",
+     "location": "Kuopio, Finland"
+    }
+   ]
+  },
+  {
+   "brand": "Dashlane",
+   "people": [
+    {
+     "name": "Dhiraj Kumar",
+     "title": "Chief Marketing Officer",
+     "email": "dhiraj.kumar@dashlane.com"
+    },
+    {
+     "name": "Yanique Eames",
+     "title": "Vice President, Growth Marketing",
+     "email": "yanique.eames@dashlane.com"
+    },
+    {
+     "name": "Rachael Stockton",
+     "title": "Product Marketing Leader",
+     "email": "rachael.stockton@dashlane.com"
+    },
+    {
+     "name": "Jordan Fylonenko",
+     "title": "Senior Director of Corporate Communications",
+     "email": "jordan.fylonenko@dashlane.com"
+    }
+   ]
+  },
+  {
+   "brand": "Alarm.com Holdings",
+   "people": [
+    {
+     "name": "Joe Carroll",
+     "title": "Director of Marketing",
+     "email": "jcarroll@alarm.com"
+    },
+    {
+     "name": "William Sherwood",
+     "title": "Growth Marketing Manager",
+     "email": "tsherwood@alarm.com"
+    },
+    {
+     "name": "Ethan Myers",
+     "title": "Product Marketing Manager",
+     "email": "emyers@alarm.com"
+    }
+   ]
+  },
+  {
+   "brand": "Verint Systems",
+   "people": [
+    {
+     "name": "Dave Rhodes",
+     "title": "Chief Executive Officer",
+     "email": "dave.rhodes@verint.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/dave-rhodes",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Anna Convery",
+     "title": "Chief Marketing Officer",
+     "email": "anna.convery@verint.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/annaconvery",
+     "location": "Atlanta, United States"
+    },
+    {
+     "name": "Jasen Williams",
+     "title": "SVP, Corporate Marketing. Storytelling",
+     "email": "jasen.williams@verint.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jasenwilliams",
+     "location": "Atlanta, United States"
+    },
+    {
+     "name": "Itamar Hacohen",
+     "title": "VP of Marketing and Growth",
+     "email": "itamar.hacohen@verint.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/itamar-hacohen",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Locus Robotics",
+   "people": [
+    {
+     "name": "Rick Faulk",
+     "title": "CEO",
+     "email": "rick@locusrobotics.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rickfaulk",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Al Dekin",
+     "title": "Co Founder, Chief Revenue Officer",
+     "email": "adekin@locusrobotics.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/al-dekin",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Ashley Jones",
+     "title": "Vice President, Communications & Digital Experience",
+     "email": "ajones@locusrobotics.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/ashleywallacejones",
+     "location": "Amesbury, United States"
+    },
+    {
+     "name": "Vered Tomlak",
+     "title": "Vice President - Demand Generation",
+     "email": "vtomlak@locusrobotics.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/vered-tomlak",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "Nerdio",
+   "people": [
+    {
+     "name": "Vadim Vladimirskiy",
+     "title": "CEO",
+     "email": "vadim@getnerdio.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/vadim-vladimirskiy-b11a301",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Bryan Law",
+     "title": "Chief Marketing Officer",
+     "email": "blaw@getnerdio.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/bryanbasdenlaw",
+     "location": "Seattle, United States"
+    },
+    {
+     "name": "Hillary Ervin",
+     "title": "Senior Vice President Marketing",
+     "email": "hervin@getnerdio.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/hillaryervin",
+     "location": "Portland, United States"
+    },
+    {
+     "name": "Kaitlyn Ethier",
+     "title": "Senior Director, Brand and Communications",
+     "email": "kethier@getnerdio.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/kaitlynethier",
+     "location": "Boston, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Verbit",
+   "people": [
+    {
+     "name": "Yair Amsterdam",
+     "title": "Chief Executive Officer & Board Member",
+     "email": "yair.amsterdam@verbit.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/yairamsterdam",
+     "location": "Tel Aviv-Yafo, Israel"
+    },
+    {
+     "name": "Blair Rubio",
+     "title": "VP of Marketing",
+     "email": "blair.rubio@verbit.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/blairrubio",
+     "location": "Charlotte, United States"
+    },
+    {
+     "name": "Lee Bryn",
+     "title": "Marketing Director",
+     "email": "lee.bryn@verbit.ai",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lee-bryn",
+     "location": "Israel"
+    },
+    {
+     "name": "Matthew Schwartz",
+     "title": "Marketing Director, Education and Legal",
+     "email": "matthew.schwartz@verbit.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/matthew-schwartz-919b7943",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Dexterity",
+   "people": [
+    {
+     "name": "Samir Menon",
+     "title": "Founder & CEO",
+     "email": "samir@dexterity.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/samirmenon",
+     "location": "United States"
+    }
+   ]
+  }
+ ]
+}

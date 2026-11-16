@@ -1,0 +1,341 @@
+{
+ "rows": [
+  {
+   "brand": "Contentsquare",
+   "people": [
+    {
+     "name": "Jean-Christophe Pitie",
+     "title": "Chief Marketing Officer & Chief Partner Officer",
+     "email": "jean-christophe.pitie@contentsquare.com"
+    },
+    {
+     "name": "Moran Harpaz",
+     "title": "VP of Marketing",
+     "email": "moran.harpaz@contentsquare.com"
+    },
+    {
+     "name": "Ines Visinet",
+     "title": "VP of Product Marketing",
+     "email": "ines.visinet@contentsquare.com"
+    },
+    {
+     "name": "Mattia Santin",
+     "title": "Senior Vice President Brand, Growth & Operations",
+     "email": "mattia.santin@contentsquare.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mattiasantin",
+     "location": "Italy"
+    }
+   ]
+  },
+  {
+   "brand": "Forcepoint",
+   "people": [
+    {
+     "name": "Ryan Windham",
+     "title": "Chief Executive Officer",
+     "email": "ryan.windham@forcepoint.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rwindham",
+     "location": "San Diego, CA, USA"
+    },
+    {
+     "name": "Chris Waldo",
+     "title": "VP, Growth Marketing",
+     "email": "chris.waldo@forcepoint.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/chrisbwaldo",
+     "location": "Palo Alto, CA, USA"
+    },
+    {
+     "name": "Charles King",
+     "title": "Sr. Director, Growth Marketing",
+     "email": "charles.king@forcepoint.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/kingofcharles",
+     "location": "Dallas, TX, USA"
+    },
+    {
+     "name": "Sara Underwood",
+     "title": "Global Channel Partner MarComms Director",
+     "email": "sara.underwood@forcepoint.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/sara-underwood",
+     "location": "Spring, TX, USA"
+    }
+   ]
+  },
+  {
+   "brand": "OutSystems",
+   "people": [
+    {
+     "name": "Camila Cook",
+     "title": "Vice President of Growth Marketing",
+     "email": "camila.cook@outsystems.com"
+    },
+    {
+     "name": "Sudeep Misra",
+     "title": "Head of Global Growth Marketing",
+     "email": "sudeep.misra@outsystems.com"
+    },
+    {
+     "name": "Patricia Landim",
+     "title": "Lead Field & Partner Marketing Manager",
+     "email": "patricia.landim@outsystems.com"
+    },
+    {
+     "name": "Kris Lande",
+     "title": "Chief Marketing Officer",
+     "email": "kris.lande@outsystems.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/lande",
+     "location": "San Francisco, CA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Scality",
+   "people": [
+    {
+     "name": "Paul Speciale",
+     "title": "Chief Marketing Officer and Chief Technology Evangelist",
+     "email": "paul.speciale@scality.com"
+    },
+    {
+     "name": "Tom Leyden",
+     "title": "Vice President Product Marketing",
+     "email": "tom.leyden@scality.com"
+    },
+    {
+     "name": "Jenny Belak",
+     "title": "VP, Sales & Marketing Operations",
+     "email": "jenny.belak@scality.com"
+    },
+    {
+     "name": "Nathalie Perchard",
+     "title": "VP Field & Channel Marketing Global",
+     "email": "nathalie.perchard@scality.com"
+    }
+   ]
+  },
+  {
+   "brand": "Sitecore",
+   "people": [
+    {
+     "name": "Eric Stine",
+     "title": "Chief Executive Officer",
+     "email": "eric@sitecore.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/eric-stine-ceo-sitecore",
+     "location": "New York, NY, USA"
+    },
+    {
+     "name": "Katie Staveley",
+     "title": "VP, Growth and Marketing Operations",
+     "email": "katie.staveley@sitecore.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/katherinestaveley",
+     "location": "Boston, MA, USA"
+    },
+    {
+     "name": "Perry Manross",
+     "title": "Chief of Staff to CEO and Head of Corporate Communications",
+     "email": "perry.manross@sitecore.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/perry-manross",
+     "location": "Manchester, NH, USA"
+    },
+    {
+     "name": "Chantal Graham",
+     "title": "Senior Director, Brand & Creative Marketing",
+     "email": "chantal.graham@sitecore.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/chantalgraham",
+     "location": "Maidenhead, Windsor and Maidenhead, UK"
+    }
+   ]
+  },
+  {
+   "brand": "Tanium",
+   "people": [
+    {
+     "name": "Pedro Ochagavia",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "pedro.diaz@tanium.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/pedrodiazit",
+     "location": "Los Angeles, CA, USA"
+    },
+    {
+     "name": "Chris Ochynski",
+     "title": "Vice President, Marketing",
+     "email": "christopher.ochynski@tanium.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/chrisochynski",
+     "location": "Chicago, IL, USA"
+    },
+    {
+     "name": "Sean Riordan",
+     "title": "Vice President Communications",
+     "email": "sean.riordan@tanium.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/spriordan",
+     "location": "Dallas, TX, USA"
+    },
+    {
+     "name": "Sami Keinaenen",
+     "title": "Sr. Director, Brand & Design",
+     "email": "sami.keinaenen@tanium.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/samijk",
+     "location": "Alameda, CA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Elliptic",
+   "people": [
+    {
+     "name": "Simone Maini",
+     "title": "Chief Executive Officer",
+     "email": "simone@elliptic.co",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/simone-maini",
+     "location": "London, UK"
+    },
+    {
+     "name": "Sarah Whipp",
+     "title": "CMO",
+     "email": "sarah.whipp@elliptic.co",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sarahwhipp",
+     "location": "London, UK"
+    },
+    {
+     "name": "Jenny Ayre",
+     "title": "Head of Global Integrated Marketing",
+     "email": "jenny.ayre@elliptic.co",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jennyayre",
+     "location": "London, UK"
+    },
+    {
+     "name": "Rachel Matthews",
+     "title": "Interim Marketing Director Brand & Campaigns",
+     "email": "rachel.matthews@elliptic.co",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/rachelmarymatthews",
+     "location": "West Molesey, Surrey, UK"
+    }
+   ]
+  },
+  {
+   "brand": "TRM Labs",
+   "people": [
+    {
+     "name": "Esteban Castano",
+     "title": "Co-founder & CEO",
+     "email": "esteban@trmlabs.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ecastano",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Patrick South",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "patrick@trmlabs.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/patricksouth",
+     "location": "Washington, DC, USA"
+    },
+    {
+     "name": "Jae Lee",
+     "title": "Head of Marketing Operations",
+     "email": "jae.lee@trmlabs.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jaelee-marketing",
+     "location": "Houston, TX, USA"
+    },
+    {
+     "name": "Dominique Stefano",
+     "title": "Director of Demand Generation",
+     "email": "dominique.stefano@trmlabs.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/dominiquedestefano",
+     "location": "San Francisco, CA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Netomi",
+   "people": [
+    {
+     "name": "Alan Lepofsky",
+     "title": "Head of Brand and Influence",
+     "email": "alan@netomi.com"
+    },
+    {
+     "name": "Puneet Mehta",
+     "title": "Founder / CEO",
+     "email": "puneet@netomi.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/pumehta",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Michael Nunez",
+     "title": "VP, Editorial & Content",
+     "email": "michael.nunez@netomi.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/michaelfnunez",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Ashley Miller",
+     "title": "VP - Head of Alliances, Partners & Channels",
+     "email": "ashley@netomi.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/ashley-miller-722b224",
+     "location": "San Francisco, CA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "HappyRobot",
+   "people": [
+    {
+     "name": "Pablo Palafox",
+     "title": "CEO",
+     "email": "pablo.palafox@happyrobot.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/pablorpalafox",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Javi Palafox",
+     "title": "Co-Founder",
+     "email": "javier.palafox@happyrobot.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/javierpalafox",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Cody Redmer",
+     "title": "Head of Brand & Creative",
+     "email": "cody.redmer@happyrobot.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/cody-redmer",
+     "location": "Los Angeles, CA, USA"
+    },
+    {
+     "name": "Jaime Perena",
+     "title": "Head of Global Partnerships",
+     "email": "jaime.perena@happyrobot.ai",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jperena",
+     "location": "Fort Lauderdale, FL, USA"
+    }
+   ]
+  }
+ ]
+}

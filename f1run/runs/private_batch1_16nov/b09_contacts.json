@@ -1,0 +1,325 @@
+{
+ "rows": [
+  {
+   "brand": "ReliaQuest",
+   "people": [
+    {
+     "name": "Laurie Morylak",
+     "title": "CMO",
+     "email": "lmorylak@reliaquest.com"
+    },
+    {
+     "name": "J'yah Marshall",
+     "title": "Director of Product Marketing",
+     "email": "jmarshall@reliaquest.com"
+    },
+    {
+     "name": "Carla Thomas",
+     "title": "Director of Marketing Operations",
+     "email": "cthomas@reliaquest.com"
+    },
+    {
+     "name": "Kim Hill",
+     "title": "Chief of Staff and Head of Corporate Communications",
+     "email": "khill@reliaquest.com"
+    }
+   ]
+  },
+  {
+   "brand": "Upwind Security",
+   "people": [
+    {
+     "name": "Danilo Michelucci",
+     "title": "Head of Product Marketing",
+     "email": "danilo.michelucci@upwind.io"
+    },
+    {
+     "name": "Brooke Bloomquist",
+     "title": "Head of Field Marketing + Events",
+     "email": "brooke.bloomquist@upwind.io"
+    },
+    {
+     "name": "Lavi Ferdman",
+     "title": "Co-Founder & SVP of Growth",
+     "email": "lavi.ferdman@upwind.io"
+    },
+    {
+     "name": "Dor Druker",
+     "title": "Head of Growth",
+     "email": "dor.druker@upwind.io"
+    }
+   ]
+  },
+  {
+   "brand": "TradingView",
+   "people": [
+    {
+     "name": "Stan Bokov",
+     "title": "Co-Founder",
+     "email": "sbokov@tradingview.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/stanbokov",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Rauan Khassan",
+     "title": "Chief Growth Officer",
+     "email": "rkhassan@tradingview.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/rauan-khassan-271a8611",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Enrico Paccusse",
+     "title": "Senior Growth Director",
+     "email": "epaccusse@tradingview.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/enricopaccusse",
+     "location": "Iesi, Italy"
+    },
+    {
+     "name": "Ahmed Hakim",
+     "title": "Director of Growth",
+     "email": "ahakim@tradingview.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/ahmed-hakim",
+     "location": "Egypt"
+    }
+   ]
+  },
+  {
+   "brand": "Inflection AI",
+   "people": [
+    {
+     "name": "Erica Jostedt",
+     "title": "Interim Head of Communications",
+     "email": "erica.jostedt@inflection.ai"
+    },
+    {
+     "name": "Sean White",
+     "title": "CEO",
+     "email": "sean@inflection.ai"
+    },
+    {
+     "name": "Lucas Campa",
+     "title": "Co-Founder",
+     "email": "lucas.campa@inflection.ai"
+    }
+   ]
+  },
+  {
+   "brand": "Einride",
+   "people": [
+    {
+     "name": "Roozbeh Charli",
+     "title": "CEO",
+     "email": "roozbeh.charli@einride.tech",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/roozbeh-charli-81a802a",
+     "location": "Stockholm, Sweden"
+    },
+    {
+     "name": "Marcus Engstrom",
+     "title": "SVP Growth & Solutions, North America, Europe and Middle East",
+     "email": "marcus.engstrom@einride.tech",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/marcus-engstrom-461b3774",
+     "location": "Sweden"
+    },
+    {
+     "name": "Hanna Jabar",
+     "title": "Global Head of Communications (Interim)",
+     "email": "hanna.holmquist.jabar@einride.tech",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/hanna-holmquist-jabar-5aa21561",
+     "location": "Stockholm, Sweden"
+    },
+    {
+     "name": "Christina Zander",
+     "title": "Tf Head of Communications",
+     "email": "christina.zander@einride.tech",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/christina-zander-99284569",
+     "location": "Gothenburg, Sweden"
+    }
+   ]
+  },
+  {
+   "brand": "Upstage",
+   "people": [
+    {
+     "name": "Sara Hanley",
+     "title": "Senior Vice President Marketing",
+     "email": "shanley@upstage.ai"
+    },
+    {
+     "name": "Eunkyung Cho",
+     "title": "Sales Marketing Team Lead (AI Biz)",
+     "email": "eunkyung.cho@upstage.ai"
+    },
+    {
+     "name": "Sungbeom Bae",
+     "title": "Communications Lead",
+     "email": "sungbae@upstage.ai"
+    },
+    {
+     "name": "Sung Kim",
+     "title": "Co-Founder/CEO Upstage Building AGI",
+     "email": "hunkim@upstage.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/hunkimup",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Cribl",
+   "people": [
+    {
+     "name": "Clint Sharp",
+     "title": "Co-founder and CEO",
+     "email": "clint@cribl.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/clintsharp",
+     "location": "Los Gatos, United States"
+    },
+    {
+     "name": "Abby Strong",
+     "title": "Chief Market Officer & Chief Customer Officer",
+     "email": "abby@cribl.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/abbystrong",
+     "location": "San Jose, United States"
+    },
+    {
+     "name": "Zena Fritze",
+     "title": "SVP, Growth Marketing",
+     "email": "zena@cribl.io",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/zenafritze",
+     "location": "San Jose, United States"
+    },
+    {
+     "name": "Kaycee Chiu",
+     "title": "Senior Director, Brand and Creative",
+     "email": "kcarmichaelchiu@cribl.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/kayceechiu",
+     "location": "San Jose, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Rezolve AI",
+   "people": [
+    {
+     "name": "Michele Fisher",
+     "title": "CMO",
+     "email": "michelefisher@rezolve.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/michelekfisher",
+     "location": "Seattle, United States"
+    },
+    {
+     "name": "Mark Turner",
+     "title": "Chief Growth Officer",
+     "email": "markturner@rezolve.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/markbusiness17",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Vadish Shetty",
+     "title": "VP Global Marketing",
+     "email": "vadishshetty@rezolve.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/vadish",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Joanna Balkowski",
+     "title": "Vice President Marketing",
+     "email": "joannabalkowski@rezolve.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/balkowski",
+     "location": "Toronto, Canada"
+    }
+   ]
+  },
+  {
+   "brand": "Rokid",
+   "people": [
+    {
+     "name": "Alan Ding",
+     "title": "Affiliate Marketing Manager",
+     "email": "ding@rokid.com"
+    }
+   ]
+  },
+  {
+   "brand": "PaleBlueDot AI",
+   "people": [
+    {
+     "name": "Rachel Li",
+     "title": "Head of Communications and Branding",
+     "email": "rachel.li@palebluedot.ai"
+    },
+    {
+     "name": "Irene Zhao",
+     "title": "Marketing Operations",
+     "email": "irene.zhao@palebluedot.ai"
+    },
+    {
+     "name": "Stephen Watts",
+     "title": "Chief Executive Officer",
+     "email": "stephen.watts@palebluedot.ai"
+    },
+    {
+     "name": "Jonathan Zhu",
+     "title": "Founder",
+     "email": "jonathan.zhu@palebluedot.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jonathan-zhu-56638338",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Fortune Brands Innovations",
+   "people": [
+    {
+     "name": "Jesse Singh",
+     "title": "Chief Executive Officer",
+     "email": "jesse.singh@fbin.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jessegsingh",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Molly Pajauskas",
+     "title": "Vice President Brand Marketing",
+     "email": "molly.pajauskas@fbin.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/molly-o-loughlin-pajauskas",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Molly Kilduff",
+     "title": "Vice President, Brand Marketing Ops (Creative, Media, Digital & Trade Shows)",
+     "email": "molly.kilduff@fbin.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/mollykilduff",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Nikkie Sedaghat",
+     "title": "Director, Affinity Partnerships",
+     "email": "nikkie.sedaghat@fbgpg.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/nikkie-sedaghat",
+     "location": "San Diego, United States"
+    }
+   ]
+  }
+ ]
+}

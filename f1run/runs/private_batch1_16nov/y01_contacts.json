@@ -1,0 +1,266 @@
+{
+ "rows": [
+  {
+   "brand": "Fiserv",
+   "people": [
+    {
+     "name": "Elma Joseph",
+     "title": "Marketing Director",
+     "email": "elma.joseph@fiserv.com"
+    },
+    {
+     "name": "Rick Singh",
+     "title": "EVP Chief Growth Officer",
+     "email": "rick.singh@fiserv.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rick-singh-62024663",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Patrick Eisenbeil",
+     "title": "Sr. Director of Global Brand Strategy and Enterprise Marketing",
+     "email": "patrick.eisenbeil@fiserv.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/patrick-eisenbeil",
+     "location": "Atlanta, United States"
+    },
+    {
+     "name": "Matt Bonomolo",
+     "title": "Director, Sponsorship Activation and Event Programming",
+     "email": "matthew.bonomolo@fiserv.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/matt-bonomolo-a4519030",
+     "location": "Pearl River, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Western Union",
+   "people": [
+    {
+     "name": "Alex Chassin",
+     "title": "Director, Lifecycle Marketing & Strategy",
+     "email": "alex.chassin@westernunion.com"
+    },
+    {
+     "name": "Cara Wallace",
+     "title": "VP Marketing",
+     "email": "cara.wallace@westernunion.com"
+    },
+    {
+     "name": "Frank Privette",
+     "title": "Global Marketing Senior Lead",
+     "email": "frank.privette@wu.com"
+    },
+    {
+     "name": "Maria Marmolejo",
+     "title": "Brand & Communications Leader",
+     "email": "maria.marmolejo@westernunion.com"
+    }
+   ]
+  },
+  {
+   "brand": "CME Group",
+   "people": [
+    {
+     "name": "Colleen Lazar",
+     "title": "Executive Director, Global Brand Marketing and Communications",
+     "email": "colleen.lazar@cmegroup.com"
+    },
+    {
+     "name": "John Rossmiller",
+     "title": "Senior Director, Global Brand Marketing",
+     "email": "john.rossmiller@cmegroup.com"
+    },
+    {
+     "name": "Colby Borders",
+     "title": "Senior Director, Global Brand Marketing & Event Management",
+     "email": "colby.borders@cmegroup.com"
+    },
+    {
+     "name": "Sal Cilella",
+     "title": "Executive Director, Global Head of Digital Marketing and Strategy",
+     "email": "sal.cilella@cmegroup.com"
+    }
+   ]
+  },
+  {
+   "brand": "Moody's",
+   "people": [
+    {
+     "name": "Christina Kosmowski",
+     "title": "Chief Executive Officer",
+     "email": "christina.kosmowski@moodys.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/acwaaaab7lqb3zwu7lbm3lfci3fp4rlk4ypaegi",
+     "location": "United States"
+    },
+    {
+     "name": "Katherine Curtin",
+     "title": "Head of Marketing for Corporate, Government & KYC",
+     "email": "katherine.curtin@moodys.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/katherinebcurtin",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Pascal Lendermann",
+     "title": "Senior Director, Global Demand Generation & Marketing Operations",
+     "email": "pascal.lendermann@moodys.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/lendermann",
+     "location": "Kelmis, Belgium"
+    },
+    {
+     "name": "Janette Niccolls",
+     "title": "Assistant Director, Global Marketing and Events",
+     "email": "janette.niccolls@moodys.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/janette-niccolls-0b044032",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Twilio",
+   "people": [
+    {
+     "name": "Amanda Ramos",
+     "title": "Principal Executive Communications Manager, CMO",
+     "email": "aramos@twilio.com"
+    },
+    {
+     "name": "Chris Koehler",
+     "title": "Chief Marketing Officer",
+     "email": "ckoehler@twilio.com"
+    },
+    {
+     "name": "Vanessa Thompson",
+     "title": "Vice President, Revenue and Growth Marketing",
+     "email": "vthompson@twilio.com"
+    },
+    {
+     "name": "Kailey Raymond",
+     "title": "Revenue & Growth Marketing Leader",
+     "email": "kraymond@twilio.com"
+    }
+   ]
+  },
+  {
+   "brand": "Sinch",
+   "people": [
+    {
+     "name": "Sophie Cheng",
+     "title": "Chief Marketing Officer",
+     "email": "sophie.cheng@sinch.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/sophiebcheng",
+     "location": "United States"
+    },
+    {
+     "name": "Gwen Lafage",
+     "title": "VP Marketing, Global Brand & Integrated Campaigns",
+     "email": "gwen.lafage@sinch.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/gwen-lafage",
+     "location": "Nantes, France"
+    },
+    {
+     "name": "Suphal Mehrotra",
+     "title": "Chief Revenue Officer",
+     "email": "suphal.mehrotra@sinch.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/suphalmehrotra",
+     "location": "Mumbai, India"
+    },
+    {
+     "name": "Jan Ritter",
+     "title": "VP of Marketing",
+     "email": "jan.ritter@sinch.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/janritter",
+     "location": "Springfield, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Brookfield Corporation",
+   "people": [
+    {
+     "name": "Carolyn Tyler",
+     "title": "VP Marketing",
+     "email": "carolyn.tyler@brookfield.com"
+    },
+    {
+     "name": "Juhi Rathee",
+     "title": "Vice President Marketing",
+     "email": "juhi.rathee@brookfield.com"
+    },
+    {
+     "name": "Steve Nelson",
+     "title": "Vice President Marketing",
+     "email": "steve.nelson@brookfield.com"
+    },
+    {
+     "name": "Michelle Lee",
+     "title": "VP of Marketing",
+     "email": "michelle.lee@brookfield.com"
+    }
+   ]
+  },
+  {
+   "brand": "Genpact",
+   "people": [
+    {
+     "name": "Partho Bhattacharjee",
+     "title": "AVP - Head of Marketing Technology and Channel Operations",
+     "email": "parthosarathi.bhattacharjee@genpact.com"
+    },
+    {
+     "name": "Amarjeet Rajput",
+     "title": "Strategy & Growth Leader",
+     "email": "amarjeet.rajput@genpact.com"
+    },
+    {
+     "name": "Michael Schneider",
+     "title": "Vice President of Communications, Office of the CEO",
+     "email": "michael.schneider@genpact.com"
+    },
+    {
+     "name": "Aadrit Kashyap",
+     "title": "Commercial Growth Leader",
+     "email": "aadrit.kashyap@genpact.com"
+    }
+   ]
+  },
+  {
+   "brand": "Clarivate",
+   "people": [
+    {
+     "name": "Matti Tov",
+     "title": "Chief Executive Officer",
+     "email": "matti.shemtov@clarivate.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/matti-shem-tov-51555a5",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Gwenan White",
+     "title": "Senior Vice President Communications & Brand",
+     "email": "gwenan.white@clarivate.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/gwenan-white-6459ab19",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Julie Carney",
+     "title": "Vice President, Brand & Voice of Customer",
+     "email": "julie.carney@clarivate.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/juliecarney",
+     "location": "Caterham, United Kingdom"
+    }
+   ]
+  }
+ ]
+}

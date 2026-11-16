@@ -1,0 +1,363 @@
+{
+ "rows": [
+  {
+   "brand": "Megaport",
+   "people": [
+    {
+     "name": "Michael Reid",
+     "title": "CEO",
+     "email": "michael.reid@megaport.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/micreid",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Monika Church",
+     "title": "Senior Director Global Marketing",
+     "email": "monika.church@megaport.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/monikawill",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Eva Knutsson",
+     "title": "Senior Director, Marketing Operations",
+     "email": "eva.knutsson@megaport.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/evaknutsson",
+     "location": "Australia"
+    }
+   ]
+  },
+  {
+   "brand": "Powerfleet",
+   "people": [
+    {
+     "name": "Jonathan Bates",
+     "title": "Chief Marketing Officer",
+     "email": "jonathan.bates@powerfleet.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jonathanmichaelbates",
+     "location": "Birmingham, United Kingdom"
+    },
+    {
+     "name": "Margot Parsons",
+     "title": "Director Global Growth Marketing",
+     "email": "margot.parsons@powerfleet.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/margot-parsons-854b3921",
+     "location": "South Africa"
+    },
+    {
+     "name": "Charles Tasker",
+     "title": "Chief Revenue Officer",
+     "email": "charles.tasker@mixtelematics.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/charlestasker",
+     "location": "Clermont, United States"
+    },
+    {
+     "name": "Jeff Lautenbach",
+     "title": "CRO",
+     "email": "jeff.lautenbach@powerfleet.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jeff-lautenbach-55759b1",
+     "location": "Indianapolis, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Similarweb",
+   "people": [
+    {
+     "name": "Guy Gomberg",
+     "title": "CMO",
+     "email": "guy.gomberg@similarweb.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/guygomberg",
+     "location": "Israel"
+    },
+    {
+     "name": "Natalie Cohen",
+     "title": "Senior Director of Marketing & Growth",
+     "email": "natalie.cohen@similarweb.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/nataliecohena",
+     "location": "Prague, Czech Republic"
+    },
+    {
+     "name": "Susan Dunn",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "susan.dunn@similarweb.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/susan-dunn-3100083",
+     "location": "Atlanta, United States"
+    },
+    {
+     "name": "Shay Harel",
+     "title": "CEO & Founder",
+     "email": "shay.harel@similarweb.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/rangershay",
+     "location": "Israel"
+    }
+   ]
+  },
+  {
+   "brand": "Tezos",
+   "people": [
+    {
+     "name": "Fabrice Trutmann",
+     "title": "Managing Director & Technical Advisory Committee Member",
+     "email": "fabrice.trutmann@tezos.foundation",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/fabrice-trutmann-772a62150",
+     "location": "Zuerich, Switzerland"
+    },
+    {
+     "name": "Eoin McGinley",
+     "title": "Head of Public Relations",
+     "email": "eoin.mcginley@trili.tech",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/eoinmcginley",
+     "location": "Ireland"
+    },
+    {
+     "name": "Corey Soreff",
+     "title": "Executive Director",
+     "email": "corey@tezoscommons.org",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/csoreff",
+     "location": "Japan"
+    }
+   ]
+  },
+  {
+   "brand": "Morse Micro",
+   "people": [
+    {
+     "name": "Michael Nil",
+     "title": "CEO & Co-founder",
+     "email": "michael@morsemicro.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/michael-de-nil",
+     "location": "Sydney, Australia"
+    },
+    {
+     "name": "Andy McFarlane",
+     "title": "VP of Marketing",
+     "email": "andy.mcfarlane@morsemicro.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/andymcf",
+     "location": "Sydney, Australia"
+    },
+    {
+     "name": "Maggie Radford-Hill",
+     "title": "Head of Communications",
+     "email": "maggie.gaston@morsemicro.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/maggiegaston",
+     "location": "Sydney, Australia"
+    }
+   ]
+  },
+  {
+   "brand": "LegalOn Technologies",
+   "people": [
+    {
+     "name": "Hailey Marshall",
+     "title": "Brand Design Director",
+     "email": "hailey.marshall@legalontech.com"
+    },
+    {
+     "name": "Eileen Policarpio",
+     "title": "Communications and Marketing",
+     "email": "eileen.policarpio@legalontech.com"
+    },
+    {
+     "name": "Christine Reck",
+     "title": "Event Marketing Manager",
+     "email": "christine.reck@legalontech.com"
+    },
+    {
+     "name": "Daniel Lewis",
+     "title": "CEO",
+     "email": "daniel.lewis@legalontech.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/dlewis4",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Matillion",
+   "people": [
+    {
+     "name": "Mike Boyarski",
+     "title": "CMO",
+     "email": "mike.boyarski@matillion.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/boyarski",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Taylor Mecham",
+     "title": "Vice President, Global Demand Generation",
+     "email": "taylor.mecham@matillion.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/taylormecham",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Tim O'Neil",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "tim.oneil@matillion.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/tim-o-neil-20a6997",
+     "location": "Franklin, United States"
+    },
+    {
+     "name": "Duncan Garside",
+     "title": "VP - Global Event, Field and Partner Marketing",
+     "email": "duncan.garside@matillion.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/duncanga",
+     "location": "Duvall, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Avathon",
+   "people": [
+    {
+     "name": "Amir Husain",
+     "title": "Founder & Chief Executive Officer",
+     "email": "amir@avathon.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/amirhusain",
+     "location": "Austin, United States"
+    },
+    {
+     "name": "Sean Rollings",
+     "title": "VP Product Marketing",
+     "email": "srollings@sparkcognition.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sean-rollings-440704",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Immuta",
+   "people": [
+    {
+     "name": "Matthew Carroll",
+     "title": "CEO",
+     "email": "matt@immuta.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/matthewrcarroll",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Sam Carroll",
+     "title": "Head of Product Marketing",
+     "email": "sam.carroll@immuta.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/samc-dev",
+     "location": "United States"
+    },
+    {
+     "name": "Brandon Lee",
+     "title": "Director, Revenue Marketing",
+     "email": "brandon.lee@immuta.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/bleepdx",
+     "location": "Vancouver, United States"
+    },
+    {
+     "name": "Kaileb Holland",
+     "title": "Director of Growth Operations",
+     "email": "kaileb.holland@immuta.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/kailebholland",
+     "location": "Austin, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Coro",
+   "people": [
+    {
+     "name": "Heather Harlos",
+     "title": "Global Vice President of Marketing, Programs, and Enablement",
+     "email": "heather.harlos@coro.net"
+    },
+    {
+     "name": "Yana Persky",
+     "title": "Director of Product Marketing",
+     "email": "yana.persky@coro.net"
+    },
+    {
+     "name": "Jonelle Elam",
+     "title": "Director Corporate Communications",
+     "email": "jonelle.hester@coro.net"
+    },
+    {
+     "name": "Andrew Neita",
+     "title": "Director of Demand Generation",
+     "email": "andrew.neita@coro.net"
+    }
+   ]
+  },
+  {
+   "brand": "H2O.ai",
+   "people": [
+    {
+     "name": "Sri Ambati",
+     "title": "CEO & Co-founder",
+     "email": "sri@h2o.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/srisatishambati",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Mark Herring",
+     "title": "Chief Marketing Officer",
+     "email": "mark.herring@h2o.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/herringmark",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Jason Finney",
+     "title": "President & Chief Revenue Officer (CRO)",
+     "email": "jason.finney@h2o.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jasonfinney",
+     "location": "Newport Beach, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Panzura",
+   "people": [
+    {
+     "name": "Karthik Ramamurthy",
+     "title": "CEO",
+     "email": "karthik.ramamurthy@panzura.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/karthikramamurthy",
+     "location": "Saratoga, United States"
+    },
+    {
+     "name": "Darrin Chapman",
+     "title": "Senior Director Product Marketing",
+     "email": "darrin.chapman@panzura.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/darrinchapman",
+     "location": "United States"
+    }
+   ]
+  }
+ ]
+}

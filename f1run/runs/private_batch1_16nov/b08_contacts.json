@@ -1,0 +1,308 @@
+{
+ "rows": [
+  {
+   "brand": "Writer",
+   "people": [
+    {
+     "name": "May Habib",
+     "title": "Co-founder and CEO",
+     "email": "may@writer.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/may-habib",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Diego Lomanto",
+     "title": "CMO",
+     "email": "diego@writer.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/diegolomanto",
+     "location": "Stony Brook, NY, USA"
+    },
+    {
+     "name": "Andy Shorkey",
+     "title": "Chief Revenue Officer",
+     "email": "andy@writer.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/andy-shorkey-33b5286",
+     "location": "Atlanta, GA, USA"
+    },
+    {
+     "name": "Glenda Felden",
+     "title": "Vice President, Communications, Content, & Brand",
+     "email": "glenda@writer.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/glendafelden",
+     "location": "New York, NY, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Abnormal AI",
+   "people": [
+    {
+     "name": "Evan Reiser",
+     "title": "Founder & CEO",
+     "email": "evan@abnormal.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/evanreiser",
+     "location": "Las Vegas, NV, USA"
+    },
+    {
+     "name": "Don Jeter",
+     "title": "CMO",
+     "email": "djeter@abnormal.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/donjeter",
+     "location": "United States"
+    },
+    {
+     "name": "Ryan Patel-Francis",
+     "title": "VP, Revenue Marketing",
+     "email": "rfrancis@abnormal.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/ryandavidfrancis",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Lisa Dedonato",
+     "title": "Director, Global Integrated Marketing",
+     "email": "ldedonato@abnormalsecurity.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lisa-dedonato",
+     "location": "Boston, MA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Kore.ai",
+   "people": [
+    {
+     "name": "Raj Koneru",
+     "title": "CEO/Founder",
+     "email": "rajkoneru@kore.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rajkonerufl",
+     "location": "Windermere, United States"
+    },
+    {
+     "name": "Peter Mullen",
+     "title": "Chief Marketing Officer",
+     "email": "peter.mullen@kore.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/phmullen",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Abhijit Mhetre",
+     "title": "SVP and Head of Marketing",
+     "email": "abhijit.mhetre@kore.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/abhijitmhetre",
+     "location": "Pune, India"
+    },
+    {
+     "name": "Harry Williams",
+     "title": "Global Head of Brand and Creative",
+     "email": "harry.williams@kore.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/harry-williams-49512510b",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Obsidian Security",
+   "people": [
+    {
+     "name": "Mitesh Shah",
+     "title": "Vice President Product Marketing",
+     "email": "mshah@obsidiansecurity.com"
+    },
+    {
+     "name": "Priya Balakrishnan",
+     "title": "SVP, Product Marketing",
+     "email": "priya@obsidiansecurity.com"
+    },
+    {
+     "name": "Nick Pitts",
+     "title": "Global Director, Field and Partner Marketing",
+     "email": "npitts@obsidiansecurity.com"
+    },
+    {
+     "name": "Hasan Imam",
+     "title": "Chief Executive Officer",
+     "email": "hasan@obsidiansecurity.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/hasanimam",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Fractal Analytics",
+   "people": [
+    {
+     "name": "Susmita Roy",
+     "title": "Director, Marketing Communications",
+     "email": "susmita.roy@fractal.ai"
+    },
+    {
+     "name": "Ritika Ranjan",
+     "title": "Global Brand Marketing Lead - Social",
+     "email": "ritika.ranjan@fractal.ai"
+    },
+    {
+     "name": "Olivier Fontana",
+     "title": "CMO/VP/Head of Marketing",
+     "email": "olivier.fontana@fractal.ai"
+    },
+    {
+     "name": "Pavan Palety",
+     "title": "Head of Sales & Growth",
+     "email": "pavan.palety@fractal.ai"
+    }
+   ]
+  },
+  {
+   "brand": "Chainguard",
+   "people": [
+    {
+     "name": "Liz Egan",
+     "title": "Chief Marketing Officer",
+     "email": "liz.egan@chainguard.dev"
+    },
+    {
+     "name": "Parm Uppal",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "parm.uppal@chainguard.dev"
+    },
+    {
+     "name": "Dan Lorenc",
+     "title": "Founder/CEO",
+     "email": "dlorenc@chainguard.dev",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/danlorenc",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Maryann Ibrahim",
+     "title": "VP, Demand Generation",
+     "email": "maryann.ibrahim@chainguard.dev",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/maryannibrahim",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Uniphore",
+   "people": [
+    {
+     "name": "Claire Darling",
+     "title": "Chief Marketing Officer",
+     "email": "claire.darling@uniphore.com"
+    },
+    {
+     "name": "Devin Brodie",
+     "title": "Global Director of Field Marketing",
+     "email": "devin.brodie@uniphore.com"
+    },
+    {
+     "name": "Reema Wadhwani",
+     "title": "Director of Marketing Demand Generation",
+     "email": "reema@uniphore.com"
+    },
+    {
+     "name": "Prashanth Thandavamurthy",
+     "title": "Agentic AI Product Marketing Lead",
+     "email": "prashanth.thandavamurthy@uniphore.com"
+    }
+   ]
+  },
+  {
+   "brand": "Icertis",
+   "people": [
+    {
+     "name": "Chelcee Coffman",
+     "title": "Associate Vice President, Brand Marketing & Communications",
+     "email": "chelcee.coffman@icertis.com"
+    },
+    {
+     "name": "Preeti Shankaranarayanan",
+     "title": "Senior Director - Growth Marketing",
+     "email": "p.shankaranarayanan@icertis.com"
+    },
+    {
+     "name": "Melissa Astorga",
+     "title": "Senior Director, Brand Marketing",
+     "email": "melissa.astorga@icertis.com"
+    },
+    {
+     "name": "Uday Tekumalla",
+     "title": "Corporate Vice President, Marketing",
+     "email": "uday.tekumalla@icertis.com"
+    }
+   ]
+  },
+  {
+   "brand": "Digital Asset",
+   "people": [
+    {
+     "name": "Jonathan Isaac",
+     "title": "Chief Marketing Officer",
+     "email": "jonathan.isaac@digitalasset.com"
+    },
+    {
+     "name": "Vivek Srivastava",
+     "title": "Director of Customer and Network Growth",
+     "email": "vivek.srivastava@digitalasset.com"
+    },
+    {
+     "name": "Paul Patella",
+     "title": "Head of Strategic Communications",
+     "email": "paul.patella@digitalasset.com"
+    },
+    {
+     "name": "Yuval Rooz",
+     "title": "Co-Founder & CEO",
+     "email": "yuval@digitalasset.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/yuvalrooz",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Guidewire Software",
+   "people": [
+    {
+     "name": "Kristen Sharkey",
+     "title": "Senior Director, Communications",
+     "email": "ksharkey@guidewire.com"
+    },
+    {
+     "name": "Laura Urdaneta",
+     "title": "Director, Corporate Marketing",
+     "email": "lurdaneta@guidewire.com"
+    },
+    {
+     "name": "Brian Desmond",
+     "title": "CMO",
+     "email": "bdesmond@guidewire.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/brian-desmond-8b933a",
+     "location": "Mill Valley, United States"
+    },
+    {
+     "name": "David Laker",
+     "title": "Chief Commercial Officer (CCO)",
+     "email": "dlaker@guidewire.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/davidalaker",
+     "location": "Chicago, United States"
+    }
+   ]
+  }
+ ]
+}

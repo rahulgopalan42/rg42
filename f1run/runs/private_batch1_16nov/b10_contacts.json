@@ -1,0 +1,351 @@
+{
+ "rows": [
+  {
+   "brand": "UL Solutions",
+   "people": [
+    {
+     "name": "Corinne Chocolaad",
+     "title": "Vice President Marketing",
+     "email": "corinne.chocolaad@ul.com"
+    },
+    {
+     "name": "Jeremy Verstraete",
+     "title": "Vice President, Marketing",
+     "email": "jeremy.verstraete@ul.com"
+    },
+    {
+     "name": "Lee King",
+     "title": "Director of Brand Activation and Customer Experience",
+     "email": "lee.king@ul.com"
+    },
+    {
+     "name": "Jennifer Scanlon",
+     "title": "President & CEO",
+     "email": "jennifer.scanlon@ul.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/j-scanlon",
+     "location": "Chicago, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Manus AI",
+   "people": [
+    {
+     "name": "Red Xiao",
+     "title": "Founder & CEO",
+     "email": "red@manus.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/red-xiao-9ab9a5165",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Henry Yang",
+     "title": "Chief Marketing Officer",
+     "email": "henry@manus.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/henry-yang-654098355",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Hyan Gao",
+     "title": "VP, Operations & Public Affairs",
+     "email": "hyan@manus.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/hyangao",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Lucia Lu",
+     "title": "Head of Community & Strategic Initiatives",
+     "email": "lucia@manus.im",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/yan-lucia-lu",
+     "location": "Singapore, Singapore"
+    }
+   ]
+  },
+  {
+   "brand": "Alchemy",
+   "people": [
+    {
+     "name": "Lisa",
+     "title": "Head of Marketing",
+     "email": "lisa@alchemy.com"
+    },
+    {
+     "name": "Jo Hunt",
+     "title": "Communications",
+     "email": "jo.hunt@alchemy.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jo-hunt",
+     "location": "Los Angeles, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Coralogix",
+   "people": [
+    {
+     "name": "Brian Mullen",
+     "title": "Chief Marketing Officer",
+     "email": "brian.mullen@coralogix.com"
+    },
+    {
+     "name": "Stephanie Suriyakam",
+     "title": "VP of Demand Generation & Field Marketing",
+     "email": "stephanie.suriyakam@coralogix.com"
+    }
+   ]
+  },
+  {
+   "brand": "Higgsfield AI",
+   "people": [
+    {
+     "name": "Alex Mashrabov",
+     "title": "CEO & Co-Founder",
+     "email": "am@higgsfield.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/amashrabov",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Mariam Asmar",
+     "title": "Head of B2B Marketing",
+     "email": "mariam@higgsfield.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/mariamasmar",
+     "location": "United States"
+    },
+    {
+     "name": "Deykhan Ten",
+     "title": "Head of Partnerships",
+     "email": "deykhan@higgsfield.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/deykhan",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "CoachHub",
+   "people": [
+    {
+     "name": "David Van Schaick",
+     "title": "Vice President Marketing",
+     "email": "david.vanschaik.extern@coachhub.com"
+    },
+    {
+     "name": "Marie Hillion",
+     "title": "Head of Product Marketing",
+     "email": "marie.hillion@coachhub.com"
+    },
+    {
+     "name": "Giulia Fioravera",
+     "title": "Head of Brand",
+     "email": "giulia.fioravera@coachhub.com"
+    },
+    {
+     "name": "Matti Niebelschuetz",
+     "title": "CEO & Co-Founder",
+     "email": "matti.niebelschuetz@coachhub.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/niebelschuetz",
+     "location": "Berlin, Germany"
+    }
+   ]
+  },
+  {
+   "brand": "EcoVadis",
+   "people": [
+    {
+     "name": "Frederic Trinel",
+     "title": "Co-CEO",
+     "email": "ftrinel@ecovadis.com",
+     "role": "decision_maker",
+     "linkedin": "",
+     "location": "United States"
+    },
+    {
+     "name": "Monica Visconti-Patel",
+     "title": "Chief Marketing Officer",
+     "email": "mviscontipatel@ecovadis.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/monvispat",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Cecile Dorvault",
+     "title": "VP Field Marketing & Demand Generation",
+     "email": "cdorvault@ecovadis.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/ceciledorvault",
+     "location": "Weybridge, United Kingdom"
+    },
+    {
+     "name": "Meena Hans",
+     "title": "Vice President, Solutions and Customer Marketing",
+     "email": "mhans@ecovadis.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/meenahans",
+     "location": "Canada"
+    }
+   ]
+  },
+  {
+   "brand": "Handshake",
+   "people": [
+    {
+     "name": "Garrett Lord",
+     "title": "Chief Executive Officer",
+     "email": "garrett@joinhandshake.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/garrettlord",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Stephen Rodi",
+     "title": "Chief Communications Officer",
+     "email": "stephen.rodi@joinhandshake.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/stephenroccorodi",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Wes Field",
+     "title": "Chief Commercial Officer",
+     "email": "wes.field@joinhandshake.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/wes-field-30222534",
+     "location": "Dallas, United States"
+    },
+    {
+     "name": "Julia Zhu",
+     "title": "Senior Director of Growth, Handshake AI",
+     "email": "julia.zhu@joinhandshake.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/zhujulia",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "Mercor",
+   "people": [
+    {
+     "name": "Chase Gladden",
+     "title": "Growth Marketing Lead",
+     "email": "chasegladden@mercor.com"
+    },
+    {
+     "name": "Heidi Hagberg",
+     "title": "Head of Communications",
+     "email": "heidihagberg@mercor.com"
+    },
+    {
+     "name": "Brendan Foody",
+     "title": "CEO, Co-Founder",
+     "email": "bcf@mercor.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/brendan-foody-2995ab10b",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Surya Midha",
+     "title": "Co-Founder",
+     "email": "suryamidha@mercor.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/suryamidha",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Feedzai",
+   "people": [
+    {
+     "name": "Nuno Sebastiao",
+     "title": "Chairman & CEO",
+     "email": "nuno.sebastiao@feedzai.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/nunosebastiao",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Julie O'Brien",
+     "title": "Chief Marketing Officer",
+     "email": "julie.obrien@feedzai.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/obrienjuliea",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Joost Van Mook",
+     "title": "Chief Revenue Officer",
+     "email": "joost.vanmook@feedzai.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/joostvanmook",
+     "location": "Breda, Netherlands"
+    },
+    {
+     "name": "Michal Iluz",
+     "title": "Marketing Executive / Consultant / Ex-Founder",
+     "email": "michal.iluz@feedzai.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/michaliluz",
+     "location": "Tenafly, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Ivanti",
+   "people": [
+    {
+     "name": "Dennis Kozak",
+     "title": "Chief Executive Officer",
+     "email": "dennis.kozak@ivanti.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kozakdennis",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Sarah Marshall",
+     "title": "Vice President, Strategic Communications Marketing",
+     "email": "sarah.marshall@ivanti.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sarah-marshall-b430ba1",
+     "location": "Austin, United States"
+    },
+    {
+     "name": "Cathelijne Quarre-Bijleveld",
+     "title": "VP Growth Marketing",
+     "email": "cathelijne.quarrebijleveld@ivanti.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/cathelijnequarrebijleveld",
+     "location": "The Hague, Netherlands"
+    },
+    {
+     "name": "Anne-Marie Poll",
+     "title": "Vice President, Global Demand & Marketing Operations",
+     "email": "anne-marie.poll@ivanti.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/amspoll",
+     "location": "Cincinnati, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Point Wild",
+   "people": [
+    {
+     "name": "Justin Snider",
+     "title": "Director, Marketing",
+     "email": "justin.snider@pointwild.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/justin-snider-ab969b135",
+     "location": "New York, United States"
+    }
+   ]
+  }
+ ]
+}

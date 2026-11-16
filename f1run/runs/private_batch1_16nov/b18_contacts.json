@@ -1,0 +1,327 @@
+{
+ "rows": [
+  {
+   "brand": "Taktile",
+   "people": [
+    {
+     "name": "Maik Wehmeyer",
+     "title": "Co-Founder & CEO",
+     "email": "maik.wehmeyer@taktile.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/maik-taro-wehmeyer",
+     "location": "New York, NY, USA"
+    },
+    {
+     "name": "Niklas Guske",
+     "title": "Chief Revenue Officer",
+     "email": "niklas@taktile.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/guskeniklas",
+     "location": "New York, NY, USA"
+    },
+    {
+     "name": "Franziska Beile",
+     "title": "Head of Marketing",
+     "email": "franziska.beile@taktile.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/franziska-beile",
+     "location": "Munich, Germany"
+    },
+    {
+     "name": "Ashley Baird",
+     "title": "Head of Content & Demand Generation",
+     "email": "ashley.baird@taktile.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/ashleybaird1",
+     "location": "Berlin, Germany"
+    }
+   ]
+  },
+  {
+   "brand": "Arena",
+   "people": [
+    {
+     "name": "Anastasios Angelopoulos",
+     "title": "Chief Executive Officer",
+     "email": "anastasios@arena.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ml-angelopoulos",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Cherry Park",
+     "title": "Founding Member, Head of Marketing & Communications",
+     "email": "cherry@arena.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/cherrypark",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Joyce Lin",
+     "title": "Head of Developer Relations",
+     "email": "joyce@lmarena.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/joyce-lin",
+     "location": "San Francisco, CA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "PolyAI",
+   "people": [
+    {
+     "name": "Nikola Mrksic",
+     "title": "Co-founder & CEO",
+     "email": "nikola@poly.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/nikola-mrksic",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Ryan Longfield",
+     "title": "President",
+     "email": "ryan.longfield@poly.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/rlongfield",
+     "location": "Southlake, TX, USA"
+    },
+    {
+     "name": "Mike Tague",
+     "title": "Head of Communications",
+     "email": "mike.tague@poly.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/miketague",
+     "location": "Philadelphia, PA, USA"
+    },
+    {
+     "name": "Astra Sodarsono",
+     "title": "Creative Director",
+     "email": "astra.sodarsono@poly-ai.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/astrasodarsono",
+     "location": "San Francisco, CA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "I-TRACING",
+   "people": [
+    {
+     "name": "Leonie Capobianco",
+     "title": "Marketing Communication Director CMO",
+     "email": "lcapobianco@i-tracing.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/l%c3%a9onie-capobianco-0b23477",
+     "location": "France"
+    },
+    {
+     "name": "Marie Vrangos",
+     "title": "International Marketing Officer",
+     "email": "mvrangos@i-tracing.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/marie-vrangos-68b0291b9",
+     "location": "Paris, France"
+    }
+   ]
+  },
+  {
+   "brand": "YipitData",
+   "people": [
+    {
+     "name": "Alison Shemyakin",
+     "title": "Head of Brand Marketing & Communications",
+     "email": "ashemyakin@yipitdata.com"
+    },
+    {
+     "name": "Joey Goldberg",
+     "title": "VP of Marketing, Corporate",
+     "email": "jgoldberg@yipitdata.com"
+    },
+    {
+     "name": "Rebecca Martins",
+     "title": "VP of Marketing, SpendHound & Signals",
+     "email": "bmartins@yipitdata.com"
+    },
+    {
+     "name": "Eric Minkley",
+     "title": "Director of Retail Strategic Growth",
+     "email": "eminkley@yipitdata.com"
+    }
+   ]
+  },
+  {
+   "brand": "Sprout Social",
+   "people": [
+    {
+     "name": "Ryan Barretto",
+     "title": "CEO",
+     "email": "ryan.barretto@sproutsocial.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ryanbarretto",
+     "location": "Nashville, TN, USA"
+    },
+    {
+     "name": "Scott Morris",
+     "title": "Chief Marketing Officer",
+     "email": "scott.morris@sproutsocial.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/scottmichaelmorris",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Hailey McDonald",
+     "title": "Vice President of Revenue Marketing",
+     "email": "hailey.mcdonald@sproutsocial.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/haymcdee",
+     "location": "United States"
+    },
+    {
+     "name": "Jill Florence",
+     "title": "Senior Director, Global Influencer Marketing",
+     "email": "jill.florence@sproutsocial.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jill-florence-129a452a",
+     "location": "Atlanta, GA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Astronomer",
+   "people": [
+    {
+     "name": "Peter Zawistowicz",
+     "title": "VP, Revenue Marketing",
+     "email": "peter.zawistowicz@astronomer.io"
+    },
+    {
+     "name": "Mark Wheeler",
+     "title": "Senior Vice President, Marketing",
+     "email": "mark.wheeler@astronomer.io"
+    },
+    {
+     "name": "Bart McAllister",
+     "title": "Director, Corporate Marketing",
+     "email": "bart.mcallister@astronomer.io"
+    },
+    {
+     "name": "Billy Shea",
+     "title": "Director of Marketing Operations",
+     "email": "billy.shea@astronomer.io"
+    }
+   ]
+  },
+  {
+   "brand": "Waters",
+   "people": [
+    {
+     "name": "Kristen Garvey",
+     "title": "SVP, Global Communications",
+     "email": "kristen_garvey@waters.com"
+    },
+    {
+     "name": "Yunnan Jiang",
+     "title": "Senior Director, Commercial Excellence and Global Marketing",
+     "email": "yunnan_jiang@waters.com"
+    },
+    {
+     "name": "Laura Monaghan",
+     "title": "Director, Corporate Brand & Content",
+     "email": "laura_monaghan@waters.com"
+    },
+    {
+     "name": "Udit Batra",
+     "title": "President and Chief Executive Officer",
+     "email": "udit_batra@waters.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/udit-batra-64a58923",
+     "location": "Boston, MA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Behavox",
+   "people": [
+    {
+     "name": "Erkin Adylov",
+     "title": "Founder and CEO",
+     "email": "e.adylov@behavox.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/erkinadylov",
+     "location": "New York, NY, USA"
+    },
+    {
+     "name": "Tom Schodorf",
+     "title": "President Revenue",
+     "email": "tom.schodorf@behavox.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/tomschodorf",
+     "location": "Arden, NC, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Wispr Flow",
+   "people": [
+    {
+     "name": "Carolyn Hsu",
+     "title": "VP of Product Marketing",
+     "email": "carolyn@wisprflow.ai"
+    },
+    {
+     "name": "Kimberly Stoner",
+     "title": "Head of Design, Marketing",
+     "email": "kim@wispr.ai"
+    },
+    {
+     "name": "Haley Sayres",
+     "title": "Head of Enterprise Growth",
+     "email": "haley@wisprflow.ai"
+    },
+    {
+     "name": "Jacob Shwirtz",
+     "title": "Head of Celebrity Partnerships",
+     "email": "jacob@wisprflow.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/shwirtz",
+     "location": "Tel Aviv District, Israel"
+    }
+   ]
+  },
+  {
+   "brand": "Vention",
+   "people": [
+    {
+     "name": "Kreya Owens",
+     "title": "Chief Marketing Officer",
+     "email": "kreya.owens@vention.cc"
+    },
+    {
+     "name": "Alex Koepsel",
+     "title": "Director of Product Marketing",
+     "email": "alex.koepsel@vention.cc"
+    },
+    {
+     "name": "Sophie Ducharme",
+     "title": "Brand and Channel Marketing Manager",
+     "email": "sophie.ducharme@vention.cc"
+    },
+    {
+     "name": "Elizabeth Moreau",
+     "title": "Brand Marketing",
+     "email": "elizabeth.moreau@vention.cc"
+    }
+   ]
+  },
+  {
+   "brand": "Xanadu Quantum Technologies",
+   "people": [
+    {
+     "name": "Christian Weedbrook",
+     "title": "Founder/CEO",
+     "email": "christian@xanadu.ai"
+    }
+   ]
+  }
+ ]
+}

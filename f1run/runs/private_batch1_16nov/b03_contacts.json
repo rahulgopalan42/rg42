@@ -1,0 +1,277 @@
+{
+ "rows": [
+  {
+   "brand": "Together AI",
+   "people": [
+    {
+     "name": "Caitlin Romano",
+     "title": "Director, Demand Generation and Growth Marketing",
+     "email": "cromano@together.ai"
+    },
+    {
+     "name": "Prem Prakash",
+     "title": "SVP and Head of Marketing",
+     "email": "pprakash@together.ai"
+    },
+    {
+     "name": "Kathy Liu",
+     "title": "Head of Field Marketing & Chief of Staff, Marketing",
+     "email": "kliu@together.ai"
+    },
+    {
+     "name": "Vipul Prakash",
+     "title": "Co-Founder & CEO",
+     "email": "vipul@together.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/vipulved",
+     "location": "San Francisco, CA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Cohesity",
+   "people": [
+    {
+     "name": "Jackie Sandoval",
+     "title": "Vice President Corporate Marketing",
+     "email": "jackie.sandoval@cohesity.com"
+    },
+    {
+     "name": "Rob Sadowski",
+     "title": "Vice President, Product & Solution Marketing",
+     "email": "rob.sadowski@cohesity.com"
+    },
+    {
+     "name": "Carol Carpenter",
+     "title": "CMO",
+     "email": "carol.carpenter@cohesity.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/carolwcarpenter",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "Lovable",
+   "people": [
+    {
+     "name": "Anton Osika",
+     "title": "Co-Founder",
+     "email": "anton@lovable.dev",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/antonosika",
+     "location": "Stockholm, Sweden"
+    },
+    {
+     "name": "Heather Mackinnon",
+     "title": "Head of Brand Marketing",
+     "email": "heather@lovable.dev",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/heathermackinnon",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Sam Vinden",
+     "title": "Head of Growth Marketing",
+     "email": "sam.vinden@lovable.dev",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/samvinden",
+     "location": "London, UK"
+    },
+    {
+     "name": "Kali Lorenzetti",
+     "title": "Head of Enterprise Marketing",
+     "email": "kali@lovable.dev",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/kali-lorenzetti-a5035998",
+     "location": "San Francisco, CA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Claroty",
+   "people": [
+    {
+     "name": "Upa Campbell",
+     "title": "Chief Marketing Officer",
+     "email": "upa.c@claroty.com"
+    },
+    {
+     "name": "Jon Rabinowitz",
+     "title": "Vice President Growth Marketing",
+     "email": "jon.r@claroty.com"
+    },
+    {
+     "name": "Kelley Hill",
+     "title": "Sr Director, Brand Marketing",
+     "email": "kelley.h@claroty.com"
+    },
+    {
+     "name": "Melissa Ofri",
+     "title": "Head of Marketing Strategy & GTM Alignment",
+     "email": "melissa.o@claroty.com"
+    }
+   ]
+  },
+  {
+   "brand": "ClickUp",
+   "people": [
+    {
+     "name": "Kyle Coleman",
+     "title": "Global VP, Sales & Marketing",
+     "email": "kc@clickup.com"
+    },
+    {
+     "name": "Trish Sanderson",
+     "title": "Senior Director, Demand Ecosystem & Field Marketing",
+     "email": "tsanderson@clickup.com"
+    },
+    {
+     "name": "Olga Osadcha",
+     "title": "Senior Director of Product - Growth",
+     "email": "olga@clickup.com"
+    },
+    {
+     "name": "Sudarshan Somanathan",
+     "title": "Head of Content & Organic Growth",
+     "email": "ssomanathan@clickup.com"
+    }
+   ]
+  },
+  {
+   "brand": "Keyfactor",
+   "people": [
+    {
+     "name": "Jamie Walker",
+     "title": "Chief Marketing Officer",
+     "email": "jamie.walker@keyfactor.com"
+    },
+    {
+     "name": "Karin Trogstam",
+     "title": "Brand Marketing Lead",
+     "email": "karin.trogstam@keyfactor.com"
+    },
+    {
+     "name": "Chris Pereira",
+     "title": "Sr. Director of Growth Marketing",
+     "email": "chris.pereira@keyfactor.com"
+    },
+    {
+     "name": "Lauren Taylor",
+     "title": "Vice President, Product and Customer Marketing",
+     "email": "lauren.taylor@keyfactor.com"
+    }
+   ]
+  },
+  {
+   "brand": "Supabase",
+   "people": [
+    {
+     "name": "Paul Copplestone",
+     "title": "CEO",
+     "email": "copple@supabase.io"
+    },
+    {
+     "name": "Craig Cannon",
+     "title": "Head of Developer Relations and Marketing",
+     "email": "craig@supabase.io"
+    },
+    {
+     "name": "Jessica Losquadro",
+     "title": "Head of Field Marketing",
+     "email": "jessica.losquadro@supabase.io"
+    }
+   ]
+  },
+  {
+   "brand": "Nothing",
+   "people": [
+    {
+     "name": "Varut Sirikasemsuk",
+     "title": "Marketing Lead",
+     "email": "varut.sirikasemsuk@nothing.tech"
+    },
+    {
+     "name": "Govinda Singh",
+     "title": "Head of Product Marketing",
+     "email": "govinda.singh@nothing.tech"
+    },
+    {
+     "name": "Charlie Smith",
+     "title": "Chief Brand Officer",
+     "email": "charlie.smith@nothing.tech",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/charliejamessmith",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Andrew Freshwater",
+     "title": "Head of Global Marketing - Audio, Wearables & Smart Products",
+     "email": "andrew.freshwater@nothing.tech",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/freshie1",
+     "location": "Fleet, UK"
+    }
+   ]
+  },
+  {
+   "brand": "ClickHouse",
+   "people": [
+    {
+     "name": "Ryan Kelly",
+     "title": "Vice President Global Marketing",
+     "email": "ryan.kelly@clickhouse.com"
+    },
+    {
+     "name": "Angelica Ismailos",
+     "title": "Director, Demand Generation",
+     "email": "angelica.ismailos@clickhouse.com"
+    },
+    {
+     "name": "Aaron Katz",
+     "title": "Co-Founder & CEO",
+     "email": "aaron@clickhouse.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/aaron-katz-5762094",
+     "location": "Portola Valley, CA, USA"
+    },
+    {
+     "name": "Kevin Egan",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "kevin.egan@clickhouse.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kevin-egan-59719",
+     "location": "San Francisco, CA, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Clio",
+   "people": [
+    {
+     "name": "Alex Shipillo",
+     "title": "Vice President, Growth Marketing",
+     "email": "alex.shipillo@clio.com"
+    },
+    {
+     "name": "Vivian O'Brien",
+     "title": "Head of Marketing",
+     "email": "vivian.obrien@clio.com"
+    },
+    {
+     "name": "Danielle Giroux",
+     "title": "Senior Director, Brand & Creative",
+     "email": "danielle.giroux@clio.com"
+    },
+    {
+     "name": "Reagan Attle",
+     "title": "CMO",
+     "email": "reagan.attle@clio.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/reaganattle",
+     "location": "Vancouver, BC, Canada"
+    }
+   ]
+  }
+ ]
+}

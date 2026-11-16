@@ -1,0 +1,340 @@
+{
+ "rows": [
+  {
+   "brand": "Nile",
+   "people": [
+    {
+     "name": "Pankaj Patel",
+     "title": "Chief Executive Officer",
+     "email": "pankaj@nilesecure.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/pankajpspatel",
+     "location": "San Jose, United States"
+    },
+    {
+     "name": "Shashi Kiran",
+     "title": "Chief Marketing Officer",
+     "email": "shashi.kiran@nilesecure.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/skiran",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Akarsh Venugopal",
+     "title": "International Partner Marketing Head",
+     "email": "akarsh.venugopal@nilesecure.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/akarshvenugopal",
+     "location": "Bengaluru, India"
+    },
+    {
+     "name": "Veronica Moon",
+     "title": "Sr. Director, Demand Generation",
+     "email": "veronica.moon@nilesecure.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/veronica-moon-aa8980",
+     "location": "San Jose, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Tredence",
+   "people": [
+    {
+     "name": "Sivaram Kanthimathinathan",
+     "title": "Vice President Marketing",
+     "email": "sivaram.k@tredence.com"
+    },
+    {
+     "name": "Corporate Account",
+     "title": "Head of Marketing",
+     "email": "corporate.account@tredence.com"
+    },
+    {
+     "name": "Debjani Goswami",
+     "title": "Senior Manager l Head of Vertical Marketing",
+     "email": "debjani.goswami@tredence.com"
+    },
+    {
+     "name": "Rakesh Sancheti",
+     "title": "Chief Growth Officer",
+     "email": "rakesh.sancheti@tredence.com"
+    }
+   ]
+  },
+  {
+   "brand": "Getronics",
+   "people": [
+    {
+     "name": "Stuart Deignan",
+     "title": "Group Chief Executive Officer",
+     "email": "stuart.deignan@getronics.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/stuartdeignan",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Katja Reinke",
+     "title": "Head of Marketing Europe",
+     "email": "katja.reinke@getronics.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/katja-r-823a4314a",
+     "location": "Berlin, Germany"
+    },
+    {
+     "name": "Elisabete Mleczak",
+     "title": "Chief Commercial Officer (CCO) and Board Member",
+     "email": "elisabete.mleczak@getronics.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/elisabete-mleczak",
+     "location": "Brazil"
+    },
+    {
+     "name": "Lena Weber-Reed",
+     "title": "Global Marketing Director",
+     "email": "lena.weber-reed@getronics.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lenaweberreed",
+     "location": "Glasgow, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "GLG",
+   "people": [
+    {
+     "name": "Andrea Tenenboym",
+     "title": "Director, Brand and Product Marketing Strategy",
+     "email": "ahiller@glgroup.com"
+    },
+    {
+     "name": "Samara Faisal",
+     "title": "Strategy & Growth Leader",
+     "email": "sfaisal@glgroup.com"
+    },
+    {
+     "name": "Rebecca Wardell",
+     "title": "Vice President, Communications",
+     "email": "rwardell@glgroup.com"
+    },
+    {
+     "name": "Sheetal Patel",
+     "title": "Vice President, Global Industrials & Growth Research",
+     "email": "spatel3@glgroup.com"
+    }
+   ]
+  },
+  {
+   "brand": "Loadsmart",
+   "people": [
+    {
+     "name": "Mohammad Saleem",
+     "title": "Senior Director, Growth Marketing",
+     "email": "mohammad.saleem@loadsmart.com"
+    },
+    {
+     "name": "Felipe Capella",
+     "title": "CEO",
+     "email": "felipe@loadsmart.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/felipecapella",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Brent Carter",
+     "title": "Chief Business Officer",
+     "email": "brent.carter@loadsmart.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/carter-brent",
+     "location": "Los Angeles, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Appier",
+   "people": [
+    {
+     "name": "Crane Wang",
+     "title": "VP Global Partnership",
+     "email": "crane.wang@appier.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/cranewang",
+     "location": "Taiwan"
+    },
+    {
+     "name": "Victoria Chang",
+     "title": "Director of Product Marketing & Digital Marketing",
+     "email": "victoria.chang@appier.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/changvictoria",
+     "location": "Berlin, Germany"
+    },
+    {
+     "name": "Teng-Yuan Chang",
+     "title": "Global Growth & Marketing Lead",
+     "email": "tengyuan.chang@appier.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/tengyuanc",
+     "location": "Tokyo, Japan"
+    }
+   ]
+  },
+  {
+   "brand": "Backblaze",
+   "people": [
+    {
+     "name": "Patrick Thomas",
+     "title": "Vice President Marketing",
+     "email": "patrick@backblaze.com"
+    },
+    {
+     "name": "Kelli Meerschaert",
+     "title": "Channel Marketing Director",
+     "email": "kmeerschaert@backblaze.com"
+    },
+    {
+     "name": "Jean Collings",
+     "title": "Sr. Director, Growth and Lifecycle Marketing",
+     "email": "jcollings@backblaze.com"
+    },
+    {
+     "name": "Renatta Siewert",
+     "title": "Director, Communications & Brand Programs",
+     "email": "rsiewert@backblaze.com"
+    }
+   ]
+  },
+  {
+   "brand": "Polkadot",
+   "people": [
+    {
+     "name": "Fabian Gompf",
+     "title": "Chief Executive Officer",
+     "email": "fabian@web3.foundation",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/fabian-gompf",
+     "location": "Germany"
+    },
+    {
+     "name": "Angie Darrow",
+     "title": "CMO / Ceco",
+     "email": "angie@web3.foundation",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/angie-maguire",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Angela Harp",
+     "title": "Director of Communications",
+     "email": "angela@web3.foundation",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/angela-marie-harp-7b099975",
+     "location": "Zurich, Switzerland"
+    }
+   ]
+  },
+  {
+   "brand": "Ripcord",
+   "people": [
+    {
+     "name": "Sam Fahmy",
+     "title": "President & CEO",
+     "email": "samfahmy@ripcord.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/samffahmy",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Todd Bailey",
+     "title": "VP of Partner and Strategic Relationships",
+     "email": "tbailey@ripcord.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/tmbailey",
+     "location": "Boston, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Certn",
+   "people": [
+    {
+     "name": "Andrew McLeod",
+     "title": "CEO",
+     "email": "andrew@certn.co",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/andrewmcleodiii",
+     "location": "Victoria, Canada"
+    },
+    {
+     "name": "Mike Nagtzaam",
+     "title": "Director of Partnerships",
+     "email": "mike.nagtzaam@certn.co",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/mikenagtzaam",
+     "location": "Toronto, Canada"
+    }
+   ]
+  },
+  {
+   "brand": "Grid Dynamics",
+   "people": [
+    {
+     "name": "Rahul Bindlish",
+     "title": "Senior Vice President, Global Partnership & Marketing",
+     "email": "rbindlish@griddynamics.com"
+    },
+    {
+     "name": "Cary Savas",
+     "title": "Director, Branding & Communications",
+     "email": "csavas@griddynamics.com"
+    },
+    {
+     "name": "Dani Etcheverry",
+     "title": "Team Lead & Digital Growth Specialist",
+     "email": "detcheverry@griddynamics.com"
+    },
+    {
+     "name": "Leonard Livschitz",
+     "title": "CEO",
+     "email": "llivschitz@griddynamics.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/leonardlivschitz",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Digi International",
+   "people": [
+    {
+     "name": "Ronald Konezny",
+     "title": "President, CEO, and Director",
+     "email": "ronald.konezny@digi.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ron-konezny-bba489",
+     "location": "Minneapolis, United States"
+    },
+    {
+     "name": "Bill Stutzman",
+     "title": "VP, Corporate Marketing",
+     "email": "william.stutzman@digi.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/billstutzman",
+     "location": "Las Vegas, United States"
+    },
+    {
+     "name": "Jessica Christie",
+     "title": "Director Channel Marketing",
+     "email": "jessica.christie@digi.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jessicasokoloski",
+     "location": "Boise, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Celestia",
+   "people": []
+  }
+ ]
+}

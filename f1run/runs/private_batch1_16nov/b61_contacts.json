@@ -1,0 +1,78 @@
+{
+ "rows": [
+  {
+   "brand": "System One",
+   "people": [
+    {
+     "name": "Troy Gregory",
+     "title": "Chief Executive Officer",
+     "email": "troy.gregory@systemone.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/troy-gregory-9a078713",
+     "location": "Englewood Cliffs, United States"
+    },
+    {
+     "name": "Richard Weede",
+     "title": "Director of Marketing",
+     "email": "richard.weede@systemone.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/rweede",
+     "location": "Tampa, United States"
+    },
+    {
+     "name": "Greg Lignelli",
+     "title": "President and COO",
+     "email": "greg.lignelli@systemone.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/greglignelli",
+     "location": "Pittsburgh, United States"
+    },
+    {
+     "name": "Tracey McSheffrey",
+     "title": "Marketing Operations Director",
+     "email": "tracey.mcsheffrey@systemone.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/mcsheffreytracey",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "Asure Software",
+   "people": [
+    {
+     "name": "Mike Vannoy",
+     "title": "Chief Marketing Officer",
+     "email": "mike.vannoy@asuresoftware.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mikevannoy",
+     "location": "United States"
+    },
+    {
+     "name": "Hyun Kim",
+     "title": "Vice President of Growth Marketing",
+     "email": "hyun.kim@asuresoftware.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/hyun-kim-b9b9939a",
+     "location": "Atlanta, United States"
+    },
+    {
+     "name": "Allyson Edwards",
+     "title": "Director of Growth Marketing",
+     "email": "allyson.edwards@asuresoftware.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/allyson-edwards-709718a2",
+     "location": "United States"
+    },
+    {
+     "name": "Eyal Goldstein",
+     "title": "President",
+     "email": "egoldstein@asuresoftware.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/eyalgoldstein",
+     "location": "California, United States"
+    }
+   ]
+  }
+ ]
+}

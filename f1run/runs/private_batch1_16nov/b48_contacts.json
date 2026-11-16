@@ -1,0 +1,363 @@
+{
+ "rows": [
+  {
+   "brand": "Public Storage",
+   "people": [
+    {
+     "name": "Ayash Basu",
+     "title": "Chief Revenue and Marketing Officer",
+     "email": "abasu@publicstorage.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ayashbasu",
+     "location": "Dallas, United States"
+    },
+    {
+     "name": "Mark McClendon",
+     "title": "VP of Marketing & Brand",
+     "email": "mmcclendon2@publicstorage.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/markmcclendon",
+     "location": "Plano, United States"
+    },
+    {
+     "name": "David Parma",
+     "title": "Director of Marketing",
+     "email": "dparma@publicstorage.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/davidparma14",
+     "location": "Flower Mound, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Upstart",
+   "people": [
+    {
+     "name": "Dave Girouard",
+     "title": "Founder & Executive Chairman",
+     "email": "dave@upstart.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/davegirouard",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Chantal Rapport",
+     "title": "SVP, Growth + Chief Marketing Officer",
+     "email": "chantal@upstart.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/chantalrapport",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Gary Liu",
+     "title": "Vice President of Marketing",
+     "email": "gary.liu@upstart.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/garycliu",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Erin Opperman",
+     "title": "VP, Brand & Creative",
+     "email": "erin.opperman@upstart.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/erinroseopperman",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "CCC Intelligent Solutions",
+   "people": [
+    {
+     "name": "Githesh Ramamurthy",
+     "title": "Chairman & Chief Executive Officer",
+     "email": "gramamurthy@cccis.com",
+     "role": "decision_maker",
+     "linkedin": "",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Molly Snyder",
+     "title": "Vice President, Head of Marketing, Communications & Social Responsibility",
+     "email": "msnyder@cccis.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/mollytsnyder",
+     "location": "Minneapolis, United States"
+    },
+    {
+     "name": "Kenneth Devlin",
+     "title": "Marketing Director",
+     "email": "kdevlin@cccis.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/kendevlin1",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Ann Groothuis",
+     "title": "Director, Portfolio Marketing",
+     "email": "agroothuis@cccis.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/anngroothuis",
+     "location": "Chicago, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Sakana AI",
+   "people": [
+    {
+     "name": "David Ha",
+     "title": "Co-Founder and CEO",
+     "email": "hadavid@sakana.ai"
+    },
+    {
+     "name": "Ren Ito",
+     "title": "Co-Founder",
+     "email": "ren@sakana.ai"
+    },
+    {
+     "name": "Hidekazu Kakishima",
+     "title": "VP, Head of GTM",
+     "email": "hide@sakana.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/hidekazu-kakishima-4069a334",
+     "location": "Tokyo, Japan"
+    }
+   ]
+  },
+  {
+   "brand": "EliseAI",
+   "people": [
+    {
+     "name": "Rachel Allen",
+     "title": "Event Marketing Director",
+     "email": "rachel.allen@eliseai.com"
+    },
+    {
+     "name": "Zane Friedkin",
+     "title": "Director of Product Marketing",
+     "email": "zane@eliseai.com"
+    },
+    {
+     "name": "Shela Kwong",
+     "title": "Associate Director, Brand & Content | Technical Writer",
+     "email": "shela@eliseai.com"
+    }
+   ]
+  },
+  {
+   "brand": "Preferred Networks",
+   "people": [
+    {
+     "name": "Yurie Suzuki",
+     "title": "Marketing Representative",
+     "email": "yuriesuzuki@preferred.jp"
+    },
+    {
+     "name": "Toru Nishikawa",
+     "title": "CEO",
+     "email": "nishikawa@preferred.jp",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/toru-nishikawa-a282388",
+     "location": "Japan"
+    },
+    {
+     "name": "Daisuke Okanohara",
+     "title": "Chief Executive Officer",
+     "email": "hillbig@preferred.jp",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/hillbig",
+     "location": "Tokyo, Japan"
+    }
+   ]
+  },
+  {
+   "brand": "BDx Data Centers",
+   "people": [
+    {
+     "name": "Mayank Srivastava",
+     "title": "Chief Executive Officer",
+     "email": "mayank@bdxworld.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mayank-srivastava-3895204",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Bella Chen",
+     "title": "CMO",
+     "email": "bella.chen@bdxworld.com",
+     "role": "vp_marketing",
+     "linkedin": "",
+     "location": "Nanjing, China"
+    },
+    {
+     "name": "Abhijit Sinha",
+     "title": "Chief Commercial Officer (CCO)",
+     "email": "abhijit.sinha@bdxworld.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/abhijitsamirsinha",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Richa Babbar",
+     "title": "Digital Infrastructure Marketing Leader",
+     "email": "richa.babbar@bdxworld.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/richa-babbar-a8a043129",
+     "location": "Mumbai, India"
+    }
+   ]
+  },
+  {
+   "brand": "Edged US",
+   "people": [
+    {
+     "name": "Bryant Farland",
+     "title": "Chief Executive Officer",
+     "email": "bryant.farland@edged.us",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/bryant-farland-7a7065a",
+     "location": "Washington, United States"
+    },
+    {
+     "name": "Marcie Kaplan",
+     "title": "Vice President and Head of Marketing",
+     "email": "marcie.kaplan@edged.us",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/marcie-kaplan-890a433",
+     "location": "Denver, United States"
+    },
+    {
+     "name": "Royce Thomas",
+     "title": "Chief Revenue Officer",
+     "email": "royce.thomas@edged.us",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/roycethomas",
+     "location": "Reno, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Innovaccer",
+   "people": [
+    {
+     "name": "Abhinav Shashank",
+     "title": "Chief Executive Officer",
+     "email": "abhinav@innovaccer.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/abhinavshashank",
+     "location": "Oakland, United States"
+    },
+    {
+     "name": "Sachin Saxena",
+     "title": "SVP/Global Head of Marketing",
+     "email": "sachin_saxena@innovaccer.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sachinsaxena-innovaccer",
+     "location": "United States"
+    },
+    {
+     "name": "Pratyush Kumar",
+     "title": "Associate Vice President Marketing",
+     "email": "pratyush.kumar@innovaccer.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/pratyush-kumar-67080251",
+     "location": "Bengaluru, India"
+    },
+    {
+     "name": "Mainak Kanjilal",
+     "title": "Sr. Director - Growth Marketing | Demand Generation",
+     "email": "mainak.kanjilal@innovaccer.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/mainakkanjilal",
+     "location": "Noida, India"
+    }
+   ]
+  },
+  {
+   "brand": "XBOW",
+   "people": [
+    {
+     "name": "Erdem Menges",
+     "title": "Vice President Marketing",
+     "email": "erdem.menges@xbow.com"
+    },
+    {
+     "name": "Elselyn Tan",
+     "title": "Head of Revenue Marketing",
+     "email": "elselyn@xbow.com"
+    },
+    {
+     "name": "Suzanne Ciccone",
+     "title": "Lead Content Marketing Manager",
+     "email": "suzanne.ciccone@xbow.com"
+    },
+    {
+     "name": "Bill Nichols",
+     "title": "VP of Enterprise Growth",
+     "email": "bill@xbow.com"
+    }
+   ]
+  },
+  {
+   "brand": "DeepInfra",
+   "people": [
+    {
+     "name": "Nikola Borisov",
+     "title": "CEO & Cofounder",
+     "email": "nikola@deepinfra.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/nikola-borisov",
+     "location": "Palo Alto, United States"
+    },
+    {
+     "name": "Behzad Nouri",
+     "title": "Vice President of Revenue",
+     "email": "behzad@deepinfra.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/beznouri",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Alpheya",
+   "people": [
+    {
+     "name": "Roger Rouhana",
+     "title": "Chief Executive Officer",
+     "email": "roger@alpheya.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/roger-rouhana",
+     "location": "Abu Dhabi, United Arab Emirates"
+    },
+    {
+     "name": "David Yang",
+     "title": "Chief Client Officer",
+     "email": "david@alpheya.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/dyang00",
+     "location": "Abu Dhabi, United Arab Emirates"
+    }
+   ]
+  },
+  {
+   "brand": "Beacon Holdings (Beacon Software)",
+   "people": [
+    {
+     "name": "Nilam Ganenthiran",
+     "title": "Founder/CEO",
+     "email": "nilam@beaconsoftware.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/nilamganenthiran",
+     "location": "Canada"
+    }
+   ]
+  },
+  {
+   "brand": "Macnica Galaxy Inc.",
+   "people": []
+  }
+ ]
+}

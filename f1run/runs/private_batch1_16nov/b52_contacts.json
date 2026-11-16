@@ -1,0 +1,384 @@
+{
+ "rows": [
+  {
+   "brand": "Vecna Robotics",
+   "people": [
+    {
+     "name": "Karl Iagnemma",
+     "title": "CEO",
+     "email": "karl@vecnarobotics.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/karl-iagnemma-b52186102",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Meghan Condike",
+     "title": "Director of Marketing Strategy and Execution",
+     "email": "meghan.condike@vecnarobotics.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/meghankennelly",
+     "location": "Westborough, United States"
+    }
+   ]
+  },
+  {
+   "brand": "MakinaRocks",
+   "people": [
+    {
+     "name": "Andre Yoon",
+     "title": "Co-founder & CEO",
+     "email": "andre@makinarocks.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/andreyoon",
+     "location": "South Korea"
+    },
+    {
+     "name": "Sunyoung Choi",
+     "title": "Marketing Lead",
+     "email": "sunyoung.choi@makinarocks.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sunyoung-choi-b6a996122",
+     "location": "Seoul, South Korea"
+    }
+   ]
+  },
+  {
+   "brand": "Clavister",
+   "people": [
+    {
+     "name": "John Vestberg",
+     "title": "President and CEO",
+     "email": "john.vestberg@clavister.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/johnvestberg",
+     "location": "Sweden"
+    },
+    {
+     "name": "Ann Klang",
+     "title": "Marketing Director",
+     "email": "ann.klang@phenixid.se",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/annklang",
+     "location": "Stockholm, Sweden"
+    }
+   ]
+  },
+  {
+   "brand": "Oklo",
+   "people": [
+    {
+     "name": "Sabrina Siddiqui",
+     "title": "Director of Policy Communications",
+     "email": "sabrina@oklo.com"
+    },
+    {
+     "name": "Jacob Dewitte",
+     "title": "Co-Founder, CEO",
+     "email": "j@oklo.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jacob-dewitte-90062132",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "Waabi",
+   "people": [
+    {
+     "name": "Raquel Urtasun",
+     "title": "Founder & CEO",
+     "email": "urtasun@waabi.ai"
+    },
+    {
+     "name": "Doug Frisbie",
+     "title": "VP, Marketing and Communications",
+     "email": "dfrisbie@waabi.ai"
+    }
+   ]
+  },
+  {
+   "brand": "Weave",
+   "people": [
+    {
+     "name": "Brett White",
+     "title": "Chief Executive Officer",
+     "email": "brett@getweave.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/brett-white-71650b5",
+     "location": "San Luis Obispo, United States"
+    },
+    {
+     "name": "Natalie House",
+     "title": "Vice President Marketing",
+     "email": "natalie.house@getweave.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/natnotes",
+     "location": "Salt Lake City, United States"
+    },
+    {
+     "name": "Josh Chapman",
+     "title": "Head of Growth",
+     "email": "josh.chapman@getweave.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/joshchapman88",
+     "location": "Park City, United States"
+    },
+    {
+     "name": "Nate Stansfield",
+     "title": "Director of Field Marketing and Events",
+     "email": "nate.stansfield@getweave.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/natestansfield",
+     "location": "Salt Lake City, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Vivint",
+   "people": [
+    {
+     "name": "Noelle Bates",
+     "title": "Vice President, Public Relations",
+     "email": "noelle.bates@vivint.com",
+     "role": "decision_maker",
+     "linkedin": "",
+     "location": "Provo, United States"
+    },
+    {
+     "name": "Holly Mero",
+     "title": "VP, Product Marketing & Operations",
+     "email": "hmero@vivint.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/holly-mero-84695b38",
+     "location": "Orem, United States"
+    },
+    {
+     "name": "Daniel Rueckert",
+     "title": "Director of Brand Marketing",
+     "email": "daniel.rueckert@vivint.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/daniel-rueckert",
+     "location": "Salt Lake City, United States"
+    },
+    {
+     "name": "Spencer Ngatuvai",
+     "title": "Director of Corporate Communications",
+     "email": "spencer.ngatuvai@vivint.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/sngatuvai",
+     "location": "Lehi, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Gladly",
+   "people": [
+    {
+     "name": "Maya Williams",
+     "title": "Head of AI Marketing",
+     "email": "maya.williams@gladly.com"
+    },
+    {
+     "name": "Austin Reece",
+     "title": "Sr. Director of Product, Design, and Product Marketing",
+     "email": "austin.reece@gladly.ai"
+    },
+    {
+     "name": "Jennifer Baker",
+     "title": "Senior Director of Demand Generation",
+     "email": "jennifer@gladly.ai"
+    },
+    {
+     "name": "Jason Nelson",
+     "title": "VP of Growth",
+     "email": "jason.nelson@gladly.com"
+    }
+   ]
+  },
+  {
+   "brand": "LinkSquares",
+   "people": [
+    {
+     "name": "Biju Muduli",
+     "title": "Chief Marketing Officer",
+     "email": "bmuduli@linksquares.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/biju-muduli",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Lex Wan",
+     "title": "Sr. Director, Brand & Communications",
+     "email": "awan@linksquares.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/lexwan",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Lyle McCutcheon-Schour",
+     "title": "Senior Vice President of Revenue",
+     "email": "lyle@linksquares.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/lylemccutcheonschour",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Mat Calabro",
+     "title": "Director of Customer Marketing",
+     "email": "mcalabro@linksquares.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/mathewcalabro",
+     "location": "Boston, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Outrider",
+   "people": [
+    {
+     "name": "Londonne Corder",
+     "title": "Chief Marketing Officer",
+     "email": "lcorder@outrider.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/londonnecorder",
+     "location": "Denver, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Nimble Robotics",
+   "people": [
+    {
+     "name": "Simon Kalouche",
+     "title": "Founder, CEO",
+     "email": "simon@nimble.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/simon-kalouche-98883343",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "FirstLight",
+   "people": [
+    {
+     "name": "Jason Campbell",
+     "title": "Chief Executive Officer",
+     "email": "jcampbell@firstlight.net",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jason-campbell-20668163",
+     "location": "Boston, Massachusetts, United States"
+    },
+    {
+     "name": "Rob Williams",
+     "title": "Vice President Marketing",
+     "email": "rwilliams@firstlight.net",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/williams37",
+     "location": "Boston, Massachusetts, United States"
+    },
+    {
+     "name": "Lorenzo Leuzzi",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "lleuzzi@firstlight.net",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/lorenzo-leuzzi-4813197",
+     "location": "Rochester, New York, United States"
+    },
+    {
+     "name": "Molly Sergeant",
+     "title": "Marketing Director",
+     "email": "msergeant@firstlight.net",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/molly-sergeant",
+     "location": "Victor, New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Arqiva",
+   "people": [
+    {
+     "name": "Shuja Khan",
+     "title": "Chief Executive Officer",
+     "email": "shuja.khan@arqiva.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/shujak",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Laurie Patten",
+     "title": "Director of Strategy, Ventures, Product and Marketing",
+     "email": "laurie.patten@arqiva.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/laurie-patten-b9515b",
+     "location": "England, United Kingdom"
+    },
+    {
+     "name": "Tara Cipr",
+     "title": "Director of Communications",
+     "email": "tara.pollock@arqiva.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/tara-pollock",
+     "location": "Belfast, Northern Ireland, United Kingdom"
+    },
+    {
+     "name": "Celia Varet",
+     "title": "Head of Brand and Marketing",
+     "email": "celia.varet@arqiva.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/celia-varet-58984059",
+     "location": "United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Axiom Math",
+   "people": [
+    {
+     "name": "Carina Hong",
+     "title": "Founder / CEO",
+     "email": "carina@axiommath.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/carina-hong",
+     "location": "Stanford, California, United States"
+    },
+    {
+     "name": "Veronica Kim",
+     "title": "GTM & Operations",
+     "email": "veronica@axiommath.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/kimveronica",
+     "location": "Stanford, California, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Flapping Airplanes",
+   "people": [
+    {
+     "name": "Asher Spector",
+     "title": "Cofounder",
+     "email": "ams@flappingairplanes.com"
+    }
+   ]
+  },
+  {
+   "brand": "Magic",
+   "people": [
+    {
+     "name": "Eric Steinberger",
+     "title": "Co-founder & CEO",
+     "email": "eric@magic.dev",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ericsteinb",
+     "location": "San Francisco, California, United States"
+    }
+   ]
+  },
+  {
+   "brand": "FITURE",
+   "people": []
+  }
+ ]
+}

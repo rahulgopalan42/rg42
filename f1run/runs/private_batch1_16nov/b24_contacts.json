@@ -1,0 +1,341 @@
+{
+ "rows": [
+  {
+   "brand": "Jumio",
+   "people": [
+    {
+     "name": "Mark Lorion",
+     "title": "Chief Executive Officer",
+     "email": "mark.lorion@jumio.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/marklorion",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Julie Roy",
+     "title": "Chief Marketing Officer",
+     "email": "julie.roy@jumio.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/julienorquistroy",
+     "location": "Los Angeles, United States"
+    },
+    {
+     "name": "Matt Delauro",
+     "title": "Chief Revenue Officer",
+     "email": "matt.delauro@jumio.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/matthew-delauro",
+     "location": "Austin, United States"
+    },
+    {
+     "name": "Loryll Denamur",
+     "title": "Director of Corporate Marketing",
+     "email": "loryll.denamur@jumio.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/loryll-denamur",
+     "location": "Redwood City, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Lightricks",
+   "people": [
+    {
+     "name": "Zeev Farbman",
+     "title": "Co-Founder & CEO",
+     "email": "zeev@lightricks.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/zeev-farbman-b5926b37",
+     "location": "Israel"
+    },
+    {
+     "name": "Omri Zarbiv",
+     "title": "VP Marketing Growth",
+     "email": "ozarbiv@lightricks.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/zomri",
+     "location": "Israel"
+    },
+    {
+     "name": "Rene Froitzheim",
+     "title": "Director of Demand Generation & Lifecycle",
+     "email": "rfroitzheim@lightricks.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/rene-froitzheim-206661110",
+     "location": "Israel"
+    },
+    {
+     "name": "Aderet Levy",
+     "title": "Marketing Studio & Web Director",
+     "email": "aderet@lightricks.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/aderet-levy-1b71341b0",
+     "location": "Modi'in-Maccabim-Re'ut, Israel"
+    }
+   ]
+  },
+  {
+   "brand": "Lucid Software",
+   "people": [
+    {
+     "name": "Dave Grow",
+     "title": "CEO",
+     "email": "dave@lucid.co",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/davegrow",
+     "location": "Salt Lake City, United States"
+    },
+    {
+     "name": "Nathan Rawlins",
+     "title": "Chief Marketing Officer",
+     "email": "nrawlins@lucid.co",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/nathanrawlins",
+     "location": "Salt Lake City, United States"
+    },
+    {
+     "name": "Nick Rico",
+     "title": "Chief Commercial Officer (CCO)",
+     "email": "nrico@lucid.co",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/nick-rico",
+     "location": "Salt Lake City, United States"
+    },
+    {
+     "name": "TJ Nokleby",
+     "title": "Sr. Director of Demand Generation",
+     "email": "tnokleby@lucidchart.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/tjnokleby",
+     "location": "Salt Lake City, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Redis",
+   "people": [
+    {
+     "name": "Rowan Trollope",
+     "title": "Chief Executive Officer",
+     "email": "rowan@redis.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rowant",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Shafiq Shivji",
+     "title": "VP of Product Marketing",
+     "email": "shafiq.shivji@redis.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/shafiqshivji",
+     "location": "Sugar Land, United States"
+    },
+    {
+     "name": "Spencer Tuttle",
+     "title": "Chief Revenue Officer",
+     "email": "spencer.tuttle@redis.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/spencer-tuttle-1388693",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Nash Haywood",
+     "title": "Director, Digital & Growth Marketing",
+     "email": "nash.haywood@redis.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/nash-haywood",
+     "location": "Indianapolis, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Scandit",
+   "people": [
+    {
+     "name": "Samuel Mueller",
+     "title": "CEO and Co-founder",
+     "email": "samuel@scandit.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/samuelmueller",
+     "location": "Zuerich, Switzerland"
+    },
+    {
+     "name": "Natasha Sandoval",
+     "title": "Chief Marketing Officer",
+     "email": "natasha@scandit.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/natashasandoval",
+     "location": "Zuerich, Switzerland"
+    },
+    {
+     "name": "Sarah Dickinson",
+     "title": "VP, Marketing Communications",
+     "email": "sarah@scandit.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/sarahdickinson2",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Joanna Mroz",
+     "title": "VP Demand Generation",
+     "email": "joanna@scandit.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/joannamroz",
+     "location": "Warsaw, Poland"
+    }
+   ]
+  },
+  {
+   "brand": "Sentry",
+   "people": [
+    {
+     "name": "Rahul Chhabria",
+     "title": "VP of Marketing",
+     "email": "rahul.chhabria@sentry.io"
+    },
+    {
+     "name": "Alex Blanchette",
+     "title": "Integrated Marketing Lead - Enterprise Marketing",
+     "email": "alex.blanchette@sentry.io"
+    },
+    {
+     "name": "Alea Abed",
+     "title": "Head of Enterprise Marketing",
+     "email": "alea.abed@sentry.io"
+    },
+    {
+     "name": "Steve Zegalia",
+     "title": "Product Marketing Lead",
+     "email": "steve.zegalia@sentry.io"
+    }
+   ]
+  },
+  {
+   "brand": "Shift Technology",
+   "people": [
+    {
+     "name": "Jeremy Jawish",
+     "title": "Co-founder & CEO",
+     "email": "jeremy.jawish@shift-technology.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jeremy-jawish",
+     "location": "Paris, France"
+    },
+    {
+     "name": "Mike Braatz",
+     "title": "Chief Marketing Officer",
+     "email": "mike.braatz@shift-technology.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/mikebraatz",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Cody Dudgeon",
+     "title": "Head of Digital & Brand Marketing",
+     "email": "cody.dudgeon@shift-technology.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/codydudgeon",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Grady Behrens",
+     "title": "Head of Product Marketing",
+     "email": "grady.behrens@shift-technology.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/gradybehrens",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "SonarSource",
+   "people": [
+    {
+     "name": "Manish Kapur",
+     "title": "VP at Sonar | Product and Solutions Marketing",
+     "email": "manish.kapur@sonarsource.com"
+    },
+    {
+     "name": "Tom Deahl",
+     "title": "Director, Growth Marketing",
+     "email": "tom.deahl@sonarsource.com"
+    },
+    {
+     "name": "Anirban Chatterjee",
+     "title": "Senior Director of Product Marketing",
+     "email": "anirban.chatterjee@sonarsource.com"
+    },
+    {
+     "name": "Marissa Naab",
+     "title": "Customer Marketing Manager",
+     "email": "marissa.naab@sonarsource.com"
+    }
+   ]
+  },
+  {
+   "brand": "Tealium",
+   "people": [
+    {
+     "name": "Heidi Bullock",
+     "title": "Chief Marketing Officer",
+     "email": "heidi.bullock@tealium.com"
+    },
+    {
+     "name": "Meghan Whinery",
+     "title": "VP, Growth Marketing",
+     "email": "meghan.whinery@tealium.com"
+    },
+    {
+     "name": "Sav Khetan",
+     "title": "Vice President Product Marketing",
+     "email": "sav.khetan@tealium.com"
+    },
+    {
+     "name": "Jeff Lunsford",
+     "title": "Chief Executive Officer",
+     "email": "jeff@tealium.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jefflunsford",
+     "location": "Dallas, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Typeform",
+   "people": [
+    {
+     "name": "Jay Choi",
+     "title": "Chief Executive Officer",
+     "email": "jay.choi@typeform.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jayyoungchoi",
+     "location": "Seattle, United States"
+    },
+    {
+     "name": "Malinda Sandman",
+     "title": "Global Vice President of Marketing",
+     "email": "malinda.sandman@typeform.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/malinda-sandman-1218b74",
+     "location": "Atlanta, United States"
+    },
+    {
+     "name": "Bryce Winkelman",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "bryce.winkelman@typeform.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/bryce-winkelman-1416936",
+     "location": "Lehi, United States"
+    },
+    {
+     "name": "Xavier Mangin",
+     "title": "Head of Performance Marketing",
+     "email": "xavier.mangin@typeform.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/xavier-mangin",
+     "location": "Barcelona, Spain"
+    }
+   ]
+  }
+ ]
+}

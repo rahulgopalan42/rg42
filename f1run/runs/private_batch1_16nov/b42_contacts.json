@@ -1,0 +1,370 @@
+{
+ "rows": [
+  {
+   "brand": "Papaya Global",
+   "people": [
+    {
+     "name": "Eynat Guez",
+     "title": "Co-Founder, CEO",
+     "email": "eynat@papayaglobal.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/eynatguez",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Lance Haffner",
+     "title": "Chief Revenue Officer",
+     "email": "lanceha@papayaglobal.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/rlancehaffner",
+     "location": "Oklahoma City, United States"
+    },
+    {
+     "name": "Shahar Fleischer",
+     "title": "VP Growth",
+     "email": "shaharfl@papayaglobal.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/shahar-fleischer",
+     "location": "Tel Aviv-Yafo, Israel"
+    },
+    {
+     "name": "Amit Tzemach",
+     "title": "Head of Marketing Design",
+     "email": "amittz@papayaglobal.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/amit-tzemach-0199a076",
+     "location": "Israel"
+    }
+   ]
+  },
+  {
+   "brand": "Copper",
+   "people": [
+    {
+     "name": "Maggie Cameron",
+     "title": "Director, Product & Growth",
+     "email": "mcameron@copper.com"
+    },
+    {
+     "name": "Steve Holm",
+     "title": "Chief Executive Officer",
+     "email": "steve@copper.com"
+    },
+    {
+     "name": "Ben Thomas",
+     "title": "Chief Commercial Officer",
+     "email": "ben.thomas@copper.co",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ben-thomas-74404133",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Michael Jenkins",
+     "title": "Head of Marketing",
+     "email": "michael.jenkins@copper.co",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/michaeltjenkins",
+     "location": "United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Redpin",
+   "people": [
+    {
+     "name": "Joseph Smith",
+     "title": "Chief Revenue Officer",
+     "email": "joe@redpincompany.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/josephsmith4",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Julien Cordonnier",
+     "title": "CCO",
+     "email": "julien.cordonnier@redpincompany.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jcordonnier",
+     "location": "Lyon, France"
+    },
+    {
+     "name": "Rebecca Fuller-Glen",
+     "title": "Head of Demand Generation",
+     "email": "rebecca.fuller-glen@redpincompany.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/rebecca-fuller-glen-62a37752",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Alex Castle",
+     "title": "Head of Content and SEO",
+     "email": "alex.castle@redpincompany.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/alex-castle-22512711b",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "1inch",
+   "people": [
+    {
+     "name": "Sergej Kunz",
+     "title": "Co-Founder of 1inch",
+     "email": "s.kunz@1inch.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/deacix0",
+     "location": "Dubai, United Arab Emirates"
+    },
+    {
+     "name": "Nikolai Eriushev",
+     "title": "Head of Marketing",
+     "email": "n.eryushev@1inch.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/nikolai-eriushev-34773ab1",
+     "location": "Amsterdam, Netherlands"
+    },
+    {
+     "name": "Phil Ormrod",
+     "title": "Head of Brand",
+     "email": "p.ormrod@1inch.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/phil-ormrod-brand",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Dominic Cox",
+     "title": "Head of Public Relations",
+     "email": "d.cox@1inch.io",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/dominic-cox-0529729a",
+     "location": "Bangkok, Thailand"
+    }
+   ]
+  },
+  {
+   "brand": "Magic Eden",
+   "people": [
+    {
+     "name": "Jack Lu",
+     "title": "CEO & Co-Founder",
+     "email": "jack@magiceden.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jacktanlu",
+     "location": "Australia"
+    },
+    {
+     "name": "Cole McMillian",
+     "title": "Head of Community",
+     "email": "cole.mcmillian@magiceden.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jcolemac",
+     "location": "Saint Joseph, United States"
+    },
+    {
+     "name": "Dusan Pecic",
+     "title": "Marketing Lead",
+     "email": "dusan.pecic@magiceden.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/dusan-pecic-92606a235",
+     "location": "Novi Sad, Serbia"
+    }
+   ]
+  },
+  {
+   "brand": "Matter Labs",
+   "people": [
+    {
+     "name": "Annie Park",
+     "title": "Event Marketing Manager | Global",
+     "email": "ayp@matterlabs.dev",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/annieypark",
+     "location": "Seattle, United States"
+    }
+   ]
+  },
+  {
+   "brand": "CoinShares",
+   "people": [
+    {
+     "name": "Jerome Castille",
+     "title": "Pr\u00e9sident - CoinShares Asset Management",
+     "email": "jcastille@coinshares.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jerome-castille",
+     "location": "Paris, France"
+    }
+   ]
+  },
+  {
+   "brand": "ThetaRay",
+   "people": [
+    {
+     "name": "Luis Pinedo",
+     "title": "Chief Strategic Customers Officer",
+     "email": "luis.pinedo@thetaray.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/luis-pinedo",
+     "location": "Madrid, Spain"
+    },
+    {
+     "name": "Alejandra Barav",
+     "title": "VP Marketing",
+     "email": "alejandra.barav@thetaray.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/alebarav",
+     "location": "Israel"
+    },
+    {
+     "name": "Adelaide Etienne",
+     "title": "Head of Marketing, Americas",
+     "email": "adelaide.etienne@thetaray.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/adelaide-de-saint-etienne",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Ilana Karavaev",
+     "title": "Marketing-Communication Event Lead",
+     "email": "ilana.karavaev@thetaray.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/ilana-karavaev-0842b821a",
+     "location": "Kefar Sava, Israel"
+    }
+   ]
+  },
+  {
+   "brand": "Perella Weinberg Partners",
+   "people": [
+    {
+     "name": "Andrew Bednar",
+     "title": "Partner and Chief Executive Officer",
+     "email": "abednar@pwpartners.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/andrew-bednar-0b1063169",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Dietrich Becker",
+     "title": "Partner & President",
+     "email": "dbecker@pwpartners.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/dietrich-becker-8547a515",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Robert Steel",
+     "title": "Partner and Vice Chairman",
+     "email": "rsteel@pwpartners.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/robert-steel-4597b0149",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Billtrust",
+   "people": [
+    {
+     "name": "Dillon Nugent",
+     "title": "Chief Marketing Officer",
+     "email": "dnugent@billtrust.com"
+    },
+    {
+     "name": "Paul Accardo",
+     "title": "Marketing Communications Director",
+     "email": "paccardo@billtrust.com"
+    },
+    {
+     "name": "Jody Gilliam",
+     "title": "Director, Content Marketing",
+     "email": "jgilliam@billtrust.com"
+    },
+    {
+     "name": "Kurt Konow",
+     "title": "Senior Director of Web, Brand & Creative Services",
+     "email": "kkonow@billtrust.com"
+    }
+   ]
+  },
+  {
+   "brand": "Blockdaemon",
+   "people": [
+    {
+     "name": "Sean Zaman",
+     "title": "Marketing and Revenue Operations Manager",
+     "email": "szaman@blockdaemon.com"
+    },
+    {
+     "name": "Konstantin Richter",
+     "title": "CEO & Founder",
+     "email": "konstantin@blockdaemon.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/konstantinrichter",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Julie Muroff",
+     "title": "Senior Director of Global Events & Digital Engagements",
+     "email": "jmuroff@blockdaemon.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/juliemuroff",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Flow Traders",
+   "people": [
+    {
+     "name": "Thomas Spitz",
+     "title": "Chief Executive Officer",
+     "email": "tspitz@flowtraders.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/thomas-spitz-a31274b",
+     "location": "Netherlands"
+    },
+    {
+     "name": "Ken Han",
+     "title": "Chief Commercial Officer",
+     "email": "ken.han@sg.flowtraders.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/ken-han-59769842",
+     "location": "Hong Kong, Hong Kong"
+    },
+    {
+     "name": "Eliza Waard",
+     "title": "Global Head of Communications",
+     "email": "edewaard@flowtraders.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/elizadewaard",
+     "location": "Amsterdam, Netherlands"
+    }
+   ]
+  },
+  {
+   "brand": "Timken",
+   "people": [
+    {
+     "name": "Team",
+     "title": "Media relations (Corporate Communications) (public inbox on company site)",
+     "email": "MediaRelations@timken.com"
+    }
+   ]
+  },
+  {
+   "brand": "Glaston",
+   "people": [
+    {
+     "name": "Miika Appelqvist",
+     "title": "President & CEO",
+     "email": "miika.appelqvist@glaston.net",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/appelqvistmiika",
+     "location": "Finland"
+    }
+   ]
+  }
+ ]
+}

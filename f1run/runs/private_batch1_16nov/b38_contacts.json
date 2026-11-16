@@ -1,0 +1,378 @@
+{
+ "rows": [
+  {
+   "brand": "Skylo",
+   "people": [
+    {
+     "name": "Tarun Gupta",
+     "title": "Co-Founder",
+     "email": "tarun@skylo.tech",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/tarunkgupta",
+     "location": "Mountain View, United States"
+    },
+    {
+     "name": "Garrick Lee",
+     "title": "Senior Manager, Partner Marketing",
+     "email": "garrick@skylo.tech",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/garricklee2000",
+     "location": "Saratoga, United States"
+    }
+   ]
+  },
+  {
+   "brand": "VSE Corporation",
+   "people": [
+    {
+     "name": "John Cuomo",
+     "title": "Chief Executive Officer, President and Board Director",
+     "email": "jacuomo@vsecorp.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/john-cuomo-28528412",
+     "location": "Fort Lauderdale, United States"
+    },
+    {
+     "name": "Monica Kamaris",
+     "title": "Senior Marketing Manager",
+     "email": "mkamaris@vsecorp.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/monica-kamaris",
+     "location": "Tampa, United States"
+    }
+   ]
+  },
+  {
+   "brand": "CONMED",
+   "people": [
+    {
+     "name": "Pat Beyer",
+     "title": "President, Chief Executive Officer",
+     "email": "patbeyer@conmed.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/pat-beyer-8131a818",
+     "location": "Marlow, United Kingdom"
+    },
+    {
+     "name": "James McVitty",
+     "title": "Vice President, Marketing. Global Orthopedics / Sports Medicine",
+     "email": "jamesmcvitty@conmed.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/mcvitty",
+     "location": "United States"
+    },
+    {
+     "name": "Michael O'Donnell",
+     "title": "Director of Marketing",
+     "email": "michaelodonnell@conmed.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/michael-o-donnell-4081aa11a",
+     "location": "Charlotte, United States"
+    },
+    {
+     "name": "Kristi Dupont",
+     "title": "Director of Marketing, Orthopaedics and Medical Education Events",
+     "email": "kristidupont@conmed.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/kristinattress",
+     "location": "Toronto, Canada"
+    }
+   ]
+  },
+  {
+   "brand": "Endava",
+   "people": [
+    {
+     "name": "John Cotterell",
+     "title": "Chief Executive Officer",
+     "email": "john.cotterell@endava.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/johncotterell",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Nefeli Kritikou",
+     "title": "Head of Marketing",
+     "email": "nefeli.kritikou@endava.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/nefeli-kritikou",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Don Campbell",
+     "title": "Head of EMEA and Partner Marketing",
+     "email": "don.campbell@endava.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/donalcampbell",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Victoria Paling",
+     "title": "Director of Brand and Communications",
+     "email": "victoria.paling@endava.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/victoriapaling",
+     "location": "United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "MariaDB",
+   "people": [
+    {
+     "name": "Rohit Souza",
+     "title": "Chief Executive Officer",
+     "email": "rohit.desouza@mariadb.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rohit-de-souza-42b3871",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Tracy Strauss",
+     "title": "Chief Marketing Officer",
+     "email": "tracy.strauss@mariadb.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/tracystrauss",
+     "location": "Laguna Niguel, United States"
+    },
+    {
+     "name": "Iris Whitney",
+     "title": "Vice President, Marketing",
+     "email": "iris.whitney@mariadb.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/irischerrera",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Jane Matteis",
+     "title": "Vice President of Revenue Marketing",
+     "email": "jane.matteis@mariadb.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jrodstein",
+     "location": "San Jose, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Axway",
+   "people": [
+    {
+     "name": "Sandrine Demal",
+     "title": "Vice President Marketing",
+     "email": "sdemal@axway.com"
+    },
+    {
+     "name": "Stass Pertsovskiy",
+     "title": "Director of Product Marketing",
+     "email": "spertsovskiy@axway.com"
+    },
+    {
+     "name": "Roland Royer",
+     "title": "Chief Executive Officer",
+     "email": "rroyer@axway.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rolandroyer",
+     "location": "France"
+    },
+    {
+     "name": "Adriana Hensley",
+     "title": "Director, Digital and Growth Marketing",
+     "email": "ahensley@axway.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/adriana-hensley-marketer",
+     "location": "Boston, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Upsun",
+   "people": [
+    {
+     "name": "Fred Plais",
+     "title": "Co-Founder & CEO",
+     "email": "fred@platform.sh",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/fplais",
+     "location": "Los Angeles, United States"
+    },
+    {
+     "name": "Tara Condon",
+     "title": "Chief Marketing Officer (CMO)",
+     "email": "tara.condon@platform.sh",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/taraflynncondon",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Doug Goldberg",
+     "title": "CCO",
+     "email": "doug.goldberg@platform.sh",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/doug-goldberg-182b7659",
+     "location": "Los Angeles, United States"
+    },
+    {
+     "name": "Celeste Van Der Watt",
+     "title": "Head of Brand",
+     "email": "celeste.vanderwatt@platform.sh",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/cvanderwatt",
+     "location": "Lille, France"
+    }
+   ]
+  },
+  {
+   "brand": "Hexatronic Group",
+   "people": [
+    {
+     "name": "Rikard Froberg",
+     "title": "CEO and President",
+     "email": "rikard.froberg@hexatronic.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rikard-froberg-6aa8121",
+     "location": "United States"
+    },
+    {
+     "name": "Lise-Lott Schonbeck",
+     "title": "Chief Marketing Officer",
+     "email": "lise-lott.schonbeck@hexatronic.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/lise-lott-sch%c3%b6nbeck",
+     "location": "Gothenburg, Sweden"
+    }
+   ]
+  },
+  {
+   "brand": "CI Financial",
+   "people": [
+    {
+     "name": "Darie Urbanky",
+     "title": "President",
+     "email": "durbanky@ci.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/darie-urbanky-b493704",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Darren Chong",
+     "title": "Senior Vice President, Digital Marketing",
+     "email": "dchong@ci.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/darren-chong-2a755511",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Kitty Tait",
+     "title": "Director, EMEA Marketing at Corient",
+     "email": "kitty.tait@corient.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/kitty-tait-2629b5a4",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Investcorp",
+   "people": [
+    {
+     "name": "Rishi Kapoor",
+     "title": "Chief Executive Officer",
+     "email": "rishik@investcorp.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rishi-kapoor-1a06497",
+     "location": "Manama, Bahrain"
+    },
+    {
+     "name": "Nahar Houthan",
+     "title": "Deputy Chief Executive Officer",
+     "email": "nhouthan@investcorp.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/nahar-houthan-27627651",
+     "location": "Saudi Arabia"
+    },
+    {
+     "name": "Firas El-Amine",
+     "title": "Global Head of Corporate Communications",
+     "email": "felamine@investcorp.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/firas-el-amine-0b42286",
+     "location": "Bahrain"
+    },
+    {
+     "name": "David Feigenbaum",
+     "title": "Managing Director - Head of Sales, Marketing & Investor Relations - Investcorp Credit Management",
+     "email": "dfeigenbaum@investcorp.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/david-feigenbaum-20162b25",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "CBRE Investment Management",
+   "people": [
+    {
+     "name": "Adam Gallistel",
+     "title": "Co-CEO and CIO",
+     "email": "adam.gallistel@cbreim.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/adam-gallistel-659320233",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Ryan Gill",
+     "title": "Sr. Director, Head of Global Product Marketing",
+     "email": "ryan.gill@cbreim.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/ryan-gill-marketing",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Emily Lai",
+     "title": "Senior Director, Head of Channel Marketing",
+     "email": "emily.wilson@cbreim.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/emilykwilson",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Geoffrey Gaviria",
+     "title": "Head of Conversion & Enablement Marketing",
+     "email": "geoff.gaviria@cbreim.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/geoffrey-gaviria",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Focus Financial Partners",
+   "people": [
+    {
+     "name": "Zinovy Iosovich",
+     "title": "Chief Growth Officer, Focus Partners",
+     "email": "zinovy.iosovich@focuspartners.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ziosovich",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Carrie Hutchcraft",
+     "title": "Head of Brand Strategy",
+     "email": "carrie.hutchcraft@focuspartners.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/carriehutchcraft",
+     "location": "United States"
+    },
+    {
+     "name": "Christina Griffin",
+     "title": "Corporate Communications Director",
+     "email": "cgriffin@focuspartners.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/christina-griffin-59343219",
+     "location": "New York, United States"
+    }
+   ]
+  }
+ ]
+}

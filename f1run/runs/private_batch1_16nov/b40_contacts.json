@@ -1,0 +1,348 @@
+{
+ "rows": [
+  {
+   "brand": "StepStone Group",
+   "people": [
+    {
+     "name": "Scott Hart",
+     "title": "Chief Executive Officer",
+     "email": "scott.hart@stepstonegroup.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/scott-hart-7811595",
+     "location": "San Diego, United States"
+    },
+    {
+     "name": "Kelli Hardacker",
+     "title": "VP of Content Marketing",
+     "email": "kelli.hardacker@stepstonegroup.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/khardacker",
+     "location": "San Diego, United States"
+    },
+    {
+     "name": "Jessica Basile",
+     "title": "Marketing Director (Consulting), EMEA Private Markets StepStone Group",
+     "email": "jessica.basile@stepstonegroup.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jessica-p-basile",
+     "location": "Monaco, Monaco"
+    }
+   ]
+  },
+  {
+   "brand": "Acadian Asset Management",
+   "people": [
+    {
+     "name": "Kelly Young",
+     "title": "Chief Executive Officer",
+     "email": "kyoung@acadian-asset.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kelly-young-cfa-caia-05b66311",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Ted Noon",
+     "title": "Chief Marketing Officer",
+     "email": "tnoon@acadian-asset.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/ted-noon-66643615",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Sara Baldwin",
+     "title": "VP, Manager, Global Client and Consultant Communications",
+     "email": "sbaldwin@acadian-asset.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/sara-baldwin-b1b5b626",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Amy Conklin",
+     "title": "Director of Communications",
+     "email": "aconklin@acadian-asset.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/amy-conklin-1495b8140",
+     "location": "Boston, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Stem",
+   "people": [
+    {
+     "name": "Arun Narayanan",
+     "title": "Chief Executive Officer",
+     "email": "arun.narayanan@stem.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/arunnarayanan",
+     "location": "Houston, United States"
+    },
+    {
+     "name": "Tatjana Legans",
+     "title": "Director of Services Marketing, Partnerships, and Business Development",
+     "email": "tatjana.legans@stem.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/tatjana-legans-019b1636",
+     "location": "Portland, United States"
+    },
+    {
+     "name": "Connor Botkin",
+     "title": "Senior Director of Product Marketing",
+     "email": "connor.botkin@stem.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/connorbotkin",
+     "location": "Mammoth Lakes, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Euroclear",
+   "people": [
+    {
+     "name": "Mark McFadyen",
+     "title": "Head of Marketing Strategy, Operations & RFP",
+     "email": "mark.mcfadyen@euroclear.com"
+    },
+    {
+     "name": "Pascal Brabant",
+     "title": "Head of External Communications",
+     "email": "pascal.brabant@euroclear.com"
+    },
+    {
+     "name": "Valerie Urbain",
+     "title": "Chief Executive Officer & Executive Director",
+     "email": "valerie.urbain@euroclear.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/val%c3%a9rie-urbain-85263129",
+     "location": "Brussels, Belgium"
+    },
+    {
+     "name": "Aki Vlahodimos",
+     "title": "Chief Marketing Officer",
+     "email": "aki.vlahodimos@euroclear.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/aki-vlahodimos",
+     "location": "Brussels, Belgium"
+    }
+   ]
+  },
+  {
+   "brand": "Cloud Capital",
+   "people": [
+    {
+     "name": "Shariar Mohajer",
+     "title": "President and Chief Investment Officer",
+     "email": "sm@cloudcapital.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/shariarmohajer",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Jerome Combredet",
+     "title": "Head of Marketing & Investor Relations",
+     "email": "jcombredet@cloudcapital.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jerome-combredet-7840838",
+     "location": "England, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Finnfund",
+   "people": [
+    {
+     "name": "Jaakko Kangasniemi",
+     "title": "Chief Executive Officer",
+     "email": "jaakko.kangasniemi@finnfund.fi",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jaakko-kangasniemi-4a70b519a",
+     "location": "Helsinki, Finland"
+    },
+    {
+     "name": "Unna Lehtipuu",
+     "title": "Chief Communications Officer (CCO), Public Affairs Director",
+     "email": "unna.lehtipuu@finnfund.fi",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/unnalehtipuu",
+     "location": "Helsinki, Finland"
+    },
+    {
+     "name": "Valpuri Maekinen",
+     "title": "Senior Communications and Marketing Manager",
+     "email": "valpuri.makinen@finnfund.fi",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/valpurimakinen",
+     "location": "Helsinki, Finland"
+    }
+   ]
+  },
+  {
+   "brand": "StoneX Group",
+   "people": [
+    {
+     "name": "Philip Smith",
+     "title": "Chief Executive Officer",
+     "email": "philip.smith@stonex.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/philip-smith-33158a11",
+     "location": "England, United Kingdom"
+    },
+    {
+     "name": "Mia Porter",
+     "title": "Global Head of Marketing Campaigns, Brand and Sponsorship",
+     "email": "mia.porter@stonex.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/mia-porter-253b672b",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Elyes Saafi",
+     "title": "Head of Marketing Partnerships",
+     "email": "elyes.saafi@stonex.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/elyes-s",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Naver",
+   "people": [
+    {
+     "name": "Caryn Choi",
+     "title": "Marketing Leader",
+     "email": "caryn.choi@navercorp.com"
+    },
+    {
+     "name": "Jaehyun Park",
+     "title": "Marketing Team Leader",
+     "email": "jaehyunpark@navercorp.com"
+    },
+    {
+     "name": "BB Kim",
+     "title": "Head of Marketing Communication",
+     "email": "pinkbomb@naverz-corp.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/bb-kim-b27850140",
+     "location": "Seongnam-si, South Korea"
+    }
+   ]
+  },
+  {
+   "brand": "FNZ",
+   "people": [
+    {
+     "name": "Matt Roobol",
+     "title": "Director of Marketing Operations & Digital",
+     "email": "matt.roobol@fnz.com"
+    },
+    {
+     "name": "Nina Sosna",
+     "title": "Change and Communications Strategy Lead",
+     "email": "nina.sosna@fnz.com"
+    },
+    {
+     "name": "Tom Chard",
+     "title": "Group Head of Growth",
+     "email": "tom.chard@fnz.com"
+    },
+    {
+     "name": "Hannah Foran",
+     "title": "Chief of Staff, Growth",
+     "email": "hannah.foran@fnz.com"
+    }
+   ]
+  },
+  {
+   "brand": "Rapyd",
+   "people": [
+    {
+     "name": "Marc Winitz",
+     "title": "Chief Marketing Officer (CMO)",
+     "email": "marcw@rapyd.net"
+    },
+    {
+     "name": "Mickael Bizouati",
+     "title": "Director of Marketing Operations",
+     "email": "mickaelb@rapyd.net"
+    },
+    {
+     "name": "Rona Susel",
+     "title": "Head of Global Marketing Programs",
+     "email": "ronas@rapyd.net"
+    },
+    {
+     "name": "Kristin Reischel",
+     "title": "Senior Director, GTM Marketing",
+     "email": "kristinr@rapyd.net"
+    }
+   ]
+  },
+  {
+   "brand": "FalconX",
+   "people": [
+    {
+     "name": "Raghu Yarlagadda",
+     "title": "Co-Founder & CEO",
+     "email": "raghu@falconx.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/raghuy",
+     "location": "Mountain View, United States"
+    },
+    {
+     "name": "Austin Reid",
+     "title": "Chief Commercial & Strategy Officer",
+     "email": "austin@falconx.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/austinreid1",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Chris Clark",
+     "title": "Head of Marketing",
+     "email": "christopher.clark@falconx.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/cclark88",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Verifone",
+   "people": [
+    {
+     "name": "Himanshu Patel",
+     "title": "Chief Executive Officer",
+     "email": "himanshu.patel@verifone.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/himanshu-patel-81728b146",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Liz Urheim",
+     "title": "EVP and Chief Marketing Officer",
+     "email": "liz.urheim@verifone.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/liz-urheim-a408491",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Lisa Lanspery",
+     "title": "Vice President Corporate Communications",
+     "email": "lisa.lanspery@verifone.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/lanspery",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Steve Katz",
+     "title": "Global Director, Strategic Partnerships & Ecosystem Marketing",
+     "email": "steve.katz@verifone.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/sakatz",
+     "location": "New York, United States"
+    }
+   ]
+  }
+ ]
+}

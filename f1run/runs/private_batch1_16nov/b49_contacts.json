@@ -1,0 +1,350 @@
+{
+ "rows": [
+  {
+   "brand": "Blitzy",
+   "people": [
+    {
+     "name": "Molly Gibbons",
+     "title": "Senior Field & Events Marketing Lead",
+     "email": "mgibbons@blitzy.com"
+    },
+    {
+     "name": "Patrick Makridakis",
+     "title": "Senior Vice President of Sales",
+     "email": "pmakridakis@blitzy.com"
+    },
+    {
+     "name": "Brian Elliott",
+     "title": "Co-Founder, CEO",
+     "email": "brian@blitzy.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/briancelliott",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Christopher Harris",
+     "title": "CRO & Transformation",
+     "email": "chris@blitzy.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/christopherharrisintralinks",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "Global AI",
+   "people": [
+    {
+     "name": "Sami Issa",
+     "title": "Co-Founder & Chief Executive Officer",
+     "email": "sami@globalai.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/samiissa",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "7AI",
+   "people": [
+    {
+     "name": "Anna Suslova",
+     "title": "Head of Growth Marketing",
+     "email": "anna.suslova@7ai.com"
+    },
+    {
+     "name": "Dina Durutlic",
+     "title": "Head of Product Marketing",
+     "email": "dina.durutlic@7ai.com"
+    },
+    {
+     "name": "Zack Trembowicz",
+     "title": "Creative Brand Manager",
+     "email": "zack.trembowicz@7ai.com"
+    },
+    {
+     "name": "Syria Ricciu",
+     "title": "Operations & Marketing Manager",
+     "email": "syria.ricciu@sevenai.com"
+    }
+   ]
+  },
+  {
+   "brand": "Fundbox",
+   "people": [
+    {
+     "name": "Prashant Fuloria",
+     "title": "Chief Executive Officer",
+     "email": "prashant.fuloria@fundbox.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/fuloria",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Nicole Guliyeva",
+     "title": "Director of Brand & Partner Marketing",
+     "email": "nicole.guliyeva@fundbox.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/nicole-guliyeva-7a1271131",
+     "location": "United States"
+    },
+    {
+     "name": "Anchit Singh",
+     "title": "Chief Business Officer",
+     "email": "anchit.singh@fundbox.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/anchitteotia",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Gray Henry",
+     "title": "Director of Product Marketing",
+     "email": "gray.henry@fundbox.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/grayhenry",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "EvenUp",
+   "people": [
+    {
+     "name": "Alex Elman",
+     "title": "Vice President, Revenue Marketing & Partnerships",
+     "email": "alex.elman@evenuplaw.com"
+    },
+    {
+     "name": "Kaitna Shankar",
+     "title": "Senior Director, Product Marketing & Customer Advocacy",
+     "email": "kaitna.shankar@evenuplaw.com"
+    },
+    {
+     "name": "Rami Karabibar",
+     "title": "CEO & Co-founder",
+     "email": "rami@evenup.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rami-karabibar-2bb3ab45",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Janu Flores",
+     "title": "Creative Leadership",
+     "email": "janu.flores@evenuplaw.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/januflores",
+     "location": "Austin, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Cantina Labs",
+   "people": [
+    {
+     "name": "Prakash Ramakrishna",
+     "title": "Co-Founder",
+     "email": "prakash@cantina.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kashr",
+     "location": "Saratoga, United States"
+    },
+    {
+     "name": "Amit Kumar",
+     "title": "Chief GTM Officer & VP Marketing",
+     "email": "amit@cantina.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/amitkumarmarketing",
+     "location": "Los Angeles, United States"
+    },
+    {
+     "name": "Siena Nahl",
+     "title": "Sr. Director, Head of Community",
+     "email": "siena@cantina.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/sienahl",
+     "location": "Los Angeles, United States"
+    },
+    {
+     "name": "Christopher Quintana",
+     "title": "Events, Special Projects & Communications",
+     "email": "christopher@cantina.ai",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/christopherquintana",
+     "location": "Los Angeles, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Glow",
+   "people": [
+    {
+     "name": "Roi Tiger",
+     "title": "CEO, Co-Founder",
+     "email": "roi@glow.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/roitiger",
+     "location": "United States"
+    },
+    {
+     "name": "Eileen Wade",
+     "title": "Head of Revenue Marketing",
+     "email": "eileen.wade@glow.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/eileen-wade",
+     "location": "San Jose, United States"
+    },
+    {
+     "name": "Alex Patman",
+     "title": "CRO",
+     "email": "alex.patman@glow.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/alexpatman",
+     "location": "Los Angeles, United States"
+    },
+    {
+     "name": "Noam Berger",
+     "title": "Creative Director",
+     "email": "noam.berger@glow.io",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/noam-berger-548698210",
+     "location": "Tel Aviv District, Israel"
+    }
+   ]
+  },
+  {
+   "brand": "Sarvam AI",
+   "people": [
+    {
+     "name": "Nameer Khan",
+     "title": "Head of Marketing",
+     "email": "nameer@sarvam.ai"
+    },
+    {
+     "name": "Vivek Raghavan",
+     "title": "Co-Founder",
+     "email": "vivek@sarvam.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/vivek-raghavan-16005424",
+     "location": "Bengaluru, India"
+    },
+    {
+     "name": "Disha Sanghvi",
+     "title": "Brand & Communications",
+     "email": "disha@sarvam.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/disha-sanghvi-marketing",
+     "location": "Bengaluru, India"
+    },
+    {
+     "name": "Pratyush Kumar",
+     "title": "Co-Founder",
+     "email": "pratyush@sarvam.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/pratyush-kumar-8844a8a3",
+     "location": "Chennai, India"
+    }
+   ]
+  },
+  {
+   "brand": "Keel Infrastructure Corp.",
+   "people": [
+    {
+     "name": "Ben Gagnon",
+     "title": "Chief Executive Officer",
+     "email": "bgagnon@bitfarms.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ben-gagnon1",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Tara Goldstein",
+     "title": "Senior Vice President Marketing",
+     "email": "tgoldstein@keelinfra.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/tara-goldstein",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Amanda Ignatius",
+     "title": "Director, Corporate Communications",
+     "email": "aignatius@keelinfra.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/amandaignatius",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Calix",
+   "people": [
+    {
+     "name": "Juergen Lindner",
+     "title": "Chief Marketing Officer",
+     "email": "juergen.lindner@calix.com"
+    },
+    {
+     "name": "Scott Neuman",
+     "title": "Senior Vice President / Vice President of Corporate Marketing",
+     "email": "scott.neuman@calix.com"
+    },
+    {
+     "name": "Stephen Eyre",
+     "title": "Vice President, Calix Partner Ecosystem",
+     "email": "stephen.eyre@calix.com"
+    },
+    {
+     "name": "Aleksandra Ciric",
+     "title": "Sr. Director Marketing",
+     "email": "aleksandra.ciric@calix.com"
+    }
+   ]
+  },
+  {
+   "brand": "BlackBuck",
+   "people": [
+    {
+     "name": "Rajesh Yabaji",
+     "title": "Co-Founder & CEO",
+     "email": "yabaji@blackbuck.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rajesh-yabaji-302347a",
+     "location": "Bengaluru, India"
+    }
+   ]
+  },
+  {
+   "brand": "0G Labs",
+   "people": [
+    {
+     "name": "Michael Heinrich",
+     "title": "Co-Founder & CEO",
+     "email": "michael@zglabs.org",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mheinrich",
+     "location": "Singapore, Singapore"
+    }
+   ]
+  },
+  {
+   "brand": "Simile",
+   "people": [
+    {
+     "name": "Joon Park",
+     "title": "CEO & Co-founder",
+     "email": "joon.park@simile.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/joonspark",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Vince Robertson",
+     "title": "GTM Leadership",
+     "email": "vince@simile.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/vincerobertson",
+     "location": "Kansas City, United States"
+    }
+   ]
+  }
+ ]
+}

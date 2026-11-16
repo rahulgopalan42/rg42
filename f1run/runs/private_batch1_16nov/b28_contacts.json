@@ -1,0 +1,321 @@
+{
+ "rows": [
+  {
+   "brand": "Immersive",
+   "people": [
+    {
+     "name": "Mark Schmitz",
+     "title": "Chief Executive Officer",
+     "email": "mark.schmitz@immersivelabs.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/markjschmitz",
+     "location": "Roswell, United States"
+    },
+    {
+     "name": "Christina Lennon",
+     "title": "Vice President, Global Revenue Marketing",
+     "email": "christina.lennon@immersivelabs.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/christinalennon",
+     "location": "Washington, United States"
+    },
+    {
+     "name": "Will Bloor",
+     "title": "VP, Brand & GTM Narrative | Executive Creative Director",
+     "email": "will.bloor@immersivelabs.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/will-bloor-086a923",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Allyson Whelan",
+     "title": "Program Director, Cyber Drills Global Roadshow and Tier 1 Events",
+     "email": "allyson.whelan@immersivelabs.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/allyson-whelan",
+     "location": "Alexandria, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Ironclad",
+   "people": [
+    {
+     "name": "Elise Bergeron",
+     "title": "Chief Marketing and Strategy Officer",
+     "email": "elise.bergeron@ironcladhq.com"
+    },
+    {
+     "name": "Brittany Fleit",
+     "title": "Director of Brand Marketing",
+     "email": "brittany.fleit@ironcladhq.com"
+    },
+    {
+     "name": "Laurel Hodge",
+     "title": "VP Corporate Marketing",
+     "email": "laurel.hodge@ironcladhq.com"
+    },
+    {
+     "name": "Ambika Aggarwal",
+     "title": "Vice President Product Marketing",
+     "email": "ambika.aggarwal@ironcladhq.com"
+    }
+   ]
+  },
+  {
+   "brand": "JumpCloud",
+   "people": [
+    {
+     "name": "Micha Hershman",
+     "title": "Chief Marketing Officer",
+     "email": "micha.hershman@jumpcloud.com"
+    },
+    {
+     "name": "Mona Popli",
+     "title": "VP of Product Marketing",
+     "email": "mona.popli@jumpcloud.com"
+    },
+    {
+     "name": "Sheena Sharma",
+     "title": "Vice President, Revenue Marketing",
+     "email": "sheena.sharma@jumpcloud.com"
+    },
+    {
+     "name": "Josie Caracciolo",
+     "title": "Communications Lead",
+     "email": "josie.judy@jumpcloud.com"
+    }
+   ]
+  },
+  {
+   "brand": "Lansweeper",
+   "people": [
+    {
+     "name": "Dave Goossens",
+     "title": "CEO",
+     "email": "dave.goossens@lansweeper.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/dave-goossens-721b631",
+     "location": "Belgium"
+    },
+    {
+     "name": "Natalia Rodas",
+     "title": "Head of Marketing a.i.",
+     "email": "natalia.rodas@lansweeper.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/nataliarodas",
+     "location": "Erpe-Mere, Belgium"
+    },
+    {
+     "name": "Chris Moojen",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "chris.moojen@lansweeper.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/chris-moojen-658127",
+     "location": "Amsterdam, Netherlands"
+    },
+    {
+     "name": "Stephanie Beasley",
+     "title": "Director of Global Demand Generation",
+     "email": "stephanie.beasley@lansweeper.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/stephanie-beasley-atx",
+     "location": "Austin, United States"
+    }
+   ]
+  },
+  {
+   "brand": "LaunchDarkly",
+   "people": [
+    {
+     "name": "Justin Engelland",
+     "title": "VP of Marketing",
+     "email": "jengelland@launchdarkly.com"
+    },
+    {
+     "name": "Elisabet Helgason",
+     "title": "Marketing Operations Lead",
+     "email": "ehelgason@launchdarkly.com"
+    },
+    {
+     "name": "Alex Lawrence",
+     "title": "Director of Technical Marketing",
+     "email": "alawrence@launchdarkly.com"
+    },
+    {
+     "name": "Shanna Wagnor",
+     "title": "Head of Partner Marketing",
+     "email": "swagnor@launchdarkly.com"
+    }
+   ]
+  },
+  {
+   "brand": "Mindtickle",
+   "people": [
+    {
+     "name": "Nishant Mungali",
+     "title": "Co-Founder",
+     "email": "nishant.mungali@mindtickle.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/nishant-mungali-01ba5310",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Siddharth Sharma",
+     "title": "Head of Paid Media and ABM",
+     "email": "siddharth.sharma@mindtickle.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/siddharth-sharma-118857103",
+     "location": "Bengaluru, India"
+    },
+    {
+     "name": "Natarajan Chandrasekaran",
+     "title": "Head of Product Marketing",
+     "email": "natarajan.chandrasekaran@mindtickle.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/nats-chandrasekaran",
+     "location": "India"
+    },
+    {
+     "name": "Bhargav Chandrababu",
+     "title": "Senior Director, Demand Generation",
+     "email": "bhargav.chandrababu@mindtickle.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/bhargav-chandrababu",
+     "location": "Bengaluru, India"
+    }
+   ]
+  },
+  {
+   "brand": "Observe.AI",
+   "people": [
+    {
+     "name": "Swapnil Jain",
+     "title": "Co-Founder and CEO",
+     "email": "swapnil@observe.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/voiceaiagent",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Chrissy Calabrese",
+     "title": "Head of Marketing",
+     "email": "chrissy.calabrese@observe.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/chrissycalabrese",
+     "location": "Philadelphia, United States"
+    },
+    {
+     "name": "Josh Wetzel",
+     "title": "Chief Revenue Officer",
+     "email": "josh.wetzel@observe.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/joshwetzel",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Joanna Swartwood",
+     "title": "Head of Growth Marketing",
+     "email": "joanna.swartwood@observe.ai",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/joannaswartwood",
+     "location": "San Diego, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Orca Security",
+   "people": [
+    {
+     "name": "Rachel Nislick",
+     "title": "Chief Marketing Officer",
+     "email": "rachel.nislick@orca.security"
+    },
+    {
+     "name": "Barret Guild",
+     "title": "Senior Director of Revenue Marketing",
+     "email": "barret.guild@orca.security"
+    },
+    {
+     "name": "Isaiah Walker",
+     "title": "Sr. Director, Campaign & Pipeline Marketing",
+     "email": "isaiah@orca.security"
+    },
+    {
+     "name": "Gil Geron",
+     "title": "CEO & Co-Founder",
+     "email": "gil@orca.security",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/gilgeron",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Outreach",
+   "people": [
+    {
+     "name": "Abhijit Mitra",
+     "title": "Chief Executive Officer",
+     "email": "abhijit.mitra@outreach.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mitrasaab",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Holly Simmons",
+     "title": "Chief Marketing Officer",
+     "email": "holly.simmons@outreach.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/hollysimmons",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Christopher Fisher",
+     "title": "Director, Brand and Creative",
+     "email": "chris.fisher@outreach.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/cfisheratwork",
+     "location": "Coldwater, United States"
+    },
+    {
+     "name": "Wilson Zhu",
+     "title": "Director of Growth Marketing",
+     "email": "wilson.zhu@outreach.io",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/wilson-zhu-166693361",
+     "location": "Buffalo, United States"
+    }
+   ]
+  },
+  {
+   "brand": "SecurityScorecard",
+   "people": [
+    {
+     "name": "Claire Trimble",
+     "title": "Chief Marketing Officer",
+     "email": "claire.trimble@securityscorecard.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/claire-trimble-60a34955",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Shannon Vavra",
+     "title": "Director of Communications",
+     "email": "shannon.vavra@securityscorecard.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/shannon-vavra-18676398",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Peter Jantzen",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "peter.jantzen@securityscorecard.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/peterjantzen",
+     "location": "Boston, United States"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,316 @@
+{
+ "rows": [
+  {
+   "brand": "CallMiner",
+   "people": [
+    {
+     "name": "Jeff Gallino",
+     "title": "Chief Executive Officer",
+     "email": "jeff.gallino@callminer.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/gallino",
+     "location": "Waltham, United States"
+    },
+    {
+     "name": "Eric Williamson",
+     "title": "Chief Marketing Officer",
+     "email": "eric.williamson@callminer.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/ericwilliamson1",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Ben Miele",
+     "title": "Chief Revenue Officer",
+     "email": "ben.miele@callminer.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/ben-miele-6473272",
+     "location": "United States"
+    },
+    {
+     "name": "Ashley Keating",
+     "title": "Head of Brand, Events & Demand Gen",
+     "email": "ashley.keating@callminer.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/akeating7",
+     "location": "Boston, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Semgrep",
+   "people": [
+    {
+     "name": "Aaron Liao",
+     "title": "VP Marketing",
+     "email": "aaron.liao@semgrep.com"
+    },
+    {
+     "name": "Sarah Nelson",
+     "title": "B2B Saas Marketing Leader",
+     "email": "sarah@semgrep.com"
+    },
+    {
+     "name": "Tammy Kim",
+     "title": "Field Marketing",
+     "email": "tammy@semgrep.com"
+    },
+    {
+     "name": "Bianca Lopez",
+     "title": "Marketing Operations",
+     "email": "bianca.lopez@semgrep.com"
+    }
+   ]
+  },
+  {
+   "brand": "Code Metal",
+   "people": [
+    {
+     "name": "Jennifer Wang",
+     "title": "Director & Head of Marketing",
+     "email": "jennifer.wang@codemetal.ai"
+    },
+    {
+     "name": "Grace Wu",
+     "title": "Marketing Program Manager",
+     "email": "grace.wu@codemetal.ai"
+    },
+    {
+     "name": "Peter Morales",
+     "title": "Chief Executive Officer",
+     "email": "peter@codemetal.ai"
+    },
+    {
+     "name": "Laura Shen",
+     "title": "EVP of Growth",
+     "email": "laura.shen@codemetal.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/laura-shen-95a8118",
+     "location": "Washington, United States"
+    }
+   ]
+  },
+  {
+   "brand": "PostHog",
+   "people": [
+    {
+     "name": "Brian Young",
+     "title": "Senior Growth Marketer",
+     "email": "brian@posthog.com"
+    },
+    {
+     "name": "Lizzie Epton",
+     "title": "Product Marketing Manager",
+     "email": "elizabeth.e@posthog.com"
+    },
+    {
+     "name": "Natalia Amorim",
+     "title": "Content Marketing Manager",
+     "email": "natalia@posthog.com"
+    },
+    {
+     "name": "James Hawkins",
+     "title": "Co-founder",
+     "email": "james@posthog.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/j-hawkins",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Miovision",
+   "people": [
+    {
+     "name": "Lyne Jacques",
+     "title": "Chief Revenue Officer at Miovision",
+     "email": "ljacques@miovision.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/lyne-jacques-9975201",
+     "location": "Montreal, Canada"
+    },
+    {
+     "name": "Mark Gaydos",
+     "title": "Vice President Marketing",
+     "email": "mark.gaydos@miovision.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/markgaydos",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Noa Bab",
+     "title": "Director of Communications",
+     "email": "noa.bab@miovision.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/noaisthebest",
+     "location": "Baltimore, United States"
+    },
+    {
+     "name": "Gavyn McLeod",
+     "title": "Director, Product Marketing",
+     "email": "gavyn.mcleod@miovision.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/gavynmcleod",
+     "location": "Waterloo, Canada"
+    }
+   ]
+  },
+  {
+   "brand": "TigerGraph",
+   "people": [
+    {
+     "name": "Rajeev Shrivastava",
+     "title": "CEO",
+     "email": "rajeev@tigergraph.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rajeevshrivastava",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Paige Leidig",
+     "title": "Chief Marketing Officer",
+     "email": "paige.leidig@tigergraph.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/paigeleidig",
+     "location": "Menlo Park, United States"
+    },
+    {
+     "name": "Victor Lee",
+     "title": "Head of Product Marketing, Distinguished Graph Specialist",
+     "email": "victor@tigergraph.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/victor-e-lee",
+     "location": "Cleveland, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Aviatrix",
+   "people": [
+    {
+     "name": "Rod Stuhlmuller",
+     "title": "VP Solutions Marketing",
+     "email": "rstuhlmuller@aviatrix.com"
+    },
+    {
+     "name": "Karen Mason",
+     "title": "Senior Director, Marketing Operations",
+     "email": "kmason@aviatrix.com"
+    },
+    {
+     "name": "Ken Horner",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "khorner@aviatrix.com"
+    },
+    {
+     "name": "Doug Merritt",
+     "title": "Chairman, CEO and President",
+     "email": "dmerritt@aviatrix.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/doug-m-33169",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "Reka AI",
+   "people": [
+    {
+     "name": "Dani Yogatama",
+     "title": "CEO/Co-Founder",
+     "email": "dani@reka.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/dani-yogatama-69a516251",
+     "location": "Sunnyvale, United States"
+    },
+    {
+     "name": "Annie Jeng",
+     "title": "Product Marketing",
+     "email": "annie@reka.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/annie-j-167454237",
+     "location": "Los Angeles, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Gauntlet",
+   "people": [
+    {
+     "name": "Simon Mathonnet",
+     "title": "Head of Marketing",
+     "email": "simon.mathonnet@gauntlet.xyz"
+    },
+    {
+     "name": "Kody Sale",
+     "title": "Product Marketing Manager",
+     "email": "kody@gauntlet.xyz"
+    },
+    {
+     "name": "Tarun Chitra",
+     "title": "Founder, CEO",
+     "email": "tarun@gauntlet.xyz",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/tarunchitra",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Nicholas Cannon",
+     "title": "Chief Business Officer",
+     "email": "nick@gauntlet.xyz",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/inkymaze",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Safe Security",
+   "people": [
+    {
+     "name": "Dave Grzebyk",
+     "title": "Senior Director, Field Marketing",
+     "email": "dave.g@safe.security"
+    },
+    {
+     "name": "Spenser Fishel",
+     "title": "Senior Director, Marketing Operations",
+     "email": "spenser.f@safe.security"
+    },
+    {
+     "name": "Ishika Budhrani",
+     "title": "Marketing",
+     "email": "ishika.b@safe.security"
+    },
+    {
+     "name": "Sweta Bhattacharya",
+     "title": "Product Marketing Manager",
+     "email": "sweta.b@safe.security"
+    }
+   ]
+  },
+  {
+   "brand": "Port",
+   "people": [
+    {
+     "name": "Edan Tal",
+     "title": "VP of Marketing",
+     "email": "edan.tal@port.io"
+    },
+    {
+     "name": "Michael Douglas",
+     "title": "Product Marketing",
+     "email": "michaeld@port.io"
+    },
+    {
+     "name": "Rocio Sasson",
+     "title": "Sr. Director of Demand Generation",
+     "email": "rocios@port.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rocio-zapata-sasson",
+     "location": "Israel"
+    }
+   ]
+  }
+ ]
+}
