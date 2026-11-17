@@ -1,0 +1,290 @@
+{
+ "rows": [
+  {
+   "brand": "Haworth Inc.",
+   "people": [
+    {
+     "name": "Paul Nemschoff",
+     "title": "Vice President Global Strategy and Marketing & Corporate Officer",
+     "email": "paul.nemschoff@haworth.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/paulnemschoff",
+     "location": "Holland, United States"
+    },
+    {
+     "name": "Melissa Liotus",
+     "title": "Vice President, Ecommerce and Digital Marketing",
+     "email": "melissa.liotus@haworth.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/melissa-liotus-95173237",
+     "location": "Downers Grove, United States"
+    },
+    {
+     "name": "Vanessa Bradley",
+     "title": "Brand Director",
+     "email": "vanessa.bradley@haworth.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/vanessa-bradley-96b56240",
+     "location": "United States"
+    },
+    {
+     "name": "Isabel Haworth",
+     "title": "Marketing Director",
+     "email": "isabel.haworth@haworth.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/isabel-costa-haworth",
+     "location": "Portugal"
+    }
+   ]
+  },
+  {
+   "brand": "Multiverse",
+   "people": [
+    {
+     "name": "Will Thompson",
+     "title": "Director of B2B Marketing",
+     "email": "will.thompson@multiverse.io"
+    },
+    {
+     "name": "Elise Page",
+     "title": "Product Marketing Lead",
+     "email": "elise.page@multiverse.io"
+    },
+    {
+     "name": "Miles Freeman",
+     "title": "Brand Director",
+     "email": "miles.freeman@multiverse.io"
+    },
+    {
+     "name": "Mayan Patel",
+     "title": "Partnerships & Commercial Products Lead",
+     "email": "mayan.patel@multiverse.io"
+    }
+   ]
+  },
+  {
+   "brand": "Nearfield Instruments",
+   "people": [
+    {
+     "name": "Lior Levin",
+     "title": "Director of Technical Marketing",
+     "email": "lior.levin@nearfieldinstruments.com"
+    },
+    {
+     "name": "Roland Van Vliet",
+     "title": "Chief Partnership Officer / Chief of Staff",
+     "email": "roland.vanvliet@nearfieldinstruments.com"
+    },
+    {
+     "name": "Hiroki Ikeda",
+     "title": "Sales VP & Country Manager",
+     "email": "hiroki.ikeda@nearfieldinstruments.com"
+    },
+    {
+     "name": "Bhartendu Dwivedi",
+     "title": "Senior Product Marketing Manager",
+     "email": "bhartendu.dwivedi@nearfieldinstruments.com"
+    }
+   ]
+  },
+  {
+   "brand": "Picsart",
+   "people": [
+    {
+     "name": "Vikram Jain",
+     "title": "Director of Product Marketing",
+     "email": "vikram.jain@picsart.com"
+    },
+    {
+     "name": "Mikayel Vardanyan",
+     "title": "Chief Operating Officer & Co-founder | Growth & Monetization",
+     "email": "mikayel@picsart.com"
+    },
+    {
+     "name": "Kerry Greene",
+     "title": "Director of Partnerships",
+     "email": "kerry.greene@picsart.com"
+    },
+    {
+     "name": "Anna Gasparyan",
+     "title": "Growth Product Manager",
+     "email": "anna.gasparyan@picsart.com"
+    }
+   ]
+  },
+  {
+   "brand": "Sentra",
+   "people": [
+    {
+     "name": "Yoav Regev",
+     "title": "Co-Founder & CEO",
+     "email": "yoav@sentra.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/yoav-regev-31718a1",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Doug Laird",
+     "title": "Chief Marketing Officer",
+     "email": "doug@sentra.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/douglaslaird",
+     "location": "United States"
+    },
+    {
+     "name": "Resha Chheda",
+     "title": "Vice President Product Marketing & Analyst Relations",
+     "email": "resha@sentra.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/rchheda",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "William Penfield",
+     "title": "Senior Director, Demand Generation",
+     "email": "will@sentra.io",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/willpenfield",
+     "location": "Boston, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Zuora",
+   "people": [
+    {
+     "name": "Andrea Ziesel",
+     "title": "Vice President Growth Marketing",
+     "email": "aziesel@zuora.com"
+    },
+    {
+     "name": "Winston Hait",
+     "title": "Director of Product Marketing & Strategy",
+     "email": "whait@zuora.com"
+    },
+    {
+     "name": "Emi Hofmeister",
+     "title": "VP Product Marketing",
+     "email": "ehofmeister@zuora.com"
+    },
+    {
+     "name": "Molly Sherman",
+     "title": "Marketing Operations Leader",
+     "email": "msherman@zuora.com"
+    }
+   ]
+  },
+  {
+   "brand": "Aikido Security",
+   "people": [
+    {
+     "name": "Michiel Denis",
+     "title": "Head of Marketing",
+     "email": "michiel@aikido.dev"
+    },
+    {
+     "name": "Lieven Oosterlinck",
+     "title": "Growth Marketing",
+     "email": "lieven@aikido.dev"
+    },
+    {
+     "name": "Katie Bajurin",
+     "title": "Growth Marketing Manager",
+     "email": "katie.bajurin@aikido.dev"
+    },
+    {
+     "name": "Nicholas Thomson",
+     "title": "Content Marketing Writer",
+     "email": "nicholas.thomson@aikido.dev"
+    }
+   ]
+  },
+  {
+   "brand": "Astra Tech",
+   "people": [
+    {
+     "name": "Tariq Hendi",
+     "title": "Chief Executive Officer",
+     "email": "tariq@astratech.ae",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/tariqbinhendi",
+     "location": "Dubai, United Arab Emirates"
+    },
+    {
+     "name": "Hazem Beshr",
+     "title": "Head of Marketing",
+     "email": "hazem.beshr@astratech.ae",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/hazem-beshr",
+     "location": "Dubai, United Arab Emirates"
+    },
+    {
+     "name": "Subhan Ahmad",
+     "title": "VP Growth Marketing",
+     "email": "subhan.ahmad@astratech.ae",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/subhansahmad",
+     "location": "Dubai, United Arab Emirates"
+    },
+    {
+     "name": "Imran Zafar",
+     "title": "Leading Digital & Martech",
+     "email": "imran.zafar@astratech.ae",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/imran-zafar",
+     "location": "Dubai, United Arab Emirates"
+    }
+   ]
+  },
+  {
+   "brand": "CertiK",
+   "people": [
+    {
+     "name": "Margarita Kadochnikova",
+     "title": "Head of Communications",
+     "email": "margarita.kadochnikova@certik.com"
+    },
+    {
+     "name": "Angus Lee",
+     "title": "Director, Business Development",
+     "email": "angus.lee@certik.com"
+    },
+    {
+     "name": "Joseph Hung",
+     "title": "Director of Business Development",
+     "email": "joseph.hung@certik.com"
+    },
+    {
+     "name": "Lakshya Kanyakubja",
+     "title": "Head of Business Development - CertiK MENA",
+     "email": "lakshya.kanyakubja@certik.com"
+    }
+   ]
+  },
+  {
+   "brand": "Chai Discovery",
+   "people": [
+    {
+     "name": "Nikitha Vicas",
+     "title": "Strategy & Partnerships",
+     "email": "nikitha@chaidiscovery.com"
+    },
+    {
+     "name": "Andres Gonzalez",
+     "title": "Member of Partnerships Staff",
+     "email": "andres@chaidiscovery.com"
+    },
+    {
+     "name": "Joshua Meier",
+     "title": "Co-Founder",
+     "email": "joshua@chaidiscovery.com"
+    },
+    {
+     "name": "Matthew McPartlon",
+     "title": "Co-Founder",
+     "email": "matt@chaidiscovery.com"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,352 @@
+{
+ "rows": [
+  {
+   "brand": "Poolside",
+   "people": [
+    {
+     "name": "Francois Lange",
+     "title": "Director - Head of Commercial Partnerships",
+     "email": "francois@poolside.ai"
+    },
+    {
+     "name": "Arina Sugako",
+     "title": "Marketing Manager",
+     "email": "arina@poolside.ai"
+    },
+    {
+     "name": "Jason Warner",
+     "title": "Co-CEO & Co-Founder",
+     "email": "jason@poolside.ai"
+    },
+    {
+     "name": "Margarida Garcia",
+     "title": "Co-Founder",
+     "email": "margarida@poolside.ai"
+    }
+   ]
+  },
+  {
+   "brand": "FPG (Fortune Prime Global)",
+   "people": [
+    {
+     "name": "Lisha Chen",
+     "title": "Chief Executive Officer",
+     "email": "lisha.chen@fpgcapital.com.au",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/lisha-chen-58b547a5",
+     "location": "Melbourne, Australia"
+    }
+   ]
+  },
+  {
+   "brand": "ScaleFlux",
+   "people": [
+    {
+     "name": "Hao Zhong",
+     "title": "CEO & Co-Founder",
+     "email": "hao.zhong@scaleflux.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/hao-zhong-scaleflux",
+     "location": "San Jose, United States"
+    },
+    {
+     "name": "Pichai Balaji",
+     "title": "VP of Products and Marketing",
+     "email": "pichai.balaji@scaleflux.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/picbalaji",
+     "location": "San Jose, United States"
+    },
+    {
+     "name": "Sriram Venkataraman",
+     "title": "Head of Sales and Business Development",
+     "email": "sriram.venkataraman@scaleflux.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/venkataramansriram",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Codat",
+   "people": [
+    {
+     "name": "Joey Rault",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "j.rault@codat.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/joeyrault",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Andrew Knerr",
+     "title": "Marketing Director",
+     "email": "a.knerr@codat.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/andrewknerr",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Ultima Markets",
+   "people": [
+    {
+     "name": "Judy Lam",
+     "title": "Head of Global Marketing",
+     "email": "judy.lam@ultimamarkets.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/judylam1",
+     "location": "Hong Kong, Hong Kong"
+    },
+    {
+     "name": "Kanchan Walia",
+     "title": "Head of Marketing",
+     "email": "kanchan.walia@ultimamarkets.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kanchan-walia-853a8418",
+     "location": "New Delhi, India"
+    },
+    {
+     "name": "Calvin Moore",
+     "title": "Head of Europe Marketing",
+     "email": "calvin.moore@ultimamarkets.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/calvinmoorecrypto",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Emma Liang",
+     "title": "Global Brand Manager",
+     "email": "emma.liang@ultimamarkets.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/emma-liang-546114176",
+     "location": "China"
+    }
+   ]
+  },
+  {
+   "brand": "DEEPX",
+   "people": [
+    {
+     "name": "Tim Park",
+     "title": "Director Strategic Marketing",
+     "email": "ys@deepx.ai"
+    },
+    {
+     "name": "Kyungwon Lee",
+     "title": "Sales Marketing Manager",
+     "email": "kyungwonlee@deepx.ai"
+    },
+    {
+     "name": "Ella Lee",
+     "title": "B2B Marketing and Public Relations Specialist",
+     "email": "lah@deepx.ai"
+    },
+    {
+     "name": "Lokwon Kim",
+     "title": "CEO",
+     "email": "lwk@deepx.co.kr"
+    }
+   ]
+  },
+  {
+   "brand": "Eko Health",
+   "people": [
+    {
+     "name": "Connor Landgraf",
+     "title": "Co-founder & CEO",
+     "email": "connor@ekohealth.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/connorlandgraf",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Blake Swinehart",
+     "title": "Head of Growth, Telehealth",
+     "email": "blake.swinehart@ekohealth.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/blake-swinehart",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Shawna Faris",
+     "title": "Director of Enterprise Marketing",
+     "email": "shawna.faris@ekohealth.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/shawna-faris",
+     "location": "Truckee, United States"
+    },
+    {
+     "name": "Steven Contreras",
+     "title": "Creative Director, Enterprise Marketing",
+     "email": "steven.contreras@ekohealth.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/contrerasdesign",
+     "location": "Alameda, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Filecoin",
+   "people": [
+    {
+     "name": "Juan Benet",
+     "title": "Founder, CEO, Engineer",
+     "email": "juan@protocol.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jbenetcs",
+     "location": "Palo Alto, United States"
+    },
+    {
+     "name": "Megan Klimen",
+     "title": "Founding Officer",
+     "email": "megan@fil.org",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/megan-klimen",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Danielle Dubravac",
+     "title": "Strategic Communications Leader",
+     "email": "danielle@fil.org",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/danielledubravac",
+     "location": "Baltimore, United States"
+    },
+    {
+     "name": "Gary Moran",
+     "title": "Creative Director",
+     "email": "gary@fil.org",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/gmoranxyz",
+     "location": "Dublin, Ireland"
+    }
+   ]
+  },
+  {
+   "brand": "Meanwhile",
+   "people": [
+    {
+     "name": "Zachary Townsend",
+     "title": "Co-Founder and CEO",
+     "email": "zac@meanwhile.bm",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/zactownsend",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Arik Marmorstein",
+     "title": "Builder and VP Marketing",
+     "email": "arik@meanwhile.bm",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/arikmarmorstein",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Danny Baer",
+     "title": "Head of Revenue",
+     "email": "danny@meanwhile.bm",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/danny-baer1",
+     "location": "Minneapolis, United States"
+    },
+    {
+     "name": "Michael Grob",
+     "title": "Chief Growth Officer & Group Head International",
+     "email": "michael.grob@meanwhile.bm",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/michaelgrobprofile",
+     "location": "Hamilton, Bermuda"
+    }
+   ]
+  },
+  {
+   "brand": "Toobit",
+   "people": [
+    {
+     "name": "Kelly Wang",
+     "title": "Co-Founder",
+     "email": "kelly.wang@toobit.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kelly-w-97bb3894",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Theodore P",
+     "title": "Head of Growth",
+     "email": "theodore@toobit.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/theo101",
+     "location": "Dubai, United Arab Emirates"
+    },
+    {
+     "name": "Davin Chee",
+     "title": "Brand Manager",
+     "email": "davin.chee@toobit.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/davinchee",
+     "location": "Singapore, Singapore"
+    }
+   ]
+  },
+  {
+   "brand": "Vendasta",
+   "people": [
+    {
+     "name": "Brendan King",
+     "title": "CEO",
+     "email": "bking@vendasta.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/brendanking",
+     "location": "Saskatoon, Canada"
+    },
+    {
+     "name": "Jeff Folckemer",
+     "title": "Chief Revenue Officer",
+     "email": "jfolckemer@vendasta.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jefffolckemer",
+     "location": "Saint Augustine, United States"
+    },
+    {
+     "name": "Ian Adams",
+     "title": "VP of Demand Generation",
+     "email": "iadams@vendasta.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/ianmtadams",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Nykea Behiel",
+     "title": "Director of Brand + Experience",
+     "email": "nbehiel@vendasta.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/nykeamariebehiel",
+     "location": "Saskatoon, Canada"
+    }
+   ]
+  },
+  {
+   "brand": "Achronix Semiconductor",
+   "people": [
+    {
+     "name": "Robert Blake",
+     "title": "Chief Executive Officer",
+     "email": "robert.blake@achronix.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/robert-blake-a248ba2",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Jay Aggarwal",
+     "title": "Sr. Director, Product Marketing and Product Management",
+     "email": "jayaggarwal@achronix.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jaggarwal",
+     "location": "San Francisco, United States"
+    }
+   ]
+  }
+ ]
+}

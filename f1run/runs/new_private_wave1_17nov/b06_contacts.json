@@ -1,0 +1,343 @@
+{
+ "rows": [
+  {
+   "brand": "SHI International Corp.",
+   "people": [
+    {
+     "name": "Mandee Richards",
+     "title": "Director Growth Marketing Programs -Commercial & SMB",
+     "email": "mandee_richards@shi.com"
+    },
+    {
+     "name": "Kathryn Willse",
+     "title": "Vice President - Communications & Solution Marketing",
+     "email": "kate_willse@shi.com"
+    },
+    {
+     "name": "Ben Eagling",
+     "title": "Senior Director of Growth Marketing",
+     "email": "ben_eagling@shi.com"
+    },
+    {
+     "name": "Lauren Monroy",
+     "title": "Associate Director of Marketing Communications",
+     "email": "lauren_monroy@shi.com"
+    }
+   ]
+  },
+  {
+   "brand": "Trading 212",
+   "people": [
+    {
+     "name": "Mukid Chowdhury",
+     "title": "Chief Executive Officer",
+     "email": "mukid.chowdhury@trading212.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mukid-chowdhury-80939914",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Michael Byrne",
+     "title": "Chief Executive Officer",
+     "email": "michael.byrne@trading212.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/michael-byrne-51121317",
+     "location": "Dublin, Ireland"
+    },
+    {
+     "name": "Costas Constantinides",
+     "title": "Chief Executive Officer",
+     "email": "costas.constantinides@trading212.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/costasconstantinides",
+     "location": "Cyprus"
+    }
+   ]
+  },
+  {
+   "brand": "Xsight Labs",
+   "people": [
+    {
+     "name": "Jillian Kaplan",
+     "title": "Senior Director, Product + Marketing Strategy",
+     "email": "jilliank@xsightlabs.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jillian-kaplan",
+     "location": "Boston, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Bloomreach",
+   "people": [
+    {
+     "name": "Raj Datta",
+     "title": "CEO and Co-Founder",
+     "email": "raj@bloomreach.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rdedatta",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Ben Brewer",
+     "title": "Chief Commercial Officer",
+     "email": "ben.brewer@bloomreach.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/benmbrewer",
+     "location": "Seattle, United States"
+    },
+    {
+     "name": "Candace Gregg",
+     "title": "VP, Global Field Marketing",
+     "email": "candace.gregg@bloomreach.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/candacegregg",
+     "location": "Charlotte, United States"
+    },
+    {
+     "name": "Billie Baker",
+     "title": "Director, Global Demand Generation",
+     "email": "billie.baker@bloomreach.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/billiebaker",
+     "location": "United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Coalition",
+   "people": [
+    {
+     "name": "Joshua Motta",
+     "title": "Co-Founder & CEO",
+     "email": "joshua@coalitioninc.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/joshuamotta",
+     "location": "Los Angeles, United States"
+    },
+    {
+     "name": "Dylan Steele",
+     "title": "Chief Marketing Officer",
+     "email": "dylan.steele@coalitioninc.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/dylanrsteele",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Erik Brown",
+     "title": "Sr. Director, Head of Brand & Events",
+     "email": "erik.brown@coalitioninc.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/erikalfredbrown",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Marisa Graves",
+     "title": "Head of Communications",
+     "email": "marisa.graves@coalitioninc.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/marisa-graves",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "GMI Cloud",
+   "people": [
+    {
+     "name": "Alex Yeh",
+     "title": "Founder & CEO",
+     "email": "alex.y@gmicloud.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/gmi-yeh",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Louisa Guo",
+     "title": "VP, Marketing and Growth",
+     "email": "louisa.g@gmicloud.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/louisa-guo",
+     "location": "United States"
+    },
+    {
+     "name": "Lillian",
+     "title": "Head of Global Partnerships",
+     "email": "lillian.m@gmicloud.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/lillianmaca",
+     "location": "Santa Clara, United States"
+    },
+    {
+     "name": "Brian Bensch",
+     "title": "Marketing Director",
+     "email": "brian.b@gmicloud.ai",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/brianbensch",
+     "location": "Burlingame, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Heraeus Group",
+   "people": [
+    {
+     "name": "Frank Stietz",
+     "title": "CEO and Chairman of the Board of Managing Directors of the Heraeus Group",
+     "email": "frank.stietz@heraeus.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/frankstietz",
+     "location": "Frankfurt, Germany"
+    },
+    {
+     "name": "Katrin Sulzmann",
+     "title": "Senior Vice President Global Corporate Communications",
+     "email": "katrin.sulzmann@heraeus.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/katrinsulzmann",
+     "location": "Heidelberg, Germany"
+    },
+    {
+     "name": "Volker Skowski",
+     "title": "Business Development Manager, Market Intelligence Specialist, Global Head of Strategic Marketing at",
+     "email": "volker.skowski@heraeus.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/volker-skowski-592b594",
+     "location": "Frankfurt, Germany"
+    },
+    {
+     "name": "Kim Becker",
+     "title": "Head of Brand Identity & Strategic Communication",
+     "email": "k.becker@heraeus.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/kim-becker-8b27b415",
+     "location": "Hanau, Germany"
+    }
+   ]
+  },
+  {
+   "brand": "Kape Technologies",
+   "people": [
+    {
+     "name": "Charles Butler",
+     "title": "Chief Executive Officer at Kape Technologies",
+     "email": "charles.butler@kape.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/charlesbutler2",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Ori Shavit",
+     "title": "Chief Marketing Officer",
+     "email": "ori.shavit@kape.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/ori-shavit-a811a727",
+     "location": "United Arab Emirates"
+    },
+    {
+     "name": "Adi Mor",
+     "title": "SVP Marketing",
+     "email": "adi.mor@kape.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/adi-mor-aa4369134",
+     "location": "Tel Aviv-Yafo, Israel"
+    },
+    {
+     "name": "Mihai Rida",
+     "title": "Director of Growth Marketing",
+     "email": "mihai.rida@kape.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/mihairida",
+     "location": "Romania"
+    }
+   ]
+  },
+  {
+   "brand": "Max Mara Fashion Group",
+   "people": [
+    {
+     "name": "Daniele Indovina",
+     "title": "CEO",
+     "email": "daniele.indovina@maxmarafashiongroup.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/danieleindovina",
+     "location": "Russia"
+    },
+    {
+     "name": "Eugenio Sidoli",
+     "title": "Amministratore Delegato Max Mara srl",
+     "email": "sidoli.e@maxmara.it",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/eugenio-sidoli-5aa6553",
+     "location": "Reggio Emilia, Italy"
+    },
+    {
+     "name": "Judgie Graham",
+     "title": "Senior Vice President, Marketing & Communications",
+     "email": "graham.j@usa.maxmara.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/judgie-graham-256b5289",
+     "location": "United States"
+    },
+    {
+     "name": "Fabio Dondi",
+     "title": "Head of Communication",
+     "email": "dondi.f@maxmara.it",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/fabio-d-2872bb15",
+     "location": "Bologna, Italy"
+    }
+   ]
+  },
+  {
+   "brand": "Snorkel AI",
+   "people": [
+    {
+     "name": "Tammy Le",
+     "title": "Chief Marketing Officer",
+     "email": "tammy.le@snorkel.ai"
+    },
+    {
+     "name": "Kari Hodgson",
+     "title": "Director of Marketing Strategy and Operations",
+     "email": "kari.hodgson@snorkel.ai"
+    },
+    {
+     "name": "Kevin Olivieri",
+     "title": "Sr. Director of Product Marketing",
+     "email": "kevin.olivieri@snorkel.ai"
+    },
+    {
+     "name": "David Burch",
+     "title": "Senior Director, Integrated Marketing",
+     "email": "david.burch@snorkel.ai"
+    }
+   ]
+  },
+  {
+   "brand": "IMC Trading",
+   "people": [
+    {
+     "name": "Manikantan Mvl",
+     "title": "Head of Marketing",
+     "email": "manikantan.mvl@imc.com"
+    },
+    {
+     "name": "Matthew Rose",
+     "title": "Global Head of Marketing",
+     "email": "matthew.rose@imc.com"
+    },
+    {
+     "name": "Azina Saeidi",
+     "title": "Head of Marketing | Europe",
+     "email": "azina.saeidi@imc.com"
+    },
+    {
+     "name": "Iris Chan",
+     "title": "Head of Marketing, APAC",
+     "email": "iris.chan@imc.com"
+    }
+   ]
+  }
+ ]
+}

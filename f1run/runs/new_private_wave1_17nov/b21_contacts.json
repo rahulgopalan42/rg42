@@ -1,0 +1,316 @@
+{
+ "rows": [
+  {
+   "brand": "Hailo",
+   "people": [
+    {
+     "name": "Danya Golan",
+     "title": "VP of Marketing",
+     "email": "danyag@hailo.ai"
+    },
+    {
+     "name": "Moran Gurewitz",
+     "title": "Marketing Communications Manager",
+     "email": "morang@hailo.ai"
+    },
+    {
+     "name": "Max Glover",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "maxg@hailo.ai"
+    },
+    {
+     "name": "Orr Danon",
+     "title": "CEO",
+     "email": "orrd@hailo.ai"
+    }
+   ]
+  },
+  {
+   "brand": "Nauto",
+   "people": [
+    {
+     "name": "Yoav Banin",
+     "title": "Chief Product & Business Development Officer - Nauto",
+     "email": "yoav.banin@nauto.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/yoavbanin",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Netlify",
+   "people": [
+    {
+     "name": "Carly Brantz",
+     "title": "Chief Marketing Officer",
+     "email": "carly.brantz@netlify.com"
+    },
+    {
+     "name": "Gehrig Kunz",
+     "title": "Principal Product Marketing Manager",
+     "email": "gehrig.kunz@netlify.com"
+    },
+    {
+     "name": "Megan O'Brien",
+     "title": "Senior Partner Marketing Manager",
+     "email": "megan.obrien@netlify.com"
+    },
+    {
+     "name": "Raymond Abella",
+     "title": "Business Development Specialist",
+     "email": "raymond.abella@netlify.com"
+    }
+   ]
+  },
+  {
+   "brand": "Quantum Machines",
+   "people": [
+    {
+     "name": "Itamar Sivan",
+     "title": "CEO",
+     "email": "itamar@quantum-machines.co",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/itamarsivan",
+     "location": "Israel"
+    },
+    {
+     "name": "Omri Shoshan",
+     "title": "Chief Business Officer",
+     "email": "omri@quantum-machines.co",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/omri-shoshan-b0aba566",
+     "location": "Israel"
+    },
+    {
+     "name": "Yonatan Snir",
+     "title": "VP Marketing",
+     "email": "yonatan.snir@quantum-machines.co",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/yonatan",
+     "location": "Tel Aviv-Yafo, Israel"
+    },
+    {
+     "name": "Katia Moskvitch",
+     "title": "Director of Communications and Content Strategy",
+     "email": "katia.moskvitch@quantum-machines.co",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/katiamoskvitch",
+     "location": "Zurich, Switzerland"
+    }
+   ]
+  },
+  {
+   "brand": "Aptos",
+   "people": [
+    {
+     "name": "Chris Price",
+     "title": "Head of Business Development, AI and DePIN",
+     "email": "chris@aptoslabs.com"
+    },
+    {
+     "name": "Ariana Gianacopoulos",
+     "title": "Marketing",
+     "email": "ariana@aptoslabs.com"
+    },
+    {
+     "name": "Janet Lee",
+     "title": "Marketing",
+     "email": "janet@aptoslabs.com"
+    },
+    {
+     "name": "Avery Ching",
+     "title": "Co-Founder & CEO",
+     "email": "avery@aptoslabs.com"
+    }
+   ]
+  },
+  {
+   "brand": "Fetcherr",
+   "people": [
+    {
+     "name": "Ido Shomrony",
+     "title": "CBO & GC",
+     "email": "ido@fetcherr.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ido-shomrony-147b06a6",
+     "location": "Israel"
+    },
+    {
+     "name": "Aviv Cohen",
+     "title": "Head of Marketing",
+     "email": "aviv@fetcherr.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/aviv-cohen-1113071a1",
+     "location": "Tel Aviv District, Israel"
+    }
+   ]
+  },
+  {
+   "brand": "Gloat",
+   "people": [
+    {
+     "name": "Ben Reuveni",
+     "title": "CEO & Co-Founder",
+     "email": "ben@gloat.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/reuveniben",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Danny Shteinberg",
+     "title": "Co-founder",
+     "email": "danny@gloat.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/danny-shteinberg-458319105",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "H Company",
+   "people": [
+    {
+     "name": "Charlotte Loyer",
+     "title": "Marketing Lead",
+     "email": "charlotte.loyer@hcompany.ai"
+    },
+    {
+     "name": "Pierre Maillot",
+     "title": "Vice President of Business Development",
+     "email": "pierre.maillot@hcompany.ai"
+    },
+    {
+     "name": "Jeff Ester",
+     "title": "SVP Sales Americas",
+     "email": "jeff.ester@hcompany.ai"
+    },
+    {
+     "name": "Nicolas Taborisky",
+     "title": "Sales Lead",
+     "email": "nicolas.taborisky@hcompany.ai"
+    }
+   ]
+  },
+  {
+   "brand": "Itamar Medical",
+   "people": [
+    {
+     "name": "Amit Shafrir",
+     "title": "President, US",
+     "email": "samit@itamar-medical.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/amitshafrir",
+     "location": "Baltimore, United States"
+    },
+    {
+     "name": "Lauren Kinney-Kruse",
+     "title": "Associate Director - Strategic Marketing",
+     "email": "klauren@itamar-medical.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/lauren-kinney-kruse-1b69a549",
+     "location": "Kansas City, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Lukka",
+   "people": [
+    {
+     "name": "Paige Connor",
+     "title": "Head of Marketing",
+     "email": "p.connor@lukka.global"
+    },
+    {
+     "name": "Daniel Huscher",
+     "title": "COO",
+     "email": "d.huscher@lukka.global"
+    },
+    {
+     "name": "Kat Tatochenko",
+     "title": "Head of Americas (formerly CEO, Peer Data)",
+     "email": "k.tatochenko@lukka.global"
+    },
+    {
+     "name": "Michael Quilatan",
+     "title": "Chief Risk Officer",
+     "email": "m.quilatan@lukka.global"
+    }
+   ]
+  },
+  {
+   "brand": "Optibus",
+   "people": [
+    {
+     "name": "Amos Haggiag",
+     "title": "CEO & Co-founder",
+     "email": "amos@optibus.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/amoshag",
+     "location": "Tel Aviv District, Israel"
+    },
+    {
+     "name": "Marine Yeshaya",
+     "title": "Global Marketing Director",
+     "email": "marine.ben-yeshaya@optibus.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/marine-by",
+     "location": "Tel Aviv-Yafo, Israel"
+    },
+    {
+     "name": "Abigail Levner",
+     "title": "Head of Public Relations and Communications",
+     "email": "abigail.levner@optibus.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/abigail-levner",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Lior Krupsky",
+     "title": "Head of Global Product Partnerships",
+     "email": "lior.krupsky@optibus.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lior-krupsky",
+     "location": "Tel Aviv District, Israel"
+    }
+   ]
+  },
+  {
+   "brand": "Perfios",
+   "people": [
+    {
+     "name": "Nitin Chugh",
+     "title": "Managing Director and Group CEO",
+     "email": "nitin.chugh@perfios.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/nitinchugh71",
+     "location": "Mumbai, India"
+    },
+    {
+     "name": "Amit Gupta",
+     "title": "Vice President Marketing",
+     "email": "amit.gupta@perfios.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/amit-gupta-ag",
+     "location": "Bengaluru, India"
+    },
+    {
+     "name": "Sridhar Narayan",
+     "title": "Chief Business Officer",
+     "email": "sridhar@perfios.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/sridharnarayan",
+     "location": "Mumbai, India"
+    },
+    {
+     "name": "Amrita Ahmed",
+     "title": "Senior Director of Marketing",
+     "email": "amrita.d@perfios.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/amrita-ahmed-9a1b10a2",
+     "location": "Mumbai, India"
+    }
+   ]
+  }
+ ]
+}

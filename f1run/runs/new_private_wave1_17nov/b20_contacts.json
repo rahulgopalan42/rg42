@@ -1,0 +1,384 @@
+{
+ "rows": [
+  {
+   "brand": "Basecamp Research",
+   "people": [
+    {
+     "name": "Glen Gowers",
+     "title": "Co-Founder",
+     "email": "glen@basecamp-research.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/glen-gowers",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Richard Pearce",
+     "title": "Chief Business Officer",
+     "email": "richard.pearce@basecamp-research.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/richard-pearce-78a9164",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Valerio Pereno",
+     "title": "Head of Strategic Partnerships",
+     "email": "valerio@basecamp-research.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/vpereno",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "D'Arcy Doran",
+     "title": "Brand Narrative and Positioning",
+     "email": "darcy@basecamp-research.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/darcydoran",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Figment",
+   "people": [
+    {
+     "name": "Lorien Gabel",
+     "title": "Co-Founder & CEO",
+     "email": "lorien@figment.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/loriengabel",
+     "location": "Wilson, United States"
+    },
+    {
+     "name": "Pat Shores",
+     "title": "CMO",
+     "email": "pat.shores@figment.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/patshores",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Josh Deems",
+     "title": "Head of Revenue",
+     "email": "joshua.deems@figment.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/joshdeems",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Eva Lawrence",
+     "title": "Head of Revenue",
+     "email": "eva.lawrence@figment.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/eva-lawrence",
+     "location": "United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "VikingCloud",
+   "people": [
+    {
+     "name": "Mark Brady",
+     "title": "Chief Executive Officer",
+     "email": "markbrady@vikingcloud.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mark-brady-b516332",
+     "location": "New York, United States"
+    },
+    {
+     "name": "David Trachtenberg",
+     "title": "Chief Marketing Officer",
+     "email": "davidtrachtenberg@vikingcloud.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/david-trachtenberg-59842a1",
+     "location": "United States"
+    },
+    {
+     "name": "Yaacova Burnette",
+     "title": "Chief Revenue Officer",
+     "email": "yaacovaburnette@vikingcloud.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/yaacovaburnette",
+     "location": "Alpharetta, United States"
+    },
+    {
+     "name": "Jodi Kukla",
+     "title": "Senior Vice President Marketing",
+     "email": "jodikukla@vikingcloud.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jodikukla",
+     "location": "Minneapolis, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Anyscale",
+   "people": [
+    {
+     "name": "Robert Nishihara",
+     "title": "Co-Founder",
+     "email": "rkn@anyscale.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/robert-nishihara-b6465444",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Julian Forero",
+     "title": "Head of Marketing",
+     "email": "julianf@anyscale.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/julian-forero",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Lou Serlenga",
+     "title": "Head of Alliances and Partnerships",
+     "email": "lserlenga@anyscale.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/louserlenga",
+     "location": "Philadelphia, United States"
+    },
+    {
+     "name": "Chad Carlisle",
+     "title": "Head of Sales",
+     "email": "chad.carlisle@anyscale.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/chadcarlisle",
+     "location": "Atlanta, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Barbour",
+   "people": [
+    {
+     "name": "Paul Wilkinson",
+     "title": "Group Deputy Managing Director (CEO)",
+     "email": "paul.wilkinson@barbour.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/paul-wilkinson-8151222b",
+     "location": "Newcastle upon Tyne, United Kingdom"
+    },
+    {
+     "name": "Jamie McCall",
+     "title": "Global Marketing Director (CMO)",
+     "email": "jamie.mccall@barbour.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jamie-mccall",
+     "location": "Edinburgh, United Kingdom"
+    },
+    {
+     "name": "Simon Lister",
+     "title": "Global Director of Brand & Communications",
+     "email": "simon.lister@barbour.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/simonmlister",
+     "location": "Newcastle upon Tyne, United Kingdom"
+    },
+    {
+     "name": "Hannah Small",
+     "title": "Director Global Digital Marketing & Ecommerce",
+     "email": "hannah.small@barbour.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/hannah-small-611b697",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Datarails",
+   "people": [
+    {
+     "name": "Didi Gurfinkel",
+     "title": "Co-Founder & CEO",
+     "email": "didi@datarails.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/didigurfinkel",
+     "location": "Israel"
+    },
+    {
+     "name": "Aviv Canaani",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "aviv.c@datarails.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/avivcanaani",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Jonathan Marciano",
+     "title": "VP Brand and Communications",
+     "email": "jonathan.m@datarails.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jonathan-marciano-b9328a1b",
+     "location": "Tel Aviv-Yafo, Israel"
+    },
+    {
+     "name": "Kobi Salinas",
+     "title": "Director of Product Growth",
+     "email": "kobi.s@datarails.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/kosalinas",
+     "location": "Tel Aviv District, Israel"
+    }
+   ]
+  },
+  {
+   "brand": "iboss",
+   "people": [
+    {
+     "name": "Paul Martini",
+     "title": "Co-CEO",
+     "email": "paul.martini@iboss.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/martinipaul",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Peter Martini",
+     "title": "President and Co-Founder",
+     "email": "peter.martini@iboss.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/peter-martini-6a143054",
+     "location": "San Diego, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Juspay",
+   "people": [
+    {
+     "name": "Vimal Kumar",
+     "title": "Founder",
+     "email": "vimal.kumar@juspay.in",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kumarvimal",
+     "location": "Bengaluru, India"
+    },
+    {
+     "name": "Sheetal Lalwani",
+     "title": "Co-founder & Chief Operating Officer",
+     "email": "sheetal@juspay.in",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/sheetalchainraj",
+     "location": "Bengaluru, India"
+    },
+    {
+     "name": "Nitish Saxena",
+     "title": "Director of Marketing & Growth",
+     "email": "nitish.msaxena@juspay.in",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/nitish-mohan-saxena",
+     "location": "Bengaluru, India"
+    },
+    {
+     "name": "Indri Yuanita",
+     "title": "Head of Partnerships",
+     "email": "indri.yuanita@juspay.in",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/indri-yuanita-547b36ba",
+     "location": "Jakarta, Indonesia"
+    }
+   ]
+  },
+  {
+   "brand": "Tractable",
+   "people": [
+    {
+     "name": "Venkat Sathyamurthy",
+     "title": "Chief Executive Officer",
+     "email": "venkat@tractable.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/venkatsathyamurthy",
+     "location": "Woodinville, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Alcatel Submarine Networks",
+   "people": [
+    {
+     "name": "Alain Biston",
+     "title": "Chief Executive Officer",
+     "email": "alain.biston@asn.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/alain-biston-1b8317",
+     "location": "Paris, France"
+    },
+    {
+     "name": "Christophe Ridoux",
+     "title": "Vice President of Sales and Marketing",
+     "email": "christophe.ridoux@asn.com",
+     "role": "cro",
+     "linkedin": "",
+     "location": "United States"
+    },
+    {
+     "name": "Guillaume Fausten",
+     "title": "Head of Communication | Alcatel Submarine Networks",
+     "email": "guillaume.fausten@asn.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/guillaumefausten",
+     "location": "Paris, France"
+    },
+    {
+     "name": "Bertrand Six",
+     "title": "Sales and Marketing Director",
+     "email": "bertrand.six@asn.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/bertrand-six-86805026",
+     "location": "Paris, France"
+    }
+   ]
+  },
+  {
+   "brand": "Chargebee",
+   "people": [
+    {
+     "name": "Krish Subramanian",
+     "title": "Co-Founder & CEO",
+     "email": "krish@chargebee.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/krishs",
+     "location": "Netherlands"
+    },
+    {
+     "name": "Guy Marion",
+     "title": "Chief Marketing Officer",
+     "email": "guy.marion@chargebee.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/guymarion",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Praveen Francis",
+     "title": "Vice President, Brand & Product Design",
+     "email": "praveen@chargebee.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/praveenfrancis",
+     "location": "Chennai, India"
+    },
+    {
+     "name": "Marlous Stam",
+     "title": "Global Director - Field Marketing & ABM",
+     "email": "marlous.stam@chargebee.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/marlous-stam",
+     "location": "Amsterdam, Netherlands"
+    }
+   ]
+  },
+  {
+   "brand": "DealHub",
+   "people": [
+    {
+     "name": "Daniel Romano",
+     "title": "Head of Marketing Automation",
+     "email": "daniel.romano@dealhub.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/daniel-roman0",
+     "location": "Israel"
+    }
+   ]
+  }
+ ]
+}

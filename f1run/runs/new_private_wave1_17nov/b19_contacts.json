@@ -1,0 +1,326 @@
+{
+ "rows": [
+  {
+   "brand": "Alltech",
+   "people": [
+    {
+     "name": "Mark Lyons",
+     "title": "President and CEO",
+     "email": "mlyons@alltech.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/markplyons",
+     "location": "Nicholasville, United States"
+    },
+    {
+     "name": "Susanna Elliott",
+     "title": "Chief Marketing & Communications Officer",
+     "email": "suelliott@alltech.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/susannaelliott",
+     "location": "Nicholasville, United States"
+    },
+    {
+     "name": "Janella Hurst",
+     "title": "Global Head of Marketing, Nutrition",
+     "email": "jhurst@alltech.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jhurst3",
+     "location": "Lexington, United States"
+    },
+    {
+     "name": "Chun Lim",
+     "title": "Global Head of Marketing, Health & Efficiency",
+     "email": "clim@alltech.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/chun-keat-ck-lim-8079834b",
+     "location": "Bangkok, Thailand"
+    }
+   ]
+  },
+  {
+   "brand": "Bitfury Group",
+   "people": [
+    {
+     "name": "Val Vavilov",
+     "title": "Co-founder, CEO",
+     "email": "v@bitfury.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/valvavilov",
+     "location": "Abu Dhabi, United Arab Emirates"
+    }
+   ]
+  },
+  {
+   "brand": "EuroItalia",
+   "people": [
+    {
+     "name": "Anthony Camarata",
+     "title": "Chief Commercial Officer",
+     "email": "acamarata@euroitaliausa.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/anthony-camarata",
+     "location": "United States"
+    },
+    {
+     "name": "Alessandra Zorlas",
+     "title": "Vice President Marketing, Public Relations and Media",
+     "email": "alessandra@euroitaliausa.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/alessandra-giansanti-zorlas-73a3464",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Pecoriello Oriana",
+     "title": "Marketing & Development Director",
+     "email": "oriana.pecoriello@euroitalia.it",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/pecoriello-oriana-02589b1b",
+     "location": "Milan, Italy"
+    },
+    {
+     "name": "Laura Bartoli",
+     "title": "Head of Digital & Ecommerce",
+     "email": "laura.bartoli@euroitalia.it",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lbartoli",
+     "location": "Milan, Italy"
+    }
+   ]
+  },
+  {
+   "brand": "Fonoa",
+   "people": [
+    {
+     "name": "Davor Tremac",
+     "title": "Chief Executive Officer",
+     "email": "davor@fonoa.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/davor-tremac-662144a",
+     "location": "Zagreb, Croatia"
+    },
+    {
+     "name": "Jonny Orton",
+     "title": "Chief Revenue Officer",
+     "email": "jonny.orton@fonoa.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jonny-orton-6768a916",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Jason Moore",
+     "title": "Head of Digital Marketing and Operations",
+     "email": "jason.moore@fonoa.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jason-s-moore",
+     "location": "England, United Kingdom"
+    },
+    {
+     "name": "Madeleine Bergquist",
+     "title": "Global Partner Marketing Lead",
+     "email": "madeleine.bergquist@fonoa.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/madeleinebergquist",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Hantec Markets",
+   "people": [
+    {
+     "name": "Michael Nichols",
+     "title": "Hantec Prime Chief Executive Officer",
+     "email": "m.nichols@hmarkets.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mnicholslink",
+     "location": "Limassol, Cyprus"
+    },
+    {
+     "name": "Rajan Naik",
+     "title": "Chief Marketing Officer",
+     "email": "r.naik@hmarkets.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/rajan-naik-39a77b84",
+     "location": "Dubai, United Arab Emirates"
+    },
+    {
+     "name": "Norayr Djerrahian",
+     "title": "Chief Commercial Officer",
+     "email": "n.djerrahian@hmarkets.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/norayr-djerrahian-839b4b39",
+     "location": "Dubai, United Arab Emirates"
+    },
+    {
+     "name": "Mike Fowope",
+     "title": "Managing Director",
+     "email": "m.fowope@hmarkets.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/mike-fowope-mba-79125a51",
+     "location": "Nigeria"
+    }
+   ]
+  },
+  {
+   "brand": "Ledn",
+   "people": [
+    {
+     "name": "Adam Reeds",
+     "title": "Co-Founder & CEO",
+     "email": "adam@ledn.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/adam-reeds-ledn",
+     "location": "George Town, Cayman Islands"
+    },
+    {
+     "name": "Bill Wilson",
+     "title": "Chief Marketing Officer",
+     "email": "bill.wilson@ledn.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/willardhwilson",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Alex Marks",
+     "title": "Chief Product & Marketing Officer",
+     "email": "alex.marks@ledn.io",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/alex-marks-b46aa750",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Rachel Cohen",
+     "title": "VP Product Marketing and Growth",
+     "email": "rachel.cohen@ledn.io",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/rachel-cohen-890978243",
+     "location": "Toronto, Canada"
+    }
+   ]
+  },
+  {
+   "brand": "Productboard",
+   "people": [
+    {
+     "name": "Dale Yarborough",
+     "title": "Director, Growth Marketing Campaign",
+     "email": "d@productboard.com"
+    },
+    {
+     "name": "Stefanie Sisto",
+     "title": "Director, Global Field & Event Marketing",
+     "email": "stefanie.sisto@productboard.com"
+    },
+    {
+     "name": "Jordan Nolff",
+     "title": "VP, Growth",
+     "email": "jordan.nolff@productboard.com"
+    },
+    {
+     "name": "Danielle Belanger",
+     "title": "Director, Demand Generation",
+     "email": "danielle.belanger@productboard.com"
+    }
+   ]
+  },
+  {
+   "brand": "Form3",
+   "people": [
+    {
+     "name": "Mike Walters",
+     "title": "CEO",
+     "email": "mike.walters@form3.tech",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mike-walters-2574b2a",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Elle Dowding",
+     "title": "Global Marketing Director",
+     "email": "elle.dowding@form3.tech",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/elle-dowding-8030baa8",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Mark Fieldhouse",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "mark.fieldhouse@form3.tech",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/markfieldhouse",
+     "location": "Reading, United Kingdom"
+    },
+    {
+     "name": "Jose Zapata-Petrov",
+     "title": "Vice President. Head of Global Partnerships.",
+     "email": "jose.zapata-petrov@form3.tech",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jose-zapata-petrov",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Quest Software",
+   "people": [
+    {
+     "name": "Tim Page",
+     "title": "Chief Executive Officer",
+     "email": "tim.page@quest.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/pageee1",
+     "location": "Dallas, United States"
+    },
+    {
+     "name": "Susan McKendry",
+     "title": "Senior Vice President Global Marketing",
+     "email": "susan.mckendry@quest.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/susanhass",
+     "location": "Newton, United States"
+    },
+    {
+     "name": "Shane Bair",
+     "title": "Senior Director of Brand Marketing",
+     "email": "shane.bair@quest.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/shanebair",
+     "location": "Philadelphia, United States"
+    },
+    {
+     "name": "Malan Maw",
+     "title": "Global Marketing Director | Demand Generation",
+     "email": "malan.maw@quest.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/malanmaw",
+     "location": "Ogden, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Ataccama",
+   "people": [
+    {
+     "name": "Sophie Rayers",
+     "title": "Vice President of Growth and Digital Marketing",
+     "email": "sophie.rayers@ataccama.com"
+    },
+    {
+     "name": "Joellen Koester",
+     "title": "VP of Marketing",
+     "email": "joellen.koester@ataccama.com"
+    },
+    {
+     "name": "Andrea Eaton",
+     "title": "Leading Sales & Marketing",
+     "email": "andrea.eaton@ataccama.com"
+    },
+    {
+     "name": "Ariel Pohoryles",
+     "title": "VP of Product Marketing",
+     "email": "ariel.pohoryles@ataccama.com"
+    }
+   ]
+  }
+ ]
+}

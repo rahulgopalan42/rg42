@@ -1,0 +1,257 @@
+{
+ "rows": [
+  {
+   "brand": "GC Aesthetics",
+   "people": [
+    {
+     "name": "Carlos Pinto",
+     "title": "Chief Executive Officer",
+     "email": "carlosreispinto@gcaesthetics.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/carlos-reis-pinto-49b1361b4",
+     "location": "Aix-en-Provence, France"
+    },
+    {
+     "name": "Fara Naomi Macias",
+     "title": "Chief Marketing Officer",
+     "email": "faramacias@gcaesthetics.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/fara-naomi-macias-mkt",
+     "location": "Barcelona, Spain"
+    },
+    {
+     "name": "Susana Insa Martinez",
+     "title": "Global Marketing Director",
+     "email": "susanainsa@gcaesthetics.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/susanainsa",
+     "location": "Barcelona, Spain"
+    }
+   ]
+  },
+  {
+   "brand": "Qraft Technologies",
+   "people": [
+    {
+     "name": "Marcus Kim",
+     "title": "Founder/CEO",
+     "email": "hyungsik.kim@qraftec.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/hyungsikkim",
+     "location": "South Korea"
+    }
+   ]
+  },
+  {
+   "brand": "Bancor",
+   "people": [
+    {
+     "name": "Mark Richardson",
+     "title": "Project Lead",
+     "email": "mark@bancor.network",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mrichardson87",
+     "location": "Melbourne, Australia"
+    },
+    {
+     "name": "Galia Benartzi",
+     "title": "Co-Founder, Business Development",
+     "email": "galia@bancor.network",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/galia-benartzi",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "HashCash Consultants",
+   "people": [
+    {
+     "name": "Kevin Brown",
+     "title": "Vice President Marketing (Banking Products)",
+     "email": "k.brown@hashcashconsultants.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kevin-brown11",
+     "location": "Melbourne, Australia"
+    }
+   ]
+  },
+  {
+   "brand": "Amway Corp.",
+   "people": [
+    {
+     "name": "Michael Nelson",
+     "title": "President and CEO",
+     "email": "michael.nelson@amway.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/michael-nelson-265a5415",
+     "location": "Ada, United States"
+    },
+    {
+     "name": "Melodie Nakhle",
+     "title": "Global Chief Marketing Officer",
+     "email": "melodie_nakhle@amway.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/melodie-nakhle-md",
+     "location": "Ada, United States"
+    },
+    {
+     "name": "Emran Zaman",
+     "title": "VP Global Marketing -Digital & Portfolio Management",
+     "email": "imran_zaman@amway.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/imran-zaman",
+     "location": "Grand Rapids, United States"
+    },
+    {
+     "name": "Brandi Huyser",
+     "title": "Vice President Global Nutrition Brand Marketing",
+     "email": "brandi_huyser@amway.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/brandihuyser",
+     "location": "Grand Rapids, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Chainalysis",
+   "people": [
+    {
+     "name": "Jonathan Levin",
+     "title": "Co-founder and CEO",
+     "email": "jonathan@chainalysis.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jonylevin",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Madeleine Kennedy",
+     "title": "Vice President, Communications",
+     "email": "maddie@chainalysis.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/madeleinekennedy",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Bas Lemmens",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "bas.lemmens@chainalysis.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/lemmens",
+     "location": "Dubai, United Arab Emirates"
+    },
+    {
+     "name": "Eva Leong",
+     "title": "Director of Demand Generation",
+     "email": "eva.leong@chainalysis.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/evaleong",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "Tyme Group",
+   "people": [
+    {
+     "name": "Nathaniel Clarke",
+     "title": "President and Chief Executive Officer",
+     "email": "nate.clarke@gotyme.com.ph",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/nateofgotymebank",
+     "location": "Manila, Philippines"
+    },
+    {
+     "name": "Cathriona Nolan",
+     "title": "Chief Marketing Officer",
+     "email": "cathriona.nolan@gotyme.com.ph",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/cathriona-nolan",
+     "location": "Philippines"
+    },
+    {
+     "name": "Lucia Malapane",
+     "title": "Head of Brand Marketing",
+     "email": "lucia.malapane@tymedigital.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lucia-malapane-21a155101",
+     "location": "Johannesburg, South Africa"
+    },
+    {
+     "name": "Jamil Patrick",
+     "title": "Head of Growth Marketing",
+     "email": "jamil.fabia@gotyme.com.ph",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jamilfabia",
+     "location": "Philippines"
+    }
+   ]
+  },
+  {
+   "brand": "Even Realities",
+   "people": [
+    {
+     "name": "Alston Zhuang",
+     "title": "Global Product Marketing Manager",
+     "email": "alston.zhuang@evenrealities.com"
+    },
+    {
+     "name": "Will Wang",
+     "title": "CEO",
+     "email": "will.wang@evenrealities.com"
+    },
+    {
+     "name": "Li Wang",
+     "title": "Co-Founder & COO",
+     "email": "li.wang@evenrealities.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/christywanna",
+     "location": "Hong Kong"
+    }
+   ]
+  },
+  {
+   "brand": "HeyGears",
+   "people": [
+    {
+     "name": "Peiyan Gui",
+     "title": "CEO",
+     "email": "pgui@heygears.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/peiyan-gui-196b84118",
+     "location": "Guangzhou, China"
+    }
+   ]
+  },
+  {
+   "brand": "Flying Tulip",
+   "people": [
+    {
+     "name": "Anton Nell",
+     "title": "Solutions Architect",
+     "email": "anton@flyingtulip.com"
+    }
+   ]
+  },
+  {
+   "brand": "Jane Street",
+   "people": []
+  },
+  {
+   "brand": "JSR",
+   "people": []
+  },
+  {
+   "brand": "Wabi",
+   "people": []
+  },
+  {
+   "brand": "Aztec",
+   "people": []
+  },
+  {
+   "brand": "Black Banx",
+   "people": []
+  }
+ ]
+}

@@ -1,0 +1,290 @@
+{
+ "rows": [
+  {
+   "brand": "OpenAI",
+   "people": [
+    {
+     "name": "Greg Brockman",
+     "title": "President, Chairman, & Co-Founder",
+     "email": "gdb@openai.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/thegdb",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Brandon McGraw",
+     "title": "Interim CMO, Consumer & Hardware",
+     "email": "brandonmcgraw@openai.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/bmcgraw",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Kaitlin Giannetti",
+     "title": "Head of OpenAI Brand Marketing",
+     "email": "kaitlin.giannetti@openai.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/kaitlingiannetti",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Melissa Ravi",
+     "title": "Head of Demand Generation",
+     "email": "melissar@openai.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/melissa-ravi",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Tether",
+   "people": [
+    {
+     "name": "Ignacio Arbex",
+     "title": "Marketing Director",
+     "email": "ignacio.arbex@tether.to"
+    },
+    {
+     "name": "Jake Harman",
+     "title": "Performance Marketing",
+     "email": "jacob.harman@tether.io"
+    },
+    {
+     "name": "Mia Traverso",
+     "title": "Marketing Assistance Services",
+     "email": "mia.traverso@tether.io"
+    },
+    {
+     "name": "Paolo Ardoino",
+     "title": "Chief Executive Officer",
+     "email": "paolo@tether.to"
+    }
+   ]
+  },
+  {
+   "brand": "Veeam",
+   "people": [
+    {
+     "name": "Anand Eswaran",
+     "title": "President and CEO",
+     "email": "anand.eswaran@veeam.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/anandeswaran",
+     "location": "Seattle, United States"
+    },
+    {
+     "name": "Mika Yamamoto",
+     "title": "Chief Marketing and Customer AI Officer",
+     "email": "mika.yamamoto@veeam.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/mikayamamoto",
+     "location": "Seattle, United States"
+    },
+    {
+     "name": "Neenu Sharma",
+     "title": "VP, Brand and Community",
+     "email": "neenu.sharma@veeam.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/neenusharma",
+     "location": "Baltimore, United States"
+    },
+    {
+     "name": "Yesica Schaaf",
+     "title": "Vice President, Global Demand Generation Marketing",
+     "email": "yesica.schaaf@veeam.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/yesicaschaaf",
+     "location": "Miami, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Mistral AI",
+   "people": [
+    {
+     "name": "Brian Hall",
+     "title": "Chief Marketing Officer",
+     "email": "brian.hall@mistral.ai"
+    },
+    {
+     "name": "Bethann Noble",
+     "title": "Head of Industries Marketing",
+     "email": "bethann.noble@mistral.ai"
+    },
+    {
+     "name": "Rongrong Zhang",
+     "title": "Marketing Lead APAC",
+     "email": "rongrong.zhang@mistral.ai"
+    },
+    {
+     "name": "Melissa Arteaga",
+     "title": "Head of Field Marketing, Americas",
+     "email": "melissa.narvaez@mistral.ai"
+    }
+   ]
+  },
+  {
+   "brand": "Altera",
+   "people": [
+    {
+     "name": "Peggy Abusaidi",
+     "title": "Director, Test and Measurement Segment Business Development and Marketing",
+     "email": "peggy.abusaidi@altera.com"
+    },
+    {
+     "name": "Arathi Biradar",
+     "title": "Marketing Leader",
+     "email": "arathi.biradar@altera.com"
+    },
+    {
+     "name": "Bob Siller",
+     "title": "Senior Director, Corporate Marketing",
+     "email": "bob.siller@altera.com"
+    },
+    {
+     "name": "Daniel Michek",
+     "title": "Director, AI Software and IP Product Marketing",
+     "email": "daniel.michek@altera.com"
+    }
+   ]
+  },
+  {
+   "brand": "Tenstorrent",
+   "people": [
+    {
+     "name": "Christine Blizzard",
+     "title": "CMO",
+     "email": "cblizzard@tenstorrent.com"
+    },
+    {
+     "name": "Shaye Murray",
+     "title": "Project Manager to the CMO",
+     "email": "smurray@tenstorrent.com"
+    },
+    {
+     "name": "Sarah-Grace Prawl",
+     "title": "Marketing Manager",
+     "email": "sprawl@tenstorrent.com"
+    },
+    {
+     "name": "Yoon-Kit Yong",
+     "title": "Business Development Consultant",
+     "email": "yoonkit@tenstorrent.com"
+    }
+   ]
+  },
+  {
+   "brand": "Quest Global",
+   "people": [
+    {
+     "name": "Ajit Prabhu",
+     "title": "Co-Founder & CEO",
+     "email": "ajit.prabhu@quest-global.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ajit-prabhu-",
+     "location": "United States"
+    },
+    {
+     "name": "Cheryl Rodness",
+     "title": "Global Head of Brand",
+     "email": "cheryl.rodness@quest-global.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/cherylrodness",
+     "location": "Austin, United States"
+    },
+    {
+     "name": "Christopher Nanos",
+     "title": "Global Head of Customer Brand",
+     "email": "christopher.nanos@quest-global.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/christopherpaulnanos",
+     "location": "Stamford, United States"
+    },
+    {
+     "name": "Rahul Rao",
+     "title": "Director of Communications and Public Relations",
+     "email": "rahul.rao@quest-global.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/rahulsrinirao",
+     "location": "Mumbai, India"
+    }
+   ]
+  },
+  {
+   "brand": "Sophos",
+   "people": [
+    {
+     "name": "Denise Pascual",
+     "title": "Marketing Director",
+     "email": "denise.pascual@sophos.com"
+    },
+    {
+     "name": "Mitangi Parekh",
+     "title": "Director, Content Marketing",
+     "email": "mitangi.parekh@sophos.com"
+    },
+    {
+     "name": "Angela Tuminello",
+     "title": "Senior Director, Brand and Design",
+     "email": "angela.tuminello@sophos.com"
+    },
+    {
+     "name": "Anna Sensi Ortega",
+     "title": "Marketing Manager",
+     "email": "anna.sensi@sophos.com"
+    }
+   ]
+  },
+  {
+   "brand": "Zendesk",
+   "people": [
+    {
+     "name": "Tifenn Kwan",
+     "title": "Chief Marketing Officer",
+     "email": "tifenn.danokwan@zendesk.com"
+    },
+    {
+     "name": "Tanya Littlefield",
+     "title": "VP of Growth & Digital Marketing",
+     "email": "tanya.littlefield@zendesk.com"
+    },
+    {
+     "name": "Justin Sharaf",
+     "title": "Vice President, Marketing Strategy & Operations",
+     "email": "justin.sharaf@zendesk.com"
+    },
+    {
+     "name": "Mitchell Hanson",
+     "title": "Senior Director, Performance Marketing",
+     "email": "mitchell.hanson@zendesk.com"
+    }
+   ]
+  },
+  {
+   "brand": "iCapital",
+   "people": [
+    {
+     "name": "Magdalena Pandiloska",
+     "title": "Chief Marketing Officer",
+     "email": "mpandiloska@icapitalnetwork.com"
+    },
+    {
+     "name": "Rob Byrd",
+     "title": "Vice President, Digital Marketing & Strategy",
+     "email": "robert.byrd@icapital.com"
+    },
+    {
+     "name": "Shannon McGorry",
+     "title": "Vice President Marketing",
+     "email": "shannon.mcgorry@icapitalnetwork.com"
+    },
+    {
+     "name": "Brian Jensen",
+     "title": "Marketing Communications Manager",
+     "email": "brian.jensen@icapital.com"
+    }
+   ]
+  }
+ ]
+}

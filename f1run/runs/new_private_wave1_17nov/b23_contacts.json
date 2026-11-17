@@ -1,0 +1,355 @@
+{
+ "rows": [
+  {
+   "brand": "Tiger Data (formerly Timescale)",
+   "people": [
+    {
+     "name": "Ajay Kulkarni",
+     "title": "Co-Founder/CEO",
+     "email": "ajay@tigerdata.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ajaykulkarni",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Ramon Guiu",
+     "title": "VP of Revenue and Product",
+     "email": "ramon@tigerdata.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/ramonguiu",
+     "location": "Sant Cugat del Valles, Spain"
+    },
+    {
+     "name": "Naveen Sukumar",
+     "title": "Head of Product Marketing",
+     "email": "naveen@tigerdata.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/naveensukumar",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Isabel M",
+     "title": "Director, Demand Generation, Brand & AI Marketing",
+     "email": "isabel@tigerdata.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/isabel-garland",
+     "location": "Boston, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Pixis",
+   "people": [
+    {
+     "name": "Shubham Mishra",
+     "title": "Co-founder & Global CEO",
+     "email": "shubham@pixis.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/shubham015",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Chris Spadafino",
+     "title": "Head of Strategic Partnerships (Performance Marketing Expert & Advisor)",
+     "email": "chris.s@pixis.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/chris-spadafino",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Thomas Abraham",
+     "title": "Head of Strategic Innovation: Marketing & Digital Solutions (GTM)",
+     "email": "thomas.abraham@pixis.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/thomas-abraham-29349310b",
+     "location": "Bengaluru, India"
+    },
+    {
+     "name": "Shreshtha Bansal",
+     "title": "Director, Marketing & Growth",
+     "email": "shreshtha.bansal@pixis.ai",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/shreshtha-bansal-24453b6b",
+     "location": "Bengaluru, India"
+    }
+   ]
+  },
+  {
+   "brand": "Retym",
+   "people": [
+    {
+     "name": "Sachin Gandhi",
+     "title": "Co-founder & CEO",
+     "email": "sachin@retym.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/sgandhi",
+     "location": "San Jose, United States"
+    }
+   ]
+  },
+  {
+   "brand": "IQ Option",
+   "people": [
+    {
+     "name": "Felix Vladimirsky",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "felix.vladimirsky@quadcode.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/vladimirsky",
+     "location": "Limassol, Cyprus"
+    },
+    {
+     "name": "Irina Postnikova",
+     "title": "Head of Reputation Management",
+     "email": "irina.postnikova@iqoption.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/irina-postnikova-57a45857",
+     "location": "Limassol, Cyprus"
+    },
+    {
+     "name": "Stephan Kulik",
+     "title": "Growth Director",
+     "email": "stepan.kulik@iqoption.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/stephan-kulik-editorial001",
+     "location": "Limassol, Cyprus"
+    }
+   ]
+  },
+  {
+   "brand": "Owkin",
+   "people": [
+    {
+     "name": "Thomas Clozel",
+     "title": "CEO and Co-founder",
+     "email": "thomas.clozel@owkin.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/thomas-clozel-md-408a9321",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Antonia Trower",
+     "title": "Chief Marketing Officer",
+     "email": "antonia.trower@owkin.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/antonia-trower-70981228",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Yedidia Levy-Zauberman",
+     "title": "Senior Vice President Public Affairs & Impact",
+     "email": "yedidia.levy-zauberman@owkin.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/yedidialevyzauberman",
+     "location": "Paris, France"
+    },
+    {
+     "name": "Davide Mantiero",
+     "title": "Marketing Director",
+     "email": "davide.mantiero@owkin.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/dmtokn",
+     "location": "Cambridge, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "CeQur",
+   "people": [
+    {
+     "name": "Bradley Paddock",
+     "title": "President & CEO",
+     "email": "bradley.paddock@cequr.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/bradleypaddock",
+     "location": "Miami Beach, United States"
+    },
+    {
+     "name": "Kim Holdsworth",
+     "title": "Chief Marketing Officer",
+     "email": "kim.holdsworth@cequr.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kimholdsworth12",
+     "location": "Lansdale, United States"
+    },
+    {
+     "name": "Lisa Furnish",
+     "title": "Chief Commercial Officer",
+     "email": "lisa.furnish@cequr.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/lisa-furnish",
+     "location": "Denver, United States"
+    },
+    {
+     "name": "Christopher Garcia",
+     "title": "Marketing Director",
+     "email": "chris.garcia@cequr.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/christophergarcia27",
+     "location": "Los Angeles, United States"
+    }
+   ]
+  },
+  {
+   "brand": "FreshBooks",
+   "people": [
+    {
+     "name": "Mike McDerment",
+     "title": "Co-Founder & CEO",
+     "email": "mikemcd@freshbooks.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mike-mcderment-68895a1",
+     "location": "United States"
+    },
+    {
+     "name": "Jaclyn Travis",
+     "title": "Senior Director, Product Marketing",
+     "email": "jaclyn.travis@freshbooks.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jaclyn-travis-3049b723",
+     "location": "Mississauga, Canada"
+    },
+    {
+     "name": "Faye Pang",
+     "title": "Chief Revenue Officer",
+     "email": "faye.pang@freshbooks.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/fayepang",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Edwina Matkiwsky",
+     "title": "Director of Expansion Marketing",
+     "email": "edwina.matkiwsky@freshbooks.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/edwinabong",
+     "location": "Canada"
+    }
+   ]
+  },
+  {
+   "brand": "Kneron",
+   "people": [
+    {
+     "name": "Brian Lin",
+     "title": "VP of Sales and Marketing",
+     "email": "brian.lin@kneron.us"
+    },
+    {
+     "name": "Kevin Liao",
+     "title": "Director, Product Marketing and Business Development",
+     "email": "kevin.liao@kneron.us"
+    },
+    {
+     "name": "Steven Huang",
+     "title": "Sales & Biz Dev Director",
+     "email": "steven.huang@kneron.us"
+    },
+    {
+     "name": "Leo Long",
+     "title": "Senior Business Development Manager",
+     "email": "long@kneron.us"
+    }
+   ]
+  },
+  {
+   "brand": "Polar Semiconductor",
+   "people": [
+    {
+     "name": "Ken Obuszewski",
+     "title": "Vice President of Marketing",
+     "email": "kobuszewski@polarsemi.com"
+    },
+    {
+     "name": "Tim Maloney",
+     "title": "Senior Director of Business Development",
+     "email": "tmaloney@polarsemi.com"
+    },
+    {
+     "name": "Paul Cihak",
+     "title": "Chief Revenue Officer",
+     "email": "pcihak@polarsemi.com"
+    },
+    {
+     "name": "Robert Wortman",
+     "title": "Program Manager and Business Development, Senior Principal",
+     "email": "rwortman@polarsemi.com"
+    }
+   ]
+  },
+  {
+   "brand": "Recharge",
+   "people": [
+    {
+     "name": "Oisin O'Connor",
+     "title": "CEO/Co Founder",
+     "email": "oisin@rechargeapps.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/oisino",
+     "location": "Santa Monica, United States"
+    },
+    {
+     "name": "Allen Finn",
+     "title": "Director of Marketing",
+     "email": "allen.finn@rechargeapps.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/allenfinn",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Rob Tevlin",
+     "title": "Chief Revenue Officer",
+     "email": "rob.tevlin@rechargeapps.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/robtevlin",
+     "location": "Toronto, Canada"
+    },
+    {
+     "name": "Sydney Weinryb",
+     "title": "Director of Marketing",
+     "email": "sydney.weinryb@rechargeapps.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/sydney-weinryb-55485b153",
+     "location": "Toronto, Canada"
+    }
+   ]
+  },
+  {
+   "brand": "UPSTACK",
+   "people": [
+    {
+     "name": "Christopher Trapp",
+     "title": "Founder, CEO",
+     "email": "trapp@upstack.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ctrapp",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Mike Houghton",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "mike.houghton@upstack.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/michaelhoughton",
+     "location": "Phoenix, United States"
+    },
+    {
+     "name": "Steven Goodall",
+     "title": "Director, Product & Growth Marketing",
+     "email": "steven.goodall@upstack.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/stevencraiggoodall",
+     "location": "Seattle, United States"
+    },
+    {
+     "name": "Brendan Paulin",
+     "title": "Director, CX / AI Demand Generation",
+     "email": "brendan.paulin@upstack.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/brendan-paulin-3885bab7",
+     "location": "Camas, United States"
+    }
+   ]
+  }
+ ]
+}

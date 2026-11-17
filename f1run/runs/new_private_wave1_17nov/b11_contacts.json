@@ -1,0 +1,314 @@
+{
+ "rows": [
+  {
+   "brand": "Torq",
+   "people": [
+    {
+     "name": "Josh Morris",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "josh.morris@torq.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/joshmorris",
+     "location": "Tampa, United States"
+    },
+    {
+     "name": "Adam Kerrigan",
+     "title": "VP, Growth",
+     "email": "adam.kerrigan@torq.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/adam-kerrigan-b8677541",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Rick Bosworth",
+     "title": "Head of Product Marketing",
+     "email": "rick.bosworth@torq.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/rickbosworth",
+     "location": "Austin, United States"
+    },
+    {
+     "name": "Loren Posendek",
+     "title": "Director, Marketing Performance",
+     "email": "loren.posendek@torq.io",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lorenposendek",
+     "location": "Cleveland, United States"
+    }
+   ]
+  },
+  {
+   "brand": "WEKA",
+   "people": [
+    {
+     "name": "Liran Zvibel",
+     "title": "Co-Founder, CEO",
+     "email": "liran@weka.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/liranzvibel",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Shanta Kohli",
+     "title": "Chief Marketing Officer",
+     "email": "shanta.kohli@weka.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/shantakohli",
+     "location": "San Jose, United States"
+    },
+    {
+     "name": "Hope Nicora",
+     "title": "Vice President, Corporate Marketing",
+     "email": "hope.nicora@weka.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/hopenicora",
+     "location": "Seattle, United States"
+    },
+    {
+     "name": "Amanda Anderson",
+     "title": "Senior Director, Demand Generation",
+     "email": "amanda.anderson@weka.io",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/aanderson9",
+     "location": "Dallas, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Alice",
+   "people": [
+    {
+     "name": "Elizabeth Tobey",
+     "title": "EVP Marketing",
+     "email": "elizabetht@alice.io"
+    },
+    {
+     "name": "Tomer Poran",
+     "title": "Vice President of Strategic Marketing & Chief Evangelist",
+     "email": "tomerp@alice.io"
+    },
+    {
+     "name": "Ollie Harris",
+     "title": "Director of Demand Generation",
+     "email": "ollie.h@alice.io"
+    },
+    {
+     "name": "Guy Weigert",
+     "title": "EVP Business Development & Partnerships",
+     "email": "guyw@alice.io"
+    }
+   ]
+  },
+  {
+   "brand": "Cornelis Networks",
+   "people": [
+    {
+     "name": "Lisa Spelman",
+     "title": "CEO Cornelis Networks",
+     "email": "lisa.spelman@cornelisnetworks.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/lisa-spelman",
+     "location": "Portland, United States"
+    },
+    {
+     "name": "Brandon Draeger",
+     "title": "CMO",
+     "email": "brandon.draeger@cornelisnetworks.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/brandondraeger",
+     "location": "Portland, United States"
+    },
+    {
+     "name": "Brad Haczynski",
+     "title": "Chief Commercial Officer",
+     "email": "brad.haczynski@cornelisnetworks.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/brad-haczynski-298755",
+     "location": "Vancouver, United States"
+    },
+    {
+     "name": "Ina Felsheim",
+     "title": "Senior Director Product Marketing",
+     "email": "ina.felsheim@cornelisnetworks.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/inafelsheim",
+     "location": "La Crosse, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Creatio",
+   "people": [
+    {
+     "name": "Christopher Jackson",
+     "title": "Industry Marketing & Strategy Lead, FinServ",
+     "email": "c.jackson@creatio.com"
+    },
+    {
+     "name": "Slava Averin",
+     "title": "VP of Demand Generation & Field Marketing",
+     "email": "s.averin@creatio.com"
+    },
+    {
+     "name": "Viktor Zhukovsky",
+     "title": "Head of Product Marketing",
+     "email": "v.zhukovsky@creatio.com"
+    },
+    {
+     "name": "Kate Bazhan",
+     "title": "Global Marketing Programs Director",
+     "email": "kate.bazhan@creatio.com"
+    }
+   ]
+  },
+  {
+   "brand": "Global Switch",
+   "people": [
+    {
+     "name": "Emily Clark",
+     "title": "Marketing Director",
+     "email": "eclark@globalswitch.com"
+    },
+    {
+     "name": "Aleesa Ferguson",
+     "title": "Commercial Director",
+     "email": "aferguson@globalswitch.com"
+    },
+    {
+     "name": "Jason Zhang",
+     "title": "Commercial Director",
+     "email": "jzhang@globalswitch.com"
+    },
+    {
+     "name": "Martin Miklosko",
+     "title": "Group Director, Commercial",
+     "email": "mmiklosko@globalswitch.com"
+    }
+   ]
+  },
+  {
+   "brand": "Invisible Technologies",
+   "people": [
+    {
+     "name": "Angela Winegar",
+     "title": "CMO",
+     "email": "angela@invisibletech.ai"
+    },
+    {
+     "name": "Jack Widnell",
+     "title": "Growth Marketing Director",
+     "email": "jack.widnell@invisible.co"
+    },
+    {
+     "name": "Korina Skhinas",
+     "title": "Partnerships & Channel Marketing Director",
+     "email": "korina.skhinas@invisible.co"
+    },
+    {
+     "name": "Mary Brandon",
+     "title": "Head of Marketing",
+     "email": "mary@invisible.co"
+    }
+   ]
+  },
+  {
+   "brand": "Zero Hash",
+   "people": [
+    {
+     "name": "Margaret Wadsworth",
+     "title": "Head of Partnerships",
+     "email": "margaret.wadsworth@zerohash.com"
+    },
+    {
+     "name": "Damien Ekechukwu",
+     "title": "Director, Ecosystem & Product Partnerships",
+     "email": "damien.ekechukwu@zerohash.com"
+    },
+    {
+     "name": "Adam Tesan",
+     "title": "Chief Revenue Officer",
+     "email": "adam.tesan@zerohash.com"
+    },
+    {
+     "name": "Edward Woodford",
+     "title": "CEO & Founder",
+     "email": "edward@zerohash.com"
+    }
+   ]
+  },
+  {
+   "brand": "Deputy",
+   "people": [
+    {
+     "name": "Silvija Martincevic",
+     "title": "Chief Executive Officer and Board Director",
+     "email": "smartincevic@deputy.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/silvija-martincevic",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Jaimie Buss",
+     "title": "Chief Commercial Officer (CCO)",
+     "email": "jbuss@deputy.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jaimiebuss",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Alexander Concannon",
+     "title": "VP Marketing",
+     "email": "aconcannon@deputy.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/alexander-concannon",
+     "location": "Sydney, Australia"
+    },
+    {
+     "name": "Mat Beeche",
+     "title": "Senior Director, Global Communications & Public Affairs",
+     "email": "mbeeche@deputy.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/matbeeche",
+     "location": "Sydney, Australia"
+    }
+   ]
+  },
+  {
+   "brand": "Everbridge",
+   "people": [
+    {
+     "name": "David Wagner",
+     "title": "President and CEO",
+     "email": "david.wagner@everbridge.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/david-wagner-71bb396",
+     "location": "Dallas, United States"
+    },
+    {
+     "name": "Samantha Brown",
+     "title": "Senior Director Brand and Creative at Everbridge",
+     "email": "samantha.brown@everbridge.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/samanthambrown",
+     "location": "Discovery Bay, United States"
+    },
+    {
+     "name": "Anne-Marie Fast",
+     "title": "Global Marketing Director",
+     "email": "anne-marie.fast@everbridge.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/amfast",
+     "location": "Bournemouth, United Kingdom"
+    },
+    {
+     "name": "Nichole Berg",
+     "title": "Director, ABM and Demand Generation",
+     "email": "nichole.berg@everbridge.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/nicholeberg",
+     "location": "Bedford, United States"
+    }
+   ]
+  }
+ ]
+}

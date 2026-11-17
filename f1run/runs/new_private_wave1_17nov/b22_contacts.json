@@ -1,0 +1,347 @@
+{
+ "rows": [
+  {
+   "brand": "proteanTecs",
+   "people": [
+    {
+     "name": "Shai Cohen",
+     "title": "Co-Founder & CEO",
+     "email": "shai@proteantecs.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/cohen-shai",
+     "location": "Israel"
+    },
+    {
+     "name": "Sanjay Lall",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "sanjay@proteantecs.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/sanjayl",
+     "location": "Austin, United States"
+    },
+    {
+     "name": "Tamar Naishlos",
+     "title": "VP of Marketing & Product Marketing",
+     "email": "tamarn@proteantecs.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/tamar-naishlos",
+     "location": "Israel"
+    },
+    {
+     "name": "Roi Mit",
+     "title": "Marketing Director",
+     "email": "roi.m@proteantecs.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/roi-mit",
+     "location": "Israel"
+    }
+   ]
+  },
+  {
+   "brand": "Socomec",
+   "people": [
+    {
+     "name": "Luca Franzan",
+     "title": "PCO Power Conversion Application- Marketing & Business Development Director",
+     "email": "luca.franzan@socomec.com"
+    },
+    {
+     "name": "Vikas Tyagi",
+     "title": "Head-Marketing",
+     "email": "vikas.tyagi@socomec.com"
+    },
+    {
+     "name": "Ravi Kumar",
+     "title": "Head of Marketing",
+     "email": "r.kumar@socomec.com"
+    },
+    {
+     "name": "Moez Bensaied",
+     "title": "Strategic Marketing Manager / Innovation Partnerships Manager",
+     "email": "moez.bensaied@socomec.com"
+    }
+   ]
+  },
+  {
+   "brand": "Swimlane",
+   "people": [
+    {
+     "name": "Cody Cornell",
+     "title": "Co-founder & Chief Executive Officer",
+     "email": "cody.cornell@swimlane.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/codycornell",
+     "location": "Denver, United States"
+    },
+    {
+     "name": "Dorothy Milazzo",
+     "title": "Vice President of Demand Generation, Marketing",
+     "email": "dorothy.milazzo@swimlane.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/dorothymilazzo",
+     "location": "Denver, United States"
+    },
+    {
+     "name": "Katie Bykowski",
+     "title": "VP of Product Marketing",
+     "email": "katie.bykowski@swimlane.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/katievosbeek",
+     "location": "Minneapolis, United States"
+    }
+   ]
+  },
+  {
+   "brand": "WorldRemit",
+   "people": [
+    {
+     "name": "Ibtissam Lotfi",
+     "title": "Director, Growth Marketing Africa",
+     "email": "ibtissam@zepz.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ibtissam-lotfi",
+     "location": "Morocco"
+    }
+   ]
+  },
+  {
+   "brand": "ZeroFox",
+   "people": [
+    {
+     "name": "Kyle Novellano",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "knovellano@zerofox.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kyle-novellano-b579775",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Elizabeth Bresnahan",
+     "title": "Senior Director, Marketing Operations",
+     "email": "lbresnahan@zerofox.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/elizabethbresnahan1",
+     "location": "Fort Myers, United States"
+    },
+    {
+     "name": "Amanda Johnson",
+     "title": "Director, Demand Generation",
+     "email": "ajohnson@zerofox.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/amandaajjohnson",
+     "location": "Winthrop Harbor, United States"
+    },
+    {
+     "name": "Matthew Levine",
+     "title": "Director of Product Marketing",
+     "email": "mlevine@zerofox.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/matthew-levine-mba-526aa731",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "AfterQuery",
+   "people": [
+    {
+     "name": "Brian Hendricks",
+     "title": "Growth Lead",
+     "email": "brian@afterquery.com"
+    },
+    {
+     "name": "Nakul Malhotra",
+     "title": "Growth",
+     "email": "nakul@afterquery.com"
+    },
+    {
+     "name": "Jordan Kim",
+     "title": "Growth",
+     "email": "jordan@afterquery.com"
+    },
+    {
+     "name": "Giancarlo Pickering",
+     "title": "Technical Growth",
+     "email": "giancarlo@afterquery.com"
+    }
+   ]
+  },
+  {
+   "brand": "Cole Haan",
+   "people": [
+    {
+     "name": "Krissie Millan",
+     "title": "CMO",
+     "email": "krissie.millan@colehaan.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/krissie-millan-082151",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Jeanine Farucci",
+     "title": "Vice President, Global Brand Marketing",
+     "email": "jeanine.farucci@colehaan.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jeanine-farucci-page",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Lisa Lundy",
+     "title": "Director, Brand Strategy & Editorial",
+     "email": "lisa.lundy@colehaan.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/lisa-lundy-898a2510",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Cassandra Moua",
+     "title": "Director of Brand Marketing",
+     "email": "cassandra.moua@colehaan.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/cassandramoua",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "HTEC",
+   "people": [
+    {
+     "name": "Aleksandar Cabrilo",
+     "title": "CEO",
+     "email": "aleksandar.cabrilo@htecgroup.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/cabriloa",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Alex Rumble",
+     "title": "Chief Marketing Officer & AI Ambassador",
+     "email": "alex.rumble@htecgroup.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/alex-rumble-2371411",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Maja Colak",
+     "title": "Head of Demand Generation and Customer Marketing",
+     "email": "maja.colak@htecgroup.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/maja-colak-90047757",
+     "location": "Munich, Germany"
+    },
+    {
+     "name": "Emma Hanes",
+     "title": "Head of Digital Marketing",
+     "email": "emma.hanes@htecgroup.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/emmahanes",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "M2P Fintech",
+   "people": [
+    {
+     "name": "Bharat Srinivasarangan",
+     "title": "Executive Vice President, Head of Sales Enablement and Marketing",
+     "email": "bharat.srini@m2pfintech.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/7bharats",
+     "location": "Chennai, India"
+    },
+    {
+     "name": "Chandan Gupta",
+     "title": "Head - Strategic Partnerships",
+     "email": "chandan@m2pfintech.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/chandan-vk-gupta",
+     "location": "Dubai, United Arab Emirates"
+    },
+    {
+     "name": "Jack Anto",
+     "title": "Head of Marketing & Design",
+     "email": "anto@m2pfintech.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jackanto",
+     "location": "Chennai, India"
+    }
+   ]
+  },
+  {
+   "brand": "Betterworks",
+   "people": [
+    {
+     "name": "Allie Collins",
+     "title": "Chief Marketing Officer",
+     "email": "allie.collins@betterworks.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/alliecollins",
+     "location": "Houston, United States"
+    },
+    {
+     "name": "Sam East",
+     "title": "Chief Revenue Officer",
+     "email": "sam.east@betterworks.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/sameast",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Aimie Lim",
+     "title": "Senior Director, Digital and Content Marketing",
+     "email": "aimie.lim@betterworks.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/aimie-ye",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Cassie Flores",
+     "title": "Sr. Director of Product Marketing + Content",
+     "email": "cassie.fultonflores@betterworks.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/cassiefultonflores",
+     "location": "Austin, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Sisense",
+   "people": [
+    {
+     "name": "Ariel Katz",
+     "title": "Chief Executive Officer",
+     "email": "ariel.katz@sisense.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/arielkatz",
+     "location": "Israel"
+    },
+    {
+     "name": "Noam Mendelson",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "noam.mendelson@sisense.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/noam-mendelson-146351ba",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Maria Ciampa",
+     "title": "Head of Content Marketing",
+     "email": "maria.ciampa@sisense.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/mariaciampa",
+     "location": "United States"
+    },
+    {
+     "name": "Katya Garber",
+     "title": "Director, Growth Marketing",
+     "email": "katya.garber@sisense.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/ekaterinafedina",
+     "location": "New York, United States"
+    }
+   ]
+  }
+ ]
+}

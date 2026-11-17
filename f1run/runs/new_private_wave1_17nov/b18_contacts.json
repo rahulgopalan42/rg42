@@ -1,0 +1,359 @@
+{
+ "rows": [
+  {
+   "brand": "Benchling",
+   "people": [
+    {
+     "name": "Sajith Wickramasekara",
+     "title": "Founder & CEO",
+     "email": "sajith@benchling.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/sajithw",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Yvonne Chen",
+     "title": "Chief Marketing Officer",
+     "email": "yvonnec@benchling.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/yvchen",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Lee Black",
+     "title": "Chief Revenue Officer",
+     "email": "lee.black@benchling.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/leeblackresume",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Emily Spathias",
+     "title": "Head of Brand & Content",
+     "email": "emily.hackeling@benchling.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/emilyhackeling",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "CommerceIQ",
+   "people": [
+    {
+     "name": "Rahul Shah",
+     "title": "Chief Executive Officer",
+     "email": "rahul.shah@commerceiq.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rahul-shah-a8415a",
+     "location": "United States"
+    },
+    {
+     "name": "Ray Cao",
+     "title": "SVP Marketing",
+     "email": "ray.c@commerceiq.ai",
+     "role": "vp_marketing",
+     "linkedin": "",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Nimay Parekh",
+     "title": "SVP of Growth",
+     "email": "nimay.p@commerceiq.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/nimayx",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "AI21 Labs",
+   "people": [
+    {
+     "name": "Ori Goshen",
+     "title": "Co-Founder and CEO",
+     "email": "orig@ai21.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ori-goshen",
+     "location": "Tel Aviv-Yafo, Israel"
+    },
+    {
+     "name": "Olivia Gorvy",
+     "title": "VP B2B Marketing",
+     "email": "oliviag@ai21.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/oliviagorvy",
+     "location": "Tel Aviv District, Israel"
+    },
+    {
+     "name": "Shunit Yaacobi",
+     "title": "Head of Integrated Marketing",
+     "email": "shunity@ai21.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/shunit",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Tehila Afota",
+     "title": "Director of Communications",
+     "email": "tehilaa@ai21.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/tehila-afota-72b831a5",
+     "location": "Israel"
+    }
+   ]
+  },
+  {
+   "brand": "Blue J",
+   "people": [
+    {
+     "name": "Benjamin Alarie",
+     "title": "Co-founder and CEO",
+     "email": "ben@bluej.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/benjaminalarie",
+     "location": "Mississauga, Canada"
+    },
+    {
+     "name": "Amrita Mathur",
+     "title": "Interim VP, Demand Gen",
+     "email": "amrita.mathur@bluej.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/amritamathur",
+     "location": "United States"
+    },
+    {
+     "name": "Pat Lynch",
+     "title": "Head of Brand",
+     "email": "pat.lynch@bluej.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/pat-lynch-7839b77a",
+     "location": "Toronto, Canada"
+    }
+   ]
+  },
+  {
+   "brand": "Human Security",
+   "people": [
+    {
+     "name": "Isaac Itenberg",
+     "title": "Interim Chief Executive Officer",
+     "email": "isaac.itenberg@humansecurity.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/isaac-itenberg",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Sarah Acker",
+     "title": "SVP, Global Head of Marketing",
+     "email": "sa@humansecurity.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sarahmaxwellacker",
+     "location": "Seattle, United States"
+    },
+    {
+     "name": "Sylvie Schnaier",
+     "title": "VP, Corporate Marketing",
+     "email": "sylvie.schnaier@humansecurity.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/sylvie-schnaier",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Brian Jacobs",
+     "title": "VP, Revenue Marketing",
+     "email": "brian.jacobs@humansecurity.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/brian-jacobs-7270a816",
+     "location": "Lenexa, United States"
+    }
+   ]
+  },
+  {
+   "brand": "NextSilicon",
+   "people": [
+    {
+     "name": "Elad Raz",
+     "title": "CEO",
+     "email": "e@nextsilicon.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/eladraz",
+     "location": "Israel"
+    },
+    {
+     "name": "Kristin Owens",
+     "title": "Chief Marketing Officer",
+     "email": "kristin.owens@nextsilicon.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kristin-owens-kfo",
+     "location": "San Jose, United States"
+    },
+    {
+     "name": "Jelena Erakovic",
+     "title": "Director of Marketing",
+     "email": "jelena.erakovic@nextsilicon.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jelena-erakovic-deep-tech-marketing",
+     "location": "Serbia"
+    },
+    {
+     "name": "Tedy Kratenstein",
+     "title": "Head of Partnerships",
+     "email": "tedy.kratenstein@nextsilicon.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/tedykratenstein",
+     "location": "Tel Aviv-Yafo, Israel"
+    }
+   ]
+  },
+  {
+   "brand": "10X Banking",
+   "people": [
+    {
+     "name": "Antony Jenkins",
+     "title": "Founder, Chair & CEO",
+     "email": "antony@10xbanking.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/antony-jenkins",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Amanda Jenkins",
+     "title": "Chief Impact Officer",
+     "email": "amanda@10xbanking.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/amanda-jenkins-024391235",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Franky Kentish",
+     "title": "Head of Impact & Communications",
+     "email": "franky.kentish@10xbanking.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/franky-kentish",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Arianne Rosmolen-Dickinson",
+     "title": "Senior Growth Marketing Manager",
+     "email": "arianne.rosmolen@10xbanking.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/ariannerosmolen",
+     "location": "United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Andela",
+   "people": [
+    {
+     "name": "Carrol Chang",
+     "title": "CEO",
+     "email": "carrol.chang@andela.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/carrolchang",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Kerry Penny",
+     "title": "Vice President, Head of Marketing",
+     "email": "kerry.penny@andela.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kerrysugrue",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Tori Curtis",
+     "title": "Senior Director, Head of Brand Marketing",
+     "email": "tori.curtis@andela.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/toric",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Ryan Hersh",
+     "title": "Head of Growth",
+     "email": "ryan@andela.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/ryan-hersh-92babb3",
+     "location": "Baltimore, United States"
+    }
+   ]
+  },
+  {
+   "brand": "HFM",
+   "people": [
+    {
+     "name": "Alex Njoroge",
+     "title": "Chief Executive Officer",
+     "email": "anjoroge@hfm.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/alex-michael-karanja-njoroge-8a568b29",
+     "location": "Nairobi, Kenya"
+    }
+   ]
+  },
+  {
+   "brand": "Speak",
+   "people": [
+    {
+     "name": "Naeun Park",
+     "title": "Global B2B Marketing Lead",
+     "email": "naeun.park@usespeak.com"
+    },
+    {
+     "name": "Torey Klucznik",
+     "title": "Global Lifecycle Marketing Lead",
+     "email": "torey@speak.com"
+    },
+    {
+     "name": "Alexandra Osborn-Jones",
+     "title": "Head of Growth",
+     "email": "oj@usespeak.com"
+    },
+    {
+     "name": "Gregory Dubus",
+     "title": "Executive Sales Director",
+     "email": "gregory@speak.com"
+    }
+   ]
+  },
+  {
+   "brand": "Twelve Labs",
+   "people": [
+    {
+     "name": "Jae Lee",
+     "title": "Co-founder & CEO",
+     "email": "jae@twelvelabs.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/leejae94",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Bobby Mohr",
+     "title": "Vice President of Revenue",
+     "email": "bobby@twelvelabs.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/robertdmohr",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Emily Kurze",
+     "title": "Head of Marketing",
+     "email": "emily.kurze@twelvelabs.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/emilykurze",
+     "location": "Sacramento, United States"
+    },
+    {
+     "name": "Soyoung Lee",
+     "title": "Co-Founder and Head of Go-to-Market",
+     "email": "soyoung@twelvelabs.io",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/soyoung-lee-1801a0120",
+     "location": "Los Angeles, United States"
+    }
+   ]
+  }
+ ]
+}

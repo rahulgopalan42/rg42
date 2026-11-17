@@ -1,0 +1,309 @@
+{
+ "rows": [
+  {
+   "brand": "World Liberty Financial",
+   "people": [
+    {
+     "name": "Zach Witkoff",
+     "title": "CEO",
+     "email": "zach@worldlibertyfinancial.com"
+    },
+    {
+     "name": "Shawn Chong",
+     "title": "VP of Marketing",
+     "email": "shawn@worldlibertyfinancial.com"
+    },
+    {
+     "name": "Ryan Ballantyne",
+     "title": "Chief Business Officer",
+     "email": "ryan.ballantyne@worldlibertyfinancial.com"
+    },
+    {
+     "name": "Matthew Valcourt",
+     "title": "Chief of Staff",
+     "email": "matt@worldlibertyfinancial.com"
+    }
+   ]
+  },
+  {
+   "brand": "Darwinbox",
+   "people": [
+    {
+     "name": "Rohit Chennamaneni",
+     "title": "Co Founder",
+     "email": "rohit.c@darwinbox.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rohitchennamaneni",
+     "location": "Hyderabad, India"
+    },
+    {
+     "name": "Rahul Lakhanpal",
+     "title": "Vice President Product Marketing",
+     "email": "rahul.lakhanpal@darwinbox.in",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/rahul-lakhanpal-93114412",
+     "location": "India"
+    },
+    {
+     "name": "Unmesh Lamture",
+     "title": "Head of Brand & Content",
+     "email": "unmesh.l@darwinbox.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/unmesh-lamture-24baba9a",
+     "location": "Hyderabad, India"
+    },
+    {
+     "name": "Gowthami Kanumuru",
+     "title": "Marketing Head",
+     "email": "gowthami.k@darwinbox.in",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/gowthamikanumuru",
+     "location": "Hyderabad, India"
+    }
+   ]
+  },
+  {
+   "brand": "DevRev",
+   "people": [
+    {
+     "name": "Sofia Agost Carreno",
+     "title": "Global Sales & Field Marketing Leader",
+     "email": "sofia.carreno@devrev.ai"
+    },
+    {
+     "name": "Tetsuo Miyoshi",
+     "title": "Director of Marketing & Alliance Sales, Japan",
+     "email": "tetsuo.miyoshi@devrev.ai"
+    },
+    {
+     "name": "Bipin Vk",
+     "title": "Marketing Lead",
+     "email": "bipin.kudmulwar@devrev.ai"
+    },
+    {
+     "name": "Michael Nelson-Wolter",
+     "title": "Senior Brand Marketing Manager",
+     "email": "michael.nelson-wolter@devrev.ai"
+    }
+   ]
+  },
+  {
+   "brand": "Domino Data Lab",
+   "people": [
+    {
+     "name": "Casey Bradshaw",
+     "title": "Customer Marketing Leader",
+     "email": "casey.bradshaw@dominodatalab.com"
+    },
+    {
+     "name": "Cristina Wong",
+     "title": "Director of Content Marketing",
+     "email": "cristina.wong@dominodatalab.com"
+    },
+    {
+     "name": "Shauna Steib",
+     "title": "Senior Director, Life Sciences Product Marketing",
+     "email": "shauna.steib@dominodatalab.com"
+    },
+    {
+     "name": "Thomas Robinson",
+     "title": "CEO",
+     "email": "thomas.robinson@dominodatalab.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/thomassrobinson",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Front",
+   "people": [
+    {
+     "name": "Dan O'Connell",
+     "title": "Chief Executive Officer",
+     "email": "dan.oconnell@front.com"
+    },
+    {
+     "name": "David Slater",
+     "title": "Chief Marketing Officer",
+     "email": "david.slater@front.com"
+    },
+    {
+     "name": "Mike Fenn",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "mike.fenn@front.com"
+    },
+    {
+     "name": "Adam Risman",
+     "title": "Director of Brand & Comms",
+     "email": "adam.risman@front.com"
+    }
+   ]
+  },
+  {
+   "brand": "Invicti Security",
+   "people": [
+    {
+     "name": "Neil Roseman",
+     "title": "CEO",
+     "email": "neil.roseman@invicti.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/neilroseman",
+     "location": "Seattle, United States"
+    },
+    {
+     "name": "Tom Meusel",
+     "title": "Chief Revenue Officer",
+     "email": "tom.meusel@invicti.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/tommeusel",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Priyank Savla",
+     "title": "VP of Marketing and Sales Development",
+     "email": "priyank.savla@invicti.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/priyank-savla",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Carley Oberdoerster",
+     "title": "Senior Director, Demand Generation",
+     "email": "carley.oberdoerster@invicti.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/carleyoberdoerster",
+     "location": "Boston, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Paysend",
+   "people": [
+    {
+     "name": "Ben Chisell",
+     "title": "Group Chief Executive Officer",
+     "email": "b.chisell@paysend.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ben-chisell-11a3a36",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Aurora Cabezas",
+     "title": "Chief Marketing Officer - Consumer",
+     "email": "a.cabezas@paysend.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/aurora-gomez-cabezas",
+     "location": "United Arab Emirates"
+    },
+    {
+     "name": "Wanyu Lo",
+     "title": "Global Head of Consumer Marketing",
+     "email": "w.lo@paysend.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/wanyu-l",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Ana Rocha",
+     "title": "Global Head of Growth Marketing",
+     "email": "a.rocha@paysend.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/anapaulamrocha",
+     "location": "Miami, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Sendbird",
+   "people": [
+    {
+     "name": "John Kim",
+     "title": "Co-Founder & CEO",
+     "email": "john.kim@sendbird.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/doshkim",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Mike Bohnett",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "mike.bohnett@sendbird.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/mikebohnett",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Darin Ritz",
+     "title": "Head of Strategic Partnerships & AI Ecosystem",
+     "email": "darin.ritz@sendbird.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/darinritz",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Jessie Guest",
+     "title": "Director of Growth",
+     "email": "jessie.guest@sendbird.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jessie-guest-a8a484197",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "XBTO Group",
+   "people": [
+    {
+     "name": "Philippe Bekhazi",
+     "title": "Founder and CEO",
+     "email": "philippe@xbto.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/philbek",
+     "location": "Hamilton, Bermuda"
+    },
+    {
+     "name": "Cheryl Wai",
+     "title": "Head of Product Marketing and Partnerships",
+     "email": "cheryl@xbto.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/cheryl-wai-0b078048",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Karl Naim",
+     "title": "Group Chief Commercial Officer",
+     "email": "karl.naim@xbto.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/karlnaim",
+     "location": "Abu Dhabi, United Arab Emirates"
+    }
+   ]
+  },
+  {
+   "brand": "Code Metal",
+   "people": [
+    {
+     "name": "Jennifer Wang",
+     "title": "Director & Head of Marketing",
+     "email": "jennifer.wang@codemetal.ai"
+    },
+    {
+     "name": "Grace Wu",
+     "title": "Marketing Program Manager",
+     "email": "grace.wu@codemetal.ai"
+    },
+    {
+     "name": "Peter Morales",
+     "title": "Chief Executive Officer",
+     "email": "peter@codemetal.ai"
+    },
+    {
+     "name": "Laura Shen",
+     "title": "EVP of Growth",
+     "email": "laura.shen@codemetal.ai"
+    }
+   ]
+  }
+ ]
+}

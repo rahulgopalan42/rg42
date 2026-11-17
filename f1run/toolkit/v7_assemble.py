@@ -175,7 +175,7 @@ def main():
     doc.add_heading(f'{label} - Emails Ready ({len(rows)} brands)', level=1)
     doc.add_paragraph(f'Subject line: {SUBJECT}. One page per brand: notes for you first (never send '
                       f'these), then the contacts, then the email exactly as it merges.')
-    for i, row in enumerate(sorted(rows, key=lambda r: r['brand'].lower())):
+    for i, row in enumerate(rows if os.environ.get('V7_KEEP_ORDER') else sorted(rows, key=lambda r: r['brand'].lower())):
         if i:
             doc.add_paragraph().add_run().add_break(WD_BREAK.PAGE)
         doc.add_heading(f'{row["brand"]} ({group_of(row)})', level=2)

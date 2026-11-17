@@ -1,0 +1,342 @@
+{
+ "rows": [
+  {
+   "brand": "Lockton",
+   "people": [
+    {
+     "name": "Ron Lockton",
+     "title": "Chairman & CEO, Lockton Companies",
+     "email": "rlockton@lockton.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ronlockton",
+     "location": "United States"
+    },
+    {
+     "name": "Julie Gibson",
+     "title": "Chief Marketing Officer",
+     "email": "jugibson@lockton.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/juliecgibson",
+     "location": "Kansas City, United States"
+    },
+    {
+     "name": "Chris Callahan",
+     "title": "SVP, Marketing and Communications",
+     "email": "chris.callahan@lockton.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/chrisbcallahan",
+     "location": "Dallas, United States"
+    },
+    {
+     "name": "Chris Wahlenmaier",
+     "title": "Vice President, Marketing and Communications",
+     "email": "chris.wahlenmaier@lockton.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/cwahlenmaier",
+     "location": "Dallas, United States"
+    }
+   ]
+  },
+  {
+   "brand": "OTB",
+   "people": [
+    {
+     "name": "Matteo Lena",
+     "title": "CEO, OTB North America",
+     "email": "matteo_lena@otb.net",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/matteo-lena-12435811",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Marita Spera",
+     "title": "Chief Public Affairs and Corporate Communication Officer",
+     "email": "marita_spera@otb.net",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/marita-spera-b229401",
+     "location": "Italy"
+    },
+    {
+     "name": "Julia Erdman",
+     "title": "SVP, Communications & Marketing | Diesel & Designer Brands: Jil Sander, Maison Margiela, MM6, Marni",
+     "email": "julia_erdman@otb.net",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/julia-catherine-erdman-49704565",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Federico Salpietro",
+     "title": "Head of Group Licenses & Collaborations / Designer Brands",
+     "email": "federico_salpietro@otb.net",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/federicosalpietro",
+     "location": "Paris, France"
+    }
+   ]
+  },
+  {
+   "brand": "Edrington",
+   "people": [
+    {
+     "name": "Scott McCroskie",
+     "title": "CEO",
+     "email": "scott.mccroskie@edrington.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/scottmccroskie",
+     "location": "Glasgow, United Kingdom"
+    },
+    {
+     "name": "Suzy Smith",
+     "title": "Chief Marketing Officer",
+     "email": "suzy.smith@edrington.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/suzy-smith-967ab412",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Philip Mackie",
+     "title": "Global Head of Insight & Marketing Capability",
+     "email": "philip.mackie@edrington.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/philip-mackie-brand",
+     "location": "Glasgow, United Kingdom"
+    },
+    {
+     "name": "Paul Condron",
+     "title": "Marketing Director - The Macallan, Highland Park & The Glenrothes.",
+     "email": "paul.condron@edrington.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/paulcondron73",
+     "location": "Glasgow, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "UST",
+   "people": [
+    {
+     "name": "Krishna Sudheendra",
+     "title": "CEO",
+     "email": "krishna.sudheendra@ust.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/krishna-sudheendra-141b757",
+     "location": "Aliso Viejo, United States"
+    },
+    {
+     "name": "Leslie Schultz",
+     "title": "Chief Marketing Officer",
+     "email": "leslie.schultz@ust.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/leslieschultz",
+     "location": "Philadelphia, United States"
+    },
+    {
+     "name": "Michelle Fleming",
+     "title": "Head of Global Partnerships and Alliances Marketing",
+     "email": "michelle.fleming@ust.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/michellefleming1",
+     "location": "Seattle, United States"
+    },
+    {
+     "name": "Sonal Parmar",
+     "title": "Head of Events, Global Marketing",
+     "email": "sonal.parmar@ust.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/sonal-gandhi-parmar-063302",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "AG1",
+   "people": [
+    {
+     "name": "Paulie Dery",
+     "title": "CMO",
+     "email": "paulie.dery@drinkag1.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/pauliedery",
+     "location": "Austin, United States"
+    },
+    {
+     "name": "Diane Burnett",
+     "title": "Senior Vice President, Growth Marketing",
+     "email": "diane.burnett@drinkag1.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/diane-burnett",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Mandy McDonald",
+     "title": "VP, Partnerships",
+     "email": "mandy.mcdonald@drinkag1.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/mandy-mcdonald-a2102083",
+     "location": "United States"
+    },
+    {
+     "name": "Kate Chartrand",
+     "title": "Head of Brand Communications",
+     "email": "kate.chartrand@drinkag1.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/kate-chartrand-8389185",
+     "location": "Toronto, Canada"
+    }
+   ]
+  },
+  {
+   "brand": "Fluidstack",
+   "people": [
+    {
+     "name": "Emma Growney",
+     "title": "Director of Strategic Communications",
+     "email": "emma@fluidstack.io"
+    },
+    {
+     "name": "Zach Alexander",
+     "title": "VP Commercial",
+     "email": "alexander@fluidstack.io"
+    },
+    {
+     "name": "Jai Gulati",
+     "title": "Marketing Strategy",
+     "email": "jai@fluidstack.io"
+    },
+    {
+     "name": "Fin Kavanagh",
+     "title": "Communications and Marketing Manager",
+     "email": "fin@fluidstack.io"
+    }
+   ]
+  },
+  {
+   "brand": "Mary Kay Inc.",
+   "people": [
+    {
+     "name": "Lucy Gildea",
+     "title": "Chief Brand and Scientific Officer",
+     "email": "lucy.gildea@mkcorp.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/lucy-gildea-ph-d-47263611",
+     "location": "Dallas, United States"
+    },
+    {
+     "name": "Regena Pipkin",
+     "title": "Vice President, Marketing and Communications",
+     "email": "regena.pipkin@mkcorp.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/regena-pipkin-b0676b11",
+     "location": "Dallas, United States"
+    },
+    {
+     "name": "Virginie Naigeon-Malek",
+     "title": "Global Head, Corporate Communications, CSR & Social Sustainability",
+     "email": "virginie.naigeon-malek@mkcorp.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/virginienaigeon",
+     "location": "Dallas, United States"
+    },
+    {
+     "name": "Holly Baker",
+     "title": "Director, Global Brand Marketing",
+     "email": "holly.baker@mkcorp.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/holly-baker-1286a710",
+     "location": "Dallas, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Andersen Tax",
+   "people": [
+    {
+     "name": "Mark Vorsatz",
+     "title": "Global Chairman and CEO",
+     "email": "mark.vorsatz@andersen.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/markvorsatz",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Megan Tsuei",
+     "title": "Managing Director, Marketing & Business Development",
+     "email": "megan.tsuei@andersen.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/megan-tsuei",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Danielle Banner",
+     "title": "Marketing Director",
+     "email": "danielle.banner@andersen.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/danibanner",
+     "location": "Boston, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Bitpanda",
+   "people": [
+    {
+     "name": "Lukas Enzersdorfer-Konrad",
+     "title": "CEO",
+     "email": "lukas.enzersdorfer@bitpanda.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/enzersdorfer",
+     "location": "Vienna, Austria"
+    },
+    {
+     "name": "Sudarshan Waghmare",
+     "title": "Creative & Brand Director (Global)",
+     "email": "sudarshan.waghmare@bitpanda.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sudii",
+     "location": "Hamburg, Germany"
+    },
+    {
+     "name": "Daniel Elsawey",
+     "title": "Global Head of Partnerships",
+     "email": "daniel.elsawey@bitpanda.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/daniel-elsawey-25201227",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Patricia Concepcion Garcia",
+     "title": "Head of Growth Operations & Product Marketing",
+     "email": "patricia.garcia@bitpanda.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/patriciaconcepciongarcia",
+     "location": "Madrid, Spain"
+    }
+   ]
+  },
+  {
+   "brand": "CloudWalk",
+   "people": [
+    {
+     "name": "Ricardo Cici",
+     "title": "Chief Growth Officer",
+     "email": "ricardo@cloudwalk.io"
+    },
+    {
+     "name": "Yasmin Kobayashi",
+     "title": "Head of Brand",
+     "email": "yasmin.kobayashi@cloudwalk.io"
+    },
+    {
+     "name": "Raphael Brollo",
+     "title": "SMB Marketing Head",
+     "email": "raphael.brollo@cloudwalk.io"
+    },
+    {
+     "name": "Daniel Busch",
+     "title": "Head of Brand Creation",
+     "email": "daniel.busch@cloudwalk.io"
+    }
+   ]
+  }
+ ]
+}

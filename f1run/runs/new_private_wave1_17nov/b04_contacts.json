@@ -1,0 +1,309 @@
+{
+ "rows": [
+  {
+   "brand": "TransPerfect",
+   "people": [
+    {
+     "name": "Kari Barckley",
+     "title": "Director of Business Development, Digital Marketing",
+     "email": "kbarckley@transperfect.com"
+    },
+    {
+     "name": "Pam Potts",
+     "title": "Director of Business Development - Digital Marketing",
+     "email": "pam.potts@transperfect.com"
+    },
+    {
+     "name": "William Mellinger",
+     "title": "Senior Director, Growth and Product Marketing",
+     "email": "wmellinger@transperfect.com"
+    },
+    {
+     "name": "Ryan Simper",
+     "title": "Vice President - Global Marketing",
+     "email": "rsimper@transperfect.com"
+    }
+   ]
+  },
+  {
+   "brand": "Cox Enterprises, Inc.",
+   "people": [
+    {
+     "name": "Alex Taylor",
+     "title": "Chairman and Chief Executive Officer",
+     "email": "alex.taylor@coxinc.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/alex-taylor",
+     "location": "Atlanta, United States"
+    },
+    {
+     "name": "John Kovac",
+     "title": "Senior Vice President, Brand | Marketing | Creative",
+     "email": "john.kovac@coxinc.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/john-kovac-433b4729",
+     "location": "Atlanta, United States"
+    },
+    {
+     "name": "Austen Tully",
+     "title": "Director of Integrated Marketing Partnerships",
+     "email": "austen.tully@coxinc.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/austen-tully-a3087031",
+     "location": "Atlanta, United States"
+    },
+    {
+     "name": "Nathalie Espinol",
+     "title": "Director, Brand and Creative Strategy",
+     "email": "nathalie.espinol@coxinc.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/nathalieespinol",
+     "location": "Atlanta, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Hologic",
+   "people": [
+    {
+     "name": "Carol Smith",
+     "title": "Director, Brand Marketing & Communications",
+     "email": "carol.smith@hologic.com"
+    },
+    {
+     "name": "Laura Carter",
+     "title": "Director of Marketing and Communications",
+     "email": "laura.carter@hologic.com"
+    },
+    {
+     "name": "Michelle Janisch",
+     "title": "Vice President Marketing",
+     "email": "michelle.janisch@hologic.com"
+    },
+    {
+     "name": "Courtney Thompson",
+     "title": "Group Director, Commercial Marketing",
+     "email": "courtney.thompson@hologic.com"
+    }
+   ]
+  },
+  {
+   "brand": "Mirae Asset",
+   "people": [
+    {
+     "name": "Duk Lim",
+     "title": "Head of Product Marketing",
+     "email": "dukjin.lim@miraeasset.com"
+    },
+    {
+     "name": "Seung-Won Lee",
+     "title": "Head of ETF Marketing Division",
+     "email": "slee@miraeasset.com"
+    },
+    {
+     "name": "Jaewon Chung",
+     "title": "Brand Strategy Manager",
+     "email": "jchung@miraeasset.com"
+    }
+   ]
+  },
+  {
+   "brand": "Virtusa",
+   "people": [
+    {
+     "name": "Nitesh Banga",
+     "title": "Chief Executive Officer",
+     "email": "niteshbanga@virtusa.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/nitesh-banga-710248b",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Brian Jochum",
+     "title": "SVP, Global Chief Marketing Officer",
+     "email": "brianjochum@virtusa.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/brian-jochum-7609514",
+     "location": "Wheaton, United States"
+    },
+    {
+     "name": "Lauren Heerlein",
+     "title": "VP - Brand & Creative",
+     "email": "lheerlein@virtusa.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/laurenheerlein",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Roch Ferreira",
+     "title": "Senior Vice President (Marketing)",
+     "email": "rochf@virtusa.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/rochferreira",
+     "location": "Bengaluru, India"
+    }
+   ]
+  },
+  {
+   "brand": "Zayo Group",
+   "people": [
+    {
+     "name": "Steve Smith",
+     "title": "CEO",
+     "email": "steve.smith@zayo.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/steve-smith-15856210",
+     "location": "Los Altos, United States"
+    },
+    {
+     "name": "Mariana Schlock",
+     "title": "Chief Communications & Marketing Officer",
+     "email": "mariana.agathoklis@zayo.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/marianaagathoklis",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Missy Altergott",
+     "title": "Senior Vice President Marketing",
+     "email": "missy.altergott@zayo.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/missyaltergottmarketing",
+     "location": "United States"
+    },
+    {
+     "name": "Jennifer Gordon",
+     "title": "Head of Corporate Communications and Influencer Marketing",
+     "email": "jennifer.gordon@zayo.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jennifer-gordon-594b8117",
+     "location": "Toronto, Canada"
+    }
+   ]
+  },
+  {
+   "brand": "DeepL",
+   "people": [
+    {
+     "name": "Detlef Krause",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "detlef.krause@deepl.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/detlefkrause",
+     "location": "Munich, Germany"
+    },
+    {
+     "name": "Amber Dacres",
+     "title": "Global Head of Partner Marketing",
+     "email": "amber.dacres@deepl.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/amberdacres",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Bronwyn Lait",
+     "title": "Senior Director, Global Field & Partner Marketing",
+     "email": "bronwyn.lait@deepl.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/bronwynlait",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Valia Papaspyrou",
+     "title": "Global Director of Performance Marketing and Campaigns",
+     "email": "valia.papaspyrou@deepl.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/valiapapaspyrou",
+     "location": "United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Infoblox",
+   "people": [
+    {
+     "name": "Scott Harrell",
+     "title": "President & CEO",
+     "email": "sharrell@infoblox.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/harrellscott",
+     "location": "San Jose, United States"
+    },
+    {
+     "name": "Jaime Mehra",
+     "title": "SVP Corporate & Product Marketing",
+     "email": "jmehra@infoblox.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jaimemehra",
+     "location": "Atlanta, United States"
+    },
+    {
+     "name": "Laurie Robison",
+     "title": "Vice President, Global Demand Generation",
+     "email": "lrobison@infoblox.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/laurierobison1",
+     "location": "Seattle, United States"
+    },
+    {
+     "name": "Janet Noe",
+     "title": "Sr. Director, Brand Management",
+     "email": "jnoe@infoblox.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/janetnoe",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "PhysicsX",
+   "people": [
+    {
+     "name": "Amir Vaziri",
+     "title": "Head of Growth",
+     "email": "amir.vaziri@physicsx.ai"
+    },
+    {
+     "name": "Tariq Shallwani",
+     "title": "VP Commercial",
+     "email": "tariq.shallwani@physicsx.ai"
+    },
+    {
+     "name": "Richard Laithwaite",
+     "title": "Vice President Commercial (Mining, Metals & Materials)",
+     "email": "richard.laithwaite@physicsx.ai"
+    },
+    {
+     "name": "Lilly Burr",
+     "title": "Commercial Lead",
+     "email": "lilly.desouzaburr@physicsx.ai"
+    }
+   ]
+  },
+  {
+   "brand": "Allied Universal",
+   "people": [
+    {
+     "name": "Thomas Walton",
+     "title": "Business Development",
+     "email": "thomas.walton@aus.com"
+    },
+    {
+     "name": "Tim Albert",
+     "title": "Business Development",
+     "email": "tim.albert@aus.com"
+    },
+    {
+     "name": "Tad Garabedian",
+     "title": "Business Development Specialist",
+     "email": "tad.garabedian@aus.com"
+    },
+    {
+     "name": "Lisa Leija",
+     "title": "Business Development Manager",
+     "email": "lisa.leija@aus.com"
+    }
+   ]
+  }
+ ]
+}

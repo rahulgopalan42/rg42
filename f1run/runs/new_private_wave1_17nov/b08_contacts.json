@@ -1,0 +1,305 @@
+{
+ "rows": [
+  {
+   "brand": "Factorial",
+   "people": [
+    {
+     "name": "Jordi Romero",
+     "title": "Founder and CEO",
+     "email": "jordi@factorial.co",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jordiromero",
+     "location": "Barcelona, Spain"
+    },
+    {
+     "name": "Nicola Lagana",
+     "title": "VP Marketing",
+     "email": "nicola.lagana@factorial.co",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/nicola-lagana",
+     "location": "Barcelona, Spain"
+    },
+    {
+     "name": "Sara Carmona Perez",
+     "title": "Global Creative Brand Director",
+     "email": "sara.carmona@factorial.co",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/sara-carmona-p%c3%a9rez-626860161",
+     "location": "Barcelona, Spain"
+    },
+    {
+     "name": "Ilnar Abdunagimov",
+     "title": "Director of Growth and Demand Generation",
+     "email": "ilnar.abdunagimov@factorial.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/abdunagimov",
+     "location": "Barcelona, Spain"
+    }
+   ]
+  },
+  {
+   "brand": "Moloco",
+   "people": [
+    {
+     "name": "Paul D'Arcy",
+     "title": "CMO",
+     "email": "paul.darcy@moloco.com"
+    },
+    {
+     "name": "Hardeep Singh",
+     "title": "Director of Growth Marketing",
+     "email": "hardeep.singh@moloco.com"
+    },
+    {
+     "name": "Julie Foster",
+     "title": "Marketing Planning and Strategy Lead",
+     "email": "julie.foster@moloco.com"
+    },
+    {
+     "name": "Daniel Wahlen",
+     "title": "Head of North America and EMEA Marketing",
+     "email": "daniel.wahlen@moloco.com"
+    }
+   ]
+  },
+  {
+   "brand": "Sutherland",
+   "people": [
+    {
+     "name": "Sriram Panchapakesan",
+     "title": "CEO",
+     "email": "sriram.panchapakesan@sutherlandglobal.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/srirampanchapakesan",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Maria Gambin",
+     "title": "VP Head Global Marketing",
+     "email": "maria.gambin@sutherlandglobal.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/mariadoloresgarciamarketing",
+     "location": "Brussels, Belgium"
+    },
+    {
+     "name": "Ashley Nagel",
+     "title": "Vice President, Growth Marketing",
+     "email": "ashley.nagel@sutherlandglobal.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/ashleyringrose",
+     "location": "Dubai, United Arab Emirates"
+    },
+    {
+     "name": "Indraneel Ganguli",
+     "title": "Global Head: Brand and Communications",
+     "email": "indraneel.ganguli@sutherlandglobal.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/indraneel-ganguli-2b790596",
+     "location": "Hyderabad, India"
+    }
+   ]
+  },
+  {
+   "brand": "Hudson River Trading",
+   "people": [
+    {
+     "name": "Andy Ondrak",
+     "title": "Strategic Growth Lead",
+     "email": "andy@hudson-trading.com"
+    },
+    {
+     "name": "Darren Mulholland",
+     "title": "Head of Business Development",
+     "email": "darren@hudson-trading.com"
+    },
+    {
+     "name": "Guy D.",
+     "title": "Head of Options Business Development",
+     "email": "guy@hudson-trading.com"
+    },
+    {
+     "name": "Lawrence Tan",
+     "title": "Head of Business Development, APAC",
+     "email": "lawrence@hudson-trading.com"
+    }
+   ]
+  },
+  {
+   "brand": "Neo4j",
+   "people": [
+    {
+     "name": "Kavya Hemachander",
+     "title": "Head of Marketing - India",
+     "email": "kavya.hemachander@neo4j.com"
+    },
+    {
+     "name": "Nithya Raman",
+     "title": "APAC Marketing Director",
+     "email": "nithya.raman@neo4j.com"
+    },
+    {
+     "name": "Susanne Brunner",
+     "title": "Senior Director of Marketing",
+     "email": "susanne.brunner@neo4j.com"
+    },
+    {
+     "name": "Virginia Barasch",
+     "title": "Vice President, Corporate Marketing",
+     "email": "virginia.barasch@neo4j.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/virginiabarasch",
+     "location": "San Carlos, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Talan",
+   "people": [
+    {
+     "name": "Francois Soubien",
+     "title": "Group CEO",
+     "email": "francois.soubien@talan.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/francoissoubien",
+     "location": "Paris, France"
+    },
+    {
+     "name": "Julien Rio",
+     "title": "Group Chief Marketing Officer",
+     "email": "julien.rio@talan.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/julienrio",
+     "location": "Paris, France"
+    },
+    {
+     "name": "Aurelie Hugnet",
+     "title": "Global CMO",
+     "email": "aurelie.hugnet@talan.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/aurelie-hugnet",
+     "location": "Paris, France"
+    },
+    {
+     "name": "Jordan Shuttlewood",
+     "title": "Global Head of Brand",
+     "email": "jordan.shuttlewood@talan.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/jordan-walker-shuttlewood",
+     "location": "United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Jeeves",
+   "people": [
+    {
+     "name": "Jordan Bulkoski",
+     "title": "Chief Revenue Officer",
+     "email": "jordan@tryjeeves.com"
+    },
+    {
+     "name": "Ana Castro Canavati",
+     "title": "Sr. Global Product Marketing Manager | Brand",
+     "email": "ana.castro@tryjeeves.com"
+    },
+    {
+     "name": "Luis Aguilar Castro",
+     "title": "Senior Marketing Manager",
+     "email": "laguilar@tryjeeves.com"
+    },
+    {
+     "name": "James Burton",
+     "title": "Business Development Representative",
+     "email": "james.burton@tryjeeves.com"
+    }
+   ]
+  },
+  {
+   "brand": "micro1",
+   "people": [
+    {
+     "name": "Daniel Warner",
+     "title": "CMO",
+     "email": "daniel@micro1.ai"
+    },
+    {
+     "name": "Tommy Nguyen",
+     "title": "Partnerships",
+     "email": "tommy@micro1.ai"
+    },
+    {
+     "name": "Sydney Levin",
+     "title": "Director of Partnerships",
+     "email": "sydney@micro1.ai"
+    },
+    {
+     "name": "Izzy Nova",
+     "title": "Enterprise Partnerships Lead",
+     "email": "izzy@micro1.ai"
+    }
+   ]
+  },
+  {
+   "brand": "Nium",
+   "people": [
+    {
+     "name": "Prajit Nanu",
+     "title": "Co-Founder and CEO",
+     "email": "prajit@nium.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/prajitnanu",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Danielle Gotkis",
+     "title": "Chief Marketing Officer",
+     "email": "danielle.gotkis@nium.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/daniellegotkis",
+     "location": "Belmont, United States"
+    },
+    {
+     "name": "Anupam Pahuja",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "anupam.pahuja@nium.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/anupampahuja",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Yogesh Sangle",
+     "title": "EVP, Global Marketing and APAC Sales",
+     "email": "yogesh.sangle@nium.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/yogesh-sangle",
+     "location": "Singapore, Singapore"
+    }
+   ]
+  },
+  {
+   "brand": "Peregrine Technologies",
+   "people": [
+    {
+     "name": "Ashley Chandler",
+     "title": "Chief Marketing Officer",
+     "email": "ashley.chandler@peregrine.io"
+    },
+    {
+     "name": "Clayton Southerly",
+     "title": "Growth Content Marketing Lead",
+     "email": "clayton.southerly@peregrine.io"
+    },
+    {
+     "name": "Charlotte Will",
+     "title": "Vice President of Product Marketing",
+     "email": "charlotte.will@peregrine.io"
+    },
+    {
+     "name": "Meredith Berger",
+     "title": "Head of Field Marketing",
+     "email": "meredith.berger@peregrine.io"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,326 @@
+{
+ "rows": [
+  {
+   "brand": "Cyara",
+   "people": [
+    {
+     "name": "Sushil Kumar",
+     "title": "CEO",
+     "email": "sushil.kumar@cyara.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/sushil-kumar-343780",
+     "location": "Saratoga, United States"
+    },
+    {
+     "name": "Scott Salkin",
+     "title": "Chief Marketing Officer",
+     "email": "scott.salkin@cyara.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/scottsalkin",
+     "location": "Phoenix, United States"
+    },
+    {
+     "name": "Janet Vito",
+     "title": "SVP of Marketing",
+     "email": "janet.vito@cyara.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/janet-vito",
+     "location": "Scranton, United States"
+    },
+    {
+     "name": "Rebecca Joyner",
+     "title": "Vice President, Content Marketing",
+     "email": "rebecca.joyner@cyara.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/rebeccajoyner",
+     "location": "Boston, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Decart",
+   "people": [
+    {
+     "name": "Gal Shriki",
+     "title": "Head of Marketing",
+     "email": "gal@decart.ai"
+    },
+    {
+     "name": "Tal Moise",
+     "title": "Communications Lead",
+     "email": "tal.moise@decart.ai"
+    },
+    {
+     "name": "Danielle Gorman",
+     "title": "Director of Partnerships",
+     "email": "danielle@decart.ai"
+    },
+    {
+     "name": "Menash Land",
+     "title": "Head of Cloud Partnerships",
+     "email": "menash@decart.ai"
+    }
+   ]
+  },
+  {
+   "brand": "Granola",
+   "people": [
+    {
+     "name": "Christopher Pedregal",
+     "title": "CEO",
+     "email": "chris@granola.so",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/pedregal",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Rob Denton",
+     "title": "Marketing & Growth",
+     "email": "rob@granola.so",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/robjdenton",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Jack Cully",
+     "title": "Marketing",
+     "email": "jack@granola.so",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jackcully",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Julien Flandre",
+     "title": "Growth Marketing",
+     "email": "julien@granola.so",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/julien-flandre-67370751",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Couchbase",
+   "people": [
+    {
+     "name": "Deirdre Toner",
+     "title": "President and Chief Commercial Officer",
+     "email": "d.toner@couchbase.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/d-toner",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Josh Harbert",
+     "title": "SVP, Chief Marketing Officer",
+     "email": "josh.harbert@couchbase.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/joshharbert",
+     "location": "Kansas City, United States"
+    },
+    {
+     "name": "Erin Tacy",
+     "title": "Vice President, Corporate Marketing",
+     "email": "erin.tacy@couchbase.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/erin-bergamo-tacy",
+     "location": "Palo Alto, United States"
+    },
+    {
+     "name": "Melissa Gutierrez",
+     "title": "Sr. Director, Global Demand and Marketing Ops",
+     "email": "melissa.gutierrez@couchbase.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/melissaprather",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Prove",
+   "people": [
+    {
+     "name": "Rodger Desai",
+     "title": "CEO",
+     "email": "rodger.desai@prove.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rodgerdesai",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Ashley Kiolbasa",
+     "title": "Chief Marketing Officer",
+     "email": "ashley.kiolbasa@prove.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/ashleykiolbasa",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Scott Bonnell",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "scott.bonnell@prove.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/scottbonnellnyc",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Kelley Vallone",
+     "title": "VP, Growth Marketing",
+     "email": "kelley.vallone@prove.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/kelley-vallone-b2294220",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "QuEra Computing",
+   "people": [
+    {
+     "name": "Tommaso Macri",
+     "title": "Sr. Director of Business Development",
+     "email": "tmacri@quera.com"
+    },
+    {
+     "name": "Alex Greenberg",
+     "title": "Director of Strategic Partnerships",
+     "email": "agreenberg@quera.com"
+    },
+    {
+     "name": "Yuval Boger",
+     "title": "Chief Commercial Officer",
+     "email": "yboger@quera.com"
+    },
+    {
+     "name": "Andy Ory",
+     "title": "Chief Executive Officer",
+     "email": "aory@quera.com"
+    }
+   ]
+  },
+  {
+   "brand": "Tulip Interfaces",
+   "people": [
+    {
+     "name": "Naomi Nuta",
+     "title": "Head of Product Marketing",
+     "email": "naomi.nuta@tulip.co"
+    },
+    {
+     "name": "Arooba Mumtaz",
+     "title": "Marketing Manager",
+     "email": "arooba.mumtaz@tulip.co"
+    },
+    {
+     "name": "Isabelle Kuster",
+     "title": "Marketing Manager",
+     "email": "isabelle.kuster@tulip.co"
+    },
+    {
+     "name": "Jennifer Dyment",
+     "title": "Product Marketing",
+     "email": "jennifer.dyment@tulip.co"
+    }
+   ]
+  },
+  {
+   "brand": "Whatfix",
+   "people": [
+    {
+     "name": "Khadim Batti",
+     "title": "Co-Founder & CEO",
+     "email": "khadim@whatfix.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/khadim",
+     "location": "Bengaluru, India"
+    },
+    {
+     "name": "Supriyaa Goswami",
+     "title": "Global Head of Marketing",
+     "email": "supriya.goswami@whatfix.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/supriyagoswami",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Omgitaa Awasthi",
+     "title": "Global Head of Brand & Corporate Communications",
+     "email": "omgita.awasthi@whatfix.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/omgita",
+     "location": "Bengaluru, India"
+    },
+    {
+     "name": "Timothy Ottolin",
+     "title": "Director of Brand Marketing",
+     "email": "tim.ottolin@whatfix.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/timottolin",
+     "location": "Chicago, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Menlo Security",
+   "people": [
+    {
+     "name": "Bill Robbins",
+     "title": "Chief Executive Officer",
+     "email": "bill.robbins@menlosecurity.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/bill-robbins-aa06975a",
+     "location": "San Jose, United States"
+    },
+    {
+     "name": "John Wrobel",
+     "title": "Chief Revenue Officer",
+     "email": "john.wrobel@menlosecurity.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/john-wrobel-6825248",
+     "location": "Portland, United States"
+    },
+    {
+     "name": "Rebecca Cleveland",
+     "title": "Head of North America and EMEA Marketing",
+     "email": "rebecca.cleveland@menlosecurity.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/rebecca-cleveland-9a10326",
+     "location": "Reading, United Kingdom"
+    },
+    {
+     "name": "Matt Gibbons",
+     "title": "Digital Demand Director",
+     "email": "matthew.gibbons@menlosecurity.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/gibbonsmatthew",
+     "location": "Boston, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Pentera",
+   "people": [
+    {
+     "name": "Aviv Cohen",
+     "title": "Chief Marketing Officer",
+     "email": "aviv@pentera.io"
+    },
+    {
+     "name": "Maayan Sella",
+     "title": "VP Marketing",
+     "email": "maayan@pentera.io"
+    },
+    {
+     "name": "Kara Poulin",
+     "title": "AVP, Marketing, Americas",
+     "email": "kara.cassidy@pentera.io"
+    },
+    {
+     "name": "Shelly Ben-Yosef",
+     "title": "Director of Customer Marketing",
+     "email": "shelly.benyosef@pentera.io"
+    }
+   ]
+  }
+ ]
+}

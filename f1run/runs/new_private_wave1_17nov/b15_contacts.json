@@ -1,0 +1,326 @@
+{
+ "rows": [
+  {
+   "brand": "Kiteworks",
+   "people": [
+    {
+     "name": "Leena Khandelwal",
+     "title": "Vice President, Global Marketing Operations",
+     "email": "leena.khandelwal@kiteworks.com"
+    },
+    {
+     "name": "Patrick Spencer",
+     "title": "SVP Americas Marketing and Industry Research",
+     "email": "patrick.spencer@kiteworks.com"
+    },
+    {
+     "name": "Marc Eikelder",
+     "title": "Senior Director Marketing EMEA",
+     "email": "marc.teneikelder@kiteworks.com"
+    },
+    {
+     "name": "Natalie Kremer",
+     "title": "Channel Strategic Marketing Manager",
+     "email": "natalie.kremer@kiteworks.com"
+    }
+   ]
+  },
+  {
+   "brand": "Monte Carlo",
+   "people": [
+    {
+     "name": "Barr Moses",
+     "title": "Co-Founder & CEO",
+     "email": "bmoses@montecarlodata.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/barrmoses",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Wayne Jin",
+     "title": "Chief Marketing Officer",
+     "email": "wjin@montecarlodata.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/waynejin",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Ashleigh Blalock",
+     "title": "Head of Demand Generation & Growth Channels",
+     "email": "ablalock@montecarlodata.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/ashleigh-blalock-2b7163b5",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Daniel Ellis",
+     "title": "Senior Global Director, Partnerships & Alliances",
+     "email": "dellis@montecarlodata.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/fortuneellis",
+     "location": "Seattle, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Ocorian",
+   "people": [
+    {
+     "name": "Craig Buick",
+     "title": "Co-Chief Executive Officer",
+     "email": "craig.buick@ocorian.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/craig-buick-7536014",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Yegor Lanovenko",
+     "title": "Co-Chief Executive Officer",
+     "email": "yegor.lanovenko@ocorian.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/yegor-lanovenko-58799742",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Matt Bythell",
+     "title": "Chief Marketing Officer",
+     "email": "m.bythell@ocorian.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/matt-bythell-54832a6",
+     "location": "Princes Risborough, United Kingdom"
+    },
+    {
+     "name": "Sophie Cookson",
+     "title": "Head of Brand & Content",
+     "email": "sophie.cookson@ocorian.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/sophie-cookson",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "PPRO",
+   "people": [
+    {
+     "name": "Motie Bring",
+     "title": "CEO",
+     "email": "motie.bring@ppro.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/motie-bring-1944a62",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Mariette Ferreira",
+     "title": "CMO",
+     "email": "mariette.ferreira@ppro.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/marietteferreira",
+     "location": "United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Fireflies.ai",
+   "people": [
+    {
+     "name": "Krish Ramineni",
+     "title": "Co-founder & CEO",
+     "email": "krish@fireflies.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/krishramineni",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Nishant Kumar",
+     "title": "Head - GTM and Partnerships",
+     "email": "nishant@fireflies.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/nishantk93",
+     "location": "New Delhi, India"
+    },
+    {
+     "name": "Karishma Ahuja",
+     "title": "Marketing & Global Community Growth",
+     "email": "karishma@fireflies.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/karishma-ahuja-52015750",
+     "location": "India"
+    }
+   ]
+  },
+  {
+   "brand": "Sublime Security",
+   "people": [
+    {
+     "name": "Kristi Evans",
+     "title": "VP of Marketing",
+     "email": "kristi.evans@sublime.security"
+    },
+    {
+     "name": "Kevin Gough",
+     "title": "Head of Product Marketing",
+     "email": "kevin@sublimesecurity.com"
+    },
+    {
+     "name": "Courtney Euele",
+     "title": "Head of Digital Marketing",
+     "email": "courtney.euele@sublimesecurity.com"
+    },
+    {
+     "name": "Ana Kutcher",
+     "title": "Head of Customer Marketing",
+     "email": "ana@sublimesecurity.com"
+    }
+   ]
+  },
+  {
+   "brand": "Aidoc",
+   "people": [
+    {
+     "name": "Elad Walach",
+     "title": "CEO",
+     "email": "elad@aidoc.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/elad-walach",
+     "location": "Miami, United States"
+    },
+    {
+     "name": "Tom Valent",
+     "title": "Chief Business Officer",
+     "email": "tom@aidoc.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/tom-valent-0523ab35",
+     "location": "Tel Aviv-Yafo, Israel"
+    },
+    {
+     "name": "Yael Miller",
+     "title": "VP Marketing, Brand and Communications",
+     "email": "yaelmi@aidoc.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/yael-miller",
+     "location": "Tel Aviv-Yafo, Israel"
+    },
+    {
+     "name": "Rachel Caplin",
+     "title": "Director of Brand & Communications",
+     "email": "rachelc@aidoc.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/rachel-caplin",
+     "location": "Tel Aviv District, Israel"
+    }
+   ]
+  },
+  {
+   "brand": "Airtable",
+   "people": [
+    {
+     "name": "Paul Ohls",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "paul.ohls@airtable.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/paulohls",
+     "location": "Austin, United States"
+    },
+    {
+     "name": "Calen Holbrooks",
+     "title": "Vice President, Marketing",
+     "email": "calen.holbrooks@airtable.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/calenh",
+     "location": "Seattle, United States"
+    },
+    {
+     "name": "Rob Nikzad",
+     "title": "Head of Brand + Creative",
+     "email": "rob.nikzad@airtable.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/robnikzad",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Michelle Su",
+     "title": "Head of Growth Marketing",
+     "email": "michelle.su@airtable.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/michellesu",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Buildots",
+   "people": [
+    {
+     "name": "Roy Danon",
+     "title": "CEO & Co-Founder",
+     "email": "roy@buildots.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/roydanon",
+     "location": "Tel Aviv-Yafo, Israel"
+    },
+    {
+     "name": "Shachar Shomrat",
+     "title": "Chief Marketing Officer (CMO)",
+     "email": "shachar.shomrat@buildots.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/radinsh",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Dana Bodenstein",
+     "title": "Head of Growth",
+     "email": "dana.bodenstein@buildots.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/danabodseo",
+     "location": "Tel Aviv-Yafo, Israel"
+    },
+    {
+     "name": "Kasia Gill",
+     "title": "Content Marketing Lead",
+     "email": "kasia.gill@buildots.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/kasia-katarzyna-gill",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Contentstack",
+   "people": [
+    {
+     "name": "Neha Sampat",
+     "title": "Founder & CEO",
+     "email": "neha@contentstack.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/nehasampat",
+     "location": "Austin, United States"
+    },
+    {
+     "name": "Todd Rathje",
+     "title": "Chief Revenue Officer",
+     "email": "todd.rathje@contentstack.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/todd-rathje-b606356",
+     "location": "Sarasota, United States"
+    },
+    {
+     "name": "Preseetha Pettigrew",
+     "title": "Global VP Partnerships",
+     "email": "preseetha.pettigrew@contentstack.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/preseetha",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Ashish Joy",
+     "title": "Head of Product & Technical Marketing",
+     "email": "ashish.joy@contentstack.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/ashishgjoy",
+     "location": "Dallas, United States"
+    }
+   ]
+  }
+ ]
+}

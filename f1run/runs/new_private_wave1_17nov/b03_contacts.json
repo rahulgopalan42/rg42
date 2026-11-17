@@ -1,0 +1,310 @@
+{
+ "rows": [
+  {
+   "brand": "Coupa",
+   "people": [
+    {
+     "name": "Scott Kempema",
+     "title": "SVP Chief Brand Officer - Corporate and Brand Marketing",
+     "email": "scott.kempema@coupa.com"
+    },
+    {
+     "name": "Jeff Collier",
+     "title": "Chief Revenue Officer",
+     "email": "jeff.collier@coupa.com"
+    },
+    {
+     "name": "Tricia Miller",
+     "title": "SVP Product Marketing and Chief Evangelist",
+     "email": "tricia.miller@coupa.com"
+    },
+    {
+     "name": "Kyra Shannon",
+     "title": "Head of Global Customer and Partner Marketing",
+     "email": "kyra.hennessey@coupa.com"
+    }
+   ]
+  },
+  {
+   "brand": "Mapei",
+   "people": [
+    {
+     "name": "Stefano Ranghieri",
+     "title": "Group Marketing Director",
+     "email": "s.ranghieri@mapei.it",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/stefano-ranghieri-6018a4",
+     "location": "Milan, Italy"
+    },
+    {
+     "name": "Andrea Perini",
+     "title": "Head of Business Development & Marketing",
+     "email": "a.perini@mapei.ae",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/andreaperini1980",
+     "location": "Dubai, United Arab Emirates"
+    }
+   ]
+  },
+  {
+   "brand": "Nord Security",
+   "people": [
+    {
+     "name": "Jolanta Lenkeviciute",
+     "title": "Growth Marketing Tech Lead",
+     "email": "jolanta.lenkeviciute@nordsec.com"
+    },
+    {
+     "name": "Austeja Poskute",
+     "title": "Head of Marketing",
+     "email": "austeja.poskute@nordsec.com"
+    },
+    {
+     "name": "Gabriele Jurgelevice",
+     "title": "Head of App Marketing @Saily",
+     "email": "gabriele.jurgelevice@nordsec.com"
+    },
+    {
+     "name": "Egle Kliukeviciene",
+     "title": "Lead Influencer Marketing Manager at Nord Security",
+     "email": "egle.kliukeviciene@nordsec.com"
+    }
+   ]
+  },
+  {
+   "brand": "Verkada",
+   "people": [
+    {
+     "name": "Priyanka Srinivasan",
+     "title": "VP Marketing",
+     "email": "priyanka.srinivasan@verkada.com"
+    },
+    {
+     "name": "Shane Fleming",
+     "title": "Creative Leader, Brand Builder, Growth Scaler",
+     "email": "shane.fleming@verkada.com"
+    },
+    {
+     "name": "Zoe Zhang",
+     "title": "Marketing",
+     "email": "zoe.zhang@verkada.com"
+    },
+    {
+     "name": "Tim Johnston",
+     "title": "Senior Director Marketing, Japac",
+     "email": "tim.johnston@verkada.com"
+    }
+   ]
+  },
+  {
+   "brand": "Clarins",
+   "people": [
+    {
+     "name": "Lorraine Barnett",
+     "title": "Group Marketing Director",
+     "email": "lorraine.barnett@clarins.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/lorraine-barnett-72a29564",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Anne-Sophie Lapsien",
+     "title": "Global Brand Content Director",
+     "email": "anne-sophie.lapsien@clarins.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/anne-sophie-lapsien-b9367227",
+     "location": "Paris, France"
+    },
+    {
+     "name": "Anna Welcker",
+     "title": "Head of Brand Experience & Communications",
+     "email": "anna.welcker@clarins.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/anna-welcker-6b0baa104",
+     "location": "Duesseldorf, Germany"
+    },
+    {
+     "name": "Charlotte Treharne",
+     "title": "Head of Partnership Marketing",
+     "email": "charlotte.treharne@clarins.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/charlotte-treharne-49b21a2a",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Entrust",
+   "people": [
+    {
+     "name": "Porter Hayes",
+     "title": "Vice President, Marketing Strategy & GTM",
+     "email": "porter.hayes@entrust.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kphayes",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Jennifer Stowe",
+     "title": "Vice President, Digital Marketing",
+     "email": "jennifer.stowe@entrust.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jstowe",
+     "location": "United States"
+    },
+    {
+     "name": "Corinne Price",
+     "title": "Global Director, Growth Marketing",
+     "email": "corinne.price@entrust.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/corinneprice1",
+     "location": "Austin, United States"
+    },
+    {
+     "name": "Krissy Daily",
+     "title": "Director of Creative Services & Brand",
+     "email": "krissy.daily@entrust.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/krissydaily",
+     "location": "San Francisco, United States"
+    }
+   ]
+  },
+  {
+   "brand": "IDEMIA",
+   "people": [
+    {
+     "name": "Philippe Oliva",
+     "title": "CEO at Idemia Secure Transactions",
+     "email": "philippe.oliva@idemia.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/philippe-oliva-idemia",
+     "location": "France"
+    },
+    {
+     "name": "Patrick Osta",
+     "title": "Senior Vice President, Global Head of Sales, Business Development & Marketing",
+     "email": "patrick.osta@idemia.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/ostapatrick",
+     "location": "Dubai, United Arab Emirates"
+    },
+    {
+     "name": "Nathalie Aligne",
+     "title": "Head of Marketing Communications",
+     "email": "nathalie.aligne@idemia.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/nathalie-aligne",
+     "location": "Paris, France"
+    },
+    {
+     "name": "Nicolas Phan",
+     "title": "Marketing Director",
+     "email": "nicolas.phan@idemia.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/nicolas-phan-6925391",
+     "location": "Paris, France"
+    }
+   ]
+  },
+  {
+   "brand": "Pigment",
+   "people": [
+    {
+     "name": "Eleonore Crespo",
+     "title": "Co-Founder and Co-CEO",
+     "email": "eleonore.crespo@pigment.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/eleonorecrespo",
+     "location": "United States"
+    },
+    {
+     "name": "Jennifer Day",
+     "title": "Head of Marketing",
+     "email": "jennifer.day@pigment.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jennifer-day-genau",
+     "location": "Seattle, United States"
+    },
+    {
+     "name": "Regina Croda",
+     "title": "Head of Marketing Strategy",
+     "email": "regina.croda@pigment.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/reginacroda",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Liz Edmondson",
+     "title": "Head of Community and Customer Marketing",
+     "email": "liz.edmondson@pigment.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lizedmondson",
+     "location": "United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Plaid",
+   "people": [
+    {
+     "name": "Dani McDonald",
+     "title": "Head of Brand Marketing",
+     "email": "dmcdonald@plaid.com"
+    },
+    {
+     "name": "David Suen",
+     "title": "Partnerships",
+     "email": "dsuen@plaid.com"
+    },
+    {
+     "name": "Jackie Endres",
+     "title": "Partnerships",
+     "email": "jendres@plaid.com"
+    },
+    {
+     "name": "Isabel Wyer",
+     "title": "Partnerships",
+     "email": "iwyer@plaid.com"
+    }
+   ]
+  },
+  {
+   "brand": "FrieslandCampina",
+   "people": [
+    {
+     "name": "Maxime Van Der Linden",
+     "title": "CMO",
+     "email": "maxime.vanderlinden@frieslandcampina.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/maxime-van-der-linden-b6037a160",
+     "location": "Amsterdam, Netherlands"
+    },
+    {
+     "name": "Sapna Tomar",
+     "title": "Global Director - Brand Foundations",
+     "email": "sapna.tomar@frieslandcampina.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sapna-tomar-73627a14",
+     "location": "Singapore, Singapore"
+    },
+    {
+     "name": "Eugenie Laarman",
+     "title": "Global Brand Director, Infant & Child Nutrition",
+     "email": "eugenie.laarman@frieslandcampina.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/eugenie-laarman-9a90367",
+     "location": "Apeldoorn, Netherlands"
+    },
+    {
+     "name": "April Inocentes",
+     "title": "Global Brand Director - Friso",
+     "email": "april.inocentes@frieslandcampina.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/april-inocentes",
+     "location": "Singapore, Singapore"
+    }
+   ]
+  }
+ ]
+}

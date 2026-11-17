@@ -1,0 +1,298 @@
+{
+ "rows": [
+  {
+   "brand": "SIX",
+   "people": [
+    {
+     "name": "Alain Bichsel",
+     "title": "Head Corporate Communications & Marketing, Managing Director",
+     "email": "alain.bichsel@six-group.com"
+    },
+    {
+     "name": "Erica Manager",
+     "title": "Senior Marketing Manager | Associate Director",
+     "email": "erica.mendes@six-group.com"
+    },
+    {
+     "name": "Jacques-Olivier Falluel-Morel",
+     "title": "Head Product & Regional Marketing France",
+     "email": "jacques-olivier.falluel-morel@six-group.com"
+    },
+    {
+     "name": "Gergina Mlinzk",
+     "title": "Head of Strategic Communications",
+     "email": "gergina.mlinzk@six-group.com"
+    }
+   ]
+  },
+  {
+   "brand": "Trellix",
+   "people": [
+    {
+     "name": "Natalie Polson",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "natalie.polson@trellix.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/natalie-polson-88105850",
+     "location": "Dubai, United Arab Emirates"
+    },
+    {
+     "name": "Trish Tobin",
+     "title": "VP, Platform Marketing",
+     "email": "trish.tobinca@trellix.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/trishtobinca",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Sanjay Raja",
+     "title": "Head of Product Marketing",
+     "email": "sanjay.raja@trellix.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/sanjay-raja",
+     "location": "Boston, United States"
+    },
+    {
+     "name": "Megan Haley",
+     "title": "Director Corporate Communications",
+     "email": "megan.haley@trellix.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/meganhaley18",
+     "location": "Pleasant Valley, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Ashley Furniture Industries, LLC",
+   "people": [
+    {
+     "name": "Ronald Wanek",
+     "title": "Chairman",
+     "email": "rwanek@ashleyfurniture.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/ronald-wanek-2b6763139",
+     "location": "Saint Petersburg, United States"
+    },
+    {
+     "name": "John Mask",
+     "title": "Executive Vice President - Sales & Marketing",
+     "email": "jmask@ashleyfurniture.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/john-mask-71722415",
+     "location": "Arcadia, United States"
+    },
+    {
+     "name": "Brad Rogers",
+     "title": "Senior Vice President of Sales and Marketing",
+     "email": "brogers@ashleyfurniture.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/brad-rogers-a71ba2366",
+     "location": "Alpharetta, United States"
+    },
+    {
+     "name": "Erika Sparrow",
+     "title": "Vice President of Marketing",
+     "email": "esparrow@ashleyfurniture.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/erikasparrow",
+     "location": "Spokane, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Ayar Labs",
+   "people": [
+    {
+     "name": "Mark Wade",
+     "title": "President and CEO, Co-Founder",
+     "email": "mark@ayarlabs.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/marktwade",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Kristine Raabe",
+     "title": "Head of Marketing & Public Relations",
+     "email": "kristine@ayarlabs.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kristine-raabe",
+     "location": "Portland, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Clay",
+   "people": [
+    {
+     "name": "Bruno Estrella",
+     "title": "Head of Marketing",
+     "email": "bruno.estrella@clay.com"
+    },
+    {
+     "name": "Mary Hanley",
+     "title": "Head of Product Marketing",
+     "email": "mary.hanley@clay.com"
+    },
+    {
+     "name": "Gabrielle Borenstein",
+     "title": "Head of Strategic Growth Strategy",
+     "email": "gabrielle.borenstein@clay.com"
+    },
+    {
+     "name": "Cassie Vaughn",
+     "title": "Growth Strategy",
+     "email": "cassie.vaughn@clay.com"
+    }
+   ]
+  },
+  {
+   "brand": "DriveNets",
+   "people": [
+    {
+     "name": "Inbar Lasser-Raab",
+     "title": "Chief Marketing Officer",
+     "email": "inbarlr@drivenets.com"
+    },
+    {
+     "name": "Martin Perlin",
+     "title": "Director of Marketing Communications",
+     "email": "mperlin@drivenets.com"
+    },
+    {
+     "name": "Dudy Cohen",
+     "title": "VP, Product Marketing",
+     "email": "dcohen@drivenets.com"
+    },
+    {
+     "name": "Gili Moreno",
+     "title": "Marketing and Sales Program Management Lead",
+     "email": "gsmoreno@drivenets.com"
+    }
+   ]
+  },
+  {
+   "brand": "Optiver",
+   "people": [
+    {
+     "name": "Theodoros Koulos",
+     "title": "Head of Marketing and Communications - Europe",
+     "email": "theodoroskoulos@optiver.com"
+    },
+    {
+     "name": "Sophie Arkelidis",
+     "title": "Global Experiential Lead | Head of Brand, Marketing & Communications, Asia Pacific",
+     "email": "sophie.arkelidis@optiver.com.au"
+    },
+    {
+     "name": "Merle Suijkerland",
+     "title": "Head of Digital Marketing",
+     "email": "merlesuijkerland@optiver.com"
+    },
+    {
+     "name": "Jay Kim",
+     "title": "Head of Korea Business Development",
+     "email": "jaykim@optiver.com"
+    }
+   ]
+  },
+  {
+   "brand": "S.C. Johnson & Son, Inc. (SC Johnson)",
+   "people": [
+    {
+     "name": "H Johnson",
+     "title": "Chairman, CEO, Chairman of the Board",
+     "email": "johnsonh@scjohnson.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/h-fisk-johnson",
+     "location": "Racine, United States"
+    },
+    {
+     "name": "Daniel Pilas",
+     "title": "Chief Marketing Officer",
+     "email": "dpilas@scj.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/danielpilas",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Katie Kellerman",
+     "title": "Vice President and Chief Marketing Officer - International Brands",
+     "email": "katie.kellerman@scjohnson.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/katie-kellerman",
+     "location": "Chicago, United States"
+    },
+    {
+     "name": "Genoveva Glassman",
+     "title": "Global Marketing Director",
+     "email": "gbglassm@scj.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/genoveva-glassman-0110842",
+     "location": "Chicago, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Flo Health",
+   "people": [
+    {
+     "name": "Rina Hahn",
+     "title": "Chief Marketing Officer",
+     "email": "r_hahn@flo.health"
+    },
+    {
+     "name": "Georgie Jones",
+     "title": "Head of Brand",
+     "email": "georgie_jones@flo.health"
+    },
+    {
+     "name": "Kat Nazarova",
+     "title": "Director of Social Growth",
+     "email": "k_nazarova@flo.health"
+    },
+    {
+     "name": "Samantha Wannemacher",
+     "title": "Global Head of Communications",
+     "email": "s_wannemacher@flo.health"
+    }
+   ]
+  },
+  {
+   "brand": "Rare Beauty",
+   "people": [
+    {
+     "name": "Scott Friedman",
+     "title": "CEO",
+     "email": "scott@rarebeauty.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/scott-friedman-4a769a12",
+     "location": "Hermosa Beach, United States"
+    },
+    {
+     "name": "Chrystina Train",
+     "title": "Senior Vice President, Marketing & Brand Partnerships",
+     "email": "chrystina.train@rarebeauty.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/chrystinawoody123",
+     "location": "Los Angeles, United States"
+    },
+    {
+     "name": "Mackenzie Kassab",
+     "title": "Vice President, Brand Voice & Creative Strategy",
+     "email": "mackenzie.kassab@rarebeauty.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/mackenziekassab",
+     "location": "Los Angeles, United States"
+    },
+    {
+     "name": "Lacey Hopkins",
+     "title": "Senior Director of Brand and Product Marketing",
+     "email": "lacey.hopkins@rarebeauty.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lacey-hopkins-30696984",
+     "location": "Los Angeles, United States"
+    }
+   ]
+  }
+ ]
+}

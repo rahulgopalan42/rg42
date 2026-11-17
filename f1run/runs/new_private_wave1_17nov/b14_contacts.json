@@ -1,0 +1,298 @@
+{
+ "rows": [
+  {
+   "brand": "Liberis",
+   "people": [
+    {
+     "name": "Izzy Brooman",
+     "title": "Head of Marketing",
+     "email": "izzy.brooman@liberis.com"
+    },
+    {
+     "name": "Kieran Darmody",
+     "title": "Brand & Communications Lead",
+     "email": "kieran.darmody@liberis.com"
+    },
+    {
+     "name": "Cecilia Leung",
+     "title": "VP of Strategic Partnerships & Partner Solutions",
+     "email": "cecilia.leung@liberis.com"
+    },
+    {
+     "name": "Trang-Thu Tran",
+     "title": "Chief Commercial Officer (CCO)",
+     "email": "trang.tran@liberis.com"
+    }
+   ]
+  },
+  {
+   "brand": "Smartling",
+   "people": [
+    {
+     "name": "Bryan Murphy",
+     "title": "CEO",
+     "email": "bmurphy@smartling.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/bryanmurphy2",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Lina Tonk",
+     "title": "Chief Marketing Officer",
+     "email": "ltonk@smartling.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/linamtonk",
+     "location": "Richmond, United States"
+    },
+    {
+     "name": "Katie Abbonizio",
+     "title": "Director of Demand Generation",
+     "email": "katherine@smartling.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/katherine-festa",
+     "location": "Philadelphia, United States"
+    },
+    {
+     "name": "Allison Howen",
+     "title": "Director of Brand & Content",
+     "email": "ahowen@smartling.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/allisonhowen",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "Stability AI",
+   "people": [
+    {
+     "name": "Jacob Wolfsheimer",
+     "title": "Marketing Director",
+     "email": "jacob.wolfsheimer@stability.ai"
+    },
+    {
+     "name": "Elijah Hosein",
+     "title": "Global GTM & Growth Operations",
+     "email": "elijah.hosein@stability.ai"
+    },
+    {
+     "name": "Henry Fraser",
+     "title": "Email Marketing Manager",
+     "email": "hfraser@stability.ai"
+    },
+    {
+     "name": "Ana Guillen",
+     "title": "GTM + Marketing + Comms",
+     "email": "ana.guillen@stability.ai"
+    }
+   ]
+  },
+  {
+   "brand": "Zenity",
+   "people": [
+    {
+     "name": "Ben Kliger",
+     "title": "Co-Founder & CEO",
+     "email": "ben@zenity.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/benkliger",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Anna Schibli",
+     "title": "Director, Global Field Marketing",
+     "email": "annasc@zenity.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/anna-schibli-418692172",
+     "location": "Stamford, United States"
+    },
+    {
+     "name": "Ian Miller",
+     "title": "Field & Partner Marketing",
+     "email": "ianm@zenity.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/ian-cullen-miller",
+     "location": "San Diego, United States"
+    }
+   ]
+  },
+  {
+   "brand": "BitSight",
+   "people": [
+    {
+     "name": "Sean Kaine",
+     "title": "Vice President of Marketing",
+     "email": "sean.kaine@bitsighttech.com"
+    },
+    {
+     "name": "Rui Pereira",
+     "title": "Director, Marketing (EMEA)",
+     "email": "rui.pereira@bitsighttech.com"
+    },
+    {
+     "name": "Matt Fulk",
+     "title": "Director, Integrated Marketing Campaigns",
+     "email": "matt.fulk@bitsighttech.com"
+    },
+    {
+     "name": "Michael Katz",
+     "title": "Sr. Director of Digital Marketing",
+     "email": "michael.katz@bitsight.com"
+    }
+   ]
+  },
+  {
+   "brand": "Cyberhaven",
+   "people": [
+    {
+     "name": "Aaron Feigin",
+     "title": "Chief Marketing Officer",
+     "email": "aaron.feigin@cyberhaven.com"
+    },
+    {
+     "name": "Tammy Coan",
+     "title": "VP, Growth Marketing",
+     "email": "tammy.coan@cyberhaven.com"
+    },
+    {
+     "name": "Bruce Chen",
+     "title": "Director of Product Marketing",
+     "email": "bruce.chen@cyberhaven.com"
+    },
+    {
+     "name": "Cameron Galbraith",
+     "title": "Senior Director, Product Marketing",
+     "email": "cameron.galbraith@cyberhaven.com"
+    }
+   ]
+  },
+  {
+   "brand": "Mambu",
+   "people": [
+    {
+     "name": "Fernando Zandona",
+     "title": "Chief Executive Officer",
+     "email": "fernando.zandona@mambu.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/fzandona",
+     "location": "Amsterdam, Netherlands"
+    },
+    {
+     "name": "Nikki Constantine",
+     "title": "Senior Director Marketing",
+     "email": "nikki.constantine@mambu.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/nikkimconstantine",
+     "location": "Amsterdam, Netherlands"
+    },
+    {
+     "name": "Helen Martin",
+     "title": "Global Partner Marketing Lead",
+     "email": "helen.martin@mambu.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/helensmartin",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Rescale",
+   "people": [
+    {
+     "name": "Joris Poort",
+     "title": "CEO",
+     "email": "joris@rescale.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/gpoort",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "John Moonshower",
+     "title": "Chief Revenue Officer",
+     "email": "jmoonshower@rescale.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/john-moonshower-1a4097a1",
+     "location": "United States"
+    },
+    {
+     "name": "Karen Megarbane",
+     "title": "Sr. Director of Global Demand Generation",
+     "email": "karen@rescale.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/karen-megarbane-6542b438",
+     "location": "Washington, United States"
+    },
+    {
+     "name": "Martin Smyth",
+     "title": "Head of Product Marketing",
+     "email": "msmyth@rescale.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/martin-smyth2",
+     "location": "Salt Lake City, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Source Photonics",
+   "people": [
+    {
+     "name": "Jervis Meng",
+     "title": "Marketing Manager, China",
+     "email": "jervis.meng@sourcephotonics.com"
+    },
+    {
+     "name": "Quanqi Zhan",
+     "title": "Product Marketing Manager",
+     "email": "quanqi.zhan@sourcephotonics.com"
+    },
+    {
+     "name": "Jack Huang",
+     "title": "Fab GM and Chip BU CEO",
+     "email": "jack.huang@sourcephotonics.com"
+    },
+    {
+     "name": "Robert Liu",
+     "title": "Senior Sales Director",
+     "email": "robert.liu@sourcephotonics.com"
+    }
+   ]
+  },
+  {
+   "brand": "Demandbase",
+   "people": [
+    {
+     "name": "Gabe Rogol",
+     "title": "Chief Executive Officer",
+     "email": "grogol@demandbase.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/gaberogol",
+     "location": "San Francisco, United States"
+    },
+    {
+     "name": "Rachel Truair",
+     "title": "Chief Marketing Officer",
+     "email": "rtruair@demandbase.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/racheltruair",
+     "location": "Austin, United States"
+    },
+    {
+     "name": "Genelle Kunst",
+     "title": "Senior Vice President, Growth Marketing",
+     "email": "gkunst@demandbase.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/genellekunst",
+     "location": "United States"
+    },
+    {
+     "name": "Chelsey Korman",
+     "title": "Brand & Communications Director",
+     "email": "ckorman@demandbase.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/chelsey-korman-aab53353",
+     "location": "Austin, United States"
+    }
+   ]
+  }
+ ]
+}

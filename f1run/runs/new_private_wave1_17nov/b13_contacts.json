@@ -1,0 +1,335 @@
+{
+ "rows": [
+  {
+   "brand": "Classiq Technologies",
+   "people": [
+    {
+     "name": "Nir Minerbi",
+     "title": "Co-Founder and CEO",
+     "email": "nir@classiq.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/nir-minerbi",
+     "location": "Israel"
+    },
+    {
+     "name": "Regev Yativ",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "regev@classiq.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/regevyativlinkedin",
+     "location": "Israel"
+    },
+    {
+     "name": "Duncan Huffman",
+     "title": "VP Global Marketing",
+     "email": "duncan@classiq.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/duncan-huffman",
+     "location": "Bloomington, United States"
+    },
+    {
+     "name": "Simon Fried",
+     "title": "VP Corporate Communications",
+     "email": "simon@classiq.io",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/simonfried",
+     "location": "Israel"
+    }
+   ]
+  },
+  {
+   "brand": "Incode Technologies",
+   "people": [
+    {
+     "name": "Elizabeth Morett",
+     "title": "Americas Marketing Director",
+     "email": "elizabeth.morett@incode.com"
+    },
+    {
+     "name": "Anja Djuric",
+     "title": "Head of Growth, EMEA",
+     "email": "anja.djuric@incode.com"
+    },
+    {
+     "name": "Alejandro Diaz Panizza",
+     "title": "Growth GTM Head SoLA",
+     "email": "alejandro.diaz@incode.com"
+    },
+    {
+     "name": "John Choi",
+     "title": "Vice President, Strategic Partnerships",
+     "email": "john.choi@incode.com"
+    }
+   ]
+  },
+  {
+   "brand": "Malwarebytes",
+   "people": [
+    {
+     "name": "Meggan Pijuan",
+     "title": "Director Growth Marketing",
+     "email": "mpijuan@malwarebytes.com"
+    },
+    {
+     "name": "Samantha Turner",
+     "title": "Director, Growth Marketing Operations and Automation",
+     "email": "sturner@malwarebytes.com"
+    },
+    {
+     "name": "Farees Mohiuddin",
+     "title": "SVP Marketing",
+     "email": "fmohiuddin@malwarebytes.com"
+    },
+    {
+     "name": "Deborah Eckman",
+     "title": "Director of Lifecycle Marketing",
+     "email": "deckman@malwarebytes.com"
+    }
+   ]
+  },
+  {
+   "brand": "Square Yards",
+   "people": [
+    {
+     "name": "Tanuj Shori",
+     "title": "Chief Executive Officer",
+     "email": "tanuj.shori@squareyards.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/tanuj-shori-420b402",
+     "location": "Dubai, United Arab Emirates"
+    },
+    {
+     "name": "Divya Krishnan",
+     "title": "Head of Marketing and Branding",
+     "email": "divya.krishnan@squareyards.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/divya-krishnan-942b4477",
+     "location": "Dubai, United Arab Emirates"
+    },
+    {
+     "name": "Rabiah Shaikh",
+     "title": "Chief Business Officer - Global Markets",
+     "email": "rabiah.shaikh@squareyards.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/rabiah-shaikh-6185b924",
+     "location": "Dubai, United Arab Emirates"
+    },
+    {
+     "name": "Anupam Rastogi",
+     "title": "Co-Founder & CBO",
+     "email": "anupam.rastogi@squareyards.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/anupam-rastogi-a7200848",
+     "location": "Dubai, United Arab Emirates"
+    }
+   ]
+  },
+  {
+   "brand": "Travelex",
+   "people": [
+    {
+     "name": "Timo Landman",
+     "title": "Chief Marketing Officer Europe",
+     "email": "timo.landman@travelex.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/timo-landman-a800431a",
+     "location": "Utrecht, Netherlands"
+    },
+    {
+     "name": "Natasha Jerram",
+     "title": "Head of UK Retail Marketing",
+     "email": "natasha.jerram@travelex.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/natasha-jerram-5b148129",
+     "location": "Stamford, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Traversal",
+   "people": [
+    {
+     "name": "Raj Agrawal",
+     "title": "Cofounder",
+     "email": "raj@traversal.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/raj-agrawal",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Ryan Powers",
+     "title": "Senior Vice President of Marketing",
+     "email": "powers@traversal.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/ryanpowers11",
+     "location": "United States"
+    },
+    {
+     "name": "McKenzie Anderson",
+     "title": "Head of Global Events & Field Marketing",
+     "email": "mckenzie@traversal.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/mknz-anderson",
+     "location": "Salt Lake City, United States"
+    },
+    {
+     "name": "Nick Billy",
+     "title": "Head of Growth and GTM Engineering",
+     "email": "nick@traversal.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/nickbilly",
+     "location": "New York, United States"
+    }
+   ]
+  },
+  {
+   "brand": "UVeye",
+   "people": [
+    {
+     "name": "Yaron Saghiv",
+     "title": "Chief Marketing Officer",
+     "email": "yaron.s@uveye.com"
+    },
+    {
+     "name": "Antonette Desiervo",
+     "title": "Head of Marketing & Communications",
+     "email": "antonette.d@uveye.com"
+    },
+    {
+     "name": "Hanna Marks",
+     "title": "Head of Field Marketing",
+     "email": "hanna.m@uveye.com"
+    },
+    {
+     "name": "Hila Naor",
+     "title": "Brand and Communication Manager",
+     "email": "hila.n@uveye.com"
+    }
+   ]
+  },
+  {
+   "brand": "Yondr Group",
+   "people": [
+    {
+     "name": "Aaron Wangenheim",
+     "title": "Chief Executive Officer",
+     "email": "aaron@yondrgroup.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/awangenheim",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Paul Dillon",
+     "title": "Chief Commercial Officer",
+     "email": "paul.dillon@yondrgroup.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/paul-dillon-26154229",
+     "location": "Cascais, Portugal"
+    },
+    {
+     "name": "Louise Donkor",
+     "title": "Marketing Communications Director",
+     "email": "louise.donkor@yondrgroup.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/louisedonkor",
+     "location": "London, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Kemin Industries",
+   "people": [
+    {
+     "name": "Chris Nelson",
+     "title": "President and CEO",
+     "email": "chris.nelson@kemin.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/dr-chris-nelson-391374101",
+     "location": "Des Moines, United States"
+    },
+    {
+     "name": "Karen Li",
+     "title": "Chief Marketing Officer",
+     "email": "karen.li@kemin.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/karen-li-757a3ab",
+     "location": "United States"
+    },
+    {
+     "name": "Dany Morisset",
+     "title": "Vice President Marketing",
+     "email": "dany.morisset@kemin.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/danymorisset",
+     "location": "Antwerp, Belgium"
+    },
+    {
+     "name": "Kelsie Reuter",
+     "title": "Global Marketing Director",
+     "email": "kelsie.reuter@kemin.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/kelsie-reuter",
+     "location": "Minneapolis, United States"
+    }
+   ]
+  },
+  {
+   "brand": "NetSPI",
+   "people": [
+    {
+     "name": "Aaron Shilts",
+     "title": "President and CEO",
+     "email": "aaron.shilts@netspi.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/aaronshilts",
+     "location": "United States"
+    },
+    {
+     "name": "Caroline Japic",
+     "title": "Vice President Marketing",
+     "email": "caroline.japic@netspi.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/caroline-japic-cmo",
+     "location": "Palo Alto, United States"
+    },
+    {
+     "name": "Jeremy Middleton",
+     "title": "Vice President, Growth Marketing",
+     "email": "jeremy.middleton@netspi.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/jeremy-middleton-6a183213",
+     "location": "Albuquerque, United States"
+    },
+    {
+     "name": "Ellen Wilson",
+     "title": "Senior Director, Product Marketing",
+     "email": "ellen.wilson@netspi.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/ellenwilson1",
+     "location": "Cambridge, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Amperity",
+   "people": [
+    {
+     "name": "Rob Ferguson",
+     "title": "Chief Revenue Officer",
+     "email": "rob.ferguson@amperity.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/rob-ferguson-7719b637",
+     "location": "Danville, United States"
+    },
+    {
+     "name": "Sam Malissa",
+     "title": "Head of Content",
+     "email": "sam.malissa@amperity.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sam-malissa",
+     "location": "Philadelphia, United States"
+    }
+   ]
+  }
+ ]
+}
