@@ -1,0 +1,36 @@
+{
+ "rows": [
+  {
+   "user_name": "Model ML",
+   "brand": "Model ML",
+   "people": [
+    {
+     "name": "Adam Kallaus",
+     "title": "COO",
+     "email": "adam@modelml.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/adam-kallaus-35a10336",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Natalie Lawrence",
+     "title": "Chief of Staff",
+     "email": "natalie@modelml.com",
+     "role": "vp_marketing",
+     "linkedin": "",
+     "location": "United States"
+    },
+    {
+     "name": "Raghav Sehgal",
+     "title": "General Manager, Middle East",
+     "email": "raghav@modelml.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/sehgalraghav",
+     "location": "United Kingdom"
+    }
+   ],
+   "note": "Apollo has no CEO, founder or marketing head with an email at Model ML; COO, Chief of Staff and GTM lead used. Emails verified; modelml.com accepts all addresses (catch-all), so a bounce may not show."
+  }
+ ],
+ "credits_used": 3
+}
