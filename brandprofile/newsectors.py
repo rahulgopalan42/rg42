@@ -124,6 +124,7 @@ def group_label(key):
     if key.startswith('pe_'): return 'Second pass: private-equity portfolios'
     if key.startswith('clayproof_'): return 'Second pass: found through Clay, proven from a public page'
     if key == 'manual': return 'Added on request after a check of public pages'
+    if key == 'talks_added': return 'Found during the funding-talks research; round or deal since announced, source read'
     return key
 def is_pass2(key): return key.startswith(('region_', 'confirm_', 'pe_us', 'pe_intl', 'clayproof_'))
 _n2 = os.path.join(H, 'newsec', 'notes2.json')
