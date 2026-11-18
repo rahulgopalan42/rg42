@@ -78,7 +78,7 @@ def parent_txt(x):
             l = b.f1_link(re.sub(r'\s*\(.*$', '', par))[0] or F1_EXTRA.get(re.sub(r'\s*\(.*$', '', par), '')
             f1 = str(l) if l else ''
         f1 = re.sub(r'(?i)^.*?(already known|possibly known)\s*[-:]\s*', '', f1).strip()
-        return t + ('. F1 link in the group: ' + f1.rstrip('.') if f1 else '')
+        return (t.rstrip('.') + '. F1 link in the group: ' + f1.rstrip('.')) if f1 else t
     if ol.startswith('private equity'): return 'None: owned by an investment firm (' + o.split(':', 1)[-1].strip() + ')'
     if ol.startswith(('state fund', 'state-owned', 'municipal')): return 'None: state-owned (' + o.split(':', 1)[-1].strip() + ')'
     if 'owner not stated' in ol: return 'Not stated on the pages read'

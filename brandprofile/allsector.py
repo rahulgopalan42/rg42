@@ -41,7 +41,7 @@ def parent_txt(x):
     if st == 'subsidiary':
         if not par: return 'Parent not named in the profile'
         t = par + (' (listed)' if x.get('par_listed') and 'listed' not in par.lower() else '')
-        return t + f1_txt(x['f1note'])
+        f = f1_txt(x['f1note']); return (t.rstrip('.') + f) if f else t
     if st == 'private': return ('None: owned by an investment firm' + (f' ({par})' if par else '')) if x.get('pe') else 'None (independent company)'
     if st == 'state-owned': return 'None: state-owned' + (f' ({par})' if par else '')
     if st == 'listed': return par or 'None (listed itself)'

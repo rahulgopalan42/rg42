@@ -140,7 +140,7 @@ def write(main, known, nolink, out, path):
          [f"The {sm['Unconfirmed']} unconfirmed are {kn['raise']} fundraising rounds, {kn['sale']} companies whose owners are reported to be selling the company or a stake, and {kn['team']} sports team stake sales."],
          [f"{len(added)} now qualify outright and have been added to the new-brands workbook (now v3): " + ', '.join(x['name'] for x in added) + '.'],
          ['Two more companies found during the research, whose rounds had already been announced, were added as well: Rox (USD 100M at USD 1.3B, November 2026) and Venice AI (USD 65M at USD 1B, July 2026).'],
-         ['A sale only counts if the buyer is not a listed group: under your rules a company bought by a listed group drops out. Sports teams pass on valuation, but a team sells sponsorship itself, so their relevance scores are low.'], [],
+         ['A sale changes the owner, not the result: since 18 Nov a company bought by another group stays in as a subsidiary, with its new parent named. Sports teams pass on valuation, but a team sells sponsorship itself, so their relevance scores are low.'], [],
          ('Subsidiaries and parent companies (18 Nov 2026)',),
          [f"Subsidiaries are now included, and every row has a Parent Company column. {len(subs)} companies on this list have a parent company: " + '; '.join(f"{x['name']} ({x['parent'].split('.')[0]})" for x in subs) + '.'],
          ['Isomorphic Labs was left off on 17 Nov because its parent Alphabet owns Google, a McLaren partner. It is now on the Already On Your Lists tab, with that link stated. Companies that hold an F1 deal themselves stay off.'],
