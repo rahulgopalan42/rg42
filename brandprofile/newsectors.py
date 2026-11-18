@@ -48,7 +48,7 @@ NOT_RAISE = re.compile(r'(?i)purchase of|agreed to buy|to acquire|acquires|acqui
 BUYOUT = re.compile(r'(?i)taken private|take-private|acquired by|bought by|acquisition of|buyout|sold to|agreed sale|sale by')
 REV = re.compile(r'(?i)^[^;:.]{0,45}?\b(revenues?|sales|turnover|total income|net trading income|trading income|net revenue)\b')
 # decisions made by hand after reading the lists: name -> reason it is left out
-DROP = {'Mode Transportation': 'Ownership could not be established', 'Kaspersky': 'Under United States sanctions; Ferrari paused its partnership in 2022',
+DROP = {'Dorna Sports (MotoGP)': 'Owned by Liberty Media, which owns Formula 1 itself', 'Dorna Sports': 'Owned by Liberty Media, which owns Formula 1 itself', 'Mode Transportation': 'Ownership could not be established', 'Kaspersky': 'Under United States sanctions; Ferrari paused its partnership in 2022',
         'Qatar Sports Investments': 'Investment fund, not an operating company', 'Semikron Danfoss': 'Majority-owned by Danfoss, which is on the list',
         'Diesel': 'Owned by OTB, which is on the list', 'MACIF': 'Part of Aéma Groupe, which is on the list', 'TGI Fridays': 'Filed for bankruptcy', "TGI Friday's": 'Filed for bankruptcy', 'Doğuş Group': 'The only revenue figure found is from 1999', 'Doğuş Holding': 'The only revenue figure found is from 1999',
         'Eucalyptus': 'Reported bought by Hims & Hers (listed), completed June 2026', 'Eucalyptus Health': 'Reported bought by Hims & Hers (listed), completed June 2026'}
@@ -75,7 +75,7 @@ def parent_txt(x):
         t = par + ((' (' + pl + ')' if pl.lower().startswith('listed (') else ' (listed)') if listed and 'listed' not in par.lower() else '') + (f', {stake}' if stake and stake not in par else '')
         f1 = clean(x.get('parent_f1'))
         if not f1:
-            l = b.f1_link(re.sub(r'\s*\(.*$', '', par))[0] or F1_EXTRA.get(re.sub(r'\s*\(.*$', '', par), '')
+            l = b.f1_link(re.sub(r'\s*\(.*$', '', par))[0] or F1_EXTRA.get(re.sub(r'\s*\(.*$', '', par), '') or next((t for pat, t in PARENT_F1 if pat.search(par)), '')
             f1 = str(l) if l else ''
         f1 = re.sub(r'(?i)^.*?(already known|possibly known)\s*[-:]\s*', '', f1).strip()
         return (t.rstrip('.') + '. F1 link in the group: ' + f1.rstrip('.')) if f1 else t
@@ -84,6 +84,11 @@ def parent_txt(x):
     if 'owner not stated' in ol: return 'Not stated on the pages read'
     if x['name'] in OWNER_PEOPLE: return 'None (owned by individuals, a family or a trust: see Ownership Type)'
     return 'None (independent company)'
+# research lines that share a short name with a different company on the sheet or on a stock exchange: not the same company
+NOT_SHEET = {'Bridge (stablecoin platform)', 'MHP (management and IT consultancy)', 'Empower (retirement services)', 'Also (Rivian spinout)'}
+# F1 links of a parent group that the roster match does not catch from the parent's name
+PARENT_F1 = [(re.compile(r'\bNTT\b'), 'NTT becomes a McLaren partner from 2027 (announced 4 Nov 2026)'), (re.compile(r'(?i)unilever'), 'Unilever brands Clear and Liquid I.V. are F1 partners'),
+             (re.compile(r'(?i)toyota'), 'Toyota Gazoo Racing is the Haas title partner'), (re.compile(r'(?i)liberty media'), 'Liberty Media owns Formula 1')]
 # an importer or distributor of an F1 carmaker's vehicles is not an F1 partner: kept, with the link in Verification Notes
 F1_KEEP = {'Pon Holdings B.V.'}
 # names that only look like a listed company (a listed namesake or a listed subsidiary); the company itself is unlisted
@@ -95,7 +100,8 @@ SAME = {'Roquette Frères S.A.': 'Roquette', 'Louis Dreyfus Company B.V.': 'Loui
         'Skechers': 'Skechers U.S.A.', 'Walgreens': 'Walgreens Boots Alliance', 'Fanatics Betting & Gaming': 'Fanatics',
         'Temporal': 'Temporal Technologies', 'Aman': 'Aman Resorts', 'Erebor Bank': 'Erebor', 'Jeppesen': 'Jeppesen ForeFlight', 'Envision Energy': 'Envision Group', 'Eurostar': 'Eurostar International'}
 # research lines whose short name collides with a different company on the sheet: (file, name) -> fuller name
-RENAME = {('unicorn_1', 'Branch'): 'Branch Metrics', ('unicorn_1', 'Hello (Hellobike)'): 'Hellobike', ('ai_models', 'Vinci'): 'Vinci AI'}      # Vinci AI is not the listed construction group VINCI
+RENAME = {('unicorn_1', 'Branch'): 'Branch Metrics', ('unicorn_1', 'Hello (Hellobike)'): 'Hellobike', ('ai_models', 'Vinci'): 'Vinci AI',
+          ('subs_acq_tech', 'Bridge'): 'Bridge (stablecoin platform)', ('subs_sport_subs', 'MHP'): 'MHP (management and IT consultancy)', ('subs_sport_subs', 'Empower'): 'Empower (retirement services)'}      # Vinci AI is not the listed construction group VINCI
 # research lines not used: the same company is carried from another file with firmer evidence
 SKIP_LINE = {('unicorn_1', 'Tether')}       # the unicorn list's USD 350bn is a press valuation; the crypto file's line rests on reported profit
 # cautions the researchers reported, shown in Verification Notes
@@ -157,6 +163,7 @@ def group_label(key):
     if key.startswith('pe_'): return 'Second pass: private-equity portfolios'
     if key.startswith('clayproof_'): return 'Second pass: found through Clay, proven from a public page'
     if key == 'manual': return 'Added on request after a check of public pages'
+    if key == 'found_subs_pass': return 'Found during the subsidiaries pass (18 Nov), source read'
     if key.startswith('subs_was_listed'): return 'Subsidiaries pass (18 Nov): formerly listed companies bought since Nov 2023'
     if key.startswith('subs_'): return 'Subsidiaries pass (18 Nov): ' + SUBS_LABEL.get(key[5:], key[5:])
     if key == 'talks_added': return 'Found during the funding-talks research; round or deal since announced, source read'
@@ -165,7 +172,11 @@ def is_pass2(key): return key.startswith(('region_', 'confirm_', 'pe_us', 'pe_in
 _n2 = os.path.join(H, 'newsec', 'notes2.json')
 if os.path.exists(_n2): NOTE.update(json.load(open(_n2, encoding='utf-8')))
 # lines whose evidence was judged too weak when read: shown on the Capacity To Confirm tab instead
-DEMOTE = {'Dalian Wanda Group': 'Revenue figure is from 2018, the group has been selling assets since, and part of its business is listed'}
+DEMOTE = {'Dalian Wanda Group': 'Revenue figure is from 2018, the group has been selling assets since, and part of its business is listed',
+          'Creed': 'The USD 4.6bn price found was for all of Kering Beauté, not for Creed alone; no figure for Creed itself was read',
+          'SimCorp': 'The purchase by Deutsche Börse closed in autumn 2023; whether it falls on or after 1 Nov 2023 was not shown, and no revenue figure was read',
+          'British Gas': 'Passes only on a national Olympic team partnership (Team GB), which is not a top-tier property; its own revenue was not read',
+          'Optus': 'Passes only on a national Olympic team partnership (Australian Olympic Team), which is not a top-tier property; its own revenue was not read'}
 clean = b.clean
 def tab_for(theme, key, sector, what='', grp=''):
     g = grp.lower()
@@ -231,14 +242,14 @@ def load():
             if rec['name'].startswith(nm): return leave(rec, 'Holding company whose main operating business is listed: ' + sub)
         if SUBS and rec.get('f1') and not l and rec['name'] not in F1_EXTRA and rec.get('status') == 'subsidiary' and clean(rec.get('parent')): rec['parent_f1'] = rec['f1']; rec['f1'] = ''
         if l or rec['name'] in F1_EXTRA or rec.get('f1'): return leave(rec, 'Current F1 partner or owner of one: ' + str(l or F1_EXTRA.get(rec['name']) or rec.get('f1')))
-        if k in onsheet or rec['name'] in SAME:
+        if (k in onsheet and rec['name'] not in NOT_SHEET) or rec['name'] in SAME:
             sr = sheetrow.get(b.loose(SAME[rec['name']])) if rec['name'] in SAME else sheetrow.get(k)
             if sr is not None and rec.get('web') and sr['status'] in ('listed', 'unknown', 'subsidiary') and not b.f1_link(sr['name'])[0]:
                 now_private.append([sr['name'], sr['r'].get('tab', sr['sector']), {'listed': 'Listed', 'unknown': 'Ownership not confirmed', 'subsidiary': 'Owned by another company'}[sr['status']],
                                     rec['ownership'], TEST[rec['basis']], rec['detail'], rec['source'], rec['hq'], rec['reach']])
             return leave(rec, 'Already on your sheet: ' + (SAME.get(rec['name']) or onsheet[k]), show=False)
         if rec.get('status') == 'listed': return leave(rec, 'Listed on a stock exchange')
-        if k in listed and rec['name'] not in NOT_LISTED and rec['key'] != 'pe_owned' and not rec['key'].startswith('subs_was_listed') and not (rec['key'] == 'rank' and rec.get('status') == 'private'): return leave(rec, 'Name matches a listed company: ' + rec['name'])
+        if k in listed and rec['name'] not in NOT_LISTED and rec['name'] not in NOT_SHEET and rec['key'] != 'pe_owned' and not rec['key'].startswith('subs_was_listed') and not (rec['key'] == 'rank' and rec.get('status') == 'private'): return leave(rec, 'Name matches a listed company: ' + rec['name'])
         if rec.get('status') in ('defunct', 'non-commercial'): return leave(rec, 'Closed or not a commercial company')
         if rec.get('status') == 'subsidiary':
             par = clean(rec.get('parent'))
