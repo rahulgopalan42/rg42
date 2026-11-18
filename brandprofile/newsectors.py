@@ -157,6 +157,7 @@ def group_label(key):
     if key.startswith('pe_'): return 'Second pass: private-equity portfolios'
     if key.startswith('clayproof_'): return 'Second pass: found through Clay, proven from a public page'
     if key == 'manual': return 'Added on request after a check of public pages'
+    if key.startswith('subs_was_listed'): return 'Subsidiaries pass (18 Nov): formerly listed companies bought since Nov 2023'
     if key.startswith('subs_'): return 'Subsidiaries pass (18 Nov): ' + SUBS_LABEL.get(key[5:], key[5:])
     if key == 'talks_added': return 'Found during the funding-talks research; round or deal since announced, source read'
     return key
@@ -237,7 +238,7 @@ def load():
                                     rec['ownership'], TEST[rec['basis']], rec['detail'], rec['source'], rec['hq'], rec['reach']])
             return leave(rec, 'Already on your sheet: ' + (SAME.get(rec['name']) or onsheet[k]), show=False)
         if rec.get('status') == 'listed': return leave(rec, 'Listed on a stock exchange')
-        if k in listed and rec['name'] not in NOT_LISTED and rec['key'] != 'pe_owned' and not (rec['key'] == 'rank' and rec.get('status') == 'private'): return leave(rec, 'Name matches a listed company: ' + rec['name'])
+        if k in listed and rec['name'] not in NOT_LISTED and rec['key'] != 'pe_owned' and not rec['key'].startswith('subs_was_listed') and not (rec['key'] == 'rank' and rec.get('status') == 'private'): return leave(rec, 'Name matches a listed company: ' + rec['name'])
         if rec.get('status') in ('defunct', 'non-commercial'): return leave(rec, 'Closed or not a commercial company')
         if rec.get('status') == 'subsidiary':
             par = clean(rec.get('parent'))
