@@ -48,7 +48,7 @@ NOT_RAISE = re.compile(r'(?i)purchase of|agreed to buy|to acquire|acquires|acqui
 BUYOUT = re.compile(r'(?i)taken private|take-private|acquired by|bought by|acquisition of|buyout|sold to|agreed sale|sale by')
 REV = re.compile(r'(?i)^[^;:.]{0,45}?\b(revenues?|sales|turnover|total income|net trading income|trading income|net revenue)\b')
 # decisions made by hand after reading the lists: name -> reason it is left out
-DROP = {'Dorna Sports (MotoGP)': 'Owned by Liberty Media, which owns Formula 1 itself', 'Dorna Sports': 'Owned by Liberty Media, which owns Formula 1 itself', 'Mode Transportation': 'Ownership could not be established', 'Kaspersky': 'Under United States sanctions; Ferrari paused its partnership in 2022',
+DROP = {'Juniper Networks': 'Absorbed into Hewlett Packard Enterprise (now HPE Juniper Networking): it no longer trades as its own company', 'Dorna Sports (MotoGP)': 'Owned by Liberty Media, which owns Formula 1 itself', 'Dorna Sports': 'Owned by Liberty Media, which owns Formula 1 itself', 'Mode Transportation': 'Ownership could not be established', 'Kaspersky': 'Under United States sanctions; Ferrari paused its partnership in 2022',
         'Qatar Sports Investments': 'Investment fund, not an operating company', 'Semikron Danfoss': 'Majority-owned by Danfoss, which is on the list',
         'Diesel': 'Owned by OTB, which is on the list', 'MACIF': 'Part of Aéma Groupe, which is on the list', 'TGI Fridays': 'Filed for bankruptcy', "TGI Friday's": 'Filed for bankruptcy', 'Doğuş Group': 'The only revenue figure found is from 1999', 'Doğuş Holding': 'The only revenue figure found is from 1999',
         'Eucalyptus': 'Reported bought by Hims & Hers (listed), completed June 2026', 'Eucalyptus Health': 'Reported bought by Hims & Hers (listed), completed June 2026'}
@@ -64,20 +64,38 @@ SUBS_LABEL = {'acq_tech': 'technology companies bought since Nov 2023', 'acq_con
               'funded_subs': 'subsidiaries with their own outside investors', 'brands_americas': 'subsidiaries of listed groups, North and Latin America', 'brands_europe': 'subsidiaries of listed groups, Europe',
               'brands_apac_mea': 'subsidiaries of listed groups, Asia-Pacific, Middle East and Africa', 'sport_subs': 'subsidiaries that sponsor top-tier sport', 'f1_sisters': 'sister brands of groups that have an F1 partner',
               'unlisted_groups': 'subsidiaries of unlisted, family and state groups', 'manual': 'added by hand'}
+PARENT_F1_HAND = {'Moeve': 'Carlyle, a current F1 partner, holds a minority stake', 'Group 1001': 'its parent TWG Global owns TWG Motorsports, which is behind the Cadillac F1 team'}
+def f1_clean(t):
+    """what the lookup tool printed about the parent, in plain words"""
+    t = re.sub(r'(?i)^.*?(already known|possibly known)\s*[-:]\s*', '', t).strip(); t = re.sub(r'\s*\(not flagged by on_sheet\.py\)', '', t); t = re.sub(r'\s+as\s+[A-Z][\w&. \'-]*$', '', t)
+    t = t.replace(' - parent / owner', '')
+    m = re.match(r'(?i)^owner of a current F1 partner\s*\((.*)\)$', t)
+    if m: return 'the parent owns an F1 partner or team (' + m.group(1) + ')'
+    m = re.match(r'(?i)^current F1 partner or owner of one\s*\((.*)\)$', t)
+    if m: return 'the parent is, or owns, an F1 partner (' + m.group(1) + ')'
+    m = re.match(r'(?i)^current F1 partner\s*(?:\((.*)\))?$', t)
+    if m: return 'the parent is a current F1 partner' + (' (' + m.group(1) + ')' if m.group(1) else '')
+    m = re.match(r'^([^()]+?) - (.+)$', t)
+    if m: return 'the parent is a current F1 partner (' + m.group(2) + ')' if m.group(1) else t
+    return t
 def parent_txt(x):
     """the Parent Company column for a new brand"""
     par = clean(x.get('parent')) or PARENT_HAND.get(x['name'], ''); o = x['ownership']; ol = o.lower()
+    if x.get('pe_parent'): return 'None: owned by an investment firm (' + x['pe_parent'] + ')'
     if not par and x['name'] not in OWNER_PEOPLE and re.match(r'(?i)private:\s*\S', o):
         par = re.sub(r'(?i)^private:\s*(majority-owned by|subsidiary of|owned by)?\s*', '', o).strip()
     if par:
-        pl = clean(x.get('parent_listed')); stake = clean(x.get('parent_stake'))
+        pl = PARENT_LISTED_FIX.get(x['name'], clean(x.get('parent_listed'))); stake = clean(x.get('parent_stake'))
         listed = pl.lower().startswith('listed') or (not pl and any(k in getattr(load, 'listed', ()) for k in a.par_keys(par)))
-        t = par + ((' (' + pl + ')' if pl.lower().startswith('listed (') else ' (listed)') if listed and 'listed' not in par.lower() else '') + (f', {stake}' if stake and stake not in par else '')
-        f1 = clean(x.get('parent_f1'))
+        ex = re.match(r'(?i)listed\s*\(([A-Za-z0-9 /&.]{2,22}:\s*[^();]{1,40}(?:;\s*[A-Za-z0-9 ]{2,12}:\s*[^();]{1,20})?)\)', pl)
+        t = par + ((' (listed, ' + ex.group(1).strip() + ')' if ex else ' (listed)') if listed and 'listed' not in par.lower() else '') + (f', {stake}' if stake and stake not in par and len(stake) <= 30 else '')
+        f1 = PARENT_F1_HAND.get(x['name']) or next((t for pat, t in PARENT_F1 if pat.search(par)), '') or f1_clean(clean(x.get('parent_f1')))
         if not f1:
-            l = b.f1_link(re.sub(r'\s*\(.*$', '', par))[0] or F1_EXTRA.get(re.sub(r'\s*\(.*$', '', par), '') or next((t for pat, t in PARENT_F1 if pat.search(par)), '')
-            f1 = str(l) if l else ''
-        f1 = re.sub(r'(?i)^.*?(already known|possibly known)\s*[-:]\s*', '', f1).strip()
+            l = b.f1_link(re.sub(r'\s*\(.*$', '', par))[0] or F1_EXTRA.get(re.sub(r'\s*\(.*$', '', par), '')
+            f1 = f1_clean(str(l)) if l else ''
+        if not f1:
+            m = re.search(r'(?i)(whose|which also owns)\s+([^;]*?F1 partner[^;,)]*)', o)
+            f1 = ('the parent ' + ('also owns ' + re.sub(r'(?i)^F1 partner\s+', '', m.group(2)) + ', an F1 partner' if m.group(1).lower().startswith('which') else 'has a brand that is an F1 partner (' + re.sub(r'(?i)\s*(brand)?\s*is an F1 partner.*$', '', m.group(2)).strip() + ')')) if m else ''
         return (t.rstrip('.') + '. F1 link in the group: ' + f1.rstrip('.')) if f1 else t
     if ol.startswith('private equity'): return 'None: owned by an investment firm (' + o.split(':', 1)[-1].strip() + ')'
     if ol.startswith(('state fund', 'state-owned', 'municipal')): return 'None: state-owned (' + o.split(':', 1)[-1].strip() + ')'
@@ -88,7 +106,13 @@ def parent_txt(x):
 NOT_SHEET = {'Bridge (stablecoin platform)', 'MHP (management and IT consultancy)', 'Empower (retirement services)', 'Also (Rivian spinout)'}
 # F1 links of a parent group that the roster match does not catch from the parent's name
 PARENT_F1 = [(re.compile(r'\bNTT\b'), 'NTT becomes a McLaren partner from 2027 (announced 4 Nov 2026)'), (re.compile(r'(?i)unilever'), 'Unilever brands Clear and Liquid I.V. are F1 partners'),
-             (re.compile(r'(?i)toyota'), 'Toyota Gazoo Racing is the Haas title partner'), (re.compile(r'(?i)liberty media'), 'Liberty Media owns Formula 1')]
+             (re.compile(r'(?i)toyota'), 'Toyota Gazoo Racing is the Haas title partner'), (re.compile(r'(?i)liberty media'), 'Liberty Media owns Formula 1'),
+             (re.compile(r'(?i)\btata (sons|group)\b'), 'Tata Communications is a Formula 1 partner'), (re.compile(r'(?i)\bSHV\b'), 'SHV also owns Mammoet, an F1 partner'),
+             (re.compile(r"(?i)l'occitane"), "L'Occitane also owns ELEMIS, an F1 partner"), (re.compile(r'(?i)carlyle'), 'Carlyle is an F1 partner')]
+PARENT_F1 += a.F1_PARENT_EXTRA
+# a "parent" that is an investment firm: the company is privately held, not a subsidiary of an operating group
+PE_PARENT = re.compile(r'(?i)\b(STG|Symphony Technology|GTCR|Ascendent Capital|Japan Investment Corporation|Bridgepoint|Advent International|Blackstone|Hg|TA Associates|Bain Capital|KKR|CVC|Permira|EQT|Clayton|Cinven|PAI Partners|Ardian|Partners Group|Warburg Pincus|TPG|Silver Lake|Thoma Bravo|Vista Equity|Francisco Partners|Insight Partners|General Atlantic|Stonepeak|Apollo Sports Capital|Clearlake|Veritas Capital|Platinum Equity|Sycamore|Leonard Green|Hellman & Friedman|L Catterton|3G Capital)\b')
+PARENT_LISTED_FIX = {'Sol de Janeiro': 'not listed'}
 # an importer or distributor of an F1 carmaker's vehicles is not an F1 partner: kept, with the link in Verification Notes
 F1_KEEP = {'Pon Holdings B.V.'}
 # names that only look like a listed company (a listed namesake or a listed subsidiary); the company itself is unlisted
@@ -139,7 +163,7 @@ HQ_KNOWN = {'Axi': 'Sydney, Australia', 'Peregrine Technologies': 'San Francisco
             'Hotwire Communications': 'Fort Lauderdale, United States'}
 HQ_NONE = {'DLA Piper', 'Dentons', 'Norton Rose Fulbright'}      # international law firms whose pages state no single headquarters
 # the same company under two names
-ALIAS = {'Merkur Group': 'Gauselmann Group (Merkur)', 'Massachusetts Mutual Life Insurance Company (MassMutual)': 'MassMutual', 'Koninklijke Jumbo Food Groep (Jumbo)': 'Jumbo', 'Dirk Rossmann GmbH': 'Rossmann', "Raising Cane's Chicken Fingers": "Raising Cane's", 'Young Living Essential Oils': 'Young Living', 'M.A. Mortenson Companies, Inc.': 'Mortenson', 'Robert Bosch GmbH': 'Bosch', 'Dr. August Oetker KG': 'Dr. Oetker', 'SPAR Österreich': 'SPAR Holding AG', 'Coop Danmark': 'Coop amba', 'Eti': 'Eti Gıda',
+ALIAS = {'Atlético Madrid': 'Atlético de Madrid', 'Swiss International Air Lines': 'SWISS', 'Tata AIG': 'Tata AIG General Insurance', 'Tata AIA Life': 'Tata AIA Life Insurance', 'CJ Olive Young': 'Olive Young', 'Merkur Group': 'Gauselmann Group (Merkur)', 'Massachusetts Mutual Life Insurance Company (MassMutual)': 'MassMutual', 'Koninklijke Jumbo Food Groep (Jumbo)': 'Jumbo', 'Dirk Rossmann GmbH': 'Rossmann', "Raising Cane's Chicken Fingers": "Raising Cane's", 'Young Living Essential Oils': 'Young Living', 'M.A. Mortenson Companies, Inc.': 'Mortenson', 'Robert Bosch GmbH': 'Bosch', 'Dr. August Oetker KG': 'Dr. Oetker', 'SPAR Österreich': 'SPAR Holding AG', 'Coop Danmark': 'Coop amba', 'Eti': 'Eti Gıda',
          'Veronesi Holding S.p.A.': 'Gruppo Veronesi', 'PHW Group (Lohmann & Co. AG)': 'PHW-Gruppe (Wiesenhof)', 'Panera Bread': 'Panera Brands', 'Chiesi Group': 'Chiesi Farmaceutici', 'Foodstuffs North Island': 'Foodstuffs', 'Kedrion Biopharma': 'Kedrion', 'Kempinski Hotels': 'Kempinski',
          'Laboratoires Pierre Fabre': 'Pierre Fabre', 'C.H. Boehringer Sohn AG & Co. KG (Boehringer Ingelheim)': 'Boehringer Ingelheim', 'Eurostars Hotel Company (Grupo Hotusa)': 'Hotusa',
          'Grupo Hotusa (Eurostars Hotel Company)': 'Hotusa', 'DVAG (Deutsche Vermögensberatung)': 'DVAG', 'Deutsche Vermögensberatung (DVAG)': 'DVAG', 'Mills Fleet Farm': 'Fleet Farm', 'GALLO (E&J Gallo Winery)': 'E. & J. Gallo Winery', 'E&J Gallo Winery': 'E. & J. Gallo Winery', 'Jumbo Supermarkten': 'Jumbo', 'Eurostars/Grupo Hotusa': 'Hotusa', 'Grupo Hotusa': 'Hotusa', 'Eurostars Hotel Company': 'Hotusa'}
@@ -175,6 +199,8 @@ if os.path.exists(_n2): NOTE.update(json.load(open(_n2, encoding='utf-8')))
 DEMOTE = {'Dalian Wanda Group': 'Revenue figure is from 2018, the group has been selling assets since, and part of its business is listed',
           'Creed': 'The USD 4.6bn price found was for all of Kering Beauté, not for Creed alone; no figure for Creed itself was read',
           'SimCorp': 'The purchase by Deutsche Börse closed in autumn 2023; whether it falls on or after 1 Nov 2023 was not shown, and no revenue figure was read',
+          'Airtel Money': 'One researcher found that it listed on a stock exchange in October 2026; its listing status needs checking',
+          'Shanghai Mahexin Technology': 'The valuation comes from a news-flash page and depends on an option being exercised; the English name of the company is uncertain',
           'British Gas': 'Passes only on a national Olympic team partnership (Team GB), which is not a top-tier property; its own revenue was not read',
           'Optus': 'Passes only on a national Olympic team partnership (Australian Olympic Team), which is not a top-tier property; its own revenue was not read'}
 clean = b.clean
@@ -207,7 +233,7 @@ def load():
         for k in (b.loose(x['name']), b.loose(x['r']['brand'])):
             onsheet.setdefault(k, x['name']); sheetrow.setdefault(k, x)
     for d in A['f1x']: onsheet.setdefault(b.loose(d['name']), d['name'])
-    out = []; left = []; drop = Counter(); seen = {}; now_private = []
+    out = []; left = []; drop = Counter(); seen = {}; now_private = []; now_owned = {}
     for k0 in list(onsheet):
         kf = b.loose(fold(onsheet[k0]))
         if kf and kf not in onsheet: onsheet[kf] = onsheet[k0]; sheetrow.setdefault(kf, sheetrow.get(k0))
@@ -244,9 +270,11 @@ def load():
         if l or rec['name'] in F1_EXTRA or rec.get('f1'): return leave(rec, 'Current F1 partner or owner of one: ' + str(l or F1_EXTRA.get(rec['name']) or rec.get('f1')))
         if (k in onsheet and rec['name'] not in NOT_SHEET) or rec['name'] in SAME:
             sr = sheetrow.get(b.loose(SAME[rec['name']])) if rec['name'] in SAME else sheetrow.get(k)
-            if sr is not None and rec.get('web') and sr['status'] in ('listed', 'unknown', 'subsidiary') and not b.f1_link(sr['name'])[0]:
-                now_private.append([sr['name'], sr['r'].get('tab', sr['sector']), {'listed': 'Listed', 'unknown': 'Ownership not confirmed', 'subsidiary': 'Owned by another company'}[sr['status']],
+            if sr is not None and rec.get('web') and (sr.get('was') or sr['status']) in ('listed', 'unknown', 'subsidiary') and not b.f1_link(sr['name'])[0]:
+                now_private.append([sr['name'], sr['r'].get('tab', sr['sector']), {'listed': 'Listed', 'unknown': 'Ownership not confirmed', 'subsidiary': 'Owned by another company'}[sr.get('was') or sr['status']],
                                     rec['ownership'], TEST[rec['basis']], rec['detail'], rec['source'], rec['hq'], rec['reach']])
+                if rec['key'].startswith('subs_') and (sr.get('was') or sr['status']) == 'listed':       # listed on the sheet, since bought: recorded so the sheet-wide workbook can treat it as a subsidiary
+                    now_owned[sr['r']['id']] = {'name': sr['name'], 'parent': clean(rec.get('parent')), 'pe': clean(rec.get('pe_parent')), 'detail': rec['detail'], 'source': rec['source']}
             return leave(rec, 'Already on your sheet: ' + (SAME.get(rec['name']) or onsheet[k]), show=False)
         if rec.get('status') == 'listed': return leave(rec, 'Listed on a stock exchange')
         if k in listed and rec['name'] not in NOT_LISTED and rec['name'] not in NOT_SHEET and rec['key'] != 'pe_owned' and not rec['key'].startswith('subs_was_listed') and not (rec['key'] == 'rank' and rec.get('status') == 'private'): return leave(rec, 'Name matches a listed company: ' + rec['name'])
@@ -298,7 +326,11 @@ def load():
                         'reach_basis': 'web', 'markets': clean(d.get('markets')), 'signals': d.get('signals') if isinstance(d.get('signals'), dict) else {}, 'rationale': clean(d.get('rationale')),
                         'rel': d.get('rel') if d.get('rel') in (1, 2, 3, 4, 5) else 2, 'conf': clean(d.get('conf')).lower() or 'medium', 'status': 'subsidiary' if SUBS and clean(d.get('parent')) else 'private',
                         'parent': clean(d.get('parent')) if SUBS else '', 'parent_listed': clean(d.get('parent_listed')), 'parent_stake': clean(d.get('parent_stake')), 'parent_f1': clean(d.get('parent_f1')), 'changed': '',
+                        'pe_parent': '',
                         'stage': 'pre-revenue' if clean(d.get('stage')).lower().startswith('pre') else 'commercial', 'f1': '', 'f1note': '', 'web': True})
+            if rec['parent'] and PE_PARENT.search(rec['parent']) and rec['name'] not in ('Bridge Investment Group',):      # owned by an investment firm: privately held, no parent company
+                rec['pe_parent'] = rec['parent']; rec['parent'] = ''; rec['status'] = 'private'
+                if rec['ownership'].lower().startswith('subsidiary of'): rec['ownership'] = 'private equity: ' + rec['pe_parent']
             add(rec)
     stale = []
     for x in list(out):
@@ -307,6 +339,8 @@ def load():
         if x['web'] and x['basis'] == 'b' and ym and int(ym.group(0)) < 2016:        # a revenue figure more than ten years old is not proof of capacity today
             stale.append(x); out.remove(x); drop['Only revenue figure found is more than ten years old (moved to Capacity To Confirm)'] += 1
     load.stale = stale
+    np_ = os.path.join(H, 'newsec', 'now_owned.json'); old = json.load(open(np_, encoding='utf-8')) if os.path.exists(np_) else {}
+    if SUBS and now_owned and now_owned != old: json.dump(now_owned, open(np_, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
     for x in out:
         sg = x['signals'] = dict(x['signals'] or {})
         if x['web'] and x['basis'] in ('a', 'c') and x['key'] != 'pe_owned' and not clean(sg.get('raise')) and RAISED.search(x['detail']) and RECENT.search(x['detail']) and not BUYOUT.search(x['detail']):
@@ -423,7 +457,7 @@ def check(L, left, drop, onsheet):
     bad = []
     names = Counter(core(x['name']) for x in L)
     bad += [('twice', x['name']) for x in L if names[core(x['name'])] > 1]
-    bad += [('on sheet', x['name']) for x in L if b.loose(x['name']) in onsheet]
+    bad += [('on sheet', x['name']) for x in L if b.loose(x['name']) in onsheet and x['name'] not in NOT_SHEET]
     bad += [('F1', x['name']) for x in L if b.f1_link(x['name'])[0]]
     bad += [('no source', x['name']) for x in L if not x['source']]
     bad += [('tab', x['name']) for x in L if x['tab'] not in b.FIT and x['tab'] not in [n for n, _, _ in NEW]]

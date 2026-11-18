@@ -27,6 +27,12 @@ def par_keys(par):
     base = re.sub(r'\s*\([^)]*\)', '', par); ins = re.findall(r'\(([^)]*)\)', par)
     out = [base] + [q for i in ins for q in re.split(r',|;|/| and | via | with ', i)]
     return [k for k in (b.loose(re.sub(r'(?i)^(owned by|majority owner|majority|part of|via|a unit of|subsidiary of)\s+', '', o.strip())) for o in out) if k]
+# F1 partners and team owners added to the roster in Nov 2026 that the name matcher does not hold: used to flag their subsidiaries
+_P = ['Adobe', 'SharkNinja', 'Logitech', 'Wynn Resorts', 'Caesars Entertainment', 'Bradesco', 'Stratasys', 'AbbVie', 'Arctic Wolf', 'Revolut', 'BWT']
+F1_PARENT_EXTRA = [(re.compile(r'\b' + re.escape(n) + r'\b'), n + ' is a current F1 partner') for n in _P] + [
+    (re.compile(r'\bIntel\b'), 'Intel is a current F1 partner'), (re.compile(r'\bRakuten\b'), 'Rakuten becomes a Ferrari partner from 2027'), (re.compile(r'(?i)mercado ?libre'), 'Mercado Libre is a current F1 partner'),
+    (re.compile(r'(?i)daimler truck'), 'Daimler Truck (Mercedes-Benz Trucks) is a current F1 partner'), (re.compile(r'(?i)\bhonda\b'), 'Honda supplies the Aston Martin power unit'),
+    (re.compile(r'(?i)mercedes-benz group'), 'Mercedes-Benz owns an F1 team'), (re.compile(r'(?i)^ferrari\b'), 'Ferrari is an F1 team')]
 def f1_txt(note):
     """the F1 link of a subsidiary's group, in plain words"""
     if not note.startswith(b.F1_SUB): return ''
@@ -41,7 +47,14 @@ def parent_txt(x):
     if st == 'subsidiary':
         if not par: return 'Parent not named in the profile'
         t = par + (' (listed)' if x.get('par_listed') and 'listed' not in par.lower() else '')
-        f = f1_txt(x['f1note']); return (t.rstrip('.') + f) if f else t
+        f = f1_txt(x['f1note'])
+        if not f and x.get('now'):
+            l = b.f1_link(re.sub(r'\s*\(.*$', '', par))[0]
+            f = ('. F1 partner in the group: ' + re.sub(r'^([^()]+?) - (.+)$', r'\1 (\2)', l.replace(' - parent / owner', ''))) if l else ''
+        if not f:
+            e_ = next((t for pat, t in F1_PARENT_EXTRA if pat.search(par)), '')
+            f = '. F1 link in the group: ' + e_ if e_ else ''
+        return (t.rstrip('.') + f) if f else t
     if st == 'private': return ('None: owned by an investment firm' + (f' ({par})' if par else '')) if x.get('pe') else 'None (independent company)'
     if st == 'state-owned': return 'None: state-owned' + (f' ({par})' if par else '')
     if st == 'listed': return par or 'None (listed itself)'
@@ -56,7 +69,11 @@ def load():
             try: d = json.loads(l); W[d['id']] = d
             except Exception: pass
     out = []
+    npath = os.path.join(H, 'newsec', 'now_owned.json'); NOW = json.load(open(npath, encoding='utf-8')) if SUBS and os.path.exists(npath) else {}
     for x in rows:
+        nw = NOW.get(x['r']['id'])
+        if nw and x['status'] == 'listed':          # listed on the sheet, since bought (subsidiaries research of 18 Nov 2026): now a subsidiary, or privately held under an investment firm
+            x['was'] = 'listed'; x['status'] = 'subsidiary' if nw['parent'] else 'private'; x['parent'] = nw['parent'] or nw['pe']; x['now'] = nw
         st = x['status']; par = b.clean(x['parent']); pk = b.loose(re.sub(r'\s*\([^)]*\)', '', par)) if par else ''
         if st in ('listed', 'non-commercial', 'defunct') or x['stage'] not in ('commercial', 'pre-revenue'): continue
         x['par_listed'] = bool(par) and any(k in listed for k in par_keys(par))
@@ -64,14 +81,15 @@ def load():
         w = W.get(x['r']['id']); rid = x['r']['id']
         if rid in DROP: x['dropped'] = DROP[rid]; continue
         if w and w.get('listed_or_acquired') and rid not in KEEP: x['dropped'] = w['listed_or_acquired']; continue                                              # the web check found it is now listed or owned by a listed group
-        pe = any('(investment firm)' in t for _, t in x['notes']) or rid in KEEP
+        pe = any('(investment firm)' in t for _, t in x['notes']) or rid in KEEP or bool(x.get('now') and x['now']['pe'])
         x['pe'] = pe
         x['own'] = ('Private, owned by an investment firm' if pe else 'Private') if st == 'private' else 'State-owned' if st == 'state-owned' else \
                    ((f"Subsidiary of {par}" + (' (a listed company)' if x['par_listed'] else '')) if par else 'Subsidiary: parent not named') if st == 'subsidiary' else 'Ownership not confirmed'
         x['core'] = st in ('private', 'state-owned') or (SUBS and st == 'subsidiary' and bool(par))
-        x['cap_pass'] = x['amt'] >= BAR
+        x['cap_pass'] = x['amt'] >= BAR or bool(x.get('now'))
         x['basis'] = (f"Total funding raised {x['fund_txt']} (Crunchbase, recorded Oct-Nov 2026; includes debt where Crunchbase counts it)" if x['cap_pass'] else
                       'Not established: recorded funding is below USD 150M or unreadable' + ('' if not x['fund_txt'] else f" ({x['fund_txt']})"))
+        if x.get('now'): x['basis'] = 'Bought for USD 1B or more since Nov 2023: ' + x['now']['detail'] + ' (' + x['now']['source'] + ')'
         last = b.pb.dt(x['date'].isoformat()) if x['date'] else ''
         S = {}
         S['raise'] = ('Confirmed', f'Last funding round {last} (Crunchbase record)') if x['age'] is not None and x['age'] <= 12 else ('Not met', f'Last funding round {last} (Crunchbase record)') if last else ('Not yet checked', '')
@@ -107,6 +125,7 @@ def cells(x):
     c = b.cells(x)
     notes = [t for _, t in x['notes'] if not t.startswith('Investment category not assigned')]
     if x['stage'] == 'pre-revenue': notes.insert(0, 'Pre-revenue: no sales yet, so any sponsorship would be paid from funding')
+    if x.get('now'): notes.insert(0, 'Was listed when the sheet was profiled and has since been bought: the financial figures shown are its last as a listed company'); c[6] = 'Not listed: owned by ' + x['parent'] + ' (was listed)'; c[8] = 'Not applicable (no longer listed)'
     if not x['core']: notes.insert(0, 'Ownership to confirm before outreach: ' + x['own'])
     if x['status'] == 'subsidiary' and x['cap_pass']: notes.insert(0, 'Subsidiary: the funding shown is the company\'s own record and may date from before its parent bought it')
     c[2] = 'Qualifies' if x['cap_pass'] else 'To Verify'; c[3] = x['rank']; c[19] = 'Plausible Capacity' if x['cap_pass'] else 'Not Established'
