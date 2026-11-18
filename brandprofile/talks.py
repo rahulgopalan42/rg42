@@ -4,8 +4,8 @@ Leads only: every line rests on a press report, not on a company announcement. S
 import glob, json, os, re, sys
 from collections import Counter
 H = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, H)
-import bp_build as b, newsectors as ns
-OUT = os.path.join(b.R, 'reports', 'F1-FUNDING-TALKS-WATCH-LIST-2026-11-17.xlsx')
+import bp_build as b, newsectors as ns, allsector as a
+OUT = os.path.join(b.R, 'reports', 'F1-FUNDING-TALKS-WATCH-LIST-v2-2026-11-18.xlsx')
 STATUS = {'unconfirmed': 'Unconfirmed', 'since confirmed': 'Since confirmed', 'denied or fell through': 'Denied or fell through'}
 RORD = {'Global': 0, 'International': 1, 'Regional': 2, 'Domestic': 3}
 # read by hand: name -> reason it is left off the watch list
@@ -24,9 +24,23 @@ BORDER = {'Dose': 'reported as "close to" USD 1B, so it may fall just short', 'T
 # since-confirmed lines that still do not meet a line
 NOT_YET = {'Adyar Ananda Bhavan (A2B)': 'No: USD 180M for a majority stake at about USD 350M, below the valuation line; the split between new and existing shares was not disclosed, so money raised is not shown'}
 GENERIC = ('https://www.axios.com/pro/climate-deals',)
+# who owns the company, as the report read states it (18 Nov 2026: every row names the parent company, or says there is none)
+PARENT = {'Parfums de Marly': 'None: owned by an investment firm (Advent)', 'Arthea (formerly PDC Brands)': 'None: owned by an investment firm (CVC funds)', 'LaserAway': 'None: backed by an investment firm (Ares)',
+          'Rawlings Sporting Goods': 'None: owned by an investment firm (Seidler Equity, 75%)', 'True Religion': 'None: owned by an investment firm (ACON)',
+          'Cloudnine Hospitals (Kids Clinic India)': 'None: founders and investment firms (Permira buying 25.71% from True North)', 'Liverpool FC': 'Fenway Sports Group', 'Everton FC': 'The Friedkin Group',
+          'New York Yankees (Yankee Global Enterprises)': 'None (the Steinbrenner family controls Yankee Global Enterprises)', 'Las Vegas Raiders': 'None (controlled by Mark Davis)', 'Cleveland Browns': 'None (Haslam family)',
+          'Atlanta Falcons': 'None (owner Arthur Blank)', 'Adyar Ananda Bhavan (A2B)': 'None: investment firm Bodhi Tree Systems agreed to buy a majority (Nov 2026)', 'Destinus': 'None (independent company)',
+          'Orbicular Pharmaceutical Technologies': 'None: backed by an investment firm (Tata Capital Healthcare Fund)', 'AIG Hospitals': 'None (founder-controlled)'}
+def parent_of(d, nm, kind, sr, hv):
+    if clean(d.get('parent')): return clean(d.get('parent'))
+    if nm in PARENT: return PARENT[nm]
+    if hv is not None: return ns.parent_txt(hv)
+    if sr is not None: return a.parent_txt(sr)
+    return 'None (independent company)' if kind == 'raise' else 'Not stated in the report'
 clean = b.clean
 def num(v): return v if isinstance(v, (int, float)) and not isinstance(v, bool) else None
-def known_label(d, nm, k, sheetname):
+def known_label(d, nm, k, sheetname, sr=None):
+    if sr is not None: return 'On your sheet' + (' as ' + sheetname if sheetname and b.loose(sheetname) != b.loose(nm) else '') + ' (' + clean(sr['r'].get('sector') or sr['sector']) + ')'
     sec = re.search(r'on the sheet \((.+?)(?:, (?:private|listed|unknown|subsidiary|state[^)]*))?\)', k[1]) if k else None
     if sheetname or (k and 'on the sheet' in k[1]):
         return 'On your sheet' + (' as ' + sheetname if sheetname and b.loose(sheetname) != b.loose(nm) else '') + (' (' + sec.group(1) + ')' if sec else '')
@@ -63,14 +77,15 @@ def load():
             where = added = ''
             if ck in have and have[ck]['key'] == 'talks_added': added = have[ck]['tab']
             elif ck in have: where = 'In the new-brands workbook (' + have[ck]['tab'] + ')'
-            elif sheetname or isknown: where = known_label(d, nm, k, sheetname)
-            kind = 'team' if nm in TEAM else 'sale' if nm in SALE else 'raise'
+            sr = None if nm in NOT_SAME else ns.load.sheetrow.get(b.loose(nm)) or ns.load.sheetrow.get(b.loose(ns.fold(nm)))
+            if ck not in have and (sheetname or isknown): where = known_label(d, nm, k, sheetname, sr)
+            kind = clean(d.get('kind')) if clean(d.get('kind')) in KIND else 'team' if nm in TEAM else 'sale' if nm in SALE else 'raise'
             rec = {'name': nm, 'hq': ns.hq_fix(d.get('hq')), 'sector': d.get('sector') if d.get('sector') in b.FIT else '', 'theme': clean(d.get('theme')), 'desc': clean(d.get('desc')),
                    'reach': clean(d.get('reach')).title() if clean(d.get('reach')).title() in RORD else '', 'markets': clean(d.get('markets')), 'talks': clean(d.get('talks')),
                    'round': num(d.get('talks_usd_m')), 'val': num(d.get('talks_valuation_usd_m')), 'date': clean(d.get('talks_date')), 'outlet': clean(d.get('talks_outlet')), 'url': url,
                    'raised': clean(d.get('raised_so_far')), 'raised_m': num(d.get('raised_usd_m')), 'pass': clean(d.get('would_pass')), 'status': st, 'sdetail': clean(d.get('status_detail')),
                    'surl': surl, 'rationale': clean(d.get('rationale')), 'rel': d.get('rel') if d.get('rel') in (1, 2, 3, 4, 5) else 2, 'conf': clean(d.get('conf')).lower() or 'medium', 'where': where,
-                   'added': added, 'kind': kind}
+                   'added': added, 'kind': kind, 'parent': parent_of(d, nm, kind, sr if where.startswith('On your') else None, have.get(ck))}
             if not linked:
                 if not any(x['name'] == nm for x in nolink): nolink.append(rec)
                 continue
@@ -92,23 +107,23 @@ def load():
     main.sort(key=key); known.sort(key=lambda x: ({'Unconfirmed': 0, 'Since confirmed': 1, 'Denied or fell through': 2}[x['status']], -(x['val'] or 0), -(x['round'] or 0), x['name'].lower()))
     nolink.sort(key=lambda x: x['name'].lower())
     return main, known, nolink, out
-COLS = ['Company Name', 'Headquarters – City and country', 'Type of Talks', 'Status of the Talks', 'What Was Reported', 'Reported Round (USD)', 'Reported Valuation (USD)', 'Report Date', 'Reported By', 'Report Link',
+COLS = ['Company Name', 'Headquarters – City and country', 'Parent Company', 'Type of Talks', 'Status of the Talks', 'What Was Reported', 'Reported Round (USD)', 'Reported Valuation (USD)', 'Report Date', 'Reported By', 'Report Link',
         'Raised So Far (from pages read)', 'Line It Would Cross', 'Qualifies Now?', 'What Has Happened Since', 'Follow-up Link', 'Company Description', 'Sector', 'Category Tab (New Brands Workbook)', 'Geographic Reach',
         'Main Customer Markets', 'F1 Sponsorship Rationale', 'Relevance to F1 (1-5)', 'Confidence in the Report']
-WIDTH = [30, 26, 22, 16, 60, 16, 16, 12, 22, 44, 44, 30, 40, 50, 40, 46, 26, 28, 14, 40, 46, 10, 12]
+WIDTH = [30, 26, 34, 22, 16, 60, 16, 16, 12, 22, 44, 44, 30, 40, 50, 40, 46, 26, 28, 14, 40, 46, 10, 12]
 def usd(v): return v * 1e6 if v else 'Not reported'
 def since(x): return x['sdetail'] or ('No announcement found as of 17 Nov 2026' if x['status'] == 'Unconfirmed' else '')
 def cells(x):
-    return [x['name'], x['hq'], KIND[x['kind']], x['status'], x['talks'], usd(x['round']), usd(x['val']), x['date'], x['outlet'], x['url'] or 'Not captured (see follow-up link)',
+    return [x['name'], x['hq'], x['parent'], KIND[x['kind']], x['status'], x['talks'], usd(x['round']), usd(x['val']), x['date'], x['outlet'], x['url'] or 'Not captured (see follow-up link)',
             x['raised'] or 'Not found', x['lines'], x['now'], since(x), x['surl'], x['desc'], x['sector'], x['tab'], x['reach'], x['markets'], x['rationale'], x['rel'], x['conf'].title()]
-KCOLS = ['Company Name', 'Where It Is On Your Lists', 'Status of the Talks', 'What Was Reported', 'Reported Round (USD)', 'Reported Valuation (USD)', 'Report Date', 'Reported By', 'Report Link',
+KCOLS = ['Company Name', 'Where It Is On Your Lists', 'Parent Company', 'Status of the Talks', 'What Was Reported', 'Reported Round (USD)', 'Reported Valuation (USD)', 'Report Date', 'Reported By', 'Report Link',
          'What Has Happened Since', 'Follow-up Link']
-KWIDTH = [30, 44, 16, 64, 16, 16, 12, 24, 46, 54, 44]
+KWIDTH = [30, 44, 36, 16, 64, 16, 16, 12, 24, 46, 54, 44]
 def kcells(x):
-    return [x['name'], x['where'], x['status'], x['talks'], usd(x['round']), usd(x['val']), x['date'], x['outlet'], x['url'] or 'Not captured (see follow-up link)', since(x), x['surl']]
-NCOLS = ['Company Name', 'On Your Lists?', 'Status (as noted by the researcher)', 'What Was Reported', 'Reported Round (USD)', 'Reported Valuation (USD)', 'Report Date', 'Reported By', 'Researcher Note']
-NWIDTH = [30, 44, 18, 64, 16, 16, 12, 26, 60]
-def ncells(x): return [x['name'], x['where'] or 'No', x['status'], x['talks'], usd(x['round']), usd(x['val']), x['date'], x['outlet'], x['sdetail']]
+    return [x['name'], x['where'], x['parent'], x['status'], x['talks'], usd(x['round']), usd(x['val']), x['date'], x['outlet'], x['url'] or 'Not captured (see follow-up link)', since(x), x['surl']]
+NCOLS = ['Company Name', 'On Your Lists?', 'Parent Company', 'Status (as noted by the researcher)', 'What Was Reported', 'Reported Round (USD)', 'Reported Valuation (USD)', 'Report Date', 'Reported By', 'Researcher Note']
+NWIDTH = [30, 44, 36, 18, 64, 16, 16, 12, 26, 60]
+def ncells(x): return [x['name'], x['where'] or 'No', x['parent'], x['status'], x['talks'], usd(x['round']), usd(x['val']), x['date'], x['outlet'], x['sdetail']]
 def write(main, known, nolink, out, path):
     import write_xlsx as wx
     from openpyxl import Workbook
@@ -117,14 +132,19 @@ def write(main, known, nolink, out, path):
     un = [x for x in main if x['status'] == 'Unconfirmed']; cf = [x for x in main if x['status'] == 'Since confirmed']
     kn = Counter(x['kind'] for x in un); added = [x for x in main if x['added']]
     ctry = Counter(x['hq'].split(',')[-1].strip() for x in main if x['hq'] != 'Not recorded'); tabs = Counter(x['tab'] or 'Not classified' for x in main)
-    S = [('Funding talks watch list (17 Nov 2026)',),
+    subs = [x for x in main + known if not x['parent'].startswith(('None', 'Not stated', 'Not confirmed', 'Parent not named'))]
+    S = [('Funding talks watch list (research of 17 Nov 2026; subsidiaries included and parent companies named on 18 Nov 2026)',),
          ['Unlisted companies that the press has reported, since 1 May 2026, to be in talks to raise money or to be sold, where the deal would take them over one of your two lines: USD 150M raised in total, or a USD 1B valuation.'],
          ['These are leads, not qualified brands. Each line rests on a press report citing unnamed sources or otherwise not confirmed by the company. The outlet, date and link are given so the report can be read.'], [],
          ('Companies not on your lists',), [f"{len(main)} in total: {sm['Unconfirmed']} still unconfirmed and {sm['Since confirmed']} where the deal has since been announced."],
          [f"The {sm['Unconfirmed']} unconfirmed are {kn['raise']} fundraising rounds, {kn['sale']} companies whose owners are reported to be selling the company or a stake, and {kn['team']} sports team stake sales."],
-         [f"{len(added)} now qualify outright and have been added to the new-brands workbook (v2, now 1,675 brands): " + ', '.join(x['name'] for x in added) + '.'],
+         [f"{len(added)} now qualify outright and have been added to the new-brands workbook (now v3): " + ', '.join(x['name'] for x in added) + '.'],
          ['Two more companies found during the research, whose rounds had already been announced, were added as well: Rox (USD 100M at USD 1.3B, November 2026) and Venice AI (USD 65M at USD 1B, July 2026).'],
          ['A sale only counts if the buyer is not a listed group: under your rules a company bought by a listed group drops out. Sports teams pass on valuation, but a team sells sponsorship itself, so their relevance scores are low.'], [],
+         ('Subsidiaries and parent companies (18 Nov 2026)',),
+         [f"Subsidiaries are now included, and every row has a Parent Company column. {len(subs)} companies on this list have a parent company: " + '; '.join(f"{x['name']} ({x['parent'].split('.')[0]})" for x in subs) + '.'],
+         ['Isomorphic Labs was left off on 17 Nov because its parent Alphabet owns Google, a McLaren partner. It is now on the Already On Your Lists tab, with that link stated. Companies that hold an F1 deal themselves stay off.'],
+         ['For independent companies the column reads "None"; where the report names an investment firm or a family as owner, it says so.'], [],
          ('Companies already on your sheet or in the new-brands workbook',), [f"{len(known)} have a new round or sale reported ({sk['Unconfirmed']} unconfirmed, {sk['Since confirmed']} since announced). For these the talks are a buying signal and a timing cue, not a reason to add them."], [],
          ('Reported, but no link captured',), [f"{len(nolink)} more reports were seen only as a search summary or headline, so there is no link to read. They are listed on their own tab with the outlet and date, and should be looked up before use."], [],
          ('Not-on-your-lists companies by category',), ['; '.join(f'{k} {v}' for k, v in tabs.most_common()) + '.'], [],
@@ -141,6 +161,7 @@ def write(main, known, nolink, out, path):
     wx.sheet(wb, 'Already On Your Lists', KCOLS, KWIDTH, [kcells(x) for x in known])
     wx.sheet(wb, 'No Link Captured', NCOLS, NWIDTH, [ncells(x) for x in nolink])
     K = [('What this is', 'A watch list of companies that do not yet qualify (or are not on your lists) but would if a reported funding round or sale goes ahead. Nothing here is confirmed unless the Status column says so.'),
+         ('Parent Company', 'The company that owns it, where there is one, with any F1 link in that group. "None" = independent, or owned by an investment firm, a family or individuals (named where the report names them). "Not stated in the report" = the report read does not say who owns it.'),
          ('Type of Talks', 'Fundraising round = the company is raising new money. Owner selling the company or a stake = existing owners are reported to be exploring a sale; no new money may go in, so it can only pass on valuation. Sports team stake sale = a minority stake in a club or franchise.'),
          ('Status of the Talks', 'Unconfirmed = no announcement found by 17 Nov 2026. Since confirmed = the round or sale has been announced (details and link in the next columns). Denied or fell through = the company denied it or a later report says the talks ended.'),
          ('Reported Round / Reported Valuation', 'As the outlet reported them, in US dollars. "Not reported" where the report gave no figure.'),

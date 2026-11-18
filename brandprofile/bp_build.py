@@ -99,6 +99,10 @@ RSTEP = ['Domestic', 'Regional', 'International', 'Global']
 JOINT = re.compile(r'co-?owned|co-?owner|jointly owned|part-owned|joint[- ]venture|\bJV\b|minority|\bstake\b|shareholder|consortium|sister|group link|group company|same group', re.I)
 OWNED = re.compile(r'subsidiar|majority|owned by|controlled by|parent|owner of|\bowns\b|brand of|division of|part of|acquired by', re.I)
 SOFT = re.compile(r'licen[cs]|franchis|distribut|bottl|dealer|supplier|supplies|possible|unconfirmed|reported|announced|planned|pending|former|until 20|ended|not confirmed|no direct|not a sponsor|not a partner|tie-in|rights holder|broadcast', re.I)
+# rule change of 18 Nov 2026: a subsidiary whose parent or sister brand is an F1 partner stays in (with a note) when a builder sets SUBS_IN
+SUBS_IN = False
+F1_SELF = {'Alpine', 'McLaren Racing', 'Gulf Oil Lubricants India'}      # subsidiaries that carry the F1 name themselves: always out
+F1_SUB = 'Its parent or a sister brand is a current F1 partner: '
 def f1_decide(text):
     """the profile's F1 note -> exclude (the brand, its owner or its subsidiary is a current partner) or a note for a looser link"""
     if JOINT.search(text) or (SOFT.search(text) and not OWNED.search(text)) or re.search(r'possible|unconfirmed|former|ended', text, re.I):
@@ -185,15 +189,17 @@ def assemble():
         if not hq or hq.lower() in ('unknown', 'n/a', 'not known', 'none'): hq = clean(r['country']) or 'Not recorded'
         ticker_txt = clean(e.get('ticker')); parent = clean(e.get('parent')); changed = clean(e.get('changed'))
         # ---- F1 exclusion
-        link = ''
-        for nm in {name, r['brand']} | ({parent} if parent and status == 'subsidiary' else set()):
+        link = ''; route = ''
+        for nm in [name, r['brand']] + ([parent] if parent and status == 'subsidiary' else []):      # the brand's own names first, then its owner
             l, _ = f1_link(nm)
-            if l: link = l + (f' (owner: {parent})' if nm == parent else ''); break
+            if l: link = l + (f' (owner: {parent})' if nm == parent and nm not in (name, r['brand']) else ''); route = 'parent' if nm == parent and nm not in (name, r['brand']) else 'own'; break
         f1txt = clean(e.get('f1')); f1note = ''
-        if rv and r['id'] in rv.F1: dec = rv.F1[r['id']]
+        if rv and r['id'] in rv.F1: dec = rv.F1[r['id']]; route = 'hand'
         elif link: dec = ('exclude', link)
-        elif f1txt and f1txt.lower() not in ('none', 'no', 'n/a', '-'): dec = f1_decide(f1txt)
+        elif f1txt and f1txt.lower() not in ('none', 'no', 'n/a', '-'): dec = f1_decide(f1txt); route = 'profile'
         else: dec = ('clear', '')
+        f1route = (route, status, parent)
+        if SUBS_IN and dec[0] == 'exclude' and status == 'subsidiary' and route in ('parent', 'profile', 'hand') and name not in F1_SELF: dec = ('note', F1_SUB + dec[1])
         pe = status == 'subsidiary' and bool(PE.search(parent))     # owned by an investment firm: a private company, not a subsidiary of an operating group
         if pe: status = 'private'
         # ---- listed brand: find it in the listed-company data
@@ -218,7 +224,7 @@ def assemble():
         if sym and dec[0] != 'exclude':
             if sym in prev.ROSTER_EXTRA: dec = ('exclude', prev.ROSTER_EXTRA[sym])
             elif prev.F1.get(sym, ('',))[0] == 'exclude': dec = ('exclude', prev.F1[sym][1])
-        if dec[0] == 'exclude': f1x.append({'r': r, 'name': name, 'why': dec[1], 'sector': sector}); stat['current F1 partner, or parent / subsidiary of one'] += 1; continue
+        if dec[0] == 'exclude': f1x.append({'r': r, 'name': name, 'why': dec[1], 'sector': sector, 'route': f1route[0] if 'sym' not in dir() or dec[1] in (link, f1txt) or route == 'hand' else 'listed', 'status': f1route[1], 'parent': f1route[2]}); stat['current F1 partner, or parent / subsidiary of one'] += 1; continue
         if dec[0] == 'note': f1note = dec[1]
         # ---- financial capacity
         amt, fund_txt, exact = funding(r); d = last_round(r); age = ((TODAY.year - d.year) * 12 + TODAY.month - d.month) if d else None

@@ -59,17 +59,25 @@ def summary(A, rows, L, core, other):
     S = lambda k, v: sum(1 for x in core if x['S'][k][0] == v)
     import allsector
     ins = {id(x) for x in L}; oc = Counter(allsector.reason_out(x, None).split(' ')[0] for x in rows if id(x) not in ins)
-    out = [('Non-listed prospects across all sectors - parameter check of every brand on your sheet (16 Nov 2026)',),
+    SUBS = allsector.SUBS; subs = [x for x in L if x['status'] == 'subsidiary']; f1s = [x for x in subs if x['f1note'].startswith(allsector.b.F1_SUB)]
+    out = [('Non-listed prospects across all sectors - parameter check of every brand on your sheet (' + ('18 Nov 2026, subsidiaries included' if SUBS else '16 Nov 2026') + ')',),
            [f"Sheet: F1-SCREEN-RECORDINGS-ALL-BRANDS-RANKED-2026-11-02-2 (unchanged since 15 Nov). {n:,} brands on 48 sector tabs, each checked against the parameter set agreed on 16 Nov 2026."], [],
            ('Parameters 1 and 2: who is in scope',),
            [f"{len(L):,} brands are operating companies not listed on a stock exchange: {sum(1 for x in L if x['status'] == 'private'):,} private, {sum(1 for x in L if x['status'] == 'state-owned')} state-owned, "
-            f"{sum(1 for x in L if x['status'] == 'subsidiary')} owned by a parent that is not a listed company in my data, {sum(1 for x in L if x['status'] == 'unknown'):,} whose ownership is not confirmed."],
-           [f"Out of scope ({sum(oc.values()) + len(A['f1x']):,}): {oc['Listed']:,} listed; {oc['Owned']:,} owned by a listed group; {oc['Closed']} closed or absorbed; {oc['Investment'] + oc['Single-project']} funds and single-project vehicles; "
+            + (f"{len(subs):,} subsidiaries of another company ({sum(1 for x in subs if x.get('par_listed')):,} of them with a parent I can match to a listed company), " if SUBS else f"{len(subs)} owned by a parent that is not a listed company in my data, ")
+            + f"{sum(1 for x in L if x['status'] == 'unknown'):,} whose ownership is not confirmed."],
+           [f"Out of scope ({sum(oc.values()) + len(A['f1x']):,}): {oc['Listed']:,} listed; " + ('' if SUBS else f"{oc['Owned']:,} owned by a listed group; ") + f"{oc['Closed']} closed or absorbed; {oc['Investment'] + oc['Single-project']} funds and single-project vehicles; "
             f"{oc['Public']} public bodies and non-profits; {len(A['f1x'])} current F1 partners or their owners"
             + (f"; {oc['Now']} found by the web check to be listed or publicly traded ({', '.join(x['name'] for x in dropped)})." if dropped else '.')],
-           ['The "All Brands - Parameters" tab lists every brand with the parameters it meets and, where it is out of scope, the reason.'], [],
+           ['The "All Brands - Parameters" tab lists every brand with the parameters it meets and, where it is out of scope, the reason.'], []] + ([
+           ('Rule change of 18 Nov 2026: subsidiaries are included',),
+           [f"Subsidiaries used to be out of scope when the parent was a listed group or an F1 partner. They are now in, and every row has a Parent Company column. {len(subs):,} subsidiaries are in scope; "
+            f"{sum(1 for x in subs if x['cap_pass'] and x['core']):,} of them pass parameter 3 on their own recorded funding."],
+           [f"{len(f1s)} of the subsidiaries have a parent or sister brand that is a current F1 partner (for example {', '.join(x['name'] for x in sorted(f1s, key=lambda x: -x['amt'])[:8])}). They are included, and the Parent Company column states the F1 link so a category conflict can be checked."],
+           ['Still out: the brand that holds an F1 deal itself, the owners of F1 partners and teams, and companies with their own share listing.'],
+           ['For independent companies the Parent Company column reads "None"; where an investment firm or a state owns the company it says so.'], []] if SUBS else []) + [
            ('Parameter 3: can it pay',),
-           [f"{len(core):,} private and state-owned companies pass on funding: USD 150M or more raised in total, any date. {sum(1 for x in core if x['stage'] == 'pre-revenue')} of them have no revenue yet and are labelled Pre-revenue."],
+           [f"{len(core):,} private, state-owned and subsidiary companies pass on funding: USD 150M or more raised in total, any date. {sum(1 for x in core if x['stage'] == 'pre-revenue')} of them have no revenue yet and are labelled Pre-revenue."],
            ['The figure is the Crunchbase total, which includes debt where Crunchbase counts it. Equity-only figures, published revenue, valuations and existing sponsorships have not been collected for these brands yet.'], [],
            ('Parameter 4: reason to buy now',),
            [f"Raised money in the past 12 months: {S('raise', 'Confirmed'):,} confirmed from the Crunchbase round date."],
@@ -89,7 +97,7 @@ def summary(A, rows, L, core, other):
            ['"Lead only" means the earlier profile mentions it but no public source was checked. It does not count towards the result.']]
     return out
 KEY = [('Parameter 1: scope', 'Any operating company, any country, not listed on a stock exchange. All 48 sector tabs of your sheet are covered.'),
-       ('Parameter 2: removed', 'Current F1 championship, team or Grand Prix partners and their owners; investment funds; single-project vehicles; closed companies; companies owned by a listed group. Companies with no revenue yet stay in, labelled Pre-revenue.'),
+       ('Parameter 2: removed', 'Current F1 championship, team or Grand Prix partners and their owners; investment funds; single-project vehicles; closed companies; companies with their own share listing. Subsidiaries are in scope since 18 Nov 2026, including those whose parent or sister brand is an F1 partner (flagged in the Parent Company column). Companies with no revenue yet stay in, labelled Pre-revenue.'),
        ('Parameter 3: can it pay', 'Any one of: equity raised of USD 150M or more in total (any date); published revenue of USD 300M or more; valued at or bought for USD 1B or more in the past three years; already pays for a top-tier sports sponsorship; owned by a state fund building the brand internationally. In this workbook the brands from your sheet are tested on the first (Crunchbase total funding); the Beyond Your Sheet tab is tested on the second.'),
        ('Parameter 4: reason to buy now', 'Raised money in the past 12 months; preparing an IPO; opening in new regions; marketing activity (five or more open marketing roles of any kind, a marketing role in a country where it has no office, a new marketing chief, or a rebrand).'),
        ('Signal status', 'Confirmed = a source states it (the source and date are in the cell). Lead only = mentioned in the earlier profile, not checked. Not yet checked = not looked up. Checked: nothing found = looked up on the web on 16 Nov 2026 with no result. Not met = the Crunchbase round date is older than 12 months.'),
@@ -97,6 +105,7 @@ KEY = [('Parameter 1: scope', 'Any operating company, any country, not listed on
        ('Outreach Priority', 'High = passes parameter 3 and has two or more confirmed reasons. Medium = one confirmed reason. To Verify = no reason confirmed yet, or capacity not shown.'),
        ('F1 Investment Category', '"Qualifies" = passes parameter 3. "To Verify" = not shown.'),
        ('Fit Score (0-100)', 'Sector fit (25%), relevance of the company to F1 (50%) and reach (25%). Used only to order brands inside the same priority.'),
-       ('Ownership Type', 'Private; private and owned by an investment firm; state-owned; owned by a parent that is not a listed company in my data; ownership not confirmed.'),
+       ('Ownership Type', 'Private; private and owned by an investment firm; state-owned; subsidiary of a named parent; ownership not confirmed.'),
+       ('Parent Company', 'For a subsidiary: the parent as named in the profile, "(listed)" where I can match it to a listed company, and the F1 link where the parent or a sister brand is a current F1 partner. "None" for an independent company. A subsidiary passes parameter 3 only on its own recorded funding, not on its parent\'s size.'),
        ('Theme', 'A cross-sector tag (for example quantum computing, robotics, AI infrastructure), assigned automatically from the company\'s industry label.'),
        ('Other columns', 'As in the earlier brand workbook: headquarters, description, sector, markets, rationale, sources, verification notes, profile confidence, your x mark, and the brand name and tab as on your sheet.')]

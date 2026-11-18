@@ -7,7 +7,8 @@ import glob, html, json, os, re, sys
 from collections import Counter, defaultdict
 H = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, H)
 import bp_build as b, expand_screen as e
-OUT = os.path.join(b.R, 'reports', 'F1-NON-LISTED-PROSPECTS-ALL-SECTORS-2026-11-16.xlsx')
+SUBS = True      # rule change of 18 Nov 2026: subsidiaries are in scope and every row names its parent company
+OUT = os.path.join(b.R, 'reports', 'F1-NON-LISTED-PROSPECTS-ALL-SECTORS-v2-2026-11-18.xlsx' if SUBS else 'F1-NON-LISTED-PROSPECTS-ALL-SECTORS-2026-11-16.xlsx')
 BAR = 150e6; RORD = {'Global': 0, 'International': 1, 'Regional': 2, 'Domestic': 3}
 IPO = re.compile(r'\bIPO\b|initial public offering|plans? to (list|go public)|preparing to (list|go public)|stock market listing|public listing|filed (confidentially )?(for|to) (an? )?(IPO|listing|list|go public)', re.I)
 NEG = re.compile(r'\bno (verified|known|confirmed|international)|not confirmed|unverified|unconfirmed|presumed|not detailed|not known', re.I)
@@ -21,7 +22,32 @@ SIG_FIX = {'09-0055': {'ipo': 'none'},        # Beast Industries: only a remark 
 KEEP = {'08-0035': 'Owned by Blackstone funds since 2021 (an investment firm)'}      # QTS: investment-firm ownership, not a listed operating group
 DROP = {'32-0060': 'Shares trade publicly over the counter in the United States (LKNCY)'}   # Luckin Coffee
 def sentences(t): return [s.strip() for s in re.split(r'(?<=[.;])\s+', t or '') if s.strip()]
+def par_keys(par):
+    """names to test against the listed universe: the parent as written, and any names in brackets after it"""
+    base = re.sub(r'\s*\([^)]*\)', '', par); ins = re.findall(r'\(([^)]*)\)', par)
+    out = [base] + [q for i in ins for q in re.split(r',|;|/| and | via | with ', i)]
+    return [k for k in (b.loose(re.sub(r'(?i)^(owned by|majority owner|majority|part of|via|a unit of|subsidiary of)\s+', '', o.strip())) for o in out) if k]
+def f1_txt(note):
+    """the F1 link of a subsidiary's group, in plain words"""
+    if not note.startswith(b.F1_SUB): return ''
+    t = note[len(b.F1_SUB):].rstrip('.')
+    if '(owner:' not in t: return '. F1 link: ' + t
+    t = re.sub(r'\s*\(owner: .*\)$', '', t).replace(' - parent / owner', '')
+    m = re.match(r'^([^()]+?) - (.+)$', t)
+    return '. F1 partner in the group: ' + (f'{m.group(1)} ({m.group(2)})' if m else t)
+def parent_txt(x):
+    """the Parent Company column"""
+    st = x['status']; par = b.clean(x['parent'])
+    if st == 'subsidiary':
+        if not par: return 'Parent not named in the profile'
+        t = par + (' (listed)' if x.get('par_listed') and 'listed' not in par.lower() else '')
+        return t + f1_txt(x['f1note'])
+    if st == 'private': return ('None: owned by an investment firm' + (f' ({par})' if par else '')) if x.get('pe') else 'None (independent company)'
+    if st == 'state-owned': return 'None: state-owned' + (f' ({par})' if par else '')
+    if st == 'listed': return par or 'None (listed itself)'
+    return par or 'Not confirmed'
 def load():
+    b.SUBS_IN = SUBS
     A, rows = e.load()
     PA = b.pb.assemble(); listed = {b.loose(html.unescape(c['name'])) for c in PA['U'].values()} | {b.loose(x['name']) for x in rows if x['status'] == 'listed'}
     W = {}
@@ -33,13 +59,16 @@ def load():
     for x in rows:
         st = x['status']; par = b.clean(x['parent']); pk = b.loose(re.sub(r'\s*\([^)]*\)', '', par)) if par else ''
         if st in ('listed', 'non-commercial', 'defunct') or x['stage'] not in ('commercial', 'pre-revenue'): continue
-        if st == 'subsidiary' and (not par or pk in listed or any(pk and (pk.startswith(n) or n.startswith(pk)) for n in () )): continue      # owned by a listed group (or owner not named): out of scope
+        x['par_listed'] = bool(par) and any(k in listed for k in par_keys(par))
+        if st == 'subsidiary' and not SUBS and (not par or pk in listed): continue      # old rule: owned by a listed group (or owner not named) was out of scope
         w = W.get(x['r']['id']); rid = x['r']['id']
         if rid in DROP: x['dropped'] = DROP[rid]; continue
         if w and w.get('listed_or_acquired') and rid not in KEEP: x['dropped'] = w['listed_or_acquired']; continue                                              # the web check found it is now listed or owned by a listed group
         pe = any('(investment firm)' in t for _, t in x['notes']) or rid in KEEP
-        x['own'] = ('Private, owned by an investment firm' if pe else 'Private') if st == 'private' else 'State-owned' if st == 'state-owned' else f'Owned by {par} (not a listed company in my data)' if st == 'subsidiary' else 'Ownership not confirmed'
-        x['core'] = st in ('private', 'state-owned')
+        x['pe'] = pe
+        x['own'] = ('Private, owned by an investment firm' if pe else 'Private') if st == 'private' else 'State-owned' if st == 'state-owned' else \
+                   ((f"Subsidiary of {par}" + (' (a listed company)' if x['par_listed'] else '')) if par else 'Subsidiary: parent not named') if st == 'subsidiary' else 'Ownership not confirmed'
+        x['core'] = st in ('private', 'state-owned') or (SUBS and st == 'subsidiary' and bool(par))
         x['cap_pass'] = x['amt'] >= BAR
         x['basis'] = (f"Total funding raised {x['fund_txt']} (Crunchbase, recorded Oct-Nov 2026; includes debt where Crunchbase counts it)" if x['cap_pass'] else
                       'Not established: recorded funding is below USD 150M or unreadable' + ('' if not x['fund_txt'] else f" ({x['fund_txt']})"))
@@ -71,6 +100,7 @@ EXTRA = ['Theme', 'Ownership Type', 'Stage', 'Parameter 3: Capacity Basis', 'Par
 COLS = [c if c != 'Priority Score (0-100)' else 'Fit Score (0-100)' for c in b.COLS] + EXTRA
 WIDTH = b.WIDTH + [28, 24, 12, 44, 34, 34, 40, 40, 11, 16]
 SIG = ('raise', 'ipo', 'regions', 'marketing')
+COLS2 = COLS[:28] + ['Parent Company'] + COLS[28:]; WIDTH2 = WIDTH[:28] + [36] + WIDTH[28:]
 def sig(x, k): return x['S'][k][0] + (': ' + x['S'][k][1] if x['S'][k][1] else '')
 def fit(x): return round(0.25 * b.FIT[x['sector']] * 10 + 0.50 * b.REL[x['rel']] + 0.25 * b.REACH[x['reach']], 1)
 def cells(x):
@@ -78,9 +108,12 @@ def cells(x):
     notes = [t for _, t in x['notes'] if not t.startswith('Investment category not assigned')]
     if x['stage'] == 'pre-revenue': notes.insert(0, 'Pre-revenue: no sales yet, so any sponsorship would be paid from funding')
     if not x['core']: notes.insert(0, 'Ownership to confirm before outreach: ' + x['own'])
+    if x['status'] == 'subsidiary' and x['cap_pass']: notes.insert(0, 'Subsidiary: the funding shown is the company\'s own record and may date from before its parent bought it')
     c[2] = 'Qualifies' if x['cap_pass'] else 'To Verify'; c[3] = x['rank']; c[19] = 'Plausible Capacity' if x['cap_pass'] else 'Not Established'
     c[20] = '; '.join(notes) or 'None flagged'; c[21] = fit(x)
-    return c + [x['theme'], x['own'], 'Pre-revenue' if x['stage'] == 'pre-revenue' else 'Selling', x['basis']] + [sig(x, k) for k in SIG] + [x['nconf'], x['expanding']]
+    return c + [x['theme'], x['own'], 'Pre-revenue' if x['stage'] == 'pre-revenue' else 'Selling', x['basis']] + [sig(x, k) for k in SIG] + [x['nconf'], x['expanding'], parent_txt(x)]
+PAT = 28      # the Parent Company column sits after Ownership Type in the workbook
+def cells2(x): c = cells(x); return c[:PAT] + [c[-1]] + c[PAT:-1]
 def reason_out(x, listed):
     st = x['status']; par = b.clean(x['parent']); pk = b.loose(re.sub(r'\s*\([^)]*\)', '', par)) if par else ''
     if x.get('dropped'): return 'Now listed or owned by a listed group (web check, 16 Nov 2026): ' + x['dropped']
@@ -97,14 +130,14 @@ def all_rows(A, rows, L):
     for x in rows:
         r = x['r']
         if id(x) in inscope:
-            out.append((order[r['id']], [r['brand'], x['name'], r['sector'], x['hq'], x['own'], 'Yes' if x['core'] else 'Yes, if ownership is confirmed', '', 'Yes' if x['cap_pass'] else 'Not shown', x['basis']] +
+            out.append((order[r['id']], [r['brand'], x['name'], r['sector'], x['hq'], x['own'], parent_txt(x), 'Yes' if x['core'] else 'Yes, if ownership is confirmed', '', 'Yes' if x['cap_pass'] else 'Not shown', x['basis']] +
                         [sig(x, k) for k in SIG] + [x['nconf'], x['reach'], x['expanding'], x['rank']]))
         else:
-            out.append((order[r['id']], [r['brand'], x['name'], r['sector'], x['hq'], x['status'].capitalize(), 'No', reason_out(x, listed)] + ['Not assessed (out of scope)'] * 2 + [''] * 4 + ['', x['reach'], '', 'Out of scope']))
+            out.append((order[r['id']], [r['brand'], x['name'], r['sector'], x['hq'], x['status'].capitalize(), parent_txt(x), 'No', reason_out(x, listed)] + ['Not assessed (out of scope)'] * 2 + [''] * 4 + ['', x['reach'], '', 'Out of scope']))
     for d in A['f1x']:
-        r = d['r']; out.append((order[r['id']], [r['brand'], d['name'], r['sector'], '', 'Current F1 partner', 'No', 'Current F1 partner, or owned by one: ' + d['why']] + ['Not assessed (out of scope)'] * 2 + [''] * 4 + ['', '', '', 'Out of scope']))
+        r = d['r']; out.append((order[r['id']], [r['brand'], d['name'], r['sector'], '', 'Current F1 partner', d.get('parent') or '', 'No', ('Current F1 partner, or the owner of one: ' if SUBS else 'Current F1 partner, or owned by one: ') + d['why']] + ['Not assessed (out of scope)'] * 2 + [''] * 4 + ['', '', '', 'Out of scope']))
     return [v for _, v in sorted(out, key=lambda t: t[0])]
-ALLCOLS = ['Brand (as on your sheet)', 'Company Name', 'Tab in Your Sheet', 'Headquarters', 'Ownership / Status', 'Parameters 1-2: In Scope?', 'Why Not (if out of scope)', 'Parameter 3: Can It Pay?', 'Capacity Basis',
+ALLCOLS = ['Brand (as on your sheet)', 'Company Name', 'Tab in Your Sheet', 'Headquarters', 'Ownership / Status', 'Parent Company', 'Parameters 1-2: In Scope?', 'Why Not (if out of scope)', 'Parameter 3: Can It Pay?', 'Capacity Basis',
            'Parameter 4a: Raised Money in Past 12 Months', 'Parameter 4b: Preparing an IPO', 'Parameter 4c: Opening in New Regions', 'Parameter 4d: Marketing Activity', 'Confirmed Reasons (0-4)',
            'Parameter 5: Reach', 'Expanding?', 'Result']
 def write(A, rows, L, path):
@@ -129,9 +162,9 @@ def write(A, rows, L, path):
                 out.append(x)
             ws.append(out)
     core = [x for x in L if x['core'] and x['cap_pass']]; other = [x for x in L if not (x['core'] and x['cap_pass'])]
-    data = {id(x): cells(x) for x in L}
+    data = {id(x): cells2(x) for x in L}; COLS = COLS2; WIDTH = WIDTH2
     wx.text_sheet(wb, 'Summary', N.summary(A, rows, L, core, other), widths=(150,))
-    grid('All Brands - Parameters', ALLCOLS, (30, 30, 26, 24, 26, 14, 40, 12, 44, 30, 30, 34, 34, 10, 13, 14, 12), all_rows(A, rows, L))
+    grid('All Brands - Parameters', ALLCOLS, (30, 30, 26, 24, 26, 34, 14, 40, 12, 44, 30, 30, 34, 34, 10, 13, 14, 12), all_rows(A, rows, L))
     wx.sheet(wb, 'Prospects - All Sectors', COLS, WIDTH, [data[id(x)] for x in core])
     wx.sheet(wb, 'High and Medium', COLS, WIDTH, [data[id(x)] for x in core if x['rank'] in ('High', 'Medium') and x['reach'] != 'Domestic'])
     tabs = []

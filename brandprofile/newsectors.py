@@ -8,7 +8,8 @@ import glob, html, json, os, re, sys
 from collections import Counter
 H = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, H)
 import bp_build as b, allsector as a, allsector_notes as AN
-OUT = os.path.join(b.R, 'reports', 'F1-NEW-BRANDS-BY-CATEGORY-v2-2026-11-16.xlsx')
+SUBS = a.SUBS      # rule change of 18 Nov 2026: subsidiaries are in scope and every row names its parent company
+OUT = os.path.join(b.R, 'reports', 'F1-NEW-BRANDS-BY-CATEGORY-v3-2026-11-18.xlsx' if SUBS else 'F1-NEW-BRANDS-BY-CATEGORY-v2-2026-11-16.xlsx')
 RORD = a.RORD
 # how each research group is described in the "How Found" column
 GROUPS = {'rank': 'Public revenue rankings of unlisted companies', 'brokers': 'Web research: brokers and trading platforms', 'crypto': 'Web research: crypto and prediction markets',
@@ -51,6 +52,38 @@ DROP = {'Mode Transportation': 'Ownership could not be established', 'Kaspersky'
         'Qatar Sports Investments': 'Investment fund, not an operating company', 'Semikron Danfoss': 'Majority-owned by Danfoss, which is on the list',
         'Diesel': 'Owned by OTB, which is on the list', 'MACIF': 'Part of Aéma Groupe, which is on the list', 'TGI Fridays': 'Filed for bankruptcy', "TGI Friday's": 'Filed for bankruptcy', 'Doğuş Group': 'The only revenue figure found is from 1999', 'Doğuş Holding': 'The only revenue figure found is from 1999',
         'Eucalyptus': 'Reported bought by Hims & Hers (listed), completed June 2026', 'Eucalyptus Health': 'Reported bought by Hims & Hers (listed), completed June 2026'}
+# left out earlier only because another company owns them: back in under the subsidiaries rule, name -> parent
+SUB_BACK = {'Semikron Danfoss': 'Danfoss', 'Diesel': 'OTB', 'MACIF': 'Aéma Groupe', 'Eucalyptus': 'Hims & Hers Health (listed)', 'Eucalyptus Health': 'Hims & Hers Health (listed)'}
+# "private: ..." ownership lines that name people, families, trusts or lenders, not a parent company
+OWNER_PEOPLE = {'New York Yankees (Yankee Global Enterprises)', 'Bose', 'Edrington', 'Savino Del Bene', 'Mitel', 'Kempinski Hotels', 'BMC Otomotiv', 'Smoothie King', 'Las Vegas Raiders', 'Kolkata Knight Riders (Knight Riders Group)',
+                'ABANCA', 'Thalia', 'Agrofert', 'Rajasthan Royals', 'Banco Comafi', 'Rural King', 'Indigo Books & Music', 'Atlanta Falcons', 'Cleveland Browns', 'Punjab Kings', 'Kutxabank',
+                'Cloudnine Hospitals (Kids Clinic India)', 'Guardian Media Group', 'Black Red White', 'Togg'}
+PARENT_HAND = {'Guess': 'Authentic Brands Group (51% of the brand rights, with the Marciano founders)', 'Liverpool FC': 'Fenway Sports Group', 'Wayne-Sanderson Farms': 'Joint venture of Cargill and Continental Grain',
+               'ebm-papst': 'Madison Air (purchase agreed Aug 2026)', 'Gulf States Toyota, Inc.': 'The Friedkin Group'}
+SUBS_LABEL = {'acq_tech': 'technology companies bought since Nov 2023', 'acq_consumer': 'consumer and media companies bought since Nov 2023', 'acq_other': 'finance, health, industrial and energy companies bought since Nov 2023',
+              'funded_subs': 'subsidiaries with their own outside investors', 'brands_americas': 'subsidiaries of listed groups, North and Latin America', 'brands_europe': 'subsidiaries of listed groups, Europe',
+              'brands_apac_mea': 'subsidiaries of listed groups, Asia-Pacific, Middle East and Africa', 'sport_subs': 'subsidiaries that sponsor top-tier sport', 'f1_sisters': 'sister brands of groups that have an F1 partner',
+              'unlisted_groups': 'subsidiaries of unlisted, family and state groups', 'manual': 'added by hand'}
+def parent_txt(x):
+    """the Parent Company column for a new brand"""
+    par = clean(x.get('parent')) or PARENT_HAND.get(x['name'], ''); o = x['ownership']; ol = o.lower()
+    if not par and x['name'] not in OWNER_PEOPLE and re.match(r'(?i)private:\s*\S', o):
+        par = re.sub(r'(?i)^private:\s*(majority-owned by|subsidiary of|owned by)?\s*', '', o).strip()
+    if par:
+        pl = clean(x.get('parent_listed')); stake = clean(x.get('parent_stake'))
+        listed = pl.lower().startswith('listed') or (not pl and any(k in getattr(load, 'listed', ()) for k in a.par_keys(par)))
+        t = par + ((' (' + pl + ')' if pl.lower().startswith('listed (') else ' (listed)') if listed and 'listed' not in par.lower() else '') + (f', {stake}' if stake and stake not in par else '')
+        f1 = clean(x.get('parent_f1'))
+        if not f1:
+            l = b.f1_link(re.sub(r'\s*\(.*$', '', par))[0] or F1_EXTRA.get(re.sub(r'\s*\(.*$', '', par), '')
+            f1 = str(l) if l else ''
+        f1 = re.sub(r'(?i)^.*?(already known|possibly known)\s*[-:]\s*', '', f1).strip()
+        return t + ('. F1 link in the group: ' + f1.rstrip('.') if f1 else '')
+    if ol.startswith('private equity'): return 'None: owned by an investment firm (' + o.split(':', 1)[-1].strip() + ')'
+    if ol.startswith(('state fund', 'state-owned', 'municipal')): return 'None: state-owned (' + o.split(':', 1)[-1].strip() + ')'
+    if 'owner not stated' in ol: return 'Not stated on the pages read'
+    if x['name'] in OWNER_PEOPLE: return 'None (owned by individuals, a family or a trust: see Ownership Type)'
+    return 'None (independent company)'
 # an importer or distributor of an F1 carmaker's vehicles is not an F1 partner: kept, with the link in Verification Notes
 F1_KEEP = {'Pon Holdings B.V.'}
 # names that only look like a listed company (a listed namesake or a listed subsidiary); the company itself is unlisted
@@ -124,6 +157,7 @@ def group_label(key):
     if key.startswith('pe_'): return 'Second pass: private-equity portfolios'
     if key.startswith('clayproof_'): return 'Second pass: found through Clay, proven from a public page'
     if key == 'manual': return 'Added on request after a check of public pages'
+    if key.startswith('subs_'): return 'Subsidiaries pass (18 Nov): ' + SUBS_LABEL.get(key[5:], key[5:])
     if key == 'talks_added': return 'Found during the funding-talks research; round or deal since announced, source read'
     return key
 def is_pass2(key): return key.startswith(('region_', 'confirm_', 'pe_us', 'pe_intl', 'clayproof_'))
@@ -154,7 +188,9 @@ def hq_fix(hq):
 def load():
     A, rows, L = a.load()
     PA = b.pb.assemble(); listed = {b.loose(html.unescape(c['name'])) for c in PA['U'].values()} | {b.loose(x['name']) for x in rows if x['status'] == 'listed'}
-    onsheet = {}; sheetrow = {}
+    load.listed = listed
+    load.sheetrow = sheetrow = {}
+    onsheet = {}
     for x in rows:
         for k in (b.loose(x['name']), b.loose(x['r']['brand'])):
             onsheet.setdefault(k, x['name']); sheetrow.setdefault(k, x)
@@ -184,13 +220,15 @@ def load():
                 if sv and not (keep.get('signals') or {}).get(sk): keep.setdefault('signals', {})[sk] = sv
             if keep is rec: out[out.index(old)] = rec; seen[ck] = rec
             return
-        if rec['name'] in DROP: return leave(rec, DROP[rec['name']])
+        if SUBS and rec['name'] in SUB_BACK: rec['parent'] = rec.get('parent') or SUB_BACK[rec['name']]; rec['status'] = 'subsidiary'
+        elif rec['name'] in DROP: return leave(rec, DROP[rec['name']])
         l, _ = b.f1_link(rec['name'])
         if rec['name'] in F1_KEEP: rec['f1note'] = rec.get('f1note') or rec.get('f1'); rec['f1'] = ''
         for pat, why in F1_PAT:
             if pat.search(rec['name']): return leave(rec, 'Current F1 partner or owner of one: ' + why)
         for nm, sub in HOLDS_LISTED.items():
             if rec['name'].startswith(nm): return leave(rec, 'Holding company whose main operating business is listed: ' + sub)
+        if SUBS and rec.get('f1') and not l and rec['name'] not in F1_EXTRA and rec.get('status') == 'subsidiary' and clean(rec.get('parent')): rec['parent_f1'] = rec['f1']; rec['f1'] = ''
         if l or rec['name'] in F1_EXTRA or rec.get('f1'): return leave(rec, 'Current F1 partner or owner of one: ' + str(l or F1_EXTRA.get(rec['name']) or rec.get('f1')))
         if k in onsheet or rec['name'] in SAME:
             sr = sheetrow.get(b.loose(SAME[rec['name']])) if rec['name'] in SAME else sheetrow.get(k)
@@ -203,8 +241,9 @@ def load():
         if rec.get('status') in ('defunct', 'non-commercial'): return leave(rec, 'Closed or not a commercial company')
         if rec.get('status') == 'subsidiary':
             par = clean(rec.get('parent'))
-            if not par or b.loose(par) in listed or b.f1_link(par)[0]: return leave(rec, 'Owned by a listed group or an F1 partner: ' + (par or 'owner not named'))
-            rec['ownership'] = f'Owned by {par} (unlisted)'
+            if not par: return leave(rec, 'Owned by another company, owner not named')
+            if not SUBS and (b.loose(par) in listed or b.f1_link(par)[0]): return leave(rec, 'Owned by a listed group or an F1 partner: ' + par)
+            if not rec.get('web'): rec['ownership'] = f'Subsidiary of {par}' if SUBS else f'Owned by {par} (unlisted)'
         seen[ck] = rec; out.append(rec)
     # 1. ranking companies, profiled from the ranking line
     R = {d['id']: d for d in json.load(open(os.path.join(H, 'newsec', 'ranking_rows.json'), encoding='utf-8'))}
@@ -227,8 +266,9 @@ def load():
              'conf': clean(p.get('conf')).lower() or 'low', 'status': clean(p.get('status')).lower(), 'parent': clean(p.get('parent')), 'changed': clean(p.get('changed')), 'stage': 'commercial',
              'f1': f1 if dec[0] == 'exclude' else '', 'f1note': f1 if f1 and dec[0] != 'exclude' else '', 'web': False})
     # 2. web research files, one per group
-    for p in sorted(glob.glob(os.path.join(H, 'newsec', 'web', '*.jsonl'))) + sorted(f for f in glob.glob(os.path.join(H, 'newsec', 'web2', '*.jsonl')) if not os.path.basename(f).startswith('unconfirmed_')):
-        key = os.path.basename(p)[:-6]
+    subfiles = sorted(f for f in glob.glob(os.path.join(H, 'newsec', 'subs', '*.jsonl')) if not os.path.basename(f).startswith('unconfirmed_')) if SUBS else []
+    for p in sorted(glob.glob(os.path.join(H, 'newsec', 'web', '*.jsonl'))) + sorted(f for f in glob.glob(os.path.join(H, 'newsec', 'web2', '*.jsonl')) if not os.path.basename(f).startswith('unconfirmed_')) + subfiles:
+        key = ('subs_' if p in subfiles else '') + os.path.basename(p)[:-6]
         for l in open(p, encoding='utf-8'):
             if not l.strip(): continue
             try: d = json.loads(l)
@@ -244,7 +284,8 @@ def load():
                         'ownership': clean(d.get('ownership')) or 'Private, owner not stated', 'basis': bas, 'detail': clean(d.get('capacity_detail')), 'usd_m': um, 'year': clean(d.get('capacity_year')),
                         'source': clean(d.get('capacity_source')), 'sponsorships': clean(d.get('sponsorships')), 'reach': clean(d.get('reach')).title() if clean(d.get('reach')).title() in RORD else 'Domestic',
                         'reach_basis': 'web', 'markets': clean(d.get('markets')), 'signals': d.get('signals') if isinstance(d.get('signals'), dict) else {}, 'rationale': clean(d.get('rationale')),
-                        'rel': d.get('rel') if d.get('rel') in (1, 2, 3, 4, 5) else 2, 'conf': clean(d.get('conf')).lower() or 'medium', 'status': 'private', 'parent': '', 'changed': '',
+                        'rel': d.get('rel') if d.get('rel') in (1, 2, 3, 4, 5) else 2, 'conf': clean(d.get('conf')).lower() or 'medium', 'status': 'subsidiary' if SUBS and clean(d.get('parent')) else 'private',
+                        'parent': clean(d.get('parent')) if SUBS else '', 'parent_listed': clean(d.get('parent_listed')), 'parent_stake': clean(d.get('parent_stake')), 'parent_f1': clean(d.get('parent_f1')), 'changed': '',
                         'stage': 'pre-revenue' if clean(d.get('stage')).lower().startswith('pre') else 'commercial', 'f1': '', 'f1note': '', 'web': True})
             add(rec)
     stale = []
@@ -289,25 +330,29 @@ def load():
 def extras(L, onsheet):
     """what the second pass found but could not prove (shown, not counted), Clay leads, and announced deals to watch"""
     have = {core(x['name']) for x in L}; seen = set(); conf = []; outs = []; leads = []
-    for f in sorted(glob.glob(os.path.join(H, 'newsec', 'web2', 'unconfirmed_*.jsonl'))):
+    for f in sorted(glob.glob(os.path.join(H, 'newsec', 'web2', 'unconfirmed_*.jsonl'))) + (sorted(glob.glob(os.path.join(H, 'newsec', 'subs', 'unconfirmed_*.jsonl'))) if SUBS else []):
         for l in open(f, encoding='utf-8'):
             try: d = json.loads(l)
             except Exception: continue
             nm = clean(d.get('name')); ck = core(nm)
             if not nm or ck in have or ck in seen or b.loose(nm) in onsheet or b.loose(fold(nm)) in onsheet or b.f1_link(nm)[0]: continue
-            seen.add(ck); miss = clean(d.get('missing'))
-            row = [nm, hq_fix(d.get('hq')), d.get('sector') if d.get('sector') in b.FIT else '', clean(d.get('group')), clean(d.get('what_is_known')), miss, clean(d.get('pages_tried'))]
+            seen.add(ck); miss = clean(d.get('missing')); par = clean(d.get('parent'))
+            row = [nm, hq_fix(d.get('hq')), d.get('sector') if d.get('sector') in b.FIT else '', clean(d.get('group')), clean(d.get('what_is_known')) + (f' Parent: {par}.' if par else ''), miss, clean(d.get('pages_tried'))]
             (outs if miss.upper().startswith('OUT') else conf).append(row)
     for x in getattr(load, 'stale', []):
         ck = core(x['name'])
         if ck in seen: continue
         seen.add(ck); conf.append([x['name'], hq_fix(x['hq']), x['sector'], group_label(x['key']), x['detail'] + ' (' + x['source'] + ')', x.get('demote') or 'The only revenue figure found is more than ten years old', x['source']])
-    gone = set()                                       # Clay leads checked against public pages and found to be listed, subsidiaries, closed or too small
+    gone = set(); owner = {}                           # Clay leads checked against public pages and found to be listed, closed or too small (and, before 18 Nov, subsidiaries)
     for f in glob.glob(os.path.join(H, 'newsec', 'leads_out', '*.jsonl')):
         for l in open(f, encoding='utf-8'):
-            try: gone.add(core(clean(json.loads(l).get('name'))))
-            except Exception: pass
-    extras.gone = len(gone)
+            try: d = json.loads(l)
+            except Exception: continue
+            why = clean(d.get('reason')); ck = core(clean(d.get('name')))
+            if SUBS and re.match(r'(?i)owned by', why) and not re.search(r'(?i)revenue below|tobacco|vaping|sanction', why):        # removed only because another company owns it: back as a lead, owner shown
+                owner[ck] = re.sub(r'\s*[;(]?\s*https?://\S+\)?', '', why).strip(' ;') ; continue
+            gone.add(ck)
+    extras.gone = len(gone); extras.back = len(owner)
     for f in sorted(glob.glob(os.path.join(H, 'newsec', 'leads', '*.jsonl'))):
         for l in open(f, encoding='utf-8'):
             try: d = json.loads(l)
@@ -315,13 +360,13 @@ def extras(L, onsheet):
             nm = clean(d.get('name')); ck = core(nm)
             if not nm or ck in have or ck in seen or ck in gone or b.loose(nm) in onsheet or b.loose(fold(nm)) in onsheet or b.f1_link(nm)[0]: continue
             seen.add(ck)
-            leads.append([nm, clean(d.get('domain')), hq_fix(d.get('hq')), clean(d.get('industry')), clean(d.get('clay_revenue')), clean(d.get('clay_employees')), clean(d.get('clay_type'))])
+            leads.append([nm, clean(d.get('domain')), hq_fix(d.get('hq')), clean(d.get('industry')), clean(d.get('clay_revenue')), clean(d.get('clay_employees')), clean(d.get('clay_type')), owner.get(ck, 'Not checked')[:1].upper() + owner.get(ck, 'Not checked')[1:]])
     wp = os.path.join(H, 'newsec', 'watch_deals.json')
     watch = [[n, 'Take-private or sale announced but not completed when checked on 16 Nov 2026: it becomes an unlisted prospect if the deal closes'] for n in (json.load(open(wp)) if os.path.exists(wp) else [])]
     return sorted(conf, key=lambda r: (r[3], r[0])), sorted(outs), sorted(leads, key=lambda r: (r[2].split(',')[-1].strip(), r[0])), watch
-COLS = a.COLS[:23] + ['On Your Sheet?', 'Category Tab (This Workbook)', 'Closest Tab on Your Existing Sheet', 'Theme', 'Ownership Type', 'Stage', 'Parameter 3: Capacity Test Passed',
+COLS = a.COLS[:23] + ['On Your Sheet?', 'Category Tab (This Workbook)', 'Closest Tab on Your Existing Sheet', 'Theme', 'Ownership Type', 'Parent Company', 'Stage', 'Parameter 3: Capacity Test Passed',
                       'Capacity Evidence', 'Capacity Source', 'Sports Sponsorships Found'] + a.COLS[30:35] + ['Expanding?', 'How Found']
-WIDTH = b.WIDTH[:23] + [12, 26, 26, 28, 26, 12, 34, 46, 46, 40, 36, 36, 40, 40, 11, 34, 34]
+WIDTH = b.WIDTH[:23] + [12, 26, 26, 28, 26, 36, 12, 34, 46, 46, 40, 36, 36, 40, 40, 11, 34, 34]
 def cells(x):
     notes = []
     if x['stage'] == 'pre-revenue': notes.append('Pre-revenue: no sales yet, so any sponsorship would be paid from funding')
@@ -333,6 +378,7 @@ def cells(x):
     if re.search(r'(?i)estimate', x['detail']): notes.append('The capacity figure is a third-party estimate, not a figure published by the company')
     if x['basis'] == 'b' and not x['is_rev'] and not re.search(r'(?i)estimate', x['detail']): notes.append('The capacity figure is not revenue as such (see Capacity Evidence)')
     if x['name'] in NOTE: notes.append(NOTE[x['name']])
+    if x.get('status') == 'subsidiary' and clean(x.get('parent')): notes.append('Subsidiary: the capacity shown is its own figure, not the parent\'s. Check whether sponsorship decisions sit with the subsidiary or with the parent')
     if re.search(r'(?i)F\.C\.|Super Kings|Punjab Kings|Rajasthan Royals|Knight Riders|Atlético de Madrid|Newcastle United|Al Nassr|Saint-Germain', x['name']): notes.append('A sports club: it qualifies on the tests but is an unlikely sponsor')
     if x['web'] and x['ownership'].lower().startswith('private, owner not stated') and 'unlisted' not in NOTE.get(x['name'], '').lower(): notes.append('Owner not named on the pages read: confirm it is unlisted')
     if x['web'] and x['basis'] == 'b' and not re.search(r'(19|20)\d\d', str(x['year'])) and 'no year' not in NOTE.get(x['name'], ''): notes.append('The revenue figure found carries no year')
@@ -346,16 +392,16 @@ def cells(x):
     sig = lambda k: x['S'][k][0] + (': ' + x['S'][k][1] if x['S'][k][1] else '')
     liq = ('Valuation or deal value: ' + x['detail']) if x['basis'] == 'c' else ('Equity raised: ' + x['detail']) if x['basis'] == 'a' else 'Not found'
     exp = x['S']['regions']
-    return [x['name'], x['hq'], 'Qualifies', x['rank'], x['desc'], x['sector'] + (': ' + x['industry'] if x['industry'] else ''), 'Private (not listed)',
+    return [x['name'], x['hq'], 'Qualifies', x['rank'], x['desc'], x['sector'] + (': ' + x['industry'] if x['industry'] else ''), 'Subsidiary (not listed itself)' if x.get('status') == 'subsidiary' and clean(x.get('parent')) else 'Private (not listed)',
             x['usd_m'] * 1e6 if x['is_rev'] else 'No published revenue figure: see Capacity Evidence' if x['basis'] == 'b' else 'Not found in the sources used', 'Not applicable (not listed)', 'Not found', 'Not found', liq, 'Not Disclosed', x['reach'], x['markets'],
             x['rationale'], x['year'] or 'Not stated', x['source'], b.F1_NOTE, 'Plausible Capacity', '; '.join(notes) or 'None flagged', x['fit'], x['conf'].title(),
-            'No (new brand)', x['tab'], x['sector'], x['theme'], x['ownership'], 'Pre-revenue' if x['stage'] == 'pre-revenue' else 'Selling', TEST[x['basis']], x['detail'], x['source'], x['sponsorships'] or ('None found' if x['web'] else 'Not checked')] + \
+            'No (new brand)', x['tab'], x['sector'], x['theme'], x['ownership'], parent_txt(x), 'Pre-revenue' if x['stage'] == 'pre-revenue' else 'Selling', TEST[x['basis']], x['detail'], x['source'], x['sponsorships'] or ('None found' if x['web'] else 'Not checked')] + \
            [sig(k) for k in a.SIG] + [x['nconf'], ('Yes: ' + exp[1]) if exp[0] == 'Confirmed' else ('Possibly: ' + exp[1]) if exp[0] == 'Lead only' else 'Not yet checked', group_label(x['key'])]
 def cells_have(x, tab):
     """a brand already on the sheet, in this workbook's column layout (figures as in the all-sector workbook)"""
     c = a.cells(x)
     test = TEST['a'] + ' (funding as recorded, may include debt)' if str(c[29]).startswith('Total funding') else str(c[29])
-    return c[:23] + ['Yes', tab, c[25], c[26], c[27], c[28], test, c[11] if str(c[29]).startswith('Total funding') else c[29], c[17], 'Not checked'] + c[30:35] + [c[35] or 'Not yet checked', 'Already on your sheet']
+    return c[:23] + ['Yes', tab, c[25], c[26], c[27], c[36], c[28], test, c[11] if str(c[29]).startswith('Total funding') else c[29], c[17], 'Not checked'] + c[30:35] + [c[35] or 'Not yet checked', 'Already on your sheet']
 def tabs(L):
     """ordered list of (tab name, rows): new-sector tabs first, then the sheet's own tabs, each without Domestic brands"""
     new = [n for n, _, _ in NEW]; old = list(b.FIT)
@@ -394,8 +440,13 @@ def write(L, left, drop, now_private, path, onsheet=None):
     conf, outs, leads, watch = extras(L, onsheet or {})
     p2 = [x for x in L if is_pass2(x['key'])]; p2k = Counter('regional rankings' if x['key'].startswith('region_') else 'second proof attempt' if x['key'].startswith('confirm_') else 'Clay leads proven' if x['key'].startswith('clayproof_') else 'private-equity portfolios' for x in p2)
     p2c = Counter(x['country'] for x in p2 if x['country'] not in ('Not recorded', 'International'))
-    S = [('New brands for your sheet, filed by category - second pass included (16 Nov 2026)',),
-         [f"{n:,} companies that are not on your 48-tab sheet. Each is unlisted, is not a current F1 partner or the owner of one, and passes the capacity test with a source. Headquarters in {len(ctry)} countries."],
+    subs = [x for x in L if x.get('status') == 'subsidiary' and clean(x.get('parent'))]; sp = [x for x in L if x['key'].startswith('subs_')]
+    spk = Counter(SUBS_LABEL.get(x['key'][5:], x['key'][5:]) for x in sp); f1s = [x for x in subs if 'F1 link' in parent_txt(x)]
+    S = [('New brands for your sheet, filed by category - ' + ('subsidiaries included (18 Nov 2026)' if SUBS else 'second pass included (16 Nov 2026)'),),
+         [f"{n:,} companies that are not on your 48-tab sheet. Each is unlisted, is not a current F1 partner or the owner of one, and passes the capacity test with a source. Headquarters in {len(ctry)} countries."]] + ([
+         [f"Rule change of 18 Nov 2026: subsidiaries are in scope, and every row has a Parent Company column. {len(subs):,} of the new brands are subsidiaries of another company; {len(sp):,} lines come from a research pass for subsidiaries: " + '; '.join(f'{v} {k}' for k, v in spk.most_common()) + '.'],
+         [f"{len(f1s)} of the subsidiaries belong to a group that has a current F1 partner brand. They are included and the Parent Company column states the link, so a category conflict can be checked. The brand that holds an F1 deal itself, and the owners of F1 partners, stay out."],
+         ['A subsidiary passes the capacity test only on its own figure (its own revenue, funding, purchase price or sponsorship), never on its parent\'s size. For independent companies the Parent Company column reads "None".']] if SUBS else []) + [
          [f"{n_new:,} of the new brands belong to sectors your sheet has no tab for; they are on {sum(1 for t in newn if tc[t] or hc[t])} new tabs (names start with NEW). {n - n_new:,} are filed under {sum(1 for t in b.FIT if tc[t])} of your existing tab names."],
          [f"Each new sector tab is complete: the new brands come first (On Your Sheet? = No), followed by the {len(load.have):,} brands that are already on your sheet under other tabs and belong to that sector (On Your Sheet? = Yes). These are not counted as new."],
          ['Each new brand is on one tab only. Domestic brands are on the Domestic tab, not on the category tabs. The All New Brands tab holds every new brand and nothing else.'], [],
@@ -403,7 +454,7 @@ def write(L, left, drop, now_private, path, onsheet=None):
          [f"The list now holds {n:,} qualifying brands; the first workbook held 722. {len(p2):,} lines come from second-pass research: " + '; '.join(f'{v} from {k}' for k, v in p2k.most_common()) + '. A few of them replace first-pass lines with better-evidenced ones. The "How Found" column starts with "Second pass" for these.'],
          ['Second-pass brands by headquarters: ' + '; '.join(f'{c} {v}' for c, v in p2c.most_common(30)) + '.'],
          [f"{len(conf):,} companies that look like prospects but whose capacity or ownership could not be shown from a public page are on the Capacity To Confirm tab. They are not counted as qualifying."],
-         [f"{len(leads):,} privately held companies returned by Clay and not otherwise known are on the Clay Leads tab. Clay's revenue bracket is right about half the time for private companies, so these are leads only. A further {getattr(extras, 'gone', 0)} Clay leads were checked against public pages and removed as listed, owned by a listed or foreign group, closed or too small."],
+         [f"{len(leads):,} privately held companies returned by Clay and not otherwise known are on the Clay Leads tab. Clay's revenue bracket is right about half the time for private companies, so these are leads only. A further {getattr(extras, 'gone', 0)} Clay leads were checked against public pages and removed as listed, closed or too small" + (f"; {getattr(extras, 'back', 0)} that had been removed only because another company owns them are back on the tab, with the owner shown." if SUBS else ", or owned by a listed or foreign group.")],
          [f"{len(watch)} listed companies with a take-private or sale announced but not completed are on the Deals Announced tab."], [],
          ('New sector tabs: new brands (including Domestic) + brands already on your sheet (Global, International and Regional)',)] + [[f"{t[4:]}: {tc[t]} new + {hc[t]} already on your sheet - {what}"] for t, what, _ in NEW if tc[t] or hc[t]] + [[],
          ('Your existing tabs that gain new brands (including Domestic)',)] + [[f"{t}: {tc[t]}"] for t in b.FIT if tc[t]] + [[],
@@ -416,7 +467,9 @@ def write(L, left, drop, now_private, path, onsheet=None):
          ('How the list was made',),
          [f"{n - desk:,} companies come from web research on 16 Nov 2026, one group at a time across all regions, and from the public unicorn list with each company checked. Each carries the fact that makes it qualify and the page it comes from."],
          [f"{desk:,} companies come from public revenue rankings of unlisted companies. The revenue is the ranking figure. Their headquarters city, description and reach were written from the ranking line and general knowledge, not looked up, and each is flagged in Verification Notes."],
-         ['Second pass: unlisted companies region by region from national rankings and company pages; a second proof attempt on companies dropped in the first pass; the portfolios of the large investment firms; and a Clay sweep for leads.'],
+         ['Second pass: unlisted companies region by region from national rankings and company pages; a second proof attempt on companies dropped in the first pass; the portfolios of the large investment firms; and a Clay sweep for leads.']] + ([
+         ['Subsidiaries pass (18 Nov 2026): companies bought for USD 1B or more since Nov 2023 that still trade under their own name; subsidiaries with their own outside investors; subsidiaries of listed groups by region with their own published revenue; subsidiaries that sponsor top-tier sport; sister brands of groups that have an F1 partner; subsidiaries of unlisted, family and state groups.'],
+         ['The earlier passes skipped subsidiaries on purpose, so before 18 Nov the research did not record them. One pass cannot list every subsidiary of every group: it covers the best-documented ones, and unproven ones are on the Capacity To Confirm tab.']] if SUBS else []) + [
          ['No complete register of unlisted companies exists, so this cannot be guaranteed complete. Before a company was researched it was checked against your sheet and the first pass, so brands you already have were skipped.']]
     wx.text_sheet(wb, 'Summary', S, widths=(170,))
     data = {id(x): cells(x) for x in L}
@@ -426,7 +479,7 @@ def write(L, left, drop, now_private, path, onsheet=None):
     NPC = ['Company (on your sheet)', 'Tab on Your Sheet', 'Status in the Earlier Workbook', 'Ownership Found Now', 'Capacity Test Passed', 'Evidence', 'Source', 'Headquarters', 'Geographic Reach']
     if now_private: wx.sheet(wb, 'On Your Sheet - Now Unlisted', NPC, [34, 28, 24, 36, 34, 60, 50, 26, 14], sorted(now_private))
     if conf: wx.sheet(wb, 'Capacity To Confirm', ['Company', 'Headquarters', 'Sector', 'Found Under', 'What Is Known (from pages read)', 'What Could Not Be Shown', 'Pages Tried'], [34, 26, 28, 34, 70, 60, 50], conf)
-    if leads: wx.sheet(wb, 'Clay Leads (Unconfirmed)', ['Company', 'Website', 'Headquarters (Clay)', 'Industry (Clay)', 'Revenue Bracket (Clay, unverified)', 'Employees (Clay)', 'Company Type (Clay)'], [36, 28, 28, 34, 26, 18, 20], leads)
+    if leads: wx.sheet(wb, 'Clay Leads (Unconfirmed)', ['Company', 'Website', 'Headquarters (Clay)', 'Industry (Clay)', 'Revenue Bracket (Clay, unverified)', 'Employees (Clay)', 'Company Type (Clay)', 'Owner Found on a Public Page'], [36, 28, 28, 34, 26, 18, 20, 50], leads)
     if watch: wx.sheet(wb, 'Deals Announced - Watch', ['Company (still listed)', 'Note'], [34, 120], watch)
     ws = wb.create_sheet('Left Out')
     for j, w in enumerate((40, 48, 90), 1): ws.column_dimensions[get_column_letter(j)].width = w
@@ -443,6 +496,7 @@ def write(L, left, drop, now_private, path, onsheet=None):
          ('Annual Revenue (USD)', 'Filled only where the test passed is published revenue; the figure is the one on the source page. Otherwise "Not found in the sources used".'),
          ('Parameter 4 columns', 'Confirmed = the research found it, with date and page. Lead only = found without a date or page. Not yet checked = not looked up. A full check takes two web searches per company.'),
          ('Outreach Priority', 'High = two or more confirmed reasons to buy; Medium = one; To Verify = none confirmed yet.'),
+         ('Parent Company', 'For a subsidiary: the parent as stated on the page read, "(listed)" with the exchange where known, the stake where a page states it, and the F1 link where the parent or a sister brand is a current F1 partner. "None" for an independent company; where an investment firm or a state owns the company it says so. "Not stated on the pages read" where no owner was found.'),
          ('Stage', 'Pre-revenue companies are kept and labelled.'),
          ('Geographic Reach', 'Global, International, Regional or Domestic. Domestic brands are on the Domestic tab.'),
          ('Fit Score (0-100)', 'Sector fit (25%), relevance to F1 (50%) and reach (25%). Orders companies inside the same priority.'),
@@ -450,7 +504,7 @@ def write(L, left, drop, now_private, path, onsheet=None):
          ('Capacity To Confirm tab', 'Companies found by the research that look like prospects but where no public page stated the funding, revenue or owner. Nothing found is dropped silently: check these directly (company accounts, a call) before treating them as prospects.'),
          ('Clay Leads (Unconfirmed) tab', 'Privately held companies returned by Clay with revenue brackets at or above about USD 250M that are not on your sheet or in this workbook. Unverified: Clay revenue and ownership tags are often wrong for private companies.'),
          ('Deals Announced - Watch tab', 'Listed companies with a take-private or sale announced but not completed on 16 Nov 2026. Each becomes an unlisted prospect if its deal closes.'),
-         ('Left Out tab', 'Companies the research found that are current F1 partners or their owners, listed, owned by a listed group, closed, or whose capacity could not be shown from a page.')]
+         ('Left Out tab', 'Companies the research found that are current F1 partners or their owners, listed, closed, or whose capacity could not be shown from a page.' + ('' if SUBS else ' Also companies owned by a listed group.'))]
     wx.text_sheet(wb, 'Key', K)
     wb.save(path)
 if __name__ == '__main__':
