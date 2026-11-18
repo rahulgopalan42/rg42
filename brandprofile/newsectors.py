@@ -487,7 +487,7 @@ def write(L, left, drop, now_private, path, onsheet=None):
     p2 = [x for x in L if is_pass2(x['key'])]; p2k = Counter('regional rankings' if x['key'].startswith('region_') else 'second proof attempt' if x['key'].startswith('confirm_') else 'Clay leads proven' if x['key'].startswith('clayproof_') else 'private-equity portfolios' for x in p2)
     p2c = Counter(x['country'] for x in p2 if x['country'] not in ('Not recorded', 'International'))
     subs = [x for x in L if x.get('status') == 'subsidiary' and clean(x.get('parent'))]; sp = [x for x in L if x['key'].startswith('subs_')]
-    spk = Counter(SUBS_LABEL.get(x['key'][5:], x['key'][5:]) for x in sp); f1s = [x for x in subs if 'F1 link' in parent_txt(x)]
+    spk = Counter('formerly listed companies bought since Nov 2023' if x['key'].startswith('subs_was_listed') else SUBS_LABEL.get(x['key'][5:], x['key'][5:]) for x in sp); f1s = [x for x in subs if 'F1 link' in parent_txt(x)]
     S = [('New brands for your sheet, filed by category - ' + ('subsidiaries included (18 Nov 2026)' if SUBS else 'second pass included (16 Nov 2026)'),),
          [f"{n:,} companies that are not on your 48-tab sheet. Each is unlisted, is not a current F1 partner or the owner of one, and passes the capacity test with a source. Headquarters in {len(ctry)} countries."]] + ([
          [f"Rule change of 18 Nov 2026: subsidiaries are in scope, and every row has a Parent Company column. {len(subs):,} of the new brands are subsidiaries of another company; {len(sp):,} lines come from a research pass for subsidiaries: " + '; '.join(f'{v} {k}' for k, v in spk.most_common()) + '.'],
