@@ -79,11 +79,13 @@ def web_check(sym):
     if not w: return '', ''
     st = review.WEB.get(sym, w['status']); det = clean(w.get('detail')).rstrip('.') + (f" ({w['source_url']})" if w.get('source_url') else '')
     return st, f"web search, {w['when']}: " + det
+SIGNAL_CORRECTED = {'544466.BO', '3388.HK'}        # the event did happen; the web search corrected its date
 def signal_check(sym):
     """the web check of one desk-research buying signal (np/f1web/): (status, note with source) or ('', '')"""
     web_check(sym); w = _W.get(sym) or {}
     st = clean(w.get('signal_status')).lower()
     if st not in ('confirmed', 'not found', 'contradicted'): return '', ''
+    if st == 'contradicted' and sym in SIGNAL_CORRECTED: st = 'corrected'
     return st, clean(w.get('signal_note')).rstrip('.') + (f" ({w['signal_url']})" if w.get('signal_url') else '')
 F1_OWNER = re.compile(r'(?i)^(formula one group|liberty media|liberty live|liberty formula)')
 def f1_status(sym, c, e):
@@ -133,19 +135,20 @@ def signal_score(f, e, chk=('', '')):
         elif g >= 0.08: pts += 20; data.append(f'Revenue up {g * 100:.0f}% year on year ({src})')
         elif g <= -0.1: pts -= 10; data.append(f'Caution: revenue down {-g * 100:.0f}% year on year ({src})')
     if (f['mkt'] or 0) >= 2e7: pts += 15; data.append(f"Disclosed {f['mkt_kind'].lower() or 'marketing expense'} {fm(f['mkt'])} (annual filing)")
-    sports = clean(e.get('sports')); sig = clean(e.get('signals')); markets = clean(e.get('markets')); desk = []
+    sports = clean(e.get('sports')); sig = clean(e.get('signals')); markets = clean(e.get('markets')); desk = []; web = ''
     if sports: pts += 25; desk.append('existing sports sponsorship (see Existing Sports / F1 Partnerships)')
-    checked = ''
-    if sig and chk[0] == 'contradicted': checked = 'Reported signal not supported by a web search on 19 Nov 2026 and not counted: ' + chk[1]; sig = ''
+    if sig and chk[0] == 'contradicted': web = 'A reported signal was not supported by a web search on 19 Nov 2026 and is not counted: ' + chk[1]; sig = ''
     if sig:
-        n = len([p for p in re.split(r';|\.\s+(?=[A-Z])', sig) if p.strip()]); pts += 20 if n <= 1 else 30; desk.append(sig.rstrip('.'))
-        if chk[0] == 'confirmed': checked = 'Confirmed by web search, 19 Nov 2026: ' + chk[1]
-        elif chk[0] == 'not found': checked = 'A web search on 19 Nov 2026 did not find the reported signal'
+        n = len([p for p in re.split(r';|\.\s+(?=[A-Z])', sig) if p.strip()]); pts += 20 if n <= 1 else 30
+        if chk[0] in ('confirmed', 'corrected'):
+            web = ('Confirmed' if chk[0] == 'confirmed' else 'Confirmed, with the date corrected,') + ' by web search, 19 Nov 2026: ' + chk[1]
+            if n > 1: desk.append('other reported items: ' + sig.rstrip('.'))
+        else: desk.append(sig.rstrip('.') + (' (a web search on 19 Nov 2026 did not find this)' if chk[0] == 'not found' else ''))
     if EXPAND.search(markets) and not re.search(r'(?i)no verified expansion', markets): pts += 10; desk.append('international expansion noted in the company profile')
-    txt = '; '.join(data)
-    if desk: txt += ('. ' if txt else '') + 'Desk research, to verify: ' + '; '.join(desk)
-    if checked: txt += ('. ' if txt else '') + checked
-    return max(0, min(100, pts)), txt or 'None identified in the sources used'
+    parts = ['; '.join(data)] if data else []
+    if web: parts.append(web)
+    if desk: parts.append('Desk research, to verify: ' + '; '.join(desk))
+    return max(0, min(100, pts)), '. '.join(p.rstrip('.') for p in parts) or 'None identified in the sources used'
 def team_score(e, reach, kind):
     b = e.get('b2b') if e.get('b2b') in (1, 2, 3, 4, 5) else 3; a = e.get('act') if e.get('act') in (1, 2, 3, 4, 5) else 3
     hi, lo = max(a, b), min(a, b); conflict = {'partner': 30, 'group': 60, 'note': 60}.get(kind, 100)
@@ -228,7 +231,7 @@ def assemble():
         if kind in ('group', 'note'): notes.append('check for a category conflict with the F1 link')
         if sym in review.NOTE: notes.append(review.NOTE[sym])
         rows.append(dict(base, e=e, cat=cat, why=x['why'], rel=rel, reach=reach, hq=hq, kind=kind, f1txt=f1txt, strat=strat, fin=fin, sig=sig, sigtxt=sigtxt, team=team,
-                         score=score, priority=pr, cf=cf, notes=notes, gross=x['gross'], known=on_sheet(K, name), webnone=web_check(sym)[0] == 'none'))
+                         score=score, priority=pr, cf=cf, notes=notes, gross=x['gross'], known=on_sheet(K, name), webnone=web_check(sym)[0] == 'none', webdone=bool(web_check(sym)[0])))
     # one line per company: keep the larger listing
     best = {}; drop = set()
     for r in sorted(rows, key=lambda r: -(r['f']['mcap'] or 0)):
@@ -247,7 +250,7 @@ def cells(r):
     c, e, f, k = r['c'], r['e'], r['f'], r['k']; grp = SECTORS[r['code']]['grp']
     if k['nodata']: cap = 'Not estimated: no revenue or profit figures in the sources used'
     else: cap = f"{usd(k['cap'])} a year: {k['basis']}"
-    f1 = {'partner': 'CURRENT F1 PARTNER: ', 'group': 'F1 LINK IN THE GROUP, check for conflict: ', 'note': 'Possible F1 link, check: ', 'past': 'Former F1 sponsor, not current: '}.get(r['kind'], '') + r['f1txt'] if r['kind'] else \
+    f1 = {'partner': 'CURRENT F1 PARTNER: ', 'group': 'F1 LINK IN THE GROUP, check for conflict: ', 'note': 'Possible F1 link, check: ', 'past': 'Earlier F1 link, not current: '}.get(r['kind'], '') + r['f1txt'] if r['kind'] else \
          'No current F1 partnership found (2025-26 roster of 424 partners' + ('; web search, Nov 2026' if r.get('webnone') else '') + ')'
     sports = clean(e.get('sports'))
     sp = f1.rstrip('.') + '. ' + ('Other sports (desk research, to verify): ' + sports.rstrip('.') if sports else 'No other sports sponsorship identified') + '.'
@@ -256,7 +259,9 @@ def cells(r):
     if f.get('page'):
         src += ('; stockanalysis.com Financials Overview for ' + ', '.join(f.get('page_used') or ['figures'])
                 + (' (reporting currency, converted as the same share of the USD revenue)' if f.get('page_approx') else '') + ': ' + str(f['page'].get('source_url')))
-    status = 'Status: figures from public sources (Nov 2026); profile, sponsorships and desk-research signals not web-verified.'
+    status = ('Status: figures from public sources (Nov 2026); F1 status checked by web search' + ('' if 'web search, 15 Nov' in r['f1txt'] or not r.get('webdone') else ' on 19 Nov 2026')
+              + '; profile and other desk research not web-verified.') if r.get('webdone') else \
+             'Status: figures from public sources (Nov 2026); profile, sponsorships and desk-research signals not web-verified.'
     if r['notes']: status += ' To verify: ' + '; '.join(n.rstrip('.') for n in r['notes']) + '.'
     return [r['name'], r['hq'], r['cat'], r['priority'], clean(e.get('desc')), f['rev'] if f['rev'] else 'Not available', f['mcap'] if f['mcap'] else 'Not available',
             cash_profit(f, grp), cap, r['cf'], r['reach'], sp, clean(e.get('rationale')), r['sigtxt'], 'Sources: ' + src + '. ' + status,
