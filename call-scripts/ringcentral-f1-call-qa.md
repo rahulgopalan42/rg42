@@ -12,7 +12,13 @@
 >
 > Because we cover so much, we try not to overwhelm anyone with everything we could offer. We start from the brand, not from what we have to sell. And if a brand isn't sure which way to go, our business intelligence team helps work that out, using the brief we build with you.
 >
-> My own area is Formula 1, where we're one of the biggest agencies. For more than twelve years we worked only with Mercedes and Ferrari, and today we work across all eleven teams. So I'd suggest we start with Formula 1, and keep it open. We'll answer your questions, build a brief with you, and see where it points."
+> A bit of history on Formula 1, because it explains how we work. We used to work exclusively for Mercedes and Ferrari. We gave up those exclusive mandates, and signed non-exclusive agreements across the grid. So the conversation now starts with what the brand is trying to achieve. Then we work backwards from that, to the right way into the sport.
+>
+> What we add is that we work for the brand, objectively. We can see the whole grid: what each team delivers, and how each one is priced. So you pay a fair market price, and you don't overpay.
+>
+> You can see it in the work. We've done deals for McLaren, for Ferrari, and for athletes. And sometimes we help a brand change direction. CFI was looking at a partnership with Williams. We found a package with Lewis Hamilton that would give them a better return on what they wanted, and we brokered that deal. Outside F1, we work with VGW in NASCAR. We couldn't do that range of work if we still held exclusive mandates.
+>
+> So the goal today is to understand what RingCentral is trying to achieve. Sport is complex, but it's very valuable, and our job is to help you find the right partnership in it. I'd suggest we start with Formula 1, and keep it open."
 
 ### "So why did you reach out to us?"
 
@@ -195,7 +201,7 @@
 
 ### "Why go through SPORTFIVE rather than a team directly?"
 
-> "You can go to a team directly. They'll tell you about their own team, which is fair enough. We look at all eleven teams and compare them for you. The teams pay our fee, so that costs you nothing. We also work across a lot of sports, so we can say plainly when F1 isn't the best fit. And with Genesys at Ferrari, Cisco at McLaren and your own partner AT&T at Red Bull, someone has to check each team quietly before your name goes anywhere."
+> "You can go to a team directly. They'll tell you about their own team, which is fair enough. We look at all eleven teams and compare them for you, including how each one is priced, so you know what a fair price is. The teams pay our fee, so that costs you nothing. We also work across a lot of sports, so we can say plainly when F1 isn't the best fit. And with Genesys at Ferrari, Cisco at McLaren and your own partner AT&T at Red Bull, someone has to check each team quietly before your name goes anywhere."
 
 ### "Which team would fit us?"
 
