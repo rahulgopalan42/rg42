@@ -60,7 +60,13 @@ def summary(A, rows, L, core, other):
     import allsector
     ins = {id(x) for x in L}; oc = Counter(allsector.reason_out(x, None).split(' ')[0] for x in rows if id(x) not in ins)
     SUBS = allsector.SUBS; subs = [x for x in L if x['status'] == 'subsidiary']; f1s = [x for x in subs if x['f1note'].startswith(allsector.b.F1_SUB)]
-    out = [('Non-listed prospects across all sectors - parameter check of every brand on your sheet (' + ('18 Nov 2026, subsidiaries included' if SUBS else '16 Nov 2026') + ')',),
+    ch = allsector.CHANGES if allsector.REFRESH else []; rem = sorted({c[0] for c in ch if c[1] == 'Removed'}); upd = sorted({c[0] for c in ch if c[1] == 'Updated'})
+    refresh = [('Refresh of 23 Nov 2026: what changed since the 18 Nov list',),
+               [f"Events dated 1 to 23 Nov 2026 were applied to the brands on your sheet: {len(upd)} brands updated and {len(rem)} removed. The Changes Since 18 Nov tab lists each one with its date and source, and the last column of every prospect row states the change."],
+               [f"Removed ({len(rem)}): " + ('; '.join(rem) if rem else 'none') + '. A brand is removed when its own shares began trading on a stock exchange.'],
+               ['Updated means one of: a funding round closed (Parameter 4a); an IPO filing or regulator approval (4b); a new region opened (4c); a new top-tier sponsorship (4d); a new parent company after a completed purchase; or a note about a deal that is agreed but not completed.'],
+               ['What was not done: the brands were not re-checked one by one. A change is recorded only where the research of 23 Nov came across it, so "No change found" means no event was found, not that nothing happened. Crunchbase could not be used (allowance exhausted until 1 Dec 2026); Apollo was not used.'], []] if ch else []
+    out = [('Non-listed prospects across all sectors - parameter check of every brand on your sheet (' + ('23 Nov 2026 refresh of the 18 Nov list, subsidiaries included' if ch else '18 Nov 2026, subsidiaries included' if SUBS else '16 Nov 2026') + ')',)] + refresh + [
            [f"Sheet: F1-SCREEN-RECORDINGS-ALL-BRANDS-RANKED-2026-11-02-2 (unchanged since 15 Nov). {n:,} brands on 48 sector tabs, each checked against the parameter set agreed on 16 Nov 2026."], [],
            ('Parameters 1 and 2: who is in scope',),
            [f"{len(L):,} brands are operating companies not listed on a stock exchange: {sum(1 for x in L if x['status'] == 'private'):,} private, {sum(1 for x in L if x['status'] == 'state-owned')} state-owned, "

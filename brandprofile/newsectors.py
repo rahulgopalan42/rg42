@@ -9,7 +9,14 @@ from collections import Counter
 H = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, H)
 import bp_build as b, allsector as a, allsector_notes as AN
 SUBS = a.SUBS      # rule change of 18 Nov 2026: subsidiaries are in scope and every row names its parent company
-OUT = os.path.join(b.R, 'reports', 'F1-NEW-BRANDS-BY-CATEGORY-v3-2026-11-18.xlsx' if SUBS else 'F1-NEW-BRANDS-BY-CATEGORY-v2-2026-11-16.xlsx')
+REFRESH = '23 Nov 2026'      # refresh of the 18 Nov list: events since 1 Nov 2026 applied (newsec/refresh/decisions.json), new brands added (web2/refresh23_*.jsonl). '' = the 18 Nov build
+OUT = os.path.join(b.R, 'reports', 'F1-NEW-BRANDS-BY-CATEGORY-v4-2026-11-23.xlsx' if REFRESH else 'F1-NEW-BRANDS-BY-CATEGORY-v3-2026-11-18.xlsx' if SUBS else 'F1-NEW-BRANDS-BY-CATEGORY-v2-2026-11-16.xlsx')
+RDIR = os.path.join(H, 'newsec', 'refresh')
+def _rj(n, default):
+    q = os.path.join(RDIR, n)
+    return json.load(open(q, encoding='utf-8')) if REFRESH and os.path.exists(q) else default
+DEC = _rj('decisions.json', {}).get('new', {})       # company name on the 18 Nov list -> list of {action: drop|parent|signal|note, ...}, written by hand from the events files
+CHANGES = []                                          # rows of the 'Changes Since 18 Nov' tab
 RORD = a.RORD
 # how each research group is described in the "How Found" column
 GROUPS = {'rank': 'Public revenue rankings of unlisted companies', 'brokers': 'Web research: brokers and trading platforms', 'crypto': 'Web research: crypto and prediction markets',
@@ -103,22 +110,27 @@ def parent_txt(x):
     if x['name'] in OWNER_PEOPLE: return 'None (owned by individuals, a family or a trust: see Ownership Type)'
     return 'None (independent company)'
 # research lines that share a short name with a different company on the sheet or on a stock exchange: not the same company
-NOT_SHEET = {'Bridge (stablecoin platform)', 'MHP (management and IT consultancy)', 'Empower (retirement services)', 'Also (Rivian spinout)'}
+NOT_SHEET = {'Science Corporation (neurotech)', 'ICON (3D-printed construction)', 'Bridge (stablecoin platform)', 'MHP (management and IT consultancy)', 'Empower (retirement services)', 'Also (Rivian spinout)'}
 # F1 links of a parent group that the roster match does not catch from the parent's name
 PARENT_F1 = [(re.compile(r'\bNTT\b'), 'NTT becomes a McLaren partner from 2027 (announced 4 Nov 2026)'), (re.compile(r'(?i)unilever'), 'Unilever brands Clear and Liquid I.V. are F1 partners'),
              (re.compile(r'(?i)toyota'), 'Toyota Gazoo Racing is the Haas title partner'), (re.compile(r'(?i)liberty media'), 'Liberty Media owns Formula 1'),
              (re.compile(r'(?i)\btata (sons|group)\b'), 'Tata Communications is a Formula 1 partner'), (re.compile(r'(?i)\bSHV\b'), 'SHV also owns Mammoet, an F1 partner'),
              (re.compile(r"(?i)l'occitane"), "L'Occitane also owns ELEMIS, an F1 partner"), (re.compile(r'(?i)carlyle'), 'Carlyle is an F1 partner')]
 PARENT_F1 += a.F1_PARENT_EXTRA
+# F1 deals announced since the roster was compiled (events research of 23 Nov 2026, newsec/refresh/events_f1.jsonl)
+PARENT_F1 += [(re.compile(r'(?i)\bnike\b'), "Nike becomes Formula 1's apparel and uniform supplier from 2027 (announced 20 Nov 2026)"),
+              (re.compile(r'(?i)^archer aviation'), 'Archer became a Formula 1 official supporter (announced 13 Nov 2026)'), (re.compile(r'(?i)^elastic\b'), 'Elastic is an Audi F1 partner from 2027 (reported 23 Oct 2026)'),
+              (re.compile(r'(?i)^klaviyo'), 'Klaviyo is a Williams partner from 2027 (reported 23 Oct 2026)'), (re.compile(r'(?i)^ondas'), 'Ondas is an Aston Martin partner (announced 18 Nov 2026)'),
+              (re.compile(r'(?i)^insight enterprises'), 'Insight Enterprises is a Las Vegas Grand Prix sponsor (announced 19 Oct 2026)')]
 # a "parent" that is an investment firm: the company is privately held, not a subsidiary of an operating group
-PE_PARENT = re.compile(r'(?i)\b(STG|Symphony Technology|GTCR|Ascendent Capital|Japan Investment Corporation|Bridgepoint|Advent International|Blackstone|Hg|TA Associates|Bain Capital|KKR|CVC|Permira|EQT|Clayton|Cinven|PAI Partners|Ardian|Partners Group|Warburg Pincus|TPG|Silver Lake|Thoma Bravo|Vista Equity|Francisco Partners|Insight Partners|General Atlantic|Stonepeak|Apollo Sports Capital|Clearlake|Veritas Capital|Platinum Equity|Sycamore|Leonard Green|Hellman & Friedman|L Catterton|3G Capital)\b')
+PE_PARENT = re.compile(r'(?i)\b(Brookfield and CPP Investments|STG|Symphony Technology|GTCR|Ascendent Capital|Japan Investment Corporation|Bridgepoint|Advent International|Blackstone|Hg|TA Associates|Bain Capital|KKR|CVC|Permira|EQT|Clayton|Cinven|PAI Partners|Ardian|Partners Group|Warburg Pincus|TPG|Silver Lake|Thoma Bravo|Vista Equity|Francisco Partners|Insight Partners|General Atlantic|Stonepeak|Apollo Sports Capital|Clearlake|Veritas Capital|Platinum Equity|Sycamore|Leonard Green|Hellman & Friedman|L Catterton|3G Capital)\b')
 PARENT_LISTED_FIX = {'Sol de Janeiro': 'not listed'}
 # an importer or distributor of an F1 carmaker's vehicles is not an F1 partner: kept, with the link in Verification Notes
 F1_KEEP = {'Pon Holdings B.V.'}
 # names that only look like a listed company (a listed namesake or a listed subsidiary); the company itself is unlisted
-NOT_LISTED = {'WeTrade', 'IDOM', 'Cactus'}                      # the broker; the listed WeTrade Group is a different company
+NOT_LISTED = {'WeTrade', 'IDOM', 'Cactus', 'InPost'}                      # the broker; the listed WeTrade Group is a different company
 # extra F1 links the roster match does not catch by name
-F1_EXTRA = dict(AN.F1_OWNERS, **{'Cognition AI': 'Cognition (Aston Martin)', 'Arctic Wolf Networks': 'Arctic Wolf', 'Jet365': 'Alpine', 'Intel': 'McLaren', 'Gucci': 'Alpine title partner from 2027', 'Electronic Arts': 'EA SPORTS (official F1 video game)'})
+F1_EXTRA = dict(AN.F1_OWNERS, **{'Cognition AI': 'Cognition (Aston Martin)', 'Arctic Wolf Networks': 'Arctic Wolf', 'Jet365': 'Alpine', 'Intel': 'McLaren', 'Gucci': 'Alpine title partner from 2027', 'Electronic Arts': 'EA SPORTS (official F1 video game)', 'Padeltek': 'Aston Martin (announced 19 Oct 2026)', 'Paddletek': 'owner of Padeltek, an Aston Martin partner', 'Dynamo Capital': 'Haas (reported 23 Oct 2026)', 'Doha Oasis': 'Qatar Grand Prix (announced 18 Nov 2026)'})
 # same company as a brand already on the sheet under a longer or shorter name: name -> name on the sheet
 SAME = {'Roquette Frères S.A.': 'Roquette', 'Louis Dreyfus Company B.V.': 'Louis Dreyfus Company', 'Farmers Insurance Exchange': 'Farmers Insurance', "Jersey Mike's": "Jersey Mike's Subs",
         'Skechers': 'Skechers U.S.A.', 'Walgreens': 'Walgreens Boots Alliance', 'Fanatics Betting & Gaming': 'Fanatics',
@@ -190,6 +202,7 @@ def group_label(key):
     if key == 'found_subs_pass': return 'Found during the subsidiaries pass (18 Nov), source read'
     if key.startswith('subs_was_listed'): return 'Subsidiaries pass (18 Nov): formerly listed companies bought since Nov 2023'
     if key.startswith('subs_'): return 'Subsidiaries pass (18 Nov): ' + SUBS_LABEL.get(key[5:], key[5:])
+    if key.startswith('refresh23_'): return 'Refresh of 23 Nov 2026: round, deal or sponsorship announced since 1 Nov 2026, source read'
     if key == 'talks_added': return 'Found during the funding-talks research; round or deal since announced, source read'
     return key
 def is_pass2(key): return key.startswith(('region_', 'confirm_', 'pe_us', 'pe_intl', 'clayproof_'))
@@ -332,6 +345,33 @@ def load():
                 rec['pe_parent'] = rec['parent']; rec['parent'] = ''; rec['status'] = 'private'
                 if rec['ownership'].lower().startswith('subsidiary of'): rec['ownership'] = 'private equity: ' + rec['pe_parent']
             add(rec)
+    if REFRESH:
+        snap = {core(d['name']): d['name'] for d in _rj('v3_snapshot.json', [])}; CHANGES.clear()
+        for x in list(out):
+            x['chg'] = []
+            for d in DEC.get(x['name'], []):
+                act = d.get('action'); why = clean(d.get('why')); src = clean(d.get('source')); when = clean(d.get('date'))
+                if act == 'drop':
+                    out.remove(x); drop['Changed since the 18 Nov list (see the Changes Since 18 Nov tab)'] += 1
+                    left.append((x['name'], group_label(x['key']), 'Changed since the 18 Nov list: ' + why + (f' ({src})' if src else '')))
+                    if core(x['name']) in snap: CHANGES.append([x['name'], 'Removed', why, when, src, 'New brands (18 Nov list)'])
+                    break
+                if act == 'parent':
+                    x['parent'] = clean(d.get('parent')); x['status'] = 'subsidiary'; x['parent_listed'] = clean(d.get('parent_listed')); x['parent_stake'] = clean(d.get('parent_stake')); x['pe_parent'] = ''
+                    x['ownership'] = 'Subsidiary of ' + x['parent']
+                elif act == 'signal':
+                    for k, v in (d.get('signals') or {}).items():
+                        if d.get('lead') and (k == 'raise' or clean((x.get('signals') or {}).get(k))): continue      # a report of talks does not replace a confirmed signal
+                        x['signals'] = dict(x.get('signals') or {}, **{k: clean(v)})
+                elif act == 'sponsorship': x['sponsorships'] = (x.get('sponsorships') + '; ' if x.get('sponsorships') else '') + why
+                elif act == 'note': NOTE[x['name']] = (NOTE[x['name']] + '; ' if NOTE.get(x['name']) else '') + why
+                x['chg'].append(why + (f' ({when})' if when and when not in why else ''))
+                if core(x['name']) in snap: CHANGES.append([x['name'], 'Updated', why, when, src, 'New brands (18 Nov list)'])
+        have_now = {core(x['name']) for x in out} | {core(x['name']) for x in out for _ in [0]}
+        load.lost = sorted(nm for ck, nm in snap.items() if ck not in have_now and not any(d.get('action') == 'drop' for d in DEC.get(nm, [])))
+        for x in out:
+            x['isnew'] = core(x['name']) not in snap
+            x['chgtxt'] = ('New: added on 23 Nov 2026' if x['isnew'] else ('Updated on 23 Nov 2026: ' + '; '.join(x['chg'])) if x.get('chg') else 'No change found')
     stale = []
     for x in list(out):
         if x['name'] in DEMOTE: x['demote'] = DEMOTE[x['name']]; stale.append(x); out.remove(x); drop['Evidence judged too weak on review (moved to Capacity To Confirm)'] += 1; continue
@@ -410,9 +450,11 @@ def extras(L, onsheet):
     wp = os.path.join(H, 'newsec', 'watch_deals.json')
     watch = [[n, 'Take-private or sale announced but not completed when checked on 16 Nov 2026: it becomes an unlisted prospect if the deal closes'] for n in (json.load(open(wp)) if os.path.exists(wp) else [])]
     return sorted(conf, key=lambda r: (r[3], r[0])), sorted(outs), sorted(leads, key=lambda r: (r[2].split(',')[-1].strip(), r[0])), watch
+CHGCOL = 'Change Since the 18 Nov List'
 COLS = a.COLS[:23] + ['On Your Sheet?', 'Category Tab (This Workbook)', 'Closest Tab on Your Existing Sheet', 'Theme', 'Ownership Type', 'Parent Company', 'Stage', 'Parameter 3: Capacity Test Passed',
                       'Capacity Evidence', 'Capacity Source', 'Sports Sponsorships Found'] + a.COLS[30:35] + ['Expanding?', 'How Found']
 WIDTH = b.WIDTH[:23] + [12, 26, 26, 28, 26, 36, 12, 34, 46, 46, 40, 36, 36, 40, 40, 11, 34, 34]
+if REFRESH: COLS = COLS + [CHGCOL]; WIDTH = WIDTH + [48]
 def cells(x):
     notes = []
     if x['stage'] == 'pre-revenue': notes.append('Pre-revenue: no sales yet, so any sponsorship would be paid from funding')
@@ -442,12 +484,12 @@ def cells(x):
             x['usd_m'] * 1e6 if x['is_rev'] else 'No published revenue figure: see Capacity Evidence' if x['basis'] == 'b' else 'Not found in the sources used', 'Not applicable (not listed)', 'Not found', 'Not found', liq, 'Not Disclosed', x['reach'], x['markets'],
             x['rationale'], x['year'] or 'Not stated', x['source'], b.F1_NOTE, 'Plausible Capacity', '; '.join(notes) or 'None flagged', x['fit'], x['conf'].title(),
             'No (new brand)', x['tab'], x['sector'], x['theme'], x['ownership'], parent_txt(x), 'Pre-revenue' if x['stage'] == 'pre-revenue' else 'Selling', TEST[x['basis']], x['detail'], x['source'], x['sponsorships'] or ('None found' if x['web'] else 'Not checked')] + \
-           [sig(k) for k in a.SIG] + [x['nconf'], ('Yes: ' + exp[1]) if exp[0] == 'Confirmed' else ('Possibly: ' + exp[1]) if exp[0] == 'Lead only' else 'Not yet checked', group_label(x['key'])]
+           [sig(k) for k in a.SIG] + [x['nconf'], ('Yes: ' + exp[1]) if exp[0] == 'Confirmed' else ('Possibly: ' + exp[1]) if exp[0] == 'Lead only' else 'Not yet checked', group_label(x['key'])] + ([x.get('chgtxt', 'No change found')] if REFRESH else [])
 def cells_have(x, tab):
     """a brand already on the sheet, in this workbook's column layout (figures as in the all-sector workbook)"""
     c = a.cells(x)
     test = TEST['a'] + ' (funding as recorded, may include debt)' if str(c[29]).startswith('Total funding') else str(c[29])
-    return c[:23] + ['Yes', tab, c[25], c[26], c[27], c[36], c[28], test, c[11] if str(c[29]).startswith('Total funding') else c[29], c[17], 'Not checked'] + c[30:35] + [c[35] or 'Not yet checked', 'Already on your sheet']
+    return c[:23] + ['Yes', tab, c[25], c[26], c[27], c[36], c[28], test, c[11] if str(c[29]).startswith('Total funding') else c[29], c[17], 'Not checked'] + c[30:35] + [c[35] or 'Not yet checked', 'Already on your sheet'] + ([x.get('chgtxt', 'No change found')] if REFRESH else [])
 def tabs(L):
     """ordered list of (tab name, rows): new-sector tabs first, then the sheet's own tabs, each without Domestic brands"""
     new = [n for n, _, _ in NEW]; old = list(b.FIT)
@@ -488,7 +530,18 @@ def write(L, left, drop, now_private, path, onsheet=None):
     p2c = Counter(x['country'] for x in p2 if x['country'] not in ('Not recorded', 'International'))
     subs = [x for x in L if x.get('status') == 'subsidiary' and clean(x.get('parent'))]; sp = [x for x in L if x['key'].startswith('subs_')]
     spk = Counter('formerly listed companies bought since Nov 2023' if x['key'].startswith('subs_was_listed') else SUBS_LABEL.get(x['key'][5:], x['key'][5:]) for x in sp); f1s = [x for x in subs if 'F1 link' in parent_txt(x)]
-    S = [('New brands for your sheet, filed by category - ' + ('subsidiaries included (18 Nov 2026)' if SUBS else 'second pass included (16 Nov 2026)'),),
+    newb = [x for x in L if x.get('isnew')]; upd = [x for x in L if x.get('chg')]; allch = CHANGES + a.CHANGES
+    rem = [c for c in allch if c[1] == 'Removed']; talk = _rj('talks_status.json', [])
+    RS = [('New brands for your sheet, filed by category - refreshed on 23 Nov 2026',),
+          [f"This is the 18 Nov 2026 list brought up to date. {len(newb)} brands are new (tab 'New Since 18 Nov'; last column reads 'New'). {len(upd)} brands on the list carry news since 1 Nov 2026 (last column reads 'Updated'). "
+           f"{sum(1 for c in rem if c[5].startswith('New brands'))} brands were taken off this list. Every change, with its date and source, is on the 'Changes Since 18 Nov' tab."],
+          [f"Brands on your own 48-tab sheet: {len({c[0] for c in a.CHANGES if c[1] == 'Updated'})} updated and {len({c[0] for c in a.CHANGES if c[1] == 'Removed'})} removed because their shares now trade ({'; '.join(sorted({c[0] for c in a.CHANGES if c[1] == 'Removed'})) or 'none'}). "
+           "They are listed on the 'Changes Since 18 Nov' tab here and carried in full in the companion file F1-NON-LISTED-PROSPECTS-ALL-SECTORS-v3-2026-11-23.xlsx. "
+           "Five brands that were listed on 18 Nov have since been taken private or bought for USD 1B or more and are now in scope: Integer Holdings, LXP Industrial Trust, Utz Brands, Irish Continental Group and Arcosa (tab 'On Your Sheet - Now Unlisted')."],
+          ['What was checked on 23 Nov 2026: Formula 1 partner announcements since 1 Oct 2026 for the championship, each team and the Grands Prix; share listings and IPO filings since 1 Nov 2026; acquisitions, mergers and closures since 1 Nov 2026; '
+           'equity rounds of USD 100M or more and new USD 1B valuations since 1 Nov 2026 by region; buyouts, carve-outs and take-privates; new top-tier sports sponsorships; and the companies on the funding-talks watch list.'],
+          ['What was not done: the 2,039 brands were not re-checked one by one. A change is recorded only where the research of 23 Nov came across it, so "No change found" means no event was found, not that nothing happened. Crunchbase could not be used (allowance exhausted until 1 Dec 2026); Apollo was not used.'], []] if REFRESH else []
+    S = RS + [('The list in full (rules of 18 Nov 2026, subsidiaries included)' if REFRESH else 'New brands for your sheet, filed by category - ' + ('subsidiaries included (18 Nov 2026)' if SUBS else 'second pass included (16 Nov 2026)'),),
          [f"{n:,} companies that are not on your 48-tab sheet. Each is unlisted, is not a current F1 partner or the owner of one, and passes the capacity test with a source. Headquarters in {len(ctry)} countries."]] + ([
          [f"Rule change of 18 Nov 2026: subsidiaries are in scope, and every row has a Parent Company column. {len(subs):,} of the new brands are subsidiaries of another company; {len(sp):,} lines come from a research pass for subsidiaries: " + '; '.join(f'{v} {k}' for k, v in spk.most_common()) + '.'],
          [f"{len(f1s)} of the subsidiaries belong to a group that has a current F1 partner brand. They are included and the Parent Company column states the link, so a category conflict can be checked. The brand that holds an F1 deal itself, and the owners of F1 partners, stay out."],
@@ -519,6 +572,12 @@ def write(L, left, drop, now_private, path, onsheet=None):
          ['No complete register of unlisted companies exists, so this cannot be guaranteed complete. Before a company was researched it was checked against your sheet and the first pass, so brands you already have were skipped.']]
     wx.text_sheet(wb, 'Summary', S, widths=(170,))
     data = {id(x): cells(x) for x in L}
+    if REFRESH:
+        order = {'Added': 0, 'Removed': 1, 'Updated': 2, 'For information': 3}
+        rows_c = sorted(allch + [[x['name'], 'Added', TEST[x['basis']] + ': ' + x['detail'], x['year'] or '', x['source'], 'New brand: ' + x['tab']] for x in newb] + _rj('info_rows.json', []), key=lambda r: (order.get(r[1], 9), r[5].split(':')[0], r[0].lower()))
+        wx.sheet(wb, 'Changes Since 18 Nov', ['Company', 'Change', 'What Happened', 'Date', 'Source', 'Where It Sits'], [36, 16, 100, 16, 60, 40], rows_c)
+        wx.sheet(wb, 'New Since 18 Nov', COLS, WIDTH, [data[id(x)] for x in newb])
+        if talk: wx.sheet(wb, 'Funding Talks - Update', ['Company', 'On Your Lists?', 'Talks as Reported', 'Reported By', 'Status on 23 Nov 2026', 'What the Page Says', 'Date', 'Source'], [32, 16, 70, 22, 22, 80, 14, 60], talk)
     wx.sheet(wb, 'All New Brands', COLS, WIDTH, [data[id(x)] for x in L])
     for name, rows in T: wx.sheet(wb, name, COLS, WIDTH, [data[id(x)] for x in rows] + [cells_have(x, name) for t, x in load.have if t == name])
     wx.sheet(wb, 'Domestic', COLS, WIDTH, [data[id(x)] for x in L if x['reach'] == 'Domestic'])
@@ -535,6 +594,10 @@ def write(L, left, drop, now_private, path, onsheet=None):
     ws.append(hdr)
     for row in sorted(left + [(r[0], 'Second pass: proof attempt', (r[5] + (' - ' + r[4] if r[4] else ''))[:400]) for r in outs], key=lambda r: (r[2].split(':')[0], r[0])): ws.append(list(row))
     K = [('What this workbook is', 'New brands only: none of them is on your 48-tab sheet. Same parameter set as the all-sector workbook.'),
+         ('Change Since the 18 Nov List (last column)', '"New: added on 23 Nov 2026" = not on the 18 Nov list. "Updated on 23 Nov 2026" = the research of 23 Nov found news about the company since 1 Nov 2026 (round closed, IPO filing, new owner, new sponsorship); the news is written in the cell and on the Changes Since 18 Nov tab. "No change found" = no event was found; the company was not re-checked one by one.'),
+         ('Changes Since 18 Nov tab', 'Every company added, taken off or updated on 23 Nov 2026, with what happened, the date and the page. "For information" rows are listed companies that became Formula 1 partners: they are outside this workbook but matter for your public-company lists.'),
+         ('New Since 18 Nov tab', 'The brands added on 23 Nov 2026, in full. They are also on All New Brands and on their category tabs.'),
+         ('Funding Talks - Update tab', 'The companies on the funding-talks watch list that were followed up on 23 Nov 2026: whether the reported round or sale has since been announced.'),
          ('Tabs', 'Tabs starting with NEW are sectors your sheet has no tab for. Each holds the new brands first, then the brands already on your sheet that belong to that sector. The other category tabs carry your own tab names and hold new brands only, so the rows can be pasted under the matching tab.'),
          ('On Your Sheet?', 'No (new brand) = not on your sheet. Yes = already on your sheet under the tab named in "Closest Tab on Your Existing Sheet"; its figures are those of the all-sector workbook (funding as recorded by Crunchbase).'),
          ('Category Tab / Closest Tab on Your Existing Sheet', 'The tab the brand is filed under here, and the tab on your current sheet it would otherwise belong to.'),
@@ -562,6 +625,7 @@ if __name__ == '__main__':
     print('on the sheet but now unlisted:', len(now_private), [r[0] for r in now_private][:30])
     ex = extras(L, onsheet); print('to confirm', len(ex[0]), '| out on second attempt', len(ex[1]), '| clay leads', len(ex[2]), '| watch', len(ex[3]), '| second-pass brands', sum(1 for x in L if is_pass2(x['key'])))
     bad = check(L, left, drop, onsheet); print('CHECK', 'ok' if not bad else bad[:20])
+    if REFRESH: print('REFRESH | new', sum(1 for x in L if x.get('isnew')), '| updated', sum(1 for x in L if x.get('chg')), '| changes', Counter(c[1] for c in CHANGES + a.CHANGES), '| on the 18 Nov list but missing now without a decision:', getattr(load, 'lost', []))
     if len(sys.argv) > 1 and sys.argv[1] == 'near':
         for r in near(L, onsheet): print(r)
     if len(sys.argv) > 1 and sys.argv[1] == 'xlsx':

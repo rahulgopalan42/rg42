@@ -8,7 +8,7 @@ from collections import Counter, defaultdict
 H = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, H)
 import bp_build as b, expand_screen as e
 SUBS = True      # rule change of 18 Nov 2026: subsidiaries are in scope and every row names its parent company
-OUT = os.path.join(b.R, 'reports', 'F1-NON-LISTED-PROSPECTS-ALL-SECTORS-v2-2026-11-18.xlsx' if SUBS else 'F1-NON-LISTED-PROSPECTS-ALL-SECTORS-2026-11-16.xlsx')
+OUT = os.path.join(b.R, 'reports', 'F1-NON-LISTED-PROSPECTS-ALL-SECTORS-v3-2026-11-23.xlsx' if SUBS and os.path.exists(os.path.join(H, 'newsec', 'refresh', 'decisions.json')) else 'F1-NON-LISTED-PROSPECTS-ALL-SECTORS-v2-2026-11-18.xlsx' if SUBS else 'F1-NON-LISTED-PROSPECTS-ALL-SECTORS-2026-11-16.xlsx')
 BAR = 150e6; RORD = {'Global': 0, 'International': 1, 'Regional': 2, 'Domestic': 3}
 IPO = re.compile(r'\bIPO\b|initial public offering|plans? to (list|go public)|preparing to (list|go public)|stock market listing|public listing|filed (confidentially )?(for|to) (an? )?(IPO|listing|list|go public)', re.I)
 NEG = re.compile(r'\bno (verified|known|confirmed|international)|not confirmed|unverified|unconfirmed|presumed|not detailed|not known', re.I)
@@ -59,9 +59,13 @@ def parent_txt(x):
     if st == 'state-owned': return 'None: state-owned' + (f' ({par})' if par else '')
     if st == 'listed': return par or 'None (listed itself)'
     return par or 'Not confirmed'
+REFRESH = '23 Nov 2026'      # events since 1 Nov 2026 applied to the brands on the sheet (newsec/refresh/decisions.json, key "sheet"); '' = the 18 Nov build
+CHANGES = []
 def load():
     b.SUBS_IN = SUBS
     A, rows = e.load()
+    rp = os.path.join(H, 'newsec', 'refresh', 'decisions.json')
+    RD = json.load(open(rp, encoding='utf-8')).get('sheet', {}) if REFRESH and os.path.exists(rp) else {}; CHANGES.clear()
     PA = b.pb.assemble(); listed = {b.loose(html.unescape(c['name'])) for c in PA['U'].values()} | {b.loose(x['name']) for x in rows if x['status'] == 'listed'}
     W = {}
     for f in sorted(glob.glob(os.path.join(H, 'signals', 'out_*.jsonl'))):
@@ -74,8 +78,16 @@ def load():
         nw = NOW.get(x['r']['id'])
         if nw and x['status'] == 'listed':          # listed on the sheet, since bought (subsidiaries research of 18 Nov 2026): now a subsidiary, or privately held under an investment firm
             x['was'] = 'listed'; x['status'] = 'subsidiary' if nw['parent'] else 'private'; x['parent'] = nw['parent'] or nw['pe']; x['now'] = nw
+        acts = RD.get(x['name'], []); x['chg'] = []
+        for d in acts:                                   # refresh of 23 Nov 2026: a new parent is set before the ownership text is written
+            if d.get('action') == 'parent' and x['status'] not in ('listed', 'non-commercial', 'defunct'):
+                x['status'] = 'subsidiary'; x['parent'] = b.clean(d.get('parent'))
         st = x['status']; par = b.clean(x['parent']); pk = b.loose(re.sub(r'\s*\([^)]*\)', '', par)) if par else ''
         if st in ('listed', 'non-commercial', 'defunct') or x['stage'] not in ('commercial', 'pre-revenue'): continue
+        gone = next((d for d in acts if d.get('action') == 'drop'), None)
+        if gone:
+            x['dropped'] = b.clean(gone.get('why')); x['dropped23'] = True
+            CHANGES.append([x['name'], 'Removed', b.clean(gone.get('why')), b.clean(gone.get('date')), b.clean(gone.get('source')), 'Your sheet: ' + x['r'].get('tab', x['sector'])]); continue
         x['par_listed'] = bool(par) and any(k in listed for k in par_keys(par))
         if st == 'subsidiary' and not SUBS and (not par or pk in listed): continue      # old rule: owned by a listed group (or owner not named) was out of scope
         w = W.get(x['r']['id']); rid = x['r']['id']
@@ -107,6 +119,15 @@ def load():
                 if fx == 'lead': S[k] = ('Lead only', f"{b.clean(v.get('detail'))} (weak or undated source: {b.clean(v.get('source'))})"); continue
                 if v.get('status') == 'confirmed': S[k] = ('Confirmed', f"{b.clean(v.get('detail'))} ({b.clean(v.get('date')) or 'date not given'}; {b.clean(v.get('source'))})")
                 else: S[k] = ('Checked: nothing found', 'Web search on 16 Nov 2026')
+        for d in acts:
+            why = b.clean(d.get('why')); when = b.clean(d.get('date')); src = b.clean(d.get('source'))
+            if d.get('action') == 'signal':
+                for k, v in (d.get('signals') or {}).items():
+                    if d.get('lead') and S.get(k, ('',))[0] == 'Confirmed': continue        # a report of talks does not replace a confirmed signal
+                    S[k] = ('Lead only' if d.get('lead') else 'Confirmed', b.clean(v))
+            if d.get('action') in ('signal', 'parent', 'note', 'sponsorship'):
+                x['chg'].append(why + (f' ({when})' if when and when not in why else '')); CHANGES.append([x['name'], 'Updated', why, when, src, 'Your sheet: ' + x['r'].get('tab', x['sector'])])
+        x['chgtxt'] = ('Updated on 23 Nov 2026: ' + '; '.join(x['chg'])) if x['chg'] else 'No change found'
         x['S'] = S; x['nconf'] = sum(1 for v in S.values() if v[0] == 'Confirmed'); x['webchecked'] = bool(w)
         x['rank'] = ('High' if x['nconf'] >= 2 else 'Medium' if x['nconf'] == 1 else 'To Verify') if x['cap_pass'] and x['core'] else 'To Verify'
         x['expanding'] = 'Yes (confirmed)' if S['regions'][0] == 'Confirmed' else 'Possibly (lead only)' if S['regions'][0] == 'Lead only' else ''
@@ -118,7 +139,7 @@ EXTRA = ['Theme', 'Ownership Type', 'Stage', 'Parameter 3: Capacity Basis', 'Par
 COLS = [c if c != 'Priority Score (0-100)' else 'Fit Score (0-100)' for c in b.COLS] + EXTRA
 WIDTH = b.WIDTH + [28, 24, 12, 44, 34, 34, 40, 40, 11, 16]
 SIG = ('raise', 'ipo', 'regions', 'marketing')
-COLS2 = COLS[:28] + ['Parent Company'] + COLS[28:]; WIDTH2 = WIDTH[:28] + [36] + WIDTH[28:]
+COLS2 = COLS[:28] + ['Parent Company'] + COLS[28:] + (['Change Since the 18 Nov List'] if REFRESH else []); WIDTH2 = WIDTH[:28] + [36] + WIDTH[28:] + ([48] if REFRESH else [])
 def sig(x, k): return x['S'][k][0] + (': ' + x['S'][k][1] if x['S'][k][1] else '')
 def fit(x): return round(0.25 * b.FIT[x['sector']] * 10 + 0.50 * b.REL[x['rel']] + 0.25 * b.REACH[x['reach']], 1)
 def cells(x):
@@ -132,9 +153,11 @@ def cells(x):
     c[20] = '; '.join(notes) or 'None flagged'; c[21] = fit(x)
     return c + [x['theme'], x['own'], 'Pre-revenue' if x['stage'] == 'pre-revenue' else 'Selling', x['basis']] + [sig(x, k) for k in SIG] + [x['nconf'], x['expanding'], parent_txt(x)]
 PAT = 28      # the Parent Company column sits after Ownership Type in the workbook
-def cells2(x): c = cells(x); return c[:PAT] + [c[-1]] + c[PAT:-1]
+CHGCOL = 'Change Since the 18 Nov List'
+def cells2(x): c = cells(x); return c[:PAT] + [c[-1]] + c[PAT:-1] + ([x.get('chgtxt', 'No change found')] if REFRESH else [])
 def reason_out(x, listed):
     st = x['status']; par = b.clean(x['parent']); pk = b.loose(re.sub(r'\s*\([^)]*\)', '', par)) if par else ''
+    if x.get('dropped23'): return 'Changed since the 18 Nov list: ' + x['dropped']
     if x.get('dropped'): return 'Now listed or owned by a listed group (web check, 16 Nov 2026): ' + x['dropped']
     if st == 'listed': return 'Listed on a stock exchange' + (f" ({x['ticker_txt']})" if x['ticker_txt'] else '')
     if st == 'defunct': return 'Closed or absorbed'
@@ -183,6 +206,9 @@ def write(A, rows, L, path):
     core = [x for x in L if x['core'] and x['cap_pass']]; other = [x for x in L if not (x['core'] and x['cap_pass'])]
     data = {id(x): cells2(x) for x in L}; COLS = COLS2; WIDTH = WIDTH2
     wx.text_sheet(wb, 'Summary', N.summary(A, rows, L, core, other), widths=(150,))
+    if REFRESH and CHANGES:
+        order = {'Removed': 0, 'Updated': 1}
+        grid('Changes Since 18 Nov', ['Company', 'Change', 'What Happened', 'Date', 'Source', 'Where It Sits'], (34, 12, 90, 16, 60, 40), sorted(CHANGES, key=lambda r: (order.get(r[1], 9), r[0].lower())), height=30)
     grid('All Brands - Parameters', ALLCOLS, (30, 30, 26, 24, 26, 34, 14, 40, 12, 44, 30, 30, 34, 34, 10, 13, 14, 12), all_rows(A, rows, L))
     wx.sheet(wb, 'Prospects - All Sectors', COLS, WIDTH, [data[id(x)] for x in core])
     wx.sheet(wb, 'High and Medium', COLS, WIDTH, [data[id(x)] for x in core if x['rank'] in ('High', 'Medium') and x['reach'] != 'Domestic'])

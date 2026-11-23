@@ -1,0 +1,3474 @@
+[
+{
+"company": "Sand.ai",
+"known_as": "already in the new-brands workbook (first pass) as Sand.ai",
+"event": "raised",
+"date": "05 Nov 2026",
+"detail": "Chinese video-generation startup raised US$200 million in a Series A extension, its third raise of 2026, pushing it into unicorn territory.",
+"counterparty": "Cornerstone Capital, Wangsu Science & Technology (co-leads)",
+"usd_m": 200,
+"valuation_usd_m": null,
+"source_url": "https://dealroom.co/news/169818-sand-ai-raises-200m-series-a-extension-joins-unicorn-ranks/",
+"file": "apac",
+"line": 0,
+"target": [
+"new",
+"Sand.ai",
+"NEW AI Models & Applications"
+]
+},
+{
+"company": "MegaRobo",
+"known_as": "on the sheet (Software, Internet & AI, private) as MegaRobo",
+"event": "raised",
+"date": "19 Nov 2026",
+"detail": "AI and robotics drug-research company raised nearly US$200 million, with Oman's sovereign wealth fund among investors; valuation not disclosed.",
+"counterparty": "Oman's sovereign wealth fund",
+"usd_m": 200,
+"valuation_usd_m": null,
+"source_url": "https://letsdatascience.com/news/chinese-ai-biotech-megarobo-raises-nearly-200-million-in-rou-bc934402",
+"file": "apac",
+"line": 1,
+"target": [
+"sheet",
+"MegaRobo",
+"private | Software, Internet & AI"
+]
+},
+{
+"company": "Approaching AI",
+"known_as": "on the sheet (Software, Internet & AI, unknown) as Approaching.AI",
+"event": "raised",
+"date": "03 Nov 2026",
+"detail": "Raised more than RMB 1.3 billion (USD 195 million) in a Series B jointly led by six investors including ICBC Investment, ZGC Science City and Star Chain Capital.",
+"counterparty": "ICBC Investment, ZGC Science City, Star Chain Capital; SenseTime, Wangsu",
+"usd_m": 195,
+"valuation_usd_m": null,
+"source_url": "https://kr-asia.com/deals-in-brief-hello-group-acquires-inner-circle-nsv-closes-sgd-70-million-for-debut-biotech-fund-eight-china-investments-and-more",
+"file": "apac",
+"line": 2,
+"target": [
+"sheet",
+"Approaching.AI",
+"unknown | Diversified & Other"
+]
+},
+{
+"company": "GIVA",
+"known_as": "on the sheet (Luxury, Jewellery & Watches, private) as GIVA",
+"event": "raised",
+"date": "03 Nov 2026",
+"detail": "Jewellery brand raised US$103 million led by Multiples Alternate Asset Management.",
+"counterparty": "Multiples Alternate Asset Management",
+"usd_m": 103,
+"valuation_usd_m": null,
+"source_url": "https://inc42.com/buzz/from-giva-to-eloelo-group-indian-startups-raised-255-mn-this-week/",
+"file": "apac",
+"line": 3,
+"target": [
+"sheet",
+"GIVA",
+"private | Fashion, Apparel & Footwear"
+]
+},
+{
+"company": "Razorpay",
+"known_as": "on the sheet (Financial Services & Payments, private) as Razorpay",
+"event": "ipo_filed",
+"date": "13 Nov 2026",
+"detail": "Received SEBI approval for an IPO expected to raise INR 5,000-6,000 crore (US$530-630 million) at a valuation of about US$5 billion; updated DRHP reportedly due, targeting a February 2027 listing.",
+"counterparty": "SEBI",
+"usd_m": null,
+"valuation_usd_m": 5000,
+"source_url": "https://inc42.com/buzz/from-greenjoules-to-misteo-indian-startups-raised-over-25-mn-this-week/",
+"file": "apac",
+"line": 4,
+"target": [
+"sheet",
+"Razorpay",
+"private | Financial Services & Payments"
+]
+},
+{
+"company": "Q-CTRL",
+"known_as": "already in the new-brands workbook (first pass) as Q-CTRL",
+"event": "raised",
+"date": "13 Nov 2026",
+"detail": "Sydney quantum-control software firm raised US$290 million (A$425 million) in a Series C led by Salesforce Ventures, valued at more than US$1 billion.",
+"counterparty": "Salesforce Ventures; National Reconstruction Fund; AMD Ventures",
+"usd_m": 290,
+"valuation_usd_m": 1000,
+"source_url": "https://www.startupdaily.net/topic/funding/quantum-of-unicorn-q-ctrl-hits-1-4-billion-valuation-from-425m-series-c/",
+"file": "apac",
+"line": 5,
+"target": [
+"new",
+"Q-CTRL",
+"NEW Quantum Computing"
+]
+},
+{
+"company": "Heidi Health",
+"known_as": "on the sheet (Software, Internet & AI, private) as Heidi Health",
+"event": "leadership",
+"date": "06 Nov 2026",
+"detail": "Heidi is cutting about 18% of its global workforce and co-founders Waleed Mussa and Yu Liu are leaving; CEO Thomas Kelly stays.",
+"counterparty": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"source_url": "https://www.smartcompany.com.au/startupsmart/heidi-slashes-global-workforce-co-founders-exit-weeks-after-bagging-475-million/",
+"file": "apac",
+"line": 6,
+"target": [
+"sheet",
+"Heidi Health",
+"private | Software, Internet & AI"
+]
+},
+{
+"company": "Houmo.ai",
+"known_as": "already in the new-brands workbook (it qualifies) as HOUMO.AI",
+"event": "raised",
+"date": "10 Nov 2026",
+"detail": "AI chip company raised an undisclosed Series B from industrial, state-owned and international investors plus existing shareholders.",
+"counterparty": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"source_url": "https://kr-asia.com/deals-in-brief-amity-secures-series-d-extension-econili-gains-vynn-capital-backing-ten-china-investments-and-more",
+"file": "apac",
+"line": 7,
+"target": [
+"new",
+"HOUMO.AI",
+"NEW AI Chips & Semiconductors"
+]
+},
+{
+"company": "Pragmatik Labs",
+"known_as": "on the sheet (Software, Internet & AI, private) as Pragmatik Labs",
+"event": "raised",
+"date": "20 Nov 2026",
+"detail": "Shanghai AI agent startup led by ex-Qwen chief Lin Junyang raised tens of millions of dollars at a US$5 billion valuation, 2.5 times its August valuation.",
+"counterparty": "HyT Capital, CDH Investments, Geely",
+"usd_m": null,
+"valuation_usd_m": 5000,
+"source_url": "https://technode.com/2026/11/20/ex-qwen-chiefs-pragmatik-labs-raises-funding-at-5-billion-valuation/",
+"file": "apac",
+"line": 8,
+"target": [
+"sheet",
+"Pragmatik Labs",
+"private | Software, Internet & AI"
+]
+},
+{
+"company": "Unacademy",
+"known_as": "on the sheet (Education & Training, private) as Unacademy",
+"event": "leadership",
+"date": "14 Nov 2026",
+"detail": "Gaurav Munjal moves to Executive Chairman and CBO Akhilendra Kumar becomes CEO.",
+"counterparty": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"source_url": "https://entrackr.com/report/funding-and-acquisitions-in-indian-startups-this-week-nov-09-nov-14-12808553",
+"file": "apac",
+"line": 9,
+"target": [
+"sheet",
+"Unacademy",
+"private | Education & Training"
+]
+},
+{
+"company": "Sarvam AI",
+"known_as": "on the sheet (Software, Internet & AI, private) as Sarvam AI",
+"event": "leadership",
+"date": "14 Nov 2026",
+"detail": "Former Google Cloud India MD Sashikumar Sreedharan appointed President and Chief Business Officer.",
+"counterparty": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"source_url": "https://entrackr.com/report/funding-and-acquisitions-in-indian-startups-this-week-nov-09-nov-14-12808553",
+"file": "apac",
+"line": 10,
+"target": [
+"sheet",
+"Sarvam AI",
+"private | Software, Internet & AI"
+]
+},
+{
+"company": "Ultraviolette",
+"known_as": "on the sheet (Automotive & Mobility, private) as Ultraviolette Automotive",
+"event": "leadership",
+"date": "14 Nov 2026",
+"detail": "Former Royal Enfield marketer Abhijit Singh Brar appointed head of marketing.",
+"counterparty": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"source_url": "https://entrackr.com/report/funding-and-acquisitions-in-indian-startups-this-week-nov-09-nov-14-12808553",
+"file": "apac",
+"line": 11,
+"target": [
+"sheet",
+"Ultraviolette Automotive",
+"private | Automotive & Mobility"
+]
+},
+{
+"company": "Porter",
+"known_as": "on the sheet (Logistics & Transportation, private) as Porter",
+"event": "leadership",
+"date": "07 Nov 2026",
+"detail": "Gaurav Jain appointed CFO, Shubham Gupta promoted to CTO and Mohit Rathi promoted to CMO.",
+"counterparty": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"source_url": "https://entrackr.com/report/weekly-funding-report-weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-nov-02-nov-07-12791269",
+"file": "apac",
+"line": 12,
+"target": [
+"sheet",
+"Porter",
+"private | Logistics & Transportation"
+]
+},
+{
+"company": "CarDekho",
+"known_as": "on the sheet (Automotive & Mobility, private) as CarDekho",
+"event": "leadership",
+"date": "21 Nov 2026",
+"detail": "Sudhir Pai named CEO of CarDekho Group's auto classifieds business and Group Strategy Head.",
+"counterparty": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"source_url": "https://entrackr.com/report/weekly-funding-report-weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-nov-16-nov-21-12829487",
+"file": "apac",
+"line": 13,
+"target": [
+"sheet",
+"CarDekho",
+"private | Retail & E-commerce"
+]
+},
+{
+"company": "Kenvue",
+"known_as": "ALREADY KNOWN - listed on a stock exchange as Kenvue",
+"event": "taken_private",
+"date": "02 Nov 2026",
+"detail": "Kimberly-Clark completed its acquisition of Kenvue for USD 48.7bn; Kenvue is now an unlisted subsidiary (full line in refresh23_buyouts).",
+"counterparty": "Kimberly-Clark",
+"usd_m": 48700,
+"valuation_usd_m": 48700,
+"source_url": "https://news.mergerlinks.com/daily-review/kimberly-clark-completes-the-acquisition-of-kenvue-for-$-48-7bn",
+"file": "buyouts",
+"line": 0,
+"target": [
+"new",
+"Kenvue",
+"Consumer Products"
+]
+},
+{
+"company": "InPost",
+"known_as": "ALREADY KNOWN - listed on a stock exchange as InPost",
+"event": "taken_private",
+"date": "23 Nov 2026",
+"detail": "A FedEx and Advent International-led consortium completed the acquisition of InPost for EUR 7.8bn (Advent 37%, FedEx 37%, A&R 16%, PPF 10%); full line in refresh23_buyouts.",
+"counterparty": "FedEx; Advent International; A&R; PPF",
+"usd_m": 8580,
+"valuation_usd_m": 8580,
+"source_url": "https://news.mergerlinks.com/daily-review/bending-spoons-to-acquire-mailchimp-from-intuit-for-$-3-68bn",
+"file": "buyouts",
+"line": 1,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Integer Holdings",
+"known_as": "ALREADY KNOWN - on the sheet (Medical Devices & Diagnostics, listed) as Integer Holdings",
+"event": "taken_private",
+"date": "19 Nov 2026",
+"detail": "KKR completed the acquisition of Integer for USD 5.7bn.",
+"counterparty": "KKR",
+"usd_m": 5700,
+"valuation_usd_m": 5700,
+"source_url": "https://news.mergerlinks.com/daily-review/kkr-completes-the-acquisition-of-integer-for-$-5-7bn",
+"file": "buyouts",
+"line": 2,
+"target": [
+"sheet",
+"Integer Holdings",
+"private | Medical Devices & Diagnostics"
+]
+},
+{
+"company": "LXP Industrial Trust",
+"known_as": "ALREADY KNOWN - on the sheet (Real Estate, listed) as LXP Industrial Trust",
+"event": "taken_private",
+"date": "07 Nov 2026",
+"detail": "Brookfield and CPP Investments completed the acquisition of LXP Industrial Trust for USD 5.2bn.",
+"counterparty": "Brookfield; CPP Investments",
+"usd_m": 5200,
+"valuation_usd_m": 5200,
+"source_url": "https://news.mergerlinks.com/daily-review/brookfield-and-cpp-investments-complete-the-acquisition-of-lxp-industrial-trust-for-$-5-2bn",
+"file": "buyouts",
+"line": 3,
+"target": [
+"sheet",
+"LXP Industrial Trust",
+"private | Real Estate"
+]
+},
+{
+"company": "Utz Brands",
+"known_as": "ALREADY KNOWN - on the sheet (Food & Beverage, listed) as Utz Brands",
+"event": "acquired",
+"date": "23 Nov 2026",
+"detail": "Intersnack completed the acquisition of Utz Brands for USD 2.9bn.",
+"counterparty": "Intersnack",
+"usd_m": 2900,
+"valuation_usd_m": 2900,
+"source_url": "https://news.mergerlinks.com/daily-review/bending-spoons-to-acquire-mailchimp-from-intuit-for-$-3-68bn",
+"file": "buyouts",
+"line": 4,
+"target": [
+"sheet",
+"Utz Brands",
+"subsidiary | Food & Beverage"
+]
+},
+{
+"company": "Irish Continental Group",
+"known_as": "ALREADY KNOWN - on the sheet (Shipping, Maritime & Shipbuilding, listed) as Irish Continental Group",
+"event": "taken_private",
+"date": "23 Nov 2026",
+"detail": "Management-owned Bluefin Bidco (Eamonn Rothwell and three senior managers, with EUR 455m preferred equity from Global Infrastructure Management) completed the EUR 1.2bn take-private; Dublin and London listings were due to be cancelled on 23 Nov 2026.",
+"counterparty": "Bluefin Bidco",
+"usd_m": 1320,
+"valuation_usd_m": 1320,
+"source_url": "https://news.mergerlinks.com/daily-review/bending-spoons-to-acquire-mailchimp-from-intuit-for-$-3-68bn",
+"file": "buyouts",
+"line": 5,
+"target": [
+"sheet",
+"Irish Continental Group",
+"private | Shipping, Maritime & Shipbuilding"
+]
+},
+{
+"company": "Roku",
+"known_as": "ALREADY KNOWN - on the sheet (Media, Entertainment & Publishing, subsidiary) as Roku",
+"event": "acquired",
+"date": "09 Nov 2026",
+"detail": "Fox completed the acquisition of Roku for USD 22bn.",
+"counterparty": "Fox Corporation",
+"usd_m": 22000,
+"valuation_usd_m": 22000,
+"source_url": "https://news.mergerlinks.com/daily-review/fox-completes-the-acquisition-of-roku-for-$-22bn",
+"file": "buyouts",
+"line": 6,
+"target": [
+"sheet",
+"Roku",
+"subsidiary | Marketing, Advertising & PR"
+]
+},
+{
+"company": "Arcosa",
+"known_as": "ALREADY KNOWN - on the sheet (Building Products & Materials, listed) as Arcosa",
+"event": "acquired",
+"date": "26 Oct 2026",
+"detail": "CRH completed the acquisition of Arcosa in an USD 8.5bn deal.",
+"counterparty": "CRH",
+"usd_m": 8500,
+"valuation_usd_m": 8500,
+"source_url": "https://news.mergerlinks.com/daily-review/crh-completes-the-acquisition-of-arcosa-in-an-$-8-5bn-deal",
+"file": "buyouts",
+"line": 7,
+"target": [
+"sheet",
+"Arcosa",
+"subsidiary | Construction & Engineering"
+]
+},
+{
+"company": "DigitalBridge",
+"known_as": "ALREADY KNOWN - on the sheet (Investment & Capital Markets, unknown) as DigitalBridge",
+"event": "acquired",
+"date": "06 Oct 2026",
+"detail": "SoftBank completed the acquisition of DigitalBridge for USD 4bn.",
+"counterparty": "SoftBank",
+"usd_m": 4000,
+"valuation_usd_m": 4000,
+"source_url": "https://news.mergerlinks.com/daily-review/softbank-completes-the-acquisition-of-digitalbridge-for-$-4bn",
+"file": "buyouts",
+"line": 8,
+"target": [
+"sheet",
+"DigitalBridge",
+"subsidiary | Investment & Capital Markets"
+]
+},
+{
+"company": "Restaurant Brands Europe",
+"known_as": "ALREADY KNOWN - already in the new-brands workbook (it qualifies) as Restaurant Brands Europe",
+"event": "acquired",
+"date": "06 Nov 2026",
+"detail": "A consortium led by Gregorio Jiménez (with Ignacio Sánchez Galán, Grupo Costa, Point Break Capital and others) agreed to buy Cinven's 51% stake in a EUR 2.33bn (USD 2.6bn) deal.",
+"counterparty": "Gregorio Jiménez-led consortium; seller Cinven",
+"usd_m": 2600,
+"valuation_usd_m": null,
+"source_url": "https://news.mergerlinks.com/daily-review/a-consortium-led-by-gregorio-jim-nez-to-acquire-cinven-s-stake-in-restaurant-brands-europe-in-a-2-33bn-deal",
+"file": "buyouts",
+"line": 9,
+"target": [
+"new",
+"Restaurant Brands Europe",
+"Food & Beverage"
+]
+},
+{
+"company": "Perfect Corp.",
+"known_as": "ALREADY KNOWN - on the sheet (Software, Internet & AI, listed) as Perfect Corp.",
+"event": "taken_private",
+"date": "23 Oct 2026",
+"detail": "Merger with founder-controlled ProjectNY took effect; shares cancelled for USD 2 cash each and the company ceased trading on the NYSE.",
+"counterparty": "ProjectNY (Alice H. Chang)",
+"usd_m": null,
+"valuation_usd_m": null,
+"source_url": "https://fashionunited.com/news/business/perfect-corp-completes-merger-with-projectny-and-delists-from-nyse/2026102675369",
+"file": "buyouts",
+"line": 10,
+"target": [
+"sheet",
+"Perfect Corp.",
+"listed, out of scope | Software, Internet & AI"
+]
+},
+{
+"company": "Weave",
+"known_as": "ALREADY KNOWN - on the sheet (Software, Internet & AI, listed) as Weave",
+"event": "taken_private",
+"date": "27 Oct 2026",
+"detail": "Francisco Partners completed its acquisition of Weave (about USD 650m); the stock ceased trading and is no longer listed on the NYSE.",
+"counterparty": "Francisco Partners",
+"usd_m": 650,
+"valuation_usd_m": 650,
+"source_url": "https://www.visionmonday.com/eyecare/article/weave-goes-private-announces-completion-of-acquisition-by-francisco-partners/",
+"file": "buyouts",
+"line": 11,
+"target": [
+"sheet",
+"Weave",
+"listed, out of scope | Software, Internet & AI"
+]
+},
+{
+"company": "Gooch & Housego",
+"known_as": "ALREADY KNOWN - listed on a stock exchange as Gooch & Housego",
+"event": "taken_private",
+"date": "16 Oct 2026",
+"detail": "Takeover by Arlington Capital Partners' Greenlight Bidco at 1,230p per share became effective; AIM admission due to be cancelled 19 Oct 2026.",
+"counterparty": "Arlington Capital Partners",
+"usd_m": null,
+"valuation_usd_m": null,
+"source_url": "https://www.asktraders.com/?p=256536",
+"file": "buyouts",
+"line": 12,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Luxfer",
+"known_as": "ALREADY KNOWN - listed on a stock exchange as Luxfer",
+"event": "taken_private",
+"date": "23 Nov 2026",
+"detail": "Wynnchurch Capital completed the acquisition of Luxfer Holdings for USD 462.7m.",
+"counterparty": "Wynnchurch Capital",
+"usd_m": 462.7,
+"valuation_usd_m": 462.7,
+"source_url": "https://news.mergerlinks.com/daily-review/bending-spoons-to-acquire-mailchimp-from-intuit-for-$-3-68bn",
+"file": "buyouts",
+"line": 13,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Harworth Group",
+"known_as": "ALREADY KNOWN - listed on a stock exchange as Harworth Group",
+"event": "taken_private",
+"date": "12 Nov 2026",
+"detail": "Harworth delisted from the London Stock Exchange after accepting a GBP 632m takeover by Peel Group; listing cancelled from 8.00am on 12 Nov 2026 (as reported in the search result for this page).",
+"counterparty": "Peel Group",
+"usd_m": 822,
+"valuation_usd_m": 822,
+"source_url": "https://www.yorkshirepost.co.uk/business/harworth-group-delists-from-stock-exchange-amid-ps632m-takeover-from-dsa-owner-peel-9347019",
+"file": "buyouts",
+"line": 14,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Recordati",
+"known_as": "ALREADY KNOWN - listed on a stock exchange as Recordati",
+"event": "acquired",
+"date": "09 Nov 2026",
+"detail": "CVC and GBL reached 91.9% of Recordati in their EUR 53-per-share tender offer, clearing the way to delist the EUR 11bn business from Milan; delisting not yet completed.",
+"counterparty": "CVC Capital Partners; Groupe Bruxelles Lambert",
+"usd_m": null,
+"valuation_usd_m": null,
+"source_url": "https://privateequitywire.com/news/cvc-and-gbl-secure-91-9-of-recordati-paving-way-for-delisting",
+"file": "buyouts",
+"line": 15,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Leopalace21",
+"known_as": "ALREADY KNOWN - listed on a stock exchange as Leopalace21 Corporation",
+"event": "acquired",
+"date": "31 Oct 2026",
+"detail": "Hikari Tsushin's K891 (with MBK Partners and an NEC Capital Solutions affiliate, 34/33/33) completed its tender offer valuing the deal at up to USD 2.06bn; squeeze-out and delisting to follow.",
+"counterparty": "Hikari Tsushin; MBK Partners; NEC Capital Solutions",
+"usd_m": 2060,
+"valuation_usd_m": 2060,
+"source_url": "https://dealroom.co/news/168539-hikari-mbk-consortium-completes-1-6b-take-private-of-japans-leopalace21/",
+"file": "buyouts",
+"line": 16,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Genesis AI",
+"known_as": "ALREADY KNOWN - already in the new-brands workbook (first pass) as Genesis AI",
+"event": "raised",
+"date": "17 Nov 2026",
+"detail": "Paris-based Genesis AI raised a USD 500 million Series A at a USD 3.5 billion valuation, co-led by Premji Invest, Khosla Ventures and Eclipse.",
+"counterparty": "Premji Invest, Khosla Ventures, Eclipse",
+"usd_m": 500,
+"valuation_usd_m": 3500,
+"source_url": "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise/",
+"file": "europe",
+"line": 0,
+"target": [
+"new",
+"Genesis AI",
+"NEW Robotics & Autonomy"
+]
+},
+{
+"company": "Payhawk",
+"known_as": "ALREADY KNOWN - on the sheet (Financial Services & Payments, private) as Payhawk",
+"event": "raised",
+"date": "18 Nov 2026",
+"detail": "Payhawk raised a USD 280m Series C led by Goldman Sachs at a USD 2bn valuation, double its 2022 valuation.",
+"counterparty": "Goldman Sachs",
+"usd_m": 280,
+"valuation_usd_m": 2000,
+"source_url": "https://tech.eu/2026/11/18/goldman-sachs-leads-280m-funding-round-in-payhawk/",
+"file": "europe",
+"line": 1,
+"target": [
+"sheet",
+"Payhawk",
+"private | Financial Services & Payments"
+]
+},
+{
+"company": "Model ML",
+"known_as": "ALREADY KNOWN - already in the new-brands workbook (it qualifies) as Model ML",
+"event": "raised",
+"date": "17 Nov 2026",
+"detail": "Model ML raised a USD 250 million Series B led by General Atlantic and QED Investors at a USD 1.5 billion valuation.",
+"counterparty": "General Atlantic, QED Investors",
+"usd_m": 250,
+"valuation_usd_m": 1500,
+"source_url": "https://tech.eu/2026/11/17/model-ml-hits-15b-valuation-with-250m-raise-just-18-months-after-emerging-from-stealth/",
+"file": "europe",
+"line": 2,
+"target": [
+"new",
+"Model ML",
+"NEW AI Models & Applications"
+]
+},
+{
+"company": "UFORCE",
+"known_as": "ALREADY KNOWN - already in the new-brands workbook (first pass) as UFORCE",
+"event": "raised",
+"date": "12 Nov 2026",
+"detail": "Ukrainian defence tech company UFORCE raised a USD 700 million Series A at a USD 6 billion valuation, co-led by Valor Equity Partners and the UK National Wealth Fund.",
+"counterparty": "Valor Equity Partners, UK National Wealth Fund",
+"usd_m": 700,
+"valuation_usd_m": 6000,
+"source_url": "https://tech.eu/2026/11/12/ukrainian-defence-tech-uforce-raises-700m-series-a-at-6b-valuation/",
+"file": "europe",
+"line": 3,
+"target": [
+"new",
+"UFORCE",
+"NEW Defence Technology"
+]
+},
+{
+"company": "Agile Robots",
+"known_as": "ALREADY KNOWN - on the sheet (Industrial Machinery & Equipment, private) as Agile Robots",
+"event": "raised",
+"date": "12 Nov 2026",
+"detail": "Agile Robots raised a USD 500m Series F led by SoftBank, with Nvidia, Hitachi and T Capital, at a USD 8.5bn valuation.",
+"counterparty": "SoftBank",
+"usd_m": 500,
+"valuation_usd_m": 8500,
+"source_url": "https://tech.eu/2026/11/12/softbank-leads-500m-funding-round-in-agile-robots/",
+"file": "europe",
+"line": 4,
+"target": [
+"sheet",
+"Agile Robots",
+"private | Software, Internet & AI"
+]
+},
+{
+"company": "Sennder",
+"known_as": "ALREADY KNOWN - on the sheet (Logistics & Transportation, private) as Sennder",
+"event": "raised",
+"date": "11 Nov 2026",
+"detail": "Sennder raised EUR 228M: EUR 73M equity led by Scanai and Poste Italiane plus EUR 155M debt from Coface, the EIB and Deutsche Bank.",
+"counterparty": "Scanai, Poste Italiane",
+"usd_m": 80,
+"valuation_usd_m": null,
+"source_url": "https://tech.eu/2026/11/11/berlin-freight-unicorn-sennder-raises-228m-in-debt-and-equity/",
+"file": "europe",
+"line": 5,
+"target": [
+"sheet",
+"Sennder",
+"private | Logistics & Transportation"
+]
+},
+{
+"company": "Fractile",
+"known_as": "ALREADY KNOWN - on the sheet (Semiconductors & Electronics, private) as Fractile",
+"event": "raised",
+"date": "11 Nov 2026",
+"detail": "Fractile raised a GBP 500m-plus Series C (about GBP 540m) led by Thrive Capital, Founders Fund, Lightspeed and Redpoint at a valuation over GBP 5bn.",
+"counterparty": "Thrive Capital, Founders Fund, Lightspeed, Redpoint",
+"usd_m": 702,
+"valuation_usd_m": 6500,
+"source_url": "https://tech.eu/2026/11/11/lightspeed-and-googles-capital-g-back-fractile-in-ps500m-plus-funding-round/",
+"file": "europe",
+"line": 6,
+"target": [
+"sheet",
+"Fractile",
+"private | Construction & Engineering"
+]
+},
+{
+"company": "TEKEVER",
+"known_as": "ALREADY KNOWN - on the sheet (Aerospace, Defence & Space, private) as TEKEVER",
+"event": "expansion",
+"date": "06 Nov 2026",
+"detail": "Denmark's EIFO joined TEKEVER's USD 580 million Series D (valuation USD 6.4 billion) as TEKEVER opened its first Nordic operation in Odense, Denmark.",
+"counterparty": "EIFO",
+"usd_m": 580,
+"valuation_usd_m": 6400,
+"source_url": "https://tech.eu/2026/11/06/denmarks-eifo-joins-tekevers-580m-series-d-as-company-expands-into-odense/",
+"file": "europe",
+"line": 7,
+"target": [
+"sheet",
+"TEKEVER",
+"private | Aerospace, Defence & Space"
+]
+},
+{
+"company": "Oura",
+"known_as": "ALREADY KNOWN - on the sheet (Consumer Products, private) as Oura",
+"event": "expansion",
+"date": "10 Nov 2026",
+"detail": "Oura agreed to acquire AI health platform Counsel Health for USD 625 million, with closing expected before the end of 2027.",
+"counterparty": "Counsel Health",
+"usd_m": 625,
+"valuation_usd_m": null,
+"source_url": "https://webrazzi.com/2026/11/11/oura-yapay-zeka-destekli-saglik-girisimi-counsel-health-i-625-milyon-dolara-satin-aliyor/",
+"file": "europe",
+"line": 8,
+"target": [
+"sheet",
+"Oura Health",
+"private | Software, Internet & AI"
+]
+},
+{
+"company": "Decart",
+"known_as": "ALREADY KNOWN - on the sheet (Software, Internet & AI, private) as Decart",
+"event": "acquired",
+"date": "23 Nov 2026",
+"detail": "Amazon signed a USD 7.5 billion deal to buy Decart's Optimization Stack technology and bring in its founders and AI team, subject to regulatory clearance.",
+"counterparty": "Amazon",
+"usd_m": 7500,
+"valuation_usd_m": null,
+"source_url": "https://www.calcalistech.com/ctechnews/article/g0mtcg4mi",
+"file": "europe",
+"line": 9,
+"target": [
+"sheet",
+"Decart",
+"private | Construction & Engineering"
+]
+},
+{
+"company": "Sentra",
+"known_as": "ALREADY KNOWN - already in the new-brands workbook (first pass) as Sentra",
+"event": "raised",
+"date": "04 Nov 2026",
+"detail": "Sentra raised a USD 150 million strategic investment led by Capital One Ventures, bringing total funding to more than USD 250 million.",
+"counterparty": "Capital One Ventures",
+"usd_m": 150,
+"valuation_usd_m": null,
+"source_url": "https://www.calcalistech.com/ctechnews/article/s1jextotml",
+"file": "europe",
+"line": 10,
+"target": [
+"new",
+"Sentra",
+"NEW Cybersecurity"
+]
+},
+{
+"company": "Return",
+"known_as": "ALREADY KNOWN - on the sheet (Utilities & Renewable Energy, private) as Return",
+"event": "raised",
+"date": "05 Nov 2026",
+"detail": "Dutch battery-storage company Return secured EUR 835M financing (classed as debt by Tech.eu's funding tracker) to expand battery storage capacity in Germany.",
+"counterparty": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"source_url": "https://tech.eu/2026/11/09/european-tech-weekly-recap-over-eur27b-invested-across-55-deals/",
+"file": "europe",
+"line": 11,
+"target": [
+"sheet",
+"Return",
+"private | Utilities & Renewable Energy"
+]
+},
+{
+"company": "ICEYE",
+"known_as": "ALREADY KNOWN - on the sheet (Aerospace, Defence & Space, private) as ICEYE",
+"event": "expansion",
+"date": "17 Nov 2026",
+"detail": "ICEYE launched an all-cash tender offer at EUR 41 per share for Avio, valuing the Milan-listed rocket maker at about EUR 2.05 billion, and pledged EUR 1 billion of further investment in Italy.",
+"counterparty": "Avio",
+"usd_m": 2255,
+"valuation_usd_m": null,
+"source_url": "https://dealroom.co/news/173419-iceye-bids-2-05b-for-italy-s-avio-to-build-a-european-space-champion/",
+"file": "europe",
+"line": 12,
+"target": [
+"sheet",
+"ICEYE",
+"private | Aerospace, Defence & Space"
+]
+},
+{
+"company": "Nscale",
+"known_as": "ALREADY KNOWN - on the sheet (Software, Internet & AI, private) as Nscale",
+"event": "ipo_filed",
+"date": "23 Nov 2026",
+"detail": "Nscale has an amended IPO filing for a New York listing targeting a USD 35bn valuation, and froze office hiring while it decides between listing this year or in 2027.",
+"counterparty": "New York listing",
+"usd_m": null,
+"valuation_usd_m": 35000,
+"source_url": "https://dealroom.co/news/174960-nscale-freezes-office-hiring-ahead-of-planned-35b-ipo/",
+"file": "europe",
+"line": 13,
+"target": [
+"sheet",
+"Nscale",
+"private | Construction & Engineering"
+]
+},
+{
+"company": "Harworth Group",
+"known_as": "ALREADY KNOWN - listed on a stock exchange as Harworth Group",
+"event": "taken_private",
+"date": "12 Nov 2026",
+"detail": "Harworth Group de-listed from the London Stock Exchange after accepting a GBP 632m takeover by Peel Group (date per search-result snippet; article itself returned 403).",
+"counterparty": "Peel Group",
+"usd_m": 822,
+"valuation_usd_m": null,
+"source_url": "https://www.yorkshirepost.co.uk/business/harworth-group-delists-from-stock-exchange-amid-ps632m-takeover-from-dsa-owner-peel-9347019",
+"file": "europe",
+"line": 14,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "engelbert strauss",
+"known_as": "ALREADY KNOWN - already in the new-brands workbook (it qualifies) as engelbert strauss",
+"event": "sponsorship",
+"date": "09 Nov 2026",
+"detail": "German workwear brand Strauss became UEFA Refereeing's first official sponsorship partner, with sleeve branding in the Champions League and other UEFA competitions through 2028/29, plus Euro 2028.",
+"counterparty": "UEFA",
+"usd_m": null,
+"valuation_usd_m": null,
+"source_url": "https://www.insideworldfootball.com/?p=178765",
+"file": "europe",
+"line": 15,
+"target": [
+"new",
+"engelbert strauss",
+"Fashion, Apparel & Footwear"
+]
+},
+{
+"company": "Harvey",
+"known_as": "ALREADY KNOWN - on the sheet (Software, Internet & AI, private) as Harvey",
+"event": "sponsorship",
+"date": "18 Nov 2026",
+"detail": "AI legal platform Harvey signed a multi-year partnership as official legal assistant partner of the Wimbledon Championships, starting in 2027.",
+"counterparty": "All England Lawn Tennis Club (Wimbledon)",
+"usd_m": null,
+"valuation_usd_m": null,
+"source_url": "https://www.sportcal.com/sponsorship/harvey-in-as-latest-wimbledon-sponsor/",
+"file": "europe",
+"line": 16,
+"target": [
+"sheet",
+"Harvey",
+"private | Software, Internet & AI"
+]
+},
+{
+"company": "Classiq",
+"known_as": "POSSIBLY KNOWN - Classiq Technologies [on the sheet (Software, Internet & AI, private)] (same company)",
+"event": "acquired",
+"date": "06 Nov 2026",
+"detail": "Intel's filing shows it agreed (announced 26 Oct 2026) to acquire 100% of Classiq for about USD 1.9 billion plus up to USD 350 million in performance payments, closing expected H1 2027; Intel is a current F1 partner.",
+"counterparty": "Intel",
+"usd_m": 2250,
+"valuation_usd_m": null,
+"source_url": "https://www.calcalistech.com/ctechnews/article/8o8va9ri5",
+"file": "europe",
+"line": 17,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Firebolt",
+"known_as": "ALREADY KNOWN - on the sheet (Software, Internet & AI, private) as Firebolt",
+"event": "acquired",
+"date": "17 Nov 2026",
+"detail": "MongoDB announced it is acquiring Israeli data-analytics startup Firebolt at an undisclosed price reported to be significantly below its USD 1.4 billion 2022 valuation.",
+"counterparty": "MongoDB",
+"usd_m": null,
+"valuation_usd_m": null,
+"source_url": "https://www.calcalistech.com/ctechnews/article/anq8b3yg3",
+"file": "europe",
+"line": 18,
+"target": [
+"sheet",
+"Firebolt",
+"subsidiary | Software, Internet & AI"
+]
+},
+{
+"company": "NTT",
+"known_as": "NTT: ALREADY KNOWN - listed on a stock exchange as NTT (Nippon Telegraph & Telephone)",
+"event": "f1_partner",
+"date": "04 Nov 2026",
+"detail": "McLaren Racing announced a multi-year partnership making NTT (NTT Group), a global technology company, an Official Partner of the McLaren Mastercard Formula 1 Team for the 2027 season and beyond, covering responsible AI adoption and AI security governance.",
+"counterparty": "McLaren",
+"owner": "NTT Group",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://www.mclaren.com/racing/formula-1/2026/mclaren-racing-and-ntt-announce-multi-year-partnership/",
+"file": "f1",
+"line": 0,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Archer",
+"known_as": "Archer Aviation: ALREADY KNOWN - on the sheet (Aerospace, Defence & Space, listed) as Archer Aviation (lookup on plain 'Archer' matched a different, oil & gas Archer)",
+"event": "f1_partner",
+"date": "13 Nov 2026",
+"detail": "Formula 1 signed aerospace innovation brand Archer (air-taxi maker, CEO Adam Goldstein) in a multi-year deal as its first 'official supporter', a new sponsorship tier, exploring an all-electric air-taxi service at select F1 events, ahead of the 2026 Las Vegas Grand Prix.",
+"counterparty": "Formula 1 (championship)",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://www.sportcal.com/?p=154961",
+"file": "f1",
+"line": 1,
+"target": [
+"sheet",
+"Archer",
+"listed, out of scope | Oil, Gas & Fuels"
+]
+},
+{
+"company": "Nike",
+"known_as": "Nike: ALREADY KNOWN - on the sheet (Fashion, Apparel & Footwear, listed) as Nike",
+"event": "f1_partner",
+"date": "20 Nov 2026",
+"detail": "Nike becomes the official apparel and uniform provider for F1 staff from 2027 in a long-term partnership, also replacing Puma as an official partner of F1 Academy (driver apparel); first Formula 1 x Nike collection launched at the Las Vegas Grand Prix.",
+"counterparty": "Formula 1 (championship) and F1 Academy",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://www.sportcal.com/sponsorship/f1-swaps-puma-for-nike-as-apparel-partner-expands-standard-chartered-deal/",
+"file": "f1",
+"line": 2,
+"target": [
+"sheet",
+"Nike",
+"listed, out of scope | Fashion, Apparel & Footwear"
+]
+},
+{
+"company": "Puma",
+"known_as": "Puma: ALREADY KNOWN - current F1 partner (Formula 1) as Puma",
+"event": "sponsorship",
+"date": "20 Nov 2026",
+"detail": "Puma's role as Formula 1's official apparel and uniform supplier and as F1 Academy partner ends: Nike replaces Puma in both roles (Nike's F1 staff deal starts 2027); no end date or reason given.",
+"counterparty": "Formula 1 (championship) and F1 Academy",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://www.the-race.com/business/nike-to-return-to-f1-after-24-years/",
+"file": "f1",
+"line": 3,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Ondas",
+"known_as": "Ondas: ALREADY KNOWN - listed on a stock exchange as Ondas Holdings",
+"event": "f1_partner",
+"date": "18 Nov 2026",
+"detail": "Ondas Inc., a provider of autonomous systems, became a Global Partner of the Aston Martin Aramco Formula One Team in a multi-year agreement; branding on the car nose from the 2026 Las Vegas Grand Prix and on race suits from 2027.",
+"counterparty": "Aston Martin",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://www.astonmartinf1.com/en-GB/news/announcement/aston-martin-aramco-and-ondas-launch-multi-year-partnership",
+"file": "f1",
+"line": 4,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Padeltek",
+"known_as": "Padeltek: new",
+"event": "f1_partner",
+"date": "19 Oct 2026",
+"detail": "Aston Martin Aramco announced a collaboration with padel racket and bag maker Padeltek (part of the Paddletek Group), the first F1 team partner from padel/pickleball, launching co-branded rackets at the 2026 United States Grand Prix with pickleball products planned for 2027.",
+"counterparty": "Aston Martin",
+"owner": "Paddletek Group",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://www.astonmartinf1.com/en-GB/news/announcement/aston-martin-aramco-collaborate-with-padeltek",
+"file": "f1",
+"line": 5,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Elastic",
+"known_as": "Elastic: ALREADY KNOWN - on the sheet (Software, Internet & AI, listed) as Elastic",
+"event": "f1_partner",
+"date": "23 Oct 2026",
+"detail": "Audi signed Elastic as official search and observability supplier in a multi-year deal, as official race partner at the 2026 US Grand Prix and team partner from 2027.",
+"counterparty": "Audi",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://www.blackbookmotorsport.com/news/f1-us-grand-prix-sponsorship-activity/",
+"file": "f1",
+"line": 6,
+"target": [
+"sheet",
+"Elastic",
+"listed, out of scope | Software, Internet & AI"
+]
+},
+{
+"company": "Dynamo Capital",
+"known_as": "Dynamo Capital: new",
+"event": "f1_partner",
+"date": "23 Oct 2026",
+"detail": "Haas added private real estate lender Dynamo Capital as an official partner in a multi-year deal around the 2026 US Grand Prix, focused on the North American market.",
+"counterparty": "Haas",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://www.blackbookmotorsport.com/news/f1-us-grand-prix-sponsorship-activity/",
+"file": "f1",
+"line": 7,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Klaviyo",
+"known_as": "Klaviyo: ALREADY KNOWN - on the sheet (Software, Internet & AI, listed) as Klaviyo",
+"event": "f1_partner",
+"date": "23 Oct 2026",
+"detail": "Williams named Klaviyo its official B2C CRM partner in a multi-year deal, with branding on the cars (steering wheel), race suits and team kit from 2027.",
+"counterparty": "Williams",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://www.blackbookmotorsport.com/news/f1-us-grand-prix-sponsorship-activity/",
+"file": "f1",
+"line": 8,
+"target": [
+"sheet",
+"Klaviyo",
+"listed, out of scope | Marketing, Advertising & PR"
+]
+},
+{
+"company": "Insight Enterprises",
+"known_as": "Insight Enterprises: ALREADY KNOWN - listed on a stock exchange as Insight Enterprises",
+"event": "f1_partner",
+"date": "19 Oct 2026",
+"detail": "Arizona-based IT solutions firm Insight Enterprises became official technology lifecycle management partner of the Las Vegas Grand Prix (race on 21 November 2026); terms not disclosed.",
+"counterparty": "Las Vegas Grand Prix",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://www.sportcal.com/sponsorship/insight-in-as-las-vegas-grand-prix-sponsor",
+"file": "f1",
+"line": 9,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Ooredoo",
+"known_as": "Ooredoo: ALREADY KNOWN - on the sheet (Telecommunications, listed) as Ooredoo",
+"event": "f1_partner",
+"date": "26 Oct 2026",
+"detail": "Lusail International Circuit named Ooredoo Qatar a Founding Partner of the 2026 Qatar Airways Formula 1 Grand Prix and MotoGP Grand Prix, providing 5G+ fan connectivity; financial terms and duration not disclosed.",
+"counterparty": "Qatar Grand Prix (Lusail International Circuit)",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://qna.org.qa/en/News-Area/News/2026-10/26/lic-ooredoo-qatar-forge-partnership-for-2026-formula-1-and-motogp-grands-prix",
+"file": "f1",
+"line": 10,
+"target": [
+"sheet",
+"Ooredoo",
+"listed, out of scope | Media, Entertainment & Publishing"
+]
+},
+{
+"company": "Doha Oasis",
+"known_as": "Doha Oasis: new",
+"event": "f1_partner",
+"date": "18 Nov 2026",
+"detail": "Lusail International Circuit announced lifestyle destination Doha Oasis as Official Partner and Event Supporter Partner for the F1 Qatar Grand Prix 2026 (27-29 Nov) and the circuit's 2027 MotoGP and WEC events, with Fan Zone activations.",
+"counterparty": "Qatar Grand Prix (Lusail International Circuit)",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://qna.org.qa/en/News-Area/News/2026-11/18/lusail-international-circuit-announces-doha-oasis-as-official-partner",
+"file": "f1",
+"line": 11,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Anthropic",
+"known_as": "ALREADY KNOWN - current F1 partner (Williams) as Anthropic (Claude)",
+"event": "listed",
+"date": "19 Nov 2026",
+"detail": "Anthropic PBC priced an upsized IPO of 980 million shares at $83 (above the $70-$78 range) on 18 Nov 2026, raising $81.3 billion, the largest IPO ever, at a fully diluted market value of $1.38 trillion; shares opened at $111.50 on Nasdaq under ANT on 19 Nov.",
+"counterparty": "Nasdaq",
+"owner": "",
+"usd_m": 81340,
+"valuation_usd_m": 1376963,
+"status": "completed",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/News/122776/anthropic-prices-upsized-ipo-at-83-above-the-range;-raises-81b",
+"file": "ipo",
+"line": 0,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Windward Bio",
+"known_as": "ALREADY KNOWN - on the sheet (Pharma & Biotech, private) as Windward Bio",
+"event": "listed",
+"date": "13 Nov 2026",
+"detail": "Windward Bio Group AG, a clinical-stage antibody biotech, priced its IPO at $17 (midpoint) and began trading on Nasdaq as WWB on 13 Nov 2026, raising $175M at a $1,046M market cap (IPO plus concurrent placement $251.2M per StockAnalysis).",
+"counterparty": "Nasdaq",
+"owner": "",
+"usd_m": 175,
+"valuation_usd_m": 1046,
+"status": "completed",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/News/122727/us-ipo-weekly-recap-two-sizable-ipos-price-a-multibillion-dollar-deal",
+"file": "ipo",
+"line": 1,
+"target": [
+"sheet",
+"Windward Bio",
+"private, out of scope | Pharma & Biotech"
+]
+},
+{
+"company": "vVardis",
+"known_as": "new",
+"event": "listed",
+"date": "13 Nov 2026",
+"detail": "Swiss cavity-treatment company vVardis Holding priced its US IPO at $18, below the $21-$24 range, raising $175M; listed on the NYSE as VVVV at a $1,109M market cap.",
+"counterparty": "NYSE",
+"owner": "",
+"usd_m": 175,
+"valuation_usd_m": 1109,
+"status": "completed",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/News/122706/vvardis-holding-offers-more-shares-but-prices-us-ipo-below-the-range-at-18",
+"file": "ipo",
+"line": 2,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Modern Mining Technology",
+"known_as": "new",
+"event": "listed",
+"date": "13 Nov 2026",
+"detail": "Modern Mining Technology Corp. IPO'd on 13 Nov 2026 at $4.25 per share (ticker MDRN); no deal size given on the page.",
+"counterparty": "",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "completed",
+"source_url": "https://stockanalysis.com/ipos/",
+"file": "ipo",
+"line": 3,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Denglin",
+"known_as": "new",
+"event": "listed",
+"date": "10 Nov 2026",
+"detail": "Suzhou Denglin Technology, a GPU designer, priced 6.1 million shares at HK$231 (low end of range), raising HK$1.41 billion, and fell 7.8% on its Hong Kong debut on 10 Nov 2026.",
+"counterparty": "Hong Kong Stock Exchange",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "completed",
+"source_url": "https://theedgemalaysia.com/node/825184",
+"file": "ipo",
+"line": 4,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Jiangsu Xinde Semiconductor",
+"known_as": "new",
+"event": "listed",
+"date": "10 Nov 2026",
+"detail": "Jiangsu Xinde Semiconductor Technology, a chip assembly and testing firm, priced 106.6 million shares at HK$8.88, raising HK$946 million, and rose 28.3% on its Hong Kong debut on 10 Nov 2026 (Denglin and Xinde together raised US$301M).",
+"counterparty": "Hong Kong Stock Exchange",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "completed",
+"source_url": "https://theedgemalaysia.com/node/825184",
+"file": "ipo",
+"line": 5,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "RelyEZ",
+"known_as": "POSSIBLY KNOWN (same company? if yes, leave it out) - RelyEZ Energy Storage Technology Co., Ltd. [listed on a stock exchange]",
+"event": "listed",
+"date": "10 Nov 2026",
+"detail": "RelyEZ Energy Storage Technology raised HK$562.7 million in its Hong Kong IPO and rose as much as 129% on its debut; retail tranche 1,389 times subscribed.",
+"counterparty": "Hong Kong Stock Exchange",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "completed",
+"source_url": "https://theedgemalaysia.com/node/825184",
+"file": "ipo",
+"line": 6,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "HOSIN Electronics",
+"known_as": "ALREADY KNOWN - listed on a stock exchange as HOSIN Electronics Co., LTD.",
+"event": "listed",
+"date": "15 Nov 2026",
+"detail": "Controller chip designer HOSIN Electronics completed a $140mm Hong Kong IPO in the week to 13 Nov and traded slightly down (Renaissance international weekly).",
+"counterparty": "Hong Kong Stock Exchange",
+"owner": "",
+"usd_m": 140,
+"valuation_usd_m": null,
+"status": "completed",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1587",
+"file": "ipo",
+"line": 7,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Dubai Investments Park",
+"known_as": "POSSIBLY KNOWN (same company? if yes, leave it out) - Dubai Investments [listed on a stock exchange]; Dubai Holding [already in the new-brands workbook (it qualifies)]",
+"event": "listed",
+"date": "15 Nov 2026",
+"detail": "DIP Holding (Dubai Investments Park), a real estate operator in which Dubai Investments PJSC sold 20%, debuted on the Dubai Financial Market after a $530mm IPO, the UAE's first IPO of 2026, rising 4%. Trading was expected on or around 11 Nov 2026 on the DFM (Khaleej Times).",
+"counterparty": "Dubai Financial Market",
+"owner": "Dubai Investments PJSC",
+"usd_m": 530,
+"valuation_usd_m": null,
+"status": "completed",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1587",
+"file": "ipo",
+"line": 8,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Barazani Group",
+"known_as": "new",
+"event": "listed",
+"date": "15 Nov 2026",
+"detail": "Construction firm Barazani Group listed in Tel Aviv after a $320mm IPO and slipped 4%.",
+"counterparty": "Tel Aviv Stock Exchange",
+"owner": "",
+"usd_m": 320,
+"valuation_usd_m": null,
+"status": "completed",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1587",
+"file": "ipo",
+"line": 9,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Kwa Nokeng Oil",
+"known_as": "new",
+"event": "listed",
+"date": "15 Nov 2026",
+"detail": "Botswana fuel distributor Kwa Nokeng Oil listed after a $120mm IPO and rose 20%.",
+"counterparty": "Botswana exchange",
+"owner": "",
+"usd_m": 120,
+"valuation_usd_m": null,
+"status": "completed",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1587",
+"file": "ipo",
+"line": 10,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Quick Mart",
+"known_as": "POSSIBLY KNOWN (same company? if yes, leave it out) - Quick Co.,Ltd. [listed on a stock exchange]",
+"event": "listed",
+"date": "15 Nov 2026",
+"detail": "Kenyan retailer Quick Mart listed after a self-underwritten $120mm IPO and rose 10%.",
+"counterparty": "Kenya exchange",
+"owner": "",
+"usd_m": 120,
+"valuation_usd_m": null,
+"status": "completed",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1587",
+"file": "ipo",
+"line": 11,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Big Caring",
+"known_as": "new",
+"event": "listed",
+"date": "22 Nov 2026",
+"detail": "Pharmacy chain Big Caring listed in Malaysia after a $500mm IPO and traded flat.",
+"counterparty": "Malaysia exchange",
+"owner": "",
+"usd_m": 500,
+"valuation_usd_m": null,
+"status": "completed",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1595",
+"file": "ipo",
+"line": 12,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Blue Lagoon",
+"known_as": "new",
+"event": "listed",
+"date": "22 Nov 2026",
+"detail": "Icelandic resort operator Blue Lagoon listed in Iceland after a $120mm IPO and slipped 8%.",
+"counterparty": "Iceland exchange",
+"owner": "",
+"usd_m": 120,
+"valuation_usd_m": null,
+"status": "completed",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1595",
+"file": "ipo",
+"line": 13,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "EAAA India Alternatives",
+"known_as": "new",
+"event": "listed",
+"date": "02 Nov 2026",
+"detail": "Alternative asset manager EAAA India Alternatives listed in India on 2 Nov 2026 (listing date per Upstox) after a $130mm IPO.",
+"counterparty": "NSE/BSE",
+"owner": "",
+"usd_m": 130,
+"valuation_usd_m": null,
+"status": "completed",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1581",
+"file": "ipo",
+"line": 14,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Banque du Caire",
+"known_as": "ALREADY KNOWN - on the sheet (Banking & Lending, state-owned) as Banque du Caire",
+"event": "listed",
+"date": "08 Nov 2026",
+"detail": "State-owned Egyptian lender Banque du Caire debuted in Egypt in the week to 6 Nov after a $660mm IPO and finished the week up 5%.",
+"counterparty": "Egypt exchange",
+"owner": "",
+"usd_m": 660,
+"valuation_usd_m": null,
+"status": "completed",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1581",
+"file": "ipo",
+"line": 15,
+"target": [
+"sheet",
+"Banque du Caire",
+"state-owned, out of scope | Banking & Lending"
+]
+},
+{
+"company": "Wonder",
+"known_as": "ALREADY KNOWN - on the sheet (Food & Beverage, private) as Wonder",
+"event": "ipo_filed",
+"date": "05 Nov 2026",
+"detail": "Marc Lore's food-tech company Wonder Group confidentially submitted a draft Form S-1 to the SEC for a proposed IPO of Class A common stock; share count and price range not yet set (it raised a $650M Series D at a $9B pre-money valuation in July 2026).",
+"counterparty": "SEC (US IPO)",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://dealroom.co/news/170215-marc-lores-wonder-confidentially-files-for-a-us-ipo/",
+"file": "ipo",
+"line": 16,
+"target": [
+"sheet",
+"Wonder",
+"private | Food & Beverage"
+]
+},
+{
+"company": "American Barrick Gold",
+"known_as": "new",
+"event": "ipo_filed",
+"date": "10 Nov 2026",
+"detail": "American Barrick Gold, a North American gold producer being carved out of Barrick Mining, filed for a NYSE IPO under ABGC that Renaissance Capital estimates could raise up to $6 billion; no terms disclosed.",
+"counterparty": "NYSE",
+"owner": "Barrick Mining",
+"usd_m": 6000,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/News/122666/gold-mining-carve-out-american-barrick-gold-files-for-an-estimated-6",
+"file": "ipo",
+"line": 17,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Core Specialty Insurance",
+"known_as": "new",
+"event": "ipo_filed",
+"date": "16 Nov 2026",
+"detail": "Cincinnati-based specialty P&C insurer Core Specialty Insurance Holdings filed for a NYSE IPO under CORE, estimated by Renaissance Capital at $250 million; no pricing terms disclosed.",
+"counterparty": "NYSE",
+"owner": "",
+"usd_m": 250,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/News/122747/core-specialty-insurance-files-for-an-estimated-250-million-ipo",
+"file": "ipo",
+"line": 18,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "T-Head",
+"known_as": "new",
+"event": "ipo_filed",
+"date": "15 Nov 2026",
+"detail": "Alibaba's chip unit T-Head reportedly filed confidentially for a Hong Kong IPO.",
+"counterparty": "Hong Kong Stock Exchange",
+"owner": "Alibaba",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "reported",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1587",
+"file": "ipo",
+"line": 19,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Zhuanzhuan",
+"known_as": "ALREADY KNOWN - on the sheet (Retail & E-commerce, private) as Zhuanzhuan",
+"event": "ipo_filed",
+"date": "15 Nov 2026",
+"detail": "E-commerce site Zhuanzhuan reportedly filed confidentially for a Hong Kong IPO.",
+"counterparty": "Hong Kong Stock Exchange",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "reported",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1587",
+"file": "ipo",
+"line": 20,
+"target": [
+"sheet",
+"Zhuanzhuan",
+"private | Retail & E-commerce"
+]
+},
+{
+"company": "Sakana AI",
+"known_as": "ALREADY KNOWN - on the sheet (Software, Internet & AI, private) as Sakana AI",
+"event": "ipo_filed",
+"date": "15 Nov 2026",
+"detail": "Japan-based LLM developer Sakana AI hired banks for an IPO.",
+"counterparty": "",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1587",
+"file": "ipo",
+"line": 21,
+"target": [
+"sheet",
+"Sakana AI",
+"private | Software, Internet & AI"
+]
+},
+{
+"company": "Veritas Finance",
+"known_as": "ALREADY KNOWN - on the sheet (Banking & Lending, private) as Veritas Finance",
+"event": "ipo_filed",
+"date": "15 Nov 2026",
+"detail": "Indian regulators approved the listing plans of microlender Veritas Finance.",
+"counterparty": "India (SEBI)",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1587",
+"file": "ipo",
+"line": 22,
+"target": [
+"sheet",
+"Veritas Finance",
+"private | Banking & Lending"
+]
+},
+{
+"company": "Carlsberg India",
+"known_as": "POSSIBLY KNOWN (same company? if yes, leave it out) - Carlsberg [listed on a stock exchange]",
+"event": "ipo_filed",
+"date": "15 Nov 2026",
+"detail": "Carlsberg India, which had filed IPO papers, is said to target a January launch for its Indian IPO.",
+"counterparty": "India",
+"owner": "Carlsberg",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "reported",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1587",
+"file": "ipo",
+"line": 23,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Tommy",
+"known_as": "POSSIBLY KNOWN (same company? if yes, leave it out) - Tommy Hilfiger [current F1 partner (Cadillac)]",
+"event": "ipo_filed",
+"date": "22 Nov 2026",
+"detail": "Croatian grocery chain TOMMY (not Tommy Hilfiger) had its listing plans approved by Croatian regulators and set terms for a $210mm Zagreb IPO.",
+"counterparty": "Zagreb Stock Exchange",
+"owner": "",
+"usd_m": 210,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1595",
+"file": "ipo",
+"line": 24,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Razorpay",
+"known_as": "ALREADY KNOWN - on the sheet (Financial Services & Payments, private) as Razorpay",
+"event": "ipo_filed",
+"date": "08 Nov 2026",
+"detail": "Indian regulators approved the listing plans of Razorpay.",
+"counterparty": "India (SEBI)",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1581",
+"file": "ipo",
+"line": 25,
+"target": [
+"sheet",
+"Razorpay",
+"private | Financial Services & Payments"
+]
+},
+{
+"company": "Encube Ethicals",
+"known_as": "new",
+"event": "ipo_filed",
+"date": "08 Nov 2026",
+"detail": "Indian regulators approved the listing plans of Encube Ethicals.",
+"counterparty": "India (SEBI)",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1581",
+"file": "ipo",
+"line": 26,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Mahanadi Coalfields",
+"known_as": "new",
+"event": "ipo_filed",
+"date": "22 Nov 2026",
+"detail": "Coal miner Mahanadi Coalfields, whose listing plans regulators approved (reported 8 Nov), is scheduled to debut in India after a $930mm IPO in the week of 23 Nov.",
+"counterparty": "India",
+"owner": "",
+"usd_m": 930,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1595",
+"file": "ipo",
+"line": 27,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Mapletree Investments",
+"known_as": "ALREADY KNOWN - already in the new-brands workbook (first pass) as Mapletree Investments",
+"event": "ipo_filed",
+"date": "08 Nov 2026",
+"detail": "Mapletree Investments tapped banks for a Singapore IPO.",
+"counterparty": "Singapore",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "reported",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1581",
+"file": "ipo",
+"line": 28,
+"target": [
+"new",
+"Mapletree Investments",
+"Real Estate"
+]
+},
+{
+"company": "Logisteed",
+"known_as": "ALREADY KNOWN - on the sheet (Logistics & Transportation, private) as Logisteed",
+"event": "ipo_filed",
+"date": "08 Nov 2026",
+"detail": "Logisteed invited more banks for a Tokyo IPO.",
+"counterparty": "Tokyo Stock Exchange",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "reported",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1581",
+"file": "ipo",
+"line": 29,
+"target": [
+"sheet",
+"Logisteed",
+"private | Logistics & Transportation"
+]
+},
+{
+"company": "WB Electronics",
+"known_as": "new",
+"event": "ipo_filed",
+"date": "08 Nov 2026",
+"detail": "WB Electronics invited banks to pitch for a Warsaw IPO.",
+"counterparty": "Warsaw Stock Exchange",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "reported",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1581",
+"file": "ipo",
+"line": 30,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Rohlik Group",
+"known_as": "ALREADY KNOWN - on the sheet (Retail & E-commerce, private) as Rohlik Group",
+"event": "ipo_filed",
+"date": "08 Nov 2026",
+"detail": "Czech online grocer Rohlik Group is picking advisers for an IPO; venue not specified.",
+"counterparty": "",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "reported",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1581",
+"file": "ipo",
+"line": 31,
+"target": [
+"sheet",
+"Rohlik Group",
+"private | Logistics & Transportation"
+]
+},
+{
+"company": "Tnuva",
+"known_as": "new",
+"event": "ipo_filed",
+"date": "08 Nov 2026",
+"detail": "Tnuva is reportedly drafting a prospectus for a Tel Aviv IPO.",
+"counterparty": "Tel Aviv Stock Exchange",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "reported",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1581",
+"file": "ipo",
+"line": 32,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "IOIPG Malaysia REIT",
+"known_as": "new",
+"event": "ipo_filed",
+"date": "22 Nov 2026",
+"detail": "Retail and hotel REIT spin-off IOIPG Malaysia REIT launched its IPO (reported 8 Nov) and is on the calendar to list in Malaysia after a $490mm IPO in the week of 23 Nov.",
+"counterparty": "Malaysia exchange",
+"owner": "",
+"usd_m": 490,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1595",
+"file": "ipo",
+"line": 33,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "METKA",
+"known_as": "new",
+"event": "ipo_filed",
+"date": "22 Nov 2026",
+"detail": "Infrastructure construction firm METKA is set to debut in Athens after a $330mm IPO in the week of 23 Nov.",
+"counterparty": "Athens Stock Exchange",
+"owner": "",
+"usd_m": 330,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1595",
+"file": "ipo",
+"line": 34,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Hasko",
+"known_as": "POSSIBLY KNOWN (same company? if yes, leave it out) - Haskoning [already in the new-brands workbook (it qualifies)]",
+"event": "ipo_filed",
+"date": "22 Nov 2026",
+"detail": "Components roll-up Hasko is set to debut in Stockholm after a $110mm IPO in the week of 23 Nov.",
+"counterparty": "Nasdaq Stockholm",
+"owner": "",
+"usd_m": 110,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1595",
+"file": "ipo",
+"line": 35,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "NLC India Renewables",
+"known_as": "POSSIBLY KNOWN (same company? if yes, leave it out) - NLC India [on the sheet (Utilities & Renewable Energy, subsidiary)]",
+"event": "ipo_filed",
+"date": "22 Nov 2026",
+"detail": "Renewable energy spin-off NLC India Renewables filed for an Indian IPO.",
+"counterparty": "India",
+"owner": "NLC India",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1595",
+"file": "ipo",
+"line": 36,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Envision Group",
+"known_as": "ALREADY KNOWN - on the sheet (Utilities & Renewable Energy, private) as Envision Group",
+"event": "ipo_filed",
+"date": "22 Nov 2026",
+"detail": "Renewable energy firm Envision Group tapped banks for a Hong Kong listing.",
+"counterparty": "Hong Kong Stock Exchange",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "reported",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1595",
+"file": "ipo",
+"line": 37,
+"target": [
+"sheet",
+"Envision Group",
+"private | Construction & Engineering"
+]
+},
+{
+"company": "Misr Life",
+"known_as": "new",
+"event": "ipo_filed",
+"date": "22 Nov 2026",
+"detail": "Egyptian life insurer Misr Life announced its intent to list.",
+"counterparty": "Egypt exchange",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1595",
+"file": "ipo",
+"line": 38,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "PONAR Wadowice",
+"known_as": "new",
+"event": "ipo_filed",
+"date": "22 Nov 2026",
+"detail": "Hydraulics equipment maker PONAR Wadowice disclosed plans for a Warsaw IPO.",
+"counterparty": "Warsaw Stock Exchange",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://www.renaissancecapital.com/IPO-Center/Winners-Losers/1595",
+"file": "ipo",
+"line": 39,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "OpenRouter",
+"known_as": "OpenRouter: ALREADY KNOWN - on the sheet (Software, Internet & AI, private) as OpenRouter | buyer Stripe: ALREADY KNOWN - current F1 partner (Mercedes) as Stripe",
+"event": "acquired",
+"date": "10 Nov 2026",
+"detail": "Stripe (unlisted) closed its acquisition of AI model-routing marketplace OpenRouter, announced 19 Aug 2026; OpenRouter said it is 'officially part of Stripe'; no price disclosed, The New York Times reported about $7.5B; the page does not say whether the OpenRouter brand continues (closing posts still use the name).",
+"counterparty": "Stripe",
+"owner": "Stripe",
+"usd_m": 7500,
+"valuation_usd_m": null,
+"status": "completed",
+"source_url": "https://dealroom.co/news/145922-stripe-agrees-to-acquire-openrouter/",
+"file": "ma",
+"line": 0,
+"target": [
+"sheet",
+"OpenRouter",
+"subsidiary | Software, Internet & AI"
+]
+},
+{
+"company": "Cresta",
+"known_as": "Cresta: ALREADY KNOWN - on the sheet (Software, Internet & AI, private) as Cresta | buyer Salesforce: ALREADY KNOWN - current F1 partner (Formula 1) as Salesforce",
+"event": "acquired",
+"date": "03 Nov 2026",
+"detail": "Salesforce (listed) signed a definitive agreement to acquire AI contact-centre software maker Cresta; terms undisclosed, $2.7B reported by a person familiar with the deal; close expected Q1 FY2028; brand retention not stated (Cresta to keep supporting customers' existing platforms).",
+"counterparty": "Salesforce",
+"owner": "",
+"usd_m": 2700,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://dealroom.co/news/168989-salesforce-to-buy-voice-ai-startup-cresta-for-2-7b/",
+"file": "ma",
+"line": 1,
+"target": [
+"sheet",
+"Cresta",
+"private | Software, Internet & AI"
+]
+},
+{
+"company": "Echodyne",
+"known_as": "Echodyne: ALREADY KNOWN - on the sheet (Aerospace, Defence & Space, private) as Echodyne | buyer Shield AI: ALREADY KNOWN - on the sheet (Aerospace, Defence & Space, private) as Shield AI",
+"event": "acquired",
+"date": "05 Nov 2026",
+"detail": "Shield AI (unlisted; raised $2.5B incl. a $1B Series H at a $28.8B post-money valuation) agreed to acquire Kirkland radar maker Echodyne for up to $5.3B ($4.8B at closing plus up to $500M contingent); close expected early 2027; brand retention not stated.",
+"counterparty": "Shield AI",
+"owner": "",
+"usd_m": 5300,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://www.washingtontechnology.com/companies/2026/11/shield-ai-acquires-radar-maker-echodyne-53-billion-deal/417086/",
+"file": "ma",
+"line": 2,
+"target": [
+"sheet",
+"Echodyne",
+"private | Semiconductors & Electronics"
+]
+},
+{
+"company": "Tigris Data",
+"known_as": "Tigris Data: new | buyer Dropbox: ALREADY KNOWN - current F1 partner (McLaren) as Dropbox",
+"event": "acquired",
+"date": "05 Nov 2026",
+"detail": "Dropbox (publicly traded) plans to acquire distributed AI data-storage company Tigris Data for $350M, its largest acquisition; Tigris had raised about $31.9M; brand retention not addressed.",
+"counterparty": "Dropbox",
+"owner": "",
+"usd_m": 350,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://news.crunchbase.com/ma/dbx-ai-infrastructure-deal-tigris-acquisition/",
+"file": "ma",
+"line": 3,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Level AI",
+"known_as": "Level AI: new | buyer Five9: ALREADY KNOWN - on the sheet (Software, Internet & AI, listed) as Five9",
+"event": "acquired",
+"date": "05 Nov 2026",
+"detail": "Five9 (NASDAQ: FIVN) signed a definitive agreement to acquire AI customer-journey platform Level AI for about $325M in cash from its balance sheet; close expected in 2026; release refers to 'Level AI Latitude' models, brand retention otherwise not stated.",
+"counterparty": "Five9",
+"owner": "",
+"usd_m": 325,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://www.sec.gov/Archives/edgar/data/0001288847/000128884726000141/projectlanderpressreleas.htm",
+"file": "ma",
+"line": 4,
+"target": [
+"sheet",
+"Five9",
+"listed, out of scope | Software, Internet & AI"
+]
+},
+{
+"company": "Applied Compute",
+"known_as": "Applied Compute: ALREADY KNOWN - on the sheet (Software, Internet & AI, private) as Applied Compute | buyer Palo Alto Networks: ALREADY KNOWN - on the sheet (Software, Internet & AI, listed) as Palo Alto Networks",
+"event": "acquired",
+"date": "18 Nov 2026",
+"detail": "Palo Alto Networks (NASDAQ: PANW) agreed to acquire open-weight AI post-training and inference platform Applied Compute in an all-stock deal valued at $4.5B, subject to adjustments; close expected in PANW's fiscal Q3 2027; 'Applied Compute will continue to serve' its customers, brand retention not stated.",
+"counterparty": "Palo Alto Networks",
+"owner": "",
+"usd_m": 4500,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://www.prnewswire.com/news-releases/palo-alto-networks-to-acquire-applied-compute-bringing-secure-open-weight-ai-to-the-enterprise-302944421.html",
+"file": "ma",
+"line": 5,
+"target": [
+"sheet",
+"Applied Compute",
+"private | Software, Internet & AI"
+]
+},
+{
+"company": "Decart",
+"known_as": "Decart: ALREADY KNOWN - on the sheet (Software, Internet & AI, private) as Decart | buyer Amazon: ALREADY KNOWN - owner of a current F1 partner (AWS (Formula 1), Zoox) as Amazon",
+"event": "acquired",
+"date": "18 Nov 2026",
+"detail": "Calcalist reported Amazon (listed) is close to signing a deal for Israeli AI startup Decart worth more than $7B in cash, stock and deferred payments, possibly nearly $7.5B with performance payments; neither company confirmed; Decart was valued at nearly $4B in May; brand not stated.",
+"counterparty": "Amazon",
+"owner": "",
+"usd_m": 7500,
+"valuation_usd_m": null,
+"status": "reported",
+"source_url": "https://dealroom.co/news/174312-amazon-nears-7-5b-deal-for-israeli-ai-startup-decart/",
+"file": "ma",
+"line": 6,
+"target": [
+"sheet",
+"Decart",
+"private | Construction & Engineering"
+]
+},
+{
+"company": "Inception Labs",
+"known_as": "Inception Labs: new (Inception: POSSIBLY KNOWN - Inception Fertility, different company) | buyer Nvidia: ALREADY KNOWN - on the sheet (Semiconductors & Electronics, listed) as NVIDIA",
+"event": "acquired",
+"date": "19 Nov 2026",
+"detail": "The Information reported Nvidia (listed) is in advanced talks to buy diffusion language model startup Inception (Mercury models) for at least $500M plus earnouts; nothing signed; Inception had raised about $50M; brand not stated.",
+"counterparty": "Nvidia",
+"owner": "",
+"usd_m": 500,
+"valuation_usd_m": null,
+"status": "reported",
+"source_url": "https://dealroom.co/news/174543-nvidia-is-in-advanced-talks-to-buy-diffusion-model-startup-inception-for/",
+"file": "ma",
+"line": 7,
+"target": [
+"sheet",
+"NVIDIA",
+"listed, out of scope | Construction & Engineering"
+]
+},
+{
+"company": "Mailchimp",
+"known_as": "Mailchimp: new | buyer Bending Spoons: ALREADY KNOWN - on the sheet (Software, Internet & AI, listed) as Bending Spoons | seller Intuit: ALREADY KNOWN - on the sheet (Software, Internet & AI, listed) as Intuit",
+"event": "acquired",
+"date": "19 Nov 2026",
+"detail": "Bending Spoons signed a definitive agreement to buy Mailchimp (The Rocket Science Group LLC) from Intuit for $3.68B enterprise value all-cash, with Intuit reinvesting $368M in new Bending Spoons equity; close expected early 2027; brand retention not stated; the page does not say whether Bending Spoons is listed.",
+"counterparty": "Bending Spoons",
+"owner": "Intuit",
+"usd_m": 3680,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://dealroom.co/news/174504-bending-spoons-buys-mailchimp-from-intuit-for-3-68b/",
+"file": "ma",
+"line": 8,
+"target": [
+"sheet",
+"Bending Spoons",
+"listed, out of scope | Software, Internet & AI"
+]
+},
+{
+"company": "Ada",
+"known_as": "Ada: ALREADY KNOWN - on the sheet (Software, Internet & AI, private) as Ada (\"Ada Support\": new) | partner Dialpad: ALREADY KNOWN - on the sheet (Software, Internet & AI, private) as Dialpad",
+"event": "merged",
+"date": "04 Nov 2026",
+"detail": "Dialpad agreed to merge with Toronto customer-service AI company Ada in an all-share deal valuing Ada at about $430M, down from a $1.2B peak valuation; neither party stated as listed; combined name and Ada brand not stated.",
+"counterparty": "Dialpad",
+"owner": "",
+"usd_m": 430,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://dealroom.co/news/169494-dialpad-to-merge-with-ada-in-430m-deal-down-from-1-2b-peak/",
+"file": "ma",
+"line": 9,
+"target": [
+"sheet",
+"Ada",
+"private | Diversified & Other"
+]
+},
+{
+"company": "EIS",
+"known_as": "EIS: ALREADY KNOWN - on the sheet (Software, Internet & AI, private) as EIS Group | buyer Amdocs: ALREADY KNOWN - listed on a stock exchange as Amdocs",
+"event": "acquired",
+"date": "04 Nov 2026",
+"detail": "Amdocs (listed) has acquired San Francisco insurance-technology platform EIS for roughly $340M in cash plus possible performance payments, its first move beyond telecom; brand retention not stated.",
+"counterparty": "Amdocs",
+"owner": "",
+"usd_m": 340,
+"valuation_usd_m": null,
+"status": "completed",
+"source_url": "https://dealroom.co/news/169423-amdocs-buys-insurance-platform-eis-for-340m-in-first-move-beyond-telecom/",
+"file": "ma",
+"line": 10,
+"target": [
+"sheet",
+"EIS Group",
+"subsidiary | Software, Internet & AI"
+]
+},
+{
+"company": "LAVA",
+"known_as": "LAVA: ALREADY KNOWN - on the sheet (Banking & Lending, private) as Lava (check: target is a sports loyalty tech firm) | buyer Bilt: ALREADY KNOWN - on the sheet (Financial Services & Payments, private) as Bilt",
+"event": "acquired",
+"date": "02 Nov 2026",
+"detail": "Bilt (Bilt Rewards, unlisted per Dealroom graph) has acquired sports loyalty and customer-engagement technology company LAVA for $300M; brand retention not stated.",
+"counterparty": "Bilt",
+"owner": "",
+"usd_m": 300,
+"valuation_usd_m": null,
+"status": "completed",
+"source_url": "https://dealroom.co/news/168841-bilt-buys-sports-loyalty-firm-lava-for-300m-pushing-past-housing/",
+"file": "ma",
+"line": 11,
+"target": [
+"sheet",
+"Lava",
+"private | Financial Services & Payments"
+]
+},
+{
+"company": "Fiddler AI",
+"known_as": "Fiddler AI: new | buyer CrowdStrike: ALREADY KNOWN - current F1 partner (Mercedes) as CrowdStrike",
+"event": "acquired",
+"date": "03 Nov 2026",
+"detail": "CrowdStrike (listed) agreed to buy AI security startups Fiddler AI (about $400M) and Dreadnode (about $95M) for a combined $495M, mostly cash; close expected Q4 FY2027; Fiddler will become Falcon Observe (brand not kept).",
+"counterparty": "CrowdStrike",
+"owner": "",
+"usd_m": 400,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://dealroom.co/news/169315-crowdstrike-to-buy-ai-security-startups-fiddler-and-dreadnode-for-495m/",
+"file": "ma",
+"line": 12,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Counsel Health",
+"known_as": "Counsel Health: new | buyer Oura: ALREADY KNOWN - on the sheet (Consumer Products, private) as Oura",
+"event": "acquired",
+"date": "10 Nov 2026",
+"detail": "Oura (unlisted; postponed an IPO of up to $2.2B) agreed to acquire AI-native primary care startup Counsel Health for $625M; close expected before end-2027; brand retention not stated.",
+"counterparty": "Oura",
+"owner": "",
+"usd_m": 625,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://dealroom.co/news/171381-oura-buys-counsel-health-for-625m-to-move-from-tracking-to-treating/",
+"file": "ma",
+"line": 13,
+"target": [
+"sheet",
+"Oura Health",
+"private | Software, Internet & AI"
+]
+},
+{
+"company": "Ollin Biosciences",
+"known_as": "Ollin Biosciences: ALREADY KNOWN - on the sheet (Pharma & Biotech, private) as Ollin Biosciences | buyer Johnson & Johnson: ALREADY KNOWN - listed on a stock exchange as Johnson & Johnson",
+"event": "acquired",
+"date": "16 Nov 2026",
+"detail": "Johnson & Johnson (listed) is set to acquire Austin biotech Ollin Biosciences for up to $3.3B ($2.2B upfront plus up to $1.2B in milestones), first reported by the Financial Times; neither company had confirmed per Reuters; brand not stated.",
+"counterparty": "Johnson & Johnson",
+"owner": "",
+"usd_m": 3300,
+"valuation_usd_m": null,
+"status": "reported",
+"source_url": "https://dealroom.co/news/173106-j-j-to-buy-austin-s-ollin-biosciences-for-3-3b/",
+"file": "ma",
+"line": 14,
+"target": [
+"sheet",
+"Ollin Biosciences",
+"private | Pharma & Biotech"
+]
+},
+{
+"company": "Contego Medical",
+"known_as": "Contego Medical: new | buyer Medtronic: ALREADY KNOWN - on the sheet (Medical Devices & Diagnostics, listed) as Medtronic",
+"event": "acquired",
+"date": "16 Nov 2026",
+"detail": "Medtronic (listed) agreed to acquire privately held vascular-treatment developer Contego Medical for $380M plus potential post-acquisition payments; close expected in Medtronic's fiscal Q3; brand not stated.",
+"counterparty": "Medtronic",
+"owner": "",
+"usd_m": 380,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://dealroom.co/news/173050-medtronic-to-buy-contego-medical-for-380m-to-grow-vascular-portfolio/",
+"file": "ma",
+"line": 15,
+"target": [
+"sheet",
+"Medtronic",
+"listed, out of scope | Software, Internet & AI"
+]
+},
+{
+"company": "Worldly Holdings",
+"known_as": "Worldly: POSSIBLY KNOWN (same company? if yes, leave it out) - World Co., Ltd. [listed on a stock exchange] (different company) | buyer UL Solutions: ALREADY KNOWN - on the sheet (Professional & Business Services, listed) as UL Solutions",
+"event": "acquired",
+"date": "17 Nov 2026",
+"detail": "UL Solutions (publicly traded) signed a definitive agreement to buy San Francisco supply-chain intelligence software firm Worldly Holdings for about $350M on a debt-free, cash-free basis; close expected Q1 2027; brand not stated.",
+"counterparty": "UL Solutions",
+"owner": "",
+"usd_m": 350,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://dealroom.co/news/173490-ul-solutions-to-buy-supply-chain-software-firm-worldly-for-350m/",
+"file": "ma",
+"line": 16,
+"target": [
+"sheet",
+"UL Solutions",
+"listed, out of scope | Software, Internet & AI"
+]
+},
+{
+"company": "Firebolt",
+"known_as": "Firebolt: ALREADY KNOWN - on the sheet (Software, Internet & AI, private) as Firebolt | buyer MongoDB: ALREADY KNOWN - on the sheet (Software, Internet & AI, listed) as MongoDB",
+"event": "acquired",
+"date": "17 Nov 2026",
+"detail": "MongoDB (listed) acquired Israeli data-analytics startup Firebolt (about $270M raised, $1.4B peak valuation in 2022) for an undisclosed price reported to be well below that valuation; Firebolt's engine folds into MongoDB's platform; brand not stated.",
+"counterparty": "MongoDB",
+"owner": "MongoDB",
+"usd_m": null,
+"valuation_usd_m": 1400,
+"status": "completed",
+"source_url": "https://dealroom.co/news/173595-mongodb-buys-firebolt-a-down-round-exit-from-a-1-4b-peak/",
+"file": "ma",
+"line": 17,
+"target": [
+"sheet",
+"Firebolt",
+"subsidiary | Software, Internet & AI"
+]
+},
+{
+"company": "Tribe Capital",
+"known_as": "Tribe Capital: new | buyer Payward: new (Kraken: ALREADY KNOWN - current F1 partner (Williams) as Kraken)",
+"event": "acquired",
+"date": "18 Nov 2026",
+"detail": "Payward, parent of crypto exchange Kraken (unlisted), agreed to acquire venture firm Tribe Capital Management, which manages about $2.6B; terms undisclosed; close expected Q1 2027; brand not stated.",
+"counterparty": "Payward (Kraken)",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://dealroom.co/news/174136-kraken-owner-payward-to-buy-2-6b-asset-manager-tribe-capital/",
+"file": "ma",
+"line": 18,
+"target": [
+"f1",
+"Kraken",
+"current F1 partner"
+]
+},
+{
+"company": "PGP Glass",
+"known_as": "PGP Glass: new | buyer Brookfield: ALREADY KNOWN - on the sheet (Investment & Capital Markets, listed) as Brookfield | seller Blackstone: ALREADY KNOWN - on the sheet (Investment & Capital Markets, listed) as Blackstone",
+"event": "acquired",
+"date": "23 Nov 2026",
+"detail": "Brookfield Asset Management's private equity strategy agreed to buy specialty glass packaging maker PGP Glass from Blackstone for $1.7B; close expected Q1 2027; brand not stated.",
+"counterparty": "Brookfield",
+"owner": "Blackstone",
+"usd_m": 1700,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://dealroom.co/news/174851-brookfield-to-buy-pgp-glass-from-blackstone-for-1-7b/",
+"file": "ma",
+"line": 19,
+"target": [
+"sheet",
+"Brookfield",
+"listed, out of scope | Investment & Capital Markets"
+]
+},
+{
+"company": "HUMAIN",
+"known_as": "HUMAIN: ALREADY KNOWN - on the sheet (Software, Internet & AI, state-owned) as HUMAIN | buyer Aramco: ALREADY KNOWN - current F1 partner (Formula 1) as Aramco",
+"event": "acquired",
+"date": "01 Nov 2026",
+"detail": "PIF and Aramco announced the closing of Aramco's purchase of a 49% stake in Saudi AI company HUMAIN for about SAR 9.9B ($2.6B) in cash plus AI assets; PIF keeps 51%; no valuation disclosed; HUMAIN name used throughout.",
+"counterparty": "Aramco",
+"owner": "PIF",
+"usd_m": 2600,
+"valuation_usd_m": null,
+"status": "completed",
+"source_url": "https://dealroom.co/news/168724-aramco-takes-49-of-humain-with-about-2-6b-in-cash-plus-ai-assets-pif-kee/",
+"file": "ma",
+"line": 20,
+"target": [
+"sheet",
+"HUMAIN",
+"state-owned | Construction & Engineering"
+]
+},
+{
+"company": "Unnatural Products",
+"known_as": "Unnatural Products: new | buyer argenx: ALREADY KNOWN - on the sheet (Pharma & Biotech, listed) as argenx",
+"event": "acquired",
+"date": "09 Nov 2026",
+"detail": "argenx (listed) agreed to acquire Santa Cruz peptide discovery company Unnatural Products for up to $1.15B ($550M cash upfront plus up to $595M in milestones); close expected by year-end; UNP will continue operating from Santa Cruz as argenx's peptide hub.",
+"counterparty": "argenx",
+"owner": "",
+"usd_m": 1150,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://dealroom.co/news/170616-argenx-bets-up-to-1-15b-to-buy-peptide-specialist-unnatural-products/",
+"file": "ma",
+"line": 21,
+"target": [
+"sheet",
+"argenx",
+"listed, out of scope | Pharma & Biotech"
+]
+},
+{
+"company": "Evos",
+"known_as": "Evos: new | buyer Adani Ports: ALREADY KNOWN - on the sheet (Logistics & Transportation, listed) as Adani Ports",
+"event": "acquired",
+"date": "05 Nov 2026",
+"detail": "Adani Ports and Special Economic Zone agreed an all-cash deal to buy Netherlands liquid-storage operator Evos from Igneo Infrastructure Partners at €1.18B equity value (€2.56B enterprise value); pending approvals; brand not stated.",
+"counterparty": "Adani Ports",
+"owner": "Igneo Infrastructure Partners",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://dealroom.co/news/170084-adani-ports-to-buy-europes-evos-in-1-18b-deal/",
+"file": "ma",
+"line": 22,
+"target": [
+"sheet",
+"Adani Ports and Special Economic Zone",
+"listed, out of scope | Construction & Engineering"
+]
+},
+{
+"company": "Racks Central",
+"known_as": "Racks Central: new | partner Heptamax: new",
+"event": "merged",
+"date": "19 Nov 2026",
+"detail": "SGX-listed Heptamax International signed a sale and purchase agreement for all of Singapore colocation data-centre operator Racks Central in a reverse takeover worth about $388M, issuing more than 800M new shares; combined entity referred to as enlarged Heptamax.",
+"counterparty": "Heptamax International (Singapore Exchange)",
+"owner": "",
+"usd_m": 388,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://dealroom.co/news/174339-singapore-s-racks-central-to-merge-with-heptamax-in-388m-reverse-takeove/",
+"file": "ma",
+"line": 23,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Biblio-Globus",
+"known_as": "Biblio-Globus: new | buyer Wildberries & Russ: new",
+"event": "acquired",
+"date": "12 Nov 2026",
+"detail": "Entities linked to Wildberries & Russ (RWB) are to buy a 75% stake in tour operator Biblio-Globus from Sheremetyevo International Airport, whose board approved the sale; headline says about $481M, body says roughly $601.1M, deferred and tied to future profits; terms still under discussion per sources; brand not stated.",
+"counterparty": "Wildberries & Russ",
+"owner": "Sheremetyevo International Airport",
+"usd_m": 601.1,
+"valuation_usd_m": null,
+"status": "reported",
+"source_url": "https://dealroom.co/news/172341-wildberries-russ-to-buy-tour-operator-biblio-globus-in-481m-deal/",
+"file": "ma",
+"line": 24,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Banmédica",
+"known_as": "Banmédica: new | buyer Patria: ALREADY KNOWN - already in the new-brands workbook (first pass) as Patria (Patria Investments: ALREADY KNOWN - on the sheet, listed) | seller UnitedHealth: ALREADY KNOWN - listed on a stock exchange as UnitedHealth",
+"event": "acquired",
+"date": "18 Nov 2026",
+"detail": "Brazilian private-equity firm Patria (with minority partner Linzor) secured the last regulatory approval needed to complete its roughly $1B buyout of Chile's Empresas Banmédica from UnitedHealth Group; closing not explicitly confirmed; brand not stated.",
+"counterparty": "Patria",
+"owner": "UnitedHealth Group",
+"usd_m": 1000,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://dealroom.co/news/173727-patria-clears-final-hurdle-on-1b-banmedica-healthcare-buyout/",
+"file": "ma",
+"line": 25,
+"target": [
+"new",
+"Patria",
+"NEW Defence Technology"
+]
+},
+{
+"company": "MM Packaging",
+"known_as": "MM Packaging: new | buyer KPS Capital Partners: new | seller Mayr-Melnhof: new",
+"event": "acquired",
+"date": "09 Nov 2026",
+"detail": "KPS Capital Partners agreed to buy 70% of Vienna consumer-packaging maker MM Packaging from MM Group (Mayr-Melnhof Karton, keeps 30%) at an enterprise value of €2.4B; close expected H1 2027; will operate standalone under its existing name (brand kept).",
+"counterparty": "KPS Capital Partners",
+"owner": "Mayr-Melnhof Karton",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://dealroom.co/news/170982-kps-buys-70-of-mm-packaging-in-2-4b-carve-out/",
+"file": "ma",
+"line": 26,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "SLP Vietnam (Southeast Asia Logistics Partners)",
+"known_as": "SLP: new; Southeast Asia Logistics Partners: new | buyer CTP: ALREADY KNOWN - on the sheet (Real Estate, listed) as CTP | seller Ares Management: ALREADY KNOWN - listed on a stock exchange as Ares Management",
+"event": "acquired",
+"date": "15 Nov 2026",
+"detail": "Listed Dutch industrial developer CTP agreed to buy the entire Vietnam portfolio and platform of Southeast Asia Logistics Partners from Ares Management for about $500M; pending approvals; CTP will keep operating it under the SLP name (brand kept).",
+"counterparty": "CTP",
+"owner": "Ares Management",
+"usd_m": 500,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://dealroom.co/news/172797-ctp-buys-ares-slp-vietnam-logistics-platform-for-500m/",
+"file": "ma",
+"line": 27,
+"target": [
+"sheet",
+"CTP",
+"listed, out of scope | Real Estate"
+]
+},
+{
+"company": "Waygate Technologies",
+"known_as": "Waygate Technologies: new | buyer Hexagon: ALREADY KNOWN - current F1 partner (Red Bull Racing) as Hexagon | seller Baker Hughes: ALREADY KNOWN - on the sheet (Oil, Gas & Fuels, listed) as Baker Hughes",
+"event": "acquired",
+"date": "02 Nov 2026",
+"detail": "Hexagon (listed) closed its $1.45B all-cash, cash- and debt-free purchase of non-destructive testing specialist Waygate Technologies from Baker Hughes, consolidated from 1 Nov 2026; brand retention not explicitly stated.",
+"counterparty": "Hexagon",
+"owner": "Hexagon",
+"usd_m": 1450,
+"valuation_usd_m": null,
+"status": "completed",
+"source_url": "https://dealroom.co/news/168715-hexagon-closes-1-45b-waygate-deal-betting-on-margin-turnaround/",
+"file": "ma",
+"line": 28,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Ningbo Aura Semiconductor",
+"known_as": "Ningbo Aura Semiconductor: new | buyer 3PEAK: ALREADY KNOWN - listed on a stock exchange as 3Peak Incorporated",
+"event": "acquired",
+"date": "08 Nov 2026",
+"detail": "3PEAK, via a partnership vehicle in which it holds a minority interest, is buying an 86.98% stake in unlisted clock-chip maker Ningbo Aura Semiconductor for US$508.5M in cash, valuing 100% at US$584.6M; deal in progress; brand not stated.",
+"counterparty": "3PEAK",
+"owner": "",
+"usd_m": 508.5,
+"valuation_usd_m": 584.6,
+"status": "announced",
+"source_url": "https://dealroom.co/news/170550-3peak-buys-clock-chip-unicorn-ningbo-aura-at-554m-half-its-2021-peak/",
+"file": "ma",
+"line": 29,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "HiVolt Energy Holdings",
+"known_as": "HiVolt Energy: new | buyer Archrock: ALREADY KNOWN - listed on a stock exchange as Archrock",
+"event": "acquired",
+"date": "10 Nov 2026",
+"detail": "Archrock (listed) agreed to buy prime-power microgrid builder HiVolt Energy Holdings in an all-cash deal worth up to $450M ($415M at close plus $35M earnout); close expected early 2027; brand not stated.",
+"counterparty": "Archrock",
+"owner": "",
+"usd_m": 450,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://dealroom.co/news/171421-archrock-to-buy-microgrid-firm-hivolt-in-deal-worth-up-to-450m/",
+"file": "ma",
+"line": 30,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "DTE Vantage",
+"known_as": "DTE Vantage: new | seller DTE Energy: ALREADY KNOWN - on the sheet (Utilities & Renewable Energy, listed) as DTE Energy",
+"event": "acquired",
+"date": "05 Nov 2026",
+"detail": "DTE Energy agreed to sell its non-utility business DTE Vantage (excluding EES Coke) to institutional investors advised by J.P. Morgan Asset Management's Global Infrastructure group for about $3B; close expected H1 2027; brand not stated.",
+"counterparty": "J.P. Morgan Asset Management-advised investors (unlisted funds)",
+"owner": "DTE Energy",
+"usd_m": 3000,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://dealroom.co/news/170525-dte-to-sell-non-utility-vantage-arm-to-j-p-morgan-for-3b/",
+"file": "ma",
+"line": 31,
+"target": [
+"sheet",
+"DTE Energy",
+"listed, out of scope | Utilities & Renewable Energy"
+]
+},
+{
+"company": "CNH construction equipment business",
+"known_as": "CNH: POSSIBLY KNOWN - CNH Industrial [on the sheet, listed] (unit of it); CNH construction equipment: new | buyer Kobelco: new (Kobe Steel: ALREADY KNOWN - listed on a stock exchange as Kobe Steel)",
+"event": "acquired",
+"date": "19 Nov 2026",
+"detail": "CNH agreed to sell 70% of its construction equipment business to Kobelco Construction Machinery (wholly owned by Kobe Steel, listed) to form a joint venture valuing the unit at $1B and bringing CNH about $700M in cash; completion expected by end-2027; ownership of CASE, New Holland and Eurocomach construction brands not explicitly stated.",
+"counterparty": "Kobelco Construction Machinery (Kobe Steel)",
+"owner": "CNH Industrial",
+"usd_m": 700,
+"valuation_usd_m": 1000,
+"status": "announced",
+"source_url": "https://dealroom.co/news/174179-cnh-sells-70-of-construction-unit-to-kobelco-for-700m/",
+"file": "ma",
+"line": 32,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Aviation Capital Group",
+"known_as": "Aviation Capital Group: ALREADY KNOWN - on the sheet (Aerospace, Defence & Space, subsidiary) as Aviation Capital Group | buyer ITOCHU: ALREADY KNOWN - on the sheet (Diversified & Other, listed) as ITOCHU Corporation; Tokyo Century: ALREADY KNOWN - listed on a stock exchange",
+"event": "acquired",
+"date": "12 Nov 2026",
+"detail": "ITOCHU (listed) closed its $1.95B deal for a 50% equity interest in US aircraft lessor Aviation Capital Group, held with Tokyo Century via TC Skyward Aviation U.S. under joint management; first announced 3 Aug 2026; brand not stated.",
+"counterparty": "ITOCHU",
+"owner": "Tokyo Century / ITOCHU",
+"usd_m": 1950,
+"valuation_usd_m": null,
+"status": "completed",
+"source_url": "https://dealroom.co/news/172027-itochu-closes-1-95b-deal-for-half-of-us-aircraft-lessor-acg/",
+"file": "ma",
+"line": 33,
+"target": [
+"sheet",
+"Aviation Capital Group",
+"subsidiary | Aerospace, Defence & Space"
+]
+},
+{
+"company": "Taalas",
+"known_as": "Taalas: ALREADY KNOWN - on the sheet (Semiconductors & Electronics, private) as Taalas | buyer AMD: ALREADY KNOWN - current F1 partner (Mercedes) as AMD",
+"event": "acquired",
+"date": "23 Nov 2026",
+"detail": "AMD (listed) acquired AI inference chip startup Taalas (about $220M raised) for approximately $2.9B, to add its technology to the Instinct accelerator roadmap; closing status and brand retention not stated.",
+"counterparty": "AMD",
+"owner": "",
+"usd_m": 2900,
+"valuation_usd_m": null,
+"status": "announced",
+"source_url": "https://tech.eu/2026/11/23/amd-acquires-ai-chip-startup-taalas-for-29b-to-advance-ai-inference-technology/",
+"file": "ma",
+"line": 34,
+"target": [
+"sheet",
+"Taalas",
+"private | Construction & Engineering"
+]
+},
+{
+"company": "Explorium",
+"known_as": "Explorium: new",
+"event": "closed",
+"date": "05 Nov 2026",
+"detail": "Israeli data/AI-agent startup Explorium, founded 2017 with about 130 employees, shut down after nearly nine years, co-founders Omer Har and Or Tamir announced in a farewell post; it had raised more than $127M (Dealroom graph: $144M) from backers incl. Insight Partners.",
+"counterparty": "",
+"owner": "",
+"usd_m": 127,
+"valuation_usd_m": null,
+"status": "completed",
+"source_url": "https://dealroom.co/news/170093-israels-explorium-shuts-down-after-raising-127m-as-founders-base44-thriv/",
+"file": "ma",
+"line": 35,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Gropyus",
+"known_as": "Gropyus: ALREADY KNOWN - on the sheet (Construction & Engineering, private) as Gropyus",
+"event": "closed",
+"date": "05 Nov 2026",
+"detail": "Several unnamed subsidiaries of Vienna timber-construction scaleup Gropyus filed for insolvency on 3 Nov 2026 after an acute liquidity shortage (a due investor payment did not arrive); parent Gropyus AG not affected; the company had raised more than €400M in equity incl. a €100M round in March 2026.",
+"counterparty": "",
+"owner": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"status": "completed",
+"source_url": "https://dealroom.co/news/169899-gropyus-subsidiaries-file-for-insolvency-months-after-100m-raise/",
+"file": "ma",
+"line": 36,
+"target": [
+"sheet",
+"Gropyus",
+"private | Construction & Engineering"
+]
+},
+{
+"company": "Clara",
+"known_as": "Clara: ALREADY KNOWN - on the sheet (Financial Services & Payments, private) as Clara",
+"event": "raised",
+"date": "10 Nov 2026",
+"detail": "Mexican-founded spend-management fintech Clara raised USD 105M: a USD 65M Series C led by Citius, Kaszek and DEG plus a USD 40M renewal of a General Catalyst Customer Value Fund facility; valuation not disclosed; it plans to expand its Brazil sales team; LAVCA says it passed USD 100M ARR.",
+"counterparty": "Citius, Kaszek, DEG; General Catalyst CVF",
+"usd_m": 105,
+"valuation_usd_m": null,
+"source_url": "https://latamlist.com/clara-raises-105m-series-c-round/",
+"file": "mena_latam",
+"line": 0,
+"target": [
+"sheet",
+"Clara",
+"private | Travel, Hotels & Leisure"
+]
+},
+{
+"company": "Tamara",
+"known_as": "Tamara: ALREADY KNOWN - on the sheet (Financial Services & Payments, private) as Tamara",
+"event": "raised",
+"date": "23 Nov 2026",
+"detail": "Saudi BNPL fintech Tamara added USD 400M of asset-backed DEBT facilities: a SAR 749M (about USD 200M) securitisation facility from MUFG and a USD 200M expansion of its Standard Chartered facility; no equity or valuation stated.",
+"counterparty": "MUFG Bank; Standard Chartered",
+"usd_m": 400,
+"valuation_usd_m": null,
+"source_url": "https://www.wamda.com/2026/11/tamara-expands-debt-financing-facilities-400-million-global-banks",
+"file": "mena_latam",
+"line": 1,
+"target": [
+"sheet",
+"Tamara",
+"private | Software, Internet & AI"
+]
+},
+{
+"company": "HUMAIN",
+"known_as": "HUMAIN: ALREADY KNOWN - on the sheet (Software, Internet & AI, state-owned) as HUMAIN",
+"event": "raised",
+"date": "02 Nov 2026",
+"detail": "PIF and Aramco closed a deal in which Aramco (an F1 partner), through a wholly owned subsidiary, acquired 49% of HUMAIN for about SAR 9.9 billion (USD 2.6 billion) in cash during 2026 plus AI, compute and digital assets; PIF keeps 51%; valuation not stated.",
+"counterparty": "Saudi Aramco",
+"usd_m": 2600,
+"valuation_usd_m": null,
+"source_url": "https://www.wamda.com/2026/11/saudi-aramco-acquires-49-humain-2-6-billion-cash-injection",
+"file": "mena_latam",
+"line": 2,
+"target": [
+"sheet",
+"HUMAIN",
+"state-owned | Construction & Engineering"
+]
+},
+{
+"company": "HUMAIN",
+"known_as": "HUMAIN: ALREADY KNOWN - on the sheet (Software, Internet & AI, state-owned) as HUMAIN",
+"event": "expansion",
+"date": "04 Nov 2026",
+"detail": "HUMAIN acquired Riyadh-based cloud, data, AI and security services company CNTXT to expand its enterprise AI services; financial terms and ownership structure not disclosed.",
+"counterparty": "CNTXT (target)",
+"usd_m": null,
+"valuation_usd_m": null,
+"source_url": "https://www.wamda.com/2026/11/humain-acquires-saudi-tech-firm-cntxt-expand-enterprise-ai-services",
+"file": "mena_latam",
+"line": 3,
+"target": [
+"sheet",
+"HUMAIN",
+"state-owned | Construction & Engineering"
+]
+},
+{
+"company": "Swile",
+"known_as": "Swile: ALREADY KNOWN - on the sheet (Financial Services & Payments, private) as Swile",
+"event": "expansion",
+"date": "11 Nov 2026",
+"detail": "Swile plans to invest R$ 600 million in Brazil over five years, aiming to triple its Brazilian market share to 12-15% by 2030 and enter travel and expense management there in H1 2027; Brazil is about 25% of its global operation.",
+"counterparty": "",
+"usd_m": null,
+"valuation_usd_m": null,
+"source_url": "https://www.bloomberglinea.com.br/startups/swile-investe-r-600-milhoes-no-brasil-e-quer-superar-a-franca-sua-maior-operacao/",
+"file": "mena_latam",
+"line": 4,
+"target": [
+"sheet",
+"Swile",
+"private | Marketing, Advertising & PR"
+]
+},
+{
+"company": "Novig",
+"known_as": "ALREADY KNOWN - already in the new-brands workbook (first pass) as Novig",
+"event": "sponsorship",
+"date": "19 Nov 2026",
+"detail": "Novig became the NBA's fourth authorized prediction market partner; a day earlier iGB reported commercial partnerships with seven NHL clubs including the Carolina Hurricanes, Boston Bruins and Philadelphia Flyers.",
+"counterparty": "NBA; seven NHL clubs",
+"usd_m": null,
+"valuation_usd_m": null,
+"source_url": "https://www.sportcal.com/news/nba-adds-novig-as-prediction-market-partner-aeg-joins-wave-with-og-com/",
+"file": "sponsorships",
+"line": 0,
+"target": [
+"new",
+"Novig",
+"NEW Betting & Prediction Mkts"
+]
+},
+{
+"company": "Harvey",
+"known_as": "ALREADY KNOWN - on the sheet (Software, Internet & AI, private) as Harvey",
+"event": "sponsorship",
+"date": "18 Nov 2026",
+"detail": "Harvey became the Wimbledon Championships' official legal assistant partner under a multi-year deal starting with the 2027 Championships.",
+"counterparty": "Wimbledon (All England Lawn Tennis Club)",
+"usd_m": null,
+"valuation_usd_m": null,
+"source_url": "https://www.sportcal.com/sponsorship/harvey-in-as-latest-wimbledon-sponsor/",
+"file": "sponsorships",
+"line": 1,
+"target": [
+"sheet",
+"Harvey",
+"private | Software, Internet & AI"
+]
+},
+{
+"company": "Kaufland",
+"known_as": "ALREADY KNOWN - already in the new-brands workbook (v3) as Kaufland",
+"event": "sponsorship",
+"date": "05 Nov 2026",
+"detail": "Kaufland signed a multiyear international partnership as presenting sponsor of the NHL Global Series Germany and Official Grocery Retail Partner of the NHL in Germany, the Czech Republic and Slovakia.",
+"counterparty": "NHL",
+"usd_m": null,
+"valuation_usd_m": null,
+"source_url": "https://www.nhl.com/news/nhl-and-kaufland-announce-multiyear-international-partnership",
+"file": "sponsorships",
+"line": 2,
+"target": [
+"new",
+"Kaufland",
+"Retail & E-commerce"
+]
+},
+{
+"company": "JYSK",
+"known_as": "ALREADY KNOWN - already in the new-brands workbook (it qualifies) as JYSK",
+"event": "sponsorship",
+"date": "16 Nov 2026",
+"detail": "JYSK became official home furnishing retail partner of Everton Women, with branding on Goodison Park big screens and LED boards; contract length not stated.",
+"counterparty": "Everton Women (Everton FC)",
+"usd_m": null,
+"valuation_usd_m": null,
+"source_url": "https://www.insideworldfootball.com/2026/11/16/new-deals-at-barca-and-everton-show-growing-commercial-momentum-in-womens-game/",
+"file": "sponsorships",
+"line": 3,
+"target": [
+"new",
+"JYSK",
+"Home & Furniture"
+]
+},
+{
+"company": "OpenAI",
+"known_as": "ALREADY KNOWN - on the sheet (Software, Internet & AI, private) as OpenAI",
+"event": "raised",
+"date": "02 Nov 2026",
+"detail": "OpenAI has roughly USD 11 billion in investor commitments at about a USD 1.25 trillion valuation, short of its original USD 30 billion target (cut to a reported USD 20 billion); the round remains open.",
+"counterparty": "UAE-led consortium incl. MGX; Coatue; Sequoia Capital; Founders Fund; Andreessen Horowitz",
+"usd_m": 11000,
+"valuation_usd_m": 1250000,
+"source_url": "https://techstartups.com/2026/11/02/openai-falls-short-of-30-billion-funding-goal-as-investors-grow-wary-of-ai-spending/",
+"file": "us_ai",
+"line": 0,
+"target": [
+"sheet",
+"OpenAI",
+"private | Diversified & Other"
+]
+},
+{
+"company": "fal",
+"known_as": "ALREADY KNOWN - on the sheet (Software, Internet & AI, private) as fal",
+"event": "raised",
+"date": "04 Nov 2026",
+"detail": "fal raised USD 1.3B in a Series F at about a USD 16B valuation led by Bessemer Venture Partners, with Nvidia, Sound Ventures, HOF Capital and T. Rowe Price.",
+"counterparty": "Bessemer Venture Partners",
+"usd_m": 1300,
+"valuation_usd_m": 16000,
+"source_url": "https://techstartups.com/2026/11/04/startup-funding-news-today-november-4-2026-fal-traversal-lingchuan-technology-more/",
+"file": "us_ai",
+"line": 1,
+"target": [
+"sheet",
+"fal",
+"private | Construction & Engineering"
+]
+},
+{
+"company": "Mirendil",
+"known_as": "ALREADY KNOWN - on the sheet (Software, Internet & AI, private) as Mirendil",
+"event": "raised",
+"date": "13 Nov 2026",
+"detail": "Mirendil raised a USD 1B Series A co-led by Kleiner Perkins and Clearlake Capital; total raised about USD 1.2B; valuation not disclosed.",
+"counterparty": "Kleiner Perkins; Clearlake Capital",
+"usd_m": 1000,
+"valuation_usd_m": null,
+"source_url": "https://news.crunchbase.com/venture/biggest-startup-funding-rounds-agentic-ai-infrastructure-mirendil-mercor/",
+"file": "us_ai",
+"line": 2,
+"target": [
+"sheet",
+"Mirendil",
+"private | Software, Internet & AI"
+]
+},
+{
+"company": "Mercor",
+"known_as": "ALREADY KNOWN - on the sheet (Software, Internet & AI, private) as Mercor",
+"event": "raised",
+"date": "10 Nov 2026",
+"detail": "Mercor raised USD 750M in a Series D at a USD 20B valuation, backed by Nvidia, Salesforce, Benchmark, General Catalyst and others.",
+"counterparty": "Benchmark; General Catalyst; Nvidia; Salesforce",
+"usd_m": 750,
+"valuation_usd_m": 20000,
+"source_url": "https://techstartups.com/2026/11/11/mercor-raises-750m-at-20b-valuation-doubling-its-worth-in-just-over-a-year-with-backing-from-nvidia-salesforce/",
+"file": "us_ai",
+"line": 3,
+"target": [
+"sheet",
+"Mercor",
+"private | Software, Internet & AI"
+]
+},
+{
+"company": "LangChain",
+"known_as": "ALREADY KNOWN - on the sheet (Software, Internet & AI, private) as LangChain",
+"event": "raised",
+"date": "13 Nov 2026",
+"detail": "LangChain raised USD 300M in a Series C led by CapitalG at a USD 3B valuation.",
+"counterparty": "CapitalG",
+"usd_m": 300,
+"valuation_usd_m": 3000,
+"source_url": "https://news.crunchbase.com/venture/biggest-startup-funding-rounds-agentic-ai-infrastructure-mirendil-mercor/",
+"file": "us_ai",
+"line": 4,
+"target": [
+"sheet",
+"LangChain",
+"private | Software, Internet & AI"
+]
+},
+{
+"company": "Nominal",
+"known_as": "ALREADY KNOWN - on the sheet (Software, Internet & AI, private) as Nominal",
+"event": "raised",
+"date": "10 Nov 2026",
+"detail": "Nominal raised a USD 240M Series C at a USD 3B valuation led by Lightspeed Venture Partners with Insight Partners.",
+"counterparty": "Lightspeed Venture Partners; Insight Partners",
+"usd_m": 240,
+"valuation_usd_m": 3000,
+"source_url": "https://techstartups.com/2026/11/10/startup-funding-news-today-november-10-2026-blackletter-nominal-project-omega-sumary-vessel-more/",
+"file": "us_ai",
+"line": 5,
+"target": [
+"sheet",
+"Nominal",
+"private | Software, Internet & AI"
+]
+},
+{
+"company": "Applied Compute",
+"known_as": "ALREADY KNOWN - on the sheet (Software, Internet & AI, private) as Applied Compute",
+"event": "raised",
+"date": "06 Nov 2026",
+"detail": "Applied Compute raised USD 350M at a USD 3.25B valuation led by Elad Gil, with Nvidia participating; ARR has topped USD 100M.",
+"counterparty": "Elad Gil; Nvidia",
+"usd_m": 350,
+"valuation_usd_m": 3250,
+"source_url": "https://news.crunchbase.com/venture/biggest-startup-rounds-ai-defense-space-tech-shield-zipline/",
+"file": "us_ai",
+"line": 6,
+"target": [
+"sheet",
+"Applied Compute",
+"private | Software, Internet & AI"
+]
+},
+{
+"company": "Sentra",
+"known_as": "ALREADY KNOWN - already in the new-brands workbook (first pass) as Sentra",
+"event": "raised",
+"date": "05 Nov 2026",
+"detail": "Sentra raised a USD 150M Series C led by Capital One Ventures, taking total funding above USD 260M.",
+"counterparty": "Capital One Ventures",
+"usd_m": 150,
+"valuation_usd_m": null,
+"source_url": "https://techstartups.com/2026/11/05/startup-funding-news-today-november-5-2026-bit-bio-sand-ai-sentra-pliant-more/",
+"file": "us_ai",
+"line": 7,
+"target": [
+"new",
+"Sentra",
+"NEW Cybersecurity"
+]
+},
+{
+"company": "Traversal",
+"known_as": "ALREADY KNOWN - already in the new-brands workbook (first pass) as Traversal",
+"event": "raised",
+"date": "03 Nov 2026",
+"detail": "Traversal raised USD 120M at a USD 1B valuation co-led by Kleiner Perkins, Redpoint and Khosla Ventures; total raised USD 173M.",
+"counterparty": "Kleiner Perkins; Redpoint; Khosla Ventures",
+"usd_m": 120,
+"valuation_usd_m": 1000,
+"source_url": "https://news.crunchbase.com/venture/biggest-startup-rounds-ai-defense-space-tech-shield-zipline/",
+"file": "us_ai",
+"line": 8,
+"target": [
+"new",
+"Traversal",
+"NEW AI Models & Applications"
+]
+},
+{
+"company": "Ocient",
+"known_as": "ALREADY KNOWN - on the sheet (Software, Internet & AI, private) as Ocient",
+"event": "raised",
+"date": "06 Nov 2026",
+"detail": "Ocient raised a USD 100M Series C co-led by BOKA Capital and OCA Ventures, bringing total funding to USD 260M.",
+"counterparty": "BOKA Capital; OCA Ventures",
+"usd_m": 100,
+"valuation_usd_m": null,
+"source_url": "https://techstartups.com/2026/11/06/startup-funding-news-today-november-6-2026-zipline-harbinger-humble-robotics-kalepa-ocient-more/",
+"file": "us_ai",
+"line": 9,
+"target": [
+"sheet",
+"Ocient",
+"private | Software, Internet & AI"
+]
+},
+{
+"company": "Rox",
+"known_as": "ALREADY KNOWN - already in the new-brands workbook (first pass) as Rox",
+"event": "raised",
+"date": "12 Nov 2026",
+"detail": "Rox raised a USD 100M Series B co-led by General Catalyst and March Capital at a USD 1.3B valuation; about USD 150M raised in total.",
+"counterparty": "General Catalyst; March Capital",
+"usd_m": 100,
+"valuation_usd_m": 1300,
+"source_url": "https://techstartups.com/2026/11/12/startup-funding-news-today-november-12-2026-fractile-uforce-agile-robots-imprint-more/",
+"file": "us_ai",
+"line": 10,
+"target": [
+"new",
+"Rox",
+"NEW AI Models & Applications"
+]
+},
+{
+"company": "Mavria",
+"known_as": "ALREADY KNOWN - already in the new-brands workbook (first pass) as Mavria",
+"event": "raised",
+"date": "09 Nov 2026",
+"detail": "Mavria, a builder of factory-built modular data centres, is valued at about USD 1B after a round led by Paradigm, per WSJ reporting; USD 130M raised in total.",
+"counterparty": "Paradigm",
+"usd_m": null,
+"valuation_usd_m": 1000,
+"source_url": "https://techstartups.com/2026/11/09/startup-funding-news-today-november-9-2026-boson-ai-onodrim-mavria-t-therapeutics-more/",
+"file": "us_ai",
+"line": 11,
+"target": [
+"new",
+"Mavria",
+"NEW AI Infra & Data Centres"
+]
+},
+{
+"company": "Blue J",
+"known_as": "ALREADY KNOWN - already in the new-brands workbook (first pass) as Blue J",
+"event": "raised",
+"date": "10 Nov 2026",
+"detail": "Toronto-based Blue J raised a USD 176M Series E led by JMI Equity at a valuation above USD 700M (above CAD 1B), to fund UK and international expansion.",
+"counterparty": "JMI Equity",
+"usd_m": 176,
+"valuation_usd_m": 700,
+"source_url": "https://www.bluej.com/ca/blog/blue-j-announces-series-e-funding",
+"file": "us_ai",
+"line": 12,
+"target": [
+"new",
+"Blue J",
+"NEW AI Models & Applications"
+]
+},
+{
+"company": "Sierra",
+"known_as": "ALREADY KNOWN - on the sheet (Software, Internet & AI, private) as Sierra",
+"event": "raised",
+"date": "23 Nov 2026",
+"detail": "Crunchbase News cites a Bloomberg report that Sierra is raising a new round at a valuation of roughly USD 30 billion (last round May 2026 at about USD 16B); not yet closed.",
+"counterparty": "",
+"usd_m": null,
+"valuation_usd_m": 30000,
+"source_url": "https://news.crunchbase.com/venture/unicorn-startup-current-valuations-thinking-machines-sierra-crunchbase/",
+"file": "us_ai",
+"line": 13,
+"target": [
+"sheet",
+"Sierra",
+"private | Software, Internet & AI"
+]
+},
+{
+"company": "Cyera",
+"known_as": "ALREADY KNOWN - on the sheet (Software, Internet & AI, private) as Cyera",
+"event": "raised",
+"date": "05 Nov 2026",
+"detail": "Cyera is reported to be raising about USD 800M led by Cyberstarts at a USD 20B valuation (up from USD 12B in June), expected to close in the coming weeks; the company did not comment.",
+"counterparty": "Cyberstarts",
+"usd_m": 800,
+"valuation_usd_m": 20000,
+"source_url": "https://dealroom.co/news/info-1cu6poa-cyeras-800-million-haul-shows-cyber-fever-hasnt-broken/",
+"file": "us_ai",
+"line": 14,
+"target": [
+"sheet",
+"Cyera",
+"private | Software, Internet & AI"
+]
+},
+{
+"company": "Zipline",
+"known_as": "Zipline International [on the sheet]",
+"event": "raised",
+"date": "05 Nov 2026",
+"detail": "Zipline raised USD 1.5B at a USD 21.5B post-money valuation led by Paradigm, WCM and Layer Global, and signed a multi-year Walmart deal to scale drone delivery to 300 supercenters.",
+"counterparty": "Paradigm; WCM Investment Management; Layer Global; Walmart",
+"usd_m": 1500,
+"valuation_usd_m": 21500,
+"source_url": "https://dealroom.co/news/169983-zipline-raises-1-5b-at-21-5b-valuation-and-signs-national-walmart-drone/",
+"file": "us_other",
+"line": 0,
+"target": [
+"none",
+"",
+""
+]
+},
+{
+"company": "Re:Build Manufacturing",
+"known_as": "Re:Build Manufacturing [on the sheet]",
+"event": "raised",
+"date": "",
+"detail": "Re:Build raised USD 2.1B in equity led by General Catalyst and JPMorganChase's Strategic Investment Group (listed in the round-up for the week of 2 Nov 2026).",
+"counterparty": "General Catalyst; JPMorganChase Strategic Investment Group",
+"usd_m": 2100,
+"valuation_usd_m": null,
+"source_url": "https://www.tryfundable.ai/blog/top-funding-rounds-week-of-2026-11-09",
+"file": "us_other",
+"line": 1,
+"target": [
+"sheet",
+"Re:Build Manufacturing",
+"private | Insurance"
+]
+},
+{
+"company": "Shield AI",
+"known_as": "Shield AI [on the sheet]",
+"event": "raised",
+"date": "",
+"detail": "Shield AI raised a USD 1B Series H within USD 2.5B of financing (incl. USD 1B Blackstone structured equity and USD 500M debt) at a USD 28.8B post-money valuation (round-up for week of 2 Nov 2026); it also agreed to acquire Echodyne.",
+"counterparty": "Disruptive; Innovation X Capital; Blackstone; JPMorgan Chase",
+"usd_m": 1000,
+"valuation_usd_m": 28800,
+"source_url": "https://www.tryfundable.ai/blog/top-funding-rounds-week-of-2026-11-09",
+"file": "us_other",
+"line": 2,
+"target": [
+"sheet",
+"Shield AI",
+"private | Aerospace, Defence & Space"
+]
+},
+{
+"company": "Echodyne",
+"known_as": "Echodyne [on the sheet]",
+"event": "acquired",
+"date": "",
+"detail": "Shield AI announced it will acquire Echodyne in a transaction valued at USD 5.3B, alongside its USD 2.5B raise at a USD 28.8B valuation (page undated).",
+"counterparty": "Shield AI",
+"usd_m": 5300,
+"valuation_usd_m": null,
+"source_url": "https://shield.ai/news/",
+"file": "us_other",
+"line": 3,
+"target": [
+"sheet",
+"Echodyne",
+"private | Semiconductors & Electronics"
+]
+},
+{
+"company": "CesiumAstro",
+"known_as": "CesiumAstro [on the sheet]",
+"event": "raised",
+"date": "05 Nov 2026",
+"detail": "CesiumAstro raised a USD 730M Series D led by Janus Henderson at a valuation above USD 4.5B, plus USD 100M of debt.",
+"counterparty": "Janus Henderson",
+"usd_m": 730,
+"valuation_usd_m": 4500,
+"source_url": "https://www.tryfundable.ai/blog/top-funding-rounds-week-of-2026-11-09",
+"file": "us_other",
+"line": 4,
+"target": [
+"sheet",
+"CesiumAstro",
+"private | Aerospace, Defence & Space"
+]
+},
+{
+"company": "Northwood Space",
+"known_as": "Northwood Space [on the sheet]",
+"event": "raised",
+"date": "02 Nov 2026",
+"detail": "Northwood Space raised a USD 375M Series C co-led by Andreessen Horowitz and DFJ Growth.",
+"counterparty": "Andreessen Horowitz; DFJ Growth",
+"usd_m": 375,
+"valuation_usd_m": null,
+"source_url": "https://app.fundz.net/funding-rounds/2026-11-02",
+"file": "us_other",
+"line": 5,
+"target": [
+"sheet",
+"Northwood Space",
+"private | Aerospace, Defence & Space"
+]
+},
+{
+"company": "Platform Accounting Group",
+"known_as": "Platform Accounting Group [on the sheet]",
+"event": "raised",
+"date": "",
+"detail": "Platform Accounting Group received USD 355M of strategic growth financing led by Treville Capital Group (round-up for the week of 2 Nov 2026).",
+"counterparty": "Treville Capital Group",
+"usd_m": 355,
+"valuation_usd_m": null,
+"source_url": "https://www.tryfundable.ai/blog/top-funding-rounds-week-of-2026-11-09",
+"file": "us_other",
+"line": 6,
+"target": [
+"sheet",
+"Platform Accounting Group",
+"private | Professional & Business Services"
+]
+},
+{
+"company": "Harbinger",
+"known_as": "Harbinger [on the sheet]",
+"event": "raised",
+"date": "05 Nov 2026",
+"detail": "Harbinger Motors raised a USD 240M Series D co-led by Tiger Global, Capricorn's Technology Impact Fund and Ridgeline, taking total capital raised since 2021 above USD 650M.",
+"counterparty": "Tiger Global; Capricorn; Ridgeline; FedEx",
+"usd_m": 240,
+"valuation_usd_m": null,
+"source_url": "https://app.fundz.net/fundings/harbinger-funding-round-series-d-c2d9ef",
+"file": "us_other",
+"line": 7,
+"target": [
+"sheet",
+"Harbinger",
+"private | Automotive & Mobility"
+]
+},
+{
+"company": "Wonder",
+"known_as": "Wonder [on the sheet]",
+"event": "raised",
+"date": "05 Nov 2026",
+"detail": "Fundz records a USD 650M Series D at a USD 9B pre-money valuation and a confidential draft S-1 submission; another page dates this round to July 2026, so the date is uncertain.",
+"counterparty": "Accel; GV; NEA",
+"usd_m": 650,
+"valuation_usd_m": 9000,
+"source_url": "https://app.fundz.net/fundings/wonder-funding-round-series-d-459650",
+"file": "us_other",
+"line": 8,
+"target": [
+"sheet",
+"Wonder",
+"private | Food & Beverage"
+]
+},
+{
+"company": "Model ML",
+"known_as": "Model ML [in the new-brands workbook]",
+"event": "raised",
+"date": "17 Nov 2026",
+"detail": "Model ML raised a USD 250M Series B led by General Atlantic and QED Investors at a USD 1.5B valuation.",
+"counterparty": "General Atlantic; QED Investors",
+"usd_m": 250,
+"valuation_usd_m": 1500,
+"source_url": "https://news.crunchbase.com/venture/biggest-startup-rounds-science-neurotech-model-ml-galvanize-therapeutics/",
+"file": "us_other",
+"line": 9,
+"target": [
+"new",
+"Model ML",
+"NEW AI Models & Applications"
+]
+},
+{
+"company": "Galvanize Therapeutics",
+"known_as": "Galvanize Therapeutics [on the sheet]",
+"event": "raised",
+"date": "16 Nov 2026",
+"detail": "Galvanize Therapeutics raised a USD 130M Series D led by HealthQuest Capital for pulsed electric field ablation technology.",
+"counterparty": "HealthQuest Capital",
+"usd_m": 130,
+"valuation_usd_m": null,
+"source_url": "https://news.crunchbase.com/venture/biggest-startup-rounds-science-neurotech-model-ml-galvanize-therapeutics/",
+"file": "us_other",
+"line": 10,
+"target": [
+"sheet",
+"Galvanize Therapeutics",
+"private | Pharma & Biotech"
+]
+},
+{
+"company": "Emulate",
+"known_as": "Emulate [on the sheet]",
+"event": "raised",
+"date": "",
+"detail": "Emulate raised USD 700M from investors including Unity and NVentures at a reported implied valuation of about USD 3.7B (round-up for the week of 9 Nov 2026).",
+"counterparty": "Unity; NVentures",
+"usd_m": 700,
+"valuation_usd_m": 3700,
+"source_url": "https://www.tryfundable.ai/blog/top-funding-rounds-week-of-2026-11-16",
+"file": "us_other",
+"line": 11,
+"target": [
+"sheet",
+"Emulate",
+"private | Pharma & Biotech"
+]
+},
+{
+"company": "VulcanForms",
+"known_as": "VulcanForms [on the sheet]",
+"event": "raised",
+"date": "",
+"detail": "VulcanForms raised USD 500M in equity led by J.P. Morgan and funds managed by Apollo (round-up for the week of 9 Nov 2026).",
+"counterparty": "J.P. Morgan; Apollo",
+"usd_m": 500,
+"valuation_usd_m": null,
+"source_url": "https://www.tryfundable.ai/blog/top-funding-rounds-week-of-2026-11-16",
+"file": "us_other",
+"line": 12,
+"target": [
+"sheet",
+"VulcanForms",
+"private | Construction & Engineering"
+]
+},
+{
+"company": "Torus",
+"known_as": "Torus [on the sheet]",
+"event": "raised",
+"date": "11 Nov 2026",
+"detail": "Torus raised USD 500M (a Series C per Bloomberg) led by Magnetar.",
+"counterparty": "Magnetar",
+"usd_m": 500,
+"valuation_usd_m": null,
+"source_url": "https://syncgtm.com/news/november-2026-week-2",
+"file": "us_other",
+"line": 13,
+"target": [
+"sheet",
+"Torus",
+"private | Utilities & Renewable Energy"
+]
+},
+{
+"company": "Path Robotics",
+"known_as": "Path Robotics [on the sheet]",
+"event": "raised",
+"date": "10 Nov 2026",
+"detail": "Path Robotics raised a USD 300M Series E led by Georgian at a USD 2.45B post-money valuation.",
+"counterparty": "Georgian",
+"usd_m": 300,
+"valuation_usd_m": 2450,
+"source_url": "https://app.fundz.net/funding-rounds/2026-11-09",
+"file": "us_other",
+"line": 14,
+"target": [
+"sheet",
+"Path Robotics",
+"private | Software, Internet & AI"
+]
+},
+{
+"company": "Modern Wealth Management",
+"known_as": "Modern Wealth Management [on the sheet]",
+"event": "raised",
+"date": "",
+"detail": "Modern Wealth Management raised USD 200M in hybrid debt and equity led by Centerbridge Partners (round-up for the week of 9 Nov 2026).",
+"counterparty": "Centerbridge Partners",
+"usd_m": 200,
+"valuation_usd_m": null,
+"source_url": "https://www.tryfundable.ai/blog/top-funding-rounds-week-of-2026-11-16",
+"file": "us_other",
+"line": 15,
+"target": [
+"sheet",
+"Modern Wealth Management",
+"private | Diversified & Other"
+]
+},
+{
+"company": "Imprint",
+"known_as": "Imprint [on the sheet]",
+"event": "raised",
+"date": "",
+"detail": "Imprint raised USD 130M led by Khosla Ventures at a valuation of about USD 1.9B (round-up for the week of 9 Nov 2026).",
+"counterparty": "Khosla Ventures",
+"usd_m": 130,
+"valuation_usd_m": 1900,
+"source_url": "https://www.tryfundable.ai/blog/top-funding-rounds-week-of-2026-11-16",
+"file": "us_other",
+"line": 16,
+"target": [
+"sheet",
+"Imprint",
+"private | Financial Services & Payments"
+]
+},
+{
+"company": "Jeeves",
+"known_as": "Jeeves [on the sheet]",
+"event": "raised",
+"date": "19 Nov 2026",
+"detail": "Jeeves announced USD 300M of financing capacity from Neuberger Berman Specialty Finance (equity/debt split not stated), following a USD 110M equity round led by CoinFund.",
+"counterparty": "Neuberger Berman",
+"usd_m": 300,
+"valuation_usd_m": null,
+"source_url": "https://ffnews.com/news/jeeves-announces-300m-in-financing-adding-neuberger-berman-to-fuel-rapid-global--d6a7ab77",
+"file": "us_other",
+"line": 17,
+"target": [
+"sheet",
+"Jeeves",
+"private | Banking & Lending"
+]
+},
+{
+"company": "Collective",
+"known_as": "Collective [on the sheet]",
+"event": "raised",
+"date": "02 Nov 2026",
+"detail": "Collective raised USD 100M: a USD 40M Series B led by General Catalyst, QED and Gradient Ventures plus a USD 60M growth facility.",
+"counterparty": "General Catalyst; QED; Gradient Ventures",
+"usd_m": 100,
+"valuation_usd_m": null,
+"source_url": "https://ffnews.com/news/collective-secures-100m-in-funding-to-expand-ai-financial-platform-for-solo-busi-01570fdb",
+"file": "us_other",
+"line": 18,
+"target": [
+"sheet",
+"Collective",
+"private | Financial Services & Payments"
+]
+},
+{
+"company": "Genesis AI",
+"known_as": "Genesis AI [in the new-brands workbook]",
+"event": "raised",
+"date": "17 Nov 2026",
+"detail": "Genesis AI raised a USD 500M Series A co-led by Premji Invest, Khosla Ventures and Eclipse at a USD 3.5B valuation to bring its robots to factories and warehouses.",
+"counterparty": "Premji Invest; Khosla Ventures; Eclipse",
+"usd_m": 500,
+"valuation_usd_m": 3500,
+"source_url": "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise/",
+"file": "us_other",
+"line": 19,
+"target": [
+"new",
+"Genesis AI",
+"NEW Robotics & Autonomy"
+]
+}
+]
