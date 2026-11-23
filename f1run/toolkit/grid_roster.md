@@ -403,3 +403,19 @@
 - Standard Chartered | Formula 1 (series) | Official Wealth Management Partner from 2026
 - Camozzi | Audi | automation; Revolut | Audi | title partner
 - Atlas Copco supplies Red Bull Powertrains (assembly tools) but is not on redbullracing.com's partner list
+
+## Addendum 3 (17 Nov 2026): facts verified by this project's research agents on 16-17 Nov (still confirm live before citing)
+- Haas | live partner page now lists Bradesco and Tenex AI (AI-run security operations)
+- "CLEAR" at Red Bull is Unilever's haircare brand (first hair care partner), NOT the identity company CLEAR Secure. Never cite it as a security or identity brand.
+- Anthropic / Claude | Williams | Official Thinking Partner, multi-year, announced February 2026
+- Rubrik | McLaren | joined 2026 (data security)
+- Cognition | Aston Martin | Global Partner, February 2026
+- SkinCeuticals | Ferrari | skincare partner since 3 Jun 2026; Elemis | Aston Martin; Gillette | Audi; Wilkinson Sword | Williams
+- Optimum Nutrition | McLaren | sports nutrition
+- SKF's Ferrari deal now sits with SKF Vertevo (SKF's automotive business being spun off)
+- Hedera | McLaren | Official Partner, 22 Jan 2026; the deal was brokered by SPORTFIVE (flag "check internally" when citing it)
+- Komatsu | Williams | renewed September 2026 as Official Hydraulic Innovation Partner
+- Solera | Mercedes; Hexagon | Red Bull; Indeed | Red Bull; Iron Mountain | McLaren; Nouryon | Racing Bulls; Zoox | Williams; Groq | McLaren; Arctic Wolf | grid (confirm team live); 1Password and Keeper on the grid (confirm teams live)
+- TWG AI | Cadillac | primary and exclusive AI partner (same owner as the team)
+- ElevenLabs | Audi; IndraMind | Alpine; Meta AI | Mercedes; G42 | Mercedes; Google (Gemini) | McLaren; Airia | Williams
+- Myprotein (THG) | Williams page exists but undated and not among current logos: treat as lapsed unless confirmed
