@@ -1,0 +1,412 @@
+{
+ "rows": [
+  {
+   "user_name": "Stahl",
+   "brand": "Stahl",
+   "people": [
+    {
+     "name": "John Schelhaas",
+     "title": "Chief Operating Officer",
+     "email": "john.schelhaas@stahl.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/john-schelhaas-3740776",
+     "location": "Netherlands"
+    },
+    {
+     "name": "Laura Willemsen",
+     "title": "Group Director Marketing and Sustainability",
+     "email": "laura.willemsen@stahl.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/laurawillemsen",
+     "location": "Breda, Netherlands"
+    },
+    {
+     "name": "Alexander Schieke",
+     "title": "Global Marketing Director",
+     "email": "alexander.schieke@stahl.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/schieke",
+     "location": "Hanover, Germany"
+    },
+    {
+     "name": "Anne ter Braak",
+     "title": "Head of Corporate Communications & Growth Marketing",
+     "email": "anne.terbraak@stahl.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/anneterbraak",
+     "location": "Breda, Netherlands"
+    }
+   ],
+   "note": "4 of 4 matched and kept, all verified on stahl.com, all currently at Stahl (Waalwijk, chemicals - the right Stahl). The CEO is not in Apollo, so the COO is the decision maker; no CRO exists. Apollo gives the fourth person's surname as 'Braak' but her email and LinkedIn read 'ter Braak' (Anne ter Braak) - use that spelling when writing to her. Laura Willemsen's headline is 'CMO/CSO at Stahl'. No backups used."
+  },
+  {
+   "user_name": "Ziehl-Abegg",
+   "brand": "Ziehl-Abegg",
+   "people": [
+    {
+     "name": "Joachim Ley",
+     "title": "CEO",
+     "email": "joachim.ley@ziehl-abegg.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/joachim-ley-09295950",
+     "location": "K\u00fcnzelsau, Germany"
+    },
+    {
+     "name": "Andreas Bauer",
+     "title": "Bereichsleiter Marketing",
+     "email": "andreas.bauer@ziehl-abegg.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/andreas-bauer-76311720a",
+     "location": "K\u00fcnzelsau, Germany"
+    },
+    {
+     "name": "Rainer Grill",
+     "title": "Director Global Communications",
+     "email": "rainer.grill@ziehl-abegg.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/rgrill",
+     "location": "K\u00fcnzelsau, Germany"
+    },
+    {
+     "name": "Steffen Halbmann",
+     "title": "Head of Digital Communication",
+     "email": "steffen.halbmann@ziehl-abegg.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/halbmann",
+     "location": "Igersheim, Germany"
+    }
+   ],
+   "note": "4 of 4 matched and kept, all verified on ziehl-abegg.com, all currently at ZIEHL-ABEGG SE. CEO since Sep 2024. No CRO / chief sales officer is listed. No backups used."
+  },
+  {
+   "user_name": "Theramex",
+   "brand": "Theramex",
+   "people": [
+    {
+     "name": "Robert Stewart",
+     "title": "Chief Executive Officer",
+     "email": "robert.stewart@theramex.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/robert-stewart-30a01ab5",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Sarah Pharaoh",
+     "title": "Vice President Global Marketing",
+     "email": "sarah.pharaoh@theramex.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sarah-pharaoh-sap",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Dennis Dencher",
+     "title": "Chief Commercial Officer (CCO)",
+     "email": "dennis.dencher@theramex.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/dennis-dencher-374572",
+     "location": "Copenhagen, Denmark"
+    },
+    {
+     "name": "Carolina Sponton",
+     "title": "Marketing & Commercial Excellence Director",
+     "email": "carolina.sponton@theramex.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/carolina-sponton-93505310",
+     "location": "S\u00e3o Paulo, Brazil"
+    },
+    {
+     "name": "Gavin Jelic-Masterton",
+     "title": "President - Global Fertility Franchise",
+     "email": "gavin.jelic-masterton@theramex.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/gavin-masterton-75a7b123",
+     "location": "Switzerland"
+    }
+   ],
+   "note": "5 of 5 matched and kept, all verified on theramex.com, all currently at Theramex. Carolina Sponton is based in S\u00e3o Paulo, Brazil, so her marketing remit may be Brazil / Latin America rather than global - check before sending. Apollo names the franchise president 'Gavin Masterton' but his email is gavin.jelic-masterton@ (surname may be Jelic-Masterton). No backups used."
+  },
+  {
+   "user_name": "PGP Glass",
+   "brand": "PGP Glass",
+   "people": [
+    {
+     "name": "Vipul Vij",
+     "title": "Chief Operations Officer",
+     "email": "vipul.vij@pgpfirst.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/vipul-vij-b7742937",
+     "location": "Surat, Gujarat, India"
+    },
+    {
+     "name": "Sanjay Jain",
+     "title": "Chief Marketing Officer",
+     "email": "sanjay.jain@pgpfirst.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sanjay-jain-14183621",
+     "location": "Mumbai, Maharashtra, India"
+    },
+    {
+     "name": "Hemal Thakor",
+     "title": "Chief Marketing Officer",
+     "email": "hemal.thakor@pgpfirst.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/hemal-thakor-80351616",
+     "location": "Mumbai, Maharashtra, India"
+    },
+    {
+     "name": "Abhishek Awasthi",
+     "title": "Head - India Retail Marketing",
+     "email": "abhishek.awasthi@pgpfirst.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/abhishek-awasthi-745b354",
+     "location": "New Delhi, India"
+    }
+   ],
+   "note": "4 of 4 matched and kept, all marked verified on pgpfirst.com and currently at PGP Glass. pgpfirst.com is a catch-all domain in Apollo, so 'verified' is weaker than usual here. No CEO / MD is in Apollo, so the Chief Operations Officer is the decision maker. Two people hold the title Chief Marketing Officer: Sanjay Jain (in the role since Apr 2022) is listed as vp_marketing and Hemal Thakor (Apollo shows the title from 1995, previously VP Marketing at Piramal Glass until 2021) as other - one may be divisional. The fourth person is regional (India retail marketing). No backups used."
+  },
+  {
+   "user_name": "InPost",
+   "brand": "InPost",
+   "people": [
+    {
+     "name": "Dariusz Lipinski",
+     "title": "InPost Group COO, VP Operations",
+     "email": "dlipinski@inpost.pl",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/dariusz-lipi%c5%84ski-4ab0b458",
+     "location": "\u0141\u00f3d\u017a, Poland"
+    },
+    {
+     "name": "Izabela Karolczyk-Szafranska",
+     "title": "VP Chief Marketing and ESG Officer",
+     "email": "ikarolczyk-szafranska@inpost.pl",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/izakarolczyk",
+     "location": "Warsaw, Poland"
+    },
+    {
+     "name": "Peter Blackburn",
+     "title": "Chief Marketing Officer, InPost UK",
+     "email": "pblackburn@inpost.co.uk",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/peter-blackburn-85063711",
+     "location": "Wokingham, United Kingdom"
+    },
+    {
+     "name": "Beniamin Schoen",
+     "title": "Marketing Director - International Markets",
+     "email": "bschon@inpost.pl",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/beniaminschon",
+     "location": "Warsaw, Poland"
+    },
+    {
+     "name": "Marcin Kalk",
+     "title": "Head of Marketing and Activation Team",
+     "email": "mkalk@inpost.pl",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/marcin-kalk-613812182",
+     "location": "Warsaw, Poland"
+    }
+   ],
+   "note": "5 of 5 matched and kept, all marked verified and all currently at InPost / InPost Group. None of the emails is on inpost.eu: four are on inpost.pl (the Polish group domain, allowed by the rule) and Peter Blackburn's is on inpost.co.uk (InPost UK, a clear group domain). All InPost domains are catch-all in Apollo, so 'verified' is weaker than usual. Peter Blackburn is the UK country CMO, not a group CMO: his employment shows 'Chief Marketing Officer @ InPost UK' and he was Commercial Director of InPost UK before. The founder-CEO is not in Apollo, so the Group COO is the decision maker; no CRO with an email. Marcin Kalk was a Brand Manager until Sep 2025 and heads a team, the most junior of the five. Backup not used."
+  },
+  {
+   "user_name": "Cary Group",
+   "brand": "Cary Group",
+   "people": [
+    {
+     "name": "Anders Jensen",
+     "title": "Chief Executive Officer",
+     "email": "anders.jensen@carygroup.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/anders-jensen-24119213",
+     "location": "Stockholm, Sweden"
+    },
+    {
+     "name": "Johannes Liebmann",
+     "title": "Group Director Marketing",
+     "email": "johannes.liebmann@carygroup.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/johannes-liebmann",
+     "location": "Munich, Germany"
+    },
+    {
+     "name": "Helene Gustafsson",
+     "title": "Head of Corporate Communication",
+     "email": "helene.gustafsson@carygroup.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/helene-gustafsson-2a746427",
+     "location": "Stockholm, Sweden"
+    },
+    {
+     "name": "Rudolf Rizzolli",
+     "title": "Deputy CEO",
+     "email": "rudolf.rizzolli@carygroup.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/rudolf-rizzolli-80bba191",
+     "location": "Sweden"
+    }
+   ],
+   "note": "4 of 4 matched and kept, all verified on carygroup.com, all currently at Cary Group. No CRO / CCO exists. No backups used."
+  },
+  {
+   "user_name": "Canaccord Genuity Wealth Management (UK & Crown Dependencies)",
+   "brand": "Canaccord Genuity Wealth Management",
+   "people": [
+    {
+     "name": "David Esfandi",
+     "title": "Chief Executive Officer",
+     "email": "david.esfandi@canaccord.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/david-esfandi-a0791b48",
+     "location": "Greater London, United Kingdom"
+    },
+    {
+     "name": "Jane Parry",
+     "title": "Group Chief Marketing Officer",
+     "email": "jane.parry@canaccord.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jane-parry-a529935",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Tom Lane",
+     "title": "Group Chief Commercial Officer",
+     "email": "thomas.lane@canaccord.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/tom-l-31188a14",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Andy Finch",
+     "title": "CEO, International",
+     "email": "andy.finch@canaccord.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/andyfinchcanaccordwealth",
+     "location": "Guernsey"
+    },
+    {
+     "name": "Nick Hodges",
+     "title": "Chief Marketing Officer (Apollo title; his LinkedIn headline says Senior Dealer)",
+     "email": "nick.hodges@canaccord.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/nick-hodges-32b754b5",
+     "location": "London, United Kingdom"
+    }
+   ],
+   "note": "5 of 5 matched and kept, all verified, all currently on Apollo's 'Canaccord Wealth' record (the UK & Crown Dependencies wealth business, London). All five emails are on canaccord.com, the group domain allowed by the rule, not on canaccordgenuity.com or canaccord-wealth.com. WARNING on Nick Hodges: Apollo's title field says 'Chief Marketing Officer' but his headline is 'Senior Dealer at Canaccord Genuity Wealth Management' and every earlier job is a dealing role (Dealer at Eden Financial, Insinger de Beaufort, Townsley) - he is almost certainly a dealer, not a marketer; the real marketing head is Jane Parry (Group CMO since Nov 2015). He passes the keep rules (current employer, verified company email) so he is listed last as 'other', but leave him out of marketing outreach unless checked. Tom Lane's email uses 'thomas'. Andy Finch runs the Crown Dependencies / international business from Guernsey. Parent-group backup not used."
+  },
+  {
+   "user_name": "Desotec",
+   "brand": "Desotec",
+   "people": [
+    {
+     "name": "Mark Thys",
+     "title": "Chief Executive Officer",
+     "email": "mark.thys@desotec.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mark-thys-0ba76511",
+     "location": "Belgium"
+    },
+    {
+     "name": "Sarah Cattrysse",
+     "title": "Global Head of Corporate Communications",
+     "email": "sarah.cattrysse@desotec.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/sarahcattrysse",
+     "location": "Ledegem, Flanders, Belgium"
+    },
+    {
+     "name": "Pieterjan Goedertier",
+     "title": "Chief Operating Officer",
+     "email": "pieterjan.goedertier@desotec.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/pieterjan-goedertier-23555328",
+     "location": "Roeselare, Flanders, Belgium"
+    }
+   ],
+   "note": "3 of 3 matched and kept, all verified on desotec.com, all currently at DESOTEC. Mark Thys has been CEO since Aug 2025 (Apollo also still shows a 'current' COO role at Renewi from 2024, which looks stale). There is no marketing head or CRO with an email, so nobody carries the vp_marketing or cro role: the Global Head of Corporate Communications is the nearest contact to marketing. The COO was acting CEO from Oct 2024 to Aug 2025. No backups used."
+  },
+  {
+   "user_name": "Flint Group",
+   "brand": "Flint Group",
+   "people": [
+    {
+     "name": "Pepijn Dinandt",
+     "title": "Chief Executive Officer",
+     "email": "pepijn@flintgrp.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/pepyn-dinandt",
+     "location": "Germany"
+    },
+    {
+     "name": "Deanna Klemesrud",
+     "title": "Global Director, Brand & Communication",
+     "email": "deanna.klemesrud@flintgrp.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/deanna-klemesrud-b1194810",
+     "location": "Minneapolis, Minnesota, United States"
+    },
+    {
+     "name": "Inken Steinhauser",
+     "title": "Director Marketing and Product Management",
+     "email": "inken.steinhauser@flintgrp.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/inken-steinhauser-194a6877",
+     "location": "Kelmis, Belgium"
+    },
+    {
+     "name": "Heiner Klokkers",
+     "title": "CEO Packaging Inks Europe",
+     "email": "heiner.klokkers@flintgrp.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/heiner-klokkers",
+     "location": "Munich, Germany"
+    }
+   ],
+   "note": "4 of 4 matched and kept, all marked verified on flintgrp.com and currently at Flint Group (Apollo record 'Flint Group Packaging Solutions'). flintgrp.com is a catch-all domain in Apollo, so 'verified' is weaker than usual. The CEO's address is first name only (pepijn@flintgrp.com). Inken Steinhauser's Apollo record is thin (one undated job, no stated division), so her remit may be divisional. Heiner Klokkers is a divisional chief with a European remit (CEO Packaging Inks Europe, also CEO Publications Division). No CRO / CCO listed. Backup not used."
+  },
+  {
+   "user_name": "Infinity Transportation",
+   "brand": "Infinity Transportation",
+   "people": [
+    {
+     "name": "Jeff Edelman",
+     "title": "President & CEO",
+     "email": "jedelman@infinityrail.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jeff-edelman-592b896",
+     "location": "Atlanta, Georgia, United States"
+    },
+    {
+     "name": "Lee Martini",
+     "title": "Senior Vice President - Sales and Marketing",
+     "email": "lee.martini@infinitytransport.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/lee-martini-8364839",
+     "location": "Atlanta, Georgia, United States"
+    },
+    {
+     "name": "Brian Ottinger",
+     "title": "Chief Commercial Officer",
+     "email": "brian.ottinger@infinitytransport.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/brian-ottinger-3bb676b",
+     "location": "Salt Lake City, Utah, United States"
+    },
+    {
+     "name": "James Weaver",
+     "title": "Vice President Sales and Marketing Rail & Intermodal",
+     "email": "james.weaver@infinitytransport.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/james-weaver-56424513b",
+     "location": "Brewton, Alabama, United States"
+    }
+   ],
+   "note": "4 of 4 matched and kept, all marked verified and all currently at 'Infinity Transportation Equipment Leasing', Atlanta - the railcar lessor the rule asks for (the CEO's headline: 'railcar and intermodal lessor of 48,000+ railcars leased throughout North America', sponsored by Global Atlantic / KKR; he was President & CEO of Infinity Rail before). Only the CEO's email is on infinityrail.com; the other three are on infinitytransport.com, which is the primary domain of the same Apollo company record, so it is treated as a company alias. Both domains are catch-all in Apollo, so 'verified' is weaker than usual. There is no separate marketing function: marketing sits in the combined Sales and Marketing roles. Nobody from the other similarly named companies was matched. Backups not used."
+  }
+ ],
+ "credits_used": 42,
+ "balance_after": null
+}

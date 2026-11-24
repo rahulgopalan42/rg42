@@ -52,7 +52,7 @@ dec = lambda r: bool(r.get('skip') or any(str(x).startswith('DECLINED') for x in
 declined = [r for r in order if dec(r)]; live = [r for r in order if not dec(r)]
 CB = {r['brand']: C.get(r['_user'], {'people': [], 'note': ''}) for r in order}
 # ---- priority ranking ----
-HOLD = re.compile(r'^(HARD HOLD|HOLD|ON HOLD|COMPLIANCE|CHECK BEFORE|ALREADY)', re.I)
+HOLD = re.compile(r'^(HARD HOLD|HOLD|ON HOLD|COMPLIANCE HOLD|CHECK BEFORE|ALREADY)')   # case-sensitive: plain 'Compliance:' notes are information, not holds
 def rank_key(r):
     p = r.get('priority') or {}; sc = float(p.get('score') or 0) + float(DEC.get('priority_adj', {}).get(r['_user'], 0))
     fl = [str(x) for x in r.get('flags', [])]
