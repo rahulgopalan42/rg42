@@ -1,0 +1,391 @@
+{
+ "rows": [
+  {
+   "brand": "SuKarne",
+   "people": [
+    {
+     "name": "Victor Osnaya",
+     "title": "Director General Comercial",
+     "email": "victor.osnaya@sukarne.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/victor-osnaya-coach",
+     "location": "Culiacan Rosales, Sinaloa, Mexico"
+    },
+    {
+     "name": "Martha Salazar Torres",
+     "title": "Subdirectora Mercadotecnia",
+     "email": "martha.salazar@sukarne.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/martha-salazar-torres-398016189",
+     "location": "Culiacan Rosales, Sinaloa, Mexico"
+    },
+    {
+     "name": "Maria Castanos Izabal",
+     "title": "Jefe de Publicidad y Medios",
+     "email": "maria.castanosi@sukarne.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/mar%c3%ada-in%c3%a9s-casta%c3%b1os-izabal-86ab22122",
+     "location": "Culiacan Rosales, Sinaloa, Mexico"
+    },
+    {
+     "name": "Sol Tafur",
+     "title": "Sub Directora de Marketing",
+     "email": "maria.tafurc@sukarne.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/sol-tafur-consultoria",
+     "location": "Mexico"
+    },
+    {
+     "name": "Paul Sauceda",
+     "title": "Jefe Publicidad Creativa",
+     "email": "paul.sauceda@sukarne.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/paulsauceda",
+     "location": "Culiacan Rosales, Sinaloa, Mexico"
+    }
+   ]
+  },
+  {
+   "brand": "LaserAway",
+   "people": [
+    {
+     "name": "Scott Heckmann",
+     "title": "CEO",
+     "email": "scotth@laseraway.net",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/scott-heckmann-4222bb8",
+     "location": "Santa Monica, California, United States"
+    },
+    {
+     "name": "Kelly Lohr",
+     "title": "Chief Customer Officer",
+     "email": "kelly.lohr@laseraway.net",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kellylohr",
+     "location": "Austin, Texas, United States"
+    },
+    {
+     "name": "Brock Heckmann",
+     "title": "Co-Founder",
+     "email": "brockh@laseraway.net",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/brockheckmann",
+     "location": "Solana Beach, California, United States"
+    },
+    {
+     "name": "Benjamin Espiritu",
+     "title": "Vice President of Creative Media",
+     "email": "bene@laseraway.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/benjaminedavid",
+     "location": "Los Angeles, California, United States"
+    },
+    {
+     "name": "Tyler Mabery",
+     "title": "Sr. Director of Digital Experience",
+     "email": "tyler.mabery@laseraway.net",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/tylermabery",
+     "location": "Bend, Oregon, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Colossal Biosciences",
+   "people": [
+    {
+     "name": "Ben Lamm",
+     "title": "Founder and CEO",
+     "email": "ben@colossal.com"
+    },
+    {
+     "name": "Chris Klee",
+     "title": "Executive Vice President of Marketing and Design",
+     "email": "klee@colossal.com"
+    },
+    {
+     "name": "Jillian McCall",
+     "title": "Senior Director of Marketing",
+     "email": "jillian@colossal.com"
+    },
+    {
+     "name": "Emily Mailaender",
+     "title": "EVP of Strategic Communications",
+     "email": "emily@colossal.com"
+    },
+    {
+     "name": "Adam Milne",
+     "title": "Chief Operating Officer",
+     "email": "adam@colossal.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/adamdmilne",
+     "location": "Cambridge, Massachusetts, United States",
+     "email_status": "verified",
+     "apollo_id": "60f00670a815930001ad4ff2"
+    }
+   ]
+  },
+  {
+   "brand": "Custom Ink",
+   "people": [
+    {
+     "name": "David Doctorow",
+     "title": "CEO",
+     "email": "david.doctorow@customink.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/david-doctorow-b7b5",
+     "location": "United States",
+     "email_status": "verified",
+     "apollo_id": "66f3d23bdd5d050001e46419"
+    },
+    {
+     "name": "Philip Auerbach",
+     "title": "Chief Marketing Officer",
+     "email": "philip.auerbach@customink.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/philip-auerbach-a45356",
+     "location": "New York, United States",
+     "email_status": "verified",
+     "apollo_id": "66f794bbebc199000151345e"
+    },
+    {
+     "name": "Ryan Massimo",
+     "title": "Chief Revenue Officer",
+     "email": "ryan.massimo@customink.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/ryan-massimo-2945aa",
+     "location": "Sudbury, Massachusetts, United States",
+     "email_status": "verified",
+     "apollo_id": "66f94a9b9901a20001a43ec9"
+    },
+    {
+     "name": "Justin McKinney",
+     "title": "VP, Organic Marketing",
+     "email": "justin.mckinney@customink.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/justinalanmckinney",
+     "location": "Los Angeles, California, United States",
+     "email_status": "verified",
+     "apollo_id": "66f743be31303a0001371105"
+    },
+    {
+     "name": "Benjamin Carter",
+     "title": "Director Brand & Creative",
+     "email": "bcarter@customink.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/benjamin-carter-49a6b05",
+     "location": "Virginia, United States",
+     "email_status": "verified",
+     "apollo_id": "57df918fa6da980add336c6c"
+    }
+   ]
+  },
+  {
+   "brand": "Discovery Loop",
+   "people": [
+    {
+     "name": "Jeff Dean",
+     "title": "Co-founder and CEO",
+     "email": "jeff@discoveryloop.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jeff-dean-8b212555",
+     "location": "Palo Alto, California, United States",
+     "email_status": "verified",
+     "apollo_id": "60c0805e772a510001db9f01"
+    }
+   ]
+  },
+  {
+   "brand": "Irregular",
+   "people": [
+    {
+     "name": "Dan Lahav",
+     "title": "Co-Founder & CEO",
+     "email": "dan@irregular.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/dan-lahav-037a67185",
+     "location": "San Francisco, California, United States"
+    },
+    {
+     "name": "Omer Nevo",
+     "title": "Co-founder & CTO",
+     "email": "omer@patternlabs.co",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/omer-nevo-358012108",
+     "location": "Israel"
+    },
+    {
+     "name": "Gil Gekker",
+     "title": "Chief of Staff to the CEO",
+     "email": "gil@patternlabs.co",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/gil-gekker",
+     "location": "Center District, Israel"
+    },
+    {
+     "name": "Sagit Drory",
+     "title": "Head of Operations",
+     "email": "sagit@irregular.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/sagit-drory-6810a438",
+     "location": "Israel"
+    }
+   ]
+  },
+  {
+   "brand": "Dose",
+   "people": [
+    {
+     "name": "Vasu Goyal",
+     "title": "Founder",
+     "email": "vasu@dosedaily.co",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/vasu-goyal",
+     "location": "Miami, Florida, United States",
+     "email_status": "verified",
+     "apollo_id": "66f537be7e95fc0001d78a6b"
+    },
+    {
+     "name": "Madeline Edwards",
+     "title": "Head of Marketing Strategy",
+     "email": "madeline@dosedaily.co",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/madelineedwardsnyc",
+     "location": "New York, United States",
+     "email_status": "verified",
+     "apollo_id": "6605c372358f340007f06513"
+    },
+    {
+     "name": "Minji Cha",
+     "title": "Chief Growth Officer",
+     "email": "minji.cha@dosedaily.co",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/minjicha",
+     "location": "New York, United States",
+     "email_status": "verified",
+     "apollo_id": "5f8895c0f106550001bbe0ac"
+    },
+    {
+     "name": "Madison Pakka",
+     "title": "Head of Celebrity & Influencer Marketing",
+     "email": "madison@dosedaily.co",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/madisonpakka",
+     "location": "San Diego, California, United States",
+     "email_status": "verified",
+     "apollo_id": "5f4d23895a0e9700012a3fb8"
+    },
+    {
+     "name": "Rubens Ferner",
+     "title": "Head of CRO Growth (conversion rate optimisation)",
+     "email": "rubens.ferner@dosedaily.co",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/rubens-emidio",
+     "location": "Brigham City, Utah, United States",
+     "email_status": "verified",
+     "apollo_id": "63b57c9d8336570001479177"
+    }
+   ]
+  },
+  {
+   "brand": "DG Matrix",
+   "people": [
+    {
+     "name": "Haroon Inam",
+     "title": "Chief Executive Officer",
+     "email": "h@dgmatrix.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/harooninam",
+     "location": "North Carolina, United States",
+     "email_status": "verified",
+     "apollo_id": "66837a1e95f02a0001b46abd"
+    },
+    {
+     "name": "Rainer Stiller",
+     "title": "Chief Marketing Officer",
+     "email": "rainer.stiller@dgmatrix.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/rainerstiller",
+     "location": "Munich, Bavaria, Germany",
+     "email_status": "verified",
+     "apollo_id": "66f7bee20a0a800001df1252"
+    },
+    {
+     "name": "Deepak Thakkar",
+     "title": "Chief Commercial Officer",
+     "email": "deepak.thakkar@dgmatrix.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/thakkardeepak",
+     "location": "San Francisco, California, United States",
+     "email_status": "verified",
+     "apollo_id": "60f9096968616400018dc0c5"
+    },
+    {
+     "name": "Anthony Wanger",
+     "title": "Executive Chairman",
+     "email": "anthony.wanger@dgmatrix.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/anthony-wanger-b557344b",
+     "location": "Phoenix, Arizona, United States",
+     "email_status": "verified",
+     "apollo_id": "610f746bcd90440001ed5a6e"
+    },
+    {
+     "name": "Ramesh Gopalakrishnan",
+     "title": "Chief Operating Officer",
+     "email": "ramesh.gopalakrishnan@dgmatrix.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/ramesh-gopalakrishnan-839a0356",
+     "location": "Phoenix, Arizona, United States",
+     "email_status": "verified",
+     "apollo_id": "61167766a4ff850001fa14b7"
+    }
+   ]
+  },
+  {
+   "brand": "Skylark Labs",
+   "people": [
+    {
+     "name": "Amarjot Singh",
+     "title": "Founder & CEO",
+     "email": "amarjot@skylarklabs.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/amarjot-singh-skylark",
+     "location": "Menlo Park, California, United States"
+    },
+    {
+     "name": "Noor Jolly",
+     "title": "Marketing",
+     "email": "noor.jolly@skylarklabs.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/noor-jolly",
+     "location": "United States"
+    },
+    {
+     "name": "Vince Nakayama",
+     "title": "COO (his LinkedIn headline says CPO)",
+     "email": "vince.nakayama@skylarklabs.ai",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/vincenakayama",
+     "location": "Los Altos, California, United States"
+    },
+    {
+     "name": "Ketan Bansal",
+     "title": "Director of Business Strategy and Transformation",
+     "email": "ketan@skylarklabs.ai",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/ketan-bansal",
+     "location": "Menlo Park, California, United States"
+    },
+    {
+     "name": "Sukhbir Singh",
+     "title": "Director of Operations",
+     "email": "sukhbir@skylarklabs.ai",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/sukhbir-singh-3299a81ba",
+     "location": "Amritsar, Punjab, India"
+    }
+   ]
+  }
+ ]
+}

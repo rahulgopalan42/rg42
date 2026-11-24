@@ -1,0 +1,352 @@
+{
+ "rows": [
+  {
+   "brand": "Modal Labs",
+   "people": [
+    {
+     "name": "David Dorman",
+     "title": "VP Marketing / Growth",
+     "email": "dorman@modal.com"
+    },
+    {
+     "name": "Greta Workman",
+     "title": "Head of Product Marketing",
+     "email": "greta@modal.com"
+    },
+    {
+     "name": "Peri Langlois",
+     "title": "Brand Marketing",
+     "email": "peri@modal.com"
+    },
+    {
+     "name": "Erik Bernhardsson",
+     "title": "CEO",
+     "email": "erik@modal.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/erikbern",
+     "location": "New York, United States",
+     "email_status": "verified",
+     "apollo_id": "67a12807fab0a10001bbb8e4"
+    },
+    {
+     "name": "Justin Dignelli",
+     "title": "VP of Sales",
+     "email": "justin@modal.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/justindignelli",
+     "location": "San Francisco, California, United States",
+     "email_status": "verified",
+     "apollo_id": "66f3368ece0f6c000122b9f0"
+    }
+   ]
+  },
+  {
+   "brand": "Switch",
+   "people": [
+    {
+     "name": "Will Adamson",
+     "title": "Senior Vice President of Brand & Marketing Architecture",
+     "email": "wadamson@switch.com"
+    },
+    {
+     "name": "Heather Ellerbe",
+     "title": "Vice President Marketing",
+     "email": "heather@switch.com"
+    },
+    {
+     "name": "Chelsea Darby",
+     "title": "VP of Creative",
+     "email": "cdarby@switch.com"
+    },
+    {
+     "name": "Kiyo Wiesnoski",
+     "title": "Senior Director of Marketing",
+     "email": "kwiesnoski@switch.com"
+    },
+    {
+     "name": "Chris Donnelly",
+     "title": "CXO (Chief Connectivity Officer)",
+     "email": "chris@switch.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/chris-donnelly-3981a255",
+     "location": "Las Vegas, Nevada, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Etched",
+   "people": [
+    {
+     "name": "Gavin Uberti",
+     "title": "CEO and Co-Founder",
+     "email": "gavin@etched.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/guberti",
+     "location": "San Francisco, California, United States",
+     "email_status": "verified",
+     "apollo_id": "66f414639b80c300014f8cc3"
+    },
+    {
+     "name": "Robert Wachen",
+     "title": "Co-Founder and President",
+     "email": "robert@etched.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/robertwachen",
+     "location": "San Francisco, California, United States",
+     "email_status": "verified",
+     "apollo_id": "68200f86c153b600016624e9"
+    },
+    {
+     "name": "Chris Zhu",
+     "title": "Co-Founder",
+     "email": "chris@etched.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/czhu1729",
+     "location": "San Jose, California, United States",
+     "email_status": "verified",
+     "apollo_id": "66f5ff91b023c40001560377"
+    },
+    {
+     "name": "Don Moore",
+     "title": "Head of Growth Ops",
+     "email": "don@etched.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/d0n",
+     "location": "San Jose, California, United States",
+     "email_status": "verified",
+     "apollo_id": "68789c8bd005c900012c3fe2"
+    }
+   ]
+  },
+  {
+   "brand": "Parfums de Marly",
+   "people": [
+    {
+     "name": "Elizabeth Villegas",
+     "title": "Chief Commercial Officer, The Americas",
+     "email": "ev@finefragrancesdistribution.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/elizabeth-villegas-206718b4",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Clemence Duval",
+     "title": "Chief Marketing Officer",
+     "email": "clemence.duval@artessencegroup.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/clemence-duval-04a92548",
+     "location": "Dubai, United Arab Emirates"
+    },
+    {
+     "name": "Alix D'Hautefeuille",
+     "title": "Global Communications Director",
+     "email": "alix@pmarly.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/alixdhautefeuille",
+     "location": "Dubai, United Arab Emirates"
+    },
+    {
+     "name": "Meghan Barry",
+     "title": "Director of Brand Marketing",
+     "email": "mb@parfums-de-marly.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/barrymeghan",
+     "location": "New Jersey, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Thinking Machines Lab",
+   "people": [
+    {
+     "name": "Jonathan Lachman",
+     "title": "Founding Head of Operations",
+     "email": "jon@thinkingmachines.ai"
+    },
+    {
+     "name": "Jen Chan",
+     "title": "GTM Strategy & Operations",
+     "email": "jen@thinkingmachines.ai"
+    }
+   ]
+  },
+  {
+   "brand": "Physical Intelligence",
+   "people": [
+    {
+     "name": "Karol Hausman",
+     "title": "Chief Executive Officer",
+     "email": "karol@physicalintelligence.company"
+    },
+    {
+     "name": "Adnan Esmail",
+     "title": "Co-Founder",
+     "email": "adnan@physicalintelligence.company"
+    },
+    {
+     "name": "Quan Vuong",
+     "title": "Co-Founder",
+     "email": "quan@physicalintelligence.company"
+    },
+    {
+     "name": "Brian Ichter",
+     "title": "Co-Founder",
+     "email": "brian@physicalintelligence.company"
+    },
+    {
+     "name": "Sam Whitmore",
+     "title": "Business Operations",
+     "email": "sam@physicalintelligence.company",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/samuelmwhitmore",
+     "location": "San Francisco, California, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Arthea",
+   "people": [
+    {
+     "name": "Tarun Malkani",
+     "title": "Chief Executive Officer",
+     "email": "tmalkani@pdcwellness.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/tarun-malkani-a327873",
+     "location": "New York, United States",
+     "email_status": "verified",
+     "apollo_id": "610b51d9bc2e620001ebb168"
+    },
+    {
+     "name": "Rebecca McNicol",
+     "title": "SVP, Head of Brand Marketing",
+     "email": "rmcnicol@pdcbeauty.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/rebecca-mcnicol-81a15770",
+     "location": "New York, United States",
+     "email_status": "verified",
+     "apollo_id": "67e456715a773a000147d3ae"
+    },
+    {
+     "name": "Gina Dobles",
+     "title": "Chief Growth Officer",
+     "email": "gdobles@pdcwellness.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/gina-dobles",
+     "location": "White Plains, New York, United States",
+     "email_status": "verified",
+     "apollo_id": "54a597f574686936767d789c"
+    },
+    {
+     "name": "Aria Simpson",
+     "title": "Global Brand Director",
+     "email": "asimpson@pdcwellness.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/ariasimpson",
+     "location": "New York, United States",
+     "email_status": "verified",
+     "apollo_id": "607414480d7b3900018aeef4"
+    },
+    {
+     "name": "Kai Musielak",
+     "title": "Head of Brand & Corporate Communications",
+     "email": "kmusielak@pdcwellness.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/kaimusielak",
+     "location": "New York, United States",
+     "email_status": "verified",
+     "apollo_id": "66ec96b9afc00e00019da16c"
+    }
+   ]
+  },
+  {
+   "brand": "GSR",
+   "people": [
+    {
+     "name": "Xin Song",
+     "title": "Chief Executive Officer",
+     "email": "xin@gsr.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/xinsong",
+     "location": "Singapore"
+    },
+    {
+     "name": "Frank Chaparro",
+     "title": "Head of Strategic Communications",
+     "email": "frank.chaparro@gsr.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/fchaparro",
+     "location": "United States"
+    },
+    {
+     "name": "Haley Malanga",
+     "title": "Vice President Public Relations",
+     "email": "haley.malanga@gsr.io",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/haleymalanga",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Anjo Zhang",
+     "title": "VP, Partnership",
+     "email": "anjo@gsr.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/anjo-zhang-9459721ab",
+     "location": "Singapore"
+    },
+    {
+     "name": "James Newell",
+     "title": "Foundation & Corporate Communications Director",
+     "email": "james.newell@gsr.io",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/jamesnewell1",
+     "location": "Harpenden, England, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "True Religion",
+   "people": [
+    {
+     "name": "Michael Buckley",
+     "title": "Chief Executive Officer",
+     "email": "m.buckley@truereligion.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/michael-buckley-ab060011",
+     "location": "United States"
+    },
+    {
+     "name": "Kristen D'Arcy",
+     "title": "Chief Marketing Officer and Head of Digital Growth (Ecommerce)",
+     "email": "k.darcy@truereligion.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kristen-darcy",
+     "location": "Los Angeles, California, United States"
+    },
+    {
+     "name": "Leslie Smith",
+     "title": "Sr. Director, Integrated Marketing",
+     "email": "l.smith1@truereligion.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lesliesmith13",
+     "location": "Los Angeles, California, United States"
+    },
+    {
+     "name": "Tina Blake",
+     "title": "SVP Design, Merchandising & Brand Image",
+     "email": "t.blake@truereligion.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/tinablake",
+     "location": "Los Angeles, California, United States"
+    },
+    {
+     "name": "Mike Malinowski",
+     "title": "VP, Growth and Retention Marketing",
+     "email": "michael.m@truereligion.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/mike-malinowski-growth",
+     "location": "Los Angeles, California, United States"
+    }
+   ]
+  }
+ ]
+}

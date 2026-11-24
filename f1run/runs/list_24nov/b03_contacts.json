@@ -1,0 +1,88 @@
+{
+ "rows": [
+  {
+   "brand": "Endurance Energy",
+   "people": [
+    {
+     "name": "Andrew Redd",
+     "title": "Founder / CEO",
+     "email": "andrew@enduranceenergy.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/egonredd",
+     "location": "Seattle, Washington, United States",
+     "email_status": "verified",
+     "apollo_id": "5bd86cc980f93eb94400e182"
+    },
+    {
+     "name": "Dan Chosich",
+     "title": "Head of Creative",
+     "email": "chosich@enduranceenergy.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/danchosich",
+     "location": "Seattle, Washington, United States",
+     "email_status": "verified",
+     "apollo_id": "54a741427468696220789223"
+    },
+    {
+     "name": "Nathan Rodland",
+     "title": "Chief Operating Officer",
+     "email": "nate@enduranceenergy.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/nrodland",
+     "location": "Seattle, Washington, United States",
+     "email_status": "verified",
+     "apollo_id": "610e56cdf41e4d0001c1cc3c"
+    },
+    {
+     "name": "Jennifer Kenyon",
+     "title": "Vice President of Policy and External Affairs",
+     "email": "jen@enduranceenergy.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/jenniferakenyon",
+     "location": "Washington, District of Columbia, United States",
+     "email_status": "verified",
+     "apollo_id": "63751e77a2cdf1000193cda5"
+    },
+    {
+     "name": "Aditi Bhatt",
+     "title": "Chief of Staff",
+     "email": "aditi@enduranceenergy.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/aditi-bhatt3",
+     "location": "Seattle, Washington, United States",
+     "email_status": "verified",
+     "apollo_id": "61f3c11edbe0d20001e09c8c"
+    }
+   ]
+  },
+  {
+   "brand": "Orbicular Pharmaceutical Technologies",
+   "people": [
+    {
+     "name": "Mohan",
+     "title": "Managing Director",
+     "email": "mohan.ms@orbicular.co.in",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/dr-m-s-mohan-b898457",
+     "location": "Hyderabad, Telangana, India"
+    },
+    {
+     "name": "Vinay Mohan",
+     "title": "Director - Business Development",
+     "email": "vinay.nm@orbicular.co.in",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/vinay28",
+     "location": "Hyderabad, Telangana, India"
+    },
+    {
+     "name": "Meena Mohan",
+     "title": "Director",
+     "email": "meena.m@orbicular.co.in",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/meena-mohan-4a5088228",
+     "location": "Hyderabad, Telangana, India"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,189 @@
+{
+ "rows": [
+  {
+   "user_name": "Discovery Loop",
+   "brand": "Discovery Loop",
+   "domain": "discoveryloop.com",
+   "people": [
+    {
+     "name": "Jeff Dean",
+     "title": "Co-founder and CEO",
+     "email": "jeff@discoveryloop.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jeff-dean-8b212555",
+     "location": "Palo Alto, California, United States",
+     "email_status": "verified",
+     "apollo_id": "60c0805e772a510001db9f01"
+    }
+   ],
+   "dropped": [],
+   "keep": [],
+   "total_with_keep": 1,
+   "note": "GAP: 1 of 5 (only 1 pick existed). The pick matched (1 credit) and is kept: Jeff Dean, Co-founder and CEO, jeff@discoveryloop.com, verified, on the row domain. Rule check passed: current employer in the match is DiscoveryLoop (Apollo primary domain discoveryloop.com, since Aug 2026; before that Google), based in Palo Alto, California. Apollo flags discoveryloop.com as a catch-all domain, so 'verified' is a little weaker than on a normal domain. Backup Dina (Executive Operations) was NOT matched: backups are only allowed when a pick fails or has left, and the pick succeeded. The three other co-founders listed in the search note were not picks and were not matched."
+  },
+  {
+   "user_name": "Dose",
+   "brand": "Dose",
+   "domain": "dosedaily.co",
+   "people": [
+    {
+     "name": "Vasu Goyal",
+     "title": "Founder",
+     "email": "vasu@dosedaily.co",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/vasu-goyal",
+     "location": "Miami, Florida, United States",
+     "email_status": "verified",
+     "apollo_id": "66f537be7e95fc0001d78a6b"
+    },
+    {
+     "name": "Madeline Edwards",
+     "title": "Head of Marketing Strategy",
+     "email": "madeline@dosedaily.co",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/madelineedwardsnyc",
+     "location": "New York, United States",
+     "email_status": "verified",
+     "apollo_id": "6605c372358f340007f06513"
+    },
+    {
+     "name": "Minji Cha",
+     "title": "Chief Growth Officer",
+     "email": "minji.cha@dosedaily.co",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/minjicha",
+     "location": "New York, United States",
+     "email_status": "verified",
+     "apollo_id": "5f8895c0f106550001bbe0ac"
+    },
+    {
+     "name": "Madison Pakka",
+     "title": "Head of Celebrity & Influencer Marketing",
+     "email": "madison@dosedaily.co",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/madisonpakka",
+     "location": "San Diego, California, United States",
+     "email_status": "verified",
+     "apollo_id": "5f4d23895a0e9700012a3fb8"
+    },
+    {
+     "name": "Rubens Ferner",
+     "title": "Head of CRO Growth (conversion rate optimisation)",
+     "email": "rubens.ferner@dosedaily.co",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/rubens-emidio",
+     "location": "Brigham City, Utah, United States",
+     "email_status": "verified",
+     "apollo_id": "63b57c9d8336570001479177"
+    }
+   ],
+   "dropped": [],
+   "keep": [],
+   "total_with_keep": 5,
+   "note": "All 5 picks matched (5 credits) and all 5 kept, all verified on dosedaily.co (not a catch-all domain). Rule check passed for every one: the match shows current employer Dose, Apollo primary domain dosedaily.co, HQ Miami, Florida 33133 (the supplement-shot company), not one of the unrelated businesses called Dose. No backups used. Roles: Vasu Goyal (Founder, Miami) is the decision maker; no CEO title exists. No CMO and no chief revenue officer exist, so Madeline Edwards (Head of Marketing Strategy) is recorded as vp_marketing and Minji Cha (Chief Growth Officer, joined Aug 2026, previously VP of Revenue at IL MAKIAGE) as cro, the nearest thing to a revenue head; she is also the most senior marketing-side executive, so swap the two labels if the top marketer should get the vp_marketing template. Madison Pakka (Head of Celebrity & Influencer Marketing) is recorded as field_marketing. Rubens Ferner (Head of CRO Growth) is 'other': CRO here means conversion rate optimisation, not chief revenue officer; he only joined Dose in Nov 2026. Vasu Goyal's profile also lists a second current role, COO at Tirupati Lifesciences - India (since 2016); Dose is his primary employer in the match."
+  },
+  {
+   "user_name": "Endurance Energy",
+   "brand": "Endurance Energy",
+   "domain": "enduranceenergy.com",
+   "people": [
+    {
+     "name": "Andrew Redd",
+     "title": "Founder / CEO",
+     "email": "andrew@enduranceenergy.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/egonredd",
+     "location": "Seattle, Washington, United States",
+     "email_status": "verified",
+     "apollo_id": "5bd86cc980f93eb94400e182"
+    },
+    {
+     "name": "Dan Chosich",
+     "title": "Head of Creative",
+     "email": "chosich@enduranceenergy.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/danchosich",
+     "location": "Seattle, Washington, United States",
+     "email_status": "verified",
+     "apollo_id": "54a741427468696220789223"
+    },
+    {
+     "name": "Nathan Rodland",
+     "title": "Chief Operating Officer",
+     "email": "nate@enduranceenergy.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/nrodland",
+     "location": "Seattle, Washington, United States",
+     "email_status": "verified",
+     "apollo_id": "610e56cdf41e4d0001c1cc3c"
+    },
+    {
+     "name": "Jennifer Kenyon",
+     "title": "Vice President of Policy and External Affairs",
+     "email": "jen@enduranceenergy.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/jenniferakenyon",
+     "location": "Washington, District of Columbia, United States",
+     "email_status": "verified",
+     "apollo_id": "63751e77a2cdf1000193cda5"
+    },
+    {
+     "name": "Aditi Bhatt",
+     "title": "Chief of Staff",
+     "email": "aditi@enduranceenergy.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/aditi-bhatt3",
+     "location": "Seattle, Washington, United States",
+     "email_status": "verified",
+     "apollo_id": "61f3c11edbe0d20001e09c8c"
+    }
+   ],
+   "dropped": [],
+   "keep": [],
+   "total_with_keep": 5,
+   "note": "All 5 picks matched (5 credits) and all 5 kept, all verified on enduranceenergy.com (not a catch-all domain). Rule check passed for every one: the match shows current employer Endurance Energy, Apollo primary domain enduranceenergy.com, HQ Seattle, Washington 98103; Apollo's keywords describe seafloor / marine geothermal power (founded 2025, 11 employees per Apollo). Backup Brandon (Commercial Manager) was NOT matched: no pick failed. Roles: Andrew Redd (Founder / CEO) is the decision maker. The company has no marketing, revenue or partnerships function, so Dan Chosich (Head of Creative, joined Jun 2026) is recorded as vp_marketing only as the nearest brand-side role; he is a creative lead, not a marketer. Nathan Rodland (Chief Operating Officer since Aug 2025, Robinhood co-founder and former COO), Jennifer Kenyon (VP of Policy and External Affairs, promoted Sep 2026, based in Washington DC; a government affairs role, the nearest thing to communications) and Aditi Bhatt (Chief of Staff) are 'other'. No cro and no field_marketing contact exists. Nathan Rodland's profile also lists two current board seats (Destiny (D/XYZ), Alpaca); Endurance Energy is his primary employer in the match."
+  }
+ ],
+ "credits_used": 11,
+ "balance_after": null,
+ "emails_kept": 11,
+ "enriched_ids": [
+  "54a741427468696220789223",
+  "5bd86cc980f93eb94400e182",
+  "5f4d23895a0e9700012a3fb8",
+  "5f8895c0f106550001bbe0ac",
+  "60c0805e772a510001db9f01",
+  "610e56cdf41e4d0001c1cc3c",
+  "61f3c11edbe0d20001e09c8c",
+  "63751e77a2cdf1000193cda5",
+  "63b57c9d8336570001479177",
+  "6605c372358f340007f06513",
+  "66f537be7e95fc0001d78a6b"
+ ],
+ "requested_ids": [
+  "60c0805e772a510001db9f01",
+  "66f537be7e95fc0001d78a6b",
+  "5f8895c0f106550001bbe0ac",
+  "6605c372358f340007f06513",
+  "5f4d23895a0e9700012a3fb8",
+  "63b57c9d8336570001479177",
+  "5bd86cc980f93eb94400e182",
+  "610e56cdf41e4d0001c1cc3c",
+  "63751e77a2cdf1000193cda5",
+  "54a741427468696220789223",
+  "61f3c11edbe0d20001e09c8c"
+ ],
+ "calls": [
+  {
+   "file": "call01.json",
+   "matched": 6,
+   "credits_consumed": 6
+  },
+  {
+   "file": "call02.json",
+   "matched": 5,
+   "credits_consumed": 5
+  }
+ ],
+ "complete": true
+}

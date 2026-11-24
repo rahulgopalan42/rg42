@@ -72,11 +72,11 @@ for n, r in enumerate(live, 1):
     r['flags'].insert(0, f"PRIORITY #{n} of {len(live)}, score {r['_score']}{tierword}: {why}")
     if not CB[r['brand']]['people']: r['flags'].append('Contacts: none found in Apollo.')
 def pack(rs, CBx, lim):           # strict order: never move a lower-ranked brand ahead
-    out = []; cur = []; n = 0
+    out = []; cur = []; n = 0; held = False
     for r in rs:
-        kx = len(CBx[r['brand']]['people'])
-        if cur and n + kx > lim: out.append(cur); cur = []; n = 0
-        cur.append(r); n += kx
+        kx = len(CBx[r['brand']]['people']); h = r['_tier'] >= 2
+        if cur and (n + kx > lim or h != held): out.append(cur); cur = []; n = 0   # held brands get their own folder
+        held = h; cur.append(r); n += kx
     if cur: out.append(cur)
     return out
 batches = pack(live, CB, CAP)
@@ -92,7 +92,8 @@ ORDER = ['B2B', 'B2B no reference', 'B2C', 'B2C no reference']
 GRP = lambda r: ('B2C' if (r.get('variant') or 'B2B').upper().startswith('B2C') else 'B2B') + ('' if r.get('market_reference') else ' no reference')
 for i, b in enumerate(batches, 1):
     n = sum(len(CB[r['brand']]['people']) for r in b); tag = 'NQ'
-    label = f'{tag} - Batch {i:02d}'; folder = f'Batch {i:02d} - priority {b[0]["_rank"]} to {b[-1]["_rank"]} ({n} contacts)'
+    chk = all(r['_tier'] >= 2 for r in b)
+    label = f'{tag} - Batch {i:02d}'; folder = f'Batch {i:02d} - {"CHECK FIRST - " if chk else ""}priority {b[0]["_rank"]} to {b[-1]["_rank"]} ({n} contacts)'
     d = f'{root}/{folder}'; os.makedirs(d)
     json.dump(b, open(f'nb13/{tag}{i:02d}_rows.json', 'w'), indent=1)
     json.dump({'rows': [{'brand': r['brand'], 'people': CB[r['brand']]['people']} for r in b]}, open(f'nb13/{tag}{i:02d}_contacts.json', 'w'), indent=1)
@@ -119,9 +120,9 @@ for i, b in enumerate(batches, 1):
         imp = [x for x in fl if re.search(r'HOLD|resign|PENDING|ACQUIRED|ALREADY|1260H|Entity List|USER INSTRUCTION|Same house|Reputation|Capacity: (hard|firm)|HQ override|Existing F1|former F1|SPORTFIVE|sanction|COMPLIANCE|CHECK BEFORE|DUPLICATE|RENAMED|not formed|Identity', x, re.I)]
         key_flags = ' | '.join(dict.fromkeys([x[:170] for x in (fl[:1] + imp)]))[:600]
         mmu = (f'Mail merge {names.index(GRP(r)) + 1} - {GRP(r)}' if kx and GRP(r) in names else '-')
-        ws.append([r['_rank'], f'Batch {i:02d}', folder, r['_tab'], r['_user'], r.get('email_name') or r['brand'], r['_score'], (r.get('priority') or {}).get('reason', ''),
+        ws.append([r['_rank'], f'Batch {i:02d}' + (' (check first)' if chk else ''), folder, r['_tab'], r['_user'], r.get('email_name') or r['brand'], r['_score'], (r.get('priority') or {}).get('reason', ''),
                    'Template + contacts' if kx else 'Template only (no contacts found)', kx, mmu, '', key_flags])
-    summ.append((f'Batch {i:02d}', folder, f"{b[0]['_rank']}-{b[-1]['_rank']}", len(b), n, '; '.join(f'{k}. {g} ({c})' for k, (g, c) in enumerate(mm, 1)), ', '.join(r['_user'] for r in b[:6]) + (' ...' if len(b) > 6 else '')))
+    summ.append((f'Batch {i:02d}' + (' (check first)' if chk else ''), folder, f"{b[0]['_rank']}-{b[-1]['_rank']}", len(b), n, '; '.join(f'{k}. {g} ({c})' for k, (g, c) in enumerate(mm, 1)), ', '.join(r['_user'] for r in b[:6]) + (' ...' if len(b) > 6 else '')))
 for r in declined:
     reason = re.sub(r'^DECLINED:\s*', '', str(r.get('skip') or next(x for x in r['flags'] if str(x).startswith('DECLINED'))))
     ws.append(['-', '-', '-', r['_tab'], r['_user'], r['brand'], '', '', 'Not built: ' + reason[:300], 0, '-', '', ''])
@@ -135,7 +136,7 @@ for line in ['Brands are ranked by an F1 priority score out of 100, from today\'
              'F1 fit (up to 30): how much F1 does for what they sell, buyers or fans already in F1, a competitor already on the grid, open categories.',
              'Buying signals (up to 15): a raise in the last 12 months, IPO preparation, new regions, a marketing push, existing sports deals.',
              'Adjustments: capacity "firm caution" minus 8, "hard caution" minus 20.',
-             'Held back to the end: brands with a HOLD, COMPLIANCE, CHECK BEFORE SENDING or ALREADY ON THE GRID flag, then brands with no contact found (template only).',
+             'Held back to the end, in their own folder marked CHECK FIRST: brands with a HOLD, CHECK BEFORE SENDING or ALREADY ON THE GRID flag, then brands with no contact found (template only). Read the Key flags column before sending these.',
              'Batches are filled strictly in rank order up to 40 contacts, so Batch 01 holds the highest-priority brands.']:
     s3.append([line])
 s3.column_dimensions['A'].width = 140
