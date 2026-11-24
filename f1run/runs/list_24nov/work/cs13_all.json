@@ -379,5 +379,49 @@
   "keep": [],
   "exclude": [],
   "note": ""
+ },
+ {
+  "user_name": "Discovery Loop",
+  "brand": "Discovery Loop",
+  "ticker": "",
+  "hq": "Palo Alto, California, US",
+  "desc": "AI lab founded in 2026 by Jeff Dean (CEO), Sanjay Ghemawat, Quoc Le and Oriol Vinyals, all formerly of Google (discoveryloop.com). Not 'Loop' the supply chain AI company. Very new, so Apollo may have few or no people: report honestly",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": "Pick the CEO, a president / COO / chief of staff or any communications, marketing, partnerships or business leader. Researchers and engineers are not picks."
+ },
+ {
+  "user_name": "Dose",
+  "brand": "Dose",
+  "ticker": "",
+  "hq": "Miami, Florida, US",
+  "desc": "Maker of daily liquid supplement shots (Dose for Your Liver, Dose for Cholesterol), founded 2020 by Vasu Goyal (dosedaily.co). Not Dose & Co, DoseMe, Dose Health or Dose Therapeutics",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "Emulate (AI lab)",
+  "brand": "Emulate",
+  "ticker": "",
+  "hq": "London, UK",
+  "desc": "AI lab founded in August 2026 by Jack Parker-Holder, Matthew McGill and Philip Ball, formerly of Google DeepMind; builds world models (emulate.ai). NOT Emulate, Inc. (Emulate Bio, Boston organ-chips company on emulatebio.com). Very new, so Apollo may have few or no people: report honestly",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": "Pick only people at the London AI lab on emulate.ai; a founder is acceptable as the senior decision maker."
+ },
+ {
+  "user_name": "Endurance Energy",
+  "brand": "Endurance Energy",
+  "ticker": "",
+  "hq": "Seattle, Washington, US",
+  "desc": "Subsea geothermal energy company founded in 2024 by former SpaceX engineer Andrew Redd (enduranceenergy.com); about 25 staff. Not an oil and gas or wind company with a similar name",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": "Pick the CEO / founder first, then any business, commercial, communications or operations leader."
  }
 ]
