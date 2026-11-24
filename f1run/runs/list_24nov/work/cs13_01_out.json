@@ -1,0 +1,106 @@
+{"rows":[
+{"user_name":"GSR","brand":"GSR","domain":"gsr.io","apollo_org":"GSR","apollo_org_hq":"Not shown by the free search (city hidden). Matched on domain gsr.io and staff titles (market making, OTC, DeFi, digital assets); input HQ London / Singapore","confidence":"high","keep_bad":[],
+"picks":[
+{"id":"54a4a4fc7468692fa2980b58","first_name":"Xin","last_name_obfuscated":"So***g","title":"Chief Executive Officer","org":"GSR"},
+{"id":"5570671b7369645c86052300","first_name":"Frank","last_name_obfuscated":"Ch***o","title":"Head of Strategic Communications","org":"GSR"},
+{"id":"66f6378de766b20001acf967","first_name":"James","last_name_obfuscated":"Ne***l","title":"Foundation & Corporate Communications Director","org":"GSR"},
+{"id":"68578593b9cde00001e2fbb8","first_name":"Haley","last_name_obfuscated":"Ma***a","title":"Vice President Public Relations","org":"GSR"},
+{"id":"64283827994ee50001dcec4f","first_name":"Anjo","last_name_obfuscated":"Zh***g","title":"GSR - VP, Partnership","org":"GSR"}],
+"backups":[
+{"id":"54a292867468693a7eb5fb2c","first_name":"Jakob","last_name_obfuscated":"Pa***a","title":"CEO","org":"GSR"},
+{"id":"66f2a39d0bee290001ec283d","first_name":"Cristian","last_name_obfuscated":"Gil","title":"Chairman and Co-Founder","org":"GSR"}],
+"note":"Right company (gsr.io, crypto market maker). CEO picked first. Apollo has NO CMO or head of marketing with an email at GSR (only a marketing operations associate and a junk 'Marketing Manager' record), so the marketing slots are the communications / PR leaders plus the VP Partnership (may be commercial rather than marketing partnerships). Apollo shows two people titled CEO: Xin So***g (refreshed 21 Nov 2026, picked) and Jakob Pa***a (backup; his title may be out of date). Frank Ch***o's record was last refreshed Aug 2026, so check he is still there. The gsr.io record also carries a few unrelated people (a 'Brand Ambassador', three 'President' records with no email) that were ignored."},
+{"user_name":"Irregular","brand":"Irregular","domain":"irregular.com","apollo_org":"Irregular","apollo_org_hq":"Not shown by the free search (city hidden). Matched on domain irregular.com and staff titles (AI / security researchers, research engineers); input HQ San Francisco / Tel Aviv","confidence":"high","keep_bad":[],
+"picks":[
+{"id":"5d4623dea3ae6168e3a893f6","first_name":"Dan","last_name_obfuscated":"La***v","title":"Co-Founder & CEO","org":"Irregular"},
+{"id":"607d4f124d59a7000145ed26","first_name":"Omer","last_name_obfuscated":"Ne***o","title":"Co-founder & CTO","org":"Irregular"},
+{"id":"66f11df3fdb10400013e3188","first_name":"Sagit","last_name_obfuscated":"Dr***y","title":"Head of Operations","org":"Irregular"},
+{"id":"631dc05566c0240001d9d3a7","first_name":"Gil","last_name_obfuscated":"Ge***r","title":"Chief of Staff to the CEO","org":"Irregular"}],
+"backups":[
+{"id":"61016eb656956f0001e5ffac","first_name":"Omer","last_name_obfuscated":"Pe***k","title":"CEO Office","org":"Irregular"},
+{"id":"60925a03356b3b00013a22bf","first_name":"Ben","last_name_obfuscated":"Ya***i","title":"Head of Technical Customer Success and Solutions","org":"Irregular"}],
+"note":"Only 4 of 5 picked. Right company (43 people, almost all research engineers / AI and security researchers). Apollo lists NO marketing, brand, communications or partnerships person at Irregular, so the picks are the CEO, the other co-founder (he is CTO; picked as a founder, not as an engineer), the Head of Operations and the CEO's Chief of Staff. Backups are weaker: 'CEO Office' (role unclear) and a customer-success head (not marketing). One unrelated person ('Independent Artistic Director') on the record was ignored."},
+{"user_name":"LaserAway","brand":"LaserAway","domain":"laseraway.com","apollo_org":"LaserAway","apollo_org_hq":"Not shown by the free search (city hidden). Matched on domain laseraway.com and staff titles (clinic / location directors, clinical operations); input HQ Los Angeles","confidence":"high","keep_bad":[],
+"picks":[
+{"id":"66f70bb126871400012358a6","first_name":"Scott","last_name_obfuscated":"He***n","title":"CEO","org":"LaserAway"},
+{"id":"66f8b9e2a817d6000198a5f3","first_name":"Benjamin","last_name_obfuscated":"Es***u","title":"Vice President of Creative Media","org":"LaserAway"},
+{"id":"5c7f554e80f93e39aa1654f3","first_name":"Kelly","last_name_obfuscated":"Lo***r","title":"Chief Customer Officer","org":"LaserAway"},
+{"id":"66f70c4726871400012390ba","first_name":"Tyler","last_name_obfuscated":"Ma***y","title":"Sr. Director of Digital Experience","org":"LaserAway"},
+{"id":"66f76af8fb34c20001e46fd5","first_name":"Brock","last_name_obfuscated":"He***n","title":"Co-Founder, C.O.O.","org":"LaserAway"}],
+"backups":[
+{"id":"68cbe978240a7a00011eed58","first_name":"Jeanette","last_name_obfuscated":"Ko***i","title":"CRM Director","org":"LaserAway"},
+{"id":"66f76a71fb34c20001e4495e","first_name":"Chanelle","last_name_obfuscated":"Qu***a","title":"Creative Director","org":"LaserAway"}],
+"note":"Right company. CEO picked first. Apollo has NO chief marketing officer, VP or head of marketing with an email at LaserAway (the marketing titles found are managers and specialists only), so the marketing slots are the VP of Creative Media, the Chief Customer Officer and the senior director of digital experience, plus the co-founder / COO as a second decision maker. US-only business, so no global vs regional issue. Ignored: about 20 junk 'Chief Operating Officer' records with no location, a 'Founder' record (Roy Wi***n) that does not match the known founders, and the sales leaders (EVP / SVP Sales). Chanelle Qu***a's record was last refreshed Aug 2025."},
+{"user_name":"Orbicular Pharmaceutical Technologies","brand":"Orbicular Pharmaceutical Technologies","domain":"orbicular.co.in","apollo_org":"Orbicular Pharmaceutical Technologies","apollo_org_hq":"Not shown by the free search (city hidden). Org name matches exactly on domain orbicular.co.in; input HQ Hyderabad","confidence":"high","keep_bad":[],
+"picks":[
+{"id":"54c1f97c7468697af717a566","first_name":"Mohan","last_name_obfuscated":"","title":"Managing Director","org":"Orbicular Pharmaceutical Technologies"},
+{"id":"54ec4c81746869444c84237a","first_name":"Vinay","last_name_obfuscated":"Mo***n","title":"Director - Business Development","org":"Orbicular Pharmaceutical Technologies"},
+{"id":"643cea84890c5200016e006a","first_name":"Meena","last_name_obfuscated":"Mo***n","title":"Director","org":"Orbicular Pharmaceutical Technologies"}],
+"backups":[
+{"id":"659919162bb2a70001252a19","first_name":"Bikash","last_name_obfuscated":"Sa***o","title":"Director","org":"Orbicular Pharmaceutical Technologies"},
+{"id":"54a4ef3d74686938ac1e6a6f","first_name":"Rahul","last_name_obfuscated":"Ga***e","title":"CSO","org":"Orbicular Pharmaceutical Technologies"}],
+"note":"Only 3 of 5 picked. Right company (211 people, nearly all R&D, regulatory, supply chain). Apollo lists NO marketing, brand, communications or partnerships role at all. Picks are the Managing Director (first; Apollo holds no last name for him and there is no CEO title, so he is the top executive), the Director of Business Development (the only commercial leader; director level, not a BD manager) and a second Director who looks board-level (function not stated). Backups are weak: a 'Director' with no stated function and the 'CSO' (most likely Chief Scientific Officer, so probably not a fit)."},
+{"user_name":"Parfums de Marly","brand":"Parfums de Marly","domain":"parfums-de-marly.com","apollo_org":"Parfums de Marly","apollo_org_hq":"Not shown by the free search (city hidden). Org name matches on domain parfums-de-marly.com and titles mention 'Parfums de Marly & Initio Parfums Prives'; input HQ Paris","confidence":"high","keep_bad":[],
+"picks":[
+{"id":"60a9dba64aefe80001ecbfb8","first_name":"Elizabeth","last_name_obfuscated":"Vi***s","title":"Chief Commercial Officer (CCO)","org":"Parfums de Marly"},
+{"id":"67c44f69c4819d00010b28a9","first_name":"Clemence","last_name_obfuscated":"Du***l","title":"Chief Marketing Officer","org":"Parfums de Marly"},
+{"id":"66f6917cc37d320001af97ba","first_name":"Alix","last_name_obfuscated":"D'***e","title":"Global Communications Director","org":"Parfums de Marly"},
+{"id":"66f6ce89ec0c8e00013cb278","first_name":"Margaux","last_name_obfuscated":"Li***s","title":"Brand Marketing Director","org":"Parfums de Marly"},
+{"id":"6119e729bab78a00015c7e56","first_name":"Rohan","last_name_obfuscated":"Ka***r","title":"Global Digital Marketing Director","org":"Parfums de Marly"}],
+"backups":[
+{"id":"60d9eb5ec0872b0001708be1","first_name":"Jamie","last_name_obfuscated":"Cr***d","title":"Global Digital Marketing Director","org":"Parfums de Marly"},
+{"id":"6217e375a561eb000133ddd2","first_name":"Meghan","last_name_obfuscated":"Ba***y","title":"Director of Brand Marketing","org":"Parfums de Marly"}],
+"note":"Right company. NO CEO with an email: Apollo has no CEO record for Parfums de Marly at all, and the founder / creative director (Julien Sp***r), the COO and a second CCO have no email. The Chief Commercial Officer is therefore picked first as the senior decision maker. Global people with no email, so not picked: Senior Global Marketing Director (exec committee), Head of Marketing, Global Head of Press and PR, VP Marketing Americas. The sister brand record (INITIO Parfums Prives, initioparfums.com) was checked for a shared CEO: none listed. Backup Meghan Ba***y may be a US / Americas role."},
+{"user_name":"Physical Intelligence","brand":"Physical Intelligence","domain":"physicalintelligence.company","apollo_org":"Physical Intelligence","apollo_org_hq":"Not shown by the free search (city hidden). Matched on domain physicalintelligence.company; the saved CEO and co-founders appear on this record; input HQ San Francisco","confidence":"high","keep_bad":[],
+"picks":[
+{"id":"60b58fd63bf3f8000145f609","first_name":"Sam","last_name_obfuscated":"Wh***e","title":"Business Operations","org":"Physical Intelligence"}],
+"backups":[
+{"id":"5e785a7ff70b120001e22a6d","first_name":"Charvi","last_name_obfuscated":"Sh***a","title":"Business Operations","org":"Physical Intelligence"},
+{"id":"6102307f5e81530001085ace","first_name":"Anna","last_name_obfuscated":"Wa***g","title":"Operations","org":"Physical Intelligence"}],
+"note":"All 4 saved contacts check out (emails on the company domain; all four are on this Apollo record). Apollo lists NO marketing, communications or partnerships person at Physical Intelligence, and the company uses flat titles with no seniority. The closest fit to the note is 'Business Operations': two people hold that exact title with an email, so one is the pick and the other the first backup (no way to tell from Apollo which is more senior). Second backup is plain 'Operations'. Not picked: Head of Real Estate and Workplace Experience, Head of ML Infra (engineer), research / robot / data operations staff."},
+{"user_name":"Skylark Labs","brand":"Skylark Labs","domain":"skylarklabs.ai","apollo_org":"Skylark Labs","apollo_org_hq":"Not shown by the free search (city hidden). Org name matches on domain skylarklabs.ai; titles mention autonomous systems and land systems; input HQ San Francisco","confidence":"high","keep_bad":[],
+"picks":[
+{"id":"66fac14a137fb600014abfa0","first_name":"Amarjot","last_name_obfuscated":"Si***h","title":"Founder & CEO","org":"Skylark Labs"},
+{"id":"60e0f5298142e50001c94243","first_name":"Noor","last_name_obfuscated":"Jo***y","title":"Marketing","org":"Skylark Labs"},
+{"id":"5e7a7d89715c540001ccefa0","first_name":"Ketan","last_name_obfuscated":"Ba***l","title":"Director of Business Strategy and Transformation","org":"Skylark Labs"},
+{"id":"610bf3d5721c7c0001325a76","first_name":"Vince","last_name_obfuscated":"Na***a","title":"COO - Advancing Continuous-learning AI for Autonomous Systems","org":"Skylark Labs"},
+{"id":"621f449a7c485400015960c7","first_name":"Sukhbir","last_name_obfuscated":"Si***h","title":"Director of Operations","org":"Skylark Labs"}],
+"backups":[
+{"id":"6558800617bff800010c4277","first_name":"Ashish","last_name_obfuscated":"Ka***r","title":"Head of Land Systems","org":"Skylark Labs"}],
+"note":"Right company. Small firm: only 5 people at director level or above. Founder / CEO picked first. The only marketing person with an email is titled just 'Marketing' (seniority not stated; she appears to be the whole marketing function). No CMO, brand, communications or partnerships title exists. The other picks are the COO, the director of business strategy and, as the weakest of the five, the Director of Operations. Only one backup available: a business-unit head (Land Systems), not a marketer."},
+{"user_name":"SuKarne","brand":"SuKarne","domain":"sukarne.com","apollo_org":"SuKarne","apollo_org_hq":"Not shown by the free search (city hidden). Org name matches on domain sukarne.com; Spanish-language titles and 'Grupo Sukarne' references; input HQ Culiacan, Sinaloa","confidence":"high","keep_bad":[],
+"picks":[
+{"id":"6689bd30a95d9f000122ee0b","first_name":"Victor","last_name_obfuscated":"Os***a","title":"Director General Comercial","org":"SuKarne"},
+{"id":"60cc7df2ddec8d00010fb48b","first_name":"Martha","last_name_obfuscated":"To***s","title":"Subdirectora Mercadotecnia","org":"SuKarne"},
+{"id":"69882f760f28700001adb291","first_name":"Sol","last_name_obfuscated":"Ta***r","title":"Sub Directora de Marketing","org":"SuKarne"},
+{"id":"5ff848e7e1148d0001c1d21a","first_name":"Maria","last_name_obfuscated":"Iz***l","title":"Jefe de Publicidad y Medios","org":"SuKarne"},
+{"id":"54a7772b74686965d9207137","first_name":"Paul","last_name_obfuscated":"Sa***a","title":"Jefe Publicidad Creativa","org":"SuKarne"}],
+"backups":[
+{"id":"54a6f23b746869705a89eb06","first_name":"Elisabel","last_name_obfuscated":"Le***l","title":"Jefe de Mercadotecnia Comercial Detalle.","org":"SuKarne"},
+{"id":"54a262047468692e714d0b1f","first_name":"Rene","last_name_obfuscated":"Al***z","title":"Sub Director Estrategia Comercial","org":"SuKarne"}],
+"note":"Right company. NO CEO with an email: the only CEO record (Eduardo Ma***z, 'Chief CEO') has no email, and no president / chairman record turned up. The Director General Comercial (chief commercial officer equivalent) is picked first as the senior decision maker. The three people titled Marketing Director (Hugo Ca***a, Carlos Di***z, Erika Sa***r) have NO email, so marketing is covered one level down: two deputy marketing directors (near-identical titles, kept because they are the most senior marketers with emails) and the heads of advertising and media and of creative advertising. All are headquarters roles for the whole company, not regional. Titles are in Spanish (Subdirectora = deputy director, Jefe = head of)."},
+{"user_name":"Switch","brand":"Switch","domain":"switch.com","apollo_org":"Switch","apollo_org_hq":"Not shown by the free search (city hidden). Matched on domain switch.com; the saved contacts and Nevada-based staff with data centre titles are on this record; input HQ Las Vegas","confidence":"high","keep_bad":[],
+"picks":[
+{"id":"64f6d4436dd647000199bb33","first_name":"Chris","last_name_obfuscated":"Do***y","title":"CXO (Chief Connectivity Officer)","org":"Switch"}],
+"backups":[
+{"id":"5d06413aa3ae6102bc407492","first_name":"Raleigh","last_name_obfuscated":"Mi***a","title":"Executive VP","org":"Switch"},
+{"id":"57dd32b4a6da987b0158f0f4","first_name":"Adam","last_name_obfuscated":"St***g","title":"Senior Vice President of Enterprise and Government Accounts","org":"Switch"}],
+"note":"All 4 saved contacts check out (emails on switch.com; the two checked in Apollo are on this record). The user asked for the CEO, president or chief revenue officer: Apollo has NONE of these for the data centre company. The switch.com record is polluted with other companies called Switch (three unrelated 'CEO' records, two 'Chief Operating Officer' records, several 'Founder' records, none based in Nevada), so only Nevada-based people were considered. Among those, the C-suite with emails is the Chief Connectivity Officer (picked: a C-level business leader), the CFO (finance, excluded) and the Chief Construction Officer (not relevant). Backups: an Executive VP (remit not stated) and the SVP who runs enterprise and government accounts (the most senior revenue leader found, but a sales role). Also available if useful: Vice President Communications (Anna Ki***s, id 66f2087140bcb700011786f2), not picked because the note asks for a senior decision maker."},
+{"user_name":"Thinking Machines Lab","brand":"Thinking Machines Lab","domain":"thinkingmachines.ai","apollo_org":"Thinking Machines Lab","apollo_org_hq":"Not shown by the free search (city hidden). Org name matches on domain thinkingmachines.ai; the four excluded saved people are on this record; input HQ San Francisco","confidence":"high","keep_bad":[],
+"picks":[],
+"backups":[
+{"id":"6a98cb813f6561000146ca56","first_name":"Pia","last_name_obfuscated":"Sa***s","title":"Founding Team","org":"Thinking Machines Lab"},
+{"id":"57d33f30a6da98656fa7e7df","first_name":"Emily","last_name_obfuscated":"Bi***o","title":"Operations","org":"Thinking Machines Lab"}],
+"note":"0 of 5 picked: nobody in Apollo fits the note beyond the four already excluded. There is NO record for the CEO (a search for her surname on this domain returned nothing), and no president, COO, communications, marketing, partnerships or business-development title exists. Everyone else with an email is a researcher / engineer, legal, finance, recruiting or junior operations staff. Backups are weak and should be checked before use: 'Founding Team' (function not stated; could be a researcher) and 'Operations' (not a leader; the Founding Head of Operations is already on the exclude list). A co-founder / non-executive director record (Susan Kim) has no email and looks unreliable."},
+{"user_name":"True Religion","brand":"True Religion","domain":"truereligion.com","apollo_org":"True Religion","apollo_org_hq":"Not shown by the free search (city hidden). Org name matches on domain truereligion.com; titles cover wholesale, retail, licensing and design; input HQ Gardena / Los Angeles","confidence":"high","keep_bad":[],
+"picks":[
+{"id":"6acd0fb867f9ea000189872a","first_name":"Michael","last_name_obfuscated":"Bu***y","title":"Chief Executive Officer","org":"True Religion"},
+{"id":"68f59203477df30001dc6c1a","first_name":"Kristen","last_name_obfuscated":"D'***y","title":"Chief Marketing Officer and Head of Digital Growth (Ecommerce)","org":"True Religion"},
+{"id":"5ffa80eb6d0f260001b00339","first_name":"Mike","last_name_obfuscated":"Ma***i","title":"VP, Growth and Retention Marketing","org":"True Religion"},
+{"id":"658c502b45104f0001053e34","first_name":"Leslie","last_name_obfuscated":"Sm***h","title":"Sr. Director, Integrated Marketing","org":"True Religion"},
+{"id":"66fbd12f216e5a0001da9e93","first_name":"Tina","last_name_obfuscated":"Bl***e","title":"SVP Design, Merchandising & Brand Image","org":"True Religion"}],
+"backups":[
+{"id":"611d2f6d4ef859000119ca47","first_name":"Andrew","last_name_obfuscated":"Ra***h","title":"SVP, Global Digital & E-commerce","org":"True Religion"},
+{"id":"54a96c96746869334a25c713","first_name":"Imani","last_name_obfuscated":"Ja***n","title":"Director of Growth Marketing and Innovation","org":"True Religion"}],
+"note":"Right company. CEO picked first, then the CMO, the VP of growth and retention marketing, the senior director of integrated marketing and the SVP who owns brand image. No chief revenue or chief commercial officer exists in Apollo; the nearest is the SVP Global Digital & E-commerce (first backup). Ignored: four other 'CEO' records that do not match the current chief executive (Briget Wi***n 'President/ CEO' has an email but looks like a wrong or stale record; Keith X, Treon Sa***s and the founder-era 'Ceo, Chairman Head Designer' record have no email), the CFO / COO (finance), and the wholesale sales and licensing heads. Also available: Head of Retention Marketing, Senior Director CRM & Lifecycle Marketing, VP of Licensing."}
+]}
