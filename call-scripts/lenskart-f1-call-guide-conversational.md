@@ -47,7 +47,7 @@
 5. "In your November letter you said marketing fell to 4.5% of India revenue, and that not all of that was efficiency. You wrote that you 'want to deploy more' and are waiting for opportunities 'that build the brand for years, not a quarter.' What would one of those look like to you?"
 6. "You already make licensed collections. I've seen Batman and Superman, Game of Thrones in Singapore, Pop Mart, and Stranger Things at Owndays. I haven't found one with a sports team yet. So are you thinking about F1 as a collection you'd make and sell, as a sponsorship with your name next to a team, or both?"
 7. "How do you judge marketing? Your August letter says Run for a Frame in Thailand lifted store traffic by 120%. Is store traffic the number that matters? Or is it eye tests, sales, app installs or Gold members?"
-8. "You've used well-known faces market by market: Takuya Kimura for Owndays in Japan, LingLing Kwong in Thailand, Mira Filzah in Malaysia. Would a driver do that job for you? Or is it the team's name you'd want?"
+8. "If you had the rights, which would you use most? A driver in your ads, the way you use Takuya Kimura for Owndays in Japan? A collection in your stores? Race tickets and experiences for your Gold members? Or your name on the car?"
 9. "B is now in more than 500 stores, with Google's Gemini built in, and you've said about 90% of buyers take it with a prescription. Is B part of this conversation? Or would you keep it separate, since you've called it a multi-year journey?"
 10. "You sell a complete pair for 500 rupees through Hustlr Club, and progressive lenses at 30,000. Which end would you want Formula 1 to help with? Is it the first-time buyer, or the customer who's trading up?"
 11. "What would be your biggest concern about doing something like this? What would make it go wrong?"
@@ -67,17 +67,17 @@
 >
 > And it reaches India even without a race. Formula 1 says it has 79 million fans in India, on Nielsen's numbers. Every session is shown live there on FanCode, in a deal that runs to 2028."
 
-### "We also care about retail partners, landlords and investors. Who's in the paddock?"
+### "We sell to consumers. Do the paddock and hospitality matter for us?"
 
-> "Yeah, mostly business people. Around two-thirds of Paddock Club guests are senior executives. And across the grid you've got more than 350 partner companies, each bringing their own guests.
+> "Yeah, I think less than for a business-to-business brand, and I'd say that plainly. Around two-thirds of Paddock Club guests are senior executives, so it's built for hosting clients. For you, the fans are the audience, not the paddock.
 >
-> For you, I'd think of it as a place to host. That could be mall owners, franchise partners, investors, or the companies you build with. Google, whose Gemini is in your smart glasses, is a McLaren partner, for example.
+> But race weekends are still useful to a consumer brand, as rewards. That could be prizes for customers and Gold members, a trip for your best store teams, or a weekend for franchise partners and mall owners.
 >
 > What's quite useful is that passes work all three days. So seven passes can host around twenty different guests over a weekend. And Singapore, Suzuka and Abu Dhabi are all in markets where you have stores."
 
 ### "How are similar brands using F1, and what are they getting out of it?"
 
-> "Yeah, so eyewear is one of the busiest areas in the sport, which means there's a lot to look at. I've picked seven examples. The first five are eyewear, then there's a clothing brand that publishes numbers, and a listed company from India."
+> "Yeah, so eyewear is one of the busiest areas in the sport, which means there's a lot to look at. I've picked six examples. Five are eyewear, and the last is a clothing brand that publishes numbers. They're all consumer brands, so I'll focus on what they do for shoppers and fans."
 
 **Ray-Ban at Ferrari**
 
@@ -138,14 +138,6 @@
 > adidas makes the kit for the whole team, plus a range for fans of clothes, shoes and accessories. It sells that through its own site, the team's site and its retailers. This year it added a second team, Audi.
 >
 > And there's a public signal. In April, adidas said its clothing sales were helped by double-digit growth in several areas, and motorsport was one of them. It also said the new Mercedes and Audi teamwear was well received by retailers and shoppers alike."
-
-**Mphasis at Haas**
-
-> "This one is here because it's a listed company from India. Mphasis is an IT company based in Bengaluru. It's been with Haas since the Las Vegas race two years ago, as the team's official digital partner.
->
-> Their chief executive, Nitin Rakesh, called it an exciting opportunity to show what technology can do. Mphasis works with the team on data, analytics, AI and security, and its logo went on the car from that race. Forbes reported it as a five-year technical partnership.
->
-> No results have been published. But they're now in their second season, and they stayed when Haas changed its title partner. So I think it shows that a listed Indian company can do this."
 
 **What that adds up to**
 
@@ -247,6 +239,30 @@
 >
 > And the fourth is that you're a listed company that's growing fast and making money. I think teams like partners who'll still be there in five years. Of course, we'd need to check whether a team values those things, and whether a current partner already covers them."
 
+### "What rights would we get, and which ones matter for a consumer brand?"
+
+> "Yeah, so a team partnership is really a bundle of rights, and for a consumer brand some of them matter much more than others. Let me go through the ones I'd focus on for you.
+>
+> The first is the right to use the team's name in your own marketing. That's a title, like Official Eyewear Partner, plus the team's logo and car in your ads, your store windows, your app and your packaging. For a retailer with more than 3,600 stores, that's the right you'd use every day.
+>
+> The second is the drivers. Most deals include a set number of days with them each year, for shoots and appearances, and the right to use their pictures in team kit. That's often both drivers together. A driver on his own, as your personal ambassador, is usually a separate deal with him. You already use well-known faces market by market, so I think this is closest to what you do today.
+>
+> The third is content and social. That's filming days, access behind the scenes, and posts on the team's own channels, which reach fans you don't. F1 is the number one sport on social media, and 61% of fans engage with F1 content every day.
+>
+> The fourth is the product, so a collection with the team's name on it, sold in your stores. That's a licence, and I'll come to how that works in a second.
+>
+> The fifth is promotions, and for you I think it's a big one. That's the right to run competitions and offers with the team's name on them, and to give away things money can't buy, like race tickets, a garage tour, or meeting a driver. For a brand with more than ten million Gold members, that's a reason to join, to buy or to come back.
+>
+> There are good examples of that. Mastercard takes small groups of cardholders inside the McLaren garage at five races. And Public, the US investing app, hid three Aston Martin cars inside its own app, with a VIP weekend in Las Vegas as the prize.
+>
+> The sixth is things that bring people into stores. Teams often lend a show car, a simulator or a pit-stop challenge, and sometimes a driver for a store opening. Kraken does something similar with Williams. It presents the team's Fan Zones, where fans meet drivers and try simulators.
+>
+> The seventh is branding, so the car, the drivers' suits and caps, and the garage. For eyewear, the most useful version is the simplest one. It's the drivers and the crew wearing your glasses on camera, the way Maui Jim does at Red Bull.
+>
+> Then there are two things that set the price. One is exclusivity, so being the only eyewear name at that team. The other is territory. Rights can be global, or limited to certain countries, and a regional deal usually costs less. For you, Asia and the Middle East might be enough to start.
+>
+> So if I had to rank them for Lenskart, I'd put the product first, then the drivers, then promotions for your members, then content. The logo on the car comes after those. And we'd write each one into the contract, with numbers: how many days, how many tickets, which countries, and for how long."
+
 ### "Could we make and sell team or F1 eyewear? How does licensing work?"
 
 > "Yeah, in principle you could, and I think for you it's the most interesting part. But it's a separate deal from a sponsorship. So let me explain the two.
@@ -297,7 +313,7 @@
 >
 > A second option is a driver. A driver deal costs a lot less than a team deal, and it suits the way you already use well-known faces in each market. There are Indian names in and around the grid as well.
 >
-> A third is hosting. What's quite useful is that passes work all three days, so seven passes can host around twenty different guests over the weekend. In Singapore that could be mall owners, franchise partners and investors.
+> A third is race weekends as rewards. Passes work all three days, so seven passes can host around twenty different guests over the weekend. In Singapore that could be competition winners, Gold members, your best store teams and franchise partners.
 >
 > A full team partnership is really the last step. A typical one is one team over two or three years, with a title, some branding, content days, hospitality and the licence together. If the first steps pay back, we'd look at that then."
 
@@ -423,7 +439,7 @@
 
 > "Great, thanks. This has been really helpful.
 >
-> So let me just play that back to make sure I've understood. Your main priority is [their priority], the brand that would lead is [which brand], and the sign-off sits with [who]. And the markets that matter most are [their markets].
+> So let me just play that back to make sure I've understood. Your main priority is [their priority], the brand that would lead is [which brand], and the rights you'd use most are [which rights]. The markets that matter most are [their markets], and the sign-off sits with [who].
 >
 > I think what we'll do from here is put together a short brief based on what we've discussed and share that with you. Once we're aligned on that, we can check for any conflicts across the grid, ask about a licence alongside a sponsorship, and come back with a few options that we think make sense. I'd say give us around two to three weeks to do that properly.
 >
