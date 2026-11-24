@@ -1,0 +1,339 @@
+{
+ "rows": [
+  {
+   "brand": "InPost",
+   "people": [
+    {
+     "name": "Dariusz Lipinski",
+     "title": "InPost Group COO, VP Operations",
+     "email": "dlipinski@inpost.pl",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/dariusz-lipi%c5%84ski-4ab0b458",
+     "location": "\u0141\u00f3d\u017a, Poland"
+    },
+    {
+     "name": "Izabela Karolczyk-Szafranska",
+     "title": "VP Chief Marketing and ESG Officer",
+     "email": "ikarolczyk-szafranska@inpost.pl",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/izakarolczyk",
+     "location": "Warsaw, Poland"
+    },
+    {
+     "name": "Peter Blackburn",
+     "title": "Chief Marketing Officer, InPost UK",
+     "email": "pblackburn@inpost.co.uk",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/peter-blackburn-85063711",
+     "location": "Wokingham, United Kingdom"
+    },
+    {
+     "name": "Beniamin Schoen",
+     "title": "Marketing Director - International Markets",
+     "email": "bschon@inpost.pl",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/beniaminschon",
+     "location": "Warsaw, Poland"
+    },
+    {
+     "name": "Marcin Kalk",
+     "title": "Head of Marketing and Activation Team",
+     "email": "mkalk@inpost.pl",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/marcin-kalk-613812182",
+     "location": "Warsaw, Poland"
+    }
+   ]
+  },
+  {
+   "brand": "Modal Labs",
+   "people": [
+    {
+     "name": "David Dorman",
+     "title": "VP Marketing / Growth",
+     "email": "dorman@modal.com"
+    },
+    {
+     "name": "Greta Workman",
+     "title": "Head of Product Marketing",
+     "email": "greta@modal.com"
+    },
+    {
+     "name": "Peri Langlois",
+     "title": "Brand Marketing",
+     "email": "peri@modal.com"
+    },
+    {
+     "name": "Erik Bernhardsson",
+     "title": "CEO",
+     "email": "erik@modal.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/erikbern",
+     "location": "New York, United States",
+     "email_status": "verified",
+     "apollo_id": "67a12807fab0a10001bbb8e4"
+    },
+    {
+     "name": "Justin Dignelli",
+     "title": "VP of Sales",
+     "email": "justin@modal.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/justindignelli",
+     "location": "San Francisco, California, United States",
+     "email_status": "verified",
+     "apollo_id": "66f3368ece0f6c000122b9f0"
+    }
+   ]
+  },
+  {
+   "brand": "Switch",
+   "people": [
+    {
+     "name": "Will Adamson",
+     "title": "Senior Vice President of Brand & Marketing Architecture",
+     "email": "wadamson@switch.com"
+    },
+    {
+     "name": "Heather Ellerbe",
+     "title": "Vice President Marketing",
+     "email": "heather@switch.com"
+    },
+    {
+     "name": "Chelsea Darby",
+     "title": "VP of Creative",
+     "email": "cdarby@switch.com"
+    },
+    {
+     "name": "Kiyo Wiesnoski",
+     "title": "Senior Director of Marketing",
+     "email": "kwiesnoski@switch.com"
+    },
+    {
+     "name": "Chris Donnelly",
+     "title": "CXO (Chief Connectivity Officer)",
+     "email": "chris@switch.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/chris-donnelly-3981a255",
+     "location": "Las Vegas, Nevada, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Etched",
+   "people": [
+    {
+     "name": "Gavin Uberti",
+     "title": "CEO and Co-Founder",
+     "email": "gavin@etched.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/guberti",
+     "location": "San Francisco, California, United States",
+     "email_status": "verified",
+     "apollo_id": "66f414639b80c300014f8cc3"
+    },
+    {
+     "name": "Robert Wachen",
+     "title": "Co-Founder and President",
+     "email": "robert@etched.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/robertwachen",
+     "location": "San Francisco, California, United States",
+     "email_status": "verified",
+     "apollo_id": "68200f86c153b600016624e9"
+    },
+    {
+     "name": "Chris Zhu",
+     "title": "Co-Founder",
+     "email": "chris@etched.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/czhu1729",
+     "location": "San Jose, California, United States",
+     "email_status": "verified",
+     "apollo_id": "66f5ff91b023c40001560377"
+    },
+    {
+     "name": "Don Moore",
+     "title": "Head of Growth Ops",
+     "email": "don@etched.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/d0n",
+     "location": "San Jose, California, United States",
+     "email_status": "verified",
+     "apollo_id": "68789c8bd005c900012c3fe2"
+    }
+   ]
+  },
+  {
+   "brand": "Wonderful",
+   "people": [
+    {
+     "name": "Bar Winkler",
+     "title": "Co-Founder & CEO",
+     "email": "bar.w@wonderful.ai"
+    },
+    {
+     "name": "Roi Tavor",
+     "title": "Chief Revenue Officer",
+     "email": "roi.t@wonderful.ai"
+    },
+    {
+     "name": "Dor Beglaubter",
+     "title": "Head of Product Marketing",
+     "email": "dor.b@wonderful.ai"
+    },
+    {
+     "name": "Jordy Loozekoot",
+     "title": "Head of EMEA Marketing",
+     "email": "jordy.l@wonderful.ai"
+    }
+   ]
+  },
+  {
+   "brand": "Pizza Hut",
+   "people": [
+    {
+     "name": "Eduardo Luz",
+     "title": "Board Member and Interim CEO",
+     "email": "eduardo.luz@pizzahut.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/luz-eduardo",
+     "location": "Miami, Florida, United States"
+    },
+    {
+     "name": "Melissa Friebe",
+     "title": "Chief Marketing Officer",
+     "email": "melissa.friebe@pizzahut.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/melissafriebe",
+     "location": "United States"
+    },
+    {
+     "name": "Taras Malyshev",
+     "title": "Global Head of Growth Marketing",
+     "email": "taras.malyshev@pizzahut.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/taras-malyshev",
+     "location": "Bradenton, Florida, United States"
+    },
+    {
+     "name": "Lindsey Corum",
+     "title": "Director of Brand Communication",
+     "email": "lindsey.corum@pizzahut.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lindsey-corum",
+     "location": "Dallas, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Parfums de Marly",
+   "people": [
+    {
+     "name": "Elizabeth Villegas",
+     "title": "Chief Commercial Officer, The Americas",
+     "email": "ev@finefragrancesdistribution.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/elizabeth-villegas-206718b4",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Clemence Duval",
+     "title": "Chief Marketing Officer",
+     "email": "clemence.duval@artessencegroup.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/clemence-duval-04a92548",
+     "location": "Dubai, United Arab Emirates"
+    },
+    {
+     "name": "Alix D'Hautefeuille",
+     "title": "Global Communications Director",
+     "email": "alix@pmarly.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/alixdhautefeuille",
+     "location": "Dubai, United Arab Emirates"
+    },
+    {
+     "name": "Meghan Barry",
+     "title": "Director of Brand Marketing",
+     "email": "mb@parfums-de-marly.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/barrymeghan",
+     "location": "New Jersey, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Stark Future",
+   "people": [
+    {
+     "name": "Anton Wass",
+     "title": "CEO & Founder",
+     "email": "anton@starkfuture.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/anton-wass-23a9a944",
+     "location": "Sitges, Barcelona, Spain"
+    },
+    {
+     "name": "Morgan Karlsson",
+     "title": "Chief Marketing Officer",
+     "email": "morgan.karlsson@starkfuture.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/morgan-karlsson-37386813",
+     "location": "Bunyola, Balearic Islands, Spain"
+    },
+    {
+     "name": "Dennis Nylund",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "dennis.nylund@starkfuture.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/dennis-nylund-362220170",
+     "location": "Sitges, Barcelona, Spain"
+    },
+    {
+     "name": "Dani Trius",
+     "title": "Sports & Field Marketing Director",
+     "email": "dani.trius@starkfuture.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/danitrius",
+     "location": "Barcelona, Spain"
+    },
+    {
+     "name": "Ben Cobb",
+     "title": "Director of Brand Communications",
+     "email": "benjamin.cobb@starkfuture.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/bdlcobb",
+     "location": "Spain"
+    }
+   ]
+  },
+  {
+   "brand": "Thinking Machines Lab",
+   "people": [
+    {
+     "name": "Jonathan Lachman",
+     "title": "Founding Head of Operations",
+     "email": "jon@thinkingmachines.ai"
+    },
+    {
+     "name": "Jen Chan",
+     "title": "GTM Strategy & Operations",
+     "email": "jen@thinkingmachines.ai"
+    }
+   ]
+  },
+  {
+   "brand": "iMENA",
+   "people": [
+    {
+     "name": "Khaldoon Tabaza",
+     "title": "Founder & MD",
+     "email": "khaldoon@imena.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/tabaza",
+     "location": "Dubai, United Arab Emirates"
+    }
+   ]
+  }
+ ]
+}

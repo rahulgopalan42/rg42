@@ -1,0 +1,340 @@
+{
+ "rows": [
+  {
+   "brand": "Cary Group",
+   "people": [
+    {
+     "name": "Anders Jensen",
+     "title": "Chief Executive Officer",
+     "email": "anders.jensen@carygroup.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/anders-jensen-24119213",
+     "location": "Stockholm, Sweden"
+    },
+    {
+     "name": "Johannes Liebmann",
+     "title": "Group Director Marketing",
+     "email": "johannes.liebmann@carygroup.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/johannes-liebmann",
+     "location": "Munich, Germany"
+    },
+    {
+     "name": "Helene Gustafsson",
+     "title": "Head of Corporate Communication",
+     "email": "helene.gustafsson@carygroup.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/helene-gustafsson-2a746427",
+     "location": "Stockholm, Sweden"
+    },
+    {
+     "name": "Rudolf Rizzolli",
+     "title": "Deputy CEO",
+     "email": "rudolf.rizzolli@carygroup.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/rudolf-rizzolli-80bba191",
+     "location": "Sweden"
+    }
+   ]
+  },
+  {
+   "brand": "Databento",
+   "people": [
+    {
+     "name": "Christina Qi",
+     "title": "Chief Executive Officer",
+     "email": "cqi@databento.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/christinaqi",
+     "location": "Salt Lake City, UT, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Future Secure AI",
+   "people": [
+    {
+     "name": "Brendan McKeegan",
+     "title": "Chief Operating Officer",
+     "email": "brendan.mckeegan@futuresecure.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/brendan-mckeegan-25590",
+     "location": "Melbourne VIC, Australia"
+    },
+    {
+     "name": "Nays Baghai",
+     "title": "Senior Director, Creative Operations",
+     "email": "nays.baghai@futuresecure.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/nays-baghai-74b70b87",
+     "location": "Sydney NSW, Australia"
+    },
+    {
+     "name": "Ollie Sloman",
+     "title": "Executive Director - Growth",
+     "email": "ollie.sloman@futuresecure.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/ollie-sloman-07322129",
+     "location": "Sydney NSW, Australia"
+    },
+    {
+     "name": "Andrew Trahair",
+     "title": "Chief Corporate Officer",
+     "email": "andrew.trahair@futuresecure.ai",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/andrew-trahair-1b170312",
+     "location": "New York, NY, USA"
+    }
+   ]
+  },
+  {
+   "brand": "SuKarne",
+   "people": [
+    {
+     "name": "Victor Osnaya",
+     "title": "Director General Comercial",
+     "email": "victor.osnaya@sukarne.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/victor-osnaya-coach",
+     "location": "Culiacan Rosales, Sinaloa, Mexico"
+    },
+    {
+     "name": "Martha Salazar Torres",
+     "title": "Subdirectora Mercadotecnia",
+     "email": "martha.salazar@sukarne.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/martha-salazar-torres-398016189",
+     "location": "Culiacan Rosales, Sinaloa, Mexico"
+    },
+    {
+     "name": "Maria Castanos Izabal",
+     "title": "Jefe de Publicidad y Medios",
+     "email": "maria.castanosi@sukarne.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/mar%c3%ada-in%c3%a9s-casta%c3%b1os-izabal-86ab22122",
+     "location": "Culiacan Rosales, Sinaloa, Mexico"
+    },
+    {
+     "name": "Sol Tafur",
+     "title": "Sub Directora de Marketing",
+     "email": "maria.tafurc@sukarne.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/sol-tafur-consultoria",
+     "location": "Mexico"
+    },
+    {
+     "name": "Paul Sauceda",
+     "title": "Jefe Publicidad Creativa",
+     "email": "paul.sauceda@sukarne.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/paulsauceda",
+     "location": "Culiacan Rosales, Sinaloa, Mexico"
+    }
+   ]
+  },
+  {
+   "brand": "Canaccord Genuity Wealth Management",
+   "people": [
+    {
+     "name": "David Esfandi",
+     "title": "Chief Executive Officer",
+     "email": "david.esfandi@canaccord.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/david-esfandi-a0791b48",
+     "location": "Greater London, United Kingdom"
+    },
+    {
+     "name": "Jane Parry",
+     "title": "Group Chief Marketing Officer",
+     "email": "jane.parry@canaccord.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/jane-parry-a529935",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Tom Lane",
+     "title": "Group Chief Commercial Officer",
+     "email": "thomas.lane@canaccord.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/tom-l-31188a14",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Andy Finch",
+     "title": "CEO, International",
+     "email": "andy.finch@canaccord.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/andyfinchcanaccordwealth",
+     "location": "Guernsey"
+    }
+   ]
+  },
+  {
+   "brand": "Corma",
+   "people": [
+    {
+     "name": "Alon Pluda",
+     "title": "Co-Founder & CEO",
+     "email": "alon@corma-labs.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/alon-pluda-48361b264",
+     "location": "Tel Aviv-Yafo, Israel"
+    },
+    {
+     "name": "Hofit Bata",
+     "title": "Co-Founder",
+     "email": "hofit@corma-labs.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/hofit-bata-76280714b",
+     "location": "Israel"
+    }
+   ]
+  },
+  {
+   "brand": "LaserAway",
+   "people": [
+    {
+     "name": "Scott Heckmann",
+     "title": "CEO",
+     "email": "scotth@laseraway.net",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/scott-heckmann-4222bb8",
+     "location": "Santa Monica, California, United States"
+    },
+    {
+     "name": "Kelly Lohr",
+     "title": "Chief Customer Officer",
+     "email": "kelly.lohr@laseraway.net",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kellylohr",
+     "location": "Austin, Texas, United States"
+    },
+    {
+     "name": "Brock Heckmann",
+     "title": "Co-Founder",
+     "email": "brockh@laseraway.net",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/brockheckmann",
+     "location": "Solana Beach, California, United States"
+    },
+    {
+     "name": "Benjamin Espiritu",
+     "title": "Vice President of Creative Media",
+     "email": "bene@laseraway.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/benjaminedavid",
+     "location": "Los Angeles, California, United States"
+    },
+    {
+     "name": "Tyler Mabery",
+     "title": "Sr. Director of Digital Experience",
+     "email": "tyler.mabery@laseraway.net",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/tylermabery",
+     "location": "Bend, Oregon, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Stahl",
+   "people": [
+    {
+     "name": "John Schelhaas",
+     "title": "Chief Operating Officer",
+     "email": "john.schelhaas@stahl.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/john-schelhaas-3740776",
+     "location": "Netherlands"
+    },
+    {
+     "name": "Laura Willemsen",
+     "title": "Group Director Marketing and Sustainability",
+     "email": "laura.willemsen@stahl.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/laurawillemsen",
+     "location": "Breda, Netherlands"
+    },
+    {
+     "name": "Alexander Schieke",
+     "title": "Global Marketing Director",
+     "email": "alexander.schieke@stahl.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/schieke",
+     "location": "Hanover, Germany"
+    },
+    {
+     "name": "Anne ter Braak",
+     "title": "Head of Corporate Communications & Growth Marketing",
+     "email": "anne.terbraak@stahl.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/anneterbraak",
+     "location": "Breda, Netherlands"
+    }
+   ]
+  },
+  {
+   "brand": "Colossal Biosciences",
+   "people": [
+    {
+     "name": "Ben Lamm",
+     "title": "Founder and CEO",
+     "email": "ben@colossal.com"
+    },
+    {
+     "name": "Chris Klee",
+     "title": "Executive Vice President of Marketing and Design",
+     "email": "klee@colossal.com"
+    },
+    {
+     "name": "Jillian McCall",
+     "title": "Senior Director of Marketing",
+     "email": "jillian@colossal.com"
+    },
+    {
+     "name": "Emily Mailaender",
+     "title": "EVP of Strategic Communications",
+     "email": "emily@colossal.com"
+    },
+    {
+     "name": "Adam Milne",
+     "title": "Chief Operating Officer",
+     "email": "adam@colossal.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/adamdmilne",
+     "location": "Cambridge, Massachusetts, United States",
+     "email_status": "verified",
+     "apollo_id": "60f00670a815930001ad4ff2"
+    }
+   ]
+  },
+  {
+   "brand": "Science Corporation",
+   "people": [
+    {
+     "name": "Darius Shahida",
+     "title": "Chief Strategy Officer",
+     "email": "dariuss@science.xyz",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/dariusshahida",
+     "location": "United States"
+    },
+    {
+     "name": "Matt Helfgott",
+     "title": "Global Marketing & Creative",
+     "email": "matth@science.xyz",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/matthelfgott",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Kylie Alsofrom",
+     "title": "Executive Vice President of Operations",
+     "email": "kyliea@science.xyz",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/kylie-alsofrom-58a32317",
+     "location": "San Francisco, CA, USA"
+    }
+   ]
+  }
+ ]
+}

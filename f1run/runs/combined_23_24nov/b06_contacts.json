@@ -1,0 +1,359 @@
+{
+ "rows": [
+  {
+   "brand": "Anduril Industries",
+   "people": [
+    {
+     "name": "Matthew Steckman",
+     "title": "President and CBO",
+     "email": "msteckman@anduril.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/matthew-steckman-4a23a8b0",
+     "location": "Arlington, Virginia, United States",
+     "email_status": "verified",
+     "apollo_id": "66f5add5a82b2e00012a2d4f"
+    },
+    {
+     "name": "Shannon Prior",
+     "title": "VP & Head of Global Communications",
+     "email": "sprior@anduril.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/shannonprior",
+     "location": "Ladera Ranch, California, United States",
+     "email_status": "verified",
+     "apollo_id": "60cd162b684a5f0001d939d7"
+    },
+    {
+     "name": "Shawn Grant",
+     "title": "Director, Brand Marketing",
+     "email": "sgrant@anduril.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/shawnjgrant",
+     "location": "Costa Mesa, California, United States",
+     "email_status": "verified",
+     "apollo_id": "55c3f0be7369646d0c083400"
+    },
+    {
+     "name": "Andrew Frink",
+     "title": "Creative Director",
+     "email": "afrink@anduril.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/andrew-frink-b26968109",
+     "location": "Seattle, Washington, United States",
+     "email_status": "verified",
+     "apollo_id": "57d4c291a6da9853c6d56e51"
+    },
+    {
+     "name": "Katie Dufficy",
+     "title": "Director of Communications, Asia Pacific",
+     "email": "kdufficy@anduril.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/katie-dufficy-9392496",
+     "location": "Sydney, New South Wales, Australia",
+     "email_status": "verified",
+     "apollo_id": "5fd2caa0d396360001cb9e48"
+    }
+   ]
+  },
+  {
+   "brand": "Isomorphic Labs",
+   "people": [
+    {
+     "name": "Molly Morgan",
+     "title": "Global Head of Communications",
+     "email": "mollymorgan@isomorphiclabs.com"
+    },
+    {
+     "name": "Mari Barlow",
+     "title": "Brand and Communications Director",
+     "email": "barlowm@isomorphiclabs.com"
+    },
+    {
+     "name": "Kinga Bercsenyi",
+     "title": "Director of Business Development",
+     "email": "kingabercsenyi@isomorphiclabs.com"
+    },
+    {
+     "name": "Max Jaderberg",
+     "title": "President",
+     "email": "jaderberg@isomorphiclabs.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/maxjaderberg",
+     "location": "London, England, United Kingdom",
+     "email_status": "verified",
+     "apollo_id": "66f3296a370f970001c267b3"
+    },
+    {
+     "name": "Ryan Pinto",
+     "title": "Vice President, Business Development",
+     "email": "ryanpinto@isomorphiclabs.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/rpdpinto",
+     "location": "Cambridge, Massachusetts, United States",
+     "email_status": "verified",
+     "apollo_id": "66fcb4fa265cb60001cfb19f"
+    }
+   ]
+  },
+  {
+   "brand": "Helsing",
+   "people": [
+    {
+     "name": "Gundbert Scherf",
+     "title": "Co-founder and Co-CEO",
+     "email": "gundbert.scherf@helsing.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/gscherf",
+     "location": "Germany",
+     "email_status": "verified",
+     "apollo_id": "66f53a69b7176800016c0350"
+    },
+    {
+     "name": "Johannes Boie",
+     "title": "CMO",
+     "email": "johannes.boie@helsing.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/johannes-boie-a3080210",
+     "location": "Berlin, Germany",
+     "email_status": "verified",
+     "apollo_id": "6acfebcfa6fdc100018c1081"
+    },
+    {
+     "name": "Frank Dirksen",
+     "title": "Chief Commercial Officer",
+     "email": "frank.dirksen@helsing.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/dr-frank-dirksen",
+     "location": "Germany",
+     "email_status": "verified",
+     "apollo_id": "54a40b127468693209fd1e28"
+    },
+    {
+     "name": "Nick Cohen",
+     "title": "Director of Marketing",
+     "email": "nick.cohen@helsing.ai",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/nwcohen",
+     "location": "Munich, Bavaria, Germany",
+     "email_status": "verified",
+     "apollo_id": "676c43fd8b12490001a65721"
+    },
+    {
+     "name": "Philipp Raidt",
+     "title": "Senior Director Communications",
+     "email": "philipp.raidt@helsing.ai",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/dr-philipp-raidt-11b2ab73",
+     "location": "Berlin, Germany",
+     "email_status": "verified",
+     "apollo_id": "54a1afa6746869401278fd07"
+    }
+   ]
+  },
+  {
+   "brand": "Destinus",
+   "people": [
+    {
+     "name": "Oleksandr Danylyuk",
+     "title": "President",
+     "email": "od@destinus.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/oleksandr-danylyuk-93941951",
+     "location": "Ukraine",
+     "email_status": "verified",
+     "apollo_id": "65799fcad733b00001c26546"
+    },
+    {
+     "name": "Wouter Van Beek",
+     "title": "Group Chief Commercial Officer (CCO)",
+     "email": "wouter.vanbeek@destinus.eu",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/vanbeek-wouter",
+     "location": "Netherlands",
+     "email_status": "verified",
+     "apollo_id": "68696a27ac2cc80001f23ae5"
+    },
+    {
+     "name": "Emiel Willms",
+     "title": "Head of Commercial Strategy & Partnerships",
+     "email": "emiel.willms@destinus.eu",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/emielwillms",
+     "location": "Amsterdam, North Holland, Netherlands",
+     "email_status": "verified",
+     "apollo_id": "66f97b056119970001594266"
+    },
+    {
+     "name": "Dirk Zimper",
+     "title": "Chief Future Capabilities Officer and Managing Director Germany",
+     "email": "dirk.zimper@destinus.eu",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/dr-dirk-zimper",
+     "location": "Berlin, Germany",
+     "email_status": "verified",
+     "apollo_id": "66562bbf05e2da0001bbd094"
+    }
+   ]
+  },
+  {
+   "brand": "Tiberius Aerospace",
+   "people": [
+    {
+     "name": "Chad Steelberg",
+     "title": "Founder, CEO",
+     "email": "chad@tiberius.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/chadsteelberg",
+     "location": "United States"
+    },
+    {
+     "name": "Marisa Lightfoot",
+     "title": "Vice President, Growth Americas",
+     "email": "mlightfoot@tiberius.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/marisa-lightfoot",
+     "location": "Washington, DC, USA"
+    }
+   ]
+  },
+  {
+   "brand": "Frankenburg Technologies",
+   "people": [
+    {
+     "name": "Kusti Salm",
+     "title": "Chief Executive Officer",
+     "email": "kusti.salm@frankenburg.tech",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kusti-salm-644159b2",
+     "location": "Tallinn, Harju County, Estonia",
+     "email_status": "verified",
+     "apollo_id": "5efd9ae61d1a3b00daade385"
+    },
+    {
+     "name": "Andrew Gardner",
+     "title": "Chief Strategy and Growth Officer",
+     "email": "andrew.gardner@frankenburg.tech",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/andrew-gardner-ceng-fraes-13785b39",
+     "location": "United Kingdom",
+     "email_status": "verified",
+     "apollo_id": "5d625021a3ae617404f6f36f"
+    },
+    {
+     "name": "Taavi Madiberk",
+     "title": "Non Executive Chair and Co-founder",
+     "email": "taavi@frankenburg.tech",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/madiberk",
+     "location": "Tallinn, Harju County, Estonia",
+     "email_status": "verified",
+     "apollo_id": "60f072c9d3178c0001a24b4d"
+    },
+    {
+     "name": "Daniel Hallett",
+     "title": "Global Sales Director & Managing Director (UK)",
+     "email": "daniel.hallett@frankenburg.tech",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/danielhallett",
+     "location": "London, England, United Kingdom",
+     "email_status": "verified",
+     "apollo_id": "54a488af74686938ac84704f"
+    }
+   ]
+  },
+  {
+   "brand": "Infinity Transportation",
+   "people": [
+    {
+     "name": "Jeff Edelman",
+     "title": "President & CEO",
+     "email": "jedelman@infinityrail.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jeff-edelman-592b896",
+     "location": "Atlanta, Georgia, United States"
+    },
+    {
+     "name": "Lee Martini",
+     "title": "Senior Vice President - Sales and Marketing",
+     "email": "lee.martini@infinitytransport.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/lee-martini-8364839",
+     "location": "Atlanta, Georgia, United States"
+    },
+    {
+     "name": "Brian Ottinger",
+     "title": "Chief Commercial Officer",
+     "email": "brian.ottinger@infinitytransport.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/brian-ottinger-3bb676b",
+     "location": "Salt Lake City, Utah, United States"
+    },
+    {
+     "name": "James Weaver",
+     "title": "Vice President Sales and Marketing Rail & Intermodal",
+     "email": "james.weaver@infinitytransport.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/james-weaver-56424513b",
+     "location": "Brewton, Alabama, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Airlogix",
+   "people": [
+    {
+     "name": "Vitalii Kolesnichenko",
+     "title": "Chief Executive Officer",
+     "email": "v.kolesnichenko@airlogix.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/vitalii-kolesnichenko-0307595a",
+     "location": "Ukraine",
+     "email_status": "verified",
+     "apollo_id": "6538989e7ec1f200015a40f1"
+    },
+    {
+     "name": "Viktor Lokotkov",
+     "title": "Chief Marketing Officer",
+     "email": "v.lokotkov@airlogix.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/lokotkov",
+     "location": "Conroe, Texas, United States",
+     "email_status": "verified",
+     "apollo_id": "54abebb1746869332d877616"
+    },
+    {
+     "name": "Dmytro Piatrin",
+     "title": "Chief Commercial Officer",
+     "email": "d.piatrin@airlogix.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/dmytro-piatrin-52954715a",
+     "location": "Kyiv, Kyiv city, Ukraine",
+     "email_status": "verified",
+     "apollo_id": "63cd59dc070e300001093e76"
+    },
+    {
+     "name": "Oleksandr Androshchuk",
+     "title": "Chief Financial and Operating Officer",
+     "email": "o.androshchuk@airlogix.io",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/oleksandr-androshchuk-6497719a",
+     "location": "Ukraine",
+     "email_status": "verified",
+     "apollo_id": "5d4174c680f93e8f9fa7e67b"
+    }
+   ]
+  },
+  {
+   "brand": "Emulate",
+   "people": []
+  },
+  {
+   "brand": "Simplexity Robotics",
+   "people": []
+  },
+  {
+   "brand": "Marrow Therapeutics",
+   "people": []
+  }
+ ]
+}

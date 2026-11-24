@@ -1,0 +1,293 @@
+{
+ "rows": [
+  {
+   "brand": "Flint Group",
+   "people": [
+    {
+     "name": "Pepijn Dinandt",
+     "title": "Chief Executive Officer",
+     "email": "pepijn@flintgrp.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/pepyn-dinandt",
+     "location": "Germany"
+    },
+    {
+     "name": "Deanna Klemesrud",
+     "title": "Global Director, Brand & Communication",
+     "email": "deanna.klemesrud@flintgrp.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/deanna-klemesrud-b1194810",
+     "location": "Minneapolis, Minnesota, United States"
+    },
+    {
+     "name": "Inken Steinhauser",
+     "title": "Director Marketing and Product Management",
+     "email": "inken.steinhauser@flintgrp.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/inken-steinhauser-194a6877",
+     "location": "Kelmis, Belgium"
+    },
+    {
+     "name": "Heiner Klokkers",
+     "title": "CEO Packaging Inks Europe",
+     "email": "heiner.klokkers@flintgrp.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/heiner-klokkers",
+     "location": "Munich, Germany"
+    }
+   ]
+  },
+  {
+   "brand": "DG Matrix",
+   "people": [
+    {
+     "name": "Haroon Inam",
+     "title": "Chief Executive Officer",
+     "email": "h@dgmatrix.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/harooninam",
+     "location": "North Carolina, United States",
+     "email_status": "verified",
+     "apollo_id": "66837a1e95f02a0001b46abd"
+    },
+    {
+     "name": "Rainer Stiller",
+     "title": "Chief Marketing Officer",
+     "email": "rainer.stiller@dgmatrix.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/rainerstiller",
+     "location": "Munich, Bavaria, Germany",
+     "email_status": "verified",
+     "apollo_id": "66f7bee20a0a800001df1252"
+    },
+    {
+     "name": "Deepak Thakkar",
+     "title": "Chief Commercial Officer",
+     "email": "deepak.thakkar@dgmatrix.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/thakkardeepak",
+     "location": "San Francisco, California, United States",
+     "email_status": "verified",
+     "apollo_id": "60f9096968616400018dc0c5"
+    },
+    {
+     "name": "Anthony Wanger",
+     "title": "Executive Chairman",
+     "email": "anthony.wanger@dgmatrix.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/anthony-wanger-b557344b",
+     "location": "Phoenix, Arizona, United States",
+     "email_status": "verified",
+     "apollo_id": "610f746bcd90440001ed5a6e"
+    },
+    {
+     "name": "Ramesh Gopalakrishnan",
+     "title": "Chief Operating Officer",
+     "email": "ramesh.gopalakrishnan@dgmatrix.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/ramesh-gopalakrishnan-839a0356",
+     "location": "Phoenix, Arizona, United States",
+     "email_status": "verified",
+     "apollo_id": "61167766a4ff850001fa14b7"
+    }
+   ]
+  },
+  {
+   "brand": "Onodrim Industries",
+   "people": [
+    {
+     "name": "Aistis Simaitis",
+     "title": "Co-Founder and CEO",
+     "email": "asimaitis@onodrim.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/aistissimaitis",
+     "location": "Vilnius, Lithuania"
+    },
+    {
+     "name": "Alexander Blessing",
+     "title": "Co-Founder and CTO",
+     "email": "ablessing@onodrim.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/alexblessing",
+     "location": "Munich, Germany"
+    }
+   ]
+  },
+  {
+   "brand": "Sagar Defence Engineering",
+   "people": [
+    {
+     "name": "Nikunj Parashar",
+     "title": "Founder",
+     "email": "nikunjp@sagardefence.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/nikunj-parashar-7b249a23",
+     "location": "Shirur, Maharashtra, India"
+    },
+    {
+     "name": "Lakshay Dang",
+     "title": "Co-founder and Chief Technology Officer",
+     "email": "lakshaydang@sagardefence.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/lakshaydang",
+     "location": "Mumbai, Maharashtra, India"
+    }
+   ]
+  },
+  {
+   "brand": "EOS-X Space",
+   "people": [
+    {
+     "name": "Kemel Kharbachi",
+     "title": "Founder & CEO",
+     "email": "kemel@eosxspace.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kemel-kharbachi-0767a65b",
+     "location": "United States"
+    }
+   ]
+  },
+  {
+   "brand": "Skylark Labs",
+   "people": [
+    {
+     "name": "Amarjot Singh",
+     "title": "Founder & CEO",
+     "email": "amarjot@skylarklabs.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/amarjot-singh-skylark",
+     "location": "Menlo Park, California, United States"
+    },
+    {
+     "name": "Noor Jolly",
+     "title": "Marketing",
+     "email": "noor.jolly@skylarklabs.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/noor-jolly",
+     "location": "United States"
+    },
+    {
+     "name": "Vince Nakayama",
+     "title": "COO (his LinkedIn headline says CPO)",
+     "email": "vince.nakayama@skylarklabs.ai",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/vincenakayama",
+     "location": "Los Altos, California, United States"
+    },
+    {
+     "name": "Ketan Bansal",
+     "title": "Director of Business Strategy and Transformation",
+     "email": "ketan@skylarklabs.ai",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/ketan-bansal",
+     "location": "Menlo Park, California, United States"
+    },
+    {
+     "name": "Sukhbir Singh",
+     "title": "Director of Operations",
+     "email": "sukhbir@skylarklabs.ai",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/sukhbir-singh-3299a81ba",
+     "location": "Amritsar, Punjab, India"
+    }
+   ]
+  },
+  {
+   "brand": "Endurance Energy",
+   "people": [
+    {
+     "name": "Andrew Redd",
+     "title": "Founder / CEO",
+     "email": "andrew@enduranceenergy.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/egonredd",
+     "location": "Seattle, Washington, United States",
+     "email_status": "verified",
+     "apollo_id": "5bd86cc980f93eb94400e182"
+    },
+    {
+     "name": "Dan Chosich",
+     "title": "Head of Creative",
+     "email": "chosich@enduranceenergy.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/danchosich",
+     "location": "Seattle, Washington, United States",
+     "email_status": "verified",
+     "apollo_id": "54a741427468696220789223"
+    },
+    {
+     "name": "Nathan Rodland",
+     "title": "Chief Operating Officer",
+     "email": "nate@enduranceenergy.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/nrodland",
+     "location": "Seattle, Washington, United States",
+     "email_status": "verified",
+     "apollo_id": "610e56cdf41e4d0001c1cc3c"
+    },
+    {
+     "name": "Jennifer Kenyon",
+     "title": "Vice President of Policy and External Affairs",
+     "email": "jen@enduranceenergy.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/jenniferakenyon",
+     "location": "Washington, District of Columbia, United States",
+     "email_status": "verified",
+     "apollo_id": "63751e77a2cdf1000193cda5"
+    },
+    {
+     "name": "Aditi Bhatt",
+     "title": "Chief of Staff",
+     "email": "aditi@enduranceenergy.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/aditi-bhatt3",
+     "location": "Seattle, Washington, United States",
+     "email_status": "verified",
+     "apollo_id": "61f3c11edbe0d20001e09c8c"
+    }
+   ]
+  },
+  {
+   "brand": "Orbicular Pharmaceutical Technologies",
+   "people": [
+    {
+     "name": "Mohan",
+     "title": "Managing Director",
+     "email": "mohan.ms@orbicular.co.in",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/dr-m-s-mohan-b898457",
+     "location": "Hyderabad, Telangana, India"
+    },
+    {
+     "name": "Vinay Mohan",
+     "title": "Director - Business Development",
+     "email": "vinay.nm@orbicular.co.in",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/vinay28",
+     "location": "Hyderabad, Telangana, India"
+    },
+    {
+     "name": "Meena Mohan",
+     "title": "Director",
+     "email": "meena.m@orbicular.co.in",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/meena-mohan-4a5088228",
+     "location": "Hyderabad, Telangana, India"
+    }
+   ]
+  },
+  {
+   "brand": "Stalwart Law Group",
+   "people": [
+    {
+     "name": "Elizabeth Teixeira",
+     "title": "Partner & Attorney",
+     "email": "beth@stalwartlaw.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/elizabeth-teixeira-08ab1071",
+     "location": "San Diego, California, United States"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,329 @@
+{
+ "rows": [
+  {
+   "brand": "Mailchimp",
+   "people": [
+    {
+     "name": "Adam Anger",
+     "title": "Chief Sales Officer - Intuit Mailchimp, VP Platform Solutions",
+     "email": "adam_anger@intuit.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/adamanger",
+     "location": "New York, New York, United States"
+    },
+    {
+     "name": "Mark Lodwick",
+     "title": "Senior Director Marketing & Brand - Mailchimp",
+     "email": "mark.lodwick@mailchimp.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/mark-lodwick-7aa52b4",
+     "location": "New York, New York, United States"
+    },
+    {
+     "name": "Jeremy Jones",
+     "title": "Global Head of Creative",
+     "email": "jeremy.jones@mailchimp.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/jeremyejones",
+     "location": "Atlanta, Georgia, United States"
+    },
+    {
+     "name": "Ryan Tuosto",
+     "title": "Marketing Director",
+     "email": "ryan.tuosto@mailchimp.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/ryantuosto",
+     "location": "San Ramon, California, United States"
+    }
+   ]
+  },
+  {
+   "brand": "COMSOL",
+   "people": [
+    {
+     "name": "Pasi Marttila",
+     "title": "Executive Vice President, COMSOL Oy (Finland)",
+     "email": "pasi.marttila@comsol.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/pasimarttila",
+     "location": "Espoo, Finland"
+    },
+    {
+     "name": "Bernt Nilsson",
+     "title": "Sr VP of Marketing",
+     "email": "bernt.nilsson@comsol.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/bernt-nilsson-6385801",
+     "location": "Lexington, Massachusetts, United States"
+    },
+    {
+     "name": "Oscar Littmarck",
+     "title": "Vice President of Marketing",
+     "email": "oscar.littmarck@comsol.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/oscarlittmarck",
+     "location": "Burlington, Massachusetts, United States"
+    },
+    {
+     "name": "Aditi Karandikar",
+     "title": "VP, Marketing and L&D (India)",
+     "email": "aditi.karandikar@comsol.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/aditi-karandikar-8679b813",
+     "location": "Bengaluru, Karnataka, India"
+    },
+    {
+     "name": "Margaret Lemus",
+     "title": "VP of Creative and Web",
+     "email": "margaret.lemus@comsol.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/margaret-lemus-46749341",
+     "location": "Boston, Massachusetts, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Physical Intelligence",
+   "people": [
+    {
+     "name": "Karol Hausman",
+     "title": "Chief Executive Officer",
+     "email": "karol@physicalintelligence.company"
+    },
+    {
+     "name": "Adnan Esmail",
+     "title": "Co-Founder",
+     "email": "adnan@physicalintelligence.company"
+    },
+    {
+     "name": "Quan Vuong",
+     "title": "Co-Founder",
+     "email": "quan@physicalintelligence.company"
+    },
+    {
+     "name": "Brian Ichter",
+     "title": "Co-Founder",
+     "email": "brian@physicalintelligence.company"
+    },
+    {
+     "name": "Sam Whitmore",
+     "title": "Business Operations",
+     "email": "sam@physicalintelligence.company",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/samuelmwhitmore",
+     "location": "San Francisco, California, United States"
+    }
+   ]
+  },
+  {
+   "brand": "Ziehl-Abegg",
+   "people": [
+    {
+     "name": "Joachim Ley",
+     "title": "CEO",
+     "email": "joachim.ley@ziehl-abegg.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/joachim-ley-09295950",
+     "location": "K\u00fcnzelsau, Germany"
+    },
+    {
+     "name": "Andreas Bauer",
+     "title": "Bereichsleiter Marketing",
+     "email": "andreas.bauer@ziehl-abegg.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/andreas-bauer-76311720a",
+     "location": "K\u00fcnzelsau, Germany"
+    },
+    {
+     "name": "Rainer Grill",
+     "title": "Director Global Communications",
+     "email": "rainer.grill@ziehl-abegg.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/rgrill",
+     "location": "K\u00fcnzelsau, Germany"
+    },
+    {
+     "name": "Steffen Halbmann",
+     "title": "Head of Digital Communication",
+     "email": "steffen.halbmann@ziehl-abegg.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/halbmann",
+     "location": "Igersheim, Germany"
+    }
+   ]
+  },
+  {
+   "brand": "Arthea",
+   "people": [
+    {
+     "name": "Tarun Malkani",
+     "title": "Chief Executive Officer",
+     "email": "tmalkani@pdcwellness.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/tarun-malkani-a327873",
+     "location": "New York, United States",
+     "email_status": "verified",
+     "apollo_id": "610b51d9bc2e620001ebb168"
+    },
+    {
+     "name": "Rebecca McNicol",
+     "title": "SVP, Head of Brand Marketing",
+     "email": "rmcnicol@pdcbeauty.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/rebecca-mcnicol-81a15770",
+     "location": "New York, United States",
+     "email_status": "verified",
+     "apollo_id": "67e456715a773a000147d3ae"
+    },
+    {
+     "name": "Gina Dobles",
+     "title": "Chief Growth Officer",
+     "email": "gdobles@pdcwellness.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/gina-dobles",
+     "location": "White Plains, New York, United States",
+     "email_status": "verified",
+     "apollo_id": "54a597f574686936767d789c"
+    },
+    {
+     "name": "Aria Simpson",
+     "title": "Global Brand Director",
+     "email": "asimpson@pdcwellness.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/ariasimpson",
+     "location": "New York, United States",
+     "email_status": "verified",
+     "apollo_id": "607414480d7b3900018aeef4"
+    },
+    {
+     "name": "Kai Musielak",
+     "title": "Head of Brand & Corporate Communications",
+     "email": "kmusielak@pdcwellness.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/kaimusielak",
+     "location": "New York, United States",
+     "email_status": "verified",
+     "apollo_id": "66ec96b9afc00e00019da16c"
+    }
+   ]
+  },
+  {
+   "brand": "GSR",
+   "people": [
+    {
+     "name": "Xin Song",
+     "title": "Chief Executive Officer",
+     "email": "xin@gsr.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/xinsong",
+     "location": "Singapore"
+    },
+    {
+     "name": "Frank Chaparro",
+     "title": "Head of Strategic Communications",
+     "email": "frank.chaparro@gsr.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/fchaparro",
+     "location": "United States"
+    },
+    {
+     "name": "Haley Malanga",
+     "title": "Vice President Public Relations",
+     "email": "haley.malanga@gsr.io",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/haleymalanga",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Anjo Zhang",
+     "title": "VP, Partnership",
+     "email": "anjo@gsr.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/anjo-zhang-9459721ab",
+     "location": "Singapore"
+    },
+    {
+     "name": "James Newell",
+     "title": "Foundation & Corporate Communications Director",
+     "email": "james.newell@gsr.io",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/jamesnewell1",
+     "location": "Harpenden, England, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "ICON",
+   "people": [
+    {
+     "name": "Stephanie Mathews",
+     "title": "Sr. Director of Marketing",
+     "email": "stephanie@iconbuild.com"
+    },
+    {
+     "name": "Will Hurd",
+     "title": "President",
+     "email": "william.hurd@iconbuild.com"
+    },
+    {
+     "name": "Logan Grant",
+     "title": "Division President - ICON Build",
+     "email": "lgrant@iconbuild.com"
+    },
+    {
+     "name": "Jason Ballard",
+     "title": "CEO",
+     "email": "jason@iconbuild.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jason-ballard-772861375",
+     "location": "Austin, Texas, United States"
+    }
+   ]
+  },
+  {
+   "brand": "True Religion",
+   "people": [
+    {
+     "name": "Michael Buckley",
+     "title": "Chief Executive Officer",
+     "email": "m.buckley@truereligion.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/michael-buckley-ab060011",
+     "location": "United States"
+    },
+    {
+     "name": "Kristen D'Arcy",
+     "title": "Chief Marketing Officer and Head of Digital Growth (Ecommerce)",
+     "email": "k.darcy@truereligion.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kristen-darcy",
+     "location": "Los Angeles, California, United States"
+    },
+    {
+     "name": "Leslie Smith",
+     "title": "Sr. Director, Integrated Marketing",
+     "email": "l.smith1@truereligion.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lesliesmith13",
+     "location": "Los Angeles, California, United States"
+    },
+    {
+     "name": "Tina Blake",
+     "title": "SVP Design, Merchandising & Brand Image",
+     "email": "t.blake@truereligion.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/tinablake",
+     "location": "Los Angeles, California, United States"
+    },
+    {
+     "name": "Mike Malinowski",
+     "title": "VP, Growth and Retention Marketing",
+     "email": "michael.m@truereligion.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/mike-malinowski-growth",
+     "location": "Los Angeles, California, United States"
+    }
+   ]
+  }
+ ]
+}

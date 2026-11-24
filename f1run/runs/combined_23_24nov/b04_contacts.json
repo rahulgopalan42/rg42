@@ -1,0 +1,396 @@
+{
+ "rows": [
+  {
+   "brand": "Custom Ink",
+   "people": [
+    {
+     "name": "David Doctorow",
+     "title": "CEO",
+     "email": "david.doctorow@customink.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/david-doctorow-b7b5",
+     "location": "United States",
+     "email_status": "verified",
+     "apollo_id": "66f3d23bdd5d050001e46419"
+    },
+    {
+     "name": "Philip Auerbach",
+     "title": "Chief Marketing Officer",
+     "email": "philip.auerbach@customink.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/philip-auerbach-a45356",
+     "location": "New York, United States",
+     "email_status": "verified",
+     "apollo_id": "66f794bbebc199000151345e"
+    },
+    {
+     "name": "Ryan Massimo",
+     "title": "Chief Revenue Officer",
+     "email": "ryan.massimo@customink.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/ryan-massimo-2945aa",
+     "location": "Sudbury, Massachusetts, United States",
+     "email_status": "verified",
+     "apollo_id": "66f94a9b9901a20001a43ec9"
+    },
+    {
+     "name": "Justin McKinney",
+     "title": "VP, Organic Marketing",
+     "email": "justin.mckinney@customink.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/justinalanmckinney",
+     "location": "Los Angeles, California, United States",
+     "email_status": "verified",
+     "apollo_id": "66f743be31303a0001371105"
+    },
+    {
+     "name": "Benjamin Carter",
+     "title": "Director Brand & Creative",
+     "email": "bcarter@customink.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/benjamin-carter-49a6b05",
+     "location": "Virginia, United States",
+     "email_status": "verified",
+     "apollo_id": "57df918fa6da980add336c6c"
+    }
+   ]
+  },
+  {
+   "brand": "Discovery Loop",
+   "people": [
+    {
+     "name": "Jeff Dean",
+     "title": "Co-founder and CEO",
+     "email": "jeff@discoveryloop.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/jeff-dean-8b212555",
+     "location": "Palo Alto, California, United States",
+     "email_status": "verified",
+     "apollo_id": "60c0805e772a510001db9f01"
+    }
+   ]
+  },
+  {
+   "brand": "Theramex",
+   "people": [
+    {
+     "name": "Robert Stewart",
+     "title": "Chief Executive Officer",
+     "email": "robert.stewart@theramex.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/robert-stewart-30a01ab5",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Sarah Pharaoh",
+     "title": "Vice President Global Marketing",
+     "email": "sarah.pharaoh@theramex.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sarah-pharaoh-sap",
+     "location": "London, United Kingdom"
+    },
+    {
+     "name": "Dennis Dencher",
+     "title": "Chief Commercial Officer (CCO)",
+     "email": "dennis.dencher@theramex.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/dennis-dencher-374572",
+     "location": "Copenhagen, Denmark"
+    },
+    {
+     "name": "Carolina Sponton",
+     "title": "Marketing & Commercial Excellence Director",
+     "email": "carolina.sponton@theramex.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/carolina-sponton-93505310",
+     "location": "S\u00e3o Paulo, Brazil"
+    },
+    {
+     "name": "Gavin Jelic-Masterton",
+     "title": "President - Global Fertility Franchise",
+     "email": "gavin.jelic-masterton@theramex.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/gavin-masterton-75a7b123",
+     "location": "Switzerland"
+    }
+   ]
+  },
+  {
+   "brand": "Signal AI",
+   "people": [
+    {
+     "name": "David Benigson",
+     "title": "CEO",
+     "email": "david.benigson@signal-ai.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/david-benigson-03326662",
+     "location": "London, England, United Kingdom"
+    },
+    {
+     "name": "Margo Connolly",
+     "title": "Head of Product Marketing",
+     "email": "margo.connolly@signal-ai.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/margo-connolly",
+     "location": "London, England, United Kingdom"
+    },
+    {
+     "name": "Michael Goss",
+     "title": "Vice President of Global Sales",
+     "email": "michael.goss@signal-ai.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/michael-goss-50905325",
+     "location": "London, England, United Kingdom"
+    },
+    {
+     "name": "Stephen Lucas",
+     "title": "Chief Operating Officer",
+     "email": "stephen.lucas@signal-ai.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/stephen-lucas-1680543",
+     "location": "London, England, United Kingdom"
+    }
+   ]
+  },
+  {
+   "brand": "Irregular",
+   "people": [
+    {
+     "name": "Dan Lahav",
+     "title": "Co-Founder & CEO",
+     "email": "dan@irregular.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/dan-lahav-037a67185",
+     "location": "San Francisco, California, United States"
+    },
+    {
+     "name": "Omer Nevo",
+     "title": "Co-founder & CTO",
+     "email": "omer@patternlabs.co",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/omer-nevo-358012108",
+     "location": "Israel"
+    },
+    {
+     "name": "Gil Gekker",
+     "title": "Chief of Staff to the CEO",
+     "email": "gil@patternlabs.co",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/gil-gekker",
+     "location": "Center District, Israel"
+    },
+    {
+     "name": "Sagit Drory",
+     "title": "Head of Operations",
+     "email": "sagit@irregular.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/sagit-drory-6810a438",
+     "location": "Israel"
+    }
+   ]
+  },
+  {
+   "brand": "Ramon.Space",
+   "people": [
+    {
+     "name": "Avi Shabtai",
+     "title": "CEO",
+     "email": "avi.shabtai@ramon.space",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/avi-shabtai-8214383",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Ami Lifshitz",
+     "title": "Director of Marketing",
+     "email": "ami.lifshitz@ramon.space",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/ami-lifshitz",
+     "location": "Israel"
+    },
+    {
+     "name": "Stefano Poli",
+     "title": "Chief Commercial Officer",
+     "email": "stefano.poli@ramon.space",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/stefano-poli-050a074",
+     "location": "Commugny, Vaud, Switzerland"
+    },
+    {
+     "name": "Martin Pointer",
+     "title": "Chief Delivery Officer and General Manager",
+     "email": "martin.pointer@ramon.space",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/martinpointer",
+     "location": "Guildford, Surrey, UK"
+    }
+   ]
+  },
+  {
+   "brand": "Aroma-Zone",
+   "people": [
+    {
+     "name": "Pierre Vausselin",
+     "title": "President",
+     "email": "pierre.vausselin@azh-holding.fr",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/pierre-vausselin-aba9601b5",
+     "location": "Clermont-Ferrand, France"
+    },
+    {
+     "name": "Anne-Lise Lefebvre",
+     "title": "Head of Marketing",
+     "email": "annelise.lefebvre@aroma-zone.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/anne-lise-l-b640b640",
+     "location": "United Kingdom"
+    },
+    {
+     "name": "Heloise Dubois",
+     "title": "Directrice Marque et Exp\u00e9rience Client",
+     "email": "heloise.dubois@aroma-zone.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/h%c3%a9lo%c3%afse-dubois-b96a9016",
+     "location": "France"
+    },
+    {
+     "name": "Hannah Bervas",
+     "title": "Head of Communication & Brand Activation",
+     "email": "hannah.bervas@aroma-zone.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/hannah-bervas-25391645",
+     "location": "France"
+    },
+    {
+     "name": "Laurent Lucasson",
+     "title": "Chief Operating Officer - COO",
+     "email": "laurent.lucasson@aroma-zone.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/laurent-lucasson-ba5aa443",
+     "location": "Arles, France"
+    }
+   ]
+  },
+  {
+   "brand": "Dose",
+   "people": [
+    {
+     "name": "Vasu Goyal",
+     "title": "Founder",
+     "email": "vasu@dosedaily.co",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/vasu-goyal",
+     "location": "Miami, Florida, United States",
+     "email_status": "verified",
+     "apollo_id": "66f537be7e95fc0001d78a6b"
+    },
+    {
+     "name": "Madeline Edwards",
+     "title": "Head of Marketing Strategy",
+     "email": "madeline@dosedaily.co",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/madelineedwardsnyc",
+     "location": "New York, United States",
+     "email_status": "verified",
+     "apollo_id": "6605c372358f340007f06513"
+    },
+    {
+     "name": "Minji Cha",
+     "title": "Chief Growth Officer",
+     "email": "minji.cha@dosedaily.co",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/minjicha",
+     "location": "New York, United States",
+     "email_status": "verified",
+     "apollo_id": "5f8895c0f106550001bbe0ac"
+    },
+    {
+     "name": "Madison Pakka",
+     "title": "Head of Celebrity & Influencer Marketing",
+     "email": "madison@dosedaily.co",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/madisonpakka",
+     "location": "San Diego, California, United States",
+     "email_status": "verified",
+     "apollo_id": "5f4d23895a0e9700012a3fb8"
+    },
+    {
+     "name": "Rubens Ferner",
+     "title": "Head of CRO Growth (conversion rate optimisation)",
+     "email": "rubens.ferner@dosedaily.co",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/rubens-emidio",
+     "location": "Brigham City, Utah, United States",
+     "email_status": "verified",
+     "apollo_id": "63b57c9d8336570001479177"
+    }
+   ]
+  },
+  {
+   "brand": "PGP Glass",
+   "people": [
+    {
+     "name": "Vipul Vij",
+     "title": "Chief Operations Officer",
+     "email": "vipul.vij@pgpfirst.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/vipul-vij-b7742937",
+     "location": "Surat, Gujarat, India"
+    },
+    {
+     "name": "Sanjay Jain",
+     "title": "Chief Marketing Officer",
+     "email": "sanjay.jain@pgpfirst.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/sanjay-jain-14183621",
+     "location": "Mumbai, Maharashtra, India"
+    },
+    {
+     "name": "Hemal Thakor",
+     "title": "Chief Marketing Officer",
+     "email": "hemal.thakor@pgpfirst.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/hemal-thakor-80351616",
+     "location": "Mumbai, Maharashtra, India"
+    },
+    {
+     "name": "Abhishek Awasthi",
+     "title": "Head - India Retail Marketing",
+     "email": "abhishek.awasthi@pgpfirst.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/abhishek-awasthi-745b354",
+     "location": "New Delhi, India"
+    }
+   ]
+  },
+  {
+   "brand": "Desotec",
+   "people": [
+    {
+     "name": "Mark Thys",
+     "title": "Chief Executive Officer",
+     "email": "mark.thys@desotec.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/mark-thys-0ba76511",
+     "location": "Belgium"
+    },
+    {
+     "name": "Sarah Cattrysse",
+     "title": "Global Head of Corporate Communications",
+     "email": "sarah.cattrysse@desotec.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/sarahcattrysse",
+     "location": "Ledegem, Flanders, Belgium"
+    },
+    {
+     "name": "Pieterjan Goedertier",
+     "title": "Chief Operating Officer",
+     "email": "pieterjan.goedertier@desotec.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/pieterjan-goedertier-23555328",
+     "location": "Roeselare, Flanders, Belgium"
+    }
+   ]
+  }
+ ]
+}
