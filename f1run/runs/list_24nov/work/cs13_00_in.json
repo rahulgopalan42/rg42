@@ -1,0 +1,201 @@
+{
+ "rows": [
+  {
+   "user_name": "Helsing",
+   "brand": "Helsing",
+   "ticker": "",
+   "hq": "Munich, Germany",
+   "desc": "European defence AI and software company (helsing.ai)",
+   "need": 5,
+   "keep": [],
+   "exclude": [],
+   "note": ""
+  },
+  {
+   "user_name": "Isomorphic Labs",
+   "brand": "Isomorphic Labs",
+   "ticker": "",
+   "hq": "London, UK",
+   "desc": "AI drug discovery company, an Alphabet company founded by Demis Hassabis (isomorphiclabs.com)",
+   "need": 2,
+   "keep": [
+    {
+     "name": "Molly Morgan",
+     "title": "Global Head of Communications",
+     "email": "mollymorgan@isomorphiclabs.com"
+    },
+    {
+     "name": "Mari Barlow",
+     "title": "Brand and Communications Director",
+     "email": "barlowm@isomorphiclabs.com"
+    },
+    {
+     "name": "Kinga Bercsenyi",
+     "title": "Director of Business Development",
+     "email": "kingabercsenyi@isomorphiclabs.com"
+    }
+   ],
+   "exclude": [
+    {
+     "name": "John Strafford",
+     "title": "Leading Business Development",
+     "email": "jstrafford@isomorphiclabs.com"
+    }
+   ],
+   "note": "Pick the president, COO or chief business officer as the senior decision maker (the CEO Demis Hassabis also runs Google DeepMind; pick him only if listed under Isomorphic Labs with an email)."
+  },
+  {
+   "user_name": "Modal Labs",
+   "brand": "Modal Labs",
+   "ticker": "",
+   "hq": "New York, US",
+   "desc": "Serverless cloud for AI compute and inference (modal.com)",
+   "need": 2,
+   "keep": [
+    {
+     "name": "David Dorman",
+     "title": "VP Marketing / Growth",
+     "email": "dorman@modal.com"
+    },
+    {
+     "name": "Greta Workman",
+     "title": "Head of Product Marketing",
+     "email": "greta@modal.com"
+    },
+    {
+     "name": "Peri Langlois",
+     "title": "Brand Marketing",
+     "email": "peri@modal.com"
+    }
+   ],
+   "exclude": [
+    {
+     "name": "Will Reese",
+     "title": "Marketing",
+     "email": "will.reese@modal.com"
+    }
+   ],
+   "note": "The CEO and co-founder (Erik Bernhardsson) must be one of the picks if he has an email. Also check in the search whether the three saved people still show Modal as their organization; if one shows another company, list the email in keep_bad."
+  },
+  {
+   "user_name": "Airlogix",
+   "brand": "Airlogix",
+   "ticker": "",
+   "hq": "Kyiv, Ukraine (best guess)",
+   "desc": "Likely the Ukrainian maker of unmanned aircraft (reconnaissance drones). Confirm the org; if several companies share the name, report them",
+   "need": 5,
+   "keep": [],
+   "exclude": [],
+   "note": ""
+  },
+  {
+   "user_name": "Anduril Industries",
+   "brand": "Anduril Industries",
+   "ticker": "",
+   "hq": "Costa Mesa, California, US",
+   "desc": "Defence technology company (anduril.com)",
+   "need": 5,
+   "keep": [],
+   "exclude": [],
+   "note": "Large company: pick global marketing, brand and communications leaders plus the CEO, president or chief revenue / chief business officer."
+  },
+  {
+   "user_name": "Arthea (formerly PDC Brands)",
+   "brand": "Arthea",
+   "ticker": "",
+   "hq": "Stamford, Connecticut, US",
+   "desc": "Beauty and wellness brand group formerly called PDC Brands (Cantu, Dr Teal's, Eylure, Body Fantasies); renamed Arthea. Try domains arthea.com and pdcbrands.com and the org names 'Arthea' and 'PDC Brands'",
+   "need": 5,
+   "keep": [],
+   "exclude": [],
+   "note": ""
+  },
+  {
+   "user_name": "Colossal Biosciences",
+   "brand": "Colossal Biosciences",
+   "ticker": "",
+   "hq": "Dallas, Texas, US",
+   "desc": "De-extinction and genetic engineering company (colossal.com)",
+   "need": 1,
+   "keep": [
+    {
+     "name": "Ben Lamm",
+     "title": "Founder and CEO",
+     "email": "ben@colossal.com"
+    },
+    {
+     "name": "Chris Klee",
+     "title": "Executive Vice President of Marketing and Design",
+     "email": "klee@colossal.com"
+    },
+    {
+     "name": "Jillian McCall",
+     "title": "Senior Director of Marketing",
+     "email": "jillian@colossal.com"
+    },
+    {
+     "name": "Emily Mailaender",
+     "title": "EVP of Strategic Communications",
+     "email": "emily@colossal.com"
+    }
+   ],
+   "exclude": [],
+   "note": "Need one more: a chief business / commercial / revenue officer, chief brand officer or head of partnerships."
+  },
+  {
+   "user_name": "Custom Ink",
+   "brand": "Custom Ink",
+   "ticker": "",
+   "hq": "Fairfax, Virginia, US",
+   "desc": "Online custom T-shirts and promotional products (customink.com)",
+   "need": 5,
+   "keep": [],
+   "exclude": [],
+   "note": ""
+  },
+  {
+   "user_name": "Destinus",
+   "brand": "Destinus",
+   "ticker": "",
+   "hq": "Hengelo, Netherlands (founded in Switzerland)",
+   "desc": "European aerospace company making autonomous flight systems and drones (destinus.com / destinus.ch)",
+   "need": 5,
+   "keep": [],
+   "exclude": [],
+   "note": ""
+  },
+  {
+   "user_name": "DG Matrix",
+   "brand": "DG Matrix",
+   "ticker": "",
+   "hq": "Raleigh-Durham, North Carolina, US",
+   "desc": "Power electronics company making solid-state transformers (Interport) for data centres and EV charging (dgmatrix.com)",
+   "need": 5,
+   "keep": [],
+   "exclude": [],
+   "note": ""
+  },
+  {
+   "user_name": "Etched",
+   "brand": "Etched",
+   "ticker": "",
+   "hq": "San Jose, California, US",
+   "desc": "AI chip company making transformer ASICs (Sohu); domain etched.com (older etched.ai)",
+   "need": 5,
+   "keep": [],
+   "exclude": [],
+   "note": ""
+  },
+  {
+   "user_name": "Frankenburg Technologies",
+   "brand": "Frankenburg Technologies",
+   "ticker": "",
+   "hq": "Tallinn, Estonia",
+   "desc": "Defence technology company making low-cost air-defence systems (frankenburg.tech)",
+   "need": 5,
+   "keep": [],
+   "exclude": [],
+   "note": ""
+  }
+ ]
+}
