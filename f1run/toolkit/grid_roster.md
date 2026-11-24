@@ -419,3 +419,20 @@
 - TWG AI | Cadillac | primary and exclusive AI partner (same owner as the team)
 - ElevenLabs | Audi; IndraMind | Alpine; Meta AI | Mercedes; G42 | Mercedes; Google (Gemini) | McLaren; Airia | Williams
 - Myprotein (THG) | Williams page exists but undated and not among current logos: treat as lapsed unless confirmed
+
+## Addendum 4 (24 Nov 2026): facts verified by this project's research agents on 23-24 Nov (still confirm live before citing)
+- Ondas | Aston Martin | Global Partner from 18 Nov 2026 through 2029 (autonomous drone and counter-drone systems for defence and security); logo on the car from the 2026 Las Vegas Grand Prix (ir.ondas.com, astonmartinf1.com)
+- IndraMind (Indra) | Alpine | official partner since 23 Jan 2026; Boeing | Alpine | Team Partner
+- Core Scientific | Cadillac | Official Data Center Partner, March 2026
+- Intel | McLaren | Official Compute Partner, May 2026 (on the cars from Montreal); Groq | McLaren since Sept 2025
+- AbbVie | McLaren | Official Pharmaceutical Partner, 20 Oct 2026 (Race to Innovate campaign through 2027)
+- Liquid I.V. (Unilever) | McLaren | official partner, April 2026
+- Nexo | Audi | Official Digital Asset Partner, January 2026; Gate | Red Bull (crypto exclusive)
+- TENEX.AI | Haas | multi-year AI security operations partner
+- UKG | Aston Martin | Official HR, Pay and Workforce Management Partner, November 2025
+- Pepe Jeans | Red Bull | denim, returned 2024; Reiss | McLaren; HUGO | Racing Bulls; BOSS | Aston Martin; Tommy Hilfiger | Cadillac
+- Rakuten | Ferrari | joins 1 Jan 2027 (f1salaries Ferrari page)
+- Barilla | Formula 1 (series) since 2025 and Racing Bulls from 2026
+- Schneider Electric | McLaren | Official Energy Technology Partner, 27 Jan 2026
+- COMSOL | Formula E | Official Multiphysics Partner, 7 Oct 2026 (not Formula 1)
+- Isomorphic Labs is owned by Alphabet (Google is McLaren's Official Primary Partner); TWG Global, lead investor in Colossal, owns the Cadillac team

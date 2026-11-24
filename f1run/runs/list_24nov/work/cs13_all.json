@@ -344,22 +344,23 @@
   "hq": "San Francisco, US",
   "desc": "AI lab founded by Mira Murati (thinkingmachines.ai)",
   "need": 5,
-  "keep": [],
-  "exclude": [
+  "keep": [
    {
-    "name": "Christopher Reilly",
-    "title": "AGC, Corporate & Commercial",
-    "email": "reilly@thinkingmachines.ai"
+    "name": "Jonathan Lachman",
+    "title": "Founding Head of Operations",
+    "email": "jon@thinkingmachines.ai"
    },
    {
     "name": "Jen Chan",
     "title": "GTM Strategy & Operations",
     "email": "jen@thinkingmachines.ai"
-   },
+   }
+  ],
+  "exclude": [
    {
-    "name": "Jonathan Lachman",
-    "title": "Founding Head of Operations",
-    "email": "jon@thinkingmachines.ai"
+    "name": "Christopher Reilly",
+    "title": "AGC, Corporate & Commercial",
+    "email": "reilly@thinkingmachines.ai"
    },
    {
     "name": "Soumith Chintala",

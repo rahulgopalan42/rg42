@@ -1,0 +1,73 @@
+{
+ "rows": [
+  {
+   "user_name": "Discovery Loop",
+   "brand": "Discovery Loop",
+   "domain": "discoveryloop.com",
+   "apollo_org": "DiscoveryLoop",
+   "apollo_org_hq": "United States (Apollo has no city or state on the org record; brief says Palo Alto, California)",
+   "confidence": "high",
+   "keep_bad": [],
+   "picks": [
+    {"id": "60c0805e772a510001db9f01", "first_name": "Jeff", "last_name_obfuscated": "De***n", "title": "Co-founder and CEO", "org": "DiscoveryLoop"}
+   ],
+   "backups": [
+    {"id": "54a99d177468693399e3a215", "first_name": "Dina", "last_name_obfuscated": "Mo***m", "title": "Executive Operations", "org": "DiscoveryLoop"}
+   ],
+   "note": "ORG USED: Apollo org 'DiscoveryLoop' on discoveryloop.com, 15 people in total. Right company with high confidence: the record holds the CEO plus co-founders whose names match the brief (Jeff De***n Co-founder and CEO, Quoc Le Co-Founder, Oriol Vi***s Co-Founder & CTO, Sanjay Gh***t Co-Founder). HQ check: the org filters as United States, but Apollo holds no city, so Palo Alto could not be confirmed from Apollo. ORGS IGNORED: none appeared; a keyword search on 'Discovery Loop' returned no other org, and 'Loop' (supply chain AI) was never used. GAP: only 1 of 5 picks. The lab has no marketing, communications, partnerships, president, COO or chief of staff in Apollo. 10 of the 15 people are Members of Technical Staff (not picks per the row note). The only non-technical people are Dina Mo***m, Executive Operations (has email; listed as a backup because the title looks like an executive office / operations support role, not a confirmed business leader) and Joe Ga***t, Operations Lead (no email, so not pickable). NOT PICKED on the row instruction that researchers and engineers are not picks, although they are founders with emails in Apollo: Quoc Le, Co-Founder (id 56f9b4a2f3e5bb3756004a0c); Sanjay Gh***t, Co-Founder (id 6abc8544dc57930001ce8485); Oriol Vi***s, Co-Founder & CTO (id 5b89f521f874f73b967dd8ad). Use them only if the user wants co-founders as extra senior decision makers. Search only: has_email is Apollo's flag, no email was revealed and no credits were spent."
+  },
+  {
+   "user_name": "Dose",
+   "brand": "Dose",
+   "domain": "dosedaily.co",
+   "apollo_org": "Dose",
+   "apollo_org_hq": "Miami, Florida, US (confirmed with the Apollo HQ location filter)",
+   "confidence": "high",
+   "keep_bad": [],
+   "picks": [
+    {"id": "66f537be7e95fc0001d78a6b", "first_name": "Vasu", "last_name_obfuscated": "Go***l", "title": "Founder", "org": "Dose"},
+    {"id": "5f8895c0f106550001bbe0ac", "first_name": "Minji", "last_name_obfuscated": "Cha", "title": "Chief Growth Officer", "org": "Dose"},
+    {"id": "6605c372358f340007f06513", "first_name": "Madeline", "last_name_obfuscated": "Ed***s", "title": "Head of Marketing Strategy", "org": "Dose"},
+    {"id": "5f4d23895a0e9700012a3fb8", "first_name": "Madison", "last_name_obfuscated": "Pa***a", "title": "Head of Celebrity & Influencer Marketing", "org": "Dose"},
+    {"id": "63b57c9d8336570001479177", "first_name": "Rubens", "last_name_obfuscated": "Fe***r", "title": "Head of CRO Growth", "org": "Dose"}
+   ],
+   "backups": [
+    {"id": "66f5b271513b650001f6aeff", "first_name": "Arielle", "last_name_obfuscated": "Je***l", "title": "Head of Paid", "org": "Dose"},
+    {"id": "61079c9d73978e0001c1d62f", "first_name": "Dhiya", "last_name_obfuscated": "Ch***y", "title": "Creative Director", "org": "Dose"}
+   ],
+   "note": "ORG USED: Apollo org 'Dose' on dosedaily.co, HQ Miami, Florida. Right company with high confidence: the domain is the brand's own, the founder Vasu Go***l matches the brief, and the titles fit a direct-to-consumer supplement brand (Head of Amazon, Head of Ecommerce, HCP Marketing, Medical Science Liaison, Senior Shopify Engineer). ORGS IGNORED: nothing was taken from a name search, so Dose & Co, DoseMe, Dose Health and Dose Therapeutics were never used. CAVEAT: the Apollo record is polluted. It lists 145 people, and roughly 40 of them clearly belong to unrelated businesses called Dose (baristas, a baker, 'Savory Team Member', a second 'Founder' Tom El***s, a dental assistant, a German locksmith). Almost none of those have an email and none were picked; every pick has a supplement-brand title and has_email true. PICKS: Vasu Go***l is listed only as 'Founder' (no separate CEO or president exists in Apollo; the brief says he founded the company), picked first as the senior decision maker. There is no Chief Marketing Officer; Chief Growth Officer Minji Cha is the top marketing-side executive. 'Head of CRO Growth' most likely means conversion rate optimisation, i.e. a growth marketing role, not a chief revenue officer. GAPS: no CMO, no chief revenue or chief commercial officer, no sponsorship or partnerships title. Chief Operating Officer Joe Va***i and Director of Product Marketing and Innovation Trey Sa***s have no email in Apollo, so they could not be picked. Other people with emails not picked: Johnny Ne***e, Vice President of Retail Sales and Operations (id 6784a2ba33652100017b3d14; the nearest thing to a commercial head, left out because it is a sales role), Libby Kn***s, Chief of Staff (id 57db535ba6da982d1ad33c94), Amanda De***e, Senior Brand Manager (manager level). No regional roles involved; the company is US only. Search only: no email was revealed and no credits were spent."
+  },
+  {
+   "user_name": "Emulate (AI lab)",
+   "brand": "Emulate",
+   "domain": "emulate.ai",
+   "apollo_org": "NONE FOUND (no Apollo organization for the London AI lab)",
+   "apollo_org_hq": "",
+   "confidence": "low",
+   "keep_bad": [],
+   "picks": [],
+   "backups": [],
+   "note": "ZERO PICKS, reported honestly. ORG USED: none. emulate.ai returns 0 people in Apollo with and without title filters, and a keyword search on 'Emulate' limited to organizations headquartered in London or anywhere in the United Kingdom also returns 0. The lab was founded in August 2026 and Apollo has not indexed it yet. The founders are still attached to their previous employers in Apollo: Jack Pa***r appears as Honorary Associate Professor at UCL (has an email, but it would be a UCL address, not Emulate), Philip Ba***l appears as Senior Research Scientist at Google DeepMind (no email), and Matthew McGill was not found. None were picked because the row note says to pick only people at the London lab on emulate.ai. ORGS IGNORED (all different companies sharing the name): 'Emulate, Inc.' (the Boston organ-chips company on emulatebio.com, CEO Jim Co***t); 'Emulate' (a different company led by Co-founder and CEO Shwan La***i and Co-Founder and Chief Scientist Daria Ma***n, which looks like the Swedish energy software firm, not the AI lab); 'EmulateAI' (a cybersecurity company with offensive security staff); 'Emulate Cities'; 'EMulate Therapeutics, Inc.'; 'Emulate Digital'; 'Emulate Infotech Private Limited'; 'Emulate Travel Services LLP'. NEXT STEP for the caller: this brand needs another source (the company website, LinkedIn, or a generic address on emulate.ai) or a re-check in Apollo in a few months. Search only: no credits were spent."
+  },
+  {
+   "user_name": "Endurance Energy",
+   "brand": "Endurance Energy",
+   "domain": "enduranceenergy.com",
+   "apollo_org": "Endurance Energy",
+   "apollo_org_hq": "Seattle, Washington, US (confirmed with the Apollo HQ location filter)",
+   "confidence": "high",
+   "keep_bad": [],
+   "picks": [
+    {"id": "5bd86cc980f93eb94400e182", "first_name": "Andrew", "last_name_obfuscated": "Re***d", "title": "Founder / CEO", "org": "Endurance Energy"},
+    {"id": "610e56cdf41e4d0001c1cc3c", "first_name": "Nathan", "last_name_obfuscated": "Ro***d", "title": "Chief Operating Officer", "org": "Endurance Energy"},
+    {"id": "63751e77a2cdf1000193cda5", "first_name": "Jennifer", "last_name_obfuscated": "Ke***n", "title": "Vice President of Policy and External Affairs", "org": "Endurance Energy"},
+    {"id": "54a741427468696220789223", "first_name": "Dan", "last_name_obfuscated": "Ch***h", "title": "Head of Creative", "org": "Endurance Energy"},
+    {"id": "61f3c11edbe0d20001e09c8c", "first_name": "Aditi", "last_name_obfuscated": "Bh***t", "title": "Chief of Staff", "org": "Endurance Energy"}
+   ],
+   "backups": [
+    {"id": "64ccf435f88c5b0001fac324", "first_name": "Brandon", "last_name_obfuscated": "Ka***f", "title": "Commercial Manager", "org": "Endurance Energy"}
+   ],
+   "note": "ORG USED: Apollo org 'Endurance Energy' on enduranceenergy.com, HQ Seattle, Washington, 35 people. Right company with high confidence: Founder / CEO Andrew Re***d matches the brief (Andrew Redd), the HQ matches, and the staff are a hard-tech startup team (Members of Technical Staff, founding mechanical and firmware engineers, Director of Turbomachinery, Director of Testing). Apollo lists 35 people against the brief's estimate of about 25 staff. ORGS IGNORED (different companies with similar names): 'Endurance Energy Group' (Founder Jason Fi***h), 'Endurance Motive, S.A.' (a Spanish company with a 'COO Endurance Energy' title) and 'Endurance Technologies Ltd.' (Indian group). PICKS follow the row note: CEO / founder first, then business, commercial, communications and operations leaders. GAP: the company has no marketing, brand, sponsorship or partnerships function at all, so there is no CMO or head of marketing to pick; Head of Creative is the nearest brand-side role and VP of Policy and External Affairs the nearest communications role. Backup Brandon Ka***f is a manager-level commercial contact, not a senior leader. Also has an email but not picked: Harry Bl***y, Head of Supply Chain (id 55711247736964410d6e0000), an operations leader with little relevance to a sponsorship decision. Everyone else is engineering or recruiting. No regional roles involved. Search only: no email was revealed and no credits were spent."
+  }
+ ]
+}
