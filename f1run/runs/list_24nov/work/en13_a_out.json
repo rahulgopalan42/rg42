@@ -1,0 +1,534 @@
+{
+ "rows": [
+  {
+   "user_name": "GSR",
+   "brand": "GSR",
+   "people": [
+    {
+     "name": "Xin Song",
+     "title": "Chief Executive Officer",
+     "email": "xin@gsr.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/xinsong",
+     "location": "Singapore"
+    },
+    {
+     "name": "Frank Chaparro",
+     "title": "Head of Strategic Communications",
+     "email": "frank.chaparro@gsr.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/fchaparro",
+     "location": "United States"
+    },
+    {
+     "name": "Haley Malanga",
+     "title": "Vice President Public Relations",
+     "email": "haley.malanga@gsr.io",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/haleymalanga",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Anjo Zhang",
+     "title": "VP, Partnership",
+     "email": "anjo@gsr.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/anjo-zhang-9459721ab",
+     "location": "Singapore"
+    },
+    {
+     "name": "James Newell",
+     "title": "Foundation & Corporate Communications Director",
+     "email": "james.newell@gsr.io",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/jamesnewell1",
+     "location": "Harpenden, England, United Kingdom"
+    }
+   ],
+   "note": "5 of 5 matched and kept, all verified on gsr.io, all with GSR (gsr.io, the crypto market maker) as current employer. Xin Song is the current CEO (in the role since Oct 2024). Frank Chaparro is still at GSR per the match (no start date held). No CMO exists: the Head of Strategic Communications is recorded as vp_marketing and the VP Public Relations as field_marketing. The VP Partnership is recorded as cro (nearest commercial role; remit not confirmed). James Newell also runs the GSR Foundation (Executive Director). gsr.io is a catch-all domain. No backups used."
+  },
+  {
+   "user_name": "Irregular",
+   "brand": "Irregular",
+   "people": [
+    {
+     "name": "Dan Lahav",
+     "title": "Co-Founder & CEO",
+     "email": "dan@irregular.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/dan-lahav-037a67185",
+     "location": "San Francisco, California, United States"
+    },
+    {
+     "name": "Omer Nevo",
+     "title": "Co-founder & CTO",
+     "email": "omer@patternlabs.co",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/omer-nevo-358012108",
+     "location": "Israel"
+    },
+    {
+     "name": "Gil Gekker",
+     "title": "Chief of Staff to the CEO",
+     "email": "gil@patternlabs.co",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/gil-gekker",
+     "location": "Center District, Israel"
+    },
+    {
+     "name": "Sagit Drory",
+     "title": "Head of Operations",
+     "email": "sagit@irregular.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/sagit-drory-6810a438",
+     "location": "Israel"
+    }
+   ],
+   "note": "4 of 4 matched and kept, all verified and currently at Irregular. Two emails are on patternlabs.co, not irregular.com: Omer Nevo (Co-founder & CTO) and Gil Gekker (Chief of Staff to the CEO). Kept because Irregular was formerly called Pattern Labs (Apollo's own employment record reads 'Irregular (formerly Pattern Labs)'), so patternlabs.co is the company's old domain; Apollo marks both verified, but the addresses may since have moved to irregular.com (first name @ irregular.com is the pattern for the CEO and Head of Operations) - check before sending. No marketing or revenue role exists, so everyone after the CEO is 'other'. Both domains are catch-all. No backups used."
+  },
+  {
+   "user_name": "LaserAway",
+   "brand": "LaserAway",
+   "people": [
+    {
+     "name": "Scott Heckmann",
+     "title": "CEO",
+     "email": "scotth@laseraway.net",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/scott-heckmann-4222bb8",
+     "location": "Santa Monica, California, United States"
+    },
+    {
+     "name": "Kelly Lohr",
+     "title": "Chief Customer Officer",
+     "email": "kelly.lohr@laseraway.net",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kellylohr",
+     "location": "Austin, Texas, United States"
+    },
+    {
+     "name": "Brock Heckmann",
+     "title": "Co-Founder",
+     "email": "brockh@laseraway.net",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/brockheckmann",
+     "location": "Solana Beach, California, United States"
+    },
+    {
+     "name": "Benjamin Espiritu",
+     "title": "Vice President of Creative Media",
+     "email": "bene@laseraway.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/benjaminedavid",
+     "location": "Los Angeles, California, United States"
+    },
+    {
+     "name": "Tyler Mabery",
+     "title": "Sr. Director of Digital Experience",
+     "email": "tyler.mabery@laseraway.net",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/tylermabery",
+     "location": "Bend, Oregon, United States"
+    }
+   ],
+   "note": "5 of 5 matched and kept, all verified, all currently at LaserAway. Four of the five emails are on laseraway.net, not laseraway.com (the CEO, the Chief Customer Officer, the co-founder and the Sr. Director of Digital Experience); only the VP of Creative Media is on laseraway.com. laseraway.net is taken as the company's own second domain (same name, Apollo verified); both domains are catch-all. No CMO exists: the Chief Customer Officer is recorded as vp_marketing (most senior customer / growth leader), the VP of Creative Media as field_marketing. Brock Heckmann's Apollo title is 'Co-Founder, C.O.O.' but his headline reads 'Co-Founder, Chief Revenue Officer at LaserAway', so he is recorded as cro - check which title to use. Tyler Mabery joined in Feb 2026. No backups used."
+  },
+  {
+   "user_name": "Orbicular Pharmaceutical Technologies",
+   "brand": "Orbicular Pharmaceutical Technologies",
+   "people": [
+    {
+     "name": "Mohan",
+     "title": "Managing Director",
+     "email": "mohan.ms@orbicular.co.in",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/dr-m-s-mohan-b898457",
+     "location": "Hyderabad, Telangana, India"
+    },
+    {
+     "name": "Vinay Mohan",
+     "title": "Director - Business Development",
+     "email": "vinay.nm@orbicular.co.in",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/vinay28",
+     "location": "Hyderabad, Telangana, India"
+    },
+    {
+     "name": "Meena Mohan",
+     "title": "Director",
+     "email": "meena.m@orbicular.co.in",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/meena-mohan-4a5088228",
+     "location": "Hyderabad, Telangana, India"
+    }
+   ],
+   "note": "3 of 3 matched and kept, all verified on orbicular.co.in (not a catch-all domain), all currently at Orbicular, all in Hyderabad. Apollo holds only the single name 'Mohan' for the Managing Director (in the role since Jul 2010; headline 'Entrepreneurial Scientist & Founder of Orbicular'); his LinkedIn address (dr-m-s-mohan) and email (mohan.ms@) point to Dr M. S. Mohan - check how to address him. The Director - Business Development (since Aug 2023) is the only commercial leader, so he is recorded as cro. The third Director (since Aug 2008, function not stated) is 'other'. All three share the surname Mohan, so this reads as a family-run board. No marketing role exists. No backups used."
+  },
+  {
+   "user_name": "Parfums de Marly",
+   "brand": "Parfums de Marly",
+   "people": [
+    {
+     "name": "Elizabeth Villegas",
+     "title": "Chief Commercial Officer, The Americas",
+     "email": "ev@finefragrancesdistribution.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/elizabeth-villegas-206718b4",
+     "location": "New York, United States"
+    },
+    {
+     "name": "Clemence Duval",
+     "title": "Chief Marketing Officer",
+     "email": "clemence.duval@artessencegroup.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/clemence-duval-04a92548",
+     "location": "Dubai, United Arab Emirates"
+    },
+    {
+     "name": "Alix D'Hautefeuille",
+     "title": "Global Communications Director",
+     "email": "alix@pmarly.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/alixdhautefeuille",
+     "location": "Dubai, United Arab Emirates"
+    }
+   ],
+   "note": "5 of 5 matched (5 credits) but only 3 kept. None of the three kept emails is on parfums-de-marly.com: (1) Elizabeth Villegas, Chief Commercial Officer, ev@finefragrancesdistribution.com - verified; reads as the group's Americas distribution company (her headline: 'Chief Commercial Officer Parfums de Marly & Initio Parfums Prives, The Americas'), so her remit is the Americas, not global; (2) Clemence Duval, Chief Marketing Officer (since Sep 2025), clemence.duval@artessencegroup.com - verified; reads as the parent group of Parfums de Marly and Initio (none of her earlier employers would use that domain); (3) Alix D'Hautefeuille, Global Communications Director, alix@pmarly.com - verified, a short form of the brand name. The first two domains were not checked outside Apollo: confirm before sending. Dropped: Margaux Limoges (Brand Marketing Director since Mar 2026) because the only email returned is at diormail.com, her previous employer Dior; Rohan Kapoor (Global Digital Marketing Director) because Apollo returned no email. Backups (Jamie Cr***d, Meghan Ba***y) were NOT matched: the rules allow a backup only when a pick returns no match or has left the company, and both dropped picks were charged matches; matching them would need 2 more credits beyond this file's cap. CMO and Communications Director are based in Dubai per Apollo."
+  },
+  {
+   "user_name": "Physical Intelligence",
+   "brand": "Physical Intelligence",
+   "people": [
+    {
+     "name": "Sam Whitmore",
+     "title": "Business Operations",
+     "email": "sam@physicalintelligence.company",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/samuelmwhitmore",
+     "location": "San Francisco, California, United States"
+    }
+   ],
+   "note": "1 of 1 matched and kept: Sam Whitmore, Business Operations, verified on physicalintelligence.company, currently at Physical Intelligence (since Sep 2025). With the 4 saved contacts (not matched again) the brand has 5. Apollo's primary domain for the company is pi.website; the email is on the row's domain. No backups used."
+  },
+  {
+   "user_name": "Skylark Labs",
+   "brand": "Skylark Labs",
+   "people": [
+    {
+     "name": "Amarjot Singh",
+     "title": "Founder & CEO",
+     "email": "amarjot@skylarklabs.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/amarjot-singh-skylark",
+     "location": "Menlo Park, California, United States"
+    },
+    {
+     "name": "Noor Jolly",
+     "title": "Marketing",
+     "email": "noor.jolly@skylarklabs.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/noor-jolly",
+     "location": "United States"
+    },
+    {
+     "name": "Vince Nakayama",
+     "title": "COO (his LinkedIn headline says CPO)",
+     "email": "vince.nakayama@skylarklabs.ai",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/vincenakayama",
+     "location": "Los Altos, California, United States"
+    },
+    {
+     "name": "Ketan Bansal",
+     "title": "Director of Business Strategy and Transformation",
+     "email": "ketan@skylarklabs.ai",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/ketan-bansal",
+     "location": "Menlo Park, California, United States"
+    },
+    {
+     "name": "Sukhbir Singh",
+     "title": "Director of Operations",
+     "email": "sukhbir@skylarklabs.ai",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/sukhbir-singh-3299a81ba",
+     "location": "Amritsar, Punjab, India"
+    }
+   ],
+   "note": "5 of 5 matched and kept, all verified on skylarklabs.ai (not a catch-all domain), all currently at Skylark Labs. Noor Jolly ('Marketing', joined Jun 2026) is the only marketer, so she is recorded as vp_marketing although her seniority is not stated. No revenue role exists, so the COO, the Director of Business Strategy and Transformation and the Director of Operations are 'other'. Vince Nakayama's Apollo title is 'COO - Advancing Continuous-learning AI for Autonomous Systems' (since Jan 2026) but his headline reads 'CPO at Skylark Labs' - check which title to use and shorten it to 'COO' in a letter. The Director of Operations is based in Amritsar, India. Backup not used."
+  },
+  {
+   "user_name": "SuKarne",
+   "brand": "SuKarne",
+   "people": [
+    {
+     "name": "Victor Osnaya",
+     "title": "Director General Comercial",
+     "email": "victor.osnaya@sukarne.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/victor-osnaya-coach",
+     "location": "Culiacan Rosales, Sinaloa, Mexico"
+    },
+    {
+     "name": "Martha Salazar Torres",
+     "title": "Subdirectora Mercadotecnia",
+     "email": "martha.salazar@sukarne.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/martha-salazar-torres-398016189",
+     "location": "Culiacan Rosales, Sinaloa, Mexico"
+    },
+    {
+     "name": "Maria Castanos Izabal",
+     "title": "Jefe de Publicidad y Medios",
+     "email": "maria.castanosi@sukarne.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/mar%c3%ada-in%c3%a9s-casta%c3%b1os-izabal-86ab22122",
+     "location": "Culiacan Rosales, Sinaloa, Mexico"
+    },
+    {
+     "name": "Sol Tafur",
+     "title": "Sub Directora de Marketing",
+     "email": "maria.tafurc@sukarne.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/sol-tafur-consultoria",
+     "location": "Mexico"
+    },
+    {
+     "name": "Paul Sauceda",
+     "title": "Jefe Publicidad Creativa",
+     "email": "paul.sauceda@sukarne.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/paulsauceda",
+     "location": "Culiacan Rosales, Sinaloa, Mexico"
+    }
+   ],
+   "note": "5 of 5 matched and kept, all verified on sukarne.com (catch-all domain), all currently at SuKarne, all but one based in Culiacan. Titles recorded in Spanish as Apollo gives them. No CEO email exists, so the Director General Comercial (chief commercial officer equivalent, in the role since Nov 2022) is the decision maker. The Subdirectora Mercadotecnia (since Jul 2022) is recorded as vp_marketing and the Jefe de Publicidad y Medios as field_marketing; the second deputy marketing director and the Jefe Publicidad Creativa are 'other'. Apollo names the second deputy director 'Sol Tafur' (joined Jan 2026) but her email is maria.tafurc@sukarne.com, so her full name is probably Maria Sol Tafur - check the first name before writing. Paul Sauceda has held the Jefe Publicidad Creativa title only since Oct 2026. No backups used."
+  },
+  {
+   "user_name": "Switch",
+   "brand": "Switch",
+   "people": [
+    {
+     "name": "Chris Donnelly",
+     "title": "CXO (Chief Connectivity Officer)",
+     "email": "chris@switch.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/chris-donnelly-3981a255",
+     "location": "Las Vegas, Nevada, United States"
+    }
+   ],
+   "note": "1 of 1 matched and kept: Chris Donnelly, CXO (Chief Connectivity Officer) since Aug 2017, verified on switch.com (catch-all domain). Rule checked: the match shows Switch, Las Vegas, Nevada (switch.com, about 1,500 staff) as his current employer and he is based in Las Vegas. With the 4 saved contacts (not matched again) the brand has 5. He is recorded as decision_maker because he is the senior business leader this job was asked to add (no CEO, president or chief revenue officer exists in Apollo); if one of the 4 saved contacts already holds that role, change his to 'other'. No backups used."
+  },
+  {
+   "user_name": "True Religion",
+   "brand": "True Religion",
+   "people": [
+    {
+     "name": "Michael Buckley",
+     "title": "Chief Executive Officer",
+     "email": "m.buckley@truereligion.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/michael-buckley-ab060011",
+     "location": "United States"
+    },
+    {
+     "name": "Kristen D'Arcy",
+     "title": "Chief Marketing Officer and Head of Digital Growth (Ecommerce)",
+     "email": "k.darcy@truereligion.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/kristen-darcy",
+     "location": "Los Angeles, California, United States"
+    },
+    {
+     "name": "Leslie Smith",
+     "title": "Sr. Director, Integrated Marketing",
+     "email": "l.smith1@truereligion.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/lesliesmith13",
+     "location": "Los Angeles, California, United States"
+    },
+    {
+     "name": "Tina Blake",
+     "title": "SVP Design, Merchandising & Brand Image",
+     "email": "t.blake@truereligion.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/tinablake",
+     "location": "Los Angeles, California, United States"
+    },
+    {
+     "name": "Mike Malinowski",
+     "title": "VP, Growth and Retention Marketing",
+     "email": "michael.m@truereligion.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/mike-malinowski-growth",
+     "location": "Los Angeles, California, United States"
+    }
+   ],
+   "note": "5 of 5 matched and kept, all verified on truereligion.com (not a catch-all domain), all currently at True Religion. Michael Buckley is the CEO (Apollo holds no start date or headline for him). Kristen D'Arcy is Chief Marketing Officer and Head of Digital Growth (Ecommerce) (CMO since Jul 2023). The Sr. Director, Integrated Marketing (in the role since Jan 2026) is recorded as field_marketing; the SVP Design, Merchandising & Brand Image and the VP, Growth and Retention Marketing are 'other'. No chief revenue officer exists. No backups used."
+  }
+ ],
+ "credits_used": 39,
+ "balance_after": null,
+ "emails_kept": 37,
+ "dropped": [
+  {
+   "brand": "Parfums de Marly",
+   "id": "66f6ce89ec0c8e00013cb278",
+   "name": "Margaux Limoges",
+   "why": "Matched and currently at Parfums de Marly (Brand Marketing Director since Mar 2026), but the only email Apollo returned is mlimoges@diormail.com, an address at her previous employer Parfums Christian Dior (left Jan 2026). Not a Parfums de Marly address, so dropped."
+  },
+  {
+   "brand": "Parfums de Marly",
+   "id": "6119e729bab78a00015c7e56",
+   "name": "Rohan Kapoor",
+   "why": "Matched (1 credit) but Apollo returned no email (email_status 'unavailable'). Apollo shows him at Parfums de Marly since Aug 2026 although his headline still reads Etihad."
+  }
+ ],
+ "enriched_ids": [
+  "54a4a4fc7468692fa2980b58",
+  "54a7772b74686965d9207137",
+  "54c1f97c7468697af717a566",
+  "54ec4c81746869444c84237a",
+  "5570671b7369645c86052300",
+  "5c7f554e80f93e39aa1654f3",
+  "5d4623dea3ae6168e3a893f6",
+  "5e7a7d89715c540001ccefa0",
+  "5ff848e7e1148d0001c1d21a",
+  "5ffa80eb6d0f260001b00339",
+  "607d4f124d59a7000145ed26",
+  "60a9dba64aefe80001ecbfb8",
+  "60b58fd63bf3f8000145f609",
+  "60cc7df2ddec8d00010fb48b",
+  "60e0f5298142e50001c94243",
+  "610bf3d5721c7c0001325a76",
+  "6119e729bab78a00015c7e56",
+  "621f449a7c485400015960c7",
+  "631dc05566c0240001d9d3a7",
+  "64283827994ee50001dcec4f",
+  "643cea84890c5200016e006a",
+  "64f6d4436dd647000199bb33",
+  "658c502b45104f0001053e34",
+  "6689bd30a95d9f000122ee0b",
+  "66f11df3fdb10400013e3188",
+  "66f6378de766b20001acf967",
+  "66f6917cc37d320001af97ba",
+  "66f6ce89ec0c8e00013cb278",
+  "66f70bb126871400012358a6",
+  "66f70c4726871400012390ba",
+  "66f76af8fb34c20001e46fd5",
+  "66f8b9e2a817d6000198a5f3",
+  "66fac14a137fb600014abfa0",
+  "66fbd12f216e5a0001da9e93",
+  "67c44f69c4819d00010b28a9",
+  "68578593b9cde00001e2fbb8",
+  "68f59203477df30001dc6c1a",
+  "69882f760f28700001adb291",
+  "6acd0fb867f9ea000189872a"
+ ],
+ "matched_ids": [
+  "54a4a4fc7468692fa2980b58",
+  "54a7772b74686965d9207137",
+  "54c1f97c7468697af717a566",
+  "54ec4c81746869444c84237a",
+  "5570671b7369645c86052300",
+  "5c7f554e80f93e39aa1654f3",
+  "5d4623dea3ae6168e3a893f6",
+  "5e7a7d89715c540001ccefa0",
+  "5ff848e7e1148d0001c1d21a",
+  "5ffa80eb6d0f260001b00339",
+  "607d4f124d59a7000145ed26",
+  "60a9dba64aefe80001ecbfb8",
+  "60b58fd63bf3f8000145f609",
+  "60cc7df2ddec8d00010fb48b",
+  "60e0f5298142e50001c94243",
+  "610bf3d5721c7c0001325a76",
+  "6119e729bab78a00015c7e56",
+  "621f449a7c485400015960c7",
+  "631dc05566c0240001d9d3a7",
+  "64283827994ee50001dcec4f",
+  "643cea84890c5200016e006a",
+  "64f6d4436dd647000199bb33",
+  "658c502b45104f0001053e34",
+  "6689bd30a95d9f000122ee0b",
+  "66f11df3fdb10400013e3188",
+  "66f6378de766b20001acf967",
+  "66f6917cc37d320001af97ba",
+  "66f6ce89ec0c8e00013cb278",
+  "66f70bb126871400012358a6",
+  "66f70c4726871400012390ba",
+  "66f76af8fb34c20001e46fd5",
+  "66f8b9e2a817d6000198a5f3",
+  "66fac14a137fb600014abfa0",
+  "66fbd12f216e5a0001da9e93",
+  "67c44f69c4819d00010b28a9",
+  "68578593b9cde00001e2fbb8",
+  "68f59203477df30001dc6c1a",
+  "69882f760f28700001adb291",
+  "6acd0fb867f9ea000189872a"
+ ],
+ "calls": [
+  {
+   "file": "call01.json",
+   "credits_consumed": 10,
+   "matched_ids": [
+    "54a4a4fc7468692fa2980b58",
+    "5570671b7369645c86052300",
+    "66f6378de766b20001acf967",
+    "68578593b9cde00001e2fbb8",
+    "64283827994ee50001dcec4f",
+    "5d4623dea3ae6168e3a893f6",
+    "607d4f124d59a7000145ed26",
+    "66f11df3fdb10400013e3188",
+    "631dc05566c0240001d9d3a7",
+    "60b58fd63bf3f8000145f609"
+   ]
+  },
+  {
+   "file": "call02.json",
+   "credits_consumed": 10,
+   "matched_ids": [
+    "66f70bb126871400012358a6",
+    "66f8b9e2a817d6000198a5f3",
+    "5c7f554e80f93e39aa1654f3",
+    "66f70c4726871400012390ba",
+    "66f76af8fb34c20001e46fd5",
+    "60a9dba64aefe80001ecbfb8",
+    "67c44f69c4819d00010b28a9",
+    "66f6917cc37d320001af97ba",
+    "66f6ce89ec0c8e00013cb278",
+    "6119e729bab78a00015c7e56"
+   ]
+  },
+  {
+   "file": "call03.json",
+   "credits_consumed": 10,
+   "matched_ids": [
+    "66fac14a137fb600014abfa0",
+    "60e0f5298142e50001c94243",
+    "5e7a7d89715c540001ccefa0",
+    "610bf3d5721c7c0001325a76",
+    "621f449a7c485400015960c7",
+    "6689bd30a95d9f000122ee0b",
+    "60cc7df2ddec8d00010fb48b",
+    "69882f760f28700001adb291",
+    "5ff848e7e1148d0001c1d21a",
+    "54a7772b74686965d9207137"
+   ]
+  },
+  {
+   "file": "call04.json",
+   "credits_consumed": 9,
+   "matched_ids": [
+    "54c1f97c7468697af717a566",
+    "54ec4c81746869444c84237a",
+    "643cea84890c5200016e006a",
+    "64f6d4436dd647000199bb33",
+    "6acd0fb867f9ea000189872a",
+    "68f59203477df30001dc6c1a",
+    "5ffa80eb6d0f260001b00339",
+    "658c502b45104f0001053e34",
+    "66fbd12f216e5a0001da9e93"
+   ]
+  }
+ ]
+}

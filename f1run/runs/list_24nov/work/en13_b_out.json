@@ -1,0 +1,736 @@
+{
+ "rows": [
+  {
+   "user_name": "Helsing",
+   "brand": "Helsing",
+   "domain": "helsing.ai",
+   "people": [
+    {
+     "name": "Gundbert Scherf",
+     "title": "Co-founder and Co-CEO",
+     "email": "gundbert.scherf@helsing.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/gscherf",
+     "location": "Germany",
+     "email_status": "verified",
+     "apollo_id": "66f53a69b7176800016c0350"
+    },
+    {
+     "name": "Johannes Boie",
+     "title": "CMO",
+     "email": "johannes.boie@helsing.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/johannes-boie-a3080210",
+     "location": "Berlin, Germany",
+     "email_status": "verified",
+     "apollo_id": "6acfebcfa6fdc100018c1081"
+    },
+    {
+     "name": "Frank Dirksen",
+     "title": "Chief Commercial Officer",
+     "email": "frank.dirksen@helsing.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/dr-frank-dirksen",
+     "location": "Germany",
+     "email_status": "verified",
+     "apollo_id": "54a40b127468693209fd1e28"
+    },
+    {
+     "name": "Nick Cohen",
+     "title": "Director of Marketing",
+     "email": "nick.cohen@helsing.ai",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/nwcohen",
+     "location": "Munich, Bavaria, Germany",
+     "email_status": "verified",
+     "apollo_id": "676c43fd8b12490001a65721"
+    },
+    {
+     "name": "Philipp Raidt",
+     "title": "Senior Director Communications",
+     "email": "philipp.raidt@helsing.ai",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/dr-philipp-raidt-11b2ab73",
+     "location": "Berlin, Germany",
+     "email_status": "verified",
+     "apollo_id": "54a1afa6746869401278fd07"
+    }
+   ],
+   "dropped": [],
+   "keep": [],
+   "total_with_keep": 5,
+   "note": "All 5 picks matched, all on helsing.ai, all verified, all currently at Helsing. No backups used."
+  },
+  {
+   "user_name": "Isomorphic Labs",
+   "brand": "Isomorphic Labs",
+   "domain": "isomorphiclabs.com",
+   "people": [
+    {
+     "name": "Max Jaderberg",
+     "title": "President",
+     "email": "jaderberg@isomorphiclabs.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/maxjaderberg",
+     "location": "London, England, United Kingdom",
+     "email_status": "verified",
+     "apollo_id": "66f3296a370f970001c267b3"
+    },
+    {
+     "name": "Ryan Pinto",
+     "title": "Vice President, Business Development",
+     "email": "ryanpinto@isomorphiclabs.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/rpdpinto",
+     "location": "Cambridge, Massachusetts, United States",
+     "email_status": "verified",
+     "apollo_id": "66fcb4fa265cb60001cfb19f"
+    }
+   ],
+   "dropped": [],
+   "keep": [
+    "mollymorgan@isomorphiclabs.com",
+    "barlowm@isomorphiclabs.com",
+    "kingabercsenyi@isomorphiclabs.com"
+   ],
+   "total_with_keep": 5,
+   "note": "Saved contacts already held (not re-matched, count toward the 5): mollymorgan@isomorphiclabs.com, barlowm@isomorphiclabs.com, kingabercsenyi@isomorphiclabs.com. Both picks matched on isomorphiclabs.com (verified; domain is catch-all), both currently at Isomorphic Labs. President is the senior decision maker; VP Business Development fills the commercial slot (weaker fit, flagged in selection). 3 saved + 2 new = 5."
+  },
+  {
+   "user_name": "Modal Labs",
+   "brand": "Modal Labs",
+   "domain": "modal.com",
+   "people": [
+    {
+     "name": "Erik Bernhardsson",
+     "title": "CEO",
+     "email": "erik@modal.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/erikbern",
+     "location": "New York, United States",
+     "email_status": "verified",
+     "apollo_id": "67a12807fab0a10001bbb8e4"
+    },
+    {
+     "name": "Justin Dignelli",
+     "title": "VP of Sales",
+     "email": "justin@modal.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/justindignelli",
+     "location": "San Francisco, California, United States",
+     "email_status": "verified",
+     "apollo_id": "66f3368ece0f6c000122b9f0"
+    }
+   ],
+   "dropped": [],
+   "keep": [
+    "dorman@modal.com",
+    "greta@modal.com",
+    "peri@modal.com"
+   ],
+   "total_with_keep": 5,
+   "note": "Saved contacts already held (not re-matched, count toward the 5): dorman@modal.com, greta@modal.com, peri@modal.com. Both picks matched on modal.com (verified; domain is catch-all), both currently at Modal. VP of Sales fills the revenue slot (no CRO/CCO exists). 3 saved + 2 new = 5."
+  },
+  {
+   "user_name": "Airlogix",
+   "brand": "Airlogix",
+   "domain": "airlogix.io",
+   "people": [
+    {
+     "name": "Vitalii Kolesnichenko",
+     "title": "Chief Executive Officer",
+     "email": "v.kolesnichenko@airlogix.io",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/vitalii-kolesnichenko-0307595a",
+     "location": "Ukraine",
+     "email_status": "verified",
+     "apollo_id": "6538989e7ec1f200015a40f1"
+    },
+    {
+     "name": "Viktor Lokotkov",
+     "title": "Chief Marketing Officer",
+     "email": "v.lokotkov@airlogix.io",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/lokotkov",
+     "location": "Conroe, Texas, United States",
+     "email_status": "verified",
+     "apollo_id": "54abebb1746869332d877616"
+    },
+    {
+     "name": "Dmytro Piatrin",
+     "title": "Chief Commercial Officer",
+     "email": "d.piatrin@airlogix.io",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/dmytro-piatrin-52954715a",
+     "location": "Kyiv, Kyiv city, Ukraine",
+     "email_status": "verified",
+     "apollo_id": "63cd59dc070e300001093e76"
+    },
+    {
+     "name": "Oleksandr Androshchuk",
+     "title": "Chief Financial and Operating Officer",
+     "email": "o.androshchuk@airlogix.io",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/oleksandr-androshchuk-6497719a",
+     "location": "Ukraine",
+     "email_status": "verified",
+     "apollo_id": "5d4174c680f93e8f9fa7e67b"
+    }
+   ],
+   "dropped": [],
+   "keep": [],
+   "total_with_keep": 4,
+   "note": "GAP: 4 of 5 (only 4 picks existed, no backups). All 4 picks matched, all on airlogix.io, all verified. Rule check passed: every match's employer is the Apollo org on airlogix.io with HQ Ukraine (the unmanned-aircraft maker), none belongs to the US companies of the same name. Viktor Lokotkov (CMO) shows a location of Conroe, Texas in Apollo but his employer record and verified email are the Ukrainian company's (same initial.surname@airlogix.io pattern as the others) - kept, flag the location. The CEO also lists a second current CEO role at Global Dynamics. 4th person is a combined CFO/COO (drop if a finance title is unwanted)."
+  },
+  {
+   "user_name": "Anduril Industries",
+   "brand": "Anduril Industries",
+   "domain": "anduril.com",
+   "people": [
+    {
+     "name": "Matthew Steckman",
+     "title": "President and CBO",
+     "email": "msteckman@anduril.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/matthew-steckman-4a23a8b0",
+     "location": "Arlington, Virginia, United States",
+     "email_status": "verified",
+     "apollo_id": "66f5add5a82b2e00012a2d4f"
+    },
+    {
+     "name": "Shannon Prior",
+     "title": "VP & Head of Global Communications",
+     "email": "sprior@anduril.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/shannonprior",
+     "location": "Ladera Ranch, California, United States",
+     "email_status": "verified",
+     "apollo_id": "60cd162b684a5f0001d939d7"
+    },
+    {
+     "name": "Shawn Grant",
+     "title": "Director, Brand Marketing",
+     "email": "sgrant@anduril.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/shawnjgrant",
+     "location": "Costa Mesa, California, United States",
+     "email_status": "verified",
+     "apollo_id": "55c3f0be7369646d0c083400"
+    },
+    {
+     "name": "Andrew Frink",
+     "title": "Creative Director",
+     "email": "afrink@anduril.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/andrew-frink-b26968109",
+     "location": "Seattle, Washington, United States",
+     "email_status": "verified",
+     "apollo_id": "57d4c291a6da9853c6d56e51"
+    },
+    {
+     "name": "Katie Dufficy",
+     "title": "Director of Communications, Asia Pacific",
+     "email": "kdufficy@anduril.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/katie-dufficy-9392496",
+     "location": "Sydney, New South Wales, Australia",
+     "email_status": "verified",
+     "apollo_id": "5fd2caa0d396360001cb9e48"
+    }
+   ],
+   "dropped": [],
+   "keep": [],
+   "total_with_keep": 5,
+   "note": "All 5 picks matched, all on anduril.com, all verified, all currently at Anduril. No CEO/founder record and no CMO/VP Marketing exists in Apollo: President and CBO is the decision maker, the VP & Head of Global Communications takes the vp_marketing slot, no cro. Katie Dufficy (Director of Communications) turns out to be the comms lead for Asia Pacific, based in Sydney - a regional role, kept but FLAG (the two backups could not be used: credit cap reached and she did match as a current employee). Andrew Frink's profile still lists an older Design Director role at Turn 10 Studios as current alongside the newer Anduril role (started Mar 2026). No backups used."
+  },
+  {
+   "user_name": "Arthea (formerly PDC Brands)",
+   "brand": "Arthea",
+   "domain": "pdcwellness.com",
+   "people": [
+    {
+     "name": "Tarun Malkani",
+     "title": "Chief Executive Officer",
+     "email": "tmalkani@pdcwellness.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/tarun-malkani-a327873",
+     "location": "New York, United States",
+     "email_status": "verified",
+     "apollo_id": "610b51d9bc2e620001ebb168"
+    },
+    {
+     "name": "Rebecca McNicol",
+     "title": "SVP, Head of Brand Marketing",
+     "email": "rmcnicol@pdcbeauty.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/rebecca-mcnicol-81a15770",
+     "location": "New York, United States",
+     "email_status": "verified",
+     "apollo_id": "67e456715a773a000147d3ae"
+    },
+    {
+     "name": "Gina Dobles",
+     "title": "Chief Growth Officer",
+     "email": "gdobles@pdcwellness.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/gina-dobles",
+     "location": "White Plains, New York, United States",
+     "email_status": "verified",
+     "apollo_id": "54a597f574686936767d789c"
+    },
+    {
+     "name": "Aria Simpson",
+     "title": "Global Brand Director",
+     "email": "asimpson@pdcwellness.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/ariasimpson",
+     "location": "New York, United States",
+     "email_status": "verified",
+     "apollo_id": "607414480d7b3900018aeef4"
+    },
+    {
+     "name": "Kai Musielak",
+     "title": "Head of Brand & Corporate Communications",
+     "email": "kmusielak@pdcwellness.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/kaimusielak",
+     "location": "New York, United States",
+     "email_status": "verified",
+     "apollo_id": "66ec96b9afc00e00019da16c"
+    }
+   ],
+   "dropped": [],
+   "keep": [],
+   "total_with_keep": 5,
+   "note": "All 5 picks matched, all verified, all currently at Arthea / PDC Brands (same company, two Apollo records). Email domains: 4 on pdcwellness.com (the row domain: CEO, Head of Brand & Corporate Communications, Chief Growth Officer, Global Brand Director); 1 on pdcbeauty.com (Rebecca McNicol, SVP Head of Brand Marketing) - pdcbeauty.com is an older PDC Brands company domain, not one of the three named in the rule, kept as a clear company alias but FLAG for review. No email came back on pdcbrands.com or on a new Arthea domain, although Apollo now lists the Arthea record's primary domain as artheawellness.com. All company domains are catch-all. No backups used."
+  },
+  {
+   "user_name": "Colossal Biosciences",
+   "brand": "Colossal Biosciences",
+   "domain": "colossal.com",
+   "people": [
+    {
+     "name": "Adam Milne",
+     "title": "Chief Operating Officer",
+     "email": "adam@colossal.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/adamdmilne",
+     "location": "Cambridge, Massachusetts, United States",
+     "email_status": "verified",
+     "apollo_id": "60f00670a815930001ad4ff2"
+    }
+   ],
+   "dropped": [],
+   "keep": [
+    "ben@colossal.com",
+    "klee@colossal.com",
+    "jillian@colossal.com",
+    "emily@colossal.com"
+   ],
+   "total_with_keep": 5,
+   "note": "Saved contacts already held (not re-matched, count toward the 5): ben@colossal.com, klee@colossal.com, jillian@colossal.com, emily@colossal.com. COO matched on colossal.com (verified), currently at Colossal. Picked as next-best senior decision maker because no chief business/commercial/revenue officer or head of partnerships exists in Apollo; role set to other since the CEO is among the saved contacts. 4 saved + 1 new = 5. Backup not used."
+  },
+  {
+   "user_name": "Custom Ink",
+   "brand": "Custom Ink",
+   "domain": "customink.com",
+   "people": [
+    {
+     "name": "David Doctorow",
+     "title": "CEO",
+     "email": "david.doctorow@customink.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/david-doctorow-b7b5",
+     "location": "United States",
+     "email_status": "verified",
+     "apollo_id": "66f3d23bdd5d050001e46419"
+    },
+    {
+     "name": "Philip Auerbach",
+     "title": "Chief Marketing Officer",
+     "email": "philip.auerbach@customink.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/philip-auerbach-a45356",
+     "location": "New York, United States",
+     "email_status": "verified",
+     "apollo_id": "66f794bbebc199000151345e"
+    },
+    {
+     "name": "Ryan Massimo",
+     "title": "Chief Revenue Officer",
+     "email": "ryan.massimo@customink.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/ryan-massimo-2945aa",
+     "location": "Sudbury, Massachusetts, United States",
+     "email_status": "verified",
+     "apollo_id": "66f94a9b9901a20001a43ec9"
+    },
+    {
+     "name": "Justin McKinney",
+     "title": "VP, Organic Marketing",
+     "email": "justin.mckinney@customink.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/justinalanmckinney",
+     "location": "Los Angeles, California, United States",
+     "email_status": "verified",
+     "apollo_id": "66f743be31303a0001371105"
+    },
+    {
+     "name": "Benjamin Carter",
+     "title": "Director Brand & Creative",
+     "email": "bcarter@customink.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/benjamin-carter-49a6b05",
+     "location": "Virginia, United States",
+     "email_status": "verified",
+     "apollo_id": "57df918fa6da980add336c6c"
+    }
+   ],
+   "dropped": [],
+   "keep": [],
+   "total_with_keep": 5,
+   "note": "All 5 picks matched, all on customink.com, all verified (domain is catch-all), all currently at Custom Ink. No backups used."
+  },
+  {
+   "user_name": "Destinus",
+   "brand": "Destinus",
+   "domain": "destinus.ch",
+   "people": [
+    {
+     "name": "Oleksandr Danylyuk",
+     "title": "President",
+     "email": "od@destinus.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/oleksandr-danylyuk-93941951",
+     "location": "Ukraine",
+     "email_status": "verified",
+     "apollo_id": "65799fcad733b00001c26546"
+    },
+    {
+     "name": "Wouter Van Beek",
+     "title": "Group Chief Commercial Officer (CCO)",
+     "email": "wouter.vanbeek@destinus.eu",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/vanbeek-wouter",
+     "location": "Netherlands",
+     "email_status": "verified",
+     "apollo_id": "68696a27ac2cc80001f23ae5"
+    },
+    {
+     "name": "Emiel Willms",
+     "title": "Head of Commercial Strategy & Partnerships",
+     "email": "emiel.willms@destinus.eu",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/emielwillms",
+     "location": "Amsterdam, North Holland, Netherlands",
+     "email_status": "verified",
+     "apollo_id": "66f97b056119970001594266"
+    },
+    {
+     "name": "Dirk Zimper",
+     "title": "Chief Future Capabilities Officer and Managing Director Germany",
+     "email": "dirk.zimper@destinus.eu",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/dr-dirk-zimper",
+     "location": "Berlin, Germany",
+     "email_status": "verified",
+     "apollo_id": "66562bbf05e2da0001bbd094"
+    }
+   ],
+   "dropped": [],
+   "keep": [],
+   "total_with_keep": 4,
+   "note": "GAP: 4 of 5 (only 4 picks existed). All 4 picks matched, all verified, all currently at Destinus. Email domains: President on destinus.com (allowed by the rule); the other three (Group CCO, Head of Commercial Strategy & Partnerships, Chief Future Capabilities Officer / MD Germany) are on destinus.eu - not one of the two domains named in the rule (destinus.ch / destinus.com) but the same company's own .eu domain, kept as a clear company alias, FLAG for review. No email came back on destinus.ch. Dirk Zimper also lists a current side role as Founder & CEO of IronbotiX and is partly a regional (Germany) head. No senior marketing person exists in Apollo, so there is no vp_marketing. Backups not used (no pick failed)."
+  },
+  {
+   "user_name": "DG Matrix",
+   "brand": "DG Matrix",
+   "domain": "dgmatrix.com",
+   "people": [
+    {
+     "name": "Haroon Inam",
+     "title": "Chief Executive Officer",
+     "email": "h@dgmatrix.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/harooninam",
+     "location": "North Carolina, United States",
+     "email_status": "verified",
+     "apollo_id": "66837a1e95f02a0001b46abd"
+    },
+    {
+     "name": "Rainer Stiller",
+     "title": "Chief Marketing Officer",
+     "email": "rainer.stiller@dgmatrix.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/rainerstiller",
+     "location": "Munich, Bavaria, Germany",
+     "email_status": "verified",
+     "apollo_id": "66f7bee20a0a800001df1252"
+    },
+    {
+     "name": "Deepak Thakkar",
+     "title": "Chief Commercial Officer",
+     "email": "deepak.thakkar@dgmatrix.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/thakkardeepak",
+     "location": "San Francisco, California, United States",
+     "email_status": "verified",
+     "apollo_id": "60f9096968616400018dc0c5"
+    },
+    {
+     "name": "Anthony Wanger",
+     "title": "Executive Chairman",
+     "email": "anthony.wanger@dgmatrix.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/anthony-wanger-b557344b",
+     "location": "Phoenix, Arizona, United States",
+     "email_status": "verified",
+     "apollo_id": "610f746bcd90440001ed5a6e"
+    },
+    {
+     "name": "Ramesh Gopalakrishnan",
+     "title": "Chief Operating Officer",
+     "email": "ramesh.gopalakrishnan@dgmatrix.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/ramesh-gopalakrishnan-839a0356",
+     "location": "Phoenix, Arizona, United States",
+     "email_status": "verified",
+     "apollo_id": "61167766a4ff850001fa14b7"
+    }
+   ],
+   "dropped": [],
+   "keep": [],
+   "total_with_keep": 5,
+   "note": "All 5 picks matched, all on dgmatrix.com, all verified, all currently at DG Matrix. Deepak Thakkar's profile also still lists a second current CCO role at MAS (DG Matrix role is the newer one, started Jul 2026). No backups used."
+  },
+  {
+   "user_name": "Etched",
+   "brand": "Etched",
+   "domain": "etched.com",
+   "people": [
+    {
+     "name": "Gavin Uberti",
+     "title": "CEO and Co-Founder",
+     "email": "gavin@etched.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/guberti",
+     "location": "San Francisco, California, United States",
+     "email_status": "verified",
+     "apollo_id": "66f414639b80c300014f8cc3"
+    },
+    {
+     "name": "Robert Wachen",
+     "title": "Co-Founder and President",
+     "email": "robert@etched.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/robertwachen",
+     "location": "San Francisco, California, United States",
+     "email_status": "verified",
+     "apollo_id": "68200f86c153b600016624e9"
+    },
+    {
+     "name": "Chris Zhu",
+     "title": "Co-Founder",
+     "email": "chris@etched.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/czhu1729",
+     "location": "San Jose, California, United States",
+     "email_status": "verified",
+     "apollo_id": "66f5ff91b023c40001560377"
+    },
+    {
+     "name": "Don Moore",
+     "title": "Head of Growth Ops",
+     "email": "don@etched.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/d0n",
+     "location": "San Jose, California, United States",
+     "email_status": "verified",
+     "apollo_id": "68789c8bd005c900012c3fe2"
+    }
+   ],
+   "dropped": [],
+   "keep": [],
+   "total_with_keep": 4,
+   "note": "GAP: 4 of 5 (only 4 picks existed). All 4 picks matched, all on etched.com (none on etched.ai), all verified, all currently at Etched. No marketing, brand, communications or CRO/CCO person exists in Apollo, so only the CEO has a specific role; the President, the third co-founder and the Head of Growth Ops are role other (Head of Growth Ops remit may be business operations rather than marketing - flag). Backup not used (no pick failed)."
+  },
+  {
+   "user_name": "Frankenburg Technologies",
+   "brand": "Frankenburg Technologies",
+   "domain": "frankenburg.tech",
+   "people": [
+    {
+     "name": "Kusti Salm",
+     "title": "Chief Executive Officer",
+     "email": "kusti.salm@frankenburg.tech",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kusti-salm-644159b2",
+     "location": "Tallinn, Harju County, Estonia",
+     "email_status": "verified",
+     "apollo_id": "5efd9ae61d1a3b00daade385"
+    },
+    {
+     "name": "Andrew Gardner",
+     "title": "Chief Strategy and Growth Officer",
+     "email": "andrew.gardner@frankenburg.tech",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/andrew-gardner-ceng-fraes-13785b39",
+     "location": "United Kingdom",
+     "email_status": "verified",
+     "apollo_id": "5d625021a3ae617404f6f36f"
+    },
+    {
+     "name": "Taavi Madiberk",
+     "title": "Non Executive Chair and Co-founder",
+     "email": "taavi@frankenburg.tech",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/madiberk",
+     "location": "Tallinn, Harju County, Estonia",
+     "email_status": "verified",
+     "apollo_id": "60f072c9d3178c0001a24b4d"
+    },
+    {
+     "name": "Daniel Hallett",
+     "title": "Global Sales Director & Managing Director (UK)",
+     "email": "daniel.hallett@frankenburg.tech",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/danielhallett",
+     "location": "London, England, United Kingdom",
+     "email_status": "verified",
+     "apollo_id": "54a488af74686938ac84704f"
+    }
+   ],
+   "dropped": [],
+   "keep": [],
+   "total_with_keep": 4,
+   "note": "GAP: 4 of 5 (only 4 picks existed). All 4 picks matched, all on frankenburg.tech, all verified, all with a current role at Frankenburg. Chief Strategy and Growth Officer fills the commercial slot; no marketing person exists in Apollo. Taavi Madiberk is non-executive chair and co-founder - his main job is CEO of Skeleton Technologies (kept because the Frankenburg role is current and the email is a verified frankenburg.tech address; flag). Daniel Hallett is global head of sales and also MD UK (partly regional). Backup not used (no pick failed)."
+  }
+ ],
+ "credits_used": 46,
+ "balance_after": null,
+ "emails_kept": 46,
+ "enriched_ids": [
+  "54a1afa6746869401278fd07",
+  "54a40b127468693209fd1e28",
+  "54a488af74686938ac84704f",
+  "54a597f574686936767d789c",
+  "54abebb1746869332d877616",
+  "55c3f0be7369646d0c083400",
+  "57d4c291a6da9853c6d56e51",
+  "57df918fa6da980add336c6c",
+  "5d4174c680f93e8f9fa7e67b",
+  "5d625021a3ae617404f6f36f",
+  "5efd9ae61d1a3b00daade385",
+  "5fd2caa0d396360001cb9e48",
+  "607414480d7b3900018aeef4",
+  "60cd162b684a5f0001d939d7",
+  "60f00670a815930001ad4ff2",
+  "60f072c9d3178c0001a24b4d",
+  "60f9096968616400018dc0c5",
+  "610b51d9bc2e620001ebb168",
+  "610f746bcd90440001ed5a6e",
+  "61167766a4ff850001fa14b7",
+  "63cd59dc070e300001093e76",
+  "6538989e7ec1f200015a40f1",
+  "65799fcad733b00001c26546",
+  "66562bbf05e2da0001bbd094",
+  "66837a1e95f02a0001b46abd",
+  "66ec96b9afc00e00019da16c",
+  "66f3296a370f970001c267b3",
+  "66f3368ece0f6c000122b9f0",
+  "66f3d23bdd5d050001e46419",
+  "66f414639b80c300014f8cc3",
+  "66f53a69b7176800016c0350",
+  "66f5add5a82b2e00012a2d4f",
+  "66f5ff91b023c40001560377",
+  "66f743be31303a0001371105",
+  "66f794bbebc199000151345e",
+  "66f7bee20a0a800001df1252",
+  "66f94a9b9901a20001a43ec9",
+  "66f97b056119970001594266",
+  "66fcb4fa265cb60001cfb19f",
+  "676c43fd8b12490001a65721",
+  "67a12807fab0a10001bbb8e4",
+  "67e456715a773a000147d3ae",
+  "68200f86c153b600016624e9",
+  "68696a27ac2cc80001f23ae5",
+  "68789c8bd005c900012c3fe2",
+  "6acfebcfa6fdc100018c1081"
+ ],
+ "requested_ids": [
+  "54a1afa6746869401278fd07",
+  "54a40b127468693209fd1e28",
+  "54a488af74686938ac84704f",
+  "54a597f574686936767d789c",
+  "54abebb1746869332d877616",
+  "55c3f0be7369646d0c083400",
+  "57d4c291a6da9853c6d56e51",
+  "57df918fa6da980add336c6c",
+  "5d4174c680f93e8f9fa7e67b",
+  "5d625021a3ae617404f6f36f",
+  "5efd9ae61d1a3b00daade385",
+  "5fd2caa0d396360001cb9e48",
+  "607414480d7b3900018aeef4",
+  "60cd162b684a5f0001d939d7",
+  "60f00670a815930001ad4ff2",
+  "60f072c9d3178c0001a24b4d",
+  "60f9096968616400018dc0c5",
+  "610b51d9bc2e620001ebb168",
+  "610f746bcd90440001ed5a6e",
+  "61167766a4ff850001fa14b7",
+  "63cd59dc070e300001093e76",
+  "6538989e7ec1f200015a40f1",
+  "65799fcad733b00001c26546",
+  "66562bbf05e2da0001bbd094",
+  "66837a1e95f02a0001b46abd",
+  "66ec96b9afc00e00019da16c",
+  "66f3296a370f970001c267b3",
+  "66f3368ece0f6c000122b9f0",
+  "66f3d23bdd5d050001e46419",
+  "66f414639b80c300014f8cc3",
+  "66f53a69b7176800016c0350",
+  "66f5add5a82b2e00012a2d4f",
+  "66f5ff91b023c40001560377",
+  "66f743be31303a0001371105",
+  "66f794bbebc199000151345e",
+  "66f7bee20a0a800001df1252",
+  "66f94a9b9901a20001a43ec9",
+  "66f97b056119970001594266",
+  "66fcb4fa265cb60001cfb19f",
+  "676c43fd8b12490001a65721",
+  "67a12807fab0a10001bbb8e4",
+  "67e456715a773a000147d3ae",
+  "68200f86c153b600016624e9",
+  "68696a27ac2cc80001f23ae5",
+  "68789c8bd005c900012c3fe2",
+  "6acfebcfa6fdc100018c1081"
+ ],
+ "calls": [
+  {
+   "file": "call01.json",
+   "matched": 10,
+   "credits_consumed": 10
+  },
+  {
+   "file": "call02.json",
+   "matched": 10,
+   "credits_consumed": 10
+  },
+  {
+   "file": "call03.json",
+   "matched": 9,
+   "credits_consumed": 9
+  },
+  {
+   "file": "call04.json",
+   "matched": 8,
+   "credits_consumed": 8
+  },
+  {
+   "file": "call05.json",
+   "matched": 9,
+   "credits_consumed": 9
+  }
+ ],
+ "complete": true
+}
