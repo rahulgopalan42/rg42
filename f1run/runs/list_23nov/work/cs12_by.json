@@ -1,0 +1,1310 @@
+{
+ "Science Corporation (neurotech)": {
+  "user_name": "Science Corporation (neurotech)",
+  "brand": "Science Corporation",
+  "domain": "science.xyz",
+  "apollo_org": "Science",
+  "apollo_org_hq": "California, US (confirmed with Apollo HQ filter; search does not return the city)",
+  "confidence": "high",
+  "keep_bad": [],
+  "picks": [
+   {
+    "id": "66f70b64b6c9060001a3c19e",
+    "first_name": "Darius",
+    "last_name_obfuscated": "Sh***a",
+    "title": "Chief Strategy Officer",
+    "org": "Science"
+   },
+   {
+    "id": "6087c93abcf4d600017bbaae",
+    "first_name": "Matt",
+    "last_name_obfuscated": "He***t",
+    "title": "Global Marketing & Creative",
+    "org": "Science"
+   },
+   {
+    "id": "610ad203882f5300012c0c8e",
+    "first_name": "Kylie",
+    "last_name_obfuscated": "Al***m",
+    "title": "Executive Vice President of Operations",
+    "org": "Science"
+   }
+  ],
+  "backups": [
+   {
+    "id": "60d4468212f9d70001cb2df6",
+    "first_name": "Alan",
+    "last_name_obfuscated": "Ma***y",
+    "title": "Chief Scientific Officer",
+    "org": "Science"
+   },
+   {
+    "id": "59171042f65125141f5bc8bc",
+    "first_name": "Emma",
+    "last_name_obfuscated": "Zh***u",
+    "title": "Cofounder",
+    "org": "Science"
+   }
+  ],
+  "note": "3 of 5. Apollo org 'Science' on science.xyz (191 people, California HQ; titles such as Director of Retinal Implants, Medical Director - Prima, Biohybrid Devices confirm the neurotech firm). CEO Max Hodak is not listed in Apollo under this domain (name search returned nothing), so the senior decision makers picked are the Chief Strategy Officer and the EVP Operations. Head of Marketing (Jonathan Hu***t, id 60c757561382e900016a3693) has no email in Apollo, so the marketing pick is 'Global Marketing & Creative' (Matt He***t). Backups: Chief Scientific Officer (a co-founder, but a science role) and a 'Cofounder' (Emma Zh***u) whose link to this company could not be confirmed from search data. No CRO / CCO / partnerships lead found."
+ },
+ "Sagar Defence Engineering": {
+  "user_name": "Sagar Defence Engineering",
+  "brand": "Sagar Defence Engineering",
+  "domain": "sagardefence.com",
+  "apollo_org": "Sagar Defence Engineering",
+  "apollo_org_hq": "Maharashtra, India (confirmed with Apollo HQ filter)",
+  "confidence": "high",
+  "keep_bad": [],
+  "picks": [
+   {
+    "id": "54eb442d74686931b82f810d",
+    "first_name": "Nikunj",
+    "last_name_obfuscated": "Pa***r",
+    "title": "Founder",
+    "org": "Sagar Defence Engineering"
+   },
+   {
+    "id": "60507fd6c478f60001716d5b",
+    "first_name": "Lakshay",
+    "last_name_obfuscated": "Da***g",
+    "title": "National Award Recipient, Co-founder/Chief Technology Officer(CTO)",
+    "org": "Sagar Defence Engineering"
+   }
+  ],
+  "backups": [],
+  "note": "2 of 5. 194 people in Apollo but only 7 at director level or above and nobody with a marketing, brand, communications or commercial title. Picked the founder and the co-founder/CTO (both have emails). Other seniors are engineering (CTO / R&D Head), HR (CHRO) or have no email (Director - Operations; Director; co-founder Mridul Ba***r), so not picked."
+ },
+ "Stark Future": {
+  "user_name": "Stark Future",
+  "brand": "Stark Future",
+  "domain": "starkfuture.com",
+  "apollo_org": "Stark Future SL",
+  "apollo_org_hq": "Spain (confirmed with Apollo HQ filter)",
+  "confidence": "high",
+  "keep_bad": [],
+  "picks": [
+   {
+    "id": "54a5dd3d74686932097504af",
+    "first_name": "Anton",
+    "last_name_obfuscated": "Wa***s",
+    "title": "CEO & Founder",
+    "org": "Stark Future SL"
+   },
+   {
+    "id": "637cd0e511256a0001b3d622",
+    "first_name": "Morgan",
+    "last_name_obfuscated": "Ka***n",
+    "title": "Chief Marketing Officer",
+    "org": "Stark Future SL"
+   },
+   {
+    "id": "54a3d0797468692abf25b514",
+    "first_name": "Ben",
+    "last_name_obfuscated": "Co***b",
+    "title": "Director of Brand Communications",
+    "org": "Stark Future SL"
+   },
+   {
+    "id": "5db0064e1f7b7300018b90d3",
+    "first_name": "Dani",
+    "last_name_obfuscated": "Tr***s",
+    "title": "Sports & Field Marketing Director",
+    "org": "Stark Future SL"
+   },
+   {
+    "id": "5e77e7bca6f9c60001422e71",
+    "first_name": "Dennis",
+    "last_name_obfuscated": "Ny***d",
+    "title": "Chief Revenue Officer (CRO)",
+    "org": "Stark Future SL"
+   }
+  ],
+  "backups": [
+   {
+    "id": "6877499ee5fe3c00014ddbb5",
+    "first_name": "Andres",
+    "last_name_obfuscated": "Fe***z",
+    "title": "COO",
+    "org": "Stark Future SL"
+   },
+   {
+    "id": "54fa90687468692627986c01",
+    "first_name": "Syo",
+    "last_name_obfuscated": "Va***t",
+    "title": "Head of Stark Studios",
+    "org": "Stark Future SL"
+   }
+  ],
+  "note": "5 of 5, all global roles: CEO & founder, CMO, brand communications director, sports & field marketing director, CRO. Backups: COO and head of the in-house content studio. Global Media Director (Dan Qu***k) has no email; President - North America is regional, not picked."
+ },
+ "Corma": {
+  "user_name": "Corma",
+  "brand": "Corma",
+  "domain": "corma.ai",
+  "apollo_org": "Corma Inc.",
+  "apollo_org_hq": "Ontario, Canada (confirmed with Apollo HQ filter)",
+  "confidence": "low",
+  "keep_bad": [],
+  "picks": [
+   {
+    "id": "64068aa3a5a67b000120d4f9",
+    "first_name": "Alon",
+    "title": "Co-Founder & CEO",
+    "org": "Corma"
+   },
+   {
+    "id": "5d549eec80f93eed240429f6",
+    "first_name": "Hofit",
+    "title": "Co-Founder",
+    "org": "Corma"
+   }
+  ],
+  "backups": [],
+  "note": "Research built Corma at corma.ai (Tel Aviv / San Francisco defensive cybersecurity AI lab). Picks replaced with its co-founders; no marketing staff in Apollo."
+ },
+ "EOS-X Space": {
+  "user_name": "EOS-X Space",
+  "brand": "EOS-X Space",
+  "domain": "eosxspace.com",
+  "apollo_org": "EOS-X SPACE",
+  "apollo_org_hq": "Spain (confirmed with Apollo HQ filter)",
+  "confidence": "high",
+  "keep_bad": [],
+  "picks": [
+   {
+    "id": "54a70050746869622017030c",
+    "first_name": "Kemel",
+    "last_name_obfuscated": "Kh***i",
+    "title": "Founder & CEO",
+    "org": "EOS-X SPACE"
+   }
+  ],
+  "backups": [],
+  "note": "1 of 5. Apollo lists only one person for this company (domain search and name search both return just the Founder & CEO, who has an email). No marketing or commercial staff in Apollo."
+ },
+ "Future Secure AI": {
+  "user_name": "Future Secure AI",
+  "brand": "Future Secure AI",
+  "domain": "futuresecure.ai",
+  "apollo_org": "Future Secure AI",
+  "apollo_org_hq": "Australia (confirmed with Apollo HQ filter; city not returned)",
+  "confidence": "medium",
+  "keep_bad": [],
+  "picks": [
+   {
+    "id": "60bce12c0d87140001583f4c",
+    "first_name": "Brendan",
+    "last_name_obfuscated": "Mc***n",
+    "title": "Chief Operating Officer",
+    "org": "Future Secure AI"
+   },
+   {
+    "id": "55beff5573696415cac50800",
+    "first_name": "Ollie",
+    "last_name_obfuscated": "Sl***n",
+    "title": "Executive Director - Growth",
+    "org": "Future Secure AI"
+   },
+   {
+    "id": "55708ade736964726d4b0600",
+    "first_name": "Andrew",
+    "last_name_obfuscated": "Tr***r",
+    "title": "Chief Corporate Officer",
+    "org": "Future Secure AI"
+   },
+   {
+    "id": "60e8b37ecd37bb00016f657e",
+    "first_name": "Nays",
+    "last_name_obfuscated": "Ba***i",
+    "title": "Senior Director, Creative Operations",
+    "org": "Future Secure AI"
+   }
+  ],
+  "backups": [
+   {
+    "id": "56f32e71f3e5bb070a002d85",
+    "first_name": "Jim",
+    "last_name_obfuscated": "La***t",
+    "title": "Executive Vice President - North America",
+    "org": "Future Secure AI"
+   }
+  ],
+  "note": "4 of 5. Identified from Apollo: org named exactly 'Future Secure AI' (FSAI; one title is 'Director, FSAI Labs'), domain futuresecure.ai, HQ Australia, about 350 people in Apollo. It is not a small start-up: it looks like a sizeable AI engineering / consulting firm with APAC and North America teams (many AI Engineers, Executive Directors by sector, an 'IPO Readiness Office'). Medium confidence only because the brief had no description to check against. No CEO, CMO or any marketing-titled person is listed in Apollo, so picks are the COO (senior decision maker), the Executive Director - Growth, the Chief Corporate Officer and the Senior Director of Creative Operations (closest to marketing / brand; weaker fit). Backup is the regional EVP North America. futuresecureai.com returns nothing; fsai.com is an unrelated insurance agency."
+ },
+ "Databento": {
+  "user_name": "Databento",
+  "brand": "Databento",
+  "domain": "databento.com",
+  "apollo_org": "Databento",
+  "apollo_org_hq": "Utah, US (confirmed with Apollo HQ filter)",
+  "confidence": "high",
+  "keep_bad": [],
+  "picks": [
+   {
+    "id": "66ec8ff84749510001fec69c",
+    "first_name": "Christina",
+    "last_name_obfuscated": "Qi",
+    "title": "Chief Executive Officer",
+    "org": "Databento"
+   }
+  ],
+  "backups": [],
+  "note": "1 of 5. Small company (42 people in Apollo, 10 at director level or above). Only the CEO fits. No CMO, head of marketing, CRO or CCO exists in Apollo; the marketing team listed is junior (Marketing Associate Andrew Yo***g, id 61f3cd6670d93f000123cc30; Product Marketing Specialist Alaina Fu***g, id 613874d16ead9700019d311b; both have emails) and was not picked. Other seniors are business development, finance, HR, engineering or exchange relationships, which the brief excludes."
+ },
+ "Ramon.Space": {
+  "user_name": "Ramon.Space",
+  "brand": "Ramon.Space",
+  "domain": "ramon.space",
+  "apollo_org": "Ramon.Space",
+  "apollo_org_hq": "United States (Apollo HQ filter matches United States, not Israel and not California; city not returned)",
+  "confidence": "high",
+  "keep_bad": [],
+  "picks": [
+   {
+    "id": "66f84adf7a9fc20001182e27",
+    "first_name": "Avi",
+    "last_name_obfuscated": "Sh***i",
+    "title": "CEO",
+    "org": "Ramon.Space"
+   },
+   {
+    "id": "66fa6444e1e04c0001bf4fee",
+    "first_name": "Ami",
+    "last_name_obfuscated": "Li***z",
+    "title": "Director of Marketing",
+    "org": "Ramon.Space"
+   },
+   {
+    "id": "5570aa99736964565da41900",
+    "first_name": "Stefano",
+    "last_name_obfuscated": "Po***i",
+    "title": "Chief Commercial Officer",
+    "org": "Ramon.Space"
+   },
+   {
+    "id": "5713b924f3e5bb54c5f6211f",
+    "first_name": "Martin",
+    "last_name_obfuscated": "Po***r",
+    "title": "Chief Delivery Officer and General Manager",
+    "org": "Ramon.Space"
+   }
+  ],
+  "backups": [],
+  "note": "4 of 5. CEO, the only marketing leader (Director of Marketing), the Chief Commercial Officer and the Chief Delivery Officer / General Manager. No other marketing, brand or communications people in Apollo. The two VPs of Business Development and Sales are sales roles and were not picked."
+ },
+ "Tiberius Aerospace": {
+  "user_name": "Tiberius Aerospace",
+  "brand": "Tiberius Aerospace",
+  "domain": "tiberius.com",
+  "apollo_org": "Tiberius Aerospace",
+  "apollo_org_hq": "United States (Apollo HQ filter matches United States, not United Kingdom; city not returned)",
+  "confidence": "high",
+  "keep_bad": [],
+  "picks": [
+   {
+    "id": "60e68e5e604a930001eafbd7",
+    "first_name": "Chad",
+    "last_name_obfuscated": "St***g",
+    "title": "Founder, CEO",
+    "org": "Tiberius Aerospace"
+   },
+   {
+    "id": "5fde83f098fa970001e67cbf",
+    "first_name": "Marisa",
+    "last_name_obfuscated": "Li***t",
+    "title": "Vice President, Growth Americas",
+    "org": "Tiberius Aerospace"
+   }
+  ],
+  "backups": [],
+  "note": "2 of 5. 39 people in Apollo, mostly engineers. Founder / CEO picked first. No global marketing, brand or communications person exists in Apollo, so the second pick is a REGIONAL fallback: Vice President, Growth Americas (growth here may mean business growth rather than marketing). Not picked: Head of Strategy, Programmes and Operations EMEA (regional operations), BD Manager Partnerships and Integration (business development), CTO, Chief People Officer. EMEA Strategic Partnerships Manager has no email. Domain is tiberius.com (tiberiusaerospace.com returns nothing)."
+ },
+ "iMENA": {
+  "user_name": "iMENA",
+  "brand": "iMENA",
+  "domain": "imena.com",
+  "apollo_org": "iMENA Group",
+  "apollo_org_hq": "Saudi Arabia (confirmed with Apollo HQ filter)",
+  "confidence": "high",
+  "keep_bad": [],
+  "picks": [
+   {
+    "id": "66eef0ac67782600013a6040",
+    "first_name": "Khaldoon",
+    "last_name_obfuscated": "Ta***a",
+    "title": "Founder & MD",
+    "org": "iMENA Group"
+   }
+  ],
+  "backups": [],
+  "note": "1 of 5. Holding company with only 15 people in Apollo. Only the Founder & Managing Director fits and has an email. Others are finance (CFO, FP&A), investment managers, or have no email (a Vice President; a digital marketing person). Namesakes ignored: iMENA Solutions, IMENA Global Partners, Imena Film Academy. The group's portfolio brands (for example OpenSooq, Jeeny) have their own Apollo records and were not searched."
+ },
+ "Aroma-Zone": {
+  "user_name": "Aroma-Zone",
+  "brand": "Aroma-Zone",
+  "domain": "aroma-zone.com",
+  "apollo_org": "Aroma-Zone",
+  "apollo_org_hq": "France (confirmed with Apollo HQ filter)",
+  "confidence": "high",
+  "keep_bad": [],
+  "picks": [
+   {
+    "id": "66f1384ed9a6aa0001f9a830",
+    "first_name": "Pierre",
+    "last_name_obfuscated": "Va***n",
+    "title": "President",
+    "org": "Aroma-Zone"
+   },
+   {
+    "id": "66f5158d78e10800012cce09",
+    "first_name": "Anne-Lise",
+    "last_name_obfuscated": "Le***e",
+    "title": "Head of Marketing",
+    "org": "Aroma-Zone"
+   },
+   {
+    "id": "6114f406dc1414000179a0b9",
+    "first_name": "Heloise",
+    "last_name_obfuscated": "Du***s",
+    "title": "Directrice Marque et Expérience Client",
+    "org": "Aroma-Zone"
+   },
+   {
+    "id": "69834e165688b90001da9a19",
+    "first_name": "Hannah",
+    "last_name_obfuscated": "Be***s",
+    "title": "Head of Communication & Brand Activation",
+    "org": "Aroma-Zone"
+   },
+   {
+    "id": "6ad210256ef5d100016dbaae",
+    "first_name": "Laurent",
+    "last_name_obfuscated": "Lu***n",
+    "title": "Chief Operating Officer - COO",
+    "org": "Aroma-Zone"
+   }
+  ],
+  "backups": [
+   {
+    "id": "57de1272a6da987b3508eb4e",
+    "first_name": "Angelique",
+    "last_name_obfuscated": "Tu***e",
+    "title": "Head of Content",
+    "org": "Aroma-Zone"
+   },
+   {
+    "id": "66f8a3c0a817d600019156da",
+    "first_name": "Penny",
+    "last_name_obfuscated": "Gr***a",
+    "title": "Managing Director UK & Ireland",
+    "org": "Aroma-Zone"
+   }
+  ],
+  "note": "5 of 5. The CEO (Sabrina Ro***t, id 6afc2680b741bd00019fdcaa) has no email in Apollo, so the senior decision maker picked first is the President; the COO is the fifth pick because no CRO / CCO is listed. Marketing: Head of Marketing, Brand & Customer Experience Director, Head of Communication & Brand Activation (all head-office roles). Backups: Head of Content; Managing Director UK & Ireland (regional). Head of Image & Branding has no email."
+ },
+ "Onodrim Industries": {
+  "user_name": "Onodrim Industries",
+  "brand": "Onodrim Industries",
+  "domain": "onodrim.com",
+  "apollo_org": "Onodrim Industries",
+  "apollo_org_hq": "United States (country only in Apollo; no city on file; Netherlands, Lithuania, Germany and UK filters return none)",
+  "confidence": "medium",
+  "keep_bad": [],
+  "picks": [
+   {
+    "id": "54aaa4097468692366663910",
+    "first_name": "Aistis",
+    "last_name_obfuscated": "Si***s",
+    "title": "Co-Founder and CEO",
+    "org": "Onodrim Industries"
+   },
+   {
+    "id": "63fd92ea94bb9100015ac320",
+    "first_name": "Alexander",
+    "last_name_obfuscated": "Bl***g",
+    "title": "Co-Founder and CTO",
+    "org": "Onodrim Industries"
+   }
+  ],
+  "backups": [
+   {
+    "id": "670135c523d9e00001cc1cfa",
+    "first_name": "Oliver",
+    "last_name_obfuscated": "Ma***l",
+    "title": "Head of Strategy",
+    "org": "Onodrim Industries"
+   }
+  ],
+  "note": "2 of 5. Identified from Apollo: org named exactly 'Onodrim Industries', domain onodrim.com, 10 people, a defence technology start-up judging by titles (Defence Technology Intern, Founding Engineer, VP Production, Corporate Development Lead). Medium confidence only because the brief had no description to check against; it is the only org with this name. Picked both co-founders (CEO and CTO). No marketing staff exist. Backup: Head of Strategy. Corporate Development Lead (Andrius Bu***s, id 54a2aa817468693825f68134, has email) not picked."
+ },
+ "Simplexity Robotics": {
+  "user_name": "Simplexity Robotics",
+  "brand": "Simplexity Robotics",
+  "domain": "",
+  "apollo_org": "",
+  "apollo_org_hq": "",
+  "confidence": "low",
+  "keep_bad": [],
+  "picks": [],
+  "backups": [],
+  "note": "0 of 5. NOT FOUND in Apollo: no organisation or person matches 'Simplexity Robotics' by name, and guessed domains (simplexityrobotics.com / .ai / .cn, simplexity-robotics.com, simplexity.ai, simplexity.io, simplexity.tech and similar) return nothing. The nearest names are different companies and were NOT picked: Simplexity Product Development, Inc. (US engineering design consultancy with a robotics tag; CEO Dorota Sh***l, id 66f687f4b6489200010a8cf3, has email) and Simplexity Partners (small advisory firm). Need the company's website or country from the user to go further."
+ },
+ "ICON (3D-printed construction)": {
+  "user_name": "ICON (3D-printed construction)",
+  "brand": "ICON",
+  "domain": "iconbuild.com",
+  "apollo_org": "ICON",
+  "apollo_org_hq": "Texas, US (confirmed with Apollo HQ filter)",
+  "confidence": "high",
+  "keep_bad": [],
+  "picks": [
+   {
+    "id": "690cf1a2e1b5dc0001e22f74",
+    "first_name": "Jason",
+    "last_name_obfuscated": "Ba***d",
+    "title": "CEO",
+    "org": "ICON"
+   }
+  ],
+  "backups": [],
+  "note": "1 of 2. CEO and co-founder Jason Ballard is in Apollo with an email and is the pick, as the user asked. Keep contacts checked: all three (Sr. Director of Marketing, President, Division President - ICON Build) are on iconbuild.com and appear in this Apollo org, so keep_bad is empty. No second pick: apart from the kept Sr. Director of Marketing there is no marketing, brand, communications, CRO or CCO leader with an email (Creative Services Director and a Creative Director have no email; Principal Designer, Marketing is not a leader; business development and national accounts roles are excluded by the brief). Warning: the Apollo record named 'ICON' on this domain also carries people from other companies called ICON (for example ICON plc clinical research, a second 'CEO' Jonathan Wa***d, an 'EVP, Managing Director', a 'COO & Lead Designer'); these were ignored."
+ },
+ "Stalwart Law Group": {
+  "user_name": "Stalwart Law Group",
+  "brand": "Stalwart Law Group",
+  "domain": "stalwartlaw.com",
+  "apollo_org": "Stalwart Law Group",
+  "apollo_org_hq": "California, US (confirmed with Apollo HQ filter)",
+  "confidence": "high",
+  "keep_bad": [],
+  "picks": [
+   {
+    "id": "54a7a9e17468696b7f5ebf49",
+    "first_name": "Elizabeth",
+    "last_name_obfuscated": "Te***a",
+    "title": "Partner & Attorney",
+    "org": "Stalwart Law Group"
+   }
+  ],
+  "backups": [],
+  "note": "1 of 5. Law firm with 22 people in Apollo, almost all attorneys, and no marketing staff. Only one partner has an email (Partner & Attorney), picked as the senior decision maker. The other two Partners and the Chief Operating Officer have no email in Apollo. Trial lawyers / attorneys without a partner title were not picked."
+ },
+ "Marrow Therapeutics": {
+  "user_name": "Marrow Therapeutics",
+  "brand": "Marrow Therapeutics",
+  "domain": "",
+  "apollo_org": "",
+  "apollo_org_hq": "",
+  "confidence": "low",
+  "keep_bad": [],
+  "picks": [],
+  "backups": [],
+  "note": "NOT FOUND in Apollo, no picks. Keyword search 'Marrow Therapeutics' returned no organization of that name, and the guessed domains (marrowtx.com, marrowtherapeutics.com, marrow-tx.com, marrowtherapeutics.co) have no people. Nearest names in Apollo, none of which is clearly this company: 'Marrow' (very small company, Founder & CEO Andrew Le***r, id 601108529d729f00017ec811, has an email; it also lists a customer service rep so it does not look like a drug developer), 'DailyRounds / Marrow' (Indian medical-education app), 'Marrow Access Technologies' (US orthopaedic device firm). Need the website, HQ or a named person from the user to identify it."
+ },
+ "Pizza Hut": {
+  "user_name": "Pizza Hut",
+  "brand": "Pizza Hut",
+  "domain": "pizzahut.com",
+  "apollo_org": "Pizza Hut (pizzahut.com) plus Pizza Hut-titled leaders filed under Yum! Brands (yum.com)",
+  "apollo_org_hq": "Plano, Texas, US (Apollo does not return HQ in search; Texas-based corporate staff confirmed with a person-location filter)",
+  "confidence": "high",
+  "keep_bad": [],
+  "picks": [
+   {
+    "id": "66f664ce9bd68a0001a4e474",
+    "first_name": "Shannon",
+    "last_name_obfuscated": "Ga***a",
+    "title": "President, Global & Chief Operating Officer- Pizza Hut",
+    "org": "Yum! Brands"
+   },
+   {
+    "id": "610170fd34c04600014338e4",
+    "first_name": "Kalen",
+    "last_name_obfuscated": "Th***n",
+    "title": "Global Chief Brand Officer Pizza Hut",
+    "org": "Yum! Brands"
+   },
+   {
+    "id": "5c2ee9aef3e5bb4203350eaa",
+    "first_name": "Melissa",
+    "last_name_obfuscated": "Fr***e",
+    "title": "Chief Marketing Officer",
+    "org": "Pizza Hut"
+   },
+   {
+    "id": "66f3f241a768a50001d66d45",
+    "first_name": "Taras",
+    "last_name_obfuscated": "Ma***v",
+    "title": "Global Head of Growth Marketing",
+    "org": "Pizza Hut"
+   },
+   {
+    "id": "5dd8572d07f0f30001d6f38e",
+    "first_name": "Lindsey",
+    "last_name_obfuscated": "Co***m",
+    "title": "Director of Brand Communication",
+    "org": "Pizza Hut"
+   }
+  ],
+  "backups": [
+   {
+    "id": "5bf8db30f3e5bbd45d4089a0",
+    "first_name": "Jennifer",
+    "last_name_obfuscated": "Li***i",
+    "title": "Chief Marketing Officer, Pizza Hut",
+    "org": "Yum! Brands"
+   },
+   {
+    "id": "6801e291dba0a50001aa0bed",
+    "first_name": "Eduardo",
+    "last_name_obfuscated": "Luz",
+    "title": "Board Member and Interim CEO",
+    "org": "Pizza Hut"
+   }
+  ],
+  "note": "Brand-level leaders, not Yum! group. Senior decision maker = Pizza Hut global President & COO (filed under the Yum! Brands record with a Pizza Hut title), then Global Chief Brand Officer, CMO, Global Head of Growth Marketing and Director of Brand Communication. The Apollo 'Pizza Hut' record mixes corporate staff with franchisees and country units, so only people with corporate or global titles were taken. No Pizza Hut CRO/CCO exists. Backups: a second 'CMO, Pizza Hut' (market not stated, may be a regional CMO) and a 'Board Member and Interim CEO' whose unit is unclear (could be a franchise or country business) - check before sending. Country CMOs (Korea, India) skipped."
+ },
+ "Mailchimp": {
+  "user_name": "Mailchimp",
+  "brand": "Mailchimp",
+  "domain": "mailchimp.com",
+  "apollo_org": "Intuit Mailchimp (mailchimp.com); one Mailchimp-titled leader filed under Intuit (intuit.com)",
+  "apollo_org_hq": "Atlanta, Georgia, US (not returned by Apollo search; taken from input)",
+  "confidence": "high",
+  "keep_bad": [],
+  "picks": [
+   {
+    "id": "66f5c365653f030001629b72",
+    "first_name": "Adam",
+    "last_name_obfuscated": "An***r",
+    "title": "Chief Sales Officer - Intuit Mailchimp, VP Platform Solutions",
+    "org": "Intuit"
+   },
+   {
+    "id": "66f188e66316cc0001ed7c03",
+    "first_name": "Brian",
+    "last_name_obfuscated": "Co***e",
+    "title": "VP of Marketing",
+    "org": "Intuit Mailchimp"
+   },
+   {
+    "id": "60f70baebe454c00010d9998",
+    "first_name": "Mark",
+    "last_name_obfuscated": "Lo***k",
+    "title": "Senior Director Marketing & Brand - Mailchimp",
+    "org": "Intuit Mailchimp"
+   },
+   {
+    "id": "54ec2c99746869444c25c15e",
+    "first_name": "Jeremy",
+    "last_name_obfuscated": "Jo***s",
+    "title": "Global Head of Creative",
+    "org": "Intuit Mailchimp"
+   },
+   {
+    "id": "67503e40c711f40001dc25e1",
+    "first_name": "Ryan",
+    "last_name_obfuscated": "Tu***o",
+    "title": "Marketing Director",
+    "org": "Intuit Mailchimp"
+   }
+  ],
+  "backups": [
+   {
+    "id": "55ca9645f3e5bb0b5c007ca7",
+    "first_name": "Allen",
+    "last_name_obfuscated": "Mao",
+    "title": "Head of Influencer Strategy, QuickBooks & Mailchimp",
+    "org": "Intuit"
+   },
+   {
+    "id": "54a593c87468693442203b9c",
+    "first_name": "Katy",
+    "last_name_obfuscated": "Pi***r",
+    "title": "Head of Marketing, APAC",
+    "org": "Intuit Mailchimp"
+   }
+  ],
+  "note": "Brand-level (Mailchimp) leaders, not Intuit group. No general manager / head of Mailchimp or CEO is listed in Apollo under mailchimp.com or with a Mailchimp title under intuit.com; the most senior Mailchimp decision maker with an email is the Chief Sales Officer - Intuit Mailchimp (commercial head, filed under Intuit), picked first. Chief Communications Officer (Kate Lee) has no email. A co-founder record still sits on the org but he left after the Intuit acquisition, so not picked. Backup 2 is regional (APAC)."
+ },
+ "COMSOL": {
+  "user_name": "COMSOL",
+  "brand": "COMSOL",
+  "domain": "comsol.com",
+  "apollo_org": "COMSOL, Inc.",
+  "apollo_org_hq": "Burlington, Massachusetts, US (US arm; group parent COMSOL AB is in Stockholm; Apollo search does not return HQ)",
+  "confidence": "high",
+  "keep_bad": [],
+  "picks": [
+   {
+    "id": "54ebb9b8746869444cf1d516",
+    "first_name": "Pasi",
+    "last_name_obfuscated": "Ma***a",
+    "title": "Executive Vice President",
+    "org": "COMSOL, Inc."
+   },
+   {
+    "id": "6722eddfc06c47000113715a",
+    "first_name": "Bernt",
+    "last_name_obfuscated": "Ni***n",
+    "title": "Sr VP of Marketing",
+    "org": "COMSOL, Inc."
+   },
+   {
+    "id": "61507939f7e8d300010e81bf",
+    "first_name": "Oscar",
+    "last_name_obfuscated": "Li***k",
+    "title": "Vice President of Marketing",
+    "org": "COMSOL, Inc."
+   },
+   {
+    "id": "55dea471f3e5bb7775004249",
+    "first_name": "Aditi",
+    "last_name_obfuscated": "Ka***r",
+    "title": "VP, Marketing and L&D",
+    "org": "COMSOL, Inc."
+   },
+   {
+    "id": "64107474e915be000198c540",
+    "first_name": "Margaret",
+    "last_name_obfuscated": "Le***s",
+    "title": "VP of Creative and Web",
+    "org": "COMSOL, Inc."
+   }
+  ],
+  "backups": [
+   {
+    "id": "60f96631303cb70001e6c863",
+    "first_name": "Lauren",
+    "last_name_obfuscated": "Sa***e",
+    "title": "Marketing and Events Director",
+    "org": "COMSOL, Inc."
+   },
+   {
+    "id": "54a6406d7468692cf06cfecd",
+    "first_name": "Xiaoyin",
+    "last_name_obfuscated": "He",
+    "title": "Executive Vice President",
+    "org": "COMSOL, Inc."
+   }
+  ],
+  "note": "One Apollo record (COMSOL, Inc.) holds the whole group on comsol.com. The CEO/founder is not in Apollo under this domain (searched CEO, president, founder titles and c-suite seniority: only CFOs came back), so the senior decision maker is an Executive Vice President, picked first. Marketing is well covered (Sr VP Marketing, two VPs Marketing, VP Creative and Web). No CRO/CCO; VPs of Sales exist but were not picked. Country managing directors (UK, France, Germany, Italy, China) skipped as regional."
+ },
+ "Signal AI": {
+  "user_name": "Signal AI",
+  "brand": "Signal AI",
+  "domain": "signal-ai.com",
+  "apollo_org": "Signal AI",
+  "apollo_org_hq": "London, UK (not returned by Apollo search; taken from input)",
+  "confidence": "high",
+  "keep_bad": [],
+  "picks": [
+   {
+    "id": "66eb3e2f8d46dd0001b898a0",
+    "first_name": "David",
+    "last_name_obfuscated": "Be***n",
+    "title": "CEO",
+    "org": "Signal AI"
+   },
+   {
+    "id": "66f9fcaa83ba0c000176f23a",
+    "first_name": "Margo",
+    "last_name_obfuscated": "Co***y",
+    "title": "Head of Product Marketing",
+    "org": "Signal AI"
+   },
+   {
+    "id": "67ab5a73d341ed00015c0baf",
+    "first_name": "Hannah",
+    "last_name_obfuscated": "Ha***t",
+    "title": "Global Field Marketing Lead",
+    "org": "Signal AI"
+   },
+   {
+    "id": "60bd0748c7c2bf00014d3270",
+    "first_name": "Michael",
+    "last_name_obfuscated": "Go***s",
+    "title": "Vice President of Global Sales",
+    "org": "Signal AI"
+   },
+   {
+    "id": "66ec646c02d2a50001b9e226",
+    "first_name": "Stephen",
+    "last_name_obfuscated": "Lu***s",
+    "title": "Chief Operating Officer",
+    "org": "Signal AI"
+   }
+  ],
+  "backups": [
+   {
+    "id": "54a427447468692fa24ba430",
+    "first_name": "Haley",
+    "last_name_obfuscated": "Br***e",
+    "title": "Content Marketing Lead",
+    "org": "Signal AI"
+   },
+   {
+    "id": "6008fbdfdea6f60001927e45",
+    "first_name": "Karlie",
+    "last_name_obfuscated": "Sa***i",
+    "title": "Chief Customer Officer",
+    "org": "Signal AI"
+   }
+  ],
+  "note": "CEO first. Signal AI has no CMO in Apollo: the Interim Head of Marketing (Dan Fa***y) has no email, so marketing picks are the Head of Product Marketing and the Global Field Marketing Lead (lead level, not head). No CRO/CCO title exists; the VP of Global Sales is the revenue head and stands in for that slot. COO added as a second decision maker to reach 5."
+ },
+ "Stahl": {
+  "user_name": "Stahl",
+  "brand": "Stahl",
+  "domain": "stahl.com",
+  "apollo_org": "Stahl",
+  "apollo_org_hq": "Waalwijk, Netherlands (not returned by Apollo search; group-titled and Europe-based executives confirmed with a person-location filter)",
+  "confidence": "high",
+  "keep_bad": [],
+  "picks": [
+   {
+    "id": "66fc3dcb923029000102e83e",
+    "first_name": "John",
+    "last_name_obfuscated": "Sc***s",
+    "title": "Chief Operating Officer",
+    "org": "Stahl"
+   },
+   {
+    "id": "5fc7d8b7bf06260001ac08e2",
+    "first_name": "Laura",
+    "last_name_obfuscated": "Wi***n",
+    "title": "Group Director Marketing and Sustainability at Stahl",
+    "org": "Stahl"
+   },
+   {
+    "id": "68d8c74718e42e00011ce040",
+    "first_name": "Alexander",
+    "last_name_obfuscated": "Sc***e",
+    "title": "Global Marketing Director",
+    "org": "Stahl"
+   },
+   {
+    "id": "61011159dffbbb000116aa6f",
+    "first_name": "Anne",
+    "last_name_obfuscated": "Br***k",
+    "title": "Head of Corporate Communications & Growth Marketing",
+    "org": "Stahl"
+   }
+  ],
+  "backups": [
+   {
+    "id": "66f26cb09e4b1e0001396e67",
+    "first_name": "Paolo",
+    "last_name_obfuscated": "Ba***j",
+    "title": "Chief Innovation & Corporate Development Officer",
+    "org": "Stahl"
+   },
+   {
+    "id": "54a2662c74686930c2a9fa1f",
+    "first_name": "Sylvia",
+    "last_name_obfuscated": "Va***n",
+    "title": "External Communications Manager",
+    "org": "Stahl"
+   }
+  ],
+  "note": "4 of 5. The CEO is not in Apollo under stahl.com (searched CEO / chief executive titles, c-suite seniority and the keyword 'Stahl Holdings'); the Europe-based COO is the senior decision maker, picked first. Only three global marketing / communications leaders have emails and there is no CRO/CCO. The Apollo 'Stahl' record also carries a few people from unrelated companies called Stahl (a US 'President', a US VP Sales, small owners) - these were excluded. Backups are a C-level corporate development officer (not marketing) and a manager-level communications contact."
+ },
+ "Ziehl-Abegg": {
+  "user_name": "Ziehl-Abegg",
+  "brand": "Ziehl-Abegg",
+  "domain": "ziehl-abegg.com",
+  "apollo_org": "ZIEHL-ABEGG SE",
+  "apollo_org_hq": "Kuenzelsau, Germany (not returned by Apollo search; taken from input)",
+  "confidence": "high",
+  "keep_bad": [],
+  "picks": [
+   {
+    "id": "66f6015f2d94160001ef6830",
+    "first_name": "Joachim",
+    "last_name_obfuscated": "Ley",
+    "title": "CEO",
+    "org": "ZIEHL-ABEGG SE"
+   },
+   {
+    "id": "6347c2f207bd9c0001811bb2",
+    "first_name": "Andreas",
+    "last_name_obfuscated": "Ba***r",
+    "title": "Bereichsleiter Marketing",
+    "org": "ZIEHL-ABEGG SE"
+   },
+   {
+    "id": "624e7e9374c6550001d40568",
+    "first_name": "Rainer",
+    "last_name_obfuscated": "Gr***l",
+    "title": "Director Global Communications",
+    "org": "ZIEHL-ABEGG SE"
+   },
+   {
+    "id": "54ec51dc74686943116c1c7f",
+    "first_name": "Steffen",
+    "last_name_obfuscated": "Ha***n",
+    "title": "Head of Digital Communication",
+    "org": "ZIEHL-ABEGG SE"
+   }
+  ],
+  "backups": [
+   {
+    "id": "54a404797468692fa2e89a25",
+    "first_name": "Juergen",
+    "last_name_obfuscated": "Al***g",
+    "title": "Senior Vice President Public Affairs",
+    "org": "ZIEHL-ABEGG SE"
+   },
+   {
+    "id": "66f9ea6761199700018542af",
+    "first_name": "Daniel",
+    "last_name_obfuscated": "Me***e",
+    "title": "Vice President Corporate Strategy, Market Segment Management and Project Management",
+    "org": "ZIEHL-ABEGG SE"
+   }
+  ],
+  "note": "4 of 5. CEO first, then the head of the marketing division (Bereichsleiter Marketing), Director Global Communications and Head of Digital Communication. No chief sales / commercial officer is listed in Apollo and no other global marketing or brand leader has an email; a 'Former Vice President Global Sales' and regional presidents (APAC, Americas) were skipped. Backups are public affairs and corporate strategy, not marketing."
+ },
+ "Theramex": {
+  "user_name": "Theramex",
+  "brand": "Theramex",
+  "domain": "theramex.com",
+  "apollo_org": "Theramex",
+  "apollo_org_hq": "London, UK (not returned by Apollo search; taken from input)",
+  "confidence": "high",
+  "keep_bad": [],
+  "picks": [
+   {
+    "id": "60b5f555e222590001074571",
+    "first_name": "Robert",
+    "last_name_obfuscated": "St***t",
+    "title": "Chief Executive Officer",
+    "org": "Theramex"
+   },
+   {
+    "id": "54a809bf7468696b7f16b95c",
+    "first_name": "Sarah",
+    "last_name_obfuscated": "Ph***h",
+    "title": "Vice President Global Marketing",
+    "org": "Theramex"
+   },
+   {
+    "id": "60872dc1ce45020001852290",
+    "first_name": "Dennis",
+    "last_name_obfuscated": "De***r",
+    "title": "Chief Commercial Officer (CCO)",
+    "org": "Theramex"
+   },
+   {
+    "id": "54a2f89c7468692e716cd24a",
+    "first_name": "Carolina",
+    "last_name_obfuscated": "Sp***n",
+    "title": "Marketing & Commercial Excellence Director",
+    "org": "Theramex"
+   },
+   {
+    "id": "60fc07289499310001aec4b5",
+    "first_name": "Gavin",
+    "last_name_obfuscated": "Ma***n",
+    "title": "President - Global Fertility Franchise",
+    "org": "Theramex"
+   }
+  ],
+  "backups": [
+   {
+    "id": "66f11fecef388c00012590f3",
+    "first_name": "Maria",
+    "last_name_obfuscated": "Dr***s",
+    "title": "Marketing Commercial Operations BI Director",
+    "org": "Theramex"
+   },
+   {
+    "id": "68d4c7d5c04df200014ace9b",
+    "first_name": "Lisa",
+    "last_name_obfuscated": "Fo***d",
+    "title": "Head of Marketing - UK & IRE",
+    "org": "Theramex"
+   }
+  ],
+  "note": "CEO first, then VP Global Marketing, Chief Commercial Officer and the Marketing & Commercial Excellence Director. Fifth pick is the President of the Global Fertility Franchise (global business-unit head) because no further global marketing, brand or communications leader is listed. Backup 2 is regional (UK & Ireland)."
+ },
+ "PGP Glass": {
+  "user_name": "PGP Glass",
+  "brand": "PGP Glass",
+  "domain": "pgpfirst.com",
+  "apollo_org": "PGP Glass Ltd.",
+  "apollo_org_hq": "Mumbai, India (not returned by Apollo search; taken from input)",
+  "confidence": "high",
+  "keep_bad": [],
+  "picks": [
+   {
+    "id": "6100fd55a7e0cd00017f38aa",
+    "first_name": "Vipul",
+    "last_name_obfuscated": "Vij",
+    "title": "Chief Operations Officer",
+    "org": "PGP Glass Ltd."
+   },
+   {
+    "id": "6062d2753311670001f5f194",
+    "first_name": "Sanjay",
+    "last_name_obfuscated": "Ja***n",
+    "title": "Chief Marketing Officer",
+    "org": "PGP Glass Ltd."
+   },
+   {
+    "id": "54a26c8074686930c297f621",
+    "first_name": "Hemal",
+    "last_name_obfuscated": "Th***r",
+    "title": "Chief Marketing Officer",
+    "org": "PGP Glass Ltd."
+   },
+   {
+    "id": "672a85b76fb50300015982a2",
+    "first_name": "Abhishek",
+    "last_name_obfuscated": "Aw***i",
+    "title": "Head - India Retail Marketing",
+    "org": "PGP Glass Ltd."
+   }
+  ],
+  "backups": [
+   {
+    "id": "55d6a47ff3e5bb5c01009840",
+    "first_name": "Brad",
+    "last_name_obfuscated": "Ba***r",
+    "title": "Director Sales & Marketing",
+    "org": "PGP Glass Ltd."
+   },
+   {
+    "id": "54a51f087468692abfdfa97e",
+    "first_name": "Shamoni",
+    "last_name_obfuscated": "Mu***y",
+    "title": "Brand & Narrative Strategist",
+    "org": "PGP Glass Ltd."
+   }
+  ],
+  "note": "4 of 5. No CEO, managing director or vice chairman is listed in Apollo under pgpfirst.com (searched those titles and c-suite seniority); the Chief Operations Officer is the senior decision maker, picked first. Two people carry the title Chief Marketing Officer (probably one per division or one stale) - both picked. Fourth pick is a REGIONAL fallback (India retail marketing head, the home market) because no other global marketing or brand leader has an email. Backup 1 is a combined sales and marketing director whose region is not stated (likely a regional arm); backup 2 is not head level."
+ },
+ "InPost": {
+  "user_name": "InPost",
+  "brand": "InPost",
+  "domain": "inpost.eu",
+  "apollo_org": "InPost Group and InPost (two Apollo records, found via inpost.eu and inpost.pl)",
+  "apollo_org_hq": "Krakow, Poland (not returned by Apollo search; taken from input)",
+  "confidence": "high",
+  "keep_bad": [],
+  "picks": [
+   {
+    "id": "60c0b85521385d0001a181fe",
+    "first_name": "Dariusz",
+    "last_name_obfuscated": "Li***i",
+    "title": "InPost Group COO, VP Operations",
+    "org": "InPost"
+   },
+   {
+    "id": "60cf8993671f930001361591",
+    "first_name": "Izabela",
+    "last_name_obfuscated": "Ka***a",
+    "title": "VP Chief Marketing and ESG Officer",
+    "org": "InPost Group"
+   },
+   {
+    "id": "66f7231edb3d4c0001736e02",
+    "first_name": "Peter",
+    "last_name_obfuscated": "Bl***n",
+    "title": "Chief Marketing Officer",
+    "org": "InPost"
+   },
+   {
+    "id": "60b0996fd5a9e5000153c371",
+    "first_name": "Beniamin",
+    "last_name_obfuscated": "Sc***n",
+    "title": "Marketing Director - International Markets",
+    "org": "InPost Group"
+   },
+   {
+    "id": "5e8578a0fc649e000109c515",
+    "first_name": "Marcin",
+    "last_name_obfuscated": "Ka***k",
+    "title": "Head of Marketing and Activation Team",
+    "org": "InPost"
+   }
+  ],
+  "backups": [
+   {
+    "id": "671a3de54ba90500016e6553",
+    "first_name": "Damian",
+    "last_name_obfuscated": "Ni***i",
+    "title": "Wiceprezes ds. Sprzedaży / VP Sales",
+    "org": "InPost"
+   }
+  ],
+  "note": "The founder-CEO is not listed in Apollo under inpost.eu / inpost.pl (searched CEO, founder, president titles); the Group COO is the senior decision maker, picked first. A 'Founder' record on the org is not the known founder and was skipped. Group Chief Marketing and ESG Officer is the global marketing head. The second 'Chief Marketing Officer' sits on the plain 'InPost' record and his market is not stated - he may be a country CMO (for example UK), check before sending. Chief Commercial Officer (Michal Lis) has no email. Only one backup: a board-level VP Sales."
+ },
+ "Cary Group": {
+  "user_name": "Cary Group",
+  "brand": "Cary Group",
+  "domain": "carygroup.com",
+  "apollo_org": "Cary Group",
+  "apollo_org_hq": "Stockholm, Sweden (not returned by Apollo search; taken from input)",
+  "confidence": "high",
+  "keep_bad": [],
+  "picks": [
+   {
+    "id": "5b246b9ba6da98e840a85273",
+    "first_name": "Anders",
+    "last_name_obfuscated": "Je***n",
+    "title": "Chief Executive Officer",
+    "org": "Cary Group"
+   },
+   {
+    "id": "61237eb67f438100015bc9e7",
+    "first_name": "Johannes",
+    "last_name_obfuscated": "Li***n",
+    "title": "Group Director Marketing",
+    "org": "Cary Group"
+   },
+   {
+    "id": "5e8f2b2465a1cc0001ed19f6",
+    "first_name": "Helene",
+    "last_name_obfuscated": "Gu***n",
+    "title": "Head of Corporate Communication",
+    "org": "Cary Group"
+   },
+   {
+    "id": "66fa91558a77e7000139105d",
+    "first_name": "Rudolf",
+    "last_name_obfuscated": "Ri***i",
+    "title": "Deputy CEO",
+    "org": "Cary Group"
+   }
+  ],
+  "backups": [
+   {
+    "id": "57e061c8a6da981c55f30be7",
+    "first_name": "Jan",
+    "last_name_obfuscated": "Li***g",
+    "title": "Managing Director",
+    "org": "Cary Group"
+   },
+   {
+    "id": "66f829d5f16f7a0001ab959e",
+    "first_name": "Niklas",
+    "last_name_obfuscated": "He***n",
+    "title": "CTO & Group Director Operations and Business Development",
+    "org": "Cary Group"
+   }
+  ],
+  "note": "4 of 5. CEO first, then Group Director Marketing, Head of Corporate Communication and the Deputy CEO. Only 22 senior people are listed and there is no further group marketing or brand leader and no CRO/CCO. Backups: a managing director (probably a country business) and the group operations / business development director - neither is marketing."
+ },
+ "Canaccord Genuity Wealth Management (UK & Crown Dependencies)": {
+  "user_name": "Canaccord Genuity Wealth Management (UK & Crown Dependencies)",
+  "brand": "Canaccord Genuity Wealth Management",
+  "domain": "canaccordgenuity.com",
+  "apollo_org": "Canaccord Wealth",
+  "apollo_org_hq": "UK (Apollo shows a country and city but the search does not return them; London per input)",
+  "confidence": "high",
+  "keep_bad": [],
+  "picks": [
+   {
+    "id": "60e1238dcb6731000105057e",
+    "first_name": "David",
+    "last_name_obfuscated": "Es***i",
+    "title": "Chief Executive Officer",
+    "org": "Canaccord Wealth"
+   },
+   {
+    "id": "60e123c91b07590001a0cfc9",
+    "first_name": "Jane",
+    "last_name_obfuscated": "Pa***y",
+    "title": "Group Chief Marketing Officer",
+    "org": "Canaccord Wealth"
+   },
+   {
+    "id": "57d3b621a6da9853ee90215a",
+    "first_name": "Nick",
+    "last_name_obfuscated": "Ho***s",
+    "title": "Chief Marketing Officer",
+    "org": "Canaccord Wealth"
+   },
+   {
+    "id": "678786aa54b0590001cd0dc7",
+    "first_name": "Tom",
+    "last_name_obfuscated": "La***e",
+    "title": "Group Chief Commercial Officer",
+    "org": "Canaccord Wealth"
+   },
+   {
+    "id": "5b663b32324d447809c03c46",
+    "first_name": "Andy",
+    "last_name_obfuscated": "Fi***h",
+    "title": "CEO, International",
+    "org": "Canaccord Wealth"
+   }
+  ],
+  "backups": [
+   {
+    "id": "5fc9473b234a1f0001846c52",
+    "first_name": "Nadine",
+    "last_name_obfuscated": "Mi***r",
+    "title": "Managing Director, Global Head of Marketing & Communications",
+    "org": "Canaccord Genuity Group Inc."
+   }
+  ],
+  "note": "Apollo holds the UK wealth business as its own record, 'Canaccord Wealth' (the current name of Canaccord Genuity Wealth Management UK & Crown Dependencies), separate from the Canadian parent 'Canaccord Genuity Group Inc.'; it was found through the group domains canaccordgenuity.com / canaccord.com (canaccordwealth.com has no Apollo people). All five picks are on the Canaccord Wealth record: its CEO first, Group CMO, a second CMO (two people carry a CMO title - one may be out of date), Group Chief Commercial Officer and the CEO, International (the Crown Dependencies business). Parent-group CEOs were not picked. Backup is the parent group's global head of marketing and communications (parent level, use only if needed)."
+ },
+ "Desotec": {
+  "user_name": "Desotec",
+  "brand": "Desotec",
+  "domain": "desotec.com",
+  "apollo_org": "DESOTEC",
+  "apollo_org_hq": "Roeselare, Belgium (not returned by Apollo search; taken from input)",
+  "confidence": "high",
+  "keep_bad": [],
+  "picks": [
+   {
+    "id": "60dc37984c012500014a79ce",
+    "first_name": "Mark",
+    "last_name_obfuscated": "Th***s",
+    "title": "Chief Executive Officer",
+    "org": "DESOTEC"
+   },
+   {
+    "id": "64a9ce043b7b3f0001b20f30",
+    "first_name": "Sarah",
+    "last_name_obfuscated": "Ca***e",
+    "title": "Global Head of Corporate Communications",
+    "org": "DESOTEC"
+   },
+   {
+    "id": "66f62f9d2e45b8000165fb0b",
+    "first_name": "Pieterjan",
+    "last_name_obfuscated": "Go***r",
+    "title": "Chief Operating Officer",
+    "org": "DESOTEC"
+   }
+  ],
+  "backups": [
+   {
+    "id": "57d993b6a6da98721eb7797e",
+    "first_name": "Sebastine",
+    "last_name_obfuscated": "Uj***h",
+    "title": "President | Scaling Circular Filtration Solutions | Commercial & Operational Growth Leader",
+    "org": "DESOTEC"
+   },
+   {
+    "id": "5d4f658480f93e1cfd4b8d2e",
+    "first_name": "Florent",
+    "last_name_obfuscated": "Le***e",
+    "title": "Marketing Manager",
+    "org": "DESOTEC"
+   }
+  ],
+  "note": "3 of 5. CEO first, then the Global Head of Corporate Communications and the COO. Desotec has no CMO, head of marketing or chief commercial officer with an email in Apollo: marketing staff are manager level only (two Marketing Managers, a Brand Marketeer) and the Commercial Director Europe has no email. Regional business directors (Benelux, DACH, UK, US, France, Nordics) skipped. Backup 1 is a 'President' whose unit is not stated (probably the US business); backup 2 is a marketing manager, below the requested level."
+ },
+ "Flint Group": {
+  "user_name": "Flint Group",
+  "brand": "Flint Group",
+  "domain": "flintgrp.com",
+  "apollo_org": "Flint Group Packaging Solutions",
+  "apollo_org_hq": "Luxembourg per input (Apollo search does not return HQ)",
+  "confidence": "high",
+  "keep_bad": [],
+  "picks": [
+   {
+    "id": "636e37ad35016c0001abee0b",
+    "first_name": "Pepijn",
+    "last_name_obfuscated": "Di***t",
+    "title": "Chief Executive Officer",
+    "org": "Flint Group Packaging Solutions"
+   },
+   {
+    "id": "67389e405a886f0001e542db",
+    "first_name": "Deanna",
+    "last_name_obfuscated": "Kl***d",
+    "title": "Global Director, Brand & Communication",
+    "org": "Flint Group Packaging Solutions"
+   },
+   {
+    "id": "6a3f32ea0714730001aa43e3",
+    "first_name": "Inken",
+    "last_name_obfuscated": "St***r",
+    "title": "Director Marketing and Product Management",
+    "org": "Flint Group Packaging Solutions"
+   },
+   {
+    "id": "6459d15be36a510001c3c35c",
+    "first_name": "Heiner",
+    "last_name_obfuscated": "Kl***s",
+    "title": "CEO Packaging Inks Europe",
+    "org": "Flint Group Packaging Solutions"
+   }
+  ],
+  "backups": [
+   {
+    "id": "624f8146215cc600015d411d",
+    "first_name": "Brent",
+    "last_name_obfuscated": "St***n",
+    "title": "President Asia Pacific",
+    "org": "Flint Group Packaging Solutions"
+   }
+  ],
+  "note": "4 of 5. flintgrp.com resolves to one Apollo record named 'Flint Group Packaging Solutions' (Flint Group's current business). CEO first, then the Global Director Brand & Communication and a Director Marketing and Product Management. Fourth pick is a divisional chief with a REGIONAL remit (CEO Packaging Inks Europe), used because the other global marketing people have no email (Director Global Marketing Jens Zi***n, SVP Global HR and Communications Russell Ta***r, a US Director of Marketing). No CRO/CCO listed. Backup is regional (President Asia Pacific)."
+ },
+ "Infinity Transportation": {
+  "user_name": "Infinity Transportation",
+  "brand": "Infinity Transportation",
+  "domain": "infinityrail.com",
+  "apollo_org": "Infinity Transportation Equipment Leasing",
+  "apollo_org_hq": "Atlanta, Georgia, US per input guess (Apollo search does not return HQ)",
+  "confidence": "medium",
+  "keep_bad": [],
+  "picks": [
+   {
+    "id": "66f6b714a2fa5900016cb3a4",
+    "first_name": "Jeff",
+    "last_name_obfuscated": "Ed***n",
+    "title": "President & CEO",
+    "org": "Infinity Transportation Equipment Leasing"
+   },
+   {
+    "id": "54a43b937468692abf76dd36",
+    "first_name": "Brian",
+    "last_name_obfuscated": "Ot***r",
+    "title": "Chief Commercial Officer",
+    "org": "Infinity Transportation Equipment Leasing"
+   },
+   {
+    "id": "54a20bed7468692e719f0a08",
+    "first_name": "Lee",
+    "last_name_obfuscated": "Ma***i",
+    "title": "Senior Vice President - Sales and Marketing",
+    "org": "Infinity Transportation Equipment Leasing"
+   },
+   {
+    "id": "60f860583bae4a0001dd6e50",
+    "first_name": "James",
+    "last_name_obfuscated": "We***r",
+    "title": "Vice President Sales and Marketing Rail & Intermodal",
+    "org": "Infinity Transportation Equipment Leasing"
+   }
+  ],
+  "backups": [
+   {
+    "id": "54a5e5677468692cf04a4bb1",
+    "first_name": "Jeff",
+    "last_name_obfuscated": "Ml***k",
+    "title": "Director, Sales & Marketing",
+    "org": "Infinity Transportation Equipment Leasing"
+   },
+   {
+    "id": "54a22bb87468692e71dc3e13",
+    "first_name": "Farouk",
+    "last_name_obfuscated": "Ko***i",
+    "title": "Director, Sales and Marketing",
+    "org": "Infinity Transportation Equipment Leasing"
+   }
+  ],
+  "note": "4 of 5, and the company itself is a judgement call. Apollo has at least four different companies with this name: 'Infinity Transportation Equipment Leasing' (rail and intermodal equipment lessor, matched on infinityrail.com), 'Infinity Transportation' (small operator with a President and a CEO listed), 'Infinity Transportation Management' (infinitytransportation.net / .com) and 'Infinity Transportation Inc' (owner-operators). I used the equipment lessor because it is the only one with a full leadership team (President & CEO, CCO, CFO, sales and marketing VPs) and it fits the Atlanta rail-leasing guess; confirm with the user. It has no separate marketing function - marketing sits in combined 'Sales and Marketing' roles, so the SVP and VP of Sales and Marketing are the marketing picks; two Directors of Sales & Marketing are left as backups because they are closer to sales."
+ }
+}

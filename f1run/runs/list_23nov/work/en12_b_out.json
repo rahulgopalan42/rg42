@@ -1,0 +1,276 @@
+{
+ "rows": [
+  {
+   "user_name": "Science Corporation (neurotech)",
+   "brand": "Science Corporation",
+   "people": [
+    {
+     "name": "Darius Shahida",
+     "title": "Chief Strategy Officer",
+     "email": "dariuss@science.xyz",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/dariusshahida",
+     "location": "United States"
+    },
+    {
+     "name": "Matt Helfgott",
+     "title": "Global Marketing & Creative",
+     "email": "matth@science.xyz",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/matthelfgott",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Kylie Alsofrom",
+     "title": "Executive Vice President of Operations",
+     "email": "kyliea@science.xyz",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/kylie-alsofrom-58a32317",
+     "location": "San Francisco, CA, USA"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "user_name": "Sagar Defence Engineering",
+   "brand": "Sagar Defence Engineering",
+   "people": [
+    {
+     "name": "Nikunj Parashar",
+     "title": "Founder",
+     "email": "nikunjp@sagardefence.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/nikunj-parashar-7b249a23",
+     "location": "Shirur, Maharashtra, India"
+    },
+    {
+     "name": "Lakshay Dang",
+     "title": "Co-founder and Chief Technology Officer",
+     "email": "lakshaydang@sagardefence.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/lakshaydang",
+     "location": "Mumbai, Maharashtra, India"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "user_name": "Stark Future",
+   "brand": "Stark Future",
+   "people": [
+    {
+     "name": "Anton Wass",
+     "title": "CEO & Founder",
+     "email": "anton@starkfuture.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/anton-wass-23a9a944",
+     "location": "Sitges, Barcelona, Spain"
+    },
+    {
+     "name": "Morgan Karlsson",
+     "title": "Chief Marketing Officer",
+     "email": "morgan.karlsson@starkfuture.com",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/morgan-karlsson-37386813",
+     "location": "Bunyola, Balearic Islands, Spain"
+    },
+    {
+     "name": "Dennis Nylund",
+     "title": "Chief Revenue Officer (CRO)",
+     "email": "dennis.nylund@starkfuture.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/dennis-nylund-362220170",
+     "location": "Sitges, Barcelona, Spain"
+    },
+    {
+     "name": "Dani Trius",
+     "title": "Sports & Field Marketing Director",
+     "email": "dani.trius@starkfuture.com",
+     "role": "field_marketing",
+     "linkedin": "http://www.linkedin.com/in/danitrius",
+     "location": "Barcelona, Spain"
+    },
+    {
+     "name": "Ben Cobb",
+     "title": "Director of Brand Communications",
+     "email": "benjamin.cobb@starkfuture.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/bdlcobb",
+     "location": "Spain"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "user_name": "Corma",
+   "brand": "Corma",
+   "people": [
+    {
+     "name": "Alon Pluda",
+     "title": "Co-Founder & CEO",
+     "email": "alon@corma-labs.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/alon-pluda-48361b264",
+     "location": "Tel Aviv-Yafo, Israel"
+    },
+    {
+     "name": "Hofit Bata",
+     "title": "Co-Founder",
+     "email": "hofit@corma-labs.com",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/hofit-bata-76280714b",
+     "location": "Israel"
+    }
+   ],
+   "note": "Both co-founders are confirmed at Corma (corma.ai); their verified emails are on corma-labs.com, the company email domain. No marketing staff in Apollo."
+  },
+  {
+   "user_name": "EOS-X Space",
+   "brand": "EOS-X Space",
+   "people": [
+    {
+     "name": "Kemel Kharbachi",
+     "title": "Founder & CEO",
+     "email": "kemel@eosxspace.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/kemel-kharbachi-0767a65b",
+     "location": "United States"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "user_name": "Future Secure AI",
+   "brand": "Future Secure AI",
+   "people": [
+    {
+     "name": "Brendan McKeegan",
+     "title": "Chief Operating Officer",
+     "email": "brendan.mckeegan@futuresecure.ai",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/brendan-mckeegan-25590",
+     "location": "Melbourne VIC, Australia"
+    },
+    {
+     "name": "Nays Baghai",
+     "title": "Senior Director, Creative Operations",
+     "email": "nays.baghai@futuresecure.ai",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/nays-baghai-74b70b87",
+     "location": "Sydney NSW, Australia"
+    },
+    {
+     "name": "Ollie Sloman",
+     "title": "Executive Director - Growth",
+     "email": "ollie.sloman@futuresecure.ai",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/ollie-sloman-07322129",
+     "location": "Sydney NSW, Australia"
+    },
+    {
+     "name": "Andrew Trahair",
+     "title": "Chief Corporate Officer",
+     "email": "andrew.trahair@futuresecure.ai",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/andrew-trahair-1b170312",
+     "location": "New York, NY, USA"
+    }
+   ],
+   "note": "Ollie Sloman (Executive Director - Growth) is tagged cro as the closest revenue / growth role; there is no CRO title. Nays Baghai (Senior Director, Creative Operations) is tagged vp_marketing only as the closest brand / creative role; no marketing-titled person exists, weak fit."
+  },
+  {
+   "user_name": "Databento",
+   "brand": "Databento",
+   "people": [
+    {
+     "name": "Christina Qi",
+     "title": "Chief Executive Officer",
+     "email": "cqi@databento.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/christinaqi",
+     "location": "Salt Lake City, UT, USA"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "user_name": "Ramon.Space",
+   "brand": "Ramon.Space",
+   "people": [
+    {
+     "name": "Avi Shabtai",
+     "title": "CEO",
+     "email": "avi.shabtai@ramon.space",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/avi-shabtai-8214383",
+     "location": "San Francisco, CA, USA"
+    },
+    {
+     "name": "Ami Lifshitz",
+     "title": "Director of Marketing",
+     "email": "ami.lifshitz@ramon.space",
+     "role": "vp_marketing",
+     "linkedin": "http://www.linkedin.com/in/ami-lifshitz",
+     "location": "Israel"
+    },
+    {
+     "name": "Stefano Poli",
+     "title": "Chief Commercial Officer",
+     "email": "stefano.poli@ramon.space",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/stefano-poli-050a074",
+     "location": "Commugny, Vaud, Switzerland"
+    },
+    {
+     "name": "Martin Pointer",
+     "title": "Chief Delivery Officer and General Manager",
+     "email": "martin.pointer@ramon.space",
+     "role": "other",
+     "linkedin": "http://www.linkedin.com/in/martinpointer",
+     "location": "Guildford, Surrey, UK"
+    }
+   ],
+   "note": "Martin Pointer's current employer is listed as Ramon.Space UK (same Apollo company record, UK arm)."
+  },
+  {
+   "user_name": "Tiberius Aerospace",
+   "brand": "Tiberius Aerospace",
+   "people": [
+    {
+     "name": "Chad Steelberg",
+     "title": "Founder, CEO",
+     "email": "chad@tiberius.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/chadsteelberg",
+     "location": "United States"
+    },
+    {
+     "name": "Marisa Lightfoot",
+     "title": "Vice President, Growth Americas",
+     "email": "mlightfoot@tiberius.com",
+     "role": "cro",
+     "linkedin": "http://www.linkedin.com/in/marisa-lightfoot",
+     "location": "Washington, DC, USA"
+    }
+   ],
+   "note": "Marisa Lightfoot (Vice President, Growth Americas) is a REGIONAL role tagged cro as the closest revenue / growth role; her background is business growth, not marketing. She also lists side roles (LoreHQ founder, EY and Tenna advisor) but Tiberius is her primary current employer."
+  },
+  {
+   "user_name": "iMENA",
+   "brand": "iMENA",
+   "people": [
+    {
+     "name": "Khaldoon Tabaza",
+     "title": "Founder & MD",
+     "email": "khaldoon@imena.com",
+     "role": "decision_maker",
+     "linkedin": "http://www.linkedin.com/in/tabaza",
+     "location": "Dubai, United Arab Emirates"
+    }
+   ],
+   "note": ""
+  }
+ ],
+ "credits_used": 25,
+ "balance_after": null
+}

@@ -1,0 +1,354 @@
+[
+ {
+  "user_name": "Science Corporation (neurotech)",
+  "brand": "Science Corporation",
+  "ticker": "",
+  "hq": "Alameda, California, US",
+  "desc": "Neurotechnology company building brain-computer interfaces and a retinal implant (science.xyz); founded by Max Hodak",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "Sagar Defence Engineering",
+  "brand": "Sagar Defence Engineering",
+  "ticker": "",
+  "hq": "Mumbai / Pune, India",
+  "desc": "Indian defence technology firm making unmanned marine and aerial systems",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "Stark Future",
+  "brand": "Stark Future",
+  "ticker": "",
+  "hq": "Barcelona, Spain",
+  "desc": "Electric motocross and off-road motorcycle maker (Stark VARG)",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "Corma",
+  "brand": "Corma",
+  "ticker": "",
+  "hq": "unknown",
+  "desc": "Unclear: could be Corma Inc. (Toronto maker of corrugated plastic pipe machinery) or Corma (Paris software start-up for SaaS and identity access management). Report both orgs you find and pick people for the one that looks larger and better funded; say which",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "EOS-X Space",
+  "brand": "EOS-X Space",
+  "ticker": "",
+  "hq": "Spain",
+  "desc": "Space tourism company using stratospheric balloon capsules",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "Future Secure AI",
+  "brand": "Future Secure AI",
+  "ticker": "",
+  "hq": "unknown",
+  "desc": "Unclear AI / security start-up; identify from Apollo and report",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "Databento",
+  "brand": "Databento",
+  "ticker": "",
+  "hq": "Salt Lake City, Utah, US",
+  "desc": "Market data API provider for trading firms and fintechs",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "Ramon.Space",
+  "brand": "Ramon.Space",
+  "ticker": "",
+  "hq": "Israel / US",
+  "desc": "Space computing hardware and software for satellites",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "Tiberius Aerospace",
+  "brand": "Tiberius Aerospace",
+  "ticker": "",
+  "hq": "London, UK / US",
+  "desc": "Defence technology firm (precision artillery, Sceptre)",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "iMENA",
+  "brand": "iMENA",
+  "ticker": "",
+  "hq": "Riyadh, Saudi Arabia",
+  "desc": "iMENA Group, holding company of online businesses in the Middle East (for example OpenSooq, Jeeny)",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "Aroma-Zone",
+  "brand": "Aroma-Zone",
+  "ticker": "",
+  "hq": "France",
+  "desc": "French retailer and maker of DIY natural cosmetics, essential oils and skincare",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "Onodrim Industries",
+  "brand": "Onodrim Industries",
+  "ticker": "",
+  "hq": "unknown",
+  "desc": "Unclear; identify from Apollo and report",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "Simplexity Robotics",
+  "brand": "Simplexity Robotics",
+  "ticker": "",
+  "hq": "unknown",
+  "desc": "Unclear robotics company; identify from Apollo and report",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "ICON (3D-printed construction)",
+  "brand": "ICON",
+  "ticker": "",
+  "hq": "Austin, Texas, US",
+  "desc": "Robotic 3D-printed construction company (iconbuild.com)",
+  "need": 2,
+  "keep": [
+   {
+    "name": "Stephanie Mathews",
+    "title": "Sr. Director of Marketing",
+    "email": "stephanie@iconbuild.com"
+   },
+   {
+    "name": "Will Hurd",
+    "title": "President",
+    "email": "william.hurd@iconbuild.com"
+   },
+   {
+    "name": "Logan Grant",
+    "title": "Division President - ICON Build",
+    "email": "lgrant@iconbuild.com"
+   }
+  ],
+  "exclude": [
+   {
+    "name": "Beaux Jackson",
+    "title": "Director of Video/Content",
+    "email": "beaux@iconbuild.com"
+   }
+  ],
+  "note": "ICON: the CEO and co-founder (Jason Ballard) must be one of the picks if he has an email."
+ },
+ {
+  "user_name": "Stalwart Law Group",
+  "brand": "Stalwart Law Group",
+  "ticker": "",
+  "hq": "Los Angeles, California, US",
+  "desc": "Law firm (employment and personal injury)",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "Marrow Therapeutics",
+  "brand": "Marrow Therapeutics",
+  "ticker": "",
+  "hq": "unknown",
+  "desc": "Biotech; identify from Apollo and report",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "Pizza Hut",
+  "brand": "Pizza Hut",
+  "ticker": "",
+  "hq": "Plano, Texas, US",
+  "desc": "Global pizza restaurant brand owned by Yum! Brands (pick Pizza Hut brand leaders: global CEO/president, global CMO, brand and marketing leaders)",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "Mailchimp",
+  "brand": "Mailchimp",
+  "ticker": "",
+  "hq": "Atlanta, Georgia, US",
+  "desc": "Email marketing platform owned by Intuit (pick Mailchimp leaders: general manager / head of Mailchimp, marketing and brand leaders)",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "COMSOL",
+  "brand": "COMSOL",
+  "ticker": "",
+  "hq": "Stockholm, Sweden / Burlington, Massachusetts, US",
+  "desc": "Multiphysics simulation software (COMSOL Multiphysics)",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "Signal AI",
+  "brand": "Signal AI",
+  "ticker": "",
+  "hq": "London, UK",
+  "desc": "AI media monitoring and risk intelligence platform",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "Stahl",
+  "brand": "Stahl",
+  "ticker": "",
+  "hq": "Waalwijk, Netherlands",
+  "desc": "Stahl Holdings, specialty coatings and chemicals for leather and flexible materials",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "Ziehl-Abegg",
+  "brand": "Ziehl-Abegg",
+  "ticker": "",
+  "hq": "Kuenzelsau, Germany",
+  "desc": "Maker of fans, motors and drive technology for ventilation and lifts",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "Theramex",
+  "brand": "Theramex",
+  "ticker": "",
+  "hq": "London, UK",
+  "desc": "Women's health pharmaceutical company",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "PGP Glass",
+  "brand": "PGP Glass",
+  "ticker": "",
+  "hq": "Mumbai, India",
+  "desc": "Glass packaging maker for cosmetics, perfumery and pharma (formerly Piramal Glass)",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "InPost",
+  "brand": "InPost",
+  "ticker": "",
+  "hq": "Krakow, Poland",
+  "desc": "Parcel locker and e-commerce delivery group",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "Cary Group",
+  "brand": "Cary Group",
+  "ticker": "",
+  "hq": "Stockholm, Sweden",
+  "desc": "Vehicle glass repair and replacement group",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "Canaccord Genuity Wealth Management (UK & Crown Dependencies)",
+  "brand": "Canaccord Genuity Wealth Management",
+  "ticker": "",
+  "hq": "London, UK",
+  "desc": "UK and Crown Dependencies wealth management arm of Canaccord Genuity Group (pick the UK wealth business leaders: CEO, CMO / head of marketing, brand, communications)",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "Desotec",
+  "brand": "Desotec",
+  "ticker": "",
+  "hq": "Roeselare, Belgium",
+  "desc": "Mobile activated carbon filtration services for industry",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "Flint Group",
+  "brand": "Flint Group",
+  "ticker": "",
+  "hq": "Luxembourg",
+  "desc": "Printing inks and packaging print consumables",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ },
+ {
+  "user_name": "Infinity Transportation",
+  "brand": "Infinity Transportation",
+  "ticker": "",
+  "hq": "unknown",
+  "desc": "Unclear: could be Infinity Transportation (Atlanta, rail and intermodal equipment leasing) or another transport firm; report what you find",
+  "need": 5,
+  "keep": [],
+  "exclude": [],
+  "note": ""
+ }
+]
