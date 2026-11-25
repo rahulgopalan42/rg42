@@ -8,439 +8,527 @@
 
 ## The intro
 
-> "Hi [Name], thanks for making the time. I'm Rahul from SPORTFIVE, and I've got Bjorn and George joining me as well.
+> "Hi [Name], great to meet you, and thanks for making the time. I've also got Bjorn and George joining me today.
 >
-> Just to give you a bit of background on us, SPORTFIVE is a global sports marketing agency. We work across pretty much every major sport, helping brands find the right partnerships, negotiate the deals and then manage them.
+> Maybe just to give you a little bit of context on SPORTFIVE before we get into the conversation. We're a global sports marketing agency, and I think what really differentiates us is our brand-led approach. We work with an extensive portfolio of rights holders across pretty much every major sport, which puts us in a position to be quite objective when identifying the right opportunities for brands.
 >
-> We're a big organization, but we're actually quite flat in how we work. We work closely with colleagues across different sports and departments, so depending on what a brand needs, we can bring in the right people.
+> Although we're quite a large organization, we're actually very flat in the way we operate. We work closely with our colleagues across different sports and departments, so depending on what a brand is looking to achieve, we can bring in the relevant expertise. We've also got a dedicated business intelligence team that supports us with research, audience insights and partnership evaluation.
 >
-> And I think that's quite important because we don't want to overwhelm brands with everything we can offer. We'd much rather understand what you're trying to achieve first and then work out what makes sense. We've also got a business intelligence team that helps us with that.
+> But rather than overwhelming you with everything we do, I think it's more important for us to understand your objectives first.
 >
-> Now, just to give you a bit of background on our Formula 1 business. Historically, we worked exclusively with Mercedes and Ferrari. But we decided to move away from that model, and today we have non-exclusive agreements across the grid.
+> Just to give you a bit of context specifically around Formula 1, historically, we held exclusive mandates with Mercedes and Ferrari. We made a conscious decision to move away from that model, and today we operate on a non-exclusive basis across the grid.
 >
-> And the reason is quite simple. It gives us the flexibility to look at the entire market rather than being tied to one or two teams. So when we're speaking to a brand like Lenskart, we can look at the different opportunities, understand what each team can offer, how they're priced, and ultimately find the best fit for what you're looking to achieve. And because we know the market quite well, we can also make sure you're getting a fair deal.
+> The reason for that is quite simple. We didn't want to be in a position where we're trying to fit a brand into a particular team simply because that's the team we represent. It gives us the flexibility to look across the entire market, understand the different propositions, benchmark the commercials and ultimately identify what makes the most sense for a brand like Lenskart.
 >
-> Just to give you an example, we worked with CFI, who were initially looking at a partnership with Williams. But after understanding their objectives, we identified an opportunity with Lewis Hamilton that we felt would deliver better value, and we ended up brokering that deal. We've also worked on deals with McLaren, Ferrari and individual athletes. And outside Formula 1, we work with VGW in NASCAR.
+> A good example of that is CFI. They initially came to us looking at Williams, but once we understood their objectives in more detail, we felt an opportunity with Lewis Hamilton would deliver better value. We ultimately ended up brokering that partnership.
 >
-> So really, the point is that we're not tied to any particular solution. And that's what we'd like to do today. Understand a bit more about Lenskart, what you're trying to achieve, and whether Formula 1 could make sense. But equally, let's keep the conversation open."
+> We've also worked on partnerships involving McLaren, Ferrari and individual athletes, and outside Formula 1, we've worked with VGW in NASCAR. So, we're not necessarily tied to a particular team or even a particular sport.
+>
+> And that's really the purpose of today's conversation. We'd love to understand a little more about Lenskart, where you're heading as a business and whether there's potentially a role for Formula 1 within that."
 
 ### "So why did you reach out to us?"
 
-> "Yeah, so there were really two things that stood out to me. And then there's the timing.
+> "Yeah, there were actually a couple of things that stood out to us when we started looking at Lenskart.
 >
-> First, where you're growing. You're in Japan through Owndays, across Southeast Asia, in the Middle East, and now in Spain through Meller. Formula 1 races in all of those places. Next year's calendar has Suzuka, Singapore, Jeddah, Abu Dhabi and Madrid.
+> The first was your international expansion. When you look at your presence in Japan through Owndays, Southeast Asia, the Middle East and now Europe through Meller, there's quite an interesting geographical alignment with Formula 1. If you look at next year's calendar, you've got Suzuka, Singapore, Jeddah, Abu Dhabi and Madrid. These are all markets where you're already present or looking to grow.
 >
-> The second thing is what you do. You design your own frames, make your own lenses and run your own eye tests, so one company answers for the whole pair. An F1 team works the same way. It designs, builds and tests its own car.
+> The second thing was the nature of your business itself. You design your own frames, manufacture your own lenses and conduct your own eye tests. There's quite an interesting parallel with how Formula 1 teams operate, in the sense that they design, develop and test their own cars.
 >
-> There's a nice link with the drivers as well. Every driver has to pass an eye test before they can hold a racing licence. So this is a sport that depends on good eyesight more than most.
+> There's also a very natural connection between vision and motorsport. Every Formula 1 driver needs to pass an eye test to obtain a racing licence, so there's an authentic story there that goes beyond simply putting a logo on a car.
 >
-> And then the timing. Eyewear brands like Ray-Ban and Oakley are already using the sport, so we can see what works. So I guess what interested me was whether Formula 1 could be useful to you, and in what form. But before getting into that, I'd be interested to hear where things are heading for you."
+> And then, of course, there's the wider eyewear category. You've already got brands like Ray-Ban and Oakley investing in the sport, which gives us some interesting reference points in terms of how the category can be activated.
+>
+> So, what we really wanted to understand was whether Formula 1 could play a role in supporting your growth ambitions and, if so, what that could potentially look like. But before we get into our thinking, I'd actually love to hear a little more about where things are heading on your side."
 
 ---
 
 ## Questions to ask Lenskart
 
-1. "Maybe just to start, could you tell us a bit about your role, and who'd own something like this day to day? As I understand it, marketing sits close to each market, with India run from Gurugram, Southeast Asia and the Middle East from Singapore, and Owndays in Japan. How does that work on your side?"
-2. "You've got a house of brands now: Lenskart, Owndays, John Jacobs, Meller, and B, the smart glasses. If you did something in Formula 1, which name would go on it? And would it be the same name in Japan as in India?"
-3. "Peyush Bansal wrote in your August letter: 'Could Meller be the Ray-Ban of the future?' Ray-Ban has been with Ferrari for ten years. So is Meller the brand you most want to build outside India, or is it Lenskart itself?"
-4. "International was about 42% of your revenue last quarter. You've got 291 stores in Japan, 300 in Southeast Asia and 46 in the Middle East. Where do you most want to be better known over the next two years? And where does Europe sit, with Meller stores in Barcelona, Paris and Amsterdam, and Rome planned for November?"
-5. "In your November letter you said marketing fell to 4.5% of India revenue, and that not all of that was efficiency. You wrote that you 'want to deploy more' and are waiting for opportunities 'that build the brand for years, not a quarter.' What would one of those look like to you?"
-6. "You already make licensed collections. I've seen Batman and Superman, Game of Thrones in Singapore, Pop Mart, and Stranger Things at Owndays. I haven't found one with a sports team yet. So are you thinking about F1 as a collection you'd make and sell, as a sponsorship with your name next to a team, or both?"
-7. "How do you judge marketing? Your August letter says Run for a Frame in Thailand lifted store traffic by 120%. Is store traffic the number that matters? Or is it eye tests, sales, app installs or Gold members?"
-8. "If you had the rights, which would you use most? A driver in your ads, the way you use Takuya Kimura for Owndays in Japan? A collection in your stores? Race tickets and experiences for your Gold members? Or your name on the car?"
-9. "B is now in more than 500 stores, with Google's Gemini built in, and you've said about 90% of buyers take it with a prescription. Is B part of this conversation? Or would you keep it separate, since you've called it a multi-year journey?"
-10. "You sell a complete pair for 500 rupees through Hustlr Club, and progressive lenses at 30,000. Which end would you want Formula 1 to help with? Is it the first-time buyer, or the customer who's trading up?"
-11. "What would be your biggest concern about doing something like this? What would make it go wrong?"
-12. "Has anyone on your team been to a race, in Singapore, Suzuka or Abu Dhabi? And just to understand the process, if we found something interesting, who would sign it off? You've been a listed company for a year now. So does that sit with marketing, with Peyush Bansal, or with the board? And which company would hold the deal: Lenskart in India, your company in Singapore, or Owndays in Japan?"
+1. "Could you tell us a little more about your role and how marketing is structured across the business? As I understand it, you've got India operating out of Gurugram, Southeast Asia and the Middle East out of Singapore, and then Owndays in Japan. How does that work internally? Is something like an international sports partnership managed centrally, or would it sit with the individual markets?"
+2. "Given that you've now got quite a diverse portfolio of brands, how do you think about something like Formula 1? You've got Lenskart, Owndays, John Jacobs, Meller and now B on the smart glasses side. Would something like this primarily sit under the Lenskart brand, or could you see different brands leveraging the partnership across different markets? For example, would the brand you activate in Japan necessarily be the same one you'd activate in India?"
+3. "I found something quite interesting in Peyush's August shareholder letter. He raised the question of whether Meller could become the Ray-Ban of the future. Given that Ray-Ban has been associated with Ferrari for around ten years now, is Meller the brand you're particularly looking to build internationally, or is the bigger ambition to establish Lenskart itself as a global brand?"
+4. "From a geographical perspective, where are your biggest priorities over the next couple of years? International markets accounted for around 42% of your revenue last quarter. You've got 291 stores in Japan, around 300 across Southeast Asia and 46 in the Middle East. And then there's obviously the European expansion through Meller, with stores in Barcelona, Paris and Amsterdam, and Rome planned for November. Where do you feel you have the biggest opportunity to build brand awareness and accelerate growth?"
+5. "Something else that caught my attention was your November shareholder letter. You mentioned that marketing expenditure had come down to 4.5% of India revenue, but that wasn't entirely driven by efficiencies. You also mentioned wanting to deploy more capital towards opportunities that build the brand over several years rather than just a quarter. I'd be curious to understand what those opportunities look like from your perspective. What would justify making a more significant, longer-term marketing investment?"
+6. "You've already done quite a bit in the licensing space. I've seen some of your collections around Batman, Superman, Game of Thrones in Singapore, Pop Mart and Stranger Things through Owndays. I haven't come across a sports team collection yet, though. When you think about Formula 1, is the appeal more around developing a product that you can commercialize, or are you also interested in the broader brand association that comes with a sponsorship? Or potentially a combination of the two?"
+7. "How do you typically evaluate the success of your marketing campaigns? I saw that your Run for a Frame campaign in Thailand drove a 120% increase in store traffic. Is footfall one of your primary KPIs, or are you looking more closely at things like eye tests, customer acquisition, sales, app downloads and Gold memberships? What would success look like for a partnership of this nature?"
+8. "If you had access to a Formula 1 team, which elements of the partnership do you think you'd actually use the most? Would it be access to drivers for campaigns, similar to what you're doing with Takuya Kimura for Owndays in Japan? Would it be developing a co-branded collection, creating experiences for your Gold members, driving people into stores, or is the global visibility of having your brand on the car equally important?"
+9. "Is B something you'd potentially want to incorporate into this conversation as well? I understand you're already in more than 500 stores with Gemini integrated, and around 90% of customers are purchasing the product with prescription lenses. Given that you've described smart glasses as a multi-year journey, would you want that to form part of a broader partnership, or would you prefer to keep it separate for now?"
+10. "Which part of your product portfolio would you ideally want a partnership like this to support? You've got a very broad offering, from complete pairs of glasses at around 500 rupees through Hustlr Club, all the way up to progressive lenses at 30,000 rupees. Would Formula 1 be more about attracting first-time customers, or would you see it as a platform to encourage customers to trade up into your more premium products?"
+11. "Is there anything that would particularly concern you about exploring something like Formula 1? It could be the level of investment, the ability to measure the return, the category being quite competitive, or even the internal resources needed to activate a partnership properly. It would be helpful for us to understand those considerations early on."
+12. "Has anyone from your team had the opportunity to experience Formula 1 firsthand? Perhaps in Singapore, Suzuka or Abu Dhabi? And just so we understand how best to support you, if we were to identify something interesting, how would that conversation typically progress internally? Given that you've now been a listed company for around a year, would the decision sit within marketing, would Peyush be involved, or would it require board-level approval? And from a contracting perspective, would something like this sit with Lenskart in India, the Singapore entity or potentially Owndays in Japan?"
 
 ---
 
 ## Questions they might ask, and how to answer
 
-### "Who watches F1? Is it our audience?"
+### "Who actually watches Formula 1? Is it relevant to our audience?"
 
-> "Yeah, I think a lot of it is. F1 has around 827 million fans, and 43% of them are under 35. It's also less male than people think. About 42% of fans are women now, up from 37% in 2018.
+> "Yeah, I think there's actually quite a strong alignment. Formula 1 has around 827 million fans globally, and what's particularly interesting is that 43% of them are under the age of 35.
 >
-> So it's young and it's broad, which is who walks into your stores. And they buy in a way that suits you. F1 fans rank first of any sport for researching online before they buy, with an index of 126 where 100 is the general population. Your November letter says 57% of your India sales come from customers who looked at you online first.
+> The female audience has also grown quite significantly. Around 42% of fans are now women, compared to 37% in 2018. So, the audience is probably younger and more diverse than people traditionally associate with Formula 1.
 >
-> They also stay with brands they like. Fans index at 200 for brand loyalty and 132 for buying the premium version, and both are the highest of any sport. For a company with more than ten million Gold members, I think that matters.
+> But beyond the demographics, I think what's particularly relevant for Lenskart is their purchasing behaviour. Formula 1 fans index at 126 when it comes to researching products online before making a purchase, with 100 being the general population. That's the highest of any sport.
 >
-> And it reaches India even without a race. Formula 1 says it has 79 million fans in India, on Nielsen's numbers. Every session is shown live there on FanCode, in a deal that runs to 2028."
+> When you compare that with your November shareholder letter, where you mentioned that 57% of your India sales come from customers who've engaged with you online first, there's quite an interesting alignment.
+>
+> They're also very brand-loyal. Formula 1 fans index at 200 for brand loyalty and 132 for purchasing premium versions of products, both the highest across sports. Given that you've already built a community of more than ten million Gold members, I think that's particularly relevant.
+>
+> And even though there isn't currently a race in India, Formula 1 has around 79 million fans there, according to Nielsen's figures shared by F1. Every session is also available live through FanCode, with that agreement running until 2028. So, there is quite a substantial audience for you to engage with, both domestically and internationally."
 
-### "We sell to consumers. Do the paddock and hospitality matter for us?"
+### "We're a consumer brand. How relevant is the paddock and hospitality to us?"
 
-> "Yeah, I think less than for a business-to-business brand, and I'd say that plainly. Around two-thirds of Paddock Club guests are senior executives, so it's built for hosting clients. For you, the fans are the audience, not the paddock.
+> "Yeah, I think it's probably less important for you than it would be for a traditional B2B brand. Around two-thirds of Paddock Club guests are senior executives, so naturally, a lot of brands use that environment for business development and entertaining clients. For Lenskart, I think the bigger opportunity is with the fans and consumers.
 >
-> But race weekends are still useful to a consumer brand, as rewards. That could be prizes for customers and Gold members, a trip for your best store teams, or a weekend for franchise partners and mall owners.
+> But that doesn't mean hospitality wouldn't be valuable. I would just look at it slightly differently.
 >
-> What's quite useful is that passes work all three days. So seven passes can host around twenty different guests over a weekend. And Singapore, Suzuka and Abu Dhabi are all in markets where you have stores."
+> For example, you've got more than ten million Gold members. Could you create exclusive competitions where members have the opportunity to attend a Grand Prix, meet a driver or experience the garage? Equally, you could use those experiences to reward your highest-performing store teams, franchise partners or even strengthen relationships with mall owners.
+>
+> What's also quite useful is that hospitality passes are generally available across the three days, so you can rotate guests throughout the weekend. With seven passes, you could potentially accommodate around twenty different guests. And given your presence in Singapore, Japan and Abu Dhabi, there are some very relevant markets where you could activate that.
+>
+> So, for you, I would see hospitality more as a customer engagement and rewards mechanism rather than the central reason for investing."
 
-### "How are similar brands using F1, and what are they getting out of it?"
+### "How are other eyewear and consumer brands using Formula 1, and what are they getting out of it?"
 
-> "Yeah, so eyewear is one of the busiest areas in the sport, which means there's a lot to look at. I've picked six examples. Five are eyewear, and the last is a clothing brand that publishes numbers. They're all consumer brands, so I'll focus on what they do for shoppers and fans."
+> "Yeah, absolutely. We've actually spent quite a bit of time looking at the eyewear category because it's already quite well established within Formula 1. There are several interesting examples, and what's particularly useful is that they've all approached the sport slightly differently."
 
 **Ray-Ban at Ferrari**
 
-> "Ray-Ban is the biggest one. Its owner, EssilorLuxottica, is the biggest eyewear group in the world, and it's been with Ferrari since 2016. The deal was renewed and widened from January 2023.
+> "Ray-Ban is probably the most established example. They're owned by EssilorLuxottica, the world's largest eyewear group, and they've been working with Ferrari since 2016. That partnership was renewed and expanded from January 2023.
 >
-> Their chief executive, Francesco Milleri, explained why at the renewal. He said they'd seen 'the passion racing fans have for the Ferrari brand.' And he said 'the strong crossover between racing and fashion translated very well into eyewear.'
+> What's interesting is how their CEO, Francesco Milleri, explained the rationale behind the renewal. He spoke about the passion racing fans have for Ferrari and how naturally the crossover between motorsport and fashion translates into eyewear.
 >
-> What's interesting is that it's two deals in one. Ferrari's own announcement says the eyewear licence and the racing sponsorship were both expanded. So the Ray-Ban logo stayed on the F1 cars, and EssilorLuxottica designs, makes and sells the Ray-Ban for Scuderia Ferrari range.
+> And when you look at the actual partnership, it's effectively two commercial agreements working together. You've got the sponsorship element, with Ray-Ban branding on the Formula 1 cars, but you've also got the licensing element, where EssilorLuxottica designs, manufactures and distributes the Ray-Ban for Scuderia Ferrari collection. That collection is also sold through Ferrari's own retail channels.
 >
-> Ferrari's own store sells that range. This year it had a limited edition for the Madrid race, and a Silverstone edition with Lewis Hamilton's number 44 on it. And for the Miami race two years ago, there was a Ferrari edition of the Ray-Ban Meta smart glasses.
+> This year, for example, they've done a limited edition around Madrid and a Silverstone edition featuring Lewis Hamilton's number 44. They also launched a Ferrari edition of the Ray-Ban Meta smart glasses around Miami two years ago.
 >
-> They haven't published a sales return. The signal is time, which is ten years, and a renewal that added more."
+> They haven't publicly disclosed the financial return, so I wouldn't want to speculate on that. But the fact that they've been there for ten years and expanded the relationship rather than simply renewing it is quite a meaningful signal."
 
 **Oakley at Aston Martin**
 
-> "Oakley has been with Aston Martin since March 2021, and it also belongs to EssilorLuxottica. The team's page lists it as a technical supplier. At the time, the team said it was Oakley's first return to Grand Prix racing since 2016.
+> "Oakley is another interesting example, particularly because they approached it differently. They're also part of EssilorLuxottica and have been working with Aston Martin since March 2021 as a technical supplier. At the time, it marked Oakley's first return to Grand Prix racing since 2016.
 >
-> Their global brand director then, Caio Amato, gave the reason. He called motorsport 'one of the most extreme sports on earth.' And the team's commercial head at the time, Jefferson Slack, said it was a privilege 'to be bringing the Oakley name back into Formula One.'
+> Their global brand director at the time, Caio Amato, spoke about motorsport being one of the most extreme sporting environments in the world. Jefferson Slack also highlighted the significance of bringing Oakley back into Formula 1.
 >
-> What I find interesting is the order they did it in. For four years it was a supply deal. The first licensed product only came in September last year. It's a special edition of an Oakley frame in the team's colours, sold online, in Oakley stores and through the team's store.
+> But what's particularly interesting is how the partnership evolved. For the first four years, it was essentially a supplier relationship. It wasn't until September last year that they introduced their first licensed consumer product.
 >
-> They haven't published any results. But they're in their sixth season, and they added a product for fans in year five. So it started with supply, and the selling came later."
+> They developed a special edition Oakley frame in Aston Martin's team colours, which was distributed through Oakley's website, retail stores and the team's own store.
+>
+> Again, there aren't any publicly available commercial results. But they're now in their sixth season, and they've added a consumer-facing product to the relationship. So, it's a good example of a partnership that started with technical credibility and gradually developed into something they could commercialize."
 
 **Maui Jim at Red Bull**
 
-> "Maui Jim has been Red Bull's official eyewear partner since the start of last season, on a multi-year deal. It belongs to Kering Eyewear. And it grew out of work Maui Jim had started with Red Bull's wider sports business the year before.
+> "Maui Jim is also quite relevant. They're part of Kering Eyewear and became Red Bull's official eyewear partner at the beginning of last season through a multi-year agreement. That actually developed from an existing relationship with Red Bull's wider sports business the previous year.
 >
-> Kering Eyewear's chief executive, Roberto Vedovotto, called it 'an exciting milestone for Maui Jim.' In terms of what they do, the drivers, the pit crew and the staff wear Maui Jim at the races.
+> Kering Eyewear's CEO, Roberto Vedovotto, described it as an important milestone for the brand. Initially, the partnership was very much focused on the drivers, pit crew and team personnel wearing Maui Jim eyewear throughout race weekends.
 >
-> Then in January this year they launched a racing collection. One new frame takes its shape from the sidepod of the car. And the range comes with prescription lenses as an option, which is closer to your world.
+> Then, in January this year, they launched a racing-inspired collection. One of the frames actually takes inspiration from the shape of the car's sidepod. And what's particularly relevant for Lenskart is that the collection also offers prescription lens options.
 >
-> Nothing has been published on results. But in year two they went from supplying the team to selling a range, and Maui Jim is on the team's partner list now."
+> So, again, you've got a brand that initially established its presence within the team and then developed a product that consumers could actually purchase. They haven't published any sales results, but the partnership has progressed into its second year and Maui Jim remains on the team's partner roster."
 
 **SunGod at McLaren**
 
-> "SunGod is a smaller one, and I think it's the closest to how you sell. It's a British brand that sells mostly through its own website. It joined McLaren in May 2021 as the team's fan eyewear licensee, and this is its sixth year.
+> "SunGod is probably one of the more interesting examples for you from a distribution perspective. They're a British eyewear brand that sells predominantly through its own website, and they joined McLaren in May 2021 as the team's fan eyewear licensee. So, unlike some of the bigger brands, they actually entered through licensing rather than a traditional sponsorship.
 >
-> So it started as a licence, not a sponsorship. It makes a McLaren collection each year, plus ranges with Lando Norris and Oscar Piastri. This year there was also a Monaco edition, limited to 100 pairs.
+> They're now in their sixth year and develop McLaren collections annually, alongside specific collections with Lando Norris and Oscar Piastri. They also introduced a Monaco edition this year, limited to just 100 pairs.
 >
-> The drivers get involved in the product too. SunGod's head of partnerships at the time, David Rogal, said in 2023 that on one Norris design 'the sort of flatter lens was all requested by him.'
+> What's nice is that the drivers are genuinely involved in the product development. SunGod's former head of partnerships, David Rogal, mentioned in 2023 that the flatter lens on one of the Norris designs was specifically requested by Lando himself.
 >
-> And this is one of the few with any kind of result. Rogal also said: 'we're seeing quite a large sales lift over in the US without a huge amount of effort from our side.' He said a Miami range 'sold phenomenally well.' There are no figures, but SunGod is still there six seasons on."
+> And this is one of the few examples where we've actually seen some commentary around commercial performance. Rogal mentioned that they were experiencing quite a significant sales uplift in the US without having to invest heavily in additional marketing there. He also said their Miami collection performed phenomenally well.
+>
+> They haven't disclosed specific figures, but it's interesting to see that they're still working together six seasons later."
 
-**HUGO Eyewear at Racing Bulls and ic! berlin at Audi**
+**HUGO Eyewear at Racing Bulls**
 
-> "These are the two newest. HUGO Eyewear became Racing Bulls' official eyewear partner two years ago, alongside the HUGO fashion deal with the team. The glasses are designed and made by Safilo, the Italian eyewear group.
+> "HUGO Eyewear became Racing Bulls' official eyewear partner two years ago, alongside HUGO's broader fashion partnership with the team. The actual eyewear is designed and manufactured by Safilo, the Italian eyewear group.
 >
-> ic! berlin joined the Audi team in February this year, which is the team's first season. It's a German brand owned by Marcolin. Marcolin's managing director, Nicola Zotta, said the deal lets them 'position ic! berlin at the intersection of style and performance.'
+> It's another example of a brand using Formula 1 to connect fashion, lifestyle and performance. They haven't publicly shared any commercial results, but they're now in their third season with the team."
+
+**ic! berlin at Audi**
+
+> "Then you've got ic! berlin, which joined Audi in February this year, during Audi's first Formula 1 season. They're a German eyewear brand owned by Marcolin. Marcolin's managing director, Nicola Zotta, explained that the partnership was about positioning the brand at the intersection of style and performance.
 >
-> In September they showed what they call a Racing Edition. It's two existing frames reworked with racing details, and both Audi drivers wore them in the paddock at Monza.
+> In September, they introduced a Racing Edition, where they took two existing frames and incorporated motorsport-inspired design elements. Both Audi drivers were also seen wearing the frames in the paddock at Monza.
 >
-> Neither has published a result. HUGO Eyewear is in its third season on the team's partner list. For ic! berlin, it's too early to say."
+> It's still relatively early, so there isn't much available in terms of results, but it's another example of how an eyewear brand can build a consumer product around the partnership."
 
 **adidas at Mercedes**
 
-> "adidas isn't eyewear, but it's a retail brand that publishes numbers. It's been with Mercedes since January last year, in its first Formula 1 deal. Its chief executive, Bjørn Gulden, said adidas was 'extremely proud to introduce the Three Stripes into F1.'
+> "And then, outside eyewear, I think adidas is a particularly interesting consumer brand example because they've actually provided some commercial commentary. They entered Formula 1 with Mercedes in January last year, which was their first partnership in the sport. Their CEO, Bjørn Gulden, spoke about how proud they were to introduce the Three Stripes into Formula 1.
 >
-> adidas makes the kit for the whole team, plus a range for fans of clothes, shoes and accessories. It sells that through its own site, the team's site and its retailers. This year it added a second team, Audi.
+> They manufacture the team's apparel, but they've also created a broader fan collection across clothing, footwear and accessories, distributed through their own channels, the team's channels and retail partners. This year, they've expanded further by adding Audi.
 >
-> And there's a public signal. In April, adidas said its clothing sales were helped by double-digit growth in several areas, and motorsport was one of them. It also said the new Mercedes and Audi teamwear was well received by retailers and shoppers alike."
+> And in April, adidas reported double-digit growth across several areas of its apparel business, with motorsport being one of those areas. They also mentioned that the new Mercedes and Audi teamwear collections had been well received by both retailers and consumers.
+>
+> Obviously, we can't attribute all that growth directly to Formula 1, but it does provide a positive commercial indication."
 
 **What that adds up to**
 
-> "So I think the main takeaway is that eyewear is well established in Formula 1. Seven of the eleven teams have an eyewear name on their partner list. Three of those names belong to EssilorLuxottica.
+> "I think there are three things I'd take away from all of that.
 >
-> Almost none of them publishes a return. What you can see is what they do. They put glasses on the drivers and the crew, and then they sell an edition with the team's name on it.
+> Firstly, eyewear is already a very established category in Formula 1. Seven of the eleven teams have an eyewear brand associated with them, and three of those brands belong to EssilorLuxottica. But when you look at the partnerships that have lasted, the common denominator is that there's usually a tangible product behind them. It's not just visibility. They're creating something that fans can actually buy.
 >
-> For Lenskart, I'd take three things from that. First, in eyewear the product is the point. The deals that last have something fans can buy, so I'd think about the licence as much as the logo.
+> Secondly, I wouldn't necessarily encourage Lenskart to replicate what those brands are doing. Most of them are European or American sunglasses and fashion brands. Your positioning around prescription eyewear, accessibility, eye testing and your presence across Asia gives you a very different story to tell.
 >
-> Second, I wouldn't copy the leaders. Most of them are sunglasses and fashion brands from Europe and America. Your story is the eye test, prescription glasses, and Asia.
+> And thirdly, you've got something that many of these brands don't have to the same extent, which is your own retail infrastructure. With more than 3,600 stores and your own app, you have the ability to bring a partnership directly to consumers without being entirely dependent on third-party retailers.
 >
-> And third, your own stores are a real advantage. You could launch a collection in more than 3,600 shops and on your own app, without waiting for a retailer. So I'd start with one collection, in the places where you have both stores and a race."
+> That's why I'd probably start by looking at a collection in markets where you've already got a strong retail presence and where Formula 1 actually races."
 
-### "Content is really important for us. How would a team help us make it?"
+### "Content is really important for us. How could a Formula 1 team support us with that?"
 
-> "Yeah, absolutely. And I think for you, content could be a big part of this. Your subject is eyesight, and a driver's eyes do some of the hardest work in sport.
+> "Yeah, absolutely. And I actually think content could be one of the strongest elements of a partnership for Lenskart. When you think about what you do as a business, there's a very natural connection between eyesight, precision and performance in Formula 1.
 >
-> Most team partnerships include a set number of filming days each year with the drivers and the team's people. The team's content people help you make it, and the team's own channels matter too. F1 is the number one sport on social media, ahead of the NBA, with 2.2 billion engagements. And 61% of fans engage with F1 content every day.
+> Typically, as part of a team partnership, you'd negotiate a certain number of content and filming days with the drivers and potentially other members of the team. You'd also have access to the team's content production capabilities and, depending on the rights you've negotiated, their own social media channels.
 >
-> The one thing to be aware of is that Formula 1 controls the actual race footage, not the teams. So partner content is filmed around the race, at the factory, in the garage, or on filming days.
+> Formula 1 is currently the number one sport in terms of social media engagement, ahead of the NBA, with around 2.2 billion engagements. Around 61% of fans engage with Formula 1 content on a daily basis.
 >
-> There are a few good examples already. CrowdStrike made a series with Mercedes where the team's specialists explain the safety kit on the car, and Mercedes says it got around 6.2 million views. And in eyewear, the drivers front the campaigns. George Russell and Kimi Antonelli did it for the Police sunglasses Mercedes sells, and both Audi drivers did it for ic! berlin.
+> One thing to be mindful of is that Formula 1 itself owns the race footage. So, the content you'd create with a team would generally be around the race weekend, at the factory, in the garage or during dedicated filming days.
 >
-> For Lenskart, I'd start with the eye test. Every driver has to pass one to hold an international racing licence. The governing body's rules ask for normal colour vision, so that no flag is misread. They also ask for a field of view of at least 120 degrees.
+> There are already some good examples of how brands are doing this. CrowdStrike developed a content series with Mercedes where members of the team explained the different safety technologies within the car. According to Mercedes, that generated around 6.2 million views.
 >
-> So you put a driver through a Lenskart eye test on camera, and explain each part of it. Then you show the same test in one of your stores. Your November letter says more than half of your eye tests in India are that person's first ever.
+> Within eyewear, you've had George Russell and Kimi Antonelli fronting campaigns for the Police sunglasses sold by Mercedes, and both Audi drivers have been involved in campaigns for ic! berlin.
 >
-> There's some nice science to use as well. In 2023, researchers at NTT in Japan put eye trackers on three professional racing drivers, at circuits including Suzuka. They found the drivers blinked at the same points on every lap. A blink lasts about a fifth of a second, and at 300 kilometres an hour that's about 17 metres.
+> For Lenskart, I think we could make it even more authentic. For example, every driver needs to pass an eye test to obtain an international racing licence. The governing body's requirements include normal colour vision, so drivers can correctly identify flags, and a field of vision of at least 120 degrees.
 >
-> We wouldn't claim a team uses Lenskart to look after its drivers' eyes. Alpine, for example, has had its own optical partner since 2021. It's simply a driver taking the test your customers take.
+> Imagine creating a piece of content where a Formula 1 driver goes through a Lenskart eye test and explains why each element of that test matters in their profession. You could then connect that back to the exact same experience customers receive in your stores.
 >
-> Another idea is the frame itself. You make your own frames, so you could design one with a team's designers and film the whole thing. Maui Jim shaped a frame after the Red Bull's sidepod, and Lando Norris asked SunGod for a flatter lens.
+> And given that your November shareholder letter mentioned that more than half of the eye tests you conduct in India are people's first-ever eye tests, there's potentially a really powerful educational angle there as well.
 >
-> And we'd make sure the content rights are clearly written into the partnership. That means how many filming days, which drivers and team people, what the team posts on its own channels, and how long and where you can use it."
+> There's also some interesting research around how drivers actually use their eyes. In 2023, researchers at NTT in Japan used eye-tracking technology on three professional racing drivers at circuits including Suzuka. They found that the drivers tended to blink at the same points on every lap.
+>
+> A blink lasts around a fifth of a second. At 300 kilometres an hour, that's approximately 17 metres. That's the kind of insight you could build some really interesting educational content around.
+>
+> Of course, we wouldn't want to imply that Lenskart is responsible for the drivers' eye health unless that's genuinely part of the partnership. Alpine, for example, has had its own optical partner since 2021. It would simply be about connecting the importance of vision in Formula 1 with the services you already provide to consumers.
+>
+> Another route could be product development. Given that you design your own frames, could you potentially develop a frame alongside a team's designers and document that entire process? Maui Jim has already taken inspiration from Red Bull's sidepod, and Lando Norris was personally involved in shaping the design of his SunGod collection.
+>
+> There are quite a few creative directions we could explore. The important thing commercially would be making sure those rights are properly negotiated upfront: how many filming days you get, which drivers and team personnel you can access, what the team publishes on its channels, and where and for how long you can use that content."
 
-### "Why are these brands in F1?"
+### "Why are so many eyewear brands investing in Formula 1?"
 
-> "I think it really comes down to two things. The first is that fans buy the product. In eyewear, a team partnership usually comes with an edition that carries the team's name. EssilorLuxottica's chief executive said the link between racing and fashion 'translated very well into eyewear.'
+> "I think it primarily comes down to two things.
 >
-> The second is being seen. Drivers and crew wear sunglasses in the paddock and on the grid, at more than 20 race weekends a year. And the audience is young, with 43% of fans under 35.
+> The first is the ability to commercialize the association. Eyewear is quite unique because you can take the identity of a Formula 1 team and translate that directly into a consumer product. That's essentially what EssilorLuxottica's CEO was referring to when he spoke about the crossover between motorsport and fashion translating particularly well into eyewear.
 >
-> For Lenskart, I'd guess there's a third reason. Your letters talk about being seen as a global eyewear brand, not only an Indian one. F1 is one of the few sports that shows up in Japan, Singapore, the Gulf and Europe in the same year."
+> The second is visibility. You've got drivers and team personnel wearing sunglasses in the paddock, on the grid and throughout more than twenty race weekends a year. It's a very natural form of product integration, particularly when you're reaching an audience where 43% of fans are under 35.
+>
+> But for Lenskart, I think there's potentially a third reason, which is your international positioning. From what I've read in your shareholder communications, there's a clear ambition to establish Lenskart as a global eyewear business rather than being perceived solely as an Indian brand.
+>
+> And there aren't many sports that give you a consistent presence across Japan, Singapore, the Middle East and Europe within the same year. That's where Formula 1 could potentially play a very interesting role."
 
-### "Who are our competitors in F1, and which teams are available?"
+### "Who are our competitors in Formula 1, and which teams are currently available?"
 
-> "Yeah, so we've done some initial work on that. I don't want to promise anything on availability yet, because right now it would be a guess. What I can tell you is who's where.
+> "Yeah, so we've done some initial mapping of the category. I wouldn't want to give you any assurances around availability at this stage because we'd need to have those conversations with the teams directly. But we do have a reasonably good understanding of who's currently where.
 >
-> Seven teams have an eyewear name on their partner list. Ferrari has Ray-Ban and Aston Martin has Oakley, and both belong to EssilorLuxottica. So does Shamir, the lens maker, which is Alpine's optical partner.
+> You've got Ray-Ban at Ferrari and Oakley at Aston Martin, both of which belong to EssilorLuxottica. EssilorLuxottica also owns Shamir, which is Alpine's optical partner.
 >
-> McLaren has SunGod, and Red Bull has Maui Jim, which belongs to Kering Eyewear. Racing Bulls has HUGO Eyewear, made by Safilo, and Audi has ic! berlin, owned by Marcolin. Alpine also has M-Experiment for frames, and M-Experiment says that deal runs to 2027.
+> McLaren works with SunGod, Red Bull has Maui Jim through Kering Eyewear, Racing Bulls has HUGO Eyewear through Safilo, and Audi has ic! berlin through Marcolin. Alpine also works with M-Experiment on the frames side, and according to M-Experiment, that agreement runs through 2027.
 >
-> Mercedes is a bit different. We haven't found an eyewear name on its partner page. But its shop sells a Police range, and Police has made Mercedes sunglasses since 2019. Mercedes also has Meta AI as a partner.
+> Mercedes is slightly different. We haven't identified a dedicated eyewear partner on their current partner roster, but their official store sells Police sunglasses, and Police has been developing Mercedes eyewear since 2019. They also have Meta AI as a partner, which could become relevant if we were to incorporate your smart glasses business.
 >
-> At Williams, Haas and Cadillac, we haven't found a current eyewear partner. That doesn't tell us anything about their plans, only that we'd have to ask. SunGod had a Williams licence two years ago, for example, and we can't see whether it still runs.
+> With Williams, Haas and Cadillac, we haven't identified a current eyewear partner. But that doesn't necessarily mean the category is available. SunGod, for example, previously held a Williams licence, and we haven't been able to establish whether that's still active.
 >
-> Now, the important thing is that these partnerships often include exclusivity, and those rights can be broader than the title suggests. Kit deals matter too. adidas' deal with Mercedes covers clothes, shoes and accessories, so we'd read what 'accessories' means.
+> The other thing to be mindful of is that category exclusivity can be quite broad. Sometimes a partnership title doesn't tell you the full extent of the contractual rights. Even apparel partnerships could potentially cover certain accessories. adidas' agreement with Mercedes, for example, includes clothing, footwear and accessories.
 >
-> So the first thing we'd do is check where there's a conflict and rule those teams out. I'd expect the seven to be out for a team eyewear deal, and we'd check the rest one by one.
+> So, the first thing we'd do is conduct a proper conflict check. I'd initially expect those seven teams with existing eyewear partners to be challenging for a traditional eyewear partnership, but we'd assess the remaining opportunities individually.
 >
-> The second thing is understanding what you want out of it. If it's a collection to sell, that points one way. If it's being known in Japan or the Gulf, that points another. And if it's India, a driver may do more than a team.
+> The second part is understanding what you're actually trying to achieve. If the priority is developing a licensed collection, that might lead us in one direction. If it's building brand awareness in Japan or the Middle East, that could lead us somewhere else. And if the priority is India, it may actually be that an individual driver delivers more relevance than a team.
 >
-> One thing worth knowing is the title. We had Official Eyewear Partner in mind for you. But the titles out there vary a lot, from eyewear partner to technical supplier to licensee, and each one carries different rights.
+> We initially had something along the lines of Official Eyewear Partner in mind, but there are different structures within the category, whether that's a technical supplier, an official partner or a licensee. Each of those comes with a different set of rights.
 >
-> And I think Ray-Ban at Ferrari is a good example of what the end result could look like. The logo isn't really the point there. The point is the range, with a core collection plus a limited edition for a race like Madrid or Silverstone, sold in Ferrari's own store. That's the model I'd look at, in your own way and in your own shops."
+> Ultimately, I think the Ray-Ban and Ferrari model provides an interesting reference point: a core collection, complemented by limited editions around specific races, distributed through relevant retail channels. We'd just need to establish how something similar could work in a way that's authentic to Lenskart and your own retail ecosystem."
 
-### "Eyewear is already taken at half the grid. Are we too late?"
+### "Given how many eyewear brands are already in Formula 1, are we too late?"
 
-> "That's a fair question, and it's more than half. Seven of the eleven teams have an eyewear name, and an eighth sells Police sunglasses in its shop. So for a classic team eyewear deal there isn't much room, and I'd rather say that plainly.
+> "Yeah, it's a fair question. Seven of the eleven teams already have an eyewear brand associated with them, and you've got an eighth team selling Police sunglasses through its own store. So, if we're talking about a traditional team eyewear partnership, the available market is relatively limited.
 >
-> But look at who's there. Most are sunglasses and fashion names from Europe and America, and three of them belong to one group. None of them is built around the eye test or prescription glasses. And none of them comes from India, Japan or Southeast Asia.
+> But I think it's equally important to look at who those brands are and how they're positioned. Most of them are European or American sunglasses and fashion brands, and three belong to the same eyewear group.
 >
-> The map does change, too. Maui Jim was with Haas in 2021 and is now with Red Bull. SunGod held a Williams licence two years ago.
+> None of them is really positioned around eye testing, prescription eyewear and accessibility in the way Lenskart is. And none comes from India, Japan or Southeast Asia. So, from a positioning perspective, I think you've got something quite different to bring to the sport.
 >
-> There are also routes that don't need a team's eyewear title. One is a driver, though a driver's personal deals usually can't clash with the team's partners. We haven't found a current driver with an eyewear deal of his own, apart from the team's. The driver editions we've seen, like Hamilton's at Ferrari and Norris's at McLaren, all come through the team's partner.
+> The landscape also changes. Maui Jim was previously associated with Haas in 2021 and is now with Red Bull. SunGod previously held a Williams licence as well.
 >
-> Another is Formula 1 itself. We haven't found an eyewear name on its partner list, though that would need checking with them.
+> And there are other routes we could explore that don't necessarily require you to become a team's official eyewear partner. One would be an individual driver, although we'd need to check the team's existing commercial agreements because drivers generally can't enter personal partnerships that conflict with team sponsors.
 >
-> And being later has one advantage, which is that you can see what worked. The deals that have lasted, like Ray-Ban's ten years at Ferrari, all sell a product fans want. So I don't think the question is whether you're too late. It's which route would work for a company like yours, and finding that out is the first job."
+> We haven't identified a current driver with a standalone eyewear partnership outside their team's arrangements. The Hamilton and Norris collections we've seen, for example, have come through their respective team's eyewear partners.
+>
+> Another route could potentially be Formula 1 itself. We haven't identified an eyewear brand on Formula 1's own partner roster, although we'd need to validate that directly.
+>
+> And I think there is actually an advantage to entering a category that's already established. You can look at what other brands have done, understand which partnerships have lasted and identify what you would do differently. Ray-Ban's ten-year relationship with Ferrari is a good example of that. There's a tangible product that consumers can engage with.
+>
+> So, I wouldn't necessarily frame it as being too late. I'd frame it as finding the right route into the sport, given your specific objectives."
 
-### "It's very crowded. Won't we get lost?"
+### "Formula 1 is quite crowded commercially. How do we avoid getting lost?"
 
-> "Yeah, that's a fair concern. Most teams already have 25 or more partners, and there are more than 350 partner companies across the grid. So a logo on its own would get lost.
+> "Yeah, absolutely, and I think that's something every brand considering Formula 1 needs to be mindful of. Most teams have upwards of 25 commercial partners, and there are more than 350 partner companies across the grid. So, if the strategy is simply to put a logo on the car and expect that to drive meaningful results, I think there's a genuine risk of getting lost.
 >
-> But I think eyewear has an advantage most partners don't. It's worn on the face, on camera, by the people fans are looking at. Most technology partners have to explain software nobody can see.
+> But eyewear has quite a unique advantage. It's a product that's worn on the face of the people that fans are already interested in. It's visible on camera, and consumers immediately understand what the product is. Compare that with some of the technology companies in Formula 1, which often have to explain quite complex software solutions that aren't necessarily visible to the audience.
 >
-> And the brands that stand out do one of two things. Some make a product fans want, like the Ray-Ban editions for single races. Others make something people want to watch, like the films CrowdStrike made with Mercedes.
+> I think the brands that really stand out are the ones that either create a product fans want to buy or create content fans genuinely want to engage with. Ray-Ban's race-specific collections are a good example on the product side. The CrowdStrike and Mercedes content series is a good example on the storytelling side.
 >
-> The other thing is that you wouldn't depend on the team's channels alone. You have more than 3,600 stores, and your letters say the app has been downloaded more than 120 million times. So you can put the partnership in front of your own customers every day."
+> But the other advantage you have is that you don't need to rely entirely on the team's audience. You've got more than 3,600 stores, and according to your shareholder communications, your app has been downloaded more than 120 million times. That's a substantial ecosystem through which you can bring the partnership to life.
+>
+> So, for Lenskart, I'd be thinking just as much about what the partnership looks like in your own stores and digital channels as what it looks like on the Formula 1 car."
 
-### "Why would a team want a partner like us?"
+### "Why would a Formula 1 team be interested in partnering with Lenskart?"
 
-> "Well, I'd be careful here, because I can't speak for any team. I'd never tell you a team needs you. And as we've seen, most of them have an eyewear name already.
+> "Yeah, I wouldn't necessarily want to speak on behalf of any of the teams, particularly given that several already have relationships within eyewear. But I do think there are a few things that make Lenskart an interesting commercial proposition.
 >
-> But I think what you'd bring is different. The first thing is your shops. A team usually earns a royalty when a co-branded product sells. You have more than 3,600 stores and your own app to sell it through.
+> The first is your distribution network. Typically, when a team enters into a licensing arrangement, it earns a royalty on the products sold. You've got more than 3,600 stores, alongside your own digital platforms. That's a significant distribution opportunity for a team's intellectual property.
 >
-> The second is India. F1 has no race there, and Formula 1 puts its Indian fan base at 79 million. A brand with close to 2,900 stores in 665 Indian cities gives a team a way to reach those fans.
+> The second is India. Formula 1 has around 79 million fans in India, despite not having a race there. You've got close to 2,900 stores across 665 Indian cities. So, potentially, you could give a team a very tangible way to connect with consumers in a market where it doesn't currently have a race.
 >
-> The third is Asia more widely. You say you hold about a quarter of the Singapore market by volume, and you have 291 stores in Japan. Both countries have a race.
+> Then there's your broader presence across Asia. You account for around a quarter of the Singapore eyewear market by volume, and you've got 291 stores in Japan. Both markets host Formula 1 races.
 >
-> And the fourth is that you're a listed company that's growing fast and making money. I think teams like partners who'll still be there in five years. Of course, we'd need to check whether a team values those things, and whether a current partner already covers them."
+> And finally, you're a publicly listed, profitable business that's growing quite significantly. Teams are generally interested in building relationships with brands that have the financial stability and long-term ambition to grow alongside them.
+>
+> Of course, we'd need to establish whether those elements are genuinely attractive to the individual teams and whether their existing partners already address some of those opportunities. But I certainly think there are some compelling reasons for a team to have that conversation."
 
-### "What rights would we get, and which ones matter for a consumer brand?"
+### "What rights would we actually get, and which ones would be most valuable for a consumer brand like ours?"
 
-> "Yeah, so a team partnership is really a bundle of rights, and for a consumer brand some of them matter much more than others. Let me go through the ones I'd focus on for you.
+> "Yeah, so this is where I think it becomes quite interesting for Lenskart. A Formula 1 partnership is essentially a combination of different commercial rights. But the importance of those rights varies quite significantly depending on the type of business. For a consumer brand like yours, I would probably look at seven key areas.
 >
-> The first is the right to use the team's name in your own marketing. That's a title, like Official Eyewear Partner, plus the team's logo and car in your ads, your store windows, your app and your packaging. For a retailer with more than 3,600 stores, that's the right you'd use every day.
+> The first is intellectual property and association rights. This is essentially the ability to position yourself as an official partner of the team and use its intellectual property within your own marketing. That could include the team's name, logo, car imagery and an agreed designation, such as Official Eyewear Partner.
 >
-> The second is the drivers. Most deals include a set number of days with them each year, for shoots and appearances, and the right to use their pictures in team kit. That's often both drivers together. A driver on his own, as your personal ambassador, is usually a separate deal with him. You already use well-known faces market by market, so I think this is closest to what you do today.
+> You could then use those assets across your advertising, store windows, packaging, app and other consumer touchpoints, depending on what's agreed. Given that you've got more than 3,600 stores, that's a right you could potentially leverage every single day.
 >
-> The third is content and social. That's filming days, access behind the scenes, and posts on the team's own channels, which reach fans you don't. F1 is the number one sport on social media, and 61% of fans engage with F1 content every day.
+> The second is access to the drivers. Typically, we'd negotiate a certain number of driver appearances or filming days throughout the year, alongside the ability to use their imagery in team apparel. Often, those image rights relate to both drivers together. If you wanted one individual driver to become a standalone brand ambassador, that would generally require a separate agreement with the driver.
 >
-> The fourth is the product, so a collection with the team's name on it, sold in your stores. That's a licence, and I'll come to how that works in a second.
+> Given that you're already working with recognizable personalities in individual markets, I think this is something that would fit quite naturally into your existing marketing strategy.
 >
-> The fifth is promotions, and for you I think it's a big one. That's the right to run competitions and offers with the team's name on them, and to give away things money can't buy, like race tickets, a garage tour, or meeting a driver. For a brand with more than ten million Gold members, that's a reason to join, to buy or to come back.
+> The third is content and social media. That could involve dedicated filming days, behind-the-scenes access and agreed content published across the team's own channels. It gives you access to an audience that you might not otherwise be reaching.
 >
-> There are good examples of that. Mastercard takes small groups of cardholders inside the McLaren garage at five races. And Public, the US investing app, hid three Aston Martin cars inside its own app, with a VIP weekend in Las Vegas as the prize.
+> Formula 1 is the number one sport on social media in terms of engagement, and around 61% of fans engage with Formula 1 content daily. So, there's quite a significant opportunity there if we can develop the right creative concepts.
 >
-> The sixth is things that bring people into stores. Teams often lend a show car, a simulator or a pit-stop challenge, and sometimes a driver for a store opening. Kraken does something similar with Williams. It presents the team's Fan Zones, where fans meet drivers and try simulators.
+> The fourth is product licensing. This is probably one of the most commercially interesting elements for you. It would give you the opportunity to develop and sell an eyewear collection incorporating the team's intellectual property. Rather than simply investing in brand visibility, you're creating a product that can generate revenue directly. I'll explain how the licensing structure works in a little more detail in a moment.
 >
-> The seventh is branding, so the car, the drivers' suits and caps, and the garage. For eyewear, the most useful version is the simplest one. It's the drivers and the crew wearing your glasses on camera, the way Maui Jim does at Red Bull.
+> The fifth is consumer promotions and experiences. You've got more than ten million Gold members, which I think presents a really interesting activation opportunity. Could you run competitions where customers have the opportunity to attend a Grand Prix, visit the team's garage or meet a driver? Could you create exclusive benefits that encourage people to become Gold members, make a purchase or engage with the brand again?
 >
-> Then there are two things that set the price. One is exclusivity, so being the only eyewear name at that team. The other is territory. Rights can be global, or limited to certain countries, and a regional deal usually costs less. For you, Asia and the Middle East might be enough to start.
+> There are some good examples of this. Mastercard offers selected cardholders access to the McLaren garage across five races. Public, the US investment platform, incorporated three virtual Aston Martin cars within its app, with the opportunity to win a VIP Formula 1 experience in Las Vegas. It's essentially about using the partnership to encourage a specific consumer behaviour.
 >
-> So if I had to rank them for Lenskart, I'd put the product first, then the drivers, then promotions for your members, then content. The logo on the car comes after those. And we'd write each one into the contract, with numbers: how many days, how many tickets, which countries, and for how long."
+> The sixth is retail activation. Given the size of your physical retail network, I think this could be particularly valuable. Depending on the agreement, you could potentially bring a Formula 1 show car to a flagship store, organize a simulator experience, create a pit-stop challenge or even negotiate a driver appearance around a store opening.
+>
+> Kraken does something similar through its relationship with Williams, presenting the team's Fan Zones, where fans can engage with drivers and experience racing simulators. For Lenskart, it's about creating a reason for consumers to physically visit your stores.
+>
+> And then the seventh is traditional branding. That could be branding on the car, driver suits, caps or within the garage environment. But for eyewear specifically, I think one of the most valuable forms of visibility is simply having the drivers and team personnel wearing your product. That's what Maui Jim is doing quite effectively with Red Bull.
+>
+> Then there are two additional commercial considerations that can significantly influence the investment. One is category exclusivity, whether you're the only eyewear brand associated with that team. The other is territory, whether you're acquiring global rights or rights limited to specific markets.
+>
+> A regional arrangement would generally require a lower investment than a global one. Depending on your objectives, Asia and the Middle East might be sufficient initially.
+>
+> If I were to prioritize those rights specifically for Lenskart, I'd probably put product licensing first, followed by driver access, consumer promotions and content. Traditional on-car branding would come after those. But obviously, that's something we'd want to establish together based on how you would actually activate the partnership.
+>
+> And we'd make sure everything is clearly quantified within the agreement, whether that's the number of driver days, content deliverables, hospitality passes, territories or the duration of those rights."
 
-### "Could we make and sell team or F1 eyewear? How does licensing work?"
+### "Could we develop and sell Formula 1 or team-branded eyewear? How does licensing actually work?"
 
-> "Yeah, in principle you could, and I think for you it's the most interesting part. But it's a separate deal from a sponsorship. So let me explain the two.
+> "Yeah, absolutely, in principle. And I think this is probably one of the most interesting opportunities for Lenskart. There is an important distinction, though, between a sponsorship agreement and a licensing agreement.
 >
-> A sponsorship buys the right to be associated with the team and to market that. So that's a title, your name in agreed places, days with the drivers, and guests at races. A licence is different. It's the right to make and sell products that carry the team's name and marks.
+> A sponsorship essentially gives you the right to associate your brand with a team and leverage that association through your marketing. That could include an official designation, branding, driver access, content and hospitality.
 >
-> For a licence you usually pay a royalty on what you sell, often with a guaranteed minimum. So the team earns something even if the product sells slowly.
+> A licence is slightly different. It gives you the right to manufacture and sell products that incorporate the team's intellectual property. Typically, that operates through a royalty structure, where you pay the team an agreed percentage based on sales, usually alongside a minimum guarantee. That means the team receives a minimum level of revenue regardless of how the collection performs.
 >
-> In eyewear the two often come together. Ferrari's announcement of its Ray-Ban renewal says the licence and the sponsorship were both expanded. Oakley did it the other way round at Aston Martin, with four years as a supplier before its first licensed product. And SunGod started at McLaren purely as a licensee.
+> Within eyewear, we've seen those two structures work together quite effectively. Ferrari's renewal with Ray-Ban specifically expanded both the sponsorship and licensing elements. Oakley initially entered Aston Martin as a supplier before developing a licensed product four years later. SunGod, on the other hand, entered McLaren directly through licensing. So, there isn't necessarily one way of approaching it.
 >
-> A licence usually spells out five things. Those are the products, the countries, the number of years, the royalty and minimum, and approvals. A licence can be limited to certain countries, so you could ask for Asia only.
+> Typically, a licensing agreement would cover five key areas: the product categories, geographical territories, duration, royalty structure and minimum guarantee, and the approval process. You don't necessarily need to acquire global rights. You could potentially negotiate a licence specifically for Asia, for example.
 >
-> Approvals matter, because the team signs off each design before it's made. It usually signs off the packaging and the adverts too. So I'd plan in months, not weeks.
+> The approval process is also quite important because the team would generally need to approve the product designs, packaging and marketing materials before they go into production. So, we'd need to factor that into the timeline. It's generally something you'd plan over months rather than weeks.
 >
-> On who signs, a team licence is agreed with the team, and teams have their own licensing people. Aston Martin has a head of licensing and merchandise, for example. If you wanted the F1 name itself, that's a separate licence from Formula 1's own licensing programme.
+> From a contracting perspective, the licence would be agreed directly with the team. Most teams have dedicated people looking after licensing and merchandise. Aston Martin, for example, has a head of licensing and merchandise.
 >
-> A driver's name, number or face is separate again. It needs the driver's own agreement, on top of the team's. Formula 1's own guidelines send those requests to the team or the driver's management.
+> If you wanted to use the Formula 1 brand itself, rather than an individual team's intellectual property, that would be a separate conversation with Formula 1's licensing division. And if you wanted to incorporate a specific driver's name, number or likeness into a product, that would generally require additional approval or an agreement with the driver or their management.
 >
-> The good news is that you know this world. Your November letter says your licensed collections are mostly exclusive to your markets, and designed and made by you. So this would be a new licensor, not a new skill.
+> The positive thing is that none of this is particularly new to Lenskart. Your November shareholder letter mentioned that most of your existing licensed collections are exclusive to your markets and that you design and manufacture them yourselves. So, you'd essentially be working with a new licensor rather than having to develop an entirely new capability internally.
 >
-> What I can't tell you yet is which team could grant one. Where a team already has an eyewear licensee, I'd expect that to be exclusive. So we'd check that before anything else."
+> The only thing we can't establish at this stage is which teams are actually in a position to grant those rights. Where a team already has an eyewear licensee, we'd expect there to be some level of exclusivity. That's something we'd need to check before progressing."
 
-### "Where could we sell it, and what about merchandise at the races?"
+### "Where could we actually sell those products? Could we sell them at the races?"
 
-> "Yeah, so there are really four places, and the first one is yours. Your own stores and app are the big advantage here. You have more than 3,600 stores, including 291 in Japan and 300 across Southeast Asia. Once you hold the licence, stocking them is your decision.
+> "Yeah, there are potentially four different distribution channels I'd look at.
 >
-> The second is the team's own online store, which usually sells its partners' products. Ferrari's store sells the Ray-Ban range, and the Mercedes shop sells Police sunglasses.
+> The first, and probably the most important for you, is your own ecosystem. You've got more than 3,600 stores, including 291 in Japan and around 300 across Southeast Asia, alongside your own app and e-commerce channels. Once the appropriate licensing rights are in place, you'd have the ability to distribute the collection through those channels within the agreed territories.
 >
-> The third is Formula 1's official store, which Fanatics runs. It sells team eyewear too, like the Alpine sunglasses that M-Experiment makes.
+> The second would be the team's own retail channels. Ferrari's official store sells the Ray-Ban collection, for example, and Mercedes' official shop sells Police sunglasses.
 >
-> The fourth is the track, and that's the restricted one. Formula 1 gave PUMA's retail arm exclusive rights to sell F1 and team merchandise at the circuits, in a deal that started two years ago. So you couldn't set up your own stand there. Anything sold trackside would have to go through them.
+> The third would potentially be Formula 1's official online store, which is operated by Fanatics. They already sell team-branded eyewear, including Alpine sunglasses manufactured by M-Experiment.
 >
-> What you can do around a race is use your own shops in that city, and the team's hospitality for your guests. In Singapore, Japan and the UAE, your stores are already there.
+> The fourth is trackside retail, and that's where it becomes slightly more complicated. Formula 1 granted PUMA's retail division exclusive rights to sell Formula 1 and team merchandise at the circuits through an agreement that began two years ago. So, you wouldn't simply be able to establish your own retail stand at a Grand Prix. Any trackside distribution would need to go through the appropriate commercial arrangements.
 >
-> Driver editions are possible, but they need the driver's agreement as well as the team's. Ferrari's store has a Lewis Hamilton edition for Silverstone, and SunGod has Norris and Piastri ranges. Police made collections designed with Hamilton when he drove for Mercedes.
+> But what you could do is activate through your own stores in the host city, alongside the team's hospitality and other experiences around the race. Singapore, Japan and the UAE are particularly interesting because you've already got an established retail presence there.
 >
-> So here's the first step I'd suggest. One capsule collection, with one team, in the markets where you have both stores and a race. That's Japan through Owndays, Singapore, and the UAE.
+> There's also the possibility of developing driver-specific collections. Ferrari has a Lewis Hamilton Silverstone edition, SunGod has collections with Norris and Piastri, and Police previously developed collections with Hamilton during his time at Mercedes. Again, we'd need the relevant driver rights alongside the team rights.
 >
-> Next year Suzuka is in April, Singapore is in October and Abu Dhabi is in December. April is probably too soon for a new frame. So I'd aim at Singapore, where you say you have about a quarter of the market, and learn from that before going wider.
+> If I were looking at a sensible first step, I'd probably start with one capsule collection, with one team, across markets where you've already got stores and a Formula 1 race. Japan through Owndays, Singapore and the UAE would be interesting starting points.
 >
-> And I can't promise any of this until we've asked. Whether a team can grant a licence depends on the deals it already has."
+> Looking at next year's calendar, Suzuka is in April, Singapore is in October and Abu Dhabi is in December. April would probably be quite ambitious if we're developing an entirely new frame, so Singapore could potentially be a more realistic launch opportunity.
+>
+> You've already got around a quarter of that market by volume, which gives you a good platform to test the concept before expanding it. But again, that would all be subject to identifying a team that can actually grant the relevant rights."
 
-### "What would a first deal look like for a company our size?"
+### "What would a first partnership look like for a company of our size?"
 
-> "I think there are a few ways to approach it. On size, I don't think the question is whether you can afford it. Your letters put revenue over the last twelve months above 10,000 crore rupees, which is roughly a billion dollars, with almost 800 crore of profit. It's more about finding the right job.
+> "Yeah, I think there are a few different ways we could approach it. Looking at the scale of your business, with revenue over the last twelve months exceeding 10,000 crore rupees, roughly a billion dollars, and profit approaching 800 crore rupees, I don't think the primary question is whether you have the financial capacity. It's more about identifying the right opportunity and making sure there's a clear commercial rationale behind the investment.
 >
-> The first step I'd look at is the capsule collection we talked about. That's one team and one collection, sold in your own stores in Japan, Singapore and the UAE around their races. It's a licence, so most of the cost is tied to what you sell, plus a minimum.
+> The first route I'd explore is the capsule collection we discussed. One team, one collection, activated through your existing stores in Japan, Singapore and the UAE around the respective race weekends. That would primarily be a licensing arrangement, so a significant portion of the cost would be linked to product sales, alongside a minimum guarantee.
 >
-> A second option is a driver. A driver deal costs a lot less than a team deal, and it suits the way you already use well-known faces in each market. There are Indian names in and around the grid as well.
+> A second route could be an individual driver partnership. That would generally require a lower investment than a full team partnership, and it fits quite naturally with how you're already using recognizable personalities across different markets. There are also Indian names within and around the Formula 1 ecosystem that could potentially provide some interesting opportunities.
 >
-> A third is race weekends as rewards. Passes work all three days, so seven passes can host around twenty different guests over the weekend. In Singapore that could be competition winners, Gold members, your best store teams and franchise partners.
+> A third route could be using Formula 1 experiences as part of your customer engagement strategy. For example, you could acquire hospitality across selected races and use it to reward Gold members, competition winners, your highest-performing store teams or franchise partners. With seven passes, you could potentially accommodate around twenty different guests across a three-day race weekend.
 >
-> A full team partnership is really the last step. A typical one is one team over two or three years, with a title, some branding, content days, hospitality and the licence together. If the first steps pay back, we'd look at that then."
+> And then the fourth route would be a more comprehensive team partnership. Typically, that would be structured over two or three years and could include an official designation, branding, driver access, content, hospitality and licensing rights.
+>
+> I wouldn't necessarily recommend jumping straight into the most comprehensive option. Depending on your objectives, there could be value in starting with something more focused, understanding the commercial return and then building from there."
 
-### "What does it cost?"
+### "What kind of investment are we talking about?"
 
-> "Yeah, it really depends on the team and what's included. As a rough guide, supplier or entry-level partnerships start in the low single-digit millions a year. Official partner deals sit above that.
+> "Yeah, it really depends on the team, the scope of the partnership and the rights that are included. As a very broad indication, entry-level partnerships and supplier-level arrangements generally start in the low single-digit millions annually, with official partner-level agreements sitting above that.
 >
-> A licence works differently, because you pay a royalty on sales and usually a guaranteed minimum. I don't have a published figure for eyewear royalties, so I won't guess one. A driver deal, or hosting at a few races, costs a lot less than a team deal.
+> Licensing operates slightly differently because the commercial structure is generally based on royalties and a minimum guarantee. We don't have publicly available figures for eyewear-specific royalty rates, so I wouldn't want to give you a number that isn't properly substantiated.
 >
-> So rather than throwing numbers at you now, I'd like to understand what matters to you first. Then we can put together a few options at different levels."
+> An individual driver partnership or hospitality across selected race weekends would generally require a significantly lower investment than a full team partnership.
+>
+> But rather than putting an arbitrary number in front of you today, I'd much rather understand which elements are actually valuable to you. Once we've established that, we can come back with a few different options, at different investment levels, and explain what each would realistically deliver."
 
-### "We sell affordable glasses. Isn't F1 a luxury sport?"
+### "We sell affordable eyewear. Isn't Formula 1 predominantly a luxury sport?"
 
-> "That's a fair question, and I think it's less true than it looks. The paddock is expensive, but the audience isn't a luxury audience. F1 has around 827 million fans, and 43% of them are under 35. About 42% are women, up from 37% in 2018.
+> "Yeah, I can completely understand why you'd have that perception. I think when people look at Formula 1, they often associate it with the paddock, premium hospitality and luxury brands. But there's quite a significant difference between the people attending the Paddock Club and the wider Formula 1 fan base.
 >
-> Most of them will never go to a race. They watch on a phone and follow the drivers on social media. In India that's on FanCode, and Formula 1 puts its fan base there at 79 million.
+> You've got around 827 million fans globally, 43% of whom are under 35, and around 42% are women, compared to 37% in 2018. The vast majority of those fans will probably never attend a Grand Prix. They're watching races on their phones, following the drivers on social media and engaging with content digitally. In India alone, you've got around 79 million fans, with every session available through FanCode.
 >
-> And the eyewear already in the sport isn't all expensive. SunGod's McLaren sunglasses sell for roughly 80 to 155 dollars on its own site. M&S, the British high-street retailer, is a Williams partner.
+> And when you look at some of the brands already involved, they're not necessarily all luxury brands. SunGod's McLaren sunglasses, for example, retail at around $80 to $155. You've also got M&S, a British high-street retailer, partnering with Williams.
 >
-> The other thing is that premium is part of your range now. You sell a 500-rupee pair through Hustlr Club, and you also sell progressive lenses at 30,000 rupees. Your August letter says glasses with Owndays premium lenses bring in over 1,500 crore rupees a year in India.
+> The other thing I'd highlight is that Lenskart itself operates across quite a broad price spectrum. You've got complete pairs of glasses at around 500 rupees through Hustlr Club, but you're also selling progressive lenses at around 30,000 rupees. Your August shareholder letter mentioned that eyewear incorporating Owndays premium lenses generates more than 1,500 crore rupees annually in India.
 >
-> F1 fans index at 132 for buying the premium version of things, which is the highest of any sport. So I'd use F1 for the top half of the range, with John Jacobs, Owndays and Meller. And I'd keep the message that good glasses are for everyone, because that's who the fans are."
+> And Formula 1 fans index at 132 when it comes to purchasing premium versions of products, which is the highest of any sport. So, there could be an opportunity to use Formula 1 to support the more premium end of your portfolio, whether that's John Jacobs, Owndays or Meller, without moving away from your broader positioning around accessibility.
+>
+> I don't think Formula 1 necessarily needs to change who you are as a brand. It's more about identifying which part of your business it can support most effectively."
 
-### "Most of our customers are in India, and there's no race there."
+### "Most of our customers are in India, and there isn't a Formula 1 race there. How relevant is it really?"
 
-> "Yeah, that's true, and I don't think it changes soon. The last Indian Grand Prix was in 2013. This year the sports ministry set up a task force to bring the race back, and Reuters reported 2028 as the target.
+> "Yeah, absolutely, and I think that's a very valid consideration. The last Indian Grand Prix took place in 2013.
 >
-> Formula 1's chief executive, Stefano Domenicali, has said he's interested in going back. But nothing is agreed yet, so I wouldn't plan around a race.
+> There have been some discussions around bringing Formula 1 back to India. Earlier this year, the sports ministry established a task force, and Reuters reported that 2028 was being considered as a potential target. Stefano Domenicali, Formula 1's CEO, has also expressed interest in returning to India. But nothing has been agreed at this stage, so I certainly wouldn't build a partnership strategy around the assumption that a race is coming back.
 >
-> But a race isn't the only way F1 reaches India. Formula 1 puts its Indian fan base at 79 million. And every session is live on FanCode, in a deal that runs to 2028.
+> That being said, you don't necessarily need a race in a market to engage with Formula 1 fans there. As I mentioned, Formula 1 has around 79 million fans in India, and every session is available live through FanCode, with that agreement running until 2028.
 >
-> There are Indian names on the grid as well. Arvid Lindblad, who races for Racing Bulls, has an Indian mother and carries the Indian flag on his helmet. In March he drove an F1 car in front of fans near Delhi. And Kush Maini is Alpine's test and reserve driver, and races in Formula 2.
+> There are also some interesting Indian connections within the sport. Arvid Lindblad, who races for Racing Bulls, has an Indian mother and carries the Indian flag on his helmet. He also drove a Formula 1 car in front of fans near Delhi in March. And then you've got Kush Maini, who's Alpine's test and reserve driver and competes in Formula 2.
 >
-> For Lenskart, I'd think of it in two parts. Inside India, F1 is content, a driver, and a collection in your stores. Outside India, it's the races themselves.
+> So, I would probably approach it in two ways. Within India, the opportunity is more around content, driver associations, consumer engagement and products distributed through your own stores. Internationally, you've got the added benefit of activating around the races themselves.
 >
-> And outside India is a big part of you now. About 42% of your revenue last quarter came from international, and that side grew close to 30%. Next year's calendar has races in Japan, Singapore, Saudi Arabia, the UAE, Australia and Spain, and you have stores in all six.
+> And given that international markets accounted for around 42% of your revenue last quarter and grew by close to 30%, that's becoming an increasingly important part of your business. Next year's calendar includes Japan, Singapore, Saudi Arabia, the UAE, Australia and Spain, all markets where you've got a retail presence.
 >
-> One caution on the Gulf. This spring the Bahrain and Saudi races were called off because of the conflict in the region, and the Bahrain race was later run in Malaysia as a one-off. So I'd build a first step around Singapore or Japan, and treat the Gulf races as a bonus."
+> The only thing I'd be slightly cautious about is relying too heavily on the Gulf race calendar. Earlier this year, the Bahrain and Saudi Arabian Grands Prix were called off because of the regional conflict, with Bahrain's race subsequently taking place in Malaysia as a one-off. So, from a planning perspective, I'd probably build the initial activation around Singapore or Japan and incorporate the Gulf races as additional opportunities."
 
-### "We have smart glasses with Gemini. Does Meta at Mercedes or Google at McLaren matter?"
+### "We've got smart glasses powered by Gemini. Would Meta at Mercedes or Google at McLaren create a conflict?"
 
-> "Yeah, it does. I'd treat smart glasses as a second set of conflicts, on top of eyewear. Let me take the two in turn.
+> "Yeah, potentially. And I think we'd need to treat smart glasses as a separate category consideration alongside traditional eyewear.
 >
-> Meta matters most. Meta AI has been a Mercedes partner since October last year, and its name is on the drivers' helmets. Meta's glasses are made by EssilorLuxottica under the Ray-Ban and Oakley names, and those two brands are at Ferrari and Aston Martin. Ferrari even sold a Ray-Ban Meta edition for the Miami race two years ago.
+> Starting with Meta, they've been associated with Mercedes through Meta AI since October last year, with branding on the drivers' helmets. Meta's smart glasses are manufactured through EssilorLuxottica under the Ray-Ban and Oakley brands, which are already associated with Ferrari and Aston Martin respectively. Ferrari also launched a special edition of the Ray-Ban Meta glasses around Miami two years ago.
 >
-> So at those three teams, I'd expect smart glasses to be difficult. EssilorLuxottica says it sold more than seven million pairs of smart glasses last year, so it will protect that.
+> So, when it comes to Mercedes, Ferrari and Aston Martin, I'd anticipate that smart glasses could be quite a challenging category. EssilorLuxottica reported selling more than seven million pairs of smart glasses last year, so it's clearly an area of significant strategic importance to them.
 >
-> Google is the other way round. Google has been with McLaren since 2022, and Gemini is now the Google name on the car. B has Gemini built in, so you and the team work with the same company.
+> Google is slightly different. They've been partnering with McLaren since 2022, and Gemini is now the Google brand featured on the car. Given that B incorporates Gemini, there's obviously an interesting technological alignment there.
 >
-> But I wouldn't call that a way in. McLaren already has an eyewear partner in SunGod. And Google's deal belongs to Google, so it doesn't give a product that uses Gemini any rights of its own.
+> But I wouldn't necessarily interpret that as an automatic route into McLaren. McLaren already has an eyewear relationship with SunGod, and Google's commercial rights belong to Google. They wouldn't automatically extend to another brand simply because that brand uses Gemini technology.
 >
-> My advice would be to keep B out of the first step. Your own letter calls smart glasses a multi-year journey, not a near-term financial driver. So I'd build the deal around glasses and sunglasses, tell every team about B up front, and add it later where a team's contracts allow."
+> My initial recommendation would probably be to keep B outside the first phase of the partnership. You've described smart glasses yourselves as a multi-year journey rather than a near-term financial driver. So, I'd initially build the proposition around prescription eyewear and sunglasses, be transparent with the teams about your involvement in smart glasses, and then potentially explore incorporating B at a later stage where the contractual rights allow it."
 
-### "Are there rules on an Indian company doing a deal like this?"
+### "Are there any regulatory considerations for an Indian company entering into a Formula 1 partnership?"
 
-> "Yeah, there are, and I think your finance and legal team should look at them before anything else. I'm not a lawyer, so please take this as a pointer.
+> "Yeah, there are a couple of things that would be worth reviewing with your finance and legal teams relatively early in the process. I'm obviously not a legal expert, so I wouldn't want to advise you directly on the regulatory side, but it's something we've identified that would need further consideration.
 >
-> India's foreign exchange rules, as the Reserve Bank publishes them, list sponsorship of a sports activity abroad among the payments that need government approval first. That applies when the amount is above 100,000 US dollars, and the approval comes from the sports ministry.
+> Under India's foreign exchange regulations, as published by the Reserve Bank of India, sponsorship of sporting activities overseas can require prior government approval where the amount exceeds $100,000. That approval would generally involve the relevant sports ministry.
 >
-> A licence is a different kind of payment. Royalties and licence fees paid abroad have their own paperwork, and tax usually has to be withheld, depending on the treaty with the other country. You already pay licence fees for your film and character collections, so your team will know that side better than I do.
+> Licensing payments are structured differently. Royalties and licence fees paid to overseas entities have their own documentation requirements, and there may also be withholding tax implications depending on the relevant double taxation agreement. Given that you're already working with international licensors across your existing character and entertainment collections, I'd imagine your finance team is quite familiar with that side of things.
 >
-> You also have companies outside India, including one in Singapore and Owndays in Japan. Whether a deal should sit with one of those or in India is a tax and governance question. That's yours to answer, not ours.
+> You've also got international entities, including your Singapore business and Owndays in Japan. Whether it makes more sense for an agreement to sit with one of those entities or with Lenskart in India would ultimately be a tax, legal and corporate governance consideration for your team.
 >
-> Indian companies are in the sport, though. Mphasis, which is listed in India, is a partner of Haas, and Tata Communications is a partner of Formula 1. So I'd check with your finance and legal team first, and we'll fit the timetable around their answer."
+> But there are already Indian companies operating within Formula 1. Mphasis, which is publicly listed in India, partners with Haas, and Tata Communications works directly with Formula 1. So, there are precedents. We'd just want to make sure the relevant internal and regulatory considerations are addressed before progressing too far commercially."
 
-### "Why go through SPORTFIVE rather than a team directly?"
+### "Why should we work through SPORTFIVE rather than approach a Formula 1 team directly?"
 
-> "Yeah, absolutely, you could go directly to a team. The difference is that a team will naturally tell you about their own team. Whereas we can look at all eleven.
+> "Yeah, absolutely. And you could certainly approach the teams directly. I think the main difference is that if you speak to an individual team, naturally, they're going to position their own team as the best opportunity for your business. Whereas we're in a position to look across all eleven teams and assess the opportunities against your objectives.
 >
-> We understand what the different teams can offer and how each one is priced, so you know what a fair price is. As a listed company, I think that's something your board would ask about. And the teams pay our fee, so there's no extra cost to you.
+> We understand the different commercial propositions, how the teams are priced, what rights are available and where there could potentially be better value. So, we're able to provide that comparative perspective rather than looking at an opportunity in isolation.
 >
-> We also work across a lot of other sports. So if we felt Formula 1 wasn't the best fit, we'd say so and look at other options.
+> Given that you're a publicly listed company, I would imagine having that level of benchmarking and commercial justification would also be quite useful when you're presenting something internally. And from a commercial perspective, our fees are covered by the rights holders, so there's no additional agency fee for Lenskart.
 >
-> And in your case, eyewear names sit at seven teams, and a sponsorship and a licence are often handled by different people at a team. So somebody has to check each team quietly, and line those two conversations up, before your name goes anywhere."
+> The other benefit is that we're not exclusively focused on Formula 1. If, through our conversations, we genuinely felt that another sport would deliver more effectively against your objectives, we'd be in a position to explore that with you as well.
+>
+> And in your particular case, I think there's also quite a bit of value in helping you navigate the category. You've got existing eyewear relationships across seven teams, potential smart glasses conflicts and licensing rights that are often managed separately from sponsorship rights.
+>
+> So, we'd be able to quietly assess those opportunities, coordinate the relevant conversations and establish where there's genuine scope before formally introducing Lenskart to anyone. Ultimately, it's about making the process more efficient and ensuring you're making a well-informed commercial decision."
 
-### "Which team would fit us?"
+### "Which Formula 1 team do you think would be the best fit for Lenskart?"
 
-> "I think it's a little early to say, and I'd rather not guess. It depends on what the job is, whether that's a collection to sell, being known in Japan and Southeast Asia, or India. It also depends on which of your brands leads.
+> "I think it's probably a little early for us to give you a meaningful recommendation. We could certainly put forward a few names, but without fully understanding your objectives, I don't think that would necessarily be the right approach.
 >
-> And then we've got to look at conflicts. Seven teams have an eyewear name, and an eighth sells Police sunglasses. Smart glasses add Meta and Google to the list.
+> If the priority is developing and selling a licensed collection, that might lead us towards a particular team. If it's building brand awareness in Japan or Southeast Asia, the audience profile and geographical relevance might point us somewhere else. And if the focus is primarily India, it may actually be that an individual driver is more relevant.
 >
-> It may also be that the answer isn't a team at all, but a driver or a licence. So I think the first step is understanding your goals, and then we'd come back with what fits."
+> We'd also need to understand which of your brands would lead the partnership, because something that works for Meller might look quite different from something that works for Lenskart or Owndays.
+>
+> Then, of course, there's the category availability. Seven teams already have eyewear relationships, Mercedes sells Police eyewear, and you've got the additional considerations around Meta and Google if smart glasses are involved.
+>
+> So, I think the first step is really understanding what success looks like for you. Once we're aligned on that, we can assess the market properly and come back with a few recommendations that we genuinely believe are relevant.
+>
+> And it might be that the best opportunity isn't necessarily a full team partnership. It could be a driver, a licensing arrangement or a combination of different rights."
 
-### "How would we know whether it worked?"
+### "How would we measure whether the partnership is actually delivering value?"
 
-> "I think we'd want to agree that before anything's signed. And for a retailer, I'd use numbers you already report. For Lenskart, I'd look at four areas.
+> "Yeah, I think that's something we'd want to establish together before entering into any agreement. Particularly for a consumer business like Lenskart, I think there are some very tangible metrics we could build the partnership around. I'd probably look at four key areas.
 >
-> The first is the collection itself. How many pairs sold, at what price, and how fast? That's the cleanest number, because it comes from your own tills.
+> The first is direct product performance. If we're developing a licensed collection, we can look at how many units are sold, the average selling price, how quickly the collection sells through and the revenue it generates. That's probably the most straightforward commercial measurement because it's coming directly from your own retail and e-commerce data.
 >
-> The second is store visits and eye tests in the race markets, which you already measure. Your August letter says Run for a Frame in Thailand lifted store traffic by 120%.
+> The second is store traffic and eye tests. You've already demonstrated through your Run for a Frame campaign in Thailand that marketing activations can drive significant increases in footfall, with that particular campaign generating a 120% uplift. So, around a race weekend in Singapore or Japan, for example, we could look at whether the partnership is driving incremental store visits and eye tests.
 >
-> The third is new customers. How many people in Japan, Singapore or the UAE bought from you for the first time around the race? And how many installed the app or joined Gold? We'd compare those markets with ones that didn't get the push.
+> The third is customer acquisition. How many new customers are purchasing from Lenskart, Owndays or whichever brand is leading the partnership? Are we driving additional app downloads or Gold memberships? We could also compare markets where we're actively leveraging the partnership against markets where we're not, to get a better understanding of the incremental impact.
 >
-> And the fourth is the name. How many more people outside India know Lenskart, Owndays or Meller afterwards? That one takes longer to show.
+> And then the fourth is brand perception and awareness. Are more people in your international markets becoming familiar with Lenskart, Owndays or Meller? Is the partnership helping strengthen your positioning as a global eyewear brand? That's obviously something that takes a little longer to measure, but it's equally important if international brand building is one of your primary objectives.
 >
-> Airwallex is an interesting example. During its McLaren partnership, it reported 50% year-on-year revenue growth across Europe and the Americas, and 57% growth in the UK from new customers. Now, that doesn't mean the sponsorship alone drove those results. But it shows the kind of business outcome a company would track."
+> Airwallex is quite an interesting example in terms of how a business can look at commercial performance alongside a Formula 1 partnership. During its relationship with McLaren, it reported 50% year-on-year revenue growth across Europe and the Americas, and 57% growth in the UK driven by new customers.
+>
+> Now, I'm certainly not suggesting that all of that growth was directly attributable to the McLaren partnership. But it demonstrates the type of business outcomes a company can track alongside its investment in the sport.
+>
+> For Lenskart, I'd want us to agree on a clear measurement framework upfront, rather than trying to establish whether the partnership worked after the investment has already been made."
 
 ### "What does SPORTFIVE do outside Formula 1?"
 
-> "Quite a lot, actually. We work across football, tennis, hockey and several other sports, with more than 60 offices across over 20 countries.
+> "Yeah, quite a lot, actually. We're active across football, tennis, hockey and several other sports, with more than 60 offices across over 20 countries.
 >
-> In football, for example, we've worked with Borussia Dortmund since 1999, and that relationship has recently been extended through 2034. We help them find sponsors, manage partnerships and sell hospitality. In tennis, we're the Australian Open's lead agency for partnerships in Europe.
+> Football is obviously a significant part of our business. We've been working with Borussia Dortmund since 1999, and that relationship has recently been extended through 2034. We support them across sponsorship sales, partnership management and hospitality.
 >
-> And we've also got our business intelligence team supporting us with research, strategy and partnership evaluation. So although we're talking about Formula 1 today, we can explore opportunities across pretty much the entire sports landscape."
+> On the tennis side, we're also the Australian Open's lead agency for commercial partnerships across Europe. And then we've got our dedicated business intelligence capabilities, supporting brands with research, strategic planning, audience insights and partnership evaluation.
+>
+> So, although today's conversation is primarily focused on Formula 1, we have the flexibility to explore opportunities across pretty much the entire sports landscape.
+>
+> And again, it comes back to our brand-led approach. Rather than starting with a property and trying to find a reason for Lenskart to invest in it, we'd rather start with your objectives and identify which platform is best positioned to deliver against them."
 
-### "What's the biggest risk?"
+### "What would you say is the biggest risk for us?"
 
-> "I think the biggest risk is signing a logo with no job behind it. Most teams have 25 or more partners, and the ones that get lost put a name on the car and stop there. For an eyewear brand, the job is usually a product fans can buy.
+> "I think the biggest risk would be entering into a partnership without a clear understanding of what you want it to deliver. As I mentioned, most Formula 1 teams have upwards of 25 commercial partners. So, if you're simply acquiring visibility without having a proper activation strategy behind it, there's a genuine risk that the investment doesn't translate into meaningful business outcomes.
 >
-> So a deal needs a real job, a plan for your stores, and someone on your side who owns it. That's the first thing.
+> For an eyewear brand, I think having a tangible product that fans can engage with is particularly important. You need to know how you're going to bring the partnership into your stores, how you're going to use the content, and who internally is going to take ownership of activating it.
 >
-> The second is a conflict you didn't see. Seven teams have an eyewear name, and three of those belong to EssilorLuxottica, the biggest eyewear group in the world. Contracts often cover more than the title says, which is why we check every team before your name goes anywhere.
+> The second risk is around category conflicts. Seven teams already have eyewear relationships, and three of those brands belong to EssilorLuxottica, the largest eyewear group in the world. The contractual exclusivity can sometimes be broader than the partnership designation suggests. That's why we'd want to conduct a thorough conflict assessment before formally introducing Lenskart to any team.
 >
-> The third is specific to a licence, and it's stock. A licence usually has a guaranteed minimum, so you pay it whether the collection sells or not. That's why I'd start with one small collection in markets you know.
+> The third risk, specifically on the licensing side, is inventory. Typically, you're committing to a minimum royalty guarantee regardless of how well the product sells. So, if you develop too large a collection or enter too many markets initially, you could potentially expose yourself to unnecessary commercial risk. That's why I'd be inclined to start with a relatively focused collection in markets where you already understand the consumer.
 >
-> The fourth is the calendar in the Gulf. Two races there were called off this spring, so I wouldn't hang a launch on one race in that region.
+> The fourth consideration is the race calendar, particularly in the Gulf. We've seen two races in that region called off earlier this year, so I wouldn't necessarily build an entire product launch around one specific race there.
 >
-> And finally, it's about choosing the right option for the job. If the job is being known across India, cricket reaches more people there than F1 does. If it's being seen as a global brand in Japan, Southeast Asia and Europe, Formula 1 is hard to beat. And that's really where we'd come in, helping you make that call."
+> And then, more broadly, I think it's about being clear on whether Formula 1 is genuinely the right platform for the objective. If your primary objective is reaching the largest possible audience across India, cricket would naturally give you access to more people. But if the ambition is establishing yourself as a global eyewear brand across Japan, Southeast Asia, the Middle East and Europe, Formula 1 becomes a particularly compelling proposition.
+>
+> And that's really where we'd come in, helping you assess those different opportunities objectively and making sure there's a clear rationale behind whichever direction you ultimately choose."
 
 ---
 
 ## The close
 
-> "Great, thanks. This has been really helpful.
+> "Great, I think that's been really helpful, and I appreciate you sharing that context with us.
 >
-> So let me just play that back to make sure I've understood. Your main priority is [their priority], the brand that would lead is [which brand], and the rights you'd use most are [which rights]. The markets that matter most are [their markets], and the sign-off sits with [who].
+> Just to make sure we've understood everything correctly, your main priority is [objective], the brand you'd potentially look to lead with is [brand], and the markets that are particularly important to you are [markets]. From a rights perspective, it sounds like [relevant rights] would be the most valuable, and internally, the conversation would need to involve [decision-makers]. Is that a fair reflection of what we've discussed?
 >
-> I think what we'll do from here is put together a short brief based on what we've discussed and share that with you. Once we're aligned on that, we can check for any conflicts across the grid, ask about a licence alongside a sponsorship, and come back with a few options that we think make sense. I'd say give us around two to three weeks to do that properly.
+> What I think would make sense from here is for us to put together a short brief based on today's conversation and share that back with you, just to make sure we're aligned before we start exploring the market.
 >
-> And if we feel there's a better route outside Formula 1, or that the timing isn't quite right, we'll be open about that as well. But yeah, I think this gives us a good starting point."
+> Once we've established that, we can conduct the relevant category conflict checks, understand where there could be opportunities from both a sponsorship and licensing perspective, and come back with a few options that we genuinely feel could work for Lenskart. I'd probably give us around two to three weeks to do that properly.
+>
+> And equally, if we identify something outside Formula 1 that we think could be more relevant, or if we feel the timing isn't necessarily right, we'll be quite transparent about that as well.
+>
+> From your perspective, does that sound like a sensible way forward? And is there anyone else internally you think it would make sense to involve as we develop this further?"
