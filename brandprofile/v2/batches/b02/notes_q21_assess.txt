@@ -1,0 +1,39 @@
+q21 assessment (batch 2, discovery queue), 27 Nov 2026
+Input: in_q21.jsonl, 80 companies. All names run through check.py (also brand names and parents: Lupa, Allianz, Altrad, Orkla,
+Nordex, Sigma Alimentos, Applus, Migros, Purpose Brands, RGE, Empresas Copec, Archirodon, Mars, Seven & i, Raiffeisen, Samsung,
+SR Technics, Budget Direct, Arcelik, Beko, Koc Holding, Richemont). WebSearch used: 3 of 3 (Habanero, Khoi Nguyen Education, Apex America).
+
+RESEARCHED - MAIN (31): Selecta, Semark Ac Group (Lupa), G James Australia, Tyrepower, Nihon Keizaisha, Partex Group, POP Bank Group,
+Kaldewei, Ark Data Centres, Campofrio Food Group, Delta Electricity, Tennis Australia, Bira 91 (Route B), Ocean Outdoor,
+Selex Gruppo Commerciale, Innoson, Alnatura, A-ware Food Group, Chocolat Frey, ACHA Health, Apex America, Grupo Luckia,
+Berliner Wasserbetriebe, Octagon, Raiffeisenlandesbank Oberoesterreich, Alpina Productos Alimenticios, Caribbean Cinemas,
+Air Austral, Asteelflash, Guild Group Holdings, Auto & General Services.
+RESEARCHED - WATCH (27): Goldbet, Crazy Raccoon, AVR, InSync Training, MAC Hospitales, Savegnago, Ilmor, Abba Seafood, Basso Bikes,
+Aeroitalia, A Bathing Ape, Goldrush Group, Cube Controls, Beauparc, Karaca, Caloi, A. Lange & Soehne, Khoi Nguyen Education,
+DetonatioN FocusMe, Bollinger, Le Wagon, Peerless Group, Sogo & Seibu, InstaVolt, Kartell, Accurist, Habanero.
+
+LEFT OUT (19, in dups_q21_assess.jsonl):
+- Listed: Aluar (BYMA), Anadolu Group (BIST AGHOL), Mankind Pharma (NSE/BSE), Air Astana (LSE/AIX/KASE), Assystem (Euronext Paris),
+  ARAUCO (Bolsa de Santiago, part of Empresas Copec).
+- Not a separate company: Allianz Egypt, Altrad Services APAC, Applus+ Pacific, Nordex Energy Spain, Samsung Electric (Schweiz),
+  Arcelik Tuerkiye, Mars Veterinary Health (division of Mars, IN MASTER), Beer Brands (= Tilray Beer Brands, Tilray Brands, Nasdaq).
+- Duplicates: Archirodon Group N.V. (IN MASTER), SR Technics Switzerland (delivered b01), Anytime Fitness (regional brand of
+  Purpose Brands, on the master), APRIL (managed by RGE, on the master).
+- Other: PASHA Holding - compliance (Aliyev/Pashayev family ownership; Wikipedia states corruption involvement). Would meet Route A
+  (revenue about USD 3.1bn 2025) if the user accepts the exposure.
+
+NOT RESEARCHED (3; no page could be opened, no line written):
+- Prosa (prosa.com.mx 403; no Wikipedia article found).
+- ARCO Human Resources Co. (arco.sa redirects to a bare IP address; not followed).
+- Arikanli Holding (arikanliholding.com returned 503 twice).
+
+Flags for the caller:
+- Octagon meets Route C but is a sports-marketing competitor of SPORTFIVE (Omnicom unit); fit set to zero. Likely drop.
+- Chocolat Frey is now a brand of Delica AG (Migros, IN MASTER); kept as a distinct chocolate brand, but the user may treat it as a duplicate.
+  The input CHF 1,050m figure may be Delica's, not Frey's alone.
+- Bira 91: equity total is my sum of disclosed rounds (kind "inferred"); 2025 distress reports not opened - check before outreach.
+- Several figures are old (Kaldewei 2011, Campofrio 2010, Alnatura 2019/20, A-ware 2016, Partex 2010, Selecta 2019); flagged in fin.
+- Many company sites were blocked or returned 403/404/503 (Lupa, Goldbet, Prosa, Apex, A-ware, Arikanli, Crazy Raccoon DNS);
+  Wikipedia was the main source for those.
+- Betting/gaming F1 check: Goldbet, Goldrush, Luckia, Habanero - no F1 deal found on the pages opened (not proven absent).
+- Websites not opened were blanked rather than guessed. delivered/ not updated (no delivery made by this step).

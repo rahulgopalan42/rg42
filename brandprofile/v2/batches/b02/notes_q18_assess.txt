@@ -1,0 +1,26 @@
+NOTES - q18 assessment (batch 2 queue), 27 Nov 2026
+Input: in_q18.jsonl, 80 companies (mixed sectors/countries). All 80 handled in file order: 31 MAIN, 18 WATCH, 30 DUPS, 1 not researched.
+check.py run on every input name, plus brand names, former names and parents (e.g. Grupo Hotusa, Grupo Salinas, Acciona Energia, Pilatus Aircraft, FTMO, Egmont, Heineken, Amusnet, Go-Ahead, Great Eagle, Kyuden, LY Corporation).
+WebSearch used: 3 of 3 (Aqualia figures/ownership; Greenworks listing; Emirates Draw licence status). WebFetch otherwise.
+
+RESEARCHED - MAIN (31)
+Route A: IFA Retail (Grupo IFA); Arctic Slope Regional Corporation; SELAE Loterias y Apuestas del Estado; FEV Group; Marquardt; Cobra Instalaciones y Servicios; Fiba Holding; Nykredit (Spar Nord deal DKK 24.7bn; AUM 2019); Fissler; Sunny Queen Farms (IBISWorld FY2021, old); Kinetic Group (IBISWorld FY2021, old); Aquarion Water Company (USD 2.4bn sale value; no fit); Rönesans Holding; Normal; Preh; Carpet Court (IBISWorld FY2022 only); EML (Employers Mutual) (FY2021, old); Macromill (taken private by CVC, delisted Jun 2025); Efbet (paid sponsorship: Bulgarian league title sponsor); Aqualia.
+Route C: Alkhorayef Group; AndaSeat; AllenComm; Dangote Industries Limited; Rawabi Holding; Totalplay (parent Grupo Salinas is on master; separate telecom brand); Ortec Group; Catalonia Hotels & Resorts; GAC Aion; CGS; Langham Hospitality Group.
+
+RESEARCHED - WATCH (18)
+Argenbright Group; Hail & Cotton; Rocky Mountain Bicycles (CCAA restructuring, sold to Chaos Sports 2025); Ankama; Bluewater Learning; Kindeva Drug Delivery; More Retail; FINN; Movate; Avalanche Studios Group (parent Egmont on master; layoffs); OANDA (parent FTMO on master; USD 422m deal, no Route B support found); Madhive; Florasis; Indorama Corporation; Kindbody; Newcastle Greater Mutual Group; 3T Cycling; Emirates Draw (UAE licence refused, draws paused).
+
+LEFT OUT (DUPS, 30)
+- In master / delivered / F1: DAMAC Group (DAMAC brand is F1 partner); Eurostars Hotel Company (Grupo Hotusa on master); Swarovski Crystal Business (delivered b01); Pilatus Flugzeugwerke; Koch; Chopard; Abertis Infraestructuras; Randstad Empleo (Randstad F1 partner); EGT Interactive (= Amusnet, on master).
+- Listed: Airbus; Savencia; Hugo Boss AG; Isuzu Motors; J&T Express; Raizen; Sodexo; Andina; Kobayashi; 21 Cineplex (Cinema XXI, IDX); Liftoff (check.py listed + investor site); Mitsukoshi Isetan; LINE (LY Corp); Greenworks (Greenworks (Jiangsu), Shenzhen 301260); BLS (de.wikipedia classes it as publicly traded with an ISIN - left out pending check; majority state-owned, so re-include if shares trade only OTC).
+- Not a separate company: Sociedad De Compras Modernas (Carrefour Spain entity); Carrefour Espana; Acciona Green Energy Developments; Kyuden International; Tongwei Solar; Alken-Maes (Heineken's Belgian brewing arm, same business as the F1 partner).
+
+NOT RESEARCHED (1)
+- Mazaya (Jordan, shisha molasses): mazayamolasses.com returned 503 on three tries; no Wikipedia article found. No line written.
+
+CAVEATS
+- Hosts blocked by session network: www.cobrais.com, www.kineticgroup.com.au. Many company sites returned 403/404/503 (cgsinc.com, efbet.com, carpetcourt.com.au, ngmgroup.com.au, indorama.com, mazayamolasses.com).
+- Aqualia ownership split (FCC 51% / IFM 49%) and 14,200 staff come from a WebSearch result summary; aqualia.com pages rendered empty. Revenue EUR 1,790m is from iagua.es (opened).
+- Old figures flagged in `period`: Nykredit (2019), Dangote (2016), Sunny Queen / Kinetic / EML (FY2021), Carpet Court (FY2022), ASRC (FY2022), Fiba (2022).
+- Clay employee counts used as one Route C indicator only alongside an independent page-sourced indicator; Clay brackets recorded as "estimated".
+- Parents' listing not confirmed on a page: Cobra (single shareholder unnamed), Preh (Joyson), GAC Aion (GAC Group).

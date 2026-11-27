@@ -1,0 +1,66 @@
+Batch 2, slug s19 (energy and logistics cluster). Worked 27 Nov 2026. Independent web research.
+Sectors: Oil, Gas & Fuels; Utilities & Renewable Energy; Logistics & Transportation; Shipping, Maritime & Shipbuilding;
+Building Products & Materials; Packaging & Printing; Security Services; Staffing & HR; Real Estate.
+
+WEBSEARCH: 3 of 8 calls used (German security-provider ranking [de]; largest global staffing firms; independent lubricant makers).
+Wikipedia's API returned HTTP 429 to curl for the whole session, so all pages were read with WebFetch. Many guessed Wikipedia
+titles returned 404 (Ruan, Echo Global Logistics, Canpack, Plastipak, Mauser, Roca, Unifeeder, Emarat, Eurogate, Yilport,
+Ajax Systems, House of HR, Disa, Autobahn Tank & Rast, Egger, Kieler Wach- und Sicherheitsgesellschaft).
+
+SOURCES USED (names extracted into DISC)
+- Wikipedia, List of largest container shipping companies (Alphaliner, Apr 2026) - 30 names, 14 private/relevant written
+  https://en.wikipedia.org/wiki/List_of_largest_container_shipping_companies
+- Transport Topics, Top 100 Logistics 2025 - 100 names, 58 written (listed and parent-listed units skipped)
+  https://www.ttnews.com/logistics/rankings/2025
+- Armstrong & Associates, Top 25 global freight forwarders - 24 names, 11 written
+  https://www.3plogistics.com/3pl-market-info-resources/3pl-market-information/aas-top-25-global-freight-forwarders-list/
+- Lünendonk press release, Lünendonk-Liste 2026 Sicherheitsdienstleister in Deutschland (de, PDF) - 25 names, 24 written
+  https://www.luenendonk.de/wp-content/uploads/2026/07/LUE_SEC_2026_PI_f.pdf
+- Lünendonk list index (de) - names only (facility services CH/AT), not written: https://www.luenendonk.de/produkte/listen/
+- SIA, Allegis, Aya and Insight Global top list of largest staffing firms - 10 names, 6 written
+  https://www.staffingindustry.com/editorial/healthcare-staffing-report/allegis-aya-and-insight-global-top-sia-list-of-largest-staffing-firms
+- SIA, largest Japanese staffing firms - 5 names, 1 written (others listed)
+- SIA search-result pages (Medical Solutions, Beacon Hill) - 2 names
+- Wikipedia, List of largest private non-governmental companies by revenue - 23 cluster names, 23 written
+- Wikipedia, List of ferry operators - ~230 names, 41 commercial operators written (councils, state road departments skipped)
+  https://en.wikipedia.org/wiki/List_of_ferry_operators
+- Wikipedia, List of oil exploration and production companies (national oil companies sidebar) - 37 names, 14 unlisted written
+- Company and Wikipedia pages opened in research (en, de, fr, tr): see sources in each record.
+Not opened / gated: Lünendonk facility-services and Zeitarbeit lists (download registration), SIA global top-100 (paywall),
+Forbes largest private companies (table not in page), staffingindustry.com US list URL (404).
+
+CHECK.PY: about 384 name lookups (including parent and alias checks). Results: NEW 236, IN MASTER 87, ALREADY DELIVERED 40,
+POSSIBLE 18, F1 PARTNER 2 (Motul, Petronas), LISTED? 2 (TS Lines, Verisure). A further brainstorm list of ~140 names (lubricants,
+fuel retail, utilities, shipyards, rail/bus, parcel, building products, packaging, real estate, staffing) was checked; only names
+then opened on a page were written to DISC, because DISC needs a source URL. NEW-but-unsourced names worth doing next:
+Feadship, Heesen, Abeking & Rasmussen, Royal IHC, Chantiers de l'Atlantique, Japan Marine United, Eurogate, Yilport, SSA Marine,
+Iryo, RegioJet, Grupo ADO, DPD, Hermes Germany, Evri, DTDC, Packeta, OnTrac, Transdev, Motorex, Blaser Swisslube, Eurol, Wako's,
+Amsoil, Addinol, Mannol, Seaoil, Hyundai Oilbank, Axion Energy/Pan American Energy, Terpel, Aytemiz, TP Petrol, Tank & Rast,
+Alpiq, Thüga, Wien Energie, Sorgenia, ESB, CFE, Hero Future Energies, Casa dos Ventos, Schwenk, Fakro, Internorm, Egger, Mauser,
+Plastipak, Canpack, Saica, Hinojosa, Coveris, Pro Mach, Prinzhorn, Umana, Eurofirms, House of HR, Trenkwalder, Hofmann Personal,
+Ajax Systems, Omniyat, Ellington, M3M, Hiranandani, Bhutani Infra, CNPC, NNPC, Sonangol, ANCAP.
+
+COUNTS
+- DISC: 200 names (146 NEW, 31 IN MASTER, 17 ALREADY DELIVERED, 5 POSSIBLE, 1 LISTED); 28 researched, 62 left out, 110 not researched.
+- MAIN: 18. WATCH: 6. DUPS: 71.
+- Removed from MAIN after cross-checks: Kärcher (check.py POSSIBLE = Alfred Kärcher SE & Co. KG in master); Velux (parent VKR Group
+  in master); EPH (in master); Stihl, Italo, GS Caltex, Rönesans Holding (already written by parallel batch-2 files s12, s15, c02,
+  q18); Uno-X (parent Reitan in master). All logged in DUPS.
+- Left out on evidence: Trafigura and Gunvor (bribery convictions/compliance), Atalian (2024 conviction of former PDG), Tarkett
+  (listed), Petrol Ofisi and Kintetsu World Express (pages show listings), Ardagh (NYSE unit, 2025 bond restructuring),
+  Shapoorji Pallonji (outside cluster, losses). Ravenol flagged as an Austrian GP circuit partner and not used.
+- MAIN by sector: Oil, Gas & Fuels 6 (Pilot Company, Preem, Applegreen, Motor Fuel Group, Opet, Westfalen); Logistics &
+  Transportation 4 (Total Quality Logistics, NFI Industries, FlixBus, LX Pantos); Shipping 3 (Scandlines, Baleària, Meyer Werft);
+  Building Products 3 (Schüco, Hettich, Blum); Security Services 2 (Klüh, Stölting). Utilities, Packaging, Staffing and Real
+  Estate: 0 in MAIN (JERA in WATCH).
+- Points for the user: Schüco's parent Otto Fuchs Group is on the master (kept as a separate brand; user to decide). Several
+  figures are older than three years and flagged (Pilot FY2017, Applegreen FY2019, Blum FY2018/19, Meyer Werft FY2022).
+
+COVERAGE
+Regions reached: US/Canada (logistics, fuel retail), Germany/Austria/Switzerland (security, building products, fuel),
+Nordics (ferries, refining), Spain, Ireland/UK, Turkey, South Korea, Czech Republic. Local-language sources used: German, French,
+Turkish. Not reached: France, Italy, Netherlands, Poland beyond the ferry list; Gulf (Emarat, Petromin only to WATCH), India,
+Japan (except JERA), South-East Asia, Brazil, Mexico, Africa. Subsectors not reached: ports and terminals, parcel and express,
+rail and bus beyond FlixBus, packaging, staffing (only list-level), municipal utilities and renewable developers, real estate.
+Trade-fair exhibitor lists (BAU, transport logistic, interpack, Intersec) and state-owned-enterprise lists were not opened.
+This is not exhaustive.
