@@ -1,0 +1,48 @@
+NOTES a03_assess (batch 2), 27 Nov 2026
+Input: in_a03.jsonl, 143 US contractors from ENR 2026 Top 400 Contractors (discovery source in each record).
+check.py run on all 143: 136 NEW, 7 POSSIBLE (Branch Group~Branch Metrics, S&B~SandboxAQ, Landmark Construction~Landmark Group, Russell~Russell McVeagh, Albert C. Kobayashi~Albert, Danis~Danish Crown, The Hagerman Group~Hager Group). All 7 POSSIBLE matches are clearly different companies, so none were excluded. No IN MASTER, ALREADY DELIVERED, F1 PARTNER or LISTED? hits. DUPS file is therefore empty.
+Left out for ownership reasons: none (no company found with its own shares trading, closed or absorbed). Gemma Power Systems (subsidiary of NYSE-listed Argan, Inc.) and Batson-Cook (wholly owned subsidiary of Kajima USA / Kajima Corp.) kept as subsidiaries of listed groups, with the parent named.
+Assessed and written to MAIN: 110 of 143. Not assessed (no usable page found): 33.
+Method: company websites fetched directly (homepage plus up to two About/History pages); WebFetch used for sites that blocked scripted fetches; Wikipedia used for MWH Global. WebSearch used: 0 of 5.
+Ownership types in MAIN: {'founder-owned': 5, 'requires verification': 58, 'family-owned': 25, 'privately held group': 19, 'subsidiary of listed group': 2, 'subsidiary of private group': 1}.
+Employee-owned (ESOP) firms are coded "privately held group", with the employee-ownership basis in marketing_autonomy_basis (same practice as batch 1).
+Ownership "requires verification" for 58 records: their sites do not state ownership. Fit ratings are low throughout (regional B2B contractors with no consumer brand); category 3 because no F1 partner is a US general contractor.
+Fin entries kept unchanged from input; no newer figures added (J.P. Cullen site states "$950+ million" and Hunzinger "annual construction volume over $350 million", both noted in desc only).
+Sponsorships and signals not researched (brief: do not hunt); none recorded.
+Name note: input "Gerald H. Phillips Inc." (Greenwood Village) is assessed as Gerald H. Phipps Inc. (GH Phipps), the matching company at ghphipps.com.
+Lower-confidence identity matches: Columbia (columbiacc.com), Harper General Contractors (harpergc.com), The Hagerman Group (thehagermangroup.com), Hillwood Construction Services (assessed from Hillwood parent homepage). Verify before delivery.
+
+NOT ASSESSED (names remaining, with reason):
+- Nan Inc. (Honolulu): naninc.com redirects to a domain-for-sale page; no company page found
+- Lemoine (Lafayette): lemoinecompany.com returned 401; no other page found
+- Branch Group (Roanoke): branchgroup.com did not connect; no page found
+- Sletten Cos. (Great Falls): sletteninc.com / sletten.com did not connect
+- Summit Contracting Group Inc. (Jacksonville): summitcontracting.com is a parked domain; real site not found
+- Skyline Construction (San Francisco): skylinesf.com shows only "Coming Soon"
+- Pike Construction Services (Rochester): pikeco.com did not connect
+- Peinado Construction (Frisco): peinadoconstruction.com returned 503
+- Landmark Construction LLC (Athens): domain not found
+- Pioneer General Contractors Inc. (Grand Rapids): pioneergc.com and pioneerinc.com are other companies (Amarillo TX / unconfirmed); Grand Rapids firm not located
+- Hausmann Construction (Lincoln): hausmannconstruction.com did not connect
+- Kast Construction (West Palm Beach): kastconstruction.com returned 403
+- Independence Construction (Brecksville): indexc.com is Independence Excavating; link to "Independence Construction" not confirmed
+- Crowder Constructors Inc. (Charlotte): domain not found
+- Sema Construction Inc. (Centennial): semaconstruction.com did not connect
+- S&B USA Construction (Pittsburgh): domain not found
+- Level 10 Construction (Sunnyvale): level10gc.com shows a hosting suspension notice
+- Rand Construction Corp. (Alexandria): randcorp.com did not connect; randconstruction.com is a Michigan firm
+- Allied Power (Baton Rouge): alliedpower.com is a winch maker and alliedpg.com a Houston turbine service firm; Baton Rouge firm not located
+- Juneau Construction Co. (Atlanta): juneauconstruction.com is a parked domain
+- J. Fletcher Creamer & Son Inc. (Hackensack): jfcson.com returned 403
+- The Bette Cos. (Latham): bettecompanies.com returned no content
+- Parkway C&A (Lewisville): parkwayca.com did not connect
+- CSI Construction Co. (Colorado Springs): domain not found
+- Urban Atelier Group (New York): urbanateliergroup.com returned 503
+- Kiely Family Of Cos. (Tinton Falls): kielyfamily.com returned 503
+- Sampson Construction (Lincoln): sampsonconstruction.com is for sale
+- Holt Construction Corp. (Pearl River): holtconstruction.com and holtcc.com not confirmed as the Pearl River NY firm
+- Place Services Inc. (Canton): placeservices.com is a parked domain
+- Blum Construction (Winston-Salem): blumconstruction.com is a parked domain
+- Uprite Construction (Irvine): upriteconstruction.com returned 403
+- PC Construction Co. (South Burlington): pcconstruction.com returned 403 (curl and WebFetch)
+- Sukut Construction LLC (Santa Ana): sukut.com returned 403

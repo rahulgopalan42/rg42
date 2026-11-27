@@ -1,0 +1,37 @@
+Batch 2 - Sector: Education & Training (s06) - 27 Nov 2026
+WebSearch calls used: 6 of 9 (international school groups; Training Industry Top 20; PE education deals; Brazil education groups (Portuguese); Gulf school operators; India test prep/K-12 revenue).
+
+SOURCES USED (names yielded)
+- EdWeek Market Brief / ISC Research ranking of international school groups (8 names) marketbrief.edweek.org
+- ISC Research article on school groups (9 names) iscresearch.com
+- Spear's private schools deals article (4 names: ISP, GEMS, Cognita, Ajialuna) spearswms.com
+- Tyton Partners H1 2026 education deal recap (17 names, mostly US edtech/assessment)
+- EQT press release Nord Anglia (1); privateequitywire XCL/KKR (1, page redirect not followed)
+- Wikipedia EN pages (Inspired, EF, Kaplan, Galileo, Kumon, Navitas, IU, Prometric, Busy Bees, SABIS, GUS, Honoris, Wall Street English, HMH, Learning Care Group, GEMS, Physics Wallah, Cengage)
+- Local language: ja.wikipedia (Kumon), ko.wikipedia (Kyowon Group), zh.wikipedia (Zuoyebang), de.wikipedia (Klett Gruppe), fr.wikipedia (Babilou), tr.wikipedia (Bahcesehir Koleji), pt.wikipedia (Grupo SEB returned the French appliance company - unusable)
+- Entrackr (Allen), Inc42 (Aakash), Khaleej Times (Taaleem), Gulf News (Almasar Alshamil), globeducate.com
+- Own seed list of ~120 education names run through check.py (no list page; marked as such in DISC)
+- Failed / 404: Training Industry list pages not opened; PE International article (body not shown); ISP site; es.wikipedia Planeta Formacion; Wikipedia slugs for Arco, upGrad, Eruditus, Allen, Ellucian, Simplilearn, Study Group, Navitas_(company).
+
+COUNTS
+- Names extracted to DISC: 177
+- Run through check.py: about 170 (a few Tyton names - Pathful, Lemnis - not checked; they are not researched)
+- IN MASTER: 10 (Cognita, OMNES, Benesse, Multiverse, Instructure, PowerSchool, Universidad Europea, ApplyBoard, Quizlet, Primrose)
+- ALREADY DELIVERED: 2 (Kahoot, Cornerstone OnDemand) + Veritas Capital (owner of HMH)
+- F1 PARTNER: 0
+- Listed / left out as listed: 8 (Physics Wallah, Taaleem, Almasar Alshamil, Cengage grey market, AcadeMedia, Daekyo, Woongjin, Graham Holdings as parent)
+- POSSIBLE left unresolved (not researched): 7
+- NEW: about 150; researched: 24
+- MAIN: 20; WATCH: 4 (SABIS, Bahcesehir Koleji, Globeducate, Allen Career Institute)
+
+COVERAGE
+Subsectors reached: international/private school groups (good), early years childcare (some), private higher education groups (some), language schools/study abroad (EF, WSE, Navitas), test prep/tutoring (Kaplan, Kumon, Aakash, Allen), assessment (Prometric), publishing (Klett, HMH).
+Regions: UK/Europe, US, Gulf, Japan, India, Australia, Africa (Honoris), Hong Kong. Thin: Latin America (Brazil search gave mostly listed groups; Grupo SEB, Eleva, Arco not researched), China, Korea, South-East Asia, Nordics, Spain/Italy, Mexico.
+Not reached: corporate training/certification (QA, Simplilearn, GP Strategies, CompTIA etc. only listed), vocational providers, edtech operators (upGrad, Eruditus, GoStudent, Go1, Babbel, Ellucian not researched).
+
+CAVEATS
+- Several figures are older than three years and flagged in records (Kaplan 2020 revenue, Navitas FY2020, Galileo 2020 deal, HMH 2022 deal, Honoris 2017 funding, Learning Care Group 2019 sites, EF 2017 employees).
+- Prometric Wikipedia infobox conflicts (says Public); Babilou Wikipedia figures conflict; Honoris HQ inferred - flagged in 'outstanding'.
+- check.py marked Taaleem, Physics Wallah and Almasar as NEW, but they are listed: left out.
+- DISC 'not researched' entries (126) are unverified leads only. Nothing here is exhaustive.
+- Delivered names were NOT added to v2/delivered/ by this agent (left to the coordinator).
