@@ -14,3 +14,12 @@
 {"name": "BH Bikes Benelux", "why": "not a separate company: Benelux national entity of Spanish bicycle maker BH Bikes (LinkedIn page per input; Clay bracket refers to the brand, not the entity). Parent brand BH Bikes not assessed here (check.py: BH Bikes NEW)"}
 {"name": "Bhartiya Shiksha Board", "why": "other: not a commercial company; a school education board run by the Bhartiya Shiksha Board Society (registered society; Swami Ramdev president) per https://www.bsb.org.in/"}
 {"name": "Bimbo Bakeries USA", "why": "not a separate company: US operating arm of Grupo Bimbo (check.py: LISTED? Grupo Bimbo, Mexican listed group); sells under Thomas', Sara Lee, Entenmann's and other brands, not as its own consumer brand (https://en.wikipedia.org/wiki/Bimbo_Bakeries_USA)"}
+{"name": "Emeritus", "why": "alias: Emeritus is the brand of Eruditus, which is written to MAIN in this batch (https://eruditus.com/)"}
+{"name": "Dr Lal PathLabs", "why": "listed (NSE: LALPATHLAB; BSE: 539524) per https://en.wikipedia.org/wiki/Dr_Lal_PathLabs"}
+{"name": "Grupo Cartes", "why": "other: established serious compliance problems; owner Horacio Cartes and group companies (Tabesa, Tabacos USA and others) were on the US OFAC SDN list 2023-2025 (lifted Oct 2025) and the group said its brand would be discontinued (https://en.wikipedia.org/wiki/Horacio_Cartes)"}
+{"name": "Bsh Electrodomesticos España", "why": "not a separate company: Spanish national entity of BSH Hausgeräte (Bosch group); single legal entity from the elEconomista ranking, sells under Bosch, Siemens, Balay and other group brands"}
+{"name": "Ferrovial Construccion", "why": "not a separate company: construction legal entity of listed Ferrovial (single legal entity from the elEconomista ranking; parent Ferrovial is listed)"}
+{"name": "IBM Schweiz", "why": "not a separate company / F1 PARTNER parent: Swiss national entity of IBM, which is on the current F1 roster"}
+{"name": "Biomet", "why": "merged away: Biomet, Inc. was acquired by Zimmer in June 2015 and became Zimmer Biomet (listed); input LinkedIn description says so"}
+{"name": "BNI Compromiso Bilbao", "why": "not a separate company: a local chapter of BNI business networking (5 members on LinkedIn); Clay bracket refers to BNI, not the chapter"}
+{"name": "BNI Corrèze Hybride", "why": "not a separate company: a local chapter of BNI business networking (7 on LinkedIn); Clay bracket refers to BNI, not the chapter"}
