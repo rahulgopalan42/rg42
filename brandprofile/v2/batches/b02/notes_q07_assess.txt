@@ -1,0 +1,37 @@
+q07 assessment (batch 2, brief_queue.md), 27 Nov 2026. Input: in_q07.jsonl, 80 companies. All 80 run through check.py, plus brand/parent names
+(Mediclinic International, Vitamin Well, Decathlon, Primark, fenaco, PreZero, Schwarz Group, Sony Interactive Entertainment, Marriott, etc.).
+WebSearch used: 2 of 3 (Cespa/PreZero; noon funding). Everything else by WebFetch of company sites, Wikipedia (en/de/fr/es/ru) and the input list pages.
+
+RESEARCHED - MAIN (35): Beaconhouse School System (C), Bank Rakyat (A), RAC of WA (A), Amsted Automotive (C), Ananta Companies (C), Feser-Graf (C),
+Bingo Industries (A), Nutrabolt (A), Lagerhäuser der Centralschweiz (A), Drake Supermarkets (A), Apave (A), Apexon (C), Bimeda (C),
+Berliner Sparkasse (C), Cunext Copper Industries (A), Canberra Airport (A), BCI British Columbia Investment Management (A), APM Terminals (A),
+UniUni (A), AppleOne Employment Services (C), Applied Medical (C), Noon (A), Angelicoussis Group (C), Bidafarma (A), Brainly (A),
+Camargo Corrêa / Mover (A, 2012 figure), BioAgilytix (C), Giti Tire (A), Berliner Volksbank (C), Power Horse (C), APM Workcare (A),
+Aquent (C), Canadia Group (A), Biocodex (A), Evroopt / Eurotorg (C; Belarus - sanctions screening required before any use).
+Dated figures (older than three years) flagged in fin.period: RAC of WA, Drake, Canberra Airport, APM Workcare (IBISWorld 2022), Bank Rakyat 2021,
+Camargo Corrêa 2012, Brainly funding to 2020. MYR and BYN figures kept with usd_m null (not in the fixed rate table).
+
+RESEARCHED - WATCH (19): Avantha Group, Benevis, DMACK, Big Ant Studios, BackLite Media, BENEFIT, Big Fish Games, Biogen UK, Basis Technologies,
+Bloom Education, JustFoodForDogs, Paper Boat, Biosphera.ntwk, Kopari, Aptara, Agua Caliente Band of Cahuilla Indians, Boundless,
+Blumhouse Games, Blue LLC.
+
+LEFT OUT (DUPS, 21):
+- duplicates of the master: Decathlon España, Primark Tiendas (national entities); Mediclinic Switzerland (Mediclinic International);
+  NOCCO (Vitamin Well); Volg (fenaco); Cespa (PreZero / Schwarz Group); Bungie (Sony Interactive Entertainment).
+- listed: Bakrie Group (IDX group, no unlisted parent), Berjaya Group (Bursa 3395), Ghandhara Tyre (PSX), Bright Horizons (NYSE BFAM).
+- not a separate company: Fashion Logistics Forwarders (Inditex), I-De Redes Electricas Inteligentes (Iberdrola), Neoris (EPAM NEORIS),
+  Apartments by Marriott Bonvoy (Marriott brand; Marriott Bonvoy is an F1 partner).
+- closed: Homebase (UK administration 2024-25; L Catterton Asia 'homebase' logo could not be tied to another company);
+  Pixbet, Bet7K, CassinoPix (their sites redirect to the gov.br 'Brasil sem Bets' notice: MP 1.394/26 bans online betting in Brazil from 25 Sep 2026).
+- other: Salvation Army Australia (charity); Arabic Ragnarok (Clay row for a fan game page, 1 employee).
+
+NOT RESEARCHED (no line written, 5):
+- Bellevue Education: bellevueeducation.com is a parked domain, bellevue-education.com does not resolve; Wikipedia covers only the
+  Bellevue Place Education Trust (a separate free-school trust). Source was "own candidate list (no page)".
+- Albi Market: listed by name only on the Wikipedia supermarket list; no Wikipedia article; albimall.com returned 503.
+- Alphamega Hypermarkets: alphamega.com.cy returned 403; no Wikipedia article.
+- Bravo Supermarket: bravosupermarket.az 404, bravo.az 503, no Wikipedia article (note: Azersun Holding was delivered in b01; link not checked).
+- Ireneforte: own site returned 503; only a logo on L Catterton's portfolio page.
+Hosts that did not resolve in this session: www.maran.gr, www.backlite.ae, www.bellevue-education.com, www.arabicro.com.
+Ownership left "requires verification" where no page named the owner (e.g. Amsted Automotive, Bimeda, Applied Medical, BioAgilytix, Cunext,
+Lagerhäuser der Centralschweiz, APM Workcare, Nutrabolt).

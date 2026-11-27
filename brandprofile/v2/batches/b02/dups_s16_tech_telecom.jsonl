@@ -1,0 +1,247 @@
+{"name": "Digi Communications", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Tele2", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Telia", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Telenor", "why": "LISTED: LISTED? - matches the listed company Telenor; leave it out if it is that company"}
+{"name": "Virgin Media O2", "why": "ALREADY DELIVERED: ALREADY DELIVERED - delivered under the revised methodology: b01 (as Virgin Media O2)"}
+{"name": "Hyperoptic", "why": "ALREADY DELIVERED: ALREADY DELIVERED - delivered under the revised methodology: b01 (as Hyperoptic)"}
+{"name": "1&1", "why": "LISTED: LISTED? - matches the listed company 1&1; leave it out if it is that company"}
+{"name": "Ufinet", "why": "ALREADY DELIVERED: ALREADY DELIVERED - delivered under the revised methodology: b01 (as Ufinet)"}
+{"name": "Liberty Latin America", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Millicom", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Telcel", "why": "IN MASTER: IN MASTER - master: All New Brands (as Telcel)"}
+{"name": "Totalplay", "why": "traded on BIVA (TPLAY)"}
+{"name": "Megacable", "why": "LISTED: LISTED? - matches the listed company Megacable Holdings; leave it out if it is that company"}
+{"name": "Brisanet", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Oi", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Desktop", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Unifique", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "du", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Etisalat e&", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Zain", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Ooredoo", "why": "IN MASTER: IN MASTER - master: Changes Since 18 Nov (as Ooredoo)"}
+{"name": "Mobily", "why": "LISTED: LISTED? - matches the listed company Etihad Etisalat (Mobily); leave it out if it is that company"}
+{"name": "Omantel", "why": "LISTED: LISTED? - matches the listed company Omantel (Oman Telecom); leave it out if it is that company"}
+{"name": "Batelco Beyon", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Turkcell", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Türk Telekom", "why": "LISTED: LISTED? - matches the listed company Türk Telekom; leave it out if it is that company"}
+{"name": "Türksat", "why": "ALREADY DELIVERED: ALREADY DELIVERED - delivered under the revised methodology: b01 (as Türksat)"}
+{"name": "TurkNet", "why": "ALREADY DELIVERED: ALREADY DELIVERED - delivered under the revised methodology: b01 (as TurkNet)"}
+{"name": "Jio Platforms", "why": "now listed on NSE/BSE (Wikipedia infobox)"}
+{"name": "Bharti Airtel", "why": "LISTED: LISTED? - matches the listed company Bharti Airtel; leave it out if it is that company"}
+{"name": "Vi Vodafone Idea", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Hathway", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Rakuten Mobile", "why": "IN MASTER: IN MASTER - master: All New Brands (as Rakuten Mobile)"}
+{"name": "SoftBank", "why": "F1 PARTNER: F1 PARTNER - current F1 partner (as SoftBank Group)"}
+{"name": "KDDI", "why": "LISTED: LISTED? - matches the listed company KDDI; leave it out if it is that company"}
+{"name": "NTT Docomo", "why": "IN MASTER: IN MASTER - master: Capacity To Confirm (as NTT Docomo)"}
+{"name": "Sakura Internet", "why": "LISTED: LISTED? - matches the listed company SAKURA Internet; leave it out if it is that company"}
+{"name": "LG Uplus", "why": "LISTED: LISTED? - matches the listed company LG Uplus Corp.; leave it out if it is that company"}
+{"name": "Chunghwa Telecom", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Far EasTone", "why": "LISTED: LISTED? - matches the listed company Far EasTone; leave it out if it is that company"}
+{"name": "Taiwan Mobile", "why": "LISTED: LISTED? - matches the listed company Taiwan Mobile; leave it out if it is that company"}
+{"name": "China Mobile", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "China Unicom", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "China Tower", "why": "LISTED: LISTED? - matches the listed company China Tower; leave it out if it is that company"}
+{"name": "Smart Communications", "why": "IN MASTER: IN MASTER - master: Capacity To Confirm (as Smart Communications)"}
+{"name": "Globe Telecom", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Converge ICT", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Viettel", "why": "IN MASTER: IN MASTER - master: All New Brands (as Viettel)"}
+{"name": "VNPT", "why": "IN MASTER: IN MASTER - master: All New Brands (as VNPT)"}
+{"name": "MobiFone", "why": "IN MASTER: IN MASTER - master: Capacity To Confirm (as MobiFone)"}
+{"name": "Telkomsel", "why": "IN MASTER: IN MASTER - master: All New Brands (as Telkomsel)"}
+{"name": "XLSmart", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Indosat", "why": "LISTED: LISTED? - matches the listed company Indosat; leave it out if it is that company"}
+{"name": "MTN", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Safaricom", "why": "POSSIBLE: POSSIBLE - Safari Group [master: All New Brands] (note: your older 48-tab sheet; allowed)"}
+{"name": "Airtel Africa", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Liquid Intelligent Technologies", "why": "IN MASTER: IN MASTER - master: NEW AI Infra & Data Centres (on your 48-tab sheet) (as Liquid Intelligent Technologies)"}
+{"name": "Vodacom", "why": "LISTED: LISTED? - matches the listed company Vodacom; leave it out if it is that company"}
+{"name": "Rain", "why": "IN MASTER: IN MASTER - master: NEW Crypto & Digital Assets (on your 48-tab sheet) (as Rain)"}
+{"name": "Maroc Telecom", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Ethio Telecom", "why": "IN MASTER: IN MASTER - master: All New Brands (as Ethio Telecom)"}
+{"name": "Globacom", "why": "IN MASTER: IN MASTER - master: Capacity To Confirm (as Globacom)"}
+{"name": "IHS Towers", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Helios Towers", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Cellnex", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Vantage Towers", "why": "POSSIBLE: POSSIBLE - Vantage [current F1 partner (Ferrari)] (note: your older 48-tab sheet; allowed)"}
+{"name": "American Tower", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Phoenix Tower International", "why": "ALREADY DELIVERED: ALREADY DELIVERED - delivered under the revised methodology: b01 (as Phoenix Tower International)"}
+{"name": "Vertical Bridge", "why": "ALREADY DELIVERED: ALREADY DELIVERED - delivered under the revised methodology: b01 (as Vertical Bridge)"}
+{"name": "edotco", "why": "POSSIBLE: POSSIBLE - EDOTCO Towers Inc. [master: Capacity To Confirm]"}
+{"name": "Mitratel", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Indus Towers", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "SES", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Eutelsat", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Viasat", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Arabsat", "why": "IN MASTER: IN MASTER - master: Capacity To Confirm (as Arabsat)"}
+{"name": "Yahsat Space42", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Thaicom", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Telesat", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "SpaceX", "why": "IN MASTER: IN MASTER - master: NEW Space & Satellites (on your 48-tab sheet) (as SpaceX)"}
+{"name": "Inmarsat", "why": "IN MASTER: IN MASTER - master: NEW Space & Satellites (on your 48-tab sheet) (as Inmarsat)"}
+{"name": "Gilat", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Kacific", "why": "IN MASTER: IN MASTER - master: NEW Space & Satellites (on your 48-tab sheet) (as Kacific)"}
+{"name": "Bose", "why": "IN MASTER: IN MASTER - master: All New Brands (as Bose)"}
+{"name": "Sennheiser", "why": "IN MASTER: IN MASTER - master: All New Brands (as Sennheiser)"}
+{"name": "Harting", "why": "ALREADY DELIVERED: ALREADY DELIVERED - delivered under the revised methodology: b01 (as Harting)"}
+{"name": "Phoenix Contact", "why": "IN MASTER: IN MASTER - master: All New Brands (as Phoenix Contact)"}
+{"name": "Weidmüller", "why": "ALREADY DELIVERED: ALREADY DELIVERED - delivered under the revised methodology: b01 (as Weidmüller)"}
+{"name": "Lapp", "why": "IN MASTER: IN MASTER - master: All New Brands (as Lapp Group)"}
+{"name": "Rohde & Schwarz", "why": "IN MASTER: IN MASTER - master: All New Brands (as Rohde & Schwarz)"}
+{"name": "Würth Elektronik", "why": "POSSIBLE: POSSIBLE - Würth Group [master: Left Out]"}
+{"name": "Sick AG", "why": "IN MASTER: IN MASTER - master: All New Brands (as SICK)"}
+{"name": "Balluff", "why": "ALREADY DELIVERED: ALREADY DELIVERED - delivered under the revised methodology: b01 (as Balluff)"}
+{"name": "Pepperl+Fuchs", "why": "IN MASTER: IN MASTER - master: All New Brands (as Pepperl+Fuchs)"}
+{"name": "Endress+Hauser", "why": "IN MASTER: IN MASTER - master: All New Brands (as Endress+Hauser AG)"}
+{"name": "Kathrein", "why": "antenna business sold; no current figures"}
+{"name": "Bang & Olufsen", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Teufel", "why": "ALREADY DELIVERED: ALREADY DELIVERED - delivered under the revised methodology: b01 (as Teufel)"}
+{"name": "Marshall Group", "why": "IN MASTER: IN MASTER - master: Capacity To Confirm (as Marshall Group)"}
+{"name": "Dyson", "why": "IN MASTER: IN MASTER - master: All New Brands (as Dyson)"}
+{"name": "DJI", "why": "IN MASTER: IN MASTER - master: All New Brands (as DJI)"}
+{"name": "Insta360", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Anker", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Ecovacs", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Dreame", "why": "POSSIBLE: POSSIBLE - Dreame Technology [master: NEW Robotics & Autonomy (on your 48-tab sheet)]"}
+{"name": "Roborock", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Oppo", "why": "IN MASTER: IN MASTER - master: All New Brands (as OPPO)"}
+{"name": "Vivo", "why": "IN MASTER: IN MASTER - master: Capacity To Confirm (as Vivo)"}
+{"name": "Realme", "why": "OPPO-related brand (OPPO in master)"}
+{"name": "OnePlus", "why": "brand of OPPO (in master)"}
+{"name": "Honor", "why": "ALREADY DELIVERED: ALREADY DELIVERED - delivered under the revised methodology: b01 (as Honor)"}
+{"name": "Huawei", "why": "IN MASTER: IN MASTER - master: NEW AI Chips & Semiconductors (on your 48-tab sheet) (as Huawei)"}
+{"name": "Transsion", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Shure", "why": "IN MASTER: IN MASTER - master: Capacity To Confirm (as Shure)"}
+{"name": "Audio-Technica", "why": "ALREADY DELIVERED: ALREADY DELIVERED - delivered under the revised methodology: b01 (as Audio-Technica)"}
+{"name": "Sonos", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Harman", "why": "POSSIBLE: POSSIBLE - Harman International [master: All New Brands]"}
+{"name": "Garmin", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Amazfit", "why": "brand of listed Zepp Health"}
+{"name": "Withings", "why": "ALREADY DELIVERED: ALREADY DELIVERED - delivered under the revised methodology: b01 (as Withings)"}
+{"name": "Oura", "why": "POSSIBLE: POSSIBLE - Oura Health [master: Changes Since 18 Nov] (note: your older 48-tab sheet; allowed)"}
+{"name": "Tado", "why": "IN MASTER: IN MASTER - master: NEW Energy Storage & Climate (on your 48-tab sheet) (as tado°)"}
+{"name": "Eufy", "why": "brand of listed Anker"}
+{"name": "Ezviz", "why": "Hikvision group; listed"}
+{"name": "Hikvision", "why": "LISTED: LISTED? - matches the listed company Hikvision; leave it out if it is that company"}
+{"name": "Dahua", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Arlo", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Hirose Electric", "why": "LISTED: LISTED? - matches the listed company Hirose Electric; leave it out if it is that company"}
+{"name": "JST", "why": "IN MASTER: IN MASTER - master: Clay Leads (Unconfirmed) (as JST Group)"}
+{"name": "Kyocera", "why": "LISTED: LISTED? - matches the listed company Kyocera; leave it out if it is that company"}
+{"name": "Omron", "why": "LISTED: LISTED? - matches the listed company Omron; leave it out if it is that company"}
+{"name": "Keyence", "why": "LISTED: LISTED? - matches the listed company Keyence; leave it out if it is that company"}
+{"name": "Infineon", "why": "LISTED: LISTED? - matches the listed company Infineon; leave it out if it is that company"}
+{"name": "Bosch", "why": "IN MASTER: IN MASTER - master: All New Brands (as Bosch)"}
+{"name": "TDK", "why": "LISTED: LISTED? - matches the listed company TDK; leave it out if it is that company"}
+{"name": "Heraeus", "why": "IN MASTER: IN MASTER - master: All New Brands (as Heraeus Group)"}
+{"name": "Schott", "why": "ALREADY DELIVERED: ALREADY DELIVERED - delivered under the revised methodology: b01 (as SCHOTT AG)"}
+{"name": "Trumpf", "why": "IN MASTER: IN MASTER - master: All New Brands (as TRUMPF)"}
+{"name": "Kostal", "why": "IN MASTER: IN MASTER - master: All New Brands (as Kostal)"}
+{"name": "Diehl", "why": "IN MASTER: IN MASTER - master: All New Brands (as Diehl)"}
+{"name": "Semikron Danfoss", "why": "IN MASTER: IN MASTER - master: All New Brands (as Semikron Danfoss)"}
+{"name": "Sensirion", "why": "LISTED: LISTED? - matches the listed company Sensirion Holding; leave it out if it is that company"}
+{"name": "Melexis", "why": "LISTED: LISTED? - matches the listed company Melexis NV; leave it out if it is that company"}
+{"name": "Nexperia", "why": "IN MASTER: IN MASTER - master: NEW AI Chips & Semiconductors (on your 48-tab sheet) (as Nexperia)"}
+{"name": "Siltronic", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "GlobalFoundries", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Kioxia", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Rapidus", "why": "ALREADY DELIVERED: ALREADY DELIVERED - delivered under the revised methodology: b01 (as Rapidus)"}
+{"name": "SK hynix", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Samsung Electronics", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Yangtze Memory", "why": "on US Entity List (export-control sanctions); left out on compliance grounds"}
+{"name": "CXMT ChangXin Memory", "why": "listed on SSE (688825)"}
+{"name": "SMIC", "why": "LISTED: LISTED? - matches the listed company SMIC; leave it out if it is that company"}
+{"name": "Unisoc", "why": "IN MASTER: IN MASTER - master: NEW AI Chips & Semiconductors (on your 48-tab sheet) (as UNISOC)"}
+{"name": "HiSilicon", "why": "Huawei subsidiary (Huawei in master)"}
+{"name": "Moore Threads", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Biren Technology", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "MediaTek", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Realtek", "why": "LISTED: LISTED? - matches the listed company Realtek; leave it out if it is that company"}
+{"name": "Foxconn Hon Hai", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Pegatron", "why": "LISTED: LISTED? - matches the listed company Pegatron; leave it out if it is that company"}
+{"name": "Luxshare", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Jabil", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Celestica", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Kitron", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Creation Technologies", "why": "POSSIBLE: POSSIBLE - Creatio [master: NEW AI Models & Applications (on your 48-tab sheet)]"}
+{"name": "Tata Electronics", "why": "Wikipedia redirects to Tata Group; no company-level data; sister Tata Communications is an F1 partner"}
+{"name": "Rebellions", "why": "POSSIBLE: POSSIBLE - rebel [master: All New Brands] (note: your older 48-tab sheet; allowed)"}
+{"name": "DeepX", "why": "IN MASTER: IN MASTER - master: All New Brands (as DEEPX)"}
+{"name": "Graphcore", "why": "IN MASTER: IN MASTER - master: NEW AI Chips & Semiconductors (on your 48-tab sheet) (as Graphcore)"}
+{"name": "Cerebras", "why": "now listed on Nasdaq (CBRS)"}
+{"name": "Tenstorrent", "why": "IN MASTER: IN MASTER - master: All New Brands (as Tenstorrent)"}
+{"name": "Ampere Computing", "why": "IN MASTER: IN MASTER - master: NEW AI Chips & Semiconductors (on your 48-tab sheet) (as Ampere Computing)"}
+{"name": "SiFive", "why": "IN MASTER: IN MASTER - master: NEW AI Chips & Semiconductors (on your 48-tab sheet) (as SiFive)"}
+{"name": "Axelera AI", "why": "IN MASTER: IN MASTER - master: NEW AI Chips & Semiconductors (on your 48-tab sheet) (as Axelera AI)"}
+{"name": "Etched", "why": "IN MASTER: IN MASTER - master: Funding Talks - Update (as Etched)"}
+{"name": "Lightmatter", "why": "IN MASTER: IN MASTER - master: NEW AI Chips & Semiconductors (on your 48-tab sheet) (as Lightmatter)"}
+{"name": "Hailo", "why": "IN MASTER: IN MASTER - master: NEW AI Chips & Semiconductors (on your 48-tab sheet) (as Hailo)"}
+{"name": "Zeiss SMT", "why": "Zeiss group already delivered"}
+{"name": "VDL Groep", "why": "POSSIBLE: POSSIBLE - VDL Groep B.V. [master: All New Brands]"}
+{"name": "Prodrive Technologies", "why": "POSSIBLE: POSSIBLE - Prodrive [master: Capacity To Confirm]"}
+{"name": "JSR", "why": "IN MASTER: IN MASTER - master: All New Brands (as JSR)"}
+{"name": "Arrow", "why": "POSSIBLE: POSSIBLE - Arrow Electronics [current F1 partner (McLaren)]; Arrow Group of Companies [master: Capacity To Confirm]"}
+{"name": "Avnet", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "WPG Holdings", "why": "LISTED: LISTED? - matches the listed company WPG Holdings Limited; leave it out if it is that company"}
+{"name": "Bechtle", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Cancom", "why": "LISTED: LISTED? - matches the listed company Cancom; leave it out if it is that company"}
+{"name": "Computacenter", "why": "LISTED: LISTED? - matches the listed company Computacenter; leave it out if it is that company"}
+{"name": "Adesso", "why": "LISTED: LISTED? - matches the listed company adesso SE; leave it out if it is that company"}
+{"name": "Allgeier", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Sopra Steria", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Capgemini", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Atos", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Alten", "why": "LISTED: LISTED? - matches the listed company ALTEN; leave it out if it is that company"}
+{"name": "Akkodis", "why": "F1 PARTNER: F1 PARTNER - current F1 partner (Mercedes) (as Akkodis)"}
+{"name": "Segula Technologies", "why": "IN MASTER: IN MASTER - master: Clay Leads (Unconfirmed) (as SEGULA Technologies)"}
+{"name": "Talan", "why": "IN MASTER: IN MASTER - master: NEW Cybersecurity (on your 48-tab sheet) (as Talan)"}
+{"name": "Econocom", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "NTT Data", "why": "IN MASTER: IN MASTER - master: All New Brands (as NTT DATA)"}
+{"name": "TCS", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "HCLTech", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Hexaware", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Sutherland", "why": "IN MASTER: IN MASTER - master: NEW AI Models & Applications (on your 48-tab sheet) (as Sutherland)"}
+{"name": "Konecta", "why": "IN MASTER: IN MASTER - master: NEW AI Models & Applications (on your 48-tab sheet) (as Konecta)"}
+{"name": "EPAM", "why": "shares trade publicly (analyst knowledge; check.py did not flag)"}
+{"name": "Netcompany", "why": "LISTED: LISTED? - matches the listed company Netcompany Group; leave it out if it is that company"}
+{"name": "Visma", "why": "ALREADY DELIVERED: ALREADY DELIVERED - delivered under the revised methodology: b01 (as Visma)"}
+{"name": "SoftwareOne", "why": "LISTED: LISTED? - matches the listed company SoftwareONE; leave it out if it is that company"}
+{"name": "SHI International", "why": "IN MASTER: IN MASTER - master: All New Brands (as SHI International Corp.)"}
+{"name": "World Wide Technology", "why": "IN MASTER: IN MASTER - master: All New Brands (as World Wide Technology)"}
+{"name": "Optiv", "why": "IN MASTER: IN MASTER - master: All New Brands (as Optiv)"}
+{"name": "Peraton", "why": "IN MASTER: IN MASTER - master: All New Brands (as Peraton)"}
+{"name": "Slalom", "why": "IN MASTER: IN MASTER - master: Capacity To Confirm (as Slalom)"}
+{"name": "Softtek", "why": "IN MASTER: IN MASTER - master: Clay Leads (Unconfirmed) (as Softtek)"}
+{"name": "Stefanini", "why": "IN MASTER: IN MASTER - master: Clay Leads (Unconfirmed) (as Stefanini)"}
+{"name": "Globant", "why": "F1 PARTNER: F1 PARTNER - current F1 partner (Formula 1) (as Globant)"}
+{"name": "Indra", "why": "F1 PARTNER: F1 PARTNER - current F1 partner (as Indra Sistemas (Indra Group))"}
+{"name": "Minsait", "why": "brand of Indra (F1 partner)"}
+{"name": "Ayesa", "why": "IN MASTER: IN MASTER - master: All New Brands (as Ayesa)"}
+{"name": "Engineering Ingegneria Informatica", "why": "ALREADY DELIVERED: ALREADY DELIVERED - delivered under the revised methodology: b01 (as Engineering Ingegneria Informatica)"}
+{"name": "QTS Data Centers", "why": "ALREADY DELIVERED: ALREADY DELIVERED - delivered under the revised methodology: b01 (as QTS Data Centers)"}
+{"name": "Vantage Data Centers", "why": "IN MASTER: IN MASTER - master: NEW AI Infra & Data Centres (on your 48-tab sheet) (as Vantage Data Centers)"}
+{"name": "Stack Infrastructure", "why": "IN MASTER: IN MASTER - master: NEW AI Infra & Data Centres (on your 48-tab sheet) (as STACK Infrastructure)"}
+{"name": "Aligned Data Centers", "why": "IN MASTER: IN MASTER - master: NEW AI Infra & Data Centres (on your 48-tab sheet) (as Aligned Data Centers)"}
+{"name": "EdgeConneX", "why": "IN MASTER: IN MASTER - master: NEW AI Infra & Data Centres (on your 48-tab sheet) (as EdgeConneX)"}
+{"name": "CyrusOne", "why": "IN MASTER: IN MASTER - master: NEW AI Infra & Data Centres (on your 48-tab sheet) (as CyrusOne)"}
+{"name": "Switch", "why": "IN MASTER: IN MASTER - master: Funding Talks - Update (as Switch)"}
+{"name": "Yondr", "why": "IN MASTER: IN MASTER - master: NEW AI Infra & Data Centres (on your 48-tab sheet) (as Yondr Group)"}
+{"name": "Global Switch", "why": "IN MASTER: IN MASTER - master: NEW AI Infra & Data Centres (on your 48-tab sheet) (as Global Switch)"}
+{"name": "AirTrunk", "why": "IN MASTER: IN MASTER - master: NEW AI Infra & Data Centres (on your 48-tab sheet) (as AirTrunk)"}
+{"name": "Princeton Digital Group", "why": "IN MASTER: IN MASTER - master: NEW AI Infra & Data Centres (on your 48-tab sheet) (as Princeton Digital Group)"}
+{"name": "ST Telemedia Global Data Centres", "why": "IN MASTER: IN MASTER - master: NEW AI Infra & Data Centres (on your 48-tab sheet) (as ST Telemedia Global Data Centres)"}
+{"name": "Data4", "why": "IN MASTER: IN MASTER - master: Capacity To Confirm (as Data4)"}
+{"name": "Atlas Edge", "why": "IN MASTER: IN MASTER - master: NEW AI Infra & Data Centres (on your 48-tab sheet) (as AtlasEdge)"}
+{"name": "Iron Mountain", "why": "F1 PARTNER: F1 PARTNER - current F1 partner (McLaren) (as Iron Mountain)"}
+{"name": "Scala Data Centers", "why": "IN MASTER: IN MASTER - master: NEW AI Infra & Data Centres (on your 48-tab sheet) (as Scala Data Centers)"}
+{"name": "Ascenty", "why": "IN MASTER: IN MASTER - master: NEW AI Infra & Data Centres (on your 48-tab sheet) (as Ascenty)"}
+{"name": "Africa Data Centres", "why": "IN MASTER: IN MASTER - master: NEW AI Infra & Data Centres (on your 48-tab sheet) (as Africa Data Centres)"}
+{"name": "Crusoe", "why": "IN MASTER: IN MASTER - master: NEW AI Infra & Data Centres (on your 48-tab sheet) (as Crusoe)"}
+{"name": "Nscale", "why": "IN MASTER: IN MASTER - master: Changes Since 18 Nov (as Nscale)"}
+{"name": "Fluidstack", "why": "IN MASTER: IN MASTER - master: NEW AI Infra & Data Centres (on your 48-tab sheet) (as Fluidstack)"}
+{"name": "Datagroup", "why": "LISTED: LISTED? - matches the listed company DATAGROUP SE; leave it out if it is that company"}
+{"name": "Arvato Systems", "why": "POSSIBLE: POSSIBLE - Arvato Group [master: All New Brands]"}
+{"name": "MHP", "why": "IN MASTER: IN MASTER - master: All New Brands (as MHP (management and IT consultancy))"}
+{"name": "Syntax Systems", "why": "POSSIBLE: POSSIBLE - Syntax [master: Clay Leads (Unconfirmed)]"}
+{"name": "Algar Telecom", "why": "parent Grupo Algar is IN MASTER (Capacity To Confirm); same Algar brand, left out"}
+{"name": "Carl Zeiss", "why": "alias of Zeiss, ALREADY DELIVERED (b01)"}

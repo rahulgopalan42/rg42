@@ -1,0 +1,26 @@
+Batch 2, s14: sectors "Media, Entertainment & Publishing" and "Sports, Fitness & Events". Worked 27 Nov 2026. Independent web research.
+
+WEBSEARCH: 4 of 8 calls used (EuropeActive/Deloitte fitness operators; Pollstar 2025 promoters; Japanese sporting-goods revenue ranking; Brazilian media groups revenue).
+
+LIST SOURCES (names extracted)
+- en.wikipedia List of amusement park rankings (operator table + parks) - 16
+- en.wikipedia List of movie theater chains - 75 extracted (about 200 on page; national branches of the same chains and defunct chains skipped)
+- Health Club Management, "Research: Record highs" (EuropeActive/Deloitte 2026 report summary) - 14 operators and deal targets
+- en.wikipedia List of bicycle manufacturing companies - 32 extracted (several hundred on page, mostly defunct or small; not all taken)
+- WebSearch summaries: Pollstar 2025 year-end (TEG Live #8, Frontier Touring #18; promoter chart paywalled) - 2; FASHIONSNAP world sports maker ranking (image, text only) - 11 names, all listed or already checked; InfoMoney (Grupo Dreamers) - 1; Forbes Brasil media billionaires - 4 groups
+- Analyst seed list: about 330 names checked from prior knowledge of the subsectors (DISC source ""), NOT read off a page; none reached MAIN without a page opened.
+Pages opened for research (all Wikipedia unless noted): Skechers, Fanatics, Topgolf, Merlin Entertainments, Stats Perform, fr:Amaury Sport Organisation, Matchroom Sport, ONE Championship, LIV Golf, Virgin Active, Cult.fit, Learfield, Oak View Group, Axel Springer SE, de:Funke Mediengruppe, Mediawan, Legendary Entertainment, Nikkei Inc., SRAM, Accell Group, fr:Skis Rossignol, Joma, it:Diadora, Lotto Sport Italia, Hudl, SeatGeek, PortAventura World, nl:Efteling, KidZania, tr:Acun Medya, Pathé, pt:Prozis, Prime (drink), EveryMatrix, TrackMan, de:Uvex, es:Orbea, de:Jako, Caracol Televisión, es:Grupo Multimedios, Lotte World, Shaw Organisation, Hero Cycles, Hyrox, Wahoo Fitness, Independent Talent Group, pt:Rock in Rio, infomoney.com.br (Grupo Dreamers), Ironman Triathlon, Polar Electro, Professional Fighters League, Concord, A24, Kobalt Music Group.
+Could not open (404/403/405): mediadb.eu IfM ranking (403), sgieurope.com (405), teg.com.au/about, Wikipedia pages for sportswear brands list, largest media companies list, OSN, BioTechUSA (hu), Kask, Golden Village, Olimp, Kinexon, Teamworks, The Ironman Group, Cube.
+
+COUNTS
+- DISC: 505 unique names, all run through check.py: NEW 366, IN MASTER 64, POSSIBLE 37, LISTED? 14, F1 PARTNER 13, ALREADY DELIVERED 11.
+  Stage: researched 47, left out 182 (master/delivered/F1/possible-same/listed/insolvent/compliance), not researched 276.
+- MAIN: 34 (Route A 23, Route C 11; Sports 21, Media 13). WATCH: 12. DUPS: 26.
+- Notable left out: Fanatics (holds a Formula One licensing agreement), DAZN (Madring GP partner page), Prime Hydration (in master), LIV Golf (Chapter 11, winding down), Accell (insolvent Aug 2026), Oak View Group (USD 15m antitrust fine), Concord (merged into BMG), Lagardère Sports (= SPORTFIVE).
+- Flags for the user: A.S.O. (parent Groupe Amaury in master), Hero Cycles (parent Hero Motors in master), Orbea (Mondragon in master), Nikkei (subsidiary FT is an Aston Martin partner), Topgolf (owner Leonard Green delivered b01), uvex (Warburg Pincus in master as a firm), Cult.fit (IPO filed - drops out if it lists), Learfield (agency competitor, WATCH).
+- Several MAIN records rely on older figures (SRAM 2020, Pathé 2017, Hero Cycles 2017-18, Axel Springer revenue 2019 with 2025 valuation, ONE 2021 valuation) - flagged in each record.
+
+COVERAGE
+Covered thinly: theme parks, cinema chains, fitness clubs (Europe/India), sportswear and teamwear (Spain/Germany/Italy/US), ski and bike equipment, sports data and betting supply, ticketing, promoters, MMA/boxing, music rights, film studios, German/Japanese/Mexican/Brazilian media.
+NOT reached or barely reached: Gulf media and entertainment (OSN, Rotana, Saudi event companies), Turkey beyond Acun Medya, South Korea (JoongAng/Megabox, Lotte Cultureworks), China (Fantawild ownership, private sportswear), Nordics media (Amedia), India media and sports leagues, Africa, sports nutrition beyond Prozis (ESN, More Nutrition, Olimp, BioTechUSA, Iovate, Nutrabolt), sim-racing and motorsport equipment (Moza, Simucube, OMP, Stilo, Arai, Recaro, Momo), golf equipment, connected fitness (Freeletics, Tonal), league commercial arms (Bundesliga International, LaLiga Tech, PGA Tour Enterprises), talent agencies (Gersh, Paradigm), IHRSA global ranking, SGI/SGB rankings, ISPO and Eurobike exhibitor lists, PE portfolio pages.
+276 DISC names remain "not researched". Nothing here is exhaustive.

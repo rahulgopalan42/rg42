@@ -6,3 +6,6 @@
 {"name": "Hewlett-Packard Schweiz", "why": "not a separate company: Swiss sales entity of HP Inc. (listed, NYSE); HP is a current F1 partner (Ferrari) per check.py"}
 {"name": "Federal Hotels Group", "why": "POSSIBLE - Federal Group [master: Capacity To Confirm]; Federal Hotels is the hotel arm of the same Tasmanian Federal Group"}
 {"name": "Hauck Aufhäuser Lampe", "why": "merged away: ABN AMRO (listed, Euronext) agreed to buy all shares in May 2024; merged with Bethmann Bank and now trades as Bethmann HAL (https://de.wikipedia.org/wiki/Hauck_Aufh%C3%A4user_Lampe_Privatbank)"}
+{"name": "Carnival UK (P&O Cruises & Cunard)", "why": "not a separate company: UK operating unit of Carnival Corporation (listed, NYSE: CCL; https://en.wikipedia.org/wiki/Carnival_Corporation_%26_plc); it trades through the P&O Cruises and Cunard brands, which check.py shows as NEW and could be assessed separately"}
+{"name": "Htoo Group", "why": "other: under sanctions (OFAC re-designated HTOO Group 25 Mar 2022; UK 2021; EU since 2008; https://en.wikipedia.org/wiki/Htoo_Group_of_Companies)"}
+{"name": "Grupo Ángeles", "why": "IN MASTER - master: All New Brands (as Grupo Vazol); Grupo Empresarial Ángeles was renamed Grupo Vazol (https://es.wikipedia.org/wiki/Grupo_Empresarial_%C3%81ngeles)"}
