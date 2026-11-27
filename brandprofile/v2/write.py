@@ -49,8 +49,8 @@ def region(d):
     for r, S_ in REGION.items():
         if c in S_: return r
     return 'Europe' if c else 'Not recorded'
-def write(D, Q, W, I, tab, path, X=None):
-    wb = Workbook(write_only=True); X = X or []
+def write(D, Q, W, I, tab, path, X=None, extra=None):
+    wb = Workbook(write_only=True); X = X or []; extra = extra or {}
     bt = BT.run(); bs = BT.summary(bt)
     n = len(Q); pr = Counter(d['A']['priority'] for d in Q); cf = Counter(d['A']['conf'] for d in Q); tr = Counter(d['A']['tier_txt'] for d in Q); rt = Counter(d['A']['route'] for d in Q)
     own = Counter(B.clean(d.get('ownership_type')) or 'requires verification' for d in Q); reg = Counter(region(d) for d in Q); sec = Counter(d['sector'] for d in Q); reach = Counter(B.clean(d.get('reach')).title() or 'Not recorded' for d in Q)
@@ -97,7 +97,8 @@ def write(D, Q, W, I, tab, path, X=None):
            ['No subscription database was used: PitchBook, Orbis, D&B Hoovers and Sales Navigator are not available to me; Crunchbase is out of allowance until 1 Dec 2026; Apollo was not used. Sources are public pages: rankings, registries, annual reports, company and owner sites, trade press.'],
            ['Web searches were limited to about 11 per cluster, so each cluster reached the best-documented companies first. Figures are as stated on the page cited; none was estimated by me.'],
            ['The investment tiers and the score weights inside each dimension are a first version. The Backtest tab shows how the routes perform on real sponsors and what I would adjust.']]
-    text(wb, 'Summary', SUM)
+    text(wb, 'Summary', extra.get('summary') or SUM)
+    if extra.get('after_summary'): extra['after_summary'](wb)
     main_tab(wb, 'Consolidated Ranking', [B.row(d) for d in Q])
     for s in [s for s in B.SECTORS if s in tab]: main_tab(wb, re.sub(r'[\\/*?:\[\]]', ' ', s), [B.row(d) for d in tab[s]])
     if 'Domestic' in tab: main_tab(wb, 'Domestic', [B.row(d) for d in sorted(tab['Domestic'], key=lambda d: (d['sector'], d['rank_sector']))])
@@ -110,6 +111,7 @@ def write(D, Q, W, I, tab, path, X=None):
                 'Confirm it is unlisted and who owns it; write the company-specific Formula 1 case; check sponsorships and signals' + ('; ' + B.clean(d['outstanding']) if B.clean(d.get('outstanding')) else ''), B.CLUSTER.get(d['_cluster'], d['_cluster'])]
     grid(wb, 'Discovered - To Assess', ['Company Name', 'Headquarters', 'Sector', 'Subsector', 'Company Description', 'Figure Found', 'Period', 'Source (ranking page)', 'Ownership', 'Geographic Reach (as recorded)',
                                         'Still Needed Before It Is Ranked', 'Research Cluster'], [34, 26, 28, 24, 50, 30, 10, 50, 22, 14, 60, 36], [xrow(d) for d in X], height=45)
+    if extra.get('before_support'): extra['before_support'](wb)
     grid(wb, 'Supporting Research', B.SUPCOLS, B.SUPW, [B.suprow(d) for d in Q + W + I], freeze='B2', height=60)
     # ---- methodology
     ME = [('Revised methodology for non-public companies (governing reference: your master prompt of 27 Nov 2026)',),
@@ -182,7 +184,7 @@ def write(D, Q, W, I, tab, path, X=None):
     RR = []
     for k in clusters:
         note = re.sub(r'\n{2,}', '\n', D['notes'].get(k, '').strip())
-        RR.append([B.CLUSTER.get(k, k), B.CHECKED.get(k) or 'not reported', per[k]['qualified'], per[k]['watch'], per[k]['disc'], per[k]['dups'], per[k]['removed'], note[:6000] or 'No notes file was written.'])
+        RR.append([B.CLUSTER.get(k, k) if not k.startswith('clay_') else 'Clay company search: ' + k, B.CHECKED.get(k) or 'not reported', per[k]['qualified'], per[k]['watch'], per[k]['disc'], per[k]['dups'], per[k]['removed'], note[:6000] or 'No notes file was written.'])
     grid(wb, 'Research Record', ['Cluster Researched', 'Names Run Through the Duplicate Check (as reported)', 'Qualified New Companies', 'On the Verification Watchlist', 'Discovered - To Assess',
                                  'Candidates Left Out by the Research (already on the master, F1 partner or listed)', 'Lines Removed at the Build',
                                  "Researcher's Notes: pages used, regions covered, what was not reached"], [44, 14, 12, 12, 12, 18, 12, 150], RR, height=None)

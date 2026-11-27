@@ -8,8 +8,12 @@ import register
 register.build()
 import build as B, write as Wr
 batch, path = sys.argv[1], sys.argv[2]
-D = B.load(); Q, W, I, tab = B.classify(D['recs']); X = B.classify.discovered
-Wr.write(D, Q, W, I, tab, path, X)
+D = B.load(batch); Q, W, I, tab = B.classify(D['recs']); X = B.classify.discovered
+extra = None
+if batch != 'b01':
+    import batch2
+    extra = batch2.extras(D, Q, W, I, X, batch)
+Wr.write(D, Q, W, I, tab, path, X, extra)
 mine = lambda L: [d for d in L if d['_batch'] == batch]
 os.makedirs(os.path.join(H, 'delivered'), exist_ok=True)
 json.dump([[B.clean(d['name']), B.clean(d.get('website'))] for d in mine(Q + W)], open(os.path.join(H, 'delivered', batch + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=0)

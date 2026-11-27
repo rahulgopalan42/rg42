@@ -16,7 +16,19 @@ CLUSTER = {'d01_asset_wealth': 'asset management, wealth management and private 
            'd07_energy_telecom': 'energy, telecoms and digital infrastructure', 'd08_consumer_west': 'consumer, food and drink, luxury: Europe and North America',
            'd09_consumer_row': 'consumer, retail, hospitality, real estate: Asia-Pacific, Middle East, Africa, Latin America', 'd10_software_nonvc': 'bootstrapped and private equity-owned software',
            'd11_financial_insurance': 'financial services, insurance and payments', 'd12_healthcare': 'healthcare, medical technology and pharmaceuticals',
-           'd13_services_construction': 'professional and commercial services, construction, real estate', 'd14_state_parent': 'state-owned, sovereign-backed and parent-backed brands'}
+           'd13_services_construction': 'professional and commercial services, construction, real estate', 'd14_state_parent': 'state-owned, sovereign-backed and parent-backed brands',
+           'a01_assess': 'assessment of companies found on rankings in batch 1 (part 1)', 'a02_assess': 'assessment of companies found on rankings in batch 1 (part 2)',
+           'a03_assess': 'assessment of companies found on rankings in batch 1 (part 3)', 'a04_assess': 'assessment of companies found on rankings in batch 1 (part 4)',
+           's01_gambling': 'gambling and gaming venues, in depth', 's02_videogames': 'video games and esports, in depth', 's03_tobacco_alcohol': 'tobacco, nicotine and alcoholic drinks, in depth',
+           's04_environment': 'environmental and waste services, in depth', 's05_marketing': 'marketing, advertising and PR, in depth', 's06_education': 'education and training, in depth',
+           's07_diversified': 'conglomerates and family holding groups', 's08_healthcare': 'pharma, medical technology and healthcare services, in depth', 's09_retail': 'retail and e-commerce, in depth',
+           's10_automotive': 'automotive and mobility, in depth', 's11_financial': 'payments, financial services and banking, in depth', 's12_consumer': 'consumer products, beauty and home, in depth',
+           'c01_europe': 'largest non-listed and family companies by country, Europe (local-language rankings)', 'c02_world': 'largest non-listed, family and state companies by country, outside Europe',
+           'v01_clay': 'Clay leads verified on the web (part 1)', 'v02_clay': 'Clay leads verified on the web (part 2)', 'v03_clay': 'Clay leads verified on the web (part 3)'}
+FILE_OK = re.compile(r'^(watch_|dups_)?[a-z]\d\d_[a-z0-9_]+$')
+def via(d):
+    v = clean(d.get('discovered_via')).lower()
+    return 'Clay' if 'clay' in v and 'web' not in v and 'multiple' not in v else 'Crunchbase' if 'crunchbase' in v and 'multiple' not in v else 'Multiple sources' if 'multiple' in v or ('clay' in v and 'web' in v) else 'Independent web research'
 SECTORS = ['Automotive & Mobility', 'Aerospace, Defence & Space', 'Airlines & Air Travel', 'Travel, Hotels & Leisure', 'Gambling & Gaming Venues', 'Sports, Fitness & Events', 'Video Games & Esports',
            'Software, Internet & AI', 'Media, Entertainment & Publishing', 'Telecommunications', 'Semiconductors & Electronics', 'IT Services & Consulting', 'Banking & Lending', 'Insurance',
            'Investment & Capital Markets', 'Financial Services & Payments', 'Oil, Gas & Fuels', 'Utilities & Renewable Energy', 'Mining & Metals', 'Chemicals & Materials', 'Industrial Machinery & Equipment',
@@ -47,12 +59,19 @@ def read_jsonl(p):
         except Exception: continue
         if isinstance(d, dict): out.append(d)
     return out
-def load():
-    recs = []; dups = []; notes = {}; log = []
+def load(only=None):
+    """only: read one batch folder (for example 'b02'); None reads every batch"""
+    recs = []; dups = []; notes = {}; log = []; disc = []; clay = []
     for bd in sorted(glob.glob(os.path.join(H, 'batches', '*'))):
         batch = os.path.basename(bd)
+        if only and batch != only: continue
         for p in sorted(glob.glob(os.path.join(bd, '*.jsonl'))):
             base = os.path.basename(p)[:-6]
+            if base.startswith('disc_'):                 # the discovery register kept by each researcher: every name read off a list, whatever became of it
+                for d in read_jsonl(p):
+                    if clean(d.get('name')): d['_cluster'] = base[5:]; d['_batch'] = batch; disc.append(d)
+                continue
+            if not FILE_OK.match(base): continue         # work files (inputs, checks) are not research output
             if base.startswith('dups_'):
                 for d in read_jsonl(p): dups.append((clean(d.get('name')), clean(d.get('why')), base[5:], batch))
                 continue
@@ -98,8 +117,15 @@ def load():
         d['_discovery_only'] = (not sr) or sr <= listpages
         sec = SECKEY.get(norm(clean(d.get('sector'))))
         if not sec: sec = 'Diversified & Other'; d['_sector_note'] = clean(d.get('sector'))
-        d['sector'] = sec; d['A'] = S.assess(d); out.append(d)
-    return {'recs': out, 'raw': raw, 'excluded': excluded, 'xdup': xdup, 'dups': dups, 'notes': notes}
+        d['sector'] = sec; d['A'] = S.assess(d); d['_via'] = via(d); out.append(d)
+    if only != 'b01':
+        for p in sorted(glob.glob(os.path.join(H, 'discovery', 'clay', '*.jsonl'))):
+            for d in read_jsonl(p):
+                if clean(d.get('name')): d['_file'] = os.path.basename(p)[:-6]; clay.append(d)
+        for p in sorted(glob.glob(os.path.join(H, 'discovery', 'clay', 'notes_*.txt'))): notes[os.path.basename(p)[6:-4]] = open(p, encoding='utf-8', errors='replace').read()
+    n = Counter(d['_cluster'] for d in disc)
+    for k, v in n.items(): CHECKED[k] = v
+    return {'recs': out, 'raw': raw, 'excluded': excluded, 'xdup': xdup, 'dups': dups, 'notes': notes, 'disc': disc, 'clay': clay, 'only': only}
 def order_key(d): a = d['A']; return (-a['total'], -a['fin'], -a['fit'], -a['intent'], -a['access'], len(a['flags']), clean(d['name']).lower())
 def classify(R):
     """qualified = a route is met and capacity is Confirmed or Indicative; watch = no route met (financial verification needed); low = Insufficient capacity"""
@@ -193,7 +219,7 @@ def row(d, watch=False):
     c = [clean(d['name']), '', '', 'x' if 'you marked it x' in sheet else '', hq, a['tier_txt'] + (' (estimate)' if a['tier'] else ''), a['priority'] if not watch else 'To Verify',
          d.get('rank_sector', '') if not watch else '', d.get('rank_all', ''), a['total'],
          clean(d.get('desc')), d['sector'] + (': ' + clean(d.get('subsector')) if clean(d.get('subsector')) else ''),
-         ('Not listed: subsidiary of ' + pi + (' (listed)' if pl == 'listed' else '')) if pi and 'subsidiary' in own.lower() else 'Private (not listed)',
+         d.get('_listing_txt') or (('Not listed: subsidiary of ' + pi + (' (listed)' if pl == 'listed' else '')) if pi and 'subsidiary' in own.lower() else 'Private (not listed)'),
          (figline(M, 'revenue') or (('ARR ' + figline(M, 'arr')) if 'arr' in M else 'Not disclosed')), 'Not applicable (not listed)', 'Not found', prof, liq,
          figline(M, 'marketing_spend') or 'Not Disclosed', clean(d.get('reach')).title() or 'Not recorded',
          clean(d.get('markets')) + (' Expansion: ' + clean(d['expansion_markets']) if clean(d.get('expansion_markets')) else ''), rationale,
@@ -204,7 +230,7 @@ def row(d, watch=False):
          (f"Route {a['route']}: {a['route_why']}" if a['route'] != 'none' else 'No route met yet'), ev, evsrc, sp,
          '; '.join(sig['capital']) or 'None found', '; '.join(sig['ipo']) or 'None found', '; '.join(sig['geographic']) or 'None found', '; '.join(sig['marketing'] + sig['other']) or 'None found',
          min(4, len(cats)), ('Yes: ' + clean(d['expansion_markets'])) if clean(d.get('expansion_markets')) else ('Yes: see new regions' if sig['geographic'] else 'Not found'),
-         f"Revised methodology, batch {d['_batch'][1:].lstrip('0') or '1'} ({DATE}): {CLUSTER.get(d['_cluster'], d['_cluster'])}", f'New: added on {DATE}']
+         f"Revised methodology, batch {d['_batch'][1:].lstrip('0') or '1'} ({DATE}). Found through: {d.get('_via') or 'Independent web research'}. Research: {CLUSTER.get(d['_cluster'], d['_cluster'])}", f'New: added on {DATE}']
     assert len(c) == len(COLS), (len(c), len(COLS))
     return c
 SUPCOLS = ['Company', 'Website', 'Other Names', 'Sector', 'Subsector', 'Secondary Sector', 'Description', 'Products and Services', 'Business Model', 'Target Customers', 'Ownership Structure', 'Immediate Parent',
@@ -215,9 +241,9 @@ SUPCOLS = ['Company', 'Website', 'Other Names', 'Sector', 'Subsector', 'Secondar
            'Estimated Annual Investment Tier', 'Tier Basis', 'Company Type Used for the Tier', 'Existing Sponsorships', 'Buying Signals (dated, with source)', 'F1 Rationale', 'Customer Overlap With F1',
            'Fit Ratings (0-3)', 'Category Conflict', 'Decision-Maker Roles', 'Owner- or Founder-Led', 'Structure', 'Score: Financial Capacity (35)', '  Affordability (14)', '  Reliability (9)', '  Strength (8)',
            '  Marketing Shown (4)', 'Score: F1 Fit (30)', 'Score: Buying Intent (25)', 'Score: Accessibility (10)', 'Overall Score (100)', 'Priority', 'Rank in Sector', 'Rank Across Sectors',
-           'Compliance Points', 'Still to Verify', 'Sources', 'Date Last Verified', 'Master Spreadsheet Check', 'Research Cluster']
+           'Compliance Points', 'Still to Verify', 'Sources', 'Date Last Verified', 'Master Spreadsheet Check', 'Research Cluster', 'Discovered Through', 'Discovery Source']
 SUPW = [30, 22, 20, 24, 22, 20, 44, 30, 10, 28, 22, 24, 24, 14, 22, 24, 10, 28, 36, 22, 10, 9, 14, 34, 28, 13, 24, 18, 14, 14, 14, 16, 14, 14, 16, 14, 14, 60, 50, 9, 34, 34, 14, 24, 18, 36, 22, 40, 22, 40, 60, 46, 30, 40, 34,
-        30, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11, 9, 9, 24, 36, 50, 13, 40, 34]
+        30, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11, 9, 9, 24, 36, 50, 13, 40, 34, 22, 40]
 def suprow(d):
     a = d['A']; M = a['M']; g = lambda k: clean(d.get(k))
     allfig = '; '.join(f"{S.LABEL.get(clean(f.get('metric')), clean(f.get('metric')))}: {clean(f.get('value_orig'))} = USD {f.get('usd_m')}M, {clean(f.get('period'))}, {clean(f.get('kind'))}, {clean(f.get('source'))}" for f in (d.get('fin') or []) if isinstance(f, dict))
@@ -235,11 +261,11 @@ def suprow(d):
          g('category_conflict'), clean(acc.get('roles')), clean(acc.get('owner_led')), clean(acc.get('structure')), a['fin'], a['fin_parts']['affordability'], a['fin_parts']['reliability'], a['fin_parts']['strength'],
          a['fin_parts']['marketing'], a['fit'], a['intent'], a['access'], a['total'], a['priority'], d.get('rank_sector', ''), d.get('rank_all', ''), g('compliance'), g('outstanding'),
          '; '.join(clean(u) for u in (d.get('sources') or []) if clean(u)), g('verified') or '2026-11-27',
-         f'Checked {DATE}: not on the master spreadsheet' + ('; it is on your older 48-tab sheet' if sheet else ''), CLUSTER.get(d['_cluster'], d['_cluster'])]
+         f'Checked {DATE}: not on the master spreadsheet' + ('; it is on your older 48-tab sheet' if sheet else ''), CLUSTER.get(d['_cluster'], d['_cluster']), d.get('_via') or 'Independent web research', clean(d.get('discovery_source'))]
     assert len(c) == len(SUPCOLS) == len(SUPW), (len(c), len(SUPCOLS), len(SUPW))
     return c
 if __name__ == '__main__':
-    D = load(); Q, W, I, tab = classify(D['recs'])
+    D = load(sys.argv[3] if len(sys.argv) > 3 else None); Q, W, I, tab = classify(D['recs'])
     print('lines read', D['raw'], '| removed by the duplicate and eligibility check', len(D['excluded']), Counter(e[1].split(':')[0] for e in D['excluded']), '| repeated across clusters', len(D['xdup']), '| companies', len(D['recs']))
     print('discovered from a ranking only, not yet assessed', len(classify.discovered))
     print('qualified', len(Q), Counter(d['A']['conf'] for d in Q), '| verification watchlist', len(W), '| insufficient', len(I))
