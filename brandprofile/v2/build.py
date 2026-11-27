@@ -18,7 +18,7 @@ CLUSTER = {'d01_asset_wealth': 'asset management, wealth management and private 
            'd11_financial_insurance': 'financial services, insurance and payments', 'd12_healthcare': 'healthcare, medical technology and pharmaceuticals',
            'd13_services_construction': 'professional and commercial services, construction, real estate', 'd14_state_parent': 'state-owned, sovereign-backed and parent-backed brands',
            'a01_assess': 'assessment of companies found on rankings in batch 1 (part 1)', 'a02_assess': 'assessment of companies found on rankings in batch 1 (part 2)',
-           'a03_assess': 'assessment of companies found on rankings in batch 1 (part 3)', 'a04_assess': 'assessment of companies found on rankings in batch 1 (part 4)',
+           'a03_assess': 'assessment of companies found on rankings in batch 1 (part 3)', 'a04_assess': 'assessment of companies found on rankings in batch 1 (part 4)', 'a05_assess': 'assessment of companies found on rankings in batch 1 (second attempt at the ones not reached)',
            's01_gambling': 'gambling and gaming venues, in depth', 's02_videogames': 'video games and esports, in depth', 's03_tobacco_alcohol': 'tobacco, nicotine and alcoholic drinks, in depth',
            's04_environment': 'environmental and waste services, in depth', 's05_marketing': 'marketing, advertising and PR, in depth', 's06_education': 'education and training, in depth',
            's07_diversified': 'conglomerates and family holding groups', 's08_healthcare': 'pharma, medical technology and healthcare services, in depth', 's09_retail': 'retail and e-commerce, in depth',
