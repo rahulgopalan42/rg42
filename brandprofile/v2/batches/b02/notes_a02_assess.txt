@@ -1,0 +1,36 @@
+Batch a02 assessment (27 Nov 2026). Input: in_a02.jsonl, 143 companies (ENR 2026 Top 500 Design Firms / Top 400 Contractors).
+check.py: 139 NEW, 4 POSSIBLE (Messer Construction~Messer Group; Harvey Cleary~Harvey; Power Construction~PowerCo; The Beck Group~Beckhoff Automation) - all clearly different companies, kept. None IN MASTER / ALREADY DELIVERED / F1 PARTNER. Parent names checked (ACS Group NEW; Grupo ACS and Orascom Construction PLC flagged LISTED? as parents only - subsidiaries kept; Webuild, Quanta Services, Arctic Slope Regional Corporation NEW).
+Left out (DUPS): none. DUPS file is empty.
+Assessed and written to MAIN: 125. Not assessed (no usable company page opened): 18.
+
+Not assessed:
+- PGAL: site returned 403
+- Henderson Cos.: site returned 403
+- Infrastructure Consulting & Engineering: site behind challenge page; domain not confirmed
+- Alfa Tech: site unreachable
+- The Burke Group: domain not found
+- Kokosing: site 503
+- Rycon: site unreachable
+- Hunter Roberts Construction Group: hunterroberts.com is an unrelated UK consultancy; real site not found
+- Iovino Enterprises: domain not found
+- F.A. Wilhelm: site behind challenge page
+- Commercial Contracting Corp.: domain not found
+- Rogers-O'Brien: site unreachable/503
+- Ames Construction: site 403
+- T5 Construction: t5construction.com is a family grading firm whose link to the Atlanta ENR entry is unconfirmed
+- Phillips Infrastructure: domain error pages
+- KPRS Construction Group: kprs.com is a radio station; kprsconstruction.com returned empty page
+- McCownGordon: site 403
+- RailWorks: site unreachable/503
+
+Ownership types found (MAIN): {'privately held group': 39, 'requires verification': 69, 'founder-owned': 2, 'subsidiary of listed group': 4, 'subsidiary of private group': 2, 'family-owned': 9}.
+Of the 'privately held group' records, 30 are employee-owned (ESOP / employee shareholders) per company site; recorded in parent_immediate.
+Subsidiaries of listed groups: FlatironDragados (ACS), The Weitz Co. (Orascom Construction PLC), Lane Industries (Webuild), HBK Engineering (Quanta Services, named on HBK site - relationship to verify).
+Subsidiaries of private groups: Raba Kistner (Construction Sciences Pty Ltd, Australia), ASRC Industrial (Arctic Slope Regional Corporation).
+69 records keep ownership 'requires verification' (company site opened but ownership not stated); conf low.
+
+Method: company home page plus /about and /about-us fetched for every name (curl, public pages); Wikipedia used for KPF, Hardesty & Hanover, Hoffman, Hoar, Day & Zimmermann, The Beck Group. WebSearch calls used: 0 of 5. No Apollo.
+Fin entries kept unchanged; added company-stated revenue for Day & Zimmermann (USD 2.9bn) and BL Harbert (USD 1.6bn 2025).
+Sponsorships and signals: none recorded (not shown on pages opened). Shiel Sexton site shows an Indianapolis Motor Speedway Museum project (noted in fit ecosystem=1, not a sponsorship).
+Fit: honest-low throughout - all are B2B US contractors/design firms with no consumer brand; category 3 (no F1 partner in the category found). fit_rationale is templated from each company's stated specialism and clients.
+Not done: marketing heads, sponsorship history, total company revenue for design firms (ENR figure is design revenue only).
