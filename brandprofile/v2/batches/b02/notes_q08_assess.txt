@@ -1,0 +1,23 @@
+q08 assessment notes (27 Nov 2026). Input: in_q08.jsonl, 80 rows, all worked in file order.
+Search use: 1 WebSearch (Pure Natural Pet / Shanghai Enova). Everything else came from WebFetch of company sites, Wikipedia (en/de/fr/ro/tr/es) and the input list pages. IBISWorld Top 500 Private 2022 PDF and Hakmar's 2023 report PDF were extracted locally; the Hakmar PDF is a scanned image and could not be read.
+Regions: Europe, North America, Asia-Pacific (Australia, Korea, China, Thailand, Japan), Middle East (UAE, Saudi Arabia, Azerbaijan, Turkey), Latin America (Brazil).
+
+RESEARCHED - MAIN (38): Route A 23: Hahn Gruppe, Bithumb, Hansen Yuncken, Superior Food Services, FDC Group Holdings, UnitingCare NSW ACT, Artech, Austrian Lotteries, BNDES, Neora, Insel Gruppe, Grand Motors Group of Companies, Winning Appliances, Cambridge University Press & Assessment, Hutchinson, BNG Bank, Oriflame, Refuelling Solutions Group, Georgiou Group, ATG Entertainment (input "ATG Entertainment UK", recorded as the group), China Resources, I.A. Hedin Bil, Bel Group.
+Route B 2: Cloud9, Clever. Route C 13: Arizona College of Nursing, Century Games, Brainlabs, Hoosier Racing Tire, Ascend Learning, Brand Addition, Biolab Sanus, Homeplus, Astek, Central Group, Aston Carter, Linella, BtcTurk.
+RESEARCHED - WATCH (19): Megabass, Area Scouts, CleanHub, Brightwheel, Hakmar, Merit Beauty, Tenzing, ChessBase, Cambridge Education Group, Azerlotereya, Chucklefish, College Hunks Hauling Junk, Brunswick Group, Zoa Energy, Barona Band of Mission Indians, Cory, Choueiri Group, CERP Rouen / Astera, Pure Natural Pet.
+
+LEFT OUT (22 in DUPS):
+- Duplicates / F1: El Pozo Alimentacion (ElPozo in master), Allwyn Cesko (Allwyn F1 partner), Swissport International (in master), Aston Martin F1 Team (F1 team), XS Energy (Amway brand; Amway in master), HUK-Autowelt (HUK-Coburg subsidiary; HUK-Coburg already delivered b01).
+- Listed: Armah Sports Company (Saudi Nomu), Biocon (NSE/BSE), Repower (Wikipedia lists it as a listed company, 11.47% float; venue not stated), ASMPT SEMI Solutions (segment of listed ASMPT), Shark Energy (brand of Osotspa, listed SET per check.py).
+- Not a separate company: BMW Financial Services, Samsung Electronics Iberia, Fcc Medio Ambiente, Fcc Construccion (FCC is listed), Idea (Mercator/Fortenova store brand), Viroque Bioenergy (single-shareholder SL with no website and unknown owner).
+- Other: Askona (Russian), Caparo (UK group in administration 2015), CNIM (liquidated 2022), Cascade Investment (passive Gates investment vehicle), ADDE (football directors' union, not a company).
+
+NOT RESEARCHED: Burjeel - burjeelholdings.com (503), Wikipedia (404) and the ADX profile (403) could not be opened; burjeel.com shows only the parent name. Believed to be listed on ADX, but not verified, so no line was written.
+
+FLAGS FOR THE USER:
+- Parent already on master or delivered: Austrian Lotteries (68% owner Casinos Austria IN MASTER), Aston Carter (parent Allegis Group IN MASTER), Clever (parent Kahoot! ALREADY DELIVERED). They are kept as own-brand subsidiaries: confirm whether you want them.
+- Old figures: the IBISWorld rows (FY6/22) and BNDES, BNG, Cloud9 and Austrian Lotteries rely on figures more than 3 years old. FDC and Winning use IBISWorld estimates.
+- Distress: Homeplus (court rehabilitation, stores suspended Jul 2026), Oriflame (recapitalisation), Insel Gruppe (losses), Bithumb (Feb 2026 BTC mis-transfer).
+- Linella revenue is in MDL, which is not on the fixed-rate list, so it was not converted.
+- Clay revenue brackets are kept as "estimated" only; Area Scouts' bracket (56 staff) is not credible.
+- Grand Motors: the link between the IBISWorld entity and the Gold Coast Toyota dealer is likely but not proven.

@@ -1,0 +1,35 @@
+q14 assessment (batch 2 queue), 27 Nov 2026. Input: in_q14.jsonl, 80 companies, worked in file order.
+Every input name, plus brand names, short names, parents and aliases, was run through v2/check.py.
+
+RESEARCHED - MAIN (28): House of Habib (A); Belle Tire (C); Merbag (A; input "Merbag Holding"); Schiavello (A, FY22); Care UK (C);
+Carmeuse (A); Apuesta Total (C; Cirsa-owned, listed parent); Ibercaja (C); Bertel O. Steen (A, 2020 figure); Celebrity Cruises (C; Royal
+Caribbean brand); GP Strategies (C); BIG4 Holiday Parks (A, FY22); Borbet (C); Jubilant Bhartia Group (C); Hefame (C); Carglass (A on Belron
+group revenue); JazzCash (C; Jazz/VEON); Lendi Group (A, FY21); CG Corp Global (C); BetConstruct (C; SoftConstruct); Kalyani Group (C);
+GoStudent (A); Drogaria Araujo (A); Korea Development Bank (A, state); DeFacto (A; listing must be confirmed, see record);
+GVM Care & Research (A); Microfun (C, low confidence); Dahlsens Building Centres (A, FY22).
+RESEARCHED - WATCH (28): Hanover Communications; Goddard School; Florence Nightingale Hospitals; Crai; Bormioli Rocco; Ludia; Hanover
+Research; Tadweer Food Recycling Company; WASCO; Britax Römer; Carrington College; Aruze Gaming Global; Bally Wulff; MOUZ; Playstack;
+Despar Italia; Cantabria Labs; Union Paper Mills Recycling; Hit Promotional Products; Caran d'Ache; Dirk van den Broek; Centific; Grupo
+Positivo; Carwow; Carrera Toys; Hirschen Group; Grupo Educa Edtech; Horizon Media.
+
+LEFT OUT (DUPS, 22):
+- Duplicates of the master / delivered: Navantia Sa Sme (Navantia), NRMA Motoring & Services (NRMA), Castel Africa (Castel Group),
+  Sociedad Anonima Damm (Damm), Federal Hotels Group (Federal Group), Grupo Ángeles (renamed Grupo Vazol, IN MASTER),
+  Archroma Management (already delivered b01). Brand-name checks caught Navantia, NRMA, Damm and Grupo Vazol.
+- Listed: CAVA (NYSE), Hengrui (SSE/HKEX), Intercorp (ADRs / listed holding IFS; status unclear).
+- Not a separate company: L'Oreal España, Red Electrica De España (Redeia, listed), Repsol Lng Holding, Carrefour Argentina,
+  Hewlett-Packard Schweiz (HP, F1 partner), Carnival UK (unit of Carnival Corp; P&O Cruises and Cunard are NEW and could be assessed
+  as brands), CEA-Leti (state research institute), iDEAL (EPI scheme, moving to Wero; EPI is NEW), Centro Universitário Senac (non-profit).
+- Merged away: Hauck Aufhäuser Lampe (ABN AMRO, now Bethmann HAL); Tiru (activities taken over by Paprec, IN MASTER).
+- Other: Htoo Group (US/UK/EU sanctions).
+
+NOT RESEARCHED (2): Apex Group (Australia; IBISWorld 2022 rank 118, AUD 550m, 429 staff) - identity not established; apexgroup.com.au
+does not resolve in this session's network. Amphora Australia (IBISWorld 2022 rank 122, AUD 540.5m, 972 staff) - amphora.com.au is an
+unrelated holding page; no page about the company found.
+
+Flags: IBISWorld figures are FY2021/22 (older than three years). Rows with empty or no-page sources (Hanover x2, Goddard, GoStudent,
+GP Strategies, Grupo Positivo, Grupo Educa Edtech, Horizon Media, iDEAL, JazzCash, KDB, Hauck) were researched like the rest.
+Pages that failed: GVM site (403), Forbes.it (403), defacto corporate (503), tiru.fr (503), several Wikipedia titles (404).
+WebSearch used 3 of 3 (DeFacto listing, GVM figures, Microfun identity). Pages opened are listed in each record's sources.
+Sites in the session network that failed to resolve: www.apexgroup.com.au, www.educaedtechgroup.com (educaedtech.com worked),
+www.bormioliroccogroup.com.
