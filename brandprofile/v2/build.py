@@ -94,6 +94,13 @@ def load(only=None):
             excluded.append((nm, 'Name matches a listed company and the line does not show it is unlisted: ' + disp, d['_cluster'])); continue
         note = next((x for x in hits if x[2] == 'info'), None)
         d['_sheet'] = note[1] if note else ''; d['_listed_name'] = disp if st == 'listed' else ''; d['_possible'] = disp if st == 'possible' else ''
+        pm = ''                                         # a subsidiary whose parent is already with the user is kept only as a separate brand, and says so
+        for pn in (clean(d.get('parent_immediate')), clean(d.get('parent_ultimate'))):
+            pn = re.split(r'\s*[\(;,/]', pn)[0].strip()
+            if len(pn) > 2 and pn.lower() not in ('none', 'n/a', 'na', 'unknown', 'requires verification'):
+                pst, pdisp, psrc, _h = C.lookup(pn, batch=d['_batch'])
+                if pst == 'dup': pm = pdisp + (' (delivered in an earlier batch)' if psrc.startswith('delivered') else ' (on your master)'); break
+        d['_parent_master'] = pm
         keep.append(d)
     # one line per company across clusters and batches
     best = OrderedDict(); xdup = []
@@ -219,6 +226,8 @@ def row(d, watch=False):
     if d.get('_sector_note'): notes.append('Sector as recorded by the research: ' + d['_sector_note'])
     sheet = d.get('_sheet') or ''
     onsheet = ('Not on the master. On your older 48-tab sheet (' + sheet.split(': ', 1)[-1].replace(' (you marked it x)', '') + ')') if sheet.startswith('your older 48-tab sheet') and ': ' in sheet else 'Not on the master. On your older 48-tab sheet' if sheet else 'No (new brand)'
+    if d.get('_parent_master'):
+        onsheet += '. Its parent is already with you: ' + d['_parent_master']; notes.append('Parent already with you: ' + d['_parent_master'] + '. Kept as a separate brand; drop it if you treat the group as one account')
     c = [clean(d['name']), '', '', 'x' if 'you marked it x' in sheet else '', hq, a['tier_txt'] + (' (estimate)' if a['tier'] else ''), a['priority'] if not watch else 'To Verify',
          d.get('rank_sector', '') if not watch else '', d.get('rank_all', ''), a['total'],
          clean(d.get('desc')), d['sector'] + (': ' + clean(d.get('subsector')) if clean(d.get('subsector')) else ''),
