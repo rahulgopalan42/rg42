@@ -43,3 +43,28 @@ before relying on it. Never invent a figure, an owner, a signal or a source.
 
 - b01 (27 Nov 2026): 14 sector clusters, first depth. Workbook `reports/F1-NON-PUBLIC-NEW-PROSPECTS-REVISED-METHOD-BATCH-1-2026-11-27.xlsx`.
   Each `notes_<key>.txt` ends with the names that cluster did not get to; start batch 2 from those lists and from `to_assess.json`.
+- b02 (27 Nov 2026): three discovery streams into one register. Workbook `reports/F1-New-Non-Public-Prospects-Batch-2.xlsx`.
+  Continuation checkpoint: `CHECKPOINT.md`.
+
+## Batch 2 onwards: three streams, one register
+
+The user's instruction of 27 Nov 2026 (second message): run Clay, Crunchbase and independent web research in parallel, merge them
+into one discovery register, deduplicate against the master AND every batch already delivered before any detailed research, track
+which stream found each company, and report coverage by stream. The older 48-tab sheet still does not exclude a company.
+
+- Web discovery: `brief_b02.md` (one sector in depth, or country rankings in local languages). Each researcher keeps a DISC file
+  (`disc_<key>.jsonl`): every name read off a list, whatever became of it. MAIN and WATCH hold only researched companies.
+- Clay: `brief_clay.md` (search only, no paid enrichment; rows in `discovery/clay/*.jsonl`). Clay marks listed companies and local arms
+  of multinationals as privately held and its revenue is a modelled bracket, so a Clay name is never ranked without a web check.
+  Unchecked new Clay names go to the `Clay Leads (Unconfirmed)` tab.
+- Crunchbase: check `cb_metering_get_state` first. It was exhausted for the whole of batch 2.
+- Research queue: `queue.py <batch> <rows> <files> <start>` writes `in_qNN.jsonl` from the register (new, not yet researched,
+  round-robin across streams); `brief_queue.md` is the brief. About 25 to 45 of every 80 names qualify.
+- `batch2.py` builds the register, the Research Coverage table and the Clay leads tab; `deliver.py <batch> <xlsx>` builds and records
+  the delivery; `validate.py <xlsx> <batch> [master.xlsx]` checks the result.
+- Second duplicate pass: `fuzzy.py <batch>` lists delivered names that share their distinctive words with a master or delivered name
+  (the exact check misses "Storck" against "August Storck"). Review the pairs and put confirmed ones in
+  `batches/<batch>/manual_dups.json` as `[[name, reason]]`. Do this before every delivery.
+- A subsidiary whose parent is on the master or already delivered is kept only as a distinct brand, and its row says so
+  (`_parent_master`); a regional trading brand of the same business is a duplicate.
+- Researchers finish in about 10 to 20 minutes and leave most discovered names unresearched: plan follow-up queue files, not longer briefs.
