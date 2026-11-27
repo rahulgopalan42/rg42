@@ -1,0 +1,32 @@
+Batch 2, s12 consumer: Consumer Products / Beauty & Personal Care / Home & Furniture
+Run date: 27 Nov 2026. WebSearch calls used: 6 of 9.
+
+SOURCES USED (names they gave)
+- cosmorning.com Korean report on WWD 2025 Top 100 Beauty Companies (https://cosmorning.com/mobile/article.html?no=53408): about 20 names. The full table is in an attachment that was not readable.
+- WWDJapan Top 100 page (https://www.wwdjapan.com/articles/2462237): 3 names. Ranks 35-100 are paywalled.
+- L Catterton investments page (https://www.lcatterton.com/Investments.html): about 160 logo slugs. 24 consumer, beauty, pet and home names were extracted and checked.
+- Wikipedia (en/de/it/tr) company articles, used for research: Stihl, Kärcher, Schwan-Stabilo, Staedtler, Werner & Mertz, Vitakraft, Conair, Revlon, Weleda, Bioderma, Marcolin, Franke, Artsana (en+it), Dolce & Gabbana, Hästens, Hayat Holding, Boydak/Erciyes Anadolu Holding, Butternut Box, Giochi Preziosi, Calligaris, Huda Beauty, Lattafa, Delsey, Pentel, Zebra (that page was the listed US Zebra Technologies, so not used).
+- Analyst-generated candidate names (about 170), run through check.py. These are marked in DISC with "not extracted from a list page".
+- Could not open: FDMC 300 on woodworkingnetwork.com (HTTP 403); ISO 500 2024 PDF (larger than the 10 MB fetch limit); ISO 500 2025 news (top 10 only); Furniture Today Top 100 (not found); Investindustrial portfolio (404); several guessed Wikipedia titles (404): Wella Company, NAOS, Merz Group, Florasis, Stabilo, Roca, Hayat Kimya, Davines, Cantu, Alfaparf. The searches for Cosmetica Italia company rankings returned only sector totals.
+
+COUNTS
+- Names run through check.py: about 226. IN MASTER 60; ALREADY DELIVERED 8; F1 PARTNER 0 (Riedel matched Riedel Communications, a different company); LISTED 3, plus about 12 listed names on the WWD list left out; POSSIBLE 12 (7 the same company and left out, 5 different companies and not researched); NEW 136.
+- Researched: 23 (MAIN 15: 11 Route A and 4 Route C; WATCH 8). DUPS lines: 83.
+- MAIN: Stihl, Kärcher, Schwan-Stabilo, Staedtler, Werner & Mertz, Vitakraft (C), Conair (C), Marcolin, Franke (C), Artsana, Dolce & Gabbana Beauty, Butternut Box, Calligaris, Giochi Preziosi (C), NAOS.
+- WATCH: Revlon (post-bankruptcy owner unverified), Weleda (an ISIN exists, so tradability needs checking), Hästens (no figures), Hayat Kimya (no figures; Russia and Iran operations), Huda Beauty (USD 75m and no Route B support), Lattafa (one indicator only), Delsey (undated revenue, owner unnamed), Pentel (no figures).
+- Left out for compliance: Erciyes Anadolu Holding (formerly Boydak, owner of Istikbal and Bellona). It has been under TMSF trusteeship since 2016 under a FETO investigation.
+
+COVERAGE
+- Subsectors reached: garden and outdoor power tools, cleaning equipment, household cleaning, stationery, eyewear, baby products, pet food, toys, small appliances and hair tools, kitchen systems, furniture, dermocosmetics, fragrance.
+- Regions: mostly Western Europe (Germany, Italy, France, Switzerland, Sweden, UK) and the US. Turkey and the Gulf were reached only as WATCH entries.
+- Local-language sources used: German, Italian, Turkish, Korean, Japanese.
+- Not reached: China, Japan (beyond Pentel), South Korea, India, Brazil, Spain, the Netherlands, Africa and Latin America in depth. Subsectors not researched: home textiles, lighting, tableware, bathrooms, salon and professional beauty, private-label personal care makers and consumer electronics accessories (all checked, none researched). No trade-fair exhibitor lists (Cosmoprof, Ambiente, Salone, IFA, Spielwarenmesse) were opened, and none of the national family-business rankings.
+
+DATA CAVEATS
+- Figures older than three years are flagged in the period field: Vitakraft 2019, Conair 2016, Franke 2021, Giochi Preziosi 2018, Revlon 2021, Weleda 2020. Those companies are qualified on Route C where possible.
+- The NAOS figure is "over USD 1bn" as reported from WWD's ranking; the exact figure was not available. usd_m is set at the 1,000 floor.
+- Calligaris: Alpha PE control dates from 2018 and its current status is unverified.
+
+UNRESEARCHED NEW NAMES (113 in DISC, stage "not researched")
+Priority next: Wella Company, Merz Aesthetics, Florasis, Oriflame, Cosnova, Davines, Alfaparf, Hoyu, Farmasi, Roca, Kartell, Vitra, Artemide, Blanco, Kaldewei, Britax Römer, Stokke, Cybex, Affinity Petcare, United Petfood, Monge, Diamond Pet Foods, Positec, Greenworks, Baseus, Belkin, Zagg, PopSockets, Karaca, Evyap, Wipro Consumer Care, Angelini Industries, Fater, Zobele, Dalli, Clementoni, Carrera Toys, Caran d'Ache, Arc International, Bormioli Rocco, Serta Simmons, Neora, The Founders.
+Nothing here is exhaustive.

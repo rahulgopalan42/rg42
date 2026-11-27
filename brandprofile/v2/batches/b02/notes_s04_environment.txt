@@ -1,0 +1,38 @@
+Batch 2, sector "Environmental & Waste Services" (s04). Worked 27 Nov 2026. Independent web research.
+
+WEBSEARCH: 5 of 9 calls used (Waste360/US haulers; German Entsorger ranking; GWI private water operators; Japanese industrial-waste revenue ranking; Gulf waste companies).
+
+SOURCES USED (names extracted)
+- EUWID Recycling, "Die zehn größten Entsorgungsunternehmen der Welt" (de) - 21 names
+  https://www.euwid-recycling.de/news/international/die-zehn-groessten-entsorgungsunternehmen-der-welt-veolia-bleibt-fuehrend/
+- Wikipedia, List of waste management companies - 32 names (22 not already taken from other pages)
+- US Commercial Service, Saudi Arabia waste management country guide - 10 companies
+- Mordor Intelligence, UAE industrial waste management companies - 20 companies (19 new to the list)
+- WebSearch result summaries (pages not opened): BSR and Veolia Deutschland collection revenue 2024; Waste Pro revenue projection; Priority Waste (FleetOwner 500) - 4
+- Analyst seed list: 191 names checked from prior knowledge of the sector, NOT read off a page (DISC source ""); none of them reaches MAIN without a page opened.
+Company/encyclopedia pages opened for research: de.wikipedia Remondis; en.wikipedia Suez (2015), Biffa, Covanta/Reworld, Recology, Rumpke, Culligan, Anticimex, Redwood Materials, Anglian Water; sv.wikipedia Ragn-Sells; nl.wikipedia Indaver; saubermacher.com; interzero.de; biffa.co.uk; beeahgroup.com; averda.com; dulsco.com; ragnsells.com; kuusakoski.com (404 content); forbesmiddleeast.com (Tadweer KSA).
+Could not open: waste360.com (403 on all pages), wastetodaymagazine.com (empty), thewaternetwork.com GWI top 50 (404), wastepro.com (503), tadweer.ae (404), toensmeier.de (blocked by session network: host must be allowed), es/pt Wikipedia for Aqualia, Tradebe, Solví (404), anticimex.com (404), Waste Pro / Pratt / Kaefer Wikipedia (404). The GWI water ranking, the Waste360/Waste Today hauler lists and the Japanese Yano ranking (paid) gave no extractable names.
+
+COUNTS
+- Names extracted into DISC: 264 (73 from pages, 191 seed)
+- Run through check.py: 264
+- IN MASTER: 19 (+2 POSSIBLE judged the same company: Rethmann, GOJO) ; ALREADY DELIVERED: 3 (SA Recycling, Solenis, Wilo)
+- F1 PARTNER: 1 flagged (ALBA Group) - FALSE MATCH: the Bahrain GP partner is Aluminium Bahrain; German ALBA Group left as not researched
+- LISTED: 8 flagged (TES is a different company: SK ecoplant's TES-AMM, kept) plus other known-listed names left out (Veolia, WM, Waste Connections, GFL, FCC, Casella, Cleanaway, Clean Harbors, Serco, American Water, Essential Utilities, Rubicon, Acea, Sabesp)
+- POSSIBLE: 10 (8 left unresearched, judged different companies but not verified)
+- NEW: 223
+- Researched: 16 -> MAIN 12, WATCH 4. Left out after research: Recology (USD 36m criminal penalties 2021, compliance).
+- DUPS file: 35 lines.
+
+MAIN (12): Remondis, Suez, Biffa, Reworld, Saubermacher, Interzero, Culligan, Anticimex, Redwood Materials, Ragn-Sells, Indaver, Anglian Water.
+WATCH (4): Bee'ah, Averda, Dulsco, Saudi Investment Recycling Company - scale shown, ownership not confirmed on any page opened.
+
+FLAGS FOR THE USER
+- Remondis: parent Rethmann SE & Co. KG is on the master. Remondis itself is not; included as a separate brand, user to decide.
+- Suez: Wikipedia infobox says shares trade, contradicting its own 2025 shareholder table (Meridiam/GIP/CDC/employees). Verify.
+- Old figures: Biffa (FY2021), Anglian Water (FY2020-21), Anticimex (FY2020, Route C used), Ragn-Sells (2012, conf low), Reworld indicators (2018, conf low).
+- Indaver: PFAS incineration ban by OVAM (May 2026) - regulatory flag.
+
+COVERAGE
+Subsectors reached: waste collection and treatment (Europe, US, Gulf), waste-to-energy, hazardous waste, battery recycling, water utilities and water treatment, pest control/facility hygiene. Regions: Western Europe, Nordics, US, Gulf researched; others only checked.
+NOT REACHED (honest gaps): metals, plastics, paper and e-waste recyclers (only checked, not researched); environmental consulting and testing (checked only: TRC, Haley & Aldrich, Geosyntec, SLR, Pace, Normec, Brown and Caldwell etc.); industrial cleaning (HydroChem, Kaefer unresearched); Japan, China, Korea, India, Latin America, Africa, CEE - names checked (e.g. Brunp, SungEel HiTech, Lohum, Attero Recycling, EverEnviro, Solví, Aegea, BRK Ambiental, Iguá, EnviroServ, Wasteman, AVE CZ, Eneris) but no research and no local-language list source opened. US privates with likely Route A not researched: Waste Pro (USD 1.4bn projected, search summary only), WIN Waste Innovations, Priority Waste, Rumpke, Coastal, Burrtec, Athens, Heritage-Crystal Clean, Radius Recycling (Toyota Tsusho), United Site Services (on COTA partner page - check GP deal). UK water (Thames, Southern, Yorkshire, Wessex, Affinity, Northumbrian), Aqualia, Canal de Isabel II, IDE, Metito, Aquatech not researched. 194 DISC names not researched. Nothing here is exhaustive.

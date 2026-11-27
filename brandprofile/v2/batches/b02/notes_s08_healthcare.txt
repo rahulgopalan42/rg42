@@ -1,0 +1,51 @@
+Batch 2 - sector cluster s08: Pharma & Biotech / Medical Devices & Diagnostics / Healthcare Services
+Date: 2026-11-27. Method: v2/brief_b02.md + v2/brief_discovery.md. WebSearch calls used: 7 of 9.
+
+SOURCES USED (names given)
+- batches/b01/notes_d12_healthcare.txt "NOT DONE" list: ~80 names (all re-run through check.py).
+- Wikipedia company pages opened (en/de/it/fr/es/pt/pl/tr): Ferring, LEO Pharma, Angelini, Grunenthal (de/en), Alfasigma (it/en),
+  Apotex, Intas, Recipharm, Arthrex (de), Ceva Sante Animale, Eurofarma (pt/en), Cheplapharm (de), Merz (de), Aspen Dental,
+  Prime Healthcare, Gruppo San Donato (it), LifePoint, Circle Health Group, Kowa, Advanz Pharma, Klosterfrau (de), Bionorica (de),
+  Aenova (de), Parexel, Syneos, Pacific Dental Services, Lux Med (pl), Vithas (es), Memorial (tr), CARE Hospitals, Phoenix (de),
+  Sanacorp (de), Harmonie Mutuelle (fr), Rede D'Or (pt), Lohmann & Rauscher (de), W&H Dentalwerk (de). Company site: heartland.com/about-us.
+- WebSearch result pages: private pharma ranking (Pharma 50 / PharmExec links, 3 private names, all IN MASTER); Becker's DSO lists
+  (6 DSO names; pages returned 403, snippet only); European vet groups (ICAEW/IBISWorld snippets, 7 names); private CRO ranking
+  (Parexel, Syneos - both IN MASTER); Japanese unlisted pharma ranking (only listed-company rankings found; career-tasu page empty);
+  German family medtech ranking -> Markt und Mittelstand TOP 100 2025 PDF (opened: Paul Hartmann, Karl Storz, Draegerwerk, Asklepios,
+  Heraeus - none new); ACRO members page (7 names, all listed/known).
+- Own candidate lists by region (LatAm, Gulf, Turkey, India, Japan, China, Iberia/France wholesalers and mutuals) run through check.py.
+
+FAILED / BLOCKED: many guessed Wikipedia titles 404 (Sebia, Unilabs, Medivet, NVA, IVI RMA, Indira IVF, Humanitas, Esteve, Huvepharma,
+ Sunrise Medical, MB2, WCG, PSI CRO, Noweda, Cofares, Ivoclar, Septodont, Heartland); sebia.com, ceva.com, unilabs.com about pages 404;
+ Becker's Dental 403; career-tasu (JP) empty.
+
+COUNTS
+- Names run through check.py: ~245.
+- IN MASTER: 33; ALREADY DELIVERED: 16; F1 PARTNER: 0 (two POSSIBLE F1-name hits judged different companies: Circle Health Group vs Circle;
+  Specialized Dental Partners vs Specialized); LISTED? matches: ~20 (incl. Apotex, now TSX-listed June 2026; Rede D'Or B3).
+- DISC lines: 181 (all extracted candidates, incl. researched). DUPS: 66.
+- Researched: 37. MAIN: 25 (Route A 20, Route C 5; B 0). WATCH: 5 (Aspen Dental, Kowa, Heartland Dental, Memorial, CARE Hospitals).
+- Left out on compliance: Prime Healthcare (DOJ Medicare-fraud settlements), Advanz Pharma (UK CMA excessive-pricing fines).
+- MAIN by sector: Pharma & Biotech 14; Medical Devices & Diagnostics 3; Healthcare Services 8.
+
+CLASSIFICATION NOTE: task required only the three sector names, so pharmacy wholesalers (Phoenix, Sanacorp) and the mutual insurer
+ (Harmonie Mutuelle) are filed under Healthcare Services; the brief's list would put Harmonie under Insurance.
+
+DATA CAVEATS: several figures older than 3 years (Ferring 2022, Merz 2021/22, Bionorica 2021, Sanacorp 2021, Circle 2019, Ceva 2017,
+ Recipharm 2020 revenue); LifePoint and Vithas revenue year not stated. Eurofarma and Lohmann & Rauscher owners not named on pages
+ (unlisted by legal form/no listing). Fit scores are judgement; category AbbVie (pharma) and UChicago Medicine (services) noted.
+
+NOT DONE (eligible NEW, not researched)
+- From batch 1 list: Esteve, Uriach, Biocodex, Cooper Consumer Health, Zuventus, USV, La Renon, Uniao Quimica, Ethypharm, Pharmanovia,
+  Medochemie, Pharmathen, Vianex, Medice, Silanes, Liomont, Cristalia, Biolab Sanus, Amoun, Neopharma, Sebia, Kindeva, Sunrise Medical,
+  corpuls, Intersurgical, Schiller, medi, Unilabs, Indira IVF, Sahyadri, ScionHealth, Smile Brands, MB2, NVA, Medivet, VetPartners,
+  IVI RMA, Kindbody, Eugin, EyeCare Partners, Optegra, GVM, Humanitas, Florence Nightingale, MAC Hospitales, Worldwide Clinical Trials,
+  Premier Research, PSI CRO, Advarra, WCG, BioAgilytix, Mars Veterinary Health (Mars in master - probably leave out).
+- Widening candidates: wholesalers (Noweda, Cofares, Bidafarma, Hefame, OCP Portugal, CERP Rouen/Astera, Comifar, Alliance Healthcare),
+  mutuals (MGEN, Aesio, Asisa, Sanitas), Mexico (Grupo Angeles, Christus Muguerza, Salud Digna, Farmacias Similares/Guadalajara),
+  Brazil labs (Sabin, Hermes Pardini), Gulf/Turkey hospitals (Saudi German, Fakeeh, Medical Park, Liv, Medicana), India labs (Agilus,
+  Neuberg), Japan (Tokushukai, Kyoritsu Seiyaku), animal health (Huvepharma, Bimeda), dental (Ivoclar, Septodont, VOCO, Kulzer),
+  China (Chia Tai Tianqing). Many in DISC flagged "believed listed - verify".
+- Subsectors barely reached: consumer health beyond Germany, CROs (all large ones listed or in master), diagnostics/lab groups,
+  eye-care and fertility chains. Regions thin: China, Japan, Gulf, Africa (none researched), Nordics (LEO only).
+- Delivered register (v2/delivered/) NOT updated by this agent - to be done at consolidation. Nothing here is exhaustive.

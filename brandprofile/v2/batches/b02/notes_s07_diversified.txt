@@ -1,0 +1,30 @@
+Batch 2, sector s07 Diversified & Other (non-listed conglomerates, family holding groups, trading houses). 27 Nov 2026.
+
+SOURCES USED (names extracted)
+- EY / University of St.Gallen Global 500 Family Business Index 2025, https://familybusinessindex.com/?pageSize=640 : whole 500-row table parsed; the 241 rows marked Private were run through check.py (the 259 Public rows were not, being listed).
+- Forbes Middle East Top 100 Arab Family Businesses 2025, https://www.forbesmiddleeast.com/lists/top-100-arab-family-businesses-2025/ : 99 names (rank 88 missing on page), all checked.
+- Wikipedia "List of conglomerates", https://en.wikipedia.org/wiki/List_of_conglomerates : about 900 names read; about 150 likely-unlisted groups selected and checked (the listed ones were skipped).
+- 87 further names from my own candidate list (Turkish holdings, Gulf groups, African and Latin American groups) and alias re-checks. In DISC their source is "" because I did not read them off a list page.
+- Research pages: Wikipedia articles for CP Group, Sinar Mas, Hinduja Group, Chow Tai Fook Enterprises, Techint, Grupo BAL, KKCG, Hong Leong Group, China Merchants Group, Dangote Group, Bharti Enterprises, Tata Sons and Grupo Breca; company sites zamil.com and adityabirla.com/about-us.
+- WebSearch: 1 of 9 calls used (to find the Forbes ME list URL).
+
+COUNTS
+- DISC lines: 580 (some names appear in more than one list). Check results: IN MASTER 333, NEW 202, POSSIBLE 23, LISTED? 11, ALREADY DELIVERED 10, F1 PARTNER 1.
+- EY private rows: 194 IN MASTER, 3 ALREADY DELIVERED, 1 F1, 1 LISTED?, 9 POSSIBLE, 33 NEW (most of these are single-industry and outside this scope).
+- Forbes ME: 75 IN MASTER. Most Gulf groups are already on the master.
+- I treated 12 POSSIBLE/LISTED? flags as different companies (e.g. Orion Group Bangladesh, Central Group Thailand, Fattal Group, Delta Holding Serbia, CITIC Group). Their DISC lines are stage "not researched".
+- DUPS: 363 lines, plus alias checks that confirm Tata Communications and Allwyn are F1 partners and that PPF, Haniel, Mansour, Al Mada and Murugappa are IN MASTER.
+- Researched: 15. MAIN 10 (Route A: CP Group, Chow Tai Fook Enterprises, Techint, KKCG, Tata Sons; Route C: Hong Leong Malaysia, China Merchants Group, Dangote Industries, Aditya Birla Group, Bharti Enterprises). WATCH 4: Sinar Mas (Oct 2026 haze legal notices), Grupo BAL, Zamil Group Holding and Grupo Breca (no route shown). Left out 1: Hinduja Group, for established compliance problems (2024 Geneva conviction).
+
+FLAGS FOR THE USER
+- Tata Sons: the Tata brand is already in F1 through Tata Communications, and on 16 Nov 2026 the RBI ordered Tata Sons to comply with its mandatory-listing rules. Re-check before outreach.
+- KKCG: its subsidiary Allwyn holds Formula 1 and McLaren deals (Feb 2025). Kept under the sister/parent rule, with the conflict recorded.
+- Dangote: the only revenue figure is from 2017. Techint: the revenue is FY2023. Hong Leong: confirm that the holding company's own shares do not trade.
+
+REGIONS COVERED
+Asia (Thailand, Indonesia, Malaysia, Hong Kong/China, India) and Latin America (Argentina, Mexico, Peru) were researched; also Africa (Nigeria), the Gulf (Saudi Arabia) and Central and Eastern Europe (KKCG, Czech-founded).
+
+NOT DONE
+- 184+ NEW names left unresearched. Diversified ones include SHV Holdings, Edizione, De Agostini, Fininvest, Werhahn, maxingvest, Droege, Bulmarket, Shapoorji Pallonji, O Capital, Al Othaim Holding, Rawabi, Alkhorayef, HSA Group, Sumou, Al Nasser Holdings, Kalyon, Kolin, Fiba, Sanko, Kibar, PRAN-RFL, City Group, Partex, Navana, Summit, Salim, Lippo, Kuok, Saha, TCC Group, LOLC, Essar, Kalyani, RPG, RPSG, TVS, Wadia, House of Habib, Nishat, Lakson, Dawood, Grupo Romero, Intercorp, Ardila Lulle, Kaluz, Arcor, Safra, Camargo Correa/Mover, Libra Group, Access Industries, Kulczyk, Fortenova, MK Group, Tiriac, Heirs Holdings, BUA, Sahara Group, MeTL, Sifca, Elsewedy (holding), ARC.
+- Not opened: Family Capital ranking, Hurun and Burgundy unlisted-company lists, Korean and Japanese unlisted-group lists, Turkish ISO 500 / Capital 500. Local-language sources were not used.
+- The Wikipedia list was only partly checked, and Japan and South Korea had no unlisted candidates researched. This is not exhaustive.

@@ -1,0 +1,36 @@
+Batch 2, s11 financial: "Financial Services & Payments" and "Banking & Lending" (independent web research), 27 Nov 2026
+
+SOURCES USED (names each gave to DISC)
+- Wikipedia, List of largest banks (Apr 2026 assets): https://en.wikipedia.org/wiki/List_of_largest_banks. Read 100 rows; most are listed. 5 unlisted names taken: Norinchukin, NongHyup, Raiffeisen Switzerland, Crédit Mutuel, plus ranking evidence for MAIN.
+- Wikipedia, Cooperative banking: https://en.wikipedia.org/wiki/Cooperative_banking (11 names)
+- Wikipedia, List of banks in Turkey: https://en.wikipedia.org/wiki/List_of_banks_in_Turkey (13 names)
+- DSGV Sparkassenrangliste 2024, read only through a search snippet (the PDF URL returned 404): 4 names (Haspa, KSK Köln, Stadtsparkasse München, Frankfurter Sparkasse)
+- Batch 1 notes (notes_d11_financial_insurance.txt), not-researched list: 18 names
+- Analyst seed list across the subsectors in the task (schemes, acquirers, remittance/FX, brokers and FX/CFD, crypto, exchanges, bureaus, auto and consumer finance, co-op, state, private and digital banks): about 185 names. Each one's "source" field says it came from the seed list, not from a page.
+- Company pages used for research: en/de/fr/es/pt Wikipedia articles cited in each record.
+- Pages I could not use: Nilson Report US and Europe acquirer rankings (paywalled, no names shown); DSGV ranking PDF (404); de.wikipedia Sparkassen/Genossenschaftsbanken list pages (404); en.wikipedia pages for Kuveyt Türk, Geidea, C6 Bank, BMW Financial Services, XM and Toss (404); en.wikipedia "CRIF" is a different organisation; Toyota Financial Services redirects to Toyota Motor; pt.wikipedia Elo page (404).
+- WebSearch: 3 of 9 used (Sparkassen ranking, acquirer rankings, F1 deals of NEW crypto and FX names). None of MEXC, Bitvavo, XM, OANDA, Tickmill, ThinkMarkets, FP Markets, BtcTurk or Paribu showed an F1 deal in that search. Zoomex (Haas) and Nexo (Audi) surfaced as F1 crypto partners.
+
+COVERAGE
+Regions: Germany (Sparkassen, co-op banks, SCHUFA), Switzerland, UK, France, Spain, Netherlands, Nordics (only checked), Turkey, Gulf (only checked), Egypt, South Africa, Nigeria (only checked), India, Japan, South Korea, Philippines/Indonesia (only checked), Brazil, Mexico (only checked), Canada, US, China.
+Subsectors researched: co-op/savings banks, state banks, private bank, digital banks, domestic schemes and wallets, national payments infrastructure, credit bureaus and data, exchanges.
+Subsectors checked but not researched: acquirers (Payroc, Magnati, Geidea, Planet, Prosa, Getnet), money transfer (TransferGo, Viamericas, Pangea, Lulu, UAE Exchange), FX/CFD brokers (XM, OANDA, Tickmill, ThinkMarkets, FP Markets, Admirals), crypto (MEXC, Bithumb, BtcTurk, Paribu, Luno), auto and consumer finance arms (BMW FS, Toyota FS, Stellantis FS, Cetelem), development and export banks (BNDES, Nafin, Bancomext, NABARD, SIDBI, India Exim, KDB, BNG, Afreximbank, Türk Eximbank).
+Local-language sources: German, French, Spanish and Portuguese Wikipedia. Turkish, Japanese, Korean, Arabic and Nordic-language sources were not reached.
+
+COUNTS
+Names extracted to DISC: 235. All 235 were run through check.py.
+IN MASTER 70; ALREADY DELIVERED 3 (Lombard Odier, LGT, UBP); F1 PARTNER 7; LISTED 30 (check.py flags plus listed companies I identified: Western Union, Wise, Nexi, Worldline, Euronet, Remitly, KakaoPay, Pine Labs, MobiKwik, NSE India, GCash/Mynt and others); POSSIBLE 4 (Rakuten Pay and ShopeePay left out; Weatherbys and Emirates Development Bank are different companies, not researched); NEW 121.
+Researched: 24. MAIN 15, WATCH 7. Two were inconclusive (Cielo, Toyota FS).
+DUPS file: 112 lines.
+MAIN (Route): Norinchukin Bank (C), NongHyup Bank (A, 2022 figures), Raiffeisen Switzerland (A, AUM), Hamburger Sparkasse (C), apoBank (C), NPCI (A), Bizum (C), Twint (C), SCHUFA (A), Dun & Bradstreet (A), Monzo (A), Starling (A), Banque Misr (C), Mirabaud (A, AUM), TymeBank (A, valuation).
+WATCH: Interac, Groupement des Cartes Bancaires CB, UnionPay, Korea Exchange, Ziraat Bankası (own share status unclear), Bitvavo, Banco Votorantim.
+
+CAVEATS
+- All MAIN records rest on Wikipedia articles (one source each). Confidence is medium at most, except Monzo and Starling.
+- Compliance flags to review before outreach: Mirabaud (FINMA AML ruling, Sep 2024), Monzo (FCA fine 2025), Starling (FCA fine Oct 2024), UnionPay (state-owned; Russia reports), Ziraat (Moscow subsidiary), Bitvavo (CEO left after AML reports).
+- NPCI is a not-for-profit Section 8 company, so check whether it can buy commercial rights. Bizum and Twint are bank-owned schemes, and Santander (a Bizum shareholder) is an F1 partner.
+- NSE India (IPO Sep 2026) and GCash/Mynt (PSE IPO Oct 2026) became listed during 2026 and were left out.
+- Names were not added to v2/delivered/. That happens at delivery.
+
+NOT RESEARCHED (NEW, eligible): Kreissparkasse Köln, Stadtsparkasse München, Frankfurter Sparkasse, Sparkasse KölnBonn, Berliner Sparkasse, Berliner Volksbank, Sparda-Bank, GLS Bank, Hauck Aufhäuser Lampe, Metzler, S-Bank, POP Bank, Cassa Centrale Banca, Banco Credicoop, Bank Rakyat, Kuveyt Türk, Türkiye Finans, Vakıf Katılım, Ziraat Katılım, Fibabanka, Anadolubank, Odeabank, Enpara, Türkiye Kalkınma, Türk Eximbank, Ibercaja, BMW FS, Toyota FS, Stellantis FS, Cetelem, BanCoppel, Banco Industrial, Caja Los Andes, Great Southern Bank, Newcastle Greater Mutual, Planet, Magnati, Geidea, Payroc, TransferGo, Viamericas, Pangea, Prosa, Lulu Exchange, UAE Exchange, Bancomat, Girocard, Swish, Vipps MobilePay, iDEAL, Bancontact Payconiq, Elo, Troy, Mada, BENEFIT, Getnet, Cielo, Clip, Paystack, MTN MoMo, Easypaisa, JazzCash, Cashfree, PayPay, Viva Republica (Toss), Maya, DANA, C6 Bank, Kuda, CLS Group, Abu Dhabi Securities Exchange, CRIF, Creditinfo, XM, OANDA, Tickmill, ThinkMarkets, FP Markets, Admirals, MEXC, Bithumb, BtcTurk, Paribu, Luno, Banca Afirme, BNDES, Nafin, Bancomext, Afreximbank, Raiffeisenlandesbank OÖ, de Volksbank, BNG Bank, Nykredit, Saemaul Geumgo, KDB, Suhyup Bank, Stellantis FS, NABARD, SIDBI, India Exim, Weatherbys, Emirates Development Bank.
+Not reached at all: Banker Top 1000, CB Insights Fintech 100, Money20/20 and Sibos exhibitor lists, national banking-association member lists (BVR, ABI, AEB, NVB, TBB, Febraban), Gulf and South-East Asian bank lists, US credit union rankings. This list is not exhaustive.

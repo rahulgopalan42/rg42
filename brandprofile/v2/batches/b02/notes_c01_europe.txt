@@ -1,0 +1,36 @@
+Batch 2, c01_europe: rankings of the largest non-listed and family-owned companies, Europe (independent web research, 27 Nov 2026)
+
+SOURCES USED (names extracted)
+- de.wikipedia "Liste der grössten Unternehmen in der Schweiz" (Handelszeitung / Dun & Bradstreet Top 500, revenue 2022), full table read through raw wikitext: 497
+- elEconomista "Ranking de empresas" national ranking, pages 1-8 (top ~800 Spanish legal entities by revenue): 706 parsed (some rows missed by the parser). Many rows are Spanish subsidiaries of foreign groups or regional entities.
+- Forbes Polska "100 najwiekszych polskich firm prywatnych" (Nov 2025): 100
+- consultancy.nl summary of the Elsevier top 100 Dutch family businesses (2016, old): 42 (only the names the page gives)
+- de.wikipedia "Liste der größten Familienunternehmen in Deutschland" (end-2023, top 50): 33 entered (listed groups such as VW, BMW, Continental, Henkel and Merck left off the DISC file)
+- de.wikipedia "Liste der größten Unternehmen in Österreich" (trend Top 500, FY2022, top 25) plus the trend.at landing-page teasers: 19
+- Il Post, 29 Jul 2026, "Aziende italiane che fatturano miliardi ... ma quasi nessuno conosce": 7
+- Tried and failed: Die Deutsche Wirtschaft family-company ranking (password-protected), trend.at Top 500 full list (paywall), Stiftung Familienunternehmen page (404), Fast Track Top Track 250 (503), ISO 500 Turkey (404), fr.wikipedia list (only the top 20 listed French groups, not used)
+- WebSearch: 3 of 9 calls used (Italy, Poland, Netherlands list discovery)
+
+COUNTS
+- Names extracted into DISC: 1,404 (Switzerland 497, Spain 706, Poland 100, Netherlands 42, Germany 33, Austria 19, Italy 7)
+- All run through check.py via disc_check.py: NEW 997, POSSIBLE 154, IN MASTER 124, LISTED 102, F1 PARTNER 19, ALREADY DELIVERED 8
+- NOTE: check.py's listed detection misses many listed companies, for example Glencore, Roche, Novartis, ABB, Sika, LPP, CCC, Asseco and Kruk, which came back NEW. I left out the obvious ones by hand (see DUPS), but many DISC rows marked NEW are still listed companies or national subsidiaries of foreign groups. Treat DISC "NEW" as "not on the master", not as "eligible".
+- Alias re-checks: Knauf (Knauf Gips on master), Zeiss (delivered in b01), Maspex, WB Group, Pilatus, AMAG, Damm, MSC, Archroma, REWE, SPAR Österreich, Media Expert and others (all excluded). Hijos de Rivera was left out because its brand Estrella Galicia 0,0 is a current F1 partner (Williams). Gunvor was left out for compliance (bribery guilty plea, not re-verified this session).
+- DUPS lines: 315
+- Researched: 7. MAIN 6 (Mango, Ferring Pharmaceuticals, Ingeteam, Remondis, Volotea [Route C], Eko-Okna). WATCH 1 (Techland: Tencent-controlled, no sourced revenue).
+- Remondis: its parent RETHMANN SE & Co. KG is on the master. Remondis itself is not, and it has its own brand. Flagged for the user to decide.
+
+COUNTRIES COVERED: Switzerland, Spain, Poland (good depth); Germany, Austria, Netherlands (top of the lists only); Italy (one article only).
+NOT REACHED: France, Portugal, Belgium, Denmark, Sweden, Norway, Finland, Czechia, Hungary, Romania, Greece, Turkey, Ireland, the UK. No list was opened for any of them.
+
+WHAT REMAINS UNRESEARCHED
+- 1,082 DISC rows are "not researched". The strongest NEW private candidates seen on the lists and not yet researched include:
+  Switzerland: Varo Energy (now VARO/Preem), Ameropa, Maus Frères, Artemis/Franke, Krono Group/Kronospan, Sicpa (check compliance), Merbag, HRS, Brack Alltron, Ziegler, Capri Sun Group, Selecta, Gategroup, Debrunner Koenig, Bucherer (Rolex-owned).
+  Spain: Air Europa (Turkish Airlines 26%), Europastry, Power Electronics, Corporación Alimentaria Guissona (bonÀrea), Casa Tarradellas, Flexicar, Ocasión Plus, Aluminios Cortizo, World2Meet, Ávoris, Baleària, Eulen, Druni, Galletas Gullón, Persán, Frinsa, Jealsa, PcComponentes, Tradeinn, Grupo Hermanos Martín, Windar, Petroprix, Andamur.
+  Poland: Cedrob, Polmlek, Press Glass, Bury, Correct, Agata, Apart, Eveline Cosmetics, Van Pur, Dolina Noteci, Natur Produkt Zdrovit, Gołębiewski, Clip Group.
+  Netherlands: SHV Holdings, Heerema, Autobinck, Louwman, VanDrie, Rijk Zwaan, Enza Zaden, Vroon.
+  Germany and Austria: Cordes & Graefe (GC-Gruppe), Droege Group, MHK Group, GRAWE, Bartenstein, Münze Österreich.
+- The Spanish figures are for single legal entities, not groups. The Swiss list is from 2022 and some names are out of date (Actelion, Vifor and Bucherer now belong to other groups).
+- Ferring's revenue is FY2022 (older than three years) and should be refreshed.
+- None of these files is exhaustive.
+- Delivered names have NOT been recorded in v2/delivered/ by this agent; that is left to the batch owner.
