@@ -84,8 +84,12 @@ def load(only=None):
         for p in sorted(glob.glob(os.path.join(bd, 'notes_*.txt'))): notes[os.path.basename(p)[6:-4]] = open(p, encoding='utf-8', errors='replace').read()
     raw = len(recs)
     # eligibility and the duplicate check, run again on every line whatever the research did
-    keep = []; excluded = []
+    keep = []; excluded = []; manual = {}
+    for bd in glob.glob(os.path.join(H, 'batches', '*')):                       # duplicates found by the second pass (fuzzy.py) and confirmed by hand
+        mp = os.path.join(bd, 'manual_dups.json')
+        if os.path.exists(mp): manual.update({norm(x[0]): x[1] for x in json.load(open(mp, encoding='utf-8'))})
     for d in recs:
+        if norm(clean(d['name'])) in manual: excluded.append((clean(d['name']), 'Already on the master: ' + manual[norm(clean(d['name']))], d['_cluster'])); continue
         nm = clean(d['name']); st, disp, src, hits = C.lookup(nm + (' | ' + clean(d.get('website')) if clean(d.get('website')) else ''), batch=d['_batch'])
         if st in ('dup', 'f1'): excluded.append((nm, ('Already delivered: ' if src.startswith('delivered') else 'Already on the master: ' if st == 'dup' else 'Holds a current F1 deal: ') + src, d['_cluster'])); continue
         if RUSSIA.search(clean(d.get('hq_country'))): excluded.append((nm, 'Russian company (geographic exclusion)', d['_cluster'])); continue
