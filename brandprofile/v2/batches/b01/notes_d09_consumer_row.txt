@@ -1,0 +1,45 @@
+NOTES - d09 consumer / F&B / retail / hospitality / travel / real estate, HQ in Asia-Pacific, Middle East, Africa, Latin America
+Verified 2026-11-27. WebSearch calls used: 8 of 11.
+
+FILES
+- MAIN 40 lines (Route A 25, Route C 15); WATCH 10; DUPS 145.
+
+RULE CHANGE MID-TASK
+- The coordinator said only the master spreadsheet counts as a duplicate. I re-ran check.py on every name I had skipped. Names that now print NEW (older 48-tab sheet / earlier research) were researched and the strongest were added to MAIN: Majid Al Futtaim, Red Sea Global, ROSHN, NEOM, Nakheel, Reliance Retail, Traveloka, Suntory Holdings, Wanda Group, Haldiram's, Coppel, Heytea, Musinsa, Genki Forest, Boon Rawd, Nando's, Takealot, Zepto, SPC Group, APA Group, Sobha Realty, Binghatti, Meraas, Miral, Despegar, BigBasket, Wow! Momo, Saudi Tourism Authority.
+- DUPS now holds only IN MASTER, F1 PARTNER, LISTED and POSSIBLE matches judged to be the same company, plus aliases of master entries (Far East Hospitality, Gulf Marketing Group, Ahmed Seddiqi & Sons, HSA Group).
+
+LIST PAGES USED
+- Expansion 500 (Mexico) 2025 coverage: tusbuenasnoticias.com full ranking; expansion.mx "39 empresas que deciden que comen y beben"
+- ABRAS 2025 supermarket ranking (centraldovarejo.com.br)
+- Forbes Middle East Top 100 Arab Family Businesses 2025
+- HOTELS magazine "The List 2025" (PDF, 206 hotel groups)
+- Hurun / angelone.in summary of India's unlisted companies (gave little)
+- Wikipedia company pages (en, es, pt, tr) and company sites (binghatti.com), The National (Majid Al Futtaim FY2025 results)
+
+COVERAGE
+- Countries in MAIN: UAE, Saudi Arabia, India, Singapore, Indonesia, China, South Korea, Japan, Thailand, Philippines, Mexico, Brazil, Argentina, Colombia, South Africa, Azerbaijan.
+- Candidates checked with check.py: about 600 unique names (estimate; several batch runs). Under the old rule roughly half were registered. Under the new rule 145 stay in DUPS.
+
+EXCLUDED AFTER RESEARCH (not in DUPS)
+- Crown Resorts (Blackstone): serious compliance findings (NSW and WA inquiries found it unsuitable; AUD 80m fine 2022).
+- Patanjali Ayurved: Supreme Court ad ban and contempt finding 2024.
+- Getir: Uber got approval to buy its Turkish delivery businesses (June 2026); foreign operations closed.
+- Shein, Kopi Kenangan and Vakko are listed (logged in DUPS).
+- Embassy Group: listed REIT; the group structure is unclear.
+- Singita, Java House and Casa Ley: moved to WATCH because they had only one indicator.
+- Chinese hotel groups from HOTELS The List: Dossen, Sunmei, Delonix, Yibon, LN Hospitality, plus Kilit (Turkey) and Sono (Korea). Each has a ranking only, so they are in WATCH.
+
+NOT REACHED / REMAINING
+- Gulf: Five Holding, Omniyat, Arada, Kitopi, Noon, Lulu Group International, Marjan, Omran, Soudah, Wego, Almosafer, Nana, Al Othaim Holding, Towell, Al Nasser Holdings.
+- India: Hiranandani, Balaji Wafers, Paper Boat/Hector, HCCB, Licious, Purplle, Chai Point, Chaayos, Hidesign, CavinKare, Saravana Bhavan, Woodland/Aero Club. Wikipedia pages were missing for several of these.
+- China, Korea and Japan: Mafengwo, Cotti Coffee, Tastien, Wallace, Ochirly, K11/Artyzen, Lotte Hotel IPO status.
+- SE Asia: Kawan Lama, Janji Jiwa, Es Teh Indonesia, Mang Inasal, Santika, Artotel.
+- Mexico: Palace Resorts, Karisma, Grupo Velas/Vidanta-like resort groups, Mundo Imperial, Grupo TAFER/Villagroup, Grupo Royal Holiday, Grupo La Moderna, Inmobiliaria RUBA, Price Shoes, Grupo Toks. Several company sites blocked or returned 402/403.
+- Brazil: Madero, Coco Bambu, Bauducco/Pandurata (about 5,000 employees, but a second indicator is needed), Italac, Polishop, Beto Carrero World, Beach Park, Zaffari, Grupo Trigo, Bob's, Lojas Cem, Savegnago, Angeloni, Malwee.
+- Argentina, Chile and Colombia: Grupo Penaflor, Explora.
+- Turkey: Maxx Royal, Voyage, Kahve Dunyasi, FLO, English Home, Karaca, Madame Coco, Colin's, Mado, Torku, Agaoglu, Eti, Simit Sarayi, Pickalbatros.
+- Africa: Dangote (diversified), Promasidor, Naivas, Quickmart, Chicken Licken, Spier, Atterbury, Eko Atlantic, Food Concepts, TGI Group, Sarova, Travco, Jaz Hotels, Wilderness.
+
+DATA CAVEATS
+- Several figures are older than three years and are flagged in qualifying_metric: Nakheel FY2017, Wanda FY2018, Azersun FY2018, Tolaram 2018, Genki Forest 2021, Coppel FY2015 (Coppel rests on Route C).
+- Ownership is marked "requires verification" for Supermercados BH, Mart Minas, Koch, Crepes & Waffles, Miral and Tolaram.

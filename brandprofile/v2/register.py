@@ -53,13 +53,24 @@ def build(master=None):
         d = dom(d)
         if d and (d not in D or PRI[kind] < PRI[D[d][2]]): D[d] = [str(name), src, kind]
     for name, src, d in json.load(gzip.open(mp, 'rt', encoding='utf-8')): put(name, 'dup', src, d)               # 1. the master spreadsheet, every tab
-    for p in sorted(glob.glob(os.path.join(H, 'delivered', '*.json'))):                                              # 2. already delivered under the revised methodology
-        for nm, site in json.load(open(p, encoding='utf-8')): put(nm, 'dup', 'delivered under the revised methodology: ' + os.path.basename(p)[:-5], site)
+    V = {}; VD = {}                                                                                                  # 2. already delivered under the revised methodology: kept apart, so a batch can be rebuilt
+    for p in sorted(glob.glob(os.path.join(H, 'delivered', '*.json'))):
+        src = 'delivered under the revised methodology: ' + os.path.basename(p)[:-5]
+        for nm, site in json.load(open(p, encoding='utf-8')):
+            for a in aliases(nm):
+                for k in {norm(a), loose(a)}:
+                    if len(k) >= 2: V.setdefault(k, [str(nm), src, 'dup'])
+            if dom(site): VD.setdefault(dom(site), [str(nm), src, 'dup'])
     f1 = os.path.join(R, 'unicorns', 'ref', 'f1_sponsors_2026.json')                                                 # 3. brands holding a current F1 deal
     if os.path.exists(f1):
         J = json.load(open(f1, encoding='utf-8')); rows = J if isinstance(J, list) else J.get('rows') or J.get('sponsors') or []
         for r in rows:
             if isinstance(r, list) and len(r) >= 3 and isinstance(r[0], str): put(r[0], 'f1', f'current F1 partner ({r[2]})', r[1])
+    for fn in ('f1_extra.json', 'f1_gp_partners_2026.json'):                                                        # 3b. Grand Prix-level partners and later additions: [name, site, property, source]
+        fp = os.path.join(H, fn)
+        if os.path.exists(fp):
+            for r in json.load(open(fp, encoding='utf-8')):
+                if isinstance(r, list) and len(r) >= 3 and str(r[0]).strip(): put(str(r[0]).strip(), 'f1', f'current F1 partner ({r[2]})', r[1] if fn == 'f1_extra.json' else '')
     for k, v in json.load(open(os.path.join(B, 'newsec', 'known.json'), encoding='utf-8')).items():                  # 4. listed companies, F1 partners and their owners, as recorded earlier
         t = v[1]
         kind = 'f1' if t.startswith('current F1 partner') and 'owner' not in t else 'f1owner' if 'owner of' in t or 'or owner' in t else 'listed' if t.startswith('listed') else 'info'
@@ -68,7 +79,7 @@ def build(master=None):
     for d in json.load(gzip.open(os.path.join(B, 'data', 'brands.json.gz'), 'rt', encoding='utf-8')):                # 5. information only: the older 48-tab sheet
         for nm in (d.get('brand'), d.get('orig_brand')):
             if nm: put(nm, 'info', 'your older 48-tab sheet: ' + str(d.get('tab') or d.get('sector') or '') + (' (you marked it x)' if d.get('mark') else ''))
-    json.dump({'names': N, 'domains': D}, gzip.open(os.path.join(H, 'register.json.gz'), 'wt', encoding='utf-8'), ensure_ascii=False)
+    json.dump({'names': N, 'domains': D, 'delivered': V, 'delivered_domains': VD}, gzip.open(os.path.join(H, 'register.json.gz'), 'wt', encoding='utf-8'), ensure_ascii=False)
     return N, D
 if __name__ == '__main__':
     from collections import Counter

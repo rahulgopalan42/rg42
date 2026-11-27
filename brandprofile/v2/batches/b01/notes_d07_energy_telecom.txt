@@ -1,0 +1,21 @@
+NOTES - d07 Energy, renewables, power, telecom, fibre, towers, data centres (batch b01), 27 Nov 2026
+
+Rule change applied mid-task: only the master spreadsheet (plus F1 partners and listed companies) counts as a duplicate. Every name in DUPS was re-run through the updated check.py; names that now print NEW were researched (OVO, CityFibre, Hyperoptic, Brightspeed, QTS, Calpine, Tenaska, Ziply, Enpal, Ecotricity, Vertical Bridge, Greenko, DataBank, Flexential, Phoenix Tower, SEACOM, Avaada, LS Power, Intersect, Good Energy, Kao Data, Leeward) and removed from DUPS. DUPS now holds only IN MASTER, F1 PARTNER, POSSIBLE-same-company and listed companies.
+
+Output: MAIN 30 lines, WATCH 6, DUPS 78.
+
+Candidates screened: about 520 names through check.py (4 batches: data centres/towers/IPPs; European utilities, retailers and fuel; telecom/fibre worldwide; Americas, Africa, Middle East, APAC retailers and fuel). About 30 were then researched in depth.
+Excluded: ~52 IN MASTER / F1 PARTNER / same-company POSSIBLE matches and ~26 listed companies (see DUPS). STT GDC was researched, then found IN MASTER under its full name and removed.
+Before the rule change, about 230 names printed IN REGISTER; most of those are now eligible but were not all researched (see "Not done").
+
+Main list and source pages used:
+- Wikipedia company pages (Stadtwerke Munchen, Lyse Energi, Eviny, Magenta Telekom, Tilt Renewables, HEP, Vivacom, Hafslund ASA, OVO Energy, CityFibre, Hyperoptic, Brightspeed, QTS Realty Trust, Calpine, Tenaska, Ziply Fiber, Enpal, Ecotricity, Good Energy, TurkNet, Tamoil, ReNew Energy Global)
+- Cinven Ufinet pages; Verizon / RCR Wireless (Vertical Bridge); mergersindia and power-technology (Greenko); prnewswire (DataBank); GI Partners (Flexential); The Star (STT GDC); pv-tech (Avaada); company sites: lspower.com, phoenixintnl.com, seacom.com, intersect.com, nebras-power.com, biznetnetworks.com, kaodata.com, lreus.com, instavolt.co.uk, mexiconewsdaily (Zuma)
+- WebSearch used 10 of 11.
+
+Regions covered: UK, Germany, Austria, Norway, Croatia, Bulgaria, Turkey, Netherlands (Tamoil), United States, Latin America (Ufinet, Zuma), India (Greenko, Avaada), Australia (Tilt), Indonesia (Biznet), Qatar (Nebras), Africa (SEACOM). Light on: Gulf state utilities, Africa IPPs, Latin American retailers, Japan/Korea.
+
+Not done / to research next:
+- Now-eligible names not yet researched: Community Fibre, Netomnia, Freshwave, Lumos Fiber, Teraco (Digital Realty 77%), Pure DC, ODATA, KIO Networks, Totem, Protelindo, Phoenix Tower owner, Apex Clean Energy, Longroad Energy, Zolar, Juniper Green Energy, Hero Future Energies, O2 Power, Ayana, Orazul, Red Rocket, Azura Power, Glasfaser Nordwest, Avatel, Web Werks, CDC Data Centres (Infratil, 372 MW, contract over 1 GW), Eaton Towers (defunct, skip), Intersect Power deal closing.
+- NEW names found but not researched: So Energy, Certas Energy, Rontec, Oiltanking, Repower, Thuga, Naturstrom, LichtBlick, Vandebron, Greenchoice, Ekwateur, Elvia, Agder/A Energi, Monsson, Urbasolar, Forestalia, Enso Energy, InstaVolt (EQT, UK rapid charging; no figures found), Cypress Creek (6.8 GW operating or under construction; owner not on page), Open Access Data Centres, nLighten, GD Towers, Metronet, Onward Energy, TowerCo of Africa, Full Fibre, Youfibre, Unsere Grune Glasfaser, Plusnet, Onivia, Euskaltel, Axione, XpFibre, Open Dutch Fiber, Drei Austria, Altibox (covered inside Lyse), DNA Finland, Netia, Vivacom done, FPT Telecom (check listing), Moratelindo, 3BB, Ufinet done, Lekela, Wingu Africa, Distributed Power Africa, Fenix Power, Echoenergia, Brasil BioFuels, Ale Combustiveis (Glencore 78% deal 2018; revenue BRL 12.6bn 2017 - needs current owner), OKQ8, Ingo, Tank & Rast, Sprague (Hartree), Gexa Energy, Tri Eagle, Lumo Energy, ReAmped, Globird, Gull, Waitomo, Cleanway, Caltex, Emarat, Nebras done, ActewAGL (private JV, A$786m revenue 2016).
+- Facts to verify in MAIN: Nebras Power parent (if Qatar Electricity & Water, parent is listed); SEACOM HQ; Phoenix Tower owner; Greenko HQ; Calpine and Intersect brand independence after acquisition; Good Energy deal completion; several revenue figures older than 3 years (HEP 2018, Vivacom 2018, Ecotricity 2019, Calpine 2019, QTS 2019).

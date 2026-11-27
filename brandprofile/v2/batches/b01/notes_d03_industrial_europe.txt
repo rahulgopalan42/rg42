@@ -1,0 +1,38 @@
+d03 INDUSTRIAL EUROPE - discovery notes (27 Nov 2026)
+
+Mid-task rule change (from coordinator, confirmed by the rewritten brief section 1 and the new check.py): only the master
+spreadsheet, F1 partners and listed companies count as duplicates. All earlier DUPS entries were re-run through the new check.py;
+names now printing NEW were removed from DUPS and researched. DUPS now holds only IN MASTER, F1 PARTNER, confirmed listed companies
+and same-company POSSIBLE matches (plus Robopac = Aetna Group brand, and a note line for Toyota Industries, parent of Vanderlande).
+
+List / source pages used
+- Markt und Mittelstand TOP 100 Mittelstaendische Unternehmen 2025 (PDF; only the largest groups, nearly all on the master)
+- German Wikipedia company infoboxes (revenue, employees, ownership, cited to Bundesanzeiger/Unternehmensregister filings) via the
+  MediaWiki API for ~110 German, Austrian, Swiss and other European machinery companies
+- Italian Wikipedia (SCM Group), English Wikipedia (Hoermann, Tetra Pak, Vanderlande, Sidel, Staubli, Sandvik Coromant)
+- Company pages: fivesgroup.com (home, about, finance), salvagninigroup.com, marposs.com, wittmann-group.com, normet.com, linak.com,
+  lenze.com, marchesini.com, scmgroup.com, lvdgroup.com, piab.com, doppelmayr.com
+- WebSearch used 3 of 11 calls (Weltmarktfuehrer list search; Top Track search - no useful result; Packaging Valley search).
+
+Regions covered: Germany (most), Austria, Switzerland, Italy, France, Netherlands, Luxembourg, Finland. Thin: Nordics, UK, Iberia,
+CEE, Turkey.
+
+Counts: about 230 distinct candidate names run through check.py; 87 left out as master / F1 partner / listed or same-group duplicates (88 DUPS lines incl. the Toyota Industries note);
+70 written to MAIN (65 route A, 1 route B, 4 route C), 2 to WATCH.
+
+Caveats
+- Many revenue figures come from Wikipedia infoboxes that cite filed accounts; several are FY2020-FY2022 and are flagged in
+  'outstanding' with conf low/medium. Where ownership was not stated on a page opened, ownership_type = "requires verification".
+- Bobst: de.wikipedia infobox still shows an ISIN (listing status unclear) - left out, needs verification.
+- Adolph Saurer AG: parent's ISIN CNE000001GB9 shown (Chinese listing) - left out pending verification.
+- IMA: en.wikipedia still says public (Borsa Italiana); delisting not verified - left out.
+- Danieli, Hermle, Bystronic etc. treated as listed.
+- EMAG: Tesla applied in Nov 2026 for clearance to acquire it - marketing autonomy may change.
+
+Not reached (next steps for this cluster)
+- Doppelmayr (JS-only site; Wikipedia rate-limited), Lenze (no figures on company page), Tenova, Pietro Fiorentini, WAMGROUP,
+  Breton, Fameccanica, System Ceramics, Marchesini (no figures found), Prima Power, Poclain, Pellenc, Clextral, Somfy (delisted
+  2022? verify), Piab, Hydroscand, Brokk, LVD, Magotteaux, Domino Printing Sciences, Mabey, Fagor Arrasate, Danobat (coop, ~600 staff),
+  Ingeteam, Ulma, Fakro, Ermaksan, Durmazlar, Kovosvit, Tatra Trucks (2014 data only), Efacec (2015 data only), Linak revenue,
+  Sandvik Coromant, Leitz, Hainbuch, Rubble Master, Gueldel, Reishauer, Schleuniger, Uster, Waldrich Coburg, Vollert (<EUR 75M).
+- Italian Mediobanca/Champions lists, VDMA member lists, Nordic and UK private-company rankings were not opened.

@@ -49,20 +49,21 @@ def region(d):
     for r, S_ in REGION.items():
         if c in S_: return r
     return 'Europe' if c else 'Not recorded'
-def write(D, Q, W, I, tab, path):
-    wb = Workbook(write_only=True)
+def write(D, Q, W, I, tab, path, X=None):
+    wb = Workbook(write_only=True); X = X or []
     bt = BT.run(); bs = BT.summary(bt)
     n = len(Q); pr = Counter(d['A']['priority'] for d in Q); cf = Counter(d['A']['conf'] for d in Q); tr = Counter(d['A']['tier_txt'] for d in Q); rt = Counter(d['A']['route'] for d in Q)
     own = Counter(B.clean(d.get('ownership_type')) or 'requires verification' for d in Q); reg = Counter(region(d) for d in Q); sec = Counter(d['sector'] for d in Q); reach = Counter(B.clean(d.get('reach')).title() or 'Not recorded' for d in Q)
-    onsheet = [d for d in Q + W if d.get('_sheet')]
+    onsheet = [d for d in Q + W if d.get('_sheet')]; xsec = Counter(d['sector'] for d in X)
     exm = [e for e in D['excluded'] if e[1].startswith('Already on the master')]; exf = [e for e in D['excluded'] if e[1].startswith('Holds a current F1')]; exo = [e for e in D['excluded'] if e not in exm and e not in exf]
     dm = [x for x in D['dups'] if 'IN MASTER' in x[1] or x[1].startswith('master') or 'master:' in x[1]]
-    checked = len(D['dups']) + D['raw']
+    checked = max(len(D['dups']) + D['raw'], sum(B.CHECKED.values()))
     clusters = sorted({d['_cluster'] for d in D['recs']} | set(D['notes']))
     done_sectors = sorted(sec, key=lambda s: -sec[s]); empty = [s for s in B.SECTORS if s not in sec]
     fmt = lambda c: '; '.join(f'{k} {v}' for k, v in c.most_common())
     SUM = [('Formula 1 prospects, non-public companies: revised methodology, research batch 1 (' + B.DATE + ')',),
-           [f"{n:,} genuinely new qualified companies, ranked, plus {len(W):,} on the financial verification watchlist. None is on your master spreadsheet (PRIVATE NEW- 27_11): every line was checked against all of its tabs by name, alias and website before it was written and again when this file was built."],
+           [f"{n:,} genuinely new qualified companies, ranked; {len(W):,} on the financial verification watchlist; and {len(X):,} more found on industry rankings that meet a financial threshold but have not yet been assessed one by one. "
+            "None is on your master spreadsheet (PRIVATE NEW- 27_11): every line was checked against all of its tabs by name, alias and website before it was written and again when this file was built."],
            ['This is batch 1 of a larger programme. It covers fourteen sector clusters to a first depth, not every qualifying company in the world. The Research Record tab says what was covered and what is still to do.'], [],
            ('Deduplication',),
            ['Rule applied (your instruction of 27 Nov 2026): only companies on the master spreadsheet in the shared Drive folder count as duplicates. Brands on your older 48-tab sheet and names from earlier waves are not excluded.'],
@@ -72,14 +73,17 @@ def write(D, Q, W, I, tab, path):
            ('What is in this workbook',),
            ['Consolidated Ranking: every qualified new company, strongest outreach opportunity first, across all sectors.'],
            ['Sector tabs (your existing tab names): the same companies by sector, ranked from 1 within each tab. Domestic companies are on the Domestic tab, as in your earlier workbooks, ranked within their sector there.'],
-           ['Financial Verification Watchlist: attractive companies where no financial route could be shown yet, ranked on fit, timing and access, with what is still needed.'],
+           ['Verification Watchlist (the financial verification watchlist): attractive companies where no financial route could be shown yet, ranked on fit, timing and access, with what is still needed.'],
+           ['Discovered - To Assess: companies read off a ranking page (mostly the ENR lists of US contractors and design firms, the UK top 100 contractors and a US insurance-broker ranking). Their revenue is sourced and meets a threshold, '
+            'but nobody has yet confirmed that each is unlisted or written a company-specific Formula 1 case, so they are not scored or ranked. They are listed so nothing found is lost.'],
            ['Supporting Research: one row per company with ownership, every figure and its source, the route, confidence, tier, each score component, signals and sponsorships.'],
            ['Methodology, Backtest, Research Record, Excluded, Key.'], [],
            ('The new companies',),
            [f"By priority: {fmt(pr)}."], [f"By financial confidence: {fmt(cf)}."], [f"By qualification route: " + '; '.join(f'Route {k} {v}' for k, v in rt.most_common()) + '.'],
            [f"By estimated annual investment tier: {fmt(tr)}."], [f"By region of headquarters: {fmt(reg)}."], [f"By geographic reach: {fmt(reach)}."], [f"By ownership: {fmt(own)}."],
            [f"By sector ({len(sec)} sectors): {fmt(sec)}."],
-           [f"Sectors with no new company yet in this batch: {', '.join(empty) or 'none'}."], [],
+           [f"Sectors with no new company yet in this batch: {', '.join(empty) or 'none'}."],
+           [f"Discovered - To Assess, by sector: {fmt(xsec)}."], [],
            ('How to read the ranking',),
            ['Overall Score = financial capacity (35) + Formula 1 fit (30) + buying intent and timing (25) + decision-maker accessibility (10). 75 and above is High, 55 to 74 Medium, 35 to 54 Watchlist, below 35 Low.'],
            ['The score rewards evidence. Most companies have no dated buying signal on the pages read, so they score 0 of 25 on intent and sit in Medium or Watchlist. That is missing information, not a negative finding; a signal check on the top names would move them.'],
@@ -92,7 +96,15 @@ def write(D, Q, W, I, tab, path):
     main_tab(wb, 'Consolidated Ranking', [B.row(d) for d in Q])
     for s in [s for s in B.SECTORS if s in tab]: main_tab(wb, re.sub(r'[\\/*?:\[\]]', ' ', s), [B.row(d) for d in tab[s]])
     if 'Domestic' in tab: main_tab(wb, 'Domestic', [B.row(d) for d in sorted(tab['Domestic'], key=lambda d: (d['sector'], d['rank_sector']))])
-    main_tab(wb, 'Financial Verification Watchlist', [B.row(d, watch=True) for d in W])
+    main_tab(wb, 'Verification Watchlist', [B.row(d, watch=True) for d in W])
+    def xrow(d):
+        M = d['A']['M']; k = next((k for k in ('revenue', 'aum', 'ebitda', 'equity_funding', 'valuation', 'transaction_value', 'arr') if k in M), None)
+        src = '; '.join(sorted(B.sources(d))[:2]) or 'No page recorded by the research'
+        return [B.clean(d['name']), ', '.join(b for b in (B.clean(d.get('hq_city')), B.clean(d.get('hq_country'))) if b), d['sector'], B.clean(d.get('subsector')), B.clean(d.get('desc')),
+                (S.LABEL[k].capitalize() + ': ' + B.figline(M, k)) if k else 'Not recorded', M[k][1] if k else '', src, B.clean(d.get('ownership_type')) or 'requires verification', B.clean(d.get('reach')).title(),
+                'Confirm it is unlisted and who owns it; write the company-specific Formula 1 case; check sponsorships and signals' + ('; ' + B.clean(d['outstanding']) if B.clean(d.get('outstanding')) else ''), B.CLUSTER.get(d['_cluster'], d['_cluster'])]
+    grid(wb, 'Discovered - To Assess', ['Company Name', 'Headquarters', 'Sector', 'Subsector', 'Company Description', 'Figure Found', 'Period', 'Source (ranking page)', 'Ownership', 'Geographic Reach (as recorded)',
+                                        'Still Needed Before It Is Ranked', 'Research Cluster'], [34, 26, 28, 24, 50, 30, 10, 50, 22, 14, 60, 36], [xrow(d) for d in X], height=45)
     grid(wb, 'Supporting Research', B.SUPCOLS, B.SUPW, [B.suprow(d) for d in Q + W + I], freeze='B2', height=60)
     # ---- methodology
     ME = [('Revised methodology for non-public companies (governing reference: your master prompt of 27 Nov 2026)',),
@@ -104,7 +116,7 @@ def write(D, Q, W, I, tab, path):
           ['Route A (standard), any one of: total equity funding USD 100M+; annual revenue USD 150M+; ARR USD 50M+; annual EBITDA USD 20M+; valuation USD 1B+; acquisition or transaction value USD 1B+; assets under management USD 5B+; substantial paid sponsorship; documented parent or state financial backing with a commercial mandate.'],
           ['Route B (exceptional): equity funding USD 75M to below 100M, revenue USD 75M to below 150M, valuation USD 500M to below 1B, or a transaction below USD 1B, with documented supporting strength. Every exception is written in the Capacity Evidence column.'],
           ['Route C (alternative): no financials published, but at least two independent, sourced indicators of scale (for example 500+ employees, 3+ countries, 100+ stores, a credible revenue estimate of USD 150M+, paid sponsorships). Two indicators that restate one fact count once.'],
-          ['No route met: the company goes to the Financial Verification Watchlist, not the ranking.'], [],
+          ['No route met: the company goes to the Verification Watchlist tab, not the ranking.'], [],
           ('4. Financial confidence',),
           ['Confirmed capacity: a reported figure from the last three financial years (FY2023 or later), with its source, meets a standard threshold, and no serious strain was found.'],
           ['Indicative capacity: the route is met by an estimate, an older figure, Route B, Route C, sponsorship or backing rather than a recent reported figure.'],
@@ -158,15 +170,17 @@ def write(D, Q, W, I, tab, path):
     # ---- research record
     per = defaultdict(lambda: Counter())
     for d in Q: per[d['_cluster']]['qualified'] += 1
+    for d in X: per[d['_cluster']]['disc'] += 1
     for d in W: per[d['_cluster']]['watch'] += 1
     for x in D['dups']: per[x[2]]['dups'] += 1
     for e in D['excluded']: per[e[2]]['removed'] += 1
     RR = []
     for k in clusters:
         note = re.sub(r'\n{2,}', '\n', D['notes'].get(k, '').strip())
-        RR.append([B.CLUSTER.get(k, k), per[k]['qualified'], per[k]['watch'], per[k]['dups'], per[k]['removed'], note[:6000] or 'No notes file was written.'])
-    grid(wb, 'Research Record', ['Cluster Researched', 'Qualified New Companies', 'On the Verification Watchlist', 'Candidates Left Out by the Research (already on the master, F1 partner or listed)', 'Lines Removed at the Build',
-                                 "Researcher's Notes: pages used, regions covered, what was not reached"], [44, 12, 12, 18, 12, 150], RR, height=None)
+        RR.append([B.CLUSTER.get(k, k), B.CHECKED.get(k) or 'not reported', per[k]['qualified'], per[k]['watch'], per[k]['disc'], per[k]['dups'], per[k]['removed'], note[:6000] or 'No notes file was written.'])
+    grid(wb, 'Research Record', ['Cluster Researched', 'Names Run Through the Duplicate Check (as reported)', 'Qualified New Companies', 'On the Verification Watchlist', 'Discovered - To Assess',
+                                 'Candidates Left Out by the Research (already on the master, F1 partner or listed)', 'Lines Removed at the Build',
+                                 "Researcher's Notes: pages used, regions covered, what was not reached"], [44, 14, 12, 12, 12, 18, 12, 150], RR, height=None)
     EX = [[x[0], 'Left out by the research', x[1], B.CLUSTER.get(x[2], x[2])] for x in D['dups'] if x[0]] + [[e[0], 'Removed at the build', e[1], B.CLUSTER.get(e[2], e[2])] for e in D['excluded']] + \
          [[x[0], 'Found by two clusters, kept once', 'Kept under: ' + B.CLUSTER.get(x[2], x[2]), B.CLUSTER.get(x[1], x[1])] for x in D['xdup']]
     grid(wb, 'Excluded', ['Company', 'Stage', 'Reason', 'Cluster'], [40, 26, 90, 50], sorted(EX, key=lambda r: (r[1], r[0].lower())), height=None)

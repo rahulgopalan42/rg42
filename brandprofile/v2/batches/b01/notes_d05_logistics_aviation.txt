@@ -1,0 +1,59 @@
+Cluster d05: Logistics & freight, shipping, supply chain tech, private aviation, aerospace & space. Run date 2026-11-27.
+
+FILES
+MAIN  d05_logistics_aviation.jsonl        44 lines (Route A 31, Route C 13)
+WATCH watch_d05_logistics_aviation.jsonl  13 lines (route none)
+DUPS  dups_d05_logistics_aviation.jsonl   77 lines (IN MASTER, F1 PARTNER, LISTED?, POSSIBLE that are the same company)
+
+RULE CHANGE HANDLED
+Mid-run the coordinator relayed the user's rule change (only the master spreadsheet counts as a duplicate). check.py re-run on all
+186 DUPS names; DUPS rewritten to keep only IN MASTER / F1 PARTNER / LISTED? / same-company POSSIBLE (77). Newly eligible names
+researched and added to MAIN: MSC, DB Schenker, Hutchison Ports, Girteka, Flexport, Avia Solutions Group, Clay Lacy Aviation,
+Daher, ITP Aero, Relativity Space, Stoke Space, Ocean Network Express, Ninja Van, Associated British Ports, Kaman, Xpressbees,
+Cainiao, LKW Walter (Impulse Space and LandSpace to WATCH).
+
+CANDIDATES
+About 455 names run through check.py (several batches of brainstormed names plus the full Transport Topics Top 100 for-hire list).
+77 logged in DUPS under the new rules. About 60 researched with pages opened; 44 written to MAIN, 13 to WATCH.
+
+LIST / SOURCE PAGES USED
+- Transport Topics 2025 Top 100 For-Hire Carriers: https://www.ttnews.com/top100/for-hire/2025 (revenue, employees, tractors)
+- Wikipedia list of largest container shipping companies (Alphaliner, April 2026): https://en.wikipedia.org/wiki/List_of_largest_container_shipping_companies
+- Company Wikipedia pages (en/de/it/es) for each entry, Andreani 2025 sustainability summary, La Nacion (Andreani), AIN (RoyalJet), Naqel about page, Patrus institutional page.
+- Searches that produced little: European business jet operator rankings (none by operator), Brazil carrier ranking (no private revenue data), Saudi logistics (no revenue data).
+
+REGIONS COVERED
+North America (US trucking/LTL, Canada courier/bulk shipping, US space and private aviation), Europe (Germany, Austria, Italy,
+Switzerland, Lithuania, France, Spain, UK, Ireland), Middle East (Saudi Arabia, UAE), Asia-Pacific (Singapore, Hong Kong, China,
+India, Australia), Latin America (Argentina; Brazil in WATCH only), Africa (South Africa via Imperial).
+
+NOT EXCLUDED BUT BELIEVED LISTED (not written to DUPS because check.py printed NEW; verify before any use)
+Kuehne+Nagel, DSV, Wheels Up, flyExclusive, Stolt-Nielsen, Agility, Aramex, Firefly Aerospace, Volato, NYK, Milaha/Qatar Navigation,
+Abu Dhabi Ports (AD Ports), Heidmar, Synspective. Bolloré Logistics was absorbed into the CMA CGM/CEVA group (CEVA = F1 partner);
+Hamburg Süd brand retired into Maersk; Unifeeder website now redirects to DP World (F1 partner) - brand likely absorbed; Coyote
+Logistics sold to RXO. Air Hamburg is a VistaJet subsidiary (F1 partner) - not pursued.
+
+WHAT REMAINS (not reached)
+- US private carriers from the TT list still unresearched (all NEW): Kenan Advantage, Evans Network, PS Logistics, Anderson Trucking,
+  Bennett, Dayton Freight (USD 1.02bn revenue, USD 166M net income), KLLM, Stevens Transport, Hirschbach, Bison Transport, A. Duie
+  Pyle, Lynden, Day & Ross, Western Express, R&R, 10 Roads Express, plus the USD 200-400M band (Koch Cos, Melton, Oak Harbor,
+  Red Classic, Dupré, Cassens, Ward, Acme Truck Line, Highlight Motor Group, Trans-System, Leonard's Express, Western Flyer, May
+  Trucking, CrossCountry Freight). TT gives revenue; each still needs an ownership page.
+- Europe: Hoyer, Transmec, Primafrio, Grupo Sesé, Jacky Perrenot, Heppner, Pall-Ex, Arcese, Samskip, Blue Water Shipping, Euroports,
+  Contship Italia, PD Ports, Eurogate, Bernhard Schulte, Spliethoff, Wagenborg, BBC Chartering, Briese, AAL, Klaveness, V.Group,
+  Peter Döhle (NEW now).
+- Private aviation: Jetex, Jet Linx, Solairus, Nicholas Air, Silver Air, Sentient Jet, DC Aviation, Albinati, Elit'Avia, Jetcraft,
+  Deer Jet, Hunt & Palmer, Air Partner (Wikipedia pages missing/wrong for several).
+- Aerospace suppliers: CPP, Forgital, Sonaca, Pankl, Latécoère, Premium Aerotec (likely rebranded inside Airbus), Joramco, Nayak.
+- Space: Rocket Factory Augsburg, Skyroot, Varda, Orbex, K2 Space, True Anomaly, Ursa Major, Hadrian, Galactic Energy, Chang Guang,
+  Aerospacelab, Unseenlabs, Sateliot, Hispasat, Turion, Inversion, Epic Aerospace.
+- Shipping/ports Asia & ME: Sinokor, KMTC, SM Line, Emirates Shipping Line (WATCH; need ownership pages), Meratus, Heung-A,
+  JM Baxi, Saudi Global Ports, Red Sea Gateway Terminal, Port of Tanjung Pelepas, Oman Shipping Company/Asyad.
+- Latin America and Africa remain thin: Braspress, Jamef, Coordinadora, Servientrega, Ultramar, Ransa, Loggi, Solistica, Africa
+  Global Logistics (MSC), Siginon, Transnet (state). Wikipedia coverage is poor; company sites or national rankings needed.
+
+DATA CAVEATS
+Several figures are older than three years and flagged in `outstanding` (MSC 2022, Girteka 2022, Militzer & Münch 2020, ArianeGroup
+2021, Imperial FY2021, Cainiao 2018 valuation, Peel Ports 2006 transaction, Kaman 2024 deal). Ownership needs verification for SR
+Technics, Sabena technics and RoyalJet. Emirates Shipping Line shows POSSIBLE against master "Emirates" (the airline group). It is a
+different, private Dubai container line and is kept in WATCH.

@@ -1,0 +1,68 @@
+NOTES - cluster d02: private equity and alternative investment management firms (world-wide)
+Date: 2026-11-27
+
+RULE CHANGE MID-TASK
+check.py and brief section 1 changed during the run: only the master spreadsheet (and F1 partners) now counts as a duplicate.
+All names were re-run under the new check.py before anything was written. Nothing that now prints NEW is in DUPS, except
+listed managers (KKR, Blackstone, Apollo, TPG, Brookfield, Partners Group, EQT, ICG, StepStone, Blue Owl, Hamilton Lane,
+Patria, Eurazeo, Vinci). check.py prints NEW for most of these, but their own shares trade, so they are excluded under brief section 2.
+
+FILES
+MAIN  d02_private_equity.jsonl        82 lines (all Route A)
+WATCH watch_d02_private_equity.jsonl   5 lines (AIIM, Jump Trading, Helios, ChrysCapital, Kedaara)
+DUPS  dups_d02_private_equity.jsonl   55 lines (29 IN MASTER, 2 F1 PARTNER + 2 F1-partner divisions, 22 listed/LISTED?)
+
+LIST PAGES USED
+- Wikipedia "List of private equity firms" (PEI 300 2026 top 30): https://en.wikipedia.org/wiki/List_of_private_equity_firms
+- PEI 300 page (top 10 only; full list needs a login): https://www.privateequityinternational.com/pei-300/
+- Wikipedia "List of hedge funds" (top 20 by AUM, Jun 2025): https://en.wikipedia.org/wiki/List_of_hedge_funds
+- altss rankings: largest PE firms (global/US/Europe), hedge funds (global/Europe), private credit, infrastructure, real estate,
+  sovereign wealth funds, Middle East family offices, Latin America PE blog (https://altss.com/rankings)
+- Forbes Middle East Top 50 Asset Managers 2026 (names only): https://www.forbesmiddleeast.com/lists/top-50-asset-managers-2026/
+- Bain India Private Equity Report 2025 (ChrysCapital, Kedaara fund sizes)
+- Firm pages: lunate.com, kinea.com.br, lexingtonpartners.com, hayfin.com, aiimafrica.com, act.is, spxcapital.com (AUM garbled)
+- About 70 Wikipedia firm pages (one per researched firm; cited in each record)
+
+REGIONS COVERED
+North America (US, Canada), Europe (UK, Jersey, France, Netherlands, Sweden, Denmark), Asia-Pacific (Singapore, China/Hong Kong,
+Japan, Australia), Middle East (UAE, Saudi Arabia, Oman), Latin America (Brazil: Kinea; L Catterton and Actis LatAm offices),
+Africa (AIIM, Helios in WATCH; both are below USD 5bn).
+
+COUNTS
+- Names run through check.py: about 400 (many twice, under the old and new rules).
+- Already registered under the current rules: 33 (29 IN MASTER + 4 F1 partner or F1-partner division). Another 22 are listed (in DUPS).
+- Researched in depth: about 95. Written: 82 MAIN, 5 WATCH.
+
+JUDGEMENT CALLS AND LEFT OUT (not in DUPS)
+- MBK Partners (USD 33bn AUM). Left out on compliance grounds: Homeplus rehabilitation, and prosecutors sought arrest warrants for
+  the chairman and executives in Jan 2026 (Wikipedia). Needs a human decision.
+- ADQ: folded into L'imad in Jan 2026 (Wikipedia). L'imad not researched.
+- Macquarie Asset Management: the Wikipedia page is the listed Macquarie Group (ASX: MQG), with the same brand. Not written.
+- Churchill Asset Management and Arcmont: affiliates of Nuveen (an F1 partner with Williams), possibly rebranded as Nuveen Private
+  Capital. Not written. Verify whether they keep their own brands.
+- AEW: parent Natixis is IN MASTER. Not written, pending a check of the parent.
+- Jump Trading in WATCH: meets Route C, but subsidiary Tai Mo Shan paid USD 123m to settle with the SEC (Dec 2024). Compliance review needed.
+- Stonepeak: agreed to buy 65% of Castrol (an F1 partner); recorded as an established conflict.
+- PIF: holds about 8% of Aramco; recorded as an established conflict.
+- L Catterton: partner is LVMH (F1 global partner); recorded as an established conflict.
+- Squarepoint: the AUM of USD 226.9bn is the Wikipedia infobox figure and probably gross; net AUM to verify.
+- 13 low-confidence records (Waterland, Triton, Montagu, AKO, Egerton, Sona, Pharo, Adage, EIG, Heitman, LaSalle, Ivanhoe Cambridge,
+  GLP) rest on third-party ranking data only.
+- Some websites were filled from the firm name without opening the site. Those not confirmed were left blank or flagged in `outstanding`.
+
+NOT REACHED (remaining work in this cluster)
+- Europe PE: IK Partners, Inflexion, Investindustrial, Astorg, BC Partners, Charterhouse, Bridgepoint-size mid-market firms, Ardian (IN MASTER).
+- US PE: Stone Point, Genstar, Platinum Equity, American Securities, Roark, New Mountain, GTCR, Francisco Partners, Welsh Carson,
+  Berkshire Partners, Centerbridge, Cerberus, Lone Star, Kohlberg, HIG, Audax, Sycamore, Searchlight, Arctos, Antares, Benefit
+  Street, PGIM Private Capital, Barings, Comvest, Levine Leichtman, Twin Brook, Glendower, Whitehorse, Committed Advisors, Adams Street.
+- Hedge and trading: DRW (Wikipedia 404), Five Rings, GoldenTree, D1, Ruffer, Lansdowne, Segantii, Polymer, Pinpoint, ARCM; trading
+  revenue for prop firms (only Citadel Securities sourced).
+- Asia-Pacific: PAG (Wikipedia 404), Hahn & Co, IMM, Primavera, Kotak Alternate, BGH (no AUM), Morrison & Co (site unreachable from
+  this session; needs network allow-listing), QIC, Hosen, Advantage Partners.
+- Middle East: Sanabil (site empty), Hassana (404), Gulf Capital, Kingdom Holding, Al Rajhi Capital, SNB Capital, Alinma, Gulf
+  Islamic Investments, Royal Group/2PointZero, Abu Dhabi Capital Group.
+- Latin America: SPX Capital (AUM figure garbled on site), Verde, Ibiuna, Southern Cross, Riverwood (site unreachable), IG4, Aqua.
+- Africa: DPI, Ethos, Public Investment Corporation (SA). All likely below or near the threshold.
+- Sponsorship evidence: no paid sport sponsorships were found for the written firms, apart from PIF (ATP/WTA). Club ownership
+  (Clearlake/Chelsea, Sixth Street, Silver Lake, Oaktree/Inter, General Atlantic/Club America) is recorded in rationale and signals, not as sponsorship.
+WebSearch used: 6 of 11.

@@ -1,0 +1,39 @@
+Cluster d14: state-owned and sovereign fund-backed operating companies; parent-backed operating brands and joint ventures
+Date: 2026-11-27
+
+RESULT
+MAIN 44 lines, WATCH 3 lines (Etihad Rail, smart Automobile, Masen), DUPS 113 lines.
+Candidates run through check.py: about 330 names, in several batches.
+Rule change partway through: the coordinator passed on the user's instruction that only the master spreadsheet counts as a duplicate. All earlier names were re-checked with the updated check.py. Names that now print NEW (older 48-tab sheet or earlier research) were treated as eligible, and the largest ones were researched first (Riyadh Air, Red Sea Global, ROSHN, Diriyah, flydubai, QatarEnergy, ADNOC, SOCAR, OCP, Codelco, Pemex, Air India, Reliance Retail, Ethiopian, EgyptAir, Malaysia Airlines, ITA, TAP, AZAL, KTZ, EGA, Proton, Horse, NBN Co, Amtrak, Rapidus, Syngenta, etc.).
+Already registered (DUPS): 113 in total, including 106 IN MASTER or F1 PARTNER from check.py, aliases of master entries (Cepsa=Moeve, Q8=KPI, Kuwait Petroleum Corp = parent of registered Q8, Tata AIA Life, Agribank, Emirates SkyCargo, Cupra=SEAT, Campa=Reliance Consumer Products), and two newly listed companies that check.py does not yet flag: Jio Platforms (IPO Oct 2026) and Dangote Petroleum Refinery (NGX, Sep 2026).
+
+LEFT OUT AFTER RESEARCH (not written)
+- Sony Honda Mobility / Afeela: production cancelled in March 2026; staff reassigned in April 2026.
+- LIV Golf: PIF withdrew funding in April 2026; Chapter 11 filed in September 2026.
+- NEOM: being scaled back, and title partner of McLaren's F1 Academy entries for 2026 (an F1 team relationship).
+- Banque Misr: sanctioned by the US Treasury in August 2026, per Wikipedia.
+- VodafoneThree: 100% owned by listed Vodafone since July 2026, and its brands are Vodafone and Three. MasOrange: 100% owned by Orange since June 2026 (search results only).
+- Malaysia Airports: the Wikipedia page still shows it as listed, so delisting could not be confirmed.
+- Tata Electronics: no financial or scale figures on the pages opened. Silal: ADQ ownership confirmed but no scale figures (could go to WATCH later).
+- Oman LNG: a B2B LNG plant whose shareholders include Shell and TotalEnergies; weak brand case.
+- Holland Casino: undated revenue, and its Zandvoort casino closed in 2025.
+- Miral: ownership not stated on the page opened, and it operates Ferrari World under a Ferrari licence.
+
+CAVEATS
+- Several financial figures come from Wikipedia and are older than three years. They are flagged in the period field: QatarEnergy 2022, SOCAR 2022, AZAL 2022, KTZ 2020, Proton 2020, Caixa 2021, Debswana 2012.
+- Currencies outside the fixed list (AZN, KZT, MYR, IDR, EGP) have usd_m = null, or use the page's own USD figure (NBE).
+- SOCAR, AZAL, Codelco and Pemex have compliance notes that need due diligence.
+
+SOURCES USED
+Mainly Wikipedia company pages. Also Deutsche Bahn IR (ir.deutschebahn.com), the QTerminals and M42 corporate pages, the Silal homepage, the Channel 4 annual report press release, Arab News (Diriyah, Saudi Coffee Co) and BCA Sekuritas (InJourney).
+pif.gov.sa portfolio pages returned 403. Several Wikipedia titles returned 404 (Silal, QTerminals, InJourney, Livelo, Transbank, Unifrutti, AviLease, Kakao Mobility, MasOrange, Saudi Entertainment Ventures).
+WebSearch: 7 of 11 calls used.
+
+REGIONS
+Middle East (Saudi Arabia, UAE, Qatar), Europe (Germany, UK, Italy, Portugal, Spain, Switzerland), Asia-Pacific (Japan, India, Malaysia, Indonesia, Australia), Central Asia and Caucasus (Kazakhstan, Azerbaijan, Turkey), Africa (Ethiopia, Egypt, Morocco, Botswana), Latin America (Brazil, Chile, Mexico), North America (US).
+
+NOT REACHED (eligible NEW names still to research)
+- Saudi Arabia / UAE / Qatar: Saudi Entertainment Ventures, Mubadala Energy, XRG, Nakheel, Modon, Expo City Dubai, ADNEC, Al Dahra, Unifrutti, AviLease, Rua Al Madinah, Soudah, New Murabba, Saudi Downtown, SIRC, Boutique Group, Matarat, Golf Saudi, KAFD, ENEC, EWEC, Strata, Sanad, Mowasalat, Qatar Duty Free, Qatar Rail, Hamad International Airport, Jafza, Cruise Saudi, Tasaru, AlUla Development Co, Omran, SalamAir, Asyad, Bahrain Airport Co, Edamah, Mwani Qatar, D360 Bank.
+- Asia: Tata Digital, Mahindra Electric Automobile, NSE India, BSNL, Hongqi, Arcfox, Sinochem, COFCO International, China Baowu, China Three Gorges, Pupuk Indonesia, PT Freeport Indonesia, Pelindo, KAI, Pelita Air, PLUS Malaysia, FGV, Kakao Mobility, Toss Bank, U Mobile, JSW MG Motor India, Reliance Intelligence, JASM, Incheon Airport Corp, MIND ID, QazaqGaz, FlyArystan, Qazaq Air, Almalyk MMC, Uzbekneftegaz, Navoi MMC, Azercosmos.
+- Africa / Latin America: NNPC, Sonangol, Transnet, Eskom, SAA, ACSA, RwandAir, Air Tanzania, Okavango Diamond Co, NLNG, BancoEstado, Banco Nación, CFE, Correios, Petroperú, YPFB, Mexicana, Cielo, Livelo, Transbank, Tanger Med.
+- Europe / North America: Ferrovie dello Stato, DB Schenker (now DSV, listed; exclude), The Royal Mint follow-up, Lamborghini, Milence, Flexis, ACC, Supernal, Turkish Technic, Pavilion Energy (check whether sold to Shell), OLG, TAB NZ, Export Development Canada, TVA.

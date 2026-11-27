@@ -25,7 +25,15 @@ SECTORS = ['Automotive & Mobility', 'Aerospace, Defence & Space', 'Airlines & Ai
            'Medical Devices & Diagnostics', 'Healthcare Services', 'Agriculture & Agribusiness', 'Packaging & Printing', 'Environmental & Waste Services', 'Security Services', 'Staffing & HR',
            'Marketing, Advertising & PR', 'Professional & Business Services', 'Education & Training', 'Diversified & Other']
 SECKEY = {norm(s): s for s in SECTORS}
-RUSSIA = re.compile(r'(?i)\brussia|russian federation|\bmoscow\b|st\.? petersburg')
+CHECKED = {'d01_asset_wealth': 330, 'd02_private_equity': 400, 'd03_industrial_europe': 230, 'd04_industrial_row': 270, 'd05_logistics_aviation': 455, 'd06_mining_chemicals': 270, 'd07_energy_telecom': 520,
+           'd08_consumer_west': 450, 'd09_consumer_row': 600, 'd10_software_nonvc': 560, 'd11_financial_insurance': 330, 'd12_healthcare': 190, 'd13_services_construction': 1350, 'd14_state_parent': 330}
+def sources(d):
+    s = set()
+    for u in list(d.get('sources') or []) + [f.get('source') for f in (d.get('fin') or []) if isinstance(f, dict)] + [x.get('source') for x in (d.get('alt_indicators') or []) if isinstance(x, dict)]:
+        u = clean(u)
+        if u.startswith('http'): s.add(u)
+    return s
+RUSSIA = re.compile(r'(?i)^\s*(russia|russian federation)\s*$')
 def clean(v): return re.sub(r'\s+', ' ', str(v)).strip() if v not in (None, '') else ''
 def money(m):
     if m is None: return ''
@@ -56,9 +64,9 @@ def load():
     # eligibility and the duplicate check, run again on every line whatever the research did
     keep = []; excluded = []
     for d in recs:
-        nm = clean(d['name']); st, disp, src, hits = C.lookup(nm + (' | ' + clean(d.get('website')) if clean(d.get('website')) else ''))
-        if st in ('dup', 'f1'): excluded.append((nm, ('Already on the master: ' if st == 'dup' else 'Holds a current F1 deal: ') + src, d['_cluster'])); continue
-        if RUSSIA.search(clean(d.get('hq_country')) + ' ' + clean(d.get('hq_city'))): excluded.append((nm, 'Russian company (geographic exclusion)', d['_cluster'])); continue
+        nm = clean(d['name']); st, disp, src, hits = C.lookup(nm + (' | ' + clean(d.get('website')) if clean(d.get('website')) else ''), batch=d['_batch'])
+        if st in ('dup', 'f1'): excluded.append((nm, ('Already delivered: ' if src.startswith('delivered') else 'Already on the master: ' if st == 'dup' else 'Holds a current F1 deal: ') + src, d['_cluster'])); continue
+        if RUSSIA.search(clean(d.get('hq_country'))): excluded.append((nm, 'Russian company (geographic exclusion)', d['_cluster'])); continue
         own = clean(d.get('ownership_type')).lower()
         if st == 'listed' and 'subsidiary' not in own and not re.search(r'(?i)\b(private|unlisted|not listed|family|founder|partnership|state|mutual|co-op)', own + ' ' + clean(d.get('outstanding'))):
             excluded.append((nm, 'Name matches a listed company and the line does not show it is unlisted: ' + disp, d['_cluster'])); continue
@@ -83,7 +91,11 @@ def load():
             best[k0] = win; xdup.append((clean(lose['name']), lose['_cluster'], win['_cluster']))
         for k in keys: alias[k] = k0
     out = []
+    use = Counter(u for d in best.values() for u in sources(d)); listpages = {u for u, n in use.items() if n >= 15}
     for d in best.values():
+        sr = sources(d)
+        # read off a ranking page only (or no page recorded): discovered, but ownership and the Formula 1 case were not looked at company by company
+        d['_discovery_only'] = (not sr) or sr <= listpages
         sec = SECKEY.get(norm(clean(d.get('sector'))))
         if not sec: sec = 'Diversified & Other'; d['_sector_note'] = clean(d.get('sector'))
         d['sector'] = sec; d['A'] = S.assess(d); out.append(d)
@@ -91,6 +103,8 @@ def load():
 def order_key(d): a = d['A']; return (-a['total'], -a['fin'], -a['fit'], -a['intent'], -a['access'], len(a['flags']), clean(d['name']).lower())
 def classify(R):
     """qualified = a route is met and capacity is Confirmed or Indicative; watch = no route met (financial verification needed); low = Insufficient capacity"""
+    X = [d for d in R if d.get('_discovery_only')]; R = [d for d in R if not d.get('_discovery_only')]
+    classify.discovered = sorted(X, key=lambda d: (d['sector'], -(d['A']['M'].get('revenue', (0,))[0]), clean(d['name']).lower()))
     Q = [d for d in R if d['A']['conf'] in ('Confirmed capacity', 'Indicative capacity')]; W = [d for d in R if d['A']['conf'] == 'Unverified capacity']; I = [d for d in R if d['A']['conf'] == 'Insufficient capacity']
     Q.sort(key=order_key)
     for i, d in enumerate(Q, 1): d['rank_all'] = i
@@ -103,7 +117,7 @@ def classify(R):
         else:
             for i, d in enumerate(L, 1): d['rank_sector'] = i
     W.sort(key=lambda d: (-(d['A']['fit'] + d['A']['intent'] + d['A']['access']), clean(d['name']).lower()))
-    for i, d in enumerate(W, 1): d['rank_all'] = i; d['rank_sector'] = ''; d['tab'] = 'Financial Verification Watchlist'
+    for i, d in enumerate(W, 1): d['rank_all'] = i; d['rank_sector'] = ''; d['tab'] = 'Verification Watchlist'
     for d in I: d['rank_all'] = ''; d['rank_sector'] = ''; d['tab'] = 'Not prioritised'
     return Q, W, I, tab
 # ---------------------------------------------------------------- the main row, in the master's column order
@@ -227,10 +241,11 @@ def suprow(d):
 if __name__ == '__main__':
     D = load(); Q, W, I, tab = classify(D['recs'])
     print('lines read', D['raw'], '| removed by the duplicate and eligibility check', len(D['excluded']), Counter(e[1].split(':')[0] for e in D['excluded']), '| repeated across clusters', len(D['xdup']), '| companies', len(D['recs']))
+    print('discovered from a ranking only, not yet assessed', len(classify.discovered))
     print('qualified', len(Q), Counter(d['A']['conf'] for d in Q), '| verification watchlist', len(W), '| insufficient', len(I))
     print('priority', Counter(d['A']['priority'] for d in Q), '| routes', Counter(d['A']['route'] for d in Q), '| tiers', Counter(d['A']['tier_txt'].split(':')[0] for d in Q))
     print('tabs', {t: len(L) for t, L in tab.items()})
     for d in Q[:12]: a = d['A']; print(f"  {d['rank_all']:3d} {a['total']:5.1f} {a['priority']:9s} fin {a['fin']:4.1f} fit {a['fit']:4.1f} int {a['intent']:4.1f} acc {a['access']:2d} | {clean(d['name'])[:30]:30s} | {d['sector'][:26]:26s} | {a['conf'][:10]} {a['tier_txt'][:6]} R{a['route']}")
     if len(sys.argv) > 2 and sys.argv[1] == 'xlsx':
         import write as Wr
-        Wr.write(D, Q, W, I, tab, sys.argv[2]); print(sys.argv[2])
+        Wr.write(D, Q, W, I, tab, sys.argv[2], classify.discovered); print(sys.argv[2])

@@ -1,0 +1,76 @@
+NOTES - d06 Mining, mining technology & equipment, metals & materials, chemicals (world-wide)
+Date: 2026-11-27
+
+RESULT FILES
+- MAIN  d06_mining_chemicals.jsonl        33 lines
+- WATCH watch_d06_mining_chemicals.jsonl   4 lines (J.M. Huber, Roy Hill, SA Recycling, Matalco)
+- DUPS  dups_d06_mining_chemicals.jsonl   64 lines
+All lines parse as JSON; no name appears twice across the three files.
+
+RULE CHANGE DURING THE RUN
+The coordinator passed on a rule change from the user, and the revised section 1 of brief_discovery.md confirms it: only the master spreadsheet counts as a duplicate.
+- DUPS was rebuilt. It now holds only IN MASTER, F1 PARTNER and LISTED? matches, POSSIBLE matches that are the same company
+  (Redpath Mining, Marcegaglia, Colakoglu, Freudenberg, Koch Industries), Inalum (IN MASTER) and MIND ID. MIND ID was logged
+  because it is the renamed holding of Inalum, which is on the master.
+- Some companies whose shares trade now come back from check.py as NEW: Brenntag, Azelis, Sika, Asian Paints, Kinross, Barrick,
+  First Quantum, Trinseo, Minerals Technologies, Calix and Nagase. They are kept in DUPS as listed, each with a note.
+- Names that came back NEW after the change and were then researched and added to MAIN: Codelco, OCP Group, Emirates Global
+  Aluminium, PT Freeport Indonesia, W. L. Gore, SCHOTT, Duferco, Plansee, Solenis, ALTANA, Herrenknecht, Sibelco, Biesterfeld,
+  Manuchar, Momentive, Bahrain Steel. Roy Hill and J.M. Huber went to WATCH.
+
+LEFT OUT ON PURPOSE (not in any file; the coordinator may want to review)
+- Trafigura: revenue FY2025 USD 240.3bn, employee-owned. Left out as an established serious compliance case: US FCPA guilty plea
+  (Mar 2024), CFTC fine (Jun 2024), Swiss bribery conviction (Jan 2025, under appeal). Source: en.wikipedia.org/wiki/Trafigura
+- Riva Group: revenue EUR 4.37bn (2021), family-owned. Left out because family members were convicted in the Ilva cases
+  (2018 fraud; 2021 pollution sentences of 20-22 years). Source: en.wikipedia.org/wiki/Riva_Group
+- ELG Haniel: elg.de now redirects to Aperam Recycling, so the brand has been absorbed into listed Aperam.
+- Single-project or single-mine vehicles were not researched: Escondida, Collahuasi, Los Pelambres, Centinela, Zaldivar, Las Bambas,
+  Antamina, Kamoa Copper, Kibali, Samarco, MRN, Talison (Greenbushes JV), Sierra Gorda, Cerrejon.
+- Russian-linked names were left out (none researched).
+
+LIST PAGES USED
+- ICIS Top 100 Chemical Distributors 2025 (via diotimes.com press copy): gave Tricon Energy. The full ranking is not public.
+- Business News WA, Top 100 private businesses (Mar 2026): its mining names (Hancock, Byrnecut) are already on the master.
+- IBISWorld Top 500 Private 2026: page blocked (HTTP 405). Search results mentioned Minprovise International (AUD 144m, 2025),
+  a possible Route B candidate that was not researched.
+- ISO 500 Turkey 2025: the press copies show only the top 10 and the full PDF is over 10MB. A search snippet gave Tosyali Demir
+  Celik TRY 104.3bn, but no opened page confirmed it, so Tosyali was not written.
+- Wikipedia company pages and company websites, one by one (listed in each record's sources).
+Blocked or failed: S&P Chemical Week Billion Dollar Club (403), streetinsider ICIS (403), steelradar (403), several Wikipedia titles (404).
+
+REGIONS COVERED
+North America (US, Canada), Latin America (Chile, Brazil), Europe (Germany, Austria, Sweden, Belgium, Luxembourg, UK-based),
+Middle East (UAE, Bahrain), Africa (Morocco, Botswana), Central Asia (Kazakhstan; ERG and KAZ Minerals), Asia-Pacific
+(Australia, Indonesia, China).
+
+CANDIDATES CHECKED
+About 270 distinct names run through check.py. 64 are in DUPS under the current rule, 37 were written to MAIN or WATCH, and the rest are
+NEW but were not researched.
+
+WHAT REMAINS (NEW in check.py, not researched for lack of time or of an openable source)
+- Steel: Tosyali Holding, Yildirim Group, Habas (it only resembles Habasit, a different company), Megasa, Al Ittefaq Steel, Hadeed,
+  Qatar Steel, SULB, Vulcan Green Steel/Jindal Shadeed, Conares, Villacero, Shyam Steel, Sinobras, Aco Cearense, Jianlong Group,
+  AM/NS India (only "1.6 lakh people employed" was found).
+- Metals and recycling: TSR Recycling (site blocked), Alter Trading (empty page), JW Aluminum, Hammerer Aluminium Industries,
+  Commonwealth Rolled Products, Tri-Arrows Aluminum, Stemcor, Traxys, Ocean Partners, Sohar Aluminium.
+- Mining: Kazzinc, Kazakhmys, Altynalmas, Almalyk MMC, Navoi Mining (POSSIBLE match to an earlier list, now allowed), Kumtor,
+  Erdenes Tavan Tolgoi, Iron Ore Company of Canada, Assmang, SMB Winning, CBG (Guinea), Ambatovy, Konkola Copper Mines,
+  Palabora, Foskor, Canyon Coal, Enami, Minera San Cristobal, Cerro Matoso, Debswana sister Namdeb.
+- Equipment and technology: Maxam, Austin Powder, Normet, Multotec, GHH, RCT, Gekko Systems, MineARC, Hard-Line, Minprovise.
+- Chemicals and materials: EQUATE (site gave no figures), Sadara, QAPCO, Kraton, Polynt, Vibrantz, SI Group, Vynova (stale site),
+  Kem One, TPC Group, OQ Chemicals, Carmeuse, Graymont (private, Richmond BC, but no scale figures on its page), Mississippi Lime,
+  Teknos, Esseco (too small), Grillo-Werke, Kalle, Vertellus, Stavian Chemical (2,000+ staff, 30+ offices, ICIS #15; needs an
+  owner and a second source), Hydrite, Harcros, Safic-Alcan, Quimidroga, Perdaman, Ascend (bankruptcy) and Venator (restructuring).
+- The USD 75-300M revenue gap is still mostly open. MacLean Engineering is the one mid-size equipment maker added. The best
+  next sources are the IBISWorld Top 500 (needs its form), the full ISO 500/Second 500 lists, and PE portfolio pages
+  (SK Capital, ICIG, KPS, American Industrial Partners, Platinum Equity).
+
+FLAGS FOR THE COORDINATOR
+- Several MAIN records rest on financials older than three years, each flagged in "outstanding": CBMM 2017, KAZ Minerals 2020,
+  Codelco 2010, Debswana 2011, Boart Longyear 2011, Bradken 2016, Duferco 2017, Shagang 2021, Hexion 2019, Momentive undated.
+- Where the opened page did not state ownership, the field says "requires verification": Tricon, Sibelco, Biesterfeld,
+  Manuchar, Speira, Archroma, MacLean.
+- Compliance or distress noted in the records: ERG (the closed ENRC SFO case, ownership contest), Codelco (2026 production audit),
+  EGA (war damage to Al Taweelah, Mar 2026), Gore (PFAS lawsuit), Hexion (2019 Chapter 11).
+
+WEBSEARCH CALLS USED: 4 of 11.

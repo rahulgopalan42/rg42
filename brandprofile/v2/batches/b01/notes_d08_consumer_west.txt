@@ -1,0 +1,35 @@
+d08 CONSUMER WEST - notes (27 Nov 2026)
+
+Cluster: consumer goods, food & beverage, alcoholic drinks, luxury & fashion, beauty, consumer electronics; HQ in Europe or North America.
+
+Method
+- check.py was rewritten mid-task (only the master spreadsheet now counts). All candidates were re-run under the new checker; DUPS keeps only IN MASTER, F1 PARTNER and alias/brand-of-master cases.
+- About 450 names were run through check.py (400 in the two main batches plus about 50 in smaller batches: sponsor lists, cycling brands, parents and aliases).
+- 133 lines in DUPS: IN MASTER, F1 PARTNER, plus these judgement calls:
+  Freixenet (parent trades as Henkell Freixenet, which is on the master), Fiji Water (brand of The Wonderful Company, on the master),
+  Taittinger (Wikipedia lists it as a Haas F1 sponsor since 2021; treated as a current F1 deal), Hijos de Rivera (its brand Estrella Galicia 0,0 is a current Williams partner),
+  Kärcher, Pierre Fabre and Tillamook (each researched, then found on the master under its legal name; removed from MAIN).
+- Output: MAIN 43 (Route A 32, Route B 2, Route C 9); WATCH 20.
+- WebSearch: 7 of 11 calls used. Each fact comes from a page opened with WebFetch (Wikipedia EN/FR/DE/IT/ES, Pambianco Summit PDFs, Babolat, Journal du Luxe, sports-khabri sponsor lists).
+
+List and source pages used
+- Roland-Garros 2026 sponsors and Wimbledon 2026 sponsors (sports-khabri.com); Babolat Wimbledon page
+- Pambianco Fashion Summit 2025 and 2023 booklets (company revenue/EBITDA tables): Morellato, Elisabetta Franchi/Betty Blue, Jacob Cohën, Canali, Tecnica Group, Liu Jo (on master)
+- L Catterton Wikipedia page (portfolio): Pinarello, Polène
+- Monochrome / Italian Watch Spotter Morgan Stanley watch reports: the brand-level tables are images and could not be read, so no watch revenues were taken from them
+- Company Wikipedia pages (see sources in each record)
+
+Countries covered (MAIN + WATCH HQs): Italy 20, France 9, US 9, UK 8, Switzerland 6, Germany 5, and one each for Austria, Norway, Czech Republic, Finland, Netherlands, Spain.
+Not covered here: Asia-Pacific, Middle East, Latin America and Africa (outside this cluster's Europe/North America brief).
+
+Left out on purpose (not in DUPS because check.py did not flag them)
+- Listed, or a listed company itself: On Running, Fossil Group, Lindt, Puig, Barry Callebaut, Fever-Tree, Zegna, Lanson-BCC, Lucas Bols (the page still shows a Euronext listing), Weleda (has an ISIN; listing status unclear).
+- Distress: BrewDog (UK arm sold in pre-pack administration to Tilray, Mar 2026), IKKS (redressement judiciaire Oct 2025), Le Coq Sportif (receivership Nov 2024).
+- Owned by an F1 partner: Belstaff (sold to Castore, Aug 2025), so it carries a conflict.
+- Not enough data on the page opened: Rossignol, Diadora, Codorníu, Bowers & Wilkins (now Harman/Samsung), KEF, Suunto, La Marzocco (De'Longhi, listed), Raymond Weil. Withings is in WATCH.
+
+What remains to research in this cluster
+- Revenue for brands that publish no accounts: Raymond Weil, Oris, Bell & Ross, Ulysse Nardin, Frederique Constant (Citizen), Parmigiani Fleurier, F.P. Journe, Nomos, Junghans, Norqain, Messika (no figure), Boodles (Companies House turnover), Loch Lomond, Ian Macleod, William Grant & Sons, Tony's Chocolonely (FAIR report 2024/25), Rapha, Hackett, Santini, Castelli/Sportful (Manifattura Valcismon), Assos, Big Green Egg.
+- Not yet opened (NEW on check.py): Swarovski FY2025 figure, Zamora Company (Licor 43), Fratelli Branca, De Kuyper, Pol Roger, Piper-Heidsieck/EPI, Zonin, Frescobaldi, Augustiner, Hofbräu (state-owned), Gerolsteiner, Segafredo/Massimo Zanetti, Twinings (ABF), Delsey, Fissler, Staub, Opinel, Alessi, Caran d'Ache, Pelikan, Lamy, Moccamaster, Laurastar, Cambridge Audio, McIntosh, Focal-Naim (VerVent), Dynaudio, Klipsch, Devialet, Wahoo, Coros (China, out of region), Fjällräven/Fenix (listed parent), Haglöfs, Ortovox, Schöffel, Musto, Henri Lloyd, Galvin Green, Peter Millar, G/Fore, Sergio Tacchini, Ellesse, Tecnifibre, Missoni, Brioni, Santoni, John Lobb, J.M. Weston, Ladurée, Lancel, Ami Paris, Ba&sh, The Kooples, Byredo, Penhaligon's, La Prairie, Augustinus Bader, Barbara Sturm, Cosnova, Filorga, Uriage, Expanscience, Dr. Bronner's, BaByliss, Wahl (no figures), Lambertz, Kambly, Camille Bloch, Neuhaus, Leonidas, See's Candies, Just Born, Schär, Balocco, Charlotte Tilbury (Puig-owned), Davines, Stihl (outdoor power, borderline cluster).
+- Mid-size ranking lists that could not be opened: Sunday Times Top Track 250 (fasttrack.co.uk returned 503), UK top 30 jewellers (jewelleryfocus.co.uk returned 403), Tour de France partners (letour.fr blocked), The Open partners (redirect to 404), Ryder Cup partners (403), SailGP partners (empty).
+- Before outreach, check: Tod's labour probe outcome; Valentino Bags Lab administration; Bell & Ross and Oris for any current F1 ties; whether Taittinger's Haas deal is still current.

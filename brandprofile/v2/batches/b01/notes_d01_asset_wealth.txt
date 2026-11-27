@@ -1,0 +1,43 @@
+NOTES - d01 asset management, wealth management and private banks (batch b01), 27 Nov 2026
+
+Files: MAIN 60 lines (57 Route A; 3 Route C: Mercer Advisors, Bank of Singapore, Al Rajhi Capital), WATCH 1 (C. Hoare & Co), DUPS 45.
+Rule change applied mid-task: only the master spreadsheet now counts as a duplicate. DUPS was rebuilt from a re-run of check.py and now holds
+only IN MASTER, F1 PARTNER, listed companies and clear aliases (Bank J. Safra Sarasin, Mirae Asset Global Investments, Patria Investments,
+Focus Partners Wealth, SEDCO Capital, SBI Funds Management, which listed in July 2026). The names that were skipped wrongly (Capital Group,
+PIMCO, MFS, Lombard Odier, LGT, Brown Brothers Harriman, Creative Planning, Rockefeller, Hightower, Mariner, Mercer Advisors, Coutts,
+Banca March, ODDO BHF, Australian Retirement Trust, Aware Super, China Asset Management and others) were researched and added to MAIN.
+
+List pages used: wealthsummit.ch ranking of 69 Swiss private banks (2025 AUM), ZHAW wealth management blog, Barron's 2025 Top 100 RIA press
+releases (Wealth Enhancement, Cresset, NewEdge, Mercer Advisors, Private Advisor Group), Forbes Middle East Top 50 Asset Managers 2026 and Top 40
+2025, Forbes Brasil largest asset managers (Mar 2026), a Renova Invest blog ranking (low reliability), and Wikipedia pages for each firm (sources per line).
+Regions covered: North America (US, Canada), Europe (Switzerland, Liechtenstein, UK, Germany, France, Netherlands, Luxembourg, Italy, Spain),
+Asia-Pacific (Australia, China, Japan, Singapore, India), Middle East (Saudi Arabia), Africa (South Africa), Latin America (Brazil).
+Candidates checked with check.py: about 330 names; 45 left in DUPS (registered, F1 partner or listed) after the rule change; about 116 were
+registered under the old rule.
+
+Left out on purpose:
+- Mirabaud: FINMA confiscated CHF 12.7m in Sep 2024 for breaches incl. money-laundering obligations (Wikipedia) - compliance.
+- LarrainVial: CMF fine (Aug 2025, Factop/Fondo Corneta), interlocking ruling (Apr 2025), Cascades case - compliance.
+- Allianz Global Investors: Structured Alpha case, 2022 Allianz guilty plea and payment over USD 6bn - compliance.
+- Andbank: data only from 2016; kept operations in Russia in 2022 (Wikipedia) - not researched further.
+- REYL (now Intesa Sanpaolo Wealth Management, reyl.com redirects) and Kleinwort Hambros (bought by UBP in 2025) - brands absorbed.
+- CBH Compagnie Bancaire Helvetique: CBH Group is on the master; may be the same bank, so left out to be safe.
+- Names check.py prints NEW but that are listed (from memory, not checked on a page, so not logged in DUPS): Julius Baer, Vontobel, M&G, Janus Henderson,
+  Amundi, Storebrand, Fineco, Raymond James, Sun Life, Manulife, Fiera Capital, Investec, BTG Pactual, XP, Vinci Partners, Waha Capital, VP Bank,
+  Insignia Financial, Northern Trust, Voya, HDFC AMC, Nippon Life India AMC, Value Partners, Kamco Invest, Derayah (listing to verify).
+- Canadian pension investors (CPP Investments, OMERS, PSP, CDPQ) and PGGM/APG: institutional pension managers with no consumer brand; not prioritised.
+- Pages unreachable: snbc.com.sa (host blocked in this session), several Wikipedia titles returned 404 (Mirabaud & Cie, Banque Syz, Comgest, APG,
+  CAPTRUST, Mariner, IG Wealth Management, Jarislowsky Fraser, Kotak Mahindra MF, SNB Capital, GBM, Hauck Aufhauser Lampe).
+
+Not done yet (remaining research for this cluster):
+- US RIAs with data still missing: CAPTRUST, Cerity Partners, Corient, Beacon Pointe, Sanctuary, Savant, Pathstone, Allworth, Mesirow, Glenmede,
+  Aspiriant, Wealthspire, Fiduciary Trust International, Lord Abbett, Putnam, Geode, Payden & Rybel, Kovitz, Homrich Berg, Fiducient, Choreo, Lido Advisors.
+- Insurer/bank AM subsidiaries: Natixis IM (POSSIBLE match to Natixis on the master, check first), Generali Investments, Nordea AM, Aviva Investors, L&G Asset Management,
+  New York Life Investments, Nomura AM, MUFG AM, Daiwa AM, SMTAM, BNP Paribas AM, UBS AM (parent UBS is an F1 partner), Principal AM.
+- Swiss banks from the wealthsummit table: PKB, Lienhardt & Partner, Maerki Baumann, Banca del Ceresio, Bergos, Piguet Galland, Hyposwiss, Quilvest, Gonet, Dreyfus, Scobag.
+- UK: JM Finn, Waverton, Killik, Brooks Macdonald (listed?), Saunderson House, Succession Wealth, Titan Wealth, Fairstone, Kingswood, RBC Brewin Dolphin, Cazenove Capital.
+- Germany/France/Benelux: Metzler, Hauck Aufhauser Lampe, DJE Kapital, Comgest, LFDE, Bestinver, Cobas. Nordics not covered.
+- Gulf: SNB Capital, Alinma Capital, Riyad Capital, NBK Wealth, Emirates NBD AM, Alistithmar, Albilad, SAB Invest (ranked by Forbes ME, AUM per firm not on page).
+- Latin America: GBM, Actinver, SPX, Kapitalo, Itau Asset, Kinea; Africa: Stanlib, Foord, Truffle, PSG Wealth; NZ: Fisher Funds, Milford; super funds: Cbus, Rest, CareSuper, CFS.
+- Old figures to refresh: Capital Group (revenue 2020), PGIM (AUM 2020), Banca March (2019), Charles Stanley (2019), Allan Gray (2021), Brown Brothers Harriman (2021).
+WebSearch calls used: 4 of 11.

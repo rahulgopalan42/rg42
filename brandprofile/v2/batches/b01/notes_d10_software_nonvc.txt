@@ -1,0 +1,25 @@
+NOTES - d10 software non-VC cluster (bootstrapped / PE-owned / unlisted subsidiaries: enterprise software, cyber, AI, martech, legaltech, supply chain)
+Date: 2026-11-27
+
+Rule change mid-task: only the master spreadsheet counts as a duplicate. All earlier "IN REGISTER" names were re-run through the updated check.py; names now printing NEW were researched, and the strongest PE-owned ones were added to MAIN (Visma, Qualtrics, Anaplan, Cornerstone, Cegid, Unit4, Meltwater, Cision, Blue Yonder, Planview, Mediaocean, Tungsten Automation/Kofax, Access Group, Aptean, Deltek, Yardi, SurveyMonkey, Utimaco, Equativ, Docaposte, Odigo, Aderant and others).
+
+Files: MAIN 52 lines (Route A 34, B 4, C 14); WATCH 11; DUPS 148 (IN MASTER, F1 PARTNER, listed, and former names/absorbed brands of companies already in MAIN or master).
+
+Candidates checked with check.py: about 560 names (one or more runs each). Duplicates/listed/absorbed logged: 148. Researched in depth: about 75.
+
+List pages and main sources used:
+- Truffle 100 French software ranking (2022 revenue), reproduced at https://digitiz.fr/classement-editeurs-logiciels-francais/  (figures FY2022, flagged as older)
+- Hg portfolio page https://hgcapital.com/portfolio (partial, JS "load more")
+- Bloomberg Linea Brazil software tag page https://www.bloomberglinea.com.br/tags/software/
+- Legal-tech revenue table https://newmarketpitch.com/blogs/news/legaltech-top-revenue (mostly VC names, most already in master)
+- Wikipedia (en/de/fr/it) company articles for ownership, transactions and revenue; company about pages (Infios, Siteimprove, Jonas, Lefebvre Group, Zellis, Aderant, Odigo, Hardis, Skyhigh, Epiq)
+- Access Group annual reports FY2025/FY2026 (via search result links), Hg press release on GBP 9.2bn valuation
+- WebSearch: 9 of 11 calls used.
+
+Regions covered: US, Canada, UK, France, Germany, Italy, Netherlands, Norway, Denmark, Israel, Brazil, Australia. Thin: Nordics beyond Visma/Kahoot/Siteimprove, Japan, India (Tally only, in WATCH), Middle East, Africa.
+
+Not done / to research next:
+- Many re-eligible PE-owned names printed NEW but were not researched: IRIS Software Group, Ellucian, OneAdvanced, KnowBe4, Relativity, Acquia, Sitecore (WATCH), Relex, Navex, Bottomline, Caseware, Cority, Sphera, Calabrio, Syspro, iManage, Litera (WATCH), Consilio, Epiq (WATCH), KLDiscovery, Exterro, Trackunit, Bynder, Basware, ConnectWise, Coalfire, Trustwave, RSA Security, Cofense, Webroot, G Data, Baramundi, Allplan, Sogelink, Perforce, Duck Creek, Jaggaer, Kneat, Avetta, Matillion, Paessler, Kerridge, Ideagen, Nintex, InfoTrack, MYOB (WATCH), Yayoi, Works Applications, TeamSystem, Namirial, Inetum, MiQ, Pagero, SuperOffice, M-Files, Parallels (KKR, split from Corel Feb 2026), Jusbrasil, Senior Sistemas, MV Sistemas, Softplan, Sankhya, Hogia, Monitor ERP, Truesec, Xledger, Lucca, Silae, Isagri peers (Imaweb, Softway Medical, Lyra).
+- Revenue figures for several MAIN entries are older than three years (Truffle 2022 data, Unit4 2019, Anaplan 2022, Meltwater 2022, Corel 2016); refresh from annual reports.
+- Ownership not confirmed on an opened page for Lefebvre Group, Berger-Levrault, Proalpha, Odigo, Hardis, Meltwater post-2023 owner.
+- dl-software.com is not reachable from this session's network (DL Software kept in WATCH).

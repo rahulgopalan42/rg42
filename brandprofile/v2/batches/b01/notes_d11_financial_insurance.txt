@@ -1,0 +1,51 @@
+Cluster d11: financial services, insurance and payments (excluding asset and wealth management). Research date 2026-11-27.
+
+Output: MAIN 86 lines (Route A 70, Route B 2, Route C 14); WATCH 12 lines; DUPS 100 lines.
+
+Rule change applied mid-task: only the master spreadsheet counts as a duplicate. I re-ran check.py on every name that had been skipped
+under the old rule. The names that now print NEW were researched where public pages allowed, and the strongest were added to MAIN:
+Liberty Mutual, Farmers, Nippon Life, Howden, Alliant, Ardonagh, R+V, HUK-Coburg, Debeka, DZ Bank, BPCE, Groupama, Matmut,
+Nationwide BS, Euroclear, DTCC, Bupa, Cofidis, Ria, Elavon, Hollard, Hastings, Lloyd's, LBBW, Northwestern Mutual, Cajamar,
+Iccrea, Amwins, Integrity, bolttech, Pacific Life, LähiTapiola, USI, BroadStreet, Alera, Higginbotham, Hilb, FRP, Keystone, Leavitt,
+Patriot Growth, World Insurance and others. DUPS now holds only IN MASTER, F1 PARTNER, listed companies, and POSSIBLE matches
+judged to be the same company. Guardian Life was in MAIN; a recheck on its full legal name found it IN MASTER, so it was moved to DUPS.
+
+List pages and main sources used:
+- Business Insurance 2026 "100 Largest Brokers of U.S. Business" and "Largest Privately Owned Brokers" (Alliant reprint PDF):
+  https://images.info.alliant.com/Web/Alliant/%7B2336485e-c59a-489e-b4d6-ff022ebbf03e%7D_BI100_Alliant.pdf (29 brokers to MAIN, 5 to WATCH)
+- Business Insurance Top 100 page: https://www.businessinsurance.com/top-100-brokers/
+- English, German and French Wikipedia company pages (insurers, mutuals, co-op banks, Landesbanken, payments firms)
+- Company pages: guardianlife.com financials, wawanesa.com report to members, beneva.ca financial information / who we are,
+  corporate.asnbank.nl, amwins.com, integrity.com/silverlake
+- Press: TechCrunch (bolttech Series C), RTE and Insurance Business (Ardonagh)
+
+Regions covered: North America (US, Canada), Western/Northern Europe (UK, Germany, France, Netherlands, Belgium, Finland, Spain, Italy),
+Asia-Pacific (Japan, Singapore, India, Australia), Africa (Nigeria/pan-African, South Africa), Latin America (Central America),
+Middle East (UAE, on WATCH only).
+
+Candidates checked with check.py: about 330 names (many in several passes). Already registered under the final rules: 100 (DUPS).
+WebSearch used: 6 of 11.
+
+Caveats:
+- 34 US brokers rest on one source (the BI ranking). For brokers outside BI's privately-owned top 10, ownership, HQ and private
+  status still need checking (conf low).
+- Several figures are older than three years and are flagged in `outstanding` (Farmers 2019, Co-operators 2016, FBL 2018,
+  MS Amlin/Brit 2014, Hastings 2019, Ria 2020, BillDesk FY2021, Provinzial 2022, BPCE and Rabobank 2022).
+- Rabobank is on WATCH: its member certificates trade on Euronext Amsterdam, so decide whether that counts as listed.
+- PhonePe filed draft IPO papers in 2025, so recheck its listing status before outreach.
+- Euroclear holds immobilised Russian central bank assets (sanctions and litigation exposure), noted in `compliance`.
+- Bupa revenue on Wikipedia (USD 6.41bn) looks understated and needs checking.
+- I could not reach lulufinancialholdings.com (blocked by the session's network settings), so Lulu Exchange was not researched.
+
+Not yet researched (eligible, NEW under the new rule):
+- Insurers and brokers: Gothaer, Accession/Risk Strategies, PIB Group,
+  Global Risk Partners, Diot-Siaci, Towergate, Jensten, Markerstudy, Convex, Inigo, Ki, Ascot, Aspen, Canopius, Peak Re,
+  Fortitude Re, PartnerRe (page 404), Odyssey Re (no figures), Global Atlantic, Athene, Sammons, Mutual of America,
+  Tokio Marine Kiln, Pool Re, Credendo, Sompo International, Mapfre Re, McGriff, EPIC/OneDigital ownership detail, CRC Group,
+  IMA, Ecclesia, Specialist Risk Group, Talbot, Toa Re, Sinosure, Bajaj General Insurance, HDFC Ergo, Etiqa, Seguros Monterrey
+  New York Life, Mutual de Seguros de Chile, PPS (South Africa), Leadway Assurance (Nigeria), Daman (UAE).
+- Banks and finance: Ibercaja, Raiffeisen Switzerland, BMW Financial Services, Toyota Financial Services, Allianz Partners,
+  Generali Deutschland, BanCoppel, Banco Industrial, Banco G&T Continental, Caja Los Andes, Great Southern Bank,
+  Newcastle Greater Mutual, Heritage and People's Choice, Teachers Mutual Bank, Athlon, Arval (no usable page), Helaba detail.
+- Payments: Planet, Magnati, Geidea, Payroc, TransferGo, Viamericas, Pangea, Prosa, Cielo (whether it delisted), Lulu Exchange.
+- Football, rugby, cricket, tennis, golf and motorsport sponsor lists were not mined.

@@ -1,0 +1,56 @@
+NOTES - d13 services, construction & engineering, real estate (Europe, North America, Australia/NZ HQs) - 27 Nov 2026
+
+RULE CHANGE APPLIED MID-TASK: only the master spreadsheet counts as a duplicate. All DUPS names were re-run through the updated check.py;
+names that now print NEW (e.g. Kirkland & Ellis, Paul Weiss, Orrick, Akin, WilmerHale, Proskauer, Sheppard Mullin, Winston & Strawn,
+Arnold & Porter, Vinson & Elkins, BakerHostetler, Turner Construction, Kokosing) were researched and added to MAIN. DUPS now keeps only
+IN MASTER, F1 PARTNER, listed companies, POSSIBLE matches judged the same firm, and operating arms of master companies
+(e.g. Archer Western/Walsh, Clark Construction/Clark Enterprises, Layton/STO, TEKsystems/Aerotek/Aston Carter/Allegis, Structure Tone/STO).
+
+LIST PAGES USED
+- Wikipedia List of largest law firms by revenue (AmLaw Global 200 based): https://en.wikipedia.org/wiki/List_of_largest_law_firms_by_revenue
+- Wikipedia List of largest UK law firms
+- ENR 2026 Top 400 Contractors (full table, PDF reprint): https://www.mcdermott.com/sites/default/files/2026-06/ENR05252026_Top400.pdf
+- ENR regional Top Contractors: East 2026, Midwest 2026, Midwest 2025 preview, Texas & Southeast 2025 preview (enr.com)
+- ENR 2026 Top 500 Design Firms (PDF reprint): https://labellapc.com/wp-content/uploads/2026/04/ENR-Top-500-Design-Firms-List-2026.pdf
+- The Construction Index UK Top 100 Construction Companies 2025: https://www.theconstructionindex.co.uk/market-data/top-100-construction-companies/2025
+- SIA staffing articles (US largest staffing firms 2026 list; industrial; IT)
+- Luenendonk-Liste 2026 Managementberatung (press PDF); produktion.de top 10 German facility-service firms (2024)
+- IBISWorld Top 500 Private Companies 2022 PDF (Australia; old data, flagged)
+- Individual Wikipedia / company pages for each researched firm (law firms, TIC groups, rental, real estate, security, consulting)
+
+REGIONS COVERED: United States (most), United Kingdom, Germany, Australia, Belgium, Netherlands, France, Italy, Canada.
+Thin: Ireland (Sisk in WATCH only), New Zealand (Russell McVeagh in WATCH), Nordics, Spain, Switzerland, Austria, Canada beyond GardaWorld.
+
+COUNTS: about 1,350 names run through check.py (ENR Top 400 and Top 500 lists in full, AmLaw/UK law lists, UK Top 100, staffing, TIC,
+rental, FM, consulting, AU lists). MAIN 620, WATCH 6, DUPS 180 (134 IN MASTER, 6 F1 PARTNER, 7 listed, 22 POSSIBLE judged same firm, 11 operating arms or regional entities of master companies or otherwise excluded).
+
+EVIDENCE QUALITY: about 500 MAIN rows (ENR Top 400 / Top 500 / UK Top 100 / IBISWorld rows) rest on a ranking page only: revenue is sourced,
+but ownership is "requires verification" and conf "low". ENR Top 500 figures are DESIGN revenue only (total revenue higher). IBISWorld
+Australian figures are FY2020-22 (older than three years). Records needing ownership checks first: the ENR Top 400/500 rows (a few may be
+subsidiaries of listed groups, e.g. FlatironDragados, Lane Industries, Gemma Power Systems, Alfa Tech/Vela, Colliers-type arms were excluded where known).
+
+LEFT OUT DELIBERATELY
+- Listed companies not caught by check.py: Tutor Perini, AECOM, MasTec, Granite, Fluor, Parsons, Great Lakes Dredge & Dock, Southland,
+  Jacobs, Tetra Tech, WSP, Stantec, Arcadis, Leidos, NV5, Intertek-PSI, Willdan, Amentum, Bowman, Colliers Engineering; brand arms of listed
+  parents (Skanska USA, Balfour Beatty US, Ferrovial, Vinci, OHLA, Acciona, Egis USA, Socotec USA).
+- EquipmentShare: Nasdaq IPO Jan 2026 (logged in DUPS).
+- Greystar: DOJ/state antitrust (RealPage) and FTC fee case 2025 - serious compliance problems.
+- Egis group: IDB sanctions / ADB cross-debarment of two units until Jan 2027 - compliance.
+- McDermott International: ownership/listing status not verified on an opened page.
+- ISG (UK): administration Sept 2024.
+- King & Wood Mallesons: HQ outside cluster regions (China/Australia verein) - not researched.
+
+NOT REACHED / REMAINING
+- UK mid-tier law (LB100 paywalled): Shoosmiths, Burges Salmon, Fieldfisher, Macfarlanes, Travers Smith, Stephenson Harwood, Irwin Mitchell,
+  Browne Jacobson, TLT, Kennedys, Mills & Reeve, Freeths, Withers, Charles Russell Speechlys, Taylor Wessing, Osborne Clarke.
+- Am Law 101-200 (75-300M gap) and continental European law firms (Gleiss Lutz, Hengeler Mueller, Noerr, Uria Menendez, Garrigues, Cuatrecasas,
+  De Brauw, Loyens & Loeff, Mannheimer Swartling, Vinge, Bredin Prat, Chiomenti, BonelliErede).
+- Accounting: Moore Global, PKF, Nexia, EisnerAmper (no page opened yet).
+- TIC: Applus+, Socotec, Apave, Normec (pages 404); Kiwa/Element are on master.
+- Real estate: Lincoln Property, Irvine Co (WATCH), Avison Young (WATCH), European private developers/agencies (Engel & Voelkers on master).
+- Security/FM: Atalian, SBM Management, Kellermeyer Bergensons, C&W Services, Securitas-rivals in Nordics; US Allied Universal is on master.
+- Staffing Europe: Morgan McKinley, Cpl, Hudson RPO, Start People, Tempo-Team; Australia: Programmed, Chandler Macleod, Talent International.
+- Construction Europe: Zech Group, Koester, Ed. Zueblin (Strabag subsidiary), Irish contractors (Sisk, JJ Rhatigan, Ardmore UK row is in MAIN).
+- ENR Top 500 design firms with USD 75-150M design revenue (121 firms) - Route B needs a stated strength; not processed.
+- Network blocked: img3.ibisworld.com (not resolvable in this session); IBISWorld 2025/2026 Top 500 page returned 405.
+- WebSearch: 8 of 11 calls used.

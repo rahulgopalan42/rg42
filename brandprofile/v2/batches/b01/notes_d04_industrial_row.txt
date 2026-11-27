@@ -1,0 +1,27 @@
+Cluster d04: industrial equipment, advanced manufacturing, automation, robotics, machine tools, consumer electronics - HQ outside Europe.
+Date: 2026-11-27. WebSearch used: 11 of 11.
+
+Files: MAIN 36 lines, WATCH 9 lines, DUPS 52 lines.
+
+Rule change mid-task: the coordinator said only the master spreadsheet counts as a duplicate (updated check.py). All names checked before the change were re-run. Names now NEW (Yamazaki Mazak, Mitutoyo, Crown, Swagelok, Vermeer, Formlabs, Razer, Bambu Lab, Audio-Technica, OtterBox, Vitamix, Iscar, Figure AI, Topcon, Briggs & Stratton, Positec, Hypertherm, Gleason, Fortna, Addverb, HiKOKI etc.) were researched; the ones that meet a route are in MAIN. DUPS holds only IN MASTER, listed companies and same-company POSSIBLE matches. Husky Technologies printed NEW under its old name but IN MASTER under its current name, so it was moved to DUPS.
+
+Candidates run through check.py: about 270 names (5 large batches plus alias and parent checks). About 60 were IN MASTER, listed, or the same company as a master entry. About 75 were researched on opened pages.
+
+List and source pages used:
+- Crain's Detroit Business Private 200, 2026 (PDF): Humanetics revenue.
+- Hurun Global Unicorn Index 2026 via Sina (finance.sina.cn, 25 Jun 2026): valuations for Bambu Lab, EcoFlow, Linkerbot, Figure AI.
+- SEC EDGAR Starrett 10-K FY2023; MiddleGround press release.
+- Company pages: mazak.com company outline, humaneticsgroup.com, panduit.com, gorbel.com, fortna.com, addverb.com, hsglaser.com, husky.co, ffg-tw.com, hypertherm.com, galanz.com.
+- Trade/news: agfeed.com.br (Jacto, 2025 and 2026), storyboard18 and indmoney (boAt), equalocean (Honor 2026), thestar.com.my and chambers.com (Narwal), investmets.com and investregional.nsw.gov.au (Ampcontrol), chinadaily (HSG Laser), tharawat-magazine (Koki Holdings).
+- Wikipedia company articles, used only for figures they state, with the year given.
+- Deloitte Canada Best Managed and bestmanagedcompanies.ca: winner list did not load (401 / no names on page), so not used.
+
+Regions covered: United States (most), Canada, Brazil, Japan, China, Taiwan (watch), India, Singapore, Israel, Australia.
+Not covered: Mexico (Mabe and Xignux are in the master), Korea (no new qualifier verified; HD Hyundai Robotics in master, Hanwha Robotics not researched), the Gulf (Alfanar in master), Africa (Bell Equipment listed), South-East Asia beyond Singapore (Polytron not researched).
+
+Excluded because listed, found during research: Creative Technology (SGX), Agility Robotics (Nasdaq AGLT since 5 Nov 2026), Unitree (SSE 688836). Realme was folded into OPPO, a master brand, in Jan 2026.
+Believed listed but not verified on a page, so not researched: Victor Taichung, Tongtai, Jasic, Megmeet, Han's Laser, Raycus, Jyoti CNC, Nachi-Fujikoshi, Insta360.
+
+Weak points to verify (see each record's 'outstanding'): several figures are old (Mitutoyo FY2014, Murata FY2017, Swagelok 2011, Leviton 2017, Razer 2021, HiKOKI 2018, Ampcontrol FY2021). Ownership needs checking for Galanz, HSG Laser, HiKOKI, Addverb (Reliance stake) and Razer. Linkerbot rests on the Hurun list only.
+
+Not reached (NEW in check.py, eligible, not yet researched): AutomationDirect, Sukup, Bad Boy Mowers, Hustler Turf (Excel Industries Kansas, not the Indian listed company), AriensCo, Scag/Metalcraft, Channellock, Ideal Industries, Conair, Cleaver-Brooks, Hydro-Gear, Opto 22, Tormach, C.R. Onsrud, Kurt Manufacturing, Mate Precision, Allied Machine & Engineering, Cincinnati Inc, Wilson Tool, Methods Machine Tools, Hytrol, Epilog Laser, Klipsch, Hyperice, Banner Engineering, Lutron, Hardinge, Hadrian, Apptronik, Graybar (distributor), Madison Industries; Mammotion, Bluetti, Elegoo, Anycubic, Xreal, Fourier, Baseus, Hollyland, Bodor Laser, Delixi, Galanz ownership; Matsuura, Kitamura, Big Daishowa, Hanwha Robotics, Bodyfriend, Ace Micromatic, Forbes Marshall, Lava, Bharat Fritz Werner, Electronica, Stara, Polytron, Kaiser Enterprise, Deshler Group.

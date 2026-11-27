@@ -12,12 +12,20 @@ F1 deal are not eligible.
   Re-run with a fresh download when the user updates the master.
 - `check.py "Name | website"` prints IN MASTER, F1 PARTNER, LISTED?, POSSIBLE or NEW.
 - `delivered/<batch>.json` lists what has been delivered under this methodology; the register treats those as duplicates.
+  They are held apart from the master names, so a batch can be rebuilt (`check.lookup(name, batch='b01')` ignores that batch's own names);
+  check.py prints ALREADY DELIVERED for them.
+- `f1_extra.json` and `f1_gp_partners_2026.json` add Grand Prix-level partners (promoters' own partner pages) to the F1 roster.
+  The first roster was thin on these: ADNOC, a founding partner of the Abu Dhabi Grand Prix, was caught only by a spot check.
+  Before any delivery, check the top-ranked names for a current F1 deal on the web.
 
 ## Research
 
 - `brief_discovery.md` is the brief for discovery agents; one sector cluster per agent, four files per agent in `batches/<batch>/`
   (`<key>.jsonl` qualified, `watch_<key>.jsonl`, `dups_<key>.jsonl`, `notes_<key>.txt`).
 - `brief_backtest.md` and `backtest.py` cover the backtest on privately owned F1 sponsors (`backtest/`).
+- A company read off a ranking page only (the same list page cited by 15+ lines, or no page) is not scored or ranked: it goes to the
+  workbook's `Discovered - To Assess` tab and to `batches/<batch>/to_assess.json`, and is NOT recorded as delivered, so a later
+  batch can assess it properly.
 
 ## Scoring and the workbook
 
@@ -30,3 +38,8 @@ F1 deal are not eligible.
 
 PitchBook, Orbis, D&B Hoovers and Sales Navigator are not accessible. Apollo is not to be used. Check the Crunchbase allowance
 before relying on it. Never invent a figure, an owner, a signal or a source.
+
+## Batch record
+
+- b01 (27 Nov 2026): 14 sector clusters, first depth. Workbook `reports/F1-NON-PUBLIC-NEW-PROSPECTS-REVISED-METHOD-BATCH-1-2026-11-27.xlsx`.
+  Each `notes_<key>.txt` ends with the names that cluster did not get to; start batch 2 from those lists and from `to_assess.json`.

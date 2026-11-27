@@ -1,0 +1,38 @@
+Cluster d12 HEALTHCARE / MEDTECH / PHARMA / BIOTECH - batch b01 - verified 2026-11-27
+
+FILES: MAIN 30 lines; WATCH 5 lines (Helsinn, Sarstedt, KLS Martin, Vygon, Colosseum Dental Group); DUPS 79 lines.
+
+DUPLICATE CHECK: about 190 names run through check.py (several re-runs after the rule change: only the master counts).
+DUPS breakdown: 53 IN MASTER (incl. Tamer Group, removed from MAIN at final check); 15 listed (check.py LISTED? or known listing:
+Synlab, Medline, Lupin, SPIMACO, Ottobock, Viatris, Ipsen, Sandoz, Hikma, Julphar, Bausch, Terveystalo, Dentalcorp, Kora Saude, Auna);
+10 POSSIBLE/alias judged same company (Chiesi, Kedrion, Adamed, Molnlycke, Hamilton Medical, Asklepios, Mediclinic, Hirslanden (Mediclinic arm),
+Manipal Hospitals, Cloudnine, Libbs, Grupo Bago). 0 F1 PARTNER. M42 kept in MAIN: its shareholder G42 is on the F1 roster (noted in category_conflict).
+
+LIST / SOURCE PAGES USED:
+- https://www.listenchampion.de/medizintechnikunternehmen-deutschland-top-50-liste/ (German medtech top 50, revenue ranges)
+- https://pharmaboardroom.com/articles/top-10-pharma-companies-in-saudi-arabia/
+- https://www.forbesmiddleeast.com/lists/?p=3039 (Tamer Group, later found IN MASTER)
+- https://www.nordiccapital.com/portfolio/ and https://www.cinven.com/portfolio/ (PE healthcare portfolios)
+- https://hig.com/portfolio/grupo-meridional/ (Kora Saude - listed, excluded)
+- https://www.digitalhealthnews.com/kauvery-hospitals-promoters-in-advanced-talks-to-repurchase-5-stake-from-lightrock
+- Wikipedia (en/fr/de/es) company articles and company websites cited per record (fareva.com, delpharm.com, thea.com, expanscience.com,
+  orifarm.com, helsinn.com, m42.ae, karlstorz.com, duerrdental.com, richard-wolf.com, vygon.com, colosseumdental.com, etc.)
+Blocked/unhelpful: healthcarebusinessinternational.com (403), portugalresident.com (403), tofler.in (403, PDF image only), americaeconomia (522).
+
+REGIONS COVERED: Western Europe (France, Germany, Spain, Denmark, Sweden, UK, Switzerland), Turkiye, Middle East (Saudi Arabia, UAE),
+India, United States. Latin America, Japan, Africa and Central/Eastern Europe were screened (check.py) but produced no sourced MAIN record.
+
+CAVEATS: several revenue figures are older than three years and flagged (Orifarm FY2021, Elsan FY2022, HM Hospitales FY2021, Pacific Dental FY2020,
+LGC FY2022, Tabuk MAT Q1 2019). German medtech figures are revenue RANGES from Listenchampion (lower bound used as usd_m, kind=estimated).
+LGC figure likely covers one entity only (conf low).
+
+NOT DONE - eligible (NEW under the new rule) but not yet researched:
+Pharma: Angelini Pharma, Alfasigma, Grunenthal, Esteve, Uriach, Biocodex, Bionorica, Klosterfrau, Merz, Ferring (Wikipedia: EUR 2.3bn 2022, 7,000 staff - fetched, not written),
+LEO Pharma (Wikipedia: DKK 11.4bn 2023, LEO Foundation/Nordic Capital - fetched, not written), Cheplapharm, Aenova, Recipharm, Cooper Consumer Health,
+Advanz Pharma, Intas, USV, Zuventus (Emcure sub), La Renon, Kowa, Eurofarma, Uniao Quimica, Apotex, Ceva Sante Animale, Ethypharm, Pharmanovia,
+Medochemie, Pharmathen, Vianex, Medice, Laboratorios Silanes/Liomont (directory estimates ~USD 167m/149m), Cristalia, Biolab Sanus, Amoun, Neopharma.
+Medtech/diagnostics: Sebia, Medi GmbH, Arthrex, Kindeva, Sunrise Medical, corpuls, Intersurgical, Lohmann & Rauscher, Schiller, Sarstedt/KLS Martin revenue.
+Services: Unilabs, Gruppo San Donato, Lux Med, Cleveland Clinic Abu Dhabi (part of M42), Indira IVF, Sahyadri, LifePoint, ScionHealth, Prime Healthcare,
+Heartland Dental, Smile Brands, MB2, Aspen Dental, NVA, Medivet, VetPartners, Linnaeus, IVI RMA, Kindbody, Eugin, EyeCare Partners, Circle Health Group,
+Optegra, Vithas, GVM, Humanitas, Memorial, Florence Nightingale, CARE Hospitals, MAC Hospitales (Mexico; check listing).
+CROs/labs: Worldwide Clinical Trials, Premier Research, PSI CRO, Advarra, WCG Clinical, BioAgilytix.
