@@ -50,8 +50,8 @@ def lookup(arg, batch=None):
     return ('possible' if c else 'new'), '; '.join(f'{v[0]} [{v[1]}]' for v in c[:4]), '', hits
 def check(arg):
     name = arg.partition('|')[0].strip(); st, disp, src, hits = lookup(arg)
-    note = next((x for x in hits if x[2] in ('info', 'f1owner')), None)
-    tail = (f' (note: {note[1]}' + ('; allowed' if note[2] == 'info' else '; allowed as a separate brand, record the possible conflict') + ')') if note else ''
+    note = next((x for x in hits if x[2] in ('gp', 'f1owner', 'info')), None) and sorted((x for x in hits if x[2] in ('gp', 'f1owner', 'info')), key=lambda x: ('gp', 'f1owner', 'info').index(x[2]))[0]
+    tail = (f' (note: {note[1]}' + ('; allowed' if note[2] == 'info' else '; CHECK for a current Grand Prix deal before using' if note[2] == 'gp' else '; allowed as a separate brand, record the possible conflict') + ')') if note else ''
     if st == 'dup': return f'{name}: ' + ('ALREADY DELIVERED' if src.startswith('delivered') else 'IN MASTER') + f' - {src} (as {disp})'
     if st == 'f1': return f'{name}: F1 PARTNER - {src} (as {disp})'
     if st == 'listed': return f'{name}: LISTED? - matches the listed company {disp}; leave it out if it is that company' + tail

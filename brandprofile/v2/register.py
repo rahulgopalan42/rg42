@@ -45,7 +45,7 @@ def build(master=None):
     mp = os.path.join(H, 'master_names.json.gz')
     if master: json.dump(read_master(master), gzip.open(mp, 'wt', encoding='utf-8'), ensure_ascii=False)
     N = {}; D = {}
-    PRI = {'dup': 0, 'f1': 1, 'listed': 2, 'f1owner': 3, 'info': 4}
+    PRI = {'dup': 0, 'f1': 1, 'listed': 2, 'f1owner': 3, 'gp': 3, 'info': 4}
     def put(name, kind, src, d=''):
         for a in aliases(name):
             for k in {norm(a), loose(a)}:
@@ -66,11 +66,15 @@ def build(master=None):
         J = json.load(open(f1, encoding='utf-8')); rows = J if isinstance(J, list) else J.get('rows') or J.get('sponsors') or []
         for r in rows:
             if isinstance(r, list) and len(r) >= 3 and isinstance(r[0], str): put(r[0], 'f1', f'current F1 partner ({r[2]})', r[1])
-    for fn in ('f1_extra.json', 'f1_gp_partners_2026.json'):                                                        # 3b. Grand Prix-level partners and later additions: [name, site, property, source]
-        fp = os.path.join(H, fn)
-        if os.path.exists(fp):
-            for r in json.load(open(fp, encoding='utf-8')):
-                if isinstance(r, list) and len(r) >= 3 and str(r[0]).strip(): put(str(r[0]).strip(), 'f1', f'current F1 partner ({r[2]})', r[1] if fn == 'f1_extra.json' else '')
+    fp = os.path.join(H, 'f1_extra.json')                                                                            # 3b. confirmed later additions: [name, site, property, source]
+    if os.path.exists(fp):
+        for r in json.load(open(fp, encoding='utf-8')): put(str(r[0]).strip(), 'f1', f'current F1 partner ({r[2]})', r[1])
+    fp = os.path.join(H, 'f1_gp_partners_2026.json')                                                                 # 3c. names read off Grand Prix promoters' partner pages
+    if os.path.exists(fp):
+        for r in json.load(open(fp, encoding='utf-8')):
+            if not (isinstance(r, list) and len(r) >= 3 and len(str(r[0]).strip()) >= 2): continue
+            soft = re.search(r'(?i)circuit|names from|COTA', str(r[2]))      # a year-round circuit page, or a name read from a logo file: a note to check, not an exclusion
+            put(str(r[0]).strip(), 'gp' if soft else 'f1', ('on a Grand Prix circuit partner page: ' + str(r[2])) if soft else f'current F1 partner ({r[2]})')
     for k, v in json.load(open(os.path.join(B, 'newsec', 'known.json'), encoding='utf-8')).items():                  # 4. listed companies, F1 partners and their owners, as recorded earlier
         t = v[1]
         kind = 'f1' if t.startswith('current F1 partner') and 'owner' not in t else 'f1owner' if 'owner of' in t or 'or owner' in t else 'listed' if t.startswith('listed') else 'info'

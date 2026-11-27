@@ -67,7 +67,7 @@ def write(D, Q, W, I, tab, path, X=None):
            ['This is batch 1 of a larger programme. It covers fourteen sector clusters to a first depth, not every qualifying company in the world. The Research Record tab says what was covered and what is still to do.'], [],
            ('Deduplication',),
            ['Rule applied (your instruction of 27 Nov 2026): only companies on the master spreadsheet in the shared Drive folder count as duplicates. Brands on your older 48-tab sheet and names from earlier waves are not excluded.'],
-           [f"Candidates checked against the master by the research: about {checked:,}. Left out because they are already on the master: {len(dm) + len(exm):,}. Left out because the brand holds a current F1 deal: {sum(1 for x in D['dups'] if 'F1 PARTNER' in x[1]) + len(exf):,}. "
+           [f"Candidates checked against the master by the research: about {checked:,}. Left out because they are already on the master: {len(dm) + len(exm):,}. Left out because the brand holds a current F1 deal: {len({x[0] for x in D['dups'] if 'F1 PARTNER' in x[1]} | {e[0] for e in exf}):,}. "
             f"Left out at the build for another reason (Russian, or the name is a listed company): {len(exo)}. Found by two clusters and kept once: {len(D['xdup'])}. The Excluded tab lists them."],
            [f"{len(onsheet):,} of the delivered companies are also on your older 48-tab sheet. They are included because they are not on the master; the On Your Sheet? column says so, and column D carries your x where you had marked the brand there."], [],
            ('What is in this workbook',),
@@ -89,6 +89,11 @@ def write(D, Q, W, I, tab, path, X=None):
            ['The score rewards evidence. Most companies have no dated buying signal on the pages read, so they score 0 of 25 on intent and sit in Medium or Watchlist. That is missing information, not a negative finding; a signal check on the top names would move them.'],
            ['Tiers 1 to 3 score almost the same on affordability, so the largest company is not automatically first.'], [],
            ('Limits of this batch',),
+           ['Current F1 deals: every name was checked against the roster of championship and team partners. Grand Prix-level partners were then checked on the promoters\' own pages for 15 races '
+            '(Abu Dhabi, Bahrain, Miami, Australia, Britain, Netherlands, Madrid, Austria, Belgium, Austin, Canada, Mexico, Monza, Japan and Singapore in part). That check removed ADNOC, Mubadala, Lunate and Miral '
+            '(Yas Island), all on the Abu Dhabi promoter\'s partner page. The partner pages for Saudi Arabia, Qatar, Azerbaijan, China, Las Vegas, Brazil, Hungary, Barcelona and Monaco could not be read; '
+            'searches found no race deal for the Saudi, Azerbaijani, Qatari, Chinese or Brazilian companies listed here, but confirm before approaching a state-owned company from a host country.'],
+           ['MSC Mediterranean Shipping Company is kept, flagged and capped at Watchlist: its cruise division MSC Cruises is an F1 Global Partner. NEOM is kept and flagged: it backs McLaren\'s F1 Academy entry, which is not a championship, team or Grand Prix deal.'],
            ['No subscription database was used: PitchBook, Orbis, D&B Hoovers and Sales Navigator are not available to me; Crunchbase is out of allowance until 1 Dec 2026; Apollo was not used. Sources are public pages: rankings, registries, annual reports, company and owner sites, trade press.'],
            ['Web searches were limited to about 11 per cluster, so each cluster reached the best-documented companies first. Figures are as stated on the page cited; none was estimated by me.'],
            ['The investment tiers and the score weights inside each dimension are a first version. The Backtest tab shows how the routes perform on real sponsors and what I would adjust.']]
