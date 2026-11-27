@@ -1,0 +1,33 @@
+notes_q16_assess.txt - batch 2, queue file in_q16.jsonl (80 companies), assessed 27 Nov 2026
+Files: q16_assess.jsonl (MAIN), watch_q16_assess.jsonl (WATCH), dups_q16_assess.jsonl (DUPS)
+Every input name, brand name and parent was run through v2/check.py. WebSearch used 3 of 3 (Magnati, Flemingo, Alter Trading).
+Nothing was written to v2/delivered/: these are assessments, not a delivery.
+
+RESEARCHED - MAIN (34)
+Route A (16): Affinity Water; iPROMOTEu; dalli group; HRS Real Estate; Migrol (its parent Migros Group is IN MASTER, but Migrol sells fuel, a different business: user to decide); WAMMCO International*; Jayco Australia*; Cohesity; Moon Active (Coin Master); Rivasam Intercontinental (single shareholder not named); Aruma* (probably not-for-profit, fit minimal); Great Southern Bank (ex-CUA); Avant Mutual*; Longines (Swatch Group brand); Australian Consolidated Milk*; SuperPlay (Playtika, USD 2bn deal).
+  * = qualifying revenue comes only from IBISWorld 2022 (FY2021/22), older than three years.
+Route C (18): Jellyfish; Madhvani Group; mada (Saudi Payments, SAMA-owned); Supercent; SYBO (Miniclip; second indicator is the parent's ranking entry); Gratis; ConMet (Amsted; Clay-based indicators); Constantia Flexibles; Constellis; Jung von Matt; Internationella Engelska Skolan; Indira IVF; IGA; Derco (Inchcape); Maya (co-parent Smart Communications is IN MASTER); Convergint; Coral (Entain brand); Flemingo International.
+(Counts: 16 Route A + 18 Route C = 34.)
+
+RESEARCHED - WATCH (25)
+Huntington Learning Center; M. M. Ispahani; Huvepharma; Cruden (no F1 team named on its site); Luno; BGaming; Studio 397 (Motorsport Games, Nasdaq; no current F1 deal found); AGROLAB; Imagine Learning; Giassi; Czinger Vehicles (sister of Divergent Technologies, which is IN MASTER; link not explained on its site); Davines; Joele Frank; MAK (Mongolyn Alt); Mayapada Group; Denzel; DEDON; Bluberi; Diamond Pet Foods; Buzz Bingo (2020 CVA); Alter Trading; Intersurgical; Kiddie Academy; Amager Resource Center; Kaeser & Blair (USD 100m revenue, Route B range, no support).
+
+LEFT OUT (17, in DUPS)
+- Listed: Hypera (B3); Corporacion Favorita (Quito/Guayaquil).
+- Not a separate company: Janssen-Cilag (J&J); Repsol Comercializadora (Repsol); Dow Chemical Iberica (Dow); Dragados (ACS's construction arm).
+- On the master via alias or parent: Steer Studios (Savvy Games Group); Independent Vetcare (= IVC Evidensia); Ito-Yokado (York Holdings); Magnati (being combined into Network International).
+- F1 supplier: Dynisma (simulators for the Alpine and Cadillac F1 teams, 2026).
+- Compliance: Max Myanmar (military joint venture; 2017 donation to the army for the Rakhine operations).
+- Other: Newcastle Coal Infrastructure Group (single-asset coal terminal); 4 Clay artefacts (Commission base earning; Confidential; Confidential Careers; Confidential Global Company).
+
+NOT RESEARCHED (4; no lines written)
+- Big Ticket Abu Dhabi: bigticket.ae blocks this region; no Wikipedia article.
+- Alpine Waste & Recycling: alpinewaste.com returned HTTP 522 twice; no other page found.
+- Inspira Educacao: inspira.com.br belongs to an unrelated software company; Wikipedia 404; no page found.
+- Ahrens Group: ahrens.com.au returned an empty page (two URLs tried).
+
+GENERAL CAVEATS
+- Many guessed Wikipedia and about-page URLs returned 404, so several records rest on one page, and ownership often reads "requires verification".
+- mada.com.sa could not be resolved from this session (network). The cohesity.com company page returned 403.
+- Clay revenue brackets are recorded as kind "estimated" and never as reported figures.
+- 34 MAIN + 25 WATCH + 17 DUPS + 4 not researched = 80. All lines parse as JSON; no name appears twice.

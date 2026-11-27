@@ -1,0 +1,101 @@
+NOTES - batch 2, assessment a05 (in_a05.jsonl, 143 records), 27 Nov 2026
+
+INPUT: 143 records a first pass could not assess (site 403/502/parked/wrong company, or Wikipedia refused).
+Contents: 83 US contractors (ENR 2026 Top 400 and regional lists), 3 US insurance brokers (Higginbotham, Relation, Houchens),
+21 UK contractors (The Construction Index Top 100), and 36 US design firms (ENR Top 500 table).
+
+METHOD THIS TIME
+- WebSearch: all 30 searches used, on the largest names that could not be located otherwise (Kokosing to CSI Construction, in file order).
+  Search result text was used only to find pages. Every fact comes from a page opened in this session.
+- Alternative domains: tried 2-4 guesses per name with plain curl (default user agent) and WebFetch.
+- 403 sites: tried /about or /about-us and the www and non-www forms once, then moved on. No method that disguises the request was used.
+- UK contractors: Companies House overview and persons-with-significant-control pages for each.
+- Third-party profiles used where the company site failed: AGC Minnesota, Siteline, Top Workplaces, BuiltWorlds, CSLB licence record,
+  CIS directory, Mortarr, Archinect, ENR City Scoop, Business Report, The Roanoker, REJournals, Jax Chamber, Knoxville Chamber,
+  PR Newswire, EIN Presswire, WaterWorld, Lever careers pages, Wikipedia (Higginbotham, Perkins Eastman, Houchens Industries).
+- Proxy limits: many company domains reset the connection (TLS failure through the proxy), and many returned Cloudflare/bot-check 403s.
+
+DUPLICATE CHECK: all 143 names were run through v2/check.py. None came back IN MASTER, ALREADY DELIVERED or F1 PARTNER.
+Five came back POSSIBLE. All five are clearly different companies and were kept: Branch Group (Branch Metrics), Landmark Construction
+(Landmark Group), Entrust Solutions Group (Entrust), Omega Construction (Omega), Bolton & Menk (Bolton Group).
+Parent names checked: Mott MacDonald is IN MASTER, so JN Bentley (its subsidiary) was left out. Shikun & Binui, Trilon Group and APi Group
+are on the older 48-tab sheet only, which is allowed. Bernhard Capital Partners, Vela Tech, Landmark Properties, Houchens Industries,
+Axis CLC Group, EverOn and Blythe Development: NEW.
+
+RESULT
+- Assessed: 102 records written to a05_assess.jsonl, in input order. Every line parses as JSON. No name appears twice across MAIN and DUPS.
+  Input fin entries are unchanged. Newer or extra figures added where an opened page stated them: F.A. Wilhelm (USD 2.8bn, 2025),
+  Higginbotham (USD 905M, 2024), O'Donnell/Snider (USD 350M+, year not shown), Briggs & Forrester (GBP 250m+, year not shown).
+  Confidence: 63 medium, 39 low. Most low-confidence records rest on one homepage or one third-party profile.
+- Left out (4, in dups_a05_assess.jsonl):
+  Readie Construction: in administration (Companies House).
+  Ardmore: Ardmore Construction Ltd and Ardmore Construction Group Ltd are both in administration.
+  Axis Europe: absorbed. It was renamed Axis CLC Services and has been owned by Axis CLC Group since Nov 2025.
+  JN Bentley: its parent, Mott MacDonald, is in the master, and there is no independent case for the subsidiary.
+- Not assessed (37, no line written): see the list below.
+
+FLAGS FOR THE USER
+- T5 Construction is recorded under its ENR name. The business now trades as EverOn Data Center Services (check.py NEW).
+- Pioneer General Contractors (ENR name) was matched to Pioneer Construction, Grand Rapids. Confirm they are the same entity.
+- Thompson Holdings was matched to Thompson Engineering (Mobile). Blythe Brothers Cos. was matched to Blythe Development.
+  Independence Construction is supported only by its sister company's site (Independence Excavating / DiGeronimo Companies).
+- Level 10 Construction's website shows "account suspended", although its CSLB licence is active. Check that it is still trading normally.
+- Houchens Insurance Group's link to Houchens Industries is inferred from the name. The parent article does not name the agency.
+- Subsidiary of a listed group: S&B USA Construction (parent Shikun & Binui Ltd; the listing was not confirmed on an opened page).
+- Bernhard Capital Partners owns or backs three companies in this file: RailWorks, Allied Power and Lemoine.
+- Fit is low throughout. These are regional B2B contractors and engineers with public-sector or developer clients and no consumer brand.
+  The relatively better cases are hospitality-led: Rogers-O'Brien, Peinado, CDI, BGE, Parkway C&A and Ridgemont (Austin),
+  Kast and Rycon (Miami), Sletten (Las Vegas office), Briggs & Forrester (Northampton, near Silverstone),
+  Higginbotham (a large broker in a crowded category), Alfa Tech (offices in Europe, Asia and the Middle East)
+  and EverOn/T5 (hyperscale data-centre clients).
+
+OWNERSHIP TYPES FOUND (102)
+- requires verification: 49 (the opened pages did not state who owns the company)
+- privately held group: 32 (employee-owned/ESOP/EOT/member-owned, woman-owned, or holding-company controlled as stated)
+- subsidiary of private group: 9 (Landmark Construction/Landmark Properties; Eric Wright/Henmead; Higgins/Higgins Group plc;
+  Durkan/Durkan Estates; Stanmore/Akaal Group; J Coffey/J Coffey Group; Horrocks/Trilon; Houchens Insurance/Houchens Industries;
+  Alfa Tech/Vela Tech)
+- family-owned: 6 (Kokosing, Rogers-O'Brien, Phillips Infrastructure, Pioneer, Doster, Berglund)
+- private equity-backed: 3 (RailWorks, Allied Power and Lemoine, all Bernhard Capital Partners)
+- partnership: 2 (Level 10 Construction LP, Whitman Requardt & Associates LLP)
+- subsidiary of listed group: 1 (S&B USA Construction / Shikun & Binui Ltd.)
+
+NOT ASSESSED (37), with reason
+WebSearch budget exhausted (30/30) before these names; each guessed domain was tried as described above.
+- J. Fletcher Creamer & Son Inc.: site and APi Group page returned 403; trade-press pages 403/402. A search snippet says it is operated by APi Group (listed), but no page confirming this could be opened.
+- Urban Atelier Group: guessed domains parked or unreachable.
+- Kiely Family Of Cos.: guessed domains unreachable (connection reset).
+- Blum Construction: domains parked or showing "coming soon".
+- Uprite Construction: domain for sale; uprite.com is an unrelated IT firm.
+- PC Construction Co.: site returns 403 on every form; no Wikipedia article.
+- Sukut Construction LLC: Cloudflare 403 on every form.
+- Bay Cities Paving & Grading Inc.: Cloudflare 403; bcpg.com is a parked domain.
+- Bell & Associates Construction LLC: bellconstruction.com shows only a bot check; bellandassociates.com is an accounting firm.
+- Gardner Builders: gardnerbuilders.com is a Southeast Michigan home builder, not the Minneapolis firm.
+- Executive Construction Inc.: guessed domains parked, unreachable or spam.
+- Water Resources Group: domain parked.
+- LPX Group: domains unreachable or parked.
+- Relation Insurance: Cloudflare 403 on www, non-www and /about-us; no Wikipedia article.
+- Calhoun Construction Services: domains parked; calhounconstruction.net is a different Houston firm.
+- Dome Construction Corp.: domains parked or belong to French/Japanese firms of the same name.
+- Warfel Construction Co.: warfelconstruction.com is a different Delaware firm; warfelcc.com shows only a bot check.
+- Forte Construction Corp.: forteconstruction.com (military-housing builder) could not be tied to Islandia, NY; forteconstructioncorp.com is empty.
+- Willowbrook Inc.: willowbrookinc.com is a landscape firm; other domain parked.
+- Wespac Construction: wespac.com is WesPac Midstream (unrelated); other domains unreachable.
+- River City Construction LLC: domains unreachable or bot check.
+- Broadway Builders: domains unreachable.
+- Nibbi Bros. Associates Inc.: Cloudflare 403 on every form.
+- Bolton & Menk Inc.: Cloudflare 403 on every form.
+- Byrne Construction Services: byrneconstruction.com is a Los Angeles firm; other domains unreachable.
+- McFarland Construction: the site found is Shane McFarland Construction (not confirmed as the Charlotte firm); other domain shows a bot check.
+- Odin: odinconstruction.com redirects to an environmental firm (ODIN), not confirmed as the Roseville contractor.
+- Moregroup: moregroup.com is a UK accounting firm; more-group.com unreachable.
+- Pennoni: pennoni.com unreachable (connection reset); Wikipedia "Pennoni" is the pasta article.
+- Adena Corp.: domains unreachable or for sale.
+- Burke Construction Group Inc.: domains for sale or unreachable.
+- Timmons Group: 403 on every form.
+- HGA: Cloudflare 403 on every form (also via WebFetch); no Wikipedia article found.
+- Wiss Janney Elstner Associates: site shows only a bot check on every form.
+- PGAL: 403 on every form.
+- Henderson Cos.: hendersonengineers.com Cloudflare 403 on every form.
+- The Burke Group Ltd.: theburkegroup.com is an HR consultancy, not the Rosemont engineering firm; other domains unreachable.
