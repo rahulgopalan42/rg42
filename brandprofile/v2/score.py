@@ -25,6 +25,8 @@ STRONG = re.compile(r'(?i)\bipo\b|listing|acqui|merg|raised|funding round|series
                     r'enter(s|ed|ing) |expan|launch(es|ed)? in|opened|opens|entered formula|formula 1|\bf1\b')
 TOP_SPONSOR = re.compile(r'(?i)title|principal|main sponsor|main partner|shirt|jersey|naming rights|stadium|arena|premier league|champions league|la liga|bundesliga|serie a|ligue 1|\bnba\b|\bnfl\b|\bmlb\b|\bnhl\b|'
                          r'motogp|formula e|indycar|nascar|\bwec\b|le mans|olympic|fifa|\bipl\b|\bufc\b|\batp\b|\bwta\b|wimbledon|grand slam|ryder cup|pga tour|world cup|tour de france|america\'s cup|sailgp')
+NO_ISSUE = re.compile(r'(?i)^\s*(none|no |n/a|nil|nothing|not found|no$)')
+SERIOUS = re.compile(r'(?i)sanction|fraud|brib|corrupt|money.launder|criminal|convict|indict|debarr|blacklist')
 def year(s):
     m = re.search(r'(19|20)\d\d', str(s or '')); return int(m.group(0)) if m else None
 def months_ago(d):
@@ -59,10 +61,15 @@ def top_sponsor(d): return any(TOP_SPONSOR.search(' '.join(str(v) for v in s.val
 def has_sponsor(d): return any(isinstance(s, dict) and str(s.get('rights_holder') or '').strip() for s in (d.get('sponsorships') or []))
 def backing(d): return bool(str(d.get('parent_backing') or '').strip())
 def state_owned(d): return str(d.get('ownership_type') or '').lower() in ('state-owned', 'sovereign fund-backed')
+def std_hits(d, M):
+    """the standard thresholds met, in the order that suits the company type. For an investment firm its own AUM comes first and the value of
+    deals it has done does not count: that is the size of its investments, not of the firm."""
+    asset = ctype(d) == 'asset or wealth manager'
+    order = ['aum', 'revenue', 'ebitda', 'equity_funding', 'valuation'] if asset else list(STD)
+    return [k for k in order if k in M and M[k][0] >= STD[k]]
 def route(d, M):
     """(route, what met it). The research proposes a route; this recomputes it from the figures so the two can be compared."""
-    for k, th in STD.items():
-        if k in M and M[k][0] >= th: return 'A', f'{LABEL[k]} of USD {th:,}M or more'.replace('1,000M', '1B').replace('5,000M', '5B')
+    for k in std_hits(d, M): return 'A', f'{LABEL[k]} of USD {STD[k]:,}M or more'.replace('1,000M', '1B').replace('5,000M', '5B')
     if backing(d) and (state_owned(d) or 'subsidiary' in str(d.get('ownership_type') or '').lower() or 'joint venture' in str(d.get('ownership_type') or '').lower()):
         return 'A', 'documented parent-company or state financial backing with a commercial mandate'
     if top_sponsor(d): return 'A', 'existing substantial sponsorship expenditure'
@@ -77,7 +84,7 @@ def confidence(d, M, rt, why):
     distress = bool(str(d.get('distress') or '').strip()); loss = str(d.get('profitability') or '').lower().startswith('loss')
     if rt == 'none': return 'Unverified capacity', 'No financial route is met on the pages found.'
     if rt == 'A':
-        hit = [k for k, th in STD.items() if k in M and M[k][0] >= th]
+        hit = std_hits(d, M)
         rec = [k for k in hit if M[k][2] == 'reported' and (year(M[k][1]) or year(M[k][5]) or 0) >= 2023 and M[k][3].startswith('http')]
         if rec and not (distress and loss): return 'Confirmed capacity', f'Reported {LABEL[rec[0]]} for {M[rec[0]][1] or "a recent period"} meets the standard threshold.'
         if hit: return 'Indicative capacity', ('The qualifying figure is an estimate.' if any(M[k][2] != 'reported' for k in hit) else 'The qualifying figure is older than three financial years.' if not rec else 'Signs of financial strain were found.')
@@ -159,7 +166,10 @@ def assess(d):
     conflict = str(d.get('category_conflict') or '')
     if conflict.lower().startswith('established'): flags.append('Established category conflict: ' + conflict.split(':', 1)[-1].strip()); pr = min(pr, 'Watchlist', key=['High', 'Medium', 'Watchlist', 'Low'].index) if pr in ('High', 'Medium') else pr
     elif conflict.lower().startswith('potential'): flags.append('Possible category conflict to verify: ' + conflict.split(':', 1)[-1].strip())
-    if str(d.get('compliance') or '').strip(): flags.append('Compliance point: ' + str(d['compliance']).strip()); pr = 'Watchlist' if pr in ('High', 'Medium') else pr
+    comp = str(d.get('compliance') or '').strip()
+    if comp and not NO_ISSUE.match(comp):
+        flags.append('Compliance point to weigh: ' + comp)
+        if SERIOUS.search(comp) and pr in ('High', 'Medium'): pr = 'Watchlist'          # a serious point caps the priority; a lesser one is flagged only
     if conf == 'Insufficient capacity': pr = 'Low'
     if pr in ('High', 'Medium') and conflict.lower().startswith('established'): pr = 'Watchlist'
     agent_rt = str(d.get('route') or '').strip().upper()
@@ -184,5 +194,5 @@ RUBRIC = [
  ('Inferred signals and double counting', 'Inferred signals add 2 each, 4 at most. A sponsorship already counted under financial capacity counts half here. A company with no signal scores 0 here and stays eligible.'),
  ('Decision-maker accessibility (10 points)', ''),
  ('How it is built', 'Owner, founder or a visible chief executive runs it 4 (unknown 2, no 1); structure lean 3, mid 2, complex 0; a marketing or partnerships head is identifiable +1; the brand controls its own marketing 2 (unknown 1). Complex groups and state-owned companies are capped at 6.'),
- ('Priority', '75 to 100 High; 55 to 74 Medium; 35 to 54 Watchlist; below 35 Low. An established category conflict or a compliance point caps the priority at Watchlist. Insufficient capacity is always Low. Unverified capacity goes to the Financial Verification Watchlist, not the qualified ranking.'),
+ ('Priority', '75 to 100 High; 55 to 74 Medium; 35 to 54 Watchlist; below 35 Low. An established category conflict, or a serious compliance point (sanctions, fraud, bribery, criminal proceedings), caps the priority at Watchlist; lesser points are flagged in Verification Notes. Insufficient capacity is always Low. Unverified capacity goes to the Financial Verification Watchlist, not the qualified ranking.'),
  ('Ties', 'In order: financial capacity, Formula 1 fit, buying intent, accessibility, then name.')]
