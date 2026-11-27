@@ -1,0 +1,35 @@
+NOTES - batch 2, assessment a04 (in_a04.jsonl, 140 records), 27 Nov 2026
+
+INPUT CONTENT: 92 US contractors (ENR 2026 Top 400, ranks 307-400) and 48 UK contractors (The Construction Index Top 100, 2025).
+The task mentioned US insurance brokers from the Business Insurance 100. in_a04.jsonl holds no broker records, so none were assessed.
+
+DUPLICATE CHECK: all 140 names were run through v2/check.py. None came back IN MASTER, ALREADY DELIVERED or F1 PARTNER.
+Four came back POSSIBLE and all four are clearly different companies, so they were kept:
+Omega Construction (matched Omega), Sargent Corp. (Sargento), Hill Group (Hillenbrand/Hillstone/Hillhouse), Caddick Group (CADDi).
+OCU Group is on the older 48-tab sheet, which is allowed. DUPS file is empty: no record was left out as a duplicate, a listed company or a closed company.
+
+ASSESSED: 82 records written to a04_assess.jsonl (54 US, 28 UK). Every record parses as JSON and no name appears twice.
+Each record uses the company's own website (homepage plus About/History pages), opened in this session.
+Tilbury Douglas also uses its Wikipedia article, which gave its owners and its FY2025 revenue.
+Input fin entries are unchanged. Newer figures were added for four companies:
+Shelco (USD 372M, 2025), Keltbray (GBP 624M, FY2024), Tilbury Douglas (GBP 600.1M, FY2025) and Bozzuto (USD 700M construction revenue, undated).
+Three signals were recorded: Tilbury Douglas ownership change (2025-06), Octavius acquired by RSK Group (2025-11), Keltbray/Hiperpile UAE partnership (2026-05).
+Fit scores are low throughout. These are regional B2B contractors with no consumer brands.
+The most plausible cases are hospitality-led: Winvic, Keltbray, Glencar, McAleer & Rushe, M Group, NG Bailey, Network Connex, Embree, BW Design Group, Bozzuto.
+Treat all of them as weak F1 prospects.
+
+OWNERSHIP TYPES FOUND (82):
+- requires verification: 43 (the pages opened did not state who owns the company)
+- family-owned: 18
+- privately held group: 17 (employee-owned/ESOP/EBT, executive- or owner-owned, or "privately owned" as stated)
+- subsidiary of private group: 3 (BW Design Group / Barry-Wehmiller; Tonn and Blank / Franciscan Alliance; Barhale / family-owned Barhale Holdings plc)
+- founder-owned: 1 (Winvic)
+E.W. Howell states it is "part of Obayashi Group" but is set to requires verification, because no opened page confirmed that Obayashi is listed.
+
+NOT ASSESSED (58), with no line written.
+The reason in each case: no page for the right company could be opened. The guessed domain failed (proxy 502, connection reset, HTTP/2 error, 403), was parked, or belonged to a different company. Wikipedia's API returned HTTP 429.
+US (37): Bay Cities Paving & Grading Inc.; Key Construction Inc.; Bell & Associates Construction LLC (bellassoc.com is a benefits agency and bellconstruction.com is in Ohio, not Brentwood TN); Gardner Builders (site found is a kitchen/bath remodeller); Executive Construction Inc.; Howard Shockey & Sons Inc.; Water Resources Group; O'Donnell/Snider Construction (odsconstruction.com is a Bahamas builder); Berglund Construction; LPX Group; Calhoun Construction Services; Dome Construction Corp. (dome-construction.com is French); Garco Construction; Omega Construction; Ridgemont Commercial Co. (domain is a lending consultancy); Perlo Construction Group; Warfel Construction Co. (site found is in Milford DE, input says East Petersburg PA); Forte Construction Corp. (site found could not be matched to Islandia NY); Willowbrook Inc. (site found is a landscape designer); Contegra Construction (contegra.com is a sensor maker); Wespac Construction (wespac.com is an LNG midstream firm); River City Construction LLC; Broadway Builders; Nibbi Bros. Associates Inc.; Whitaker Construction Co. Inc.; Rabren General Contractors; Byrne Construction Services; Coakley & Williams Construction; McFarland Construction (site found is a different, residential firm); Odin; Blythe Brothers Cos. LLC; Clark Contractors; Adena Corp. (parked domain); Benchmark Construction Co. (site found is in Idaho, input says Ephrata PA); CDI Contractors; Burke Construction Group Inc. (parked domain); Doster Construction Co. Inc.
+UK (21): JN Bentley; Readie Construction (domain shows a web-design page); MV Kelly; Ardmore; Story Contracting; CCG; Briggs & Forrester; Gratte Brothers; ESH Group; Erith; Axis Europe; Dodd Group; BW Workplace Experts; Eric Wright Group (WebFetch returned only the title); GMI Construction; RG Carter; EW Beard; Higgins Group; Durkan; Stanmore Contractors; J Coffey Construction.
+These can be retried once the hosts are reachable, or with Wikipedia when its rate limit clears.
+
+WEBSEARCH: 0 of 5 calls used.
