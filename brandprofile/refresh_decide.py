@@ -3,7 +3,7 @@ Reads newsec/refresh/resolved.json (events), talks_in_*.jsonl and talks_out_*.js
 Writes newsec/refresh/decisions.json, talks_status.json and info_rows.json, which newsectors.py and allsector.py read.
 Rules: a closed equity round = "raised" confirmed; debt only = note; a report of talks or bank hires = lead only;
 a regulator approval or a filing = "preparing an IPO" confirmed; own shares now trade = removed;
-bought and completed = parent set; bought but not completed = note; a new top-tier sponsorship = marketing confirmed."""
+bought and completed = parent set; bought but not completed = note; a new marketing chief = marketing confirmed; a new sponsorship = recorded in the row, not a signal."""
 import glob, json, os, re, sys
 H = os.path.dirname(os.path.abspath(__file__)); RD = os.path.join(H, 'newsec', 'refresh')
 R = json.load(open(os.path.join(RD, 'resolved.json'), encoding='utf-8'))
@@ -20,6 +20,7 @@ def sig(kind, name, key, e, why, lead=False, date=''):
     when = date or e.get('date') or 'Nov 2026'
     txt = ('Reportedly: ' if lead else '') + why + f" ({when}; {e.get('source_url')})"
     _add(kind, name, e, {'action': 'signal', 'why': ('Reported, not confirmed: ' if lead else '') + why, 'signals': {key: txt}, 'lead': lead, 'date': when})
+def spons(kind, name, e, why): _add(kind, name, e, {'action': 'sponsorship', 'why': why})      # recorded in the row; not a Parameter 4 signal under the agreed definition
 def note(kind, name, e, why, date=''): _add(kind, name, e, {'action': 'note', 'why': why, 'date': date})
 def drop(kind, name, e, why): _add(kind, name, e, {'action': 'drop', 'why': why})
 def parent(kind, name, e, why, par, listed): _add(kind, name, e, {'action': 'parent', 'why': why, 'parent': par, 'parent_listed': listed, 'parent_stake': ''})
@@ -38,10 +39,10 @@ sig(N, 'Rox', 'raise', ev('us_ai', 'Rox'), 'Raised USD 100M Series B at a USD 1.
 sig(N, 'Mavria', 'raise', ev('us_ai', 'Mavria'), 'Round led by Paradigm valuing it at about USD 1B, per press reporting', lead=True)
 sig(N, 'Blue J', 'raise', ev('us_ai', 'Blue J'), 'Raised USD 176M Series E led by JMI Equity, to fund UK and international expansion')
 sig(N, 'Mapletree Investments', 'ipo', ev('ipo', 'Mapletree Investments'), 'Tapped banks for a Singapore IPO', lead=True)
-sig(N, 'Novig', 'marketing', ev('sponsorships', 'Novig'), 'New sponsorship: authorised prediction-market partner of the NBA, and partnerships with seven NHL clubs')
-sig(N, 'Kaufland', 'marketing', ev('sponsorships', 'Kaufland'), 'New sponsorship: multi-year NHL partnership (Official Grocery Retail Partner in Germany, the Czech Republic and Slovakia)')
-sig(N, 'JYSK', 'marketing', ev('sponsorships', 'JYSK'), 'New sponsorship: official home furnishing retail partner of Everton Women')
-sig(N, 'engelbert strauss', 'marketing', ev('europe', 'engelbert strauss'), "New sponsorship: UEFA Refereeing's first official sponsorship partner")
+spons(N, 'Novig', ev('sponsorships', 'Novig'), 'New sponsorship: authorised prediction-market partner of the NBA, and partnerships with seven NHL clubs')
+spons(N, 'Kaufland', ev('sponsorships', 'Kaufland'), 'New sponsorship: multi-year NHL partnership (Official Grocery Retail Partner in Germany, the Czech Republic and Slovakia)')
+spons(N, 'JYSK', ev('sponsorships', 'JYSK'), 'New sponsorship: official home furnishing retail partner of Everton Women')
+spons(N, 'engelbert strauss', ev('europe', 'engelbert strauss'), "New sponsorship: UEFA Refereeing's first official sponsorship partner")
 note(N, 'Converse', ev('f1', 'Nike'), "Its parent Nike becomes Formula 1's official apparel and uniform supplier from 2027: check the category conflict before outreach")
 
 # ---- brands on the 48-tab sheet: rounds closed
@@ -132,12 +133,12 @@ note(N, 'Restaurant Brands Europe', ev('buyouts', 'Restaurant Brands Europe'), "
 sig(S, 'TEKEVER', 'regions', ev('europe', 'TEKEVER'), "Opened its first Nordic operation in Odense, Denmark; Denmark's EIFO joined its USD 580M Series D")
 note(S, 'ICEYE', ev('europe', 'ICEYE'), 'Launched an all-cash tender offer for Milan-listed rocket maker Avio (about EUR 2.05B) and pledged EUR 1B of further investment in Italy')
 note(S, 'Swile', ev('mena_latam', 'Swile'), 'Plans to invest BRL 600M in Brazil over five years and to enter travel and expense management there in H1 2027 (Brazil is an existing market)')
-sig(S, 'Harvey', 'marketing', ev('sponsorships', 'Harvey'), 'New sponsorship: official legal assistant partner of Wimbledon, multi-year from the 2027 Championships')
+spons(S, 'Harvey', ev('sponsorships', 'Harvey'), 'New sponsorship: official legal assistant partner of Wimbledon, multi-year from the 2027 Championships')
 note(S, 'Heidi Health', ev('apac', 'Heidi Health'), 'Cutting about 18% of its workforce; two co-founders are leaving')
 note(S, 'Unacademy', ev('apac', 'Unacademy'), 'New chief executive: Akhilendra Kumar; founder Gaurav Munjal becomes executive chairman')
 note(S, 'Sarvam AI', ev('apac', 'Sarvam AI'), 'Appointed a President and Chief Business Officer (Sashikumar Sreedharan, formerly Google Cloud India)')
-note(S, 'Ultraviolette Automotive', ev('apac', 'Ultraviolette'), 'Appointed a new head of marketing (Abhijit Singh Brar, formerly Royal Enfield)')
-note(S, 'Porter', ev('apac', 'Porter'), 'New chief marketing officer (Mohit Rathi) and chief financial officer (Gaurav Jain)')
+sig(S, 'Ultraviolette Automotive', 'marketing', ev('apac', 'Ultraviolette'), 'New marketing chief: Abhijit Singh Brar, formerly Royal Enfield, appointed head of marketing')
+sig(S, 'Porter', 'marketing', ev('apac', 'Porter'), 'New marketing chief: Mohit Rathi promoted to chief marketing officer; Gaurav Jain appointed chief financial officer')
 note(S, 'CarDekho', ev('apac', 'CarDekho'), "New chief executive for the group's auto classifieds business (Sudhir Pai)")
 
 # ---- funding talks of the 18 Nov watch list: what happened since

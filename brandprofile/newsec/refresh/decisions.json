@@ -146,48 +146,32 @@
 ],
 "Novig": [
 {
-"action": "signal",
+"action": "sponsorship",
 "why": "New sponsorship: authorised prediction-market partner of the NBA, and partnerships with seven NHL clubs",
-"signals": {
-"marketing": "New sponsorship: authorised prediction-market partner of the NBA, and partnerships with seven NHL clubs (19 Nov 2026; https://www.sportcal.com/news/nba-adds-novig-as-prediction-market-partner-aeg-joins-wave-with-og-com/)"
-},
-"lead": false,
 "date": "19 Nov 2026",
 "source": "https://www.sportcal.com/news/nba-adds-novig-as-prediction-market-partner-aeg-joins-wave-with-og-com/"
 }
 ],
 "Kaufland": [
 {
-"action": "signal",
+"action": "sponsorship",
 "why": "New sponsorship: multi-year NHL partnership (Official Grocery Retail Partner in Germany, the Czech Republic and Slovakia)",
-"signals": {
-"marketing": "New sponsorship: multi-year NHL partnership (Official Grocery Retail Partner in Germany, the Czech Republic and Slovakia) (05 Nov 2026; https://www.nhl.com/news/nhl-and-kaufland-announce-multiyear-international-partnership)"
-},
-"lead": false,
 "date": "05 Nov 2026",
 "source": "https://www.nhl.com/news/nhl-and-kaufland-announce-multiyear-international-partnership"
 }
 ],
 "JYSK": [
 {
-"action": "signal",
+"action": "sponsorship",
 "why": "New sponsorship: official home furnishing retail partner of Everton Women",
-"signals": {
-"marketing": "New sponsorship: official home furnishing retail partner of Everton Women (16 Nov 2026; https://www.insideworldfootball.com/2026/11/16/new-deals-at-barca-and-everton-show-growing-commercial-momentum-in-womens-game/)"
-},
-"lead": false,
 "date": "16 Nov 2026",
 "source": "https://www.insideworldfootball.com/2026/11/16/new-deals-at-barca-and-everton-show-growing-commercial-momentum-in-womens-game/"
 }
 ],
 "engelbert strauss": [
 {
-"action": "signal",
+"action": "sponsorship",
 "why": "New sponsorship: UEFA Refereeing's first official sponsorship partner",
-"signals": {
-"marketing": "New sponsorship: UEFA Refereeing's first official sponsorship partner (09 Nov 2026; https://www.insideworldfootball.com/?p=178765)"
-},
-"lead": false,
 "date": "09 Nov 2026",
 "source": "https://www.insideworldfootball.com/?p=178765"
 }
@@ -1008,12 +992,8 @@
 ],
 "Harvey": [
 {
-"action": "signal",
+"action": "sponsorship",
 "why": "New sponsorship: official legal assistant partner of Wimbledon, multi-year from the 2027 Championships",
-"signals": {
-"marketing": "New sponsorship: official legal assistant partner of Wimbledon, multi-year from the 2027 Championships (18 Nov 2026; https://www.sportcal.com/sponsorship/harvey-in-as-latest-wimbledon-sponsor/)"
-},
-"lead": false,
 "date": "18 Nov 2026",
 "source": "https://www.sportcal.com/sponsorship/harvey-in-as-latest-wimbledon-sponsor/"
 }
@@ -1044,16 +1024,24 @@
 ],
 "Ultraviolette Automotive": [
 {
-"action": "note",
-"why": "Appointed a new head of marketing (Abhijit Singh Brar, formerly Royal Enfield)",
+"action": "signal",
+"why": "New marketing chief: Abhijit Singh Brar, formerly Royal Enfield, appointed head of marketing",
+"signals": {
+"marketing": "New marketing chief: Abhijit Singh Brar, formerly Royal Enfield, appointed head of marketing (14 Nov 2026; https://entrackr.com/report/funding-and-acquisitions-in-indian-startups-this-week-nov-09-nov-14-12808553)"
+},
+"lead": false,
 "date": "14 Nov 2026",
 "source": "https://entrackr.com/report/funding-and-acquisitions-in-indian-startups-this-week-nov-09-nov-14-12808553"
 }
 ],
 "Porter": [
 {
-"action": "note",
-"why": "New chief marketing officer (Mohit Rathi) and chief financial officer (Gaurav Jain)",
+"action": "signal",
+"why": "New marketing chief: Mohit Rathi promoted to chief marketing officer; Gaurav Jain appointed chief financial officer",
+"signals": {
+"marketing": "New marketing chief: Mohit Rathi promoted to chief marketing officer; Gaurav Jain appointed chief financial officer (07 Nov 2026; https://entrackr.com/report/weekly-funding-report-weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-nov-02-nov-07-12791269)"
+},
+"lead": false,
 "date": "07 Nov 2026",
 "source": "https://entrackr.com/report/weekly-funding-report-weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-nov-02-nov-07-12791269"
 }
