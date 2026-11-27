@@ -12,3 +12,7 @@
 {"name": "Lactalis", "why": "IN MASTER: check.py on the legal name \"Groupe Lactalis\" returns master: All New Brands (as Groupe Lactalis)"}
 {"name": "Td Synnex Spain", "why": "not a separate company: Spanish national entity of TD SYNNEX (listed, NYSE); no commercial identity of its own"}
 {"name": "Coop Mineraloel", "why": "IN MASTER via parent: now Coop Pronto AG, a subsidiary of Coop Group (on master as Coop Group), trading under the Coop brand (de.wikipedia.org/wiki/Coop_Mineraloel)"}
+{"name": "Adisseo", "why": "listed (Shanghai Stock Exchange, as Bluestar Adisseo Company): adisseo.com investor section shows a share price; check.py flags Bluestar Adisseo as listed"}
+{"name": "Clean Earth", "why": "not a separate company: part of Veolia (listed); cleanearthinc.com states 'Clean Earth is now Veolia'"}
+{"name": "Edistribucion Redes Digitales", "why": "not a separate company: Endesa's Spanish electricity distribution legal entity (Endesa listed, majority-owned by listed Enel); no commercial identity of its own"}
+{"name": "Criteria Caixa", "why": "other: investment holding vehicle of the la Caixa group (holds about 31% of listed CaixaBank), no operating business or brand of its own"}
