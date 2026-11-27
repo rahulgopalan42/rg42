@@ -1,0 +1,53 @@
+s03 TOBACCO & NICOTINE / ALCOHOLIC DRINKS - batch 2 notes (27 Nov 2026)
+
+Output
+- MAIN 16 (Route A 10, Route B 1, Route C 5): Tobacco & Nicotine 5, Alcoholic Drinks 11.
+  Tobacco: Pöschl Tabak (A), Villiger Söhne (A), Tobacco Authority of Thailand (A, state), Joh. Wilh. von Eicken (C), Arnold André (C).
+  Alcohol: Disaronno Group/ILLVA Saronno (A), Oettinger Brauerei (A), Augustiner-Bräu (A), Kirishima Shuzo (A), Nolet Distillery (A, FY2021/22 figure),
+  Spendrups (A), Hakutsuru Sake Brewing (A, FY Mar-2022 figure), Fratelli Branca (B), Whyte & Mackay (C), Raventós Codorníu (C), Ron Barceló (C).
+- WATCH 11: Burger Söhne, Swisher International, Advanced Inhalation Rituals (Al Fakher; its Nasdaq SPAC may have closed, so it may now be listed),
+  Westons Cider, Thatchers Cider, González Byass, Sanwa Shurui (revenue meets Route A, but owner and listing status not on the page), Guizhou Xijiu, Gekkeikan, Pabst, DeKuyper.
+- Every tobacco record has the sponsorship/advertising restrictions in `compliance` (EU Directive 2003/33/EC, WHO FCTC Art. 13, national laws).
+  The tobacco F1 case is weak: in practice only corporate hospitality or non-tobacco branding is possible. Legal review is needed for every tobacco name.
+
+Counts
+- DISC lines: 208 (tobacco and alcohol candidates). About 230 names, including aliases and parents, went through check.py across 7 calls.
+- Check results among DISC: IN MASTER 44, F1 PARTNER 2 (Paulaner, Moët Hennessy), LISTED 13 (12 by researcher judgement, 1 flagged by check.py),
+  POSSIBLE 10 (all treated as the same company except Amber Beverage Group vs "Amber Group", Ron Barceló vs "Barceló Group" (hotels), and Iranian Tobacco vs "Irani Corp"), NEW 139.
+- Researched (company page opened): 32. 27 NEW went to MAIN or WATCH; the other 5 were found on the master or listed during research.
+- Left out after research: Grands Chais de France, Yuengling, Erdinger Weißbräu and Amrut Distilleries (on the master under a slightly different name; my first
+  check used a variant spelling and returned NEW, so a final re-check of every written name and alias caught them), Muhak (KOSPI-listed), and on compliance grounds Elf Bar/Heaven Gifts,
+  Habanos S.A. and Flor de Caña.
+- Parent note: Raventós Codorníu's majority owner Carlyle is flagged as a Red Bull Racing partner; I kept the company and recorded this in category_conflict.
+- DUPS: 68 lines.
+
+Sources used (names extracted)
+- Brewers Association 2025 Top 50 craft and overall US brewers PDF (cdn.brewersassociation.org), about 60 unique names; I extracted 25 (the top end plus private ones)
+- en.wikipedia List of cigarette brands (manufacturer column, both halves): about 120 manufacturers; I took about 35 into DISC (Indonesian kretek SMEs were skipped)
+- en.wikipedia List of cigar brands: about 65 manufacturers; 15 into DISC
+- de.wikipedia Tabakindustrie (market table and regional producers): 15
+- tobaccotactics.org Tobacco companies: 15 (mostly listed majors)
+- en.wikipedia Beer in Germany (output table): 11
+- Drinks International Millionaires' Club 2026 (fastest-growing, rum, Indian whisky pages): about 20 brands, mostly owned by listed groups; 1 used
+- 2firsts.com Shenzhen Top 500 (2025 and 2024 e-cigarette rankings): 17 vape companies
+- tobaccoreporter.com (AIR/Al Fakher Nasdaq SPAC article)
+- About 90 further candidates came from my own knowledge of the sector, run through check.py; in DISC their source is marked as "researcher candidate (no list page opened)".
+- Company pages (Wikipedia DE/FR/IT/ES/NL/SV/JA/KO/ZH/EN): see the sources in each record.
+- WebSearch: 6 of 9 calls used.
+
+Regions covered
+- Europe (DE, CH, IT, ES, NL, UK, SE, FR), Japan, China, South Korea, India, Thailand, the Dominican Republic and the US. Africa, the Middle East (apart from AIR), Latin America
+  beyond the Dominican Republic, and Central and Eastern Europe were reached only as DISC names. They were not researched.
+
+Not completed
+- 106 DISC names remain "not researched". Priority NEW names for the next pass: Landewyck Tobacco, House of Prince, Dubek, Régie Libanaise (state), Vinataba (state), CNTC
+  provincial groups (Shanghai, Hongta, Hunan; state-owned subsidiaries of CNTC), Arturo Fuente, J.C. Newman, Manifatture Sigaro Toscano, Contraf-Nicotex-Tobacco, V2 Tobacco,
+  FirstUnion Technology and ALD (vape ODMs; compliance screening needed), Zonin1821, Santa Margherita, Gruppo Italiano Vini, Cantine Riunite, Mezzacorona, Cavit, Félix Solís,
+  Zamora Company, Familia Torres, Bollinger, Pol Roger, EPI, Hofbräu München (state-owned), Trinchero, Vinarchy, Daesun, Asahi Shuzo (Dassai), Ozeki, Stoli Group, Kopparberg.
+- Pages that could not be opened (404): de Liste der größten Brauereien, en List of tobacco companies, en Category tobacco companies, fr Liste des maisons de champagne,
+  Landewyck (de), Vinataba (en), Al Fakher (en), Sigaro Toscano (it), Zonin/Santa Margherita (it), Zamora (es), Kopparberg (sv), Trinchero (en), CNT (de), Hakutsuru (en), Gekkeikan (ja title).
+  The Brewers Association PDF needed local pdftotext.
+- Not opened: IWSR, ProWein/Vinexpo/InterTabac exhibitor lists, national brewers association member lists, family-business rankings.
+- Unchecked figures: Pöschl (2020 text vs 2023 infobox), Disaronno (EUR 155m 2023 vs EUR 370m 2025), Spendrups (two revenue figures), the THB to USD conversion for TOAT (no fixed rate),
+  and older-than-three-year figures for von Eicken, Arnold André, Nolet, Hakutsuru and Codorníu.
+- This list is not exhaustive.
