@@ -1,0 +1,63 @@
+Batch 2 queue assessment of in_q06.jsonl (80 input companies, mixed sectors and countries). Verified 27 Nov 2026.
+WebSearch used 3 of 3 (Brazil betting-ban MP 1.394/2026; Car Avenue; Aesio). WebFetch used for everything else.
+
+Duplicate check: check.py run on all 80 names, then again on brand names, trading names and parents (Estrela Bet, Vai de Bet,
+Esportes da Sorte, Bricomart/Obramat, Leroy Merlin, Adeo, IKEA, Swiss Krono, Red Bull, TCP, Telefonica, Bunge, LIXIL, Allison
+Transmission, Alsea, Aster DM, D'Ieteren, Aldar, Santander, ADNOC, C&S Wholesale Grocers, Aema Groupe, Macif, Varta, Coppel, L Catterton,
+Tasmea, Exemplar Luxury Group, Mantu and others).
+
+RESEARCHED
+- MAIN q06_assess.jsonl: 25 (Route A 11, Route C 14).
+  A: Obramat (Bricolaje Bricoman), American Solutions for Business, Ritchies Supa IGA, The Midfield Group, Goodstart Early Learning,
+     WorkPac Group, Grupo Eroski, Save-A-Lot, Neiman Marcus, Alpitour World, Car Avenue.
+  C: Alam Group, CMV Group, ABN Group, Aspen Medical, ALTRAD, Allucent, Amaris Consulting, Deestone, BanCoppel, Hell Energy, Atrevia,
+     Artplan, Amity Education, Asisa.
+  (Count check: 11 A + 14 C = 25.)
+- WATCH watch_q06_assess.jsonl: 28. EstrelaBet, VaideBet, Onabet, Blaze, H2Bet, Arc System Works, Adgeco Group, Al Dhafra Recycling
+  Industries, Bee Battery Recycling, Ajialuna Educational Co, Amoun, Autopact, Bancomat, Bancontact Payconiq, Bancomext, Hype Energy,
+  Function of Beauty, Hanna Andersson, Apeejay Surrendra Group, ARY Group, Atlas Group Pakistan, Apple Tree Communications,
+  Armando Testa, AlQaryan Group, Aluguel de Cacambas SP, Aspyr Media, Astragon, Aventurine.
+
+Points to watch in the records
+- Brazilian betting brands (EstrelaBet, VaideBet, Onabet, Blaze, H2Bet): Medida Provisoria 1.394 of 25 Sep 2026 bans operating, offering
+  and advertising fixed-odds betting in Brazil and ordered sites offline within ten days (planalto.gov.br; estrelabet.bet.br now
+  redirects to a government page). The MP was extended by Congress and is challenged in the STF; it must be converted into law to last.
+  So all five are in WATCH with the ban in "distress". Operators from the Ministry of Finance authorised list: EB Intermediacoes e Jogos
+  (EstrelaBet, Vupi), BPX Bets Sports Group (VaideBet, Betpix365, Obabet), Esportes Gaming Brasil (Onabet, Esportes da Sorte, Lottu),
+  Foggo Entertainment (Blaze, Jonbet), H2 Licensed (H2 Bet, Seubet). No current F1 deal for any of them in check.py.
+- Australian IBISWorld figures are FY2022 (older than three years). Rows marked "^" in the PDF are IBISWorld estimates (CMV, Autopact,
+  ABN, Goodstart, Aspen Medical): recorded as kind "estimated" and used only as a Route C indicator. Ritchies, Midfield and WorkPac
+  are reported figures.
+- Goodstart is charity-owned (fit very low). WorkPac is now a subsidiary of Tasmea (site shows ASX Announcements; parent_listed "listed").
+- Neiman Marcus: parent Exemplar Luxury Group (formerly Saks Global) filed Chapter 11 on 14 Jan 2026. Save-A-Lot: 2026 distress.
+- ALTRAD: chairman Mohed Altrad convicted in Dec 2022 of corruption over rugby shirt-sponsorship deals; flagged in compliance.
+- BanCoppel: subsidiary of Grupo Coppel; Coppel was delivered in b01. Kept as its own bank brand, flagged; drop it if Coppel covers it.
+- Hell Energy: former Williams sponsor (2009-10); Wikipedia lists an office in Russia; check before approach.
+- Deestone: tyres, so Pirelli's F1 supply deal blocks the core category (category 0).
+- Bricolaje Bricoman SLU trades as Obramat (formerly Bricomart), ADEO group; written under "Obramat (Bricolaje Bricoman)".
+- Websites left blank where I did not open the company's own site.
+
+LEFT OUT (dups_q06_assess.jsonl): 21
+- F1 partner by brand: Santander Global Technology And Operations (Santander), ADNOC Industrial Waste Services (ADNOC),
+  Krating Daeng (TCP's Thai Red Bull; sells under the Red Bull name).
+- Master duplicates by brand or parent: Ikea Iberica (IKEA), Krono Holding (Swiss Krono), Piggly Wiggly (banner of C&S Wholesale Grocers),
+  Aesio (brand of Aema Groupe).
+- Listed: ams OSRAM (SIX), Aster DM (BSE/NSE), Casumina (probable; ticker not confirmed).
+- Not a separate company: Bunge Iberica (Bunge, NYSE), Telefonica Audiovisual Digital and Telefonica Soluciones (Telefonica),
+  Allison Off-Highway (Allison Transmission, NYSE), Alsea Sudamerica (Alsea, BMV), American Standard APAC (LIXIL), D'Ieteren Auto
+  (D'Ieteren Group, Euronext), Aldar Education (Aldar, ADX), Altrad UK, Ireland & Nordics (regional ALTRAD entity).
+- Other: Elevate Beauty (investment platform with L Catterton, not an operating company); Montana Tech Components (holding of VARTA,
+  which is on the master, and listed Montana Aerospace/Aluflexpack; de.wikipedia files it as listed).
+- Not assessed but worth a look: Aster DM's separated GCC business, Aster DM Healthcare FZC (65% Fajr Capital consortium, private).
+
+NOT RESEARCHED (no usable page; nothing written): 6
+- Ethos Pet Brands: only a name on the L Catterton portfolio page; ethospetbrands.com does not resolve.
+- ALS Perception: perception.net.br does not resolve; Clay shows 30 employees, so its USD 1-10bn bracket is not credible.
+- Alumni Association Pedagogia en ingles Usach: an alumni association with 1 LinkedIn employee, not an operating company; no page opened.
+- Atvexa: atvexa.se pages render no text; no Wikipedia article found.
+- Lucky Energy: luckyenergy.com is a parked domain for sale.
+- Beach Bum: only a row on the Wikipedia publisher list (Beach Bum Ltd., Israel); beachbum.games does not resolve.
+
+Hosts that did not resolve or blocked access: adgecogroup.com, adri.ae, asbcolumbus.com, americanbus.com (bot check), beeah.com (503),
+atlas.pk (503), aesio.fr (403), obramat.es (403), car-avenue.fr (503), ethospetbrands.com, perception.net.br, beachbum.games.
+All lines validated as JSON; no name appears twice across MAIN, WATCH and DUPS.

@@ -1,0 +1,20 @@
+q10 assessment (batch b02), 27 Nov 2026. Input: in_q10.jsonl, 80 rows, worked in file order. check.py run on every input name and on brand, parent and trading names (PokerStars, Inditex, Renfe, APAC, Barceló, Maspex, pladis, Godiva, Kering, Krafton, Holcim, Dawood Hercules, Engro, Filinvest Development, Coop Group etc.).
+WebSearch used: 3 of 3 (TRC/WSP deal; GFL Environmental Services sale; Albert Automotive Holdings).
+
+RESEARCHED -> MAIN q10_assess.jsonl (25): Bolton Clarke (A, FY22 revenue, old), RAA (C), Balenciaga (C; Kering subsidiary), Dangote Group (C; 2017 revenue), Ralf Bohle/Schwalbe (A), Cetelem (C; BNP Paribas brand, 2017-18 data), Storck (C), TRC Companies (C, low; WSP subsidiary since Feb 2026), Cristália (C, low), Farmasi (C), CLS Group (C), Probe Group (A, FY22 + C indicators), BCA (C; Constellation Automotive/TDR), GFL Environmental Services (A, CAD 8bn transaction), Co-op (The Co-operative Group) (A), CRIF (A), Creditinfo (C, low), Choices Flooring (A, FY22), CJD Equipment (A, FY22), BCforward (C, low), Peninsula (A; Spanish entity accounts; parent unverified), Hefame (A), Westland Insurance Group (A), BGC (A, FY22), Doğa Koleji (C, low).
+RESEARCHED -> WATCH watch_q10_assess.jsonl (20): Deutsche Klassenlotterie Berlin, Daybreak Game Company, Daehong Communications, corpuls, Eesti Loto, Hrvatska Lutrija, Dovetail Games, Dinosaur Polo Club, Graton Resort & Casino, Daymon, Dukes Education, Alfaparf Milano, XL Energy Drink, Sterne Gruppe, DiscountMugs.com, Tinex, Trayal, Vyrao, YSE Beauty (YISE), SAS Supermarket.
+
+LEFT OUT -> DUPS dups_q10_assess.jsonl (31):
+- listed (11): Banco ABC Brasil, Banco Bci, Banco PAN, Banco Sabadell, Bending Spoons (Nasdaq IPO Jul 2026), Duolingo, Dentsply, CSPC, Elsewedy, Filinvest; Battlegrounds Mobile India (Krafton, KRX).
+- not a separate company (13): Tsg Interactive Spain (Flutter/PokerStars), Bershka Bsk España and Stradivarius España (Inditex), Airbus Operations, Energía XXI (Endesa), Reguladora de Compras del Mediterráneo (Hefame purchasing entity), De Agostini Scuola (Mondadori), Deep Silver (Plaion/Embracer), Geocycle UAE (Holcim), BASES (NIQ), Starco (now Kenda Europe), Dawood Group (group label; listed Dawood Hercules/Engro), BEIL Research and Consultancy (tiny unit of BEIL).
+- duplicates of master / delivered (6): Aldi (ALDI Nord/Süd), Renfe Viajeros (delivered b01), Melbourne Airport (APAC), Barcelo Hotel Group (Barceló Group), Tiger Energy Drink (Maspex brand), Yildiz Holding (parent of pladis and Godiva; judgement call - user may wish to override).
+- other (1): Sicpa Holding (2023 Swiss conviction/fine over foreign bribery).
+Note: master "Coop Group" is the Swiss co-operative (Basel), so the UK Co-operative Group was kept.
+
+NOT RESEARCHED (no line written):
+- CSM Sport & Entertainment: csm.com redirects to teamwass.com then the.team (403); no Wikipedia page; ownership/status unknown (possibly merged into another agency).
+- Green Mountains (UAE): only the Mordor Intelligence list entry; no full name or own site found.
+- BBQSAM (Australia): no page found; bbqsam.com.au does not resolve.
+- Albert Automotive Holdings (Australia): own domains do not resolve; IBISWorld profile refused (405). Search snippet mentions Dutton One and Targa Australia (unverified). check.py POSSIBLE vs master "Albert" looks like a different company.
+
+Caveats: several IBISWorld 2022 revenues (FY June 2022) are older than three years and flagged. Clay brackets kept as "estimated" only. Parent listing status not verified for EG7, WSP, Focus/Pullup, Lotte Holdings, Advantage Solutions, NIQ. Peninsula's parent group and Choices Flooring/Newfurn, CJD and Probe ownership need verification. Some own sites returned 403/404 (farmasi.com, bca.co.uk, bgc.com.au, peninsula.com, alfaparf pages, crif.com).

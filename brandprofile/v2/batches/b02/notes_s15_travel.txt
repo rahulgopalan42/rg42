@@ -1,0 +1,49 @@
+NOTES - s15 Travel, Hotels & Leisure / Airlines & Air Travel (batch 2, independent web research, 27 Nov 2026)
+
+SOURCES USED (names extracted)
+- https://en.wikipedia.org/wiki/List_of_cruise_lines - ~52 (river-cruise list truncated after "Pandaw"; second half of page not read)
+- https://en.wikipedia.org/wiki/Flag_carrier - ~95 flag carriers with stated ownership (first 100k chars only)
+- https://en.wikipedia.org/wiki/List_of_low-cost_airlines - ~75 active low-cost carriers (Oceania onwards truncated)
+- https://en.wikipedia.org/wiki/List_of_chained-brand_hotels - ~80 hotel parents (navbox truncated)
+- https://en.wikipedia.org/wiki/Amusement_park_rankings - top 10 operators (TEA/AECOM 2024)
+- https://www.hosteltur.com/172064_... (Hosteltur revenue ranking 2024) - 22 Spanish chains
+- https://www.hosteltur.com/176245_... (Hosteltur employer ranking 2025) - 20 chains
+- https://privatejetcardcomparisons.com/ - 30 jet card providers
+- https://privatejetcardcomparisons.com/2026/02/23/2025s-30-biggest-charter-fractional-private-jet-companies/ - 31 operators
+- https://privatejetcardcomparisons.com/2025/12/02/india-top-asia-pacific-... - 4 Asia-Pacific operators
+- Sportcal / Inside World Football tourism-board deal pages (Visit Rwanda, Visit Maldives, Saint Lucia) - 5 boards
+- Seed names (researcher knowledge, run through check.py; source "" in DISC): ~170 across airports, duty free, tour operators, OTAs, car rental/rail, parks/ski, tourism boards.
+- Company pages opened for research: Wikipedia (en/de/fr/it/es/ko) for each MAIN/WATCH record; solairus.aero, jetlinx.com, globeair.com.
+- Could not open: hotelsmag.com HOTELS 225 (404), fvw.de Veranstalter-Dossier (404), jetex.com (503), sandals.com (403), Wikipedia pages for Sentient Jet, Jet Linx, Loveholidays, Highgate, Travelodge UK, Flix SE (de), Italo (en) (404).
+- WebSearch used: 4 of 8 (fvw ranking, Hosteltur ranking, private jet operator ranking, tourism-board sponsorships).
+
+COUNTS
+- Names extracted to DISC: 547 (all run through check.py; a few aliases checked separately)
+- check.py: NEW 345, IN MASTER 60, ALREADY DELIVERED 16, F1 PARTNER 15, LISTED 100 (includes names I believe listed but check.py marked NEW - flagged in "why" as not verified this session), POSSIBLE 11
+- Researched: 45 (42 written, plus Eurostars Hotel Company, Hotel Lotte and Groupe Barriere researched then excluded on alias check)
+- MAIN: 36   WATCH: 6   DUPS: 215 lines
+- MAIN by sector: Travel, Hotels & Leisure 21; Airlines & Air Travel 15
+
+SUBSECTORS / REGIONS COVERED
+- Hotels (Canada, Belgium, Jamaica, France); cruise (Switzerland/MSC, US, Germany, Italy); tour operators (Germany x2, Italy, France, UK); travel tech (UK); rail/coach (Italy, Germany); airlines (UK, Scandinavia, Germany, Spain x2, Canada, India, US, Rwanda, Turkey, Fiji, Luxembourg, Dominican Republic, Latvia); airports (UK x2); duty free (Germany); parks/ski (UK, Spain, US); tourism boards (Rwanda, Maldives, Saint Lucia); private aviation (US, WATCH only).
+- Local-language sources used: German, French, Italian, Spanish, Korean. NOT reached in local language: Portugal, Greece, Turkey, Gulf (Arabic), India, Japan, China, South-East Asia, Australia, Latin America, Africa.
+
+KEY CAVEATS
+- Several MAIN figures are old (flagged in fin.period): Four Seasons (2021 transaction), Costa (2018), MAG (2020), RwandAir (2019), WestJet (2018 revenue), Club Med (2016), Fiji Airways (2018).
+- SAS: page cites a 2024 conditional delisting application; completion not confirmed on a page.
+- alltours, Schauinsland-Reisen, Arajet, Breeze: owners not named on pages (GmbH / private status shown); ownership_type "requires verification".
+- Merlin (KIRKBI/LEGO), PortAventura (Ferrari Land), Explora Journeys and Italo (MSC) carry established or potential F1 conflicts - see category_conflict.
+- Visit Rwanda: compliance note on human-rights criticism; sanctions screening advised before outreach.
+- Delivered names not yet recorded in v2/delivered/ (left for the batch owner).
+
+REMAINING UNRESEARCHED (298 DISC rows "not researched")
+- Hotels: Langham, Soneva, Travelodge, Westgate, Highgate, Catalonia, Princess, Senator (EUR 160m - Route A likely), Servatur, Selenta, Six Senses/Belmond/Ennismore (listed-parent subsidiaries), Asian chains (Archipelago delivered; Cinnamon, Jetwing, S Hotels, Wharf, Prince, Okura).
+- Cruise: Hurtigruten (page lacked data), Silversea, AmaWaterways, Scenic/Emerald, Celestyal, Travelopia, Windstar, Ritz-Carlton Yacht Collection, Hapag-Lloyd (part of TUI Cruises record), Resorts World Cruises, river lines.
+- Airlines: flyadeal, Zipair, Air Premia, Avelo, Flair, Wingo, Flybondi, French Bee, Neos (POSSIBLE), SalamAir, Air Cairo, Vietravel, Batik Air, Smartwings, many African/Pacific flag carriers.
+- Private aviation: Jetex, GlobeAir, Global Jet, Magellan, Nicholas Air, AirSprint, Gama, Empire Aviation, Asia operators.
+- Airports/handling/duty free: Hamad, Incheon, Schiphol, Munich, Brussels, Copenhagen, IGA, Matarat, Riyadh Airports, Gatwick, ANA, WFS, Aviapartner, Flemingo, 3Sixty, DFA, ARI.
+- Tour/OTA/TMC: Trailfinders, A&K (page had no data), Internova, Logitravel, Viajes El Corte Ingles, Riya, Wego, Musafir.
+- Mobility: Europcar, Enterprise Rent-A-Car (master has Enterprise Mobility - likely dup), Orix, Turo, BlaBlaCar, Omio, Iryo.
+- Leisure: Phantasialand, Efteling, Liseberg, Puy du Fou, Aspen Skiing, Powdr.
+- Tourism boards: 16 national boards seeded but not researched; Singapore/Bahrain/Abu Dhabi/Azerbaijan boards likely tied to their Grands Prix - check before use.
+Nothing here is exhaustive.

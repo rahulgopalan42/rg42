@@ -9,3 +9,11 @@
 {"name": "Carnival UK (P&O Cruises & Cunard)", "why": "not a separate company: UK operating unit of Carnival Corporation (listed, NYSE: CCL; https://en.wikipedia.org/wiki/Carnival_Corporation_%26_plc); it trades through the P&O Cruises and Cunard brands, which check.py shows as NEW and could be assessed separately"}
 {"name": "Htoo Group", "why": "other: under sanctions (OFAC re-designated HTOO Group 25 Mar 2022; UK 2021; EU since 2008; https://en.wikipedia.org/wiki/Htoo_Group_of_Companies)"}
 {"name": "Grupo Ángeles", "why": "IN MASTER - master: All New Brands (as Grupo Vazol); Grupo Empresarial Ángeles was renamed Grupo Vazol (https://es.wikipedia.org/wiki/Grupo_Empresarial_%C3%81ngeles)"}
+{"name": "L'Oreal España", "why": "not a separate company: Spanish national entity of L'Oréal (listed, Euronext Paris); single legal entity from the elEconomista ranking; L'Oréal owns current F1 partner SkinCeuticals per check.py"}
+{"name": "Red Electrica De España", "why": "not a separate company: subsidiary of Redeia Corporación, which is listed (BME: RED) (https://es.wikipedia.org/wiki/Red_El%C3%A9ctrica_de_Espa%C3%B1a); check.py LISTED? on Red Eléctrica"}
+{"name": "Repsol Lng Holding", "why": "not a separate company: LNG holding legal entity of Repsol (listed, Bolsa de Madrid); single legal entity from the elEconomista ranking with no commercial identity of its own"}
+{"name": "Carrefour Argentina", "why": "not a separate company: Argentine national subsidiary of Carrefour (listed, Euronext Paris), trading under the Carrefour brand"}
+{"name": "CAVA", "why": "listed (NYSE: CAVA, debut 15 June 2023; https://en.wikipedia.org/wiki/Cava_Group); Clay marked it privately held"}
+{"name": "Hengrui", "why": "listed (Shanghai Stock Exchange 600276 since 2000; Hong Kong 1276; https://en.wikipedia.org/wiki/Jiangsu_Hengrui_Medicine)"}
+{"name": "CEA-Leti", "why": "not a separate company: non-profit research institute of the state CEA (https://en.wikipedia.org/wiki/CEA-Leti); no commercial identity of its own"}
+{"name": "Intercorp", "why": "listed (status unclear but its operating businesses trade): Wikipedia shows ADR programmes (Bank of New York 39.8%) and places it in Companies listed on the Nasdaq; its holding Intercorp Financial Services (Interbank) is listed (https://en.wikipedia.org/wiki/Intercorp)"}

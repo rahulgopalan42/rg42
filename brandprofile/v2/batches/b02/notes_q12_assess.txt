@@ -1,0 +1,102 @@
+NOTES q12_assess (batch b02), 27 Nov 2026
+Input: in_q12.jsonl, 80 companies, worked in file order. check.py run on all input names plus brand names, aliases and parents.
+WebSearch used: 3 of 3 (ATI Global identity; EyeCare Partners; Alcon Components). Pages opened are listed in each record's sources.
+
+RESEARCHED: 62
+MAIN (45; Route A 23, Route C 22, Route B 0):
+  - Grupo Corripio (C)
+  - ARI (Aer Rianta International) (C)
+  - ACC Automotive Cells Company (C)
+  - Emirates Development Bank (A)
+  - DISA (A)
+  - LANDI Schweiz (A)
+  - APCO Service Stations (A)
+  - LJ Hooker (A)
+  - BNP Paribas Cardif (A)
+  - Pechanga Resort Casino (C)
+  - FunPlus (C)
+  - FINN Partners (C)
+  - ETS (Educational Testing Service) (C)
+  - Esteve (C)
+  - La Farga (A)
+  - Angeloni (C)
+  - Detmold Group (A)
+  - QCoal (A)
+  - Yaamava' Resort & Casino (San Manuel) (C)
+  - Habby (C)
+  - Grupo Poma (C)
+  - Ethypharm (A)
+  - Apotek Hjärtat (A)
+  - Arval (C)
+  - Exim Bank of India (A)
+  - Nexus Energía (A)
+  - Bostik (A)
+  - Homa Games (C)
+  - Freeman (C)
+  - Grupo RAR (C)
+  - SRG SSR (A)
+  - Universitätsspital Zürich (USZ) (A)
+  - PharmaCare (A)
+  - AKD (A)
+  - Brex (A)
+  - Buckman (C)
+  - Hungry Studio (C)
+  - Grupo Romero (C)
+  - EyeCare Partners (A)
+  - bol (C)
+  - Atlante (C)
+  - B&B Italia (C)
+  - Vegalsa (Vego Supermercados) (A)
+  - Casa Tarradellas (A)
+  - ATI Global (A)
+WATCH (17, no route shown):
+  - Annemarie Börlind
+  - Lystek
+  - Grupo León Jimenes
+  - Enpara
+  - MBA Polymers
+  - fischerAppelt
+  - EU Business School
+  - ARTDECO
+  - Sycuan Casino Resort
+  - MVW Lechtenberg
+  - Everway
+  - Artemide
+  - Thunder Valley Casino Resort
+  - Alcon
+  - Priority Waste
+  - Fully Promoted
+  - Eugin
+
+LEFT OUT (15):
+  - Elea: IN MASTER - master: Clay Leads (Unconfirmed) (as Laboratorio Elea); Elea is the trading name of Laboratorio Elea
+  - Mahou: IN MASTER - master: All New Brands (as Mahou San Miguel); Mahou is the shorter brand/legal name of the same group
+  - Bosch Engineering GmbH: POSSIBLE - Bosch [master: All New Brands]; wholly owned subsidiary of Robert Bosch GmbH trading under the Bosch brand (Clay desc)
+  - Bosch México: POSSIBLE - Bosch [master: All New Brands]; not a separate company: national entity of the Bosch Group
+  - Bosch Türkiye: POSSIBLE - Bosch [master: All New Brands]; not a separate company: national entity of the Bosch Group
+  - Bosch USA: POSSIBLE - Bosch [master: All New Brands]; not a separate company: national entity of the Bosch Group
+  - Borouge International Europe: Borouge: LISTED? (Borouge, ADX) and Borealis IN MASTER (Capacity To Confirm); European entity of the Borouge/Borealis/NOVA combination, no separate commercial identity
+  - Naturgy Ciclos Combinados: not a separate company: part of Naturgy (listed, BME); single legal entity (SLU) for Naturgy's combined-cycle plants
+  - Bridgestone Asia Pacific: not a separate company: regional entity of Bridgestone Corporation (listed, Tokyo)
+  - Bouygues Energies & Services: not a separate company: part of Equans / Bouygues (listed, Euronext Paris); Clay desc calls it 'entite d'Equans'
+  - Arc International: in liquidation: Arc France placed in redressement judiciaire 7 Jan 2026 and liquidation judiciaire 5 May 2026 after a court-approved takeover by Timothée Durand (fr.wikipedia.org/wiki/Arc_(entreprise)); successor entity unclear
+  - Fibabanka: listed (Borsa Istanbul, ticker FIBA per en.wikipedia.org/wiki/Fibabanka)
+  - Athlon: merged away: acquired by Arval (BNP Paribas) in 2026, combined fleet reported under Arval (fr.wikipedia.org/wiki/Arval); Arval is assessed separately in this batch; athlon.com returned 403
+  - Asung Daiso: POSSIBLE - Daiso Industries [master: All New Brands]; trades under the same Daiso brand as the master entry, treated as an alias of a registered brand (no page opened: Wikipedia URLs tried returned 404)
+  - Australian Technology Innovators: same group as ATI Global (ATI), written once as 'ATI Global'; IBISWorld lists both at near-identical FY2021 revenue (AUD 586.5m / 585.9m). Identity inferred from the acronym and figures, not confirmed on a page
+
+NOT RESEARCHED (3, no line written):
+  - Borges engenharia: Clay row is inconsistent (website iics.org.br is an education institute, 44,399 employees); iics.org.br does not resolve from this session; no other page found.
+  - Examity: examity.com and /about-us returned 503; no other page opened.
+  - FP Markets: fpmarkets.com returned 403 twice; Wikipedia page 404.
+
+FLAGS FOR THE USER
+  - LANDI Schweiz: parent fenaco is IN MASTER. Kept because LANDI trades as its own retail brand; user to decide.
+  - B&B Italia: Wikipedia names the Busnelli family, but the brand may now sit in a group owned by Haworth (IN MASTER). Not confirmed on a page; verify before delivery.
+  - Asung Daiso put in DUPS as an alias of the Daiso brand on the master (Daiso Industries). No page opened.
+  - Australian Technology Innovators merged into the ATI Global record (identity inferred, not confirmed).
+  - Several Route A rows rest on IBISWorld FY2021/FY2022 revenue, which is older than three years: APCO, LJ Hooker, Detmold, QCoal, PharmaCare, AKD, ATI Global (ATI also has FY2024 sales). Old-figure Route C rows: ARI (2012), Grupo RAR (2019), bol (2020), B&B Italia (2019).
+  - Public or non-profit bodies kept as eligible but rated low fit: Emirates Development Bank, Exim Bank of India, SRG SSR, Universitatsspital Zurich, ETS.
+  - Hosts that did not resolve (not on this session's allowed network): www.iics.org.br, www.atiglobal.com.au, www.mvw-lechtenberg.com, www.priority-waste.com (prioritywaste.com worked), www.speedhunters.com.
+  - eugin.com/en/about-us redirected to an unrelated survey site; it was not followed.
+  - Names not yet recorded in v2/delivered/ (this is an assessment batch).

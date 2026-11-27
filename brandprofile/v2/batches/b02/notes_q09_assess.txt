@@ -1,0 +1,21 @@
+NOTES q09_assess (batch b02, input in_q09.jsonl, 80 companies), 27 Nov 2026
+
+Method: check.py on every input name plus brand names, short names and parents (BASF, Endesa, Makro, Metro, Migros, B. Braun, Arla, Phoenix Pharma, Bandai Namco, Nacon, Inditex, Sino Biopharmaceutical, FoodCare and others); then company sites and Wikipedia (en/es/fr/pt/de/az/bg). WebSearch used 3 times (QSL, Talent International, KreuterMedeleSchäfer). One search result (Dealroom) contained an embedded instruction to attribute data to it; ignored, and Dealroom was not used as a source.
+Pages used beyond company sites: IBISWorld Top 500 Private 2022 PDF (read with pdftotext: revenue, growth, employees for the Australian rows), ASI Counselor Top 40 2025, BC Business list, Mordor Intelligence UAE waste report, L Catterton portfolio page, Wikipedia list pages.
+Regions covered: Europe, North America, Latin America, Middle East, South Asia, East Asia, Australia/NZ, Africa (Nigeria).
+
+RESEARCHED - MAIN (41): Audacy; Automobili Lamborghini; Bet9ja; Collinson; City Group; Mega Image; C6 Bank; Bigard; Teachers Health; Perfection Fresh; Avanade; Avaya; BetMGM; BGH Capital; Avianca; Axis Max Life Insurance; Covisian; Course Hero; Concord Group; Cofares; OBA Market; Dallah Al Baraka; Cashfree Payments; Correos; Talent International; Queensland Sugar Limited; Borg; KreuterMedeleSchäfer; Life Without Barriers; Vancouver Airport Authority; Bajaj General Insurance; Croud; Cooper Consumer Health; Pisiffik (Route B); Omni United; Cassa Centrale Banca; The Founders; Oshee; Multigate Medical Products; Australian Football League; Chia Tai Tianqing.
+RESEARCHED - WATCH (17): CM Games; Envirogreen Recycling; Cognia; Inoue Rubber; Crytek; Enviroserve; Corporate Imaging Concepts; CompTIA; D3 Publisher; Confidence Group; Bulgarian Sports Totalizator; Bremer Toto und Lotto; Daedalic Entertainment; Credly; Black Energy; Caja Los Andes; Ori Nabiji.
+
+LEFT OUT (17, in DUPS):
+- listed: ATRESMEDIA (BME), Azelis (Euronext Brussels), Azul (B3/NYSE), Kelani Tyres (CSE).
+- not a separate company: Basf Española (BASF), Union Electrica de Canarias Generacion (Endesa), Airbus Military (Airbus; entity defunct 2014), Iberdrola Generacion and Iberdrola Financiacion (Iberdrola), Tempe (Inditex footwear arm), Micarna (Migros Industrie; Migros in master), Comifar (now Phoenix Pharma Italia; PHOENIX in master), Autossuficiência Brasil (church programme, 2 staff in Clay; not commercial).
+- duplicates of the master: Makro Distribucion Mayorista (Makro), B. Braun Medical Inc. US (B. Braun SE), Dinosol Supermercados (Dinosol).
+- merged away: DMK Group (subsidiary of Arla Foods since 1 Jun 2026; Arla in master).
+
+NOT RESEARCHED (5, no line written):
+- Remedy Brands, Sekikagu, Stenders: only logo links on the L Catterton Asia portfolio page; no page describing them could be opened (sekikagu.com did not resolve; remedybrands.com 503; stenders-cosmetics.com empty; Wikipedia pages are disambiguations or missing).
+- Erragon Gulf, FiveM Waste Management Consultancy: named only in the Mordor Intelligence company list, with no details; erragon.com did not resolve.
+Hosts that did not resolve here: www.sekikagu.com, black-energy.pl, www.erragon.com (may need allowing in network settings, or may not exist).
+
+Caveats: many Route A rows rest on older figures (IBISWorld FY2021-22, Audacy FY2018, Avaya FY2021, Mega Image FY2018), flagged in fin notes. BetMGM qualifies on sponsorships only (no revenue page opened). Bajaj General Insurance's Route C uses the Clay bracket and Clay employee count plus its own site. Ownership marked "requires verification" where no page named the owner (e.g. Cooper Consumer Health, Covisian, Perfection Fresh, The Founders, CTTQ parent). Lamborghini (Audi) and KreuterMedeleSchäfer (Mercedes dealer) carry established category conflicts; BetMGM's parent MGM Resorts is an F1 partner. Names not yet added to v2/delivered/ (left to the caller at delivery).

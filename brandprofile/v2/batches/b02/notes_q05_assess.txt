@@ -1,0 +1,47 @@
+NOTES - q05 assessment (in_q05.jsonl, 80 discovery-queue companies), 27 Nov 2026
+
+Checked: all 80 names with v2/check.py, plus ~130 brand, parent, alias and new names (e.g. Hungry Jack's, B. Braun, PDC Brands,
+Lidl, Moeve, Do it Best, Akij, Flutter/FanDuel, MSC Cruises, Exemplar Luxury Group, Orange España, ParagonCare).
+WebSearch used: 3 of 3 (Al Rajhi Takaful listing; Betnacional/7Games operators; Albéa owner). WebFetch: about 105 pages.
+Lists/pages used: IBISWorld Top 500 Private 2022 PDF (text extracted), Meio & Mensagem bets ranking, Cenp-Meios agency ranking
+(acontecendoaqui.com.br), elEconomista company pages, L Catterton portfolio page, Wikipedia (en/de/es/fr/pt), company sites.
+Regions covered: Australia/NZ, US, Brazil, Argentina, Guatemala, Chile/LatAm, Spain, Germany, France, UK, Switzerland, Turkey,
+Saudi Arabia, India, Bangladesh, Japan, South Korea, Azerbaijan.
+
+RESEARCHED - MAIN (36): St John of God Health Care (A, FY22 flagged), AGS Health (C), AIDA Cruises (C; parent Carnival listed;
+MSC Cruises conflict), Gila River Indian Community (C), Berliner Stadtreinigung (A), Study Group (C), Access Industries (A, old
+transactions; Russian-history compliance note), Saks Global (A; Chapter 11 Jan 2026, emerged Jun 2026 as Exemplar Luxury Group),
+AVAG Holding (A), Anadolubank (C), Air Europa (C), AISATS (C), AirLife (C, low conf), BRK Ambiental (C), Agilus (A, FY22 flagged;
+parent Fortis), Army and Air Force Exchange Service (A; DoD agency), Birla Tyres (C; post-insolvency, Pirelli conflict), DBG Health (C),
+C4 Energy (C; energy-drink category blocked), Baiada Poultry (A), UnitingCare Queensland (A, FY21 flagged, low conf), Resiter (C),
+Allison Worldwide (C, low conf; Stagwell link), Alliance Healthcare (C; parent Cencora), AVB BrandSource (C; NRF figure is network
+sales, not revenue), Bob Jane T-Marts (C), Banco Credicoop (C), Calvary (A, FY22 flagged), Albéa Group (A, 2018 transaction flagged),
+Amil (A), Banco Industrial (C), Hatta Energy (A; owner unknown), Ateco (A, FY22 flagged), Mater (A, FY22 flagged), AlKifah Holding (C),
+Betnacional (C; Flutter subsidiary, sister FanDuel is an F1 partner).
+Several MAIN entries are charities or state bodies with very low fit (St John of God, Calvary, Mater, UnitingCare, BSR, AAFES).
+
+RESEARCHED - WATCH (19): Ahsanullah University, Acquire, Agência Nacional, Drools, Peppermill Casinos, Active Gaming Media, Agência WE,
+Acadomia, Al Fozan Holding, Amplitude Studios, ACT, Aju Group, Club-Mate, 7Games, Aquaplus, Alorica, AECC Global, Camso, G Fuel.
+
+LEFT OUT - DUPS (20):
+- Listed: Banca Afirme (BMV), Al Rajhi Takaful (Tadawul 8230), Alkem Laboratories (Indian LODR disclosures).
+- Not a separate company: Aesculap (B. Braun, IN MASTER), Lidl Schweiz (Lidl, IN MASTER), Elecnor Servicios y Proyectos (Elecnor, listed),
+  Xfera Moviles (Orange España, Orange-owned since Jun 2026), Repsol Industrial Transformation (Repsol, listed), Moeve Retail Operations
+  (Moeve, IN MASTER), Microsoft Iberica (Microsoft, F1 partner), Veolia Deutschland (Veolia, listed), PostLogistics (Swiss Post Cargo),
+  Allianz UK (Allianz group, listed).
+- Duplicates/aliases: Cantu (PDC Brands = Arthea, IN MASTER), Competitive Foods (Hungry Jack's, IN MASTER), Built Construction Holdings
+  (delivered b01 as Built), Akij Venture Group (Akij Group, IN MASTER - possible alias).
+- Merged away: CH2 (now ParagonCare, listed), True Value (bought by Do it Best, IN MASTER).
+- Other: AF Holding (HQ Moscow per Wikipedia; VTB link - Russian/sanctions exclusion).
+
+NOT RESEARCHED (5, no line written):
+- Bucked Up: buckedup.com and /about returned 403; no Wikipedia article.
+- Alianza de Escuelas Privadas: guessed domain did not resolve; Clay shows 6 employees (bracket implausible).
+- Al-Ahmar Group (Yemen): red link on the conglomerates list; no page found. Also needs a compliance check (Yemen) if it is pursued.
+- Eighth Day: L Catterton Asia portfolio lists it with no description; eighthday.com is an unrelated US design firm.
+- ALLARD Vegelien: LinkedIn blocked (403), allard.nl is a parked domain; Clay shows 2 employees.
+Hosts that did not resolve from this session: www.agencianacional.com.br, www.alianza.edu.pe.
+
+Caveats: Clay brackets are kept as "estimated" and never used as reported revenue; IBISWorld figures (FY2021-22) are older than three
+years and flagged. Not fetched: autohaus.de (404), avag.de (503), albea-group.com (403), unitingcareqld.com.au (429/404).
+The Al Rajhi Takaful listing rests on a search result (Mubasher profile), not a page I opened.
