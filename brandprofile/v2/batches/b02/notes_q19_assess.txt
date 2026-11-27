@@ -1,0 +1,49 @@
+Batch b02, file q19 (80 companies from in_q19.jsonl), worked in file order, 27 Nov 2026.
+
+check.py was run on every input name, then on brand, legal and parent names (Tous, Transgourmet, Coop, Euromadi, Pepkor, Foschini,
+Phase Eight, Hobbs, Whistles, Energiedienst, Supeco, Carrefour, Inditex, Adani, Adani Group, Husqvarna, Coca-Cola, Liberty Global,
+Sunrise, Gadis, ADES Holding, AEON, AEON Entertainment, Shapoorji Pallonji, Bilibili, Krka d.d., Mitsui Chemicals, Heraeus,
+Flos B&B Italia Group, B&B Italia, Design Holding, Investindustrial, Pandurata, Playa Senator, Puig, CH Carolina Herrera, etc.).
+Notes: "Flos" POSSIBLE vs Flossbach von Storch and "Amber Beverage Group" POSSIBLE vs Amber Group (crypto), "Beyond the Summit"
+POSSIBLE vs Beyon, "Plus" IN MASTER (robotics company Plus) - all clearly different companies, kept in.
+
+RESEARCHED
+MAIN (31): Aquatech International (C); Notino; Bauducco (C); AEON Cinema (FY2020 figure, old); Senator Hotels & Resorts; ACP Gruppe;
+  Euromadi Iberica; Healthcare Australia (old figure); Port of Brisbane (old); Ackermans (C; subsidiary of listed Pepkor); Amber Beverage
+  Group; Olimpica; Gottfried Schultz (C); Kout Food Group (C); Servatur; ACT Fibernet (FY2018 figure, old); Rex Gorell Family Group (old);
+  Independent Liquor Group (old); Aden Group (C); Euro Games Technology (EGT); Athens Services (C); Kyoritsu Seiyaku (C); Peek &
+  Cloppenburg (Dusseldorf) (2023 insolvency, closed Oct 2023); Paribu (B); Gardena (subsidiary of listed Husqvarna, 2019 figure);
+  Liberty Coca-Cola Beverages (C); Sarah Group (old); AEON MALL (subsidiary of listed AEON since July 2025); Metro Ad Agency (B;
+  subsidiary of Tokyo Metro); PLUS (Netherlands); La Renon Healthcare.
+WATCH (29): BBL Esports; Allagash Brewing; Madison World; CommLab India; Navana Group; Odeabank (ADQ-owned, no figures found); Flos;
+  ABC Consultants (Clay figures implausible); Endorphina; be quiet! (EUR 125m 2021, no Route B support); Marco; ELB Learning; Naza Group;
+  Kulzer; Pangea Money Transfer; Fritz Hansen; AGS Cinemas; Artisanal Brewing Ventures; Material; Global Schools Group (Apollo-backed,
+  amounts unknown); Nehmeh; Hewland (F1 supplier, 130 staff); Selenta Group (Route B range, no support); AdaniConneX; Sociedad Textil
+  Lonia (Deloitte estimate only; own site did not resolve); Evoplay; Bilibili Gaming (no F1 deal found); Arturo Fuente (tobacco);
+  Newcom Group.
+Low-fit records (domestic B2B, co-operative or captive entities): Port of Brisbane, Euromadi, ILG, Sarah Group, Athens Services,
+  Kyoritsu Seiyaku, Metro Ad Agency, Liberty Coca-Cola, Kout Food, Healthcare Australia, Rex Gorell, Gottfried Schultz.
+Currency: CZK (Notino), COP (Olimpica) and BGN (EGT) are not on the brief's rate list: approximate rates used and flagged in `outstanding`.
+Esports/betting check: BBL Esports, Bilibili Gaming, Endorphina, EGT, Evoplay - no F1 deal found on pages opened.
+
+LEFT OUT (15 lines in dups_q19_assess.jsonl)
+- In master / regional brand of a master company: S Tous SL (Tous IN MASTER); Gadisa Retail (Gadisa IN MASTER); Transgourmet Iberica
+  (regional arm of Transgourmet / Coop Group, IN MASTER).
+- Listed: Krka; AFCONS Infrastructure; ADES; Adani Green Energy; Energiedienst Holding (now Naturenergie, SIX).
+- Not a separate company: ZARA (brand of listed Inditex); TFG Brands (London) (UK holding of listed Foschini; brands Phase Eight, Hobbs,
+  Whistles are NEW in check.py and could be researched separately); Grup Supeco Maxor (Carrefour Spain operating company).
+- Merged away / acquired: Getir (core businesses being bought by listed Uber, 2026); UPC Schweiz (merged into Sunrise 2021).
+- Other: Ascend Elements (Chapter 11, April 2026; plant sold at auction).
+- Duplicate within file: Independent Liquor Group Distribution.
+
+NOT RESEARCHED (5)
+- Activos Colombia: activos.com.co returned 503 on three attempts; no other page found.
+- Beyond the Summit: beyondthesummit.tv does not resolve (host not found), Wikipedia 404, Liquipedia 403.
+- EQuest Education: equest.vn returned only a page title; Wikipedia 404; the discovery source page does not mention it.
+- Attero: attero.in pages returned only titles ("India's E-Waste & Lithium Battery Recycling Company"); Wikipedia 404.
+- All Inclusive Fitness: Health Club Management 2025 ranking row only (653k members, 172 clubs); operator identity and country could not
+  be established (own domain 503; WebSearch found nothing).
+
+WebSearch: 3 used (Ascend Elements 2026 status; All Inclusive Fitness; La Renon Healthcare). Search-snippet facts not used unless the
+page was opened (e.g. La Renon FY25 INR 1,685 crore left in `outstanding`).
+Validation: all lines in MAIN, WATCH and DUPS parse as JSON; 75 distinct names, no name appears twice across the three files.

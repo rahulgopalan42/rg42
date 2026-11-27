@@ -1,0 +1,61 @@
+notes_q17_assess - batch 2 queue file in_q17.jsonl (80 companies), researched 27 Nov 2026
+Brief: v2/brief_queue.md + v2/brief_discovery.md. Working scripts: scratchpad/q17/.
+
+COVERAGE: all 80 input rows handled in file order. 35 MAIN, 17 WATCH, 23 DUPS, 5 not researched.
+check.py run on every input name plus brand names, aliases and parents (Esprinet, Verisure, fenaco, McCain Foods, Surge AI,
+Decathlon, MTN Group Fintech, Berkshire Hathaway, P&G, Eurocash, Vall Companys etc.). Re-run on all written names at the end: all NEW
+(Swiss Automotive Group shows POSSIBLE vs SWISS airline - a different company).
+WebSearch used: 3 of 3 (Compañia General de Compras Agropecuarias; Ziegler Gruppe; Lupa).
+
+LIST / SOURCE PAGES USED
+- de.wikipedia Liste der grössten Unternehmen in der Schweiz (Ziegler, Unispital Basel, Agrola, Swiss Automotive Group rows)
+- elEconomista ranking_empresas_nacional page 2 (ranks 165-180)
+- IBISWorld Top 500 Private Companies of Australia 2022 PDF (text extracted). IMPORTANT: ^ / ^^ marks = IBISWorld revenue
+  ESTIMATE. Techwool (^), NHP (^^), HammondCare (^), Cricket Australia (^), Independent Cement and Lime (^), Geraldton (^^) are
+  estimates, so they are recorded as kind "estimated"; SCT Logistics, Findex, Australian Lamb Co., World Vision are reported.
+- PocketGamer.biz Top 50 Mobile Game Makers 2025 (Tripledot, Ustwo Games)
+
+MAIN (35): Metzler, Dornbracht, SCT Logistics, CPP Investments, Tripledot Studios, AMP Robotics, Mukwano Group, Jula, East Penn,
+MEXC, Evyap, Universitätsspital Basel, NHP Electrical Engineering Products (Route C), Antea Group, Muthoot Pappachan Group,
+Kronans Apotek, Emkay, IVI RMA, Agrola, Findex, Dairy Queen, Applus, Euromaster, Lewiatan, NABARD, Fater, Australian Lamb Co.,
+Day & Ross, De Beers Group, Nassa Group, Industrias Carnicas Loriente Piqueras (Incarlopsa), Swiss Automotive Group, Lupa,
+Fermob (Route B), Nafin.
+Flags for the user:
+- Agrola (fenaco brand) and Day & Ross (McCain Foods subsidiary): parents are IN MASTER; kept as distinct brands in a different
+  line of business per the task rule - confirm the user wants them.
+- Several qualify only on figures older than three years (flagged in qualifying_metric): Dornbracht 2019, SCT/Findex FY22,
+  Australian Lamb FY21, Dairy Queen 2017, De Beers 2018, Nassa 2016, Nafin 2020.
+- Public bodies with near-zero fit kept because a route is met: Universitätsspital Basel, NABARD, Nafin, CPP Investments.
+- Compliance: MEXC (offshore crypto exchange, no licence named on own page) and Nassa Group (reported loan defaults,
+  under-collateralised loans) need clearance before any approach.
+- Applus: delisting bid by Amber EquityCo (2024) shown on its shareholder-meetings page; final delisting not confirmed on a page.
+- Lewiatan PLN 17.5bn may be network sales across franchise stores.
+
+WATCH (17): WinStar World Casino (Chickasaw Nation), Kargo, Kido International, Circa Resort & Casino, Ustwo Games, Kobie,
+Daiichi Shokai, 8BitDo, Kreab, Kings Education, Techwool Trading (revenue is an IBISWorld estimate only), HammondCare, Aquafin,
+Kyowon Group, Farplas, Geraldton Fishermen's Co-op, Independent Cement And Lime.
+
+LEFT OUT (23, in dups_q17_assess.jsonl)
+- Already on master / delivered: CUF (Grupo José de Mello), MTN MoMo (= MTN Group Fintech), Expanscience (delivered b01),
+  DataAnnotation (brand of Surge AI, on master), Decathlon Campus HQ and DECATHLON FRANCE (regional brands of Decathlon).
+- Listed: CPFL Energia (B3/NYSE), Ipca (BSE/NSE), KinderCare (investor site with stock quote), Nass Corporation (Bahrain Bourse),
+  Jamjoom Pharma (IPO 2023), Julphar (ADX).
+- Not a separate company: Esprinet Iberica (Esprinet, listed), Creganna Medical (TE Connectivity; site redirects to te.com),
+  Coficab Mexico (Coficab Group entity), Novartis Farmaceutica, Securitas Direct España (Verisure), Dale Carnegie France (franchise
+  office), Compañia General De Compras Agropecuarias (Vall Companys purchasing entity), Ziegler Gruppe (Ziegler (Schweiz) AG,
+  sold to Eaglets in June 2026).
+- Other: World Vision (charity), Cricket Australia (governing body / rights holder), Dames die Raken! (tiny theatre collective;
+  Clay bracket implausible).
+Possible new leads from parents (NEW on check.py, not researched): Coficab Group, Grupo Vall Companys, Eaglets/Ziegler network.
+
+NOT RESEARCHED (5) - no usable page found
+- Crossover (crossover.com is a JavaScript app with no readable text; no Wikipedia article)
+- Daan Hotels and Resorts (daanhotels.in is a JavaScript app with no readable text; Clay shows 2 employees)
+- Digitain (digitain.com returned 429 / security checkpoint on every try)
+- Ace Games (acegames.io is a small iGaming studio; could not confirm it is the input company)
+- Laqshya Media (laqshyamedia.com does not resolve; laqshya.in is an unrelated training institute)
+Domains not reachable: daiichi.co.jp (used ja.wikipedia instead), laqshyamedia.com, ziegler.ch (TLS), zieglergroup.com (403),
+gfc.com.au, icl.com.au (bot wall), vallcompanys.es (403), ivirma.com (bot wall).
+
+Websites I did not open were left blank rather than guessed. Delivered names have not been added to v2/delivered/ (not asked in
+this brief).

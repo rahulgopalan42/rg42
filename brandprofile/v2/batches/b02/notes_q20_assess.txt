@@ -1,0 +1,38 @@
+q20 assessment (batch 2), 27 Nov 2026. Input: in_q20.jsonl, 80 companies, worked in file order.
+
+Method: check.py on every input name, plus brand, trading and parent names (Veolia, Inditex, Richemont, Coop, ALDI Süd, Empresas Polar,
+Postobón, ITP Aero, Naturgy, Wonderland Group, Stripe, Qatar Airways, Carlyle, EPH, MLP Care and others). Then company sites and
+Wikipedia (en, de, es, ja, pl, zh, tr, ko as relevant). The Wikipedia API was rate-limited (429), so article HTML was read directly.
+WebSearch: 3 of 3 used (Games Global, MPD Dairy, Al Rashid T&C). Only the pages opened afterwards are cited; search snippets are not.
+
+Researched: 59 written.
+ MAIN (30): Hirschvogel, Serveo, % Arabica, RoomOO (B), Joss Group, Fanatics Betting & Gaming, Dassai (B), Payroc (C), Hoyu, 5 to go (C),
+  A-ROSA (C), akquinet (C), Conway, Massimo Dutti, APRA AMCOS, Direct Freight Express, MiQ (C), Ratnadeep (C), Paystack (B), Adora Cruises,
+  Almaviva, AlBawani, Games Global, Nadel, Saigon Co.op (C), IAV, Planet (C), Altán Redes, 4F, Piaget (C). Others Route A.
+ WATCH (29): Ambassador Theatres, AHEAD, Al Ahed, HORIBA MIRA, Argon 18, BLAST, Attero, Midocean, Infopro Learning, Laboratorios Silanes,
+  Qatar Duty Free, YAIS, Al Suwaidi, Fliff, Aston Manor, Augean, Ingenuiti, Liomont, Hyundai KEFICO, İstikbal, Atlas Cines, Cammus,
+  August Schell, AVE CZ, Innovative Learning Group, Liv Hospital, A Twosome Place, B&B Theatres, Aero K.
+
+Left out (DUPS, 16):
+ listed: PayPay (Nasdaq, March 2026), Alpina (BVC), Nishat Group (PSX companies), 85C (TWSE 2723), Orion Group (Bangladesh; DSE companies).
+ not a separate company: Herlitz (Pelikan brand), Comercializadora Regulada (Naturgy), AGBAR (Veolia), Interdiscount (division of Coop, on master).
+ regional brand or holding of a master company: ALDI Stores Australia (ALDI SÜD), Alimentos Polar (Empresas Polar), Organización Ardila Lülle
+  (holding of Postobón), Joie (Wonderland Group).
+ duplicates: Agrosuper (master), Barbour (master), ITP Aero (delivered b01).
+
+Not researched (no line written; no page about the company could be opened):
+ Celsus Holding (celsus.com.au returned 503 twice; IBISWorld shows 9 employees, so possibly a single-project PPP vehicle - verify),
+ Al Rashid Trading & Contracting (rtcc.com.sa and directory pages unreachable; search snippets only),
+ Bleed Esports (bleed.gg is a domain-for-sale placeholder; possibly defunct),
+ People2.0 (people2.com redirects to a parked lander), MPD Dairy (no reachable page; IBISWorld company page 405).
+
+Points to check before delivery:
+ - Fanatics Betting & Gaming: parent Fanatics has an agreement with Formula One (Commerce division); may count as a current F1 deal.
+ - Games Global: confirm the 2024 US IPO (F-1 filed) did not complete.
+ - Liv Hospital (WATCH): leave out if parent MLP Care trades on Borsa Istanbul.
+ - 4F/OTCF: confirm OTCF is not listed. Massimo Dutti and Piaget are subsidiaries of listed groups (Inditex, Richemont) kept as distinct brands.
+ - Alpina input mixed two companies: source list was watches, website and Clay data were the Colombian dairy (listed). Alpina Watches
+   (Citizen-owned) was not researched.
+ - Orion Group: researched as the Bangladeshi conglomerate on Wikipedia's list; if the Korean Orion was meant, it is also listed.
+ - Older figures flagged: IBISWorld 2022 list (FY2021/22) for Joss, APRA AMCOS, Direct Freight; Paystack 2020 deal; Planet 2015 valuation.
+ - Clay brackets are recorded as estimated only; Al Ahed's bracket (7 employees) is not credible.
