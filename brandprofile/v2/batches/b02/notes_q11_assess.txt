@@ -1,0 +1,27 @@
+q11 assessment notes (27 Nov 2026)
+Input: in_q11.jsonl, 80 rows, worked in file order. All names (plus brand names, parents and aliases) run through v2/check.py.
+WebSearch used: 3 of 3 (Eruditus funding; Bloomin' Brands Brazil sale; Ellucian ownership). Cited facts come only from pages then opened. Every fact comes from a page opened with WebFetch.
+Pages used beyond company sites/Wikipedia: European Lotteries members page; IBISWorld Top 500 Private Companies 2022 PDF (text extracted; "^" = IBISWorld revenue estimate, recorded as kind "estimated" for Norco and Defence Health); elEconomista company page (BSH); trade.gov Saudi waste guide; PocketGamer.biz top 50 2025; reasonwhy.es PRovoke ranking; Bloomberg Línea (Vinci/Outback deal); Vista Equity release (Ellucian); Emeritus newsroom (Eruditus Series F).
+Regions covered: North America, Europe (incl. Balkans), Middle East, Latin America, Asia-Pacific, South Asia.
+
+RESEARCHED - MAIN (24): Benefit Cosmetics (C), Bershka (A), Founder Group (A, 2018 figure, post-bankruptcy - low conf), Van Mossel (A), DANA (C), Gategroup Holding (A), Norco Co-op (A), Loterie Nationale / Nationale Loterij (A), Vittoria (C), AL-KO (A, 2019 figure), Palladium Group (A, FY2021 figure), Escalent (C), Eruditus (A, brand Emeritus), Capri Sun Group Holding (A), John Hughes Group (A), Blum Group (A), Bloomin' Brands Brasil / Bold Hospitality (C), Grupo Cisneros (C), Angelini Industries (A), Alto Group (A), BMC Software (A), First Fun (C, low conf), Voli (A), Ellucian (C).
+RESEARCHED - WATCH (21): Eastasiasoft, Gruppo Ecosistem, Fellow Traveller Games, Himark BioGas (website lapsed; status unverified), Feral Interactive, 3Sixty Duty Free, Vogue Tyre, Easypaisa, Alessi, Lottery of the Republic of Srpska, Finji, Euromonitor International, A101, Jeddah Development & Urban Regeneration Company, Zenises, Elo, Junk King, Morongo Band of Mission Indians, Evercom, Esol Education, Defence Health.
+
+LEFT OUT (26, in dups_q11_assess.jsonl):
+- Master / delivered / F1: BESTSELLER (Bestseller A/S), Betfred South Africa (Betfred), Grupo Arcor (Arcor), de Volksbank (renamed ASN Bank - already delivered b01), DKV (part of ERGO Group, in master), Microsoft Schweiz (F1 partner), IBM Schweiz (F1 partner parent).
+- Listed: Deva Holding (BIST: DEVA), Dr Lal PathLabs (NSE/BSE), Dr. Sulaiman Al Habib (Tadawul 4013).
+- Not a separate company: Bertelsmann Marketing Services (Bertelsmann division), Inova Operations (absorbed by Paprec), Iberdrola Renovables Energia, Iberdrola Generacion Nuclear, BSH Electrodomesticos España, Ferrovial Construccion, BH Bikes Benelux, Bimbo Bakeries USA, BNI Compromiso Bilbao, BNI Corrèze Hybride; alias Emeritus (= Eruditus).
+- Other: BFT Group (Russian), Grupo Cartes (OFAC sanctions 2023-25, brand discontinued), Bhartiya Shiksha Board (education board, not a company), Biomet (merged into Zimmer Biomet), King & Wood Mallesons (partnership dissolved March 2026; successors King & Wood and Mallesons not assessed).
+
+NOT RESEARCHED (9, no line written):
+- Loterie Maxa: maxa.cz 403, no article; only the European Lotteries list entry.
+- Lottery of Bosnia and Herzegovina: lutrijabih.ba shows only name and slogan; no other page.
+- Elevision: elevision.ae does not resolve, elevisionmedia.com 503; no page found.
+- Eleva Educacao: elevaeducacao.com.br DNS failure (EAI_AGAIN) and no pt.wikipedia article.
+- Viva Fresh Store: vivafresh.com redirects to an unrelated US restaurant; no article.
+- Ajmal Perfumes: ajmalperfume.com 403, ajmal.net 503, no Wikipedia article.
+- Turosi Pty Ltd: only the IBISWorld row (AUD 689.1m, 1/21, 1,610 staff); could not identify the business behind the legal name without search.
+- Leonardo Holdco Pty Ltd: only the IBISWorld row (AUD 661.5m estimate); business not identified.
+- Encore (US event technology): encore-global.com 503 on four tries; no Wikipedia article found.
+
+Caveats: several qualifying figures are older than three years (flagged in fin.value_orig). Clay brackets are recorded as kind "estimated" only. Guessed domains that were not opened were left blank. Possible follow-ups: BH Bikes (parent brand) and Mallesons (KWM Australian successor) were not in the input and were not assessed.
