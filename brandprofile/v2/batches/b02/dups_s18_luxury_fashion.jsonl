@@ -1,156 +1,146 @@
-{"name": "Audemars Piguet", "why": "IN MASTER - master: All New Brands (as Audemars Piguet)"}
-{"name": "Bell & Ross", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Bell & Ross)"}
-{"name": "Breitling", "why": "F1 PARTNER - current F1 partner (Aston Martin) (as Breitling)"}
-{"name": "Chopard", "why": "IN MASTER - master: All New Brands (as Chopard)"}
-{"name": "Franck Muller", "why": "IN MASTER - master: Capacity To Confirm (as Franck Muller)"}
-{"name": "Hublot", "why": "IN MASTER - master: All New Brands (as Hublot)"}
-{"name": "IWC Schaffhausen", "why": "F1 PARTNER - current F1 partner (Mercedes) (as IWC Schaffhausen)"}
-{"name": "IWC Schaffhausen", "why": "current F1 partner (roster in brief_check.md)"}
-{"name": "Maurice Lacroix", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Maurice Lacroix)"}
-{"name": "H. Moser & Cie", "why": "F1 PARTNER - current F1 partner (Alpine) (as H. Moser & Cie)"}
-{"name": "H. Moser & Cie", "why": "current F1 partner (roster in brief_check.md)"}
-{"name": "Omega", "why": "IN MASTER - master: All New Brands (as Omega)"}
-{"name": "Oris", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Oris)"}
-{"name": "Patek Philippe", "why": "IN MASTER - master: All New Brands (as Patek Philippe)"}
-{"name": "Richard Mille", "why": "F1 PARTNER - current F1 partner (McLaren) (as Richard Mille)"}
-{"name": "Richard Mille", "why": "current F1 partner (roster in brief_check.md)"}
-{"name": "Rolex", "why": "IN MASTER - master: Left Out (as Rolex)"}
-{"name": "Swatch Group", "why": "LISTED? - matches the listed company Swatch; leave it out if it is that company"}
-{"name": "Swatch Group", "why": "listed company [LISTED? - matches the listed company Swatch; leave it out if it is that company]"}
-{"name": "TAG Heuer", "why": "F1 PARTNER - current F1 partner (Formula 1) (as TAG Heuer)"}
-{"name": "TAG Heuer", "why": "current F1 partner (roster in brief_check.md)"}
-{"name": "Tissot", "why": "IN MASTER - master: All New Brands (as Tissot)"}
-{"name": "Tudor", "why": "F1 PARTNER - current F1 partner (Racing Bulls) (as TUDOR)"}
-{"name": "Ulysse Nardin", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Ulysse Nardin)"}
-{"name": "Zenith", "why": "IN MASTER - master: Capacity To Confirm (as Zenith)"}
-{"name": "Morellato Group", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Morellato Group)"}
-{"name": "Graff", "why": "IN MASTER - master: All New Brands (as Graff)"}
-{"name": "Movado", "why": "LISTED? - matches the listed company Movado Group; leave it out if it is that company"}
-{"name": "Movado", "why": "listed company [LISTED? - matches the listed company Movado Group; leave it out if it is that company]"}
-{"name": "Seiko", "why": "LISTED? - matches the listed company Seiko Group; leave it out if it is that company"}
-{"name": "Seiko", "why": "listed company [LISTED? - matches the listed company Seiko Group; leave it out if it is that company]"}
-{"name": "Citizen", "why": "listed company [NEW]"}
-{"name": "Casio", "why": "LISTED? - matches the listed company CASIO; leave it out if it is that company"}
-{"name": "Casio", "why": "listed company [LISTED? - matches the listed company CASIO; leave it out if it is that company]"}
-{"name": "Orient", "why": "LISTED? - matches the listed company Orient Corporation; leave it out if it is that company"}
-{"name": "Fossil, Inc.", "why": "listed company [NEW (note: your older 48-tab sheet; allowed)]"}
-{"name": "Cartier", "why": "IN MASTER - master: Capacity To Confirm (as Cartier)"}
-{"name": "Montblanc", "why": "IN MASTER - master: Capacity To Confirm (as Montblanc)"}
-{"name": "Swarovski", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Swarovski)"}
-{"name": "Christopher Ward", "why": "IN MASTER - master: Capacity To Confirm (as Christopher Ward)"}
-{"name": "Victorinox", "why": "IN MASTER - master: All New Brands (as Victorinox)"}
-{"name": "Rolex SA", "why": "IN MASTER - master: Left Out (as Rolex)"}
-{"name": "PVH Corp.", "why": "listed (NYSE); owns Tommy Hilfiger (F1) [NEW (note: owner of a current F1 partner (Tommy Hilfiger); allowed as a separate brand, record the possible conflict)]"}
-{"name": "Lao Feng Xiang Co., Ltd.", "why": "LISTED? - matches the listed company Lao Feng Xiang Co., Ltd.; leave it out if it is that company"}
-{"name": "The Swatch Group Ltd.", "why": "LISTED? - matches the listed company Swatch; leave it out if it is that company"}
-{"name": "China National Gold Group Gold Jewellery", "why": "LISTED? - matches the listed company China National Gold Group Gold Jewellery Co.,Ltd.; leave it out if it is that company"}
-{"name": "China National Gold Group Gold Jewellery", "why": "listed subsidiary (China Gold Jewellery, Shanghai-listed per general knowledge; not verified this session) [LISTED? - matches the listed company China National Gold Group Gold Jewellery Co.,Ltd.; leave it out if it is that company]"}
-{"name": "Tapestry, Inc.", "why": "listed (NYSE) [NEW (note: your older 48-tab sheet; allowed)]"}
-{"name": "Ralph Lauren Corporation", "why": "listed (NYSE) [NEW (note: your older 48-tab sheet; allowed)]"}
-{"name": "Capri Holdings Limited", "why": "LISTED? - matches the listed company Capri Holdings; leave it out if it is that company"}
-{"name": "Capri Holdings Limited", "why": "listed (NYSE) [LISTED? - matches the listed company Capri Holdings; leave it out if it is that company]"}
-{"name": "Prada Group", "why": "LISTED? - matches the listed company Prada; leave it out if it is that company"}
-{"name": "Malabar Gold & Diamonds", "why": "IN MASTER - master: All New Brands (as Malabar Gold & Diamonds)"}
-{"name": "Burberry Group plc", "why": "LISTED? - matches the listed company Burberry; leave it out if it is that company"}
-{"name": "Burberry Group plc", "why": "listed (LSE) [LISTED? - matches the listed company Burberry; leave it out if it is that company]"}
-{"name": "Hugo Boss AG", "why": "BOSS/HUGO on F1 roster (Aston Martin/Racing Bulls); also listed"}
-{"name": "Pandora A/S", "why": "listed (Nasdaq Copenhagen) [NEW]"}
-{"name": "Titan Company Limited", "why": "listed (NSE) [NEW (note: your older 48-tab sheet; allowed)]"}
-{"name": "G-III Apparel Group", "why": "LISTED? - matches the listed company G-III Apparel Group; leave it out if it is that company"}
-{"name": "G-III Apparel Group", "why": "listed (Nasdaq) [LISTED? - matches the listed company G-III Apparel Group; leave it out if it is that company]"}
-{"name": "Moncler SpA", "why": "listed (Borsa Italiana) [NEW (note: your older 48-tab sheet; allowed)]"}
-{"name": "Chow Sang Sang Holdings", "why": "LISTED? - matches the listed company Chow Sang Sang Holdings; leave it out if it is that company"}
-{"name": "Chow Sang Sang Holdings", "why": "listed (HKEX) [LISTED? - matches the listed company Chow Sang Sang Holdings; leave it out if it is that company]"}
-{"name": "Giorgio Armani SpA", "why": "IN MASTER - master: All New Brands (as Giorgio Armani)"}
-{"name": "Patek Philippe SA", "why": "IN MASTER - master: All New Brands (as Patek Philippe)"}
-{"name": "OTB SpA", "why": "IN MASTER - master: All New Brands (as OTB)"}
-{"name": "Tory Burch LLC", "why": "IN MASTER - master: All New Brands (as Tory Burch)"}
-{"name": "Max Mara Fashion Group Srl", "why": "IN MASTER - master: All New Brands (as Max Mara Fashion Group)"}
-{"name": "Ermenegildo Zegna N.V.", "why": "listed (NYSE) [NEW]"}
-{"name": "Chow Tai Seng Jewellery Co., Ltd.", "why": "LISTED? - matches the listed company Chow Tai Seng Jewellery Co., Ltd.; leave it out if it is that company"}
-{"name": "Chow Tai Seng Jewellery Co., Ltd.", "why": "listed (Shenzhen) [LISTED? - matches the listed company Chow Tai Seng Jewellery Co., Ltd.; leave it out if it is that company]"}
-{"name": "Valentino SpA", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Valentino)"}
-{"name": "Luk Fook Holdings", "why": "listed (HKEX) [NEW]"}
-{"name": "Kalyan Jewellers India Limited", "why": "LISTED? - matches the listed company Kalyan Jewellers India; leave it out if it is that company"}
-{"name": "Kalyan Jewellers India Limited", "why": "listed (NSE) [LISTED? - matches the listed company Kalyan Jewellers India; leave it out if it is that company]"}
-{"name": "Richard Mille SA", "why": "F1 PARTNER - current F1 partner (McLaren) (as Richard Mille)"}
-{"name": "SMCP SAS", "why": "listed (Euronext Paris) [NEW]"}
-{"name": "Aritzia Inc.", "why": "listed (TSX) [NEW (note: your older 48-tab sheet; allowed)]"}
-{"name": "Safilo Group SpA", "why": "LISTED? - matches the listed company Safilo Group; leave it out if it is that company"}
-{"name": "Safilo Group SpA", "why": "listed (Borsa Italiana) [LISTED? - matches the listed company Safilo Group; leave it out if it is that company]"}
-{"name": "Onward Holdings", "why": "listed (TSE) [NEW (note: your older 48-tab sheet; allowed)]"}
-{"name": "TOD'S SpA", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Tod's)"}
-{"name": "Breitling SA", "why": "F1 PARTNER - current F1 partner (Aston Martin) (as Breitling)"}
-{"name": "Movado Group", "why": "LISTED? - matches the listed company Movado Group; leave it out if it is that company"}
-{"name": "Graff Diamonds International", "why": "SAME! Graff on master [POSSIBLE - Graff [master: All New Brands]]"}
-{"name": "Samsonite International / Tumi", "why": "F1 PARTNER - current F1 partner (McLaren) (as TUMI)"}
-{"name": "Samsonite International / Tumi", "why": "Tumi is a subsidiary of listed Samsonite; Samsonite listed (HKEX) [F1 PARTNER - current F1 partner (McLaren) (as TUMI)]"}
-{"name": "Ted Baker plc", "why": "UK operating companies entered administration 2024 (not verified this session) [NEW (note: your older 48-tab sheet; allowed)]"}
-{"name": "Guangdong CHJ Industry", "why": "LISTED? - matches the listed company Guangdong Chj Industry Co.,Ltd.; leave it out if it is that company"}
-{"name": "Guangdong CHJ Industry", "why": "listed (Shenzhen) [LISTED? - matches the listed company Guangdong Chj Industry Co.,Ltd.; leave it out if it is that company]"}
-{"name": "Cole Haan, Inc.", "why": "IN MASTER - master: All New Brands (as Cole Haan)"}
-{"name": "Grupo de Moda Soma", "why": "listed (B3) [NEW]"}
-{"name": "DR Corporation Limited", "why": "LISTED? - matches the listed company DR Corporation Limited; leave it out if it is that company"}
-{"name": "DR Corporation Limited", "why": "listed (Shenzhen) [LISTED? - matches the listed company DR Corporation Limited; leave it out if it is that company]"}
-{"name": "Golden Goose SpA", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Golden Goose)"}
-{"name": "Liu.Jo SpA", "why": "IN MASTER - master: All New Brands (as Liu Jo)"}
-{"name": "Zhejiang Ming Jewelry", "why": "LISTED? - matches the listed company Zhejiang Ming Jewelry Co., Ltd.; leave it out if it is that company"}
-{"name": "Zhejiang Ming Jewelry", "why": "listed (Shenzhen) [LISTED? - matches the listed company Zhejiang Ming Jewelry Co., Ltd.; leave it out if it is that company]"}
-{"name": "Senco Gold Limited", "why": "LISTED? - matches the listed company Senco Gold Limited; leave it out if it is that company"}
-{"name": "Senco Gold Limited", "why": "listed (NSE) [LISTED? - matches the listed company Senco Gold Limited; leave it out if it is that company]"}
-{"name": "De Rigo SpA", "why": "IN MASTER - master: Capacity To Confirm (as De Rigo)"}
-{"name": "Lanvin Group", "why": "listed (NYSE) [NEW (note: your older 48-tab sheet; allowed)]"}
-{"name": "Look Holdings Incorporated", "why": "LISTED? - matches the listed company Look Holdings Incorporated; leave it out if it is that company"}
-{"name": "Look Holdings Incorporated", "why": "listed (TSE) [LISTED? - matches the listed company Look Holdings Incorporated; leave it out if it is that company]"}
-{"name": "Zadig & Voltaire", "why": "IN MASTER - master: All New Brands (as Zadig & Voltaire)"}
-{"name": "Aeffe SpA", "why": "LISTED? - matches the listed company Aeffe S.p.A.; leave it out if it is that company"}
-{"name": "Aeffe SpA", "why": "listed (Euronext Milan) [LISTED? - matches the listed company Aeffe S.p.A.; leave it out if it is that company]"}
-{"name": "Vivara", "why": "LISTED? - matches the listed company Vivara; leave it out if it is that company"}
-{"name": "Vivara", "why": "listed (B3) [LISTED? - matches the listed company Vivara; leave it out if it is that company]"}
-{"name": "Furla SpA", "why": "IN MASTER - master: All New Brands (as Furla)"}
-{"name": "Sanyo Shokai", "why": "LISTED? - matches the listed company Sanyo Shokai Ltd.; leave it out if it is that company"}
-{"name": "Sanyo Shokai", "why": "listed (TSE) [LISTED? - matches the listed company Sanyo Shokai Ltd.; leave it out if it is that company]"}
-{"name": "Tse Sui Luen Jewellery", "why": "listed (HKEX) per Deloitte table heading [NEW]"}
-{"name": "Kurt Geiger Limited", "why": "acquired by listed Steve Madden in 2025 (not verified this session); research if time [NEW (note: your older 48-tab sheet; allowed)]"}
-{"name": "Mannai Corporation / Damas", "why": "LISTED? - matches the listed company Mannai Corporation; leave it out if it is that company"}
-{"name": "Etro SpA", "why": "IN MASTER - master: All New Brands (as Etro)"}
-{"name": "Thangamayil Jewellery", "why": "LISTED? - matches the listed company Thangamayil Jewellery Limited; leave it out if it is that company"}
-{"name": "Thangamayil Jewellery", "why": "listed (NSE) [LISTED? - matches the listed company Thangamayil Jewellery Limited; leave it out if it is that company]"}
-{"name": "Alo Yoga", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Alo Yoga)"}
-{"name": "Babolat", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Babolat)"}
-{"name": "Decathlon", "why": "IN MASTER - master: All New Brands (as Decathlon)"}
-{"name": "Fabletics", "why": "IN MASTER - master: All New Brands (as Fabletics)"}
-{"name": "Fox Racing", "why": "IN MASTER - master: Clay Leads (Unconfirmed) (as Fox Racing)"}
-{"name": "Gymshark", "why": "IN MASTER - master: NEW Consumer Health & Wearables (on your 48-tab sheet) (as Gymshark)"}
-{"name": "Head", "why": "IN MASTER - master: Capacity To Confirm (as Head)"}
-{"name": "L.L.Bean", "why": "IN MASTER - master: All New Brands (as L.L.Bean)"}
-{"name": "Lacoste", "why": "IN MASTER - master: All New Brands (as Lacoste)"}
-{"name": "Macron", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Macron)"}
-{"name": "Mizuno", "why": "LISTED? - matches the listed company Mizuno Corporation; leave it out if it is that company"}
-{"name": "Musinsa", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Musinsa)"}
-{"name": "New Balance", "why": "IN MASTER - master: All New Brands (as New Balance)"}
-{"name": "Peak Sport Products", "why": "IN MASTER - master: Capacity To Confirm (as Peak Sport Products)"}
-{"name": "Psycho Bunny", "why": "F1 PARTNER - current F1 partner (Miami Grand Prix: Event Supporter) (as Psycho Bunny)"}
-{"name": "Rapha", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Rapha)"}
-{"name": "Salomon", "why": "IN MASTER - master: All New Brands (as Salomon)"}
-{"name": "Santini Cycling", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Santini Cycling)"}
-{"name": "VAUDE", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Vaude)"}
-{"name": "Descente", "why": "IN MASTER - master: Capacity To Confirm (as Descente)"}
-{"name": "Cotton On Group", "why": "IN MASTER - master: All New Brands (as Cotton On Group)"}
-{"name": "Ping", "why": "IN MASTER - master: Clay Leads (Unconfirmed) (as PING)"}
-{"name": "Callaway Golf Company", "why": "LISTED? - matches the listed company Callaway Golf Company; leave it out if it is that company"}
-{"name": "Mammut", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Mammut)"}
-{"name": "Engelbert Strauss", "why": "IN MASTER - master: Changes Since 18 Nov (as engelbert strauss)"}
-{"name": "Carhartt", "why": "IN MASTER - master: All New Brands (as Carhartt)"}
-{"name": "Helly Hansen", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Helly Hansen)"}
-{"name": "Arc'teryx", "why": "IN MASTER - master: Capacity To Confirm (as Arc'teryx)"}
-{"name": "Ecco", "why": "IN MASTER - master: All New Brands (as ECCO)"}
-{"name": "Clarks", "why": "IN MASTER - master: Clay Leads (Unconfirmed) (as Clarks)"}
-{"name": "Deichmann", "why": "IN MASTER - master: All New Brands (as Deichmann SE)"}
-{"name": "Camper", "why": "IN MASTER - master: Capacity To Confirm (as Camper)"}
-{"name": "La Sportiva", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as La Sportiva)"}
-{"name": "Tecnica Group", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Tecnica Group)"}
-{"name": "Dainese", "why": "IN MASTER - master: Capacity To Confirm (as Dainese)"}
-{"name": "Alpinestars", "why": "F1 PARTNER - current F1 partner (McLaren) (as Alpinestars)"}
-{"name": "Stone Island", "why": "IN MASTER - master: All New Brands (as Stone Island)"}
-{"name": "Supreme", "why": "F1 PARTNER - current F1 partner (as Supreme)"}
+{"name": "Audemars Piguet", "check": "IN MASTER", "why": "IN MASTER - master: All New Brands (as Audemars Piguet)"}
+{"name": "Bell & Ross", "check": "ALREADY DELIVERED", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Bell & Ross)"}
+{"name": "Breitling", "check": "F1 PARTNER", "why": "F1 PARTNER - current F1 partner (Aston Martin) (as Breitling)"}
+{"name": "Chopard", "check": "IN MASTER", "why": "IN MASTER - master: All New Brands (as Chopard)"}
+{"name": "Franck Muller", "check": "IN MASTER", "why": "IN MASTER - master: Capacity To Confirm (as Franck Muller)"}
+{"name": "Hublot", "check": "IN MASTER", "why": "IN MASTER - master: All New Brands (as Hublot)"}
+{"name": "IWC Schaffhausen", "check": "F1 PARTNER", "why": "current F1 partner (roster in brief_check.md)"}
+{"name": "Maurice Lacroix", "check": "ALREADY DELIVERED", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Maurice Lacroix)"}
+{"name": "H. Moser & Cie", "check": "F1 PARTNER", "why": "current F1 partner (roster in brief_check.md)"}
+{"name": "Omega", "check": "IN MASTER", "why": "IN MASTER - master: All New Brands (as Omega)"}
+{"name": "Oris", "check": "ALREADY DELIVERED", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Oris)"}
+{"name": "Patek Philippe", "check": "IN MASTER", "why": "IN MASTER - master: All New Brands (as Patek Philippe)"}
+{"name": "Richard Mille", "check": "F1 PARTNER", "why": "current F1 partner (roster in brief_check.md)"}
+{"name": "Rolex", "check": "IN MASTER", "why": "IN MASTER - master: Left Out (as Rolex)"}
+{"name": "Swatch Group", "check": "LISTED", "why": "listed company"}
+{"name": "TAG Heuer", "check": "F1 PARTNER", "why": "current F1 partner (roster in brief_check.md)"}
+{"name": "Tissot", "check": "IN MASTER", "why": "IN MASTER - master: All New Brands (as Tissot)"}
+{"name": "Tudor", "check": "F1 PARTNER", "why": "F1 PARTNER - current F1 partner (Racing Bulls) (as TUDOR)"}
+{"name": "Ulysse Nardin", "check": "ALREADY DELIVERED", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Ulysse Nardin)"}
+{"name": "Zenith", "check": "IN MASTER", "why": "IN MASTER - master: Capacity To Confirm (as Zenith)"}
+{"name": "Morellato Group", "check": "ALREADY DELIVERED", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Morellato Group)"}
+{"name": "Graff", "check": "IN MASTER", "why": "IN MASTER - master: All New Brands (as Graff)"}
+{"name": "Movado", "check": "LISTED", "why": "listed company"}
+{"name": "Seiko", "check": "LISTED", "why": "listed company"}
+{"name": "Citizen", "check": "NEW", "why": "listed company"}
+{"name": "Casio", "check": "LISTED", "why": "listed company"}
+{"name": "Orient", "check": "LISTED", "why": "Orient Watch belongs to listed Seiko Epson; check matched a different listed company"}
+{"name": "Fossil, Inc.", "check": "NEW", "why": "listed company"}
+{"name": "Hamilton Watch Company", "check": "POSSIBLE", "why": "treated as same as Hamilton on master"}
+{"name": "Cartier", "check": "IN MASTER", "why": "IN MASTER - master: Capacity To Confirm (as Cartier)"}
+{"name": "Montblanc", "check": "IN MASTER", "why": "IN MASTER - master: Capacity To Confirm (as Montblanc)"}
+{"name": "Swarovski", "check": "ALREADY DELIVERED", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Swarovski)"}
+{"name": "Christopher Ward", "check": "IN MASTER", "why": "IN MASTER - master: Capacity To Confirm (as Christopher Ward)"}
+{"name": "Shinola Detroit", "check": "POSSIBLE", "why": "same as Shinola on master"}
+{"name": "Victorinox", "check": "IN MASTER", "why": "IN MASTER - master: All New Brands (as Victorinox)"}
+{"name": "Rolex SA", "check": "IN MASTER", "why": "IN MASTER - master: Left Out (as Rolex)"}
+{"name": "PVH Corp.", "check": "NEW", "why": "listed (NYSE); owns Tommy Hilfiger (F1)"}
+{"name": "Lao Feng Xiang Co., Ltd.", "check": "LISTED", "why": "LISTED? - matches the listed company Lao Feng Xiang Co., Ltd.; leave it out if it is that company"}
+{"name": "The Swatch Group Ltd.", "check": "LISTED", "why": "LISTED? - matches the listed company Swatch; leave it out if it is that company"}
+{"name": "China National Gold Group Gold Jewellery", "check": "LISTED", "why": "listed subsidiary (China Gold Jewellery, Shanghai-listed per general knowledge; not verified this session)"}
+{"name": "Tapestry, Inc.", "check": "NEW", "why": "listed (NYSE)"}
+{"name": "Ralph Lauren Corporation", "check": "NEW", "why": "listed (NYSE)"}
+{"name": "Capri Holdings Limited", "check": "LISTED", "why": "listed (NYSE)"}
+{"name": "Prada Group", "check": "LISTED", "why": "Prada S.p.A. listed on HKEX"}
+{"name": "Malabar Gold & Diamonds", "check": "IN MASTER", "why": "IN MASTER - master: All New Brands (as Malabar Gold & Diamonds)"}
+{"name": "Burberry Group plc", "check": "LISTED", "why": "listed (LSE)"}
+{"name": "Hugo Boss AG", "check": "F1 PARTNER", "why": "BOSS/HUGO hold F1 deals; Hugo Boss AG also listed"}
+{"name": "Pandora A/S", "check": "NEW", "why": "listed (Nasdaq Copenhagen)"}
+{"name": "Titan Company Limited", "check": "NEW", "why": "listed (NSE)"}
+{"name": "G-III Apparel Group", "check": "LISTED", "why": "listed (Nasdaq)"}
+{"name": "Moncler SpA", "check": "NEW", "why": "listed (Borsa Italiana)"}
+{"name": "Chow Sang Sang Holdings", "check": "LISTED", "why": "listed (HKEX)"}
+{"name": "Giorgio Armani SpA", "check": "IN MASTER", "why": "IN MASTER - master: All New Brands (as Giorgio Armani)"}
+{"name": "Audemars Piguet & Cie", "check": "POSSIBLE", "why": "same as Audemars Piguet on master"}
+{"name": "Swarovski Crystal Business", "check": "ALREADY DELIVERED", "why": "same as Swarovski, delivered b01"}
+{"name": "Patek Philippe SA", "check": "IN MASTER", "why": "IN MASTER - master: All New Brands (as Patek Philippe)"}
+{"name": "OTB SpA", "check": "IN MASTER", "why": "IN MASTER - master: All New Brands (as OTB)"}
+{"name": "Tory Burch LLC", "check": "IN MASTER", "why": "IN MASTER - master: All New Brands (as Tory Burch)"}
+{"name": "Max Mara Fashion Group Srl", "check": "IN MASTER", "why": "Max Mara Fashion Group on master"}
+{"name": "Ermenegildo Zegna N.V.", "check": "NEW", "why": "listed (NYSE)"}
+{"name": "Chow Tai Seng Jewellery Co., Ltd.", "check": "LISTED", "why": "listed (Shenzhen)"}
+{"name": "Valentino SpA", "check": "ALREADY DELIVERED", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Valentino)"}
+{"name": "Luk Fook Holdings", "check": "NEW", "why": "listed (HKEX)"}
+{"name": "Kalyan Jewellers India Limited", "check": "LISTED", "why": "listed (NSE)"}
+{"name": "Joyalukkas India Limited", "check": "POSSIBLE", "why": "same as Joyalukkas on master"}
+{"name": "Richard Mille SA", "check": "F1 PARTNER", "why": "F1 PARTNER - current F1 partner (McLaren) (as Richard Mille)"}
+{"name": "SMCP SAS", "check": "NEW", "why": "listed (Euronext Paris)"}
+{"name": "Aritzia Inc.", "check": "NEW", "why": "listed (TSX)"}
+{"name": "Safilo Group SpA", "check": "LISTED", "why": "listed (Borsa Italiana)"}
+{"name": "Onward Holdings", "check": "NEW", "why": "listed (TSE)"}
+{"name": "TOD'S SpA", "check": "ALREADY DELIVERED", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Tod's)"}
+{"name": "Le Petit-Fils de L.-U. Chopard", "check": "IN MASTER", "why": "legal name of Chopard, on master"}
+{"name": "Breitling SA", "check": "F1 PARTNER", "why": "F1 PARTNER - current F1 partner (Aston Martin) (as Breitling)"}
+{"name": "Movado Group", "check": "LISTED", "why": "LISTED? - matches the listed company Movado Group; leave it out if it is that company"}
+{"name": "Graff Diamonds International", "check": "POSSIBLE", "why": "same as Graff on master"}
+{"name": "EuroItalia S.r.l.", "check": "POSSIBLE", "why": "same as EuroItalia on master"}
+{"name": "Samsonite International / Tumi", "check": "F1 PARTNER", "why": "Tumi is a subsidiary of listed Samsonite; Samsonite listed (HKEX)"}
+{"name": "Ted Baker plc", "check": "NEW", "why": "UK operating companies entered administration 2024 (not verified this session)"}
+{"name": "Guangdong CHJ Industry", "check": "LISTED", "why": "listed (Shenzhen)"}
+{"name": "Cole Haan, Inc.", "check": "IN MASTER", "why": "Cole Haan on master"}
+{"name": "Grupo de Moda Soma", "check": "NEW", "why": "listed (B3)"}
+{"name": "DR Corporation Limited", "check": "LISTED", "why": "listed (Shenzhen)"}
+{"name": "Golden Goose SpA", "check": "ALREADY DELIVERED", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Golden Goose)"}
+{"name": "Liu.Jo SpA", "check": "IN MASTER", "why": "IN MASTER - master: All New Brands (as Liu Jo); Liu.Jo spelling passed check"}
+{"name": "Zhejiang Ming Jewelry", "check": "LISTED", "why": "listed (Shenzhen)"}
+{"name": "Senco Gold Limited", "check": "LISTED", "why": "listed (NSE)"}
+{"name": "S Tous SL", "check": "IN MASTER", "why": "Tous on master (All New Brands)"}
+{"name": "De Rigo SpA", "check": "IN MASTER", "why": "De Rigo on master"}
+{"name": "Lanvin Group", "check": "NEW", "why": "listed (NYSE)"}
+{"name": "Look Holdings Incorporated", "check": "LISTED", "why": "listed (TSE)"}
+{"name": "J Barbour & Sons Ltd", "check": "IN MASTER", "why": "Barbour on master (All New Brands)"}
+{"name": "Zadig & Voltaire", "check": "IN MASTER", "why": "IN MASTER - master: All New Brands (as Zadig & Voltaire)"}
+{"name": "Aeffe SpA", "check": "LISTED", "why": "listed (Euronext Milan)"}
+{"name": "Vivara", "check": "LISTED", "why": "listed (B3)"}
+{"name": "Furla SpA", "check": "IN MASTER", "why": "IN MASTER - master: All New Brands (as Furla)"}
+{"name": "Sanyo Shokai", "check": "LISTED", "why": "listed (TSE)"}
+{"name": "Tse Sui Luen Jewellery", "check": "NEW", "why": "listed (HKEX) per Deloitte table heading"}
+{"name": "Kurt Geiger Limited", "check": "NEW", "why": "acquired by listed Steve Madden in 2025 (not verified this session); research if time"}
+{"name": "Mannai Corporation / Damas", "check": "LISTED", "why": "Mannai is listed; its subsidiary Damas is tracked separately as Damas Jewellery"}
+{"name": "Etro SpA", "check": "IN MASTER", "why": "IN MASTER - master: All New Brands (as Etro)"}
+{"name": "Thangamayil Jewellery", "check": "LISTED", "why": "listed (NSE)"}
+{"name": "Alo Yoga", "check": "ALREADY DELIVERED", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Alo Yoga)"}
+{"name": "Babolat", "check": "ALREADY DELIVERED", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Babolat)"}
+{"name": "Brooks Sports", "check": "IN MASTER", "why": "IN MASTER - master: Capacity To Confirm (as Brooks Running)"}
+{"name": "Decathlon", "check": "IN MASTER", "why": "IN MASTER - master: All New Brands (as Decathlon)"}
+{"name": "Fabletics", "check": "IN MASTER", "why": "IN MASTER - master: All New Brands (as Fabletics)"}
+{"name": "Fox Racing", "check": "IN MASTER", "why": "IN MASTER - master: Clay Leads (Unconfirmed) (as Fox Racing)"}
+{"name": "Gymshark", "check": "IN MASTER", "why": "IN MASTER - master: NEW Consumer Health & Wearables (on your 48-tab sheet) (as Gymshark)"}
+{"name": "Head", "check": "IN MASTER", "why": "IN MASTER - master: Capacity To Confirm (as Head)"}
+{"name": "Hummel International", "check": "IN MASTER", "why": "hummel on master (Clay Leads)"}
+{"name": "L.L.Bean", "check": "IN MASTER", "why": "IN MASTER - master: All New Brands (as L.L.Bean)"}
+{"name": "Lacoste", "check": "IN MASTER", "why": "IN MASTER - master: All New Brands (as Lacoste)"}
+{"name": "Macron", "check": "ALREADY DELIVERED", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Macron)"}
+{"name": "Mizuno", "check": "LISTED", "why": "LISTED? - matches the listed company Mizuno Corporation; leave it out if it is that company"}
+{"name": "Musinsa", "check": "ALREADY DELIVERED", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Musinsa)"}
+{"name": "New Balance", "check": "IN MASTER", "why": "IN MASTER - master: All New Brands (as New Balance)"}
+{"name": "Peak Sport Products", "check": "IN MASTER", "why": "IN MASTER - master: Capacity To Confirm (as Peak Sport Products)"}
+{"name": "Psycho Bunny", "check": "F1 PARTNER", "why": "F1 PARTNER - current F1 partner (Miami Grand Prix: Event Supporter) (as Psycho Bunny)"}
+{"name": "Rapha", "check": "ALREADY DELIVERED", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Rapha)"}
+{"name": "Salomon", "check": "IN MASTER", "why": "IN MASTER - master: All New Brands (as Salomon)"}
+{"name": "Santini Cycling", "check": "ALREADY DELIVERED", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Santini Cycling)"}
+{"name": "Umbro", "check": "NEW", "why": "Brand of Iconix with 4 employees; team-sports apparel sublicensed to Castore (F1 partner) in 2024; licensing shell, no route"}
+{"name": "VAUDE", "check": "ALREADY DELIVERED", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Vaude)"}
+{"name": "Descente", "check": "IN MASTER", "why": "IN MASTER - master: Capacity To Confirm (as Descente)"}
+{"name": "Cotton On Group", "check": "IN MASTER", "why": "IN MASTER - master: All New Brands (as Cotton On Group)"}
+{"name": "Ping", "check": "IN MASTER", "why": "IN MASTER - master: Clay Leads (Unconfirmed) (as PING)"}
+{"name": "TaylorMade", "check": "POSSIBLE", "why": "same as TaylorMade Golf, delivered b01"}
+{"name": "Callaway Golf Company", "check": "LISTED", "why": "LISTED? - matches the listed company Callaway Golf Company; leave it out if it is that company"}
+{"name": "Mammut", "check": "ALREADY DELIVERED", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Mammut)"}
+{"name": "Engelbert Strauss", "check": "IN MASTER", "why": "IN MASTER - master: Changes Since 18 Nov (as engelbert strauss)"}
+{"name": "Carhartt", "check": "IN MASTER", "why": "IN MASTER - master: All New Brands (as Carhartt)"}
+{"name": "Mascot International", "check": "F1 PARTNER", "why": "check.py POSSIBLE: Mascot Workwear is a Dutch Grand Prix event partner and appears on Monza circuit partner page; treated as same company"}
+{"name": "Helly Hansen", "check": "ALREADY DELIVERED", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Helly Hansen)"}
+{"name": "Arc'teryx", "check": "IN MASTER", "why": "IN MASTER - master: Capacity To Confirm (as Arc'teryx)"}
+{"name": "Ecco", "check": "IN MASTER", "why": "IN MASTER - master: All New Brands (as ECCO)"}
+{"name": "Clarks", "check": "IN MASTER", "why": "IN MASTER - master: Clay Leads (Unconfirmed) (as Clarks)"}
+{"name": "Deichmann", "check": "IN MASTER", "why": "IN MASTER - master: All New Brands (as Deichmann SE)"}
+{"name": "Camper", "check": "IN MASTER", "why": "IN MASTER - master: Capacity To Confirm (as Camper)"}
+{"name": "La Sportiva", "check": "ALREADY DELIVERED", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as La Sportiva)"}
+{"name": "Tecnica Group", "check": "ALREADY DELIVERED", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Tecnica Group)"}
+{"name": "Dainese", "check": "IN MASTER", "why": "IN MASTER - master: Capacity To Confirm (as Dainese)"}
+{"name": "Alpinestars", "check": "F1 PARTNER", "why": "F1 PARTNER - current F1 partner (McLaren) (as Alpinestars)"}
+{"name": "Stone Island", "check": "IN MASTER", "why": "IN MASTER - master: All New Brands (as Stone Island)"}
+{"name": "Supreme", "check": "F1 PARTNER", "why": "F1 PARTNER - current F1 partner (as Supreme)"}
+{"name": "Shein", "check": "LISTED", "why": "check.py NEW, but Wikipedia shows HKEX listing Aug 2026 (SEHK: 625)"}
+{"name": "Brioni", "check": "NEW", "why": "Task brief names Brioni among brands holding F1 team deals; Wikipedia page shows none; not cleared this session, so held back pending a check of team partner pages"}

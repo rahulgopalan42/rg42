@@ -38,3 +38,16 @@ China | page 2 | 20 rows | hasMore=true | taskId mcp-task_0tp6cnz9FXd8ZHt82ru
 Singapore | page 2 | 20 rows | hasMore=true | taskId mcp-task_0tp6cokSqaNHSanoiar
 Indonesia | page 2 | 20 rows | hasMore=true | taskId mcp-task_0tp6cp6BRFDNwzUzCy3
 Thailand | page 2 | 20 rows | hasMore=FALSE (Thailand exhausted at 40 rows; page 2 mostly junk/regional pages)
+Australia | page 2 | 20 rows | hasMore=true | taskId mcp-task_0tp6cqecD6mgedCrT7o
+
+=== SUMMARY (clay_d, 27 Nov 2026) ===
+Query form: select from companies where company_type in ("Privately Held","Partnership","Self Owned") and annual_revenue in ("1B-10B","10B-100B","100B-1T") and locations.any(country_name = "<country>" and is_headquarters = true)
+is_headquarters condition was ACCEPTED for every country (not dropped). query value in rows: "all industries | <country> | 1B+".
+Pages read: 40 of 40 cap (30 first pages + 10 second pages). Rows saved: 800 (20 per page).
+Page 2 taken for (non-Europe/NA first, in list order): Saudi Arabia, UAE, India, Japan, South Korea, China, Singapore, Indonesia, Thailand, Australia.
+hasMore was still TRUE (= UNFINISHED) for every country except Thailand (exhausted after page 2, hasMore=false).
+Not given a page 2 (still had more results): Germany, France, Italy, Spain, Netherlands, Switzerland, Sweden, Denmark, Turkey, Brazil, Mexico, Argentina, Chile, Colombia, South Africa, Nigeria, Egypt, Canada, United Kingdom, United States.
+No countries were left unqueried.
+Data quality: Clay's "country" field sometimes differs from the HQ filter (e.g. Lombard Odier = United States under Switzerland; DB Schenker = Germany under France; Airbus = France and "Confidential" = Canada under United States; Cencosud = Chile under Argentina; Sinarmas Forestry has no country). Many listed companies are tagged "Privately Held" by Clay (e.g. Danone, BNP Paribas, Telefonica, Iberdrola, LVMH) - left in, check filters them. Nigeria, Thailand p2, South Korea p2, Australia p2 and Japan p2 contain many junk/placeholder pages or local subsidiaries of foreign groups.
+One Switzerland write was retried: the first attempt broke on a "|" inside a name; partial rows were removed and the page rewritten once (no duplicates).
+disc_check.py result (800 rows): NEW 486, IN MASTER 155, POSSIBLE 71, LISTED 36, ALREADY DELIVERED 26, F1 PARTNER 26.

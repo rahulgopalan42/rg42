@@ -1,0 +1,39 @@
+NOTES: s18 Luxury, Jewellery & Watches / Fashion, Apparel & Footwear (batch 2, independent web research), 27 Nov 2026
+
+SOURCES USED (names extracted into DISC)
+- https://en.wikipedia.org/wiki/List_of_watch_manufacturers : 141 names (independent and group-owned watch brands chosen from the list; fashion licensees and tech companies skipped)
+- https://en.wikipedia.org/wiki/Category:Sportswear_brands (pages A-L and from Legea) : 122 names (sportswear, outdoor, workwear, footwear, streetwear; some workwear/outdoor/footwear names added to the same input batch)
+- Deloitte Global Powers of Luxury Goods 2023 PDF (Top 100, FY2022): https://www.deloitte.com/content/dam/assets-shared/docs/industries/consumer/2024/gx-global-powers-of-luxury-goods-2023.pdf : 74 names (beauty companies not extracted)
+- Single company pages that were the first source: Desigual, Bally, Loewe, Balenciaga, Philipp Plein, Missoni, Mikimoto, Brioni, Umbro, Shein, Jaeger-LeCoultre (1 each)
+- Morgan Stanley x LuxeConsult 2025 watch estimates, via italianwatchspotter.com and monochrome-watches.com (text only; full tables are images and could not be read): used for figures for Omega and Longines, gave no new names
+- Pambianco Fashion Summit 2025 booklet (PDF): opened; speaker booklet with no ranking, 0 names
+- Pambianco News homepage: no ranking pages, 0 names
+- Failed: Watches and Wonders brand page (404), Wikipedia Watches and Wonders page (404), watchpro.com Jacob & Co article (403), Wikipedia pages for Tous, P&C Düsseldorf, DeFacto (tr), Barbour, Georg Jensen, Jacob & Co, Christian Louboutin, Off-White, Daniel Wellington (404 under guessed titles)
+- WebSearch: 2 of 8 calls used (Italian fashion ranking; Morgan Stanley watch ranking)
+- About 120 further names (Gulf, Turkey, Korea, China, India, Brazil, Japanese fashion; leather goods; eyewear; jewellery) were run through check.py from analyst knowledge, not from a list page. Most were IN MASTER or ALREADY DELIVERED (e.g. Apparel Group, Landmark, Chalhoub, Al Tayer, LC Waikiki, Beymen, Gentle Monster, Musinsa, Fabindia, C&A, Tendam, Longchamp, Primark). They are not in DISC because no list page was the source. Those that came back NEW and were researched were written to DISC with the company page as the source.
+
+COUNTS (DISC, 348 lines)
+- Names extracted and run through check.py: 348
+- IN MASTER 54; ALREADY DELIVERED 21; F1 PARTNER 14 (incl. Mascot via Dutch GP, Psycho Bunny via Miami GP, Supreme, TUMI, Hugo Boss); LISTED 30 (plus listed companies kept as NEW by check.py but left out by me, e.g. Pandora, Moncler, Zegna, PVH, Tapestry, Ralph Lauren, Titan, SMCP, Aritzia, Onward, Lanvin Group, Seiko/Casio/Citizen/Fossil/Movado, Shein (HKEX listing Aug 2026)); POSSIBLE 7 left unresolved or resolved as same company
+- Left out in total: 146 (all in DUPS)
+- NEW and researched: 27 -> MAIN 19 (Route A 10, Route C 9), WATCH 6, not written 2 (Skis Rossignol, Jaeger-LeCoultre: no data on page)
+- Removed after the final re-check of names and aliases: Omega, Liu Jo, Brooks Sports (= Brooks Running), Tory Burch, Zadig & Voltaire (all on master; the first check hid them). Every name and alias in MAIN/WATCH was re-checked: all NEW.
+- NEW and not researched: 175
+
+SUBSECTORS AND REGIONS
+- Covered: Swiss/German/Japanese watch brands (group-owned and independent); jewellery (Italy, Japan); luxury fashion and leather goods (France, Italy, Spain, Switzerland); premium/contemporary fashion (Germany, Spain, Sweden, Italy); sports footwear (US); outdoor (US); mass footwear (Bata); eyewear (Marcolin); streetwear (Stüssy).
+- Regions: mostly Europe, US and Japan. Gulf, Turkey, Korea, China, India and Brazil were checked by name only: the large private names there were already on the master. No local-language list pages were opened for Japan, Korea, China, India, Turkey, the Gulf or Brazil. Italian, Spanish, German and French Wikipedia pages were used for research.
+- Not reached: Altagamma and Comité Colbert member lists, FHH, Pitti Uomo and Première Vision exhibitors, PE consumer portfolios, Mediobanca Moda Italia tables, the full Morgan Stanley Top 50.
+
+FLAGS
+- Many figures are older than three years (Deloitte FY2022; Wikipedia 2021-2022). Each is labelled in fin.period. Morgan Stanley figures are estimates and Swatch Group disputes them.
+- Brioni: the task brief names it as an F1 deal holder; Wikipedia shows none. Held back (left out) until team partner pages are checked.
+- Chanel: not on the Williams partner page opened 2026-11-27; a past association is not verified.
+- Parent conflicts recorded: Loewe (LVMH is an F1 global partner); Balenciaga (Kering's Gucci joins Alpine from 2027); Marcolin (owns ic! berlin, an F1 partner).
+- Damiani: page does not say whether the old Damiani S.p.A. listing has ended; verify before use.
+
+UNRESEARCHED (NEW in DISC, stage "not researched"), highest priority first
+- Watches: Panerai, Piaget, A. Lange & Söhne, Breguet, Blancpain, Rado, Harry Winston, Jacob & Co, Carl F. Bucherer, F. P. Journe, Parmigiani Fleurier, Frédérique Constant, Bulova, Grand Seiko, Invicta, Daniel Wellington, Junghans, Nomos, Baume & Mercier, Chaumet, Buccellati, Georg Jensen, Thomas Sabo
+- Apparel: TFG Brands, Sociedad Textil Lonia, Vuori, Joma, Kappa (BasicNet group, which is listed), Le Coq Sportif, Speedo, Jack Wolfskin, Assos, Off-White, Kith, C.P. Company, Mephisto, OMP Racing (check for an F1 supplier deal), 4F, Erke, Olympikus, Penalty
+- Possibly listed, check before research: Sports Direct (Frasers), Titleist (Acushnet), Fjällräven (Fenix Outdoor)
+Nothing here is exhaustive.

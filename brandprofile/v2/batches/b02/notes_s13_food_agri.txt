@@ -1,0 +1,39 @@
+Batch 2, sector s13: Food & Beverage, and Agriculture & Agribusiness. Independent web research, 27 Nov 2026.
+
+SOURCES USED (names extracted into DISC)
+- Wikipedia, List of largest private non-governmental companies by revenue: 16 food/agri names
+- Wikipedia, List of energy drinks: about 25 brand/maker names (most rows give no maker)
+- Wikipedia, List of food companies (whole page, both parts): about 1,000 names read; 256 likely-private, sizeable names selected and checked (obviously listed groups and Russian companies skipped)
+- RaboResearch Global Dairy Top 20, Aug 2026 (PDF via interest.co.nz): 20 names plus Milcobel and DMK (merged)
+- Wikipedia, List of coffeehouse chains: 49 chains selected from about 190
+- listenchampion.de "Lebensmittelhersteller Deutschland Top 50": 21 names not already checked
+- My own candidate lists (no list page; DISC source ""): 215 names (agri traders, co-operatives, seeds, fertiliser, feed, fresh produce, Gulf, Brazil, bottlers, mineral waters, Turkey) and 114 names (Africa, Japan, Korea, South-East Asia, Australia/NZ, Mexico, Argentina, Chile, Peru, Colombia, Brazil co-operatives)
+- Could not open: Food Engineering Top 100 2025/2026 (table not in page text), Food Processing Top 100 (chart not in page text), Forbes Largest Private Companies (no table), QSR 50 (403), Rabobank site (403), Lebensmittel Zeitung Top 100 (paywall), ldc.com (403); several Wikipedia articles do not exist (Nutrabolt, Power Horse, Al Dahra, SALIC, Olam Agri, Liberty Coca-Cola, Hindustan Coca-Cola Beverages, Greenyard, Unifrutti, Tan Hiep Phat, Brookside Dairy, XL Energy, Mastellone).
+- Research pages: Wikipedia (en, de, fr, es, it, pt, nl, sv, pl, fi, ja, ko, tr) for each researched company; all are listed in each record's sources.
+- WebSearch: 3 of 8 calls used.
+
+SUBSECTORS AND REGIONS COVERED
+- Researched in depth: dairy and dairy co-operatives; packaged food, snacks, bakery and confectionery; meat and poultry; energy and functional drinks; soft drinks, water and juices; bottling (contract); coffee chains; restaurant chains (Subway); agricultural traders and co-operatives; seeds; sugar; ingredients (gelatine).
+- Regions with records: Europe (Germany, France, Netherlands, Italy, Spain, Poland, Hungary, Finland, Ireland, UK), North America, Brazil, Japan, Singapore/Gulf (Olam Agri/SALIC), Australia.
+- Discovered but not researched: Africa, India, South-East Asia, Korea, Mexico, Argentina/Chile/Peru, Turkey, Gulf food companies, Nordic co-operatives, US fresh produce and meat, fertiliser and crop-protection firms.
+
+COUNTS
+- DISC lines: 719 (687 unique names; some names appear in two lists). All run through check.py.
+- check.py result: IN MASTER 178, ALREADY DELIVERED 13, F1 PARTNER 3, LISTED 23, POSSIBLE 32 (13 read as different companies, left in "not researched"; the rest treated as duplicates), NEW 470.
+- Of NEW: researched 48 lines; 63 left out after review (listed companies I recognised, brands of F1 partners, regional entities of master companies, aliases found on re-check with website); 359 not researched.
+- Researched companies: 51. MAIN 30 (Route A 24, Route C 6). WATCH 10. Left out after research 11: Loacker, Pastificio Rana, Groupe Bigard, Grupo Arcor, Coamo, SuKarne (all IN MASTER on re-check with full name/alias/website), Kopi Kenangan and Carozzi (listed), Banas Dairy (member union of Amul, IN MASTER), Chiquita and Talley's (established compliance problems).
+- Note for the user: check.py returned NEW for several names that are on the master under a longer form (Lactalis vs Groupe Lactalis, Bel, Storck, Bigard, Arcor, Coamo, SuKarne). I re-checked every MAIN/WATCH name with website and aliases before finishing; DISC "NEW" names that were not researched have NOT had this alias re-check.
+- DUPS: 266 lines.
+
+MAIN (30): Louis Dreyfus Company, Froneri, Agropur, Refresco, Subway, HELL Energy, Polar Beverages, Caffè Nero, JA Zen-Noh, Eckes-Granini, Lorenz Snacks, Zott, Nordzucker, Limagrain, Fazer, Rijk Zwaan, Olam Agri, Westfleisch, Hochwald Foods, Harry-Brot, GELITA, San Carlo, Galletas Gullón, OSHEE, Tirlán, Bauducco, Prairie Farms Dairy, Organic Valley, Darigold, Baiada Poultry.
+WATCH (10): Cotti Coffee (ownership/compliance), Black Sheep Coffee (below thresholds), Gerolsteiner (15.8% free float - verify listing), Mega MGC Coffee (owner unverified), Aceitera General Deheza (one indicator), 5-hour Energy (stale figure), G Fuel (small), Italac, Simit Sarayı (ownership unverified), Colun.
+
+WEAK POINTS IN MAIN
+- Older figures flagged in records: Louis Dreyfus (FY2018), Subway (2019 sales; route rests on the USD 9.6bn 2024 acquisition), Agropur (2021), Lorenz (2021), Organic Valley (2019), Prairie Farms (year conflicts on page).
+- Ownership not itemised on the page (family-run evidence only): Fazer, San Carlo (holding Unichips Finanziaria), Bauducco employees partly 2009.
+- HELL Energy page lists a Russia headquarters: check Russian exposure before outreach. HELL sponsored Williams in 2009-10 (expired).
+
+NOT REACHED / UNRESEARCHED
+- 359 NEW DISC names not researched, including large ones: Lotte Holdings Japan, TCC Group, Tân Hiệp Phát, Nonghyup, COFCO International, Ameropa, Scoular, Koppert, Enza Zaden, DLG, Agravis, Vivescia, Axéréal, Cristal Union, Greenyard, Unifrutti, Al Dahra, SALIC, Al Rabie, Al Watania Poultry, Kudu, Nutrabolt, NOCCO (Vitamin Well), Tenzing, Liberty Coca-Cola, Hindustan Coca-Cola Beverages, Coca-Cola Beverages Philippines, Koch Foods, National Beef, Blue Diamond, Sunkist, Picard, Groupe Holder, Le Pain Quotidien, Vandemoortele, Haigh's, Norco, Retail Zoo, Mastellone Hermanos, bb.q / BHC / Kyochon, Paris Croissant, CJ Foodville, Bidco Africa, Mohinani, Bakhresa, Metl, Koki, Koutoubia, Wernsing, heristo, Rothkötter, Alnatura, MEGGLE, apetito, Sigma Alimentos.
+- Food service and catering (contract caterers) and ingredients/flavours were only lightly covered; India, Turkey and the Gulf were checked but not researched.
+- This is not exhaustive.
