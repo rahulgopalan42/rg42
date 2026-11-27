@@ -1,0 +1,44 @@
+notes_q13_assess.txt - batch 2, queue file in_q13.jsonl (80 companies), researched 27 Nov 2026
+Method: v2/brief_queue.md + v2/brief_discovery.md. Every name, plus its brand, legal and parent names, run through v2/check.py. Own site or Wikipedia opened for each company.
+WebSearch used: 3 of 3 (AGS take-private, Go1 funding, Geidea funding). WebFetch: about 120 calls. Many hosts returned 403/404/503, and some hosts would not resolve from this session (see below).
+
+RESEARCHED: 46 written
+MAIN (35): ARA Group (A), Qualfon [input: Budco] (C), Buffalo Wild Wings (C), Galeria (C), AutoScout24 (A), Frankfurter Sparkasse (C),
+ Australian Rugby League Commission (A, FY2021 revenue), Infold Games (C, low conf), Geiger (A), Harita Group (C), Autotorino (C), Belkin (C),
+ Securitas AG Switzerland (A), AGS (A, USD 1.1bn take-private 2025), GumGum (C), Farmacias Similares (C), Blanco (A), Girocard (C, low),
+ Banner Batterien (C), CANPACK Group (C), Altenar (C), GUT (C; parent Globant is an F1 partner, recorded as established conflict),
+ Coop Sverige (A, 2019 revenue), GLS Bank (C), BoConcept (C, borderline), Clayton Utz (A), CNW Electrical Wholesale (A, FY2022), Capco (A),
+ Tadweer Group (C), A W Edwards (A, FY2021), Plenergy (A), Megasa [input: Metalurgica Galaica] (A), Fitness & Lifestyle Group (A, FY2022),
+ Go1 (A), Geidea (B, low).
+WATCH (11): Viejas Casino & Resort, Image Space Incorporated, Reviva, Final Okulları, Kabam (only 2013 revenue), SA Waste Holdings (latest data 2008),
+ Firebrand Training, Kunos Simulazioni (about 30 staff), Angel Group (net profit JPY 3.2bn, EBITDA not published), Baseus, Condor Super Center.
+
+LEFT OUT (29, in dups_q13_assess.jsonl)
+- Already on the master or delivered, or an alias of one: Bvlgari (= Bulgari), CJ Olive Young (= Olive Young), C.Vale, Bupa UK (Bupa delivered b01),
+  Admiral Casinos UK (venue brand of Novomatic, which is on the master), Hendricks Holding (owner of ABC Supply, on the master),
+  Grupo Silvio Santos (owner of SBT, on the master under "Capacity To Confirm"; the user may want to confirm that master "SBT" is the Brazilian broadcaster),
+  BYK Additives (division of ALTANA, delivered b01).
+- F1 partner: Indra Soluciones TI (Indra).
+- Listed: Fakeeh Care (Tadawul 2024), CANAL+ (LSE/JSE Dec 2024), Krafton (KRX), Fleury (B3), Naturgy (BME), Cantabil Retail (India),
+  Farmacias Guadalajara (via Corporativo Fragua, BMV).
+- Not a separate company: HP Schweiz, Burson Sports (WPP), Pull & Bear España (Inditex), Alliance Healthcare España (Cencora), Suez-Enviro Dubai,
+  Eye Level (brand of Daekyo), BYJU'S Learning, BYU-Idaho Training (an HR department), Hong Leong Group (its trading brands are listed companies).
+- Closed or insolvent: Crown Group (provisional liquidation 2023), BYJU'S (insolvency proceedings).
+- Other: Australian Catholic University (a public university, not a commercial company); BCA (already researched in b02/q10_assess.jsonl).
+
+NOT RESEARCHED (5, no line written)
+- One Stop Warehouse Group: osw.com.au and osw.energy returned 403/405; no other page found.
+- RAMCO Trading & Waste Handling: www.ramco-uae.com does not resolve from this session (outside the allowed network, or the host does not exist).
+- Choithrams: choithrams.com returned 403, www.choithram.com does not resolve, and the Wikipedia titles tried returned 404.
+- ABC Tissue: www.abctissue.com.au does not resolve; the Wikipedia title returned 404.
+- Caparo Engineering India: caparo.co.in returned 503 twice. The Wikipedia Caparo page covers only the UK plc (16 group companies went into administration in 2015).
+
+POINTS TO CHECK
+- Securitas AG: the input website securitas.com and the Clay data belong to Swedish Securitas AB. The record describes the separate Swiss family company (securitas.ch).
+- Qualfon: the input row is the Budco LinkedIn page. The Clay bracket is modelled and attached to Budco (219 employees). Qualfon's own site says 12,000 staff.
+- Buffalo Wild Wings and Capco are subsidiaries that trade as their own brands. Their parents are Inspire Brands (on the master) and Wipro (listed; Wipro Enterprises is on the master). The user may treat them as covered.
+- Frankfurter Sparkasse is owned by Helaba (delivered b01). GUT's parent Globant is an F1 partner.
+- Several figures are older than three years (ARA, ARLC, A W Edwards, CNW, FLG, Coop Sverige, Banner, Belkin, Go1, Geidea). Each is flagged in its record.
+- For many records, ownership is marked "requires verification" where no page opened named the owner (Galeria, Geiger, Autotorino, CANPACK, Altenar, GumGum, Plenergy, Megasa, FLG, Tadweer, CNW parent).
+- Hosts that must be allowed before a retry: www.ramco-uae.com, www.choithram.com, www.abctissue.com.au, www.angel-group.co.jp. www.canalplusgroup.com refused the fetch, but CANAL+ was confirmed as listed via Wikipedia.
+Validation: every line in MAIN/WATCH/DUPS parses as JSON; no name appears twice across the three files; every MAIN/WATCH name rechecked with check.py (all NEW).

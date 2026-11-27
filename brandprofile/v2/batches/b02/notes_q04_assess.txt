@@ -1,0 +1,59 @@
+Batch 2 assessment of in_q04.jsonl (80 input records, file order). Verified 27 Nov 2026.
+Brief: v2/brief_queue.md + v2/brief_discovery.md. WebSearch used 3 of 3 (Eureca Mayoristas; Alphartis/Autoland; NGP Investments).
+
+Duplicate check: check.py was run on all 80 names, and also on brand names, trading names, parents and main brands
+(e.g. Moeve, VGW, Yuengling, Hutchinson Builders, Leroy Merlin, Groupe Lactalis, AEG, Allegis Group, Eurospin, amika, Coop).
+
+RESEARCHED: 45 written.
+MAIN (q04_assess.jsonl): 34 (route A 16, route C 18).
+- Route A: Polmlek, upGrad (valuation 2021, old), Essar Group, SPAR International (network sales), Cielo, Aditya Birla Sun Life
+  Insurance, MK Group, Ivoclar, 100 Thieves (equity USD 120m), Quala (COP figure; COP not in rate table), Alphartis,
+  Autoland AG, Afreximbank (state backing), PFD Food Services (FY22), St Vincent's Health Australia (FY22), Bioderma (2014 figure).
+- Route C: Access Healthcare, GlobalStep, Circana, PSI CRO, UTAC, Merz Aesthetics, Choctaw Casinos & Resorts, Ruder Finn,
+  IE University, Getnet, Wella Company, Aegea Saneamento, Foxwoods Resort Casino, Pratt Industries, Acosta Group,
+  Learning Technologies Group, SLR Consulting, Advarra.
+WATCH (watch_q04_assess.jsonl): 11, route none: Peregrine Corporation (revenue predates OTR sale), Waste Pro USA (revenue only
+  from a search summary), 5-hour Energy, Admirals (loss-making, shrinking), Atturo Tire, 10tons (tiny), Adform, A K Khan & Company,
+  Bloom Nutrition, Agilitas, AGI Denim.
+
+Flags to check before outreach (kept, flagged in records):
+- Essar Group: Wikipedia cites an Apr 2026 Guardian report on VTB Bank debt moved to Mauritius after sanctions: compliance review.
+- Getnet: Santander subsidiary (Santander is a current F1 partner). Its site records a 2021 B3/Nasdaq listing and no delisting:
+  confirm its shares no longer trade.
+- Afreximbank: multilateral institution; confirm no listed Class D shares/DRs; may not be a commercial prospect.
+- Aditya Birla Sun Life Insurance, Cielo (EloPar: Bradesco/Banco do Brasil), PFD (65% Woolworths): subsidiaries of listed groups,
+  each trading under its own brand.
+- Pratt Industries: same owner family as Visy (master shows Visy Industries Holdings as a POSSIBLE match): decide whether it counts.
+- Learning Technologies Group: owner General Atlantic was delivered in b01 (portfolio company, not an alias).
+- Many Route C records rely on Clay employee counts as one indicator; these are labelled third-party data.
+- Lactalis, Shein, Coop Mineraloel and others turned out to be duplicates or listed (see below).
+
+LEFT OUT (dups_q04_assess.jsonl): 25
+- In master / F1 partner (direct or via brand/parent): Moeve Trading (Moeve), Virtual Gaming Worlds (VGW), BCLC, D.G. Yuengling & Son,
+  Hutchies (Hutchinson Builders), PwC Australia (PwC, F1), Deloitte Touche Tohmatsu (Deloitte, McLaren), Groupe Adeo (Leroy Merlin),
+  AEG Presents (AEG), Gruppo Eurospin, Siemens Schweiz (Siemens, Red Bull), Lactalis (Groupe Lactalis), Coop Mineraloel (Coop Group),
+  Aerotek (Allegis Group), Bansk Group (amika).
+- Listed: Adisseo (Bluestar Adisseo, Shanghai), Shein (HKEX, Aug 2026), Megastudy (KOSDAQ).
+- Not a separate company: Td Synnex Spain (TD SYNNEX), Edistribucion Redes Digitales (Endesa), Clean Earth (now Veolia),
+  Bang Energy (Monster Beverage).
+- Other: Criteria Caixa (investment holding, no operating business), Hôpitaux universitaires de Genève (public hospital),
+  Esportes da Sorte (closed: Brazil's MP 1.394/26 ban on online betting; site redirects to brasilsembets.gov.br).
+
+NOT RESEARCHED (no line written): 10
+- Acuity Analytics: acuityanalytics.com returns 403 (acuitykp.com redirects there); Wikipedia 404.
+- A.B. Consulting sas: abconsulting.pro returns 503. Clay shows 51 staff, so the USD 1-10B bracket looks implausible.
+- Adfusion Solutions: domain does not resolve; Clay shows 7 staff.
+- Agence Bonne Nouvelle: only a LinkedIn page (403); Clay shows 2 staff.
+- PTW (Side): side.inc returned only a page title; no ownership or scale.
+- ANZ Hospitals: no page identifies the entity. Possibly Healthscope's holding company. Healthscope entered receivership on
+  26 May 2025 and is being broken up (en.wikipedia.org/wiki/Healthscope), but the link is not confirmed.
+- Eureca Mayoristas: the registry profile (infonif) shows a Madrid wholesaler with French administrators, no parent and no
+  brand. It may be the Spanish entity of a foreign group.
+- Axoil Energy: axoil.com and axoilenergy.com return 503.
+- Adeslas: adeslas.es redirects to segurcaixaadeslas.es, which returns 403, and Wikipedia gave 404. Note: Mutua Madrileña, which
+  is on the master, is understood to be a major owner. Check before any research.
+- N G P Investments (No 1) Pty Ltd: a search snippet (IBISWorld) describes it as NGP Group, a Sydney car dealer, not Oil & Gas.
+  The IBISWorld page returned 405.
+
+Corrections to input: UTAC is a semiconductor OSAT, not automotive. Quala is HQ'd in Bogotá, not Panama. Pratt is in Packaging.
+Alphartis and Autoland are German. Sector labels in the records use the corrected values.
