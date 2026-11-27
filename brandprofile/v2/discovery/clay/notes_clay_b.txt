@@ -37,3 +37,14 @@ Consumer Goods | 500M-1B | pages 1 | rows 20 | hasMore true (unfinished)
 Hospitality | 500M-1B | pages 1 | rows 20 | hasMore true (unfinished)
 Automotive | 500M-1B | pages 1 | rows 20 | hasMore true (unfinished)
 Motor Vehicle Manufacturing | 500M-1B | pages 1 | rows 20 | hasMore true (unfinished)
+Restaurants | 500M-1B | pages 1 | rows 20 | hasMore true (unfinished)
+
+SUMMARY (27 Nov 2026)
+- Query form: industry = X, company_type in (Privately Held, Partnership, Self Owned), annual_revenue in (brackets). All industry names accepted as given.
+- Pages used: 40 of 40 (40 queries x first page only; Breweries and Wineries high-revenue pages returned 0 rows; Distilleries 1 row). No load-more pages were run: the cap was spent on breadth (all 27 industries at 1B+ first, then 13 industries at 500M-1B).
+- Rows saved: 724 (no de-duplication; some companies appear under two queries).
+- Unfinished (hasMore still true when stopped): every query except Breweries, Distilleries, Wineries, Cosmetics (1B+) and Hotels and Motels (1B+), which were complete.
+- 500M-1B not reached: Retail Groceries, Food and Beverage Services, Breweries, Distilleries, Wineries, Cosmetics, Furniture and Home Furnishings Manufacturing, Hotels and Motels, Travel Arrangements, Airlines and Aviation, Motor Vehicle Parts Manufacturing, Entertainment Providers, Spectator Sports, Broadcast Media Production and Distribution.
+- 500M-1B run (1 page each): Retail, Retail Apparel and Fashion, Retail Luxury Goods and Jewelry, Food and Beverage Manufacturing, Beverage Manufacturing, Personal Care Product Manufacturing, Apparel and Fashion, Sporting Goods Manufacturing, Consumer Goods, Hospitality, Automotive, Motor Vehicle Manufacturing, Restaurants.
+- Data caveat: Clay labels some listed companies as "Privately Held" (e.g. Inditex, LVMH, Danone, Renault Group, Magalu, Puig); these are left in for the later filter. Some rows are junk pages (job boards, individual resellers).
+- disc_check.py result: 724 rows | NEW 424 | IN MASTER 174 | POSSIBLE 74 | F1 PARTNER 22 | LISTED 16 | ALREADY DELIVERED 14

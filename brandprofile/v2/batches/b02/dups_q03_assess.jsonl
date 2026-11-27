@@ -44,3 +44,8 @@
 {"name": "Bmw Iberica", "why": "not a separate company: Iberian sales arm of BMW AG (listed)"}
 {"name": "Acciona Construccion Iberia", "why": "not a separate company: part of Acciona S.A. (listed BME)"}
 {"name": "Grupo Bidafarma", "why": "duplicate within input: same company as 'Bida Farma S.Coop.And' (row 53), assessed there"}
+{"name": "Markant Österreich", "why": "not a separate company: Austrian entity of Markant AG (European retail back-office/central-settlement service provider, markant.com); the input figure is settlement volume, not revenue. Markant AG itself not assessed in this file"}
+{"name": "Orange Espagne", "why": "not a separate company: Orange España (ex-MasOrange) became a wholly owned subsidiary of Orange S.A. (listed) on 8 Jun 2026 and readopted the Orange España name (es.wikipedia.org/wiki/MasOrange)"}
+{"name": "Firmenich International", "why": "merged away: merged with DSM in May 2023 into dsm-firmenich (listed) (en.wikipedia.org/wiki/Firmenich)"}
+{"name": "Clariant", "why": "listed (SIX Swiss Exchange: CLN)"}
+{"name": "Actelion", "why": "not a separate company: part of Johnson & Johnson (listed NYSE) after the 2017 USD 30bn acquisition (en.wikipedia.org/wiki/Actelion)"}
