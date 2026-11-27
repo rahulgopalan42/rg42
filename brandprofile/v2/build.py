@@ -97,6 +97,7 @@ def load(only=None):
         pm = ''                                         # a subsidiary whose parent is already with the user is kept only as a separate brand, and says so
         for pn in (clean(d.get('parent_immediate')), clean(d.get('parent_ultimate'))):
             pn = re.split(r'\s*[\(;,/]', pn)[0].strip()
+            if 'private equity' in own or 'venture' in own or (clean(d.get('pe_swf_owner')) and pn.lower() in clean(d.get('pe_swf_owner')).lower()): continue   # an investor that owns it is not the same account
             if len(pn) > 2 and pn.lower() not in ('none', 'n/a', 'na', 'unknown', 'requires verification'):
                 pst, pdisp, psrc, _h = C.lookup(pn, batch=d['_batch'])
                 if pst == 'dup': pm = pdisp + (' (delivered in an earlier batch)' if psrc.startswith('delivered') else ' (on your master)'); break
