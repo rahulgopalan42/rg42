@@ -1,0 +1,66 @@
+Batch 2 - Video Games & Esports (s02) - independent web research - 27 Nov 2026
+
+SOURCES USED (names extracted from each)
+- https://en.wikipedia.org/wiki/List_of_video_game_publishers - read only the first 100,000 of 294,821 characters (A to F). About 140 names on that part; 42 entered in DISC (the active, non-defunct ones that looked commercially relevant). G to Z not read.
+- https://www.pocketgamer.biz/the-top-50-mobile-game-makers-of-2025/ - 50 names, all checked.
+- https://en.wikipedia.org/wiki/Sim_racing - about 40 names (most were game studios, sanctioning bodies or carmakers); 12 entered.
+- https://www.savvygames.com/ - 3 names (Scopely, ESL FACEIT Group, Steer Studios).
+- Front Office Sports summary of the Forbes esports valuations (2022, via WebSearch) - about 4 names.
+- WebSearch results in Korean (unlisted game companies) and Japanese (unlisted game company revenue rankings): no usable list of unlisted companies. Only Smilegate turned up (IN MASTER). career-tasu.jp came back empty.
+- Company and Wikipedia pages opened for research: Epic Games, Cloud Imperium Games, Larian Studios, Dream Games, Moon Active, Miniclip, Techland, Voodoo, Keywords Studios, Virtuos, Jam City, Outfit7, Metacore, Team Liquid, Fnatic, Team Vitality, G2 Esports, Team Falcons, T1, Natus Vincere, Gen.G, Esports Foundation, Kuro Games, iRacing, rFpro, Simucube (homepage), Next Level Racing (about page), Xsolla, Bohemia Interactive, SteelSeries, Rovio, Wildlife Studios (pt.wikipedia), Fractal Design, Etermax, Hypergryph (redirected to the Arknights article, so no company data).
+- These pages failed (404 or empty): Tripledot Studios, Papergames, Habby, VSPO, BLAST.tv, Century Games (wrong article), Moza Racing about page, Simucube about page, Wikipedia Wildlife Studios (en).
+- About 130 DISC names came from the analyst's own sector knowledge (no list page opened). Their DISC lines have an empty source field and say so.
+
+WEBSEARCH: 3 of the 9 allowed calls used (time limit reached first).
+
+SUBSECTORS COVERED
+Publishers and developers (PC, console, mobile): good coverage of mobile. PC and console covered A to F only, plus the big independents.
+Engines and tools: Epic only. Overwolf, Improbable, Perforce and Incredibuild checked but not researched.
+Esports teams: Europe, the US and Korea researched. China, Japan, SEA, LatAm, Turkey and the Gulf teams checked but not researched.
+Tournament organisers: Esports Foundation in WATCH. BLAST, PGL, WePlay and Nodwin not researched.
+Hardware and peripherals: SteelSeries in MAIN. Others checked only.
+Sim racing: iRacing in MAIN. Simucube, Next Level Racing and rFpro in WATCH. Moza, Simagic, Heusinkveld, Cube Controls and Sim-Lab not researched. Trak Racer, Playseat and Fanatec are F1 partners.
+Services and QA: Keywords and Virtuos in MAIN. PTW, Testronic, Room 8, Globalstep and Kokku not researched.
+State-backed: Esports Foundation in WATCH. Savvy and its holdings are in the master. Steer Studios, Nine66 and Manga Productions not researched.
+
+REGIONS
+Researched: North America, Western Europe, the Nordics, Poland, Czech Republic, Turkey, Israel, Korea, China (Kuro Games), Singapore, Brazil, Saudi Arabia.
+Checked only: Japan, the rest of China, SEA, LatAm esports, the Gulf, Turkey esports.
+Not reached: Africa, India (Nodwin and S8UL were checked only), local-language list sources for Germany, France, Poland, the Nordics, Turkey, the Gulf and LatAm.
+
+COUNTS
+Names extracted into DISC: 262. All 262 went through check.py.
+- IN MASTER: 13
+- ALREADY DELIVERED: 1 (Razer)
+- F1 PARTNER: 3 (Trak Racer, Playseat, Fanatec)
+- LISTED: 14
+- POSSIBLE: 7 (judged different companies, not researched)
+- NEW: 224
+Also left out from the NEW group:
+- G2 Esports: F1 team partnership (Red Bull Racing Esports).
+- Fractal Design: listed on First North.
+- Russian-linked: Virtus.pro, Team Spirit, MY.GAMES, Azur Games.
+- About 20 believed listed or brands of listed groups (e.g. Sega, Netflix, Krafton, Asetek, Logitech G). This listing status was NOT verified on a page.
+Researched: 31. MAIN: 21 (Route A 15, Route C 6). WATCH: 10.
+DUPS lines: 33.
+NEW names not researched: about 167.
+
+DATA CAVEATS
+- Most facts come from Wikipedia. Several figures are older than three years and are flagged in `period` and `outstanding`: Moon Active valuation 2021, Wildlife valuation 2019, Outfit7 sale 2017, Rovio revenue FY2022, SteelSeries deal 2021-22.
+- Cloud Imperium's qualifying figure is CUMULATIVE crowdfunding and sales over USD 1bn since 2012, not annual revenue.
+- Metacore's parent, Supercell, is IN MASTER. Metacore is delivered only as a separate brand.
+- Xsolla is in WATCH with compliance flags.
+- G2 Esports' F1 deal status needs a current check.
+- iRacing (Route C) rests on a subscriber count from 2020 plus its partnerships with NASCAR, IMSA and the FIA. Confidence is low.
+
+WHAT REMAINS (NOT EXHAUSTIVE)
+- The Wikipedia publisher list from G to Z.
+- Exhibitor lists: Gamescom, Tokyo Game Show, G-Star.
+- Association member lists: game, Spielfabrik, SNJV, Neogames, Dataspelsbranschen, Polish Games Association, KGDA, CESA.
+- Chinese private publishers: Papergames/Infold, Hypergryph, Yostar, Century Games, FunPlus, Habby, Microfun, First Fun, Hungry Studio.
+- Korean: Supercent, Nexon Korea and Smilegate affiliates.
+- Turkish: Peak, Rollic, Ace, Spyke, Loop.
+- Esports orgs in LatAm, China and SEA.
+- Sim racing hardware: Moza, Simagic, Heusinkveld, Cube Controls.
+- QA and outsourcing: PTW, Room 8, Kokku.
+- Gulf: Steer Studios, Nine66, Manga Productions, Twisted Minds, VSPO.

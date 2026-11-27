@@ -1,0 +1,46 @@
+Clay discovery stream C - 27 Nov 2026
+Filter on every query: company_type in (Privately Held, Partnership, Self Owned).
+Page cap 40; 40 pages used (each 20 rows). No enrichment, no widgets.
+
+QUERY | pages read | rows saved | hasMore when stopped
+Financial Services | 1B-10B,10B-100B,100B-1T | 2 | 40 | true (UNFINISHED)
+Banking | 1B-10B,10B-100B,100B-1T | 1 | 20 | true (UNFINISHED)
+Insurance | 1B-10B,10B-100B,100B-1T | 2 | 40 | true (UNFINISHED)
+Investment Management | 1B-10B,10B-100B,100B-1T | 1 | 20 | true (UNFINISHED)
+Capital Markets | 1B-10B,10B-100B,100B-1T | 1 | 20 | true (UNFINISHED)
+Software Development | 1B-10B,10B-100B,100B-1T | 2 | 40 | true (UNFINISHED)
+IT Services and IT Consulting | 1B-10B,10B-100B,100B-1T | 2 | 40 | true (UNFINISHED)
+Telecommunications | 1B-10B,10B-100B,100B-1T | 1 | 20 | true (UNFINISHED)
+Semiconductor Manufacturing | 1B-10B,10B-100B,100B-1T | 1 | 20 | true (UNFINISHED)
+Hospitals and Health Care | 1B-10B,10B-100B,100B-1T | 1 | 20 | true (UNFINISHED)
+Pharmaceutical Manufacturing | 1B-10B,10B-100B,100B-1T | 2 | 40 | true (UNFINISHED)
+Medical Equipment Manufacturing | 1B-10B,10B-100B,100B-1T | 2 | 40 | true (UNFINISHED)
+Transportation, Logistics, Supply Chain and Storage | 1B-10B,10B-100B,100B-1T | 1 | 20 | true (UNFINISHED)
+Truck Transportation | 1B-10B,10B-100B,100B-1T | 1 | 20 | true (UNFINISHED)
+Maritime Transportation | 1B-10B,10B-100B,100B-1T | 1 | 20 | true (UNFINISHED)
+Industrial Machinery Manufacturing | 1B-10B,10B-100B,100B-1T | 2 | 40 | true (UNFINISHED)
+Chemical Manufacturing | 1B-10B,10B-100B,100B-1T | 2 | 40 | true (UNFINISHED)
+Oil and Gas | 1B-10B,10B-100B,100B-1T | 1 | 20 | true (UNFINISHED)
+Utilities | 1B-10B,10B-100B,100B-1T | 1 | 20 | true (UNFINISHED)
+Mining | 1B-10B,10B-100B,100B-1T | 1 | 20 | true (UNFINISHED)
+Wholesale | 1B-10B,10B-100B,100B-1T | 1 | 20 | true (UNFINISHED)
+Packaging and Containers Manufacturing | 1B-10B,10B-100B,100B-1T | 1 | 20 | true (UNFINISHED)
+Security and Investigations | 1B-10B,10B-100B,100B-1T | 1 | 20 | true (UNFINISHED)
+Staffing and Recruiting | 1B-10B,10B-100B,100B-1T | 1 | 20 | true (UNFINISHED)
+Financial Services | 500M-1B | 1 | 20 | true (UNFINISHED)
+Software Development | 500M-1B | 1 | 20 | true (UNFINISHED)
+IT Services and IT Consulting | 500M-1B | 1 | 20 | true (UNFINISHED)
+Industrial Machinery Manufacturing | 500M-1B | 1 | 20 | true (UNFINISHED)
+Medical Equipment Manufacturing | 500M-1B | 1 | 20 | true (UNFINISHED)
+Chemical Manufacturing | 500M-1B | 1 | 20 | true (UNFINISHED)
+Transportation, Logistics, Supply Chain and Storage | 500M-1B | 1 | 20 | true (UNFINISHED)
+Wholesale | 500M-1B | 1 | 20 | true (UNFINISHED)
+
+All 24 industries reached at 1B-10B/10B-100B/100B-1T (1 page each). Second 1B+ page for: Financial Services, Insurance, Software Development, IT Services and IT Consulting, Pharmaceutical Manufacturing, Medical Equipment Manufacturing, Industrial Machinery Manufacturing, Chemical Manufacturing.
+500M-1B run (1 page each) for: Financial Services, Software Development, IT Services and IT Consulting, Industrial Machinery Manufacturing, Medical Equipment Manufacturing, Chemical Manufacturing, Transportation/Logistics, Wholesale.
+500M-1B NOT run for the other 16 industries (page cap). 200M-500M not run (per task).
+Every query still had hasMore=true when stopped: all are unfinished.
+All industry names were accepted as given; none rejected.
+Data-quality note: Capital Markets 1B+ page is mostly junk rows (tiny/placeholder pages with inflated revenue brackets); several rows are listed companies or subsidiaries tagged Privately Held by Clay. Filtering left to the next step.
+
+disc_check.py result (800 rows): NEW 473, IN MASTER 165, POSSIBLE 64, ALREADY DELIVERED 45, LISTED 28, F1 PARTNER 25.

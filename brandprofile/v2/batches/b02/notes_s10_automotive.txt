@@ -1,0 +1,34 @@
+Batch 2, sector "Automotive & Mobility" (s10). Prepared 27 Nov 2026. Independent web research.
+
+SOURCES USED (names they gave)
+- https://en.wikipedia.org/wiki/List_of_tire_companies : 54 companies listed; 46 extracted and checked.
+- https://cardealermagazine.co.uk/biggest-car-dealer-groups-in-europe-revealed-and-its-dominated-by-brit-based-businesses/320261 : top 10 European dealer groups with 2024 revenue (10 names, plus Pendragon, Jardine and Sytner, which are now owned by listed groups).
+- autohaus.de dealer articles (3722028, 3916941, 3755373; found by WebSearch): 11 German dealer group names; the per-group ranking sits in an image gallery and could not be read.
+- https://www.dat.de/top100/ and its sample PDF: ranking not in the free sample; no names.
+- https://en.wikipedia.org/wiki/List_of_largest_private_non-governmental_companies_by_revenue : 6 automotive names (all already in the master).
+- Two WebSearch results pages (Automotive News top 100 suppliers; German dealer rankings) gave the URLs above but no complete list.
+- About 190 further candidates were my own starting list for the subsectors in the task (suppliers, motorsport engineering, makers, batteries, lubricants, charging, rental, auctions, software, dealers and importers). Their DISC "source" is "" because no list page was opened for them. Each was run through check.py.
+- Company research pages (Wikipedia in English, German, French, Swedish, Norwegian, Korean and Portuguese, plus autohaus.de): Belron, Autodoc, Schmitz Cargobull (de), Porsche Holding (de/en), Europcar (fr/en), Hedin Mobility Group (sv), Hyundai Transys (ko/en), Constellation Automotive Group, British Car Auctions, Weller (autohaus.de), Turo, BlaBlaCar, Cars24, Gridserve, Dallara, Xtrac, Multimatic, Pagani, Les Schwab, Baterias Moura (pt), Petromin, Moller Mobility Group (no), Exide Technologies.
+- Could not open: Automotive News top suppliers (403), Automobilwoche (403), several Wikipedia titles (404: List_of_automotive_parts_manufacturers, List_of_car_rental_companies, AutoScout24, Applus+, FEV, Leasys, Spinny, CITIC Dicastal, CFAO, Verkor, ACC, East Penn), hedinmobility.com (host not allowed), cargobull.com, europcar-mobility-group.com, porsche-holding.com (404), exidegroup.com and arval.com (403).
+
+WEBSEARCH: 2 of the 9 allowed calls were used. Most time went into WebFetch.
+
+COUNTS
+- Names extracted and run through check.py: 273 in DISC. A further 27 MAIN/WATCH names, aliases and parents were re-checked.
+- check.py results: NEW 166; IN MASTER 72; POSSIBLE 15 (14 treated as the same company and left out; Hutchinson is a different company and was not researched); LISTED? 8; F1 PARTNER 8 (Brembo, Sparco, Alpinestars, BBS, Motul, Liqui Moly, Tenneco, Gulf Oil International; Pirelli was also flagged in a test call; Valvoline came back as POSSIBLE with an F1 flag); ALREADY DELIVERED 4 (DEKRA, TUV SUD, TUV Rheinland, Scout Motors).
+- Left out although check.py printed NEW: Dallara (designs the Haas F1 cars through 2026) and Xtrac (current F1 gearbox supplier), both in DUPS; 22 tyre, dealer and other names I believe are listed (marked "not verified this session"); parent or brand aliases (Pon Automotive, Global Auto Holdings, Proeza, IDIADA); Belshina (Belarus state company, sanctions risk).
+- Researched: 34 names. MAIN 16 (Route A: 11; Route C: 5, namely Hyundai Transys, Constellation, Multimatic, Les Schwab and Moura, which is low confidence). WATCH 4 (Gridserve, Petromin, Moller Mobility Group, Exide Technologies Europe). 12 were opened but not written because the page had no usable content (see DISC "why").
+- DUPS lines: 134.
+
+COVERAGE
+- Subsectors reached: dealer groups and importers (Europe, US names checked only), tyres, suppliers (Germany, Korea, Canada), motorsport engineering, hypercars, trailers, batteries (Brazil, Europe), lubricants (Saudi Arabia), rental and peer-to-peer, carpooling, auctions and marketplaces (UK, India), charging (UK), aftermarket e-commerce (Germany), vehicle glass.
+- Regions with a MAIN record: Europe (UK, Germany, Austria, France, Sweden, Italy), North America (US, Canada), Asia (South Korea, India), Latin America (Brazil). WATCH only: Middle East (Saudi Arabia), Nordics (Norway).
+- Not reached or thin: China (private makers and suppliers beyond the check), Japan (only names checked), Turkey (names checked, none researched), Mexico, Spain, Italy (except Pagani), Africa (CFAO, Coscharis and Innoson checked only), Southeast Asia, Australia, the Gulf distributors (mostly already in the master), automotive software and testing (the main names are already in the master), the Motorsport Industry Association member list, and trade-fair exhibitor lists (IAA, Automechanika, SEMA, Autosport International). None of these were opened.
+
+NOT RESEARCHED (NEW in DISC, priority order)
+Arval, Leasys, AutoScout24, mobile.de, Applus+, FEV, IAV, Hirschvogel, Witzenmann, Borbet, CITIC Dicastal, East Penn, ACC, Verkor, Parts Holding Europe, Euromaster, Point S, Giti Tire, Omni United, Deestone, Ralf Bohle (Schwalbe), Vittoria, Van Mossel, AVAG, Feser-Graf, Autoland, Car Avenue, Merbag, Hahn Gruppe, Larry H. Miller, Ken Garff, Utility Trailer, Kogel, Tirsan, Temsa, Farplas, Hyundai Kefico, GAC Aion, Spinny, InstaVolt, Atlante, Zunder, Finn, Merchants Fleet, Emkay, Athlon, Wheels Donlen, Derco, Purdy Motor, CFAO, Coscharis, Innoson, Sabo, Comolatti, Rowe Motor Oil, Ravenol (check the Austrian GP partner listing first), Pankl Racing, Ilmor, Hewland, Oreca, OMP Racing, OZ Racing, Mugen, Rays, Alcon, VI-grade, Dynisma, rFpro, Cruden, Ricardo, Williams Advanced Engineering, UTAC, Millbrook, Horiba MIRA, MV Agusta, Czinger, Italdesign, Jardine Motors, Gottfried Schultz, Senger, Denzel, Bertel O. Steen, Veho, Autotorino, Hutchinson, Oscaro, Banner Batterien.
+
+CAVEATS
+- Several figures are older than three years and are marked as such: Porsche Holding FY2022, Hyundai Transys FY2021, Moura FY2017, Turo and BlaBlaCar valuations. Belron was reported in Sept 2026 to be exploring an IPO, so confirm it has not listed. Porsche Holding check: Yas Marina partner page lists "Porsche"; confirm that deal is not Porsche Holding's. BlaBlaCar still served Russia as of June 2024.
+- Equity funding for BlaBlaCar is the sum of disclosed rounds only.
+- This list is not exhaustive.

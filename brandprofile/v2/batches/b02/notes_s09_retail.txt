@@ -1,0 +1,47 @@
+Batch 2, sector Retail & E-commerce (s09). Independent web research, 27 Nov 2026.
+
+SOURCES USED (names extracted)
+- en.wikipedia List_of_largest_private_non-governmental_companies_by_revenue: 35 retail names
+- NRF Top 100 Retailers 2026 list (nrf.com): 22 private or possibly private names taken from 100 rows
+- Deloitte Global Powers of Retailing 2025 PDF (ehu.eus mirror, FY2023 Top 250), read with pdftotext: 33 names taken. Many rows lost their
+  company name in text extraction, so the private names were NOT all captured. Its FY2023 revenue figures were also used to back up
+  8 MAIN records.
+- en.wikipedia List_of_supermarket_chains_in_Europe: 16 smaller chains logged (not researched)
+- Moodie Davitt 2026 Top Travel Retailers article: no table on the open page (0 new names)
+- Analyst-generated candidate names put through check.py, with no list page opened: about 160. These are flagged in DISC
+  as "named from analyst knowledge".
+- Company research pages: English, German, French, Spanish, Turkish, Japanese and Korean Wikipedia articles (the URLs are in each record).
+WebSearch calls used: 2 of 9.
+
+COUNTS
+- Names in DISC: 267 (all run through check.py)
+- IN MASTER: 108 (includes Tiendas D1 and Olive Young, found only on the alias re-check after research, and Winn-Dixie/Southeastern Grocers)
+- ALREADY DELIVERED: 5
+- F1 PARTNER: 3 (El Corte Ingles, Mercado Libre, Tokopedia; Jumbo also flagged via POSSIBLE)
+- LISTED (check.py or known listing): 30 left out. Shein was also left out: listed in Hong Kong in Aug 2026.
+- POSSIBLE: 14, mostly read as the same company and left out (e.g. Northeast Grocery, parent of Price Chopper, which is on the master)
+- Left out, other: Mere (Russian)
+- NEW and not researched: 77
+- Researched: 27, giving MAIN 25 (Route A 19, Route C 6) and WATCH 1 (Lotte Duty Free)
+- DUPS file: 162 lines
+
+SUBSECTORS / REGIONS COVERED
+Grocers, discounters, co-operatives, convenience and fuel, department stores, DIY, electronics, drugstores, duty-free, e-commerce,
+luxury multi-brand. Regions: US, UK, Germany, Netherlands, France, Spain, Nordics, Baltics, Balkans, Turkey, Japan, Taiwan, India,
+Argentina.
+Gaps: sports and fashion retail; franchise and holding groups; the Gulf (Noon and Choithrams pages not found); Africa; South-East Asia;
+Brazil and Mexico (Savegnago, Olimpica, Farmacias Similares pages returned 404); Korea beyond Lotte; Australia; Poland and Central Europe
+beyond Maxima.
+
+NOT COMPLETED / CAVEATS
+- These DISC names were not researched: A101 (13,000+ stores but only one indicator), Sogo & Seibu, Selex, Notino, Peek & Cloppenburg,
+  Takko, Gratis, DeFacto, Duty Free Americas, 3Sixty, Flemingo, Everrich, Qatar Duty Free, ARI, Noon, Choithrams, Jula, Normal, Bon Preu,
+  Sonae MC, Suning, SPAR International, Homeplus and the others marked "not researched".
+- Old figures: Pilot (2021 revenue), Belk (2017), Picard (2017), Eroski, Fortenova and Lawson rest on Deloitte FY2023. Morrisons uses a
+  Deloitte estimate.
+- Distress or compliance to review: Exemplar Luxury Group (Saks Global, out of Chapter 11 in June 2026), Asda (falling market share,
+  leverage), Flipkart (Walmart internal investigations, 2026), Fortenova (former Sberbank holder; the page says the 2024 restructuring
+  removed it), Coto (reputational incidents).
+- Boots: sale to Wittington Investments agreed Oct 2026.
+- Delivered names have not been recorded in v2/delivered/. That is left to the delivery step.
+- This list is not exhaustive.

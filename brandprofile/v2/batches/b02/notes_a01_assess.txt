@@ -1,0 +1,48 @@
+Batch 2 assessment of in_a01.jsonl (143 input records). Verified 27 Nov 2026.
+
+Duplicate check: check.py was run on all 143 names. None returned IN MASTER, ALREADY DELIVERED or F1 PARTNER.
+POSSIBLE and LISTED? matches were checked and found to be different companies, so they were kept:
+Sunstar Insurance Group (not Sunstar), Marshall & Sterling (not Marshall Group), Entrust Solutions Group (not Entrust),
+Verdantas (not Verda), GEI Consultants (not GEICO), Enercon Services (not the German wind-turbine Enercon),
+Bolton & Menk (not Bolton Group), STV Inc. (not STV Group plc), SAM LLC (not Sam Holdings).
+
+ASSESSED: 108 records written to a01_assess.jsonl (route A 97, route C 3, route "none" 8).
+- Route C: Shepherd Insurance, Marshall & Sterling Enterprises and Legacy Risk Solutions. Each has 500+ employees on its own site
+  and a Business Insurance ranking.
+- Route "none" (no qualifying figure found on the pages opened): Abu Dhabi Securities Exchange, Australian Unity, Caudalie, Gen Re,
+  Shelter Insurance, Lawley Insurance, M3 Insurance Solutions and Sterling Seacrest Pritchard. The input file had no fin entries for
+  the first five. For the last three, the ranking revenue is USD 126-142M, and no page opened stated supporting strength for Route B.
+  The task named no WATCH file, so these 8 are in MAIN with route "none"; move them to WATCH if needed.
+- Most records rest on one page: the company homepage or about page, or Wikipedia. Many homepages do not state HQ or ownership.
+  Those records keep "requires verification" and conf low or medium, and the gaps are listed in "outstanding".
+
+LEFT OUT (dups_a01_assess.jsonl): 1
+- Pond & Co.: its site describes it as "an ENERCON company"; the parent, Enercon Services, is assessed in this file.
+
+Points to watch (kept, but flagged in the records):
+- USI Insurance Services: its site brands it "USI, an Aon company" (subsidiary of listed Aon).
+- TRC Cos.: "now a member of WSP" (subsidiary of listed WSP Global; acquisition date not shown).
+- CMTA Inc.: "part of Legence"; whether Legence is listed needs checking.
+- Perkins&Will: owned by Dar/Sidara (private).
+- Sunstar Insurance Group: its site mentions "resources of a publicly traded brokerage"; ownership needs checking.
+- Atlas Technical Consultants: ownership not stated on its site.
+- Corrected domains: patriotgis.com (patriotgrowthpartners.com is parked), sunstarinsurancegroup.com (sunstarinsurance.com is parked),
+  oakbridgeinsurance.com, legacyrisksolutions.com, heffins.com, mykeystone.com, chasolutions.com.
+
+NOT ASSESSED (no usable page in the time available; nothing written for these): 34
+- No page worked (403, 404, empty, 503, unresolved domain or wrong company): Higginbotham, Relation Insurance,
+  Houchens Insurance Group, UES, Johnson Mirmiran & Thompson Inc. (JMT), Carollo Engineers, Entrust Solutions Group
+  (entrustsg.com is a different title company; entrustsolutions.com redirects to sdi.ai), Hargrove Engineers & Constructors, PBK,
+  Bolton & Menk Inc., Pennoni.
+- Not reached in the time available: Moregroup, Weston & Sampson, Affiliated Engineers Inc., Stanley Consultants, Foth Cos. LLC,
+  Perkins Eastman, BGE Inc., DCCM, Stratus Team LLC, Thompson Holdings, Timmons Group, Tower Engineering Professionals,
+  Whitman Requardt & Associates LLP, HGA, Wiss Janney Elstner Associates, Braun Intertec, American Structurepoint Inc., Parametrix,
+  Simpson Gumpertz & Heger, Horrocks, Walter P Moore, GAI Consultants Inc., Ware Malcomb.
+
+Ownership types found in MAIN: requires verification 62, privately held group 31 (mostly employee-owned firms), family-owned 3,
+subsidiary of listed group 3, private equity-backed 3, co-operative or mutual 2, subsidiary of private group 2,
+sovereign fund-backed 1, partnership 1.
+
+Sponsorships found on opened pages: IMA Financial Group (Denver Summit FC, 2026-10), Trucordia (BYU Athletics, expanded 2026-11)
+and Cross Insurance (Maine arena naming rights, 2014, 10 years, USD 2.5M).
+WebSearch calls used: 0 of 5. Every line in both files parses as JSON, and no name appears twice.

@@ -1,0 +1,28 @@
+c02_world - largest non-listed / family / state-owned companies outside Europe (batch 2). 27 Nov 2026.
+
+SOURCES USED (names extracted to DISC)
+- Wikipedia, List of largest private non-governmental companies by revenue: 90 non-European names (European rows skipped as outside this area).
+- BC Business Top 100 2026 (bcbusiness.ca/?p=57861): 32 non-listed names (private, Crown, co-op, subsidiary).
+- Expansión 500 2025 (via tusbuenasnoticias.com full reproduction; page has rank order only, no figures): 97 Mexican-owned non-listed or state names picked from 496; foreign multinationals' Mexican subsidiaries skipped as regional entities.
+- Burgundy Private Hurun India 500 coverage (india.com, siasat.com, business-standard, kotakneo): 17 names; the full Hurun list could not be opened.
+- Forbes Middle East Top 100 Arab Family Businesses 2025 (list page, rank and name only): 99 names (rank 88 missing on page).
+- IBISWorld Top 500 Private Companies of Australia 2022 (PDF, FY2021/22 figures, older than three years): 494 names. Sectors for these were assigned from the company name only; 228 are left as "Diversified & Other / unclassified" and need proper classification.
+Could not open: Forbes America's Largest Private Companies (page body empty; data endpoint not used), Globe and Mail biggest private companies (table not rendered), IBISWorld 2025/2026 lists (HTTP 405), Toyo Keizai unlisted ranking (paywall), Japanese career-tasu list (empty), Axis Bank Hurun PDF (redirect).
+WebSearch used: 7 of 9.
+
+COUNTS
+- Names extracted to DISC: 831; all run through check.py.
+- IN MASTER 217; ALREADY DELIVERED 29; F1 PARTNER 5; LISTED 14; POSSIBLE 54 (26 judged same company and left out, the rest from the Australian list unread); NEW 512.
+- Researched: 5. MAIN: 5 (Blackmagic Design, GS Caltex, Pilot Flying J, Comisión Federal de Electricidad, Norinchukin Bank). WATCH: 0.
+- Left out after research: GNP Seguros and Grupo Palacio de Hierro (both listed on the BMV).
+- DUPS lines: everything left out above.
+
+COVERED: US (Wikipedia list only), Canada (British Columbia only), Mexico, India (top of Hurun only), GCC/Arab family groups, Australia, plus China/Japan/Korea names from the Wikipedia list.
+NOT REACHED: Brazil, Argentina, Chile, Colombia, Peru (Valor 1000, Exame, AméricaEconomía not opened); Japan and Korea unlisted rankings; Indonesia, Thailand, Malaysia, Philippines, Vietnam; New Zealand; Israel; Africa (Africa Report top 500, South Africa, Nigeria, Kenya, Morocco beyond the Forbes ME names); the full Forbes US private list.
+
+NOT RESEARCHED (largest / most F1-relevant NEW names, in rough priority):
+Mexico - Grupo BAL, Corporativo Fragua (Farmacias Guadalajara), Grupo Empresarial Ángeles (Hospital Angeles appears on a Mexico City GP partner page: check for a deal), Aleatica, Viakable, Prolec, Totalplay, Rassini, Klar, Intercam, Ruhrpumpen, JK Tornel, Grupo Aeroméxico (on a Mexico City GP partner page; listing status to check).
+Australia - Virtual Gaming Worlds (compliance to check), Hutchies, ANZ Hospitals, PFD Food Services, Competitive Foods, Baiada, Aspen Medical, Jayco, CJD Equipment, Pickles Auctions, Bing Lee, Navitas, Blackmagic done; many more.
+Others - Suning Holdings Group, HNA Group (restructured), Cedar Holdings, Xinjiang Guanghui, Subway, Graybar, Guardian Life, Westland Insurance, UniUni, Vancouver Airport Authority, NSE India (NSE matches a listed name abroad; Indian NSE is unlisted), Intas Pharmaceuticals, Dream11 / Dream Sports, Adani Properties, Al Othaim Holding, Zamil Group Holding, Alkhorayef, Rawabi Holding, YBA Kanoo, MAG Group, Al Nasser Holdings, Towell, O Capital Group.
+Huaxia Life left out (taken over by Chinese regulators, 2020).
+Nothing here is exhaustive.

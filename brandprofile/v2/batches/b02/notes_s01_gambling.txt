@@ -1,0 +1,38 @@
+Batch b02 - Gambling & Gaming Venues (s01_gambling) - independent web research, 27 Nov 2026
+
+SOURCES USED (names given)
+- European Lotteries members page https://www.european-lotteries.org/members : 15 names (only the first page of the A-G members was returned; rest of list not read)
+- Wikipedia List of casinos in the United States https://en.wikipedia.org/wiki/List_of_casinos_in_the_United_States : about 90 tribal owners extracted for AL-ID only (first 100k of 465k characters read); 11 written to DISC
+- Meio & Mensagem "As 20 maiores marcas de bets em operacao no Brasil" (projected 2025 GGR) https://www.meioemensagem.com.br/marketing/as-20-maiores-marcas-de-bets-em-operacao-no-brasil : 20 names
+- Researcher's own starting list run through check.py (no list page): about 190 names over two check.py calls. These DISC lines have source "" and say so in "why".
+- Company research pages: en/ja/es/fr/nl/sv Wikipedia pages for JRA, SELAE, HKJC, Betclic, Mohegan, Mohegan Sun, Foxwoods, San Manuel, Seminole, BCLC, Holland Casino, ATG, Crown Resorts, Resorts World LV, Fontainebleau LV, Okada Manila, Stronach Group, CEC Entertainment, Bet9ja, Scientific Games/Light & Wonder, BetMGM (redirected to MGM Resorts); corporate.hkjc.com; mohegangaming.com; scientificgames.com; everymatrix.com/about-us; bbuc.brookfield.com.
+- WebSearch: 2 of 9 used (one returned an unrelated energy list; one Brazilian betting ranking query).
+
+COULD NOT OPEN: egt.com (403), sigma.world pages (403), es.wikipedia Zitro, pt.wikipedia Esportes da Sorte / Pixbet / EstrelaBet, en.wikipedia Euro_Games_Technology and Timezone (404), HKJC annual report page (404), scientificgames.com/about-us (404).
+NOT OPENED: World Lottery Association member list, EGR Power 50, ICE / G2E / SiGMA exhibitor lists, tribal gaming rankings, PE portfolio pages beyond Brookfield.
+
+COVERAGE
+Subsectors reached: casinos and integrated resorts; state lotteries; sports betting and iGaming (Europe, Brazil); suppliers (lottery, iGaming platform); horse racing and totes; tribal gaming (US); arcades/family entertainment; Asian operators (Japan racing, Hong Kong, Philippines).
+Regions: North America, Europe (Spain, France, Netherlands, Sweden), Asia (Japan, Hong Kong, Philippines), Latin America (Brazil list only). Africa and Middle East: names checked only, none researched. Pachinko, bingo/gaming halls, CEE operators: names checked only.
+
+COUNTS
+- Names extracted into DISC: 207 (159 from list pages / starting list, plus 48 duplicates logged to DUPS added as "left out")
+- Run through check.py: about 215 (incl. re-checks of parents)
+- IN MASTER: 47 ; ALREADY DELIVERED: 0 ; F1 PARTNER: 1 directly (Allwyn Cesko), plus Seminole (owns Hard Rock) treated as F1 ; LISTED: 3 (FDJ, Admiral brand, Brightstar) ; POSSIBLE: 11 (5 different companies kept, 6 same company left out)
+- NEW: about 150
+- Researched: 16 (14 written; Crown Resorts and Resorts World Las Vegas left out under the compliance rule)
+- MAIN: 11 (JRA, SELAE, HKJC, Betclic, Mohegan, BCLC, Holland Casino, ATG, Okada Manila, CEC Entertainment, Scientific Games)
+- WATCH: 3 (Fontainebleau Las Vegas, 1/ST Stronach Group, EveryMatrix)
+- DUPS: 58
+
+JUDGEMENT CALLS FOR THE CALLER
+- Crown Resorts (Blackstone, A$8.9bn deal) would meet Route A; left out only because of established compliance findings (2021 NSW unsuitability, 2022 WA royal commission, A$80m fine). WA regulator recommended keeping its licence in July 2025. Review if the user accepts remediated operators.
+- Resorts World Las Vegas left out: 2025 Nevada AML fine (about USD 10m).
+- Everi and Brightstar Lottery logged as dups from researcher knowledge (Everi merged into Apollo-owned IGT; Brightstar is the listed former IGT plc) - not verified on a page this session.
+- Okada Manila in MAIN at low confidence: unresolved control dispute; dated headcount.
+- Fontainebleau sold a 2024 Las Vegas Grand Prix luxury package: check for a current GP deal before any approach.
+- Betclic's sister Tipico (Banijay Gaming) is on the master; Betclic itself is NEW.
+- HKJC route rests on HK$29.3bn tax paid (revenue inferred, turnover not read).
+
+NOT RESEARCHED (strongest first)
+BetMGM; San Manuel/Yaamava (Palms USD 650m, 7,000+ staff); Mashantucket Pequot/Foxwoods; Pechanga, Agua Caliente, Morongo, Graton, Chickasaw/WinStar, Choctaw, Seneca; Esportes da Sorte, Betnacional, 7Games, EstrelaBet, VaideBet, Onabet and other Brazilian brands (GGR estimates only); ONCE, Lotto Bayern, WestLotto, Lotto Hessen, Lotto BW, Nationale Loterij, Loterie Romande, Swisslos; Korea Racing Authority; Angel Group, Daiichi Shokai, Newgin, Sanyo Bussan; EGT, Zitro, Interblock, SOFTSWISS, BetConstruct, Digitain, Altenar, Games Global, Playson, Habanero, PG Soft, JILI, Spribe; Mozzart Bet, Efbet, Tipwin, Synot; Betcris, Apuesta Total, Wplay, Betplay; Bet9ja, BetKing, betPawa, Betika, Ithuba, Peermont, Goldrush; Emirates Draw, The Game LLC, Big Ticket, Mahzooz; Fanatics Betting & Gaming; Timezone; Buzz Bingo; Tote Group. Nothing here is exhaustive.

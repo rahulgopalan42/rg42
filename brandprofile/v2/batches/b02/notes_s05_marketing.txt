@@ -1,0 +1,51 @@
+Batch 2, sector "Marketing, Advertising & PR" (s05). Independent web research, 27 Nov 2026.
+
+WEB SEARCHES: 9 of 9 used (PRovoke Top 250; AMA Gold Top 50; Ad Age independents; Horizont/W&V owner-run agencies;
+Japanese agency revenue ranking; private CX/BPO outsourcers; ASI Counselor Top 40; private OOH owners Gulf/India/LatAm;
+Brazil Cenp-Meios agency ranking).
+
+LIST SOURCES OPENED (names they gave)
+- reasonwhy.es, PRovoke 2025 Spanish agencies + global top 3 (8 names; LLYC listed)
+  https://www.reasonwhy.es/actualidad/agencias-espanolas-comunicacion-ranking-facturacion-provoke-2025
+- mersenne.co.jp, Japanese ad agency revenue ranking (25 names; ~16 listed, 9 unlisted taken forward)
+  https://www.mersenne.co.jp/advertising-agency-ranking
+- ASI Counselor Top 40 Distributors 2025 (40 names) + four profile pages + ASI 2026 press release (5 suppliers)
+  https://members.asicentral.com/news/strategy/july-2025/counselor-top-40-distributors-2025/
+- acontecendoaqui.com.br, Cenp-Meios 2025 top 20 (20 names; most are holding-company units, 6 independents/unclear logged)
+- propmark.com.br, indies article (4 names)
+- RRD blog (Ad Age 2025 No.16)
+SOURCES BLOCKED OR EMPTY: PRovoke ranking pages (403); Horizont Top 50 2025 (paywall, no table); AMA Gold (no table on Wikipedia);
+Ad Age Agency Report (paywall); job.career-tasu.jp (empty); many Wikipedia pages 404 (Freeman, Teneo_(company), Brunswick, Horizon Media,
+Jellyfish, Tinuiti, MiQ, Brainlabs, Madison World, Choueiri, Collinson, Alorica, Acosta, Inizio, HH Global, SanMar); proforma.com, bdainc.com,
+geiger.com 403/404. The remaining candidates came from an analyst-built candidate list run through check.py (source marked
+"analyst candidate list" in DISC); none of those went to MAIN without opened pages.
+
+SUBSECTORS COVERED: PR/communications (good), independent agency groups (DE, JP, BR partial), market research (partial),
+CX outsourcing (partial), promotional products (good: ASI list), marketing services (RRD, Vericast), adtech (InMobi only researched),
+experiential (Project Worldwide only). Barely reached: outdoor/retail media owners, loyalty, media buying/performance agencies.
+REGIONS: US, UK, Germany, Spain, Sweden, Luxembourg, Japan, India, Brazil. Not reached with local sources: France, Italy, Netherlands,
+Nordics (beyond Transcom), South Korea, China, Gulf (names checked only), Africa, rest of Latin America.
+
+COUNTS
+- Names extracted to DISC: 151; all run through check.py.
+- check.py/other results in DISC: NEW 128, IN MASTER 8, ALREADY DELIVERED 3, F1 PARTNER 1, POSSIBLE 3 (Kantar, Edelman = different
+  companies, kept; Staples Promotional Products = left out), LISTED 8 (by page evidence).
+- Researched: 23. MAIN: 15 (Route A 12, Route C 3). WATCH: 8. DUPS file: 14 lines.
+- Left out (non-duplicate reasons): Global Media & Entertainment (McLaren F1 sponsor, May 2026); Tokyu Agency (corporate conviction,
+  Olympic bid-rigging); jeki (subsidy overbilling, 2025-26); Daiko (executive's Olympic bribery conviction final; Route A revenue met,
+  the user may choose to override); Wasserman (direct competitor, sports marketing agency, being sold); Atento (ABAI acquisition, status unclear);
+  listed: LLYC, Advantage Solutions, TaskUs, Cimpress, Cintas, Deluxe, Stran, 4imprint; BAMKO (believed listed parent, unverified).
+
+MAIN: Nielsen, Kantar, Edelman, Foundever, FGS Global, Serviceplan Group, RRD, Transcom, InMobi, Vericast, Asahi Advertising,
+Yomiuri Advertising, APCO Worldwide, Real Chemistry, Teneo.
+Caveats: RRD and Real Chemistry revenue is FY2022 (flagged); Nielsen's revenue is 2021, so it qualifies on transaction value; Foundever's
+owner shown as Groupe Acticall (Wikipedia infobox shows old tickers); InMobi investor list may be out of date; Vericast's ultimate owner unconfirmed.
+WATCH: ADEX, HALO Branded Solutions, Proforma, BDA, HH Global (each meets Route A on revenue, but ownership/listing not confirmed:
+quick wins once verified); Mintel, Dynata (distressed), Project Worldwide (no figures).
+
+NOT RESEARCHED (99 DISC names): notably Brunswick, Inizio, Ruder Finn, Finn Partners, Kreab, Sard Verbinnen, Horizon Media, Wieden+Kennedy
+(partly), Jung von Matt, Fischer-Appelt, PMG, Tinuiti, Jellyfish, Brainlabs, MiQ, Madison World, Choueiri Group, BackLite, Circana (partly:
+PE-owned, no figures found), Toluna, Euromonitor, Freeman (check vs Freemans Event Partners, a Silverstone partner), Encore, PF Concept,
+Midocean, iPROMOTEu, Geiger, SanMar, S&S Activewear, Alorica, Collinson, Plusgrade, adtech names (StackAdapt, Madhive, Liftoff, Adform,
+Smartly.io), Brazilian independents (Galeria.ag, Artplan, WE, GUT), sports marketing agencies (competitors, not pursued).
+Delivered names have NOT been written to v2/delivered/ (left to the delivery step). Nothing here is exhaustive.
