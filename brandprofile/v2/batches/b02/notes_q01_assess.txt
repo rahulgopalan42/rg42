@@ -1,0 +1,35 @@
+Batch b02, file q01 (80 companies from in_q01.jsonl), worked in file order, 27 Nov 2026.
+
+check.py was run on every input name, then on short brand names, trading names and main brands (Lidl, Kaufland, Bosch, Pon, Tchibo, Penny,
+SHV Energy, Makro, Nutreco, Mammoet, Swire Coca-Cola, Benetton, Zeiss, Tetra Pak, SOCAR, MSC, LEGO, Jumbo, etc.).
+
+RESEARCHED
+MAIN (18): Louis Dreyfus Company; Porsche Holding; Chanel; Cordes & Graefe (GC-Gruppe); VAROPreem (ex Varo Energy); Subway; Droege Group;
+  Loterias y Apuestas del Estado (SELAE); Graybar; MHK Group (Route C); SBB; DXT Commodities (low confidence, ranking page only, owner unverified);
+  Transgourmet (parent Coop Group is IN MASTER - subsidiary with own brand, flagged for the user); Swiss Post; Wiener Stadtwerke; Air France
+  (subsidiary of listed Air France-KLM); Allianz Partners (Route C; subsidiary of listed Allianz SE); CSL Behring (subsidiary/division of listed
+  CSL Limited, low confidence - may be judged a division).
+WATCH (3): Suning Holdings Group (distress, figures 2020, consumer brand Suning.com listed); Xinjiang Guanghui (no recent figures, compliance
+  sensitivity); Alfa Romeo (brand of listed Stellantis, no brand-level financials; Yas Marina Circuit partner listing via UAE distributor).
+Low-fit records (domestic state or B2B entities): SBB, Swiss Post, Wiener Stadtwerke, SELAE, CSL Behring, Graybar, Cordes & Graefe, Droege, MHK, DXT.
+
+LEFT OUT (57 lines in dups_q01_assess.jsonl)
+- In master / already delivered / F1 partner, including via short brand or main brands: Schwarz-Gruppe (Lidl, Kaufland), Aldi Nord/Sud, Cargill
+  International, Robert Bosch GmbH (Bosch), Mercuria Energy Trading, MSC Group, Mediterranean Shipping Company, Phoenix Pharmahandel, Mercadona,
+  Groupe Auchan, Coop-Gruppe, Migros, Debiopharm, C.H. Boehringer Sohn (Boehringer Ingelheim), Socar Energy Trading (SOCAR delivered b01),
+  SHV Holdings and SHV (SHV Energy, Makro, Nutreco; Mammoet F1), Rewe International (REWE Group), Swire (Swire Coca-Cola), Spar Osterreich,
+  Knauf, Tetra Pak International, Rossmann, maxingvest (Tchibo), Freudenberg, Liebherr, Jumbo, Carl Zeiss, Globus, Pon, Edizione (Benetton),
+  B. Braun, Wilhelm Hoyer, Lego (F1), Brose, Rhenus, Ahorramas, ALDI Espana.
+- Listed: BNP Paribas, BHP, BayWa, Inditex, Swisscom, ABN AMRO, BBVA, National Stock Exchange of India (listed on BSE 24 Sep 2026).
+- Not a separate company: Repsol Fuels, Repsol Soluciones Energeticas, Repsol Trading, Stellantis Espana, Endesa Energia, Iberdrola Clientes,
+  Centros Comerciales Carrefour, Aditya Birla Management Corporation.
+- Duplicate within file: Louis Dreyfus Company B.V. (written once as Louis Dreyfus Company).
+- Other: HNA Group (bankrupt and broken up 2021); Cedar Holdings Group (missed CNY 20bn client payments 2022, compliance concern).
+
+NOT RESEARCHED
+- Yango Longking Group: no page about the group itself could be opened; the pages found cover only the separate listed-then-delisted Yango Group
+  (Shenzhen 000671, delisted Aug 2023) and the Dubai ride-hailing Yango. check.py: POSSIBLE vs Yango (master), which is a different company.
+- Automotive (automotive.quest, Turkey, Clay): site returned 503 and the LinkedIn page 403; identity could not be established.
+
+WebSearch: 3 used (LDC 2025 results, DXT Commodities ownership, Chanel F1 check). Verified LDC figures from the LDC press-release PDF itself.
+Unverified search-snippet items not used as facts: DXT-Duferco link, Chanel/The Boat Race.

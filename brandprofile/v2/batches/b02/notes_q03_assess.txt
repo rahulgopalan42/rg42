@@ -1,0 +1,19 @@
+q03 assessment (batch b02), 27 Nov 2026. Input: in_q03.jsonl, 80 rows (elEconomista Spain ranks 31-77, de.wikipedia Austria/Switzerland lists, familybusinessindex.com, Forbes PL, Il Post, BC Business).
+All 80 names run through check.py, plus brand/parent aliases (Auchan, Aldi, Moeve, Vueling, Quironsalud, Werhahn, Haniel, Maspex, Leroy Merlin, Axpo, Horse Powertrain, Gruppo Veronesi, MasOrange, Zegona, etc.).
+WebSearch used: 1 of 3 (Werco Trade, no useful result).
+
+RESEARCHED - MAIN (21, all Route A): Roquette; Magna Steyr; Alcampo; Hofer; Münze Österreich (Austrian Mint); Bulmarket; Pan American Energy (PAE); De Agostini; Pelion; Cofares; Axel Springer; Shapoorji Pallonji Group; Alex Lee; Bidafarma; Air Europa; ONCE; Mango; Bonpreu; Cedrob; bonÀrea Agrupa (Corporación Alimentaria Guissona); Pontegadea.
+RESEARCHED - WATCH: none.
+Flags for the user: Alcampo (parent Auchan IN MASTER) and Hofer (parent ALDI SÜD on master as POSSIBLE) kept per task instruction as own-brand national businesses; user to decide. Pontegadea is a borderline passive family-office holding (fit near zero). PAE: shareholder BP and the Castrol brand are F1 partners (noted in category_conflict). Mango, Axel Springer and Air Europa carry reputational/compliance notes.
+
+LEFT OUT (57, see dups_q03_assess.jsonl):
+- Master/delivered duplicates (incl. via brand name): Grimaldi Group, PPF Group, Mortenson, Consum, Moeve Commercial, Moeve Chemicals, AMAG, Werhahn, Haniel, PHW Group, Maspex, Leroy Merlin España, Vueling, IDCQ (=Quirónsalud), Horse Powertrain Spain, Horse Powertrain Solutions, Cremonini, Axpo Iberia, Veronesi Holding (master as Gruppo Veronesi).
+- Listed / merged: Clariant (SIX), Firmenich (merged into listed dsm-firmenich 2023).
+- Not a separate company (national arm, division, plant of listed/foreign group): Airbus Defence and Space, Telefónica Móviles España, Dia Retail España, Apple Switzerland, VW Group España Distribución, VW Navarra, Galp España, ArcelorMittal España, Zara España, Iberdrola España, Iberdrola Energía España, CCEP Iberia, Iveco España, Michelin España Portugal, Toyota España, Best Buy Canada, Renault España Comercial, Repsol Materials, Google Switzerland, Electraworks (Entain), BMW Schweiz, BMW Ibérica, Nestlé España, Mercedes-Benz Schweiz, Naturgy Clientes Empresas, Aldi Suisse, Acciona Construcción, Orange Espagne (wholly Orange since Jun 2026), Actelion (J&J), Elk Valley Resources (Glencore), Vodafone España (Zegona, LSE), Pavilion Energy Spain (site redirects to Shell), Markant Österreich (Markant AG), Fininvest (holding of listed MFE/Mondadori).
+- Other: Sareb (state bad-bank wind-down vehicle, 2027 deadline); Grupo Bidafarma (same company as Bida Farma, assessed once).
+
+NOT RESEARCHED (2):
+- Werco Trade (Zug commodity trader): werco.ch not reachable from this session (DNS/allowlist); no Wikipedia article; one WebSearch found only a register mention. Owner unknown (verify sanctions/Russia exposure before any use).
+- Artemis Holding (Hergiswil): no page about the holding opened (artemis-group.com is an unrelated Munich M&A boutique). Franke key-figures page opened (CHF 2.05bn sales, 33 countries) but it does not state the Artemis ownership, so no record written.
+Also noted but not assessed: Markant AG (parent of Markant Österreich) could be a separate B2B candidate.
+Not done: v2/delivered/ not updated (names are not yet delivered).
