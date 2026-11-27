@@ -128,7 +128,7 @@ def coverage(R, raw, Q, W, I, X, leads, D):
          ['Left out: delivered in an earlier batch'] + cnt(lambda r: r['stage'] == 'Left out: delivered in an earlier batch') + ['Batch 1 (ranked and watchlist companies).'],
          ['Left out: holds a current F1 deal'] + cnt(lambda r: r['stage'] == 'Left out: holds a current F1 deal') + ['Championship, team or Grand Prix partner.'],
          ['Left out: listed company'] + cnt(lambda r: r['stage'] == 'Left out: listed company') + ['Own shares publicly traded.'],
-         ['Left out by the research for another reason'] + cnt(lambda r: r['stage'].startswith('Left out by the research') or r['stage'].startswith('Left out: russian') or r['stage'].startswith('Left out: name')) + ['Alias of a master company, closed, absorbed, sanctioned and similar; the reason is in the Discovery Register.'],
+         ['Left out by the research for another reason'] + cnt(lambda r: r['stage'].startswith('Left out by the research') or r['stage'].startswith('Left out: russian') or r['stage'].startswith('Left out: name') or r['stage'].startswith('Left out: same company')) + ['Alias of a master company, closed, absorbed, sanctioned and similar; the reason is in the Discovery Register.'],
          ['Genuinely new and financially qualified (ranked)'] + cnt(lambda r: r['stage'] == 'Ranked') + ['On the Consolidated Ranking and the sector tabs.'],
          ['Researched: needs financial verification'] + cnt(lambda r: r['stage'] == 'Verification watchlist') + ['On the Verification Watchlist tab.'],
          ['Researched: insufficient capacity on the figures found'] + cnt(lambda r: r['stage'].startswith('Researched: insufficient')) + ['Supporting Research tab only.'],
@@ -141,6 +141,10 @@ def coverage(R, raw, Q, W, I, X, leads, D):
 def extras(D, Q, W, I, X, batch):
     import write as Wr
     R, raw = register(D, Q, W, I, X, batch); leads = clay_leads(R, batch); T = coverage(R, raw, Q, W, I, X, leads, D)
+    byname = {r['name']: r for r in R.values()}
+    for d in Q + W + I + X:                              # one answer per company on how it was found: the register's, which sees all streams
+        r = byname.get(B.clean(d['name']))
+        if r: d['_via'] = r['via']
     n = len(Q); bn = batch[1:].lstrip('0'); fmt = lambda c: '; '.join(f'{k} {v}' for k, v in c.most_common())
     pr = Counter(d['A']['priority'] for d in Q); cf = Counter(d['A']['conf'] for d in Q); tr = Counter(d['A']['tier_txt'] for d in Q); rt = Counter('Route ' + d['A']['route'] for d in Q)
     own = Counter(B.clean(d.get('ownership_type')) or 'requires verification' for d in Q); reg = Counter(Wr.region(d) for d in Q); sec = Counter(d['sector'] for d in Q); via = Counter(d.get('_via') for d in Q)

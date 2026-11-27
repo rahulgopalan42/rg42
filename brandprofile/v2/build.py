@@ -87,9 +87,11 @@ def load(only=None):
     keep = []; excluded = []; manual = {}
     for bd in glob.glob(os.path.join(H, 'batches', '*')):                       # duplicates found by the second pass (fuzzy.py) and confirmed by hand
         mp = os.path.join(bd, 'manual_dups.json')
-        if os.path.exists(mp): manual.update({norm(x[0]): x[1] for x in json.load(open(mp, encoding='utf-8'))})
+        if os.path.exists(mp): manual.update({norm(x[0]): (x[1], x[2] if len(x) > 2 else 'master') for x in json.load(open(mp, encoding='utf-8'))})
     for d in recs:
-        if norm(clean(d['name'])) in manual: excluded.append((clean(d['name']), 'Already on the master: ' + manual[norm(clean(d['name']))], d['_cluster'])); continue
+        if norm(clean(d['name'])) in manual:
+            why, kind = manual[norm(clean(d['name']))]
+            excluded.append((clean(d['name']), ('Same company entered twice in this batch: ' if kind == 'batch' else 'Already on the master: ') + why, d['_cluster'])); continue
         nm = clean(d['name']); st, disp, src, hits = C.lookup(nm + (' | ' + clean(d.get('website')) if clean(d.get('website')) else ''), batch=d['_batch'])
         if st in ('dup', 'f1'): excluded.append((nm, ('Already delivered: ' if src.startswith('delivered') else 'Already on the master: ' if st == 'dup' else 'Holds a current F1 deal: ') + src, d['_cluster'])); continue
         if RUSSIA.search(clean(d.get('hq_country'))): excluded.append((nm, 'Russian company (geographic exclusion)', d['_cluster'])); continue
