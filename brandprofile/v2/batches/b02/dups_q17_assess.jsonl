@@ -6,3 +6,6 @@
 {"name": "Esprinet Iberica", "why": "not a separate company: Spanish national entity of Esprinet (LISTED? - matches the listed company Esprinet, Borsa Italiana)"}
 {"name": "CPFL Energia", "why": "listed (B3: CPFE3; NYSE: CPL); 83.71% owned by State Grid"}
 {"name": "Creganna Medical", "why": "not a separate company: part of TE Connectivity (listed); creganna.com redirects to te.com/products/brands/creganna"}
+{"name": "Ipca", "why": "listed (BSE 524494; NSE IPCALAB) as Ipca Laboratories"}
+{"name": "Coficab Mexico", "why": "not a separate company: Mexican/Spanish-filed national entity of Coficab Group (Elloumi group, Tunisia); no commercial identity of its own (parent Coficab Group is NEW on check.py and could be assessed separately)"}
+{"name": "World Vision", "why": "other: humanitarian charity (World Vision Australia), not a commercial operating company"}

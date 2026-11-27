@@ -1,0 +1,32 @@
+NOTES - batch b02, queue q15 (in_q15.jsonl, 80 companies), verified 2026-11-27
+Tools: check.py on every name plus brand names and parents (Insud Pharma, Geopost, Iberostar, Bolton Group, NTT Data, Coesia, Cognita,
+Claro/America Movil, Woolworths, Richemont, Toyota Tsusho, Netmarble, KFH and others). WebSearch used 3 of 3 (CITIC Dicastal, Aegea, SayGames).
+WebFetch: company sites, Wikipedia (en/de/es/fr/it/pt/ko/tr), MarkLines, CNN Brasil, Bloomberg Linea, PocketGamer.biz, ASI Counselor,
+IBISWorld Top 500 Private 2022 PDF (extracted locally; shows ^ = revenue estimate, ^^ = estimate for both years, plus employee counts).
+
+RESEARCHED - MAIN (35): Acesur (Coosur), Peter Kittle Motor Company, Charter Schools USA, KDS Group, SEB (Grupo SEB), Kreissparkasse Koln,
+Clementoni, Tragsa, CFAO, Bing Lee, Chevron Phillips Chemical, Chloe, Betika, Acquedotto Pugliese, Imagination, Euronics International,
+Kuda (Route B), World2Meet (W2M), Walker Corporation, CBHS Health Fund, Hemsley Fraser, Lippo Group, Grupo Comolatti, cosnova, Inizio,
+ClinChoice, Gruppo Humanitas, Expert International, LuLu Exchange, CITIC Dicastal, Aegea Saneamento, SayGames, SpinX Games, Petstock, BetPlay.
+RESEARCHED - WATCH (13): Yanbu United Company, Select Button, Libra Group, Hackers Education Group, Collistar, Reiza Studios, CYBEX,
+Kuveyt Turk, betPawa, EVERRICH Duty Free, Honorlock, Pickles Auctions, AGnVET (last two: IBISWorld revenue is marked as an estimate).
+Kept for review although the parent is on the master (distinct brand, different line of business): World2Meet (Iberostar), Collistar (Bolton Group).
+
+LEFT OUT (22, in DUPS):
+- listed: CXMT (STAR Market since Jul 2026), CIRSA (Bolsa de Madrid, Jul 2025), Hikma, Hisamitsu, LOLC Holdings.
+- not a separate company: Zimmer GmbH, Kia Iberia, Hyundai Motor Espana, Arval Service Lease, ArcelorMittal Commercial Spain,
+  Curenergia (Iberdrola), Cigierre Academy, Hermes Pardini (Grupo Fleury brand), I-Planet (Mitsubishi Electric group).
+- duplicates / F1: Chemo (Insud Pharma, master), Chronopost (regional brand of Geopost, master), NTT Data Spain, Coesia, Cognita (master);
+  Claro Brasil, Claro Colombia (F1 partner Claro).
+- other: CIMRU (parked domain, 2 employees).
+
+NOT RESEARCHED (11, no usable page opened):
+- Mort & Co (mortandco.com.au DNS failure; morts.com.au is a different business), Bowens Timber & Hardware (site 403),
+  Stowe Australia (stowe.com.au does not resolve) - all three appear in the IBISWorld PDF only.
+- Betcris (site 403, no Wikipedia article), BetKing (betking.com 403; kingmakers.com does not mention BetKing),
+  Duty Free Americas (site 403, no Wikipedia article), Coscharis (coscharis.com is a parked domain),
+  ADCO Group (site 503; identity unclear vs ADCO Constructions already delivered), IMS (only a ranking row: USD 193.5m 2024
+  promo sales, rank 16 - identity and website unresolved), COFCO International (site 403; Wikipedia 'COFCO International' is China Foods, a different listed company).
+
+Caveats: many IBISWorld and elEconomista revenue figures are older than 3 years (flagged in period/outstanding). Websites left blank where not opened.
+Delivered names are not yet recorded in v2/delivered/ (left to the caller).

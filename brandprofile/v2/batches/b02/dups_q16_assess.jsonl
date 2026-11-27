@@ -2,3 +2,6 @@
 {"name": "Commission base earning - Work From Home", "why": "other: Clay artefact, not an identifiable operating company (4 LinkedIn employees, no website; Clay 1B-10B bracket is meaningless here); not researched further"}
 {"name": "Hypera", "why": "listed (B3: HYPE3, Ibovespa component) per https://en.wikipedia.org/wiki/Hypera_Pharma; check.py POSSIBLE (HyperAccel) is a different company"}
 {"name": "Janssen Cilag", "why": "not a separate company: Spanish entity (Janssen-Cilag S.A., sociedad anónima unipersonal, Pozuelo de Alarcón) of Johnson & Johnson (listed, NYSE); check.py flags Johnson & Johnson as LISTED (https://ranking-empresas.eleconomista.es/JANSSEN-CILAG.html)"}
+{"name": "Confidential", "why": "other: Clay artefact; LinkedIn page 'lgoo' with a generic 'Confidential' name, no website, no identifiable legal entity; Clay 1B-10B bracket not credible"}
+{"name": "Confidential Careers", "why": "other: anonymous job board (confidential.careers) naming no owner, HQ or legal entity; Clay data (29,907 employees, 1B-10B) not credible; no identifiable company to assess"}
+{"name": "Confidential Global Company", "why": "other: Clay artefact; placeholder LinkedIn page with 28 employees, no website or identifiable company"}

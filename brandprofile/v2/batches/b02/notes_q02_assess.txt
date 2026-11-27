@@ -1,0 +1,28 @@
+NOTES q02_assess (batch 2 queue), 27 Nov 2026
+Input: in_q02.jsonl, 80 companies (58 Clay rows with modelled USD 10B-100B bracket; 22 from elEconomista Spain ranking, familybusinessindex.com, Swiss/German Wikipedia lists, Elsevier NL family list).
+check.py run on all 80 plus short brand names, main brands and parents (BNL, InVivo, EDF, Messer, Natixis, Lidl, Schwarz, Dr. Oetker, Iberia, JCB, Jumbo, Manor, Lacoste, Copersucar, Cargill, Solenis, Carlyle, Advent, etc.).
+
+RESEARCHED: 22 records
+MAIN (19): Bernhard Schulte Shipmanagement (C), BW Group (C), CB&I (C), Europ Assistance/Redion (A), Flamingo Horticulture (A, GBP 646.7M FY25), Grupo Cobra (A), La Banque Postale (A), Marelli (C, in Chapter 11), Marlow Navigation (C), Netcracker Technology (C), Red Bee Media (C), ReSource Pro (C), RTE (A), SAS Scandinavian Airlines (A), Sedgwick (A, USD 13.2bn EV), Sun Chemical (A), V.Group (C), WestJet (A), Ameropa Holding (A).
+WATCH (3): Columbia Shipmanagement (no scale figures found), Cordier by InVivo (Clay bracket belongs to InVivo group), Plátano de Canarias / ASPROCAN (no sales value).
+Clay brackets kept as "estimated" fin entries and never used as reported revenue; for the shipping and services firms the USD 10B+ bracket is not credible and is flagged in `outstanding`.
+
+LEFT OUT: 58 (DUPS)
+- On master / delivered / F1 partner, or parent on master (19): BNL, Messer, Nationwide (= Nationwide Mutual), Natixis CIB, Syneos, Lidl Supermercados, Dr. August Oetker KG (= Dr. Oetker), Iberia, Eberspächer, Wieland (= Wieland-Werke), Maus Frères (main brands Manor and Lacoste in master), NCH and Chem-Aqua (now part of Solenis, already delivered in b01), bp España, Mercedes-Benz España, J.C.B. Service (JCB), Jumbo Groep, Ford España; Alvean (parents Copersucar and Cargill in master).
+- Listed (18): Casino/Plesio, Cencosud, EDP, Gestamp, KIOXIA, LATAM, MTN, Orkla, Poste Italiane, Qantas, Renault Group, SBI Life, Southern Peru Copper, thyssenkrupp, İşbank, Wilhelmsen, WT Microelectronics, Aena.
+- Not a separate company (national units, divisions, single sites) (15): Enedis, Generali Italia, Infineon Canada, Nipro LATAM, Samsung Semiconductor, Sellafield Ltd, SEWS-E, SVOLT Europe, Telefónica de España, Petronor (single refinery, 86% Repsol: borderline), Renault España, Engie España, Gas Natural Comercializadora, Naturgy Aprovisionamientos, Endesa Generación.
+- Merged away (3): CM-CIC Securities, GL Group, Groupe PSA.
+- Russian / sanctions exposure (2): Russian Standard Vodka, EuroChem.
+- Other (1): No-Company (holding with no verifiable operating business).
+Listing for Cencosud, EDP, LATAM, MTN and Aena not re-verified on a page (Wikipedia rate-limited the session); the DUPS lines say so.
+
+NOT RESEARCHED: none.
+
+Points for the user:
+- RTE is 50.1% owned by EDF, which is on the master. It is kept as a separate unlisted company, with low fit. The user decides.
+- Cordier by InVivo: check.py matched "InVivo" IN MASTER, in the Consumer Health & Wearables tab. That is probably a different company. Confirm this before delivery.
+- Sedgwick's majority owner Carlyle is a current F1 partner. This is recorded in category_conflict.
+- Marelli: sources disagree on the Chapter 11 filing date (June 2025 vs June 2026).
+- Flamingo HQ is Stevenage, UK, not Norway as the input says.
+WebSearch used: 3 of 3 (Marelli Chapter 11; Sedgwick ownership; Gestamp delisting). WebFetch and direct page fetches for the rest.
+No names written to v2/delivered/ (assessment only; delivery step not part of this brief).
