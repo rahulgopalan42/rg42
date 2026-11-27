@@ -23,7 +23,7 @@ def run(batch):
         if not T: continue
         seen = set()
         for t in T:
-            if freq[t] > 6 or len(t) < 4: continue
+            if freq[t] > 6 or (len(t) < 4 and not (len(T) == 1 and len(t) == 3)): continue
             for mn, src, MT in idx.get(t, []):
                 if mn in seen: continue
                 if (T <= MT or MT <= T) and re.sub(r'[^a-z0-9]', '', mn.lower()) != re.sub(r'[^a-z0-9]', '', nm.lower()):
