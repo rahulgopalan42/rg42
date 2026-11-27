@@ -24,6 +24,8 @@ CLUSTER = {'d01_asset_wealth': 'asset management, wealth management and private 
            's07_diversified': 'conglomerates and family holding groups', 's08_healthcare': 'pharma, medical technology and healthcare services, in depth', 's09_retail': 'retail and e-commerce, in depth',
            's10_automotive': 'automotive and mobility, in depth', 's11_financial': 'payments, financial services and banking, in depth', 's12_consumer': 'consumer products, beauty and home, in depth',
            'c01_europe': 'largest non-listed and family companies by country, Europe (local-language rankings)', 'c02_world': 'largest non-listed, family and state companies by country, outside Europe',
+           's13_food_agri': 'food, beverage and agriculture, in depth', 's14_media_sports': 'media, entertainment, sports and fitness, in depth', 's15_travel': 'travel, hotels, leisure and airlines, in depth',
+           's16_tech_telecom': 'telecommunications, electronics and IT services, in depth', 's17_industrial': 'industrial, chemicals, building products and packaging, in depth',
            'v01_clay': 'Clay leads verified on the web (part 1)', 'v02_clay': 'Clay leads verified on the web (part 2)', 'v03_clay': 'Clay leads verified on the web (part 3)'}
 FILE_OK = re.compile(r'^(watch_|dups_)?[a-z]\d\d_[a-z0-9_]+$')
 def via(d):
