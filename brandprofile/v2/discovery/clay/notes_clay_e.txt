@@ -26,3 +26,16 @@ Q6 | page 3 | 20 rows | hasMore=true
 Q6 | page 4 | 20 rows | hasMore=true
 Q6 | page 5 | 20 rows | hasMore=true
 Q6 | page 6 | 20 rows | hasMore=true
+
+SUMMARY
+Pages read: 28 of the 40-page cap (560 rows saved, about one row per company; Clay repeats some companies across queries, e.g. KPMG India, MRV, Radisson, HONOR, TIA, Cafam, Manserv, MRS, PwC Middle East, Grant Thornton Bharat, İş İlanları).
+Q1 private 10,001+ revenue is_null: 4 pages, 80 rows, hasMore=true (unfinished). Low quality: mostly LinkedIn sub-pages for subsidiaries or regions, job boards and junk (e.g. "Elon Musk" scam page).
+Q2 private 10,001+ revenue 75M-200M/200M-500M/500M-1B: 4 pages, 80 rows, hasMore=true (unfinished). Mostly LatAm, MENA and India groups; some listed companies (Bimbo, Orascom, Dexco).
+Q3 private 5,001-10,000 revenue 500M-1B/1B-10B, ai_business_types contains "B2C": 6 pages, 120 rows, hasMore=true (unfinished). The query was run exactly as given, with no is_null fallback.
+Q4 Partnership revenue 500M-1B/1B-10B/10B-100B: 4 pages, 80 rows, hasMore=true (unfinished). Mostly Big Four and law-firm country pages, plus some junk rows (e.g. "None at this time", "AI Agents Hub", "Team for the Planet").
+Q5 Government Agency revenue 1B-10B/10B-100B/100B-1T in 7 industries: 4 pages, 80 rows, hasMore=true (unfinished). Mostly central banks, regulators, ministries and utilities. The few state-owned commercial names: ADNOC, QatarEnergy, Saudia, EgyptAir, Air India, Indian Oil, PEMEX, KPC, Libya NOC, PrivatBank, Ethio telecom, Dubai Airports, Orpic.
+Q6 private 10,001+ revenue 1B+, not locations.any(country_name in US/UK/DE/FR/ES/CH): 6 pages, 120 rows, hasMore=true (unfinished). Pages 7+ were not read.
+No field, operator or value was rejected; all six queries ran as written. "not locations.any(...)" was accepted, but it uses the rows' country field and some rows have no country.
+Why I stopped at 28 pages: each page returns long descriptions, so the remaining 12 pages would not fit in this agent's context. The cap was not reached.
+The "desc" field holds a shortened first sentence (not always exactly 200 characters) plus any sentence about an owner, parent or listing, joined with " || ".
+disc_check.py counts: NEW 341, POSSIBLE 43, IN MASTER 127, F1 PARTNER 17, LISTED 18, ALREADY DELIVERED 14 (total 560).

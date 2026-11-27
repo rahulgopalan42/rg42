@@ -6,3 +6,6 @@
 {"name": "ADES - Advanced Energy Systems", "why": "listed (Saudi Exchange; check.py: LISTED? matches the listed company ADES Holding Company)"}
 {"name": "Getir", "why": "merged away: core Turkish food, grocery, marketplace and water businesses being acquired by listed Uber (regulatory approval June 2026); all foreign operations closed May 2024"}
 {"name": "ZARA", "why": "not a separate company: brand of Inditex, which is listed (check.py: Inditex LISTED? matches the listed company Inditex)"}
+{"name": "TFG Brands (London) Limited", "why": "not a separate company: UK holding entity (TFG London segment) of The Foschini Group, which is listed (JSE; check.py: Foschini LISTED?); it trades only through its brands Phase Eight, Hobbs and Whistles (each NEW in check.py, not researched here)"}
+{"name": "Energiedienst Holding", "why": "listed (SIX Swiss Exchange; now Naturenergie Holding AG, EnBW 66.7%)"}
+{"name": "Grup Supeco Maxor", "why": "not a separate company: single-shareholder Carrefour Spain operating company (Supeco banner; registered at Carrefour's Alcobendas A-1 address, site carrefour.es), part of listed Carrefour"}
