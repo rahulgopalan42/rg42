@@ -1,0 +1,19 @@
+{"name": "Allianz Egypt", "why": "not a separate company: national insurance entity of Allianz SE (listed, Xetra)"}
+{"name": "Aluar", "why": "listed (Buenos Aires Stock Exchange, ALUA; MERVAL component) per https://en.wikipedia.org/wiki/Aluar"}
+{"name": "Altrad Services APAC", "why": "not a separate company: Asia-Pacific regional services arm of Altrad Group (Altrad itself is NEW on check.py and could be assessed as the group)"}
+{"name": "Nordex Energy Spain", "why": "not a separate company: Spanish operating entity of Nordex SE (listed, Frankfurt)"}
+{"name": "Anadolu Group", "why": "listed (Borsa Istanbul, AGHOL) per https://tr.wikipedia.org/wiki/Anadolu_Grubu"}
+{"name": "Applus+ Pacific", "why": "not a separate company: Australian regional arm of Applus+ group"}
+{"name": "PASHA Holding", "why": "other: compliance. Owned by the Aliyev and Pashayev families (Azerbaijan's presidential family); Wikipedia states it 'has been embroiled in high-level corruption in Azerbaijan' (https://en.wikipedia.org/wiki/PASHA_Holding). Route A met (revenue about USD 3.1bn 2025) if the user accepts the exposure; Pasha Bank partly listed on Baku Stock Exchange since June 2026"}
+{"name": "Mankind", "why": "listed (NSE: MANKIND, BSE 543904; IPO April 2023) per https://en.wikipedia.org/wiki/Mankind_Pharma"}
+{"name": "Air Astana", "why": "listed (LSE, AIX and KASE, ticker AIRA; IPO February 2024) per https://en.wikipedia.org/wiki/Air_Astana"}
+{"name": "Assystem", "why": "listed (Euronext Paris, ASY) per https://en.wikipedia.org/wiki/Assystem"}
+{"name": "Anytime Fitness", "why": "regional brand of Purpose Brands (Orangetheory, Anytime Fitness), which is on the master (Australian Anytime Fitness operation of the same gym brand)"}
+{"name": "APRIL", "why": "part of RGE (Royal Golden Eagle), which is on the master: APRIL is owned by Sukanto Tanoto and 'managed by Royal Golden Eagle' per https://en.wikipedia.org/wiki/Asia_Pacific_Resources_International_Holdings"}
+{"name": "ARAUCO", "why": "listed (Bolsa de Santiago, CELARAUCO; part of listed Empresas Copec) per https://es.wikipedia.org/wiki/Arauco_(empresa)"}
+{"name": "Beer Brands", "why": "not a separate company: 'Tilray Beer Brands', New York (rank 12 on the Brewers Association 2025 list) is the beer division of Tilray Brands (listed, Nasdaq)"}
+{"name": "Archirodon Group N.V.", "why": "IN MASTER - master: All New Brands (as Archirodon Group)"}
+{"name": "Mars Veterinary Health", "why": "not a separate company: veterinary division of Mars, Incorporated, which is on the master (IN MASTER as Mars, Incorporated)"}
+{"name": "Samsung Electric (Schweiz)", "why": "not a separate company: Swiss sales entity of Samsung Electronics (listed, KRX)"}
+{"name": "SR Technics Switzerland", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as SR Technics)"}
+{"name": "Arçelik Türkiye", "why": "not a separate company: Turkish operating arm of Arçelik A.Ş. (listed, Borsa Istanbul; check.py LISTED? Arçelik)"}

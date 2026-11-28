@@ -1,0 +1,57 @@
+{"name": "Grimaldi Group", "why": "POSSIBLE - Grimaldi Group S.p.A. [master: All New Brands]: same company"}
+{"name": "PPF Group N.V.", "why": "IN MASTER - master: All New Brands (as PPF Group)"}
+{"name": "M.A. Mortenson Companies, Inc.", "why": "IN MASTER - master: All New Brands (as Mortenson)"}
+{"name": "Airbus Defence And Space", "why": "not a separate company: Spanish legal entity of Airbus Defence and Space, a division of Airbus SE (listed Euronext Paris)"}
+{"name": "Telefonica Moviles España", "why": "not a separate company: part of Telefónica S.A. (listed BME; check.py LISTED? on Telefonica)"}
+{"name": "Consum S Coop V", "why": "IN MASTER - master: All New Brands (as Consum)"}
+{"name": "Dia Retail España", "why": "not a separate company: Spanish operating entity of Distribuidora Internacional de Alimentación (DIA), listed BME"}
+{"name": "Moeve Commercial", "why": "IN MASTER via brand: Moeve [master: All New Brands]"}
+{"name": "AMAG-Gruppe", "why": "IN MASTER - master: All New Brands (as AMAG Group AG)"}
+{"name": "Apple Switzerland", "why": "not a separate company: part of Apple Inc. (listed Nasdaq)"}
+{"name": "Volkswagen Group España Distribucion", "why": "not a separate company: Spanish import/distribution entity of Volkswagen AG (listed)"}
+{"name": "Wilh. Werhahn KG", "why": "IN MASTER via brand: Werhahn [master: All New Brands]"}
+{"name": "Franz Haniel & Cie. GmbH", "why": "IN MASTER via brand: Haniel [master: All New Brands]"}
+{"name": "Volkswagen Navarra", "why": "not a separate company: single plant (Pamplona) of Volkswagen AG (listed)"}
+{"name": "PHW Group (Lohmann & Co. AG)", "why": "IN MASTER - master: All New Brands (as PHW-Gruppe (Wiesenhof))"}
+{"name": "Galp Energia España", "why": "not a separate company: Spanish arm of Galp Energia SGPS (listed Euronext Lisbon)"}
+{"name": "Arcelormittal España", "why": "not a separate company: Spanish arm of ArcelorMittal S.A. (listed)"}
+{"name": "Grupa Maspex", "why": "IN MASTER via brand: Maspex [master: All New Brands]"}
+{"name": "Zara España", "why": "not a separate company: Spanish Zara entity of Inditex (listed BME; check.py LISTED? on Inditex)"}
+{"name": "Leroy Merlin España", "why": "IN MASTER via brand: Leroy Merlin [master: All New Brands]"}
+{"name": "Iberdrola España", "why": "not a separate company: part of Iberdrola S.A. (listed BME)"}
+{"name": "Vueling Airlines", "why": "IN MASTER via brand: Vueling [master: All New Brands]"}
+{"name": "Idcq Hospitales Y Sanidad", "why": "IN MASTER via brand: IDCQ Hospitales y Sanidad is the legal entity of Quirónsalud [master: All New Brands (as Quirónsalud)]"}
+{"name": "Coca-Cola Europacific Partners Iberia", "why": "not a separate company: Iberian arm of Coca-Cola Europacific Partners plc (listed)"}
+{"name": "Horse Powertrain Spain", "why": "ALREADY DELIVERED via brand: Horse Powertrain (b01)"}
+{"name": "Iveco España", "why": "not a separate company: Spanish arm of Iveco Group (listed); also POSSIBLE - Iveco [current F1 partner (Ferrari)]"}
+{"name": "Michelin España Portugal", "why": "not a separate company: Iberian arm of Michelin (listed Euronext Paris)"}
+{"name": "Toyota España", "why": "not a separate company: Spanish distributor of Toyota Motor Corporation (listed)"}
+{"name": "Best Buy Canada", "why": "not a separate company: Canadian arm of Best Buy Co. (listed NYSE), trades as Best Buy"}
+{"name": "Renault España Comercial", "why": "not a separate company: Spanish sales entity of Renault Group (listed)"}
+{"name": "Cremonini", "why": "POSSIBLE - Cremonini S.p.A. [master: All New Brands]: same company"}
+{"name": "Moeve Chemicals", "why": "IN MASTER via brand: Moeve [master: All New Brands]"}
+{"name": "Iberdrola Energia España", "why": "not a separate company: part of Iberdrola S.A. (listed BME)"}
+{"name": "Repsol Materials", "why": "not a separate company: part of Repsol S.A. (listed BME)"}
+{"name": "Google Switzerland", "why": "not a separate company: part of Alphabet (listed); also POSSIBLE - Google [current F1 partner (McLaren)]"}
+{"name": "Electraworks (Ceuta)", "why": "not a separate company: Ceuta-registered operating entity of Entain plc (listed LSE)"}
+{"name": "Horse Powertrain Solutions", "why": "ALREADY DELIVERED via brand: Horse Powertrain (b01)"}
+{"name": "BMW (Schweiz)", "why": "not a separate company: Swiss sales arm of BMW AG (listed)"}
+{"name": "Nestle España", "why": "not a separate company: part of Nestlé S.A. (listed); also POSSIBLE - Nestlé (KitKat) [current F1 partner (Formula 1)]"}
+{"name": "Mercedes-Benz Schweiz", "why": "not a separate company: Swiss arm of Mercedes-Benz Group (listed); also POSSIBLE - Mercedes-Benz [current F1 partner]"}
+{"name": "Naturgy Clientes Empresas", "why": "not a separate company: part of Naturgy Energy Group (listed BME)"}
+{"name": "Aldi Suisse", "why": "not a separate company: Swiss arm of ALDI SÜD; POSSIBLE - ALDI SÜD Group [master: All New Brands]"}
+{"name": "Axpo Iberia", "why": "IN MASTER via brand: Axpo [master: NEW Nuclear & Fusion]"}
+{"name": "Bmw Iberica", "why": "not a separate company: Iberian sales arm of BMW AG (listed)"}
+{"name": "Acciona Construccion Iberia", "why": "not a separate company: part of Acciona S.A. (listed BME)"}
+{"name": "Grupo Bidafarma", "why": "duplicate within input: same company as 'Bida Farma S.Coop.And' (row 53), assessed there"}
+{"name": "Markant Österreich", "why": "not a separate company: Austrian entity of Markant AG (European retail back-office/central-settlement service provider, markant.com); the input figure is settlement volume, not revenue. Markant AG itself not assessed in this file"}
+{"name": "Orange Espagne", "why": "not a separate company: Orange España (ex-MasOrange) became a wholly owned subsidiary of Orange S.A. (listed) on 8 Jun 2026 and readopted the Orange España name (es.wikipedia.org/wiki/MasOrange)"}
+{"name": "Firmenich International", "why": "merged away: merged with DSM in May 2023 into dsm-firmenich (listed) (en.wikipedia.org/wiki/Firmenich)"}
+{"name": "Clariant", "why": "listed (SIX Swiss Exchange: CLN)"}
+{"name": "Actelion", "why": "not a separate company: part of Johnson & Johnson (listed NYSE) after the 2017 USD 30bn acquisition (en.wikipedia.org/wiki/Actelion)"}
+{"name": "Elk Valley Resources", "why": "not a separate company: part of Glencore plc (listed); evr.com now redirects to glencore.ca/evr, which presents it as part of the Glencore Group (4 BC steelmaking-coal mines, ~5,500 staff)"}
+{"name": "Fininvest Group", "why": "not a separate operating brand: Berlusconi family holding whose consolidated revenue comes mainly from listed MFE-MediaForEurope and Mondadori (it.wikipedia.org/wiki/Fininvest); no commercial identity of its own"}
+{"name": "Vodafone España", "why": "not a separate company: operating subsidiary of Zegona Communications plc (acquired 31 May 2024; Zegona is LSE-listed: check.py does not know it) trading under the licensed Vodafone brand (es.wikipedia.org/wiki/Vodafone_España)"}
+{"name": "Pavilion Energy Spain", "why": "not a separate company: Spanish gas-supply entity of Pavilion Energy, whose site pavilionenergy.com now redirects to shell.com.sg (absorbed into Shell plc, listed; Shell is a current F1 partner)"}
+{"name": "Sociedad De Gestion De Activos Procedentes De La Reestructuracion Bancaria", "why": "other: Sareb, Spain's state-majority (FROB 50.14%) bad-bank asset-disposal vehicle with a 2027 liquidation/closure deadline and outsourced servicing (es.wikipedia.org/wiki/Sareb); no operating commercial brand"}
+{"name": "Veronesi Holding", "why": "IN MASTER via brand: Gruppo Veronesi [master: All New Brands (as Gruppo Veronesi)]"}

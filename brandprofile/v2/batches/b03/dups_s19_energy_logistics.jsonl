@@ -1,0 +1,71 @@
+{"name": "GS Caltex", "why": "already in batch-2 file c02_world.jsonl (parallel batch)"}
+{"name": "Kärcher", "why": "check.py POSSIBLE: Alfred Kärcher SE & Co. KG [master: All New Brands] - same company"}
+{"name": "Stihl", "why": "already in batch-2 file s12_consumer.jsonl (parallel batch)"}
+{"name": "Velux", "why": "parent VKR Group is IN MASTER (All New Brands); Velux is VKR's core brand - treated as alias"}
+{"name": "EPH (Energetický a průmyslový holding)", "why": "check.py IN MASTER: Energetický a průmyslový holding (EPH) [All New Brands]"}
+{"name": "Italo", "why": "already in batch-2 file s15_travel.jsonl (parallel batch)"}
+{"name": "Rönesans Holding", "why": "already in batch-2 file q18_assess.jsonl (parallel batch)"}
+{"name": "Uno-X", "why": "parent Reitan (check.py POSSIBLE: Reitan AS [master: All New Brands]) - station brand of registered parent"}
+{"name": "Trafigura", "why": "Left out: established serious compliance problems (2024 FCPA guilty plea, 2025 Swiss bribery conviction) per en.wikipedia.org/wiki/Trafigura"}
+{"name": "Gunvor", "why": "Left out: 2024 corruption conviction and USD 661M US/Swiss resolution; US Treasury 2025 statements (en.wikipedia.org/wiki/Gunvor)"}
+{"name": "Petrol Ofisi", "why": "Left out: page shows BIST ticker PTOFS (listed status to verify); owned by Vitol (IN MASTER)"}
+{"name": "Kintetsu World Express", "why": "Left out: page shows TSE ticker 9375 (listing status unverified); subsidiary of listed Kintetsu Group"}
+{"name": "Tarkett", "why": "Left out: listed on Euronext Paris (9.6% free float)"}
+{"name": "Atalian", "why": "Left out: compliance - former PDG Franck Julien convicted 2024 (abuse of company assets, aggravated money laundering); EUR 15M CJIP 2022"}
+{"name": "Shapoorji Pallonji", "why": "Left out: construction conglomerate outside cluster; loss-making FY23 and debt-driven divestments"}
+{"name": "Ardagh Group", "why": "Left out: page shows NYSE listing (AMBP) and 2025 bond restructuring"}
+{"name": "Ravenol", "why": "Left out pending check: on Austrian Grand Prix circuit partner page (Red Bull Ring official partner); not researched"}
+{"name": "MSC", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as MSC Mediterranean Shipping Company)"}
+{"name": "CMA CGM", "why": "IN MASTER - master: Left Out (as CMA CGM)"}
+{"name": "Pacific International Lines", "why": "IN MASTER - master: Capacity To Confirm (as Pacific International Lines)"}
+{"name": "X-Press Feeders", "why": "IN MASTER - master: Capacity To Confirm (as X-Press Feeders)"}
+{"name": "Korea Marine Transport", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Korea Marine Transport Company)"}
+{"name": "Sinokor Merchant Marine", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Sinokor Merchant Marine)"}
+{"name": "TS Lines", "why": "LISTED? - matches the listed company T.S. Lines Limited; leave it out if it is that company"}
+{"name": "Emirates Shipping Line", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Emirates Shipping Line)"}
+{"name": "Grimaldi Group", "why": "POSSIBLE - Grimaldi Group S.p.A. [master: All New Brands]"}
+{"name": "SM Line", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as SM Line)"}
+{"name": "Penske Logistics", "why": "POSSIBLE - Penske Corporation [master: Capacity To Confirm]"}
+{"name": "Flexport", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Flexport)"}
+{"name": "Hellmann Worldwide Logistics", "why": "IN MASTER - master: All New Brands (as Hellmann Worldwide Logistics)"}
+{"name": "Averitt Express", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Averitt Express)"}
+{"name": "Dachser", "why": "IN MASTER - master: All New Brands (as DACHSER Group)"}
+{"name": "Rhenus Logistics", "why": "IN MASTER - master: All New Brands (as Rhenus Logistics)"}
+{"name": "Savino Del Bene", "why": "IN MASTER - master: All New Brands (as Savino Del Bene)"}
+{"name": "Geodis", "why": "IN MASTER - master: All New Brands (as Geodis)"}
+{"name": "DB Schenker", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as DB Schenker)"}
+{"name": "Kötter", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Kötter)"}
+{"name": "WISAG", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as WISAG)"}
+{"name": "Piepenbrock", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Piepenbrock)"}
+{"name": "Apleona", "why": "IN MASTER - master: All New Brands (as Apleona)"}
+{"name": "Dussmann", "why": "IN MASTER - master: All New Brands (as Dussmann Group)"}
+{"name": "Allegis Group", "why": "IN MASTER - master: All New Brands (as Allegis Group)"}
+{"name": "Aya Healthcare", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Aya Healthcare)"}
+{"name": "Insight Global", "why": "IN MASTER - master: All New Brands (as Insight Global)"}
+{"name": "Express Employment Professionals", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Express Employment Professionals)"}
+{"name": "CHG Healthcare", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as CHG Healthcare)"}
+{"name": "Jackson Healthcare", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Jackson Healthcare)"}
+{"name": "Vitol", "why": "IN MASTER - master: All New Brands (as Vitol Group)"}
+{"name": "Reyes Holdings", "why": "POSSIBLE - Reyes Holdings, L.L.C. [master: All New Brands]"}
+{"name": "EG Group", "why": "IN MASTER - master: All New Brands (as EG Group)"}
+{"name": "Greenergy", "why": "IN MASTER - master: All New Brands (as Greenergy)"}
+{"name": "Love's Travel Stops", "why": "POSSIBLE - Love's Travel Stops & Country Stores [master: All New Brands]"}
+{"name": "Allied Universal", "why": "IN MASTER - master: NEW Cybersecurity (on your 48-tab sheet) (as Allied Universal)"}
+{"name": "Octopus Energy", "why": "IN MASTER - master: NEW EVs & New Mobility (on your 48-tab sheet) (as Octopus Energy Group)"}
+{"name": "Wawa", "why": "IN MASTER - master: All New Brands (as Wawa, Inc.)"}
+{"name": "RaceTrac", "why": "IN MASTER - master: All New Brands (as RaceTrac, Inc.)"}
+{"name": "ABC Supply", "why": "IN MASTER - master: All New Brands (as ABC Supply Co., Inc.)"}
+{"name": "QuikTrip", "why": "IN MASTER - master: All New Brands (as QuikTrip)"}
+{"name": "Calpine", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Calpine)"}
+{"name": "Menards", "why": "IN MASTER - master: All New Brands (as Menard, Inc. (Menards))"}
+{"name": "Hengli Group", "why": "IN MASTER - master: Left Out (as Hengli Group)"}
+{"name": "Kuwait Petroleum Corporation", "why": "POSSIBLE - Kuwait Petroleum International (Q8) [master: Capacity To Confirm] (note: your older 48-tab sheet; allowed)"}
+{"name": "Pertamina", "why": "IN MASTER - master: All New Brands (as Pertamina)"}
+{"name": "Petrovietnam", "why": "IN MASTER - master: All New Brands (as Petrovietnam)"}
+{"name": "QatarEnergy", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as QatarEnergy)"}
+{"name": "Sonatrach", "why": "IN MASTER - master: All New Brands (as Sonatrach)"}
+{"name": "TPAO", "why": "IN MASTER - master: All New Brands (as Türkiye Petrolleri (TPAO))"}
+{"name": "Stena Line", "why": "IN MASTER - master: All New Brands (as Stena Line)"}
+{"name": "Brittany Ferries", "why": "IN MASTER - master: All New Brands (as Brittany Ferries)"}
+{"name": "Grandi Navi Veloci", "why": "IN MASTER - master: Capacity To Confirm (as Grandi Navi Veloci (GNV))"}
+{"name": "P&O Ferries", "why": "IN MASTER - master: Capacity To Confirm (as P&O Ferries)"}

@@ -1,0 +1,21 @@
+{"name": "Santander Global Technology And Operations", "why": "F1 PARTNER via brand: check.py flags Santander as a current Formula 1 partner; also not a separate company: the technology and operations entity of listed Banco Santander"}
+{"name": "ADNOC Industrial Waste Services", "why": "F1 PARTNER via brand: check.py flags ADNOC (Abu Dhabi Grand Prix Official Founding Partner); not a separate company: part of ADNOC"}
+{"name": "Ikea Iberica", "why": "IN MASTER via brand: check.py 'IKEA: IN MASTER - master: All New Brands (as IKEA)'; also the Spanish national entity of IKEA"}
+{"name": "Krono Holding", "why": "IN MASTER via brand: check.py 'Swiss Krono: IN MASTER - master: All New Brands (as Swiss Krono Group)'; Krono Holding is the Swiss Krono group holding"}
+{"name": "Krating Daeng", "why": "Same brand as an F1 partner: Krating Daeng is TCP's Thai original of Red Bull, TCP also sells it under the 'Red Bull' name, and the Yoovidhya family controls 51% of Red Bull GmbH (en.wikipedia.org/wiki/Krating_Daeng); check.py 'Red Bull: F1 PARTNER (Racing Bulls)'"}
+{"name": "Piggly Wiggly", "why": "Operating banner of a master company: C&S Wholesale Grocers owns Piggly Wiggly and its trademark and runs it from Keene, NH (en.wikipedia.org/wiki/Piggly_Wiggly); check.py 'C&S Wholesale Grocers: IN MASTER - master: All New Brands'"}
+{"name": "Bunge Iberica", "why": "not a separate company: Spanish entity of Bunge, listed (NYSE: BG) (en.wikipedia.org/wiki/Bunge_Global)"}
+{"name": "Telefonica Audiovisual Digital", "why": "not a separate company: Spanish entity of Telefónica; check.py 'Telefonica: LISTED? - matches the listed company Telefónica'"}
+{"name": "Telefonica Soluciones De Informatica Y Comunicaciones De España", "why": "not a separate company: Spanish entity of Telefónica; check.py 'Telefonica: LISTED? - matches the listed company Telefónica'"}
+{"name": "Allison Off-Highway Drive & Motion Systems", "why": "not a separate company: off-highway unit of Allison Transmission (site links to allisontransmission.com investors pages), listed (NYSE: ALSN)"}
+{"name": "Alsea Sudamérica", "why": "not a separate company: South American division of Alsea, listed (BMV: ALSEA) (es.wikipedia.org/wiki/Alsea_(empresa))"}
+{"name": "American Standard APAC", "why": "not a separate company: Asia-Pacific arm of LIXIL's American Standard brand (site: 'LIXIL's American Standard'); check.py 'LIXIL: LISTED?'"}
+{"name": "ams OSRAM", "why": "listed (SIX Swiss Exchange: AMS) (en.wikipedia.org/wiki/Ams_Osram)"}
+{"name": "D'Ieteren Auto", "why": "not a separate company: D'Ieteren Automotive is a fully owned subsidiary of D'Ieteren Group, listed (Euronext Brussels: DIE)"}
+{"name": "Aster DM", "why": "listed (BSE: 540975; NSE: ASTERDM). Its separated GCC business, Aster DM Healthcare FZC (65% Fajr Capital consortium), was not assessed"}
+{"name": "Aldar Education", "why": "not a separate company: education business of Aldar Properties (aldareducation.com redirects to aldar.com/education), listed (ADX)"}
+{"name": "Altrad UK, Ireland & Nordics", "why": "not a separate company: regional entity of ALTRAD (assessed in MAIN)"}
+{"name": "Casumina", "why": "listed (probable): public joint-stock company with shareholder-relations section and quarterly financial reports on casumina.com; Wikipedia type 'Public'; ticker not confirmed"}
+{"name": "Elevate Beauty", "why": "not an operating company: Elevate Beauty Ventures is an investment platform created with L Catterton (already delivered in b01), investing USD 5-10m in early-stage brands"}
+{"name": "Montana Tech Components", "why": "holding of brands already covered or listed: VARTA (IN MASTER), Montana Aerospace (check.py LISTED?) and Aluflexpack; de.wikipedia files it under 'Börsennotiertes Unternehmen'; no separate commercial identity"}
+{"name": "Aésio", "why": "Brand of a master company: 'Depuis 2021, AÉSIO mutuelle est une marque d'Aéma Groupe' (Aésio 2024 results release, presse.tripalio.fr); check.py 'Aema Groupe: IN MASTER - master: All New Brands (as Aéma Groupe)'"}
