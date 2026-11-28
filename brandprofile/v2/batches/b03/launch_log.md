@@ -75,3 +75,4 @@ launched: s11_signals | finished: r21 (27/19)
 launched: k26_africa_east_south | finished: r22 (25/22)
 launched: t07_chemicals | finished: k23_gulf_groups (22 main, 13 watch, 218 disc). COVERAGE DATAPOINT: 86 of the 99 Forbes Middle East family businesses were already on the master
 launched: r26_queue | finished: t46_wholesale_distribution (35 main, 12 watch, 298 disc)
+launched: s12_signals | finished: s10_signals (40: 22 with signals, 18 none)

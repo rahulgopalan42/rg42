@@ -1,0 +1,15 @@
+{"name": "HP Schweiz", "why": "not a separate company: Swiss national entity of HP Inc. (listed NYSE); check.py: HP = F1 PARTNER (Ferrari)"}
+{"name": "Indra Soluciones Tecnologias De La Informacion", "why": "not a separate company: IT services entity of Indra Group (listed BME); check.py: F1 PARTNER (Indra Sistemas (Indra Group))"}
+{"name": "Digit Insurance", "why": "listed (NSE/BSE): check.py LISTED? matches Go Digit General Insurance Limited, which operates godigit.com"}
+{"name": "Trinchero Family Estates", "why": "IN MASTER - master: Clay Leads (Unconfirmed) (as Trinchero Family Wine and Spirits); found by checking 'Trinchero'"}
+{"name": "Zeria", "why": "listed (TSE): check.py LISTED? matches the listed company Zeria Pharmaceutical"}
+{"name": "Metalurgica Galaica", "why": "ALREADY DELIVERED - b02 (as Megasa); Metalurgica Galaica S.A. is the Megasa steel group's legal name"}
+{"name": "DIRECTV Latin America", "why": "POSSIBLE/IN MASTER - DirecTV [master: All New Brands]; regional arm of the same brand"}
+{"name": "Komeda Coffee", "why": "listed (TSE): check.py LISTED? matches KOMEDA Holdings, which owns Komeda's Coffee"}
+{"name": "Alliance Healthcare España", "why": "ALREADY DELIVERED - b02 (as Alliance Healthcare); also the Spanish entity of Cencora's Alliance Healthcare"}
+{"name": "Abdi Ibrahim", "why": "IN MASTER - master: Clay Leads (Unconfirmed) (as Abdi Ibrahim Pharmaceuticals)"}
+{"name": "Navantia Sa Sme", "why": "IN MASTER - master: All New Brands (as Navantia)"}
+{"name": "Dollar", "why": "IN MASTER - master: Capacity To Confirm (as Abul Khair Group); 'Dollar' is a cigarette brand of Abul Khair Tobacco (abulkhairgroup.com)"}
+{"name": "Aché", "why": "IN MASTER - master: Clay Leads (Unconfirmed) (as Aché Laboratórios)"}
+{"name": "Pull & Bear España", "why": "not a separate company: Spanish entity of Pull&Bear, a brand of Inditex (listed, BME); same treatment as other Inditex entities in batch 3"}
+{"name": "L'Oreal España", "why": "not a separate company: Spanish national entity of L'Oréal (listed, Euronext Paris)"}
