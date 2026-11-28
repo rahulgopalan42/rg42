@@ -1,0 +1,57 @@
+t12_staffing_security - batch 3 notes (28 Nov 2026)
+Scope: staffing and recruitment, HR/payroll outsourcing, BPO and call centres, facilities management, cleaning, catering, security services, cash handling.
+Mode: sector. WebSearch used: 1 of 1. All other pages via WebFetch; Wikipedia raw wikitext via curl spaced 12 s apart (429s at 4 s spacing).
+
+COUNTS
+- MAIN: 42 (Route A 25, Route C 17). WATCH: 2 (Farnek, Toptal). DUPS: 120 lines. DISC: 203 lines.
+- Names run through check.py: about 330 (several calls, with and without legal suffix/website).
+- DISC check results: NEW 184, IN MASTER 3, ALREADY DELIVERED 6, F1 PARTNER 2, LISTED 5, POSSIBLE 4 (the DUPS file holds the full list of
+  names left out from all checks: IN MASTER, ALREADY DELIVERED, F1 partners, listed companies, POSSIBLE same-company matches).
+- Researched: 44. DISC NEW not researched: about 140.
+- signals_checked: yes for 32 MAIN records, no for 10 (newsroom missing, empty or blocked).
+
+SOURCES USED (names yielded)
+- WebSearch "SIA largest staffing firms 2025" (1 call): result list only.
+- SIA article, top 10 US staffing firms (staffingindustry.com healthcare-staffing-report): 10 names with revenue.
+- SIA largest industrial staffing firms 2025: 9 names (5 with revenue).
+- SIA largest US IT staffing firms: 9 names (5 with revenue).
+- SIA "fewer companies this year": 5 names. SIA full lists (2025 update, fastest-growing) are member-only: 0 names.
+- Emirates Group brands page: Transguard plus Emirates Flight Catering, Alpha Flight Services, Emirates Group Security.
+- Company sites (about, key figures, governance, newsroom pages) for each researched company; Nash Squared, Showsec, Imdaad, Keenfinity,
+  Medical Solutions, Aetos and Fidelity pages gave affiliate names.
+- Wikipedia (raw): Trenkwalder, Telus Digital, Samsung Welstory, Jani-King, Apetito, HireRight, Inter-Con, Toptal, Personio, HiBob, Gusto,
+  Assemblin Caverion, Nokas, G4S, Emirates Flight Catering, TaskUs, Morgan McKinley, Nash Squared, Impellam, Maxim. About 60 other titles
+  returned 404 (no article under that title) or 429.
+- About 150 further candidates came from researcher knowledge and were only run through check.py; the NEW ones are in DISC with an
+  empty source and why "candidate from researcher knowledge; no list page opened".
+
+COVERAGE (subsectors / regions)
+- Staffing: US (SIA lists, Allegis brands), Belgium/Benelux (House of HR), Austria/CEE (Trenkwalder), France (Actual), Italy (Umana),
+  Sweden (Samhall). HR/payroll: Strada, HireRight, Gusto, Personio, HiBob.
+- BPO/CX: TELUS Digital (Canada), Global Bilgi (Turkey). Latin American, African and Indian BPO not researched (sites blocked/503).
+- FM/cleaning: Netherlands (Vebego), France (Atalian), Italy (Coopservice, Rekeep), Spain (ILUNION), Nordics (Assemblin Caverion), UAE
+  (Imdaad, EFS, Khidmah, Enova, Farnek), India (BVG), Japan (AEON Delight), US (Jani-King).
+- Catering: Newrest (France), LSG Group (Germany), Samsung Welstory (Korea), apetito (Germany), Transguard's Taste of Home.
+- Security/cash: Transguard (UAE), G+D (Germany), Keenfinity (Germany), SERIS (France), Sicuritalia (Italy), Inter-Con (US), Showsec (UK),
+  SBV (South Africa), Nokas (Nordics), Paxton (UK), Salto (Spain).
+
+FLAGS FOR THE REVIEWER
+- TEKsystems and Aerotek are Allegis Group operating companies; Allegis is IN MASTER. Kept because Aston Carter (also Allegis) was delivered
+  in batch 2 - confirm the user wants Allegis brands separately, or drop both.
+- AEON Delight: confirm its own shares no longer trade (site still has IR pages); drop if still listed.
+- Transguard: Emirates Group company; Emirates is in the master and an F1 partner (category_conflict notes this). Emirates Flight Catering
+  was left out as the same group; G4S left out as Allied Universal (master) brand.
+- Atalian: recapitalisation and change of shareholders announced c. June 2026; new owner not verified.
+- Ownership "requires verification" in 13 MAIN records (Atalian, Sicuritalia, Strada, EFS, Khidmah, Jani-King, LSG Group, Actual Group,
+  Umana, Paxton, Salto, Nokas, Imdaad). None has listed shares found, but owners were not stated on pages opened.
+- Older figures: apetito revenue 2019, Jani-King 2021 (Route C used), Personio valuation 2022, HireRight revenue 2023, LSG and Rekeep 2023.
+
+NOT REACHED / FAILED
+- Sites refusing or unreachable: aec.com.br (empty), algartech.com (host blocked by session network), intelcia.com (403), xceedcc.com,
+  camst.it, gegenbauer.de, outsourcing.co.jp, eurofirms.com, greenhouse.co.jp, cordantgroup.com (503), noonan.com (522), sectoralarm.com,
+  weareams.com, verzani.com.br (403), isonxperiences.com (503), atalian investor pages (registration wall).
+- Not researched: Latin American BPO and FM (AeC, Algar Tech, Neobpo, Emtelco, Verzani & Sandrini, Grupo Protege), African BPO (iSON, CCI,
+  Horizon), Indian staffing (Ciel HR, Innovsource), China (CIIC, Zhaopin, 51job), Japan staffing (Outsourcing Inc), Australia (Programmed,
+  Chandler Macleod), US healthcare staffing (Medical Solutions, Maxim, Interim HealthCare and others), US janitorial (KBS, SBM, Harvard,
+  Pritchard), EOR/payroll (G-P, Pebl, Safeguard, Oyster, Multiplier, CloudPay, Justworks), Korea (Ourhome), event security (CSC, Andy Frain).
+- The SIA member-only rankings and Everest BPO rankings were not available. Nothing here is exhaustive.

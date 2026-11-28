@@ -1,0 +1,35 @@
+r31_queue (batch 3, queue mode) - 28 Nov 2026
+INPUT v2/batches/b03/in_q31.jsonl: 80 lines, all processed in file order. WebSearch used: 0. WebFetch + curl on public pages only.
+Duplicate check: check.py on every name, plus variants without legal suffix, with website, and parent names.
+
+RESEARCHED
+MAIN (29): Thames Water (A); Nature's Path (C); Neos (C); Skill On Net (A); Kapitol Group (C); Neuhaus (A); Chosun Ilbo (A); Rip Curl (C); Fairmont Hotels & Resorts (C); Tradebe (C); NOCCO (C); Ausfine Foods International (C); Faerch Group (C); Fakir Apparels Ltd. (C); TSR Recycling (A); Falck (C); Sociedad Anonima Industrias Celulosa Aragonesa (A); Culture Kings (B); FARFETCH (C); FCI Group (A); Upstate Shredding (C); NutriAsia (C); Overseas Chinese Town (OCT) Group (A); United Site Services (C); Core Health & Fitness (C); ONA Hotels & Apartments (C); Elektrizitätswerk der Stadt Zürich (A); Expertise (C); Toi Toi & Dixi (A)
+WATCH (18): Cervélo; Cobra Golf; Nicko Cruises; Roamer; HIF Private Health Insurance Australia; Nicholas Air; Fairtex Group; Concept2; Roger Dubuis; New Town Toyota; Fanalca S.A.; Norrmejerier; Romain Gauthier; William Adams Industries; Kings Group; Craft; Mounties; Ronda AG
+
+LEFT OUT (DUPS, 24)
+- Already in master / delivered (9): SR Technics Switzerland (b01), Express Employment International (b01 Express Employment Professionals), Tendam Retail (master Tendam), FairPrice Group (master NTUC FairPrice), Norco Co-operative (b02 Norco Co-op), Compañía Española de Laminación (= CELSA, master), Disa Península (b02 DISA), Würth-Gruppe (master), Siemens Gamesa Renewable Energy Eólica (master / Siemens Energy entity).
+- Parent or owner already in master (2): Okura Nikko Hotel Management (Hotel Okura 79.6%), Congo Brands (co-owner of Prime Hydration).
+- Listed (2): Symal Infrastructure (ASX: SYL), Norse Atlantic Airways (Oslo: NORSE).
+- Not a separate company (3): Experis Argentina (ManpowerGroup), Vodafone Ono (Vodafone España / Zegona), Repsol Butano (Repsol).
+- Closed / merged away (2): Nutrexpa (split 2015 into Idilia Foods and Adam Foods - both untested, possible new candidates), Tönsmeier (PreZero / Schwarz Group since 2018-19).
+- Not a commercial prospect (6): FCC, FDIC, Federal Reserve Board, Expo 2025 Osaka, Federació Catalana d'Estanquers (trade body), Fair Consultancy Firm (micro firm, Clay bracket not credible).
+
+NOT RESEARCHED (9, no page about the company could be opened)
+- Exolgan Container Terminal: exolgan.com redirects to itl.com.ar, Cloudflare 403; no Wikipedia article found.
+- Rhone: rhone.com 403 (Cloudflare); no Wikipedia article at the tried title.
+- FAMELINE: fameline.com 503 / no response.
+- Facilita Gestão Escolar: domain does not resolve (likely tiny school software firm; Clay bracket not credible).
+- D & E Services Group, Askin Group Holdings, LCN Enterprises, Hare & Forbes (machineryhouse.com.au 403), Lipidos Santiga: company not identifiable or site blocked/unresolvable. Only the IBISWorld 2022 / elEconomista list figure is known.
+
+KEY CAVEATS
+- Subsidiaries kept with parent on the master list (flag before delivery): Cervélo (Pon Holdings), NOCCO (Vitamin Well), Cobra Golf (Puma), Neos (Alpitour World delivered b02). Their brands are not on the master; outstanding field says so.
+- Australian names use IBISWorld Top 500 Private 2022 (FY2020-22, older than three years); "^" rows are IBISWorld estimates and are recorded as kind "estimated". At ~USD 122-125m they sit in the Route B band; most went to WATCH for lack of stated support.
+- Route C records relying on Clay/LinkedIn employee counts (Faerch, Fakir, Expertise) are conf low.
+- Thames Water qualifies on revenue but is in severe financial distress (fit very low).
+- Elektrizitätswerk der Stadt Zürich is a municipal department with a commercial brand (ewz); kept as state-owned, fit very low.
+- United Site Services is flagged by check.py as a COTA 365 partner: confirm no current US Grand Prix deal.
+- Fairmont: Fairmont Monte Carlo sits on the Monaco circuit; check for an existing race deal. Decision likely at Accor.
+- Signals: newsroom/history page checked for most MAIN records (signals_checked yes); "no" for Skill On Net, Kapitol, Faerch, FCI, Fakir, Upstate, USS, Core H&F, ONA, ewz. No marketing head identified for any company.
+- Profitability found only for Thames Water, Neuhaus, Chosun Ilbo (2019).
+
+Scratch files: scratch_r31_build.py and scratch_r31_p1..p7.py (record builders) in this folder.
