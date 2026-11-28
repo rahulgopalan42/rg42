@@ -1,0 +1,43 @@
+NOTES r26_queue (batch 3, queue mode, input in_q26.jsonl, 80 lines). Verified 2026-11-28. WebSearch used: 0. WebFetch only.
+check.py run on all 80 input names plus about 120 alias variants (names without legal suffix, with website, brand names, parent names).
+
+RESEARCHED - MAIN (19): Northumbrian Water (A; 2017 revenue + GBP 400m shareholder equity 2026; CKI/CK Hutchison subsidiary);
+Kibar Holding (C, low conf; no revenue found); Koch Foods (C; revenue only 2014; price-fixing indictment 2021); WOM Chile (A; USD 500m
+rights offering on Chapter 11 exit Mar 2025; owners unnamed); Molslinjen (C; EQT); HM Hotels (C; owner not found); Naftogaz (A; state;
+wartime); Riviera Australia (C); Kinetic IT (C); Amedia (C; revenue currency not stated); Toga Hotel Management Holdings / TFE Hotels (C);
+DNV (A; NOK 31.6bn 2023; foundation-owned; best fit in this queue); Simagic (C; sim racing, motorsport sponsorships);
+InterCaribbean Airways (C); NNPC (A; state backing; only assets figure); Enviropacific Services (C); Limak Holding (C; compliance flags);
+La Costeña (C, low conf); Petrobangla (A; state; revenue figure on Wikipedia implausible - verify, may be better treated as public body).
+RESEARCHED - WATCH (24): Sangal Esports, Tivoli Brewing (BA No.18 craft; site redirects to Outlaw Light), Worldwide Clinical Trials
+(60+ countries, owner/size not found), HiSky, Mephisto, Ovivo (SKion/Klatten), Kolin Holding (no figures opened; likely large), Kohberg,
+Altafit, Mido (Swatch Group), Sim-Lab (Mercedes F1 licence), Tröegs, Pace Analytical, Kulczyk Investments, Mitchell & Ness (Fanatics),
+Eden Brae Homes, Uwell, Kuok Group (brands sit in listed affiliates), Kopi Janji Jiwa (600-900 outlets, one indicator), Arai (F1/MotoGP
+helmets; revenue JPY 9.2bn FY2021 below Route B; JPY 2bn profit FY2025), Mondaine, Quantum Lifecycle Partners, Moritz Grossmann, Six Karma.
+signals_checked "yes" on 23 records (news/press pages or Wikipedia history); "no" where no news page could be opened.
+
+LEFT OUT (DUPS, 27):
+- in master / delivered / alias: Trinchero Family Estates (as Trinchero Family Wine and Spirits), Metalurgica Galaica (= Megasa, b02),
+  DIRECTV Latin America (DirecTV), Alliance Healthcare España (b02), Abdi Ibrahim, Navantia, Dollar (Abul Khair Group), Aché,
+  AGV (brand of Dainese, in master), Interstate Hotels & Resorts (merged into Aimbridge, in master), Naviera Armas (taken over by Baleària, b02).
+- listed: Digit Insurance (Go Digit, NSE), Zeria (TSE), Komeda Coffee (KOMEDA Holdings, TSE), DOF (Oslo Børs), Naturgy Energy Group (BME).
+- not a separate company: HP Schweiz (HP, F1 partner), Indra Soluciones TI (Indra, F1 partner), Pull & Bear España (Inditex),
+  L'Oreal España, Iberojet (Ávoris brand), Dole Specialty Ingredients (Dole Sunshine business unit).
+- not a commercial prospect: Bond University (not-for-profit), DGAC (state authority), Digital Valley Portugal (movement),
+  Digital Marketing (parked domain), Discord.ba (placeholder site).
+
+NOT RESEARCHED (no usable page; no record written):
+- Message4U (message4u.com.au 503 twice)
+- DIGICAREER (site empty/404; Clay bracket USD 1-10bn looks wrong for an affiliate-earning platform)
+- Sengoku Gaming (Wikipedia 404; sengoku-gaming.com does not resolve in this session)
+- x1F (x1f.one is an 'init website' placeholder; cio.de source 404)
+- Zuventus (own site 403, no Wikipedia; Emcure Wikipedia mentions '950 Zuventus employees' poached - likely Emcure subsidiary; Emcure is NSE/BSE-listed since July 2024: verify)
+- PSC Metals (site 503, Wikipedia 404)
+- Global Food & Wine Holdings (gfwh.com.au 503)
+- Dohme Global Group Hospitality (dohmeglobal.com does not resolve)
+- V2 Tobacco (v2tobacco.com / .dk do not resolve; Wikipedia 404)
+- Asacha Media (site 503; en/fr Wikipedia 404)
+Hosts that did not resolve (may need allowing in the session network settings): sengoku-gaming.com, www.dohmeglobal.com, www.v2tobacco.com, www.v2tobacco.dk.
+
+Gaps: owners not confirmed for HM Hotels, Riviera, Kinetic IT, Enviropacific, WOM, Worldwide CT, Pace; several qualifying figures
+older than three years (Northumbrian 2017, Koch 2014, Naftogaz 2018, IBISWorld 2021-22 figures). Molslinjen page contained a text
+block addressed to AI systems; ignored. Few marketing heads identified (none named on pages opened).

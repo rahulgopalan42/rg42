@@ -1,0 +1,38 @@
+NOTES t02_ai_cloud_cyber (batch 3, sector mode, 28 Nov 2026)
+Scope: AI, data centres/colocation, cloud and hosting, cybersecurity, domain/web services, data providers (private or subsidiaries), Europe, Israel, India, China, Japan, Korea, Gulf.
+
+COUNTS
+- DISC: 265 names (NEW 216, IN MASTER 33, F1 PARTNER 4, ALREADY DELIVERED 1, LISTED 6, POSSIBLE 5). Stage: researched 50, left out 44, not researched 171.
+- check.py run on about 330 names in total (many IN MASTER names checked during triage were not all written to DISC; every IN MASTER/F1 name that was written is in DUPS).
+- MAIN 33 (Route A 19, Route C 14). WATCH 12. DUPS 45.
+- WebSearch used: 0 of 1. All work by WebFetch.
+
+SOURCES USED (names yielded)
+- Wikipedia "List of unicorn startup companies" (three reads): about 40 non-US AI/cloud/cyber/data names; most already IN MASTER or F1.
+- W3Techs web hosting market-share ranking: about 90 hosting names (Russian, Belarusian and Iranian hosts left out unrecorded on sanctions grounds).
+- Company sites / newsrooms opened: hostinger.com, press.team.blue, strato.de, news.infomaniak.com, core42.ai (about, news), stackit.com (home, news), volcengine.com, byteplus.com, wpengine.com, siteground.com, sygnia.co, truesec.com, redis.io, contentsquare.com (about, press), aiven.io (about, press), helpag.com, cpx.net, damacdigital.com, navercloudcorp.com, postman.com, ahrefs.com, elementor.com, macpaw.com, surfshark.com, levelblue.com, signicat.com, fastmarkets.com, idc.com, esds.co.in, yellow.ai, mozn.ai, bitwarden.com, exotel.com, jimdo.com.
+- Wikipedia articles (en/fr/es/ja/ko): Hostinger, Scaleway, Automattic, WP Engine, Statista, Redis (company), Identity Digital, Webflow, Zhipu AI, MiniMax, Megvii, AppsFlyer, Seznam.cz, Giesecke+Devrient, Argus Media, Wood Mackenzie, RSA Security, Trustwave, Jio Platforms, Bundesdruckerei, H3C (redirects to 3Com), fr:Orange Cyberdefense, es:Telefónica Tech (redirects to Telefónica), ja:エックスサーバー, ja:IDCフロンティア, ko:CJ올리브네트웍스, ko:네이버클라우드, ko:카카오엔터프라이즈.
+- Refused / not found: contabo.com (403), scaleway.com (403), orangecyberdefense.com (403), telefonicatech.com (403), statista.com (403), salla.com (403), avira.com (403), vultr.com (403), center3.com (401), moro.ae (503), several Wikipedia titles (404: team.blue, Volcano Engine, Orange Cyberdefense, Collibra, Contentsquare, Aiven, Island, KnowBe4, Krutrim, Nuvemshop, NHN Cloud).
+
+LEFT OUT (beyond check.py hits)
+- Listed: Infomaniak (SIX since 1 Oct 2026), Zhipu AI (HKEX Jan 2026), MiniMax (HKEX Jan 2026), Jio Platforms (IPO opened Oct 2026), Shopify, Rackspace, LWSA, cyber_Folks, Shoper (check.py did not flag these).
+- Compliance: Megvii (US Entity List / investment ban). Russian hosts and Yandex, Doctor Web, Kaspersky excluded.
+- Same company as master entry: Insider (Insider One), Grammarly (now Superhuman), ExpressVPN (Kape), Huawei Cloud (Huawei).
+
+SIGNALS / PROFITABILITY
+- Newsroom or Wikipedia history opened for most MAIN records; signals_checked "no" for Postman, CJ OliveNetworks, IDC, Yellow.ai (and some WATCH). Profitability stated only where a page gave profit: IDC Frontier, Xserver, Seznam.cz, G+D, CJ OliveNetworks.
+
+FLAGS FOR THE REVIEWER
+- STACKIT: parent Schwarz Group is on the master; included as a separate brand. Core42 and CPX: parent G42 is a Mercedes F1 partner. Surfshark: shares a holding with Nord Security (on master). LevelBlue has merged Cybereason (on master). center3 not researched; its parent stc ("Solutions by stc") is an F1 partner.
+- Old figures: Argus Media (2016 valuation), RSA (2020 transaction), Redis/Webflow (2021 rounds), Bundesdruckerei (2021, not used).
+- HQ cities left blank where the page did not state them (Core42, Volcano Engine, Sygnia, ESDS, LevelBlue, Signicat, SiteGround).
+
+NOT REACHED / GAPS
+- China: Volcano Engine figures, Baichuan, StepFun, Tencent Cloud, Baidu AI Cloud, Inspur Cloud, Tianyi Cloud, Chaitin, Chindata not researched.
+- Japan: SB Intuitions, ELYZA, Stockmark, Highreso, Lightblue not researched. Korea: NHN Cloud, SK AX, Kakao Enterprise (no data).
+- Gulf: center3, Moro Hub, DataVolt, Presight, Injazat, Beacon Red, Digital14, Edgnex/DAMAC Digital (no data), Unifonic, Lean.
+- India: Krutrim, Reliance Intelligence, K7 Computing, CloudSEK, Tiger Analytics, Netcore Cloud.
+- Europe cyber: Sekoia, Stormshield, HarfangLab, Tehtris, Outpost24, YesWeHack, Intigriti, G Data, Link11, Myra, genua, Eye Security, Telekom Security, Group-IB (compliance check). Europe cloud: Exoscale, UpCloud, evroc, Genesis Cloud, Anexia, Your.Online, Kinsta.
+- Data providers: Creditsafe, Cerved, Vortexa, Cognism, Sensor Tower, Matillion, Collibra, MessageBird.
+- Most W3Techs hosting names (about 70) remain not researched.
+- This is not exhaustive.
