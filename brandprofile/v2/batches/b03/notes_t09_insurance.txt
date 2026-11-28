@@ -1,0 +1,67 @@
+NOTES t09_insurance (batch 3, sector mode, 28 Nov 2026)
+Scope: mutual insurers, private and state insurers, reinsurers, insurance brokers, insurtech, assistance and roadside companies.
+Discovery stream for every record: Independent web research. WebSearch used: 1 of 1 (Business Insurance broker rankings).
+
+COUNTS
+- MAIN 32 (Route A 21, Route C 11). WATCH 9. DUPS 153 lines. DISC 175 lines.
+- Names run through check.py: about 330 across seven runs (brainstormed candidate lists plus the Business Insurance tables).
+  Most of the well-known US mutuals, US brokers (BI top 50), French/German mutuals and Japanese mutual life insurers are already
+  IN MASTER or ALREADY DELIVERED (b01/b02). Listed insurers (Chubb, AIG, Zurich, QBE, Hannover Re, SCOR, Swiss Re, Helvetia, Baloise,
+  Vaudoise, Sagicor, Anadolu, Türkiye Sigorta, Great Eastern, PVI, Dhipaya, Bangkok Insurance, GNP) were left out by hand because
+  check.py does not flag all of them.
+- Removed after writing: VHV Gruppe, Africa Re, LähiTapiola (check.py said NEW on the bare name but ALREADY DELIVERED once the
+  website/alias was added). Visana, Groupe Mutuel, Daman and Icatu were removed at the final overlap check because t54 / k27 had
+  already written them to MAIN in batch 3. Malakoff Humanis is kept in my MAIN (t54 has it in WATCH; mine has a sourced Route A).
+- National entities of listed multinationals left out under rule 1 (Generali Deutschland, Allianz Suisse, AXA Schweiz, Zurich
+  Schweiz, Generali Schweiz, Allianz Sigorta, Allianz Malaysia, Swiss Life France). Covéa brands (MAAF, GMF, MMA) treated as aliases
+  of Covéa (in master). Brokers absorbed by listed groups left out: Newfront (WTW), Risk Strategies/Accession (Brown & Brown),
+  CAC Group (appears Baldwin), McGriff (Marsh, an F1 partner), Assiteca (Howden, delivered). Next Insurance is now ERGO NEXT
+  (ERGO is in master).
+
+SOURCES (names yielded)
+- Business Insurance "100 largest brokers of US business" + world top 10 + largest privately owned, July/Aug 2025
+  (alliant.com reprint PDF): 42 names; only 6 were NEW, of which 3 were later found absorbed by listed groups and 1 (The Liberty
+  Company) qualified.
+- Wikipedia (fr/de/en/nl/fi/ja/es raw pages, about 45 fetched before HTTP 429 rate limiting stopped it; then stopped using it):
+  infobox figures for Malakoff Humanis, CNP, Crédit Agricole Assurances, Versicherungskammer, SMABTP, TCS, ANWB, ÖAMTC, Global
+  Rescue, Guardian, Acuity, CCR, Fukoku. Category pages for mutual insurers gave a handful of names only.
+- Company sites, newsrooms and reports (main evidence for 30+ records): e.g. Malakoff Humanis key figures, CNP newsroom,
+  ca-assurances.com, MACSF group page, Ethias newsroom, ADAC Geschäftsjahr 2025, CSS group page, KLP, alh.de press, Mobiliar
+  sponsoring and media pages, Kin newsroom, Clearcover press, wefox newsroom, PartnerRe, Falck financials, Fukoku FY2025 results
+  PDF, Pacífico Memoria Integrada 2025 PDF, Leadway 2025 annual report PDF, Plymouth Rock financial-information page, Ecclesia
+  about page, IMA shareholders/key figures page, International SOS about page, Global Rescue about page, Bajaj Life about page.
+- Could not open / refused: argusdelassurance.com (403), ICMIF members (403), AMICE, Diot-Siaci (error), Relation Insurance (403),
+  MDS (403), fmins.com (403/502), theaaplc.com (403), panamericanlife.com (503), Global Rescue news (405), International SOS
+  newsroom (503), several Korean and Spanish JS sites (KB Insurance, Shinhan Life, NH Life, Santalucía, Ocaso).
+
+COVERAGE
+- Regions: Western Europe deep (France, Germany, Switzerland, Benelux, Nordics, Austria); US moderate (mutuals, brokers,
+  insurtech, assistance); Japan 1; India 1; Peru 1; Singapore/global 1; Nigeria 1 (WATCH). Middle East, Korea, China, South-East
+  Asia, Africa and most of Latin America remain thin: candidates are in DISC as "not researched".
+- Subsectors: mutual and state insurers, bancassurers, reinsurers (PartnerRe, CCR; Odyssey in WATCH), brokers (Ecclesia, Liberty
+  Company; Verlingue WATCH), insurtech (Kin, Clearcover, wefox; Bestow, Openly, Zego, Policygenius WATCH), assistance/roadside
+  (ADAC, ANWB, ÖAMTC, TCS, IMA, International SOS, Global Rescue, Falck; Agero WATCH).
+- Signals: checked for every MAIN record (signals_checked "yes" except Versicherungskammer, Global Rescue: news pages not
+  readable). Sponsorships recorded where a page showed them: MACSF (IMOCA sailing, Route du Rhum 2026 win), Kin (Florida State
+  jersey patch, 2026), Plymouth Rock (Bruins/Red Sox/Patriots fan programmes), Die Mobiliar (Swiss indoor-sport federations).
+  Marketing heads identified: Crédit Agricole Assurances (Customer Marketing Director, Sept 2026), Bajaj Life (CMO).
+
+CAVEATS
+- Several MAIN records carry ownership_type "requires verification" where the page showed the company is unlisted but did not
+  name owners (Ethias, International SOS, Falck); Falck's ownership page returned 503.
+- Pacífico (PEN) and Leadway (NGN) figures are not converted: the currencies are not in the brief's fixed table. Pacífico
+  qualifies on Route C (22.6% market share, 3,000 staff); Leadway stays in WATCH for that reason.
+- Some figures lack a printed year (Malakoff Humanis, Acuity net income, CSS premium volume); Groupe Mutuel revenue was 2020.
+- PartnerRe's parent Covéa is on the master list; the record is a separately branded subsidiary (flagged in compliance).
+- ADAC and ÖAMTC are FIA member clubs/motorsport organisers: check governance links before outreach.
+
+NOT REACHED / NEXT RUN
+- DISC "not researched": Santalucía, Ocaso, Poste Vita, P&V, Fennia, SV SparkassenVersicherung, Continentale, Württembergische,
+  Klesia, Apicil, Thélem, Ecclesiastical, Canopius, Tokio Marine Kiln, The AA, Green Flag, ManyPets, Cuvva, Getsafe, Luko, Ladder,
+  Pie, Branch, At-Bay (Munich Re acquiring), Relation Insurance, AssuredPartners (reported acquired by Gallagher), Diot-Siaci, MDS,
+  Peak Re, Asia Capital Re, Nacional de Reaseguros, MAWDY, AAA, Medjet, NH NongHyup Life/P&C, KB Insurance, Shinhan Life, Taiping
+  Life, China Post Life, Hengqin Life, Dajia, Generali Central, Care Health, Reliance General, Aditya Birla Health, Zenrosai,
+  Seguros Monterrey New York Life, Sancor, Federación Patronal, San Cristóbal, La Segunda, Consorcio, SulAmérica, Brasilprev,
+  Seguros Unimed, Mongeral Aegon, RMA, Gulf Insurance Group, Frankenmuth, Pan-American Life.
+- Sources still to use: Insurance Journal Top 100 agencies, AM Best top insurers, national rankings (France Assureurs, GDV member
+  lists, ANIA, ICEA), Korea/China/Gulf insurer lists in local languages. Nothing here is exhaustive.
