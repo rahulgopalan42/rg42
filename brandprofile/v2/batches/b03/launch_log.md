@@ -52,3 +52,5 @@ launched: t48_mobility_platforms | finished: r16 (31/21). To verify: Croatia Air
 launched: r20_queue | finished: k20_india_consumer (26 main, 16 watch, 775 disc; PKR/NPR conversions are the researcher's own approximate rates -> treat those figures as estimates)
 launched: s08_signals | finished: clay_i05 (350 rows)
 launched: k23_gulf_groups | finished: clay_i06 (293 rows)
+launched: t49_gapfinder_a | finished: k19_india_giants (36 main, 10 watch, 566 disc; 14 names removed as listed in 2025-26 incl. NSE, Meesho, Zetwerk)
+launched: r21_queue | finished: u03_europe_subs_a (39 main, 6 watch, 133 disc)

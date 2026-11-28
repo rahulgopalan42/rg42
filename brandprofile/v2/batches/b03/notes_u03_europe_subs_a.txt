@@ -1,0 +1,56 @@
+u03_europe_subs_a - independently branded subsidiaries of listed groups from Germany, Austria, Switzerland, the Netherlands, Belgium and the Nordics
+Batch 3, 28 Nov 2026. Mode: subsidiaries. WebSearch used: 1 of 2.
+
+COUNTS
+- Candidates run through check.py: about 330 names (several calls, incl. trading names and names without legal suffix).
+- DUPS: 90 lines (IN MASTER, ALREADY DELIVERED, F1 PARTNER, same-company POSSIBLE, plus Glovo left out for an EC cartel fine
+  of EUR 329m (Jun 2025) and Purina, found on the final recheck to be Nestlé Purina PetCare on the master).
+- MAIN: 39. WATCH: 6 (Jaeger-LeCoultre, Eurex, Moleskine, Blancpain, Mendix, Rado). DISC: 133 lines (46 researched, the rest not researched or left out).
+- Route mix in MAIN: A = 26, C = 13, B = 0.
+- signals_checked "yes" for 24 MAIN records, "no" for the rest, where the newsroom was unreadable or Wikipedia showed nothing recent.
+
+CROSS-RESEARCHER OVERLAP (batch 3 files written while this run was going)
+- iFood and PedidosYa also appear in t43_creator_consumer_apps.jsonl; CIMIC Group also appears in u04_europe_subs_b.jsonl. Kept here;
+  the consolidation step should keep one record for each.
+
+SOURCES USED (names yielded)
+- en.wikipedia.org/wiki/Prosus (holdings list: about 35 names; iFood, OLX, JET, Stack Overflow, GoodHabitz, eMAG, PayU, Despegar)
+- en.wikipedia.org/wiki/Delivery_Hero (brand list: 10 brands)
+- investorab.com/our-companies?area=patricia-industries (11 subsidiaries plus 13 listed holdings)
+- Subsidiary Wikipedia articles (en and de) for every researched company; company newsrooms: newsroom.justeattakeaway.com,
+  macktrucks.com/mack-news, renault-trucks.com/en/newsroom, vng.de/en, nieuws.ah.nl, braunability.com news,
+  sandvik.coromant.com/en-gb/news, olxgroup.com
+- pt.wikipedia.org/wiki/IFood (Brazilian figures)
+- monochrome-watches.com and italianwatchspotter.com (Morgan Stanley/LuxeConsult 2025 watch report): only headline figures were in the
+  text (brand tables are images), so the Richemont and Swatch brands below CHF 1bn have no current sales estimate.
+- Group knowledge of the main listed groups was used only to pick names to check. No fact in a record comes from memory; each comes from a page opened.
+
+COULD NOT OPEN / EMPTY: ifood.com.br and news.ifood.com.br (403), foodlion.com news (403), about.glovoapp.com/press (no items),
+volvopenta.com news (empty), 50hertz.com news (empty), uponor.com news (404), kuhn.com group page (404), Wikipedia 404s for
+HungerStation, Permobil, Seco Tools, Kuhn, La Prairie, Linde Material Handling, Telesign, Onninen.
+
+COVERAGE BY COUNTRY OF THE LISTED PARENT
+- Germany: Siemens, VW, BMW, Daimler Truck, SAP, Allianz, Munich Re, Talanx, Deutsche Börse, Merck, Fresenius, Delivery Hero, ProSieben,
+  CTS Eventim, Ströer, Lufthansa, TUI, Heidelberg Materials, Knorr-Bremse, EnBW, Hochtief, Siemens Healthineers, Beiersdorf, KION,
+  Zalando, Commerzbank. MAIN from: Delivery Hero (PedidosYa), Munich Re (HSB), EnBW (VNG), Hochtief (CIMIC), Siemens Healthineers
+  (Varian), Zalando (About You), Lufthansa (Edelweiss), Deutsche Börse (ISS).
+- Austria: OMV, Erste, RBI, VIG, Wienerberger, Strabag, voestalpine, Andritz. MAIN: Česká spořitelna, Züblin.
+- Switzerland: Nestlé, Richemont, Swatch, Roche, ABB, Holcim, Georg Fischer, Bucher, Straumann, Lindt, Avolta, Adecco, Swisscom.
+  MAIN: Van Cleef & Arpels, Panerai, Harry Winston, Genentech, Uponor.
+- Netherlands: Prosus, Ahold Delhaize, Aegon, Airbus, Stellantis, ASML, UMG, HAL, Signify, RELX. MAIN: iFood, Just Eat Takeaway,
+  OLX Group, Albert Heijn, Food Lion, Stop & Shop, Transamerica, Airbus Helicopters, ATR, Satair.
+- Belgium: KBC, Ageas, AvH, Elia, D'Ieteren, GBL, Proximus, bpost. MAIN: K&H Bank, AG Insurance, Delen Private Bank, 50Hertz.
+- Nordics: Volvo Group, Investor AB, Sandvik, Atlas Copco, Assa Abloy, Hexagon, Securitas, Ericsson, Embracer, Carlsberg, Coloplast,
+  GN, Demant, Maersk, DSV, Sampo, Kesko, Norwegian Air, Orkla, Aker, DNB. MAIN: Mack Trucks, Renault Trucks, Volvo Penta, Volvo CE,
+  BraunAbility, Sandvik Coromant, HID Global, Vonage, Plaion, Widerøe.
+
+GAPS / NOT REACHED
+- Not researched (in DISC): HungerStation, foodpanda, Stack Overflow (Route A by USD 1.8bn deal), Leica Geosystems, La Prairie,
+  Linde MH, STILL, Seco Tools, Walter, Desoutter, Leybold, Kuhn, B&R, Telesign, Onninen, the CEE banks of Erste/RBI/KBC, See Tickets,
+  TicketOne, ParshipMeet, Bendix, Aggregate Industries, Pinkerton, Kronenbourg, Ghirardelli, Patricia Industries companies.
+- Groups not examined: Henkel, Bayer, BASF, Continental, Schaeffler, Rheinmetall, Infineon, Vonovia; Swiss Re, Zurich (beyond Farmers),
+  Sika, Kühne+Nagel, Logitech, Sonova; Philips, Wolters Kluwer, Randstad, Akzo, JDE Peet's; Solvay, UCB, Colruyt; Electrolux,
+  Essity, H&M, SKF, Alfa Laval, Saab, Telia, Telenor, Equinor, Norsk Hydro, Nokia, Kone, Wärtsilä, UPM, Fiskars.
+- Weak financials: many records use older Wikipedia figures (flagged "older than three years"). HUF and CZK are not in the fixed
+  rate table, so usd_m is null for K&H Bank and Česká spořitelna.
+- Marketing heads: none confirmed by title on a page opened (Albert Heijn's brand interviews by Johan van der Zanden give no title).
