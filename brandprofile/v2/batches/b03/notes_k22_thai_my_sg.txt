@@ -1,0 +1,48 @@
+k22_thai_my_sg - batch 3, MODE country (Thailand, Malaysia, Singapore, Cambodia, Myanmar). 28 Nov 2026.
+
+COUNTS
+- DISC: 434 lines. check.py results: NEW 320, LISTED? 55, IN MASTER 29 (incl. STT GDC, which matched only under its full name), ALREADY DELIVERED 15, POSSIBLE 13, F1 PARTNER 3.
+- Stages: researched 55, left out 105, not researched about 274.
+- MAIN 33 (Route A 16, Route C 17; no Route B). WATCH 12. DUPS 47.
+- Total MAIN + WATCH = 45.
+- signals_checked: "yes" on 23 MAIN/WATCH records, "no" on 22. Usually the page had no recent history section, or the newsroom refused the fetch (403/503).
+- WebSearch: 1 of 2 used, for the Cambodia top-taxpayer list. The article body could not be read (366k-character page, ranking not reached). The search snippets name Viettel (Cambodia) as no. 1, JTI Cambodia as no. 10 and KB PRASAC as no. 8, but those names are not written as facts.
+
+SOURCES (names extracted)
+- en.wikipedia.org/wiki/State_enterprises_of_Thailand: 52 names (40 written to DISC; small non-commercial bodies skipped)
+- en.wikipedia.org/wiki/List_of_companies_of_Thailand: about 150 names (non-defunct ones written, incl. 37 SET50 constituents marked left out as listed)
+- en.wikipedia.org/wiki/List_of_companies_of_Malaysia: 103 names
+- en.wikipedia.org/wiki/List_of_companies_of_Singapore: 136 names
+- en.wikipedia.org/wiki/List_of_companies_of_Cambodia: 37 names (defunct airlines skipped)
+- en.wikipedia.org/wiki/List_of_companies_of_Myanmar: 27 names. Military-owned or sanctioned conglomerates (MEHL, MEC, Mytel, Htoo, Asia World, state gems and timber enterprises) are marked left out on compliance grounds; sanctions status is from general record and was not verified on a page this session.
+- Company pages: about 60 Wikipedia articles and company sites (Agoda press, STT GDC newsroom, EPS about and news, U Mobile newsroom, EGAT, Smart Axiata, PropertyGuru, YCH, PLUS, Siam Kubota).
+
+CONVERSIONS: THB and MYR are not in the fixed table. I used THB 0.030 and MYR 0.22 (approximations) and kept the original figure in every case.
+
+COVERAGE
+- Thailand: state enterprises (EGAT, PEA, MEA, GSB, GLO, Thailand Post), family and private groups (B.Grimm, TCP, Italthai, Dutch Mill, Chaiseri, Kantana), tech (LINE MAN Wongnai).
+- Malaysia: GLCs and state bodies (PNB, Khazanah, Prasarana, Petros), private companies (Perodua, U Mobile, Carsome, Golden Screen Cinemas, SilTerra, Modenas, Mamee, Munchy's, Ramly, KK Super Mart).
+- Singapore: subsidiaries (Agoda, NCS, Eu Yan Sang, SPC, Senoko, M1, OSIM/TWG), private (Eastern Pacific Shipping, YCH, PropertyGuru), Income Insurance.
+- Cambodia: Smart Axiata, Air Cambodia, Sokimex.
+- Myanmar: KBZ Bank, City Mart, MAI. All three carry a compliance flag; the market is low priority under military rule.
+- Not reached: Singapore Enterprise 50 / SME 1000 lists, Forbes richest-family lists, the Thai and Malaysian largest-private-company rankings, and local-language (Thai, Malay, Khmer, Burmese) sources.
+
+STRONGEST NEW LEADS (fit)
+Eastern Pacific Shipping (already sponsors the Movistar cycling team; Singapore), Agoda (Eurovision Asia partner; travel), NCS Group (S$2.8bn IT services), B.Grimm (polo hospitality), U Mobile (5G challenger), Petros (in dispute with Petronas), OSIM.
+TCP Group is in MAIN only for completeness: the Yoovidhya family controls Red Bull GmbH, so the energy-drink category is blocked.
+
+LEFT OUT AFTER RESEARCH
+- Creative Technology: SGX-listed.
+- Trafigura: serious compliance record (2024 Brazil bribery guilty plea, 2025 Swiss conviction).
+- CapitaLand: the brand trades through listed CapitaLand Investment.
+- Canadia Bank: shares the brand of Canadia Group, delivered in b02.
+- STT GDC: IN MASTER under its full name.
+- Johor Corporation and UEM Group: holding companies.
+- Malaysia Airports, Boustead, FGV, MMC: Wikipedia still shows them listed; any take-private was not verified, so not written.
+- Sarawak Energy, PLUS Malaysia, Siam Kubota, Wing Bank, Jurong Port, Thai Aviation Industries: no qualifying figures on the pages opened.
+
+GAPS / OUTSTANDING
+- Many state-enterprise financials are old (GSB 2014, MEA 2014, PEA 2018, Thailand Post 2017, GLO 2014). Each is flagged in fin.period.
+- Eastern Pacific Shipping: owner not confirmed on a page. PropertyGuru and Kantana: ownership and listing status unclear, so both are in WATCH.
+- Not researched although NEW: Thai Namthip, Flash Express, GPX, Saha Group, Arun Plus, Siam Piwat-type retail, Ascend-type fintech (in master), Aerodyne, Touch 'n Go Digital, Boh Plantations, Secret Recipe, Hi-P, IMC Industrial, Coda Payments, Carro, Patsnap, Love Bonito, Bacha Coffee, Gain City, Mustafa, Crystal Jade, Imperial Treasure, ABA Bank (site 403), Wing Bank, Chip Mong, Khmer Brewery, Hanuman, Sathapana, PRASAC, Vattanac, Royal Group Cambodia, Metfone (Viettel, Vietnamese military-owned: compliance check needed), Shwe Taung, CB Bank, AYA Bank, Max Myanmar, Capital Diamond Star, Loi Hein, Wave Money, plus about 270 other DISC names.
+- Nothing here is exhaustive.

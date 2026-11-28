@@ -65,3 +65,6 @@ launched: t02_ai_cloud_cyber | finished: t45_b2b_services_niche (33 main, 19 wat
 launched: r23_queue | finished: r20 (26/18)
 launched: s10_signals | finished: u04_europe_subs_b (45 main, 5 watch, 331 disc). OPEN QUESTION FOR THE USER: Sephora and Charlotte Tilbury left out because they hold F1 Academy deals; does F1 Academy count as a current F1 deal?
 launched: k25_africa_north_west | finished: clay_i07 (338 rows)
+launched: t05_aerospace_defence | finished: t47_bottlers_importers (21 main, 8 watch, 288 disc; most well-known groups already on master/delivered)
+launched: r24_queue clay_i09 | finished: s09_signals (40: 15 with signals, 23 none), s08_signals (40: 30 with signals)
+launched: u06_pe_portfolio | finished: k22_thai_my_sg (33 main, 12 watch, 434 disc; THB/MYR conversions approximate)

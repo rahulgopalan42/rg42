@@ -1,0 +1,35 @@
+t47_bottlers_importers - notes (batch 3, 28 Nov 2026). Mode: sector. WebSearch used: 1 of 1.
+
+SCOPE: Coca-Cola/Pepsi bottlers, car importers/distributors and dealer groups, luxury/fashion franchise retailers, QSR franchisees, travel retail.
+
+SOURCES USED (names yielded)
+- WebSearch "largest Coca-Cola and Pepsi bottlers ..." (1 call): ~8 names (Coca-Cola UNITED, Buffalo Rock, Honickman, McAlester Pepsi, plus listed bottlers).
+- en.wikipedia List_of_bottling_companies: ~60 names (most US small/historic or listed).
+- en.wikipedia Category:Coca-Cola_bottlers: 41 pages.
+- Company Wikipedia articles (en, fr, it, es, da, fi, he, ja, ko, th) and company homepages for research (see sources in each record).
+- Failed / not opened: Wikipedia API (rate-limited, shared IP), coca-colacompany.com bottler map (image only), businessalabama.com (403), dutyfreeamericas.com (403), abdulghanimotors.com (DNS not allowed), naghimotors.com (DNS), many guessed Wikipedia titles (404: Coca-Cola Beverages Florida, Duty Free Americas, Hansung Motor, Pappas, Binzagr, Paris Gallery, Dilawri, Sun & Sand Sports, Reliance Brands, Shinsegae DF, Hyundai DF, Embonor, Purdy, Starboard, Delhi Duty Free).
+- Gulf/African distributor homepages (Jaidah, Improtex) carry no figures.
+
+COUNTS
+- Names run through check.py: ~330 (several batches). IN MASTER 62, ALREADY DELIVERED 14, F1 PARTNER 2 (Qatar Duty Free, Rauch), LISTED 6, POSSIBLE treated as duplicates incl. in DUPS.
+- Famous names in this sector are almost all already on the master or delivered (Emil Frey, Al-Futtaim, ALJ, Chalhoub, Alshaya, Al Tayer, Azadea, Apparel, Landmark, MAF, Heinemann, DFS, King Power, Dubai DF, Lagardère TR, Swire Coca-Cola, CCBA, Solar, Postobón, GEPP, Bepensa, AMAG, Porsche Holding, Pon, Louwman, JM Family, Gulf States Toyota, Hedin, Møller, Bertel O. Steen, Ateco, Salvador Caetano, Caoa, Juffali, Saud Bahwan, Kanoo, Zahid, Al Masaood, Rostamani, Habtoor, Gargash, Mansour, Al Mulla, Khimji Ramdas, Petromin, Telepizza, Areas, Gategroup, EG Group, Hungry Jack's...).
+- DISC lines: 288 (researched 37, not researched 167, left out 84).
+- MAIN: 21. WATCH: 8. DUPS: 84.
+- Records with signals_checked yes: 12 of 29.
+
+MAIN: Coca-Cola Bottling Co. UNITED, Hindustan Coca-Cola Beverages, Buffalo Rock, Flynn Restaurant Group, Lotte Duty Free, Yanase, Groupe Bernard Hayot, ECCBC, Cobega, Sytner, Semler Gruppen, Veho, Colmobil, Central Bottling Co. (Coca-Cola Israel), Club 21, Gruppo Cremonini, Optorg, Hokuriku Coca-Cola Bottling, Tata Starbucks, Aujan Group, Jashanmal.
+WATCH: ThaiNamthip (IPO prep, no figures), Coca-Cola Bottlers Uzbekistan (state; 2019 revenue only), Jardine Motors Group (data 2012-14), Kolon Mobility Group (K-OTC code still on page), CBC Central America (no figures), Eurokars (owner not named), Dilawri (owner not named), Michinoku Coca-Cola (weak 2nd indicator).
+
+CAVEATS
+- Several figures are older than three years and flagged in `period`: Lotte Duty Free (2018), Sytner (2018), Veho (2019), Cobega (year not stated), Aujan (2011-12 transaction), Jashanmal (2011-12 figure looks implausible and is not relied on; qualifies on Route C).
+- Yanase: listing status not stated; ITOCHU 82.75% + employee foundation 8.59% implies under 10% float - confirm.
+- Optorg: parent Al Mada is IN MASTER; included as a separately branded subsidiary (Tractafric) - user to decide.
+- Groupe Bernard Hayot: French PNF judicial inquiry (Dec 2025) into the overseas car market - compliance flag.
+- Gruppo Cremonini: still operating in Russia per page (2025) - reputational flag.
+- Pepsi and Coca-Cola bottlers: PepsiCo is a current F1 partner; McDonald's (Arcos Dorados) is an F1 partner, so McDonald's master franchisees (Reza, Rekso, Gerbang Alaf, Connaught Plaza, Hardcastle) carry a category conflict.
+- Reyes Coca-Cola and Great Lakes Coca-Cola left out because parent Reyes Holdings is on the master.
+
+NOT REACHED / REMAINING
+- 167 DISC names not researched, notably: Gulf car distributors (Naghi, Wallan, Abdullah Hashim, Behbehani, Nasser Bin Khaled, Abdulghani, Al Mana, Al Babtain, Alireza), Asian dealers (Kah Motor, Hansung, Performance Motors), Latin America (Kaufmann, Gildemeister, Purdy, Ditec, Andes Motor), US Coca-Cola bottlers (Coke Florida, Southwest, Northeast, High Country, Abarta, Northern New England), Pepsi bottlers (Honickman, G&J, Admiral, PBV), travel retail (Shinsegae DF, Hyundai DF, Duty Free Americas, DFASS, International Shoppes, Starboard, Delhi DF), Gulf luxury/fashion franchisees (Rivoli, Boutique 1, Villa Moda, Bin Hendi, Sun & Sand Sports, Ali Bin Ali, Paris Gallery), QSR master franchisees (Reza, Rekso, Gerbang Alaf, Alamar - check listing, Restaurant Brands Iberia, Harman, Boparan).
+- Brewery licensees barely covered. Africa and Turkey covered only via Optorg, ECCBC, CCB Uzbekistan and DISC names.
+- Did not reach 45 MAIN+WATCH: many targets publish no figures and most guessed Wikipedia pages do not exist; Wikipedia API was rate-limited. Nothing here is exhaustive.
