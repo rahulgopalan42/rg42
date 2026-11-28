@@ -1,0 +1,78 @@
+NOTES t55_gap_industrial_property (batch 3, 28 Nov 2026) - gap industries from the t49/t50 sector audits
+Scope: rail rolling-stock makers and lessors; forest products and timberland; pipelines, tank storage, terminals; coal and uranium;
+office supplies and services; housewares and household products; self-storage, healthcare, hotel and other specialist property;
+specialty retail formats not yet covered. Read notes_t49_gapfinder_a.txt and notes_t50_gapfinder_b.txt first and skipped what they
+researched (Alpha Trains, Beacon Rail, Pesa, Progress Rail, Hitachi Rail, Metsä, Sierra Pacific, Roseburg, Moelven, Södra,
+Binderholz, Buckeye, Colonial, Office Depot, Fellowes, Steelcase, Pelikan, Intersport and the specialty retail t50 covered).
+
+== FILES ==
+MAIN 34 (Route A 24, Route C 10), WATCH 11, DISC 603, DUPS 93. Every line parses as JSON; no name repeated within my files.
+signals_checked = "yes" where a Wikipedia history/recent-events section or a company news page was read (it often showed nothing
+dated after Dec 2024: that means none found on that page, not none exist); "no" for Sev.en Energy, Meyer, Living Spaces.
+
+== METHOD AND SOURCES ==
+- Discovery: a researcher candidate list of 575 names across the eight gap industries, every one run through v2/check.py (with
+  website; legal suffixes stripped), then a peer-file check against all b01-b03 research files (exact-name script plus substring grep).
+  Most DISC lines therefore have no list URL (source says so).
+- The single WebSearch (limit 1) went on furniture retail rankings -> HomeNewsNow 125 Furniture & Bedding Retailers 2025:
+  ranks 1-25 and 26-50 opened (homenewsnow.com/blog/2026/06/22/... and .../2026/06/14/...), 50 names, 26 private/relevant ones
+  logged in DISC with the stated 2025 US furniture sales. Ranks 51-125 not opened.
+- Pages opened for records: Wikipedia EN/DE/FR/SV (Orano, Westinghouse, Framatome, Gasunie, Inter Pipeline, VTG (de), Porterbrook,
+  Vinda, Sveaskog (sv), Kinnarps (sv), McArthurGlen, Q-Park, Wempe (de), Apollo-Optik (de), TEDi (de), Raymour & Flanigan,
+  Thomas Philipps (de), The Range, LEAG (de), Škoda Transportation, Angel Trains, Dehner (de), At Home, Cost Plus World Market,
+  Maped (fr), Trans Mountain, Groupe Hamelin (fr), Pavel Tykač (for Sev.en), Cadent Gas, TÜRASAŞ, BOTAŞ, Cavender's, Northern Tool,
+  Spec's, Spirit Halloween, Libbey, Lenox, Union Tank Car, Thermos, Meyer); company sites: gasunie.nl, chane.eu (+about), porterbrook
+  (about, shareholders), pfeifergroup.com, hs.at (+company), kinnarps.com (+corporate information), flokk.com (+about, investors),
+  thebicestercollection.com (+about), mcarthurglen.com (+who-we-are), storage-mart.com/about-us, q-park.com (+profile, IR),
+  sveaskog.se, meyer.com.hk, lodgecastiron.com, livingspaces.com (+about), lenox.com, teknion.com, tallgrass.com, ferd.no.
+- Failed/404/403/503 (moved on): orano investors, framatome.com (403), Tallgrass about, VTG and Akiem company pages, Škoda Group site,
+  Klausner (503), Mayr-Melnhof Holz, Evos (503), Teknion and Kinnarps Wikipedia (EN), Value Retail and McArthurGlen Wikipedia guesses,
+  MyEyeDr (wiki and site), Stanley 1913 (site and wiki), Libbey first title, Carpenter Co., Sev.en Energy and Hamelin titles,
+  City Furniture (site 403), Drylock (503), WEPA (de title 404). Wikipedia was slow but did not refuse; guessed titles caused most 404s.
+
+== COUNTS ==
+Names run through check.py: c.600 (575 list + furniture list + aliases). DISC check: NEW 415, IN MASTER 65, ALREADY DELIVERED 28,
+F1 PARTNER 6 (Iron Mountain, Xerox, Ecolab, SharkNinja, Yugo, ADNOC), LISTED 42, POSSIBLE 47. Stage: researched 54, left out 183
+(includes ~30 already researched by peer tasks and ~13 queued in in_qNN files), not researched 366.
+MAIN by gap: nuclear/uranium 3 (Orano, Westinghouse, Framatome); coal 2 (LEAG, Sev.en Energy); pipelines/gas/storage 5 (Gasunie,
+Inter Pipeline, Trans Mountain, Cadent Gas, BOTAŞ); rail 3 (VTG, Porterbrook, Škoda Group); forest/timber 3 (Pfeifer Group,
+HS Timber Group, Sveaskog); office 3 (Kinnarps, Maped, Groupe Hamelin); housewares/household 2 (Vinda, Libbey); specialist property
+3 (McArthurGlen, StorageMart, Q-Park); specialty retail 10 (Wempe, Apollo-Optik, TEDi, Raymour & Flanigan, Thomas Philipps, Dehner,
+At Home, World Market, Northern Tool + Equipment, Cavender's).
+WATCH: Chane (ex-Koole, owner unknown), Flokk (Route A met, owner not shown), Meyer Manufacturing, Value Retail (strong fit, owner not
+shown), The Range, Living Spaces, TÜRASAŞ, Spec's, Angel Trains, Spirit Halloween, Lenox.
+
+== CAVEATS FOR THE BUILD ==
+- OVERLAPS found at the end: VTG is also in u07_swf_portfolio MAIN; Cadent Gas in t10_utilities; Libbey in t56_gap_consumer_leisure
+  (parallel run); Northern Tool + Equipment is queued in in_f07. Keep one of each.
+- Parents on the master (subsidiary kept as its own brand, per batch 3 rule 1): Vinda (parent RGE on master; sister APRIL in r11),
+  LEAG (parent EPH on master), Škoda Group (parent PPF on master), TEDi (sister KiK on master). Mabanaft/Oiltanking/Advario were NOT
+  researched because Marquard & Bahls is on the master; Vileda likewise (Freudenberg HCS on master).
+- Category notes: Apollo-Optik's parent EssilorLuxottica owns Ray-Ban (Ferrari partner); Wempe sits in the crowded watch category.
+- Compliance flags recorded: Orano (Russia business relationships per Wikipedia; Niger dispute); Škoda Group (minority holdings listed
+  in Russia); Maped (Russian subsidiary in infobox); HS Timber (EUTR inspections; past sourcing allegations to check); Tatravagónka
+  (50% of JSC Transmash, Transmashholding - not researched); Drylock (plant in Alabuga SEZ, Russia - not researched).
+- Old figures flagged in `period`: Gasunie 2009, Inter Pipeline 2019, Q-Park 2015, Dehner 2020, World Market 2011, Northern Tool 2017,
+  Libbey 2018, Raymour 2021 (plus 2025 trade estimate), At Home 2021, Sveaskog 2022, VTG 2022, LEAG 2021, Trans Mountain deal 2018;
+  Pfeifer and Hamelin revenue have no year. HKD and CZK converted at c.7.8/USD and c.0.043 (no fixed brief rate).
+- Q-Park owner is inferred (IR page points shareholders to KKR Infrastructure Fund information).
+- Most records rest on Wikipedia plus at most one company page; marketing heads identified only for Kinnarps.
+- Many of these gap companies are regulated utilities or commodity producers with fit near zero (Sveaskog, LEAG, Sev.en, Cadent,
+  Gasunie, Trans Mountain): recorded to close the gaps, not as prospects.
+
+== NOT REACHED ==
+- Healthcare property and hotel-owning REITs/private owners (Montecito, Harrison Street, Highgate etc.): no records (Highgate queued).
+- Self-storage beyond StorageMart (Prime Storage, Access Self Storage, Kennards - Kennards held by t45).
+- Housewares/household: Sofidel and Arc queued elsewhere; WEPA, Zep, Spontex, Libman, Shanghai White Cat, Santher, Softys, Hotpack,
+  Kiilto, Duralex, Joseph Joseph, Bodum, Mepal, Owala, Stanley 1913/PMI not researched.
+- Rail: Akiem, Railpool, Ermewa, Wascosa, Eversholt, Rock Rail, TTX, ARI, Kawasaki Railcar, J-TREC, Bozankaya, Robel, Loram, CZ Loko.
+- Forest: Klausner, Mayr-Melnhof Holz, Pfleiderer, Yildiz Entegre, Hampton, Stimson, Green Diamond, Columbia Forest Products, Tolko,
+  Vida, Setra, Hyne, OneFortyOne, timberland investment managers.
+- Midstream: Tallgrass, Evos, Odfjell Terminals, Tanquid, TransMontaigne, Howard Energy, Open Grid Europe, Teréga, GRTgaz, Gassco,
+  National Gas, Gaz-System, NTS/TAG (Brazil), Ocensa. Coal: PGG, Foresight, ACNR, KPC, Berau, MIBRAG, Navoi Mining.
+- Office: Teknion, Ahrend, Sedus, Wilkhahn, König + Neurath, USM, Global Furniture Group, Plus Corporation, Spicers, Bruneau, RAJA,
+  Manutan, Kores, Durable, Godrej Interio.
+- Retail: City Furniture, 3Z Brands, Gardner-White, Levin, Farmers Home, MyEyeDr, Visionworks, Eyemart, Krieger, Porta, garden centres
+  in France and the Netherlands, Woolworth (DE), English Home, Madame Coco, David's Bridal, Tecovas, BevMo.
+- Regions: Asia, Middle East, Africa and Latin America are thin (BOTAŞ, TÜRASAŞ, Vinda only). No local-language list sources for
+  these gap industries were opened. Nothing here is exhaustive.

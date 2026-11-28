@@ -109,3 +109,5 @@ launched: f05_queue | finished: t54_gap_finance_health (28 main, 13 watch, 346 d
 launched: t16_telecom_ops | finished: t08_professional (46 main incl. 30 law firms, 22 watch, 487 disc; Tilke (F1 circuit designer) in watch)
 launched: k03_nordics | finished: u07_swf_portfolio (36 main, 7 watch, 184 disc; portfolio pages of PIF, Temasek, TVF, Khazanah, Samruk, CPP, QIA, KIA refused access)
 launched: f06_queue | finished: f01 (31/7; 15 of 80 turned out listed, 13 already on master/delivered)
+launched: u09_pe_portfolio_b | finished: t55_gap_industrial_property (34 main, 11 watch, 603 disc)
+launched: t17_logistics | finished: k28_latam_spanish (34 main, 11 watch, 1,126 disc incl. Colombia's Supersociedades top 1,000; COP converted at an assumed rate)

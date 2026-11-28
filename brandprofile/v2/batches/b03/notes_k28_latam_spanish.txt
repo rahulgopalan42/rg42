@@ -1,0 +1,34 @@
+k28_latam_spanish - batch 3, MODE country (Spanish-speaking Latin America and Caribbean). Researcher run 28 Nov 2026.
+
+SOURCES USED (names extracted)
+- Supersociedades "1.000 empresas más grandes" 2024 (operating revenue, net result), Excel via Valora Analitik:
+  https://www.valoraanalitik.com/wp-content/uploads/2025/06/Base-1000_empresas_2024.xlsx (article https://www.valoraanalitik.com/?p=480168). 1,000 names -> DISC.
+  The Supersociedades server itself reset connections. COP converted at an ASSUMED 1 COP = USD 0.000245 (COP is not in the brief's fixed rates); original COP figures kept.
+- Clay search-companies, Peru HQ, revenue USD 200M+, non-public (one page): 20 rows, 16 companies kept in DISC (government/universities kept as listed in DISC where companies).
+- WebSearch (2 of 2 used): one regional ranking search (no usable list), one Colombia 1000 search (found the Excel).
+- Company sites and Spanish/English Wikipedia articles for research (listed in each record's sources).
+- About 85 further candidate names in DISC come from my own candidate list (marked "candidate named by researcher ... not verified"), not from a ranking page.
+
+COUNTS
+- DISC: 1,126 lines (1,000 Colombia registry + 126 other). check.py: NEW 1,018, POSSIBLE 68, LISTED 19, IN MASTER 14, ALREADY DELIVERED 6, F1 PARTNER 1.
+- Brand-level checks (name without legal suffix and with website) found many more duplicates than the legal names: e.g. D1, Olímpica, Postobón, Nutresa, Alquería, Arturo Calle, Crepes & Waffles, Quala, Avianca, Techint, Arcor, AJE, Belcorp, Grupo Gloria, Pronaca, Pollo Campero, Arajet, Digicel, Sky, JetSMART, Ualá.
+- DUPS: 129 (registry non-NEW rows, brand-level hits, listed companies check.py missed such as Ecopetrol, ISA, GEB, Tecnoglass, Procaps, Havanna, Carozzi, Petroperú; left out for distress/compliance: Flybondi, Grupo Roggio; now national entities of multinationals: Productos Familia/Essity Colombia, Pintuco/AkzoNobel, Corporación GPF/FEMSA).
+- MAIN: 34. WATCH: 11. Total 45.
+  By country: Colombia 21 MAIN; Argentina 4 MAIN (Tiendanube, Pluspetrol, Genneia, Grupo Werthein) + 3 WATCH; Chile 2 MAIN + 1 WATCH; Ecuador 2 MAIN + 1 WATCH; Uruguay 1; Costa Rica 1; El Salvador 1 (Unicomer); Puerto Rico 1 (Serrallés); Bolivia 1; Guatemala 2 WATCH; Panama 1 WATCH; Nicaragua 1 WATCH; Dominican Republic 1 WATCH; Peru 1 WATCH.
+  Routes: Colombian MAIN records use registry revenue (Route A) from the Supersociedades file; others Route A (Rappi, Tiendanube, Conaprole) or Route C.
+- signals_checked: "yes" where a news/press/recent-events page was opened; "no" otherwise (noted in each record).
+
+CAUTIONS
+- Ownership: many Colombian company sites do not name owners. Records say "requires verification" rather than guess. Own shares not traded is inferred from S.A.S./Ltda legal form and Supersociedades (not Superfinanciera) supervision in the registry file.
+- Grupo Werthein: its subsidiary DirecTV (Latin America) may match "DirecTV" on the master (All New Brands). Confirm before delivery.
+- Flor de Caña (WATCH): serious compliance concerns per Wikipedia. Varela Hermanos (WATCH): political-movement link on own site.
+- Totto employee figure (15,000) as stated on Wikipedia looks high.
+- Some revenue figures are older than three years and flagged (Dos Pinos 2017, Serrallés 2011, Telecentro 2020).
+
+NOT DONE / GAPS
+- No usable public ranking list opened for Peru, Chile, Argentina, Ecuador, Central America, Caribbean, Uruguay, Paraguay or Bolivia (Ekos, Vistazo, AméricaEconomía, Mercado pages were dynamic, 404 or down; WebSearch budget spent). Those countries rely on candidates I named plus one Clay page for Peru.
+- Paraguay: nothing researched (Grupo Vázquez, AJ Vierci, Copetrol etc. in DISC only). Honduras, Panama retail, Dominican groups (Vicini, Ramos, Puntacana) and Peru (Ransa: site 503) not researched.
+- About 380 Colombian registry companies above USD 150M equivalent remain NEW and unresearched in DISC; many are national subsidiaries of multinationals (to leave out) but many are domestic groups (e.g. Biomax, Distracom, Sunshine Bouquet, Unibán, Pollos El Bucanero, Team Foods, Centelsa, Contecar, Ajover Darnel, Permoda/Koaj, STF Group, Cueros Vélez, Incolmotos Yamaha, Constructora Capital, Marval, Arquitectura y Concreto, Servientrega peers).
+- Sites blocked or unreachable: team.co, ajoverdarnel.com, about.rappi.com (DNS), koaj.co, frisby.com.co (bot wall), incolmotos-yamaha.com.co (403), biomax.co (403), centelsa.com, distracom.com.co, sunshinebouquet.com, ransa.biz (503), supersociedades.gov.co (reset). Wikipedia rate-limited the API.
+- 68 POSSIBLE rows from the registry list not reviewed one by one (left as POSSIBLE in DISC).
+Nothing here is exhaustive.

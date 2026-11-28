@@ -1,0 +1,84 @@
+NOTES t56_gap_consumer_leisure (batch 3, 28 Nov 2026) - gap industries from the t50 audit: RVs and boats; musical instruments and
+pro audio; vehicle repair, tyre-fitting and car wash; specialty retail (pet, toy, sports, books, optical); golf, racetracks and non-F1
+venues; live entertainment; childcare; fishing and aquaculture; textiles; ceramic tableware and glassware; outdoor and hunting brands.
+Read notes_t50_gapfinder_b.txt first; did not re-research any t50 MAIN/WATCH name (several t50 DISC "not researched" names were
+taken up: d&b audiotechnik, D'Addario, Classic Collision, Carthago, ATU, Troon, Nederlander, Meow Wolf, Gerber).
+
+== FILES ==
+MAIN 30, WATCH 15, DISC 332, DUPS 70. All lines parse as JSON; no company twice in MAIN/WATCH.
+Every MAIN/WATCH name was also cross-checked against the other b03 MAIN/WATCH/queue-input files (res check). One clash found and fixed:
+Alain Afflelou was already in k01_france_benelux MAIN, so it was removed from t56 MAIN and logged in DUPS.
+
+MAIN (30): Correct Craft, d&b audiotechnik, D'Addario, Classic Collision, Pep Boys, Books-A-Million, Kinokuniya, Cooke Inc.,
+Nueva Pescanova, Milliken & Company, Libbey, Petzl, Truma, Tohatsu, Carthago, Groupe Pilote, Rapido, Accordia Golf, Sioen
+Industries, Buffet Crampon, Hugendubel, Montbell, Shiki Theatre Company, Clearwater Seafoods, TenCate, ATU Auto-Teile-Unger,
+Vision Express, Steelite International, Sealord Group, Arcis Golf.
+WATCH (15): Troon, Nederlander Organization, Coolmore, Leupold & Stevens, Herend Porcelain Manufactory, Meow Wolf, Hoshino Gakki
+(Ibanez/TAMA), Gerber Collision & Glass, Christian Brothers Automotive, O.F. Mossberg & Sons, Hervis, Sport Chek, Tattersalls,
+KemperSports, Oceanco.
+
+Flags the user should see:
+- Pep Boys: agreed sale (Jul 2026) to Mavis Tire, which is on the master - probably drop once closed.
+- ATU: parent Mobivia is on the master; ATU trades under its own brand - user decision.
+- Vision Express: parent EssilorLuxottica owns Ray-Ban/Oakley (F1 partners) - category conflict recorded.
+- Herend (WATCH): has made the Hungarian Grand Prix trophy - check for a current GP deal; also Russia exposure.
+- Cooke: False Claims Act suit and Clean Water Act notice (2024) recorded in compliance.
+- Samherji left out (Fishrot / Namibia bribery allegations).
+- Native Instruments left out (preliminary insolvency Jan 2026, inMusic deal May 2026).
+- Stale figures (flagged in `period`): Libbey FY2018, Sioen 2018, TenCate 2018, Clearwater 2019, Sealord 2020, Tohatsu FY Mar 2021,
+  Steelite 2016, Petzl 2017 (Route C used), Books-A-Million 2022, Shiki FY2021 (Route C used). Montbell's JPY 125bn (2023) should be
+  checked (may be retail sales). Sealord revenue is NZD (not in the fixed-rate table; usd_m left null).
+- Ownership "requires verification" (listing inferred from check.py and share capital, no page naming owners): Kinokuniya, Tohatsu,
+  Montbell, Shiki, Classic Collision, Libbey, Groupe Pilote, Steelite.
+
+== SOURCES USED (names yielded) ==
+- en.wikipedia "List of boat builders" (about 85 names; all to DISC)
+- One WebSearch (limit 1): Music Trades Global 225 - the ranking itself is paywalled; musictrades.com global.html 404 and the
+  Top 200 retailers page gives only aggregates (0 names).
+- Company / Wikipedia pages opened (en, de, fr, nl, es, ja): correctcraft.com (home, who-we-are, history, news); de.wikipedia d&b;
+  en.wikipedia D'Addario (manufacturer); classiccollision.com about + news; mavis.com; en.wikipedia Pep Boys; troon.com (home, about,
+  press releases, careers); en.wikipedia Books-A-Million; corp.kinokuniya.co.jp + ja.wikipedia; en.wikipedia Cooke Inc.;
+  es.wikipedia Nueva Pescanova; en.wikipedia Milliken + milliken.com; en.wikipedia Libbey Incorporated; en/fr.wikipedia Petzl;
+  de.wikipedia Truma; ja.wikipedia Tohatsu; de.wikipedia Carthago; fr.wikipedia Pilote, Rapido, Alain Afflelou, Christofle;
+  ja.wikipedia Accordia Golf, Intermestic (Zoff), Shiki, Hoshino Gakki, Montbell, Narumi; en.wikipedia Coolmore, Nederlander, Medieval
+  Times, Meow Wolf, Snow Peak, Pure Fishing (redirects to Sycamore), Clearwater, Samherji, Leupold, Herend, Mossberg, Buffet Crampon,
+  Native Instruments, Airstream, American Seafoods, Lenox, Steelite, PXG, KemperSports, Shubert, Really Useful Group, Vision Express,
+  HMV, Sport Chek, Tattersalls, Sealord Group, Oceanco, Arcis Golf, C. F. Martin; nl.wikipedia Sioen, TenCate; sioen.com (home,
+  about); de.wikipedia Hugendubel, ATU, Hervis; gerbercollision.com, boydgroup.com, cbac.com.
+- Many Wikipedia titles and company "about" URLs returned 404 (logged in DISC `why`); joehudsonscollision.com not reachable in this
+  session's network.
+
+== COUNTS ==
+Names extracted / considered: 332 (DISC). Run through check.py: all DISC names (two passes of the large candidate lists plus a final
+pass over every DISC NEW line). Results among checked names: IN MASTER about 30, ALREADY DELIVERED about 25, F1 PARTNER 3 (Riedel
+Communications, Fever, Ray-Ban via parent note), LISTED about 10 (incl. Zoff/Intermestic found listed on research), POSSIBLE resolved
+by hand 10+. Researched in depth: about 70 companies; MAIN 30, WATCH 15; the rest stayed in DISC with the reason.
+
+== COVERAGE BY SUBSECTOR ==
+- RVs/boats: Correct Craft, Truma, Carthago, Pilote, Rapido, Tohatsu (MAIN); Oceanco (WATCH). Thor/Winnebago RV brands and most
+  boat-list names not researched.
+- Musical instruments/pro audio: d&b, D'Addario, Buffet Crampon (MAIN); Hoshino (WATCH). Not reached: Ernie Ball, Zildjian, PRS,
+  Genelec, Adam Hall, Solotech, PRG, Peavey.
+- Vehicle repair/tyres/car wash: Classic Collision, Pep Boys, ATU (MAIN); Gerber, Christian Brothers (WATCH). Car-wash chains not
+  reached (no list source opened; t50's carwash.com refusal persists).
+- Specialty retail: Books-A-Million, Kinokuniya, Hugendubel, Vision Express (MAIN); Hervis, Sport Chek (WATCH). Pet retail mostly in
+  master already; toy retail (King Jouet, JouéClub) and optical (Atol, MyEyeDr, Eyemart) not researched.
+- Golf/racing: Accordia Golf, Arcis Golf (MAIN); Troon, KemperSports, Coolmore, Tattersalls (WATCH). Motor circuits left to t39.
+- Live entertainment: Shiki (MAIN); Nederlander, Meow Wolf (WATCH); Shubert, LW Entertainment, Medieval Times researched but no route.
+- Childcare: nothing new qualified - Goddard, Kiddie Academy, Kido delivered; Primrose in master; The Learning Experience, Affinity,
+  People&Baby, Cadence already in other b03 files; Kids & Company, LPCR, Norlandia pages 404.
+- Fishing/aquaculture: Cooke, Nueva Pescanova, Clearwater, Sealord (MAIN). Santa Priscila, FCF, TASA, AquaChile not reached.
+- Textiles: Milliken, Sioen, TenCate (MAIN). Large South Asian makers are mostly in the master; Isko, Vicunha, Parkdale, Standard
+  Textile, Glen Raven could not be opened.
+- Ceramics/glass: Libbey, Steelite (MAIN); Herend (WATCH). Christofle, Narumi below thresholds; Riedel glass, Zwiesel, Rosenthal, Arc,
+  Georg Jensen are in queue inputs.
+- Outdoor/hunting: Petzl, Montbell (MAIN); Leupold, Mossberg (WATCH, brand-safety). Most European outdoor brands are in queue inputs
+  or already delivered.
+
+== WEAKNESSES / NOT DONE ==
+- Almost all records rest on Wikipedia plus at most one company page; many newsrooms were not opened (signals_checked "no" for d&b,
+  Milliken, Libbey, Pilote, Rapido, Steelite, Gerber, Christian Brothers, Sport Chek, Tattersalls).
+- No marketing head was identified for any company (marketing_head_identified "no" throughout).
+- No list-type sources for Asia, the Middle East, Africa or Latin America in these industries were opened; regional coverage is
+  mainly Japan, Western Europe, North America and Oceania. Not exhaustive.
+- DISC "not researched" names (about 230) remain for a later run.
