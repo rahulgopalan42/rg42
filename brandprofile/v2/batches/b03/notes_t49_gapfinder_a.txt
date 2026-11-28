@@ -1,0 +1,50 @@
+NOTES t49_gapfinder_a (batch 3, 28 Nov 2026) - independent sector audit against GICS
+
+== 1. GICS SUB-INDUSTRIES THAT NO BATCH 3 TASK COVERS ==
+Source of the GICS list: https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard (163 sub-industries, read in full 28 Nov 2026).
+Compared with the sector list at the top of v2/batches/b03/tasks.md and every task line in that file (sector t01-t53, subsidiaries u01-u08,
+country k01-k30, clay, audit x01-x08). Country, subsidiary, clay and audit tasks cut across industries; they are not counted as covering an
+industry unless their line names it. "Not covered" = no sector task line names the activity.
+
+NOT COVERED by any task line (no task names it):
+ 1. Managed Health Care (health insurers / health plans, HMOs, statutory and private sickness funds). t09 names insurers, reinsurers, brokers,
+    insurtech, assistance; it does not name health plans. Largest gap by revenue (US Blue Cross Blue Shield plans, Swiss and German sickness funds).
+ 2. Financial Exchanges & Data (stock and derivatives exchanges, clearing houses, central securities depositories, rating agencies,
+    market-data and index providers). t04 covers asset managers / trading firms; t28 covers brokers and crypto exchanges; none names exchanges,
+    clearing or financial data.
+ 3. Life Sciences Tools & Services (contract research organisations, lab instruments and consumables, clinical-trial technology).
+    t26 names contract manufacturers only; t45 names testing laboratories (industrial TIC), not CROs.
+ 4. Commercial & Residential Mortgage Finance (non-bank mortgage lenders and servicers). t28 says "lenders" in a fintech sense only.
+ 5. Mortgage REITs (largely listed; low relevance).
+ 6. Household Products (detergents, cleaning, tissue, air care, insecticides). No b03 task names them (t23 covers beauty/personal care only).
+ 7. Housewares & Specialties (cookware, tableware, kitchen and storage products, candles). t21 names appliances, kitchens, tools; not housewares.
+ 8. Investment Banking & Brokerage (independent advisory banks, retail brokerage partnerships). t04 names private banks / wealth managers /
+    trading firms; t28 online brokers; independent M&A advisory houses are named nowhere.
+ 9. Forest Products (timber, sawmills, lumber, wood panels, forestry owners) and Timber REITs. t11 covers pulp, paper and packaging only.
+    (t50 lists "forestry" as an example, so overlap is possible.)
+10. Coal & Consumable Fuels (coal miners, uranium). t06 says "mining" generically; t18 oil & gas; coal and uranium are named nowhere.
+11. Construction Machinery & Heavy Transportation Equipment - the heavy transportation part: rolling stock, locomotives, railcars,
+    buses' chassis makers are partly in t27 (trucks, buses); rail rolling-stock and railcar makers/lessors are named nowhere
+    (t48 covers rail operators, not manufacturers).
+12. Office Services & Supplies (office products, office furniture dealers, managed print, mailing equipment). t21 says "stationery" only.
+13. Advertising (agencies, media-buying, out-of-home media owners, ad tech). No batch 3 SECTOR task names it (batch 2 had s05_marketing;
+    clay_i14 pulls "Advertising Services" from Clay only).
+14. Tobacco. No batch 3 sector task (batch 2 s03; clay_i22 pulls Tobacco Manufacturing). Low F1 usability (advertising law).
+15. Oil & Gas Storage & Transportation (pipelines, midstream, storage terminals): t18 names LNG and trading, not pipelines/storage.
+16. Self-Storage REITs/operators, Health Care REITs, Hotel & Resort REITs as owners: t13 names developers, investors, shopping centres,
+    housebuilders, co-working, brokers; not self-storage, healthcare property or hotel-owning REITs.
+17. Specialized Consumer Services (funeral, weddings, storage, personal services) - named only in t50's examples (t50 runs it).
+
+PARTLY covered (named only in passing; worth a second look):
+ - Health Care Supplies (gloves, consumables) - t26 "medical-device makers" only.
+ - Communications Equipment (network gear, radios, antennas) - t15 says "hardware" generally; t14 connectors.
+ - Other Specialty Retail / Homefurnishing Retail (sporting-goods, toy, book, pet, furniture retail chains) - t24 lists supermarkets, DIY,
+   electronics, pharmacy, department stores, duty free; not sporting goods, furniture or pet retail.
+ - Air Freight (cargo airlines) - t17 names forwarders and parcel; t31 airlines (passenger).
+ - Biotechnology (non-venture, profitable private biotech) - t26 private pharma.
+ - Diversified Support Services (uniform rental, auctioneers) - t45 partly.
+
+Covered (for the record): all other GICS sub-industries map to at least one task line (t01-t53).
+
+== 2. WHAT I RESEARCHED (largest gaps first) ==
+(see below; appended as the work went on)

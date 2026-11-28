@@ -1,0 +1,24 @@
+r19_queue (batch 3, queue mode) - input in_q19.jsonl, 80 lines, all processed. 28 Nov 2026.
+WebSearch used: 0 (limit 0). Pages opened with WebFetch and plain HTTP fetches (Wikipedia raw wikitext in en/de/it/es/id/tr, company sites).
+check.py run on every name, on the name without legal suffix, and on parents/aliases (Caesars, Lidl, Moeve, Swiss Post, MasOrange, ALTANA, Egmont, Samworth Brothers, Microsoft, Santander, Monster Energy, LVMH etc.).
+
+RESEARCHED
+MAIN (24): Zunder (C), Eastar Jet (C), ANCAP (A, 2021 figure), Studienkreis (C), Nordisk Film (A, 2018 figure; parent Egmont IN MASTER - user to decide), Ratiodata (A), Calik Holding (A), Camfil (A), Timezone (C), Gruppo Mezzacorona (A, 2020-21), Stallion Group (C), Gloria Jean's Coffees (C), ResultsCX (C), Goodman Fielder (C), Ennismore (C), Rutronik (A), BC Ferries (A), Protelindo (C), Summit Group (A, 2019; listing status of group holding to verify), Mojang Studios (C; parent Microsoft is an F1 partner), Hairhouse (A, FY21 IBISWorld), Brand Collective (A, FY22 IBISWorld), Fleetcare (A, FY22 IBISWorld), TCS John Huxley (C).
+WATCH (20): Manga Productions, F.X. Matt Brewing, Hangzhou Watch Company, Hanhart, HVC, Sylvan Learning, Novo Cinemas, Emerald Cruises, Hanwag, Baja Ferries, Nu Metro Cinemas, Harry Winston, Heritage-Crystal Clean, Premier Research, Simba Group, Hidronor Chile, Grupo Sabin, Sahyadri Hospitals, KOI (Movistar KOI; a rights holder rather than a sponsor), HPC Industrial (formerly HydroChem).
+
+LEFT OUT (DUPS, 27)
+- in master / delivered / F1 partner or its entity: Lidl Schweiz, Moeve Retail Operations, Grant Thornton Australia, RSM Australia, Xfera Moviles (MasOrange), PostLogistics (Swiss Post), BYK Additives (ALTANA), Ginsters (Samworth Brothers), Microsoft Iberica, Santander Global Technology, Caesars Interactive (Caesars), Monster Brewing (Monster Beverage; Monster Energy F1 partner).
+- listed: Stride K12, Fujian Dali (Dali Foods), Rohto, CANAL+ Group, Cantabil Retail, SPC Global (ASX: SPG since Dec 2024).
+- not a separate company: Repsol Industrial Transformation, Bunge Iberica, BYU-Idaho (university unit).
+- closed / merged / insolvent: National Amusements, Cablevision-Fibertel, Monster Games, BYJU'S Learning.
+- compliance: Can Holding (TMSF asset seizure Sep 2025), ASDP Indonesia Ferry (ex-CEO conviction 2025).
+
+NOT RESEARCHED (9; no page about the company could be opened)
+Shaher Trading (site unreachable, no Wikipedia article - red link on List of conglomerates, Yemen); Metasa (Paraguay cigarette maker per List of cigarette brands; no own page found); C21FG (domain parked for sale on Sedo); The Game LLC / UAE Lottery (site requires JavaScript, no Wikipedia page); Tipwin (403 on .com and .de); Elevate Jet (403); Caparo Engineering India (site unreachable/503); Tesseract Learning (bot check); Ozcare (503).
+
+GAPS
+- Signals: newsroom pages failed for Camfil, ResultsCX, Timezone, Ennismore (404) - signals_checked "no" where no recent-events page was read. Wikipedia history used as the signals page where available.
+- Owners not found: Timezone/TEEG, ResultsCX, Hairhouse, Brand Collective, Fleetcare, Heritage-Crystal Clean, Premier Research, Nu Metro, Hidronor, Sabin, Sahyadri.
+- Old figures: ANCAP 2021, Nordisk Film 2018, Mezzacorona 2020-21, Summit 2019, IBISWorld Australian figures FY21/FY22.
+- IDR has no fixed rate in the brief: Protelindo revenue kept in rupiah with usd_m null.
+- High-interest names for follow-up: Rutronik, Ennismore, Camfil, TCS John Huxley, Zunder, Calik Holding.

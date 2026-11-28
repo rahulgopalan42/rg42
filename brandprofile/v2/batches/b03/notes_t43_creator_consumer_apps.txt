@@ -1,0 +1,63 @@
+t43_creator_consumer_apps - batch 3, MODE sector, 28 Nov 2026
+Scope: consumer internet platforms and apps, creator economy and creator-owned brands, dating, audio/video streaming, collectibles and
+trading cards, ticketing and resale, fantasy sports, prediction markets, super-apps and delivery (Asia, Middle East, Africa, LatAm).
+Stream: Independent web research only (WebFetch). WebSearch used: 0 of 1.
+
+COUNTS
+- MAIN 42 (Route A 37, B 2, C 3); WATCH 5; DUPS 77 lines; DISC 97 lines.
+- Every MAIN/WATCH record has signals_checked = "yes" (Wikipedia history/recent events or the company newsroom was opened).
+- Names run through check.py: about 330 (several calls). Results among them: IN MASTER ~40, ALREADY DELIVERED 9, F1 PARTNER 10
+  (ByteDance, Fanatics, Viagogo, FanDuel, Fever, Tokopedia, Mercado Libre, iflix, plus DAZN on Madring GP partner page), POSSIBLE ~12.
+- Further found LISTED on pages opened (check.py did not flag): Shein (HK IPO Aug 2026), OSN+ (inside Nasdaq-listed Anghami),
+  VNG (UPCoM). Known-listed and left out: Spotify, Grindr, Hello Group/Momo, Swiggy, DraftKings, Jahez, Yalla, Storytel, Deezer, Webtoon.
+- All MAIN/WATCH names (and aliases, without legal suffixes) re-checked at the end: all NEW except Kick's parent Easygo
+  ("Stake (Easygo)" is IN MASTER). Kick kept in MAIN with that flagged in outstanding; the user/assessor should decide.
+
+SOURCES (names yielded)
+- Wikipedia List of unicorn startup companies (3 chunks, consumer rows): 41 names -> DISC.
+- Wikipedia List of largest Internet companies: 8 private names -> DISC (most rows are listed companies).
+- Wikipedia Delivery Hero article: 9 operating brands -> DISC with parent; Glovo and PedidosYa researched.
+- collectors.com/news: Collectors brands + Goldin (eBay) -> DISC.
+- Company Wikipedia articles (EN, plus FR for Back Market / ManoMano, ES for PedidosYa, PT for iFood) for each researched company.
+- Company pages: telegram.org/blog, stockx.com/about/press, corporate.epidemicsound.com, yassir.com/en/about, pocketfm.com/about-us,
+  collectors.com/news.
+- Could not open: about.rappi.com (host blocked); Wikipedia 404 for HungerStation, Kayou (EN and ZH), Uzum_(company) (found at /Uzum),
+  Whatnot_(company) (found at /Whatnot), Yassir (company), Pocket FM (wrong article), BookMyShow, TEG, Back Market (EN), Spinny,
+  ManoMano (EN), Keeta (beetle article), MoMo, Yanolja, Tantan, ParshipMeet Group, Muzz; platinumlist.net/about-us 404.
+
+SUBSECTORS COVERED (MAIN/WATCH)
+- Messaging/social: Telegram, Xiaohongshu, ShareChat. Creator economy: Beast Industries, Skims, Patreon, Linktree, Substack, Kick,
+  Twitch, Dude Perfect (W). Streaming/audio: Crunchyroll, Pocket FM, SoundCloud, Epidemic Sound, Starzplay Arabia, Viu (W),
+  Boomplay (W), Audible (W). Collectibles: Panini, Collectors (PSA), Whatnot, StockX, OpenSea, Upper Deck (W).
+  Ticketing: AXS, DICE. Fantasy: Dream Sports. Super-apps/delivery: Rappi, iFood, Glovo, PedidosYa, Deliveroo, Gopuff, Getir,
+  Uzum, Yassir, Lalamove. Marketplaces: Vinted, Back Market, Vestiaire Collective, ManoMano, Kavak, Carsome, Craigslist, DMM.com,
+  Weverse Company.
+- Regions: US, Europe, China/HK, India, Japan, Korea, Malaysia, Uzbekistan, Algeria/Maghreb, Nigeria, Brazil, Mexico, Uruguay/
+  Latin America, Turkey, UAE/MENA.
+
+FLAGS FOR REVIEW
+- Gopuff: Wikipedia records a multi-year McLaren partnership from Feb 2022; check.py roster does not list it. Confirm it ended.
+- Kick: former Sauber F1 title partner (ended 2025); parent Easygo/Stake on master; high compliance risk.
+- DICE: parent Fever is a current F1 partner (category_conflict established).
+- Twitch and Audible: parent Amazon (AWS) is an F1 partner.
+- Telegram, Kick, Substack, Xiaohongshu, Shein-type compliance issues are recorded in `compliance`.
+- Dream Sports: real-money fantasy banned in India Aug 2025 (>90% of revenue); kept in MAIN on funding/valuation with distress noted.
+- DMM.com and StockX figures are older than three years (flagged in fin).
+
+NOT DONE / GAPS
+- Prediction markets beyond Kalshi/Polymarket (both IN MASTER) not researched (Novig, ProphetX etc.).
+- Dating: no qualifying company researched (Muzz, Feeld, Happn, Tantan, Hily(listed?), Pairs, Tapple, Omiai, Shaadi.com, Jeevansathi,
+  eharmony/ParshipMeet checked NEW but no usable page opened).
+- Ticketing second pass: Platinumlist (UAE), BookMyShow, Sympla, Ticketek/TEG (DISC, no route on page), Tixr, Gametime, TickPick,
+  Interpark Triple, Ticketswap not researched. Check Ticketek and Platinumlist for Grand Prix ticketing links before use.
+- Super-apps/delivery not researched: HungerStation, Yemeksepeti, foodpanda, Instashop, Yogiyo, Keeta (Meituan brand), MoMo, Be Group,
+  Halan, Gozem, Chari, Nana, Salla, Zid, Kitopi, Swvl(listed?), Bukalapak/Jumia (listed).
+- Streaming/audio not researched: JioSaavn, JioHotstar (JioStar in master), Gaana, Wynk, Audiomack, Mdundo, Showmax, Shahid (MBC),
+  Vidio, WeTV, Ximalaya, Lizhi(listed), Qingting FM, Kuku FM, VerSe (Dailyhunt/Josh), Abema, TVer, Tidal, Wattpad.
+- Collectibles not researched: Kayou (no page opened), Courtyard, Alt, Goldin.
+- Creator brands not researched: Sidemen, Happy Dad, Chamberlain Coffee (POSSIBLE vs Chamberlain Group), Fenty Beauty (LVMH Kendo),
+  Kajabi, Fourthwall, OnlyFans/Fenix (compliance).
+- Other DISC NEW not researched: Chehaoduo, Spinny, RIDI, Rec Room, Sleeper (POSSIBLE), MPL, Bigo, Lemon8, CapCut (ByteDance = F1
+  partner), Rumble.
+- These checked-NEW names came from my own candidate lists, not from a list page, so they are named here rather than in DISC.
+- Nothing here is exhaustive.

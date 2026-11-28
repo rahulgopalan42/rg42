@@ -1,0 +1,42 @@
+NOTES r18_queue (batch 3, queue mode, input in_q18.jsonl, 80 lines). Verified 2026-11-28. WebSearch used: 0. WebFetch only.
+All 80 names run through check.py, plus alias/parent/no-suffix variants (Bulgari, Bupa, BSH Hausgerate, Coop, ManpowerGroup, Siemens,
+Seiko, Swatch, Elecnor, Axel Springer, Ventia, etc.). Renamed/resolved names (H World International, Fortescue Zero, Adaptalift Group,
+Australian Fresh Milk Holdings, SYNOT Holding, Burson ...) re-checked: all NEW.
+
+RESEARCHED - MAIN (32): Salim Group (C); Simplilearn (C, Blackstone; weak indicators); H World International ex Deutsche Hospitality
+(A, rev 2019, H World Group subsidiary); Pitcher Partners (A, FY2022); Form700 (A, FY2021); Edistribucion Redes Digitales (A; owner not on
+page, believed Endesa - verify); Stakelogic (C); Disney Cruise Line (A, FY24 rev USD 2.5bn, profitable; MSC Cruises conflict; Apr 2026 CBP
+investigation); Onepoint (A, ~EUR 500m 2023, 3 acquisitions since Jan 2025); Axoil Energy (A, EUR 1.92bn 2024); Ventura Bus Lines (A,
+FY2022, Keppel Infrastructure Trust 97.68%); IRT Group (A, FY2022, charity); Burson (C, WPP; input row was Burson Sports LinkedIn page);
+Swisslos (A, 2020); SRH Holding (A, EUR 1.443bn 2024); Hagleitner Hygiene (A, EUR 171m FY25/26, family, strong fit for size; has Russian
+country site); Saudi Binladin Group (A via state backing / debt-to-equity Dec 2025); Hopitaux universitaires de Geneve (A, public
+hospital, fit nil); Alspec (A, FY2021); Adaptalift Group (A, FY2021); SYNOT Holding (C; CZK not in rate table); LOUD (C, rights seller);
+Hamburg Wasser (A, 2014, municipal); Witzenmann Group (A, EUR 730m 2022; Ufa site); Mastermind Tobacco Kenya (C, 2019-20 data, fit 0);
+Drury Hotels (C); Presidio (C); ColCap (A, AUM AUD 26bn+ = mortgage book); 2GO Group / 2GO Travel (C, SM Investments 67%);
+Wheels (C, 900k vehicles; owner unknown); Australian Fresh Milk Holdings / Moxey Farms (A, FY2022, attribution to verify);
+Grundon Waste Management (C; Silverstone is a named client).
+Many Route A records rest on figures older than three years (IBISWorld 2022 list, 2014/2019/2020 figures) - flagged in each record.
+Several MAIN records are realistic non-prospects (public hospital, municipal water, charity, tobacco) - fit rated 0 accordingly.
+
+RESEARCHED - WATCH (26): Maison Ferrand, Glashutte Original (Swatch), Flahavan's, Miraj Cinemas, VI-grade (owner not found), City Schutz,
+Lian Li Industrial, Sameer Group, Pharmanovia, Sponge, Franck d.d. (listing to verify), Glycine (Invicta), Secura protect, Business Insider
+(parent Axel Springer ALREADY DELIVERED b02 - user to decide), Brouwerij Martens, Multikino (Vue), Drukair, Openchip (IPCEI backing, amount
+undisclosed), StarRez, Seashore Group, Greubel Forsey, Frulact (Ardian), Leviatan (store page only), Fortescue Zero ex WAE (Fortescue
+division, now Formula E team owner), Manifatture Sigaro Toscano, Pharmathen (homepage only).
+
+LEFT OUT (DUPS, 14): Bvlgari (in master as Bulgari); Bupa UK (Bupa delivered b01); ManpowerGroup Colombia, Siemens Schweiz, BSH Turkiye,
+Bridgestone Asia Pacific (national/regional units); Coop Mineraloel (Coop Group in master); Criteria Caixa (holding vehicle); Pague Menos
+(listed B3 PGMN3); Broadspectrum (merged into Ventia 2020); Eureca Mayoristas (central purchasing vehicle, no brand); Grand Seiko (brand of
+Seiko Watch Corp, listed parent); BYJU'S (insolvency proceedings); Elecnor Servicios y Proyectos (part of listed Elecnor).
+
+NOT RESEARCHED (no page could be opened; no record written, 8):
+- ODU (odu-connectors.com 403; Wikipedia 404)
+- GS Inima (gsinima.com HTTP 522 twice; Wikipedia en/es 404)
+- Multicines (multicines.com.ec returned empty; Wikipedia 404)
+- Loop Games (loopgames.fi does not resolve in this session)
+- Pharmaq (pharmaq.com 503 twice; Wikipedia 404)
+- WeWatch (wewatch.de redirects to a domain-sale page; Luenendonk PDF not machine-readable here)
+- Fude + Serrahn (fude-serrahn.de does not resolve in this session)
+- Muvi Cinemas (muvicinemas.com 403; Wikipedia 404)
+
+Signals: newsroom-type pages checked where possible (signals_checked yes on 17 records); most records rely on one or two pages.

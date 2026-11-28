@@ -1,0 +1,33 @@
+notes_r17_queue (batch 3, queue mode, input in_q17.jsonl, 80 lines), 28 Nov 2026
+WebSearch used: 0. WebFetch only. check.py run on all 80 names plus suffix-stripped names, aliases and parents.
+
+RESEARCHED - MAIN (32): Tırsan (Kässbohrer) C; Zobele C; Espressolab C; Netomnia C; Frédérique Constant B; ESD Sicherheitsdienst C;
+Golden Cockerel A (FY2021 figure); One Harvest A (FY2022); Discovery Parks A (FY2022) + C indicators; Australian Turf Club C
+(IBISWorld estimate + staff); JWH Group A; Boost Juice C; Soft2Bet C; Securly C; Ruparelia Group C; Noweda A; Utility Trailer C;
+Zwiesel Kristallglas C; European Drinks & Foods A (2015 figure); CSI Aviation A (ICE revenue; serious reputational issues);
+Bpifrance A (state bank); BREXA A (input "BREXA Technology, Inc."; recorded at group level, ex-Outsourcing Inc., Bain-owned since 2024);
+SOFTSWISS C (Rubens Barrichello is Non-Exec Director LatAm); Cunard C (brand of Carnival UK; separate-company status to confirm);
+Veho A (2019 figure; Mercedes-Benz importer); Felleskjøpet A (Felleskjøpet Agri FY2022); Sakthi Group A (2020 figure); Optegra C
+(EssilorLuxottica since 2025); Verkor A (equity); First Milk A; Nxtra C; nLighten C.
+Several Route A records rest on figures older than three years (flagged in qualifying_metric and outstanding).
+
+RESEARCHED - WATCH (21): Crystal Cruises; Eufinger; big. bechtold; Power Gruppe (these three: Lünendonk figure only, own sites 403/503/DNS);
+Penfold Motors Group (IBISWorld ^^ estimate, not reported); Mac Baren (tobacco, ~140 staff, owner conflicting); GDE (inside Derichebourg);
+Malco Theatres; Saif Group; Semper Altius; Galvin Green; Sportium (Cirsa); Level-5; Maike Brothers Technology; GreenWaste Recovery;
+Shorelight; Megabox; Cyprus Airways; Georg Jensen; Stillwell Motor Group; Allam Homes (last two: IBISWorld estimate only, sites down).
+
+LEFT OUT (DUPS, 24): already delivered/in master: Lotto Sport, Geosyntec, Pontegadea Inversiones, Moeve Trading, Bosch Engineering,
+Bosch Japan, Bosch México, Bosch Türkiye, Bosch USA. National/legal entities or divisions: BMW Iberica, Axpo Iberia, TD Synnex Spain,
+Acciona Construcción Iberia, Borouge International Europe, Pavilion Energy Spain, Bouygues Energies & Services, Gallet & Co. (Breitling,
+an F1 partner), KT Rolster, OCP Portugal (PHOENIX), Marcus Theatres (NYSE division). Listed: Nilesat (EGX). Bankrupt: Mackmyra.
+Not eligible: SAREB (bad bank), BNI Corrèze Hybride (local BNI chapter; Clay bracket spurious).
+
+NOT RESEARCHED (3): Borges engenharia (Clay LinkedIn 403; iics.org.br does not resolve; Clay data look misattributed);
+KRÜ Esports (no Wikipedia article; kruesports.gg page empty); Spribe (site returns only a title; no Wikipedia article).
+
+Data-quality points: IBISWorld 2022 marks Penfold (^^), Stillwell, Allam, ATC (^) as estimates; Clay USD 1B-10B brackets for
+Boost Juice and BNI are not credible and were not used. Parents already delivered/flagged (do not exclude): Bain Capital (BREXA,
+Boost Juice), Bharti Enterprises (Nxtra), Carlyle F1 partner (Nxtra investor), EssilorLuxottica/Ray-Ban (Optegra), Renault/Alpine (Verkor).
+Websites blank where the domain was not opened. Hosts unreachable: big-bechtold.de, power-gruppe.com, bewachungsinstitut-eufinger.de,
+iics.org.br, stillwellmotorgroup.com.au (DNS); esd-sicherheitsdienst.de, power-gruppe.de, allamhomes.com.au (503); eufinger.de,
+tirsan.com.tr, frederiqueconstant.com (403).

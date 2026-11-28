@@ -54,3 +54,5 @@ launched: s08_signals | finished: clay_i05 (350 rows)
 launched: k23_gulf_groups | finished: clay_i06 (293 rows)
 launched: t49_gapfinder_a | finished: k19_india_giants (36 main, 10 watch, 566 disc; 14 names removed as listed in 2025-26 incl. NSE, Meesho, Zetwerk)
 launched: r21_queue | finished: u03_europe_subs_a (39 main, 6 watch, 133 disc)
+launched: clay_i07 | finished: r17 (32/21)
+launched: u05_asia_subs | finished: r18 (32/26). BUILD NOTE: some queue MAIN records are public bodies or charities rated fit 0 (public hospital, city water utility, charity): leave out of the ranking as not commercial prospects
