@@ -1,0 +1,28 @@
+
+ CNAME Cross-User Banned | Cloudflare
+ Please enable cookies.
+ Error
+ 1014
+ Ray ID: a6184f250854dad8 •
+ 2026-11-28 09:22:36 UTC
+ CNAME Cross-User Banned
+ What happened?
+You've requested a page on a website that is part of the Cloudflare network. The host is configured as a CNAME across accounts on Cloudflare, which is not allowed by Cloudflare's security policy.
+ Please see
+ this troubleshooting page
+ for more details.
+ What can I do?
+If this is an R2 custom domain, it may still be initializing. If you have attempted to manually point a CNAME DNS record to your R2 bucket, you must do it using a custom domain. Refer to R2's documentation for details.
+Visit our website to learn more about Cloudflare.
+ Was this page helpful?
+ Yes
+ No
+ Thank you for your feedback!
+ Cloudflare Ray ID: a6184f250854dad8
+ •
+ Your IP:
+ Click to reveal
+ 160.79.106.152
+ •
+ Performance & security by Cloudflare
+

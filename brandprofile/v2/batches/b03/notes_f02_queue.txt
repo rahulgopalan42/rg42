@@ -1,0 +1,52 @@
+f02_queue NOTES (batch 3, queue mode, 28 Nov 2026)
+Input: v2/batches/b03/in_f02.jsonl, 80 lines. All 80 handled: MAIN 41, WATCH 3, DUPS 33, not researched 3.
+WebSearch used: 0. Sources: company sites (curl text extraction where WebFetch got empty script-rendered pages),
+Wikipedia (intermittent 404s from rate limiting), stockanalysis.com for listing checks, cafef.vn, Forge, Investor AB, OMERS.
+check.py run on every name plus aliases (legal-suffix-free, English form, website, parent names).
+Scratch files: f02_write.py (record writer), f02_grab.sh (page text grabber).
+
+RESEARCHED - MAIN (41)
+Pinnacle Group (C), JR Automation (C), Abcam (A), KUHN Group (A), CertainTeed (C), +Simple (C), Transgrid (C),
+Alì S.p.A. (A), Ata Holding (C), Mediceo (A), Petrol Ofisi (A), Cholamandalam MS General Insurance (C), Numerator (C),
+Collibra (A), Altec (C), John Cockerill Defense (A), Commure (A), HIMOINSA (C), US LBM (C), Teknion (C), Petlove (C),
+Premier Tech (A, paid sponsorship: Alpecin-Premier Tech WorldTeam), SmartestEnergy (C), NV Energy (A), Linde Material
+Handling (C), Pull&Bear (A), Azure Power (C), BM Supermercados (Uvesco) (C), Actura (A), Elliott Group (A),
+Mitsubishi Fuso Truck and Bus (C), EÜAŞ (A), NPDC (A), Foundry (ex-IDG) (C), Bird (ex-MessageBird) (A), Venable LLP (A),
+Mainspring Energy (C), XPeng Robotics (A), Forus (A), foodora (C), Yıldız Entegre (C).
+Strongest F1 cases: Petrol Ofisi (ex-Turkish GP title sponsor, 2,700 stations, Vitol-owned), Premier Tech (already a
+WorldTour co-title sponsor), Pull&Bear, NV Energy (Las Vegas GP service area), Numerator, HIMOINSA (circuit power; Aggreko
+conflict), Mitsubishi Fuso, Ata Holding.
+
+RESEARCHED - WATCH (3)
+AG Real Estate (portfolio value not readable; only 250+ staff confirmed), MPL (2021 valuation predates India's cash-game ban;
+site says cash games and deposits stopped), Piab Group (no revenue/employee figure found on a page opened).
+
+LEFT OUT (DUPS, 33)
+- In master / already delivered / alias of a master entry (8): Proskauer Rose, ERM, Bilka (Salling Group), EPIC, Anduril,
+  Claas, Banque Populaire (Groupe BPCE delivered b01), Afriquia SMDC (Akwa Group).
+- Listed (13): Banca Transilvania, Safaricom, Amundi, Invesco, WillScot Mobile Mini, Herc Rentals, Bradesco, Banco do Brasil,
+  Farasis Energy, CALB, Binh Son Refining, PV Oil (UPCoM), Einride (Nasdaq ENRD since 10 June 2026).
+- Not a separate company (9): BBVA en España, Brenntag North America, Dongguan Huabei (Huaqin plant), Video Gaming
+  Technologies (vgt.net redirects to Aristocrat), Aristocrat Interactive, Transnet Freight Rail (division), Far East Cable
+  (segment of listed Far East Smarter Energy), Elster (redirects to Honeywell), Accession Risk Management (acquired by Brown &
+  Brown, Aug 2025).
+- Other (3): Rec Room (shut down 2026), Paytm Mall (Paytm-branded; no separate identity verified), Reliance Brands (franchise
+  arm of Reliance Retail, delivered b01).
+
+NOT RESEARCHED (3) - no page could be opened
+Jinan Iron and Steel Group (Jinan Steel, Hebei): ACFIC 2026 list is an image; identity unclear (the Hebei location suggests
+  it may actually be Jingye Group, which is IN MASTER) - verify before any use.
+Shenzhen Dianjin Precious Metals: ACFIC 2025 PDF returned 503; no company site found.
+Delong Steel Industry Group: no reachable site; Baidu/zh-Wikipedia pages empty or 404.
+
+FLAGS FOR THE ASSEMBLER
+- Parent on master (subsidiary kept, own brand): Petrol Ofisi (Vitol), HIMOINSA (Yanmar), NV Energy (Berkshire Hathaway
+  Energy). Sister unit on master: John Cockerill Defense (John Cockerill Hydrogen). Yıldız Entegre: check.py POSSIBLE match to
+  Yıldız Holding (master 'Left Out' tab) - ownership unconfirmed.
+- Mixed input rows: ATA Group (Irish 'ATA' on Business & Finance list vs Turkish Ata Holding website; researched the Turkish
+  group); The Foundry (Roper's VFX software firm vs foundryco.com ex-IDG media; researched foundryco.com); Pinnacle (Serie A
+  source is likely the Pinnacle bookmaker; researched Pinnacle Group, Dallas).
+- Petrol Ofisi listing: Wikipedia still says BIST (PTOFS); company calls itself one of Turkey's largest private companies.
+- Clay brackets look badly overstated for Alì, BM Supermercados, AG Real Estate, +Simple; reported figures used where found.
+- Several old figures flagged in `period` (Abcam 2022, Pull&Bear 2021, Commure 2021, MPL 2021, Fuso 2010).
+- Signals were checked (signals_checked yes) for 18 of 41 MAIN records; the rest had script-rendered or blocked newsrooms.
