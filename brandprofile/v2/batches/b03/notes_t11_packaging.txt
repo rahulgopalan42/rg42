@@ -1,0 +1,33 @@
+t11_packaging - batch 3 sector run (packaging: glass, metal, plastic, paper; pulp and paper; labels; printing; corrugated)
+Date: 28 Nov 2026. Stream: Independent web research only (no Clay/Crunchbase used in this task). WebSearch used: 1 of 1.
+
+COUNTS
+- Names extracted into DISC: 174 (all run through check.py; extra alias/website re-checks run on every MAIN/WATCH name).
+- DISC check values: NEW 124, LISTED 23 (check.py or own judgement), IN MASTER 13, ALREADY DELIVERED 7, POSSIBLE 7 (4 treated as same company/group and left out; 3 fuzzy-only matches left unresearched). Stages: researched 32, not researched 79, left out 63.
+- NEW names left out because another batch 3 researcher already has them: Novolex (+Pactiv Evergreen, acquired by Novolex), Bracell, APRIL, Vinda, Metsä Group, Södra, Fedrigoni, Anchor Glass, Heinz-Glas, Wiegand-Glas, Imperial Dade (as Imperial Brady). Scholle IPN left out (site now redirects to listed SIG).
+- Researched: 32. MAIN: 28 (Route A 13, Route C 15). WATCH: 4 (Klöckner Pentaplast - owner not shown; Sabert - one indicator, owner not shown; Stoelzle - one indicator; Taylor Corporation - owner not shown).
+- DUPS: 47 lines (master, delivered, listed, same-group POSSIBLE).
+- Did NOT reach the 45-record target: 32 MAIN+WATCH. Reason: many company sites are JavaScript-rendered or block scripted fetches (Dart, Guala, CSI, Tekni-Plex, Envases Universales, Korozo, Sarten, Cosmoplast, Estal, Burgo, Lecta, Rondo Ganahl, Südpack, Allied Glass, Polyoak, Kian Joo), and Wikipedia was rate-limited, so research per company took longer.
+
+SOURCES (names given)
+- WebSearch "largest private packaging companies ranking 2025" (1 search): pointed to Packaging Strategies Top 25 Converters (chart not in page text) and mergr (403). ~0 usable names.
+- Wikipedia Category:Packaging companies (7 pages) and Category:Packaging companies of the United States (43 pages): ~10 relevant private names (Dart, Printpack, TricorBraun, Berlin Packaging, Uline, Hotpack, Constantia...).
+- Company websites, newsrooms and investor pages (main research source): mauserpackaging.com, plastipak.com, mcclabel.com, ardaghgroup.com / ir.ardaghgroup.com, triviumpackaging.com, saica.com, progroup.ag, sofidel.com, vpkgroup.com, wepa.eu, printpack.com, proampac.com, bericap.com, napconational.com / news.napconational.com, ti-films.com, verescence.com, domtar.com, heinzel.com, koehlerpaper.com, schreiner-group.com, coveris.com, autajon.com, daiwa-can.co.jp, hotpackglobal.com, antalis.com, poeppelmann.com, prinzhorn-holding.com, kpfilms.com, sabert.com, stoelzle.com, taylor.com, cdr-inc.com/portfolio.
+- Wikipedia articles (sparingly): Dart Container (en), Progroup (de), Verescence (fr), Hotpack (en).
+- Remaining DISC names come from the researcher's candidate list for the sector, each run through check.py; they are logged with stage "not researched" and no figure.
+
+SUBSECTORS / REGIONS COVERED
+- Covered: rigid industrial packaging, foodservice packaging, PET containers, labels (prime, high-tech), glass (mass and luxury), metal cans (Europe, Japan), closures, flexible packaging (US, EMEA), corrugated and containerboard (Spain, Germany, Belgium, Austria), tissue (Italy, Germany), pulp and paper (North America, Austria, Germany), paper distribution (France), Gulf packaging (UAE, Saudi Arabia), Japan (Daiwa Can).
+- Thin or not reached: Latin America (Envases Universales, Gondi, Phoenix, Carvajal, Brasilata, Eldorado - not researched), Africa (Polyoak, Consol, Chandaria - not researched), Turkey (Korozo, Sarten, Kipaş, Modern Karton - not researched), India (Manjushree, Parksons - not researched), South-East Asia (Kian Joo, SMYPC, Tan Tien - not researched), China (Asia Symbol, Sateri - not researched), Korea (Taerim). Printing / web-to-print (Shutterfly, Printful, Helloprint, Onlineprinters, Walstead) not researched.
+
+KEY CAVEATS
+- Multi-Color Corporation: news page JavaScript-only, signals not checked; check for any 2025-26 capital-structure change.
+- Ardagh Group: recapitalisation completed Nov 2025; AMP (listed) may be sold; Trivium stake being sold.
+- Trivium: sale to Silgan (listed) and AIP expected to close mid-2027.
+- Taghleef: parent Al Ghurair Group is on the master (Capacity To Confirm); Taghleef trades under its own brand.
+- Antalis: subsidiary of Tokyo-listed KPP Group Holdings (eligible under batch 3 subsidiary rule).
+- Pöppelmann: page names Mercedes-Benz as partner in a recycling pilot (customer_overlap).
+- Several revenue figures carry no year on the company page (Sofidel, Bericap, Koehler, Schreiner, MCC, Prinzhorn); Progroup (FY2022), Dart (2019) and Verescence (2018) figures are older than three years and flagged.
+
+NOT RESEARCHED (priority for a later run)
+Envases Group, Berlin Packaging, TricorBraun, Guala Closures, Closure Systems International, Tekni-Plex, Pretium, Faerch, Logoplaste, Schur Flexibles, Thimm, Schumacher Packaging, Rondo Ganahl, Storopack, Pregis, Lucart, Burgo, Pro-Gest, Lecta, Pochet, Bormioli Pharma, SGD Pharma, Estal, Envases Universales, Brasilata, Manjushree, Parksons, Polyoak, Korozo, Sarten, Kian Joo, Shutterfly, Printful, All4Labels, Herma, Inteplast, Genpak, Anchor Packaging and the other "not researched" lines in DISC.

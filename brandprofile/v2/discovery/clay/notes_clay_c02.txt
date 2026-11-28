@@ -1,0 +1,72 @@
+clay_c02 (batch 3, MODE clay, deeper paging, country line) - 28 Nov 2026
+Countries: India; Indonesia; Vietnam.
+Filter on every query: locations.any(country_name = "<country>" and is_headquarters = true)
+  and company_type in ("Privately Held","Partnership","Self Owned"); no industry filter.
+I used only the search tools (search-companies, load-more-search-results). No enrichment, no render, no WebSearch.
+Page caps for a country line: P1=3, P2=2, P3=2. Budget was about 20 pages. I read 20 pages and saved 400 rows (20 per page).
+
+Query                                          pages  rows  hasMore at stop
+India HQ | 1B-10B,10B-100B,100B-1T              3      60    true  (unfinished, stopped at P1 cap)
+India HQ | 500M-1B                              2      40    true  (unfinished, P2 cap)
+India HQ | 200M-500M                            2      40    true  (unfinished, P3 cap)
+Indonesia HQ | 1B-10B,10B-100B,100B-1T          3      60    true  (unfinished, P1 cap)
+Indonesia HQ | 500M-1B                          2      40    true  (unfinished, P2 cap)
+Indonesia HQ | 200M-500M                        2      40    true  (unfinished, P3 cap)
+Vietnam HQ | 1B-10B,10B-100B,100B-1T            3      60    true  (unfinished, P1 cap)
+Vietnam HQ | 500M-1B                            2      40    true  (unfinished, P2 cap)
+Vietnam HQ | 200M-500M                          1      20    true  (unfinished; stopped after 1 of 2 pages because the page budget was used up)
+
+Not reached: Vietnam 200M-500M page 2. Every query still had more pages when it stopped. A later run can pick up from there with the same queries.
+
+Process note: during the Vietnam P1 page 1 step I mistakenly appended 6 rows before the page result had been read
+(VinFast, Nike Vietnam, Samsung Electronics Vietnam - SEV, PwC Vietnam, Vingroup, Samsung Display Vietnam).
+They did not come from that page. I deleted them at once, before writing the real page-1 rows. Every row now in
+the OUT file was copied from a Clay result page. (VINFAST and PwC Vietnam do appear later, from the Vietnam 500M-1B p1 and
+200M-500M p1 pages respectively, with their own Clay values.)
+The add helper splits on "|", so two names that contain "|" were written with a placeholder and then restored exactly:
+"JakartaKerja | Loker Jakarta" and "MBV | Ngân hàng Việt Nam Hiện Đại".
+
+disc_check.py result (400 rows): NEW 293, IN MASTER 42, ALREADY DELIVERED 23, POSSIBLE 27, LISTED 9, F1 PARTNER 6.
+By country (NEW): India 83 / Indonesia 108 / Vietnam 98 / country blank in Clay 4.
+The F1 PARTNER flags look like name-match noise for the most part (PwC units, JCB India, Tokopedia, "Freshers Jobs"). Check them in the research step.
+
+Observations for the research step (from Clay descriptions only, not verified):
+- Clay's company_type tag is unreliable. Some rows describe themselves as listed or as units of listed groups: Alkem (BSE/NSE),
+  SBI Life (BSE/NSE), ReNew (Nasdaq: RNW), Bumitama (SGX), Bank Sinarmas Tbk, Sarimelati Kencana Tbk, Avia Avian Tbk,
+  Pertamina Geothermal Energy Tbk, Diamond Food Indonesia Tbk, TNG (Hanoi SE), tiket.com (Blibli, IDX: BELI), Tata Power,
+  Adani Green, Suzlon, ICICI Lombard, HDFC Life, Bandhan Bank, One97/Paytm, Medco E&P (Medco Energi Tbk), Pamapersada / KPP
+  (United Tractors Tbk / Astra), Astra Honda Motor / FIFGROUP / Astra Financial (Astra International Tbk), Surya Madistrindo (Gudang Garam Tbk),
+  Indomarco Adi Prima (Indofood), Baikai (2299.HK), Biocon Biologics (Biocon), Mahindra Finance, HDB Financial Services.
+- Many rows are national units of foreign groups and fall under the national-entity rule: PwC/KPMG/BDO/Grant Thornton member firms,
+  Mercedes-Benz R&D India, Volkswagen India, Honda (2W and cars) India, Toyota Kirloskar, Kia India, Skoda India, Volvo Trucks India,
+  Suzuki Motorcycle India, JCB India, Pernod Ricard India, Randstad India, DHL Express India, SG Global Solution Centre, Bosch GST India and
+  Vietnam, Prudential/Generali/AIA units, Danone Aqua, Frisian Flag, Ajinomoto Indonesia, Panasonic Manufacturing Indonesia,
+  Epson Indonesia, ISS/OCS Indonesia, Toyota/Honda Indonesia and Vietnam, Samsung SDS Cello Square, ZTE Vietnam, SEW-Eurodrive Vietnam,
+  Schindler Vietnam, Central Retail Vietnam, 7-Eleven Vietnam, MM Mega Market (TCC), Jollibee Vietnam, Home Credit units,
+  Savills Vietnam, NAB Innovation Centre, Dentsu Creative Vietnam, Artelia/Turner Vietnam, STADA Pymepharco, LG Display Haiphong,
+  Fushan (Foxconn), Goertek Vietnam, Huayou Indonesia / Pomalaa, Lotte Chemical Indonesia. Nike/adidas contract shoe factories
+  (Panarub, Pratama Abadi, Changshin, TKG Taekwang, Feng Tay, Bintang Indokarya, Apache, Samho) are plants of foreign groups.
+- Junk or mis-tagged rows to drop: job-board pages (Fresher Jobs, Way2Freshers, Confidential Careers, All Active Jobs,
+  Work from Home Jobs, Freshers Jobs, Jobs Finder, Teachers Recruiter, ConstructionPlacements, Disnakerja, Openkerja, Ayoloker,
+  JakartaKerja), Positivity, World of Electrical, Cognifyz, CodeAlpha, Marketing Mind, Bar and Bench, Boyen Haddin,
+  "Delphi Automotive" (risingindia.in), Collabera Digital (inactive page), Vietnamese lottery-result pages (xsmb.me x4), KUBET / Kubet VN
+  (gambling sites), Creative Khoai Tay (YouTube channel), Lumen Technologies (fake page), Vietnam Photography, SEA Games 31, refill.beauty,
+  Bao Han Phat, NSSS Group (Amway recruiting page), Khoi Nghiep, Shalom Production, EURO Pest Control, Dai Ly Xe Tai Sai Gon,
+  Dr.HereOnline, Ccmany, Generali Gencasa Hue (agency), Muong Thanh duplicate recruitment pages, VinFast Ha Tinh, Honda Vietnam Careers.
+  Vietnam's 1B+ bracket was the worst affected: page 3 was almost all junk.
+- State-owned (eligible under the brief): Pertamina and units, Pupuk Indonesia, PTPN III, INKA, Telkomsel / Infomedia / Telkom Property
+  (Telkom group: check listing), Sucofindo, Petrovietnam, Gapura Angkasa, Badak LNG.
+- Unlisted names or subsidiaries with their own brand that look promising for research (Clay text only): Reliance Retail, Jio, Flipkart, Myntra,
+  Meesho, Zepto, Blinkit (Eternal), Lenskart, Cars24, PhonePe, Razorpay, Zoho, Intas (Accord Healthcare), Cadila Pharmaceuticals,
+  Meril, Amul (GCMMF), Parle Agro, TAFE, Tata Electronics, Tata Advanced Systems, Tata Projects, Godrej & Boyce, Shapoorji Pallonji /
+  Afcons, Essar, Nayara Energy, Jindal Power, Times Internet / BCCL, Ola / Ola Electric, Ather, Rapido, boAt, SUGAR Cosmetics,
+  Shahi Exports, DTDC, Ecom Express, Xpressbees, Manipal Hospitals, Medanta, PW (PhysicsWallah), Pocket FM, Schbang;
+  Indonesia: Djarum, Wings Group, ParagonCorp (Wardah), Orang Tua, Nabati / Richeese, Kapal Api, Sinar Sosro, Indomaret,
+  APP / Sinar Mas Forestry, Musim Mas, Asian Agri, Triputra, KPN Corp, Gunung Sewu / Great Giant Foods, Sambu (KARA), Kompas Gramedia,
+  Archipelago International, Kawan Lama, Trakindo, MODENA, Amman Mineral, Harita, JNE, Anteraja, Samudera Indonesia, Meratus, SPIL,
+  Busana Apparel, Dexa Medica, Pharos, Novell Pharma, Nutrifood, Ceres (Silverqueen), Mowilex, Kanmo, Star Energy Geothermal,
+  Tripatra, Meindo, Amartha, Ruangguru, Fore Coffee, SKINTIFIC, Arya Noble (ERHA), Trans TV/Trans7, RCTI, detikcom, IDN;
+  Vietnam: Vingroup units (VinFast, Vinpearl, Vinhomes, Vinmec, VinCommerce, V-Green), Sovico, THACO / THACO Industries, Sun Group,
+  TH Group, BIM Group, T&T Group, IPPG, ACFC, Biti's, TBS Group, Phuong Trang FUTA, Mai Linh, GHN, GHTK, GSM (Green SM), Bamboo Airways,
+  FE CREDIT, HD SAISON, Cake, MSB, VNLIFE/VNPAY, Zalo, Tiki, Pharmacity, Pizza 4P's, SABECO (check listing), Duy Tan Plastics,
+  Stavian Chemical, ATAD, Thuan Hai, Rochdale Spears, TCE Denim, Scavi, Hirdaramani VN, IPC E&C, TMA Solutions, SotaTek.
