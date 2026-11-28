@@ -21,6 +21,21 @@ Standing points from it:
   Reach as its own column, rows by score): `brandprofile/v2/public_format.py <batch> <xlsx>`. The user asked for this on 28 Nov 2026
   after finding the 61-tab batch 2 workbook too complex to open and rejecting a one-sheet version. Keep the full workbook in
   `reports/` as supporting material; do not lead with it.
+- Third instruction, 28 Nov 2026 (`brandprofile/v2/INSTRUCTION-COVERAGE-AND-PRIORITISATION.md`, verbatim): go beyond the sector list and
+  along each value chain; close the gaps in Japan, China, Korea, India, South-East Asia, the Middle East, Turkey, Africa and Latin
+  America with local-language sources; page database searches as far as they go; do not call a batch complete because the researchers
+  finished: cross-check against rankings nobody used (`v2/brief_audit.md`, `v2/found.py`) until several of them show few misses.
+- The user's go-ahead of 28 Nov 2026: use every resource and research agent; the December Crunchbase allowance may be used (it resets
+  on 1 Dec 00:00 UTC); the 5,636 older-sheet brands that are not on the master are re-scored and included (`v2/older.py`); the user
+  does not want to be asked again to run another round, so schedule the continuation yourself and report.
+- Priority scores: missing information is not negative evidence. Since 28 Nov the rubric scores an unknown at the midpoint, and
+  buying intent nobody researched takes the average found among researched companies, never zero; High still needs a confirmed, dated
+  signal. Researchers read each company's news page (`v2/brief_b03.md` point 10, `v2/brief_signals.md`). Never raise a score without evidence.
+- The lead deliverable is one workbook for every new brand: `brandprofile/v2/consolidated.py <xlsx>` (public-company format, a ranked
+  tab per sector, the cross-sector ranking, Verification Required, plus Qualification Status, Where It Came From, the user's marking
+  and Template Already Built at the right; template rows green).
+- Limits met on 28 Nov: 20 subagents at once (hard); the machine has 4 CPUs, so the Workflow tool runs only 2 agents at a time: use
+  background agents and the launch list in `brandprofile/v2/batches/b03/launch_log.md`.
 - Send files with the file card in the conversation. Do not put files in the user's Google Drive: I did so once on 28 Nov 2026 without
   asking and the user said they do not want that.
 - Never invent figures, owners, signals or sources. Say what was and was not completed.
