@@ -1,0 +1,46 @@
+k29_levant_central_asia (batch 3, MODE country), 28 Nov 2026
+Scope: Israel, Jordan, Lebanon, Iraq, Kazakhstan, Uzbekistan, Azerbaijan, Georgia, Armenia.
+
+COUNTS
+MAIN 50, WATCH 4, DUPS 40 lines (some lines group several names), DISC 268.
+MAIN/WATCH by country: Kazakhstan 41, Israel 3, Uzbekistan 2, Iraq 2, Azerbaijan 2, Georgia 2, Armenia 2. Jordan and Lebanon: none.
+Routes: A 38, B 8, C 4. signals_checked yes 21, no 33.
+DISC check results: NEW 254, ALREADY DELIVERED 6, IN MASTER 3, F1 PARTNER 1 (UzAuto Motors), LISTED 1, POSSIBLE 3. Stage: 54 researched, about 40 left out, about 175 not researched.
+About 330 names went through check.py, including the Israeli, Jordanian, Lebanese and Iraqi names I tested and rejected (IN MASTER, F1, LISTED).
+WebSearch used: 2 of 2 (Forbes Kazakhstan ranking; Uzbek largest taxpayers).
+
+SOURCES (names given)
+- Forbes Kazakhstan, 75 largest private companies 2025, ranking table https://forbes.kz/ranking/75-krupneyshih-chastnyh-kompaniy-kazahstana-2025-ac7ea1 : 75 names, with revenue, net profit, staff and owners. The article version https://forbes.kz/articles/75-krupneyshih-chastnyh-kompaniy-kazahstana-2025-0c8cc0 has a description and 2024-25 events for each company. It is the source for desc and signals in about 25 Kazakh records.
+- spot.uz top taxpayers 2024 https://www.spot.uz/ru/2025/01/14/top-taxpayers/ : 20 names; kursiv.media gave the same names.
+- Wikipedia company lists: Azerbaijan 63, Uzbekistan 16, Armenia 45, Jordan 30, Lebanon 35, Iraq 37 (relevant unlisted names extracted only).
+- Forbes Georgia 100 richest https://forbes.ge/en/georgia-s-100-richest-entrepreneurs/ : about 55 companies named for their owners.
+- Company sites and Wikipedia articles for the research (URLs are in each record).
+KZT has no fixed rate in the brief. I used KZT 0.0021 per USD (about 476 per USD; x-rates monthly averages ran 442-519 in the year shown), so treat the Kazakh usd_m figures as approximate. ILS, AZN and GEL figures are left unconverted.
+
+ACCESS PROBLEMS
+These sites did not resolve in this session (they may need network allowlisting): artelgroup.com, enter-engineering.com, rgbrands.kz, kainar-akb.kz, wissotzky-tea.com. astanamotors.kz gave a DNS error.
+These refused or failed: bi.group, mechta.kz, tag.global, asco.az, duns100.co.il (403); azercell.com (request rejected); veyseloglu.az (429); kpd.kz, akfagroup.com, silknet (503); several 404s.
+Many Kazakh sites are JavaScript-only (magnum.kz, technodom.kz, bazis.kz).
+For these reasons signals_checked is "no" for 33 records, where I could not open a newsroom. Signals for the Kazakh records come from the Forbes Kazakhstan 2025 company profiles.
+Israel has no usable list of large private companies: duns100 refused, and Wikipedia lists only listed companies. Most Israeli private names I tested were already IN MASTER, F1 PARTNER (Cato, eToro), delivered, or being covered by other b03 tasks (AppsFlyer t02, Tipalti t28, HiBob t51).
+
+DECISIONS
+- Azerbaijan Grand Prix: the Baku City Circuit site showed only Qatar Airways (title sponsor) and iTicket.AZ, and its partners page returns 404. PASHA Real Estate is an Event Supporter in 2026 (f1_extra.json). I left out PASHA Holding and PASHA Bank; that line is in DUPS. No GP deal was found for Silk Way West or Azerbaijan Railways, but neither has been checked against a full partner list.
+- ERG subsidiaries (Kazchrome, SSGPO, Aluminium of Kazakhstan, KEP, EEC, Shubarkol) are left out because ERG was delivered in b01. Kazakhmys Coal is left out as part of Kazakhmys.
+- Left out for compliance: Korek Telecom (bribery and fraud arbitration; services shut down Nov 2026) and M1 Group (Myanmar military-linked tower stake). Russian entities are also out: Gazprom Armenia and Rusal Armenal.
+- Also left out: national entities of multinationals (UzBAT, Coca-Cola and PepsiCo bottlers, Beeline Uzbekistan, Umniah, HSBC Armenia, Yerevan Brandy/Pernod Ricard); Airport International Group (single concession, 51% owned by Aeroports de Paris); Zhambyl GRES (a single plant).
+- ZCMC (Armenia) is in WATCH. It has Route C indicators, but no ownership was shown on the page I opened.
+- Galanz Bottlers (Kazakh drinks) is a different company from "Galanz" (Chinese appliances, delivered in b01). It is kept, with a flag in outstanding.
+- Politically exposed shareholders are flagged in compliance (the Kulibayevs: PetroRetail/Qazaq Oil, Caspiy Neft, Mercury Properties). Some companies have operations or branches in Russia (Bazis, Eastcomtrans), also flagged.
+- Uzum is also researched by t28 and t43 in this batch, and Navoi Mining by t06. The consolidator should deduplicate.
+
+GAPS / NOT DONE
+- Uzbekistan: only 2 researched. Not researched: Almalyk MMC (whether shares trade on the Tashkent exchange needs checking), Uzbekneftegaz, Enter Engineering, Artel, Akfa, Korzinka, Kapitalbank, Hamkorbank, Uzbektelecom, NBU, Navoiyuran.
+- Azerbaijan: Azercell is not researched (no financials, and compliance concerns: OCCRP ownership reporting). Also not researched: Veyseloglu, Azpetrol, Topaz, AccessBank, ABB, ASCO, Nar.
+- Georgia: Magticom, Silknet, Wissol, Gorgia, Tegeta, Aversi, PSP and Betlive were not researched; the sites returned 404 or 503. Most are probably below Route A.
+- Armenia: Tashir, Grand Candy, Ameriabank, Ardshinbank and TotoGaming were not researched.
+- Jordan/Lebanon: none researched. Fine Hygienic is in queue input q60. Bank Audi, Alrifai, Zaatar w Zeit, Tabbah, CCC and TAG were not reached.
+- Iraq: Asiacell and Bank of Baghdad may be listed on the ISX (not verified). Not researched: SOMO, Basra/South Oil, Fly Baghdad, KAR Group (site under construction).
+- Israel: state companies Israel Railways, Israel Ports and Israel Post, and Jafora, were not researched.
+- About 175 DISC names are still "not researched", mostly smaller Kazakh companies and the names from the Georgian, Azerbaijani and Armenian lists.
+Nothing here is exhaustive.

@@ -115,3 +115,5 @@ launched: r31_queue | finished: t56_gap_consumer_leisure (30 main, 15 watch, 332
 launched: clay_c02 | finished: s14_signals (40 older-sheet brands: 31 with signals). AT BUILD: Shein completed a Hong Kong IPO in Aug 2026 per s14 -> must be out (listed)
 launched: f07_queue | finished: t10_utilities (36 main, 2 watch, 120 disc)
 launched: t18_oil_gas | finished: r30 (19/21)
+launched: k04_cee | finished: f03 (44/0; 14 on Route C with Clay estimates)
+launched: s15_signals | finished: k29_levant_central_asia (50 main incl. 41 Kazakhstan from Forbes Kazakhstan 75, 4 watch, 268 disc; KZT rate approximate; PASHA left out for its Baku GP link)

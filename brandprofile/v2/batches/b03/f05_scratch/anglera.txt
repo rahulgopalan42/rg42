@@ -1,0 +1,1065 @@
+Top Distributors 2026 — 223 ranked, classified, and scored — Anglera
+CustomersProductSecurityCareersBlog
+Book a Demo
+The Anglera Index · 2026 edition
+Top Distributors 2026
+223 of North America’s largest distributors, ranked on their most recent reported revenue — then taken two steps further than a revenue list can go. Every company is classified into one of six operating archetypes, and the leaders of every vertical are scored on the Digital Readiness Index — four pillars, fourteen signals, measured from their own live storefront rather than asked about in a survey.
+See the full rankingThe Digital Readiness IndexReadiness by platformHow we built it →
+Key findings
+17
+publish no public catalog at all
+no product page a customer — or an agent — can reach without an account
+58
+median Digital Readiness Index
+out of 100, across 37 measured distributors
+11
+median attributes per product page
+the number an AI agent has to answer a buyer’s question with
+8 of 37
+ship product structured data
+schema.org Product markup in the HTML a crawler actually receives
+Also measured: $1.90T in disclosed revenue across 137 reporting companies · 26 of 37 with a working sitemap · 5 explicitly block AI crawlers · consistency spreads as wide as 45 attributes inside one catalog.
+Six ways to win in distribution
+Revenue tells you how big a distributor is. It does not tell you where the advantage comes from — and companies of wildly different size often run the same playbook, while two companies in the same vertical at the same scale often run opposite ones. We classify every company in the index by the source of its advantage, not by what it sells.
+Scale Aggregator46 companies
+Wins on national breadth, buying power, and logistics reach.
+One brand, centralized distribution, and a purchasing scale that suppliers have to answer to. The advantage compounds with size: better cost, better fill rate, better national-account coverage than any regional player can match. The risk is the middle — big enough to be slow, not local enough to be fast.
+Median readiness index: 60See the 46 companies →
+Branch-Density Operator70 companies
+Wins by being twenty minutes from the jobsite.
+Hundreds of local branches, local inventory, and a counter culture — often with real P&L autonomy pushed down to the branch manager. Service radius is the moat, and it is expensive to copy because it is built one lease and one local reputation at a time. The tension: every branch is a working-capital decision.
+Median readiness index: 58See the 70 companies →
+Technical Specialist36 companies
+Wins on application engineering, not catalog breadth.
+The product is the answer to a problem — sizing a pump, specifying a seal, engineering a hydraulic circuit, rebuilding a gearbox. Field engineers and in-house fabrication or repair shops carry the margin, and the catalog is the means rather than the end. Hardest archetype to scale, and the hardest to disintermediate.
+Median readiness index: 60See the 36 companies →
+Catalog-Native13 companies
+The catalog is the product.
+Breadth of SKUs, depth of product data, and same-day or next-day fulfillment, sold self-serve with no salesperson in the loop. These companies figured out decades before the rest of the channel that a searchable, deeply attributed catalog is an operating asset — which is why they tend to sit at the top of the Digital Shelf Index whether or not they are the biggest by revenue.
+Median readiness index: 56See the 13 companies →
+PE Roll-Up29 companies
+Consolidating a fragmented vertical is the operating model.
+Sponsor-backed serial acquisition, where integration capability — not merchandising or engineering — is the core competency. Done well it produces real synergy and a national footprint in under a decade. Done badly it produces a holding company with a dozen ERPs and no shared item master, which is exactly where the product-data problem gets expensive.
+Median readiness index: 58See the 29 companies →
+Program Supplier29 companies
+Wins by owning more of the customer’s process, not just the order.
+Vending, VMI, onsite locations, kitting, and integrated-supply contracts push the distributor inside the customer’s four walls, where the relationship stops being transactional. Often paired with private-label or light manufacturing. Switching costs are the moat, and the contract — not the SKU — is the unit of competition.
+Median readiness index: 65See the 29 companies →
+The Digital Readiness Index
+For every distributor ranked in the top five of any vertical, we sampled live product pages from five different categories of their own public catalog — taken from the middle of each category listing, never the featured items — extracted every one, and probed the site itself for structured data, sitemap, and crawler access. Four pillars, fourteen signals, 100 points. No survey, no self-reporting, no model judgement: the same site scores the same number twice in a row.
+Product Data Depth35
+Can a machine tell what this product is and match it to the same product elsewhere?
+Identity8
+Identifiers12
+Attribute depth15
+Median scored: 18.3/35
+Buyer Answerability25
+Does the page answer what a buyer actually asks before they commit?
+Descriptive content10
+Imagery10
+Catalog consistency5
+Median scored: 12/25
+Commerce Transparency20
+Can a buyer find out what it costs and whether it ships, without asking a human?
+Public pricing8
+Stock visibility6
+Un-gated access6
+Median scored: 13/20
+Machine & Agent Readiness20
+Can a crawler, a marketplace, or an AI shopping agent actually consume any of it?
+Product structured data7
+Sitemap discoverability5
+Crawler access to products4
+AI crawler stance4
+Median scored: 13/20
+Why this is a measurement and not a survey
+It runs on production infrastructure. Pages are read by the same extraction system Anglera uses to complete customer catalogs, not by a scraper written for a marketing study. When the extractor cannot read a page, that is reported — never scored as a zero.
+It tests against published standards. Every signal checks something specified elsewhere: schema.org Product, GS1 GTIN, Google’s product data specification, RFC 9309 for robots.txt. The framework is arguable on its weightings, not on what counts as correct.
+It is reproducible. No model judgement enters the scoring at any point. Hand someone the same URLs and the published rubric and they get our numbers. That is the property that lets an index survive being disagreed with.
+The framework is Anglera’s own work and has not been reviewed or endorsed by any third party. Read the full methodology — the sampling rule, all fourteen signals, what the measurement cannot see, and how to get a score corrected.
+#DistributorIndex / 100Data / 35Answers / 25Transp. / 20Agent / 20Median attrsSpread
+1TricorBraun7018.2142018144 attrs
+2Future Electronics6823.315.418.4112511 attrs
+3E&T Plastics6811.516.2202035 attrs
+4W.W. Grainger6631121494714 attrs
+5Gordon Food Service65121517.62022 attrs
+6MSC Industrial Supply6523.97.820132525 attrs
+7F.W. Webb6518.712.220141621 attrs
+8Core & Main631614.220131111 attrs
+9Sonepar (North America)6218.71210.82098 attrs
+10Motion (Genuine Parts Company)6221.98.620113445 attrs
+11Watsco6229.214.49.694729 attrs
+12Veritiv Corporation611915.813131812 attrs
+13The Master Group6021.810.21216195 attrs
+14WPG Americas6010.11019.62032 attrs
+15EIS Inc.6018.81018.4131824 attrs
+16Thermo Fisher Scientific5917.98.812201322 attrs
+17Ferguson581119.5141300 attrs
+18Distribution Solutions Group5819.812.26201714 attrs
+19Bearing Distributors Inc. (BDI)5827.56.311.3133422 attrs
+20Avnet5720.23.420131220 attrs
+21Uline5610.512.8201361 attrs
+22Fastenal5516.716.615.26116 attrs
+23Imperial Dade5419.315.8613118 attrs
+24DigiKey53239.21293429 attrs
+25SunSource5218.19.411.6131524 attrs
+26Interstate Plastics5212.41513.611216 attrs
+27Graybar5121.110.27.2121615 attrs
+28Reece USA5118.38.817.56913 attrs
+29Curbell Plastics5014.111.418.4657 attrs
+30Arrow Electronics4925.74.39.593120 attrs
+31DXP Enterprises4818.188.4131110 attrs
+32DH Sutherland4712.612.261641 attrs
+33Airgas, an Air Liquide company4614.512.812.4649 attrs
+34Arc3 Gases4312.212.412632 attrs
+35American Welding & Gas4211.513611612 attrs
+36Dole plc (North America)4117.710.47.2651 attrs
+37Wesco International4021.17.26695 attrs
+Spread is the gap between the richest and thinnest product page sampled from the same distributor. It is usually the most uncomfortable number on this table, because it measures how differently a company treats its own products. 4 companies whose sites block standard clients were measured in a full browser session from the same sampled pages — disclosed on their scorecards, with the Machine & Agent Readiness pillar still scored from what a standard client can retrieve.
+Readiness by platform
+Every measured storefront was fingerprinted for what it runs on — commerce engine, site-search vendor, CMS, and the CDN or bot wall in front of it. Nothing here is taken on a vendor’s word alone: a platform is stated as fact only where the storefront’s own bytes and an independent public source agree.
+The pattern that survives the small sample sizes: distributors running a named commerce platform score higher on machine readability than distributors whose storefront matches no known vendor — the custom and in-house builds, which are the largest single group in the measured set at 6 companies and a median of 58.5. Buying the platform does not make a catalog good. It does mean somebody else already solved structured markup, sitemaps and a product schema, and that shows up in the score.
+Median Digital Readiness Index by commerce platform
+Not enough of the storefront was readable to say
+51.5 · n=14
+Built in-house (no vendor in its own commerce API)
+58.5 · n=6
+SAP Commerce Cloud (Hybris)
+56 · n=6
+Shopify
+62.5 · n=4
+Below the n=3 floor and therefore not given a median: Optimizely B2B Commerce (Insite) (2), Adobe Commerce (Magento) (2), Salesforce B2C Commerce (Demandware) (1), NetSuite SuiteCommerce (1), WooCommerce (1).
+Median Digital Readiness Index by storefront CMS
+No CMS signature (commerce platform or custom front end)
+58 · n=28
+WordPress
+50 · n=5
+Adobe Experience Manager
+59 · n=3
+Below the n=3 floor and therefore not given a median: Webflow (1).
+Median Digital Readiness Index by CDN / bot wall
+Cloudflare
+58 · n=16
+No bot wall observed
+48 · n=11
+Akamai
+57 · n=5
+Below the n=3 floor and therefore not given a median: Imperva Incapsula (2), DataDome (2), HUMAN (PerimeterX) (1).
+20
+Confirmed — the storefront fingerprint and an independent public source name the same vendor.
+30
+Detected — the storefront shows it, no vendor source found. Published, and labelled as such.
+13
+Reported — a vendor says so but we could not read the storefront. In the dataset, never stated as fact on a company row.
+Detection run 2026-08-19. Platforms migrate, so every value carries the date it was observed and is re-measured on the same quarterly cadence as the index. The matched string, the URL it matched on, and the corroborating quote ship with the open dataset so any claim here can be re-checked without asking us.
+The 2026 index
+Ranked on the most recent annual revenue each company has publicly reported, with the fiscal year and source recorded for every figure. Companies that disclose nothing are listed after the ranking rather than assigned an invented number.
+Two labels worth reading in the table. Dated marks a figure older than FY2024 — still the most recent this company has published, but not a 2025 number (29 companies). Now part of marks a company that has since been absorbed by another business in this index (6 companies); those are listed but excluded from the ranking so the combined business is not counted twice.
+All verticalsIndustrial SuppliesElectrical, Data & SecurityMRO IndustrialBuilding Materials & ConstructionHVACRPlumbingIndustrial PVFPower Transmission & BearingsFluid PowerHose & AccessoriesElectronicsFastenersSafetyJanSan, Packaging & DisposablesPharmaceuticals & HealthcareGases & Welding SuppliesSpecialty AdhesivesPlasticsFood & BeverageLubricants & FuelsAll archetypesScale AggregatorBranch-Density OperatorTechnical SpecialistCatalog-NativePE Roll-UpProgram SupplierSort: revenueSort: readiness indexSort: name223 companies
+RankDistributorRevenueOwnershipArchetypeIndex
+1McKesson Corporation
+Irving, TX · Pharmaceuticals & Healthcare$359.1B
+FY2025 (ended March 31, 2025)Public · MCKScale Aggregator
++ Program Supplierno public catalog
+2Cencora (formerly AmerisourceBergen)
+Conshohocken, PA · Pharmaceuticals & Healthcare$321.3B
+FY2025 (ended September 30, 2025)Public · CORScale Aggregatornot yet measured
+3Cardinal Health
+Dublin, OH · Pharmaceuticals & Healthcare$222.6B
+FY2025 (ended June 30, 2025)Public · CAHScale Aggregatornot yet measured
+4Sysco Corporation
+Houston, TX · Food & Beverage$81.4B
+FY2025 (ended June 28, 2025)Public · SYYScale Aggregator—
+5Performance Food Group
+Richmond, VA · Food & Beverage$63.3B
+FY2025 (ended June 28, 2025)Public · PFGCScale Aggregator
++ PE Roll-Up—
+6McLane Company
+Temple, TX · Food & Beverage$51.0B
+FY2025 (calendar year ended Dec 31, 2025)SubsidiaryScale Aggregator
++ Program Supplierno public catalog
+7Thermo Fisher Scientific
+Waltham, MA · Pharmaceuticals & Healthcare$44.6B
+FY2025 (calendar year ended December 31, 2025)Public · TMOCatalog-Native
++ Technical Specialist59
+8US Foods
+Rosemont, IL · Food & Beverage$39.4B
+FY2025Public · USFDScale Aggregator—
+9United Natural Foods (UNFI)
+Providence, RI · Food & Beverage$31.8B
+FY2025Public · UNFIScale Aggregator
++ Catalog-Native—
+10Ferguson
+Newport News, VA · Industrial Supplies$31.3B
+CY2025Public · FERGScale Aggregator
++ Branch-Density Operator58
+11Arrow Electronics
+Centennial, CO · Electronics$30.9B
+FY2025Public · ARWScale Aggregator49
+12Medline Industries
+Northfield, IL · Pharmaceuticals & Healthcare$28.4B
+FY2025Public · MDLNProgram Supplier
++ Catalog-Nativenot observable
+13Network Distribution (North America)
+Schaumburg, IL · JanSan, Packaging & Disposables$28B (systemwide, global)
+as of March 2026Co-opScale Aggregator
++ Program Supplier—
+14Southern Glazer's Wine & Spirits
+Miami, FL · Food & Beverage$25.5B (projected, CY2026)
+CY2026 (projected)est.Family-ownedScale Aggregator—
+15Wesco International
+Pittsburgh, PA · Industrial Supplies$23.5B
+FY2025Public · WCCScale Aggregator40
+16Gordon Food Service
+Wyoming, MI · Food & Beverage$23B
+FY2024 (est.)est.Family-ownedScale Aggregator65
+17Avnet
+Phoenix, AZ · Electronics$22.2B
+FY2025Public · AVTScale Aggregator
++ Catalog-Native57
+18ABC Supply Co.
+Beloit, WI · Building Materials & Construction$20.2B
+FY2025Family-ownedBranch-Density Operator
++ Scale Aggregatorno public catalog
+19Sonepar (North America)
+Charlotte, NC (Sonepar USA); global HQ Paris, France · Electrical, Data & Security$19.0B
+FY2025North AmericaFamily-ownedScale Aggregator
++ Branch-Density Operator62
+20W.W. Grainger
+Lake Forest, IL · Industrial Supplies$17.9B
+FY2025Public · GWWScale Aggregator66
+21Linde (Americas)
+Woking, UK / Danbury, CT (Linde plc dual global HQ) · Gases & Welding Supplies$15.2B
+FY2025distribution segmentPublic · LINScale Aggregator
++ Program Supplier—
+22Builders FirstSource
+Irving, TX · Building Materials & Construction$15.2B
+FY2025Public · BLDRProgram Supplier
++ Scale Aggregatornot yet measured
+23Tricon Energy
+Houston, TX · Plastics$14.0B
+FY2025est.Family-ownedScale Aggregator—
+24Henry Schein
+Melville, NY · Pharmaceuticals & Healthcare$13.2B
+FY2025 (calendar year ended December 27, 2025)Public · HSICProgram Supplier
++ Catalog-Native—
+25Graybar
+St. Louis, MO · Industrial Supplies$12.9B
+FY2025Employee-ownedScale Aggregator
++ Branch-Density Operator51
+26Republic National Distributing Company
+Grand Prairie, TX · Food & Beverage$12B (peak, pre-divestiture)
+FY2024 (peak)est.Family-ownedScale Aggregator—
+27Rexel (North America)
+Dallas, TX (Rexel USA); global HQ Paris, France · Electrical, Data & Security$10.1B
+FY2025 (calendar 2025)North AmericaPublic · RXLScale Aggregator
++ Program Suppliernot yet measured
+28SRS Distribution
+McKinney, TX · Building Materials & Construction~$10B
+FY2023 (last standalone year)datedest.SubsidiaryBranch-Density Operator
++ Program Suppliernot yet measured
+29Imperial Dade
+Jersey City, NJ · JanSan, Packaging & Disposables$10B+
+FY2025PE-backedPE Roll-Up
++ Branch-Density Operator54
+30Dole plc (North America)
+Dublin, Ireland (world HQ); Charlotte, NC (U.S. HQ) · Food & Beverage$9.17B
+FY2025 (ended Dec 31, 2025)Public · DOLEScale Aggregator41
+31Motion (Genuine Parts Company)
+Birmingham, AL · Industrial Supplies~$9.0B
+FY2025distribution segmentSubsidiaryBranch-Density Operator
++ Scale Aggregator62
+32Winsupply
+Dayton, OH · Industrial Supplies$8.4B
+FY2026 (ended Jan 31, 2026)SubsidiaryBranch-Density Operatorno public catalog
+33Breakthru Beverage
+Chicago, IL · Food & Beverage$8.4B
+FY2025 (as currently stated on company site, undated)Family-ownedScale Aggregator
++ Branch-Density Operatornot yet measured
+34Mansfield Energy
+Gainesville, GA · Lubricants & Fuels$8.3B
+2025est.Family-ownedScale Aggregator
++ Program Supplier—
+35Fastenal
+Winona, MN · Industrial Supplies$8.2B
+FY2025Public · FASTProgram Supplier
++ Branch-Density Operator55
+36Uline
+Pleasant Prairie, Wisconsin · JanSan, Packaging & Disposables$8.1B (est.)
+CY2025 (est.)est.Family-ownedCatalog-Native
++ Scale Aggregator56
+37Owens & Minor
+Richmond, VA · Pharmaceuticals & Healthcare$8.0B
+FY2024distribution segmentPE-backedScale Aggregator
++ Program Supplier—
+38Ben E. Keith Co.
+Fort Worth, TX · Food & Beverage$8.0B
+FY2025 (per Forbes 2026 list)est.Family-ownedScale Aggregatornot yet measured
+39Core & Main
+St. Louis, MO · Industrial PVF$7.65B
+fiscal 2025 (ended Feb 1, 2026)Public · CNMScale Aggregator
++ PE Roll-Up63
+40Airgas, an Air Liquide company
+Radnor, PA · Industrial Supplies$7.5B
+FY2024 (most recent available estimate)est.North AmericaSubsidiaryScale Aggregator
++ Branch-Density Operator46
+41Watsco
+Miami, FL · HVACR$7.24B
+FY2025Public · WSOScale Aggregator
++ Branch-Density Operator62
+42D&H Distributing
+Harrisburg, PA · Electronics~$7.0B
+FY2025 (ended April 30, 2025)Employee-ownedCatalog-Native
++ Program Supplier—
+43QXO (formerly Beacon)
+Greenwich, CT · Building Materials & Construction$6.84B
+FY2025Public · QXOPE Roll-Up
++ Scale Aggregatornot observable
+44US LBM
+Buffalo Grove, IL · Building Materials & Construction$6.8B
+FY2025est.PE-backedPE Roll-Up
++ Branch-Density Operatornot yet measured
+45Foundation Building Materials (FBM)
+Santa Ana, CA · Building Materials & Construction$6.5B
+FY2024 (pro forma)SubsidiaryPE Roll-Up
++ Branch-Density Operator—
+46Brenntag North America
+Reading, PA · Lubricants & Fuels$6.5B
+FY2025North AmericaSubsidiaryScale Aggregator
++ Technical Specialistno public catalog
+47White Cap
+Doraville, GA · Industrial Supplies$6.1B
+FY2025PE-backedPE Roll-Up
++ Branch-Density Operator—
+48Boise Cascade (Distribution)
+Boise, ID · Building Materials & Construction$5.9B
+FY2025distribution segmentPublic · BCCScale Aggregator—
+4984 Lumber
+Eighty Four, PA · Building Materials & Construction$5.9B
+FY2025Family-ownedBranch-Density Operator
++ Technical Specialist—
+50Veritiv Corporation
+Atlanta, GA · JanSan, Packaging & Disposables$5.9B
+FY2023datedPE-backedPE Roll-Up
++ Scale Aggregator61
+—GMS Inc.now part of SRS Distribution Inc. (subsidiary of The Home Depot)
+Tucker, GA$5.5B
+FY2025 (ended April 30, 2025)SubsidiaryBranch-Density Operator
++ Program Supplier—
+51Consolidated Electrical Distributors (CED)
+Irving, TX · Electrical, Data & Security~$5.5B
+FY2024 (est.)est.Family-ownedBranch-Density Operatornot yet measured
+52Future Electronics
+Pointe-Claire, Quebec, Canada · Electronics$5.17B
+FY2023datedest.SubsidiaryTechnical Specialist
++ Scale Aggregator68
+53Colonial Group
+Savannah, GA · Lubricants & Fuels$5.0B
+FY2025est.Family-ownedScale Aggregatorno public catalog
+—BradyPlusnow part of Imperial Brady (Imperial Dade + BradyPLUS)
+Las Vegas, NV~$5.0B (at Oct 2023 formation)
+FY2023 (at formation)datedPE-backedPE Roll-Up
++ Branch-Density Operatornot observable
+54ADI Global Distribution
+Melville, NY · Electrical, Data & Security$4.78B
+FY2025distribution segmentPublic · ADIGCatalog-Native
++ Branch-Density Operator—
+55SiteOne Landscape Supply
+Roswell, GA · Building Materials & Construction$4.7B
+FY2025 (ended Dec 28, 2025)Public · SITEBranch-Density Operator
++ PE Roll-Up—
+56Apex Oil
+St. Louis, MO · Lubricants & Fuels$4.6B
+2025est.Family-ownedScale Aggregator—
+57Applied Industrial Technologies
+Cleveland, OH · Industrial Supplies$4.56B
+FY2025Public · AITTechnical Specialist
++ Scale Aggregatornot observable
+58Johnstone Supply
+Portland, OR · HVACR$4.5B+
+FY2025PE-backedBranch-Density Operator—
+59Hajoca
+Lafayette Hill, PA · Industrial Supplies$4.2B
+FY2025Family-ownedBranch-Density Operatornot yet measured
+60The Chefs' Warehouse
+Ridgefield, CT · Food & Beverage$4.15B
+FY2025Public · CHEFTechnical Specialist
++ Scale Aggregator—
+61Mouser Electronics
+Mansfield, TX · Electronics$4.1B
+FY2022datedSubsidiaryCatalog-Native—
+62Border States
+Fargo, ND · Electrical, Data & Security$4.0B+
+FY2024 (most recent FY as of 2024 anniversary statement)est.Employee-ownedScale Aggregator
++ Branch-Density Operator—
+63DigiKey
+Thief River Falls, MN · Electronics$3.96B
+FY2025est.Family-ownedCatalog-Native53
+64TTI Inc.
+Fort Worth, TX · Electronics$3.78B
+FY2023datedSubsidiaryScale Aggregator
++ Program Supplier—
+65MSC Industrial Supply
+Melville, NY · Industrial Supplies$3.77B
+FY2025Public · MSMProgram Supplier
++ Catalog-Native65
+66NFI Industries
+Camden, NJ · JanSan, Packaging & Disposables$3.6B
+FY2025est.Family-ownedProgram Supplier
++ Scale Aggregator—
+67Reece USA
+Sugar Land, TX · Plumbing$3.3B
+FY2025 (ended June 30, 2025)North AmericaSubsidiaryBranch-Density Operator51
+—MRC Globalnow part of DNOW Inc.
+Houston, TX$3.01B
+FY2024SubsidiaryScale Aggregator
++ Technical Specialistnot yet measured
+68Guttman Holdings
+Belle Vernon, PA · Lubricants & Fuels$3.0B
+2025est.Employee-ownedProgram Supplier
++ Branch-Density Operator—
+69BlueLinx Holdings
+Atlanta, GA · Building Materials & Construction$3.0B
+FY2025 (53 weeks ended Jan 3, 2026)Public · BXCScale Aggregator—
+70DNOW
+Houston, TX · Industrial Supplies$2.8B
+FY2025Public · DNOWScale Aggregator
++ Branch-Density Operatorno public catalog
+71Carter-Jones Lumber
+Kent, OH · Building Materials & Construction$2.7B
+FY2025Family-ownedBranch-Density Operator—
+72F.W. Webb
+Bedford, MA · Industrial Supplies$2.6B
+FY2025Family-ownedBranch-Density Operator65
+73TopBuild (Specialty Distribution)
+Daytona Beach, FL · Building Materials & Construction$2.52B
+FY2025distribution segmentPublic · BLDBranch-Density Operator—
+74Matheson
+Basking Ridge, NJ · Gases & Welding Supplies$2.44B (approx.)
+FYE March 2025est.North AmericaSubsidiaryTechnical Specialist
++ Scale Aggregator—
+—Kodiak Building Partnersnow part of QXO
+Englewood, CO$2.4B
+FY2025SubsidiaryPE Roll-Up
++ Technical Specialist—
+75AmeriGas Propane
+King of Prussia, PA · Gases & Welding Supplies$2.28B
+FY2025 (ended Sept 30, 2025)distribution segmentSubsidiaryScale Aggregator
++ Branch-Density Operatorno public catalog
+76McNaughton-McKay Group
+Madison Heights, MI · Electrical, Data & Security$2.2B
+FY2022 (approx.)datedEmployee-ownedTechnical Specialist
++ Branch-Density Operator—
+77Gulfeagle Supply
+Tampa, FL · Building Materials & Construction$2.2B
+FY2025est.Family-ownedBranch-Density Operator—
+78Elliott Electric Supply
+Nacogdoches, TX · Electrical, Data & Security$2.12B
+FY2024Family-ownedBranch-Density Operator—
+79DXP Enterprises
+Houston, TX · Industrial Supplies$2.0B
+FY2025Public · DXPETechnical Specialist
++ Program Supplier48
+80UFP Industries
+Grand Rapids, MI · Building Materials & Construction$2.00B
+FY2025distribution segmentPublic · UFPIScale Aggregator
++ Program Supplier—
+81SunSource
+Addison, IL · Industrial Supplies$2B+
+FY2025est.PE-backedPE Roll-Up
++ Technical Specialist52
+82Distribution Solutions Group
+Fort Worth, TX · Industrial Supplies$1.98B
+FY2025Public · DSGRPE Roll-Up
++ Program Supplier58
+83Vallen Distribution
+Belmont, NC · Industrial Supplies$1.9B
+FY2021datedest.North AmericaPE-backedProgram Supplier
++ Technical Specialist—
+84Lonestar Electric Supply
+Houston, TX · Electrical, Data & Security$1.7B
+FY2025Family-ownedProgram Supplier
++ Branch-Density Operator—
+85The Hillman Group
+Cincinnati, OH · Industrial Supplies$1.55B
+FY2025Public · HLMNProgram Suppliernot observable
+86Wajax Corp
+Mississauga, ON, Canada · Industrial Supplies$1.5B
+FY2025Public · WJXTechnical Specialist
++ Branch-Density Operatornot yet measured
+87Lansing Building Products
+Richmond, VA · Building Materials & Construction$1.5B
+FY2025est.SubsidiaryBranch-Density Operator—
+88Northern Tool + Equipment
+Burnsville, MN · Building Materials & Construction$1.5B
+FY2025est.Family-ownedProgram Supplier
++ Catalog-Native—
+89TricorBraun
+St. Louis, MO · JanSan, Packaging & Disposables$1.4B (stale, FY2020 TTM)
+FY2020 (TTM ended Sept 2020)datedPE-backedScale Aggregator
++ Technical Specialist70
+90Global Industrial Company
+Port Washington, NY · Industrial Supplies$1.38B
+FY2025Public · GICCatalog-Native—
+91McCoy's Building Supply
+San Marcos, TX · Building Materials & Construction$1.2B
+FY2025Family-ownedBranch-Density Operator—
+92RS Group (Americas)
+Fort Worth, TX · Industrial Supplies~$1.09B
+FY2026 (ended March 31, 2026)North AmericaSubsidiaryCatalog-Native
++ Program Supplier—
+93Main Electric Supply Co.
+Santa Ana, CA · Electrical, Data & Securityjust under $1.1B
+FY2024Family-ownedBranch-Density Operator—
+94Bearing Distributors Inc. (BDI)
+Cleveland, OH · Industrial Supplies$1.0B
+FY2024SubsidiaryBranch-Density Operator58
+95Richards Building Supply
+Homer Glen, IL · Building Materials & Construction$1.0B
+FY2025est.Family-ownedBranch-Density Operator—
+96R.E. Michel Company
+Glen Burnie, MD · HVACR$1B+
+FY2024est.Family-ownedBranch-Density Operatornot observable
+97North American Plastics
+Dallas, TX · Plastics$1.0B
+FY2021datedPE-backedPE Roll-Upnot yet measured
+—Mingledorff'snow part of SRS Distribution Inc. (subsidiary of The Home Depot)
+Peachtree Corners, GA · HVACR$1.0B
+FY2024SubsidiaryBranch-Density Operator—
+98Van Meter Inc.
+Cedar Rapids, IA · Electrical, Data & Security$928.5M
+FY2022datedEmployee-ownedBranch-Density Operator
++ Technical Specialist—
+99Gresco Utility Supply
+Forsyth, GA · Electrical, Data & Security$846M
+FY2025Family-ownedTechnical Specialist
++ Program Supplier—
+100The Master Group
+Boucherville, QC · HVACR~$0.8B
+~2021datedest.Family-ownedBranch-Density Operator60
+101Locke Supply Co.
+Oklahoma City, OK$738M
+FY2024Employee-ownedBranch-Density Operator—
+102AFC Industries
+Fairfield, OH · Industrial Supplies$700M
+FY2024PE-backedProgram Supplier
++ PE Roll-Up—
+103Singer Industrial
+Dallas, TX · Industrial Supplies$593M
+FY2025PE-backedPE Roll-Up
++ Technical Specialistnot yet measured
+104Optimas OE Solutions
+Glenview, IL · Industrial Supplies$577M
+FY2025PE-backedProgram Supplier
++ Technical Specialist—
+105Turtle
+Linden, NJ · Electrical, Data & Security$572M
+FY2022datedest.Family-ownedTechnical Specialist
++ Program Supplier—
+106Kimball Midwest
+Columbus, OH · Industrial Supplies$565M
+FY2025Family-ownedProgram Supplier—
+107Descours & Cabaud (North America)
+Lyon, France (global parent); North America operations centered on FICODIS (Montreal, QC) with ~47 US and ~33 Canadian sales outlets · Industrial Supplies$545M
+FY2024North AmericaSubsidiaryPE Roll-Up
++ Branch-Density Operator—
+108Ellsworth Adhesives
+Germantown, WI · Specialty Adhesives$540M
+~2022datedest.Family-ownedTechnical Specialist
++ Catalog-Native—
+109R.S. Hughes
+Sunnyvale, CA · Industrial Supplies$527M
+FY2024Family-ownedTechnical Specialist—
+110Endries International
+Brillion, WI · Industrial Supplies$500M+
+FY2024PE-backedPE Roll-Up
++ Catalog-Native—
+111IEWC
+New Berlin, WI · Electrical, Data & Security$500M+
+FY2021datedest.Employee-ownedTechnical Specialist
++ Program Supplier—
+112Arc3 Gases
+Dunn, NC · Gases & Welding Supplies$500M+
+2025 (estimate)est.Family-ownedBranch-Density Operator43
+113Moove (North America)
+King of Prussia, PA · Lubricants & Fuels~$490M
+FY2023 (ended Dec 31, 2023)datedest.North AmericaSubsidiaryScale Aggregator
++ Catalog-Native—
+114Motion & Control Enterprises
+Zelienople, PA · Industrial Supplies$488M
+FY2024PE-backedPE Roll-Up
++ Technical Specialist—
+115BlackHawk Industrial
+Broken Arrow, OK · Industrial Supplies$460M
+FY2020datedPE-backedPE Roll-Up
++ Technical Specialist—
+116Inline Electric Supply
+Huntsville, AL · Electrical, Data & Security$456M
+FY2025Employee-ownedBranch-Density Operator—
+117Bisco Industries
+Anaheim, CA · Industrial Supplies$427.9M
+FY2025Public · EACOBranch-Density Operator—
+118Rural Electric Supply Cooperative (RESCO)
+Middleton, WI · Electrical, Data & Security$404M
+FY2025Co-opProgram Supplier
++ Branch-Density Operator—
+119nexAir
+Memphis, TN · Gases & Welding Supplies$400M (FY2022, dated)
+FY2022datedSubsidiaryBranch-Density Operator
++ Scale Aggregator—
+120WPG Americas
+San Jose, CA · Electronics~$390M
+FY2023datedest.North AmericaSubsidiaryScale Aggregator
++ Technical Specialist60
+121Edges Electrical Group
+San Jose, CA$360M
+FY2022datedFamily-ownedBranch-Density Operator—
+122Granite City Electric Supply
+Quincy, MA · Electrical, Data & Security$335M
+FY2024Family-ownedBranch-Density Operator—
+123Loeb Electric
+Columbus, OH$300M+
+~2023 (company profile)datedest.Family-ownedProgram Supplier
++ Technical Specialist—
+124United Electric Supply
+New Castle, DE · Electrical, Data & Security$300M+
+undated (company self-description)datedEmployee-ownedBranch-Density Operator—
+125Bridgestone HosePower
+Jacksonville, FL · Hose & Accessories$287M
+FY2024est.distribution segmentSubsidiaryTechnical Specialist
++ Branch-Density Operatorno public catalog
+126Martin Supply
+Florence, AL · Safety$279M+
+FY2024Family-ownedBranch-Density Operator—
+127Bossard (Americas)
+Cedar Falls, IA (Americas); Zug, Switzerland (global parent) · Industrial Supplies$275M (approx.)
+FY2025est.North AmericaSubsidiary · BOSNProgram Supplier
++ Technical Specialist—
+128Motion & Flow Control Products
+Littleton, CO · Hose & Accessories~$272M
+FY2025 (est.)est.Family-ownedTechnical Specialist
++ Branch-Density Operator—
+129Schaedler Yesco Distribution
+Mechanicsburg, PA$255.6M
+FY2021datedFamily-ownedBranch-Density Operator—
+130Roberts Oxygen Company
+Rockville, MD · Gases & Welding Supplies~$220M (est.)
+CY2025 (estimate)est.Family-ownedBranch-Density Operator
++ Technical Specialist—
+131Mallory Safety and Supply
+Portland, OR · Safety$200M
+FY2021datedest.Family-ownedBranch-Density Operator—
+132Field Fastener
+Machesney Park, IL · Fasteners~$160M
+FY2023datedest.Family-ownedProgram Supplier
++ Technical Specialist—
+133IBT Industrial Solutions
+Merriam, KS · Power Transmission & Bearings$135M
+~2022datedest.Family-ownedTechnical Specialist—
+134Indiana Oxygen
+Indianapolis, IN · Gases & Welding Supplies~$100M
+FY2023datedest.Family-ownedTechnical Specialist
++ Branch-Density Operator—
+135Cope Plastics
+Alton, IL · Plastics$100M+
+FY2018datedFamily-ownedBranch-Density Operator
++ Technical Specialistno public catalog
+136DH Sutherland
+Beaverton, OR · Specialty Adhesives~$8M (est.)
+recent (estimate)datedest.Family-ownedTechnical Specialist47
+137Charbone Corporation
+Brossard, Quebec · Gases & Welding Supplies$0.2M
+FY2025Public · CHTechnical Specialist
++ Program Supplier—
+—American Welding & Gas
+Raleigh, NC · Gases & Welding Suppliesnot disclosed
+Family-ownedBranch-Density Operator42
+—Applied Adhesives
+Minnetonka, MN · Specialty Adhesivesnot disclosed
+PE-backedPE Roll-Up
++ Program Supplierno public catalog
+—Aramsco
+Paulsboro, NJ · Safetynot disclosed
+PE-backedPE Roll-Up
++ Branch-Density Operator—
+—Arbill
+Philadelphia, Pennsylvanianot disclosed
+Family-ownedProgram Supplier
++ Technical Specialist—
+—Associated Industries
+Wichita, KS · Specialty Adhesivesnot disclosed
+Family-ownedTechnical Specialist
++ Program Suppliernot observable
+—Bearing Headquarters Company (HeadCo)
+Broadview, IL · Power Transmission & Bearingsnot disclosed
+Family-ownedTechnical Specialist—
+—Berendsen Fluid Power
+Tulsa, OK · Industrial Suppliesnot disclosed
+Family-ownedTechnical Specialist
++ Branch-Density Operator—
+—Berkshire Tool Supply Group
+Novi, MI · Industrial Suppliesnot disclosed
+SubsidiaryCatalog-Native
++ Program Supplier—
+—Boeing Distribution
+Miramar, FL · Industrial Suppliesnot disclosed
+Subsidiary · BAProgram Supplier—
+—Cadence Petroleum Group
+Charlotte, NC · Lubricants & Fuelsnot disclosed
+PE-backedPE Roll-Up
++ Branch-Density Operatorno public catalog
+—Carson Oil
+Portland, OR · Lubricants & Fuelsnot disclosed
+Family-ownedBranch-Density Operatorno public catalog
+—City Electric Supply
+Dallas, TX · Electrical, Data & Securitynot disclosed
+Family-ownedBranch-Density Operator—
+—Colonial Electric Supply
+King of Prussia, PA · Electrical, Data & Securitynot disclosed
+Family-ownedBranch-Density Operator—
+—Copper State Bolt & Nut
+Phoenix, AZ · Fastenersnot disclosed
+Family-ownedBranch-Density Operator
++ Technical Specialist—
+—Crescent Electric Supply Company
+East Dubuque, IL · Electrical, Data & Securitynot disclosed
+Family-ownedBranch-Density Operator—
+—Curbell Plastics
+Orchard Park, NY · Plasticsnot disclosed
+SubsidiaryBranch-Density Operator
++ Technical Specialist50
+—Dakota Supply Group (DSG)
+Plymouth, MN · Electrical, Data & Securitynot disclosed
+Employee-ownedBranch-Density Operator—
+—Dealers Electrical Supply Company
+Waco, TX · Electrical, Data & Securitynot disclosed
+Employee-ownedBranch-Density Operator—
+—DGI Supply
+Vernon Hills, IL · Industrial Suppliesnot disclosed
+SubsidiaryTechnical Specialist—
+—Dilmar Oil Company
+Florence, SC · Lubricants & Fuelsnot disclosed
+Family-ownedTechnical Specialist
++ Branch-Density Operatorno public catalog
+—E&T Plastics
+Long Island City, NY · Plasticsnot disclosed
+Family-ownedBranch-Density Operator
++ Technical Specialist68
+—Echelon Supply and Service
+Liverpool, NY · Hose & Accessoriesnot disclosed
+PE-backedPE Roll-Up—
+—Eckart Supply
+Corydon, IN · Electrical, Data & Securitynot disclosed
+Family-ownedBranch-Density Operator—
+—Edgen Murray
+Houston, TX · Industrial Suppliesnot disclosed
+SubsidiaryTechnical Specialistno public catalog
+—EFC International
+St. Louis, MO · Fastenersnot disclosed
+PE-backedPE Roll-Up
++ Program Supplier—
+—EIS Inc.
+Atlanta, GA · Industrial Suppliesnot disclosed
+PE-backedTechnical Specialist60
+—Evolution Motion Solutions (formerly Womack)
+Farmers Branch, TX · Industrial Suppliesnot disclosed
+PE-backedTechnical Specialist
++ PE Roll-Up—
+—EWIE Group
+Ann Arbor, Michigan · Safetynot disclosed
+Family-ownedProgram Supplier—
+—Franklin Empire
+Saint-Laurent, Quebec · Electrical, Data & Securitynot disclosed
+Family-ownedBranch-Density Operator
++ Technical Specialist—
+—Gas And Supply Co.
+Gases & Welding Suppliesnot disclosed
+Family-ownedBranch-Density Operator—
+—General Air
+Denver, CO · Gases & Welding Suppliesnot disclosed
+Family-ownedBranch-Density Operator—
+—GracoRoberts
+Arlington, TX · Specialty Adhesivesnot disclosed
+PE-backedPE Roll-Up
++ Technical Specialist—
+—Great Lakes Petroleum
+Cleveland, OH (dual HQ with Charlotte, NC) · Lubricants & Fuelsnot disclosed
+Family-ownedProgram Supplier—
+—Green Mountain Electric Supply
+Colchester, VT · Electrical, Data & Securitynot disclosed
+Family-ownedPE Roll-Up
++ Branch-Density Operator—
+—Hydraquip
+Houston, TX · Fluid Powernot disclosed
+Employee-ownedTechnical Specialist—
+—Incora
+Fort Worth, TX · Industrial Suppliesnot disclosed
+PE-backedProgram Supplier
++ PE Roll-Up—
+—Industrial Piping Specialists
+Tulsa, OK · Industrial PVFnot disclosed
+Family-ownedTechnical Specialist
++ Branch-Density Operator—
+—Integral Products
+Harbor City, CA · Specialty Adhesivesnot disclosed
+Family-ownedTechnical Specialist—
+—Interstate Plasticsnow part of Curbell Plastics, Inc.
+Sacramento, CA · Plasticsnot disclosed
+SubsidiaryCatalog-Native
++ Branch-Density Operator52
+—Kendall Electric
+Portage, MI · Electrical, Data & Securitynot disclosed
+Employee-ownedBranch-Density Operator
++ Program Supplier—
+—Kirby Risk
+Lafayette, IN · Electrical, Data & Securitynot disclosed
+Family-ownedTechnical Specialist
++ Program Supplier—
+—Krayden
+Denver, CO · Specialty Adhesivesnot disclosed
+PE-backedPE Roll-Up
++ Technical Specialist—
+—Levitt-Safety
+Oakville, Ontario, Canadanot disclosed
+Family-ownedTechnical Specialist—
+—LGG Industrial
+Pittsburgh, PA · Industrial Suppliesnot disclosed
+PE-backedPE Roll-Up
++ Branch-Density Operatorno public catalog
+—Liquid Tech Solutions
+Massachusetts · Lubricants & Fuelsnot disclosed
+PE-backedPE Roll-Up
++ Program Supplier—
+—Magid Glove & Safety
+Romeoville, IL · Industrial Suppliesnot disclosed
+Family-ownedProgram Supplier
++ Catalog-Native—
+—McMaster-Carr
+Elmhurst, IL · Industrial Suppliesnot disclosed
+Family-ownedCatalog-Nativeno public catalog
+—Meritus Gas Partners
+New York, NY · Gases & Welding Suppliesnot disclosed
+PE-backedPE Roll-Up
++ Branch-Density Operator—
+—Norco Inc.
+Boise, ID · Gases & Welding Suppliesnot disclosed
+Employee-ownedBranch-Density Operator
++ Technical Specialist—
+—O.E. Meyer
+Sandusky, OH · Gases & Welding Suppliesnot disclosed
+Employee-ownedBranch-Density Operator
++ Technical Specialist—
+—OTC Industrial Technologies
+Columbus, OH · Industrial Suppliesnot disclosed
+PE-backedPE Roll-Up
++ Technical Specialistnot yet measured
+—Parman Energy Group
+Nashville, TN · Lubricants & Fuelsnot disclosed
+Employee-ownedProgram Supplier
++ Branch-Density Operator—
+—Piedmont Plastics
+Charlotte, NC · Plasticsnot disclosed
+Family-ownedBranch-Density Operator—
+—Pilot Thomas Logistics
+Fort Worth, TX · Lubricants & Fuelsnot disclosed
+PE-backedPE Roll-Up
++ Program Supplier—
+—Pollock Orora
+Grand Prairie, TX · JanSan, Packaging & Disposablesnot disclosed
+SubsidiaryTechnical Specialist
++ Program Supplier—
+—Polymershapes
+Huntersville, NC · Plasticsnot disclosed
+SubsidiaryScale Aggregator
++ Technical Specialist—
+—Port Consolidated
+Fort Lauderdale, FL (Port Everglades) · Lubricants & Fuelsnot disclosed
+Family-ownedProgram Supplier
++ Branch-Density Operator—
+—Professional Plastics
+Fullerton, CA · Plasticsnot disclosed
+Family-ownedCatalog-Native
++ Technical Specialist—
+—Purvis Industries
+Dallas, TX · Industrial Suppliesnot disclosed
+Family-ownedBranch-Density Operator—
+—Red Ball Oxygen Co.
+Shreveport, LA · Gases & Welding Suppliesnot disclosed
+Family-ownedBranch-Density Operator
++ Technical Specialist—
+—RelaDyne
+Cincinnati, OH · Lubricants & Fuelsnot disclosed
+PE-backedScale Aggregator
++ PE Roll-Up—
+—Rudolph Bros. & Co.
+Canal Winchester, OH · Specialty Adhesivesnot disclosed
+Employee-ownedTechnical Specialist—
+—SC Fuels
+Orange, CA · Lubricants & Fuelsnot disclosed
+SubsidiaryBranch-Density Operator
++ Scale Aggregator—
+—Scott Electric
+Greensburg, PA · Electrical, Data & Securitynot disclosed
+Employee-ownedBranch-Density Operator—
+—Senergy Petroleum
+Phoenix, AZ · Lubricants & Fuelsnot disclosed
+Family-ownedBranch-Density Operator
++ Program Supplier—
+—Smitty's Supply
+Roseland, LA · Lubricants & Fuelsnot disclosed
+Family-ownedTechnical Specialist
++ Branch-Density Operator—
+—Southern Counties Lubricants
+Orange, CA (warehouse network also lists a Richmond, CA facility) · Lubricants & Fuelsnot disclosed
+Family-ownedBranch-Density Operator—
+—SPI Health and Safety
+Blainville, Quebec, Canada · Safetynot disclosed
+Family-ownedBranch-Density Operator
++ PE Roll-Up—
+—State Electric Supply Company
+Huntington, WV · Electrical, Data & Securitynot disclosed
+Family-ownedBranch-Density Operator
++ Program Supplier—
+—Stauffer Glove and Safety
+Red Hill, Pennsylvania · Safetynot disclosed
+Family-ownedBranch-Density Operator
++ Program Supplier—
+—Tencarva Machinery
+Greensboro, NC · Industrial Suppliesnot disclosed
+PE-backedTechnical Specialist
++ PE Roll-Up—
+—The Home Depot (Pro)
+Atlanta, GA · Industrial Suppliesnot disclosed
+SubsidiaryBranch-Density Operator
++ Scale Aggregatornot observable
+—The Macomb Group
+Sterling Heights, MI · Industrial PVFnot disclosed
+Family-ownedBranch-Density Operator
++ Program Supplier—
+—ThyssenKrupp Engineered Plastics
+Plasticsnot disclosed
+SubsidiaryCatalog-Native—
+—Total Plastics International
+Kalamazoo, MI · Plasticsnot disclosed
+Family-ownedBranch-Density Operator
++ Technical Specialist—
+—Total Safety Supplies & Solutions
+Fairfield, CA · Safetynot disclosed
+PE-backedProgram Supplier
++ Catalog-Native—
+—U.S. Electrical Services
+Middletown, CT · Electrical, Data & Securitynot disclosed
+SubsidiaryBranch-Density Operator—
+—Werner Electric Supply
+Appleton, WI · Electrical, Data & Securitynot disclosed
+Family-ownedTechnical Specialist
++ Branch-Density Operator—
+—Wholesale Electric Supply
+Texarkana, TX · Electrical, Data & Securitynot disclosed
+Family-ownedBranch-Density Operator—
+—Wholesale Electrical Supply Co. of Houston
+Houston, TX · Electrical, Data & Securitynot disclosed
+Family-ownedProgram Supplier
++ Technical Specialist—
+—Würth Industry North America
+Not confirmed in sourcing (WINA operates multiple divisional headquarters, e.g. Würth Industrial US in Brooklyn Park, MN and Würth Construction Services in Birmingham, AL) · Industrial Suppliesnot disclosed
+SubsidiaryProgram Supplier
++ Branch-Density Operatornot yet measured
+The index, cut twenty ways
+Every vertical gets its own ranking, its own measured leaders, and its own read on what wins there. Sorted by median readiness index, strongest vertical first.
+Top Plumbing Distributors 2026
+6 companies · median index 65
+Top Food & Beverage Distributors 2026
+12 companies · median index 65
+Top Industrial PVF Distributors 2026
+8 companies · median index 63
+Top Electrical, Data & Security Distributors 2026
+40 companies · median index 62
+Top HVACR Distributors 2026
+10 companies · median index 62
+Top Power Transmission & Bearings Distributors 2026
+10 companies · median index 62
+Top Hose & Accessories Distributors 2026
+8 companies · median index 62
+Top Fasteners Distributors 2026
+20 companies · median index 62
+Top Safety Distributors 2026
+20 companies · median index 62
+Top Pharmaceuticals & Healthcare Distributors 2026
+7 companies · median index 59
+Top Industrial Supplies Distributors 2026
+50 companies · median index 58
+Top MRO Industrial Distributors 2026
+25 companies · median index 58
+Top Building Materials & Construction Distributors 2026
+20 companies · median index 58
+Top Fluid Power Distributors 2026
+15 companies · median index 58
+Top JanSan, Packaging & Disposables Distributors 2026
+15 companies · median index 58
+Top Specialty Adhesives Distributors 2026
+11 companies · median index 58
+Top Electronics Distributors 2026
+8 companies · median index 57
+Top Plastics Distributors 2026
+11 companies · median index 52
+Top Gases & Welding Supplies Distributors 2026
+18 companies · median index 46
+Top Lubricants & Fuels Distributors 2026
+20 companies
+And by how they win
+The Scale Aggregators
+46 companies
+The Branch-Density Operators
+70 companies
+The Technical Specialists
+36 companies
+The Catalog-Natives
+13 companies
+The PE Roll-Ups
+29 companies
+The Program Suppliers
+29 companies
+Every company in this index also has a full strategy teardown in Distributor Playbooks — how they got here and how they win, one post per company.
+Use this data
+The full index — all 223 companies, sourced revenue, archetypes, and every measured Digital Readiness signal — is downloadable under CC BY 4.0. Free to analyze, republish, and build on, with attribution to Anglera. Every change to the data is recorded in the corrections log.
+Download JSONDownload CSV
+Revenue figures are the most recent annual results each company has publicly reported, sourced individually from filings, company announcements, and trade press; the fiscal year and basis are recorded per company and shown in the table. Vertical membership follows the MDM Top Distributors lists, © Modern Distribution Management. Archetype classification and the Digital Readiness Index are Anglera’s own work. Index built 2026-08-06; digital shelf measurement run 2026-08-06. Every change to a published figure or score is recorded in the public corrections log. Found something wrong? Tell us and we will correct it — and log it.
+Customers
+For Distributors
+For Retailers
+For Marketplaces
+For Manufacturers
+For Brands
+Case Studies
+Product
+Overview
+How It Works
+Security
+Integrations
+Resources
+AI Readability Grader
+Comparison Matrix
+Market Maps
+The Product Data Stack
+Benchmarks
+Compare
+Attribute Schema Library
+Schema Foundry
+Platform Comparisons
+By Industry
+Guides
+Glossary
+Company
+Blog
+Events
+Top Distributors 2026
+PIM Magic Quadrant 2026
+Legibility Index 2026
+Careers
+Legal
+Privacy Policy
+Terms of Service
+Follow Us
+© 2025–2026 Angler Technologies, Inc. and its affiliates. All rights reserved.
+

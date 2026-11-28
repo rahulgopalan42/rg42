@@ -1,0 +1,35 @@
+f03_queue (batch 3, queue mode) - 28 Nov 2026. INPUT in_f03.jsonl: 80 lines, all processed. WebSearch: 0 used (WebFetch only).
+
+RESULT: MAIN 44, WATCH 0, DUPS 32, not researched 4.
+
+MAIN (44): VDM Metals; Hengtong Group; Jianlong Group; Errigal Group; Vision Contracting; Les Maitres Laitiers du Cotentin;
+Inner Mongolia Mengtai Group; Shenzhen Neptunus Group; Tanger Med Special Agency; Devo; Fenwick & West; Gordon Rees Scully Mansukhani;
+Tessi; Radiant Nuclear; Chapter; White Cap; Pipelife; Bouygues Immobilier; Master Builders Solutions; CIC; Clece; Gedex (Gedimat);
+Giphar; IBS Software; CoinSwitch; Ugras Kiymetli Madenler; Matillion; BlueCrest; S&C Electric; Aermec; Stack Overflow; Marmon Group;
+Chryso; Netceed; Connells Group; insightsoftware; Ruffer; Fox Rothschild; Niko; Ricursive Intelligence; Unite Us; Ahlatci Metal Rafineri;
+TVS Credit Services; Flynn.
+Route C (Clay bracket + page indicators): VDM, Pipelife, Master Builders, CIC, Clece, BlueCrest, S&C, Aermec, Chryso, Netceed, Connells,
+insightsoftware, Niko, TVS Credit. Clay brackets are recorded as "estimated", never as reported revenue.
+Strongest F1 cases on fit: Hengtong (global fibre/submarine cable, AFL peer), IBS Software (airline/travel software), Netceed (new CEO,
+data-centre push, Gulf event sponsorship), Master Builders Solutions (standalone since 2023, acquisitive), Matillion (new CEO and CMO Nov 2026),
+Tanger Med (automotive zones).
+
+DUPS (32): already delivered or in master (FiberCop, BNP Paribas Personal Finance/Cetelem, Conad Centro Nord, CAIXA, Heffernan Group,
+Cox Communications, Insider = Insider One, STAR Rafineri = SOCAR); listed (Itau Unibanco, Franklin Templeton, Raizen Combustiveis, Dis-Chem,
+Super Group, Erajaya, Vietnam Airlines, PV Gas, Claranova, ReNew, SGTM, Molbio - IPO prospectus Aug 2026, verify); merged away (H&E -> Herc,
+World Labs -> AMD Nov 2026, BradyPlus -> Imperial Brady, Newfront -> WTW Jan 2026); not separate (CBRE Portugal, Kansanshi Mining, Osram ->
+ams OSRAM, LenelS2 -> Honeywell brand page, Corus -> Tata Steel, Home Depot Rentals, Ola Energy Maroc); not a commercial prospect (CDC Habitat).
+
+NOT RESEARCHED (no page could be opened): Fasten Hongsheng Group (site empty, no wiki); Delong Steel (site placeholder, wiki 404);
+Relation Insurance (site 403, source PDF 404); input line 68 "IPO (coming soon by 2024 - 2025 FY)" - a broken name from the Wikipedia unicorn
+list (India, USD 1.8bn); no Indian 1.8bn row found on the list, so the company could not be identified.
+
+FLAGS FOR THE LEAD:
+- Fenwick & West: master has "Fenwick" (Capacity To Confirm); context suggests the UK department store, but the law firm now trades as "Fenwick". Confirm.
+- CIC (parent Credit Mutuel IN MASTER) and Connells (parent reported as Skipton Building Society, IN MASTER; not confirmed) kept as own brands; user may treat as duplicates.
+- Shenzhen Neptunus Group may be largely a holding for listed Neptunus Bioengineering (SZSE 000078), loss-making since 2022.
+- Uguras and Ahlatci net sales are bullion turnover; Ahlatci Holding / Ahlatci Kuyumculuk (rank 6 Fortune 500 Turkiye, TRY 618bn) check NEW and are better targets.
+- New leads seen, not researched: Imperial Dade / Imperial Brady (NEW), OLA Energy (NEW), Ahlatci Kuyumculuk (NEW).
+- Tanger Med revenue converted at an assumed MAD 0.10 (MAD not in the fixed table).
+- signals_checked = yes for 16 records; many company sites refused (403/404/503), so signals are thin elsewhere.
+Scratch helper: scratch_f03_mk.py (record builder).
