@@ -50,3 +50,48 @@ audience, large private US and European groups); 9 musical instruments & pro aud
 18/19/25 live entertainment, attractions, golf/racetracks; 17/23 childcare and funeral (scale but weak fit: DISC/WATCH).
 
 == 2. WORK LOG ==
+Discovery: one WebSearch used (limit 1): car-wash chain rankings -> carwash.com (PC&D Top 50); every carwash.com page refused (403), so
+only names in the search snippets were taken. Other discovery came from candidate names run through check.py in batches (about 230
+names), then from Wikipedia (en/de/fr/fi/sv/nl/pt) and company pages. Portfolio page used: clearlake.com/portfolio (4 names).
+No other list page was opened; most DISC "not researched" lines are names from that check.py pass, with no list URL (source field says so).
+
+Clusters researched (gap number from section 1):
+ 11 vehicle repair / car wash / auto service: Crash Champions, Quick Quack Car Wash, Feu Vert (MAIN). Caliber Collision, Mobivia,
+    Kwik Fit IN MASTER; Euromaster ALREADY DELIVERED; Valvoline F1 PARTNER. Car-wash Top 50 refused.
+ 9 musical instruments / pro audio: Sweetwater, Guitar Center, Music Tribe, Taylor Guitars (MAIN); Fender, Gibson, L-Acoustics,
+    Steinway, Clair Global (WATCH: no current revenue/headcount or ownership on pages opened). Thomann, Shure, Sennheiser, Marshall
+    IN MASTER; Audio-Technica, Teufel ALREADY DELIVERED; Roland F1 PARTNER.
+ 12 specialty retail: Intersport, Barnes & Noble, Waterstones, Culture Convenience Club (Tsutaya) (MAIN); Musti Group (WATCH -
+    delisting not confirmed). Pet retail is largely already in the master (PetSmart, Fressnapf, zooplus, Arcaplanet, Greencross,
+    Petstock, Heads Up For Tails); Cobasi now listed via Petz Cobasi. Sporting-goods retail also largely in master (Decathlon, Bass Pro,
+    Scheels, Big 5, Hibbett). Rover (pet-care marketplace) MAIN.
+ 8 RVs / boats: Erwin Hymer Group (Thor subsidiary), Hobby-Wohnwagenwerk, Sunseeker (MAIN); Princess Yachts (WATCH). Swift IN MASTER;
+    Forest River already in u02; Azimut Benetti IN MASTER; Brunswick brands are divisions of a listed company.
+ 1 forestry / wood: Metsä Group, Södra, Binderholz, Sierra Pacific Industries (MAIN). Egger = FRITZ EGGER in master; Kronospan
+    delivered b02; Swiss Krono, J.D. Irving in master. OVERLAP: t49_gapfinder_a also wrote Metsä Group and Sierra Pacific Industries.
+ 2 fishing: Trident Seafoods (MAIN). Pacific Seafood in master; Cermaq already in u01.
+ 18/19/25 live entertainment, attractions, racing, golf: Cirque du Soleil, Feld Entertainment, Herschend, Invited (ClubCorp),
+    The Jockey Club, Arena Racing Company (MAIN); Stage Entertainment (WATCH). AEG researched but IN MASTER under "AEG"
+    (aegworldwide.com) - the full name returned NEW; moved to DUPS. Merlin, Efteling, PortAventura, Topgolf, HK Jockey Club, JRA
+    delivered; Parques Reunidos, Europa-Park, Chimelong, Endeavor, Kerzner in master.
+ 6 firearms: Beretta Holding (MAIN, with brand-safety and Russia-distributor flags); SIG Sauer (WATCH by judgement: Route C met but
+    litigation and political marketing make it unrealistic).
+ 21 device repair: Asurion (MAIN; also covers uBreakiFix).
+ 23 funeral: InvoCare, Dignity (MAIN, fit near zero - recorded to close the gap).
+ 17 childcare: Partou (MAIN, low fit); Busy Bees, Learning Care Group, Babilou ALREADY DELIVERED.
+
+Counts: names run through check.py about 230; IN MASTER 33; ALREADY DELIVERED 16; F1 PARTNER 3 (Valvoline, Roland, Fanatics);
+listed/left out several (Yamaha, Pets at Home, Malibu Boats, Beneteau, Sanlorenzo, Dave & Buster's, Hollywood Bowl, Tabcorp, Cobasi).
+Files: MAIN 31, WATCH 9, DISC 142, DUPS 56. signals_checked = "yes" where a Wikipedia history/recent-events section or newsroom was read;
+"no" for Sweetwater (site 403), Music Tribe (site redirects), Hobby, Binderholz, Feld, Musti.
+
+Weaknesses (say plainly): almost all records rest on Wikipedia plus at most one company page; many figures are old (Asurion 2019,
+Barnes & Noble FY2019, Binderholz 2018, Jockey Club 2019, CCC 2010, Dignity 2020/21) and flagged in `period`. Few marketing heads were
+identified (only Crash Champions' CMO). No local-language list sources for Asia, Middle East, Africa or Latin America were used for
+these gap industries: the regional gaps of brief item 12 remain for these industries.
+
+NOT reached: gaps 3 (tobacco/vape/cannabis), 4 (textile manufacturing), 5 (ceramic tableware), 7 (rail rolling stock - left to t49),
+14 (CROs - t49), 15 (advertising - t49), 16 (pet insurance/services beyond Rover), 18 theatre owners beyond Stage, 22 laundries,
+24 weddings/bridal, 26 industrial MRO, 27 specialist construction trades, 28 consumer rental / brand licensing; and every DISC name
+marked "not researched" (about 95), notably Classic Collision, Zips (reported Chapter 11 - unverified), d&b audiotechnik, D'Addario,
+Sveaskog, Arauco (Copec subsidiary), Pfeifer, Kastamonu Entegre, Glock, Troon, Concert Golf Partners, Mémora, OGF, Toys R Us.

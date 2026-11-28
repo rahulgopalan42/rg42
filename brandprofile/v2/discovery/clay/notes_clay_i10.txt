@@ -1,0 +1,52 @@
+clay_i10 (batch 3, MODE clay, deeper paging) - 28 Nov 2026
+Industries: Food and Beverage Manufacturing; Food and Beverage Services; Beverage Manufacturing; Dairy Product Manufacturing.
+Filter on every query: company_type in ("Privately Held","Partnership","Self Owned"). Search only; no enrichment, no rendering, no WebSearch.
+Page caps (industry line): P1=2, P2=2, P3=1. 19 Clay pages read in total (two groups ran out before the cap).
+
+Query | pages read | rows saved | where it stopped
+Food and Beverage Manufacturing | 1B-10B,10B-100B,100B-1T  | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Food and Beverage Manufacturing | 500M-1B                  | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Food and Beverage Manufacturing | 200M-500M                | 1 | 20 | cap reached, hasMore=TRUE (unfinished)
+Food and Beverage Services | 1B-10B,10B-100B,100B-1T       | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Food and Beverage Services | 500M-1B                       | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Food and Beverage Services | 200M-500M                     | 1 | 20 | cap reached, hasMore=TRUE (unfinished)
+Beverage Manufacturing | 1B-10B,10B-100B,100B-1T           | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Beverage Manufacturing | 500M-1B                           | 2 | 31 | COMPLETE, hasMore=false on page 2 (11 rows)
+Beverage Manufacturing | 200M-500M                         | 1 | 20 | cap reached, hasMore=TRUE (unfinished)
+Dairy Product Manufacturing | 1B-10B,10B-100B,100B-1T      | 1 | 16 | COMPLETE, hasMore=false on page 1
+Dairy Product Manufacturing | 500M-1B                      | 2 | 24 | COMPLETE, hasMore=false on page 2 (4 rows)
+Dairy Product Manufacturing | 200M-500M                    | 1 | 20 | cap reached, hasMore=TRUE (unfinished)
+
+Total rows: 351 (no duplicate names within the file). All four industries reached. No industry enum value was rejected.
+Unfinished queries (more pages exist): 9 of 12, listed above. Clay taskIds do not carry over; a later run must start a fresh search
+or split by region/country.
+
+disc_check.py result: NEW 191, IN MASTER 101, ALREADY DELIVERED 11, F1 PARTNER 6, POSSIBLE 33, LISTED 9.
+F1 PARTNER rows: Barilla Group, Red Bull, Moet Hennessy, Moet & Chandon, RAUCH Fruchtsaefte, Glenfiddich.
+
+Row notes:
+- desc is the opening of Clay's description (shortened in places) plus any owner/parent/listing sentence; nothing added from memory.
+- Two names contained "|" in Clay and were saved with "/" instead: "National Food Products Company / NFPC Group",
+  "VP Brands International / Private Labels".
+- Rows with no domain in Clay: Quala, Young's Market Company (website field youngsmarket.com noted in desc), Constellation Brands
+  (orphan LinkedIn page "vincor-canada"), Capital Wine & Spirits, Companhia Fluminense de Refrigerantes, Pernod Ricard India,
+  Lactalis Polska, Lactalis India, Lakshyafoodindia, National Dairy Holdings.
+- employee_count 0 where Clay gave none: 123g, Debic UK, Sluck Cheese-Making Plant.
+
+Observations (from Clay rows only, not verified):
+- Clay revenue brackets are unreliable in this sector: Mars, Fonterra, Grupo Bimbo, Amul, Bacardi and Ambev sit in brackets far
+  below their real size, and many tiny pages sit in 1B-10B (Glenfiddich 28 staff, Vignovin 3, Les Grands Chais de France NL 1).
+- Many rows are national units or divisions of large groups and should mostly drop under the national-entity rule: Lactalis
+  (Brasil, Canada, Parmalat Canada, Galbani, USA, Deutschland, Polska, Australia, South Africa, India, Ingredients, Castelli),
+  Grupo Bimbo (USA, Brasil, Canada, Ideal Chile), Nutresa units (Noel, Compania Nacional de Chocolates), Arcor do Brasil,
+  Coca-Cola bottler country units (CCBSA, ECCBC Morocco and Algeria, Coca-Cola Andina Brasil, Arca Continental Ecuador),
+  Gordon Food Service Canada, Compass Group Spain, Flik, Danone Morocco (Centrale Danone), Ajinomoto Indonesia, Orkla India,
+  Pernod Ricard units (India, Irish Distillers, Martell Mumm Perrier-Jouet), LVMH houses (Hennessy, Veuve Clicquot, Moet & Chandon),
+  Diageo Africa, AB InBev units (SAB, Bavaria, Quilmes, ZX Ventures), Heineken Mexico, Suntory units (Beam Suntory, Suntory Global
+  Spirits), Asahi Europe & International, FrieslandCampina Ingredients and Institute, Arla Foods Ingredients, Anchor Food
+  Professionals (Fonterra), Monkey Shoulder and Glenfiddich (William Grant), MEVGAL USA.
+- Rows whose descriptions say listed: Danone (Euronext), SAVENCIA (Euronext), Premier FMCG (JSE), Grupo Bimbo (BMV), CCU (Santiago
+  and NYSE), Orkla India (BSE/NSE), Betagro (Public Company Limited), Ismail Industries (Public Limited Company), Dodla Dairy
+  (public limited company).
+- Not real companies or bad data: 123g (description only dots), coffe shope (generic text, medicalnewstoday.com domain),
+  Vignovin (portal), Nation's Restaurant News and Supermarket News (trade media), Constellation Brands orphan page.

@@ -1,0 +1,56 @@
+t53_sport_sponsors_c - batch 3 sector research: third pass on unlisted companies that already pay for sport
+Date: 28 Nov 2026. Stream: independent web research. WebSearch used: 1 of 1 (NHL jersey patch sponsors). Everything else by WebFetch
+or Wikipedia raw text (en, es, pt, fr, de, it, nl, ja, ko, cs, tr) opened this session. Wikipedia rate-limited (HTTP 429) at times.
+
+COUNTS
+- MAIN 28 (Route A 13, Route B 2, Route C 13). WATCH 5. DUPS 100 lines. DISC 161 lines (NEW 109, IN MASTER 27, POSSIBLE 10,
+  LISTED 7, ALREADY DELIVERED 5, F1 PARTNER 3; stage: researched 21, left out 78, not researched 62).
+- Target of 45 MAIN/WATCH NOT reached (33). Main reason: most mid-sized sponsors have no Wikipedia article and their own sites
+  return 403/404 or JS shells; the large US private sponsors are almost all already IN MASTER or delivered.
+- signals_checked: yes 24, no 9. All lines parse as JSON; no company twice across MAIN/WATCH.
+
+SOURCES (names given)
+- en.wikipedia List of NBA jersey sponsors: 27 teams, ~20 sponsor names
+- WebSearch result -> blinkfire 2025-26 NHL jersey and helmet sponsors (32 teams, ~70 names); zoomph NHL patch guide (32 teams)
+- en.wikipedia List of NHL arenas / MLS stadiums (+ known NFL/NBA venue names checked): ~60 venue names checked with check.py
+- pt.wikipedia Stock Car Pro Series 2026: 10 team/series sponsors
+- en.wikipedia team pages of all 10 IPL franchises (kit-sponsor tables): ~35 sponsors
+- en.wikipedia 2026 WRC (rally title sponsors: FORUM8, Secto, Delfi, EKO, Bio Bío), Halle Open, Eastbourne International,
+  Madrid Open, cs.wikipedia Livesport, 2027 America's Cup (team backers), 2026 SailGP (no sponsor data)
+- t51/t52 DISC names researched from their "not researched" lists (Liga MX, Brasileirão, Bundesliga, Serie A, Ligue 1, Eredivisie,
+  Primeira Liga, J1, K League, golf, Pramac/IndyCar/Super Formula)
+Opened with no usable sponsor data: 2026 IPL season page (league sponsors only), 2026 PSL, 2026 SA20, 2025-26 BBL, Top 14,
+Premiership Rugby, URC, Super Rugby, 2026 F3 and TCR entry lists (team names only), Super Taikyu (team names only),
+2026 Argentine Primera (no kit table), 2025 MLB season (no patch list). sailgp.com/partners empty; seven.sa 403; sanabil.com,
+neoleap.com.sa, gathern.co gave nothing; vodafoneziggo.nl and cirfood.com 403; prominent.com press 404; brandt.ca 404;
+ironbow.com, koorsen.com, wng.com gave no ownership or size data.
+
+STRONGEST F1 FITS IN MAIN: Rothesay (GIC/MassMutual-owned, GBP 70.7bn AUM, ex-Eastbourne title sponsor), Wortmann AG (Terra PCs,
+EUR 974m revenue, Halle ATP title), Livesport/Flashscore (100m monthly users), Grupo Puntacana (owns Punta Cana airport, PGA Tour
+event), Cimed (profitable Brazilian OTC pharma, Brazil national-team sponsor), ProMinent, Amalie Oil (motor-oil blender, NHRA,
+ex-Amalie Arena), Realize Corporation (truck funds, Super Formula team title), Asaas, Paze.
+Weak fits recorded honestly (Route met, fit low): GEHA, Moda Health, Northwest Federal CU, America First CU, CommonSpirit,
+DSW, iM Bank, Luz Saúde, Calimax, Luminous (parent Schneider is a McLaren partner).
+
+CAVEATS
+- Old or undated figures: Moda Health (2013), Biltmore (2016), CIRFOOD (2021), iM Bank (2015), Teral (year unclear),
+  Sill (two conflicting figures, year unclear). Livesport revenue CZK 2.67bn not converted (no fixed CZK rate).
+- EverBank agreed (Sept 2026) to merge with listed WaFd; close expected 2027. Paze is a product brand of bank-owned EWS.
+- Several sponsorships come from t51/t52 DISC and were not re-opened; where so, the record says it (Calimax's was removed).
+- Wortmann AG (IT, Hüllhorst) is NOT Wortmann Schuh-Holding (Tamaris), which was read but not written.
+- WATCH: Footprint (SPAC listing status unclear), FORUM8 (USD 38m revenue), Shyam Steel (listing not confirmed; not Shyam
+  Metalics), Grupo Akron (owner unknown), Xtrac (owner unknown; may supply F1 teams).
+- Zep was researched then removed because it is in queue input q33; other names skipped because another b03 file or queue holds
+  them are listed in DUPS.
+
+NOT DONE / FOR A LATER RUN
+- Saudi sponsors (SEVEN, Sanabil, SURJ, Tameeni, Gathern, Neoleap, Yelo, Aloula): no Wikipedia articles, sites blocked.
+- Argentine Primera sponsors, rugby shirt sponsors, PSL/SA20/BBL team sponsors, SailGP team partners, NFL/MLB patch sponsors,
+  Asian/Latin American national motorsport sponsor lists: sources found had no sponsor tables.
+- NEW but not researched (DISC): Iron Bow, Western National Group, Koorsen, Stark Tech, CarShield, SME Steel, Filevine, Brandt
+  (Canada), Lower.com, Desert Financial CU, Grand Casino (Mille Lacs), Secto Automotive, Happilo, Avon Cycles, Wrogn, SIX5SIX,
+  T10 Sports, CP Plus, WinZO (Indian real-money gaming compliance), Valda, Suzette (Henri Charpentier), Taica, Mexican Liga MX
+  mid-caps (Urrea, Roshfrans, Raloy, Berel, Sayer Lack, Leche León, Paquetexpress, Dportenis), Turkish names (Anex Tour,
+  Otokoç, Güral, Safiport, Nesine), Brazilian names (Ademicon, Assist Card, Vilma, Frescatto, Multimarcas), Quéguiner, Jean
+  Floc'h, Prijsvrij (WATCH-level: EUR 200m 2019 revenue, 50% DER Touristik, pricing complaints), DASSY, Acqua Lete, Canel's (q39).
+Nothing here is exhaustive.
