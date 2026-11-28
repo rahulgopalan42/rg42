@@ -32,3 +32,24 @@ your WebSearch limit. Then read the brief for your MODE and follow it, reading "
 8. Write only your own files. Do not run git. Do not edit scripts, briefs or other researchers' files. Append to your files as you go
    so nothing is lost if you are stopped. At the end check that every line of your files parses as JSON.
 9. Final report: under 100 words: counts (MAIN, WATCH, DISC, DUPS) and the main gaps. The detail belongs in NOTES.
+
+## Added on 28 Nov after the user's review of batch 2 (read this too)
+
+10. In batch 2 only 63 of 1,581 companies reached High or Medium priority, mostly because three things were never looked at:
+    buying signals (77% of records had none recorded), profitability (88% "unknown") and who runs marketing. For EVERY company
+    you write to MAIN, spend one extra fetch on its newsroom / press / news page (or the "History" and recent-events part of its
+    Wikipedia article) and record what that page shows:
+    - `signals`: dated events since December 2024 with the page URL (funding, acquisition, new owner, IPO plans, new country, plant
+      or office, new CMO or senior marketing hire, rebrand, big campaign, new sponsorship, major customer win, product launch);
+    - `sponsorships`: any sports or event sponsorship it pays for, with the rights holder and the page;
+    - `profitability` ("profitable" / "loss-making") with `profitability_basis`, only when a page states profit, EBITDA or a loss;
+    - `access`: `owner_led`, `structure`, and `marketing_head_identified` = "yes" when a page names a CMO / head of marketing / brand
+      (put the job title in `roles`, never a personal contact detail);
+    - `customer_overlap`: Formula 1 teams, partners or suppliers named as its customers or partners on a page you opened.
+    Then add `"signals_checked": "yes"` to the record. If you could not open such a page, write `"signals_checked": "no"`.
+    Rate `fit` on what the company is and sells, not on how much press it has: a large, well-capitalised company with real business
+    reasons to be in Formula 1 must not be rated low only because little is published about it. Do not inflate either.
+11. Value chain: in every subsector look beyond the brand owners to their manufacturers, technology providers, suppliers,
+    distributors and importers, infrastructure providers and service businesses.
+12. Regions that earlier batches under-covered: Japan, China, South Korea, India, South-East Asia, the Middle East, Turkey, Africa and
+    Latin America. If your scope includes them, give them real time and use local-language sources and country-specific directories.

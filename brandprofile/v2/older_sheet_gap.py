@@ -12,20 +12,7 @@ import gzip, json
 from openpyxl.styles import PatternFill
 import build as B, check as C, public_format as P, templates as TP
 GREEN = PatternFill('solid', start_color='FF92D050', end_color='FF92D050'); TABGREEN = 'FF00B050'; TCOL = 'Template Already Built? (Your Trackers)'
-# the user's own marks on the older sheet: x = a template is wanted; blank on a tab that has x marks = a colleague already works the account
-# (it is on Salesforce); a tab with no marks at all = the user has not gone through that tab yet (user's explanation, 28 Nov 2026)
-SHEET = json.load(gzip.open(os.path.join(H, '..', 'data', 'brands.json.gz'), 'rt', encoding='utf-8'))
-MARKED_TABS = {d['tab'] for d in SHEET if d.get('mark')}; OCC = defaultdict(list)
-for d in SHEET:
-    for nm in {str(d.get('brand') or '').strip().lower(), str(d.get('orig_brand') or '').strip().lower()} - {''}: OCC[nm].append((d['tab'], bool(d.get('mark'))))
-def sheet_tabs(names, tab):
-    occ = [o for n in names for o in OCC.get(str(n or '').strip().lower(), [])]
-    return '; '.join(sorted({t for t, m in occ})) or str(tab or '')
-def marking(names, tab):
-    occ = [o for n in names for o in OCC.get(str(n or '').strip().lower(), [])] or [(tab, False)]
-    if any(m for t, m in occ): return 'x: template wanted'
-    if any(t in MARKED_TABS for t, m in occ): return 'Blank on a tab you have marked: with a colleague on Salesforce'
-    return 'Tab not gone through yet: no marks on it'
+from older import MARKED_TABS, marking, sheet_tabs          # the user's marks and how to read them: older.py
 src, out = sys.argv[1], sys.argv[2]
 ws = load_workbook(src, read_only=True)['Prospects - All Sectors']; rows = ws.iter_rows(values_only=True); h = list(next(rows))
 COLS = h[:22] + ['Tab in Your Older Sheet', 'Your Marking on the Older Sheet', TCOL]; xi = h.index('Marked "x" in Your Sheet'); ti = h.index('Tab in Your Sheet'); ni = h.index('Company Name'); bi = h.index('Brand Name in Your Sheet')
@@ -34,7 +21,7 @@ for r in rows:
     if not r[ni]: continue
     nm = str(r[ni]).strip()
     if nm.lower() in seen: continue
-    seen.add(nm.lower()); s, disp, sr, hits = C.lookup(nm)
+    seen.add(nm.lower()); s, disp, sr, hits = C.lookup(nm, batch='older')
     k = 'delivered in batch 1 or 2' if s == 'dup' and sr.startswith('delivered') else {'dup': 'on the master', 'f1': 'current F1 partner'}.get(s, 'not on the master')
     st[k] += 1
     if k != 'not on the master': continue

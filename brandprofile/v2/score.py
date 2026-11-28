@@ -144,9 +144,13 @@ def intent_score(d):
     return round(min(25, total), 1), len(conf), sorted(seen), inferred
 def access_score(d):
     a = d.get('access') or {}; own = str(a.get('owner_led') or '').lower(); st = str(a.get('structure') or '').lower(); aut = str(d.get('marketing_autonomy') or '').lower()
-    s = {'yes': 4, 'unknown': 2, '': 2}.get(own, 1) + {'lean': 3, 'mid': 2}.get(st, 0) + (1 if str(a.get('marketing_head_identified') or '').lower() == 'yes' else 0) + {'yes': 2, 'unknown': 1, '': 1}.get(aut, 0)
+    checked = str(d.get('signals_checked') or '').lower() == 'yes'
+    mh = str(a.get('marketing_head_identified') or '').lower()
+    # 28 Nov 2026: something nobody looked at scores the neutral midpoint, not the minimum (missing information is not negative evidence)
+    s = {'yes': 4, 'unknown': 2, '': 2}.get(own, 1) + {'lean': 3, 'mid': 2, 'complex': 0}.get(st, 1.5) + (1 if mh == 'yes' else 0 if checked else 0.5) + {'yes': 2, 'unknown': 1, '': 1}.get(aut, 0)
     if st == 'complex' or state_owned(d): s = min(s, 6)
     return min(10, s)
+NEUTRAL_INTENT = None
 def assess(d):
     M = metrics(d); typ = ctype(d); rt, why = route(d, M); conf, conf_why = confidence(d, M, rt, why); t, t_why = tier(d, M, typ)
     distress = bool(str(d.get('distress') or '').strip()); prof = str(d.get('profitability') or '').lower()
@@ -156,13 +160,21 @@ def assess(d):
     recent_raise = any(isinstance(s, dict) and str(s.get('category') or '').lower() == 'capital' and str(s.get('status') or '').lower() == 'confirmed' and (months_ago(s.get('date')) or 99) <= 24
                        and re.search(r'(?i)raised|round|series|investment|invest|growth capital|stake', str(s.get('what') or '')) for s in (d.get('signals') or []))
     owner_backed = backing(d) or bool(str(d.get('pe_swf_owner') or '').strip())
-    strength = max(0, min(8, (4 if prof.startswith('profit') else 0 if prof.startswith('loss') else 1) + (2 if owner_backed else 0) + (2 if recent_raise else 0) - (4 if distress else 0)))
+    strength = max(0, min(8, (4 if prof.startswith('profit') else 0 if prof.startswith('loss') else 2) + (2 if owner_backed else 0) + (2 if recent_raise else 0) - (4 if distress else 0)))   # unknown profitability = the midpoint (was 1 until 28 Nov 2026)
     mk = 4 if top_sponsor(d) else 3 if 'marketing_spend' in M else 2 if has_sponsor(d) else 0
     fin = afford + rel + strength + mk
     fit = fit_score(d); intent, nsig, cats, ninf = intent_score(d); acc = access_score(d)
+    # Buying intent nobody researched: use the average intent found among the companies whose news pages WERE read (NEUTRAL_INTENT, set by
+    # build.load from the data), never zero. A placeholder cannot make a company High: High needs at least one confirmed, dated signal.
+    placeholder = False
+    if NEUTRAL_INTENT is not None and str(d.get('signals_checked') or '').lower() != 'yes' and intent < NEUTRAL_INTENT: intent = NEUTRAL_INTENT; placeholder = True
     total = round(fin + fit + intent + acc, 1)
     pr = 'High' if total >= 75 else 'Medium' if total >= 55 else 'Watchlist' if total >= 35 else 'Low'
     flags = []
+    if placeholder:
+        flags.append(f'Buying signals not researched for this company yet: its intent score is the average found for researched companies ({NEUTRAL_INTENT:g} of 25), not evidence about this company')
+        if pr == 'High': pr = 'Medium'
+    elif pr == 'High' and nsig == 0: pr = 'Medium'; flags.append('Held at Medium: no confirmed, dated buying signal yet')
     conflict = str(d.get('category_conflict') or '')
     if conflict.lower().startswith('established'): flags.append('Established category conflict: ' + conflict.split(':', 1)[-1].strip()); pr = min(pr, 'Watchlist', key=['High', 'Medium', 'Watchlist', 'Low'].index) if pr in ('High', 'Medium') else pr
     elif conflict.lower().startswith('potential'): flags.append('Possible category conflict to verify: ' + conflict.split(':', 1)[-1].strip())
@@ -176,7 +188,7 @@ def assess(d):
     if agent_rt in ('A', 'B', 'C') and rt != 'none' and agent_rt != rt: flags.append(f'The research filed it under Route {agent_rt}; the figures support Route {rt}')
     return {'M': M, 'type': typ, 'route': rt, 'route_why': why, 'conf': conf, 'conf_why': conf_why, 'tier': t, 'tier_txt': TIER_TXT[t], 'tier_why': t_why,
             'fin': fin, 'fin_parts': {'affordability': afford, 'reliability': rel, 'strength': strength, 'marketing': mk}, 'fit': fit, 'intent': intent, 'access': acc,
-            'total': total, 'priority': pr, 'signals_confirmed': nsig, 'signal_cats': cats, 'signals_inferred': ninf, 'flags': flags}
+            'total': total, 'priority': pr, 'intent_placeholder': placeholder, 'signals_confirmed': nsig, 'signal_cats': cats, 'signals_inferred': ninf, 'flags': flags}
 RUBRIC = [
  ('Financial capacity (35 points)', ''),
  ('Affordability, 14', 'From the investment tier: Tier 1 or 2 = 14, Tier 3 = 13, Tier 4 = 9, Tier 5 = 3, unverified = 5. Tiers 1 to 3 score almost the same on purpose: once a company can afford the opportunity, being bigger does not make it a better prospect.'),

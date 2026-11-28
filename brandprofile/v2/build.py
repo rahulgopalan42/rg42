@@ -28,7 +28,41 @@ CLUSTER = {'d01_asset_wealth': 'asset management, wealth management and private 
            's16_tech_telecom': 'telecommunications, electronics and IT services, in depth', 's17_industrial': 'industrial, chemicals, building products and packaging, in depth', 's18_luxury_fashion': 'luxury, watches, jewellery, fashion and footwear, in depth', 's19_energy_logistics': 'energy, utilities, logistics, shipping and aerospace, in depth',
            'q01_assess': 'follow-up research on names from the discovery register (part 1)', 'q02_assess': 'follow-up research on names from the discovery register (part 2)', 'q03_assess': 'follow-up research on names from the discovery register (part 3)', 'q04_assess': 'follow-up research on names from the discovery register (part 4)', 'q05_assess': 'follow-up research on names from the discovery register (part 5)', 'q06_assess': 'follow-up research on names from the discovery register (part 6)', 'q07_assess': 'follow-up research on names from the discovery register (part 7)', 'q08_assess': 'follow-up research on names from the discovery register (part 8)', 'q09_assess': 'follow-up research on names from the discovery register (part 9)', 'q10_assess': 'follow-up research on names from the discovery register (part 10)', 'q11_assess': 'follow-up research on names from the discovery register (part 11)', 'q12_assess': 'follow-up research on names from the discovery register (part 12)', 'q13_assess': 'follow-up research on names from the discovery register (part 13)', 'q14_assess': 'follow-up research on names from the discovery register (part 14)', 'q15_assess': 'follow-up research on names from the discovery register (part 15)', 'q16_assess': 'follow-up research on names from the discovery register (part 16)', 'q17_assess': 'follow-up research on names from the discovery register (part 17)', 'q18_assess': 'follow-up research on names from the discovery register (part 18)', 'q19_assess': 'follow-up research on names from the discovery register (part 19)', 'q20_assess': 'follow-up research on names from the discovery register (part 20)', 'q21_assess': 'follow-up research on names from the discovery register (part 21)', 'q22_assess': 'follow-up research on names from the discovery register (part 22)', 'q23_assess': 'follow-up research on names from the discovery register (part 23)', 'q24_assess': 'follow-up research on names from the discovery register (part 24)', 'q25_assess': 'follow-up research on names from the discovery register (part 25)', 'q26_assess': 'follow-up research on names from the discovery register (part 26)', 'q27_assess': 'follow-up research on names from the discovery register (part 27)', 'q28_assess': 'follow-up research on names from the discovery register (part 28)', 'q29_assess': 'follow-up research on names from the discovery register (part 29)', 'q30_assess': 'follow-up research on names from the discovery register (part 30)',
            'v01_clay': 'Clay leads verified on the web (part 1)', 'v02_clay': 'Clay leads verified on the web (part 2)', 'v03_clay': 'Clay leads verified on the web (part 3)'}
+for _i in range(1, 100):                                    # batch 3 keys (see batches/b03/tasks.md)
+    CLUSTER.setdefault(f'r{_i:02d}_queue', f'batch 3 research of names on the discovery register (file {_i})')
+    CLUSTER.setdefault(f'f{_i:02d}_queue', f'batch 3 follow-up research of newly discovered names (file {_i})')
+_B3 = {'t': 'batch 3 sector research: ', 'u': 'batch 3 subsidiaries and portfolio companies: ', 'k': 'batch 3 country research: ', 'x': 'batch 3 cross-check against an unused ranking: '}
+def cluster_label(k):
+    if k in CLUSTER: return CLUSTER[k]
+    m = re.match(r'^([tukx])\d\d_(.+)$', k)
+    return (_B3[m.group(1)] + m.group(2).replace('_', ' ')) if m else k
+class _Labels(dict):
+    def get(self, k, default=None): return cluster_label(k) if isinstance(k, str) else default
+CLUSTER = _Labels(CLUSTER)
 FILE_OK = re.compile(r'^(watch_|dups_)?[a-z]\d\d_[a-z0-9_]+$')
+def apply_patch(d, p):
+    """a later look at a company (buying signals, profitability, who runs marketing) merged into its record; see brief_signals.md"""
+    for f in ('signals', 'sponsorships'):
+        have = {json.dumps(x, sort_keys=True) for x in (d.get(f) or []) if isinstance(x, dict)}
+        d[f] = list(d.get(f) or []) + [x for x in (p.get(f) or []) if isinstance(x, dict) and json.dumps(x, sort_keys=True) not in have]
+    if clean(p.get('profitability')).lower() in ('profitable', 'loss-making'): d['profitability'] = clean(p['profitability']).lower(); d['profitability_basis'] = clean(p.get('profitability_basis'))
+    if isinstance(p.get('access'), dict): d['access'] = {**(d.get('access') or {}), **{k: v for k, v in p['access'].items() if clean(v) and clean(v).lower() != 'unknown'}}
+    for f in ('customer_overlap', 'distress', 'expansion_markets'):
+        if clean(p.get(f)): d[f] = clean(p[f])
+    if clean(p.get('marketing_autonomy')).lower() in ('yes', 'no'): d['marketing_autonomy'] = clean(p['marketing_autonomy']).lower()
+    if isinstance(p.get('fit'), dict) and isinstance(d.get('fit'), dict):          # only the two ratings that need page evidence can be raised by a later look
+        for k in ('ecosystem', 'technical'):
+            try: d['fit'][k] = max(float(d['fit'].get(k) or 0), min(3.0, float(p['fit'].get(k) or 0)))
+            except Exception: pass
+    if clean(p.get('signals_checked')).lower() == 'yes': d['signals_checked'] = 'yes'
+    if clean(p.get('f1_deal')): d['f1_deal'] = clean(p['f1_deal'])
+    have = set(d.get('sources') or []); d['sources'] = list(d.get('sources') or []) + [u for u in (p.get('sources') or []) if isinstance(u, str) and u not in have]
+def patches():
+    P = {}
+    for p in sorted(glob.glob(os.path.join(H, 'batches', '*', 'sig_*.jsonl'))):
+        for x in read_jsonl(p):
+            if clean(x.get('name')): P.setdefault(norm(clean(x['name'])), []).append(x)
+    return P
 def via(d):
     v = clean(d.get('discovered_via')).lower()
     return 'Clay' if 'clay' in v and 'web' not in v and 'multiple' not in v else 'Crunchbase' if 'crunchbase' in v and 'multiple' not in v else 'Multiple sources' if 'multiple' in v or ('clay' in v and 'web' in v) else 'Independent web research'
@@ -62,6 +96,12 @@ def read_jsonl(p):
         except Exception: continue
         if isinstance(d, dict): out.append(d)
     return out
+def neutral_intent(recs, extra=()):
+    """the average intent score among companies whose news pages were read (signals_checked = yes): the placeholder for the rest"""
+    S.NEUTRAL_INTENT = None
+    got = [S.intent_score(d)[0] for d in list(recs) + list(extra) if clean(d.get('signals_checked')).lower() == 'yes']
+    S.NEUTRAL_INTENT = round(sum(got) / len(got), 1) if len(got) >= 100 else None
+    return S.NEUTRAL_INTENT, len(got)
 def load(only=None):
     """only: read one batch folder (for example 'b02'); None reads every batch"""
     recs = []; dups = []; notes = {}; log = []; disc = []; clay = []
@@ -82,7 +122,9 @@ def load(only=None):
             for d in read_jsonl(p):
                 if clean(d.get('name')): d['_cluster'] = key; d['_batch'] = batch; d['_watchfile'] = watch; recs.append(d)
         for p in sorted(glob.glob(os.path.join(bd, 'notes_*.txt'))): notes[os.path.basename(p)[6:-4]] = open(p, encoding='utf-8', errors='replace').read()
-    raw = len(recs)
+    raw = len(recs); PT = patches()
+    for d in recs:
+        for x in PT.get(norm(clean(d['name'])), []): apply_patch(d, x)
     # eligibility and the duplicate check, run again on every line whatever the research did
     keep = []; excluded = []; manual = {}
     for bd in glob.glob(os.path.join(H, 'batches', '*')):                       # duplicates found by the second pass (fuzzy.py) and confirmed by hand
@@ -95,6 +137,7 @@ def load(only=None):
         nm = clean(d['name']); st, disp, src, hits = C.lookup(nm + (' | ' + clean(d.get('website')) if clean(d.get('website')) else ''), batch=d['_batch'])
         if st in ('dup', 'f1'): excluded.append((nm, ('Already delivered: ' if src.startswith('delivered') else 'Already on the master: ' if st == 'dup' else 'Holds a current F1 deal: ') + src, d['_cluster'])); continue
         if RUSSIA.search(clean(d.get('hq_country'))): excluded.append((nm, 'Russian company (geographic exclusion)', d['_cluster'])); continue
+        if clean(d.get('f1_deal')): excluded.append((nm, 'Holds a current F1 deal (found when its news was read): ' + clean(d['f1_deal']), d['_cluster'])); continue
         own = clean(d.get('ownership_type')).lower()
         if st == 'listed' and 'subsidiary' not in own and not re.search(r'(?i)\b(private|unlisted|not listed|family|founder|partnership|state|mutual|co-op)', own + ' ' + clean(d.get('outstanding'))):
             excluded.append((nm, 'Name matches a listed company and the line does not show it is unlisted: ' + disp, d['_cluster'])); continue
@@ -134,7 +177,9 @@ def load(only=None):
         d['_discovery_only'] = (not sr) or sr <= listpages
         sec = SECKEY.get(norm(clean(d.get('sector'))))
         if not sec: sec = 'Diversified & Other'; d['_sector_note'] = clean(d.get('sector'))
-        d['sector'] = sec; d['A'] = S.assess(d); d['_via'] = via(d); out.append(d)
+        d['sector'] = sec; d['_via'] = via(d); out.append(d)
+    neutral_intent(out)
+    for d in out: d['A'] = S.assess(d)
     if only != 'b01':
         for p in sorted(glob.glob(os.path.join(H, 'discovery', 'clay', '*.jsonl'))):
             for d in read_jsonl(p):
