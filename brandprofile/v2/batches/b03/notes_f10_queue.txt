@@ -1,0 +1,27 @@
+f10_queue (batch 3, queue mode), 28 Nov 2026. INPUT in_f10.jsonl: 80 lines, all processed. WebSearch: 0 used. Crunchbase: allowance exhausted (resets 1 Dec 2026), not used.
+
+check.py: every name run with and without website, without legal suffix and in English/alias form (list in scratch_f10/names.txt).
+
+RESEARCHED
+MAIN (32): Troy Kıymetli Maden; Özbağ Kuyumculuk; Borçelik; Aksa Elektrik Perakende; Kastamonu Entegre; Terres du Sud; UCL Isigny Sainte-Mère; Vivadour; Bouyer Leroux; UP (Upcoop); Dijon Céréales; L'Ermitage; Arc3 Gases; Endries International; IEWC; Motion & Control Enterprises; BlackHawk Industrial; Inline Electric Supply; RESCO; Portakabin; Ring Power; Welo Global; Gecko Robotics; Bitron; Boyd; Brandt Group; Brightstar (now Likewize); Shanghai Juneyao Group; Gaussian Robot (Gausium); Xpanceo; Jaguar Microsystems; Spirit AI.
+  Most relevant for F1: Juneyao Group (Shanghai; airline + consumer brands; note four listed subsidiaries), Gecko Robotics, Bitron, Gausium, Brandt, Upcoop, Portakabin, Welo Global.
+  Weak fits kept because a route is met: Troy (bullion trader, 24 staff), Özbağ, French farm co-ops, RESCO, Inline.
+WATCH (5): Bow Capital; Brookwood Financial Partners; B.Laban (140+ branches, one indicator only); BinGo Delivery; Boulangerie Ange.
+
+LEFT OUT (DUPS, 28)
+  In master: COAMO and Coamo Agroindustrial (Coamo Agroindustrial Cooperativa); Zhiyuan Robot (AgiBot); Aurora Alimentos (Aurora Coop); Assan Alüminyum; Bosch Rexroth USA; Bosch Power Tools.
+  Listed: Birkenstock (NYSE), TIM (B3), Porto Seguro (B3), Natura (B3), Fuyao Glass (SSE), Mills (B3), GAM Alquiler (BME).
+  Not a separate company: Banco XP (XP Inc), Mosaic Fertilizantes, Xylem/Godwin rental, AMN Language Services, BMI UK & Ireland, Brother USA, Brookfield Properties.
+  Not a commercial prospect: Et ve Süt Kurumu (ministry body), Broker Suggest, BRINT.com, "Breaking Bad", Bledsoe (Clay junk rows).
+  Same company twice: Borçelik (ISO 500 line merged into the Fortune 500 record).
+  Compliance: New H3C (zh.wikipedia tags it as sanctioned by the US government; provisional, check it).
+
+NOT RESEARCHED (15). No page about the company could be opened: Chinese sites returned 503 or did not resolve, Baidu Baike renders empty, and the ACFIC 2026 list is an image.
+  Lanrun Group (Sichuan; the Sina list confirms rank 135, CNY 785.57亿), Hengxin Automobile Group (Hubei, rank 136 on the same Sina list), Chengli Automobile Group, Tangshan Ganglu Iron and Steel, Aode Group, Shandong Innovation Metal Technology (it may belong to the listed Innovation New Material, SHA:600361, so check), Haiwaihai Group, Yuanda Wuchan Group, Zhongxin Steel Group, Henan Jinli Gold and Lead, Qingdao Century Rifeng Group;
+  Giga AI and TJ Robotics (Dealroom gives only a valuation and city; no company page found);
+  Blue Box Partners (packaging4europe.com returned no content); Brandon Company (domain does not resolve).
+
+NEW CANDIDATES SEEN (not in input, not researched): Acome (French cable-maker SCOP, EUR 575m revenue in 2022, rank 57 in the Top 100 entreprises coopératives 2024; check.py NEW); BMI Group (check.py NEW); Yesway (convenience stores, held by Brookwood).
+
+FLAGS: Kastamonu Entegre has plants in Russia, and its listing status is unconfirmed. Borçelik's shareholder Borusan Holding is on the master (Left Out tab). The Endries ownership sources conflict (PE-backed vs family-controlled). Boyd qualifies only through the USD 9.5bn sale of its thermal unit to Eaton. The Spirit AI identity match is uncertain.
+Sources used: Fortune 500 Türkiye, ISO 500, Top 100 entreprises coopératives 2024 PDF, IRN100 2024 PDF, Anglera top distributors 2026 and playbooks, Nimdzi 100 2026, Dealroom robotics unicorns, company sites, stockanalysis.com for listings.

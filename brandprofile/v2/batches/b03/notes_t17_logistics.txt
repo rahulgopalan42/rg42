@@ -1,0 +1,67 @@
+NOTES t17_logistics (batch 3, sector mode, 28 Nov 2026)
+Scope: freight forwarding, contract logistics, parcel/courier, trucking, rail freight, ports/terminals, container lines, ferries,
+cruise suppliers, shipbuilders, ship managers. Discovery stream: independent web research only (no Clay/Crunchbase in this run).
+WebSearch used: 0 of 1. All facts from pages opened in this session (company sites, Transport Topics, one Wikipedia list, Wikipedia
+articles for Evri and Boskalis ownership, Ulstein 2025 annual report PDF).
+
+RESULT COUNTS
+MAIN 26 (Route A 13, Route C 13). WATCH 19. DISC 484 lines. DUPS 164.
+DISC by check: NEW 312, LISTED 60, IN MASTER 48, ALREADY DELIVERED 43, POSSIBLE 18, F1 PARTNER 3.
+DISC by stage: researched 60 (incl. MAIN/WATCH and partly researched names not written), not researched 260, left out 164.
+signals_checked = yes for 21 of 26 MAIN records (no for Genesee & Wyoming, UniGroup, Africa Global Logistics, Asyad Group, Sagawa Express:
+news pages empty, not loaded or not found).
+
+MAIN (26): Crowley; Genesee & Wyoming; Port of Rotterdam Authority; Evri; Yurtiçi Kargo; Prime Inc.; CRST; UniGroup; Atlas World Group;
+PS Logistics; Den Hartogh; Asyad Group; Africa Global Logistics; Incat Tasmania; Ulstein Group; MOSOLF Group; Boskalis; Boluda Towage;
+Schnellecke Logistics; Lion Parcel; Spliethoff Group; A. Duie Pyle; Bison Transport; Sagawa Express; Royal Wagenborg; Saigon Newport Corporation.
+Strongest F1 fit: Boskalis (EUR 4.5bn revenue, Gulf/Asia project markets), MOSOLF and Schnellecke (automotive OEM logistics; Schnellecke
+won the Volkswagen Logistics Award 2026), Den Hartogh (27 countries incl. Japan JV, Gulf), Asyad (Oman state logistics champion).
+
+WATCH rule used consistently: if a Route was evidenced but the owner was NOT stated on any page opened, the record went to WATCH with the
+indicators recorded and "move to MAIN once owner confirmed" in outstanding: Ports America, SSA Marine/Carrix, OnTrac, Evans Network,
+Lynden, Primafrio (3,200 trucks, 6,000 staff, 30 countries, pays for motorcycle-racing sponsorship: best WATCH prospect), Neptune Lines,
+Ewals Cargo Care, Grupo Castores, Contargo, GHN, DTDC. No route shown: EUROGATE, HOYER, Koopman, UECC, Rock-It Cargo, KOTUG, Peter Döhle.
+
+Flags for the user:
+- Evri: owned by DHL Group since Oct 2025 (Wikipedia) -> category blocked (DHL is the F1 logistics partner); kept per brief, category 0.
+- Africa Global Logistics: MSC Group company; MSC Cruises is an F1 partner (check.py) -> possible group conflict.
+- Lion Parcel: parent Lion Air Group is on the master; kept as separately branded operating company (own CEO and CMO); user to confirm.
+- Sagawa Express: homepage carries an "unauthorised access" inquiry chat; incident not determined.
+- Boskalis: parent HAL Investments; HAL Trust listing status not verified here.
+- Contargo: likely Rhenus (on master) subsidiary; not confirmed.
+- Asyad appears in another batch 3 queue input (in_s20); Boskalis, Sagawa and Saigon Newport appear in other researchers' DISC only.
+- check.py missed listed status for: Kuehne+Nagel, Agility, Aramex, Kerry Logistics, Traxion, JSL, Tegma, Grupo TMM, Fincantieri, NYK,
+  Yang Ming, SITC, RCL, Austrian Post, CTT, Poste Italiane, Stolt-Nielsen, Odfjell, Svitzer; and the MSC long name
+  "Mediterranean Shipping Company" (returned NEW; it is ALREADY DELIVERED as MSC). Logged in DUPS.
+- Corrections made during the run: unverified HQ cities removed (Boluda, Lion Parcel, Saigon Newport).
+
+SOURCES USED (names extracted)
+- Transport Topics Top 100 Logistics 2025 (ttnews.com/logistics/rankings/2025): 61 non-public/non-excluded names written to DISC.
+- Transport Topics Top 100 For-Hire Carriers 2025 (ttnews.com/for-hire/rankings/2025): 69 names written to DISC.
+- Wikipedia List of largest container shipping companies (Alphaliner data, Apr 2026): 30 names.
+- Wikipedia List of shipbuilders and shipyards: read for candidates (shipbuilders by country); not written line by line.
+- Alphaliner public Top 100 page: table did not load. Lloyd's List port rankings: not opened.
+- Company sites listed in each record's sources. Researcher-named candidates checked with check.py (about 300) are in DISC with source "".
+
+COVERAGE
+Covered: US trucking/brokerage (TT lists), US/European ports and terminals, Dutch/German/Norwegian/Spanish/Greek shipping and towage,
+car-carrier and finished-vehicle logistics, chemical bulk logistics, parcel in UK, Turkey, Japan, Indonesia, Vietnam, India, Mexico,
+Oman, Vietnam ports, Australian and Norwegian shipbuilding, African ports/logistics (AGL).
+Thin or not reached: China and South Korea private logistics (Lotte Global Logistics, K-LNG ex-SK Shipping opened, no usable data);
+Gulf (Hala host unreachable, Saudi Global Ports domain parked, RSGT sites empty/503); Latin America beyond Mexico (Brazil Jamef, Localfrio,
+Total Express not opened); Africa beyond AGL; rail freight (DB Cargo, Rail Cargo Group, Lineas, Medway, Captrain pages returned nothing
+useful; GB Railfreight news read but owner not captured); cruise suppliers (none researched); ship managers mostly already on master.
+Hosts not reachable from this session: halasupplychain.com, jacky-perrenot.fr. Site errors: chantiers-atlantique.com (502 x3),
+rsgtinternational.com (503), senator-international.com (503), colisprive.com (402).
+
+NOT RESEARCHED (largest first, for a later run): from TT lists Anderson Trucking Service (USD 1.43bn; owner not on homepage), Central
+Transport, Western Express, Dayton Freight Lines, KLLM, Quality Carriers, Stevens Transport, Hirschbach, Manitoulin, 10 Roads Express,
+Quantix, United Road, RoadOne, Mesilla Valley, Fastfrate, Trimac, Day & Ross; Europe: Talke, Jan de Rijk, Vos (now Ewals), Arcese,
+Groupe Charles André, Jacky Perrenot, Colis Privé, BRT, Luís Simões (counters failed), Gruber (no figures), Hermes Germany (owner not
+stated), DB Cargo, Rail Cargo Group, Lineas, Medway, GB Railfreight; shipping: Chantiers de l'Atlantique, Royal IHC, Heesen, Royal
+Huisman, Seaspan ULC, Irving Shipbuilding, Davie, Bollinger, Swire Shipping, CU Lines, Sealead, Louis Dreyfus Armateurs, Siem Car
+Carriers, Klaveness, Seatrade, Unigas; Asia/Gulf/LatAm: Flash Express, SiCepat, SMSA Express, RSA Global, Zajil, Saudi Post SPL,
+Horoz, Kale, Omsan, Sürat Kargo, HepsiJet, Jamef, Localfrio, Total Express, 99minutos, OCA, Andes Logistics, Ethiopian Shipping.
+Nothing here is exhaustive.
+
+Scratch files kept in this folder: scratch_t17_*.py/.sh/.txt (helpers and check.py outputs).

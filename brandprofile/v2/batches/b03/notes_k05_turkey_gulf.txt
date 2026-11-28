@@ -1,0 +1,77 @@
+k05_turkey_gulf - batch 3, MODE country (Turkey, Gulf, Israel, Egypt). Researcher notes, 28 Nov 2026.
+Stream: Independent web research. WebSearch used: 2 of 2 (Egypt largest private companies; Israel largest private companies).
+Brief from the task: Turkey and the Gulf family groups were already covered by k24_turkey and k23_gulf_groups, so time went to Israel,
+Egypt and the leads those two runs left unresearched.
+
+COUNTS
+- MAIN 22, WATCH 10, DISC 253, DUPS 62.
+- DISC by check: NEW 182, LISTED 53 (50 from the Forbes ME Egypt Top 50 Listed list, used only to exclude; 3 verified on a page:
+  Via Transportation NYSE, Dor Alon TASE, Angel Bakeries' TASE-listed owner), IN MASTER 8, POSSIBLE 5, ALREADY DELIVERED 3, F1 PARTNER 2.
+- DISC by stage: researched 32 (= MAIN + WATCH), left out 67, not researched 154.
+- DISC by country: Egypt 90 (50 of them the listed exclusion list), Israel 63, Saudi Arabia 30, UAE 29, Turkey 24, Qatar 8, Kuwait 5, Bahrain 2, Oman 2.
+- About 330 names went through check.py (all MAIN/WATCH names again at the end with website, without website and with aliases/legal names).
+  DUPS also lists the IN MASTER / delivered / F1 names found while triaging (IAI, Rafael, Tnuva, Super-Pharm, Keter, Haifa Group, Iscar,
+  Hassan Allam, Mansour Group, Arab Contractors, Banque Misr, Banque du Caire, Elaraby, EVA Pharma, Pharco, Mountain View, Madkour, Tamara, etc.).
+
+CORRECTION MADE DURING THE RUN
+- Tabby was researched and written to MAIN, then found to be IN MASTER (as Tabby, "NEW Neobanks & Payments" tab). My first triage filter
+  hid check.py lines whose master tab name begins with "NEW", so it looked new. It was removed from MAIN and logged in DUPS; DISC check values
+  were recomputed from the full check.py output, and the final check of every MAIN/WATCH name was rerun with a correct filter (only Tabby
+  and Memorial were caught). Memorial Sağlık Grubu (WATCH) was removed: ALREADY DELIVERED b02 as Memorial Healthcare Group.
+
+MAIN (22)
+Israel-founded (12; Minute Media and Redis have US headquarters): Plasan (C), Netafim (A, Orbia subsidiary, revenue 2019), SodaStream (A, PepsiCo, USD 3.2bn acquisition 2018), Minute Media (A),
+  Redis (A, US HQ, Israeli-founded), Mixtiles (A), Lightricks (A), Dexcel Pharma (C), Max It Finance (B, Clal subsidiary), Osem (A, Nestlé,
+  revenue 2010 - weak), Mifal HaPais (A, revenue 2012 - weak), Israel Shipyards (A, revenue 2014 - weak).
+Egypt (4): Enppi (C, EGPC 96.61%), Beshay Steel (C), Samcrete (C), ORA Developers (C, Naguib Sawiris).
+UAE (4): Dubizzle Group (A, USD 1bn valuation 2020), TruKKer (C), iMile (C, ownership not verified), Huspy (B, USD 96m equity).
+Turkey (2): ASFAT (C, Ministry of Defence), Yemeksepeti (B, Delivery Hero subsidiary, USD 589m acquisition 2015).
+WATCH (10): Arkia, Sonol, Ceramica Cleopatra, Thndr, Nile Air, Wallan Holding (Lotus/ZEEKR/Geely distributor - high fit, no scale figure),
+  Advanced Electronics Company (4,343 staff, one indicator), sahibinden.com, Bozankaya, Rivulis.
+
+CAVEATS
+- ILS is not in the brief's fixed rate table: converted at 0.27 and flagged in each record. EGP figures were not needed.
+- Old qualifying figures, flagged in `period`: Osem 2010, Mifal HaPais 2012, Israel Shipyards 2014, Netafim 2019, SodaStream 2017/2018,
+  Dubizzle valuation 2020, Yemeksepeti 2015. Revenue for Minute Media, Mixtiles, Lightricks and Redis is from Calcalist's July 2025
+  "USD 250m+ revenue club" project (journalist figures, not audited).
+- Subsidiaries of listed groups (batch 3 rule): Netafim (Orbia; a sale of control to a Dayu/Hopu consortium was reported in Feb 2026),
+  SodaStream (PepsiCo), Osem (Nestlé), Max (Clal), Yemeksepeti (Delivery Hero). Enppi is state-controlled (EGPC).
+- Ownership inferred from founding history, not stated outright: Beshay Steel (Beshay family), Samcrete (Saad family), Dexcel (founder Dan Oren).
+  iMile ownership not found. Sonol ownership after 2016 conflicts between English and Hebrew Wikipedia.
+- signals_checked = "yes" for 12 of 22 MAIN records; "no" for 10 where no newsroom could be opened (Plasan site 403, Max site error,
+  Osem site down, pais.co.il not responding, Beshay/Samcrete/Dexcel/TruKKer/iMile/Huspy pages had no dated news). No marketing head was
+  identified on any page. No current F1 or Grand Prix deal was found for any MAIN/WATCH company.
+- Compliance notes in records: defence exporters (Plasan, Israel Shipyards, ASFAT), SodaStream's former West Bank plant, gambling (Mifal HaPais).
+
+SOURCES (names given)
+- Calcalist (ctech) "The USD 250+ million ARR club" https://www.calcalistech.com/ctechnews/article/rk00dqrmdee : 19 Israeli private tech names
+  with revenue, capital raised and valuation; analysis article .../sytgjsbwxx used for context. 8 of 19 were IN MASTER/F1/delivered.
+- Forbes ME Egypt's Top 50 Listed Companies 2025 https://www.forbesmiddleeast.com/lists/egypts-top-50-listed-companies-2025/ : 50 names, used to
+  exclude EGX-listed companies (check.py does not know most EGX listings).
+- k23 notes (unresearched Gulf leads, ~120 names) and k24/k25/k29 DISC and notes (Israel/Egypt leads); researcher candidate lists checked with check.py.
+- Company sites opened: enppi.com, beshaysteel.com, samcrete.com, oradevelopers.com, cleopatraceramics.com, thndr.app, dexcel.com, netafim.com,
+  minutemedia.com, redis.io, mixtiles.com, lightricks.com, sonol.co.il, dubizzlegroup.com, trukker.com, imile.com, huspy.com, wallan.com,
+  aecl.com, rivulis.com, samaco.com.sa, jaidahgroup.com, almosafer.com, satorp.com, tawazun.gov.ae, foodics.com, tabby.ai.
+- Wikipedia (EN/HE/TR) pages for Plasan, Netafim, SodaStream, Redis, Minute Media, Lightricks, Osem, Mifal HaPais, Arkia, Sonol, Max, Dor Alon,
+  Delek Motors, Dexcel, Assuta, Israel Railways, Israel Shipyards, Via, HOT, Rivulis, Nile Air, Instabug/Luciq, ASFAT, Yemeksepeti, sahibinden,
+  Memorial, Medipol, Bozankaya, Esas Holding, Angel Bakeries.
+- Refused or failed: duns100.co.il and bdicode.co.il (403; Israel's main private-company rankings), gov.il Government Companies list (403),
+  pais.co.il, misrins.com.eg, egas.com.eg, faragallagroup.com, cottonil.com, bahgatgroup.com, kdd.com.kw, alibinali.com, kharafinational.com,
+  midmac.net, almabani.com.sa, arabianautomobiles.com, albabtain.com, jawad.com, alefgroup.ae, saudireadymix.com.sa (no response);
+  plasan.com, arkia.com, salla.com, alrajhisteel.com, neopharmgroup.com, osem.co.il (403/error); many guessed Wikipedia titles 404
+  (Tabby, Salla, Foodics, Property Finder, Dubizzle, MDLBEAST, Almosafer, SATORP, Unifonic, iMile, MNT-Halan, Paymob, Vezeeta, AAIB, Amoun).
+  JavaScript-only sites gave nothing (Masafi, Paymob, MNT-Halan, Foodics, Alaan).
+
+NOT RESEARCHED (154 DISC lines; priority leads)
+- Israel: Union Motors, Mayer's, Delek Motors (parent listed), Jafora, Ahava, HOT (Altice), Island, Foretellix, Melio (Xero), Next Insurance
+  (Ergo), Assuta/Maccabi, Neopharm, Avgol, Personetics, Leumit, Meuhedet, Israel Railways (state; revenue not found), Navan (may be listed).
+- Egypt: Bavarian Auto Group, Misr Insurance, B.TECH, Amoun (ADQ), Tatweer Misr, Hyde Park, MNT-Halan, Paymob, Vezeeta, Unionaire, Faragalla,
+  Al Ahram Beverages (Heineken), United Media Services, Cottonil, Abu Auf, Bahgat, Kandil and Al Marakby Steel, EGAS, AAIB, Redcon.
+  No Egyptian private-company ranking was found (none surfaced in search; Mergr's page has no figures).
+- Gulf: Foodics, Salla, Zid, Lean, Property Finder, Unifonic, MDLBEAST, Almosafer (Seera subsidiary), SATORP (Aramco/TotalEnergies JV), EWEC,
+  Urbacon, Almabani, Al Rajhi Steel, Jaidah, Abdulla Abdulghani & Bros, SAMACO (Al Nahla group, Porsche/VW), Masafi, Al Ain Farms, Ali Bin Ali,
+  Kuwait Danish Dairy, Ziina, Alaan, HungerStation, Kharafi National, Midmac, Rivoli, and the rest of the k23 lead list.
+- Turkey: k24's unresearched ranking names are already in queue inputs in_f01-in_f25, so they were not repeated. Not in any queue and still open:
+  Medipol, Mikropor, Teknorot, Gülermak, Çukurova Holding, Bayraktar Holding, Makyol, Taşyapı, Özak, Çiftay, Kuzu, Ziylan, Kervan, Tadım,
+  Unsped, Horoz, Mars Athletic.
+Nothing here is exhaustive. The target of 45 MAIN+WATCH records was not reached (32).

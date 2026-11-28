@@ -1,0 +1,58 @@
+k03_nordics - batch 3, country mode (Sweden, Norway, Denmark, Finland, Iceland). 28 Nov 2026.
+
+COUNTS
+- MAIN 43 (k03_nordics.jsonl), WATCH 4 (watch_k03_nordics.jsonl), DISC 2,197 lines, DUPS 317 lines.
+- check.py was run on every scraped company with list turnover of USD 75m or more (2,115 names) and on about 230 seed names.
+  Results for the scraped names: NEW 1,811; POSSIBLE 153; LISTED? 147; IN MASTER 61; ALREADY DELIVERED 19; F1 PARTNER 6.
+  Note: check.py misses many listed companies, so plenty of "NEW" rows are listed (Volvo, Ericsson, H&M, Neste etc.).
+  DISC flags names in Oyj/ASA/(publ) legal form as "possibly listed, verify", and municipal or public bodies as non-prospects.
+- WebSearch: 0 used. Crunchbase MCP: allowance exhausted (resets 1 Dec 2026), so no funding data from it.
+- Final re-check of all 47 MAIN/WATCH names with websites: every one is NEW.
+
+SOURCES
+- largestcompanies.com (Dun & Bradstreet Nordic top lists): "largest companies by turnover" for SE/NO/DK/FI, overall plus
+  about 70 industry lists per country, each giving the top 50 to 100 legal entities. That is about 255 list pages; roughly 95
+  timed out (0 rows: SE 24, NO 20, DK 27, FI 24) and were not retried. In total 7,465 distinct entities, with
+  turnover in thousands of local currency and no year stated on the list. These list figures back most Route A records
+  (kind "reported", period "latest filed year"). Figures are often for one legal entity only, so they understate group revenue.
+- Company sites, Cision press rooms (news.cision.com/sodra, /gasum, /metsa-group), Ritzau newsroom (Hessel) and three
+  Wikipedia pages (Gasum, Meyer Turku; spaced because of rate-limiting). The Wikipedia API refused requests (429).
+- Iceland: no ranking page was found or opened. Only 66°North (WATCH) was researched; Blue Lagoon, Samherji, CCP Games and
+  Isavia are seed names that were not researched. Iceland is effectively not covered.
+- Unavailable: allabolag.se, proff.se/.no/.dk (403), largestcompanies company pages (timeouts), valtioneuvosto.fi (403),
+  gasum.com and metsagroup.com (Cloudflare), alko.fi (403).
+
+MAIN (43): Olav Thon Group, Uno-X Mobility, Södra, Gasum, Metsä Group, 3Shape, Meyer Turku, Abena, Wihuri Group, Veho
+Group, KK Group, Royal Greenland, Wismo Group, Väderstad, Vasakronan, RELEX Solutions (Route C), Epidemic Sound,
+Systembolaget, FOSS, Radiometer (Danaher subsidiary), Aiven (Route C), Norlys, Kuusakoski, IKM Gruppen, Green Cargo, Destia
+(Colas/Bouygues subsidiary), Semco Maritime, Gina Tricot (Route C), Semler Gruppen, CellMark, Whiteaway Group, Ilmarinen,
+Bygma, OBOS, Caruna, Teknos, Frode Laursen, Pareto, Ejner Hessel, Ellevio, Mesta, Nobina, Ahlsell.
+WATCH (4): Polar Electro (only entity figure found: EUR 43m), 66°North, Norrøna, Happy Socks (no financial route proven).
+
+BEST F1 FIT (my reading): Semler Gruppen (Danish importer of Aston Martin, McLaren, Audi, Porsche; DKK 36bn revenue,
+profitable), Veho and Ejner Hessel (Mercedes-Benz importer/dealers), RELEX (enterprise SaaS, 700 retail/CPG customers),
+3Shape, KK Group (rebranded Feb 2026), Uno-X (already runs a pro cycling team), Väderstad, FOSS, Epidemic Sound.
+Size-only qualifiers with near-zero fit: Systembolaget (mandate bars promotion), Ellevio, Caruna, Mesta, Nobina,
+Vasakronan, Ilmarinen, Green Cargo, Destia.
+
+WEAK POINTS TO VERIFY
+- Owner not confirmed on a page read ("requires verification"): RELEX, IKM Gruppen, Semco Maritime, Gina Tricot, Semler
+  Gruppen (only the founding family is documented), Pareto, Nobina (also confirm its shares no longer trade). Frode Laursen:
+  parent named as TA-Logistics, whose owner is not known.
+- signals_checked "no" for 20 MAIN/WATCH records where no dated newsroom was found.
+- Leave-outs worth noting: Einride (check.py NEW) has traded on Nasdaq (ENRD) since 10 Jun 2026, so it was left out.
+  Orifarm is ALREADY DELIVERED. IQM's site links to an investor site (403), so it may be listed; verify.
+  The check.py alias "Alko" -> AL-KO is a false match; Alko (Finnish state alcohol monopoly) is really NEW but was not researched.
+
+NOT REACHED
+- 1,811 NEW-flagged DISC rows are not researched. Large private or unlisted names include Ahlsell's peers Stark Danmark and
+  Kemp & Lauritzen, Scan Global Logistics, Unifeeder (DP World), EET Group, Power A/S, Veikko Laine, Rettig Capital, Å Energi,
+  DLA Agro, Nalka Invest, Vetico, Cellmark's peers, Robust/Capeomega-type holdings, Nordic Sugar, Royal Unibrew units, etc.
+- Seed names not researched (in DISC with no list source): Löfbergs, Hilding Anders, Daniel Wellington, Nudie Jeans, Stokke,
+  Vipps MobilePay, Too Good To Go, Kvadrat, Georg Jensen, Milestone Systems, PFA, PensionDanmark, DLG, Danish Agro, Varma,
+  Fingrid, Finavia, TVO, Pohjolan Voima, Hartwall, Lindström, Kemppi, IQM, Varjo, Swappie, Smartly.io, Moelven,
+  Felleskjøpet Agri, Plantasjen, Widerøe, Vinmonopolet, Nordlaks, OK-Q8, Bergendahls, Apoteket, Aleris, Praktikertjänst,
+  Svea Bank, Skandia, Alecta, Sveaskog, Samhall, Avarn, Zenseact, Teboil (check ownership first), Blue Lagoon, Samherji,
+  CCP Games, Isavia.
+- The 95 timed-out industry list pages; POSSIBLE matches (153) have not been reviewed one by one.
+- Scratch files: scratch_k03_* and scratch_k03/ in this folder (scraper, rows, check cache).
