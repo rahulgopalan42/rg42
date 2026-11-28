@@ -1,0 +1,39 @@
+clay_i07 (batch 3, MODE clay, deeper paging) - 28 Nov 2026
+Industries: Oil and Gas; Utilities; Renewable Energy Power Generation; Electric Power Generation.
+Filter on every query: company_type in ("Privately Held","Partnership","Self Owned"). Search only; no enrichment, no rendering, no WebSearch.
+Page caps (industry line): P1=2, P2=2, P3=1. 19 Clay pages read in total. No industry enum value was rejected.
+
+Query | pages read | rows saved | where it stopped
+Oil and Gas | 1B-10B,10B-100B,100B-1T             | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Oil and Gas | 500M-1B                             | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Oil and Gas | 200M-500M                           | 1 | 20 | cap reached, hasMore=TRUE (unfinished)
+Utilities | 1B-10B,10B-100B,100B-1T               | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Utilities | 500M-1B                               | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Utilities | 200M-500M                             | 1 | 20 | cap reached, hasMore=TRUE (unfinished)
+Renewable Energy Power Generation | 1B+ groups    | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Renewable Energy Power Generation | 500M-1B       | 1 | 14 | hasMore=false after page 1 (complete)
+Renewable Energy Power Generation | 200M-500M     | 1 | 20 | cap reached, hasMore=TRUE (unfinished)
+Electric Power Generation | 1B+ groups            | 2 | 22 | hasMore=false after page 2 (complete)
+Electric Power Generation | 500M-1B               | 2 | 22 | hasMore=false after page 2 (complete)
+Electric Power Generation | 200M-500M             | 1 | 20 | cap reached, hasMore=TRUE (unfinished)
+
+Total rows: 338. All four industries reached.
+disc_check.py result: NEW 246, IN MASTER 43, ALREADY DELIVERED 11, LISTED 13, POSSIBLE 23, F1 PARTNER 2.
+
+Observations (from Clay rows only, not verified):
+- Clay's "Privately Held" tag is unreliable here: many rows are listed companies or state-owned groups (Repsol, YPF, Pampa, Vallourec,
+  MODEC (TSE 6269), OMV Petrom (BVB), Wasco (KLSE), Enerjisa (BIST), Edenor (NYSE), Copel (NYSE), Iberdrola, Naturgy, EDP, Grenergy,
+  Solaria, Auren, Eneva, Neoen, Central Puerto, Colbun, Tata Power) and national oil/power companies (Pertamina, PETRONAS, PDO,
+  Sonangol, NLNG, Eletrobras, Enedis, RTE).
+- Many rows are national subsidiaries of listed groups (ENGIE Italia/India/Chile/Mexico/Middle East/North America/Green, Enel X/Chile/
+  Brasil/Peru, EDP Portugal/Brasil/South America, Endesa, Iberdrola Espana/Power, EDF power solutions units, Electrip country pages,
+  SPIE GSE, Vallourec South America) - most fall under the national-entity rule.
+- Duplicate pages for one group: CEPSA/Moeve; Jakson Green (x2); PSM/Hanwha Power; Cogindo/PLN IP Services; Neoenergia (x2);
+  Acwa/Acwa Operations; Ampol (AmpEnergy, AmpolEV, Ampol Energise); oilgasvacancies.com job boards (x3).
+- Junk or inflated rows: oil-and-gas job boards (Oil and Gas Job Search, Rigzone, Oil Gas Jobs etc.), placeholder pages with "Hi"
+  descriptions (Dohme Energy, Romanto, Oscorp, Queen Consolidated x2, Rand Enterprises), ACIE and CPIA (associations), Camara de
+  Comercio de Bogota, Consip, Integramedica (mis-classified), BINLADEN (individual's text), 1-10 employee rows in 1B+ brackets.
+- check.py flagged F1 PARTNER: PETRONAS (Mercedes) and Aggreko (Formula 1). PETRONAS Lubricants International's own description also
+  names the Mercedes-AMG PETRONAS F1 partnership.
+- Middle East, Latin America (Argentina, Brazil, Chile, Colombia), Africa (Nigeria) and South-East Asia (Indonesia, Philippines) are
+  well represented in these sectors.

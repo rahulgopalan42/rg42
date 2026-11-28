@@ -64,3 +64,4 @@ launched: k24_turkey | finished: t44_datacentres_infra (26 main, 20 watch, 231 d
 launched: t02_ai_cloud_cyber | finished: t45_b2b_services_niche (33 main, 19 watch, 458 disc)
 launched: r23_queue | finished: r20 (26/18)
 launched: s10_signals | finished: u04_europe_subs_b (45 main, 5 watch, 331 disc). OPEN QUESTION FOR THE USER: Sephora and Charlotte Tilbury left out because they hold F1 Academy deals; does F1 Academy count as a current F1 deal?
+launched: k25_africa_north_west | finished: clay_i07 (338 rows)
