@@ -51,3 +51,4 @@ launched: k22_thai_my_sg | finished: r15 (34/23). PASHA Holding left for the use
 launched: t48_mobility_platforms | finished: r16 (31/21). To verify: Croatia Airlines listing; Lotte World vs Hotel Lotte (b01)
 launched: r20_queue | finished: k20_india_consumer (26 main, 16 watch, 775 disc; PKR/NPR conversions are the researcher's own approximate rates -> treat those figures as estimates)
 launched: s08_signals | finished: clay_i05 (350 rows)
+launched: k23_gulf_groups | finished: clay_i06 (293 rows)

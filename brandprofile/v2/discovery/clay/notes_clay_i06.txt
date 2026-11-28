@@ -1,0 +1,33 @@
+clay_i06 (batch 3, MODE clay, deeper paging) - 28 Nov 2026
+Industries: Paper and Forest Product Manufacturing; Textile Manufacturing; Glass, Ceramics and Concrete Manufacturing; Fabricated Metal Products.
+Filter on every query: company_type in ("Privately Held","Partnership","Self Owned"). Search only; no enrichment, no rendering, no WebSearch.
+Page caps (industry line): P1=2, P2=2, P3=1. 16 Clay pages read in total.
+
+Query | pages read | rows saved | where it stopped
+Paper and Forest | 1B-10B,10B-100B,100B-1T | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Paper and Forest | 500M-1B                 | 1 | 20 | hasMore=false after page 1 (complete)
+Paper and Forest | 200M-500M               | 1 | 20 | cap reached, hasMore=TRUE (unfinished)
+Textile | 1B-10B,10B-100B,100B-1T          | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Textile | 500M-1B                          | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Textile | 200M-500M                        | 1 | 20 | cap reached, hasMore=TRUE (unfinished)
+Glass, Ceramics and Concrete | 1B-10B,...  | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Glass, Ceramics and Concrete | 500M-1B     | 1 | 17 | hasMore=false (complete)
+Glass, Ceramics and Concrete | 200M-500M   | 1 | 20 | cap reached, hasMore=TRUE (unfinished)
+Fabricated Metal | 1B-10B,...              | 1 |  8 | hasMore=false (complete)
+Fabricated Metal | 500M-1B                 | 1 |  8 | hasMore=false (complete)
+Fabricated Metal | 200M-500M               | 1 | 20 | cap reached, hasMore=TRUE (unfinished)
+
+Total rows: 293. All industries reached. No industry enum value was rejected.
+disc_check.py result: NEW 251, IN MASTER 15, ALREADY DELIVERED 7, LISTED 8, POSSIBLE 11, F1 PARTNER 1.
+
+Observations (from Clay rows only, not verified):
+- Many rows are national subsidiaries / branches of listed groups (AGC Glass Europe, AGC Vidros do Brasil, Pilkington UK/Argentina,
+  O-I Andean/Americas South, Saint-Gobain India Glass, WestRock Brasil, Guardian Espana, Duravit US, Consol Glass/Ardagh, Kibing (M),
+  Jingxing (M), Elval/ElvalHalcor, Champion/Sylvamo) - most should be dropped under the national-entity rule.
+- Duplicate LinkedIn pages for the same group: Soorty (x2), Artistic Milliners (x2) / Artistic Fabric Mills (x2), Alkaram (x2),
+  Holmen (x2), Metsa Group / Metsa Tissue, Bormioli Rocco (x2), Costa Nova / Grestel (x3), Bracell / Bracell Papeis, APP / PT WKS /
+  Sinarmas Forestry, RGE / Pulp n Paper Industry, Arc (Luminarc, Arcoroc, Chef&Sommelier), Press Glass SA / UK, Iris Ceramica Group /
+  Iris Ceramica, Elevate Textiles / Cone Denim / American & Efird.
+- Clay revenue brackets look inflated for some small rows (e.g. ES Enclosures 1 employee in 1B-10B; Central Glass Co. 37 employees in
+  500M-1B; CISC is a skills council, not a company; Fujian Nanping Aluminum described as state-owned).
+- Pakistan, Bangladesh, Turkey, Brazil and Portugal are heavily represented in textile and ceramics.

@@ -1,0 +1,47 @@
+k19_india_giants - India: unlisted giants, unlisted companies of family groups, unlisted PSUs (batch 3, 28 Nov 2026)
+
+COUNTS
+- MAIN 36 (Route A 27, Route C 9); WATCH 10; DUPS 70 lines; DISC 566 lines.
+- signals_checked: "yes" on 33 MAIN records (mostly the Wikipedia history/recent-events section, sometimes the company newsroom), "no" on 3 (OfBusiness, Infra.Market, Tata AutoComp: no newsroom or dated news found).
+- WebSearch used: 1 of 2 (Hurun list). Everything else came from WebFetch or curl of public pages.
+
+SOURCES
+1. 2024 Burgundy Private Hurun India 500 report PDF (https://campaign.axisbank.com/generic/2024-burgundy-private-hurun-india-500-report.pdf).
+   All 500 names were extracted to DISC with their Hurun value. The list includes listed companies and excludes state-owned firms and subsidiaries.
+   check.py on 500: 235 NEW, 66 IN MASTER/ALREADY DELIVERED, the rest LISTED?/POSSIBLE/F1. 45 were tagged as unlisted candidates. The rest are marked
+   "believed listed, not verified". Note: check.py falsely matched several "(India)" names to Hamdard Laboratories (India).
+   The 2025 edition was not opened. Search results say it is led by NSE, Serum, Adani Properties, Haldiram, Zerodha, Megha, Parle, Razorpay.
+2. English Wikipedia (raw wikitext via curl or WebFetch) for about 60 companies: infobox data plus 2025-26 sentences.
+3. Company websites: Avaada, Hero Future Energies, Hero FinCorp, OfBusiness, Infra.Market, Zetwerk, USV, Aragen, Tata Electronics, tata.com,
+   Adani airports, MG Motor newsroom (did not load), Tata AutoComp, JSW Paints, Mahindra Susten, Juniper Green, HMEL, udaan, Purplle, Amagi.
+   Did not open: Serentica (503), Sterlite Power (403), IBS Software (empty).
+4. Listing check: Screener.in company search and exchange links (https://www.screener.in/api/company/search/). It found these 2025-26 listings,
+   now in DUPS: NSE (BSE Sept 2026), Meesho, Lenskart, Urban Company, Physics Wallah, Zetwerk, Shiprocket (Aug 2026), Amagi, Molbio Diagnostics,
+   Mahanadi Coalfields (MAHACOAL), SBI Funds Management (July 2026), Jio Platforms (IPO Oct 2026), Juniper Green Energy (JNPR).
+   Molbio and Mahanadi had already been written to MAIN and were removed.
+   CINs on company sites starting with "U" (unlisted) were used for OfBusiness and Hero FinCorp.
+
+COVERAGE
+- Hurun unlisted names: researched the largest NEW ones. DUPS: Haldiram, Malabar, Hetero, Eruditus, Jaquar, Cult.fit, Bagmane, My Home, Yashoda,
+  Landmark (Life Style).
+- Group subsidiaries (Tata, Reliance, Adani, JSW, Mahindra, Hero, Bajaj, Godrej, Kotak, HDFC, SBI, GMR, Fairfax): many are already in the master
+  or delivered (see DUPS).
+- PSUs: NPCIL, National, United India and Oriental Insurance, AIC, Numaligarh, RINL, SECI, Goa Shipyard, Hindustan Shipyard, NSIL and Pawan Hans
+  were researched. BrahMos was left out (49.5% Russian NPO Mashinostroyeniya). Most PSUs have weak F1 fit (rated low) but meet a route.
+- Airports: BIAL, DIAL, GHIAL and CIAL are in MAIN (Route C on passengers and cargo).
+
+CAVEATS
+- Hurun valuation estimates are used as Route A (estimated valuation) for OfBusiness, Infra.Market and Acko, with kind "estimated".
+- Ola Consumer passed check.py as "Ola" and "ANI Technologies", but "Ola Consumer" is IN MASTER, so it was removed. Wonder Cement and Rebel Foods
+  were left out as possible matches to the bare master names "Wonder" and "rebel".
+- Several figures are older than three years and flagged: Patanjali FY22, RINL FY19, Dream11 FY23, Livspace FY23, MPL FY23.
+- SECI and AIC qualify on a net income above USD 20M, used as an EBITDA proxy, and the year is not stated on the page.
+- Weak verification on WATCH: Aragen, Udaan and Purplle (ownership not shown on the pages opened) and Avaada (ownership not disclosed).
+
+NOT DONE / REMAINING
+- DISC "not researched": HMEL, Classic Legends, Navi (RBI action 2024), TVS Credit, Zurich Kotak, Care Health, Chola MS, Liberty, Generali Central,
+  K Raheja, Hiranandani, Runwal, Bharat FIH, Piramal Realty, Reliance Brands, L&T Semiconductor, DSP AMC, Kotak AMC, ABHI, Bajaj Life,
+  Tata Realty, Adani Defence, AM Green, Serentica, THDC, KRIBHCO, ECGC, AAI, Gameskraft, Carbon Resources, Adani Realty, VerSe/Dailyhunt,
+  IBS Software, Good Glamm, Hinduja Leyland Finance, Mahindra Electric Automobile, TI Clean Mobility, Sterlite Power, Groww (listing unverified).
+- Not opened: Fortune India 500 (unlisted subset), the 2025 Hurun list, the DPE public enterprises survey (full CPSE list), and the coal subsidiaries
+  other than MCL. No marketing heads were identified (marketing_head_identified "no" everywhere).
