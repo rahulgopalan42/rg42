@@ -1,0 +1,24 @@
+r14_queue - batch 3 queue researcher - 28 Nov 2026
+INPUT: v2/batches/b03/in_q14.jsonl (80 lines). WebSearch: 0 used. Sources: Wikipedia (en/de/fr/fi/pt, via API and WebFetch), company sites, Lünendonk 2026 PDF.
+Duplicate check: check.py run on all 80 names plus suffix-free names/aliases (e.g. Bidafarma, Air Europa, ONCE, Grupo Planeta, Hongxing Erke, Haniel, Franke).
+
+RESEARCHED - MAIN (29): Continental Grain (ContiGroup), Harkins Theatres, LEMO, Grill'd, Coppenrath & Wiese, Biman Bangladesh Airlines, Leoni, RAVENOL, Improbable, Hoyts, Ricardo, Logicalis, Medochemie, Kenan Advantage Group (KAG Logistics), Circle Logistics, FitzMark, Hengdian Group, Dare Foods, COS (Complete Office Supplies), Danish Agro, Helkama, Forever New, People&Baby, NWS, Incredibuild, Vaughan Constructions, SEE Group, Direct Group, MAK (Mongolyn Alt).
+RESEARCHED - WATCH (14): BermudAir, Hypixel, Eberhard & Co., Edox, Cabo Verde Airlines, Encyclis, Enfinium, Medivet, Potawatomi Casino Hotel, Tombow, PowerTrain, Swiss Arabian, Leybold, RAYS.
+
+LEFT OUT - DUPS (30):
+- master / already delivered: Cremonini, Baker McKenzie Cairo, Moeve Chemicals, Bida Farma, Air Europa, ONCE, Erke (Hongxing Erke), Planeta Formacion (Grupo Planeta), Artemis Holding (Franke delivered).
+- listed: Banco ABC Brasil, Banco Bci, Banco PAN, Banco Sabadell, Banco da Amazônia, Nass Corporation.
+- not a separate / not commercial: Renault España Comercial, Iberdrola Energía España, 5 central banks/BIS, House of Prince (BAT), Ebel (Movado brand), ELG Haniel (now Aperam), Business NSW (not-for-profit), Hubei and Hunan Tobacco (China Tobacco units).
+- compliance: Cambodia Airways (Prince Group/Chen Zhi), Max Myanmar (military links).
+
+NOT RESEARCHED (7; no usable page could be opened): Planetwin365 (site 403; possible Lottomatica ownership unverified), Playson (403), Premier Bet (site shows title only), Medipha Santé (host not resolvable), Bandary International Group (403), Heartland Motor Group (connection reset/503), Stripes Beauty (script-only page).
+
+Flags and gaps:
+- RAVENOL: check.py note says it appears on the Austrian GP (Red Bull Ring) circuit partner page - verify no current GP deal before use.
+- Leoni: Luxshare majority owner since Jul 2025 (leoni.com); Wikipedia still says Frankfurt-listed - confirm delisting.
+- People&Baby: restructuring and several controversies (see compliance field).
+- Old figures: ContiGroup (FY2011), Coppenrath (2011), Danish Agro (2014), Helkama (undated), Leoni (2021), IBISWorld FY2021/22 figures for Australian firms.
+- Biman: BDT converted at an assumed ~119/USD (BDT not in brief table).
+- Circle Logistics, FitzMark, NWS, KAG: ownership not stated on pages opened.
+- Signals checked on 15 of 29 MAIN records; others' newsrooms were blocked, script-rendered or unreachable.
+- Wikipedia API rate-limited (429) during the run; Chinese Wikipedia pages could not be read.

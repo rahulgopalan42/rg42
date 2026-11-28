@@ -1,0 +1,32 @@
+Clay discovery stream, batch 3, KEY clay_i02 (28 Nov 2026)
+Industries: Financial Services; Banking; Insurance; Investment Management.
+Tools: mcp__Clay__search-companies + load-more-search-results only. No enrichment, no widgets rendered.
+Filter on every query: company_type in ("Privately Held","Partnership","Self Owned"). All four industry names accepted as given.
+Page limits (industry line): P1=2 (1B+), P2=2 (500M-1B), P3=1 (200M-500M). 20 pages read in total, 20 rows per page, 400 rows saved.
+Rows appended after every page.
+
+Query (industry | revenue brackets) : pages read : rows : hasMore when stopped
+Financial Services | 1B-10B,10B-100B,100B-1T : 2 : 40 : TRUE (stopped at P1 cap, more pages remain)
+Financial Services | 500M-1B                  : 2 : 40 : TRUE (stopped at P2 cap, more pages remain)
+Financial Services | 200M-500M                : 1 : 20 : TRUE (stopped at P3 cap, more pages remain)
+Banking | 1B-10B,10B-100B,100B-1T             : 2 : 40 : TRUE (P1 cap, more remain)
+Banking | 500M-1B                             : 2 : 40 : TRUE (P2 cap, more remain)
+Banking | 200M-500M                           : 1 : 20 : TRUE (P3 cap, more remain)
+Insurance | 1B-10B,10B-100B,100B-1T           : 2 : 40 : TRUE (P1 cap, more remain)
+Insurance | 500M-1B                           : 2 : 40 : TRUE (P2 cap, more remain)
+Insurance | 200M-500M                         : 1 : 20 : TRUE (P3 cap, more remain)
+Investment Management | 1B-10B,10B-100B,100B-1T : 2 : 40 : TRUE (P1 cap, more remain)
+Investment Management | 500M-1B               : 2 : 40 : TRUE (P2 cap, more remain)
+Investment Management | 200M-500M             : 1 : 20 : TRUE (P3 cap, more remain)
+Every query is UNFINISHED: hasMore was still true at each cap. Industries not reached: none.
+
+Observations (for the research step, not checked here):
+- Clay's "Privately Held" label is unreliable in finance: many rows are listed companies or listed-group subsidiaries
+  (e.g. SBI Life, Niva Bupa, Kuwait Finance House, Yapi Kredi, Aksigorta, Qalaa, Orkla, OUTsurance, ER Group, Gemini, PicPay; descs carry the listing text)
+  and many are national units of multinationals (BBVA/Santander/BNP/Citi country entities), which the brief excludes.
+- "Investment Management" at 1B+ is mostly Gulf, Turkish, Latin American and Balkan family holding groups (useful for regions under-covered).
+- Clay revenue brackets are often implausible (e.g. Wall Street Oasis, MNC at 200M-1B with tiny real scale; Itau/Bradesco at 500M-1B). Treat brackets as hints only.
+- Clay country field wrong for ENL/ER Group (Mauritius shown as Japan) and Basa (Paraguay shown as Argentina), Al Sraiya (Qatar shown as Saudi Arabia); noted in desc where seen.
+
+disc_check.py counts (400 rows): NEW 229; IN MASTER 63; ALREADY DELIVERED 51; POSSIBLE 29; LISTED 20; F1 PARTNER 8.
+All 400 lines parse as JSON.

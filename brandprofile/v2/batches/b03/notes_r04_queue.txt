@@ -1,0 +1,35 @@
+NOTES r04_queue (batch 3, queue mode, input in_q04.jsonl, 80 lines). Date 2026-11-28. WebSearch used: 0. WebFetch only.
+
+COUNTS: MAIN 17, WATCH 15, DUPS 34, not researched 14. Total 80. No DISC file in queue mode.
+
+MAIN (17): Ayam Brand (C), Cine Colombia (B; COP not in fixed table, ~0.00025 used), Air Côte d'Ivoire (C), NCH (A; now owned by Solenis,
+which was delivered in b01), S-Bank (C; parent S Group is IN MASTER), Air Greenland (A; revenue year not stated), The Co-operative Group (A),
+Cinema City (C; revenue only 2011), Arrive Logistics (A), Capstone Logistics (A), PMG (C), Bravo Supermarket (C; owner unverified),
+Alphamega Hypermarkets (A on stadium naming-rights sponsorship only: borderline), Athlon (A, 2016 EUR 1.1bn transaction; Mercedes-Benz
+Mobility parent IN MASTER, sale to Arval (b02) pending), Life Without Barriers (A, FY22 IBISWorld; charity, very low fit),
+Albert Automotive Holdings (A, FY22 IBISWorld; check.py POSSIBLE vs 'Albert' on master, no domain; please confirm different),
+Brexa Next (A; ex-Outsourcing Inc., Bain Capital buyout 2024).
+
+WATCH (15): Anonimo, Canton, Badia Spices, Cinelli, Air Djibouti, Steer Studios, Plusgrade (strong B2B fit, no financials sourced),
+Balocco, Saemaul Geumgo (no asset figure sourced), Cantine Riunite & Civ, Cavit, Armand Nicolet, Arnold & Son, Coscharis, Sekikagu.
+
+LEFT OUT (34):
+- Listed: Dentsply (Dentsply Sirona), Swisscom, Orkla, Poste Italiane, Cicor, Dr Lal PathLabs, PayPay (Nasdaq Mar 2026), Deva Holding, Cell C (JSE: CCD).
+- Merged away: LINE (into LY Corp, listed).
+- F1 partner: Lego A/S (check.py flags LEGO; 'Lego A/S' with suffix returned NEW, so watch the suffix gap).
+- Master/delivered (some only found by checking variant names): Messer, Nationwide, Aruze Gaming, Natixis CIB, Freudenberg, Czinger, Tetra Pak,
+  Pon, Knauf, Cordes und Graefe (GC-Gruppe), Teachers Health Fund, Borg Manufacturing, Varo Energy (VAROPreem), AFL (Australian Football League),
+  Comolatti, Melbourne Airport (APAC), Emeritus (Eruditus), Idea (Mercator/Fortenova).
+- Not a separate company / holding: DKV (ERGO/Munich Re, brand folding into ERGO 2027), Nipro LATAM, Geocycle UAE (Holcim), Edizione (holding), No-Company (holding).
+check.py misses: input names with legal suffixes or different spellings (Lego A/S, Cordes und Graefe, Teachers Health Fund, Borg Manufacturing,
+Varo Energy Holding, Comolatti, Emeritus) passed as NEW but were duplicates under a variant name.
+
+NOT RESEARCHED (14; no page about the company would open):
+Homebase (L Catterton Asia lists it; homebase.com.sg is an unrelated realtor), Erragon Gulf and FiveM Waste Management Consultancy (named only
+in a Mordor Intelligence report; domains did not resolve), PF Concept (502), Prosa (403), Ireneforte (503), Betcris (403), BetKing (403),
+Ace Games (ambiguous name), EQuest Education (503; PE Wire link 404), Remedy Brands (503), Beyond the Summit (domain did not resolve),
+Contraf-Nicotex-Tobacco (domain did not resolve), Examity (503).
+
+Sources mostly Wikipedia (en/de/es/nl/ja/ko), company sites, TT Top 100 Logistics 2025, IBISWorld Top 500 Private 2022 PDF, L Catterton portfolio page.
+The Wikipedia opensearch API was tried once and rate-limited; Wikipedia's on-site Special:Search was used for 5 lookups (not a web search engine).
+Many records rest on a single page; conf is low/medium accordingly. Several financial figures are older than three years (flagged in fin.period).

@@ -1,0 +1,39 @@
+t28_brokers_crypto - batch 3, sector mode - 28 Nov 2026
+Scope: online/CFD/FX brokers, prop-trading firms, crypto exchanges and wallets, neobanks, payment processors, remittance, BNPL, lenders.
+
+COUNTS
+- MAIN 31 (Route A 20, Route B 2, Route C 9). WATCH 13. DUPS 230. DISC 410 lines.
+- 410 distinct names run through check.py: IN MASTER 125, ALREADY DELIVERED 28 (incl. Starling, found only on the website recheck and removed from MAIN), F1 PARTNER 8, LISTED? 8, POSSIBLE 13, NEW 228.
+- Of the NEW names: 44 researched (MAIN/WATCH); about 90 left out (most are listed companies, F1 partners/brands, sanctioned/closed or with compliance problems); 136 not researched.
+- WebSearch used: 1 of 2.
+
+SOURCES (names yielded)
+- Wikipedia "List of unicorn startup companies" (3 reads: offsets 0, 100000, 200000): about 85 fintech/crypto names with valuations. The first chunk only reached "Hopper", so some entries between about chars 60k and 100k may be missing.
+- Finance Magnates articles (Q3 2025 USD 1 trillion brokers; eleven brokers over 100k active accounts; F1 sponsorship trends): about 14 broker names, but no ranking tables (those are behind the paywall).
+- CoinGecko exchanges page: 403. Wikipedia "List of cryptocurrency exchanges": 404.
+- Company Wikipedia pages (EN, JA, KO) and company about pages for each researched record (URLs in each record).
+- The other ~300 candidate names came from the researcher's own sector knowledge, then checked with check.py; DISC says "no list page" for these.
+
+COVERAGE
+- Brokers: UK/Cyprus/offshore CFD brokers (Tickmill, FXTM, FBS, Doo Prime), US (TradeStation, Firstrade), Swiss (Dukascopy). Most FX brokers publish no revenue, so they went in on Route C or into WATCH.
+- Prop firms: FundedNext (MAIN C), Topstep (WATCH). The5ers, Apex, Funding Pips, FXIFY, E8 and others are not researched.
+- Crypto: Anchorage, bitFlyer, Bitstamp (MAIN); Swyftx, Independent Reserve, BitPay (WATCH). Left out: HTX (UK/EU sanctions), BitMEX (closed Sept 2026), Bitfinex/iFinex (compliance history).
+- Neobanks/lenders: UK (OakNorth, Zopa, Atom), US (Varo, Upgrade, Prosper, GoodLeap, Acorns, Credit Karma, Ramp), Canada (Wealthsimple, Neo, KOHO), Mexico (Klar), Korea (Toss), Czech Republic (Banka Creditas), Uzbekistan (Uzum), Bangladesh (bKash).
+- Payments: Ramp, Tipalti, Vipps MobilePay, BLIK, TradingView (charting).
+- Regions covered thinly: Africa, Gulf, India and Latin America beyond Mexico. Much of the Gulf/Africa/India fintech universe is already IN MASTER or delivered.
+
+KEY LEADS
+- Ramp (USD 60bn valuation, over USD 2bn annualised revenue) was NEW: a strong B2B lead.
+- Banka Creditas / Creditas Group owns the Brno MotoGP circuit and renamed it Creditas Autodrom Brno (April 2026): it already spends on motorsport.
+- Doo Prime (Manchester United partner) and FBS (Leicester City) already pay for football sponsorships.
+- Uzum: USD 691m revenue, profitable, Omani sovereign investors, IPO planned for 2027.
+
+CAVEATS
+- Several valuations are from 2021-22 and are flagged in `fin` (Toss, TradingView, Tipalti, OpenSea, GoodLeap, Acorns).
+- Banka Creditas: CZK has no rate in the fixed table, so usd_m is null.
+- Some exclusions marked "researcher knowledge, not verified" (for example listings of Klarna, Chime, Gemini, Groww, Pine Labs) need a recheck before they are relied on.
+- FBS, Klar, KOHO and Independent Reserve rest on company claims only (conf low).
+- Atom bank: the page calls it a "public limited company" with no listing named; check whether its shares trade.
+
+NOT RESEARCHED (NEW, in DISC): ThinkMarkets (site 403), Eightcap (404), FP Markets, Fusion Markets, Octa, RoboForex, LiteFinance, JustMarkets, Errante, Bux, Lightyear, Dhan, Kotak Securities (now Kotak Neo), Finalto (page empty), ActivTrades (404), Exante (404), Darwinex (404), GO Markets, Multibank Group, Mitrade, VT Markets, Weltrade, The5ers (404), Apex Trader Funding, Funding Pips, Phemex, BTSE, LBank, CoinW, BloFin, XT.com, CoinEx, BitMart, Indodax, CoinSwitch (unicorn 2021), Ripio, BitOasis, Coinone, Korbit, CoinJar, Trezor, Uphold, Wintermute, Hyperliquid, Ramp Network, AMINA Bank, Current, Vivid Money, Stori, Neon, GoTyme, Tonik, Liv, D360 Bank, PalmPay, Magnati, Kredivo (unicorn Jan 2022), Postpay, LemFi (403), Mukuru, Kueski, Konfio, Creditas Brazil (unicorn 2020), iwoca, Bluevine, Paysera, European Payments Initiative, Moneybox, Banking Circle, Small World, Przelewy24, Computop, Unzer, Melio, Wayflyer, KreditBee, Stash, Corgi, Clip, CRED, Polygon Technology and others listed in DISC.
+Nothing here is exhaustive.

@@ -1,0 +1,56 @@
+t01_software_pe - batch 3, sector mode (software owned by PE, bootstrapped/founder-owned, or subsidiaries of groups). 28 Nov 2026.
+Method: v2/brief_b03.md + v2/brief_b02.md + v2/brief_discovery.md. Independent web research only (no Clay, Crunchbase or Apollo). WebSearch used: 2 of 2.
+
+RESULTS
+MAIN 39 (Route A 24, Route B 1, Route C 14). WATCH 6. DISC 422 lines. DUPS 134 lines.
+MAIN: Jeppesen ForeFlight, Bullhorn, iCIMS, EAB, MRI Software, Reynolds and Reynolds, Software AG, SUSE, NextGen Healthcare, Bottomline
+Technologies, Jama Software, Pipedrive, MEDITECH, Turnitin, Netsmart, Nearmap (B), Flexera, Granicus, Mitratech, NAVEX, Trackunit, Plusgrade,
+Calastone (SS&C sub), AFAS Software, Riskonnect, Vertafore (Roper sub), Frontline Education (Roper sub), DAT Freight & Analytics (Roper sub),
+Accruent (Fortive sub), ServiceChannel (Fortive sub), Internet Brands, Harris Computer Systems (Constellation sub), R1 RCM, Inovalon, CDK Global
+(Brookfield), ETAS (Bosch sub), Elektrobit (AUMOVIO sub), TeamSystem, Odoo.
+WATCH: Olo (take-private close not confirmed), Chaos, JAGGAER, Gamma Technologies, KISTERS, SD Worx (Route C met incl. cycling title sponsorship,
+but ownership/listing status not found on pages opened).
+Most F1-relevant: ETAS, Elektrobit, Jeppesen ForeFlight, CDK Global, Reynolds and Reynolds, Trackunit, Jama Software, TeamSystem, Software AG
+(has run ERA Championship title sponsorship), SD Worx (watch).
+
+SOURCES (names extracted)
+- vistaequitypartners.com/companies (124; current and past not distinguished on page)
+- ta.com/portfolio (88 software/fintech/tech names extracted of 323 listed; current and past mixed)
+- digitiz.fr French software publishers ranking (61; CA 2022 figures, FY2022 = older than three years)
+- Wikipedia: Francisco Partners (29), Thoma Bravo (27), Roper Technologies (19 subsidiaries), Symphony Technology Group (8), Constellation Software (7),
+  Fortive (5), Hellman & Friedman (5), Permira (5), Clearlake (4), EQT (2)
+- hgcapital.com/portfolio (23; page loads only part of 60+ companies)
+- Company sites / Wikipedia articles for the researched companies (listed in each record's sources)
+Pages that failed: thomabravo.com/companies (no names), permira.com and eqtgroup.com (only first 20), franciscopartners.com, truffle100.fr (404),
+EY Top 250 PDF (too large), mergr.com and spglobal.com (403), forbes.com private companies (no table), many Wikipedia title guesses (404:
+Applied Systems, Vertafore, ConnectWise, Duck Creek, Acquia, Gainwell, Cotiviti, WellSky, PointClickCare, Ideagen, IRIS, TeamSystem, Idealista,
+ETAS, Basware, AvidXchange), appliedsystems.com and connectwise.com (403), several company about pages (404).
+
+COUNTS
+Names in DISC 422; all run through check.py. NEW 296, POSSIBLE 17, IN MASTER 55, ALREADY DELIVERED 38, F1 PARTNER 7, LISTED 9.
+Plus about 35 names from the researcher's own candidate list checked and found IN MASTER/ALREADY DELIVERED/F1 (logged in DUPS only, no list source):
+e.g. DATEV, Haufe, Dedalus, Veeam, Kaseya, Genesys (F1), Qlik, Zendesk, SAS Institute, Epic Systems, athenahealth, Zoho, MYOB, Fortnox, FNZ,
+Avaloq, SimCorp, Kyriba, Billtrust, AVEVA, Esri, dSPACE, Vector Informatik, MathWorks, COMSOL, Ansys (F1), BMC, Rocket, Blue Yonder.
+Researched 45 (MAIN 39, WATCH 6). Researched and left out: Syntellis (merged into Strata Decision), Volue (still shown as Oslo-listed),
+Veritas Technologies (split: Cohesity/Arctera), Paycor (Paychex deal close not confirmed), ABBYY (Russian origin, left out on caution),
+Woven by Toyota and Cariad (in-house carmaker software units; Cariad page was disambiguation only), Xactly (only a 2017 USD 564m deal; no recent data).
+
+COVERAGE
+Subsectors covered: ERP/accounting (TeamSystem, AFAS, Odoo, SUSE/Software AG), vertical software (auto dealer, real estate, insurance, govtech,
+restaurants, aviation, freight), fintech software (Bottomline, Calastone), healthcare IT (NextGen, Netsmart, MEDITECH, Inovalon, R1), engineering
+(Jama, ETAS, Elektrobit, Gamma), HR/staffing (Bullhorn, iCIMS, SD Worx), legal/compliance (Mitratech, NAVEX, Riskonnect), education (EAB, Turnitin,
+Frontline). Regions: mostly US; Europe (Germany, Italy, Netherlands, Belgium, Denmark, UK); Australia (Nearmap); Canada (Plusgrade, Harris).
+NOT reached: Japan, Korea, China, India, Latin America (Sankhya, Softland, Siesa checked NEW but not researched), Middle East, Africa;
+Lünendonk and Software 500 lists; Insight Partners, Silver Lake, KKR, Bain portfolio pages; most of the 267 NEW/POSSIBLE DISC names
+(e.g. Applied Systems, ConnectWise, Sovos, Conga, Calabrio, insightsoftware, Certinia, PDI Technologies, Energy Exemplar, Relias, Gainsight,
+Acquia, CentralSquare, Zywave, Duck Creek, Lucanet, Caseware, Orisha, thinkproject, Cyncly, Volue, Merative, the French ranking names,
+Roper/Fortive subsidiaries such as Clinisys, PowerPlan, iPipeline, The Foundry, Gordian, Provation, Intelex).
+
+CAVEATS
+- Several Route A qualifications rest on old figures (Bullhorn FY2020, MEDITECH FY2019, Inovalon FY2018, Turnitin 2019 deal, Accruent 2018 deal,
+  Pipedrive 2020 valuation, Reynolds 2006 deal); flagged in qualifying_metric.
+- Route C records for Mitratech, NAVEX, Riskonnect, Plusgrade rely on company-stated customer counts and office lists; owners taken from PE
+  portfolio pages because company pages did not state them.
+- Reynolds and Reynolds: compliance note (former owner/CEO Brockman indictment 2020). CDK Global: 2024 ransomware and antitrust litigation.
+- Software AG is being broken up (ARIS, Adabas & Natural spin-offs); buyer entity unclear.
+- No figures were taken from memory; HQ cities not shown on a page were left blank.

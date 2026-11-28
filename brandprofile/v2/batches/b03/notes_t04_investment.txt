@@ -1,0 +1,56 @@
+t04_investment - batch 3, MODE sector (Investment & Capital Markets), 28 Nov 2026
+
+FILES
+- MAIN  t04_investment.jsonl          106 records (Route A 101, Route C 5)
+- WATCH watch_t04_investment.jsonl     15 records
+- DISC  disc_t04_investment.jsonl     827 lines
+- DUPS  dups_t04_investment.jsonl     198 lines
+Every line parses as JSON. No company appears twice in MAIN/WATCH.
+
+SOURCES (list pages, raw wikitext read in this session) and names they gave
+- Wikipedia List of private equity firms (PEI 300 2026 top 30 + bank-affiliated PE table + notable firms by region): about 330 names
+- Wikipedia List of hedge funds (P&I top 20, June 2025 + notable firms by region): about 150 names
+- Wikipedia List of asset management firms (Thinking Ahead Institute top 20, 2025 + regional lists incl. Africa/Middle East): about 230 names
+- Wikipedia List of banks in Switzerland (systemic, top-tier and family-owned private banks): about 25 names
+- Wikipedia Private bank article: about 35 names
+- Wikipedia Proprietary trading and Market maker articles: about 25 names
+- Researcher-generated candidates (wealth platforms, European private banks, Brazilian/Asian managers) run through check.py: about 60 names
+Research pages: Wikipedia article (raw wikitext) for each researched firm, about 230 articles fetched; every MAIN/WATCH figure cites its article.
+WebSearch used: 2 of 2 (prop-trading revenue ranking; IPE Top 500 2026). IPE Top 500 ranking is paywalled (HTTP 405 on the ranking page).
+Finance Magnates page read: Jane Street (>US$40bn trailing net trading revenue) and HRT (both already in master), no new names.
+
+COUNTS
+- Names run through check.py: about 830 (two runs). IN MASTER 34, ALREADY DELIVERED 100, F1 PARTNER 5, LISTED? 40, POSSIBLE 41, NEW 607.
+- POSSIBLE judged the same company and logged in DUPS: D. E. Shaw, Jane Street, Tower Research, Pictet, Neuberger Berman Private Markets,
+  Goldman Sachs units, AQR, Farallon, Royal London AM, Raiffeisen, Mirae Asset, Edward Jones, Nuveen, Connor Clark & Lunn, Migros Bank,
+  Bradesco (now an F1 partner), Dubai International Capital, Capital Group Companies, JPMorgan Partners.
+- POSSIBLE judged different and kept: Tudor Investment Corporation (not TUDOR watches), Weatherbys (not The Weather Company).
+- Researched: 121 firms (106 MAIN, 15 WATCH).
+
+COVERAGE BY SUBSECTOR (MAIN)
+- Private equity / venture / growth / merchant banking: 36 (US 25, China/HK 7, Korea 1, UK 3, Switzerland 1 - incl. a16z, Sequoia, Kleiner, GTCR, H.I.G., Cerberus, Lone Star, PAG, MBK, Primavera)
+- Hedge funds and quant managers: 28 (US, UK, France, China, Singapore, Brazil)
+- Proprietary trading / market makers: 3 (DRW, Akuna, GTS; Route C)
+- Asset managers, OCIO, ETF issuers, wealth platforms: 34 (US, Germany, UK, Netherlands, China, Korea, Australia)
+- Private banks: 5 (Berenberg, Quintet, Bank Gutmann, Reichmuth, Maduro & Curiel's)
+Regions: North America and Europe well covered; China/HK, Korea, Singapore, Australia, Brazil, Curaçao partly; Middle East and Africa
+weakly (Africa/Middle East names on the AM list were checked but not researched); India, Japan, Latin America beyond Brazil, Gulf
+family offices not researched.
+
+CAVEATS
+- Figures come from Wikipedia infoboxes/leads; several are older than three years and flagged in `outstanding` (Coatue 2022, D1 2022,
+  TCV 2022, Caxton 2021, Capital Dynamics 2021, Samsung AM 2020, Bank Gutmann 2019). Lone Star figure is cumulative commitments.
+- Websites left blank where the page read did not show a clean domain (26 records).
+- No signals beyond Russell Investments (B Capital/CalPERS deal, Jul 2026) and PineBridge (MetLife deal, Dec 2024); signals not searched.
+- Ownership "partnership" is used for privately held, partner-owned firms whose Wikipedia type is "Private"; parents named for subsidiaries.
+- Category conflict: Carlyle, Goldman Sachs, BNY, Nuveen, Edward Jones, ZCG, Stephens, UBS are current F1 partners in this space;
+  no prop-trading firm on the roster.
+
+NOT DONE / REMAINING
+- 436 DISC names NEW but not researched (mainly smaller or older PE/hedge names from the Wikipedia lists, Chinese/Asian managers,
+  South African managers such as STANLIB, Foord, 10X; Swiss private banks such as CBH, Gonet, Rahn+Bodmer, REYL; prop traders
+  Chicago Trading Company, Headlands, Peak6, Quantlab, Radix, Tibra, Tradebot).
+- About 40 big names on the lists look listed (KKR, Blackstone, EQT, TPG, Apollo, Blue Owl, Partners Group, BlackRock, Amundi,
+  Invesco etc.); check.py did not flag them, they are in DISC as "not researched" and should not be delivered without checking.
+- Zürcher Kantonalbank, PostFinance, Bank Cler left to the banks task (t29).
+- Sources not opened: PEI 300 full list beyond top 30, IPE Top 500 (paywalled), Pensions & Investments rankings.

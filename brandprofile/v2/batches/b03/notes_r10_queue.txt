@@ -1,0 +1,36 @@
+r10_queue - batch 3 queue run, 28 Nov 2026. INPUT v2/batches/b03/in_q10.jsonl (80 lines). WebSearch used: 0. WebFetch only.
+All 80 names run through v2/check.py; MAIN/WATCH names and aliases re-checked with websites at the end
+(this caught Moura = Baterias Moura and City Group Bangladesh = City Group, both ALREADY DELIVERED b02, moved to DUPS).
+
+RESEARCHED - MAIN (23): FuriosaAI (A, USD 620M Series D), Odyssey Logistics (A), Poltrona Frau (A, listing to confirm),
+Piacentini & Son (A, FY22), New Aim (A, FY22), Löwen Entertainment (A, EUR 341.8m 2024), Wieden+Kennedy (C),
+Maple Bear Global Schools (C; parent SEB Education delivered b02 - flag), Geekvape (C; nicotine compliance), Vijay Sales (A),
+Future Electronics (A, USD 3.8bn acquisition by WT Microelectronics), Integrity Express Logistics (A), FromSoftware (A),
+Canal de Isabel II (C, state-owned), Masterclass (A), PopSockets (A, 2018 figures), Burton's Biscuit Company (C; parent Ferrero
+delivered b01), GDIT (C), Saddle Creek Logistics (A; own site 403, TT ranking only), Mathnasium (C), Viamericas (C, low conf),
+Hirschmann (A, 2017 figure), MegaCorp Logistics (A).
+RESEARCHED - WATCH (22): Brynild Gruppen, APT Travel Group, Certina, Hazeldene's Chicken Farm, Flydigi, Burrtec, Energylandia,
+Aqua Expeditions, Charriol, Wpromote, Mugen, Vakıf Katılım, Georgetown Brewing, Chaumet (parent LVMH is F1 partner),
+Anteraja, FURIA, Swedish Smokeless (ex-GN Tobacco), Zeno Group (sister Edelman delivered b02), MV Agusta, Bünting Tee,
+Atlas Ocean Voyages, Chronoswiss.
+
+LEFT OUT (DUPS, 31):
+- master / delivered: Consum S Coop V, Kindeva, Moeve Commercial, Altrad APAC, Altrad UK/IE/Nordics, Anytime Fitness
+  (Purpose Brands in master), Positec Worx, Orange Espagne (MasOrange), Moura, City Group Bangladesh, Luxury Leisure (Novomatic)
+- listed: Julphar, Aluar, ams OSRAM, Anadolu Group, Kobayashi, Atlantic Airways (Iceland SE 2007; current status not re-verified)
+- not a separate company: Markant Österreich, Airbus Defence and Space, Alsea Sudamérica, Telefonica Moviles España,
+  American Standard APAC, Event Cinemas, Dia Retail España, Everland
+- closed / compliance / other: Caparo (administration 2015), Mahzooz (ceased), UAE Exchange (Central Bank supervision),
+  Cascade Investment (holding vehicle), Alumni Association Usach (not a company), Capital Waste Services (tiny local firm).
+
+NOT RESEARCHED (4, no line written):
+- Empire Cinemas (Saudi Arabia): Wikipedia list gives no detail; the en.wikipedia "Empire Cinemas" article is the UK chain
+  (administration July 2023, dissolved Dec 2023); empire-cinemas.com returned 503.
+- People2.0 (Australia): people2.com empty, people2.com.au 503. IBISWorld 2022: AUD 403.3m (estimate), rank 178.
+- MPD Dairy (Australia): mpd.com.au and mpdairy.com.au do not resolve. IBISWorld 2022: AUD 400.2m, rank 180, 26 employees.
+- Bucked Up (US): buckedup.com returned 403; no Wikipedia article.
+
+Caveats: Australian IBISWorld figures are FY2022 (older than three years) and flagged in each record. Several figures are
+Wikipedia-only (Vijay Sales revenue has no year; PopSockets 2018; Hirschmann 2017; Future Electronics revenue 2014).
+TT Top 100 Logistics 2025 used for the four US logistics firms (none marked as estimates). All lines validated as JSON;
+no name appears twice across MAIN/WATCH/DUPS.

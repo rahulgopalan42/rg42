@@ -1,0 +1,40 @@
+NOTES r13_queue (batch 3, queue mode, input in_q13.jsonl, 80 lines). Verified 2026-11-28. WebSearch used: 0. WebFetch only. No Apollo.
+check.py run on all 80 names, then again on names without legal suffix / with aliases (e.g. Horse Powertrain, AVL List, B. Braun, Porsche Holding, KIO, Lion Air).
+
+RESEARCHED - MAIN (29):
+Hotondo Homes (A, IBISWorld 2022 revenue, old); Atitlan (A, EUR 609m revenue 2025, EBITDA EUR 70.5m); Dwr Cymru Welsh Water (A, GBP 779m c.2021; not-for-profit, very low fit);
+medi GmbH (C, 3,000 staff + DSV ski sponsorship); Gazelle (C, Pon subsidiary); Coffee Island (C, 460 stores, 12 countries); Serta Simmons Bedding (C, 18 plants + Macy's parade advertising; post-bankruptcy owner unknown);
+Kieler Wach- und Sicherheitsgesellschaft (C, Lünendonk estimate EUR 558m, No. 3 in Germany; input website was a different Kassel firm, corrected to kws-kiel.de);
+Daniel Wellington (A, 2016 revenue only; losses to 2021); San Remo (A, IBISWorld 2021); Orenes Grupo (C, 9 countries + VERSUSbet/Real Madrid deal);
+Point S (C, 6,673 outlets, 51 countries); Silhouette eyewear (A, EUR 160m 2022); Compose Coffee (B, Jollibee USD 340m for 70%);
+craveable brands (A, AUD 800m 2018; IBISWorld input row looks copied from another rank-212 entry - verify); Pedal Group (A, IBISWorld 2021); Steam Logistics (A, TT gross revenue USD 593m);
+Hypergryph (C, 1,200 staff + Arknights USD 700m+ cumulative revenue); Paper (A, USD 389.6m equity; distressed); Simba Sleep (B, ~USD 95m equity + athlete campaigns);
+Medicana (C, 16,000 staff, 4 countries, Fenerbahçe volleyball title sponsor); Confiserie Sprüngli (C, 1,000+ staff, 4 countries);
+Belmond (A, LVMH USD 3.2bn transaction 2019; parent LVMH is F1 global partner - flagged in category_conflict); Lambda (A, USD 1.5bn+ equity; strong B2B fit);
+Watco (A, USD 1.6bn revenue 2022, USD 600m+ investment 2025); EEW Energy from Waste (C, 1,400 staff, 17 plants; Beijing Enterprises subsidiary);
+Medice (A, EUR 395.4m 2024); Clark Equipment Group (A, IBISWorld 2022; thin record, identity to confirm); Werco Trade (A, CHF 3,004m 2022 from Swiss list only; no website found).
+RESEARCHED - WATCH (16): Het Anker, Orchids International School, Heusinkveld (F1 esports partner, 25 staff), Ozemio, Golden Screen Cinemas, Klipsch (Gentex), Peermont,
+Hofbräu München, Golden Village, Doxa, Stokke, Pathful, AZETA, PG Soft, Hongta Tobacco Group (tobacco - no route into F1), Baker Aviation (identity unclear).
+
+LEFT OUT (DUPS, 27):
+- master / delivered / F1 partner / alias: Horse Powertrain Spain, Automobili Lamborghini, Iveco España, AVL in SEA & Australia, B. Braun Medical (US), Porsche Holding Salzburg,
+  KIO Networks, Hong Leong Group (same brand as delivered Hong Leong Group Malaysia; Singapore group could be argued separately), Batik Air (Lion Air Group).
+- listed: ATRESMEDIA (BME), Azul (B3/NYSE), LOLC Holdings (CSE), Azelis (share price on own IR page; exchange to confirm), Intercorp (holding of listed IFS/InRetail; ADR holder).
+  Medical Park: probably listed via MLP Care (KAP page) - not confirmed; left out pending check.
+- not a separate company: Coca-Cola Europacific Partners Iberia, Michelin España Portugal, Toyota España, Auto Germany (Opel Singapore), Hanwha Life Esports (team of Hanwha Life), HyperX (HP brand).
+- other: Htoo Group (UK/US sanctions), Ecoembes (non-profit EPR scheme), Endeavour Foundation (charity), Autossuficiência Brasil (church department),
+  Australian Beef Sustainability Framework (not a company), AU Gold and Diamond (1-employee Clay row, site does not resolve).
+
+NOT RESEARCHED (no page could be opened; no record written):
+- BADGE (badge.com.au 503 / does not resolve; Wikipedia 404)
+- Odibets (site empty, Wikipedia 404)
+- Parts Holding Europe (own site 503; en/fr Wikipedia 404; phe-group.com does not resolve)
+- Churches of Christ in Queensland (site 503, Wikipedia 404; likely not-for-profit)
+- Heupink & Bloemen (only a Wikipedia list row: Black Devil / Pink Elephant brands; site does not resolve)
+- Dolomite (dolomite.it empty, dolomite.com does not resolve, Wikipedia 404)
+- Ecoeridania (site 503 three times, it.wikipedia 404)
+- Purdy Motor (purdymotor.com is an 'under construction' placeholder)
+
+Gaps: many revenue figures older than three years (IBISWorld 2021/22 rows, Daniel Wellington 2016, Belmond 2018, Watco 2022, Werco 2022);
+owners not confirmed for Serta Simmons, Coffee Island, medi, Medicana, Steam Logistics, Clark Equipment, Werco; marketing heads not identified for any record.
+Signals checked (newsroom or Wikipedia recent events) for 17 MAIN records; 12 MAIN records signals_checked = no (news pages 403/404 or not found).

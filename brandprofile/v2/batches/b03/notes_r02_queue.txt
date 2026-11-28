@@ -1,0 +1,43 @@
+r02_queue - batch 3 queue run on v2/batches/b03/in_q02.jsonl (80 lines), 28 Nov 2026. WebSearch: 0 used. WebFetch only.
+
+RESEARCHED
+MAIN (14): Scottish Water (A, revenue c. GBP 1bn, no year); Army and Air Force Exchange Service (A, USD 8.6bn 2025, US DoD agency - weak fit);
+iGA Istanbul Airport (C); First Fun / Funfly Pte (C, Last War gross spend estimate + ranking); AEON Entertainment (A, JPY 32bn FY2/2021, old);
+Axians (A, Vinci Energies brand, EUR 3.6bn 2021); True Value (A on old 2017 revenue; post-Chapter 11, owned by Do it Best which is IN MASTER);
+American Crystal Sugar (C); Echo Global Logistics (A, ownership not verified in session); binder / Franz Binder (C);
+Enedis (A, EUR 18.7bn 2025; parent EDF IN MASTER); AWOT Group (A, USD 3.35bn gross logistics revenue 2025; ownership unverified);
+Piggly Wiggly (C; parent C&S Wholesale Grocers IN MASTER); Aésio Mutuelle (A, >EUR 2bn 2025; group Aéma and Macif IN MASTER).
+WATCH (5): Aero Air, Greenworks, American Licorice, Amedei, Hungry Studio.
+
+LEFT OUT (DUPS, 50)
+- Master / delivered (incl. found via aliases or parent brand): Aston Manor, Migros, August Schell, TRC, Debiopharm, Homa, Allwyn Cesko, Deloitte,
+  PwC Australia, BNL (as Banca Nazionale del Lavoro), Louis Dreyfus Company, Auchan, Tous, Hutchies (Hutchinson Builders), Boehringer Ingelheim,
+  Competitive Foods (Hungry Jack's), Alpina (alpina.com = Alpina Productos Alimenticios, delivered b02), Bansk Group (amika), SOCAR Trading (SOCAR),
+  HUK-Autowelt (HUK-Coburg), Aldar Education (Aldar is a Yas Marina partner), SHV (holding; units in master, Mammoet F1 partner),
+  Mediterranean Shipping Company (MSC brand; MSC Cruises is a current F1 partner).
+  NOTE: BNL, LDC, Auchan, Tous, Hutchies, Boehringer and Competitive Foods passed check.py under their input names but matched under aliases.
+- Listed: Aster DM, Fibabanka (per Wikipedia ISE: FIBA - verify), EDP, Biocon, Kelani Tyres, Air Astana, Gestamp, Ghandhara Tyre.
+- Not a separate company: Carrefour España, Casino/Spar/Vival, Deep Silver (Plaion division), Repsol Fuels, Generali Italia, Beer Brands (Tilray
+  Beer Brands), BMK Group (now HANZA BMK), TFG Brands (London).
+- Not commercial: Deutsche Bundesbank, Ejército del Aire y del Espacio.
+- Closed / merged: Pixbet, Bet7K, CassinoPix (sites redirect to Brazil government block notice under Provisional Measure 1.394/26 banning online
+  betting - affects ALL Brazilian betting candidates in other queues); Chem-Aqua (now Solenis brand); CM-CIC Securities (merged into CIC 2016);
+  WWEX Group (merged with Auctane into ShipStation Global, Thoma Bravo - ShipStation Global checks NEW, could be a new candidate);
+  Hauck Aufhäuser Lampe (now Bethmann HAL, ABN AMRO); Carnival Cinemas (closed); Waternet (being dismantled).
+
+NOT RESEARCHED (11, no usable page opened)
+- I-Planet: Wikipedia 404, mersenne.co.jp ranking source did not resolve (DNS).
+- ANZ Hospitals: IBISWorld 2022 row confirmed (AUD 2,713.6m, 17,154 staff, balance 12/21) but entity not identified; possibly linked to Healthscope
+  (in receivership since May 2025, being broken up) - unverified, not written.
+- N G P Investments (No 1) Pty Ltd: IBISWorld row confirmed (AUD 2,174.9m, 6/20) but trading identity unknown without search.
+- Cordier by InVivo: cordier.com returned 502 twice; Wikipedia 404.
+- IMS: ASI Counselor Top 40 confirms rank 16, USD 193.5m 2024 US/Canada promo sales, but full name/HQ not given; profile not reachable.
+- Atvexa: atvexa.se returned no text; sv.wikipedia 404.
+- FP Markets: fpmarkets.com 403 (all paths tried); Wikipedia 404.
+- All Inclusive Fitness: Health Club Management (Deloitte/EuropeActive) shows 653k members and 172 clubs (2025) but no country/owner; site 503.
+- Laqshya Media: laqshyamedia.com host not reachable from this session (outside allowed network).
+- Bellevue Education: bellevueeducation.com is a parked domain.
+- Cantu: L Catterton lists Cantu as a current L Catterton Asia investment only; no company page reached. Note PDC Brands (Arthea) is IN MASTER.
+
+Pages that refused or failed: ldc.com (403), aldar.com (403), axians.com (403), aesio.fr (403), huk-autowelt.de (403), fpmarkets.com (403),
+igairport.com (503), awot.com (503), cordier.com (502).

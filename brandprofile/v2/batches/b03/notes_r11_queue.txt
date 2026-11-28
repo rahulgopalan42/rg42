@@ -1,0 +1,43 @@
+r11_queue (batch 3, queue mode) - input in_q11.jsonl, 80 lines. Verified 28 Nov 2026. WebSearch: 0 used (limit 0). WebFetch only.
+
+DUPLICATE CHECK: check.py run on all 80 names plus stripped/alias forms (AMAG, Applus, Dangote, Cofares, Archirodon, Arcelik, Thai AirAsia, Volkswagen, Riedel, etc.).
+Stripped-name checks caught: AMAG-Gruppe (IN MASTER as AMAG Group AG), Applus+ Pacific (Applus delivered b02), Cofares (delivered b02), Archirodon (IN MASTER), Arçelik (LISTED?).
+
+RESULTS: MAIN 30, WATCH 12, DUPS 24, not researched 14. Total 80.
+
+MAIN (30): Dalrymple Bay Coal Terminal Pty Ltd, A G Coombs Group, Factor Bikes, Vipps MobilePay, C. Thywissen, Hispasat, Ola ANI Technologies,
+Viva Republica (Toss), BlueGrace Logistics, Border Express, APRIL, BaptistCare, Grand River Enterprises, Fantawild Group, Cabot Creamery,
+Riedel (glassware), Aurora Expeditions, Hughes, Crane Worldwide Logistics, Catholic Healthcare, Oreca, Weatherbys, Avalon Waterways,
+Ice Norway, OIA Global, Sussan Group, Coastal Waste & Recycling, Tynan Motors, Gruppo Caffo, Kinrise.
+WATCH (12): Anywr, Meazure Learning, Aurigny, Corteiz, Mind Tools, Armah Sports Company, GameSir, Mindvalley, NetCom Learning, Rilastil, Liomont, Craft Sportswear.
+
+LEFT OUT (DUPS 24):
+- master / already delivered: AMAG-Gruppe, Applus+ Pacific, Dangote Group, La Renon, Archirodon Group N.V., Cofares.
+- listed: Krka (Ljubljana), Clariant (SIX), Arçelik Türkiye (BIST), Elsewedy (EGX), ARAUCO (Santiago, CELARAUCO).
+- merged away: Firmenich (into listed dsm-firmenich, 2023).
+- not a separate company: Apple Switzerland, Volkswagen Group España Distribucion, Volkswagen Navarra (plant), Apartments by Marriott Bonvoy,
+  Café Amazon (brand of listed PTT; 4,879-5,000+ outlets - reconsider only if a separate entity is confirmed), Dawood Group (not a legal entity),
+  Galatasaray Esports (club branch).
+- F1 partner: OMP Racing (supplies Mercedes and Audi F1 teams; owns Bell Racing).
+- other: Chimirec (2013 criminal conviction, fines upheld 2017 - compliance exclusion, flagged for user judgement), Mansion Group (no operating
+  business found; mansion.com redirects to casino.com affiliate site), Asia Aviation (small aviation training site; Clay bracket misattributed),
+  Arabic Ragnarok (1-employee game server).
+
+NOT RESEARCHED (14; no usable public page opened - Wikipedia 404s, sites returning 403/500/503, empty JS pages, parked domains):
+FUT Esports (futesports.com parked; Liquipedia 403), Gold Leaf Tobacco (site empty; no Wikipedia), Rasasi (site navigation only; About 500),
+Marina del Sol (redirects to mdscasinos.com, empty), Cirba Solutions (site 500, no Wikipedia), Corum (sites 401/503, no Wikipedia),
+ARCO Human Resources (arco.sa returns title only), MaxBet (maxbet.rs empty), Grand Tobacco (domain parked), Circular Resources (domain does not resolve),
+Fit/One (fitone.de 503, fitone.com parked), Arıkanlı Holding (503), Mozzart Bet (pages empty/404/500), Gazeus Games (403, no Wikipedia).
+A later run with WebSearch could resolve these; Mozzart Bet, Corum and Cirba Solutions are the most promising.
+
+CAVEATS
+- Several MAIN records rest on older revenue: IBISWorld Top 500 Private 2022 (FY2021/22) for A G Coombs, DBCT, Border Express, BaptistCare,
+  Catholic Healthcare, Sussan, Tynan, Kinrise; Thywissen (2021); Riedel (2018); Cabot (2008/2020); Hispasat revenue 2012 (route is the 2025 transaction).
+- BlueGrace, Crane and OIA gross revenue comes from the input source only (not re-verified).
+- BaptistCare and Catholic Healthcare are church/charity aged-care providers: they meet Route A but fit is near zero.
+- Hughes filed Chapter 11 in Aug 2026 (distress recorded). APRIL has deforestation history. Fantawild has an Iran park (sanctions screening) and its
+  own listing status was not confirmed: check before delivery. Grand River: tobacco; litigation history not checked.
+- Hispasat: parent Indra's IndraMind brand is a current F1 partner (recorded in category_conflict).
+- Riedel glassware is unrelated to Riedel Communications (F1 partner); name clash noted.
+- Kinrise: input came from the Australian IBISWorld list; matched to kinrise.com.au (Australian food maker), not the UK workspace firm kinrise.com.
+- signals_checked "yes" on 17 of 42 records; many company newsrooms could not be opened.

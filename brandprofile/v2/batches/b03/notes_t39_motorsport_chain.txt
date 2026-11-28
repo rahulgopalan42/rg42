@@ -1,0 +1,31 @@
+t39_motorsport_chain - batch 3, MODE sector - 28 Nov 2026
+Scope: motorsport and performance-engineering value chain (racing suppliers, sim racing, karting, circuits, schools, hospitality/travel, tuning/performance parts, classic-car auctions and dealers).
+
+COUNTS
+- MAIN 27, WATCH 19, DUPS 55 (incl. 1 F1-team exclusion found in research: Andretti Global / Cadillac F1), DISC 276.
+- Names run through check.py: about 250 across four calls. IN MASTER 13 (Cosworth, Prodrive, Enkei, Dainese, Speedway Motorsports, Akrapovic, K&N, Penske Corporation, Hendrick Automotive Group, M-Sport, Mahle, Haymarket, Dorna). ALREADY DELIVERED 14 (Hewland, Multimatic, Ilmor, Marelli, Cruden, iRacing, Simucube, Next Level Racing, HKS, Studio 397, Kunos, Cammus, Hoosier, Giti). F1 PARTNER 15 (Trak Racer, Playseat, Fanatec, Motul, Liqui Moly, BBS, Bell Racing, Schuberth, Alpinestars, Sparco, Sabelt, Ohlins, Bonhams, Brembo, Gulf Oil). The rest NEW or POSSIBLE.
+- Researched (company page / Wikipedia opened): 46 -> 27 MAIN, 19 WATCH.
+
+MAIN (route): Dallara (A, EUR 138.5M 2023), Pankl Racing Systems (C), NASCAR (A, USD 2bn ISC deal 2019 - old), Motorsport Network (C), Mecum Auctions (C), RM Sotheby's (C), Barrett-Jackson (C), Ricardo (A, WSP subsidiary), Brabus (A, EUR 150M 2024), KW automotive (C), Recaro Group (A, EUR 723M 2025), Eibach (C, weak), TMD Friction (A, EUR 736M 2019 - old; C backup), Goodwood Estate (C), K1 Speed (C), SRO Motorsports Group (C), Amsoil (C, weak), Walkinshaw Group (C), Oreca (A, EUR 172M 2024), ROWE Mineralölwerk (A, EUR 142M 2020 - old), Ligier (A, EUR 178.6M 2022), VP Racing Fuels (C), Haltermann Carless (C), Böllhoff (A, EUR 726M 2025), Penrite Oil (C), Toray Advanced Composites (C), MotorLand Aragón (A, state backing).
+Honest caveats: several MAIN records rest on older figures (NASCAR, TMD, ROWE, Ligier) or on Route C pairs that are thin (Eibach, Amsoil, Penrite, Toray AC). Ownership not verified for RM Sotheby's (Wikipedia "privately held") and Barrett-Jackson (owner "MARI" from 2025, not identified). Low-fit rights holders (NASCAR, SRO, Goodwood, MotorLand Aragón) meet a route but are partners/peers more than natural buyers.
+Signals: newsroom/news page opened for Dallara, Pankl, Haltermann Carless, Motorsport Network, Mecum, VP Racing; for others the recent-events part of Wikipedia. signals_checked = "no" where no such page was read or it was unavailable (Oreca and ROWE sites returned 503; Böllhoff newsroom 404). No marketing head named on any page read (marketing_head_identified "no" throughout).
+
+SOURCES USED (names given)
+- WebSearch (1 of 1 used): "list of largest motorsport engineering supplier companies by revenue" -> pointed to revenuebase list and Xtrac/Dallara pages.
+- revenuebase.ai "Formula one component suppliers" (25-name preview of 518; employee bands only): 25 names.
+- Wikipedia Category: Auto parts suppliers of Germany: 58 names (19 motorsport/tuning-relevant written to DISC).
+- Wikipedia Category: Kart manufacturers: 7 names.
+- Wikipedia "Motorsport Valley": 9 names (4 written to DISC).
+- Wikipedia category pages for motorsport equipment, sim racing and classic-car auctions do not exist (404).
+- Most DISC names are researcher-named candidates (source field says so) and were run through check.py; they are not list extractions.
+- Company/Wikipedia pages: listed in each record's sources.
+
+COVERAGE
+Covered: racing chassis/engineering (Dallara, Oreca, Ligier, Pankl, Ricardo), friction/brakes (TMD), fasteners (Böllhoff), composites (Toray AC), suspension/tuning (KW, Eibach, Brabus, ABT, Mugen, Edelbrock), lubricants and fuels (ROWE, Amsoil, Penrite, Bardahl, VP Racing, Haltermann Carless), seats (Recaro), karting (K1 Speed, OTK, Rotax), circuits and promoters (NASCAR, SRO, Supercars, MSV, Goodwood, MotorLand, Fuji, Paul Ricard), media (Motorsport Network), classic-car auctions (Mecum, RM Sotheby's, Barrett-Jackson, Bring a Trailer, Artcurial, Gooding), sim racing (Moza, Thrustmaster, Dynisma).
+Regions: strong on UK, Germany, Italy, France, US, Australia; thin on Japan (Mugen, Fuji only), China (Moza only), Korea (HJC not researched), Middle East, Latin America, India - not reached.
+
+NOT DONE / GAPS
+- Not researched (NEW in DISC): Xtrac, Race Winning Brands (site 403), CPC Group (no figures on site; Mitsubishi Chemical subsidiary), Capricorn Group, MoTeC, AiM, VI-grade, Simagic, Heusinkveld, AP Racing (Brembo subsidiary), Alcon, PFC, Wilwood, EBC, Rays, HRE, Vossen, Stilo, Stand 21, Birel ART, IAME, CRG, TeamSport, Thermal Club, Monticello, Skip Barber, Mansory, Novitec, H&R, Remus, MOMO, Collecting Cars (site 403), Broad Arrow, Iconic, classic dealers, Joe Gibbs Racing, Ganassi, other NASCAR/IndyCar teams, Prema, Gibson Technology, Fortescue WAE, Mylaps, Racelogic, Coryton, Magnaflow, Bilstein (thyssenkrupp unit), Turtle Wax (no figures on Wikipedia), Formula E (Wikipedia ownership outdated), E1 Series, Extreme E, Motorex, ARP, Pakelo, Putoline, Tein, Cusco, Kyalami, Portimão, hospitality/travel agencies (likely too small).
+- Ravenol and HJC: NEW but appear on the Red Bull Ring (Austrian GP) partner page; current GP deal must be checked before use.
+- Haltermann Carless: check.py POSSIBLE vs "Halter" (older sheet) - judged a different company.
+- Nothing here is exhaustive; Japanese, Korean and Chinese aftermarket and sim-racing makers are the main uncovered pool.

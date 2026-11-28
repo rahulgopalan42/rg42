@@ -1,0 +1,47 @@
+r08_queue (batch 3, queue mode) - input in_q08.jsonl, 80 lines, all handled. 28 Nov 2026. WebSearch: 0 used. WebFetch only.
+
+RESULT: MAIN 24, WATCH 21, DUPS 25, not researched 10.
+
+MAIN (route): Fininvest Group (A), Tickmill (C, low conf), Blue Bottle Coffee (C), Cycleurope (A), Aircalin (A, 2017 revenue - old),
+Wieland Gruppe (A), Ryan Transportation (A), Armstrong Transport Group (A), Traffix (A), Lumene (C), Grupo Arcor (C; listing status to verify),
+Leasys (C), Blue Diamond Growers (A, 2021 revenue), Bulova (A), DITO Telecommunity (A, loss-making), AirSprint (C, low),
+Newcastle Coal Infrastructure Group (A, 2022 IBISWorld figure), Airports Authority of India (C), Taylor Promotional Products (A),
+Stokrotka (C), MAM Babyartikel (C), Edwards Vacuum (C), Loterie Romande (A, gross gaming revenue), Tinuiti (C).
+
+WATCH: FIFCO USA, Suno United Creators, Louis Poulsen, Buccellati, FirstUnion Technology, Etermax, Korea Racing Authority, Eternal Fire,
+Flensburger Brauerei, Leverage Edu, Bollegraaf, TransferGo, Humanitas, EVOS Esports, Frescobaldi, Brantner, Al-Suwaidi Holding Company,
+Al Rajhi Takaful (LISTING MUST BE VERIFIED - exclude if its shares trade on the Saudi Exchange), Amalfi Jets, De Rosa, Burrda Sport.
+
+LEFT OUT (DUPS 25):
+- check.py duplicates: Ratnadeep, Eberspächer Gruppe, Jayco Corporation, Les Schwab (delivered/master); Jumbo Groep (F1 partner, Dutch GP).
+- found on follow-up checks: Credit Union Australia (= Great Southern Bank, delivered b02); Safra Group (Banco Safra / J. Safra Sarasin /
+  Saxo Bank on master); Akij Venture Group (concern of Akij Group, on master); Sonae MC (= MC (Continente) on master);
+  Toyota Financial Services (Toyota Motor Credit Corp. flagged as F1 partner).
+- listed: Hikma (LSE), Hisamitsu (TSE), AFCONS (NSE/BSE, 2024 IPO), Dahon (DAHON Tech, HKEX 2025).
+- not a separate company: Digi Spain (Digi Communications, BVB), AGBAR (absorbed into Veolia), Engie España (Engie),
+  Gas Natural Comercializadora and Naturgy Aprovisionamientos (Naturgy entities).
+- merged away: Leaseplan (now Ayvens, Euronext Paris).
+- other: Boar's Head (serious compliance problems - 2024 listeria outbreak, 10 deaths, continued USDA citations 2025);
+  Aruma Services, Lemnis, World Vision (non-profits); Agence Française de Développement (public development agency).
+
+NOT RESEARCHED (no usable page could be opened; no line written):
+- Ascend Elements: site returned 503 repeatedly; no Wikipedia article.
+- LearnQuest, Liberate: only seen on the Training Industry 2026 Top 20 Learning Services list (no details); own sites 404 / parked, directory 403.
+- Kirolbet: site 403/503, no Wikipedia article.
+- Attero Recycling: attero.in returned only page titles ("India's E-Waste & Lithium Battery Recycling Company"; "India's Largest Critical Minerals Company").
+- Talon Outdoor: site 522 (down) three times; no Wikipedia article.
+- Ahrens Group: site returned empty pages; no Wikipedia article.
+- Al Rashid Trading & Contracting: rtcc.com.sa 503.
+- AF Holding: only a bare name under Azerbaijan on Wikipedia's List of conglomerates; afholding.az 503.
+- Agence Bonne Nouvelle (Benin): LinkedIn 403; Clay data (2 employees vs USD 1-10B bracket) is inconsistent - likely a Clay error.
+
+CAVEATS:
+- Websites cleared where the domain was not seen on a page opened in this session.
+- DITO revenue converted at PHP 0.0172 (PHP not on the brief's rate list).
+- Several Route A figures are older than three years (Aircalin 2017, Blue Diamond 2021, NCIG 2022, Arcor 2015 shown alongside Route C).
+- Freight brokers' qualifying figures: Ryan uses gross revenue (net not reported); Armstrong and Traffix net revenue USD 170-172m.
+- Fininvest is a family holding whose main operating companies (Mondadori, MFE) are listed; consolidated revenue.
+- Buccellati: sister Richemont brand IWC is a current F1 partner (noted in category_conflict).
+- Stokrotka: parent Maxima Grupė was delivered in b02; Stokrotka kept as its own brand.
+Sources used: company sites and Wikipedia (en/de/it/fr/pl/es), ttnews.com 2025 logistics ranking, ASI Counselor Top 40 (2025),
+acontecendoaqui.com.br Cenp ranking, 2firsts.com Shenzhen Top 500, Training Industry list, Tyton Partners deal recap.

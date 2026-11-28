@@ -1,0 +1,64 @@
+Batch 3, key t40_energy_transition (MODE sector). Worked 28 Nov 2026. Independent web research.
+Scope: batteries and storage, hydrogen, e-fuels/SAF, carbon capture, solar and wind manufacturing, heat pumps, SMRs/nuclear/fusion,
+grid technology, EV charging hardware.
+
+COUNTS
+- MAIN 25, WATCH 2, DUPS 92, DISC 280 lines (every name run through check.py).
+- DISC check results: NEW 243, IN MASTER 14, LISTED 12, POSSIBLE 11. (Most dups were found in pre-checks of about 300 names, logged in DUPS.)
+- DISC stages: researched 35, left out 53, not researched 192.
+- Researched but not written to MAIN/WATCH: X-energy (Nasdaq IPO Apr 2026), General Fusion (Nasdaq GFUZ), TAE (merger with listed TMTG),
+  BlueOval SK (dissolved 2026), Zero Petroleum (Sauber F1 deal, logged in DUPS), Sinovel/Yingli/Suntech (listed, OTC or stale), CNNC (US PLA-linked
+  designation), Pod Point (below thresholds), Schaltbau and SK ecoplant (listing status unclear), Jakson, Molicel, CarbonCure, Heirloom,
+  Primearth, Verkor, Luminous, Lucy Electric, REC Group (no qualifying figure on the pages I opened).
+- The master already covers this sector heavily (its "Energy Storage & Climate", "Nuclear & Fusion" and "EVs & New Mobility" tabs): about
+  60 well-known names were IN MASTER or ALREADY DELIVERED (for example Hithium, AESC, ACC, PowerCo, Agratas, Climeworks, Svante, Stegra,
+  Topsoe, HIF Global, Enercon, Hitachi Energy, Alpitronic, Ekoenergetyka, Vaillant, Viessmann, Stiebel Eltron, Danfoss, Holtec, Westinghouse,
+  Newcleo, Rolls-Royce SMR, Orano, Urenco).
+
+MAIN BY SUBSECTOR
+- Nuclear and fusion (10): TerraPower, Kairos Power, Radiant Industries, Korea Hydro & Nuclear Power, Commonwealth Fusion Systems,
+  Helion Energy, Pacific Fusion, Tokamak Energy, Zap Energy, Proxima Fusion.
+- Storage, batteries and materials (6): Form Energy, Sila Nanotechnologies, SVOLT, ATL (TDK), Saft (TotalEnergies).
+  Geothermal: Fervo Energy.
+- Hydrogen and engines (2): Electric Hydrogen, Everllence (ex-MAN Energy Solutions, Volkswagen).
+- Grid, wind and charging hardware (4): Reinhausen, LM Wind Power (GE Vernova), Mennekes, Easee.
+- Heat pumps and HVAC (3): Rheem (Paloma, NASCAR sponsor), BDR Thermea (Baxi/Remeha), Goodman Global (Daikin).
+Strongest Formula 1 cases: Rheem (USD 6bn revenue, NASCAR spend, markets match the race calendar), Everllence (EUR 4.3bn, brand renamed
+June 2025), Sila (Mercedes-Benz is lead investor and customer), Saft (batteries used in F1 per Wikipedia), Reinhausen, BDR Thermea,
+Mennekes, Tokamak Energy (Oxfordshire).
+
+SOURCES (names extracted into DISC)
+- Wikipedia, List of electric-vehicle-battery manufacturers: 45 names, 39 written.
+- Wikipedia, List of wind turbine manufacturers: about 60 names, 30 written (historic/defunct and Russian/Iranian small makers skipped; Mapna written as seen).
+- Wikipedia, List of photovoltaics companies (first 100k characters): about 130 names, 28 written (mostly 2011-2015 data; defunct firms skipped).
+- Wikipedia, List of unicorn startup companies (all three parts): only 3 energy names (Helion, Octopus, Radiant).
+- WebSearch (the one allowed call): "Global Cleantech 100 2025 list companies": the result summary gave 20 names; the list page itself was not opened.
+- Company pages and Wikipedia articles (en, de, ja attempted): see sources in each record.
+- About 150 more candidates came from my own sector knowledge and were run through check.py; these show the source
+  "Independent research candidate" in DISC. No fact was written from memory: every figure in MAIN/WATCH comes from a page opened today.
+
+PROBLEMS
+- Wikipedia's REST API returned HTTP 429 to curl. Many guessed article titles returned 404 (Ascend Elements, Electric Hydrogen, Base Power,
+  Verkor, Panasonic Energy, Prime Planet, Tianjin Lishen, Efacec, Rondo, Antora, Mainspring, Marvel Fusion, Valar, AUX, Delixi, Ferroli,
+  Wolf, Krannich). Company sites that failed: saft.com newsroom (503), ascendelements.com (503), panasonic.com (403), amgreen.com (timeout),
+  weishaupt.de and krannich-solar.com (404).
+- Signals: checked from the Wikipedia history section or the company newsroom for 22 of 25 MAIN records. signals_checked = "no" for Saft,
+  Reinhausen and LM Wind Power (no dated events found or the newsroom did not open).
+- Old figures, flagged in the records: KHNP revenue 2020, BDR Thermea 2020, Goodman 2013, Rheem 2022, Mennekes 2022.
+
+NOT REACHED / FOR A LATER RUN
+- The target of 45 was NOT reached: 25 MAIN + 2 WATCH. NEW candidates remain unresearched (192 DISC lines), mainly:
+  China: Tianjin Lishen, Cornex, Qingtao, Rongke Power, Sofar, Solax, DAS Solar, Bluetti, Dyness, Trina Storage, Refire, Peric, Delixi, People Electric, AUX.
+  Japan/Korea: Panasonic Energy, Prime Planet Energy & Solutions, Toyota Battery, Blue Energy, Hanwha Energy, SK Plug Hyverse.
+  India: AM Green, Inox Clean Energy, Goldi Solar, Rayzon Solar, Gautam Solar, Navitas, Lohum, Log9, Hygenco, Microtek, Statcon, Exide Energy
+  Solutions, Reliance New Energy, Adani New Industries, Serentica, SolarSquare.
+  Europe: Verkor, Morrow, Flender/Winergy, EEW, Ormazabal/Velatia, Efacec, Omicron, SGB-SMIT, Secheron, Weishaupt, Wolf, Ferroli, Aermec,
+  Krannich Solar, BayWa r.e., Senec, Cellcentric, Symbio, Quest One, Elcogen, Hynamics, H2 Mobility, Hy24, Synhelion, P1 Fuels, Coryton,
+  Haltermann Carless, Myenergi, Ohme, Heliox, Circontrol, Marvel Fusion, Thorizon, Copenhagen Atomics, Seaborg, Steady Energy, Blykalla.
+  Americas: Ascend Elements, LanzaJet, World Energy, Twelve, Infinium, Span, Antora, Rondo, Mainspring, Koloma, Aalo, Valar, Thea, Type One,
+  Virginia Transformer, Howard Industries, ERMCO, Prolec GE, MacLean Power, BTC Power, Solfacil, Aldo Solar, Tupinamba, Casa dos Ventos.
+  Middle East/SE Asia: Desert Technologies, Enowa, Indonesia Battery Corporation, VinES, Trungnam.
+- Many NEW-flagged names on the Wikipedia lists are listed companies (CATL, LGES, Samsung SDI, Vestas, LONGi, etc.). check.py does not flag
+  them; they were marked "not researched" rather than excluded on memory. A later run should confirm and drop them.
+- Not used: trade-fair exhibitor lists (Intersolar, Hannover Messe, The battery show), EHPA/Hydrogen Council member lists, Chinese and Indian
+  ranking sources in the local language. None of this is exhaustive.

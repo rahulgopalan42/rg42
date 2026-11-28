@@ -1,0 +1,33 @@
+Clay discovery stream, batch 3, KEY clay_i01 (MODE clay, deeper paging) - notes, 28 Nov 2026
+Tools: mcp__Clay__search-companies + load-more-search-results only. No enrichment, no render, no WebSearch.
+Filter on every query: company_type in ("Privately Held","Partnership","Self Owned"). All four industry names accepted as given.
+Page limits (industry line): P1=2 ("1B-10B","10B-100B","100B-1T"), P2=2 ("500M-1B"), P3=1 ("200M-500M").
+Total: 19 pages read, 385 rows saved to clay_i01.jsonl (rows appended after every page).
+
+Query (industry | brackets) : pages read : rows : hasMore when stopped
+Software Development | 1B+ : 2 : 40 : TRUE (stopped at P1 cap; more pages remain)
+Software Development | 500M-1B : 2 : 40 : TRUE (stopped at P2 cap; more remain)
+Software Development | 200M-500M : 1 : 20 : TRUE (stopped at P3 cap; more remain)
+IT Services and IT Consulting | 1B+ : 2 : 40 : TRUE (P1 cap; more remain)
+IT Services and IT Consulting | 500M-1B : 2 : 40 : TRUE (P2 cap; more remain)
+IT Services and IT Consulting | 200M-500M : 1 : 20 : TRUE (P3 cap; more remain)
+Technology, Information and Internet | 1B+ : 2 : 40 : TRUE (P1 cap; more remain)
+Technology, Information and Internet | 500M-1B : 2 : 40 : TRUE (P2 cap; more remain)
+Technology, Information and Internet | 200M-500M : 1 : 20 : TRUE (P3 cap; more remain)
+Computer and Network Security | 1B+ : 2 : 25 : false (complete; page 2 had only 5 rows)
+Computer and Network Security | 500M-1B : 2 : 40 : TRUE (P2 cap; more remain)
+Computer and Network Security | 200M-500M : 1 : 20 : TRUE (P3 cap; more remain)
+Industries not reached: none.
+
+Data notes:
+- Rows copied as Clay gives them; desc trimmed to roughly the first 200 characters plus any owner/parent/ticker sentence (joined with " || ").
+- Many rows are subsidiaries or units of listed groups (Bosch units, Siemens DISW, Hitachi/GlobalLogic, NTT DATA entities, Shopee/Sea, Lazada/Alibaba,
+  Flipkart/Walmart, Indeed/Recruit, Tokopedia/GoTo, Thales, Wiz/Google, Own/Salesforce, Imperva/Thales, etc.) - left in for the later filter.
+- Clay mislabels some listed companies as Privately Held (e.g. Informatica "NYSE: INFA", Reply "EXM: REY", Hepsiburada "NASDAQ: HEPS", Swvl NASDAQ).
+- Junk / placeholder pages saved as given (Stealth, Remote Work, Anonymous, Confidential, Synophic, X-Keyscore, Hacker, Hackers On Planet Earth, etc.).
+  The Computer and Network Security 1B+ list in particular is mostly junk or absorbed brands (Offspark, Sansa, Cylance, Q1 Labs, Lacework, Normalyze).
+- "Fortinet | AI | Partner": Clay name has extra internal spaces; saved with single spaces.
+- Fever (Madrid) self-describes as Formula 1 Official Supplier.
+- One row (Amaris Consulting | Part of Mantu) was first mis-split by my helper because of a "|" in the name and was rewritten correctly before the check.
+
+disc_check.py result (385 rows): NEW 204, IN MASTER 97, ALREADY DELIVERED 31, POSSIBLE 27, F1 PARTNER 23, LISTED 3.

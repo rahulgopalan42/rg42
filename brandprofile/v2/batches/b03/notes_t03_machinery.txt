@@ -1,0 +1,68 @@
+t03_machinery - batch 3 sector run (Industrial Machinery & Equipment), 28 Nov 2026. Independent web research only (no Clay/Crunchbase in this run).
+
+COUNTS
+MAIN 34 (Route A 31, Route C 3); WATCH 11; DUPS 132; DISC 238.
+DISC check results: {'F1 PARTNER': 2, 'NEW': 166, 'LISTED': 33, 'ALREADY DELIVERED': 14, 'POSSIBLE': 6, 'IN MASTER': 17}. DISC stages: {'left out': 118, 'not researched': 73, 'researched': 47}.
+Also ran ~230 names from my own candidate list through check.py before research (most German Mittelstand machinery names are IN MASTER or ALREADY DELIVERED from b01/b02); their duplicates are in DUPS.
+Removed after final check: Optima packaging group (ALREADY DELIVERED b01 as Optima). Merlo left out (Monza circuit partner note + F1 track-recovery vehicles at GPs) and logged in DUPS.
+
+SOURCES USED (names extracted)
+- https://en.wikipedia.org/wiki/Category:Heating,_ventilation,_and_air_conditioning_companies: 63
+- https://www.listenchampion.de/groesste-maschinenbauer-deutschland-top-50-liste/: 50
+- https://en.wikipedia.org/wiki/List_of_tractor_manufacturers: 42
+- https://en.wikipedia.org/wiki/Category:Pump_manufacturers: 34
+- https://en.wikipedia.org/wiki/Category:Elevator_manufacturers: 9
+- https://en.wikipedia.org/wiki/List_of_elevator_manufacturers: 3
+- https://en.wikipedia.org/wiki/Barry-Wehmiller: 1
+- https://en.wikipedia.org/wiki/KUKA: 1
+- https://de.wikipedia.org/wiki/Multivac_Sepp_Haggenm%C3%BCller: 1
+- https://de.wikipedia.org/wiki/Everllence: 1
+- https://de.wikipedia.org/wiki/Hydac: 1
+- https://it.wikipedia.org/wiki/IMA_(azienda): 1
+- https://de.wikipedia.org/wiki/Doppelmayr/Garaventa-Gruppe: 1
+- https://de.wikipedia.org/wiki/Hoerbiger_Holding: 1
+- https://en.wikipedia.org/wiki/Zeppelin_GmbH: 1
+- https://de.wikipedia.org/wiki/Getriebebau_Nord: 1
+- https://de.wikipedia.org/wiki/K%C3%A4ssbohrer_Gel%C3%A4ndefahrzeug: 1
+- https://de.wikipedia.org/wiki/Samson_AG: 1
+- https://en.wikipedia.org/wiki/China_National_Machinery_Industry_Corporation: 1
+- https://en.wikipedia.org/wiki/Denso_Wave: 1
+- https://en.wikipedia.org/wiki/Tata_Hitachi_Construction_Machinery: 1
+- https://en.wikipedia.org/wiki/Forbes_Marshall: 1
+- https://en.wikipedia.org/wiki/Dematic: 1
+- https://en.wikipedia.org/wiki/Ariens: 1
+- https://en.wikipedia.org/wiki/Copeland_(company): 1
+- https://en.wikipedia.org/wiki/Bobst_SA: 1
+- https://en.wikipedia.org/wiki/Fairbanks_Morse: 1
+- https://en.wikipedia.org/wiki/Kemppi: 1
+- https://de.wikipedia.org/wiki/Witron: 1
+- https://de.wikipedia.org/wiki/Hoffmann_Group: 1
+- https://de.wikipedia.org/wiki/Optima_packaging_group: 1
+- https://de.wikipedia.org/wiki/Lenze_Gruppe: 1
+- https://de.wikipedia.org/wiki/Gerhard_Schubert_GmbH: 1
+- https://de.wikipedia.org/wiki/R%C3%B6sler_Oberfl%C3%A4chentechnik: 1
+- https://it.wikipedia.org/wiki/Maschio_Gaspardo: 1
+- https://it.wikipedia.org/wiki/Merlo_(azienda): 1
+- https://en.wikipedia.org/wiki/Swegon: 1
+- https://de.wikipedia.org/wiki/B%C3%BCrkert_Fluid_Control_Systems: 1
+- https://fr.wikipedia.org/wiki/Mecalac: 1
+- https://en.wikipedia.org/wiki/Special:Search?search=Orona+elevator+company: 1
+- https://en.wikipedia.org/wiki/SDF_Group: 1
+- https://en.wikipedia.org/wiki/Special:Search?search=Holt+Cat: 1
+- https://en.wikipedia.org/wiki/Special:Search?search=Altec+Inc: 1
+- WebSearch used: 1 of 2 (German machinery family-company rankings) -> led to listenchampion.de top-50.
+- Failed/refused: produktion.de top-20 (404), forbes.com largest private companies (list not in page), en.wikipedia Category:Packaging_machinery_manufacturers and List_of_machine_tool_manufacturers (404), wittur.com (403), argotractors.com (403), bdrthermea.com (503), sdfgroup.com (404/500), multivac.com and orona-group.com (404), Wikipedia API (rate limited). de.wikipedia family-company list and Austrian top-company list gave no usable machinery names via the fetch tool.
+
+COVERAGE
+Subsectors covered: machinery/plant engineering (DE), packaging machinery (DE, IT, US), HVAC/compressors (US, DE, NL, SE), elevators/lifts (DE, UK, SE, IN), drives/hydraulics/valves (DE, CH), robotics/intralogistics (DE, US), tractors/farm machinery (IT, CZ, PL, KR), construction-equipment distribution (DE), state machinery (CN), ropeways (AT).
+Regions: strongest in Germany/Austria/Switzerland and Italy; partial US, Nordics; thin for Japan, Korea, China, India (one or two names each).
+Not reached: VDMA and UCIMU member lists, interpack/EMO/bauma/Hannover Messe exhibitor lists, KHL Yellow Table, Japanese private makers (Mayekawa, Paloma itself), Korean subsidiaries beyond LS Mtron, Chinese private makers (Lovol, Hikrobot), Indian makers beyond Johnson Lifts/Forbes Marshall, US PE-owned packaging (Pro Mach, Duravant), US Cat/Deere dealers (Holt Cat, Ring Power, RDO), Madison Industries (no article found), Copeland (IPO status unresolved), Bobst (delisting not confirmed).
+
+QUALITY FLAGS
+Several MAIN records rely on older revenue (Rheem 2022, Barry-Wehmiller 2022, BDR Thermea 2020, Sinomach 2018, Stannah 2021, Johnson Lifts FY2019, Dematic c.2021, Swegon 2021, Hoffmann 2022) - flagged in 'outstanding'.
+Owner not named on page (non-listed legal form noted): Multivac (SE & Co. KG), Wittur (Holding GmbH), BDR Thermea, Big Dutchman, Cibes Lift. Kässbohrer is Route C with an outdated revenue figure.
+WATCH reasons: ownership/listing unverified (SDF Group, Samson, Lenze, LS Mtron, Antonio Carraro), or no financial route (AriensCo, Forbes Marshall, Edwards Vacuum, Fairbanks Morse Defense, Kemppi, Pronar).
+Most records are sourced from Wikipedia (en/de/it/fr) only; signals are few because pages rarely carry 2025-2026 news.
+
+DISC NAMES NOT RESEARCHED (73):
+Claas; Dürr; Festo; Karl Mayer; MAG IAS; Airedale International Air Conditioning; ASI Controls; AUX Group; Chromalox; Chunlan Group; CIAT Group; De Dietrich Remeha; DeLclima; Friedrich Air Conditioning; Goodman Global; Hart & Cooley; Jøtul; KMC Controls; MPF Industry Group; Nylex; OASIS International; Petra Engineering Industries; Pope Products; Reliance Home Comfort; Rettig ICC; Roberts-Gordon; Temperzone; Westaflex; Yilida; Alapont Group; McKinley Elevator; Aichi Elevator; Albany Pumps; American Marsh; Desmi; Eureka mekaniske Verksted; Franco Tosi Meccanica; Hibar Systems; LEWA; Mather & Platt; Pleuger; Profluid; Roots Blower; Service Pump & Supply; Stuart Turner; Thompson Pump; Tohatsu; Watson-Marlow Pumps; Agrinar; Pauny; Zanello; Lindner Traktoren; Agrale; Versatile; Lovol; Wuzheng; Jinma; Preet Tractors; Mahindra Tractors; Argo Tractors; BCS Group; Goldoni; Iseki; Ursus; IMT; Basak Traktor; Erkunt; Hattat; Solis; Tata Hitachi Construction Machinery; Orona; Holt Cat; Altec

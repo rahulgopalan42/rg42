@@ -1,0 +1,39 @@
+Clay discovery stream, batch 3, KEY clay_i04 (MODE clay, deeper paging) - notes, 28 Nov 2026
+Tools: mcp__Clay__search-companies + load-more-search-results only. No enrichment, no render, no WebSearch.
+Filter on every query: company_type in ("Privately Held","Partnership","Self Owned"). All four industry names accepted as given.
+Page limits (industry line): P1=2 ("1B-10B","10B-100B","100B-1T"), P2=2 ("500M-1B"), P3=1 ("200M-500M").
+Total: 20 pages read, 400 rows saved to clay_i04.jsonl (rows appended after every page).
+
+Query (industry | brackets) : pages read : rows : hasMore when stopped
+Industrial Machinery Manufacturing | 1B+ : 2 : 40 : TRUE (stopped at P1 cap; more pages remain)
+Industrial Machinery Manufacturing | 500M-1B : 2 : 40 : TRUE (P2 cap; more remain)
+Industrial Machinery Manufacturing | 200M-500M : 1 : 20 : TRUE (P3 cap; more remain)
+Machinery Manufacturing | 1B+ : 2 : 40 : TRUE (P1 cap; more remain)
+Machinery Manufacturing | 500M-1B : 2 : 40 : TRUE (P2 cap; more remain)
+Machinery Manufacturing | 200M-500M : 1 : 20 : TRUE (P3 cap; more remain)
+Automation Machinery Manufacturing | 1B+ : 2 : 40 : TRUE (P1 cap; more remain)
+Automation Machinery Manufacturing | 500M-1B : 2 : 40 : TRUE (P2 cap; more remain)
+Automation Machinery Manufacturing | 200M-500M : 1 : 20 : TRUE (P3 cap; more remain)
+Chemical Manufacturing | 1B+ : 2 : 40 : TRUE (P1 cap; more remain)
+Chemical Manufacturing | 500M-1B : 2 : 40 : TRUE (P2 cap; more remain)
+Chemical Manufacturing | 200M-500M : 1 : 20 : TRUE (P3 cap; more remain)
+Industries not reached: none. Every query stopped at its cap with more pages remaining.
+
+Data notes:
+- Rows copied as Clay gives them; desc trimmed to roughly the first 200 characters plus any owner/parent/ticker/revenue sentence (joined with " || ").
+- linkedin = "https://www.linkedin.com/company/" + the slug Clay returned.
+- Many rows are national units or subsidiaries of listed groups (Bosch Mexico/Turkey, Komatsu Europe/Brasil/Peru, Yokogawa, Yaskawa, Phoenix Contact
+  country pages, SEW-EURODRIVE country pages, Festo India, ZEISS India, Sany India, Tata Hitachi, Air Products India, Tesla India, Nidec units,
+  Toyota Industries units (Vanderlande, Toyota Automated Logistics, TMH Italy), Primetals/MHI, Mitsui Chemicals) - left in for the later filter.
+- Automation Machinery 1B+ page 2 is largely country offices/odd pages with very small headcounts (Delta Electronics Mexico 19, Yaskawa Canada 15,
+  Academy of Advanced Manufacturing 7, SCIVIC America 20, Pepperl+Fuchs France 23): Clay attaches group revenue to them.
+- Clay mislabels listed companies as Privately Held: Hiab (Nasdaq Helsinki), Sipchem (Saudi market), Adisseo (Shanghai), Mitsui Chemicals (Tokyo),
+  Ferreycorp (BVL), Mech-Mind Robotics (09615.HK), Petkim, Aksa, Cognizant unit (CTSH). Absorbed/renamed pages: SPX FLOW (now ITT), Schuler (now ANDRITZ),
+  Schenck Process (now Qlar), Ferro (now Vibrantz), Heubach (now Sudarshan), NCH/Chem-Aqua/Diversey (now Solenis), NOVA (now Borouge International).
+- Signals seen in descriptions (as Clay gives them, unverified): PRAMAC runs MotoGP team "Pramac Racing" (part of Generac); Soudal funds Soudal Quick-Step
+  cycling, Soudal Open golf and KVC Westerlo; Coesia lists "Racing & Automotive" customers; Persico Marine builds racing yachts; Groupe Atlantic joined
+  Paloma Rheem Holdings in 2026; JCB building a $500M San Antonio factory opening 2026.
+
+disc_check.py result (400 rows): NEW 238, IN MASTER 55, ALREADY DELIVERED 53, POSSIBLE 39, F1 PARTNER 9, LISTED 6.
+F1 PARTNER rows: Cefla, JCB, Haas Automation, JCB North America, Cognizant Life Sciences Manufacturing, Nouryon, INEOS, LIQUI MOLY, INEOS Grangemouth.
+All 400 lines parse as JSON and carry a check field.

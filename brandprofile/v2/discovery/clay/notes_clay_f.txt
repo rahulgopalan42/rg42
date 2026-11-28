@@ -1,0 +1,38 @@
+Telecommunications | 1B-10B, 10B-100B, 100B-1T | page 1 | 20 rows | hasMore=true | taskId mcp-task_0tp7awrbVdCB5BpJxSX
+Telecommunications | 1B-10B, 10B-100B, 100B-1T | page 2 | 20 rows | hasMore=true | taskId mcp-task_0tp7aws6fSHWxnDE9jZ
+Telecommunications | 1B-10B, 10B-100B, 100B-1T | page 3 | 20 rows | hasMore=true | taskId mcp-task_0tp7awswhfThWNNKsdR
+Telecommunications | 1B-10B, 10B-100B, 100B-1T | page 4 | 20 rows | hasMore=true | taskId mcp-task_0tp7awsgyHr9va2fnBx
+Telecommunications | 500M-1B | page 1 | 20 rows | hasMore=true | taskId mcp-task_0tp7azi866WYytEKeSe
+Telecommunications | 500M-1B | page 2 | 20 rows | hasMore=true | taskId mcp-task_0tp7azi9KcNsebcHMU8
+Wireless Services | 1B-10B, 10B-100B, 100B-1T | page 1 | 20 rows | hasMore=true | taskId mcp-task_0tp7b03tNXmd9Mzqfzf
+Communications Equipment Manufacturing | 1B-10B, 10B-100B, 100B-1T | page 1 | 4 rows | hasMore=false | taskId mcp-task_0tp7b0bxGvP37Tn4dYa
+Communications Equipment Manufacturing | 500M-1B | page 1 | 1 rows | hasMore=false | taskId mcp-task_0tp7b0jUhzwBR5mfGh2
+Communications Equipment Manufacturing | 200M-500M | page 1 | 6 rows | hasMore=false | taskId mcp-task_0tp7b0pyiqHWZNvmcnu
+Computer Networking Products | 1B-10B, 10B-100B, 100B-1T | page 1 | 11 rows | hasMore=false | taskId mcp-task_0tp7b0wVwhc2wp6Rdsp
+Computer Networking Products | 500M-1B | page 1 | 20 rows | hasMore=true | taskId mcp-task_0tp7b14CJiB3qwRS6jP
+Electrical Equipment Manufacturing | 1B-10B, 10B-100B, 100B-1T | page 1 | 7 rows | hasMore=false | taskId mcp-task_0tp7b1bSeof74m9WSm4
+Electrical Equipment Manufacturing | 500M-1B | page 1 | 20 rows | hasMore=true | taskId mcp-task_0tp7b1kNATEEaVQNjeC
+Electrical Equipment Manufacturing | 500M-1B | page 2 | 9 rows | hasMore=false | taskId mcp-task_0tp7b1kQpPkFc6mq86J
+Electrical Equipment Manufacturing | 200M-500M | page 1 | 20 rows | hasMore=true | taskId mcp-task_0tp7b1yYmA8PDRkWDic
+Appliances, Electrical, and Electronics Manufacturing | 1B-10B, 10B-100B, 100B-1T | page 1 | 20 rows | hasMore=true | taskId mcp-task_0tp7b26o3Cyu5vME6BH
+Appliances, Electrical, and Electronics Manufacturing | 1B-10B, 10B-100B, 100B-1T | page 2 | 20 rows | hasMore=true | taskId mcp-task_0tp7b26MT5eBmncCjAM
+Semiconductor Manufacturing | 1B-10B, 10B-100B, 100B-1T | page 1 | 20 rows | hasMore=true | taskId mcp-task_0tp7b2lGsZCB7kvtevJ
+Computers and Electronics Manufacturing | 1B-10B, 10B-100B, 100B-1T | page 1 | 20 rows | hasMore=true | taskId mcp-task_0tp7b2ucEqZps9BdH8q
+Computers and Electronics Manufacturing | 1B-10B, 10B-100B, 100B-1T | page 2 | 20 rows | hasMore=true | taskId mcp-task_0tp7b2uF2hbnKhNxYPs
+
+SUMMARY (clay_f, batch 3, 28 Nov 2026). Search only; no enrichment tools called. Filters: company_type in (Privately Held, Partnership, Self Owned).
+21 pages read, 338 rows saved. Stopped at 21 pages (not 45) to stay within the session's context budget; each page is ~12k tokens.
+Where each query stopped:
+- Telecommunications | 1B+ : 4 pages (cap reached), hasMore=true (unfinished).
+- Telecommunications | 500M-1B : 2 of 4 pages, hasMore=true (unfinished).
+- Telecommunications | 200M-500M : NOT RUN.
+- Wireless Services | 1B+ : 1 page, hasMore=true (unfinished; page 1 almost all US carrier retail dealers). 500M-1B and 200M-500M NOT RUN.
+- Communications Equipment Manufacturing | 1B+ : 1 page, 4 rows, complete. 500M-1B: 1 row, complete. 200M-500M: 6 rows, complete.
+- Computer Networking Products | 1B+ : 11 rows, complete (mostly junk LinkedIn pages). 500M-1B: 1 page, hasMore=true (unfinished; mostly Zyxel/Tenda regional pages). 200M-500M NOT RUN.
+- Electrical Equipment Manufacturing | 1B+ : 7 rows, complete. 500M-1B : 2 pages, complete (29 rows). 200M-500M : 1 of 3 pages, hasMore=true (unfinished).
+- Appliances, Electrical, and Electronics Manufacturing | 1B+ : 2 of 4 pages, hasMore=true (unfinished). 500M-1B and 200M-500M NOT RUN.
+- Semiconductor Manufacturing | 1B+ : 1 of 4 pages, hasMore=true (unfinished). 500M-1B and 200M-500M NOT RUN.
+- Computers and Electronics Manufacturing | 1B+ : 2 of 4 pages, hasMore=true (unfinished). 500M-1B and 200M-500M NOT RUN.
+Observation: the newer LinkedIn industry labels (Communications Equipment Mfg, Computer Networking Products, Electrical Equipment Mfg) hold few large private rows in Clay; older labels such as "Computer Networking", "Computer Hardware", "Consumer Electronics" may hold more and were not queried.
+disc_check.py counts: NEW 244, IN MASTER 30, ALREADY DELIVERED 23, POSSIBLE 29, LISTED 10, F1 PARTNER 2 (total 338). All 338 lines parse as JSON.
+Best follow-up: continue Appliances/Electronics, Semiconductor and Computers & Electronics 1B+ pages 3-4 and their 500M-1B groups; Telecom 200M-500M.

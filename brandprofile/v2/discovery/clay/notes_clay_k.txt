@@ -1,0 +1,27 @@
+clay_k notes (batch 3, 28 Nov 2026). Query form per brief_clay.md; company_type in (Privately Held, Partnership, Self Owned).
+Retail | 1B-10B,10B-100B,100B-1T: pages 1-3 read, 60 rows; hasMore true at stop (unfinished).
+Retail | 500M-1B: page 1 read, 20 rows; hasMore true (unfinished).
+Retail Groceries | 1B-10B,10B-100B,100B-1T: pages 1-2 read, 40 rows; hasMore true (unfinished).
+Retail Apparel and Fashion | 1B-10B,10B-100B,100B-1T: pages 1-2 read, 40 rows; hasMore true (unfinished).
+Retail Luxury Goods and Jewelry | 1B-10B,10B-100B,100B-1T: pages 1-2 read, 40 rows (page 2 includes several placeholder/junk profiles); hasMore true (unfinished).
+Food and Beverage Manufacturing | 1B-10B,10B-100B,100B-1T: pages 1-2 read, 40 rows; hasMore true (unfinished).
+Beverage Manufacturing | 1B-10B,10B-100B,100B-1T: pages 1-2 read, 40 rows (page 2 mostly small/odd profiles); hasMore true (unfinished).
+Consumer Goods | 1B-10B,10B-100B,100B-1T: pages 1-2 read, 40 rows (page 2 mostly small/odd profiles); hasMore true (unfinished).
+Personal Care Product Manufacturing | 1B-10B,10B-100B,100B-1T: page 1 read, 20 rows; hasMore true (unfinished).
+Sporting Goods Manufacturing | 1B-10B,10B-100B,100B-1T: pages 1-2 read, 24 rows; hasMore FALSE (finished).
+Sporting Goods Manufacturing | 500M-1B: page 1 read, 20 rows; hasMore true (unfinished).
+Apparel and Fashion | 1B-10B,10B-100B,100B-1T: page 1 read, 20 rows; hasMore true (unfinished).
+Food and Beverage Services | 1B-10B,10B-100B,100B-1T: page 1 read, 20 rows; hasMore true (unfinished).
+Furniture and Home Furnishings Manufacturing | 1B-10B,10B-100B,100B-1T: page 1 read, 20 rows; hasMore true (unfinished).
+Beverage Manufacturing | 500M-1B: page 1 read, 20 rows; hasMore true (unfinished).
+Retail Luxury Goods and Jewelry | 500M-1B: page 1 read, 20 rows; hasMore true (unfinished).
+Personal Care Product Manufacturing | 500M-1B: page 1 read, 20 rows; hasMore true (unfinished).
+
+Total pages read: 29 (task asked for about 45). Rows saved: 504. All lines parse as JSON.
+Deviations from the page caps in tasks.md, made to cover every industry within the session's context budget:
+- Top group ("1B-10B","10B-100B","100B-1T"): Retail stopped at page 3 of 4; Retail Groceries, Retail Apparel and Fashion, Retail Luxury Goods and Jewelry, Food and Beverage Manufacturing, Beverage Manufacturing, Consumer Goods stopped at page 2 of 4; Personal Care Product Manufacturing, Apparel and Fashion, Food and Beverage Services, Furniture and Home Furnishings Manufacturing stopped at page 1 of 4. All of these: hasMore still true (UNFINISHED). Sporting Goods Manufacturing finished (hasMore false after page 2).
+- "500M-1B": page 1 only for Retail, Sporting Goods Manufacturing, Beverage Manufacturing, Retail Luxury Goods and Jewelry, Personal Care Product Manufacturing (all hasMore true). NOT RUN for Retail Groceries, Retail Apparel and Fashion, Food and Beverage Manufacturing, Food and Beverage Services, Consumer Goods, Apparel and Fashion, Furniture and Home Furnishings Manufacturing.
+- "200M-500M": NOT RUN for any industry.
+Observation: page 2 of Retail Luxury, Beverage Manufacturing, Consumer Goods and Sporting Goods is dominated by tiny or placeholder LinkedIn profiles (employee_count < 100, junk text); they were saved anyway, as instructed.
+disc_check.py result: NEW 239, ALREADY DELIVERED 55, LISTED 17, IN MASTER 130, F1 PARTNER 16, POSSIBLE 47.
+No enrichment tools were called; search and load-more only.

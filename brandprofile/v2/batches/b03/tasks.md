@@ -52,6 +52,7 @@ a name or brand different from the parent, have their own website and management
 USD 150M+, 500+ employees, or clear market position). Skip national sales entities, plants, holding and finance vehicles, and brands
 with no separate company behind them. Research the most Formula 1-relevant ones to MAIN; put the rest in DISC with `"parent"`.
 - u01_japan_subs: subsidiaries and overseas operating companies of Japanese listed groups (Nikkei 225 members and large trading houses), especially their US and European operating companies that trade under their own name (the AFL / Fujikura pattern).
+- u08_japan_subs_b: second pass on Japanese listed groups that u01 did not reach: Panasonic, Denso, Fujitsu, NEC, Mitsubishi Electric, Mitsubishi Heavy Industries, Seven & i, Japan Tobacco, Hitachi, Toshiba, Sumitomo Electric, Furukawa Electric, Kyocera, Murata, TDK, Nidec, Komatsu, Kubota, Bridgestone, Yamaha, Suzuki, Subaru, Mazda, Isuzu, Rakuten, SoftBank, Recruit, Dentsu, the trading houses and the large insurers: their independently branded operating companies, especially in the US, Europe and Asia. Read `notes_u01_japan_subs.txt` first so you do not repeat it.
 - u02_us_subs: independently branded operating companies of US listed groups: Berkshire Hathaway companies, Danaher, Fortive, ITW, Roper, Honeywell, 3M spin-outs, Marsh McLennan, large insurers, banks, media and consumer groups.
 - u03_europe_subs_a: independently branded subsidiaries of listed groups from Germany, Austria, Switzerland, the Netherlands, Belgium and the Nordics.
 - u04_europe_subs_b: independently branded subsidiaries of listed groups from France, the UK, Ireland, Italy, Spain and Portugal.
@@ -59,7 +60,7 @@ with no separate company behind them. Research the most Formula 1-relevant ones 
 - u06_pe_portfolio: portfolio companies of the largest private equity firms: KKR, Blackstone, Carlyle, Apollo, TPG, Bain Capital, Advent, CVC, EQT, Cinven, Permira, Warburg Pincus, Hellman & Friedman, CD&R, Ardian, PAI, BC Partners, Brookfield, General Atlantic. Read each firm's portfolio page in full.
 - u07_swf_portfolio: operating companies owned or controlled by sovereign and state investors: PIF, Mubadala, ADQ, QIA, Kuwait Investment Authority, Temasek, GIC, Khazanah, Samruk-Kazyna, Turkey Wealth Fund, CIC units, plus large pension-fund-owned operating companies (CPP, OTPP, CDPQ, OMERS). Check each for a current F1 or Grand Prix deal.
 
-## MODE country (WebSearch 3 each). Follow `v2/brief_b02.md`. Use the country's own largest-company rankings in the local
+## MODE country (WebSearch 2 each). Follow `v2/brief_b02.md`. Use the country's own largest-company rankings in the local
 language (registry-based revenue rankings, business-magazine top 500/1000 lists, family-business rankings), extract every unlisted
 company on them into DISC, then research the largest and most relevant.
 - k01_france_benelux: France (Les Echos / L'Usine Nouvelle / Verif rankings), Belgium (Trends Top), Luxembourg, Netherlands second pass (Elsevier/EW Top 500).
@@ -93,3 +94,91 @@ read about 45 pages in total and say in NOTES exactly where each query stopped.
 - clay_m: Automotive; Motor Vehicle Manufacturing; Motor Vehicle Parts Manufacturing; Truck Transportation; Transportation, Logistics, Supply Chain and Storage; Maritime Transportation; Aviation and Aerospace Component Manufacturing; Defense and Space Manufacturing; Rail Transportation.
 - clay_n: Hospitals and Health Care; Pharmaceutical Manufacturing; Medical Equipment Manufacturing; Biotechnology Research; Business Consulting and Services; Law Practice; Accounting; Staffing and Recruiting; Facilities Services; Security and Investigations; Environmental Services; Education Administration Programs.
 - clay_o: by headquarters country instead of industry, `locations.any(country_name = "<country>" and is_headquarters = true)` with the same company types and the revenue groups ("1B-10B","10B-100B","100B-1T") then ("500M-1B"), 2 pages each: Japan, South Korea, India, Brazil, Mexico, Turkey, Saudi Arabia, United Arab Emirates, Germany, France, Italy, Spain, United Kingdom, Canada, Australia, Indonesia, Thailand, Malaysia, Singapore, South Africa, Poland, Netherlands, Switzerland, Sweden.
+
+## MODE sector, added 28 Nov: emerging categories and value chains (WebSearch 1 each)
+- t39_motorsport_chain: the motorsport and performance-engineering value chain: suppliers to racing teams (composites, electronics, simulation, wind tunnels, fasteners, fluids, brakes, wheels, helmets and racewear), sim-racing hardware and platforms, karting, circuit operators, racing schools, motorsport hospitality and travel agencies, tuning and performance-parts brands, classic-car auction houses and dealers. Many are already F1 partners: check each.
+- t40_energy_transition: batteries and energy storage, hydrogen, e-fuels and sustainable fuels, carbon capture, solar and wind manufacturers, heat pumps, small modular reactors, grid technology, EV charging hardware; private, state-backed and subsidiaries, with real weight on China, Korea, Japan, India and Europe.
+- t41_robotics_space_quantum: robotics and humanoids, drones, advanced air mobility, launch and satellite companies, quantum computing, photonics and AI chips, autonomous driving, outside the United States first (China, Japan, Korea, Europe, Israel, India), then large private US names.
+- t42_health_longevity: consumer health platforms, telehealth, weight-management and longevity clinics, direct-to-consumer diagnostics, wearables and fitness technology, sleep and mental-health products, sports nutrition and sports medicine.
+- t43_creator_consumer_apps: consumer internet platforms and apps, creator-economy companies and creator-owned consumer brands, dating, audio and video streaming, collectibles and trading cards, ticketing and resale, fantasy sports, prediction markets, super-apps and delivery platforms in Asia, the Middle East, Africa and Latin America.
+- t44_datacentres_infra: data-centre developers and operators, GPU clouds, fibre backbone and subsea cable owners, edge networks, power and cooling suppliers to data centres, modular data-centre makers, and the infrastructure-fund platforms that own them.
+- t45_b2b_services_niche: testing laboratories, industrial distribution, equipment rental, fleet management and telematics, workwear and textile services, pest control, industrial cleaning, vending and office coffee, document and data services, translation, exhibition organisers and trade-fair companies, loyalty and gift-card operators.
+- t46_wholesale_distribution: wholesale and distribution groups: food-service distributors, pharmaceutical wholesalers, IT and electronics distributors, auto-parts distributors, builders' merchants, steel service centres, chemical distributors, beverage distributors.
+- t47_bottlers_importers: licensees and regional operators of global brands: Coca-Cola and Pepsi bottlers, brewery licensees, car importers and distributors (the Emil Frey / Al-Futtaim / Abdul Latif Jameel pattern), luxury and fashion retail franchise groups (the Chalhoub / Alshaya pattern), quick-service master franchisees, travel-retail operators. Every region; these groups often sponsor their home Grand Prix, so check for an existing race deal.
+- t48_mobility_platforms: public-transport operators, railways, toll-road and parking operators, bus and coach groups, ride-hailing, micromobility, car-sharing and subscription, taxi apps, and urban-mobility technology.
+- t49_gapfinder_a: independent sector audit. Take the GICS sub-industry list (about 160 sub-industries; Wikipedia "Global Industry Classification Standard"). Compare it with the sector list at the top of this file and with every task line in this file. Name in NOTES every sub-industry that no task covers. Then research the largest gaps: for each, find list sources, write every name to DISC and the strongest to MAIN.
+- t50_gapfinder_b: independent sector audit, second view. Take the NACE Rev. 2 / ISIC divisions and the LinkedIn industry list and do the same as t49: name the industries no task covers (for example funeral services, laundries, religious and non-profit brands, postal services, space, forestry, fishing, textiles, ceramics, musical instruments, firearms, cannabis, pets, weddings, childcare, sports clubs) and research the largest and most Formula 1-relevant gaps.
+
+## MODE country, added 28 Nov: the regions earlier batches under-covered (WebSearch 2 each). Local-language sources first.
+- k15_japan: Japan only. Unlisted majors and large family firms: 非上場企業 売上高ランキング, Teikoku Databank and Tokyo Shoko Research rankings, Wikipedia Japan lists, Nikkei rankings; trading, housing, beverages, retail, publishing, gaming, pachinko, logistics, food.
+- k16_korea: South Korea only. 비상장 기업 매출 순위, unlisted chaebol affiliates, mid-sized "World Class 300" firms, Korean unicorns, retail, cosmetics, gaming, food.
+- k17_china_a: mainland China, All-China Federation of Industry and Commerce Top 500 private enterprises (中国民营企业500强), ranks 1 to 250: every unlisted company.
+- k18_china_b: mainland China ranks 251 to 500 of the same list, Hurun China unlisted and unicorn lists, provincial champions, plus Hong Kong and Macau private groups.
+- k19_india_giants: India. Unlisted giants and unlisted companies of the large family groups, unlisted public-sector undertakings, Burgundy Private Hurun India 500 (unlisted), Fortune India 500 unlisted.
+- k20_india_consumer: India. Co-operatives (dairy), jewellery and retail chains, education, healthcare, consumer brands, unicorns and regional champions that are unlisted; plus Pakistan, Bangladesh, Sri Lanka and Nepal.
+- k21_indonesia_ph_vn: Indonesia, the Philippines and Vietnam, country by country, in local sources (Kompas100/Fortune Indonesia 100 unlisted, BusinessWorld Top 1000, VNR500).
+- k22_thai_my_sg: Thailand, Malaysia, Singapore, Cambodia and Myanmar, country by country (unlisted family groups, state enterprises, Singapore Enterprise 50 / SME 1000).
+- k23_gulf_groups: Saudi Arabia, the UAE, Qatar, Kuwait, Bahrain and Oman: family groups, state companies and free-zone champions (Forbes Middle East Top 100 Arab Family Businesses, Top 100 companies, Saudi and UAE brand rankings). Check each for a current F1 or Grand Prix deal.
+- k24_turkey: Turkey only: ISO 500 and ISO second 500, Capital 500, Fortune 500 Türkiye, the holding groups and their unlisted operating companies.
+- k25_africa_north_west: Egypt, Morocco, Algeria, Tunisia, Nigeria, Ghana, Ivory Coast, Senegal, Cameroon.
+- k26_africa_east_south: South Africa (unlisted and state-owned), Kenya, Ethiopia, Tanzania, Uganda, Angola, Mozambique, Mauritius, Zambia.
+- k27_brazil: Brazil only: Valor 1000 and Exame Melhores e Maiores, every company that is not listed on B3 (capital fechado), family groups and co-operatives.
+- k28_latam_spanish: Argentina, Chile, Colombia, Peru, Ecuador, Uruguay, Paraguay, Bolivia, Central America and the Caribbean, country by country.
+- k29_levant_central_asia: Israel, Jordan, Lebanon, Iraq, Kazakhstan, Uzbekistan, Azerbaijan, Georgia and Armenia: largest private and state companies. Azerbaijan hosts a Grand Prix: check each Azerbaijani name for a race deal.
+- k30_taiwan_hk_anz: Taiwan (CommonWealth Top 2000 unlisted), Hong Kong private groups, Australia and New Zealand second pass (unlisted companies beyond those already taken).
+
+## MODE clay, added 28 Nov: deeper paging (no WebSearch). These replace clay_g to clay_o. Follow `v2/brief_clay.md`.
+Each Clay page costs a lot of context, so you can read about 20 pages. For EACH industry or country in your line run, in this
+order: ("1B-10B","10B-100B","100B-1T") up to P1 pages; ("500M-1B") up to P2 pages; ("200M-500M") up to P3 pages, moving to the
+next group when `hasMore` is false. Industry lines: P1=2, P2=2, P3=1. Country lines: P1=3, P2=2, P3=2, with the filter
+`locations.any(country_name = "<country>" and is_headquarters = true)` and no industry filter.
+Save rows after every page. Say in NOTES exactly where each query stopped and whether more pages remained.
+- clay_i01: industries: Software Development; IT Services and IT Consulting; Technology, Information and Internet; Computer and Network Security.
+- clay_i02: industries: Financial Services; Banking; Insurance; Investment Management.
+- clay_i03: industries: Capital Markets; Venture Capital and Private Equity Principals; Real Estate; Holding Companies.
+- clay_i04: industries: Industrial Machinery Manufacturing; Machinery Manufacturing; Automation Machinery Manufacturing; Chemical Manufacturing.
+- clay_i05: industries: Plastics Manufacturing; Packaging and Containers Manufacturing; Mining; Primary Metal Manufacturing.
+- clay_i06: industries: Paper and Forest Product Manufacturing; Textile Manufacturing; Glass, Ceramics and Concrete Manufacturing; Fabricated Metal Products.
+- clay_i07: industries: Oil and Gas; Utilities; Renewable Energy Power Generation; Electric Power Generation.
+- clay_i08: industries: Construction; Civil Engineering; Building Materials; Wholesale Building Materials.
+- clay_i09: industries: Retail; Retail Groceries; Retail Apparel and Fashion; Retail Luxury Goods and Jewelry.
+- clay_i10: industries: Food and Beverage Manufacturing; Food and Beverage Services; Beverage Manufacturing; Dairy Product Manufacturing.
+- clay_i11: industries: Consumer Goods; Personal Care Product Manufacturing; Sporting Goods Manufacturing; Furniture and Home Furnishings Manufacturing.
+- clay_i12: industries: Hospitality; Travel Arrangements; Airlines and Aviation; Restaurants.
+- clay_i13: industries: Entertainment Providers; Spectator Sports; Broadcast Media Production and Distribution; Gambling Facilities and Casinos.
+- clay_i14: industries: Computer Games; Advertising Services; Wellness and Fitness Services; Media Production.
+- clay_i15: industries: Automotive; Motor Vehicle Manufacturing; Motor Vehicle Parts Manufacturing; Truck Transportation.
+- clay_i16: industries: Transportation, Logistics, Supply Chain and Storage; Maritime Transportation; Freight and Package Transportation; Rail Transportation.
+- clay_i17: industries: Aviation and Aerospace Component Manufacturing; Defense and Space Manufacturing; Semiconductor Manufacturing; Computers and Electronics Manufacturing.
+- clay_i18: industries: Appliances, Electrical, and Electronics Manufacturing; Consumer Electronics; Computer Hardware Manufacturing; Wireless Services.
+- clay_i19: industries: Hospitals and Health Care; Pharmaceutical Manufacturing; Medical Equipment Manufacturing; Biotechnology Research.
+- clay_i20: industries: Business Consulting and Services; Law Practice; Accounting; Staffing and Recruiting.
+- clay_i21: industries: Facilities Services; Security and Investigations; Environmental Services; Education Administration Programs.
+- clay_i22: industries: Wholesale; Farming; Tobacco Manufacturing; Wine and Spirits.
+- clay_i23: industries: Higher Education; Events Services; Leasing Non-residential Real Estate; Telecommunications.
+- clay_c01: countries: Japan; China; South Korea.
+- clay_c02: countries: India; Indonesia; Vietnam.
+- clay_c03: countries: Thailand; Malaysia; Singapore.
+- clay_c04: countries: Philippines; Taiwan; Hong Kong.
+- clay_c05: countries: Saudi Arabia; United Arab Emirates; Qatar.
+- clay_c06: countries: Turkey; Israel; Egypt.
+- clay_c07: countries: Kuwait; Morocco; Nigeria.
+- clay_c08: countries: South Africa; Kenya; Pakistan.
+- clay_c09: countries: Brazil; Mexico; Argentina.
+- clay_c10: countries: Chile; Colombia; Peru.
+
+## MODE sector, added 28 Nov: companies that already pay for sport (WebSearch 1 each)
+- t51_sport_sponsors_a: unlisted companies that already hold large sponsorships outside Formula 1: front-of-shirt, sleeve and stadium-naming sponsors in the top football leagues of England, Spain, Germany, Italy, France, the Netherlands, Portugal, Turkey, Saudi Arabia, Brazil, Argentina, Mexico, the US, Japan and Korea; NBA, NFL, MLB, NHL and IPL team and jersey sponsors; title sponsors of cycling teams, golf and tennis tournaments, sailing (SailGP, America's Cup) and rugby. Existing paid sponsorship is itself a qualifying route: record it in `sponsorships` with the page. Sources: Wikipedia season articles and "list of ... sponsors" pages, league and club partner pages.
+- t52_sport_sponsors_b: unlisted companies that sponsor other motorsport: MotoGP and WorldSBK teams, Formula E, WEC and Le Mans, IndyCar, NASCAR, IMSA, WRC, DTM, Supercars, Super GT, Formula 2 and 3 teams and drivers' personal sponsors, Dakar, and national series. Read each series' and team's partner page. Leave out anyone who already holds a Formula 1 championship, team or Grand Prix deal; record the motorsport deal in `sponsorships`.
+
+- t53_sport_sponsors_c: third pass on companies that already pay for sport, covering what t51 and t52 did not reach: NBA, NFL, MLB, NHL and MLS team, jersey-patch and stadium-naming sponsors; IPL and other cricket leagues; Argentine, Saudi, Brazilian and Liga MX football sponsors; rugby, SailGP and America's Cup, tennis and golf tournament title sponsors; WRC, Formula 3 and Latin American and Asian national motorsport series. Read `notes_t51_sport_sponsors_a.txt` and `notes_t52_sport_sponsors_b.txt` first, and research their unresearched DISC names that are the largest.
+
+## MODE audit (WebSearch 1 each). Follow `v2/brief_audit.md`. Run only after most research files exist.
+- x01_audit_americas: Wikipedia "List of largest private non-governmental companies by revenue"; Forbes America's Largest Private Companies (if it opens); the Globe and Mail / Financial Post largest private Canadian companies; a Latin American top-500 ranking not yet used.
+- x02_audit_europe: Family Capital 750; EY and University of St.Gallen Global 500 Family Business Index; a national ranking for France, the UK and Italy that the notes show was not used.
+- x03_audit_asia_mea: Forbes Middle East Top 100 Arab Family Businesses; Hurun or Fortune India unlisted lists; a Japanese and a Korean unlisted-company ranking; an African top-company ranking, in each case one the notes show was not used.
+- x04_audit_industry_a: Automotive News / Berylls top 100 global suppliers; ENR Top 250 Global Contractors; Armstrong or Transport Topics top logistics lists; C&EN Global Top 50 chemicals: the unlisted companies on each.
+- x05_audit_industry_b: Deloitte Global Powers of Retailing; Deloitte Global Powers of Luxury Goods; Food Engineering Top 100 food and beverage companies; WWD Beauty Top 100: the unlisted companies on each.
+- x06_audit_finance: PEI 300 private equity firms; IPE or Pensions & Investments top asset managers (unlisted ones); Am Law / Global 200 law firms; the largest insurance brokers and mutual insurers lists.
+- x07_audit_unicorns: Wikipedia "List of unicorn startup companies" and one other unicorn index: every company valued at USD 1B+ (this measures what the Crunchbase stream, not yet run, will have to add).
+- x08_audit_state_global: Fortune Global 500 and Forbes Global 2000 members whose shares do not trade (state-owned, mutual, co-operative, private); Wikipedia "List of largest companies by revenue"; the World Co-operative Monitor Top 300.

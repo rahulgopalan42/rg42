@@ -1,0 +1,34 @@
+NOTES r01_queue (batch 3, queue mode, input in_q01.jsonl, 80 lines). Verified 2026-11-28. WebSearch used: 0. WebFetch only.
+
+RESEARCHED - MAIN (16): Cedar Holdings Group (A, revenue 2021, low fit); Side (formerly PTW) (C, subsidiary of Tokyo-listed PTW Holdings);
+BCLC (A); Bungie (A, Sony 2022 transaction USD 3.6bn; heavy layoffs/impairment); Armada (A, TT gross revenue; owner not found);
+Beon (A, TT gross revenue; site 503, thin record, conf low); Expleo (C, 17,000 staff, 29 countries; owner not confirmed);
+Polar Electro (C; revenue EUR 110m below Route A, loss-making); Yusen Logistics (A, NYK subsidiary); Elk Valley Resources (A, Glencore 77%);
+An Post (A); Encore event technology (C); Aakash Educational Services (A, BYJU'S subsidiary, distressed parent);
+SegurCaixa Adeslas (A; NOTE parent Mutua Madrileña is in master - user to decide); The Travel Corporation (A, EBITDA, Apollo-owned);
+Frimesa (A, revenue 2021).
+RESEARCHED - WATCH (2): D'Ieteren Automotive (one Route C indicator; distributes Audi); Avanti Communications (no data after 2019).
+
+LEFT OUT (DUPS, 57 lines):
+- in master / already delivered / alias: Schwarz-Gruppe, Aldi Nord/Süd, Aldi, ALDI ESPAÑA, Waste Pro, IE Business School, Robert Bosch,
+  Angelini Pharma, Atturo, Stihl, Rocky Mountain, Europcar, Cargill International, Mercuria Energy Trading, Pilot Flying J, Ahorramas,
+  MSC Group, Dolce & Gabbana Beauty, Swarovski Crystal Business, Phoenix Pharmahandel, Allagash, Kärcher, Aditya Birla Management Corp,
+  Gruppo Eurospin, Merz Aesthetics, Chopard, Mercadona (input website avature.net wrongly triggered F1 PARTNER; Mercadona itself is in master),
+  Coop-Gruppe, SELAE, Groupe Adeo (parent of Leroy Merlin), Kuoni (DERTOUR), VGW, de Volksbank (now ASN Bank, delivered b01),
+  JN Bentley (Mott MacDonald group, in master; from FY2025 accounts), Aesculap (B. Braun).
+- listed: BNP Paribas, ABN AMRO, Agricultural Bank of China, BBVA, Airbus, Hugo Boss, BHP, 85C (Gourmet Master), Assystem, Megastudy,
+  21 Cineplex (CNMA), NSE India (listed Sept 2026), Casumina (listing per Wikipedia, code unconfirmed), Banca Afirme (Wikipedia says BMV-listed; verify).
+- not a separate company: Best Buy Canada, CSM Sport & Entertainment (Wasserman/The Team), Alken-Maes (Heineken), Clean Earth (now Veolia),
+  BMW Financial Services.
+- other: HNA Group (bankrupt/defunct), Yango Longking (delisted 2023, distressed), Esportes da Sorte (platform offline under Brazil's
+  MP 1.394/26 online-betting ban, 25 Sep 2026).
+
+NOT RESEARCHED (no page could be opened; no record written):
+- Mazaya (mazayamolasses.com 503 twice)
+- COFCO International (own site 403; Wikipedia 'COFCO International' is a different, HK-listed company, China Foods)
+- Beach Bum (beachbum.games does not resolve; only a Wikipedia list row: Ra'anana, Israel, founded 2015)
+- Elevision (elevision.ae does not resolve)
+- Automotive (automotive.quest 503; Clay row with LinkedIn slug 'cfromm' - identity unclear)
+
+Gaps: owners not confirmed for Armada, Beon, Expleo, Encore, Polar; several figures older than three years (Cedar 2021, Frimesa 2021,
+Bungie 2022 transaction). Input 3PL list (Yusen) returned 404 this session.

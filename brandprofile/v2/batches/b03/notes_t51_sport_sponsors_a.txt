@@ -1,0 +1,41 @@
+t51_sport_sponsors_a - batch 3 sector research: unlisted companies holding large non-F1 sponsorships
+Date: 28 Nov 2026. WebSearch used: 0 of 1. All facts from pages opened this session (Wikipedia raw/page text in en/de/fr/nl/es/pt/it/tr/ko/ja, company sites).
+
+SOURCES (names extracted into DISC)
+- 2025-26 Premier League kits table: 22
+- 2025-26 La Liga: 35
+- 2025-26 Bundesliga: 26
+- 2025-26 Serie A: 32
+- 2025-26 Ligue 1: 22
+- 2025-26 Eredivisie: 20
+- 2025-26 Primeira Liga: 8
+- 2025-26 Süper Lig: 29
+- 2025-26 Saudi Pro League: 27
+- 2025 Brasileirão Série A: 30
+- 2025 MLS season: 18
+- 2026 UCI World Tour (team title sponsors): 23
+- 2025 J1 League: 43
+- 2025 K League 1: 18
+- 2025-26 Liga MX: 67
+- 2026 DP World Tour / PGA Tour / LPGA Tour title sponsors: 19
+Total DISC lines: 439 (one sponsor per line; obvious listed companies such as Emirates, Jeep, Volkswagen were not transcribed).
+Opened but no usable sponsor table: 2025 IPL (league-level sponsors only), 2025-26 NBA season, NHL, Top 14, Premiership Rugby, 2026 ATP/WTA (tournament names only, few corporate titles); Liga MX Apertura 2025, NBA jersey sponsorship, 2026 SailGP and Argentine Primera pages did not exist / 404.
+
+CHECK RESULTS (DISC, check.py with website where known)
+NEW 295 | IN MASTER 85 | ALREADY DELIVERED 19 | F1 PARTNER 10 | LISTED 9 | POSSIBLE 21.
+Late catches: six companies were researched and written before a full check (name + website + aliases) showed them IN MASTER or ALREADY DELIVERED:
+LBBW (b01), Tillamook (master), İstikbal (b02), Grupo Caliente (master, as Caliente), Cooperativa La Cruz Azul (master), Grupo Omnilife (master); Grupo Vazol (master) likewise. All removed from MAIN and logged in DUPS.
+Other leave-outs: Estrella Galicia/Hijos de Rivera (Williams F1 partner), Oxagon/NEOM (title sponsor of McLaren F1 Academy entry 2026), Aytemiz (owned by Russian Tatneft), Mascot Workwear and BUKO (Dutch GP partners), Nexo, ONEflight, BAPCO (F1 partners), POSCO E&C (trades on K-OTC), BRB and GNP (listed), zondacrypto (licence revoked, bribery case), Asian white-label betting brands (bj88, W88, NET88, Kaiyun, 96.com, SBOTOP; compliance), Intermarché/Lexware/Snaifun/Pulsee/Electrolit/Kömmerling (brands of master companies).
+
+OUTPUT
+MAIN 25 (Route A 18, Route C 7). WATCH 8. DUPS 159. Researched 33 (+7 later removed as duplicates).
+Regions in MAIN/WATCH: Europe 12 (DE, FR, NL, BE, ES, PT, MC), Turkey 1, Saudi Arabia 1, Japan 4, Korea 2, Mexico 2, US 7, Mauritius 1, UK 1.
+Signals pages: signals_checked = yes for 17 MAIN records (Wikipedia history sections or company news pages); "no" for 8 (newsroom not reachable).
+Strongest F1 fits: Banca Mifel (Mexico, heavy sports sponsor, profitable), Auberge Collection (luxury resorts, US/Mexico/Italy/UK), KAFD (PIF-owned Riyadh district), FM (mutual industrial insurer, LPGA title sponsor), Newrest, Soprema, Niedax, IAI, APM Monaco, HiBob, Picnic.
+
+GAPS / NOT DONE (honest)
+- Target of 45 MAIN/WATCH not reached (33). Most mid-sized sponsors have no Wikipedia article and company "about" URLs often 404/403; I did not use the one WebSearch.
+- Scope not covered: NBA/NFL/MLB/NHL team and jersey-patch sponsors, IPL team sponsors, stadium naming rights, Argentine Primera, rugby shirt sponsors, SailGP / America's Cup, tennis tournament title sponsors beyond Mexico (Mifel). Saudi names (Tameeni, Yelo, Gathern, Neoleap, SURJ, Sanabil, Saudi Entertainment Ventures, Syndicate Holding, Aloula Aviation) and Brazilian sponsors (Esportes da Sorte, Bet7K, Viva Sorte, Betnacional, Ademicon, Assist Card, Cimed, Grupo Fictor, Vilma, Frescatto) are in DISC as not researched; CIMED site gave no figures.
+- 248 DISC names not researched, incl. Liga MX (Urrea, Akron, Roshfrans, Raloy, Seguros Atlas, Paquetexpress, Grupo IAMSA/ETN), J1 (Onodera Group, Enecle, Harada, Suruga Giken), K League (Osang Healthcare), Spain (Kosner, Vega Fibra, Juaneda, TM Grupo Inmobiliario, Divina Seguros, Recalvi), Italy (U-Power, DEGHI, Bluenergy, Doppio Malto, Lavoropiù), NL (Zonneplan, GoodHabitz, Conclusion, DSW), Germany (ProMinent, Siegmund, iDM, hep), Turkey (Nesine, Otokoç, Safiport, Halley, Güral, CoreX/Yilport), US (Fracht, Exploria, Texas Children's, Bon Secours Mercy).
+- Older figures flagged: Soudal (2021), CNCITY (2021), IAI (2022). Auberge revenue is marked "citation needed" on Wikipedia. Polus and IAI shareholders not shown (pages show small share capital / "未上場" for IAI).
+- KAFD parent PIF was delivered in b01; KAFD kept as its own operating brand (subsidiary rule) - user may treat as overlap.

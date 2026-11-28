@@ -1,0 +1,25 @@
+{"name": "Ratnadeep", "why": "POSSIBLE - Ratnadeep Supermarket [delivered under the revised methodology: b02]: same company, already delivered"}
+{"name": "Eberspächer Gruppe", "why": "POSSIBLE - Eberspächer Group [master: All New Brands]: same company, in master"}
+{"name": "Jayco Corporation", "why": "POSSIBLE - Jayco Australia [delivered under the revised methodology: b02]: same company, already delivered"}
+{"name": "Les Schwab", "why": "POSSIBLE - Les Schwab Tire Centers [delivered under the revised methodology: b02]: same company, already delivered"}
+{"name": "Jumbo Groep", "why": "POSSIBLE - Jumbo [current F1 partner (Dutch Grand Prix: Event Supporter)]: same brand, F1 partner"}
+{"name": "Hikma", "why": "listed (London Stock Exchange, ticker HIK; FTSE 250) per https://en.wikipedia.org/wiki/Hikma_Pharmaceuticals"}
+{"name": "Leaseplan", "why": "merged away: acquired by ALD Automotive in May 2023 and rebranded Ayvens, listed on Euronext Paris (AYV) per https://en.wikipedia.org/wiki/LeasePlan and https://en.wikipedia.org/wiki/Ayvens"}
+{"name": "Digi Spain", "why": "not a separate company: Spanish operating business of Digi Communications, listed on the Bucharest Stock Exchange (DIGI), trading under the Digi brand, per https://en.wikipedia.org/wiki/Digi_Communications"}
+{"name": "AFCONS Infrastructure Limited - A Shapoorji Pallonji Group Company", "why": "listed (NSE: AFCONS; BSE: 544280; IPO 2024) per https://en.wikipedia.org/wiki/Afcons_Infrastructure"}
+{"name": "AGBAR", "why": "not a separate company: part of Veolia since 2022 and being absorbed into Veolia in Spain (Clay website veolia.es) per https://es.wikipedia.org/wiki/Agbar"}
+{"name": "Aruma Services", "why": "other: Australian disability services provider that solicits donations (NDIS provider), not a commercial sponsorship prospect, per https://www.aruma.com.au/about-us/"}
+{"name": "Hisamitsu", "why": "listed (Tokyo Stock Exchange 4530, also Nagoya and Fukuoka) per https://en.wikipedia.org/wiki/Hisamitsu_Pharmaceutical"}
+{"name": "Sonae MC", "why": "IN MASTER: check.py matches 'MC (Continente)' on the master (All New Brands); Sonae MC is that company (parent Sonae is also listed)"}
+{"name": "Toyota Financial Services", "why": "F1 PARTNER: check.py flags Toyota Motor Credit Corporation as a current F1 partner (Haas / Toyota Gazoo Racing); TFS is the captive finance arm of listed Toyota Motor Corporation trading under the Toyota brand (https://en.wikipedia.org/wiki/Toyota_Financial_Services redirects to Toyota Motor Corporation)"}
+{"name": "Dahon", "why": "listed: operating company DAHON Tech listed on the Hong Kong Stock Exchange (02543.HK) in September 2025 per https://en.wikipedia.org/wiki/Dahon"}
+{"name": "Engie España", "why": "not a separate company: Spanish entity of Engie, listed on Euronext Paris/Brussels (ENGI) per https://en.wikipedia.org/wiki/Engie"}
+{"name": "Gas Natural Comercializadora", "why": "not a separate company: retail gas/electricity supply entity of Naturgy, listed on the Bolsa de Madrid (NTGY) per https://en.wikipedia.org/wiki/Naturgy"}
+{"name": "Naturgy Aprovisionamientos", "why": "not a separate company: procurement entity of Naturgy, listed on the Bolsa de Madrid (NTGY) per https://en.wikipedia.org/wiki/Naturgy"}
+{"name": "Agence Française de Développement", "why": "other: French public development finance institution (EPIC, board appointed by the state) with no commercial marketing mandate, per https://en.wikipedia.org/wiki/Agence_fran%C3%A7aise_de_d%C3%A9veloppement"}
+{"name": "Credit Union Australia (CUA)", "why": "ALREADY DELIVERED: renamed Great Southern Bank in 2021 (https://en.wikipedia.org/wiki/Great_Southern_Bank); check.py: Great Southern Bank delivered in b02"}
+{"name": "Safra Group", "why": "IN MASTER: its operating banks Banco Safra (master: All New Brands) and J. Safra Sarasin (master: Capacity To Confirm) and Saxo Bank are on the master; Safra Group is their parent (https://en.wikipedia.org/wiki/Safra_Group)"}
+{"name": "Akij Venture Group", "why": "IN MASTER: Akij Venture Ltd describes itself as a concern of the Akij Group (https://www.akijventure.com/about-us); Akij Group is on the master (Capacity To Confirm)"}
+{"name": "Boar's Head", "why": "other: established serious compliance problems - 2024 listeria outbreak linked to 10 deaths, Jarratt plant closed, continued USDA citations at Petersburg plant to August 2025 and a November 2025 recall (https://en.wikipedia.org/wiki/Boar%27s_Head_Provision_Company); revenue about USD 3bn would otherwise meet Route A"}
+{"name": "Lemnis", "why": "other: nonprofit public charity (education), not a commercial company, per https://tytonpartners.com/h1-2026-education-sector-deal-recap-the-rebound-realized-unevenly/"}
+{"name": "World Vision", "why": "other: religious nonprofit humanitarian organisation (501(c)(3)), not a commercial company, per https://en.wikipedia.org/wiki/World_Vision_International"}

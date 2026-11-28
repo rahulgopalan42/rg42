@@ -1,0 +1,50 @@
+k16_korea (batch 3, country mode: South Korea). Researcher notes, 28 Nov 2026.
+
+COUNTS
+- Names extracted/considered and run through check.py: 160 written to DISC (plus about 150 more names run through check.py
+  during screening that were IN MASTER / ALREADY DELIVERED / LISTED and are not all repeated in DISC).
+- DISC check results: NEW 117, IN MASTER 22, ALREADY DELIVERED 15, POSSIBLE 4, F1 PARTNER 1 (GM Korea), LISTED 1.
+- Researched: 45 records written, then 3 removed after alias checks showed duplicates (A Twosome Place = ALREADY DELIVERED b02;
+  Mega MGC Coffee = ALREADY DELIVERED b02; Asung Daiso = same Daiso brand as Daiso Industries on master). Final: MAIN 29, WATCH 13.
+- DUPS: 56 lines.
+- WebSearch used: 1 of 2 (Korean query for unlisted-company revenue rankings; it returned no usable ranking).
+
+SOURCES USED (names given)
+- en.wikipedia List of companies of South Korea (about 230 names, no listing status; used to pick candidates).
+- en.wikipedia List of unicorn startup companies (11 Korean names: Yanolja, Viva Republica, Yello Mobile, Kurly, Daangn, Tridge,
+  ZigBang, Musinsa, Megazone, L&P Cosmetic, Bucketplace, RIDI, GPClub).
+- ko.wikipedia category 장외주식시장 지정 기업 (K-OTC designated companies; 200 of 316 titles shown; used for SEMES, Samsung Medison etc.).
+- Daum/Yonhap article on chaebol unlisted affiliates (no usable names); CEO Score 500대 기업 article (mostly listed firms).
+- Company facts came from ko.wikipedia infoboxes (which state 비상장 / K-OTC, shareholders and audited figures) and en.wikipedia.
+- Many names were candidates from the researcher's own knowledge (DISC source says so); every fact in MAIN/WATCH comes from a page opened.
+
+KEY JUDGEMENT: K-OTC COMPANIES
+- Many large unlisted Korean companies are "designated" on K-OTC, the over-the-counter market run by KOFIA, where shares can trade
+  although the company is not exchange-listed. Because the eligibility rule is "own shares not publicly traded", every such company
+  is held in WATCH with an "eligibility_flag" (route met): HD Hyundai Oilbank, Hyundai Card, Kakao Mobility, POSCO E&C, SK ecoplant,
+  Hyundai Engineering, Lotte E&C, LS Cable & System, SEMES, Samsung Medison, Korea South-East Power. The user should rule on these.
+  If K-OTC companies count as non-public, ten of them move to MAIN (Kakao Mobility has no route proven).
+
+DATA QUALITY
+- Korean Wikipedia infobox figures are often old (2015-2022); each is flagged "older than three years" in `period`.
+- Where a page did not state listing status, `outstanding` says so (e.g. Kakao Entertainment, Black Yak, Hanwha TotalEnergies, Neople).
+- Viva Republica, Yanolja and ZigBang qualify on 2021-22 valuations from the unicorn list (old).
+- signals_checked = "yes" means the Wikipedia history/recent events section was read; few pages had 2025-26 events.
+- No marketing head identified except Yanolja/Nol Universe (former CMO appointed CEO, Dec 2025).
+
+MAIN (29): KHNP, KNOC, Incheon International Airport Corp, Korea Expressway Corp, Korail, SK Siltron, Hotel Lotte, Oriental Brewery,
+Kakao Entertainment, Korea Seven, Hanwha TotalEnergies Petrochemical, Samsung Bioepis, Goodai Global, Black Yak, Hanwha Energy,
+SK Broadband, Viva Republica, Dongsuh Foods, Kyobo Book Centre, HD Hyundai Samho, Lotte Biologics, Shinhan Card, KB Kookmin Card,
+Neople, Yanolja, ZigBang, Heungkuk Life Insurance, Lotte GRS, CJ Foodville.
+Strongest F1 cases: Goodai Global (K-beauty, US/Europe, pre-IPO), Yanolja (travel/ticketing, marketer as CEO), Hotel Lotte
+(luxury hotels, duty free), HD Hyundai Samho (shipowner hospitality), Lotte Biologics, Hanwha Energy, SK Siltron (Doosan sale).
+WATCH (13): the 11 K-OTC companies above plus Air Premia (ownership not verified) and CJ 4DPlex (no figures).
+
+NOT REACHED / GAPS
+- No registry-based unlisted revenue ranking was found (CEO Score / NICE / KED rankings not opened); "World Class 300" list not opened.
+- Not researched NEW names (62 in DISC), e.g. Lotte Duty Free as separate entity, Shinsegae DF, Hyundai Duty Free, SSG.com, Emart24,
+  Yogiyo, Toss Bank, EUKOR Car Carriers, KEPCO gencos other than KOSEP, Korea Southern/Western/East-West/Midland Power, SK Specialty,
+  SK nexilis, HL Klemove, LG Magna e-Powertrain, POSCO Flow, Hanwha Philly Shipyard, Woori Card, Hana Card (no route on page),
+  K2 Korea, Nepa, Kolon Sport, Simmons Korea, Compose Coffee, Ediya, bhc, Kakao VX, Innospace, FuriosaAI, 42dot, Naver Webtoon,
+  RIDI, GPClub, Yello Mobile, Air Premia owner, Samsung/Asan medical centres.
+- Gaming beyond Nexon units, cosmetics ODMs, and mid-sized manufacturers (World Class 300) are thin. Not exhaustive.

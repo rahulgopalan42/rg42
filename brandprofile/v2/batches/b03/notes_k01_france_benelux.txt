@@ -1,0 +1,72 @@
+k01_france_benelux - batch 3, MODE country (France, Belgium, Luxembourg, Netherlands second pass)
+Date: 28 Nov 2026. Researcher: independent web research stream. WebSearch used: 3 of 3. WebFetch / curl for everything else.
+
+FILES
+- MAIN  k01_france_benelux.jsonl        42 records (Route A 40, Route B 1 [Malongo], Route C 1 [Ceratizit])
+- WATCH watch_k01_france_benelux.jsonl  3 records (Armor-Lux, Feadship, Piper-Heidsieck)
+- DISC  disc_k01_france_benelux.jsonl   1,088 lines
+- DUPS  dups_k01_france_benelux.jsonl   170 lines
+All lines parse as JSON; no company appears twice in MAIN/WATCH. Every MAIN/WATCH name was passed through check.py (name, website and aliases).
+Two names were blocked at write time by alias checks and logged in DUPS: Babilou Family (delivered b02 as Babilou); Tarkett (still listed, TKTT).
+
+SOURCES USED (names extracted into DISC)
+1. Trends Top (trendstop.levif.be) - overall turnover ranking page 1 (top 10 only; pages 2+ need a login) and all 161 sector
+   "top 10" pages (2,272 rows). DISC holds the 548 distinct companies whose overall Trends Top rank is 1-1,000; figure = overall rank
+   (no turnover is shown on sector pages). Ranks below 1,000 were not written to DISC. Many rows are Belgian legal entities of
+   multinationals (national sales entities, plants) and are not eligible; they stay in DISC as "not researched".
+2. Top 100 des entreprises coopératives 2024 (entreprises.coop PDF, CA 2022) - 100 names with revenue.
+3. Choiseul Conquérants 2022 (top 200 French ETI, revenue EUR 50m-3bn; INSEAD-hosted PDF) - 118 names extracted from the
+   PDF text (the PDF layout breaks some names; about 80 of 200 could not be cleanly extracted). No per-company figures.
+4. en.wikipedia "List of companies of Belgium / Luxembourg / the Netherlands" (Notable firms tables, active firms): 96 / 42 / 104 names.
+5. en.wikipedia "List of companies of France" (49 private-looking names) and "List of French billionaires by net worth" (14 companies).
+6. en.wikipedia "List of largest private non-governmental companies by revenue" (France/NL/BE rows, 9 names).
+7. Individual company pages opened for research: fr/nl/de/en Wikipedia articles and company sites (Acome, SD Worx press room, TVH).
+Not usable: Verif (BFM) rankings 403; jaarrekening.be 403; Les Echos / L'Usine Nouvelle / LSA Top 100 agroalimentaire 403;
+Challenges 500 fortunes paywalled after rank 10; Trends Top pages 2-5 need login; Elsevier/EW Top 500 (Netherlands) not reached;
+many company sites refused (eupen.com, vandemoortele.com 403; saft.com, trescal.com, reynaers.com 503).
+Wikipedia API (curl) returned 429 after a few calls, so I switched to WebFetch page by page.
+
+COUNTS
+- DISC 1,088 names: NEW 833, IN MASTER 94, ALREADY DELIVERED 40, F1 PARTNER 10, LISTED 50, POSSIBLE 61 (check.py results; POSSIBLE
+  and LISTED rows not researched were left unresolved). By country: Belgium 644, France 294, Netherlands 108, Luxembourg 42.
+- Extra alias checks run with check.py on about 250 names (aliases, parents, brands) - several big names turned out IN MASTER only
+  under an alias (Groupe Lactalis, Crédit Mutuel, Les Mousquetaires, Covéa, KNDS, Mobivia, Groupe Amaury).
+- Researched: 46 (45 written + Seqens not written). MAIN 42, WATCH 3.
+- MAIN by country: France 33, Belgium 8, Luxembourg 2 (incl. WATCH: Netherlands 2).
+
+MAIN/WATCH HIGHLIGHTS (Formula 1 relevance)
+- Technical/AFL-pattern: Acome (cables, SCOP), Radiall (connectors, family), Saft (batteries, TotalEnergies sub, lists F1/FE in its
+  Performance segment), Kabelwerk Eupen (cables, old figure), Ceratizit (carbide tools, Plansee sub, British Superbike sponsor),
+  Trescal (calibration, EQT/OMERS), Oreca (Le Mans chassis builder), Sonaca (aerostructures, Walloon state).
+- Existing sports sponsors: Soudal (Soudal Quick-Step), SD Worx (Team SD Worx-Protime), Unilin/Quick-Step, Optic 2000 (Tour Auto title
+  sponsor, Paris 2024), KRYS Group (ex Tour de France), Groupe Dubreuil (Vendée Globe IMOCA), Gerflor (Olympic flooring), Piper-Heidsieck
+  (Cannes, Australian Open, Ballon d'Or - WATCH, champagne conflict), Armor-Lux (Route du Rhum - WATCH).
+- B2B hospitality / enterprise: Mirakl, Newrest, Fiducial, House of HR, TVH Parts, Groupe Up, Avril.
+- Consumer: Back Market, Jacquemus, Alain Afflelou, Devialet (Alpine A290 audio; 2024 safeguard procedure), Urgo, Somfy, Biocoop.
+
+COMPLIANCE / CAUTION FLAGS (written in the records)
+- Groupe Bernard Hayot: Dec 2025 judicial investigation (overseas car market), HATVP lobbying inquiry - conf low.
+- Groupe Dubreuil: EUR 13m competition fine (Air Caraïbes price-fixing, Dec 2024).
+- Groupe Roullier: Timac Agro environmental fines 2024-2025. Gerflor: 2025 wastewater notice (lifted 2026). Avril: Greenpeace hexane campaign.
+- Dyneff: owned by AnAn International (51%) and Rompetrol (49%) - ownership chain to verify.
+- Ceratizit: parent Plansee Group was delivered in batch 1 - kept as a separately branded subsidiary; user may treat as overlap.
+- Older figures (more than three years): Soudal (2021), Sonaca (2018), Kabelwerk Eupen (2018), Chantelle (2017), Spuerkeess (2019),
+  Cristal Union (FY to Jan 2023), Agristo (2022). Brabantia turnover has no year.
+
+GAPS / NOT DONE
+- Netherlands second pass is thin: Elsevier/EW Top 500 was not reached; only the Wikipedia notable-firms list (104 names) was added,
+  and of those only Feadship (WATCH) and Brabantia (MAIN) were researched. Hunkemöller, Talpa, ONE-Dyas, Zeeman, WE Fashion, Corendon
+  remain in DISC unresearched (no usable figures found for Hunkemöller and Talpa).
+- Belgium: research was limited because most Belgian company sites refused access and nl.wikipedia coverage is thin. Unresearched
+  Belgian NEW candidates worth doing next: Vandemoortele, Reynaers Aluminium, Galloo, Dossche Mills, Van Marcke, Facq, Versele-Laga,
+  Jacops, Denys, Asco Industries, Ysco, Milcobel, Prayon, Fluvius, Luminus, D'Ieteren Automotive, Febelco, Efico, Rosy Blue, Westvlees,
+  Alpro, Brussels Airport Company, Port of Antwerp-Bruges, Deldo, IVC, VPK, Aviapartner, Vinçotte, Zetes, Septentrio.
+- Luxembourg: Foyer, POST Luxembourg, Banque de Luxembourg, Rotarex, Advanzia Bank not researched (pages 404).
+- France unresearched NEW names with promise: Monnoyeur, Proman, Groupe Partnaire, Kersia, Thuasne, Septodont, Safic-Alcan, Riou Glass,
+  Opteven, Wakam, XEFI, Trèves, Groupe Pochet, Monin, Veja, Snef, NGE, Groupe Saur, Delachaux (fr.wikipedia pages missing or 404),
+  plus the cooperative list beyond those researched (Advitam, Natup, Arterris, Cavac, Ocealia, Noriap, Sicarev, Even...).
+- Trends Top ranks 1,001+ and Choiseul names lost in PDF extraction were not written to DISC.
+- POSSIBLE (61) and LISTED (50) DISC rows were not individually resolved.
+- discovery_source for names researched outside the lists (Oreca, Roullier, Chantelle, Corsair, Mirakl, Back Market, Jacquemus,
+  Piper-Heidsieck, Dyneff) is the company's own Wikipedia article; they were added to DISC with that source.
+Nothing here is exhaustive.

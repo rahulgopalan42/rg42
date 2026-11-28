@@ -1,0 +1,25 @@
+r05_queue (batch 3, queue mode) - input in_q05.jsonl, 80 lines, all checked with check.py (plus aliases/parents: JCB, Zeiss, Oetker, Swinkels, Daiso, Daekyo, Positivo, Liebherr, SELAE, Haldiram's, Yuengling, Amusnet/EGT, NorgesGruppen, Warburg Pincus, Mallesons).
+WebSearch used: 0 (limit 0). WebFetch only. Researched 28 Nov 2026.
+
+RESEARCHED - MAIN (18): Scotlynn (A, est. net revenue TT), Ruan (A), Seko Logistics (A), Air Macau (C, low conf), Air Niugini (C, low), Cineplexx (C; EUR150m revenue is 2019),
+Bama Gruppen (A, NOK 23bn 2023; NorgesGruppen - IN MASTER - holds 46%, Nergaard family 34%: Bama trades as its own brand, flag to user),
+Baxters (C; figures 2016, low), Community Fibre (A, adj. EBITDA GBP 50m FY2025; Warburg Pincus exploring sale), Roquette Freres (A, index revenue USD 5.46bn),
+PrivatBank (C; UAH not in fixed FX list so net profit usd_m null), GAC Aion (C; GAC Group parent), Sparda-Bank (C; 11 independent co-op banks), Dynisma (C; supplies Ferrari F1 simulator - customer overlap; funding unknown),
+Controlware (A), Conet (A), ConVista (A), Elea (C, low).
+RESEARCHED - WATCH (22): Air Kiribati, Cines Unidos, Cinesa (AMC/Odeon subsidiary), Barry's Tea, Baume & Mercier (Damiani since 2026; Damiani delivered b02), Ball Watch, Beijing Watch Factory (Fiyta), Ateliers deMonaco (Citizen),
+Mallesons (Australian successor of King & Wood Mallesons after 30 Mar 2026 split; IBISWorld figure is pre-split FY22), Positive Promotions (USD 126m, no Route B support), DRX, Dplus KIA, Quantcast, QMS Media (now part of Nine),
+Sellafield Ltd, Dannemann (tobacco, blocked category), Daesun Distilling (trades on K-OTC - check whether that counts as listed), Green Mountains, RAMCO, Final Okullari, SIDBI, Stenders.
+
+LEFT OUT (DUPS, 31):
+- In master / delivered / F1 partner: Liebherr International, Globus Holding, Santander Consumer Finance, J.C.B. Service (JCB = Aston Martin partner), Carl Zeiss (b01), Dr. August Oetker KG (Dr. Oetker in master), SELAE (b02), Haldiram Snacks (b01), Bavaria Brewery (Swinkels in master), Asung Daiso (Daiso brand in master), Grupo Positivo (Positivo Educacional b02), D.G. Yuengling & Son (in master), EGT Interactive (now Amusnet, in master; EGT delivered b02).
+- Listed: Renault Group, Raizen, SBI Life, Air Mauritius (SEM), Dr. Sulaiman Al Habib (Tadawul 4013), Fakeeh (Tadawul 2024).
+- Not a separate company: Eye Level (Daekyo brand), Cinemas NOS (NOS), Iberdrola Clientes, Repsol Trading, Rongsheng Petrochemical (Singapore), Samsung Semiconductor, SEWS-E (regional entity of Sumitomo Electric).
+- Russian: Russian Standard Vodka.
+- Merged away / dissolved / liquidation: Getir (Turkish businesses to Uber, approved Jun 2026), Arc International (receivership Jan 2026, Arc France liquidation May 2026), Inova Operations (activities taken over by Paprec 2021), King & Wood Mallesons (dissolved Mar 2026; successor Mallesons in WATCH).
+
+NOT RESEARCHED (10, no usable page opened):
+- BBQSAM, Turosi Pty Ltd, Leonardo Holdco Pty Ltd, Australian Technology Innovators: IBISWorld Top 500 Private 2022 PDF opened (BBQSAM and Leonardo revenue marked ^ = IBISWorld estimate; Turosi 1,610 employees) but it gives no industry or identity; trading names unknown without search.
+- Big Ticket Abu Dhabi (site region-blocked, no Wikipedia), Bleed Esports (no Wikipedia; guessed domain not reachable), Viva Fresh Store (only a bare list entry; vivafresh.com redirects to an unrelated US restaurant),
+  Digitain (site returned HTTP 429 three times), Ajmal Perfumes (site 403/503, no Wikipedia), Choithrams (site 403, no Wikipedia).
+
+Gaps: many ownership fields 'requires verification' (Scotlynn, Seko, Controlware, Conet, ConVista, Elea, Dynisma). Several records rely on old figures (Cineplexx 2019, Baxters 2016, Air Macau employees 2016).

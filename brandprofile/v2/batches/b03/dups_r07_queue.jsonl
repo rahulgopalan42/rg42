@@ -1,0 +1,28 @@
+{"name": "Aegea", "why": "check.py: POSSIBLE - Aegea Saneamento [delivered under the revised methodology: b02]; same company (Brazilian sanitation group)"}
+{"name": "Mercedes-Benz España", "why": "not a separate company: national entity of Mercedes-Benz; check.py: POSSIBLE - Mercedes-Benz (power unit supplier) [current F1 partner (Alpine)]"}
+{"name": "Federal Hotels Group", "why": "check.py: POSSIBLE - Federal Group [master: Capacity To Confirm]; Federal Hotels is the Tasmanian Federal Group (alias)"}
+{"name": "Franz Haniel & Cie. GmbH", "why": "check.py on alias Haniel: IN MASTER - master: All New Brands (as Haniel)"}
+{"name": "PHW Group (Lohmann & Co. AG)", "why": "check.py on alias Wiesenhof: IN MASTER - master: All New Brands (as PHW-Gruppe (Wiesenhof))"}
+{"name": "Brooks Sports", "why": "check.py on alias Brooks Running: IN MASTER - master: Capacity To Confirm (as Brooks Running)"}
+{"name": "Iberia Lineas Aereas De España", "why": "check.py: POSSIBLE - Iberia [master: All New Brands]; same company; check.py on Iberia: IN MASTER"}
+{"name": "Lidl Supermercados", "why": "not a separate company: Spanish national entity of Lidl; check.py on Lidl: IN MASTER - master: All New Brands (as Lidl)"}
+{"name": "Renault España", "why": "not a separate company: Spanish national entity of Renault (owner of current F1 partner Alpine)"}
+{"name": "Aquarion", "why": "check.py: POSSIBLE - Aquarion Water Company [delivered under the revised methodology: b02]; same company"}
+{"name": "AEG Presents", "why": "check.py on parent AEG: IN MASTER - master: Clay Leads (Unconfirmed) (as AEG); AEG Presents is AEG's live-entertainment arm"}
+{"name": "Bremont Watch Company", "why": "check.py on alias Bremont: ALREADY DELIVERED - delivered under the revised methodology: b01 (as Bremont)"}
+{"name": "WT Microelectronics 文曄科技(股)公司", "why": "listed (Taiwan Stock Exchange 3036; stockanalysis.com/quote/tpe/3036)"}
+{"name": "KinderCare", "why": "listed (NYSE: KLC; stockanalysis.com/stocks/klc)"}
+{"name": "Hengrui", "why": "listed (Shanghai SSE 600276 and HKEX 1276; en.wikipedia.org/wiki/Jiangsu_Hengrui_Medicine)"}
+{"name": "Adani Green Energy Ltd.", "why": "listed (BSE 541450, NSE ADANIGREEN; en.wikipedia.org/wiki/Adani_Green_Energy)"}
+{"name": "ADES - Advanced Energy Systems", "why": "listed (Saudi Exchange Tadawul 2382, ADES Holding Company; stockanalysis.com/quote/tadawul/2382)"}
+{"name": "Mitsukoshi Isetan", "why": "listed (operating business of Isetan Mitsukoshi Holdings, TYO 3099; check.py LISTED?)"}
+{"name": "Learneo", "why": "owner and parent brand of Course Hero (Wikipedia: Learneo redirects to Course Hero); check.py on Course Hero: ALREADY DELIVERED b02"}
+{"name": "EuroChem", "why": "Russian company excluded: production assets mostly in Russia, moved HQ from Russia to Zug 2015, founder Melnichenko EU-sanctioned March 2022 (en.wikipedia.org/wiki/EuroChem)"}
+{"name": "ZARA", "why": "not a separate company: flagship retail brand of Inditex (Wikipedia: Spanish fast fashion retail subsidiary of Inditex); check.py on Inditex: LISTED?"}
+{"name": "Lotte Duty Free", "why": "not a separate company: duty-free division of Hotel Lotte (en.wikipedia.org/wiki/Lotte_Duty_Free); check.py on Lotte Hotel: ALREADY DELIVERED b01"}
+{"name": "Grupo Ángeles", "why": "alias: Grupo Ángeles / Grupo Empresarial Ángeles is the former name of Grupo Vazol (es.wikipedia.org/wiki/Grupo_Vazol); check.py on Grupo Vazol: IN MASTER - master: All New Brands"}
+{"name": "Learning Tree", "why": "listed (traded over the counter, Expert Market: LTRE; formerly Nasdaq) per en.wikipedia.org/wiki/Learning_Tree_International"}
+{"name": "Aerotek", "why": "not a separate company: Wikipedia Aerotek redirects to Allegis Group (founded as Aerotek); check.py on Allegis Group: IN MASTER - master: All New Brands"}
+{"name": "Larry H. Miller Dealerships", "why": "not a separate company: dealerships sold to Asbury Automotive in 2021 for USD 3.2bn (en.wikipedia.org/wiki/Special:Search?search=Larry+H.+Miller+Dealerships); Asbury Automotive Group is listed (check.py LISTED?)"}
+{"name": "Hermes Pardini", "why": "not a separate company: a brand of Grupo Fleury (pt.wikipedia Grupo Fleury snippet); Fleury S.A. is listed (check.py LISTED?)"}
+{"name": "Adisseo", "why": "listed: operating company of Bluestar Adisseo Company (check.py LISTED?); ChemChina acquired Adisseo in 2006 (en.wikipedia ChemChina snippet)"}

@@ -1,0 +1,27 @@
+{"name": "Horse Powertrain Spain", "why": "ALREADY DELIVERED - delivered under the revised methodology: b01 (as Horse Powertrain); Spanish entity of the same company"}
+{"name": "Automobili Lamborghini S.p.A.", "why": "IN MASTER - master: All New Brands (as Automobili Lamborghini)"}
+{"name": "Iveco España", "why": "F1 PARTNER - current F1 partner (Ferrari) (as Iveco); also only the Spanish entity of Iveco"}
+{"name": "AVL in SEA & Australia", "why": "IN MASTER - master: All New Brands (as AVL List); regional entity of AVL"}
+{"name": "B. Braun Medical Inc. (US)", "why": "IN MASTER - master: All New Brands (as B. Braun SE); US entity of B. Braun"}
+{"name": "Porsche Holding Salzburg", "why": "ALREADY DELIVERED - delivered under the revised methodology: b02 (as Porsche Holding)"}
+{"name": "KIO Networks", "why": "IN MASTER - master: Capacity To Confirm (as KIO)"}
+{"name": "Hong Leong Group", "why": "POSSIBLE - Hong Leong Group Malaysia [delivered under the revised methodology: b02]; input gives no country, treated as the same Hong Leong brand (Singapore Hong Leong Group shares the name; user may decide)"}
+{"name": "Coca-Cola Europacific Partners Iberia", "why": "not a separate company: Spanish/Portuguese operating entity of Coca-Cola Europacific Partners (bottler of Coca-Cola; check.py: Coca-Cola LISTED?)"}
+{"name": "Michelin España Portugal", "why": "not a separate company: Spanish/Portuguese national entity of Michelin (listed group)"}
+{"name": "Toyota España", "why": "not a separate company: Spanish national sales entity of Toyota (Toyota Gazoo Racing is a current F1 partner (Haas))"}
+{"name": "ATRESMEDIA", "why": "listed (Bolsa de Madrid, ticker A3M) per https://en.wikipedia.org/wiki/Atresmedia"}
+{"name": "Hanwha Life Esports", "why": "not a separate company: esports team owned by Hanwha Life Insurance (listed Hanwha group; check.py: Hanwha LISTED?) per https://en.wikipedia.org/wiki/Hanwha_Life_Esports; a rights holder, not a sponsor"}
+{"name": "AU GOLD AND DIAMOND IMPORT AND EXPORT", "why": "other: Clay row with 1 employee and a mismatched LinkedIn page; website does not resolve; no evidence of a real company of scale"}
+{"name": "Australian Beef Sustainability Framework", "why": "other: an industry sustainability framework, not an operating company (Clay bracket spurious); site page 404"}
+{"name": "Auto Germany Pte Ltd", "why": "not a separate company: Singapore Opel distributor/service entity (autogermany.com.sg is the Opel Singapore site; Clay: 3 employees)"}
+{"name": "Htoo Group", "why": "sanctions: UK sanctions (Sept 2021) and US OFAC sanctions on the group (March 2022) for support to Myanmar's military, per https://en.wikipedia.org/wiki/Htoo_Group_of_Companies"}
+{"name": "Ecoembes", "why": "other: non-profit packaging recycling (extended producer responsibility) scheme owned by member companies, per https://www.ecoembes.com/es/quienes-somos; not a commercial operating company"}
+{"name": "Medical Park", "why": "probably listed: brand of MLP Care (MLP Sağlık Hizmetleri A.Ş.), which has a KAP public-disclosure company page (https://www.kap.org.tr/en/sirket-bilgileri/ozet/1106-mlp-saglik-hizmetleri-a-s) and an investor relations site; listing not confirmed on a page - verify before any use"}
+{"name": "Azelis", "why": "listed: azelis.com Investors section carries stock information, share price chart and shareholder table (https://www.azelis.com/en); exchange not named on the page (Euronext Brussels to confirm)"}
+{"name": "Autossuficiência Brasil", "why": "other: the self-reliance department of The Church of Jesus Christ of Latter-day Saints offering free courses (https://www.autossuficiencia.org.br/); not a commercial company"}
+{"name": "Intercorp", "why": "holding vehicle / listed: Peruvian holding company acting through listed Intercorp Financial Services and Intercorp Retail; Wikipedia shows Bank of New York ADR programs holding 39.8% and a Nasdaq-listed category (https://en.wikipedia.org/wiki/Intercorp). Operating brands (Interbank, Oechsle, Cineplanet, Casa Andina) could be checked separately"}
+{"name": "Azul Linhas Aéreas Brasileiras", "why": "listed (B3: AZUL4; NYSE: AZUL) per https://en.wikipedia.org/wiki/Azul_Brazilian_Airlines; Chapter 11 filed May 2025"}
+{"name": "LOLC Holdings", "why": "listed (Colombo Stock Exchange, LOLC.N0000) per https://en.wikipedia.org/wiki/LOLC_Holdings"}
+{"name": "Endeavour Foundation", "why": "other: Brisbane not-for-profit disability charity funded mainly by the NDIS, per https://en.wikipedia.org/wiki/Endeavour_Foundation; not a commercial company"}
+{"name": "HyperX", "why": "not a separate company: gaming brand of HP Inc. since Feb 2021 (Omen merged into it Jan 2026), per https://en.wikipedia.org/wiki/HyperX; HP is listed and a current F1 partner (Ferrari)"}
+{"name": "Batik Air", "why": "POSSIBLE / part of master entry: full-service division of Lion Air Group (https://en.wikipedia.org/wiki/Batik_Air); check.py: Lion Air -> IN MASTER (as Lion Air Group, Capacity To Confirm)"}

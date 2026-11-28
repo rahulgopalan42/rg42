@@ -1,0 +1,78 @@
+{"name": "Benjamin Moore", "why": "IN MASTER - master: All New Brands (as Benjamin Moore)", "parent": "Berkshire Hathaway"}
+{"name": "Berkshire Hathaway Energy", "why": "IN MASTER - master: NEW Energy Storage & Climate (as Berkshire Hathaway Energy)", "parent": "Berkshire Hathaway"}
+{"name": "Brooks Sports", "why": "alias of Brooks Running: IN MASTER - master: Capacity To Confirm (as Brooks Running)", "parent": "Berkshire Hathaway"}
+{"name": "BNSF Railway", "why": "IN MASTER - master: All New Brands (as BNSF Railway)", "parent": "Berkshire Hathaway"}
+{"name": "Business Wire", "why": "ALREADY DELIVERED b01", "parent": "Berkshire Hathaway"}
+{"name": "Clayton Homes", "why": "IN MASTER - master: Capacity To Confirm", "parent": "Berkshire Hathaway"}
+{"name": "Dairy Queen", "why": "ALREADY DELIVERED b02", "parent": "Berkshire Hathaway"}
+{"name": "Duracell", "why": "F1 PARTNER - current F1 partner (Williams)", "parent": "Berkshire Hathaway"}
+{"name": "GEICO", "why": "IN MASTER - master: All New Brands", "parent": "Berkshire Hathaway"}
+{"name": "General Reinsurance", "why": "alias of Gen Re: ALREADY DELIVERED b02", "parent": "Berkshire Hathaway"}
+{"name": "IMC Group", "why": "parent group of ISCAR: ISCAR ALREADY DELIVERED b01; treated as same business", "parent": "Berkshire Hathaway"}
+{"name": "Lubrizol", "why": "IN MASTER - master: Capacity To Confirm", "parent": "Berkshire Hathaway"}
+{"name": "McLane Company", "why": "IN MASTER - master: All New Brands", "parent": "Berkshire Hathaway"}
+{"name": "NetJets", "why": "IN MASTER - master: Capacity To Confirm", "parent": "Berkshire Hathaway"}
+{"name": "OxyChem", "why": "IN MASTER - master: All New Brands (also checked as Occidental Chemical)", "parent": "Berkshire Hathaway"}
+{"name": "Pilot Flying J", "why": "alias of Pilot Company: ALREADY DELIVERED b02", "parent": "Berkshire Hathaway"}
+{"name": "TransRe", "why": "ALREADY DELIVERED b01", "parent": "Berkshire Hathaway"}
+{"name": "TTI Inc", "why": "ALREADY DELIVERED b02 (as TTI, Inc.)", "parent": "Berkshire Hathaway"}
+{"name": "Aderant", "why": "ALREADY DELIVERED b01", "parent": "Roper Technologies"}
+{"name": "Deltek", "why": "ALREADY DELIVERED b01", "parent": "Roper Technologies"}
+{"name": "Procare", "why": "IN MASTER - master: All New Brands", "parent": "Roper Technologies"}
+{"name": "Transact Campus", "why": "IN MASTER - master: All New Brands (as Illumia (formerly Transact Campus))", "parent": "Roper Technologies"}
+{"name": "Mercer", "why": "IN MASTER - master: All New Brands", "parent": "Marsh McLennan"}
+{"name": "Guy Carpenter", "why": "IN MASTER - master: All New Brands (now Marsh Re)", "parent": "Marsh McLennan"}
+{"name": "Marsh", "why": "F1 PARTNER - current F1 partner (Formula 1)", "parent": "Marsh McLennan"}
+{"name": "Loews Hotels", "why": "ALREADY DELIVERED b02", "parent": "Loews Corporation"}
+{"name": "CNA Financial", "why": "LISTED? - matches the listed company CNA Financial (89% Loews, own shares trade)", "parent": "Loews Corporation"}
+{"name": "Universal Destinations & Experiences", "why": "IN MASTER - master: All New Brands", "parent": "Comcast"}
+{"name": "Sky", "why": "check.py NEW, but Sky holds Formula 1 broadcast rights (Sky Sports F1) in the UK and Italy; left out as an existing F1 rights deal (not verified on a page this session)", "parent": "Comcast"}
+{"name": "Quantinuum", "why": "IN MASTER - master: NEW Quantum Computing", "parent": "Honeywell"}
+{"name": "Waymo", "why": "F1 PARTNER - Miami Grand Prix Event Supporter", "parent": "Alphabet"}
+{"name": "Verily", "why": "F1 PARTNER", "parent": "Alphabet"}
+{"name": "Isomorphic Labs", "why": "IN MASTER - master: Funding Talks - Update", "parent": "Alphabet"}
+{"name": "Zoox", "why": "F1 PARTNER - Williams", "parent": "Amazon"}
+{"name": "Whole Foods Market", "why": "IN MASTER - master: Capacity To Confirm", "parent": "Amazon"}
+{"name": "Ring", "why": "IN MASTER", "parent": "Amazon"}
+{"name": "LinkedIn", "why": "F1 PARTNER", "parent": "Microsoft"}
+{"name": "GitHub", "why": "IN MASTER", "parent": "Microsoft"}
+{"name": "Activision Blizzard", "why": "F1 PARTNER", "parent": "Microsoft"}
+{"name": "Sam's Club", "why": "IN MASTER - master: All New Brands", "parent": "Walmart"}
+{"name": "Flipkart", "why": "ALREADY DELIVERED b02", "parent": "Walmart"}
+{"name": "PhonePe", "why": "ALREADY DELIVERED b01", "parent": "Walmart"}
+{"name": "Frito-Lay", "why": "IN MASTER - master: Capacity To Confirm", "parent": "PepsiCo"}
+{"name": "Cruise", "why": "F1 PARTNER", "parent": "General Motors"}
+{"name": "Motional", "why": "IN MASTER - master: Capacity To Confirm", "parent": "Hyundai/Aptiv"}
+{"name": "Tubi", "why": "IN MASTER - master: Capacity To Confirm", "parent": "Fox Corporation"}
+{"name": "Paramount", "why": "F1 PARTNER (as Paramount+); Paramount Pictures POSSIBLE same group", "parent": "Paramount Skydance"}
+{"name": "Bose", "why": "IN MASTER", "parent": "private"}
+{"name": "WhatsApp", "why": "F1 PARTNER - Mercedes", "parent": "Meta"}
+{"name": "Mobileye", "why": "IN MASTER (also listed)", "parent": "Intel"}
+{"name": "Ray-Ban", "why": "F1 PARTNER - Ferrari", "parent": "EssilorLuxottica"}
+{"name": "Mailchimp", "why": "IN MASTER", "parent": "Intuit"}
+{"name": "Slack", "why": "IN MASTER", "parent": "Salesforce"}
+{"name": "MuleSoft", "why": "F1 PARTNER", "parent": "Salesforce"}
+{"name": "Red Hat", "why": "IN MASTER - master: Capacity To Confirm", "parent": "IBM"}
+{"name": "Warner Bros", "why": "POSSIBLE - Warner Bros. Discovery is a current F1 partner", "parent": "Warner Bros. Discovery"}
+{"name": "Pershing (BNY Pershing)", "why": "check.py NEW, but it trades as BNY Pershing and parent BNY became official institutional banking partner of Williams F1 Team in January 2026 (https://en.wikipedia.org/wiki/Pershing_LLC redirect to BNY); same brand, left out", "parent": "BNY"}
+{"name": "Swedish Match", "why": "owner of ZYN, which check.py flags as F1 PARTNER (Ferrari); treated as the same business", "parent": "Philip Morris International"}
+{"name": "Columbia Threadneedle", "why": "POSSIBLE - Columbia Threadneedle Investments [master: All New Brands]; same company", "parent": "Ameriprise Financial"}
+{"name": "Bethesda Softworks / ZeniMax", "why": "POSSIBLE - ZeniMax Media [current F1 partner]", "parent": "Microsoft"}
+{"name": "Converse", "why": "IN MASTER - master: Changes Since 18 Nov", "parent": "Nike"}
+{"name": "Costa Coffee", "why": "IN MASTER - master: Capacity To Confirm", "parent": "Coca-Cola"}
+{"name": "Depop", "why": "IN MASTER - master: All New Brands", "parent": "Etsy"}
+{"name": "Splunk", "why": "F1 PARTNER - McLaren", "parent": "Cisco"}
+{"name": "HashiCorp", "why": "F1 PARTNER", "parent": "IBM"}
+{"name": "Apptio", "why": "F1 PARTNER", "parent": "IBM"}
+{"name": "Tink", "why": "IN MASTER", "parent": "Visa"}
+{"name": "Recorded Future", "why": "IN MASTER - master: All New Brands", "parent": "Mastercard"}
+{"name": "Afterpay", "why": "IN MASTER", "parent": "Block"}
+{"name": "Cash App", "why": "F1 PARTNER - Racing Bulls", "parent": "Block"}
+{"name": "Worldpay", "why": "IN MASTER - master: All New Brands", "parent": "Global Payments"}
+{"name": "Kenvue", "why": "IN MASTER (and listed)", "parent": "none"}
+{"name": "PGIM", "why": "ALREADY DELIVERED b01", "parent": "Prudential Financial"}
+{"name": "HPS Investment Partners", "why": "IN MASTER - master: All New Brands", "parent": "BlackRock"}
+{"name": "Preqin", "why": "IN MASTER - master: All New Brands", "parent": "BlackRock"}
+{"name": "E*Trade", "why": "IN MASTER - master: Capacity To Confirm", "parent": "Morgan Stanley"}
+{"name": "Elavon", "why": "ALREADY DELIVERED b01", "parent": "U.S. Bancorp"}
+{"name": "Discover", "why": "IN MASTER - master: Capacity To Confirm", "parent": "Capital One"}

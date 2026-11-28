@@ -1,0 +1,23 @@
+u01_japan_subs (batch 3, MODE subsidiaries) - 28 Nov 2026
+Scope: operating subsidiaries of Japanese listed groups (and one mutual: Nippon Life) trading under their own names, mainly in the US, Europe and Australia.
+
+COUNTS
+- Names extracted into DISC: 156 (46 researched; 83 not researched or left out after a light check; 27 left out as IN MASTER / ALREADY DELIVERED / F1 PARTNER).
+- Run through check.py: about 190 names (3 calls). IN MASTER 16, ALREADY DELIVERED 8, F1 PARTNER 3 (Indeed, Glassdoor, Peroni via Peroni Nastro Azzurro/Ferrari), LISTED? 7 (Raymond, Princes Group, Sapporo, Mitsubishi HC Capital, Calbee, Prima Meat, Hartford; all treated as listed or not researched), POSSIBLE 8 (Lion, Delphi, Beyond Sports, Alliance Tire Group, Kobo, Rakuten Viber, Bridgestone Retail Operations, Penske Truck Leasing).
+- MAIN 38 (Route A 30, B 1 [Drunk Elephant], C 7). WATCH 8 (Hawk-Eye, Sports Interactive, Creative Assembly, Great Plains, Milestone Systems, Insomniac Games, Molton Brown, RED Digital Cinema). DUPS 27.
+
+SOURCES (names yielded)
+- Wikipedia group articles: Sony (~15 incl. closed studios), Marubeni (8), Mitsubishi Corporation (10), Sumitomo Corporation (2), Itochu (7), Asahi Kasei (1), Sekisui House (6), Dentsu (6), Recruit Holdings (9), Bridgestone (9), Yokohama Rubber (2), Mitsui & Co. (10, mostly minority stakes), Toyota Tsusho (6), Tokio Marine (4).
+- Wikipedia company articles for each researched company (listed in each record's sources) plus company pages: phly.com, pharmavite.com, tal.com.au, milestonesys.com, resolutionlife.com.
+- My own candidate list of known Japanese-owned subsidiaries, each confirmed against a page before any MAIN line.
+- WebSearch: 1 of 2 used (largest Japanese outbound acquisitions). JETRO reports 2024/2025 opened: no named outbound deals. White & Case page 403. Bloomberg Law excerpt: Nomura bought Macquarie US/Europe assets for USD 1.8bn (not researched).
+
+GAPS / CAVEATS
+- Many figures are older than three years and flagged in `outstanding` (Grohe 2017, Goodman 2013, KYOCERA AVX 2017, Calgon 2014, Eneco 2012, Fyffes 2014, Greenhill 2016, Prazdroj 2019, New Belgium 2015 estimate). Several Route A records rest on the acquisition value, not on revenue.
+- DuluxGroup: the USD 2.7bn transaction comes from a Reuters headline cited on Wikipedia and does not state the currency: low confidence.
+- Websites in MAIN/WATCH were mostly not opened this session (domains from the check list); verify before outreach. WECARS website left blank.
+- Beer records (Grolsch, Sleeman, New Belgium, Plzeňský Prazdroj) carry an established Heineken category conflict.
+- Bungie: heavy distress (layoffs, impairments). WECARS: predecessor Big Motor scandal (compliance check needed). Woven by Toyota: parent Toyota partners Haas.
+- Wikipedia 404s / site blocks: Webfleet, Merkle, Hussmann, ZOLL, ATL, AAF, Programmed, SmartestEnergy, Chandler Macleod, Yanase, SB Energy, PURE (403), Aimo Park (503). These stay in DISC as not researched.
+- Not reached: Panasonic, Denso, Fujitsu, NEC, Hitachi (beyond rail), Mitsubishi Electric/Heavy, Komatsu, Shiseido (beyond Drunk Elephant), Kao (beyond Molton Brown), Japan Tobacco, Seven & i, Nomura's Macquarie assets, Sompo, MS&AD (beyond Amlin), Mitsubishi UFJ (beyond First Sentier), SMFG (beyond SMBC AC), Daikin Applied, Kubota, Japanese trading-house food and energy affiliates in Asia and Latin America. Not exhaustive.
+- Not covered by this run: AFL (t14 task), Sumitomo Electric Lightwave (t14 peer set).

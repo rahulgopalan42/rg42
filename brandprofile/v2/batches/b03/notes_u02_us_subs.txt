@@ -1,0 +1,25 @@
+u02_us_subs (batch 3, MODE subsidiaries) - 28 Nov 2026
+Scope: independently branded operating companies of US listed groups (Berkshire Hathaway, Danaher, Fortive/Vontier, ITW, Roper, Honeywell, Markel, Loews, Marsh McLennan, Comcast, Booking Holdings, Amazon, Apple, Microsoft, Alphabet, Disney, Intuit, DoorDash, J&J, Altria, Global Payments, BlackRock, Morgan Stanley, Franklin Templeton, AIG, others).
+
+COUNTS
+- DISC: 190 lines (names read off group pages or from my own candidate list of known subsidiaries; each checked with check.py).
+- Run through check.py: about 330 names in 6 calls (some aliases and legal-suffix-free variants re-checked).
+- IN MASTER / ALREADY DELIVERED / F1 PARTNER / LISTED / alias: 78 DUPS lines. Aliases caught by hand that check.py did not flag: Brooks Sports (= Brooks Running), General Reinsurance (= Gen Re), Pilot Flying J (= Pilot Company), Occidental Chemical (= OxyChem), IMC Group (ISCAR parent), Swedish Match (ZYN owner), BNY Pershing (BNY partners Williams, Jan 2026). Sky left out as F1 broadcast rights holder (not verified on a page this session).
+- MAIN 40 (Route A 29, Route C 11). WATCH 9 (Priceline, Audible, Jazwares, Miller Electric, Comcast Spectacor, Fandango, Matco Tools, Hobart, Calico).
+- signals_checked: "yes" where the company's Wikipedia article (history / recent events) was read in this session; "no" for Cytiva, Berkshire Hathaway Automotive and FlightSafety (their Wikipedia titles redirect to the parent). I did not open separate newsroom pages for most companies: the Wikipedia history counted as the signals page. Many articles had no events after Dec 2024; those records have empty signals.
+
+SOURCES (names yielded)
+- Wikipedia: List of assets owned by Berkshire Hathaway (~90), Danaher (14), Roper Technologies (28), Fortive (12), Illinois Tool Works (12), Markel Group (23), Loews (4), Marsh McLennan (4), Honeywell (~18), List of assets owned by Comcast (18), Booking Holdings (11), Legg Mason (affiliates, 9), Alleghany (8), Eaton Vance (5).
+- Wikipedia company articles for every researched company (in each record's sources); company pages agoda.com/about-agoda (opened), flightsafety.com/about (opened, no figures), fluke.com about (403).
+- WebSearch: 0 of 2 used.
+
+GAPS / CAVEATS
+- Many financial figures are old (Precision Castparts FY2014, Shaw 2017, Pall 2014, Boardwalk 2016, Heartland 2014, Zappos 2015, See's 2016, Beckman 2017); several Route A records rest on the parent's acquisition price. Flagged in `outstanding`.
+- Gilbarco Veeder-Root: Wikipedia infobox shows USD 5bn revenue FY2025, which looks larger than parent Vontier; record uses Route C instead and flags it.
+- Intelligrated: Honeywell sold its Warehouse and Workflow Solutions business to American Industrial Partners in July 2026; whether that is Intelligrated is unverified (ownership "requires verification").
+- Low natural F1 fit but qualifying: PacifiCorp, AltaLink, Boardwalk, Cepheid, Beckman Coulter, Cytiva, Abiomed. NJOY carries nicotine advertising compliance limits.
+- Category conflicts noted: sister companies of Amazon (AWS, Zoox), Marsh (F1 partner) for Oliver Wyman, Microsoft (LinkedIn, ZeniMax) for Mojang, Skydance/Paramount for Fandango.
+- Credit Karma also appears in t28_brokers_crypto.jsonl (parallel researcher): dedupe at consolidation.
+- Wikipedia 404 / redirect, so not researched: MiTek, Neptune Technology Group, FreeWheel, Costa Farms, Altium Packaging, Accruent, LenelS2, Nephila Capital (AUM USD 7.2bn on Markel page: likely Route A, research next), Industrial Scientific, Shockwave Medical, Athene, Global Atlantic, Featurespace, Lexington Insurance (redirect to AIG), Western Asset (redirect to Legg Mason).
+- Not reached: most Roper and Danaher units (Clinisys, PowerPlan, CBORD, ConstructConnect, DAT, The Foundry, iPipeline, Verathon, SCIEX, Radiometer, IDT, Abcam, Leica Biosystems, Molecular Devices, Genedata), Fortive's Gordian / ServiceChannel / ASP / Qualitrol, Berkshire's CORT, XTRA Lease, Larson-Juhl, Oriental Trading, Pampered Chef, Scott Fetzer, Richline, RSUI, USLI, MedPro, Kern River, Northern Natural Gas, NV Energy; Disney units (Lucasfilm, Pixar, Marvel, NatGeo, Disney Cruise Line); Booking's FareHarbor, momondo, Rentalcars.com, Getaroom; large insurers' and banks' own-brand subsidiaries beyond those listed; consumer groups (P&G, Estee Lauder, VF, Tapestry) whose brands are mostly divisions without separate companies. Not exhaustive.
+- Websites: most taken from the Wikipedia infobox; Cytiva and Berkshire Hathaway Automotive left blank (not verified).

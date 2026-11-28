@@ -1,0 +1,35 @@
+r06_queue (batch 3, queue mode) - input in_q06.jsonl, 80 lines. Verified 2026-11-28. WebSearch used: 0.
+Method: check.py on all 80 names; Wikipedia (raw wikitext via action=raw, rate-limited at times) and company sites via WebFetch/curl.
+Many company sites refused (403/404/Cloudflare/503) and several Wikipedia pages do not exist.
+
+RESEARCHED - MAIN (25): Kenco Group (A), Ascent Global Logistics (A), Allen Lund Company (A), Priority1 (A, $1.5bn 2025 per own site),
+PPF Group (A), Wilh. Werhahn KG (A), Mortenson (A), Tennessee Valley Authority (A, state), Swiss Post (A, state),
+Laboratoires Expanscience (A), Bayernland eG (A), Cosmo Consult (A), CineStar (C), Italdesign (C; co-owner Lamborghini/VW = Audi F1 owner, noted),
+Embark Studios (B; Nexon subsidiary), Tiru (C; Paprec), Stadtsparkasse München (C), Sparkasse KölnBonn (C), NRMA (A), AKD (A, IBISWorld FY22),
+Crown Group Holdings (A, IBISWorld FY22, low), One Stop Warehouse/OSW (A, IBISWorld FY22, low), Jardine Motors Group (C, 2012-14 data, low),
+SanMar (C), BelGioioso Cheese (C).
+RESEARCHED - WATCH (18): Deschutes Brewery, DXRacer, Edward Gaming, Incredible Technologies, Dubek, Bovet Fleurier, Binda Group (revenue 2007 only),
+Cinex, Cinesystem (pt.wikipedia shows a B3 code CNSY3 - listing must be checked), Bengawan Solo, Air Premia, Air Senegal, Air Seychelles (2014 revenue),
+Ito-Yokado (one Route C indicator only; parent York Holdings), Hipódromo Argentino de Palermo (HAPSA), Drew Estate, CtrlS, Blåkläder (SEK 1,285m 2018, Route B band without support).
+
+LEFT OUT (DUPS, 26):
+- master / delivered duplicates (10): B. Braun, Grupo SEB, Hirschvogel, Wilhelm Hoyer, Brose, Syneos Health Clinical Solutions, Huntington Learning, Giassi, Rhenus, Florence Nightingale.
+- listed (8): Sodexo, Southern Peru Copper (Southern Copper), Türkiye İş Bankası, thyssenkrupp, Wilhelmsen, Farmacias Guadalajara (Fragua), Fleury, Hacksaw Gaming (Hacksaw AB, IPO 2025).
+- merged away (1): Crayon (now SoftwareOne).
+- not a separate company (6): SVOLT Europe GmbH, Herlitz (brand of Pelikan Group/Hamelin), Telefónica de España (Movistar, Telefónica), Centros Comerciales Carrefour, Bp Energía España, Stellantis Financial Services (captive finance arm).
+- not a commercial company (1): Australian Catholic University.
+Note: Carrefour and BP Spain judged from the entity names and ranking; no company page opened for them.
+
+NOT RESEARCHED (11; no page about the company could be opened - no record written):
+- S&S Activewear (site Cloudflare error; no Wikipedia article).
+- Duty Free Americas (site 403; no Wikipedia article).
+- Suez-Enviro Dubai (no page tried successfully; by name probably a local entity of Suez - would be DUPS if confirmed).
+- ABC Tissue (domain does not resolve in this session; no Wikipedia article).
+- Apex Group (Australia, IBISWorld 2022) - identity unclear, no page found.
+- Amphora Australia - amphora.com.au is a parked page; identity unclear.
+- Tongwei Solar - tongwei.cn pages 404; parent Tongwei Co. believed listed but not verified (likely DUPS).
+- ADCO Group - identity unclear (not the ADCO oil company), not tried further.
+- Sard Verbinnen (site 503; no Wikipedia article).
+- Inspira Educação (inspira.com.br is an unrelated software firm; no article).
+- Joie (site Access Denied; no article).
+Main gaps: revenue for Route C companies; owners for Ascent, Allen Lund, CineStar (EVT Ltd), Cosmo Consult; IBISWorld FY2022 figures are older than three years.

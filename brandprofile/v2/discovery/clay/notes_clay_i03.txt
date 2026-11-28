@@ -1,0 +1,41 @@
+Clay discovery stream, batch 3, KEY clay_i03 (MODE clay, deeper paging) - notes, 28 Nov 2026
+Tools: mcp__Clay__search-companies + load-more-search-results only. No enrichment, no render, no WebSearch.
+Filter on every query: company_type in ("Privately Held","Partnership","Self Owned"). All four industry names accepted as given.
+Page limits (industry line): P1=2 ("1B-10B","10B-100B","100B-1T"), P2=2 ("500M-1B"), P3=1 ("200M-500M").
+Total: 19 pages read, 368 rows saved to clay_i03.jsonl (rows appended after every page).
+
+Query (industry | brackets) : pages read : rows : hasMore when stopped
+Capital Markets | 1B+ : 2 : 40 : TRUE (stopped at P1 cap; more pages remain)
+Capital Markets | 500M-1B : 1 : 10 : false (complete; only 10 results)
+Capital Markets | 200M-500M : 1 : 20 : TRUE (P3 cap; more remain)
+Venture Capital and Private Equity Principals | 1B+ : 2 : 40 : TRUE (P1 cap; more remain)
+Venture Capital and Private Equity Principals | 500M-1B : 2 : 38 : false (complete; page 2 had 18 rows)
+Venture Capital and Private Equity Principals | 200M-500M : 1 : 20 : TRUE (P3 cap; more remain)
+Real Estate | 1B+ : 2 : 40 : TRUE (P1 cap; more remain)
+Real Estate | 500M-1B : 2 : 40 : TRUE (P2 cap; more remain)
+Real Estate | 200M-500M : 1 : 20 : TRUE (P3 cap; more remain)
+Holding Companies | 1B+ : 2 : 40 : TRUE (P1 cap; more remain)
+Holding Companies | 500M-1B : 2 : 40 : TRUE (P2 cap; more remain)
+Holding Companies | 200M-500M : 1 : 20 : TRUE (P3 cap; more remain)
+Industries not reached: none.
+
+disc_check.py result (368 rows): NEW 278, POSSIBLE 26, LISTED 5, IN MASTER 38, ALREADY DELIVERED 20, F1 PARTNER 1.
+
+Data notes:
+- Rows copied as Clay gives them; desc trimmed to roughly the first 200 characters (sometimes shortened with "...") plus any
+  owner/parent/ticker sentence (joined with " || "). Missing employee_count saved as null.
+- Capital Markets 1B+ and VC/PE 1B+ lists are mostly junk/placeholder pages (No-Company, Stock Market, "expect us" shells,
+  forex education pages, "Private Equity" Wikipedia page, Bayern Munchen / Manchester City placeholder pages, etc.) - saved as given.
+- VC/PE results are mostly investment firms (a16z, Accel, Permira, Hg, HarbourVest...) - poor sponsorship fit; family holding
+  groups in the same list are more relevant (Virgin, Heico, Nesma, Bin Butti, Lakson, Hoffmann, Serafin, VTC, Alkan).
+- Holding Companies is the richest list: Gulf and Turkish family conglomerates (Al-Futtaim, Al Ghurair, AKI, Anadolu, Limak, Cengiz,
+  Kazanci, Tosyali, Calik, Ronesans, Borusan, Akkok, Gurok, Al Mulla, Alesayi, Juffali, Kanoo, Al Masaood, AW Rostamani, Alsayer).
+- Clay mislabels listed entities as Privately Held: DLF, IOI Properties, Palm Hills (EGX/LSE), Orascom Development (SIX), AEDAS Homes,
+  Randoncorp (B3), Nexity; subsidiaries of listed groups also present (Coldwell Banker Realty/Anywhere, SM Supermalls/SM Prime,
+  EEX/Deutsche Borse, Bouygues Immobilier, Tegra/Brookfield, Astra Infra/Astra International, CBRE Portugal, VINCI Energies Portugal,
+  LDC/Lloyds, Connells/Skipton, GV/Alphabet). Left in for the later filter.
+- State-owned entities present: CDC Habitat, Action Logement, KAFD (PIF), ROSHN (PIF), Nakheel/Meraas (Dubai Holding), The Crown Estate,
+  EPSO-G (Lithuanian Energy Ministry), Bpifrance; Erciyes Anadolu is under TMSF trusteeship.
+- Duplicate entities as Clay gives them: Essendi = AccorInvest; Brookfield Properties = BGRE; two Lincoln Property Company pages;
+  Namya Ltd / Namya Holding; Sensum Grupa / UGN; Accel / Accel in India; Greystar / Greystar (International); DAMAC Properties / DAMAC Group.
+- Binghatti self-describes branded projects with Bugatti and Mercedes-Benz (Clay text only, not verified).

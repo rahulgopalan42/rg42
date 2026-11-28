@@ -1,0 +1,54 @@
+t42_health_longevity - batch 3, MODE sector, 28 Nov 2026
+Scope: consumer health platforms, telehealth, weight management and longevity clinics, DTC diagnostics, wearables and fitness tech,
+sleep and mental-health products, sports nutrition and sports medicine.
+
+COUNTS
+- MAIN 25, WATCH 13 (38 records; target was 45 - not reached, see gaps). DUPS 83. DISC 273 lines (incl. the left-out names).
+- Names run through check.py: about 260 across five calls. IN MASTER about 40; ALREADY DELIVERED 11 (Suunto, Withings, Nutrabolt,
+  Prozis, Bauerfeind, Kindbody, Cult.fit, Hyrox, Wahoo Fitness, boAt, Hästens, Genki Forest); F1 PARTNER 4 (WHOOP, Eight Sleep,
+  Optimum Nutrition, Celsius); listed left out: Hinge Health, Omada, Hims & Hers, Peloton, Garmin, Xiaomi, Zepp/Amazfit,
+  Johnson Health Tech, Teladoc (parent of BetterHelp, kept as subsidiary).
+- Aliases logged as duplicates by hand: Livi (=Kry), Gympass (=Wellhub), Curefit (=Cult.fit), Athletic Greens (=AG1), Juniper/Voy
+  (=Eucalyptus), Doctoralia (=Docplanner), Bettzeit (=Emma), Barebells (=Vitamin Well), Electrolit (=PiSA), Imagine Marketing (=boAt),
+  Playlist (=Mindbody), Congo Brands (Prime), Oura (=Oura Health), Les Mills (=Les Mills International), Casper, Ghost.
+- Left out for other reasons: Cerebral (DOJ settlement on controlled-substance prescribing, Nov 2024), Bodyfriend (shares trade on K-OTC;
+  management-control dispute), Lucozade Ribena Suntory (treated as GB&I entity of Suntory, delivered b01; formerly a McLaren sponsor),
+  Nocco (Celsius), Myprotein (THG division).
+
+SOURCES (names yielded)
+- Wikipedia List of unicorn startup companies (3 passes): ~25 health/fitness names.
+- Forge Global digital-health unicorn page (valuation 1b-5b): 24 names with estimated post-money valuation and total funding.
+- Forge Global digital-health pages 1 and 2: 48 names (valuation and last round only).
+- WebSearch (1 of 1 used): "largest private digital health companies 2025..." -> pointed to Forge, Becker's (403), Rock Health, CB Insights.
+- Company Wikipedia articles opened (each used as company and signals page): Ro, Noom, Function Health, Zocdoc, Maven Clinic, Hyperice,
+  Polar Electro, Slimming World, Altos Labs, Freeletics, PharmEasy, HealthifyMe, Cerebral, BetterHelp, Natural Cycles, Human Longevity,
+  Concept2, GU Energy Labs, Pristyn Care, DHC, Saatva, Silentnight, Simmons Bedding, Nutrisystem, MyFitnessPal, fairlife, Clif Bar,
+  Lucozade, ko: Bodyfriend.
+- Company sites opened: everlywell.com, color.com/newsroom, sondermind.com/press, bellabeat.com/about, humanlongevity.com,
+  lanserhof.com, tanita.co.jp (top message, company outline), coros.com/about, iovate.com, prenuvo.com, fountainlife.com.
+- Refused / not found: Becker's (403), headway.co (403), includedhealth.com (403), biotechusa.com (403); 404 on Wikipedia for Lyra
+  Health, Headway, Everlywell, Tonal, Coros, Lanserhof (de), Prenuvo, Clinique La Prairie, Included Health, Practo, WeDoctor, Virta Health,
+  Thirty Madison, Iovate, HealthKart, Halodoc, BioTechUSA (hu), Olimp (pl), Ceragem (en/ko), Bodyarmor, Liquid I.V., Orgain, OSIM.
+- Crunchbase MCP: data allowance exhausted for the month (resets 1 Dec 2026), not used.
+
+CAVEATS
+- Eleven MAIN records rest on Forge Global estimated valuations/total funding (marked kind "estimated", conf low/medium): Everlywell,
+  Color Health, SonderMind, Grow Therapy, Midi Health, Included Health, Pomelo Care, Bellabeat, Zocdoc (also Wikipedia), Headway
+  (also Wikipedia unicorn list), Maven (also Wikipedia).
+- Several qualifying figures are older than three years (Ro 2021, Noom FY2020, Hyperice c.2020, Altos 2022, BetterHelp FY2021,
+  Human Longevity 2014-2019, Pristyn 2021, Clif Bar 2022): flagged in "outstanding".
+- signals_checked "no" for Headway, Grow Therapy, Midi Health, Included Health, Pomelo Care, Tanita (no newsroom opened).
+- Human Longevity: confirm its 2022 SPAC did not complete. fairlife: qualifies on documented parent backing (USD 650m plant expansion);
+  only retail value (not revenue) is published.
+- Polar Electro is WATCH: revenue EUR 110m (Route B band) but loss-making, so no Route B support.
+
+REGIONS / SUBSECTORS COVERED
+- Researched: US telehealth, mental health, longevity, DTC diagnostics, women's health; sports recovery; wearables (Finland, Japan);
+  nutrition apps; weight management (US/UK); sleep (US/UK mattresses); sports nutrition (Coca-Cola and Mondelez subsidiaries);
+  India (PharmEasy, Pristyn Care, HealthifyMe).
+- Not reached in depth: China, South-East Asia, Middle East, Latin America, Africa, Korea (only names in DISC); European telehealth and
+  DTC testing (Numan, Zava, Thriva, Medichecks, ZOE); longevity clinics in Switzerland/Spain (Clinique La Prairie, SHA, Chenot);
+  sports medicine (Athletico, Mueller, Aspetar, Isokinetic); European sports-nutrition makers (Olimp, Trec, BioTechUSA, ESN, Weider,
+  Maurten, Precision Fuel & Hydration); fitness equipment (Eleiko, Woodway, Impulse, DHZ); massage-chair/wellness devices
+  (Ceragem, OSIM, Fujiiryoki, Family Inada). All are in DISC with stage "not researched".
+Nothing here is exhaustive.

@@ -1,0 +1,44 @@
+NOTES k18_china_b (batch 3, country mode, 28 Nov 2026)
+Scope: mainland China ACFIC Top 500 private enterprises ranks 251-500, Hurun/unicorn lists, provincial champions, Hong Kong and Macau private groups.
+
+SOURCES (names given)
+- ACFIC "2025 China Top 500 Private Enterprises" full list as a PDF copy: http://www.sxhhy.com/uploadfile/file/20250828/e34a68d94.pdf
+  (revenue is FY2024, in CNY ten-thousand). Ranks 251-500 extracted: 250 names, all in DISC. The copy was checked against press reports:
+  JD.com CNY 1,158.819bn at rank 1 and the CNY 27.023bn entry threshold at rank 500 match askci.com and Xinhua.
+  Every company on the list has revenue above USD 3.7bn, so Route A (revenue) is met by every unlisted name on it.
+- en.wikipedia List of unicorn startup companies (China/HK rows visible in the first 200k characters): 28 names, all in DISC. Mostly stale valuations from 2016-2021.
+- en.wikipedia Chow Tai Fook Enterprises: 3 subsidiaries (Baha Mar, Goshawk, Alinta) in DISC.
+- About 25 Hong Kong/Macau group names run through check.py. Researched: Maxim's, Nan Fung, Chinachem, STDM. Not researched: Emperor Group, Lai Sun, Joyce Boutique, Kerry Logistics, Pacific Century Group, Maxim's peers. Several of these are listed or are holding companies.
+- WebSearch: 2 used (of 2), for the ACFIC list. Baidu Baike is blocked. Many Chinese company sites returned 503 or did not resolve (neptunus.com.cn,
+  chengli.com.cn, taikai.com, xizi.com, jncable.com.cn, zensun.com.cn, tiankang.com, xinhu.cn, jinggong.com, chinaredsun.com, jinluo.com, wfjt.com, fasten.com.cn).
+  zh.wikipedia had no article for many of the groups. This, not a lack of candidates, is the main limit on research depth.
+
+COUNTS
+- Names extracted to DISC: 287 (250 ACFIC, 28 unicorn, 9 other).
+- Run through check.py (in English renderings; the register has no Chinese names): about 330 name variants. ACFIC list results:
+  IN MASTER 6 (Deli, Yangtze River Pharma, Yalu, Qilu, Liby, China Wanxiang), same-group duplicates 3 (Wanxiang Sannong, Wanbang/Star Charge, Zhuhai Wanda Commercial/Wanda).
+  check.py flags only about 15 listed Chinese names. About 50 more of ranks 251-500 look like exchange-listed companies or listed-brand subsidiaries (marked in DISC "why" as "not verified").
+- Unicorn/HK: F1 PARTNER 2 (ByteDance, Airwallex). IN MASTER / ALREADY DELIVERED 13. Hellobike IN MASTER was caught by an alias check after research, and its record was removed.
+- Researched: 26. MAIN 19, WATCH 6. Left out on sanctions: Megvii (US Entity List). DUPS 27 lines.
+
+MAIN (19): WeBank, Guohua Life, Nice Group, Pupu Supermarket, Shangshang Cable, Juneyao Group, Shenzhen Huaqiang Group, Weihua Group, Daqo Group,
+Huaihai Holding, Infore Group, HEC Group (Dongyangguang), Wensli Group, Yuexing Group, Xiaohongshu (RedNote), Lalamove, Maxim's Caterers, Moonshot AI, SVOLT.
+WATCH (6): Zhengzhou Yutong Group (holding of the listed Yutong Bus brand), Wanfeng Auto Holding (listing status of the group unclear), Golden Eagle International
+(retail arm's HK listing not confirmed delisted), Nan Fung, Chinachem (no figures), STDM.
+signals_checked: yes 14, no 5 (WeBank and Pupu sites are script-rendered or have no news; Huaqiang and Weihua were Wikipedia only; Maxim's has no post-2022 news).
+
+METHOD NOTES
+- For ACFIC companies the revenue figure is the ACFIC list. Ownership was taken from Wikipedia or the company's own site. The legal form shown on the list
+  (有限公司 / 有限责任公司) means the company itself cannot have exchange-traded shares, and this is cited where a page gave no ownership detail.
+- Groups whose consumer brand trades through a listed subsidiary (Yutong, Semir, Weixing, Yongding, CSPC, Sunny, Gold Mantis) are left out or put in WATCH, as the brief requires.
+- Moonshot AI has open compliance questions (Anthropic distillation allegations, a CAC investigation from Sep 2026). These are recorded and are not established findings.
+- Xiaohongshu was preparing a HK IPO (June 2026). Before delivery, confirm that it has not listed since.
+
+NOT DONE / GAPS
+- About 140 likely-unlisted ACFIC names (ranks 251-500) were not researched. Most are steel, chemicals, copper, construction and supply-chain traders with low F1 fit.
+  Higher-fit names still open: Taikai Group, Xizi United, Jinluo, Zongteng (cross-border logistics), Neptunus, Chengli Auto, Dekon,
+  Fuchunjiang Communications, Wuxi Jiangnan Cable, Huayuan Group, NHU Holding, Rongmin, Zensun, Boyang, Shashidi, Weitianyuntong, Vital/Xiandao, Tiankang, Jinggong, Lishi.
+- Hurun China 500 unlisted and Hurun Global Unicorn Index pages were not opened (the Wikipedia URL 404'd; no search budget left).
+- Provincial champion lists were not reached. Hong Kong/Macau was covered only partly.
+- Large unlisted names that came up in check.py and are NEW (Wahaha, Delixi, Hengtong, Sany, Weiqiao, Hisense, Haier, Geely Holding) sit in ranks 1-250 (k17 scope) and were not researched here.
+- Fewer than the 45-record target: 25 MAIN+WATCH, because of blocked sites and no search budget.

@@ -1,0 +1,50 @@
+NOTES r07_queue (batch 3, queue mode), 28 Nov 2026
+Input: v2/batches/b03/in_q07.jsonl, 80 lines, all checked with check.py (plus parent and alias names). WebSearch: none used (limit 0). WebFetch only.
+Sources: mainly Wikipedia (en/es/fr/de/it/ko/sl; Special:Search used to find titles) and company sites. Wikipedia API rate-limited a curl attempt, so stopped that.
+
+RESEARCHED - MAIN (23): Ken Garff Automotive (C); Veronesi Holding (A); Suhyup Bank (C); EPI (Piper-Heidsieck) (C); Redwood Logistics (A); Petroleos Del Norte (A); Mort & Co (A); Familia Torres (A); Kögel (A); Leuchtturm1917 (C); Bewley's (A); Air Tahiti Nui (C); Deutsche Glasfaser (A); Bing Lee Electrics (A); Adbri (A); ITS Logistics (A); Startek (C); Plus Retail (C); Lotus Herbals (C); Air Tanzania (C); Devialet (A); Metro Supply Chain (A); AGnVET Management Services (A)
+
+RESEARCHED - WATCH (18): Smartly.io; Benugo; Cinémas Guzzo; Air Sial; Breguet; Swish; Curzon; Esports World Cup Foundation; Jack Entertainment; Fedway; ThinkMarkets; Cycles Devinci; Blank Street Coffee; Ithuba; StackAdapt; Estral Esports; EPIC.LAN; Interblock
+
+LEFT OUT - DUPS (28):
+Aegea: check.py: POSSIBLE - Aegea Saneamento [delivered under the revised methodology: b02]; same
+Mercedes-Benz España: not a separate company: national entity of Mercedes-Benz; check.py: POSSIBLE - Mercedes-Be
+Federal Hotels Group: check.py: POSSIBLE - Federal Group [master: Capacity To Confirm]; Federal Hotels is the Ta
+Franz Haniel & Cie. GmbH: check.py on alias Haniel: IN MASTER - master: All New Brands (as Haniel)
+PHW Group (Lohmann & Co. AG): check.py on alias Wiesenhof: IN MASTER - master: All New Brands (as PHW-Gruppe (Wiesenhof)
+Brooks Sports: check.py on alias Brooks Running: IN MASTER - master: Capacity To Confirm (as Brooks Runni
+Iberia Lineas Aereas De España: check.py: POSSIBLE - Iberia [master: All New Brands]; same company; check.py on Iberia: IN
+Lidl Supermercados: not a separate company: Spanish national entity of Lidl; check.py on Lidl: IN MASTER - mas
+Renault España: not a separate company: Spanish national entity of Renault (owner of current F1 partner Al
+Aquarion: check.py: POSSIBLE - Aquarion Water Company [delivered under the revised methodology: b02]
+AEG Presents: check.py on parent AEG: IN MASTER - master: Clay Leads (Unconfirmed) (as AEG); AEG Present
+Bremont Watch Company: check.py on alias Bremont: ALREADY DELIVERED - delivered under the revised methodology: b0
+WT Microelectronics 文曄科技(股)公司: listed (Taiwan Stock Exchange 3036; stockanalysis.com/quote/tpe/3036)
+KinderCare: listed (NYSE: KLC; stockanalysis.com/stocks/klc)
+Hengrui: listed (Shanghai SSE 600276 and HKEX 1276; en.wikipedia.org/wiki/Jiangsu_Hengrui_Medicine)
+Adani Green Energy Ltd.: listed (BSE 541450, NSE ADANIGREEN; en.wikipedia.org/wiki/Adani_Green_Energy)
+ADES - Advanced Energy Systems: listed (Saudi Exchange Tadawul 2382, ADES Holding Company; stockanalysis.com/quote/tadawul
+Mitsukoshi Isetan: listed (operating business of Isetan Mitsukoshi Holdings, TYO 3099; check.py LISTED?)
+Learneo: owner and parent brand of Course Hero (Wikipedia: Learneo redirects to Course Hero); check
+EuroChem: Russian company excluded: production assets mostly in Russia, moved HQ from Russia to Zug 
+ZARA: not a separate company: flagship retail brand of Inditex (Wikipedia: Spanish fast fashion 
+Lotte Duty Free: not a separate company: duty-free division of Hotel Lotte (en.wikipedia.org/wiki/Lotte_Dut
+Grupo Ángeles: alias: Grupo Ángeles / Grupo Empresarial Ángeles is the former name of Grupo Vazol (es.wik
+Learning Tree: listed (traded over the counter, Expert Market: LTRE; formerly Nasdaq) per en.wikipedia.or
+Aerotek: not a separate company: Wikipedia Aerotek redirects to Allegis Group (founded as Aerotek);
+Larry H. Miller Dealerships: not a separate company: dealerships sold to Asbury Automotive in 2021 for USD 3.2bn (en.wi
+Hermes Pardini: not a separate company: a brand of Grupo Fleury (pt.wikipedia Grupo Fleury snippet); Fleur
+Adisseo: listed: operating company of Bluestar Adisseo Company (check.py LISTED?); ChemChina acquir
+
+NOT RESEARCHED (11; no page about the company could be opened):
+A.B. Consulting sas (site 503; Clay bracket USD 1-10B with 51 staff looks wrong); Endgame Gear (site redirect loop, no Wikipedia); Kettal (site 403, only a passing Wikipedia mention); Davidson Consulting (davidson.fr 403, davidson-consulting.com for sale, no Wikipedia); Activos Colombia (site 503 twice); Acuity Analytics (site 403, no Wikipedia); Alpine Waste & Recycling (site 522 twice); Bowens Timber & Hardware (site 403); Adfusion Solutions (domain did not resolve; Clay bracket with 7 staff looks wrong); Stowe Australia (domain did not resolve); JILI Games (domain did not resolve, no Wikipedia).
+
+Main gaps and cautions:
+- Several MAIN revenue figures are older than three years (Veronesi 2018, Torres 2016, Bewley's 2019, Adbri 2020, IBISWorld 2022 figures for Mort & Co, Bing Lee, AGnVET).
+- Input ranking figures (TT 2025 for ITS Logistics, Metro Supply Chain; IBISWorld 2022) were kept as given and not re-opened.
+- Startek: confirm it no longer trades (formerly NYSE) and current owner after CCI Global merger.
+- Grupo Ángeles moved to DUPS: it is the former name of Grupo Vazol, which is IN MASTER.
+- Aerotek left out because its Wikipedia article redirects to Allegis Group (IN MASTER); a reviewer may decide to treat it as a separate brand.
+- Devialet: F1 driver Isack Hadjar named global ambassador April 2026 (strong signal).
+- Ownership not confirmed for Suhyup Bank, Redwood, Mort & Co, Lotus Herbals, AGnVET, Startek.
+- Hosts not reachable from this session: mortco.com.au, stowe.com.au, jiligames.com, adfusionsolutions.com, estralesports.com (DNS).

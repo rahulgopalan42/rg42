@@ -1,0 +1,66 @@
+k02_uk_ireland - batch 3, MODE country (United Kingdom and Ireland). Researcher notes, 28 Nov 2026.
+
+COUNTS
+- DISC: 397 names extracted (UK 307 from 13 county lists; Ireland 90 from 5 lists). All 397 run through check.py.
+  check.py results: NEW 314, IN MASTER 43, ALREADY DELIVERED 15, POSSIBLE 21, LISTED 3, F1 PARTNER 1.
+  Stage: researched 45, left out 66, not researched 286.
+- MAIN: 37 (Route A 18, Route B 2, Route C 17). WATCH: 8. DUPS: 66.
+- Three companies were researched and then removed from MAIN because a second check.py run (with website and alias) showed
+  them IN MASTER: EMR / European Metal Recycling, Radius (Radius Payment Solutions), PureGym. They are in DUPS.
+- WebSearch used: 3 of 3.
+
+SOURCES USED (names extracted)
+- Grant Thornton "LTD." county reports, top 100 privately owned companies by turnover (PDFs; ranks only, no per-company figure):
+  Hertfordshire 2026 (41), Kent 2026 (22), Cheshire 2026 (31), Essex 2026 (23), Hampshire 2026 (29), Dorset 2026 (18),
+  East Yorkshire 2026 (16), Lancashire 2025 (21), Northamptonshire 2026 (21), Oxfordshire 2025 (18), Surrey 2025 (25),
+  Sussex 2025 (16), West Yorkshire 2026 (26). Mostly top 20-40 of each list taken; ranks 41-100 in each list not extracted.
+  GT methodology excludes listed companies, companies owned by listed businesses and subsidiaries of overseas companies; this was
+  used as supporting ownership evidence where a company site gave none.
+- Business & Finance Top 100 Companies Index 2025, parts 1-4 (Ireland): 67 names.
+- Construction News Ireland, Top 40 building contractors by total turnover 2025: 23 names (ranks 1-26, with figures).
+- Company pages and Wikipedia articles were used for research (listed per record in "sources").
+
+NOT OPENED / BLOCKED
+- Sunday Times Top Track 100 / 250 (fasttrack.co.uk): HTTP 503 and proxy tunnel closed. No Top Track list was read.
+- Irish Times Top 1000 (top1000.ie): HTTP 503. Not read.
+- AM100 dealer ranking (am-online.com): HTTP 403.
+- Wikipedia API: rate-limited (shared IP); category pages via WebFetch were thin (52 names, not used).
+- Companies House documents: filing-history pages load but account PDFs return 502, so no registry turnover figures were used.
+- mgroupservices.com would not resolve (outside the session's network); goodwood.com 403; several company about pages 404.
+
+COVERAGE
+- UK: South East, East, South, Yorkshire, North West, East Midlands and Oxfordshire county lists. NOT covered: London, Greater
+  Manchester, West Midlands, Scotland, Wales, Northern Ireland lists (other than NI names in the Irish lists: Moy Park, Norbrook);
+  The Times 100 / Top Track lists.
+- Ireland: B&F Top 100 and the construction ranking. Irish Times Top 1000 not reached.
+- Sectors researched: construction, utilities, state companies, aircraft leasing, telecoms, food, retail, insurance, motor retail,
+  travel, industrial equipment, spirits, aerospace/defence services.
+
+QUALITY FLAGS
+- Several Route A figures are older than three years and are flagged in "outstanding": Stannah (2021), ESB (2019), Coillte (2016),
+  Gas Networks Ireland (2014), AirTanker (2020), Hobbycraft (FY2021/22), Oliver Bonas (FY2021), Wightlink (2022).
+- Route C records leaning on a Grant Thornton county rank as one indicator are marked conf "low" or "medium": Swansway, Glyn Hopkin,
+  Perrys, Arco, Medivet, SGN, Northern Gas Networks, Avara Foods, Halewood, Markerstudy.
+- Ownership not fully named (requires verification): Simplyhealth, Medivet, Markerstudy, Glyn Hopkin, Ardmac (parent Purever's
+  status unknown), Combilift (founder-led; split not stated).
+- John Paul Construction (EUR 1.046bn) and Wills Bros (EUR 329m) meet Route A on revenue but are in WATCH because no page showed
+  who owns them.
+- daa: its travel-retail subsidiary ARI was delivered in batch 2; daa kept as the airport-operator parent, flagged in the record.
+- Lush: activist positioning noted as a brand-safety point. Ann Summers: WATCH (adult category, 2018 revenue only).
+
+LEFT OUT AFTER READING
+- Shepherd Neame: shares trade on Aquis (AQSE: SHEP).
+- Intercom: became Fin and was acquired by Salesforce (completed 10 Sept 2026); now inside Salesforce AI Labs.
+- Williams Grand Prix Engineering (F1 team) and British Racing Drivers Club (Silverstone, British GP host).
+- Collen Construction, Matchroom, Gordon Murray Group: POSSIBLE matches treated as the same company/group as master or delivered names.
+
+NOT RESEARCHED (priority for a later run; all in DISC with stage "not researched")
+- Larger or F1-relevant UK names: M Group Services, Lamex Food Group, Goodwood, Autoglym (Altro Group), Muc-Off, James Walker Group,
+  Gozney, Together Money, Meadow Foods, Holiday Extras peers (Iglu.com), Derivco, Keltbray, Freshways, Bristow Helicopters (likely
+  national entity of listed Bristow Group), DK Engineering, Queensberry Promotions, Gravity Media, Pharmacy2U, A-SAFE, PCSpecialist,
+  Barrett Steel, Vital Energi, Booths, Beaverbrooks, Hall & Woodhouse, Scott Bader, Dewhirst, J Marr, MKM Building Supplies,
+  Hudson Contract, Bond International, Fresca Group, Brett Group, Lind Group, Cera Care, Wilson James, Galliard Homes.
+- Ireland: Cpl, BWG Group, Fenergo, AMCS, Heatons, Stafford Group (Life Style Sports), Version 1, Wayflyer, NearForm, Aerogen,
+  National Broadband Ireland, Inver Energy, Errigal Group, Elliott Group, Gem Group (LISTED? flag unresolved), Flynn, Vision
+  Contracting, Clancy, Conack, Glanua, Coffey, Duggan Brothers, Townmore.
+- Nothing here is exhaustive.

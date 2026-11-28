@@ -1,0 +1,59 @@
+NOTES t14_cables_electrical (batch 3, sector mode), 28 Nov 2026
+Stream: independent web research only. WebSearch used: 2 of 2. All else via WebFetch.
+
+COUNTS
+- MAIN: 37 (Route A 22, Route C 15; no Route B). WATCH: 9. DUPS: 55. DISC: 328 lines.
+- Names run through check.py: about 330 (several calls). Of these: IN MASTER about 30; ALREADY DELIVERED about 17;
+  F1 PARTNER 4 (CommScope, Duracell, Energizer, Signify); flagged LISTED? about 35; POSSIBLE about 15; rest NEW.
+- Many NEW names are in fact listed companies that check.py does not flag (Prysmian, Nexans, NKT, Belden, Amphenol, TE, Aptiv,
+  Eaton, Legrand, Hubbell, Jabil, Celestica, etc.). These were left out; where I did not verify listing on a page this session,
+  DISC says so and leaves them "not researched".
+- Researched (opened a page): about 75 companies. MAIN + WATCH = 46.
+
+AFL (user-named): researched first and written to MAIN (Route C: 5,800+ employees; operations in US, Mexico, Canada, Europe, Asia,
+South Pacific, sales in 130+ countries). Revenue not found: Fujikura integrated report PDF is over the 10MB fetch limit.
+
+SOURCES USED (names yielded)
+- en.wikipedia Category:Wire and cable manufacturers (44 pages; ~25 company names).
+- en.wikipedia List of biggest cable manufacturers (7 names with revenue).
+- PR Newswire, Integer "Top 200 Chinese cable producers" release (9 names).
+- WebSearch 1 and 2: cable-maker ranking searches; result lists mostly market-research vendors; Integer/CRU rankings are paywalled.
+- Prysmian press-release pages (Atkore completion, acquisition list: Encore, Channell, Warren & Brown, General Cable, Draka).
+- Company sites and Wikipedia (en/de/fr/it/nl/pl/pt/zh/da) for each researched company.
+- The rest of the candidate list was built from the task's peer list and subsector brainstorming and then checked (DISC source
+  field says "check.py brainstorm" for these; they are not from a list page).
+
+SUBSECTORS / REGIONS COVERED
+- Fibre/power cable: US, Germany, Switzerland, Poland, Belgium, Italy, Spain, China. Connectors: US, Germany. Harness: Germany.
+- Transformers/switchgear/grid: Germany, Spain, Portugal, Finland, Mexico, US, UK. Batteries: Germany, Austria, France, China, US.
+- Lighting: Germany, Belgium, Italy, US. EMS: Hungary, Netherlands, Denmark, Germany. Test & measurement: US, UK, Germany.
+- Distribution: Canada (Future Electronics).
+- Weak or not reached: Middle East (Ducab site 403; Bahra, Jeddah Cables not opened), Turkey (Hes, Öznur, Erse, Demirer not
+  opened), Latin America (Condumex, Sil, Cobrecom not opened), India (mostly listed), Japan/Korea subsidiaries (Sumitomo Electric
+  Lightwave, Sumitomo Wiring Systems pages 404), Africa (none).
+
+LEFT OUT WITH REASON (see DUPS/DISC)
+- LS Cable & System: shares trade on K-OTC (ticker 104230) per Korean Wikipedia, so left out although unlisted on an exchange.
+- Hengtong: SSE-listed. General Cable, Draka, Souriau, Bussmann, Bticino, Busch-Jaeger: no separate identity / brand of listed group.
+- Viakon/Conductores Monterrey: Xignux brand (Xignux POSSIBLE on master). Berker: Hager brand (master). Friedhelm Loh: Rittal parent.
+- AVL List: IN MASTER (was not written).
+
+CAVEATS IN MAIN RECORDS
+- Several revenue figures are older than three years and are flagged in fin.period: OBO (2020), Mennekes (2022), Wieland (2022),
+  Neways (2021), Lumberg (2021), Banner (FY2020/21), Kabelwerk Eupen (2018), Megger (~2015, Route C used instead), Efacec (undated).
+- Owner not named on pages read (ownership_type "requires verification"): Kromberg & Schubert, Megger, Schréder, TQ-Systems, BMK.
+- NI operates as Emerson's Test & Measurement business group: separate marketing budget unconfirmed.
+- Atkore and Prolec GE are recent acquisitions (Prysmian Oct 2026; GE Vernova 2025): brand continuity to confirm.
+- Shangshang Cable revenue (RMB 12bn) has no year; listing status should be rechecked.
+- Banner Batteries' Wikipedia lists a Russian branch: check current Russian operations.
+- check.py flags "NI" as LISTED? only because of a name clash with NI Holdings (insurer); NI itself is an Emerson subsidiary.
+
+NOT RESEARCHED (DISC stage "not researched"), highest priority for a later run
+- Superior Essex (403), Okonite, Cerro Wire, S&C Electric, G&W Electric, Southern States, Howard Industries, ERMCO, Pennsylvania
+  Transformer, SGB-SMIT, ODU (403), Dewesoft, OMICRON (403), HBK (403), Rutronik, CED, Border States, Heilind, Glamox, Current
+  Lighting, Sumitomo Electric Lightwave, Sumitomo Wiring Systems, Ducab, Hellenic Cables, Condumex, Trojan Battery, Kolektor,
+  Escha, Harwin, Gossen Metrawatt, Chauvin Arnoux, Spirent, Teledyne LeCroy, Turkish and Brazilian cable makers, Chinese private
+  cable groups (Futong, Hengtong Group parent, Xing Yue, Tianjin Suli). Musco Lighting needs a Grand Prix deal check (Yas Marina).
+- WATCH companies need one more sourced indicator (Lightera, Glenair, Virginia Transformer) or any figure (Lutron, Siemon, Lucy
+  Electric, Tratos, Top Cable); Encore Wire needs the total transaction value from a fetched page.
+Nothing here is exhaustive.

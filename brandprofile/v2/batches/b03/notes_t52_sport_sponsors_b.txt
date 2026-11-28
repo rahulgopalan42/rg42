@@ -1,0 +1,65 @@
+t52_sport_sponsors_b - batch 3 - unlisted companies sponsoring motorsport other than Formula 1
+Date: 28 Nov 2026. Stream: independent web research. WebSearch used: 1 of 1. WebFetch only otherwise.
+
+COUNTS
+- DISC: 197 names (NEW 143, IN MASTER 26, POSSIBLE 12, F1 PARTNER 9, ALREADY DELIVERED 4, LISTED 3).
+  Stage: researched 32, left out 57, not researched 108.
+- MAIN: 19. WATCH: 13. DUPS: 60 lines.
+- No name appears twice across MAIN/WATCH. Every line in my five files parses as JSON.
+
+SOURCES USED (names given)
+- en.wikipedia 2026 MotoGP World Championship (team entry names): 12 teams, sponsors SuperFile, BK8, Prima, Pertamina Enduro, Castrol, Monster, Red Bull
+- pramacracing.com/partners: ~30 partners (Prima, Pramac, Fiamm, Corpay, AON, Dainese, Akrapovic, Cirfood, Baladin, Cecchi, etc.)
+- en.wikipedia 2025-26 Formula E: 10 teams; fiaformulae.com/en/partners: 19 partners
+- en.wikipedia 2026 WEC: 19 entrants; 2026 IMSA: ~33 entrants; 2026 WorldSBK: 15 teams; 2026 Moto2: 14 teams; 2026 F2: 11 teams
+- en.wikipedia 2026 Super GT: 43 entries; 2026 Super Formula: 16 teams; 2026 BTCC: 9 teams + Kwik Fit; 2026 DTM: ~12 teams; 2026 Dakar: 3 leading teams
+- en.wikipedia 2026 NASCAR Cup (no sponsor column; race titles: 36), O'Reilly Series race titles (33), Truck Series race titles (25)
+- rtrsports.com NASCAR sponsors list (WebSearch result): ~60 series/team sponsors; nbcsports.com Feb 2025 sponsor deals: 9
+- indycar.com/partners: 44 series partners; chipganassiracing.com/partners: 17; ecrindy.com/partners: 22; foytracing.com/partners: 16
+- supercars.com/partners: ~45 partners; motogp.com/en/sponsors: ~35 sponsors/suppliers; camposracing.com/partners: 9
+- rtrsports IndyCar guide: 9 (mostly listed/F1); RTR motorsport and WEC guides: nothing usable
+Sites that refused or 404'd: hendrickmotorsports.com, joegibbsracing.com, teampenske.com partner pages (no names), jayski.com (403),
+nascar.com/official-partners (403), imsa.com (403), dtm.com (empty), fiawec.com (404), gresini, vr46, lcr (empty), rahal, meyershank,
+andretti.com (DNS blocked in this session), kauligracing, rcrracing, frontrowmotorsports, legacymotorclub, spiremotorsports (503),
+mpmotorsport, mahindraracing (no names), aarons.com, jostens.com, prima.it, cirfood.com, zep.com, bsfseafood.com, toolconnection.co.uk.
+Wikipedia team articles (Hendrick, Trackhouse, 23XI, Spire, BJR, Grove, Tickford) gave almost no 2024-26 sponsor names.
+
+COVERAGE
+Series reached: MotoGP, Moto2, WorldSBK, Formula E, WEC, IMSA, IndyCar (series + 3 teams), NASCAR (series, race titles, team-level
+from RTR), Supercars, Super GT, Super Formula, F2, BTCC, DTM, Dakar (winners only).
+Not reached: WRC team sponsors (Wikipedia gave only works teams), F3, Moto3, NHRA, Asian/Latin American national series (Stock Car
+Pro Series Brazil, TCR, Super Taikyu), Dakar sponsor lists, most NASCAR and IndyCar team partner pages (blocked), MotoGP team pages
+other than Pramac, WEC team partner pages.
+Regions: US and Australia heavy; Italy, UK, Japan partly; Turkey, Middle East, Latin America, China, Korea, India, Africa essentially
+not covered by this task's sources.
+
+MAIN (19): Aaron's, Morgan & Morgan, Jostens, Prima Assicurazioni, Arby's, Long John Silver's, Optical Express, OnlyFans, Pirtek,
+Coates, Repco, ThreeBond, Sonax, FIAMM Energy Technology, Dell'Orto (Route B), Bojangles, W. C. Bradley Co. (Char-Broil),
+Super.com, Blue Cross NC.
+Caveats: several qualify on financials older than three years (Aaron's 2019, Arby's 2019, Jostens 2018 deal, FIAMM 2015, Optical
+Express 2021, Bojangles 2021) - flagged in each record. Arby's parent Inspire Brands is on the master (included as own brand;
+user may treat as duplicate). OnlyFans meets Route A but carries adult-content brand-safety risk (in `compliance`). Prima is being
+51% acquired by listed AXA. Route C records (Pirtek, Repco, Long John Silver's, Morgan & Morgan, W. C. Bradley, Blue Cross NC) have
+no revenue figure.
+WATCH (13): Boost Mobile (AU), Direct Supply, Good Smile Company, PONOS, Whelen Engineering, Jiffy Mix, Vensure (ownership not
+found), NTI, Equip Super (FUM not found), DEX Imaging (ownership not found), Paul Miller Auto Group, Italtrans, Delightworks.
+
+signals_checked: "yes" where a Wikipedia history/recent-events section or company news/about page was read; "no" for Aaron's,
+Jostens, Arby's (no dated events found in the part read), Blue Cross NC, NTI, DEX Imaging. Few marketing heads were named on any page.
+
+LEFT OUT AFTER RESEARCH (in DUPS): Global Medical Response/AMR/AirMedCare (parent IPO NYSE May 2026), Taittinger (Haas F1 sponsor
+since 2021), Sabelt (F1 supplier to Ferrari, Red Bull, McLaren), Freeway Insurance (Confie brand, Confie in master), Pfaff (appears
+part of Lithia network), Holmatro (COTA 365 partner - possible US GP deal), Ravenol (Austrian GP partner per check.py),
+Mann-Filter (MANN+HUMMEL in master). Too small: Mechanix Wear (90 staff), Hoppy Beverage, Italjet.
+Already researched by other batch 3 runs, not repeated: Rheem (t03_machinery), Astemo (k15_japan).
+
+NOT RESEARCHED (NEW in DISC, for a later run), roughly by priority: Cirfood (Italian co-op caterer, Pramac partner), Zep Inc,
+Sea Best / Beaver Street Fisheries, Schwarz Partners (site has no figures), Eurol, San-Ei Gen F.F.I., Hijos de Rivera is a POSSIBLE
+dup (Estrella Galicia 0,0 is a Williams F1 partner), Quintevents, Performance Friction, Xtrac (check F1 supply), Sonsio, Pit Boss
+(Dansons), Ag-Pro, Black's Tire, National Debt Relief (site gives nothing), Bennett Transportation (POSSIBLE vs 'Bennet'),
+Century Batteries/Century Yuasa, Bailey Ladders, Pedders, Steel Seal, Laser Tools (Tool Connection, site 403), 1-800-Pack-Rat,
+Garner Trucking, Grillo's Pickles, FireKeepers Casino, Caymus Vineyards, D'station (Nexus), Realize Corporation, Vertex Partners,
+Siynergie, Sunenergy, Quint, ACCM, GriffinCore, Heraldo, Racing Team Turkey, SuperFile (what the company is was not found).
+Names I thought of but did not find on any page in this session (so not in DISC): Mavis Tires & Brakes, Morton Buildings,
+Ruoff Mortgage, HMD Trucking, Dude Wipes - a later run should look for their current motorsport deals.
+Nothing here is exhaustive.

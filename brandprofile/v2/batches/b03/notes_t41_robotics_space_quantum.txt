@@ -1,0 +1,42 @@
+t41_robotics_space_quantum - batch 3, sector mode, 28 Nov 2026. Independent web research stream.
+Scope: robotics/humanoids, drones, advanced air mobility, launch and satellites, quantum, photonics, AI chips, autonomous driving.
+
+SOURCES (names extracted)
+- CB Insights unicorn list https://www.cbinsights.com/research-unicorn-companies : 1,447 rows; 104 sector-relevant names taken into DISC (industrials + enterprise-tech chips/quantum/space).
+- Wikipedia List of unicorn startup companies (wikitext): ~890 rows scanned; relevant names overlapped with CB Insights (SambaNova added).
+- Dealroom robotics unicorns https://dealroom.co/unicorns/robotics/ : 77 + 2; 48 taken into DISC.
+- Business Today, China robotics unicorns 2026 (found with the one WebSearch): 13 names, 3 new to DISC.
+- Wikipedia List of companies involved in quantum computing, communication or sensing: 143 rows; 117 taken (large listed corporates skipped).
+- Wikipedia List of private spaceflight companies: ~61 company names taken.
+- Researcher candidates (named from knowledge, then checked; source field empty, marked in "why"): ~150.
+- Research pages: Wikipedia articles (about 50 downloaded) and company sites/newsrooms (KUKA, Rebellions, Skild, FuriosaAI, LimX, X Square, Humanoid, Photonic, Toptica, Prodrive, Apptronik, K2 Space, MatX, SemiDrive, Chipone, Preferred Networks, Tata Electronics, STARK Defence).
+WebSearch used: 1 of 1.
+
+COUNTS
+DISC 439 lines; check.py: NEW 311, IN MASTER 100, ALREADY DELIVERED 13, LISTED 12, F1 PARTNER 2 (Groq, Waymo/Zoox among them). DUPS 127.
+MAIN 30 (Route A 29, Route C 1: Tata Electronics). WATCH 15. Researched 48 DISC lines (some aliases).
+Master coverage of this sector is very heavy: most well-known US/European robotics, quantum, space and AI-chip names were already IN MASTER.
+signals_checked: yes for 27 MAIN, no for 3 (Orienspace, Inceptio Technology, Fourier) where no newsroom or recent-history page could be read.
+
+LEFT OUT (not in DUPS as master duplicates): Chang Guang Satellite (US sanctions May 2026 per Wikipedia), Orbex (Wikipedia past tense, appears ceased),
+Megvii (not researched: sanctions status to verify). Listed now: Agility Robotics (Nasdaq AGLT), Cerebras (Nasdaq CBRS), Biren, Enflame, Iluvatar CoreX, MetaX,
+Moore Threads, Xanadu, Rokae, LDRobot, Han's Robot, SwitchBot. Narwal Robotics = Narwal (delivered b01). Plus.ai = Plus (master). Zhiyuan Robot = AgiBot (master).
+
+FLAGS FOR REVIEW
+- EngineAI filed for a Hong Kong IPO (Apr 2026): confirm shares not trading before delivery.
+- Prodrive Technologies (NL): check.py POSSIBLE vs master "Prodrive" - assumed UK motorsport Prodrive (different company); confirm.
+- Rebellions: POSSIBLE vs "rebel" - different company.
+- STARK Defence (WATCH): CB Insights "Stark" (Munich, USD 3.66bn) assumed but not confirmed to be this company; munitions maker brand-safety issue.
+- Several Route A cases rest on CB Insights / Dealroom valuations only (X Square, SemiDrive, Chipone, Photonic, Apptronik, Fourier, Skild, i-Space, K2).
+- Tata Electronics: Route C (Apple supply-chain relationship + Dholera fab/OSAT); no revenue or investment figure on any page opened. conf low.
+- Toptica revenue (~EUR 140m) has no stated year; just over the USD 150m line.
+- Fourier: investor Saudi Aramco is an F1 global partner (sister-company note only).
+
+NOT REACHED / UNRESEARCHED
+- 261 DISC names not researched, incl. NEW unicorns: ZongMu Technology (USD 11.4bn), XPeng Robotics (USD 6.3bn), Spirit AI, Galaxea AI (site empty), Gaussian Robotics,
+  Moxing, Morphic, Sharebot, Dexforce, YQNlink, Jaguar Microsystems, TARS, Giga AI, AGILINK, TJ Robotics, Robot Era, Sudu, Genki Robotics (Japan), Origin Quantum,
+  Black Lake, Haomo.AI, Neolix, Zelos, AutoFlight, TCab, China Satellite Network Group; US: Castelion, Saronic, Neros, Epirus, Muon Space, Hubble Network, Bedrock,
+  Gecko, The Bot Company, Generalist, Mind Robotics, d-Matrix, Ricursive, Celero, Frore, Starcloud, True Anomaly, Eka Robotics, Rhoda AI, Mach Industries.
+- Japan/Korea/India beyond the names above (Tier IV, Telexistence, SkyDrive, Axelspace, 42dot, Naver Labs, Digantara, Dhruva) not researched; no Japanese/Korean/
+  Chinese-language directories opened (Wikipedia rate-limited several downloads; many Chinese company sites are JS-rendered).
+- Middle East, Turkey, Latin America and Africa: no sector-specific sources opened. Nothing here is exhaustive.

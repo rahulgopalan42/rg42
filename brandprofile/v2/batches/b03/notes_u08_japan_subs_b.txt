@@ -1,0 +1,27 @@
+u08_japan_subs_b (batch 3, MODE subsidiaries, second pass on Japanese listed groups) - 28 Nov 2026
+Read first: brief_b03.md (incl. 28 Nov section), tasks.md subsidiaries section, brief_b02.md, brief_discovery.md, notes_u01_japan_subs.txt and u01 files (not repeated).
+
+COUNTS
+- MAIN 42 (Route A 34, Route C 8 [JTI, Zetes, Primetals, Gigaphoton, Panasonic Avionics, Ficosa, Staffmark, Tomod's]). WATCH 3 (TBC Corporation, Partners Life, Bosendorfer). DUPS 28. DISC 107 (51 researched incl. MAIN/WATCH, 39 not researched, 17 left out).
+- check.py: about 230 names in 5 calls (incl. names without legal suffix). IN MASTER: Toshiba, Ampere Computing, Graphcore, Symetra, Descente, OFS, Proterial, Hitachi Energy, York Holdings, Seven-Eleven Japan, JA Kyosai. ALREADY DELIVERED: Sogo & Seibu, Nippon Life. F1 PARTNER / same brand: Komatsu (Komatsu Mining, Komatsu Forest), Rakuten (Kobo), Nexo (false match with Yamaha pro audio, not researched). POSSIBLE in master: Meiji Yasuda, Sumitomo Life, Fukoku, Asahi Mutual. Listed: PayPay (NASDAQ Mar 2026), Mitsubishi Logisnext at check time (since delisted, researched as Logisnext), Socionext, Nippon Express, Sojitz, Kanematsu, Dentsu, Kubota etc. Already in other batch 3 files: Astemo, UD Trucks, Sumitomo Wiring Systems (k15), OFS/Lightera (watch_t14).
+- signals_checked: "yes" on 32 MAIN/WATCH records (a news page or Wikipedia history opened), "no" on 13.
+
+GROUPS COVERED (sources and yield)
+- English Wikipedia group articles: Panasonic (~30 names), Denso (5), Hitachi (~45), Mitsubishi Electric (~35), MHI (~20), Japan Tobacco (~15), JTI (4), Recruit Holdings (13), Kyocera (15), Sumitomo Electric (18), Sompo Holdings (10), Dentsu (Aegis only), Marubeni (via redirect), plus company articles (Webfleet, GK Software, InvenSense, USG People, TDK Electronics, Primetals, Climaveneta, Line 6, Bosendorfer, Panasonic Avionics, Air Lease, Ficosa, MLC, Liggett, Vector Group, Partners Life, TBC, Mitsubishi Logisnext).
+- Japanese Wikipedia (local-language, most productive): JCOM, Denso Ten, Denso Wave, TableMark, CTC, PayPay, SB Technology, SB C&S, SB Payment Service, Mitsui Sumitomo Insurance, Aioi Nissay Dowa, Sompo Japan, Tokio Marine & Nichido, Nisshin Fire, MS Primary Life, MSA Life, Daido Life, Taiyo Life, Daiichi Frontier Life, Neo First Life, Medicare Life, Staff Service, Yanase, Jupiter Shop Channel, AIM Services, SMFL, SMAS, Hoken no Madoguchi, Mitsui Knowledge Industry, Marubeni Information Systems, Tomod's, Logisnext, Hitachi High-Tech, Itochu Logistics. German Wikipedia: Sumitomo Electric Bordnetze.
+- Company sites opened: jti.com, hussmann.com (about, news), zetes.com (about, news), primetals.com, webfleet.com blog, tbccorp.com, invensense.tdk.com news, rgfstaffing.com, gigaphoton.com, torqeedo.com, pcienergysolutions.com, staffmark.com, merkle.com, ficosa.com.
+- WebSearch: 1 of 2 used (largest Japanese outbound acquisitions 2025) -> Air Lease / Sumisho Air Lease, TiAuto (unconfirmed). Aranca page gave buyer totals only; S&P page 403.
+
+CAVEATS
+- Old figures (older than three years) flagged in `outstanding`: Climaveneta (2014), Liggett/Vector (2020), Webfleet revenue (2018; Route A rests on EUR 910m 2019 deal = USD 1,001m at the fixed rate, borderline), RGF Staffing (2010 revenue; Route A on 2016 deal), Aioi Nissay Dowa (FY2015), MS Primary Life (FY2016), Daiichi Frontier (FY2017), SB C&S (FY2021), Ficosa (2008/2010), Tomod's (FY2018), SEBN (2014), Mitsui Knowledge Industry (year not stated).
+- Insurer "revenue" for Japanese life/P&C firms is premiums (and other income) as stated on the pages.
+- Ficosa: Panasonic took 69% in 2017; current owner after Panasonic Automotive Systems moved to Apollo (80%) in Dec 2024 not verified.
+- Parent-named companies kept in MAIN because they run as separate companies: Panasonic Avionics, Sompo International, Denso Ten, Denso Wave, Hitachi High-Tech, Itochu Techno-Solutions, Itochu Logistics, Sumitomo Mitsui companies. Left out as parent-brand core units: Tokio Marine & Nichido, Sompo Japan, TDK Electronics, Hitachi Rail/Vantara, Mitsubishi Power.
+- Websites: many record domains were not opened this session; each such record says so in `outstanding`. Blank where unknown.
+- Compliance flags: JTI (tobacco, Russia, Canada litigation), Liggett (tobacco), Japanese P&C insurers (2024 JFTC cartel findings; 2026 Toyota information case).
+- Mitsui Sumitomo Insurance and Aioi Nissay Dowa merge on 1 Apr 2027: one prospect after that date.
+
+NOT REACHED / UNRESEARCHED
+- Groups with little or no coverage: Fujitsu (only GK Software), NEC (KMD and NEC Software Solutions not researched: pages empty/404), Murata (pSemi), Nidec (beyond u01), Komatsu (Modular Mining redirects), Kubota, Bridgestone (beyond Webfleet), Yamaha/Yamaha Motor (Line 6, Steinberg, Torqeedo lacked figures), Suzuki, Subaru, Mazda, Isuzu (UD in k15), Rakuten (F1 partner brand), Dentsu (Merkle: no figures), Seven & i (7-Eleven Inc treated as master brand entity).
+- DISC names not researched include Hussmann (no figures found), Amperex Technology (ATL; Wikipedia 404 - large, worth a later run), JR Automation, Merkle, KMD, Helena Agri-Enterprises, Dole Sunshine, Kyocera Senco (host blocked), SB Energy, CSI Companies, Chandler Macleod, Jacobson/Gola, TiAuto, MLC Life (one undated indicator only).
+- Trading-house domestic affiliates (Mitsubishi Corp, Mitsui, Sumitomo, Marubeni, Toyota Tsusho, Sojitz) and their Latin American / South-East Asian affiliates only partly covered. Not exhaustive.

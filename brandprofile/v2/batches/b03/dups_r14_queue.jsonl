@@ -1,0 +1,30 @@
+{"name": "Cremonini", "why": "POSSIBLE - Cremonini S.p.A. [master: All New Brands]: same company"}
+{"name": "Baker McKenzie Cairo - Helmy, Hamza & Partners", "why": "POSSIBLE - Baker McKenzie [master: All New Brands]: Egyptian office of Baker McKenzie, not a separate brand"}
+{"name": "Moeve Chemicals", "why": "POSSIBLE - Moeve [master: All New Brands]: chemicals unit of Moeve, not a separate brand"}
+{"name": "Bida Farma S.Coop.And", "why": "ALREADY DELIVERED - delivered under the revised methodology: b02 (as Bidafarma)"}
+{"name": "Air Europa Lineas Aereas", "why": "ALREADY DELIVERED - delivered under the revised methodology: b02 (as Air Europa)"}
+{"name": "Organizacion Nacional De Ciegos Españoles", "why": "ALREADY DELIVERED - delivered under the revised methodology: b02 (as ONCE)"}
+{"name": "Erke", "why": "IN MASTER - master: Capacity To Confirm (as Hongxing Erke): ERKE is Hongxing Erke's brand (https://en.wikipedia.org/wiki/Erke_(brand))"}
+{"name": "Planeta Formacion y Universidades", "why": "IN MASTER - master: All New Brands (as Grupo Planeta): education division of Grupo Planeta"}
+{"name": "Renault España Comercial", "why": "not a separate company: Spanish sales entity of Renault Group (brief example of excluded national entity); Renault is also owner of an F1 team (Alpine)"}
+{"name": "Iberdrola Energia España", "why": "not a separate company: Spanish energy supply entity of listed Iberdrola"}
+{"name": "Banco ABC Brasil", "why": "listed (B3, preferred shares since July 2007) https://en.wikipedia.org/wiki/Banco_ABC_Brasil"}
+{"name": "Banco Bci", "why": "listed (Santiago Stock Exchange: BCI); check.py LISTED? Banco de Crédito e Inversiones https://en.wikipedia.org/wiki/Banco_de_Cr%C3%A9dito_e_Inversiones"}
+{"name": "Banco PAN", "why": "listed (B3: BPAN4) https://en.wikipedia.org/wiki/Banco_Pan"}
+{"name": "Banco Sabadell", "why": "listed (Bolsa de Madrid: SAB, IBEX 35) https://en.wikipedia.org/wiki/Banco_Sabadell"}
+{"name": "Nass Corporation", "why": "listed (Bahrain Bourse since 2005) https://en.wikipedia.org/wiki/Nass_Corporation"}
+{"name": "Banco de Portugal", "why": "not a commercial operating company: central bank of Portugal"}
+{"name": "Bank of Canada", "why": "not a commercial operating company: central bank of Canada"}
+{"name": "Bank of England", "why": "not a commercial operating company: central bank of the United Kingdom"}
+{"name": "Banque de France", "why": "not a commercial operating company: central bank of France"}
+{"name": "Bank for International Settlements – BIS", "why": "not a commercial operating company: international organisation of central banks"}
+{"name": "House of Prince", "why": "not a separate company: part of British American Tobacco since 2008; Danish factory closed 2011 (https://en.wikipedia.org/wiki/House_of_Prince)"}
+{"name": "Business NSW (NSW Business Chamber)", "why": "not a commercial operating company: not-for-profit business membership and advocacy body (https://en.wikipedia.org/wiki/Business_NSW)"}
+{"name": "Cambodia Airways", "why": "established serious compliance concerns: founded by and linked to Prince Group's Chen Zhi, charged by the US Department of Justice as 'the mastermind behind a sprawling cyber-fraud empire' (https://en.wikipedia.org/wiki/Cambodia_Airways)"}
+{"name": "Ebel", "why": "not a separate company: brand of Movado Group (listed, NYSE) per https://en.wikipedia.org/wiki/Movado_Group"}
+{"name": "ELG Haniel", "why": "not a separate company: business now part of listed Aperam (elg.de redirects to aperamrecycling.com; 'ELG Utica Alloys begins renaming process to Aperam Recycling'); former parent Haniel is IN MASTER"}
+{"name": "Banco da Amazônia", "why": "listed (B3: BAZA3; federal government holds 73.32%) https://pt.wikipedia.org/wiki/Banco_da_Amaz%C3%B4nia"}
+{"name": "Max Myanmar", "why": "established serious compliance concerns: joint venture with a military-owned company and 2017 donation of 1.368bn kyats to the Myanmar armed forces for Rakhine 'clearance operations' (https://en.wikipedia.org/wiki/Max_Myanmar)"}
+{"name": "Artemis Holding", "why": "holding vehicle (Swiss Artemis Group); its main operating brand Franke is ALREADY DELIVERED (b02); other holdings include separately listed companies"}
+{"name": "Hubei Tobacco Group", "why": "not a separate company: provincial manufacturing unit of the state tobacco monopoly China National Tobacco Corporation (https://en.wikipedia.org/wiki/China_Tobacco); tobacco sponsorship is barred in F1"}
+{"name": "Hunan Tobacco Group", "why": "not a separate company: provincial manufacturing unit of the state tobacco monopoly China National Tobacco Corporation (https://en.wikipedia.org/wiki/China_Tobacco); tobacco sponsorship is barred in F1"}

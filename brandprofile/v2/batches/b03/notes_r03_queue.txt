@@ -1,0 +1,40 @@
+NOTES r03_queue (batch 3, queue mode, input in_q03.jsonl, 80 lines). Verified 2026-11-28. WebSearch used: 0. WebFetch only.
+
+COUNTS: MAIN 20, WATCH 16, DUPS 39, not researched 5 (total 80).
+
+RESEARCHED - MAIN (route):
+SHV Holdings (A, revenue EUR 21bn 2025; note sister Mammoet is an Audi F1 partner), Eroski (A), Barbour (A, Deloitte FY2022 USD 389m),
+Scan Global Logistics (A), Rossmann (A), Jumbo (A; ex-Verstappen sponsor, exited all sport 2023), Borco-Marken-Import (A, EUR 138.4m FY2021 = USD 152m, old;
+parent Stock Spirits IN MASTER), ASR Group / American Sugar Refining (C), BTC Business Technology Consulting (A, EUR 347m 2025; parent EWE IN MASTER),
+Infold Games (C), CJ Olive Young (C), ACC Automotive Cells Company (A, parent/state backing; distress), apetito (A), CGR Cinémas (A), Busch Group (C),
+AIT Worldwide Logistics (A), Mode Global (A), Auricchio (A), Air Cairo (C; parent Egyptair already delivered b01), Camus Cognac (C).
+
+RESEARCHED - WATCH (no route shown):
+Cathay Organisation, Air Botswana (state backing exists but tiny; kept in WATCH), BridgingIT (EUR 134m, no Route B support found), Ethos Pet Brands,
+Select Button, Brooklyn Brewery, Ogury (no funding/revenue page found), Air Burkina, Aimé Leon Dore, Alpine Pro (CZK revenue, no fixed rate), Cine Araújo,
+Palm Belgian Craft Brewers (parent Swinkels IN MASTER), Overture Promotions (USD 126.2m, no Route B support found), PCNA (one Route C indicator only),
+Alcon Components, Lottery of Bosnia and Herzegovina.
+
+LEFT OUT (DUPS):
+- Listed: Bright Horizons, Indian Oil, Inditex, Isuzu, J&T Express, Krafton, Duolingo, CSPC, LATAM Airlines, Liftoff (IPO June 2026 per SEC EDGAR 424B4).
+- Not a separate company / regional entity / holding: Veolia Deutschland, iDEAL (EPI, migrating to Wero), Starco (Kenda), Elevate Beauty (investment platform),
+  Repsol Soluciones Energéticas, Stellantis España, Endesa Energía, Rewe International (REWE Group IN MASTER), Loterie Maxa (Tipsport IN MASTER),
+  ADNOC Industrial Waste Services (ADNOC F1 partner), De Agostini Scuola (De Agostini already delivered), Comifar (PHOENIX), maxingvest (holding; Tchibo IN MASTER),
+  MTN MoMo (MTN Group, JSE), Kyuden International (Kyushu Electric), Neoris (EPAM NEORIS), Infineon Technologies Canada, Admiral Casinos UK (Novomatic IN MASTER).
+- Merged away / liquidated: Groupe PSA (Stellantis), GL Group (DNV), CNIM (liquidation Nov 2022), CH2 (now ASX-listed ParagonCare), Cespa (PreZero IN MASTER).
+- Duplicates of master/delivered/F1: Spar Österreich-Gruppe, Koch, DAMAC Group (F1 partner brand), Built Construction Holdings (already delivered b01).
+- Other: UnitingCare Queensland, Salvation Army Australia (not-for-profit/church charities).
+
+NOT RESEARCHED (no usable page could be opened):
+- Burjeel: Wikipedia 404, burjeelholdings.com 503; probably Burjeel Holdings listed on ADX but NOT verified.
+- Eighth Day: eighthday.co 503; eighthday.com is an unrelated US design firm. Appears as "Eighthday" in Elevate Beauty's early-stage portfolio (small).
+- Magnati: magnati.com 403, no Wikipedia; ownership (reported Brookfield) not verified.
+- Eleva Educação: Wikipedia 404, IR site DNS failure.
+- Albi Market: only a bullet on the Wikipedia Europe supermarket list; no other page found.
+
+OTHER NOTES:
+- Websites left blank where not confirmed by a page opened in this session.
+- Sector changed for Busch Vacuum to Industrial Machinery & Equipment (input said Semiconductors & Electronics).
+- IBISWorld Top 500 Private 2022 PDF text extracted locally to confirm the Australian figures (FY2021/22, older than three years).
+- Related names checked: Tipsport, REWE Group, Swinkels, PreZero, Novomatic, Stock Spirits, EWE, Tchibo, Nutreco, Kiwa IN MASTER; Mammoet F1 PARTNER (Audi);
+  EgyptAir and De Agostini ALREADY DELIVERED.

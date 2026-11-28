@@ -1,0 +1,31 @@
+{"name": "Liebherr International", "why": "POSSIBLE - Liebherr Group [master: All New Brands]; check.py 'Liebherr' = IN MASTER (as Liebherr Group): same group"}
+{"name": "Globus Holding", "why": "POSSIBLE - Globus Holding GmbH & Co. KG [master: All New Brands]: same company"}
+{"name": "Santander Consumer Finance", "why": "POSSIBLE - Santander [current F1 partner (Formula 1)]: consumer finance arm of Banco Santander, which holds an F1 deal and is listed"}
+{"name": "Russian Standard Vodka", "why": "Russian company (HQ Russia per input): excluded by methodology"}
+{"name": "Renault Group", "why": "listed (Euronext Paris: RNO), per https://en.wikipedia.org/wiki/Renault"}
+{"name": "Raízen", "why": "listed (B3: RAIZ4), per https://en.wikipedia.org/wiki/Raízen"}
+{"name": "SBI Life Insurance Co. Ltd.", "why": "listed (BSE 540719 / NSE SBILIFE), per https://en.wikipedia.org/wiki/SBI_Life_Insurance_Company"}
+{"name": "Air Mauritius", "why": "listed (Stock Exchange of Mauritius since 1995; no delisting stated), per https://en.wikipedia.org/wiki/Air_Mauritius"}
+{"name": "J.C.B. Service", "why": "check.py 'JCB' = F1 PARTNER - current F1 partner (Aston Martin) (as JCB): J.C.B. Service is the JCB group"}
+{"name": "Carl Zeiss", "why": "check.py 'ZEISS' = ALREADY DELIVERED - delivered under the revised methodology: b01 (as Zeiss)"}
+{"name": "Dr. August Oetker KG", "why": "check.py 'Dr. Oetker' = IN MASTER - master: All New Brands (as Dr. Oetker): same group"}
+{"name": "Sociedad Estatal Loterias Y Apuestas Del Estado", "why": "check.py 'Loterias y Apuestas del Estado' = ALREADY DELIVERED - b02 (as Loterias y Apuestas del Estado (SELAE))"}
+{"name": "Haldiram Snacks", "why": "check.py \"Haldiram's\" = ALREADY DELIVERED - delivered under the revised methodology: b01 (as Haldiram's)"}
+{"name": "Bavaria Brewery", "why": "brand of Swinkels Family Brewers; check.py 'Swinkels Family Brewers' = IN MASTER - master: All New Brands"}
+{"name": "Asung Daiso", "why": "same brand as Daiso; check.py 'Daiso' = POSSIBLE - Daiso Industries [master: All New Brands]; Daiso brand already on master (separate Korean owner not independently verified)"}
+{"name": "Grupo Positivo", "why": "check.py 'Positivo' = POSSIBLE - Positivo Educacional [delivered under the revised methodology: b02]: the education business of Grupo Positivo already delivered"}
+{"name": "Eye Level", "why": "not a separate company: tutoring brand of Daekyo (check.py 'Daekyo' = LISTED? - Daekyo Co., Ltd.); input itself states 'Daekyo brand'"}
+{"name": "Cinemas NOS", "why": "not a separate company: cinema business trading under the brand of NOS (check.py: NOS = LISTED?), owned by NOS per https://pt.wikipedia.org/wiki/Cinemas_NOS"}
+{"name": "D.G. Yuengling & Son", "why": "check.py 'Yuengling' = IN MASTER - master: Capacity To Confirm (as Yuengling)"}
+{"name": "King & Wood Mallesons", "why": "partnership dissolved 30 March 2026; split into King & Wood (China etc.) and Mallesons (Australia, Singapore), per https://en.wikipedia.org/wiki/King_%26_Wood_Mallesons. Australian successor Mallesons written to WATCH"}
+{"name": "Iberdrola Clientes", "why": "not a separate company: Spanish retail electricity entity of listed Iberdrola, trading under the Iberdrola brand (elEconomista company page in input)"}
+{"name": "Repsol Trading", "why": "not a separate company: trading arm of listed Repsol, no commercial identity of its own (elEconomista company page in input)"}
+{"name": "Rongsheng Petrochemical (Singapore) Pte. Ltd.", "why": "not a separate company: 35-employee offshore trading platform of Rongsheng Holding Group / Rongsheng Petrochemical (per input Clay description)"}
+{"name": "Samsung Semiconductor", "why": "not a separate company: semiconductor business of listed Samsung Electronics (per input Clay description: 'subsidiary of Samsung Electronics'); trades under the Samsung brand"}
+{"name": "SEWS-E - Sumitomo Electric Wiring Systems - Europe", "why": "not a separate company: European regional entity of Sumitomo Electric's wiring harness business (check.py 'Sumitomo Electric' NEW but Sumitomo Electric Industries is Tokyo-listed); regional entity, not its own brand"}
+{"name": "Getir", "why": "merged away: Uber received regulatory approval in June 2026 to acquire Getir's food, grocery, marketplace and water delivery businesses in Turkey (its only remaining market since May 2024); Uber is listed. Per https://en.wikipedia.org/wiki/Getir"}
+{"name": "Arc International", "why": "in liquidation: Arc placed in receivership 7 Jan 2026; Arc France placed in compulsory liquidation 5 May 2026 after takeover by Timothée Durand approved 20 Mar 2026; net losses 2023-24. Per https://fr.wikipedia.org/wiki/Arc_(entreprise)"}
+{"name": "Dr. Sulaiman Al Habib", "why": "listed (Saudi Exchange / Tadawul, ticker 4013, since 17 March 2020) per https://ar.wikipedia.org/wiki/مجموعة_الدكتور_سليمان_الحبيب_للخدمات_الطبية"}
+{"name": "Fakeeh", "why": "listed (Saudi Exchange / Tadawul): Fakeeh Care Group listing announcement and commencement of trading (file dated 05.06.2024) at https://www.fakeeh.care/ipo/our-ipo"}
+{"name": "EGT Interactive", "why": "site egt-interactive.com redirects to amusnet.com; check.py 'Amusnet' = IN MASTER (Capacity To Confirm); parent 'Euro Games Technology (EGT)' = ALREADY DELIVERED b02"}
+{"name": "Inova Operations", "why": "merged away: from 2021 the Paprec group took over Inova Operations plant-construction and maintenance activities (https://www.euwid-recycling.de/news/international/die-zehn-groessten-entsorgungsunternehmen-der-welt-veolia-bleibt-fuehrend/); no separate current operating identity found"}

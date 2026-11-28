@@ -1,0 +1,57 @@
+{"name": "Haldiram Snacks Food", "why": "check.py: Haldiram's ALREADY DELIVERED b01 (same company; Haldiram Snacks / Haldiram Foods International merged into Haldiram Snacks Food)"}
+{"name": "Malabar Gold", "why": "check.py: IN MASTER as Malabar Gold & Diamonds"}
+{"name": "Hetero Labs", "why": "check.py: IN MASTER as Hetero"}
+{"name": "Eruditus Executive Education", "why": "check.py: ALREADY DELIVERED b02 as Eruditus"}
+{"name": "Jaquar & Company", "why": "check.py: IN MASTER as Jaquar Group"}
+{"name": "Cure.Fit", "why": "check.py: ALREADY DELIVERED b02 as Cult.fit"}
+{"name": "Bagmane Developers", "why": "check.py: IN MASTER as Bagmane Group"}
+{"name": "My Home Constructions", "why": "check.py: IN MASTER as My Home Group"}
+{"name": "Yashoda Healthcare", "why": "check.py: IN MASTER as Yashoda Hospitals"}
+{"name": "Life Style International", "why": "subsidiary of Landmark Group, IN MASTER as Landmark Group"}
+{"name": "National Stock Exchange of India", "why": "LISTED: Wikipedia (https://en.wikipedia.org/wiki/National_Stock_Exchange_of_India) says NSE listed on BSE on 24 September 2026 after its IPO"}
+{"name": "Air India Express", "why": "subsidiary/brand of Air India, ALREADY DELIVERED b01"}
+{"name": "Bajaj Allianz General Insurance", "why": "former name of Bajaj General Insurance, ALREADY DELIVERED b02"}
+{"name": "Bharat Sanchar Nigam", "why": "= BSNL, ALREADY DELIVERED b02"}
+{"name": "Star India / Viacom18", "why": "merged into JioStar, IN MASTER"}
+{"name": "Campa", "why": "brand of Reliance Consumer Products, IN MASTER"}
+{"name": "Manipal Hospitals", "why": "check.py POSSIBLE: Manipal Group in master (treated as same group)"}
+{"name": "Tata Projects", "why": "IN MASTER"}
+{"name": "Tata Advanced Systems", "why": "IN MASTER"}
+{"name": "Tata AIA Life Insurance", "why": "IN MASTER"}
+{"name": "Tata AIG General Insurance", "why": "IN MASTER"}
+{"name": "Tata Play", "why": "IN MASTER"}
+{"name": "Tata 1mg", "why": "IN MASTER"}
+{"name": "BigBasket", "why": "ALREADY DELIVERED b01"}
+{"name": "Croma (Infiniti Retail)", "why": "IN MASTER"}
+{"name": "Reliance Retail", "why": "ALREADY DELIVERED b01"}
+{"name": "Reliance Consumer Products", "why": "IN MASTER"}
+{"name": "Novelis", "why": "IN MASTER"}
+{"name": "Mahindra Last Mile Mobility", "why": "IN MASTER"}
+{"name": "AdaniConneX", "why": "ALREADY DELIVERED b02"}
+{"name": "JSW One Platforms", "why": "IN MASTER"}
+{"name": "Godrej & Boyce", "why": "IN MASTER as Godrej & Boyce (Godrej Enterprises Group)"}
+{"name": "Godrej Capital", "why": "IN MASTER"}
+{"name": "Airtel Payments Bank", "why": "IN MASTER"}
+{"name": "Shapoorji Pallonji", "why": "ALREADY DELIVERED b02"}
+{"name": "Greenko", "why": "ALREADY DELIVERED b01"}
+{"name": "Tally Solutions", "why": "ALREADY DELIVERED b01"}
+{"name": "InMobi", "why": "ALREADY DELIVERED b02"}
+{"name": "PhonePe", "why": "ALREADY DELIVERED b01"}
+{"name": "Juspay", "why": "IN MASTER"}
+{"name": "CARE Hospitals", "why": "ALREADY DELIVERED b02"}
+{"name": "IFFCO", "why": "IN MASTER"}
+{"name": "Akasa Air", "why": "ALREADY DELIVERED b02"}
+{"name": "Air India", "why": "ALREADY DELIVERED b01"}
+{"name": "Meesho", "why": "LISTED: NSE/BSE since Dec 2025 IPO (https://en.wikipedia.org/wiki/Meesho)"}
+{"name": "Lenskart", "why": "LISTED: NSE/BSE after Oct 2025 IPO (https://en.wikipedia.org/wiki/Lenskart)"}
+{"name": "Jio Platforms", "why": "LISTED/listing: IPO opened 21 Oct 2026, NSE: JPL / BSE: 545004 tickers shown (https://en.wikipedia.org/wiki/Jio_Platforms)"}
+{"name": "Urban Company", "why": "LISTED: NSE URBANCO / BSE 544999 (https://en.wikipedia.org/wiki/Urban_Company)"}
+{"name": "Physics Wallah", "why": "LISTED: NSE PWL / BSE 544609 (https://en.wikipedia.org/wiki/Physics_Wallah)"}
+{"name": "Wonder Cement", "why": "check.py POSSIBLE: master has \"Wonder\" (Changes Since 18 Nov, no website) - could be this company; left out as unresolved"}
+{"name": "Rebel Foods", "why": "check.py POSSIBLE: master has \"rebel\" (All New Brands and Domestic tabs, no website) - could be this company; left out as unresolved"}
+{"name": "BrahMos Aerospace", "why": "Left out: 49.5% owned by Russia NPO Mashinostroyeniya (Wikipedia https://en.wikipedia.org/wiki/BrahMos_Aerospace); Russian ownership and missile maker - excluded under Russian-company/compliance rule"}
+{"name": "Molbio Diagnostics", "why": "LISTED: NSE MOLBIO / BSE 544866 (https://www.screener.in/company/MOLBIO/consolidated/); record removed from MAIN after check"}
+{"name": "Mahanadi Coalfields", "why": "LISTED: NSE MAHACOAL / BSE 545032 (https://www.screener.in/company/MAHACOAL/); record removed from MAIN after check"}
+{"name": "Zetwerk", "why": "LISTED: NSE ZETWERK (Zetwerk Manufacturing Businesses Ltd) (https://www.screener.in/company/ZETWERK/consolidated/)"}
+{"name": "Shiprocket", "why": "LISTED: NSE/BSE 544871, listed 19 Aug 2026 (https://www.screener.in/company/SHIPROCKET/consolidated/)"}
+{"name": "Amagi", "why": "LISTED: NSE AMAGI / BSE 544679 (https://www.screener.in/company/AMAGI/consolidated/)"}

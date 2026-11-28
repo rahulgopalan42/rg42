@@ -1,0 +1,42 @@
+NOTES r12_queue (batch 3, queue mode, input in_q12.jsonl, 80 lines). Researcher run 28 Nov 2026. WebSearch: 0 used. WebFetch only.
+
+Every input line was checked with check.py, and again under name variants, without legal suffixes and under parent names.
+Variants that hit: ifm -> IN MASTER; Maspex -> IN MASTER; Pagani Automobili -> delivered b02; Vueling, Leroy Merlin and Quirónsalud -> IN MASTER;
+Filinvest Development, Galp Energia, Inditex, ASMPT, Max Healthcare and Megacable -> LISTED?; RGE, Mars, Panera Brands, Pon, Haniel, ABC Supply and SBT -> IN MASTER (these are parents or sister companies; see below).
+
+RESEARCHED: MAIN 30 / WATCH 18
+MAIN (route): Oscaro (A), Roca (A), Café Coffee Day (C, distressed), Fitness Park Group (C), Avari Hotels (C), Lazer Logistics (A), Mercy Health (A, revenue FY2021 only),
+ Asian Agri (C), Muckleshoot Casino (C), OZ Racing (C), Ziraat Katılım (A, state backing), Rosenthal (C), Caribou Coffee (C), FitX (A), Avelo Airlines (A),
+ Intellias (C), De Well Group (A, TT ranking only), Logistics Plus (A), Transervice Logistics (A, TT ranking only), Bed Bath 'N' Table (C), CWS (C),
+ NewGlobe (C), Sakura Color Products (C), ATB Financial (A), Newsela (A, funding only from a citation title), MB2 Dental (C), Pankl Racing (A),
+ Schüller Küchen (A), COFCO Group (A, 2020 revenue), Francisco Partners (A, AUM).
+WATCH: Cyma Watches, Asian Holdings Limited (input HQ "South Korea" is wrong: it is Bangladesh), Cohen Recycling, New Horizons, Czapek & Cie, Newgin, Haacht,
+ Glorious, Chapman's, Focus Bikes, Baglioni Hotels, D1 Milano, Newport World Resorts (probably meets Route A through Travellers International, but not verified),
+ Goodgame Studios, Hardenberg-Wilthen, Daniels Health, Hendricks Holding Company, Bahamasair.
+
+Flagged for the user: these are eligible under the batch 3 subsidiary rule, but the parent or a sister company is on the master:
+ Caribou Coffee (Panera Brands), CWS (Haniel), Asian Agri (likely RGE; the site footer links to rgei.com), Focus Bikes (Pon Holdings), Hendricks Holding (ABC Supply).
+ Ziraat Katılım's parent Ziraat Bankası was delivered in b02. Each record says so in category_conflict / outstanding.
+
+LEFT OUT (DUPS 24):
+ in master / delivered: ifm electronic, Grupa Maspex, Pagani, Leroy Merlin España, Vueling Airlines, Idcq Hospitales Y Sanidad (Quirónsalud).
+ listed: Filinvest (FDC, PSE), Mankind (NSE/BSE), Max Healthcare (NSE/BSE), Izzi (Televisa; BMV ticker CABLE per Wikipedia).
+ not a separate company: Zara España, Galp Energia España, Arcelormittal España, Iberdrola España (Spanish entities of listed groups); ASMPT SEMI Solutions (ASMPT);
+  Mars Veterinary Health (Mars, Incorporated, on master); Katek (now a division of listed Kontron).
+ other: Askona (Russian); Aston Martin F1 Team (F1 team); ACFS Port Logistics (in administration since 6 Aug 2026); Asia Tech x Singapore (an event run by IMDA/Informa);
+  ADDE (an association); Grupo Cartes (US sanctions 2022-23, brand discontinued 2023); Grupo Silvio Santos (holding company; SBT is on master).
+
+NOT RESEARCHED (8; no line written):
+ XM (xm.com returns a decode error; trading-point.com returned 403; no Wikipedia article found)
+ Geekay Esports (geekay.com returned 403; geekayesports.com is a JavaScript page with no content; Liquipedia returned 403)
+ Gruppo Italiano Vini (giv.it returned 503 or was unreachable; no it/en Wikipedia article; riunite.it says nothing about GIV)
+ Nova Group, Muir Group, HSK Ward (IBISWorld 2022 PDF rows give only revenue: Nova and Muir are IBISWorld estimates; I could not identify the companies,
+  and novagroup.com.au / hskward.com.au do not resolve. muir.com.au is Muir Engineering (anchor winches), probably NOT the AUD 340m entity, so I wrote nothing.)
+ Atheel CX (JavaScript-only site, no content; the Clay USD 1-10B bracket looks spurious for 411 staff)
+ Damasko (damasko.de returned 503; no Wikipedia article; a small watchmaker in any case)
+
+Gaps: many records rely on one Wikipedia page or one company page. Signals were often only the Wikipedia history section (signals_checked "no" where no news or history
+ page was read). Ownership is "requires verification" for De Well, Logistics Plus, Transervice, MB2, OZ Racing, Sakura, Glorious and NewGlobe.
+ Older figures: Mercy Health and Bed Bath 'N' Table (FY2021), CWS (2019), COFCO (2020), Café Coffee Day (2021).
+ dewellgroup.com, novagroup.com.au and hskward.com.au are outside the session network (ENOTFOUND).
+Sources used: company sites, en/de/fr/nl/ja Wikipedia, the TT 2025 logistics ranking page, the Tyton H1 2026 deal recap, and the IBISWorld Top 500 2022 PDF.

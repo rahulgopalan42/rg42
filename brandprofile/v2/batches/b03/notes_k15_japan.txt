@@ -1,0 +1,80 @@
+k15_japan - batch 3, MODE country (Japan only), 28 Nov 2026
+================================================================
+
+COUNTS
+- MAIN 43 (Route A 39, Route B 3: Airweave, Choya Umeshu, FromSoftware; Route C 1: Kinoshita Group)
+- WATCH 4 (Sanyo Bussan, Spiber, Prince Hotels, Level-5)
+- DUPS 91 lines (IN MASTER / ALREADY DELIVERED / POSSIBLE same company / LISTED / F1 partner)
+- DISC 183 lines: 47 researched, 50 left out, 86 not researched
+- Names run through check.py: about 300 across 5 calls. Most well-known unlisted Japanese majors are already IN MASTER or
+  ALREADY DELIVERED (Suntory, Takenaka, Yodobashi, JTB, Maruhan, Iris Ohyama, Mizkan, YKK, Ichijo, Yanmar, Mori Building,
+  Nippon Life, Zenkyoren, Norinchukin, JA Zen-Noh, Yazaki, Docomo, Toshiba, Pokemon, Cygames, Shueisha, Kodansha, Shogakukan,
+  Nikkei, Lawson, FamilyMart, 7-Eleven Japan, Benesse, JSR, Proterial, Rapidus, Daihatsu, JERA, Logisteed, APA, Toyoko Inn,
+  Hoshino, Imabari, Tsuneishi, Gekkeikan, Hakutsuru, Dassai, Kumon, Pentel, Pilot, Murata Machinery, Topcon, Marelli ...).
+  So this run went to subsidiaries of listed groups that trade under their own name (the AFL rule), JVs, PE-owned carve-outs,
+  family firms and state companies.
+
+WEBSEARCH: 2 of 2 used.
+ 1. "非上場企業 売上高ランキング 2025 東京商工リサーチ" -> no national TSR unlisted ranking; Toyo Keizai unlisted top-125 is paywalled.
+ 2. "未上場企業 売上高 ランキング ..." -> reashu.com list (Toyo Keizai data, Oct 2021: top 15 by revenue + sector list).
+
+SOURCES (names given)
+- https://reashu.com/hijyoujyou-ote/ : 15 ranked + ~50 sector-list names (data dated Oct 2021; page dated 14 Nov 2026)
+- https://toyokeizai.net/articles/-/463053 : 4 visible names (paywalled)
+- https://coki.jp/?p=62061 : 105 names, all LISTED companies (Tokyo revenue ranking) - used only to confirm listed status (e.g. Kioxia)
+- https://en.wikipedia.org/wiki/List_of_largest_private_non-governmental_companies_by_revenue : 5 Japanese names, all duplicates
+- Japanese Wikipedia company articles (one per company) for ownership, listing, revenue, employees, sponsorships and the
+  history/recent-events section (signals). English Wikipedia for Astemo, Fuso, Toyota Auto Body, Taisho, Sagawa.
+- Company newsrooms: mori-trust.co.jp/pressrelease (signals), mynavi.jp/news (no 2025 items visible), kokubu.co.jp/news (no dated
+  items rendered). taisho-holdings.co.jp returned 503.
+- Many candidates came from the researcher's own sector scan (trading, housing, beverages, retail, publishing, gaming, pachinko,
+  logistics, food, auto suppliers, hotels) and were then verified on a page before any MAIN/WATCH line. Those not verified are in
+  DISC with stage "not researched", empty source and null figures.
+
+SUBSECTORS COVERED (MAIN/WATCH)
+- Automotive suppliers/makers: Astemo, Toyota Auto Body, Sumitomo Wiring Systems, Panasonic Automotive Systems (Mobitera from
+  Apr 2027), Denso Ten, ADVICS, UD Trucks
+- Trading/wholesale: Metal One, Itochu Marubeni Steel, Kokubu, Nippon Access
+- Beverages/food: Asahi Soft Drinks, Kirin Beverage, Pokka Sapporo, Otsuka Pharmaceutical (Pocari Sweat), Taisho (Lipovitan),
+  Sanyo Foods, Acecook, Choya Umeshu
+- Housing/real estate/home: Asahi Kasei Homes, Misawa Homes, Toyota Home, Mori Trust, Paloma Rheem, Airweave, Nishikawa
+- Gaming: Sega, Bandai Namco Entertainment, FromSoftware; WATCH Level-5, Sanyo Bussan (pachinko)
+- Logistics/transport: Kintetsu World Express, JR Freight, ZIPAIR, Japan Marine United
+- Energy: Taiyo Oil, Kygnus Sekiyu
+- Other: Mynavi (HR media), Kinoshita Group, SmartHR, Preferred Networks, Koki Holdings (HiKOKI), DHC, Saraya, Hotel Okura
+
+STRONGEST F1 CASES (my reading): Paloma Rheem (family, acquisitive, global), Panasonic Automotive Systems (new brand to launch),
+Astemo (pays for IndyCar/Super GT; parent Honda is an F1 power-unit maker - conflict note), Taisho (All Blacks / Japan Rugby
+sponsor, family-owned since 2024 MBO), Mynavi (major sports title sponsor), ZIPAIR (US expansion incl. Las Vegas),
+Airweave (Olympic bedding partner), Kinoshita (Dodgers partner), Sega (sponsored Williams in 1993).
+
+FLAGS AND JUDGEMENT CALLS
+- Parent is an F1 roster member: Astemo (Honda), Toyota Auto Body / Denso Ten / ADVICS / Toyota Home (Toyota Gazoo Racing).
+  Asahi Soft Drinks: sister Peroni is an F1 partner. Included with category_conflict notes per brief.
+- Left out: Hakuhodo (Tokyo Olympics bid-rigging conviction upheld May 2025, JFTC order); Sony Honda Mobility (EV programme
+  ended Mar 2026); Kyodo News (non-profit association); SMBC Trust Club (Diners licensee); Okaya & Co (listed, Nagoya SE).
+- Treated as aliases of listed groups and not researched: Sagawa Express (SG Holdings), ENEOS Corp, Japan Post Co, Aeon Retail,
+  Cosmo Oil, Nomura Securities, Mitsui Sumitomo Insurance, Mitsukoshi Isetan; Ito-Yokado logged as part of York Holdings (IN MASTER).
+  The user may decide differently for Sagawa.
+- DHC: brand-safety history (former chairman's discriminatory statements, pre-2023 ORIX acquisition) in `compliance`.
+- Japan Marine United: parent Imabari is IN MASTER; user may treat JMU as part of it.
+- Saraya: page lists a Russian market entity; revenue is 2014 (stale). Taiyo Oil (FY2021), Misawa (FY2019), Toyota Home (FY2018),
+  Nippon Access (FY2022) also have figures older than three years - flagged in fin.period.
+- Metal One figure: Wikipedia labels it FY Mar 2026 but its infobox note says FY Mar 2022.
+- Kintetsu World Express revenue (JPY 140.8bn) looks like a standalone figure.
+- Prime Life Technologies (parent of Misawa and Toyota Home): listing status not verified -> parent_listed "requires verification".
+- signals_checked "no" for 5 MAIN records (Kokubu, Metal One, Itochu Marubeni Steel, Nippon Access, Sega): no news page opened or
+  Wikipedia excerpt stopped before recent history. Several "yes" records found no events after Dec 2024 (Sumitomo Wiring, Denso Ten,
+  ADVICS, Sanyo Foods, Airweave, Choya, Saraya) - the page was read; nothing was there.
+- No marketing head was identified for any company (no page opened named one): marketing_head_identified "no" throughout.
+- No Apollo used. No figures from memory.
+
+NOT REACHED / REMAINING
+- DISC "not researched" (86), notably: Mitsubishi Fuso (now under listed Archion; needs current revenue), Newgin, Daito Giken and
+  other pachinko makers, Lotte (Japan) (POSSIBLE vs Lotte Hotel/Card - needs a decision), Panasonic Homes, Mitsui Home, Yusen
+  Logistics, OK Store, Don Quijote, Ichiran, KFC Japan, Tohato, Otafuku, Ozeki, Kiku-Masamune, publishers (Shinchosha,
+  Bungeishunju, Futabasha, Hakusensha, Kobunsha), CBC, JFE Shoji, Nippon Steel Trading, Good Smile Company, Studio Ghibli,
+  Aniplex, Hitachi Building Systems, Mitsubishi Electric Building Solutions, Tokyo Electric Power Energy Partner, JFE Steel, Mediceo.
+- Sources not opened: Teikoku Databank and Tokyo Shoko Research national unlisted rankings (not found free), Nikkei rankings,
+  Toyo Keizai unlisted top-125 (paywalled), Kaisha Shikiho unlisted edition.
+- Regions within Japan: research was national; no prefecture-level champions (e.g. Okinawa TSR ranking) reached.
