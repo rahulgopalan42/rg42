@@ -1,0 +1,53 @@
+r15_queue (batch 3, queue mode) - input in_q15.jsonl, 80 lines, all worked through. 28 Nov 2026.
+WebSearch: 0 used. WebFetch only. Wikipedia API via curl was rate-limited (429-style refusal), so all pages were opened with WebFetch.
+
+DUPLICATE CHECK
+check.py run on all 80 names, then on names without legal suffix, brand names, parents and successors
+(Nishat, Ardila Lulle, Postobon, Betagro, Pond, WIS, ICTS, Doutor, SMOK, IVPS, Dr. Hauschka, WALA, Rowe, Yalumba, Cantarella,
+People First Bank, Heritage Bank, Belron, Pon, Danish Agro, Zegona, C.R. England, Krafton etc.).
+- check.py false positive: "Vittoria Food and Beverage" -> ALREADY DELIVERED as "Vittoria", but the delivered b02 record is Vittoria
+  S.p.A. (Italian bicycle tyres). Vittoria Coffee (Cantarella Bros, Sydney) is a different company: researched and kept.
+- "EnviroServ" -> POSSIBLE Enviroserve (b02): the b02 company is enviroserve.ae (UAE); EnviroServ (Johannesburg, SUEZ) is different: kept.
+- "Orion Group" -> POSSIBLE Orion180 (Haas F1 partner): different company (Bangladesh conglomerate): kept, noted.
+- "Pond Security" -> LISTED? Pond Group Co., Ltd.: different company (German, founder-owned): kept.
+- Parent / sister flags recorded, not excluded: England Logistics (related to C.R. England, IN MASTER); Safelite (parent Belron, delivered b02);
+  Kalkhoff (parent Pon Holdings, IN MASTER); Lufthansa Industry Solutions (sisters Lufthansa Technik and Lufthansa Cargo IN MASTER);
+  Bertelsmann Marketing Services (sister Arvato IN MASTER). The user may prefer to treat some of these as duplicates.
+
+RESEARCHED - MAIN (34): InnoGames (A, FY2020 revenue), Enva (A), Preply (A), Rowe Motor Oil (C, motorsport sponsor), Daregal (C, 2012-13 data),
+Lufthansa Industry Solutions (C), England Logistics (A), Samuel Smith & Son = Yalumba (A, FY2021), BDC (A, state backing), Vittoria Food and Beverage
+(A, FY2022), EnviroServ (C), Princeton Review (C), MGEN (C), DAVA Foods (A), Kalkhoff (C), Kross (C), Safelite (C), Vitra (C), Dietz & Watson (C),
+BearingPoint (A), Luxoft (C), Pond Security (A), W.I.S. Sicherheit (A), ICTS Germany (C), Vodafone Espana (A, Zegona-owned), Redcape Hotel Group
+(A, FY2022), CleanCo Queensland (A), People First Bank (A; input name People's Choice Credit Union, merged with Heritage Bank and renamed),
+Erema (A), John Distilleries (C, old data), Bertelsmann Marketing Services (C), WALA Dr. Hauschka (A, FY2018), Doutor Coffee (C), Orion Group (A, FY2019).
+Strongest prospects on fit: BearingPoint, Luxoft, Rowe Motor Oil, Erema, Vodafone Espana, Preply, Safelite.
+
+RESEARCHED - WATCH (23): Innokin, Cayman Airways, Jinyi Cinemas, IVPS Technology (SMOK), Celestyal Cruises, Relax Gaming, Isurus, Kinoplex,
+Cinnamon Hotels & Resorts, F. P. Journe, J.C. Newman, JD Gaming, Karmine Corp, Rushbet, Proctorio, PSI Services, Favre-Leuba, Eterna, Vi-Jon,
+BEIL Research and Consultancy, Mindware, Lutech, Sabo.
+Lutech probably qualifies (5,500 staff; site shows "business volume 1" with no unit) once a revenue page is found.
+
+LEFT OUT - DUPS (18)
+- duplicates: Grupo Bidafarma (delivered b02), BESTSELLER (master), Google Switzerland (Google F1 partner; national entity),
+  PASHA Holding (PASHA Real Estate is a current F1 event supporter; owner PEP and corruption concerns - user may decide).
+- listed: Metropolis (NSE/BSE), Medica Sur (BMV, S.A.B.), Betagro (SET: BTG), Mouwasat (Tadawul 4002), Envirosuite (ASX: EVS),
+  Bending Spoons (Nasdaq: BSP, IPO July 2026), Ernest Borel (HKEX 1856).
+- not a separate company: Actelion (J&J), Repsol Materials (Repsol division), BASES (NielsenIQ product), Battlegrounds Mobile India (Krafton game,
+  PUBG Mobile is an F1 partner), Electraworks (Ceuta) (Entain legal entity), Nishat Group (family group whose operating companies are PSX-listed),
+  Organizacion Ardila Lulle (holding; flagship Postobon IN MASTER).
+  Possible new candidates for a later run from these: RCN (Colombia), Incauca (Colombia).
+
+NOT RESEARCHED (5) - no page about the right company could be opened
+- United Petfood: unitedpetfood.com returned 503 on every try; no Wikipedia article.
+- Retabet: retabet.es returned 403; no Wikipedia article.
+- Senger: senger.de is a different firm (tube bending, Schwarzenbach); senger-gruppe.de returned 503. The input meant a car dealer group.
+- Cirrus Aviation Services: cirrusaviation.com is a Sarasota flight school (different company); Wikipedia redirects to Cirrus Aircraft; the
+  privatejetcardcomparisons.com source page returned 404.
+- Parkview Cerberus: parkview.com.au is Parkview Group (Sydney builder) and does not mention Cerberus; identity not confirmed.
+
+GAPS
+- Many figures are older than three years (IBISWorld 2022 list, Wikipedia 2012-2021 data); flagged in each fin entry and in outstanding.
+- Signals: newsroom pages were often unreachable; signals_checked = "no" on Rowe, LIS, EnviroServ, Luxoft, W.I.S., ICTS Germany, Doutor and
+  several WATCH rows. No marketing head named except Relax Gaming (Director of Marketing, Nov 2026).
+- Websites not confirmed on an opened page were left blank.
+- Ownership "requires verification": Enva, W.I.S. Sicherheit, Redcape, Erema (management-held per history), Doutor Coffee parent, Relax Gaming.

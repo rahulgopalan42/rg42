@@ -45,3 +45,6 @@ launched: u04_europe_subs_b | finished: t42_health_longevity (25 main, 13 watch,
 launched: t53_sport_sponsors_c | finished: clay_i04 (400 rows)
 launched: r19_queue | finished: r14 (29/14). Ravenol flagged again for a possible Austrian GP deal
 launched: t47_bottlers_importers | finished: s04_signals (40: 31 with signals)
+launched: clay_i06 | finished: t41_robotics_space_quantum (30 main, 15 watch, 439 disc). FIXED: snap.sh had not committed new files (a missing folder stopped git add); all research committed and pushed at cc4755c2; loop restarted
+launched: s07_signals | finished: s06_signals (40: 23 with signals, 17 none)
+launched: k22_thai_my_sg | finished: r15 (34/23). PASHA Holding left for the user to decide (F1-linked: Azerbaijan)
