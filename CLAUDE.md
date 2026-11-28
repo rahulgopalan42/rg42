@@ -16,7 +16,11 @@ Standing points from it:
   The continuation checkpoint is `brandprofile/v2/CHECKPOINT.md`.
 - Financial qualification is OR-based (Routes A, B, C). Missing financial data is not negative evidence.
 - Keep the existing spreadsheet format. Rank within each sector and across sectors by the 35/30/25/10 score.
-- Send the user a simple one-sheet Excel of the new brands as the main file (`brandprofile/v2/simple.py <batch> <xlsx>`). On 28 Nov 2026
-  the user could not open the 61-tab, 5.5 MB batch 2 workbook and asked for "a simple plain Excel sheet"; the batch 1 workbook
-  (51 tabs) had the same problem. Keep the full workbook in `reports/` as the supporting file and offer it; do not lead with it.
+- Deliver new brands as a workbook with one tab per sector in the format of the public-company master
+  (`reports/F1-PUBLIC-COMPANIES-MASTER-2026-11-15.xlsx`: 22 columns from Company Name and Headquarters to Priority Score, Geographic
+  Reach as its own column, rows by score): `brandprofile/v2/public_format.py <batch> <xlsx>`. The user asked for this on 28 Nov 2026
+  after finding the 61-tab batch 2 workbook too complex to open and rejecting a one-sheet version. Keep the full workbook in
+  `reports/` as supporting material; do not lead with it.
+- Send files with the file card in the conversation. Do not put files in the user's Google Drive: I did so once on 28 Nov 2026 without
+  asking and the user said they do not want that.
 - Never invent figures, owners, signals or sources. Say what was and was not completed.
