@@ -16,4 +16,7 @@ Standing points from it:
   The continuation checkpoint is `brandprofile/v2/CHECKPOINT.md`.
 - Financial qualification is OR-based (Routes A, B, C). Missing financial data is not negative evidence.
 - Keep the existing spreadsheet format. Rank within each sector and across sectors by the 35/30/25/10 score.
+- Send the user a simple one-sheet Excel of the new brands as the main file (`brandprofile/v2/simple.py <batch> <xlsx>`). On 28 Nov 2026
+  the user could not open the 61-tab, 5.5 MB batch 2 workbook and asked for "a simple plain Excel sheet"; the batch 1 workbook
+  (51 tabs) had the same problem. Keep the full workbook in `reports/` as the supporting file and offer it; do not lead with it.
 - Never invent figures, owners, signals or sources. Say what was and was not completed.
