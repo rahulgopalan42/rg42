@@ -6,10 +6,12 @@ H = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, H)
 import build as B, batch2 as X2
 from register import norm
 batch = sys.argv[1]; per = int(sys.argv[2]); maxf = int(sys.argv[3]); start = int(sys.argv[4]) if len(sys.argv) > 4 else None
+PFX = sys.argv[5] if len(sys.argv) > 5 else 'q'          # 'f' for follow-up files of names discovered during the batch (in_fNN.jsonl, key fNN_queue)
+TIER0 = '--tier0' in sys.argv                            # only names that already carry a figure at or above a threshold
 D = B.load(batch); Q, W, I, tab = B.classify(D['recs']); X = B.classify.discovered
 R, raw = X2.register(D, Q, W, I, X, batch)
 bd = os.path.join(H, 'batches', batch); queued = set()
-for p in glob.glob(os.path.join(bd, 'in_q*.jsonl')):
+for p in glob.glob(os.path.join(bd, 'in_[qf]*.jsonl')):
     for d in B.read_jsonl(p): queued.add(norm(d['name']))
 disc = {}
 for d in D['disc']: disc.setdefault(norm(B.clean(d['name'])), d)
@@ -30,6 +32,7 @@ for k, r in R.items():
                   'figure': B.clean(d.get('figure')) or r['figure'], 'metric': metric, 'usd_m': usd if usd else lo, 'source': B.clean(d.get('source')) or B.clean(c.get('linkedin')) or 'Clay company search',
                   'via': r['via'], 'employee_count': c.get('employee_count'), 'clay_revenue': B.clean(c.get('annual_revenue')), 'desc': B.clean(c.get('desc'))[:300]}))
 rows.sort(key=lambda t: t[:3])
+if TIER0: rows = [t for t in rows if t[0] == 0]
 print('queue size', len(rows), '| with a figure at or above a threshold', sum(1 for t in rows if t[0] == 0), '| already queued', len(queued))
 # round-robin across the discovery streams, so every sector and source moves forward together and the big country rankings do not crowd out the rest
 from collections import defaultdict, deque
@@ -47,7 +50,7 @@ n = 0
 for i in range(maxf):
     part = [t[4] for t in rows[i * per:(i + 1) * per]]
     if not part: break
-    p = os.path.join(bd, f'in_q{start + i:02d}.jsonl')
+    p = os.path.join(bd, f'in_{PFX}{start + i:02d}.jsonl')
     with open(p, 'w', encoding='utf-8') as f:
         for d in part: f.write(json.dumps(d, ensure_ascii=False) + '\n')
     n += len(part); print(os.path.basename(p), len(part), part[0]['name'], '...', part[-1]['name'])
