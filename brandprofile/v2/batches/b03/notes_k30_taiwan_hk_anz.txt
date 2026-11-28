@@ -1,0 +1,42 @@
+NOTES k30_taiwan_hk_anz (batch 3, country mode: Taiwan, Hong Kong, Australia and New Zealand second pass), 28 Nov 2026
+
+SOURCES (names extracted into DISC)
+- Deloitte Top 200 NZ 2025 index PDF (ranked by revenue): 200 names.
+  https://www.deloitte.com/content/dam/assets-zone1/nz/en/docs/events/2025/top-200-awards-2025-index.pdf
+- Deloitte Top 30 Financial Institutions NZ 2025 PDF: 30 names. Deloitte Top 10 Maori Business 2025 PDF: 10 names.
+- Wikipedia "List of companies of Taiwan" (notable active firms, no figures): 179 names.
+- Wikipedia "List of companies of Hong Kong" (active firms, no figures): 69 names.
+- TechNews / Business Today "2025 Taiwan unlisted top 100" article (only 11 of the 100 named): 11 names.
+  https://finance.technews.tw/2025/07/28/unlisted-company-top-100/
+- Crown Resorts added from Wikipedia (left out: compliance).
+- CommonWealth (天下) Top 2000: BLOCKED (HTTP 403 to both WebFetch and curl). The full ranking and the CRIF TOP5000 are paywalled.
+  This is the main gap for Taiwan: no revenue-ranked list of unlisted Taiwanese companies was reachable.
+- No Australian private-company ranking opened (AFR, IBISWorld URLs 404). Australia was already heavily covered by earlier batches
+  (over 200 Australian companies researched in b02/b03 files), so the second pass was limited to names checked against the master.
+
+WEBSEARCH: 2 of 2 used (CommonWealth Top 2000 query; Taiwan unlisted ranking query).
+Wikipedia was rate-limiting (HTTP 429): pages were fetched one at a time as raw wikitext with 10-30 second gaps.
+Many company sites refused automated access or are script-rendered (Skyline, Ocean Alexander, Taoyuan Airport, QCT, HashKey, Pedders,
+Australian Retirement Trust media centre, Octopus, Dah Chong Hong, Foodstuffs SI), which limited signal checks.
+
+CURRENCY: NZD, HKD and TWD are not in the brief's fixed-rate table. I used NZD 0.60, HKD 0.128, TWD 0.031 (approximate) and kept the
+original figure in value_orig in every case.
+
+METHOD AND DECISIONS
+- Every list name went through check.py (DISC "check" field). check.py misses many Taiwanese listed companies (it answers NEW for
+  MediaTek, Acer etc.), so DISC "NEW" for Taiwan does NOT mean unlisted; listing must be checked before research.
+- NZ Top 200 entries with an exchange ticker on the page are marked LISTED / left out.
+- Crown Resorts left out: established serious compliance problems (NSW inquiry found it unsuitable and that it facilitated money
+  laundering; Victorian royal commission).
+- Skyline Enterprises meets Route A on Deloitte revenue but its owner was not confirmed on a page: kept in WATCH.
+- Palit moved to MAIN (Route C) once Wikipedia confirmed it is private.
+- Gong Cha now has its HQ in London and was bought by Bain Capital (Aug 2026, Wikipedia): outside this country scope, not researched.
+- Squadron Energy (Tattarang) and Viu were researched by other batch-3 researchers: not repeated.
+- Taiwan Sugar shows "traded_as 1237.TW" on Wikipedia; listing status unclear, not researched.
+- Land Bank of Taiwan has a TWSE stock code for reporting but states "Overseas Listings: None"; it is 100% state (Ministry of Finance
+  directors); qualified on profit before tax.
+- QNET: route met through its Manchester City and CAF sponsorships, but its own site carries scam and misinformation advisories;
+  flagged in "compliance", confidence low.
+- Lotto New Zealand, Land Bank, Rest and ART qualify financially but have weak F1 fit (domestic only); fit scores reflect that.
+
+COUNTS (filled in at the end, see below)

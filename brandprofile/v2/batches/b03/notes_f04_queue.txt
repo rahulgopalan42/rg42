@@ -1,0 +1,26 @@
+f04_queue - batch 3 queue research (28 Nov 2026). INPUT in_f04.jsonl: 80 lines, all processed.
+WebSearch used: 0. Wikipedia rate-limited (REST API returned "too many requests"); company sites, stock pages (stockanalysis.com), SEC EDGAR, ACFIC image list, IRN100 PDF and Construction News Ireland used instead.
+Scratch scripts: /tmp/claude-0/-home-user-rg42/f658b5c3-a5ae-5398-b208-f286520b1971/scratchpad/f04/
+
+RESULT: MAIN 49, WATCH 6, DUPS 23, not researched 2.
+
+MAIN (49): Mach Industries; Truveta; Colonial Group; Integrated DNA Technologies (Danaher); SIG Services Industriels de Geneve (input mislabelled "SIG plc"); Electrical Components International (Rosebank Industries, USD ~2bn EV 2025); Electrip Global (Wren House/Zorlu JV); Groupe Even; Clancy Construction (IE); Conack Construction; Glanua; Zenith Steel Group; Lihuayi Group; Guangdong Shengfeng Group; Carbon Resources; KreditBee; Quikr; Otokoc Otomotiv (Koc Holding); Ardova Plc; YesWeHack; The Gores Group; Maverick Capital (13F USD 12.8bn); Blank Rome; Lewis Brisbois; Fragomen; The Liberty Company Insurance Brokers; Mind Robotics; Talkiatry; Nikken Corporation (Mitsubishi Corp 100%, JPY 142.2bn); Apex Oil; Sunstate Equipment; Essendi (formerly AccorInvest, 535 hotels); Secil Group (now Molins); Fortifi Food Processing Solutions; Groupe Advitam; Notore Chemical Industries; Polaris Bank; Savoye; Cadence (cadence.care); Origin Quantum; Evidation; Vermaat (Compass); IGNIS; Metinvest Group; PT Pindad (Persero); Idealista (Cinven); Lindstrom Group; VidaCaixa (CaixaBank, EUR 145bn AUM); MRC Global (DNOW).
+WATCH (6): Oysho (only Clay bracket; Inditex results PDFs unreachable); Electro-Voice (Keenfinity brand, no figures); Intigriti (no indicators); Gameskraft (RummyCulture shut Oct 2025 under Online Gaming Act); MecaFilter/Misfat (small, Clay bracket implausible); Northern Natural Gas (asset scale only, no financials, fit nil).
+
+LEFT OUT (DUPS 23):
+- In master: FrieslandCampina Institute, iad France (IAD), Nadir Metal Rafineri, Euralis, TPAO; Chint Group (POSSIBLE = Chint New Energy, same brand).
+- Listed: Garuda Indonesia, Vale, Axway (74Software), KAP, Vibra Energia, Blue Label Telecoms, Ultrapar, Five Star Business Finance; Nishio Rent All (listed holding Nishio Holdings TSE 9699); Jiangsu Tiangong (Tiangong International HKEX + BSE 920068); Jiangsu Daming (POSSIBLE: Daming International HKEX 1090, link not confirmed).
+- Not separate / single asset: Reece USA (ASX Reece); Kern River Pipeline (single pipeline in BHE).
+- F1 partner brand: Astra Honda Motor (Honda).
+- Closed/merged/insolvent: Getaroom (booking discontinued), Distell (absorbed into Heineken Beverages; Heineken is F1 partner), MyGlamm (CIRP insolvency).
+
+NOT RESEARCHED (2): Celero Communications (celero.inc and CB Insights returned 403; no page opened); Nadin Shreshta (only a garbled LinkedIn slug "klm-fhrjf-vrh", 403; looks like a bad Clay row).
+
+CAVEATS / GAPS
+- Listing status unconfirmed for Ardova Plc and Notore (both still "Plc" with IR pages; NGX profile timed out). Check before delivery.
+- Low confidence (ranking page only, sites unreachable): Clancy Construction, Zenith Steel, Lihuayi, Guangdong Shengfeng, Blank Rome, Fragomen, Quikr, Carbon Resources, Cadence (name match assumed), Vermaat (being combined under Compass NL leadership).
+- Zenith Steel: master holds an unspecified "Zenith" (Capacity To Confirm) - confirm it is not this company.
+- Clay revenue brackets (USD 10B-100B etc.) were implausible for ECI, Electrip, Electro-Voice, Essendi, Mecafilter, Metinvest; ignored as qualifying evidence.
+- Routes C borderline: Gores, YesWeHack, Fortifi.
+- Signals since Dec 2024 recorded where newsroom pages opened; signals_checked "no" for 23 MAIN/WATCH records where no news page could be opened.
+- Older figures flagged: IDT (2018 deal), Even (FY2022), Pindad (2019), Idealista (2020 EQT deal), Gores (2011 fund).
