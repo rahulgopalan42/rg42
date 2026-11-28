@@ -48,6 +48,7 @@ def main(path, record=False):
         if k in gone: skip['left out: the new research found it listed, closed, absorbed or an F1 partner'] += 1; continue
         for x in PT.get(k, []): B.apply_patch(d, x)
         if B.clean(d.get('f1_deal')): skip['left out: holds a current F1 deal'] += 1; continue
+        if d.get('_own_listing'): skip['left out: its shares now trade on an exchange'] += 1; continue
         old.append(d)
     B.neutral_intent(D['recs'], old)
     for d in Q + W + I: d['A'] = S.assess(d)

@@ -47,15 +47,22 @@ def apply_patch(d, p):
         d[f] = list(d.get(f) or []) + [x for x in (p.get(f) or []) if isinstance(x, dict) and json.dumps(x, sort_keys=True) not in have]
     if clean(p.get('profitability')).lower() in ('profitable', 'loss-making'): d['profitability'] = clean(p['profitability']).lower(); d['profitability_basis'] = clean(p.get('profitability_basis'))
     if isinstance(p.get('access'), dict): d['access'] = {**(d.get('access') or {}), **{k: v for k, v in p['access'].items() if clean(v) and clean(v).lower() != 'unknown'}}
-    for f in ('customer_overlap', 'distress', 'expansion_markets'):
+    for f in ('customer_overlap', 'expansion_markets'):
         if clean(p.get(f)): d[f] = clean(p[f])
+    ds = clean(p.get('distress'))
+    if re.search(r'\bLISTED\b', ds):                       # the news read found a listing: the company's own shares, or its parent's
+        if re.match(r'LISTED:', ds) and not re.search(r'(?i)\bparent\b|subsidiary of', ds): d['_own_listing'] = ds
+        else: d['_parent_listing'] = ds
+    elif ds: d['distress'] = ds
     if clean(p.get('marketing_autonomy')).lower() in ('yes', 'no'): d['marketing_autonomy'] = clean(p['marketing_autonomy']).lower()
     if isinstance(p.get('fit'), dict) and isinstance(d.get('fit'), dict):          # only the two ratings that need page evidence can be raised by a later look
         for k in ('ecosystem', 'technical'):
             try: d['fit'][k] = max(float(d['fit'].get(k) or 0), min(3.0, float(p['fit'].get(k) or 0)))
             except Exception: pass
     if clean(p.get('signals_checked')).lower() == 'yes': d['signals_checked'] = 'yes'
-    if clean(p.get('f1_deal')): d['f1_deal'] = clean(p['f1_deal'])
+    fd = clean(p.get('f1_deal'))
+    if fd and re.search(r'(?i)not a sponsorship|media rights|broadcast', fd): d['_f1_note'] = fd      # buys F1's broadcast rights: a customer of F1, not a sponsor; kept, and says so
+    elif fd: d['f1_deal'] = fd
     have = set(d.get('sources') or []); d['sources'] = list(d.get('sources') or []) + [u for u in (p.get('sources') or []) if isinstance(u, str) and u not in have]
 def patches():
     P = {}
@@ -138,6 +145,7 @@ def load(only=None):
         if st in ('dup', 'f1'): excluded.append((nm, ('Already delivered: ' if src.startswith('delivered') else 'Already on the master: ' if st == 'dup' else 'Holds a current F1 deal: ') + src, d['_cluster'])); continue
         if RUSSIA.search(clean(d.get('hq_country'))): excluded.append((nm, 'Russian company (geographic exclusion)', d['_cluster'])); continue
         if clean(d.get('f1_deal')): excluded.append((nm, 'Holds a current F1 deal (found when its news was read): ' + clean(d['f1_deal']), d['_cluster'])); continue
+        if d.get('_own_listing'): excluded.append((nm, 'Its shares trade on an exchange (found when its news was read): ' + d['_own_listing'], d['_cluster'])); continue
         own = clean(d.get('ownership_type')).lower()
         if st == 'listed' and 'subsidiary' not in own and not re.search(r'(?i)\b(private|unlisted|not listed|family|founder|partnership|state|mutual|co-op)', own + ' ' + clean(d.get('outstanding'))):
             excluded.append((nm, 'Name matches a listed company and the line does not show it is unlisted: ' + disp, d['_cluster'])); continue
@@ -279,6 +287,8 @@ def row(d, watch=False):
     notes = [a['conf_why'], 'Investment tier basis: ' + a['tier_why']] + a['flags']
     if clean(d.get('outstanding')): notes.append('Still to verify: ' + clean(d['outstanding']))
     if clean(d.get('distress')): notes.append('Strain noted: ' + clean(d['distress']))
+    if d.get('_f1_note'): notes.append('Existing link with Formula 1 that is not a sponsorship: ' + d['_f1_note'])
+    if d.get('_parent_listing'): notes.append('Subsidiary of a listed group: ' + re.sub(r'^LISTED\s*(\(parent\))?:?\s*', '', d['_parent_listing']))
     if d.get('_listed_name'): notes.append(f"Its name matches the listed company {d['_listed_name']}: confirm this is the unlisted business")
     if d.get('_possible'): notes.append('Close to a master name, judged a different company: ' + d['_possible'])
     if d.get('_sector_note'): notes.append('Sector as recorded by the research: ' + d['_sector_note'])
