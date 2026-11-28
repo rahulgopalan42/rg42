@@ -1,0 +1,47 @@
+NOTES f08_queue (batch 3, queue mode), 28 Nov 2026
+INPUT v2/batches/b03/in_f08.jsonl: 80 lines, all processed.
+Outcome: MAIN 33 | WATCH 1 | DUPS 31 | not researched 15 (33+1+31+15 = 80).
+
+Duplicate checks: check.py run on every name with website, without website, without legal suffix, short brand name and English form
+(e.g. Tarim Kredi Market, Onsa Refinery, Aydem Energy, Plastics Family Americas, Atria Management Company). The short-name check caught
+ICON (iconbuild.com), which is IN MASTER as "ICON (3D-printed construction)": moved from MAIN to DUPS. Mingledorff's is now part of
+SRS Distribution (IN MASTER) per Anglera and its site footer: DUPS.
+POSSIBLE hits judged different companies: North American Plastics (North), The Master Group (Mastercard etc.), Associa (Associated British Ports).
+
+Sources used: company sites; Fortune 500 Türkiye 2025 company pages (fortuneturkey.com) for the six Turkish entities (net sales and FVÖK/EBIT);
+Anglera Top Distributors 2026 (HQ, ownership and revenue for six US/Canadian distributors); CB Insights unicorn list; stockanalysis.com
+profiles for listing evidence (Embraer, Localiza, Auren, Americanas, XPeng, Shenzhou, Anker, Shaanxi Construction Machinery, Türk Telekom,
+Atomy); Baidu Baike for Fuhai and Qirun (other Baike pages returned a security check). Wikipedia rate-limited (REST summaries mostly failed).
+No WebSearch used (limit 0).
+
+MAIN (33): R.E. Michel; Richards Building Supply; Gresco Utility Supply; North American Plastics (now trades as Plastics Family Americas);
+The Master Group (HQ Boucherville, Canada, not US); Parts Authority; Asset Living; Associa; Atria Senior Living; Bedrock Robotics; Rhoda AI;
+Frore Systems; Hubble Network; Appian Capital Advisory (AUM US$5.0bn incl. a fund target); Aqara (Route C; Lumi United ownership unverified);
+Le Gouessant; Ceresia; Adapteo; GAP Group; Shanghai Pangyuan (parent Shaanxi Construction Machinery inferred only); Tat Hong (site history
+shows an SGX listing in 2005 and nothing later: CONFIRM LISTING STATUS before delivery); GienTech (China Electronics; listing unverified);
+TK Tarım Kredi Pazarlama; Aksa Elektrik Satış (Kazancı Holding); Odeon Turizm (Coral Travel Group; Russia among destinations - check);
+Kayseri Elektrik Perakende (KEPSAŞ); Onsa Rafineri; Altınbaş Kıymetli Madenler (Altınbaş jewellery group); Aydem Enerji; Artistic Milliners;
+ARX; Fuhai Group New Energy; Shandong Qirun.
+Strongest F1 cases: Frore Systems (Lenovo customer), Hubble Network, Artistic Milliners (Cone Denim deal), Altınbaş, Parts Authority (new SVP
+Marketing), Odeon Tours, Bedrock Robotics. Many others (co-operatives, regulated utilities, refiners) are low fit and rated so.
+WATCH (1): Arkpax (one-person DTC brand; Clay bracket not credible).
+
+DUPS (31): IN MASTER/ALREADY DELIVERED: Envision Energy, Bradesco Saúde (part of Bradesco Seguros), Damen Group, Atomy Everyday, Auchan Retail,
+Lactalis, Togg, Narwal Robotics, ICON Technology, Mingledorff's (SRS). Listed: Embraer, Localiza, WEG, Cosan, Grupo Mateus, Auren Energia,
+Arcadyan. Not a separate company: XPeng Motors entity, Ningbo Shenzhou Knitting, Anker eufy, Daikin Europe, Arvind Composites, Arcoroc,
+Arrow Global Portugal, AGC Glass Europe, Translate Plus (now Publicis Production). Merged away/defunct: B2W Digital (Americanas), AVINTIV
+(now Magnera), AREVA T&D. Other: Radiant (already researched in batch 3 as Radiant Nuclear, f03_queue); WPA Participações (holding vehicle
+consolidating WEG - inferred from Exame ranking, no company page).
+
+Not researched (no page could be opened):
+- Highsun Holding Group, Sichuan Dekon Holding Group, Ningbo Zhongjin Petrochemical, Juxing Holding Group, Shandong Energy Chain Holding,
+  Shenzhen Liye Group, Jiangsu Jinfeng Cement Group, Fangtongzhou Holding, Hebei Xinwuan Steel Hongrong Steel: no website known, domain
+  guesses failed, Baidu Baike returned a security check, zh.wikipedia has no article. Note: Zhongjin Petrochemical may be tied to a listed
+  group and Dekon may be listed - check before any delivery.
+- ASARCO (asarco.com and gmexico.com refuse with F5 403), AssisTT (empty response), SoEnergy (Cloudflare challenge), Avante Textil (403),
+  KPN Corp (kpn-corp.com serves only an image), AppGate (human-verification wall).
+
+Within-batch overlaps for the merge: Aksa Elektrik also in f10_queue; Altınbaş also in watch_k24_turkey; Aqara also in sig_s15.
+Gaps: signals not checked for 12 MAIN records (no newsroom or site blocked); several revenues are Clay brackets or IRN partial estimates;
+ownership "requires verification" for Parts Authority, Asset Living, Adapteo, ARX, Aqara, Pangyuan, Tat Hong, KEPSAŞ, Onsa, Aydem.
+Scratch: f08_scratch/ (fetched text, writer w.py, batch scripts b1-b3.py), f08_fetch.sh.

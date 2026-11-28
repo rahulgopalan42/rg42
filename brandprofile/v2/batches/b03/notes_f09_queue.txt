@@ -1,0 +1,36 @@
+f09_queue (batch 3, queue mode), 28 Nov 2026. INPUT in_f09.jsonl: 80 lines, all worked through.
+WebSearch used: 0. Pages opened by curl (company sites, Fortune 500 Türkiye, Anglera, IRN100 2024 PDF, Trends Top) and WebFetch (Wikipedia where it answered).
+check.py run on every name, with website, without legal suffix, English/Chinese forms and aliases; final MAIN/WATCH names and aliases re-checked (only false positive: "Prince de Bretagne (collective brand)" ~ "Collective").
+Scratch: f09_scratch/ (page text), f09_write.py, f09_fetch.sh, f09_text.py.
+
+RESULT: MAIN 29, WATCH 8, DUPS 25, not researched 18 (29+8+25+18 = 80).
+
+MAIN (29)
+Route A: Locke Supply Co., AFC Industries, Singer Industrial, Optimas OE Solutions, R.S. Hughes (Anglera revenue), Mustang Cat (IRN 2023 rental revenue),
+ Oxyane, EMC2, Groupe Alkor, Evel'Up, Sica St Pol (French co-op Top 100, FY2022 revenue: older than three years), Muon Space (USD 386m equity, Series C Aug 2026),
+ YQNlink, Dexforce (CB Insights valuation), BESIX (USD 3.8bn 2020, old), Banco BPI (2015 figures, old; 100% CaixaBank), AVES Enerji, İpek Agro (Fortune 500 Türkiye 2025),
+ PTSGI (Nimdzi 2026), Guangdong Brunp Recycling, Wu'an Yuhua Iron and Steel, Qian'an Jiujiang Wire (ACFIC private top 500).
+Route C: Ellsworth Adhesives, Tesya, Cooper Equipment Rentals (estimated revenue + countries/depots), Luminus (3,000 staff, 314 turbines, Trends rank 42),
+ Rosy Blue (8 countries, Trends diamond sector rank 1), Biel Crystal (Apple/Samsung customer, 5 countries), Bayadera Group (33 export countries, 3 plants, 27 branches).
+Strongest Formula 1 fit: BESIX (Middle East portfolio, past Belgian national-team sponsor), Luminus (Belgian consumer energy brand, Spa), Muon Space, Brunp, Rosy Blue.
+Low fit by nature: Chinese steel makers, French farm co-ops, US industrial distributors, İpek Agro.
+
+WATCH (8): Turtle & Hughes (only a dated FY2022 estimate), Bia Foods (script site unreadable), Billabong (licensed brand of Authentic Brands Group; decisions sit with ABG),
+ Bhima Jewellery, Bacacı Yatırım Holding, Bartex Bartol, Bilkent Holding (Clay brackets only), BFT Automation (Somfy group; 120 countries but no figure).
+
+DUPS (25)
+ Master / delivered: Bahia Principe (master), Hayat Kimya (delivered b02), Bosch San. ve Tic. (Bosch on master), Paxini (PaXini Tech on master), Riwal (acquired by Boels, delivered b01).
+ Already in other batch 3 MAIN files: Comexport (k27), Boom (t41), VPK Group (t11), Multinet (k24), SulAmérica (t54), Berkshire Hathaway HomeServices (HomeServices of America, u02), Side (r01).
+ Listed: Gübretaş, SABESP, Energisa, VIA (Grupo Casas Bahia), CNGR, Alta Equipment Group; Baiyun Power Group (holding of Shanghai-listed core company).
+ Not separate / not a prospect: CEMIG Distribuição, MAPFRE Brasil, BAM UK & Ireland, Berry Bramlage (Berry division), ZER Merkezi Hizmetler (Koç central services), Balfour Beatty VINCI (HS2 project JV).
+
+NOT RESEARCHED (18), no page could be opened:
+ Chinese ACFIC names without a reachable site (sites blocked, down, for sale or not found; Baidu Baike captcha; zh.wikipedia had no article):
+ Chuanwei Group, Wudi Xinyue Chemical (Cloudflare block), Dongfang Run'an, Tianjie Group, Shaanxi Taifeng Shenghe, Zhongyifeng Holding, Xinlicheng Holding (site 503),
+ Anhui Tianda (Cloudflare block), Guangxi Nandan Nanfang Metal, Changzhi Nanye (firewall), Hangzhou Dongheng Petroleum, Nantong Chemical & Light Industry (site suspended).
+ Others: Moxing Technology (site error 520), AGILINK (Dealroom gives only "Xuhui District, founded 2026"; agilink.com is an unrelated US firm), Baillie Lumber (Cloudflare 403),
+ Beauty Salonz, Bhavya International (site 403), Bin Butti International Holdings (default hosting page). The Clay USD 1B-10B brackets for Beauty Salonz (29 staff) and
+ Bhavya (5 staff) look implausible.
+
+Gaps: profitability found only for AVES and İpek (Fortune pre-tax margins); newsroom pages missing for most US distributors, rental firms and co-ops (signals_checked "no");
+ marketing head identified only at Muon Space; several revenue figures are old (BESIX 2020, BPI 2015, co-ops 2022). Undated news items are kept in "outstanding", not in signals.
