@@ -1,0 +1,38 @@
+r16_queue (batch 3, queue mode) - 28 Nov 2026
+INPUT: in_q16.jsonl, 80 lines, all processed in order. WebSearch used: 0. WebFetch only.
+check.py run on all 80 names plus suffix-free names, trading names, parents and brands.
+
+RESEARCHED - MAIN (31): Kepler Interactive (A), Ryan International Group (C), PRAN-RFL Group (C), KTM Fahrrad (A), Dutch Mill (A),
+Nürnberger Wach- und Schließgesellschaft (C), All Service Sicherheitsdienste (B), N-iX (C), Craig Mostyn Group (A), SVOLT (C),
+Croatia Airlines (A), Temsa (A), Seneca Gaming Corporation (C), Blinkit (A, subsidiary of listed Eternal), RPG Group (A), RPSG Group (A),
+Ediya Coffee (C), CroisiEurope (C), Nichi-Iko (A), Zebra Co. (A), Schülerhilfe (A), Munro Footwear Group (A), Nilsen (A),
+Newspower Newsagents (A), Pacific Petroleum (A), Galloo (C), Neopharma (C), Scheer IMC (C), SkillOnNet (C), Sanyo Bussan (C), ERI (C).
+RESEARCHED - WATCH (21): Joya de Nicaragua, Netatmo, Lotte Cinema, Lotte World, Délifrance, Kopparberg, Evides, Fear of God, Spinny,
+National Veterinary Associates, Keychron, Rajawali Corpora, Netgo, Kokku, Clic Air, BH Bikes (input was the Benelux entity), Kolibri Games,
+Fristads, Sightline Payments, Sapix, Siba Sicherheitsdienst.
+
+LEFT OUT - DUPS (23):
+ duplicates/already delivered: Corporacion Alimentaria Guissona (= bonÀrea, b02), Mango Mng (b02), Acquire BPO (b02), Betfred South Africa (master),
+   Horse Powertrain Solutions (b01), Newcastle Permanent (brand of Newcastle Greater Mutual Group, delivered b02 - found only via alias check),
+   Wipro Consumer Care (Wipro Enterprises on master)
+ F1 partner: Zagg (owns mophie, current Red Bull Racing partner - found only via brand check)
+ national entities / not separate: BMW (Schweiz), Black and Decker AU, Nestlé España, Mercedes-Benz Schweiz, Naturgy Clientes Empresas, Aldi Suisse,
+   Biomet (Zimmer Biomet), Bimbo Bakeries USA (Grupo Bimbo), BLU by Adcorp, Bidvest Prestige, BMW Brilliance Automotive
+ not operating companies (spurious Clay rows): Blockchain Seoul 2018, BNI Compromiso Bilbao, Bhartiya Shiksha Board
+ Russian: BFT Group of Companies
+
+NOT RESEARCHED (5, no page could be opened):
+ Kohlhase & Kopp (site 503 twice; de.wikipedia 404), Landewyck Tobacco (site 503 twice; wiki 404), Fortis watches (site 403; wiki 404),
+ Neuberg Diagnostics (site returns title only; wiki 404), EverEnviro (site is a placeholder; about page 404).
+
+FLAGS / GAPS:
+ - Croatia Airlines: pages opened do not say whether its shares trade on the Zagreb Stock Exchange; verify before delivery (exclude if quoted).
+ - Lotte World may be a division of Hotel Lotte (Lotte Hotel delivered b01) - kept in WATCH with that flag.
+ - Blinkit, Netatmo, Kolibri, Fristads are subsidiaries of listed groups (named in parent fields).
+ - RPG Group and RPSG Group are private family groups whose main operating units are separately listed (CEAT, KEC, Zensar; CESC, Firstsource).
+ - Input website for Nürnberger WSG (nwsg.de) belonged to Niedersächsische WSG; corrected to nwsgmbh.de.
+ - Pacific Petroleum's domain now presents as Pacific Fuel Solutions; Newspower input sector was wrong (Utilities -> Retail).
+ - Several Route A records rest only on IBISWorld Top 500 Private 2022 figures (older than 3 years): Craig Mostyn, Nilsen, Munro, Newspower, Pacific Petroleum.
+ - Dutch Mill revenue is THB 24.9bn (2022); THB is not in the fixed rate list, usd_m left blank.
+ - Many Wikipedia titles and company "about" pages returned 404; signals_checked = "no" on 9 MAIN/WATCH records. Marketing heads rarely identified (only Kolibri).
+ - Clay revenue brackets (USD 1-10bn) on BH Bikes Benelux etc. are not credible and were not used for qualification.
