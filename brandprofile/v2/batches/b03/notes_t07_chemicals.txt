@@ -1,0 +1,70 @@
+t07_chemicals - batch 3, sector mode, independent web research (28 Nov 2026)
+Scope: chemicals, speciality materials, plastics, coatings, adhesives, industrial gases, fertilisers, glass, composites.
+
+COUNTS
+- MAIN: 29 (Route A 12, Route C 17). WATCH: 19. DISC: 240 lines. DUPS: 74.
+- Names run through check.py: about 200 (DISC lines plus aliases of every MAIN/WATCH record, tried with and without legal suffix and
+  with website). DISC check results: NEW 162, IN MASTER 32, ALREADY DELIVERED 15, LISTED 23, F1 PARTNER 3 (Ineos, Nouryon, and
+  Ineos again from the second list table), POSSIBLE 5 (Freudenberg and Dangote Group treated as duplicates; Emirates Glass, Lohmann
+  tapes, Vantage Specialty Chemicals are different companies and stay eligible; Röhm's LISTED? flag is Japanese Rohm, a different
+  company).
+- check.py does not know listed companies such as Celanese, Huntsman, Evonik, Lanxess, Trinseo, Tronox: these were marked
+  "left out: own shares trade" in DISC and not researched.
+- One MAIN alias flag: "Formosa Plastics" = LISTED? (the Taiwanese parent). The record is the separate US subsidiary,
+  Formosa Plastics Corporation, U.S.A.; parent link not stated on its site (marked requires verification).
+
+SOURCES USED (names given)
+- Wikipedia, List of largest chemical producers (2021 and 2018 tables): 54 names, almost all listed or already on master/delivered.
+- WebSearch (1 of 1 used): "largest privately held chemical companies 2025 ranking revenue list". It led to the S&P Global Chemical
+  Week Billion-Dollar Club (403) and IndustryWeek US 500 chemicals (table not readable: 6 listed names, not added). C&EN Global Top 50
+  returned 406.
+- Remaining ~140 candidates were named by subsector and region from sector knowledge, then each checked on its own website
+  (the DISC "source" is the company page opened, or the page where the name was found, e.g. EQUATE shareholders page for PIC).
+- Company sites and newsrooms were the main research source; Wikipedia (en, de, fr, pt) used for 10 companies where the company
+  site published no figures (Brillux, Heinz-Glas, Wiegand-Glas, Saertex, Isovolta, Chomarat, Zoltek, Hanwha TotalEnergies, Allnex,
+  Unigel; plus GPIC, JNC, Shin-Etsu for ownership checks). Requests were spaced; three Wikipedia titles 404'd.
+
+SUBSECTORS AND REGIONS COVERED
+- Industrial gases: Nippon Sanso Matheson (US), Gulf Cryo (Kuwait/GCC), AHG (Saudi), SIAD (Italy), Afrox (South Africa).
+- Lubricant/fuel additives: Infineum, Chevron Oronite (Afton refused 403).
+- Polymers/petrochemicals: Kraton, Formosa Plastics USA, Shintech, EQUATE (Kuwait), Sadara (Saudi), Hanwha TotalEnergies (Korea),
+  Haldia (India), Unigel (Brazil/Mexico), Vynova, Perstorp, Polynt, allnex, PCC.
+- Coatings: DAW (Caparol/Alpina), Brillux, Beckers, Teknos, JSW Paints (India), Jazeera Paints (Saudi), Kapci (Egypt).
+- Adhesives/sealants: Soudal, Jowat; car care: Autoglym, Turtle Wax, SONAX, CRC Industries.
+- Composites/carbon fibre: Aksa Carbon (Turkey), Saertex, Isovolta, Chomarat, Zoltek, Ensinger, Röchling.
+- Fertilisers: Groupe Roullier (most others IN MASTER/delivered: OCP, IFFCO, Haifa, Simplot, Agrofert).
+- Glass: Heinz-Glas, Wiegand-Glas, Guardian (Schott delivered, BA Glass in master).
+- Distribution: Stockmeier, Hydrite (Univar, Caldic, Biesterfeld, HELM, Ravago, Manuchar, Barentz all on master/delivered).
+- Regions: US, Germany/Austria/Italy/Benelux/Nordics, Kuwait, Saudi Arabia, Turkey, Egypt, India, Korea, Brazil, South Africa.
+  Thin: Japan (only JNC, Prime Polymer, Japan Polypropylene listed in DISC), China (Chambroad, Dongming, Zhejiang Petrochemical in
+  DISC only), South-East Asia (Boysen, Propan Raya, Pupuk Indonesia, Petrokimia Gresik), Latin America beyond Brazil/Mexico, Africa
+  beyond Egypt/South Africa/Nigeria.
+
+SIGNALS / ACCESS (brief point 10)
+- Newsroom or news page opened for 19 of 29 MAIN records (signals_checked "yes"); 10 marked "no" (news page 404/empty or not
+  reached). No marketing head was named on any page opened; marketing_head_identified is "no" throughout.
+- Sponsorships found on pages: EQUATE (GPCA forum and Kuwaiti industry events), Autoglym (Team CSA Racing, McLaren Trophy Europe
+  2026), Kapci Coatings (Porsche Carrera Cup Deutschland driver 2025, Enrico Fulgenzi team 2026). Soudal's sports sponsorship was not
+  on the pages opened and is not recorded.
+- Profitability stated: PCC (EBITDA EUR 81.4m 2025), EQUATE (2018 net profit, old), Chomarat (2017, old).
+
+JUDGEMENT CALLS TO REVIEW
+- Route C records that rest partly on a self-stated ranking: DAW SE ("largest private maker of building paints and insulation in
+  Europe"), Shintech ("world's largest PVC producer"; also ownership not confirmed on its site - conf low).
+- JSW Paints: Route C on major national advertising campaigns plus the Akzo Nobel India acquisition agreement; no revenue on site.
+- Sadara: Route A on documented partner investment of over USD 20bn; marketing rights sit with Aramco/Dow, so low fit.
+- Unigel: Route C from pt.wikipedia (sources 2013-18); current financial/restructuring status NOT verified.
+- Wiegand-Glas revenue is FY to Mar 2022; Saertex revenue is 2016 (Route C used instead); EQUATE figures are 2018.
+- Infineum: formed 1999 as ExxonMobil/Shell JV per its own history page; current shareholding not stated.
+- Gulf Cryo, Organik Kimya, Röchling, Groupe Roullier: private, but owners not named on the pages opened.
+
+NOT COMPLETED
+- Target of 45 MAIN/WATCH reached (48), but many NEW candidates remain unresearched (56 DISC lines "not researched"), notably:
+  Röhm, Lohmann tapes, Emirates Glass, Vantage Specialty Chemicals, Koura, Emery, Akkim, Grupo Idesa, Chambroad, Zhejiang Petrochemical,
+  Dongming, Prime Polymer, Japan Polypropylene, Petrokimia Gresik, Propan Raya, Indofil, Notore, Rivoira, Coregas, Remmers, Baumit,
+  Ardex, Schomburg, Fosroc, Kemper System, Triflex, Esseco, Colorobbia, Duslo, Anwil, Fosfa, Spolchemie, Petrochemical Industries
+  Company (Kuwait state), Sinochem Holdings, QAPCO, Covestro (ADNOC ownership/listing to verify), Dangote Fertiliser, Indorama Eleme.
+- Sites refused or empty: Sigmatex (503), Afton (403), Covestro (403), Hanwha TotalEnergies (503), Kribhco (503), Kale Kimya (503),
+  Guardian Glass (403), RadiciGroup (403), Shurtape (empty), S&P Chemical Week list (403), C&EN Top 50 (406).
+- Not used: trade-association member lists (VCI, Cefic, ACC) and ICIS Top 100 - not opened in this run.
+- Distress noted: Perstorp (reorganisation, Toledo closure 2026), Röchling (Décines closure), Venator (administration - left out).

@@ -1,0 +1,34 @@
+clay_i12 (batch 3, MODE clay, deeper paging) - 28 Nov 2026
+Industries: Hospitality; Travel Arrangements; Airlines and Aviation; Restaurants.
+Filter on every query: company_type in ("Privately Held","Partnership","Self Owned"). Search tools only; no enrichment, no render.
+Page limits used: P1=2, P2=2, P3=1 (industry line). 20 pages read, 20 rows each, 400 rows saved.
+
+Query                                         pages  rows  hasMore at stop
+Hospitality | 1B-10B,10B-100B,100B-1T          2      40    true  (unfinished, stopped at P1 cap)
+Hospitality | 500M-1B                          2      40    true  (unfinished, P2 cap)
+Hospitality | 200M-500M                        1      20    true  (unfinished, P3 cap)
+Travel Arrangements | 1B-10B,10B-100B,100B-1T  2      40    true  (unfinished, P1 cap)
+Travel Arrangements | 500M-1B                  2      40    true  (unfinished, P2 cap)
+Travel Arrangements | 200M-500M                1      20    true  (unfinished, P3 cap)
+Airlines and Aviation | 1B-10B,10B-100B,100B-1T 2     40    true  (unfinished, P1 cap)
+Airlines and Aviation | 500M-1B                2      40    true  (unfinished, P2 cap)
+Airlines and Aviation | 200M-500M              1      20    true  (unfinished, P3 cap)
+Restaurants | 1B-10B,10B-100B,100B-1T          2      40    true  (unfinished, P1 cap)
+Restaurants | 500M-1B                          2      40    true  (unfinished, P2 cap)
+Restaurants | 200M-500M                        1      20    true  (unfinished, P3 cap)
+
+All four industries reached; every query still had more pages (hasMore true) when the page cap stopped it.
+
+disc_check.py result (400 rows): NEW 249, IN MASTER 63, ALREADY DELIVERED 43, POSSIBLE 38, F1 PARTNER 6, LISTED 1.
+
+Observations for the research step (from Clay descriptions only, not verified):
+- Clay's "Privately Held" tag is unreliable here: many rows are listed groups or their units (e.g. Air France, Qantas, LATAM,
+  Iberia, SAS, Fosun Tourism (01992.HK), TBO.COM (NSE/BSE), Jazeera Airways (Boursa Kuwait), Sarimelati Kencana Tbk,
+  Loews Hotels (NYSE: L sub), CWT/Amex GBT (NYSE: GBTG), Silversea (RCL), Celebrity Cruises, AIDA/Carnival UK (Carnival)).
+- Many rows are brand pages or national units of a group (Novotel, Mercure, Radisson Blu, Raffles, Swissotel, Kimpton, SONIC,
+  Arby's, Jimmy John's, Buffalo Wild Wings, Eurowings, Austrian, Brussels Airlines, McDonald's/KFC/Burger King country operators):
+  these need the eligibility rule (own identity vs national sales entity) applied.
+- Junk rows to drop: job boards (Hospitality Information & Jobs Vacancies, Hotel Management Jobs | JobsHm, Hotel Job Vacancies,
+  Hotel jobs globally, AVIATION JOBS), Melina's Evolutionary Travel (3 staff), Rent a Ride (10 staff), Lufthansa Group for Business,
+  World Travel Market (event), Accor - North & Central America careers page.
+- Revenue brackets and employee counts are Clay estimates and sometimes implausible (e.g. Subway 501-1,000 size).

@@ -1,0 +1,29 @@
+r27_queue (batch 3, queue mode) - input in_q27.jsonl, 80 lines, all worked in file order. 28 Nov 2026.
+Sources: WebFetch only (WebSearch limit 0). Crunchbase MCP tried once: data allowance exhausted until 1 Dec 2026. No Apollo. No git.
+
+RESEARCHED - MAIN (13): Radius Recycling (A, USD 1.3bn Toyota Tsusho acquisition 2025), Vinarchy (A, AUD 1.5bn net sales),
+Mantrac (C), Small Giant Games (B, old figures), Raffmetal (C; Ferrari recognised its SILVAL 7 alloy, June 2026 - best F1 fit in this queue),
+MeTL Group (A, USD 2bn 2022), Le Pain Quotidien (C; past insolvencies), Leonidas (C; 2018-19 data), Sumo Digital (input "Sumo Group"; A,
+GBP 919m Tencent deal; Arm named as partner), Atomic (C), EagleBurgmann (C), Polat Holding (C), Queensland Country Bank (B: revenue + stadium
+naming rights / Brisbane Heat / NRL sponsorship).
+FLAGS FOR REVIEW: Mantrac - commonly linked to Mansour Group (ON MASTER), not confirmed on an opened page. EagleBurgmann - business group of
+Freudenberg (check.py POSSIBLE Freudenberg & Co. KG on master). Decide whether these count as the same account before delivery.
+
+RESEARCHED - WATCH (28): Okeland Communities, Skyesports, InTown Suites, Musto, Polferries, Vinataba, Assos, Jambojet, Mühle Glashütte,
+Red Funnel, Melbourne Racing Club, Allied Express, DRIVER, Voopoo, Athletico Physical Therapy, Recycle Track Systems, Oppenheimer Generations,
+Napapijri, East African Holding, Smyril Line, Talon Esports (distressed), Recykal, Economic Group Holdings, Zamora Company, Jet Excellence,
+Jets.com, Ellis Air Conditioning, Spyke Games.
+
+LEFT OUT - DUPS (31): in master / already delivered: DPDgroup (=Geopost), Acıbadem, La Serenísima (=Mastellone), Archroma, Damm, Asklepios x2,
+Ducati, Ramky (=Re Sustainability), Tragsa, Biogroup, Lorenz, Arval, AxiCorp (=Axi), Cloudnine, ASM Global (=Legends Global), Mover
+Participações (=Camargo Corrêa). Listed: Red Eléctrica (Redeia), Dr. Sulaiman Al Habib (Tadawul 4013), Regional Container Lines (SET).
+Not a separate company: HP Schweiz, DPD UK, Repsol LNG Holding, Zimmer GmbH, Kia Iberia, Curenergia (Iberdrola), Douglas Italia, Willem II.
+Not a commercial prospect: DRDO, Duke Careers, EBRD.
+
+NOT RESEARCHED (8, no page could be opened): Langdon Food Group (guessed domains do not resolve), Online Education Services (oes.edu.au
+502/404), Interiorco (DNS failure / 503), DON (Singapore, Clay row with "NDA" description, no website), Dream Working (Mexico, 6 employees on
+Clay; domain does not resolve), John McGrath Ford (guessed domains do not resolve), Nivada (nivada-grenchen.com now hosts an unrelated
+gambling page; no other page found), Ecom Express (site 503; Wikipedia article not found; Delhivery acquisition status unverified).
+
+Gaps: several revenue figures are older than three years (IBISWorld 2022, Wikipedia 2018-19); signals_checked = "no" on 6 of 13 MAIN records
+where no newsroom page could be opened (Mantrac, Small Giant Games, Leonidas, Atomic, EagleBurgmann, Polat Holding).

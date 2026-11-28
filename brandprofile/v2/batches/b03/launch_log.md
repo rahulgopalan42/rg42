@@ -94,3 +94,8 @@ launched: r29_queue | finished: r26 (19/24; later queue files give lower-fit nam
 REPRIORITISED (after 90 tasks): the register now holds 11,032 new names nobody has researched, 4,297 of them with a figure at or above a threshold. New order in pending.txt: follow-up files f01-f25 (in_f01-25.jsonl: the largest newly discovered names with a qualifying figure, key fNN_queue, MODE queue) interleaved with the remaining sector and country tasks, r30-r37, signals s14-s16 and the gap-region Clay pulls; then audits x01-x08; the lower-value tail (clay_i13-i23, r38-r67) last.
 launched: f01_queue | finished: s12_signals (40: 22 with signals, 18 none)
 launched: t11_packaging | finished: s13_signals (40: 29 with signals). REVIEW AT BUILD: f1_deal entries in sig_*.jsonl (DAZN is flagged for an F1 broadcast deal in Spain/Portugal: a rights buyer, not a sponsor)
+launched: k29_levant_central_asia | finished: clay_i12 (400 rows)
+launched: f02_queue | finished: k26_africa_east_south (32 main, 13 watch, 169 disc; mostly state utilities and carriers with weak fit)
+launched: t12_staffing_security | finished: r27 (13/28)
+launched: r30_queue | finished: t06_mining_metals (35 main, 10 watch, 277 disc; Trafigura and Drummond left out on compliance grounds)
+launched: clay_c01 | finished: t07_chemicals (29 main, 19 watch, 240 disc)

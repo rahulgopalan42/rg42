@@ -1,0 +1,58 @@
+t06_mining_metals - batch 3 sector researcher notes (28 Nov 2026)
+Stream: independent web research (discovered_via = "Independent web research"). No Clay, Crunchbase or Apollo used.
+WebSearch used: 1 of 1 allowed (metals trading houses query; gave only headline-level results, two article pages refused with 403).
+
+COUNTS
+- MAIN: 35 (Route A 23, Route C 12; no Route B)
+- WATCH: 10
+- DUPS: 78
+- DISC: 277 lines (45 researched, rest left out or not researched)
+- Names run through check.py: about 300 (four batch runs plus a re-check of every researched name with website and suffix-free aliases)
+  Results among brainstorm names: about 40 IN MASTER, about 30 ALREADY DELIVERED (b01/b02), about 12 POSSIBLE treated as same company, 0 F1 PARTNER.
+- Left out for compliance: Trafigura (FCPA guilty plea 2024, Swiss conviction Jan 2025 under appeal), Drummond (bribery conviction of former VP),
+  Formosa Ha Tinh Steel (2016 marine disaster, tax evasion), Samarco (Mariana disaster). Russian (NLMK, MMK, Severstal) and Iranian (Mobarakeh) names left out.
+- Left out as overlap with other batch 3 researchers' MAIN/WATCH or queue inputs: Metal One, Marubeni-Itochu Steel, KME, Alro, Majestic (t46);
+  Rizhao (k17); SteelAsia (k21); Qatar Steel (k23); RINL (k19); Precision Castparts (u02); Kuusakoski, Galloo, TIMET, ELG Haniel, Scholz, TSR,
+  MAXAM, IRH, Ascend Elements (queues); Shyam Steel (t53 WATCH).
+
+LIST SOURCES USED (names extracted)
+- https://en.wikipedia.org/wiki/List_of_steel_producers - 44 companies (2024 tonnage); all written to DISC.
+- https://en.wikipedia.org/wiki/List_of_largest_mining_companies_by_revenue - 10 companies (all listed); DISC.
+- worldsteel "World Steel in Figures 2025" page - returned no table (homepage title only).
+- Company sites and Wikipedia (en/de/it/es) articles for each researched company (URLs in each record's sources).
+- The remaining DISC names come from a sector brainstorm that was checked name by name with check.py; they are NOT from a list page and carry no figure.
+
+SUBSECTORS / REGIONS COVERED
+- Steel: China state and private groups (Baowu, Ansteel, Shougang, HBIS, Delong), Italy (Riva, Pittini, Cogne), Spain (Sidenor), Germany
+  (Badische Stahlwerke, thyssenkrupp Steel Europe), India (AM/NS India), Türkiye (Borçelik WATCH).
+- Aluminium: TRIMET, Hammerer Aluminium Industries, Chinalco; Gulf smelters Qatalum, Sohar (WATCH).
+- Precious metals: Metalor, Degussa, Perth Mint, Royal Canadian Mint, Valcambi (WATCH); gold miners NMMC (Uzbekistan), Shandong Gold, China National Gold.
+- Base metals and mining: Minmetals, Jinchuan, Kazakhmys, Kazzinc, Erdenet, SNIM (Mauritania), Okavango Diamond Company, Catoca; Antamina and Collahuasi (WATCH).
+- Mining supply chain: Molycop (grinding media), Austin Powder (WATCH), Graymont (lime), Höganäs (metal powders), Singareni (coal).
+- Trading: Traxys (MAIN), Stemcor, Ocean Partners, Macsteel (WATCH).
+- Regions: Europe, China, Central Asia, India, Middle East, Africa, Latin America, North America, Australia. Japan and Korea only lightly
+  (Tanaka/LS MnM/KOMIR sites unavailable); South-East Asia only via list checks (Vinacomin, MIND ID not completed).
+
+DATA QUALITY / CAVEATS
+- Several qualifying revenue figures are older than three years and flagged in qualifying_metric: Riva (2021), Degussa (2020), Höganäs (2021),
+  Badische Stahlwerke (2021), Royal Canadian Mint (2022), HBIS (2015; Route C used instead), Pittini (2018; Route C used instead).
+- Chinalco revenue is inferred from its controlled listed subsidiary (kind = inferred).
+- Records with compliance flags to review before approach: Riva (Ilva case history), Perth Mint (AUSTRAC/LBMA history), Sidenor (Oct 2025
+  charges re steel sales to IMI, allegations), China Minmetals (operations in Russia), China National Gold (Russian JV stake), Royal Canadian
+  Mint (workplace culture report), NMMC (fatal incident 2026), Valcambi (sourcing policy dispute).
+- Parent on master: Catoca (parent Endiama on master) in MAIN with a note; Borçelik (parent Borusan Holding on master, Left Out tab) held in WATCH.
+- Many signals are dated only to the year or inferred from undated news headlines; marked "inferred" where the page gave no date.
+- signals_checked = "no" for Stemcor, Borçelik, Valcambi (no news page reached).
+
+NOT COMPLETED
+- Sites that refused or did not resolve: valbruna.it (DNS), hammerer-aluminium.com (DNS; hai-aluminium.com worked), mkspamp.com/pamp.com (403),
+  apmex.com (403), ulbrich.com (403), assmang.co.za (403), mmtcpamp.com (403), Turkish sites kroman/diler/yildirimgroup/afvbeltrame (503), tanaka
+  precious metals site (503), loganaluminum.com (503), meelecmetal.com (503).
+- Wikipedia article titles that 404'd: Feralpi, Jianlong, Navoi (first title), Almalyk, Okavango, Assmang, Assore, Kitco, KOMIR, Tanaka, Erdenes Mongol,
+  China Rare Earth Group, Mining Industry Indonesia, AM/NS India, U.S. Silica. Wikipedia API rate-limited this session.
+- DISC names not researched (about 90 NEW): notably Feralpi, Valbruna, AFV Beltrame, Ori Martin, MKS PAMP, C. Hafner, pro aurum, philoro, Kitco,
+  APMEX, Tanaka Kikinzoku, LS MnM, KOMIR, Almalyk MMC, MIND ID, Vinacomin, Yıldırım Group, Istanbul Gold Refinery, Kroman, Diler, Asil Çelik,
+  Egyptian/Beshay/Suez steel, Maghreb Steel, SMB, CBG, Manara Minerals, Al Rajhi Steel, Hadeed, Jindal Shadeed, Essel Mining, SRMB, Rand Refinery,
+  Logan Aluminum, Tri-Arrows, Charter Steel, Open Mineral, Transamine, MRI Trading, Wogen, Fangda, Hebei Sinogiant, Shaanxi Steel, Sanming,
+  Baotou Steel group, Nanshan Group, Tongling Nonferrous.
+- Nothing here is exhaustive.
