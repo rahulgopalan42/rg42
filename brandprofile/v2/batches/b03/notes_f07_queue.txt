@@ -1,0 +1,35 @@
+notes_f07_queue (batch 3, queue mode, input in_f07.jsonl, 80 lines) - 28 Nov 2026
+WebSearch used: 0. Pages: company sites first; Anglera top-distributors 2026, Fortune 500 Türkiye 2025 company pages, Dealroom robotics unicorns, pt/fr/tr Wikipedia where company sites were blocked (en Wikipedia used once, for HSS Hire).
+Scratch files: f07_fetch.sh, f07_write.py, f07_scratch/ (same folder).
+
+TOTALS: 80 input lines = 38 MAIN + 5 WATCH + 23 DUPS + 14 not researched.
+MAIN routes: A 35, C 3 (American & Efird, AIAC, Altice Portugal). signals_checked "yes" on 18 of 38 MAIN records; the rest had no reachable newsroom (blocked, 403/503, DNS failure or no news page).
+
+RESEARCHED - MAIN (38)
+US: CHAOS Industries; Lonestar Electric Supply; McCoy's Building Supply; Lansing Building Products; TricorBraun; American & Efird; American Industrial Acquisition Corporation (AIAC); Northern Tool + Equipment (site 403, Anglera only, conf low); Main Electric Supply Co. (about/news 404); Bearing Distributors Inc. (parent not named); ALL Family of Companies; Cowboy Space; Generalist AI
+Bermuda: Nephila Capital (Markel subsidiary, USD 8bn+ AUM)
+Europe: La Coopérative Welcoop (input "Groupe Welcoop"); Noriap; Sicarev; Cobevial (own site shows EUR 208M co-op CA; EUR 941M ranking presumably group); Sport 2000 France; JouéClub; Mediaco; Aliaxis (group record for input "Aliaxis EMEA International", which is an internal unit; Aliaxis Iberia sent to DUPS); Altice Portugal (MEO) (altice.pt DNS failure; only 2014 revenue)
+Turkey: İGDAŞ (municipal-owned, fit near zero); Yıldız Entegre (not Yıldız Holding/Ülker; parent Yıldızlar Yatırım Holding); Mapa İnşaat (MNG Holding; Russia office - screen); Netlog Lojistik (Fortune page only); Altınmarka
+India: Krutrim; BRND.ME (formerly Mensa Brands); NoBroker; slice small finance bank; Snapdeal (confirm AceVector still unlisted - site has "IPO Disclosures"); VerSe Innovation
+Brazil: Brasilprev (BB Seguridade/Principal JV; site blocked)
+China: TARS Robotics (Dealroom only); Guangxi Shenglong Metallurgical; Xinji Aosen Special Steel Group
+
+RESEARCHED - WATCH (5): CTB Inc. (Berkshire; only a 2002 USD 180M purchase price); Aloette Cosmetics; Amrapali Plastic Industries; Alkaram Textile Mills; All Weather at Home. The last four rest only on Clay USD 1-10B brackets that the companies' own scale contradicts.
+
+LEFT OUT - DUPS (23)
+In master / delivered: Çolakoğlu Metalurji, Eti Gıda (IN MASTER); LDC = Louis Dreyfus Company (delivered b02; input website ldc.co.uk is a different firm); Ananta Group = Ananta Companies (delivered b02).
+Listed: Equatorial Energia, McGrath RentCorp, Suzano, Firefly Aerospace (IPO Aug 2025), Vp plc, CSN, CPFL, CEMIG, HSS Hire (LSE; rental arm sold Oct 2025).
+Not a separate company: Aldi UK (ALDI SÜD), Liebherr MietPartner (Liebherr Group, in master), Aliaxis Iberia, Hitachi Construction Machinery rental, Anchor Food Professionals (Fonterra), Alsco Uniformes Brasil (Alsco), American Yuncheng Gravure Cylinder (Yuncheng Group).
+Merged away: Aleris (Novelis, 2020), Alstom Power (GE, 2015).
+Not a commercial prospect: allther (individual's LinkedIn project).
+
+check.py POSSIBLE matches judged different companies: Northern Tool vs "North" (F1 partner); Mediaco vs Mediacom/Mediacorp; Yıldız Entegre vs Yıldız Holding; Cowboy Space vs Cowboy (e-bikes). Equasens (Welcoop's subsidiary) flagged LISTED? - Welcoop itself is a co-operative.
+
+Parents worth a later run (NEW on check.py, not researched here): Alsco Uniforms (alsco.com, 12 countries); Yuncheng Group (120+ plants, 30+ countries); MNG Holding.
+
+NOT RESEARCHED (14) - no page about the company could be opened in this session
+- 11 Chinese private groups from the ACFIC Top 500 lists: Shashidi (Chongqing) Network Technology, Hebei Xinhai Holding Group, Taidi Holding Group, Yongrong Holding Group, Jiangsu Jiangrun Copper, Zhongjing Petrochemical Group, Changshu Longteng Special Steel, Shenzhen Tianxingyun Supply Chain, Hebei Taihang Iron and Steel Group, Shanxi Pengfei Group, Shandong Hengxin Group. Domain guesses failed (parked, wrong company, Cloudflare); Baidu Baike returned 403; zh.wikipedia has no articles; the ACFIC 2026 page loads its table dynamically. All are domestic commodity groups (steel, petrochemicals, copper, freight), so F1 fit is likely very low.
+- Sudu Technology: input source URL truncated (404); no company site found.
+- The Bot Company: site returned 503 / no connection.
+- Alatheliah Holding: alatheliah.com.sa did not resolve (DNS); Clay shows 1 employee.
+Hosts that failed DNS in this session: altice.pt, alatheliah.com.sa, mediaco-group.com, hsshiregroup.com.

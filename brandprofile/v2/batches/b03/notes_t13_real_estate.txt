@@ -1,0 +1,52 @@
+t13_real_estate - batch 3, sector mode (property developers, investors/operators, shopping-centre owners, housebuilders, co-working, brokers). 28 Nov 2026.
+Method: v2/brief_b03.md (incl. 28 Nov additions) + v2/brief_b02.md + v2/brief_discovery.md. Independent web research only (no Clay, Crunchbase or Apollo).
+WebSearch used: 1 of 1 (US private homebuilder rankings). Everything else by curl/WebFetch of public pages.
+
+RESULTS
+MAIN 31 (Route A 12, Route C 19). WATCH 14. DISC 225 lines. DUPS 62 lines.
+MAIN: Arada, OMNIYAT, ECE Marketplaces, QuadReal, Panattoni, WeWork, David Weekley Homes, Keller Williams, Mori Trust, Perennial Holdings,
+Pontiac Land Group, COIMA, Bouygues Immobilier (Bouygues sub), Ballymore, National Housing Company (Saudi, state), Triple Five Group,
+Silverstein Properties, Thor Urbana, HomeServices of America (Berkshire sub), The Crown Estate, BGRE (ex-Brookfield Properties),
+Sotheby's International Realty (Compass sub), Logicor (CIC), Oxford Properties (OMERS), Commerz Real (Commerzbank sub),
+Generali Real Estate (Generali sub), New Murabba (PIF), IMKAN, Mattamy Homes, Canary Wharf Group, Tatu City.
+WATCH: Cadillac Fairview (only 2017 asset figure), Chinachem, Nan Fung, Nhood, Tamdeen Group (listing of holding unclear), Ellington Properties
+(pays football sponsorships, no scale data), HB Reavis (2017 data), The Durst Organization, Heimstaden (ownership/share class unverified),
+Tata Realty (sister Tata Communications is an F1 partner), JustCo, The Executive Centre, Lincoln Property Company, Tatweer Misr.
+Most F1-relevant: OMNIYAT (markets in Monaco, UHNW buyers), Pontiac Land (Millenia hotels on the Marina Bay circuit), Arada (Saudi + Australia
+expansion), Sotheby's International Realty, Thor Urbana (Mexico City), COIMA (Milan/Monza), New Murabba (PIF, markets in Miami), Panattoni
+(Amazon tenant), Mori Trust (profitable, JPY 321bn revenue, 48 hotels), WeWork, BGRE (2026 rebrand), IMKAN (Abu Dhabi).
+Signals pages checked for 24 of 31 MAIN records; 7 marked signals_checked "no" (newsroom refused or not found). Marketing head named for 2
+(David Weekley CMO; COIMA Head of Sustainability & Communication). Profitability stated for Mori Trust and The Crown Estate (profitable) and
+American Dream/Triple Five (loss-making at the mall level).
+Compliance flags written in records: Triple Five (Feb 2026 jury verdict against two family members, counterfeit sanitizer case),
+HomeServices (commission antitrust verdict, USD 250m settlement 2024), WeWork (post-bankruptcy), Logicor (Chinese state owner).
+Older figures used and flagged: Canary Wharf (2015 takeover GBP 2.6bn), Logicor (2017 EUR 12.3bn deal), Oxford AUM (2023).
+
+SOURCES (names extracted)
+- perenews.com/pere-200 (PERE 100 top 10; 10 names, mostly listed or already delivered)
+- housingwire.com/homebuilder-rankings/privately-held: table loads by script, unreadable; 7 private builder names taken from the one WebSearch
+  result snippet (Ashton Woods, Perry Homes, Stanley Martin, Risewell, Stylecraft, Legend Homes, Castlerock) - no figures recorded
+- builderonline.com Builder 100: refused (403) to curl and WebFetch
+- hurunindia.com real estate 100 page: list not in page HTML
+- Company sites and newsrooms (about 60 opened); Wikipedia via WebFetch for about 20 firms (curl to Wikipedia was rate-limited)
+- About 170 further candidates came from the researcher's sector knowledge and were only run through check.py; they are in DISC with
+  source "candidate from researcher's sector knowledge (no list page)" so a later run can research them.
+
+COUNTS
+Names in DISC 225; run through check.py 225 (plus a first pass of about 120 names, many of them listed companies that check.py did not flag,
+e.g. Lodha/Macrotech, Palm Hills, Ayala Land, Vinhomes, Central Pattana, Sansiri - those listed names were not written to DISC).
+DISC check results: NEW 160, IN MASTER 25, ALREADY DELIVERED 21, F1 PARTNER 4 (DAMAC, Qiddiya, Nuveen, Carlyle), LISTED 7, POSSIBLE 8.
+Researched 45 (MAIN 31, WATCH 14). Left out 61. Not researched 119.
+
+NOT REACHED / GAPS
+- Sites refusing or not resolving: downtownsaudi.sa and ruaalmadinah.sa (DNS not allowed in this session), wasl.ae (403), futureal.hu (403),
+  soravia.at (503), grupolar.es (503), kw.com newsroom (403), many JS-only sites (Mattamy, Howard Hanna, Atterbury, Masterise, Lotte P&D,
+  J.B. Pastor, Meydan) returned no text.
+- Subsectors thin: Latin America (only Thor Urbana; Grupo Sadasi, Frisa, Questro, Constructora Bolivar not researched), Turkey (Agaoglu,
+  Dap, Nef, Folkart not researched), China/Korea private developers (distressed or listed; Lotte P&D, Shinsegae Property not researched),
+  India private developers (most domestic, no GP; K Raheja, Hiranandani, M3M, Sattva not researched), Monaco developers (J.B. Pastor, Marzocco:
+  sites gave no text), Netherlands/Belgium/Austria/Hungary developers (Futureal, Soravia, BPD, Ghelamco not researched), Australia (Metricon,
+  ISPT not researched), US private homebuilders beyond Weekley/Mattamy.
+- Revenue missing for most Route C records; DISC names marked "not researched" have not been examined. Nothing here is exhaustive.
+
+Scratch files (this folder): t13_get.py, t13_grab.sh, t13_links.py, t13_wiki.py, t13_write.py, t13_disc.py, t13_finish.py.

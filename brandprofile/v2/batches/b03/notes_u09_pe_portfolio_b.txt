@@ -1,0 +1,82 @@
+notes_u09_pe_portfolio_b.txt - batch 3, KEY u09_pe_portfolio_b, MODE subsidiaries (second pass on private equity portfolios)
+Date: 28 Nov 2026. WebSearch used: 1 of 2 (Teamworks valuation; the figure was then read on teamworks.com). Wikipedia not used. No Apollo.
+Read first: brief_b03.md (incl. 28 Nov section), tasks.md MODE subsidiaries, brief_b02.md, brief_discovery.md, notes_u06_pe_portfolio.txt.
+Scratch files: v2/batches/b03/u09_scratch/ (downloaded pages, parsers, candidate lists, record scripts w1-w8.py).
+
+FILES
+- MAIN  u09_pe_portfolio_b.jsonl         40 records (Route A 14, Route C 26); signals_checked yes 23, no 17
+- WATCH watch_u09_pe_portfolio_b.jsonl    6 records (HR Path, Duck Creek Technologies, Sonny's Enterprises, Cyncly, Sun Auto Tire & Service, The Shade Store)
+- DISC  disc_u09_pe_portfolio_b.jsonl   591 lines (one per name per portfolio list; a few names appear under two firms)
+- DUPS  dups_u09_pe_portfolio_b.jsonl   129 lines
+
+SOURCES (current holdings extracted from each firm's own portfolio page)
+- Vista Equity Partners (vistaequitypartners.com/companies, data attributes, status=current): 88
+- Silver Lake (silverlake.com/portfolio, "current-investments" filter): 76
+- Hg (hgcapital.com/portfolio, embedded Next.js data, stage=Current): 59
+- Triton (triton-partners.com/portfolio, 5 pages, status Current): 51
+- Leonard Green & Partners (leonardgreen.com/portfolio, Status: Current): 71 parsed (a few may have been missed by the parser)
+- Genstar Capital (gencap.com/companies, 4 pages, Current): 46
+- EQT (eqtgroup.com/about/current-portfolio, embedded data): 85 - only part of EQT's portfolio is in the page payload
+- Ardian (ardian.com/expertise/our-portfolio, filter Held + Buyout/Expansion/Growth, 12 pages each): 77 (infrastructure and real estate not taken)
+- Nordic Capital: 20 case studies only (no current-holdings list renders); Platinum Equity: 12 names from homepage (portfolio list is script-loaded);
+  Partners Group: 7 names from the PE page (portfolio list is a job board)
+- NOT REACHED (403, 404 or script-only pages): Blackstone, Warburg Pincus, Apollo, Brookfield, Thoma Bravo, Clearlake, Onex, Stone Point, GTCR,
+  Bridgepoint; Platinum, Partners Group and Nordic Capital only partly. EQT and LGP lists may be incomplete.
+- Detail pages of Vista, Silver Lake, Hg and Triton (274) were fetched to get each company's website for check.py.
+
+CHECK.PY
+- Every name was run with its website (where known; 443 of 591), and again without its legal suffix / bracketed part, plus aliases.
+  Results matched by argument order (not by name), so the u06 keying error cannot recur. Re-run after adding websites: no change.
+- DISC: NEW 436, IN MASTER 68, ALREADY DELIVERED 34, POSSIBLE 33, F1 PARTNER 11, LISTED 9.
+- POSSIBLE judged the same company and left out: Lucid (Lucid Software), Clari/Salesloft (Clari), Caliber Collision Centers, Crunch, Dechra,
+  Fanatics Collectibles (Fanatics F1 partner), TikTok USDS JV (TikTok F1 partner).
+- Left out by my judgement although check.py says NEW: listed companies (Klarna, Peloton, Unity, Global Payments, GoodRx, First Advantage,
+  MSG Sports, Advantage Solutions, Clarivate, Mister Car Wash, Waystar, EverCommerce, N-able, Dell, EA, Didi), Reliance units, BBS Automation
+  (site says part of Duerr Group), JOANN (closed), NOBA Bank Group (may be listed: check), Nordnet, Itiviti, The Binding Site.
+- All 46 MAIN/WATCH names re-run at the end with website and aliases: NEW, except Clarience Technologies (POSSIBLE - Clari, a different
+  company) and Apex Group (POSSIBLE - Apex Space / Apex Ultra, different companies).
+- Overlap with other batch 3 files: Assemblin Caverion Group withdrawn (already MAIN in t12_staffing_security; logged in DUPS).
+  Kept but flagged in "outstanding": Apex Group (in_s14, in_q06, in_q66, sig_s14), OTC Industrial Technologies (in_f20, clay_i04),
+  Aleris (in_f07, clay_i05), Saur (in_q51, clay_a), Teamworks (in_q45). Merge with those records.
+  Not researched because other batch 3 files already hold them as MAIN/WATCH: e.g. EAB, Granicus, iCIMS, Jaggaer, Pipedrive, KnowBe4, Getir,
+  Mirakl, Noom, Omio, Software AG, TeamSystem, WP Engine, insightsoftware, Mitratech, team.blue, Trackunit, Flokk, Keenfinity, Kelvion,
+  Leadec, Pharmanovia, Argus Media, ECI, IMA, Jetro, TenCate, Troon, WCG, Bullhorn, Cetera, Lightspeed Systems, Vinted, Natural Cycles,
+  Lazer Logistics, Encyclis, Expleo, YT Industries, Sortera, Sunrise Medical, Blackhawk Network, RAC, Starrez.
+
+RESEARCHED
+MAIN (40): MacGregor, DYWIDAG, ProMach, Clarience Technologies, Kaehrs Group, Royal Reesink, OEConnection, Oterra, Diot-Siaci, Sunweb Group,
+Teamworks, SHL Medical, Saur, Vulcain Engineering Group, Groupe RG, The Wrench Group, AmeriLife, Numerix, Assist Digital, Marcone (mSupply),
+Techouse Group, Geia Group, Habeo Group, FairWind, Caseware, The Citation Group, SITS, Jet Support Services (JSSI), PDI Technologies,
+Apex Group, Acre Security, Energy Exemplar, Sovos, Daxko, OTC Industrial Technologies, Signant Health, Arrowhead Engineered Products,
+Likewize, Aleris, OneAdvanced.
+Strongest Formula 1 cases: Clarience Technologies (already a paid motorsport sponsor: Team Penske IndyCar primary partner 2026, Detroit
+Grand Prix, AJ Foyt Racing), Teamworks (valuation above USD 1.5bn; its software runs elite team operations - a real technical use case),
+JSSI (business-jet owners), Apex Group (13,000 staff, fund managers and family offices), Diot-Siaci (EUR 1.31bn broker), OEConnection
+(vehicle OEM aftersales), PDI Technologies (fuel and convenience retail), Kaehrs (new CMO Aug 2026).
+Researched but not written (no route or no figure; DISC stage "researched"): DeepOcean, Alstef, CitiusTech, Cerity Partners, Tecta America,
+Charter Next Generation, Visual Comfort, Cumming Group, Robot Coupe, Unical Aviation, Red Ventures, Oak View Group, Ideagen, Santé Cie,
+Apartment Management Consultants, DuraServ, ACA Group, 8am, Vector Solutions and others listed in DISC.
+Sites refused or not responding: Pelican Products, Glamox, IFCO, Fertiberia, Parts Town, Pye-Barker, SureWerx, All4Labels, Clinigen,
+BFC Fahrzeugteile, Gainsight, Resilinc, Revalize, Cyncly, Daxko (Daxko and Cyncly rest on the Genstar page only); most Silver Lake
+companies (Cloudflare pages with no content).
+
+QUALITY CAVEATS
+- 26 of 40 MAIN records are Route C; several rest on the PE owner's portfolio page plus the company homepage (Daxko, OTC, Signant, Cyncly).
+- Many company newsrooms listed items without dates; such signals are marked "inferred" with year only.
+- Owners are taken from the PE firm's current-portfolio page; stakes and co-investors are rarely stated.
+- Fit was rated on the business, not press volume; many records are low-fit B2B/domestic businesses (Habeo, Geia, Aleris, Saur, OTC, Marcone).
+- Revenue periods are often not stated on the page ("not stated" in fin.period).
+
+REGIONS: portfolio pages are mainly US and Europe. MAIN covers the US, Canada, UK, France, Germany, Italy, Netherlands, Sweden, Norway,
+Denmark, Finland, Switzerland, Bermuda, Australia. Asia (EQT/BPEA holdings in India, Japan, Korea, China: AIG Hospitals, CareNet, HRBrain,
+Mamezo, Acuon Capital, Cue, Niwas Housing Finance, World Freight Company), Middle East, Latin America and Africa are in DISC but not researched.
+
+NOT REACHED / NEXT STEPS
+- ~337 NEW DISC names not researched. Worth doing next: Oak View Group, Red Ventures, Facile.it, Groupe Meilleurtaux, Entrata, Carta,
+  City Football Group / Australian Professional Leagues (rights holders - check eligibility), Pelican Products, Glamox, IFCO, Fertiberia,
+  All4Labels, Clinigen, Parts Town, Pye-Barker, Visual Comfort, ExamWorks, WellSky, Veritext, Tekni-Plex, Brook + Whittle, Cerity Partners,
+  Ascensus, Revima, Cerelia, Swissbit, Technology & Strategy, Munich Electrification (battery management - motorsport relevant), SERMA,
+  Statera, InfoJobs/Coches.net, Citius Tech, World Freight Company, Unical Aviation, ROSEN Group, SEG, Emeria, ADVANZ PHARMA, iLOQ.
+- Firms still to scrape: Blackstone, Warburg Pincus, Apollo, Brookfield, Thoma Bravo, Clearlake, Onex, Stone Point, GTCR, Bridgepoint,
+  plus full lists for EQT, Platinum Equity, Partners Group and Nordic Capital (all script-loaded or refused).
+Nothing here is exhaustive.
