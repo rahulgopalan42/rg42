@@ -65,3 +65,12 @@
 {"name": "Claro", "why": "F1 PARTNER (Alpine)"}
 {"name": "Três Tentos", "why": "listed on B3"}
 {"name": "Timbro Trading", "why": "IN MASTER"}
+{"name": "Granja Faria", "why": "Left out: B3 issuer list shows GRANJA FARIA S.A. in equity segment 'Agricultura' with listing date 14/12/2023; treat as possibly listed until verified"}
+{"name": "Schulz Compressores", "why": "Listed: B3 shows SCHULZ S.A. (equity segment, since 1994)"}
+{"name": "Intelbras", "why": "Listed: B3 Novo Mercado (INTELBRAS S.A., 02/02/2021)"}
+{"name": "Algar Telecom", "why": "B3 shows ALGAR TELECOM S/A in Telecomunicações segment (registered 2007); leave out pending verification"}
+{"name": "Josapar", "why": "Listed: B3 shows JOSAPAR in Alimentos Diversos segment since 1988"}
+{"name": "MRS Logística", "why": "B3 shows MRS LOGISTICA S.A. on Mercado de Balcão (MB); shares registered for trading: leave out"}
+{"name": "VLI", "why": "B3 shows VLI MULTIMODAL S.A. registered in an equity segment with listing date 27/11/2026; possibly just listed: leave out pending verification"}
+{"name": "União Química, Eldorado Brasil, Elfa, J. Macêdo, Norte Energia, Alubar, Pacaembu, Grupo Salta, Zamp, Santos Brasil, Arteris", "why": "B3 issuer list shows each in an equity segment (category A registration); leave out pending verification that shares do not trade"}
+{"name": "Multilaser, Positivo, Boa Safra, Jalles Machado, Kepler Weber, Vulcabras, Azzas/Arezzo, Guararapes, Grupo SBF/Centauro, Lojas Quero-Quero, Cury, Plano & Plano, Direcional, Construtora Tenda, Cyrela, MRV, Allos, Multiplan, Hidrovias do Brasil, Tegma, JSL, Movida, Vamos, Log-In, Ser Educacional, Vitru, Cruzeiro do Sul, Yduqs, Cogna, Bemobi, Valid, Fleury, Hypera, Profarma, Dimed, Pague Menos, Vivara, Grendene, Alpargatas, Iochpe-Maxion, Randoncorp, Marcopolo, Tupy, Unipar, Ferbasa, Eucatex, Portobello, Dexco, Camil, M. Dias Branco, SLC Agrícola, São Martinho, Banco BMG, Mercantil do Brasil, Banrisul, Banestes", "why": "Listed: each matched to an issuer in an equity segment of the B3 listed-companies list (sistemaswebb3-listados.b3.com.br, downloaded 28 Nov 2026); excluded without research"}
