@@ -6,9 +6,11 @@ f1owner and info = recorded for information, not exclusions."""
 import glob, gzip, json, os, re, sys, unicodedata
 H = os.path.dirname(os.path.abspath(__file__)); B = os.path.dirname(H); R = os.path.dirname(B)
 SUF = re.compile(r'\b(inc|incorporated|corp|corporation|co|company|ltd|limited|llc|llp|lp|plc|sa|sas|ag|se|nv|bv|gmbh|kg|kgaa|spa|srl|ab|as|asa|oy|oyj|pte|pty|sdn|bhd|holdings?|group|the)\b')
-def norm(s): return re.sub(r'[^a-z0-9]+', '', unicodedata.normalize('NFKD', str(s)).encode('ascii', 'ignore').decode().lower())
+# letters that have no ASCII decomposition were silently dropped, so 'Altınbaş' and 'ALTINBAŞ', 'Ørsted' and 'Orsted', 'Voßloh' and 'Vossloh' did not match (28 Nov 2026)
+_TR = str.maketrans({'ı': 'i', 'İ': 'I', 'ø': 'o', 'Ø': 'O', 'ß': 'ss', 'æ': 'ae', 'Æ': 'AE', 'œ': 'oe', 'Œ': 'OE', 'đ': 'd', 'Đ': 'D', 'ł': 'l', 'Ł': 'L', 'ð': 'd', 'Ð': 'D', 'þ': 'th', 'Þ': 'Th'})
+def norm(s): return re.sub(r'[^a-z0-9]+', '', unicodedata.normalize('NFKD', str(s).translate(_TR)).encode('ascii', 'ignore').decode().lower())
 def loose(s):
-    s = unicodedata.normalize('NFKD', str(s)).encode('ascii', 'ignore').decode().lower().replace('&', ' and ')
+    s = unicodedata.normalize('NFKD', str(s).translate(_TR)).encode('ascii', 'ignore').decode().lower().replace('&', ' and ')
     s = re.sub(r'[^a-z0-9 ]', ' ', s); s = SUF.sub(' ', s)
     return re.sub(r'\s+', '', s)
 def dom(u):
