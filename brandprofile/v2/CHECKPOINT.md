@@ -6,17 +6,16 @@ The user's go-ahead and further instruction of 28 Nov are in `INSTRUCTION-COVERA
 `brief_b03.md`. Every task is defined in `batches/b03/tasks.md`. What has been launched and finished: `batches/b03/launch_log.md`.
 What is still to launch, in order: `batches/b03/pending.txt` (take from the top; 20 background agents at once is the hard limit).
 
-Prompts used (general-purpose agent, model opus, background):
-- sector / country / subsidiaries: "Batch 3 researcher ... KEY: <key>. MODE: <mode>. Work in /home/user/rg42/brandprofile. Read
-  v2/brief_b03.md in full, find your KEY in v2/batches/b03/tasks.md, then read v2/brief_b02.md and v2/brief_discovery.md, and do the work.
-  Write only your own files in v2/batches/b03/. WebSearch limit N. Never run git. No invented facts. Final report under 100 words."
-- queue (rNN_queue): the same with MODE queue, `v2/brief_queue.md`, INPUT `v2/batches/b03/in_qNN.jsonl`, WebSearch 0.
-- clay (clay_iNN, clay_cNN): MODE clay, `v2/brief_clay.md`, OUT `v2/discovery/clay/<key>.jsonl`, search only, never enrichment.
-- signals (sNN_signals): `v2/brief_signals.md`, INPUT `in_sNN.jsonl`, OUTPUT `sig_sNN.jsonl`, WebSearch 0.
-- audit (xNN_...): `v2/brief_audit.md`; run these only when most research files exist.
+How to launch the next task: `batches/b03/prompts/<key>.txt` holds the full prompt for every task still on `pending.txt`
+(general-purpose agent, model opus, background; the launch prompt is "Read <that file> and do exactly what it says"). Then delete
+the key's line from `pending.txt` and add a line to `launch_log.md`. The order of `pending.txt` is the priority order: the
+large-company follow-up files (`f`), sector runs (`t`), country runs (`k`), Clay country pulls, then the audits (`x01` to `x08`),
+then the deferred tail (Clay industries `clay_i13` to `i23`, queue files `r38` to `r67`).
 
-While agents write, `snap.sh` in the scratchpad commits and pushes `batches/b03` and `discovery/` every few minutes and hides them
-from `git status` (skip-worktree + `.git/info/exclude`); `touch <scratchpad>/snap.stop` ends it and restores the flags.
+While agents write, `snap.py` in the scratchpad commits and pushes the research files (`.jsonl`, `.txt`, `.md`, `.json` at the top
+of `batches/b03` and `discovery/clay`, `discovery/crunchbase`) every three minutes and hides them from `git status`
+(skip-worktree + `.git/info/exclude`); `touch <scratchpad>/snap.stop` ends it. Researchers' scratch folders (`scratch_<key>/`) are
+not committed: GitHub refused a push on 28 Nov because a saved web page carried that site's own map key.
 
 After the research: `queue.py b03 80 <n> <start>` for names discovered in batch 3 (write them as `in_qNN` from 68 upwards, key
 `rNN_queue`); `signals_queue.py 40 <research rows> <older rows> <start>` for a further signals wave; audits `x01` to `x08`; then
