@@ -1,0 +1,26 @@
+u05_asia_subs (batch 3, MODE subsidiaries) - 28 Nov 2026
+Scope: independently branded subsidiaries / unlisted affiliates of Korean, Chinese/HK, Taiwanese, Indian, Singaporean, Thai, Malaysian, Indonesian and Australian listed groups.
+
+COUNTS
+- Names run through check.py: about 330 (8 calls, plus a final re-check of all MAIN/WATCH names with and without suffixes/domains).
+- DISC: 264 lines (45 researched, about 85 not researched or left out after a light look, 134 left out as IN MASTER / ALREADY DELIVERED / LISTED / F1).
+- DUPS: 135 (IN MASTER ~61, ALREADY DELIVERED ~29, LISTED ~37, F1 PARTNER: Motorola Mobility, Iveco, Specialized, Toyota Astra Motor (Toyota brand); plus Lotus Cars (now inside listed Lotus Technology), Doosan Skoda Power (listed Feb 2025), OOCL (check.py LISTED), Resorts World Las Vegas (left out on AML compliance fine)).
+- MAIN 37 (Route A 17, B 1 [Grinding Gear Games], C 19). WATCH 8 (Bowers & Wilkins, Funcom, Cimpor, Digital Extremes, Gammon, Tata Capital, Automobili Pininfarina, Organon).
+- signals_checked = "yes" on all records (Wikipedia history/recent-events read, plus company pages for Joyson, ZKW, Milwaukee). Many records still have no dated 2024-26 signal because none was on the page.
+
+SOURCES (names yielded)
+- Wikipedia group pages: Techtronic Industries (8), Midea (10), Haier (8), Lenovo (10), Geely (20), CK Hutchison (25), Jardine Matheson (11), Aristocrat (6), Wesfarmers (9), Genting Group (8), Tata Group (35), Mahindra Group (12), Swire Group (10), Astra International (20), Foxconn (12), Thai Union (8), Delta Electronics (7), ST Engineering (10), ThaiBev (6), Sime Darby (8), Carsales/CAR Group (6).
+- Wikipedia company articles for every researched company (in each record's sources); company sites joysonsafety.com, zkw-group.com, skpharmteco.com, milwaukeetool.com/news (no dated items).
+- WebSearch: 1 of 2 used (largest outbound acquisitions by Indian companies) -> Organon (Sun Pharma), Iveco (F1 partner).
+- My own candidate list of Asian-owned subsidiaries, each confirmed on an opened page before any MAIN line.
+
+CAVEATS / GAPS
+- Many qualifying figures are old and flagged in `outstanding`: Superior Essex 2007, Chicken of the Sea c.2003, Medion 2011, SMART 2015, Bellamy's 2017, M&C 2018, WesTrac 2018, UKPN 2021, CSL Vifor 2021. Several Route C records rest on store/employee/country counts only.
+- Ownership uncertain: UK Power Networks (Wikipedia contradicts itself on the 2026 Engie/CKI deal); Tata Capital may already be listed (IPO filed Apr 2025) - VERIFY; Organon - verify Sun Pharma deal closed and NYSE delisting.
+- parent_listed left "requires verification" where the listing of the parent was not stated on a page opened (LS Group, Mengniu, Jardine, Sime, Seven Group, Weichai, Cathay FHC).
+- Category conflicts: Medion and Infinidat sit under Lenovo (official F1 partner); Apollo Vredestein is blocked by Pirelli; JLR is in a crowded car-OEM category and check.py notes "Jaguar" on the Monza circuit partner page - check before use. JLR also appears in another b03 input (in_s13).
+- Kruidvat / The Perfume Shop are A.S. Watson banners (A.S. Watson is IN MASTER): user to decide if banners count as separate.
+- Websites in records mostly not opened; verify before outreach.
+- Wikipedia 404 / no article: Clivet, CIFA, March Networks, Genting UK, Formosa Plastics USA, Fisher & Paykel Appliances, Vax, Loscam, Encar, Webmotors, NeoGames, Product Madness, Fujitsu Client Computing, SK pharmteco, Cosrx, Supernal, Australian Gas Networks, Marionnaud, Tata Steel Nederland, YTL PowerSeraya, Pamapersada. These stay in DISC as not researched.
+- Avoided names already in other b03 researchers' MAIN/WATCH or queue inputs (Korean names largely covered by k16; Tata Electronics/AutoComp k19; GAC Aion, Omoda/Jaecoo, Keeta, Westland, Jack Wolfskin, Candy, Schwan's, Poshmark, Olive Young, NCS, ofi, Wessex Water, Astra Honda, FIFGroup, Big C, Reece, WFS, Nxtra, Biocon, Advanta - in queue files).
+- Not reached: Korean overseas subsidiaries beyond ZKW/Superior Essex (CJ, Lotte, Hanwha US units), Chinese state-owned groups' overseas subsidiaries (COSCO, China Merchants, CNOOC, Three Gorges, CRRC/Vossloh Locomotives), Indonesian conglomerates (Sinar Mas, Salim, Djarum), Thai groups (CP, Central, PTT, Indorama, Banpu), Malaysian YTL/Axiata/IHH beyond Parkway Pantai, Australian Woolworths/Telstra/Qantas units, Taiwanese Formosa and TSMC affiliates. Not exhaustive.
