@@ -1,0 +1,41 @@
+clay_c01 (batch 3, MODE clay, deeper paging, country line) - 28 Nov 2026
+Countries: Japan; China; South Korea.
+Filter on every query: locations.any(country_name = "<country>" and is_headquarters = true)
+  and company_type in ("Privately Held","Partnership","Self Owned"); no industry filter.
+Search tools only (search-companies, load-more-search-results); no enrichment, no render, no WebSearch.
+Page caps for a country line: P1=3, P2=2, P3=2. Context budget was about 20 pages: 20 pages read, 353 rows saved.
+
+Query                                          pages  rows  hasMore at stop
+Japan HQ | 1B-10B,10B-100B,100B-1T              3      60    true  (unfinished, stopped at P1 cap)
+Japan HQ | 500M-1B                              2      40    true  (unfinished, P2 cap)
+Japan HQ | 200M-500M                            2      40    true  (unfinished, P3 cap)
+China HQ | 1B-10B,10B-100B,100B-1T              3      60    true  (unfinished, P1 cap)
+China HQ | 500M-1B                              2      40    true  (unfinished, P2 cap)
+China HQ | 200M-500M                            0       0    NOT RUN (skipped to keep page budget for South Korea)
+South Korea HQ | 1B-10B,10B-100B,100B-1T        3      53    false (COMPLETE: page 3 had 13 rows)
+South Korea HQ | 500M-1B                        2      40    true  (unfinished, P2 cap)
+South Korea HQ | 200M-500M                      1      20    true  (unfinished; stopped after 1 of 2 pages, page budget reached)
+
+Not reached: China 200M-500M (both pages), South Korea 200M-500M page 2. Every other query except Korea P1 still had more pages.
+A later run can resume with the same queries.
+
+disc_check.py result (353 rows): NEW 206, IN MASTER 58, ALREADY DELIVERED 20, POSSIBLE 31, LISTED 35, F1 PARTNER 3.
+By country: Japan NEW 82 / China NEW 62 / South Korea NEW 62.
+
+Observations for the research step (from Clay descriptions only, not verified):
+- The Clay company_type tag is unreliable. Many rows are listed companies or units of listed groups: e.g. MODEC (TSE 6269),
+  Mitsui Chemicals, Towa Pharmaceutical, SMBC Group (NYSE: SMFG), J&T Express (1519.HK), bilibili (NASDAQ: BILI), YOFC
+  (06869.HK / 601869.SH), Pharmaron (300759.SZ/3759.HK), Wasion (HK3393), United Energy Group (HK-listed), Isuzu, Yahoo! JAPAN /
+  LINE (LY Corp), NTT DOCOMO / NTT DATA (NTT), Korean Air, Jin Air, Hanwha Aerospace, Hyundai Rotem, Netmarble, GS Caltex parents.
+- Many rows are national units or JVs of foreign groups (Bosch Japan/China, PwC/KPMG/EY member firms, Veolia Japan, TUV units,
+  SEW-EURODRIVE Korea, Wurth Group Asia, Volkswagen Group China, SAIC-VW, FAW-VW, BMW Brilliance, Starbucks Korea, AB InBev Korea,
+  Savills Korea, Randstad Japan, Shanghai Disney, Universal Beijing, USJ): apply the national-entity rule.
+- Junk or mis-tagged rows to drop: KOBE MOTOR JAPAN (used-car broker page), Blockchain Seoul 2018, Happy Block, abcdx,
+  BE SELECTED, Korea Ship Managers' Association, Expo 2025 Osaka, JICA volunteers, GIIS Tokyo, Shenzhen Xingjiexun, Chinese Telecom.
+- Promising unlisted / subsidiary-with-own-brand names for research (Clay text only): Yazaki, YKK, Suntory Holdings, Yanmar,
+  Kioxia, JERA, Nichia, TANAKA, Mori Building, Nikkei, Yomiuri, Sumitomo Life, Meiji Yasuda, Marelli, KOKI (HiKOKI/Metabo),
+  OWNDAYS, Huawei, DJI, OPPO, vivo, HONOR, realme, ByteDance, Xiaohongshu, CHINT, Yanfeng, ZC Rubber, Dalian Wanda, Luckin
+  (check listing), heytea, Dreame, ECOVACS (check listing), Lee Kum Kee, Infinitus, Deli, FMG/Urban Revivo, Bestseller China,
+  Hithium, REPT Battero, CITIC Dicastal, SPC Group, E-Land, CJ Olive Young, Sae-A, Hansoll, TKG Taekwang, Daiso Korea,
+  LS Cable & System, LX Pantos, SK On, SK ecoplant, Hyundai Transys, Kyobo Life, Ourhome, Smilegate, Kurly, Toss Bank,
+  DN Solutions, SEMES, Bluebell Korea, Kim & Chang.

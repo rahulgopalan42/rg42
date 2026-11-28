@@ -102,3 +102,5 @@ launched: clay_c01 | finished: t07_chemicals (29 main, 19 watch, 240 disc)
 launched: f03_queue | finished: k27_brazil (39 main, 5 watch, 1,071 disc from Exame Melhores e Maiores 2026, each tested against the B3 register)
 launched: t13_real_estate | finished: r28 (25/19)
 launched: k30_taiwan_hk_anz | finished: r29 (24/27)
+launched: s14_signals | finished: t05_aerospace_defence (29 main, 13 watch, 175 disc)
+launched: f04_queue | finished: u06_pe_portfolio (42 main, 6 watch, 1,005 disc; Blackstone, Warburg, EQT, Apollo, Ardian, Brookfield not reached); added u09_pe_portfolio_b. Wella left out as an F1 Academy partner

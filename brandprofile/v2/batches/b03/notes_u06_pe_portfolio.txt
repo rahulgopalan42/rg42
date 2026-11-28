@@ -1,0 +1,69 @@
+notes_u06_pe_portfolio.txt - batch 3, KEY u06_pe_portfolio, MODE subsidiaries (portfolio companies of the largest private equity firms)
+Date: 28 Nov 2026. WebSearch used: 0 of 2. Wikipedia was rate-limited (HTTP 429) and was not used. No Apollo.
+
+FILES
+- MAIN  u06_pe_portfolio.jsonl        42 records (Route A 4, Route C 38); signals_checked yes 18, no 24
+- WATCH watch_u06_pe_portfolio.jsonl   6 records (Hyperion Materials & Technologies, Global Jet Capital, INNIO, Meopta, Disguise, AutoForm)
+- DISC  disc_u06_pe_portfolio.jsonl 1,005 lines (906 from the 7 portfolio pages parsed in full or in part, 99 from 6 more firms' pages)
+- DUPS  dups_u06_pe_portfolio.jsonl  294 lines
+
+SOURCES (names extracted)
+- KKR portfolio JSON (kkr.com bioportfoliosearch endpoint, 20 pages): 297 (PE, Tech Growth, Infrastructure, Health Care Growth, Global Impact)
+- Carlyle portfolio (carlyle.com/portfolio via WebFetch): 246 (includes some realised holdings, e.g. One Medical, ZoomInfo, PrimeFlight)
+- CVC portfolio (cvc.com/portfolio/our-portfolio, pages 1-10): 155, with descriptions that often give employees, sites, countries
+- Bain Capital Private Equity current investments: 111
+- Cinven current portfolio (filtered view): 46
+- CD&R portfolio listing (Aug 2026): 41
+- Permira: only the first 20 of 111 (page loads the rest by script)
+- Hellman & Friedman current portfolio: 29; General Atlantic: first 24 (load-more); PAI Partners homepage: 18 (case studies + news);
+  Advent "portfolio stories": 13; TPG featured companies: 10; BC Partners featured: 6
+- Not reached: Blackstone (403), Warburg Pincus (403), EQT (current-portfolio page renders no list), Apollo, Ardian, Brookfield
+  (portfolio URLs 404 / no list), TPG and Advent full lists (only showcases), Permira beyond 20, General Atlantic beyond 24.
+
+CHECK.PY
+- Names run: 1,114 variants (names plus suffix-stripped forms) for the 915 candidates, plus 99 extra names.
+- Result across DISC: NEW 728, IN MASTER 137, ALREADY DELIVERED 57, POSSIBLE 38, LISTED 32, F1 PARTNER 13.
+- IMPORTANT: two errors were caught and corrected late in the run. (1) my status script keyed results by "name | website",
+  so names given with a website (all KKR names) defaulted to NEW; (2) a grep filter hid "IN MASTER - master: NEW ..." lines.
+  After re-checking, these MAIN records were withdrawn and logged in DUPS: LOGISTEED, Optiv, Cloudera, Arnott's, Moeve,
+  OutSystems, Qonto, Semperis (IN MASTER); Golden Goose (delivered b01), IVI Institute (= IVI RMA, delivered b02); Varsity Brands (WATCH, IN MASTER).
+  All 48 remaining MAIN/WATCH names and their aliases were re-run through check.py at the end: all NEW.
+- Also withdrawn because another batch 3 file already holds them as MAIN: Traxys (t06), TeamSystem (t01), SD Worx (k01), Contentsquare (t02);
+  Authentic Brands Group (input in_s13).
+- Wella left out: Wella Professionals is an Official Partner of F1 ACADEMY (wella.com) although check.py says NEW.
+- Overlaps kept and flagged in "outstanding": EcoVadis, o9 Solutions, Global Jet Capital (in_s14), GetYourGuide, NEP Group (in_s15),
+  Employment Hero (in_s16), o9 Solutions (in_f05), Novolex (in_q46), Travelopia (in_q37). Merge with those records.
+- Many DISC names marked NEW are in fact listed companies or listed-group units (e.g. Nutanix, Canada Goose, BRP, Petco, Paysafe,
+  Henry Schein, Samsung SDS, OHB, Rigaku, Hugel, Nexi, Waystar, MKS, Quidel Ortho, KB Financial, Hyundai Glovis, JD Logistics,
+  Zabka, MAP Indonesia, Siloam, Resurs, Recordati) or infrastructure assets / rights holders (LaLiga, Six Nations, WTA, towers, fibre).
+  Check listing status before researching them.
+
+RESEARCHED (MAIN 42): Apex Tool Group, Travelopia, RAC, Lipton Teas & Infusions, Odevo, Packeta, Deltatre, NEP Group, Global Medical
+Response, Landal GreenParks, KDC/ONE, Hunkemoller, Novolex, Duravant, Zenobe, Fedrigoni, GetYourGuide, Chess.com, Fujian Jinuo, Pursuit
+Aerospace, Service Logic, Karo Healthcare, La Piadineria, Delly's, Gaming Laboratories International, Anchor Glass, Trans Maldivian Airways,
+Monbake, URUS Group, EcoVadis, Exolum, DEPT, The Quality Group, Employment Hero, o9 Solutions, Skroutz, Airalo, Twoday, Sogelink, Radwell
+International, WebPros, VelocityEHS.
+Researched but not written (no route or no figure on the pages opened; DISC stage "researched"): LS Automotive, Dealer Tire, Worldpac,
+A-Gas, Soderberg & Partners, Concert Golf Partners, Dessert Holdings, Ensono, Penti, Twinset, Bay Club, Every Man Jack, Evident, D-Marin,
+Tescan, Greenvolt, Wilsonart, Multi-Color (MCC), Spectris (taken private by KKR, no figure found), Saverglass (now Orora Group), IMA,
+PrimeFlight (Carlyle agreed to sell).
+
+REGIONS: portfolio pages are global; MAIN covers US/Canada, UK, Western and Northern Europe, Czechia, Greece, Spain, Italy, Brazil,
+China, Australia, Singapore, Maldives. Japan, Korea, India, South-East Asia, Middle East, Africa and Latin America are under-covered:
+names from those regions are in DISC (e.g. Koki/HiKOKI dup, LS Automotive, Tongyi Lubricant, Samhwa, Metro Pacific Hospitals, MAP
+Indonesia, Medical Saigon, Grupo BIG, Delhivery) but were not researched.
+
+QUALITY CAVEATS
+- 24 of 42 MAIN records have signals_checked "no": company sites refused (403), hosts were blocked (liptonteasandinfusions.com,
+  accolade-wines.com), newsrooms did not render, or the record rests on the CVC portfolio page plus one company page.
+- Several Route C records rest on figures stated on the PE owner's portfolio page (CVC, Bain) rather than the company's own site.
+- No revenue figure was found for most Route C companies; "outstanding" lists what to verify.
+- Owners are taken from the PE firm's current-portfolio page; stakes and co-investors were rarely stated (marked "requires verification").
+
+NOT REACHED / NEXT STEPS
+- ~650 NEW DISC names not researched. Highest-value next picks: Dealer Tire, MSX International, Tongyi Lubricant (automotive);
+  Spectris/HBK (test and measurement), Koki/Metabo (check dup), Sector Alarm, Q-Park, Bay Club, A-Gas, Industrial Physics,
+  Contabo, Ness Digital, ERM, Crowe, KnowBe4, Lighthouse, Guesty, Fresha, Artlist, Ontic, TechInsights, Unitex, Therme Horizon,
+  Codorniu, Accolade Wines, END., Flos B&B Italia, Dainese (IN MASTER), ADB Safegate, Acrotec, Forgital, Altadia, INNIO (listing check).
+- Firms to scrape: Blackstone, Warburg Pincus, EQT, Apollo, Ardian, Brookfield, Permira (full), General Atlantic (full), TPG, Advent.
+Nothing here is exhaustive.
