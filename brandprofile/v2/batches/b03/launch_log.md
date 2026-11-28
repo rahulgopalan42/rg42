@@ -93,3 +93,4 @@ launched: t10_utilities | finished: t02_ai_cloud_cyber (33 main, 12 watch, 265 d
 launched: r29_queue | finished: r26 (19/24; later queue files give lower-fit names)
 REPRIORITISED (after 90 tasks): the register now holds 11,032 new names nobody has researched, 4,297 of them with a figure at or above a threshold. New order in pending.txt: follow-up files f01-f25 (in_f01-25.jsonl: the largest newly discovered names with a qualifying figure, key fNN_queue, MODE queue) interleaved with the remaining sector and country tasks, r30-r37, signals s14-s16 and the gap-region Clay pulls; then audits x01-x08; the lower-value tail (clay_i13-i23, r38-r67) last.
 launched: f01_queue | finished: s12_signals (40: 22 with signals, 18 none)
+launched: t11_packaging | finished: s13_signals (40: 29 with signals). REVIEW AT BUILD: f1_deal entries in sig_*.jsonl (DAZN is flagged for an F1 broadcast deal in Spain/Portugal: a rights buyer, not a sponsor)
