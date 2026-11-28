@@ -1,0 +1,51 @@
+f05_queue (batch 3, queue mode) - notes, 28 Nov 2026
+INPUT: in_f05.jsonl, 80 lines, all worked through. WebSearch used: 0. Pages fetched with curl (public pages, declared research user agent).
+
+RESULT: MAIN 37 (Route A 27, B 3, C 7), WATCH 4, DUPS 30, not researched 9.  Total 80.
+
+MAIN: Italmatch Chemicals, BigMat, Scael, Natup, Cofaq, Weldom, NEQSOL Holding, HPCL-Mittal Energy, Al Barid Bank, Provation,
+Womble Bond Dickinson, Ogletree Deakins, Barnes & Thornburg, Jackson Lewis, Generalist, PathAI, Solace, Sorenson Communications,
+Medical Protective (B), XTRA Lease (B), Justin Brands (B), Carter-Jones Lumber, F.W. Webb, Matheson Tri-Gas (C), Wilsonart,
+o9 Solutions (C), Hack The Box (C), Shriram General Insurance (C), Innovaccer, Droom, Apna, Places for People (C), Magnet Forensics,
+Galaxea AI, X Square, Groupe Monnoyeur, Taiyo Kenki Rental.
+WATCH: Altro (no figure, GT rank only), Guttman Holdings (only an Anglera estimate), Vital Energi (only a GBP 175m bond = debt),
+Chandaria Industries (only a Clay bracket).
+
+Stronger prospects (fit): BigMat (paying UCI World Championships partner to 2027, 1,019 outlets in Europe), o9 Solutions,
+Groupe Monnoyeur (24 countries, Caterpillar/John Deere dealer), NEQSOL (Baku GP home market), Italmatch (Saudi/Gulf growth),
+Hack The Box (note: investor Carlyle is an F1 partner; cyber category crowded).
+
+DUPS (30): in master/delivered/F1: Bradesco Seguros, Netto (Salling Group), TPAO, Cargill Alimentos, Tosyali, Schnucks, Price Chopper,
+Santander UK (F1 partner), SOCAR Turkey (SOCAR delivered b01). Listed: Naturgy, Sasol, Shoprite, BTG Pactual; national entity of listed:
+Bunge Brazil. Merged/closed/insolvent: Sapa (Hydro), SIGNA (Konkurs), Hike (closed Sept 2025), Nokia Shanghai Bell (bought by Nokia Dec 2025).
+Not separate: momondo/Cheapflights (Booking), Atlas Copco Specialty Rental, ND Paper (Nine Dragons), Sunquest (inferred folded into Roper/Clinisys),
+South African Breweries (AB InBev country unit - judgment call). Holding vehicles / listed brands: NHU Holding, Zhejiang Baoye (Baoye HKEX 2355),
+Jintian Sunshine (Ningbo Jintian Copper). Other: Russian (Zepter Russia), TMO (state grain board), Vignovin (wine portal, Clay figure not credible),
+Xinghaitu (probable same company as Galaxea AI 星海图 - NOT confirmed; verify and merge).
+
+NOT RESEARCHED (no company page could be opened):
+- Yongzhuo Holding (永卓控股有限公司, Jiangsu), Hebei Xinhua Lianhe Metallurgy Holding (河北新华联合冶金控股集团有限公司),
+  Hongrun Petrochemical (Weifang) (弘润石化（潍坊）有限责任公司), Shandong Dongming Petrochemical (山东东明石化集团有限公司):
+  ranks 48/52/54/55 and revenues (万元 16553986 / 16173514 / 16114941 / 15963916) CONFIRMED on the ACFIC 2026 list image
+  (acfic.org.cn ... t20260922_331490.html, image W020260922444542877116.jpg). Company sites not found by domain guessing; Baidu Baike
+  blocked (security check); no Wikipedia articles. Listing status unverified. A later run with search should pick them up.
+- Guilin Liyuan Grain & Oil Food Group: no site found.
+- Egyptian Steel: egyptian-steel.com behind Cloudflare challenge (403); no Wikipedia article.
+- Queen Consolidated Steel: no website resolves; Clay record looks spurious (name of a fictional TV company) - likely junk.
+- WorldTradeCenter (worldtradecenter.io): site does not resolve.
+- Coffey Construction (Ireland, EUR 140m per constructionnews.ie): list page behind a bot check; coffeygroup.com (Galway civil
+  contractor, est. 1974) found but not confirmed to be the same company as the list entry.
+
+GAPS / CAVEATS:
+- signals_checked "no" on 16 MAIN records (sites blocked or no dated news): Weldom, Al Barid Bank, Ogletree, Barnes & Thornburg,
+  Jackson Lewis, Generalist (Vercel checkpoint), Medical Protective, XTRA Lease, Justin Brands, F.W. Webb (Cloudflare), Shriram GI,
+  Droom, Apna, Galaxea AI, X Square, Taiyo Kenki Rental.
+- Old qualifying figures: Medical Protective (2005), XTRA Lease (2001), Justin Brands (2000) transaction values; Wilsonart equity (2012);
+  Droom/Apna valuations (2021); PathAI (2021); Provation (2021).
+- Network vs central revenue: Cofaq and BigMat figures are co-operative network turnover.
+- Weldom: sister brand Leroy Merlin (ADEO) is IN MASTER - confirm the user wants another ADEO banner.
+- Places for People is a social-housing enterprise: if registered as a charity it should move to DUPS (not a commercial prospect).
+- Clay brackets kept as kind "estimated"; never used as reported revenue. MAD converted at about 0.10 (not in fixed list).
+- Input data corrections: Cofaq sector (input said Healthcare; it is a hardware/DIY co-op); Innovaccer HQ San Francisco (input India);
+  NEQSOL HQ Baku (input Netherlands).
+Scratch files: f05_fetch.sh, f05_text.py, f05_g.sh, f05_grab.sh, f05_write.py, f05_dup.py, f05_fix.py, f05_scratch/.

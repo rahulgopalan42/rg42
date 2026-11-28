@@ -1,0 +1,46 @@
+NOTES t15_semis_hardware (batch 3, sector mode), 28 Nov 2026
+Stream: independent web research only. WebSearch used: 1 of 1 (private semiconductor ranking query; returned only public-company rankings, no names used). All else WebFetch.
+
+COUNTS
+- MAIN: 32 (Route A 24, Route C 8; no Route B). WATCH: 13. DUPS: 206. DISC: 581 lines.
+- Names run through check.py: ~580 (4 brainstorm rounds + the Wikipedia fab list). Results: IN MASTER 69, ALREADY DELIVERED 51, F1 PARTNER 9,
+  LISTED? 62, POSSIBLE 20, NEW ~370 (many NEW are in fact listed groups that check.py does not flag, e.g. TI, Intel, NXP, UMC; left "not researched").
+- check.py alias misses found: "Nichia | nichia.co.jp" = NEW but bare "Nichia" = IN MASTER (record removed, logged in DUPS); "VEGA" alone matches an
+  unrelated "Vega" (AI tab) - VEGA Grieshaber kept with a note. Also cross-checked against all other batch-3 files: Turck, NZXT, MOZA, Polar Electro,
+  SilTerra, Spectris, Leybold, Hoerbiger already researched by others; Realme/OnePlus, Cerebras, Enflame, Biren, Fractal, CXMT, Kioxia, Corsair, Anker
+  left out on others' findings (listed / Oppo-related).
+- Researched (opened a page): ~75 companies; MAIN + WATCH = 45. signals_checked: yes for 14 of 32 MAIN (most company newsrooms returned 403/404).
+
+SOURCES USED (names yielded)
+- en.wikipedia List of semiconductor fabrication plants (~200 operators read; 97 checked into DISC, most listed or Russian; Nichia, JASM, Japan Semiconductor, Okmetic-type leads).
+- en/de/ja Wikipedia company articles (main research source; de.wikipedia was the most productive for Mittelstand revenue figures).
+- Company pages that opened: synology.com (company, news), qnap.com, pny.com (about, press releases), nichia.co.jp, efi.com, domino-printing.com news,
+  blackmagicdesign.com (company, offices), hmd.com press, meanwell.com (about, news), swissbit.com (company, news), tpv-tech.com.
+- Sites that refused or 404'd: excelitas.com, edmundoptics.com, bourns.com, heidenhain.com, laserline.com, markem-imaje.com, bambulab.com, jasm.co.jp,
+  sony-semicon.com, christiedigital.com news, nuflare.co.jp, utacgroup.com, sigma-global.com, kyoceradocumentsolutions.com, tokki.canon, sii.co.jp.
+
+SUBSECTORS / REGIONS COVERED
+- Sensors and instrumentation (Germany: Leuze, Krohne, VEGA, Heidenhain, PI, Mahr, ZwickRoell; WATCH Wenglor, Micro-Epsilon).
+- Power electronics and components (Bourns, PULS; WATCH Mean Well - ownership unconfirmed). Embedded computing (congatec). Electronics production equipment (Kurtz Ersa).
+- Semis/materials: Sony Semiconductor Solutions, Okmetic, Fujikin (UHP fluid control). Photonics: Thorlabs; WATCH Lynred.
+- Storage/PC hardware: Synology, QNAP, PNY, Dynabook; WATCH G.Skill, Palit, Swissbit, VAIO. Displays/projection: TPV (AOC), Christie.
+- Printers: EFI, Domino; WATCH Markem-Imaje; 3D printers Prusa (MAIN), Bambu Lab (WATCH).
+- Imaging/cinema: ARRI (new owner Riedel is an F1 partner - flagged), Hasselblad, Panavision, Leica Microsystems; WATCH Blackmagic, Sigma, Aputure.
+- Phones: HMD Global, Lava, Micromax (Micromax revenue figure looks doubtful - conf low). Car electronics: Pioneer (now Innolux/CarUX).
+- Regions: Germany/Europe and US/Japan/Taiwan well covered; India 2; China thin (most Chinese chip firms are listed, in master, or on the US Entity List);
+  Korea not reached (Hanwha Semitech, SK keyfoundry, SK Specialty not researched); Israel not reached (NeuReality, d-Matrix etc. only checked);
+  Middle East, Africa, Latin America: none found in this sector beyond HT Micron (Brazil, not researched).
+
+LEFT OUT WITH REASON (see DISC/DUPS)
+- Compliance: YMTC (US Entity List), Bitmain (subsidiary Sophgo on Entity List Jan 2025), Uniview (US sanctions bill over Uyghur surveillance).
+- Listed: Stemmer Imaging (Frankfurt), Hanwha Vision (KRX per Wikipedia). JASM and Japan Semiconductor: fab operators of TSMC/Toshiba without own commercial brand.
+- Below thresholds: Phase One (DKK 308m), Kenko Tokina (JPY 18.7bn), EVGA, Sapphire, Noctua.
+
+NOT REACHED / OUTSTANDING
+- NEW and unresearched: Excelitas, Edmund Optics, Laserline, Precitec, Light Conversion, NKT Photonics, Canon Tokki, NuFlare, UTAC, Carsem, Hanwha Semitech,
+  SK keyfoundry, SK Specialty, TCL CSOT, HKC, BYD Semiconductor, xFusion, New H3C, Arm China, Sanechips, Pragmatic, Black Semiconductor, ESMC, Prophesee,
+  NeuReality, d-Matrix, StarFive, Shokz, Bluetti, Hollyland, Zhiyun, Fifine, Wooting, Fairphone, Framework, System76, Noise, Coilcraft, Abracon, Heilind,
+  Sager, Master Electronics, Recom, Traco, Inventronics, Contrinex, Dewetron, IDS, MVTec, Allied Vision, Evident, Raith, Asys, Rehm, Göpel, Optris, Seasonic.
+- Many MAIN figures are older than three years (TPV FY2017, EFI 2019 deal, Domino 2015 deal, Pioneer FY2018, Dynabook 2019, ARRI 2021, Fujikin FY2022/3, Mahr 2021):
+  flagged in qualifying_metric. Mean Well and Swissbit meet a route but ownership was not shown on any page opened (kept in WATCH).
+- Nothing here is exhaustive.
