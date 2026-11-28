@@ -1,0 +1,40 @@
+r32_queue (batch 3, queue mode) - input in_q32.jsonl, 80 lines, all processed. 28 Nov 2026.
+Method: check.py on every name, plus names without legal suffix, websites, trading names and parents (Fust, Tourneau, Competec, Coop, Rolex, Fever, Schwan-Stabilo, Winix etc.).
+Then company site / Wikipedia (en, de, nl, es) / elEconomista company pages / PR Newswire. WebSearch: 0 used. Crunchbase: tried once, allowance exhausted (resets 1 Dec).
+
+RESEARCHED
+MAIN (26): Brack.Alltron, CUBE Bikes, Obolon, SCARPA, NOVA Entertainment, Fust (Swiss Household Services AG), Salt Mobile, Bucherer,
+ Ferrovie dello Stato Italiane (FS Group), Old Dutch Foods, Pan Pacific Hotels Group, Metro de Madrid, Ficosa, Valoriza Medioambiente,
+ Olymel, Vitens, Pentarch Group, FleetPride, Demiroren Group, flynas, Flender, Peet's Coffee, Phoenix Reisen, DICE,
+ Southern Shorthaul Railroad, SPAR Australia.
+WATCH (20): Rotary Watches, IMB Bank, Aidacare, Van Werven, Schwarz Etienne, New Town Toyota, DEAG (listing unresolved), Paranair,
+ Schoffel, Omaha Steaks, Bennett's Petroleum Supplies, Parata Air, Waste Harmonics, Deuter, Seafolly, Flexicare, Phenix Jet, P&N Bank,
+ Sekonda, Fortis Colleges and Institutes.
+
+FLAGS FOR THE USER (in the records' outstanding / category_conflict fields)
+- flynas: Wikipedia (edited 23 Nov 2026) calls it private, but Saudi Exchange and flynas IR pages refused; listing MUST be verified before use.
+- FS Italiane: subsidiary Trenitalia is already on the master. Fust: parent Coop Group is on the master. Bucherer: owned by Rolex (Rolex on master as Left Out).
+- DICE: parent Fever is a current F1 partner (included and flagged, per brief).
+- Vitens and Metro de Madrid are publicly owned enterprises with revenue; kept in MAIN with low fit; user may treat as not commercial prospects.
+- Demiroren: political/media sensitivity noted in compliance. Southern Shorthaul Railroad: July 2026 safety accreditation suspension.
+- Several Route C records rest partly on Clay employee counts (FleetPride, Flender, flynas); Ficosa revenue figure dates from 2008.
+
+LEFT OUT (DUPS, 27)
+- In master / alias: Festo, Fidia Pharma, Forum by Nowy Styl, Forvis Mazars (x2).
+- F1 partner brand: Schneider Electric Espana, Heineken Espana, Viajes El Corte Ingles (El Corte Ingles brand), DAZN (F1 broadcaster Spain; Madring collaborator).
+- Listed: Accenture, Pakistan International Airlines (PSX: PIAHCLA), Sea-Gull (Tianjin Seagull, public since 2000).
+- Not a separate company: Coca-Cola HBC Schweiz, Tech Data (Schweiz), Corteva Agriscience Australia, Fenjiu Australia, FEMSA Salud Chile,
+  Goa-Invest (Inditex vehicle), Norbega (CCEP entity), EDP Clientes, illion (now redirects to Experian).
+- Merged/closed: Waste Industries (GFL 2018), Forever 21 (US operator liquidated 2025; brand licensed by Authentic).
+- Not a commercial prospect / not a company: Federazione Italiana Nuoto, Federico Garcia Lorca Belgica (school), fifa18 (fan site).
+- Compliance: Patanjali Ayurved (Supreme Court ad ban and contempt finding 2024) - otherwise eligible; user may override.
+
+NOT RESEARCHED (no usable page could be opened; 7)
+- Femkol Engineering Limited (Clay: 3 employees, free page-builder site; Clay bracket implausible).
+- Firestone Airide (firestoneairide.com, firestoneip.com, bridgestoneamericas.com all 403; no Wikipedia article).
+- Wasteman (wasteman.co.za is a placeholder page; about page 404).
+- FMG (fmg.com.cn shows only the name 广州时尚动势投资控股有限公司; business not identifiable).
+- OzCar (ozcar.com.au 403).
+- E&A Limited (eandagroup.com.au placeholder; no Wikipedia article).
+- N G P Lorimer (domain does not resolve; not identified).
+Hosts that did not resolve: www.shs-schweiz.ch, www.schwarz-etienne.com, www.lorimer.com.au, www.ngplorimer.com.au.

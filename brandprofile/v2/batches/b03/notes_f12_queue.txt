@@ -1,0 +1,37 @@
+f12_queue (batch 3, queue mode) - 28 Nov 2026
+INPUT in_f12.jsonl: 80 lines, all checked with check.py (name, name | website, name without legal suffix, English/brand form).
+WebSearch not used (limit 0). WebFetch only.
+
+RESEARCHED - MAIN (33): Orpi; Ciab; Cafel; Comptoir Agricole; Namet; Medicana Health Group; Koluman; Avek Otomotiv; Ekin Maden;
+Istanbul Jet; ATÜ Duty Free; Stephenson's Rental Services; Lou-Tec; Red-D-Arc; Lambertsson; Roberts Oxygen Company; Field Fastener;
+Nimble Robotics; Space Labs; Clearway Energy Group; CNR (Compagnie Nationale du Rhône); Accell Group (in suspension of payments, flagged);
+Nyrstar; NIRAS (Danish engineering firm; the input Trends figure looks like the Belgian agency ONDRAF/NIRAS and was not used);
+STAR Group (Swiss language services; Clay website engagestar.com is a different US company); CIEL Textile; Classic Fashion Apparel Industry;
+Cogir Real Estate; City+Ventures (revenue figure from 2020); Reconext (formerly Clover Wireless); Circet (group, added from the Circet IRE & UK row);
+Alstef Group; Evolua Etanol.
+Turkish financials (2024 and 2025 net sales, EBIT, employees) come from the Fortune 500 Türkiye company pages.
+
+RESEARCHED - WATCH (4): Charlotte Pipe and Foundry Company (only Clay bracket); CoBe Capital; Commonwealth Plywood Ltd.; Conestoga Wood Specialties.
+
+LEFT OUT - DUPS (24):
+ duplicates of master: CeramTec; Organizações Globo (Grupo Globo); Concierge Sales Total Wine & More; Ciner Glass Belgium (Ciner Group).
+ listed: Motiva (ex-CCR); Eneva; CBD (GPA).
+ not a separate company: Compass Group India; Compass Group Spain; Sofra (Compass Group Türkiye); BASF (Brazil); Copel Distribuição; COELBA (Neoenergia);
+   Finning rental; Carrier Rental Systems; Circet IRE & UK; Chef&Sommelier (Arc brand); Sunny Group (Sunny Optical, listed); Jiuli Group (holding of listed Jiuli).
+ merged / ceased: CH2M (Jacobs, 2017); Haomo.AI (domain redirects to unrelated site; requires verification).
+ not a commercial prospect: coffe shope (not a company); Chintya Company; ColdMetalFusion (alliance).
+
+NOT RESEARCHED (20) - no page could be opened:
+ Chinese ACFIC top-500 groups: Shandong Jinling Group; Sichuan Quxin Technology Group; Yongdao Holding Group; Jiangsu Xugang Steel Group;
+   Shanxi Jinnan Iron and Steel Group; Yidian Holding Group; Shanxi Jianbang Group; Shandong Shenchi Holding; Nantong No.4 Construction Group;
+   Jiangsu Sanmu Group; Shandong Bohai Industrial Group; Zhongzhe Holding Group; Shandong Jincheng Petrochemical Group;
+   China Construction Xin Holding Group; Zhongneng United; Chengdu QuanU Furniture.
+   Reason: Chinese company hosts returned 503 / did not resolve through the proxy (jinling.com.cn, jianbang.com, zhongzhe.com, xugang.com.cn,
+   shenchi.com, moqi.com.cn, quanu.com, cscec-xin.com, ntsj.com.cn); Baidu Baike returns no content; the ACFIC 2026 list page is an image.
+   All revenue figures exceed USD 9bn or so for the 2026 list rows: worth a run with access to Chinese sites.
+ Robotics unicorns: Genki Robotics (no site found), Moqi Intelligent Technology (site 503), SHAREBOT (sharebot.com redirects to an unrelated EU project).
+ Mallory Safety and Supply (malloryco.com 503; mallorysafety.com not resolvable).
+
+Leads for a later run: Circet group owner; Arc (Groupe Arc, owner of Chef&Sommelier, NEW on check.py); Clover Technologies Group (NEW);
+Clearway and CNR shareholders; Namet possible IPO (prospectus section on corporate site, under construction).
+Scratch files only in scratch_f12/. All lines validated as JSON; no name repeats across files.

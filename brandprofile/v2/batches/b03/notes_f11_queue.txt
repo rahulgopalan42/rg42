@@ -1,0 +1,38 @@
+f11_queue (batch 3, queue mode) - 28 Nov 2026
+INPUT: in_f11.jsonl, 80 lines. WebSearch: 0 used (WebFetch only). Helper script and scratch PDFs in scratch_f11/ (no web pages saved).
+check.py run on every input name with and without website, then on names without legal suffix / English forms / brands / parents
+(e.g. Busch Group, Natera, Groupe COC, Domtar, Gausium, Liberty Caribbean). Final re-check of all written names: all NEW except
+Martin Supply (POSSIBLE Marti Holding = different company).
+
+RESEARCHED - MAIN (45): Skyroot Aerospace; Enerjisa Üretim; Busch Vacuum Solutions (Route C); Burgo Group (revenue 2017 only);
+nexAir; Edges Electrical Group; Granite City Electric Supply; Loeb Electric; United Electric Supply; Martin Supply; Motion & Flow
+Control Products; Schaedler Yesco Distribution (FY2021 figure); C.A.T. Group; Uperio; Flannery Plant Hire; Peinemann Mobilift;
+Collé Rental & Sales; Prospérité Fermière; Terra Lacta; Groupe COC (ex Centre Ouest Céréales); Natera (Unicor+CAPEL merger);
+Atol les Opticiens; Groupe Lorca; Domtar (found via Catalyst Paper line; Paper Excellence folded Catalyst into Domtar in 2024);
+California Dairies (C); Cambria (C); Cardinal Glass Industries (C); Carter Lumber; Calçados Beira Rio (C); CBSI (C);
+Ceramika Paradyż (C); CCI Systems (C); TGS Yer Hizmetleri; Türkşeker (state); Limak Çimento; Sakarya Elektrik Perakende Satış;
+Tatmetal Çelik; Gausium (ex Gaussian Robotics); DeepBlue Technology; Walden Robotics; Sunday Robotics; Black Lake Technologies;
+Acolad Group (now part of RWS, own brand kept); Landesmesse Stuttgart (state/city owned; revenue sources conflict 228m vs 130m);
+Xiangchi Holdings.
+Strongest F1 fits (honest ratings): Gausium, Busch, Domtar, Cambria, Calçados Beira Rio, C.A.T. Group, Skyroot, Walden.
+Most US distributors, French co-operatives and Turkish utilities qualify on revenue but rate low on fit.
+WATCH (3): Canada Metal Processing Group (only Clay bracket for its own scale), Cellairis, Cellular World (Clay brackets not supported).
+
+LEFT OUT - DUPS (19): F1 partner brand: Komatsu Rental. In master / delivered: Lar Cooperativa, Campofrio, Castel Malesan, CASTEL-Vins,
+CELSA Huta Ostrowiec (Celsa Group), Mapotel Best Western (Best Western). Listed: CITI (Citigroup), BANRISUL, KLABIN, AZUL, REDE ENERGIA.
+Not a separate company: BTG Pactual Commodities, Centrica Business Solutions, Canon Vietnam, Cable & Wireless Communications
+(now Liberty Caribbean), XCMG rental. Merged away: Catalyst Paper (-> Domtar). Not a commercial prospect: İSPER (Istanbul
+municipality personnel company).
+
+NOT RESEARCHED (14) - no page could be opened (Baidu Baike blocked, ACFIC list is an image, sxhhy PDF 503, guessed domains failed):
+Tianjin Huabei Group; Zhejiang Jianhua Group; Jincheng Iron and Steel Holding Group; Dehua Group Holding; Xinghua Wealth Group;
+Zhejiang Zhengkai Group (zhengkai.com DNS failure); Shengxing Group; Dare Technology Group (dare.com.cn 503); Fujian Jinlun Fiber
+(jinlun.com DNS failure); Shandong Dongfang Hualong; Dongying Yatong Petrochemical; Huaqin Rubber Industry Group (huaqin.com is
+Huaqin Technology, a different, HK-listed company); Jiangyin Jinqiao Chemical; Morphic Robot (morphic.ai does not resolve;
+CB Insights refused). Note: Dehua TB and Dare Power Dekor are listed subsidiaries; their parent groups need a listing check.
+Hosts that did not resolve: www.uperio.com, uperio.eu (found uperio-group.com instead), www.morphic.ai, www.dare-group.com,
+www.huaqinrubber.com.
+
+GAPS: many revenue figures are 2022 or older (co-operatives 2022, Burgo 2017, Schaedler Yesco 2021); ownership unverified for nexAir
+(site says family-built, Anglera says subsidiary), Uperio, Peinemann, Collé, CBSI, Tatmetal, SEPAŞ; dated signals scarce because
+many news pages carry no dates; Atol, Edges, United Electric and Burgo sites refused (signals_checked "no").
