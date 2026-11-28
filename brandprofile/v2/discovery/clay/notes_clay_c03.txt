@@ -1,0 +1,51 @@
+clay_c03 (batch 3, MODE clay, deeper paging, country line) - 28 Nov 2026
+Countries: Thailand; Malaysia; Singapore.
+Filter on every query: locations.any(country_name = "<country>" and is_headquarters = true)
+  and company_type in ("Privately Held","Partnership","Self Owned"); no industry filter.
+Search tools only (search-companies, load-more-search-results); no enrichment, no render, no WebSearch.
+Page caps for a country line: P1=3, P2=2, P3=2. 19 pages read, 336 rows saved (rows appended after every page).
+
+Query                                          pages  rows  hasMore at stop
+Thailand HQ | 1B-10B,10B-100B,100B-1T           2      40    false (COMPLETE after page 2)
+Thailand HQ | 500M-1B                           2      40    true  (unfinished, stopped at P2 cap)
+Thailand HQ | 200M-500M                         2      40    true  (unfinished, P3 cap)
+Malaysia HQ | 1B-10B,10B-100B,100B-1T           3      56    false (COMPLETE: page 3 had 16 rows)
+Malaysia HQ | 500M-1B                           2      40    true  (unfinished, P2 cap)
+Malaysia HQ | 200M-500M                         2      40    true  (unfinished, P3 cap)
+Singapore HQ | 1B-10B,10B-100B,100B-1T          2      40    true  (unfinished: stopped after 2 of 3 pages to save context)
+Singapore HQ | 500M-1B                          1      20    true  (unfinished: 1 of 2 pages)
+Singapore HQ | 200M-500M                        1      20    true  (unfinished: 1 of 2 pages)
+
+Not reached: Singapore P1 page 3, Singapore 500M-1B page 2, Singapore 200M-500M page 2 (context budget).
+Thailand and Malaysia 500M-1B and 200M-500M still had more pages at their caps. A later run can resume with the same queries.
+
+disc_check.py result (336 rows): NEW 230, IN MASTER 41, ALREADY DELIVERED 21, POSSIBLE 30, LISTED 10, F1 PARTNER 4.
+By country: Thailand NEW 82 / Malaysia NEW 102 / Singapore NEW 46.
+F1 PARTNER flags: PETRONAS, PwC Malaysia, Crypto.com, PwC Singapore.
+
+Observations for the research step (from Clay descriptions only, not verified):
+- The Clay company_type tag is unreliable. Rows that describe themselves as listed or as units of listed groups include:
+  MR DIY Thailand (SET: MRDIYT since Nov 2025), Betagro and Charoen Pokphand Foods (PCL), Thai Foods Group, Siamgas, TTCL,
+  TOA Paint, IOI Properties, Wasco (KLSE), Bermaz Auto, JCY HDD (JCY International, Bursa), FamilyMart MY (QL Resources),
+  Kibing (SSE), Jingxing Paper (SZSE), Shopee (Sea, NYSE: SE), Resorts World Sentosa (Genting Singapore), Keppel O&M,
+  Ascott (CapitaLand Investment), NCS (Singtel), American Standard (LIXIL), Mapletree (manages listed REITs), Integra R.E. (Tai Sin).
+- Many rows are national units of foreign groups (Toyota/Honda/Isuzu/BYD Thailand, Mitsubishi Electric TH, Hikvision TH, AVL,
+  Katoen Natie TH, Servier TH/MY, Watsons TH/MY, Boots TH, Starbucks TH, McThai, KFC SG, KPMG/PwC/Crowe/Baker Tilly,
+  Hilti/Rittal/SEW/B. Braun/Turck Banner MY, Bosch ASEAN, Tokyo Electron SG, Bridgestone AP, Crown, Securitas SG, Dentons Rodyk):
+  apply the national-entity rule.
+- Junk or mis-tagged rows to drop: Hospitality Information & Jobs Vacancies, Software Outsourcing (abc.de), Terux-s, Wordold,
+  AU Gold and Diamond (4LUTIONS), lottery reseller, Trader, Hengxin Sports, BNI Quantum, Bloconomic 2018, EV Academy, eV TEC,
+  Family and Kids, Unique Victory Matrimonial, DTmediaz, Staff Connect, CBS Business Solutions, BUKUDBP, Imperial Sapphire,
+  Kitchen Story, SuperLife pages, SDARA alumni, Pudur Corporation (unverified claims), Oil and Gas Industry (community page),
+  Confidential Career Shoutout, Asia Tech x Singapore (event), in-cosmetics Asia (event), TOSTEM (wrong description).
+- Promising unlisted / subsidiary-with-own-brand names for research (Clay text only): Thai Summit Group, Central Group,
+  King Power, The Mall Group, Boon Rawd / Singha, Mitr Phol, TRR Sugar, Siam Motors Group, RMA Group, Thonburi Group,
+  CR3, Dextra, East-West Seed, Jaspal, SSUP (Oriental Princess), Jim Thompson, NaRaYa, LINE MAN Wongnai, Cobra International
+  (composites for European automotive brands), Metthier, Saha Farms, Golden Foods Siam, SB Furniture, Jorakay;
+  Malaysia: Proton (DRB-HICOM/Geely), PETRONAS Lubricants (already F1 via Mercedes: check), UEM / PLUS, Mydin, 99 Speedmart,
+  QSR Brands, Loob (Tealive), MAMEE, Julie's, Valiram, HABIB, Senheng, Coway MY, Evolution Wellness, YTY gloves, Edra Power,
+  Hong Leong Group, MBf Holdings, Pacific Inter-Link, Sunway Healthcare, IQI Global, Golden Screen Cinemas, TGV;
+  Singapore: Trafigura, RGE/APRIL, BW Group, PSA International, Ocean Network Express, Synergy Marine, Eastern Pacific Shipping,
+  Thome, Indorama Corporation, Tolaram, Musim Mas (ICOF), Getz Group, SJ Group, Aden, UTAC, ENNOVI, Dyson, SHEIN, Lazada,
+  Straive, International SOS, Zuellig Pharma, Vistra, IBS Software, LUXASIA, Charles & Keith, Traveloka, Klook, Carousell,
+  BIGO, Novotech, Esco, Q Collection.

@@ -1,0 +1,40 @@
+NOTES - t16_telecom_ops (batch 3, sector mode), 28 Nov 2026
+Scope: telecom operators, towers, fibre, satellite, cable, ISPs, MVNOs in Middle East, Africa, Asia, Latin America, Eastern Europe, North America.
+WebSearch used: 0 (limit 1). Wikipedia was rate-limiting: most article downloads after the first ~35 returned "Wikimedia Error"; the download loops were stopped.
+
+SOURCES (names extracted)
+- Wikipedia "List of mobile network operators in Asia and Oceania" (raw wikitext): operator tables parsed  } together 574 rows,
+- Wikipedia "List of mobile network operators in the Middle East and Africa"  } 398 distinct names
+- Wikipedia "List of mobile network operators of the Americas"               } (all in DISC with subscribers/ownership as listed)
+- Wikipedia "List of mobile network operators in Europe": not retrieved (rate-limited) -> Eastern Europe covered from own candidate list only.
+- Analyst-generated candidates (towers, fibre, satellite, cable, MVNOs, state operators, Japanese utility telecoms, Eastern Europe/Central Asia): ~260 names run through check.py.
+- Company pages opened for research: telekomsrbija.com, altafiber.com/news, sasktel.com news + annual results, gtd.cl (shareholders, corporate info), gtdcompany.com, arteria-net.com, optage.co.jp (profile + press RSS), ctc.co.jp (profile, sponsorship), enecom.co.jp, qtnet.co.jp (recruit infographics), telecelgroup.com, azercell.com, bakcell.com, lifecell.ua, one.hu press room, antel.com.uy (FY2025 financial statements PDF, press releases), midco.com, ri.algar.com.br (3T26 results PDF), eshailsat.qa, virginmobile.sa, dlive.kr finance page, zong.com.pk, ukrtelecom.ua, hotnet.co.jp, itscom.co.jp, stnet.co.jp, lumosfiber.com, firstlight.net; Wikipedia articles (downloaded before rate limit) for Telekom Srbija, Azercell, Bakcell, Ucell, Vodafone Ukraine, One Hungary, Play, Korek, Consumer Cellular, Eastlink, Comporium, Armstrong, Midco, Xplore, Hormuud, HOT, MEASAT, altafiber, Algar Telecom, ARSAT, Nayatel and others.
+- Sites that refused or gave no content: vodafone.ua (rejected), neqsol.com (503), tawal.com.sa (503), consumercellular.com and eastlink.ca (403), iliad.fr and play.pl (JS only), united.group (news JS; investor site behind login), cspire.com, hormuud.com, salam.sa, ucell.uz, cnt.com.ec, ntplc.co.th, plniconplus.co.id, 10099.com.cn (China Broadnet), measat.com, hgc.com.hk, kbro.com.tw, sky.com.br, ligga.com.br.
+
+COUNTS
+- DISC lines: 607 (398 from Wikipedia lists, rest analyst/other pages). Run through check.py: ~650 names incl. variants.
+- check.py results across DISC: NEW 502, POSSIBLE 40, IN MASTER 28, LISTED? 19, ALREADY DELIVERED 13, F1 PARTNER 5.
+- DUPS: 78 (IN MASTER, ALREADY DELIVERED, F1 PARTNER, listed same company, and aliases: Glo=Globacom, Vinaphone=VNPT, Starlink=SpaceX, Yas/Telma=Axian, Cassava=Liquid parent, edotco, NTT East/West, Docomo Business, PPF Telecom Group, DirecTV LatAm, Lebara KSA, SoftBank).
+- Note: many NEW list names are in fact listed companies (e.g. Telstra, Globe, AIS, Maxis) that check.py did not flag; they were not researched and are not claimed as eligible.
+- Researched and written: MAIN 19, WATCH 12 (31 records).
+  MAIN by region: Japan 5 (OPTAGE, QTnet, ARTERIA Networks, Enecom, Chubu Telecommunications); North America 5 (altafiber, SaskTel, Midco, Consumer Cellular, Eastlink); Latin America 3 (Algar Telecom, Antel, Gtd); Eastern Europe/Caucasus 4 (Telekom Srbija, One Hungary, Azercell, Bakcell); Africa 2 (Telecel Group, Hormuud Telecom).
+  Route A: 9; Route C: 10. signals_checked yes: 13 of 19 MAIN.
+- Left out besides dups: Korek Telecom (Iraqi regulator ordered asset seizure and began dissolution, Nov 2026); names already in other batch 3 task files or queues (Nilesat, Hispasat, Hughes, Cell C, Safaricom, MTN Group, Djezzy, Mobilis, Inwi, Jazz, Ncell, U Mobile, Tigo, WOM, DITO, Jio, V.tal, SK Broadband, Summit Digitel, Protelindo, Vertical Bridge, Cox, Videotron etc.).
+
+QUALITY FLAGS
+- Eastlink revenue is 2010 (old); altafiber latest revenue 2020 (old) but Route A also met by the 2021 USD 2.9bn acquisition value.
+- Antel revenue is in UYU (not in the fixed-rate table): usd_m left null.
+- Hormuud employee figure is 2021; Somalia operating environment flagged.
+- Gtd ultimate owner behind Inmobiliaria e Inversiones El Coigue (99.39%) not identified.
+- Azercell: check whether it already supplies the Baku City Circuit before outreach.
+- One Hungary backs F3 driver Martin Molnár (Prema) - strongest motorsport signal found in this run.
+
+NOT REACHED / OUTSTANDING (honest gaps; nothing here is exhaustive)
+- Fewer than the 45-record target: Wikipedia blocking and JS-only operator sites made sourced financials hard to obtain.
+- Middle East: Salam Mobile, TAWAL, Zain Iraq, Vodafone Oman, Awasr, Kalaam, Golan Telecom, Dawiyat not researched (sites failed or not reached). Es'hailSat and Virgin Mobile ME&A in WATCH pending ownership.
+- Africa: T2/9mobile (Nigeria), Mascom, Zamtel, Camtel, Tmcel, Telesom, Maziv/Vumatel, MetroFibre, Dark Fibre Africa, Telecom Namibia not researched.
+- Asia: China Broadnet, National Telecom (Thailand), PLN Icon Plus, Vietnamobile, Hutch Sri Lanka, Nayatel, Wateen, Excitel, Kbro, MyRepublic, HGC, PCCW Global, Mobicom/Unitel Mongolia, BIGLOBE, Sony Network Communications, TOHKnet, STNet, iTSCOM not researched or no figures found.
+- Eastern Europe/Central Asia: United Group, Play (Iliad), Plus/Polkomtel, Yettel (Bulgaria/Hungary/Serbia), CETIN, Vodafone Ukraine (folded into Bakcell), Uzmobile, Mobiuz, Tele2/Altel Kazakhstan, Moldcell, Netia not researched for lack of opened financial pages.
+- Latin America: ICE/Kölbi, CNT Ecuador, Entel Bolivia (annual report is slide images), ARSAT, Copaco, Ligga, Sky Brasil, Altice Dominicana, Cable Onda, Transtelco, WIN Peru, Mundo, Netlife not researched.
+- North America: C Spire, Lumos, ExteNet, Everstream, FirstLight, Allo, Diamond, Tillman, US Mobile, GFiber (sister of F1 partner Google), Ligado (distress) not researched.
+- Tower-company rankings and GSMA member lists not opened.
