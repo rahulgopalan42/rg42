@@ -59,3 +59,8 @@ launched: u05_asia_subs | finished: r18 (32/26). BUILD NOTE: some queue MAIN rec
 launched: r22_queue | finished: t43_creator_consumer_apps (42 main, 5 watch, 97 disc). F1 CHECKS before delivery: Gopuff (McLaren 2022, confirm ended), Kick (ex Sauber title partner; parent Easygo on master), DICE (parent Fever is an F1 partner)
 launched: t50_gapfinder_b | finished: r19 (24/20)
 launched: clay_i08 | finished: k17_china_a (18 main, 276 disc; Wikipedia, Wikidata and Baidu Baike refused or rate-limited; 88 ACFIC names not reachable; ~55 unlisted parents of same-brand listed companies left out)
+launched: s09_signals | finished: s07_signals (40: 24 with signals, 16 none)
+launched: k24_turkey | finished: t44_datacentres_infra (26 main, 20 watch, 231 disc)
+launched: t02_ai_cloud_cyber | finished: t45_b2b_services_niche (33 main, 19 watch, 458 disc)
+launched: r23_queue | finished: r20 (26/18)
+launched: s10_signals | finished: u04_europe_subs_b (45 main, 5 watch, 331 disc). OPEN QUESTION FOR THE USER: Sephora and Charlotte Tilbury left out because they hold F1 Academy deals; does F1 Academy count as a current F1 deal?

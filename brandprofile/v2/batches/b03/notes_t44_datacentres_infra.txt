@@ -1,0 +1,37 @@
+t44_datacentres_infra - batch 3, MODE sector - 28 Nov 2026
+Scope: data-centre developers/operators, GPU clouds, fibre backbone and subsea cables, edge, power and cooling suppliers, modular DC, infrastructure-fund platforms.
+
+COUNTS
+- MAIN 26 (Route A 12, Route C 14); WATCH 20; DUPS 156; DISC 231 lines.
+- DISC check results: NEW 186, IN MASTER 31, ALREADY DELIVERED 6, POSSIBLE 6, LISTED 1, F1 PARTNER 1 (further listed/F1/master names are in DUPS only).
+- DISC stages: researched 46, left out 61, not researched 124.
+- About 330 names run through check.py in 8 calls (operators, fibre, power/cooling, contractors, funds, clouds, aliases/domains of written records).
+- signals_checked = yes on 24 of 26 MAIN records (Telehouse and EXA: newsrooms unreadable / undated -> "no").
+- WebSearch used: 1 of 1 (extended search for data-centre operator rankings).
+
+SOURCES (names yielded)
+- colocationcompare.com (73 operators with ownership notes) - 73; operator profiles used for TierPoint, Pure DC, Green Mountain, Novva, nLighten, Nabiax, Gulf Data Hub.
+- dcmarketinsights.com operator directory, ranks 1-200 read (of 615) - about 200 names, ~70 put in DISC (hyperscalers, Russian operators and tiny pipelines skipped).
+- ABI Research Top 25 US data-centre companies 2025 - 25.
+- Wikipedia: Category:Data centers (7), Data centre industry in India (about 15), company articles (Compass, CoreSite, Telxius, Telehouse, Leaseweb, Hurricane Electric, CityFibre, Astound, Consolidated/Fidium, GTT, GIP, Interxion, Infratil, Southern Cross, Hawaiki, Aqua Comms, Everllence, Rolls-Royce Power Systems, Solar Turbines).
+- Company sites/newsrooms (one or two fetches each) for every researched company; Baker McKenzie GDH/KKR note; Aermont/Asterion Nabiax press release (PDF).
+- Many names in DISC came from my own candidate lists run through check.py (source field says so); they were not read off a list page.
+
+REGIONS AND SUBSECTORS COVERED
+- Operators: US, Canada, UK, Ireland, Nordics, Spain, Portugal, Netherlands, India, Australia, Singapore/Malaysia, UAE/Saudi, South Africa, Latin America.
+- Fibre/subsea: US regional and national, UK, pan-Europe, transatlantic, trans-Pacific, Latin America.
+- Power/cooling: UPS (Riello, Piller/Langley), engines/turbines (Everllence, mtu), transformers (SGB-SMIT, Virginia Transformer), cooling towers (EVAPCO).
+- GPU clouds: Lambda, TensorWave, Firmus; funds: GIP, Asterion.
+- Thin or not reached: China (Chindata site and wiki 404), Japan, Korea, Turkey, Africa beyond South Africa, modular DC makers, edge networks (Vapor IO, DartPoints), immersion/liquid cooling start-ups, contractors (most big ones IN MASTER).
+
+KEY JUDGEMENTS
+- WATCH holds 13 companies that show Route C indicators but whose owner I could not confirm on a page opened (TierPoint, Green Mountain, Segra, EdgeCore, nLighten, Start Campus, Gcore, Lightpath, YTL Data Center, SGB-SMIT, Virginia Transformer, Cirion, V.tal). They can move to MAIN once ownership is verified. Segra has a past Toyota Racing Development sponsorship.
+- Left out: Centersquare (NYSE: CSQR), QTS (already delivered; bare "QTS" returned NEW), NTT GDC (NTT in master), Hawaiki/BW Digital (BW Group delivered), Aqua Comms (now EXA), ODATA (Aligned in master), Scaleway (iliad delivered), Hyperstack (NexGen Cloud, F1), DataCrunch (= Verda, master), INNIO and ERock (investor sites suggest possible listing - unverified).
+- Parent F1 links recorded, not excluded: CityFibre (co-owner Mubadala), Everllence (VW/Audi), TensorWave (investor AMD), center3 (stc) and Core42 (G42) left in DISC unresearched.
+- Riello UPS sponsors Andretti Global (IndyCar) and Ducati - strongest motorsport signal found. CDC Data Centres sponsors Sydney Sixers/Thunder (BBL) and cycling. CtrlS supports Indian athletes. Langley Holdings backs TP52 sailing (Team Gladiator).
+- Weak points: Rolls-Royce Power Systems figures are 2010/2013; Telxius qualifying transaction 2017; CoreSite figures 2019/2021; Langley revenue currency/period not on homepage; CityFibre revenue figure looks inconsistent.
+
+NOT DONE / GAPS
+- 124 DISC names not researched, including Novva, H5, Evocative, US Signal, Element Critical, 365 Data Centers, KIO Networks, Elea, BDx, DataVolt, Moro Hub, Open Access Data Centres, Tract, PowerHouse, CloudHQ, Related Digital, eStruxture, QScale, EcoDataCenter, Lefdal, Everstream, Metronet, FirstLight, Lyntia, Deutsche Glasfaser, Community Fibre, Netomnia, Contabo, Zenlayer, Genesis Cloud, Evroc, Submer, LiquidStack, Iceotope, Rehlko, Nortek Air Solutions, contractors and fund managers.
+- Sites refused or unreachable: Infratil (403), Rehlko (403), Contabo (403), Metronet (403), INNIO investors (403), madison-industries.com and rielloelettronica.com and cupertinoelectric.com (host not resolvable in this session), several 404/503s (Novva, TierPoint newsroom, Hitec, Salute, BDx, AIMS, Everstream, Cirion about page).
+- Not exhaustive.

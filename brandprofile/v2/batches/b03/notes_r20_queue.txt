@@ -1,0 +1,28 @@
+r20_queue (batch 3, queue mode) - input in_q20.jsonl, 80 lines, all checked. WebSearch: 0 used (limit 0). WebFetch only.
+check.py run on all 80 names plus ~110 aliases / suffix-stripped variants / parent names.
+
+RESEARCHED - MAIN (26): DNB Carnegie (A, transaction USD 1.14bn), Carnival UK / P&O Cruises & Cunard (A, P&O revenue USD 3.96bn), Tote Group (C),
+MOZA Racing (C), IDE Technologies (C), The City School (C), SambaNova Systems (A, USD 11bn valuation), Beacon Hill Staffing (A, "$1b+" self-stated),
+Affinity Education (A, FY21 IBISWorld), WestLotto (A, FY2016 revenue), Iguá Saneamento (C), Triple Five Group (C; compliance flag), Sanitas (A, EUR 2.9bn;
+parent Bupa delivered b01), Faranda Hotels (C), Invicta Watch Group (C; owns Invicta Racing single-seater team), Goodline (A, FY22), Imdaad (C),
+Groupe Holder / PAUL (A, EUR 323m), Primary Wave (A, Kobalt USD 7bn deal; Kobalt delivered b02), Bluebridge/StraitNZ (B; NZD not in rate table, usd_m null),
+CoolDrive (A, FY22), Meat & Livestock Australia (A; eligibility as levy-funded industry body questionable), JJ Richards (C, weak), CalMac (A, state-owned),
+Only About Children (A, FY21; owned by Bright Horizons), Senacor (C).
+WATCH (18): Omniplex Cinemas, Gregory's, Palace Cinemas, Wplay, The Learning Experience, Fastjet (rev USD 64.9m), New Glarus, Jacob & Co, Buquebus,
+United Group Bangladesh (corruption/insider-trading probes), Guittard, Fergus Group, Jowissa, SCHILLER, Time Education, ttcInnovations, Nojorono (tobacco: blocked), NODWIN Gaming.
+Many revenue figures are IBISWorld 2022 list values (FY21/FY22, older than 3 years) - flagged in each record.
+
+LEFT OUT - DUPS (22): already delivered/in master: Bob Jane, Hummel, Granini (Eckes-Granini b02), IKEA Iberica, Castel Africa, Krono Holding (Swiss Krono),
+Mediclinic Switzerland, SCC France (Rigby Group in master). Listed: Muhak (KOSPI), CAVA (NYSE), CXMT (STAR, Jul 2026), Cenomi Retail (Tadawul), SEMES (K-OTC).
+Not a separate company / not commercial: Telefonica Audiovisual Digital, Telefonica Soluciones, Carrefour Argentina, Noblechairs (Caseking brand),
+Montana Tech Components (holding), TVS Group (umbrella of listed cos), Wesley Mission (church charity), CEA-Leti (research institute), Central Bank of Ireland.
+
+NOT RESEARCHED (14) - no page could be opened (404/403/503/DNS block):
+Salud Digna (site 503, wiki 404), T K Group of Industries (security check), Experience Kissimmee (403; likely a county tourism agency - probably ineligible),
+CASA (casawealth.org 403; Clay desc says "association"), Nakhla (site 503, wiki 404), Nine66 (503), Associated Retailers (domain not resolvable),
+CCI Global (403), Saudi German Hospital (503/404; operator may be listed Middle East Healthcare Co - check), Fashion Logistics Forwarders (domain not
+resolvable; likely Inditex logistics entity - check), Centro Universitário Senac (Sistema S, likely non-profit; host blocked), Yajuego (403),
+Procinal/Cineprox (page had no data), I-De Redes Electricas Inteligentes (503; Iberdrola's Spanish distribution grid - likely not separate).
+Hosts that did not resolve in this session: www.associatedretailers.com.au, www.fashionlogisticsforwarders.com, www.portalsenac.com.br.
+
+Signals: newsroom-equivalent page (Wikipedia history / company news) checked for 26 of 44 records (signals_checked yes); others "no".

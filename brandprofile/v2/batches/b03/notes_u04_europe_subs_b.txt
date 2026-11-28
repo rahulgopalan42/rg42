@@ -1,0 +1,62 @@
+u04_europe_subs_b (batch 3, MODE subsidiaries) - 28 Nov 2026
+Scope: independently branded subsidiaries of listed groups from France, the UK, Ireland, Italy, Spain and Portugal.
+
+COUNTS
+- MAIN 45 (Route A 35, Route C 10). WATCH 5 (Cunard, Davy, Free2Move, Tennent Caledonian, Aprilia).
+- DISC 331 lines (every name checked, deduplicated). DUPS 96.
+- check.py: about 380 names in 6 calls (some re-checked without legal suffix or under trading names).
+  DISC check results: NEW 229, IN MASTER 48, ALREADY DELIVERED 21, F1 PARTNER / F1 deal 15, POSSIBLE 13, LISTED 5.
+- Researched (page opened): 85 names; 50 written to MAIN/WATCH; the rest had no figures, a Wikipedia 404 or a redirect to the parent (see DISC "why").
+- signals_checked "yes" on 49 records: for most, the company's Wikipedia history / recent events served as the signals page; company
+  newsrooms opened for dunnhumby (dunnhumby.com/news), Rolls-Royce Power Systems (rolls-royce.com press releases) and CIMIC (homepage,
+  no dated items). "no" for IAG Cargo (iagcargo.com/news returned 403). 24 MAIN records have at least one signal since Dec 2024; 21 have none
+  because the pages showed none (not negative evidence).
+- WebSearch: 0 of 2 used. Clay and Crunchbase not used in this run (subsidiaries mode, web pages only).
+
+JUDGEMENT CALLS FOR THE USER
+- Sephora (F1 Academy official partner, Mar 2026) and Charlotte Tilbury (F1 Academy sponsor since 2024) were put in DUPS: F1 Academy is
+  run by Formula 1, so I treated it as a Formula 1 championship deal. Both are otherwise strong prospects (LVMH and Puig subsidiaries).
+  If the user does not count F1 Academy, move them back.
+- Left out as F1 deals found on pages opened: Aral (Audi F1 fuel supplier from 2026 via BP), Pennzoil (Haas official oil; Shell brand),
+  PokerStars (Red Bull Racing partner since 2021; current status not verified). check.py: Gucci, Oakley, Ray-Ban, Castrol, Reiss,
+  Optimum Nutrition, FanDuel. Chivas Brothers left out (owns Chivas Regal, a Ferrari partner). Minsait left out (Indra Group, listed by
+  check.py as an F1 partner). Santander-branded subsidiaries left out.
+- Aliases caught by hand: Ladbrokes (Ladbrokes Coral; Coral already delivered), Paddy Power (former name of listed Flutter), 888 (former
+  name of listed Evoke), Irish Ferries (main business of listed ICG), Zara (core of listed Inditex), GKN Aerospace (Melrose), Kingspan
+  Insulation (same name as parent).
+- Category conflicts recorded, not excluded: sister FanDuel (Sky Betting & Gaming, Betfair, William Hill), Ray-Ban/Oakley (Sunglass Hut),
+  EA licence (Gameloft), DHL / Qatar Airways (IAG Cargo), Heineken (Tennent's), BAT/McLaren (Reynolds American, to verify).
+
+SOURCES (names yielded)
+- Wikipedia group pages: Bouygues (7), Puig (19 brands), Compass Group (~40 brands; 13 to DISC), WPP plc (~25; 11 to DISC), RELX (8),
+  Smiths Group (4), Spirax Group (5), Air Liquide, Saint-Gobain, Carnival, IAG (via Avios redirect), Credit Agricole (via CACEIS redirect).
+- Own candidate list of group subsidiaries (France, UK, Ireland, Italy, Spain, Portugal), each checked with check.py (about 300 names).
+- Company Wikipedia articles (en; fr for Colas and APRR) for every researched company: URLs are in each record's sources.
+
+QUALITY CAVEATS
+- Many figures are old: Airgas FY2016, RR Power Systems FY2010, Tarmac 2010, Reynolds 2013, Finish Line 2013, Oldcastle 2006, APRR 2016,
+  EDP Brasil 2017, Fenner 2017, Medidata 2018, Capgemini Engineering 2018, Levy 2017; several Route A records rest on the parent's
+  acquisition price (Mead Johnson, Terminix, Booker, Thermo King 1997, Sky Betting & Gaming 2018, William Hill 2022, Bord Gais 2014).
+  Flagged in `outstanding`.
+- Listing status to confirm before delivery: Colas (Bouygues squeeze-out announced Sept 2023; fr.wikipedia shows 100% Bouygues but still a
+  ticker), EDP Brasil (delisting announced Mar 2023, completion not on page), APRR (minority buyout 2012).
+- Argos: Sainsbury's agreed sale to Swift Partners (Jul 2026), completion expected Feb 2027, so it will become a private company.
+- 407 ETR and APRR are joint ventures (Ferrovial/Cintra 48.29%; Eiffage-Macquarie).
+- Low natural F1 fit but qualifying: British Sugar, Fenner, Oldcastle, APRR, 407 ETR, Openreach, Alexion, Mead Johnson, Terminix.
+- Some websites taken from brand name rather than a page (Sky Bet: skybet.com; 407 ETR: 407etr.com; APRR: aprr.fr): flagged in outstanding.
+- Rolls-Royce Power Systems is headquartered in Germany but its parent is UK-listed; u03 (Germany) may also pick it up.
+
+NOT REACHED / NEXT
+- Wikipedia 404 or redirect, so not researched: Equans, Vinci Energies, Cobra IS (en and es), Tractebel, Epsilon, AXA XL, BoursoBank,
+  GrandVision, Fideuram, Encore Wire, PagoNxt, Ebury, Serasa Experian, Liquid I.V., Sonae Sierra, Chartwells, GCP, Zodiac Pool, Avios.
+  Equans, Cobra IS, Vinci Energies, AXA XL and Ebury are likely Route A: research next from their own sites or annual reports.
+- Researched without a route: LexisNexis, Twinings, Alpro, Byredo, Rabanne, Hachette Book Group, Kenwood, Watson-Marlow, CertainTeed,
+  Ash Grove, VDM Metals, CACEIS (custody, not AUM), Majorel (EUR 2.1bn revenue 2022 but may now trade as TP - not verified; not written),
+  London Luton Airport (low fit), General Cable (separate brand not confirmed), Evans Cycles (below thresholds).
+- Not reached: most Italian and Spanish candidates in DISC (Generali units, Mediobanca's Compass/CheBanca!, Enel X, Novamont, Dyckerhoff,
+  VidaCaixa, Cintra, Telefonica Tech, Mapfre USA, Riviana, Tilda, Inditex brands), Portuguese (Secil, Millennium bim, Banco CTT, Hebe),
+  Irish (Glanbia brands, C&C brands, Grafton chains, Ryanair's Lauda/Malta Air, Johnson Controls' Tyco/York, Allegion's Schlage),
+  Compass units (Restaurant Associates, Keith Prowse Corporate Hospitality - high F1 relevance, Bon Appetit, Crothall, Foodbuy), WPP agencies
+  (WPP Media, VML, AKQA, Grey, Hogarth, Landor, Mindshare, Wavemaker), RELX units (LexisNexis Risk, RX, Cirium, ICIS), Puig brands
+  (Penhaligon's, Uriage, Apivita, Dries Van Noten), Kering/LVMH units not on the master, Halma and other UK multi-subsidiary groups.
+  Not exhaustive.

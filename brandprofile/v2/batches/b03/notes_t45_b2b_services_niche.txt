@@ -1,0 +1,48 @@
+t45_b2b_services_niche - batch 3 sector researcher - 28 Nov 2026
+Scope: testing labs/TIC, industrial distribution, equipment rental, fleet management and telematics, workwear and textile services,
+pest control, industrial cleaning, vending and office coffee, document and data services, translation, exhibition organisers,
+loyalty and gift-card operators. WebSearch used: 1 of 1 (IRN100 rental ranking). All other pages via WebFetch.
+
+COUNTS
+- DISC: 458 lines (319 from list pages + 139 researcher candidate names run through check.py with no list page as source).
+- check.py results across DISC: NEW 353, IN MASTER 35, ALREADY DELIVERED 27, POSSIBLE 26, LISTED? 13, F1 PARTNER 4.
+  (check.py does not flag many listed renters, e.g. United Rentals, Ashtead, Herc, WillScot, H&E, Nishio, McGrath, Vp, HSS, Alta,
+  Mills, Armac: they remain "NEW / not researched" in DISC and must be treated as listed.)
+- Researched (stage "researched"): 90. MAIN: 33. WATCH: 19. DUPS: 90 lines.
+- Left out: EquipmentShare (Nasdaq IPO Jan 2026), Tarsus (now Informa), Diversey (part of Solenis, already delivered),
+  Atalian (founder-CEO convicted July 2024 of misuse of corporate assets/money laundering), Zeppelin (covered by t03).
+- Overlap with sibling files: Groupe Up is also in k01_france_benelux MAIN (deduplicate at merge). Athlon, Blåkläder, CWS,
+  Hoffmann Group, Merchants Fleet, Plusgrade, SMAS, Trackunit, Webfleet were skipped because other b03 researchers already have them.
+
+SOURCES (names extracted)
+- Nimdzi 100 (2026) https://www.nimdzi.com/nimdzi-100-2026/ : 100 language-service providers with 2025 revenue.
+- IRN100 2024 extended PDF https://www.internationalrentalnews.com/Files/Download/20250321-112946-IRN-2024-IRN100-Extended-JG-FINAL.pdf :
+  94 rental companies with 2023 revenue (ranks 60, 91, 92, 94, 95, 98, 99 not parsed from the PDF text).
+- de.wikipedia Messegesellschaft ranking https://de.wikipedia.org/wiki/Messegesellschaft : 10 German trade fair companies, revenue 2024.
+- European Vending Association full members https://www.vending-europe.eu/members/full-members-companies/ (pages 1-4): 81 names
+  (one page between "Micromic" and "N-and" may have been skipped).
+- Wikipedia categories: Pest control companies (4), Pest control companies of the US (6), Translation companies (36, not all written).
+- Failed or refused: PCT Top 100 (empty), RER 100 (404), Industrial Distribution Big 50 (403), TIC Council, ETSA, CEPA member lists (404),
+  Triton portfolio (DNS), groupe-onet.com and nikken-corp.co.jp (host not reachable from session), berner-group.com (429),
+  blackhawknetwork.com newsroom (403), rubix.com (403), toitoidixi.com (403), many Wikipedia titles not found.
+
+SIGNALS: newsroom or Wikipedia recent-history checked for most MAIN records ("signals_checked" yes on 31 of 33 MAIN; no for SOCOTEC,
+Blackhawk). Profitability recorded only where a page stated it (Koelnmesse, NürnbergMesse, Groupe Up, Lloyd's Register).
+HQ cities left blank where the page opened did not state them.
+
+ROUTES IN MAIN: A 20 (revenue / transaction / valuation), C 13 (employees, countries, sites, members).
+WATCH reasons: owner not stated on any page opened (InComm, Iyuno, Berner, GTÜ, Tentamus, Gurtam, Ikari, Modulaire, Maxim, Renta,
+TÜV Austria, Ali Group, Easyfairs, Clarion), stale data (IFEMA 2019 revenue; also check its role in the Madrid Grand Prix),
+not-for-profit or single indicator (NSF, La Marzocco, McMaster-Carr, BolognaFiere).
+
+GAPS / NOT DONE
+- Not researched: about 260 NEW DISC names, including most of IRN100 (Sunstate, Nikken, TOI TOI & DIXI, Monnoyeur, Mateco, TNT Crane,
+  Tat Hong, Adapteo, Riwal, GAP, Uperio, Taiyo Kenki, Holt Cat, Ring Power), Nimdzi (Sorenson, Propio, Welo Global, STAR Group,
+  Pixelogic, VSI, Dubbing Brothers, Global Talk, Datawords, thebigword, PTSGI, GienTech), EVA vending members (Evoca, Jofemar,
+  Bravilor, Rheavendors, Sielaff, Bianchi), pest control (Massey, Arrow, Aptive, Envu, Bell Labs), fleet/telematics (Platform Science,
+  Fleet Complete, Zonar, Teletrac Navman, Wheels), loyalty/gift (VR Benefícios, Alelo, Livelo, Prezzee, Ding, YouGotaGift, Tillo,
+  Ascenda, Kognitiv), Rubix, Border States, Kaefer, BrandSafway, Vebego, Hako, ImageFIRST, Lindström, Mascot.
+- Regions thin: China, Korea, India (beyond Moglix), Middle East (DWTC/ADNEC data not found), Latin America (Brazil benefits and
+  loyalty firms not reached), Africa none. Japan: Aktio, Ikari only.
+- Subsectors thin: industrial distribution (no list page opened), pest control (no ranking opened), document services.
+- No list or claim here is exhaustive.
