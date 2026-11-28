@@ -1,0 +1,52 @@
+k04_cee (batch 3, MODE country: CEE, Greece, Ukraine). Researcher notes, 28 Nov 2026.
+
+SOURCES USED (names extracted)
+- Coface CEE Top 500 Companies 2025 (17th edition, Nov 2025), PDF hosted at hrvatski-izvoznici.hr. Covers PL, CZ, HU, RO, SK, BG, HR, SI, RS, LT, LV, EE.
+  Turnover 2023/2024 (EUR m), net profit and employees per company. 494 of 500 rows parsed with pdfplumber, plus ranks 2 and 4 added by hand.
+  Some names came out garbled because the layout is multi-line; most were fixed by hand from the text layout (scratch_k04/fix.py), and about 6 remain "(unparsed name)".
+  Lowest entry EUR 708m, so every eligible company on the list meets Route A on revenue. Note: an asterisk in Coface means "consolidated", not listed.
+- en.wikipedia "List of companies of Greece" (first 100k characters only, about 210 names) and "List of companies of Ukraine" (84 names). These pages carry no figures.
+- Company pages, plus cs/pl/hu/hr/en Wikipedia articles, for the research.
+- Prague Stock Exchange share lists (prime, standard, free, start) and the Nasdaq Baltic share list, read 28 Nov 2026 to check listing status.
+- NOT reached: Czech Top 100, HVG/Figyelő Top 200, Rzeczpospolita Lista 500, TREND Top/Finstat (Cloudflare blocked them), Romanian, Bulgarian, Serbian and Croatian national lists,
+  Forbes Ukraine lists, and the Greek ICAP rankings. The Warsaw, Budapest, Bucharest, Zagreb, Ljubljana, Sofia and Belgrade exchange lists did not load in a usable form.
+- WebSearch used: 1 of 2 (it found the Coface PDF). Wikipedia API rate-limited most bulk requests, so pages were opened one at a time through WebFetch.
+
+COUNTS
+- DISC: 796 lines (494 Coface, 2 added Coface ranks, 300 Greece/Ukraine list names and researcher-added names). All of them went through check.py, with legal suffixes removed;
+  about 140 brand and alias names were also checked with their websites.
+- DISC check results: NEW 665, POSSIBLE 51, LISTED 37, IN MASTER 32, ALREADY DELIVERED 9, F1 PARTNER 2.
+- Many Coface NEW lines are national entities or plants of multinationals (VW, Kia, Lidl, Kaufland, Tesco, Samsung and others). They are left "not researched" with no judgement written.
+  Coface NEW lines that I believe are listed (Orlen, PGE, Tauron, LPP, Allegro and others) are marked "believed listed; not verified" and not researched.
+- MAIN 43, WATCH 2 (Seajets, Darnytsia), DUPS 150.
+- Three records were removed after I found them in other batch 3 files: Naftogaz (r26_queue), Rompetrol (t18_oil_gas as KMG International) and CCC (r22_queue).
+- MAIN by country: Ukraine 12, Poland 10, Czechia 4, Hungary 4, Greece 4, Croatia 3, Slovakia 2, Romania 1, Estonia 1, Slovenia 1, Lithuania 1.
+  MAIN by route: A 30, C 13. signals_checked = yes for 28 of 43 records.
+
+STRONGEST F1 CASES (by fit): Orbico Group (EUR 4.27bn distributor in 50 countries), Nemiroff (UFC and Premier League sponsor), XADO (motorsport lubricants),
+Nova Poshta (expanding in F1 host countries), Play, MOYA (new Stonepeak backing), Altex, x-kom, RTV Euro AGD, Kotsovolos, O2 Czech Republic, DTEK, monobank (USD 1bn valuation).
+
+CAVEATS
+- Owner not named on any page I opened: Farmacol, Plodine, Farmak, XADO (ownership_type "requires verification").
+- Parent is on the master: O2 Czech Republic (PPF) and Slovenské elektrárne (EPH, 66%). Both are written as separate subsidiaries with a note; the user should confirm they are acceptable.
+- Parent listing status not verified: Iliad (Play), Wanhua (BorsodChem).
+- No fixed UAH or RON rate in the brief, so UAH and RON figures are left unconverted. Most Ukrainian records use Route C.
+- Several records rely on dated Wikipedia figures (MVM, HSE, Gaz-System, Vivartia, Grecotel). Their age is flagged in "period" and "outstanding".
+- State utilities and railways (PSE, Gaz-System, SPP, HSE, MÁV, ČD, PKP Intercity, Ukrzaliznytsia) qualify but have weak fit and are rated accordingly.
+  Ukrzaliznytsia is in default and restructuring.
+- Compliance notes: Chipita (still operating in Russia), Kesko Senukai (stores in Belarus), WOG (shareholder dispute), BorsodChem (Chinese state influence flag).
+- Russian-owned companies left out: Lukoil Bulgaria and Neftohim, NIS and Yugorosgaz (judged from the names).
+
+NOT RESEARCHED (largest NEW candidates still open)
+- PL: Anwim done; still open are EME Aero, Grupa PSB, Specjał, Impel, Auto Handel Centrum Cichy, Plichta, Animex, PKP PLK.
+- CZ: ČEPRO (site 503), MND, DEK (site gives 2,300 staff and CZK 23.7bn 2024 turnover, but owner not stated; Vít Kutnar founded it), GECO, JIP Východočeská, Metalimex, CETIN (PPF), ČEPS, Moravia Steel (parent of TŽ).
+- HU: ODB, KITE, Market Építő, B+N Referencia, Vertis.
+- RO: Farmexim, Oscar Downstream, Spedition UMB, Tehnostrade, SA&PE Construct.
+- SK: Unipharma, Stredoslovenská energetika. BG: Technopolis (Videolux), Kozloduy NPP, Bulgargaz, Daphna, Buildcom, Bulcomers.
+- HR: PPD. SI: GEN-I, Impol, Geoplin. RS: Srbijagas, Nelt (site shows 11 markets but no owner).
+- LT: Sanitex (site 403), Darius Zubas Holding, Willgrow, MG Grupė, Acme Grupė, Norfos Mažmena. EE: Alexela/Elenger, Tavid, NG Investeeringud.
+- Ukraine: Rozetka, Ajax Systems, Nibulon, Energoatom, Ukrnafta, Ukrposhta, Motor Sich, Antonov, Sandora, Khortytsia, Bogdan.
+- Greece: Capital Maritime, Thenamaris, Dynacom and other shipping groups, Elpen, Melissa, Sky Express, Hellenic Duty Free, Lamda, Eskimo, Papastratos (PMI).
+- The rest of the Greek list page (characters after 100,000) was not read.
+
+FILES: k04_cee.jsonl, watch_k04_cee.jsonl, dups_k04_cee.jsonl, disc_k04_cee.jsonl. Scratch files are in batches/b03/scratch_k04/ (parsed Coface rows, check outputs, helper scripts).

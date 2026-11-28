@@ -1,0 +1,32 @@
+Batch 3, t19_agri (agribusiness, grain, meat/poultry, dairy, seafood, sugar, palm oil, seeds, crop protection, feed, farm co-operatives). Independent web research, 28 Nov 2026. MODE sector.
+
+SOURCES (names extracted into DISC)
+- World Cooperative Monitor 2025 (ICA/Euricse), Top 300 by turnover 2023, PDF https://monitor.coop/sites/default/files/2025-11/wcm_2025_final.pdf : 86 agriculture/food co-operatives taken, with turnover figures as printed (USD bn, FY2023).
+- Own candidate list (DISC source ""): 140 names across grain traders, US/EU/Asian meat and poultry, dairy, seafood, seeds, crop protection, fertiliser, sugar, palm oil, Gulf, India, Turkey, Africa, ANZ, Latin America.
+- Subsidiary names read off researched company pages: Boortmalt, Axiane Meunerie (Axéréal); Malteurop, Grands Moulins de Paris (VIVESCIA); Olymel, BMR (Sollio).
+- Could not open: Feed Strategy top feed companies and WATTPoultry top companies (both 403 - the task's named poultry/feed lists were therefore NOT used); Rabobank Dairy Top 20 not re-read (covered in batch 2). Many company sites 403/404/503 or script-rendered (COFCO International, Growmark newsroom, Vall Companys, ASR Group, Florida Crystals, Gowan, Beck's, Peco, Trident, Hilmar, Apical, Les Maîtres Laitiers, Central Valley Ag, NEW Cooperative, Maîtres Laitiers, Integrada, Alwatania). Some domains did not resolve from this session (suguna.co.in, beypi.com.tr - wrong domains; sugunafoods.com worked).
+- Wikipedia: raw-wikitext requests were rate-limited (background fetcher stopped after repeated errors); a few articles read via normal page fetch spaced out (National Beef, Koch Foods, Plukon, COFCO International, ANZCO, Enza Zaden, Hokuren ja, Fileni it, Nueva Pescanova es).
+- WebSearch: 0 of 1 used.
+
+CHECK.PY
+- Every DISC name run with website, without website, and without legal suffix; every MAIN/WATCH name re-run with website, aliases and suffix-stripped forms (all NEW except AMPI ~ 'Ampirical' = different company).
+- DISC 233 lines: NEW 128, IN MASTER 82, POSSIBLE 9, LISTED 8, ALREADY DELIVERED 6. Stage: researched 51, left out 105, not researched 77.
+- Left out after review: CHS (preferred shares trade on Nasdaq), Fonterra, Savencia, Dole, Fresh Del Monte, Agthia (listed); Lactalis (IN MASTER as Groupe Lactalis), Cutrale (as Sucocítrico Cutrale), Aurora Coop, Cooperl, Agrosuper, Cremonini, ElPozo/Grupo Fuertes, Nonghyup (NongHyup Bank delivered b02); Deutsches Milchkontor (merged into Arla, IN MASTER, from 1 June 2026); Koch Foods (established compliance problems - not a duplicate).
+
+RESEARCHED: 52 companies. MAIN 45 (Route A 30, Route C 15). WATCH 6. Left out after research 1 (Koch Foods).
+MAIN: GROWMARK, DLG, AGRAVIS Raiffeisen AG, AGP (Ag Processing Inc), Axéréal, Boortmalt, VIVESCIA, Cristal Union, Asociación de Cooperativas Argentinas, Sollio Cooperative Group, COFCO Corporation, Mountaire Farms, National Beef Packing Company, DLF Seeds, Koppert, Enza Zaden, Rovensa, Royal Greenland, Al Dahra, Plukon Food Group, Suguna Foods, Fileni, Czarnikow, ED&F Man Commodities, Barenbrug, California Dairies, American Crystal Sugar Company, Select Milk Producers, Agtegra Cooperative, MFA Incorporated, Foremost Farms USA, Felleskjøpet Agri, Landgard, Hokuren, Associated Milk Producers Inc, UFA Co-operative, RWA Raiffeisen Ware Austria, Molkerei Ammerland, Cooperativa Agroindustrial Alfa, RWZ Rhein-Main, NatUp, Nueva Pescanova, Asian Agri, ANZCO Foods, Bejo.
+WATCH: BioFirst Group (No revenue, employee or funding figures on pages read; Flori), Bom Futuro (Only one scale indicator found (farmland); revenue, employee), Scoular (No revenue/employee figures on the page; Wikipedia article n), Citrosuco (Ownership (believed Fischer and Votorantim, whose name is IN), Sovereign Foods (Owners, revenue and employees not stated; ranking inconsiste), Kenya Tea Development Agency (Revenue and employees not stated; news undated. Likely meets).
+Signals/newsroom page checked for 28 of 45 MAIN records (signals_checked yes); others marked no (newsroom script-rendered or not read).
+
+STRONGEST LEADS (fit, sponsorship history): Hokuren (sponsors Nippon-Ham Fighters, Consadole Sapporo, national ekidens; Japanese GP), Al Dahra (ADQ-backed, Gulf races), COFCO Corporation (state, RMB 589bn; compliance check needed), Czarnikow (USD 4.9bn; supplies F1-sponsoring drinks brands - not shown on page), RWA/Lagerhaus (Austrian GP), Sollio (Montreal HQ, BMR retail), Fileni (FIGC sponsor, deal ends ~2027), ANZCO (IRONMAN NZ title partner), Nueva Pescanova, DLF and Barenbrug (turf seed), Plukon (EUR 4bn).
+
+WEAK POINTS
+- 22 records rest on the World Cooperative Monitor FY2023 turnover (third-party report) rather than the company's own accounts.
+- Stale figures: National Beef revenue 2017; Nueva Pescanova revenue 2014 (route uses Route C instead); ANZCO 2016.
+- Ownership not fully itemised: Koppert, Rovensa, Fileni (requires verification - no listing found), RWZ (co-operative-owned AG assumed from WCM listing), RWA (BayWa stake not checked), Asian Agri (RGE ownership implied; RGE is IN MASTER), Nueva Pescanova (parent ABANCA IN MASTER; subsidiary rule applied).
+- Distress: DLG (2025 ReGen site closures, Enorm insolvency), Landgard (Chief Restructuring Officer).
+- Low-fit regional co-operatives are in MAIN because a route is met (Agtegra, MFA, Felleskjøpet, UFA, Select Milk, Foremost, American Crystal Sugar, AMPI); expect low scores.
+
+NOT REACHED
+- 77 NEW DISC names not researched, incl. Hilmar Cheese, House of Raeford, Peco, George's, Mar-Jac, American Foods Group, Clemens, Trident, Cooke, Riceland, Blue Diamond, Sunkist, Southern States, Agri-Mark, Landus, Central Valley Ag, NEW Cooperative, GreenPoint Ag, Producers Livestock, Heartland Co-op, Advitam, Scael, Les Maîtres Laitiers, Danish Agro, Kribhco, Integrada, Mlekpol-type East European co-ops, Apical, Permata Hijau, Bright Food, Beidahuang, New Hope Group, IB Group, Bounty Fresh, Beyaz Piliç, Erpiliç, Abalıoğlu, Al Watania, Fakieh, Al Rawabi, Country Bird, Hazeldene's, Columbia Grain, Stine, Beck's, Nuziveedu, Mahyco, Rasi, Takii, Gowan, Albaugh, Ravensdown, Ballance, Florida Crystals/ASR Group, Vall Companys, Grupo Jorge, Costa Food, Müller Fleisch, Conaprole, COFCO International, Olymel, Malteurop.
+- Regions thin: China (only COFCO), India (only Suguna), Turkey, Gulf poultry, Africa (KTDA, Sovereign in WATCH), South-East Asia (Asian Agri only), Latin America beyond Brazil/Argentina. Local-language rankings were not opened. Not exhaustive.
