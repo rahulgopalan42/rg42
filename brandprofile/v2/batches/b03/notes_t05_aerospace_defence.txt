@@ -1,0 +1,80 @@
+t05_aerospace_defence - batch 3 sector researcher - 28 Nov 2026
+Scope: aerospace, defence, space, drones, private aviation (operators, FBOs, charter, MRO), aircraft lessors, satellite operators.
+Method: independent web research (discovered_via = "Independent web research"). WebSearch used once (of 1): aircraft lessor rankings.
+Wikipedia: API rate-limited (429 on opensearch); individual article fetches via WebFetch worked, spaced out.
+
+COUNTS
+- MAIN 29 (Route A 15, Route C 14); WATCH 13; DISC 175 lines; DUPS 122 lines.
+- DISC check results: NEW 70, LISTED 74 (mostly Defense News Top 100 listed primes), IN MASTER 22, POSSIBLE 7, ALREADY DELIVERED 1, F1 PARTNER 1.
+- DISC stage: researched 38, not researched 21, left out 116.
+- Beyond DISC, about 300 further candidate names were run through check.py while scoping (private aviation, MRO, suppliers,
+  space, drones, satellites); the duplicates among them are logged in DUPS. The master already covers this sector heavily
+  (most defence primes, space start-ups, drone makers, Gulfstream, Collins, Pratt & Whitney, NetJets, Luxaviation, Signature,
+  Pilatus, Lufthansa Technik etc.). VistaJet/Vista Global and Flexjet are current F1 partners.
+- signals_checked: MAIN 23 yes / 6 no; WATCH 12 yes / 1 no.
+- Target of 45 MAIN+WATCH not reached (42). NEW candidates remain (list below); I stopped for time, not for lack of candidates.
+
+IMPORTANT CHECK.PY FINDINGS
+- Short names missed master entries: "Rafael" -> NEW but "Rafael Advanced Defense Systems" IN MASTER; "Polish Armaments Group"
+  -> NEW but "Polska Grupa Zbrojeniowa" IN MASTER; "MKE" -> NEW but "Makine ve Kimya Endüstrisi" IN MASTER. All three were
+  researched, then removed from MAIN and logged in DUPS. Every remaining MAIN/WATCH name, alias, suffix-stripped name and
+  website was re-checked at the end; only false-positive POSSIBLEs remain (Strata vs Stratasys, Castelion vs Castel Group,
+  Triumph Group vs Triumph International/Motorcycles - all different companies).
+- check.py does not flag several listed companies (Amentum, StandardAero, AerCap, Embraer, Firefly etc.); marked LISTED in DISC.
+- Paramount Group (SA defence) falsely matches Paramount+ (F1 partner); left out anyway: Chapter 11 filing Aug 2024 (Wikipedia).
+- CSG (Czechoslovak Group): check.py says NEW but it is listed (investor site shows share prices, IPO info) -> left out.
+
+OVERLAP WITH OTHER BATCH 3 FILES (written by others while I worked; consolidation should keep one record)
+- FNSS (k24_turkey as "FNSS Savunma Sistemleri"), TEI (k24_turkey), AviLease, Strata Manufacturing, Sanad (u07_swf_portfolio).
+- Queue inputs assigned elsewhere: Ameco (in_f14), Triumph Group (in_f25), Pindad (in_f04), PGZ (in_f01).
+- I deliberately left to others: Avolon (r11), DAE/Dubai Aerospace and Joramco (k23), Jetex (in_q45), GlobeAir (in_q24),
+  Nilesat (r17), Hispasat (r01), Avanti (k02), drones/eVTOL/space start-ups discovered by t41 (AutoFlight, SkyDrive, TCab,
+  Supernal, Hisdesat, Kineis, Unseenlabs, Aerospacelab, Reflex, Muon), SMBC Aviation Capital and Aircastle (u01),
+  Airbus Helicopters/ATR/Satair (u03), Precision Castparts/FlightSafety (u02), Panasonic Avionics (u08).
+
+SOURCES USED (names extracted)
+- Defense News Top 100 2026 edition (2025 figures), https://people.defensenews.com/top-100/ : 100 names (all in DISC).
+- Aviation A2Z largest aircraft lessors 2025, https://aviationa2z.com/index.php/2025/01/10/largest-aircraft-leasing-companies-by-fleet-2025/ : 17 names.
+- SIPRI Top 100 fact sheet: URL tried returned a different SIPRI page; not used.
+- Company sites and newsrooms opened: atlanticaviation.com, millionair.com, bbam.com, orixaviation.com, jsa.com, cdbaviation.aero,
+  strata.ae, sanad.ae, hadrian.co, saronic.com, epirusinc.com, castelion.com, ursamajor.com, trueanomaly.space, piper.com,
+  diamondaircraft.com, duncanaviation.aero, avilease.com, azorra.com, mbda-systems.com, grupapgz.pl, csg.com, dc-aviation.com,
+  tei.com.tr, robinsonheli.com, campsystems.com, ajw-group.com, ontic.com, measat.com, griffingam.com.
+- Wikipedia articles (EN, one PL): Rafael, MBDA, PGZ (pl), Atlantic Aviation, Robinson Helicopter, Piper, FNSS, Turkish Technic,
+  Héroux-Devtek, Diamond Aircraft, Tecnam, Omnipol, Aero Vodochody, Paramount Group, Air Methods, CHC Helicopter, Triumph Group,
+  Azercosmos, Es'hailSat, MKE, Milkor, Nordam, Gama Aviation, Bristow, SABCA, Eurenco, Arquus (redirected to Renault Trucks),
+  Helibras, Ameco Beijing, Kale Group, Denel, Pindad, Air Works, Erickson, Deer Jet (redirected to Beijing Capital Airlines),
+  Space Norway (redirected to Norwegian Space Agency).
+- Sites that failed: rafael.co.il (empty JS), chromalloy.com (JS), gatelesis.com (403), avfuel.com (403), turkishtechnic.com (503),
+  epirus.com/newsroom (503), aergo.com (503), airworks.in (503), macquarieairfinance.com (DNS), elt-group.com (DNS),
+  icbcleasing.com (404), azercosmos.az/about (404), kepler.space/news (404).
+
+SUBSECTORS / REGIONS COVERED
+- Defence primes and state groups: Europe (MBDA, Omnipol, Aero Vodochody, Eurenco, SABCA), Turkey (FNSS, TEI, Kale), Africa
+  (Milkor, Denel), SE Asia (Pindad), US defence tech (Saronic, Castelion, True Anomaly, Hadrian, Epirus).
+- Private aviation/FBO/MRO: US (Atlantic Aviation, Million Air, Duncan, Air Methods, CHC), Europe (DC Aviation), Gulf (Sanad),
+  Turkey (Turkish Technic), China (Ameco).
+- Lessors: BBAM, ORIX Aviation, Jackson Square, CDB Aviation, AviLease, Azorra.
+- Aircraft/aerospace manufacturing and suppliers: Robinson, Piper, Diamond, Tecnam, Héroux-Devtek, Triumph, NORDAM, Strata, Helibras.
+- Satellite operators: Azercosmos, Es'hailSat (both WATCH).
+- Thin or not reached: Japan, Korea, India (Air Works only, no figures), Latin America (Helibras only; Akaer, Avibras, Omni Taxi
+  Aéreo not reached), China private aviation (Chinese state defence groups AVIC, NORINCO, CASC, CSGC, CSSC left out as
+  Chinese military conglomerates on US lists - status requires verification).
+
+NOT RESEARCHED (NEW candidates for a later run)
+ICBC Leasing, CMB Financial Leasing, Macquarie AirFinance, Griffin Global Asset Management, Aergo Capital, Castlelake;
+Chromalloy, GA Telesis, AJW Group, Ontic, Novaria, Consolidated Precision Products, Signia Aerospace, Satys, Forgital,
+Paradigm Precision, Kellstrom Aerospace, Fokker Services Group, Potez, Lauak, AdF, Expliseat, CTRM, Sepang Aircraft Engineering;
+Sheltair, Avfuel, Titan Aviation Fuels, West Star Aviation, Elliott Aviation, Pentastar, Wilson Air Center, Ross Aviation,
+Modern Aviation, Cutter Aviation, JSSI, CAMP Systems, Epic Aircraft, Air Hamburg, Gestair, Metrojet, Empire Aviation (Dubai),
+Hadid; GAMECO, Air Works; Elettronica, Plath, Excalibur Army, Tatra Defence, German Naval Yards, Arquus, Akaer, Calidus,
+Barzan Holdings, Adani Defence; Hellas Sat, ABS Global, Telkomsat, Star One, Measat, Space Norway, Kepler Communications,
+Axelspace, Govini, Chaos Industries.
+
+CAVEATS
+- Several Route C records rely on older figures (CHC 2014-15, Héroux-Devtek 2020, Air Methods FY2009 revenue, NORDAM 2019,
+  SABCA 2020); flagged in fin periods and outstanding.
+- Omnipol and Aero Vodochody revenues are in CZK, which is not in the fixed rate table; usd_m left null with an approximate
+  note in qualifying_metric.
+- SABCA: Wikipedia infobox still shows a "Traded as" field; confirm its shares no longer trade before delivery.
+- Robinson, Million Air, Azorra, Air Methods, Es'hailSat, DC Aviation: owner not fully stated on pages opened.

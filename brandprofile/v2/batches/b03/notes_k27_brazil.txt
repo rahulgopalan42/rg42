@@ -1,0 +1,48 @@
+k27_brazil (batch 3, MODE country, Brazil) - notes, 28 Nov 2026
+
+SOURCES
+- Exame Melhores e Maiores 2026, "As maiores empresas" (https://exame.com/mm/maiores/): full ranking data embedded in page HTML;
+  992 companies parsed with 2025 net revenue (BRL thousand), net profit, city/state, sector. All 992 written to DISC.
+  Exame says this list covers companies with public data, so unlisted firms that publish nothing are missing.
+- Forbes Agro100 2025 (forbes.com.br, Dec 2025): 100 names with revenue (2023/2024 basis); 53 not already on the Exame list written to DISC.
+- B3 listed-companies register (sistemaswebb3-listados.b3.com.br API, 3,568 issuers, downloaded 28 Nov): used to test whether each
+  candidate's shares trade. Rule used: an issuer in "Não Classificados" with no market code = registrant without traded equity
+  (debt issuer); a named equity segment or NM/N1/N2/MA/MB market = listed or possibly listed -> left out.
+- Valor 1000: not opened (paywalled). WebSearch used 1 of 2.
+- Wikipedia: rate-limited (HTTP 429); one extract obtained (Crefisa). Company websites used for identity, scale and news.
+- Researcher's own candidate list (family groups, co-operatives, private champions) run through check.py: 26 extra names in DISC.
+
+COUNTS
+- Names extracted: 1,071 in DISC (992 Exame + 53 Agro100 + 26 own list). All Exame and Agro100 names run through check.py.
+  check.py on Exame: 829 NEW, 69 POSSIBLE, 39 LISTED?, 39 IN MASTER, 13 ALREADY DELIVERED, 3 F1. Many "NEW" are B3-listed or
+  national entities of multinationals; these were not researched.
+- MAIN 39, WATCH 5 (Livelo, Cutrale, Líder Aviação, Baly, Coco Bambu). Braspress moved from WATCH to MAIN after its Exame figure was found;
+  Moura removed from WATCH as ALREADY DELIVERED. DUPS 77 lines (some lines group several listed names).
+- Alias check found extra duplicates check.py missed on short names: DPSP (Drogarias São Paulo Pacheco), Coamo (as Coamo
+  Agroindustrial Cooperativa), Lar Cooperativa, Aurora Alimentos (Aurora Coop), Moura (Baterias Moura, b02).
+
+EVIDENCE STANDARD AND WEAKNESSES (read before delivery)
+- Route A for most MAIN records = Exame 2025 net revenue >= BRL 833m (USD 150m at 0.18). Profitability taken from Exame net profit.
+- Ownership: for most records the company page does not name the owners. I recorded "privately held group" where B3 shows no traded
+  equity and the site shows an independent company; "requires verification" where even that is unclear (Ihara, MAG Seguros, iFood).
+  iFood and MAG: parent/shareholders not confirmed on a page opened; MAG's operating company is Mongeral Aegon (Aegon is listed:
+  check stake). These need an ownership check before delivery.
+- signals_checked = yes only where a news page or dated items were opened. Many sites had no newsroom or blocked fetches
+  (403/503): Lojas Cem, Pernambucanas, Grupo Potencial, Omint, J. Macêdo, Grupo Pereira, Integrada, Évora, Castrolanda.
+- Category notes: Rodoil partners Castrol (Audi F1 partner) on oil-change units; Vipal sells tyres (Pirelli is F1's tyre supplier);
+  CAOA distributes Ford; Crefisa was Palmeiras master sponsor 2015-2024 (ended).
+- No betting brands researched (Brazil online betting ban 2026).
+
+LEFT OUT AFTER B3 CHECK (possibly listed; verify if wanted): Granja Faria, VLI (registered 27/11/2026), União Química, Eldorado Brasil,
+Elfa, J. Macêdo, Norte Energia, Alubar (2026), Pacaembu, Grupo Salta, Algar Telecom, MRS Logística (balcão). Intelbras and Josapar listed.
+
+NOT REACHED / UNRESEARCHED NEW CANDIDATES (largest first, from DISC)
+Lojas Cem (BRL 5.9bn, profit 1.27bn), Pernambucanas (BRL 5.0bn), Grupo Potencial (11.1bn), Evolua Etanol (18.5bn), Sertrading (BTG unit),
+Évora (6.8bn), Tambasa (5.5bn), LM Transportes (5.3bn), Rede Américas (10.7bn), Omint (3.2bn), Athena Saúde (3.8bn), Iconic lubricants
+(4.1bn, Ipiranga/Chevron JV), CTG Brasil (6.4bn, parent not shown on site), Banco Original (4.2bn), Flora (2.5bn), Oba Hortifruti,
+Fortbras, Tellerina, AeC, Vicunha, Pottencial, Mataboi/Prima Foods, CDM, Estrela Alimentos, Barra Mansa, Pamplona, GTFoods, Cocari,
+Castrolanda, Copasul, Integrada, Agrofel, Neomille, Novaagri, Cibrafértil, and the Agro100 names (Inpasa-type sugar/ethanol groups,
+Cenibra, Fiagril, Belagrícola, Grupo Cereal, Alvoar Lácteos, etc.). Also unresearched from own list: Âmbar Energia, Itaipu Binacional,
+QuintoAndar, Loggi, Creditas, Madero, Zaffari, Grupo Pereira, Ferreira Costa, Prevent Senior, Bom Futuro, Fertipar, Sabó.
+Distress noted: Novonor (in judicial recovery per B3 name), Unigel not researched.
+Nothing here is exhaustive.

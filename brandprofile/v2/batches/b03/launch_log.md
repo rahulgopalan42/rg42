@@ -99,3 +99,6 @@ launched: f02_queue | finished: k26_africa_east_south (32 main, 13 watch, 169 di
 launched: t12_staffing_security | finished: r27 (13/28)
 launched: r30_queue | finished: t06_mining_metals (35 main, 10 watch, 277 disc; Trafigura and Drummond left out on compliance grounds)
 launched: clay_c01 | finished: t07_chemicals (29 main, 19 watch, 240 disc)
+launched: f03_queue | finished: k27_brazil (39 main, 5 watch, 1,071 disc from Exame Melhores e Maiores 2026, each tested against the B3 register)
+launched: t13_real_estate | finished: r28 (25/19)
+launched: k30_taiwan_hk_anz | finished: r29 (24/27)

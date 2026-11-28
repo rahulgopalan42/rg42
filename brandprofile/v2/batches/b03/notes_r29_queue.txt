@@ -1,0 +1,34 @@
+r29_queue (batch 3, queue mode) - input in_q29.jsonl, 80 lines. 28 Nov 2026. WebSearch: 0 used (limit 0). WebFetch only.
+
+Duplicate check: check.py run on all 80 names (with websites), then again on suffix-less names, aliases and parents
+(e.g. Pilatus, Abertis, Randstad, Acciona Energia, Esprinet, Verisure, Claro, DP World, SK Group, Richemont).
+
+MAIN (24): MartinBauer Group, SK ecoplant, MEGGLE Group, Panerai, Compania General de Compras Agropecuarias, Cobra Instalaciones
+ y Servicios, EPM, VEKA, ANCA, Solvi, Emrill Services, BMC Switzerland, BMG, Wightlink (Route B), Uno-X, Michigan Sugar,
+ Envases Group, Envu, Sortera, Ynna Holding, Emapta, Testronic, Enerven, EGR Group.
+ Strongest on fit/scale: VEKA (EUR 1.5bn, new consumer campaign 2026), BMG (USD 1bn, Concord merger Sep 2026), SK ecoplant
+ (KRW 6.2tn, pre-IPO), MartinBauer (EUR 600m; 30-year football sponsorship ends 2027), Uno-X (WorldTour cycling title sponsor),
+ MEGGLE (EUR 1.5bn), Panerai (Richemont; IWC sister-brand conflict noted).
+WATCH (27): Beto Carrero World, KM Malta Airlines, Palace Skateboards, LEVEL, Unity Line, Empact, Thebe, Solo Resource Recovery,
+ Meica, Luftner Cruises, Parmigiani Fleurier, Mestemacher, Madagascar Airlines, MFA Inc, Perrelet, Paul Hewitt, Magellan Jets,
+ Entrepreneur Media, Twisted Minds, Bertocchi, Ausbuild, Selection Steel, Elite Rede de Ensino, BH Fitness, Bodytech (Brazil),
+ Magic Costa Blanca, Tundra Esports.
+DUPS (22): in master / alias (Pilatus = Pilatus Aircraft; Abertis); national entities or divisions of listed groups (Randstad
+ Empleo, Acciona Green Energy, ENGIE Italia, Novartis Farmaceutica, Esprinet Iberica, Securitas Direct Espana, Coficab Mexico,
+ Enel X, Sociedad de Compras Modernas = Carrefour); listed (Elm, Entel); absorbed (Unifeeder -> DP World, Embratel -> Claro);
+ holding vehicles (TCC Group, TVS Sons, Yunus Brothers Group); brand of listed group (Pro-Specs -> LS Networks); esports club
+ of Topsports (Top Esports); compliance (Southern Water: record GBP 90m sewage fine); not a commercial prospect (EnGuayaquil).
+
+NOT RESEARCHED (7, no page could be opened): DFD Rhodes (host does not resolve), Equipment Leasing Holdco (no identifiable
+ site), C-Res (Qld) (site returned only "HOME"), Urbanedge Building Group (503), Epic Group (epicgroup.global returns only a
+ title), VSPO (vspn.com not resolvable; no Wikipedia page found), BioTechUSA (site 403, no Wikipedia page).
+
+Caveats:
+- Signals checked ("signals_checked": "yes") for 23 records (14 MAIN, 9 WATCH); others had no newsroom page that opened.
+- Ownership unverified ("requires verification") for Cobra IS, Envases, Envu, Solvi, Sortera, Ynna, Emrill, Enerven and others;
+  several are reported as subsidiaries of listed groups - verify before delivery (Cobra IS in particular).
+- EPM revenue is in COP (no fixed brief rate), usd_m left null.
+- SK ecoplant shares are designated on K-OTC (over-the-counter, not an exchange); confirm this counts as unlisted.
+- Several Route C records lean on Clay LinkedIn employee counts as one indicator (Emrill, Envases, Envu, Emapta).
+- Websites recorded only where the input gave them or a page was opened on that domain.
+- For later runs: Coficab (group) checks NEW; unlisted TVS operating companies (Brakes India, Lucas-TVS); LS Networks listing.

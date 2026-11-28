@@ -1,0 +1,41 @@
+NOTES r28_queue (batch 3, queue mode, INPUT in_q28.jsonl, 80 lines) - 28 Nov 2026
+WebSearch used: 0 (limit 0). WebFetch only. No Apollo. No git.
+
+Duplicate check: check.py run on all 80 names, then again on aliases (name without legal suffix, short names, websites).
+Alias checks caught: EF Educational Tours (EF Education First already delivered b02), San Faustin (Techint Group delivered b02),
+Montres Longines (Longines delivered b02), El Seif O&M (El Seif Group in master), Libbs (Libbs Farmacêutica in master).
+
+RESEARCHED - MAIN (25): Sonangol (A), Barry's (B), Edustaff (C), Rumpke (C), JSX (C), Spirit of Tasmania (A, FY2018 figure + state
+guarantee; insolvency finding Nov 2025), SARIA (A), Mado (C), Bauer Hockey (C), Torghatten (A, 2019 figure), Egis (A), EFS Facilities
+Services Group (C), Efor Holding (C), Eficacia (C), HRS Real Estate (A), Scholz Recycling (A), Mamee-Double Decker (C), O'Neills (C),
+Dragados (A), EirGrid (A), Ejadah (C), Sanko Holding (C), Off-White (C), TT-Line (C), SIFCA (C).
+Best F1 fit: JSX (Las Vegas/Miami bases, premium flyers), Off-White, Egis (Gulf infrastructure buyers), Barry's, Mamee, EFS.
+Compliance flags: Sonangol (historic bribery/embezzlement cases), Egis (IDB sanctions 2024, ADB cross-debarment) - review before approach.
+EirGrid is a regulated state grid operator, close to a public body: fit 0, consider dropping.
+
+RESEARCHED - WATCH (19): Nixon, ECPI University, Tamatem, Jetvia, Nomos Glashütte, Jetwing Hotels, Interflow, Latrobe Health Services,
+Independence Australia, Energy Power Systems Australia, Brighton Toyota, Bergans, Northwave, El Doctor del agua, Sims Lifecycle Services,
+Hireup, Team Secret, Team Heretics, Team Flash.
+Australian IBISWorld 2022 names (AUD ~200m = USD ~133m, FY2022) are in the Route B band with no stated support, so WATCH, not MAIN.
+
+LEFT OUT - DUPS (23):
+ listed: Louisa Coffee (TPEx), El Puerto de Liverpool (BMV), Believe (Euronext per Wikipedia), Manner (Vienna), Saha Group (SPI on SET)
+ not a separate company: Hyundai Motor España, Ntt Data Spain, ArcelorMittal Commercial Spain, Janssen Cilag, Repsol Comercializadora,
+   Dow Chemical Iberica, EFSIM (part of EFS), BetGenius (part of Genius Sports, NYSE)
+ in master / delivered: Libbs, Macleods, Mediclinic, El Seif O&M, EF Educational Tours, San Faustin, Montres Longines
+ closed / merged: Edcon (business rescue 2020, brands sold), Trasmediterránea (operations to Baleària/DFDS 2026), Lucky Energy (domain parked)
+
+NOT RESEARCHED (13, no page about the company could be opened):
+ Jettly (site 403; Wikipedia 404); Zhejiang Tobacco Group (no page on the provincial unit; CNTC page only says the state monopoly runs ~30
+ cigarette companies - tobacco also a likely F1 category block); Team BDS (no esports page opened; teambds.com is an unrelated Irish ERP
+ firm); Zonin1821 (site 503, Wikipedia 404); Sahara Group (ambiguous: sahara-group.com 403; en.wikipedia "Sahara Group" is Sahara India
+ Pariwar, which has serious SEBI/compliance history and would be excluded); Schönmackers (site in maintenance, Wikipedia 404);
+ Karnavati Aviation (host did not resolve; Wikipedia 404); Terry Shields Toyota (503 / host did not resolve); West End Mazda (503);
+ Thomson Geer (tglaw.com.au redirects to thomsons.com.au, which refused 403; possible rebrand not verified); PAX Australia (pax.com.au is
+ "Pax Lifestyle" with no content - identity unconfirmed); Ziegler Gruppe (Pratteln, CHF 1,200m 2022 per de.wikipedia Swiss list; ziegler.ch
+ 503 and zieglergroup.com 403 - relationship to Belgian Ziegler Group unverified); Elitar Consult (site 503; Clay shows 2 employees, so its
+ USD 1-10B bracket is clearly wrong).
+ Hosts that did not resolve in this session: www.terryshields.com.au, www.karnavatiaviation.com (may need to be allowed, or may not exist).
+
+Data caveats: Clay revenue brackets recorded as "estimated" only; several look implausible (ECPI, Eficacia, El Doctor del agua).
+Mamee revenue is in MYR (no fixed rate in brief) so usd_m left null. Many newsrooms refused or 404'd; signals_checked = "no" where so.
