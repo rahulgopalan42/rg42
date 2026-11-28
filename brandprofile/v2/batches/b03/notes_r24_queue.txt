@@ -1,0 +1,24 @@
+r24_queue (batch 3, queue mode) - input in_q24.jsonl, 80 lines, all processed. 28 Nov 2026. WebSearch: 0 used (limit 0). WebFetch + direct page fetches only (Wikipedia raw pages and company sites, declared UA).
+
+DUPLICATE CHECK: check.py run on all 80 input names, then on suffix-stripped names and aliases (Damen Shipyards Group, Dar Al-Handasah, USV Private Limited, Hayat Holding, Peninsula, Hefame, Decathlon, Sicpa, TEG/Ticketek, City Experiences, Kalise, Werthein, Lawson etc.).
+
+RESEARCHED - MAIN (33): Unilabs, Lowa, Vacuumschmelze, Valantic, V.tal, Uriach, Kabaya, UGC, Grupo Valorem, Var Group, Just Born, Turck, Yuanfudao, Zuoyebang, TEG Live, Hornblower (City Experiences), Grupo Werthein, Room 8 Group, United Cinemas (Lawson United Cinemas), Daltex Corporation, Danone Aqua, Decameron, Marathon Sports, K&N's, VetFamily, Interasia Lines, IDO, Isle of Man Steam Packet, GenesisCare, Central Equity, Ego Pharmaceuticals, Harris HMC Group, Wingate Group Holdings.
+ - Strongest: Var Group (EUR 909m turnover, EUR 96.5m EBITDA, existing Ducati sponsorship), Vacuumschmelze (sold to Energy Fuels for USD 1.9bn Jun 2026; GM magnet cooperation), Valantic (EUR 609m), Unilabs (EUR 1.6bn), V.tal, Grupo Werthein (DirecTV/SKY South America), TEG.
+ - Several Route A figures are older than 3 financial years (Uriach 2021, UGC 2021, Valorem 2020, Just Born 2021, Turck 2021) and flagged in `period`.
+ - Australian IBISWorld names (GenesisCare, Central Equity, Ego, Harris HMC) qualify only on the FY2022 input figure of about USD 150-151m: borderline, conf low. Wingate (USD 147m) and IDO / Steam Packet (transactions below USD 1bn) are Route B.
+ - Route C on Clay-sourced data with only one company page: Daltex (site: 9,000+ employees, 65+ countries - solid), Danone Aqua, Decameron (conf low).
+ - Zuoyebang qualifies only on the input figure (USD 350m D round 2018) which I could not see on the pages opened: conf low.
+
+RESEARCHED - WATCH (24): Supercines, Georgian Airways (insolvent, Russian routes), Louis Moinet, Quantic Dream (NetEase sub, layoffs), Shanghai Tobacco Group (state, tobacco category blocked, only 2011 figure), REJECT, Luminox, Zanichelli (2016 revenue only), Z-kai, Greater Bay Airlines, Shenzhen ALD / HQD / ZINWI (Shenzhen Top 500 ranks 386/472/492; nicotine category blocked), Manufacture Royale, Green Africa Airways, Kalise Menorquina, Landpower Australia (USD 149m, no Route B support), Montello, Miya, Mr. Bult's, Grand Circle, GlobeAir, DataAnnotation, Rollic.
+
+LEFT OUT - DUPS (20):
+ - In master: Damen, Dar (Sidara), USV, Decathlon Campus HQ, DECATHLON FRANCE, Decathlon PRO Malaysia.
+ - Already delivered (b02): Hayat Holding (as Hayat Kimya), Peninsula Petroleum (as Peninsula), Hermandad Farmaceutica del Mediterraneo (Hefame), Reguladora de Compras del Mediterraneo (Hefame-linked).
+ - Listed / part of listed group: Haier Group (Haier Smart Home), Microsoft Schweiz, Airbus Operations, Iberdrola Renovables, Energia XXI (Endesa), UCI Cinemas (Odeon/AMC).
+ - Not a commercial prospect: DFW Airport (municipal), Dames die Raken! (2-person collective), Dale Carnegie France (national office of a network).
+ - Compliance: Sicpa Holding (2023 Swiss criminal conviction for bribery-prevention failures). Flag for the user: otherwise a large private security-ink group (3,300+ staff); I left it out under the brief's compliance rule.
+
+NOT RESEARCHED (3, no page could be opened): Mick George (site 403), Wessel Family (domain does not resolve / not allowed by network), Davidson Group (Aust) (site 503/connection reset).
+
+GAPS: Signals/newsroom pages were opened for only about half of MAIN records (signals_checked "yes" where a Wikipedia history or company news section was read); marketing heads not identified for any company; several ownerships are "requires verification" (VetFamily - possibly Vimian Group, listed; Interasia - list shows Japan flag; Decameron; Ego; Central Equity). Turck and Rollic sites rate-limited/reset; El Rosado (Supercines parent) site gave no content. Hornblower HQ after restructuring not confirmed.
+Sources used: Wikipedia (en, de, es, fr, pt, ja, zh, tr), company sites, 2firsts.com Shenzhen Top 500 article, elEconomista company page, IBISWorld/Clay figures carried from input.

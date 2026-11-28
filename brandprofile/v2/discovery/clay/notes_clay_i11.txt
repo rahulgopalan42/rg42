@@ -1,0 +1,56 @@
+clay_i11 (batch 3, MODE clay, deeper paging) - 28 Nov 2026
+Industries: Consumer Goods; Personal Care Product Manufacturing; Sporting Goods Manufacturing; Furniture and Home Furnishings Manufacturing.
+Filter on every query: company_type in ("Privately Held","Partnership","Self Owned"). Search only; no enrichment, no rendering, no WebSearch.
+Page caps (industry line): P1=2, P2=2, P3=1. 20 Clay pages read in total.
+
+Query | pages read | rows saved | where it stopped
+Consumer Goods | 1B-10B,10B-100B,100B-1T                          | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Consumer Goods | 500M-1B                                          | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Consumer Goods | 200M-500M                                        | 1 | 20 | cap reached, hasMore=TRUE (unfinished)
+Personal Care Product Manufacturing | 1B-10B,10B-100B,100B-1T     | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Personal Care Product Manufacturing | 500M-1B                     | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Personal Care Product Manufacturing | 200M-500M                   | 1 | 20 | cap reached, hasMore=TRUE (unfinished)
+Sporting Goods Manufacturing | 1B-10B,10B-100B,100B-1T            | 2 | 24 | COMPLETE, hasMore=false on page 2 (4 rows)
+Sporting Goods Manufacturing | 500M-1B                            | 2 | 31 | COMPLETE, hasMore=false on page 2 (11 rows)
+Sporting Goods Manufacturing | 200M-500M                          | 1 | 20 | cap reached, hasMore=TRUE (unfinished)
+Furniture and Home Furnishings Manufacturing | 1B-10B,10B-100B,100B-1T | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Furniture and Home Furnishings Manufacturing | 500M-1B            | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Furniture and Home Furnishings Manufacturing | 200M-500M          | 1 | 20 | cap reached, hasMore=TRUE (unfinished)
+
+Total rows: 375. All four industries reached. No industry enum value was rejected.
+Unfinished queries (more pages exist): 10 of 12, listed above. Clay taskIds do not carry over; a later run must start a fresh search
+or split by region/country.
+One name appears twice as two separate Clay entities: "PT. Sumber Masanda Jaya (PM)" (Nike footwear maker, Brebes), once in SG 1B+ and
+once in SG 500M-1B with different LinkedIn pages.
+
+disc_check.py result: NEW 253, IN MASTER 52, ALREADY DELIVERED 36, POSSIBLE 27, LISTED 6, F1 PARTNER 1.
+F1 PARTNER row: Sparco.
+
+Row notes:
+- desc is the opening of Clay's description (shortened, non-English text sometimes summarised in English and marked "translated") plus any
+  owner/parent/listing sentence; nothing added from memory.
+- Names containing "|" were saved with "/": "Davines Group / B Corp since 2016", "Keune Haircosmetics / B Corp".
+- Chinese/Korean names were kept as Clay gives them, with a Latin-script gloss in brackets where the description names the brand:
+  "立白集团 (Liby Group)", "中乔体育股份有限公司 (Qiaodan Sports)", "없음 (2hae)", "Danish Foods Limited (Partex Star Group)".
+- Rows with no domain in Clay (website field noted in desc where given): Talent Connect (jerashholdings.com), KKM (kkm.com), Simoldes
+  Group, Jeunesse Global (UK), FM Group Benelux, refill.beauty, VVF LLC (vvfllc.com), Bledsoe Investment Management Hardware,
+  PT KMK GLOBAL SPORTS, Home Organizers, Designer Rewards Program, Varnamo, Herval Corporation, SIS functional furniture a/s.
+- employee_count 0 where Clay gave none.
+
+Observations (from Clay rows only, not verified):
+- Revenue brackets are unreliable: many tiny or orphan LinkedIn pages sit in 1B-10B (McLaren Golf 19 staff, GolfMechanix 2, Taishan Turf 1,
+  "allther" an individual's page, Flizcosmetics 2), and some national sales units of multinationals appear (HARIBO Italia, Froneri Egypt,
+  General Mills China, Canon Vietnam, PepsiCo Zapadni Balkan, Coty Brasil, Daikin India, Hafele India/Espana, Hettich India, ASICS SEA,
+  Decathlon units, Rituals France/UK, Lush North America, Kinnarps Portugal). These should mostly drop under the national-entity rule.
+- Several rows are subsidiaries of listed groups (eligible only if they trade under their own name): Benefit, Fresh, LVMH Fragrance Brands
+  (LVMH); LifeProof (Otter Products, private); American Standard APAC (LIXIL); Levolor (Hunter Douglas); Papyrus (American Greetings);
+  Lotte Kolson (LOTTE); Softex Indonesia (Kimberly-Clark); Novaventa (Grupo Nutresa); OXXO Colombia (FEMSA); Arctic (Beko);
+  Hardy & Greys (Pure Fishing); Shenzhen Fluent (Nan Guang/CATIC, listed). Desc lines say "listed" for Kelebek Mobilya (Istanbul),
+  HTL (Singapore), Zhejiang Supor (China), Puig (investor relations noted).
+- Names marked NEW by disc_check that look worth researching first: Giant Bicycle, Cannondale, CUBE Bikes, Campagnolo, Vibram Group,
+  Oberalp Group, BRG Sports (Bell racing helmets), Mondo, Groupe Clarins, Charlotte Tilbury, LUSH, Inter IKEA Group, Vitra,
+  F/LIST (aerospace interiors), Polygroup, Western International Group.
+  Many of the obvious names were already IN MASTER or ALREADY DELIVERED (e.g. New Balance, PING, Rawlings, Groupe Rocher, Rituals, KIKO,
+  Ashley, ParagonCorp, Wings: in master; TaylorMade, Canyon, Scott, Orbea, Tecnica, Joma, Wella, Oriflame, Farmasi, NAOS, Blum,
+  Hettich, BoConcept, Dangote: already delivered). POSSIBLE to resolve by hand: North Sails (matched "North", an F1 partner), Sisley Paris,
+  Mary Kay Global. Roche Bobois is LISTED.

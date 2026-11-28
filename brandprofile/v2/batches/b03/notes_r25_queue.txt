@@ -1,0 +1,34 @@
+r25_queue (batch 3, queue mode) - input in_q25.jsonl, 80 lines, all worked through. 28 Nov 2026. WebSearch: 0 used (limit 0). WebFetch only.
+
+COUNTS: MAIN 19 | WATCH 24 | DUPS 31 | not researched 6 (80 total).
+
+RESEARCHED - MAIN (route): Jadrolinija (C), Dekko ISHO Group (A, company-stated USD 150m export sales, year not stated), Dekko Legacy Group (C),
+Rovio (A, FY2022 revenue, flagged old; Sega subsidiary; impairment/closures noted as distress), Mura Technology (A, KBR USD 100m strategic
+investment 2022 - verify it is equity), Heirs Holdings (C), Vero Internet (A), Interactive (A, ARR AUD 200m), Beyond Bank Australia (C),
+Descon (C), VVDN Technologies (C), Medical Solutions (C, SIA ranking - no revenue figure found), Descours & Cabaud (A, EUR 4.8bn 2025),
+Desert Diamond Casinos & Entertainment (C), Kalyon Holding (C, low confidence), 24 Hour Fitness (C), Highgate Hotels (C),
+Westcon-Comstor (A, H1 gross sales USD 3.37bn; parent Datatec JSE-listed), Hisense Group (A, USD 12.2bn 2023; ex-Red Bull Racing partner;
+verify the group parent's own shares do not trade - listed units are Hisense Visual and Hisense Home Appliances).
+signals_checked "no" for Dekko ISHO, Dekko Legacy, Descon, VVDN, Kalyon (news pages 404/500/undated/unreachable).
+
+RESEARCHED - WATCH: Smokin Joes, VetPartners, Kavli, Vieshow Cinemas, Almondco Australia, Oz Group, Belgravia Group, Lipman, Kazi Farms Group,
+MB&F, RRQ, YT Industries, King Arthur Baking, Hera Flight, Meindl, S8UL, Royal Never Give Up, Terroirs et Vignerons de Champagne, WCG Clinical,
+MeisterSinger, Moby Lines, Vianex, NG Group (NG Nordic), Tabacalera Perdomo.
+
+LEFT OUT (DUPS, 31):
+- master / delivered / F1 partner: Decathlon Tennis (Decathlon), Mascot International (Mascot Workwear F1 partner), IBM Schweiz, Delaware North ANZ,
+  Deloitte Digital, Dentons Rodyk, Disa, Landi, La Farga, Mahou, Plenergy, DHL Express India, Greater Bank (Newcastle Greater Mutual),
+  Yelmo Cines (parent Cinepolis in master), Hapag-Lloyd Cruises (brand of TUI Cruises, delivered b02).
+- listed: KazMunayGas, GreenTree Inns (NYSE: GHG), Kino Food (IDX: KINO), Dentsu Creative, Dentsu India.
+- not a separate company: Iberdrola Generacion Nuclear, BSH Electrodomesticos Espana, Ferrovial Construccion, Vodafone Turkey, Naturgy Ciclos Combinados.
+- other: J&F Investimentos (established compliance problems), Stoli Group (Chapter 7 liquidation of US unit; Russian-owner issues),
+  Marine Atlantic (Crown corporation - not a commercial prospect), Diamond Project Africa (non-profit), Digi Service Pro and DEX (no scale; Clay
+  figures implausible).
+
+NOT RESEARCHED (no page could be opened): Tru Blu Beverages, G & K O'Connor, Dynamic Supplies (only the IBISWorld 2022 row: AUD 218.3m est.,
+218.0m, 217.2m est.; own sites 503/unresolvable), VOCO (bot wall), Normec (403), National Water Company (Saudi; site 403, no Wikipedia page).
+
+SOURCES used: IBISWorld Top 500 Private 2022 PDF (extracted with pdftotext), company sites, en/de/fr/es/pt/tr Wikipedia.
+Hosts that failed to resolve in this session: www.gkoconnor.com.au, www.vetpartners.group, www.ng-group.dk, www.terroirs-vignerons-champagne.com.
+Aliases checked with check.py: names without legal suffix and with websites, parents (Cinepolis IN MASTER, TUI Cruises DELIVERED, Datatec listed).
+Gaps: revenue missing for Medical Solutions, Desert Diamond, Descon, VVDN, Kalyon, 24 Hour Fitness, Highgate; ownership "requires verification" for several.

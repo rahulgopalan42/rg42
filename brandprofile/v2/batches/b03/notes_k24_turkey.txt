@@ -1,0 +1,54 @@
+k24_turkey (batch 3, MODE country: Turkey). Researcher notes, 28 Nov 2026.
+
+SOURCES USED (names extracted)
+- Fortune 500 Türkiye 2025 list, all 500 rows (fortuneturkey.com/fortune500, full list via the site's own list endpoint). Net sales in TRY.
+  Lowest entry TRY 6.17bn = USD 154M at the fixed 0.025 rate, so every unlisted, eligible company on it meets Route A on revenue.
+  The page does not state which reporting year the 2025 list covers; records say so. Company detail pages give EBIT (FVÖK), employees, exports.
+- İSO 500 2025 (Istanbul Chamber of Industry, published June 2026, FY2025 sales from production), PDF: 476 of 500 rows parsed;
+  about 20 rows are anonymised by the ISO ("-") and rows 491-500 did not parse. Rank 500 = TRY 5.32bn (USD 133M).
+- KAP Borsa Istanbul listed-company page (kap.org.tr/tr/bist-sirketler, 747 equity issuers) used to mark LISTED.
+- Company sites and Wikipedia (EN/TR) for research.
+- NOT reached: İSO Second 500 (PDF link not found on the page), Capital 500 (page opened but list not extracted), holding-group portfolio pages.
+- WebSearch used: 0 of 2.
+
+COUNTS
+- DISC lines: 847 (837 from the two rankings after de-duplication across lists, 10 from company/Wikipedia pages).
+- check.py run on every ranking name twice (full legal name and name without legal suffix), and again in Turkish title case because
+  check.py does not match upper-case Turkish dotless I (e.g. "TOSYALI" missed Tosyalı Demir Çelik). Also about 150 group and brand names checked by hand.
+- Results in DISC: NEW 553, LISTED on Borsa Istanbul 217, IN MASTER 22, ALREADY DELIVERED 5, POSSIBLE 47 (42 judged the same brand/group and left out).
+  About 40 more "NEW" names were left out as national entities, plants or JVs of multinationals or of listed groups (judged from the name: JTI, Shell & Turcas,
+  Toyota, Mercedes-Benz Türk, Bosch, BSH, Goodyear, Pirelli, Sumitomo, etc.). That judgement was not verified on a page.
+- Researched: 22 DISC names -> MAIN 19, WATCH 1. DUPS: 334 lines.
+
+MAIN (19): Petrol Ofisi; Ahlatcı Holding; Otokoç Otomotiv; Aksa Power Generation; Setur; Multinet Up; FNSS; TEI (TUSAŞ Engine Industries);
+Kastamonu Entegre; Yapı Merkezi; Aves; HES Kablo; Rollmech Automotive; Tavuk Dünyası; Korkmaz; Yeşim Group; Borsan Kablo; Teksan; Elba Basınçlı Döküm.
+WATCH (1): Altınbaş (scale of jewellery brand not shown; 2020 fuel-fraud detention of family members, outcome not reported).
+
+CAVEATS ON MAIN
+- Owner not named on any page opened (ownership_type "requires verification"; all checked absent from the Borsa Istanbul list): Rollmech, Tavuk Dünyası,
+  Korkmaz, Aves, Borsan Kablo, Teksan. HES Kablo's parent (Nakkaş Holding) is inferred from a site link only.
+- Petrol Ofisi: another batch 3 researcher (s19) left it out after seeing a ticker PTOFS. It is not on the KAP listed page and tr.wikipedia says trading
+  ended 29 April 2015. Owner Vitol is on the master; Petrol Ofisi itself checked NEW. Please confirm before delivery.
+- Parents on the master: FNSS (Nurol Holding), TEI (Turkish Aerospace Industries 50.5%, GE Aerospace 46.2%). The subsidiaries themselves checked NEW.
+- Kastamonu Entegre: sister company Hayat Kimya was delivered in batch 2.
+- Yapı Merkezi revenue is 2022 (older than three years).
+- Fortune revenue for Multinet Up may be gross card volume.
+- Signals: few dated signals found because most Turkish company sites show undated news. signals_checked = "yes" means a news/home page or Wikipedia
+  history was opened, not that signals exist. No marketing head was identified for any company.
+
+LEFT TO OTHER BATCH 3 RESEARCHERS (already in queue files): İGA Istanbul Airport (in_q02), Medicana (in_q13), Temsa (in_q16), Limak, Kalyon, Kolin,
+Kazancı Holding, Getir, Abdi İbrahim (also on the master), Elvan Gıda, Uludağ İçecek.
+
+NOT COMPLETED (sites refused or gave nothing usable)
+- 503/522/403 or blocked host: Netlog Lojistik, Cevher Jant, Alp Havacılık (host blocked in this session), İnter-Tech (host blocked), KoçSistem, Mitaş,
+  Seval Kablo, Deka Elektronik, Kumtel, Mars Lojistik, Volta Motor, Koluman, Paşabahçe, Yıldırım Holding, Betek Boya site.
+- Opened but no ownership or figures: Altınmarka (retail storefront), Hasçelik, Yarış Kabin, Evkur, Kiğılı, Colin's (Eroğlu Giyim), Filli Boya.
+- Not reached: about 499 DISC names marked "not researched", including large unlisted NEW names such as Uğuras Kıymetli Madenler, Enerjisa Üretim
+  (Sabancı/E.ON JV), Borçelik, Tatmetal, Yücel Boru, Kroman Çelik, Diler Demir Çelik, ASAŞ Alüminyum, Öznur Kablo, Gedik Piliç, Namet, Gümüşdoğa,
+  Abalıoğlu, Toros Tarım, Medcem, Teknorot, Bozankaya, Mikropor, Mengerler, YES Oto Kiralama, Zeplin, Atasay, Polifarma, World Medicine, Mapa İnşaat,
+  Aydınlı Hazır Giyim, Norm Civata, Asil Çelik, Koyuncu Elektronik, Assemcorp, and the state companies (EPİAŞ, EÜAŞ, TMO, DHMİ, Çaykur, TCDD).
+- Holding groups NEW on check.py but not researched (no list source opened for most): Demirören, Kuzu, Çiftay, Makyol, Özak, Gülermak, MNG Holding,
+  Çukurova Holding, Esas, Taşyapı, Polat, Bayraktar Holding, Eksim, Bereket Enerji, Sanko Holding, Bilkent Holding (Tepe Savunma), Kibar.
+- Consumer brands NEW on check.py, not researched: Kiğılı, Damat Tween, İpekyol, Mudo, English Home, Madame Coco, Hey Tekstil, Çilek, Fakir, Sinbo,
+  Schafer, Emsan, Hisar, Paşabahçe.
+Nothing here is exhaustive.

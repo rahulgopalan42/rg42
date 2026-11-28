@@ -85,3 +85,7 @@ launched: t54_gap_finance_health | finished: s11_signals (40: 23 with signals, 1
 launched: t55_gap_industrial_property | finished: r23 (22/27)
 launched: t56_gap_consumer_leisure | finished: k25_africa_north_west (30 main, 15 watch, 212 disc; Egypt and Nigeria private sector largely not reached)
 launched: r28_queue | finished: u05_asia_subs (37 main, 8 watch, 264 disc). To check: Tata Capital listing, UK Power Networks owner; Medion and Infinidat belong to Lenovo (F1 partner)
+launched: t09_insurance | finished: r25 (19/24). To check: Hisense Group parent listing status
+launched: clay_i12 | finished: r24 (33/24)
+launched: s13_signals | finished: k24_turkey (19 main, 1 watch, 847 disc; ~499 unlisted Fortune 500 Turkiye / ISO 500 names with qualifying revenue not researched; check.py misses upper-case Turkish names; Petrol Ofisi: delisted 2015 per Wikipedia, s19 had left it out as listed)
+launched: k28_latam_spanish | finished: clay_i11 (375 rows). register.norm fixed for letters with no ASCII form (ı ø ß ł æ); register rebuilt
