@@ -104,3 +104,5 @@ launched: t13_real_estate | finished: r28 (25/19)
 launched: k30_taiwan_hk_anz | finished: r29 (24/27)
 launched: s14_signals | finished: t05_aerospace_defence (29 main, 13 watch, 175 disc)
 launched: f04_queue | finished: u06_pe_portfolio (42 main, 6 watch, 1,005 disc; Blackstone, Warburg, EQT, Apollo, Ardian, Brookfield not reached); added u09_pe_portfolio_b. Wella left out as an F1 Academy partner
+launched: t15_semis_hardware | finished: clay_c01 (353 rows: Japan, China, Korea)
+launched: f05_queue | finished: t54_gap_finance_health (28 main, 13 watch, 346 disc)

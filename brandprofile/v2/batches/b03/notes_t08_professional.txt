@@ -1,0 +1,55 @@
+t08_professional - batch 3 sector researcher - 28 Nov 2026
+Scope: law firms, consulting, accounting networks, engineering consultancies, architecture, testing-inspection-certification (TIC),
+market research, executive search. WebSearch used: 1 of 1 (Global 200 law firm ranking; gave no usable table). All else via WebFetch,
+curl of public pages and the Wikipedia API (infobox and article text), spaced because Wikipedia returned HTTP 429 several times.
+
+COUNTS
+- DISC: 487 lines. check.py results: NEW 270, IN MASTER 127, ALREADY DELIVERED 61, POSSIBLE 15, LISTED? 9, F1 PARTNER 5.
+  (Names were checked as given, without legal suffix, and with website where known. CliftonLarsonAllen came back NEW but its short
+  name "CLA" is IN MASTER: removed from MAIN after research and logged in DUPS. b01 had logged the same.)
+- Researched: 68 (stage "researched" in DISC). MAIN 46 (Route A 24, Route C 22). WATCH 22. DUPS 203 lines.
+- signals_checked: yes on 9 MAIN records, no on 37. Most law firm newsrooms load by JavaScript or refuse bots (403/429), so signals,
+  sponsorships and marketing heads were NOT checked for those firms. marketing_head_identified is "no" everywhere (none found).
+- The law segment dominates MAIN (30 of 46) because Wikipedia/AmLaw give citable revenue for law firms; other subsectors publish
+  less. Fit ratings for law firms are hospitality-led (category 2: Ashurst/McLaren and Morrison & Foerster/Aston Martin are rivals).
+
+SOURCES (names extracted / used)
+- Wikipedia "List of largest law firms by revenue" (AmLaw Global 200, as of 2026): 100 firms with revenue. 14 NEW; 4 of those already
+  in sibling files (Akin Gump, WilmerHale, Proskauer, King & Wood Mallesons); Fragomen left unresearched (site 403, no Wikipedia page).
+- Wikipedia "List of architecture firms": 62 active practices written to DISC (no size figures on the page).
+- Wikipedia "List of executive search firms": 12 names (few figures).
+- Wikipedia "Accounting networks and associations": Big 9 and associations (all majors IN MASTER / F1 PARTNER); associations not added.
+- ENR Top 225 International Design Firms 2025 preview (paywalled, 5 names, all listed groups). Legal Business Global 100 (paywalled).
+- Researcher candidate names (no list page) for consulting, accounting, engineering, TIC, market research, search and international
+  law, each run through check.py; figures added from the Wikipedia infobox or company page where opened.
+- Company pages used: tuv.at (about, annual report 2025 PDF), heidrick.mediaroom.com, claconnect.com/en/media, thinkbrg.com/news,
+  analysisgroup.com, cornerstone.com, idc.com/about, smec.com/about-us, ecovis.com, venable.com/about/news, grsm.com, tilke.de.
+
+REGIONS COVERED
+US, Canada, UK, Germany, Netherlands, Austria, Japan, South Korea, China, Singapore, India, South Africa, Australia/NZ, Hong Kong/Gulf
+(Aedas). Not reached: Latin America (Mattos Filho, Pinheiro Neto, Machado Meyer, TozziniFreire, Demarest: NEW, no Wikipedia pages
+found under tried titles), Spain (Cuatrecasas, Uría Menéndez: NEW, not researched), France (Gide, Fidal), Italy (Chiomenti, Gianni &
+Origoni), Middle East (Al Tamimi, Hadef, BSA), Turkey, Nordics (Mannheimer Swartling, Vinge, Roschier, Kromann Reumert), Korean firms
+other than Yulchon (Lee & Ko, Bae Kim & Lee, Shin & Kim, Yoon & Yang).
+
+LEFT OUT / NOT RESEARCHED (see DISC "why")
+- Sibling files already hold: Akin Gump, WilmerHale, Proskauer, King & Wood Mallesons, Oliver Wyman, Kroll, Egis, NSF, Ricardo,
+  Tentamus, Toluna, Normec, Pace Analytical, RINA, Expleo, Turner & Townsend, Garrigues, GTÜ.
+- Probably listed (researcher knowledge, not verified this session; flagged in DISC): AECOM, WSP, Arcadis, Jacobs, Stantec, SGS,
+  Bureau Veritas, Eurofins, UL Solutions, ALS, Mistras, Ipsos, YouGov, Gartner, Forrester, NielsenIQ/GfK, Huron, Booz Allen, CRA,
+  Acuren, NV5, EDAG, Bowman, Assystem. Moss Adams (merged into Baker Tilly) and Marcum (CBIZ) noted, not verified.
+- Subsidiaries of listed groups worth a later look: Tractebel (Engie), Compass Lexecon (FTI).
+- Tilke Engineers & Architects is in WATCH only because ownership could not be verified (tilke.de company and press pages returned
+  HTTP 429 for an hour). It designs F1 circuits (Sepang, Red Bull Ring); high ecosystem fit. Check it is not already an F1 supplier deal.
+- Executive search (Odgers, Boyden, WittKieffer, Diversified Search, Kingsley Gate, Amrop, DHR, ZRG, Eric Salmon), accounting networks
+  (Nexia, Kreston, ETL Global, MGI, Frazier & Deeter, Sikich, Saffery, AGN), TIC (ClassNK, Cotecna, AmSpec, Smithers, Alfred H Knight,
+  IMQ, Lucideon, NTS, TÜV Hessen), engineering (Fichtner, Dorsch, Obermeyer, Setec, Ingérop, Gleeds, Pacific Consultants, GFT,
+  Pennoni, Henderson, Meinhardt), market research (Savanta, Numerator) and many architecture practices remain NEW / not researched.
+
+DATA CAVEATS
+- Several revenue figures are older than three years or undated on the page (Loyens & Loeff 2022, Stikeman 2022, Zhong Lun 2022,
+  Beca 2018, Pell Frischmann 2012, Yulchon and De Brauw undated); each is labelled in the record.
+- US law firm revenue is the AmLaw Global 200 figure as reproduced on Wikipedia (fiscal year not stated).
+- IDC qualifies on Blackstone's USD 1.3bn 2021 purchase of International Data Group (then IDC plus Foundry), flagged as old.
+- SMEC's parent Surbana Jurong is IN MASTER: included as a separately branded subsidiary; user should confirm.
+- Not exhaustive.

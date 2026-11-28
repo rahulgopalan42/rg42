@@ -1,0 +1,69 @@
+NOTES t54_gap_finance_health (batch 3, 28 Nov 2026) - independent web research, MODE sector
+Scope: gaps found by t49 audit: exchanges/clearing/market data; investment banks, brokerages, advisory boutiques; mortgage lenders and
+servicers; managed health care and health insurers; life-sciences tools and CROs. Read notes_t49_gapfinder_a.txt first; did not repeat
+its 34 MAIN / 12 WATCH (Equiniti, Clearstream, LCH, Wind, KBRA, Kroll, Miltenyi, Promega, PPD, Analytik Jena, Worldwide, CrossCountry,
+Freedom, Baird, Centerview, William Blair, LionTree, Helsana, SWICA, BCBSMA, Wellmark etc.). Worked mostly from t49's unresearched DISC.
+
+== COUNTS ==
+MAIN 28 (Route A 13, Route C 15). WATCH 13. DUPS 94. DISC 346 lines (NEW 300+, of which 40 researched; rest left out or not researched).
+Names run through check.py: about 450 (several runs, with and without legal suffix and with website). Peer check against all
+b01-b03 MAIN/WATCH files with a scratch script; overlapping names left to their owners (see DISC 'why').
+MAIN by area:
+ - Life-science tools / instruments (6): Spectris (KKR, GBP 4.7bn), PerkinElmer (New Mountain, $2.45bn), Abcam (Danaher, $5.7bn),
+   Molecular Devices (Danaher; Route C), Fujifilm Wako Pure Chemical (JPY 132bn), Kanto Chemical (JPY 41.5bn, 2018 figure).
+ - CROs / pharma services (7): Precision Medicine Group (McKesson, $2.25bn, Nov 2026), Altasciences (Novo Holdings), ProPharma,
+   CMIC Holdings (JPY 104.7bn; Blackstone 60% of CMIC Co.), EPS Holdings, TFS HealthScience (Ratos).
+ - Health insurers / managed care (10): Point32Health, Daman (UAE; sports sponsor), SulAmérica (Rede D'Or), Visana (stadium naming
+   2026), Groupe Mutuel, OSDE, CareSource, HealthPartners, SCAN Health Plan, Aditya Birla Health Insurance.
+ - Exchanges / market infrastructure / M&A services (4): Borsa Italiana (Euronext, EUR 4.3bn 2021), Boerse Stuttgart Group, Datasite.
+ - Investment banking / brokerage (2): Oaklins (40 countries), Kepler Cheuvreux (700 staff, 14 centres).
+ - Mortgage (1): New American Funding (314 locations; Scotsman #12).
+WATCH: Malakoff Humanis (route met but corruption investigation and CEO removal Nov 2026), Fairway, Newrez, Harris Williams, GP Bullhound,
+IEX, Taiwan Stock Exchange, CRU Group, Clalit (statutory HMO), EmblemHealth, Velocity Clinical Research (owner unverified), The Emmes Group,
+Cytel.
+Left out: CareFirst (IN MASTER under full name; short name passed check - removed from MAIN), Caidya (Clinipace successor), Zilveren Kruis
+(Achmea), Florida Blue/BCBS Texas (master parents), DKV Deutsche (brand merging into ERGO 2027), Q2 Solutions (now IQVIA Laboratories),
+Bureau van Dijk (absorbed by Moody's), RMB (division of FirstRand Bank), Prevent Senior (owners charged June 2024), NSE India (listed 2026),
+JCR and R&I (below thresholds), Star Health/Bupa Arabia/Tawuniya/Molina/Oscar etc. (listed).
+
+== SOURCES (names extracted) ==
+- One WebSearch (mortgage rankings) -> scotsmanguide.com 2025 Top Overall Lenders: 89 names (all in DISC). WebSearch limit used.
+- en.wikipedia.org/wiki/Blue_Cross_Blue_Shield_Association: ~50 member plans (unresearched ones in DISC).
+- en.wikipedia.org/wiki/Danaher_Corporation and sciex.com/about-us: 13 Danaher operating companies with acquisition prices.
+- en.wikipedia.org/wiki/Spectris; spectris.com archive: 6 brands.
+- disc_t49_gapfinder_a.jsonl: unresearched NEW names (exchanges, CROs, IB, health plans, mortgage).
+- Researcher candidate lists per gap (exchanges, ratings, data, IB boutiques, brokerages, health insurers by country, CROs, lab tools).
+- Company pages opened for records: altasciences.com, propharmagroup.com, cytel.com, theemmesgroup.com, precisionformedicine.com (+news),
+  mckesson.com (2 releases), perkinelmer.com newsroom, moleculardevices.com, tfscro.com, velocityclinical.com, damaninsurance.ae,
+  malakoffhumanis.com, portal.sulamericaseguros.com.br, adityabirlahealthinsurance.com, newamericanfunding.com, fairway.com, newrez.com,
+  harriswilliams.com, oaklins.com, keplercheuvreux.com, gpbullhound.com, datasite.com (home, about, news), crugroup.com, iex.io, jcr.co.jp,
+  rmb.co.za. Wikipedia (en/de/fr/ja/pt/es) for Spectris, Harris Williams, Tufts Health Plan, Borsa Italiana, CareFirst, SulAmérica,
+  Malakoff Humanis, PerkinElmer, Abcam, Danaher, Visana, Groupe Mutuel, DKV, Clalit, CMIC, EPS, Prevent Senior, OSDE, Taiwan SE,
+  UnitedHealthcare, CareSource, EmblemHealth, HealthPartners, SCAN, Horizon BCBSNJ, BCBS Tennessee, BCBS Alabama, Börse Stuttgart,
+  Fujifilm Wako, Kanto Chemical, R&I, JCR.
+- Failed (404/403/503/blocked): Point32Health and BCBS NC Wikipedia titles, Signant, Emmes about, DC Advisory, Avendus, D.A. Davidson,
+  Enverus, Medscheme, Care Health Insurance, CSS (de wiki), Southern Cross NZ, Scope Ratings (wiki), Solactive company page, Excellus,
+  Bradesco Saúde (pt wiki), Celerion, Veeda, abcam.com, Altasciences news, Cytel press, Oaklins news, Spectris news, SET history,
+  Datasite/Enverus Wikipedia.
+
+== CAVEATS ==
+- Several figures are older than three years and flagged in `period`: Borsa Italiana deal 2021, SulAmérica 2021, CareSource 2020,
+  SCAN 2021, Kanto Chemical 2018, PerkinElmer deal 2022. Visana / Groupe Mutuel revenue years not stated.
+- Ownership not stated on page for Datasite (kept in MAIN: CEO IPO-readiness coverage Nov 2026 implies unlisted; outstanding flagged),
+  ProPharma (Odyssey per 2021 release; current owner to verify), Kanto Chemical Holdings listing status (to verify).
+- EPS Holdings revenue on the page (JPY 3.07bn) appears non-consolidated; qualified on Route C (7,865 staff, 7 countries).
+- Most US health plans and Swiss insurers are domestic: they qualify financially but fit scores are low. Daman, SulAmérica,
+  Boerse Stuttgart, Oaklins, Kepler Cheuvreux, Datasite and Spectris carry the clearest F1 cases.
+- signals_checked "yes" on Wikipedia-only records means the history/recent part was read; a newsroom pass could add more.
+
+== NOT REACHED ==
+- Mortgage: 80+ Scotsman lenders unresearched (CMG, Planet Home, AmeriHome, PRMG, American Pacific, NFM, Kind Lending...); loan volume
+  is not revenue, so most need employee/branch pages. UK/European specialist lenders (Together, Kensington, Precise) not opened.
+- Health plans: ~25 BCBS plans, Geisinger, Priority Health, UPMC, Medica, Sentara, Fidelis, Healthfirst, L.A. Care; German private
+  insurers (Continentale, Hallesche, Central), Dutch (CZ, DSW, ONVZ), French (Klesia, Pro BTP, Apicil, Aésio), Irish (VHI, Laya),
+  Israel (Maccabi), LatAm (Bradesco Saúde, Banmédica, Colmena), Africa (Hygeia, AAR, Medscheme, Bonitas), India (Care Health, ManipalCigna).
+- Exchanges: Chinese futures exchanges and SZSE, SET, IDX, HOSE, Gulf and North African exchanges, Wiener Börse, Cboe Europe (no revenue pages read).
+- IB/brokerage: DC Advisory, Avendus (sites blocked), PJ Solomon, Arma, Bryan Garnier, Janney, D.A. Davidson, TD Cowen.
+- Data/ratings: Scope, DBRS Morningstar, Vortexa, Euromoney, Solactive, Enverus.
+- CRO/tools: Signant, Celerion, Veeda, Lambda, KCR, CTI, Cell Signaling Technology, Sciex, IDT, MilliporeSigma, BioLegend, Proteintech.
+Nothing here is exhaustive.

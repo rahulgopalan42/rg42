@@ -1,0 +1,50 @@
+import sys; sys.path.insert(0,"scratch_k29")
+from rec import *
+AM="https://ru.wikipedia.org/wiki/Астана_Моторс"
+W("main",name="Astana Motors",website="astanamotors.kz",aliases=["Kazakh Motor Company Astana Motors","Astana Group"],hq_city="Almaty",hq_country="Kazakhstan",
+ sector="Automotive & Mobility",subsector="car distribution, retail and assembly",desc="Kazakhstan's largest car group: imports, assembles, distributes, retails and services Hyundai, BMW, Chery, Haval and other brands, with own assembly plants.",
+ products="passenger and commercial vehicles, assembly (Hyundai Trans Kazakhstan, AMMKZ multi-brand plant), parts, service",model="B2C",customers="retail car buyers, fleets",
+ ownership_type="founder-owned",parent_immediate="Astana Group",parent_ultimate="Nurlan Smagulov (majority shareholder)",parent_listed="private",
+ employees=10683,countries=5,stores_or_sites="multi-brand plant AMMKZ (capacity up to 120,000 cars a year), Hyundai Trans Kazakhstan, parts plants, dealership network",
+ markets="Kazakhstan (24% car retail share 2025), Uzbekistan (Hyundai distributor), Czech Republic, Poland, Slovakia (Chery and GWM distribution)",
+ expansion_markets="Central Europe distribution of Chinese brands (Czech Republic, Poland, Slovakia); Volvo truck production MoU",reach="International",route="A",
+ fin=kzfin(1179.79)+[{"metric":"revenue","value_orig":"KZT 973bn","usd_m":round(973000*KZT),"period":"FY2024","published":"","kind":"reported","source":AM}],qualifying_metric="revenue",
+ sponsorships=[{"rights_holder":"Astana Qazaqstan Team (Pro Team Astana)","sport":"cycling","designation":"sponsor","announced":"","duration":"","value":"","source":AM},
+   {"rights_holder":"Tour of Almaty","sport":"cycling","designation":"sponsor","announced":"","duration":"","value":"","source":AM}],
+ signals=[{"category":"geographic","what":"became Chery distributor in the Czech Republic","date":"2025","status":"confirmed","source":AM},
+  {"category":"commercial","what":"multi-brand AMMKZ plant commissioned (up to 120,000 cars/year)","date":"2025-09","status":"confirmed","source":AM},
+  {"category":"geographic","what":"Great Wall Motor distribution in Poland and Chery launch in Slovakia","date":"2026","status":"confirmed","source":AM},
+  {"category":"commercial","what":"MoU with Volvo Group on Volvo truck production in Kazakhstan","date":"2026-06","status":"confirmed","source":AM}],
+ fit="22121322",fit_rationale="Car group already paying for pro cycling and expanding into Central European distribution; F1 fits its automotive identity, BMW/Hyundai/Chery partner relations and dealer hospitality, and its new European brand-building.",
+ customer_overlap="",category_conflict="potential: automotive brands it distributes are not F1 partners, but car-maker categories are held by teams' engine partners",
+ f1_markets="Hungary, Austria (neighbouring Central Europe), Azerbaijan (region)",access=("yes","no","mid","Chairman (founder), CEO, marketing director"),
+ outstanding="exact European revenue; marketing head",sources=[AM,FS],conf="high",discovery_source=FS)
+W("main",name="Qarmet",website="qarmet.kz",aliases=["Qarmet JSC","formerly ArcelorMittal Temirtau"],hq_city="Temirtau",hq_country="Kazakhstan",
+ sector="Mining & Metals",subsector="integrated steel and coal",desc="Kazakhstan's integrated steelmaker at Temirtau with its own coal mines, iron ore sites and the country's only large-diameter pipe plant.",
+ products="flat and long steel, coated steel, tinplate, slabs, pipes, coal, iron ore",model="B2B",customers="construction, pipe and industrial buyers in 40+ countries",
+ ownership_type="founder-owned",parent_ultimate="Andrey Lavrentyev (per Forbes Kazakhstan)",parent_listed="private",employees=35461,
+ stores_or_sites="Temirtau steel plant, eight coal mines, four iron ore sites, pipe plant",markets="Kazakhstan; products sold in more than 40 countries",reach="International",route="A",
+ fin=kzfin(752.70),qualifying_metric="revenue",signals=[{"category":"commercial","what":"steel shipments of 3.8 million tonnes in 2025 reported on website","date":"2025","status":"confirmed","source":"https://qarmet.kz/en/"}],
+ fit="20011101",fit_rationale="Large steel exporter to 40+ countries; F1 hospitality could support B2B buyer relationships, but limited consumer or technical fit and steel is a low-visibility category.",
+ category_conflict="none found",access=("unknown","no","complex","CEO, commercial director"),signals_checked="no",
+ outstanding="news page not reachable (404); management and marketing contacts; ownership detail on website not shown",sources=["https://qarmet.kz/en/",FS],conf="medium",discovery_source=FS)
+BW="https://ru.wikipedia.org/wiki/BI_Group"
+W("main",name="BI Group",website="bi.group",aliases=["BI Development","BI Construction & Engineering"],hq_city="Astana",hq_country="Kazakhstan",
+ sector="Construction & Engineering",subsector="construction and residential development",desc="Kazakhstan's largest investment and construction holding, covering general contracting, infrastructure, oil and gas construction and housing development.",
+ products="general contracting, rail and bridge infrastructure, oil and gas construction (Tengiz), housing (BI Development), modular housing (ModeX), schools",model="Hybrid",customers="state infrastructure, Tengizchevroil expansion, home buyers",
+ ownership_type="founder-owned",parent_ultimate="Aidyn Rakhimbayev, Bauyrzhan Isabayev, Askhat Omarov and management",parent_listed="private",employees=7542,countries=5,
+ markets="Kazakhstan (Astana, Almaty, Atyrau, Shymkent), Uzbekistan (Tashkent), past activity in Saudi Arabia, Turkey and Georgia",reach="Regional",route="A",
+ fin=kzfin(979.04,118.12)+[{"metric":"revenue","value_orig":"about USD 2bn","usd_m":2000,"period":"2023","published":"","kind":"reported","source":BW}],qualifying_metric="revenue",
+ profitability="profitable",profitability_basis="net profit KZT 118.12bn per Forbes Kazakhstan 2025",
+ alt_indicators=[{"indicator":"industry ranking","evidence":"ranked 193rd in ENR Top 250 Global Contractors","source":BW}],
+ signals=[],fit="20011211",fit_rationale="Largest Kazakh contractor with Gulf and Uzbek ambitions and stated aim to join the global top 100 contractors; F1 could support B2B and international credibility, though consumer housing brand is domestic.",
+ category_conflict="none found",f1_markets="Saudi Arabia (past activity)",access=("yes","no","complex","Chairman (founder), group marketing director"),
+ outstanding="company site refused (403); no 2025-2026 events found on Wikipedia; Bonds on AIX (debt only, shares not traded)",sources=[BW,FS],conf="medium",discovery_source=FS)
+MW="https://ru.wikipedia.org/wiki/Magnum_Cash_&_Carry"
+W("main",name="Magnum Cash & Carry",website="magnum.kz",aliases=["Magnum"],hq_city="Almaty",hq_country="Kazakhstan",sector="Retail & E-commerce",subsector="grocery hypermarkets and supermarkets",
+ desc="Kazakhstan's largest grocery retailer, operating hypermarkets, supermarkets and Magnum Express and Daily convenience stores in a dozen cities.",products="grocery retail, wholesale",model="B2C",customers="over 350,000 shoppers a day",
+ ownership_type="founder-owned",parent_immediate="subsidiary of Caspian Trading Investment Co. Ltd",parent_ultimate="Azamat Osmanov and Ilya Kirichenko (per Forbes Kazakhstan)",parent_listed="private",
+ employees=9599,stores_or_sites="186 outlets (Wikipedia)",markets="12 cities in Kazakhstan",reach="Domestic",route="A",fin=kzfin(453.13),qualifying_metric="revenue",
+ signals=[{"category":"geographic","what":"decided to restructure foreign assets and exit Uzbekistan to focus on Kazakhstan","date":"2025-06","status":"confirmed","source":MW}],
+ fit="01001130",fit_rationale="Mass-market grocery leader could run consumer promotions with FMCG suppliers, but it is purely domestic and just retreated from Uzbekistan, so F1 geography is weak.",
+ category_conflict="none found",access=("yes","no","mid","General director, marketing director"),outstanding="company site renders no text; marketing head",sources=[MW,FS],conf="medium",discovery_source=FS)
