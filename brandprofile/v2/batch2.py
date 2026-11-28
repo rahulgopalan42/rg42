@@ -63,6 +63,7 @@ def register(D, Q, W, I, X, batch):
     def loose_row(d, stream, name, site, country, sector, figure, source, cluster, logged_stage='', why=''):
         r = get(name, site); r['streams'].add(stream); src(r, source)
         if stream == 'Clay': r['nclay'] += 1
+        elif stream == 'Crunchbase': pass
         elif cluster: r['origins'].add(cluster)
         if not r['country']: r['country'] = B.clean(country)
         if not r['sector']: r['sector'] = sector
@@ -86,6 +87,14 @@ def register(D, Q, W, I, X, batch):
         r.setdefault('clay', d)
         if r['stage'] == 'New: not yet researched' and LISTED_TXT.search(B.clean(d.get('desc'))):
             r['stage'] = 'Not researched: its Clay description mentions a stock listing (its own or its parent\'s)'; r['check'] = 'Clay marks it privately held; to confirm'
+    for d in D.get('crunchbase') or []:
+        def _m(v):
+            try: return float(v) / 1e6
+            except Exception: return None
+        ft, val = _m(d.get('funding_total_usd')), _m(d.get('valuation_usd'))
+        fig = '; '.join(x for x in ((f'Total funding (Crunchbase): USD {ft:,.0f}M' if ft else ''), (f'Valuation (Crunchbase): USD {val:,.0f}M' if val else ''), ('last round ' + B.clean(d.get('last_round')) if B.clean(d.get('last_round')) else '')) if x)
+        r = loose_row(d, 'Crunchbase', d['name'], d.get('domain') or d.get('website'), d.get('country'), clay_sector(d.get('industry')), fig, d.get('permalink'), d.get('_file', 'crunchbase'))
+        r.setdefault('crunchbase', d)
     for nm, why, key, b in D['dups']:
         if not nm: continue
         w = why.upper(); lg = 'Left out: listed company' if 'LISTED' in w else ('Left out by the research: ' + why[:140]) if not any(t in w for t in ('MASTER', 'DELIVERED', 'F1 PARTNER')) else ''

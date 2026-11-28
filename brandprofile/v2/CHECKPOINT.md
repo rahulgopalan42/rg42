@@ -1,4 +1,35 @@
-# Continuation checkpoint: non-public prospecting (state on 27 Nov 2026, end of batch 2)
+# Continuation checkpoint: non-public prospecting
+
+## Batch 3 is IN PROGRESS (started 28 Nov 2026). Read this section first.
+
+The user's go-ahead and further instruction of 28 Nov are in `INSTRUCTION-COVERAGE-AND-PRIORITISATION.md`. Working brief:
+`brief_b03.md`. Every task is defined in `batches/b03/tasks.md`. What has been launched and finished: `batches/b03/launch_log.md`.
+What is still to launch, in order: `batches/b03/pending.txt` (take from the top; 20 background agents at once is the hard limit).
+
+Prompts used (general-purpose agent, model opus, background):
+- sector / country / subsidiaries: "Batch 3 researcher ... KEY: <key>. MODE: <mode>. Work in /home/user/rg42/brandprofile. Read
+  v2/brief_b03.md in full, find your KEY in v2/batches/b03/tasks.md, then read v2/brief_b02.md and v2/brief_discovery.md, and do the work.
+  Write only your own files in v2/batches/b03/. WebSearch limit N. Never run git. No invented facts. Final report under 100 words."
+- queue (rNN_queue): the same with MODE queue, `v2/brief_queue.md`, INPUT `v2/batches/b03/in_qNN.jsonl`, WebSearch 0.
+- clay (clay_iNN, clay_cNN): MODE clay, `v2/brief_clay.md`, OUT `v2/discovery/clay/<key>.jsonl`, search only, never enrichment.
+- signals (sNN_signals): `v2/brief_signals.md`, INPUT `in_sNN.jsonl`, OUTPUT `sig_sNN.jsonl`, WebSearch 0.
+- audit (xNN_...): `v2/brief_audit.md`; run these only when most research files exist.
+
+While agents write, `snap.sh` in the scratchpad commits and pushes `batches/b03` and `discovery/` every few minutes and hides them
+from `git status` (skip-worktree + `.git/info/exclude`); `touch <scratchpad>/snap.stop` ends it and restores the flags.
+
+After the research: `queue.py b03 80 <n> <start>` for names discovered in batch 3 (write them as `in_qNN` from 68 upwards, key
+`rNN_queue`); `signals_queue.py 40 <research rows> <older rows> <start>` for a further signals wave; audits `x01` to `x08`; then
+`fuzzy.py b03`, `manual_dups.json`, `deliver.py b03 ../reports/F1-New-Non-Public-Prospects-Batch-3.xlsx`, `validate.py`, and
+`consolidated.py ../reports/F1-New-Brands-All-Sectors.xlsx --record` (the lead deliverable: every new brand, all batches plus the
+re-scored older-sheet brands). Crunchbase: a wake-up is scheduled for 1 Dec 2026 00:10 UTC; rows go to `discovery/crunchbase/*.jsonl`
+(reader already in `build.load` and `batch2.register`).
+
+Scoring changed on 28 Nov (see `score.py`): unknowns score the midpoint; unresearched intent takes the average of researched companies.
+
+---
+
+# State at the end of batch 2 (27 Nov 2026)
 
 Read `GOVERNING-METHODOLOGY-NON-PUBLIC.md`, `INSTRUCTION-MULTI-SOURCE-DISCOVERY.md` and `README.md` first.
 

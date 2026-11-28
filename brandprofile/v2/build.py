@@ -185,9 +185,15 @@ def load(only=None):
             for d in read_jsonl(p):
                 if clean(d.get('name')): d['_file'] = os.path.basename(p)[:-6]; clay.append(d)
         for p in sorted(glob.glob(os.path.join(H, 'discovery', 'clay', 'notes_*.txt'))): notes[os.path.basename(p)[6:-4]] = open(p, encoding='utf-8', errors='replace').read()
+    cb = []
+    if only != 'b01':                                       # the Crunchbase stream (first run: December 2026): same row idea as Clay, plus funding_total_usd, valuation_usd, last_round, permalink
+        for p in sorted(glob.glob(os.path.join(H, 'discovery', 'crunchbase', '*.jsonl'))):
+            for d in read_jsonl(p):
+                if clean(d.get('name')): d['_file'] = os.path.basename(p)[:-6]; cb.append(d)
+        for p in sorted(glob.glob(os.path.join(H, 'discovery', 'crunchbase', 'notes_*.txt'))): notes[os.path.basename(p)[6:-4]] = open(p, encoding='utf-8', errors='replace').read()
     n = Counter(d['_cluster'] for d in disc)
     for k, v in n.items(): CHECKED[k] = v
-    return {'recs': out, 'raw': raw, 'excluded': excluded, 'xdup': xdup, 'dups': dups, 'notes': notes, 'disc': disc, 'clay': clay, 'only': only}
+    return {'recs': out, 'raw': raw, 'excluded': excluded, 'xdup': xdup, 'dups': dups, 'notes': notes, 'disc': disc, 'clay': clay, 'crunchbase': cb, 'only': only}
 def order_key(d): a = d['A']; return (-a['total'], -a['fin'], -a['fit'], -a['intent'], -a['access'], len(a['flags']), clean(d['name']).lower())
 def classify(R):
     """qualified = a route is met and capacity is Confirmed or Indicative; watch = no route met (financial verification needed); low = Insufficient capacity"""
