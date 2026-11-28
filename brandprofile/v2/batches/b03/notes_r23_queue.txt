@@ -1,0 +1,34 @@
+r23_queue (batch 3, queue mode) - 28 Nov 2026
+INPUT: in_q23.jsonl, 80 lines, all processed. WebSearch used: 0. WebFetch plus curl for one IBISWorld PDF (pdftotext) and one Trace3 link lookup.
+Wikipedia API via curl was rate-limited (HTTP 429/"too many requests") early on; switched to WebFetch.
+
+RESEARCHED - MAIN (22): Fatima Group (A, revenue $1.5B), Sunrise Medical (C), Fairbrother (A, FY21 revenue, flagged),
+Lowes [input name Lowes-Manhattan] (A, FY22), Bank Australia (A, FY22), Wellcom Group (A, FY20), Corporación El Rosado (A),
+Peak Games (A, $1.8B acquisition 2020), Taisho Pharmaceutical Holdings (A, ~¥710bn MBO 2024), Timetoact Group (A, >EUR 460m 2025),
+FRS (C), Perforce (C), Westermann Gruppe (C), Tokushukai (A, FY2020), Jelly Belly (A, $190m), Lorna Jane (C), French Bee (C),
+Global Feeder Shipping (C), Trace3 (C), Metito (C), Julius Meinl (C), Grupo Pellas (C).
+Strongest Formula 1 cases: Trace3 (already runs a sportscar racing B2B programme and an NFL data partnership; CrowdStrike logo),
+Perforce, Timetoact, Taisho (Lipovitan D, rugby sponsor), Julius Meinl, Lorna Jane.
+Three Australian IBISWorld rows use FY2020-22 revenue just above USD 150M: old figures, flagged; conf low.
+
+RESEARCHED - WATCH (27): VIBGYOR High, Jarritos, Santikos Theatres, FlyUSA, Linde Werdelin, Fred. Olsen Express, Fred. Olsen Cruise Lines,
+Rocky Patel (tobacco - category blocked), Marius Pedersen, Wellington College International, Jel Sert, SF Group, Locman, Santa Margherita
+Gruppo Vinicolo, Martin GmbH, Groupe Forrest International (compliance flag: 2002 UN panel), Silverbird Group, Fullers360, PGL Esports,
+Ster-Kinekor, Jordans, Louis Erard, União Química, Wyzant, Meridian Waste, Pulsar Gaming Gears, Schwarze & Schlichte.
+
+LEFT OUT - DUPS (25):
+ duplicates via check.py/aliases: Correos, Renfe Viajeros, Bershka Bsk España, D1 (Tiendas D1), CUF, Groupe Al Mada, Mills Oakley,
+   Dinosol, Four Seasons Yachts (Four Seasons delivered b02), Daiso A-Sung (Daiso brand on master - judgement call, see DUPS line).
+ listed: Tigo (Millicom), CPFL Energia, CRRC, Wiley, Torrent, Schlumberger (Vienna, per de.wikipedia).
+ not a separate company: Tempe (Inditex footwear unit), Stradivarius España, Iberdrola Financiacion, TSG Interactive Spain (Flutter),
+   Coupang Fulfillment Services, Creganna Medical (TE Connectivity), CP-Meiji (sells the Meiji brand), Grupo Kaluz (holding of listed Orbia/Byline).
+ not a commercial prospect: Corporate Life with McAden (2-person talk show).
+
+NOT RESEARCHED (6): National Group, Mintego (own domains unresolvable from this session; only IBISWorld rows: AUD 232.9m FY21/88 staff and
+AUD 231.1m FY22), Boston Australia Pty Limited (site 503 twice; IBIS row AUD 233.5m FY22), Crossover (site returns only a title; no Wikipedia
+article), TowerCo Africa (domain unresolvable, no Wikipedia article), Daan Hotels and Resorts (site has only a title; LinkedIn shows 2 staff).
+
+GAPS: Owners not confirmed for Sunrise Medical, Timetoact, Trace3, Global Feeder Shipping (AD Ports stake not on pages opened), Perforce revenue,
+FlyUSA/PGL basic facts. Grupo Pellas needs sanctions/compliance screening. Tokushukai is a non-distributing medical corporation (医療法人):
+confirm it counts as a commercial prospect. Fred. Olsen Cruise Lines may qualify once Bonheur's annual cruise segment revenue is read.
+Lists/pages used: IBISWorld Top 500 Private 2022 PDF, elEconomista ranking pages, channelpartner.de top-25 ranking, Alphaliner table on Wikipedia.
