@@ -1,0 +1,42 @@
+clay_i09 (batch 3, MODE clay, deeper paging) - 28 Nov 2026
+Industries: Retail; Retail Groceries; Retail Apparel and Fashion; Retail Luxury Goods and Jewelry.
+Filter on every query: company_type in ("Privately Held","Partnership","Self Owned"). Search only; no enrichment, no rendering, no WebSearch.
+Page caps (industry line): P1=2, P2=2, P3=1. 20 Clay pages read in total (20 rows each). No industry enum value was rejected.
+
+Query | pages read | rows saved | where it stopped
+Retail | 1B-10B,10B-100B,100B-1T                              | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Retail | 500M-1B                                              | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Retail | 200M-500M                                            | 1 | 20 | cap reached, hasMore=TRUE (unfinished)
+Retail Groceries | 1B-10B,10B-100B,100B-1T                    | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Retail Groceries | 500M-1B                                    | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Retail Groceries | 200M-500M                                  | 1 | 20 | cap reached, hasMore=TRUE (unfinished)
+Retail Apparel and Fashion | 1B-10B,10B-100B,100B-1T          | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Retail Apparel and Fashion | 500M-1B                          | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Retail Apparel and Fashion | 200M-500M                        | 1 | 20 | cap reached, hasMore=TRUE (unfinished)
+Retail Luxury Goods and Jewelry | 1B-10B,10B-100B,100B-1T     | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Retail Luxury Goods and Jewelry | 500M-1B                     | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Retail Luxury Goods and Jewelry | 200M-500M                   | 1 | 20 | cap reached, hasMore=TRUE (unfinished)
+
+Total rows: 400. All four industries reached; every query still had more pages (a later run could page further).
+disc_check.py result: NEW 229, IN MASTER 91, ALREADY DELIVERED 35, POSSIBLE 24, LISTED 10, F1 PARTNER 11.
+
+Observations (from Clay rows only, not verified):
+- Clay's "Privately Held" tag is unreliable: several rows describe listed companies (Magalu "listada no Novo Mercado da B3", Petz
+  "IPO 2020", Cenomi/AFG Retail "Tadawul: 4240", LuxExperience "NYSE listed", Inditex, Next, Cencosud, Falabella, GPA, Grupo Exito,
+  El Puerto de Liverpool, La Comer, SMU, Guess, Birkenstock, Swatch Group, LVMH, Malabar per its own text has 4,000+ shareholders).
+- Many rows are subsidiaries/brands of listed groups: Inditex brands (Zara, Bershka, Stradivarius, Pull&Bear, Oysho), LVMH maisons
+  (Louis Vuitton, Celine, Bvlgari, Loewe, Loro Piana, Rimowa, TAG Heuer, Chaumet, DFS), Kering houses (Gucci, Balenciaga, McQueen,
+  Boucheron, Brioni, Kering Eyewear), Richemont maisons (Van Cleef, Piaget, Jaeger-LeCoultre, Chloe, dunhill), Swatch's Breguet,
+  BMW's Rolls-Royce Motor Cars, Reliance Retail / Reliance Brands, Tata's CaratLane, Falabella units (Sodimac, Tottus, Saga),
+  Landmark units (Max, VIVA). Under the batch 3 rule some trade under their own brand and may qualify; parent noted in desc.
+- National entities of multinationals to drop: Carrefour Espana/Argentina, Lidl Espana/Italia, ALDI USA/Espana/Belgium/Portugal,
+  Walmart Chile, Woolworths NZ, OXXO Chile, C&A Mexico, SHEIN U.S., ASICS EMEA, FNAC Portugal, Urban Outfitters Europe, Alshaya Avrasya.
+- Junk/placeholder rows kept as instructed ("skip nothing"): "Not Applicable" (google.com), Interdrill (xxxx.com.au), Nadin Shreshta,
+  The Kings Toys, Gemopolis, GoldenCityIstanbul, Sakeus LLC, JEWELSTAR GROUP, Garment Buying House, Hussmann (refrigeration maker
+  mis-tagged as grocery). Filter later.
+- Interesting NEW-type candidates by region: Middle East (Majid Al Futtaim, Landmark, Alshaya, Apparel Group, Azadea, Al Tayer, GMG,
+  Lulu, Chalhoub, noon, Sharaf DG, Seddiqi, BFL, Huda Beauty, Arabian Oud, Mohamed Hilal, MAGRABi, Grandiose, West Zone),
+  Turkey (LC Waikiki, Koton, Boyner, Eren Perakende, Beymen), India (Malabar, Kalyan, GRT, Kiran Gems, BlueStone, GIVA, FirstCry,
+  Fabindia, Ratnadeep), LatAm (Havan, Supermercados BH, Corporacion Favorita, Riachuelo, Pernambucanas, Dollarcity, Grupo Axo,
+  Vivara, Cooperativa Obrera, La Anonima), South Asia apparel makers (DBL, Brandix, Hirdaramani, Shahi, Epyllion, Ananta, AGI Denim).
+- Already-known F1 links flagged by check.py include TAG Heuer, Rolex, LVMH and others (F1 PARTNER 11).

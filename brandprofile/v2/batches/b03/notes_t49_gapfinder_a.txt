@@ -48,3 +48,62 @@ Covered (for the record): all other GICS sub-industries map to at least one task
 
 == 2. WHAT I RESEARCHED (largest gaps first) ==
 (see below; appended as the work went on)
+Gaps researched, in order: (1) Financial Exchanges & Data; (2) Life Sciences Tools & Services (CROs, lab tools); (3) Mortgage Finance;
+(4) Investment Banking & Brokerage; (5) Managed Health Care; (6) Forest Products; (7) Heavy transportation equipment (rolling stock,
+locomotives, rail leasing); (8) Office Services & Supplies; (9) Coal / Oil & Gas Storage & Transportation (midstream).
+Checked and found ALREADY WELL COVERED in practice by earlier batches (so not a real gap despite no b03 task line): Household Products
+(most names IN MASTER or delivered by batch 2 s12: SC Johnson, Bolton, Werner & Mertz, Wings, Liby, Ypê, Hayat, Evyap, Dalli, Melitta);
+Advertising (batch 2 s05 and b03 queues hold Horizon, Serviceplan, Global, Ocean Outdoor, W+K, PMG, Brandtech etc.); Tobacco (batch 2 s03).
+
+== 3. SOURCES USED (names extracted) ==
+- en.wikipedia.org/wiki/Global_Industry_Classification_Standard - the audit frame (163 sub-industries).
+- en.wikipedia.org/wiki/Blue_Cross_Blue_Shield_Association - 37 member plans.
+- en.wikipedia.org/wiki/Contract_research_organization - ranking table + navbox, 24 names.
+- intuitionlabs.ai/articles/cro-market-share-2026 - 10 CRO revenue figures + 7 names (Parexel, Syneos estimates; Everest, Sermes).
+- medcitynews.com/2026/01/worldwide-clinical-trials-to-buy-catalyst-... - 6 names (Worldwide, Catalyst, Kohlberg portfolio).
+- One WebSearch (CRO rankings) - led to the two pages above. WebSearch limit (1) used.
+- Researcher candidate lists for each gap (exchanges, mortgage lenders, IB boutiques, forest, rail, office, household, midstream), every
+  name run through check.py (with and without legal suffix) and a peer-file check against all b01-b03 research files.
+- Company pages opened for records: Wikipedia articles (EN, and DE for Helsana, SWICA, Techniker Krankenkasse) for 40+ companies;
+  company sites movement.com/about, freedommortgage.com/about-us, ppd.com, analytik-jena.com/company.
+- Failed / 404: Fairway, New American Funding, Movement leadership page, Freedom news page, Miltenyi and Promega newsrooms, Gilson,
+  Ergomed, Södra, Binderholz, Kastamonu Entegre (500), Škoda Group, Akiem (redirected to SNCF Logistics, unusable), Mabanaft, Kinnarps,
+  Teknion, CSS (DE). Wikipedia API from the shell was rate-limited (429), so WebFetch was used instead.
+
+== 4. COUNTS ==
+DISC lines: 420 (check: NEW 297, IN MASTER 70, ALREADY DELIVERED 28, LISTED 14, POSSIBLE 8, F1 PARTNER 3; stage: researched 47,
+left out 148, not researched 225). DUPS: 108 (IN MASTER / delivered / F1 / aliases of master names such as Florida Blue -> GuideWell,
+Regence -> Cambia, Guaranteed Rate -> Rate, Dealogic/Acuris/Cerved -> ION Group, Huber Engineered Woods -> J.M. Huber).
+MAIN: 34. WATCH: 12.
+MAIN by gap: exchanges & financial data 6 (Equiniti, Clearstream, LCH, Wind Information, KBRA, Kroll [advisory/risk]); life sciences tools
+& CROs 5 (Miltenyi Biotec, Promega, PPD, Analytik Jena, Worldwide Clinical Trials); mortgage finance 2 (CrossCountry Mortgage, Freedom
+Mortgage); investment banking 4 (Baird, Centerview, William Blair, LionTree); managed health care 4 (Helsana, SWICA, BCBS Massachusetts,
+Wellmark); forest products 4 (Metsä Group, Sierra Pacific Industries, Roseburg, Moelven); rolling stock / rail 5 (Pesa, Progress Rail,
+Hitachi Rail, Beacon Rail, Alpha Trains); office supplies & furniture 3 (Office Depot, Fellowes, Steelcase); midstream 1 (Buckeye).
+WATCH: Movement Mortgage (ownership unverified), New England Biolabs, Allen & Company, The Raine Group, Qatalyst, OCC, Shanghai Stock
+Exchange, Borsa Istanbul, MEMX, Techniker Krankenkasse (public-law body), Colonial Pipeline, Pelikan.
+Left out for compliance: Drummond Company (route met; executives charged in Colombia with financing AUC paramilitaries, per Wikipedia).
+
+== 5. CAVEATS FOR THE BUILD ==
+- OVERLAP: t50_gapfinder_b (running in parallel) also wrote Metsä Group and Sierra Pacific Industries to its MAIN file. Keep one of each.
+  Worldwide Clinical Trials is also in b03 in_q26 (queue not yet run); William Blair and Hitachi Rail sit unresearched in t04/u01/u08 DISC.
+- Category signal worth passing on: Edward Jones (McLaren) and Stephens (Williams) are current F1 partners, so US wealth / investment
+  banking is a live category; Baird, William Blair and Centerview carry that as a potential conflict in category_conflict.
+- Many figures are older than three years and flagged in `period` (Baird 2020, Kroll valuation 2020, Buckeye 2014/2019, Roseburg 2012,
+  BCBSMA 2017, SPI c.2018, Analytik Jena 2021); Moelven turnover has no year.
+- Wikipedia pages for most of these companies show no dated events since Dec 2024; signals_checked = "yes" means the history/recent part
+  was read and nothing dated was found, not that no signals exist. A newsroom pass would add signals.
+- check.py POSSIBLE for Clearstream ("Clear", Red Bull partner) and Sierra Pacific ("Sierra") are different companies.
+- Domestic-only health plans (BCBSMA, Wellmark, Helsana, SWICA) qualify financially but carry low F1 fit scores.
+
+== 6. NOT REACHED ==
+- Managed care: 30+ BCBS plans and Point32Health, SCAN, HealthPartners, Excellus etc. in DISC unresearched; CSS (Swiss) page failed.
+- Exchanges: Shenzhen, Taiwan, Qatar, Thailand, Indonesia, Chinese futures exchanges, Wiener Börse, Boerse Stuttgart, Scope Ratings,
+  DBRS Morningstar, JCR, R&I unresearched (most lack published revenue on Wikipedia).
+- Mortgage: Fairway, New American Funding, Lakeview, Cardinal, Veterans United, Union Home etc. unresearched (no Wikipedia pages; site
+  pages 404). A mortgage-lender ranking (Scotsman Guide / Inside Mortgage Finance) was not opened.
+- CRO/tools: Altasciences, ProPharma, Signant, Cytel, Emmes, Veranex, Everest, Sermes, Gilson unresearched.
+- Forest: Binderholz, Klausner, HS Timber, Mayr-Melnhof Holz, Hasslacher, Södra, Setra, Kastamonu Entegre, Yildiz Entegre, Hampton,
+  Stimson, Green Diamond unresearched. Rail: Škoda Group, Akiem, Railpool, CZ Loko, Loram unresearched.
+- Coal and uranium (beyond Drummond), self-storage, healthcare and hotel REITs, communications equipment, specialty retail (sporting
+  goods, pet, furniture chains) and air cargo were named as gaps but not researched. Nothing here is exhaustive.
