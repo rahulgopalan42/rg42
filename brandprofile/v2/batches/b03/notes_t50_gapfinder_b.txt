@@ -1,0 +1,52 @@
+NOTES t50_gapfinder_b (batch 3, 28 Nov 2026) - independent sector audit, second view (NACE Rev. 2 / ISIC divisions + LinkedIn industries)
+
+== 1. INDUSTRIES NO BATCH 3 TASK COVERS ==
+Method: walked the NACE Rev. 2 divisions (01-99, which map one-to-one to ISIC Rev. 4 divisions) and the LinkedIn industry list, and
+compared each with the sector list and every task line in v2/batches/b03/tasks.md (sector t01-t53, subsidiaries u01-u08, country
+k01-k30, clay, audit x01-x08). Country / subsidiary / clay / audit lines cut across industries and are not counted as covering an
+industry unless the line names it. The classification lists were walked from working knowledge of their structure (no page fetched for
+the code list itself); the comparison with tasks.md is from the file as read on 28 Nov 2026. t49 (GICS view) lists its own gaps in
+notes_t49_gapfinder_a.txt; where both views find the same gap it is marked [also t49].
+
+NOT COVERED (no task line names the activity):
+ 1. NACE 02 Forestry and logging + NACE 16 wood products (sawmills, timber, wood panels, CLT). t11 = pulp/paper/packaging only. [also t49]
+ 2. NACE 03 Fishing and aquaculture (fishing fleets, salmon/shrimp farming). t19 names seafood PROCESSORS only.
+ 3. NACE 12 Tobacco + nicotine alternatives (vapes, pouches) and cannabis/CBD. No b03 sector line (b02 s03 only). Low F1 usability. [also t49]
+ 4. NACE 13 Textiles as manufacturing (spinning, weaving, technical textiles, home textiles) - t22 says "textile groups" in passing only.
+ 5. NACE 23.4 Ceramic tableware / household ceramics and porcelain (t33 covers building ceramics only).
+ 6. NACE 25.4 Weapons and ammunition for the civil market (sporting firearms, hunting); t05 covers defence only. Compliance-sensitive.
+ 7. NACE 30.2 Railway rolling stock and rail equipment manufacturers (t48 = operators). [also t49]
+ 8. NACE 29.1/30.9 Recreational vehicles, caravans and motorhomes; recreational boats below superyacht level (t36 = yacht builders only).
+ 9. NACE 32.2 Musical instruments, and pro-audio / live-sound equipment makers (LinkedIn "Musical Instrument Manufacturing").
+10. NACE 32.3/32.4 named only through t21 "sporting goods, toys" - covered. (listed here only to show it was checked)
+11. NACE 45.2 Maintenance and repair of motor vehicles: auto-service chains, collision-repair groups, car-wash chains, tyre-fitting
+    networks. t27 names aftermarket parts retail and car-care BRANDS, not service/collision/car-wash operators.
+12. NACE 47.6/47.7 specialty retail: pet stores, toy stores, sporting-goods retail, book and music retail, musical-instrument retail
+    (t24 lists supermarkets, discounters, convenience, DIY, electronics, pharmacy, department stores, duty free). [partly also t49]
+13. NACE 53 Postal - covered by t35 (postal services) and t17 (parcel). Checked, not a gap.
+14. NACE 72 Scientific R&D / contract research organisations. [also t49: Life Sciences Tools & Services]
+15. NACE 73.1 Advertising agencies and media owners - no b03 sector line (b02 s05; clay_i14 only). [also t49]
+16. NACE 75 Veterinary - covered by t26 (veterinary chains). Pet services beyond vets (grooming, pet insurance, pet care) - not named.
+17. NACE 88.91 Child day-care (nursery and childcare chains). t38 names schools, universities, tutoring; not childcare.
+18. NACE 90 Creative and performing arts, live shows, theatre operators (t30 names "event promoters" only).
+19. NACE 91 Museums, zoos, aquariums, botanical gardens, heritage attractions (t31 names theme parks only).
+20. NACE 94 Membership organisations: religious, non-profit, trade unions, political, professional bodies - not covered; mostly
+    ineligible (no commercial operating business / own-share test not meaningful). Not researched by design.
+21. NACE 95 Repair of computers, phones and household goods (device-repair and refurbishment chains, e.g. recommerce).
+22. NACE 96.01 Laundries and dry cleaning (consumer side; t45 covers industrial textile services).
+23. NACE 96.03 Funeral and related services (funeral homes, crematoria, cemeteries).
+24. NACE 96.09 Other personal services: weddings and bridal, dating (t43 covers dating), tattoo, pet grooming.
+25. LinkedIn "Golf Courses and Country Clubs", "Racetracks" (horse racing operators, not motor circuits), "Recreational Facilities"
+    (bowling, trampoline, family entertainment centres, marinas) - not named by any task (t39 covers motor circuits only).
+26. NACE 33 Repair and installation of machinery (industrial MRO outside aviation) - only aviation MRO named in t05.
+27. NACE 43 Specialised construction trades (electrical, mechanical and HVAC contractors, scaffolding) - t33 names contractors / EPC
+    generally; specialist trades named nowhere.
+28. NACE 77.2 Rental of personal and household goods (party rental, consumer rental) and 77.4 IP leasing (brand licensing agencies).
+29. Space, postal, sports clubs: covered (t41/t05, t35/t17, t30) - checked, not gaps.
+
+Highest F1 relevance among the gaps (what this run researches, in order): 11 vehicle repair / collision / car wash (motorsport-native
+audience, large private US and European groups); 9 musical instruments & pro audio (premium audio, entertainment partners);
+12 specialty retail (pet, toy, sporting goods, music); 8 RVs/caravans & boats; 1 forestry/wood panels; 2 fishing/aquaculture;
+18/19/25 live entertainment, attractions, golf/racetracks; 17/23 childcare and funeral (scale but weak fit: DISC/WATCH).
+
+== 2. WORK LOG ==

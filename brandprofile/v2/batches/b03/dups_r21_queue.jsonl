@@ -15,3 +15,5 @@
 {"name": "CIMRU - The Canadian International Market Research Union", "why": "other: 2 employees per Clay; Clay USD 1-10B revenue bracket implausible; no evidence of scale"}
 {"name": "City Jobs Myanmar", "why": "not a separate company: recruitment portal of City Holdings Group (input description), 2 employees per Clay; check.py: City Holdings ~ City Group ALREADY DELIVERED (b02)"}
 {"name": "Clarion Times", "why": "other: Nigerian news organisation with 28 employees per Clay; Clay USD 1-10B revenue bracket implausible; no evidence of scale"}
+{"name": "Ferrari World", "why": "not a separate company: Abu Dhabi theme park owned by Miral and operated under licence from Ferrari (Ferrari is an F1 team/power-unit supplier) per https://en.wikipedia.org/wiki/Ferrari_World; owner Miral not on check.py, noted for a later run"}
+{"name": "SiCarrier", "why": "other: compliance. Added to the US Department of Commerce Entity List in December 2024 (export controls); owned by Shenzhen Municipal Government, per https://en.wikipedia.org/wiki/SiCarrier"}

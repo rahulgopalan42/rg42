@@ -56,3 +56,6 @@ launched: t49_gapfinder_a | finished: k19_india_giants (36 main, 10 watch, 566 d
 launched: r21_queue | finished: u03_europe_subs_a (39 main, 6 watch, 133 disc)
 launched: clay_i07 | finished: r17 (32/21)
 launched: u05_asia_subs | finished: r18 (32/26). BUILD NOTE: some queue MAIN records are public bodies or charities rated fit 0 (public hospital, city water utility, charity): leave out of the ranking as not commercial prospects
+launched: r22_queue | finished: t43_creator_consumer_apps (42 main, 5 watch, 97 disc). F1 CHECKS before delivery: Gopuff (McLaren 2022, confirm ended), Kick (ex Sauber title partner; parent Easygo on master), DICE (parent Fever is an F1 partner)
+launched: t50_gapfinder_b | finished: r19 (24/20)
+launched: clay_i08 | finished: k17_china_a (18 main, 276 disc; Wikipedia, Wikidata and Baidu Baike refused or rate-limited; 88 ACFIC names not reachable; ~55 unlisted parents of same-brand listed companies left out)

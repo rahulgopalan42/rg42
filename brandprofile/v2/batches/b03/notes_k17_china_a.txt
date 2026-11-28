@@ -1,0 +1,29 @@
+k17_china_a - mainland China, ACFIC (All-China Federation of Industry and Commerce) Top 500 private enterprises, ranks 1-250. Run 28 Nov 2026.
+
+SOURCES (names extracted)
+- 2026 China private enterprise top 500 (ACFIC, released 22 Sep 2026, FY2025 revenue): https://www.acfic.org.cn/ztzlhz/500q2026/hyfb_500q2026/202609/t20260922_331490.html
+  The list is a single tall JPEG (W020260922444542877116.jpg); ranks 1-250 were transcribed by reading cropped images. 250 names. Treat revenue figures as transcribed (spot-check before quoting).
+- 2025 China private enterprise top 500 (ACFIC, released 28 Aug 2025, FY2024 revenue), HTML table on Sina Finance: https://finance.sina.com.cn/zt_d/subject-1756377102 . 250 names (ranks 1-250); 26 of them are not in the 2026 top 250 and were added to DISC.
+- Company websites opened directly (about, news pages): rizhaosteel.com, huinenggroup.com, fuyegroup.com, ddh.cn, cqbosai.com, hongwang.cn, luligroup.com, fujiagroup.com, chinapeople.com, delixi.com, duofugroup.com, chambroad.com, tianyuanmengye.com, xinjinsteel.com, xinghaigroup.com, guizang.net, hongshigroup.com; plus zhenshigroup.com / zhenshi.com, auxgroup.com, tianneng.com, nanshan.com.cn, enn.cn, sany.com.cn (used only to decide exclusions).
+- ACFIC entrepreneur article (Rongcheng chairman), zh.wikipedia extracts (Rongsheng, Shenghong, Hengyi, Nanshan, Youngor, TBEA, Delixi, GCL) fetched before Wikipedia rate-limited this session.
+- WebSearch used: 2 of 2 (one to find the 2025 list, one to find the 2026 list).
+- Clay: one search used only to look up official websites (found a Highsun page; the Highsun site it named is suspended). Crunchbase allowance exhausted (request 882b57647bb6d123a4873031958f18d4).
+
+COUNTS
+- Names extracted: 276 (250 from 2026 list + 26 from 2025 list only); all run through check.py, plus legal-suffix-free and alias variants.
+- IN MASTER 26 (incl. 8 that check.py missed or flagged POSSIBLE and I judged the same brand: Weiqiao, Jianlong, Geely Holding, Envision, Wumart, Chint, Hengtong, OPPO), ALREADY DELIVERED 3 (Shagang, Wanda Holding, Cainiao). All 29 in DUPS.
+- Listed companies (own shares trade) left out: 88.
+- Unlisted parent groups whose main operating company under the same brand is listed: left out (about 55), following the master's own "Left Out" treatment of Hengli, Weiqiao, Geely, Hailiang, Wanxiang. Verified on company pages for AUX (AUX Electric 02580.HK), Zhenshi (601112), Tianneng (two listed companies), Nanshan, Sany. The rest rely on the group-name match and are NOT verified: a later run could revisit e.g. Rongsheng, Shenghong, Hengyi, Youngor, Heilan, Transfar, Chilwee, Satellite, Huayou, ZTT, TCL Industries, Muyuan, ENN, GCL, Sanhua, Wolong, Zongshen, Desay, Peacebird, Shuangliang, Yitai, Erdos, Joyson, Yadea, Yutong, Haitian, Dawn, HNA Aviation if the user wants unlisted parents of listed brands.
+- Other exclusions: TBEA (listed brand; zh.wikipedia says added to US UFLPA entity list Jul 2026); Wen'an Steel (site shows Jan 2026 tender to dispose of all production lines); two plant entities (Lingkai Yancheng, Rishan Jiashan).
+- NEW and researched: 18, all to MAIN (Route A on ACFIC revenue, every one over USD 6.9bn). WATCH: 0.
+- MAIN: Fuye, Rongcheng, Dadonghai, Chambroad, Huineng, People Holding (People Electric), Tianyuan Manganese, Rizhao Steel, Xinjin, Delixi, Luli, Bosai, Hongwang, Fujia, Duofu, Hongshi, Guizang, Xinghai.
+- signals_checked: yes for 17 (company news page read); no for Guizang (news page not read).
+
+FIT
+Most qualifying private groups in ranks 1-250 are steel, refining, chemicals, metals and trading businesses that sell mainly in China. Fit was rated on what they sell: the best Formula 1 cases are Delixi and People Electric (branded electrical equipment building distributors in the Middle East, Brazil, India, Africa), Chambroad (specialty fuels, tyre rubber, automotive materials, 50+ countries), Duofu (flying-car/aviation unit), Hongwang (overseas push, titanium) and Rizhao Steel (automotive steel). Steel and commodity traders (Xinjin, Guizang, Fuye, Xinghai) are weak.
+
+NOT DONE / GAPS
+- 88 NEW names stayed "not researched" because no official site could be found or reached: Wikipedia and Wikidata returned 429 for the whole session, Baidu Baike refused, and about 1,600 guessed pinyin domains gave no match. These include Shandong refiners (Hongrun, Dongming, Luqing, Qicheng, Zhongjing, Kenli, Jincheng, Xintai, Fengli, Jinao), Hebei/Shanxi/Shandong steel (Delong Steel Industry, Xinhua Lianhe, Yonggang/Yongzhuo, Zenith Steel, Xinda, Puyang, Xinhai, Taihang, Pengfei, Jiujiang, Ganglu, Jinnan, Jianbang, Shiheng, Jiuyang, Panhua, Wanyang Smelting), Highsun (nylon), Yongrong, Jinlun, Huaqin Rubber (tyres), Hengxin Automobile (car dealer), Kingvav (gold jewellery), Qianxihe (catering), Huifu (edible oil), Lihuayi, Sanbao, Fangtongzhou, Liye, Lanrun and others. Highest-value ones to pick up next: Highsun, Huaqin Rubber, Hengxin Automobile, Kingvav, Lihuayi, Yongrong, Zenith Steel (check.py POSSIBLE vs master "Zenith").
+- No MAIN record names a marketing head; none shows a sports sponsorship. Profitability stated only where a page gave a profit ranking (Huineng, Bosai).
+- Owners were not confirmed on a registry for any company; all are on the ACFIC private-enterprise list and show no listing on their own sites.
+- Did not reach 45 records: stopped because the remaining NEW names had no reachable source, not because candidates ran out.
