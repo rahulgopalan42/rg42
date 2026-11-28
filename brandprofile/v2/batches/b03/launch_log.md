@@ -72,3 +72,6 @@ launched: r25_queue | finished: k21_indonesia_ph_vn (22 main, 8 watch, 564 disc;
 launched: t06_mining_metals | finished: clay_i08 (400 rows)
 launched: clay_i10 | finished: t48_mobility_platforms (32 main, 13 watch, 200 disc)
 launched: s11_signals | finished: r21 (27/19)
+launched: k26_africa_east_south | finished: r22 (25/22)
+launched: t07_chemicals | finished: k23_gulf_groups (22 main, 13 watch, 218 disc). COVERAGE DATAPOINT: 86 of the 99 Forbes Middle East family businesses were already on the master
+launched: r26_queue | finished: t46_wholesale_distribution (35 main, 12 watch, 298 disc)

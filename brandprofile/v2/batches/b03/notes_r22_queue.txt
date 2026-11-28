@@ -1,0 +1,36 @@
+r22_queue (batch 3, queue mode) - input in_q22.jsonl, 80 lines. Researched 28 Nov 2026. WebSearch used: 0. WebFetch only.
+
+DUPLICATE CHECK: all 80 names run through check.py, plus a second pass on names without legal suffix, trading names and parents
+(e.g. Cognita, Papara, Moon Active, Makro, Migros, Murugappa, CG Corp Global, Saudia, Endesa, Iberdrola, Airbus, BASF).
+
+RESEARCHED - MAIN (25): Kuusakoski (C), UNITEC Mexico (C), Smile Brands (C), ROSE Bikes (A), Fly Jinnah (C), La Martina (C, low conf, old figure),
+Repower (A), Flinders Port (A old FY22 + C), Hilmar Cheese (C), flyadeal (C), Teachers Mutual Bank (A old), Maughan Thiem (A old),
+Liberty Tire Recycling (C), Indykpol (A, 2016 figure), SVA System Vertrieb Alexander (A, EUR 2.115bn 2024), Fjord1 (A, 2021),
+True Alliance (A old + C), RSEA (A old + C), Consolidated Contractors Company (A, USD 2.32bn 2023), FlyOne (C, compliance flag),
+Teraco (C), Westfund (A old), Papergames (C), BUA Group (A), ZEN Energy Group (A old, compliance check on GFG parent).
+Strongest F1 cases: Consolidated Contractors (Gulf LNG EPC, hospitality), SVA (EUR 2bn German IT integrator), ROSE Bikes (already pays for UCI team name).
+Note: IBISWorld 2022 figures (Flinders, Teachers Mutual, Maughan Thiem, True Alliance, RSEA, Westfund, ZEN) are FY21/FY22 and older than 3 years.
+
+RESEARCHED - WATCH (22): paiN Gaming, Pol Roger, African Rainbow Capital (may be JSE-listed via ARC Investments - verify), Highlands Coffee
+(1,000 stores but only one indicator), Eckerö Line, Lakeshore Recycling Systems, Royal Films, Laco, El Salam Maritime, Paper Rex, Uğur Okulları,
+So.Farma.Morra, Salcano, Lang & Heyne, Fjord Line (NOK 1.55bn = USD 147m, just under Route A, no Route B support), Rhinegeist, Insomnia Coffee,
+Laurent Ferrier, Summit Digitel (InvIT project entity), Smile Doctors (580+ sites only), Specialized Dental Partners, Machinex.
+
+LEFT OUT (DUPS, 29):
+- in master / delivered: Cognita Schools, Coin Master (Moon Active b02), Papara SuperMassive, Makro Distribucion Mayorista, Micarna (Migros),
+  Chaudhary Group (CG Corp Global b02), Ambadi Investments (Murugappa holding).
+- listed: COPASA, Samchuly, Corficolombiana, Corporacion Favorita, Paradox Interactive.
+- not a separate company: Basf Española, Iberdrola Generacion, Airbus Military, Union Electrica de Canarias Generacion (Endesa), FCC Construccion,
+  Superonline (Turkcell), Varsity Tutors (Nerdy), Ritmeester (now Dannemann group).
+- not a commercial prospect: Compensar, Universidad Villanueva, Regie Libanaise des Tabacs, five anonymous "Confidential"/placeholder Clay rows.
+- ceased: Flybondi (suspended Aug 2026, creditor protection Oct 2026).
+
+NOT RESEARCHED (4) - no page could be opened:
+- Vesco Foods (vescofoods.com.au 503; en.wikipedia redirects to PAG, ownership link unconfirmed)
+- Premium Tobacco (name ambiguous; premiumtobacco.com empty, premium-tobacco.com DNS failure)
+- Lohum (lohum.com renders no text; no Wikipedia article)
+- CoreX Holding BV (corexholding.com 503; LinkedIn 403)
+Hosts that did not resolve: www.rlt.com.lb, www.ambadi.com.
+
+GAPS: signals_checked "no" on 8 MAIN records (newsroom unreachable or none found). Owners unconfirmed for Smile Brands, Liberty Tire, Hilmar,
+True Alliance, RSEA, FlyOne, Papergames. Several Wikipedia-only sources. Candidate for a later run: Dannemann group (Swiss cigars, 5,000+ staff).

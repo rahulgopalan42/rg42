@@ -1,0 +1,43 @@
+t46_wholesale_distribution - batch 3 sector run, 28 Nov 2026
+Wholesale and distribution groups: food service, pharma wholesale, IT/electronics, auto parts, builders' merchants, steel service centres, chemical, beverage.
+
+COUNTS
+- MAIN: 35 (Route A 17, Route C 18). WATCH: 12 (no route shown; mostly the owner could not be confirmed on a page, or only one Route C indicator).
+- DISC: 298 lines (NEW 187, IN MASTER 49, LISTED 34, ALREADY DELIVERED 16, POSSIBLE 11, F1 PARTNER 1).
+  Stage: researched 49, left out 103, not researched 146.
+- DUPS: 69 lines (IN MASTER, ALREADY DELIVERED, F1 partner Arrow Electronics, and same-company POSSIBLEs: Reyes Holdings, PHOENIX, Johnson Brothers).
+- Run through check.py: all 298 DISC names (check.py plus an extra check of each name without its legal suffix).
+- WebSearch: 1 of 1 used (it found the Anglera list). WebFetch / direct page reads were used for everything else.
+- signals_checked: "yes" on 38 of 47 records; "no" on Intcomex, Kokubu (news page is script-rendered), Nadro, Westcon-Comstor, Savex, Wortmann, Hungaropharma, Marzam, Infinigate.
+
+SOURCES (names yielded)
+- Anglera "Top Distributors 2026" https://www.anglera.com/top-distributors-2026 : 148 names written to DISC (US-centred; public companies are logged as LISTED from its ticker column).
+- Wikipedia "List of largest private non-governmental companies by revenue": confirmed only names already in the master (Reyes, C&S, SGWS, Gordon, Graybar etc.). No new DISC lines.
+- Wikipedia Category:Electronic component distributors: 31 names, mostly listed or already delivered. Gave ELKO.
+- Company sites, newsrooms and Wikipedia articles for each researched company (URLs in each record).
+- My own candidate list, for regions and subsectors the US list misses: about 115 names checked; those with no list page are marked "researcher's candidate list" in DISC with source "".
+- Unavailable: NAW/MDM top-distributor lists (403), GIRP member list (404), Forbes list (only partial), zuelliggroup.com (503), futureelectronics.com newsroom (403), huwsgray.co.uk (403), sager.com (403), fleetpride.com (403), chefsculinar.de (403). Wikipedia rate-limited direct curl, so I read its pages through WebFetch.
+
+COVERAGE BY SUBSECTOR AND REGION
+- Food service / grocery / convenience: Imperial Brady, Kokubu (JP), AWG, HAVI, Martin Brower, Core-Mark, Eby-Brown; WATCH Restaurant Depot (a "deal with Sysco" letter dated Jun 2026 is an image-only PDF that I could not read).
+- Pharma wholesale: NOWEDA (DE), Nadro (MX), Geo-Young (KR); WATCH Zuellig Pharma (owner not confirmed), Hungaropharma, Marzam. Selçuk Ecza (TR) is listed.
+- IT / electronics: Rutronik (DE, owns Rutronik Racing and sponsors Formula Student), Future Electronics (CA, WT Micro), ELKO (LV), Intcomex (US/LatAm), Mindware (MEA), Savex (IN), Wortmann (DE); WATCH Westcon-Comstor, Infinigate.
+- Builders' merchants / plumbing / HVAC / electrical: Ahlsell (SE), STARK Group (DK), Huws Gray (UK, PGMOL kit sponsor), Van Marcke (BE), Edmundson (UK), Elliott Electric, Johnstone, Hajoca; WATCH Saltoki (ES).
+- Steel service centres: Metal One (JP JV), Marubeni-Itochu Steel (JP JV), Alro; WATCH O'Neal Industries, Majestic Steel.
+- Chemicals / plastics / gases: Vinmar (USD 4bn), STOCKMEIER (DE), Wilbur-Ellis, Airgas, Nippon Sanso Matheson; WATCH Hydrite.
+- Auto parts: WATCH WM SE (DE). FleetPride, Parts Authority, PHE, Autodis, GSF and DPaschoal are in DISC but not researched (the sites refused access or gave no data).
+- Beverage distribution: Reyes Beverage Group (subsidiary of Reyes Holdings, which is on the master; both of these subsidiaries are flagged in "outstanding" for the user to confirm). Silver Eagle, Hensley, Columbia and Fedway are NEW but not researched.
+- MRO: McMaster-Carr.
+- Regions: US 23 records; Europe 15; Japan 3; Korea, Mexico (2), India, UAE, Canada, Singapore 1 each. Thin or missing: China, South-East Asia (apart from Zuellig), Africa, Brazil and the wider Latin America, Turkey (only a listed name found), Australia.
+
+NOTES ON THE EVIDENCE
+- Anglera figures are a third-party compilation. Where they were the only revenue I used them as Route C indicators ("estimated"), not as Route A.
+- Older financials are flagged in the record: Van Marcke FY2022, Edmundson 2019, Huws Gray valuation 2021, Airgas 2016.
+- Ownership conflicts to resolve: Johnstone Supply (cooperative on its site, PE-backed per Anglera); Elliott Electric (employee trust on its site, family-owned per Anglera); Geo-Young (Korean Wikipedia gives both a 99.17% holding company and a 70% Blackstone stake); Imperial Brady (owner not named on its pages).
+- Mindware: HQ country is set to the UAE from its Gulf focus; the page I read gives no HQ.
+- Owens & Minor: Anglera lists it as PE-backed. I did not check whether it is listed.
+
+NOT DONE / NEXT RUN
+- 146 NEW DISC names not researched, mainly US mid-size electrical, industrial, plastics and gases distributors from Anglera (US LBM, White Cap, Winsupply, Border States, Colonial Group, Apex Oil, Guttman, F.W. Webb, Carter-Jones, Gulfeagle, Kirby Risk, RelaDyne, etc.); most of their sites are script-rendered or carry no figures.
+- Not reached: Chinese private distributors, ASEAN distributors, African and Brazilian wholesalers, Turkish unlisted wholesalers, Australian distributors, steel service centres outside the US and Japan, European beverage wholesalers.
+- Not called exhaustive.

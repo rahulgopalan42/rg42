@@ -1,0 +1,66 @@
+k23_gulf_groups - batch 3, MODE country (Saudi Arabia, UAE, Qatar, Kuwait, Bahrain, Oman). 28 Nov 2026.
+Stream: Independent web research. WebSearch used: 2 of 2.
+
+COUNTS
+- MAIN 22, WATCH 13, DISC 218 (35 researched, 87 not researched, 96 left out), DUPS 158 lines.
+- Names run through check.py: about 330 (some names under more than one spelling). check.py results on DISC lines: NEW 123, IN MASTER 76,
+  POSSIBLE 10, ALREADY DELIVERED 5, LISTED 3, F1 PARTNER 1. Many more names checked during triage are in DUPS only (IN MASTER/F1/DELIVERED).
+- Main finding: the master already holds almost every Gulf family group. Of the 99 names on Forbes Middle East's Top 100 Arab Family
+  Businesses 2025, 86 were IN MASTER, ALREADY DELIVERED, F1-linked or POSSIBLE. The new names come from operating subsidiaries, state
+  companies, and venture-backed firms.
+
+SOURCES USED (names given)
+- Forbes Middle East, Top 100 Arab Family Businesses 2025 (forbesmiddleeast.com/lists/top-100-arab-family-businesses-2025/): 99 names
+  (the page has no rank 88). Zawya press release about the same list: top 10 with countries.
+- Forbes Middle East, Top 50 most-funded MENA startups (forbesmiddleeast.com/lists/?p=7870). This is the 2022 list, so its figures are
+  older than three years: 36 Gulf names went to DISC.
+- Wikipedia lists of companies: Saudi Arabia (~95 names), UAE (~65), Qatar (28), Kuwait (28), Oman (15), Bahrain (26). Only the
+  unlisted, in-scope names went to DISC.
+- Wikipedia categories: privately held companies of the UAE (4) and of Saudi Arabia (3); government-owned companies of Saudi Arabia (14)
+  and of the UAE (5); List of government-owned companies of the UAE (46).
+- Company sites opened: nestogroup.com, alrawabidairy.com, mag.global, alnowais.com, kitopi.com, foodics.com, sary.com, xpanceo.com.
+- Failed: Crunchbase MCP (the account's monthly data-token allowance is used up until 1 Dec). Wikipedia API (429 rate limit).
+  brandirectory.com Saudi and UAE rankings (pages render with JavaScript, came back empty). salla.com, magnati.com, choithrams.com (403).
+  sumou.com, pureharvest.ae (503). alnasserholdings.com (would not resolve). About 25 guessed Wikipedia titles returned 404.
+
+COVERAGE
+- Saudi Arabia: 11 records (Binladin, flyadeal, Gandour, Mawarid, Floward, Sary in MAIN; Al Tazaj, Shawarmer, Rotana Group, WTTCO in
+  WATCH). UAE: Kitopi, Abu Dhabi Media, MAG, ENEC, ASGC, VOX, Nesto, DAE, Dragon Oil in MAIN; AlNowais, Al Rawabi, Cleveland Clinic AD in
+  WATCH. Qatar: UCC Holding, Qatar Steel; WATCH Al Jazeera, GDI, Oryx GTL, Seashore. Kuwait: KOC, KNPC; WATCH Sultan Center.
+  Oman: PDO, Oman LNG. Bahrain: Banagas; WATCH GPIC.
+- Signals check (newsroom or Wikipedia history/recent events): done for every MAIN record (signals_checked yes). Many Wikipedia pages
+  show nothing after 2020, so signals are empty for those records. AlNowais (WATCH) has signals_checked no.
+- No current F1 or Grand Prix deal was found for any MAIN or WATCH company. Category and parent conflicts are noted in category_conflict
+  (Dragon Oil/ENOC, Cleveland Clinic AD/Mubadala+G42, GPIC/Bapco, Banagas/Bapco context, VOX/MAF delivered b01, UCC/PIH on master).
+
+CAVEATS
+- Several qualifying figures are older than three years and flagged: PDO revenue 2007, Banagas revenue 2014, Dragon Oil revenue 2014,
+  ASGC revenue 2020, Kitopi and Sary funding (Forbes 2022), MAG Q1 2023 sales.
+- Subsidiaries of names on the master or already delivered are included under the batch 3 subsidiary rule, and the parent is named:
+  VOX Cinemas (Majid Al Futtaim), UCC Holding (Power International Holding), Dragon Oil (ENOC), flyadeal (Saudia). The user should
+  confirm they want these.
+- Al Jazeera is on WATCH with compliance notes. UCC has heavy exposure to Syria: check the current sanctions status of its counterparties.
+- Kitopi's HQ city is not stated on the pages opened. Nesto's HQ city is not stated either.
+- Qatar Steel: whether Industries Qatar is the listed parent was not verified on a page.
+
+NOT RESEARCHED (priority leads for a later run, all NEW on check.py)
+- Forbes family list, in scope: Al Othaim Holding, Bait Al Batterjee Group, Sumou Holding, Rajhi Invest, Hamad Al Sagri Holding,
+  Naif Alrajhi Investment, Sultan Holding, Al Nasser Holdings (Qatar). These are family holding groups; look for their operating brands.
+- Startups (from the 2022 Forbes list): STARZPLAY (USD 150m; its Wikipedia link leads to Starz US, so it was not researched),
+  Pure Harvest Smart Farms (USD 272m), iMile, TruKKer, Postpay, Opontia, Nana, Foodics (40,000+ restaurants on its site, no funding page
+  opened), PayTabs.
+- Names checked as NEW but with no source page opened, so they are not in DISC: Arabian Automobiles, Liberty Automobiles, Ali & Sons,
+  Al Babtain, Behbehani Motors, Euro Motors (Bahrain), Nasser Bin Khaled, Jaidah Group, Abdulla Abdulghani & Bros, Wallan Group, SAMACO,
+  Al Ghandi, Rivoli Group, Paris Gallery, Ajmal Perfumes, Abdul Samad Al Qurashi, Rasasi, Masafi, Al Islami Foods, Lomar, Al Watania
+  Poultry, Sunbulah, Fakieh, Choithrams, Al Ain Farms, Ali Bin Ali, Blue Salon, Kuwait Danish Dairy, Jawad Business Group, Mazoon Dairy,
+  Unifonic, Mozn, HungerStation, D360 Bank, Ruya, Magnati, Lean Technologies, Salla, Zid, The Chefz, Rewaa, Property Finder, Dubizzle
+  Group/Bayut, Huspy, Ziina, Alaan, XPANCEO, Ninja (Saudi), Sadara Chemical, SATORP, SMSA Express, MDLBEAST, Almosafer, Jazeera Paints,
+  EWEC, Meydan, SEHA, Tawazun, Al Rajhi Steel, Asfar, Boutique Group, ALEC, Urbacon, HBK Contracting, Midmac, Almabani, Ghantoot,
+  AlRashid Trading & Contracting, Kharafi National, Arada, Alef Group, Emarat, Ras Al Khaimah Gas, OSN, Saudi Ground Services
+  (check listing), Gulf Capital, Danway, Emircom, Pharmatrade.
+- Wikipedia-list DISC names not researched: Advanced Electronics Company, Abdallah Al Faris, Al Shoula, Bin Quraya, Haji Husein Alireza,
+  Integrated Telecom Company, Kudu (Wikipedia gave a store count but no owner, so it stays not researched), Omrania, Saudi Readymix,
+  Sawani, Shamiekh, Tasali, Al Dahra, Armada, KOI, Mara Group, Musafir, NewBoy, Spacetoon, Techlink, Unibeton, GSSG, Gulf Helicopters,
+  QatarEnergy LNG, Gulf Cryo, Maseelah, Safir Hotels, Shaksy Group, Al Muntazah, Nass Corporation.
+- Not reached: Arabic-language rankings (e.g. Argaam, Al Eqtisadiah lists) and Saudi/UAE brand rankings (Brand Finance pages need
+  JavaScript). The 2025 Forbes ME most-funded startups list was not found.
