@@ -68,3 +68,13 @@ which stream found each company, and report coverage by stream. The older 48-tab
 - A subsidiary whose parent is on the master or already delivered is kept only as a distinct brand, and its row says so
   (`_parent_master`); a regional trading brand of the same business is a duplicate.
 - Researchers finish in about 10 to 20 minutes and leave most discovered names unresearched: plan follow-up queue files, not longer briefs.
+
+## Older-sheet brands that are not on the master, and the template trackers
+
+`older_sheet_gap.py <23 Nov all-sector list.xlsx> <out.xlsx>` writes `reports/F1-Older-Sheet-Brands-Not-On-Master.xlsx`: brands on the
+user's older 48-tab sheet that qualified on the 23 Nov list and are not on the master, not delivered and not F1 partners, one tab per
+sector, with the user's own marking (x, blank on a marked tab, tab not gone through).
+
+`templates.py "<label>=<tracker.xlsx>" ...` stores the user's template trackers in `templates_built.json`. A row whose brand already has
+a template is filled green and says so in the last column; a tracker brand that was not built says "No" with the tracker's reason and
+is not green. Names are matched exactly; any other pairing goes in `SAME` in `templates.py` after a check by hand.
