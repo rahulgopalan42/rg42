@@ -1,0 +1,38 @@
+k20_india_consumer - batch 3, 28 Nov 2026. Independent web research. Scope: India co-operatives (dairy), jewellery and retail chains, education, healthcare, consumer brands, unicorns and regional champions (unlisted); Pakistan, Bangladesh, Sri Lanka, Nepal.
+
+COUNTS
+- MAIN 26, WATCH 16, DUPS 102, DISC 775 lines.
+- DISC check.py results: NEW 593, IN MASTER 65, LISTED? 44, POSSIBLE 42, ALREADY DELIVERED 30, F1 PARTNER 1.
+- Researched (MAIN or WATCH): 42. Two more were researched and then removed after an alias check: Cult.fit (delivered in b02; I had first checked it as "CureFit") and Amity University (Amity Education delivered in b02).
+- Left out as listed after research: Wakefit (listed Dec 2025), PhysicsWallah, Sapphire Textile, Walton, Dilmah Ceylon Tea PLC, Abans PLC.
+- I did not research names already in other batch 3 researchers' lists or queue inputs (for example Aakash, Balaji Wafers, CRED, Dream11, Lenskart, Meesho, KRIBHCO, Myntra, Blinkit, Spinny, Manipal Hospitals, Sahyadri, Vedantu, Simplilearn, Vijay Sales, Max Fashion India, Lotus Herbals, Molbio, Pristyn Care, Rebel Foods, PRAN, Chaudhary Group). Their DISC lines say so.
+
+SOURCES (names extracted)
+- Wikipedia, List of unicorn startup companies (India rows): 72
+- Wikipedia, List of companies of Pakistan: 264; of Bangladesh: 175; of Sri Lanka: 84; of Nepal: 56 (42 marked defunct)
+- Seed names checked from sector knowledge (co-ops, jewellers, retail, education, hospitals, consumer brands): about 130. Their DISC source says "check.py candidate"; they still need a list source.
+- Research pages: Wikipedia articles for each company (raw text), plus company pages: imtiaz.com.pk, paragonfootwear.com, cavinkare.com, poorvika.com, duroflexworld.com.
+- WebSearch used: 1 of 2 (CavinKare revenue: no figure found).
+- Refused or empty: bkash.com (403), business-standard.com (403), hirdaramani.com (403), sangeethamobiles.com (403), waghbakritea.com (404), gonoise.com, licious.in, lalithaajewellery.com (pages that render with script: no text came back), vkcpride.com (host blocked by session network).
+
+CURRENCY: PKR, NPR, BDT and LKR are not in the brief's fixed table. I used PKR 0.0036 and NPR 0.0074 (approximate rates, not from a page), as stated in each record. Treat those USD figures as approximate.
+
+QUALITY FLAGS
+- Several qualifying figures are older than three years and flagged: Aavin FY2018-19, Milma FY2017-18, Dawlance 2015, Aarong 2018, Acko/MPL/Good Glamm valuations 2021.
+- Bhima Jewellers: Wikipedia infobox revenue INR 48,000 crore (2022) looks high and may cover the whole family group. Verify it.
+- Ceylon Biscuits: the only revenue on its page (LKR 2.0bn, 2018) is small. The record rests on Route C (60% market share plus an Indian subsidiary and exports). Low confidence.
+- Ncell infobox says "Public": confirm its shares do not trade on NEPSE. Bhat-Bhateni lost about two thirds of its outlets in the Sept 2025 protests.
+- Mobile Premier League: real-money gaming rules in India were not verified this session. Check them before any outreach.
+- Jazz: check.py POSSIBLE match is JazzCash (b02), the separate wallet brand. Kept, but confirm with the user.
+- Most records for South Asia and the co-ops have domestic markets with no Grand Prix. Fit ratings are low accordingly. The stronger F1 cases are Bhima Jewellers (GCC expansion), Jazz, Forward Sports (World Cup ball maker, Saudi expansion), Mobile Premier League (heavy sports sponsor), MDH and CaratLane.
+- signals_checked = "yes" was based on recent-events sections of Wikipedia articles. No company newsroom was opened.
+
+NOT REACHED
+- Dairy unions: Banas, Sabar (members of the GCMMF/Amul federation, probably aliases of Amul), Verka/Milkfed Punjab, Vijaya, Rajasthan RCDF (POSSIBLE "Saras" in master), NAFED.
+- Jewellers: Lalithaa, Josco, Chemmanur, Waman Hari Pethe (no usable pages).
+- Retail: Sangeetha Mobiles, Lulu India.
+- Healthcare: Paras, Medica, Sahajanand Medical Technologies, Healthium.
+- Consumer: Wagh Bakri, VKC, Noise, Licious, Purplle, Mensa, GlobalBees.
+- Sri Lanka: Hirdaramani, Akbar Brothers, Basilur. Nepal: Golchha, Khetan, Shanker. Pakistan and Bangladesh: most of the NEW list names (Descon, Fatima Group, Super Asia, Shezan, Brighto, Daraz, Bykea, Anwar, Epyllion, Novoair and others).
+- No local-language sources were used. No Indian unlisted rankings were opened beyond the k19 Hurun work (Fortune India, ET 500 unlisted).
+- This is not exhaustive.

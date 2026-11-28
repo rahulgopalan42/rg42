@@ -1,0 +1,52 @@
+Clay discovery stream, batch 3, KEY clay_i05 (MODE clay, deeper paging) - notes, 28 Nov 2026
+Tools: mcp__Clay__search-companies + load-more-search-results only. No enrichment, no render, no WebSearch.
+Filter on every query: company_type in ("Privately Held","Partnership","Self Owned"). All four industry names accepted as given.
+Page limits (industry line): P1=2 ("1B-10B","10B-100B","100B-1T"), P2=2 ("500M-1B"), P3=1 ("200M-500M").
+Total: 18 pages read, 350 rows saved to clay_i05.jsonl (rows appended after every page).
+
+Query (industry | brackets) : pages read : rows : hasMore when stopped
+Plastics Manufacturing | 1B+ : 2 : 40 : TRUE (stopped at P1 cap; more pages remain)
+Plastics Manufacturing | 500M-1B : 2 : 40 : TRUE (P2 cap; more remain)
+Plastics Manufacturing | 200M-500M : 1 : 20 : TRUE (P3 cap; more remain)
+Packaging and Containers Manufacturing | 1B+ : 2 : 40 : TRUE (P1 cap; more remain)
+Packaging and Containers Manufacturing | 500M-1B : 2 : 40 : TRUE (P2 cap; more remain)
+Packaging and Containers Manufacturing | 200M-500M : 1 : 20 : TRUE (P3 cap; more remain)
+Mining | 1B+ : 2 : 40 : TRUE (P1 cap; more remain)
+Mining | 500M-1B : 2 : 40 : TRUE (P2 cap; more remain)
+Mining | 200M-500M : 1 : 20 : TRUE (P3 cap; more remain)
+Primary Metal Manufacturing | 1B+ : 2 : 24 : FALSE (finished: page 2 had only 4 rows)
+Primary Metal Manufacturing | 500M-1B : 1 : 6 : FALSE (finished: only 6 results in total)
+Primary Metal Manufacturing | 200M-500M : 1 : 20 : TRUE (P3 cap; more remain)
+Industries not reached: none. Primary Metal Manufacturing is a small category in Clay (30 rows at 500M+ in total); most large steel and
+aluminium makers are classed under "Mining" instead (Gerdau, Usiminas, Marcegaglia, ArcelorMittal units, Metinvest, British Steel, etc.).
+
+Data notes:
+- Rows copied as Clay gives them. desc is trimmed to about the first 200 characters, plus any owner/parent/ticker/revenue sentence (joined with " || ").
+- linkedin = "https://www.linkedin.com/company/" + the slug Clay returned.
+- Many rows are country units or subsidiaries of listed groups. They are left in for the later filter: ArcelorMittal Brasil/Poland/Mexico/South Africa/
+  SSC Europe/Powders/Tubular/Long Carbon, AM/NS India and Essar Steel (now AM/NS), Vale Base Metals (90% Vale), Nevada Gold Mines (Barrick/Newmont JV),
+  Kinross Tasiast, KGHM International, Barrick Chile, AngloGold Ashanti Brasil/Tanzania, Konkola and Vedanta Zinc (Vedanta), ASARCO and Southern Peru
+  (Grupo Mexico), Sandfire MATSA (ASX: SFR), Atlantic Copper (Freeport), Albras (Hydro 51%), Sapa (now Hydro), Corus (Tata Steel), De Beers Canada,
+  Pamapersada and KPP (United Tractors/Astra), Westlake Vinnolit, Formosa Plastics USA, Mitsubishi Chemical Advanced Materials, ITW Automotive Brazil,
+  Nifco e-Powertrain, Flex Switzerland, Arvind Composites, Supreme Pipes, Crown Mexico, GPI Bardon (Graphic Packaging), Sonoco SL, Acerinox Europa,
+  VDM Metals (Acerinox), Elkem (Oslo ELK), YUTO (Shenzhen 002831), CMOC, Antofagasta (FTSE 100), Hochschild (LSE), Fresnillo, Mineros, U.S. Silica.
+- Absorbed or renamed pages: Shields, Polar Pak, Burrows Paper, Pactiv Evergreen (all now Novolex); Grupo Phoenix (now TekniPlex); Comar (now Precision
+  Concepts / The Sterling Group); Schoeller Allibert (now IPL Schoeller); Essar Steel (now AM/NS India).
+- Junk or non-company rows: "Breaking Bad" (world-patent-marketing slug), "Queen Consolidated Steel" (description "Hi"), Movimento Plástico Transforma
+  (an industry campaign), 3P Pakistan (a trade fair), Consejo Minero de Chile (an industry association), ColdMetalFusion (an alliance), Blue Box Partners
+  (an EEIG alliance of Hinojosa, VPK, Klingele and Cart-One), Tetra Laval International (the group's finance and control function).
+- Sport or motorsport mentions seen in descriptions (as Clay gives them, not checked): LIBERTY Steel Group lists "motorsport" among the sectors it serves;
+  uvex group runs uvex sports and ALPINA; Albéa, Pochet, Verescence and Heinz-Glas make luxury packaging; Pelican makes protective cases.
+- Owner and revenue lines quoted in Clay descriptions (not checked): igus turnover EUR 1,155 bn [sic] in 2025; Armando Alvarez over EUR 1,000 m;
+  Prinzhorn EUR 2.3 bn; Marcegaglia EUR 7.5 bn, controlled by Antonio and Emma Marcegaglia; Carmeuse about EUR 2.6 bn; Atlantic Packaging more than
+  $1 bn; Formosa Plastics USA more than $5 bn; EUSIDER EUR 1.2 bn; Kocaer over $500 m; Astra R$ 860 m (2024); Colep EUR 149 m; FERBASA over $500 m;
+  ERG 40% Kazakhstan government; Rosti owned by Nordstjernan; Tosaf shareholders Megides and Ravago; Plaskolite owned by Pritzker Private Capital;
+  Al Watania owned by Sheikh Suleiman Al-Rajhi Endowment; British Steel under UK Government control since April 2025.
+
+disc_check.py result (350 rows): NEW 281, POSSIBLE 27, IN MASTER 16, ALREADY DELIVERED 16, LISTED 10.
+IN MASTER: Ravago, JM Eagle, ALPLA Group, PGP Glass, Obeikan, Vale Base Metals, Redpath Mining, Lhoist, Seriti, SRK Consulting, Samancor Chrome,
+  Rungta Mines, Byrnecut, LIBERTY Steel Group, Gruppo Riva, Stegra.
+ALREADY DELIVERED: ENGEL (UK), uvex group, Tetra Pak, CANPACK, Albéa, Pratt Industries, Constantia Flexibles, Eurasian Resources Group, Sibelco,
+  Carmeuse, OCP Group, Debswana, Harita Group, MacLean Engineering, De Beers Canada, CBMM.
+LISTED: Zeus, Vidrala, UFLEX, ORBIS, Usiminas, Exxaro, Imerys, Fresnillo, Mineros, ArcelorMittal South Africa.
+All 350 lines parse as JSON and carry a check field.

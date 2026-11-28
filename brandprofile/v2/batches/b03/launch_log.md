@@ -48,3 +48,6 @@ launched: t47_bottlers_importers | finished: s04_signals (40: 31 with signals)
 launched: clay_i06 | finished: t41_robotics_space_quantum (30 main, 15 watch, 439 disc). FIXED: snap.sh had not committed new files (a missing folder stopped git add); all research committed and pushed at cc4755c2; loop restarted
 launched: s07_signals | finished: s06_signals (40: 23 with signals, 17 none)
 launched: k22_thai_my_sg | finished: r15 (34/23). PASHA Holding left for the user to decide (F1-linked: Azerbaijan)
+launched: t48_mobility_platforms | finished: r16 (31/21). To verify: Croatia Airlines listing; Lotte World vs Hotel Lotte (b01)
+launched: r20_queue | finished: k20_india_consumer (26 main, 16 watch, 775 disc; PKR/NPR conversions are the researcher's own approximate rates -> treat those figures as estimates)
+launched: s08_signals | finished: clay_i05 (350 rows)
