@@ -106,3 +106,6 @@ launched: s14_signals | finished: t05_aerospace_defence (29 main, 13 watch, 175 
 launched: f04_queue | finished: u06_pe_portfolio (42 main, 6 watch, 1,005 disc; Blackstone, Warburg, EQT, Apollo, Ardian, Brookfield not reached); added u09_pe_portfolio_b. Wella left out as an F1 Academy partner
 launched: t15_semis_hardware | finished: clay_c01 (353 rows: Japan, China, Korea)
 launched: f05_queue | finished: t54_gap_finance_health (28 main, 13 watch, 346 disc)
+launched: t16_telecom_ops | finished: t08_professional (46 main incl. 30 law firms, 22 watch, 487 disc; Tilke (F1 circuit designer) in watch)
+launched: k03_nordics | finished: u07_swf_portfolio (36 main, 7 watch, 184 disc; portfolio pages of PIF, Temasek, TVF, Khazanah, Samruk, CPP, QIA, KIA refused access)
+launched: f06_queue | finished: f01 (31/7; 15 of 80 turned out listed, 13 already on master/delivered)

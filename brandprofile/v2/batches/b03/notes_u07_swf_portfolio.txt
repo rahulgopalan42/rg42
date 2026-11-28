@@ -1,0 +1,41 @@
+u07_swf_portfolio - batch 3, MODE subsidiaries (sovereign and pension-fund owned operating companies). 28 Nov 2026.
+
+COUNTS
+- MAIN 36, WATCH 7, DISC 184 lines, DUPS 112 lines.
+- check.py run on about 330 names in 8 calls (plus name-only / website variants). Of those: IN MASTER ~45, ALREADY DELIVERED ~30, F1 PARTNER ~12 (Qiddiya, Lunate, Mubadala/Mubadala Capital, ADNOC, Etihad, Gulf Air, Qatar Airways, Medallia, DP World, Vantage...), LISTED left out by hand (Turkish Airlines, Halkbank, Vakifbank, TAQA, Truist, WSP, Turkiye Sigorta, Omantel, CapitaLand brand), NEW ~200.
+- WebSearch used: 1 of 2 (PIF portfolio list). WebFetch / curl for everything else.
+
+SOURCES USED (names extracted)
+- ADQ consolidated financial statements FY2025, note 35 material subsidiaries + associates (adq.ae PDF): 13 names.
+- Mubadala "what we do" page: 9 names (most news-style, few portfolio names).
+- OMERS Infrastructure portfolio page + 16 company pages: 28 names. OMERS Private Equity portfolio + 6 company pages: 25 names.
+- OMERS / Oxford Properties homepage (AUM, employees).
+- CDPQ (La Caisse) private equity, infrastructure and Quebec "selected direct investments" pages: 8 + 11 + 11 names.
+- OTPP "Major investments" (private companies over CAD 250m, 31 Dec 2025): ~55 operating-company names written to DISC.
+- vision2030.ai "PIF portfolio companies" (secondary; used for discovery only): ~31 names.
+- Company sites opened for research: listed in each record's sources.
+
+COULD NOT OPEN (refused / JS-only / DNS)
+- pif.gov.sa (403, incl. llms.txt), temasek.com.sg (403), mubadala portfolio pages (403/404), tvf.com.tr (403), khazanah.com.my (JS challenge), sk.kz portfolio (template placeholders only), cppinvestments.com (202 empty), kia.gov.kw (404), qia.qa (404), cic.com.cn (no response), gic.com.sg portfolio (no company list), adq.ae portfolio page (404; used the FS instead).
+- Company sites refused: getir.com, oncor.com, wafra.com, flynn.com, arterra.ca, fairstone.ca, westerleigh, enec.gov.ae (DNS not allowed in this session), qazaqgaz.kz, ptt.gov.tr, samruk-energy.kz, kazpost.kz, site.sa (503), portofmelbourne newsroom (firewall).
+- Wikipedia API: 429 rate-limited (not used).
+
+REGIONS / FUNDS COVERED
+- Covered with a usable list: ADQ, Mubadala (thin), PIF (secondary list), OMERS, OTPP, CDPQ, CIC (via Tank & Rast shareholder list).
+- Not reached with a list: QIA, KIA, Temasek, GIC, Khazanah, Samruk-Kazyna, Turkey Wealth Fund, CPP Investments. Gulf state names were mostly already in the master or delivered (see DUPS). Kazakh and Turkish TVF companies not researched because their sites and the funds' sites refused access; Turkey is also covered by k24.
+- Value chain: suppliers/services covered (calibration, composites, engine MRO, aircraft leasing, packaging, utility contractors, steel structures, ad-tech).
+
+F1 / GRAND PRIX CHECK
+- Every name was run through check.py. No researched MAIN/WATCH company showed its own F1 or Grand Prix deal on pages opened. Conflicts noted: Strata and Sanad (parent Mubadala is on the Abu Dhabi GP partner page); New Murabba (sister PIF project Qiddiya is Saudi GP founding partner). Mubadala Energy left out as the same brand as Mubadala.
+
+QUALITY NOTES
+- Several infrastructure records (Port of Melbourne, Ellevio, Puget Sound Energy, Oncor, Bruce Power, amedes, Bangalore airport, Transgrid, Caruna, XpFibre) rest on the OMERS/OTPP portfolio page facts plus the company site; they qualify on Route C but have low F1 fit (fit totals 4-8 of 24). signals_checked = "no" where no newsroom was opened (15 MAIN records).
+- Oncor: majority parent (reported elsewhere as a listed utility) NOT confirmed on any page opened; verify before use.
+- Caruna: becomes a subsidiary of listed Iberdrola on completion of the July 2026 transaction.
+- Silal and New Murabba qualify on Route A via documented state backing only (no published revenue).
+- Oxford Properties AUM shown as "$89.5B" (currency not stated; converted as CAD).
+- Strongest F1 cases: Lalamove, AviLease, Strata Manufacturing, Trescal, Tank & Rast, Donte Group (Vitaldent), New Murabba, StackAdapt, Flexera, AlixPartners, Deutsche Glasfaser, TricorBraun.
+
+NOT RESEARCHED (in DISC, stage "not researched")
+- ~120 NEW names, incl. Malaysia Airports (privatisation not verifiable), Flynn Restaurant Group, Getir, Intelcom, 7IM, Arterra Wines Canada, Fairstone Bank, Westerleigh, OGF, Mitratech, Sovos, SeaCube, Connexa, Autopista Arco Norte, Mahindra Susten, KAG, North Highland, Aledade, Innovaccer, Azure Power, Apraava Energy, Levio, Cozey, Workleap, Tahakom, Halal Products Development Co, LIV Golf, Al Hilal, BOTAŞ.
+- Stopped at 43 MAIN+WATCH (target 45) because most remaining NEW names either had sites that refused access or lacked any second scale indicator. Nothing here is exhaustive.

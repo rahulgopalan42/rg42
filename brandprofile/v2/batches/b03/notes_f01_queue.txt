@@ -1,0 +1,49 @@
+f01_queue (batch 3, queue mode) - 28 Nov 2026
+INPUT: in_f01.jsonl, 80 lines, all processed.
+
+RESULT: MAIN 31, WATCH 7, DUPS 39, not researched 3 (total 80). WebSearch used: 0.
+
+MAIN (route): JJ Rhatigan & Company (A), ACN (C), TEPCO Energy Partner (A), VerSe Innovation/Dailyhunt (A), NNPC Limited (A),
+Bundesdruckerei (A, 2021 figure), NORD DRIVESYSTEMS/Getriebebau Nord (A), Biosplice Therapeutics (A, 2021 valuation), Fidium (A),
+Imperial Brady/Imperial Dade (A), Nobina (C), Asurion (uBreakiFix) (A), Banca Comerciala Romana (A), Bouygues Construction (C),
+Pamapersada Nusantara (C), Cornerstone Building Brands (A, 2017 figure; recapitalisation Nov 2026), Bruce Power (C), CZ (A),
+Bennett Construction (A), JFE Steel (A), Adani Realty (A), Anwar Group of Industries (C), STARZPLAY MENA (A), Ahlatci Kuyumculuk (A),
+Nigeria LNG (A), Ineffable Intelligence (A), OpenEvidence (A), foodpanda (C), Autostrade per l'Italia (C), Columbia Forest Products (C),
+GLOCK (C; fit near zero - firearms brand safety).
+WATCH: EXANTE, BayWa r.e. (parent restructuring, financing gap 2026), Network Distribution (USD 28bn is members' systemwide sales),
+Sonae Arauco, CoreX Holding (Samsunspor shirt sponsor; business unconfirmed), ZOLL Medical, Ali & Sons Holding.
+
+LEFT OUT (DUPS 39):
+- master / already delivered: Figure, Optima, Groupe Credit Mutuel, Geely Holding (as Zhejiang Geely), Polygon Technology (Polygon Labs),
+  PLN, Akin Gump, Howden, General Reinsurance (Gen Re), PGZ, WilmerHale, DJI, Food Delivery Brands (owner of Telepizza, in master).
+  Alias checks (short name, English form, website) found Credit Mutuel, Zhejiang Geely, Polygon Labs, PLN, Akin, Howden, Gen Re,
+  Polska Grupa Zbrojeniowa, WilmerHale, DJI, Telepizza that the full input names missed.
+- listed: MTN, Petrobras, Dassault Systemes, Prysmian, Nexans, BlackRock, United Rentals, Ashtead (NYSE as Sunbelt Rentals), JBS,
+  Pepkor, Quadient, Alpha Bank, CRRC (crrcgc.cc = listed CRRC Corp), Petrolimex, CSG (Euronext Amsterdam IPO 23 Jan 2026).
+- not a separate company: ALDI Belgium (ALDI Nord), ALDI USA (ALDI SUD), Shanghai Yunda Freight (listed Yunda network),
+  Modular Mining (now part of Komatsu, an F1 partner), State Street Global Advisors (division of listed State Street).
+- merged away / closed: Niantic (games sold to Scopely May 2025), AssuredPartners (now Gallagher), Acciaierie d'Italia (extraordinary
+  administration since Jan 2024).
+- not a commercial prospect: Action Logement (paritarian social-housing body), EPIAS / Energy Exchange Istanbul (market operator).
+- compliance: Weiqiao Pioneering Group (added to US UFLPA Entity List 31 Jul 2026).
+
+NOT RESEARCHED (no page with content could be opened):
+- Pure Harvest Smart Farms (pureharvest.ae 503 twice; Wikipedia 404).
+- Huayuan Group (huayuangroup.com 503; zh.wikipedia 404; Baidu Baike empty; source PDF 503).
+- Metronet (metronet.com 403; Wikipedia only a disambiguation page; T-Mobile newsroom 403).
+
+DECISIONS TO REVIEW:
+- uBreakiFix is a brand of Asurion ("uBreakiFix by Asurion"); recorded as Asurion (uBreakiFix). Asurion's acquired UK brand Domestic &
+  General is IN MASTER; Asurion itself is NEW.
+- Imperial Dade now trades as Imperial Brady (with BradyPLUS); recorded under Imperial Brady.
+- Bennett Construction: check.py POSSIBLE match "Bennet" is a different company (Italian retailer); kept.
+- Clay brackets (e.g. USD 10B-100B for ACN, BayWa r.e., Cornerstone) are modelled and often implausible; never used as reported figures.
+  Used as a Route C third-party estimate only for Anwar Group and Columbia Forest Products, alongside a second indicator.
+- Old figures flagged: Bundesdruckerei (2021), Biosplice valuation (2021), Cornerstone (2017), Nobina (2014, Route C used instead),
+  Asurion (USD 8.5bn, year not stated), Nigeria LNG / NNPC (2022 ranking).
+- Niantic Spatial (spun off 2025) and Asurion's parent structure could be researched in a later run.
+
+NETWORK: these hosts did not resolve in this session and need allowing if wanted: www.bundesdruckerei-gruppe.de, www.bennett.ie,
+www.nigerialng.com. Many company sites returned 403/404/503 (tepco.co.jp, nord.com, metronet.com, bouygues-construction.com 429).
+signals_checked = "no" on 9 MAIN records where no newsroom/history page could be opened.
+Scratch helper: f01_write.py (fills schema defaults and appends records).
