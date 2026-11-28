@@ -1,0 +1,42 @@
+NOTES - k21_indonesia_ph_vn (batch 3, country mode: Indonesia, the Philippines, Vietnam) - 28 Nov 2026
+Stream: Independent web research. WebSearch used: 2 of 2.
+
+COUNTS
+- DISC: 564 names. check.py: NEW 433 | LISTED 64 | IN MASTER 47 | ALREADY DELIVERED 11 | POSSIBLE 9.
+  Stage: researched 41 | left out 137 | not researched 386.
+- MAIN: 22 (Indonesia 10, Philippines 8, Vietnam 4; routes A 9, B 1, C 12).
+- WATCH: 8. DUPS: 131.
+- Removed after research because the alias recheck found them already delivered: Freeport Indonesia (b01 as PT Freeport Indonesia), DANA Indonesia (b02 as DANA). check.py had given "NEW" for the long names. Bare names and domains were then rechecked for every MAIN and WATCH record: no further hits.
+- The target of 45 MAIN+WATCH records was NOT reached (30). Reasons are below.
+
+SOURCES (names extracted)
+- en.wikipedia.org/wiki/List_of_companies_of_Indonesia: 74
+- en.wikipedia.org/wiki/List_of_companies_of_the_Philippines: about 190 of the 270 rows transcribed. Defunct firms and most TV/radio/film/media sub-brands (ABS-CBN/GMA/Viva/MQ units, broadcasters) were left out of DISC.
+- en.wikipedia.org/wiki/List_of_companies_of_Vietnam: 94
+- en.wikipedia.org/wiki/List_of_largest_companies_in_{Indonesia,the_Philippines,Vietnam}: Fortune SEA 500 FY2023 and Forbes 2000. Figures copied into DISC where used. Gave Pupuk Kaltim (USD 5.2bn) and the listed-status evidence.
+- vnr500.vn (VNR500 2026, private top 500): only the top 10 of the overall list could be read. Fetching the ranking's data endpoint was refused by the permission system, so it was not used further. Full VNR500 private list NOT extracted.
+- WebSearch 1 (VNR500 2025 news): only the top-10 names. WebSearch 2 (unlisted Vietnamese conglomerates): nothing useful beyond Vingroup (listed).
+- Fortune Indonesia 100 / Kompas100 and BusinessWorld Top 1000 were NOT opened. These are the task's named sources. Kompas100 and Fortune Indonesia cover listed companies. BusinessWorld is paywalled, and no search budget was left to find an open copy.
+- About 230 names came from the researcher's own candidate list, run through check.py and marked in DISC as "candidate named from researcher's own knowledge".
+
+REGIONS AND SUBSECTORS COVERED
+- Indonesia: state companies (ports, fertiliser, post, pawn, aerospace, shipbuilding, defence), private consumer (electronics, outdoor apparel, courier), edtech. Gaps: Indonesian unicorns and coffee chains (Tomoro's site was blocked by the network; Wikipedia 404s for SiCepat, Halodoc, Ajaib, Kredivo), property (Agung Sedayu, Lippo), plantations and mining family groups, and FMCG brands that are not on the master.
+- Philippines: fuels (Unioil, Seaoil), spirits/beer (Tanduay, Asia Brewery), infrastructure (MPIC, NGCP), insurance, pawn/remittance, steel, condiments. Gaps: Ramcar/Motolite (pages 404), Cleanfuel, Mandaue Foam, Uratex, Waltermart, agribusiness (Lapanday, TADECO, Sumifru), paints (Boysen, Davies), GoTyme, Coins.ph.
+- Vietnam: T&T, Trungnam, Biti's, Acecook, MoMo, Tan Hiep Phat, GreenFeed. Coverage is weakest here. English and Vietnamese Wikipedia have few figures for Vietnamese private groups. brg.vn failed DNS. geleximco.vn redirect-looped. phenikaa.com returned 503. VNPAY, Masterise, Sovico, Geleximco and BRG pages were 404. Not reached: Sovico, BRG, Geleximco, Masterise, VNPAY, Phenikaa, MISA, Him Lam, Hung Thinh, TTC, Uniben, Vinachem, Tan Cang Saigon Newport.
+
+RATES: IDR, PHP and VND are not in the brief's fixed table. Approximate rates were used and stated in records: IDR 16,100/USD (0.000062), PHP 58/USD (0.0172), VND 25,640/USD (0.000039). usd_m values are rounded.
+
+JUDGEMENT CALLS (for the reviewer)
+- Left out as listed according to a page opened: Kopi Kenangan (IDX), GCash/Mynt (PSE Oct 2026), Maynilad (PSE Nov 2025), KAI (IDX ticker), EDC (PSE), Vietnam Post (HOSE).
+- Left out as national entities of multinationals: Bentoel (BAT Indonesia), Coca-Cola Europacific Aboitiz Philippines (bottler), Pepsi-Cola Products Philippines, Toyota/Astra Honda type JVs.
+- Left out: Bamboo Airways (operations suspended by Nov 2026), Pindad (reported ammunition exports to Myanmar, 2020), Salim Group (holding group).
+- In WATCH despite two Route C indicators: Tan Hiep Phat (founder charged in 2023). Maspion is in WATCH because its listing status is unclear.
+- MPIC is in MAIN but operates through subsidiaries. The user may see it as a holding company.
+- NGCP qualifies only on a valuation inferred from Maharlika's 20% purchase. About 40% Chinese state ownership is flagged under compliance.
+- Unioil: Aramco (F1 global partner) owns 25%. Category conflict marked "established".
+- 91 DISC rows that the researcher believed were listed, without page proof, were kept as NEW / "not researched" with a note to check listing first.
+- Several figures are older than three years and are flagged in the records: Pos Indonesia (2016), PT PAL and Pegadaian (2019), Insular Life (2020), T&T (2021).
+- signals_checked = "no" for Pelindo (newsroom 403), Pupuk Kaltim (503), Eiger (site error) and Polygon (403).
+
+NOT RESEARCHED: 386 DISC rows, mostly NEW names from the list pages and the researcher's candidate list. Priorities for a later run: Ramcar/Motolite, Cleanfuel, Boysen, GoTyme Bank, Sovico, BRG, Geleximco, Masterise, VNPAY, Phenikaa, Agung Sedayu, Tomoro Coffee, SiCepat, Halodoc, Greenfields, Lapanday, Pelita Air, Hutama Karya, Bulog, Peruri.
+None of this is exhaustive.

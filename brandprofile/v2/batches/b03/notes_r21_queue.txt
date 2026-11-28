@@ -1,0 +1,21 @@
+r21_queue (batch 3, queue mode) - input in_q21.jsonl, 80 lines, all processed in file order. Date 2026-11-28. WebSearch used: 0 (limit 0). WebFetch only.
+
+RESULT: MAIN 27, WATCH 19, DUPS 28, not researched 6. (80 total.) No DISC file in queue mode.
+
+check.py: run on all 80 names plus about 120 aliases and names without legal suffix (e.g. Insud Pharma, Chint, Astronergy, Grupo Visabeira, ElPozo, Colsanitas, Keralty, fenaco, C&A, Miral, People First Bank, Belgian Cycling Factory).
+
+MAIN (route): Onsite Rental Group (A, FY2021 revenue; Sime Industrial since 2023), Chronopost (A, 2019 revenue; Geopost/La Poste), Zitro (C), Kaefer (A, EUR 2.5bn), ScionHealth (C), Gunnar Dafgard (A), Quality Bicycle Products (A, 2014 revenue - weak), Carpet Call (A, FY2022), Kanadevia Inova (C; sub of listed Kanadevia), Sebia (C), SK Broadband (A, 2018 revenue; 100% SK Telecom, delisted 2015), Volg (A; fenaco subsidiary - fenaco IN MASTER, user to decide), Wilson Transformer Company (A, FY2022), Abergeldie Contractors (A, FY2021), UNINTER (C), Septodont (C), Flair Airlines (C; distress), Corsica Ferries (A, profitable 2022), Heritage Bank (A, 2018 revenue; now People First Bank - checked NEW), Ridley (B; Belgian Cycling Factory), Skaylink (C), Exact Contracting Group (A, FY2021; check.py POSSIBLE 'Exact' looks like a different company), Overwolf (A, USD 149m equity), Maurice Blackburn (A, FY2022), heristo (A on input revenue class EUR 1-5bn - source not stated, verify), Romet (C), Destination Gotland (C, weak).
+Strongest F1 fit: Overwolf, Kith (watch), Skaylink, Zitro, Chronopost, Corsica Ferries. Most MAIN records are domestic B2B/consumer firms with low fit; ratings say so.
+
+WATCH: NZXT, Oliva Cigar, Tutor Doctor, Junghans, ONIC Esports, OXVA Technology, Unboxed Technology and Training, Haigh's Chocolates (900 staff, revenue missing), Reel Cinemas, FitsAir, Kienzle, OpTic Gaming, Ozeki, Kith (no financials; good brand fit, TAG Heuer F1 watch collab), Hans Adler, Tiriac Holdings, Kukri Sports, Knettenbrech + Gurdulic, Fly Alliance.
+
+LEFT OUT (DUPS):
+- In master / delivered / F1 partner: Chemo (Insud Pharma), CHINT (Chint New Energy/Astronergy), Decathlon Espana, Primark Tiendas, El Pozo Alimentacion, Swissport International, Coesia, Visabeira, Clinica Colsanitas, Claro Brasil, Claro Colombia (F1 partner), Virgin Group (Virgin companies delivered b01/b02), City Jobs Myanmar.
+- Listed: CIRSA (Madrid IPO 2025), CMPC (Santiago), Simcere (HKEX), UNIR (MAB 2019 via Proeduca - confirm).
+- Not a separate company: Samsung Electronics Iberia, Ferrari World (Miral park; Miral is F1 PARTNER), Cigierre Academy, Fcc Medio Ambiente (FCC brand, listed parent).
+- Compliance: SiCarrier (US Entity List Dec 2024), CNOOC (US DoD PLA-linked list; Ukraine war-sponsor list), CNPC (Bank of Kunlun US sanctions; Ukraine list).
+- Other: Wadia Group (holding of listed companies), COFRA Holding (holding; C&A in master), CIMRU and Clarion Times (tiny; Clay bracket implausible).
+
+NOT RESEARCHED (no page could be opened): Masterton Group (masterton.com.au returned empty pages), KDM (identity ambiguous, seed name only, no website), Viroque Bioenergy (viroque.com parked, .es does not resolve), Plasencia Cigars (site and Wikipedia 404), Spie ICS (spie-ics.ch does not resolve; Wikipedia 404), Marquis Macadamia (domain guesses failed). Hosts that did not resolve: www.hans-adler.de, www.viroque.es, www.peoplefirst.com.au, www.spie-ics.ch, www.marquis.macadamias.com.au.
+
+GAPS: Many revenue figures are older than three years (IBISWorld 2022 list FY2021/22; Chronopost 2019; SK Broadband 2018; Heritage 2018; QBP 2014) - flagged in qualifying_metric. Owners not stated on pages for Zitro, Kaefer (Koch family historically), Sebia, Skaylink, ScionHealth (Knight Health Holdings), UNINTER, Flair. Newsroom pages refused or empty for Chronopost (403), Kaefer (list did not load), Kanadevia Inova (404), Septodont (404), Corsica Ferries (403); Wikipedia history used instead. Marketing head identified only for ScionHealth (VP Marketing and Communications).

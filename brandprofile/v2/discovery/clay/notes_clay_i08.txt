@@ -1,0 +1,46 @@
+clay_i08 (batch 3, MODE clay, deeper paging) - 28 Nov 2026
+Industries: Construction; Civil Engineering; Building Materials; Wholesale Building Materials.
+Filter on every query: company_type in ("Privately Held","Partnership","Self Owned"). Search only; no enrichment, no rendering, no WebSearch.
+Page caps (industry line): P1=2, P2=2, P3=1. 20 Clay pages read in total (the full budget).
+
+Query | pages read | rows saved | where it stopped
+Construction | 1B-10B,10B-100B,100B-1T                  | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Construction | 500M-1B                                  | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Construction | 200M-500M                                | 1 | 20 | cap reached, hasMore=TRUE (unfinished)
+Civil Engineering | 1B-10B,10B-100B,100B-1T             | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Civil Engineering | 500M-1B                             | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Civil Engineering | 200M-500M                           | 1 | 20 | cap reached, hasMore=TRUE (unfinished)
+Building Materials | 1B-10B,10B-100B,100B-1T            | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Building Materials | 500M-1B                            | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Building Materials | 200M-500M                          | 1 | 20 | cap reached, hasMore=TRUE (unfinished)
+Wholesale Building Materials | 1B-10B,10B-100B,100B-1T  | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Wholesale Building Materials | 500M-1B                  | 2 | 40 | cap reached, hasMore=TRUE (unfinished)
+Wholesale Building Materials | 200M-500M                | 1 | 20 | cap reached, hasMore=TRUE (unfinished)
+
+Every query still had more pages when the cap stopped it. A later run can continue each with a fresh search
+(Clay taskIds do not carry over) or split by region/country.
+Total rows: 400. All four industries reached. No industry enum value was rejected.
+disc_check.py result: NEW 301, IN MASTER 64, ALREADY DELIVERED 12, LISTED 7, POSSIBLE 16.
+
+Row notes:
+- desc is the opening of Clay's description plus any owner/parent/listing sentence, shortened in places; nothing added from memory.
+- "Armstrong FlooringTM" is spelled as Clay gave it. "لايوجد" (Galactic Tiles, Jeddah) is Clay's name field as given.
+
+Observations (from Clay rows only, not verified):
+- Many rows are national subsidiaries, divisions or joint ventures of listed groups and should mostly drop under the national-entity
+  rule: Saint-Gobain (Spain, Türkiye, Brasil, India, Weber France, Distribution Bâtiment France, Isover France, British Gypsum,
+  CertainTeed), Holcim/Lafarge (Ecuador, Argentina, México, El-Djazaïr, Iraq, France, Xella), Heidelberg Materials (NA, UK, Hanson
+  Australia), Bouygues (Colas, Bouygues TP, Bouygues Construction), VINCI (Eurovia France, VINCI Concessions, Balfour Beatty VINCI JV),
+  ACS (Dragados, FlatironDragados), Sacyr (Chile, Perú, Colombia), Egis (France, India), Eiffage (Energía Sistemas, Sénégal),
+  Ferrovial/Cintra, Mota-Engil Portugal, Morgan Sindall Infrastructure, BAM UK & Ireland, CSCEC Middle East, Cemex España, Wavin (Orbia),
+  Roca Portugal/Polska, Knauf country units, SYSTRA India, TYLin Europe+LATAM, Ayesa UK & Ireland.
+- Rows whose descriptions say listed: Ferrovial (Nasdaq/IBEX), Orascom Construction (ADX/EGX), ENKA (BIST), Dexco (B3), Gafisa (B3),
+  Conconcreto (BVC), Kayson (public limited), plus Tecnoglass (row says privately held; investor site linked).
+- Not real companies or obvious bad data: ConstructionPlacements (job portal, says no employees), Civil Engineers World (media),
+  Sahil Jamwal Design Consultant (1 person, 500M-1B), Privado (2-10 staff, 1B-10B), Muqawlat (online marketplace),
+  Galactic Tiles (2-10 staff, 145,565 employees), CH2M / Halcrow / Louis Berger / Huttig (acquired, inactive pages).
+- Strong private / family candidates seen (for researchers): Bechtel, Kiewit, Hilti, BESIX, Archirodon, CCC, C.A.T. Group, Laing O'Rourke,
+  Jan De Nul, Van Oord, Doka (Umdasch), Mott MacDonald, Artelia, Exyte, Cosentino, Knauf, VELUX/VKR, Schüco, Tarkett, Gerflor, Kerakoll,
+  ARDEX, Aliaxis, ABC Supply, 84 Lumber, Pella, Andersen, Marvin, Quikrete, GAF / BMI (Standard Industries), Saudi Binladin, Nesma,
+  Alfanar, UCC Holding, ALEC, Hassan Allam, Kale Grubu, Grupo Lamosa, Corona, Votorantim Cimentos, Andrade Gutierrez.
+- Regions well represented: Gulf (Saudi, UAE, Qatar), Egypt, Turkey, Brazil, India; also Bangladesh, Chile, Peru, Algeria, Kenya.

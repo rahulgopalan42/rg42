@@ -1,0 +1,53 @@
+t48_mobility_platforms - batch 3, MODE sector - 28 Nov 2026
+Scope: public-transport operators, railways, toll roads, parking, bus/coach, ride-hailing, micromobility, car-sharing/subscription, taxi apps, urban-mobility tech.
+Stream: independent web research only (Clay and Crunchbase not used by this task). WebSearch used: 1 of 1.
+
+COUNTS
+- MAIN 32 (Route A 18, Route C 13, Route B 1); WATCH 13; DISC 200 lines; DUPS 62 lines.
+- Names run through check.py: about 260 (four calls). Results among DISC: NEW 173, IN MASTER 11, ALREADY DELIVERED 3, F1 PARTNER 1 (Waymo), LISTED/LISTED? 9, POSSIBLE 3.
+  Many more IN MASTER / delivered names are logged only in DUPS (Bolt, Careem, Cabify, inDrive, Lime, Dott, Voi, Hellobike, Keolis, Arriva, Go-Ahead,
+  Stagecoach, SMRT, OBB, Trenitalia, SNCF, SAR, Abertis, Telepass, ADR, Gett, Xanh SM, Bird, Optibus, Moove, Vay, BlaBlaCar, Turo, FINN, Arval, FlixBus,
+  Kinetic, SBB, DB, Renfe, Italo, Amtrak, Etihad Rail, etc.). Alias catches made by hand: Ola Cabs = Ola Consumer (in master); Hello TransTech = Hellobike;
+  Ferrovie dello Stato = parent of Trenitalia; Megabus = Stagecoach; Greyhound = Flix.
+- signals_checked = "yes" on 26 of 32 MAIN records; "no" on Globalvia, Moovit, Addison Lee, Masabi, Vinci Autoroutes, Delhi Metro (news pages 404/empty
+  and Wikipedia has no post-2024 events).
+
+SOURCES (names yielded)
+- en.wikipedia List_of_unicorn_startup_companies (first 100k chars only): 5 mobility names
+- en.wikipedia Ridesharing_company: 4
+- en.wikipedia Category:Parking_companies: 24 (of 32 pages)
+- en.wikipedia Category:Toll_road_operators: 6 (subcategories Malaysia, Norway, US authorities NOT opened)
+- en.wikipedia Category:Expressway_companies_of_Japan: 7
+- en.wikipedia Category:Carsharing: 22 used (of 68 pages)
+- en.wikipedia Category:Micromobility: 3
+- tech.eu "Transportation: 10 companies that raised the most in 2025": 10
+- dealroom.co Moove Series C article: 3; valueaddvc.com (via search summary): 3
+- Own candidate list from sector knowledge, checked with check.py (source field says so): the rest. Each researched name was verified on a page opened.
+- Research pages: Wikipedia (EN, FR, DE, NL, ES, JA, KO) plus company sites: ratpdev.com, transdev.com press, mundys.com, apcoa.com/news,
+  interparking.com/en/news, group-indigo.com (home + share ownership), free-now.com/press, moovit.com/press, goinc.jp/company, grupobrisa.pt, autostrade.it, aprr.com.
+- Refused/failed: asfinag.at (403), mowasalat.com (403), autostrade/mundys press URLs (404), korail, ns.nl, addisonlee, heetch, globalvia, egis news,
+  cubic news (empty), arrive.com/about-us (404); Wikipedia 404 for Indigo_Group, EasyPark, Kakao_Mobility, PLUS_Malaysia, Sanef, Swapfiets, Yulu,
+  Heetch, Cooltra, Be_Group, Cao_Cao_Mobility, Leasys, Mowasalat, Vy, Yunex, Towne_Park (wrong article), Secure_Parking.
+
+REGIONS COVERED
+Europe (FR, IT, ES, AT, NL, BE, DE, CZ, SE, UK, CH), North America (US, CA, MX), Japan, Korea, Hong Kong, India, Qatar, Morocco, Philippines,
+Israel, Australia (via Wilson Parking). Thin: China, South-East Asia, Latin America beyond Mexico, Africa, Gulf beyond Qatar, Turkey.
+
+JUDGEMENT CALLS
+- Left out for distress/compliance: Brightline (Chapter 11 Sept 2026), National Car Parks (administration 2026), T3 Mobility (CSRC investigation).
+  Egis put in WATCH although Route A is met, because of IDB sanction / ADB cross-debarment to Jan 2027. Iryo in WATCH (fatal 2026 accidents, no figures).
+- Left out as listed: GO Inc (TSE Growth June 2026), Via Transportation (NYSE Sept 2025), Getaround, Zoomcar, DiDi, Atlas Arteria, Kelsian.
+- Mundys kept although its holdings Abertis, Telepass and Aeroporti di Roma are on the master (Mundys itself is not). Globalvia kept though its
+  49% stake Go-Ahead is on the master. Moovit kept though parent Mobileye is on the master. Flag these for the user.
+- Several state operators (NEXCOs, Shutoko, Korail, NS, SJ, ASFINAG, DMRC) qualify on revenue but have weak fit; ratings say so.
+- Older figures flagged in records: NEXCO West revenue FY2019; NEXCO East FY2021; Shutoko FY2021; Cubic employees 2020; Moovit deal 2020.
+- RegioJet and Leo Express CZK figures left unconverted (no fixed CZK rate in the brief).
+- parent_listed set to "requires verification" where only memory said the parent is listed (Ageas, Ferrovial, Avis, Stellantis, Vinci, SHKP, Transport International).
+
+NOT DONE / REMAINING
+- 115 DISC names not researched, notably: EasyPark/Arrive, Towne Park, Q-Park (no current figures), Autostrade per l'Italia (no financials found),
+  Brisa, APRR (2016 figures only), Sanef, PLUS Malaysia, Korea Expressway (no revenue), Toll Collect, Yunex Traffic, Emovis, Cintra, Leasys, Heetch,
+  Zity, Yulu, Cooltra, Swapfiets, Be Group, TADA, Cao Cao, Shouqi, Mowasalat (Karwa), Riyadh Metro, Motiva/Ecovias (Brazil toll roads), Nobina, Vy,
+  Spare, Padam, Trafi, Luup, S.RIDE, Tmoney, 99, Little, Namma Yatri.
+- Not reached: Chinese ride-hailing and bus groups in depth, Brazilian bus groups, Gulf transport companies beyond Qatar Rail, African ride-hailing,
+  Turkish mobility (Martı is POSSIBLE vs Marti Holding in master). Nothing here is exhaustive.
