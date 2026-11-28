@@ -1,0 +1,36 @@
+r30_queue (batch 3, queue mode) - 28 Nov 2026
+INPUT in_q30.jsonl: 80 lines, all processed. WebSearch used: 0. Pages opened via curl/WebFetch (company sites, Wikipedia, PR Newswire, elEconomista, Hosteltur).
+Duplicate check: check.py run on all 80 names plus legal-suffix-free names, websites and parent names (Transgourmet, Coop, Stena Metall, Revelyst, Cleanaway, Insud Pharma, ITP Aero, Massimo Dutti, Serveo, Gadisa, Creative Artists Agency, Bouygues, Swatch, TUI, Playtika etc.).
+
+RESEARCHED
+MAIN (19): BLS, EQUANS, ESB, Everllence, National Beef, EVERSANA, EssenceMediacom, Opteon, Tyree Holdings, Mikel Coffee Company, Rado, Molkerei Ammerland, Tauw, Tentamus, Evalueserve, Munchy's, ESF Ecole du Ski Français, CCM Hockey, Exeltis.
+  Route A: BLS, EQUANS, ESB, Everllence, National Beef, Molkerei Ammerland, Tauw, ESF. Route B: Tyree. Route C: the rest.
+  Flags: BLS states on its own site that as a public institution it cannot pay financial sponsorships (kept in MAIN on revenue; fit near zero).
+  ESB, National Beef, ESF and Rado qualify on figures older than 3 years (flagged in fin.period).
+  Exeltis is the brand business unit of Insud Pharma, which is IN MASTER (Clay Leads, Unconfirmed): user may treat as same group.
+  Everllence: parent Volkswagen owns the Audi F1 team (sister-company conflict noted, not excluded).
+  Opteon, Tyree, Rado, CCM, ESF: conf low (thin Route C/B evidence).
+WATCH (21): A H Beard, Maxum Foods, Bec Feed Solutions, Audant Investments, Brompton, Magnuson Hotels, Majestic Hotel Group, Represent Clothing, Wooga, Ressence, Reusch, Campagnolo, Rev'It!, Kilsaran, Steinert, Yostar, ZETA DIVISION, WePlay Esports, Wooting, MIAT Mongolian Airlines, Mystic Cruises.
+  Kilsaran: input row came from IBISWorld's Australian private list but the only Kilsaran found is the Irish building-materials group; input figure not used.
+
+LEFT OUT (DUPS, 34)
+  Already delivered / in master: Transgourmet Iberica, Gadisa Retail, Serveo Servicios, Grupo Massimo Dutti, Industria De Turbo Propulsores (= ITP Aero), Stena Recycling (Stena Metall), Eren Holding (Eren Enerji), CAA (Creative Artists Agency), Tomra Cleanaway (Cleanaway JV), Bushnell (Revelyst brand).
+  Listed: Eramet, Energiedienst Holding (now Naturenergie, SIX), SungEel HiTech (KRX 365340).
+  Merged/discontinued: Milcobel (into FrieslandCampina 1 Jan 2026), UPC Schweiz (into Sunrise 2022).
+  Not a separate company: Interdiscount (Coop division), Comercializadora Regulada (Naturgy), Grup Supeco Maxor (Carrefour), EQUITONE ANZ (Etex), Samsung Electric (Schweiz), Nordex Energy Spain, Eurofins Medical Device Services Europe, Equans BeLux, Equans UK & Ireland, ESB International, Weibo Gaming (Weibo), Marella Cruises (TUI UK), Mugg & Bean (Famous Brands), etisalat Egypt (e&), Bundesliga International (DFL).
+  Not a commercial prospect: Equestrian Society of Ukraine, ETFG SEBRAE-MG school, Mauritius Tourism Promotion Authority.
+  Other exclusion: Revue Thommen (licensed name; reported Russian investor, citation needed).
+
+NOT RESEARCHED (no page could be opened; no line written)
+  Texco Construction (Vic) - texco.com.au does not resolve; other guesses failed.
+  Hall & Prior Aged Care - site behind Cloudflare challenge / 403.
+  Monarch Painting - site 403.
+  Zenexus - site 403/503.
+  Mpa Construction Group - two different Australian "MPA" builders found (mpa.com.au workplace fit-out, 150+ staff; mpaconstruction.com.au concrete); could not confirm which is the IBISWorld entity.
+  Texas Disposal Systems - site blocks requests (403), no Wikipedia article.
+  All six carry only old (FY2021/22) IBISWorld figures around USD 127-131m except Texas Disposal (no figure).
+
+GAPS
+  Several company sites refused access (Equans, EVERSANA, Texas Disposal); Equans and EVERSANA researched from Wikipedia / PR Newswire instead.
+  Owners not confirmed for EVERSANA, Tentamus, Evalueserve, Tauw, Opteon, Tyree.
+  signals_checked = "no" for 9 MAIN records where no newsroom/history page could be opened.

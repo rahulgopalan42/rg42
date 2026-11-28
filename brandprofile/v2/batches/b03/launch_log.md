@@ -113,3 +113,5 @@ launched: u09_pe_portfolio_b | finished: t55_gap_industrial_property (34 main, 1
 launched: t17_logistics | finished: k28_latam_spanish (34 main, 11 watch, 1,126 disc incl. Colombia's Supersociedades top 1,000; COP converted at an assumed rate)
 launched: r31_queue | finished: t56_gap_consumer_leisure (30 main, 15 watch, 332 disc). To check: Herend (Hungarian GP trophy maker) for a current Grand Prix deal
 launched: clay_c02 | finished: s14_signals (40 older-sheet brands: 31 with signals). AT BUILD: Shein completed a Hong Kong IPO in Aug 2026 per s14 -> must be out (listed)
+launched: f07_queue | finished: t10_utilities (36 main, 2 watch, 120 disc)
+launched: t18_oil_gas | finished: r30 (19/21)

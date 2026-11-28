@@ -1,0 +1,58 @@
+Batch 3, key t10_utilities (MODE sector). Worked 28 Nov 2026. Independent web research.
+Scope: power, gas, water and district-heating utilities (municipal, state, private), renewable developers, grid operators,
+nuclear, energy retailers, EV charging networks.
+
+COUNTS
+- MAIN 36 (Route A 27, Route C 9), WATCH 2, DISC 120 lines, DUPS 165 lines.
+- Target of 45 MAIN/WATCH NOT reached (38). Seven researched records were removed from MAIN because parallel batch-3 files
+  wrote the same company while I worked (Oncor, Puget Sound Energy, Ellevio -> u07; EPM -> r29; Cadent -> t55; NV Energy -> f02)
+  or check.py later showed it delivered (Wiener Stadtwerke, b02). All logged in DUPS.
+- check.py lookups: about 480 names (brainstorm list of 304 utility names, 110 second-pass names, 42 China-page names, ~25 parent
+  and alias checks). Of the 304 first-pass names: 69 not NEW (IN MASTER 38, ALREADY DELIVERED 27, F1 PARTNER 1 Sprng Energy,
+  LISTED? 3); a further ~45 NEW names were already written or queued by other batch-3 files and were not researched.
+- IMPORTANT check.py caveat: results differ with and without the website. Tibber, 1Komma5° and Tenaska came back NEW on name only
+  but IN MASTER / ALREADY DELIVERED with the website or alternative spelling. Brainstorm names checked without a website should be
+  re-checked before use. SMEG (Monaco utility, WATCH) matches "Smeg" on the master, which is the Italian appliance maker; user to
+  confirm they are different.
+- Researched but not written (in DISC with reasons): about 35, e.g. wpd and RES (ownership not found), Kelag (0.91% free float),
+  China Three Gorges and Energoatom (compliance), LEAG (EP Group parent likely in master), MVM, Fingrid, Essent, AusNet, Arevon,
+  Capital Energy, CPV, Just Energy.
+
+WEBSEARCH: 1 of 1 used (global utility revenue ranking) - gave only Statista/aggregator links; nothing extracted.
+
+SOURCES USED (names extracted)
+- Wikipedia, Electricity sector in China (first 100k chars): 42 names (Big Five, other SOEs, grid companies, 28 secondary companies);
+  all written to DISC with check results. https://en.wikipedia.org/wiki/Electricity_sector_in_China
+- Wikipedia, List of largest companies by revenue (Fortune Global 500 2026): 1 utility (State Grid, IN MASTER).
+- Fortune Global 500 company pages (2026): China Southern Power Grid, China Huaneng, China Datang, China Huadian, SPIC, China Energy
+  Investment (2018 data only). fortune.com/ranking/global500 itself shows only the top 10.
+- de.wikipedia Liste der größten Unternehmen in Deutschland: no utility table (only Thüga mentioned).
+- Company sites and Wikipedia articles (en, de, it, es, fr, pt) for each record: see `sources` in each line.
+Not opened / failed: Statista (paywall), csg.cn (403), smeg.mc (403), Indian IPP sites (Serentica DNS, AM Green timeout,
+Continuum 503, Ayana empty), Cypress Creek (DNS), Island Green Power (503), many Wikipedia titles 404 (Genneia, Lausitz Energie,
+Energy Queensland, Stockholm Exergi, Alliander, Fluvius, Sorgenia, Kalyon Holding, Intersect Power, So Energy, JEA, wpd).
+
+COVERAGE
+- Regions: China (5 central SOEs), US (7 incl. municipal/public power, IPP), Canada (5), Germany (4), Australia/NZ (5),
+  Austria, Switzerland, Italy, Finland, Latvia, Serbia, Turkey, Singapore, Brazil (1 each); WATCH Monaco, Azerbaijan.
+- Subsectors: state generators and grids, municipal multi-utilities, TSOs, nuclear (TVO), retailers (LichtBlick, Alinta),
+  renewable developers (Apex, Squadron, Comerc, Enerjisa Üretim), heat (STEAG/Iqony, Thüga network).
+- Signals: 15 of 36 MAIN records had a newsroom/news section or recent-events page checked (signals_checked "yes"); the rest
+  rely on one Wikipedia or Fortune page ("no").
+- Strongest F1 cases: Tuas Power (Singapore GP home market), Comerc Energia (São Paulo), Austin Energy (US GP host city),
+  Alinta Energy (consumer brand, ex-cricket sponsor, Sembcorp takeover), Alpiq (pan-European trader), Enerjisa Üretim,
+  Apex Clean Energy (Meta PPAs), Steag Iqony, Energie AG (athlete programme, Austrian GP market), Alperia (Italy).
+  Many state/municipal grid records (BPA, Oglethorpe, Transpower, CS Energy, SaskEnergy, TVO, Ellevio-type) meet a route but
+  have little or no F1 business case and are rated low.
+
+NOT REACHED / NEXT
+- Subsectors: EV charging networks (only checks: Allego listing unclear; Be Charge, Ewiva, Free To X, Mer, Osprey, Statiq,
+  ChargeZone are NEW and unresearched), water utilities (most already taken by other files), district heating (Stockholm Exergi,
+  Göteborg Energi, HOFOR, Coriance unresearched), Stadtwerke beyond Thüga/enercity (SachsenEnergie, N-ERGIE, GASAG, Trianel,
+  Stadtwerke Köln), Austrian/Swiss regional utilities (TIWAG, Salzburg AG, illwerke vkw, ewz, EKZ, Primeo, Groupe E).
+- Regions: Gulf (Nama, OQ Alternative Energy, SEWA, EWEC, Saudi Power Procurement), Turkey (Limak, Kalyon, CK Enerji, Bereket),
+  India (AM Green, Ayana, Juniper, Serentica, CleanMax, Continuum, SAEL, Sterlite Power), Japan (Japan Renewable Energy), Korea
+  (KEPCO gencos other than KOSEP), South-East Asia (EVN, Geneco/Seraya), Latin America (Casa dos Ventos, UTE, Itaipu), Africa
+  (Ethiopian Electric Power, Africa50, Red Rocket), UK independents (So Energy, Low Carbon, Statera, Island Green Power).
+- No list-type source was found for Stadtwerke rankings, renewable developer rankings or national utility lists in this session;
+  a next run should start from those. This is not exhaustive.
